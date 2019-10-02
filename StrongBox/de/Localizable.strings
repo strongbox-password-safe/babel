@@ -1249,7 +1249,7 @@
 "key_files_vc_section_header_imported" = "Importierte Schlüsseldateien (Autom. Ausfüllen aktiviert)";
 
 /* Application Local Files */
-"key_files_vc_section_header_local" = "Lokale Dateien der Anwendung";
+"key_files_vc_section_header_local" = "Documents Folder (Auto-Fill not supported)";
 
 /* No Key File */
 "key_files_vc_no_key_file" = "Keine Schlüsseldatei";
@@ -1591,7 +1591,7 @@
 "open_sequence_biometric_unlock_warn_not_configured_fmt" = "%@ wurde nicht eingerichtet oder das System hat es abgebrochen. Sie müssen jetzt Ihr Passwort manuell eingeben, um die Datenbank zu öffnen.";
 
 /* Error Reading Key File */
-"open_sequence_error_reading_key_file" = "Fehler beim Lesen der Schlüsseldatei";
+"open_sequence_error_reading_key_file" = "Could not read Key File. Has it been moved or deleted? Check Key Files Management in Preferences";
 
 /* Could Not Open Offline */
 "open_sequence_couldnt_open_offline_title" = "Konnte offline nicht geöffnet werden";
@@ -2092,3 +2092,6 @@
 
 /* Button Title to view backup settings of this database */
 "safes_vc_action_backups" = "Backups...";
+
+/* Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences */
+"open_sequence_error_reading_key_file_autofill_context" = "Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences";
