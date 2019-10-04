@@ -74,8 +74,6 @@ which will be rendered as:
 # Language Contributors
 Below is a list of the contributors for various languages so far.
 
-- Dutch
-    - @antelle
 - German
     - @Slummi
 - Russian
