@@ -1,4 +1,3 @@
-
 /* Cancel Button
    Cancel Option Button Title */
 "safes_vc_cancel" = "Отмена";
@@ -52,7 +51,7 @@
 "safes_vc_action_set_as_quick_launch" = "Включить быстрый запуск...";
 
 /* Button Title to Show in Files */
-"safes_vc_show_in_files" = "Show in 'Files'...";
+"safes_vc_show_in_files" = "Показать в приложении «Файлы»...";
 
 /* Button Title to Make AutoFillable */
 "safes_vc_make_autofillable" = "Включить функцию автозаполнения...";
@@ -125,7 +124,7 @@
 "safes_vc_copy_icloud_or_local" = "Копировать в iCloud или на локальное устройство?";
 
 /* Question message: copy to iCloud or to Local */
-"safes_vc_copy_local_to_icloud" = "iCloud в настоящее время включен. Вы хотите скопировать эту базу данных в iCloud сейчас или предпочитаете оставить только на локальном устройстве?";
+"safes_vc_copy_local_to_icloud" = "iCloud в настоящее время включен. Вы хотите скопировать эту базу данных в iCloud или предпочитаете оставить только на локальном устройстве?";
 
 /* Default button: Copy to Local */
 "safes_vc_copy_to_local" = "Оставить только на локальном устройстве";
@@ -134,7 +133,7 @@
 "safes_vc_copy_to_icloud" = "Скопировать в iCloud";
 
 /* Error Title Error Importing Datavase */
-"safes_vc_error_importing_database" = "Ошибка импорта базы данных";
+"safes_vc_error_importing_database" = "Ошибка импортирования базы данных";
 
 /* No comment provided by engineer. */
 "safes_vc_add_existing_database" = "Добавить существующую базу данных...";
@@ -224,7 +223,7 @@
 "safesvc_info_message_key_file_imported" = "Ключевой файл был успешно импортирован.";
 
 /* Problem Importing Key File */
-"safesvc_error_title_error_importing_key_file" = "Проблема с импортированием Ключевого файла";
+"safesvc_error_title_error_importing_key_file" = "Проблема с импортированием ключевого файла";
 
 /* Invalid Database - [%@] */
 "safesvc_error_title_import_database_fmt" = "[%@] - неверная база данных";
@@ -263,10 +262,10 @@
 "safesvc_copy_database_to_location_title" = "Копировать в iCloud или на локальное устройство?";
 
 /* iCloud is currently enabled. Would you like to copy this database to iCloud now, or would you prefer to keep on your local device only? */
-"safesvc_copy_database_to_location_message" = "iCloud в настоящее время включен. Вы хотите скопировать эту базу данных в iCloud сейчас или предпочитаете оставить только на локальном устройстве?";
+"safesvc_copy_database_to_location_message" = "iCloud в настоящее время включен. Вы хотите скопировать эту базу данных в iCloud или предпочитаете оставить только на локальном устройстве?";
 
 /* Copy to Local Device Only */
-"safesvc_copy_database_option_to_local" = "Keep on Local Device Only";
+"safesvc_copy_database_option_to_local" = "Оставить только на локальном устройстве";
 
 /* Copy to iCloud */
 "safesvc_copy_database_option_to_icloud" = "Скопировать в iCloud";
@@ -597,7 +596,7 @@
 "casg_suggested_database_name_users_database_fmt" = "База данных - %@";
 
 /* %@'s Database %d */
-"casg_suggested_database_name_users_database_number_suffix_fmt" = "База данных %d - %@";
+"casg_suggested_database_name_users_database_number_suffix_fmt" = "База данных - %@ %d";
 
 /* Password */
 "casg_text_field_placeholder_password" = "Пароль";
@@ -774,7 +773,7 @@
 "item_details_setup_totp_qr_code" = "QR-код...";
 
 /* Please enter the secret or an OTPAuth URL */
-"item_details_setup_totp_secret_message" = "Пожалуйста введите секретный ключ или ссылку OTPAuth";
+"item_details_setup_totp_secret_message" = "Пожалуйста, введите секретный ключ или ссылку OTPAuth";
 
 /* Secret or OTPAuth URL */
 "item_details_setup_totp_secret_title" = "Секретный ключ или ссылка OTPAuth";
@@ -876,7 +875,7 @@
 "prefs_vc_info_cannot_open_app_store_title" = "Невозможно открыть App Store";
 
 /* Please be extremely careful with this setting particularly if you are using Biometric ID for application lock. This will delete permanently any local device databases and all preferences. */
-"prefs_vc_info_data_deletion_care_required_message" = "Please be extremely careful as this will delete permanently any local device databases and all preferences.";
+"prefs_vc_info_data_deletion_care_required_message" = "Пожалуйста, будьте предельно осторожны, т. к. все локальные базы данных и все настройки будут удалены с этого устройства.";
 
 /* DATA DELETION: Care Required */
 "prefs_vc_info_data_deletion_care_required_title" = "ВНИМАНИЕ! УДАЛЕНИЕ ДАННЫХ";
@@ -1250,7 +1249,7 @@
 "key_files_vc_section_header_imported" = "Импортированные ключевые файлы (автозаполнение включено)";
 
 /* Application Local Files */
-"key_files_vc_section_header_local" = "Documents Folder (Auto-Fill not supported)";
+"key_files_vc_section_header_local" = "Папка документов (автозаполнение не поддерживается)";
 
 /* No Key File */
 "key_files_vc_no_key_file" = "Нет ключевого файла";
@@ -1592,7 +1591,7 @@
 "open_sequence_biometric_unlock_warn_not_configured_fmt" = "%@ не был настроен или система аннулировала его. Теперь Вы должны ввести свой пароль вручную, чтобы открыть базу данных.";
 
 /* Error Reading Key File */
-"open_sequence_error_reading_key_file" = "Could not read Key File. Has it been moved or deleted? Check Key Files Management in Preferences";
+"open_sequence_error_reading_key_file" = "Не удалось открыть ключевой файл. Возможно он был перемещён или удалён? Проверьте управление ключевыми файлами в настройках";
 
 /* Could Not Open Offline */
 "open_sequence_couldnt_open_offline_title" = "Не удалось открыть в офлайн режиме";
@@ -1972,7 +1971,7 @@
 "safes_vc_tip" = "Совет: Смахните влево базу данных для выбора параметров";
 
 /* Tip: Tap to Copy, Double Tap to Launch URL or Copy Notes */
-"item_details_tip" = "Совет: Нажмите единожды для копирования, дважды для запуска URL или копирования заметок";
+"item_details_tip" = "Совет: Нажмите единожды для копирования, дважды для запуска URL или копирования примечания";
 
 /* Tip: Slide Left for Options or Tap to View */
 "keepass_history_tip" = "Совет: Смахните влево для выбора параметров или нажмите, чтобы просмотреть";
@@ -2056,43 +2055,43 @@
 "database_metadata_field_argon2_memory" = "Память Argon2";
 
 /* Are you sure you want to Remove this backup? */
-"backup_vc_are_you_sure_remove" = "Are you sure you want to Remove this backup?";
+"backup_vc_are_you_sure_remove" = "Вы уверены, что хотите удалить эту резервную копию?";
 
 /* This backup has been added to your databases */
-"backup_vc_backup_added_to_databases" = "This backup has been added to your databases";
+"backup_vc_backup_added_to_databases" = "Эта резервная копия была добавлена в Ваши базы данных";
 
 /* Add as Local Database */
-"backups_add_local" = "Add to Databases";
+"backups_add_local" = "Добавить как локальную базу данных";
 
 /* Are you sure you want to delete all backups? */
-"backups_vc_delete_all_backups_prompt_message" = "Are you sure you want to delete all backups?";
+"backups_vc_delete_all_backups_prompt_message" = "Вы уверены, что хотите удалить все резервные копии?";
 
 /* Set Maximum Backup Keep Count */
-"backups_vc_set_max_keep_count_title" = "Set Maximum Backup Keep Count";
+"backups_vc_set_max_keep_count_title" = "Установить максимальное количество резервных копий";
 
 /* You cannot use convenience unlock with a one time key file. */
-"config_error_one_time_key_file_convenience_message" = "You cannot use convenience unlock with a one time key file.";
+"config_error_one_time_key_file_convenience_message" = "Вы не можете использовать комфортную разблокировку с одноразовым ключевым файлом.";
 
 /* One Time Key File Problem */
-"config_error_one_time_key_file_convenience_title" = "One Time Key File Problem";
+"config_error_one_time_key_file_convenience_title" = "Проблема с одноразовым ключевым файлом";
 
 /* Done */
-"generic_done" = "Done";
+"generic_done" = "Готово";
 
 /* Error */
-"generic_error" = "Error";
+"generic_error" = "Ошибка";
 
 /* Export */
-"generic_export" = "Export";
+"generic_export" = "Экспорт";
 
 /* Remove */
-"generic_remove" = "Remove";
+"generic_remove" = "Удалить";
 
 /* Could not write backup, will not proceed with write of database! */
-"model_error_cannot_write_backup" = "Could not write backup, will not proceed with write of database!";
+"model_error_cannot_write_backup" = "Не удалось создать резервную копию, создание базы данных будет остановлено!";
 
 /* Button Title to view backup settings of this database */
-"safes_vc_action_backups" = "Backups...";
+"safes_vc_action_backups" = "Резервные копии...";
 
 /* Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences */
-"open_sequence_error_reading_key_file_autofill_context" = "Не удалось прочитать ключевой файл. Был ли он импортирован правильно? Проверьте управление ключевыми файлами в настройках";
+"open_sequence_error_reading_key_file_autofill_context" = "Не удалось открыть ключевой файл. Возможно он не был правильно импортирован? Проверьте управление ключевыми файлами в настройках.";
