@@ -145,7 +145,7 @@
 "safes_vc_new_database_express" = "Нова база паролів (Швидко)";
 
 /* No comment provided by engineer. */
-"safes_vc_error_pin_incorrect_title" = "Неправильний PIN-код";
+"safes_vc_error_pin_incorrect_title" = "Неправильний ПІН";
 
 /* No comment provided by engineer. */
 "safes_vc_error_pin_incorrect_message" = "Це неправильний ПІН-код.";
@@ -848,10 +848,10 @@
 "prefs_vc_clear_clipboard_delay" = "Затримка очищення буфера обміну";
 
 /* This will clear any existing databases with stored Master Credentials that are backed by PIN Codes */
-"prefs_vc_clear_pin_codes_yesno_message" = "Це зітре будь-які наявні бази паролів зі збереженими PIN-кодами";
+"prefs_vc_clear_pin_codes_yesno_message" = "Це зітре будь-які наявні бази паролів зі збереженими ПІН-кодами";
 
 /* Clear PIN Codes */
-"prefs_vc_clear_pin_codes_yesno_title" = "Стерти PIN-коди";
+"prefs_vc_clear_pin_codes_yesno_title" = "Стерти ПІН-коди";
 
 /* Sessions (%d) */
 "prefs_vc_cloud_sessions_count_fmt" = "Сеанси (%d)";
@@ -860,7 +860,7 @@
 "prefs_vc_cloud_sessions_count_none" = "Немає сеансів";
 
 /* Confirm PIN */
-"prefs_vc_confirm_pin" = "Підтвердити PIN";
+"prefs_vc_confirm_pin" = "Підтвердити ПІН";
 
 /* Delete Data Failed Attempt Count */
 "prefs_vc_delete_data_attempt_count" = "Кількість невдалих спроб для видалення даних";
@@ -893,10 +893,10 @@
 "prefs_vc_master_password_icloud_migration_yesno_warning_title" = "Попередження про головний пароль";
 
 /* Your PINs do not match. */
-"prefs_vc_pins_dont_match_warning_message" = "Ваші PIN-коди відрізняються.";
+"prefs_vc_pins_dont_match_warning_message" = "Ваші ПІН-коди відрізняються.";
 
 /* PINs do not match */
-"prefs_vc_pins_dont_match_warning_title" = "PIN-коди не збігаються";
+"prefs_vc_pins_dont_match_warning_title" = "ПІН-коди не збігаються";
 
 /* Disabled */
 "prefs_vc_setting_disabled" = "Вимкнено";
@@ -1134,79 +1134,79 @@
 "export_vc_export_successful_message" = "Вашу базу паролів було успішно експортовано.";
 
 /* Error Writing Database */
-"export_vc_error_writing" = "Error Writing Database";
+"export_vc_error_writing" = "Помилка запису в базу паролів";
 
 /* Error Exporting */
-"export_vc_error_exporting" = "Error Exporting";
+"export_vc_error_exporting" = "Помилка експорту";
 
 /* Turn Convenience PIN Off */
-"pins_config_vc_button_title_turn_convenience_pin_off" = "Turn Convenience PIN Off";
+"pins_config_vc_button_title_turn_convenience_pin_off" = "Вимкнути зручний ПІН";
 
 /* Turn Convenience PIN On */
-"pins_config_vc_button_title_turn_convenience_pin_on" = "Turn Convenience PIN On";
+"pins_config_vc_button_title_turn_convenience_pin_on" = "Увімкнути зручний ПІН";
 
 /* Turn Duress PIN Off */
-"pins_config_vc_button_title_turn_duress_pin_off" = "Turn Duress PIN Off";
+"pins_config_vc_button_title_turn_duress_pin_off" = "Вимкнути примусовий ПІН";
 
 /* Turn Duress PIN On */
-"pins_config_vc_button_title_turn_duress_pin_on" = "Turn Duress PIN On";
+"pins_config_vc_button_title_turn_duress_pin_on" = "Увімкнути примусовий ПІН";
 
 /* Delete Database */
-"pins_config_vc_label_delete_database" = "Delete Database";
+"pins_config_vc_label_delete_database" = "Видалити базу паролів";
 
 /* Local Device database will be permanently deleted. */
-"pins_config_vc_label_delete_database_local_permanent" = "Local Device database will be permanently deleted.";
+"pins_config_vc_label_delete_database_local_permanent" = "Локальна база паролів на пристрої остаточно видалиться.";
 
 /* iCloud database will be permanently deleted from iCloud. */
-"pins_config_vc_label_delete_database_icloud_permanent" = "iCloud database will be permanently deleted from iCloud.";
+"pins_config_vc_label_delete_database_icloud_permanent" = "База паролів iCloud остаточно видалиться з iCloud.";
 
 /* Remove Database from Strongbox */
-"pins_config_vc_label_remove_database" = "Remove Database from Strongbox";
+"pins_config_vc_label_remove_database" = "Вилучити базу паролів зі Strongbox";
 
 /* NB: Database file will remain on remote storage. */
-"pins_config_vc_label_remove_database_warning" = "NB: Database file will remain on remote storage.";
+"pins_config_vc_label_remove_database_warning" = "Примітка: Файл бази паролів залишиться у віддаленому сховищі.";
 
 /* PIN Codes (Pro Feature Only) */
-"pins_config_vc_title_pro_only" = "PIN Codes (Pro Feature Only)";
+"pins_config_vc_title_pro_only" = "ПІН-коди (Функція Pro)";
 
 /* Turning the PIN Off for this database will remove the securely stored password and you will have to enter it again. Are you sure you want to do this? */
-"pins_config_vc_turn_pin_off_warning" = "Turning the PIN Off for this database will remove the securely stored password and you will have to enter it again. Are you sure you want to do this?";
+"pins_config_vc_turn_pin_off_warning" = "Вимкнення ПІН-коду для цієї бази паролів вилучить надійно збережений пароль і вам доведеться вводити його знову. Ви справді хочете продовжити?";
 
 /* Are you sure you want to turn off the PIN for this database? */
-"pins_config_vc_turn_pin_off_confirm" = "Are you sure you want to turn off the PIN for this database?";
+"pins_config_vc_turn_pin_off_confirm" = "Ви дійсно хочете вимкнути ПІН для цієї бази паролів?";
 
 /* Turn off PIN? */
-"pins_config_vc_turn_pin_off_prompt_title" = "Turn off PIN?";
+"pins_config_vc_turn_pin_off_prompt_title" = "Вимкнути ПІН?";
 
 /* Enter Duress PIN */
-"pins_config_vc_enter_duress_pin" = "Enter Duress PIN";
+"pins_config_vc_enter_duress_pin" = "Введіть примусовий ПІН";
 
 /* PIN Conflict */
-"pins_config_vc_error_pin_conflict_title" = "PIN Conflict";
+"pins_config_vc_error_pin_conflict_title" = "Конфлікт ПІН-кодів";
 
 /* Your Convenience PIN conflicts with your Duress PIN. Please select another. */
-"pins_config_vc_error_pin_conflict_message" = "Your Convenience PIN conflicts with your Duress PIN. Please select another.";
+"pins_config_vc_error_pin_conflict_message" = "Ваш зручний ПІН має конфлікт з примусовим ПІН. Оберіть інший код.";
 
 /* Warning */
-"pins_config_vc_warn_remove_database_title" = "Warning";
+"pins_config_vc_warn_remove_database_title" = "Попередження";
 
 /* This will permanently delete the database file. */
-"pins_config_vc_warn_remove_database_delete_message" = "This will permanently delete the database file.";
+"pins_config_vc_warn_remove_database_delete_message" = "Ця дія остаточно видалить файл бази паролів.";
 
 /* This will remove the database from Strongbox but the underlying file will remain on cloud storage */
-"pins_config_vc_warn_remove_database_remove_message" = "This will remove the database from Strongbox but the underlying file will remain on cloud storage";
+"pins_config_vc_warn_remove_database_remove_message" = "Ця дія вилучить базу паролів зі Strongbox, але основний файл залишиться в хмарному сховищі";
 
 /* Manage Key Files */
-"key_files_vc_manage_title" = "Manage Key Files";
+"key_files_vc_manage_title" = "Керувати ключовими файлами";
 
 /* Select Key File */
-"key_files_vc_select_title" = "Select Key File";
+"key_files_vc_select_title" = "Оберіть ключовий файл";
 
 /* No Key Files Found. Tap '+' to import one. */
-"key_files_vc_empty_key_files_title" = "No Key Files Found. Tap '+' to import one.";
+"key_files_vc_empty_key_files_title" = "Не знайдено ключових файлів. Торкніться до \"+\" для імпорту.";
 
 /* One Time Key File Source */
-"key_files_vc_one_time_key_file_source_title" = "One Time Key File Source";
+"key_files_vc_one_time_key_file_source_title" = "Джерело одноразового ключового файлу";
 
 /* Select where you would like to choose your Key File from. This file will not be stored locally or remembered. */
 "key_files_vc_one_time_key_file_source_message" = "Select where you would like to choose your Key File from. This file will not be stored locally or remembered.";
