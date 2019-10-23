@@ -542,7 +542,7 @@
 "casg_database_format_information_kp31" = "KDBX 3.1, Salsa20 und AES (am kompatibelsten)";
 
 /* KDBX 4.0, ChaCha20, Argon2D (GPU Brute Force Resistant) */
-"casg_database_format_information_kp4" = "KDBX 4.0, ChaCha20, Argon2D (GPU Brute Force Resistant)";
+"casg_database_format_information_kp4" = "KDBX 4.0, ChaCha20, Argon2D (GPU Brute Force Widerstandsfähigkeit)";
 
 /* PSAFE3 version 3.x, TwoFish, SHA256 */
 "casg_database_format_information_pwsafe" = "PSAFE3 Version 3.x, TwoFish, SHA256";
@@ -830,7 +830,7 @@
 "prefs_vc_app_version_info_free_fmt" = "Lite Version %@ (Bitte aktualisieren)";
 
 /* Pro Version %@ */
-"prefs_vc_app_version_info_pro_fmt" = "Pro Version %@";
+"prefs_vc_app_version_info_pro_fmt" = "Pro-Version %@";
 
 /* Pro Version %@ (Trial - %ld days left) */
 "prefs_vc_app_version_info_pro_trial_fmt" = "Pro Version %@ (Testversion - %ld Tage übrig)";
@@ -887,7 +887,7 @@
 "prefs_vc_info_email_not_available_title" = "E-Mail nicht verfügbar";
 
 /* It is very important that you know your master password for your databases, and that you are not relying entirely on %@.\nThe migration and importation process makes every effort to maintain %@ data but it is not guaranteed. In any case it is important that you always know your master passwords.\n\nDo you want to continue changing iCloud usage settings? */
-"prefs_vc_master_password_icloud_migration_yesno_warning_message_fmt" = "Es ist sehr wichtig, dass Sie Ihr Master-Passwort für Ihre Datenbanken kennen und dass Sie sich nicht vollständig auf %@ verlassen.\nDer Migrations- und Import-Prozess unternehmen alles Mögliche, um die %@-Daten zu erhalten, aber es ist nicht garantiert. Es ist auf jeden Fall wichtig, dass Sie Ihre Master-Passwörter immer kennen.\n\nMöchten Sie mit dem Ändern der iCloud-Nutzungseinstellungen fortfahren?";
+"prefs_vc_master_password_icloud_migration_yesno_warning_message_fmt" = "Es ist sehr wichtig, dass Sie das Master-Passwort für Ihre Datenbanken kennen und dass Sie sich nicht vollständig auf %@ verlassen.\nDer Migrations- und Import-Prozess wird alles versuchen, um die %@-Daten zu erhalten. Dies kann jedoch nicht garantiert werden. Es ist in jedem Fall wichtig, dass Sie Ihre Master-Passwörter immer kennen.\n\nMöchten Sie mit dem Ändern der Einstellungen zur iCloud-Nutzung fortfahren?";
 
 /* Master Password Warning */
 "prefs_vc_master_password_icloud_migration_yesno_warning_title" = "Master-Passwort-Warnung";
@@ -909,9 +909,6 @@
 
 /* Use iCloud (Unavailable) */
 "prefs_vc_use_icloud_disabled" = "iCloud verwenden (Nicht verfügbar)";
-
-/* Loading... */
-"sbtvc_empty_table_loading" = "Lädt ...";
 
 /* No Files or Folders Found */
 "sbtvc_empty_table_no_files_found" = "Keine Dateien oder Ordner gefunden";
@@ -935,7 +932,7 @@
 "sbtvc_select_new_database_location" = "Ordner für neue Datenbank auswählen";
 
 /* Face ID */
-"settings_face_id_name" = "Face-ID";
+"settings_face_id_name" = "Face ID";
 
 /* Touch ID */
 "settings_touch_id_name" = "Touch-ID";
@@ -947,7 +944,7 @@
 "sspc_error_invalid_database" = "Ungültige Datenbank";
 
 /* Files... */
-"sspc_ios_files_storage_location" = "Dateien ...";
+"sspc_ios_files_storage_location" = "Dateien...";
 
 /* Since a local database is only stored on this device, any loss of this device will lead to the loss of all passwords stored within this database. You may want to consider using a cloud storage provider, such as the ones supported by Strongbox to avoid catastrophic data loss.\n\nWould you still like to proceed with creating a local device database? */
 "sspc_local_device_storage_warning_message" = "Da eine lokale Datenbank nur auf diesem Gerät gespeichert wird, führt ein Verlust des Gerätes zum Verlust aller Passwörter, die in der Datenbank gespeichert sind. Um einen Datenverlust zu verhindern, sollten Sie in Betracht ziehen, einen der von Strongbox unterstützten Cloudspeicher-Anbieter zu verwenden.\n\nMöchten Sie dennoch mit dem Erstellen einer lokalen Gerätedatenbank fortfahren?";
@@ -1026,9 +1023,6 @@
 
 /* Restoration Unsuccessful */
 "upgrade_vc_restore_unsuccessful_title" = "Wiederherstellung nicht erfolgreich";
-
-/* Loading... */
-"upgrade_vc_subtitle_loading_price" = "Lädt ...";
 
 /* Yearly */
 "upgrade_vc_yearly_subscription_title" = "Jährlich";
@@ -1218,7 +1212,7 @@
 "key_files_vc_one_time_key_file_source_message" = "Wählen Sie aus, wo Sie Ihre Schlüsseldatei aussuchen möchten. Diese Datei wird nicht lokal gespeichert oder vermerkt.";
 
 /* Files... */
-"key_files_vc_one_time_key_file_source_option_files" = "Dateien ...";
+"key_files_vc_one_time_key_file_source_option_files" = "Dateien...";
 
 /* Photo Library... */
 "key_files_vc_one_time_key_file_source_option_photos" = "Fotobibliothek ...";
@@ -1249,7 +1243,7 @@
 "key_files_vc_section_header_imported" = "Importierte Schlüsseldateien (Autom. Ausfüllen aktiviert)";
 
 /* Application Local Files */
-"key_files_vc_section_header_local" = "Documents Folder (Auto-Fill not supported)";
+"key_files_vc_section_header_local" = "Dokumenten-Ordner (Auto-Fill nicht unterstützt)";
 
 /* No Key File */
 "key_files_vc_no_key_file" = "Keine Schlüsseldatei";
@@ -1558,7 +1552,7 @@
 "open_sequence_prompt_database_reselect_required_title" = "Auswahl der Datenbank-Datei erforderlich";
 
 /* For technical reasons, you need to re-select your database file to enable Auto Fill. You will only need to do this once.\n\nThanks!\n-Mark */
-"open_sequence_prompt_database_reselect_required_message" = "Aus technischen Gründen müssen Sie Ihre Datenbank-Datei erneut auswählen, um das autom. Ausfüllen zu aktivieren. Sie müssen das nur einmal machen.\n\nDanke!\n-Mark";
+"open_sequence_prompt_database_reselect_required_message" = "Aus technischen Gründen müssen Sie Ihre Datenbank-Datei erneut auswählen, um das automatische Ausfüllen zu aktivieren. Sie müssen dies nur einmal tun.\n\nDanke!\n-Mark";
 
 /* %d attempts remaining */
 "open_sequence_pin_attempts_remaining_fmt" = "%d Versuche übrig";
@@ -1579,7 +1573,7 @@
 "open_sequence_biometric_unlock_prompt_title" = "Identifizieren, um die Datenbank freizuschalten";
 
 /* Unlock Manually... */
-"open_sequence_biometric_unlock_fallback" = "Manuell freischalten ...";
+"open_sequence_biometric_unlock_fallback" = "Manuell freischalten...";
 
 /* %@ Failed */
 "open_sequence_biometric_unlock_warn_failed_title_fmt" = "%@ fehlgeschlagen";
@@ -1587,8 +1581,8 @@
 /* %@ Authentication Failed. You must now enter your password manually to open the database. */
 "open_sequence_biometric_unlock_warn_failed_message_fmt" = "%@ Authentifizierung fehlgeschlagen. Sie müssen jetzt ihr Passwort manuell eingeben, um die Datenbank zu öffnen.";
 
-/* %@ has not been setup or system has cancelled. You must now enter your password manually to open the database. */
-"open_sequence_biometric_unlock_warn_not_configured_fmt" = "%@ wurde nicht eingerichtet oder das System hat es abgebrochen. Sie müssen jetzt Ihr Passwort manuell eingeben, um die Datenbank zu öffnen.";
+/* %@ has failed: %@. You must now enter your password manually to open the database. */
+"open_sequence_biometric_unlock_warn_not_configured_fmt" = "%@ fehlgeschlagen: %@. Sie müssen Ihr Passwort nun manuell eingeben, um die Datenbank zu öffnen.";
 
 /* Error Reading Key File */
 "open_sequence_error_reading_key_file" = "Could not read Key File. Has it been moved or deleted? Check Key Files Management in Preferences";
@@ -1614,7 +1608,7 @@
 "open_sequence_autofill_creash_likely_message" = "Ihre Datenbank hat Verschlüsselungseinstellungen, die verursachen können, dass die Erweiterungen zum automatischen Ausfüllen von iOS-Passwörtern wegen übermäßigen Ressourcenverbrauch beendet werden. D. h., dass das automatische Ausfüllen nicht zu funktionieren scheint. Leider ist das ein Limit, das von Apple auferlegt wird. Sie könnten in Betracht ziehen, die verbrauchte Ressourcenmenge durch Ihre Verschlüsselungseinstellungen (insbesondere Speicher mit Argon2 auf unter 64 MB) zu reduzieren.";
 
 /* Decrypting... */
-"open_sequence_progress_decrypting" = "Wird verschlüsselt ...";
+"open_sequence_progress_decrypting" = "Wird entschlüsselt...";
 
 /* The Convenience Password or Key File were incorrect for this database. Convenience Unlock Disabled. */
 "open_sequence_problem_opening_convenience_incorrect_message" = "Das Komfort-Passwort oder die Schlüsseldatei waren für diese Datenbank falsch. Komfort-Schloss deaktiviert.";
@@ -1635,13 +1629,13 @@
 "open_sequence_prompt_use_convenience_both_title_fmt" = "Komfort-Schloss: %@ oder PIN-Code in Zukunft verwenden?";
 
 /* You can use either %@ or a convenience PIN Code to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use one of these methods, please select from below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
-"open_sequence_prompt_use_convenience_both_message_fmt" = "Sie können entweder %@ oder einen Komfort-PIN-Code zum Freischalten dieser Datenbank verwenden. Auch wenn das bequem ist, kann es die Sicherheit der Datenbank auf diesem Gerät reduzieren. Falls Sie das verwenden möchten, wählen Sie es bitte unten aus oder wählen Sie Nein aus, um mit Ihrem Master-Passwort fortzufahren.\n\n*Wichtig: Sie müssen sich IMMER an Ihr Master-Passwort erinnern";
+"open_sequence_prompt_use_convenience_both_message_fmt" = "Sie können entweder %@ oder einen Komfort-PIN-Code zum Freischalten dieser Datenbank verwenden. Auch wenn das bequem ist, kann es die Sicherheit der Datenbank auf diesem Gerät reduzieren. Falls Sie die Funktion dennoch verwenden möchten, wählen Sie dies bitte unten aus oder wählen Sie 'Nein', um mit Ihrem Master-Passwort fortzufahren.\n\n*Wichtig: Sie müssen sich IMMER an Ihr Master-Passwort erinnern";
 
 /* Convenience Unlock: Use %@ to Unlock in Future? */
 "open_sequence_prompt_use_convenience_bio_title_fmt" = "Komfort-Schloss: %@ in Zukunft zum Freischalten verwenden?";
 
 /* You can use %@ to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use this then please select it below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
-"open_sequence_prompt_use_convenience_bio_message_fmt" = "Sie können %@ zum Freischalten dieser Datenbank verwenden. Auch wenn das bequem ist, kann es die Sicherheit der Datenbank auf diesem Gerät reduzieren. Falls Sie das verwenden möchten, wählen Sie es bitte unten aus oder wählen Sie Nein aus, um mit Ihrem Master-Passwort fortzufahren.\n\n*Wichtig: Sie müssen sich IMMER an Ihr Master-Passwort erinnern";
+"open_sequence_prompt_use_convenience_bio_message_fmt" = "Sie können %@ zum Freischalten dieser Datenbank verwenden. Auch wenn das bequem ist, kann es die Sicherheit der Datenbank auf diesem Gerät reduzieren. Falls Sie die Funktion dennoch verwenden möchten, wählen Sie dies bitte unten aus oder wählen Sie 'Nein', um mit Ihrem Master-Passwort fortzufahren.\n\n*Wichtig: Sie müssen sich IMMER an Ihr Master-Passwort erinnern";
 
 /* Convenience Unlock: Use a PIN Code to Unlock in Future? */
 "open_sequence_prompt_use_convenience_pin_title" = "Komfort-Schloss: PIN-Code in Zukunft zum Freischalten verwenden?";
@@ -2075,6 +2069,28 @@
 /* One Time Key File Problem */
 "config_error_one_time_key_file_convenience_title" = "One Time Key File Problem";
 
+/* Could not write backup, will not proceed with write of database! */
+"model_error_cannot_write_backup" = "Could not write backup, will not proceed with write of database!";
+
+/* Button Title to view backup settings of this database */
+"safes_vc_action_backups" = "Backups...";
+
+/* Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences */
+"open_sequence_error_reading_key_file_autofill_context" = "Die Schlüsseldatei konnte nicht gelesen werden. Bitte überprüfen Sie in den Einstellungen unter \\"Schlüsseldatei verwalten\\", ob die Datei richtig importiert wurde.";
+
+/* Local Network (Built In Http Server for Upload) with a Wifi Icon... */
+"sspc_local_network_storage_location" = "Übertragung über lokales Netzwerk";
+
+"storage_provider_status_reading" = "Lese...";
+
+"open_sequence_biometric_unlock_preferences_message" = "Identify to Open Preferences";
+
+/* Message to display when device is offline and has no IP address in Local HTTP Transfer - Select Storage -> Transfer over Local Network */
+"transfer_local_network_network_unavailable_message" = "Es sieht so aus als wären Sie offline?";
+
+/* Loading... */
+"generic_loading" = "Lade...";
+
 /* Done */
 "generic_done" = "Fertig";
 
@@ -2087,13 +2103,17 @@
 /* Remove */
 "generic_remove" = "Entfernen";
 
-/* Could not write backup, will not proceed with write of database! */
-"model_error_cannot_write_backup" = "Could not write backup, will not proceed with write of database!";
+/* Title of info dialog about Family Sharing upgrade */
+"upgrade_family_sharing_info_title" = "Familienfreigabe";
 
-/* Button Title to view backup settings of this database */
-"safes_vc_action_backups" = "Backups...";
+/* A message about how you will need to download/purchase a separate App for Family Sharing to work */
+"upgrade_family_sharing_info_message" = "Um von der Familienfreigabe zu profitieren, sollten Sie die separate Family Edition kaufen. Tippen Sie auf OK, um diese Version im App Store anzuzeigen.";
 
-/* Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences */
+/* Need Family Sharing? */
+"upgrade_family_sharing_button_title" = "Benötigen Sie die Familienfreigabe?";
+
+/* Need Family Sharing? */
+"upgrade_family_sharing_button_subtitle" = "Für weitere Informationen tippen...";
 
 /* Local Network (Built In Http Server for Upload) with a Wifi Icon... */
 "sspc_local_network_storage_location" = "Übertragung über lokales Netzwerk";

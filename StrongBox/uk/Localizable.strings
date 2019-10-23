@@ -145,7 +145,7 @@
 "safes_vc_new_database_express" = "Нова база паролів (Швидко)";
 
 /* No comment provided by engineer. */
-"safes_vc_error_pin_incorrect_title" = "Неправильний PIN-код";
+"safes_vc_error_pin_incorrect_title" = "Неправильний ПІН";
 
 /* No comment provided by engineer. */
 "safes_vc_error_pin_incorrect_message" = "Це неправильний ПІН-код.";
@@ -848,10 +848,10 @@
 "prefs_vc_clear_clipboard_delay" = "Затримка очищення буфера обміну";
 
 /* This will clear any existing databases with stored Master Credentials that are backed by PIN Codes */
-"prefs_vc_clear_pin_codes_yesno_message" = "Це зітре будь-які наявні бази паролів зі збереженими PIN-кодами";
+"prefs_vc_clear_pin_codes_yesno_message" = "Це зітре будь-які наявні бази паролів зі збереженими ПІН-кодами";
 
 /* Clear PIN Codes */
-"prefs_vc_clear_pin_codes_yesno_title" = "Стерти PIN-коди";
+"prefs_vc_clear_pin_codes_yesno_title" = "Стерти ПІН-коди";
 
 /* Sessions (%d) */
 "prefs_vc_cloud_sessions_count_fmt" = "Сеанси (%d)";
@@ -860,7 +860,7 @@
 "prefs_vc_cloud_sessions_count_none" = "Немає сеансів";
 
 /* Confirm PIN */
-"prefs_vc_confirm_pin" = "Підтвердити PIN";
+"prefs_vc_confirm_pin" = "Підтвердити ПІН";
 
 /* Delete Data Failed Attempt Count */
 "prefs_vc_delete_data_attempt_count" = "Кількість невдалих спроб для видалення даних";
@@ -887,52 +887,49 @@
 "prefs_vc_info_email_not_available_title" = "Електронна пошта недоступна";
 
 /* It is very important that you know your master password for your databases, and that you are not relying entirely on %@.\nThe migration and importation process makes every effort to maintain %@ data but it is not guaranteed. In any case it is important that you always know your master passwords.\n\nDo you want to continue changing iCloud usage settings? */
-"prefs_vc_master_password_icloud_migration_yesno_warning_message_fmt" = "It is very important that you know your master password for your databases, and that you are not relying entirely on %@.\nThe migration and importation process makes every effort to maintain %@ data but it is not guaranteed. In any case it is important that you always know your master passwords.\n\nDo you want to continue changing iCloud usage settings?";
+"prefs_vc_master_password_icloud_migration_yesno_warning_message_fmt" = "Дуже важливо, щоб ви знали свій головний пароль і не покладалися цілком на %@.\nПроцес міграції та імпорту забезпечує найкращу роботу з даними %@, але він не гарантує збереження даних. В будь-якому випадку, важливо щоб ви завжди знали свої головні паролі.\n\nХочете продовжити зміну користувацьких налаштувань iCloud?";
 
 /* Master Password Warning */
-"prefs_vc_master_password_icloud_migration_yesno_warning_title" = "Master Password Warning";
+"prefs_vc_master_password_icloud_migration_yesno_warning_title" = "Попередження про головний пароль";
 
 /* Your PINs do not match. */
-"prefs_vc_pins_dont_match_warning_message" = "Your PINs do not match.";
+"prefs_vc_pins_dont_match_warning_message" = "Ваші ПІН-коди відрізняються.";
 
 /* PINs do not match */
-"prefs_vc_pins_dont_match_warning_title" = "PINs do not match";
+"prefs_vc_pins_dont_match_warning_title" = "ПІН-коди не збігаються";
 
 /* Disabled */
-"prefs_vc_setting_disabled" = "Disabled";
+"prefs_vc_setting_disabled" = "Вимкнено";
 
 /* None */
-"prefs_vc_time_interval_none" = "None";
+"prefs_vc_time_interval_none" = "Немає";
 
 /* Use iCloud */
-"prefs_vc_use_icloud_action" = "Use iCloud";
+"prefs_vc_use_icloud_action" = "Використовувати iCloud";
 
 /* Use iCloud (Unavailable) */
-"prefs_vc_use_icloud_disabled" = "Use iCloud (Unavailable)";
-
-/* Loading... */
-"sbtvc_empty_table_loading" = "Loading...";
+"prefs_vc_use_icloud_disabled" = "Використовувати iCloud (Недоступно)";
 
 /* No Files or Folders Found */
-"sbtvc_empty_table_no_files_found" = "No Files or Folders Found";
+"sbtvc_empty_table_no_files_found" = "Не знайдено файлів чи тек";
 
 /* Error Reading Database File */
-"sbtvc_error_reading_database" = "Error Reading Database File";
+"sbtvc_error_reading_database" = "Помилка читання файлу бази паролів";
 
 /* Invalid Database File */
-"sbtvc_invalid_database_file" = "Invalid Database File";
+"sbtvc_invalid_database_file" = "Недійсний файл бази даних";
 
 /* You can only have databases in the Root folder for this storage type. */
-"sbtvc_root_folder_only_message" = "You can only have databases in the Root folder for this storage type.";
+"sbtvc_root_folder_only_message" = "Ви можете мати бази паролів лише в кореневій теці для цього типу сховища.";
 
 /* Root Folder Only */
-"sbtvc_root_folder_only_title" = "Root Folder Only";
+"sbtvc_root_folder_only_title" = "Лише коренева тека";
 
 /* Please Select Database File */
-"sbtvc_select_database_file" = "Please Select Database File";
+"sbtvc_select_database_file" = "Оберіть файл бази паролів";
 
 /* Select Folder For New Database */
-"sbtvc_select_new_database_location" = "Select Folder For New Database";
+"sbtvc_select_new_database_location" = "Оберіть теку для нової бази паролів";
 
 /* Face ID */
 "settings_face_id_name" = "Face ID";
@@ -941,686 +938,683 @@
 "settings_touch_id_name" = "Touch ID";
 
 /* Copy from URL... */
-"sspc_copy_from_url_action" = "Copy from URL...";
+"sspc_copy_from_url_action" = "Копіювати з URL...";
 
 /* Invalid Database */
-"sspc_error_invalid_database" = "Invalid Database";
+"sspc_error_invalid_database" = "Недійсна база паролів";
 
 /* Files... */
-"sspc_ios_files_storage_location" = "Files...";
+"sspc_ios_files_storage_location" = "Файли...";
 
 /* Since a local database is only stored on this device, any loss of this device will lead to the loss of all passwords stored within this database. You may want to consider using a cloud storage provider, such as the ones supported by Strongbox to avoid catastrophic data loss.\n\nWould you still like to proceed with creating a local device database? */
-"sspc_local_device_storage_warning_message" = "Since a local database is only stored on this device, any loss of this device will lead to the loss of all passwords stored within this database. You may want to consider using a cloud storage provider, such as the ones supported by Strongbox to avoid catastrophic data loss.\n\nWould you still like to proceed with creating a local device database?";
+"sspc_local_device_storage_warning_message" = "Оскільки локальна база паролів зберігається лише на цьому пристрої, його втрата призведе до втрати всіх паролів цієї бази паролів. Можливо, ви захочете використати одне з хмарних сховищ, що підтримуються Strongbox, щоб запобігти втраті даних.\n\nВсе одно бажаєте продовжити створення локальної бази паролів на пристрої?";
 
 /* Local Device Database Caveat */
-"sspc_local_device_storage_warning_title" = "Local Device Database Caveat";
+"sspc_local_device_storage_warning_title" = "Застереження про зберігання бази паролів на пристрої";
 
 /* Please Enter the URL of the Database File. */
-"sspc_manual_import_enter_url_message" = "Please Enter the URL of the Database File.";
+"sspc_manual_import_enter_url_message" = "Введіть URL-адресу файлу бази паролів.";
 
 /* Enter URL */
-"sspc_manual_import_enter_url_title" = "Enter URL";
+"sspc_manual_import_enter_url_title" = "Введіть URL";
 
 /* Error Reading from URL */
-"sspc_manual_import_error_title" = "Error Reading from URL";
+"sspc_manual_import_error_title" = "Помилка читання з URL";
 
 /* URL */
 "sspc_manual_import_placeholder_url" = "URL";
 
 /* Select where your existing database is stored */
-"sspc_select_where_existing_stored" = "Select where your existing database is stored";
+"sspc_select_where_existing_stored" = "Оберіть місце зберігання вашої бази паролів";
 
 /* Select where you would like to store your new database */
-"sspc_select_where_store_new" = "Select where you would like to store your new database";
+"sspc_select_where_store_new" = "Оберіть бажане місце зберігання нової бази паролів";
 
 /* 3 Months */
-"upgrade_vc_2monthly_subscription_title" = "3 Months";
+"upgrade_vc_2monthly_subscription_title" = "3 місяці";
 
 /* Hi! You're currently trying out the Pro version of Strongbox. I hope you really like it and find it useful! Your trial of this Pro version will end in %ld days and you will start to use the free version which is missing a few nifty features. You can find out more below.\nI was wondering if you would consider upgrading? By doing so you help to support an independent app developer. I love working on this app and your contribution allows me to keep doing so. Thanks in advance! -Mark */
-"upgrade_vc_developer_msg_free_trial_fmt" = "Hi! You are currently trying out the Pro version of Strongbox. I hope you really like it and find it useful! Your trial of this Pro version will end in %ld days and you will start to use the free version which is missing a few nifty features. You can find out more below.\nI was wondering if you would consider upgrading? By doing so you help to support an independent app developer. I love working on this app and your support allows me to keep doing so. Thanks in advance!\n-Mark";
+"upgrade_vc_developer_msg_free_trial_fmt" = "Привіт! Ви зараз випробовуєте Pro версію Strongbox. Я сподіваюся вам вона подобається і приносить користь! Ваш пробний період завершиться через %ld днів, після чого ви почнете використовувати безкоштовну версію, в якій є незначні обмеження. Ви можете дізнатися більше нижче.\nМожливо, ви захочете оновитись до версії Pro? Зробивши це, ви підтримаєте незалежного розробника цього додатка. Я люблю працювати з цим додатком і розвивати його, і ваша підтримка допомагає мені продовжувати цим займатись. Заздалегідь вдячний!\n-Марк";
 
 /* Hi! You're currently on the Free version of Strongbox. I was wondering if you would consider upgrading? By doing so you help to support an independent app developer and you will also get all the Pro features listed below. As an added bonus you will never see this annoying bloody upgrade screen again! I love working on this app and your contribution allows me to keep doing so. Thanks in advance! -Mark */
-"upgrade_vc_developer_msg_trial_expired" = "Hi! You are currently on the Free version of Strongbox. I was wondering if you would consider upgrading? By doing so you help to support an independent app developer and you will also get all the Pro features listed below. As an added bonus you will never see this annoying bloody upgrade screen again! I love working on this app and your contribution allows me to keep doing so. Thanks in advance!\n-Mark";
+"upgrade_vc_developer_msg_trial_expired" = "Привіт! Ви зараз використовуєте безкоштовну версію Strongbox. Можливо, ви захочете оновитись до версії Pro? Зробивши це, ви підтримаєте незалежного розробника цього додатка, а також отримаєте всі додаткові можливості, зазначені нижче. В якості бонусу, ви більше ніколи не побачите цього надокучливого повідомлення! Я люблю працювати з цим додатком і розвивати його, і ваша підтримка допомагає мені продовжувати цим займатись. Заздалегідь вдячний!\n-Марк";
 
 /* Problem Purchasing */
-"upgrade_vc_error_purchasing" = "Problem Purchasing";
+"upgrade_vc_error_purchasing" = "Проблема при покукці";
 
 /* Lifetime */
-"upgrade_vc_lifetime_purchase_title" = "Lifetime";
+"upgrade_vc_lifetime_purchase_title" = "Необмежена";
 
 /* (No Subscription) */
-"upgrade_vc_lifetime_subtitle_no_sub" = "(No Subscription)";
+"upgrade_vc_lifetime_subtitle_no_sub" = "(Без передплати)";
 
 /* Monthly */
-"upgrade_vc_monthly_subscription_title" = "Monthly";
+"upgrade_vc_monthly_subscription_title" = "Щомісяця";
 
 /* Please Try Again Later */
-"upgrade_vc_price_not_available_try_later" = "Please Try Again Later";
+"upgrade_vc_price_not_available_try_later" = "Спробуйте знову згодом";
 
 /* Momentarily Unavailable */
-"upgrade_vc_price_not_currently_available" = "Momentarily Unavailable";
+"upgrade_vc_price_not_currently_available" = "Тимчасово недоступно";
 
 /* %@/month */
-"upgrade_vc_price_per_month_fmt" = "%@/month";
+"upgrade_vc_price_per_month_fmt" = "%@/місяць";
 
 /* %@/month (Save %d%%) */
-"upgrade_vc_price_per_month_with_percentage_saving_fmt" = "%@/month (Save %d%%)";
+"upgrade_vc_price_per_month_with_percentage_saving_fmt" = "%@/місяць (Заощадьте %d%%)";
 
 /* Issue Restoring Purchase */
-"upgrade_vc_problem_restoring" = "Issue Restoring Purchase";
+"upgrade_vc_problem_restoring" = "Проблема відновлення покупки";
 
 /* Could not access Upgrade Products on App Store. Please try again later. */
-"upgrade_vc_product_error_message" = "Could not access Upgrade Products on App Store. Please try again later.";
+"upgrade_vc_product_error_message" = "Не вдається отримати доступ до передплати в App Store. Спробуйте ще раз пізніше.";
 
 /* Product Error */
-"upgrade_vc_product_error_title" = "Product Error";
+"upgrade_vc_product_error_title" = "Помилка продукту";
 
 /* Purchasing... */
-"upgrade_vc_progress_purchasing" = "Purchasing...";
+"upgrade_vc_progress_purchasing" = "Покупка...";
 
 /* Restoring... */
-"upgrade_vc_progress_restoring" = "Restoring...";
+"upgrade_vc_progress_restoring" = "Відновлення...";
 
 /* Upgrade could not be restored from previous purchase. Are you sure you have purchased this item? */
-"upgrade_vc_restore_unsuccessful_message" = "Upgrade could not be restored from previous purchase. Are you sure you have purchased this item?";
+"upgrade_vc_restore_unsuccessful_message" = "Неможливо відновити передплату з попередньої покупки. Ви справді купували його?";
 
 /* Restoration Unsuccessful */
-"upgrade_vc_restore_unsuccessful_title" = "Restoration Unsuccessful";
-
-/* Loading... */
-"upgrade_vc_subtitle_loading_price" = "Loading...";
+"upgrade_vc_restore_unsuccessful_title" = "Відновлення не вдалося";
 
 /* Yearly */
-"upgrade_vc_yearly_subscription_title" = "Yearly";
+"upgrade_vc_yearly_subscription_title" = "Щороку";
 
 /* Show/Hide Password */
-"welcome_vc_accessibility_show_hide_password" = "Show/Hide Password";
+"welcome_vc_accessibility_show_hide_password" = "Показати/Приховати пароль";
 
 /* Add Existing Database */
-"welcome_vc_add_existing_database" = "Add Existing Database";
+"welcome_vc_add_existing_database" = "Додати наявну базу паролів";
 
 /* Error Creating Database */
-"welcome_vc_error_creating" = "Error Creating Database";
+"welcome_vc_error_creating" = "Помилка створення бази паролів";
 
 /* View Your Database */
-"welcome_vc_view_database" = "View Your Database";
+"welcome_vc_view_database" = "Переглянути базу паролів";
 
 /* View Your Databases */
-"welcome_vc_view_databases" = "View Your Databases";
+"welcome_vc_view_databases" = "Переглянути бази паролів";
 
 /* Select Subtitle 1 Field */
-"databases_preferences_select_subtitle1_field" = "Select Subtitle 1 Field";
+"databases_preferences_select_subtitle1_field" = "Оберіть поле підзаголовка 1";
 
 /* Select Subtitle 2 Field */
-"databases_preferences_select_subtitle2_field" = "Select Subtitle 2 Field";
+"databases_preferences_select_subtitle2_field" = "Оберіть поле підзаголовка 2";
 
 /* Select Top Right Field */
-"databases_preferences_select_top_right_field" = "Select Top Right Field";
+"databases_preferences_select_top_right_field" = "Оберіть праве верхнє поле";
 
 /* Database Storage */
-"databases_preferences_subtitle_field_name_database_storage" = "Database Storage";
+"databases_preferences_subtitle_field_name_database_storage" = "Сховище бази паролів";
 
 /* Filename */
-"databases_preferences_subtitle_field_name_filename" = "Filename";
+"databases_preferences_subtitle_field_name_filename" = "Назва файлу";
 
 /* Last Cached Date */
-"databases_preferences_subtitle_field_name_last_cached_data" = "Last Cached Date";
+"databases_preferences_subtitle_field_name_last_cached_data" = "Востаннє кешовано";
 
 /* None */
-"databases_preferences_subtitle_field_name_none" = "None";
+"databases_preferences_subtitle_field_name_none" = "Ніколи";
 
 /* It looks like this app is no longer entitled to all the Pro features. These will be limited now. If you believe this is incorrect, please get in touch with support@strongboxsafe.com to get some help with this. Please include your purchase receipt. */
-"upgrade_mgr_downgrade_message" = "It looks like this app is no longer entitled to all the Pro features. These will be limited now. If you believe this is incorrect, please get in touch with support@strongboxsafe.com to get some help with this. Please include your purchase receipt.";
+"upgrade_mgr_downgrade_message" = "Схоже, цей додаток більше не має доступу до всіх функцій Pro. Тепер він має обмеження. Якщо ви вважаєте, що це помилка, будь ласка, напишіть на адресу support@strongboxsafe.com для отримання допомоги. Також додайте своє підтвердження про покупку.";
 
 /* Strongbox Downgrade */
-"upgrade_mgr_downgrade_title" = "Strongbox Downgrade";
+"upgrade_mgr_downgrade_title" = "Відмова від покупки Strongbox";
 
 /* Strongbox is having trouble verifying its App Store entitlements. This could lead to a future App downgrade. Please contact support@strongboxsafe.com to get some help with this. */
-"upgrade_mgr_entitlements_error_message" = "Strongbox is having trouble verifying its App Store entitlements. This could lead to a future App downgrade. Please contact support@strongboxsafe.com to get some help with this.";
+"upgrade_mgr_entitlements_error_message" = "У Strongbox виникли проблеми з перевіркою своїх прав в App Store. Це може призвести до скасування передплати. Будь ласка, напишіть на адресу support@strongboxsafe.com для отримання допомоги.";
 
 /* Strongbox Entitlements Error */
-"upgrade_mgr_entitlements_error_title" = "Strongbox Entitlements Error";
+"upgrade_mgr_entitlements_error_title" = "Помилка прав Strongbox";
 
 /* Purchases are disabled on your device. */
-"upgrade_mgr_purchases_are_disabled" = "Purchases are disabled on your device.";
+"upgrade_mgr_purchases_are_disabled" = "Покупки вимкнено на вашому пристрої.";
 
 /* Notes Text View */
-"notes_cell_textview_accessibility_label" = "Notes Text View";
+"notes_cell_textview_accessibility_label" = "Текстове поле приміток";
 
 /* No TOTP Setup */
-"totp_cell_no_totp_has_been_setup" = "No TOTP Setup";
+"totp_cell_no_totp_has_been_setup" = "TOTP не налаштовано";
 
 /*  Text Field */
-"generic_kv_cell_value_text_accessibility label_fmt" = " Text Field";
+"generic_kv_cell_value_text_accessibility label_fmt" = " Текстове поле";
 
 /* %@ (Required) */
-"generic_kv_cell_value_empty_value_validation_fmt" = "%@ (Required)";
+"generic_kv_cell_value_empty_value_validation_fmt" = "%@ (Обов'язково)";
 
 /* Date */
-"edit_date_cell_date_field_placeholder" = "Date";
+"edit_date_cell_date_field_placeholder" = "Дата";
 
 /* Date Text Field */
-"edit_date_cell_date_field_accessibility_label" = "Date Text Field";
+"edit_date_cell_date_field_accessibility_label" = "Текстове поле дати";
 
 /* Time */
-"edit_date_cell_time_field_placeholder" = "Time";
+"edit_date_cell_time_field_placeholder" = "Час";
 
 /* Time Text Field */
-"edit_date_cell_time_field_accessibility_label" = "Time Text Field";
+"edit_date_cell_time_field_accessibility_label" = "Текстове поле часу";
 
 /* Password Text Field */
-"edit_password_cell_value_textfield_accessibility_label" = "Password Text Field";
+"edit_password_cell_value_textfield_accessibility_label" = "Текстове поле пароля";
 
 /* Database CSV Copied to Clipboard */
-"export_vc_message_csv_copied" = "Database CSV Copied to Clipboard";
+"export_vc_message_csv_copied" = "Файл бази паролів CSV скопійовано в буфер обміну";
 
 /* Could not get database data
    Error Encrypting */
-"export_vc_error_encrypting" = "Error Encrypting";
+"export_vc_error_encrypting" = "Помилка шифрування";
 
 /* Email Not Available */
-"export_vc_email_unavailable_title" = "Email Not Available";
+"export_vc_email_unavailable_title" = "Електронна пошта недоступна";
 
 /* It looks like email is not setup on this device and so the database cannot be exported by email. */
-"export_vc_email_unavailable_message" = "It looks like email is not setup on this device and so the database cannot be exported by email.";
+"export_vc_email_unavailable_message" = "Схоже, електронна пошта не налаштована на цьому пристрої, тому база паролів не може бути експортована ел. поштою.";
 
 /* Strongbox Database: '%@' */
-"export_vc_email_subject" = "Strongbox Database: '%@'";
+"export_vc_email_subject" = "База паролів Strongbox: '%@'";
 
 /* Here's a copy of my '%@' Strongbox Database. */
-"export_vc_email_message_body_fmt" = "Here's a copy of my '%@' Strongbox Database.";
+"export_vc_email_message_body_fmt" = "Це копія моєї бази паролів Strongbox '%@'.";
 
 /* Error Sending */
-"export_vc_email_error_sending" = "Error Sending";
+"export_vc_email_error_sending" = "Помилка надсилання";
 
 /* Export Successful */
-"export_vc_export_successful_title" = "Export Successful";
+"export_vc_export_successful_title" = "Успішно експортовано";
 
 /* Your database was successfully exported. */
-"export_vc_export_successful_message" = "Your database was successfully exported.";
+"export_vc_export_successful_message" = "Вашу базу паролів було успішно експортовано.";
 
 /* Error Writing Database */
-"export_vc_error_writing" = "Error Writing Database";
+"export_vc_error_writing" = "Помилка запису в базу паролів";
 
 /* Error Exporting */
-"export_vc_error_exporting" = "Error Exporting";
+"export_vc_error_exporting" = "Помилка експорту";
 
 /* Turn Convenience PIN Off */
-"pins_config_vc_button_title_turn_convenience_pin_off" = "Turn Convenience PIN Off";
+"pins_config_vc_button_title_turn_convenience_pin_off" = "Вимкнути зручний ПІН";
 
 /* Turn Convenience PIN On */
-"pins_config_vc_button_title_turn_convenience_pin_on" = "Turn Convenience PIN On";
+"pins_config_vc_button_title_turn_convenience_pin_on" = "Увімкнути зручний ПІН";
 
 /* Turn Duress PIN Off */
-"pins_config_vc_button_title_turn_duress_pin_off" = "Turn Duress PIN Off";
+"pins_config_vc_button_title_turn_duress_pin_off" = "Вимкнути примусовий ПІН";
 
 /* Turn Duress PIN On */
-"pins_config_vc_button_title_turn_duress_pin_on" = "Turn Duress PIN On";
+"pins_config_vc_button_title_turn_duress_pin_on" = "Увімкнути примусовий ПІН";
 
 /* Delete Database */
-"pins_config_vc_label_delete_database" = "Delete Database";
+"pins_config_vc_label_delete_database" = "Видалити базу паролів";
 
 /* Local Device database will be permanently deleted. */
-"pins_config_vc_label_delete_database_local_permanent" = "Local Device database will be permanently deleted.";
+"pins_config_vc_label_delete_database_local_permanent" = "Локальна база паролів на пристрої остаточно видалиться.";
 
 /* iCloud database will be permanently deleted from iCloud. */
-"pins_config_vc_label_delete_database_icloud_permanent" = "iCloud database will be permanently deleted from iCloud.";
+"pins_config_vc_label_delete_database_icloud_permanent" = "База паролів iCloud остаточно видалиться з iCloud.";
 
 /* Remove Database from Strongbox */
-"pins_config_vc_label_remove_database" = "Remove Database from Strongbox";
+"pins_config_vc_label_remove_database" = "Вилучити базу паролів зі Strongbox";
 
 /* NB: Database file will remain on remote storage. */
-"pins_config_vc_label_remove_database_warning" = "NB: Database file will remain on remote storage.";
+"pins_config_vc_label_remove_database_warning" = "Примітка: Файл бази паролів залишиться у віддаленому сховищі.";
 
 /* PIN Codes (Pro Feature Only) */
-"pins_config_vc_title_pro_only" = "PIN Codes (Pro Feature Only)";
+"pins_config_vc_title_pro_only" = "ПІН-коди (Функція Pro)";
 
 /* Turning the PIN Off for this database will remove the securely stored password and you will have to enter it again. Are you sure you want to do this? */
-"pins_config_vc_turn_pin_off_warning" = "Turning the PIN Off for this database will remove the securely stored password and you will have to enter it again. Are you sure you want to do this?";
+"pins_config_vc_turn_pin_off_warning" = "Вимкнення ПІН-коду для цієї бази паролів вилучить надійно збережений пароль і вам доведеться вводити його знову. Ви справді хочете продовжити?";
 
 /* Are you sure you want to turn off the PIN for this database? */
-"pins_config_vc_turn_pin_off_confirm" = "Are you sure you want to turn off the PIN for this database?";
+"pins_config_vc_turn_pin_off_confirm" = "Ви дійсно хочете вимкнути ПІН для цієї бази паролів?";
 
 /* Turn off PIN? */
-"pins_config_vc_turn_pin_off_prompt_title" = "Turn off PIN?";
+"pins_config_vc_turn_pin_off_prompt_title" = "Вимкнути ПІН?";
 
 /* Enter Duress PIN */
-"pins_config_vc_enter_duress_pin" = "Enter Duress PIN";
+"pins_config_vc_enter_duress_pin" = "Введіть примусовий ПІН";
 
 /* PIN Conflict */
-"pins_config_vc_error_pin_conflict_title" = "PIN Conflict";
+"pins_config_vc_error_pin_conflict_title" = "Конфлікт ПІН-кодів";
 
 /* Your Convenience PIN conflicts with your Duress PIN. Please select another. */
-"pins_config_vc_error_pin_conflict_message" = "Your Convenience PIN conflicts with your Duress PIN. Please select another.";
+"pins_config_vc_error_pin_conflict_message" = "Ваш зручний ПІН має конфлікт з примусовим ПІН. Оберіть інший код.";
 
 /* Warning */
-"pins_config_vc_warn_remove_database_title" = "Warning";
+"pins_config_vc_warn_remove_database_title" = "Попередження";
 
 /* This will permanently delete the database file. */
-"pins_config_vc_warn_remove_database_delete_message" = "This will permanently delete the database file.";
+"pins_config_vc_warn_remove_database_delete_message" = "Ця дія остаточно видалить файл бази паролів.";
 
 /* This will remove the database from Strongbox but the underlying file will remain on cloud storage */
-"pins_config_vc_warn_remove_database_remove_message" = "This will remove the database from Strongbox but the underlying file will remain on cloud storage";
+"pins_config_vc_warn_remove_database_remove_message" = "Ця дія вилучить базу паролів зі Strongbox, але основний файл залишиться в хмарному сховищі";
 
 /* Manage Key Files */
-"key_files_vc_manage_title" = "Manage Key Files";
+"key_files_vc_manage_title" = "Керувати ключовими файлами";
 
 /* Select Key File */
-"key_files_vc_select_title" = "Select Key File";
+"key_files_vc_select_title" = "Оберіть ключовий файл";
 
 /* No Key Files Found. Tap '+' to import one. */
-"key_files_vc_empty_key_files_title" = "No Key Files Found. Tap '+' to import one.";
+"key_files_vc_empty_key_files_title" = "Не знайдено ключових файлів. Торкніться до \"+\" для імпорту.";
 
 /* One Time Key File Source */
-"key_files_vc_one_time_key_file_source_title" = "One Time Key File Source";
+"key_files_vc_one_time_key_file_source_title" = "Джерело одноразового ключового файлу";
 
 /* Select where you would like to choose your Key File from. This file will not be stored locally or remembered. */
-"key_files_vc_one_time_key_file_source_message" = "Select where you would like to choose your Key File from. This file will not be stored locally or remembered.";
+"key_files_vc_one_time_key_file_source_message" = "Оберіть місце вашого ключового файлу. Цей файл не зберігатиметься на пристрої.";
 
 /* Files... */
-"key_files_vc_one_time_key_file_source_option_files" = "Files...";
+"key_files_vc_one_time_key_file_source_option_files" = "Файли...";
 
 /* Photo Library... */
-"key_files_vc_one_time_key_file_source_option_photos" = "Photo Library...";
+"key_files_vc_one_time_key_file_source_option_photos" = "Фотографії...";
 
 /* Cancel */
-"key_files_vc_option_cancel" = "Cancel";
+"key_files_vc_option_cancel" = "Скасувати";
 
 /* Photo Library Unavailable */
-"key_files_vc_error_photos_unavailable_title" = "Photo Library Unavailable";
+"key_files_vc_error_photos_unavailable_title" = "Фотографії недоступні";
 
 /* Could not access Photo Library. Does Strongbox have Permission? */
-"key_files_vc_error_photos_unavailable_message" = "Could not access Photo Library. Does Strongbox have Permission?";
+"key_files_vc_error_photos_unavailable_message" = "Не вдалося отримати доступ до фотографій. Strongbox має дозвіл на доступ?";
 
 /* Error Reading
    There was an error reading the Key File */
-"key_files_vc_error_reading" = "Error Reading";
+"key_files_vc_error_reading" = "Помилка читання";
 
 /* There was an importing the Key File (does it already exist?) */
-"key_files_vc_error_importing" = "There was an importing the Key File (does it already exist?)";
+"key_files_vc_error_importing" = "Було проведено імпорт ключового файлу (він вже є в наявності?)";
 
 /* File Already Exists */
-"key_files_vc_error_file_already_exists_title" = "File Already Exists";
+"key_files_vc_error_file_already_exists_title" = "Файл вже існує";
 
 /* A file with this name already exists in the Key Files directory. */
-"key_files_vc_error_file_already_exists_message" = "A file with this name already exists in the Key Files directory.";
+"key_files_vc_error_file_already_exists_message" = "Файл з такою назвою вже наявний в теці ключових файлів.";
 
 /* Imported Key Files (Auto-Fill Enabled) */
-"key_files_vc_section_header_imported" = "Imported Key Files (Auto-Fill Enabled)";
+"key_files_vc_section_header_imported" = "Імпортовані ключові файли (Автозаповнення увімкнено)";
 
 /* Application Local Files */
-"key_files_vc_section_header_local" = "Documents Folder (Auto-Fill not supported)";
+"key_files_vc_section_header_local" = "Тека документів (Автозаповнення не підтримується)";
 
 /* No Key File */
-"key_files_vc_no_key_file" = "No Key File";
+"key_files_vc_no_key_file" = "Немає ключового файлу";
 
 /* Remove */
-"key_files_vc_option_remove" = "Remove";
+"key_files_vc_option_remove" = "Вилучити";
 
 /* Import */
-"key_files_vc_option_import" = "Import";
+"key_files_vc_option_import" = "Імпорт";
 
 /* Remove After Import */
-"key_files_vc_remove_after_import_title" = "Remove After Import";
+"key_files_vc_remove_after_import_title" = "Вилучити після імпорту";
 
 /* Do you want to remove the key file from the local Documents folder after import? This will mean it is not visible in iOS Files or accessible via iTunes File Sharing? */
-"key_files_vc_remove_after_import_message" = "Do you want to remove the key file from the local Documents folder after import? This will mean it is not visible in iOS Files or accessible via iTunes File Sharing?";
+"key_files_vc_remove_after_import_message" = "Хочете вилучити ключовий файл з локальної теки документів після імпорту? Це означатиме, що він не буде доступний в Файлах iOS чи обміні файлами iTunes.";
 
 /* Yes, Remove Local Copy */
-"key_files_vc_remove_after_import_option_yes" = "Yes, Remove Local Copy";
+"key_files_vc_remove_after_import_option_yes" = "Так, вилучити локальну копію";
 
 /* No, Keep Local Copy */
-"key_files_vc_remove_after_import_option_no" = "No, Keep Local Copy";
+"key_files_vc_remove_after_import_option_no" = "Ні, зберегти локальну копію";
 
 /* File could not be Imported */
-"key_files_vc_import_error_title" = "File could not be Imported";
+"key_files_vc_import_error_title" = "Файл не може бути імпортовано";
 
 /* File not removed */
-"key_files_vc_error_file_not_removed" = "File not removed";
+"key_files_vc_error_file_not_removed" = "Файл не вилучено";
 
 /* Used by %@ */
-"key_files_vc_key_file_used_by_fmt" = "Used by %@";
+"key_files_vc_key_file_used_by_fmt" = "Використовується %@";
 
 /* multiple databases */
-"key_files_vc_key_file_used_by_multiple" = "multiple databases";
+"key_files_vc_key_file_used_by_multiple" = "декілька баз паролів";
 
 /* No Known Database Associations */
-"key_files_vc_key_file_used_by_none" = "No Known Database Associations";
+"key_files_vc_key_file_used_by_none" = "Немає відомих асоціацій баз даних";
 
 /* Disable History? */
-"pw_history_vc_prompt_disable_history_title" = "Disable History?";
+"pw_history_vc_prompt_disable_history_title" = "Вимкнути історію?";
 
 /* Are you sure you want to disable history? This will clear previous passwords. */
-"pw_history_vc_prompt_disable_history_message" = "Are you sure you want to disable history? This will clear previous passwords.";
+"pw_history_vc_prompt_disable_history_message" = "Ви справді хочете вимкнути історію? Це очистить попередні паролі.";
 
 /* Problem Saving Database */
-"pw_history_vc_error_problem_saving" = "Problem Saving Database";
+"pw_history_vc_error_problem_saving" = "Проблема збереження бази паролів";
 
 /* Old Passwords (%lu) */
-"pw_history_vc_previous_passwords_count_fmt" = "Old Passwords (%lu)";
+"pw_history_vc_previous_passwords_count_fmt" = "Застарілі паролі (%lu)";
 
 /* Old Passwords (None) */
-"pw_history_vc_previous_passwords_count_none" = "Old Passwords (None)";
+"pw_history_vc_previous_passwords_count_none" = "Застарілі паролі (Немає)";
 
 /* Could not create file */
-"sftp_provider_could_not_create" = "Could not create file";
+"sftp_provider_could_not_create" = "Не вдається створити файл";
 
 /* Could not read file */
-"sftp_provider_could_not_read" = "Could not read file";
+"sftp_provider_could_not_read" = "Не вдається прочитати файл";
 
 /* Could not update file */
-"sftp_provider_could_not_update" = "Could not update file";
+"sftp_provider_could_not_update" = "Не вдається оновити файл";
 
 /* Authentication Failed for [user: %@] */
-"sftp_provider_auth_failed_fmt" = "Authentication Failed for [user: %@]";
+"sftp_provider_auth_failed_fmt" = "Помилка перевірки [користувач: %@]";
 
 /* Could not connect to host: %@ [user: %@] */
-"sftp_provider_connect_failed_fmt" = "Could not connect to host: %@ [user: %@]";
+"sftp_provider_connect_failed_fmt" = "Не вдається з'єднатися з вузлом: %@ [користувач: %@]";
 
 /* Attachment Location */
-"add_attachment_vc_prompt_title" = "Attachment Location";
+"add_attachment_vc_prompt_title" = "Розташування вкладення";
 
 /* Photos */
-"add_attachment_vc_prompt_source_option_photos" = "Photos";
+"add_attachment_vc_prompt_source_option_photos" = "Фотографії";
 
 /* Camera */
-"add_attachment_vc_prompt_source_option_camera" = "Camera";
+"add_attachment_vc_prompt_source_option_camera" = "Камера";
 
 /* Files */
-"add_attachment_vc_prompt_source_option_files" = "Files";
+"add_attachment_vc_prompt_source_option_files" = "Файли";
 
 /* Cancel */
-"add_attachment_vc_prompt_source_option_cancel" = "Cancel";
+"add_attachment_vc_prompt_source_option_cancel" = "Скасувати";
 
 /* Source Unavailable */
-"add_attachment_vc_error_source_unavailable_title" = "Source Unavailable";
+"add_attachment_vc_error_source_unavailable_title" = "Розташування недоступне";
 
 /* Strongbox could not access the camera. Does it have permission? */
-"add_attachment_vc_error_source_unavailable_camera" = "Strongbox could not access the camera. Does it have permission?";
+"add_attachment_vc_error_source_unavailable_camera" = "Strongbox не може отримати доступ до камери. Перевірте дозволи.";
 
 /* Strongbox could not access photos. Does it have permission? */
-"add_attachment_vc_error_source_unavailable_photos" = "Strongbox could not access photos. Does it have permission?";
+"add_attachment_vc_error_source_unavailable_photos" = "Strongbox не може отримати доступ до фотографій. Перевірте дозволи.";
 
 /* Error Reading */
-"add_attachment_vc_error_reading_title" = "Error Reading";
+"add_attachment_vc_error_reading_title" = "Помилка читання";
 
 /* Could not read the data for this item. */
-"add_attachment_vc_error_reading_message" = "Could not read the data for this item.";
+"add_attachment_vc_error_reading_message" = "Не вдається прочитати дані цього елемента.";
 
 /* This is quite a large file (%@), and could significantly affect the performance of Strongbox and slow down syncs across networks. Is there a smaller version you could use?\n\nContinue adding this attachment anyway? */
-"add_attachment_vc_large_file_message_fmt" = "This is quite a large file (%@), and could significantly affect the performance of Strongbox and slow down syncs across networks. Is there a smaller version you could use?\n\nContinue adding this attachment anyway?";
+"add_attachment_vc_large_file_message_fmt" = "Це досить великий файл (%@), який може значно вплинути на швидкодію Strongbox і сповільнити синхронізацію через Інтернет. Можливо, у вас є менша версія цього файлу?\n\nВсе одно продовжити додавання цього вкладення?";
 
 /* Large Attachment */
-"add_attachment_vc_large_file_title" = "Large Attachment";
+"add_attachment_vc_large_file_title" = "Велике вкладення";
 
 /* Analyzing Image... */
-"add_attachment_vc_large_file_analyzing_progress_title" = "Analyzing Image...";
+"add_attachment_vc_large_file_analyzing_progress_title" = "Аналіз зображення...";
 
 /* This is a rather large image which could negatively affect the performance of Strongbox, and significantly slow down network synchronisation times. Would you like to rescale this image to one of the streamlined options below? */
-"add_attachment_vc_large_image_message_rescale" = "This is a rather large image which could negatively affect the performance of Strongbox, and significantly slow down network synchronisation times. Would you like to rescale this image to one of the streamlined options below?";
+"add_attachment_vc_large_image_message_rescale" = "Це зображення досить великого розміру, яке може значно вплинути на швидкодію Strongbox і сповільнити синхронізацію через Інтернет. Бажаєте оптимізувати розмір зображення до одного з варіантів, зазначених нижче?";
 
 /* This is a rather large image which could negatively affect the performance of Strongbox, and significantly slow down network synchronisation times. Is there a smaller version you could use? */
-"add_attachment_vc_large_image_message" = "This is a rather large image which could negatively affect the performance of Strongbox, and significantly slow down network synchronisation times. Is there a smaller version you could use?";
+"add_attachment_vc_large_image_message" = "Це зображення досить великого розміру, яке може негативно вплинути на швидкодію Strongbox і значно сповільнити синхронізацію через Інтернет. Можливо, у вас є менша версія зображення, яку можна використати?";
 
 /* Rescale Large Image? */
-"add_attachment_vc_large_image_prompt_rescale_title" = "Rescale Large Image?";
+"add_attachment_vc_large_image_prompt_rescale_title" = "Оптимізувати зображення?";
 
 /* Use Large Image? */
-"add_attachment_vc_large_image_prompt_use" = "Use Large Image?";
+"add_attachment_vc_large_image_prompt_use" = "Використовувати велике зображення?";
 
 /* Original (%d x %d) %@ */
-"add_attachment_vc_large_image_prompt_option_original_size_fmt" = "Original (%d x %d) %@";
+"add_attachment_vc_large_image_prompt_option_original_size_fmt" = "Оригінал (%d x %d) %@";
 
 /* Use Anyway (%d x %d) %@ */
-"add_attachment_vc_large_image_prompt_option_use_anyway_size_fmt" = "Use Anyway (%d x %d) %@";
+"add_attachment_vc_large_image_prompt_option_use_anyway_size_fmt" = "Все одно використовувати (%d x %d) %@";
 
 /* Cancel */
-"add_attachment_vc_large_image_prompt_option_cancel" = "Cancel";
+"add_attachment_vc_large_image_prompt_option_cancel" = "Скасувати";
 
 /* Filename */
-"add_attachment_vc_prompt_filename_title" = "Filename";
+"add_attachment_vc_prompt_filename_title" = "Назва файлу";
 
 /* Enter a filename for this item */
-"add_attachment_vc_prompt_filename_message" = "Enter a filename for this item";
+"add_attachment_vc_prompt_filename_message" = "Введіть назву для цього елемента";
 
 /* Filename in Use */
-"add_attachment_vc_warn_filename_used_title" = "Filename in Use";
+"add_attachment_vc_warn_filename_used_title" = "Назва вже використовується";
 
 /* This filename is already in use. Please enter a different name. */
-"add_attachment_vc_warn_filename_used_message" = "This filename is already in use. Please enter a different name.";
+"add_attachment_vc_warn_filename_used_message" = "Ця назва вже використовується. Введіть іншу назву.";
 
 /* URL Invalid */
-"webdav_vc_validation_url_invalid" = "URL Invalid";
+"webdav_vc_validation_url_invalid" = "URL-адреса недійсна";
 
 /* Select Icon Source */
-"set_icon_vc_select_icon_source_title" = "Select Icon Source";
+"set_icon_vc_select_icon_source_title" = "Оберіть джерело піктограми";
 
 /* Select the source of the icon you would like to use for this entry */
-"set_icon_vc_select_icon_source_message" = "Select the source of the icon you would like to use for this entry";
+"set_icon_vc_select_icon_source_message" = "Оберіть джерело піктограми для цього запису";
 
 /* KeePass & Database Icon Set */
-"set_icon_vc_icon_source_keepass_set" = "KeePass & Database Icon Set";
+"set_icon_vc_icon_source_keepass_set" = "Набір піктограм KeePass і цієї бази паролів";
 
 /* Media Library */
-"set_icon_vc_icon_source_media_libary" = "Media Library";
+"set_icon_vc_icon_source_media_libary" = "Фотографії";
 
 /* Download FavIcon */
-"set_icon_vc_icon_source_download_favicon" = "Download FavIcon";
+"set_icon_vc_icon_source_download_favicon" = "Завантажити піктограму веб-сайту";
 
 /* Download FavIcon (Pro Only) */
-"set_icon_vc_icon_source_download_favicon_pro_only" = "Download FavIcon (Pro Only)";
+"set_icon_vc_icon_source_download_favicon_pro_only" = "Завантажити піктограму (Функція Pro)";
 
 /* Cancel */
-"set_icon_vc_option_cancel" = "Cancel";
+"set_icon_vc_option_cancel" = "Скасувати";
 
 /* Downloading FavIcon */
-"set_icon_vc_progress_downloading_favicon" = "Downloading FavIcon";
+"set_icon_vc_progress_downloading_favicon" = "Завантаження піктограми";
 
 /* FavIcon Problem */
-"set_icon_vc_error_downloading_favicon_title" = "FavIcon Problem";
+"set_icon_vc_error_downloading_favicon_title" = "Проблема при завантаженні";
 
 /* Could not download favicon for this item */
-"set_icon_vc_error_downloading_favicon_message" = "Could not download favicon for this item";
+"set_icon_vc_error_downloading_favicon_message" = "Не вдалося завантажити піктограму для цього елемента";
 
 /* Image Source Unavailable */
-"set_icon_vc_image_src_unavailable_title" = "Image Source Unavailable";
+"set_icon_vc_image_src_unavailable_title" = "Джерело зображення недоступний";
 
 /* Could not access photos source. */
-"set_icon_vc_image_src_photos_unavailable_message" = "Could not access photos source.";
+"set_icon_vc_image_src_photos_unavailable_message" = "Не вдається отримати доступ до фотографій.";
 
 /* Reading Data... */
-"set_icon_vc_progress_reading_data" = "Reading Data...";
+"set_icon_vc_progress_reading_data" = "Читання даних...";
 
 /* Error Reading Image */
-"set_icon_vc_error_reading_image" = "Error Reading Image";
+"set_icon_vc_error_reading_image" = "Помилка читання зображення";
 
 /* Analyzing Image... */
-"set_icon_vc_progress_analyzing_image" = "Analyzing Image...";
+"set_icon_vc_progress_analyzing_image" = "Аналіз зображення...";
 
 /* This is a rather large image (%dx%d), would you like to rescale it to a maximum dimension of %d pixels for a file size saving of roughly %@ */
-"set_icon_vc_prompt_rescale_image_message_fmt" = "This is a rather large image (%dx%d), would you like to rescale it to a maximum dimension of %d pixels for a file size saving of roughly %@";
+"set_icon_vc_prompt_rescale_image_message_fmt" = "Це зображення досить велике (%dx%d). Бажаєте змінити його масштаб до максимум %d пікселів, щоб заощадити приблизно %@";
 
 /* Large Custom Icon Image, Rescale? */
-"set_icon_vc_prompt_rescale_image_title" = "Large Custom Icon Image, Rescale?";
+"set_icon_vc_prompt_rescale_image_title" = "Змінити масштаб власної піктограми?";
 
 /* Error Moving */
-"moveentry_vc_error_moving" = "Error Moving";
+"moveentry_vc_error_moving" = "Помилка переміщення";
 
 /* Error Saving */
-"moveentry_vc_error_saving" = "Error Saving";
+"moveentry_vc_error_saving" = "Помилка збереження";
 
 /* Group Name */
-"moveentry_vc_add_group_prompt_placeholder" = "Group Name";
+"moveentry_vc_add_group_prompt_placeholder" = "Назва групи";
 
 /* Enter Group Name */
-"moveentry_vc_add_group_prompt_title" = "Enter Group Name";
+"moveentry_vc_add_group_prompt_title" = "Введіть назву групи";
 
 /* Please Enter the New Group Name */
-"moveentry_vc_add_group_prompt_message" = "Please Enter the New Group Name";
+"moveentry_vc_add_group_prompt_message" = "Введіть назву нової групи";
 
 /* Could not create group */
-"moveentry_vc_warn_creating_group_title" = "Could not create group";
+"moveentry_vc_warn_creating_group_title" = "Не вдалося створити групу";
 
 /* Could not create group with that title here. */
-"moveentry_vc_warn_creating_group_message" = "Could not create group with that title here.";
+"moveentry_vc_warn_creating_group_message" = "Не вдається створити групу з такою назвою.";
 
 /* Please Enter a Host */
-"sftp_vc_label_validation_enter_host" = "Please Enter a Host";
+"sftp_vc_label_validation_enter_host" = "Введіть вузол";
 
 /* Select a Private Key... */
-"sftp_vc_label_validation_select_private_key" = "Select a Private Key...";
+"sftp_vc_label_validation_select_private_key" = "Оберіть особистий ключ...";
 
 /* Invalid Key */
-"sftp_vc_warn_invalid_key_title" = "Invalid Key";
+"sftp_vc_warn_invalid_key_title" = "Недійсний ключ";
 
 /* This does not look like a valid private key */
-"sftp_vc_warn_invalid_key_message" = "This does not look like a valid private key";
+"sftp_vc_warn_invalid_key_message" = "Схоже, це недійсний особистий ключ";
 
 /* Custom Field Name */
-"custom_field_vc_accessibility_label_name" = "Custom Field Name";
+"custom_field_vc_accessibility_label_name" = "Власна назва поля";
 
 /* Custom Field Value */
-"custom_field_vc_accessibility_label_value" = "Custom Field Value";
+"custom_field_vc_accessibility_label_value" = "Власне значення поля";
 
 /* Custom Field Protected */
-"custom_field_vc_accessibility_label_protected" = "Custom Field Protected";
+"custom_field_vc_accessibility_label_protected" = "Захист власного поля";
 
 /* Name cannot be empty */
-"custom_field_vc_validation_name_not_empty_error" = "Name cannot be empty";
+"custom_field_vc_validation_name_not_empty_error" = "Назва не може бути порожньою";
 
 /* Name cannot be one of the reserved KeePass Field names */
-"custom_field_vc_validation_name_not_reserved_error" = "Name cannot be one of the reserved KeePass Field names";
+"custom_field_vc_validation_name_not_reserved_error" = "Назва повинна відрізнятися від стандартних назв полів KeePass";
 
 /* This key is already in use by another custom field. */
-"custom_field_vc_validation_name_already_in_use_error" = "This key is already in use by another custom field.";
+"custom_field_vc_validation_name_already_in_use_error" = "Ця назва вже використовується в іншому власному полі.";
 
 /* You are in read-only mode. Cannot Write! */
-"model_error_readonly_cannot_write" = "You are in read-only mode. Cannot Write!";
+"model_error_readonly_cannot_write" = "Ви в режимі читання. Редагування неможливе!";
 
 /* You are currently in offline mode. The database cannot be modified. */
-"model_error_offline_cannot_write" = "You are currently in offline mode. The database cannot be modified.";
+"model_error_offline_cannot_write" = "Ви зараз в офлайн режимі. Неможливо змінити базу паролів.";
 
 /* Error while scanning */
-"qr_code_vc_error_scanning_title" = "Error while scanning";
+"qr_code_vc_error_scanning_title" = "Помилка при скануванні";
 
 /* Could not access camera */
-"qr_code_vc_warn_problem_accessing_camera_title" = "Could not access camera";
+"qr_code_vc_warn_problem_accessing_camera_title" = "Не вдається отримати доступ до камери";
 
 /* Strongbox could not access the camera on this device. Does it have permission? */
-"qr_code_vc_warn_problem_accessing_camera_message" = "Strongbox could not access the camera on this device. Does it have permission?";
+"qr_code_vc_warn_problem_accessing_camera_message" = "Strongbox не може отримати доступ до камери. Перевірте дозволи.";
 
 /* Database Icons */
-"icons_vc_header_database_icons_title" = "Database Icons";
+"icons_vc_header_database_icons_title" = "Піктограми бази паролів";
 
 /* KeePass Icons */
-"icons_vc_header_keepass_icons_title" = "KeePass Icons";
+"icons_vc_header_keepass_icons_title" = "Піктограми KeePass";
 
 /* %@ (Historical) */
-"attachment_pool_vc_filename_historical_fmt" = "%@ (Historical)";
+"attachment_pool_vc_filename_historical_fmt" = "%@ (Історичні)";
 
 /* <Orphan Attachment> [%lu] */
-"attachment_pool_vc_filename_orphan_fmt" = "<Orphan Attachment> [%lu]";
+"attachment_pool_vc_filename_orphan_fmt" = "<Вкладення без прив'язки> [%lu]";
 
 /* Could not connect to server. */
-"webdav_storage_could_not_connect" = "Could not connect to server.";
+"webdav_storage_could_not_connect" = "Не вдається з'єднатися з сервером.";
 
 /* Custom Title Default Text */
-"defaults_model_custom_title_default" = "Custom Title Default Text";
+"defaults_model_custom_title_default" = "Власний типовий заголовок";
 
 /* Custom Username Default Text */
-"defaults_model_custom_username_default" = "Custom Username Default Text";
+"defaults_model_custom_username_default" = "Власне типове ім'я користувача";
 
 /* Custom Password Default Text */
-"defaults_model_custom_password_default" = "Custom Password Default Text";
+"defaults_model_custom_password_default" = "Власний типовий пароль";
 
 /* Custom Email Default Text */
-"defaults_model_custom_email_default" = "Custom Email Default Text";
+"defaults_model_custom_email_default" = "Власна типова е-пошта";
 
 /* Custom URL Default Text */
-"defaults_model_custom_url_default" = "Custom URL Default Text";
+"defaults_model_custom_url_default" = "Власний типовий URL";
 
 /* Custom Notes Default Text */
-"defaults_model_custom_notes_default" = "Custom Notes Default Text";
+"defaults_model_custom_notes_default" = "Власний типовий текст приміток";
 
 /* Select One */
-"select_item_vc_title_select_one" = "Select One";
+"select_item_vc_title_select_one" = "Оберіть";
 
 /* You must select at least one item */
-"select_item_vc_message_select_one" = "You must select at least one item";
+"select_item_vc_message_select_one" = "Ви повинні обрати принаймні один елемент";
 
 /* Custom Default */
-"entry_defaults_vc_prompt_custom_title" = "Custom Default";
+"entry_defaults_vc_prompt_custom_title" = "Використовувати типово";
 
 /* Please enter a new custom default for this field */
-"entry_defaults_vc_prompt_custom_message" = "Please enter a new custom default for this field";
+"entry_defaults_vc_prompt_custom_message" = "Введіть нове типове значення для цього поля";
 
 /* Database File Select Required */
-"open_sequence_prompt_database_reselect_required_title" = "Database File Select Required";
+"open_sequence_prompt_database_reselect_required_title" = "Необхідно обрати файл бази паролів";
 
 /* For technical reasons, you need to re-select your database file to enable Auto Fill. You will only need to do this once.\n\nThanks!\n-Mark */
-"open_sequence_prompt_database_reselect_required_message" = "For technical reasons, you need to re-select your database file to enable Auto Fill. You will only need to do this once.\n\nThanks!\n-Mark";
+"open_sequence_prompt_database_reselect_required_message" = "З технічних причин вам необхідно повторно обрати файл бази паролів, щоб увімкнути автозаповнення. Вам слід зробити це лише один раз.\n\nДякую!\n-Марк";
 
 /* %d attempts remaining */
-"open_sequence_pin_attempts_remaining_fmt" = "%d attempts remaining";
+"open_sequence_pin_attempts_remaining_fmt" = "Залишилося %d спроб";
 
 /* Too Many Incorrect PINs */
-"open_sequence_prompt_too_many_incorrect_pins_title" = "Too Many Incorrect PINs";
+"open_sequence_prompt_too_many_incorrect_pins_title" = "Надто багато неправильних спроб";
 
 /* You have entered the wrong PIN too many times. PIN Unlock is now disabled, and you must enter the master password to unlock this database. */
-"open_sequence_prompt_too_many_incorrect_pins_message" = "You have entered the wrong PIN too many times. PIN Unlock is now disabled, and you must enter the master password to unlock this database.";
+"open_sequence_prompt_too_many_incorrect_pins_message" = "Ви ввели неправильний ПІН надто багато разів. Розблокування з ПІН вимкнено і вам необхідно ввести головний пароль для доступу до бази паролів.";
 
 /* There was a technical error opening the database. */
-"open_sequence_duress_technical_error_message" = "There was a technical error opening the database.";
+"open_sequence_duress_technical_error_message" = "При відкритті бази паролів сталася технічна помилка.";
 
 /* Technical Issue */
-"open_sequence_duress_technical_error_title" = "Technical Issue";
+"open_sequence_duress_technical_error_title" = "Технічна проблема";
 
 /* Identify to Unlock Database */
-"open_sequence_biometric_unlock_prompt_title" = "Identify to Unlock Database";
+"open_sequence_biometric_unlock_prompt_title" = "Ідентифікуйтесь для розблокування бази паролів";
 
 /* Unlock Manually... */
-"open_sequence_biometric_unlock_fallback" = "Unlock Manually...";
+"open_sequence_biometric_unlock_fallback" = "Розблокувати вручну...";
 
 /* %@ Failed */
-"open_sequence_biometric_unlock_warn_failed_title_fmt" = "%@ Failed";
+"open_sequence_biometric_unlock_warn_failed_title_fmt" = "Помилка %@";
 
 /* %@ Authentication Failed. You must now enter your password manually to open the database. */
-"open_sequence_biometric_unlock_warn_failed_message_fmt" = "%@ Authentication Failed. You must now enter your password manually to open the database.";
+"open_sequence_biometric_unlock_warn_failed_message_fmt" = "Помилка перевірки %@. Тепер ви повинні ввести пароль вручну, щоб відкрити базу паролів.";
 
-/* %@ has not been setup or system has cancelled. You must now enter your password manually to open the database. */
-"open_sequence_biometric_unlock_warn_not_configured_fmt" = "%@ has not been setup or system has cancelled. You must now enter your password manually to open the database.";
+/* %@ has failed: %@. You must now enter your password manually to open the database. */
+"open_sequence_biometric_unlock_warn_not_configured_fmt" = "Помилка %@: %@. Тепер ви повинні ввести пароль вручну, щоб відкрити базу паролів.";
 
 /* Error Reading Key File */
-"open_sequence_error_reading_key_file" = "Could not read Key File. Has it been moved or deleted? Check Key Files Management in Preferences";
+"open_sequence_error_reading_key_file" = "Не вдається прочитати ключовий файл. Можливо, він переміщений чи видалений? Перевірте керування ключовими файлами в параметрах";
 
 /* Could Not Open Offline */
-"open_sequence_couldnt_open_offline_title" = "Could Not Open Offline";
+"open_sequence_couldnt_open_offline_title" = "Не вдається відкрити в офлайні";
 
 /* Could not open this database in offline mode. Does the Offline Cache exist? */
-"open_sequence_couldnt_open_offline_message" = "Could not open this database in offline mode. Does the Offline Cache exist?";
+"open_sequence_couldnt_open_offline_message" = "Не вдається відкрити цю базу паролів у офлайн режимі. Можливо, відсутній кеш?";
 
 /* Could not reach %@, it looks like you may be offline, would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@
    There was a problem reading the database on %@. would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ */
-"open_sequence_storage_unreachable_open_offline_instead_fmt" = "Could not reach %@, it looks like you may be offline, would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@";
+"open_sequence_storage_unreachable_open_offline_instead_fmt" = "Не вдається зв'язатися з %@. Схоже, що ви знаходитесь поза мережею. Бажаєте використовувати офлайн кеш версію цієї бази даних лише для читання?\n\nВостаннє кешовано: %@";
 
 /* Could not open database
    There was a problem opening the database. */
-"open_sequence_problem_opening_title" = "There was a problem opening the database.";
+"open_sequence_problem_opening_title" = "Виникла проблема при відкритті бази паролів.";
 
 /* AutoFill Crash Likely */
-"open_sequence_autofill_creash_likely_title" = "AutoFill Crash Likely";
+"open_sequence_autofill_creash_likely_title" = "Схоже, відбувся збій автозаповнення";
 
 /* Your database has encryption settings that may cause iOS Password Auto Fill extensions to be terminated due to excessive resource consumption. This will mean Auto Fill appears not to work. Unfortunately this is an Apple imposed limit. You could consider reducing the amount of resources consumed by your encryption settings (Memory in particular with Argon2 to below 64MB). */
-"open_sequence_autofill_creash_likely_message" = "Your database is quite large, or has encryption settings that may cause iOS Password Auto Fill extensions to be terminated due to excessive resource consumption.\nThis will mean Auto Fill appears not to work. Unfortunately this is an Apple imposed system limitation.\nYou could consider reducing file size or changing the amount of resources consumed (Memory in particular with Argon2 to below 64MB).";
+"open_sequence_autofill_creash_likely_message" = "Ваша база паролів досить велика, або має налаштування шифрування, що може призвести розширення автозаповнення паролів iOS до збою у зв'язку зі значним споживанням ресурсів.\nЦе означатиме, що автозаповнення може не працювати. На жаль, це системне обмеження Apple.\nВи можете розглянути можливість зменшення розміру файлу або зміни обсягу ресурсів, що споживаються (Зменшити споживання пам'яті з Argon2 до 64 МБ).";
 
 /* Decrypting... */
-"open_sequence_progress_decrypting" = "Decrypting...";
+"open_sequence_progress_decrypting" = "Дешифрування...";
 
 /* The Convenience Password or Key File were incorrect for this database. Convenience Unlock Disabled. */
-"open_sequence_problem_opening_convenience_incorrect_message" = "The Convenience Password or Key File were incorrect for this database. Convenience Unlock Disabled.";
+"open_sequence_problem_opening_convenience_incorrect_message" = "Зручний пароль або ключовий файл для цієї бази паролів неправильні. Зручне розблокування вимкнено.";
 
 /* Incorrect Credentials */
-"open_sequence_problem_opening_incorrect_credentials_title" = "Incorrect Credentials";
+"open_sequence_problem_opening_incorrect_credentials_title" = "Неправильні облікові дані";
 
 /* The credentials were incorrect for this database. */
 "open_sequence_problem_opening_incorrect_credentials_message" = "The credentials were incorrect for this database.";
@@ -2075,6 +2069,28 @@
 /* One Time Key File Problem */
 "config_error_one_time_key_file_convenience_title" = "One Time Key File Problem";
 
+/* Could not write backup, will not proceed with write of database! */
+"model_error_cannot_write_backup" = "Could not write backup, will not proceed with write of database!";
+
+/* Button Title to view backup settings of this database */
+"safes_vc_action_backups" = "Backups...";
+
+/* Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences */
+"open_sequence_error_reading_key_file_autofill_context" = "Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences";
+
+/* Local Network (Built In Http Server for Upload) with a Wifi Icon... */
+"sspc_local_network_storage_location" = "Transfer Over Local Network";
+
+"storage_provider_status_reading" = "Reading...";
+
+"open_sequence_biometric_unlock_preferences_message" = "Identify to Open Preferences";
+
+/* Message to display when device is offline and has no IP address in Local HTTP Transfer - Select Storage -> Transfer over Local Network */
+"transfer_local_network_network_unavailable_message" = "It seem's like you're offline?";
+
+/* Loading... */
+"generic_loading" = "Loading...";
+
 /* Done */
 "generic_done" = "Done";
 
@@ -2087,14 +2103,14 @@
 /* Remove */
 "generic_remove" = "Remove";
 
-/* Could not write backup, will not proceed with write of database! */
-"model_error_cannot_write_backup" = "Could not write backup, will not proceed with write of database!";
+/* Title of info dialog about Family Sharing upgrade */
+"upgrade_family_sharing_info_title" = "Family Sharing";
 
-/* Button Title to view backup settings of this database */
-"safes_vc_action_backups" = "Backups...";
+/* A message about how you will need to download/purchase a separate App for Family Sharing to work */
+"upgrade_family_sharing_info_message" = "To benefit from Family Sharing you should purchase the separate Family Edition.\nTap OK to view this edition on the App Store";
 
-/* Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences */
-"open_sequence_error_reading_key_file_autofill_context" = "Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences";
+/* Need Family Sharing? */
+"upgrade_family_sharing_button_title" = "Need Family Sharing?";
 
-/* Local Network (Built In Http Server for Upload) with a Wifi Icon... */
-"sspc_local_network_storage_location" = "";
+/* Need Family Sharing? */
+"upgrade_family_sharing_button_subtitle" = "Tap for more info...";

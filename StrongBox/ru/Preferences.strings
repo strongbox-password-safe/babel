@@ -19,6 +19,9 @@
 /* Class = "UILabel"; text = "Allow <Biometric>"; ObjectID = "8as-hW-KMW"; */
 "8as-hW-KMW.text" = "Разрешить <Biometric>";
 
+/* Class = "UILabel"; text = "Debug Info"; ObjectID = "8qK-rT-Mfx"; */
+"8qK-rT-Mfx.text" = "Отладочная информация";
+
 /* Class = "UILabel"; text = "Key File Management"; ObjectID = "8yZ-ks-9kS"; */
 "8yZ-ks-9kS.text" = "Управление ключевыми файлами";
 
@@ -58,6 +61,12 @@
 /* Class = "UILabel"; text = "Change..."; ObjectID = "IbA-Qf-Abq"; */
 "IbA-Qf-Abq.text" = "Изменить...";
 
+/* Class = "UITextView"; text = "Debug Info"; ObjectID = "JkH-Oi-xgJ"; */
+"JkH-Oi-xgJ.text" = "Отладочная информация";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "Kun-Us-o6J"; */
+"Kun-Us-o6J.text" = "Название";
+
 /* Class = "UILabel"; text = "New Entry Defaults"; ObjectID = "Lc4-V2-ayy"; */
 "Lc4-V2-ayy.text" = "Настройки по умолчанию для новых записей";
 
@@ -68,7 +77,7 @@
 "Mpw-yW-Qyq.segmentTitles[0]" = "По умолчанию";
 
 /* Class = "UISegmentedControl"; Mpw-yW-Qyq.segmentTitles[1] = "Custom..."; ObjectID = "Mpw-yW-Qyq"; */
-"Mpw-yW-Qyq.segmentTitles[1]" = "Настраиваемый...";
+"Mpw-yW-Qyq.segmentTitles[1]" = "Настроить...";
 
 /* Class = "UILabel"; text = "Attempts"; ObjectID = "NUR-SR-xbU"; */
 "NUR-SR-xbU.text" = "Попыток";
@@ -77,7 +86,7 @@
 "Qdz-C4-wBV.segmentTitles[0]" = "Отсутствует";
 
 /* Class = "UISegmentedControl"; Qdz-C4-wBV.segmentTitles[1] = "Custom..."; ObjectID = "Qdz-C4-wBV"; */
-"Qdz-C4-wBV.segmentTitles[1]" = "Настраиваемый...";
+"Qdz-C4-wBV.segmentTitles[1]" = "Настроить...";
 
 /* Class = "UILabel"; text = "Show Tips"; ObjectID = "R9S-IH-dDH"; */
 "R9S-IH-dDH.text" = "Показывать советы";
@@ -100,14 +109,20 @@
 /* Class = "UITableViewSection"; headerTitle = "Application Lock"; ObjectID = "Xea-R2-BE7"; */
 "Xea-R2-BE7.headerTitle" = "Блокировка приложения";
 
+/* Class = "UILabel"; text = "About"; ObjectID = "YSc-AW-zP2"; */
+"YSc-AW-zP2.text" = "О приложении";
+
 /* Class = "UILabel"; text = "Also Lock Preferences"; ObjectID = "YVy-zW-ddw"; */
 "YVy-zW-ddw.text" = "Также защитить настройки";
+
+/* Class = "UIButton"; normalTitle = "Copy"; ObjectID = "aid-15-B7W"; */
+"aid-15-B7W.normalTitle" = "Скопировать";
 
 /* Class = "UISegmentedControl"; bqb-zZ-QG6.segmentTitles[0] = "None"; ObjectID = "bqb-zZ-QG6"; */
 "bqb-zZ-QG6.segmentTitles[0]" = "Отсутствует";
 
 /* Class = "UISegmentedControl"; bqb-zZ-QG6.segmentTitles[1] = "Custom..."; ObjectID = "bqb-zZ-QG6"; */
-"bqb-zZ-QG6.segmentTitles[1]" = "Настраиваемый...";
+"bqb-zZ-QG6.segmentTitles[1]" = "Настроить...";
 
 /* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "cCM-jR-7zz"; */
 "cCM-jR-7zz.title" = "Назад";
@@ -185,7 +200,7 @@
 "rC5-aN-yQt.segmentTitles[1]" = "Генерировать";
 
 /* Class = "UISegmentedControl"; rC5-aN-yQt.segmentTitles[2] = "Custom..."; ObjectID = "rC5-aN-yQt"; */
-"rC5-aN-yQt.segmentTitles[2]" = "Настраиваемый...";
+"rC5-aN-yQt.segmentTitles[2]" = "Настроить...";
 
 /* Class = "UITableViewController"; title = "New Entry Defaults"; ObjectID = "rF2-GZ-Oaf"; */
 "rF2-GZ-Oaf.title" = "Настройки по умолчанию для новых записей";
@@ -206,10 +221,10 @@
 "vjo-hV-bFw.segmentTitles[0]" = "Отсутствует";
 
 /* Class = "UISegmentedControl"; vjo-hV-bFw.segmentTitles[1] = "Most Used"; ObjectID = "vjo-hV-bFw"; */
-"vjo-hV-bFw.segmentTitles[1]" = "Часто используемое";
+"vjo-hV-bFw.segmentTitles[1]" = "Наиболее используемое";
 
 /* Class = "UISegmentedControl"; vjo-hV-bFw.segmentTitles[2] = "Custom..."; ObjectID = "vjo-hV-bFw"; */
-"vjo-hV-bFw.segmentTitles[2]" = "Настраиваемый...";
+"vjo-hV-bFw.segmentTitles[2]" = "Настроить...";
 
 /* Class = "UITableViewSection"; headerTitle = "Username"; ObjectID = "wAF-xI-JSd"; */
 "wAF-xI-JSd.headerTitle" = "Имя пользователя";
@@ -218,10 +233,10 @@
 "yCr-uz-Wo7.segmentTitles[0]" = "Отсутствует";
 
 /* Class = "UISegmentedControl"; yCr-uz-Wo7.segmentTitles[1] = "Most Used"; ObjectID = "yCr-uz-Wo7"; */
-"yCr-uz-Wo7.segmentTitles[1]" = "Часто используемое";
+"yCr-uz-Wo7.segmentTitles[1]" = "Наиболее используемое";
 
 /* Class = "UISegmentedControl"; yCr-uz-Wo7.segmentTitles[2] = "Custom..."; ObjectID = "yCr-uz-Wo7"; */
-"yCr-uz-Wo7.segmentTitles[2]" = "Настраиваемый...";
+"yCr-uz-Wo7.segmentTitles[2]" = "Настроить...";
 
 /* Class = "UINavigationItem"; title = "About"; ObjectID = "ydo-Zd-WnF"; */
 "ydo-Zd-WnF.title" = "О приложении";
