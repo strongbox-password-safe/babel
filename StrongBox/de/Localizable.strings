@@ -30,7 +30,7 @@
 "safes_vc_cached_date_time_fmt" = "Zwischengespeichert: %@";
 
 /* Remove this database table action */
-"safes_vc_slide_left_remove_database_action" = "Entfernen...";
+"safes_vc_slide_left_remove_database_action" = "Löschen";
 
 /* Open ths database offline table action */
 "safes_vc_slide_left_open_offline_action" = "Offline öffnen";
@@ -136,10 +136,10 @@
 "safes_vc_error_importing_database" = "Fehler beim Importieren der Datenbank";
 
 /* No comment provided by engineer. */
-"safes_vc_add_existing_database" = "Existierende Datenbank hinzufügen ...";
+"safes_vc_add_existing_database" = "Vorhandene Datenbank hinzufügen...";
 
 /* No comment provided by engineer. */
-"safes_vc_new_database_advanced" = "Neue Datenbank (Erweitert) ...";
+"safes_vc_new_database_advanced" = "Neue Datenbank (Erweitert)...";
 
 /* No comment provided by engineer. */
 "safes_vc_new_database_express" = "Neue Datenbank (Express)";
@@ -394,7 +394,7 @@
 "browse_vc_action_rename" = "Umbenennen";
 
 /* Set Icon */
-"browse_vc_action_set_icon" = "Symbol festlegen";
+"browse_vc_action_set_icon" = "Icon festlegen";
 
 /* Are you sure? */
 "browse_vc_are_you_sure" = "Sind Sie sicher?";
@@ -503,7 +503,7 @@
 
 /* '%@' OTP Code Copied
    '%@' TOTP Copied */
-"browse_vc_totp_copied_fmt" = "'%@'-OTP-Code kopiert";
+"browse_vc_totp_copied_fmt" = "'%@'-TOTP-Code kopiert";
 
 /* '%@' URL Copied */
 "browse_vc_url_copied_fmt" = "'%@'-URL kopiert";
@@ -515,7 +515,7 @@
 "browse_vc_view_as_database_empty" = "Keine Einträge";
 
 /* View As: TOTP List (No TOTP Entries) */
-"browse_vc_view_as_totp_no_totps" = "Anzeigen als: TOTP-Liste (Keine TOTP-Einträge)";
+"browse_vc_view_as_totp_no_totps" = "Anzeigen als: TOTP-Liste (keine TOTP-Einträge)";
 
 /* No matching entries found */
 "browse_vc_view_search_no_matches" = "Keine passenden Einträge gefunden";
@@ -536,7 +536,7 @@
 "casg_create_database_action" = "Datenbank erstellen";
 
 /* KDB, AES (Supports Icons & Attachments) */
-"casg_database_format_information_kp1" = "KDB, AES (unterstützt Symbole und Anhänge)";
+"casg_database_format_information_kp1" = "KDB, AES (unterstützt Icons und Anhänge)";
 
 /* KDBX 3.1, Salsa20 and AES (Most Compatible) */
 "casg_database_format_information_kp31" = "KDBX 3.1, Salsa20 und AES (am kompatibelsten)";
@@ -644,7 +644,7 @@
 "db_management_disable_biometric_question_fmt" = "%@ deaktivieren?";
 
 /* Disabling %@ for this database will remove the securely stored password and you will have to enter it again. Are you sure you want to do this? */
-"db_management_disable_biometric_warning_fmt" = "Das Deaktivieren von %@ für diese Datenbank wird das sicher gespeicherte Passwort entfernen und Sie müssen es erneut eingeben. Sind Sie sicher, dass Sie das machen möchten?";
+"db_management_disable_biometric_warning_fmt" = "Das Deaktivieren von %@ für diese Datenbank wird das sicher gespeicherte Passwort entfernen und Sie müssen es erneut eingeben. Sind Sie sicher, dass Sie dies tun möchten?";
 
 /* Are you sure you want to disable %@ for this database? */
 "db_management_disable_biomtric_simple_fmt" = "Sind Sie sicher, dass Sie %@ für diese Datenbank deaktivieren möchten?";
@@ -656,7 +656,7 @@
 "db_management_disable_offline_done" = "Offline deaktiviert";
 
 /* Disabling offline access for this database will remove the offline cache and you will not be able to access the database when offline. Are you sure you want to do this? */
-"db_management_disable_offline_yesno_message" = "Das Deaktivieren des Offline-Zugriffs für diese Datenbank wird den Offline-Cache entfernen und Sie können nicht auf die Datenbank zugreifen, wenn Sie offline sind. Sind Sie sicher, dass Sie das machen möchten?";
+"db_management_disable_offline_yesno_message" = "Das Deaktivieren des Offline-Zugriffs für diese Datenbank wird den Offline-Cache löschen und Sie können nicht mehr auf die Datenbank zugreifen, wenn Sie offline sind. Sind Sie sicher, dass Sie dies tun möchten?";
 
 /* Disable Offline Access? */
 "db_management_disable_offline_yesno_title" = "Offline-Zugriff deaktivieren?";
@@ -755,13 +755,13 @@
 "item_details_setup_totp" = "TOTP einrichten...";
 
 /* Could not set TOTP because it could not be initialized. */
-"item_details_setup_totp_failed_message" = "TOTP konnte nicht festgelegt werden, weil es nicht initialisiert werden konnte.";
+"item_details_setup_totp_failed_message" = "TOTP konnte nicht eingerichtet werden, da es nicht initialisiert werden konnte.";
 
 /* Failed to Set TOTP */
-"item_details_setup_totp_failed_title" = "Festlegen von TOTP fehlgeschlagen";
+"item_details_setup_totp_failed_title" = "TOTP-Einrichtung fehlgeschlagen";
 
 /* You can setup TOTP by using a QR Code, or manually by entering the secret or an OTPAuth URL */
-"item_details_setup_totp_how_message" = "Sie können TOTP festlegen, indem Sie einen QR-Code verwenden oder manuell, indem Sie das Geheimnis oder eine OTPAuth-URL eingeben";
+"item_details_setup_totp_how_message" = "Sie können TOTP einrichten, indem Sie einen QR-Code scannen oder manuell, indem Sie den geheimen Schlüssel oder eine OTPAuth-URL eingeben.";
 
 /* How would you like to setup TOTP? */
 "item_details_setup_totp_how_title" = "Wie möchten Sie TOTP einrichten?";
@@ -776,10 +776,10 @@
 "item_details_setup_totp_qr_code" = "QR-Code...";
 
 /* Please enter the secret or an OTPAuth URL */
-"item_details_setup_totp_secret_message" = "Bitte geben Sie das Geheimnis oder eine OTPAuth-URL ein";
+"item_details_setup_totp_secret_message" = "Bitte geben Sie den geheimen Schlüssel oder eine OTPAuth-URL ein";
 
 /* Secret or OTPAuth URL */
-"item_details_setup_totp_secret_title" = "Geheimnis oder OTPAuth-URL";
+"item_details_setup_totp_secret_title" = "Schlüssel oder OTPAuth-URL";
 
 /* '%@' Copied */
 "item_details_something_copied_fmt" = "'%@' kopiert";
@@ -791,7 +791,7 @@
 "item_details_title_field_name" = "Titel";
 
 /* One Time Password Copied */
-"item_details_totp_copied" = "Einmaliges Passwort kopiert";
+"item_details_totp_copied" = "Einmalpasswort kopiert";
 
 /* URL Copied */
 "item_details_url_copied" = "URL kopiert";
@@ -1173,7 +1173,7 @@
 "pins_config_vc_title_pro_only" = "PIN-Codes (Nur Pro-Funktion)";
 
 /* Turning the PIN Off for this database will remove the securely stored password and you will have to enter it again. Are you sure you want to do this? */
-"pins_config_vc_turn_pin_off_warning" = "Das Ausschalten der PIN für diese Datenbank wird das sicher gespeicherte Passwort entfernen und Sie müssen es erneut eingeben. Sind Sie sicher, dass Sie das machen möchten?";
+"pins_config_vc_turn_pin_off_warning" = "Das Ausschalten der PIN für diese Datenbank wird das sicher gespeicherte Passwort entfernen und Sie müssen es erneut eingeben. Sind Sie sicher, dass Sie dies tun möchten?";
 
 /* Are you sure you want to turn off the PIN for this database? */
 "pins_config_vc_turn_pin_off_confirm" = "Sind Sie sicher, dass Sie die PIN für diese Datenbank freischalten möchten?";
@@ -1197,7 +1197,7 @@
 "pins_config_vc_warn_remove_database_delete_message" = "Diese wird die Datenbank-Datei dauerhaft löschen.";
 
 /* This will remove the database from Strongbox but the underlying file will remain on cloud storage */
-"pins_config_vc_warn_remove_database_remove_message" = "Dies wird die Datenbank von Strongbox entfernen, aber die zugrunde liegende Datei wird im Cloud-Speicher bleiben ";
+"pins_config_vc_warn_remove_database_remove_message" = "Dies wird die Datenbank von Strongbox entfernen, aber die zugrunde liegende Datei wird im Cloud-Speicher bleiben.";
 
 /* Manage Key Files */
 "key_files_vc_manage_title" = "Schlüsseldateien verwalten";
@@ -1218,7 +1218,7 @@
 "key_files_vc_one_time_key_file_source_option_files" = "Dateien...";
 
 /* Photo Library... */
-"key_files_vc_one_time_key_file_source_option_photos" = "Fotobibliothek...";
+"key_files_vc_one_time_key_file_source_option_photos" = "Fotos...";
 
 /* Cancel */
 "key_files_vc_option_cancel" = "Abbrechen";
@@ -1252,16 +1252,16 @@
 "key_files_vc_no_key_file" = "Keine Schlüsseldatei";
 
 /* Remove */
-"key_files_vc_option_remove" = "Entfernen";
+"key_files_vc_option_remove" = "Löschen";
 
 /* Import */
 "key_files_vc_option_import" = "Importieren";
 
 /* Remove After Import */
-"key_files_vc_remove_after_import_title" = "Nach Importieren entfernen";
+"key_files_vc_remove_after_import_title" = "Nach Import löschen";
 
 /* Do you want to remove the key file from the local Documents folder after import? This will mean it is not visible in iOS Files or accessible via iTunes File Sharing? */
-"key_files_vc_remove_after_import_message" = "Möchten Sie die Schlüsseldatei von dem lokalen Dokumentenordner nach dem Importieren entfernen? D. h., dass sie in Ihren iOS-Dateien nicht sichtbar ist und über iTunes-Datei-Sharing nicht zugegriffen werden kann.";
+"key_files_vc_remove_after_import_message" = "Möchten Sie die Schlüsseldatei nach dem Import aus dem lokalen Dokumentenordner löschen? Sie ist dann nicht mehr in der iOS-Dateien-App sichtbar und es ist kein Zugriff mehr über die iTunes-Dateifreigabe möglich.";
 
 /* Yes, Remove Local Copy */
 "key_files_vc_remove_after_import_option_yes" = "Ja, lokale Kopie entfernen";
@@ -1345,22 +1345,22 @@
 "add_attachment_vc_error_reading_message" = "Die Daten für dieses Element konnten nicht gelesen werden.";
 
 /* This is quite a large file (%@), and could significantly affect the performance of Strongbox and slow down syncs across networks. Is there a smaller version you could use?\n\nContinue adding this attachment anyway? */
-"add_attachment_vc_large_file_message_fmt" = "Das ist eine ziemlich große Datei (%@) und könnte die Performance von Strongbox deutlich beeinflussen und die Synchronisation im Netzwerk verlangsamen. Gibt es eine kleinere Version, die Sie verwenden könnten?\n\nTrotzdem fortfahren diesen Anhang hinzuzufügen?";
+"add_attachment_vc_large_file_message_fmt" = "Dies ist eine ziemlich große Datei (%@), welche die Performance von Strongbox deutlich beeinflussen und die Synchronisation im Netzwerk verlangsamen kann. Gibt es eine kleinere Version, die Sie verwenden könnten?\n\nTrotzdem mit dem Hinzufügen dieses Anhangs fortfahren?";
 
 /* Large Attachment */
 "add_attachment_vc_large_file_title" = "Großer Anhang";
 
 /* Analyzing Image... */
-"add_attachment_vc_large_file_analyzing_progress_title" = "Bild wird analysiert ...";
+"add_attachment_vc_large_file_analyzing_progress_title" = "Analysiere Bild...";
 
 /* This is a rather large image which could negatively affect the performance of Strongbox, and significantly slow down network synchronisation times. Would you like to rescale this image to one of the streamlined options below? */
-"add_attachment_vc_large_image_message_rescale" = "Das ist ein eher großes Bild, das die Performance von Strongbox negativ beeinflussen könnten und die Synchronisationsanzahl im Netzwerk deutlich verlangsamen kann. Möchten Sie die Dimensionen des Bildes ändern, um eine der unten stehenden vereinfachten Versionen zu erhalten?";
+"add_attachment_vc_large_image_message_rescale" = "Dies ist ein ziemlich großes Bild, welches die Performance von Strongbox negativ beeinflussen und die Synchronisation im Netzwerk verlangsamen kann. Möchten Sie das Bild auf eine der unten aufgeführten optimierten Größen skalieren?";
 
 /* This is a rather large image which could negatively affect the performance of Strongbox, and significantly slow down network synchronisation times. Is there a smaller version you could use? */
-"add_attachment_vc_large_image_message" = "Das ist ein eher großes Bild, das die Performance von Strongbox negativ beeinflussen könnten und die Synchronisationsanzahl im Netzwerk deutlich verlangsamen kann. Gibt es eine kleinere Version, die Sie verwenden könnten?";
+"add_attachment_vc_large_image_message" = "Dies ist ein ziemlich großes Bild, welches die Performance von Strongbox negativ beeinflussen und die Synchronisation im Netzwerk verlangsamen kann. Gibt es eine kleinere Version, die Sie verwenden könnten?";
 
 /* Rescale Large Image? */
-"add_attachment_vc_large_image_prompt_rescale_title" = "Dimensionen des großen Bildes ändern?";
+"add_attachment_vc_large_image_prompt_rescale_title" = "Großes Bild neu skalieren?";
 
 /* Use Large Image? */
 "add_attachment_vc_large_image_prompt_use" = "Großes Bild verwenden?";
@@ -1390,13 +1390,13 @@
 "webdav_vc_validation_url_invalid" = "URL ungültig";
 
 /* Select Icon Source */
-"set_icon_vc_select_icon_source_title" = "Symbolquelle auswählen";
+"set_icon_vc_select_icon_source_title" = "Icon-Quelle auswählen";
 
 /* Select the source of the icon you would like to use for this entry */
-"set_icon_vc_select_icon_source_message" = "Wählen Sie die Quelle für das Symbol aus, das Sie für diesen Eintrag verwenden möchten ";
+"set_icon_vc_select_icon_source_message" = "Wählen Sie die Quelle für das Icon aus, das Sie für diesen Eintrag verwenden möchten.";
 
 /* KeePass & Database Icon Set */
-"set_icon_vc_icon_source_keepass_set" = "KeePass- und Datenbank-Symbolset";
+"set_icon_vc_icon_source_keepass_set" = "KeePass- und Datenbank-Iconsatz";
 
 /* Media Library */
 "set_icon_vc_icon_source_media_libary" = "Medienbibliothek";
@@ -1426,19 +1426,19 @@
 "set_icon_vc_image_src_photos_unavailable_message" = "Auf die Fotoquelle konnte nicht zugegriffen werden.";
 
 /* Reading Data... */
-"set_icon_vc_progress_reading_data" = "Daten werden gelesen ...";
+"set_icon_vc_progress_reading_data" = "Lese Daten...";
 
 /* Error Reading Image */
 "set_icon_vc_error_reading_image" = "Fehler beim Lesen des Bildes";
 
 /* Analyzing Image... */
-"set_icon_vc_progress_analyzing_image" = "Bild wird analysiert ...";
+"set_icon_vc_progress_analyzing_image" = "Analysiere Bild...";
 
 /* This is a rather large image (%dx%d), would you like to rescale it to a maximum dimension of %d pixels for a file size saving of roughly %@ */
-"set_icon_vc_prompt_rescale_image_message_fmt" = "Das ist ein eher großes Bild (%dx%d). Möchten Sie die Dimensionen auf ein Maximum von %d Pixel ändern, damit eine Dateigröße von ca. %@ gespart wird.";
+"set_icon_vc_prompt_rescale_image_message_fmt" = "Dies ist ein ziemlich großes Bild (%dx%d). Möchten Sie es auf eine maximale Größe von %d Pixel saklieren, um die Dateigröße um ca. %@ zu verringern?";
 
 /* Large Custom Icon Image, Rescale? */
-"set_icon_vc_prompt_rescale_image_title" = "Großes benutzerdefiniertes Symbolbild. Dimensionen ändern?";
+"set_icon_vc_prompt_rescale_image_title" = "Großes Bild für benutzerdefiniertes Icon. Neu skalieren?";
 
 /* Error Moving */
 "moveentry_vc_error_moving" = "Fehler beim Verschieben";
@@ -1465,7 +1465,7 @@
 "sftp_vc_label_validation_enter_host" = "Bitte geben Sie einen Host ein";
 
 /* Select a Private Key... */
-"sftp_vc_label_validation_select_private_key" = "Wählen Sie einen privaten Schlüssel ...";
+"sftp_vc_label_validation_select_private_key" = "Privaten Schlüssel wählen...";
 
 /* Invalid Key */
 "sftp_vc_warn_invalid_key_title" = "Ungültiger Schlüssel";
@@ -1507,10 +1507,10 @@
 "qr_code_vc_warn_problem_accessing_camera_message" = "Strongbox konnte nicht auf die Kamera auf diesem Gerät zugreifen. Wurde eine Berechtigung erteilt?";
 
 /* Database Icons */
-"icons_vc_header_database_icons_title" = "Datenbank-Symbole";
+"icons_vc_header_database_icons_title" = "Datenbank-Icons";
 
 /* KeePass Icons */
-"icons_vc_header_keepass_icons_title" = "KeePass-Symbole";
+"icons_vc_header_keepass_icons_title" = "KeePass-Icons";
 
 /* %@ (Historical) */
 "attachment_pool_vc_filename_historical_fmt" = "%@ (Historisch)";
@@ -1653,7 +1653,7 @@
 "open_sequence_prompt_use_convenience_use_bio_fmt" = "%@ verwenden";
 
 /* Use a PIN Code... */
-"open_sequence_prompt_use_convenience_use_pin" = "PIN-Code verwenden ...";
+"open_sequence_prompt_use_convenience_use_pin" = "PIN-Code verwenden...";
 
 /* No */
 "open_sequence_prompt_option_no" = "Nein";
@@ -1683,7 +1683,7 @@
 "files_provider_problem_saving" = "Problem beim Speichern der externen Datei";
 
 /* Strongbox's reference to this external file is stale. Please remove and re-add this database. */
-"files_provider_stale_reference" = "Die Referenz von Strongbox zu dieser Datei ist alt. Bitte entfernen und diese Datenbank erneut hinzufügen.";
+"files_provider_stale_reference" = "Die Referenz von Strongbox auf die externe Datei ist veraltet. Bitte löschen Sie die Datenbank und fügen Sie sie erneut hinzu.";
 
 /* Unlock Attempts Remaining: %ld */
 "privacy_vc_label_unlock_attempts_fmt" = "Verbleibende Freischalten-Versuche: %ld";
@@ -1845,7 +1845,7 @@
 "pick_creds_vc_cannot_create_new_unsupported_storage_type_message" = "Diese Datenbank wird bei eine Speicheranbieter gespeichert, der keine Live-Bearbeitung in App-Erweiterungen unterstützt. Neuer Eintrag kann nicht erstellt werden.";
 
 /* Create New Entry... */
-"pick_creds_vc_create_new_button_title" = "Neuen Eintrag erstellen ...";
+"pick_creds_vc_create_new_button_title" = "Neuen Eintrag erstellen...";
 
 /* No Matching Entries */
 "pick_creds_vc_empty_search_dataset_title" = "Keine passenden Einträge";
@@ -1962,7 +1962,7 @@
 "pwgen_salt_mode_suffix" = "Nachsilbe";
 
 /* Button Title to start reordering */
-"safes_vc_action_reorder_database" = "Neu ordnen ...";
+"safes_vc_action_reorder_database" = "Neu sortieren...";
 
 /* Tip displayed at top of screen. Slide left on Database for options */
 "safes_vc_tip" = "Tipp: Streichen Sie in der Datenbank nach links, um Optionen anzuzeigen";
@@ -2058,7 +2058,7 @@
 "backup_vc_backup_added_to_databases" = "Diese Sicherung wurde zu Ihren Datenbanken hinzugefügt";
 
 /* Add as Local Database */
-"backups_add_local" = "Add to Databases";
+"backups_add_local" = "Zu Datenbanken hinzufügen";
 
 /* Are you sure you want to delete all backups? */
 "backups_vc_delete_all_backups_prompt_message" = "Möchten Sie wirklich alle Sicherungen löschen?";
@@ -2106,7 +2106,7 @@
 "generic_export" = "Export";
 
 /* Remove */
-"generic_remove" = "Entfernen";
+"generic_remove" = "Löschen";
 
 /* Title of info dialog about Family Sharing upgrade */
 "upgrade_family_sharing_info_title" = "Familienfreigabe";
