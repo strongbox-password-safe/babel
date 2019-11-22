@@ -47,10 +47,10 @@
 "safes_vc_action_set_as_quick_launch" = "Включить быстрый запуск...";
 
 /* Button Title to Show in Files */
-"safes_vc_show_in_files" = "Показать в 'Файлах'...";
+"safes_vc_show_in_files" = "Make Visible in Files...";
 
-/* Button Title to Make AutoFillable */
-"safes_vc_make_autofillable" = "Включить функцию автозаполнения...";
+/* Button Title to Hide from Files */
+"safes_vc_make_autofillable" = "Hide from Files...";
 
 /* Title of Prompt about setting Quick Launch */
 "safes_vc_about_quick_launch_title" = "О быстром запуске";
@@ -59,25 +59,25 @@
 "safes_vc_about_setting_quick_launch_and_confirm" = "Включение функции быстрого запуска для этой базы данных означает, что Вам будет автоматически предложено разблокировать эту базу данных, как только Вы запустите или повторно активируете приложение Strongbox. Это может сэкономить вам одно драгоценное нажатие!\n\nВключить быстрый запуск для этой базы данных?";
 
 /* Button title to Show Database in iOS Files App */
-"safes_vc_show_database_in_files_info" = "Отображение этой базы данных в 'Файлах' сделает базу данных доступной через 'Файлы' и общий доступ к файлам iTunes. Однако, база данных больше не будет полностью доступна в меню автозаполнения. Это связано с ограничениями системы iOS.\n\nПримечание: Вы всегда можете отменить это действие";
+"safes_vc_show_database_in_files_info" = "Making this database visible in the Files App will also make the database available for access via Finder on your Mac. However the database will no longer be write-able in Auto Fill mode. This is due to iOS system design.\n\nNB: You can always reverse this action";
 
-/* Button tutle to make database Auto Fill-able */
-"safes_vc_make_database_auto_fill_info" = "Подключив возможность автозаполнения для этой базы данных, она будет полностью доступна в меню автоматического заполнения (не только для чтения из кэша). Однако, она больше не будет доступна для общего доступа к файлам iTunes или через 'Файлы'. Это связано с ограничениями системы iOS.\n\nПримечание: Вы всегда можете отменить это действие";
+/* Button title to Hide Database from the iOS Files App */
+"safes_vc_make_database_auto_fill_info" = "Hiding this database from the Files App also means it will no longer be visible via Finder on your Mac. As a side-effect, this also means you get full (read/write) Auto Fill functionality (not just a read-only cache).\n\nNB: You can always reverse this action";
 
 /* OK/Cancel prompt title for changing local storage mode */
-"safes_vc_change_local_device_storage_mode_title" = "Изменить место хранения на локальном устройстве";
+"safes_vc_change_local_device_storage_mode_title" = "Change Files Visibility";
 
 /* error message could not change local storage */
-"safes_vc_could_not_change_storage_location_error" = "Не удалось изменить место хранения";
+"safes_vc_could_not_change_storage_location_error" = "Could not change Files visibility";
 
 /* informational message - made the file visible in iOS Files */
-"safes_vc_database_made_visible_in_files" = "Эта база данных теперь доступна в 'Файлах'";
+"safes_vc_database_made_visible_in_files" = "This database has been made visible in the Files App";
 
 /* informational message - made the database fully autofillable */
-"safes_vc_database_made_fully_autofillable" = "Режим автозаполнения настроен для этой базы данных";
+"safes_vc_database_made_fully_autofillable" = "This database has been hidden from the Files App";
 
 /* information message = title changed storage mode */
-"safes_vc_local_storage_mode_changed" = "Место хранения на локальном устройстве изменено";
+"safes_vc_local_storage_mode_changed" = "Files Visibility Changed";
 
 /* warning message about removing database from icloud */
 "safes_vc_remove_icloud_databases_warning" = "Это удалит базу данных со всех Ваших устройств с поддержкой iCloud.\n\nВы действительно хотите удалить эту базу данных из Strongbox и iCloud?";

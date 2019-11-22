@@ -47,10 +47,10 @@
 "safes_vc_action_set_as_quick_launch" = "Встановити швидкий запуск...";
 
 /* Button Title to Show in Files */
-"safes_vc_show_in_files" = "Показати у Файлах...";
+"safes_vc_show_in_files" = "Показати в додатку Файли...";
 
-/* Button Title to Make AutoFillable */
-"safes_vc_make_autofillable" = "Доступ автозаповнення...";
+/* Button Title to Hide from Files */
+"safes_vc_make_autofillable" = "Приховати з додатка Файли...";
 
 /* Title of Prompt about setting Quick Launch */
 "safes_vc_about_quick_launch_title" = "Про швидкий запуск";
@@ -59,25 +59,25 @@
 "safes_vc_about_setting_quick_launch_and_confirm" = "Встановлення швидкого запуску для бази паролів означає, що вона автоматично відкриватиметься із запитом про розблокування одразу після запуску Strongbox. Це може пришвидшити вашу роботу!\n\nВстановити швидкий запуск для цієї бази паролів?";
 
 /* Button title to Show Database in iOS Files App */
-"safes_vc_show_database_in_files_info" = "Відображення цієї бази паролів у Файлах зробить її доступною через додаток Файли та обмін iTunes. Однак, база паролів більше не буде доступною для автозаповнення. Це пов'язано з обмеженнями системи iOS.\n\nПримітка: Ви завжди можете скасувати цю дію";
+"safes_vc_show_database_in_files_info" = "Відображення цієї бази паролів у додатку Файли зробить її також доступною через додаток Finder на вашому Mac. Однак, база паролів більше не буде доступною для запису в режимі автозаповнення. Це пов'язано з обмеженнями системи iOS.\n\nПримітка: Ви завжди можете скасувати цю дію";
 
-/* Button tutle to make database Auto Fill-able */
-"safes_vc_make_database_auto_fill_info" = "Активація автозаповнення бази паролів дозволить їй працювати в повному режимі автозаповнення (не лише з кешу для читання). Однак, вона більше не буде доступною для обміну файлами iTunes або через додаток Файли. Це пов'язано з обмеженнями системи iOS.\n\nПримітка: Ви завжди можете скасувати цю дію";
+/* Button title to Hide Database from the iOS Files App */
+"safes_vc_make_database_auto_fill_info" = "Приховування цієї бази паролів з додатка Файли означає, що вона більше не буде доступною через додаток Finder на вашому Mac. Але разом з цим ви отримаєте повний доступ (читання і запис) в режимі автозаповнення (а не лише кеш для читання).\n\nПримітка: Ви завжди можете скасувати цю дію";
 
 /* OK/Cancel prompt title for changing local storage mode */
-"safes_vc_change_local_device_storage_mode_title" = "Змінити режим локального сховища пристрою";
+"safes_vc_change_local_device_storage_mode_title" = "Відображення в додатку Файли";
 
 /* error message could not change local storage */
-"safes_vc_could_not_change_storage_location_error" = "Не вдається змінити розташування сховища";
+"safes_vc_could_not_change_storage_location_error" = "Не вдається змінити відображення в додатку Файли";
 
 /* informational message - made the file visible in iOS Files */
-"safes_vc_database_made_visible_in_files" = "Ця база паролів тепер доступна в Файлах";
+"safes_vc_database_made_visible_in_files" = "Ця база паролів тепер доступна в додатку Файли";
 
 /* informational message - made the database fully autofillable */
-"safes_vc_database_made_fully_autofillable" = "Цій базі паролів надано повний доступ автозаповнення";
+"safes_vc_database_made_fully_autofillable" = "Ця база паролів була прихована з додатка Файли";
 
 /* information message = title changed storage mode */
-"safes_vc_local_storage_mode_changed" = "Режим локального сховища змінено";
+"safes_vc_local_storage_mode_changed" = "Відображення в додатку Файли змінено";
 
 /* warning message about removing database from icloud */
 "safes_vc_remove_icloud_databases_warning" = "Це вилучить базу паролів з усіх ваших пристроїв, під'єднаних до iCloud.\n\nВи справді хочете вилучити базу паролів зі Strongbox та iCloud?";
@@ -297,7 +297,7 @@
 "browse_prefs_double_tap_action" = "Дія подвійного дотику";
 
 /* Item Subtitle */
-"browse_prefs_item_subtitle" = "Субтитр запису";
+"browse_prefs_item_subtitle" = "Підзаголовок елемента";
 
 /* Date Created */
 "browse_prefs_item_subtitle_date_created" = "Дата створення";
