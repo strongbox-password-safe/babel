@@ -866,7 +866,7 @@
 "prefs_vc_confirm_pin" = "Подтвердить ПИН-код";
 
 /* Delete Data Failed Attempt Count */
-"prefs_vc_delete_data_attempt_count" = "Количество неудачных попыток для удаления данных";
+"prefs_vc_delete_data_attempt_count" = "Кол-во неудачных попыток для удаления данных";
 
 /* Enable %@ */
 "prefs_vc_enable_biometric_fmt" = "Включить %@";
@@ -1249,7 +1249,7 @@
 "key_files_vc_section_header_local" = "Папка документов (автозаполнение не поддерживается)";
 
 /* No Key File */
-"key_files_vc_no_key_file" = "Нет ключевого файла";
+"key_files_vc_no_key_file" = "Без ключевого файла";
 
 /* Remove */
 "key_files_vc_option_remove" = "Удалить";
@@ -1611,7 +1611,7 @@
 "open_sequence_autofill_creash_likely_message" = "Ваша база данных достаточно велика или имеет настройки шифрования, которые могут привести к сбою расширения автозаполнения пароля iOS из-за чрезмерного потребления ресурсов.\nБудет казаться, что автозаполнение не работает. К сожалению, это ограничение системы, наложенное компанией Apple.\nВы могли бы рассмотреть возможность уменьшения размера файла или изменения количества потребляемых ресурсов (уменьшить потребление памяти с Argon2 до 64 МБ).";
 
 /* Decrypting... */
-"open_sequence_progress_decrypting" = "Дешифровка...";
+"open_sequence_progress_decrypting" = "Расшифровка...";
 
 /* The Convenience Password or Key File were incorrect for this database. Convenience Unlock Disabled. */
 "open_sequence_problem_opening_convenience_incorrect_message" = "Комфортный ПИН-код или ключевой файл для этой базы данных неверны. Комфортная разблокировка отключена.";
@@ -1965,7 +1965,7 @@
 "safes_vc_action_reorder_database" = "Изменение порядка...";
 
 /* Tip displayed at top of screen. Slide left on Database for options */
-"safes_vc_tip" = "Совет: Смахните влево базу данных для выбора параметров";
+"safes_vc_tip" = "Совет: Смахните влево по базе данных для выбора параметров";
 
 /* Tip: Tap to Copy, Double Tap to Launch URL or Copy Notes */
 "item_details_tip" = "Совет: Нажмите единожды для копирования, дважды для запуска URL или копирования примечаний";
@@ -2013,7 +2013,7 @@
 "database_metadata_field_key_derivation" = "Формирование ключа";
 
 /* Max History Items */
-"database_metadata_field_max_history_items" = "Максимальное количество элементов истории";
+"database_metadata_field_max_history_items" = "Макс. кол-во элементов истории";
 
 /* Max History Size */
 "database_metadata_field_max_history_size" = "Максимальный размер истории";
@@ -2064,7 +2064,7 @@
 "backups_vc_delete_all_backups_prompt_message" = "Вы уверены, что хотите удалить все резервные копии?";
 
 /* Set Maximum Backup Keep Count */
-"backups_vc_set_max_keep_count_title" = "Установить максимальное количество резервных копий";
+"backups_vc_set_max_keep_count_title" = "Установить макс. кол-во копий";
 
 /* You cannot use convenience unlock with a one time key file. */
 "config_error_one_time_key_file_convenience_message" = "Вы не можете использовать комфортную разблокировку с одноразовым ключевым файлом.";
@@ -2155,4 +2155,8 @@
 "prefs_vc_info_email_support_options_mail_support" = "Поддержка по электронной почте (только на английском языке)";
 
 /* No comment provided by engineer. */
-"transfer_over_local_network_website_prologue" = "<p>Drag &amp; drop files on this window or use the \"Upload Files&hellip;\" button to upload new files. If these files are valid KeePass or Password Safe databases they will be automatically be added to your Databases collection.</p><p>NB: If you want these files to work with iOS AutoFill you should slide left on the database in app, and choose 'Make Auto-Fillable'.</p>";
+"transfer_over_local_network_website_prologue" = "<p>Перетащите файлы в это окно или используйте кнопку \"Загрузить файлы&hellip;\" для загрузки новых файлов. Если эти файлы являются действительными базами данных KeePass или Password Safe, они будут автоматически добавлены в Вашу коллекцию баз данных.</p><p>Примечание: Если Вы хотите, чтобы эти файлы работали с автозаполнением iOS, тогда смахните влево по базе данных в приложении, и включите функцию автозаполнения.</p>";
+
+"generic_decrypting" = "Расшифровка";
+
+"generic_encrypting" = "Шифрование";
