@@ -1049,10 +1049,10 @@
 "key_files_vc_empty_key_files_title" = "Keine Schlüsseldateien gefunden. Tippen Sie auf '+', um eine zu importieren.";
 
 /* One Time Key File Source */
-"key_files_vc_one_time_key_file_source_title" = "Einmalige Schlüsseldatei-Quelle";
+"key_files_vc_one_time_key_file_source_title" = "Quelle für Einmal-Schlüsseldatei";
 
 /* Select where you would like to choose your Key File from. This file will not be stored locally or remembered. */
-"key_files_vc_one_time_key_file_source_message" = "Wählen Sie aus, wo Sie Ihre Schlüsseldatei aussuchen möchten. Diese Datei wird nicht lokal gespeichert oder vermerkt.";
+"key_files_vc_one_time_key_file_source_message" = "Wählen Sie die Quelle für Ihre Schlüsseldatei aus. Die Datei wird nicht lokal gespeichert oder vermerkt.";
 
 /* Files... */
 "key_files_vc_one_time_key_file_source_option_files" = "Dateien...";
@@ -1433,13 +1433,13 @@
 "key_files_vc_no_key_file" = "Keine Schlüsseldatei";
 
 /* The Convenience Password or Key File were incorrect for this database. Convenience Unlock Disabled. */
-"open_sequence_problem_opening_convenience_incorrect_message" = "Das Komfort-Passwort oder die Schlüsseldatei waren für diese Datenbank falsch. Komfort-Schloss deaktiviert.";
+"open_sequence_problem_opening_convenience_incorrect_message" = "Das Komfort-Passwort oder die Schlüsseldatei waren für diese Datenbank falsch. Komfort-Entsperren wurde deaktiviert.";
 
 /* Incorrect Credentials */
 "open_sequence_problem_opening_incorrect_credentials_title" = "Falsche Anmeldedaten";
 
 /* The credentials were incorrect for this database. */
-"open_sequence_problem_opening_incorrect_credentials_message" = "Die Anmeldedaten für diese Datenbank waren falsch+.";
+"open_sequence_problem_opening_incorrect_credentials_message" = "Die Anmeldedaten für diese Datenbank waren falsch.";
 
 /* Set Quick Launch? */
 "open_sequence_yesno_set_quick_launch_title" = "Schnellstart einrichten?";
@@ -1448,25 +1448,25 @@
 "open_sequence_yesno_set_quick_launch_message" = "Möchten Sie dies als Ihre Schnellstart-Datenbank verwenden? Schnellstart bedeutet, dass Sie sofort zum Freischalten aufgefordert werden, wenn Sie Strongbox öffnen, was Ihnen einen wertvollen Klick spart.";
 
 /* Convenience Unlock: Use %@ or PIN Code in Future? */
-"open_sequence_prompt_use_convenience_both_title_fmt" = "Komfort-Schloss: %@ oder PIN-Code in Zukunft verwenden?";
+"open_sequence_prompt_use_convenience_both_title_fmt" = "Komfort-Entsperren: %@ oder PIN-Code in Zukunft verwenden?";
 
 /* You can use either %@ or a convenience PIN Code to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use one of these methods, please select from below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
 "open_sequence_prompt_use_convenience_both_message_fmt" = "Sie können entweder %@ oder einen Komfort-PIN-Code zum Freischalten dieser Datenbank verwenden. Auch wenn das bequem ist, kann es die Sicherheit der Datenbank auf diesem Gerät reduzieren. Falls Sie die Funktion dennoch verwenden möchten, wählen Sie dies bitte unten aus oder wählen Sie 'Nein', um mit Ihrem Master-Passwort fortzufahren.\n\n*Wichtig: Sie müssen sich IMMER an Ihr Master-Passwort erinnern";
 
 /* Convenience Unlock: Use %@ to Unlock in Future? */
-"open_sequence_prompt_use_convenience_bio_title_fmt" = "Komfort-Schloss: %@ in Zukunft zum Freischalten verwenden?";
+"open_sequence_prompt_use_convenience_bio_title_fmt" = "Komfort-Entsperren: %@ in Zukunft zum Freischalten verwenden?";
 
 /* You can use %@ to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use this then please select it below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
 "open_sequence_prompt_use_convenience_bio_message_fmt" = "Sie können %@ zum Freischalten dieser Datenbank verwenden. Auch wenn das bequem ist, kann es die Sicherheit der Datenbank auf diesem Gerät reduzieren. Falls Sie die Funktion dennoch verwenden möchten, wählen Sie dies bitte unten aus oder wählen Sie 'Nein', um mit Ihrem Master-Passwort fortzufahren.\n\n*Wichtig: Sie müssen sich IMMER an Ihr Master-Passwort erinnern";
 
 /* Convenience Unlock: Use a PIN Code to Unlock in Future? */
-"open_sequence_prompt_use_convenience_pin_title" = "Komfort-Schloss: PIN-Code in Zukunft zum Freischalten verwenden?";
+"open_sequence_prompt_use_convenience_pin_title" = "Komfort-Entsperren: PIN-Code in Zukunft zum Freischalten verwenden?";
 
 /* You can use a convenience PIN Code to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use this then please select it below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
 "open_sequence_prompt_use_convenience_pin_message" = "Sie können einen Komfort-PIN-Code verwenden, um diese Datenbank freizuschalten. Auch wenn das bequem ist, kann es die Sicherheit der Datenbank auf diesem Gerät reduzieren. Falls Sie das verwenden möchten, wählen Sie es bitte unten aus oder wählen Sie Nein aus, um mit Ihrem Master-Passwort fortzufahren.\n\n*Wichtig: Sie müssen sich IMMER an Ihr Master-Passwort erinnern";
 
 /* \n\nNB: Convenience Unlock is a Pro feature */
-"open_sequence_append_convenience_pro_warning" = "\n\nBitte beachten: Komfort-Schloss ist eine Pro-Funktion";
+"open_sequence_append_convenience_pro_warning" = "\n\nBitte beachten: Komfort-Entsperren ist eine Pro-Funktion";
 
 /* Use %@ */
 "open_sequence_prompt_use_convenience_use_bio_fmt" = "%@ verwenden";
@@ -1478,7 +1478,7 @@
 "open_sequence_warn_pin_conflict_title" = "PIN-Konflikt";
 
 /* Your Convenience PIN conflicts with your Duress PIN. Please configure in Database Settings */
-"open_sequence_warn_pin_conflict_message" = "Ihre Komfort-PIN steht in Konflikt mit Ihrer Zwangs-PIN- Bitte in den Datenbank-Einstellungen konfigurieren";
+"open_sequence_warn_pin_conflict_message" = "Ihre Komfort-PIN steht in Konflikt mit Ihrer Zwangs-PIN. Bitte in den Datenbank-Einstellungen konfigurieren.";
 
 /* Use Offline Cache? */
 "open_sequence_yesno_use_offline_cache_title" = "Offline-Cache verwenden?";
@@ -1862,10 +1862,10 @@
 "backups_vc_set_max_keep_count_title" = "Maximale Anzahl Sicherungen festlegen";
 
 /* You cannot use convenience unlock with a one time key file. */
-"config_error_one_time_key_file_convenience_message" = "You cannot use convenience unlock with a one time key file.";
+"config_error_one_time_key_file_convenience_message" = "Sie können Komfort-Entsperren nicht mit einer Einmal-Schlüsseldatei verwenden.";
 
 /* One Time Key File Problem */
-"config_error_one_time_key_file_convenience_title" = "One Time Key File Problem";
+"config_error_one_time_key_file_convenience_title" = "Problem mit der Einmal-Schlüsseldatei";
 
 /* Could not write backup, will not proceed with write of database! */
 "model_error_cannot_write_backup" = "Backup konnte nicht geschrieben werden. Datenbank wird nicht gespeichert!";
