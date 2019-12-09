@@ -1416,10 +1416,10 @@
 "open_sequence_couldnt_open_offline_message" = "Diese Datenbank konnte im Offline-Modus nicht geöffnet werden. Existiert der Offline-Cache?";
 
 /* Could not reach %@, it looks like you may be offline, would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ */
-"open_sequence_user_looks_offline_open_offline_instead_fmt" = "Could not reach %@, it looks like you may be offline, would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@";
+"open_sequence_user_looks_offline_open_offline_instead_fmt" = "Konnte %@ nicht erreichen. Es sieht so aus, als wären Sie offline. Möchten Sie stattdessen eine schreibgeschütze Offline-Cache-Version dieser Datenbank verwenden?\n\nZuletzt zwischengespeichert: %@";
 
 /* There was a problem reading the database on %@. would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ */
-"open_sequence_storage_unreachable_open_offline_instead_fmt" = "There was a problem reading the database on %@. If this happens repeatedly you should try removing and re-adding your database. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@";
+"open_sequence_storage_unreachable_open_offline_instead_fmt" = "Es gab ein Problem beim Lesen der Datenbank von %@. Wenn dies wiederholt auftritt, sollten Sie versuchen, die Datenbank zu löschen und erneut hinzuzufügen. Möchten Sie stattdessen eine schreibgeschützte Offline-Cache-Version dieser Datenbank verwenden?\n\nZuletzt zwischengespeichert: %@";
 
 /* Could not open database
    There was a problem opening the database. */
@@ -1717,16 +1717,16 @@
 "pwgen_wordlist_swedish" = "Schwedisch";
 
 /* Game of Thrones (EFF Fandom) */
-"pwgen_wordlist_gameofthrones" = "Game of Thrones (EFF Fandom)";
+"pwgen_wordlist_gameofthrones" = "Game of Thrones (EFF Fangemeinde)";
 
 /* Harry Potter (EFF Fandom) */
-"pwgen_wordlist_harrypotter" = "Harry Potter (EFF Fandom)";
+"pwgen_wordlist_harrypotter" = "Harry Potter (EFF Fangemeinde)";
 
 /* Star Trek (EFF Fandom) */
-"pwgen_wordlist_star_trek" = "Star Trek (EFF Fandom)";
+"pwgen_wordlist_star_trek" = "Star Trek (EFF Fangemeinde)";
 
 /* Star Wars (EFF Fandom) */
-"pwgen_wordlist_starwars" = "Star Wars (EFF Fandom)";
+"pwgen_wordlist_starwars" = "Star Wars (EFF Fangemeinde)";
 
 /* Do Not Change */
 "pwgen_casing_do_not_change" = "Nicht ändern";
@@ -1972,7 +1972,7 @@
 "generic_done" = "Fertig";
 
 /* Failed */
-"generic_failed" = "Failed";
+"generic_failed" = "Fehlgeschlagen";
 
 /* Error */
 "generic_error" = "Fehler";
@@ -1984,7 +1984,7 @@
 "generic_remove" = "Löschen";
 
 /* Set */
-"generic_set" = "Set";
+"generic_set" = "Festlegen";
 
 /* Cancel */
 "generic_cancel" = "Abbrechen";
@@ -2002,7 +2002,7 @@
 "safes_vc_question_confirm_are_you_sure" = "Sind Sie sicher?";
 
 /* Are you sure? */
-"generic_are_you_sure" = "Are you sure?";
+"generic_are_you_sure" = "Sind Sie sicher?";
 
 /* Are you sure? */
 "browse_vc_are_you_sure" = "Sind Sie sicher?";
@@ -2189,58 +2189,58 @@
 "browse_vc_action_set_icons" = "Icons...";
 
 /* Tap Play to start search */
-"favicon_status_initial" = "Tap Play to start search";
+"favicon_status_initial" = "Tippen, um Suche zu starten";
 
 /* Searching... */
-"favicon_status_in_progress" = "Searching...";
+"favicon_status_in_progress" = "Suche...";
 
 /* Pausing (may take a few seconds)... */
-"favicon_status_pausing" = "Pausing (may take a few seconds)...";
+"favicon_status_pausing" = "Anhalten (kann einige Sekunden dauern)...";
 
 /* FavIcon search paused. Tap Play to Continue... */
-"favicon_status_paused" = "Search paused. Tap Play to Continue...";
+"favicon_status_paused" = "Suche angehalten. Tippen, um fortzufahren...";
 
 /* Search Complete. Tap View Results to see FavIcons */
-"favicon_status_done" = "Search Complete. Tap View Results to see FavIcons";
+"favicon_status_done" = "Suche abgeschlossen. Tippen Sie auf 'Ergebnisse anzeigen', um FavIcons anzuzeigen.";
 
 /* Are you sure you want to clear current results and retry all items? */
-"favicon_clear_all_and_retry_message" = "Are you sure you want to clear current results and retry all items?";
+"favicon_clear_all_and_retry_message" = "Sind Sie sicher, dass Sie die aktuellen Ergebnisse löschen und die Suche für alle Einträge wiederholen möchten?";
 
 /* Retry All or Failed? */
-"favicon_retry_all_or_failed_title" = "Retry All or Failed?";
+"favicon_retry_all_or_failed_title" = "Alle wiederholen oder nur Fehlgeschlagene?";
 
 /* Would you like to retry all items, or just the failed ones? */
-"favicon_retry_all_or_failed_message" = "Would you like to retry all items, or just the failed ones?";
+"favicon_retry_all_or_failed_message" = "Möchten Sie alle Einträge oder nur die fehlgeschlagenen Einträge wiederholen?";
 
 /* Retry All */
-"favicon_retry_all_action" = "Retry All";
+"favicon_retry_all_action" = "Alle wiederholen";
 
 /* Retry Failed */
-"favicon_retry_failed_action" = "Retry Failed";
+"favicon_retry_failed_action" = "Fehlgeschlagene wiederholen";
 
 /* No eligible items with valid URLs found... */
-"favicon_status_no_eligible_items" = "No eligible items/valid URLs found...";
+"favicon_status_no_eligible_items" = "Keine geeigneten Elemente / gültigen URLs gefunden...";
 
 /* FavIcon Results */
-"favicon_results_title" = "FavIcon Results";
+"favicon_results_title" = "FavIcon-Ergebnisse";
 
 /* FavIcon Results (Pro Only) */
-"favicon_results_title_pro_only" = "FavIcon Results (Pro Only)";
+"favicon_results_title_pro_only" = "FavIcon-Ergebnisse (nur Pro-Version)";
 
 /* %lu Icons Found (%dx%d selected) */
-"favicon_results_n_icons_found_with_xy_resolution_fmt" = "%lu Icons Found (%dx%d selected)";
+"favicon_results_n_icons_found_with_xy_resolution_fmt" = "%lu Icons gefunden (%dx%d ausgewählt)";
 
 /* %dx%d selected */
-"favicon_results_one_icon_found_with_xy_resolution_fmt" = "%dx%d selected";
+"favicon_results_one_icon_found_with_xy_resolution_fmt" = "%dx%d ausgewählt";
 
 /* No FavIcons Found */
-"favicon_results_no_icons_found" = "No FavIcons Found";
+"favicon_results_no_icons_found" = "Keine FavIcons gefunden";
 
 /* Are you sure you want to remove this FavIcon result? */
-"favicon_results_are_you_sure_remove_result_message" = "Are you sure you want to remove this FavIcon result?";
+"favicon_results_are_you_sure_remove_result_message" = "Sind Sie sicher, dass Sie dieses FavIcon-Ergebnis löschen möchten?";
 
 /* Invalid FavIcon Preferences */
-"favicon_invalid_preferences_alert_title" = "Invalid FavIcon Preferences";
+"favicon_invalid_preferences_alert_title" = "Ungültige FavIcon-Einstellungen";
 
 /* This set of preferences will not produce valid FavIcon results. */
-"favicon_invalid_preferences_alert_message" = "This set of preferences will not produce valid FavIcon results.";
+"favicon_invalid_preferences_alert_message" = "Diese Einstellungen werden keine gültigen FavIcon-Ergebnisse liefern.";
