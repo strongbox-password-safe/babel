@@ -505,7 +505,7 @@
 "casg_text_label_key_selected_key_file" = "Ausgewählte Schlüsseldatei";
 
 /* Unlock */
-"casg_unlock_action" = "Freischalten";
+"casg_unlock_action" = "Entsperren";
 
 /* %@ Unlock */
 "db_management_biometric_unlock_fmt" = "Mit %@ entsperren";
@@ -1016,7 +1016,7 @@
 "pins_config_vc_turn_pin_off_warning" = "Das Ausschalten der PIN für diese Datenbank wird das sicher gespeicherte Passwort entfernen und Sie müssen es erneut eingeben. Sind Sie sicher, dass Sie dies tun möchten?";
 
 /* Are you sure you want to turn off the PIN for this database? */
-"pins_config_vc_turn_pin_off_confirm" = "Sind Sie sicher, dass Sie die PIN für diese Datenbank freischalten möchten?";
+"pins_config_vc_turn_pin_off_confirm" = "Sind Sie sicher, dass Sie die PIN für diese Datenbank deaktivieren möchten?";
 
 /* Turn off PIN? */
 "pins_config_vc_turn_pin_off_prompt_title" = "PIN ausschalten?";
@@ -1383,7 +1383,7 @@
 "open_sequence_prompt_too_many_incorrect_pins_title" = "Zu viele falsche PINs";
 
 /* You have entered the wrong PIN too many times. PIN Unlock is now disabled, and you must enter the master password to unlock this database. */
-"open_sequence_prompt_too_many_incorrect_pins_message" = "Sie haben die falsche PIN zu oft eingegeben. Freischalten mit PIN ist jetzt gesperrt und Sie müssen das Master-Passwort eingeben, um diese Datenbank freizuschalten .";
+"open_sequence_prompt_too_many_incorrect_pins_message" = "Sie haben zu oft eine falsche PIN eingegeben. Das Entsperren mit der PIN ist jetzt deaktiviert und Sie müssen das Masterpasswort eingeben, um diese Datenbank zu entsperren.";
 
 /* There was a technical error opening the database. */
 "open_sequence_duress_technical_error_message" = "Beim Öffnen der Datenbank ist ein technischer Fehler aufgetreten.";
@@ -1395,7 +1395,7 @@
 "open_sequence_biometric_unlock_prompt_title" = "Identifizieren, um die Datenbank freizuschalten";
 
 /* Unlock Manually... */
-"open_sequence_biometric_unlock_fallback" = "Manuell freischalten...";
+"open_sequence_biometric_unlock_fallback" = "Manuell entsperren...";
 
 /* %@ Failed */
 "open_sequence_biometric_unlock_warn_failed_title_fmt" = "%@ fehlgeschlagen";
@@ -1447,7 +1447,7 @@
 "open_sequence_yesno_set_quick_launch_title" = "Schnellstart einrichten?";
 
 /* Would you like to use this as your Quick Launch database? Quick Launch means you will get prompted immediately to unlock when you open Strongbox, saving you a precious click. */
-"open_sequence_yesno_set_quick_launch_message" = "Möchten Sie dies als Ihre Schnellstart-Datenbank verwenden? Schnellstart bedeutet, dass Sie sofort zum Freischalten aufgefordert werden, wenn Sie Strongbox öffnen, was Ihnen einen wertvollen Klick spart.";
+"open_sequence_yesno_set_quick_launch_message" = "Möchten Sie diese Datenbank als Ihre Schnellstart-Datenbank verwenden? Schnellstart bedeutet, dass Sie sofort zum Entsperren der Datenbank aufgefordert werden, wenn Sie Strongbox öffnen. Dies spart Ihnen einen weiteren Klick.";
 
 /* Convenience Unlock: Use %@ or PIN Code in Future? */
 "open_sequence_prompt_use_convenience_both_title_fmt" = "Komfort-Entsperren: %@ oder PIN-Code in Zukunft verwenden?";
@@ -1915,7 +1915,7 @@
 "upgrade_family_sharing_button_subtitle" = "Für weitere Informationen tippen...";
 
 /* Select your preferred generated field title. */
-"select_generated_field_title" = "Generierte Strings";
+"select_generated_field_title" = "Erzeugte Strings";
 
 /* Select your preferred generated field message. */
 "select_generated_field_message" = "Bitte wählen Sie Ihre bevorzugte Zeichenfolge";
