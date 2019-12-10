@@ -505,7 +505,7 @@
 "casg_text_label_key_selected_key_file" = "Ausgewählte Schlüsseldatei";
 
 /* Unlock */
-"casg_unlock_action" = "Freischalten";
+"casg_unlock_action" = "Entsperren";
 
 /* %@ Unlock */
 "db_management_biometric_unlock_fmt" = "Mit %@ entsperren";
@@ -1010,13 +1010,13 @@
 "pins_config_vc_label_remove_database_warning" = "Bitte beachten: Datenbank-Datei wird im Remote-Speicher verbleiben.";
 
 /* PIN Codes (Pro Feature Only) */
-"pins_config_vc_title_pro_only" = "PIN-Codes (Nur Pro-Funktion)";
+"pins_config_vc_title_pro_only" = "PIN-Codes (nur Pro-Funktion)";
 
 /* Turning the PIN Off for this database will remove the securely stored password and you will have to enter it again. Are you sure you want to do this? */
 "pins_config_vc_turn_pin_off_warning" = "Das Ausschalten der PIN für diese Datenbank wird das sicher gespeicherte Passwort entfernen und Sie müssen es erneut eingeben. Sind Sie sicher, dass Sie dies tun möchten?";
 
 /* Are you sure you want to turn off the PIN for this database? */
-"pins_config_vc_turn_pin_off_confirm" = "Sind Sie sicher, dass Sie die PIN für diese Datenbank freischalten möchten?";
+"pins_config_vc_turn_pin_off_confirm" = "Sind Sie sicher, dass Sie die PIN für diese Datenbank deaktivieren möchten?";
 
 /* Turn off PIN? */
 "pins_config_vc_turn_pin_off_prompt_title" = "PIN ausschalten?";
@@ -1227,7 +1227,7 @@
 "set_icon_vc_icon_source_download_favicon" = "Favicon herunterladen";
 
 /* Download FavIcon (Pro Only) */
-"set_icon_vc_icon_source_download_favicon_pro_only" = "Favicon herunterladen (Nur Pro)";
+"set_icon_vc_icon_source_download_favicon_pro_only" = "Favicon herunterladen (nur Pro-Version)";
 
 /* Downloading FavIcon */
 "set_icon_vc_progress_downloading_favicon" = "Favicon wird heruntergeladen";
@@ -1383,7 +1383,7 @@
 "open_sequence_prompt_too_many_incorrect_pins_title" = "Zu viele falsche PINs";
 
 /* You have entered the wrong PIN too many times. PIN Unlock is now disabled, and you must enter the master password to unlock this database. */
-"open_sequence_prompt_too_many_incorrect_pins_message" = "Sie haben die falsche PIN zu oft eingegeben. Freischalten mit PIN ist jetzt gesperrt und Sie müssen das Master-Passwort eingeben, um diese Datenbank freizuschalten .";
+"open_sequence_prompt_too_many_incorrect_pins_message" = "Sie haben zu oft eine falsche PIN eingegeben. Das Entsperren mit der PIN ist jetzt deaktiviert und Sie müssen das Masterpasswort eingeben, um diese Datenbank zu entsperren.";
 
 /* There was a technical error opening the database. */
 "open_sequence_duress_technical_error_message" = "Beim Öffnen der Datenbank ist ein technischer Fehler aufgetreten.";
@@ -1395,7 +1395,7 @@
 "open_sequence_biometric_unlock_prompt_title" = "Identifizieren, um die Datenbank freizuschalten";
 
 /* Unlock Manually... */
-"open_sequence_biometric_unlock_fallback" = "Manuell freischalten...";
+"open_sequence_biometric_unlock_fallback" = "Manuell entsperren...";
 
 /* %@ Failed */
 "open_sequence_biometric_unlock_warn_failed_title_fmt" = "%@ fehlgeschlagen";
@@ -1407,7 +1407,7 @@
 "open_sequence_biometric_unlock_warn_not_configured_fmt" = "%@ fehlgeschlagen: %@. Sie müssen Ihr Passwort nun manuell eingeben, um die Datenbank zu öffnen.";
 
 /* Error Reading Key File */
-"open_sequence_error_reading_key_file" = "Die Schlüsseldatei konnte nicht gelesen werden. Bitte überprüfen Sie in den Einstellungen unter 'Schlüsseldatei verwalten', ob die Datei verschoben oder gelöscht wurde.";
+"open_sequence_error_reading_key_file" = "Die Schlüsseldatei konnte nicht gelesen werden. Bitte überprüfen Sie in den Einstellungen unter \\"Schlüsseldatei verwalten\\", ob die Datei verschoben oder gelöscht wurde.";
 
 /* Could Not Open Offline */
 "open_sequence_couldnt_open_offline_title" = "Konnte offline nicht geöffnet werden";
@@ -1416,10 +1416,10 @@
 "open_sequence_couldnt_open_offline_message" = "Diese Datenbank konnte im Offline-Modus nicht geöffnet werden. Existiert der Offline-Cache?";
 
 /* Could not reach %@, it looks like you may be offline, would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ */
-"open_sequence_user_looks_offline_open_offline_instead_fmt" = "Could not reach %@, it looks like you may be offline, would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@";
+"open_sequence_user_looks_offline_open_offline_instead_fmt" = "Konnte %@ nicht erreichen. Es sieht so aus, als wären Sie offline. Möchten Sie stattdessen eine schreibgeschütze Offline-Cache-Version dieser Datenbank verwenden?\n\nZuletzt zwischengespeichert: %@";
 
 /* There was a problem reading the database on %@. would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ */
-"open_sequence_storage_unreachable_open_offline_instead_fmt" = "There was a problem reading the database on %@. If this happens repeatedly you should try removing and re-adding your database. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@";
+"open_sequence_storage_unreachable_open_offline_instead_fmt" = "Es gab ein Problem beim Lesen der Datenbank von %@. Wenn dies wiederholt auftritt, sollten Sie versuchen, die Datenbank zu löschen und erneut hinzuzufügen. Möchten Sie stattdessen eine schreibgeschützte Offline-Cache-Version dieser Datenbank verwenden?\n\nZuletzt zwischengespeichert: %@";
 
 /* Could not open database
    There was a problem opening the database. */
@@ -1435,7 +1435,7 @@
 "key_files_vc_no_key_file" = "Keine Schlüsseldatei";
 
 /* The Convenience Password or Key File were incorrect for this database. Convenience Unlock Disabled. */
-"open_sequence_problem_opening_convenience_incorrect_message" = "Das Komfort-Passwort oder die Schlüsseldatei waren für diese Datenbank falsch. Komfort-Entsperren wurde deaktiviert.";
+"open_sequence_problem_opening_convenience_incorrect_message" = "Das Komfort-Passwort oder die Schlüsseldatei waren für diese Datenbank falsch. Die Komfortentsperrung wurde deaktiviert.";
 
 /* Incorrect Credentials */
 "open_sequence_problem_opening_incorrect_credentials_title" = "Falsche Anmeldedaten";
@@ -1447,28 +1447,28 @@
 "open_sequence_yesno_set_quick_launch_title" = "Schnellstart einrichten?";
 
 /* Would you like to use this as your Quick Launch database? Quick Launch means you will get prompted immediately to unlock when you open Strongbox, saving you a precious click. */
-"open_sequence_yesno_set_quick_launch_message" = "Möchten Sie dies als Ihre Schnellstart-Datenbank verwenden? Schnellstart bedeutet, dass Sie sofort zum Freischalten aufgefordert werden, wenn Sie Strongbox öffnen, was Ihnen einen wertvollen Klick spart.";
+"open_sequence_yesno_set_quick_launch_message" = "Möchten Sie diese Datenbank als Ihre Schnellstart-Datenbank verwenden? Schnellstart bedeutet, dass Sie sofort zum Entsperren der Datenbank aufgefordert werden, wenn Sie Strongbox öffnen. Dies spart Ihnen einen weiteren Klick.";
 
 /* Convenience Unlock: Use %@ or PIN Code in Future? */
-"open_sequence_prompt_use_convenience_both_title_fmt" = "Komfort-Entsperren: %@ oder PIN-Code in Zukunft verwenden?";
+"open_sequence_prompt_use_convenience_both_title_fmt" = "Komfortentsperrung: %@ oder PIN-Code in Zukunft verwenden?";
 
 /* You can use either %@ or a convenience PIN Code to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use one of these methods, please select from below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
-"open_sequence_prompt_use_convenience_both_message_fmt" = "Sie können entweder %@ oder einen Komfort-PIN-Code zum Freischalten dieser Datenbank verwenden. Auch wenn das bequem ist, kann es die Sicherheit der Datenbank auf diesem Gerät reduzieren. Falls Sie die Funktion dennoch verwenden möchten, wählen Sie dies bitte unten aus oder wählen Sie 'Nein', um mit Ihrem Master-Passwort fortzufahren.\n\n*Wichtig: Sie müssen sich IMMER an Ihr Master-Passwort erinnern";
+"open_sequence_prompt_use_convenience_both_message_fmt" = "Sie können entweder %@ oder einen Komfort-PIN-Code zum Entsperren dieser Datenbank verwenden. Auch wenn das bequem ist, kann es die Sicherheit der Datenbank auf diesem Gerät reduzieren. Falls Sie die Funktion dennoch verwenden möchten, wählen Sie dies bitte unten aus oder wählen Sie 'Nein', um mit Ihrem Master-Passwort fortzufahren.\n\n*Wichtig: Sie müssen sich IMMER an Ihr Master-Passwort erinnern";
 
 /* Convenience Unlock: Use %@ to Unlock in Future? */
-"open_sequence_prompt_use_convenience_bio_title_fmt" = "Komfort-Entsperren: %@ in Zukunft zum Freischalten verwenden?";
+"open_sequence_prompt_use_convenience_bio_title_fmt" = "Komfortentsperrung: %@ in Zukunft zum Entsperren verwenden?";
 
 /* You can use %@ to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use this then please select it below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
-"open_sequence_prompt_use_convenience_bio_message_fmt" = "Sie können %@ zum Freischalten dieser Datenbank verwenden. Auch wenn das bequem ist, kann es die Sicherheit der Datenbank auf diesem Gerät reduzieren. Falls Sie die Funktion dennoch verwenden möchten, wählen Sie dies bitte unten aus oder wählen Sie 'Nein', um mit Ihrem Master-Passwort fortzufahren.\n\n*Wichtig: Sie müssen sich IMMER an Ihr Master-Passwort erinnern";
+"open_sequence_prompt_use_convenience_bio_message_fmt" = "Sie können %@ zum Entsperren dieser Datenbank verwenden. Auch wenn das bequem ist, kann es die Sicherheit der Datenbank auf diesem Gerät reduzieren. Falls Sie die Funktion dennoch verwenden möchten, wählen Sie dies bitte unten aus oder wählen Sie 'Nein', um mit Ihrem Master-Passwort fortzufahren.\n\n*Wichtig: Sie müssen sich IMMER an Ihr Master-Passwort erinnern";
 
 /* Convenience Unlock: Use a PIN Code to Unlock in Future? */
-"open_sequence_prompt_use_convenience_pin_title" = "Komfort-Entsperren: PIN-Code in Zukunft zum Freischalten verwenden?";
+"open_sequence_prompt_use_convenience_pin_title" = "Komfortentsperrung: PIN-Code in Zukunft zum Entsperren verwenden?";
 
 /* You can use a convenience PIN Code to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use this then please select it below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
 "open_sequence_prompt_use_convenience_pin_message" = "Sie können einen Komfort-PIN-Code verwenden, um diese Datenbank freizuschalten. Auch wenn das bequem ist, kann es die Sicherheit der Datenbank auf diesem Gerät reduzieren. Falls Sie das verwenden möchten, wählen Sie es bitte unten aus oder wählen Sie Nein aus, um mit Ihrem Master-Passwort fortzufahren.\n\n*Wichtig: Sie müssen sich IMMER an Ihr Master-Passwort erinnern";
 
 /* \n\nNB: Convenience Unlock is a Pro feature */
-"open_sequence_append_convenience_pro_warning" = "\n\nBitte beachten: Komfort-Entsperren ist eine Pro-Funktion";
+"open_sequence_append_convenience_pro_warning" = "\n\nBitte beachten: Komfortentsperrung ist eine Pro-Funktion";
 
 /* Use %@ */
 "open_sequence_prompt_use_convenience_use_bio_fmt" = "%@ verwenden";
@@ -1504,16 +1504,16 @@
 "files_provider_stale_reference" = "Die Referenz von Strongbox auf die externe Datei ist veraltet. Bitte löschen Sie die Datenbank und fügen Sie sie erneut hinzu.";
 
 /* Unlock Attempts Remaining: %ld */
-"privacy_vc_label_unlock_attempts_fmt" = "Verbleibende Freischalten-Versuche: %ld";
+"privacy_vc_label_unlock_attempts_fmt" = "Verbleibende Entsperrversuche: %ld";
 
 /* Unlock Attempts Exceeded */
-"privacy_vc_label_unlock_attempts_exceeded" = "Freischalten-Versuche überschritten";
+"privacy_vc_label_unlock_attempts_exceeded" = "Entsperrversuche überschritten";
 
 /* Biometrics Unavailable */
 "privacy_vc_prompt_biometrics_unavailable_title" = "Biometriken nicht verfügbar";
 
 /* This application requires a biometric unlock but biometrics is unavailable on this device. You must re-enable biometrics to continue unlocking this application. */
-"privacy_vc_prompt_biometrics_unavailable_message" = "Diese Anwendung erfordert ein biometrisches Freischalten, aber Biometriken sind auf diesem Gerät nicht verfügbar. Sie müssen Biometriken erneut aktivieren, um mit dem Freischalten dieser Anwendung fortzufahren.";
+"privacy_vc_prompt_biometrics_unavailable_message" = "Diese Anwendung erfordert ein biometrisches Entsperren, aber die biometrischen Daten sind auf diesem Gerät nicht verfügbar. Sie müssen das biometrische Entsperren erneut aktivieren, um mit dem Entsperren der Anwendung fortzufahren.";
 
 /* Identify to Open Strongbox */
 "privacy_vc_prompt_identify_to_open" = "Identifizieren, um Strongbox zu öffnen";
@@ -1540,7 +1540,7 @@
 "password_gen_vc_select_mode" = "Algorithmus auswählen";
 
 /* Select Salt Type */
-"password_gen_vc_select_salt_type" = "Salztyp auswählen";
+"password_gen_vc_select_salt_type" = "Salt-Typ auswählen";
 
 /* Select l33t Level */
 "password_gen_vc_select_hacker_level" = "l33t-Level auswählen";
@@ -1549,7 +1549,7 @@
 "password_gen_vc_select_casing_type" = "Groß-/Kleinschreibung auswählen";
 
 /* Select Word Lists */
-"password_gen_vc_select_wordlists" = "Wortliste auswählen";
+"password_gen_vc_select_wordlists" = "Wortlisten auswählen";
 
 /* Select Character Groups */
 "password_gen_vc_select_character_groups" = "Zeichengruppen auswählen";
@@ -1693,7 +1693,7 @@
 "pwgen_wordlist_eff_short_1" = "EFF kurz (v1.0)";
 
 /* EFF Short (v2.0 - More memorable, unique prefix) */
-"pwgen_wordlist_eff_short_2" = "EFF kurz (v2.0 - Denkwürdiger, einmalige Vorsilbe)";
+"pwgen_wordlist_eff_short_2" = "EFF kurz (v2.0 - einprägsamer, eindeutiges Präfix)";
 
 /* French */
 "pwgen_wordlist_french" = "Französisch";
@@ -1702,7 +1702,7 @@
 "pwgen_wordlist_german" = "Deutsch";
 
 /* Google (U.S. English, No Swears) */
-"pwgen_wordlist_google" = "Google (US-Englisch, kein Fluchen)";
+"pwgen_wordlist_google" = "Google (US-Englisch, keine Schimpfwörter)";
 
 /* Italian */
 "pwgen_wordlist_italian" = "Italienisch";
@@ -1717,16 +1717,16 @@
 "pwgen_wordlist_swedish" = "Schwedisch";
 
 /* Game of Thrones (EFF Fandom) */
-"pwgen_wordlist_gameofthrones" = "Game of Thrones (EFF Fandom)";
+"pwgen_wordlist_gameofthrones" = "Game of Thrones (EFF Fangemeinde)";
 
 /* Harry Potter (EFF Fandom) */
-"pwgen_wordlist_harrypotter" = "Harry Potter (EFF Fandom)";
+"pwgen_wordlist_harrypotter" = "Harry Potter (EFF Fangemeinde)";
 
 /* Star Trek (EFF Fandom) */
-"pwgen_wordlist_star_trek" = "Star Trek (EFF Fandom)";
+"pwgen_wordlist_star_trek" = "Star Trek (EFF Fangemeinde)";
 
 /* Star Wars (EFF Fandom) */
-"pwgen_wordlist_starwars" = "Star Wars (EFF Fandom)";
+"pwgen_wordlist_starwars" = "Star Wars (EFF Fangemeinde)";
 
 /* Do Not Change */
 "pwgen_casing_do_not_change" = "Nicht ändern";
@@ -1738,7 +1738,7 @@
 "pwgen_casing_uppercase" = "Großbuchstaben";
 
 /* Title Case */
-"pwgen_casing_title_case" = "Titelschreibung";
+"pwgen_casing_title_case" = "Wortanfang groß";
 
 /* Random */
 "pwgen_casing_random" = "Zufällig";
@@ -1762,13 +1762,13 @@
 "pwgen_hacker_level_pro_all" = "Pro (Alle Wörter)";
 
 /* Prefix */
-"pwgen_salt_mode_prefix" = "Vorsilbe";
+"pwgen_salt_mode_prefix" = "Präfix";
 
 /* Sprinkle */
-"pwgen_salt_mode_sprinkle" = "Bestreuen";
+"pwgen_salt_mode_sprinkle" = "Streuen";
 
 /* Suffix */
-"pwgen_salt_mode_suffix" = "Nachsilbe";
+"pwgen_salt_mode_suffix" = "Suffix";
 
 /* Button Title to start reordering */
 "safes_vc_action_reorder_database" = "Neu sortieren...";
@@ -1876,7 +1876,7 @@
 "backups_vc_set_max_keep_count_title" = "Maximale Anzahl Sicherungen festlegen";
 
 /* You cannot use convenience unlock with a one time key file. */
-"config_error_one_time_key_file_convenience_message" = "Sie können Komfort-Entsperren nicht mit einer Einmal-Schlüsseldatei verwenden.";
+"config_error_one_time_key_file_convenience_message" = "Sie können die Komfortentsperrung nicht mit einer Einmal-Schlüsseldatei verwenden.";
 
 /* One Time Key File Problem */
 "config_error_one_time_key_file_convenience_title" = "Problem mit der Einmal-Schlüsseldatei";
@@ -1888,7 +1888,7 @@
 "safes_vc_action_backups" = "Backups...";
 
 /* Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences */
-"open_sequence_error_reading_key_file_autofill_context" = "Die Schlüsseldatei konnte nicht gelesen werden. Bitte überprüfen Sie in den Einstellungen unter 'Schlüsseldatei verwalten', ob die Datei richtig importiert wurde.";
+"open_sequence_error_reading_key_file_autofill_context" = "Die Schlüsseldatei konnte nicht gelesen werden. Bitte überprüfen Sie in den Einstellungen unter \\"Schlüsseldatei verwalten\\", ob die Datei richtig importiert wurde.";
 
 /* Local Network (Built In Http Server for Upload) with a Wifi Icon... */
 "sspc_local_network_storage_location" = "Übertragung über lokales Netzwerk";
@@ -1915,7 +1915,7 @@
 "upgrade_family_sharing_button_subtitle" = "Für weitere Informationen tippen...";
 
 /* Select your preferred generated field title. */
-"select_generated_field_title" = "Generierte Strings";
+"select_generated_field_title" = "Erzeugte Strings";
 
 /* Select your preferred generated field message. */
 "select_generated_field_message" = "Bitte wählen Sie Ihre bevorzugte Zeichenfolge";
@@ -1972,7 +1972,7 @@
 "generic_done" = "Fertig";
 
 /* Failed */
-"generic_failed" = "Failed";
+"generic_failed" = "Fehlgeschlagen";
 
 /* Error */
 "generic_error" = "Fehler";
@@ -1984,7 +1984,7 @@
 "generic_remove" = "Löschen";
 
 /* Set */
-"generic_set" = "Set";
+"generic_set" = "Festlegen";
 
 /* Cancel */
 "generic_cancel" = "Abbrechen";
@@ -2002,7 +2002,7 @@
 "safes_vc_question_confirm_are_you_sure" = "Sind Sie sicher?";
 
 /* Are you sure? */
-"generic_are_you_sure" = "Are you sure?";
+"generic_are_you_sure" = "Sind Sie sicher?";
 
 /* Are you sure? */
 "browse_vc_are_you_sure" = "Sind Sie sicher?";
@@ -2050,7 +2050,7 @@
 /* None */
 "pwgen_hacker_level_none" = "Keine";
 /* None */
-"pwgen_salt_mode_none" = "Keine";
+"pwgen_salt_mode_none" = "Keins";
 /* None */
 "databases_preferences_subtitle_field_name_none" = "Keins";
 
@@ -2139,7 +2139,7 @@
 "settings_face_id_name" = "Face ID";
 
 /* Touch ID */
-"settings_touch_id_name" = "Touch-ID";
+"settings_touch_id_name" = "Touch ID";
 
 /* Date */
 "edit_date_cell_date_field_placeholder" = "Datum";
@@ -2180,67 +2180,67 @@
 /**********************************************************************************************************************/
 /* Download FavIcon */
 
-"set_icon_vc_icon_source_download_favicons" = "Download Child FavIcons";
+"set_icon_vc_icon_source_download_favicons" = "FavIcons der Gruppe herunterladen";
 
 /* Download FavIcon (Pro Only) */
-"set_icon_vc_icon_source_download_favicons_pro_only" = "Download Child FavIcons (Pro Only)";
+"set_icon_vc_icon_source_download_favicons_pro_only" = "FavIcons der Gruppe herunterladen (nur Pro-Version)";
 
 /* Set Icons */
 "browse_vc_action_set_icons" = "Icons...";
 
 /* Tap Play to start search */
-"favicon_status_initial" = "Tap Play to start search";
+"favicon_status_initial" = "Tippen, um Suche zu starten";
 
 /* Searching... */
-"favicon_status_in_progress" = "Searching...";
+"favicon_status_in_progress" = "Suche...";
 
 /* Pausing (may take a few seconds)... */
-"favicon_status_pausing" = "Pausing (may take a few seconds)...";
+"favicon_status_pausing" = "Anhalten (kann einige Sekunden dauern)...";
 
 /* FavIcon search paused. Tap Play to Continue... */
-"favicon_status_paused" = "Search paused. Tap Play to Continue...";
+"favicon_status_paused" = "Suche angehalten. Tippen, um fortzufahren...";
 
 /* Search Complete. Tap View Results to see FavIcons */
-"favicon_status_done" = "Search Complete. Tap View Results to see FavIcons";
+"favicon_status_done" = "Suche abgeschlossen. Tippen Sie auf 'Ergebnisse anzeigen', um FavIcons anzuzeigen.";
 
 /* Are you sure you want to clear current results and retry all items? */
-"favicon_clear_all_and_retry_message" = "Are you sure you want to clear current results and retry all items?";
+"favicon_clear_all_and_retry_message" = "Sind Sie sicher, dass Sie die aktuellen Ergebnisse löschen und die Suche für alle Einträge wiederholen möchten?";
 
 /* Retry All or Failed? */
-"favicon_retry_all_or_failed_title" = "Retry All or Failed?";
+"favicon_retry_all_or_failed_title" = "Alle wiederholen oder nur Fehlgeschlagene?";
 
 /* Would you like to retry all items, or just the failed ones? */
-"favicon_retry_all_or_failed_message" = "Would you like to retry all items, or just the failed ones?";
+"favicon_retry_all_or_failed_message" = "Möchten Sie alle Einträge oder nur die fehlgeschlagenen Einträge wiederholen?";
 
 /* Retry All */
-"favicon_retry_all_action" = "Retry All";
+"favicon_retry_all_action" = "Alle wiederholen";
 
 /* Retry Failed */
-"favicon_retry_failed_action" = "Retry Failed";
+"favicon_retry_failed_action" = "Fehlgeschlagene wiederholen";
 
 /* No eligible items with valid URLs found... */
-"favicon_status_no_eligible_items" = "No eligible items/valid URLs found...";
+"favicon_status_no_eligible_items" = "Keine geeigneten Elemente / gültigen URLs gefunden...";
 
 /* FavIcon Results */
-"favicon_results_title" = "FavIcon Results";
+"favicon_results_title" = "FavIcon-Ergebnisse";
 
 /* FavIcon Results (Pro Only) */
-"favicon_results_title_pro_only" = "FavIcon Results (Pro Only)";
+"favicon_results_title_pro_only" = "FavIcon-Ergebnisse (nur Pro-Version)";
 
 /* %lu Icons Found (%dx%d selected) */
-"favicon_results_n_icons_found_with_xy_resolution_fmt" = "%lu Icons Found (%dx%d selected)";
+"favicon_results_n_icons_found_with_xy_resolution_fmt" = "%lu Icons gefunden (%dx%d ausgewählt)";
 
 /* %dx%d selected */
-"favicon_results_one_icon_found_with_xy_resolution_fmt" = "%dx%d selected";
+"favicon_results_one_icon_found_with_xy_resolution_fmt" = "%dx%d ausgewählt";
 
 /* No FavIcons Found */
-"favicon_results_no_icons_found" = "No FavIcons Found";
+"favicon_results_no_icons_found" = "Keine FavIcons gefunden";
 
 /* Are you sure you want to remove this FavIcon result? */
-"favicon_results_are_you_sure_remove_result_message" = "Are you sure you want to remove this FavIcon result?";
+"favicon_results_are_you_sure_remove_result_message" = "Sind Sie sicher, dass Sie dieses FavIcon-Ergebnis löschen möchten?";
 
 /* Invalid FavIcon Preferences */
-"favicon_invalid_preferences_alert_title" = "Invalid FavIcon Preferences";
+"favicon_invalid_preferences_alert_title" = "Ungültige FavIcon-Einstellungen";
 
 /* This set of preferences will not produce valid FavIcon results. */
-"favicon_invalid_preferences_alert_message" = "This set of preferences will not produce valid FavIcon results.";
+"favicon_invalid_preferences_alert_message" = "Diese Einstellungen werden keine gültigen FavIcon-Ergebnisse liefern.";

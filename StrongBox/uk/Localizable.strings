@@ -1416,10 +1416,10 @@
 "open_sequence_couldnt_open_offline_message" = "Не вдається відкрити цю базу паролів у офлайн режимі. Можливо, відсутній кеш?";
 
 /* Could not reach %@, it looks like you may be offline, would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ */
-"open_sequence_user_looks_offline_open_offline_instead_fmt" = "Could not reach %@, it looks like you may be offline, would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@";
+"open_sequence_user_looks_offline_open_offline_instead_fmt" = "Не вдається зв'язатися з %@. Схоже, що ви знаходитесь поза мережею. Бажаєте використовувати офлайн кеш версію цієї бази даних лише для читання?\n\nВостаннє кешовано: %@";
 
 /* There was a problem reading the database on %@. would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ */
-"open_sequence_storage_unreachable_open_offline_instead_fmt" = "There was a problem reading the database on %@. If this happens repeatedly you should try removing and re-adding your database. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@";
+"open_sequence_storage_unreachable_open_offline_instead_fmt" = "Сталася помилка читання бази даних на %@. Якщо таке повторюється, вам слід спробувати вилучити і повторно додати базу паролів. Бажаєте використати натомість офлайн версію цієї бази паролів з кешу (лише читання)?\n\nВостаннє кешовано: %@";
 
 /* Could not open database
    There was a problem opening the database. */
@@ -1717,16 +1717,16 @@
 "pwgen_wordlist_swedish" = "Шведська";
 
 /* Game of Thrones (EFF Fandom) */
-"pwgen_wordlist_gameofthrones" = "Game of Thrones (EFF Fandom)";
+"pwgen_wordlist_gameofthrones" = "Гра престолів (EFF Fandom)";
 
 /* Harry Potter (EFF Fandom) */
-"pwgen_wordlist_harrypotter" = "Harry Potter (EFF Fandom)";
+"pwgen_wordlist_harrypotter" = "Гаррі Поттер (EFF Fandom)";
 
 /* Star Trek (EFF Fandom) */
-"pwgen_wordlist_star_trek" = "Star Trek (EFF Fandom)";
+"pwgen_wordlist_star_trek" = "Зоряний шлях (EFF Fandom)";
 
 /* Star Wars (EFF Fandom) */
-"pwgen_wordlist_starwars" = "Star Wars (EFF Fandom)";
+"pwgen_wordlist_starwars" = "Зоряні війни (EFF Fandom)";
 
 /* Do Not Change */
 "pwgen_casing_do_not_change" = "Не змінювати";
@@ -1972,7 +1972,7 @@
 "generic_done" = "Готово";
 
 /* Failed */
-"generic_failed" = "Failed";
+"generic_failed" = "Невдача";
 
 /* Error */
 "generic_error" = "Помилка";
@@ -2002,7 +2002,7 @@
 "safes_vc_question_confirm_are_you_sure" = "Ви впевнені?";
 
 /* Are you sure? */
-"generic_are_you_sure" = "Are you sure?";
+"generic_are_you_sure" = "Ви впевнені?";
 
 /* Are you sure? */
 "browse_vc_are_you_sure" = "Ви впевнені?";
@@ -2180,67 +2180,67 @@
 /**********************************************************************************************************************/
 /* Download FavIcon */
 
-"set_icon_vc_icon_source_download_favicons" = "Download Child FavIcons";
+"set_icon_vc_icon_source_download_favicons" = "Завантажити дочірні піктограми";
 
 /* Download FavIcon (Pro Only) */
-"set_icon_vc_icon_source_download_favicons_pro_only" = "Download Child FavIcons (Pro Only)";
+"set_icon_vc_icon_source_download_favicons_pro_only" = "Завантажити дочірні піктограми (тільки Pro)";
 
 /* Set Icons */
-"browse_vc_action_set_icons" = "Icons...";
+"browse_vc_action_set_icons" = "Піктограми...";
 
 /* Tap Play to start search */
-"favicon_status_initial" = "Tap Play to start search";
+"favicon_status_initial" = "Торкніться Відтворити, щоб почати пошук";
 
 /* Searching... */
-"favicon_status_in_progress" = "Searching...";
+"favicon_status_in_progress" = "Виконується пошук...";
 
 /* Pausing (may take a few seconds)... */
-"favicon_status_pausing" = "Pausing (may take a few seconds)...";
+"favicon_status_pausing" = "Призупинення (може зайняти декілька секунд)...";
 
 /* FavIcon search paused. Tap Play to Continue... */
-"favicon_status_paused" = "Search paused. Tap Play to Continue...";
+"favicon_status_paused" = "Пошук призупинено. Торкніться Відтворити, щоб продовжити...";
 
 /* Search Complete. Tap View Results to see FavIcons */
-"favicon_status_done" = "Search Complete. Tap View Results to see FavIcons";
+"favicon_status_done" = "Пошук завершений. Торкніться Переглянути результати для перегляду піктограм";
 
 /* Are you sure you want to clear current results and retry all items? */
-"favicon_clear_all_and_retry_message" = "Are you sure you want to clear current results and retry all items?";
+"favicon_clear_all_and_retry_message" = "Ви впевнені, що хочете очистити поточні результати і повторити спробу?";
 
 /* Retry All or Failed? */
-"favicon_retry_all_or_failed_title" = "Retry All or Failed?";
+"favicon_retry_all_or_failed_title" = "Повторити все чи лише невдалі?";
 
 /* Would you like to retry all items, or just the failed ones? */
-"favicon_retry_all_or_failed_message" = "Would you like to retry all items, or just the failed ones?";
+"favicon_retry_all_or_failed_message" = "Бажаєте повторити для всіх елементів, чи лише для невдалих?";
 
 /* Retry All */
-"favicon_retry_all_action" = "Retry All";
+"favicon_retry_all_action" = "Повторити для всіх";
 
 /* Retry Failed */
-"favicon_retry_failed_action" = "Retry Failed";
+"favicon_retry_failed_action" = "Повторити для невдалих";
 
 /* No eligible items with valid URLs found... */
-"favicon_status_no_eligible_items" = "No eligible items/valid URLs found...";
+"favicon_status_no_eligible_items" = "Не знайдено прийнятних елементів/URL-адрес...";
 
 /* FavIcon Results */
-"favicon_results_title" = "FavIcon Results";
+"favicon_results_title" = "Результати піктограм";
 
 /* FavIcon Results (Pro Only) */
-"favicon_results_title_pro_only" = "FavIcon Results (Pro Only)";
+"favicon_results_title_pro_only" = "Результати піктограм (тільки Pro)";
 
 /* %lu Icons Found (%dx%d selected) */
-"favicon_results_n_icons_found_with_xy_resolution_fmt" = "%lu Icons Found (%dx%d selected)";
+"favicon_results_n_icons_found_with_xy_resolution_fmt" = "%lu піктограм знайдено (%dx%d вибрано)";
 
 /* %dx%d selected */
-"favicon_results_one_icon_found_with_xy_resolution_fmt" = "%dx%d selected";
+"favicon_results_one_icon_found_with_xy_resolution_fmt" = "%dx%d вибрано";
 
 /* No FavIcons Found */
-"favicon_results_no_icons_found" = "No FavIcons Found";
+"favicon_results_no_icons_found" = "Не знайдено піктограм";
 
 /* Are you sure you want to remove this FavIcon result? */
-"favicon_results_are_you_sure_remove_result_message" = "Are you sure you want to remove this FavIcon result?";
+"favicon_results_are_you_sure_remove_result_message" = "Ви справді хочете вилучити цей результат піктограм?";
 
 /* Invalid FavIcon Preferences */
-"favicon_invalid_preferences_alert_title" = "Invalid FavIcon Preferences";
+"favicon_invalid_preferences_alert_title" = "Неправильні налаштування піктограм";
 
 /* This set of preferences will not produce valid FavIcon results. */
-"favicon_invalid_preferences_alert_message" = "This set of preferences will not produce valid FavIcon results.";
+"favicon_invalid_preferences_alert_message" = "Такі налаштування не створюватимуть правильні результати піктограм.";
