@@ -32,10 +32,10 @@
 "safes_vc_action_set_as_quick_launch" = "Включить быстрый запуск...";
 
 /* Button Title to Show in Files */
-"safes_vc_show_in_files" = "Make Visible in Files...";
+"safes_vc_show_in_files" = "Отображать в Файлах...";
 
 /* Button Title to Hide from Files */
-"safes_vc_make_autofillable" = "Hide from Files...";
+"safes_vc_make_autofillable" = "Скрыть из Файлов...";
 
 /* Title of Prompt about setting Quick Launch */
 "safes_vc_about_quick_launch_title" = "О быстром запуске";
@@ -44,25 +44,25 @@
 "safes_vc_about_setting_quick_launch_and_confirm" = "Включение функции быстрого запуска для этой базы данных означает, что Вам будет автоматически предложено разблокировать эту базу данных, как только Вы запустите или повторно активируете приложение Strongbox. Это может сэкономить вам одно драгоценное нажатие!\n\nВключить быстрый запуск для этой базы данных?";
 
 /* Button title to Show Database in iOS Files App */
-"safes_vc_show_database_in_files_info" = "Making this database visible in the Files App will also make the database available for access via Finder on your Mac. However the database will no longer be write-able in Auto Fill mode. This is due to iOS system design.\n\nNB: You can always reverse this action";
+"safes_vc_show_database_in_files_info" = "Отображение этой базы данных в приложении Файлы также сделает её пригодной для доступа через Finder на Вашем Mac. Однако, база данных больше не будет доступна для записи в меню автозаполнения. Это связано с ограничениями системы iOS.\n\nПримечание: Вы всегда можете отменить это действие";
 
 /* Button title to Hide Database from the iOS Files App */
-"safes_vc_make_database_auto_fill_info" = "Hiding this database from the Files App also means it will no longer be visible via Finder on your Mac. As a side-effect, this also means you get full (read/write) Auto Fill functionality (not just a read-only cache).\n\nNB: You can always reverse this action";
+"safes_vc_make_database_auto_fill_info" = "Скрытие этой базы данных в приложении Файлы означает, что она больше не будет доступна через Finder на компьютере Mac. В дополнении к этому, это также означает, что Вы получите полноценный функционал (чтение/запись) автозаполнения (не только кэш для чтения).\n\nПримечание: Вы всегда можете отменить это действие";
 
 /* OK/Cancel prompt title for changing local storage mode */
-"safes_vc_change_local_device_storage_mode_title" = "Change Files Visibility";
+"safes_vc_change_local_device_storage_mode_title" = "Изменить отображение в Файлах";
 
 /* error message could not change local storage */
-"safes_vc_could_not_change_storage_location_error" = "Could not change Files visibility";
+"safes_vc_could_not_change_storage_location_error" = "Не удалось изменить отображение в Файлах";
 
 /* informational message - made the file visible in iOS Files */
-"safes_vc_database_made_visible_in_files" = "This database has been made visible in the Files App";
+"safes_vc_database_made_visible_in_files" = "Эта база данных теперь будет отображаться в приложении Файлы";
 
 /* informational message - made the database fully autofillable */
-"safes_vc_database_made_fully_autofillable" = "This database has been hidden from the Files App";
+"safes_vc_database_made_fully_autofillable" = "Эта база данных была скрыта из приложения Файлы";
 
 /* information message = title changed storage mode */
-"safes_vc_local_storage_mode_changed" = "Files Visibility Changed";
+"safes_vc_local_storage_mode_changed" = "Отображение в Файлах изменено";
 
 /* warning message about removing database from icloud */
 "safes_vc_remove_icloud_databases_warning" = "Это удалит базу данных со всех Ваших устройств с поддержкой iCloud.\n\nВы действительно хотите удалить эту базу данных из Strongbox и iCloud?";
@@ -1419,7 +1419,7 @@
 "open_sequence_user_looks_offline_open_offline_instead_fmt" = "Could not reach %@, it looks like you may be offline, would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@";
 
 /* There was a problem reading the database on %@. would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ */
-"open_sequence_storage_unreachable_open_offline_instead_fmt" = "There was a problem reading the database on %@. If this happens repeatedly you should try removing and re-adding your database. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@";
+"open_sequence_storage_unreachable_open_offline_instead_fmt" = "Ошибка при чтении базы данных в %@. Если это происходит повторно, следует попробовать удалить и повторно добавить базу данных. Хотите вместо этого использовать кэш офлайн-версии этой базы данных, доступной только для чтения?\n\nПоследнее кэширование: %@";
 
 /* Could not open database
    There was a problem opening the database. */
