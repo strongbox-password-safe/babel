@@ -32,10 +32,10 @@
 "safes_vc_action_set_as_quick_launch" = "Включить быстрый запуск...";
 
 /* Button Title to Show in Files */
-"safes_vc_show_in_files" = "Make Visible in Files...";
+"safes_vc_show_in_files" = "Отображать в Файлах...";
 
 /* Button Title to Hide from Files */
-"safes_vc_make_autofillable" = "Hide from Files...";
+"safes_vc_make_autofillable" = "Скрыть из Файлов...";
 
 /* Title of Prompt about setting Quick Launch */
 "safes_vc_about_quick_launch_title" = "О быстром запуске";
@@ -44,25 +44,25 @@
 "safes_vc_about_setting_quick_launch_and_confirm" = "Включение функции быстрого запуска для этой базы данных означает, что Вам будет автоматически предложено разблокировать эту базу данных, как только Вы запустите или повторно активируете приложение Strongbox. Это может сэкономить вам одно драгоценное нажатие!\n\nВключить быстрый запуск для этой базы данных?";
 
 /* Button title to Show Database in iOS Files App */
-"safes_vc_show_database_in_files_info" = "Making this database visible in the Files App will also make the database available for access via Finder on your Mac. However the database will no longer be write-able in Auto Fill mode. This is due to iOS system design.\n\nNB: You can always reverse this action";
+"safes_vc_show_database_in_files_info" = "Отображение этой базы данных в приложении Файлы также сделает её пригодной для доступа через Finder на Вашем Mac. Однако, база данных больше не будет доступна для записи в меню автозаполнения. Это связано с ограничениями системы iOS.\n\nПримечание: Вы всегда можете отменить это действие";
 
 /* Button title to Hide Database from the iOS Files App */
-"safes_vc_make_database_auto_fill_info" = "Hiding this database from the Files App also means it will no longer be visible via Finder on your Mac. As a side-effect, this also means you get full (read/write) Auto Fill functionality (not just a read-only cache).\n\nNB: You can always reverse this action";
+"safes_vc_make_database_auto_fill_info" = "Скрытие этой базы данных в приложении Файлы означает, что она больше не будет доступна через Finder на компьютере Mac. В дополнении к этому, это также означает, что Вы получите полноценный функционал (чтение/запись) автозаполнения (не только кэш для чтения).\n\nПримечание: Вы всегда можете отменить это действие";
 
 /* OK/Cancel prompt title for changing local storage mode */
-"safes_vc_change_local_device_storage_mode_title" = "Change Files Visibility";
+"safes_vc_change_local_device_storage_mode_title" = "Изменить отображение в Файлах";
 
 /* error message could not change local storage */
-"safes_vc_could_not_change_storage_location_error" = "Could not change Files visibility";
+"safes_vc_could_not_change_storage_location_error" = "Не удалось изменить отображение в Файлах";
 
 /* informational message - made the file visible in iOS Files */
-"safes_vc_database_made_visible_in_files" = "This database has been made visible in the Files App";
+"safes_vc_database_made_visible_in_files" = "Эта база данных теперь будет отображаться в приложении Файлы";
 
 /* informational message - made the database fully autofillable */
-"safes_vc_database_made_fully_autofillable" = "This database has been hidden from the Files App";
+"safes_vc_database_made_fully_autofillable" = "Эта база данных была скрыта из приложения Файлы";
 
 /* information message = title changed storage mode */
-"safes_vc_local_storage_mode_changed" = "Files Visibility Changed";
+"safes_vc_local_storage_mode_changed" = "Отображение в Файлах изменено";
 
 /* warning message about removing database from icloud */
 "safes_vc_remove_icloud_databases_warning" = "Это удалит базу данных со всех Ваших устройств с поддержкой iCloud.\n\nВы действительно хотите удалить эту базу данных из Strongbox и iCloud?";
@@ -1416,10 +1416,10 @@
 "open_sequence_couldnt_open_offline_message" = "Не удалось открыть эту базу данных в офлайн режиме. Существует ли кэш?";
 
 /* Could not reach %@, it looks like you may be offline, would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ */
-"open_sequence_user_looks_offline_open_offline_instead_fmt" = "Could not reach %@, it looks like you may be offline, would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@";
+"open_sequence_user_looks_offline_open_offline_instead_fmt" = "Не удалось связаться с %@, похоже, Вы находитесь в офлайн режиме. Хотите вместо этого использовать кэш офлайн-версии этой базы данных, доступной только для чтения?\n\nПоследнее кэширование: %@";
 
 /* There was a problem reading the database on %@. would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ */
-"open_sequence_storage_unreachable_open_offline_instead_fmt" = "There was a problem reading the database on %@. If this happens repeatedly you should try removing and re-adding your database. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@";
+"open_sequence_storage_unreachable_open_offline_instead_fmt" = "Ошибка при чтении базы данных в %@. Если это происходит повторно, следует попробовать удалить и повторно добавить базу данных. Хотите вместо этого использовать кэш офлайн-версии этой базы данных, доступной только для чтения?\n\nПоследнее кэширование: %@";
 
 /* Could not open database
    There was a problem opening the database. */
@@ -1717,16 +1717,16 @@
 "pwgen_wordlist_swedish" = "шведский";
 
 /* Game of Thrones (EFF Fandom) */
-"pwgen_wordlist_gameofthrones" = "Game of Thrones (EFF Fandom)";
+"pwgen_wordlist_gameofthrones" = "Игра престолов (EFF Fandom)";
 
 /* Harry Potter (EFF Fandom) */
-"pwgen_wordlist_harrypotter" = "Harry Potter (EFF Fandom)";
+"pwgen_wordlist_harrypotter" = "Гарри Поттер (EFF Fandom)";
 
 /* Star Trek (EFF Fandom) */
-"pwgen_wordlist_star_trek" = "Star Trek (EFF Fandom)";
+"pwgen_wordlist_star_trek" = "Звёздный путь (EFF Fandom)";
 
 /* Star Wars (EFF Fandom) */
-"pwgen_wordlist_starwars" = "Star Wars (EFF Fandom)";
+"pwgen_wordlist_starwars" = "Звёздные войны (EFF Fandom)";
 
 /* Do Not Change */
 "pwgen_casing_do_not_change" = "Не менять";
@@ -1804,7 +1804,7 @@
 "browse_vc_section_title_standard_view" = "Элементы";
 
 /* Compressed */
-"database_metadata_field_compressed" = "Сжатая";
+"database_metadata_field_compressed" = "Сжатие";
 
 /* Database Format */
 "database_metadata_field_format" = "Формат базы данных";
@@ -1906,7 +1906,7 @@
 "upgrade_family_sharing_info_title" = "Семейный доступ";
 
 /* A message about how you will need to download/purchase a separate App for Family Sharing to work */
-"upgrade_family_sharing_info_message" = "To benefit from Family Sharing you need to have 'Apple Family Sharing' setup for your family. Then you should purchase the separate Family Sharing Edition of Strongbox.\nTap OK to view this edition on the App Store";
+"upgrade_family_sharing_info_message" = "Чтобы воспользоваться преимуществами функции «Семейного доступа», необходимо настроить её для Вашей семьи. Затем Вам следует приобрести отдельное издание Family Sharing Edition приложения Strongbox.\nНажмите 'OK' для просмотра этого издания в App Store.";
 
 /* Need Family Sharing? */
 "upgrade_family_sharing_button_title" = "Требуется семейный доступ?";
@@ -1972,7 +1972,7 @@
 "generic_done" = "Готово";
 
 /* Failed */
-"generic_failed" = "Failed";
+"generic_failed" = "Ошибка";
 
 /* Error */
 "generic_error" = "Ошибка";
@@ -1984,16 +1984,16 @@
 "generic_remove" = "Удалить";
 
 /* Set */
-"generic_set" = "Set";
+"generic_set" = "Установить";
 
 /* Cancel */
-"generic_cancel" = "Cancel";
+"generic_cancel" = "Отмена";
 
 /* Clear */
-"generic_clear" = "Clear";
+"generic_clear" = "Очистить";
 
 /* Database */
-"generic_database" = "Database";
+"generic_database" = "База данных";
 
 /* Options Title - What would like to do? Options are to Add a Database or Create New etc */
 "safes_vc_what_would_you_like_to_do" = "Что бы Вы хотели сделать?";
@@ -2002,7 +2002,7 @@
 "safes_vc_question_confirm_are_you_sure" = "Вы уверены?";
 
 /* Are you sure? */
-"generic_are_you_sure" = "Are you sure?";
+"generic_are_you_sure" = "Вы уверены?";
 
 /* Are you sure? */
 "browse_vc_are_you_sure" = "Вы уверены?";
@@ -2180,67 +2180,67 @@
 /**********************************************************************************************************************/
 /* Download FavIcon */
 
-"set_icon_vc_icon_source_download_favicons" = "Download Child FavIcons";
+"set_icon_vc_icon_source_download_favicons" = "Загрузить все значки для группы";
 
 /* Download FavIcon (Pro Only) */
-"set_icon_vc_icon_source_download_favicons_pro_only" = "Download Child FavIcons (Pro Only)";
+"set_icon_vc_icon_source_download_favicons_pro_only" = "Загрузить значки сайтов для группы (только в Про версии)";
 
 /* Set Icons */
-"browse_vc_action_set_icons" = "Icons...";
+"browse_vc_action_set_icons" = "Значки...";
 
 /* Tap Play to start search */
-"favicon_status_initial" = "Tap Play to start search";
+"favicon_status_initial" = "Нажмите кнопку воспроизведения, чтобы начать поиск.";
 
 /* Searching... */
-"favicon_status_in_progress" = "Searching...";
+"favicon_status_in_progress" = "Идет поиск...";
 
 /* Pausing (may take a few seconds)... */
-"favicon_status_pausing" = "Pausing (may take a few seconds)...";
+"favicon_status_pausing" = "Остановка (может занять несколько секунд)...";
 
 /* FavIcon search paused. Tap Play to Continue... */
-"favicon_status_paused" = "Search paused. Tap Play to Continue...";
+"favicon_status_paused" = "Поиск приостановлен. Нажмите кнопку воспроизведения, чтобы продолжить...";
 
 /* Search Complete. Tap View Results to see FavIcons */
-"favicon_status_done" = "Search Complete. Tap View Results to see FavIcons";
+"favicon_status_done" = "Поиск завершен. Нажмите 'Просмотр результатов' для просмотра значков.";
 
 /* Are you sure you want to clear current results and retry all items? */
-"favicon_clear_all_and_retry_message" = "Are you sure you want to clear current results and retry all items?";
+"favicon_clear_all_and_retry_message" = "Вы уверены, что хотите очистить текущие результаты и повторить поиск?";
 
 /* Retry All or Failed? */
-"favicon_retry_all_or_failed_title" = "Retry All or Failed?";
+"favicon_retry_all_or_failed_title" = "Повторить для всех или только неудачных?";
 
 /* Would you like to retry all items, or just the failed ones? */
-"favicon_retry_all_or_failed_message" = "Would you like to retry all items, or just the failed ones?";
+"favicon_retry_all_or_failed_message" = "Вы хотели бы повторить поиск для всех элементов или только для неудачных?";
 
 /* Retry All */
-"favicon_retry_all_action" = "Retry All";
+"favicon_retry_all_action" = "Повторить для всех";
 
 /* Retry Failed */
-"favicon_retry_failed_action" = "Retry Failed";
+"favicon_retry_failed_action" = "Повторить для неудачных";
 
 /* No eligible items with valid URLs found... */
-"favicon_status_no_eligible_items" = "No eligible items/valid URLs found...";
+"favicon_status_no_eligible_items" = "Не найдено подходящих элементов / корректных URL-адресов...";
 
 /* FavIcon Results */
-"favicon_results_title" = "FavIcon Results";
+"favicon_results_title" = "Результаты поиска";
 
 /* FavIcon Results (Pro Only) */
-"favicon_results_title_pro_only" = "FavIcon Results (Pro Only)";
+"favicon_results_title_pro_only" = "Результаты поиска (только в Про версии)";
 
 /* %lu Icons Found (%dx%d selected) */
-"favicon_results_n_icons_found_with_xy_resolution_fmt" = "%lu Icons Found (%dx%d selected)";
+"favicon_results_n_icons_found_with_xy_resolution_fmt" = "Найдено значков: %lu (%dx%d выбран)";
 
 /* %dx%d selected */
-"favicon_results_one_icon_found_with_xy_resolution_fmt" = "%dx%d selected";
+"favicon_results_one_icon_found_with_xy_resolution_fmt" = "%dx%d выбран";
 
 /* No FavIcons Found */
-"favicon_results_no_icons_found" = "No FavIcons Found";
+"favicon_results_no_icons_found" = "Значки не найдены";
 
 /* Are you sure you want to remove this FavIcon result? */
-"favicon_results_are_you_sure_remove_result_message" = "Are you sure you want to remove this FavIcon result?";
+"favicon_results_are_you_sure_remove_result_message" = "Вы уверены, что хотите удалить этот значок сайта?";
 
 /* Invalid FavIcon Preferences */
-"favicon_invalid_preferences_alert_title" = "Invalid FavIcon Preferences";
+"favicon_invalid_preferences_alert_title" = "Недопустимые параметры значков";
 
 /* This set of preferences will not produce valid FavIcon results. */
-"favicon_invalid_preferences_alert_message" = "This set of preferences will not produce valid FavIcon results.";
+"favicon_invalid_preferences_alert_message" = "Этот набор параметров не приведёт к корректному поиску значков.";
