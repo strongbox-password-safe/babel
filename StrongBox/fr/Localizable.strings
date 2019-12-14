@@ -1413,10 +1413,10 @@
 "open_sequence_couldnt_open_offline_message" = "Impossible d'ouvrir cette base de données en mode hors-ligne. Le cache hors-ligne existe-t-il ?";
 
 /* Could not reach %@, it looks like you may be offline, would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ */
-"open_sequence_user_looks_offline_open_offline_instead_fmt" = "Could not reach %@, it looks like you may be offline, would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@";
+"open_sequence_user_looks_offline_open_offline_instead_fmt" = "Impossible d'accéder à %@, il semble que vous êtes hors ligne, voulez-vous utiliser à la place un cache hors ligne en lecture seule de cette base de données ?\n\nDernière mise en cache : %@";
 
 /* There was a problem reading the database on %@. would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ */
-"open_sequence_storage_unreachable_open_offline_instead_fmt" = "There was a problem reading the database on %@. If this happens repeatedly you should try removing and re-adding your database. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@";
+"open_sequence_storage_unreachable_open_offline_instead_fmt" = "Un problème est survenu lors de la lecture de la base de données sur %@. Si cela se reproduit, vous devriez tenter de retirer et rajouter votre base de données. Désirez-vous utiliser à la place un cache hors ligne de cette base de données ?\n\nDernière mise en cache : %@";
 
 /* Could not open database
    There was a problem opening the database. */
@@ -1969,7 +1969,7 @@
 "generic_fieldname_custom_fields" = "Champs personnalisés";
 
 /* Custom Fields */
-"generic_fieldname_custom_field" = "Custom Field";
+"generic_fieldname_custom_field" = "Champ personnalisé";
 
 /* TOTP */
 "generic_fieldname_totp" = "TOTP";
@@ -1981,7 +1981,7 @@
 "generic_decrypting" = "Déchiffrement en cours";
 
 /* Decrypting */
-"generic_unlocking_ellipsis" = "Unlocking...";
+"generic_unlocking_ellipsis" = "Déverrouillage...";
 
 /* Encrypting */
 "generic_encrypting" = "Chiffrement en cours";
@@ -1993,7 +1993,7 @@
 "generic_done" = "Terminé";
 
 /* Failed */
-"generic_failed" = "Failed";
+"generic_failed" = "Echoué";
 
 /* Error */
 "generic_error" = "Erreur";
@@ -2198,82 +2198,82 @@
 /**********************************************************************************************************************/
 /* Download FavIcon */
 
-"set_icon_vc_icon_source_download_favicons" = "Download Child FavIcons";
+"set_icon_vc_icon_source_download_favicons" = "Télécharger les FavIcons des éléments enfants";
 
 /* Download FavIcon (Pro Only) */
-"set_icon_vc_icon_source_download_favicons_pro_only" = "Download Child FavIcons (Pro Only)";
+"set_icon_vc_icon_source_download_favicons_pro_only" = "Télécharger les FavIcons des éléments enfants (Pro uniquement)";
 
 /* Set Icons */
-"browse_vc_action_set_icons" = "Icons...";
+"browse_vc_action_set_icons" = "Icônes...";
 
 /* Tap Play to start search */
-"favicon_status_initial" = "Tap Play to start search";
+"favicon_status_initial" = "Appuyez sur Play pour démarrer la recherche";
 
 /* Searching... */
-"favicon_status_in_progress" = "Searching...";
+"favicon_status_in_progress" = "Recherche en cours...";
 
 /* Pausing (may take a few seconds)... */
-"favicon_status_pausing" = "Pausing (may take a few seconds)...";
+"favicon_status_pausing" = "Mise en pause (peut prendre quelques secondes)...";
 
 /* FavIcon search paused. Tap Play to Continue... */
-"favicon_status_paused" = "Search paused. Tap Play to Continue...";
+"favicon_status_paused" = "Recherche en pause. Appuyez sur Play pour Continuer...";
 
 /* Search Complete. Tap View Results to see FavIcons */
-"favicon_status_done" = "Search Complete. Tap View Results to see FavIcons";
+"favicon_status_done" = "Recherche terminée. Appuyez sur Afficher les résultats pour voir les FavIcons";
 
 /* Are you sure you want to clear current results and retry all items? */
-"favicon_clear_all_and_retry_message" = "Are you sure you want to clear current results and retry all items?";
+"favicon_clear_all_and_retry_message" = "Êtes-vous sûr(e) de vouloir effacer les résultats actuels et réessayer tous les éléments ?";
 
 /* Retry All or Failed? */
-"favicon_retry_all_or_failed_title" = "Retry All or Failed?";
+"favicon_retry_all_or_failed_title" = "Réessayer tous ou échecs ?";
 
 /* Would you like to retry all items, or just the failed ones? */
-"favicon_retry_all_or_failed_message" = "Would you like to retry all items, or just the failed ones?";
+"favicon_retry_all_or_failed_message" = "Voulez-vous réessayer tous les éléments, ou juste ceux qui ont échoué ?";
 
 /* Retry All */
-"favicon_retry_all_action" = "Retry All";
+"favicon_retry_all_action" = "Tout réessayer";
 
 /* Retry Failed */
-"favicon_retry_failed_action" = "Retry Failed";
+"favicon_retry_failed_action" = "Réessayer ceux qui ont échoué";
 
 /* No eligible items with valid URLs found... */
-"favicon_status_no_eligible_items" = "No eligible items/valid URLs found...";
+"favicon_status_no_eligible_items" = "Pas d'éléments éligibles / URL valides trouvées...";
 
 /* FavIcon Results */
-"favicon_results_title" = "FavIcon Results";
+"favicon_results_title" = "Résultats de FavIcon";
 
 /* FavIcon Results (Pro Only) */
-"favicon_results_title_pro_only" = "FavIcon Results (Pro Only)";
+"favicon_results_title_pro_only" = "Résultats de FavIcon (Pro seulement)";
 
 /* %lu Icons Found (%dx%d selected) */
-"favicon_results_n_icons_found_with_xy_resolution_fmt" = "%lu Icons Found (%dx%d selected)";
+"favicon_results_n_icons_found_with_xy_resolution_fmt" = "%lu Icônes trouvées (%dx%d sélectionnée)";
 
 /* %dx%d selected */
-"favicon_results_one_icon_found_with_xy_resolution_fmt" = "%dx%d selected";
+"favicon_results_one_icon_found_with_xy_resolution_fmt" = "%dx%d sélectionnée";
 
 /* No FavIcons Found */
-"favicon_results_no_icons_found" = "No FavIcons Found";
+"favicon_results_no_icons_found" = "Aucun Favicon trouvé";
 
 /* Are you sure you want to remove this FavIcon result? */
-"favicon_results_are_you_sure_remove_result_message" = "Are you sure you want to remove this FavIcon result?";
+"favicon_results_are_you_sure_remove_result_message" = "Etes-vous sûr(e) de vouloir supprimer ce résultat de FavIcon ?";
 
 /* Invalid FavIcon Preferences */
-"favicon_invalid_preferences_alert_title" = "Invalid FavIcon Preferences";
+"favicon_invalid_preferences_alert_title" = "Préférences de FavIcon non valides";
 
 /* This set of preferences will not produce valid FavIcon results. */
-"favicon_invalid_preferences_alert_message" = "This set of preferences will not produce valid FavIcon results.";
+"favicon_invalid_preferences_alert_message" = "Cet ensemble de préférences ne produira pas de résultats de FavIcon valides.";
 
 /* Local Device */
-"storage_provider_name_local_device" = "Local Device";
+"storage_provider_name_local_device" = "Appareil local";
 
 /* '%@' %@ Changed... First parameter Title of Item, second parameter which field changed, e.g. Username or Password */
-"mac_field_changed_popup_notification_fmt" = "'%@' %@ Changed...";
+"mac_field_changed_popup_notification_fmt" = "'%@' %@ a été modifié...";
 
 /* Unlock with %@ */
-"mac_unlock_database_with_biometric_fmt" = "Unlock with %@";
+"mac_unlock_database_with_biometric_fmt" = "Déverrouiller avec %@";
 
 /* Could not open key file. */
-"mac_error_could_not_open_key_file" = "Could not open key file.";
+"mac_error_could_not_open_key_file" = "Impossible d'ouvrir le fichier-clé.";
 
 /* The stored credentials are unavailable. Please enter the password manually. Touch ID Metadata for this database will be cleared. */
 "mac_could_not_find_stored_credentials" = "The stored credentials are unavailable. Please enter the password manually. Touch ID Metadata for this database will be cleared.";
