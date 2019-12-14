@@ -2276,46 +2276,46 @@
 "mac_error_could_not_open_key_file" = "Impossible d'ouvrir le fichier-clé.";
 
 /* The stored credentials are unavailable. Please enter the password manually. Touch ID Metadata for this database will be cleared. */
-"mac_could_not_find_stored_credentials" = "The stored credentials are unavailable. Please enter the password manually. Touch ID Metadata for this database will be cleared.";
+"mac_could_not_find_stored_credentials" = "Les données d'identification stockées ne sont pas disponibles. Veuillez entrer le mot de passe manuellement. Les métadonnées Touch ID pour de cette base de données seront effacées.";
 
 /* The database has been changed by another application, would you like to reload this latest version and automatically unlock? */
-"mac_db_changed_externally_reload_yes_or_no" = "The database has been changed by another application, would you like to reload this latest version and automatically unlock?";
+"mac_db_changed_externally_reload_yes_or_no" = "La base de données a été modifiée par une autre application, voulez-vous recharger cette dernière version et la déverrouiller automatiquement ?";
 
 /* Reloading after external changes... */
-"mac_db_reloading_after_external_changes_popup_notification" = "Reloading after external changes...";
+"mac_db_reloading_after_external_changes_popup_notification" = "Rechargement après modifications externes...";
 
 /* Could Not Unlock Database */
-"mac_could_not_unlock_database" = "Could Not Unlock Database";
+"mac_could_not_unlock_database" = "Impossible de déverrouiller la base de données";
 
 /* Would you like to use %@ to open this database in the future? Note for translators (1st Param = "Touch ID") */
-"mac_use_biometric_to_open_in_future_fmt" = "Would you like to use %@ to open this database in the future?";
+"mac_use_biometric_to_open_in_future_fmt" = "Voulez-vous utiliser %@ pour ouvrir cette base de données à l'avenir ?";
 
 /* Touch ID Considerations\n\nWhile this is very convenient, it is not a perfect system for protecting your passwords. It is provided for convenience only. It is within the realm of possibilities that someone with access to your device or your fingerprint, can produce a good enough fake fingerprint to fool Apple’s Touch ID. In addition, on your Mac, your master password will be securely stored in the Keychain. This means it is possible for someone with administrative privileges to search your Keychain for your master password. You should be aware that a strong passphrase held only in your mind provides the most secure experience with StrongBox.\n\nPlease take all of this into account, and make your decision to use Touch ID based on your preferred balance of convenience and security. */
-"mac_touch_id_one_time_warning" = "Touch ID Considerations\n\nWhile this is very convenient, it is not a perfect system for protecting your passwords. It is provided for convenience only. It is within the realm of possibilities that someone with access to your device or your fingerprint, can produce a good enough fake fingerprint to fool Apple’s Touch ID. In addition, on your Mac, your master password will be securely stored in the Keychain. This means it is possible for someone with administrative privileges to search your Keychain for your master password. You should be aware that a strong passphrase held only in your mind provides the most secure experience with StrongBox.\n\nPlease take all of this into account, and make your decision to use Touch ID based on your preferred balance of convenience and security.";
+"mac_touch_id_one_time_warning" = "Considérations Touch ID\n\nBien que cela soit fort pratique, ce n'est pas un système parfait pour protéger vos mots de passe. Il est fourni uniquement pour plus de confort. Il est tout à fait possible que quelqu'un ayant accès à votre appareil ou à votre empreinte digitale puisse produire une fausse empreinte digitale assez bonne pour tromper le Touch ID d’Apple. De plus, sur votre Mac, votre mot de passe maître sera stocké de manière sécurisée dans le trousseau. Cela signifie qu'il est possible pour une personne ayant des privilèges d'administration de rechercher votre mot de passe maître dans votre trousseau. Vous devez être conscient qu'un mot de passe fort retenu uniquement dans votre esprit fournit l'expérience la plus sécurisée de StrongBox.\n\nVeuillez prendre tout cela en compte en choisissant d'utiliser ou non Touch ID, selon l'équilibre que vous préférez entre confort et sécurité.";
 
 /* You cannot lock a database while changes are pending. Save changes and lock now? */
-"mac_cant_lock_db_while_changes_pending" = "You cannot lock a database while changes are pending. Save changes and lock now?";
+"mac_cant_lock_db_while_changes_pending" = "Vous ne pouvez pas verrouiller une base de données lorsque des modifications sont en cours. Enregistrer les modifications et verrouiller maintenant ?";
 
 /* Locking... */
-"generic_locking_ellipsis" = "Locking...";
+"generic_locking_ellipsis" = "Verrouillage en cours...";
 
 /* Please Enter the Master Credentials for this Database */
-"mac_please_set_master_credentials" = "Please Enter the Master Credentials for this Database";
+"mac_please_set_master_credentials" = "Veuillez entrer les identifiants maîtres pour cette base de données";
 
 /* Change Master Credentials */
 "mac_change_master_credentials" = "Changer les identifiants maîtres";
 
 /* Master Credentials Changed and Database Saved */
-"mac_master_credentials_changed_and_saved" = "Master Credentials Changed and Database Saved";
+"mac_master_credentials_changed_and_saved" = "Identifiants maîtres modifiés et base de données sauvegardée";
 
 /* '%@' %@ Copied - Translators Note: 1st Param is Title of Item, 2nd Param is the Field name e.g. Username or Password */
-"mac_field_copied_to_clipboard_fmt" = "'%@' %@ Copied";
+"mac_field_copied_to_clipboard_fmt" = "'%@' %@ copié";
 
 /* KeePass does not natively support the 'Email' field. Strongbox will add it instead as a custom field.\nDo you want to continue? */
-"mac_drag_drop_between_databases_keepass_email_field_not_supported" = "KeePass does not natively support the 'Email' field. Strongbox will add it instead as a custom field.\nDo you want to continue?";
+"mac_drag_drop_between_databases_keepass_email_field_not_supported" = "KeePass ne prend pas nativement en charge le champ \"Email\". Strongbox l'ajoutera à la place comme un champ personnalisé.\nVoulez-vous continuer ?";
 
 /* KeePass 1 does not support entries at the root level, these will be discarded. KeePass 1 also does not natively support the 'Email' field. Strongbox will append it instead to the end of the 'Notes' field.\nDo you want to continue? */
-"mac_keepass1_does_not_support_root_entries" = "KeePass 1 does not support entries at the root level, these will be discarded. KeePass 1 also does not natively support the 'Email' field. Strongbox will append it instead to the end of the 'Notes' field.\nDo you want to continue?";
+"mac_keepass1_does_not_support_root_entries" = "KeePass 1 ne prend pas en charge les entrées au niveau racine, celles-ci seront supprimées. KeePass 1 ne prend pas non plus en charge nativement le champ \"Email\". Strongbox va l'ajouter à la fin du champ \"Notes\".\nVoulez-vous continuer?";
 
 /* The Password Safe format does not support icons, attachments or custom fields. If you continue, these fields will not be copied to this database.\nDo you want to continue without these fields? */
 "mac_password_safe_fmt_does_not_support_icons_attachments_warning" = "The Password Safe format does not support icons, attachments or custom fields. If you continue, these fields will not be copied to this database.\nDo you want to continue without these fields?";
@@ -2506,7 +2506,7 @@
 "mac_strongbox_cant_open_file_wrappers" = "Strongbox cannot open File Wrappers, Directories or Compressed Packages like this. Please directly select a KeePass or Password Safe database file.";
 
 /* Please Enter the Master Credentials for this Database */
-"mac_please_enter_master_credentials_for_this_database" = "Please Enter the Master Credentials for this Database";
+"mac_please_enter_master_credentials_for_this_database" = "Veuillez entrer les identifiants maîtres pour cette base de données";
 
 /* Save New Password Database... */
 "mac_save_new_database" = "Save New Password Database...";
