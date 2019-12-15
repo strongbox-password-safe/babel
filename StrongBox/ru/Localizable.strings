@@ -1780,10 +1780,10 @@
 "keepass_history_tip" = "Совет: Смахните влево для выбора параметров или нажмите, чтобы просмотреть";
 
 /* Pin */
-"browse_vc_action_pin" = "Прикре пить";
+"browse_vc_action_pin" = "Прикрепить";
 
 /* Unpin */
-"browse_vc_action_unpin" = "Откре пить";
+"browse_vc_action_unpin" = "Открепить";
 
 /* Section Header Title for Expired Items */
 "browse_vc_section_title_expired" = "Истёкшие";
@@ -1942,7 +1942,7 @@
 "keepass_history_action_restore" = "Восстановить"; // TODO: Genericise...
 
 /* Delete */
-"browse_vc_action_delete" = "Уда лить"; // TODO: Genericise
+"browse_vc_action_delete" = "Удалить"; // TODO: Genericise
 
 /* Title */
 "generic_fieldname_title" = "Название";
@@ -1963,10 +1963,10 @@
 "generic_fieldname_notes" = "Примечания";
 
 /* Icon */
-"generic_fieldname_icon" = "Значок";
+"generic_fieldname_icon" = "Icon";
 
 /* Custom Fields */
-"generic_fieldname_custom_fields" = "Настраиваемые поля";
+"generic_fieldname_custom_fields" = "Custom Fields";
 
 /* Custom Fields */
 "generic_fieldname_custom_field" = "Custom Field";
@@ -1975,7 +1975,7 @@
 "generic_fieldname_totp" = "TOTP";
 
 /* Attachments */
-"generic_fieldname_attachments" = "Вложения";
+"generic_fieldname_attachments" = "Attachments";
 
 /* Decrypting */
 "generic_decrypting" = "Расшифровка";
@@ -2088,13 +2088,13 @@
 "browse_prefs_item_subtitle_username" = "Имя пользователя";
 
 /* Duplicate */
-"browse_vc_action_duplicate" = "Дубли ровать";
+"browse_vc_action_duplicate" = "Дублировать";
 
 /* Edit */
-"browse_vc_action_edit" = "Изме нить";
+"browse_vc_action_edit" = "Изменить";
 
 /* Rename */
-"browse_vc_action_rename" = "Переиме новать";
+"browse_vc_action_rename" = "Переименовать";
 
 /* Password */
 "browse_vc_search_scope_password" = "Пароль";
@@ -2219,7 +2219,7 @@
 "favicon_status_paused" = "Поиск приостановлен. Нажмите кнопку воспроизведения, чтобы продолжить...";
 
 /* Search Complete. Tap View Results to see FavIcons */
-"favicon_status_done" = "Поиск завершен. Нажмите 'Просмотр результатов' для просмотра значков.";
+"favicon_status_done" = "Поиск завершен. Нажмите 'Результаты поиска...' для просмотра найденых значков.";
 
 /* Are you sure you want to clear current results and retry all items? */
 "favicon_clear_all_and_retry_message" = "Вы уверены, что хотите очистить текущие результаты и повторить поиск?";
@@ -2263,8 +2263,8 @@
 /* This set of preferences will not produce valid FavIcon results. */
 "favicon_invalid_preferences_alert_message" = "Этот набор параметров не приведёт к корректному поиску значков.";
 
-/* '%@' %@ Changed... First parameter Title of Item, second parameter which field changed, e.g. Username or Password */
-"mac_field_changed_popup_notification_fmt" = "'%@' %@ Changed...";
+/* Local Device */
+"storage_provider_name_local_device" = "Локальное устройство";
 
 /* Unlock with %@ */
 "mac_unlock_database_with_biometric_fmt" = "Unlock with %@";
@@ -2300,13 +2300,10 @@
 "mac_please_set_master_credentials" = "Please Enter the Master Credentials for this Database";
 
 /* Change Master Credentials */
-"mac_change_master_credentials" = "Изменить учётные данные";
+"mac_change_master_credentials" = "Change Master Credentials";
 
 /* Master Credentials Changed and Database Saved */
 "mac_master_credentials_changed_and_saved" = "Master Credentials Changed and Database Saved";
-
-/* '%@' %@ Copied - Translators Note: 1st Param is Title of Item, 2nd Param is the Field name e.g. Username or Password */
-"mac_field_copied_to_clipboard_fmt" = "'%@' %@ Copied";
 
 /* KeePass does not natively support the 'Email' field. Strongbox will add it instead as a custom field.\nDo you want to continue? */
 "mac_drag_drop_between_databases_keepass_email_field_not_supported" = "KeePass does not natively support the 'Email' field. Strongbox will add it instead as a custom field.\nDo you want to continue?";
@@ -2330,7 +2327,7 @@
 "mac_please_enter_a_title_for_new_group" = "Please enter a Title for your new Group";
 
 /* Are you sure you want to send '%@' to the Recycle Bin? - Translation Note: 1st Param is the Item Title */
-"mac_are_you_sure_recycle_bin_yes_no_fmt" = "Вы уверены, что хотите отправить '%@' в корзину?";
+"mac_are_you_sure_recycle_bin_yes_no_fmt" = "Are you sure you want to send '%@' to the Recycle Bin?";
 
 /* Are you sure you want to delete '%@'? - Translation Note: 1st Param is the Item Title  */
 "mac_are_you_sure_delete_yes_no_fmt" = "Are you sure you want to delete '%@'?";
@@ -2370,10 +2367,10 @@
 "mac_no_valid_csv_rows_found" = "No valid rows found. Ensure CSV file contains a header row and at least one of the required fields.";
 
 /* Unique Usernames */
-"mac_database_summary_unique_usernames" = "Уникальных пользовательских имён";
+"mac_database_summary_unique_usernames" = "Unique Usernames";
 
 /* Unique Passwords */
-"mac_database_summary_unique_passwords" = "Уникальных паролей";
+"mac_database_summary_unique_passwords" = "Unique Passwords";
 
 /* Most Popular Username */
 "mac_database_summary_most_popular_username" = "Most Popular Username";
@@ -2391,7 +2388,7 @@
 "mac_not_a_valid_image_file" = "This is not a valid image file.";
 
 /* Please enter the secret or an OTPAuth URL */
-"mac_please_enter_totp_secret_or_otpauth_url" = "Пожалуйста, введите секретный ключ или ссылку OTPAuth";
+"mac_please_enter_totp_secret_or_otpauth_url" = "Please enter the secret or an OTPAuth URL";
 
 /* Is this a Steam Token? (Say 'No' if you're unsure) */
 "mac_is_this_a_stream_token_yes_no" = "Is this a Steam Token? (Say 'No' if you're unsure)";
@@ -2434,7 +2431,7 @@
 "mac_welcome_to_strongbox_message" = "Hi and welcome to Strongbox!\n\nI hope you'll really like the app, and find it useful. You can enjoy this fully featured Pro version of Strongbox for the next three months. After that point, you will be transitioned to the regular version of Strongbox.\n\nYou can always find out more at any time by tapping 'Upgrade to Pro' in the Strongbox menu item.\n\nThanks!\n-Mark";
 
 /* Change Master Credentials */
-"mac_undo_action_change_master_credentials" = "Изменить учётные данные";
+"mac_undo_action_change_master_credentials" = "Change Master Credentials";
 
 /* Title Change */
 "mac_undo_action_title_change" = "Title Change";
@@ -2531,3 +2528,159 @@
 
 /* There was a problem opening this file. It will be removed from your databases. */
 "mac_problem_opening_db" = "There was a problem opening this file. It will be removed from your databases.";
+
+/* Create New Password Database */
+"mac_create_new_database_title" = "Create New Password Database";
+
+/* Enter Database Master Credentials */
+"mac_enter_database_master_credentials" = "Enter Database Master Credentials";
+
+/* Click Browse to Select a Key File */
+"mac_click_browse_select_key_file" = "Click Browse to Select a Key File";
+
+/* Passwords don't match */
+"mac_passwords_dont_match" = "Passwords don't match";
+
+/* Key File Invalid */
+"mac_key_file_invalid" = "Key File Invalid";
+
+/* Select a Key File */
+"mac_select_key_file" = "Select a Key File";
+
+/* You must use at least a Password or a Key File */
+"mac_you_must_use_at_least_a_password_or_key_file" = "You must use at least a Password or a Key File";
+
+/* Password cannot be Empty */
+"mac_password_cannot_be_empty" = "Password cannot be Empty";
+
+/* Weak Credentials */
+"mac_weak_credentials" = "Weak Credentials";
+
+/* Protected */
+"mac_alerts_input_custom_field_protected_checkbox" = " Защитить";
+
+/* Key */
+"mac_alerts_input_custom_field_label_key" = "Key";
+
+/* Value */
+"mac_alerts_input_custom_field_label_value" = "Значение";
+
+/* Field cannot be empty */
+"mac_alerts_field_cannot_be_empty" = "Field cannot be empty";
+
+/* Upgrade */
+"mac_upgrade_button_title" = "Upgrade";
+
+/* Upgrade Momentarily Unavailable\nPlease Check Your Connection and Try Again Later */
+"mac_upgrade_momentarily_unavailble" = "Upgrade Momentarily Unavailable\nPlease Check Your Connection and Try Again Later";
+
+/* Restore Momentarily Unavailable */
+"mac_restore_momentarily_unavailble" = "Restore Momentarily Unavailable";
+
+/* No Thanks (%ld) */
+"mac_upgrade_no_thanks_seconds_remaining_fmt" = "No Thanks (%ld)";
+
+/* No Thanks */
+"mac_upgrade_no_thanks" = "No Thanks";
+
+/* Purchases Are Disabled on Your Device. */
+"mac_upgrade_purchases_disabled_on_device" = "Purchases Are Disabled on Your Device.";
+
+/* Restoration Unsuccessful */
+"mac_upgrade_restoration_unsuccessful" = "Восстановление не выполнено";
+
+/* Could not find any previously purchased products. */
+"mac_upgrade_could_not_find_any_previous_purchases" = "Could not find any previously purchased products.";
+
+/* Welcome back to Strongbox Pro */
+"mac_upgrade_welcome_back_to_strongbox" = "Welcome back to Strongbox Pro";
+
+/* Upgrade Restored Successfully. Thank you for your support!\n\nPlease restart the Application to enjoy your Pro features. */
+"mac_upgrade_upgrade_restored_success" = "Upgrade Restored Successfully. Thank you for your support!\n\nPlease restart the Application to enjoy your Pro features.";
+
+/* Welcome to Strongbox Pro */
+"mac_upgrade_welcome_to_strongbox" = "Welcome to Strongbox Pro";
+
+/* Upgrade to Pro version successful! Thank you for your support!\n\nPlease restart the Application to enjoy your Pro features. */
+"mac_upgrade_upgrade_successful_thank_you" = "Upgrade to Pro version successful! Thank you for your support!\n\nPlease restart the Application to enjoy your Pro features.";
+
+/* Failed to Upgrade */
+"mac_upgrade_failed_to_upgrade" = "Failed to Upgrade";
+
+/* Discard New Entry? */
+"mac_node_details_discard_new_entry" = "Discard New Entry?";
+
+/* Save Changes? */
+"mac_node_details_save_changes" = "Save Changes?";
+
+/* You have made no changes to this new entry, do you want to discard?" */
+"mac_node_details_you_made_changes_discard" = "You have made no changes to this new entry, do you want to discard?";
+
+/* There are unsaved changes present. Would you like to save those before exiting? */
+"mac_node_details_unsaved_changes_save" = "There are unsaved changes present. Would you like to save those before exiting?";
+
+/* %@ (Historical Item) */
+"mac_node_details_historical_item_suffix_fmt" = "%@ (Historical Item)";
+
+/* Edit Custom Field */
+"mac_node_details_edit_custom_field" = "Изменить настраиваемое поле";
+
+/* Are you sure you want to remove the custom field '%@'? */
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
+
+/* Are you sure you want to remove the custom field '%@'? */
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
+
+/* Add Custom Field */
+"mac_node_details_add_custom_field" = "Add Custom Field";
+
+/* You cannot use that Key here as it already exists in custom fields. */
+"mac_node_details_you_cannot_use_that_key_already_exists" = "You cannot use that Key here as it already exists in custom fields.";
+
+/* You cannot use that Key here as it is reserved for standard KeePass fields. */
+"mac_node_details_you_cannot_use_key_reserved" = "You cannot use that Key here as it is reserved for standard KeePass fields.";
+
+/* Are you sure you want to remove the attachment: %@? */
+"mac_node_details_are_you_sure_remove_attachment_fmt" = "Are you sure you want to remove the attachment: %@?";
+
+/* Password Copied and URL Launched */
+"mac_node_details_password_copied_url_launched" = "Password Copied and URL Launched";
+
+/* Please enter the secret or an OTPAuth URL */
+"mac_node_details_please_enter_secret_totp" = "Пожалуйста, введите секретный ключ или ссылку OTPAuth";
+
+/* Is this a Steam Token? (Say 'No' if you're unsure) */
+"mac_node_details_is_this_steam_totp" = "Is this a Steam Token? (Say 'No' if you're unsure)";
+
+/* Could not change group! Validate failed... */
+"mac_node_details_could_not_change_group" = "Could not change group! Validate failed...";
+
+/* '%@' %@ Copied - Translators Note: 1st Param is Title of Item, 2nd Param is the Field name e.g. Username or Password */
+"mac_field_copied_to_clipboard_fmt" = "'%@' %@ Copied";
+
+/* '%@' %@ Changed... First parameter is field that changed, e.g. Username or Password */
+"mac_field_changed_notification_fmt" = "%@ Changed...";
+
+/* '%@' %@ Changed... First parameter Title of Item, second parameter which field changed, e.g. Username or Password */
+"mac_field_changed_popup_notification_fmt" = "'%@' %@ Changed...";
+
+/* Are you sure you want to delete this history item? */
+"mac_keepass_history_are_sure_delete" = "Are you sure you want to delete this history item?";
+
+/* Are you sure you want to restore this history item? */
+"mac_keepass_history_are_sure_restore" = "Are you sure you want to restore this history item?";
+
+/* Could not open this file. */
+"mac_could_not_open_this_file" = "Could not open this file.";
+
+/* Database Icons */
+"mac_database_icons" = "Значки базы данных";
+
+/* KeePass Icons */
+"mac_keepass_icons" = "Значки KeePass";
+
+/* Identify to Open Database */
+"mac_biometrics_identify_to_open_database" = "Identify to Open Database";
+
+/* Biometrics is not available on this device! */
+"mac_biometrics_not_available" = "Biometrics is not available on this device!";
