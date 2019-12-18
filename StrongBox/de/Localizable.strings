@@ -1969,7 +1969,7 @@
 "generic_fieldname_custom_fields" = "Benutzerdefinierte Felder";
 
 /* Custom Fields */
-"generic_fieldname_custom_field" = "Custom Field";
+"generic_fieldname_custom_field" = "Benutzerdefiniertes Feld";
 
 /* TOTP */
 "generic_fieldname_totp" = "TOTP";
@@ -1981,7 +1981,7 @@
 "generic_decrypting" = "Wird entschlüsselt";
 
 /* Decrypting */
-"generic_unlocking_ellipsis" = "Unlocking...";
+"generic_unlocking_ellipsis" = "Wird entsperrt...";
 
 /* Encrypting */
 "generic_encrypting" = "Wird verschlüsselt";
@@ -2264,107 +2264,107 @@
 "favicon_invalid_preferences_alert_message" = "Diese Einstellungen werden keine gültigen FavIcon-Ergebnisse liefern.";
 
 /* Local Device */
-"storage_provider_name_local_device" = "Local Device";
+"storage_provider_name_local_device" = "Lokales Gerät";
 
 /* Unlock with %@ */
-"mac_unlock_database_with_biometric_fmt" = "Unlock with %@";
+"mac_unlock_database_with_biometric_fmt" = "Mit %@ entsperren";
 
 /* Could not open key file. */
-"mac_error_could_not_open_key_file" = "Could not open key file.";
+"mac_error_could_not_open_key_file" = "Schlüsseldatei konnte nicht geöffnet werden.";
 
 /* The stored credentials are unavailable. Please enter the password manually. Touch ID Metadata for this database will be cleared. */
-"mac_could_not_find_stored_credentials" = "The stored credentials are unavailable. Please enter the password manually. Touch ID Metadata for this database will be cleared.";
+"mac_could_not_find_stored_credentials" = "Die gespeicherten Zugangsdaten sind nicht verfügbar. Bitte geben Sie das Passwort manuell ein. Die Touch-ID-Metadaten für diese Datenbank werden gelöscht.";
 
 /* The database has been changed by another application, would you like to reload this latest version and automatically unlock? */
-"mac_db_changed_externally_reload_yes_or_no" = "The database has been changed by another application, would you like to reload this latest version and automatically unlock?";
+"mac_db_changed_externally_reload_yes_or_no" = "Die Datenbank wurde durch eine andere Anwendung geändert. Möchten Sie die neueste Version laden und automatisch entsperren?";
 
 /* Reloading after external changes... */
-"mac_db_reloading_after_external_changes_popup_notification" = "Reloading after external changes...";
+"mac_db_reloading_after_external_changes_popup_notification" = "Neu laden nach externen Änderungen...";
 
 /* Could Not Unlock Database */
-"mac_could_not_unlock_database" = "Could Not Unlock Database";
+"mac_could_not_unlock_database" = "Datenbank konnte nicht entsperrt werden";
 
 /* Would you like to use %@ to open this database in the future? Note for translators (1st Param = "Touch ID") */
-"mac_use_biometric_to_open_in_future_fmt" = "Would you like to use %@ to open this database in the future?";
+"mac_use_biometric_to_open_in_future_fmt" = "Möchten Sie %@ verwenden, um diese Datenbank in Zukunft zu öffnen?";
 
 /* Touch ID Considerations\n\nWhile this is very convenient, it is not a perfect system for protecting your passwords. It is provided for convenience only. It is within the realm of possibilities that someone with access to your device or your fingerprint, can produce a good enough fake fingerprint to fool Apple’s Touch ID. In addition, on your Mac, your master password will be securely stored in the Keychain. This means it is possible for someone with administrative privileges to search your Keychain for your master password. You should be aware that a strong passphrase held only in your mind provides the most secure experience with StrongBox.\n\nPlease take all of this into account, and make your decision to use Touch ID based on your preferred balance of convenience and security. */
-"mac_touch_id_one_time_warning" = "Touch ID Considerations\n\nWhile this is very convenient, it is not a perfect system for protecting your passwords. It is provided for convenience only. It is within the realm of possibilities that someone with access to your device or your fingerprint, can produce a good enough fake fingerprint to fool Apple’s Touch ID. In addition, on your Mac, your master password will be securely stored in the Keychain. This means it is possible for someone with administrative privileges to search your Keychain for your master password. You should be aware that a strong passphrase held only in your mind provides the most secure experience with StrongBox.\n\nPlease take all of this into account, and make your decision to use Touch ID based on your preferred balance of convenience and security.";
+"mac_touch_id_one_time_warning" = "Erwägungen zur Nutzung von Touch ID\n\nObwohl Touch ID sehr komfortabel ist, handelt es sich nicht um ein perfektes System zum Schutz Ihrer Passwörter. Touch ID wird nur aus Komfortgründen zur Verfügung gestellt. Es ist denkbar, dass es jemandem mit Zugriff auf Ihr Gerät oder Ihren Fingerabdruck gelingt, einen ausreichend gut gefälschten Fingerabdruck zu produzieren, um Apple's Touch ID zu täuschen. Darüber hinaus wird Ihr Master-Passwort im Schlüsselbund Ihres Macs gespeichert. Das bedeutet, dass es jemandem mit administrativen Rechten möglich ist, Ihren Schlüsselbund nach Ihrem Master-Passwort zu durchsuchen. Sie sollten sich darüber im Klaren sein, dass ein starkes Passwort, welches sich nur in Ihrem Gedächtnis befindet, die sicherste Erfahrung mit Strongbox bietet.\n\nBitte berücksichtigen Sie dies alles und treffen Sie Ihre Entscheidung Touch ID zu nutzen, auf Basis Ihres bevorzugten Maßes an Komfort und Sicherheit.";
 
 /* You cannot lock a database while changes are pending. Save changes and lock now? */
-"mac_cant_lock_db_while_changes_pending" = "You cannot lock a database while changes are pending. Save changes and lock now?";
+"mac_cant_lock_db_while_changes_pending" = "Sie können eine Datenbank nicht sperren, während noch Änderungen ausstehen. Änderungen speichern und jetzt sperren?";
 
 /* Locking... */
-"generic_locking_ellipsis" = "Locking...";
+"generic_locking_ellipsis" = "Wird gesperrt...";
 
 /* Please Enter the Master Credentials for this Database */
-"mac_please_set_master_credentials" = "Please Enter the Master Credentials for this Database";
+"mac_please_set_master_credentials" = "Bitte geben Sie die Master-Zugangsdaten für diese Datenbank ein";
 
 /* Change Master Credentials */
 "mac_change_master_credentials" = "Master-Anmeldedaten ändern";
 
 /* Master Credentials Changed and Database Saved */
-"mac_master_credentials_changed_and_saved" = "Master Credentials Changed and Database Saved";
+"mac_master_credentials_changed_and_saved" = "Master-Zugangsdaten geändert und Datenbank gespeichert";
 
 /* KeePass does not natively support the 'Email' field. Strongbox will add it instead as a custom field.\nDo you want to continue? */
-"mac_drag_drop_between_databases_keepass_email_field_not_supported" = "KeePass does not natively support the 'Email' field. Strongbox will add it instead as a custom field.\nDo you want to continue?";
+"mac_drag_drop_between_databases_keepass_email_field_not_supported" = "KeePass unterstützt das Feld 'E-Mail' nicht nativ. Strongbox wird es stattdessen als benutzerdefiniertes Feld hinzufügen.\nMöchten Sie fortfahren?";
 
 /* KeePass 1 does not support entries at the root level, these will be discarded. KeePass 1 also does not natively support the 'Email' field. Strongbox will append it instead to the end of the 'Notes' field.\nDo you want to continue? */
-"mac_keepass1_does_not_support_root_entries" = "KeePass 1 does not support entries at the root level, these will be discarded. KeePass 1 also does not natively support the 'Email' field. Strongbox will append it instead to the end of the 'Notes' field.\nDo you want to continue?";
+"mac_keepass1_does_not_support_root_entries" = "KeePass 1 unterstützt keine Einträge auf der Root-Ebene. Diese werden verworfen. KeePass 1 unterstützt auch nicht nativ das 'E-Mail'-Feld. Strongbox wird es stattdessen an das Ende des 'Notizen'-Feldes anhängen.\nMöchten Sie fortfahren?";
 
 /* The Password Safe format does not support icons, attachments or custom fields. If you continue, these fields will not be copied to this database.\nDo you want to continue without these fields? */
-"mac_password_safe_fmt_does_not_support_icons_attachments_warning" = "The Password Safe format does not support icons, attachments or custom fields. If you continue, these fields will not be copied to this database.\nDo you want to continue without these fields?";
+"mac_password_safe_fmt_does_not_support_icons_attachments_warning" = "Das Format 'Password Safe' unterstützt keine Symbole, Anhänge oder benutzerdefinierte Felder. Wenn Sie fortfahren, werden diese Felder nicht in diese Datenbank kopiert.\nMöchten Sie ohne diese Felder fortfahren?";
 
 /* The KeePass 1 (KDB) does not support entries at the root level, these will be discarded.\n\nThe KeePass 1 (KDB) format also does not support multiple attachments, custom fields or custom icons. If you continue only the first attachment from each item will be copied to this database. Custom Fields and Icons will be discarded.\nDo you want to continue? */
-"mac_keepass1_does_not_support_root_entries_or_attachments" = "The KeePass 1 (KDB) does not support entries at the root level, these will be discarded.\n\nThe KeePass 1 (KDB) format also does not support multiple attachments, custom fields or custom icons. If you continue only the first attachment from each item will be copied to this database. Custom Fields and Icons will be discarded.\nDo you want to continue?";
+"mac_keepass1_does_not_support_root_entries_or_attachments" = "KeePass 1 (KDB) unterstützt keine Einträge auf Root-Ebene. Diese werden verworfen.\n\nDas Format 'KeePass 1 (KDB)' unterstützt auch keine mehrfachen Anhänge, benutzerdefinierte Felder oder benutzerdefinierte Symbole. Wenn Sie fortfahren, wird nur der erste Anhang jedes Eintrags in diese Datenbank kopiert. Benutzerdefinierte Felder und Symbole werden verworfen.\nMöchten Sie fortfahren?";
 
 /* The Password Safe format does not support attachments or icons. If you continue, these fields will not be copied to this database.\nDo you want to continue without these fields? */
-"mac_password_safe_does_not_support_attachments_icons_continue_yes_no" = "The Password Safe format does not support attachments or icons. If you continue, these fields will not be copied to this database.\nDo you want to continue without these fields?";
+"mac_password_safe_does_not_support_attachments_icons_continue_yes_no" = "Das Format 'Password Safe' unterstützt keine Anhänge oder Symbole. Wenn Sie fortfahren, werden diese Felder nicht in diese Datenbank kopiert.\nMöchten Sie ohne diese Felder fortfahren?";
 
 /* You cannot create a new item here. It must be within an existing folder. */
-"mac_alert_cannot_create_item_here" = "You cannot create a new item here. It must be within an existing folder.";
+"mac_alert_cannot_create_item_here" = "Sie können hier keinen neuen Eintrag erstellen. Er muss sich in einem existierenden Ordner befinden.";
 
 /* Please enter a Title for your new Group */
-"mac_please_enter_a_title_for_new_group" = "Please enter a Title for your new Group";
+"mac_please_enter_a_title_for_new_group" = "Bitte geben Sie einen Titel für Ihre neue Gruppe ein";
 
 /* Are you sure you want to send '%@' to the Recycle Bin? - Translation Note: 1st Param is the Item Title */
 "mac_are_you_sure_recycle_bin_yes_no_fmt" = "Sind Sie sicher, dass Sie '%@' in den Papierkorb verschieben möchten?";
 
 /* Are you sure you want to delete '%@'? - Translation Note: 1st Param is the Item Title  */
-"mac_are_you_sure_delete_yes_no_fmt" = "Are you sure you want to delete '%@'?";
+"mac_are_you_sure_delete_yes_no_fmt" = "Sind Sie sicher, dass Sie '%@' löschen möchten?";
 
 /* Are you sure you want to send %lu items to the Recycle Bin? - Translation Note: 1st Param is the number of items being deleted  */
-"mac_are_you_sure_recycle_bin_multiple_yes_no_fmt" = "Are you sure you want to send %lu items to the Recycle Bin?";
+"mac_are_you_sure_recycle_bin_multiple_yes_no_fmt" = "Sind Sie sicher, dass Sie %lu Einträge in den Papierkorb verschieben möchten?";
 
 /* Are you sure you want to delete %lu items? - Translation Note: 1st Param is the number of items being deleted */
-"mac_are_you_sure_delete_multiple_yes_no_fmt" = "Are you sure you want to delete %lu items?";
+"mac_are_you_sure_delete_multiple_yes_no_fmt" = "Sind Sie sicher, dass Sie %lu Einträge löschen möchten?";
 
 /* Delete Items */
-"mac_menu_item_delete_items" = "Delete Items";
+"mac_menu_item_delete_items" = "Einträge löschen";
 
 /* Delete Item */
-"mac_menu_item_delete_item" = "Delete Item";
+"mac_menu_item_delete_item" = "Eintrag löschen";
 
 /* Choose CSV file to Import */
-"mac_choose_csv_file_import" = "Choose CSV file to Import";
+"mac_choose_csv_file_import" = "CSV-Datei zum Importieren auswählen";
 
 /* The CSV file must contain a header row with at least one of the following fields:\n\n[%@, %@, %@, %@, %@, %@]\n\nThe order of the fields doesn't matter. */
 
-"mac_csv_file_must_contain_header_and_fields" = "The CSV file must contain a header row with at least one of the following fields:\n\n[%@, %@, %@, %@, %@, %@]\n\nThe order of the fields doesn't matter.";
+"mac_csv_file_must_contain_header_and_fields" = "Die CSV-Datei muss eine Kopfzeile mit mindestens einem der folgenden Felder enthalten:\n\n[%@, %@, %@, %@, %@, %@]\n\nDie Reihenfolge der Felder spielt keine Rolle.";
 
 /* CSV Format */
-"mac_csv_format_info_title" = "CSV Format";
+"mac_csv_format_info_title" = "CSV-Format";
 
 /* CSV File Contains Zero Rows. Cannot Import. */
-"mac_csv_file_contains_zero_rows" = "CSV File Contains Zero Rows. Cannot Import.";
+"mac_csv_file_contains_zero_rows" = "Die CSV-Datei enthält keine Zeilen. Import nicht möglich.";
 
 /* Found %lu valid rows in CSV file. Are you sure you would like to import now? - Translators Note: 1st Param is the number of rows found in the CSV File */
-"mac_found_n_valid_rows_in_csv_file_prompt_to_import_fmt" = "Found %lu valid rows in CSV file. Are you sure you would like to import now?";
+"mac_found_n_valid_rows_in_csv_file_prompt_to_import_fmt" = "%lu gültige Zeilen in CSV-Datei gefunden. Sind Sie sicher, dass Sie jetzt importieren möchten?";
 
 /* CSV File Successfully Imported. */
-"mac_csv_file_successfully_imported" = "CSV File Successfully Imported.";
+"mac_csv_file_successfully_imported" = "CSV-Datei erfolgreich importiert.";
 
 /* No valid rows found. Ensure CSV file contains a header row and at least one of the required fields. */
-"mac_no_valid_csv_rows_found" = "No valid rows found. Ensure CSV file contains a header row and at least one of the required fields.";
+"mac_no_valid_csv_rows_found" = "Keine gültigen Zeilen gefunden. Stellen Sie sicher, dass die CSV-Datei eine Kopfzeile und mindestens eines der erforderlichen Felder enthält.";
 
 /* Unique Usernames */
 "mac_database_summary_unique_usernames" = "Einmalige Benutzernamen";
@@ -2373,52 +2373,52 @@
 "mac_database_summary_unique_passwords" = "Einmalige Passwörter";
 
 /* Most Popular Username */
-"mac_database_summary_most_popular_username" = "Most Popular Username";
+"mac_database_summary_most_popular_username" = "Beliebtester Benutzername";
 
 /* Number of Entries */
-"mac_database_summary_number_of_entries" = "Number of Entries";
+"mac_database_summary_number_of_entries" = "Anzahl Einträge";
 
 /* Number of Folders */
-"mac_database_summary_number_of_folders" = "Number of Folders";
+"mac_database_summary_number_of_folders" = "Anzahl Ordner";
 
 /* This is a large image to use as an icon. Would you like to use a scaled down version to save %@? - Translators Note: 1st Parameter is how much space will be saved */
-"mac_large_image_as_icon_use_scaled_down_version_fmt" = "This is a large image to use as an icon. Would you like to use a scaled down version to save %@?";
+"mac_large_image_as_icon_use_scaled_down_version_fmt" = "Dies ist ein großes Bild, das als Symbol verwendet werden soll. Möchten Sie eine verkleinerte Version verwenden, um %@ zu sparen?";
 
 /* This is not a valid image file. */
-"mac_not_a_valid_image_file" = "This is not a valid image file.";
+"mac_not_a_valid_image_file" = "Dies ist keine gültige Bilddatei.";
 
 /* Please enter the secret or an OTPAuth URL */
 "mac_please_enter_totp_secret_or_otpauth_url" = "Bitte geben Sie den geheimen Schlüssel oder eine OTPAuth-URL ein";
 
 /* Is this a Steam Token? (Say 'No' if you're unsure) */
-"mac_is_this_a_stream_token_yes_no" = "Is this a Steam Token? (Say 'No' if you're unsure)";
+"mac_is_this_a_stream_token_yes_no" = "Ist das ein Steam-Token? (Wählen Sie 'Nein', wenn Sie unsicher sind.)";
 
 /* Show Quick View Panel */
-"mac_show_quick_view_panel" = "Show Quick View Panel";
+"mac_show_quick_view_panel" = "Schnellansicht anzeigen";
 
 /* Hide Quick View Panel */
-"mac_hide_quick_view_panel" = "Hide Quick View Panel";
+"mac_hide_quick_view_panel" = "Schnellansicht ausblenden";
 
 /* %@ Emergency Sheet - Translators Note: 1st Param: Database Name */
-"mac_database_print_emergency_sheet_fmt" = "%@ Emergency Sheet";
+"mac_database_print_emergency_sheet_fmt" = "%@ Notfallblatt";
 
 /* Search Disabled - Please Upgrade */
-"mac_search_disabled_please_upgrade" = "Search Disabled - Please Upgrade";
+"mac_search_disabled_please_upgrade" = "Suche deaktiviert - Bitte upgraden";
 
 /* Search (⌘F) */
-"mac_search_placeholder" = "Search (⌘F)";
+"mac_search_placeholder" = "Suche (⌘F)";
 
 /* Please enter your custom Title auto fill */
-"mac_enter_custom_title_default" = "Please enter your custom Title auto fill";
+"mac_enter_custom_title_default" = "Benutzerdef. Standard-Titel";
 
 /* Please enter your custom Username auto fill */
-"mac_enter_custom_username_default" = "Please enter your custom Username auto fill";
+"mac_enter_custom_username_default" = "Benutzerdef. Standard-Benutzername";
 
 /* Please enter your custom Email auto fill */
-"mac_enter_custom_email_default" = "Please enter your custom Email auto fill";
+"mac_enter_custom_email_default" = "Benutzerdef. Standard-E-Mail";
 
 /* Please enter your custom Password auto fill */
-"mac_enter_custom_password_default" = "Please enter your custom Password auto fill";
+"mac_enter_custom_password_default" = "Benutzerdef. Standard-Passwort";
 
 /* Please enter your custom URL auto fill */
 "mac_enter_custom_url_default" = "Please enter your custom URL auto fill";
@@ -2500,7 +2500,7 @@
 "mac_strongbox_cant_open_file_wrappers" = "Strongbox cannot open File Wrappers, Directories or Compressed Packages like this. Please directly select a KeePass or Password Safe database file.";
 
 /* Please Enter the Master Credentials for this Database */
-"mac_please_enter_master_credentials_for_this_database" = "Please Enter the Master Credentials for this Database";
+"mac_please_enter_master_credentials_for_this_database" = "Bitte geben Sie die Master-Zugangsdaten für diese Datenbank ein";
 
 /* Save New Password Database... */
 "mac_save_new_database" = "Save New Password Database...";
@@ -2611,67 +2611,67 @@
 "mac_node_details_discard_new_entry" = "Discard New Entry?";
 
 /* Save Changes? */
-"mac_node_details_save_changes" = "Save Changes?";
+"mac_node_details_save_changes" = "Änderungen speichern?";
 
 /* You have made no changes to this new entry, do you want to discard?" */
-"mac_node_details_you_made_changes_discard" = "You have made no changes to this new entry, do you want to discard?";
+"mac_node_details_you_made_changes_discard" = "Sie haben keine Änderungen an diesem neuen Eintrag vorgenommen. Möchten Sie ihn verwerfen?";
 
 /* There are unsaved changes present. Would you like to save those before exiting? */
-"mac_node_details_unsaved_changes_save" = "There are unsaved changes present. Would you like to save those before exiting?";
+"mac_node_details_unsaved_changes_save" = "Es sind nicht gespeicherte Änderungen vorhanden. Möchten Sie diese vor dem Beenden speichern?";
 
 /* %@ (Historical Item) */
-"mac_node_details_historical_item_suffix_fmt" = "%@ (Historical Item)";
+"mac_node_details_historical_item_suffix_fmt" = "%@ (Historischer Eintrag)";
 
 /* Edit Custom Field */
 "mac_node_details_edit_custom_field" = "Benutzerdefiniertes Feld bearbeiten";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Sind Sie sicher, dass Sie das benutzerdefinierte Feld '%@' entfernen möchten?";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Sind Sie sicher, dass Sie das benutzerdefinierte Feld '%@' entfernen möchten?";
 
 /* Add Custom Field */
-"mac_node_details_add_custom_field" = "Add Custom Field";
+"mac_node_details_add_custom_field" = "Benutzerdefiniertes Feld hinzufügen";
 
 /* You cannot use that Key here as it already exists in custom fields. */
-"mac_node_details_you_cannot_use_that_key_already_exists" = "You cannot use that Key here as it already exists in custom fields.";
+"mac_node_details_you_cannot_use_that_key_already_exists" = "Sie können diesen Schlüssel hier nicht verwenden, da er bereits in den benutzerdefinierten Feldern vorhanden ist.";
 
 /* You cannot use that Key here as it is reserved for standard KeePass fields. */
-"mac_node_details_you_cannot_use_key_reserved" = "You cannot use that Key here as it is reserved for standard KeePass fields.";
+"mac_node_details_you_cannot_use_key_reserved" = "Sie können diesen Schlüssel hier nicht verwenden, da er für Standard-KeePass-Felder reserviert ist.";
 
 /* Are you sure you want to remove the attachment: %@? */
-"mac_node_details_are_you_sure_remove_attachment_fmt" = "Are you sure you want to remove the attachment: %@?";
+"mac_node_details_are_you_sure_remove_attachment_fmt" = "Sind Sie sicher, dass Sie den Anhang %@ entfernen möchten?";
 
 /* Password Copied and URL Launched */
-"mac_node_details_password_copied_url_launched" = "Password Copied and URL Launched";
+"mac_node_details_password_copied_url_launched" = "Passwort kopiert und URL aufgerufen";
 
 /* Please enter the secret or an OTPAuth URL */
 "mac_node_details_please_enter_secret_totp" = "Bitte geben Sie den geheimen Schlüssel oder eine OTPAuth-URL ein";
 
 /* Is this a Steam Token? (Say 'No' if you're unsure) */
-"mac_node_details_is_this_steam_totp" = "Is this a Steam Token? (Say 'No' if you're unsure)";
+"mac_node_details_is_this_steam_totp" = "Ist das ein Steam-Token? (Wählen Sie 'Nein', wenn Sie unsicher sind.)";
 
 /* Could not change group! Validate failed... */
-"mac_node_details_could_not_change_group" = "Could not change group! Validate failed...";
+"mac_node_details_could_not_change_group" = "Konnte Gruppe nicht ändern! Überprüfen fehlgeschlagen...";
 
 /* '%@' %@ Copied - Translators Note: 1st Param is Title of Item, 2nd Param is the Field name e.g. Username or Password */
-"mac_field_copied_to_clipboard_fmt" = "'%@' %@ Copied";
+"mac_field_copied_to_clipboard_fmt" = "'%@' - %@ kopiert";
 
 /* '%@' %@ Changed... First parameter is field that changed, e.g. Username or Password */
-"mac_field_changed_notification_fmt" = "%@ Changed...";
+"mac_field_changed_notification_fmt" = "%@ geändert...";
 
 /* '%@' %@ Changed... First parameter Title of Item, second parameter which field changed, e.g. Username or Password */
-"mac_field_changed_popup_notification_fmt" = "'%@' %@ Changed...";
+"mac_field_changed_popup_notification_fmt" = "'%@' - %@ geändert...";
 
 /* Are you sure you want to delete this history item? */
-"mac_keepass_history_are_sure_delete" = "Are you sure you want to delete this history item?";
+"mac_keepass_history_are_sure_delete" = "Sind Sie sicher, dass Sie diesen Verlaufseintrag löschen möchten?";
 
 /* Are you sure you want to restore this history item? */
-"mac_keepass_history_are_sure_restore" = "Are you sure you want to restore this history item?";
+"mac_keepass_history_are_sure_restore" = "Sind Sie sicher, dass Sie diesen Verlaufseintrag wiederherstellen möchten?";
 
 /* Could not open this file. */
-"mac_could_not_open_this_file" = "Could not open this file.";
+"mac_could_not_open_this_file" = "Diese Datei konnte nicht geöffnet werden.";
 
 /* Database Icons */
 "mac_database_icons" = "Datenbank-Icons";
@@ -2680,7 +2680,7 @@
 "mac_keepass_icons" = "KeePass-Icons";
 
 /* Identify to Open Database */
-"mac_biometrics_identify_to_open_database" = "Identify to Open Database";
+"mac_biometrics_identify_to_open_database" = "Identifizieren, um Datenbank zu öffnen";
 
 /* Biometrics is not available on this device! */
-"mac_biometrics_not_available" = "Biometrics is not available on this device!";
+"mac_biometrics_not_available" = "Biometrische Daten sind auf diesem Gerät nicht verfügbar!";
