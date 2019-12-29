@@ -904,7 +904,7 @@
 "databases_preferences_subtitle_field_name_database_storage" = "Databaslagring";
 
 /* Filename */
-"databases_preferences_subtitle_field_name_filename" = "Filename";
+"databases_preferences_subtitle_field_name_filename" = "Filnamn";
 
 /* Last Cached Date */
 "databases_preferences_subtitle_field_name_last_cached_data" = "Last Cached Date";
@@ -928,13 +928,13 @@
 "notes_cell_textview_accessibility_label" = "Notes Text View";
 
 /* No TOTP Setup */
-"totp_cell_no_totp_has_been_setup" = "No TOTP Setup";
+"totp_cell_no_totp_has_been_setup" = "Inget TOTP konfigurerad";
 
 /*  Text Field */
-"generic_kv_cell_value_text_accessibility label_fmt" = " Text Field";
+"generic_kv_cell_value_text_accessibility label_fmt" = " Textfält";
 
 /* %@ (Required) */
-"generic_kv_cell_value_empty_value_validation_fmt" = "%@ (Required)";
+"generic_kv_cell_value_empty_value_validation_fmt" = "%@ (krävs)";
 
 /* Date Text Field */
 "edit_date_cell_date_field_accessibility_label" = "Date Text Field";
@@ -950,7 +950,7 @@
 
 /* Could not get database data
    Error Encrypting */
-"export_vc_error_encrypting" = "Error Encrypting";
+"export_vc_error_encrypting" = "Fel vid kryptering";
 
 /* Email Not Available */
 "export_vc_email_unavailable_title" = "Email Not Available";
@@ -959,25 +959,25 @@
 "export_vc_email_unavailable_message" = "It looks like email is not setup on this device and so the database cannot be exported by email.";
 
 /* Strongbox Database: '%@' */
-"export_vc_email_subject" = "Strongbox Database: '%@'";
+"export_vc_email_subject" = "Strongbox-databas: \"%@\"";
 
 /* Here's a copy of my '%@' Strongbox Database. */
-"export_vc_email_message_body_fmt" = "Here's a copy of my '%@' Strongbox Database.";
+"export_vc_email_message_body_fmt" = "Här är en kopia av min \"%@\" Strongbox-databas.";
 
 /* Error Sending */
-"export_vc_email_error_sending" = "Error Sending";
+"export_vc_email_error_sending" = "Fel vid sändning";
 
 /* Export Successful */
-"export_vc_export_successful_title" = "Export Successful";
+"export_vc_export_successful_title" = "Exporten lyckades";
 
 /* Your database was successfully exported. */
-"export_vc_export_successful_message" = "Your database was successfully exported.";
+"export_vc_export_successful_message" = "Databasexporten lyckades.";
 
 /* Error Writing Database */
-"export_vc_error_writing" = "Error Writing Database";
+"export_vc_error_writing" = "Fel vid skrivning av databas";
 
 /* Error Exporting */
-"export_vc_error_exporting" = "Error Exporting";
+"export_vc_error_exporting" = "Fel vid export";
 
 /* Turn Convenience PIN Off */
 "pins_config_vc_button_title_turn_convenience_pin_off" = "Turn Convenience PIN Off";
@@ -992,7 +992,7 @@
 "pins_config_vc_button_title_turn_duress_pin_on" = "Turn Duress PIN On";
 
 /* Delete Database */
-"pins_config_vc_label_delete_database" = "Delete Database";
+"pins_config_vc_label_delete_database" = "Radera databas";
 
 /* Local Device database will be permanently deleted. */
 "pins_config_vc_label_delete_database_local_permanent" = "Local Device database will be permanently deleted.";
@@ -1001,7 +1001,7 @@
 "pins_config_vc_label_delete_database_icloud_permanent" = "iCloud database will be permanently deleted from iCloud.";
 
 /* Remove Database from Strongbox */
-"pins_config_vc_label_remove_database" = "Remove Database from Strongbox";
+"pins_config_vc_label_remove_database" = "Ta bort databas från Strongbox";
 
 /* NB: Database file will remain on remote storage. */
 "pins_config_vc_label_remove_database_warning" = "NB: Database file will remain on remote storage.";
@@ -1016,19 +1016,19 @@
 "pins_config_vc_turn_pin_off_confirm" = "Are you sure you want to turn off the PIN for this database?";
 
 /* Turn off PIN? */
-"pins_config_vc_turn_pin_off_prompt_title" = "Turn off PIN?";
+"pins_config_vc_turn_pin_off_prompt_title" = "Stänga av PIN-kod?";
 
 /* Enter Duress PIN */
 "pins_config_vc_enter_duress_pin" = "Enter Duress PIN";
 
 /* PIN Conflict */
-"pins_config_vc_error_pin_conflict_title" = "PIN Conflict";
+"pins_config_vc_error_pin_conflict_title" = "PIN-kodskonflikt";
 
 /* Your Convenience PIN conflicts with your Duress PIN. Please select another. */
 "pins_config_vc_error_pin_conflict_message" = "Your Convenience PIN conflicts with your Duress PIN. Please select another.";
 
 /* Warning */
-"pins_config_vc_warn_remove_database_title" = "Warning";
+"pins_config_vc_warn_remove_database_title" = "Varning";
 
 /* This will permanently delete the database file. */
 "pins_config_vc_warn_remove_database_delete_message" = "This will permanently delete the database file.";
@@ -1037,13 +1037,13 @@
 "pins_config_vc_warn_remove_database_remove_message" = "This will remove the database from Strongbox but the underlying file will remain on cloud storage";
 
 /* Manage Key Files */
-"key_files_vc_manage_title" = "Manage Key Files";
+"key_files_vc_manage_title" = "Hantera nyckelfiler";
 
 /* Select Key File */
-"key_files_vc_select_title" = "Select Key File";
+"key_files_vc_select_title" = "Välj nyckelfil";
 
 /* No Key Files Found. Tap '+' to import one. */
-"key_files_vc_empty_key_files_title" = "No Key Files Found. Tap '+' to import one.";
+"key_files_vc_empty_key_files_title" = "Ingen nyckelfil hittades. Tryck på '+' för att importera.";
 
 /* One Time Key File Source */
 "key_files_vc_one_time_key_file_source_title" = "One Time Key File Source";
@@ -1058,20 +1058,20 @@
 "key_files_vc_one_time_key_file_source_option_photos" = "Photo Library...";
 
 /* Photo Library Unavailable */
-"key_files_vc_error_photos_unavailable_title" = "Photo Library Unavailable";
+"key_files_vc_error_photos_unavailable_title" = "Bildbibliotek inte tillgängligt";
 
 /* Could not access Photo Library. Does Strongbox have Permission? */
 "key_files_vc_error_photos_unavailable_message" = "Could not access Photo Library. Does Strongbox have Permission?";
 
 /* Error Reading
    There was an error reading the Key File */
-"key_files_vc_error_reading" = "Error Reading";
+"key_files_vc_error_reading" = "Fel vid läsning";
 
 /* There was an importing the Key File (does it already exist?) */
-"key_files_vc_error_importing" = "There was an importing the Key File (does it already exist?)";
+"key_files_vc_error_importing" = "Fel vid import av nyckelfil (finns den redan?)";
 
 /* File Already Exists */
-"key_files_vc_error_file_already_exists_title" = "File Already Exists";
+"key_files_vc_error_file_already_exists_title" = "Filen finns redan";
 
 /* A file with this name already exists in the Key Files directory. */
 "key_files_vc_error_file_already_exists_message" = "A file with this name already exists in the Key Files directory.";
@@ -1083,7 +1083,7 @@
 "key_files_vc_section_header_local" = "Documents Folder (Auto-Fill not supported)";
 
 /* Remove After Import */
-"key_files_vc_remove_after_import_title" = "Remove After Import";
+"key_files_vc_remove_after_import_title" = "Ta bort efter import";
 
 /* Do you want to remove the key file from the local Documents folder after import? This will mean it is not visible in iOS Files or accessible via iTunes File Sharing? */
 "key_files_vc_remove_after_import_message" = "Do you want to remove the key file from the local Documents folder after import? This will mean it is not visible in iOS Files or accessible via iTunes File Sharing?";
