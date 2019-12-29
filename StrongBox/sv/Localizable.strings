@@ -126,10 +126,10 @@
 "safes_vc_new_database_express" = "New Database (Express)";
 
 /* No comment provided by engineer. */
-"safes_vc_error_pin_incorrect_title" = "PIN Incorrect";
+"safes_vc_error_pin_incorrect_title" = "Fel PIN-kod";
 
 /* No comment provided by engineer. */
-"safes_vc_error_pin_incorrect_message" = "That is not the correct PIN code.";
+"safes_vc_error_pin_incorrect_message" = "Det är inte rätt PIN-kod.";
 
 /* iCloud no longer available */
 "safesvc_icloud_no_longer_available_title" = "iCloud no longer available";
@@ -150,7 +150,7 @@
 "safesvc_use_icloud_question_no_existing" = "You can now use iCloud with Strongbox. Would you like to have your databases available on all your devices?";
 
 /* iCloud is Now Available */
-"safesvc_icloud_now_available_title" = "iCloud is Now Available";
+"safesvc_icloud_now_available_title" = "iCloud är tillgänglig nu";
 
 /* Use iCloud */
 "safesvc_option_use_icloud" = "Use iCloud";
@@ -159,7 +159,7 @@
 "safesvc_option_local_only" = "Local Only";
 
 /* iCloud Available */
-"safesvc_icloud_available_title" = "iCloud Available";
+"safesvc_icloud_available_title" = "iCloud tillgänglig";
 
 /* Would you like to migrate your current local device databases to iCloud? */
 "safesvc_question_migrate_local_to_icloud" = "Would you like to migrate your current local device databases to iCloud?";
@@ -183,13 +183,13 @@
 "safesvc_icloud_unavailable_option_make_local" = "Make Local Copies";
 
 /* Switch iCloud Back On */
-"safesvc_icloud_unavailable_option_icloud_on" = "Switch iCloud Back On";
+"safesvc_icloud_unavailable_option_icloud_on" = "Slå på iCloud igen";
 
 /* Migrating... */
 "safesvc_icloud_migration_progress_title_migrating" = "Migrating...";
 
 /* Invalid Database */
-"safesvc_import_manual_url_invalid" = "Invalid Database";
+"safesvc_import_manual_url_invalid" = "Ogiltig databas";
 
 /* Error Opening */
 "safesvc_error_title_import_file_error_opening" = "Error Opening";
@@ -207,10 +207,10 @@
 "safesvc_error_title_error_importing_key_file" = "Problem Importing Key File";
 
 /* Invalid Database - [%@] */
-"safesvc_error_title_import_database_fmt" = "Invalid Database - [%@]";
+"safesvc_error_title_import_database_fmt" = "Ogiltig databas – [%@]";
 
 /* Edit or Copy? */
-"safesvc_import_database_prompt_title_edit_copy" = "Edit or Copy?";
+"safesvc_import_database_prompt_title_edit_copy" = "Redigera eller kopiera?";
 
 /* Strongbox can attempt to edit this document in its current location and keep a reference or, if you'd prefer, Strongbox can just make a copy of this file for itself.\n\nWhich option would you like? */
 "safesvc_import_database_prompt_message" = "Strongbox can attempt to edit this document in its current location and keep a reference or, if you'd prefer, Strongbox can just make a copy of this file for itself.\n\nWhich option would you like?";
@@ -219,19 +219,19 @@
 "safesvc_option_edit_in_place" = "Edit in Place";
 
 /* Make a Copy */
-"safesvc_option_make_a_copy" = "Make a Copy";
+"safesvc_option_make_a_copy" = "Skapa en kopia";
 
 /* Update Existing Database? */
-"safesvc_update_existing_database_title" = "Update Existing Database?";
+"safesvc_update_existing_database_title" = "Uppdatera befintlig databas?";
 
 /* A database using this file name was found in Strongbox. Should Strongbox update that database to use this file, or would you like to create a new database using this file? */
 "safesvc_update_existing_question" = "A database using this file name was found in Strongbox. Should Strongbox update that database to use this file, or would you like to create a new database using this file?";
 
 /* Update Existing Database */
-"safesvc_update_existing_option_update" = "Update Existing Database";
+"safesvc_update_existing_option_update" = "Uppdatera befintlig databas";
 
 /* Create a New Database */
-"safesvc_update_existing_option_create" = "Create a New Database";
+"safesvc_update_existing_option_create" = "Skapa en ny databas";
 
 /* Error updating file. */
 "safesvc_error_updating_title" = "Error updating file.";
@@ -285,22 +285,22 @@
 "browse_prefs_tap_action_copy_copy_password" = "Copy Password";
 
 /* Copy TOTP */
-"browse_prefs_tap_action_copy_copy_totp" = "Copy TOTP";
+"browse_prefs_tap_action_copy_copy_totp" = "Kopiera TOTP";
 
 /* Copy URL */
-"browse_prefs_tap_action_copy_copy_url" = "Copy URL";
+"browse_prefs_tap_action_copy_copy_url" = "Kopiera URL";
 
 /* Copy Title */
 "browse_prefs_tap_action_copy_title" = "Copy Title";
 
 /* Copy Username */
-"browse_prefs_tap_action_copy_username" = "Copy Username";
+"browse_prefs_tap_action_copy_username" = "Kopiera användarnamn";
 
 /* Edit Item */
 "browse_prefs_tap_action_edit" = "Edit Item";
 
 /* No Action */
-"browse_prefs_tap_action_none" = "No Action";
+"browse_prefs_tap_action_none" = "Ingen åtgärd";
 
 /* View Item */
 "browse_prefs_tap_action_view_item" = "View Item";
@@ -309,13 +309,13 @@
 "browse_prefs_triple_tap_action" = "Triple Tap Action";
 
 /* View As */
-"browse_prefs_view_as" = "View As";
+"browse_prefs_view_as" = "Visa som";
 
 /* Flat List */
-"browse_prefs_view_as_flat_list" = "Flat List";
+"browse_prefs_view_as_flat_list" = "Enkel lista";
 
 /* Group Hierarchy */
-"browse_prefs_view_as_folders" = "Group Hierarchy";
+"browse_prefs_view_as_folders" = "Grupphierarki";
 
 /* TOTP List */
 "browse_prefs_view_as_totp_list" = "TOTP List";
@@ -336,7 +336,7 @@
 "browse_vc_are_you_sure_recycle_fmt" = "Are you sure you want to send '%@' to the Recycle Bin?";
 
 /* Cannot create group */
-"browse_vc_cannot_create_group" = "Cannot create group";
+"browse_vc_cannot_create_group" = "Kan inte skapa grupp";
 
 /* Could not create a group with this name here, possibly because one with this name already exists. */
 "browse_vc_cannot_create_group_message" = "Could not create a group with this name here, possibly because one with this name already exists.";
@@ -348,7 +348,7 @@
 "browse_vc_delete_failed" = "Delete Failed";
 
 /*  Copy */
-"browse_vc_duplicate_title_suffix" = " Copy";
+"browse_vc_duplicate_title_suffix" = " Kopiera";
 
 /* '%@' Email Copied */
 "browse_vc_email_copied_fmt" = "'%@' Email Copied";
@@ -360,7 +360,7 @@
 "browse_vc_enter_group_name_message" = "Please Enter the New Group Name:";
 
 /* Error Deleting */
-"browse_vc_error_deleting" = "Error Deleting";
+"browse_vc_error_deleting" = "Fel vid borttagning";
 
 /* There was a problem deleting a least one of these items. */
 "browse_vc_error_deleting_message" = "There was a problem deleting a least one of these items.";
@@ -369,10 +369,10 @@
 "browse_vc_error_saving" = "Error Saving";
 
 /* Group Name */
-"browse_vc_group_name" = "Group Name";
+"browse_vc_group_name" = "Gruppnamn";
 
 /* (in %@) */
-"browse_vc_group_path_string_fmt" = "(in %@)";
+"browse_vc_group_path_string_fmt" = "(i %@)";
 
 /* '%@': No TOTP setup to Copy! */
 "browse_vc_no_totp_to_copy_fmt" = "'%@': No TOTP setup to Copy!";
@@ -387,7 +387,7 @@
 "browse_vc_password_copied_fmt" = "'%@' Password Copied";
 
 /*  (Read Only) */
-"browse_vc_read_only_suffix" = " (Read Only)";
+"browse_vc_read_only_suffix" = " (Skrivskyddad)";
 
 /* Rename Item */
 "browse_vc_rename_item" = "Rename Item";
@@ -396,7 +396,7 @@
 "browse_vc_rename_item_enter_title" = "Please enter a new title for this item";
 
 /* All Fields */
-"browse_vc_search_scope_all" = "All Fields";
+"browse_vc_search_scope_all" = "Alla fält";
 
 /* Sort Items By Title? */
 "browse_vc_sort_by_title" = "Sort Items By Title?";
@@ -481,7 +481,7 @@
 "casg_question_title_empty_password" = "Empty Password or None?";
 
 /* Rename Database */
-"casg_rename_database_action" = "Rename Database";
+"casg_rename_database_action" = "Döp om databas";
 
 /* Set Master Password */
 "casg_set_master_password" = "Set Master Password";
@@ -490,7 +490,7 @@
 "casg_set_master_credentials" = "Set Master Credentials";
 
 /* My Database */
-"casg_suggested_database_name_default" = "My Database";
+"casg_suggested_database_name_default" = "Min databas";
 
 /* %@'s Database */
 "casg_suggested_database_name_users_database_fmt" = "%@'s Database";
@@ -499,13 +499,13 @@
 "casg_suggested_database_name_users_database_number_suffix_fmt" = "%@'s Database %d";
 
 /* Password (Required) */
-"casg_text_field_placeholder_password_required" = "Password (Required)";
+"casg_text_field_placeholder_password_required" = "Lösenord (krävs)";
 
 /* Selected Key File */
 "casg_text_label_key_selected_key_file" = "Selected Key File";
 
 /* Unlock */
-"casg_unlock_action" = "Unlock";
+"casg_unlock_action" = "Lås upp";
 
 /* %@ Unlock */
 "db_management_biometric_unlock_fmt" = "%@ Unlock";
@@ -517,7 +517,7 @@
 "db_management_change_master_credentials" = "Change Master Credentials";
 
 /* Change Master Password */
-"db_management_change_master_password" = "Change Master Password";
+"db_management_change_master_password" = "Ändra huvudlösenord";
 
 /* Could not change credentials */
 "db_management_couldnt_change_credentials" = "Could not change credentials";
