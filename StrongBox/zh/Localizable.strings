@@ -2655,6 +2655,9 @@
 /* '%@' %@ Copied - Translators Note: 1st Param is Title of Item, 2nd Param is the Field name e.g. Username or Password */
 "mac_field_copied_to_clipboard_fmt" = "'%@' %@ Copied";
 
+/* '%@' %@ Copied - Translators Note: 1sd Param is the Field name e.g. Username or Password */
+"mac_field_copied_to_clipboard_no_item_title_fmt" = "%@ Copied";
+
 /* '%@' %@ Changed... First parameter is field that changed, e.g. Username or Password */
 "mac_field_changed_notification_fmt" = "%@ Changed...";
 
@@ -2705,3 +2708,18 @@
 
 /* SFTP */
 "storage_provider_name_sftp" = "SFTP";
+
+/* %lu Icons Found (None selected) - Translators Note: 1st Parameter is the number of Icons found in the FavIcon Search */
+"favicon_results_n_icons_found_none_selected_fmt" = "%lu Icons Found (None selected)";
+
+/* This will set the icons for %d items to your selected FavIcons. Are you sure you want to continue? - Translators Note: 1st Param is the number of items that will be changed */
+"set_favicons_are_you_sure_yes_no_fmt" = "This will set the icons for %d items to your selected FavIcons. Are you sure you want to continue?";
+
+/* Set FavIcon(s) */
+"mac_undo_action_set_icons" = "Set Icon(s)";
+
+/* Welcome */
+"auto_fill_welcome_message_header" = "Welcome";
+
+/* Translators Note: A welcome/warning message that certain native storage providers do not support Live Auto Fill, and must use a cached version of the database */
+"auto_fill_welcome_live_storage_warning_message" = "It should be noted that the following storage providers do not support live access to your database from App Extensions:\nDropbox, OneDrive & Google Drive\nIn these cases, Strongbox can use a cache... Enjoy Strongbox Auto Fill!\n-Mark";
