@@ -2270,7 +2270,7 @@
 "mac_error_could_not_open_key_file" = "Не вдається відкрити ключовий файл.";
 
 /* The stored credentials are unavailable. Please enter the password manually. Touch ID Metadata for this database will be cleared. */
-"mac_could_not_find_stored_credentials" = "Збережені облікові дані недоступні. Введіть пароль вручну. Метадані Touch ID для цієї бази паролів будуть очищені.";
+"mac_could_not_find_stored_credentials" = "The stored credentials are unavailable. Please enter the password manually. Touch ID or Apple Watch Metadata for this database will be cleared.";
 
 /* The database has been changed by another application, would you like to reload this latest version and automatically unlock? */
 "mac_db_changed_externally_reload_yes_or_no" = "База паролів була змінена іншою програмою. Бажаєте перезавантажити цю останню версію й автоматично розблокувати?";
@@ -2282,10 +2282,10 @@
 "mac_could_not_unlock_database" = "Не вдалося розблокувати базу паролів";
 
 /* Would you like to use %@ to open this database in the future? Note for translators (1st Param = "Touch ID") */
-"mac_use_biometric_to_open_in_future_fmt" = "Ви бажаєте використовувати %@ для відкриття цієї бази паролів у майбутньому?";
+"mac_use_biometric_to_open_in_future_fmt" = "Would you like to use %@ or your Apple Watch to open this database in the future?";
 
 /* Touch ID Considerations\n\nWhile this is very convenient, it is not a perfect system for protecting your passwords. It is provided for convenience only. It is within the realm of possibilities that someone with access to your device or your fingerprint, can produce a good enough fake fingerprint to fool Apple’s Touch ID. In addition, on your Mac, your master password will be securely stored in the Keychain. This means it is possible for someone with administrative privileges to search your Keychain for your master password. You should be aware that a strong passphrase held only in your mind provides the most secure experience with StrongBox.\n\nPlease take all of this into account, and make your decision to use Touch ID based on your preferred balance of convenience and security. */
-"mac_touch_id_one_time_warning" = "Застереження про \n\nНезважаючи на зручність, технологія Touch ID не є найкращим способом захисту ваших паролів. Ця функція забезпечує лише зручність. Цілком можливо, що стороння особа, яка має доступ до вашого пристрою чи ваших відбитків пальців, зможе підробити відбитки пальців, якими можна обдурити функцію Touch ID від Apple. Крім того, головний пароль зберігатиметься у в'язці ключів на вашому Mac. Це означає, що хтось з правами доступу адміністратора зможе знайти ваш головний пароль у в'язці ключів. Вам слід пам'ятати, що надійна парольна фраза, яку ви завжди пам'ятаєте, забезпечує найкращий захист разом із StrongBox.\n\nБудь ласка, подумайте про все це і прийміть зважене рішення щодо необхідності використання Touch ID, керуючись балансом зручності й безпеки.";
+"mac_touch_id_one_time_warning" = "Touch ID/Apple Watch Considerations\n\nWhile this is very convenient, it is not a perfect system for protecting your passwords. It is provided for convenience only. It is within the realm of possibilities that someone with access to your device or your fingerprint, can produce a good enough fake fingerprint to fool Apple’s Touch ID. In addition, on your Mac, your master password will be securely stored in the Keychain. This means it is possible for someone with administrative privileges to search your Keychain for your master password. You should be aware that a strong passphrase held only in your mind provides the most secure experience with StrongBox.\n\nPlease take all of this into account, and make your decision to use Touch ID based on your preferred balance of convenience and security.";
 
 /* You cannot lock a database while changes are pending. Save changes and lock now? */
 "mac_cant_lock_db_while_changes_pending" = "Неможливо блокувати базу паролів, якщо є незбережені зміни. Зберегти зміни зараз і заблокувати?";
@@ -2722,4 +2722,10 @@
 "auto_fill_welcome_message_header" = "Вітаємо";
 
 /* Translators Note: A welcome/warning message that certain native storage providers do not support Live Auto Fill, and must use a cached version of the database */
-"auto_fill_welcome_live_storage_warning_message" = "It should be noted that the following storage providers do not support live access to your database from App Extensions:\nDropbox, OneDrive & Google Drive\nIn these cases, Strongbox can use a cache... Enjoy Strongbox Auto Fill!\n-Mark";
+"auto_fill_welcome_live_storage_warning_message" = "Варто зазначити, що такі постачальники сховищ не підтримують живий доступ до вашої бази даних із додатків:\nDropbox, OneDrive та Google Диск\nУ цих випадках Strongbox може використовувати кеш... Насолоджуйтесь автозаповненням Strongbox!\n-Mark";
+
+/* Automatically download FavIcon on URL Change (PRO Only) */
+"mac_auto_download_favicon_pro_only" = "Автоматично завантажувати піктограму після зміни URL (функція Pro)";
+
+/* Set Icons (Pro Only) */
+"mac_button_set_favicons_pro_only" = "Встановити піктограми (лише Pro)";

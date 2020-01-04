@@ -1371,7 +1371,7 @@
 "open_sequence_prompt_database_reselect_required_title" = "Необходимо выбрать файл базы данных";
 
 /* For technical reasons, you need to re-select your database file to enable Auto Fill. You will only need to do this once.\n\nThanks!\n-Mark */
-"open_sequence_prompt_database_reselect_required_message" = "По техническим причинам необходимо повторно выбрать файл базы данных, чтобы включить автозаполнение. Это потребуется сделать лишь одиножды.\n\nСпасибо!\n-Mark";
+"open_sequence_prompt_database_reselect_required_message" = "По техническим причинам необходимо повторно выбрать файл базы данных, чтобы включить автозаполнение. Это потребуется сделать лишь одиножды.\n\nСпасибо!\n-Марк";
 
 /* %d attempts remaining */
 "open_sequence_pin_attempts_remaining_fmt" = "Осталось %d попыток";
@@ -2270,7 +2270,7 @@
 "mac_error_could_not_open_key_file" = "Не удалось открыть ключевой файл.";
 
 /* The stored credentials are unavailable. Please enter the password manually. Touch ID Metadata for this database will be cleared. */
-"mac_could_not_find_stored_credentials" = "Сохранённые учётные данные недоступны. Пожалуйста, введите пароль вручную. Метаданные Touch ID для этой базы данных будут очищены.";
+"mac_could_not_find_stored_credentials" = "The stored credentials are unavailable. Please enter the password manually. Touch ID or Apple Watch Metadata for this database will be cleared.";
 
 /* The database has been changed by another application, would you like to reload this latest version and automatically unlock? */
 "mac_db_changed_externally_reload_yes_or_no" = "База данных была изменена другим приложением, Вы хотите перезагрузить новейшую версию и автоматически разблокировать?";
@@ -2282,10 +2282,10 @@
 "mac_could_not_unlock_database" = "Не удалось разблокировать базу данных";
 
 /* Would you like to use %@ to open this database in the future? Note for translators (1st Param = "Touch ID") */
-"mac_use_biometric_to_open_in_future_fmt" = "Вы хотите использовать %@ для открытия этой базы данных в будущем?";
+"mac_use_biometric_to_open_in_future_fmt" = "Would you like to use %@ or your Apple Watch to open this database in the future?";
 
 /* Touch ID Considerations\n\nWhile this is very convenient, it is not a perfect system for protecting your passwords. It is provided for convenience only. It is within the realm of possibilities that someone with access to your device or your fingerprint, can produce a good enough fake fingerprint to fool Apple’s Touch ID. In addition, on your Mac, your master password will be securely stored in the Keychain. This means it is possible for someone with administrative privileges to search your Keychain for your master password. You should be aware that a strong passphrase held only in your mind provides the most secure experience with StrongBox.\n\nPlease take all of this into account, and make your decision to use Touch ID based on your preferred balance of convenience and security. */
-"mac_touch_id_one_time_warning" = "Предупреждение Touch ID\n\nХоть Touch ID и очень удобен, он не является идеальной системой для защиты Ваших паролей и предоставляется лишь для удобства. Не стоит исключать возможность того, что кто-либо, имеющий доступ к Вашему устройству или отпечатку пальцев, может создать достаточно хорошую подделку для обмана системы Touch ID. Вдобавок к этому, главный пароль будет надёжно сохранён в связке ключей на Вашем Mac. Это означает, что пользователь с административными привилегиями сможет найти Ваш главный пароль в связке ключей. Вы должны осознавать, что надёжный пароль, хранящийся исключительно в Вашей голове, обеспечивает наиболее безопасную работу со StrongBox.\n\nПожалуйста, примите всё это во внимание и решите, является ли использование Touch ID целесообразным, основываясь на выборе между удобством и безопасностью.";
+"mac_touch_id_one_time_warning" = "Touch ID/Apple Watch Considerations\n\nWhile this is very convenient, it is not a perfect system for protecting your passwords. It is provided for convenience only. It is within the realm of possibilities that someone with access to your device or your fingerprint, can produce a good enough fake fingerprint to fool Apple’s Touch ID. In addition, on your Mac, your master password will be securely stored in the Keychain. This means it is possible for someone with administrative privileges to search your Keychain for your master password. You should be aware that a strong passphrase held only in your mind provides the most secure experience with StrongBox.\n\nPlease take all of this into account, and make your decision to use Touch ID based on your preferred balance of convenience and security.";
 
 /* You cannot lock a database while changes are pending. Save changes and lock now? */
 "mac_cant_lock_db_while_changes_pending" = "Вы не можете заблокировать базу данных, пока изменения ещё в процессе. Сохранить изменения и заблокировать сейчас?";
@@ -2722,4 +2722,10 @@
 "auto_fill_welcome_message_header" = "Добро пожаловать";
 
 /* Translators Note: A welcome/warning message that certain native storage providers do not support Live Auto Fill, and must use a cached version of the database */
-"auto_fill_welcome_live_storage_warning_message" = "It should be noted that the following storage providers do not support live access to your database from App Extensions:\nDropbox, OneDrive & Google Drive\nIn these cases, Strongbox can use a cache... Enjoy Strongbox Auto Fill!\n-Mark";
+"auto_fill_welcome_live_storage_warning_message" = "Следует отметить, что следующие поставщики хранилищ данных не поддерживают прямой доступ к Вашей базе данных из расширений приложений:\nDropbox, OneDrive и Google Drive\nВ этих случаях Strongbox может использовать кэш... Наслаждайтесь функцией автозаполнения Strongbox!\n-Марк";
+
+/* Automatically download FavIcon on URL Change (PRO Only) */
+"mac_auto_download_favicon_pro_only" = "Автоматически загружать значок сайта при изменении URL (только в Про версии)";
+
+/* Set Icons (Pro Only) */
+"mac_button_set_favicons_pro_only" = "Установить значки (только в Про версии)";
