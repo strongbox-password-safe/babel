@@ -607,7 +607,7 @@
 "item_details_password_copied" = "Lösenord kopierades";
 
 /* Password Copied. Launching URL... */
-"item_details_password_copied_and_launching" = "Password Copied. Launching URL...";
+"item_details_password_copied_and_launching" = "Lösenord kopierades. Öppnar URL ...";
 
 /* Password History */
 "item_details_password_history" = "Lösenordshistorik";
@@ -631,7 +631,7 @@
 "item_details_section_header_metadata" = "Metadata";
 
 /* Setup TOTP... */
-"item_details_setup_totp" = "Setup TOTP...";
+"item_details_setup_totp" = "Konfigurera TOTP ...";
 
 /* Could not set TOTP because it could not be initialized. */
 "item_details_setup_totp_failed_message" = "Kunde inte aktivera TOTP eftersom det inte kunde initieras.";
@@ -640,22 +640,22 @@
 "item_details_setup_totp_failed_title" = "Misslyckades med att aktivera TOTP";
 
 /* You can setup TOTP by using a QR Code, or manually by entering the secret or an OTPAuth URL */
-"item_details_setup_totp_how_message" = "You can setup TOTP by using a QR Code, or manually by entering the secret or an OTPAuth URL";
+"item_details_setup_totp_how_message" = "Du kan ställa in TOTP med hjälp av en QR-kod eller manuellt genom att ange hemligheten eller en OTPAuth-URL";
 
 /* How would you like to setup TOTP? */
-"item_details_setup_totp_how_title" = "How would you like to setup TOTP?";
+"item_details_setup_totp_how_title" = "Hur vill du konfigurera TOTP?";
 
 /* Manual (Standard/RFC 6238)... */
-"item_details_setup_totp_manual_rfc" = "Manual (Standard/RFC 6238)...";
+"item_details_setup_totp_manual_rfc" = "Manuell (Standard/RFC-6238) ...";
 
 /* Manual (Steam Token)... */
-"item_details_setup_totp_manual_steam" = "Manual (Steam Token)...";
+"item_details_setup_totp_manual_steam" = "Manuell (Steam token) ...";
 
 /* QR Code... */
-"item_details_setup_totp_qr_code" = "QR Code...";
+"item_details_setup_totp_qr_code" = "QR-kod ...";
 
 /* Please enter the secret or an OTPAuth URL */
-"item_details_setup_totp_secret_message" = "Please enter the secret or an OTPAuth URL";
+"item_details_setup_totp_secret_message" = "Ange hemligheten eller en OTPAuth-URL";
 
 /* Secret or OTPAuth URL */
 "item_details_setup_totp_secret_title" = "Secret or OTPAuth URL";
@@ -757,7 +757,7 @@
 "prefs_vc_pins_dont_match_warning_message" = "Your PINs do not match.";
 
 /* PINs do not match */
-"prefs_vc_pins_dont_match_warning_title" = "PINs do not match";
+"prefs_vc_pins_dont_match_warning_title" = "PIN-koder matchar inte";
 
 /* Use iCloud */
 "prefs_vc_use_icloud_action" = "Använd iCloud";
@@ -769,16 +769,16 @@
 "sbtvc_empty_table_no_files_found" = "Inga filer eller mappar hittades";
 
 /* Error Reading Database File */
-"sbtvc_error_reading_database" = "Error Reading Database File";
+"sbtvc_error_reading_database" = "Fel vid läsning av databasfil";
 
 /* Invalid Database File */
-"sbtvc_invalid_database_file" = "Invalid Database File";
+"sbtvc_invalid_database_file" = "Ogiltig databasfil";
 
 /* You can only have databases in the Root folder for this storage type. */
-"sbtvc_root_folder_only_message" = "You can only have databases in the Root folder for this storage type.";
+"sbtvc_root_folder_only_message" = "Du kan endast ha databaser i rotmappen för denna lagringstyp.";
 
 /* Root Folder Only */
-"sbtvc_root_folder_only_title" = "Root Folder Only";
+"sbtvc_root_folder_only_title" = "Endast rotmapp";
 
 /* Please Select Database File */
 "sbtvc_select_database_file" = "Välj databasfil";
@@ -787,19 +787,19 @@
 "sbtvc_select_new_database_location" = "Välj mapp för ny databas";
 
 /* Copy from URL... */
-"sspc_copy_from_url_action" = "Copy from URL...";
+"sspc_copy_from_url_action" = "Kopiera från URL ...";
 
 /* Invalid Database */
 "sspc_error_invalid_database" = "Ogiltig databas";
 
 /* Files... */
-"sspc_ios_files_storage_location" = "Files...";
+"sspc_ios_files_storage_location" = "Filer ...";
 
 /* Since a local database is only stored on this device, any loss of this device will lead to the loss of all passwords stored within this database. You may want to consider using a cloud storage provider, such as the ones supported by Strongbox to avoid catastrophic data loss.\n\nWould you still like to proceed with creating a local device database? */
-"sspc_local_device_storage_warning_message" = "Since a local database is only stored on this device, any loss of this device will lead to the loss of all passwords stored within this database. You may want to consider using a cloud storage provider, such as the ones supported by Strongbox to avoid catastrophic data loss.\n\nWould you still like to proceed with creating a local device database?";
+"sspc_local_device_storage_warning_message" = "Eftersom en lokal databas enbart lagras på den här enheten kommer förlust av den här enheten leda till förlust av alla lösenord som lagras i denna databas förloras. Du kanske ska överväga att använda en molnlagringsleverantör, t.ex. de som stöds av Strongbox, för att undvika katastrofala dataförluster.\n\nVill du fortfarande gå vidare med att skapa en lokal enhetsdatabas?";
 
 /* Local Device Database Caveat */
-"sspc_local_device_storage_warning_title" = "Local Device Database Caveat";
+"sspc_local_device_storage_warning_title" = "Varning om lokala databaser på enheten";
 
 /* Please Enter the URL of the Database File. */
 "sspc_manual_import_enter_url_message" = "Ange URL-adressen till databasfilen.";
@@ -823,10 +823,10 @@
 "upgrade_vc_2monthly_subscription_title" = "3 månader";
 
 /* Hi! You're currently trying out the Pro version of Strongbox. I hope you really like it and find it useful! Your trial of this Pro version will end in %ld days and you will start to use the free version which is missing a few nifty features. You can find out more below.\nI was wondering if you would consider upgrading? By doing so you help to support an independent app developer. I love working on this app and your contribution allows me to keep doing so. Thanks in advance! -Mark */
-"upgrade_vc_developer_msg_free_trial_fmt" = "Hi! You are currently trying out the Pro version of Strongbox. I hope you really like it and find it useful! Your trial of this Pro version will end in %ld days and you will start to use the free version which is missing a few nifty features. You can find out more below.\nI was wondering if you would consider upgrading? By doing so you help to support an independent app developer. I love working on this app and your support allows me to keep doing so. Thanks in advance!\n-Mark";
+"upgrade_vc_developer_msg_free_trial_fmt" = "Hej! För närvarande testar du Pro-versionen av Strongbox. Jag hoppas att du uppskattar det och har användning av det! Din testtid av Pro-versionen kommer att avslutas om %ld dagar och du kommer att börja använda gratisversionen som saknar några fina funktioner. Du kan läsa mer nedan.\nJag undrar om du kan tänka dig att uppgradera? Genom att göra det så bidrar du till att stödja en oberoende apputvecklare. Jag älskar arbetet med appen och ditt stöd gör att jag kan fortsätta med det. Tack på förhand!\n-Mark";
 
 /* Hi! You're currently on the Free version of Strongbox. I was wondering if you would consider upgrading? By doing so you help to support an independent app developer and you will also get all the Pro features listed below. As an added bonus you will never see this annoying bloody upgrade screen again! I love working on this app and your contribution allows me to keep doing so. Thanks in advance! -Mark */
-"upgrade_vc_developer_msg_trial_expired" = "Hi! You are currently on the Free version of Strongbox. I was wondering if you would consider upgrading? By doing so you help to support an independent app developer and you will also get all the Pro features listed below. As an added bonus you will never see this annoying bloody upgrade screen again! I love working on this app and your contribution allows me to keep doing so. Thanks in advance!\n-Mark";
+"upgrade_vc_developer_msg_trial_expired" = "-Hej! Du använder för närvarande den fria versionen av Strongbox. Jag undrar om du kan överväga att uppgradera? Genom att göra det hjälper du till att stödja en oberoende apputvecklare och du kommer också att få tillgång alla Pro-funktioner som anges nedan. Som en extra bonus kommer du aldrig att se den här jobbiga uppgraderingsuppmaningen igen! Jag älskar att jobba med appen och ditt bidrag möjliggör för mig att fortsätta med det. Tack på förhand!\n-Mark";
 
 /* Problem Purchasing */
 "upgrade_vc_error_purchasing" = "Problem med att köpa";
@@ -862,10 +862,10 @@
 "upgrade_vc_product_error_title" = "Produktfel";
 
 /* Purchasing... */
-"upgrade_vc_progress_purchasing" = "Purchasing...";
+"upgrade_vc_progress_purchasing" = "Köper ...";
 
 /* Restoring... */
-"upgrade_vc_progress_restoring" = "Restoring...";
+"upgrade_vc_progress_restoring" = "Återställer ...";
 
 /* Upgrade could not be restored from previous purchase. Are you sure you have purchased this item? */
 "upgrade_vc_restore_unsuccessful_message" = "Uppgradering kunde inte återställas från tidigare köp. Är du säker på att du har köpt denna artikel?";
@@ -877,7 +877,7 @@
 "upgrade_vc_yearly_subscription_title" = "Årligen";
 
 /* Show/Hide Password */
-"welcome_vc_accessibility_show_hide_password" = "Show/Hide Password";
+"welcome_vc_accessibility_show_hide_password" = "Visa/dölj lösenord";
 
 /* Add Existing Database */
 "welcome_vc_add_existing_database" = "Lägg till befintlig databas";
@@ -898,7 +898,7 @@
 "databases_preferences_select_subtitle2_field" = "Select Subtitle 2 Field";
 
 /* Select Top Right Field */
-"databases_preferences_select_top_right_field" = "Select Top Right Field";
+"databases_preferences_select_top_right_field" = "Välj övre höger fält";
 
 /* Database Storage */
 "databases_preferences_subtitle_field_name_database_storage" = "Databaslagring";
@@ -907,16 +907,16 @@
 "databases_preferences_subtitle_field_name_filename" = "Filnamn";
 
 /* Last Cached Date */
-"databases_preferences_subtitle_field_name_last_cached_data" = "Last Cached Date";
+"databases_preferences_subtitle_field_name_last_cached_data" = "Datum senaste cachning";
 
 /* It looks like this app is no longer entitled to all the Pro features. These will be limited now. If you believe this is incorrect, please get in touch with support@strongboxsafe.com to get some help with this. Please include your purchase receipt. */
-"upgrade_mgr_downgrade_message" = "It looks like this app is no longer entitled to all the Pro features. These will be limited now. If you believe this is incorrect, please get in touch with support@strongboxsafe.com to get some help with this. Please include your purchase receipt.";
+"upgrade_mgr_downgrade_message" = "Det verkar som att appen inte längre är berättigad till alla Pro-funktioner. Dessa kommer att vara begränsade nu. Om du tror att detta är fel, kontakta support@strongboxsafe.com för att få hjälp med detta. Inkludera inköpskvitto.";
 
 /* Strongbox Downgrade */
 "upgrade_mgr_downgrade_title" = "Strongbox nedgradering";
 
 /* Strongbox is having trouble verifying its App Store entitlements. This could lead to a future App downgrade. Please contact support@strongboxsafe.com to get some help with this. */
-"upgrade_mgr_entitlements_error_message" = "Strongbox is having trouble verifying its App Store entitlements. This could lead to a future App downgrade. Please contact support@strongboxsafe.com to get some help with this.";
+"upgrade_mgr_entitlements_error_message" = "Strongbox har problem med att verifiera sina App Store-berättiganden. Detta kan leda till en framtida appnedgradering. Kontakta support@strongboxsafe.com för att få hjälp med detta.";
 
 /* Strongbox Entitlements Error */
 "upgrade_mgr_entitlements_error_title" = "Strongbox rättighetsfel";
@@ -937,13 +937,13 @@
 "generic_kv_cell_value_empty_value_validation_fmt" = "%@ (krävs)";
 
 /* Date Text Field */
-"edit_date_cell_date_field_accessibility_label" = "Date Text Field";
+"edit_date_cell_date_field_accessibility_label" = "Datumtextfält";
 
 /* Time Text Field */
-"edit_date_cell_time_field_accessibility_label" = "Time Text Field";
+"edit_date_cell_time_field_accessibility_label" = "Tidtextfält";
 
 /* Password Text Field */
-"edit_password_cell_value_textfield_accessibility_label" = "Password Text Field";
+"edit_password_cell_value_textfield_accessibility_label" = "Lösenordstextfält";
 
 /* Database CSV Copied to Clipboard */
 "export_vc_message_csv_copied" = "Databas CSV kopierades till Urklipp";
@@ -956,7 +956,7 @@
 "export_vc_email_unavailable_title" = "E-post inte tillgänglig";
 
 /* It looks like email is not setup on this device and so the database cannot be exported by email. */
-"export_vc_email_unavailable_message" = "It looks like email is not setup on this device and so the database cannot be exported by email.";
+"export_vc_email_unavailable_message" = "Det verkar som att e-post inte har konfigurerats på denna enhet och därför kan databasen inte exporteras med e-post.";
 
 /* Strongbox Database: '%@' */
 "export_vc_email_subject" = "Strongbox-databas: \"%@\"";
@@ -980,10 +980,10 @@
 "export_vc_error_exporting" = "Fel vid export";
 
 /* Turn Convenience PIN Off */
-"pins_config_vc_button_title_turn_convenience_pin_off" = "Turn Convenience PIN Off";
+"pins_config_vc_button_title_turn_convenience_pin_off" = "Stäng av bekvämlighets-PIN-kod";
 
 /* Turn Convenience PIN On */
-"pins_config_vc_button_title_turn_convenience_pin_on" = "Turn Convenience PIN On";
+"pins_config_vc_button_title_turn_convenience_pin_on" = "Slå på bekvämlighets-PIN-kod";
 
 /* Turn Duress PIN Off */
 "pins_config_vc_button_title_turn_duress_pin_off" = "Turn Duress PIN Off";
@@ -995,25 +995,25 @@
 "pins_config_vc_label_delete_database" = "Radera databas";
 
 /* Local Device database will be permanently deleted. */
-"pins_config_vc_label_delete_database_local_permanent" = "Local Device database will be permanently deleted.";
+"pins_config_vc_label_delete_database_local_permanent" = "Lokal databas i enheten kommer att permanent tas bort.";
 
 /* iCloud database will be permanently deleted from iCloud. */
-"pins_config_vc_label_delete_database_icloud_permanent" = "iCloud database will be permanently deleted from iCloud.";
+"pins_config_vc_label_delete_database_icloud_permanent" = "iCloud-databasen kommer att permanent tas bort från iCloud.";
 
 /* Remove Database from Strongbox */
 "pins_config_vc_label_remove_database" = "Ta bort databas från Strongbox";
 
 /* NB: Database file will remain on remote storage. */
-"pins_config_vc_label_remove_database_warning" = "NB: Database file will remain on remote storage.";
+"pins_config_vc_label_remove_database_warning" = "Notera: Databasfilen kommer finnas kvar i den externa lagringen.";
 
 /* PIN Codes (Pro Feature Only) */
-"pins_config_vc_title_pro_only" = "PIN Codes (Pro Feature Only)";
+"pins_config_vc_title_pro_only" = "PIN-koder (funktion endast i Pro)";
 
 /* Turning the PIN Off for this database will remove the securely stored password and you will have to enter it again. Are you sure you want to do this? */
-"pins_config_vc_turn_pin_off_warning" = "Turning the PIN Off for this database will remove the securely stored password and you will have to enter it again. Are you sure you want to do this?";
+"pins_config_vc_turn_pin_off_warning" = "Om du stänger av PIN-koden för denna databas kommer det säkert lagrade lösenordet att tas bort och du måste ange det igen. Är du säker på att du vill göra detta?";
 
 /* Are you sure you want to turn off the PIN for this database? */
-"pins_config_vc_turn_pin_off_confirm" = "Are you sure you want to turn off the PIN for this database?";
+"pins_config_vc_turn_pin_off_confirm" = "Är du säker på att du vill stänga av PIN-koden för denna databas?";
 
 /* Turn off PIN? */
 "pins_config_vc_turn_pin_off_prompt_title" = "Stänga av PIN-kod?";
@@ -1031,10 +1031,10 @@
 "pins_config_vc_warn_remove_database_title" = "Varning";
 
 /* This will permanently delete the database file. */
-"pins_config_vc_warn_remove_database_delete_message" = "This will permanently delete the database file.";
+"pins_config_vc_warn_remove_database_delete_message" = "Det här tar bort databasfilen permanent.";
 
 /* This will remove the database from Strongbox but the underlying file will remain on cloud storage */
-"pins_config_vc_warn_remove_database_remove_message" = "This will remove the database from Strongbox but the underlying file will remain on cloud storage";
+"pins_config_vc_warn_remove_database_remove_message" = "Det här tar bort databasen från Strongbox men den underliggande filen kommer att finnas kvar i molnlagret";
 
 /* Manage Key Files */
 "key_files_vc_manage_title" = "Hantera nyckelfiler";
@@ -1046,22 +1046,22 @@
 "key_files_vc_empty_key_files_title" = "Ingen nyckelfil hittades. Tryck på '+' för att importera.";
 
 /* One Time Key File Source */
-"key_files_vc_one_time_key_file_source_title" = "One Time Key File Source";
+"key_files_vc_one_time_key_file_source_title" = "Filkälla för engångsnyckel";
 
 /* Select where you would like to choose your Key File from. This file will not be stored locally or remembered. */
-"key_files_vc_one_time_key_file_source_message" = "Select where you would like to choose your Key File from. This file will not be stored locally or remembered.";
+"key_files_vc_one_time_key_file_source_message" = "Välj varifrån du vill hämta din nyckelfil. Filen kommer inte att lagras lokalt eller bli ihågkommet.";
 
 /* Files... */
-"key_files_vc_one_time_key_file_source_option_files" = "Files...";
+"key_files_vc_one_time_key_file_source_option_files" = "Filer ...";
 
 /* Photo Library... */
-"key_files_vc_one_time_key_file_source_option_photos" = "Photo Library...";
+"key_files_vc_one_time_key_file_source_option_photos" = "Bildbibliotek ...";
 
 /* Photo Library Unavailable */
 "key_files_vc_error_photos_unavailable_title" = "Bildbibliotek inte tillgängligt";
 
 /* Could not access Photo Library. Does Strongbox have Permission? */
-"key_files_vc_error_photos_unavailable_message" = "Could not access Photo Library. Does Strongbox have Permission?";
+"key_files_vc_error_photos_unavailable_message" = "Fick inte åtkomst till bildbiblioteket. Har Strongbox tillstånd?";
 
 /* Error Reading
    There was an error reading the Key File */
@@ -1074,31 +1074,31 @@
 "key_files_vc_error_file_already_exists_title" = "Filen finns redan";
 
 /* A file with this name already exists in the Key Files directory. */
-"key_files_vc_error_file_already_exists_message" = "A file with this name already exists in the Key Files directory.";
+"key_files_vc_error_file_already_exists_message" = "En fil med detta namn finns redan i nyckelfilsmappen.";
 
 /* Imported Key Files (Auto-Fill Enabled) */
-"key_files_vc_section_header_imported" = "Imported Key Files (Auto-Fill Enabled)";
+"key_files_vc_section_header_imported" = "Importerade nyckelfiler (Autofyll aktiverad)";
 
 /* Application Local Files */
-"key_files_vc_section_header_local" = "Documents Folder (Auto-Fill not supported)";
+"key_files_vc_section_header_local" = "Dokumentmapp (Autofyll stöds inte)";
 
 /* Remove After Import */
 "key_files_vc_remove_after_import_title" = "Ta bort efter import";
 
 /* Do you want to remove the key file from the local Documents folder after import? This will mean it is not visible in iOS Files or accessible via iTunes File Sharing? */
-"key_files_vc_remove_after_import_message" = "Do you want to remove the key file from the local Documents folder after import? This will mean it is not visible in iOS Files or accessible via iTunes File Sharing?";
+"key_files_vc_remove_after_import_message" = "Vill du ta bort nyckelfilen från den lokala dokumentmappen efter importen? Detta innebär att filen inte kommer att synas i iOS Filer och är inte tillgänglig via iTunes fildelning?";
 
 /* Yes, Remove Local Copy */
-"key_files_vc_remove_after_import_option_yes" = "Yes, Remove Local Copy";
+"key_files_vc_remove_after_import_option_yes" = "Ja, ta bort lokal kopia";
 
 /* No, Keep Local Copy */
-"key_files_vc_remove_after_import_option_no" = "No, Keep Local Copy";
+"key_files_vc_remove_after_import_option_no" = "Nej, behåll lokal kopia";
 
 /* File could not be Imported */
-"key_files_vc_import_error_title" = "File could not be Imported";
+"key_files_vc_import_error_title" = "Filen kunde inte importeras";
 
 /* File not removed */
-"key_files_vc_error_file_not_removed" = "File not removed";
+"key_files_vc_error_file_not_removed" = "Filen togs inte bort";
 
 /* Used by %@ */
 "key_files_vc_key_file_used_by_fmt" = "Används av %@";
@@ -1110,19 +1110,19 @@
 "key_files_vc_key_file_used_by_none" = "Inga kända databaskopplingar";
 
 /* Disable History? */
-"pw_history_vc_prompt_disable_history_title" = "Disable History?";
+"pw_history_vc_prompt_disable_history_title" = "Inaktivera historik?";
 
 /* Are you sure you want to disable history? This will clear previous passwords. */
-"pw_history_vc_prompt_disable_history_message" = "Are you sure you want to disable history? This will clear previous passwords.";
+"pw_history_vc_prompt_disable_history_message" = "Är du säker på att du vill inaktivera historiken? Detta kommer att rensa tidigare lösenord.";
 
 /* Problem Saving Database */
-"pw_history_vc_error_problem_saving" = "Problem Saving Database";
+"pw_history_vc_error_problem_saving" = "Problem med att spara databas";
 
 /* Old Passwords (%lu) */
-"pw_history_vc_previous_passwords_count_fmt" = "Old Passwords (%lu)";
+"pw_history_vc_previous_passwords_count_fmt" = "Gamla lösenord (%lu)";
 
 /* Old Passwords (None) */
-"pw_history_vc_previous_passwords_count_none" = "Old Passwords (None)";
+"pw_history_vc_previous_passwords_count_none" = "Gamla lösenord (inga)";
 
 /* Could not create file */
 "sftp_provider_could_not_create" = "Kunde inte skapa filen";
@@ -1140,7 +1140,7 @@
 "sftp_provider_connect_failed_fmt" = "Det gick inte att ansluta till värd: %@ [användare: %@]";
 
 /* Attachment Location */
-"add_attachment_vc_prompt_title" = "Attachment Location";
+"add_attachment_vc_prompt_title" = "Plats för bilagor";
 
 /* Photos */
 "add_attachment_vc_prompt_source_option_photos" = "Bilder";
@@ -1155,10 +1155,10 @@
 "add_attachment_vc_error_source_unavailable_title" = "Källa inte tillgänglig";
 
 /* Strongbox could not access the camera. Does it have permission? */
-"add_attachment_vc_error_source_unavailable_camera" = "Strongbox could not access the camera. Does it have permission?";
+"add_attachment_vc_error_source_unavailable_camera" = "Strongbox kunde inte komma åt kameran. Har den tillstånd?";
 
 /* Strongbox could not access photos. Does it have permission? */
-"add_attachment_vc_error_source_unavailable_photos" = "Strongbox could not access photos. Does it have permission?";
+"add_attachment_vc_error_source_unavailable_photos" = "Strongbox kunde inte komma åt bilder. Har den tillstånd?";
 
 /* Error Reading */
 "add_attachment_vc_error_reading_title" = "Fel vid läsning";
@@ -2385,7 +2385,7 @@
 "mac_not_a_valid_image_file" = "This is not a valid image file.";
 
 /* Please enter the secret or an OTPAuth URL */
-"mac_please_enter_totp_secret_or_otpauth_url" = "Please enter the secret or an OTPAuth URL";
+"mac_please_enter_totp_secret_or_otpauth_url" = "Ange hemligheten eller en OTPAuth-URL";
 
 /* Is this a Steam Token? (Say 'No' if you're unsure) */
 "mac_is_this_a_stream_token_yes_no" = "Is this a Steam Token? (Say 'No' if you're unsure)";
@@ -2644,7 +2644,7 @@
 "mac_node_details_password_copied_url_launched" = "Password Copied and URL Launched";
 
 /* Please enter the secret or an OTPAuth URL */
-"mac_node_details_please_enter_secret_totp" = "Please enter the secret or an OTPAuth URL";
+"mac_node_details_please_enter_secret_totp" = "Ange hemligheten eller en OTPAuth-URL";
 
 /* Is this a Steam Token? (Say 'No' if you're unsure) */
 "mac_node_details_is_this_steam_totp" = "Is this a Steam Token? (Say 'No' if you're unsure)";
