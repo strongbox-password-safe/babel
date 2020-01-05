@@ -41,49 +41,49 @@
 "safes_vc_about_quick_launch_title" = "Om snabbstart";
 
 /* Message about quick launch feature and asking to confirm yes or no */
-"safes_vc_about_setting_quick_launch_and_confirm" = "Setting this database as your Quick Launch database means you will be automatically prompted to unlock this database as soon as you launch or re-activate Strongbox. This can save you one precious tap!\n\nSet as Quick Launch Database?";
+"safes_vc_about_setting_quick_launch_and_confirm" = "Om du väljer denna databas som din snabbstartsdatabas innebär det att du automatisk blir ombedd att låsa upp databasen när du startar eller återaktiverar Strongbox. Detta kan spara dig en värdefull tryckning!\n\nAnge som snabbstartsdatabas?";
 
 /* Button title to Show Database in iOS Files App */
-"safes_vc_show_database_in_files_info" = "Making this database visible in the Files App will also make the database available for access via Finder on your Mac. However the database will no longer be write-able in Auto Fill mode. This is due to iOS system design.\n\nNB: You can always reverse this action";
+"safes_vc_show_database_in_files_info" = "Synliggörande av denna databas i Filer-appen gör databasen tillgänglig för åtkomst genom Finder på din Mac. Databasen kommer dock inte att vara skrivbar i Autofyll-läge. Detta beror på iOS systemdesign.\n\nObs! Du kan alltid återställa denna åtgärd";
 
 /* Button title to Hide Database from the iOS Files App */
-"safes_vc_make_database_auto_fill_info" = "Hiding this database from the Files App also means it will no longer be visible via Finder on your Mac. As a side-effect, this also means you get full (read/write) Auto Fill functionality (not just a read-only cache).\n\nNB: You can always reverse this action";
+"safes_vc_make_database_auto_fill_info" = "Om denna databas döljs från Filer-appen innebär det att den inte heller visas i Finder på din Mac. En sidoeffekt är att du får full (läs/skriv) Autofyll-funktionalitet (inte enbart skrivskyddad cache).\n\nObs! Du kan alltid återställa denna åtgärd";
 
 /* OK/Cancel prompt title for changing local storage mode */
-"safes_vc_change_local_device_storage_mode_title" = "Change Files Visibility";
+"safes_vc_change_local_device_storage_mode_title" = "Ändra synlighet i Filer";
 
 /* error message could not change local storage */
-"safes_vc_could_not_change_storage_location_error" = "Could not change Files visibility";
+"safes_vc_could_not_change_storage_location_error" = "Gick inte att ändra synlighet i Filer";
 
 /* informational message - made the file visible in iOS Files */
-"safes_vc_database_made_visible_in_files" = "This database has been made visible in the Files App";
+"safes_vc_database_made_visible_in_files" = "Denna databas har gjorts synlig i Filer-appen";
 
 /* informational message - made the database fully autofillable */
-"safes_vc_database_made_fully_autofillable" = "This database has been hidden from the Files App";
+"safes_vc_database_made_fully_autofillable" = "Denna databas har gömts från Filer-appen";
 
 /* information message = title changed storage mode */
-"safes_vc_local_storage_mode_changed" = "Files Visibility Changed";
+"safes_vc_local_storage_mode_changed" = "Synlighet i Filer ändrades";
 
 /* warning message about removing database from icloud */
-"safes_vc_remove_icloud_databases_warning" = "This will remove the database from all your iCloud enabled devices.\n\nAre you sure you want to remove this database from Strongbox and iCloud?";
+"safes_vc_remove_icloud_databases_warning" = "Detta kommer att ta bort databasen från alla dina iCloud-aktiverade enheter.\n\nÄr du säker på att du vill ta bort databasen från Strongbox och iCloud?";
 
 /* are you sure you want to remove database prompt with format string on end */
 "safes_vc_are_you_sure_remove_database_fmt" = "Är du säker på att du vill ta bort denna databas från Strongbox?%@";
 
 /* extra info appended to string about the underlying storage type */
-"safes_vc_extra_info_underlying_database" = " (NB: The underlying database file will not be deleted)";
+"safes_vc_extra_info_underlying_database" = " (Obs! Den underliggande databasfilen raderas inte)";
 
 /* Error message - could not delete iCloud database */
-"safes_vc_error_delete_icloud_database" = "Error Deleting iCloud Database";
+"safes_vc_error_delete_icloud_database" = "Fel vid borttagning av iCloud-databas";
 
 /* Informational message title - found an iCloud Database */
-"safes_vc_found_icloud_database" = "Found iCloud Database";
+"safes_vc_found_icloud_database" = "iCloud-databas hittades";
 
 /* question message, use iCloud database or select a different one */
-"safes_vc_use_icloud_or_continue" = "It looks like you already have an iCloud database, would you like to use this one, or would you like to continue adding another?";
+"safes_vc_use_icloud_or_continue" = "Det verkar som att du redan har en iCloud-databas, vill du använda den eller vill du lägga till ytterligare en?";
 
 /* One of the options in response to prompt - Use this iCloud database */
-"safes_vc_use_this_icloud_database" = "Use this iCloud database";
+"safes_vc_use_this_icloud_database" = "Använd denna iCloud-databas";
 
 /* Second option - Select another database */
 "safes_vc_add_another" = "Jag skulle vilja lägga till ytterligare en databas";
@@ -92,20 +92,20 @@
 "safes_vc_error_selecting_storage_location" = "Fel vid val av lagringsplats";
 
 /* Error title: error adding database */
-"safes_vc_error_adding_database" = "Error Adding";
+"safes_vc_error_adding_database" = "Fel uppstod när du lade till";
 
 /* Error Message- unknown error while adding */
-"safes_vc_unknown_error_while_adding_database" = "An unknown error occurred while adding this database";
+"safes_vc_unknown_error_while_adding_database" = "Ett okänt fel uppstod när databasen skulle läggas till";
 
 /* Error Title: Error creating database
    Error Title: Error while creating database */
-"safes_vc_error_creating_database" = "Error Creating Database";
+"safes_vc_error_creating_database" = "Fel vid skapande av databas";
 
 /* Question Title: Copy to icloud or to local */
 "safes_vc_copy_icloud_or_local" = "Kopiera till iCloud eller lokalt?";
 
 /* Question message: copy to iCloud or to Local */
-"safes_vc_copy_local_to_icloud" = "iCloud is currently enabled. Would you like to copy this database to iCloud now, or would you prefer to keep on your local device only?";
+"safes_vc_copy_local_to_icloud" = "iCloud är aktiverat. Vill du kopiera denna databas till iCloud nu eller föredrar du att enbart behålla den på din lokala enheten?";
 
 /* Default button: Copy to Local */
 "safes_vc_copy_to_local" = "Behåll bara på den lokala enhet";
@@ -117,13 +117,13 @@
 "safes_vc_error_importing_database" = "Fel vid import av databas";
 
 /* No comment provided by engineer. */
-"safes_vc_add_existing_database" = "Add Existing Database...";
+"safes_vc_add_existing_database" = "Lägg till befintlig databas ...";
 
 /* No comment provided by engineer. */
-"safes_vc_new_database_advanced" = "New Database (Advanced)...";
+"safes_vc_new_database_advanced" = "Ny databas (avancerat) ...";
 
 /* No comment provided by engineer. */
-"safes_vc_new_database_express" = "New Database (Express)";
+"safes_vc_new_database_express" = "Ny databas (snabb)";
 
 /* No comment provided by engineer. */
 "safes_vc_error_pin_incorrect_title" = "Fel PIN-kod";
