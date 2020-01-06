@@ -2264,13 +2264,13 @@
 "favicon_invalid_preferences_alert_message" = "Этот набор параметров не приведёт к корректному поиску значков.";
 
 /* Unlock with %@ */
-"mac_unlock_database_with_biometric_fmt" = "Разблокировать с помощью %@";
+"mac_unlock_database_with_biometric_fmt" = "Разблокировать с помощью %@ или Watch";
 
 /* Could not open key file. */
 "mac_error_could_not_open_key_file" = "Не удалось открыть ключевой файл.";
 
 /* The stored credentials are unavailable. Please enter the password manually. Touch ID Metadata for this database will be cleared. */
-"mac_could_not_find_stored_credentials" = "The stored credentials are unavailable. Please enter the password manually. Touch ID or Apple Watch Metadata for this database will be cleared.";
+"mac_could_not_find_stored_credentials" = "Сохраненные учётные данные недоступны. Пожалуйста, введите пароль вручную. Метаданные Touch ID или Apple Watch для этой базы данных будут очищены.";
 
 /* The database has been changed by another application, would you like to reload this latest version and automatically unlock? */
 "mac_db_changed_externally_reload_yes_or_no" = "База данных была изменена другим приложением, Вы хотите перезагрузить новейшую версию и автоматически разблокировать?";
@@ -2282,10 +2282,10 @@
 "mac_could_not_unlock_database" = "Не удалось разблокировать базу данных";
 
 /* Would you like to use %@ to open this database in the future? Note for translators (1st Param = "Touch ID") */
-"mac_use_biometric_to_open_in_future_fmt" = "Would you like to use %@ or your Apple Watch to open this database in the future?";
+"mac_use_biometric_to_open_in_future_fmt" = "Хотите ли Вы использовать %@ или Apple Watch для открытия этой базы данных в будущем?";
 
 /* Touch ID Considerations\n\nWhile this is very convenient, it is not a perfect system for protecting your passwords. It is provided for convenience only. It is within the realm of possibilities that someone with access to your device or your fingerprint, can produce a good enough fake fingerprint to fool Apple’s Touch ID. In addition, on your Mac, your master password will be securely stored in the Keychain. This means it is possible for someone with administrative privileges to search your Keychain for your master password. You should be aware that a strong passphrase held only in your mind provides the most secure experience with StrongBox.\n\nPlease take all of this into account, and make your decision to use Touch ID based on your preferred balance of convenience and security. */
-"mac_touch_id_one_time_warning" = "Touch ID/Apple Watch Considerations\n\nWhile this is very convenient, it is not a perfect system for protecting your passwords. It is provided for convenience only. It is within the realm of possibilities that someone with access to your device or your fingerprint, can produce a good enough fake fingerprint to fool Apple’s Touch ID. In addition, on your Mac, your master password will be securely stored in the Keychain. This means it is possible for someone with administrative privileges to search your Keychain for your master password. You should be aware that a strong passphrase held only in your mind provides the most secure experience with StrongBox.\n\nPlease take all of this into account, and make your decision to use Touch ID based on your preferred balance of convenience and security.";
+"mac_touch_id_one_time_warning" = "Предупреждение Touch ID/Apple Watch\n\nНевзирая на удобство, это не является идеальной системой для защиты Ваших паролей и предоставляется лишь для удобства. Не стоит исключать возможность того, что кто-либо, имеющий доступ к Вашему устройству или отпечатку пальцев, может создать достаточно хорошую подделку для обмана системы Touch ID. Вдобавок к этому, главный пароль будет надёжно сохранён в связке ключей на Вашем Mac. Это означает, что пользователь с административными привилегиями сможет найти Ваш главный пароль в связке ключей. Вы должны осознавать, что надёжный пароль, хранящийся исключительно в Вашей голове, обеспечивает наиболее безопасную работу со StrongBox.\n\nПожалуйста, примите всё это во внимание и решите, является ли использование Touch ID целесообразным, основываясь на выборе между удобством и безопасностью.";
 
 /* You cannot lock a database while changes are pending. Save changes and lock now? */
 "mac_cant_lock_db_while_changes_pending" = "Вы не можете заблокировать базу данных, пока изменения ещё в процессе. Сохранить изменения и заблокировать сейчас?";
