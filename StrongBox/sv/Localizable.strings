@@ -448,7 +448,7 @@
 "casg_database_format_information_kp31" = "KDBX 3.1, Salsa20 och AES (mest kompatibelt)";
 
 /* KDBX 4.0, ChaCha20, Argon2D (GPU Brute Force Resistant) */
-"casg_database_format_information_kp4" = "KDBX 4.0, ChaCha20, Argon2D (GPU Brute Force Resistant)";
+"casg_database_format_information_kp4" = "KDBX 4.0, ChaCha20, Argon2D (motståndskraftig mot GPU totalsökning)";
 
 /* PSAFE3 version 3.x, TwoFish, SHA256 */
 "casg_database_format_information_pwsafe" = "PSAFE3 version 3.x, TwoFish, SHA256";
@@ -986,10 +986,10 @@
 "pins_config_vc_button_title_turn_convenience_pin_on" = "Slå på bekvämlighets-PIN-kod";
 
 /* Turn Duress PIN Off */
-"pins_config_vc_button_title_turn_duress_pin_off" = "Turn Duress PIN Off";
+"pins_config_vc_button_title_turn_duress_pin_off" = "Stäng av hot-PIN-kod";
 
 /* Turn Duress PIN On */
-"pins_config_vc_button_title_turn_duress_pin_on" = "Turn Duress PIN On";
+"pins_config_vc_button_title_turn_duress_pin_on" = "Slå på hot-PIN-kod";
 
 /* Delete Database */
 "pins_config_vc_label_delete_database" = "Radera databas";
@@ -1019,13 +1019,13 @@
 "pins_config_vc_turn_pin_off_prompt_title" = "Stänga av PIN-kod?";
 
 /* Enter Duress PIN */
-"pins_config_vc_enter_duress_pin" = "Enter Duress PIN";
+"pins_config_vc_enter_duress_pin" = "Ange hot-PIN-kod";
 
 /* PIN Conflict */
 "pins_config_vc_error_pin_conflict_title" = "PIN-kodskonflikt";
 
 /* Your Convenience PIN conflicts with your Duress PIN. Please select another. */
-"pins_config_vc_error_pin_conflict_message" = "Your Convenience PIN conflicts with your Duress PIN. Please select another.";
+"pins_config_vc_error_pin_conflict_message" = "Din bekvämlighets-PIN-kod krockar med din hot-PIN-kod. Välj en annan.";
 
 /* Warning */
 "pins_config_vc_warn_remove_database_title" = "Varning";
@@ -1477,7 +1477,7 @@
 "open_sequence_warn_pin_conflict_title" = "PIN-kodskonflikt";
 
 /* Your Convenience PIN conflicts with your Duress PIN. Please configure in Database Settings */
-"open_sequence_warn_pin_conflict_message" = "Your Convenience PIN conflicts with your Duress PIN. Please configure in Database Settings";
+"open_sequence_warn_pin_conflict_message" = "Din bekvämlighets-PIN-kod krockar med din hot-PIN-kod. Konfigurera i databasinställningar";
 
 /* Use Offline Cache? */
 "open_sequence_yesno_use_offline_cache_title" = "Använd offlincache?";
