@@ -72,28 +72,15 @@ which will be rendered as:
     -Mark
 
 # Language Contributors
-Below is a list of the contributors for various languages so far.
+Below is a list of the contributors for various languages completed so far.
 
-- German
-    - @Slummi
-- Russian
-    - @xatage
-- Ukrainian
-    - @a-polivanchuk
-- Chinese
-    - Help welcome
-- French
-    - Help welcome
-- Italian
-    - Help welcome
-- Japanese
-    - Help welcome
-- Portuguese
-    - Help welcome
-- Spanish
-    - Help welcome
+French - Charles-Ivan Chesneau
+German - @Slummi
+Russian - anonymous
+Swedish - Jari Häkkinen
+Ukrainian - Artem Polivanchuk
 
-Don't see your language? Get in touch!
+Don't see your language? Get in touch to help out.
 -Mark
 
 
