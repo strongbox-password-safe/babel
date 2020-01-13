@@ -1936,19 +1936,22 @@
 "transfer_over_local_network_website_prologue" = "<p> Glissez &amp; déplacer les fichiers sur cette fenêtre ou utilisez le bouton \"Téléversez les fichiers&hellip;\" pour téléverser de nouveaux fichiers. Si ces fichiers sont des bases de données KeePass ou Password Safe valides, elles seront automatiquement aujoutées à vos bases de données.</p><p>NB: Si vous souhaitez que ces fichiers fonctionnent avec le remplissage automatique des mots de passe iOS, vous devriez faire glisser vers la gauche la base de données dans l'application, et choisir 'Intégrer à l'auto-remplissage iOS'.</p>";
 
 /**********************************************************************************************************************/
-/* TODO: genericise... */
+/* FUTURE: genericise... */
 /* Restore */
 
-"keepass_history_action_restore" = "Restaurer"; // TODO: Genericise...
+"keepass_history_action_restore" = "Restaurer";
 
 /* Delete */
-"browse_vc_action_delete" = "Effacer"; // TODO: Genericise
+"browse_vc_action_delete" = "Effacer";
 
 /* Title */
 "generic_fieldname_title" = "Titre";
 
 /* Username */
 "generic_fieldname_username" = "Nom d'utilisateur";
+
+/* Expiry Date */
+"generic_fieldname_expiry_date" = "Expiry Date";
 
 /* Password */
 "generic_fieldname_password" = "Mot de passe";
@@ -2450,6 +2453,9 @@
 
 /* Notes Change */
 "mac_undo_action_notes_change" = "Changement de notes";
+
+/* Expiry Date Change */
+"mac_undo_action_expiry_change" = "Expiry Date Change";
 
 /* Icon Change */
 "mac_undo_action_icon_change" = "Changement d'icône";
