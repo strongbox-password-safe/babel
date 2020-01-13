@@ -1936,19 +1936,22 @@
 "transfer_over_local_network_website_prologue" = "<p>Перетащите файлы в это окно или используйте кнопку \"Загрузить файлы&hellip;\" для загрузки новых файлов. Если эти файлы являются действительными базами данных KeePass или Password Safe, они будут автоматически добавлены в Вашу коллекцию баз данных.</p><p>Примечание: Если Вы хотите, чтобы эти файлы работали с автозаполнением iOS, тогда смахните влево по базе данных в приложении, и включите функцию автозаполнения.</p>";
 
 /**********************************************************************************************************************/
-/* TODO: genericise... */
+/* FUTURE: genericise... */
 /* Restore */
 
-"keepass_history_action_restore" = "Восстановить"; // TODO: Genericise...
+"keepass_history_action_restore" = "Восстановить";
 
 /* Delete */
-"browse_vc_action_delete" = "Удалить"; // TODO: Genericise
+"browse_vc_action_delete" = "Удалить";
 
 /* Title */
 "generic_fieldname_title" = "Название";
 
 /* Username */
 "generic_fieldname_username" = "Имя пользователя";
+
+/* Expiry Date */
+"generic_fieldname_expiry_date" = "Expiry Date";
 
 /* Password */
 "generic_fieldname_password" = "Пароль";
@@ -2450,6 +2453,9 @@
 
 /* Notes Change */
 "mac_undo_action_notes_change" = "Изменение примечаний";
+
+/* Expiry Date Change */
+"mac_undo_action_expiry_change" = "Expiry Date Change";
 
 /* Icon Change */
 "mac_undo_action_icon_change" = "Изменение значка";
