@@ -1936,19 +1936,22 @@
 "transfer_over_local_network_website_prologue" = "<p>Drag &amp; drop files on this window or use the \"Upload Files&hellip;\" button to upload new files. If these files are valid KeePass or Password Safe databases they will be automatically be added to your Databases collection.</p><p>NB: If you want these files to work with iOS AutoFill you should slide left on the database in app, and choose 'Make Auto-Fillable'.</p>";
 
 /**********************************************************************************************************************/
-/* TODO: genericise... */
+/* FUTURE: genericise... */
 
 /* Restore */
-"keepass_history_action_restore" = "Restore"; // TODO: Genericise...
+"keepass_history_action_restore" = "Restore";
 
 /* Delete */
-"browse_vc_action_delete" = "Delete"; // TODO: Genericise
+"browse_vc_action_delete" = "Delete";
 
 /* Title */
 "generic_fieldname_title" = "Title";
 
 /* Username */
 "generic_fieldname_username" = "Username";
+
+/* Expiry Date */
+"generic_fieldname_expiry_date" = "Expiry Date";
 
 /* Password */
 "generic_fieldname_password" = "Password";
@@ -2451,6 +2454,9 @@
 /* Notes Change */
 "mac_undo_action_notes_change" = "Notes Change";
 
+/* Expiry Date Change */
+"mac_undo_action_expiry_change" = "Expiry Date Change";
+
 /* Icon Change */
 "mac_undo_action_icon_change" = "Icon Change";
 
@@ -2735,3 +2741,5 @@
 
 /* ⌘R to Conceal */
 "mac_button_conceal_master_password_title" = "⌘R to Conceal";
+
+
