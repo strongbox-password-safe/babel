@@ -74,11 +74,11 @@ which will be rendered as:
 # Language Contributors
 Below is a list of the contributors for various languages completed so far.
 
-French - Charles-Ivan Chesneau
-German - @Slummi
-Russian - anonymous
-Swedish - Jari Häkkinen
-Ukrainian - Artem Polivanchuk
+- French - Charles-Ivan Chesneau
+- German - @Slummi
+- Russian - anonymous
+- Swedish - Jari Häkkinen
+- Ukrainian - Artem Polivanchuk
 
 Don't see your language? Get in touch to help out.
 -Mark
