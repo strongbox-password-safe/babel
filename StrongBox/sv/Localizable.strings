@@ -1936,19 +1936,22 @@
 "transfer_over_local_network_website_prologue" = "<p>Dra &amp; släpp filer i det här fönstret eller använd \"Ladda upp filer&hellip;\"-knappen för att ladda upp nya filer. Om dessa filer är giltiga KeePass eller Password Safe databaser kommer de att automatiskt läggas till i din databassamling.</p><p>Obs! Om du vill att dessa filer ska fungera med iOS Autofyll bör du dra åt vänster på databasen i appen, och välja \"Gör Autofyllbar\".</p>";
 
 /**********************************************************************************************************************/
-/* TODO: genericise... */
+/* FUTURE: genericise... */
 /* Restore */
 
-"keepass_history_action_restore" = "Återställ"; // TODO: Genericise...
+"keepass_history_action_restore" = "Återställ";
 
 /* Delete */
-"browse_vc_action_delete" = "Ta bort"; // TODO: Genericise
+"browse_vc_action_delete" = "Ta bort";
 
 /* Title */
 "generic_fieldname_title" = "Rubrik";
 
 /* Username */
 "generic_fieldname_username" = "Användarnamn";
+
+/* Expiry Date */
+"generic_fieldname_expiry_date" = "Expiry Date";
 
 /* Password */
 "generic_fieldname_password" = "Lösenord";
@@ -2450,6 +2453,9 @@
 
 /* Notes Change */
 "mac_undo_action_notes_change" = "Anteckningsändring";
+
+/* Expiry Date Change */
+"mac_undo_action_expiry_change" = "Expiry Date Change";
 
 /* Icon Change */
 "mac_undo_action_icon_change" = "Ikonändring";
