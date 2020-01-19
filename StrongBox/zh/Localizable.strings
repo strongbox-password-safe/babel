@@ -1200,7 +1200,7 @@
 "add_attachment_vc_prompt_filename_message" = "输入此项目的文件名";
 
 /* Filename in Use */
-"add_attachment_vc_warn_filename_used_title" = "已使用的文件名";
+"add_attachment_vc_warn_filename_used_title" = "文件名已使用";
 
 /* This filename is already in use. Please enter a different name. */
 "add_attachment_vc_warn_filename_used_message" = "此文件名已被使用。请输入一个不同的名称。";
@@ -1215,7 +1215,7 @@
 "set_icon_vc_select_icon_source_message" = "选择您想要为此条目使用的图标来源";
 
 /* KeePass & Database Icon Set */
-"set_icon_vc_icon_source_keepass_set" = "KeePass & 数据库图标集";
+"set_icon_vc_icon_source_keepass_set" = "KeePass&数据库 图标集";
 
 /* Media Library */
 "set_icon_vc_icon_source_media_libary" = "媒体库";
@@ -1224,7 +1224,7 @@
 "set_icon_vc_icon_source_download_favicon" = "下载网页图标";
 
 /* Download FavIcon (Pro Only) */
-"set_icon_vc_icon_source_download_favicon_pro_only" = "下载网页图标(仅限Pro)";
+"set_icon_vc_icon_source_download_favicon_pro_only" = "下载网页图标(仅限 Pro)";
 
 /* Downloading FavIcon */
 "set_icon_vc_progress_downloading_favicon" = "网页图标下载中";
@@ -1251,7 +1251,7 @@
 "set_icon_vc_progress_analyzing_image" = "正在分析图像...";
 
 /* This is a rather large image (%dx%d), would you like to rescale it to a maximum dimension of %d pixels for a file size saving of roughly %@ */
-"set_icon_vc_prompt_rescale_image_message_fmt" = "这是一个相当大的图像 (%dx%d)，您想要将其重新调整至%d像素的最大尺寸，以节省大约%@的文件大小吗？";
+"set_icon_vc_prompt_rescale_image_message_fmt" = "这是一个相当大的图像 (%dx%d)，您想要将其重新调整至 %d 像素的最大尺寸，以节省大约 %@ 的文件大小吗？";
 
 /* Large Custom Icon Image, Rescale? */
 "set_icon_vc_prompt_rescale_image_title" = "自定义图标的图像过大，重新调整？";
@@ -1269,7 +1269,7 @@
 "moveentry_vc_add_group_prompt_title" = "输入组名称";
 
 /* Please Enter the New Group Name */
-"moveentry_vc_add_group_prompt_message" = "请输入新分组的名称";
+"moveentry_vc_add_group_prompt_message" = "请输入新组名称";
 
 /* Could not create group */
 "moveentry_vc_warn_creating_group_title" = "无法创建组";
@@ -1302,7 +1302,7 @@
 "custom_field_vc_validation_name_not_empty_error" = "名称不能为空";
 
 /* Name cannot be one of the reserved KeePass Field names */
-"custom_field_vc_validation_name_not_reserved_error" = "名称不能为原有的KeePass字段名称。";
+"custom_field_vc_validation_name_not_reserved_error" = "名称不能为原有的 KeePass 字段名称。";
 
 /* This key is already in use by another custom field. */
 "custom_field_vc_validation_name_already_in_use_error" = "此密钥已被另一个自定义字段使用。";
@@ -1320,7 +1320,7 @@
 "qr_code_vc_warn_problem_accessing_camera_title" = "无法使用相机";
 
 /* Strongbox could not access the camera on this device. Does it have permission? */
-"qr_code_vc_warn_problem_accessing_camera_message" = "Strongbox无法使用此设备上的相机，它是否有权限？";
+"qr_code_vc_warn_problem_accessing_camera_message" = "Strongbox 无法使用此设备上的相机，它是否有权限？";
 
 /* Database Icons */
 "icons_vc_header_database_icons_title" = "数据库图标";
@@ -1332,7 +1332,7 @@
 "attachment_pool_vc_filename_historical_fmt" = "%@ (历史记录)";
 
 /* <Orphan Attachment> [%lu] */
-"attachment_pool_vc_filename_orphan_fmt" = "<Orphan Attachment>[%lu]";
+"attachment_pool_vc_filename_orphan_fmt" = "<Orphan Attachment> [%lu]";
 
 /* Could not connect to server. */
 "webdav_storage_could_not_connect" = "无法连接到服务器。";
@@ -1350,7 +1350,7 @@
 "defaults_model_custom_email_default" = "自定义电子邮箱默认文本";
 
 /* Custom URL Default Text */
-"defaults_model_custom_url_default" = "自定义URL默认文本";
+"defaults_model_custom_url_default" = "自定义 URL 默认文本";
 
 /* Custom Notes Default Text */
 "defaults_model_custom_notes_default" = "自定义备注默认文本";
@@ -1374,13 +1374,13 @@
 "open_sequence_prompt_database_reselect_required_message" = "出于技术原因，您需要重新选中数据库文件以启用自动填充。您只需要这样做一次。\n\n谢谢!\n-Mark";
 
 /* %d attempts remaining */
-"open_sequence_pin_attempts_remaining_fmt" = "剩余%d次尝试";
+"open_sequence_pin_attempts_remaining_fmt" = "剩余 %d 次尝试";
 
 /* Too Many Incorrect PINs */
-"open_sequence_prompt_too_many_incorrect_pins_title" = "PIN错误次数过多";
+"open_sequence_prompt_too_many_incorrect_pins_title" = "PIN 错误次数过多";
 
 /* You have entered the wrong PIN too many times. PIN Unlock is now disabled, and you must enter the master password to unlock this database. */
-"open_sequence_prompt_too_many_incorrect_pins_message" = "您输入了错误的PIN次数过多。PIN解锁现在已禁用，您必须输入主密码才能解锁此数据库。";
+"open_sequence_prompt_too_many_incorrect_pins_message" = "您输入了错误的 PIN 次数过多。PIN 解锁现在已禁用，您必须输入主密码才能解锁此数据库。";
 
 /* There was a technical error opening the database. */
 "open_sequence_duress_technical_error_message" = "打开数据库时出现技术错误。";
@@ -1395,13 +1395,13 @@
 "open_sequence_biometric_unlock_fallback" = "手动解锁...";
 
 /* %@ Failed */
-"open_sequence_biometric_unlock_warn_failed_title_fmt" = "%@失败";
+"open_sequence_biometric_unlock_warn_failed_title_fmt" = "%@ 失败";
 
 /* %@ Authentication Failed. You must now enter your password manually to open the database. */
-"open_sequence_biometric_unlock_warn_failed_message_fmt" = "%@验证失败。您现在必须手动输入密码才能打开数据库。";
+"open_sequence_biometric_unlock_warn_failed_message_fmt" = "%@ 验证失败。您现在必须手动输入密码才能打开数据库。";
 
 /* %@ has failed: %@. You must now enter your password manually to open the database. */
-"open_sequence_biometric_unlock_warn_not_configured_fmt" = "%@失败: %@。您现在必须手动输入密码才能打开数据库。";
+"open_sequence_biometric_unlock_warn_not_configured_fmt" = "%@ 失败: %@。您现在必须手动输入密码才能打开数据库。";
 
 /* Error Reading Key File */
 "open_sequence_error_reading_key_file" = "无法读取密钥文件。它是否已被移动或删除？请在偏好设置中检查密钥文件管理。";
@@ -1413,10 +1413,10 @@
 "open_sequence_couldnt_open_offline_message" = "无法以脱机模式打开此数据库。是否存在离线缓存？";
 
 /* Could not reach %@, it looks like you may be offline, would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ */
-"open_sequence_user_looks_offline_open_offline_instead_fmt" = "无法连接%@，您可能处于脱机状态，是否要改为使用此数据库只读的离线缓存版本吗？\n\n最近缓存: %@";
+"open_sequence_user_looks_offline_open_offline_instead_fmt" = "无法连接 %@，您可能处于脱机状态，是否要改为使用此数据库只读的离线缓存版本吗？\n\n最近缓存: %@";
 
 /* There was a problem reading the database on %@. would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ */
-"open_sequence_storage_unreachable_open_offline_instead_fmt" = "在%@上读取数据库时出现问题。如果重复发生这种情况，您应该尝试删除并重新添加您的数据库。您想要使用此数据库只读的离线缓存版本吗？\n\n最近缓存: %@";
+"open_sequence_storage_unreachable_open_offline_instead_fmt" = "在 %@ 上读取数据库时出现问题。如果重复发生这种情况，您应该尝试删除并重新添加您的数据库。您想要使用此数据库只读的离线缓存版本吗？\n\n最近缓存: %@";
 
 /* Could not open database
    There was a problem opening the database. */
