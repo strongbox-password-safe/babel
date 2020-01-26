@@ -478,7 +478,7 @@
 "casg_question_option_none" = "Отсутствие пароля";
 
 /* Empty Password or None? */
-"casg_question_title_empty_password" = "Пустой пароль или отсутствие оного?";
+"casg_question_title_empty_password" = "Пустой или отсутствующий пароль?";
 
 /* Rename Database */
 "casg_rename_database_action" = "Переименовать базу данных";
@@ -1951,7 +1951,7 @@
 "generic_fieldname_username" = "Имя пользователя";
 
 /* Expiry Date */
-"generic_fieldname_expiry_date" = "Expiry Date";
+"generic_fieldname_expiry_date" = "Дата истечения";
 
 /* Password */
 "generic_fieldname_password" = "Пароль";
@@ -2455,7 +2455,7 @@
 "mac_undo_action_notes_change" = "Изменение примечаний";
 
 /* Expiry Date Change */
-"mac_undo_action_expiry_change" = "Expiry Date Change";
+"mac_undo_action_expiry_change" = "Изменить дату истечения";
 
 /* Icon Change */
 "mac_undo_action_icon_change" = "Изменение значка";
@@ -2743,10 +2743,10 @@
 "mac_button_conceal_master_password_title" = "⌘R, чтобы скрыть";
 
 /* Biometrics Database Changed */
-"open_sequence_warn_biometrics_db_changed_title" = "Biometrics Database Changed";
+"open_sequence_warn_biometrics_db_changed_title" = "База данных биометрии изменена";
 
 /* It looks like your biometrics database has changed, probably because you added a new face or fingerprint. Strongbox now requires you to re-enter your master credentials manually for security reasons. */
-"open_sequence_warn_biometrics_db_changed_message" = "It looks like your biometrics database has changed, probably because you added a new face or fingerprint. Strongbox now requires you to re-enter your master credentials manually for security reasons.";
+"open_sequence_warn_biometrics_db_changed_message" = "Похоже, Ваша база данных биометрии изменилась. Возможно, потому что Вы добавили новое лицо или отпечаток пальца. В целях безопасности требуется ввести основные учётные данные Strongbox вручную.";
 
 /* None - (Tranlators Note: When the user is not using or has not selected a key file on the Unlock screen.) */
 "mac_key_file_none" = "Отсутствует";
@@ -2755,7 +2755,7 @@
 "mac_browse_for_key_file" = "Обзор...";
 
 /* [Configured] - (Translators Note: User is using a key file, Strongbox knows what/where it is, but will not display the file name in the UI for privacy reasons. This appears on the unlock screen. */
-"mac_key_file_configured_but_filename_hidden" = "[Configured]";
+"mac_key_file_configured_but_filename_hidden" = "[установлен]";
 
 /* %@ [Configured] - (Translators Note: User is using a key file that has previously been set/remembered by Strongbox. First parameter is the filename of the key file. This appears on the unlock screen. */
-"mac_key_file_filename_configured_fmt" = "%@ [Configured]";
+"mac_key_file_filename_configured_fmt" = "%@ [установлен]";
