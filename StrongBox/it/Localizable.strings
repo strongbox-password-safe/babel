@@ -177,7 +177,7 @@
 "safesvc_icloud_unavailable_question" = "What would you like to do with the databases currently on this device?";
 
 /* Remove them, Keep on iCloud Only */
-"safesvc_icloud_unavailable_option_remove" = "Remove them, Keep on iCloud Only";
+"safesvc_icloud_unavailable_option_remove" = "Rimuoverli, Mantenerli Soltanto su iCloud";
 
 /* Make Local Copies */
 "safesvc_icloud_unavailable_option_make_local" = "Make Local Copies";
@@ -466,7 +466,7 @@
 "casg_key_file_configured_but_not_found" = "Configured Key File Not Found";
 
 /* Select... */
-"casg_key_file_select_action" = "Select...";
+"casg_key_file_select_action" = "Seleziona...";
 
 /* You have left the password field empty. This can be interpreted in two ways. Select the interpretation you want. */
 "casg_question_message_empty_password" = "You have left the password field empty. This can be interpreted in two ways. Select the interpretation you want.";
@@ -541,7 +541,7 @@
 "db_management_disable_biometric_question_fmt" = "Disable %@?";
 
 /* Disabling %@ for this database will remove the securely stored password and you will have to enter it again. Are you sure you want to do this? */
-"db_management_disable_biometric_warning_fmt" = "Disabling %@ for this database will remove the securely stored password and you will have to enter it again. Are you sure you want to do this?";
+"db_management_disable_biometric_warning_fmt" = "Disabilitando %@ per questo database rimuoverà la password memorizzata in modo sicuro, e dovrai reinserirla. Sei sicuro di volerlo fare?";
 
 /* Are you sure you want to disable %@ for this database? */
 "db_management_disable_biomtric_simple_fmt" = "Are you sure you want to disable %@ for this database?";
@@ -553,7 +553,7 @@
 "db_management_disable_offline_done" = "Offline Disabled";
 
 /* Disabling offline access for this database will remove the offline cache and you will not be able to access the database when offline. Are you sure you want to do this? */
-"db_management_disable_offline_yesno_message" = "Disabling offline access for this database will remove the offline cache and you will not be able to access the database when offline. Are you sure you want to do this?";
+"db_management_disable_offline_yesno_message" = "Disabilitando l'accesso offline per questo database verrà rimossa la cache offline e non potrai accedere al database quando non sei in linea. Sei sicuro di volerlo fare?";
 
 /* Disable Offline Access? */
 "db_management_disable_offline_yesno_title" = "Disable Offline Access?";
@@ -1001,7 +1001,7 @@
 "pins_config_vc_label_delete_database_icloud_permanent" = "iCloud database will be permanently deleted from iCloud.";
 
 /* Remove Database from Strongbox */
-"pins_config_vc_label_remove_database" = "Remove Database from Strongbox";
+"pins_config_vc_label_remove_database" = "Rimuovi Database da Strongbox";
 
 /* NB: Database file will remain on remote storage. */
 "pins_config_vc_label_remove_database_warning" = "NB: Database file will remain on remote storage.";
@@ -1010,7 +1010,7 @@
 "pins_config_vc_title_pro_only" = "PIN Codes (Pro Feature Only)";
 
 /* Turning the PIN Off for this database will remove the securely stored password and you will have to enter it again. Are you sure you want to do this? */
-"pins_config_vc_turn_pin_off_warning" = "Turning the PIN Off for this database will remove the securely stored password and you will have to enter it again. Are you sure you want to do this?";
+"pins_config_vc_turn_pin_off_warning" = "Disattivando il PIN per questo database rimuoverai la password memorizzata in modo sicuro e dovrai reinserirla. Sei sicuro di volerlo fare?";
 
 /* Are you sure you want to turn off the PIN for this database? */
 "pins_config_vc_turn_pin_off_confirm" = "Are you sure you want to turn off the PIN for this database?";
@@ -1034,7 +1034,7 @@
 "pins_config_vc_warn_remove_database_delete_message" = "This will permanently delete the database file.";
 
 /* This will remove the database from Strongbox but the underlying file will remain on cloud storage */
-"pins_config_vc_warn_remove_database_remove_message" = "This will remove the database from Strongbox but the underlying file will remain on cloud storage";
+"pins_config_vc_warn_remove_database_remove_message" = "Questo rimuoverà il database da Strongbox ma il file sottostante rimarrà nell'archivio sul cloud";
 
 /* Manage Key Files */
 "key_files_vc_manage_title" = "Manage Key Files";
@@ -1083,13 +1083,13 @@
 "key_files_vc_section_header_local" = "Documents Folder (Auto-Fill not supported)";
 
 /* Remove After Import */
-"key_files_vc_remove_after_import_title" = "Remove After Import";
+"key_files_vc_remove_after_import_title" = "Rimuovere Dopo Importazione";
 
 /* Do you want to remove the key file from the local Documents folder after import? This will mean it is not visible in iOS Files or accessible via iTunes File Sharing? */
-"key_files_vc_remove_after_import_message" = "Do you want to remove the key file from the local Documents folder after import? This will mean it is not visible in iOS Files or accessible via iTunes File Sharing?";
+"key_files_vc_remove_after_import_message" = "Vuoi rimuovere il file chiave dalla cartella Documenti locale dopo l'importazione? Questo significa che non sarà visibile nei file iOS né accessibile tramite la condivisione file di iTunes?";
 
 /* Yes, Remove Local Copy */
-"key_files_vc_remove_after_import_option_yes" = "Yes, Remove Local Copy";
+"key_files_vc_remove_after_import_option_yes" = "Sì, Rimuovere Copia Locale";
 
 /* No, Keep Local Copy */
 "key_files_vc_remove_after_import_option_no" = "No, Keep Local Copy";
@@ -1098,7 +1098,7 @@
 "key_files_vc_import_error_title" = "File could not be Imported";
 
 /* File not removed */
-"key_files_vc_error_file_not_removed" = "File not removed";
+"key_files_vc_error_file_not_removed" = "File non rimosso";
 
 /* Used by %@ */
 "key_files_vc_key_file_used_by_fmt" = "Used by %@";
@@ -1858,7 +1858,7 @@
 "database_metadata_field_argon2_memory" = "Argon2 Memory";
 
 /* Are you sure you want to Remove this backup? */
-"backup_vc_are_you_sure_remove" = "Are you sure you want to Remove this backup?";
+"backup_vc_are_you_sure_remove" = "Sei sicuro di volere Rimouvere questo backup?";
 
 /* This backup has been added to your databases */
 "backup_vc_backup_added_to_databases" = "This backup has been added to your databases";
@@ -2005,7 +2005,7 @@
 "generic_export" = "Export";
 
 /* Remove */
-"generic_remove" = "Remove";
+"generic_remove" = "Rimuovi";
 
 /* Set */
 "generic_set" = "Serie";
@@ -2041,7 +2041,7 @@
 "safes_vc_action_rename_database" = "Rename...";
 
 /* Remove this database table action */
-"safes_vc_slide_left_remove_database_action" = "Remove...";
+"safes_vc_slide_left_remove_database_action" = "Rimuovi...";
 
 /* No */
 "alerts_no" = "No";
@@ -2169,7 +2169,7 @@
 "edit_date_cell_time_field_placeholder" = "Time";
 
 /* Remove */
-"key_files_vc_option_remove" = "Remove";
+"key_files_vc_option_remove" = "Rimuovi";
 
 /* Import */
 "key_files_vc_option_import" = "Import";
@@ -2258,7 +2258,7 @@
 "favicon_results_no_icons_found" = "No FavIcons Found";
 
 /* Are you sure you want to remove this FavIcon result? */
-"favicon_results_are_you_sure_remove_result_message" = "Are you sure you want to remove this FavIcon result?";
+"favicon_results_are_you_sure_remove_result_message" = "Sei sicuro di voler rimuovere questo risultato di FavIcon?";
 
 /* Invalid FavIcon Preferences */
 "favicon_invalid_preferences_alert_title" = "Preferenze FavIcon Non Valide";
@@ -2464,7 +2464,7 @@
 "mac_undo_action_restore_history_item" = "Ripristino Cronologia Elemento";
 
 /* Remove Attachment */
-"mac_undo_action_remove_attachment" = "Remove Attachment";
+"mac_undo_action_remove_attachment" = "Rimuovi Allegato";
 
 /* Add Attachment */
 "mac_undo_action_add_attachment" = "Add Attachment";
@@ -2476,7 +2476,7 @@
 "mac_undo_action_add_custom_field" = "Add Custom Field";
 
 /* Remove Custom Field */
-"mac_undo_action_remove_custom_field" = "Remove Custom Field";
+"mac_undo_action_remove_custom_field" = "Rimuovi Campo Personalizzato";
 
 /* Set TOTP */
 "mac_undo_action_set_totp" = "Set TOTP";
@@ -2527,7 +2527,7 @@
 "mac_storage_provider_name_file" = "File Based";
 
 /* There was a problem opening this file. It will be removed from your databases. */
-"mac_problem_opening_db" = "There was a problem opening this file. It will be removed from your databases.";
+"mac_problem_opening_db" = "Si è verificato un problema durante l'apertura di questo file. Verrà rimosso dai tuoi database.";
 
 /* Create New Password Database */
 "mac_create_new_database_title" = "Create New Password Database";
@@ -2626,10 +2626,10 @@
 "mac_node_details_edit_custom_field" = "Modifica il campo personalizzato";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Sei sicuro di voler rimuovere il campo personalizzato '%@'?";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Sei sicuro di voler rimuovere il campo personalizzato '%@'?";
 
 /* Add Custom Field */
 "mac_node_details_add_custom_field" = "Add Custom Field";
@@ -2641,7 +2641,7 @@
 "mac_node_details_you_cannot_use_key_reserved" = "You cannot use that Key here as it is reserved for standard KeePass fields.";
 
 /* Are you sure you want to remove the attachment: %@? */
-"mac_node_details_are_you_sure_remove_attachment_fmt" = "Are you sure you want to remove the attachment: %@?";
+"mac_node_details_are_you_sure_remove_attachment_fmt" = "Sei sicuro di voler rimuovere l'allegato: %@?";
 
 /* Password Copied and URL Launched */
 "mac_node_details_password_copied_url_launched" = "Password Copied and URL Launched";
