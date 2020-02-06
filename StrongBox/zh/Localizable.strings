@@ -225,7 +225,7 @@
 "safesvc_update_existing_database_title" = "更新现有数据库？";
 
 /* A database using this file name was found in Strongbox. Should Strongbox overwrite that database with this file, or would you like to create a new database using this file? */
-"safesvc_update_existing_question" = "A database using this file name was found in Strongbox. Should Strongbox overwrite that database with this file, or would you like to create a new database using this file?";
+"safesvc_update_existing_question" = "在 Strongbox 中找到一个使用此文件名的数据库。您希望 Strongbox 使用此文件覆盖该数据库，还是使用此文件创建一个新的数据库?";
 
 /* Update Existing Database */
 "safesvc_update_existing_option_update" = "更新现有数据库";
@@ -2282,7 +2282,7 @@
 "mac_could_not_unlock_database" = "无法解锁数据库";
 
 /* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be securely stored for %@ before you need to re-enter it. Note for translators (1st Param = "Touch ID", 2nd Param is a time span, default of "2 weeks") */
-"mac_use_biometric_to_open_in_future_fmt" = "Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be securely stored for %@ before you need to re-enter it.";
+"mac_use_biometric_to_open_in_future_fmt" = "您想要后续使用 %@ 或 Apple Watch 来解锁此数据库吗？ 您的主密码将被安全地存储 %@，然后您需要重新输入。";
 
 /* Touch ID Considerations\n\nWhile this is very convenient, it is not a perfect system for protecting your passwords. It is provided for convenience only. It is within the realm of possibilities that someone with access to your device or your fingerprint, can produce a good enough fake fingerprint to fool Apple’s Touch ID. In addition, on your Mac, your master password will be securely stored in the Keychain. This means it is possible for someone with administrative privileges to search your Keychain for your master password. You should be aware that a strong passphrase held only in your mind provides the most secure experience with StrongBox.\n\nPlease take all of this into account, and make your decision to use Touch ID based on your preferred balance of convenience and security. */
 "mac_touch_id_one_time_warning" = "Touch ID/Apple Watch 注意事项\n\n虽然它非常方便，但它不是保护密码的完美方法。它仅为方便而提供。在有机会使用您的设备或指纹的人的中，可以产生足够好的假指纹来愚弄苹果的 Touch ID。此外，在 Mac 上，您的主密码将安全地存储在钥匙串中。这意味着具有管理特权的人可以在钥匙串中搜索您的主密码。您应知道，仅在您的脑海里保留一个强大的密码才能提供最安全的 Strongbox 体验。\n\n请将所有都考虑在内，并根据您对便利和安全权衡的首要性来决定是否使用 Touch ID。";
@@ -2758,64 +2758,64 @@
 "mac_key_file_filename_configured_fmt" = "%@ [Configured]";
 
 /* Touch ID/Apple Watch Unlock is not possible at the moment because Touch ID/Apple Watch is not available. */
-"mac_info_biometric_unlock_not_possible_right_now" = "Touch ID/Apple Watch Unlock is not possible at the moment because Touch ID/Apple Watch is not available.";
+"mac_info_biometric_unlock_not_possible_right_now" = "由于 Touch ID/Apple Watch 不可用，目前无法使用 Touch ID/Apple Watch 解锁。";
 /* Touch ID/Apple Watch Unlock is not possible because the stored credentials are unavailable. This is probably because they have expired. Please enter the password manually. */
-"mac_could_not_find_stored_credentials" = "Touch ID/Apple Watch Unlock is not possible because the stored credentials are unavailable. This is probably because they have expired. Please enter the password manually.";
+"mac_could_not_find_stored_credentials" = "由于存储的凭据不可用，无法使用 Touch ID/Apple Watch 解锁。这可能是因为它们已过期。请手动输入密码。";
 
 
 /* Convenience Unlock */
-"mac_convenience_unlock_title" = "Convenience Unlock";
+"mac_convenience_unlock_title" = "便捷解锁";
 
 /* Convenience Unlock (Touch ID/Watch Unavailable) */
-"mac_convenience_unlock_title_bio_unavailable" = "Convenience Unlock (Touch ID/Watch Unavailable)";
+"mac_convenience_unlock_title_bio_unavailable" = "便捷解锁 (Touch ID/Watch 不可用)";
 
 /* Convenience Unlock (Pro Feature Only) */
-"mac_convenience_unlock_title_pro_only" = "Convenience Unlock (Pro Feature Only)";
+"mac_convenience_unlock_title_pro_only" = "便捷解锁 (Pro 专有功能)";
 
 /* Convenience Password is securely stored, protected by your device's Secure Enclave and will expire: %@. - Translators Note: 1st Parameter is a date, like "Today at 14:52" or "16 September 2020 at 16:54" */
-"mac_convenience_summary_secure_enclave_and_will_expire_fmt" = "Convenience Password is securely stored, protected by your device's Secure Enclave and will expire: %@.";
+"mac_convenience_summary_secure_enclave_and_will_expire_fmt" = "便捷密码已安全存储，并受设备的安全飞地保护。过期时间：%@";
 
 /* Convenience Password is securely stored in your Keychain (Secure Enclave unavailable on this device) and will expire: %@. - Translators Note: 1st Parameter is a date, like "Today at 14:52" or "16 September 2020 at 16:54" */
-"mac_convenience_summary_keychain_and_will_expire_fmt" = "Convenience Password is securely stored in your Keychain (Secure Enclave unavailable on this device) and will expire: %@.";
+"mac_convenience_summary_keychain_and_will_expire_fmt" = "便捷密码已安全存储在钥匙串中(安全飞地在此设备上不可用)。过期时间：%@";
 
 /* Convenience Password is securely stored, protected by your device's Secure Enclave and is configured not to expire. */
-"mac_convenience_summary_secure_enclave_and_will_not_expire" = "Convenience Password is securely stored, protected by your device's Secure Enclave and is configured not to expire.";
+"mac_convenience_summary_secure_enclave_and_will_not_expire" = "便捷密码已安全存储，受设备的安全飞地保护，且设定为不过期。";
 
 /* Convenience Password is securely stored in your Keychain (Secure Enclave unavailable on this device), and is configured not to expire. */
-"mac_convenience_summary_keychain_and_will_not_expire" = "Convenience Password is securely stored in your Keychain (Secure Enclave unavailable on this device), and is configured not to expire.";
+"mac_convenience_summary_keychain_and_will_not_expire" = "便捷密码已安全存储在钥匙串中(安全飞地在此设备上不可用)，并且设定为不过期。";
 
 /* Convenience Password is securely stored (in memory only) encrypted by your device's Secure Enclave and will expire on Strongbox Exit. */
-"mac_convenience_summary_secure_enclave_and_will_expire_on_exit" = "Convenience Password is securely stored (in memory only) encrypted by your device's Secure Enclave and will expire on Strongbox Exit.";
+"mac_convenience_summary_secure_enclave_and_will_expire_on_exit" = "便捷密码已安全存储(仅在内存中)由设备的安全飞地加密，并将在退出 Strongbox 时过期。";
 
 /* Convenience Password is securely stored (in memory only) only and will expire on Strongbox Exit. */
-"mac_convenience_summary_keychain_and_will_expire_on_exit" = "Convenience Password is securely stored (in memory only) only and will expire on Strongbox Exit.";
+"mac_convenience_summary_keychain_and_will_expire_on_exit" = "便捷密码已安全存储(仅在内存中)，并且将在退出 Strongbox 时过期。";
 
 /* Convenience Unlock is Enabled but the securely stored master password has expired. */
-"mac_convenience_summary_enabled_but_expired" = "Convenience Unlock is enabled but the securely stored master password has expired.";
+"mac_convenience_summary_enabled_but_expired" = "便捷解锁已启用，但安全存储的主密码已过期。";
 
 /* Convenience Unlock Disabled */
-"mac_convenience_summary_disabled" = "Convenience Unlock Disabled";
+"mac_convenience_summary_disabled" = "便捷解锁已禁用";
 
 /* Convenience Unlock (Touch ID/Watch Unavailable) */
-"mac_convenience_summary_biometrics_unavailable" = "Convenience Unlock (Touch ID/Watch Unavailable)";
+"mac_convenience_summary_biometrics_unavailable" = "便捷解锁 (Touch ID/Watch 不可用)";
 
 /* Convenience Unlock is only available in the Pro version of Strongbox. Please consider upgrading to support development. */
-"mac_convenience_summary_only_available_on_pro" = "Convenience Unlock is only available in the Pro version of Strongbox. Please consider upgrading to support development.";
+"mac_convenience_summary_only_available_on_pro" = "便捷解锁仅在 Strongbox 的 Pro 版本中可用。请考虑升级以支持开发。";
 
 /* Never */
 "mac_convenience_expiry_period_never" = "从不";
 
 /* App Exit */
-"mac_convenience_expiry_period_on_app_exit" = "App Exit";
+"mac_convenience_expiry_period_on_app_exit" = "应用程序退出";
 
 /* Unlock with Touch ID or Watch */
 "mac_unlock_screen_button_title_convenience_unlock" = "使用 Touch ID 或 Watch 解锁";
 
 /* Convenience Unlock Expired */
-"mac_unlock_screen_button_title_convenience_unlock_expired" = "Convenience Unlock Expired";
+"mac_unlock_screen_button_title_convenience_unlock_expired" = "便捷解锁已过期";
 
 /* Touch ID/Watch Unavailable */
-"mac_unlock_screen_button_title_convenience_unlock_bio_unavailable" = "Touch ID/Watch Unavailable";
+"mac_unlock_screen_button_title_convenience_unlock_bio_unavailable" = "Touch ID/Watch 不可用";
 
 /* Touch ID/Watch Unlock (Pro Only) */
-"mac_unlock_screen_button_title_convenience_unlock_pro_only" = "Touch ID/Watch Unlock (Pro Only)";
+"mac_unlock_screen_button_title_convenience_unlock_pro_only" = "Touch ID/Watch 解锁 (仅限 Pro)";

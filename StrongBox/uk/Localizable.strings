@@ -225,7 +225,7 @@
 "safesvc_update_existing_database_title" = "Оновити наявну базу паролів?";
 
 /* A database using this file name was found in Strongbox. Should Strongbox overwrite that database with this file, or would you like to create a new database using this file? */
-"safesvc_update_existing_question" = "A database using this file name was found in Strongbox. Should Strongbox overwrite that database with this file, or would you like to create a new database using this file?";
+"safesvc_update_existing_question" = "В Strongbox було знайдено базу паролів з такою самою назвою файлу. Чи повинен Strongbox перезаписати ту базу паролів цим файлом, або створити нову базу паролів з цього файлу?";
 
 /* Update Existing Database */
 "safesvc_update_existing_option_update" = "Оновити наявну базу паролів";
@@ -980,10 +980,10 @@
 "export_vc_error_exporting" = "Помилка експорту";
 
 /* Turn Convenience PIN Off */
-"pins_config_vc_button_title_turn_convenience_pin_off" = "Вимкнути зручний ПІН";
+"pins_config_vc_button_title_turn_convenience_pin_off" = "Вимкнути ПІН";
 
 /* Turn Convenience PIN On */
-"pins_config_vc_button_title_turn_convenience_pin_on" = "Увімкнути зручний ПІН";
+"pins_config_vc_button_title_turn_convenience_pin_on" = "Увімкнути ПІН";
 
 /* Turn Duress PIN Off */
 "pins_config_vc_button_title_turn_duress_pin_off" = "Вимкнути примусовий ПІН";
@@ -1025,7 +1025,7 @@
 "pins_config_vc_error_pin_conflict_title" = "Конфлікт ПІН-кодів";
 
 /* Your Convenience PIN conflicts with your Duress PIN. Please select another. */
-"pins_config_vc_error_pin_conflict_message" = "Ваш зручний ПІН має конфлікт з примусовим ПІН. Оберіть інший код.";
+"pins_config_vc_error_pin_conflict_message" = "Ваш ПІН має конфлікт з примусовим ПІН. Оберіть інший код.";
 
 /* Warning */
 "pins_config_vc_warn_remove_database_title" = "Попередження";
@@ -1450,7 +1450,7 @@
 "open_sequence_prompt_use_convenience_both_title_fmt" = "Зручне розблокування: Використовувати %@ чи ПІН?";
 
 /* You can use either %@ or a convenience PIN Code to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use one of these methods, please select from below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
-"open_sequence_prompt_use_convenience_both_message_fmt" = "Ви можете використовувати %@ або зручний ПІН для розблокування бази паролів. Незважаючи на зручність, це може знизити рівень безпеки бази паролів на цьому пристрої. Якщо ви бажаєте використовувати один з цих способів, оберіть внизу, або оберіть НІ, щоб продовжити використовувати головний пароль.\n\n*Важливо: Ви повинні ЗАВЖДИ пам'ятати свій головний пароль";
+"open_sequence_prompt_use_convenience_both_message_fmt" = "Ви можете використовувати %@ або ПІН для розблокування бази паролів. Незважаючи на зручність, це може знизити рівень захисту бази паролів на цьому пристрої. Якщо ви бажаєте використовувати один з цих способів, оберіть внизу, або оберіть НІ, щоб продовжити використовувати головний пароль.\n\n*Важливо: Ви повинні ЗАВЖДИ пам'ятати свій головний пароль";
 
 /* Convenience Unlock: Use %@ to Unlock in Future? */
 "open_sequence_prompt_use_convenience_bio_title_fmt" = "Зручне розблокування: Використовувати %@ в майбутньому?";
@@ -1477,7 +1477,7 @@
 "open_sequence_warn_pin_conflict_title" = "Конфлікт ПІН-кодів";
 
 /* Your Convenience PIN conflicts with your Duress PIN. Please configure in Database Settings */
-"open_sequence_warn_pin_conflict_message" = "Ваш зручний ПІН має конфлікт з примусовим ПІН. Будь ласка, налаштуйте базу паролів";
+"open_sequence_warn_pin_conflict_message" = "Ваш ПІН має конфлікт з примусовим ПІН. Будь ласка, змініть в параметрах бази паролів";
 
 /* Use Offline Cache? */
 "open_sequence_yesno_use_offline_cache_title" = "Використовувати кеш?";
@@ -2282,7 +2282,7 @@
 "mac_could_not_unlock_database" = "Не вдалося розблокувати базу паролів";
 
 /* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be securely stored for %@ before you need to re-enter it. Note for translators (1st Param = "Touch ID", 2nd Param is a time span, default of "2 weeks") */
-"mac_use_biometric_to_open_in_future_fmt" = "Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be securely stored for %@ before you need to re-enter it.";
+"mac_use_biometric_to_open_in_future_fmt" = "Бажаєте використовувати %@ чи годинник Apple для розблокування цієї бази паролів у майбутньому? Головний пароль безпечно зберігатиметься протягом %@, доки вам необхідно буде ввести його знову.";
 
 /* Touch ID Considerations\n\nWhile this is very convenient, it is not a perfect system for protecting your passwords. It is provided for convenience only. It is within the realm of possibilities that someone with access to your device or your fingerprint, can produce a good enough fake fingerprint to fool Apple’s Touch ID. In addition, on your Mac, your master password will be securely stored in the Keychain. This means it is possible for someone with administrative privileges to search your Keychain for your master password. You should be aware that a strong passphrase held only in your mind provides the most secure experience with StrongBox.\n\nPlease take all of this into account, and make your decision to use Touch ID based on your preferred balance of convenience and security. */
 "mac_touch_id_one_time_warning" = "Застереження про Touch ID/Apple Watch\n\nНезважаючи на зручність, це не найкращий спосіб захисту ваших паролів. Ця функція забезпечує лише зручність. Цілком можливо, що стороння особа, яка має доступ до вашого пристрою чи ваших відбитків пальців, зможе підробити відбитки пальців, якими можна обдурити функцію Touch ID від Apple. Крім того, головний пароль зберігатиметься у в'язці ключів на вашому Mac. Це означає, що хтось з правами доступу адміністратора зможе знайти ваш головний пароль у в'язці ключів. Вам слід пам'ятати, що надійна парольна фраза, яку ви завжди пам'ятаєте, забезпечує найкращий захист разом із StrongBox.\n\nБудь ласка, подумайте про все це і прийміть зважене рішення щодо необхідності використання Touch ID, керуючись балансом зручності й безпеки.";
@@ -2758,64 +2758,64 @@
 "mac_key_file_filename_configured_fmt" = "%@ [Налаштовано]";
 
 /* Touch ID/Apple Watch Unlock is not possible at the moment because Touch ID/Apple Watch is not available. */
-"mac_info_biometric_unlock_not_possible_right_now" = "Touch ID/Apple Watch Unlock is not possible at the moment because Touch ID/Apple Watch is not available.";
+"mac_info_biometric_unlock_not_possible_right_now" = "Розблокування з Touch ID/Apple Watch зараз неможливе, тому що відповідні функції недоступні.";
 /* Touch ID/Apple Watch Unlock is not possible because the stored credentials are unavailable. This is probably because they have expired. Please enter the password manually. */
-"mac_could_not_find_stored_credentials" = "Touch ID/Apple Watch Unlock is not possible because the stored credentials are unavailable. This is probably because they have expired. Please enter the password manually.";
+"mac_could_not_find_stored_credentials" = "Розблокування з Touch ID/Apple Watch неможливе, тому що збережені облікові дані недоступні. Можливо, це тому, що термін їх дії завершився. Введіть пароль вручну.";
 
 
 /* Convenience Unlock */
-"mac_convenience_unlock_title" = "Convenience Unlock";
+"mac_convenience_unlock_title" = "Зручне розблокування";
 
 /* Convenience Unlock (Touch ID/Watch Unavailable) */
-"mac_convenience_unlock_title_bio_unavailable" = "Convenience Unlock (Touch ID/Watch Unavailable)";
+"mac_convenience_unlock_title_bio_unavailable" = "Зручне розблокування (Touch ID/Watch недоступне)";
 
 /* Convenience Unlock (Pro Feature Only) */
-"mac_convenience_unlock_title_pro_only" = "Convenience Unlock (Pro Feature Only)";
+"mac_convenience_unlock_title_pro_only" = "Зручне розблокування (Функція Pro)";
 
 /* Convenience Password is securely stored, protected by your device's Secure Enclave and will expire: %@. - Translators Note: 1st Parameter is a date, like "Today at 14:52" or "16 September 2020 at 16:54" */
-"mac_convenience_summary_secure_enclave_and_will_expire_fmt" = "Convenience Password is securely stored, protected by your device's Secure Enclave and will expire: %@.";
+"mac_convenience_summary_secure_enclave_and_will_expire_fmt" = "Пароль безпечно збережено, захищено Secure Enclave пристрою з терміном дії: %@.";
 
 /* Convenience Password is securely stored in your Keychain (Secure Enclave unavailable on this device) and will expire: %@. - Translators Note: 1st Parameter is a date, like "Today at 14:52" or "16 September 2020 at 16:54" */
-"mac_convenience_summary_keychain_and_will_expire_fmt" = "Convenience Password is securely stored in your Keychain (Secure Enclave unavailable on this device) and will expire: %@.";
+"mac_convenience_summary_keychain_and_will_expire_fmt" = "Пароль безпечно збережено в Keychain (Secure Enclave недоступний на цьому пристрої) з терміном дії: %@.";
 
 /* Convenience Password is securely stored, protected by your device's Secure Enclave and is configured not to expire. */
-"mac_convenience_summary_secure_enclave_and_will_not_expire" = "Convenience Password is securely stored, protected by your device's Secure Enclave and is configured not to expire.";
+"mac_convenience_summary_secure_enclave_and_will_not_expire" = "Пароль безпечно збережено, захищено Secure Enclave пристрою без обмеження терміну дії.";
 
 /* Convenience Password is securely stored in your Keychain (Secure Enclave unavailable on this device), and is configured not to expire. */
-"mac_convenience_summary_keychain_and_will_not_expire" = "Convenience Password is securely stored in your Keychain (Secure Enclave unavailable on this device), and is configured not to expire.";
+"mac_convenience_summary_keychain_and_will_not_expire" = "Пароль безпечно збережено в Keychain (Secure Enclave недоступний на цьому пристрої) без обмеження терміну дії.";
 
 /* Convenience Password is securely stored (in memory only) encrypted by your device's Secure Enclave and will expire on Strongbox Exit. */
-"mac_convenience_summary_secure_enclave_and_will_expire_on_exit" = "Convenience Password is securely stored (in memory only) encrypted by your device's Secure Enclave and will expire on Strongbox Exit.";
+"mac_convenience_summary_secure_enclave_and_will_expire_on_exit" = "Пароль безпечно збережено (лише в пам'яті) та зашифровано Secure Enclave пристрою з терміном дії до виходу з Strongbox.";
 
 /* Convenience Password is securely stored (in memory only) only and will expire on Strongbox Exit. */
-"mac_convenience_summary_keychain_and_will_expire_on_exit" = "Convenience Password is securely stored (in memory only) only and will expire on Strongbox Exit.";
+"mac_convenience_summary_keychain_and_will_expire_on_exit" = "Пароль безпечно збережено (лише в пам'яті) з терміном дії до виходу з Strongbox.";
 
 /* Convenience Unlock is Enabled but the securely stored master password has expired. */
-"mac_convenience_summary_enabled_but_expired" = "Convenience Unlock is enabled but the securely stored master password has expired.";
+"mac_convenience_summary_enabled_but_expired" = "Зручне розблокування увімкнено, але термін зберігання головного пароля завершився.";
 
 /* Convenience Unlock Disabled */
-"mac_convenience_summary_disabled" = "Convenience Unlock Disabled";
+"mac_convenience_summary_disabled" = "Зручне розблокування вимкнено";
 
 /* Convenience Unlock (Touch ID/Watch Unavailable) */
-"mac_convenience_summary_biometrics_unavailable" = "Convenience Unlock (Touch ID/Watch Unavailable)";
+"mac_convenience_summary_biometrics_unavailable" = "Зручне розблокування (Touch ID/Watch недоступне)";
 
 /* Convenience Unlock is only available in the Pro version of Strongbox. Please consider upgrading to support development. */
-"mac_convenience_summary_only_available_on_pro" = "Convenience Unlock is only available in the Pro version of Strongbox. Please consider upgrading to support development.";
+"mac_convenience_summary_only_available_on_pro" = "Зручне розблокування доступне лише у версії Strongbox Pro. Будь ласка, подумайте про оновлення для підтримки розвитку програми.";
 
 /* Never */
 "mac_convenience_expiry_period_never" = "Необмежений";
 
 /* App Exit */
-"mac_convenience_expiry_period_on_app_exit" = "App Exit";
+"mac_convenience_expiry_period_on_app_exit" = "Вихід з програми";
 
 /* Unlock with Touch ID or Watch */
 "mac_unlock_screen_button_title_convenience_unlock" = "Розблокувати з Touch ID чи Watch";
 
 /* Convenience Unlock Expired */
-"mac_unlock_screen_button_title_convenience_unlock_expired" = "Convenience Unlock Expired";
+"mac_unlock_screen_button_title_convenience_unlock_expired" = "Термін дії зручного розблокування завершився";
 
 /* Touch ID/Watch Unavailable */
-"mac_unlock_screen_button_title_convenience_unlock_bio_unavailable" = "Touch ID/Watch Unavailable";
+"mac_unlock_screen_button_title_convenience_unlock_bio_unavailable" = "Touch ID/Watch Недоступно";
 
 /* Touch ID/Watch Unlock (Pro Only) */
-"mac_unlock_screen_button_title_convenience_unlock_pro_only" = "Touch ID/Watch Unlock (Pro Only)";
+"mac_unlock_screen_button_title_convenience_unlock_pro_only" = "Розблокування з Touch ID/Watch Unlock (Функція Pro)";
