@@ -699,8 +699,8 @@
 /* Auto Lock Database Delay */
 "prefs_vc_auto_lock_database_delay" = "Verzögerung für autom. Sperre";
 
-/* This will clear any existing databases with stored Master Credentials that are backed by Biometric Open. Are you sure? */
-"prefs_vc_clear_biometrics_yesno_message" = "Dies wird bei allen vorhandenen Datenbanken die für die Komfortentsperrung mittels Touch ID / Face ID gespeicherten Master-Zugangsdaten löschen. Sind Sie sicher?";
+/* This will clear any stored Master Credentials that are backed by Biometric Open for all databases. Are you sure? */
+"prefs_vc_clear_biometrics_yesno_message" = "This will clear any stored Master Credentials that are backed by Biometric Open for all databases. Are you sure?";
 
 /* Clear Biometrics */
 "prefs_vc_clear_biometrics_yesno_title" = "Biometriken löschen";
@@ -1067,8 +1067,8 @@
    There was an error reading the Key File */
 "key_files_vc_error_reading" = "Fehler beim Lesen";
 
-/* There was an importing the Key File (does it already exist?) */
-"key_files_vc_error_importing" = "Beim Importieren der Schlüsseldatei ist ein Fehler aufgetreten (Existiert sie bereits?)";
+/* There was an error importing the Key File (does it already exist?) */
+"key_files_vc_error_importing" = "There was an error importing the Key File (does it already exist?)";
 
 /* File Already Exists */
 "key_files_vc_error_file_already_exists_title" = "Datei existiert bereits";
@@ -1086,7 +1086,7 @@
 "key_files_vc_remove_after_import_title" = "Nach Import löschen";
 
 /* Do you want to remove the key file from the local Documents folder after import? This will mean it is not visible in iOS Files or accessible via iTunes File Sharing? */
-"key_files_vc_remove_after_import_message" = "Möchten Sie die Schlüsseldatei nach dem Import aus dem lokalen Dokumentenordner löschen? Sie ist dann nicht mehr in der iOS-Dateien-App sichtbar und es ist kein Zugriff mehr über die iTunes-Dateifreigabe möglich.";
+"key_files_vc_remove_after_import_message" = "Do you want to remove the key file from the local Documents folder after import? This will mean it is not visible in iOS Files or accessible via iTunes File Sharing.";
 
 /* Yes, Remove Local Copy */
 "key_files_vc_remove_after_import_option_yes" = "Ja, lokale Kopie entfernen";
