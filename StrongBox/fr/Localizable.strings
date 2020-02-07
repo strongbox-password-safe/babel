@@ -699,8 +699,8 @@
 /* Auto Lock Database Delay */
 "prefs_vc_auto_lock_database_delay" = "Délai de verrouillage de la base de données";
 
-/* This will clear any existing databases with stored Master Credentials that are backed by Biometric Open. Are you sure? */
-"prefs_vc_clear_biometrics_yesno_message" = "Vous devrez ressaisir les identifiants maîtres de toutes les bases de données pour lesquelles l'ouverture biométrique était active. Êtes-vous sûr(e) ?";
+/* This will clear any stored Master Credentials that are backed by Biometric Open for all databases. Are you sure? */
+"prefs_vc_clear_biometrics_yesno_message" = "This will clear any stored Master Credentials that are backed by Biometric Open for all databases. Are you sure?";
 
 /* Clear Biometrics */
 "prefs_vc_clear_biometrics_yesno_title" = "Effacer la biométrie";
@@ -1067,8 +1067,8 @@
    There was an error reading the Key File */
 "key_files_vc_error_reading" = "Erreur de lecture";
 
-/* There was an importing the Key File (does it already exist?) */
-"key_files_vc_error_importing" = "Erreur d'importation du fichier-clé (existe-t-il déjà?)";
+/* There was an error importing the Key File (does it already exist?) */
+"key_files_vc_error_importing" = "There was an error importing the Key File (does it already exist?)";
 
 /* File Already Exists */
 "key_files_vc_error_file_already_exists_title" = "Le fichier existe déjà";
@@ -1086,7 +1086,7 @@
 "key_files_vc_remove_after_import_title" = "Supprimer après importation";
 
 /* Do you want to remove the key file from the local Documents folder after import? This will mean it is not visible in iOS Files or accessible via iTunes File Sharing? */
-"key_files_vc_remove_after_import_message" = "Voulez-vous enlever le fichier-clé du dossier local Documents après importation ? Cela signifie qu'il ne sera pas visible dans les fichiers iOS ou accessible via le partage de fichiers iTunes ?";
+"key_files_vc_remove_after_import_message" = "Do you want to remove the key file from the local Documents folder after import? This will mean it is not visible in iOS Files or accessible via iTunes File Sharing.";
 
 /* Yes, Remove Local Copy */
 "key_files_vc_remove_after_import_option_yes" = "Oui, supprimer la copie locale";
