@@ -699,8 +699,8 @@
 /* Auto Lock Database Delay */
 "prefs_vc_auto_lock_database_delay" = "自动锁定数据库延时";
 
-/* This will clear any stored Master Credentials that are backed by Biometric Open for all databases. Are you sure? */
-"prefs_vc_clear_biometrics_yesno_message" = "即将清除所有使用生物识别解锁的数据库的主凭据，您确定吗？";
+/* This will clear all securely stored master passwords (for all databases) used by biometric unlock. Are you sure? */
+"prefs_vc_clear_biometrics_yesno_message" = "This will clear all securely stored master passwords (for all databases) used by biometric unlock. Are you sure?";
 
 /* Clear Biometrics */
 "prefs_vc_clear_biometrics_yesno_title" = "清除生物识别信息";
@@ -708,8 +708,8 @@
 /* Clear Clipboard Delay */
 "prefs_vc_clear_clipboard_delay" = "清空剪贴板延时";
 
-/* This will clear any existing databases with stored Master Credentials that are backed by PIN Codes */
-"prefs_vc_clear_pin_codes_yesno_message" = "这将清除所有具有由 PIN 码支持的主凭据的现有数据库，您确定吗？";
+/* This will clear all securely stored master passwords (for all databases) used for PIN Code unlock. Are you sure? */
+"prefs_vc_clear_pin_codes_yesno_message" = "This will clear all securely stored master passwords (for all databases) used for PIN Code unlock. Are you sure?";
 
 /* Clear PIN Codes */
 "prefs_vc_clear_pin_codes_yesno_title" = "清除 PIN 码";
@@ -1067,8 +1067,8 @@
    There was an error reading the Key File */
 "key_files_vc_error_reading" = "读取错误";
 
-/* There was an error importing the Key File (does it already exist?) */
-"key_files_vc_error_importing" = "导入密钥文件错误 (它是否已存在？)";
+/* There was an importing the Key File (does it already exist?) */
+"key_files_vc_error_importing" = "There was an importing the Key File (does it already exist?)";
 
 /* File Already Exists */
 "key_files_vc_error_file_already_exists_title" = "文件己存在";
