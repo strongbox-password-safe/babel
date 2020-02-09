@@ -699,11 +699,11 @@
 /* Auto Lock Database Delay */
 "prefs_vc_auto_lock_database_delay" = "Verzögerung für autom. Sperre";
 
-/* This will clear any existing databases with stored Master Credentials that are backed by Biometric Open. Are you sure? */
-"prefs_vc_clear_biometrics_yesno_message" = "Dies wird bei allen vorhandenen Datenbanken die für die Komfortentsperrung mittels Touch ID / Face ID gespeicherten Master-Zugangsdaten löschen. Sind Sie sicher?";
+/* This will clear any stored Master Credentials that are backed by Biometric Open for all databases. Are you sure? */
+"prefs_vc_clear_biometrics_yesno_message" = "Hierdurch werden die für die Komfortentsperrung mittels Touch ID / Face ID gespeicherten Master-Zugangsdaten für alle Datenbanken gelöscht. Sind Sie sicher?";
 
 /* Clear Biometrics */
-"prefs_vc_clear_biometrics_yesno_title" = "Biometriken löschen";
+"prefs_vc_clear_biometrics_yesno_title" = "Biometrische Daten löschen";
 
 /* Clear Clipboard Delay */
 "prefs_vc_clear_clipboard_delay" = "Zwischenablageverzögerung löschen";
@@ -1067,7 +1067,7 @@
    There was an error reading the Key File */
 "key_files_vc_error_reading" = "Fehler beim Lesen";
 
-/* There was an importing the Key File (does it already exist?) */
+/* There was an error importing the Key File (does it already exist?) */
 "key_files_vc_error_importing" = "Beim Importieren der Schlüsseldatei ist ein Fehler aufgetreten (Existiert sie bereits?)";
 
 /* File Already Exists */
@@ -1507,7 +1507,7 @@
 "privacy_vc_label_unlock_attempts_exceeded" = "Entsperrversuche überschritten";
 
 /* Biometrics Unavailable */
-"privacy_vc_prompt_biometrics_unavailable_title" = "Biometriken nicht verfügbar";
+"privacy_vc_prompt_biometrics_unavailable_title" = "Biometrische Daten nicht verfügbar";
 
 /* This application requires a biometric unlock but biometrics is unavailable on this device. You must re-enable biometrics to continue unlocking this application. */
 "privacy_vc_prompt_biometrics_unavailable_message" = "Diese Anwendung erfordert ein biometrisches Entsperren, aber die biometrischen Daten sind auf diesem Gerät nicht verfügbar. Sie müssen das biometrische Entsperren erneut aktivieren, um mit dem Entsperren der Anwendung fortzufahren.";

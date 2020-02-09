@@ -114,7 +114,7 @@
 "safes_vc_copy_to_icloud" = "Скопировать в iCloud";
 
 /* Error Title Error Importing Datavase */
-"safes_vc_error_importing_database" = "Ошибка импортирования базы данных";
+"safes_vc_error_importing_database" = "Ошибка при импорте базы данных";
 
 /* No comment provided by engineer. */
 "safes_vc_add_existing_database" = "Добавить существующую базу данных...";
@@ -204,7 +204,7 @@
 "safesvc_info_message_key_file_imported" = "Ключевой файл был успешно импортирован.";
 
 /* Problem Importing Key File */
-"safesvc_error_title_error_importing_key_file" = "Проблема с импортированием ключевого файла";
+"safesvc_error_title_error_importing_key_file" = "Проблема при импорте ключевого файла";
 
 /* Invalid Database - [%@] */
 "safesvc_error_title_import_database_fmt" = "[%@] - неверная база данных";
@@ -252,7 +252,7 @@
 "safesvc_copy_database_option_to_icloud" = "Скопировать в iCloud";
 
 /* Error Importing Database */
-"safesvc_error_importing_title" = "Ошибка импортирования базы данных";
+"safesvc_error_importing_title" = "Ошибка при импорте базы данных";
 
 /* Could not bookmark this file */
 "safesvc_error_title_could_not_bookmark" = "Не удалось добавить этот файл в закладки";
@@ -699,8 +699,8 @@
 /* Auto Lock Database Delay */
 "prefs_vc_auto_lock_database_delay" = "Задержка автоблокировки базы данных";
 
-/* This will clear any existing databases with stored Master Credentials that are backed by Biometric Open. Are you sure? */
-"prefs_vc_clear_biometrics_yesno_message" = "Это очистит основные учётные данные для всех существующих баз данных со включённым биометрическим идентификатором. Вы уверены?";
+/* This will clear any stored Master Credentials that are backed by Biometric Open for all databases. Are you sure? */
+"prefs_vc_clear_biometrics_yesno_message" = "This will clear any stored Master Credentials that are backed by Biometric Open for all databases. Are you sure?";
 
 /* Clear Biometrics */
 "prefs_vc_clear_biometrics_yesno_title" = "Очистить биометрию";
@@ -1067,8 +1067,8 @@
    There was an error reading the Key File */
 "key_files_vc_error_reading" = "Ошибка чтения";
 
-/* There was an importing the Key File (does it already exist?) */
-"key_files_vc_error_importing" = "Был произведён импорт ключевого файла (он уже существует?)";
+/* There was an error importing the Key File (does it already exist?) */
+"key_files_vc_error_importing" = "Произошла ошибка при импорте ключевого файла (он уже существует?)";
 
 /* File Already Exists */
 "key_files_vc_error_file_already_exists_title" = "Файл уже существует";
@@ -1086,7 +1086,7 @@
 "key_files_vc_remove_after_import_title" = "Удалить после импорта";
 
 /* Do you want to remove the key file from the local Documents folder after import? This will mean it is not visible in iOS Files or accessible via iTunes File Sharing? */
-"key_files_vc_remove_after_import_message" = "Вы хотите удалить ключевой файл из локальной папки после импорта? Это будет означать, что он не будет виден в 'Файлах' или через общий доступ к файлам iTunes?";
+"key_files_vc_remove_after_import_message" = "Вы хотите удалить ключевой файл из локальной папки документов после импорта? Это будет означать, что он не будет виден в 'Файлах' или через общий доступ к файлам iTunes.";
 
 /* Yes, Remove Local Copy */
 "key_files_vc_remove_after_import_option_yes" = "Да, удалить локальную копию";
