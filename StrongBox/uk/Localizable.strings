@@ -594,7 +594,7 @@
 /* Username Copied */
 "item_details_username_copied" = "Ім'я користувача скопійовано";
 
-/* Item History */
+/* Entry History */
 "item_details_item_history" = "Історія запису";
 
 /* New Custom Field... */
@@ -699,8 +699,8 @@
 /* Auto Lock Database Delay */
 "prefs_vc_auto_lock_database_delay" = "Затримка автоблокування бази паролів";
 
-/* This will clear any stored Master Credentials that are backed by Biometric Open for all databases. Are you sure? */
-"prefs_vc_clear_biometrics_yesno_message" = "This will clear any stored Master Credentials that are backed by Biometric Open for all databases. Are you sure?";
+/* This will clear all securely stored master passwords (for all databases) used by biometric unlock. Are you sure? */
+"prefs_vc_clear_biometrics_yesno_message" = "Буде видалено всі надійно збережені головні паролі (для всіх баз даних), що використовуються біометричним розблокуванням. Ви впевнені?";
 
 /* Clear Biometrics */
 "prefs_vc_clear_biometrics_yesno_title" = "Стерти біометричні дані";
@@ -708,8 +708,8 @@
 /* Clear Clipboard Delay */
 "prefs_vc_clear_clipboard_delay" = "Затримка очищення буфера обміну";
 
-/* This will clear any existing databases with stored Master Credentials that are backed by PIN Codes */
-"prefs_vc_clear_pin_codes_yesno_message" = "Це зітре будь-які наявні бази паролів зі збереженими ПІН-кодами";
+/* This will clear all securely stored master passwords (for all databases) used for PIN Code unlock. Are you sure? */
+"prefs_vc_clear_pin_codes_yesno_message" = "Буде видалено всі надійно збережені головні паролі (для всіх баз даних), що використовуються для розблокування ПІН-кодом. Ви впевнені?";
 
 /* Clear PIN Codes */
 "prefs_vc_clear_pin_codes_yesno_title" = "Стерти ПІН-коди";
@@ -1068,7 +1068,7 @@
 "key_files_vc_error_reading" = "Помилка читання";
 
 /* There was an error importing the Key File (does it already exist?) */
-"key_files_vc_error_importing" = "There was an error importing the Key File (does it already exist?)";
+"key_files_vc_error_importing" = "Помилка при імпорті ключового файлу (він вже існує?)";
 
 /* File Already Exists */
 "key_files_vc_error_file_already_exists_title" = "Файл вже існує";
@@ -1086,7 +1086,7 @@
 "key_files_vc_remove_after_import_title" = "Вилучити після імпорту";
 
 /* Do you want to remove the key file from the local Documents folder after import? This will mean it is not visible in iOS Files or accessible via iTunes File Sharing? */
-"key_files_vc_remove_after_import_message" = "Do you want to remove the key file from the local Documents folder after import? This will mean it is not visible in iOS Files or accessible via iTunes File Sharing.";
+"key_files_vc_remove_after_import_message" = "Хочете вилучити ключовий файл з локальної теки документів після імпорту? Це означатиме, що він не буде доступний в Файлах iOS чи обміні файлами iTunes.";
 
 /* Yes, Remove Local Copy */
 "key_files_vc_remove_after_import_option_yes" = "Так, вилучити локальну копію";
@@ -2819,3 +2819,15 @@
 
 /* Touch ID/Watch Unlock (Pro Only) */
 "mac_unlock_screen_button_title_convenience_unlock_pro_only" = "Розблокування з Touch ID/Watch Unlock (Функція Pro)";
+
+/* Configure... */
+"casg_yubikey_configure_action" = "Configure...";
+
+/* NFC */
+"casg_yubikey_configured_nfc" = "NFC";
+
+/* Slot 1 */
+"casg_yubikey_configured_slot1" = "Slot 1";
+
+/* Slot 2 */
+"casg_yubikey_configured_slot2" = "Slot 2";

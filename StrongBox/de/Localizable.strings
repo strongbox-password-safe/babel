@@ -594,7 +594,7 @@
 /* Username Copied */
 "item_details_username_copied" = "Benutzername kopiert";
 
-/* Item History */
+/* Entry History */
 "item_details_item_history" = "Eintragsverlauf";
 
 /* New Custom Field... */
@@ -699,8 +699,8 @@
 /* Auto Lock Database Delay */
 "prefs_vc_auto_lock_database_delay" = "Verzögerung für autom. Sperre";
 
-/* This will clear any stored Master Credentials that are backed by Biometric Open for all databases. Are you sure? */
-"prefs_vc_clear_biometrics_yesno_message" = "Hierdurch werden die für die Komfortentsperrung mittels Touch ID / Face ID gespeicherten Master-Zugangsdaten für alle Datenbanken gelöscht. Sind Sie sicher?";
+/* This will clear all securely stored master passwords (for all databases) used by biometric unlock. Are you sure? */
+"prefs_vc_clear_biometrics_yesno_message" = "Hierdurch werden alle sicher gespeicherten Master-Passwörter (für alle Datenbanken), die für die biometrischen Entsperrung verwendet werden, gelöscht. Sind Sie sicher?";
 
 /* Clear Biometrics */
 "prefs_vc_clear_biometrics_yesno_title" = "Biometrische Daten löschen";
@@ -708,8 +708,8 @@
 /* Clear Clipboard Delay */
 "prefs_vc_clear_clipboard_delay" = "Zwischenablageverzögerung löschen";
 
-/* This will clear any existing databases with stored Master Credentials that are backed by PIN Codes */
-"prefs_vc_clear_pin_codes_yesno_message" = "Dies wird bei allen vorhandenen Datenbanken die für die Komfortentsperrung mittels PIN-Codes gespeicherten Master-Zugangsdaten löschen. Sind Sie sicher?";
+/* This will clear all securely stored master passwords (for all databases) used for PIN Code unlock. Are you sure? */
+"prefs_vc_clear_pin_codes_yesno_message" = "Hierdurch werden alle sicher gespeicherten Master-Passwörter (für alle Datenbanken), die für die PIN-Code-Entsperrung verwendet werden, gelöscht. Sind Sie sicher?";
 
 /* Clear PIN Codes */
 "prefs_vc_clear_pin_codes_yesno_title" = "PIN-Codes löschen";
@@ -2819,3 +2819,15 @@
 
 /* Touch ID/Watch Unlock (Pro Only) */
 "mac_unlock_screen_button_title_convenience_unlock_pro_only" = "Touch ID/Watch-Entsperrung (nur Pro-Version)";
+
+/* Configure... */
+"casg_yubikey_configure_action" = "Konfigurieren...";
+
+/* NFC */
+"casg_yubikey_configured_nfc" = "NFC";
+
+/* Slot 1 */
+"casg_yubikey_configured_slot1" = "Platz 1";
+
+/* Slot 2 */
+"casg_yubikey_configured_slot2" = "Platz 2";

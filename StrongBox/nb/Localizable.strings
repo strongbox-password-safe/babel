@@ -20,7 +20,7 @@
 "safes_vc_cached_date_time_fmt" = "Cached: %@";
 
 /* Open ths database offline table action */
-"safes_vc_slide_left_open_offline_action" = "Open Offline";
+"safes_vc_slide_left_open_offline_action" = "Åpne i frakoblet-modus";
 
 /* Title of the 'More Actions' alert/action sheet */
 "safes_vc_database_actions_sheet_title" = "Database Actions";
@@ -594,8 +594,8 @@
 /* Username Copied */
 "item_details_username_copied" = "Username Copied";
 
-/* Item History */
-"item_details_item_history" = "Item History";
+/* Entry History */
+"item_details_item_history" = "Tidligere versjoner av oppføringen";
 
 /* New Custom Field... */
 "item_details_new_custom_field_button" = "New Custom Field...";
@@ -699,8 +699,8 @@
 /* Auto Lock Database Delay */
 "prefs_vc_auto_lock_database_delay" = "Auto Lock Database Delay";
 
-/* This will clear any stored Master Credentials that are backed by Biometric Open for all databases. Are you sure? */
-"prefs_vc_clear_biometrics_yesno_message" = "This will clear any stored Master Credentials that are backed by Biometric Open for all databases. Are you sure?";
+/* This will clear all securely stored master passwords (for all databases) used by biometric unlock. Are you sure? */
+"prefs_vc_clear_biometrics_yesno_message" = "This will clear all securely stored master passwords (for all databases) used by biometric unlock. Are you sure?";
 
 /* Clear Biometrics */
 "prefs_vc_clear_biometrics_yesno_title" = "Clear Biometrics";
@@ -708,8 +708,8 @@
 /* Clear Clipboard Delay */
 "prefs_vc_clear_clipboard_delay" = "Clear Clipboard Delay";
 
-/* This will clear any existing databases with stored Master Credentials that are backed by PIN Codes */
-"prefs_vc_clear_pin_codes_yesno_message" = "This will clear any existing databases with stored Master Credentials that are backed by PIN Codes";
+/* This will clear all securely stored master passwords (for all databases) used for PIN Code unlock. Are you sure? */
+"prefs_vc_clear_pin_codes_yesno_message" = "This will clear all securely stored master passwords (for all databases) used for PIN Code unlock. Are you sure?";
 
 /* Clear PIN Codes */
 "prefs_vc_clear_pin_codes_yesno_title" = "Clear PIN Codes";
@@ -989,7 +989,7 @@
 "pins_config_vc_button_title_turn_duress_pin_off" = "Turn Duress PIN Off";
 
 /* Turn Duress PIN On */
-"pins_config_vc_button_title_turn_duress_pin_on" = "Turn Duress PIN On";
+"pins_config_vc_button_title_turn_duress_pin_on" = "Skru på tvangskode";
 
 /* Delete Database */
 "pins_config_vc_label_delete_database" = "Delete Database";
@@ -1771,13 +1771,13 @@
 "safes_vc_action_reorder_database" = "Reorder...";
 
 /* Tip displayed at top of screen. Slide left on Database for options */
-"safes_vc_tip" = "Tip: Slide left on database for options";
+"safes_vc_tip" = "Tips: Sveip til venstre på databasen for å vise valg";
 
 /* Tip: Tap to Copy, Double Tap to Launch URL or Copy Notes */
 "item_details_tip" = "Tip: Tap to Copy, Double Tap to Launch URL or Copy Notes";
 
 /* Tip: Slide Left for Options or Tap to View */
-"keepass_history_tip" = "Tip: Slide Left for Options or Tap to View";
+"keepass_history_tip" = "Tips: Sveip til venstre for valg, eller trykk for å vise";
 
 /* Pin */
 "browse_vc_action_pin" = "Pin";
@@ -1786,13 +1786,13 @@
 "browse_vc_action_unpin" = "Unpin";
 
 /* Section Header Title for Expired Items */
-"browse_vc_section_title_expired" = "Expired";
+"browse_vc_section_title_expired" = "Utløpt";
 
 /* Section Header Title for Nearly Expired Items */
 "browse_vc_section_title_nearly_expired" = "Nearly Expired";
 
 /* Section Header Title for Pinned Items */
-"browse_vc_section_title_pinned" = "Pinned";
+"browse_vc_section_title_pinned" = "Festet";
 
 /* Section Header Title for Recent Items */
 "browse_vc_section_title_recents" = "Recent Items";
@@ -1933,7 +1933,7 @@
 "prefs_vc_info_email_support_options_mail_support" = "Mail Support (English Only)";
 
 /* No comment provided by engineer. */
-"transfer_over_local_network_website_prologue" = "<p>Drag &amp; drop files on this window or use the \"Upload Files&hellip;\" button to upload new files. If these files are valid KeePass or Password Safe databases they will be automatically be added to your Databases collection.</p><p>NB: If you want these files to work with iOS AutoFill you should slide left on the database in app, and choose 'Make Auto-Fillable'.</p>";
+"transfer_over_local_network_website_prologue" = "<p> Dra og slipp filer i dette vinduet eller bruk «Last opp»-knappen for å laste opp nye filer. Om disse filene er gyldige «KeePass»- eller «Password Safe»-databaser, vil de bli lagt til automatisk til i listen. </p></p>NB: Om du vil at disse filene skal fungere med iOS autofyll, må du sveipe til venstre på databasen i appen og velge «Gjør autofyllbar».</p>";
 
 /**********************************************************************************************************************/
 /* FUTURE: genericise... */
@@ -2008,7 +2008,7 @@
 "generic_remove" = "Remove";
 
 /* Set */
-"generic_set" = "Set";
+"generic_set" = "Angi";
 
 /* Cancel */
 "generic_cancel" = "Cancel";
@@ -2035,13 +2035,13 @@
 "keepass_history_are_you_sure" = "Are you sure?";
 
 /* View more actions table action */
-"safes_vc_slide_left_more_actions" = "More...";
+"safes_vc_slide_left_more_actions" = "Mer …";
 
 /* Button to Rename the Database */
 "safes_vc_action_rename_database" = "Rename...";
 
 /* Remove this database table action */
-"safes_vc_slide_left_remove_database_action" = "Remove...";
+"safes_vc_slide_left_remove_database_action" = "Fjern …";
 
 /* No */
 "alerts_no" = "No";
@@ -2059,13 +2059,13 @@
 "alerts_unknown_error" = "Unknown Error";
 
 /* Date Created */
-"browse_prefs_item_subtitle_date_created" = "Date Created";
+"browse_prefs_item_subtitle_date_created" = "Opprettelsesdato";
 
 /* Date Modified */
-"browse_prefs_item_subtitle_date_modified" = "Date Modified";
+"browse_prefs_item_subtitle_date_modified" = "Dato endret";
 
 /* Email */
-"browse_prefs_item_subtitle_email" = "Email";
+"browse_prefs_item_subtitle_email" = "E-post";
 
 /* None */
 "browse_prefs_item_subtitle_none" = "None";
@@ -2079,16 +2079,16 @@
 "databases_preferences_subtitle_field_name_none" = "None";
 
 /* Notes */
-"browse_prefs_item_subtitle_notes" = "Notes";
+"browse_prefs_item_subtitle_notes" = "Notater";
 
 /* Password */
-"browse_prefs_item_subtitle_password" = "Password";
+"browse_prefs_item_subtitle_password" = "Passord";
 
 /* URL */
 "browse_prefs_item_subtitle_url" = "URL";
 
 /* Username */
-"browse_prefs_item_subtitle_username" = "Username";
+"browse_prefs_item_subtitle_username" = "Brukernavn";
 
 /* Duplicate */
 "browse_vc_action_duplicate" = "Duplicate";
@@ -2100,16 +2100,16 @@
 "browse_vc_action_rename" = "Rename";
 
 /* Password */
-"browse_vc_search_scope_password" = "Password";
+"browse_vc_search_scope_password" = "Passord";
 
 /* Title */
-"browse_vc_search_scope_title" = "Title";
+"browse_vc_search_scope_title" = "Tittel";
 
 /* URL */
 "browse_vc_search_scope_url" = "URL";
 
 /* Username */
-"browse_vc_search_scope_username" = "Username";
+"browse_vc_search_scope_username" = "Brukernavn";
 
 /* Add */
 "casg_add_action" = "Add";
@@ -2121,10 +2121,10 @@
 "casg_rename_action" = "Rename";
 
 /* Password */
-"casg_text_field_placeholder_password" = "Password";
+"casg_text_field_placeholder_password" = "Passord";
 
 /* Email */
-"item_details_email_field_title" = "Email";
+"item_details_email_field_title" = "E-post";
 
 /* Expires */
 "item_details_expires_field_title" = "Expires";
@@ -2136,13 +2136,13 @@
 "item_details_metadata_modified_field_title" = "Modified";
 
 /* Password */
-"item_details_password_field_title" = "Password";
+"item_details_password_field_title" = "Passord";
 
 /* Notes */
-"item_details_section_header_notes" = "Notes";
+"item_details_section_header_notes" = "Notater";
 
 /* Title */
-"item_details_title_field_name" = "Title";
+"item_details_title_field_name" = "Tittel";
 
 /* URL Copied */
 "item_details_url_copied" = "URL Copied";
@@ -2151,7 +2151,7 @@
 "item_details_url_field_title" = "URL";
 
 /* Username */
-"item_details_username_field_title" = "Username";
+"item_details_username_field_title" = "Brukernavn";
 
 /* Disabled */
 "prefs_vc_setting_disabled" = "Disabled";
@@ -2181,7 +2181,7 @@
 "open_sequence_prompt_option_no" = "No";
 
 /* Title */
-"pick_creds_vc_search_scope_title" = "Title";
+"pick_creds_vc_search_scope_title" = "Tittel";
 
 /* Username */
 "pick_creds_vc_search_scope_username" = "Username";
@@ -2563,7 +2563,7 @@
 "mac_alerts_input_custom_field_label_key" = "Key";
 
 /* Value */
-"mac_alerts_input_custom_field_label_value" = "Value";
+"mac_alerts_input_custom_field_label_value" = "Verdi";
 
 /* Field cannot be empty */
 "mac_alerts_field_cannot_be_empty" = "Field cannot be empty";
@@ -2623,7 +2623,7 @@
 "mac_node_details_historical_item_suffix_fmt" = "%@ (Historical Item)";
 
 /* Edit Custom Field */
-"mac_node_details_edit_custom_field" = "Edit Custom Field";
+"mac_node_details_edit_custom_field" = "Endre egendefinert felt";
 
 /* Are you sure you want to remove the custom field '%@'? */
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
@@ -2819,3 +2819,15 @@
 
 /* Touch ID/Watch Unlock (Pro Only) */
 "mac_unlock_screen_button_title_convenience_unlock_pro_only" = "Touch ID/Watch Unlock (Pro Only)";
+
+/* Configure... */
+"casg_yubikey_configure_action" = "Konfigurer ...";
+
+/* NFC */
+"casg_yubikey_configured_nfc" = "NFC";
+
+/* Slot 1 */
+"casg_yubikey_configured_slot1" = "Spor 1";
+
+/* Slot 2 */
+"casg_yubikey_configured_slot2" = "Spor 2";
