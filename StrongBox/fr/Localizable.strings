@@ -225,7 +225,7 @@
 "safesvc_update_existing_database_title" = "Mettre à jour la base de données existante ?";
 
 /* A database using this file name was found in Strongbox. Should Strongbox overwrite that database with this file, or would you like to create a new database using this file? */
-"safesvc_update_existing_question" = "A database using this file name was found in Strongbox. Should Strongbox overwrite that database with this file, or would you like to create a new database using this file?";
+"safesvc_update_existing_question" = "Une base de données utilisant ce nom de fichier a été trouvée dans Strongbox. Strongbox doit-il écraser cette base de données avec ce fichier, ou bien souhaitez-vous créer une nouvelle base de données en utilisant ce fichier ?";
 
 /* Update Existing Database */
 "safesvc_update_existing_option_update" = "Mettre à jour la base de données existante";
@@ -700,7 +700,7 @@
 "prefs_vc_auto_lock_database_delay" = "Délai de verrouillage de la base de données";
 
 /* This will clear all securely stored master passwords (for all databases) used by biometric unlock. Are you sure? */
-"prefs_vc_clear_biometrics_yesno_message" = "This will clear all securely stored master passwords (for all databases) used by biometric unlock. Are you sure?";
+"prefs_vc_clear_biometrics_yesno_message" = "Ceci effacera tous les mots de passe maîtres stockés de manière sécurisée (pour toutes les bases de données) utilisés par le déverrouillage biométrique. Êtes-vous sûr(e) ?";
 
 /* Clear Biometrics */
 "prefs_vc_clear_biometrics_yesno_title" = "Effacer la biométrie";
@@ -709,7 +709,7 @@
 "prefs_vc_clear_clipboard_delay" = "Délai d'effacement du presse-papier";
 
 /* This will clear all securely stored master passwords (for all databases) used for PIN Code unlock. Are you sure? */
-"prefs_vc_clear_pin_codes_yesno_message" = "This will clear all securely stored master passwords (for all databases) used for PIN Code unlock. Are you sure?";
+"prefs_vc_clear_pin_codes_yesno_message" = "Ceci effacera tous les mots de passe maîtres stockés de manière sécurisée (pour toutes les bases de données) utilisés pour le déverrouillage par code PIN. Êtes-vous sûr(e) ?";
 
 /* Clear PIN Codes */
 "prefs_vc_clear_pin_codes_yesno_title" = "Effacer les Codes PIN";
@@ -1068,7 +1068,7 @@
 "key_files_vc_error_reading" = "Erreur de lecture";
 
 /* There was an error importing the Key File (does it already exist?) */
-"key_files_vc_error_importing" = "There was an error importing the Key File (does it already exist?)";
+"key_files_vc_error_importing" = "Une erreur s'est produite lors de l'importation du fichier-clé (existe-t-il déjà ?)";
 
 /* File Already Exists */
 "key_files_vc_error_file_already_exists_title" = "Le fichier existe déjà";
@@ -1086,7 +1086,7 @@
 "key_files_vc_remove_after_import_title" = "Supprimer après importation";
 
 /* Do you want to remove the key file from the local Documents folder after import? This will mean it is not visible in iOS Files or accessible via iTunes File Sharing? */
-"key_files_vc_remove_after_import_message" = "Do you want to remove the key file from the local Documents folder after import? This will mean it is not visible in iOS Files or accessible via iTunes File Sharing.";
+"key_files_vc_remove_after_import_message" = "Voulez-vous supprimer le fichier-clé du dossier local Documents après importation ? Cela signifie qu'il ne sera pas visible dans les fichiers iOS ou accessible via le partage de fichiers iTunes.";
 
 /* Yes, Remove Local Copy */
 "key_files_vc_remove_after_import_option_yes" = "Oui, supprimer la copie locale";
@@ -1432,7 +1432,7 @@
 "key_files_vc_no_key_file" = "Aucun fichier-clé";
 
 /* The Convenience Password or Key File were incorrect for this database. Convenience Unlock Disabled. */
-"open_sequence_problem_opening_convenience_incorrect_message" = "Votre mot de passe ou fichier-clé de confort était incorrect pour cette base de données. Déverrouillage de confort désactivé.";
+"open_sequence_problem_opening_convenience_incorrect_message" = "Le mot de passe de confort enregistré ou d'autres facteurs de clé composites (fichier-clé/Yubikey) étaient incorrects pour cette base de données. Le déverrouillage de confort est désactivé.";
 
 /* Incorrect Credentials */
 "open_sequence_problem_opening_incorrect_credentials_title" = "Identifiants incorrects";
@@ -2282,7 +2282,7 @@
 "mac_could_not_unlock_database" = "Impossible de déverrouiller la base de données";
 
 /* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be securely stored for %@ before you need to re-enter it. Note for translators (1st Param = "Touch ID", 2nd Param is a time span, default of "2 weeks") */
-"mac_use_biometric_to_open_in_future_fmt" = "Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be securely stored for %@ before you need to re-enter it.";
+"mac_use_biometric_to_open_in_future_fmt" = "Voulez-vous utiliser %@ ou votre Apple Watch pour déverrouiller cette base de données à l'avenir ? Votre mot de passe maître sera stocké de manière sécurisée pour %@ jusqu'à ce que vous deviez le saisir à nouveau.";
 
 /* Touch ID Considerations\n\nWhile this is very convenient, it is not a perfect system for protecting your passwords. It is provided for convenience only. It is within the realm of possibilities that someone with access to your device or your fingerprint, can produce a good enough fake fingerprint to fool Apple’s Touch ID. In addition, on your Mac, your master password will be securely stored in the Keychain. This means it is possible for someone with administrative privileges to search your Keychain for your master password. You should be aware that a strong passphrase held only in your mind provides the most secure experience with StrongBox.\n\nPlease take all of this into account, and make your decision to use Touch ID based on your preferred balance of convenience and security. */
 "mac_touch_id_one_time_warning" = "Considérations Touch ID / Apple Watch\n\nBien que cela soit fort pratique, ce n'est pas un système parfait pour protéger vos mots de passe. Il est fourni uniquement pour votre confort. Il est tout à fait possible que quelqu'un ayant accès à votre appareil ou à votre empreinte digitale puisse produire une fausse empreinte digitale assez bonne pour tromper le Touch ID d’Apple. De plus, sur votre Mac, votre mot de passe maître sera stocké de manière sécurisée dans le trousseau. Cela signifie qu'il est possible pour une personne ayant des privilèges d'administration de rechercher votre mot de passe maître dans votre trousseau. Vous devez être conscient qu'un mot de passe fort retenu uniquement dans votre esprit fournit l'expérience la plus sécurisée de StrongBox.\n\nVeuillez prendre tout cela en compte en choisissant d'utiliser ou non Touch ID, selon l'équilibre que vous préférez entre confort et sécurité.";
@@ -2758,76 +2758,91 @@
 "mac_key_file_filename_configured_fmt" = "%@ [Configuré]";
 
 /* Touch ID/Apple Watch Unlock is not possible at the moment because Touch ID/Apple Watch is not available. */
-"mac_info_biometric_unlock_not_possible_right_now" = "Touch ID/Apple Watch Unlock is not possible at the moment because Touch ID/Apple Watch is not available.";
+"mac_info_biometric_unlock_not_possible_right_now" = "Le déverrouillage Touch ID/Apple Watch n'est pas possible pour le moment parce que Touch ID/Apple Watch n'est pas disponible.";
 /* Touch ID/Apple Watch Unlock is not possible because the stored credentials are unavailable. This is probably because they have expired. Please enter the password manually. */
-"mac_could_not_find_stored_credentials" = "Touch ID/Apple Watch Unlock is not possible because the stored credentials are unavailable. This is probably because they have expired. Please enter the password manually.";
+"mac_could_not_find_stored_credentials" = "Le déverrouillage Touch ID/Apple Watch n'est pas possible car les identifiants stockés ne sont pas disponibles. C'est probablement parce qu'ils ont expiré. Veuillez entrer le mot de passe manuellement.";
 
 
 /* Convenience Unlock */
-"mac_convenience_unlock_title" = "Convenience Unlock";
+"mac_convenience_unlock_title" = "Déverrouillage de confort";
 
 /* Convenience Unlock (Touch ID/Watch Unavailable) */
-"mac_convenience_unlock_title_bio_unavailable" = "Convenience Unlock (Touch ID/Watch Unavailable)";
+"mac_convenience_unlock_title_bio_unavailable" = "Déverrouillage de confort (Touch ID/Watch indisponible)";
 
 /* Convenience Unlock (Pro Feature Only) */
-"mac_convenience_unlock_title_pro_only" = "Convenience Unlock (Pro Feature Only)";
+"mac_convenience_unlock_title_pro_only" = "Déverrouillage de confort (fonctionnalité Pro uniquement)";
 
 /* Convenience Password is securely stored, protected by your device's Secure Enclave and will expire: %@. - Translators Note: 1st Parameter is a date, like "Today at 14:52" or "16 September 2020 at 16:54" */
-"mac_convenience_summary_secure_enclave_and_will_expire_fmt" = "Convenience Password is securely stored, protected by your device's Secure Enclave and will expire: %@.";
+"mac_convenience_summary_secure_enclave_and_will_expire_fmt" = "Le mot de passe de confort est stocké de manière sécurisée, protégé par Secure Enclave sur votre appareil et expirera : %@.";
 
 /* Convenience Password is securely stored in your Keychain (Secure Enclave unavailable on this device) and will expire: %@. - Translators Note: 1st Parameter is a date, like "Today at 14:52" or "16 September 2020 at 16:54" */
-"mac_convenience_summary_keychain_and_will_expire_fmt" = "Convenience Password is securely stored in your Keychain (Secure Enclave unavailable on this device) and will expire: %@.";
+"mac_convenience_summary_keychain_and_will_expire_fmt" = "Le mot de passe de confort est stocké de manière sécurisée dans votre trousseau (Secure Enclave est indisponible sur cet appareil) et expirera : %@.";
 
 /* Convenience Password is securely stored, protected by your device's Secure Enclave and is configured not to expire. */
-"mac_convenience_summary_secure_enclave_and_will_not_expire" = "Convenience Password is securely stored, protected by your device's Secure Enclave and is configured not to expire.";
+"mac_convenience_summary_secure_enclave_and_will_not_expire" = "Le mot de passe de confort est stocké de manière sécurisée, protégé par Secure Enclave sur votre appareil et est configuré pour ne pas expirer.";
 
 /* Convenience Password is securely stored in your Keychain (Secure Enclave unavailable on this device), and is configured not to expire. */
-"mac_convenience_summary_keychain_and_will_not_expire" = "Convenience Password is securely stored in your Keychain (Secure Enclave unavailable on this device), and is configured not to expire.";
+"mac_convenience_summary_keychain_and_will_not_expire" = "Le mot de passe de confort est stocké de manière sécurisée dans votre trousseau (Secure Enclave est indisponible sur cet appareil), et est configuré pour ne pas expirer.";
 
 /* Convenience Password is securely stored (in memory only) encrypted by your device's Secure Enclave and will expire on Strongbox Exit. */
-"mac_convenience_summary_secure_enclave_and_will_expire_on_exit" = "Convenience Password is securely stored (in memory only) encrypted by your device's Secure Enclave and will expire on Strongbox Exit.";
+"mac_convenience_summary_secure_enclave_and_will_expire_on_exit" = "Le mot de passe de confort est stocké de manière sécurisée (en mémoire uniquement) chiffré par Secure Enclave sur votre appareil et expirera à la fermeture de Strongbox.";
 
 /* Convenience Password is securely stored (in memory only) only and will expire on Strongbox Exit. */
-"mac_convenience_summary_keychain_and_will_expire_on_exit" = "Convenience Password is securely stored (in memory only) only and will expire on Strongbox Exit.";
+"mac_convenience_summary_keychain_and_will_expire_on_exit" = "Le mot de passe de confort est stocké de manière sécurisée (en mémoire uniquement) et expirera à la fermeture de Strongbox.";
 
 /* Convenience Unlock is Enabled but the securely stored master password has expired. */
-"mac_convenience_summary_enabled_but_expired" = "Convenience Unlock is enabled but the securely stored master password has expired.";
+"mac_convenience_summary_enabled_but_expired" = "Le déverrouillage de confort est activé mais le mot de passe maître stocké de manière sécurisée a expiré.";
 
 /* Convenience Unlock Disabled */
-"mac_convenience_summary_disabled" = "Convenience Unlock Disabled";
+"mac_convenience_summary_disabled" = "Déverrouillage de confort désactivé";
 
 /* Convenience Unlock (Touch ID/Watch Unavailable) */
-"mac_convenience_summary_biometrics_unavailable" = "Convenience Unlock (Touch ID/Watch Unavailable)";
+"mac_convenience_summary_biometrics_unavailable" = "Déverrouillage de confort (Touch ID/Watch indisponible)";
 
 /* Convenience Unlock is only available in the Pro version of Strongbox. Please consider upgrading to support development. */
-"mac_convenience_summary_only_available_on_pro" = "Convenience Unlock is only available in the Pro version of Strongbox. Please consider upgrading to support development.";
+"mac_convenience_summary_only_available_on_pro" = "Le déverrouillage de confort n'est disponible que dans la version Pro de Strongbox. Veuillez envisager une mise à niveau pour soutenir le développement.";
 
 /* Never */
 "mac_convenience_expiry_period_never" = "Jamais";
 
 /* App Exit */
-"mac_convenience_expiry_period_on_app_exit" = "App Exit";
+"mac_convenience_expiry_period_on_app_exit" = "Fermeture de l'app";
 
 /* Unlock with Touch ID or Watch */
 "mac_unlock_screen_button_title_convenience_unlock" = "Déverrouiller avec Touch ID ou Watch";
 
 /* Convenience Unlock Expired */
-"mac_unlock_screen_button_title_convenience_unlock_expired" = "Convenience Unlock Expired";
+"mac_unlock_screen_button_title_convenience_unlock_expired" = "Déverrouillage de confort expiré";
 
 /* Touch ID/Watch Unavailable */
-"mac_unlock_screen_button_title_convenience_unlock_bio_unavailable" = "Touch ID/Watch Unavailable";
+"mac_unlock_screen_button_title_convenience_unlock_bio_unavailable" = "Touch ID/Watch indisponible";
 
 /* Touch ID/Watch Unlock (Pro Only) */
-"mac_unlock_screen_button_title_convenience_unlock_pro_only" = "Touch ID/Watch Unlock (Pro Only)";
+"mac_unlock_screen_button_title_convenience_unlock_pro_only" = "Déverrouillage Touch ID/Watch (Pro uniquement)";
 
 /* Configure... */
-"casg_yubikey_configure_action" = "Configure...";
+"casg_yubikey_configure_action" = "Configurer...";
 
 /* NFC */
 "casg_yubikey_configured_nfc" = "NFC";
 
 /* Slot 1 */
-"casg_yubikey_configured_slot1" = "Slot 1";
+"casg_yubikey_configured_slot1" = "Emplacement 1";
 
 /* Slot 2 */
-"casg_yubikey_configured_slot2" = "Slot 2";
+"casg_yubikey_configured_slot2" = "Emplacement 2";
+
+/* YubiKey Unlock is not supported in Auto Fill mode */
+"open_sequence_cannot_use_yubikey_in_autofill_mode" = "Le déverrouillage YubiKey n'est pas pris en charge en mode de remplissage automatique";
+
+/* YubiKey Unlock is only available in the Pro edition of Strongbox */
+"open_sequence_yubikey_only_available_in_pro" = "Le déverrouillage YubiKey est disponible uniquement dans la version Pro de Strongbox";
+
+/* NFC Yubikey (Pro Edition Only) */
+"yubikey_config_section_header_nfc_pro_only" = "Yubikey NFC (Version Pro uniquement)";
+
+/* NFC (Pro Edition Only) */
+"casg_yubikey_configured_nfc_disabled_pro_only" = "NFC Désactivé (version Pro Uniquement)";
+
+/* Yubikey (Pro Edition Only) */
+"casg_section_header_yubikey_pro_only" = "Yubikey (Version Pro uniquement)";

@@ -595,7 +595,7 @@
 "item_details_username_copied" = "Nombre de usuario copiado";
 
 /* Entry History */
-"item_details_item_history" = "Entry History";
+"item_details_item_history" = "Historial de entradas";
 
 /* New Custom Field... */
 "item_details_new_custom_field_button" = "Nuevo campo personalizado...";
@@ -1432,7 +1432,7 @@
 "key_files_vc_no_key_file" = "No hay archivo clave";
 
 /* The Convenience Password or Key File were incorrect for this database. Convenience Unlock Disabled. */
-"open_sequence_problem_opening_convenience_incorrect_message" = "La contraseña de conveniencia o el archivo clave fueron incorrectos para esta base de datos. El desbloqueo de conveniencia deshabilitado.";
+"open_sequence_problem_opening_convenience_incorrect_message" = "La contraseña de conveniencia almacenada u otros factores clave compuestos (archivo clave/Yubikey) eran incorrectos para esta base de datos. El desbloqueo de conveniencia ha sido deshabilitado.";
 
 /* Incorrect Credentials */
 "open_sequence_problem_opening_incorrect_credentials_title" = "Credenciales incorrectas";
@@ -2749,7 +2749,7 @@
 "mac_key_file_none" = "Ninguno";
 
 /* Browse... - (Translators Note: When user wants to open the File dialog to select a key file...)*/
-"mac_browse_for_key_file" = "Browse...";
+"mac_browse_for_key_file" = "Explorar...";
 
 /* [Configured] - (Translators Note: User is using a key file, Strongbox knows what/where it is, but will not display the file name in the UI for privacy reasons. This appears on the unlock screen. */
 "mac_key_file_configured_but_filename_hidden" = "[Configurado]";
@@ -2821,13 +2821,28 @@
 "mac_unlock_screen_button_title_convenience_unlock_pro_only" = "Desbloqueo mediante Touch ID/Watch (Solo Pro)";
 
 /* Configure... */
-"casg_yubikey_configure_action" = "Configure...";
+"casg_yubikey_configure_action" = "Configurar...";
 
 /* NFC */
 "casg_yubikey_configured_nfc" = "NFC";
 
 /* Slot 1 */
-"casg_yubikey_configured_slot1" = "Slot 1";
+"casg_yubikey_configured_slot1" = "Ranura 1";
 
 /* Slot 2 */
-"casg_yubikey_configured_slot2" = "Slot 2";
+"casg_yubikey_configured_slot2" = "Ranura 2";
+
+/* YubiKey Unlock is not supported in Auto Fill mode */
+"open_sequence_cannot_use_yubikey_in_autofill_mode" = "El desbloqueo YubiKey no es compatible con el modo de autorelleno";
+
+/* YubiKey Unlock is only available in the Pro edition of Strongbox */
+"open_sequence_yubikey_only_available_in_pro" = "El desbloqueo YubiKey sólo está disponible en la edición Pro de Strongbox";
+
+/* NFC Yubikey (Pro Edition Only) */
+"yubikey_config_section_header_nfc_pro_only" = "Yubikey NFC (Solo Pro)";
+
+/* NFC (Pro Edition Only) */
+"casg_yubikey_configured_nfc_disabled_pro_only" = "NFC deshabilitado (Solo Pro)";
+
+/* Yubikey (Pro Edition Only) */
+"casg_section_header_yubikey_pro_only" = "Yubikey (Solo Pro)";

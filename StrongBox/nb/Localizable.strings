@@ -387,7 +387,7 @@
 "browse_vc_password_copied_fmt" = "'%@' Password Copied";
 
 /*  (Read Only) */
-"browse_vc_read_only_suffix" = " (Read Only)";
+"browse_vc_read_only_suffix" = " (Skrivebeskyttet)";
 
 /* Rename Item */
 "browse_vc_rename_item" = "Rename Item";
@@ -595,7 +595,7 @@
 "item_details_username_copied" = "Username Copied";
 
 /* Entry History */
-"item_details_item_history" = "Tidligere versjoner av oppføringen";
+"item_details_item_history" = "Versjonslogg for oppføringen";
 
 /* New Custom Field... */
 "item_details_new_custom_field_button" = "New Custom Field...";
@@ -616,7 +616,7 @@
 "item_details_problem_saving" = "Problem Saving";
 
 /*  (Read Only) */
-"item_details_read_only_suffix" = " (Read Only)";
+"item_details_read_only_suffix" = " (Skrivebeskyttet)";
 
 /* Attachments */
 "item_details_section_header_attachments" = "Attachments";
@@ -640,7 +640,7 @@
 "item_details_setup_totp_failed_title" = "Failed to Set TOTP";
 
 /* You can setup TOTP by using a QR Code, or manually by entering the secret or an OTPAuth URL */
-"item_details_setup_totp_how_message" = "You can setup TOTP by using a QR Code, or manually by entering the secret or an OTPAuth URL";
+"item_details_setup_totp_how_message" = "Du kan sette opp TOTP ved å bruke en QR-kode eller angi en OTPAuth URL/TOTP-sikkerhetskode manuelt.";
 
 /* How would you like to setup TOTP? */
 "item_details_setup_totp_how_title" = "How would you like to setup TOTP?";
@@ -655,10 +655,10 @@
 "item_details_setup_totp_qr_code" = "QR Code...";
 
 /* Please enter the secret or an OTPAuth URL */
-"item_details_setup_totp_secret_message" = "Please enter the secret or an OTPAuth URL";
+"item_details_setup_totp_secret_message" = "Venligst angi en TOTP-sikkerhetskode eller en OTPAuth URL";
 
 /* Secret or OTPAuth URL */
-"item_details_setup_totp_secret_title" = "Secret or OTPAuth URL";
+"item_details_setup_totp_secret_title" = "TOTP-sikkerhetskode eller OTPAuth URL";
 
 /* '%@' Copied */
 "item_details_something_copied_fmt" = "'%@' Copied";
@@ -1432,7 +1432,7 @@
 "key_files_vc_no_key_file" = "No Key File";
 
 /* The Convenience Password or Key File were incorrect for this database. Convenience Unlock Disabled. */
-"open_sequence_problem_opening_convenience_incorrect_message" = "The Convenience Password or Key File were incorrect for this database. Convenience Unlock Disabled.";
+"open_sequence_problem_opening_convenience_incorrect_message" = "The stored convenience password or other composite key factors (key file/Yubikey) were incorrect for this database. Convenience Unlock has been Disabled.";
 
 /* Incorrect Credentials */
 "open_sequence_problem_opening_incorrect_credentials_title" = "Incorrect Credentials";
@@ -2385,7 +2385,7 @@
 "mac_not_a_valid_image_file" = "This is not a valid image file.";
 
 /* Please enter the secret or an OTPAuth URL */
-"mac_please_enter_totp_secret_or_otpauth_url" = "Please enter the secret or an OTPAuth URL";
+"mac_please_enter_totp_secret_or_otpauth_url" = "Venligst angi en TOTP-sikkerhetskode eller en OTPAuth URL";
 
 /* Is this a Steam Token? (Say 'No' if you're unsure) */
 "mac_is_this_a_stream_token_yes_no" = "Is this a Steam Token? (Say 'No' if you're unsure)";
@@ -2647,7 +2647,7 @@
 "mac_node_details_password_copied_url_launched" = "Password Copied and URL Launched";
 
 /* Please enter the secret or an OTPAuth URL */
-"mac_node_details_please_enter_secret_totp" = "Please enter the secret or an OTPAuth URL";
+"mac_node_details_please_enter_secret_totp" = "Venligst angi en TOTP-sikkerhetskode eller en OTPAuth URL";
 
 /* Is this a Steam Token? (Say 'No' if you're unsure) */
 "mac_node_details_is_this_steam_totp" = "Is this a Steam Token? (Say 'No' if you're unsure)";
@@ -2831,3 +2831,18 @@
 
 /* Slot 2 */
 "casg_yubikey_configured_slot2" = "Spor 2";
+
+/* YubiKey Unlock is not supported in Auto Fill mode */
+"open_sequence_cannot_use_yubikey_in_autofill_mode" = "YubiKey Unlock is not supported in Auto Fill mode";
+
+/* YubiKey Unlock is only available in the Pro edition of Strongbox */
+"open_sequence_yubikey_only_available_in_pro" = "YubiKey Unlock is only available in the Pro edition of Strongbox";
+
+/* NFC Yubikey (Pro Edition Only) */
+"yubikey_config_section_header_nfc_pro_only" = "NFC Yubikey (Pro Edition Only)";
+
+/* NFC (Pro Edition Only) */
+"casg_yubikey_configured_nfc_disabled_pro_only" = "NFC Disabled (Pro Edition Only)";
+
+/* Yubikey (Pro Edition Only) */
+"casg_section_header_yubikey_pro_only" = "Yubikey (Pro Edition Only)";
