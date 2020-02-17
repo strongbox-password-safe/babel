@@ -74,9 +74,11 @@ which will be rendered as:
 # Language Contributors
 Below is a list of the contributors for various languages completed so far.
 
+- Chinese - GY & Attis
 - French - Charles-Ivan Chesneau
 - German - @Slummi
-- Russian - anonymous
+- Russian - Wishes to remain anonymous
+- Spanish - Wishes to remain anonymous
 - Swedish - Jari Häkkinen
 - Ukrainian - Artem Polivanchuk
 
