@@ -775,7 +775,7 @@
 "sbtvc_invalid_database_file" = "Invalid Database File";
 
 /* You can only have databases in the Root folder for this storage type. */
-"sbtvc_root_folder_only_message" = "You can only have databases in the Root folder for this storage type.";
+"sbtvc_root_folder_only_message" = "Si può salvare il database soltanto nella cartella Principale in questo tipo di memoria di archiviazione.";
 
 /* Root Folder Only */
 "sbtvc_root_folder_only_title" = "Root Folder Only";
@@ -793,13 +793,13 @@
 "sspc_error_invalid_database" = "Invalid Database";
 
 /* Files... */
-"sspc_ios_files_storage_location" = "Files...";
+"sspc_ios_files_storage_location" = "File...";
 
 /* Since a local database is only stored on this device, any loss of this device will lead to the loss of all passwords stored within this database. You may want to consider using a cloud storage provider, such as the ones supported by Strongbox to avoid catastrophic data loss.\n\nWould you still like to proceed with creating a local device database? */
-"sspc_local_device_storage_warning_message" = "Since a local database is only stored on this device, any loss of this device will lead to the loss of all passwords stored within this database. You may want to consider using a cloud storage provider, such as the ones supported by Strongbox to avoid catastrophic data loss.\n\nWould you still like to proceed with creating a local device database?";
+"sspc_local_device_storage_warning_message" = "Dato che un database locale è memorizzato solo su questo dispositivo, qualsiasi perdita di questo dispositivo comporterà la perdita di tutte le password memorizzate in questo database. Potresti voler considerare l'utilizzo di un provider di archiviazione su cloud, come quelli supportati da Strongbox, per evitare perdite di dati irreversibili.\n\nVuoi comunque procedere con la creazione di un database locale su questo dispositivo?";
 
 /* Local Device Database Caveat */
-"sspc_local_device_storage_warning_title" = "Local Device Database Caveat";
+"sspc_local_device_storage_warning_title" = "Avvertimento Database Dispositivo Locale";
 
 /* Please Enter the URL of the Database File. */
 "sspc_manual_import_enter_url_message" = "Please Enter the URL of the Database File.";
@@ -901,7 +901,7 @@
 "databases_preferences_select_top_right_field" = "Select Top Right Field";
 
 /* Database Storage */
-"databases_preferences_subtitle_field_name_database_storage" = "Database Storage";
+"databases_preferences_subtitle_field_name_database_storage" = "Archiviazione Database";
 
 /* Filename */
 "databases_preferences_subtitle_field_name_filename" = "Filename";
@@ -1004,7 +1004,7 @@
 "pins_config_vc_label_remove_database" = "Rimuovi Database da Strongbox";
 
 /* NB: Database file will remain on remote storage. */
-"pins_config_vc_label_remove_database_warning" = "NB: Database file will remain on remote storage.";
+"pins_config_vc_label_remove_database_warning" = "NB: Il file di database rimarrà nell'archivio remoto.";
 
 /* PIN Codes (Pro Feature Only) */
 "pins_config_vc_title_pro_only" = "PIN Codes (Pro Feature Only)";
@@ -1052,7 +1052,7 @@
 "key_files_vc_one_time_key_file_source_message" = "Select where you would like to choose your Key File from. This file will not be stored locally or remembered.";
 
 /* Files... */
-"key_files_vc_one_time_key_file_source_option_files" = "Files...";
+"key_files_vc_one_time_key_file_source_option_files" = "File...";
 
 /* Photo Library... */
 "key_files_vc_one_time_key_file_source_option_photos" = "Photo Library...";
@@ -1335,7 +1335,7 @@
 "attachment_pool_vc_filename_orphan_fmt" = "<Orphan Attachment> [%lu]";
 
 /* Could not connect to server. */
-"webdav_storage_could_not_connect" = "Could not connect to server.";
+"webdav_storage_could_not_connect" = "Impossibile connettersi al server.";
 
 /* Custom Title Default Text */
 "defaults_model_custom_title_default" = "Custom Title Default Text";
@@ -1416,7 +1416,7 @@
 "open_sequence_user_looks_offline_open_offline_instead_fmt" = "Could not reach %@, it looks like you may be offline, would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@";
 
 /* There was a problem reading the database on %@. would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ */
-"open_sequence_storage_unreachable_open_offline_instead_fmt" = "There was a problem reading the database on %@. If this happens repeatedly you should try removing and re-adding your database. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@";
+"open_sequence_storage_unreachable_open_offline_instead_fmt" = "Si è verificato un problema durante la lettura del database su %@. Se questo accade ripetutamente, dovresti provare a rimuovere e riaggiungere il tuo database. Vuoi utilizzare una versione cache offline di questo database?\n\nUltima Cache: %@";
 
 /* Could not open database
    There was a problem opening the database. */
@@ -1579,10 +1579,10 @@
 "autofill_safes_vc_item_subtitle_cache_disabled" = "[Riempimento Automatico Disattivato]";
 
 /* Local */
-"autofill_safes_vc_storage_local_name" = "Local";
+"autofill_safes_vc_storage_local_name" = "Locale";
 
 /* Local (Documents) */
-"autofill_safes_vc_storage_local_docs_name" = "Local (Documents)";
+"autofill_safes_vc_storage_local_docs_name" = "Locale (Documenti)";
 
 /* Clear Google Drive Session */
 "cloud_sessions_clear_google" = "Clear Google Drive Session";
@@ -1639,10 +1639,10 @@
 "pick_creds_vc_group_path_display_string_fmt" = "(in /%@)";
 
 /* Unsupported Storage */
-"pick_creds_vc_cannot_create_new_unsupported_storage_type_title" = "Unsupported Storage";
+"pick_creds_vc_cannot_create_new_unsupported_storage_type_title" = "Archivio Non Supportato";
 
 /* This database is stored on a Storage Provider that does not support Live editing in App Extensions. Cannot Create New Entry. */
-"pick_creds_vc_cannot_create_new_unsupported_storage_type_message" = "This database is stored on a Storage Provider that does not support Live editing in App Extensions. Cannot Create New Entry.";
+"pick_creds_vc_cannot_create_new_unsupported_storage_type_message" = "Questo database è memorizzato su un Provider di Archiviazione che non supporta la modifica Live in App Extensions. Non È Possibile Creare Un Nuovo Elemento.";
 
 /* Create New Entry... */
 "pick_creds_vc_create_new_button_title" = "Crea Nuovo Elemento...";
@@ -1888,16 +1888,16 @@
 "open_sequence_error_reading_key_file_autofill_context" = "Impossibile leggere File Chiave. È stato importato correttamente? Verificare Gestione File Chiave nelle Impostazioni";
 
 /* Local Network (Built In Http Server for Upload) with a Wifi Icon... */
-"sspc_local_network_storage_location" = "Transfer Over Local Network";
+"sspc_local_network_storage_location" = "Trasferimento Tramite Rete Locale";
 
 /* A storage provider is in the process of reading. This is the status displayed on the progress dialog. In english:  Reading... */
-"storage_provider_status_reading" = "Reading...";
+"storage_provider_status_reading" = "Lettura...";
 
 /* Identify to Open Preferences */
 "open_sequence_biometric_unlock_preferences_message" = "Identificare per Aprire le Impostazioni";
 
 /* Message to display when device is offline and has no IP address in Local HTTP Transfer - Select Storage -> Transfer over Local Network */
-"transfer_local_network_network_unavailable_message" = "It seem's like you're offline?";
+"transfer_local_network_network_unavailable_message" = "Sembra che tu sia offline?";
 
 /* Title of info dialog about Family Sharing upgrade */
 "upgrade_family_sharing_info_title" = "Family Sharing";
@@ -2524,7 +2524,7 @@
 "mac_enter_new_name_for_db" = "Enter a new name for this database";
 
 /* File Based */
-"mac_storage_provider_name_file" = "File Based";
+"mac_storage_provider_name_file" = "Basato su File";
 
 /* There was a problem opening this file. It will be removed from your databases. */
 "mac_problem_opening_db" = "Si è verificato un problema durante l'apertura di questo file. Verrà rimosso dai tuoi database.";
@@ -2689,10 +2689,10 @@
 "mac_biometrics_not_available" = "Biometrics is not available on this device!";
 
 /* Local Device */
-"storage_provider_name_local_device" = "Local Device";
+"storage_provider_name_local_device" = "Dispositivo Locale";
 
 /* iOS Files */
-"storage_provider_name_ios_files" = "iOS Files";
+"storage_provider_name_ios_files" = "File iOS";
 
 /* iCloud */
 "storage_provider_name_icloud" = "iCloud";
@@ -2725,7 +2725,7 @@
 "auto_fill_welcome_message_header" = "Benvenuti";
 
 /* Translators Note: A welcome/warning message that certain native storage providers do not support Live Auto Fill, and must use a cached version of the database */
-"auto_fill_welcome_live_storage_warning_message" = "It should be noted that the following storage providers do not support live access to your database from App Extensions:\nDropbox, OneDrive & Google Drive\nIn these cases, Strongbox can use a cache... Enjoy Strongbox Auto Fill!\n-Mark";
+"auto_fill_welcome_live_storage_warning_message" = "Va notato che i seguenti fornitori di servizi di archiviazione non supportano l'accesso in tempo reale al database direttamente dalle Estensioni App:\nDropbox, OneDrive e Google Drive\nIn questi casi, Strongbox può utilizzare una cache... Divertiti con Strongbox e il Riempimento Automatico!\n-Mark";
 
 /* Automatically download FavIcon on URL Change (PRO Only) */
 "mac_auto_download_favicon_pro_only" = "Automatically download FavIcon on URL Change (Pro Feature Only)";
