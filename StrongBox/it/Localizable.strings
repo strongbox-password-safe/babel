@@ -526,10 +526,10 @@
 "db_management_credentials_changed" = "Master Credentials Changed";
 
 /* Are you sure you want to do this? */
-"db_management_disable_autofill_yesno_message" = "Are you sure you want to do this?";
+"db_management_disable_autofill_yesno_message" = "Sei sicuro di volerlo fare?";
 
 /* Disable AutoFill? */
-"db_management_disable_autofill_yesno_title" = "Disattivare la Compilazione Automatica?";
+"db_management_disable_autofill_yesno_title" = "Disattivare il Riempimento Automatico?";
 
 /* %@ for this database has been disabled. */
 "db_management_disable_biometric_notify_message_fmt" = "%@ per questo database è stato disattivato.";
@@ -565,7 +565,7 @@
 "db_management_enable_biometric_notify_title_fmt" = "%@ Enabled";
 
 /* AutoFill Enabled */
-"db_management_enable_done" = "AutoFill Enabled";
+"db_management_enable_done" = "Riempimento Automatico Abilitato";
 
 /* Offline Enabled */
 "db_management_enable_offline_done" = "Offline Enabled";
@@ -1077,10 +1077,10 @@
 "key_files_vc_error_file_already_exists_message" = "A file with this name already exists in the Key Files directory.";
 
 /* Imported Key Files (Auto-Fill Enabled) */
-"key_files_vc_section_header_imported" = "Imported Key Files (Auto-Fill Enabled)";
+"key_files_vc_section_header_imported" = "File Chiave Importati (Riempimento Automatico Attivato)";
 
 /* Application Local Files */
-"key_files_vc_section_header_local" = "Documents Folder (Auto-Fill not supported)";
+"key_files_vc_section_header_local" = "Cartella Documenti (Riempimento Automatico non supportato)";
 
 /* Remove After Import */
 "key_files_vc_remove_after_import_title" = "Rimuovere Dopo Importazione";
@@ -1371,7 +1371,7 @@
 "open_sequence_prompt_database_reselect_required_title" = "Database File Select Required";
 
 /* For technical reasons, you need to re-select your database file to enable Auto Fill. You will only need to do this once.\n\nThanks!\n-Mark */
-"open_sequence_prompt_database_reselect_required_message" = "For technical reasons, you need to re-select your database file to enable Auto Fill. You will only need to do this once.\n\nThanks!\n-Mark";
+"open_sequence_prompt_database_reselect_required_message" = "Per motivi tecnici, è necessario selezionare nuovamente il file di database per abilitare il Riempimento Automatico. Dovrai farlo una sola volta.\n\nGrazie!\n-Mark";
 
 /* %d attempts remaining */
 "open_sequence_pin_attempts_remaining_fmt" = "%d attempts remaining";
@@ -1423,10 +1423,10 @@
 "open_sequence_problem_opening_title" = "There was a problem opening the database.";
 
 /* AutoFill Crash Likely */
-"open_sequence_autofill_creash_likely_title" = "AutoFill Crash Likely";
+"open_sequence_autofill_creash_likely_title" = "Probabile Crash Riempimento Automatico";
 
 /* Your database has encryption settings that may cause iOS Password Auto Fill extensions to be terminated due to excessive resource consumption. This will mean Auto Fill appears not to work. Unfortunately this is an Apple imposed limit. You could consider reducing the amount of resources consumed by your encryption settings (Memory in particular with Argon2 to below 64MB). */
-"open_sequence_autofill_creash_likely_message" = "Your database is quite large, or has encryption settings that may cause iOS Password Auto Fill extensions to be terminated due to excessive resource consumption.\nThis will mean Auto Fill appears not to work. Unfortunately this is an Apple imposed system limitation.\nYou could consider reducing file size or changing the amount of resources consumed (Memory in particular with Argon2 to below 64MB).";
+"open_sequence_autofill_creash_likely_message" = "Il tuo database è piuttosto grande o ha impostazioni di crittografia che possono causare le estensioni di Riempimento Automatico di Password iOS Password di terminare a causa di un eccessivo consumo di risorse.\nQuesto significa che il Riempimento Automatico sembra non funzionare. Purtroppo si tratta di una limitazione di sistema imposta da Apple.\nDovresti considerare di ridurre la dimensione del file di database o ridurre le risorse consumate (soprattutto la memoria, in particolare con Argon2, va tenuta al di sotto dei 64MB).";
 
 /* No Key File */
 "key_files_vc_no_key_file" = "No Key File";
@@ -1561,19 +1561,19 @@
 "cred_vc_error_opening_title" = "Strongbox: Error Opening Database";
 
 /* You Have No Databases Yet :( */
-"autofill_safes_vc_empty_title" = "You Have No Databases Yet :(";
+"autofill_safes_vc_empty_title" = "Non Hai Ancora un Database :(";
 
 /* To use Strongbox for Password Autofill you need to add a database. You can do this in the Strongbox App. */
-"autofill_safes_vc_empty_subtitle" = "To use Strongbox for Password Autofill you need to add a database. You can do this in the Strongbox App.";
+"autofill_safes_vc_empty_subtitle" = "Per utilizzare Strongbox per il Riempimento Automatico delle Password, è necessario aggiungere un database. È possibile farlo nell'app Strongbox.";
 
 /* Cached%@: %@ */
-"autofill_safes_vc_cache_date_fmt" = "Cached%@: %@";
+"autofill_safes_vc_cache_date_fmt" = "Nella Cache%@: %@";
 
 /*  (Forced) */
-"autofill_safes_vc_cache_is_forced_fmt" = " (Forced)";
+"autofill_safes_vc_cache_is_forced_fmt" = " (Forzato)";
 
 /* [No Auto Fill Cache File Yet] */
-"autofill_safes_vc_item_subtitle_no_cache_yet" = "[No Auto Fill Cache File Yet]";
+"autofill_safes_vc_item_subtitle_no_cache_yet" = "[Ancora Nessun File Cache per il Riempimento Automatico]";
 
 /* [Auto Fill Disabled] */
 "autofill_safes_vc_item_subtitle_cache_disabled" = "[Riempimento Automatico Disattivato]";
@@ -2391,10 +2391,10 @@
 "mac_is_this_a_stream_token_yes_no" = "Is this a Steam Token? (Say 'No' if you're unsure)";
 
 /* Show Quick View Panel */
-"mac_show_quick_view_panel" = "Show Quick View Panel";
+"mac_show_quick_view_panel" = "Mostra Pannello di Visualizzazione Rapida";
 
 /* Hide Quick View Panel */
-"mac_hide_quick_view_panel" = "Hide Quick View Panel";
+"mac_hide_quick_view_panel" = "Nascondi Pannello Visualizzazione Rapida";
 
 /* %@ Emergency Sheet - Translators Note: 1st Param: Database Name */
 "mac_database_print_emergency_sheet_fmt" = "%@ Emergency Sheet";
@@ -2406,19 +2406,19 @@
 "mac_search_placeholder" = "Search (⌘F)";
 
 /* Please enter your custom Title auto fill */
-"mac_enter_custom_title_default" = "Please enter your custom Title auto fill";
+"mac_enter_custom_title_default" = "Si prega di inserire il Titolo personalizzato per il riempimento automatico";
 
 /* Please enter your custom Username auto fill */
-"mac_enter_custom_username_default" = "Please enter your custom Username auto fill";
+"mac_enter_custom_username_default" = "Si prega di inserire il Nome Utente personalizzato per il riempimento automatico";
 
 /* Please enter your custom Email auto fill */
-"mac_enter_custom_email_default" = "Please enter your custom Email auto fill";
+"mac_enter_custom_email_default" = "Si prega di inserire la Email personalizzata per il riempimento automatico";
 
 /* Please enter your custom Password auto fill */
-"mac_enter_custom_password_default" = "Please enter your custom Password auto fill";
+"mac_enter_custom_password_default" = "Si prega di inserire la Password personalizzata per il riempimento automatico";
 
 /* Please enter your custom URL auto fill */
-"mac_enter_custom_url_default" = "Please enter your custom URL auto fill";
+"mac_enter_custom_url_default" = "Si prega di inserire la propria URL personalizzata per il riempimento automatico";
 
 /* Welcome to Strongbox */
 "mac_welcome_to_strongbox_title" = "Benvenuto a Strongbox";
