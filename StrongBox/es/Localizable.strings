@@ -26,10 +26,10 @@
 "safes_vc_database_actions_sheet_title" = "Acciones de base de datos";
 
 /* Button Title to Unset Quick Launch */
-"safes_vc_action_unset_as_quick_launch" = "Desactivar como inicio rápido...";
+"safes_vc_action_unset_as_quick_launch" = "Deshabilitar inicio rápido...";
 
 /* Button Title to Set Quick Launch */
-"safes_vc_action_set_as_quick_launch" = "Establecer como inicio rápido...";
+"safes_vc_action_set_as_quick_launch" = "Habilitar inicio rápido...";
 
 /* Button Title to Show in Files */
 "safes_vc_show_in_files" = "Hacer visible en archivos...";
@@ -41,7 +41,7 @@
 "safes_vc_about_quick_launch_title" = "Acerca de inicio rápido";
 
 /* Message about quick launch feature and asking to confirm yes or no */
-"safes_vc_about_setting_quick_launch_and_confirm" = "Establecer esta base de datos como la base de datos de inicio rápido significa que se le solicitará automáticamente que la desbloquee tan pronto como inicie o reactive Strongbox. ¡Esto puede ahorrarle una preciosa pulsación!\n\n¿Establecer como base de datos de inicio rápido?";
+"safes_vc_about_setting_quick_launch_and_confirm" = "Establecer esta base de datos de inicio rápido significa que se desbloqueará automáticamente al iniciar o reabrir Strongbox. ¡Esto puede ahorrarle una preciosa pulsación!\n\n¿Habilitar como base de datos de inicio rápido?";
 
 /* Button title to Show Database in iOS Files App */
 "safes_vc_show_database_in_files_info" = "Hacer que esta base de datos sea visible en la aplicación Archivos también hará que la base de datos esté accesible a través de Finder en tu Mac. Sin embargo, la base de datos ya no podrá ser guardada en modo de relleno automático. Esto se debe al diseño del sistema iOS.\n\nNota: Siempre puede modificar esta acción";
@@ -700,19 +700,19 @@
 "prefs_vc_auto_lock_database_delay" = "Retardo de autobloqueo de la base de datos";
 
 /* This will clear all securely stored master passwords (for all databases) used by biometric unlock. Are you sure? */
-"prefs_vc_clear_biometrics_yesno_message" = "Esto borrará todas las contraseñas maestras almacenadas de forma segura (para todas las bases de datos) utilizadas con desbloqueo biometrico. ¿Estás seguro?";
+"prefs_vc_clear_biometrics_yesno_message" = "Esto deshabilitará el desbloqueo biométrico para todas las bases de datos. ¿Estás seguro?";
 
 /* Clear Biometrics */
-"prefs_vc_clear_biometrics_yesno_title" = "Borrar biometría";
+"prefs_vc_clear_biometrics_yesno_title" = "Deshabilitar biometría";
 
 /* Clear Clipboard Delay */
 "prefs_vc_clear_clipboard_delay" = "Retardo de borrado del portapapeles";
 
 /* This will clear all securely stored master passwords (for all databases) used for PIN Code unlock. Are you sure? */
-"prefs_vc_clear_pin_codes_yesno_message" = "Esto borrará todas las contraseñas maestras almacenadas de forma segura (para todas las bases de datos) utilizadas con desbloqueo con código PIN. ¿Estás seguro?";
+"prefs_vc_clear_pin_codes_yesno_message" = "Esto deshabilitará el desbloqueo con código PIN para todas las bases de datos. ¿Estás seguro?";
 
 /* Clear PIN Codes */
-"prefs_vc_clear_pin_codes_yesno_title" = "Borrar códigos PIN";
+"prefs_vc_clear_pin_codes_yesno_title" = "Deshabilitar código PIN";
 
 /* Sessions (%d) */
 "prefs_vc_cloud_sessions_count_fmt" = "Sesiones (%d)";
@@ -901,7 +901,7 @@
 "databases_preferences_select_top_right_field" = "Seleccionar campo superior derecho";
 
 /* Database Storage */
-"databases_preferences_subtitle_field_name_database_storage" = "Almacenamiento de la base de datos";
+"databases_preferences_subtitle_field_name_database_storage" = "Lugar de almacenamiento";
 
 /* Filename */
 "databases_preferences_subtitle_field_name_filename" = "Nombre de archivo";
@@ -1043,7 +1043,7 @@
 "key_files_vc_select_title" = "Seleccionar archivo de claves";
 
 /* No Key Files Found. Tap '+' to import one. */
-"key_files_vc_empty_key_files_title" = "No se han encontrado archivos de clave. Pulse '+' para importar uno.";
+"key_files_vc_empty_key_files_title" = "No se han encontrado archivos clave. Pulse '+' para importar uno.";
 
 /* One Time Key File Source */
 "key_files_vc_one_time_key_file_source_title" = "Fuente del archivo de clave de un uso";
@@ -1441,10 +1441,10 @@
 "open_sequence_problem_opening_incorrect_credentials_message" = "Las credenciales eran incorrectas para esta base de datos.";
 
 /* Set Quick Launch? */
-"open_sequence_yesno_set_quick_launch_title" = "¿Establecer como inicio rápido?";
+"open_sequence_yesno_set_quick_launch_title" = "¿Habilitar inicio rápido?";
 
 /* Would you like to use this as your Quick Launch database? Quick Launch means you will get prompted immediately to unlock when you open Strongbox, saving you a precious click. */
-"open_sequence_yesno_set_quick_launch_message" = "¿Le gustaría utilizar esta base de datos de inicio rápido? Inicio rápido significa que se le pedirá que la desbloquee inmediatamente cuando abra Strongbox, ahorrándole un precioso clic.";
+"open_sequence_yesno_set_quick_launch_message" = "¿Le gustaría utilizar esta base de datos de inicio rápido? Inicio rápido significa que se desbloqueará inmediatamente cuando abra Strongbox, ahorrándole un precioso clic.";
 
 /* Convenience Unlock: Use %@ or PIN Code in Future? */
 "open_sequence_prompt_use_convenience_both_title_fmt" = "Desbloqueo de conveniencia: ¿Utilizar %@ o un código PIN en el futuro?";
@@ -1774,7 +1774,7 @@
 "safes_vc_tip" = "Consejo: Deslizar a la izquierda en la base de datos para opciones";
 
 /* Tip: Tap to Copy, Double Tap to Launch URL or Copy Notes */
-"item_details_tip" = "Consejo: Pulse para copiar, pulsación doble para iniciar URL o copiar notas";
+"item_details_tip" = "Sugerencia: Pulse para copiar, pulsación doble para iniciar URL o copiar notas";
 
 /* Tip: Slide Left for Options or Tap to View */
 "keepass_history_tip" = "Consejo: Deslizar a la izquierda para ver las opciones o pulsar para ver";
@@ -1816,7 +1816,7 @@
 "database_metadata_field_keepass_version" = "Versión de archivo KeePass";
 
 /* Key Derivation */
-"database_metadata_field_key_derivation" = "Derivación de clave";
+"database_metadata_field_key_derivation" = "Clave de derivación";
 
 /* Max History Items */
 "database_metadata_field_max_history_items" = "Elementos de historial máximo";
@@ -1885,7 +1885,7 @@
 "safes_vc_action_backups" = "Copias de seguridad...";
 
 /* Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences */
-"open_sequence_error_reading_key_file_autofill_context" = "No se ha podido leer el archivo de claves. ¿Se ha importado correctamente? Comprobar el administrador de archivos clave en Preferencias";
+"open_sequence_error_reading_key_file_autofill_context" = "No se ha podido leer el archivo clave. ¿Se ha importado correctamente? Comprobar el gestor de archivos clave en Preferencias";
 
 /* Local Network (Built In Http Server for Upload) with a Wifi Icon... */
 "sspc_local_network_storage_location" = "Transferir a través de la red local";
@@ -1899,16 +1899,16 @@
 /* Message to display when device is offline and has no IP address in Local HTTP Transfer - Select Storage -> Transfer over Local Network */
 "transfer_local_network_network_unavailable_message" = "¿Parece que está desconectado?";
 
-/* Title of info dialog about Family Sharing upgrade */
-"upgrade_family_sharing_info_title" = "Compartir en familia";
+/* Title of info dialog about Apple Family Sharing upgrade */
+"upgrade_family_sharing_info_title" = "Apple Family Sharing";
 
-/* A message about how you will need to download/purchase a separate App for Family Sharing to work */
-"upgrade_family_sharing_info_message" = "Para beneficiarse de Compartir en Familia, necesita tener configurado 'Compartir en Familia de Apple' para su familia. Entonces debería comprar la edición compartir en familia de Strongbox.\nPulse OK para ver esta edición en la App Store";
+/* A message about how you will need to download/purchase a separate App for Apple Family Sharing to work */
+"upgrade_family_sharing_info_message" = "To benefit from Apple Family Sharing you need to have 'Apple Family Sharing' setup for your family. Then you should purchase the separate Family Sharing Edition of Strongbox.\nTap OK to view this edition on the App Store";
 
-/* Need Family Sharing? */
-"upgrade_family_sharing_button_title" = "¿Necesita compartir en familia?";
+/* Need Apple Family Sharing? */
+"upgrade_family_sharing_button_title" = "Need Apple Family Sharing?";
 
-/* Need Family Sharing? */
+/* Need Apple Family Sharing? */
 "upgrade_family_sharing_button_subtitle" = "Pulsar para más información...";
 
 /* Select your preferred generated field title. */
@@ -2536,7 +2536,7 @@
 "mac_enter_database_master_credentials" = "Introducir credenciales maestras de la base de datos";
 
 /* Click Browse to Select a Key File */
-"mac_click_browse_select_key_file" = "Pulse examinar para seleccionar un archivo de claves";
+"mac_click_browse_select_key_file" = "Pulse examinar para seleccionar un archivo clave";
 
 /* Passwords don't match */
 "mac_passwords_dont_match" = "Las contraseñas no coinciden";
