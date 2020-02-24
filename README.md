@@ -77,6 +77,7 @@ Below is a list of the contributors for various languages completed so far.
 - Chinese - GY & Attis
 - French - Charles-Ivan Chesneau
 - German - @Slummi
+- Italian - Marco Ermini
 - Russian - Wishes to remain anonymous
 - Spanish - Wishes to remain anonymous
 - Swedish - Jari Häkkinen
