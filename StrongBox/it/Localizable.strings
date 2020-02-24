@@ -1074,7 +1074,7 @@
 "key_files_vc_error_file_already_exists_title" = "File Già Esistente";
 
 /* A file with this name already exists in the Key Files directory. */
-"key_files_vc_error_file_already_exists_message" = "A file with this name already exists in the Key Files directory.";
+"key_files_vc_error_file_already_exists_message" = "Un file con questo nome esiste già nella directory dei File Chiave.";
 
 /* Imported Key Files (Auto-Fill Enabled) */
 "key_files_vc_section_header_imported" = "File Chiave Importati (Riempimento Automatico Attivato)";
@@ -1092,22 +1092,22 @@
 "key_files_vc_remove_after_import_option_yes" = "Sì, Rimuovere Copia Locale";
 
 /* No, Keep Local Copy */
-"key_files_vc_remove_after_import_option_no" = "No, Keep Local Copy";
+"key_files_vc_remove_after_import_option_no" = "No, Mantenere Copia Locale";
 
 /* File could not be Imported */
-"key_files_vc_import_error_title" = "File could not be Imported";
+"key_files_vc_import_error_title" = "Il File non può essere Importato";
 
 /* File not removed */
 "key_files_vc_error_file_not_removed" = "File non rimosso";
 
 /* Used by %@ */
-"key_files_vc_key_file_used_by_fmt" = "Used by %@";
+"key_files_vc_key_file_used_by_fmt" = "Usato da %@";
 
 /* multiple databases */
-"key_files_vc_key_file_used_by_multiple" = "multiple databases";
+"key_files_vc_key_file_used_by_multiple" = "database multipli";
 
 /* No Known Database Associations */
-"key_files_vc_key_file_used_by_none" = "No Known Database Associations";
+"key_files_vc_key_file_used_by_none" = "Nessuna Associazione Database Conosciuta";
 
 /* Disable History? */
 "pw_history_vc_prompt_disable_history_title" = "Disattivare la Cronologia?";
@@ -1116,49 +1116,49 @@
 "pw_history_vc_prompt_disable_history_message" = "Sei sicuro di voler disattivare la cronologia? Questo cancellerà le password precedenti.";
 
 /* Problem Saving Database */
-"pw_history_vc_error_problem_saving" = "Problem Saving Database";
+"pw_history_vc_error_problem_saving" = "Problema Salvataggio Database";
 
 /* Old Passwords (%lu) */
-"pw_history_vc_previous_passwords_count_fmt" = "Old Passwords (%lu)";
+"pw_history_vc_previous_passwords_count_fmt" = "Vecchie Password (%lu)";
 
 /* Old Passwords (None) */
-"pw_history_vc_previous_passwords_count_none" = "Old Passwords (None)";
+"pw_history_vc_previous_passwords_count_none" = "Vecchie Password (Nessuna)";
 
 /* Could not create file */
-"sftp_provider_could_not_create" = "Could not create file";
+"sftp_provider_could_not_create" = "Impossibile creare il file";
 
 /* Could not read file */
-"sftp_provider_could_not_read" = "Could not read file";
+"sftp_provider_could_not_read" = "Impossibile leggere il file";
 
 /* Could not update file */
-"sftp_provider_could_not_update" = "Could not update file";
+"sftp_provider_could_not_update" = "Impossibile aggiornare il file";
 
 /* Authentication Failed for [user: %@] */
-"sftp_provider_auth_failed_fmt" = "Authentication Failed for [user: %@]";
+"sftp_provider_auth_failed_fmt" = "Autenticazione Fallita per [utente: '%@']";
 
 /* Could not connect to host: %@ [user: %@] */
-"sftp_provider_connect_failed_fmt" = "Could not connect to host: %@ [user: %@]";
+"sftp_provider_connect_failed_fmt" = "Impossibile connettersi all'host: %@ [utente: %@]";
 
 /* Attachment Location */
-"add_attachment_vc_prompt_title" = "Attachment Location";
+"add_attachment_vc_prompt_title" = "Posizione Allegato";
 
 /* Photos */
-"add_attachment_vc_prompt_source_option_photos" = "Photos";
+"add_attachment_vc_prompt_source_option_photos" = "Foto";
 
 /* Camera */
-"add_attachment_vc_prompt_source_option_camera" = "Camera";
+"add_attachment_vc_prompt_source_option_camera" = "Fotocamera";
 
 /* Files */
-"add_attachment_vc_prompt_source_option_files" = "Files";
+"add_attachment_vc_prompt_source_option_files" = "File";
 
 /* Source Unavailable */
-"add_attachment_vc_error_source_unavailable_title" = "Source Unavailable";
+"add_attachment_vc_error_source_unavailable_title" = "Origine Non Disponibile";
 
 /* Strongbox could not access the camera. Does it have permission? */
-"add_attachment_vc_error_source_unavailable_camera" = "Strongbox could not access the camera. Does it have permission?";
+"add_attachment_vc_error_source_unavailable_camera" = "Strongbox non è riuscito ad accedere alla fotocamera. Ha i permessi necessari?";
 
 /* Strongbox could not access photos. Does it have permission? */
-"add_attachment_vc_error_source_unavailable_photos" = "Strongbox could not access photos. Does it have permission?";
+"add_attachment_vc_error_source_unavailable_photos" = "Strongbox non è riuscito ad accedere alle foto. Ha i permessi necessari?";
 
 /* Error Reading */
 "add_attachment_vc_error_reading_title" = "Errore Lettura";
@@ -1167,25 +1167,25 @@
 "add_attachment_vc_error_reading_message" = "Impossibile leggere i dati di questo elemento.";
 
 /* This is quite a large file (%@), and could significantly affect the performance of Strongbox and slow down syncs across networks. Is there a smaller version you could use?\n\nContinue adding this attachment anyway? */
-"add_attachment_vc_large_file_message_fmt" = "This is quite a large file (%@), and could significantly affect the performance of Strongbox and slow down syncs across networks. Is there a smaller version you could use?\n\nContinue adding this attachment anyway?";
+"add_attachment_vc_large_file_message_fmt" = "Questo è un file abbastanza grande (%@), che potrebbe influire in modo significativo sulle prestazioni di Strongbox e rallentare le sincronizzazioni attraverso le reti. Forse c'è una versione più piccola che potresti utilizzare?\n\nContinua ad aggiungere questo allegato in ogni caso?";
 
 /* Large Attachment */
-"add_attachment_vc_large_file_title" = "Large Attachment";
+"add_attachment_vc_large_file_title" = "Allegato Di Grandi Dimensioni";
 
 /* Analyzing Image... */
-"add_attachment_vc_large_file_analyzing_progress_title" = "Analyzing Image...";
+"add_attachment_vc_large_file_analyzing_progress_title" = "Analisi dell'Immagine...";
 
 /* This is a rather large image which could negatively affect the performance of Strongbox, and significantly slow down network synchronisation times. Would you like to rescale this image to one of the streamlined options below? */
 "add_attachment_vc_large_image_message_rescale" = "Questa è un'immagine piuttosto grande che potrebbe influire negativamente sulle prestazioni di Strongbox, rallentando notevolmente i tempi di sincronizzazione sulla rete. Vuoi ridimensionare questa immagine ad una delle opzioni semplificate indicate qua sotto?";
 
 /* This is a rather large image which could negatively affect the performance of Strongbox, and significantly slow down network synchronisation times. Is there a smaller version you could use? */
-"add_attachment_vc_large_image_message" = "This is a rather large image which could negatively affect the performance of Strongbox, and significantly slow down network synchronisation times. Is there a smaller version you could use?";
+"add_attachment_vc_large_image_message" = "Questa è un'immagine piuttosto grande che potrebbe influire negativamente sulle prestazioni di Strongbox, rallentando notevolmente i tempi di sincronizzazione sulla rete. C'è una versione più piccola che potresti usare?";
 
 /* Rescale Large Image? */
-"add_attachment_vc_large_image_prompt_rescale_title" = "Rescale Large Image?";
+"add_attachment_vc_large_image_prompt_rescale_title" = "Ridimensionare Grossa Immagine?";
 
 /* Use Large Image? */
-"add_attachment_vc_large_image_prompt_use" = "Use Large Image?";
+"add_attachment_vc_large_image_prompt_use" = "Usa Immagine Grande?";
 
 /* Original (%d x %d) %@ */
 "add_attachment_vc_large_image_prompt_option_original_size_fmt" = "Originale (%d x %d) %@";
@@ -1444,7 +1444,7 @@
 "open_sequence_yesno_set_quick_launch_title" = "Set Quick Launch?";
 
 /* Would you like to use this as your Quick Launch database? Quick Launch means you will get prompted immediately to unlock when you open Strongbox, saving you a precious click. */
-"open_sequence_yesno_set_quick_launch_message" = "Would you like to use this as your Quick Launch database? Quick Launch means you will get prompted immediately to unlock when you open Strongbox, saving you a precious click.";
+"open_sequence_yesno_set_quick_launch_message" = "Vuoi utilizzare questo come database di Avvio Rapido? Avvio Rapido significa che riceverai immediatamente la richiesta di sblocco del database quando aprirai Strongbox, risparmiando un prezioso click.";
 
 /* Convenience Unlock: Use %@ or PIN Code in Future? */
 "open_sequence_prompt_use_convenience_both_title_fmt" = "Sblocco di Comodità: utilizzare %@ o codice PIN in Futuro?";
@@ -1456,7 +1456,7 @@
 "open_sequence_prompt_use_convenience_bio_title_fmt" = "Sblocco di Comodità: utilizzare %@ per Sbloccare in Futuro?";
 
 /* You can use %@ to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use this then please select it below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
-"open_sequence_prompt_use_convenience_bio_message_fmt" = "You can use %@ to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use this then please select it below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password";
+"open_sequence_prompt_use_convenience_bio_message_fmt" = "È possibile utilizzare %@ per sbloccare questo database. Mentre è comodo, potrebbe ridurre la sicurezza del database su questo dispositivo. Se si desidera utilizzare questa opzione, si prega di selezionarla di seguito o selezionare No per continuare a utilizzare la Master password.\n\n*Importante: devi SEMPRE ricordare la Master password";
 
 /* Convenience Unlock: Use a PIN Code to Unlock in Future? */
 "open_sequence_prompt_use_convenience_pin_title" = "Sblocco di Comodità: utilizzare un Codice PIN in Futuro?";
@@ -1468,10 +1468,10 @@
 "open_sequence_append_convenience_pro_warning" = "\n\nNB: lo Sblocco di Comodità è una funzione Pro";
 
 /* Use %@ */
-"open_sequence_prompt_use_convenience_use_bio_fmt" = "Use %@";
+"open_sequence_prompt_use_convenience_use_bio_fmt" = "Usa %@";
 
 /* Use a PIN Code... */
-"open_sequence_prompt_use_convenience_use_pin" = "Use a PIN Code...";
+"open_sequence_prompt_use_convenience_use_pin" = "Usa un Codice PIN...";
 
 /* PIN Conflict */
 "open_sequence_warn_pin_conflict_title" = "Conflitto PIN";
@@ -1480,52 +1480,52 @@
 "open_sequence_warn_pin_conflict_message" = "Il tuo PIN di Comodità è in conflitto con il tuo PIN di Costrizione. Si prega di configurare le impostazioni del Database";
 
 /* Use Offline Cache? */
-"open_sequence_yesno_use_offline_cache_title" = "Use Offline Cache?";
+"open_sequence_yesno_use_offline_cache_title" = "Usa Cache Offline?";
 
 /* Invalid Database - [%@] */
 "open_sequence_invalid_database_filename_fmt" = "Database Non Valido - [%@]";
 
 /* Different Filename */
-"open_sequence_database_different_filename_title" = "Different Filename";
+"open_sequence_database_different_filename_title" = "Nome File Diverso";
 
 /* This doesn't look like it's the right file because the filename looks different than the one you originally added. Do you want to continue? */
-"open_sequence_database_different_filename_message" = "This doesn't look like it's the right file because the filename looks different than the one you originally added. Do you want to continue?";
+"open_sequence_database_different_filename_message" = "Questo non sembra essere il file giusto perché il nome del file sembra diverso da quello che tu hai aggiunto in origine. Vuoi continuare?";
 
 /* Could not bookmark this file */
 "open_sequence_error_could_not_bookmark_file" = "Non è stato possibile salvare un segnalibro per questo file";
 
 /* Problem Saving to External File */
-"files_provider_problem_saving" = "Problem Saving to External File";
+"files_provider_problem_saving" = "Problema Salvataggio su un File Esterno";
 
 /* Strongbox's reference to this external file is stale. Please remove and re-add this database. */
 "files_provider_stale_reference" = "Il riferimento di Strongbox a questo file esterno è scaduto. Rimuovere ed aggiungere nuovamente questo database.";
 
 /* Unlock Attempts Remaining: %ld */
-"privacy_vc_label_unlock_attempts_fmt" = "Unlock Attempts Remaining: %ld";
+"privacy_vc_label_unlock_attempts_fmt" = "Tentativi di Sblocco Rimasti: %ld";
 
 /* Unlock Attempts Exceeded */
-"privacy_vc_label_unlock_attempts_exceeded" = "Unlock Attempts Exceeded";
+"privacy_vc_label_unlock_attempts_exceeded" = "Tentativi di Sblocco Superati";
 
 /* Biometrics Unavailable */
-"privacy_vc_prompt_biometrics_unavailable_title" = "Biometrics Unavailable";
+"privacy_vc_prompt_biometrics_unavailable_title" = "Biometria Non Disponibile";
 
 /* This application requires a biometric unlock but biometrics is unavailable on this device. You must re-enable biometrics to continue unlocking this application. */
-"privacy_vc_prompt_biometrics_unavailable_message" = "This application requires a biometric unlock but biometrics is unavailable on this device. You must re-enable biometrics to continue unlocking this application.";
+"privacy_vc_prompt_biometrics_unavailable_message" = "Questa applicazione richiede uno sblocco biometrico, ma la biometria non è disponibile su questo dispositivo. È necessario riabilitare gli elementi biometrici per continuare a sbloccare questa applicazione.";
 
 /* Identify to Open Strongbox */
-"privacy_vc_prompt_identify_to_open" = "Identify to Open Strongbox";
+"privacy_vc_prompt_identify_to_open" = "Identificarsi per Aprire Strongbox";
 
 /* %ld Attempts Remaining */
-"privacy_vc_prompt_pin_attempts_remaining_fmt" = "%ld Attempts Remaining";
+"privacy_vc_prompt_pin_attempts_remaining_fmt" = "%ld Tentativi Rimanenti";
 
 /* Sample Password Copied */
-"password_gen_vc_sample_password_copied" = "Sample Password Copied";
+"password_gen_vc_sample_password_copied" = "Password Campione Copiata";
 
 /* <Generation Failed> */
 "password_gen_vc_generation_failed" = "<Generation Failed>";
 
 /* Basic */
-"password_gen_vc_mode_basic_title" = "Basic";
+"password_gen_vc_mode_basic_title" = "Base";
 
 /* Using: %@ */
 "password_gen_vc_using_character_groups_fmt" = "Uso: %@";
@@ -1534,31 +1534,31 @@
 "password_gen_vc_using_wordlists_fmt" = "Uso: %@";
 
 /* Select Algorithm */
-"password_gen_vc_select_mode" = "Select Algorithm";
+"password_gen_vc_select_mode" = "Seleziona Algoritmo";
 
 /* Select Salt Type */
-"password_gen_vc_select_salt_type" = "Select Salt Type";
+"password_gen_vc_select_salt_type" = "Seleziona Tipo Salt";
 
 /* Select l33t Level */
-"password_gen_vc_select_hacker_level" = "Select l33t Level";
+"password_gen_vc_select_hacker_level" = "Selezionare Livello l33t";
 
 /* Select Word Casing */
-"password_gen_vc_select_casing_type" = "Select Word Casing";
+"password_gen_vc_select_casing_type" = "Seleziona Maiuscole/Minuscole";
 
 /* Select Word Lists */
-"password_gen_vc_select_wordlists" = "Select Word Lists";
+"password_gen_vc_select_wordlists" = "Selezionare Elenchi Di Parole";
 
 /* Select Character Groups */
-"password_gen_vc_select_character_groups" = "Select Character Groups";
+"password_gen_vc_select_character_groups" = "Seleziona Gruppi di Carattere";
 
 /* Word Separator */
-"password_gen_vc_prompt_word_separator" = "Word Separator";
+"password_gen_vc_prompt_word_separator" = "Separatore di Parole";
 
 /* Separator */
-"password_gen_vc_word_separator_placeholder" = "Separator";
+"password_gen_vc_word_separator_placeholder" = "Separatore";
 
 /* Strongbox: Error Opening Database */
-"cred_vc_error_opening_title" = "Strongbox: Error Opening Database";
+"cred_vc_error_opening_title" = "Strongbox: Errore Apertura Database";
 
 /* You Have No Databases Yet :( */
 "autofill_safes_vc_empty_title" = "Non Hai Ancora un Database :(";
@@ -1585,52 +1585,52 @@
 "autofill_safes_vc_storage_local_docs_name" = "Locale (Documenti)";
 
 /* Clear Google Drive Session */
-"cloud_sessions_clear_google" = "Clear Google Drive Session";
+"cloud_sessions_clear_google" = "Cancella Sessione Google Drive";
 
 /* Unlink Dropbox */
-"cloud_sessions_unlink_dropbox" = "Unlink Dropbox";
+"cloud_sessions_unlink_dropbox" = "Scollega da Dropbox";
 
 /* Clear OneDrive Session */
-"cloud_sessions_clear_onedrive" = "Clear OneDrive Session";
+"cloud_sessions_clear_onedrive" = "Cancella Sessione OneDrive";
 
 /* Sign Out of Google Drive? */
-"cloud_sessions_prompt_signout_google_title" = "Sign Out of Google Drive?";
+"cloud_sessions_prompt_signout_google_title" = "Uscire da Google Drive?";
 
 /* Are you sure you want to sign out of Google Drive? */
-"cloud_sessions_prompt_signout_google_message" = "Are you sure you want to sign out of Google Drive?";
+"cloud_sessions_prompt_signout_google_message" = "Sei sicuro di voler uscire da Google Drive?";
 
 /* Sign Out Successful */
-"cloud_sessions_prompt_google_signout_success_title" = "Sign Out Successful";
+"cloud_sessions_prompt_google_signout_success_title" = "Disconnessione Riuscita";
 
 /* You have been successfully been signed out of Google Drive. */
-"cloud_sessions_prompt_google_signout_success_message" = "You have been successfully been signed out of Google Drive.";
+"cloud_sessions_prompt_google_signout_success_message" = "Sei stato disconnesso con successo da Google Drive.";
 
 /* Unlink Dropbox? */
-"cloud_sessions_prompt_unlink_dropbox_title" = "Unlink Dropbox?";
+"cloud_sessions_prompt_unlink_dropbox_title" = "Scollegare Dropbox?";
 
 /* Are you sure you want to unlink Strongbox from Dropbox? */
-"cloud_sessions_prompt_unlink_dropbox_message" = "Are you sure you want to unlink Strongbox from Dropbox?";
+"cloud_sessions_prompt_unlink_dropbox_message" = "Sei sicuro di voler scollegare Strongbox da Dropbox?";
 
 /* Unlink Successful */
-"cloud_sessions_prompt_dropbox_unlink_success_title" = "Unlink Successful";
+"cloud_sessions_prompt_dropbox_unlink_success_title" = "Disconnessione Riuscita";
 
 /* You have successfully unlinked Strongbox from Dropbox. */
-"cloud_sessions_prompt_dropbox_unlink_success_message" = "You have successfully unlinked Strongbox from Dropbox.";
+"cloud_sessions_prompt_dropbox_unlink_success_message" = "Hai scollegato con successo Strongbox da Dropbox.";
 
 /* Sign out of OneDrive? */
-"cloud_sessions_prompt_signout_onedrive_title" = "Sign out of OneDrive?";
+"cloud_sessions_prompt_signout_onedrive_title" = "Uscire da OneDrive?";
 
 /* Are you sure you want to sign out of OneDrive? */
-"cloud_sessions_prompt_signout_onedrive_message" = "Are you sure you want to sign out of OneDrive?";
+"cloud_sessions_prompt_signout_onedrive_message" = "Sei sicuro di voler uscire da OneDrive?";
 
 /* Signout Successful */
-"cloud_sessions_prompt_onedrive_signout_success_title" = "Signout Successful";
+"cloud_sessions_prompt_onedrive_signout_success_title" = "Disconnessione Riuscita";
 
 /* You have successfully signed out of OneDrive. */
-"cloud_sessions_prompt_onedrive_signout_success_message" = "You have successfully signed out of OneDrive.";
+"cloud_sessions_prompt_onedrive_signout_success_message" = "Ti sei disconnesso con successo da OneDrive.";
 
 /* Error Signing out of OneDrive */
-"cloud_sessions_prompt_onedrive_signout_error" = "Error Signing out of OneDrive";
+"cloud_sessions_prompt_onedrive_signout_error" = "Errore Disconnessione da OneDrive";
 
 /* (in /) */
 "pick_creds_vc_group_path_display_string_root" = "(in /)";
@@ -1648,25 +1648,25 @@
 "pick_creds_vc_create_new_button_title" = "Crea Nuovo Elemento...";
 
 /* No Matching Entries */
-"pick_creds_vc_empty_search_dataset_title" = "No Matching Entries";
+"pick_creds_vc_empty_search_dataset_title" = "Nessuna Voce Corrispondente";
 
 /* Empty Database */
-"pick_creds_vc_empty_dataset_title" = "Empty Database";
+"pick_creds_vc_empty_dataset_title" = "Database Vuoto";
 
 /* Could not find any matching entries */
-"pick_creds_vc_empty_search_dataset_subtitle" = "Could not find any matching entries";
+"pick_creds_vc_empty_search_dataset_subtitle" = "Impossibile trovare voci corrispondenti";
 
 /* It appears your database is empty */
-"pick_creds_vc_empty_dataset_subtitle" = "It appears your database is empty";
+"pick_creds_vc_empty_dataset_subtitle" = "Sembra che il tuo database sia vuoto";
 
 /* Sample Group */
-"model_sample_group_title" = "Sample Group";
+"model_sample_group_title" = "Gruppo Campione";
 
 /* username */
-"model_sample_entry_username" = "username";
+"model_sample_entry_username" = "nome utente";
 
 /* Sample */
-"model_sample_entry_title" = "Sample";
+"model_sample_entry_title" = "Campione";
 
 /* SecureDrop */
 "pwgen_wordlist_securedrop" = "SecureDrop";
@@ -1849,28 +1849,28 @@
 "database_metadata_field_last_update_user" = "Last Update User";
 
 /* Key Stretch Iterations */
-"database_metadata_field_password_key_stretch_iterations" = "Keystretch Iterations";
+"database_metadata_field_password_key_stretch_iterations" = "Iterazioni Keystretch";
 
 /* Error message indicating that these item(s) cannot be deserialized to this database because they contain two groups with the same title. */
 "node_serialization_error_duplicate_group_title_fmt" = "Impossibile copiare questi elementi perché contengono due gruppi con lo stesso titolo '%@' che è non supportato da questo formato di database.";
 
 /* Argon 2 Memory */
-"database_metadata_field_argon2_memory" = "Argon2 Memory";
+"database_metadata_field_argon2_memory" = "Memoria Argon2";
 
 /* Are you sure you want to Remove this backup? */
 "backup_vc_are_you_sure_remove" = "Sei sicuro di volere Rimouvere questo backup?";
 
 /* This backup has been added to your databases */
-"backup_vc_backup_added_to_databases" = "This backup has been added to your databases";
+"backup_vc_backup_added_to_databases" = "Questo backup è stato aggiunto ai tuoi database";
 
 /* Add as Local Database */
-"backups_add_local" = "Add to Databases";
+"backups_add_local" = "Aggiungi ai Database";
 
 /* Are you sure you want to delete all backups? */
-"backups_vc_delete_all_backups_prompt_message" = "Are you sure you want to delete all backups?";
+"backups_vc_delete_all_backups_prompt_message" = "Sei sicuro di voler eliminare tutti i backup?";
 
 /* Set Maximum Backup Keep Count */
-"backups_vc_set_max_keep_count_title" = "Set Maximum Backup Keep Count";
+"backups_vc_set_max_keep_count_title" = "Imposta Numero Massimo Backup";
 
 /* You cannot use convenience unlock with a one time key file. */
 "config_error_one_time_key_file_convenience_message" = "Non è possibile utilizzare lo sblocco di convenienza con un file chiave monouso.";
@@ -1879,10 +1879,10 @@
 "config_error_one_time_key_file_convenience_title" = "Problema File Chiave Monouso";
 
 /* Could not write backup, will not proceed with write of database! */
-"model_error_cannot_write_backup" = "Could not write backup, will not proceed with write of database!";
+"model_error_cannot_write_backup" = "Impossibile scrivere il backup, non procederò con la scrittura del database!";
 
 /* Button Title to view backup settings of this database */
-"safes_vc_action_backups" = "Backups...";
+"safes_vc_action_backups" = "Backup...";
 
 /* Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences */
 "open_sequence_error_reading_key_file_autofill_context" = "Impossibile leggere File Chiave. È stato importato correttamente? Verificare Gestione File Chiave nelle Impostazioni";
@@ -1912,10 +1912,10 @@
 "upgrade_family_sharing_button_subtitle" = "Tocca per maggiori informazioni...";
 
 /* Select your preferred generated field title. */
-"select_generated_field_title" = "Generated Strings";
+"select_generated_field_title" = "Stringhe Generate";
 
 /* Select your preferred generated field message. */
-"select_generated_field_message" = "Please choose your preferred string";
+"select_generated_field_message" = "Si prega di scegliere la stringa preferita";
 
 /* Support Options */
 "prefs_vc_info_email_support_options_title" = "Support Options";
