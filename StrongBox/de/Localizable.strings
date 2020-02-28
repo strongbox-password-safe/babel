@@ -2548,7 +2548,7 @@
 "mac_select_key_file" = "Schlüsseldatei auswählen";
 
 /* You must use at least one of either a Password, a Key File or a YubiKey for your master credentials. */
-"mac_you_must_use_at_least_a_password_or_key_file" = "You must use at least one of either a Password, a Key File or a YubiKey for your master credentials.";
+"mac_you_must_use_at_least_a_password_or_key_file" = "Sie müssen mindestens eine der Komponenten Passwort, Schlüsseldatei oder YubiKey für Ihre Master-Zugangsdaten verwenden.";
 
 /* Password cannot be Empty */
 "mac_password_cannot_be_empty" = "Passwort darf nicht leer sein";
@@ -2827,10 +2827,10 @@
 "casg_yubikey_configured_nfc" = "NFC";
 
 /* Slot 1 */
-"casg_yubikey_configured_slot1" = "Platz 1";
+"casg_yubikey_configured_slot1" = "Slot 1";
 
 /* Slot 2 */
-"casg_yubikey_configured_slot2" = "Platz 2";
+"casg_yubikey_configured_slot2" = "Slot 2";
 
 /* YubiKey Unlock is not supported in Auto Fill mode */
 "open_sequence_cannot_use_yubikey_in_autofill_mode" = "YubiKey-Entsperrung wird im Modus autom. Ausfüllen nicht unterstützt";
@@ -2851,37 +2851,37 @@
 "generic_unknown" = "Unbekannt";
 
 /* Valid Credentials */
-"mac_valid_credentials" = "Valid Credentials";
+"mac_valid_credentials" = "Gültige Zugangsdaten";
 
 /* Could not get challenge response from Yubikey */
-"mac_error_getting_challenge_response_yubikey" = "Could not get challenge response from Yubikey";
+"mac_error_getting_challenge_response_yubikey" = "Challenge-Response konnte nicht vom YubiKey abgerufen werden";
 
 /* Refreshing... (Translators Note: Used whenever running a fairly short operation to indicate somehting is happening, e.g. when polling YubiKey status (can take a few seconds)) */
-"generic_refreshing_ellipsis" = "Refreshing...";
+"generic_refreshing_ellipsis" = "Aktualisiere...";
 
 /* Could not generate Composite Key */
-"mac_error_could_not_generate_composite_key" = "Could not generate Composite Key";
+"mac_error_could_not_generate_composite_key" = "Der zusammengesetzte Schlüssel konnte nicht erzeugt werden";
 
 /* None */
 "generic_none" = "Leer";
 
 /* YubiKey (Pro Only) */
-"mac_lock_screen_yubikey_popup_menu_yubico_pro_only" = "YubiKey (Pro Only)";
+"mac_lock_screen_yubikey_popup_menu_yubico_pro_only" = "YubiKey (Nur Pro-Version)";
 
 /* Yubikey Slot %ld (Touch Required) - (Translators Note: Some YubiKey devices/configurations require the user to touch or press a button to authenticate. This string also takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_touch_required_fmt" = "Yubikey Slot %ld (Touch Required)";
+"mac_yubikey_slot_n_touch_required_fmt" = "YubiKey Slot %ld (Berühren erforderlich)";
 
 /* Yubikey Slot %ld (Translators Note: This string takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_fmt" = "Yubikey Slot %ld";
+"mac_yubikey_slot_n_fmt" = "YubiKey Slot %ld";
 
 /* No YubiKeys Found */
-"mac_no_yubikeys_found" = "No YubiKeys Found";
+"mac_no_yubikeys_found" = "Keine YubiKeys gefunden";
 
 /* Yubikey %@ Slot %ld (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
-"mac_yubikey_serial_number_slot_n_touch_required_fmt" = "Yubikey %@ Slot %ld (Touch Required)";
+"mac_yubikey_serial_number_slot_n_touch_required_fmt" = "YubiKey %@ Slot %ld (Berühren erforderlich)";
 
 /* Yubikey %@ Slot %ld  - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2) */
-"mac_yubikey_serial_number_slot_n_fmt" = "Yubikey %@ Slot %ld";
+"mac_yubikey_serial_number_slot_n_fmt" = "YubiKey %@ Slot %ld";
 
 /* YubiKey found but no compatible HMACSHA1 slots available */
-"mac_yubikey_available_but_no_compatible_slots" = "YubiKey found but no compatible HMACSHA1 slots available";
+"mac_yubikey_available_but_no_compatible_slots" = "YubiKey gefunden, aber keine kompatiblen HMAC-SHA1-Slots verfügbar";
