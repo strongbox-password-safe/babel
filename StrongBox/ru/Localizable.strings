@@ -1900,13 +1900,13 @@
 "transfer_local_network_network_unavailable_message" = "Похоже, что отсутсвует подключение к сети?";
 
 /* Title of info dialog about Apple Family Sharing upgrade */
-"upgrade_family_sharing_info_title" = "Apple Family Sharing";
+"upgrade_family_sharing_info_title" = "Семейный доступ Apple";
 
 /* A message about how you will need to download/purchase a separate App for Apple Family Sharing to work */
-"upgrade_family_sharing_info_message" = "To benefit from Apple Family Sharing you need to have 'Apple Family Sharing' setup for your family. Then you should purchase the separate Family Sharing Edition of Strongbox.\nTap OK to view this edition on the App Store";
+"upgrade_family_sharing_info_message" = "Чтобы воспользоваться преимуществами функции «Семейного доступа» Apple, необходимо настроить её для Вашей семьи. Затем Вам следует приобрести отдельное Family Sharing издание приложения Strongbox.\nНажмите 'OK' для просмотра этого издания в App Store";
 
 /* Need Apple Family Sharing? */
-"upgrade_family_sharing_button_title" = "Need Apple Family Sharing?";
+"upgrade_family_sharing_button_title" = "Требуется семейный доступ Apple?";
 
 /* Need Apple Family Sharing? */
 "upgrade_family_sharing_button_subtitle" = "Нажмите для получения дополнительной информации...";
@@ -2548,7 +2548,7 @@
 "mac_select_key_file" = "Выберите ключевой файл";
 
 /* You must use at least one of either a Password, a Key File or a YubiKey for your master credentials. */
-"mac_you_must_use_at_least_a_password_or_key_file" = "You must use at least one of either a Password, a Key File or a YubiKey for your master credentials.";
+"mac_you_must_use_at_least_a_password_or_key_file" = "Вам необходимо использовать по крайней мере один из компонентов - пароль, ключевой файл или YubiKey - для Ваших основных учётных данных.";
 
 /* Password cannot be Empty */
 "mac_password_cannot_be_empty" = "Пароль не может быть пустым";
@@ -2842,7 +2842,7 @@
 "yubikey_config_section_header_nfc_pro_only" = "NFC Yubikey (только в Про версии)";
 
 /* Disabled (Pro Edition Only) */
-"casg_yubikey_configured_disabled_pro_only" = "Disabled (Pro Edition Only)";
+"casg_yubikey_configured_disabled_pro_only" = "Отключен (только в Про версии)";
 
 /* Yubikey (Pro Edition Only) */
 "casg_section_header_yubikey_pro_only" = "Yubikey (только в Про версии)";
@@ -2851,54 +2851,54 @@
 "generic_unknown" = "Неизвестный";
 
 /* Valid Credentials */
-"mac_valid_credentials" = "Valid Credentials";
+"mac_valid_credentials" = "Допустимые учётные данные";
 
 /* Could not get challenge response from Yubikey */
-"mac_error_getting_challenge_response_yubikey" = "Could not get challenge response from Yubikey";
+"mac_error_getting_challenge_response_yubikey" = "Не удалось получить ответ Yubikey на запрос";
 
 /* Refreshing... (Translators Note: Used whenever running a fairly short operation to indicate somehting is happening, e.g. when polling YubiKey status (can take a few seconds)) */
-"generic_refreshing_ellipsis" = "Refreshing...";
+"generic_refreshing_ellipsis" = "Обновление...";
 
 /* Could not generate Composite Key */
-"mac_error_could_not_generate_composite_key" = "Could not generate Composite Key";
+"mac_error_could_not_generate_composite_key" = "Не удалось сгенерировать составной ключ";
 
 /* None */
 "generic_none" = "Отсутствует";
 
 /* YubiKey (Pro Only) */
-"mac_lock_screen_yubikey_popup_menu_yubico_pro_only" = "YubiKey (Pro Only)";
+"mac_lock_screen_yubikey_popup_menu_yubico_pro_only" = "YubiKey (только в Про версии)";
 
 /* Yubikey Slot %ld (Touch Required) - (Translators Note: Some YubiKey devices/configurations require the user to touch or press a button to authenticate. This string also takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_touch_required_fmt" = "Yubikey Slot %ld (Touch Required)";
+"mac_yubikey_slot_n_touch_required_fmt" = "Слот Yubikey %ld (Требуется касание)";
 
 /* Yubikey Slot %ld (Translators Note: This string takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_fmt" = "Yubikey Slot %ld";
+"mac_yubikey_slot_n_fmt" = "Слот Yubikey %ld";
 
 /* No YubiKeys Found */
 "mac_no_yubikeys_found" = "No YubiKeys Found";
 
 /* Yubikey %@ Slot %ld (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
-"mac_yubikey_serial_number_slot_n_touch_required_fmt" = "Yubikey %@ Slot %ld (Touch Required)";
+"mac_yubikey_serial_number_slot_n_touch_required_fmt" = "Yubikey %@ слот %ld (Требуется касание)";
 
 /* Yubikey %@ Slot %ld  - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2) */
-"mac_yubikey_serial_number_slot_n_fmt" = "Yubikey %@ Slot %ld";
+"mac_yubikey_serial_number_slot_n_fmt" = "Yubikey %@ слот %ld";
 
 /* YubiKey found but no compatible HMACSHA1 slots available */
-"mac_yubikey_available_but_no_compatible_slots" = "YubiKey found but no compatible HMACSHA1 slots available";
+"mac_yubikey_available_but_no_compatible_slots" = "YibiKey найден, но нет совместимых разъемов HMACSHA1";
 
 "casg_yubikey_configured_mfi" = "Lightning";
 
 /* Auto Fill Crash Occurred */
-"autofill_did_not_close_cleanly_title" = "Auto Fill Crash Occurred";
+"autofill_did_not_close_cleanly_title" = "Произошёл сбой автозаполнения";
 
 /* It looks like the last time you used Auto Fill you had a crash. This is usually due to a memory limitation. Please check your database file size and your Argon2 memory settings (should be <= 64MB) */
-"autofill_did_not_close_cleanly_message" = "It looks like the last time you used Auto Fill you had a crash. This is usually due to a iOS memory limitations. Please check database file size and Argon2 memory (should be <= 64MB) settings";
+"autofill_did_not_close_cleanly_message" = "Похоже, что при последнем использовании автозаполнения у Вас произошёл сбой. Обычно это случается из-за ограничений памяти iOS. Пожалуйста, проверьте размер файла базы данных и настройки памяти Argon2 (должно быть <= 64МБ)";
 
 /* Regenerate... */
-"password_generation_regenerate_ellipsis" = "Regenerate...";
+"password_generation_regenerate_ellipsis" = "Регенерировать...";
 
 /* Touch the key to read the OTP */
-"yubikey_touch_the_key_to_read_the_otp" = "Touch the key to read the OTP";
+"yubikey_touch_the_key_to_read_the_otp" = "Коснитесь ключа для чтения одноразового пароля";
 
 /* Insert the key to read the OTP */
-"yubikey_insert_the_key_to_read_the_otp" = "Insert the key to read the OTP";
+"yubikey_insert_the_key_to_read_the_otp" = "Вставьте ключ для чтения одноразового пароля";
