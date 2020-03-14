@@ -225,7 +225,7 @@
 "safesvc_update_existing_database_title" = "Uppdatera befintlig databas?";
 
 /* A database using this file name was found in Strongbox. Should Strongbox overwrite that database with this file, or would you like to create a new database using this file? */
-"safesvc_update_existing_question" = "A database using this file name was found in Strongbox. Should Strongbox overwrite that database with this file, or would you like to create a new database using this file?";
+"safesvc_update_existing_question" = "En databas med detta filnamn hittades i Strongbox. Ska Strongbox ersätta den databasen eller vill du skapa en ny databas med denna fil?";
 
 /* Update Existing Database */
 "safesvc_update_existing_option_update" = "Uppdatera befintlig databas";
@@ -700,7 +700,7 @@
 "prefs_vc_auto_lock_database_delay" = "Fördröjning autolås av databas";
 
 /* This will clear all securely stored master passwords (for all databases) used by biometric unlock. Are you sure? */
-"prefs_vc_clear_biometrics_yesno_message" = "This will clear all securely stored master passwords (for all databases) used by biometric unlock. Are you sure?";
+"prefs_vc_clear_biometrics_yesno_message" = "Detta kommer att rensa alla säkert lagrade huvudlösenord (för alla databaser) som används för biometrisk upplåsning. Är du säker?";
 
 /* Clear Biometrics */
 "prefs_vc_clear_biometrics_yesno_title" = "Rensa biometrik";
@@ -709,7 +709,7 @@
 "prefs_vc_clear_clipboard_delay" = "Raderingsfördröjning av urklipp";
 
 /* This will clear all securely stored master passwords (for all databases) used for PIN Code unlock. Are you sure? */
-"prefs_vc_clear_pin_codes_yesno_message" = "This will clear all securely stored master passwords (for all databases) used for PIN Code unlock. Are you sure?";
+"prefs_vc_clear_pin_codes_yesno_message" = "Detta kommer att rensa alla säkert lagrade huvudlösenord (för alla databaser) som används för upplåsning med PIN-kod. Är du säker?";
 
 /* Clear PIN Codes */
 "prefs_vc_clear_pin_codes_yesno_title" = "Rensa PIN-koder";
@@ -835,7 +835,7 @@
 "upgrade_vc_lifetime_purchase_title" = "Livstid";
 
 /* (No Subscription) */
-"upgrade_vc_lifetime_subtitle_no_sub" = "(Inget abonnemang)";
+"upgrade_vc_lifetime_subtitle_no_sub" = "One Time Payment (No Subscription)";
 
 /* Monthly */
 "upgrade_vc_monthly_subscription_title" = "Månadsvis";
@@ -844,13 +844,13 @@
 "upgrade_vc_price_not_available_try_later" = "Försök igen senare";
 
 /* Momentarily Unavailable */
-"upgrade_vc_price_not_currently_available" = "Tillfälligt otillgänglig";
+"upgrade_vc_price_not_currently_available" = "Unavailable... Check your network connection";
 
 /* %@/month */
-"upgrade_vc_price_per_month_fmt" = "%@/månad";
+"upgrade_vc_price_per_month_fmt" = "%@ / month";
 
 /* %@/month (Save %d%%) */
-"upgrade_vc_price_per_month_with_percentage_saving_fmt" = "%@/månad (Spara %d%%)";
+"upgrade_vc_price_per_month_with_percentage_saving_fmt" = "%@ / month (Save %d%%)";
 
 /* Issue Restoring Purchase */
 "upgrade_vc_problem_restoring" = "Problem med att återställa köp";
@@ -1068,7 +1068,7 @@
 "key_files_vc_error_reading" = "Fel vid läsning";
 
 /* There was an error importing the Key File (does it already exist?) */
-"key_files_vc_error_importing" = "There was an error importing the Key File (does it already exist?)";
+"key_files_vc_error_importing" = "Fel vid import av nyckelfil (finns den redan?)";
 
 /* File Already Exists */
 "key_files_vc_error_file_already_exists_title" = "Filen finns redan";
@@ -1086,7 +1086,7 @@
 "key_files_vc_remove_after_import_title" = "Ta bort efter import";
 
 /* Do you want to remove the key file from the local Documents folder after import? This will mean it is not visible in iOS Files or accessible via iTunes File Sharing? */
-"key_files_vc_remove_after_import_message" = "Do you want to remove the key file from the local Documents folder after import? This will mean it is not visible in iOS Files or accessible via iTunes File Sharing.";
+"key_files_vc_remove_after_import_message" = "Vill du ta bort nyckelfilen från den lokala dokumentmappen efter importen? Detta innebär att filen inte kommer att synas i iOS Filer och är inte tillgänglig via iTunes fildelning.";
 
 /* Yes, Remove Local Copy */
 "key_files_vc_remove_after_import_option_yes" = "Ja, ta bort lokal kopia";
@@ -1432,7 +1432,7 @@
 "key_files_vc_no_key_file" = "Ingen nyckelfil";
 
 /* The Convenience Password or Key File were incorrect for this database. Convenience Unlock Disabled. */
-"open_sequence_problem_opening_convenience_incorrect_message" = "The stored convenience password or other composite key factors (key file/Yubikey) were incorrect for this database. Convenience Unlock has been Disabled.";
+"open_sequence_problem_opening_convenience_incorrect_message" = "Det lagrade bekvämlighetslösenordet eller andra sammansatta nyckelfaktorer (nyckelfil/YubiKey) var felaktiga för denna databas. Bekvämlighetsupplåsning har inaktiverats.";
 
 /* Incorrect Credentials */
 "open_sequence_problem_opening_incorrect_credentials_title" = "Felaktiga autentiseringsuppgifter";
@@ -1900,13 +1900,13 @@
 "transfer_local_network_network_unavailable_message" = "Det verkar som om du är offline?";
 
 /* Title of info dialog about Apple Family Sharing upgrade */
-"upgrade_family_sharing_info_title" = "Apple Family Sharing";
+"upgrade_family_sharing_info_title" = "Apple Familjedelning";
 
 /* A message about how you will need to download/purchase a separate App for Apple Family Sharing to work */
-"upgrade_family_sharing_info_message" = "To benefit from Apple Family Sharing you need to have 'Apple Family Sharing' setup for your family. Then you should purchase the separate Family Sharing Edition of Strongbox.\nTap OK to view this edition on the App Store";
+"upgrade_family_sharing_info_message" = "För att kunna dra nytta av Apple Familjedelning måste du ha konfigurerat Apple Familjedelning för din familj. Därefter ska du köpa den separata familjedelningsversionen av Strongbox.\nTryck OK om du vill se den versionen i App Store";
 
 /* Need Apple Family Sharing? */
-"upgrade_family_sharing_button_title" = "Need Apple Family Sharing?";
+"upgrade_family_sharing_button_title" = "Behöver du Apple Familjedelning?";
 
 /* Need Apple Family Sharing? */
 "upgrade_family_sharing_button_subtitle" = "Tryck för mer info ...";
@@ -2282,7 +2282,7 @@
 "mac_could_not_unlock_database" = "Kunde inte låsa upp databas";
 
 /* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be securely stored for %@ before you need to re-enter it. Note for translators (1st Param = "Touch ID", 2nd Param is a time span, default of "2 weeks") */
-"mac_use_biometric_to_open_in_future_fmt" = "Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be securely stored for %@ before you need to re-enter it.";
+"mac_use_biometric_to_open_in_future_fmt" = "Vill du använda %@ eller din Apple Watch för att låsa upp denna databas i framtiden? Ditt huvudlösenord kommer att lagras säkert i %@ innan du behöver ange det igen.";
 
 /* Touch ID Considerations\n\nWhile this is very convenient, it is not a perfect system for protecting your passwords. It is provided for convenience only. It is within the realm of possibilities that someone with access to your device or your fingerprint, can produce a good enough fake fingerprint to fool Apple’s Touch ID. In addition, on your Mac, your master password will be securely stored in the Keychain. This means it is possible for someone with administrative privileges to search your Keychain for your master password. You should be aware that a strong passphrase held only in your mind provides the most secure experience with StrongBox.\n\nPlease take all of this into account, and make your decision to use Touch ID based on your preferred balance of convenience and security. */
 "mac_touch_id_one_time_warning" = "Touch ID/Apple Watch beaktande\n\nÄven om det är mycket bekvämt så är det inte ett perfekt system för att skydda dina lösenord. Det tillhandahålls endast för bekvämlighet. Det är inom möjligheternas ram att någon med tillgång till din enhet eller ditt fingeravtryck kan skapa ett tillräckligt bra falskt fingeravtryck för att lura Apples Touch ID. Dessutom kommer ditt huvudlösenord att lagras i Nyckelhanteraren på din Mac. Det innebär att det är möjligt för någon med administratörsbehörighet att söka efter huvudlösenordet i Nyckelhanteraren. Du bör vara medveten om att en stark lösenordsfras i minnet ger den mest säkra upplevelsen med StrongBox.\n\nTa hänsyn till allt detta och basera ditt beslut att använda Touch ID med önskad balans mellan bekvämlighet och säkerhet.";
@@ -2548,7 +2548,7 @@
 "mac_select_key_file" = "Välj en nyckelfil";
 
 /* You must use at least one of either a Password, a Key File or a YubiKey for your master credentials. */
-"mac_you_must_use_at_least_a_password_or_key_file" = "You must use at least one of either a Password, a Key File or a YubiKey for your master credentials.";
+"mac_you_must_use_at_least_a_password_or_key_file" = "Som huvudautentiseringsuppgift måste du använda minst ett av ett lösenord, en nyckelfil eller en YubiKey.";
 
 /* Password cannot be Empty */
 "mac_password_cannot_be_empty" = "Lösenord kan inte vara tomt";
@@ -2752,156 +2752,201 @@
 "mac_browse_for_key_file" = "Bläddra ...";
 
 /* [Configured] - (Translators Note: User is using a key file, Strongbox knows what/where it is, but will not display the file name in the UI for privacy reasons. This appears on the unlock screen. */
-"mac_key_file_configured_but_filename_hidden" = "[Configured]";
+"mac_key_file_configured_but_filename_hidden" = "[Konfigurerad]";
 
 /* %@ [Configured] - (Translators Note: User is using a key file that has previously been set/remembered by Strongbox. First parameter is the filename of the key file. This appears on the unlock screen. */
-"mac_key_file_filename_configured_fmt" = "%@ [Configured]";
+"mac_key_file_filename_configured_fmt" = "%@ [Konfigurerad]";
 
 /* Touch ID/Apple Watch Unlock is not possible at the moment because Touch ID/Apple Watch is not available. */
-"mac_info_biometric_unlock_not_possible_right_now" = "Touch ID/Apple Watch Unlock is not possible at the moment because Touch ID/Apple Watch is not available.";
+"mac_info_biometric_unlock_not_possible_right_now" = "Upplåsning med Touch ID/Apple Watch är inte möjligt just nu eftersom Touch ID/Apple Watch inte är tillgänglig.";
 /* Touch ID/Apple Watch Unlock is not possible because the stored credentials are unavailable. This is probably because they have expired. Please enter the password manually. */
-"mac_could_not_find_stored_credentials" = "Touch ID/Apple Watch Unlock is not possible because the stored credentials are unavailable. This is probably because they have expired. Please enter the password manually.";
+"mac_could_not_find_stored_credentials" = "Touch ID/Apple Watch-upplåsning är inte möjligt eftersom de lagrade uppgifterna är otillgängliga. Detta beror förmodligen på att de är utgångna. Ange lösenordet manuellt.";
 
 
 /* Convenience Unlock */
-"mac_convenience_unlock_title" = "Convenience Unlock";
+"mac_convenience_unlock_title" = "Bekvämlighetsupplåsning";
 
 /* Convenience Unlock (Touch ID/Watch Unavailable) */
-"mac_convenience_unlock_title_bio_unavailable" = "Convenience Unlock (Touch ID/Watch Unavailable)";
+"mac_convenience_unlock_title_bio_unavailable" = "Bekvämlighetsupplåsning (Touch ID/Watch ej tillgänglig)";
 
 /* Convenience Unlock (Pro Feature Only) */
-"mac_convenience_unlock_title_pro_only" = "Convenience Unlock (Pro Feature Only)";
+"mac_convenience_unlock_title_pro_only" = "Bekvämlighetsupplåsning (endast Pro-funktion)";
 
 /* Convenience Password is securely stored, protected by your device's Secure Enclave and will expire: %@. - Translators Note: 1st Parameter is a date, like "Today at 14:52" or "16 September 2020 at 16:54" */
-"mac_convenience_summary_secure_enclave_and_will_expire_fmt" = "Convenience Password is securely stored, protected by your device's Secure Enclave and will expire: %@.";
+"mac_convenience_summary_secure_enclave_and_will_expire_fmt" = "Bekvämlighetslösenordet är säkert lagrat, skyddad av din enhets Secure Enclave och upphör att gälla: %@.";
 
 /* Convenience Password is securely stored in your Keychain (Secure Enclave unavailable on this device) and will expire: %@. - Translators Note: 1st Parameter is a date, like "Today at 14:52" or "16 September 2020 at 16:54" */
-"mac_convenience_summary_keychain_and_will_expire_fmt" = "Convenience Password is securely stored in your Keychain (Secure Enclave unavailable on this device) and will expire: %@.";
+"mac_convenience_summary_keychain_and_will_expire_fmt" = "Bekvämlighetslösenordet är säkert lagrat i din nyckelring (Secure Enclave är inte tillgänglig på denna enhet) och upphör att gälla: %@.";
 
 /* Convenience Password is securely stored, protected by your device's Secure Enclave and is configured not to expire. */
-"mac_convenience_summary_secure_enclave_and_will_not_expire" = "Convenience Password is securely stored, protected by your device's Secure Enclave and is configured not to expire.";
+"mac_convenience_summary_secure_enclave_and_will_not_expire" = "Bekvämlighetslösenordet är säkert lagrat, skyddad av din enhets Secure Enclave och är konfigurerad att gälla tills vidare.";
 
 /* Convenience Password is securely stored in your Keychain (Secure Enclave unavailable on this device), and is configured not to expire. */
-"mac_convenience_summary_keychain_and_will_not_expire" = "Convenience Password is securely stored in your Keychain (Secure Enclave unavailable on this device), and is configured not to expire.";
+"mac_convenience_summary_keychain_and_will_not_expire" = "Bekvämlighetslösenordet är säkert lagrat i din nyckelring (Secure Enclave är inte tillgänglig på denna enhet) och är konfigurerad att gälla tills vidare.";
 
 /* Convenience Password is securely stored (in memory only) encrypted by your device's Secure Enclave and will expire on Strongbox Exit. */
-"mac_convenience_summary_secure_enclave_and_will_expire_on_exit" = "Convenience Password is securely stored (in memory only) encrypted by your device's Secure Enclave and will expire on Strongbox Exit.";
+"mac_convenience_summary_secure_enclave_and_will_expire_on_exit" = "Bekvämlighetslösenordet är säkert lagrat (endast i minnet), krypterad av din enhets Secure Enclave och upphör att gälla när Strongbox avslutas.";
 
 /* Convenience Password is securely stored (in memory only) only and will expire on Strongbox Exit. */
-"mac_convenience_summary_keychain_and_will_expire_on_exit" = "Convenience Password is securely stored (in memory only) only and will expire on Strongbox Exit.";
+"mac_convenience_summary_keychain_and_will_expire_on_exit" = "Bekvämlighetslösenordet är säkert lagrat (endast i minnet) och upphör att gälla när Strongbox avslutas.";
 
 /* Convenience Unlock is Enabled but the securely stored master password has expired. */
-"mac_convenience_summary_enabled_but_expired" = "Convenience Unlock is enabled but the securely stored master password has expired.";
+"mac_convenience_summary_enabled_but_expired" = "Bekvämlighetsupplåsning är aktiverat men det säkert lagrade huvudlösenordet har upphört att gälla.";
 
 /* Convenience Unlock Disabled */
-"mac_convenience_summary_disabled" = "Convenience Unlock Disabled";
+"mac_convenience_summary_disabled" = "Bekvämlighetsupplåsning avaktiverad";
 
 /* Convenience Unlock (Touch ID/Watch Unavailable) */
-"mac_convenience_summary_biometrics_unavailable" = "Convenience Unlock (Touch ID/Watch Unavailable)";
+"mac_convenience_summary_biometrics_unavailable" = "Bekvämlighetsupplåsning (Touch ID/Watch ej tillgänglig)";
 
 /* Convenience Unlock is only available in the Pro version of Strongbox. Please consider upgrading to support development. */
-"mac_convenience_summary_only_available_on_pro" = "Convenience Unlock is only available in the Pro version of Strongbox. Please consider upgrading to support development.";
+"mac_convenience_summary_only_available_on_pro" = "Bekvämlighetsupplåsning är endast tillgänglig i Pro-versionen av Strongbox. Överväg att uppgradera för att stödja utveckling av Strongbox.";
 
 /* Never */
 "mac_convenience_expiry_period_never" = "Aldrig";
 
 /* App Exit */
-"mac_convenience_expiry_period_on_app_exit" = "App Exit";
+"mac_convenience_expiry_period_on_app_exit" = "Appavslut";
 
 /* Unlock with Touch ID or Watch */
 "mac_unlock_screen_button_title_convenience_unlock" = "Lås upp med Touch ID eller Watch";
 
 /* Convenience Unlock Expired */
-"mac_unlock_screen_button_title_convenience_unlock_expired" = "Convenience Unlock Expired";
+"mac_unlock_screen_button_title_convenience_unlock_expired" = "Bekvämlighetsupplåsning har upphört att gälla";
 
 /* Touch ID/Watch Unavailable */
-"mac_unlock_screen_button_title_convenience_unlock_bio_unavailable" = "Touch ID/Watch Unavailable";
+"mac_unlock_screen_button_title_convenience_unlock_bio_unavailable" = "Touch ID/Watch ej tillgänglig";
 
 /* Touch ID/Watch Unlock (Pro Only) */
-"mac_unlock_screen_button_title_convenience_unlock_pro_only" = "Touch ID/Watch Unlock (Pro Only)";
+"mac_unlock_screen_button_title_convenience_unlock_pro_only" = "Touch ID/Watch-upplåsning (endast Pro)";
 
 /* Configure... */
-"casg_yubikey_configure_action" = "Configure...";
+"casg_yubikey_configure_action" = "Konfigurera ...";
 
 /* NFC */
 "casg_yubikey_configured_nfc" = "NFC";
 
 /* Slot 1 */
-"casg_yubikey_configured_slot1" = "Slot 1";
+"casg_yubikey_configured_slot1" = "Plats 1";
 
 /* Slot 2 */
-"casg_yubikey_configured_slot2" = "Slot 2";
+"casg_yubikey_configured_slot2" = "Plats 2";
 
 /* YubiKey Unlock is not supported in Auto Fill mode */
-"open_sequence_cannot_use_yubikey_in_autofill_mode" = "YubiKey Unlock is not supported in Auto Fill mode";
+"open_sequence_cannot_use_yubikey_in_autofill_mode" = "YubiKey-upplåsning stöds inte i autofyllningsläge";
 
 /* YubiKey Unlock is only available in the Pro edition of Strongbox */
-"open_sequence_yubikey_only_available_in_pro" = "YubiKey Unlock is only available in the Pro edition of Strongbox";
+"open_sequence_yubikey_only_available_in_pro" = "YubiKey-upplåsning finns endast i Pro-versionen av Strongbox";
 
 /* NFC Yubikey (Pro Edition Only) */
-"yubikey_config_section_header_nfc_pro_only" = "NFC Yubikey (Pro Edition Only)";
+"yubikey_config_section_header_nfc_pro_only" = "NFC YubiKey (endast Pro-version)";
 
 /* Disabled (Pro Edition Only) */
-"casg_yubikey_configured_disabled_pro_only" = "Disabled (Pro Edition Only)";
+"casg_yubikey_configured_disabled_pro_only" = "Inaktiverad (endast Pro-version)";
 
 /* Yubikey (Pro Edition Only) */
-"casg_section_header_yubikey_pro_only" = "Yubikey (Pro Edition Only)";
+"casg_section_header_yubikey_pro_only" = "YubiKey (endast Pro-version)";
 
 /* Unknown (Translators Note: Used when generally when something can't be determined, e.g. The URL or file name of a database, or the type of storage provider used, or the format of a newly opened database etc.)*/
-"generic_unknown" = "Unknown";
+"generic_unknown" = "Okänd";
 
 /* Valid Credentials */
-"mac_valid_credentials" = "Valid Credentials";
+"mac_valid_credentials" = "Giltiga användaruppgifter";
 
 /* Could not get challenge response from Yubikey */
-"mac_error_getting_challenge_response_yubikey" = "Could not get challenge response from Yubikey";
+"mac_error_getting_challenge_response_yubikey" = "Fick inte kontrollsvar från YubiKey";
 
 /* Refreshing... (Translators Note: Used whenever running a fairly short operation to indicate somehting is happening, e.g. when polling YubiKey status (can take a few seconds)) */
-"generic_refreshing_ellipsis" = "Refreshing...";
+"generic_refreshing_ellipsis" = "Uppdaterar ...";
 
 /* Could not generate Composite Key */
-"mac_error_could_not_generate_composite_key" = "Could not generate Composite Key";
+"mac_error_could_not_generate_composite_key" = "Kunde inte generera sammansatt nyckel";
 
 /* None */
 "generic_none" = "Inget";
 
 /* YubiKey (Pro Only) */
-"mac_lock_screen_yubikey_popup_menu_yubico_pro_only" = "YubiKey (Pro Only)";
+"mac_lock_screen_yubikey_popup_menu_yubico_pro_only" = "YubiKey (endast Pro)";
 
 /* Yubikey Slot %ld (Touch Required) - (Translators Note: Some YubiKey devices/configurations require the user to touch or press a button to authenticate. This string also takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_touch_required_fmt" = "Yubikey Slot %ld (Touch Required)";
+"mac_yubikey_slot_n_touch_required_fmt" = "YubiKey plats %ld (beröring krävs)";
 
 /* Yubikey Slot %ld (Translators Note: This string takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_fmt" = "Yubikey Slot %ld";
+"mac_yubikey_slot_n_fmt" = "YubiKey plats %ld";
 
 /* No YubiKeys Found */
-"mac_no_yubikeys_found" = "No YubiKeys Found";
+"mac_no_yubikeys_found" = "Inga YubiKeys hittades";
 
 /* Yubikey %@ Slot %ld (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
-"mac_yubikey_serial_number_slot_n_touch_required_fmt" = "Yubikey %@ Slot %ld (Touch Required)";
+"mac_yubikey_serial_number_slot_n_touch_required_fmt" = "YubiKey %@ plats %ld (beröring krävs)";
 
 /* Yubikey %@ Slot %ld  - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2) */
-"mac_yubikey_serial_number_slot_n_fmt" = "Yubikey %@ Slot %ld";
+"mac_yubikey_serial_number_slot_n_fmt" = "YubiKey %@ plats %ld";
 
 /* YubiKey found but no compatible HMACSHA1 slots available */
-"mac_yubikey_available_but_no_compatible_slots" = "YubiKey found but no compatible HMACSHA1 slots available";
+"mac_yubikey_available_but_no_compatible_slots" = "YubiKey hittades men inga kompatibla HMACSHA1 platser tillgängliga";
 
 "casg_yubikey_configured_mfi" = "Lightning";
 
 /* Auto Fill Crash Occurred */
-"autofill_did_not_close_cleanly_title" = "Auto Fill Crash Occurred";
+"autofill_did_not_close_cleanly_title" = "Autofyll-krasch inträffade";
 
 /* It looks like the last time you used Auto Fill you had a crash. This is usually due to a memory limitation. Please check your database file size and your Argon2 memory settings (should be <= 64MB) */
-"autofill_did_not_close_cleanly_message" = "It looks like the last time you used Auto Fill you had a crash. This is usually due to a iOS memory limitations. Please check database file size and Argon2 memory (should be <= 64MB) settings";
+"autofill_did_not_close_cleanly_message" = "Förra gången du använde Autofyll verkar det som att du hade en krasch. Detta beror ofta på iOS-minnesbegränsningar. Kontrollera databasens storlek och inställningen för Argon2 minne (bör vara <= 64MB)";
 
 /* Regenerate... */
-"password_generation_regenerate_ellipsis" = "Regenerate...";
+"password_generation_regenerate_ellipsis" = "Återskapa ...";
 
 /* Touch the key to read the OTP */
-"yubikey_touch_the_key_to_read_the_otp" = "Touch the key to read the OTP";
+"yubikey_touch_the_key_to_read_the_otp" = "Rör vid YubiKey för att läsa OTP";
 
 /* Insert the key to read the OTP */
-"yubikey_insert_the_key_to_read_the_otp" = "Insert the key to read the OTP";
+"yubikey_insert_the_key_to_read_the_otp" = "Sätt in YubiKey för att läsa OTP";
 
 /* Communicating with YubiKey... */
-"yubikey_communicating_with_key_ellipsis" = "Communicating with YubiKey...";
+"yubikey_communicating_with_key_ellipsis" = "Kommunicerar med YubiKey ...";
+
+/* Icon Set */
+"browse_prefs_icon_set" = "Icon Set";
+
+/* Classic */
+"keepass_icon_set_classic" = "Classic";
+
+/* SF Symbols (iOS 13+) */
+"keepass_icon_set_sf_symbols" = "SF Symbols (iOS 13+)";
+
+/* Translators Note: 1 parameter here to mention Biometric unlock, which depends on the device (will be either: 'Touch ID Unlock' or 'Face ID Unlock') */
+"upgrade_short_developer_message_fmt" = "Hi, Mark here, I'm the developer of Strongbox. Just to let you know Strongbox works on the freemium model, which means there is a free and a pro version. I hope you really like Strongbox and find it useful every day.\n\nI was wondering if you would consider upgrading? By upgrading you help to support an indie app developer and make continuous improvement possible.\n\nYou also secure access to great Pro features like %@, PIN Codes & FavIcons!\n\nI love working on this app and your support allows me to keep doing so.\n\nThank you,\n-Mark";
+
+/* Translators Note: 1 parameter indicating number of days left in users free trial */
+"upgrade_vc_you_have_n_days_remaining_fmt" = "You have %ld days left in your Pro trial";
+
+/* Your free trial of Strongbox Pro has expired. */
+"upgrade_vc_your_free_trial_expired" = "Your free trial of Strongbox Pro has expired.";
+
+/* Enjoy %@ and other Pro features by Upgrading! - Translators Note: 1st parameter is for biometric unlock (will be either: 'Touch ID Unlock' or 'Face ID Unlock') */
+"upgrade_vc_enjoy_features_by_upgrading_fmt" = "Enjoy %@ and other Pro features by Upgrading!";
+
+/* */
+"upgrade_question_answer_free_pro_differences" = "The main difference between the Free and Pro version of Strongbox is Touch/Face ID Unlock.\n\nThis is a super convenient method to unlock your databases. Without using this you need to enter your secure master password manually everytime, and usually this is a long and complicated password which can be slow and error prone to enter.\n\nOther than that there are a couple of features like PIN Codes and FavIcons which are nice to have.\n\nOne key benefit is that you won't see this upgrade screen again and you will be supporting continued development of Strongbox.\n\nYou can see a summary of the differences by tapping the 'Free vs Pro Comparison Chart' button on the main Upgrade screen.";
+
+/* */
+"upgrade_question_answer_end_trial" = "At the end of your trial you will be automatically transitioned to the Free version and you will no longer be able to use nifty features like Touch/Face ID Unlock.\n\nYou will still be able to access your databases, search them, edit them, and sync them to your cloud.\n\nYou might see an upgrade prompt every now and then too. This is just to encourage you to consider supporting ongoing development.";
+
+/* */
+"upgrade_question_answer_free_version_forever" = "For sure, you can of course use the Free version forever. It's quite functional, but please if you find Strongbox useful or valuable, or if it makes your online life more secure then please consider upgrading.";
+
+/* */
+"upgrade_question_answer_another_question" = "If you have other questions you might be able to find the answer online, e.g. by searching, or reddit (r/strongbox) or the web (https://strongboxsafe.com/faq).\n\nIf you are very stuck then you can email support@strongboxsafe.com in English only. Note that support queries eat up a lot of development time so please consider this and make your inquiry short and to the point.";
+
+/* */
+"upgrade_question_answer_works_on_other_devices" = "Yes, the upgrade is linked to your Apple ID. So if you are signed in to that Apple ID account on your other iOS devices Strongbox will be available in the full Pro version.\n\nThis should happen automatically but you may need to tap the 'Restore Previous Purchase' button if it doesn't.";
+
+/* */
+"upgrade_question_answer_share_family" = "This will only work if you are already enrolled and setup with your family or friends as part of the Apple Family Sharing program.\n\nSecondly, you need to purchase a separate version Strongbox rather than using the In App Purchase options in this app. This is because Apple's Family Sharing program does not support In App Purchases.\n\nYou can find the Apple Family Sharing version of Strongbox by tapping the 'Apple Family Sharing' button on the main upgrade screen.";
+
+/* */
+"upgrade_question_answer_works_on_mac" = "Unfortunately not. iOS and Mac are two separate platforms and Strongbox iOS and Mac are two very separate apps. There is also no way at the moment to bundle the two together in a single purchase.";
+
+/* */
+"upgrade_question_answer_buy_company_licenses" = "Please get in touch with support@strongboxsafe.com to discuss volume license purchasing and custom builds for your company.";
