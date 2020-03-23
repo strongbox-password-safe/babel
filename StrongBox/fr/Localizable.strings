@@ -822,12 +822,6 @@
 /* 3 Months */
 "upgrade_vc_2monthly_subscription_title" = "3 mois";
 
-/* Hi! You're currently trying out the Pro version of Strongbox. I hope you really like it and find it useful! Your trial of this Pro version will end in %ld days and you will start to use the free version which is missing a few nifty features. You can find out more below.\nI was wondering if you would consider upgrading? By doing so you help to support an independent app developer. I love working on this app and your contribution allows me to keep doing so. Thanks in advance! -Mark */
-"upgrade_vc_developer_msg_free_trial_fmt" = "Bonjour ! Vous êtes en train d'essayer la version Pro de Strongbox. J'espère que vous l'aimez vraiment et que vous la trouvez utile ! Votre essai de cette version prendra fin dans %ld jours, ensuite vous utiliserez la version gratuite à laquelle il manque quelques chouettes fonctionnalités. Vous pourrez en savoir plus ci-dessous.\nJe me demandais si vous envisageriez une mise à niveau ? En faisant cela, vous aidez à soutenir un développeur d'applications indépendant. J'adore travailler sur cette application et votre soutien me permet de continuer à le faire. Merci d'avance !\n-Mark";
-
-/* Hi! You're currently on the Free version of Strongbox. I was wondering if you would consider upgrading? By doing so you help to support an independent app developer and you will also get all the Pro features listed below. As an added bonus you will never see this annoying bloody upgrade screen again! I love working on this app and your contribution allows me to keep doing so. Thanks in advance! -Mark */
-"upgrade_vc_developer_msg_trial_expired" = "Bonjour ! Vous êtes actuellement sur la version gratuite de Strongbox. Je me demandais si vous envisageriez une mise à niveau ? En faisant cela, vous aidez un développeur d'applications indépendant, et vous obtiendrez également toutes les fonctionnalités Pro listées ci-dessous. En bonus, vous ne reverrez plus jamais ce foutu message de mise à niveau ! J'adore travailler sur cette application et votre contribution me permet de continuer à le faire. Merci d'avance !\n-Mark";
-
 /* Problem Purchasing */
 "upgrade_vc_error_purchasing" = "Problème d'achat";
 
@@ -1025,7 +1019,7 @@
 "pins_config_vc_error_pin_conflict_title" = "Conflit de codes PIN";
 
 /* Your Convenience PIN conflicts with your Duress PIN. Please select another. */
-"pins_config_vc_error_pin_conflict_message" = "Your Convenience PIN conflicts with your Duress PIN or is of a different length. Please select another of the correct length.";
+"pins_config_vc_error_pin_conflict_message" = "Votre code PIN de confort est en conflit avec votre code PIN de détresse ou a une longueur différente. Veuillez en choisir un autre de la bonne longueur.";
 
 /* Warning */
 "pins_config_vc_warn_remove_database_title" = "Avertissement";
@@ -2952,10 +2946,19 @@
 "upgrade_question_answer_buy_company_licenses" = "Veuillez contacter support@strongboxsafe.com pour discuter des achats de licences en volume et des versions personnalisées pour votre entreprise.";
 
 /* A storage provider is in the process of writing. This is the status displayed on the progress dialog. In english:  Syncing... */
-"storage_provider_status_syncing" = "Syncing...";
+"storage_provider_status_syncing" = "Synchronisation...";
 
 /* Duplicate Item? */
-"browse_vc_duplicate_prompt_title" = "Duplicate Item?";
+"browse_vc_duplicate_prompt_title" = "Dupliquer l'élément ?";
 
 /* Are you sure you want to duplicate this item? */
-"browse_vc_duplicate_prompt_message" = "Are you sure you want to duplicate this item?";
+"browse_vc_duplicate_prompt_message" = "Êtes-vous sûr(e) de vouloir dupliquer cet élément ?";
+
+/* It looks like your database is encrypted by Microsoft InTune probably due to corporate policy. */
+"error_database_is_encrypted_ms_intune" = "It looks like your database is encrypted by Microsoft InTune probably due to corporate policy.";
+
+/* Add Entry... */
+"browse_add_entry_button_title" = "Add Entry...";
+
+/* Add Group... */
+"browse_add_group_button_title" = "Add Group...";
