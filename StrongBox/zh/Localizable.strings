@@ -396,7 +396,7 @@
 "browse_vc_rename_item_enter_title" = "请给该项目输入一个新标题";
 
 /* All Fields */
-"browse_vc_search_scope_all" = "所有字段";
+"browse_vc_search_scope_all" = "All";
 
 /* Sort Items By Title? */
 "browse_vc_sort_by_title" = "按标题排列项目？";
@@ -829,7 +829,7 @@
 "upgrade_vc_lifetime_purchase_title" = "终身";
 
 /* (No Subscription) */
-"upgrade_vc_lifetime_subtitle_no_sub" = "One Time Payment (No Subscription)";
+"upgrade_vc_lifetime_subtitle_no_sub" = "一次性付款 (无订阅)";
 
 /* Monthly */
 "upgrade_vc_monthly_subscription_title" = "每月";
@@ -838,13 +838,13 @@
 "upgrade_vc_price_not_available_try_later" = "请稍后再试";
 
 /* Momentarily Unavailable */
-"upgrade_vc_price_not_currently_available" = "Unavailable... Check your network connection";
+"upgrade_vc_price_not_currently_available" = "不可用... 请检查您的网络连接";
 
 /* %@/month */
-"upgrade_vc_price_per_month_fmt" = "%@ / month";
+"upgrade_vc_price_per_month_fmt" = "%@ / 月";
 
 /* %@/month (Save %d%%) */
-"upgrade_vc_price_per_month_with_percentage_saving_fmt" = "%@ / month (Save %d%%)";
+"upgrade_vc_price_per_month_with_percentage_saving_fmt" = "%@ / 月 (节省 %d%%)";
 
 /* Issue Restoring Purchase */
 "upgrade_vc_problem_restoring" = "恢复购买时出现问题";
@@ -1019,7 +1019,7 @@
 "pins_config_vc_error_pin_conflict_title" = "PIN 冲突";
 
 /* Your Convenience PIN conflicts with your Duress PIN. Please select another. */
-"pins_config_vc_error_pin_conflict_message" = "Your Convenience PIN conflicts with your Duress PIN or is of a different length. Please select another of the correct length.";
+"pins_config_vc_error_pin_conflict_message" = "您的便捷 PIN 与胁迫 PIN 冲突或长度不同。请选择另一个正确的长度。";
 
 /* Warning */
 "pins_config_vc_warn_remove_database_title" = "警告";
@@ -2901,64 +2901,73 @@
 "yubikey_communicating_with_key_ellipsis" = "与 YubiKey 通讯中…";
 
 /* Icon Set */
-"browse_prefs_icon_set" = "Icon Set";
+"browse_prefs_icon_set" = "图标集";
 
 /* Classic */
-"keepass_icon_set_classic" = "Classic";
+"keepass_icon_set_classic" = "经典";
 
 /* SF Symbols (iOS 13+) */
 "keepass_icon_set_sf_symbols" = "SF Symbols (iOS 13+)";
 
 /* Translators Note: 1 parameter here to mention Biometric unlock, which depends on the device (will be either: 'Touch ID Unlock' or 'Face ID Unlock') */
-"upgrade_short_developer_message_fmt" = "Hi, Mark here, I'm the developer of Strongbox. Just to let you know Strongbox works on the freemium model, which means there is a free and a pro version. I hope you really like Strongbox and find it useful every day.\n\nI was wondering if you would consider upgrading? By upgrading you help to support an indie app developer and make continuous improvement possible.\n\nYou also secure access to great Pro features like %@, PIN Codes & FavIcons!\n\nI love working on this app and your support allows me to keep doing so.\n\nThank you,\n-Mark";
+"upgrade_short_developer_message_fmt" = "您好，我是 Strongbox 的开发者Mark。 Strongbox 以免费增值模式运行，这意味着它有免费版本和 Pro 版本。我希望您真心喜欢 Strongbox 并发现它实用。\n\n我想知道您是否会考虑升级？通过升级，您可帮助支持独立应用程序开发者并使持续改进成为可能。\n\n您还可以安全使用强大的 Pro 功能，如 %@，PIN 码和网页图标！\n\n我喜欢开发这个应用，您的支持允许我持续这么做。\n\n谢谢，\n-Mark";
 
 /* Translators Note: 1 parameter indicating number of days left in users free trial */
-"upgrade_vc_you_have_n_days_remaining_fmt" = "You have %ld days left in your Pro trial";
+"upgrade_vc_you_have_n_days_remaining_fmt" = "您的 Pro 试用剩余 %ld 天";
 
 /* Your free trial of Strongbox Pro has expired. */
-"upgrade_vc_your_free_trial_expired" = "Your free trial of Strongbox Pro has expired.";
+"upgrade_vc_your_free_trial_expired" = "您的 Strongbox Pro 的免费试用已到期。";
 
 /* Enjoy %@ and other Pro features by Upgrading! - Translators Note: 1st parameter is for biometric unlock (will be either: 'Touch ID Unlock' or 'Face ID Unlock') */
-"upgrade_vc_enjoy_features_by_upgrading_fmt" = "Enjoy %@ and other Pro features by Upgrading!";
+"upgrade_vc_enjoy_features_by_upgrading_fmt" = "通过升级享受 %@ 和其他 Pro 功能！";
 
 /* */
-"upgrade_question_answer_free_pro_differences" = "The main difference between the Free and Pro version of Strongbox is Touch/Face ID Unlock.\n\nThis is a super convenient method to unlock your databases. Without using this you need to enter your secure master password manually everytime, and usually this is a long and complicated password which can be slow and error prone to enter.\n\nOther than that there are a couple of features like PIN Codes and FavIcons which are nice to have.\n\nOne key benefit is that you won't see this upgrade screen again and you will be supporting continued development of Strongbox.\n\nYou can see a summary of the differences by tapping the 'Free vs Pro Comparison Chart' button on the main Upgrade screen.";
+"upgrade_question_answer_free_pro_differences" = "Strongbox 的免费版和 Pro 版本之间的主要区别是 Touch/Face ID 解锁.\n\n这是解锁数据库的一种超便捷的方法。如果您不使用，那么每次都需要手动输入安全的主密码，通常这是一个长而复杂的密码，可能会缓慢且容易出错。\n\n除此外，还有些不错的功能，例如 PIN 码和网页图标。\n\n一个关键的好处是您不会再次看到此升级界面，并且您将支持 Strongbox 的持续开发。\n\n您可以通过点击主升级界面上的\"免费 vs Pro 对比表\" 按钮来查看差异概要。";
 
 /* */
-"upgrade_question_answer_end_trial" = "At the end of your trial you will be automatically transitioned to the Free version and you will no longer be able to use nifty features like Touch/Face ID Unlock.\n\nYou will still be able to access your databases, search them, edit them, and sync them to your cloud.\n\nYou might see an upgrade prompt every now and then too. This is just to encourage you to consider supporting ongoing development.";
+"upgrade_question_answer_end_trial" = "试用结束后，您将自动转换为免费版本，无法再使用像 Touch/Face ID 解锁的实用功能。\n\n您仍然可以访问您的数据库、搜索它们、编辑它们并将它们同步到您的云端。\n\n您可能还会时不时地看到一个升级提示。这只是为了鼓励您考虑支持正在进行的开发。";
 
 /* */
-"upgrade_question_answer_free_version_forever" = "For sure, you can of course use the Free version forever. It's quite functional, but please if you find Strongbox useful or valuable, or if it makes your online life more secure then please consider upgrading.";
+"upgrade_question_answer_free_version_forever" = "当然，您可以永远使用免费版本。它很实用，但是如果您觉得 Strongbox 有用或有价值，或者如果它使您的网络生活更加安全，请考虑升级。";
 
 /* */
-"upgrade_question_answer_another_question" = "If you have other questions you might be able to find the answer online, e.g. by searching, or reddit (r/strongbox) or the web (https://strongboxsafe.com/faq).\n\nIf you are very stuck then you can email support@strongboxsafe.com in English only. Note that support queries eat up a lot of development time so please consider this and make your inquiry short and to the point.";
+"upgrade_question_answer_another_question" = "如果您有其他问题，您可以在线找到答案，如通过搜索，或 reddit (r/strongbox)或网站 (https://strongboxsafe.com/faq)。\n\n如果您很困惑，您可以发送电子邮件给 support@strongboxsafe.com (仅英文)。请注意，支持咨询会占用大量开发时间，所以请考虑好并使您的询问简短明了。";
 
 /* */
-"upgrade_question_answer_works_on_other_devices" = "Yes, the upgrade is linked to your Apple ID. So if you are signed in to that Apple ID account on your other iOS devices Strongbox will be available in the full Pro version.\n\nThis should happen automatically but you may need to tap the 'Restore Previous Purchase' button if it doesn't.";
+"upgrade_question_answer_works_on_other_devices" = "是的，升级已关联到您的 Apple ID。 所以如果您在其他iOS设备上登录此 Apple ID 帐户， Strongbox 将提供完整的 Pro 版本。\n\n这应该会自动发生，但如果没有的话，您可能需要点击'恢复先前购买'按钮。";
 
 /* */
-"upgrade_question_answer_share_family" = "This will only work if you are already enrolled and setup with your family or friends as part of the Apple Family Sharing program.\n\nSecondly, you need to purchase a separate version Strongbox rather than using the In App Purchase options in this app. This is because Apple's Family Sharing program does not support In App Purchases.\n\nYou can find the Apple Family Sharing version of Strongbox by tapping the 'Apple Family Sharing' button on the main upgrade screen.";
+"upgrade_question_answer_share_family" = "仅当您已经注册并设置与家人或朋友一起作为 Apple 家庭共享计划的一部分时，此方法才有效。\n\n第二，您需要购买一个独立的 Strongbox 版本，而不是在本应用程序中使用应用内购选项。这是因为 Apple 家庭共享计划不支持应用内购。\n\n您可以通过点击主升级界面上的“Apple 家庭共享”按钮找到 Strongbox 的 Apple 家庭共享版本。";
 
 /* */
-"upgrade_question_answer_works_on_mac" = "Unfortunately not. iOS and Mac are two separate platforms and Strongbox iOS and Mac are two very separate apps. There is also no way at the moment to bundle the two together in a single purchase.";
+"upgrade_question_answer_works_on_mac" = "很遗憾，不能，iOS 和 Mac 是两个不同的平台，Strongbox iOS 和 Mac 是两个独立的应用。 目前也无法将两者捆绑在一起进行单次购买。";
 
 /* */
-"upgrade_question_answer_buy_company_licenses" = "Please get in touch with support@strongboxsafe.com to discuss volume license purchasing and custom builds for your company.";
+"upgrade_question_answer_buy_company_licenses" = "请与 support@strongboxsafe.com 联系来讨论贵公司的批量许可购买和定制版本。";
 
 /* A storage provider is in the process of writing. This is the status displayed on the progress dialog. In english:  Syncing... */
-"storage_provider_status_syncing" = "Syncing...";
+"storage_provider_status_syncing" = "同步中…";
 
 /* Duplicate Item? */
-"browse_vc_duplicate_prompt_title" = "Duplicate Item?";
+"browse_vc_duplicate_prompt_title" = "复制项目？";
 
 /* Are you sure you want to duplicate this item? */
-"browse_vc_duplicate_prompt_message" = "Are you sure you want to duplicate this item?";
+"browse_vc_duplicate_prompt_message" = "您确定要复制此项吗？";
 
 /* It looks like your database is encrypted by Microsoft InTune probably due to corporate policy. */
-"error_database_is_encrypted_ms_intune" = "It looks like your database is encrypted by Microsoft InTune probably due to corporate policy.";
+"error_database_is_encrypted_ms_intune" = "您的数据库似乎是由 Microsoft InTune 加密，这可能是公司政策所致。";
 
 /* Add Entry... */
-"browse_add_entry_button_title" = "Add Entry...";
+"browse_add_entry_button_title" = "添加条目...";
 
 /* Add Group... */
-"browse_add_group_button_title" = "Add Group...";
+"browse_add_group_button_title" = "添加组...";
+
+/* Tags */
+"browse_vc_search_scope_tags" = "Tags";
+
+/* Tags */
+"browse_prefs_item_subtitle_tags" = "Tags";
+
+/* Tags */
+"item_details_username_field_tags" = "Tags";
