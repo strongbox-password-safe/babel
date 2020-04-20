@@ -258,7 +258,7 @@
 "safesvc_error_title_could_not_bookmark" = "Could not bookmark this file";
 
 /* Confirm Password */
-"alerts_confirm_password" = "Confirm Password";
+"alerts_confirm_password" = "Bekreft passord";
 
 /* Not Empty! */
 "alerts_not_empty" = "Not Empty!";
@@ -466,7 +466,7 @@
 "casg_key_file_configured_but_not_found" = "Configured Key File Not Found";
 
 /* Select... */
-"casg_key_file_select_action" = "Select...";
+"casg_key_file_select_action" = "Velg …";
 
 /* You have left the password field empty. This can be interpreted in two ways. Select the interpretation you want. */
 "casg_question_message_empty_password" = "You have left the password field empty. This can be interpreted in two ways. Select the interpretation you want.";
@@ -625,7 +625,7 @@
 "item_details_section_header_custom_fields" = "Custom Fields";
 
 /* History */
-"item_details_section_header_history" = "History";
+"item_details_section_header_history" = "Versjonslogg";
 
 /* Metadata */
 "item_details_section_header_metadata" = "Metadata";
@@ -1437,8 +1437,8 @@
 /* Set Quick Launch? */
 "open_sequence_yesno_set_quick_launch_title" = "Set Quick Launch?";
 
-/* Would you like to use this as your Quick Launch database? Quick Launch means you will get prompted immediately to unlock when you open Strongbox, saving you a precious click. */
-"open_sequence_yesno_set_quick_launch_message" = "Would you like to use this as your Quick Launch database? Quick Launch means you will get prompted immediately to unlock when you open Strongbox, saving you a precious click.";
+/* Would you like to use this as your Quick Launch database? Quick Launch means you will get prompted immediately to unlock when you open Strongbox, saving you a precious tap. */
+"open_sequence_yesno_set_quick_launch_message" = "Would you like to use this as your Quick Launch database? Quick Launch means you will get prompted immediately to unlock when you open Strongbox, saving you a precious tap.";
 
 /* Convenience Unlock: Use %@ or PIN Code in Future? */
 "open_sequence_prompt_use_convenience_both_title_fmt" = "Convenience Unlock: Use %@ or PIN Code in Future?";
@@ -1798,7 +1798,7 @@
 "database_metadata_field_compressed" = "Compressed";
 
 /* Database Format */
-"database_metadata_field_format" = "Database Format";
+"database_metadata_field_format" = "Databaseformat";
 
 /* Database Generator */
 "database_metadata_field_generator" = "Database Generator";
@@ -1939,28 +1939,28 @@
 "browse_vc_action_delete" = "Delete";
 
 /* Title */
-"generic_fieldname_title" = "Title";
+"generic_fieldname_title" = "Tittel";
 
 /* Username */
-"generic_fieldname_username" = "Username";
+"generic_fieldname_username" = "Brukernavn";
 
 /* Expiry Date */
 "generic_fieldname_expiry_date" = "Expiry Date";
 
 /* Password */
-"generic_fieldname_password" = "Password";
+"generic_fieldname_password" = "Passord";
 
 /* Email */
-"generic_fieldname_email" = "Email";
+"generic_fieldname_email" = "E-post";
 
 /* URL */
 "generic_fieldname_url" = "URL";
 
 /* Notes */
-"generic_fieldname_notes" = "Notes";
+"generic_fieldname_notes" = "Notater";
 
 /* Icon */
-"generic_fieldname_icon" = "Icon";
+"generic_fieldname_icon" = "Ikon";
 
 /* Custom Fields */
 "generic_fieldname_custom_fields" = "Custom Fields";
@@ -1984,7 +1984,7 @@
 "generic_encrypting" = "Encrypting";
 
 /* Loading... */
-"generic_loading" = "Loading...";
+"generic_loading" = "Laster …";
 
 /* Done */
 "generic_done" = "Done";
@@ -2005,7 +2005,7 @@
 "generic_set" = "Angi";
 
 /* Cancel */
-"generic_cancel" = "Cancel";
+"generic_cancel" = "Avbryt";
 
 /* Clear */
 "generic_clear" = "Clear";
@@ -2047,7 +2047,7 @@
 "alerts_yes" = "Yes";
 
 /* Password */
-"alerts_password" = "Password";
+"alerts_password" = "Passord";
 
 /* Unknown Error */
 "alerts_unknown_error" = "Unknown Error";
@@ -2178,10 +2178,10 @@
 "pick_creds_vc_search_scope_title" = "Tittel";
 
 /* Username */
-"pick_creds_vc_search_scope_username" = "Username";
+"pick_creds_vc_search_scope_username" = "Brukernavn";
 
 /* Password */
-"pick_creds_vc_search_scope_password" = "Password";
+"pick_creds_vc_search_scope_password" = "Passord";
 
 /* URL */
 "pick_creds_vc_search_scope_url" = "URL";
@@ -2274,9 +2274,6 @@
 
 /* Could Not Unlock Database */
 "mac_could_not_unlock_database" = "Could Not Unlock Database";
-
-/* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be securely stored for %@ before you need to re-enter it. Note for translators (1st Param = "Touch ID", 2nd Param is a time span, default of "2 weeks") */
-"mac_use_biometric_to_open_in_future_fmt" = "Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be securely stored for %@ before you need to re-enter it.";
 
 /* Touch ID Considerations\n\nWhile this is very convenient, it is not a perfect system for protecting your passwords. It is provided for convenience only. It is within the realm of possibilities that someone with access to your device or your fingerprint, can produce a good enough fake fingerprint to fool Apple’s Touch ID. In addition, on your Mac, your master password will be securely stored in the Keychain. This means it is possible for someone with administrative privileges to search your Keychain for your master password. You should be aware that a strong passphrase held only in your mind provides the most secure experience with StrongBox.\n\nPlease take all of this into account, and make your decision to use Touch ID based on your preferred balance of convenience and security. */
 "mac_touch_id_one_time_warning" = "Touch ID/Apple Watch Considerations\n\nWhile this is very convenient, it is not a perfect system for protecting your passwords. It is provided for convenience only. It is within the realm of possibilities that someone with access to your device or your fingerprint, can produce a good enough fake fingerprint to fool Apple’s Touch ID. In addition, on your Mac, your master password will be securely stored in the Keychain. This means it is possible for someone with administrative privileges to search your Keychain for your master password. You should be aware that a strong passphrase held only in your mind provides the most secure experience with StrongBox.\n\nPlease take all of this into account, and make your decision to use Touch ID based on your preferred balance of convenience and security.";
@@ -2563,7 +2560,7 @@
 "mac_alerts_field_cannot_be_empty" = "Field cannot be empty";
 
 /* Upgrade */
-"mac_upgrade_button_title" = "Upgrade";
+"mac_upgrade_button_title" = "Oppgrader";
 
 /* Upgrade Momentarily Unavailable\nPlease Check Your Connection and Try Again Later */
 "mac_upgrade_momentarily_unavailble" = "Upgrade Momentarily Unavailable\nPlease Check Your Connection and Try Again Later";
@@ -2575,7 +2572,7 @@
 "mac_upgrade_no_thanks_seconds_remaining_fmt" = "No Thanks (%ld)";
 
 /* No Thanks */
-"mac_upgrade_no_thanks" = "No Thanks";
+"mac_upgrade_no_thanks" = "Nei takk";
 
 /* Purchases Are Disabled on Your Device. */
 "mac_upgrade_purchases_disabled_on_device" = "Purchases Are Disabled on Your Device.";
@@ -2986,3 +2983,12 @@
 
 /* Would you like to add an entry or a group? */
 "browse_add_group_or_entry_question" = "Would you like to add an entry or a group?";
+
+/* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be securely stored for %@ before you need to re-enter it. Note for translators (1st Param = "Touch ID", 2nd Param is a time span something like "2 weeks") */
+"mac_use_biometric_to_open_in_future_fmt" = "Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be securely stored for %@ before you need to re-enter it.";
+
+/* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be stored securely. Note for translators (1st Param = "Touch ID") */
+"mac_use_biometric_to_open_in_future_simple_fmt" = "Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be stored securely.";
+
+/* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be stored securely until you exit Strongbox Note for translators (1st Param = "Touch ID") */
+"mac_use_biometric_to_open_in_future_simple_app_exit_fmt" = "Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be stored securely until you exit Strongbox";

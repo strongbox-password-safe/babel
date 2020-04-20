@@ -1437,8 +1437,8 @@
 /* Set Quick Launch? */
 "open_sequence_yesno_set_quick_launch_title" = "Définir comme lancement rapide ?";
 
-/* Would you like to use this as your Quick Launch database? Quick Launch means you will get prompted immediately to unlock when you open Strongbox, saving you a precious click. */
-"open_sequence_yesno_set_quick_launch_message" = "Aimeriez-vous définir cette base de données comme lancement rapide ? Lancement rapide signifie que vous serez immédiatement invité à la déverrouiller lorsque vous ouvrirez Strongbox, vous épargnant un précieux clic.";
+/* Would you like to use this as your Quick Launch database? Quick Launch means you will get prompted immediately to unlock when you open Strongbox, saving you a precious tap. */
+"open_sequence_yesno_set_quick_launch_message" = "Would you like to use this as your Quick Launch database? Quick Launch means you will get prompted immediately to unlock when you open Strongbox, saving you a precious tap.";
 
 /* Convenience Unlock: Use %@ or PIN Code in Future? */
 "open_sequence_prompt_use_convenience_both_title_fmt" = "Déverrouillage de confort : Utiliser %@ ou code PIN à l'avenir ?";
@@ -2275,9 +2275,6 @@
 /* Could Not Unlock Database */
 "mac_could_not_unlock_database" = "Impossible de déverrouiller la base de données";
 
-/* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be securely stored for %@ before you need to re-enter it. Note for translators (1st Param = "Touch ID", 2nd Param is a time span, default of "2 weeks") */
-"mac_use_biometric_to_open_in_future_fmt" = "Voulez-vous utiliser %@ ou votre Apple Watch pour déverrouiller cette base de données à l'avenir ? Votre mot de passe maître sera stocké de manière sécurisée pour %@ jusqu'à ce que vous deviez le saisir à nouveau.";
-
 /* Touch ID Considerations\n\nWhile this is very convenient, it is not a perfect system for protecting your passwords. It is provided for convenience only. It is within the realm of possibilities that someone with access to your device or your fingerprint, can produce a good enough fake fingerprint to fool Apple’s Touch ID. In addition, on your Mac, your master password will be securely stored in the Keychain. This means it is possible for someone with administrative privileges to search your Keychain for your master password. You should be aware that a strong passphrase held only in your mind provides the most secure experience with StrongBox.\n\nPlease take all of this into account, and make your decision to use Touch ID based on your preferred balance of convenience and security. */
 "mac_touch_id_one_time_warning" = "Considérations Touch ID / Apple Watch\n\nBien que cela soit fort pratique, ce n'est pas un système parfait pour protéger vos mots de passe. Il est fourni uniquement pour votre confort. Il est tout à fait possible que quelqu'un ayant accès à votre appareil ou à votre empreinte digitale puisse produire une fausse empreinte digitale assez bonne pour tromper le Touch ID d’Apple. De plus, sur votre Mac, votre mot de passe maître sera stocké de manière sécurisée dans le trousseau. Cela signifie qu'il est possible pour une personne ayant des privilèges d'administration de rechercher votre mot de passe maître dans votre trousseau. Vous devez être conscient qu'un mot de passe fort retenu uniquement dans votre esprit fournit l'expérience la plus sécurisée de StrongBox.\n\nVeuillez prendre tout cela en compte en choisissant d'utiliser ou non Touch ID, selon l'équilibre que vous préférez entre confort et sécurité.";
 
@@ -2986,3 +2983,12 @@
 
 /* Would you like to add an entry or a group? */
 "browse_add_group_or_entry_question" = "Voulez-vous ajouter une entrée ou un groupe ?";
+
+/* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be securely stored for %@ before you need to re-enter it. Note for translators (1st Param = "Touch ID", 2nd Param is a time span something like "2 weeks") */
+"mac_use_biometric_to_open_in_future_fmt" = "Voulez-vous utiliser %@ ou votre Apple Watch pour déverrouiller cette base de données à l'avenir ? Votre mot de passe maître sera stocké de manière sécurisée pour %@ jusqu'à ce que vous deviez le saisir à nouveau.";
+
+/* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be stored securely. Note for translators (1st Param = "Touch ID") */
+"mac_use_biometric_to_open_in_future_simple_fmt" = "Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be stored securely.";
+
+/* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be stored securely until you exit Strongbox Note for translators (1st Param = "Touch ID") */
+"mac_use_biometric_to_open_in_future_simple_app_exit_fmt" = "Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be stored securely until you exit Strongbox";
