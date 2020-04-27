@@ -1,41 +1,74 @@
 /* Class = "UITableViewController"; title = "Audit Configuration"; ObjectID = "01A-OU-JQM"; */
-"01A-OU-JQM.title" = "Audit Configuration";
+"01A-OU-JQM.title" = "Configurazione Revisione";
 
 /* Class = "UILabel"; text = "16"; ObjectID = "5Wv-DH-TK3"; */
 "5Wv-DH-TK3.text" = "16";
 
 /* Class = "UILabel"; text = "Common Passwords"; ObjectID = "5lx-Hb-JRj"; */
-"5lx-Hb-JRj.text" = "Common Passwords";
+"5lx-Hb-JRj.text" = "Password Comuni";
 
-/* Class = "UILabel"; text = "Auditing... 75% - No need for translation or localization thank you"; ObjectID = "DTc-Dv-diB"; */
-"DTc-Dv-diB.text" = "Auditing... 75% - No need for translation or localization thank you";
+/* Class = "UITableViewSection"; footerTitle = "This check detects exact duplicate passwords. This check is completely offline (no network access required)"; ObjectID = "7y7-Rh-Wx2"; */
+"7y7-Rh-Wx2.footerTitle" = "This check detects exact duplicate passwords. This check is completely offline (no network access required)";
+
+/* Class = "UITableViewSection"; headerTitle = "Duplicates"; ObjectID = "7y7-Rh-Wx2"; */
+"7y7-Rh-Wx2.headerTitle" = "Duplicates";
+
+/* Class = "UITableViewSection"; footerTitle = "This check finds any password below a certain length. This check is completely offline (no network access required)"; ObjectID = "BYJ-Xt-Ybf"; */
+"BYJ-Xt-Ybf.footerTitle" = "This check finds any password below a certain length. This check is completely offline (no network access required)";
+
+/* Class = "UITableViewSection"; headerTitle = "Minimum Length"; ObjectID = "BYJ-Xt-Ybf"; */
+"BYJ-Xt-Ybf.headerTitle" = "Minimum Length";
+
+/* Class = "UILabel"; text = "Length"; ObjectID = "Cgs-79-shY"; */
+"Cgs-79-shY.text" = "Lunghezza";
+
+/* Class = "UILabel"; text = "Status: Complete"; ObjectID = "DTc-Dv-diB"; */
+"DTc-Dv-diB.text" = "Status: Complete";
+
+/* Class = "UITableViewSection"; footerTitle = "These checks are straightforward tests. These checks are completely offline (no network access required)"; ObjectID = "Gzg-vF-nnp"; */
+"Gzg-vF-nnp.footerTitle" = "These checks are straightforward tests. These checks are completely offline (no network access required)";
 
 /* Class = "UITableViewSection"; headerTitle = "Basic Audits"; ObjectID = "Gzg-vF-nnp"; */
-"Gzg-vF-nnp.headerTitle" = "Basic Audits";
+"Gzg-vF-nnp.headerTitle" = "Revisione Di Base";
 
 /* Class = "UILabel"; text = "Similar Passwords"; ObjectID = "Ivv-Og-lCA"; */
-"Ivv-Og-lCA.text" = "Similar Passwords";
+"Ivv-Og-lCA.text" = "Password Simili";
+
+/* Class = "UITableViewSection"; footerTitle = "The database auditor runs in the background at a low priority so that it doesn't interfere with your UI experience or battery life. However you can choose not to run any audits at all"; ObjectID = "JJN-5D-rPg"; */
+"JJN-5D-rPg.footerTitle" = "The database auditor runs in the background at a low priority so that it doesn't interfere with your UI experience or battery life. However you can choose not to run any audits at all";
 
 /* Class = "UITableViewSection"; headerTitle = "Preferences"; ObjectID = "JJN-5D-rPg"; */
 "JJN-5D-rPg.headerTitle" = "Impostazioni";
 
 /* Class = "UILabel"; text = "Duplicated Passwords"; ObjectID = "JdO-yU-wUk"; */
-"JdO-yU-wUk.text" = "Duplicated Passwords";
+"JdO-yU-wUk.text" = "Password Duplicate";
 
 /* Class = "UILabel"; text = "Empty Passwords"; ObjectID = "RdE-eX-RFC"; */
-"RdE-eX-RFC.text" = "Empty Passwords";
+"RdE-eX-RFC.text" = "Password Vuote";
+
+/* Class = "UILabel"; text = "Case Insensitive"; ObjectID = "SYj-Hd-U3m"; */
+"SYj-Hd-U3m.text" = "Case Insensitive";
+
+/* Class = "UILabel"; text = "12"; ObjectID = "bZW-TB-Oe0"; */
+"bZW-TB-Oe0.text" = "12";
 
 /* Class = "UILabel"; text = "Similarity Threshold"; ObjectID = "hJk-QQ-I4O"; */
-"hJk-QQ-I4O.text" = "Similarity Threshold";
-
-/* Class = "UITableViewSection"; headerTitle = "Status"; ObjectID = "ptV-zC-UQb"; */
-"ptV-zC-UQb.headerTitle" = "Status";
+"hJk-QQ-I4O.text" = "Soglia Similarità";
 
 /* Class = "UILabel"; text = "Audit Database"; ObjectID = "qBv-Cx-BWt"; */
-"qBv-Cx-BWt.text" = "Audit Database";
+"qBv-Cx-BWt.text" = "Revisione Database";
 
-/* Class = "UITableViewSection"; headerTitle = "Enhanced Audits"; ObjectID = "tLb-J8-0ij"; */
-"tLb-J8-0ij.headerTitle" = "Enhanced Audits";
+/* Class = "UILabel"; text = "Found 12 issues in 8 entries"; ObjectID = "r4c-ff-uct"; */
+"r4c-ff-uct.text" = "Found 12 issues in 8 entries";
+
+/* Class = "UILabel"; text = "Minimum Length"; ObjectID = "skO-2d-vMa"; */
+"skO-2d-vMa.text" = "Minimum Length";
+
+/* Class = "UITableViewSection"; footerTitle = "This check detects minor differences between passwords e.g. 'password5' and 'password2'. You can change the similarity threshold too, lower values will find less similar passwords. This check is completely offline (no network access required)"; ObjectID = "tLb-J8-0ij"; */
+"tLb-J8-0ij.footerTitle" = "This check detects minor differences between passwords e.g. 'password5' and 'password2'. You can change the similarity threshold too, lower values will find less similar passwords. This check is completely offline (no network access required)";
+
+/* Class = "UITableViewSection"; headerTitle = "Similar Passwords"; ObjectID = "tLb-J8-0ij"; */
+"tLb-J8-0ij.headerTitle" = "Password Simili";
 
 /* Class = "UINavigationItem"; title = "Audit Configuration"; ObjectID = "yiS-c8-dAY"; */
-"yiS-c8-dAY.title" = "Audit Configuration";
+"yiS-c8-dAY.title" = "Configurazione Revisione";
