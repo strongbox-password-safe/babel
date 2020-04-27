@@ -2994,52 +2994,97 @@
 "mac_use_biometric_to_open_in_future_simple_app_exit_fmt" = "Бажаєте використовувати %@ чи годинник Apple для розблокування цієї бази паролів у майбутньому? Ваш головний пароль зберігатиметься в безпеці, доки ви не вийдете зі Strongbox";
 
 /* Audit: No password set */
-"audit_quick_summary_no_password_set" = "No password set";
+"audit_quick_summary_no_password_set" = "Немає пароля";
 
 /* Audit: Password is very common */
-"audit_quick_summary_very_common_password" = "Password is very common";
+"audit_quick_summary_very_common_password" = "Пароль дуже поширений";
 
 /* Audit: Password is duplicated in another entry */
-"audit_quick_summary_duplicated_password" = "Password is duplicated in another entry";
+"audit_quick_summary_duplicated_password" = "Пароль повторюється в іншому записі";
 
 /* Audit: Password is similar to one in another entry. */
-"audit_quick_summary_password_is_similar_to_another" = "Password is similar to one in another entry.";
+"audit_quick_summary_password_is_similar_to_another" = "Password is similar to one in another entry";
 
 /* All Entries */
-"quick_view_title_all_entries_title" = "All Entries";
+"quick_view_title_all_entries_title" = "Усі записи";
 
 /* View every entry in a flat list... */
-"quick_view_title_all_entries_subtitle" = "View every entry in a flat list...";
+"quick_view_title_all_entries_subtitle" = "Переглянути кожен запис у плоскому списку...";
 
 /* Audit Issues */
-"quick_view_title_audit_issues_title" = "Audit Issues";
+"quick_view_title_audit_issues_title" = "Проблеми аудиту";
 
 /* View all entries with audit issues */
-"quick_view_title_audit_issues_subtitle" = "View all entries with audit issues";
+"quick_view_title_audit_issues_subtitle" = "Переглянути всі записи з проблемами аудиту";
 
 /* TOTP Entries */
-"quick_view_title_totp_entries_title" = "TOTP Entries";
+"quick_view_title_totp_entries_title" = "Записи TOTP";
 
 /* View all entries with a TOTP token */
-"quick_view_title_totp_entries_subtitle" = "View all entries with a TOTP token";
+"quick_view_title_totp_entries_subtitle" = "Переглянути всі записи з токеном TOTP";
 
 /* Quick Views */
-"quick_view_section_title_quick_views" = "Quick Views";
-
-/* Audit Complete */
-"audit_status_complete" = "Audit Complete";
-
-/* Database Auditor Initialized */
-"audit_status_initialized" = "Database Auditor Initialized";
-
-/* Auditing... (%d%%) - Translator's Note - 1st Parameter is a percentage e.g. 25% - NB: Only 1 param (double percentages are an escape string for the single percentage symbol) */
-"audit_status_running_with_progress_fmt" = "Auditing... (%d%%)";
-
-/* Auditing... */
-"audit_status_running_with_ellipsis" = "Auditing...";
-
-/* Audit Stopped */
-"audit_status_stopped" = "Audit Stopped";
+"quick_view_section_title_quick_views" = "Швидкі перегляди";
 
 /* Enhanced Audits (Pro Edition Only) */
-"audit_enhanced_audits_pro_only_title" = "Enhanced Audits (Pro Edition Only)";
+"audit_similar_passwords_pro_only_title" = "Similar Passwords (Pro Edition Only)";
+
+/* Audit Issues (%ld) - Translators note: format param is number of items with audit issues e.g. 5 */
+"quick_view_title_audit_issues_title_fmt" = "Audit Issues (%ld)";
+
+/* No Password - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
+"audit_quick_summary_very_brief_no_password_set" = "Немає пароля";
+
+/* Weak/Common - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
+"audit_quick_summary_very_brief_very_common_password" = "Common";
+
+/* Duplicated - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
+"audit_quick_summary_very_brief_duplicated_password" = "Duplicated";
+
+/* Similar - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
+"audit_quick_summary_very_brief_password_is_similar_to_another" = "Similar";
+
+/* Short - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
+"audit_quick_summary_very_brief_password_is_too_short" = "Short";
+
+/* Audit: Password is too short. */
+"audit_quick_summary_password_is_too_short" = "Audit: Password is too short";
+
+/* Found %@ issues in %@ entries - Translators note, both parameters are numbers, e.g. 24 issues found in 12 entries */
+"audit_status_fmt" = "Found %@ issues in %@ entries";
+
+/* Audit Complete */
+"audit_status_complete" = "Status: Complete";
+
+/* Database Auditor Initialized */
+"audit_status_initialized" = "Status: Initializing...";
+
+/* Database Auditor Initialized */
+"audit_status_initialized_but_disabled" = "Status: Disabled";
+
+/* Auditing... (%d%%) - Translator's Note - 1st Parameter is a percentage e.g. 25% - NB: Only 1 param (double percentages are an escape string for the single percentage symbol) */
+"audit_status_running_with_progress_fmt" = "Status: Auditing... (%d%%)";
+
+/* Auditing... */
+"audit_status_running_with_ellipsis" = "Status: Auditing...";
+
+/* Audit Stopped */
+"audit_status_stopped" = "Status: Stopped";
+
+/* No issues found */
+"audit_status_no_issues_found" = "No issues found";
+
+/* The credentials were incorrect for this database. Are you sure you are using this key file?\n\nNB: A key files are not the same as your database file. */
+"open_sequence_problem_opening_incorrect_credentials_message_verify_key_file" = "The credentials were incorrect for this database. Are you sure you are using this key file?\n\nNB: Please be aware that key files are not the same as your database file (KDBX/KDB)";
+
+/* Is your Key File correct? */
+"casg_key_file_correct_title" = "Is your Key File correct?";
+
+/* You have configured this database to open with a key file but the key file you have chosen doesn't look valid.\n\nAre you sure you are using this key file?\n\nNB: A key file is not the same as your database file" */
+"casg_key_file_correct_message" = "You have configured this database to open with a key file but the key file you have chosen doesn't look valid.\n\nAre you sure you are using this key file?\n\nNB: A key file is not the same as your database file";
+
+/* Yes, the key file is correct */
+"casg_key_file_correct_yes_key_file_correct" = "Yes, the key file is correct";
+
+/* No, I don't use a key file */
+"casg_key_file_correct_no_no_key_file" = "No, I don't use a key file";
