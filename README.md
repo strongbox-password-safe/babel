@@ -6,7 +6,7 @@ This is the repository for contributing to translation and localisation for Stro
 # How to contribute for your Language
 If you'd like to have Strongbox translated into your language and are willing to do so under the terms of the MIT licence then please follow the steps below:
 
-1. Get in touch with me (mark@strongboxsafe.com) or simply open an issue here and we can discuss.
+1. Get in touch (support@strongboxsafe.com) or simply open an issue here and we can discuss.
 
 2. I will add you to the Crowd In system and you can begin translating
 
