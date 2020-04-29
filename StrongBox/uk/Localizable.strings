@@ -3003,7 +3003,7 @@
 "audit_quick_summary_duplicated_password" = "Пароль повторюється в іншому записі";
 
 /* Audit: Password is similar to one in another entry. */
-"audit_quick_summary_password_is_similar_to_another" = "Password is similar to one in another entry";
+"audit_quick_summary_password_is_similar_to_another" = "Пароль схожий на такий, як в іншому записі";
 
 /* All Entries */
 "quick_view_title_all_entries_title" = "Усі записи";
@@ -3027,64 +3027,64 @@
 "quick_view_section_title_quick_views" = "Швидкі перегляди";
 
 /* Enhanced Audits (Pro Edition Only) */
-"audit_similar_passwords_pro_only_title" = "Similar Passwords (Pro Edition Only)";
+"audit_similar_passwords_pro_only_title" = "Схожі паролі (тільки Pro)";
 
 /* Audit Issues (%ld) - Translators note: format param is number of items with audit issues e.g. 5 */
-"quick_view_title_audit_issues_title_fmt" = "Audit Issues (%ld)";
+"quick_view_title_audit_issues_title_fmt" = "Виявлені проблеми (%ld)";
 
 /* No Password - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
 "audit_quick_summary_very_brief_no_password_set" = "Немає пароля";
 
 /* Weak/Common - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
-"audit_quick_summary_very_brief_very_common_password" = "Common";
+"audit_quick_summary_very_brief_very_common_password" = "Поширені";
 
 /* Duplicated - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
-"audit_quick_summary_very_brief_duplicated_password" = "Duplicated";
+"audit_quick_summary_very_brief_duplicated_password" = "Однаковий";
 
 /* Similar - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
-"audit_quick_summary_very_brief_password_is_similar_to_another" = "Similar";
+"audit_quick_summary_very_brief_password_is_similar_to_another" = "Схожі";
 
 /* Short - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
-"audit_quick_summary_very_brief_password_is_too_short" = "Short";
+"audit_quick_summary_very_brief_password_is_too_short" = "Короткі";
 
 /* Audit: Password is too short. */
-"audit_quick_summary_password_is_too_short" = "Audit: Password is too short";
+"audit_quick_summary_password_is_too_short" = "Аудит: Пароль надто короткий";
 
 /* Found %@ issues in %@ entries - Translators note, both parameters are numbers, e.g. 24 issues found in 12 entries */
-"audit_status_fmt" = "Found %@ issues in %@ entries";
+"audit_status_fmt" = "Виявлено %@ проблем в %@ записах";
 
 /* Audit Complete */
-"audit_status_complete" = "Status: Complete";
+"audit_status_complete" = "Стан: Завершено";
 
 /* Database Auditor Initialized */
-"audit_status_initialized" = "Status: Initializing...";
+"audit_status_initialized" = "Стан: Ініціалізація...";
 
 /* Database Auditor Initialized */
-"audit_status_initialized_but_disabled" = "Status: Disabled";
+"audit_status_initialized_but_disabled" = "Стан: Вимкнено";
 
 /* Auditing... (%d%%) - Translator's Note - 1st Parameter is a percentage e.g. 25% - NB: Only 1 param (double percentages are an escape string for the single percentage symbol) */
-"audit_status_running_with_progress_fmt" = "Status: Auditing... (%d%%)";
+"audit_status_running_with_progress_fmt" = "Стан: Триває аудит... (%d%%)";
 
 /* Auditing... */
-"audit_status_running_with_ellipsis" = "Status: Auditing...";
+"audit_status_running_with_ellipsis" = "Стан: Триває аудит...";
 
 /* Audit Stopped */
-"audit_status_stopped" = "Status: Stopped";
+"audit_status_stopped" = "Стан: Зупинено";
 
 /* No issues found */
-"audit_status_no_issues_found" = "No issues found";
+"audit_status_no_issues_found" = "Проблем не знайдено";
 
 /* The credentials were incorrect for this database. Are you sure you are using this key file?\n\nNB: A key files are not the same as your database file. */
-"open_sequence_problem_opening_incorrect_credentials_message_verify_key_file" = "The credentials were incorrect for this database. Are you sure you are using this key file?\n\nNB: Please be aware that key files are not the same as your database file (KDBX/KDB)";
+"open_sequence_problem_opening_incorrect_credentials_message_verify_key_file" = "Неправильні облікові дані для цієї бази паролів. Ви впевнені, що використовуєте саме цей ключовий файл?\n\nПримітка: Зверніть увагу, ключові файли це не файли бази паролів (KDBX/KDB)";
 
 /* Is your Key File correct? */
-"casg_key_file_correct_title" = "Is your Key File correct?";
+"casg_key_file_correct_title" = "Це правильний ключовий файл?";
 
 /* You have configured this database to open with a key file but the key file you have chosen doesn't look valid.\n\nAre you sure you are using this key file?\n\nNB: A key file is not the same as your database file" */
-"casg_key_file_correct_message" = "You have configured this database to open with a key file but the key file you have chosen doesn't look valid.\n\nAre you sure you are using this key file?\n\nNB: A key file is not the same as your database file";
+"casg_key_file_correct_message" = "Ви налаштували розблокування цієї бази паролів з ключовим файлом, але вказаний вами файл недійсний.\n\nВи впевнені, що це правильний ключовий файл?\n\nПримітка: Ключовий файл це не файл бази паролів";
 
 /* Yes, the key file is correct */
-"casg_key_file_correct_yes_key_file_correct" = "Yes, the key file is correct";
+"casg_key_file_correct_yes_key_file_correct" = "Так, це правильний ключовий файл";
 
 /* No, I don't use a key file */
-"casg_key_file_correct_no_no_key_file" = "No, I don't use a key file";
+"casg_key_file_correct_no_no_key_file" = "Ні, я не використовую ключовий файл";
