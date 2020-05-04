@@ -1438,7 +1438,7 @@
 "open_sequence_yesno_set_quick_launch_title" = "Установить быстрый запуск?";
 
 /* Would you like to use this as your Quick Launch database? Quick Launch means you will get prompted immediately to unlock when you open Strongbox, saving you a precious tap. */
-"open_sequence_yesno_set_quick_launch_message" = "Would you like to use this as your Quick Launch database? Quick Launch means you will get prompted immediately to unlock when you open Strongbox, saving you a precious tap.";
+"open_sequence_yesno_set_quick_launch_message" = "Вы хотите использовать быстрый запуск для этой базы данных? Быстрый запуск означает, что Вам сразу же будет предложено разблокировать базу данных при открытии приложения Strongbox, что сэкономит Вам дополнительное нажатие.";
 
 /* Convenience Unlock: Use %@ or PIN Code in Future? */
 "open_sequence_prompt_use_convenience_both_title_fmt" = "Комфортная разблокировка: использовать %@ или ПИН-код в будущем?";
@@ -1664,6 +1664,9 @@
 
 /* SecureDrop */
 "pwgen_wordlist_securedrop" = "SecureDrop";
+
+/* Norwegian */
+"pwgen_wordlist_norwegian" = "Norwegian";
 
 /* EFF Large */
 "pwgen_wordlist_eff_large" = "EFF расширенный";
@@ -2988,103 +2991,154 @@
 "mac_use_biometric_to_open_in_future_fmt" = "Хотите ли Вы использовать %@ или Apple Watch для разблокировки этой базы данных в будущем? Ваш главный пароль будет на %@ надёжно сохранён, прежде чем Вам потребуется повторно ввести его.";
 
 /* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be stored securely. Note for translators (1st Param = "Touch ID") */
-"mac_use_biometric_to_open_in_future_simple_fmt" = "Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be stored securely.";
+"mac_use_biometric_to_open_in_future_simple_fmt" = "Вы хотите использовать %@ или Apple Watch для разблокировки этой базы данных в будущем? Ваш главный пароль будет сохранён в защищённом виде.";
 
 /* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be stored securely until you exit Strongbox Note for translators (1st Param = "Touch ID") */
-"mac_use_biometric_to_open_in_future_simple_app_exit_fmt" = "Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be stored securely until you exit Strongbox";
+"mac_use_biometric_to_open_in_future_simple_app_exit_fmt" = "Вы хотите использовать %@ или Apple Watch для разблокировки этой базы данных в будущем? Ваш главный пароль будет надёжно сохранён, пока Вы не выйдете из Strongbox.";
 
 /* Audit: No password set */
-"audit_quick_summary_no_password_set" = "No password set";
+"audit_quick_summary_no_password_set" = "Пароль не установлен";
 
 /* Audit: Password is very common */
-"audit_quick_summary_very_common_password" = "Password is very common";
+"audit_quick_summary_very_common_password" = "Пароль является ходовым";
 
 /* Audit: Password is duplicated in another entry */
-"audit_quick_summary_duplicated_password" = "Password is duplicated in another entry";
+"audit_quick_summary_duplicated_password" = "Пароль повторяется в другой записи";
 
 /* Audit: Password is similar to one in another entry. */
-"audit_quick_summary_password_is_similar_to_another" = "Password is similar to one in another entry";
+"audit_quick_summary_password_is_similar_to_another" = "Пароль похож на один из другой записи";
+
+/* Password is Pwned (HIBP) */
+"audit_quick_summary_pwned" = "Password is Pwned (HIBP)";
 
 /* All Entries */
-"quick_view_title_all_entries_title" = "All Entries";
+"quick_view_title_all_entries_title" = "Все записи";
 
 /* View every entry in a flat list... */
-"quick_view_title_all_entries_subtitle" = "View every entry in a flat list...";
+"quick_view_title_all_entries_subtitle" = "Просмотреть список всех записей...";
 
 /* Audit Issues */
-"quick_view_title_audit_issues_title" = "Audit Issues";
+"quick_view_title_audit_issues_title" = "Проблемы аудита";
 
 /* View all entries with audit issues */
-"quick_view_title_audit_issues_subtitle" = "View all entries with audit issues";
+"quick_view_title_audit_issues_subtitle" = "Посмотреть все записи с проблемами аудита";
 
 /* TOTP Entries */
-"quick_view_title_totp_entries_title" = "TOTP Entries";
+"quick_view_title_totp_entries_title" = "Записи TOTP";
 
 /* View all entries with a TOTP token */
-"quick_view_title_totp_entries_subtitle" = "View all entries with a TOTP token";
+"quick_view_title_totp_entries_subtitle" = "Просмотреть все записи с токеном TOTP";
 
 /* Quick Views */
-"quick_view_section_title_quick_views" = "Quick Views";
+"quick_view_section_title_quick_views" = "Быстрые доступы";
 
 /* Enhanced Audits (Pro Edition Only) */
-"audit_similar_passwords_pro_only_title" = "Similar Passwords (Pro Edition Only)";
+"audit_similar_passwords_pro_only_title" = "Похожие пароли (только в Про версии)";
 
 /* Audit Issues (%ld) - Translators note: format param is number of items with audit issues e.g. 5 */
-"quick_view_title_audit_issues_title_fmt" = "Audit Issues (%ld)";
+"quick_view_title_audit_issues_title_fmt" = "Проблемы аудита (%ld)";
 
 /* No Password - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
 "audit_quick_summary_very_brief_no_password_set" = "Отсутствие пароля";
 
 /* Weak/Common - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
-"audit_quick_summary_very_brief_very_common_password" = "Common";
+"audit_quick_summary_very_brief_very_common_password" = "Ходовой";
 
 /* Duplicated - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
-"audit_quick_summary_very_brief_duplicated_password" = "Duplicated";
+"audit_quick_summary_very_brief_duplicated_password" = "Повторный";
 
 /* Similar - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
-"audit_quick_summary_very_brief_password_is_similar_to_another" = "Similar";
+"audit_quick_summary_very_brief_password_is_similar_to_another" = "Похожий";
 
 /* Short - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
-"audit_quick_summary_very_brief_password_is_too_short" = "Short";
+"audit_quick_summary_very_brief_password_is_too_short" = "Короткий";
+
+/* Pwned */
+"audit_quick_summary_very_brief_password_is_pwned" = "Pwned";
 
 /* Audit: Password is too short. */
-"audit_quick_summary_password_is_too_short" = "Audit: Password is too short";
+"audit_quick_summary_password_is_too_short" = "Аудит: пароль слишком короткий";
 
 /* Found %@ issues in %@ entries - Translators note, both parameters are numbers, e.g. 24 issues found in 12 entries */
-"audit_status_fmt" = "Found %@ issues in %@ entries";
+"audit_status_fmt" = "Найдено %@ проблем в %@ записях";
+
+/* Found %@ issues in %@ entries - Translators note, all parameters are numbers, e.g. 24 issues found in 12 entries (with 5 HIBP Errors) */
+"audit_status_done_with_hibp_errors_fmt" = "Found %@ issues in %@ entries (with %@ HIBP Errors)";
 
 /* Audit Complete */
-"audit_status_complete" = "Status: Complete";
+"audit_status_complete" = "Статус: Завершено";
 
 /* Database Auditor Initialized */
-"audit_status_initialized" = "Status: Initializing...";
+"audit_status_initialized" = "Статус: Инициализация...";
 
 /* Database Auditor Initialized */
-"audit_status_initialized_but_disabled" = "Status: Disabled";
+"audit_status_initialized_but_disabled" = "Статус: Отключен";
 
 /* Auditing... (%d%%) - Translator's Note - 1st Parameter is a percentage e.g. 25% - NB: Only 1 param (double percentages are an escape string for the single percentage symbol) */
-"audit_status_running_with_progress_fmt" = "Status: Auditing... (%d%%)";
+"audit_status_running_with_progress_fmt" = "Статус: Проверка... (%d%%)";
 
 /* Auditing... */
-"audit_status_running_with_ellipsis" = "Status: Auditing...";
+"audit_status_running_with_ellipsis" = "Статус: Проверка...";
 
 /* Audit Stopped */
-"audit_status_stopped" = "Status: Stopped";
+"audit_status_stopped" = "Статус: Остановлен";
 
 /* No issues found */
-"audit_status_no_issues_found" = "No issues found";
+"audit_status_no_issues_found" = "Проблем не найдено";
 
 /* The credentials were incorrect for this database. Are you sure you are using this key file?\n\nNB: A key files are not the same as your database file. */
-"open_sequence_problem_opening_incorrect_credentials_message_verify_key_file" = "The credentials were incorrect for this database. Are you sure you are using this key file?\n\nNB: Please be aware that key files are not the same as your database file (KDBX/KDB)";
+"open_sequence_problem_opening_incorrect_credentials_message_verify_key_file" = "Неверные учётные данные для этой базы данных. Вы уверены, что используете правильный ключевой файл?\n\nПримечание: Пожалуйста, имейте ввиду, что ключевые файлы не являются файлами баз данных (KDBX/KDB)";
 
 /* Is your Key File correct? */
-"casg_key_file_correct_title" = "Is your Key File correct?";
+"casg_key_file_correct_title" = "Это правильный ключевой файл?";
 
 /* You have configured this database to open with a key file but the key file you have chosen doesn't look valid.\n\nAre you sure you are using this key file?\n\nNB: A key file is not the same as your database file" */
-"casg_key_file_correct_message" = "You have configured this database to open with a key file but the key file you have chosen doesn't look valid.\n\nAre you sure you are using this key file?\n\nNB: A key file is not the same as your database file";
+"casg_key_file_correct_message" = "Вы настроили эту базу данных таким образом, чтобы открывать с помощью ключевого файла, но выбранный Вами ключевой файл не является допустимым.\n\nВы уверены, что используете правильный ключевой файл?\n\nПримечание: Ключевой файл не является файлом базы данных";
 
 /* Yes, the key file is correct */
-"casg_key_file_correct_yes_key_file_correct" = "Yes, the key file is correct";
+"casg_key_file_correct_yes_key_file_correct" = "Да, это правильный ключевой файл";
 
 /* No, I don't use a key file */
-"casg_key_file_correct_no_no_key_file" = "No, I don't use a key file";
+"casg_key_file_correct_no_no_key_file" = "Нет, я не использую ключевой файл";
+
+/* Security Audit Complete */
+"browse_vc_audit_complete_title" = "Security Audit Complete";
+
+/* No issues found */
+"browse_vc_audit_complete_message" = "Проблем не найдено";
+
+/* %ld issues found */
+"browse_vc_audit_complete_message_issues_found_fmt" = "%ld issues found";
+
+/* %ld New Issues Found! */
+"browse_vc_audit_complete_message_new_issues_found_fmt" = "%ld New Issues Found!";
+
+/* HIBP Disclaimer */
+"audit_hibp_warning_title" = "HIBP Disclaimer";
+
+/* I understand that my passwords will be sent over the web (HTTPS) to the 'Have I Been Pwned?' password checking service (using k-anonymity) and that I fully consent to this functionality. I also absolve Strongbox, Mark McGuill and Phoebe Code Limited of all liabilty for using this feature. */
+"audit_hibp_warning_message" = "I understand that my passwords will be sent over the web (HTTPS) to the 'Have I Been Pwned?' password checking service (using k-anonymity) and that I fully consent to this functionality. I also absolve Strongbox, Mark McGuill and Phoebe Code Limited of all liabilty for using this feature.";
+
+/* No, I don't want to use this feature */
+"audit_hibp_warning_no" = "No, I don't want to use this feature";
+
+/* Yes, I understand and agree */
+"audit_hibp_warning_yes" = "Yes, I understand and agree";
+
+/* Always Check */
+"hibp_check_interval_always_check" = "Always Check";
+
+/* Once a Day */
+"hibp_check_interval_once_a_day" = "Once a Day";
+
+/* Once a Week */
+"hibp_check_interval_once_a_week" = "Once a Week";
+
+/* Once Every 30 days */
+"hibp_check_interval_once_every_30_days" = "Once Every 30 days";
+
+/* Select Online Check Interval */
+"audit_hibp_online_check_interval" = "Select Online Check Interval";
+
+/* Have I Been Pwned? (Pro Edition Only) */
+"audit_hibp_pro_only_title" = "Have I Been Pwned? (Pro Edition Only)";
