@@ -285,10 +285,10 @@
 "browse_prefs_tap_action_copy_copy_password" = "Copy Password";
 
 /* Copy TOTP */
-"browse_prefs_tap_action_copy_copy_totp" = "Copy TOTP";
+"browse_prefs_tap_action_copy_copy_totp" = "Kopier TOTP";
 
 /* Copy URL */
-"browse_prefs_tap_action_copy_copy_url" = "Copy URL";
+"browse_prefs_tap_action_copy_copy_url" = "Kopier URL";
 
 /* Copy Title */
 "browse_prefs_tap_action_copy_title" = "Copy Title";
@@ -505,7 +505,7 @@
 "casg_text_label_key_selected_key_file" = "Selected Key File";
 
 /* Unlock */
-"casg_unlock_action" = "Unlock";
+"casg_unlock_action" = "Lås opp";
 
 /* %@ Unlock */
 "db_management_biometric_unlock_fmt" = "%@ Unlock";
@@ -1665,6 +1665,9 @@
 /* SecureDrop */
 "pwgen_wordlist_securedrop" = "SecureDrop";
 
+/* Norwegian */
+"pwgen_wordlist_norwegian" = "Norwegian";
+
 /* EFF Large */
 "pwgen_wordlist_eff_large" = "EFF Large";
 
@@ -1723,7 +1726,7 @@
 "pwgen_casing_do_not_change" = "Do Not Change";
 
 /* Lowercase */
-"pwgen_casing_lowercase" = "Lowercase";
+"pwgen_casing_lowercase" = "Små bokstaver";
 
 /* Uppercase */
 "pwgen_casing_uppercase" = "Uppercase";
@@ -1732,7 +1735,7 @@
 "pwgen_casing_title_case" = "Title Case";
 
 /* Random */
-"pwgen_casing_random" = "Random";
+"pwgen_casing_random" = "Tilfeldig";
 
 /* Numeric */
 "pwgen_casing_numeric" = "Numeric";
@@ -1936,7 +1939,7 @@
 "keepass_history_action_restore" = "Restore";
 
 /* Delete */
-"browse_vc_action_delete" = "Delete";
+"browse_vc_action_delete" = "Slett";
 
 /* Title */
 "generic_fieldname_title" = "Tittel";
@@ -1990,7 +1993,7 @@
 "generic_done" = "Done";
 
 /* Failed */
-"generic_failed" = "Failed";
+"generic_failed" = "Mislyktes";
 
 /* Error */
 "generic_error" = "Error";
@@ -2038,7 +2041,7 @@
 "safes_vc_slide_left_remove_database_action" = "Fjern …";
 
 /* No */
-"alerts_no" = "No";
+"alerts_no" = "Nei";
 
 /* OK */
 "alerts_ok" = "OK";
@@ -2172,7 +2175,7 @@
 "open_sequence_progress_decrypting" = "Decrypting...";
 
 /* No */
-"open_sequence_prompt_option_no" = "No";
+"open_sequence_prompt_option_no" = "Nei";
 
 /* Title */
 "pick_creds_vc_search_scope_title" = "Tittel";
@@ -2237,7 +2240,7 @@
 "favicon_status_no_eligible_items" = "No eligible items/valid URLs found...";
 
 /* FavIcon Results */
-"favicon_results_title" = "FavIcon Results";
+"favicon_results_title" = "Faneikon-resultater";
 
 /* FavIcon Results (Pro Only) */
 "favicon_results_title_pro_only" = "FavIcon Results (Pro Only)";
@@ -2394,7 +2397,7 @@
 "mac_search_disabled_please_upgrade" = "Search Disabled - Please Upgrade";
 
 /* Search (⌘F) */
-"mac_search_placeholder" = "Search (⌘F)";
+"mac_search_placeholder" = "Søk (⌘F)";
 
 /* Please enter your custom Title auto fill */
 "mac_enter_custom_title_default" = "Please enter your custom Title auto fill";
@@ -2740,7 +2743,7 @@
 "mac_key_file_none" = "None";
 
 /* Browse... - (Translators Note: When user wants to open the File dialog to select a key file...)*/
-"mac_browse_for_key_file" = "Browse...";
+"mac_browse_for_key_file" = "Bla ...";
 
 /* [Configured] - (Translators Note: User is using a key file, Strongbox knows what/where it is, but will not display the file name in the UI for privacy reasons. This appears on the unlock screen. */
 "mac_key_file_configured_but_filename_hidden" = "[Configured]";
@@ -2800,7 +2803,7 @@
 "mac_convenience_expiry_period_on_app_exit" = "App Exit";
 
 /* Unlock with Touch ID or Watch */
-"mac_unlock_screen_button_title_convenience_unlock" = "Unlock with Touch ID or Watch";
+"mac_unlock_screen_button_title_convenience_unlock" = "Lås opp med Touch ID eller Watch";
 
 /* Convenience Unlock Expired */
 "mac_unlock_screen_button_title_convenience_unlock_expired" = "Convenience Unlock Expired";
@@ -2848,7 +2851,7 @@
 "mac_error_getting_challenge_response_yubikey" = "Could not get challenge response from Yubikey";
 
 /* Refreshing... (Translators Note: Used whenever running a fairly short operation to indicate somehting is happening, e.g. when polling YubiKey status (can take a few seconds)) */
-"generic_refreshing_ellipsis" = "Refreshing...";
+"generic_refreshing_ellipsis" = "Oppdaterer …";
 
 /* Could not generate Composite Key */
 "mac_error_could_not_generate_composite_key" = "Could not generate Composite Key";
@@ -3005,6 +3008,9 @@
 /* Audit: Password is similar to one in another entry. */
 "audit_quick_summary_password_is_similar_to_another" = "Password is similar to one in another entry";
 
+/* Password is Pwned (HIBP) */
+"audit_quick_summary_pwned" = "Password is Pwned (HIBP)";
+
 /* All Entries */
 "quick_view_title_all_entries_title" = "All Entries";
 
@@ -3047,11 +3053,17 @@
 /* Short - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
 "audit_quick_summary_very_brief_password_is_too_short" = "Short";
 
+/* Pwned */
+"audit_quick_summary_very_brief_password_is_pwned" = "Pwned";
+
 /* Audit: Password is too short. */
 "audit_quick_summary_password_is_too_short" = "Audit: Password is too short";
 
 /* Found %@ issues in %@ entries - Translators note, both parameters are numbers, e.g. 24 issues found in 12 entries */
 "audit_status_fmt" = "Found %@ issues in %@ entries";
+
+/* Found %@ issues in %@ entries - Translators note, all parameters are numbers, e.g. 24 issues found in 12 entries (with 5 HIBP Errors) */
+"audit_status_done_with_hibp_errors_fmt" = "Found %@ issues in %@ entries (with %@ HIBP Errors)";
 
 /* Audit Complete */
 "audit_status_complete" = "Status: Complete";
@@ -3088,3 +3100,45 @@
 
 /* No, I don't use a key file */
 "casg_key_file_correct_no_no_key_file" = "No, I don't use a key file";
+
+/* Security Audit Complete */
+"browse_vc_audit_complete_title" = "Security Audit Complete";
+
+/* No issues found */
+"browse_vc_audit_complete_message" = "No issues found";
+
+/* %ld issues found */
+"browse_vc_audit_complete_message_issues_found_fmt" = "%ld issues found";
+
+/* %ld New Issues Found! */
+"browse_vc_audit_complete_message_new_issues_found_fmt" = "%ld New Issues Found!";
+
+/* HIBP Disclaimer */
+"audit_hibp_warning_title" = "HIBP Disclaimer";
+
+/* I understand that my passwords will be sent over the web (HTTPS) to the 'Have I Been Pwned?' password checking service (using k-anonymity) and that I fully consent to this functionality. I also absolve Strongbox, Mark McGuill and Phoebe Code Limited of all liabilty for using this feature. */
+"audit_hibp_warning_message" = "I understand that my passwords will be sent over the web (HTTPS) to the 'Have I Been Pwned?' password checking service (using k-anonymity) and that I fully consent to this functionality. I also absolve Strongbox, Mark McGuill and Phoebe Code Limited of all liabilty for using this feature.";
+
+/* No, I don't want to use this feature */
+"audit_hibp_warning_no" = "No, I don't want to use this feature";
+
+/* Yes, I understand and agree */
+"audit_hibp_warning_yes" = "Yes, I understand and agree";
+
+/* Always Check */
+"hibp_check_interval_always_check" = "Always Check";
+
+/* Once a Day */
+"hibp_check_interval_once_a_day" = "Once a Day";
+
+/* Once a Week */
+"hibp_check_interval_once_a_week" = "Once a Week";
+
+/* Once Every 30 days */
+"hibp_check_interval_once_every_30_days" = "Once Every 30 days";
+
+/* Select Online Check Interval */
+"audit_hibp_online_check_interval" = "Select Online Check Interval";
+
+/* Have I Been Pwned? (Pro Edition Only) */
+"audit_hibp_pro_only_title" = "Have I Been Pwned? (Pro Edition Only)";
