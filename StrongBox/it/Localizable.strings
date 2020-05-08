@@ -1666,7 +1666,7 @@
 "pwgen_wordlist_securedrop" = "SecureDrop";
 
 /* Norwegian */
-"pwgen_wordlist_norwegian" = "Norwegian";
+"pwgen_wordlist_norwegian" = "Norvegese";
 
 /* EFF Large */
 "pwgen_wordlist_eff_large" = "EFF Grande";
@@ -3006,10 +3006,10 @@
 "audit_quick_summary_duplicated_password" = "La password è duplicata in un'altra voce";
 
 /* Audit: Password is similar to one in another entry. */
-"audit_quick_summary_password_is_similar_to_another" = "Password is similar to one in another entry";
+"audit_quick_summary_password_is_similar_to_another" = "La password è simile a una in un'altra voce";
 
 /* Password is Pwned (HIBP) */
-"audit_quick_summary_pwned" = "Password is Pwned (HIBP)";
+"audit_quick_summary_pwned" = "La Password è Pwned (HIBP)";
 
 /* All Entries */
 "quick_view_title_all_entries_title" = "Tutte Le Voci";
@@ -3033,118 +3033,118 @@
 "quick_view_section_title_quick_views" = "Viste Rapide";
 
 /* Enhanced Audits (Pro Edition Only) */
-"audit_similar_passwords_pro_only_title" = "Similar Passwords (Pro Edition Only)";
+"audit_similar_passwords_pro_only_title" = "Password Analoghe (Solo Edizione Pro)";
 
 /* Audit Issues (%ld) - Translators note: format param is number of items with audit issues e.g. 5 */
-"quick_view_title_audit_issues_title_fmt" = "Audit Issues (%ld)";
+"quick_view_title_audit_issues_title_fmt" = "Problemi di Revisione (%ld)";
 
 /* No Password - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
 "audit_quick_summary_very_brief_no_password_set" = "Nessuna Password";
 
 /* Weak/Common - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
-"audit_quick_summary_very_brief_very_common_password" = "Common";
+"audit_quick_summary_very_brief_very_common_password" = "Comune";
 
 /* Duplicated - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
-"audit_quick_summary_very_brief_duplicated_password" = "Duplicated";
+"audit_quick_summary_very_brief_duplicated_password" = "Duplicato";
 
 /* Similar - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
-"audit_quick_summary_very_brief_password_is_similar_to_another" = "Similar";
+"audit_quick_summary_very_brief_password_is_similar_to_another" = "Simile";
 
 /* Short - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
-"audit_quick_summary_very_brief_password_is_too_short" = "Short";
+"audit_quick_summary_very_brief_password_is_too_short" = "Breve";
 
 /* Pwned */
 "audit_quick_summary_very_brief_password_is_pwned" = "Pwned";
 
 /* Audit: Password is too short. */
-"audit_quick_summary_password_is_too_short" = "Audit: Password is too short";
+"audit_quick_summary_password_is_too_short" = "Revisione: Password troppo breve";
 
 /* Found %@ issues in %@ entries - Translators note, both parameters are numbers, e.g. 24 issues found in 12 entries */
-"audit_status_fmt" = "Found %@ issues in %@ entries";
+"audit_status_fmt" = "Trovati %@ problemi in %@ voci";
 
 /* Found %@ issues in %@ entries - Translators note, all parameters are numbers, e.g. 24 issues found in 12 entries (with 5 HIBP Errors) */
-"audit_status_done_with_hibp_errors_fmt" = "Found %@ issues in %@ entries (with %@ HIBP Errors)";
+"audit_status_done_with_hibp_errors_fmt" = "Trovati %@ problemi in %@ voci (con %@ Errori HIBP)";
 
 /* Audit Complete */
-"audit_status_complete" = "Status: Complete";
+"audit_status_complete" = "Stato: Completo";
 
 /* Database Auditor Initialized */
-"audit_status_initialized" = "Status: Initializing...";
+"audit_status_initialized" = "Stato: Inizializzazione...";
 
 /* Database Auditor Initialized */
-"audit_status_initialized_but_disabled" = "Status: Disabled";
+"audit_status_initialized_but_disabled" = "Stato: Disabilitata";
 
 /* Auditing... (%d%%) - Translator's Note - 1st Parameter is a percentage e.g. 25% - NB: Only 1 param (double percentages are an escape string for the single percentage symbol) */
-"audit_status_running_with_progress_fmt" = "Status: Auditing... (%d%%)";
+"audit_status_running_with_progress_fmt" = "Stato: Revisione... (%d%%)";
 
 /* Auditing... */
-"audit_status_running_with_ellipsis" = "Status: Auditing...";
+"audit_status_running_with_ellipsis" = "Stato: Revisione...";
 
 /* Audit Stopped */
-"audit_status_stopped" = "Status: Stopped";
+"audit_status_stopped" = "Stato: Fermata";
 
 /* No issues found */
-"audit_status_no_issues_found" = "No issues found";
+"audit_status_no_issues_found" = "Nessun problema trovato";
 
 /* The credentials were incorrect for this database. Are you sure you are using this key file?\n\nNB: A key files are not the same as your database file. */
-"open_sequence_problem_opening_incorrect_credentials_message_verify_key_file" = "The credentials were incorrect for this database. Are you sure you are using this key file?\n\nNB: Please be aware that key files are not the same as your database file (KDBX/KDB)";
+"open_sequence_problem_opening_incorrect_credentials_message_verify_key_file" = "Le credenziali erano errate per questo database. Si è sicuri di usare questo file chiave?\n\nNB: Si prega di essere consapevoli che i file chiave non sono la stessa cosa dei file database (KDBX/KDB)";
 
 /* Is your Key File correct? */
-"casg_key_file_correct_title" = "Is your Key File correct?";
+"casg_key_file_correct_title" = "È il File Chiave corretto?";
 
 /* You have configured this database to open with a key file but the key file you have chosen doesn't look valid.\n\nAre you sure you are using this key file?\n\nNB: A key file is not the same as your database file" */
-"casg_key_file_correct_message" = "You have configured this database to open with a key file but the key file you have chosen doesn't look valid.\n\nAre you sure you are using this key file?\n\nNB: A key file is not the same as your database file";
+"casg_key_file_correct_message" = "Questo database è configurato per essere aperto con un file chiave, ma il file chiave selezionato non sembra valido.\n\nSi è sicuri di usare questo file chiave?\n\nNB: Un file chiave non è la stessa cosa di un file database";
 
 /* Yes, the key file is correct */
-"casg_key_file_correct_yes_key_file_correct" = "Yes, the key file is correct";
+"casg_key_file_correct_yes_key_file_correct" = "Sì, il file chiave è corretto";
 
 /* No, I don't use a key file */
-"casg_key_file_correct_no_no_key_file" = "No, I don't use a key file";
+"casg_key_file_correct_no_no_key_file" = "No, il file chiave non è utilizzato";
 
 /* Security Audit Complete */
-"browse_vc_audit_complete_title" = "Security Audit Complete";
+"browse_vc_audit_complete_title" = "Revisione di Sicurezza Completata";
 
 /* No issues found */
-"browse_vc_audit_complete_message" = "No issues found";
+"browse_vc_audit_complete_message" = "Nessun problema trovato";
 
 /* %ld issues found */
-"browse_vc_audit_complete_message_issues_found_fmt" = "%ld issues found";
+"browse_vc_audit_complete_message_issues_found_fmt" = "%ld problemi trovati";
 
 /* %ld New Issues Found! */
-"browse_vc_audit_complete_message_new_issues_found_fmt" = "%ld New Issues Found!";
+"browse_vc_audit_complete_message_new_issues_found_fmt" = "%ld Nuovi Problemi Trovati!";
 
 /* HIBP Disclaimer */
-"audit_hibp_warning_title" = "HIBP Disclaimer";
+"audit_hibp_warning_title" = "Dichiarazione HIBP";
 
 /* I understand that my passwords will be sent over the web (HTTPS) to the 'Have I Been Pwned?' password checking service (using k-anonymity) and that I fully consent to this functionality. I also absolve Strongbox, Mark McGuill and Phoebe Code Limited of all liabilty for using this feature. */
-"audit_hibp_warning_message" = "I understand that my passwords will be sent over the web (HTTPS) to the 'Have I Been Pwned?' password checking service (using k-anonymity) and that I fully consent to this functionality. I also absolve Strongbox, Mark McGuill and Phoebe Code Limited of all liabilty for using this feature.";
+"audit_hibp_warning_message" = "Ho capito che le mie password saranno inviate tramite web (HTTPS) al servizio di controllo delle password \"Have I Been Pwned?\" (usando k-anonimato) e che fornisco il mio pieno consenso a questa funzionalità. Assolvo anche Strongbox, Mark McGuill e Phoebe Code Limited di ogni responsabilità nell'utilizzo di questa funzione.";
 
 /* No, I don't want to use this feature */
-"audit_hibp_warning_no" = "No, I don't want to use this feature";
+"audit_hibp_warning_no" = "No, non voglio usare questa funzione";
 
 /* Yes, I understand and agree */
-"audit_hibp_warning_yes" = "Yes, I understand and agree";
+"audit_hibp_warning_yes" = "Sì, capisco e sono d'accordo";
 
 /* Always Check */
-"hibp_check_interval_always_check" = "Always Check";
+"hibp_check_interval_always_check" = "Controlla Sempre";
 
 /* Once a Day */
-"hibp_check_interval_once_a_day" = "Once a Day";
+"hibp_check_interval_once_a_day" = "Una Volta al Giorno";
 
 /* Once a Week */
-"hibp_check_interval_once_a_week" = "Once a Week";
+"hibp_check_interval_once_a_week" = "Una Volta alla Settimana";
 
 /* Once Every 30 days */
-"hibp_check_interval_once_every_30_days" = "Once Every 30 days";
+"hibp_check_interval_once_every_30_days" = "Ogni 30 Giorni";
 
 /* Select Online Check Interval */
-"audit_hibp_online_check_interval" = "Select Online Check Interval";
+"audit_hibp_online_check_interval" = "Selezionare Intervallo Controllo Online";
 
 /* Have I Been Pwned? (Pro Edition Only) */
-"audit_hibp_pro_only_title" = "Have I Been Pwned? (Pro Edition Only)";
+"audit_hibp_pro_only_title" = "Have I Been Pwned? (Solo Edizione Pro)";
 
 /* Auto Fetch FavIcon? */
-"item_details_prompt_auto_fetch_favicon_title" = "Auto Fetch FavIcon?";
+"item_details_prompt_auto_fetch_favicon_title" = "Recupero Automatico FavIcona?";
 
 /* Strongbox can automatically fetch FavIcons when an new entry is created or updated.\n\nWould you like to Strongbox to do this? */
-"item_details_prompt_auto_fetch_favicon_message" = "Strongbox can automatically fetch FavIcons when an new entry is created or updated.\n\nWould you like to Strongbox to do this?";
+"item_details_prompt_auto_fetch_favicon_message" = "StrongBox è in grado di recuperare automaticamente le FavIcone quando una nuova voce viene creata o aggiornata.\n\nSi vuole che StrongBox lo faccia?";
