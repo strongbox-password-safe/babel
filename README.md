@@ -71,13 +71,14 @@ which will be rendered as:
     Thanks for your help!
     -Mark
 
-# Language Contributors
-Below is a list of the contributors for various languages completed so far.
+# Language Contributors - Acknowledgements
+Below is a list of the contributors for various languages completed so far. A big thank you to all!
 
 - Chinese - GY & Attis
 - French - Charles-Ivan Chesneau
 - German - @Slummi
 - Italian - Marco Ermini
+- Norwegian - Ole Aldric 
 - Russian - Wishes to remain anonymous
 - Spanish - Wishes to remain anonymous
 - Swedish - Jari Häkkinen
