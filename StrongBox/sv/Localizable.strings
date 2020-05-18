@@ -396,7 +396,7 @@
 "browse_vc_rename_item_enter_title" = "Ange ett nytt namn för detta objekt";
 
 /* All Fields */
-"browse_vc_search_scope_all" = "All";
+"browse_vc_search_scope_all" = "Alla";
 
 /* Sort Items By Title? */
 "browse_vc_sort_by_title" = "Sortera objekt på titel?";
@@ -448,7 +448,7 @@
 "casg_database_format_information_kp31" = "KDBX 3.1, Salsa20 och AES (mest kompatibelt)";
 
 /* KDBX 4.0, ChaCha20, Argon2D (GPU Brute Force Resistant) */
-"casg_database_format_information_kp4" = "KDBX 4.0, ChaCha20, Argon2D (motståndskraftig mot GPU totalsökning)";
+"casg_database_format_information_kp4" = "KDBX 4.0, ChaCha20, Argon2D (motståndskraftig mot GPU-totalsökning)";
 
 /* PSAFE3 version 3.x, TwoFish, SHA256 */
 "casg_database_format_information_pwsafe" = "PSAFE3 version 3.x, TwoFish, SHA256";
@@ -688,13 +688,13 @@
 "prefs_vc_app_lock_delay" = "Applåsfördröjning";
 
 /* Lite Version %@ (Please Upgrade) */
-"prefs_vc_app_version_info_free_fmt" = "About Strongbox %@ (Free version - Please Upgrade)";
+"prefs_vc_app_version_info_free_fmt" = "Om Strongbox %@ (Gratisversion - Vänligen uppgradera)";
 
 /* Pro Version %@ */
-"prefs_vc_app_version_info_pro_fmt" = "About Strongbox Pro %@";
+"prefs_vc_app_version_info_pro_fmt" = "Om Strongbox Pro %@";
 
 /* Pro Version %@ (Trial - %ld days left) */
-"prefs_vc_app_version_info_pro_trial_fmt" = "About Strongbox %@ (Pro Trial - %ld days left)";
+"prefs_vc_app_version_info_pro_trial_fmt" = "Om Strongbox %@ (Pro-utvärderingsversion - %ld dagar kvar)";
 
 /* Auto Lock Database Delay */
 "prefs_vc_auto_lock_database_delay" = "Fördröjning autolås av databas";
@@ -1438,7 +1438,7 @@
 "open_sequence_yesno_set_quick_launch_title" = "Välj som Snabbstart?";
 
 /* Would you like to use this as your Quick Launch database? Quick Launch means you will get prompted immediately to unlock when you open Strongbox, saving you a precious tap. */
-"open_sequence_yesno_set_quick_launch_message" = "Would you like to use this as your Quick Launch database? Quick Launch means you will get prompted immediately to unlock when you open Strongbox, saving you a precious tap.";
+"open_sequence_yesno_set_quick_launch_message" = "Vill du använda detta som din snabbstart-databas? Snabbstart innebär att du omedelbart blir tillfrågad om att låsa upp när du öppnar Strongbox och spar därmed ett dyrbart tryck.";
 
 /* Convenience Unlock: Use %@ or PIN Code in Future? */
 "open_sequence_prompt_use_convenience_both_title_fmt" = "Bekvämlighetsupplåsning: Använd %@ eller PIN-koder i framtiden?";
@@ -1666,7 +1666,7 @@
 "pwgen_wordlist_securedrop" = "SecureDrop";
 
 /* Norwegian */
-"pwgen_wordlist_norwegian" = "Norwegian";
+"pwgen_wordlist_norwegian" = "Norska";
 
 /* EFF Large */
 "pwgen_wordlist_eff_large" = "EFF Large";
@@ -2955,202 +2955,226 @@
 "browse_vc_duplicate_prompt_message" = "Är du säker på att du vill duplicera detta objekt?";
 
 /* It looks like your database is encrypted by Microsoft InTune probably due to corporate policy. */
-"error_database_is_encrypted_ms_intune" = "It looks like your database is encrypted by Microsoft InTune probably due to corporate policy.";
+"error_database_is_encrypted_ms_intune" = "Det ser ut som om din databas är krypterad med Microsoft InTune, troligen på grund av företagspolicy.";
 
 /* Add Entry... */
-"browse_add_entry_button_title" = "Add Entry...";
+"browse_add_entry_button_title" = "Lägg till ...";
 
 /* Add Group... */
-"browse_add_group_button_title" = "Add Group...";
+"browse_add_group_button_title" = "Lägg till grupp ...";
 
 /* Tags */
-"browse_vc_search_scope_tags" = "Tags";
+"browse_vc_search_scope_tags" = "Taggar";
 
 /* Tags */
-"browse_prefs_item_subtitle_tags" = "Tags";
+"browse_prefs_item_subtitle_tags" = "Taggar";
 
 /* Tags */
-"item_details_username_field_tags" = "Tags";
+"item_details_username_field_tags" = "Taggar";
 
 /* 90 Day Trial */
-"upgrade_vc_start_your_free_trial" = "90 Day Trial";
+"upgrade_vc_start_your_free_trial" = "90-dagarsutvärdering";
 
 /* Free Trial - No subscription or commitment required!" */
-"upgrade_vc_start_your_free_trial_subtitle" = "Try all Pro features (No subscription, uses a Free In App Purchase to start)";
+"upgrade_vc_start_your_free_trial_subtitle" = "Prova alla Pro-funktioner (ingen prenumeration, använder ett gratis köp i appen för att komma igång)";
 
 /* Free */
 "upgrade_vc_start_your_free_trial_price_free" = "Gratis";
 
 /* Upgrade (Free Trial Available) */
-"safes_vc_upgrade_info_trial_available_button_title" = "Upgrade (Free 'Pro' Trial)...";
+"safes_vc_upgrade_info_trial_available_button_title" = "Uppgradera (Gratis \"Pro\"-utvärdering) ...";
 
 /* Would you like to add an entry or a group? */
-"browse_add_group_or_entry_question" = "Would you like to add an entry or a group?";
+"browse_add_group_or_entry_question" = "Vill du lägga till en post eller en grupp?";
 
 /* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be securely stored for %@ before you need to re-enter it. Note for translators (1st Param = "Touch ID", 2nd Param is a time span something like "2 weeks") */
 "mac_use_biometric_to_open_in_future_fmt" = "Vill du använda %@ eller din Apple Watch för att låsa upp denna databas i framtiden? Ditt huvudlösenord kommer att lagras säkert i %@ innan du behöver ange det igen.";
 
 /* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be stored securely. Note for translators (1st Param = "Touch ID") */
-"mac_use_biometric_to_open_in_future_simple_fmt" = "Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be stored securely.";
+"mac_use_biometric_to_open_in_future_simple_fmt" = "Vill du använda %@ eller din Apple Watch för att låsa upp denna databas i framtiden? Ditt huvudlösenord kommer att lagras säkert.";
 
 /* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be stored securely until you exit Strongbox Note for translators (1st Param = "Touch ID") */
-"mac_use_biometric_to_open_in_future_simple_app_exit_fmt" = "Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be stored securely until you exit Strongbox";
+"mac_use_biometric_to_open_in_future_simple_app_exit_fmt" = "Vill du använda %@ eller din Apple Watch för att låsa upp denna databas i framtiden? Ditt huvudlösenord kommer att lagras säkert tills du avslutar Strongbox";
 
 /* Audit: No password set */
-"audit_quick_summary_no_password_set" = "No password set";
+"audit_quick_summary_no_password_set" = "Inget lösenord har angetts";
 
 /* Audit: Password is very common */
-"audit_quick_summary_very_common_password" = "Password is very common";
+"audit_quick_summary_very_common_password" = "Lösenordet är mycket vanligt";
 
 /* Audit: Password is duplicated in another entry */
-"audit_quick_summary_duplicated_password" = "Password is duplicated in another entry";
+"audit_quick_summary_duplicated_password" = "Lösenordet är duplicerat i en annan post";
 
 /* Audit: Password is similar to one in another entry. */
-"audit_quick_summary_password_is_similar_to_another" = "Password is similar to one in another entry";
+"audit_quick_summary_password_is_similar_to_another" = "Lösenordet är likt ett i en annan post";
 
 /* Password is Pwned (HIBP) */
-"audit_quick_summary_pwned" = "Password is Pwned (HIBP)";
+"audit_quick_summary_pwned" = "Lösenordet är pwned (HIBP)";
 
 /* All Entries */
-"quick_view_title_all_entries_title" = "All Entries";
+"quick_view_title_all_entries_title" = "Alla poster";
 
 /* View every entry in a flat list... */
-"quick_view_title_all_entries_subtitle" = "View every entry in a flat list...";
+"quick_view_title_all_entries_subtitle" = "Visa varje post i en oformaterad lista ...";
 
 /* Audit Issues */
-"quick_view_title_audit_issues_title" = "Audit Issues";
+"quick_view_title_audit_issues_title" = "Granskningsproblem";
 
 /* View all entries with audit issues */
-"quick_view_title_audit_issues_subtitle" = "View all entries with audit issues";
+"quick_view_title_audit_issues_subtitle" = "Visa alla poster med granskningsproblem";
 
 /* TOTP Entries */
-"quick_view_title_totp_entries_title" = "TOTP Entries";
+"quick_view_title_totp_entries_title" = "TOTP-poster";
 
 /* View all entries with a TOTP token */
-"quick_view_title_totp_entries_subtitle" = "View all entries with a TOTP token";
+"quick_view_title_totp_entries_subtitle" = "Visa alla poster med en TOTP-token";
 
 /* Quick Views */
-"quick_view_section_title_quick_views" = "Quick Views";
+"quick_view_section_title_quick_views" = "Snabbvyer";
 
 /* Enhanced Audits (Pro Edition Only) */
-"audit_similar_passwords_pro_only_title" = "Similar Passwords (Pro Edition Only)";
+"audit_similar_passwords_pro_only_title" = "Liknande lösenord (endast Pro-version)";
 
 /* Audit Issues (%ld) - Translators note: format param is number of items with audit issues e.g. 5 */
-"quick_view_title_audit_issues_title_fmt" = "Audit Issues (%ld)";
+"quick_view_title_audit_issues_title_fmt" = "Granskningsproblem (%ld)";
 
 /* No Password - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
 "audit_quick_summary_very_brief_no_password_set" = "Inget lösenord";
 
 /* Weak/Common - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
-"audit_quick_summary_very_brief_very_common_password" = "Common";
+"audit_quick_summary_very_brief_very_common_password" = "Vanlig";
 
 /* Duplicated - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
-"audit_quick_summary_very_brief_duplicated_password" = "Duplicated";
+"audit_quick_summary_very_brief_duplicated_password" = "Dubblett";
 
 /* Similar - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
-"audit_quick_summary_very_brief_password_is_similar_to_another" = "Similar";
+"audit_quick_summary_very_brief_password_is_similar_to_another" = "Liknande";
 
 /* Short - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
-"audit_quick_summary_very_brief_password_is_too_short" = "Short";
+"audit_quick_summary_very_brief_password_is_too_short" = "Kort";
 
 /* Pwned */
 "audit_quick_summary_very_brief_password_is_pwned" = "Pwned";
 
 /* Audit: Password is too short. */
-"audit_quick_summary_password_is_too_short" = "Audit: Password is too short";
+"audit_quick_summary_password_is_too_short" = "Granskning: Lösenordet är för kort";
 
 /* Found %@ issues in %@ entries - Translators note, both parameters are numbers, e.g. 24 issues found in 12 entries */
-"audit_status_fmt" = "Found %@ issues in %@ entries";
+"audit_status_fmt" = "Hittade %@ problem i %@ poster";
 
 /* Found %@ issues in %@ entries - Translators note, all parameters are numbers, e.g. 24 issues found in 12 entries (with 5 HIBP Errors) */
-"audit_status_done_with_hibp_errors_fmt" = "Found %@ issues in %@ entries (with %@ HIBP Errors)";
+"audit_status_done_with_hibp_errors_fmt" = "Hittade %@ problem i %@ poster (med %@ HIBP-fel)";
 
 /* Audit Complete */
-"audit_status_complete" = "Status: Complete";
+"audit_status_complete" = "Status: Klar";
 
 /* Database Auditor Initialized */
-"audit_status_initialized" = "Status: Initializing...";
+"audit_status_initialized" = "Status: Initierar ...";
 
 /* Database Auditor Initialized */
-"audit_status_initialized_but_disabled" = "Status: Disabled";
+"audit_status_initialized_but_disabled" = "Status: Inaktiverad";
 
 /* Auditing... (%d%%) - Translator's Note - 1st Parameter is a percentage e.g. 25% - NB: Only 1 param (double percentages are an escape string for the single percentage symbol) */
-"audit_status_running_with_progress_fmt" = "Status: Auditing... (%d%%)";
+"audit_status_running_with_progress_fmt" = "Status: Granskar ... (%d%%)";
 
 /* Auditing... */
-"audit_status_running_with_ellipsis" = "Status: Auditing...";
+"audit_status_running_with_ellipsis" = "Status: Granskar ...";
 
 /* Audit Stopped */
-"audit_status_stopped" = "Status: Stopped";
+"audit_status_stopped" = "Status: Stoppad";
 
 /* No issues found */
-"audit_status_no_issues_found" = "No issues found";
+"audit_status_no_issues_found" = "Inga problem hittades";
 
 /* The credentials were incorrect for this database. Are you sure you are using this key file?\n\nNB: A key files are not the same as your database file. */
-"open_sequence_problem_opening_incorrect_credentials_message_verify_key_file" = "The credentials were incorrect for this database. Are you sure you are using this key file?\n\nNB: Please be aware that key files are not the same as your database file (KDBX/KDB)";
+"open_sequence_problem_opening_incorrect_credentials_message_verify_key_file" = "Autentiseringsuppgifterna var inte korrekta för denna databas. Är du säker på att du använder den här nyckelfilen?\n\nObs: Var medveten om att nyckelfiler inte är detsamma som din databasfil (KDBX/KDB)";
 
 /* Is your Key File correct? */
-"casg_key_file_correct_title" = "Is your Key File correct?";
+"casg_key_file_correct_title" = "Är din nyckelfil korrekt?";
 
 /* You have configured this database to open with a key file but the key file you have chosen doesn't look valid.\n\nAre you sure you are using this key file?\n\nNB: A key file is not the same as your database file" */
-"casg_key_file_correct_message" = "You have configured this database to open with a key file but the key file you have chosen doesn't look valid.\n\nAre you sure you are using this key file?\n\nNB: A key file is not the same as your database file";
+"casg_key_file_correct_message" = "Du har konfigurerat denna databas att öppna med en nyckelfil men nyckelfilen du valt ser inte giltig ut.\n\nÄr du säker på att du använder denna nyckelfil?\n\nObs! En nyckelfil är inte samma som din databasfil";
 
 /* Yes, the key file is correct */
-"casg_key_file_correct_yes_key_file_correct" = "Yes, the key file is correct";
+"casg_key_file_correct_yes_key_file_correct" = "Ja, det är korrekt nyckelfil";
 
 /* No, I don't use a key file */
-"casg_key_file_correct_no_no_key_file" = "No, I don't use a key file";
+"casg_key_file_correct_no_no_key_file" = "Nej, jag använder inte en nyckelfil";
 
 /* Security Audit Complete */
-"browse_vc_audit_complete_title" = "Security Audit Complete";
+"browse_vc_audit_complete_title" = "Säkerhetsgranskning slutförd";
 
 /* No issues found */
-"browse_vc_audit_complete_message" = "No issues found";
+"browse_vc_audit_complete_message" = "Inga problem hittades";
 
 /* %ld issues found */
-"browse_vc_audit_complete_message_issues_found_fmt" = "%ld issues found";
+"browse_vc_audit_complete_message_issues_found_fmt" = "%ld problem hittades";
 
 /* %ld New Issues Found! */
-"browse_vc_audit_complete_message_new_issues_found_fmt" = "%ld New Issues Found!";
+"browse_vc_audit_complete_message_new_issues_found_fmt" = "%ld nya problem hittades!";
 
 /* HIBP Disclaimer */
-"audit_hibp_warning_title" = "HIBP Disclaimer";
+"audit_hibp_warning_title" = "HIBP ansvarsfriskrivning";
 
 /* I understand that my passwords will be sent over the web (HTTPS) to the 'Have I Been Pwned?' password checking service (using k-anonymity) and that I fully consent to this functionality. I also absolve Strongbox, Mark McGuill and Phoebe Code Limited of all liabilty for using this feature. */
-"audit_hibp_warning_message" = "I understand that my passwords will be sent over the web (HTTPS) to the 'Have I Been Pwned?' password checking service (using k-anonymity) and that I fully consent to this functionality. I also absolve Strongbox, Mark McGuill and Phoebe Code Limited of all liabilty for using this feature.";
+"audit_hibp_warning_message" = "Jag förstår att mina lösenord kommer att skickas över webben (HTTPS) till lösenordskontrolltjänsten \"Have I Been Pwned?\" (med k-anonymitet) och att jag helt samtycker till denna funktionalitet. Jag frikänner också Strongbox, Mark McGuill och Phoebe Code Limited från allt ansvar vid användandet av denna funktion.";
 
 /* No, I don't want to use this feature */
-"audit_hibp_warning_no" = "No, I don't want to use this feature";
+"audit_hibp_warning_no" = "Nej, jag vill inte använda den här funktionen";
 
 /* Yes, I understand and agree */
-"audit_hibp_warning_yes" = "Yes, I understand and agree";
+"audit_hibp_warning_yes" = "Ja, jag förstår och accepterar";
 
 /* Always Check */
-"hibp_check_interval_always_check" = "Always Check";
+"hibp_check_interval_always_check" = "Kontrollera alltid";
 
 /* Once a Day */
-"hibp_check_interval_once_a_day" = "Once a Day";
+"hibp_check_interval_once_a_day" = "En gång om dagen";
 
 /* Once a Week */
-"hibp_check_interval_once_a_week" = "Once a Week";
+"hibp_check_interval_once_a_week" = "En gång i veckan";
 
 /* Once Every 30 days */
-"hibp_check_interval_once_every_30_days" = "Once Every 30 days";
+"hibp_check_interval_once_every_30_days" = "En gång var 30:e dag";
 
 /* Select Online Check Interval */
-"audit_hibp_online_check_interval" = "Select Online Check Interval";
+"audit_hibp_online_check_interval" = "Välj intervall för online-kontroll";
 
 /* Have I Been Pwned? (Pro Edition Only) */
-"audit_hibp_pro_only_title" = "Have I Been Pwned? (Pro Edition Only)";
+"audit_hibp_pro_only_title" = "Have I Been Pwned? (Endast Pro-version)";
 
 /* Auto Fetch FavIcon? */
-"item_details_prompt_auto_fetch_favicon_title" = "Auto Fetch FavIcon?";
+"item_details_prompt_auto_fetch_favicon_title" = "Hämta favicon automatiskt?";
 
 /* Strongbox can automatically fetch FavIcons when an new entry is created or updated.\n\nWould you like to Strongbox to do this? */
-"item_details_prompt_auto_fetch_favicon_message" = "Strongbox can automatically fetch FavIcons when an new entry is created or updated.\n\nWould you like to Strongbox to do this?";
+"item_details_prompt_auto_fetch_favicon_message" = "Strongbox kan hämta faviconer automatiskt när en ny post skapas eller uppdateras.\n\nVill du Strongbox för att göra detta?";
 
 /* Try Strongbox Pro? */
-"browse_pro_nudge_title" = "Try Strongbox Pro?";
+"browse_pro_nudge_title" = "Prova Strongbox Pro?";
 
 /* Strongbox Pro is full of handy features like %@ Unlock.\n\nGood news! You have a Free 90-Day Trial available. Would you like to try Strongbox Pro? (Translators Note: 1st parameter is biometric id like 'Touch ID' or 'Face ID') */
-"browse_pro_nudge_message_fmt" = "Strongbox Pro is full of handy features like %@ Unlock.\n\nGood news! You have a Free 90-Day Trial available. Would you like to try Strongbox Pro?";
+"browse_pro_nudge_message_fmt" = "Strongbox Pro är full av praktiska funktioner som %@ upplåsning.\n\nGoda nyheter! Du har en gratis 90-dagars utvärderingsperiod tillgänglig. Vill du prova Strongbox Pro?";
+
+/* Finnish */
+"pwgen_wordlist_finnish" = "Finska";
+
+/* Icelandic */
+"pwgen_wordlist_icelandic" = "Isländska";
+
+/* Standard */
+"password_gen_vc_wordlist_category_standard" = "Standard";
+
+/* Fandom */
+"password_gen_vc_wordlist_category_fandom" = "Fandom";
+
+/* Languages */
+"password_gen_vc_wordlist_category_languages" = "Språk";
+
+/* Accessed */
+"item_details_metadata_accessed_field_title" = "Accessed";
+
+/* Location Changed */
+"item_details_metadata_location_changed_field_title" = "Location Changed";
+
+/* Usage Count */
+"item_details_metadata_usage_count_field_title" = "Usage Count";
