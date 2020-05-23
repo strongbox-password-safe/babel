@@ -348,7 +348,7 @@
 "browse_vc_delete_failed" = "Помилка видалення";
 
 /*  Copy */
-"browse_vc_duplicate_title_suffix" = " Копіювати";
+"browse_vc_duplicate_title_suffix" = " Копія";
 
 /* '%@' Email Copied */
 "browse_vc_email_copied_fmt" = "'%@' Е-пошта скопійована";
@@ -2439,6 +2439,9 @@
 /* Move Item */
 "mac_undo_action_move_item" = "Перемістити запис";
 
+/* Move Items */
+"mac_undo_action_move_items" = "Move Items";
+
 /* Password Change */
 "mac_undo_action_password_change" = "Зміна пароля";
 
@@ -3015,7 +3018,7 @@
 "quick_view_title_all_entries_title" = "Усі записи";
 
 /* View every entry in a flat list... */
-"quick_view_title_all_entries_subtitle" = "Переглянути кожен запис у плоскому списку...";
+"quick_view_title_all_entries_subtitle" = "Переглянути список усіх записів...";
 
 /* Audit Issues */
 "quick_view_title_audit_issues_title" = "Проблеми аудиту";
@@ -3171,10 +3174,16 @@
 "password_gen_vc_wordlist_category_languages" = "Мови";
 
 /* Accessed */
-"item_details_metadata_accessed_field_title" = "Accessed";
+"item_details_metadata_accessed_field_title" = "Останній доступ";
 
 /* Location Changed */
-"item_details_metadata_location_changed_field_title" = "Location Changed";
+"item_details_metadata_location_changed_field_title" = "Змінено розташування";
 
 /* Usage Count */
-"item_details_metadata_usage_count_field_title" = "Usage Count";
+"item_details_metadata_usage_count_field_title" = "Кількість використань";
+
+/* Partial Recycle (Translators Note: If a user selects multiple items and some of them can't be recycled (e.g. The Recycle Bin itself, we ask if user is ok with that) */
+"browse_vc_partial_recycle_alert_title" = "Часткове видалення";
+
+/* Some of the items you have selected cannot be recycled and will be permanently deleted. Is that OK? */
+"browse_vc_partial_recycle_alert_message" = "Деякі з вибраних вами елементів неможливо перемістити до смітника, тому їх буде остаточно видалено. Ви згодні?";

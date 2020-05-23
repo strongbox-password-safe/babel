@@ -2439,6 +2439,9 @@
 /* Move Item */
 "mac_undo_action_move_item" = "Переместить элемент";
 
+/* Move Items */
+"mac_undo_action_move_items" = "Move Items";
+
 /* Password Change */
 "mac_undo_action_password_change" = "Изменение пароля";
 
@@ -2997,10 +3000,10 @@
 "mac_use_biometric_to_open_in_future_simple_app_exit_fmt" = "Вы хотите использовать %@ или Apple Watch для разблокировки этой базы данных в будущем? Ваш главный пароль будет надёжно сохранён, пока Вы не выйдете из Strongbox.";
 
 /* Audit: No password set */
-"audit_quick_summary_no_password_set" = "Пароль не установлен";
+"audit_quick_summary_no_password_set" = "Запись без пароля";
 
 /* Audit: Password is very common */
-"audit_quick_summary_very_common_password" = "Пароль является ходовым";
+"audit_quick_summary_very_common_password" = "Пароль является часто используемым";
 
 /* Audit: Password is duplicated in another entry */
 "audit_quick_summary_duplicated_password" = "Пароль повторяется в другой записи";
@@ -3039,10 +3042,10 @@
 "quick_view_title_audit_issues_title_fmt" = "Проблемы аудита (%ld)";
 
 /* No Password - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
-"audit_quick_summary_very_brief_no_password_set" = "Отсутствие пароля";
+"audit_quick_summary_very_brief_no_password_set" = "Без пароля";
 
 /* Weak/Common - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
-"audit_quick_summary_very_brief_very_common_password" = "Ходовой";
+"audit_quick_summary_very_brief_very_common_password" = "Частый";
 
 /* Duplicated - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
 "audit_quick_summary_very_brief_duplicated_password" = "Повторный";
@@ -3168,13 +3171,19 @@
 "password_gen_vc_wordlist_category_fandom" = "Фэндом";
 
 /* Languages */
-"password_gen_vc_wordlist_category_languages" = "Языки";
+"password_gen_vc_wordlist_category_languages" = "Языковой";
 
 /* Accessed */
-"item_details_metadata_accessed_field_title" = "Accessed";
+"item_details_metadata_accessed_field_title" = "Последнее обращение";
 
 /* Location Changed */
-"item_details_metadata_location_changed_field_title" = "Location Changed";
+"item_details_metadata_location_changed_field_title" = "Расположение изменено";
 
 /* Usage Count */
-"item_details_metadata_usage_count_field_title" = "Usage Count";
+"item_details_metadata_usage_count_field_title" = "Счётчик обращений";
+
+/* Partial Recycle (Translators Note: If a user selects multiple items and some of them can't be recycled (e.g. The Recycle Bin itself, we ask if user is ok with that) */
+"browse_vc_partial_recycle_alert_title" = "Частичное удаление";
+
+/* Some of the items you have selected cannot be recycled and will be permanently deleted. Is that OK? */
+"browse_vc_partial_recycle_alert_message" = "Некоторые из выбранных Вами элементов не могут быть отправлены в корзину и будут окончательно удалены. Продолжить?";
