@@ -1406,8 +1406,14 @@
 /* Could not open this database in offline mode. Does the Offline Cache exist? */
 "open_sequence_couldnt_open_offline_message" = "Diese Datenbank konnte im Offline-Modus nicht geöffnet werden. Existiert der Offline-Cache?";
 
-/* Could not reach %@, it looks like you may be offline, would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ */
-"open_sequence_user_looks_offline_open_offline_instead_fmt" = "Konnte %@ nicht erreichen. Es sieht so aus, als wären Sie offline. Möchten Sie stattdessen eine schreibgeschütze Offline-Cache-Version dieser Datenbank verwenden?\n\nZuletzt zwischengespeichert: %@";
+/* It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc, 2nd param is the date/time of the last cache) */
+"open_sequence_user_looks_offline_open_offline_instead_fmt" = "It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@";
+
+/* Yes, Use Offline Cache */
+"open_sequence_yesno_use_offline_cache_yes_option" = "Yes, Use Offline Cache";
+
+/* No, Try to connect anyway */
+"open_sequence_yesno_use_offline_cache_no_try_connect_option" = "No, Try to connect anyway";
 
 /* There was a problem reading the database on %@. would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ */
 "open_sequence_storage_unreachable_open_offline_instead_fmt" = "Es gab ein Problem beim Lesen der Datenbank von %@. Wenn dies wiederholt auftritt, sollten Sie versuchen, die Datenbank zu löschen und erneut hinzuzufügen. Möchten Sie stattdessen eine schreibgeschützte Offline-Cache-Version dieser Datenbank verwenden?\n\nZuletzt zwischengespeichert: %@";
@@ -2440,7 +2446,7 @@
 "mac_undo_action_move_item" = "Eintrag verschieben";
 
 /* Move Items */
-"mac_undo_action_move_items" = "Move Items";
+"mac_undo_action_move_items" = "Einträge verschieben";
 
 /* Password Change */
 "mac_undo_action_password_change" = "Passwortänderung";
@@ -3183,7 +3189,7 @@
 "item_details_metadata_usage_count_field_title" = "Nutzungsanzahl";
 
 /* Partial Recycle (Translators Note: If a user selects multiple items and some of them can't be recycled (e.g. The Recycle Bin itself, we ask if user is ok with that) */
-"browse_vc_partial_recycle_alert_title" = "Partial Recycle";
+"browse_vc_partial_recycle_alert_title" = "Permanente Löschung";
 
 /* Some of the items you have selected cannot be recycled and will be permanently deleted. Is that OK? */
-"browse_vc_partial_recycle_alert_message" = "Some of the items you have selected cannot be recycled and will be permanently deleted. Is that OK?";
+"browse_vc_partial_recycle_alert_message" = "Einige Elemente, die Sie ausgewählt haben, können nicht in den Papierkorb verschoben werden und werden dauerhaft gelöscht. Ist das OK?";

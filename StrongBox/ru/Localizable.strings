@@ -793,7 +793,7 @@
 "sspc_error_invalid_database" = "Неверная база данных";
 
 /* Files... */
-"sspc_ios_files_storage_location" = "Из Файлов...";
+"sspc_ios_files_storage_location" = "Файлы";
 
 /* Since a local database is only stored on this device, any loss of this device will lead to the loss of all passwords stored within this database. You may want to consider using a cloud storage provider, such as the ones supported by Strongbox to avoid catastrophic data loss.\n\nWould you still like to proceed with creating a local device database? */
 "sspc_local_device_storage_warning_message" = "Поскольку локальная база данных хранится только на этом устройстве, любая потеря этого устройства приведет к потере всех паролей, хранящихся в этой базе данных. Возможно, Вы захотите использовать сервис облачного хранилища, поддерживаемого Strongbox, чтобы избежать потери данных.\n\nПродолжить создание базы данных на локальном устройстве?";
@@ -1406,8 +1406,14 @@
 /* Could not open this database in offline mode. Does the Offline Cache exist? */
 "open_sequence_couldnt_open_offline_message" = "Не удалось открыть эту базу данных в офлайн режиме. Существует ли кэш?";
 
-/* Could not reach %@, it looks like you may be offline, would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ */
-"open_sequence_user_looks_offline_open_offline_instead_fmt" = "Не удалось связаться с %@, похоже, Вы находитесь в офлайн режиме. Хотите вместо этого использовать кэш офлайн-версии этой базы данных, доступной только для чтения?\n\nПоследнее кэширование: %@";
+/* It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc, 2nd param is the date/time of the last cache) */
+"open_sequence_user_looks_offline_open_offline_instead_fmt" = "It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@";
+
+/* Yes, Use Offline Cache */
+"open_sequence_yesno_use_offline_cache_yes_option" = "Yes, Use Offline Cache";
+
+/* No, Try to connect anyway */
+"open_sequence_yesno_use_offline_cache_no_try_connect_option" = "No, Try to connect anyway";
 
 /* There was a problem reading the database on %@. would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ */
 "open_sequence_storage_unreachable_open_offline_instead_fmt" = "Ошибка при чтении базы данных в %@. Если это происходит повторно, следует попробовать удалить и повторно добавить базу данных. Хотите вместо этого использовать кэш офлайн-версии этой базы данных, доступной только для чтения?\n\nПоследнее кэширование: %@";
@@ -2219,7 +2225,7 @@
 "favicon_status_paused" = "Поиск приостановлен. Нажмите кнопку воспроизведения, чтобы продолжить...";
 
 /* Search Complete. Tap View Results to see FavIcons */
-"favicon_status_done" = "Поиск завершен. Нажмите 'Результаты поиска...' для просмотра найденых значков.";
+"favicon_status_done" = "Поиск завершён. Нажмите «Результаты поиска...» для просмотра найденных значков.";
 
 /* Are you sure you want to clear current results and retry all items? */
 "favicon_clear_all_and_retry_message" = "Вы уверены, что хотите очистить текущие результаты и повторить поиск?";
@@ -2440,7 +2446,7 @@
 "mac_undo_action_move_item" = "Переместить элемент";
 
 /* Move Items */
-"mac_undo_action_move_items" = "Move Items";
+"mac_undo_action_move_items" = "Переместить элементы";
 
 /* Password Change */
 "mac_undo_action_password_change" = "Изменение пароля";
