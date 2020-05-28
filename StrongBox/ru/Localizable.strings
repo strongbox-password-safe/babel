@@ -748,7 +748,7 @@
 "prefs_vc_info_email_not_available_title" = "Email недоступен";
 
 /* It is very important that you know your master password for your databases, and that you are not relying entirely on %@.\nThe migration and importation process makes every effort to maintain %@ data but it is not guaranteed. In any case it is important that you always know your master passwords.\n\nDo you want to continue changing iCloud usage settings? */
-"prefs_vc_master_password_icloud_migration_yesno_warning_message_fmt" = "Очень важно, чтобы Вы помнили главный пароль для всех своих баз данных и не полагались полностью на %@.\nПроцесс миграции и импорта прилагает все усилия, но не гарантирует сохранение данных %@. В любом случае важно, чтобы Вы всегда помнили свои главные пароли.\n\nПродолжить изменение настроек использования iCloud?";
+"prefs_vc_master_password_icloud_migration_yesno_warning_message_fmt" = "Очень важно, чтобы Вы помнили пароли для всех своих баз данных и не полагались полностью на %@.\nПроцесс миграции и импорта прилагает все усилия, но не гарантирует сохранение данных %@. В любом случае важно, чтобы Вы всегда могли вспомнить свой пароль.\n\nПродолжить изменение настроек использования iCloud?";
 
 /* Master Password Warning */
 "prefs_vc_master_password_icloud_migration_yesno_warning_title" = "Предупреждение о главном пароле";
@@ -1374,7 +1374,7 @@
 "open_sequence_prompt_too_many_incorrect_pins_title" = "Неверный ПИН-код";
 
 /* You have entered the wrong PIN too many times. PIN Unlock is now disabled, and you must enter the master password to unlock this database. */
-"open_sequence_prompt_too_many_incorrect_pins_message" = "Неверный ПИН-код был введён слишком много раз. Разблокировка по ПИН-коду отключена и теперь Вы должны ввести главный пароль, чтобы разблокировать эту базу данных.";
+"open_sequence_prompt_too_many_incorrect_pins_message" = "Неверный ПИН-код был введён слишком много раз. Разблокировка по ПИН-коду отключена и теперь Вы должны ввести пароль, чтобы разблокировать эту базу данных.";
 
 /* There was a technical error opening the database. */
 "open_sequence_duress_technical_error_message" = "При открытии базы данных произошла техническая ошибка.";
@@ -1450,19 +1450,19 @@
 "open_sequence_prompt_use_convenience_both_title_fmt" = "Комфортная разблокировка: использовать %@ или ПИН-код в будущем?";
 
 /* You can use either %@ or a convenience PIN Code to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use one of these methods, please select from below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
-"open_sequence_prompt_use_convenience_both_message_fmt" = "Вы можете использовать %@ или комфортный ПИН-код, чтобы разблокировать эту базу данных. Хоть это и удобно, безопасность базы данных на этом устройстве может снизиться. Если вы хотите использовать один из этих способов, выберите ниже или выберите «Нет», чтобы продолжить использование своего главного пароля.\n\n*Внимание! Вы должны ВСЕГДА помнить свой главный пароль";
+"open_sequence_prompt_use_convenience_both_message_fmt" = "Вы можете использовать %@ или ПИН-код, чтобы разблокировать эту базу данных. Несмотря на удобство, безопасность базы данных на этом устройстве может снизиться. Если Вы хотите использовать один из этих способов, выберите ниже или выберите «Нет», чтобы продолжить использование своего пароля.\n\n*Внимание! Вы ВСЕГДА должны помнить свой пароль";
 
 /* Convenience Unlock: Use %@ to Unlock in Future? */
 "open_sequence_prompt_use_convenience_bio_title_fmt" = "Комфортная разблокировка: использовать %@ для разблокировки в будущем?";
 
 /* You can use %@ to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use this then please select it below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
-"open_sequence_prompt_use_convenience_bio_message_fmt" = "Вы можете использовать %@, чтобы разблокировать эту базу данных. Хоть это и удобно, безопасность базы данных на этом устройстве может снизиться. Если вы хотите использовать этот способ, выберите ниже или выберите «Нет», чтобы продолжить использование своего главного пароля.\n\n*Внимание! Вы должны ВСЕГДА помнить свой главный пароль";
+"open_sequence_prompt_use_convenience_bio_message_fmt" = "Вы можете использовать %@, чтобы разблокировать эту базу данных. Несмотря на удобство, безопасность базы данных на этом устройстве может снизиться. Если Вы хотите использовать этот способ, выберите ниже или выберите «Нет», чтобы продолжить использование своего пароля.\n\n*Внимание! Вы ВСЕГДА должны помнить свой пароль";
 
 /* Convenience Unlock: Use a PIN Code to Unlock in Future? */
 "open_sequence_prompt_use_convenience_pin_title" = "Комфортная разблокировка: использовать ПИН-код для разблокировки в будущем?";
 
 /* You can use a convenience PIN Code to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use this then please select it below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
-"open_sequence_prompt_use_convenience_pin_message" = "Вы можете использовать комфортный ПИН-код, чтобы разблокировать эту базу данных. Хоть это и удобно, безопасность базы данных на этом устройстве может снизиться. Если вы хотите использовать этот способ, выберите ниже или выберите «Нет», чтобы продолжить использование своего главного пароля.\n\n*Внимание! Вы должны ВСЕГДА помнить свой главный пароль";
+"open_sequence_prompt_use_convenience_pin_message" = "Вы можете использовать ПИН-код, чтобы разблокировать эту базу данных. Несмотря на удобство, безопасность базы данных на этом устройстве может снизиться. Если Вы хотите использовать этот способ, выберите ниже или выберите «Нет», чтобы продолжить использование своего пароля.\n\n*Внимание! Вы ВСЕГДА должны помнить свой пароль";
 
 /* \n\nNB: Convenience Unlock is a Pro feature */
 "open_sequence_append_convenience_pro_warning" = "\n\nПримечание: Комфортная разблокировка - это функция Про версии";
@@ -2285,7 +2285,7 @@
 "mac_could_not_unlock_database" = "Не удалось разблокировать базу данных";
 
 /* Touch ID Considerations\n\nWhile this is very convenient, it is not a perfect system for protecting your passwords. It is provided for convenience only. It is within the realm of possibilities that someone with access to your device or your fingerprint, can produce a good enough fake fingerprint to fool Apple’s Touch ID. In addition, on your Mac, your master password will be securely stored in the Keychain. This means it is possible for someone with administrative privileges to search your Keychain for your master password. You should be aware that a strong passphrase held only in your mind provides the most secure experience with StrongBox.\n\nPlease take all of this into account, and make your decision to use Touch ID based on your preferred balance of convenience and security. */
-"mac_touch_id_one_time_warning" = "Предупреждение Touch ID/Apple Watch\n\nНевзирая на удобство, это не является идеальной системой для защиты Ваших паролей и предоставляется лишь для удобства. Не стоит исключать возможность того, что кто-либо, имеющий доступ к Вашему устройству или отпечатку пальцев, может создать достаточно хорошую подделку для обмана системы Touch ID. Вдобавок к этому, главный пароль будет надёжно сохранён в связке ключей на Вашем Mac. Это означает, что пользователь с административными привилегиями сможет найти Ваш главный пароль в связке ключей. Вы должны осознавать, что надёжный пароль, хранящийся исключительно в Вашей голове, обеспечивает наиболее безопасную работу со StrongBox.\n\nПожалуйста, примите всё это во внимание и решите, является ли использование Touch ID целесообразным, основываясь на выборе между удобством и безопасностью.";
+"mac_touch_id_one_time_warning" = "Предупреждение Touch ID/Apple Watch\n\nНевзирая на удобство, это не является идеальной системой для защиты Ваших паролей и предоставляется лишь для удобства. Не стоит исключать возможность того, что кто-либо, имеющий доступ к Вашему устройству или отпечатку пальцев, может создать достаточно хорошую подделку для обмана системы Touch ID. Вдобавок к этому, пароль будет надёжно сохранён в связке ключей на Вашем Mac. Это означает, что пользователь с административными привилегиями сможет найти Ваш пароль в связке ключей. Вы должны осознавать, что надёжный пароль, хранящийся исключительно в Вашей голове, обеспечивает наиболее безопасную работу со StrongBox.\n\nПожалуйста, примите всё это во внимание и решите, является ли использование Touch ID целесообразным, основываясь на выборе между удобством и безопасностью.";
 
 /* You cannot lock a database while changes are pending. Save changes and lock now? */
 "mac_cant_lock_db_while_changes_pending" = "Вы не можете заблокировать базу данных, пока изменения ещё в процессе. Сохранить изменения и заблокировать сейчас?";
@@ -2794,7 +2794,7 @@
 "mac_convenience_summary_keychain_and_will_expire_on_exit" = "Комфортный пароль надёжно сохранён (только в памяти). Срок действия истечёт при выходе из Strongbox.";
 
 /* Convenience Unlock is Enabled but the securely stored master password has expired. */
-"mac_convenience_summary_enabled_but_expired" = "Комфортная разблокировка включена, но срок действия надёжно хранимого главного пароля истёк.";
+"mac_convenience_summary_enabled_but_expired" = "Комфортная разблокировка включена, но срок действия надёжно хранимого пароля истёк.";
 
 /* Convenience Unlock Disabled */
 "mac_convenience_summary_disabled" = "Комфортная разблокировка отключена";
@@ -2931,7 +2931,7 @@
 "upgrade_vc_enjoy_features_by_upgrading_fmt" = "Наслаждайтесь %@ и другими Про-функциями, улучшив приложение!";
 
 /* */
-"upgrade_question_answer_free_pro_differences" = "Главное отличие бесплатной и Про версий Strongbox - это разблокировка с помощью Touch/Face ID.\n\nЭто очень удобный метод для разблокировки Ваших баз данных. В противном случае Вам придётся вручную вводить свой надёжный главный пароль. Как правило это длинный и сложный пароль, что может привести к медленному и подверженному ошибкам входу.\n\nКроме того, существует ещё парочка приятных функций, таких как ПИН-коды или значки сайтов.\n\nОдно из основных преимуществ заключается в том, что Вы больше не увидите этот экран улучшения и поддержите дальнейшее развитие Strongbox.\n\nВы можете увидеть сводку различий, нажав на кнопку «Таблица сравнения бесплатной и Про версий» на главном экране обновления.";
+"upgrade_question_answer_free_pro_differences" = "Главное отличие бесплатной и Про версий Strongbox - это разблокировка с помощью Touch/Face ID.\n\nЭто очень удобный метод для разблокировки Ваших баз данных. В противном случае Вам придётся вручную вводить свой надёжный пароль. Как правило, он является длинным и сложным, что может привести к медленному и подверженному ошибкам входу.\n\nКроме того, существует ещё парочка приятных функций, таких как ПИН-коды или значки сайтов.\n\nОдно из основных преимуществ заключается в том, что Вы больше не увидите этот экран улучшения и поддержите дальнейшее развитие Strongbox.\n\nВы можете увидеть сводку различий, нажав на кнопку «Таблица сравнения бесплатной и Про версий» на главном экране обновления.";
 
 /* */
 "upgrade_question_answer_end_trial" = "По окончании пробного периода Вы автоматически будете переведены на бесплатную версию и больше не сможете использовать дополнительные функции, такие как разблокировка Touch/Face ID.\n\nВы всё ещё сможете получить доступ к Вашим базам данных, пользоваться поиском, редактировать и синхронизировать их с Вашим облачным сервисом.\n\nВремя от времени может появляться предложение об улучшения, чтобы посоветовать Вам поддержать текущую разработку.";
@@ -2997,13 +2997,13 @@
 "browse_add_group_or_entry_question" = "Вы хотите добавить запись или группу?";
 
 /* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be securely stored for %@ before you need to re-enter it. Note for translators (1st Param = "Touch ID", 2nd Param is a time span something like "2 weeks") */
-"mac_use_biometric_to_open_in_future_fmt" = "Хотите ли Вы использовать %@ или Apple Watch для разблокировки этой базы данных в будущем? Ваш главный пароль будет на %@ надёжно сохранён, прежде чем Вам потребуется повторно ввести его.";
+"mac_use_biometric_to_open_in_future_fmt" = "Хотите ли Вы использовать %@ или Apple Watch для разблокировки этой базы данных в будущем? Ваш пароль будет надёжно сохранён на %@, прежде чем Вам потребуется повторно ввести его.";
 
 /* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be stored securely. Note for translators (1st Param = "Touch ID") */
-"mac_use_biometric_to_open_in_future_simple_fmt" = "Вы хотите использовать %@ или Apple Watch для разблокировки этой базы данных в будущем? Ваш главный пароль будет сохранён в защищённом виде.";
+"mac_use_biometric_to_open_in_future_simple_fmt" = "Вы хотите использовать %@ или Apple Watch для разблокировки этой базы данных в будущем? Ваш пароль будет сохранён в защищённом виде.";
 
 /* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be stored securely until you exit Strongbox Note for translators (1st Param = "Touch ID") */
-"mac_use_biometric_to_open_in_future_simple_app_exit_fmt" = "Вы хотите использовать %@ или Apple Watch для разблокировки этой базы данных в будущем? Ваш главный пароль будет надёжно сохранён, пока Вы не выйдете из Strongbox.";
+"mac_use_biometric_to_open_in_future_simple_app_exit_fmt" = "Вы хотите использовать %@ или Apple Watch для разблокировки этой базы данных в будущем? Ваш пароль будет надёжно сохранён, пока Вы не выйдете из Strongbox.";
 
 /* Audit: No password set */
 "audit_quick_summary_no_password_set" = "Запись без пароля";
