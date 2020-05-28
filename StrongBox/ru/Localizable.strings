@@ -1046,10 +1046,10 @@
 "key_files_vc_one_time_key_file_source_message" = "Выберите источник файл-ключа. Этот файл не будет сохранён локально.";
 
 /* Files... */
-"key_files_vc_one_time_key_file_source_option_files" = "Файлы...";
+"key_files_vc_one_time_key_file_source_option_files" = "Файлы";
 
 /* Photo Library... */
-"key_files_vc_one_time_key_file_source_option_photos" = "Фотогалерея...";
+"key_files_vc_one_time_key_file_source_option_photos" = "Фотогалерея";
 
 /* Photo Library Unavailable */
 "key_files_vc_error_photos_unavailable_title" = "Фотогалерея недоступна";
@@ -1876,10 +1876,10 @@
 "backups_vc_set_max_keep_count_title" = "Установить макс. кол-во копий";
 
 /* You cannot use convenience unlock with a one time key file. */
-"config_error_one_time_key_file_convenience_message" = "Вы не можете использовать комфортную разблокировку с одноразовым ключевым файлом.";
+"config_error_one_time_key_file_convenience_message" = "Вы не можете использовать комфортную разблокировку с одноразовым файл-ключом.";
 
 /* One Time Key File Problem */
-"config_error_one_time_key_file_convenience_title" = "Проблема с одноразовым ключевым файлом";
+"config_error_one_time_key_file_convenience_title" = "Проблема с одноразовым файл-ключом";
 
 /* Could not write backup, will not proceed with write of database! */
 "model_error_cannot_write_backup" = "Не удалось создать резервную копию, создание базы данных будет остановлено!";
@@ -1888,7 +1888,7 @@
 "safes_vc_action_backups" = "Резервные копии...";
 
 /* Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences */
-"open_sequence_error_reading_key_file_autofill_context" = "Не удалось открыть ключевой файл. Возможно он не был правильно импортирован? Проверьте управление ключевыми файлами в настройках.";
+"open_sequence_error_reading_key_file_autofill_context" = "Не удалось открыть файл-ключ. Возможно он не был правильно импортирован? Проверьте управление файл-ключами в настройках.";
 
 /* Local Network (Built In Http Server for Upload) with a Wifi Icon... */
 "sspc_local_network_storage_location" = "Передача по локальной сети";
@@ -2273,7 +2273,7 @@
 "mac_unlock_database_with_biometric_fmt" = "Разблокировать с помощью %@ или Watch";
 
 /* Could not open key file. */
-"mac_error_could_not_open_key_file" = "Не удалось открыть ключевой файл.";
+"mac_error_could_not_open_key_file" = "Не удалось открыть файл-ключ.";
 
 /* The database has been changed by another application, would you like to reload this latest version and automatically unlock? */
 "mac_db_changed_externally_reload_yes_or_no" = "База данных была изменена другим приложением, Вы хотите перезагрузить новейшую версию и автоматически разблокировать?";
@@ -2539,16 +2539,16 @@
 "mac_enter_database_master_credentials" = "Введите основные учётные данные базы паролей";
 
 /* Click Browse to Select a Key File */
-"mac_click_browse_select_key_file" = "Нажмите Обзор, чтобы выбрать ключевой файл";
+"mac_click_browse_select_key_file" = "Нажмите «Обзор», чтобы выбрать файл-ключ";
 
 /* Passwords don't match */
 "mac_passwords_dont_match" = "Пароли не совпадают";
 
 /* Key File Invalid */
-"mac_key_file_invalid" = "Недопустимый ключевой файл";
+"mac_key_file_invalid" = "Недопустимый файл-ключ";
 
 /* Select a Key File */
-"mac_select_key_file" = "Выберите ключевой файл";
+"mac_select_key_file" = "Выберите файл-ключ";
 
 /* You must use at least one of either a Password, a Key File or a YubiKey for your master credentials. */
 "mac_you_must_use_at_least_a_password_or_key_file" = "Вам необходимо использовать по крайней мере один из компонентов - пароль, файл-ключ или YubiKey - в качестве Вашего мастер-ключа.";
@@ -3096,19 +3096,19 @@
 "audit_status_no_issues_found" = "Проблем не найдено";
 
 /* The credentials were incorrect for this database. Are you sure you are using this key file?\n\nNB: A key files are not the same as your database file. */
-"open_sequence_problem_opening_incorrect_credentials_message_verify_key_file" = "Неверные учётные данные для этой базы данных. Вы уверены, что используете правильный ключевой файл?\n\nПримечание: Пожалуйста, имейте ввиду, что ключевые файлы не являются файлами баз данных (KDBX/KDB)";
+"open_sequence_problem_opening_incorrect_credentials_message_verify_key_file" = "Неверный мастер-ключ для этой базы данных. Вы уверены, что используете правильный файл-ключ?\n\nПримечание: Пожалуйста, имейте ввиду, что файл-ключи не являются файлами баз данных (KDBX/KDB)";
 
 /* Is your Key File correct? */
-"casg_key_file_correct_title" = "Это правильный ключевой файл?";
+"casg_key_file_correct_title" = "Это правильный файл-ключ?";
 
 /* You have configured this database to open with a key file but the key file you have chosen doesn't look valid.\n\nAre you sure you are using this key file?\n\nNB: A key file is not the same as your database file" */
-"casg_key_file_correct_message" = "Вы настроили эту базу данных таким образом, чтобы открывать с помощью ключевого файла, но выбранный Вами ключевой файл не является допустимым.\n\nВы уверены, что используете правильный ключевой файл?\n\nПримечание: Ключевой файл не является файлом базы данных";
+"casg_key_file_correct_message" = "Вы настроили эту базу данных таким образом, чтобы открывать с помощью файл-ключа, но выбранный Вами файл-ключ не является допустимым.\n\nВы уверены, что используете правильный файл-ключ?\n\nПримечание: Файл-ключ не является файлом базы данных";
 
 /* Yes, the key file is correct */
-"casg_key_file_correct_yes_key_file_correct" = "Да, это правильный ключевой файл";
+"casg_key_file_correct_yes_key_file_correct" = "Да, это правильный файл-ключ";
 
 /* No, I don't use a key file */
-"casg_key_file_correct_no_no_key_file" = "Нет, я не использую ключевой файл";
+"casg_key_file_correct_no_no_key_file" = "Нет, я не использую файл-ключ";
 
 /* Security Audit Complete */
 "browse_vc_audit_complete_title" = "Проверка безопасности завершена";
