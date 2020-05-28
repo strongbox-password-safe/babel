@@ -198,13 +198,13 @@
 "safesvc_error_message_import_file_error_opening" = "Не удалось получить доступ к этому файлу.";
 
 /* Key File Imported */
-"safesvc_info_title_key_file_imported" = "Ключевой файл импортирован";
+"safesvc_info_title_key_file_imported" = "Файл-ключ импортирован";
 
 /* This key file has been imported successfully. */
-"safesvc_info_message_key_file_imported" = "Ключевой файл был успешно импортирован.";
+"safesvc_info_message_key_file_imported" = "Файл-ключ был успешно импортирован.";
 
 /* Problem Importing Key File */
-"safesvc_error_title_error_importing_key_file" = "Проблема при импорте ключевого файла";
+"safesvc_error_title_error_importing_key_file" = "Проблема при импорте файл-ключа";
 
 /* Invalid Database - [%@] */
 "safesvc_error_title_import_database_fmt" = "[%@] - неверная база данных";
@@ -463,7 +463,7 @@
 "casg_key_file_configured" = "Установлен";
 
 /* Configured Key File Not Found */
-"casg_key_file_configured_but_not_found" = "Установленный ключевой файл не найден";
+"casg_key_file_configured_but_not_found" = "Установленный файл-ключ не найден";
 
 /* Select... */
 "casg_key_file_select_action" = "Выбрать...";
@@ -502,7 +502,7 @@
 "casg_text_field_placeholder_password_required" = "Пароль (обязательно)";
 
 /* Selected Key File */
-"casg_text_label_key_selected_key_file" = "Выбранный ключевой файл";
+"casg_text_label_key_selected_key_file" = "Выбранный файл-ключ";
 
 /* Unlock */
 "casg_unlock_action" = "Разблокировать";
@@ -1031,19 +1031,19 @@
 "pins_config_vc_warn_remove_database_remove_message" = "Это удалит базу данных из Strongbox, но основной файл останется в облачном хранилище.";
 
 /* Manage Key Files */
-"key_files_vc_manage_title" = "Управление ключевыми файлами";
+"key_files_vc_manage_title" = "Управление файл-ключами";
 
 /* Select Key File */
-"key_files_vc_select_title" = "Выберите ключевой файл";
+"key_files_vc_select_title" = "Выберите файл-ключ";
 
 /* No Key Files Found. Tap '+' to import one. */
-"key_files_vc_empty_key_files_title" = "Ключевые файлы не найдены. Нажмите «+» для импорта.";
+"key_files_vc_empty_key_files_title" = "Файл-ключи не найдены. Нажмите «+» для импорта.";
 
 /* One Time Key File Source */
-"key_files_vc_one_time_key_file_source_title" = "Источник одноразового ключевого файла";
+"key_files_vc_one_time_key_file_source_title" = "Источник одноразового файл-ключа";
 
 /* Select where you would like to choose your Key File from. This file will not be stored locally or remembered. */
-"key_files_vc_one_time_key_file_source_message" = "Выберите, откуда Вы хотите выбрать ключевой файл. Этот файл не будет сохранён локально.";
+"key_files_vc_one_time_key_file_source_message" = "Выберите источник файл-ключа. Этот файл не будет сохранён локально.";
 
 /* Files... */
 "key_files_vc_one_time_key_file_source_option_files" = "Файлы...";
@@ -1062,16 +1062,16 @@
 "key_files_vc_error_reading" = "Ошибка чтения";
 
 /* There was an error importing the Key File (does it already exist?) */
-"key_files_vc_error_importing" = "Произошла ошибка при импорте ключевого файла (он уже существует?)";
+"key_files_vc_error_importing" = "Произошла ошибка при импорте файл-ключа (он уже существует?)";
 
 /* File Already Exists */
 "key_files_vc_error_file_already_exists_title" = "Файл уже существует";
 
 /* A file with this name already exists in the Key Files directory. */
-"key_files_vc_error_file_already_exists_message" = "Файл с таким именем уже существует в папке ключевых файлов.";
+"key_files_vc_error_file_already_exists_message" = "Файл с таким названием уже существует в папке файл-ключей.";
 
 /* Imported Key Files (Auto-Fill Enabled) */
-"key_files_vc_section_header_imported" = "Импортированные ключевые файлы (автозаполнение включено)";
+"key_files_vc_section_header_imported" = "Импортированные файл-ключи (автозаполнение включено)";
 
 /* Application Local Files */
 "key_files_vc_section_header_local" = "Папка документов (автозаполнение не поддерживается)";
@@ -1080,7 +1080,7 @@
 "key_files_vc_remove_after_import_title" = "Удалить после импорта";
 
 /* Do you want to remove the key file from the local Documents folder after import? This will mean it is not visible in iOS Files or accessible via iTunes File Sharing? */
-"key_files_vc_remove_after_import_message" = "Вы хотите удалить ключевой файл из локальной папки документов после импорта? Это будет означать, что он не будет виден в 'Файлах' или через общий доступ к файлам iTunes.";
+"key_files_vc_remove_after_import_message" = "Вы хотите удалить файл-ключ из локальной папки документов после импорта? Это будет означать, что он не будет виден в приложении Файлы или через общий доступ к файлам iTunes.";
 
 /* Yes, Remove Local Copy */
 "key_files_vc_remove_after_import_option_yes" = "Да, удалить локальную копию";
@@ -1398,7 +1398,7 @@
 "open_sequence_biometric_unlock_warn_not_configured_fmt" = "Ошибка %@: %@. Теперь Вы должны ввести свой пароль вручную, чтобы открыть базу данных.";
 
 /* Error Reading Key File */
-"open_sequence_error_reading_key_file" = "Не удалось открыть ключевой файл. Возможно он был перемещён или удалён? Проверьте управление ключевыми файлами в настройках";
+"open_sequence_error_reading_key_file" = "Не удалось открыть файл-ключ. Возможно он был перемещён или удалён? Проверьте управление файл-ключами в настройках";
 
 /* Could Not Open Offline */
 "open_sequence_couldnt_open_offline_title" = "Не удалось открыть в офлайн режиме";
@@ -1429,10 +1429,10 @@
 "open_sequence_autofill_creash_likely_message" = "Ваша база данных достаточно велика или имеет настройки шифрования, которые могут привести к сбою расширения автозаполнения пароля iOS из-за чрезмерного потребления ресурсов.\nБудет казаться, что автозаполнение не работает. К сожалению, это ограничение системы, наложенное компанией Apple.\nВы могли бы рассмотреть возможность уменьшения размера файла или изменения количества потребляемых ресурсов (уменьшить потребление памяти с Argon2 до 64 МБ).";
 
 /* No Key File */
-"key_files_vc_no_key_file" = "Без ключевого файла";
+"key_files_vc_no_key_file" = "Без файл-ключа";
 
 /* The Convenience Password or Key File were incorrect for this database. Convenience Unlock Disabled. */
-"open_sequence_problem_opening_convenience_incorrect_message" = "Сохранённый пароль или другие составные ключевые факторы (ключевой файл/Yubikey) для этой базы данных неверны. Комфортная разблокировка отключена.";
+"open_sequence_problem_opening_convenience_incorrect_message" = "Сохранённый пароль или другие составные факторы мастер-ключа (файл-ключ/Yubikey) для этой базы данных неверны. Комфортная разблокировка отключена.";
 
 /* Incorrect Credentials */
 "open_sequence_problem_opening_incorrect_credentials_title" = "Неверные учётные данные";
@@ -2551,7 +2551,7 @@
 "mac_select_key_file" = "Выберите ключевой файл";
 
 /* You must use at least one of either a Password, a Key File or a YubiKey for your master credentials. */
-"mac_you_must_use_at_least_a_password_or_key_file" = "Вам необходимо использовать по крайней мере один из компонентов - пароль, ключевой файл или YubiKey - для Ваших основных учётных данных.";
+"mac_you_must_use_at_least_a_password_or_key_file" = "Вам необходимо использовать по крайней мере один из компонентов - пароль, файл-ключ или YubiKey - в качестве Вашего мастер-ключа.";
 
 /* Password cannot be Empty */
 "mac_password_cannot_be_empty" = "Пароль не может быть пустым";
@@ -2695,7 +2695,7 @@
 "storage_provider_name_local_device" = "Локальное устройство";
 
 /* iOS Files */
-"storage_provider_name_ios_files" = "Файлы iOS";
+"storage_provider_name_ios_files" = "Приложение Файлы";
 
 /* iCloud */
 "storage_provider_name_icloud" = "iCloud";
