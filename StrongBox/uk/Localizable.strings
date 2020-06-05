@@ -1407,13 +1407,13 @@
 "open_sequence_couldnt_open_offline_message" = "Не вдається відкрити цю базу паролів у офлайн режимі. Можливо, відсутній кеш?";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc, 2nd param is the date/time of the last cache) */
-"open_sequence_user_looks_offline_open_offline_instead_fmt" = "It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@";
+"open_sequence_user_looks_offline_open_offline_instead_fmt" = "Схоже, ви знаходитесь поза мережею, тому не вдається зв'язатися з %@. Бажаєте використовувати офлайн кеш версію цієї бази даних лише для читання?\n\nВостаннє кешовано: %@";
 
 /* Yes, Use Offline Cache */
-"open_sequence_yesno_use_offline_cache_yes_option" = "Yes, Use Offline Cache";
+"open_sequence_yesno_use_offline_cache_yes_option" = "Так, використати кеш";
 
 /* No, Try to connect anyway */
-"open_sequence_yesno_use_offline_cache_no_try_connect_option" = "No, Try to connect anyway";
+"open_sequence_yesno_use_offline_cache_no_try_connect_option" = "Ні, спробувати з'єднатися знову";
 
 /* There was a problem reading the database on %@. would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ */
 "open_sequence_storage_unreachable_open_offline_instead_fmt" = "Сталася помилка читання бази даних на %@. Якщо таке повторюється, вам слід спробувати вилучити і повторно додати базу паролів. Бажаєте використати натомість офлайн версію цієї бази паролів з кешу (лише читання)?\n\nВостаннє кешовано: %@";
@@ -2913,7 +2913,7 @@
 "browse_prefs_icon_set" = "Набір піктограм";
 
 /* Classic */
-"keepass_icon_set_classic" = "Класичний";
+"keepass_icon_set_classic" = "KeePass";
 
 /* SF Symbols (iOS 13+) */
 "keepass_icon_set_sf_symbols" = "Символи SF (iOS 13+)";
@@ -3193,3 +3193,81 @@
 
 /* Some of the items you have selected cannot be recycled and will be permanently deleted. Is that OK? */
 "browse_vc_partial_recycle_alert_message" = "Деякі з вибраних вами елементів неможливо перемістити до смітника, тому їх буде остаточно видалено. Ви згодні?";
+
+/* Audit */
+"browse_vc_action_audit" = "Аудит";
+
+/* KeePassXC */
+"keepass_icon_set_keepassxc" = "KeePassXC";
+
+/* Preferences */
+"audit_drill_down_section_header_preferences" = "Параметри";
+
+/* Summary */
+"audit_drill_down_section_header_summary" = "Підсумок";
+
+/* Duplicate Passwords */
+"audit_drill_down_section_header_duplicates" = "Записи з однаковим паролем";
+
+/* Similar Passwords */
+"audit_drill_down_section_header_similar" = "Записи зі схожими паролями";
+
+/* Actions */
+"audit_drill_down_section_header_actions" = "Дії";
+
+/* No password has been set */
+"audit_summary_flag_no_password_set" = "Пароль не встановлено";
+
+/* This password is very common */
+"audit_summary_flag_very_common_password" = "Цей пароль дуже поширений";
+
+/* This password is pwned (HIBP) */
+"audit_summary_flag_pwned" = "Цей пароль викрито (HIBP)";
+
+/* This password is too short */
+"audit_summary_flag_password_is_too_short" = "Цей пароль надто короткий";
+
+/* The items above use exactly the same password as this item, this is generally considered a weakness. You should strive not to have any duplicated passwords. */
+"audit_drill_down_section_footer_duplicates" = "Пароль у зазначених вище записах такий самий, як і в цьому записі. Це вважається вразливістю. Вам слід уникати будь-якого повторного використання паролів.";
+
+/* The items above have a similar password to this item. This might indicate a weakness or use of a common component and could therefore be vulnerable to attack. */
+"audit_drill_down_section_footer_similar" = "Пароль у зазначених вище записах схожий на пароль цього запису. Це може означати ненадійність, або використання спільного компонента, тому ймовірна вразливість до атаки.";
+
+/* Audit this Item */
+"audit_drill_down_audit_this_item_preference_title" = "Перевірити цей запис";
+
+/* Check if this password is Pwned (HIBP) */
+"audit_drill_down_action_check_hibp" = "Перевірити чи цей пароль викрито (HIBP)";
+
+/* This item is excluded from Audits */
+"audit_status_item_is_exluded" = "Цей запис виключено з аудиту";
+
+/* Checking HIBP */
+"audit_manual_pwn_progress_message" = "Перевірка HIBP";
+
+/* Manual HIBP Result */
+"audit_manual_pwn_check_result_title" = "Результат перевірки";
+
+/* Your password has NOT been pwned as is likely secure. */
+"audit_manual_pwn_check_result_not_pwned" = "Ваш пароль не було викрито, тому він, ймовірно, надійний.";
+
+/* Manual HIBP Result */
+"audit_manual_pwn_check_result_title" = "Результат перевірки";
+
+/* This password is pwned and is vulnerable */
+"audit_manual_pwn_check_result_pwned" = "Цей пароль викрито";
+
+/* Database Audit Preferences */
+"audit_drill_down_go_to_database_audit_preferences" = "Налаштування аудиту бази паролів";
+
+/* View All Audit Issues */
+"audit_drill_down_view_all_audit_issues" = "Переглянути всі проблеми аудиту";
+
+/* No Excluded Items */
+"audit_drill_down_no_excluded_items_title" = "No Excluded Items";
+
+/* You have not explicitly excluded any items from the audit. You can exclude an item by sliding right on it and tapping the Audit button. */
+"audit_drill_down_no_excluded_items_subtitle" = "You have not explicitly excluded any items from the audit. You can exclude an item by sliding right on it and tapping the Audit button.";
+
+/* Unexclude */
+"audit_excluded_items_vc_action_unclude" = "Unexclude";

@@ -1407,13 +1407,13 @@
 "open_sequence_couldnt_open_offline_message" = "No se pudo abrir esta base de datos en modo sin conexión. ¿Existe la caché sin conexión?";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc, 2nd param is the date/time of the last cache) */
-"open_sequence_user_looks_offline_open_offline_instead_fmt" = "It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@";
+"open_sequence_user_looks_offline_open_offline_instead_fmt" = "Parece que estás fuera de línea y '%@' es posible que no sea accesible. ¿Desea utilizar una versión de caché fuera de línea de sólo lectura de esta base de datos en su lugar?\n\nÚltima vez en caché: %@";
 
 /* Yes, Use Offline Cache */
-"open_sequence_yesno_use_offline_cache_yes_option" = "Yes, Use Offline Cache";
+"open_sequence_yesno_use_offline_cache_yes_option" = "Sí, usar caché sin conexión";
 
 /* No, Try to connect anyway */
-"open_sequence_yesno_use_offline_cache_no_try_connect_option" = "No, Try to connect anyway";
+"open_sequence_yesno_use_offline_cache_no_try_connect_option" = "No, intente conectarse de todos modos";
 
 /* There was a problem reading the database on %@. would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ */
 "open_sequence_storage_unreachable_open_offline_instead_fmt" = "Hubo un problema al leer la base de datos en %@. Si esto sucede repetidamente debería intentar eliminar y volver a agregar la base de datos. ¿Le gustaría utilizar en su lugar una versión sin conexión de esta base de datos?\n\nÚltima vez en caché: %@";
@@ -2446,7 +2446,7 @@
 "mac_undo_action_move_item" = "Mover elemento";
 
 /* Move Items */
-"mac_undo_action_move_items" = "Move Items";
+"mac_undo_action_move_items" = "Mover elementos";
 
 /* Password Change */
 "mac_undo_action_password_change" = "Cambiar contraseña";
@@ -2913,7 +2913,7 @@
 "browse_prefs_icon_set" = "Conjunto de iconos";
 
 /* Classic */
-"keepass_icon_set_classic" = "Clásico";
+"keepass_icon_set_classic" = "KeePass clásico";
 
 /* SF Symbols (iOS 13+) */
 "keepass_icon_set_sf_symbols" = "Símbolos SF (iOS 13+)";
@@ -3193,3 +3193,81 @@
 
 /* Some of the items you have selected cannot be recycled and will be permanently deleted. Is that OK? */
 "browse_vc_partial_recycle_alert_message" = "Algunos de los elementos que ha seleccionado no se pueden reciclar y se suprimirán de forma permanente. ¿OK?";
+
+/* Audit */
+"browse_vc_action_audit" = "Auditoría";
+
+/* KeePassXC */
+"keepass_icon_set_keepassxc" = "KeePassXC";
+
+/* Preferences */
+"audit_drill_down_section_header_preferences" = "Preferencias";
+
+/* Summary */
+"audit_drill_down_section_header_summary" = "Resumen";
+
+/* Duplicate Passwords */
+"audit_drill_down_section_header_duplicates" = "Elementos con la misma contraseña";
+
+/* Similar Passwords */
+"audit_drill_down_section_header_similar" = "Elementos con contraseñas parecidas";
+
+/* Actions */
+"audit_drill_down_section_header_actions" = "Acciones";
+
+/* No password has been set */
+"audit_summary_flag_no_password_set" = "No se ha establecido contraseña";
+
+/* This password is very common */
+"audit_summary_flag_very_common_password" = "Esta contraseña es muy común";
+
+/* This password is pwned (HIBP) */
+"audit_summary_flag_pwned" = "Esta contraseña es pwned (HIBP)";
+
+/* This password is too short */
+"audit_summary_flag_password_is_too_short" = "Esta contraseña es demasiado corta";
+
+/* The items above use exactly the same password as this item, this is generally considered a weakness. You should strive not to have any duplicated passwords. */
+"audit_drill_down_section_footer_duplicates" = "Los elementos anteriores utilizan exactamente la misma contraseña que este elemento. Por lo general, esto se considera una debilidad. Debe esforzarse por no tener ninguna contraseña duplicada.";
+
+/* The items above have a similar password to this item. This might indicate a weakness or use of a common component and could therefore be vulnerable to attack. */
+"audit_drill_down_section_footer_similar" = "Los elementos anteriores tienen una contraseña parecida para este elemento. Esto podría indicar una debilidad o el uso de un componente común y por lo tanto podrían ser vulnerables a los ataques.";
+
+/* Audit this Item */
+"audit_drill_down_audit_this_item_preference_title" = "Auditar este elemento";
+
+/* Check if this password is Pwned (HIBP) */
+"audit_drill_down_action_check_hibp" = "Comprobar si esta contraseña es Pwned (HIBP)";
+
+/* This item is excluded from Audits */
+"audit_status_item_is_exluded" = "Este elemento está excluido de las Auditorías";
+
+/* Checking HIBP */
+"audit_manual_pwn_progress_message" = "Comprobando HIBP";
+
+/* Manual HIBP Result */
+"audit_manual_pwn_check_result_title" = "Resultado de HIBP manual";
+
+/* Your password has NOT been pwned as is likely secure. */
+"audit_manual_pwn_check_result_not_pwned" = "Your password has NOT been pwned and is likely secure.";
+
+/* Manual HIBP Result */
+"audit_manual_pwn_check_result_title" = "Resultado de HIBP manual";
+
+/* This password is pwned and is vulnerable */
+"audit_manual_pwn_check_result_pwned" = "Esta contraseña es pwned y es vulnerable";
+
+/* Database Audit Preferences */
+"audit_drill_down_go_to_database_audit_preferences" = "Database Audit Preferences";
+
+/* View All Audit Issues */
+"audit_drill_down_view_all_audit_issues" = "View All Audit Issues";
+
+/* No Excluded Items */
+"audit_drill_down_no_excluded_items_title" = "No Excluded Items";
+
+/* You have not explicitly excluded any items from the audit. You can exclude an item by sliding right on it and tapping the Audit button. */
+"audit_drill_down_no_excluded_items_subtitle" = "You have not explicitly excluded any items from the audit. You can exclude an item by sliding right on it and tapping the Audit button.";
+
+/* Unexclude */
+"audit_excluded_items_vc_action_unclude" = "Unexclude";

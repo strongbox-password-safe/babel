@@ -1407,13 +1407,13 @@
 "open_sequence_couldnt_open_offline_message" = "Diese Datenbank konnte im Offline-Modus nicht geöffnet werden. Existiert der Offline-Cache?";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc, 2nd param is the date/time of the last cache) */
-"open_sequence_user_looks_offline_open_offline_instead_fmt" = "It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@";
+"open_sequence_user_looks_offline_open_offline_instead_fmt" = "Es sieht so aus, als ob Sie offline wären und '%@' nicht erreicht werden kann. Möchten Sie stattdessen eine schreibgeschützte Offline-Cache-Version dieser Datenbank verwenden?\n\nZuletzt zwischengespeichert: %@";
 
 /* Yes, Use Offline Cache */
-"open_sequence_yesno_use_offline_cache_yes_option" = "Yes, Use Offline Cache";
+"open_sequence_yesno_use_offline_cache_yes_option" = "Ja, Offline-Cache verwenden";
 
 /* No, Try to connect anyway */
-"open_sequence_yesno_use_offline_cache_no_try_connect_option" = "No, Try to connect anyway";
+"open_sequence_yesno_use_offline_cache_no_try_connect_option" = "Nein, trotzdem versuchen zu verbinden";
 
 /* There was a problem reading the database on %@. would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ */
 "open_sequence_storage_unreachable_open_offline_instead_fmt" = "Es gab ein Problem beim Lesen der Datenbank von %@. Wenn dies wiederholt auftritt, sollten Sie versuchen, die Datenbank zu löschen und erneut hinzuzufügen. Möchten Sie stattdessen eine schreibgeschützte Offline-Cache-Version dieser Datenbank verwenden?\n\nZuletzt zwischengespeichert: %@";
@@ -2913,7 +2913,7 @@
 "browse_prefs_icon_set" = "Icon-Satz";
 
 /* Classic */
-"keepass_icon_set_classic" = "Klassisch";
+"keepass_icon_set_classic" = "KeePass klassisch";
 
 /* SF Symbols (iOS 13+) */
 "keepass_icon_set_sf_symbols" = "SF Symbols (iOS 13+)";
@@ -3193,3 +3193,81 @@
 
 /* Some of the items you have selected cannot be recycled and will be permanently deleted. Is that OK? */
 "browse_vc_partial_recycle_alert_message" = "Einige Elemente, die Sie ausgewählt haben, können nicht in den Papierkorb verschoben werden und werden dauerhaft gelöscht. Ist das OK?";
+
+/* Audit */
+"browse_vc_action_audit" = "Audit";
+
+/* KeePassXC */
+"keepass_icon_set_keepassxc" = "KeePassXC";
+
+/* Preferences */
+"audit_drill_down_section_header_preferences" = "Einstellungen";
+
+/* Summary */
+"audit_drill_down_section_header_summary" = "Zusammenfassung";
+
+/* Duplicate Passwords */
+"audit_drill_down_section_header_duplicates" = "Einträge mit demselben Passwort";
+
+/* Similar Passwords */
+"audit_drill_down_section_header_similar" = "Einträge mit ähnlichem Passwort";
+
+/* Actions */
+"audit_drill_down_section_header_actions" = "Aktionen";
+
+/* No password has been set */
+"audit_summary_flag_no_password_set" = "Es wurde kein Passwort gesetzt";
+
+/* This password is very common */
+"audit_summary_flag_very_common_password" = "Dieses Passwort ist weit verbreitet";
+
+/* This password is pwned (HIBP) */
+"audit_summary_flag_pwned" = "Dieses Passwort ist pwned (HIBP)";
+
+/* This password is too short */
+"audit_summary_flag_password_is_too_short" = "Dieses Passwort ist zu kurz";
+
+/* The items above use exactly the same password as this item, this is generally considered a weakness. You should strive not to have any duplicated passwords. */
+"audit_drill_down_section_footer_duplicates" = "Die oben aufgeführten Einträge verwenden genau das gleiche Passwort wie dieser Eintrag. Dies gilt im Allgemeinen als Schwäche. Sie sollten sich bemühen, keine doppelten Passwörter zu haben.";
+
+/* The items above have a similar password to this item. This might indicate a weakness or use of a common component and could therefore be vulnerable to attack. */
+"audit_drill_down_section_footer_similar" = "Die oben aufgeführten Einträge haben ein ähnliches Passwort wie dieser Eintrag. Dies könnte auf eine Schwäche oder die Verwendung einer gemeinsamen Komponente hindeuten und könnte daher anfällig für Angriffe sein.";
+
+/* Audit this Item */
+"audit_drill_down_audit_this_item_preference_title" = "Diesen Eintrag prüfen";
+
+/* Check if this password is Pwned (HIBP) */
+"audit_drill_down_action_check_hibp" = "Prüfen, ob dieses Passwort pwned (HIBP) ist";
+
+/* This item is excluded from Audits */
+"audit_status_item_is_exluded" = "Dieser Eintrag ist von Audits ausgeschlossen";
+
+/* Checking HIBP */
+"audit_manual_pwn_progress_message" = "HIBP prüfen";
+
+/* Manual HIBP Result */
+"audit_manual_pwn_check_result_title" = "Manuelles HIBP-Ergebnis";
+
+/* Your password has NOT been pwned as is likely secure. */
+"audit_manual_pwn_check_result_not_pwned" = "Your password has NOT been pwned and is likely secure.";
+
+/* Manual HIBP Result */
+"audit_manual_pwn_check_result_title" = "Manuelles HIBP-Ergebnis";
+
+/* This password is pwned and is vulnerable */
+"audit_manual_pwn_check_result_pwned" = "Dieses Passwort ist pwned und verwundbar";
+
+/* Database Audit Preferences */
+"audit_drill_down_go_to_database_audit_preferences" = "Database Audit Preferences";
+
+/* View All Audit Issues */
+"audit_drill_down_view_all_audit_issues" = "View All Audit Issues";
+
+/* No Excluded Items */
+"audit_drill_down_no_excluded_items_title" = "No Excluded Items";
+
+/* You have not explicitly excluded any items from the audit. You can exclude an item by sliding right on it and tapping the Audit button. */
+"audit_drill_down_no_excluded_items_subtitle" = "You have not explicitly excluded any items from the audit. You can exclude an item by sliding right on it and tapping the Audit button.";
+
+/* Unexclude */
+"audit_excluded_items_vc_action_unclude" = "Unexclude";
