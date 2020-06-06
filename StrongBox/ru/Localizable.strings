@@ -3222,13 +3222,13 @@
 "audit_summary_flag_very_common_password" = "Пароль является распространённым";
 
 /* This password is pwned (HIBP) */
-"audit_summary_flag_pwned" = "Этот пароль скомпрометирован (HIBP)";
+"audit_summary_flag_pwned" = "Пароль скомпрометирован (HIBP)";
 
 /* This password is too short */
 "audit_summary_flag_password_is_too_short" = "Пароль слишком короткий";
 
 /* The items above use exactly the same password as this item, this is generally considered a weakness. You should strive not to have any duplicated passwords. */
-"audit_drill_down_section_footer_duplicates" = "Указанные выше элементы используют тот же пароль, что и этот элемент. Это считается уязвимостью. Вы должны избегать дублирующихся паролей.";
+"audit_drill_down_section_footer_duplicates" = "Указанные выше элементы используют тот же пароль, что и этот элемент. Это считается уязвимостью. Вам стоит избегать использования дублирующихся паролей.";
 
 /* The items above have a similar password to this item. This might indicate a weakness or use of a common component and could therefore be vulnerable to attack. */
 "audit_drill_down_section_footer_similar" = "Указанные выше элементы используют пароль аналогичный с этим элементом. Они могут стать уязвимыми для атаки.";
@@ -3240,7 +3240,7 @@
 "audit_drill_down_action_check_hibp" = "Проверка пароля (HIBP)";
 
 /* This item is excluded from Audits */
-"audit_status_item_is_exluded" = "Этот элемент исключен из проверки";
+"audit_status_item_is_exluded" = "Элемент исключён из проверки";
 
 /* Checking HIBP */
 "audit_manual_pwn_progress_message" = "Проверка HIBP";
@@ -3255,7 +3255,7 @@
 "audit_manual_pwn_check_result_title" = "Результат проверки";
 
 /* This password is pwned and is vulnerable */
-"audit_manual_pwn_check_result_pwned" = "Этот пароль скомпрометирован";
+"audit_manual_pwn_check_result_pwned" = "Пароль скомпрометирован";
 
 /* Database Audit Preferences */
 "audit_drill_down_go_to_database_audit_preferences" = "Параметры аудита базы данных";
@@ -3264,10 +3264,10 @@
 "audit_drill_down_view_all_audit_issues" = "Показать проблемы аудита";
 
 /* No Excluded Items */
-"audit_drill_down_no_excluded_items_title" = "Нет исключенных из проверки записей";
+"audit_drill_down_no_excluded_items_title" = "Нет исключённых записей";
 
 /* You have not explicitly excluded any items from the audit. You can exclude an item by sliding right on it and tapping the Audit button. */
-"audit_drill_down_no_excluded_items_subtitle" = "Вы не исключили из проверки какие-либо записи. Исключить элемент можно, смахнув по нему вправо и выбрать опцию проверки.";
+"audit_drill_down_no_excluded_items_subtitle" = "Вы не исключили из проверки какие-либо записи. Исключить элемент можно, смахнув по нему вправо и отключить опцию проверки.";
 
 /* Unexclude */
 "audit_excluded_items_vc_action_unclude" = "Отменить исключение";
