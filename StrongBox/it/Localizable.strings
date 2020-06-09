@@ -3018,7 +3018,7 @@
 "audit_quick_summary_password_is_similar_to_another" = "La password è simile a una in un'altra voce";
 
 /* Password is Pwned (HIBP) */
-"audit_quick_summary_pwned" = "La Password è Pwned (HIBP)";
+"audit_quick_summary_pwned" = "La Password è Compromessa (HIBP)";
 
 /* All Entries */
 "quick_view_title_all_entries_title" = "Tutte Le Voci";
@@ -3063,7 +3063,7 @@
 "audit_quick_summary_very_brief_password_is_too_short" = "Breve";
 
 /* Pwned */
-"audit_quick_summary_very_brief_password_is_pwned" = "Pwned";
+"audit_quick_summary_very_brief_password_is_pwned" = "Compromessa";
 
 /* Audit: Password is too short. */
 "audit_quick_summary_password_is_too_short" = "Revisione: Password troppo breve";
@@ -3213,19 +3213,19 @@
 "audit_drill_down_section_header_similar" = "Elementi che usano una password simile";
 
 /* Actions */
-"audit_drill_down_section_header_actions" = "Actions";
+"audit_drill_down_section_header_actions" = "Azioni";
 
 /* No password has been set */
-"audit_summary_flag_no_password_set" = "No password has been set";
+"audit_summary_flag_no_password_set" = "Nessuna password è stata impostata";
 
 /* This password is very common */
-"audit_summary_flag_very_common_password" = "This password is very common";
+"audit_summary_flag_very_common_password" = "La password è molto comune";
 
 /* This password is pwned (HIBP) */
-"audit_summary_flag_pwned" = "This password is pwned (HIBP)";
+"audit_summary_flag_pwned" = "Questa password è compromessa (HIBP)";
 
 /* This password is too short */
-"audit_summary_flag_password_is_too_short" = "This password is too short";
+"audit_summary_flag_password_is_too_short" = "La password è troppo corta";
 
 /* The items above use exactly the same password as this item, this is generally considered a weakness. You should strive not to have any duplicated passwords. */
 "audit_drill_down_section_footer_duplicates" = "Gli elementi sopra indicati usano esattamente la stessa password di questo elemento. Questa è generalmente considerata una debolezza. Si dovrebbe cercare di non usare alcuna password duplicata.";
@@ -3237,25 +3237,25 @@
 "audit_drill_down_audit_this_item_preference_title" = "Revisiona questo Elemento";
 
 /* Check if this password is Pwned (HIBP) */
-"audit_drill_down_action_check_hibp" = "Check if this password is Pwned (HIBP)";
+"audit_drill_down_action_check_hibp" = "Verifica se questa password è stata compromessa (HIBP)";
 
 /* This item is excluded from Audits */
 "audit_status_item_is_exluded" = "Questo elemento è escluso dalle Revisioni";
 
 /* Checking HIBP */
-"audit_manual_pwn_progress_message" = "Checking HIBP";
+"audit_manual_pwn_progress_message" = "Controllo HIBP";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Manual HIBP Result";
+"audit_manual_pwn_check_result_title" = "Risultato HIBP Manuale";
 
 /* Your password has NOT been pwned as is likely secure. */
-"audit_manual_pwn_check_result_not_pwned" = "Your password has NOT been pwned and is likely secure.";
+"audit_manual_pwn_check_result_not_pwned" = "La tua password NON è stata rubata ed è probabilmente sicura.";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Manual HIBP Result";
+"audit_manual_pwn_check_result_title" = "Risultato HIBP Manuale";
 
 /* This password is pwned and is vulnerable */
-"audit_manual_pwn_check_result_pwned" = "This password is pwned and is vulnerable";
+"audit_manual_pwn_check_result_pwned" = "Questa password è compromessa ed è vulnerabile";
 
 /* Database Audit Preferences */
 "audit_drill_down_go_to_database_audit_preferences" = "Preferenze Revsione Database";
@@ -3270,4 +3270,4 @@
 "audit_drill_down_no_excluded_items_subtitle" = "Non hai esplicitamente escluso alcun elemento dalla revisione. Puoi escludere un elemento scorrendolo verso destra e toccando il pulsante Revisione.";
 
 /* Unexclude */
-"audit_excluded_items_vc_action_unclude" = "Unexclude";
+"audit_excluded_items_vc_action_unclude" = "Rimuovi dalle esclusioni";
