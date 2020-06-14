@@ -1432,7 +1432,7 @@
 "key_files_vc_no_key_file" = "Без файл-ключа";
 
 /* The Convenience Password or Key File were incorrect for this database. Convenience Unlock Disabled. */
-"open_sequence_problem_opening_convenience_incorrect_message" = "Сохранённый пароль или другие составные факторы мастер-ключа (файл-ключ/Yubikey) для этой базы данных неверны. Комфортная разблокировка отключена.";
+"open_sequence_problem_opening_convenience_incorrect_message" = "Сохранённый пароль или другие составные факторы мастер-ключа (файл-ключ/Yubikey) для этой базы данных неверны. Быстрая разблокировка отключена.";
 
 /* Incorrect Credentials */
 "open_sequence_problem_opening_incorrect_credentials_title" = "Неверные учётные данные";
@@ -1447,25 +1447,25 @@
 "open_sequence_yesno_set_quick_launch_message" = "Вы хотите использовать быстрый запуск для этой базы данных? Быстрый запуск означает, что Вам сразу же будет предложено разблокировать базу данных при открытии приложения Strongbox, что сэкономит Вам дополнительное нажатие.";
 
 /* Convenience Unlock: Use %@ or PIN Code in Future? */
-"open_sequence_prompt_use_convenience_both_title_fmt" = "Комфортная разблокировка: использовать %@ или ПИН-код в будущем?";
+"open_sequence_prompt_use_convenience_both_title_fmt" = "Быстрая разблокировка: использовать %@ или ПИН-код в будущем?";
 
 /* You can use either %@ or a convenience PIN Code to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use one of these methods, please select from below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
 "open_sequence_prompt_use_convenience_both_message_fmt" = "Вы можете использовать %@ или ПИН-код, чтобы разблокировать эту базу данных. Несмотря на удобство, безопасность базы данных на этом устройстве может снизиться. Если Вы хотите использовать один из этих способов, выберите ниже или выберите «Нет», чтобы продолжить использование своего пароля.\n\n*Внимание! Вы ВСЕГДА должны помнить свой пароль";
 
 /* Convenience Unlock: Use %@ to Unlock in Future? */
-"open_sequence_prompt_use_convenience_bio_title_fmt" = "Комфортная разблокировка: использовать %@ для разблокировки в будущем?";
+"open_sequence_prompt_use_convenience_bio_title_fmt" = "Быстрая разблокировка: использовать %@ для разблокировки в будущем?";
 
 /* You can use %@ to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use this then please select it below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
 "open_sequence_prompt_use_convenience_bio_message_fmt" = "Вы можете использовать %@, чтобы разблокировать эту базу данных. Несмотря на удобство, безопасность базы данных на этом устройстве может снизиться. Если Вы хотите использовать этот способ, выберите ниже или выберите «Нет», чтобы продолжить использование своего пароля.\n\n*Внимание! Вы ВСЕГДА должны помнить свой пароль";
 
 /* Convenience Unlock: Use a PIN Code to Unlock in Future? */
-"open_sequence_prompt_use_convenience_pin_title" = "Комфортная разблокировка: использовать ПИН-код для разблокировки в будущем?";
+"open_sequence_prompt_use_convenience_pin_title" = "Быстрая разблокировка: использовать ПИН-код для разблокировки в будущем?";
 
 /* You can use a convenience PIN Code to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use this then please select it below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
 "open_sequence_prompt_use_convenience_pin_message" = "Вы можете использовать ПИН-код, чтобы разблокировать эту базу данных. Несмотря на удобство, безопасность базы данных на этом устройстве может снизиться. Если Вы хотите использовать этот способ, выберите ниже или выберите «Нет», чтобы продолжить использование своего пароля.\n\n*Внимание! Вы ВСЕГДА должны помнить свой пароль";
 
 /* \n\nNB: Convenience Unlock is a Pro feature */
-"open_sequence_append_convenience_pro_warning" = "\n\nПримечание: Комфортная разблокировка - это функция Pro версии";
+"open_sequence_append_convenience_pro_warning" = "\n\nПримечание: Быстрая разблокировка - это функция Pro версии";
 
 /* Use %@ */
 "open_sequence_prompt_use_convenience_use_bio_fmt" = "Использовать %@";
@@ -1876,7 +1876,7 @@
 "backups_vc_set_max_keep_count_title" = "Установить макс. кол-во копий";
 
 /* You cannot use convenience unlock with a one time key file. */
-"config_error_one_time_key_file_convenience_message" = "Вы не можете использовать комфортную разблокировку с одноразовым файл-ключом.";
+"config_error_one_time_key_file_convenience_message" = "Вы не можете использовать быструю разблокировку с одноразовым файл-ключом.";
 
 /* One Time Key File Problem */
 "config_error_one_time_key_file_convenience_title" = "Проблема с одноразовым файл-ключом";
@@ -1921,7 +1921,7 @@
 "select_generated_field_message" = "Пожалуйста, выберите предпочтительную строку";
 
 /* Support Options */
-"prefs_vc_info_email_support_options_title" = "Варианты техподдержки";
+"prefs_vc_info_email_support_options_title" = "Техподдержка";
 
 /* Please make sure you check Twitter, Reddit and the FAQ before you email support to save development resources for improving Strongbox. */
 "prefs_vc_info_email_support_options_message" = "Пожалуйста, убедитесь, что Вы прочли раздел часто задаваемых вопросов, публикации Twitter, перед тем, как воспользуетесь поддержкой по электронной почте. Этим Вы поможете сэкономить время разработчика для улучшения Strongbox.";
@@ -2767,43 +2767,43 @@
 
 
 /* Convenience Unlock */
-"mac_convenience_unlock_title" = "Комфортная разблокировка";
+"mac_convenience_unlock_title" = "Быстрая разблокировка";
 
 /* Convenience Unlock (Touch ID/Watch Unavailable) */
-"mac_convenience_unlock_title_bio_unavailable" = "Комфортная разблокировка (Touch ID/Watch недоступен)";
+"mac_convenience_unlock_title_bio_unavailable" = "Быстрая разблокировка (Touch ID/Watch недоступен)";
 
 /* Convenience Unlock (Pro Feature Only) */
-"mac_convenience_unlock_title_pro_only" = "Комфортная разблокировка (только в Pro версии)";
+"mac_convenience_unlock_title_pro_only" = "Быстрая разблокировка (только в Pro версии)";
 
 /* Convenience Password is securely stored, protected by your device's Secure Enclave and will expire: %@. - Translators Note: 1st Parameter is a date, like "Today at 14:52" or "16 September 2020 at 16:54" */
-"mac_convenience_summary_secure_enclave_and_will_expire_fmt" = "Пароль надёжно сохранён и защищён безопасным анклавом Вашего устройства. Срок истечения: %@.";
+"mac_convenience_summary_secure_enclave_and_will_expire_fmt" = "Пароль надёжно сохранён и защищён в чипе безопасности Вашего устройства. Срок истечения: %@.";
 
 /* Convenience Password is securely stored in your Keychain (Secure Enclave unavailable on this device) and will expire: %@. - Translators Note: 1st Parameter is a date, like "Today at 14:52" or "16 September 2020 at 16:54" */
-"mac_convenience_summary_keychain_and_will_expire_fmt" = "Пароль надёжно сохранён в Вашей связке ключей (безопасный анклав на этом устройстве недоступен). Срок истечения: %@.";
+"mac_convenience_summary_keychain_and_will_expire_fmt" = "Пароль надёжно сохранён в Вашей связке ключей (чип безопасности на этом устройстве недоступен). Срок истечения: %@.";
 
 /* Convenience Password is securely stored, protected by your device's Secure Enclave and is configured not to expire. */
-"mac_convenience_summary_secure_enclave_and_will_not_expire" = "Пароль надёжно сохранён и защищён безопасным анклавом Вашего устройства. Срок действия неограничен.";
+"mac_convenience_summary_secure_enclave_and_will_not_expire" = "Пароль надёжно сохранён и защищён в чипе безопасности Вашего устройства. Срок действия неограничен.";
 
 /* Convenience Password is securely stored in your Keychain (Secure Enclave unavailable on this device), and is configured not to expire. */
-"mac_convenience_summary_keychain_and_will_not_expire" = "Пароль надёжно сохранён в Вашей связке ключей (безопасный анклав на этом устройстве недоступен). Срок действия неограничен.";
+"mac_convenience_summary_keychain_and_will_not_expire" = "Пароль надёжно сохранён в Вашей связке ключей (чип безопасности на этом устройстве недоступен). Срок действия неограничен.";
 
 /* Convenience Password is securely stored (in memory only) encrypted by your device's Secure Enclave and will expire on Strongbox Exit. */
-"mac_convenience_summary_secure_enclave_and_will_expire_on_exit" = "Пароль надёжно сохранён (только в памяти), зашифрованный безопасным анклавом Вашего устройства. Срок действия истечёт при выходе из Strongbox.";
+"mac_convenience_summary_secure_enclave_and_will_expire_on_exit" = "Пароль надёжно сохранён (только в памяти) и зашифрован в чипе безопасности Вашего устройства. Срок действия истечёт при выходе из Strongbox.";
 
 /* Convenience Password is securely stored (in memory only) only and will expire on Strongbox Exit. */
 "mac_convenience_summary_keychain_and_will_expire_on_exit" = "Пароль надёжно сохранён (только в памяти). Срок действия истечёт при выходе из Strongbox.";
 
 /* Convenience Unlock is Enabled but the securely stored master password has expired. */
-"mac_convenience_summary_enabled_but_expired" = "Комфортная разблокировка включена, но срок действия надёжно хранимого пароля истёк.";
+"mac_convenience_summary_enabled_but_expired" = "Быстрая разблокировка включена, но срок действия надёжно хранимого пароля истёк.";
 
 /* Convenience Unlock Disabled */
-"mac_convenience_summary_disabled" = "Комфортная разблокировка отключена";
+"mac_convenience_summary_disabled" = "Быстрая разблокировка отключена";
 
 /* Convenience Unlock (Touch ID/Watch Unavailable) */
-"mac_convenience_summary_biometrics_unavailable" = "Комфортная разблокировка (Touch ID/Watch недоступен)";
+"mac_convenience_summary_biometrics_unavailable" = "Быстрая разблокировка (Touch ID/Watch недоступен)";
 
 /* Convenience Unlock is only available in the Pro version of Strongbox. Please consider upgrading to support development. */
-"mac_convenience_summary_only_available_on_pro" = "Комфортная разблокировка доступна только в Pro версии Strongbox. Пожалуйста, подумайте об улучшении для поддержки развития приложения.";
+"mac_convenience_summary_only_available_on_pro" = "Быстрая разблокировка доступна только в Pro версии Strongbox. Пожалуйста, подумайте об улучшении для поддержки развития приложения.";
 
 /* Never */
 "mac_convenience_expiry_period_never" = "Никогда";
@@ -2815,7 +2815,7 @@
 "mac_unlock_screen_button_title_convenience_unlock" = "Разблокировать с помощью Touch ID или Watch";
 
 /* Convenience Unlock Expired */
-"mac_unlock_screen_button_title_convenience_unlock_expired" = "Срок действия комфортной разблокировки истёк";
+"mac_unlock_screen_button_title_convenience_unlock_expired" = "Срок действия быстрой разблокировки истёк";
 
 /* Touch ID/Watch Unavailable */
 "mac_unlock_screen_button_title_convenience_unlock_bio_unavailable" = "Touch ID/Watch недоступен";
