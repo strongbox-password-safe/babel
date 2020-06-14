@@ -23,22 +23,22 @@
 "safes_vc_slide_left_open_offline_action" = "Открыть офлайн";
 
 /* Title of the 'More Actions' alert/action sheet */
-"safes_vc_database_actions_sheet_title" = "Действия с базой данных";
+"safes_vc_database_actions_sheet_title" = "Выберите действие";
 
 /* Button Title to Unset Quick Launch */
-"safes_vc_action_unset_as_quick_launch" = "Отключить быстрый запуск...";
+"safes_vc_action_unset_as_quick_launch" = "Отключить быстрый запуск";
 
 /* Button Title to Set Quick Launch */
 "safes_vc_action_set_as_quick_launch" = "Включить быстрый запуск";
 
 /* Button Title to Show in Files */
-"safes_vc_show_in_files" = "Отображать в Файлах...";
+"safes_vc_show_in_files" = "Отображать в Файлах";
 
 /* Button Title to Hide from Files */
-"safes_vc_make_autofillable" = "Скрыть из Файлов...";
+"safes_vc_make_autofillable" = "Скрыть из Файлов";
 
 /* Title of Prompt about setting Quick Launch */
-"safes_vc_about_quick_launch_title" = "О быстром запуске";
+"safes_vc_about_quick_launch_title" = "Быстрый запуск";
 
 /* Message about quick launch feature and asking to confirm yes or no */
 "safes_vc_about_setting_quick_launch_and_confirm" = "Включение функции быстрого запуска для базы данных означает, что Вам будет автоматически предложено разблокировать  базу данных, как только Вы запустите или повторно активируете Strongbox. Это сэкономит Вам одно драгоценное нажатие!\n\nВключить быстрый запуск для этой базы данных?";
@@ -50,7 +50,7 @@
 "safes_vc_make_database_auto_fill_info" = "Скрытие этой базы данных в приложении Файлы означает, что она больше не будет доступна через Finder на компьютере Mac. В дополнении к этому, это также означает, что Вы получите полноценный функционал (чтение/запись) автозаполнения (не только кэш для чтения).\n\nПримечание: Вы всегда можете отменить это действие";
 
 /* OK/Cancel prompt title for changing local storage mode */
-"safes_vc_change_local_device_storage_mode_title" = "Изменить отображение в Файлах";
+"safes_vc_change_local_device_storage_mode_title" = "Отображение в Файлах";
 
 /* error message could not change local storage */
 "safes_vc_could_not_change_storage_location_error" = "Не удалось изменить отображение в Файлах";
@@ -303,7 +303,7 @@
 "browse_prefs_tap_action_none" = "Отсутствие действий";
 
 /* View Item */
-"browse_prefs_tap_action_view_item" = "Посмотреть элемент";
+"browse_prefs_tap_action_view_item" = "Посмотреть запись";
 
 /* Triple Tap Action */
 "browse_prefs_triple_tap_action" = "Действие при тройном нажатии";
@@ -706,7 +706,7 @@
 "prefs_vc_clear_biometrics_yesno_title" = "Очистить биометрию";
 
 /* Clear Clipboard Delay */
-"prefs_vc_clear_clipboard_delay" = "Очистить задержку буфера обмена";
+"prefs_vc_clear_clipboard_delay" = "Задержка по времени";
 
 /* This will clear all securely stored master passwords (for all databases) used for PIN Code unlock. Are you sure? */
 "prefs_vc_clear_pin_codes_yesno_message" = "Это очистит все надёжно хранимые пароли (для всех баз данных), использующиеся для разблокировки ПИН-кодом. Вы уверены?";
@@ -730,7 +730,7 @@
 "prefs_vc_enable_biometric_fmt" = "Включить %@";
 
 /* Please find Strongbox in the App Store and you can write a review there. Much appreciated!\n-Mark */
-"prefs_vc_info_cannot_open_app_store_message" = "Пожалуйста, оставьте отзыв о приложении Strongbox в App Store. Буду очень признателен!\n\n-Марк";
+"prefs_vc_info_cannot_open_app_store_message" = "Пожалуйста, оставьте отзыв о приложении Strongbox в App Store. Буду очень признателен!\n\nС уважением, Марк";
 
 /* Cannot open App Store */
 "prefs_vc_info_cannot_open_app_store_title" = "Невозможно открыть App Store";
@@ -748,10 +748,10 @@
 "prefs_vc_info_email_not_available_title" = "Email недоступен";
 
 /* It is very important that you know your master password for your databases, and that you are not relying entirely on %@.\nThe migration and importation process makes every effort to maintain %@ data but it is not guaranteed. In any case it is important that you always know your master passwords.\n\nDo you want to continue changing iCloud usage settings? */
-"prefs_vc_master_password_icloud_migration_yesno_warning_message_fmt" = "Очень важно, чтобы Вы помнили пароли для всех своих баз данных и не полагались полностью на %@.\nПроцесс миграции и импорта прилагает все усилия, но не гарантирует сохранение данных %@. В любом случае важно, чтобы Вы всегда могли вспомнить свой пароль.\n\nПродолжить изменение настроек использования iCloud?";
+"prefs_vc_master_password_icloud_migration_yesno_warning_message_fmt" = "Очень важно, чтобы Вы помнили пароли для своих баз данных и не полагались полностью на %@.\nПроцесс переноса данных не гарантирует сохранение данных %@. Поэтому необходимо, чтобы Вы всегда могли вспомнить свой пароль.\n\nПродолжить изменение настроек использования iCloud?";
 
 /* Master Password Warning */
-"prefs_vc_master_password_icloud_migration_yesno_warning_title" = "Предупреждение о пароле";
+"prefs_vc_master_password_icloud_migration_yesno_warning_title" = "Предупреждение";
 
 /* Your PINs do not match. */
 "prefs_vc_pins_dont_match_warning_message" = "Ваши ПИН-коды не совпадают.";
@@ -1356,7 +1356,7 @@
 "select_item_vc_message_select_one" = "Вы должны выбрать хотя бы один элемент";
 
 /* Custom Default */
-"entry_defaults_vc_prompt_custom_title" = "Использовать по умолчанию";
+"entry_defaults_vc_prompt_custom_title" = "Настройка значения";
 
 /* Please enter a new custom default for this field */
 "entry_defaults_vc_prompt_custom_message" = "Пожалуйста, введите новое значение для этого поля, которое будет использоваться по умолчанию";
@@ -1365,7 +1365,7 @@
 "open_sequence_prompt_database_reselect_required_title" = "Необходимо выбрать файл базы данных";
 
 /* For technical reasons, you need to re-select your database file to enable Auto Fill. You will only need to do this once.\n\nThanks!\n-Mark */
-"open_sequence_prompt_database_reselect_required_message" = "По техническим причинам необходимо повторно выбрать файл базы данных, чтобы включить автозаполнение. Это потребуется сделать лишь один раз.\n\nСпасибо!\n-Марк";
+"open_sequence_prompt_database_reselect_required_message" = "По техническим причинам необходимо повторно выбрать файл базы данных, чтобы включить автозаполнение. Это потребуется сделать лишь один раз.\n\nСпасибо!\nС уважением, Марк";
 
 /* %d attempts remaining */
 "open_sequence_pin_attempts_remaining_fmt" = "Осталось %d попыток";
@@ -1432,7 +1432,7 @@
 "key_files_vc_no_key_file" = "Без файл-ключа";
 
 /* The Convenience Password or Key File were incorrect for this database. Convenience Unlock Disabled. */
-"open_sequence_problem_opening_convenience_incorrect_message" = "Сохранённый пароль или другие составные факторы мастер-ключа (файл-ключ/Yubikey) для этой базы данных неверны. Комфортная разблокировка отключена.";
+"open_sequence_problem_opening_convenience_incorrect_message" = "Сохранённый пароль или другие составные факторы мастер-ключа (файл-ключ/Yubikey) для этой базы данных неверны. Быстрая разблокировка отключена.";
 
 /* Incorrect Credentials */
 "open_sequence_problem_opening_incorrect_credentials_title" = "Неверные учётные данные";
@@ -1447,25 +1447,25 @@
 "open_sequence_yesno_set_quick_launch_message" = "Вы хотите использовать быстрый запуск для этой базы данных? Быстрый запуск означает, что Вам сразу же будет предложено разблокировать базу данных при открытии приложения Strongbox, что сэкономит Вам дополнительное нажатие.";
 
 /* Convenience Unlock: Use %@ or PIN Code in Future? */
-"open_sequence_prompt_use_convenience_both_title_fmt" = "Комфортная разблокировка: использовать %@ или ПИН-код в будущем?";
+"open_sequence_prompt_use_convenience_both_title_fmt" = "Быстрая разблокировка: использовать %@ или ПИН-код в будущем?";
 
 /* You can use either %@ or a convenience PIN Code to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use one of these methods, please select from below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
 "open_sequence_prompt_use_convenience_both_message_fmt" = "Вы можете использовать %@ или ПИН-код, чтобы разблокировать эту базу данных. Несмотря на удобство, безопасность базы данных на этом устройстве может снизиться. Если Вы хотите использовать один из этих способов, выберите ниже или выберите «Нет», чтобы продолжить использование своего пароля.\n\n*Внимание! Вы ВСЕГДА должны помнить свой пароль";
 
 /* Convenience Unlock: Use %@ to Unlock in Future? */
-"open_sequence_prompt_use_convenience_bio_title_fmt" = "Комфортная разблокировка: использовать %@ для разблокировки в будущем?";
+"open_sequence_prompt_use_convenience_bio_title_fmt" = "Быстрая разблокировка: использовать %@ для разблокировки в будущем?";
 
 /* You can use %@ to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use this then please select it below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
 "open_sequence_prompt_use_convenience_bio_message_fmt" = "Вы можете использовать %@, чтобы разблокировать эту базу данных. Несмотря на удобство, безопасность базы данных на этом устройстве может снизиться. Если Вы хотите использовать этот способ, выберите ниже или выберите «Нет», чтобы продолжить использование своего пароля.\n\n*Внимание! Вы ВСЕГДА должны помнить свой пароль";
 
 /* Convenience Unlock: Use a PIN Code to Unlock in Future? */
-"open_sequence_prompt_use_convenience_pin_title" = "Комфортная разблокировка: использовать ПИН-код для разблокировки в будущем?";
+"open_sequence_prompt_use_convenience_pin_title" = "Быстрая разблокировка: использовать ПИН-код для разблокировки в будущем?";
 
 /* You can use a convenience PIN Code to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use this then please select it below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
 "open_sequence_prompt_use_convenience_pin_message" = "Вы можете использовать ПИН-код, чтобы разблокировать эту базу данных. Несмотря на удобство, безопасность базы данных на этом устройстве может снизиться. Если Вы хотите использовать этот способ, выберите ниже или выберите «Нет», чтобы продолжить использование своего пароля.\n\n*Внимание! Вы ВСЕГДА должны помнить свой пароль";
 
 /* \n\nNB: Convenience Unlock is a Pro feature */
-"open_sequence_append_convenience_pro_warning" = "\n\nПримечание: Комфортная разблокировка - это функция Pro версии";
+"open_sequence_append_convenience_pro_warning" = "\n\nПримечание: Быстрая разблокировка - это функция Pro версии";
 
 /* Use %@ */
 "open_sequence_prompt_use_convenience_use_bio_fmt" = "Использовать %@";
@@ -1876,7 +1876,7 @@
 "backups_vc_set_max_keep_count_title" = "Установить макс. кол-во копий";
 
 /* You cannot use convenience unlock with a one time key file. */
-"config_error_one_time_key_file_convenience_message" = "Вы не можете использовать комфортную разблокировку с одноразовым файл-ключом.";
+"config_error_one_time_key_file_convenience_message" = "Вы не можете использовать быструю разблокировку с одноразовым файл-ключом.";
 
 /* One Time Key File Problem */
 "config_error_one_time_key_file_convenience_title" = "Проблема с одноразовым файл-ключом";
@@ -1921,13 +1921,13 @@
 "select_generated_field_message" = "Пожалуйста, выберите предпочтительную строку";
 
 /* Support Options */
-"prefs_vc_info_email_support_options_title" = "Варианты техподдержки";
+"prefs_vc_info_email_support_options_title" = "Техподдержка";
 
 /* Please make sure you check Twitter, Reddit and the FAQ before you email support to save development resources for improving Strongbox. */
 "prefs_vc_info_email_support_options_message" = "Пожалуйста, убедитесь, что Вы прочли раздел часто задаваемых вопросов, публикации Twitter, перед тем, как воспользуетесь поддержкой по электронной почте. Этим Вы поможете сэкономить время разработчика для улучшения Strongbox.";
 
 /* Check FAQ */
-"prefs_vc_info_email_support_options_check_faq" = "Strongbox FAQ";
+"prefs_vc_info_email_support_options_check_faq" = "Часто задаваемые вопросы";
 
 /* Check Twitter */
 "prefs_vc_info_email_support_options_check_twitter" = "Связаться в Twitter";
@@ -2026,16 +2026,16 @@
 "safes_vc_what_would_you_like_to_do" = "Что бы Вы хотели сделать?";
 
 /* Are you sure? */
-"safes_vc_question_confirm_are_you_sure" = "Вы уверены?";
+"safes_vc_question_confirm_are_you_sure" = "Подтвердите действие";
 
 /* Are you sure? */
-"generic_are_you_sure" = "Вы уверены?";
+"generic_are_you_sure" = "Подтвердите действие";
 
 /* Are you sure? */
-"browse_vc_are_you_sure" = "Вы уверены?";
+"browse_vc_are_you_sure" = "Подтвердите действие";
 
 /* Are you sure? */
-"keepass_history_are_you_sure" = "Вы уверены?";
+"keepass_history_are_you_sure" = "Подтвердите действие";
 
 /* View more actions table action */
 "safes_vc_slide_left_more_actions" = "Больше...";
@@ -2425,7 +2425,7 @@
 
 /* Hi and welcome to Strongbox!\n\nI hope you'll really like the app, and find it useful. You can enjoy this fully featured Pro version of Strongbox for the next three months. After that point, you will be transitioned to the regular version of Strongbox.\n\nYou can always find out more at any time by tapping 'Upgrade to Pro' in the Strongbox menu item.\n\nThanks!\n-Mark */
 
-"mac_welcome_to_strongbox_message" = "Привет и добро пожаловать в Strongbox!\n\nНадеюсь, приложение Вам действительно понравится и будет полезным! Вы можете использовать полный функционал Pro версии Strongbox в течении следующих трёх месяцев. По окончании пробного периода Вы будете переведены на обычную версию Strongbox.\n\nВы всегда можете узнать больше в любое время, нажав кнопку 'Обновить до Pro' в пункте меню Strongbox.\n\nСпасибо!\n-Марк";
+"mac_welcome_to_strongbox_message" = "Привет и добро пожаловать в Strongbox!\n\nНадеюсь, приложение Вам действительно понравится и будет полезным! Вы можете использовать полный функционал Pro версии Strongbox в течении следующих трёх месяцев. По окончании пробного периода Вы будете переведены на базовую версию Strongbox.\n\nВы всегда можете узнать больше в любое время, нажав кнопку 'Обновить до Pro' в пункте меню Strongbox.\n\nСпасибо!\nС уважением, Марк";
 
 /* Change Master Credentials */
 "mac_undo_action_change_master_credentials" = "Изменить мастер-ключ";
@@ -2728,7 +2728,7 @@
 "auto_fill_welcome_message_header" = "Добро пожаловать";
 
 /* Translators Note: A welcome/warning message that certain native storage providers do not support Live Auto Fill, and must use a cached version of the database */
-"auto_fill_welcome_live_storage_warning_message" = "Следует отметить, что следующие поставщики хранилищ данных не поддерживают прямой доступ к Вашей базе данных из расширений приложений:\nDropbox, OneDrive и Google Drive\nВ этих случаях Strongbox может использовать кэш... Наслаждайтесь функцией автозаполнения Strongbox!\n-Марк";
+"auto_fill_welcome_live_storage_warning_message" = "Следует отметить, что следующие поставщики хранилищ данных не поддерживают прямой доступ к Вашей базе данных из расширений приложений:\nDropbox, OneDrive и Google Drive\nВ этих случаях Strongbox может использовать кэш. Используйте функцию автозаполнения Strongbox!\nС уважением, Марк";
 
 /* Automatically download FavIcon on URL Change (PRO Only) */
 "mac_auto_download_favicon_pro_only" = "Автоматически загружать значок сайта при изменении URL (только в Pro версии)";
@@ -2767,43 +2767,43 @@
 
 
 /* Convenience Unlock */
-"mac_convenience_unlock_title" = "Комфортная разблокировка";
+"mac_convenience_unlock_title" = "Быстрая разблокировка";
 
 /* Convenience Unlock (Touch ID/Watch Unavailable) */
-"mac_convenience_unlock_title_bio_unavailable" = "Комфортная разблокировка (Touch ID/Watch недоступен)";
+"mac_convenience_unlock_title_bio_unavailable" = "Быстрая разблокировка (Touch ID/Watch недоступен)";
 
 /* Convenience Unlock (Pro Feature Only) */
-"mac_convenience_unlock_title_pro_only" = "Комфортная разблокировка (только в Pro версии)";
+"mac_convenience_unlock_title_pro_only" = "Быстрая разблокировка (только в Pro версии)";
 
 /* Convenience Password is securely stored, protected by your device's Secure Enclave and will expire: %@. - Translators Note: 1st Parameter is a date, like "Today at 14:52" or "16 September 2020 at 16:54" */
-"mac_convenience_summary_secure_enclave_and_will_expire_fmt" = "Пароль надёжно сохранён и защищён безопасным анклавом Вашего устройства. Срок истечения: %@.";
+"mac_convenience_summary_secure_enclave_and_will_expire_fmt" = "Пароль надёжно сохранён и защищён в чипе безопасности Вашего устройства. Срок истечения: %@.";
 
 /* Convenience Password is securely stored in your Keychain (Secure Enclave unavailable on this device) and will expire: %@. - Translators Note: 1st Parameter is a date, like "Today at 14:52" or "16 September 2020 at 16:54" */
-"mac_convenience_summary_keychain_and_will_expire_fmt" = "Пароль надёжно сохранён в Вашей связке ключей (безопасный анклав на этом устройстве недоступен). Срок истечения: %@.";
+"mac_convenience_summary_keychain_and_will_expire_fmt" = "Пароль надёжно сохранён в Вашей связке ключей (чип безопасности на этом устройстве недоступен). Срок истечения: %@.";
 
 /* Convenience Password is securely stored, protected by your device's Secure Enclave and is configured not to expire. */
-"mac_convenience_summary_secure_enclave_and_will_not_expire" = "Пароль надёжно сохранён и защищён безопасным анклавом Вашего устройства. Срок действия неограничен.";
+"mac_convenience_summary_secure_enclave_and_will_not_expire" = "Пароль надёжно сохранён и защищён в чипе безопасности Вашего устройства. Срок действия неограничен.";
 
 /* Convenience Password is securely stored in your Keychain (Secure Enclave unavailable on this device), and is configured not to expire. */
-"mac_convenience_summary_keychain_and_will_not_expire" = "Пароль надёжно сохранён в Вашей связке ключей (безопасный анклав на этом устройстве недоступен). Срок действия неограничен.";
+"mac_convenience_summary_keychain_and_will_not_expire" = "Пароль надёжно сохранён в Вашей связке ключей (чип безопасности на этом устройстве недоступен). Срок действия неограничен.";
 
 /* Convenience Password is securely stored (in memory only) encrypted by your device's Secure Enclave and will expire on Strongbox Exit. */
-"mac_convenience_summary_secure_enclave_and_will_expire_on_exit" = "Пароль надёжно сохранён (только в памяти), зашифрованный безопасным анклавом Вашего устройства. Срок действия истечёт при выходе из Strongbox.";
+"mac_convenience_summary_secure_enclave_and_will_expire_on_exit" = "Пароль надёжно сохранён (только в памяти) и зашифрован в чипе безопасности Вашего устройства. Срок действия истечёт при выходе из Strongbox.";
 
 /* Convenience Password is securely stored (in memory only) only and will expire on Strongbox Exit. */
 "mac_convenience_summary_keychain_and_will_expire_on_exit" = "Пароль надёжно сохранён (только в памяти). Срок действия истечёт при выходе из Strongbox.";
 
 /* Convenience Unlock is Enabled but the securely stored master password has expired. */
-"mac_convenience_summary_enabled_but_expired" = "Комфортная разблокировка включена, но срок действия надёжно хранимого пароля истёк.";
+"mac_convenience_summary_enabled_but_expired" = "Быстрая разблокировка включена, но срок действия надёжно хранимого пароля истёк.";
 
 /* Convenience Unlock Disabled */
-"mac_convenience_summary_disabled" = "Комфортная разблокировка отключена";
+"mac_convenience_summary_disabled" = "Быстрая разблокировка отключена";
 
 /* Convenience Unlock (Touch ID/Watch Unavailable) */
-"mac_convenience_summary_biometrics_unavailable" = "Комфортная разблокировка (Touch ID/Watch недоступен)";
+"mac_convenience_summary_biometrics_unavailable" = "Быстрая разблокировка (Touch ID/Watch недоступен)";
 
 /* Convenience Unlock is only available in the Pro version of Strongbox. Please consider upgrading to support development. */
-"mac_convenience_summary_only_available_on_pro" = "Комфортная разблокировка доступна только в Pro версии Strongbox. Пожалуйста, подумайте об улучшении для поддержки развития приложения.";
+"mac_convenience_summary_only_available_on_pro" = "Быстрая разблокировка доступна только в Pro версии Strongbox. Пожалуйста, подумайте об улучшении для поддержки развития приложения.";
 
 /* Never */
 "mac_convenience_expiry_period_never" = "Никогда";
@@ -2815,7 +2815,7 @@
 "mac_unlock_screen_button_title_convenience_unlock" = "Разблокировать с помощью Touch ID или Watch";
 
 /* Convenience Unlock Expired */
-"mac_unlock_screen_button_title_convenience_unlock_expired" = "Срок действия комфортной разблокировки истёк";
+"mac_unlock_screen_button_title_convenience_unlock_expired" = "Срок действия быстрой разблокировки истёк";
 
 /* Touch ID/Watch Unavailable */
 "mac_unlock_screen_button_title_convenience_unlock_bio_unavailable" = "Touch ID/Watch недоступен";
@@ -2919,7 +2919,7 @@
 "keepass_icon_set_sf_symbols" = "SF-символы (iOS 13+)";
 
 /* Translators Note: 1 parameter here to mention Biometric unlock, which depends on the device (will be either: 'Touch ID Unlock' or 'Face ID Unlock') */
-"upgrade_short_developer_message_fmt" = "Привет! Я, Марк, разработчик Strongbox. Strongbox является условно-бесплатным приложением - это означает, что есть бесплатная и Pro версии. Я надеюсь, Вам действительно понравится Strongbox и будет полезным в использовании.\n\nРассматриваете возможность улучшить функционал приложения? Так Вы можете помочь независимому разработчику и сделать возможным постоянное совершенствование приложения.\n\nВы также получите доступ к таким функциям Pro, как %@, ПИН-кодам и значкам сайтов!\n\nЯ с удовольствием работаю над этим приложением, и Ваша поддержка позволяет мне продолжать это делать.\n\nСпасибо,\n-Марк";
+"upgrade_short_developer_message_fmt" = "Привет! Я, Марк, разработчик Strongbox. Strongbox является условно-бесплатным приложением - это означает, что есть бесплатная и Pro версии. Я надеюсь, Вам действительно понравится Strongbox и будет полезным в использовании.\n\nРассматриваете возможность улучшить функционал приложения? Так Вы можете помочь независимому разработчику и сделать возможным постоянное совершенствование приложения.\n\nВы также получите доступ к таким функциям Pro, как %@, ПИН-кодам и значкам сайтов!\n\nЯ с удовольствием работаю над этим приложением, и Ваша поддержка позволяет мне продолжать это делать.\n\nСпасибо,\nС уважением, Марк";
 
 /* Translators Note: 1 parameter indicating number of days left in users free trial */
 "upgrade_vc_you_have_n_days_remaining_fmt" = "У Вас осталось %ld дней пробного периода Pro версии";
@@ -2928,10 +2928,10 @@
 "upgrade_vc_your_free_trial_expired" = "Ваш бесплатный пробный период Strongbox Pro истёк.";
 
 /* Enjoy %@ and other Pro features by Upgrading! - Translators Note: 1st parameter is for biometric unlock (will be either: 'Touch ID Unlock' or 'Face ID Unlock') */
-"upgrade_vc_enjoy_features_by_upgrading_fmt" = "Наслаждайтесь %@ и другими Про-функциями, улучшив приложение!";
+"upgrade_vc_enjoy_features_by_upgrading_fmt" = "Воспользуйтесь %@ и другими функциями Pro версии, улучшив приложение!";
 
 /* */
-"upgrade_question_answer_free_pro_differences" = "Главное отличие бесплатной и Pro версий Strongbox - это разблокировка с помощью Touch/Face ID.\n\nЭто очень удобный метод для разблокировки Ваших баз данных. Без него Вам придётся вручную вводить свой надёжный пароль. Как правило, он является длинным и сложным, что может привести к медленному и подверженному ошибкам входу.\n\nКроме того, существует ещё парочка приятных функций, таких как ПИН-коды или значки сайтов.\n\nОдно из основных преимуществ заключается в том, что Вы больше не увидите этот экран и поддержите дальнейшее развитие Strongbox.\n\nУвидеть различия Вы можете, нажав на кнопку «Сравнение бесплатной и Pro версий» на главном экране обновления.";
+"upgrade_question_answer_free_pro_differences" = "Главное отличие бесплатной и Pro версий Strongbox - это разблокировка с помощью Touch/Face ID.\n\nЭто очень удобный метод для разблокировки Ваших баз данных. Без него Вам придётся вручную вводить свой пароль. Как правило, он является длинным и сложным, что может привести к медленному и подверженному ошибкам входу.\n\nКроме того, существуют другие продвинутые функции, такие как ПИН-коды или значки сайтов.\n\nЕщё одно преимущество заключается в том, что Вы больше не увидите это предложение об улучшении и поддержите дальнейшее развитие Strongbox.\n\nУвидеть различия Вы можете, нажав на кнопку «Сравнение бесплатной и Pro версий» на главном экране обновления.";
 
 /* */
 "upgrade_question_answer_end_trial" = "По окончании пробного периода Вы автоматически будете переведены на бесплатную версию и больше не сможете использовать дополнительные функции, такие как разблокировка Touch/Face ID.\n\nУ Вас также останется доступ к Вашим базам данных, поиску, редактированию и синхронизации баз данных с Вашим облачным сервисом.\n\nВремя от времени может появляться предложение об улучшении, чтобы посоветовать Вам поддержать текущую разработку.";
