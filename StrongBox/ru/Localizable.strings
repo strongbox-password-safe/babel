@@ -267,7 +267,7 @@
 "browse_prefs_double_tap_action" = "Двойное нажатие";
 
 /* Item Subtitle */
-"browse_prefs_item_subtitle" = "Подзаголовок элемента";
+"browse_prefs_item_subtitle" = "Подзаголовок записи";
 
 /* Long Press Action */
 "browse_prefs_long_press_action" = "Длительное нажатие";
@@ -354,10 +354,10 @@
 "browse_vc_email_copied_fmt" = "Email «%@» скопирован";
 
 /* Enter Group Name */
-"browse_vc_enter_group_name" = "Введите название группы";
+"browse_vc_enter_group_name" = "Добавление группы";
 
 /* Please Enter the New Group Name: */
-"browse_vc_enter_group_name_message" = "Пожалуйста, введите название новой группы:";
+"browse_vc_enter_group_name_message" = "Пожалуйста, введите название новой группы";
 
 /* Error Deleting */
 "browse_vc_error_deleting" = "Ошибка при удалении";
@@ -381,7 +381,7 @@
 "browse_vc_notes_copied_fmt" = "Примечания «%@» скопированы";
 
 /*  (Offline) */
-"browse_vc_offline_suffix" = "(Офлайн)";
+"browse_vc_offline_suffix" = " (Офлайн)";
 
 /* '%@' Password Copied */
 "browse_vc_password_copied_fmt" = "Пароль «%@» скопирован";
@@ -526,10 +526,10 @@
 "db_management_credentials_changed" = "Мастер-ключ изменён";
 
 /* Are you sure you want to do this? */
-"db_management_disable_autofill_yesno_message" = "Вы уверены, что хотите это сделать?";
+"db_management_disable_autofill_yesno_message" = "Вы уверены, что хотите отключить автозаполнение?";
 
 /* Disable AutoFill? */
-"db_management_disable_autofill_yesno_title" = "Отключить автозаполнение?";
+"db_management_disable_autofill_yesno_title" = "Отключение автозаполнения";
 
 /* %@ for this database has been disabled. */
 "db_management_disable_biometric_notify_message_fmt" = "%@ для этой базы данных было отключен.";
@@ -706,7 +706,7 @@
 "prefs_vc_clear_biometrics_yesno_title" = "Очистить биометрию";
 
 /* Clear Clipboard Delay */
-"prefs_vc_clear_clipboard_delay" = "Задержка по времени";
+"prefs_vc_clear_clipboard_delay" = "Задержка";
 
 /* This will clear all securely stored master passwords (for all databases) used for PIN Code unlock. Are you sure? */
 "prefs_vc_clear_pin_codes_yesno_message" = "Это очистит все надёжно хранимые пароли (для всех баз данных), использующиеся для разблокировки ПИН-кодом. Вы уверены?";
@@ -736,7 +736,7 @@
 "prefs_vc_info_cannot_open_app_store_title" = "Невозможно открыть App Store";
 
 /* Please be extremely careful as this will delete permanently any local device databases and all preferences */
-"prefs_vc_info_data_deletion_care_required_message" = "Пожалуйста, будьте предельно осторожны, т.к. все локальные базы данных и все настройки будут удалены с этого устройства.";
+"prefs_vc_info_data_deletion_care_required_message" = "Пожалуйста, будьте предельно осторожны, т.к. все локальные базы данных и настройки Strongbox будут удалены с этого устройства при достижении указанного количества неудачных попыток разблокировки.";
 
 /* DATA DELETION: Care Required */
 "prefs_vc_info_data_deletion_care_required_title" = "Предупреждение";
@@ -998,7 +998,7 @@
 "pins_config_vc_label_remove_database" = "Удалить базу данных из Strongbox";
 
 /* NB: Database file will remain on remote storage. */
-"pins_config_vc_label_remove_database_warning" = "Примечание: Ваш файл останется во внешнем хранилище";
+"pins_config_vc_label_remove_database_warning" = "Примечание: Файл останется во внешнем хранилище";
 
 /* PIN Codes (Pro Feature Only) */
 "pins_config_vc_title_pro_only" = "ПИН-коды (только в Pro версии)";
@@ -1203,7 +1203,7 @@
 "webdav_vc_validation_url_invalid" = "Ссылка неверна";
 
 /* Select Icon Source */
-"set_icon_vc_select_icon_source_title" = "Выбор источника значков";
+"set_icon_vc_select_icon_source_title" = "Выбор источника";
 
 /* Select the source of the icon you would like to use for this entry */
 "set_icon_vc_select_icon_source_message" = "Выберите источник значков, который Вы хотели бы использовать для этой записи";
@@ -1260,7 +1260,7 @@
 "moveentry_vc_add_group_prompt_placeholder" = "Название группы";
 
 /* Enter Group Name */
-"moveentry_vc_add_group_prompt_title" = "Введите название группы";
+"moveentry_vc_add_group_prompt_title" = "Добавление группы";
 
 /* Please Enter the New Group Name */
 "moveentry_vc_add_group_prompt_message" = "Пожалуйста, введите название новой группы";
@@ -1420,7 +1420,7 @@
 
 /* Could not open database
    There was a problem opening the database. */
-"open_sequence_problem_opening_title" = "При открытии базы данных возникла проблема.";
+"open_sequence_problem_opening_title" = "Ошибка";
 
 /* AutoFill Crash Likely */
 "open_sequence_autofill_creash_likely_title" = "Возможен сбой автозаполнения";
@@ -1441,16 +1441,16 @@
 "open_sequence_problem_opening_incorrect_credentials_message" = "Неверный пароль";
 
 /* Set Quick Launch? */
-"open_sequence_yesno_set_quick_launch_title" = "Установить быстрый запуск?";
+"open_sequence_yesno_set_quick_launch_title" = "Быстрый запуск";
 
 /* Would you like to use this as your Quick Launch database? Quick Launch means you will get prompted immediately to unlock when you open Strongbox, saving you a precious tap. */
-"open_sequence_yesno_set_quick_launch_message" = "Вы хотите использовать быстрый запуск для этой базы данных? Быстрый запуск означает, что Вам сразу же будет предложено разблокировать базу данных при открытии приложения Strongbox, что сэкономит Вам дополнительное нажатие.";
+"open_sequence_yesno_set_quick_launch_message" = "Вы хотите использовать быстрый запуск для этой базы данных? Быстрый запуск означает, что Вам сразу же будет предложено разблокировать базу данных при открытии Strongbox, что сэкономит Вам дополнительное нажатие.";
 
 /* Convenience Unlock: Use %@ or PIN Code in Future? */
-"open_sequence_prompt_use_convenience_both_title_fmt" = "Быстрая разблокировка: использовать %@ или ПИН-код в будущем?";
+"open_sequence_prompt_use_convenience_both_title_fmt" = "Быстрая разблокировка";
 
 /* You can use either %@ or a convenience PIN Code to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use one of these methods, please select from below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
-"open_sequence_prompt_use_convenience_both_message_fmt" = "Вы можете использовать %@ или ПИН-код, чтобы разблокировать эту базу данных. Несмотря на удобство, безопасность базы данных на этом устройстве может снизиться. Если Вы хотите использовать один из этих способов, выберите ниже или выберите «Нет», чтобы продолжить использование своего пароля.\n\n*Внимание! Вы ВСЕГДА должны помнить свой пароль";
+"open_sequence_prompt_use_convenience_both_message_fmt" = "Вы можете использовать %@ или ПИН-код, чтобы разблокировать эту базу данных. Несмотря на удобство, безопасность базы данных на этом устройстве может снизиться. Выберите один из этих способов или нажмите «Нет», чтобы продолжить использование своего пароля.\n\nВажно: Вы ВСЕГДА должны помнить свой пароль";
 
 /* Convenience Unlock: Use %@ to Unlock in Future? */
 "open_sequence_prompt_use_convenience_bio_title_fmt" = "Быстрая разблокировка: использовать %@ для разблокировки в будущем?";
@@ -1480,7 +1480,7 @@
 "open_sequence_warn_pin_conflict_message" = "Ваш ПИН-код совпадает с Вашим принудительным ПИН-кодом. Пожалуйста, выберите другой.";
 
 /* Use Offline Cache? */
-"open_sequence_yesno_use_offline_cache_title" = "Ошибка";
+"open_sequence_yesno_use_offline_cache_title" = "Использовать кэш?";
 
 /* Invalid Database - [%@] */
 "open_sequence_invalid_database_filename_fmt" = "Неверная база данных - [%@]";
@@ -1801,7 +1801,7 @@
 "browse_vc_section_title_recents" = "Недавние элементы";
 
 /* Standard View Sections Header */
-"browse_vc_section_title_standard_view" = "Элементы";
+"browse_vc_section_title_standard_view" = "Группы и записи";
 
 /* Compressed */
 "database_metadata_field_compressed" = "Сжатие";
@@ -2023,7 +2023,7 @@
 "generic_database" = "База данных";
 
 /* Options Title - What would like to do? Options are to Add a Database or Create New etc */
-"safes_vc_what_would_you_like_to_do" = "Что бы Вы хотели сделать?";
+"safes_vc_what_would_you_like_to_do" = "Вы хотите добавить или создать базу данных?";
 
 /* Are you sure? */
 "safes_vc_question_confirm_are_you_sure" = "Подтвердите действие";
@@ -2157,7 +2157,7 @@
 "item_details_username_field_title" = "Логин";
 
 /* Disabled */
-"prefs_vc_setting_disabled" = "Отключен";
+"prefs_vc_setting_disabled" = "Отключено";
 
 /* Face ID */
 "settings_face_id_name" = "Face ID";
@@ -2482,7 +2482,7 @@
 "mac_undo_action_remove_custom_field" = "Удалить настраиваемое поле";
 
 /* Set TOTP */
-"mac_undo_action_set_totp" = "Установить TOTP";
+"mac_undo_action_set_totp" = "Добавить TOTP";
 
 /* Clear TOTP */
 "mac_undo_action_clear_totp" = "Очистить TOTP";
@@ -2919,7 +2919,7 @@
 "keepass_icon_set_sf_symbols" = "SF-символы (iOS 13+)";
 
 /* Translators Note: 1 parameter here to mention Biometric unlock, which depends on the device (will be either: 'Touch ID Unlock' or 'Face ID Unlock') */
-"upgrade_short_developer_message_fmt" = "Привет! Я, Марк, разработчик Strongbox. Strongbox является условно-бесплатным приложением - это означает, что есть бесплатная и Pro версии. Я надеюсь, Вам действительно понравится Strongbox и будет полезным в использовании.\n\nРассматриваете возможность улучшить функционал приложения? Так Вы можете помочь независимому разработчику и сделать возможным постоянное совершенствование приложения.\n\nВы также получите доступ к таким функциям Pro, как %@, ПИН-коды и значки сайтов!\n\nЯ с удовольствием работаю над этим приложением, и Ваша поддержка позволяет мне продолжать это делать.\n\nСпасибо,\nС уважением, Марк";
+"upgrade_short_developer_message_fmt" = "Привет! Я, Марк, разработчик Strongbox. Strongbox является условно-бесплатным приложением - это означает, что есть бесплатная и Pro версии. Я надеюсь, Вам действительно понравится Strongbox и будет полезным в использовании.\n\nРассматриваете возможность улучшить функционал приложения? Так Вы можете помочь независимому разработчику и сделать возможным постоянное совершенствование приложения.\n\nВы также получите доступ к таким функциям Pro, как %@, ПИН-коды и значки сайтов!\n\nЯ с удовольствием работаю над этим приложением, и Ваша поддержка позволяет мне продолжать это делать.\n\nСпасибо!\nС уважением, Марк";
 
 /* Translators Note: 1 parameter indicating number of days left in users free trial */
 "upgrade_vc_you_have_n_days_remaining_fmt" = "У Вас осталось %ld дней пробного периода Pro версии";
@@ -2958,7 +2958,7 @@
 "storage_provider_status_syncing" = "Синхронизация...";
 
 /* Duplicate Item? */
-"browse_vc_duplicate_prompt_title" = "Дублировать элемент?";
+"browse_vc_duplicate_prompt_title" = "Подтвердите действие";
 
 /* Are you sure you want to duplicate this item? */
 "browse_vc_duplicate_prompt_message" = "Вы уверены, что хотите создать копию этого элемента?";
@@ -2985,7 +2985,7 @@
 "upgrade_vc_start_your_free_trial" = "90 дней пробный Pro";
 
 /* Free Trial - No subscription or commitment required!" */
-"upgrade_vc_start_your_free_trial_subtitle" = "Попробуйте все возможности версии Pro (без подписки, для запуска используется бесплатная встроенная покупка в приложении)";
+"upgrade_vc_start_your_free_trial_subtitle" = "Попробуйте все возможности Pro версии (без подписки, для запуска используется бесплатная встроенная покупка в приложении)";
 
 /* Free */
 "upgrade_vc_start_your_free_trial_price_free" = "Бесплатно";
@@ -3123,7 +3123,7 @@
 "browse_vc_audit_complete_message_new_issues_found_fmt" = "Найдено %ld новых проблем!";
 
 /* HIBP Disclaimer */
-"audit_hibp_warning_title" = "Отказ от ответственности HIBP";
+"audit_hibp_warning_title" = "Отказ от ответственности";
 
 /* I understand that my passwords will be sent over the web (HTTPS) to the 'Have I Been Pwned?' password checking service (using k-anonymity) and that I fully consent to this functionality. I also absolve Strongbox, Mark McGuill and Phoebe Code Limited of all liabilty for using this feature. */
 "audit_hibp_warning_message" = "Я понимаю, что мои пароли будут отправлены с помощью защищённого соединения HTTPS в «Have I been pwned?» - сервис проверки паролей (с использованием метода К-анонимизации), и даю согласие на использование этой функции. Я также снимаю ответственность со Strongbox, Mark McGuill и Phoebe Code Limited за использование данной функции.";
@@ -3271,3 +3271,51 @@
 
 /* Unexclude */
 "audit_excluded_items_vc_action_unclude" = "Отменить исключение";
+
+/* Share Last Crash Diagnostics? */
+"crash_diagnostics_share_last_title" = "Share Crash Diagnostics?";
+
+/* It looks like Strongbox had a crash last time. Would you be so kind as to share the diagnostics with Strongbox Support?\n\nPlease mail to support@strongboxsafe.com */
+"crash_diagnostics_share_last_message" = "It looks like Strongbox had a crash last time. Would you be so kind as to share the diagnostics with Strongbox Support?\n\nPlease mail to support@strongboxsafe.com";
+
+/* Share */
+"crash_diagnostics_share_action" = "Share";
+
+/* Copy to Clipboard */
+"crash_diagnostics_copy_action" = "Copy to Clipboard";
+
+/* PIN */
+"pin_entry_default_text" = "PIN";
+
+/* No Attachments */
+"file_attachments_view_controller_empty_attachments_text" = "No Attachments";
+
+/* KeePass 1 */
+"database_format_keepass1" = "KeePass 1";
+
+/* KeePass 2 (Legacy) */
+"database_format_keepass2_kdbx3_1" = "KeePass 2 (устаревший)";
+
+/* KeePass 2 */
+"database_format_keepass2_kdbx4" = "KeePass 2";
+
+/* Password Safe 3 */
+"database_format_password_safe" = "Password Safe 3";
+
+/* ***************** (Translators Note: No need to translate here - this is just to remove XCode warnings about untranslated strings) */
+"generic_masked_protected_field_text" = "*****************";
+
+/* Diceware (XKCD) */
+"password_gen_vc_mode_diceware_xkcd_title" = "Diceware (XKCD)";
+
+/* Strongbox: Unknown Database */
+"autofill_error_unknown_db_title" = "Strongbox: Unknown Database";
+
+/* This appears to be a reference to an older Strongbox database which can no longer be found. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill. */
+"autofill_error_unknown_db_message" = "This appears to be a reference to an older Strongbox database which can no longer be found. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill.";
+
+/* Strongbox: Error Locating Entry */
+"autofill_error_unknown_item_title" = "Strongbox: Error Locating Entry";
+
+/* Strongbox could not find this entry, it is possibly stale. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill. */
+"autofill_error_unknown_item_message" = "Strongbox could not find this entry, it is possibly stale. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill.";
