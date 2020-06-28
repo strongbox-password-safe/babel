@@ -511,7 +511,7 @@
 "db_management_biometric_unlock_fmt" = "Разблокировка %@";
 
 /* %@ Unlock (Pro Only) */
-"db_management_biometric_unlock_fmt_pro_only" = "Разблокировка %@ (только в Pro версии)";
+"db_management_biometric_unlock_fmt_pro_only" = "%@ (только в Pro версии)";
 
 /* Change Master Credentials */
 "db_management_change_master_credentials" = "Изменить мастер-ключ";
@@ -727,7 +727,7 @@
 "prefs_vc_delete_data_attempt_count" = "Количество неудачных попыток";
 
 /* Allow %@ ( Translators Note: 1st param is the name of biometric method, so: 'Allow Touch ID' or 'Allow Face ID')*/
-"prefs_vc_enable_biometric_fmt" = "Allow %@";
+"prefs_vc_enable_biometric_fmt" = "Разрешить %@";
 
 /* Please find Strongbox in the App Store and you can write a review there. Much appreciated!\n-Mark */
 "prefs_vc_info_cannot_open_app_store_message" = "Пожалуйста, оставьте отзыв о приложении Strongbox в App Store. Буду очень признателен!\n\nС уважением, Марк";
@@ -3322,3 +3322,6 @@
 
 /* Locating... */
 "generic_status_sp_locating_ellipsis" = "Поиск...";
+
+/* %@ Unlock (Translators Note: 1st param is 'Touch ID' or 'Face ID' - Used on the Upgrade, Freemium Onboarding/Welcome screen and the Free vs Pro Chart screen) */
+"generic_biometric_unlock_fmt" = "Разблокировка %@";
