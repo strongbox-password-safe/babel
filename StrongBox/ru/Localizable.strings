@@ -26,7 +26,7 @@
 "safes_vc_database_actions_sheet_title" = "Выберите действие";
 
 /* Button Title to Unset Quick Launch */
-"safes_vc_action_unset_as_quick_launch" = "Отключить быстрый запуск";
+"safes_vc_action_unset_as_quick_launch" = "Выключить быстрый запуск";
 
 /* Button Title to Set Quick Launch */
 "safes_vc_action_set_as_quick_launch" = "Включить быстрый запуск";
@@ -41,7 +41,7 @@
 "safes_vc_about_quick_launch_title" = "Быстрый запуск";
 
 /* Message about quick launch feature and asking to confirm yes or no */
-"safes_vc_about_setting_quick_launch_and_confirm" = "Включение функции быстрого запуска для базы данных означает, что Вам будет автоматически предложено разблокировать  базу данных, как только Вы запустите или повторно активируете Strongbox. Это сэкономит Вам одно драгоценное нажатие!\n\nВключить быстрый запуск для этой базы данных?";
+"safes_vc_about_setting_quick_launch_and_confirm" = "Функция быстрого запуска означает, что  база данных будет разблокирована автоматически, как только Вы запустите или повторно активируете Strongbox. Это сэкономит одно драгоценное нажатие!\n\nВключить быстрый запуск для этой базы данных?";
 
 /* Button title to Show Database in iOS Files App */
 "safes_vc_show_database_in_files_info" = "Отображение этой базы данных в приложении Файлы также сделает её пригодной для доступа через Finder на Вашем Mac. Однако, база данных больше не будет доступна для записи в меню автозаполнения. Это связано с ограничениями iOS.\n\nПримечание: Вы всегда можете отменить это действие";
@@ -56,10 +56,10 @@
 "safes_vc_could_not_change_storage_location_error" = "Не удалось изменить отображение в Файлах";
 
 /* informational message - made the file visible in iOS Files */
-"safes_vc_database_made_visible_in_files" = "Эта база данных теперь будет отображаться в приложении Файлы";
+"safes_vc_database_made_visible_in_files" = "База данных теперь будет отображаться в приложении Файлы";
 
 /* informational message - made the database fully autofillable */
-"safes_vc_database_made_fully_autofillable" = "Эта база данных была скрыта из приложения Файлы";
+"safes_vc_database_made_fully_autofillable" = "База данных была скрыта из приложения Файлы";
 
 /* information message = title changed storage mode */
 "safes_vc_local_storage_mode_changed" = "Отображение в Файлах изменено";
@@ -68,7 +68,7 @@
 "safes_vc_remove_icloud_databases_warning" = "Это удалит базу данных со всех Ваших устройств с поддержкой iCloud.\n\nВы действительно хотите удалить эту базу данных из Strongbox и iCloud?";
 
 /* are you sure you want to remove database prompt with format string on end */
-"safes_vc_are_you_sure_remove_database_fmt" = "Вы уверены, что хотите удалить эту базу данных из Strongbox? %@";
+"safes_vc_are_you_sure_remove_database_fmt" = "Вы действительно хотите удалить эту базу данных из Strongbox? %@";
 
 /* extra info appended to string about the underlying storage type */
 "safes_vc_extra_info_underlying_database" = "Примечание: Файл базы данных не будет удален";
@@ -105,7 +105,7 @@
 "safes_vc_copy_icloud_or_local" = "Скопировать в iCloud или на локальное устройство?";
 
 /* Question message: copy to iCloud or to Local */
-"safes_vc_copy_local_to_icloud" = "iCloud в настоящее время включен. Вы хотите скопировать эту базу данных в iCloud или предпочитаете оставить только на локальном устройстве?";
+"safes_vc_copy_local_to_icloud" = "Использование iCloud включено. Хотите скопировать эту базу данных в iCloud или предпочитаете оставить только на локальном устройстве?";
 
 /* Default button: Copy to Local */
 "safes_vc_copy_to_local" = "Оставить только на локальном устройстве";
@@ -117,7 +117,7 @@
 "safes_vc_error_importing_database" = "Ошибка при импорте базы данных";
 
 /* No comment provided by engineer. */
-"safes_vc_add_existing_database" = "Добавить имеющуюся базу данных";
+"safes_vc_add_existing_database" = "Добавить имеющуюся";
 
 /* No comment provided by engineer. */
 "safes_vc_new_database_advanced" = "Создать новую (расширенный)";
@@ -126,31 +126,31 @@
 "safes_vc_new_database_express" = "Создать новую (быстрый)";
 
 /* No comment provided by engineer. */
-"safes_vc_error_pin_incorrect_title" = "Неверный ПИН-код";
+"safes_vc_error_pin_incorrect_title" = "Неверный код-пароль";
 
 /* No comment provided by engineer. */
-"safes_vc_error_pin_incorrect_message" = "Это неверный ПИН-код.";
+"safes_vc_error_pin_incorrect_message" = "Это неверный код-пароль";
 
 /* iCloud no longer available */
-"safesvc_icloud_no_longer_available_title" = "iCloud больше не доступен";
+"safesvc_icloud_no_longer_available_title" = "iCloud недоступен";
 
 /* Some databases were removed from this device because iCloud has become unavailable, but they remain stored in iCloud. */
-"safesvc_icloud_no_longer_available_message" = "Некоторые базы данных были удалены с этого устройства, так как iCloud стал недоступен, но они остались в iCloud.";
+"safesvc_icloud_no_longer_available_message" = "Некоторые базы данных были удалены с этого устройства, т.к. iCloud стал недоступен, но они остались в iCloud.";
 
 /* You can now use iCloud with Strongbox. Should your current local databases be migrated to iCloud and available on all your devices? (NB: Your existing cloud databases will not be affected) */
-"safesvc_migrate_local_existing" = "Теперь можно использовать iCloud в Strongbox. Хотите перенести локальные базы данных в iCloud, чтобы сделать их доступными на всех Ваших устройствах? \nПримечание: имеющиеся базы данных в облаке не будут затронуты";
+"safesvc_migrate_local_existing" = "Теперь можно использовать iCloud в Strongbox. Хотите переместить локальные базы данных в iCloud, чтобы сделать их доступными на всех Ваших устройствах? \nПримечание: имеющиеся базы данных в облаке не будут затронуты";
 
 /* You can now use iCloud with Strongbox. Should your current local databases be migrated to iCloud and available on all your devices? */
-"safesvc_migrate_local_no_existing" = "Теперь можно использовать iCloud в Strongbox. Хотите перенести локальные базы данных в iCloud, чтобы сделать их доступными на всех Ваших устройствах?";
+"safesvc_migrate_local_no_existing" = "Теперь можно использовать iCloud в Strongbox. Хотите переместить локальные базы данных в iCloud, чтобы сделать их доступными на всех Ваших устройствах?";
 
 /* Would you like the option to use iCloud with Strongbox? (NB: Your existing cloud databases will not be affected) */
-"safesvc_use_icloud_question_existing" = "Хотите использовать iCloud в Strongbox?\nПримечание: существующие базы данных в облаке не будут затронуты";
+"safesvc_use_icloud_question_existing" = "Хотите использовать iCloud в Strongbox?\nПримечание: имеющиеся базы данных в облаке не будут затронуты";
 
 /* You can now use iCloud with Strongbox. Would you like to have your databases available on all your devices? */
 "safesvc_use_icloud_question_no_existing" = "Теперь можно использовать iCloud в Strongbox. Хотите сделать базы данных доступными на всех Ваших устройствах?";
 
 /* iCloud is Now Available */
-"safesvc_icloud_now_available_title" = "iCloud теперь доступен";
+"safesvc_icloud_now_available_title" = "iCloud доступен";
 
 /* Use iCloud */
 "safesvc_option_use_icloud" = "Использовать iCloud";
@@ -162,10 +162,10 @@
 "safesvc_icloud_available_title" = "iCloud доступен";
 
 /* Would you like to migrate your current local device databases to iCloud? */
-"safesvc_question_migrate_local_to_icloud" = "Хотите перенести текущие базы данных с локального устройства в iCloud?";
+"safesvc_question_migrate_local_to_icloud" = "Хотите переместить текущие базы данных с локального устройства в iCloud?";
 
 /* Migrate to iCloud */
-"safesvc_option_migrate_to_icloud" = "Перенести в iCloud";
+"safesvc_option_migrate_to_icloud" = "Переместить в iCloud";
 
 /* Keep Local */
 "safesvc_option_keep_local" = "Оставить на локальном устройстве";
@@ -210,16 +210,16 @@
 "safesvc_error_title_import_database_fmt" = "[%@] - неверная база данных";
 
 /* Edit or Copy? */
-"safesvc_import_database_prompt_title_edit_copy" = "Отредактировать или скопировать?";
+"safesvc_import_database_prompt_title_edit_copy" = "Открытие файла";
 
 /* Strongbox can attempt to edit this document in its current location and keep a reference or, if you'd prefer, Strongbox can just make a copy of this file for itself.\n\nWhich option would you like? */
-"safesvc_import_database_prompt_message" = "Strongbox может попытаться отредактировать этот документ в его текущем местоположении и сохранить ссылку или, если Вам будет удобнее, Strongbox может просто сделать копию этого файла для себя.\n\nКакой вариант Вы предпочитаете?";
+"safesvc_import_database_prompt_message" = "Strongbox попытается открыть документ в его текущем месте и сохранить ссылку или, если Вам будет удобнее, создать копию этого файла в приложении.\n\nВыберите действие ниже.";
 
 /* Edit in Place */
-"safesvc_option_edit_in_place" = "Изменить на месте";
+"safesvc_option_edit_in_place" = "Открыть документ";
 
 /* Make a Copy */
-"safesvc_option_make_a_copy" = "Сделать копию";
+"safesvc_option_make_a_copy" = "Создать копию";
 
 /* Update Existing Database? */
 "safesvc_update_existing_database_title" = "Обновить существующую базу данных?";
@@ -243,7 +243,7 @@
 "safesvc_copy_database_to_location_title" = "Скопировать в iCloud или на локальное устройство?";
 
 /* iCloud is currently enabled. Would you like to copy this database to iCloud now, or would you prefer to keep on your local device only? */
-"safesvc_copy_database_to_location_message" = "iCloud в настоящее время включен. Вы хотите скопировать эту базу данных в iCloud или предпочитаете оставить только на локальном устройстве?";
+"safesvc_copy_database_to_location_message" = "Использование iCloud включено. Хотите скопировать эту базу данных в iCloud или предпочитаете оставить только на локальном устройстве?";
 
 /* Copy to Local Device Only */
 "safesvc_copy_database_option_to_local" = "Оставить только на локальном устройстве";
@@ -324,16 +324,16 @@
 "browse_vc_action_set_icon" = "Установить значок";
 
 /* Are you sure you want to permanently delete these item(s)? */
-"browse_vc_are_you_sure_delete" = "Вы уверены, что хотите окончательно удалить эти элементы?";
+"browse_vc_are_you_sure_delete" = "Вы действительно хотите удалить эти элементы навсегда?";
 
 /* Are you sure you want to permanently delete '%@'? */
-"browse_vc_are_you_sure_delete_fmt" = "Вы уверены, что хотите удалить «%@» навсегда?";
+"browse_vc_are_you_sure_delete_fmt" = "Вы действительно хотите удалить «%@» навсегда?";
 
 /* Are you sure you want to send these item(s) to the Recycle Bin? */
-"browse_vc_are_you_sure_recycle" = "Вы уверены, что хотите отправить элемент(-ы) в корзину?";
+"browse_vc_are_you_sure_recycle" = "Вы действительно хотите отправить выбранные элементы в корзину?";
 
 /* Are you sure you want to send '%@' to the Recycle Bin? */
-"browse_vc_are_you_sure_recycle_fmt" = "Вы уверены, что хотите отправить «%@» в корзину?";
+"browse_vc_are_you_sure_recycle_fmt" = "Вы действительно хотите отправить «%@» в корзину?";
 
 /* Cannot create group */
 "browse_vc_cannot_create_group" = "Невозможно создать группу";
@@ -387,13 +387,13 @@
 "browse_vc_password_copied_fmt" = "Пароль «%@» скопирован";
 
 /*  (Read Only) */
-"browse_vc_read_only_suffix" = "(Только для чтения)";
+"browse_vc_read_only_suffix" = " (Только для чтения)";
 
 /* Rename Item */
-"browse_vc_rename_item" = "Переименовать элемент";
+"browse_vc_rename_item" = "Переименование группы";
 
 /* Please enter a new title for this item */
-"browse_vc_rename_item_enter_title" = "Пожалуйста, введите новое название для этого элемента";
+"browse_vc_rename_item_enter_title" = "Пожалуйста, введите новое название для группы";
 
 /* All Fields */
 "browse_vc_search_scope_all" = "Все";
@@ -430,7 +430,7 @@
 "browse_vc_view_as_totp_no_totps" = "Просмотр в виде TOTP-списка (записей, содержащих TOTP, не найдено)";
 
 /* No matching entries found */
-"browse_vc_view_search_no_matches" = "Подходящих записей не найдено";
+"browse_vc_view_search_no_matches" = "Записей не найдено";
 
 /* Show/Hide Password */
 "casg_accessibility_label_show_hide_pw" = "Показать / скрыть пароль";
@@ -487,7 +487,7 @@
 "casg_set_master_password" = "Установить пароль";
 
 /* Set Master Credentials */
-"casg_set_master_credentials" = "Установить мастер-ключ";
+"casg_set_master_credentials" = "Мастер-ключ";
 
 /* My Database */
 "casg_suggested_database_name_default" = "Моя база данных";
@@ -505,7 +505,7 @@
 "casg_text_label_key_selected_key_file" = "Выбранный файл-ключ";
 
 /* Unlock */
-"casg_unlock_action" = "Разблокировать";
+"casg_unlock_action" = "Разблок.";
 
 /* %@ Unlock */
 "db_management_biometric_unlock_fmt" = "Разблокировка %@";
@@ -526,7 +526,7 @@
 "db_management_credentials_changed" = "Мастер-ключ изменён";
 
 /* Are you sure you want to do this? */
-"db_management_disable_autofill_yesno_message" = "Вы уверены, что хотите отключить автозаполнение?";
+"db_management_disable_autofill_yesno_message" = "Вы действительно хотите отключить автозаполнение?";
 
 /* Disable AutoFill? */
 "db_management_disable_autofill_yesno_title" = "Отключение автозаполнения";
@@ -541,10 +541,10 @@
 "db_management_disable_biometric_question_fmt" = "Отключить %@?";
 
 /* Disabling %@ for this database will remove the securely stored password and you will have to enter it again. Are you sure you want to do this? */
-"db_management_disable_biometric_warning_fmt" = "Отключив %@ для этой базы данных, надёжно сохраненный пароль будет удалён и Вам придется вводить его снова. Вы уверены, что хотите это сделать?";
+"db_management_disable_biometric_warning_fmt" = "Отключив %@ для этой базы данных, надёжно сохраненный пароль будет удалён и Вам придется вводить его снова. Вы действительно хотите это сделать?";
 
 /* Are you sure you want to disable %@ for this database? */
-"db_management_disable_biomtric_simple_fmt" = "Вы уверены, что хотите отключить %@ для этой базы данных?";
+"db_management_disable_biomtric_simple_fmt" = "Вы действительно хотите отключить %@ для этой базы данных?";
 
 /* AutoFill Disabled */
 "db_management_disable_done" = "Автозаполнение отключено";
@@ -553,7 +553,7 @@
 "db_management_disable_offline_done" = "Офлайн режим отключен";
 
 /* Disabling offline access for this database will remove the offline cache and you will not be able to access the database when offline. Are you sure you want to do this? */
-"db_management_disable_offline_yesno_message" = "Отключение офлайн режима этой базы данных приведёт к удалению кэша, и Вы не сможете получить доступ к базе данных в офлайн режиме. Вы уверены, что хотите это сделать?";
+"db_management_disable_offline_yesno_message" = "Отключение офлайн режима этой базы данных приведёт к удалению кэша, и Вы не сможете получить доступ к базе данных в офлайн режиме. Вы действительно хотите это сделать?";
 
 /* Disable Offline Access? */
 "db_management_disable_offline_yesno_title" = "Отключить офлайн доступ?";
@@ -577,10 +577,10 @@
 "db_management_password_changed" = "Пароль изменён";
 
 /* You must close and reopen this database for Read-Only changes to take effect. */
-"db_management_reopen_required_message" = "Вы должны закрыть и снова открыть эту базу данных, чтобы изменения доступа «только для чтения» вступили в силу.";
+"db_management_reopen_required_message" = "Вам необходимо закрыть и снова открыть эту базу данных, чтобы изменения режима доступа вступили в силу.";
 
 /* Re-Open Required */
-"db_management_reopen_required_title" = "Требуется повторное открытие";
+"db_management_reopen_required_title" = "Предупреждение";
 
 /* <None> */
 "db_management_statistics_none" = "<Отсутствует>";
@@ -616,7 +616,7 @@
 "item_details_problem_saving" = "Проблема с сохранением";
 
 /*  (Read Only) */
-"item_details_read_only_suffix" = "(Только для чтения)";
+"item_details_read_only_suffix" = " (Только для чтения)";
 
 /* Attachments */
 "item_details_section_header_attachments" = "Вложения";
@@ -670,7 +670,7 @@
 "item_details_totp_copied" = "Одноразовый пароль скопирован";
 
 /* Are you sure you want to discard all your changes? */
-"item_details_vc_are_you_sure_discard_changes" = "Вы уверены, что хотите отменить все свои изменения?";
+"item_details_vc_are_you_sure_discard_changes" = "Вы действительно хотите отменить все свои изменения?";
 
 /* Discard Changes? */
 "item_details_vc_discard_changes" = "Отмена изменений";
@@ -679,10 +679,10 @@
 "item_details_vc_new_item_title" = "Без названия";
 
 /* Are you sure you want to delete this historical item? */
-"keepass_history_are_you_sure_delete_message" = "Вы уверены, что хотите удалить эту запись из истории?";
+"keepass_history_are_you_sure_delete_message" = "Вы действительно хотите удалить эту запись из истории?";
 
 /* Are you sure you want to restore this entry to this historical state? */
-"keepass_history_are_you_sure_restore_message" = "Вы уверены, что хотите восстановить элемент из этой записи в истории?";
+"keepass_history_are_you_sure_restore_message" = "Вы действительно хотите восстановить элемент из этой записи в истории?";
 
 /* App Lock Delay */
 "prefs_vc_app_lock_delay" = "Задержка блокировки приложения";
@@ -700,7 +700,7 @@
 "prefs_vc_auto_lock_database_delay" = "Задержка автоблокировки базы данных";
 
 /* This will clear all securely stored master passwords (for all databases) used by biometric unlock. Are you sure? */
-"prefs_vc_clear_biometrics_yesno_message" = "Это очистит все надёжно хранимые пароли (для всех баз данных), использующиеся для биометрической разблокировки. Вы уверены?";
+"prefs_vc_clear_biometrics_yesno_message" = "Это очистит сохранённые пароли (для всех баз данных), использующиеся для биометрической разблокировки. Хотите продолжить?";
 
 /* Clear Biometrics */
 "prefs_vc_clear_biometrics_yesno_title" = "Очистить биометрию";
@@ -709,10 +709,10 @@
 "prefs_vc_clear_clipboard_delay" = "Задержка";
 
 /* This will clear all securely stored master passwords (for all databases) used for PIN Code unlock. Are you sure? */
-"prefs_vc_clear_pin_codes_yesno_message" = "Это очистит все надёжно хранимые пароли (для всех баз данных), использующиеся для разблокировки ПИН-кодом. Вы уверены?";
+"prefs_vc_clear_pin_codes_yesno_message" = "Сохранённые пароли для всех баз данных, использующиеся для разблокировки код-паролем, будут очищены. Хотите продолжить?";
 
 /* Clear PIN Codes */
-"prefs_vc_clear_pin_codes_yesno_title" = "Очистить ПИН-коды";
+"prefs_vc_clear_pin_codes_yesno_title" = "Очистка код-паролей";
 
 /* Sessions (%d) */
 "prefs_vc_cloud_sessions_count_fmt" = "Сессий (%d)";
@@ -721,13 +721,13 @@
 "prefs_vc_cloud_sessions_count_none" = "Сессии отсутствуют";
 
 /* Confirm PIN */
-"prefs_vc_confirm_pin" = "Подтвердить ПИН-код";
+"prefs_vc_confirm_pin" = "Подтвердить код-пароль";
 
 /* Delete Data Failed Attempt Count */
 "prefs_vc_delete_data_attempt_count" = "Количество неудачных попыток";
 
-/* Enable %@ */
-"prefs_vc_enable_biometric_fmt" = "Включить %@";
+/* Allow %@ ( Translators Note: 1st param is the name of biometric method, so: 'Allow Touch ID' or 'Allow Face ID')*/
+"prefs_vc_enable_biometric_fmt" = "Allow %@";
 
 /* Please find Strongbox in the App Store and you can write a review there. Much appreciated!\n-Mark */
 "prefs_vc_info_cannot_open_app_store_message" = "Пожалуйста, оставьте отзыв о приложении Strongbox в App Store. Буду очень признателен!\n\nС уважением, Марк";
@@ -754,10 +754,10 @@
 "prefs_vc_master_password_icloud_migration_yesno_warning_title" = "Предупреждение";
 
 /* Your PINs do not match. */
-"prefs_vc_pins_dont_match_warning_message" = "Ваши ПИН-коды не совпадают.";
+"prefs_vc_pins_dont_match_warning_message" = "Код-пароли не совпадают";
 
 /* PINs do not match */
-"prefs_vc_pins_dont_match_warning_title" = "ПИН-коды не совпадают";
+"prefs_vc_pins_dont_match_warning_title" = "Код-пароли не совпадают";
 
 /* Use iCloud */
 "prefs_vc_use_icloud_action" = "Использовать iCloud";
@@ -796,10 +796,10 @@
 "sspc_ios_files_storage_location" = "Файлы";
 
 /* Since a local database is only stored on this device, any loss of this device will lead to the loss of all passwords stored within this database. You may want to consider using a cloud storage provider, such as the ones supported by Strongbox to avoid catastrophic data loss.\n\nWould you still like to proceed with creating a local device database? */
-"sspc_local_device_storage_warning_message" = "Поскольку локальная база данных хранится только на этом устройстве, потеря этого устройства приведет к потере всех паролей, хранящихся в этой базе данных. Возможно, Вы захотите использовать сервис облачного хранилища, поддерживаемого Strongbox, чтобы избежать потери данных.\n\nПродолжить создание базы данных на локальном устройстве?";
+"sspc_local_device_storage_warning_message" = "Т.к. локальная база данных хранится только на этом устройстве, потеря этого устройства приведет к потере всех паролей, хранящихся в этой базе данных. Подумайте об использовании облачного сервиса, поддерживаемого Strongbox, чтобы избежать потери данных.\n\nПродолжить создание базы данных на локальном устройстве?";
 
 /* Local Device Database Caveat */
-"sspc_local_device_storage_warning_title" = "Предостережение о хранении базы данных на локальном устройстве";
+"sspc_local_device_storage_warning_title" = "Предупреждение";
 
 /* Please Enter the URL of the Database File. */
 "sspc_manual_import_enter_url_message" = "Пожалуйста, введите ссылку к файлу базы данных";
@@ -814,10 +814,10 @@
 "sspc_manual_import_placeholder_url" = "URL";
 
 /* Select where your existing database is stored */
-"sspc_select_where_existing_stored" = "Выберите, где хранится Ваша имеющаяся база данных";
+"sspc_select_where_existing_stored" = "Укажите, где хранится Ваша имеющаяся база данных";
 
 /* Select where you would like to store your new database */
-"sspc_select_where_store_new" = "Выберите, где Вы будете хранить новую базу данных";
+"sspc_select_where_store_new" = "Укажите, где Вы будете хранить новую базу данных";
 
 /* 3 Months */
 "upgrade_vc_2monthly_subscription_title" = "3 месяца";
@@ -862,7 +862,7 @@
 "upgrade_vc_progress_restoring" = "Восстановление...";
 
 /* Upgrade could not be restored from previous purchase. Are you sure you have purchased this item? */
-"upgrade_vc_restore_unsuccessful_message" = "Улучшение не может быть восстановлено из предыдущей покупки. Вы уверены, что приобретали этот элемент?";
+"upgrade_vc_restore_unsuccessful_message" = "Улучшение не может быть восстановлено из предыдущей покупки. Вы действительно приобретали этот элемент?";
 
 /* Restoration Unsuccessful */
 "upgrade_vc_restore_unsuccessful_title" = "Восстановление не выполнено";
@@ -904,7 +904,7 @@
 "databases_preferences_subtitle_field_name_last_cached_data" = "Дата кэша";
 
 /* It looks like this app is no longer entitled to all the Pro features. These will be limited now. If you believe this is incorrect, please get in touch with support@strongboxsafe.com to get some help with this. Please include your purchase receipt. */
-"upgrade_mgr_downgrade_message" = "Похоже, это приложение больше не имеет прав на использование функционала Pro версии. Сейчас будут введены ограничения. Если Вы считаете, что это неверно, свяжитесь с support@strongboxsafe.com для получения помощи. Пожалуйста, приложите квитанцию о покупке.";
+"upgrade_mgr_downgrade_message" = "Приложение больше не может использовать функционал Pro версии. Работа некоторых функций будет ограничена. Если Вы считаете, что это неверно, свяжитесь с support@strongboxsafe.com для получения помощи. Пожалуйста, приложите квитанцию о покупке.";
 
 /* Strongbox Downgrade */
 "upgrade_mgr_downgrade_title" = "Даунгрейд Strongbox";
@@ -974,22 +974,22 @@
 "export_vc_error_exporting" = "Ошибка экспорта";
 
 /* Turn Convenience PIN Off */
-"pins_config_vc_button_title_turn_convenience_pin_off" = "Отключить ПИН-код";
+"pins_config_vc_button_title_turn_convenience_pin_off" = "Выключить код-пароль";
 
 /* Turn Convenience PIN On */
-"pins_config_vc_button_title_turn_convenience_pin_on" = "Включить ПИН-код";
+"pins_config_vc_button_title_turn_convenience_pin_on" = "Включить код-пароль";
 
 /* Turn Duress PIN Off */
-"pins_config_vc_button_title_turn_duress_pin_off" = "Выключить принудительный ПИН-код";
+"pins_config_vc_button_title_turn_duress_pin_off" = "Выключить принудит. код-пароль";
 
 /* Turn Duress PIN On */
-"pins_config_vc_button_title_turn_duress_pin_on" = "Включить принудительный ПИН-код";
+"pins_config_vc_button_title_turn_duress_pin_on" = "Включить принуд. код-пароль";
 
 /* Delete Database */
 "pins_config_vc_label_delete_database" = "Удалить базу данных";
 
 /* Local Device database will be permanently deleted. */
-"pins_config_vc_label_delete_database_local_permanent" = "База данных локального устройства будет удалена без возможности восстановления.";
+"pins_config_vc_label_delete_database_local_permanent" = "Локальная база данных будет удалена без возможности восстановления.";
 
 /* iCloud database will be permanently deleted from iCloud. */
 "pins_config_vc_label_delete_database_icloud_permanent" = "База данных iCloud будет навсегда удалена из iCloud.";
@@ -1001,25 +1001,25 @@
 "pins_config_vc_label_remove_database_warning" = "Примечание: Файл останется во внешнем хранилище";
 
 /* PIN Codes (Pro Feature Only) */
-"pins_config_vc_title_pro_only" = "ПИН-коды (только в Pro версии)";
+"pins_config_vc_title_pro_only" = "Код-пароли (только в Pro версии)";
 
 /* Turning the PIN Off for this database will remove the securely stored password and you will have to enter it again. Are you sure you want to do this? */
-"pins_config_vc_turn_pin_off_warning" = "Отключение ПИН-кода для этой базы данных удалит надёжно сохранённый главный пароль, и Вам придется вводить его снова. Вы уверены, что хотите продолжить?";
+"pins_config_vc_turn_pin_off_warning" = "Выключение код-пароля для этой базы данных очистит главный пароль и Вам придется заново вводить его. Хотите продолжить?";
 
 /* Are you sure you want to turn off the PIN for this database? */
-"pins_config_vc_turn_pin_off_confirm" = "Вы уверены, что хотите отключить ПИН-код для этой базы данных?";
+"pins_config_vc_turn_pin_off_confirm" = "Вы действительно хотите выключить код-пароль для этой базы данных?";
 
 /* Turn off PIN? */
-"pins_config_vc_turn_pin_off_prompt_title" = "Отключить ПИН-код?";
+"pins_config_vc_turn_pin_off_prompt_title" = "Выключение код-пароля";
 
 /* Enter Duress PIN */
-"pins_config_vc_enter_duress_pin" = "Введите принудительный ПИН-код";
+"pins_config_vc_enter_duress_pin" = "Принуд. код-пароль";
 
 /* PIN Conflict */
-"pins_config_vc_error_pin_conflict_title" = "Конфликт ПИН-кодов";
+"pins_config_vc_error_pin_conflict_title" = "Конфликт код-паролей";
 
 /* Your Convenience PIN conflicts with your Duress PIN. Please select another. */
-"pins_config_vc_error_pin_conflict_message" = "Ваш ПИН-код конфликтует или различается в длине с Вашим принудительным ПИН-кодом. Пожалуйста, выберите другой, нужной длины.";
+"pins_config_vc_error_pin_conflict_message" = "Код-пароль конфликтует или различается в длине с принудительным код-паролем. Пожалуйста, выберите другой, нужной длины.";
 
 /* Warning */
 "pins_config_vc_warn_remove_database_title" = "Предупреждение";
@@ -1049,13 +1049,13 @@
 "key_files_vc_one_time_key_file_source_option_files" = "Файлы";
 
 /* Photo Library... */
-"key_files_vc_one_time_key_file_source_option_photos" = "Фотогалерея";
+"key_files_vc_one_time_key_file_source_option_photos" = "Медиатека";
 
 /* Photo Library Unavailable */
-"key_files_vc_error_photos_unavailable_title" = "Фотогалерея недоступна";
+"key_files_vc_error_photos_unavailable_title" = "Медиатека недоступна";
 
 /* Could not access Photo Library. Does Strongbox have Permission? */
-"key_files_vc_error_photos_unavailable_message" = "Не удалось получить доступ к фотогалерее. Настроены ли права доступа?";
+"key_files_vc_error_photos_unavailable_message" = "Не удалось получить доступ к медиатеке. Настроены ли права доступа?";
 
 /* Error Reading
    There was an error reading the Key File */
@@ -1071,7 +1071,7 @@
 "key_files_vc_error_file_already_exists_message" = "Файл с таким именем уже существует в папке файл-ключей";
 
 /* Imported Key Files (Auto-Fill Enabled) */
-"key_files_vc_section_header_imported" = "Импортированные файл-ключи (автозаполнение включено)";
+"key_files_vc_section_header_imported" = "Импортированные (автозаполнение включено)";
 
 /* Application Local Files */
 "key_files_vc_section_header_local" = "Папка документов (автозаполнение не поддерживается)";
@@ -1107,7 +1107,7 @@
 "pw_history_vc_prompt_disable_history_title" = "Отключить историю?";
 
 /* Are you sure you want to disable history? This will clear previous passwords. */
-"pw_history_vc_prompt_disable_history_message" = "Вы уверены, что хотите отключить историю? Это очистит предыдущие пароли.";
+"pw_history_vc_prompt_disable_history_message" = "Вы действительно хотите отключить историю? Это очистит предыдущие пароли.";
 
 /* Problem Saving Database */
 "pw_history_vc_error_problem_saving" = "Проблема при сохранении базы данных";
@@ -1137,7 +1137,7 @@
 "add_attachment_vc_prompt_title" = "Расположение вложения";
 
 /* Photos */
-"add_attachment_vc_prompt_source_option_photos" = "Фото";
+"add_attachment_vc_prompt_source_option_photos" = "Медиатека";
 
 /* Camera */
 "add_attachment_vc_prompt_source_option_camera" = "Камера";
@@ -1152,7 +1152,7 @@
 "add_attachment_vc_error_source_unavailable_camera" = "Strongbox не может получить доступ к камере. Настроены ли права доступа?";
 
 /* Strongbox could not access photos. Does it have permission? */
-"add_attachment_vc_error_source_unavailable_photos" = "Strongbox не удалось получить доступ к фотографиям. Настроены ли права доступа?";
+"add_attachment_vc_error_source_unavailable_photos" = "Strongbox не удалось получить доступ к медиатеке. Настроены ли права доступа?";
 
 /* Error Reading */
 "add_attachment_vc_error_reading_title" = "Ошибка чтения";
@@ -1170,7 +1170,7 @@
 "add_attachment_vc_large_file_analyzing_progress_title" = "Анализ изображения...";
 
 /* This is a rather large image which could negatively affect the performance of Strongbox, and significantly slow down network synchronisation times. Would you like to rescale this image to one of the streamlined options below? */
-"add_attachment_vc_large_image_message_rescale" = "Это довольно большое изображение, которое может негативно повлиять на производительность Strongbox и значительно замедлить сетевую синхронизацию. Хотели бы Вы изменить масштаб этого изображения до одного из оптимизированных вариантов, представленных ниже?";
+"add_attachment_vc_large_image_message_rescale" = "Это довольно большое изображение, которое может негативно повлиять на производительность Strongbox и значительно замедлить сетевую синхронизацию. Хотите изменить масштаб этого изображения до одного из оптимизированных вариантов, представленных ниже?";
 
 /* This is a rather large image which could negatively affect the performance of Strongbox, and significantly slow down network synchronisation times. Is there a smaller version you could use? */
 "add_attachment_vc_large_image_message" = "Это довольно большое изображение, которое может негативно повлиять на производительность Strongbox и значительно замедлить сетевую синхронизацию. Есть ли уменьшенная версия, которую Вы могли бы использовать?";
@@ -1206,13 +1206,13 @@
 "set_icon_vc_select_icon_source_title" = "Выбор источника";
 
 /* Select the source of the icon you would like to use for this entry */
-"set_icon_vc_select_icon_source_message" = "Выберите источник значков, который Вы хотели бы использовать для этой записи";
+"set_icon_vc_select_icon_source_message" = "Выберите источник значков, который Вы хотите использовать";
 
 /* KeePass & Database Icon Set */
 "set_icon_vc_icon_source_keepass_set" = "Набор значков KeePass и этой базы данных";
 
 /* Media Library */
-"set_icon_vc_icon_source_media_libary" = "Фотогалерея";
+"set_icon_vc_icon_source_media_libary" = "Медиатека";
 
 /* Download FavIcon */
 "set_icon_vc_icon_source_download_favicon" = "Скачать значок сайта";
@@ -1233,7 +1233,7 @@
 "set_icon_vc_image_src_unavailable_title" = "Источник изображения недоступен";
 
 /* Could not access photos source. */
-"set_icon_vc_image_src_photos_unavailable_message" = "Не удалось получить доступ к фотографиям.";
+"set_icon_vc_image_src_photos_unavailable_message" = "Не удалось получить доступ к медиатеке.";
 
 /* Reading Data... */
 "set_icon_vc_progress_reading_data" = "Считывание информации...";
@@ -1359,7 +1359,7 @@
 "entry_defaults_vc_prompt_custom_title" = "Настройка значения";
 
 /* Please enter a new custom default for this field */
-"entry_defaults_vc_prompt_custom_message" = "Пожалуйста, введите новое значение для этого поля, которое будет использоваться по умолчанию";
+"entry_defaults_vc_prompt_custom_message" = "Пожалуйста, введите новое значение, которое будет использоваться по умолчанию";
 
 /* Database File Select Required */
 "open_sequence_prompt_database_reselect_required_title" = "Необходимо выбрать файл базы данных";
@@ -1371,22 +1371,22 @@
 "open_sequence_pin_attempts_remaining_fmt" = "Осталось %d попыток";
 
 /* Too Many Incorrect PINs */
-"open_sequence_prompt_too_many_incorrect_pins_title" = "Неверный ПИН-код";
+"open_sequence_prompt_too_many_incorrect_pins_title" = "Неверный код-пароль";
 
 /* You have entered the wrong PIN too many times. PIN Unlock is now disabled, and you must enter the master password to unlock this database. */
-"open_sequence_prompt_too_many_incorrect_pins_message" = "Неверный ПИН-код был введён слишком много раз. Разблокировка по ПИН-коду отключена и теперь Вы должны ввести пароль, чтобы разблокировать эту базу данных.";
+"open_sequence_prompt_too_many_incorrect_pins_message" = "Неверный код-пароль был введён слишком много раз. Разблокировка по код-паролю отключена и Вам необходимо ввести пароль вручную, чтобы разблокировать эту базу данных.";
 
 /* There was a technical error opening the database. */
 "open_sequence_duress_technical_error_message" = "При открытии базы данных произошла техническая ошибка.";
 
 /* Technical Issue */
-"open_sequence_duress_technical_error_title" = "Техническая проблема";
+"open_sequence_duress_technical_error_title" = "Техническая ошибка";
 
 /* Identify to Unlock Database */
 "open_sequence_biometric_unlock_prompt_title" = "Идентифицируйтесь, чтобы разблокировать базу данных";
 
 /* Unlock Manually... */
-"open_sequence_biometric_unlock_fallback" = "Разблокировать вручную...";
+"open_sequence_biometric_unlock_fallback" = "Разблокировать вручную";
 
 /* %@ Failed */
 "open_sequence_biometric_unlock_warn_failed_title_fmt" = "Ошибка %@";
@@ -1416,7 +1416,7 @@
 "open_sequence_yesno_use_offline_cache_no_try_connect_option" = "Нет, пытаться подключиться";
 
 /* There was a problem reading the database on %@. would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ */
-"open_sequence_storage_unreachable_open_offline_instead_fmt" = "Ошибка при чтении базы данных в %@. Если это происходит повторно, попробуйте удалить и заново добавить базу данных. Хотите использовать доступный только для чтения кэш базы данных?\n\nДата кэша: %@";
+"open_sequence_storage_unreachable_open_offline_instead_fmt" = "Ошибка при чтении данных в %@. Если это происходит повторно, попробуйте удалить и заново добавить базу данных. Хотите сейчас использовать доступный только для чтения кэш базы данных?\n\nДата кэша: %@";
 
 /* Could not open database
    There was a problem opening the database. */
@@ -1426,7 +1426,7 @@
 "open_sequence_autofill_creash_likely_title" = "Возможен сбой автозаполнения";
 
 /* Your database has encryption settings that may cause iOS Password Auto Fill extensions to be terminated due to excessive resource consumption. This will mean Auto Fill appears not to work. Unfortunately this is an Apple imposed limit. You could consider reducing the amount of resources consumed by your encryption settings (Memory in particular with Argon2 to below 64MB). */
-"open_sequence_autofill_creash_likely_message" = "Размер базы данных слишком большой или имеет настройки шифрования, которые могут привести к сбою автозаполнения пароля iOS из-за чрезмерного потребления ресурсов.\nБудет казаться, что автозаполнение не работает. К сожалению, это ограничение системы, наложенное компанией Apple.\nПопробуйте уменьшить размер файла или изменить количество потребляемых ресурсов (уменьшить потребление памяти с Argon2 до 64 МБ).";
+"open_sequence_autofill_creash_likely_message" = "Размер базы данных слишком большой или имеет настройки шифрования, которые могут привести к сбою в работе функции автозаполнения из-за чрезмерного потребления ресурсов.\nВозможно, что автозаполнение не будет работать. К сожалению, это ограничение системы, наложенное компанией Apple.\nПопробуйте уменьшить размер файла или изменить количество потребляемых ресурсов (уменьшить объём памяти для Argon2 до 64 МБ).";
 
 /* No Key File */
 "key_files_vc_no_key_file" = "Без файл-ключа";
@@ -1444,25 +1444,25 @@
 "open_sequence_yesno_set_quick_launch_title" = "Быстрый запуск";
 
 /* Would you like to use this as your Quick Launch database? Quick Launch means you will get prompted immediately to unlock when you open Strongbox, saving you a precious tap. */
-"open_sequence_yesno_set_quick_launch_message" = "Вы хотите использовать быстрый запуск для этой базы данных? Быстрый запуск означает, что Вам сразу же будет предложено разблокировать базу данных при открытии Strongbox, что сэкономит Вам дополнительное нажатие.";
+"open_sequence_yesno_set_quick_launch_message" = "Быстрый запуск означает, что Вам сразу же будет предложено разблокировать базу данных при открытии Strongbox, что сэкономит Вам одно дополнительное нажатие. Хотите использовать быстрый запуск для этой базы данных?";
 
 /* Convenience Unlock: Use %@ or PIN Code in Future? */
 "open_sequence_prompt_use_convenience_both_title_fmt" = "Быстрая разблокировка";
 
 /* You can use either %@ or a convenience PIN Code to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use one of these methods, please select from below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
-"open_sequence_prompt_use_convenience_both_message_fmt" = "Вы можете использовать %@ или ПИН-код, чтобы разблокировать эту базу данных. Несмотря на удобство, безопасность базы данных на этом устройстве может снизиться. Выберите один из этих способов или нажмите «Нет», чтобы продолжить использование своего пароля.\n\nВажно: Вы ВСЕГДА должны помнить свой пароль";
+"open_sequence_prompt_use_convenience_both_message_fmt" = "Вы можете использовать %@ или код-пароль, чтобы разблокировать эту базу данных. Несмотря на удобство, безопасность базы данных на этом устройстве может снизиться. Выберите один из этих способов или нажмите «Нет», чтобы продолжить использование своего пароля.\n\nВажно: Вы ВСЕГДА должны помнить свой пароль";
 
 /* Convenience Unlock: Use %@ to Unlock in Future? */
-"open_sequence_prompt_use_convenience_bio_title_fmt" = "Быстрая разблокировка: использовать %@ для разблокировки в будущем?";
+"open_sequence_prompt_use_convenience_bio_title_fmt" = "Быстрая разблокировка";
 
 /* You can use %@ to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use this then please select it below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
-"open_sequence_prompt_use_convenience_bio_message_fmt" = "Вы можете использовать %@, чтобы разблокировать эту базу данных. Несмотря на удобство, безопасность базы данных на этом устройстве может снизиться. Если Вы хотите использовать этот способ, выберите ниже или выберите «Нет», чтобы продолжить использование своего пароля.\n\n*Внимание! Вы ВСЕГДА должны помнить свой пароль";
+"open_sequence_prompt_use_convenience_bio_message_fmt" = "Вы можете использовать %@, чтобы разблокировать эту базу данных. Несмотря на удобство, безопасность базы данных на этом устройстве может снизиться. Если Вы хотите использовать этот способ, выберите ниже или выберите «Нет», чтобы продолжить использование своего пароля.\n\nВажно: Вы ВСЕГДА должны помнить свой пароль";
 
 /* Convenience Unlock: Use a PIN Code to Unlock in Future? */
-"open_sequence_prompt_use_convenience_pin_title" = "Быстрая разблокировка: использовать ПИН-код для разблокировки в будущем?";
+"open_sequence_prompt_use_convenience_pin_title" = "Быстрая разблокировка";
 
 /* You can use a convenience PIN Code to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use this then please select it below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
-"open_sequence_prompt_use_convenience_pin_message" = "Вы можете использовать ПИН-код, чтобы разблокировать эту базу данных. Несмотря на удобство, безопасность базы данных на этом устройстве может снизиться. Если Вы хотите использовать этот способ, выберите ниже или выберите «Нет», чтобы продолжить использование своего пароля.\n\n*Внимание! Вы ВСЕГДА должны помнить свой пароль";
+"open_sequence_prompt_use_convenience_pin_message" = "Вы можете использовать код-пароль, чтобы разблокировать эту базу данных. Несмотря на удобство, безопасность базы данных на этом устройстве может снизиться. Выберите ниже, если хотите использовать этот способ или выберите «Нет», чтобы продолжить использование своего пароля.\n\nВажно: Вы ВСЕГДА должны помнить свой пароль";
 
 /* \n\nNB: Convenience Unlock is a Pro feature */
 "open_sequence_append_convenience_pro_warning" = "\n\nПримечание: Быстрая разблокировка - это функция Pro версии";
@@ -1471,16 +1471,16 @@
 "open_sequence_prompt_use_convenience_use_bio_fmt" = "Использовать %@";
 
 /* Use a PIN Code... */
-"open_sequence_prompt_use_convenience_use_pin" = "Использовать ПИН-код";
+"open_sequence_prompt_use_convenience_use_pin" = "Использовать код-пароль";
 
 /* PIN Conflict */
-"open_sequence_warn_pin_conflict_title" = "ПИН-коды совпадают";
+"open_sequence_warn_pin_conflict_title" = "Код-пароли совпадают";
 
 /* Your Convenience PIN conflicts with your Duress PIN. Please configure in Database Settings */
-"open_sequence_warn_pin_conflict_message" = "Ваш ПИН-код совпадает с Вашим принудительным ПИН-кодом. Пожалуйста, выберите другой.";
+"open_sequence_warn_pin_conflict_message" = "Код-пароль совпадает с принудительным код-паролем. Пожалуйста, выберите другой.";
 
 /* Use Offline Cache? */
-"open_sequence_yesno_use_offline_cache_title" = "Использовать кэш?";
+"open_sequence_yesno_use_offline_cache_title" = "Использование кэша";
 
 /* Invalid Database - [%@] */
 "open_sequence_invalid_database_filename_fmt" = "Неверная база данных - [%@]";
@@ -1597,7 +1597,7 @@
 "cloud_sessions_prompt_signout_google_title" = "Выйти из Google Диска?";
 
 /* Are you sure you want to sign out of Google Drive? */
-"cloud_sessions_prompt_signout_google_message" = "Вы уверены, что хотите выйти из Google Диска?";
+"cloud_sessions_prompt_signout_google_message" = "Вы действительно хотите выйти из Google Диска?";
 
 /* Sign Out Successful */
 "cloud_sessions_prompt_google_signout_success_title" = "Выход успешен";
@@ -1609,7 +1609,7 @@
 "cloud_sessions_prompt_unlink_dropbox_title" = "Отсоединить Dropbox?";
 
 /* Are you sure you want to unlink Strongbox from Dropbox? */
-"cloud_sessions_prompt_unlink_dropbox_message" = "Вы уверены, что хотите отсоединить Strongbox от Dropbox?";
+"cloud_sessions_prompt_unlink_dropbox_message" = "Вы действительно хотите отсоединить Strongbox от Dropbox?";
 
 /* Unlink Successful */
 "cloud_sessions_prompt_dropbox_unlink_success_title" = "Отсоединение успешно";
@@ -1621,7 +1621,7 @@
 "cloud_sessions_prompt_signout_onedrive_title" = "Выйти из OneDrive?";
 
 /* Are you sure you want to sign out of OneDrive? */
-"cloud_sessions_prompt_signout_onedrive_message" = "Вы уверены, что хотите выйти из OneDrive?";
+"cloud_sessions_prompt_signout_onedrive_message" = "Вы действительно хотите выйти из OneDrive?";
 
 /* Signout Successful */
 "cloud_sessions_prompt_onedrive_signout_success_title" = "Выход успешен";
@@ -1861,19 +1861,19 @@
 "database_metadata_field_argon2_memory" = "Память Argon2";
 
 /* Are you sure you want to Remove this backup? */
-"backup_vc_are_you_sure_remove" = "Вы уверены, что хотите удалить эту резервную копию?";
+"backup_vc_are_you_sure_remove" = "Вы действительно хотите удалить эту резервную копию?";
 
 /* This backup has been added to your databases */
 "backup_vc_backup_added_to_databases" = "Эта резервная копия была добавлена в Ваши базы данных";
 
 /* Add as Local Database */
-"backups_add_local" = "Добавить как локальную базу данных";
+"backups_add_local" = "Добавить как локальную";
 
 /* Are you sure you want to delete all backups? */
-"backups_vc_delete_all_backups_prompt_message" = "Вы уверены, что хотите удалить все резервные копии?";
+"backups_vc_delete_all_backups_prompt_message" = "Вы действительно хотите удалить все резервные копии?";
 
 /* Set Maximum Backup Keep Count */
-"backups_vc_set_max_keep_count_title" = "Установить макс. кол-во копий";
+"backups_vc_set_max_keep_count_title" = "Максимальное количество";
 
 /* You cannot use convenience unlock with a one time key file. */
 "config_error_one_time_key_file_convenience_message" = "Вы не можете использовать быструю разблокировку с одноразовым файл-ключом.";
@@ -1921,10 +1921,10 @@
 "select_generated_field_message" = "Пожалуйста, выберите предпочтительную строку";
 
 /* Support Options */
-"prefs_vc_info_email_support_options_title" = "Техподдержка";
+"prefs_vc_info_email_support_options_title" = "Поддержка";
 
 /* Please make sure you check Twitter, Reddit and the FAQ before you email support to save development resources for improving Strongbox. */
-"prefs_vc_info_email_support_options_message" = "Пожалуйста, убедитесь, что Вы прочли раздел часто задаваемых вопросов, публикации Twitter, перед тем, как воспользуетесь поддержкой по электронной почте. Этим Вы поможете сэкономить время разработчика для улучшения Strongbox.";
+"prefs_vc_info_email_support_options_message" = "Пожалуйста, убедитесь, что Вы прочли раздел часто задаваемых вопросов, публикации Twitter перед тем, как воспользуетесь поддержкой по электронной почте. Этим Вы поможете сэкономить время разработчика для улучшения Strongbox.";
 
 /* Check FAQ */
 "prefs_vc_info_email_support_options_check_faq" = "Часто задаваемые вопросы";
@@ -1936,7 +1936,7 @@
 "prefs_vc_info_email_support_options_mail_support" = "Отправить Email (только на английском языке)";
 
 /* No comment provided by engineer. */
-"transfer_over_local_network_website_prologue" = "<p>Перетащите файлы в это окно или используйте кнопку \"Загрузить файлы&hellip;\" для загрузки новых файлов. Если эти файлы являются действительными базами данных KeePass или Password Safe, они будут автоматически добавлены в Вашу коллекцию баз данных.</p><p>Примечание: Если Вы хотите, чтобы эти файлы работали с автозаполнением iOS, тогда смахните влево по базе данных в приложении, и включите функцию автозаполнения.</p>";
+"transfer_over_local_network_website_prologue" = "<p>Перетащите файлы в это окно или используйте кнопку \"Upload Files&hellip;\" для загрузки файлов. Если эти файлы являются действительными базами данных KeePass или Password Safe, они будут автоматически добавлены в список баз данных.</p><p>Примечание: Если Вы хотите, чтобы эти файлы работали с автозаполнением iOS, тогда смахните влево по базе данных в приложении, и включите функцию автозаполнения.</p>";
 
 /**********************************************************************************************************************/
 /* FUTURE: genericise... */
@@ -2130,7 +2130,7 @@
 "item_details_email_field_title" = "Email";
 
 /* Expires */
-"item_details_expires_field_title" = "Истекает";
+"item_details_expires_field_title" = "Срок действия";
 
 /* Created */
 "item_details_metadata_created_field_title" = "Создан";
@@ -2228,7 +2228,7 @@
 "favicon_status_done" = "Поиск завершён. Нажмите «Результаты поиска» для просмотра найденных значков.";
 
 /* Are you sure you want to clear current results and retry all items? */
-"favicon_clear_all_and_retry_message" = "Вы уверены, что хотите очистить текущие результаты и повторить поиск?";
+"favicon_clear_all_and_retry_message" = "Вы действительно хотите очистить текущие результаты и повторить поиск?";
 
 /* Retry All or Failed? */
 "favicon_retry_all_or_failed_title" = "Повторить для всех или только неудачных?";
@@ -2261,7 +2261,7 @@
 "favicon_results_no_icons_found" = "Значки не найдены";
 
 /* Are you sure you want to remove this FavIcon result? */
-"favicon_results_are_you_sure_remove_result_message" = "Вы уверены, что хотите удалить этот значок сайта?";
+"favicon_results_are_you_sure_remove_result_message" = "Вы действительно хотите удалить этот значок сайта?";
 
 /* Invalid FavIcon Preferences */
 "favicon_invalid_preferences_alert_title" = "Недопустимые параметры значков";
@@ -2276,7 +2276,7 @@
 "mac_error_could_not_open_key_file" = "Не удалось открыть файл-ключ.";
 
 /* The database has been changed by another application, would you like to reload this latest version and automatically unlock? */
-"mac_db_changed_externally_reload_yes_or_no" = "База данных была изменена другим приложением, Вы хотите перезагрузить новейшую версию и автоматически разблокировать?";
+"mac_db_changed_externally_reload_yes_or_no" = "База данных была изменена другим приложением. Хотите перезагрузить новейшую версию и автоматически разблокировать?";
 
 /* Reloading after external changes... */
 "mac_db_reloading_after_external_changes_popup_notification" = "Перезагрузка после внешних изменений...";
@@ -2303,19 +2303,19 @@
 "mac_master_credentials_changed_and_saved" = "Мастер-ключ изменён и база данных сохранена";
 
 /* KeePass does not natively support the 'Email' field. Strongbox will add it instead as a custom field.\nDo you want to continue? */
-"mac_drag_drop_between_databases_keepass_email_field_not_supported" = "KeePass не поддерживает поле 'Email' по умолчанию. Strongbox добавит его вместо этого как настраиваемое поле. \nВы хотите продолжить?";
+"mac_drag_drop_between_databases_keepass_email_field_not_supported" = "KeePass не поддерживает поле 'Email' по умолчанию. Strongbox добавит его вместо этого как настраиваемое поле. \nХотите продолжить?";
 
 /* KeePass 1 does not support entries at the root level, these will be discarded. KeePass 1 also does not natively support the 'Email' field. Strongbox will append it instead to the end of the 'Notes' field.\nDo you want to continue? */
-"mac_keepass1_does_not_support_root_entries" = "KeePass 1 не поддерживает записи на корневом уровне, они будут удалены. KeePass 1 также изначально не поддерживает поле 'Email'. Strongbox добавит его вместо этого в конце поля 'Примечания'.\nВы хотите продолжить?";
+"mac_keepass1_does_not_support_root_entries" = "KeePass 1 не поддерживает записи на корневом уровне, они будут удалены. KeePass 1 также изначально не поддерживает поле 'Email'. Strongbox добавит его вместо этого в конце поля 'Примечания'.\nХотите продолжить?";
 
 /* The Password Safe format does not support icons, attachments or custom fields. If you continue, these fields will not be copied to this database.\nDo you want to continue without these fields? */
-"mac_password_safe_fmt_does_not_support_icons_attachments_warning" = "Формат Password Safe не поддерживает значки, вложения или настраиваемые поля. Если Вы продолжите, эти поля не будут скопированы в эту базу данных.\nВы хотите продолжить без этих полей?";
+"mac_password_safe_fmt_does_not_support_icons_attachments_warning" = "Формат Password Safe не поддерживает значки, вложения или настраиваемые поля. Если Вы продолжите, эти поля не будут скопированы в эту базу данных.\nХотите продолжить без этих полей?";
 
 /* The KeePass 1 (KDB) does not support entries at the root level, these will be discarded.\n\nThe KeePass 1 (KDB) format also does not support multiple attachments, custom fields or custom icons. If you continue only the first attachment from each item will be copied to this database. Custom Fields and Icons will be discarded.\nDo you want to continue? */
-"mac_keepass1_does_not_support_root_entries_or_attachments" = "KeePass 1 (KDB) не поддерживает записи на корневом уровне, они будут отброшены.\n\nФормат KePass 1 (KDB) также не поддерживает многочисленные вложения, настраиваемые поля или настраиваемые значки. Если Вы продолжите, только первое вложение из каждого элемента будет скопировано в эту базу данных. Настраиваемые поля и значки будут отброшены.\nПродолжить?";
+"mac_keepass1_does_not_support_root_entries_or_attachments" = "KeePass 1 (KDB) не поддерживает записи на корневом уровне, они будут отброшены.\n\nФормат KePass 1 (KDB) также не поддерживает многочисленные вложения, настраиваемые поля или настраиваемые значки. Если Вы продолжите, только первое вложение из каждого элемента будет скопировано в эту базу данных. Настраиваемые поля и значки будут отброшены.\nХотите продолжить?";
 
 /* The Password Safe format does not support attachments or icons. If you continue, these fields will not be copied to this database.\nDo you want to continue without these fields? */
-"mac_password_safe_does_not_support_attachments_icons_continue_yes_no" = "Формат Password Safe не поддерживает вложения или значки. Если Вы продолжите, эти поля не будут скопированы в эту базу данных.\nВы хотите продолжить без этих полей?";
+"mac_password_safe_does_not_support_attachments_icons_continue_yes_no" = "Формат Password Safe не поддерживает вложения или значки. Если Вы продолжите, эти поля не будут скопированы в эту базу данных.\nХотите продолжить без этих полей?";
 
 /* You cannot create a new item here. It must be within an existing folder. */
 "mac_alert_cannot_create_item_here" = "Вы не можете создать здесь новый элемент. Он должен находиться в существующей папке.";
@@ -2324,16 +2324,16 @@
 "mac_please_enter_a_title_for_new_group" = "Пожалуйста, введите название для новой группы";
 
 /* Are you sure you want to send '%@' to the Recycle Bin? - Translation Note: 1st Param is the Item Title */
-"mac_are_you_sure_recycle_bin_yes_no_fmt" = "Вы уверены, что хотите отправить «%@» в корзину?";
+"mac_are_you_sure_recycle_bin_yes_no_fmt" = "Вы действительно хотите отправить «%@» в корзину?";
 
 /* Are you sure you want to delete '%@'? - Translation Note: 1st Param is the Item Title  */
-"mac_are_you_sure_delete_yes_no_fmt" = "Вы уверены, что хотите удалить '%@'?";
+"mac_are_you_sure_delete_yes_no_fmt" = "Вы действительно хотите удалить '%@'?";
 
 /* Are you sure you want to send %lu items to the Recycle Bin? - Translation Note: 1st Param is the number of items being deleted  */
-"mac_are_you_sure_recycle_bin_multiple_yes_no_fmt" = "Вы уверены, что хотите отправить %lu элементов в корзину?";
+"mac_are_you_sure_recycle_bin_multiple_yes_no_fmt" = "Вы действительно хотите отправить %lu элементов в корзину?";
 
 /* Are you sure you want to delete %lu items? - Translation Note: 1st Param is the number of items being deleted */
-"mac_are_you_sure_delete_multiple_yes_no_fmt" = "Вы уверены, что хотите удалить %lu элементов?";
+"mac_are_you_sure_delete_multiple_yes_no_fmt" = "Вы действительно хотите удалить %lu элементов?";
 
 /* Delete Items */
 "mac_menu_item_delete_items" = "Удалить элементы";
@@ -2355,7 +2355,7 @@
 "mac_csv_file_contains_zero_rows" = "CSV файл содержит нулевые строки. Импорт невозможен.";
 
 /* Found %lu valid rows in CSV file. Are you sure you would like to import now? - Translators Note: 1st Param is the number of rows found in the CSV File */
-"mac_found_n_valid_rows_in_csv_file_prompt_to_import_fmt" = "Найдено %lu допустимых строк в файле CSV. Вы действительно хотите импортировать сейчас?";
+"mac_found_n_valid_rows_in_csv_file_prompt_to_import_fmt" = "Найдено %lu допустимых строк в файле CSV. Вы действительно хотите импортировать файл?";
 
 /* CSV File Successfully Imported. */
 "mac_csv_file_successfully_imported" = "Файл CSV успешно импортирован.";
@@ -2379,7 +2379,7 @@
 "mac_database_summary_number_of_folders" = "Количество папок";
 
 /* This is a large image to use as an icon. Would you like to use a scaled down version to save %@? - Translators Note: 1st Parameter is how much space will be saved */
-"mac_large_image_as_icon_use_scaled_down_version_fmt" = "Это большое изображение для использования в качестве значка. Хотите ли Вы использовать уменьшенную версию для сохранения %@?";
+"mac_large_image_as_icon_use_scaled_down_version_fmt" = "Это большое изображение для использования в качестве значка. Хотите использовать уменьшенную версию для сохранения %@?";
 
 /* This is not a valid image file. */
 "mac_not_a_valid_image_file" = "Это недопустимый файл изображения.";
@@ -2425,7 +2425,7 @@
 
 /* Hi and welcome to Strongbox!\n\nI hope you'll really like the app, and find it useful. You can enjoy this fully featured Pro version of Strongbox for the next three months. After that point, you will be transitioned to the regular version of Strongbox.\n\nYou can always find out more at any time by tapping 'Upgrade to Pro' in the Strongbox menu item.\n\nThanks!\n-Mark */
 
-"mac_welcome_to_strongbox_message" = "Привет и добро пожаловать в Strongbox!\n\nНадеюсь, приложение Вам действительно понравится и будет полезным! Вы можете использовать полный функционал Pro версии Strongbox в течении следующих трёх месяцев. По окончании пробного периода Вы будете переведены на базовую версию Strongbox.\n\nВы всегда можете узнать больше в любое время, нажав кнопку 'Обновить до Pro' в пункте меню Strongbox.\n\nСпасибо!\nС уважением, Марк";
+"mac_welcome_to_strongbox_message" = "Привет и добро пожаловать в Strongbox!\n\nНадеюсь, приложение Вам действительно понравится и будет полезным! Вы можете использовать полный функционал Pro версии Strongbox в течении следующих трёх месяцев. По окончании пробного периода Вы будете переведены на базовую версию Strongbox.\n\nВы всегда можете узнать больше, нажав кнопку 'Обновить до Pro' в пункте меню Strongbox.\n\nСпасибо!\nС уважением, Марк";
 
 /* Change Master Credentials */
 "mac_undo_action_change_master_credentials" = "Изменить мастер-ключ";
@@ -2626,13 +2626,13 @@
 "mac_node_details_historical_item_suffix_fmt" = "%@ (в истории элемента)";
 
 /* Edit Custom Field */
-"mac_node_details_edit_custom_field" = "Настраиваемое поле";
+"mac_node_details_edit_custom_field" = "Настройки поля";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Вы действительно хотите удалить настраиваемое поле '%@'?";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Вы действительно хотите удалить поле '%@'?";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Вы действительно хотите удалить настраиваемое поле '%@'?";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Вы действительно хотите удалить поле '%@'?";
 
 /* Add Custom Field */
 "mac_node_details_add_custom_field" = "Добавить настраиваемое поле";
@@ -2644,7 +2644,7 @@
 "mac_node_details_you_cannot_use_key_reserved" = "Вы не можете использовать этот ключ здесь, так как он зарезервирован для стандартных полей KeePass.";
 
 /* Are you sure you want to remove the attachment: %@? */
-"mac_node_details_are_you_sure_remove_attachment_fmt" = "Вы уверены, что хотите удалить вложение: %@?";
+"mac_node_details_are_you_sure_remove_attachment_fmt" = "Вы действительно хотите удалить вложение: %@?";
 
 /* Password Copied and URL Launched */
 "mac_node_details_password_copied_url_launched" = "Пароль скопирован и URL запущен";
@@ -2671,10 +2671,10 @@
 "mac_field_changed_popup_notification_fmt" = "'%@' %@ изменён...";
 
 /* Are you sure you want to delete this history item? */
-"mac_keepass_history_are_sure_delete" = "Вы уверены, что хотите удалить этот элемент из истории?";
+"mac_keepass_history_are_sure_delete" = "Вы действительно хотите удалить этот элемент из истории?";
 
 /* Are you sure you want to restore this history item? */
-"mac_keepass_history_are_sure_restore" = "Вы уверены, что хотите восстановить этот элемент из истории?";
+"mac_keepass_history_are_sure_restore" = "Вы действительно хотите восстановить этот элемент из истории?";
 
 /* Could not open this file. */
 "mac_could_not_open_this_file" = "Не удалось открыть этот файл.";
@@ -2895,7 +2895,7 @@
 "autofill_did_not_close_cleanly_title" = "Произошёл сбой автозаполнения";
 
 /* It looks like the last time you used Auto Fill you had a crash. This is usually due to a memory limitation. Please check your database file size and your Argon2 memory settings (should be <= 64MB) */
-"autofill_did_not_close_cleanly_message" = "Похоже, что при последнем использовании автозаполнения у Вас произошёл сбой. Обычно это случается из-за ограничений памяти iOS. Пожалуйста, проверьте размер файла базы данных и настройки памяти Argon2 (должно быть <= 64МБ)";
+"autofill_did_not_close_cleanly_message" = "Возможно при последнем использовании автозаполнения у Вас произошёл сбой. Обычно это связано с ограничениями памяти iOS. Пожалуйста, проверьте размер файла базы данных и настройки памяти Argon2 (должно быть <= 64МБ)";
 
 /* Regenerate... */
 "password_generation_regenerate_ellipsis" = "Сгенерировать заново...";
@@ -2919,7 +2919,7 @@
 "keepass_icon_set_sf_symbols" = "SF-символы (iOS 13+)";
 
 /* Translators Note: 1 parameter here to mention Biometric unlock, which depends on the device (will be either: 'Touch ID Unlock' or 'Face ID Unlock') */
-"upgrade_short_developer_message_fmt" = "Привет! Я, Марк, разработчик Strongbox. Strongbox является условно-бесплатным приложением - это означает, что есть бесплатная и Pro версии. Я надеюсь, Вам действительно понравится Strongbox и будет полезным в использовании.\n\nРассматриваете возможность улучшить функционал приложения? Так Вы можете помочь независимому разработчику и сделать возможным постоянное совершенствование приложения.\n\nВы также получите доступ к таким функциям Pro, как %@, ПИН-коды и значки сайтов!\n\nЯ с удовольствием работаю над этим приложением, и Ваша поддержка позволяет мне продолжать это делать.\n\nСпасибо!\nС уважением, Марк";
+"upgrade_short_developer_message_fmt" = "Привет! Я, Марк, разработчик Strongbox. Strongbox является условно-бесплатным приложением - это означает, что есть бесплатная и Pro версии. Я надеюсь, Вам действительно понравится Strongbox и будет полезным в использовании.\n\nРассматриваете возможность улучшить функционал приложения? Так Вы можете помочь независимому разработчику и сделать возможным постоянное совершенствование приложения.\n\nВы также получите доступ к таким функциям Pro, как %@, код-пароли и значки сайтов!\n\nЯ с удовольствием работаю над этим приложением, и Ваша поддержка позволяет мне продолжать это делать.\n\nСпасибо!\nС уважением, Марк";
 
 /* Translators Note: 1 parameter indicating number of days left in users free trial */
 "upgrade_vc_you_have_n_days_remaining_fmt" = "У Вас осталось %ld дней пробного периода Pro версии";
@@ -2931,10 +2931,10 @@
 "upgrade_vc_enjoy_features_by_upgrading_fmt" = "Воспользуйтесь %@ и другими функциями Pro версии, улучшив приложение!";
 
 /* */
-"upgrade_question_answer_free_pro_differences" = "Главное отличие бесплатной и Pro версий Strongbox - это разблокировка с помощью Touch/Face ID.\n\nЭто очень удобный метод для разблокировки Ваших баз данных. Без него Вам придётся вручную вводить свой пароль. Как правило, он является длинным и сложным, что может привести к медленному и подверженному ошибкам входу.\n\nКроме того, существуют другие продвинутые функции, такие как ПИН-коды или значки сайтов.\n\nЕщё одно преимущество заключается в том, что Вы больше не увидите это предложение об улучшении и поддержите дальнейшее развитие Strongbox.\n\nУвидеть различия Вы можете, нажав на кнопку «Сравнение бесплатной и Pro версий» на главном экране обновления.";
+"upgrade_question_answer_free_pro_differences" = "Главное отличие бесплатной и Pro версий Strongbox - это разблокировка с помощью Touch/Face ID.\n\nЭто очень удобный метод для разблокировки баз данных. Без него Вам необходимо вручную вводить свой пароль. Как правило, он является длинным и сложным, что может привести к медленному и подверженному ошибкам входу.\n\nКроме того, существуют другие продвинутые функции, такие как код-пароли или значки сайтов.\n\nЕщё одно преимущество заключается в том, что Вы больше не увидите это предложение об улучшении и поддержите дальнейшее развитие Strongbox.\n\nУвидеть различия Вы можете, нажав на кнопку «Сравнение бесплатной и Pro версий» на главном экране обновления.";
 
 /* */
-"upgrade_question_answer_end_trial" = "По окончании пробного периода Вы автоматически будете переведены на бесплатную версию и больше не сможете использовать дополнительные функции, такие как разблокировка Touch/Face ID.\n\nУ Вас также останется доступ к Вашим базам данных, поиску, редактированию и синхронизации баз данных с Вашим облачным сервисом.\n\nВремя от времени может появляться предложение об улучшении, чтобы посоветовать Вам поддержать текущую разработку.";
+"upgrade_question_answer_end_trial" = "По окончании пробного периода Вы автоматически будете переведены на бесплатную версию и больше не сможете использовать дополнительные функции, такие как разблокировка Touch/Face ID.\n\nУ Вас также останется доступ к базам данных, поиску, редактированию и синхронизации баз данных с облачным сервисом.\n\nВремя от времени может появляться предложение об улучшении, чтобы посоветовать Вам поддержать текущую разработку.";
 
 /* */
 "upgrade_question_answer_free_version_forever" = "Безусловно, Вы можете использовать бесплатную версию бессрочно. Она весьма функциональна. Однако, если Вам нравится Strongbox, и приложение для Вас является ценным помощником или делает Вашу жизнь более безопасной, пожалуйста, подумайте об улучшении.";
@@ -2958,10 +2958,10 @@
 "storage_provider_status_syncing" = "Синхронизация...";
 
 /* Duplicate Item? */
-"browse_vc_duplicate_prompt_title" = "Подтвердите действие";
+"browse_vc_duplicate_prompt_title" = "Дублирование записи";
 
 /* Are you sure you want to duplicate this item? */
-"browse_vc_duplicate_prompt_message" = "Вы уверены, что хотите создать копию этого элемента?";
+"browse_vc_duplicate_prompt_message" = "Вы действительно хотите создать копию этой записи?";
 
 /* It looks like your database is encrypted by Microsoft InTune probably due to corporate policy. */
 "error_database_is_encrypted_ms_intune" = "Похоже, что Ваша база данных зашифрована Microsoft InTune, вероятно, из-за корпоративной политики.";
@@ -2997,13 +2997,13 @@
 "browse_add_group_or_entry_question" = "Вы хотите добавить запись или группу?";
 
 /* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be securely stored for %@ before you need to re-enter it. Note for translators (1st Param = "Touch ID", 2nd Param is a time span something like "2 weeks") */
-"mac_use_biometric_to_open_in_future_fmt" = "Хотите ли Вы использовать %@ или Apple Watch для разблокировки этой базы данных в будущем? Ваш пароль будет надёжно сохранён на %@, прежде чем Вам потребуется повторно ввести его.";
+"mac_use_biometric_to_open_in_future_fmt" = "Хотите использовать %@ или Apple Watch для разблокировки этой базы данных в будущем? Ваш пароль будет надёжно сохранён на %@, прежде чем Вам потребуется повторно ввести его.";
 
 /* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be stored securely. Note for translators (1st Param = "Touch ID") */
-"mac_use_biometric_to_open_in_future_simple_fmt" = "Вы хотите использовать %@ или Apple Watch для разблокировки этой базы данных в будущем? Ваш пароль будет сохранён в защищённом виде.";
+"mac_use_biometric_to_open_in_future_simple_fmt" = "Хотите использовать %@ или Apple Watch для разблокировки этой базы данных в будущем? Ваш пароль будет сохранён в защищённом виде.";
 
 /* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be stored securely until you exit Strongbox Note for translators (1st Param = "Touch ID") */
-"mac_use_biometric_to_open_in_future_simple_app_exit_fmt" = "Вы хотите использовать %@ или Apple Watch для разблокировки этой базы данных в будущем? Ваш пароль будет надёжно сохранён, пока Вы не выйдете из Strongbox.";
+"mac_use_biometric_to_open_in_future_simple_app_exit_fmt" = "Хотите использовать %@ или Apple Watch для разблокировки этой базы данных в будущем? Ваш пароль будет надёжно сохранён, пока Вы не выйдете из Strongbox.";
 
 /* Audit: No password set */
 "audit_quick_summary_no_password_set" = "Запись без пароля";
@@ -3096,13 +3096,13 @@
 "audit_status_no_issues_found" = "Проблем не найдено";
 
 /* The credentials were incorrect for this database. Are you sure you are using this key file?\n\nNB: A key files are not the same as your database file. */
-"open_sequence_problem_opening_incorrect_credentials_message_verify_key_file" = "Неверный мастер-ключ для этой базы данных. Вы уверены, что используете правильный файл-ключ?\n\nПримечание: Файл-ключи не являются файлами баз данных KDBX/KDB";
+"open_sequence_problem_opening_incorrect_credentials_message_verify_key_file" = "Неверный мастер-ключ для этой базы данных. Вы используете правильный файл-ключ?\n\nПримечание: Файл-ключи не являются файлами баз данных KDBX/KDB";
 
 /* Is your Key File correct? */
 "casg_key_file_correct_title" = "Это правильный файл-ключ?";
 
 /* You have configured this database to open with a key file but the key file you have chosen doesn't look valid.\n\nAre you sure you are using this key file?\n\nNB: A key file is not the same as your database file" */
-"casg_key_file_correct_message" = "Вы настроили эту базу данных таким образом, чтобы открывать с помощью файл-ключа, но выбранный файл-ключ не является допустимым.\n\nВы уверены, что используете правильный файл-ключ?\n\nПримечание: Файл-ключ не является файлом базы данных";
+"casg_key_file_correct_message" = "Вы настроили эту базу данных таким образом, чтобы открывать с помощью файл-ключа, но выбранный файл-ключ не является допустимым.\n\nВы используете правильный файл-ключ?\n\nПримечание: Файл-ключ не является файлом базы данных";
 
 /* Yes, the key file is correct */
 "casg_key_file_correct_yes_key_file_correct" = "Да, это правильный файл-ключ";
@@ -3192,7 +3192,7 @@
 "browse_vc_partial_recycle_alert_title" = "Частичное удаление";
 
 /* Some of the items you have selected cannot be recycled and will be permanently deleted. Is that OK? */
-"browse_vc_partial_recycle_alert_message" = "Некоторые из выбранных Вами элементов не могут быть отправлены в корзину и будут окончательно удалены. Продолжить?";
+"browse_vc_partial_recycle_alert_message" = "Некоторые из выбранных Вами элементов не могут быть отправлены в корзину и будут окончательно удалены. Хотите продолжить?";
 
 /* Audit */
 "browse_vc_action_audit" = "Проверка";
@@ -3273,22 +3273,22 @@
 "audit_excluded_items_vc_action_unclude" = "Отменить исключение";
 
 /* Share Last Crash Diagnostics? */
-"crash_diagnostics_share_last_title" = "Share Crash Diagnostics?";
+"crash_diagnostics_share_last_title" = "Отправить отчет об ошибке?";
 
 /* It looks like Strongbox had a crash last time. Would you be so kind as to share the diagnostics with Strongbox Support?\n\nPlease mail to support@strongboxsafe.com */
-"crash_diagnostics_share_last_message" = "It looks like Strongbox had a crash last time. Would you be so kind as to share the diagnostics with Strongbox Support?\n\nPlease mail to support@strongboxsafe.com";
+"crash_diagnostics_share_last_message" = "Похоже, что Strongbox завершил свою работу аварийно. Хотите отправить отчет об ошибке в техподдержку?\n\nПожалуйста, напишите по адресу: support@strongboxsafe.com";
 
 /* Share */
-"crash_diagnostics_share_action" = "Share";
+"crash_diagnostics_share_action" = "Поделиться";
 
 /* Copy to Clipboard */
-"crash_diagnostics_copy_action" = "Copy to Clipboard";
+"crash_diagnostics_copy_action" = "Скопировать в буфер обмена";
 
 /* PIN */
-"pin_entry_default_text" = "PIN";
+"pin_entry_default_text" = "Код-пароль";
 
 /* No Attachments */
-"file_attachments_view_controller_empty_attachments_text" = "No Attachments";
+"file_attachments_view_controller_empty_attachments_text" = "Вложения отсутствуют";
 
 /* KeePass 1 */
 "database_format_keepass1" = "KeePass 1";
@@ -3309,13 +3309,16 @@
 "password_gen_vc_mode_diceware_xkcd_title" = "Diceware (XKCD)";
 
 /* Strongbox: Unknown Database */
-"autofill_error_unknown_db_title" = "Strongbox: Unknown Database";
+"autofill_error_unknown_db_title" = "Strongbox: Неизвестная база данных";
 
 /* This appears to be a reference to an older Strongbox database which can no longer be found. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill. */
-"autofill_error_unknown_db_message" = "This appears to be a reference to an older Strongbox database which can no longer be found. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill.";
+"autofill_error_unknown_db_message" = "Возможно, что это устаревшая ссылка на базу данных Strongbox, которой больше не существует. Список автозаполнения Strongbox очищен, поэтому необходимо повторно открыть базы данных для обновления списка.";
 
 /* Strongbox: Error Locating Entry */
-"autofill_error_unknown_item_title" = "Strongbox: Error Locating Entry";
+"autofill_error_unknown_item_title" = "Strongbox: Ошибка поиска записи";
 
 /* Strongbox could not find this entry, it is possibly stale. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill. */
-"autofill_error_unknown_item_message" = "Strongbox could not find this entry, it is possibly stale. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill.";
+"autofill_error_unknown_item_message" = "Strongbox не удалось найти эту запись, возможно она устарела. Список автозаполнения Strongbox очищен, поэтому необходимо повторно открыть базы данных для обновления списка.";
+
+/* Locating... */
+"generic_status_sp_locating_ellipsis" = "Поиск...";

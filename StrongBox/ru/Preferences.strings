@@ -1,3 +1,9 @@
+/* Class = "UITableViewSection"; footerTitle = "When you perform a backup of this device via Finder or iTunes you can control whether local databases and imported key files are included in that backup here"; ObjectID = "28j-ig-jed"; */
+"28j-ig-jed.footerTitle" = "When you perform a backup of this device via Finder or iTunes you can control whether local databases and imported key files are included in that backup here";
+
+/* Class = "UITableViewSection"; headerTitle = "Backup Settings (Apple Device Backup)"; ObjectID = "28j-ig-jed"; */
+"28j-ig-jed.headerTitle" = "Backup Settings (Apple Device Backup)";
+
 /* Class = "UILabel"; text = "Allow Clipboard Handoff"; ObjectID = "2AQ-TK-Aer"; */
 "2AQ-TK-Aer.text" = "Универсальный буфер обмена";
 
@@ -40,6 +46,9 @@
 /* Class = "UILabel"; text = "3"; ObjectID = "BTc-Sr-gAI"; */
 "BTc-Sr-gAI.text" = "3";
 
+/* Class = "UILabel"; text = "Include Local Databases"; ObjectID = "D5P-d7-g5B"; */
+"D5P-d7-g5B.text" = "Include Local Databases";
+
 /* Class = "UILabel"; text = "Advanced"; ObjectID = "DFg-Z8-4Um"; */
 "DFg-Z8-4Um.text" = "Расширенные";
 
@@ -56,13 +65,16 @@
 "G3D-mW-lFG.text" = "Задержка";
 
 /* Class = "UITableViewSection"; footerTitle = "Strongbox will make a best effort attempt to clear the clipboard after the designated delay (subject to iOS system background process constraints)"; ObjectID = "GCi-AW-D9w"; */
-"GCi-AW-D9w.footerTitle" = "Strongbox очистит буфер обмена после указанной задержки (согласно ограничениям фонового процесса iOS).";
+"GCi-AW-D9w.footerTitle" = "Strongbox очистит буфер обмена после указанной задержки (с учётом ограничений iOS).";
 
 /* Class = "UITableViewSection"; headerTitle = "Auto Clear Clipboard After Delay"; ObjectID = "GCi-AW-D9w"; */
 "GCi-AW-D9w.headerTitle" = "Очистка буфера обмена";
 
 /* Class = "UILabel"; text = "Change..."; ObjectID = "Geq-G0-6G5"; */
 "Geq-G0-6G5.text" = "Изменить";
+
+/* Class = "UILabel"; text = "Include Imported Key Files"; ObjectID = "IVW-mU-vYE"; */
+"IVW-mU-vYE.text" = "Include Imported Key Files";
 
 /* Class = "UILabel"; text = "Change..."; ObjectID = "IbA-Qf-Abq"; */
 "IbA-Qf-Abq.text" = "Изменить";
@@ -110,7 +122,7 @@
 "X1D-tE-8NC.text" = "Оцените Strongbox в App Store";
 
 /* Class = "UITableViewSection"; footerTitle = "Require a PIN code and/or Biometric authentication before opening Strongbox. If enabled, this will happen immediately on startup, and subsequently (after an optional delay) on switching away from Strongbox. "; ObjectID = "Xea-R2-BE7"; */
-"Xea-R2-BE7.footerTitle" = "Запрос ПИН-кода и/или биометрической аутентификации при открытии Strongbox. Если включено, это произойдет при запуске, а затем (после указанной задержки) при переключении из Strongbox. ";
+"Xea-R2-BE7.footerTitle" = "Запрос код-пароля и/или биометрической аутентификации при открытии Strongbox. Если включено, это произойдет при запуске, а затем (после указанной задержки) при переключении из Strongbox. ";
 
 /* Class = "UITableViewSection"; headerTitle = "Application Lock"; ObjectID = "Xea-R2-BE7"; */
 "Xea-R2-BE7.headerTitle" = "Блокировка приложения";
@@ -119,7 +131,7 @@
 "YSc-AW-zP2.text" = "О приложении";
 
 /* Class = "UILabel"; text = "Also Lock Preferences"; ObjectID = "YVy-zW-ddw"; */
-"YVy-zW-ddw.text" = "Защита настроек";
+"YVy-zW-ddw.text" = "Блокировка настроек";
 
 /* Class = "UIButton"; normalTitle = "Copy"; ObjectID = "aid-15-B7W"; */
 "aid-15-B7W.normalTitle" = "Скопировать";
@@ -146,7 +158,7 @@
 "e6I-50-gCI.text" = "Очистка буфера обмена";
 
 /* Class = "UINavigationItem"; title = "Preferences"; ObjectID = "eGr-ae-0cG"; */
-"eGr-ae-0cG.title" = "Настройки";
+"eGr-ae-0cG.title" = "Настройки приложения";
 
 /* Class = "UILabel"; text = "30 Seconds"; ObjectID = "fRK-F4-grc"; */
 "fRK-F4-grc.text" = "30 секунд";
@@ -160,11 +172,14 @@
 /* Class = "UITableViewController"; title = "Advanced Preferences"; ObjectID = "hwI-HO-qLt"; */
 "hwI-HO-qLt.title" = "Расширенные настройки";
 
+/* Class = "UINavigationItem"; title = "Advanced Preferences"; ObjectID = "i6A-5B-gtC"; */
+"i6A-5B-gtC.title" = "Расширенные настройки";
+
 /* Class = "UILabel"; text = "Email Support"; ObjectID = "iCk-Uo-CIK"; */
 "iCk-Uo-CIK.text" = "Написать разработчику";
 
 /* Class = "UILabel"; text = "Show Yubikey Secret Workaround Field"; ObjectID = "iX3-kB-Et9"; */
-"iX3-kB-Et9.text" = "Показывать поле для обхода секретного ключа Yubikey";
+"iX3-kB-Et9.text" = "Поле значения ответа Yubikey";
 
 /* Class = "UITableViewSection"; footerTitle = "Strongbox maintain sessions where possible if you use native cloud providers. You can manually clear these sessions here."; ObjectID = "jH9-W5-piz"; */
 "jH9-W5-piz.footerTitle" = "При использовании облачных сервисов, Strongbox сохраняет сессии подключений. Вы можете вручную очистить эти сессии.";
@@ -172,11 +187,17 @@
 /* Class = "UITableViewSection"; headerTitle = "Cloud"; ObjectID = "jH9-W5-piz"; */
 "jH9-W5-piz.headerTitle" = "Облачные сервисы";
 
+/* Class = "UILabel"; text = "Use Uber Sync (Caution: Alpha)"; ObjectID = "jRJ-bT-Kka"; */
+"jRJ-bT-Kka.text" = "Use Uber Sync (Caution: Alpha)";
+
 /* Class = "UITableViewSection"; headerTitle = "URL"; ObjectID = "kyK-00-zw0"; */
 "kyK-00-zw0.headerTitle" = "URL";
 
+/* Class = "UITableViewSection"; footerTitle = "More advanced or niche preferences. Some care may be required when using features labeled Alpha or Beta"; ObjectID = "l7v-m5-yUl"; */
+"l7v-m5-yUl.footerTitle" = "More advanced or niche preferences. Some care may be required when using features labeled Alpha or Beta";
+
 /* Class = "UITableViewSection"; headerTitle = "Miscellaneous"; ObjectID = "l7v-m5-yUl"; */
-"l7v-m5-yUl.headerTitle" = "Прочее";
+"l7v-m5-yUl.headerTitle" = "Прочие";
 
 /* Class = "UILabel"; text = "Use Color Blind Palette for Passwords"; ObjectID = "lha-oo-sGv"; */
 "lha-oo-sGv.text" = "Применить в паролях цветовую палитру для страдающих дальтонизмом";
@@ -185,7 +206,7 @@
 "mVt-rZ-QN9.segmentTitles[0]" = "Отсутствует";
 
 /* Class = "UISegmentedControl"; mVt-rZ-QN9.segmentTitles[1] = "PIN Code"; ObjectID = "mVt-rZ-QN9"; */
-"mVt-rZ-QN9.segmentTitles[1]" = "ПИН-код";
+"mVt-rZ-QN9.segmentTitles[1]" = "Код-пароль";
 
 /* Class = "UISegmentedControl"; mVt-rZ-QN9.segmentTitles[2] = "Biometric"; ObjectID = "mVt-rZ-QN9"; */
 "mVt-rZ-QN9.segmentTitles[2]" = "Биометрический";
@@ -193,14 +214,17 @@
 /* Class = "UISegmentedControl"; mVt-rZ-QN9.segmentTitles[3] = "Both"; ObjectID = "mVt-rZ-QN9"; */
 "mVt-rZ-QN9.segmentTitles[3]" = "Оба";
 
-/* Class = "UITableViewSection"; headerTitle = "Convenience Unlocking"; ObjectID = "o6m-Uq-NQN"; */
-"o6m-Uq-NQN.headerTitle" = "Быстрая разблокировка";
+/* Class = "UITableViewSection"; footerTitle = "Allow or disallow application wide use of convenience unlocking methods"; ObjectID = "o6m-Uq-NQN"; */
+"o6m-Uq-NQN.footerTitle" = "Allow or disallow application wide use of convenience unlocking methods";
+
+/* Class = "UITableViewSection"; headerTitle = "Database Convenience Unlocking"; ObjectID = "o6m-Uq-NQN"; */
+"o6m-Uq-NQN.headerTitle" = "Database Convenience Unlocking";
 
 /* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "p04-FH-J6b"; */
 "p04-FH-J6b.title" = "Элемент";
 
 /* Class = "UILabel"; text = "Allow PIN Code"; ObjectID = "qGu-QL-oXY"; */
-"qGu-QL-oXY.text" = "Разрешить ПИН-код";
+"qGu-QL-oXY.text" = "Разрешить код-пароль";
 
 /* Class = "UISegmentedControl"; rC5-aN-yQt.segmentTitles[0] = "None"; ObjectID = "rC5-aN-yQt"; */
 "rC5-aN-yQt.segmentTitles[0]" = "Отсутствует";
@@ -224,7 +248,7 @@
 "udH-4V-s04.text" = "Версия 1.28.3";
 
 /* Class = "UILabel"; text = "Detect if Offline (to offer Offline Cache)"; ObjectID = "v7x-7f-dfb"; */
-"v7x-7f-dfb.text" = "Использовать кэш при отсутствии сети";
+"v7x-7f-dfb.text" = "Вне сети предлагать кэш";
 
 /* Class = "UISegmentedControl"; vjo-hV-bFw.segmentTitles[0] = "None"; ObjectID = "vjo-hV-bFw"; */
 "vjo-hV-bFw.segmentTitles[0]" = "Отсутствует";
@@ -251,7 +275,7 @@
 "ydo-Zd-WnF.title" = "О приложении";
 
 /* Class = "UILabel"; text = "Instant PIN Unlock (No need for OK)"; ObjectID = "zDz-3b-4Pj"; */
-"zDz-3b-4Pj.text" = "Разблокировка ПИН-кодом без подтверждения";
+"zDz-3b-4Pj.text" = "Разблокировка код-паролем без подтверждения";
 
 /* Class = "UILabel"; text = "Delay"; ObjectID = "zI9-IO-Tz3"; */
 "zI9-IO-Tz3.text" = "Задержка";
