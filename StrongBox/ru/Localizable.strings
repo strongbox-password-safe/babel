@@ -1019,7 +1019,7 @@
 "pins_config_vc_error_pin_conflict_title" = "Конфликт код-паролей";
 
 /* Your Convenience PIN conflicts with your Duress PIN. Please select another. */
-"pins_config_vc_error_pin_conflict_message" = "Код-пароль конфликтует или различается в длине с принудительным код-паролем. Пожалуйста, выберите другой, нужной длины.";
+"pins_config_vc_error_pin_conflict_message" = "Код-пароль либо совпадает с принудительным код-паролем, либо отличается от заданного. Пожалуйста, попробуйте еще раз.";
 
 /* Warning */
 "pins_config_vc_warn_remove_database_title" = "Предупреждение";
@@ -3327,16 +3327,16 @@
 "generic_biometric_unlock_fmt" = "Разблокировка %@";
 
 /* By Default Strongbox now includes all your local documents and databases in Apple backups, however imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok? */
-"backup_settings_prompt_message" = "By default Strongbox includes all your local documents and databases in Apple backups, however imported Key Files are NOT included for security reasons. You can always change these settings in App Preferences.\n\nDoes this sound ok?";
+"backup_settings_prompt_message" = "По умолчанию Strongbox включает все локальные документы и базы данных в резервную копию, однако импортированные файл-ключи не входят в нее по соображениям безопасности. Вы всегда можете изменить эти параметры в настройках приложения.\n\nЭто звучит нормально?";
 
 /* Backup Settings */
 "backup_settings_prompt_title" = "Резервное копирование";
 
 /* Yes, the defaults sound good */
-"backup_settings_prompt_option_yes_looks_good" = "Yes, sounds good";
+"backup_settings_prompt_option_yes_looks_good" = "Да, звучит хорошо";
 
 /* Yes, but also backup Key Files */
-"backup_settings_prompt_yes_but_include_key_files" = "Yes, but also backup key files";
+"backup_settings_prompt_yes_but_include_key_files" = "Да,  включить файл-ключ в копию";
 
 /* No, do NOT backup anything */
-"backup_settings_prompt_no_dont_backup_anything" = "No, do NOT backup anything";
+"backup_settings_prompt_no_dont_backup_anything" = "Нет, не выполнять резервное копирование";
