@@ -727,7 +727,7 @@
 "prefs_vc_delete_data_attempt_count" = "Antal felaktiga försök för att radera data";
 
 /* Allow %@ ( Translators Note: 1st param is the name of biometric method, so: 'Allow Touch ID' or 'Allow Face ID')*/
-"prefs_vc_enable_biometric_fmt" = "Allow %@";
+"prefs_vc_enable_biometric_fmt" = "Tillåt %@";
 
 /* Please find Strongbox in the App Store and you can write a review there. Much appreciated!\n-Mark */
 "prefs_vc_info_cannot_open_app_store_message" = "Sök efter Strongbox i App Store och skriva en recension där. Det skulle uppskattas mycket!\n-Mark";
@@ -1410,10 +1410,10 @@
 "open_sequence_user_looks_offline_open_offline_instead_fmt" = "It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@";
 
 /* Yes, Use Offline Cache */
-"open_sequence_yesno_use_offline_cache_yes_option" = "Yes, Use Offline Cache";
+"open_sequence_yesno_use_offline_cache_yes_option" = "Ja, använd offlinecache";
 
 /* No, Try to connect anyway */
-"open_sequence_yesno_use_offline_cache_no_try_connect_option" = "No, Try to connect anyway";
+"open_sequence_yesno_use_offline_cache_no_try_connect_option" = "Nej, försök att ansluta ändå";
 
 /* There was a problem reading the database on %@. would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ */
 "open_sequence_storage_unreachable_open_offline_instead_fmt" = "Det gick inte att läsa databasen på %@. Om det händer upprepade gånger bör du försöka ta bort och lägga till databasen igen. Vill du använda en skrivskyddad cache-version av den här databasen i stället?\n\nSenaste cache: %@";
@@ -2446,7 +2446,7 @@
 "mac_undo_action_move_item" = "Flytta objekt";
 
 /* Move Items */
-"mac_undo_action_move_items" = "Move Items";
+"mac_undo_action_move_items" = "Flytta objekt";
 
 /* Password Change */
 "mac_undo_action_password_change" = "Lösenordsändring";
@@ -3180,22 +3180,22 @@
 "password_gen_vc_wordlist_category_languages" = "Språk";
 
 /* Accessed */
-"item_details_metadata_accessed_field_title" = "Accessed";
+"item_details_metadata_accessed_field_title" = "Senast använd";
 
 /* Location Changed */
-"item_details_metadata_location_changed_field_title" = "Location Changed";
+"item_details_metadata_location_changed_field_title" = "Plats har ändrats";
 
 /* Usage Count */
-"item_details_metadata_usage_count_field_title" = "Usage Count";
+"item_details_metadata_usage_count_field_title" = "Använt antal";
 
 /* Partial Recycle (Translators Note: If a user selects multiple items and some of them can't be recycled (e.g. The Recycle Bin itself, we ask if user is ok with that) */
-"browse_vc_partial_recycle_alert_title" = "Partial Recycle";
+"browse_vc_partial_recycle_alert_title" = "Delvis permanent radering";
 
 /* Some of the items you have selected cannot be recycled and will be permanently deleted. Is that OK? */
 "browse_vc_partial_recycle_alert_message" = "Some of the items you have selected cannot be recycled and will be permanently deleted. Is that OK?";
 
 /* Audit */
-"browse_vc_action_audit" = "Audit";
+"browse_vc_action_audit" = "Granskning";
 
 /* KeePassXC */
 "keepass_icon_set_keepassxc" = "KeePassXC";
@@ -3207,25 +3207,25 @@
 "audit_drill_down_section_header_summary" = "Sammanfattning";
 
 /* Duplicate Passwords */
-"audit_drill_down_section_header_duplicates" = "Items using same password";
+"audit_drill_down_section_header_duplicates" = "Objekt med samma lösenord";
 
 /* Similar Passwords */
-"audit_drill_down_section_header_similar" = "Items using similar password";
+"audit_drill_down_section_header_similar" = "Objekt med liknande lösenord";
 
 /* Actions */
-"audit_drill_down_section_header_actions" = "Actions";
+"audit_drill_down_section_header_actions" = "Åtgärder";
 
 /* No password has been set */
-"audit_summary_flag_no_password_set" = "No password has been set";
+"audit_summary_flag_no_password_set" = "Inget lösenord har angetts";
 
 /* This password is very common */
-"audit_summary_flag_very_common_password" = "This password is very common";
+"audit_summary_flag_very_common_password" = "Detta lösenord är mycket vanligt";
 
 /* This password is pwned (HIBP) */
 "audit_summary_flag_pwned" = "This password is pwned (HIBP)";
 
 /* This password is too short */
-"audit_summary_flag_password_is_too_short" = "This password is too short";
+"audit_summary_flag_password_is_too_short" = "Detta lösenord är för kort";
 
 /* The items above use exactly the same password as this item, this is generally considered a weakness. You should strive not to have any duplicated passwords. */
 "audit_drill_down_section_footer_duplicates" = "The items above use exactly the same password as this item. This is generally considered a weakness. You should strive not to have any duplicated passwords.";
@@ -3325,3 +3325,18 @@
 
 /* %@ Unlock (Translators Note: 1st param is 'Touch ID' or 'Face ID' - Used on the Upgrade, Freemium Onboarding/Welcome screen and the Free vs Pro Chart screen) */
 "generic_biometric_unlock_fmt" = "%@ Lås upp";
+
+/* By Default Strongbox now includes all your local documents and databases in Apple backups, however imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok? */
+"backup_settings_prompt_message" = "By default Strongbox includes all your local documents and databases in Apple backups, however imported Key Files are NOT included for security reasons. You can always change these settings in App Preferences.\n\nDoes this sound ok?";
+
+/* Backup Settings */
+"backup_settings_prompt_title" = "Inställningar för säkerhetskopiering";
+
+/* Yes, the defaults sound good */
+"backup_settings_prompt_option_yes_looks_good" = "Yes, sounds good";
+
+/* Yes, but also backup Key Files */
+"backup_settings_prompt_yes_but_include_key_files" = "Yes, but also backup key files";
+
+/* No, do NOT backup anything */
+"backup_settings_prompt_no_dont_backup_anything" = "No, do NOT backup anything";
