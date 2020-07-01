@@ -95,7 +95,7 @@
 "safes_vc_error_adding_database" = "Ошибка при добавлении";
 
 /* Error Message- unknown error while adding */
-"safes_vc_unknown_error_while_adding_database" = "При добавлении этой базы данных произошла неизвестная ошибка";
+"safes_vc_unknown_error_while_adding_database" = "При попытке добавления базы данных произошла ошибка";
 
 /* Error Title: Error creating database
    Error Title: Error while creating database */
@@ -105,10 +105,10 @@
 "safes_vc_copy_icloud_or_local" = "Скопировать в iCloud или на локальное устройство?";
 
 /* Question message: copy to iCloud or to Local */
-"safes_vc_copy_local_to_icloud" = "Использование iCloud включено. Хотите скопировать эту базу данных в iCloud или предпочитаете оставить только на локальном устройстве?";
+"safes_vc_copy_local_to_icloud" = "Использование iCloud включено. Хотите скопировать эту базу данных в iCloud или на локальное устройство?";
 
 /* Default button: Copy to Local */
-"safes_vc_copy_to_local" = "Оставить только на локальном устройстве";
+"safes_vc_copy_to_local" = "Скопировать на локальное устройство";
 
 /* Second Button: Copy to iCLoud */
 "safes_vc_copy_to_icloud" = "Скопировать в iCloud";
@@ -213,10 +213,10 @@
 "safesvc_import_database_prompt_title_edit_copy" = "Открытие файла";
 
 /* Strongbox can attempt to edit this document in its current location and keep a reference or, if you'd prefer, Strongbox can just make a copy of this file for itself.\n\nWhich option would you like? */
-"safesvc_import_database_prompt_message" = "Strongbox попытается открыть документ в его текущем месте и сохранить ссылку или, если Вам будет удобнее, создать копию этого файла в приложении.\n\nВыберите действие ниже.";
+"safesvc_import_database_prompt_message" = "Strongbox попытается открыть файл в его текущем месте и сохранить ссылку или, если Вам будет удобнее, создать копию этого файла в приложении.\n\nВыберите действие ниже.";
 
 /* Edit in Place */
-"safesvc_option_edit_in_place" = "Открыть документ";
+"safesvc_option_edit_in_place" = "Открыть";
 
 /* Make a Copy */
 "safesvc_option_make_a_copy" = "Создать копию";
@@ -240,13 +240,13 @@
 "safesvc_error_updating_message" = "Не удалось обновить локальный файл";
 
 /* Copy to iCloud or Local? */
-"safesvc_copy_database_to_location_title" = "Скопировать в iCloud или на локальное устройство?";
+"safesvc_copy_database_to_location_title" = "Копирование базы данных";
 
 /* iCloud is currently enabled. Would you like to copy this database to iCloud now, or would you prefer to keep on your local device only? */
-"safesvc_copy_database_to_location_message" = "Использование iCloud включено. Хотите скопировать эту базу данных в iCloud или предпочитаете оставить только на локальном устройстве?";
+"safesvc_copy_database_to_location_message" = "Использование iCloud включено. Хотите скопировать эту базу данных в iCloud или на локальное устройство?";
 
 /* Copy to Local Device Only */
-"safesvc_copy_database_option_to_local" = "Оставить только на локальном устройстве";
+"safesvc_copy_database_option_to_local" = "Скопировать на локальное устройство";
 
 /* Copy to iCloud */
 "safesvc_copy_database_option_to_icloud" = "Скопировать в iCloud";
@@ -505,13 +505,13 @@
 "casg_text_label_key_selected_key_file" = "Выбранный файл-ключ";
 
 /* Unlock */
-"casg_unlock_action" = "Разблок.";
+"casg_unlock_action" = "Разблокировать";
 
 /* %@ Unlock */
-"db_management_biometric_unlock_fmt" = "Разблокировка %@";
+"db_management_biometric_unlock_fmt" = "%@";
 
 /* %@ Unlock (Pro Only) */
-"db_management_biometric_unlock_fmt_pro_only" = "%@ (только в Pro версии)";
+"db_management_biometric_unlock_fmt_pro_only" = "%@ (Pro версия)";
 
 /* Change Master Credentials */
 "db_management_change_master_credentials" = "Изменить мастер-ключ";
@@ -538,10 +538,10 @@
 "db_management_disable_biometric_notify_title_fmt" = "%@ отключен";
 
 /* Disable %@? */
-"db_management_disable_biometric_question_fmt" = "Отключить %@?";
+"db_management_disable_biometric_question_fmt" = "Отключение %@";
 
 /* Disabling %@ for this database will remove the securely stored password and you will have to enter it again. Are you sure you want to do this? */
-"db_management_disable_biometric_warning_fmt" = "Отключив %@ для этой базы данных, надёжно сохраненный пароль будет удалён и Вам придется вводить его снова. Вы действительно хотите это сделать?";
+"db_management_disable_biometric_warning_fmt" = "Отключение %@ для этой базы данных приведёт к удалению сохраненного пароля и Вам придется вводить его заново. Хотите продолжить?";
 
 /* Are you sure you want to disable %@ for this database? */
 "db_management_disable_biomtric_simple_fmt" = "Вы действительно хотите отключить %@ для этой базы данных?";
@@ -796,7 +796,7 @@
 "sspc_ios_files_storage_location" = "Файлы";
 
 /* Since a local database is only stored on this device, any loss of this device will lead to the loss of all passwords stored within this database. You may want to consider using a cloud storage provider, such as the ones supported by Strongbox to avoid catastrophic data loss.\n\nWould you still like to proceed with creating a local device database? */
-"sspc_local_device_storage_warning_message" = "Т.к. локальная база данных хранится только на этом устройстве, потеря этого устройства приведет к потере всех паролей, хранящихся в этой базе данных. Подумайте об использовании облачного сервиса, поддерживаемого Strongbox, чтобы избежать потери данных.\n\nПродолжить создание базы данных на локальном устройстве?";
+"sspc_local_device_storage_warning_message" = "Т.к. база данных будет храниться только на этом устройстве, то его утеря приведет к утрате всех паролей, хранящихся в этой базе данных. Подумайте об использовании облачного сервиса, поддерживаемого Strongbox, чтобы избежать потери данных.\n\nПродолжить создание базы данных на локальном устройстве?";
 
 /* Local Device Database Caveat */
 "sspc_local_device_storage_warning_title" = "Предупреждение";
@@ -814,10 +814,10 @@
 "sspc_manual_import_placeholder_url" = "URL";
 
 /* Select where your existing database is stored */
-"sspc_select_where_existing_stored" = "Укажите, где хранится Ваша имеющаяся база данных";
+"sspc_select_where_existing_stored" = "Укажите, где хранится имеющаяся база данных";
 
 /* Select where you would like to store your new database */
-"sspc_select_where_store_new" = "Укажите, где Вы будете хранить новую базу данных";
+"sspc_select_where_store_new" = "Укажите, где Вы хотите хранить новую базу данных";
 
 /* 3 Months */
 "upgrade_vc_2monthly_subscription_title" = "3 месяца";
@@ -1001,7 +1001,7 @@
 "pins_config_vc_label_remove_database_warning" = "Примечание: Файл останется во внешнем хранилище";
 
 /* PIN Codes (Pro Feature Only) */
-"pins_config_vc_title_pro_only" = "Код-пароли (только в Pro версии)";
+"pins_config_vc_title_pro_only" = "Код-пароль (Pro версия)";
 
 /* Turning the PIN Off for this database will remove the securely stored password and you will have to enter it again. Are you sure you want to do this? */
 "pins_config_vc_turn_pin_off_warning" = "Выключение код-пароля для этой базы данных очистит главный пароль и Вам придется заново вводить его. Хотите продолжить?";
@@ -1016,10 +1016,10 @@
 "pins_config_vc_enter_duress_pin" = "Принуд. код-пароль";
 
 /* PIN Conflict */
-"pins_config_vc_error_pin_conflict_title" = "Конфликт код-паролей";
+"pins_config_vc_error_pin_conflict_title" = "Ошибка ввода";
 
 /* Your Convenience PIN conflicts with your Duress PIN. Please select another. */
-"pins_config_vc_error_pin_conflict_message" = "Код-пароль либо совпадает с принудительным код-паролем, либо отличается от заданного. Пожалуйста, попробуйте еще раз.";
+"pins_config_vc_error_pin_conflict_message" = "Код-пароли либо совпадают, либо отличаются по длине. Пожалуйста, попробуйте еще раз.";
 
 /* Warning */
 "pins_config_vc_warn_remove_database_title" = "Предупреждение";
@@ -1134,7 +1134,7 @@
 "sftp_provider_connect_failed_fmt" = "Не удалось подключиться к хосту: %@ [пользователь: %@]";
 
 /* Attachment Location */
-"add_attachment_vc_prompt_title" = "Расположение вложения";
+"add_attachment_vc_prompt_title" = "Выберите место";
 
 /* Photos */
 "add_attachment_vc_prompt_source_option_photos" = "Медиатека";
@@ -1218,7 +1218,7 @@
 "set_icon_vc_icon_source_download_favicon" = "Скачать значок сайта";
 
 /* Download FavIcon (Pro Only) */
-"set_icon_vc_icon_source_download_favicon_pro_only" = "Скачать значок сайта (только в Pro версии)";
+"set_icon_vc_icon_source_download_favicon_pro_only" = "Скачать значок сайта (Pro версия)";
 
 /* Downloading FavIcon */
 "set_icon_vc_progress_downloading_favicon" = "Загрузка значка";
@@ -1432,10 +1432,10 @@
 "key_files_vc_no_key_file" = "Без файл-ключа";
 
 /* The Convenience Password or Key File were incorrect for this database. Convenience Unlock Disabled. */
-"open_sequence_problem_opening_convenience_incorrect_message" = "Сохранённый пароль или другие составные факторы мастер-ключа (файл-ключ/Yubikey) для этой базы данных неверны. Быстрая разблокировка отключена.";
+"open_sequence_problem_opening_convenience_incorrect_message" = "Сохранённый пароль или другие составные факторы мастер-ключа (файл-ключ/YubiKey) для этой базы данных неверны. Быстрая разблокировка отключена.";
 
 /* Incorrect Credentials */
-"open_sequence_problem_opening_incorrect_credentials_title" = "Ошибка";
+"open_sequence_problem_opening_incorrect_credentials_title" = "Ошибка ввода";
 
 /* The credentials were incorrect for this database. */
 "open_sequence_problem_opening_incorrect_credentials_message" = "Неверный пароль";
@@ -1780,7 +1780,7 @@
 "item_details_tip" = "Совет: Нажмите единожды для копирования, дважды для запуска URL или копирования примечаний";
 
 /* Tip: Slide Left for Options or Tap to View */
-"keepass_history_tip" = "Совет: Смахните влево для выбора параметров или нажмите, чтобы просмотреть";
+"keepass_history_tip" = "Совет: Смахните влево для выбора параметров или нажмите для просмотра";
 
 /* Pin */
 "browse_vc_action_pin" = "Закрепить";
@@ -1789,10 +1789,10 @@
 "browse_vc_action_unpin" = "Открепить";
 
 /* Section Header Title for Expired Items */
-"browse_vc_section_title_expired" = "Срок истёк";
+"browse_vc_section_title_expired" = "Срок действия истёк";
 
 /* Section Header Title for Nearly Expired Items */
-"browse_vc_section_title_nearly_expired" = "Срок почти истёк";
+"browse_vc_section_title_nearly_expired" = "Срок действия истекает";
 
 /* Section Header Title for Pinned Items */
 "browse_vc_section_title_pinned" = "Избранное";
@@ -1933,7 +1933,7 @@
 "prefs_vc_info_email_support_options_check_twitter" = "Публикации Twitter";
 
 /* Mail Support (English Only) */
-"prefs_vc_info_email_support_options_mail_support" = "Отправить Email (только на английском языке)";
+"prefs_vc_info_email_support_options_mail_support" = "Отправить Email (только на англ. языке)";
 
 /* No comment provided by engineer. */
 "transfer_over_local_network_website_prologue" = "<p>Перетащите файлы в это окно или используйте кнопку \"Upload Files&hellip;\" для загрузки файлов. Если эти файлы являются действительными базами данных KeePass или Password Safe, они будут автоматически добавлены в список баз данных.</p><p>Примечание: Если Вы хотите, чтобы эти файлы работали с автозаполнением iOS, тогда смахните влево по базе данных в приложении, и включите функцию автозаполнения.</p>";
@@ -2207,7 +2207,7 @@
 "set_icon_vc_icon_source_download_favicons" = "Загрузить все значки для группы";
 
 /* Download FavIcon (Pro Only) */
-"set_icon_vc_icon_source_download_favicons_pro_only" = "Загрузить значки сайтов для группы (только в Pro версии)";
+"set_icon_vc_icon_source_download_favicons_pro_only" = "Загрузить значки сайтов для группы (Pro версия)";
 
 /* Set Icons */
 "browse_vc_action_set_icons" = "Значки...";
@@ -2249,7 +2249,7 @@
 "favicon_results_title" = "Результаты поиска";
 
 /* FavIcon Results (Pro Only) */
-"favicon_results_title_pro_only" = "Результаты поиска (только в Pro версии)";
+"favicon_results_title_pro_only" = "Результаты поиска (Pro версия)";
 
 /* %lu Icons Found (%dx%d selected) */
 "favicon_results_n_icons_found_with_xy_resolution_fmt" = "Найдено значков: %lu (%dx%d выбран)";
@@ -2596,13 +2596,13 @@
 "mac_upgrade_could_not_find_any_previous_purchases" = "Не удалось найти ранее приобретенные продукты.";
 
 /* Welcome back to Strongbox Pro */
-"mac_upgrade_welcome_back_to_strongbox" = "Добро пожаловать обратно в Pro версию Strongbox";
+"mac_upgrade_welcome_back_to_strongbox" = "Добро пожаловать в Strongbox Pro";
 
 /* Upgrade Restored Successfully. Thank you for your support!\n\nPlease restart the Application to enjoy your Pro features. */
 "mac_upgrade_upgrade_restored_success" = "Улучшение успешно восстановлено. Спасибо за Вашу поддержку!\n\nПожалуйста, перезапустите приложение, чтобы воспользоваться Pro-функциями.";
 
 /* Welcome to Strongbox Pro */
-"mac_upgrade_welcome_to_strongbox" = "Добро пожаловать в Pro версию Strongbox";
+"mac_upgrade_welcome_to_strongbox" = "Добро пожаловать в Strongbox Pro";
 
 /* Upgrade to Pro version successful! Thank you for your support!\n\nPlease restart the Application to enjoy your Pro features. */
 "mac_upgrade_upgrade_successful_thank_you" = "Улучшение до Pro версии выполнено успешно. Спасибо за Вашу поддержку!\n\nПожалуйста, перезапустите приложение, чтобы воспользоваться Pro функциями.";
@@ -2731,10 +2731,10 @@
 "auto_fill_welcome_live_storage_warning_message" = "Следует отметить, что следующие поставщики хранилищ данных не поддерживают прямой доступ к Вашей базе данных из расширений приложений:\nDropbox, OneDrive и Google Drive\nВ этих случаях Strongbox может использовать кэш. Используйте функцию автозаполнения Strongbox!\nС уважением, Марк";
 
 /* Automatically download FavIcon on URL Change (PRO Only) */
-"mac_auto_download_favicon_pro_only" = "Автоматически загружать значок сайта при изменении URL (только в Pro версии)";
+"mac_auto_download_favicon_pro_only" = "Автоматически загружать значок сайта при изменении URL (Pro версия)";
 
 /* Set Icons (Pro Only) */
-"mac_button_set_favicons_pro_only" = "Установить значки (только в Pro версии)";
+"mac_button_set_favicons_pro_only" = "Установить значки (Pro версия)";
 
 /* ⌘R to Reveal */
 "mac_button_reveal_master_password_title" = "⌘R, чтобы показать";
@@ -2773,7 +2773,7 @@
 "mac_convenience_unlock_title_bio_unavailable" = "Быстрая разблокировка (Touch ID/Watch недоступен)";
 
 /* Convenience Unlock (Pro Feature Only) */
-"mac_convenience_unlock_title_pro_only" = "Быстрая разблокировка (только в Pro версии)";
+"mac_convenience_unlock_title_pro_only" = "Быстрая разблокировка (Pro версия)";
 
 /* Convenience Password is securely stored, protected by your device's Secure Enclave and will expire: %@. - Translators Note: 1st Parameter is a date, like "Today at 14:52" or "16 September 2020 at 16:54" */
 "mac_convenience_summary_secure_enclave_and_will_expire_fmt" = "Пароль надёжно сохранён и защищён в чипе безопасности Вашего устройства. Срок истечения: %@.";
@@ -2821,7 +2821,7 @@
 "mac_unlock_screen_button_title_convenience_unlock_bio_unavailable" = "Touch ID/Watch недоступен";
 
 /* Touch ID/Watch Unlock (Pro Only) */
-"mac_unlock_screen_button_title_convenience_unlock_pro_only" = "Разблокировка Touch ID/Watch (только в Pro версии)";
+"mac_unlock_screen_button_title_convenience_unlock_pro_only" = "Разблокировка Touch ID/Watch (Pro версия)";
 
 /* Configure... */
 "casg_yubikey_configure_action" = "Настройка";
@@ -2842,13 +2842,13 @@
 "open_sequence_yubikey_only_available_in_pro" = "Разблокировка YubiKey доступна только в Pro версии Strongbox";
 
 /* NFC Yubikey (Pro Edition Only) */
-"yubikey_config_section_header_nfc_pro_only" = "NFC Yubikey (только в Pro версии)";
+"yubikey_config_section_header_nfc_pro_only" = "NFC YubiKey (Pro версия)";
 
 /* Disabled (Pro Edition Only) */
-"casg_yubikey_configured_disabled_pro_only" = "Отключен (только в Pro версии)";
+"casg_yubikey_configured_disabled_pro_only" = "Отключен (Pro версия)";
 
 /* Yubikey (Pro Edition Only) */
-"casg_section_header_yubikey_pro_only" = "Yubikey (только в Pro версии)";
+"casg_section_header_yubikey_pro_only" = "YubiKey (Pro версия)";
 
 /* Unknown (Translators Note: Used when generally when something can't be determined, e.g. The URL or file name of a database, or the type of storage provider used, or the format of a newly opened database etc.)*/
 "generic_unknown" = "Неизвестный";
@@ -2857,7 +2857,7 @@
 "mac_valid_credentials" = "Допустимый пароль";
 
 /* Could not get challenge response from Yubikey */
-"mac_error_getting_challenge_response_yubikey" = "Не удалось получить ответ Yubikey на запрос";
+"mac_error_getting_challenge_response_yubikey" = "Не удалось получить ответ YubiKey на запрос";
 
 /* Refreshing... (Translators Note: Used whenever running a fairly short operation to indicate somehting is happening, e.g. when polling YubiKey status (can take a few seconds)) */
 "generic_refreshing_ellipsis" = "Обновление...";
@@ -2869,25 +2869,25 @@
 "generic_none" = "Отсутствует";
 
 /* YubiKey (Pro Only) */
-"mac_lock_screen_yubikey_popup_menu_yubico_pro_only" = "YubiKey (только в Pro версии)";
+"mac_lock_screen_yubikey_popup_menu_yubico_pro_only" = "YubiKey (Pro версия)";
 
 /* Yubikey Slot %ld (Touch Required) - (Translators Note: Some YubiKey devices/configurations require the user to touch or press a button to authenticate. This string also takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_touch_required_fmt" = "Слот Yubikey %ld (Требуется касание)";
+"mac_yubikey_slot_n_touch_required_fmt" = "Слот YubiKey %ld (Требуется касание)";
 
 /* Yubikey Slot %ld (Translators Note: This string takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_fmt" = "Слот Yubikey %ld";
+"mac_yubikey_slot_n_fmt" = "Слот YubiKey %ld";
 
 /* No YubiKeys Found */
 "mac_no_yubikeys_found" = "Не найдено YubiKey";
 
 /* Yubikey %@ Slot %ld (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
-"mac_yubikey_serial_number_slot_n_touch_required_fmt" = "Yubikey %@ слот %ld (Требуется касание)";
+"mac_yubikey_serial_number_slot_n_touch_required_fmt" = "YubiKey %@ слот %ld (Требуется касание)";
 
 /* Yubikey %@ Slot %ld  - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2) */
-"mac_yubikey_serial_number_slot_n_fmt" = "Yubikey %@ слот %ld";
+"mac_yubikey_serial_number_slot_n_fmt" = "YubiKey %@ слот %ld";
 
 /* YubiKey found but no compatible HMACSHA1 slots available */
-"mac_yubikey_available_but_no_compatible_slots" = "YibiKey найден, но нет совместимых разъемов HMACSHA1";
+"mac_yubikey_available_but_no_compatible_slots" = "YubiKey найден, но нет совместимых разъемов HMACSHA1";
 
 "casg_yubikey_configured_mfi" = "Lightning";
 
@@ -2898,7 +2898,7 @@
 "autofill_did_not_close_cleanly_message" = "Возможно при последнем использовании автозаполнения у Вас произошёл сбой. Обычно это связано с ограничениями памяти iOS. Пожалуйста, проверьте размер файла базы данных и настройки памяти Argon2 (должно быть <= 64МБ)";
 
 /* Regenerate... */
-"password_generation_regenerate_ellipsis" = "Сгенерировать заново...";
+"password_generation_regenerate_ellipsis" = "Сгенерировать заново";
 
 /* Touch the key to read the OTP */
 "yubikey_touch_the_key_to_read_the_otp" = "Коснитесь ключа для чтения одноразового пароля";
@@ -2931,7 +2931,7 @@
 "upgrade_vc_enjoy_features_by_upgrading_fmt" = "Воспользуйтесь %@ и другими функциями Pro версии, улучшив приложение!";
 
 /* */
-"upgrade_question_answer_free_pro_differences" = "Главное отличие бесплатной и Pro версий Strongbox - это разблокировка с помощью Touch/Face ID.\n\nЭто очень удобный метод для разблокировки баз данных. Без него Вам необходимо вручную вводить свой пароль. Как правило, он является длинным и сложным, что может привести к медленному и подверженному ошибкам входу.\n\nКроме того, существуют другие продвинутые функции, такие как код-пароли или значки сайтов.\n\nЕщё одно преимущество заключается в том, что Вы больше не увидите это предложение об улучшении и поддержите дальнейшее развитие Strongbox.\n\nУвидеть различия Вы можете, нажав на кнопку «Сравнение бесплатной и Pro версий» на главном экране обновления.";
+"upgrade_question_answer_free_pro_differences" = "Главное отличие бесплатной и Pro версий Strongbox - это разблокировка с помощью Touch/Face ID.\n\nЭто очень удобный метод для разблокировки баз данных. Без него Вам необходимо вручную вводить свой пароль. Как правило, он является длинным и сложным, что может привести к медленному и подверженному ошибкам входу.\n\nКроме того, существуют другие продвинутые функции, такие как код-пароль или значки сайтов.\n\nЕщё одно преимущество заключается в том, что Вы больше не увидите это предложение об улучшении и поддержите дальнейшее развитие Strongbox.\n\nЧтобы посмотреть все различия, нажмите на кнопку «Сравнение бесплатной и Pro версий» на главном экране обновления.";
 
 /* */
 "upgrade_question_answer_end_trial" = "По окончании пробного периода Вы автоматически будете переведены на бесплатную версию и больше не сможете использовать дополнительные функции, такие как разблокировка Touch/Face ID.\n\nУ Вас также останется доступ к базам данных, поиску, редактированию и синхронизации баз данных с облачным сервисом.\n\nВремя от времени может появляться предложение об улучшении, чтобы посоветовать Вам поддержать текущую разработку.";
@@ -2982,7 +2982,7 @@
 "item_details_username_field_tags" = "Метки";
 
 /* 90 Day Trial */
-"upgrade_vc_start_your_free_trial" = "90 дней пробный Pro";
+"upgrade_vc_start_your_free_trial" = "Pro версия 90 дней";
 
 /* Free Trial - No subscription or commitment required!" */
 "upgrade_vc_start_your_free_trial_subtitle" = "Попробуйте все возможности Pro версии (без подписки, для запуска используется бесплатная встроенная покупка в приложении)";
@@ -3018,7 +3018,7 @@
 "audit_quick_summary_password_is_similar_to_another" = "Пароль похож на один из другой записи";
 
 /* Password is Pwned (HIBP) */
-"audit_quick_summary_pwned" = "Пароль взломан (HIBP)";
+"audit_quick_summary_pwned" = "Пароль скомпрометирован";
 
 /* All Entries */
 "quick_view_title_all_entries_title" = "Все записи";
@@ -3042,7 +3042,7 @@
 "quick_view_section_title_quick_views" = "Быстрые доступы";
 
 /* Enhanced Audits (Pro Edition Only) */
-"audit_similar_passwords_pro_only_title" = "Похожие пароли (только в Pro версии)";
+"audit_similar_passwords_pro_only_title" = "Похожие пароли (Pro версия)";
 
 /* Audit Issues (%ld) - Translators note: format param is number of items with audit issues e.g. 5 */
 "quick_view_title_audit_issues_title_fmt" = "Проблемы аудита (%ld)";
@@ -3150,7 +3150,7 @@
 "audit_hibp_online_check_interval" = "Выберите интервал проверки";
 
 /* Have I Been Pwned? (Pro Edition Only) */
-"audit_hibp_pro_only_title" = "Have I Been Pwned? (только в Pro версии)";
+"audit_hibp_pro_only_title" = "Have I Been Pwned? (Pro версия)";
 
 /* Auto Fetch FavIcon? */
 "item_details_prompt_auto_fetch_favicon_title" = "Автозагрузка значков?";
@@ -3237,7 +3237,7 @@
 "audit_drill_down_audit_this_item_preference_title" = "Проверка записи";
 
 /* Check if this password is Pwned (HIBP) */
-"audit_drill_down_action_check_hibp" = "Проверка пароля (HIBP)";
+"audit_drill_down_action_check_hibp" = "Проверка пароля HIBP";
 
 /* This item is excluded from Audits */
 "audit_status_item_is_exluded" = "Запись исключена из проверки";
@@ -3264,7 +3264,7 @@
 "audit_drill_down_view_all_audit_issues" = "Показать проблемы аудита";
 
 /* No Excluded Items */
-"audit_drill_down_no_excluded_items_title" = "Нет исключённых записей";
+"audit_drill_down_no_excluded_items_title" = "Записей не найдено";
 
 /* You have not explicitly excluded any items from the audit. You can exclude an item by sliding right on it and tapping the Audit button. */
 "audit_drill_down_no_excluded_items_subtitle" = "Вы не исключили из проверки какие-либо записи. Исключить элемент можно, смахнув по нему вправо и выбрать опцию проверки записи.";
@@ -3324,19 +3324,19 @@
 "generic_status_sp_locating_ellipsis" = "Поиск...";
 
 /* %@ Unlock (Translators Note: 1st param is 'Touch ID' or 'Face ID' - Used on the Upgrade, Freemium Onboarding/Welcome screen and the Free vs Pro Chart screen) */
-"generic_biometric_unlock_fmt" = "Разблокировка %@";
+"generic_biometric_unlock_fmt" = "%@";
 
 /* By Default Strongbox now includes all your local documents and databases in Apple backups, however imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok? */
-"backup_settings_prompt_message" = "По умолчанию Strongbox включает все локальные документы и базы данных в резервную копию, однако импортированные файл-ключи не входят в нее по соображениям безопасности. Вы всегда можете изменить эти параметры в настройках приложения.\n\nХотите продолжить?";
+"backup_settings_prompt_message" = "По умолчанию Strongbox включает в резервную копию все локальные файлы, однако импортированные файл-ключи не входят в нее по соображениям безопасности. Изменить эти параметры можно в настройках приложения.\n\nВыберите действие ниже.";
 
 /* Backup Settings */
 "backup_settings_prompt_title" = "Резервное копирование";
 
 /* Yes, the defaults sound good */
-"backup_settings_prompt_option_yes_looks_good" = "Да, продолжить";
+"backup_settings_prompt_option_yes_looks_good" = "Создать резервную копию";
 
 /* Yes, but also backup Key Files */
-"backup_settings_prompt_yes_but_include_key_files" = "Включить файл-ключ в копию";
+"backup_settings_prompt_yes_but_include_key_files" = "Создать копию с файл-ключом";
 
 /* No, do NOT backup anything */
-"backup_settings_prompt_no_dont_backup_anything" = "Не выполнять резервное копирование";
+"backup_settings_prompt_no_dont_backup_anything" = "Не создавать резервную копию";
