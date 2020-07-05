@@ -44,10 +44,10 @@
 "safes_vc_about_setting_quick_launch_and_confirm" = "Функция быстрого запуска означает, что  база данных будет разблокирована автоматически, как только Вы запустите или повторно активируете Strongbox. Это сэкономит одно драгоценное нажатие!\n\nВключить быстрый запуск для этой базы данных?";
 
 /* Button title to Show Database in iOS Files App */
-"safes_vc_show_database_in_files_info" = "Отображение этой базы данных в приложении Файлы также сделает её пригодной для доступа через Finder на Вашем Mac. Однако, база данных больше не будет доступна для записи в меню автозаполнения. Это связано с ограничениями iOS.\n\nПримечание: Вы всегда можете отменить это действие";
+"safes_vc_show_database_in_files_info" = "Отображение базы данных в приложении Файлы сделает её доступной для Finder на компьютере Mac. Однако база данных не будет доступна для записи при автозаполнении. Это связано с ограничениями iOS.\n\nПримечание: Это действие всегда можете отменить";
 
 /* Button title to Hide Database from the iOS Files App */
-"safes_vc_make_database_auto_fill_info" = "Скрытие этой базы данных в приложении Файлы означает, что она больше не будет доступна через Finder на компьютере Mac. Также Вы получите полноценный функционал (чтение/запись) автозаполнения.\n\nПримечание: Вы всегда можете отменить это действие";
+"safes_vc_make_database_auto_fill_info" = "Скрытие базы данных в приложении Файлы сделает её недоступной для Finder на компьютере Mac. Однако база данных будет доступна для записи при автозаполнении.\n\nПримечание: Это действие всегда можете отменить";
 
 /* OK/Cancel prompt title for changing local storage mode */
 "safes_vc_change_local_device_storage_mode_title" = "Отображение в Файлах";
@@ -56,13 +56,13 @@
 "safes_vc_could_not_change_storage_location_error" = "Не удалось изменить отображение в Файлах";
 
 /* informational message - made the file visible in iOS Files */
-"safes_vc_database_made_visible_in_files" = "База данных теперь будет отображаться в приложении Файлы";
+"safes_vc_database_made_visible_in_files" = "База данных теперь доступна в приложении Файлы";
 
 /* informational message - made the database fully autofillable */
-"safes_vc_database_made_fully_autofillable" = "База данных была скрыта из приложения Файлы";
+"safes_vc_database_made_fully_autofillable" = "База данных теперь недоступна в приложении Файлы";
 
 /* information message = title changed storage mode */
-"safes_vc_local_storage_mode_changed" = "Отображение в Файлах изменено";
+"safes_vc_local_storage_mode_changed" = "Отображение изменено";
 
 /* warning message about removing database from icloud */
 "safes_vc_remove_icloud_databases_warning" = "Это удалит базу данных со всех Ваших устройств с поддержкой iCloud.\n\nВы действительно хотите удалить эту базу данных из Strongbox и iCloud?";
@@ -105,10 +105,10 @@
 "safes_vc_copy_icloud_or_local" = "Скопировать в iCloud или на локальное устройство?";
 
 /* Question message: copy to iCloud or to Local */
-"safes_vc_copy_local_to_icloud" = "Использование iCloud включено. Хотите скопировать эту базу данных в iCloud или на локальное устройство?";
+"safes_vc_copy_local_to_icloud" = "Использование iCloud включено. Хотите скопировать эту базу данных в iCloud или использовать локально?";
 
 /* Default button: Copy to Local */
-"safes_vc_copy_to_local" = "Скопировать на локальное устройство";
+"safes_vc_copy_to_local" = "Использовать локально";
 
 /* Second Button: Copy to iCLoud */
 "safes_vc_copy_to_icloud" = "Скопировать в iCloud";
@@ -135,7 +135,7 @@
 "safesvc_icloud_no_longer_available_title" = "iCloud недоступен";
 
 /* Some databases were removed from this device because iCloud has become unavailable, but they remain stored in iCloud. */
-"safesvc_icloud_no_longer_available_message" = "Некоторые базы данных были удалены с этого устройства, т.к. iCloud стал недоступен, но они остались в iCloud.";
+"safesvc_icloud_no_longer_available_message" = "Некоторые ссылки на базы данных были удалены с этого устройства, т.к. iCloud стал недоступен. Файлы баз данных остались в iCloud.";
 
 /* You can now use iCloud with Strongbox. Should your current local databases be migrated to iCloud and available on all your devices? (NB: Your existing cloud databases will not be affected) */
 "safesvc_migrate_local_existing" = "Теперь можно использовать iCloud в Strongbox. Хотите переместить локальные базы данных в iCloud, чтобы сделать их доступными на всех Ваших устройствах? \nПримечание: имеющиеся базы данных в облаке не будут затронуты";
@@ -156,7 +156,7 @@
 "safesvc_option_use_icloud" = "Использовать iCloud";
 
 /* Local Only */
-"safesvc_option_local_only" = "Только на локальном устройстве";
+"safesvc_option_local_only" = "Использовать локально";
 
 /* iCloud Available */
 "safesvc_icloud_available_title" = "iCloud доступен";
@@ -168,7 +168,7 @@
 "safesvc_option_migrate_to_icloud" = "Переместить в iCloud";
 
 /* Keep Local */
-"safesvc_option_keep_local" = "Оставить на локальном устройстве";
+"safesvc_option_keep_local" = "Использовать локально";
 
 /* iCloud Unavailable */
 "safesvc_icloud_unavailable_title" = "iCloud недоступен";
@@ -213,7 +213,7 @@
 "safesvc_import_database_prompt_title_edit_copy" = "Открытие файла";
 
 /* Strongbox can attempt to edit this document in its current location and keep a reference or, if you'd prefer, Strongbox can just make a copy of this file for itself.\n\nWhich option would you like? */
-"safesvc_import_database_prompt_message" = "Strongbox попытается открыть файл в его текущем месте и сохранить ссылку или, если Вам будет удобнее, создать копию этого файла в приложении.\n\nВыберите действие ниже.";
+"safesvc_import_database_prompt_message" = "Strongbox попытается открыть файл в его текущем месте и сохранить ссылку или, если Вам будет удобнее, создаст копию этого файла в приложении.\n\nВыберите действие ниже.";
 
 /* Edit in Place */
 "safesvc_option_edit_in_place" = "Открыть";
@@ -243,10 +243,10 @@
 "safesvc_copy_database_to_location_title" = "Копирование базы данных";
 
 /* iCloud is currently enabled. Would you like to copy this database to iCloud now, or would you prefer to keep on your local device only? */
-"safesvc_copy_database_to_location_message" = "Использование iCloud включено. Хотите скопировать эту базу данных в iCloud или на локальное устройство?";
+"safesvc_copy_database_to_location_message" = "Использование iCloud включено. Хотите скопировать эту базу данных в iCloud или использовать локально?";
 
 /* Copy to Local Device Only */
-"safesvc_copy_database_option_to_local" = "Скопировать на локальное устройство";
+"safesvc_copy_database_option_to_local" = "Использовать локально";
 
 /* Copy to iCloud */
 "safesvc_copy_database_option_to_icloud" = "Скопировать в iCloud";
@@ -532,7 +532,7 @@
 "db_management_disable_autofill_yesno_title" = "Отключение автозаполнения";
 
 /* %@ for this database has been disabled. */
-"db_management_disable_biometric_notify_message_fmt" = "%@ для этой базы данных было отключен.";
+"db_management_disable_biometric_notify_message_fmt" = "%@ отключен для этой базы данных";
 
 /* %@ Disabled */
 "db_management_disable_biometric_notify_title_fmt" = "%@ отключен";
@@ -541,7 +541,7 @@
 "db_management_disable_biometric_question_fmt" = "Отключение %@";
 
 /* Disabling %@ for this database will remove the securely stored password and you will have to enter it again. Are you sure you want to do this? */
-"db_management_disable_biometric_warning_fmt" = "Отключение %@ для этой базы данных приведёт к удалению сохраненного пароля и Вам придется вводить его заново. Хотите продолжить?";
+"db_management_disable_biometric_warning_fmt" = "Отключение %@ для этой базы данных приведёт к удалению сохранённого пароля и Вам придется вводить его заново. Хотите продолжить?";
 
 /* Are you sure you want to disable %@ for this database? */
 "db_management_disable_biomtric_simple_fmt" = "Вы действительно хотите отключить %@ для этой базы данных?";
@@ -559,7 +559,7 @@
 "db_management_disable_offline_yesno_title" = "Отключить офлайн доступ?";
 
 /* %@ has been enabled for this database. */
-"db_management_enable_biometric_notify_message_fmt" = "%@ был включен для этой базы данных.";
+"db_management_enable_biometric_notify_message_fmt" = "%@ включен для этой базы данных";
 
 /* %@ Enabled */
 "db_management_enable_biometric_notify_title_fmt" = "%@ включен";
@@ -670,7 +670,7 @@
 "item_details_totp_copied" = "Одноразовый пароль скопирован";
 
 /* Are you sure you want to discard all your changes? */
-"item_details_vc_are_you_sure_discard_changes" = "Вы действительно хотите отменить все свои изменения?";
+"item_details_vc_are_you_sure_discard_changes" = "Вы действительно хотите отменить внесённые изменения?";
 
 /* Discard Changes? */
 "item_details_vc_discard_changes" = "Отмена изменений";
@@ -682,13 +682,13 @@
 "keepass_history_are_you_sure_delete_message" = "Вы действительно хотите удалить эту запись из истории?";
 
 /* Are you sure you want to restore this entry to this historical state? */
-"keepass_history_are_you_sure_restore_message" = "Вы действительно хотите восстановить элемент из этой записи в истории?";
+"keepass_history_are_you_sure_restore_message" = "Вы действительно хотите восстановить запись из истории?";
 
 /* App Lock Delay */
-"prefs_vc_app_lock_delay" = "Задержка блокировки приложения";
+"prefs_vc_app_lock_delay" = "Задержка блокировки";
 
 /* Lite Version %@ (Please Upgrade) */
-"prefs_vc_app_version_info_free_fmt" = "О Strongbox %@ (бесплатная версия - пожалуйста, улучшите)";
+"prefs_vc_app_version_info_free_fmt" = "О Strongbox %@ (бесплатная)";
 
 /* Pro Version %@ */
 "prefs_vc_app_version_info_pro_fmt" = "О Strongbox Pro %@";
@@ -697,16 +697,16 @@
 "prefs_vc_app_version_info_pro_trial_fmt" = "О Strongbox %@ (пробная Pro версия - осталось %ld дней)";
 
 /* Auto Lock Database Delay */
-"prefs_vc_auto_lock_database_delay" = "Задержка автоблокировки базы данных";
+"prefs_vc_auto_lock_database_delay" = "Задержка автоблокировки";
 
 /* This will clear all securely stored master passwords (for all databases) used by biometric unlock. Are you sure? */
-"prefs_vc_clear_biometrics_yesno_message" = "Это очистит сохранённые пароли (для всех баз данных), использующиеся для биометрической разблокировки. Хотите продолжить?";
+"prefs_vc_clear_biometrics_yesno_message" = "Сохранённые пароли для всех баз данных, использующиеся для биометрической разблокировки, будут очищены. Хотите продолжить?";
 
 /* Clear Biometrics */
-"prefs_vc_clear_biometrics_yesno_title" = "Очистить биометрию";
+"prefs_vc_clear_biometrics_yesno_title" = "Очистка биометрии";
 
 /* Clear Clipboard Delay */
-"prefs_vc_clear_clipboard_delay" = "Задержка";
+"prefs_vc_clear_clipboard_delay" = "Задержка очистки";
 
 /* This will clear all securely stored master passwords (for all databases) used for PIN Code unlock. Are you sure? */
 "prefs_vc_clear_pin_codes_yesno_message" = "Сохранённые пароли для всех баз данных, использующиеся для разблокировки код-паролем, будут очищены. Хотите продолжить?";
@@ -727,7 +727,7 @@
 "prefs_vc_delete_data_attempt_count" = "Количество неудачных попыток";
 
 /* Allow %@ ( Translators Note: 1st param is the name of biometric method, so: 'Allow Touch ID' or 'Allow Face ID')*/
-"prefs_vc_enable_biometric_fmt" = "Разрешить %@";
+"prefs_vc_enable_biometric_fmt" = "Использование %@";
 
 /* Please find Strongbox in the App Store and you can write a review there. Much appreciated!\n-Mark */
 "prefs_vc_info_cannot_open_app_store_message" = "Пожалуйста, оставьте отзыв о приложении Strongbox в App Store. Буду очень признателен!\n\nС уважением, Марк";
@@ -736,7 +736,7 @@
 "prefs_vc_info_cannot_open_app_store_title" = "Невозможно открыть App Store";
 
 /* Please be extremely careful as this will delete permanently any local device databases and all preferences */
-"prefs_vc_info_data_deletion_care_required_message" = "Пожалуйста, будьте предельно осторожны, т.к. все локальные базы данных и настройки Strongbox будут удалены с этого устройства при достижении указанного количества неудачных попыток разблокировки.";
+"prefs_vc_info_data_deletion_care_required_message" = "Пожалуйста, будьте предельно осторожны, т.к. все локальные базы данных и настройки Strongbox будут удалены с этого устройства по достижении указанного количества неудачных попыток разблокировки.";
 
 /* DATA DELETION: Care Required */
 "prefs_vc_info_data_deletion_care_required_title" = "Предупреждение";
@@ -1055,7 +1055,7 @@
 "key_files_vc_error_photos_unavailable_title" = "Медиатека недоступна";
 
 /* Could not access Photo Library. Does Strongbox have Permission? */
-"key_files_vc_error_photos_unavailable_message" = "Не удалось получить доступ к медиатеке. Настроены ли права доступа?";
+"key_files_vc_error_photos_unavailable_message" = "Не удалось получить доступ к медиатеке. У Strongbox есть право доступа?";
 
 /* Error Reading
    There was an error reading the Key File */
@@ -1134,7 +1134,7 @@
 "sftp_provider_connect_failed_fmt" = "Не удалось подключиться к хосту: %@ [пользователь: %@]";
 
 /* Attachment Location */
-"add_attachment_vc_prompt_title" = "Выберите место";
+"add_attachment_vc_prompt_title" = "Выберите источник";
 
 /* Photos */
 "add_attachment_vc_prompt_source_option_photos" = "Медиатека";
@@ -1149,10 +1149,10 @@
 "add_attachment_vc_error_source_unavailable_title" = "Источник недоступен";
 
 /* Strongbox could not access the camera. Does it have permission? */
-"add_attachment_vc_error_source_unavailable_camera" = "Strongbox не может получить доступ к камере. Настроены ли права доступа?";
+"add_attachment_vc_error_source_unavailable_camera" = "Приложению не удалось получить доступ к камере. У Strongbox есть право доступа?";
 
 /* Strongbox could not access photos. Does it have permission? */
-"add_attachment_vc_error_source_unavailable_photos" = "Strongbox не удалось получить доступ к медиатеке. Настроены ли права доступа?";
+"add_attachment_vc_error_source_unavailable_photos" = "Приложению не удалось получить доступ к медиатеке. У Strongbox есть право доступа?";
 
 /* Error Reading */
 "add_attachment_vc_error_reading_title" = "Ошибка чтения";
@@ -1200,25 +1200,25 @@
 "add_attachment_vc_warn_filename_used_message" = "Это имя файла уже используется. Пожалуйста, введите другое.";
 
 /* URL Invalid */
-"webdav_vc_validation_url_invalid" = "Ссылка неверна";
+"webdav_vc_validation_url_invalid" = "Неверная ссылка";
 
 /* Select Icon Source */
-"set_icon_vc_select_icon_source_title" = "Выбор источника";
+"set_icon_vc_select_icon_source_title" = "Изменение значка";
 
 /* Select the source of the icon you would like to use for this entry */
 "set_icon_vc_select_icon_source_message" = "Выберите источник значков, который Вы хотите использовать";
 
 /* KeePass & Database Icon Set */
-"set_icon_vc_icon_source_keepass_set" = "Набор значков KeePass и этой базы данных";
+"set_icon_vc_icon_source_keepass_set" = "Значки KeePass и этой базы данных";
 
 /* Media Library */
 "set_icon_vc_icon_source_media_libary" = "Медиатека";
 
 /* Download FavIcon */
-"set_icon_vc_icon_source_download_favicon" = "Скачать значок сайта";
+"set_icon_vc_icon_source_download_favicon" = "Загрузить значок сайта";
 
 /* Download FavIcon (Pro Only) */
-"set_icon_vc_icon_source_download_favicon_pro_only" = "Скачать значок сайта (Pro версия)";
+"set_icon_vc_icon_source_download_favicon_pro_only" = "Загрузить значок сайта (Pro версия)";
 
 /* Downloading FavIcon */
 "set_icon_vc_progress_downloading_favicon" = "Загрузка значка";
@@ -1272,7 +1272,7 @@
 "moveentry_vc_warn_creating_group_message" = "Не удалось создать группу с таким названием";
 
 /* Please Enter a Host */
-"sftp_vc_label_validation_enter_host" = "Пожалуйста, введите хост";
+"sftp_vc_label_validation_enter_host" = "Пожалуйста, укажите хост";
 
 /* Select a Private Key... */
 "sftp_vc_label_validation_select_private_key" = "Выберите закрытый ключ...";
@@ -1314,7 +1314,7 @@
 "qr_code_vc_warn_problem_accessing_camera_title" = "Не удалось получить доступ к камере";
 
 /* Strongbox could not access the camera on this device. Does it have permission? */
-"qr_code_vc_warn_problem_accessing_camera_message" = "Strongbox не может получить доступ к камере на этом устройстве. Настроены ли права доступа?";
+"qr_code_vc_warn_problem_accessing_camera_message" = "Приложению не удалось получить доступ к камере. У Strongbox есть право доступа?";
 
 /* Database Icons */
 "icons_vc_header_database_icons_title" = "Значки базы данных";
@@ -1444,7 +1444,7 @@
 "open_sequence_yesno_set_quick_launch_title" = "Быстрый запуск";
 
 /* Would you like to use this as your Quick Launch database? Quick Launch means you will get prompted immediately to unlock when you open Strongbox, saving you a precious tap. */
-"open_sequence_yesno_set_quick_launch_message" = "Быстрый запуск означает, что Вам сразу же будет предложено разблокировать базу данных при открытии Strongbox, что сэкономит Вам одно дополнительное нажатие. Хотите использовать быстрый запуск для этой базы данных?";
+"open_sequence_yesno_set_quick_launch_message" = "Функция быстрого запуска означает, что  база данных будет разблокирована автоматически, как только Вы запустите или повторно активируете Strongbox. Это сэкономит одно драгоценное нажатие!\n\nВключить быстрый запуск для этой базы данных?";
 
 /* Convenience Unlock: Use %@ or PIN Code in Future? */
 "open_sequence_prompt_use_convenience_both_title_fmt" = "Быстрая разблокировка";
@@ -1594,10 +1594,10 @@
 "cloud_sessions_clear_onedrive" = "Очистить сессию OneDrive";
 
 /* Sign Out of Google Drive? */
-"cloud_sessions_prompt_signout_google_title" = "Выйти из Google Диска?";
+"cloud_sessions_prompt_signout_google_title" = "Выход из Google Drive";
 
 /* Are you sure you want to sign out of Google Drive? */
-"cloud_sessions_prompt_signout_google_message" = "Вы действительно хотите выйти из Google Диска?";
+"cloud_sessions_prompt_signout_google_message" = "Вы действительно хотите выйти из Google Drive?";
 
 /* Sign Out Successful */
 "cloud_sessions_prompt_google_signout_success_title" = "Выход успешен";
@@ -1606,19 +1606,19 @@
 "cloud_sessions_prompt_google_signout_success_message" = "Вы успешно вышли из Google Диска.";
 
 /* Unlink Dropbox? */
-"cloud_sessions_prompt_unlink_dropbox_title" = "Отсоединить Dropbox?";
+"cloud_sessions_prompt_unlink_dropbox_title" = "Отсоединение Dropbox";
 
 /* Are you sure you want to unlink Strongbox from Dropbox? */
-"cloud_sessions_prompt_unlink_dropbox_message" = "Вы действительно хотите отсоединить Strongbox от Dropbox?";
+"cloud_sessions_prompt_unlink_dropbox_message" = "Вы действительно хотите отсоединить Dropbox?";
 
 /* Unlink Successful */
 "cloud_sessions_prompt_dropbox_unlink_success_title" = "Отсоединение успешно";
 
 /* You have successfully unlinked Strongbox from Dropbox. */
-"cloud_sessions_prompt_dropbox_unlink_success_message" = "Вы успешно отсоединили Strongbox от Dropbox.";
+"cloud_sessions_prompt_dropbox_unlink_success_message" = "Вы успешно отсоединили Dropbox.";
 
 /* Sign out of OneDrive? */
-"cloud_sessions_prompt_signout_onedrive_title" = "Выйти из OneDrive?";
+"cloud_sessions_prompt_signout_onedrive_title" = "Выход из OneDrive";
 
 /* Are you sure you want to sign out of OneDrive? */
 "cloud_sessions_prompt_signout_onedrive_message" = "Вы действительно хотите выйти из OneDrive?";
@@ -1663,7 +1663,7 @@
 "model_sample_group_title" = "Образец группы";
 
 /* username */
-"model_sample_entry_username" = "логин";
+"model_sample_entry_username" = "Логин";
 
 /* Sample */
 "model_sample_entry_title" = "Образец записи";
@@ -1774,13 +1774,13 @@
 "safes_vc_action_reorder_database" = "Изменение порядка...";
 
 /* Tip displayed at top of screen. Slide left on Database for options */
-"safes_vc_tip" = "Совет: Смахните влево по базе данных для выбора параметров";
+"safes_vc_tip" = "Смахните влево по базе данных для опций";
 
 /* Tip: Tap to Copy, Double Tap to Launch URL or Copy Notes */
-"item_details_tip" = "Совет: Нажмите единожды для копирования, дважды для запуска URL или копирования примечаний";
+"item_details_tip" = "Нажмите единожды для копирования, дважды для запуска URL или копирования примечаний";
 
 /* Tip: Slide Left for Options or Tap to View */
-"keepass_history_tip" = "Совет: Смахните влево для выбора параметров или нажмите для просмотра";
+"keepass_history_tip" = "Смахните влево для опций или нажмите для просмотра";
 
 /* Pin */
 "browse_vc_action_pin" = "Закрепить";
@@ -1933,7 +1933,7 @@
 "prefs_vc_info_email_support_options_check_twitter" = "Публикации Twitter";
 
 /* Mail Support (English Only) */
-"prefs_vc_info_email_support_options_mail_support" = "Отправить Email (только на англ. языке)";
+"prefs_vc_info_email_support_options_mail_support" = "Отправить Email (только на англ. яз.)";
 
 /* No comment provided by engineer. */
 "transfer_over_local_network_website_prologue" = "<p>Перетащите файлы в это окно или используйте кнопку \"Upload Files&hellip;\" для загрузки файлов. Если эти файлы являются действительными базами данных KeePass или Password Safe, они будут автоматически добавлены в список баз данных.</p><p>Примечание: Если Вы хотите, чтобы эти файлы работали с автозаполнением iOS, тогда смахните влево по базе данных в приложении, и включите функцию автозаполнения.</p>";
@@ -2243,7 +2243,7 @@
 "favicon_retry_failed_action" = "Повторить для неудачных";
 
 /* No eligible items with valid URLs found... */
-"favicon_status_no_eligible_items" = "Не найдено подходящих элементов / допустимых URL-адресов...";
+"favicon_status_no_eligible_items" = "Не найдено подходящих элементов / допустимых URL-адресов";
 
 /* FavIcon Results */
 "favicon_results_title" = "Результаты поиска";
@@ -2425,7 +2425,7 @@
 
 /* Hi and welcome to Strongbox!\n\nI hope you'll really like the app, and find it useful. You can enjoy this fully featured Pro version of Strongbox for the next three months. After that point, you will be transitioned to the regular version of Strongbox.\n\nYou can always find out more at any time by tapping 'Upgrade to Pro' in the Strongbox menu item.\n\nThanks!\n-Mark */
 
-"mac_welcome_to_strongbox_message" = "Привет и добро пожаловать в Strongbox!\n\nНадеюсь, приложение Вам действительно понравится и будет полезным! Вы можете использовать полный функционал Pro версии Strongbox в течении следующих трёх месяцев. По окончании пробного периода Вы будете переведены на базовую версию Strongbox.\n\nВы всегда можете узнать больше, нажав кнопку 'Обновить до Pro' в пункте меню Strongbox.\n\nСпасибо!\nС уважением, Марк";
+"mac_welcome_to_strongbox_message" = "Привет и добро пожаловать в Strongbox!\n\nНадеюсь, приложение Вам действительно понравится и будет полезным в использовании! Вы можете использовать функционал Pro версии Strongbox в течение следующих трёх месяцев. По окончании пробного периода Вы будете переведены на базовую версию Strongbox.\n\nВы всегда можете узнать больше, нажав кнопку 'Обновить до Pro' в пункте меню Strongbox.\n\nСпасибо!\nС уважением, Марк";
 
 /* Change Master Credentials */
 "mac_undo_action_change_master_credentials" = "Изменить мастер-ключ";
@@ -2728,7 +2728,7 @@
 "auto_fill_welcome_message_header" = "Добро пожаловать";
 
 /* Translators Note: A welcome/warning message that certain native storage providers do not support Live Auto Fill, and must use a cached version of the database */
-"auto_fill_welcome_live_storage_warning_message" = "Следует отметить, что следующие поставщики хранилищ данных не поддерживают прямой доступ к Вашей базе данных из расширений приложений:\nDropbox, OneDrive и Google Drive\nВ этих случаях Strongbox может использовать кэш. Используйте функцию автозаполнения Strongbox!\nС уважением, Марк";
+"auto_fill_welcome_live_storage_warning_message" = "Обратите внимание, что поставщики хранилищ данных: Dropbox, Microsoft OneDrive и Google Drive не поддерживают прямой доступ к Вашей базе данных из расширений приложений.\nВ этих случаях Strongbox может использовать кэш базы данных для автозаполнения.";
 
 /* Automatically download FavIcon on URL Change (PRO Only) */
 "mac_auto_download_favicon_pro_only" = "Автоматически загружать значок сайта при изменении URL (Pro версия)";
@@ -2919,7 +2919,7 @@
 "keepass_icon_set_sf_symbols" = "SF-символы (iOS 13+)";
 
 /* Translators Note: 1 parameter here to mention Biometric unlock, which depends on the device (will be either: 'Touch ID Unlock' or 'Face ID Unlock') */
-"upgrade_short_developer_message_fmt" = "Привет! Я, Марк, разработчик Strongbox. Strongbox является условно-бесплатным приложением - это означает, что есть бесплатная и Pro версии. Я надеюсь, Вам действительно понравится Strongbox и будет полезным в использовании.\n\nРассматриваете возможность улучшить функционал приложения? Так Вы можете помочь независимому разработчику и сделать возможным постоянное совершенствование приложения.\n\nВы также получите доступ к таким функциям Pro, как %@, код-пароли и значки сайтов!\n\nЯ с удовольствием работаю над этим приложением, и Ваша поддержка позволяет мне продолжать это делать.\n\nСпасибо!\nС уважением, Марк";
+"upgrade_short_developer_message_fmt" = "Привет! Я, Марк, разработчик Strongbox. Strongbox является условно-бесплатным приложением. Это означает, что есть бесплатная и Pro версии. Я надеюсь, Вам действительно понравится Strongbox и будет полезным в использовании.\n\nРассматриваете возможность улучшить функционал приложения? Так Вы можете помочь независимому разработчику и сделать возможным постоянное совершенствование Strongbox.\n\nВы также получите доступ к таким функциям Pro, как %@, код-пароли и значки сайтов!\n\nЯ с удовольствием работаю над этим приложением, и Ваша поддержка позволяет мне продолжать это делать.\n\nСпасибо!\nС уважением, Марк";
 
 /* Translators Note: 1 parameter indicating number of days left in users free trial */
 "upgrade_vc_you_have_n_days_remaining_fmt" = "У Вас осталось %ld дней пробного периода Pro версии";
@@ -2940,10 +2940,10 @@
 "upgrade_question_answer_free_version_forever" = "Безусловно, Вы можете использовать бесплатную версию бессрочно. Она весьма функциональна. Однако, если Вам нравится Strongbox, и приложение для Вас является ценным помощником или делает Вашу жизнь более безопасной, пожалуйста, подумайте об улучшении.";
 
 /* */
-"upgrade_question_answer_another_question" = "Если у Вас есть другие вопросы, Вы можете попытаться найти ответ онлайн, например, воспользовавшись поиском, или Reddit (r/strongbox), а также на веб сайте (https://strongboxsafe.com/faq).\n\nЕсли у Вас возникли непреодолимые трудности, Вы можете написать на support@strongboxsafe.com на английском языке. Имейте ввиду, что поддержка отнимает много времени, поэтому постарайтесь сделать Ваш запрос кратким и точным.";
+"upgrade_question_answer_another_question" = "Если у Вас есть другие вопросы, то можно попытаться найти ответ онлайн. Например, воспользоваться поиском или материалами Reddit (r/strongbox), а также на веб сайте (https://strongboxsafe.com/faq).\n\nЕсли у Вас возникли непреодолимые трудности, то можно написать на support@strongboxsafe.com на английском языке. Пожалуйста, помните, что поддержка отнимает много времени, поэтому постарайтесь сделать Ваш запрос кратким и точным.";
 
 /* */
-"upgrade_question_answer_works_on_other_devices" = "Да, улучшение привязано к Вашему Apple ID. Таким образом, если Вы вошли в учётную запись Apple ID на других Ваших iOS устройствах, Strongbox будет доступен в полной версии Pro.\n\nЭто должно произойти автоматически, но Вам может потребоваться нажать кнопку «Восстановить предыдущие покупки», если этого не произойдёт.";
+"upgrade_question_answer_works_on_other_devices" = "Да, улучшение привязано к Вашему Apple ID. Таким образом, если Вы вошли в учётную запись Apple ID на других Ваших iOS устройствах, Strongbox будет доступен в Pro версии.\n\nЭто должно произойти автоматически, но Вам может потребоваться нажать кнопку «Восстановить предыдущие покупки», если этого не произойдёт.";
 
 /* */
 "upgrade_question_answer_share_family" = "Это будет работать только в том случае, если Вы уже зарегистрировали и настроили общий доступ с Вашей семьей или друзьями в рамках программы «Семейного доступа» Apple.\n\nВо-вторых, Вам нужно купить отдельную версию Strongbox вместо использования встроенной покупки в приложении. Данная мера необходима из-за того, что функция «Семейного доступа» Apple не поддерживает встроенные покупки в приложениях.\n\nНа главном экране улучшения Вы можете найти версию «Семейного доступа» Apple, нажав соответствующую кнопку.";
@@ -2994,7 +2994,7 @@
 "safes_vc_upgrade_info_trial_available_button_title" = "Улучшить (пробный период Pro)";
 
 /* Would you like to add an entry or a group? */
-"browse_add_group_or_entry_question" = "Вы хотите добавить запись или группу?";
+"browse_add_group_or_entry_question" = "Вы хотите добавить группу или запись?";
 
 /* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be securely stored for %@ before you need to re-enter it. Note for translators (1st Param = "Touch ID", 2nd Param is a time span something like "2 weeks") */
 "mac_use_biometric_to_open_in_future_fmt" = "Хотите использовать %@ или Apple Watch для разблокировки этой базы данных в будущем? Ваш пароль будет надёжно сохранён на %@, прежде чем Вам потребуется повторно ввести его.";
@@ -3153,10 +3153,10 @@
 "audit_hibp_pro_only_title" = "Have I Been Pwned? (Pro версия)";
 
 /* Auto Fetch FavIcon? */
-"item_details_prompt_auto_fetch_favicon_title" = "Автозагрузка значков?";
+"item_details_prompt_auto_fetch_favicon_title" = "Автозагрузка значков";
 
 /* Strongbox can automatically fetch FavIcons when an new entry is created or updated.\n\nWould you like to Strongbox to do this? */
-"item_details_prompt_auto_fetch_favicon_message" = "Strongbox может автоматически загружать значки сайтов при создании новой записи или обновлении существующей.\n\nВы хотите, чтобы Strongbox это делал?";
+"item_details_prompt_auto_fetch_favicon_message" = "Strongbox может автоматически загружать значки сайтов при создании новой записи или обновлении существующей.\n\nХотите использовать автозагрузку?";
 
 /* Try Strongbox Pro? */
 "browse_pro_nudge_title" = "Попробовать Strongbox Pro?";
@@ -3267,7 +3267,7 @@
 "audit_drill_down_no_excluded_items_title" = "Записей не найдено";
 
 /* You have not explicitly excluded any items from the audit. You can exclude an item by sliding right on it and tapping the Audit button. */
-"audit_drill_down_no_excluded_items_subtitle" = "Вы не исключили из проверки какие-либо записи. Исключить элемент можно, смахнув по нему вправо и выбрать опцию проверки записи.";
+"audit_drill_down_no_excluded_items_subtitle" = "Вы не исключили из проверки какие-либо записи. Для исключения записи смахните по ней вправо и выберите опцию проверки.";
 
 /* Unexclude */
 "audit_excluded_items_vc_action_unclude" = "Отменить исключение";

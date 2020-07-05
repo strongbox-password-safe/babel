@@ -1,8 +1,8 @@
 /* Class = "UITableViewSection"; footerTitle = "When you perform a backup of this device via Finder or iTunes you can control whether local databases and imported key files are included in that backup here"; ObjectID = "28j-ig-jed"; */
-"28j-ig-jed.footerTitle" = "Когда вы создаёте резервную копию этого устройства через Finder или iTunes, то можно указать - включать или не включать в неё локальные базы данных и файл-ключи.";
+"28j-ig-jed.footerTitle" = "При создании резервной копии этого устройства через Finder или iTunes вы можете указать - включать или не включать в неё локальные базы данных и файл-ключи.";
 
 /* Class = "UITableViewSection"; headerTitle = "Backup Settings (Apple Device Backup)"; ObjectID = "28j-ig-jed"; */
-"28j-ig-jed.headerTitle" = "Резервное копирование файлов";
+"28j-ig-jed.headerTitle" = "Резервное копирование";
 
 /* Class = "UILabel"; text = "Allow Clipboard Handoff"; ObjectID = "2AQ-TK-Aer"; */
 "2AQ-TK-Aer.text" = "Универсальный буфер обмена";
@@ -11,7 +11,7 @@
 "2Vj-YI-TME.text" = "Изменить";
 
 /* Class = "UILabel"; text = "Use iCloud"; ObjectID = "2eC-UV-Ohi"; */
-"2eC-UV-Ohi.text" = "Использовать iCloud";
+"2eC-UV-Ohi.text" = "Использование iCloud";
 
 /* Class = "UITableViewSection"; headerTitle = "General"; ObjectID = "4Ci-Jw-CSP"; */
 "4Ci-Jw-CSP.headerTitle" = "Общие";
@@ -107,7 +107,7 @@
 "Qdz-C4-wBV.segmentTitles[1]" = "Настроить";
 
 /* Class = "UILabel"; text = "Show Tips"; ObjectID = "R9S-IH-dDH"; */
-"R9S-IH-dDH.text" = "Показывать советы";
+"R9S-IH-dDH.text" = "Экранные подсказки";
 
 /* Class = "UILabel"; text = "Help"; ObjectID = "S3p-VK-22L"; */
 "S3p-VK-22L.text" = "Часто задаваемые вопросы";
@@ -122,7 +122,7 @@
 "X1D-tE-8NC.text" = "Оцените Strongbox в App Store";
 
 /* Class = "UITableViewSection"; footerTitle = "Require a PIN code and/or Biometric authentication before opening Strongbox. If enabled, this will happen immediately on startup, and subsequently (after an optional delay) on switching away from Strongbox. "; ObjectID = "Xea-R2-BE7"; */
-"Xea-R2-BE7.footerTitle" = "Запрос код-пароля и/или биометрической аутентификации при открытии Strongbox. Если включено, это произойдет при запуске, а затем (после указанной задержки) при переключении из Strongbox. ";
+"Xea-R2-BE7.footerTitle" = "Запрос аутентификации при открытии Strongbox. Если включено, это произойдет при запуске или (после указанной задержки) при переключении из Strongbox.";
 
 /* Class = "UITableViewSection"; headerTitle = "Application Lock"; ObjectID = "Xea-R2-BE7"; */
 "Xea-R2-BE7.headerTitle" = "Блокировка приложения";
@@ -149,7 +149,7 @@
 "cWJ-43-jhK.text" = "Изменить";
 
 /* Class = "UITableViewSection"; footerTitle = "Deletes all Databases, Local Files, Caches, Key Files, Preferences and Keychain Entries after too many failed unlock attempts. NB: Cloud files are not deleted, just Strongbox's reference to them."; ObjectID = "dT5-0S-5Fy"; */
-"dT5-0S-5Fy.footerTitle" = "Strongbox удалит все данные внутри приложения после указанного количества неудачных попыток разблокировки. Примечание: Файлы в облачных хранилищах не будут удалены - удаляются только ссылки на них";
+"dT5-0S-5Fy.footerTitle" = "Strongbox удалит все данные внутри приложения после указанного количества неудачных попыток разблокировки.\nПримечание: Файлы в облачных хранилищах не будут удалены";
 
 /* Class = "UITableViewSection"; headerTitle = "Delete All Data on App Unlock Failure"; ObjectID = "dT5-0S-5Fy"; */
 "dT5-0S-5Fy.headerTitle" = "Стирание данных приложения";
@@ -167,7 +167,7 @@
 "hDt-Fd-64Z.text" = "Стирание данных";
 
 /* Class = "UILabel"; text = "Hide Key File Name on Unlock Screen"; ObjectID = "hLc-Hn-3pY"; */
-"hLc-Hn-3pY.text" = "Скрыть имя файл-ключа при разблокировке";
+"hLc-Hn-3pY.text" = "Скрывать имя файл-ключа";
 
 /* Class = "UITableViewController"; title = "Advanced Preferences"; ObjectID = "hwI-HO-qLt"; */
 "hwI-HO-qLt.title" = "Расширенные настройки";
@@ -200,7 +200,7 @@
 "l7v-m5-yUl.headerTitle" = "Прочие";
 
 /* Class = "UILabel"; text = "Use Color Blind Palette for Passwords"; ObjectID = "lha-oo-sGv"; */
-"lha-oo-sGv.text" = "Применить в паролях цветовую палитру для страдающих дальтонизмом";
+"lha-oo-sGv.text" = "Палитра Color Blind в паролях";
 
 /* Class = "UISegmentedControl"; mVt-rZ-QN9.segmentTitles[0] = "No Lock"; ObjectID = "mVt-rZ-QN9"; */
 "mVt-rZ-QN9.segmentTitles[0]" = "Отсутствует";
@@ -215,7 +215,7 @@
 "mVt-rZ-QN9.segmentTitles[3]" = "Оба";
 
 /* Class = "UITableViewSection"; footerTitle = "Allow or disallow application wide use of convenience unlocking methods"; ObjectID = "o6m-Uq-NQN"; */
-"o6m-Uq-NQN.footerTitle" = "Разрешить или запретить Strongbox использовать методы быстрой разблокировки";
+"o6m-Uq-NQN.footerTitle" = "Разрешить или запретить Strongbox использование методов быстрой разблокировки";
 
 /* Class = "UITableViewSection"; headerTitle = "Database Convenience Unlocking"; ObjectID = "o6m-Uq-NQN"; */
 "o6m-Uq-NQN.headerTitle" = "Методы быстрой разблокировки";
@@ -224,7 +224,7 @@
 "p04-FH-J6b.title" = "Элемент";
 
 /* Class = "UILabel"; text = "Allow PIN Code"; ObjectID = "qGu-QL-oXY"; */
-"qGu-QL-oXY.text" = "Разрешить код-пароль";
+"qGu-QL-oXY.text" = "Использование код-пароля";
 
 /* Class = "UISegmentedControl"; rC5-aN-yQt.segmentTitles[0] = "None"; ObjectID = "rC5-aN-yQt"; */
 "rC5-aN-yQt.segmentTitles[0]" = "Отсутствует";
