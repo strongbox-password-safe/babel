@@ -1302,7 +1302,7 @@
 "custom_field_vc_validation_name_already_in_use_error" = "Это название уже используется другим настраиваемым полем.";
 
 /* You are in read-only mode. Cannot Write! */
-"model_error_readonly_cannot_write" = "Вы находитесь в режиме «только для чтения». Изменения не возможны!";
+"model_error_readonly_cannot_write" = "Вы находитесь в режиме «Только для чтения». Изменения невозможны!";
 
 /* You are currently in offline mode. The database cannot be modified. */
 "model_error_offline_cannot_write" = "Вы находитесь в офлайн режиме. База данных не может быть изменена.";
@@ -1374,7 +1374,7 @@
 "open_sequence_prompt_too_many_incorrect_pins_title" = "Неверный код-пароль";
 
 /* You have entered the wrong PIN too many times. PIN Unlock is now disabled, and you must enter the master password to unlock this database. */
-"open_sequence_prompt_too_many_incorrect_pins_message" = "Неверный код-пароль был введён слишком много раз. Разблокировка по код-паролю отключена и Вам необходимо ввести пароль вручную, чтобы разблокировать эту базу данных.";
+"open_sequence_prompt_too_many_incorrect_pins_message" = "Неверный код-пароль был введён слишком много раз. Разблокировка по код-паролю отключена и Вам необходимо ввести пароль вручную, чтобы разблокировать базу данных.";
 
 /* There was a technical error opening the database. */
 "open_sequence_duress_technical_error_message" = "При открытии базы данных произошла техническая ошибка.";
@@ -1392,10 +1392,10 @@
 "open_sequence_biometric_unlock_warn_failed_title_fmt" = "Ошибка %@";
 
 /* %@ Authentication Failed. You must now enter your password manually to open the database. */
-"open_sequence_biometric_unlock_warn_failed_message_fmt" = "Ошибка аутентификации %@. Теперь Вы должны ввести свой пароль вручную, чтобы открыть базу данных.";
+"open_sequence_biometric_unlock_warn_failed_message_fmt" = "Ошибка аутентификации %@. Необходимо ввести свой пароль вручную, чтобы открыть базу данных.";
 
 /* %@ has failed: %@. You must now enter your password manually to open the database. */
-"open_sequence_biometric_unlock_warn_not_configured_fmt" = "Ошибка %@: %@. Теперь Вы должны ввести свой пароль вручную, чтобы открыть базу данных.";
+"open_sequence_biometric_unlock_warn_not_configured_fmt" = "Ошибка %@: %@. Необходимо ввести свой пароль вручную, чтобы открыть базу данных.";
 
 /* Error Reading Key File */
 "open_sequence_error_reading_key_file" = "Не удалось открыть файл-ключ. Возможно он был перемещён или удалён? Проверьте управление файл-ключами в настройках";
@@ -1450,19 +1450,19 @@
 "open_sequence_prompt_use_convenience_both_title_fmt" = "Быстрая разблокировка";
 
 /* You can use either %@ or a convenience PIN Code to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use one of these methods, please select from below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
-"open_sequence_prompt_use_convenience_both_message_fmt" = "Можно использовать %@ или код-пароль, чтобы разблокировать эту базу данных. Несмотря на удобство, безопасность базы данных на этом устройстве может снизиться. Выберите один из этих способов или нажмите «Нет», чтобы продолжить использование своего пароля.\n\nВажно: Вы ВСЕГДА должны помнить свой пароль";
+"open_sequence_prompt_use_convenience_both_message_fmt" = "Можно использовать %@ или код-пароль, чтобы разблокировать базу данных. Несмотря на удобство, безопасность базы данных на устройстве может снизиться. Выберите один из способов или нажмите «Нет», чтобы продолжить использование своего пароля.\n\nВажно: Вы ВСЕГДА должны помнить свой пароль";
 
 /* Convenience Unlock: Use %@ to Unlock in Future? */
 "open_sequence_prompt_use_convenience_bio_title_fmt" = "Быстрая разблокировка";
 
 /* You can use %@ to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use this then please select it below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
-"open_sequence_prompt_use_convenience_bio_message_fmt" = "Можно использовать %@, чтобы разблокировать эту базу данных. Несмотря на удобство, безопасность базы данных на этом устройстве может снизиться. Выберите ниже, если хотите использовать этот способ или выберите «Нет», чтобы продолжить использование своего пароля.\n\nВажно: Вы ВСЕГДА должны помнить свой пароль";
+"open_sequence_prompt_use_convenience_bio_message_fmt" = "Можно использовать %@, чтобы разблокировать базу данных. Несмотря на удобство, безопасность базы данных на устройстве может снизиться. Выберите ниже, если хотите использовать этот способ или выберите «Нет», чтобы продолжить использование своего пароля.\n\nВажно: Вы ВСЕГДА должны помнить свой пароль";
 
 /* Convenience Unlock: Use a PIN Code to Unlock in Future? */
 "open_sequence_prompt_use_convenience_pin_title" = "Быстрая разблокировка";
 
 /* You can use a convenience PIN Code to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use this then please select it below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
-"open_sequence_prompt_use_convenience_pin_message" = "Можно использовать код-пароль, чтобы разблокировать эту базу данных. Несмотря на удобство, безопасность базы данных на этом устройстве может снизиться. Выберите ниже, если хотите использовать этот способ или выберите «Нет», чтобы продолжить использование своего пароля.\n\nВажно: Вы ВСЕГДА должны помнить свой пароль";
+"open_sequence_prompt_use_convenience_pin_message" = "Можно использовать код-пароль, чтобы разблокировать базу данных. Несмотря на удобство, безопасность базы данных на устройстве может снизиться. Выберите ниже, если хотите использовать этот способ или выберите «Нет», чтобы продолжить использование своего пароля.\n\nВажно: Вы ВСЕГДА должны помнить свой пароль";
 
 /* \n\nNB: Convenience Unlock is a Pro feature */
 "open_sequence_append_convenience_pro_warning" = "\n\nПримечание: Быстрая разблокировка - это функция Pro версии";
@@ -1510,7 +1510,7 @@
 "privacy_vc_prompt_biometrics_unavailable_title" = "Биометрия недоступна";
 
 /* This application requires a biometric unlock but biometrics is unavailable on this device. You must re-enable biometrics to continue unlocking this application. */
-"privacy_vc_prompt_biometrics_unavailable_message" = "Это приложение требует биометрическую разблокировку, но биометрия недоступна на этом устройстве. Вы должны вновь активировать биометрическую аутентификацию в настройках iOS, чтобы разблокировать это приложение.";
+"privacy_vc_prompt_biometrics_unavailable_message" = "Приложение требует биометрическую разблокировку, но биометрия недоступна на этом устройстве. Необходимо активировать биометрическую аутентификацию в настройках iOS, чтобы разблокировать приложение.";
 
 /* Identify to Open Strongbox */
 "privacy_vc_prompt_identify_to_open" = "Идентифицируйтесь, чтобы открыть Strongbox";
@@ -1564,7 +1564,7 @@
 "autofill_safes_vc_empty_title" = "У Вас ещё нет баз данных :(";
 
 /* To use Strongbox for Password Autofill you need to add a database. You can do this in the Strongbox App. */
-"autofill_safes_vc_empty_subtitle" = "Для использования функции автозаполнения пароля, Вам необходимо добавить базу данных. Вы можете сделать это в приложении Strongbox.";
+"autofill_safes_vc_empty_subtitle" = "Для использования функции автозаполнения пароля, необходимо добавить базу данных. Это можно сделать в приложении Strongbox.";
 
 /* Cached%@: %@ */
 "autofill_safes_vc_cache_date_fmt" = "Кэшированный%@: %@";
@@ -1855,13 +1855,13 @@
 "database_metadata_field_password_key_stretch_iterations" = "Циклы ключа растяжения";
 
 /* Error message indicating that these item(s) cannot be deserialized to this database because they contain two groups with the same title. */
-"node_serialization_error_duplicate_group_title_fmt" = "Не удалось скопировать эти элементы, поскольку они содержат две группы с одинаковым названием «%@», что не поддерживается этим форматом базы данных.";
+"node_serialization_error_duplicate_group_title_fmt" = "Не удалось скопировать элементы, поскольку они содержат две группы с одинаковым названием «%@», что не поддерживается этим форматом базы данных.";
 
 /* Argon 2 Memory */
 "database_metadata_field_argon2_memory" = "Память Argon2";
 
 /* Are you sure you want to Remove this backup? */
-"backup_vc_are_you_sure_remove" = "Вы действительно хотите удалить резервную копию?";
+"backup_vc_are_you_sure_remove" = "Вы хотите удалить резервную копию?";
 
 /* This backup has been added to your databases */
 "backup_vc_backup_added_to_databases" = "Эта резервная копия была добавлена в Ваши базы данных";
@@ -2228,13 +2228,13 @@
 "favicon_status_done" = "Поиск завершён. Нажмите «Результаты поиска» для просмотра найденных значков.";
 
 /* Are you sure you want to clear current results and retry all items? */
-"favicon_clear_all_and_retry_message" = "Вы хотите очистить текущие результаты и повторить поиск?";
+"favicon_clear_all_and_retry_message" = "Вы хотите очистить результаты и повторить поиск?";
 
 /* Retry All or Failed? */
 "favicon_retry_all_or_failed_title" = "Повторить для всех или только неудачных?";
 
 /* Would you like to retry all items, or just the failed ones? */
-"favicon_retry_all_or_failed_message" = "Вы хотели бы повторить поиск для всех элементов или только для неудачных?";
+"favicon_retry_all_or_failed_message" = "Вы хотите повторить поиск для всех элементов или только для неудачных?";
 
 /* Retry All */
 "favicon_retry_all_action" = "Повторить для всех";
@@ -2276,7 +2276,7 @@
 "mac_error_could_not_open_key_file" = "Не удалось открыть файл-ключ.";
 
 /* The database has been changed by another application, would you like to reload this latest version and automatically unlock? */
-"mac_db_changed_externally_reload_yes_or_no" = "База данных была изменена другим приложением. Хотите перезагрузить новейшую версию и автоматически разблокировать?";
+"mac_db_changed_externally_reload_yes_or_no" = "База данных была изменена другим приложением. Хотите перезагрузить последнюю версию и автоматически разблокировать?";
 
 /* Reloading after external changes... */
 "mac_db_reloading_after_external_changes_popup_notification" = "Перезагрузка после внешних изменений...";
@@ -2309,13 +2309,13 @@
 "mac_keepass1_does_not_support_root_entries" = "KeePass 1 не поддерживает записи на корневом уровне, они будут удалены. KeePass 1 также изначально не поддерживает поле 'Email'. Strongbox добавит его вместо этого в конце поля 'Примечания'.\nХотите продолжить?";
 
 /* The Password Safe format does not support icons, attachments or custom fields. If you continue, these fields will not be copied to this database.\nDo you want to continue without these fields? */
-"mac_password_safe_fmt_does_not_support_icons_attachments_warning" = "Формат Password Safe не поддерживает значки, вложения или настраиваемые поля. Если Вы продолжите, эти поля не будут скопированы в эту базу данных.\nХотите продолжить без этих полей?";
+"mac_password_safe_fmt_does_not_support_icons_attachments_warning" = "Формат Password Safe не поддерживает значки, вложения или настраиваемые поля. Если Вы продолжите, то поля не будут скопированы в базу данных.\nХотите продолжить без этих полей?";
 
 /* The KeePass 1 (KDB) does not support entries at the root level, these will be discarded.\n\nThe KeePass 1 (KDB) format also does not support multiple attachments, custom fields or custom icons. If you continue only the first attachment from each item will be copied to this database. Custom Fields and Icons will be discarded.\nDo you want to continue? */
 "mac_keepass1_does_not_support_root_entries_or_attachments" = "KeePass 1 (KDB) не поддерживает записи на корневом уровне, они будут отброшены.\n\nФормат KePass 1 (KDB) также не поддерживает многочисленные вложения, настраиваемые поля или настраиваемые значки. Если Вы продолжите, только первое вложение из каждого элемента будет скопировано в эту базу данных. Настраиваемые поля и значки будут отброшены.\nХотите продолжить?";
 
 /* The Password Safe format does not support attachments or icons. If you continue, these fields will not be copied to this database.\nDo you want to continue without these fields? */
-"mac_password_safe_does_not_support_attachments_icons_continue_yes_no" = "Формат Password Safe не поддерживает вложения или значки. Если Вы продолжите, эти поля не будут скопированы в эту базу данных.\nХотите продолжить без этих полей?";
+"mac_password_safe_does_not_support_attachments_icons_continue_yes_no" = "Формат Password Safe не поддерживает вложения или значки. Если Вы продолжите, то поля не будут скопированы в базу данных.\nХотите продолжить без этих полей?";
 
 /* You cannot create a new item here. It must be within an existing folder. */
 "mac_alert_cannot_create_item_here" = "Вы не можете создать здесь новый элемент. Он должен находиться в существующей папке.";
