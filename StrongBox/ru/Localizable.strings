@@ -41,7 +41,7 @@
 "safes_vc_about_quick_launch_title" = "Быстрый запуск";
 
 /* Message about quick launch feature and asking to confirm yes or no */
-"safes_vc_about_setting_quick_launch_and_confirm" = "Функция быстрого запуска означает, что  база данных будет разблокирована автоматически, как только Вы запустите или повторно активируете Strongbox. Это сэкономит одно драгоценное нажатие!\n\nВключить быстрый запуск для этой базы данных?";
+"safes_vc_about_setting_quick_launch_and_confirm" = "Функция быстрого запуска означает, что  база данных будет разблокирована автоматически, как только Вы запустите или повторно активируете Strongbox. Это сэкономит одно драгоценное нажатие!\n\nВключить быстрый запуск для базы данных?";
 
 /* Button title to Show Database in iOS Files App */
 "safes_vc_show_database_in_files_info" = "Отображение базы данных в приложении Файлы сделает её доступной для Finder на компьютере Mac. Однако база данных не будет доступна для записи при автозаполнении. Это связано с ограничениями iOS.\n\nПримечание: Это действие всегда можете отменить";
@@ -138,16 +138,16 @@
 "safesvc_icloud_no_longer_available_message" = "Некоторые ссылки на базы данных были удалены с этого устройства, т.к. iCloud стал недоступен. Файлы баз данных остались в iCloud.";
 
 /* You can now use iCloud with Strongbox. Should your current local databases be migrated to iCloud and available on all your devices? (NB: Your existing cloud databases will not be affected) */
-"safesvc_migrate_local_existing" = "Теперь можно использовать iCloud в Strongbox. Хотите переместить локальные базы данных в iCloud, чтобы сделать их доступными на всех Ваших устройствах? \nПримечание: имеющиеся базы данных в облаке не будут затронуты";
+"safesvc_migrate_local_existing" = "Теперь можно использовать iCloud в Strongbox. Хотите переместить локальные базы данных в iCloud, чтобы они стали доступными на всех Ваших устройствах? \nПримечание: имеющиеся базы данных в облаке не будут затронуты";
 
 /* You can now use iCloud with Strongbox. Should your current local databases be migrated to iCloud and available on all your devices? */
-"safesvc_migrate_local_no_existing" = "Теперь можно использовать iCloud в Strongbox. Хотите переместить локальные базы данных в iCloud, чтобы сделать их доступными на всех Ваших устройствах?";
+"safesvc_migrate_local_no_existing" = "Теперь можно использовать iCloud в Strongbox. Хотите переместить локальные базы данных в iCloud, чтобы они стали доступными на всех Ваших устройствах?";
 
 /* Would you like the option to use iCloud with Strongbox? (NB: Your existing cloud databases will not be affected) */
 "safesvc_use_icloud_question_existing" = "Хотите использовать iCloud в Strongbox?\nПримечание: имеющиеся базы данных в облаке не будут затронуты";
 
 /* You can now use iCloud with Strongbox. Would you like to have your databases available on all your devices? */
-"safesvc_use_icloud_question_no_existing" = "Теперь можно использовать iCloud в Strongbox. Хотите сделать базы данных доступными на всех Ваших устройствах?";
+"safesvc_use_icloud_question_no_existing" = "Теперь можно использовать iCloud в Strongbox. Хотите, чтобы базы данных стали доступными на всех Ваших устройствах?";
 
 /* iCloud is Now Available */
 "safesvc_icloud_now_available_title" = "iCloud доступен";
@@ -760,10 +760,10 @@
 "prefs_vc_pins_dont_match_warning_title" = "Код-пароли не совпадают";
 
 /* Use iCloud */
-"prefs_vc_use_icloud_action" = "Использовать iCloud";
+"prefs_vc_use_icloud_action" = "Использование iCloud";
 
 /* Use iCloud (Unavailable) */
-"prefs_vc_use_icloud_disabled" = "Использовать iCloud (недоступно)";
+"prefs_vc_use_icloud_disabled" = "Использование iCloud (недоступно)";
 
 /* No Files or Folders Found */
 "sbtvc_empty_table_no_files_found" = "Файлы или папки не найдены";
@@ -796,7 +796,7 @@
 "sspc_ios_files_storage_location" = "Файлы";
 
 /* Since a local database is only stored on this device, any loss of this device will lead to the loss of all passwords stored within this database. You may want to consider using a cloud storage provider, such as the ones supported by Strongbox to avoid catastrophic data loss.\n\nWould you still like to proceed with creating a local device database? */
-"sspc_local_device_storage_warning_message" = "Т.к. база данных будет храниться только на этом устройстве, то его утеря приведет к утрате всех паролей, хранящихся в этой базе данных. Подумайте об использовании облачного сервиса, поддерживаемого Strongbox, чтобы избежать потери данных.\n\nПродолжить создание базы данных на локальном устройстве?";
+"sspc_local_device_storage_warning_message" = "Т.к. база данных будет храниться только на этом устройстве, то его утеря приведет к утрате всех паролей, хранящихся в базе данных. Подумайте об использовании облачного сервиса, поддерживаемого Strongbox, чтобы избежать потери данных.\n\nПродолжить создание базы данных на локальном устройстве?";
 
 /* Local Device Database Caveat */
 "sspc_local_device_storage_warning_title" = "Предупреждение";
@@ -1004,7 +1004,7 @@
 "pins_config_vc_title_pro_only" = "Код-пароль (Pro версия)";
 
 /* Turning the PIN Off for this database will remove the securely stored password and you will have to enter it again. Are you sure you want to do this? */
-"pins_config_vc_turn_pin_off_warning" = "Выключение код-пароля для этой базы данных очистит главный пароль и Вам придется заново вводить его. Хотите продолжить?";
+"pins_config_vc_turn_pin_off_warning" = "Выключение код-пароля для базы данных очистит главный пароль и Вам придется заново вводить его. Хотите продолжить?";
 
 /* Are you sure you want to turn off the PIN for this database? */
 "pins_config_vc_turn_pin_off_confirm" = "Вы хотите выключить код-пароль для базы данных?";
@@ -1209,7 +1209,7 @@
 "set_icon_vc_select_icon_source_message" = "Выберите источник значков, который Вы хотите использовать";
 
 /* KeePass & Database Icon Set */
-"set_icon_vc_icon_source_keepass_set" = "Значки KeePass и этой базы данных";
+"set_icon_vc_icon_source_keepass_set" = "Значки KeePass и базы данных";
 
 /* Media Library */
 "set_icon_vc_icon_source_media_libary" = "Медиатека";
@@ -1432,7 +1432,7 @@
 "key_files_vc_no_key_file" = "Без файл-ключа";
 
 /* The Convenience Password or Key File were incorrect for this database. Convenience Unlock Disabled. */
-"open_sequence_problem_opening_convenience_incorrect_message" = "Сохранённый пароль или другие составные факторы мастер-ключа (файл-ключ/YubiKey) для этой базы данных неверны. Быстрая разблокировка отключена.";
+"open_sequence_problem_opening_convenience_incorrect_message" = "Сохранённый пароль или другие составные факторы мастер-ключа (файл-ключ/YubiKey) для базы данных неверны. Быстрая разблокировка отключена.";
 
 /* Incorrect Credentials */
 "open_sequence_problem_opening_incorrect_credentials_title" = "Ошибка ввода";
@@ -1444,7 +1444,7 @@
 "open_sequence_yesno_set_quick_launch_title" = "Быстрый запуск";
 
 /* Would you like to use this as your Quick Launch database? Quick Launch means you will get prompted immediately to unlock when you open Strongbox, saving you a precious tap. */
-"open_sequence_yesno_set_quick_launch_message" = "Функция быстрого запуска означает, что  база данных будет разблокирована автоматически, как только Вы запустите или повторно активируете Strongbox. Это сэкономит одно драгоценное нажатие!\n\nВключить быстрый запуск для этой базы данных?";
+"open_sequence_yesno_set_quick_launch_message" = "Функция быстрого запуска означает, что  база данных будет разблокирована автоматически, как только Вы запустите или повторно активируете Strongbox. Это сэкономит одно драгоценное нажатие!\n\nВключить быстрый запуск для базы данных?";
 
 /* Convenience Unlock: Use %@ or PIN Code in Future? */
 "open_sequence_prompt_use_convenience_both_title_fmt" = "Быстрая разблокировка";
@@ -1933,10 +1933,10 @@
 "prefs_vc_info_email_support_options_check_twitter" = "Публикации Twitter";
 
 /* Mail Support (English Only) */
-"prefs_vc_info_email_support_options_mail_support" = "Отправить Email (только на англ. яз.)";
+"prefs_vc_info_email_support_options_mail_support" = "Отправить Email (на англ. яз.)";
 
 /* No comment provided by engineer. */
-"transfer_over_local_network_website_prologue" = "<p>Перетащите файлы в это окно или используйте кнопку \"Upload Files&hellip;\" для загрузки файлов. Если эти файлы являются действительными базами данных KeePass или Password Safe, они будут автоматически добавлены в список баз данных.</p><p>Примечание: Если Вы хотите, чтобы эти файлы работали с автозаполнением iOS, тогда смахните влево по базе данных в приложении, и включите функцию автозаполнения.</p>";
+"transfer_over_local_network_website_prologue" = "<p>Перетащите файлы в это окно или используйте кнопку \"Upload Files&hellip;\" для загрузки файлов. Если файлы являются действительными базами данных KeePass или Password Safe, они будут автоматически добавлены в список баз данных.</p><p>Примечание: Если хотите, чтобы файлы работали с автозаполнением iOS, тогда смахните влево по базе данных в приложении, и включите функцию автозаполнения.</p>";
 
 /**********************************************************************************************************************/
 /* FUTURE: genericise... */
@@ -2294,7 +2294,7 @@
 "generic_locking_ellipsis" = "Блокировка...";
 
 /* Please Enter the Master Credentials for this Database */
-"mac_please_set_master_credentials" = "Пожалуйста, введите мастер-ключ для этой базы данных";
+"mac_please_set_master_credentials" = "Пожалуйста, введите мастер-ключ для базы данных";
 
 /* Change Master Credentials */
 "mac_change_master_credentials" = "Изменить мастер-ключ";
@@ -2503,7 +2503,7 @@
 "mac_strongbox_cant_open_file_wrappers" = "Strongbox не может открывать файловые контейнеры, каталоги или сжатые пакеты, такие как этот. Пожалуйста, выберите непосредственно файл базы данных KeePass или Password Safe.";
 
 /* Please Enter the Master Credentials for this Database */
-"mac_please_enter_master_credentials_for_this_database" = "Пожалуйста, введите мастер-ключ для этой базы данных";
+"mac_please_enter_master_credentials_for_this_database" = "Пожалуйста, введите мастер-ключ для базы данных";
 
 /* Save New Password Database... */
 "mac_save_new_database" = "Сохранить новую базу паролей...";
@@ -2524,7 +2524,7 @@
 "mac_pro_days_left_window_title_suffix_fmt" = " - [осталось %ld дней Pro версии]";
 
 /* Enter a new name for this database */
-"mac_enter_new_name_for_db" = "Введите новое название этой базы данных";
+"mac_enter_new_name_for_db" = "Введите новое название базы данных";
 
 /* File Based */
 "mac_storage_provider_name_file" = "На основе файла";
@@ -2973,13 +2973,13 @@
 "browse_add_group_button_title" = "Добавить группу";
 
 /* Tags */
-"browse_vc_search_scope_tags" = "Метки";
+"browse_vc_search_scope_tags" = "Теги";
 
 /* Tags */
-"browse_prefs_item_subtitle_tags" = "Метки";
+"browse_prefs_item_subtitle_tags" = "Теги";
 
 /* Tags */
-"item_details_username_field_tags" = "Метки";
+"item_details_username_field_tags" = "Теги";
 
 /* 90 Day Trial */
 "upgrade_vc_start_your_free_trial" = "Pro версия 90 дней";
@@ -2997,13 +2997,13 @@
 "browse_add_group_or_entry_question" = "Вы хотите добавить группу или запись?";
 
 /* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be securely stored for %@ before you need to re-enter it. Note for translators (1st Param = "Touch ID", 2nd Param is a time span something like "2 weeks") */
-"mac_use_biometric_to_open_in_future_fmt" = "Хотите использовать %@ или Apple Watch для разблокировки этой базы данных в будущем? Ваш пароль будет надёжно сохранён на %@, прежде чем Вам потребуется повторно ввести его.";
+"mac_use_biometric_to_open_in_future_fmt" = "Хотите использовать %@ или Apple Watch для разблокировки базы данных в будущем? Пароль будет надёжно сохранён на %@, прежде чем Вам потребуется повторно ввести его.";
 
 /* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be stored securely. Note for translators (1st Param = "Touch ID") */
-"mac_use_biometric_to_open_in_future_simple_fmt" = "Хотите использовать %@ или Apple Watch для разблокировки этой базы данных в будущем? Ваш пароль будет сохранён в защищённом виде.";
+"mac_use_biometric_to_open_in_future_simple_fmt" = "Хотите использовать %@ или Apple Watch для разблокировки базы данных в будущем? Пароль будет сохранён в защищённом виде.";
 
 /* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be stored securely until you exit Strongbox Note for translators (1st Param = "Touch ID") */
-"mac_use_biometric_to_open_in_future_simple_app_exit_fmt" = "Хотите использовать %@ или Apple Watch для разблокировки этой базы данных в будущем? Ваш пароль будет надёжно сохранён, пока Вы не выйдете из Strongbox.";
+"mac_use_biometric_to_open_in_future_simple_app_exit_fmt" = "Хотите использовать %@ или Apple Watch для разблокировки базы данных в будущем? Пароль будет надёжно сохранён, пока Вы не выйдете из Strongbox.";
 
 /* Audit: No password set */
 "audit_quick_summary_no_password_set" = "Запись без пароля";
@@ -3096,7 +3096,7 @@
 "audit_status_no_issues_found" = "Проблем не найдено";
 
 /* The credentials were incorrect for this database. Are you sure you are using this key file?\n\nNB: A key files are not the same as your database file. */
-"open_sequence_problem_opening_incorrect_credentials_message_verify_key_file" = "Неверный мастер-ключ для этой базы данных. Вы используете правильный файл-ключ?\n\nПримечание: Файл-ключи не являются файлами баз данных KDBX/KDB";
+"open_sequence_problem_opening_incorrect_credentials_message_verify_key_file" = "Неверный мастер-ключ для базы данных. Вы используете правильный файл-ключ?\n\nПримечание: Файл-ключи не являются файлами баз данных";
 
 /* Is your Key File correct? */
 "casg_key_file_correct_title" = "Это правильный файл-ключ?";
