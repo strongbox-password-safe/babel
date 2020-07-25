@@ -1407,7 +1407,7 @@
 "open_sequence_couldnt_open_offline_message" = "Det gick inte att öppna den här databasen i offlineläge. Finns offline-cachen?";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc, 2nd param is the date/time of the last cache) */
-"open_sequence_user_looks_offline_open_offline_instead_fmt" = "It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@";
+"open_sequence_user_looks_offline_open_offline_instead_fmt" = "Det verkar som att du är offline och \"%@\" är kanske inte nåbar. Vill du använda en skrivskyddad cache-version av den här databasen i stället?\n\nSenaste cache: %@";
 
 /* Yes, Use Offline Cache */
 "open_sequence_yesno_use_offline_cache_yes_option" = "Ja, använd offlinecache";
@@ -3192,7 +3192,7 @@
 "browse_vc_partial_recycle_alert_title" = "Delvis permanent radering";
 
 /* Some of the items you have selected cannot be recycled and will be permanently deleted. Is that OK? */
-"browse_vc_partial_recycle_alert_message" = "Some of the items you have selected cannot be recycled and will be permanently deleted. Is that OK?";
+"browse_vc_partial_recycle_alert_message" = "Vissa av de objekt du valt kan inte flyttas till papperskorgen och kommer att tas bort permanent. Är det okej?";
 
 /* Audit */
 "browse_vc_action_audit" = "Granskning";
@@ -3228,10 +3228,10 @@
 "audit_summary_flag_password_is_too_short" = "Detta lösenord är för kort";
 
 /* The items above use exactly the same password as this item, this is generally considered a weakness. You should strive not to have any duplicated passwords. */
-"audit_drill_down_section_footer_duplicates" = "The items above use exactly the same password as this item. This is generally considered a weakness. You should strive not to have any duplicated passwords.";
+"audit_drill_down_section_footer_duplicates" = "Objekten ovan använder exakt samma lösenord som det här objektet. Detta anses allmänt vara en svaghet. Du bör sträva efter att inte ha några duplicerade lösenord.";
 
 /* The items above have a similar password to this item. This might indicate a weakness or use of a common component and could therefore be vulnerable to attack. */
-"audit_drill_down_section_footer_similar" = "The items above have a similar password to this item. This might indicate a weakness or use of a common component and could therefore be vulnerable to attack.";
+"audit_drill_down_section_footer_similar" = "Objekten ovan har ett liknande lösenord till det här objektet. Detta kan tyda på en svaghet eller användning av en gemensam komponent och kan därför vara sårbar för angrepp.";
 
 /* Audit this Item */
 "audit_drill_down_audit_this_item_preference_title" = "Granska detta objekt";
@@ -3267,7 +3267,7 @@
 "audit_drill_down_no_excluded_items_title" = "Inga undantagna objekt";
 
 /* You have not explicitly excluded any items from the audit. You can exclude an item by sliding right on it and tapping the Audit button. */
-"audit_drill_down_no_excluded_items_subtitle" = "You have not explicitly excluded any items from the audit. You can exclude an item by sliding right on it and tapping the Audit button.";
+"audit_drill_down_no_excluded_items_subtitle" = "Du har inte uttryckligen uteslutit några objekt från granskningen. Du kan utesluta ett objekt genom att dra åt höger på den och trycka på granskningsknappen.";
 
 /* Unexclude */
 "audit_excluded_items_vc_action_unclude" = "Återta exkludering";
@@ -3276,7 +3276,7 @@
 "crash_diagnostics_share_last_title" = "Dela kraschdiagnostik?";
 
 /* It looks like Strongbox had a crash last time. Would you be so kind as to share the diagnostics with Strongbox Support?\n\nPlease mail to support@strongboxsafe.com */
-"crash_diagnostics_share_last_message" = "It looks like Strongbox had a crash last time. Would you be so kind as to share the diagnostics with Strongbox Support?\n\nPlease mail to support@strongboxsafe.com";
+"crash_diagnostics_share_last_message" = "Det ser ut som om Strongbox kraschade förra gången. Kan du vara vänlig och dela diagnostik med Strongbox Support?\n\nVänligen skicka e-post till support@strongboxsafe.com";
 
 /* Share */
 "crash_diagnostics_share_action" = "Dela";
@@ -3312,7 +3312,7 @@
 "autofill_error_unknown_db_title" = "Strongbox: Okänd databas";
 
 /* This appears to be a reference to an older Strongbox database which can no longer be found. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill. */
-"autofill_error_unknown_db_message" = "This appears to be a reference to an older Strongbox database which can no longer be found. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill.";
+"autofill_error_unknown_db_message" = "Detta verkar vara en referens till en äldre Strongbox databas som inte längre kan hittas. Strongbox QuickType autofylldatabas har nu rensats och du måste därför öppna dina databaser igen för att uppdatera QuickType autofyill.";
 
 /* Strongbox: Error Locating Entry */
 "autofill_error_unknown_item_title" = "Strongbox: Fel vid sökning efter post";
