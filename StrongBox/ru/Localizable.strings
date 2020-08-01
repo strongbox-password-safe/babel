@@ -339,7 +339,7 @@
 "browse_vc_cannot_create_group" = "Невозможно создать группу";
 
 /* Could not create a group with this name here, possibly because one with this name already exists. */
-"browse_vc_cannot_create_group_message" = "Не удалось создать группу с таким названием, возможно, потому что такая группа уже существует";
+"browse_vc_cannot_create_group_message" = "Не удалось создать группу с таким названием. Возможно, такая группа уже существует.";
 
 /* There was an error trying to delete this item. */
 "browse_vc_delete_error_message" = "При попытке удаления элемента произошла ошибка.";
@@ -1068,7 +1068,7 @@
 "key_files_vc_error_file_already_exists_title" = "Файл уже существует";
 
 /* A file with this name already exists in the Key Files directory. */
-"key_files_vc_error_file_already_exists_message" = "Файл с таким именем уже существует в папке файл-ключей";
+"key_files_vc_error_file_already_exists_message" = "Файл с таким именем уже существует в папке файл-ключей.";
 
 /* Imported Key Files (Auto-Fill Enabled) */
 "key_files_vc_section_header_imported" = "Импорт. файлы (автозаполнение вкл.)";
@@ -1426,7 +1426,7 @@
 "open_sequence_autofill_creash_likely_title" = "Возможен сбой автозаполнения";
 
 /* Your database has encryption settings that may cause iOS Password Auto Fill extensions to be terminated due to excessive resource consumption. This will mean Auto Fill appears not to work. Unfortunately this is an Apple imposed limit. You could consider reducing the amount of resources consumed by your encryption settings (Memory in particular with Argon2 to below 64MB). */
-"open_sequence_autofill_creash_likely_message" = "Размер базы данных слишком большой или имеет настройки шифрования, которые могут привести к сбою в работе функции автозаполнения из-за чрезмерного потребления ресурсов.\nВозможно, что автозаполнение не будет работать. К сожалению, это ограничение системы, наложенное компанией Apple.\nПопробуйте уменьшить размер файла или изменить количество потребляемых ресурсов (уменьшить объём памяти с Argon2 до 64 МБ).";
+"open_sequence_autofill_creash_likely_message" = "Размер базы данных слишком большой или имеет настройки шифрования, которые могут привести к сбою в работе функции автозаполнения из-за чрезмерного потребления ресурсов.\nВозможно, автозаполнение не будет работать. К сожалению, это ограничение системы, наложенное компанией Apple.\nПопробуйте уменьшить размер файла или изменить количество потребляемых ресурсов (уменьшить объём памяти с Argon2 до 64 МБ).";
 
 /* No Key File */
 "key_files_vc_no_key_file" = "Без файл-ключа";
@@ -1489,7 +1489,7 @@
 "open_sequence_database_different_filename_title" = "Другое имя файла";
 
 /* This doesn't look like it's the right file because the filename looks different than the one you originally added. Do you want to continue? */
-"open_sequence_database_different_filename_message" = "Возможно это неверный файл, т.к. имя файла отличается от того, который Вы изначально добавили. Хотите продолжить?";
+"open_sequence_database_different_filename_message" = "Возможно, это неверный файл, т.к. имя файла отличается от того, который Вы изначально добавили. Хотите продолжить?";
 
 /* Could not bookmark this file */
 "open_sequence_error_could_not_bookmark_file" = "Не удалось добавить этот файл в закладки";
@@ -1642,7 +1642,7 @@
 "pick_creds_vc_cannot_create_new_unsupported_storage_type_title" = "Неподдерживаемое хранилище";
 
 /* This database is stored on a Storage Provider that does not support Live editing in App Extensions. Cannot Create New Entry. */
-"pick_creds_vc_cannot_create_new_unsupported_storage_type_message" = "Эта база данных находится в хранилище поставщика, который не поддерживает редактирование в расширении приложений в режиме реального времени. Невозможно создать новую запись.";
+"pick_creds_vc_cannot_create_new_unsupported_storage_type_message" = "База данных находится в хранилище поставщика, который не поддерживает редактирование в расширении приложений в режиме реального времени. Невозможно создать новую запись.";
 
 /* Create New Entry... */
 "pick_creds_vc_create_new_button_title" = "Создать новую запись...";
@@ -2746,7 +2746,7 @@
 "open_sequence_warn_biometrics_db_changed_title" = "База данных биометрии изменена";
 
 /* It looks like your biometrics database has changed, probably because you added a new face or fingerprint. Strongbox now requires you to re-enter your master credentials manually for security reasons. */
-"open_sequence_warn_biometrics_db_changed_message" = "Вероятно база данных биометрии изменилась. Возможно, потому что Вы добавили новое лицо или отпечаток пальца. В целях безопасности требуется повторно ввести мастер-ключ Strongbox вручную.";
+"open_sequence_warn_biometrics_db_changed_message" = "Вероятно база данных биометрии изменилась. Возможно, что Вы добавили новое лицо или отпечаток пальца. В целях безопасности требуется повторно ввести мастер-ключ Strongbox вручную.";
 
 /* None - (Tranlators Note: When the user is not using or has not selected a key file on the Unlock screen.) */
 "mac_key_file_none" = "Отсутствует";
@@ -3312,7 +3312,7 @@
 "autofill_error_unknown_db_title" = "Strongbox: Неизвестная база данных";
 
 /* This appears to be a reference to an older Strongbox database which can no longer be found. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill. */
-"autofill_error_unknown_db_message" = "Возможно, что это устаревшая ссылка на базу данных Strongbox, которой больше не существует. Список автозаполнения Strongbox очищен, поэтому необходимо повторно открыть базы данных для обновления списка.";
+"autofill_error_unknown_db_message" = "Возможно, что это устаревшая ссылка на базу данных Strongbox, которой больше не существует. Список автозаполнения очищен, поэтому необходимо повторно открыть базы данных для обновления списка.";
 
 /* Strongbox: Error Locating Entry */
 "autofill_error_unknown_item_title" = "Strongbox: Ошибка поиска записи";
