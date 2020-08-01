@@ -2746,7 +2746,7 @@
 "open_sequence_warn_biometrics_db_changed_title" = "База данных биометрии изменена";
 
 /* It looks like your biometrics database has changed, probably because you added a new face or fingerprint. Strongbox now requires you to re-enter your master credentials manually for security reasons. */
-"open_sequence_warn_biometrics_db_changed_message" = "Вероятно база данных биометрии изменилась. Возможно, что Вы добавили новое лицо или отпечаток пальца. В целях безопасности требуется повторно ввести мастер-ключ Strongbox вручную.";
+"open_sequence_warn_biometrics_db_changed_message" = "Вероятно база данных биометрии изменилась. Возможно, Вы добавили новое лицо или отпечаток пальца. В целях безопасности требуется повторно ввести мастер-ключ Strongbox вручную.";
 
 /* None - (Tranlators Note: When the user is not using or has not selected a key file on the Unlock screen.) */
 "mac_key_file_none" = "Отсутствует";
@@ -2895,7 +2895,7 @@
 "autofill_did_not_close_cleanly_title" = "Произошёл сбой автозаполнения";
 
 /* It looks like the last time you used Auto Fill you had a crash. This is usually due to a memory limitation. Please check your database file size and your Argon2 memory settings (should be <= 64MB) */
-"autofill_did_not_close_cleanly_message" = "Возможно при последнем использовании автозаполнения у Вас произошёл сбой. Обычно это связано с ограничениями памяти iOS. Пожалуйста, проверьте размер файла базы данных и настройки памяти Argon2 (должно быть <= 64МБ)";
+"autofill_did_not_close_cleanly_message" = "Возможно, при последнем использовании автозаполнения произошёл сбой. Обычно это связано с ограничениями памяти iOS. Пожалуйста, проверьте размер файла базы данных и настройки памяти Argon2 (должно быть <= 64МБ)";
 
 /* Regenerate... */
 "password_generation_regenerate_ellipsis" = "Сгенерировать заново";
@@ -3312,13 +3312,13 @@
 "autofill_error_unknown_db_title" = "Strongbox: Неизвестная база данных";
 
 /* This appears to be a reference to an older Strongbox database which can no longer be found. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill. */
-"autofill_error_unknown_db_message" = "Возможно, что это устаревшая ссылка на базу данных Strongbox, которой больше не существует. Список автозаполнения очищен, поэтому необходимо повторно открыть базы данных для обновления списка.";
+"autofill_error_unknown_db_message" = "Возможно, это устаревшая ссылка на базу данных Strongbox, которой больше не существует. Список автозаполнения очищен, поэтому необходимо повторно открыть базы данных для обновления списка.";
 
 /* Strongbox: Error Locating Entry */
 "autofill_error_unknown_item_title" = "Strongbox: Ошибка поиска записи";
 
 /* Strongbox could not find this entry, it is possibly stale. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill. */
-"autofill_error_unknown_item_message" = "Strongbox не удалось найти запись, возможно она устарела. Список автозаполнения очищен, поэтому необходимо повторно открыть базы данных для обновления списка.";
+"autofill_error_unknown_item_message" = "Strongbox не удалось найти запись. Возможно, она устарела. Список автозаполнения очищен, поэтому необходимо повторно открыть базы данных для обновления списка.";
 
 /* Locating... */
 "generic_status_sp_locating_ellipsis" = "Поиск...";
