@@ -748,7 +748,7 @@
 "prefs_vc_info_email_not_available_title" = "Email недоступен";
 
 /* It is very important that you know your master password for your databases, and that you are not relying entirely on %@.\nThe migration and importation process makes every effort to maintain %@ data but it is not guaranteed. In any case it is important that you always know your master passwords.\n\nDo you want to continue changing iCloud usage settings? */
-"prefs_vc_master_password_icloud_migration_yesno_warning_message_fmt" = "Очень важно, чтобы Вы помнили пароли для своих баз данных и не полагались полностью на %@.\nПроцесс переноса данных не гарантирует сохранение данных %@. Поэтому необходимо, чтобы Вы помнили свой пароль.\n\nПродолжить изменение настроек использования iCloud?";
+"prefs_vc_master_password_icloud_migration_yesno_warning_message_fmt" = "Очень важно помнить пароли для своих баз данных и не полагались полностью на %@.\nПроцесс переноса данных не гарантирует сохранение данных %@. Поэтому необходимо, чтобы Вы помнили свой пароль.\n\nПродолжить изменение настроек использования iCloud?";
 
 /* Master Password Warning */
 "prefs_vc_master_password_icloud_migration_yesno_warning_title" = "Предупреждение";
@@ -1404,7 +1404,7 @@
 "open_sequence_couldnt_open_offline_title" = "Ошибка при открытии";
 
 /* Could not open this database in offline mode. Does the Offline Cache exist? */
-"open_sequence_couldnt_open_offline_message" = "Не удалось открыть базу данных офлайн. Существует ли кэш?";
+"open_sequence_couldnt_open_offline_message" = "Не удалось открыть базу данных офлайн. Имеется ли её кэш на устройстве?";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc, 2nd param is the date/time of the last cache) */
 "open_sequence_user_looks_offline_open_offline_instead_fmt" = "Возможно, нет подключения к сети и хранилище «%@» недоступно. Хотите использовать доступный только для чтения кэш базы данных?\n\nДата кэша: %@";
@@ -1657,7 +1657,7 @@
 "pick_creds_vc_empty_search_dataset_subtitle" = "Не удалось найти ни одной подходящей записи";
 
 /* It appears your database is empty */
-"pick_creds_vc_empty_dataset_subtitle" = "Вероятно, база данных пуста";
+"pick_creds_vc_empty_dataset_subtitle" = "База данных пуста";
 
 /* Sample Group */
 "model_sample_group_title" = "Образец группы";
@@ -2949,7 +2949,7 @@
 "upgrade_question_answer_share_family" = "Это будет работать только в том случае, если Вы уже зарегистрировали и настроили общий доступ с Вашей семьей или друзьями в рамках программы «Семейного доступа» Apple.\n\nВо-вторых, Вам необходимо приобрести отдельную версию Strongbox вместо использования встроенной покупки в приложении. Данная мера необходима из-за того, что функция «Семейного доступа» Apple не поддерживает встроенные покупки в приложениях.\n\nДля подробностей о Strongbox Family Sharing нажмите на кнопку «Семейный доступ» Apple на главном экране улучшения.";
 
 /* */
-"upgrade_question_answer_works_on_mac" = "К сожалению, нет. iOS и Mac являются двумя отдельными платформами, а Strongbox iOS и Mac - два совершенно разных приложения. Кроме того, на данный момент не существует способа объединить эти две версии в одну покупку.";
+"upgrade_question_answer_works_on_mac" = "К сожалению, нет. iOS и Mac являются двумя отдельными платформами, а Strongbox для iOS и Mac - два совершенно разных приложения. Кроме того, на данный момент не существует способа объединить эти две версии в одну покупку.";
 
 /* */
 "upgrade_question_answer_buy_company_licenses" = "Пожалуйста, свяжитесь с support@strongboxsafe.com, чтобы обсудить приобретение корпоративных лицензий и индивидуальную сборку для Вашей компании.";
@@ -3312,7 +3312,7 @@
 "autofill_error_unknown_db_title" = "Strongbox: Неизвестная база данных";
 
 /* This appears to be a reference to an older Strongbox database which can no longer be found. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill. */
-"autofill_error_unknown_db_message" = "Возможно, это устаревшая ссылка на базу данных Strongbox, которой больше не существует. Список автозаполнения очищен, поэтому необходимо повторно открыть базы данных для обновления списка.";
+"autofill_error_unknown_db_message" = "Возможно, это устаревшая ссылка на базу данных Strongbox, которой больше не существует. Список автозаполнения очищен, поэтому необходимо повторно открыть базы данных для его обновления.";
 
 /* Strongbox: Error Locating Entry */
 "autofill_error_unknown_item_title" = "Strongbox: Ошибка поиска записи";
