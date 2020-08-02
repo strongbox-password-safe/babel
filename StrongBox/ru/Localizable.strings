@@ -1407,7 +1407,7 @@
 "open_sequence_couldnt_open_offline_message" = "Не удалось открыть базу данных офлайн. Существует ли кэш?";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc, 2nd param is the date/time of the last cache) */
-"open_sequence_user_looks_offline_open_offline_instead_fmt" = "Возможно, Вы не подключены к сети и хранилище «%@» недоступно. Хотите использовать доступный только для чтения кэш базы данных?\n\nДата кэша: %@";
+"open_sequence_user_looks_offline_open_offline_instead_fmt" = "Возможно, нет подключения к сети и хранилище «%@» недоступно. Хотите использовать доступный только для чтения кэш базы данных?\n\nДата кэша: %@";
 
 /* Yes, Use Offline Cache */
 "open_sequence_yesno_use_offline_cache_yes_option" = "Да, использовать кэш";
@@ -1489,7 +1489,7 @@
 "open_sequence_database_different_filename_title" = "Другое имя файла";
 
 /* This doesn't look like it's the right file because the filename looks different than the one you originally added. Do you want to continue? */
-"open_sequence_database_different_filename_message" = "Возможно, это неверный файл, т.к. имя файла отличается от того, который Вы изначально добавили. Хотите продолжить?";
+"open_sequence_database_different_filename_message" = "Это неверный файл, т.к. имя файла отличается от того, который Вы изначально добавили. Хотите продолжить?";
 
 /* Could not bookmark this file */
 "open_sequence_error_could_not_bookmark_file" = "Не удалось добавить этот файл в закладки";
@@ -1900,7 +1900,7 @@
 "open_sequence_biometric_unlock_preferences_message" = "Идентифицируйтесь, чтобы открыть настройки";
 
 /* Message to display when device is offline and has no IP address in Local HTTP Transfer - Select Storage -> Transfer over Local Network */
-"transfer_local_network_network_unavailable_message" = "Возможно, что отсутсвует подключение к сети.";
+"transfer_local_network_network_unavailable_message" = "Отсутствует подключение к локальной сети.";
 
 /* Title of info dialog about Apple Family Sharing upgrade */
 "upgrade_family_sharing_info_title" = "Семейный доступ Apple";
@@ -2285,7 +2285,7 @@
 "mac_could_not_unlock_database" = "Не удалось разблокировать базу данных";
 
 /* Touch ID Considerations\n\nWhile this is very convenient, it is not a perfect system for protecting your passwords. It is provided for convenience only. It is within the realm of possibilities that someone with access to your device or your fingerprint, can produce a good enough fake fingerprint to fool Apple’s Touch ID. In addition, on your Mac, your master password will be securely stored in the Keychain. This means it is possible for someone with administrative privileges to search your Keychain for your master password. You should be aware that a strong passphrase held only in your mind provides the most secure experience with StrongBox.\n\nPlease take all of this into account, and make your decision to use Touch ID based on your preferred balance of convenience and security. */
-"mac_touch_id_one_time_warning" = "Предупреждение Touch ID/Apple Watch\n\nНесмотря на удобство, это не является идеальной системой для защиты паролей. Не  исключайте возможность того, что кто-либо, имеющий доступ к Вашему устройству или отпечатку пальцев, может создать достаточно хорошую подделку для обмана системы Touch ID. Пароль будет надёжно сохранён в связке ключей на Вашем Mac. Это означает, что пользователь с административными правами сможет найти его. Поэтому для наибольшей безопасности пароль лучше всегда помнить.\n\nПожалуйста, примите это во внимание и решите, является ли использование Touch ID целесообразным, основываясь на выборе между удобством и безопасностью.";
+"mac_touch_id_one_time_warning" = "Предупреждение Touch ID/Apple Watch\n\nНесмотря на удобство, это неидеальная система для защиты паролей. Не  исключайте возможность того, что кто-либо, имеющий доступ к Вашему устройству или отпечатку пальцев, может создать достаточно хорошую подделку для обхода Touch ID. Пароль будет надёжно сохранён в связке ключей на Вашем Mac. Это означает, что пользователь с административными правами сможет найти его. Поэтому для максимальной безопасности пароль лучше всегда помнить.\n\nПожалуйста, примите это во внимание и решите, является ли использование Touch ID целесообразным, основываясь на выборе между удобством и безопасностью.";
 
 /* You cannot lock a database while changes are pending. Save changes and lock now? */
 "mac_cant_lock_db_while_changes_pending" = "Вы не можете заблокировать базу данных, пока изменения ещё в процессе. Сохранить изменения и заблокировать сейчас?";
@@ -2746,7 +2746,7 @@
 "open_sequence_warn_biometrics_db_changed_title" = "База данных биометрии изменена";
 
 /* It looks like your biometrics database has changed, probably because you added a new face or fingerprint. Strongbox now requires you to re-enter your master credentials manually for security reasons. */
-"open_sequence_warn_biometrics_db_changed_message" = "Возможно, база данных биометрии изменилась вследствие добавления нового лица или отпечатка пальца. В целях безопасности требуется повторно ввести мастер-ключ вручную.";
+"open_sequence_warn_biometrics_db_changed_message" = "База данных биометрии изменилась вследствие добавления нового лица или отпечатка пальца. В целях безопасности требуется повторно ввести мастер-ключ вручную.";
 
 /* None - (Tranlators Note: When the user is not using or has not selected a key file on the Unlock screen.) */
 "mac_key_file_none" = "Отсутствует";
