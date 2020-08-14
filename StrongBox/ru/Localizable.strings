@@ -20,7 +20,7 @@
 "safes_vc_cached_date_time_fmt" = "Дата кэша: %@";
 
 /* Open ths database offline table action */
-"safes_vc_slide_left_open_offline_action" = "Open Local...";
+"safes_vc_slide_left_open_offline_action" = "Открыть локальную";
 
 /* Title of the 'More Actions' alert/action sheet */
 "safes_vc_database_actions_sheet_title" = "Выбор действия";
@@ -3328,10 +3328,10 @@
 "sync_status_user_interaction_cancelled" = "Отменено пользователем";
 
 /* Use Mine/Local (%@) - Translators Note: The first parameter is the modified date of the local copy e.g. "Today, 14:22" */
-"sync_conflict_option_use_mine_fmt" = "Use Mine/Local (%@)";
+"sync_conflict_option_use_mine_fmt" = "Использовать локальную (%@)";
 
 /* Use Theirs/Remote (%@) - Translators Note: The first parameter is the modified date of the remote copy e.g. "September 1st, 14:22" */
-"sync_conflict_option_use_theirs_fmt" = "Use Theirs/Remote (%@)";
+"sync_conflict_option_use_theirs_fmt" = "Использовать удалённую (%@)";
 
 /* Sync Conflict */
 "sync_conflict_title" = "Конфликт синхронизации";
@@ -3343,7 +3343,7 @@
 "sync_could_not_sync_your_changes" = "Не удалось синхронизировать изменения.";
 
 /* You must close and reopen this database for Read-Only changes to take effect. */
-"db_management_reopen_required_message" = "You must close and reopen this database for changes to take effect.";
+"db_management_reopen_required_message" = "Необходимо закрыть и снова открыть базу данных, чтобы изменения вступили в силу.";
 
 /* Re-Open Required */
 "db_management_reopen_required_title" = "Предупреждение";
@@ -3352,7 +3352,7 @@
 "open_sequence_couldnt_open_local_title" = "Ошибка при открытии";
 
 /* Could not open Strongbox's local copy of this database. A online sync is required. */
-"open_sequence_couldnt_open_local_message" = "Could not open Strongbox's local copy of this database. A online sync is required.";
+"open_sequence_couldnt_open_local_message" = "Не удалось открыть локальную копию базы данных. Необходима синхронизация.";
 
 /* Use Local Copy? */
 "open_sequence_yesno_use_local_copy_title" = "Use Local Copy?";
@@ -3361,7 +3361,7 @@
 "open_sequence_yes_use_local_copy_option" = "Yes, Use Local (Read-Only)";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use Strongbox's local copy in read-only mode instead? - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc */
-"open_sequence_user_looks_offline_open_local_ro_fmt" = "It looks like you may be offline and '%@' may not be reachable. Would you like to use Strongbox's local copy in read-only mode instead?";
+"open_sequence_user_looks_offline_open_local_ro_fmt" = "Возможно, нет подключения к сети и хранилище '%@' недоступно. Хотите использовать доступную только для чтения локальную копию базы данных?";
 
 /* Sync Error */
 "open_sequence_storage_provider_error_title" = "Ошибка синхронизации";
