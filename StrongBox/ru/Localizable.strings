@@ -3316,10 +3316,10 @@
 "generic_in_progress" = "Выполняется";
 
 /* Initial */
-"generic_initial_state" = "Начало";
+"generic_initial_state" = "Инициализация";
 
 /* %@ - Sync No. %@ (Translators Note: 1st Parameter is the Date/Time of the Sync e.g. 'Today, 4:42PM', The second parameter is a sequence number like 1, 2, 42 etc. This is the number of times this database has been synced in this session */
-"sync_log_sync_header_fmt" = "%@ -Sync No. %@";
+"sync_log_sync_header_fmt" = "%@ -Sync # %@";
 
 /* User Interaction Required */
 "sync_status_user_interaction_required_title" = "Необходимо действие";
@@ -3343,7 +3343,7 @@
 "sync_could_not_sync_your_changes" = "Не удалось синхронизировать изменения.";
 
 /* You must close and reopen this database for Read-Only changes to take effect. */
-"db_management_reopen_required_message" = "Необходимо закрыть и снова открыть базу данных, чтобы изменения вступили в силу.";
+"db_management_reopen_required_message" = "Необходимо закрыть и заново открыть базу данных, чтобы изменения вступили в силу.";
 
 /* Re-Open Required */
 "db_management_reopen_required_title" = "Предупреждение";
@@ -3364,7 +3364,7 @@
 "open_sequence_user_looks_offline_open_local_ro_fmt" = "Возможно, нет подключения к сети и хранилище '%@' недоступно. Хотите использовать доступную только для чтения локальную копию базы данных?";
 
 /* Sync Error */
-"open_sequence_storage_provider_error_title" = "Ошибка синхронизации";
+"open_sequence_storage_provider_error_title" = "Ошибка при синхронизации";
 
 /* If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open Strongbox's local copy in read-only mode instead? */
 "open_sequence_storage_provider_error_open_local_ro_instead" = "Если это произошло повторно, попробуйте удалить и заново добавить базу данных. См. журнал синхронизации для получения дополнительной информации.\n\nХотите открыть доступную только для чтения локальную копию?";
