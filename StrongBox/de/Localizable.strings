@@ -20,7 +20,7 @@
 "safes_vc_cached_date_time_fmt" = "Zwischengespeichert: %@";
 
 /* Open ths database offline table action */
-"safes_vc_slide_left_open_offline_action" = "Open Local...";
+"safes_vc_slide_left_open_offline_action" = "Lokal öffnen...";
 
 /* Title of the 'More Actions' alert/action sheet */
 "safes_vc_database_actions_sheet_title" = "Datenbank-Aktionen";
@@ -3307,64 +3307,64 @@
 "backup_settings_prompt_no_dont_backup_anything" = "Nein, nichts sichern";
 
 /* View Sync Status */
-"safes_vc_action_view_sync_status" = "View Debug Sync Log";
+"safes_vc_action_view_sync_status" = "Debug-Sync-Log anzeigen";
 
 /* Please send this crash report to support@strongboxsafe.com */
 "safes_vc_please_send_crash_report" = "Bitte senden Sie diesen Absturzbericht an support@strongboxsafe.com";
 
 /* In Progress */
-"generic_in_progress" = "In Progress";
+"generic_in_progress" = "In Bearbeitung";
 
 /* Initial */
-"generic_initial_state" = "Initial";
+"generic_initial_state" = "Start";
 
 /* %@ - Sync No. %@ (Translators Note: 1st Parameter is the Date/Time of the Sync e.g. 'Today, 4:42PM', The second parameter is a sequence number like 1, 2, 42 etc. This is the number of times this database has been synced in this session */
-"sync_log_sync_header_fmt" = "%@ - Sync No. %@";
+"sync_log_sync_header_fmt" = "%@ - Sync-Nr. %@";
 
 /* User Interaction Required */
 "sync_status_user_interaction_required_title" = "Benutzerinteraktion erforderlich";
 
 /* User Cancelled */
-"sync_status_user_interaction_cancelled" = "User Cancelled";
+"sync_status_user_interaction_cancelled" = "Benutzerabbruch";
 
 /* Use Mine/Local (%@) - Translators Note: The first parameter is the modified date of the local copy e.g. "Today, 14:22" */
-"sync_conflict_option_use_mine_fmt" = "Use Mine/Local (%@)";
+"sync_conflict_option_use_mine_fmt" = "Verwende lokale Version (%@)";
 
 /* Use Theirs/Remote (%@) - Translators Note: The first parameter is the modified date of the remote copy e.g. "September 1st, 14:22" */
-"sync_conflict_option_use_theirs_fmt" = "Use Theirs/Remote (%@)";
+"sync_conflict_option_use_theirs_fmt" = "Verwende Remote-Version (%@)";
 
 /* Sync Conflict */
-"sync_conflict_title" = "Sync Conflict";
+"sync_conflict_title" = "Sync-Konflikt";
 
 /* It looks like the remote version of this database on '%@' has changed and so has the local version you've been working on. Which version would you like to use?  - Translators Note: The first parameter is the name of the remote storage provider e.g. "Dropbox" */
-"sync_conflict_message_fmt" = "It looks like the remote version of this database on '%@' has changed and so has the local version you've been working on. Which version would you like to use?";
+"sync_conflict_message_fmt" = "Es sieht so aus, als hätten sich sowohl die Remote-Version auf '%@' als auch die lokale Version dieser Datenbank geändert. Welche Version möchten Sie verwenden?";
 
 /* Strongbox could not sync your changes. */
-"sync_could_not_sync_your_changes" = "Strongbox could not sync your changes.";
+"sync_could_not_sync_your_changes" = "Strongbox konnte Ihre Änderungen nicht synchronisieren.";
 
 /* You must close and reopen this database for Read-Only changes to take effect. */
-"db_management_reopen_required_message" = "You must close and reopen this database for changes to take effect.";
+"db_management_reopen_required_message" = "Sie müssen diese Datenbank schließen und erneut öffnen, damit die Änderungen wirksam werden.";
 
 /* Re-Open Required */
 "db_management_reopen_required_title" = "Erneutes Öffnen erforderlich";
 
 /* Could Not Open Local Copy */
-"open_sequence_couldnt_open_local_title" = "Could Not Open Local Copy";
+"open_sequence_couldnt_open_local_title" = "Lokale Kopie konnte nicht geöffnet werden";
 
 /* Could not open Strongbox's local copy of this database. A online sync is required. */
-"open_sequence_couldnt_open_local_message" = "Could not open Strongbox's local copy of this database. A online sync is required.";
+"open_sequence_couldnt_open_local_message" = "Die lokale Kopie dieser Datenbank konnte nicht geöffnet werden. Eine Online-Synchronisation ist erforderlich.";
 
 /* Use Local Copy? */
-"open_sequence_yesno_use_local_copy_title" = "Use Local Copy?";
+"open_sequence_yesno_use_local_copy_title" = "Lokale Kopie verwenden?";
 
 /* Yes, Use Local (Read-Only) */
-"open_sequence_yes_use_local_copy_option" = "Yes, Use Local (Read-Only)";
+"open_sequence_yes_use_local_copy_option" = "Ja, lokal öffnen (schreibgeschützt)";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use Strongbox's local copy in read-only mode instead? - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc */
-"open_sequence_user_looks_offline_open_local_ro_fmt" = "It looks like you may be offline and '%@' may not be reachable. Would you like to use Strongbox's local copy in read-only mode instead?";
+"open_sequence_user_looks_offline_open_local_ro_fmt" = "Es sieht so aus, als wären Sie offline und '%@' nicht erreichbar. Möchten Sie stattdessen die schreibgeschützte lokale Kopie verwenden?";
 
 /* Sync Error */
-"open_sequence_storage_provider_error_title" = "Sync Error";
+"open_sequence_storage_provider_error_title" = "Sync-Fehler";
 
 /* If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open Strongbox's local copy in read-only mode instead? */
-"open_sequence_storage_provider_error_open_local_ro_instead" = "If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open Strongbox's local copy in read-only mode instead?";
+"open_sequence_storage_provider_error_open_local_ro_instead" = "Falls dies wiederholt auftritt, sollten Sie versuchen, Ihre Datenbank erneut hinzuzufügen. Weitere Informationen finden Sie im Debug-Sync-Log...\n\nMöchten Sie stattdessen die schreibgeschützte lokale Kopie verwenden?";
