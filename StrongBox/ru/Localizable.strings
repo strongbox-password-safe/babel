@@ -1344,12 +1344,6 @@
 /* Please enter a new custom default for this field */
 "entry_defaults_vc_prompt_custom_message" = "Пожалуйста, введите новое значение, которое будет использоваться по умолчанию";
 
-/* Database File Select Required */
-"open_sequence_prompt_database_reselect_required_title" = "Необходимо выбрать файл базы данных";
-
-/* For technical reasons, you need to re-select your database file to enable Auto Fill. You will only need to do this once.\n\nThanks!\n-Mark */
-"open_sequence_prompt_database_reselect_required_message" = "По техническим причинам необходимо повторно выбрать файл базы данных, чтобы включить автозаполнение. Это потребуется сделать лишь один раз.";
-
 /* %d attempts remaining */
 "open_sequence_pin_attempts_remaining_fmt" = "Осталось %d попыток";
 
@@ -1453,18 +1447,6 @@
 /* Your Convenience PIN conflicts with your Duress PIN. Please configure in Database Settings */
 "open_sequence_warn_pin_conflict_message" = "Код-пароль совпадает с принудительным код-паролем. Пожалуйста, выберите другой.";
 
-/* Invalid Database - [%@] */
-"open_sequence_invalid_database_filename_fmt" = "Неверная база данных - [%@]";
-
-/* Different Filename */
-"open_sequence_database_different_filename_title" = "Другое имя файла";
-
-/* This doesn't look like it's the right file because the filename looks different than the one you originally added. Do you want to continue? */
-"open_sequence_database_different_filename_message" = "Это неверный файл, т.к. имя файла отличается от того, который Вы изначально добавили. Хотите продолжить?";
-
-/* Could not bookmark this file */
-"open_sequence_error_could_not_bookmark_file" = "Не удалось добавить этот файл в закладки";
-
 /* Problem Saving to External File */
 "files_provider_problem_saving" = "Проблема с сохранением во внешний файл";
 
@@ -1536,12 +1518,6 @@
 
 /* To use Strongbox for Password Autofill you need to add a database. You can do this in the Strongbox App. */
 "autofill_safes_vc_empty_subtitle" = "Для использования функции автозаполнения пароля, необходимо добавить базу данных. Это можно сделать в приложении Strongbox.";
-
-/* [No Auto Fill Cache File Yet] */
-"autofill_safes_vc_item_subtitle_no_cache_yet" = "[Пока нет кэш-файла для автозаполнения]";
-
-/* [Auto Fill Disabled] */
-"autofill_safes_vc_item_subtitle_cache_disabled" = "[Автозаполнение отключено]";
 
 /* Local */
 "autofill_safes_vc_storage_local_name" = "Локальный";
@@ -3368,3 +3344,21 @@
 
 /* If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open Strongbox's local copy in read-only mode instead? */
 "open_sequence_storage_provider_error_open_local_ro_instead" = "Если это произошло повторно, попробуйте удалить и заново добавить базу данных. См. журнал синхронизации для получения дополнительной информации.\n\nХотите открыть доступную только для чтения локальную копию?";
+
+/* Local Copy Unavailable */
+"autofill_vc_item_subtitle_local_copy_unavailable" = "Local Copy Unavailable";
+
+/* Auto Fill Disabled */
+"autofill_vc_item_subtitle_disabled" = "Auto Fill Disabled";
+
+/* Sync Required */
+"autofill_add_entry_sync_required_title" = "Sync Required";
+
+/* You have added a new entry and this change has been saved locally.\n\nDon't forget to switch to the main Strongbox app to fully sync these changes to %@. - Translators Note: The 1st parameter here is the storage location, e.g. 'Dropbox' */
+"autofill_add_entry_sync_required_message_fmt" = "You have added a new entry and this change has been saved locally.\n\nDon't forget to switch to the main Strongbox app to fully sync these changes to %@.";
+
+/* Got it! */
+"autofill_add_entry_sync_required_option_got_it" = "Got it!";
+
+/* Don't tell me again */
+"autofill_add_entry_sync_required_option_dont_tell_again" = "Don't tell me again";
