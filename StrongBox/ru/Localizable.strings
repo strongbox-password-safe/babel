@@ -20,7 +20,7 @@
 "safes_vc_cached_date_time_fmt" = "Дата кэша: %@";
 
 /* Open ths database offline table action */
-"safes_vc_slide_left_open_offline_action" = "Open Local...";
+"safes_vc_slide_left_open_offline_action" = "Локальная копия";
 
 /* Title of the 'More Actions' alert/action sheet */
 "safes_vc_database_actions_sheet_title" = "Выбор действия";
@@ -1147,7 +1147,7 @@
 "add_attachment_vc_error_reading_message" = "Не удалось открыть данные этого элемента.";
 
 /* This is quite a large file (%@), and could significantly affect the performance of Strongbox and slow down syncs across networks. Is there a smaller version you could use?\n\nContinue adding this attachment anyway? */
-"add_attachment_vc_large_file_message_fmt" = "Это довольно большой файл (%@), который может существенно повлиять на производительность Strongbox и замедлить сетевую синхронизацию. Есть ли уменьшенная версия, которую Вы могли бы использовать?\n\nПродолжить добавление этого вложения в любом случае?";
+"add_attachment_vc_large_file_message_fmt" = "Слишком большой файл (%@), который может существенно повлиять на производительность Strongbox и замедлить сетевую синхронизацию.\n\nДобавить вложение в любом случае?";
 
 /* Large Attachment */
 "add_attachment_vc_large_file_title" = "Большое приложение";
@@ -1156,10 +1156,10 @@
 "add_attachment_vc_large_file_analyzing_progress_title" = "Анализ изображения...";
 
 /* This is a rather large image which could negatively affect the performance of Strongbox, and significantly slow down network synchronisation times. Would you like to rescale this image to one of the streamlined options below? */
-"add_attachment_vc_large_image_message_rescale" = "Это довольно большое изображение, которое может негативно повлиять на производительность Strongbox и значительно замедлить сетевую синхронизацию. Хотите изменить масштаб этого изображения до одного из оптимизированных вариантов, представленных ниже?";
+"add_attachment_vc_large_image_message_rescale" = "Слишком большое изображение, которое может негативно повлиять на производительность Strongbox и замедлить сетевую синхронизацию. Хотите изменить масштаб изображения до одного из оптимизированных вариантов, представленных ниже?";
 
 /* This is a rather large image which could negatively affect the performance of Strongbox, and significantly slow down network synchronisation times. Is there a smaller version you could use? */
-"add_attachment_vc_large_image_message" = "Это довольно большое изображение, которое может негативно повлиять на производительность Strongbox и значительно замедлить сетевую синхронизацию. Есть ли уменьшенная версия, которую Вы могли бы использовать?";
+"add_attachment_vc_large_image_message" = "Слишком большое изображение, которое может негативно повлиять на производительность Strongbox и замедлить сетевую синхронизацию. Есть ли уменьшенная версия, которую Вы могли бы использовать?";
 
 /* Rescale Large Image? */
 "add_attachment_vc_large_image_prompt_rescale_title" = "Изменить масштаб изображения?";
@@ -1344,12 +1344,6 @@
 /* Please enter a new custom default for this field */
 "entry_defaults_vc_prompt_custom_message" = "Пожалуйста, введите новое значение, которое будет использоваться по умолчанию";
 
-/* Database File Select Required */
-"open_sequence_prompt_database_reselect_required_title" = "Необходимо выбрать файл базы данных";
-
-/* For technical reasons, you need to re-select your database file to enable Auto Fill. You will only need to do this once.\n\nThanks!\n-Mark */
-"open_sequence_prompt_database_reselect_required_message" = "По техническим причинам необходимо повторно выбрать файл базы данных, чтобы включить автозаполнение. Это потребуется сделать лишь один раз.";
-
 /* %d attempts remaining */
 "open_sequence_pin_attempts_remaining_fmt" = "Осталось %d попыток";
 
@@ -1453,18 +1447,6 @@
 /* Your Convenience PIN conflicts with your Duress PIN. Please configure in Database Settings */
 "open_sequence_warn_pin_conflict_message" = "Код-пароль совпадает с принудительным код-паролем. Пожалуйста, выберите другой.";
 
-/* Invalid Database - [%@] */
-"open_sequence_invalid_database_filename_fmt" = "Неверная база данных - [%@]";
-
-/* Different Filename */
-"open_sequence_database_different_filename_title" = "Другое имя файла";
-
-/* This doesn't look like it's the right file because the filename looks different than the one you originally added. Do you want to continue? */
-"open_sequence_database_different_filename_message" = "Это неверный файл, т.к. имя файла отличается от того, который Вы изначально добавили. Хотите продолжить?";
-
-/* Could not bookmark this file */
-"open_sequence_error_could_not_bookmark_file" = "Не удалось добавить этот файл в закладки";
-
 /* Problem Saving to External File */
 "files_provider_problem_saving" = "Проблема с сохранением во внешний файл";
 
@@ -1535,13 +1517,7 @@
 "autofill_safes_vc_empty_title" = "У Вас ещё нет баз данных :(";
 
 /* To use Strongbox for Password Autofill you need to add a database. You can do this in the Strongbox App. */
-"autofill_safes_vc_empty_subtitle" = "Для использования функции автозаполнения пароля, необходимо добавить базу данных. Это можно сделать в приложении Strongbox.";
-
-/* [No Auto Fill Cache File Yet] */
-"autofill_safes_vc_item_subtitle_no_cache_yet" = "[Пока нет кэш-файла для автозаполнения]";
-
-/* [Auto Fill Disabled] */
-"autofill_safes_vc_item_subtitle_cache_disabled" = "[Автозаполнение отключено]";
+"autofill_safes_vc_empty_subtitle" = "Для использования функции автозаполнения пароля необходимо добавить базу данных. Это можно сделать в приложении Strongbox.";
 
 /* Local */
 "autofill_safes_vc_storage_local_name" = "Локальный";
@@ -1889,7 +1865,7 @@
 "prefs_vc_info_email_support_options_title" = "Поддержка";
 
 /* Please make sure you check Twitter, Reddit and the FAQ before you email support to save development resources for improving Strongbox. */
-"prefs_vc_info_email_support_options_message" = "Пожалуйста, убедитесь, что Вы прочли раздел часто задаваемых вопросов, публикации Twitter перед тем, как воспользуетесь поддержкой по электронной почте. Этим Вы поможете сэкономить время разработчика для улучшения Strongbox.";
+"prefs_vc_info_email_support_options_message" = "Пожалуйста, ознакомьтесь с разделом часто задаваемых вопросов, публикациями Twitter перед тем, как воспользуетесь поддержкой по электронной почте. Этим Вы поможете сэкономить время разработчика для улучшения Strongbox.";
 
 /* Check FAQ */
 "prefs_vc_info_email_support_options_check_faq" = "Часто задаваемые вопросы";
@@ -2989,22 +2965,22 @@
 "quick_view_title_all_entries_title" = "Все записи";
 
 /* View every entry in a flat list... */
-"quick_view_title_all_entries_subtitle" = "Просмотреть список всех записей...";
+"quick_view_title_all_entries_subtitle" = "Просмотр списка всех записей";
 
 /* Audit Issues */
 "quick_view_title_audit_issues_title" = "Проблемы аудита";
 
 /* View all entries with audit issues */
-"quick_view_title_audit_issues_subtitle" = "Посмотреть все записи с проблемами аудита";
+"quick_view_title_audit_issues_subtitle" = "Просмотр всех записей с проблемами аудита";
 
 /* TOTP Entries */
 "quick_view_title_totp_entries_title" = "Записи TOTP";
 
 /* View all entries with a TOTP token */
-"quick_view_title_totp_entries_subtitle" = "Просмотреть все записи с токеном TOTP";
+"quick_view_title_totp_entries_subtitle" = "Просмотр всех записей с TOTP";
 
 /* Quick Views */
-"quick_view_section_title_quick_views" = "Быстрые доступы";
+"quick_view_section_title_quick_views" = "Быстрый доступ";
 
 /* Enhanced Audits (Pro Edition Only) */
 "audit_similar_passwords_pro_only_title" = "Похожие пароли (Pro версия)";
@@ -3307,64 +3283,82 @@
 "backup_settings_prompt_no_dont_backup_anything" = "Не создавать резервную копию";
 
 /* View Sync Status */
-"safes_vc_action_view_sync_status" = "View Debug Sync Log";
+"safes_vc_action_view_sync_status" = "Журнал синхронизации";
 
 /* Please send this crash report to support@strongboxsafe.com */
 "safes_vc_please_send_crash_report" = "Пожалуйста, отправьте отчёт о сбое на support@strongboxsafe.com";
 
 /* In Progress */
-"generic_in_progress" = "In Progress";
+"generic_in_progress" = "Выполняется";
 
 /* Initial */
-"generic_initial_state" = "Initial";
+"generic_initial_state" = "Инициализация";
 
 /* %@ - Sync No. %@ (Translators Note: 1st Parameter is the Date/Time of the Sync e.g. 'Today, 4:42PM', The second parameter is a sequence number like 1, 2, 42 etc. This is the number of times this database has been synced in this session */
-"sync_log_sync_header_fmt" = "%@ - Sync No. %@";
+"sync_log_sync_header_fmt" = "%@ - Сессия # %@";
 
 /* User Interaction Required */
 "sync_status_user_interaction_required_title" = "Необходимо действие";
 
 /* User Cancelled */
-"sync_status_user_interaction_cancelled" = "User Cancelled";
+"sync_status_user_interaction_cancelled" = "Отменено пользователем";
 
 /* Use Mine/Local (%@) - Translators Note: The first parameter is the modified date of the local copy e.g. "Today, 14:22" */
-"sync_conflict_option_use_mine_fmt" = "Use Mine/Local (%@)";
+"sync_conflict_option_use_mine_fmt" = "Использовать локальную (%@)";
 
 /* Use Theirs/Remote (%@) - Translators Note: The first parameter is the modified date of the remote copy e.g. "September 1st, 14:22" */
-"sync_conflict_option_use_theirs_fmt" = "Use Theirs/Remote (%@)";
+"sync_conflict_option_use_theirs_fmt" = "Использовать удалённую (%@)";
 
 /* Sync Conflict */
-"sync_conflict_title" = "Sync Conflict";
+"sync_conflict_title" = "Конфликт синхронизации";
 
 /* It looks like the remote version of this database on '%@' has changed and so has the local version you've been working on. Which version would you like to use?  - Translators Note: The first parameter is the name of the remote storage provider e.g. "Dropbox" */
-"sync_conflict_message_fmt" = "It looks like the remote version of this database on '%@' has changed and so has the local version you've been working on. Which version would you like to use?";
+"sync_conflict_message_fmt" = "Удалённая копия базы данных в хранилище '%@' изменилась. Какую копию вы хотите использовать?";
 
 /* Strongbox could not sync your changes. */
-"sync_could_not_sync_your_changes" = "Strongbox could not sync your changes.";
+"sync_could_not_sync_your_changes" = "Не удалось синхронизировать изменения.";
 
 /* You must close and reopen this database for Read-Only changes to take effect. */
-"db_management_reopen_required_message" = "You must close and reopen this database for changes to take effect.";
+"db_management_reopen_required_message" = "Необходимо закрыть и заново открыть базу данных, чтобы изменения вступили в силу.";
 
 /* Re-Open Required */
 "db_management_reopen_required_title" = "Предупреждение";
 
 /* Could Not Open Local Copy */
-"open_sequence_couldnt_open_local_title" = "Could Not Open Local Copy";
+"open_sequence_couldnt_open_local_title" = "Ошибка при открытии";
 
 /* Could not open Strongbox's local copy of this database. A online sync is required. */
-"open_sequence_couldnt_open_local_message" = "Could not open Strongbox's local copy of this database. A online sync is required.";
+"open_sequence_couldnt_open_local_message" = "Не удалось открыть локальную копию. Необходима синхронизация базы данных.";
 
 /* Use Local Copy? */
-"open_sequence_yesno_use_local_copy_title" = "Use Local Copy?";
+"open_sequence_yesno_use_local_copy_title" = "Использование локальной копии";
 
 /* Yes, Use Local (Read-Only) */
-"open_sequence_yes_use_local_copy_option" = "Yes, Use Local (Read-Only)";
+"open_sequence_yes_use_local_copy_option" = "Использовать локальную";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use Strongbox's local copy in read-only mode instead? - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc */
-"open_sequence_user_looks_offline_open_local_ro_fmt" = "It looks like you may be offline and '%@' may not be reachable. Would you like to use Strongbox's local copy in read-only mode instead?";
+"open_sequence_user_looks_offline_open_local_ro_fmt" = "Возможно, нет подключения к сети и хранилище '%@' недоступно. Хотите использовать доступную только для чтения локальную копию базы данных?";
 
 /* Sync Error */
-"open_sequence_storage_provider_error_title" = "Sync Error";
+"open_sequence_storage_provider_error_title" = "Ошибка при синхронизации";
 
 /* If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open Strongbox's local copy in read-only mode instead? */
-"open_sequence_storage_provider_error_open_local_ro_instead" = "If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open Strongbox's local copy in read-only mode instead?";
+"open_sequence_storage_provider_error_open_local_ro_instead" = "Если это произошло повторно, попробуйте удалить и заново добавить базу данных. См. журнал синхронизации для получения дополнительной информации.\n\nХотите открыть доступную только для чтения локальную копию?";
+
+/* Local Copy Unavailable */
+"autofill_vc_item_subtitle_local_copy_unavailable" = "Локальная копия недоступна";
+
+/* Auto Fill Disabled */
+"autofill_vc_item_subtitle_disabled" = "Автозаполнение отключено";
+
+/* Sync Required */
+"autofill_add_entry_sync_required_title" = "Необходима синхронизация";
+
+/* You have added a new entry and this change has been saved locally.\n\nDon't forget to switch to the main Strongbox app to fully sync these changes to %@. - Translators Note: The 1st parameter here is the storage location, e.g. 'Dropbox' */
+"autofill_add_entry_sync_required_message_fmt" = "Вы добавили новую запись. Изменение было сохранено в локальной копии.\n\nНе забудьте переключиться на главный экран, чтобы синхронизировать изменения с %@.";
+
+/* Got it! */
+"autofill_add_entry_sync_required_option_got_it" = "Понятно";
+
+/* Don't tell me again */
+"autofill_add_entry_sync_required_option_dont_tell_again" = "Больше не спрашивать";

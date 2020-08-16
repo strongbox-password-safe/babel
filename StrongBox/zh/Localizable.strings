@@ -1344,12 +1344,6 @@
 /* Please enter a new custom default for this field */
 "entry_defaults_vc_prompt_custom_message" = "请为此字段输入一个新的自定义默认值。";
 
-/* Database File Select Required */
-"open_sequence_prompt_database_reselect_required_title" = "需要选择数据库文件";
-
-/* For technical reasons, you need to re-select your database file to enable Auto Fill. You will only need to do this once.\n\nThanks!\n-Mark */
-"open_sequence_prompt_database_reselect_required_message" = "出于技术原因，您需要重新选中数据库文件以启用自动填充。您只需要这样做一次。\n\n谢谢!\n-Mark";
-
 /* %d attempts remaining */
 "open_sequence_pin_attempts_remaining_fmt" = "剩余 %d 次尝试";
 
@@ -1453,18 +1447,6 @@
 /* Your Convenience PIN conflicts with your Duress PIN. Please configure in Database Settings */
 "open_sequence_warn_pin_conflict_message" = "您的便捷 PIN 与您的胁迫 PIN 冲突。请在数据库设置中设定。";
 
-/* Invalid Database - [%@] */
-"open_sequence_invalid_database_filename_fmt" = "无效的数据库-[%@]";
-
-/* Different Filename */
-"open_sequence_database_different_filename_title" = "不同的文件名";
-
-/* This doesn't look like it's the right file because the filename looks different than the one you originally added. Do you want to continue? */
-"open_sequence_database_different_filename_message" = "这看起来不像正确的文件，因为文件名看起来与您最初添加的文件名不同。 是否继续？";
-
-/* Could not bookmark this file */
-"open_sequence_error_could_not_bookmark_file" = "无法标记此文件";
-
 /* Problem Saving to External File */
 "files_provider_problem_saving" = "保存到外部文件时出错";
 
@@ -1536,12 +1518,6 @@
 
 /* To use Strongbox for Password Autofill you need to add a database. You can do this in the Strongbox App. */
 "autofill_safes_vc_empty_subtitle" = "要使用 Strongbox 密码自动填充，您需要添加一个数据库。您可以在 Strongbox 应用程序中做到这一点。";
-
-/* [No Auto Fill Cache File Yet] */
-"autofill_safes_vc_item_subtitle_no_cache_yet" = "[尚无自动填充缓存文件]";
-
-/* [Auto Fill Disabled] */
-"autofill_safes_vc_item_subtitle_cache_disabled" = "[自动填充已禁用]";
 
 /* Local */
 "autofill_safes_vc_storage_local_name" = "本地";
@@ -3368,3 +3344,21 @@
 
 /* If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open Strongbox's local copy in read-only mode instead? */
 "open_sequence_storage_provider_error_open_local_ro_instead" = "If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open Strongbox's local copy in read-only mode instead?";
+
+/* Local Copy Unavailable */
+"autofill_vc_item_subtitle_local_copy_unavailable" = "Local Copy Unavailable";
+
+/* Auto Fill Disabled */
+"autofill_vc_item_subtitle_disabled" = "Auto Fill Disabled";
+
+/* Sync Required */
+"autofill_add_entry_sync_required_title" = "Sync Required";
+
+/* You have added a new entry and this change has been saved locally.\n\nDon't forget to switch to the main Strongbox app to fully sync these changes to %@. - Translators Note: The 1st parameter here is the storage location, e.g. 'Dropbox' */
+"autofill_add_entry_sync_required_message_fmt" = "You have added a new entry and this change has been saved locally.\n\nDon't forget to switch to the main Strongbox app to fully sync these changes to %@.";
+
+/* Got it! */
+"autofill_add_entry_sync_required_option_got_it" = "Got it!";
+
+/* Don't tell me again */
+"autofill_add_entry_sync_required_option_dont_tell_again" = "Don't tell me again";
