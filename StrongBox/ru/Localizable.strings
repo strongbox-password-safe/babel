@@ -1384,7 +1384,7 @@
 "open_sequence_yesno_use_offline_cache_no_try_connect_option" = "Нет, пытаться подключиться";
 
 /* There was a problem reading the database on %@. would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ */
-"open_sequence_storage_unreachable_open_offline_instead_fmt" = "Ошибка при чтении данных с сервера %@. Если это произошло повторно, попробуйте удалить и заново добавить базу данных. Хотите использовать доступный только для чтения кэш базы данных?\n\nДата кэша: %@";
+"open_sequence_storage_unreachable_open_offline_instead_fmt" = "Ошибка при чтении данных с сервера %@. Если ошибка повторяется, попробуйте удалить и заново добавить базу данных. Хотите использовать доступный только для чтения кэш базы данных?\n\nДата кэша: %@";
 
 /* Could not open database
    There was a problem opening the database. */
@@ -1718,7 +1718,7 @@
 "safes_vc_tip" = "Смахните влево по базе данных для опций";
 
 /* Tip: Tap to Copy, Double Tap to Launch URL or Copy Notes */
-"item_details_tip" = "Нажмите единожды для копирования, дважды для запуска URL или копирования примечаний";
+"item_details_tip" = "Одиночное нажатие для копирования или двойное для копирования примечания";
 
 /* Tip: Slide Left for Options or Tap to View */
 "keepass_history_tip" = "Смахните влево для опций или нажмите для просмотра";
@@ -3334,7 +3334,7 @@
 "open_sequence_yesno_use_local_copy_title" = "Использование локальной копии";
 
 /* Yes, Use Local (Read-Only) */
-"open_sequence_yes_use_local_copy_option" = "Использовать локальную";
+"open_sequence_yes_use_local_copy_option" = "Локальная копия";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use Strongbox's local copy in read-only mode instead? - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc */
 "open_sequence_user_looks_offline_open_local_ro_fmt" = "Возможно, нет подключения к сети и хранилище '%@' недоступно. Хотите использовать доступную только для чтения локальную копию базы данных?";
@@ -3343,7 +3343,7 @@
 "open_sequence_storage_provider_error_title" = "Ошибка при синхронизации";
 
 /* If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open Strongbox's local copy in read-only mode instead? */
-"open_sequence_storage_provider_error_open_local_ro_instead" = "Если это произошло повторно, попробуйте удалить и заново добавить базу данных. См. журнал синхронизации для получения дополнительной информации.\n\nХотите открыть доступную только для чтения локальную копию?";
+"open_sequence_storage_provider_error_open_local_ro_instead" = "Если ошибка повторяется, попробуйте удалить и заново добавить базу данных. См. журнал синхронизации для получения дополнительной информации.\n\nХотите открыть доступную только для чтения локальную копию?";
 
 /* Local Copy Unavailable */
 "autofill_vc_item_subtitle_local_copy_unavailable" = "Локальная копия недоступна";
@@ -3355,7 +3355,7 @@
 "autofill_add_entry_sync_required_title" = "Необходима синхронизация";
 
 /* You have added a new entry and this change has been saved locally.\n\nDon't forget to switch to the main Strongbox app to fully sync these changes to %@. - Translators Note: The 1st parameter here is the storage location, e.g. 'Dropbox' */
-"autofill_add_entry_sync_required_message_fmt" = "Вы добавили новую запись. Изменение было сохранено в локальной копии.\n\nНе забудьте переключиться на главный экран, чтобы синхронизировать изменения с %@.";
+"autofill_add_entry_sync_required_message_fmt" = "Новая запись добавлена и сохранена в локальной копии базы данных.\n\nСинхронизация изменений с %@ произойдёт при открытии приложения Strongbox.";
 
 /* Got it! */
 "autofill_add_entry_sync_required_option_got_it" = "Понятно";
