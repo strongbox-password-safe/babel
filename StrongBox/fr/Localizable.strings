@@ -44,10 +44,10 @@
 "safes_vc_about_setting_quick_launch_and_confirm" = "Définir cette base de données comme lancement rapide signifie que vous serez automatiquement invité à la déverrouiller dès que vous lancerez ou réactiverez Strongbox. Cela peut vous économiser un appui précieux !\n\nDéfinir comme lancement rapide ?";
 
 /* Button title to Show Database in iOS Files App */
-"safes_vc_show_database_in_files_info" = "Rendre cette base de données visible dans l'application Fichiers la rendra également accessible via Finder sur votre Mac. Cependant, la base de données ne sera plus accessible en écriture en mode remplissage automatique. Ceci est dû à la conception du système iOS.\n\nNB : Cette action est réversible";
+"safes_vc_show_database_in_files_info" = "Making this database visible in the Files App will also make the database available for access via Finder on your Mac. However the database will no longer be write-able in AutoFill mode. This is due to iOS system design.\n\nNB: You can always reverse this action";
 
 /* Button title to Hide Database from the iOS Files App */
-"safes_vc_make_database_auto_fill_info" = "Masquer cette base de données dans l'application Fichiers signifie aussi qu'elle ne sera plus visible via Finder sur votre Mac. Accessoirement, cela signifie également que vous obtenez la fonctionnalité complète (lecture/écriture) de remplissage automatique (pas juste un cache en lecture seule).\n\nNB : Cette action est réversible";
+"safes_vc_make_database_auto_fill_info" = "Hiding this database from the Files App also means it will no longer be visible via Finder on your Mac. As a side-effect, this also means you get full (read/write) AutoFill functionality (not just a read-only cache).\n\nNB: You can always reverse this action";
 
 /* OK/Cancel prompt title for changing local storage mode */
 "safes_vc_change_local_device_storage_mode_title" = "Modifier la visibilité dans Fichiers";
@@ -1393,8 +1393,8 @@
 /* AutoFill Crash Likely */
 "open_sequence_autofill_creash_likely_title" = "Crash probable du remplissage auto";
 
-/* Your database has encryption settings that may cause iOS Password Auto Fill extensions to be terminated due to excessive resource consumption. This will mean Auto Fill appears not to work. Unfortunately this is an Apple imposed limit. You could consider reducing the amount of resources consumed by your encryption settings (Memory in particular with Argon2 to below 64MB). */
-"open_sequence_autofill_creash_likely_message" = "Votre base de données est assez volumineuse, ou a des paramètres de chiffrement pouvant provoquer la fermeture forcée des extensions de remplissage automatique des mots de passe iOS en raison d'une consommation de ressources excessive.\nCela signifie que le remplissage automatique semble ne pas fonctionner. Malheureusement, il s'agit d'une limitation système imposée par Apple.\nVous pourriez envisager de réduire la taille du fichier ou de changer la quantité de ressources utilisée (La mémoire, en particulier, avec Argon2 à une valeur inférieure à 64 Mo).";
+/* Your database has encryption settings that may cause iOS Password AutoFill extensions to be terminated due to excessive resource consumption. This will mean AutoFill appears not to work. Unfortunately this is an Apple imposed limit. You could consider reducing the amount of resources consumed by your encryption settings (Memory in particular with Argon2 to below 64MB). */
+"open_sequence_autofill_creash_likely_message" = "Your database is quite large, or has encryption settings that may cause iOS Password AutoFill extensions to be terminated due to excessive resource consumption.\nThis will mean AutoFill appears not to work. Unfortunately this is an Apple imposed system limitation.\nYou could consider reducing file size or changing the amount of resources consumed (Memory in particular with Argon2 to below 64MB).";
 
 /* No Key File */
 "key_files_vc_no_key_file" = "Aucun fichier-clé";
@@ -2346,20 +2346,20 @@
 /* Search (⌘F) */
 "mac_search_placeholder" = "Recherche (⌘F)";
 
-/* Please enter your custom Title auto fill */
-"mac_enter_custom_title_default" = "Veuillez entrer votre titre personnalisé de remplissage automatique";
+/* Please Enter Your Custom Default Title */
+"mac_enter_custom_title_default" = "Please Enter Your Custom Default Title";
 
-/* Please enter your custom Username auto fill */
-"mac_enter_custom_username_default" = "Veuillez entrer votre nom d'utilisateur personnalisé de remplissage automatique";
+/* Please Enter Your Custom Default Username */
+"mac_enter_custom_username_default" = "Please Enter Your Custom Default Username";
 
-/* Please enter your custom Email auto fill */
-"mac_enter_custom_email_default" = "Veuillez entrer votre email personnalisé de remplissage automatique";
+/* Please Enter Your Custom Default Email */
+"mac_enter_custom_email_default" = "Please Enter Your Custom Default Email";
 
-/* Please enter your custom Password auto fill */
-"mac_enter_custom_password_default" = "Veuillez entrer votre mot de passe personnalisé de remplissage automatique";
+/* Please Enter Your Custom Default Password */
+"mac_enter_custom_password_default" = "Please Enter Your Custom Default Password";
 
-/* Please enter your custom URL auto fill */
-"mac_enter_custom_url_default" = "Veuillez entrer votre URL personnalisée de remplissage automatique";
+/* Please Enter Your Custom Default URL */
+"mac_enter_custom_url_default" = "Please Enter Your Custom Default URL";
 
 /* Welcome to Strongbox */
 "mac_welcome_to_strongbox_title" = "Bienvenue dans Strongbox";
@@ -2668,9 +2668,6 @@
 /* Welcome */
 "auto_fill_welcome_message_header" = "Bienvenue";
 
-/* Translators Note: A welcome/warning message that certain native storage providers do not support Live Auto Fill, and must use a cached version of the database */
-"auto_fill_welcome_live_storage_warning_message" = "Il est à noter que les fournisseurs de stockage suivants ne prennent pas en charge l'accès en direct à votre base de données à partir des extensions d'application :\nDropbox, OneDrive et Google Drive\nDans ces cas, Strongbox peut utiliser une mémoire cache... Profitez bien du remplissage automatique Strongbox !\n-Mark";
-
 /* Automatically download FavIcon on URL Change (PRO Only) */
 "mac_auto_download_favicon_pro_only" = "Télécharger Favicon automatiquement sur changement d'URL (Pro uniquement)";
 
@@ -2776,8 +2773,8 @@
 /* Slot 2 */
 "casg_yubikey_configured_slot2" = "Emplacement 2";
 
-/* YubiKey Unlock is not supported in Auto Fill mode */
-"open_sequence_cannot_use_yubikey_in_autofill_mode" = "Le déverrouillage YubiKey n'est pas pris en charge en mode de remplissage automatique";
+/* YubiKey Unlock is not supported in AutoFill mode */
+"open_sequence_cannot_use_yubikey_in_autofill_mode" = "YubiKey Unlock is not supported in AutoFill mode";
 
 /* YubiKey Unlock is only available in the Pro edition of Strongbox */
 "open_sequence_yubikey_only_available_in_pro" = "Le déverrouillage YubiKey est disponible uniquement dans la version Pro de Strongbox";
@@ -2832,11 +2829,11 @@
 
 "casg_yubikey_configured_mfi" = "Lightning";
 
-/* Auto Fill Crash Occurred */
-"autofill_did_not_close_cleanly_title" = "Le remplissage automatique a planté";
+/* AutoFill Crash Occurred */
+"autofill_did_not_close_cleanly_title" = "AutoFill Crash Occurred";
 
-/* It looks like the last time you used Auto Fill you had a crash. This is usually due to a memory limitation. Please check your database file size and your Argon2 memory settings (should be <= 64MB) */
-"autofill_did_not_close_cleanly_message" = "Il semble que la dernière fois que vous avez utilisé le remplissage automatique, vous avez eu un plantage. Cela est généralement dû à des limitations de mémoire iOS. Veuillez vérifier la taille du fichier de la base de données et les paramètres de la mémoire Argon2 (doit être <= 64MB)";
+/* It looks like the last time you used AutoFill you had a crash. This is usually due to a memory limitation. Please check your database file size and your Argon2 memory settings (should be <= 64MB) */
+"autofill_did_not_close_cleanly_message" = "It looks like the last time you used AutoFill you had a crash. This is usually due to a iOS memory limitations. Please check database file size and Argon2 memory (should be <= 64MB) settings";
 
 /* Regenerate... */
 "password_generation_regenerate_ellipsis" = "Régénérer ...";
@@ -3348,7 +3345,7 @@
 /* Local Copy Unavailable */
 "autofill_vc_item_subtitle_local_copy_unavailable" = "Copie locale indisponible";
 
-/* Auto Fill Disabled */
+/* AutoFill Disabled */
 "autofill_vc_item_subtitle_disabled" = "Remplissage automatique désactivé";
 
 /* Sync Required */
