@@ -44,10 +44,10 @@
 "safes_vc_about_setting_quick_launch_and_confirm" = "Встановлення швидкого запуску для бази паролів означає, що вона автоматично відкриватиметься із запитом про розблокування одразу після запуску Strongbox. Це може пришвидшити вашу роботу!\n\nВстановити швидкий запуск для цієї бази паролів?";
 
 /* Button title to Show Database in iOS Files App */
-"safes_vc_show_database_in_files_info" = "Відображення цієї бази паролів у програмі Файли зробить її також доступною через програму Finder на вашому Mac. Однак, база паролів більше не буде доступною для запису в режимі автозаповнення. Це пов'язано з обмеженнями системи iOS.\n\nПримітка: Ви завжди можете скасувати цю дію";
+"safes_vc_show_database_in_files_info" = "Making this database visible in the Files App will also make the database available for access via Finder on your Mac. However the database will no longer be write-able in AutoFill mode. This is due to iOS system design.\n\nNB: You can always reverse this action";
 
 /* Button title to Hide Database from the iOS Files App */
-"safes_vc_make_database_auto_fill_info" = "Приховування цієї бази паролів з програми Файли означає, що вона більше не буде доступною через програми Finder на вашому Mac. Але разом з цим ви отримаєте повний доступ (читання і запис) в режимі автозаповнення (а не лише кеш для читання).\n\nПримітка: Ви завжди можете скасувати цю дію";
+"safes_vc_make_database_auto_fill_info" = "Hiding this database from the Files App also means it will no longer be visible via Finder on your Mac. As a side-effect, this also means you get full (read/write) AutoFill functionality (not just a read-only cache).\n\nNB: You can always reverse this action";
 
 /* OK/Cancel prompt title for changing local storage mode */
 "safes_vc_change_local_device_storage_mode_title" = "Відображення в програмі Файли";
@@ -1393,8 +1393,8 @@
 /* AutoFill Crash Likely */
 "open_sequence_autofill_creash_likely_title" = "Схоже, відбувся збій автозаповнення";
 
-/* Your database has encryption settings that may cause iOS Password Auto Fill extensions to be terminated due to excessive resource consumption. This will mean Auto Fill appears not to work. Unfortunately this is an Apple imposed limit. You could consider reducing the amount of resources consumed by your encryption settings (Memory in particular with Argon2 to below 64MB). */
-"open_sequence_autofill_creash_likely_message" = "Ваша база паролів досить велика, або має налаштування шифрування, що може призвести розширення автозаповнення паролів iOS до збою у зв'язку зі значним споживанням ресурсів.\nЦе означатиме, що автозаповнення може не працювати. На жаль, це системне обмеження Apple.\nВи можете розглянути можливість зменшення розміру файлу або зміни обсягу ресурсів, що споживаються (Зменшити споживання пам'яті з Argon2 до 64 МБ).";
+/* Your database has encryption settings that may cause iOS Password AutoFill extensions to be terminated due to excessive resource consumption. This will mean AutoFill appears not to work. Unfortunately this is an Apple imposed limit. You could consider reducing the amount of resources consumed by your encryption settings (Memory in particular with Argon2 to below 64MB). */
+"open_sequence_autofill_creash_likely_message" = "Your database is quite large, or has encryption settings that may cause iOS Password AutoFill extensions to be terminated due to excessive resource consumption.\nThis will mean AutoFill appears not to work. Unfortunately this is an Apple imposed system limitation.\nYou could consider reducing file size or changing the amount of resources consumed (Memory in particular with Argon2 to below 64MB).";
 
 /* No Key File */
 "key_files_vc_no_key_file" = "Немає ключового файлу";
@@ -2346,20 +2346,20 @@
 /* Search (⌘F) */
 "mac_search_placeholder" = "Пошук (⌘F)";
 
-/* Please enter your custom Title auto fill */
-"mac_enter_custom_title_default" = "Введіть власний заголовок автозаповнення";
+/* Please Enter Your Custom Default Title */
+"mac_enter_custom_title_default" = "Please Enter Your Custom Default Title";
 
-/* Please enter your custom Username auto fill */
-"mac_enter_custom_username_default" = "Введіть власне ім'я користувача автозаповнення";
+/* Please Enter Your Custom Default Username */
+"mac_enter_custom_username_default" = "Please Enter Your Custom Default Username";
 
-/* Please enter your custom Email auto fill */
-"mac_enter_custom_email_default" = "Введіть власну е-пошту автозаповнення";
+/* Please Enter Your Custom Default Email */
+"mac_enter_custom_email_default" = "Please Enter Your Custom Default Email";
 
-/* Please enter your custom Password auto fill */
-"mac_enter_custom_password_default" = "Введіть власний пароль автозаповнення";
+/* Please Enter Your Custom Default Password */
+"mac_enter_custom_password_default" = "Please Enter Your Custom Default Password";
 
-/* Please enter your custom URL auto fill */
-"mac_enter_custom_url_default" = "Введіть власний URL автозаповнення";
+/* Please Enter Your Custom Default URL */
+"mac_enter_custom_url_default" = "Please Enter Your Custom Default URL";
 
 /* Welcome to Strongbox */
 "mac_welcome_to_strongbox_title" = "Вітаємо в Strongbox";
@@ -2668,9 +2668,6 @@
 /* Welcome */
 "auto_fill_welcome_message_header" = "Вітаємо";
 
-/* Translators Note: A welcome/warning message that certain native storage providers do not support Live Auto Fill, and must use a cached version of the database */
-"auto_fill_welcome_live_storage_warning_message" = "Варто зазначити, що такі постачальники сховищ не підтримують живий доступ до вашої бази даних із програм:\nDropbox, OneDrive та Google Диск\nУ цих випадках Strongbox може використовувати кеш... Насолоджуйтесь автозаповненням Strongbox!\n-Mark";
-
 /* Automatically download FavIcon on URL Change (PRO Only) */
 "mac_auto_download_favicon_pro_only" = "Автоматично завантажувати піктограму після зміни URL (функція Pro)";
 
@@ -2776,8 +2773,8 @@
 /* Slot 2 */
 "casg_yubikey_configured_slot2" = "Слот 2";
 
-/* YubiKey Unlock is not supported in Auto Fill mode */
-"open_sequence_cannot_use_yubikey_in_autofill_mode" = "Розблокування YubiKey не підтримується в режимі автозаповнення";
+/* YubiKey Unlock is not supported in AutoFill mode */
+"open_sequence_cannot_use_yubikey_in_autofill_mode" = "YubiKey Unlock is not supported in AutoFill mode";
 
 /* YubiKey Unlock is only available in the Pro edition of Strongbox */
 "open_sequence_yubikey_only_available_in_pro" = "Розблокування YubiKey доступне лише у версії Strongbox Pro";
@@ -2832,11 +2829,11 @@
 
 "casg_yubikey_configured_mfi" = "Lightning";
 
-/* Auto Fill Crash Occurred */
-"autofill_did_not_close_cleanly_title" = "Стався збій автозаповнення";
+/* AutoFill Crash Occurred */
+"autofill_did_not_close_cleanly_title" = "AutoFill Crash Occurred";
 
-/* It looks like the last time you used Auto Fill you had a crash. This is usually due to a memory limitation. Please check your database file size and your Argon2 memory settings (should be <= 64MB) */
-"autofill_did_not_close_cleanly_message" = "Схоже, що при останньому використанні автозаповнення стався збій. Зазвичай це пов'язано з обмеженнями пам'яті iOS. Перевірте розмір бази даних і параметри файлу Argon2 (має бути <= 64МБ)";
+/* It looks like the last time you used AutoFill you had a crash. This is usually due to a memory limitation. Please check your database file size and your Argon2 memory settings (should be <= 64MB) */
+"autofill_did_not_close_cleanly_message" = "It looks like the last time you used AutoFill you had a crash. This is usually due to a iOS memory limitations. Please check database file size and Argon2 memory (should be <= 64MB) settings";
 
 /* Regenerate... */
 "password_generation_regenerate_ellipsis" = "Генерувати знову...";
@@ -3348,7 +3345,7 @@
 /* Local Copy Unavailable */
 "autofill_vc_item_subtitle_local_copy_unavailable" = "Локальна копія недоступна";
 
-/* Auto Fill Disabled */
+/* AutoFill Disabled */
 "autofill_vc_item_subtitle_disabled" = "Автозаповнення вимкнено";
 
 /* Sync Required */
