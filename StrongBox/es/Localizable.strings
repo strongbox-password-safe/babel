@@ -44,10 +44,10 @@
 "safes_vc_about_setting_quick_launch_and_confirm" = "Establecer esta base de datos de inicio rápido significa que se desbloqueará automáticamente al iniciar o reabrir Strongbox. ¡Esto puede ahorrarle una preciosa pulsación!\n\n¿Habilitar como base de datos de inicio rápido?";
 
 /* Button title to Show Database in iOS Files App */
-"safes_vc_show_database_in_files_info" = "Hacer que esta base de datos sea visible en la aplicación Archivos también hará que la base de datos esté accesible a través de Finder en tu Mac. Sin embargo, la base de datos ya no podrá ser guardada en modo de relleno automático. Esto se debe al diseño del sistema iOS.\n\nNota: Siempre puede modificar esta acción";
+"safes_vc_show_database_in_files_info" = "Making this database visible in the Files App will also make the database available for access via Finder on your Mac. However the database will no longer be write-able in AutoFill mode. This is due to iOS system design.\n\nNB: You can always reverse this action";
 
 /* Button title to Hide Database from the iOS Files App */
-"safes_vc_make_database_auto_fill_info" = "Ocultar esta base de datos de la aplicación Archivos significa que ya no será visible a través de Finder en tu Mac. También significa que puede utilizar la función de relleno automático completamente (lectura/escritura y no como de sólo lectura).\n\nNota: Siempre puede modificar esta acción";
+"safes_vc_make_database_auto_fill_info" = "Hiding this database from the Files App also means it will no longer be visible via Finder on your Mac. As a side-effect, this also means you get full (read/write) AutoFill functionality (not just a read-only cache).\n\nNB: You can always reverse this action";
 
 /* OK/Cancel prompt title for changing local storage mode */
 "safes_vc_change_local_device_storage_mode_title" = "Cambiar visibilidad en Archivos";
@@ -1393,8 +1393,8 @@
 /* AutoFill Crash Likely */
 "open_sequence_autofill_creash_likely_title" = "Probable error de autorelleno";
 
-/* Your database has encryption settings that may cause iOS Password Auto Fill extensions to be terminated due to excessive resource consumption. This will mean Auto Fill appears not to work. Unfortunately this is an Apple imposed limit. You could consider reducing the amount of resources consumed by your encryption settings (Memory in particular with Argon2 to below 64MB). */
-"open_sequence_autofill_creash_likely_message" = "Su base de datos es bastante grande o tiene ajustes de cifrado que pueden causar que las extensiones de autorelleno de contraseña de iOS se terminen debido a un consumo excesivo de recursos.\nEsto significará que autorelleno no parece funcionar. Desafortunadamente, esto es una limitación del sistema impuesta por Apple.\nPuede considerar reducir el tamaño de archivo o cambiar la cantidad de recursos consumidos (Memoria en particular con Argon2 por debajo de 64 Mb).";
+/* Your database has encryption settings that may cause iOS Password AutoFill extensions to be terminated due to excessive resource consumption. This will mean AutoFill appears not to work. Unfortunately this is an Apple imposed limit. You could consider reducing the amount of resources consumed by your encryption settings (Memory in particular with Argon2 to below 64MB). */
+"open_sequence_autofill_creash_likely_message" = "Your database is quite large, or has encryption settings that may cause iOS Password AutoFill extensions to be terminated due to excessive resource consumption.\nThis will mean AutoFill appears not to work. Unfortunately this is an Apple imposed system limitation.\nYou could consider reducing file size or changing the amount of resources consumed (Memory in particular with Argon2 to below 64MB).";
 
 /* No Key File */
 "key_files_vc_no_key_file" = "No hay archivo clave";
@@ -2346,20 +2346,20 @@
 /* Search (⌘F) */
 "mac_search_placeholder" = "Buscar (⌘F)";
 
-/* Please enter your custom Title auto fill */
-"mac_enter_custom_title_default" = "Por favor, introduzca el autorelleno de su título personalizado";
+/* Please Enter Your Custom Default Title */
+"mac_enter_custom_title_default" = "Please Enter Your Custom Default Title";
 
-/* Please enter your custom Username auto fill */
-"mac_enter_custom_username_default" = "Por favor, introduzca el autorelleno de su nombre de usuario personalizado";
+/* Please Enter Your Custom Default Username */
+"mac_enter_custom_username_default" = "Please Enter Your Custom Default Username";
 
-/* Please enter your custom Email auto fill */
-"mac_enter_custom_email_default" = "Por favor, introduzca el autorelleno de su email personalizado";
+/* Please Enter Your Custom Default Email */
+"mac_enter_custom_email_default" = "Please Enter Your Custom Default Email";
 
-/* Please enter your custom Password auto fill */
-"mac_enter_custom_password_default" = "Por favor, introduzca el autorelleno de su contraseña personalizada";
+/* Please Enter Your Custom Default Password */
+"mac_enter_custom_password_default" = "Please Enter Your Custom Default Password";
 
-/* Please enter your custom URL auto fill */
-"mac_enter_custom_url_default" = "Por favor, introduzca el autorelleno de su URL personalizado";
+/* Please Enter Your Custom Default URL */
+"mac_enter_custom_url_default" = "Please Enter Your Custom Default URL";
 
 /* Welcome to Strongbox */
 "mac_welcome_to_strongbox_title" = "Bienvenido a Strongbox";
@@ -2668,9 +2668,6 @@
 /* Welcome */
 "auto_fill_welcome_message_header" = "Bienvenido";
 
-/* Translators Note: A welcome/warning message that certain native storage providers do not support Live Auto Fill, and must use a cached version of the database */
-"auto_fill_welcome_live_storage_warning_message" = "Hay que tener en cuenta que los siguientes proveedores de almacenamiento no soportan el acceso directo a su base de datos desde la aplicación:\nDropbox, OneDrive & Google Drive\nEn estos casos, Strongbox puede usar una caché... ¡Disfruta del autorelleno!\n-Mark";
-
 /* Automatically download FavIcon on URL Change (PRO Only) */
 "mac_auto_download_favicon_pro_only" = "Descargar automáticamente FavIcon al cambiar la URL (Solo Pro)";
 
@@ -2776,8 +2773,8 @@
 /* Slot 2 */
 "casg_yubikey_configured_slot2" = "Ranura 2";
 
-/* YubiKey Unlock is not supported in Auto Fill mode */
-"open_sequence_cannot_use_yubikey_in_autofill_mode" = "El desbloqueo YubiKey no es compatible con el modo de autorelleno";
+/* YubiKey Unlock is not supported in AutoFill mode */
+"open_sequence_cannot_use_yubikey_in_autofill_mode" = "YubiKey Unlock is not supported in AutoFill mode";
 
 /* YubiKey Unlock is only available in the Pro edition of Strongbox */
 "open_sequence_yubikey_only_available_in_pro" = "El desbloqueo YubiKey sólo está disponible en la edición Pro de Strongbox";
@@ -2832,11 +2829,11 @@
 
 "casg_yubikey_configured_mfi" = "Lightning";
 
-/* Auto Fill Crash Occurred */
-"autofill_did_not_close_cleanly_title" = "Error de autorelleno";
+/* AutoFill Crash Occurred */
+"autofill_did_not_close_cleanly_title" = "AutoFill Crash Occurred";
 
-/* It looks like the last time you used Auto Fill you had a crash. This is usually due to a memory limitation. Please check your database file size and your Argon2 memory settings (should be <= 64MB) */
-"autofill_did_not_close_cleanly_message" = "Parece que la última vez que se utilizó autorelleno se produjo un error. Esto se debe normalmente a limitaciones de memoria de iOS. Compruebe el tamaño de la base de datos y la memoria Argon2 (debe ser <= 64MB)";
+/* It looks like the last time you used AutoFill you had a crash. This is usually due to a memory limitation. Please check your database file size and your Argon2 memory settings (should be <= 64MB) */
+"autofill_did_not_close_cleanly_message" = "It looks like the last time you used AutoFill you had a crash. This is usually due to a iOS memory limitations. Please check database file size and Argon2 memory (should be <= 64MB) settings";
 
 /* Regenerate... */
 "password_generation_regenerate_ellipsis" = "Regenerar...";
@@ -3348,7 +3345,7 @@
 /* Local Copy Unavailable */
 "autofill_vc_item_subtitle_local_copy_unavailable" = "Copia local no disponible";
 
-/* Auto Fill Disabled */
+/* AutoFill Disabled */
 "autofill_vc_item_subtitle_disabled" = "Autorelleno deshabilitado";
 
 /* Sync Required */
