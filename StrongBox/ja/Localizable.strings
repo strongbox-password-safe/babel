@@ -44,10 +44,10 @@
 "safes_vc_about_setting_quick_launch_and_confirm" = "Setting this database as your Quick Launch database means you will be automatically prompted to unlock this database as soon as you launch or re-activate Strongbox. This can save you one precious tap!\n\nSet as Quick Launch Database?";
 
 /* Button title to Show Database in iOS Files App */
-"safes_vc_show_database_in_files_info" = "Making this database visible in the Files App will also make the database available for access via Finder on your Mac. However the database will no longer be write-able in Auto Fill mode. This is due to iOS system design.\n\nNB: You can always reverse this action";
+"safes_vc_show_database_in_files_info" = "Making this database visible in the Files App will also make the database available for access via Finder on your Mac. However the database will no longer be write-able in AutoFill mode. This is due to iOS system design.\n\nNB: You can always reverse this action";
 
 /* Button title to Hide Database from the iOS Files App */
-"safes_vc_make_database_auto_fill_info" = "Hiding this database from the Files App also means it will no longer be visible via Finder on your Mac. As a side-effect, this also means you get full (read/write) Auto Fill functionality (not just a read-only cache).\n\nNB: You can always reverse this action";
+"safes_vc_make_database_auto_fill_info" = "Hiding this database from the Files App also means it will no longer be visible via Finder on your Mac. As a side-effect, this also means you get full (read/write) AutoFill functionality (not just a read-only cache).\n\nNB: You can always reverse this action";
 
 /* OK/Cancel prompt title for changing local storage mode */
 "safes_vc_change_local_device_storage_mode_title" = "Change Files Visibility";
@@ -886,7 +886,7 @@
 "databases_preferences_subtitle_field_name_last_modified_date_precise" = "Last Modified (Precise)";
 
 /* File Size */
-"databases_preferences_subtitle_field_name_file_size" = "File Size";
+"databases_preferences_subtitle_field_name_file_size" = "ファイルサイズ";
 
 
 /* It looks like this app is no longer entitled to all the Pro features. These will be limited now. If you believe this is incorrect, please get in touch with support@strongboxsafe.com to get some help with this. Please include your purchase receipt. */
@@ -1393,8 +1393,8 @@
 /* AutoFill Crash Likely */
 "open_sequence_autofill_creash_likely_title" = "AutoFill Crash Likely";
 
-/* Your database has encryption settings that may cause iOS Password Auto Fill extensions to be terminated due to excessive resource consumption. This will mean Auto Fill appears not to work. Unfortunately this is an Apple imposed limit. You could consider reducing the amount of resources consumed by your encryption settings (Memory in particular with Argon2 to below 64MB). */
-"open_sequence_autofill_creash_likely_message" = "Your database is quite large, or has encryption settings that may cause iOS Password Auto Fill extensions to be terminated due to excessive resource consumption.\nThis will mean Auto Fill appears not to work. Unfortunately this is an Apple imposed system limitation.\nYou could consider reducing file size or changing the amount of resources consumed (Memory in particular with Argon2 to below 64MB).";
+/* Your database has encryption settings that may cause iOS Password AutoFill extensions to be terminated due to excessive resource consumption. This will mean AutoFill appears not to work. Unfortunately this is an Apple imposed limit. You could consider reducing the amount of resources consumed by your encryption settings (Memory in particular with Argon2 to below 64MB). */
+"open_sequence_autofill_creash_likely_message" = "Your database is quite large, or has encryption settings that may cause iOS Password AutoFill extensions to be terminated due to excessive resource consumption.\nThis will mean AutoFill appears not to work. Unfortunately this is an Apple imposed system limitation.\nYou could consider reducing file size or changing the amount of resources consumed (Memory in particular with Argon2 to below 64MB).";
 
 /* No Key File */
 "key_files_vc_no_key_file" = "No Key File";
@@ -1889,25 +1889,25 @@
 "browse_vc_action_delete" = "Delete";
 
 /* Title */
-"generic_fieldname_title" = "Title";
+"generic_fieldname_title" = "タイトル";
 
 /* Username */
-"generic_fieldname_username" = "Username";
+"generic_fieldname_username" = "ユーザー名";
 
 /* Expiry Date */
 "generic_fieldname_expiry_date" = "Expiry Date";
 
 /* Password */
-"generic_fieldname_password" = "Password";
+"generic_fieldname_password" = "パスワード";
 
 /* Email */
-"generic_fieldname_email" = "Email";
+"generic_fieldname_email" = "メール";
 
 /* URL */
 "generic_fieldname_url" = "URL";
 
 /* Notes */
-"generic_fieldname_notes" = "Notes";
+"generic_fieldname_notes" = "メモ";
 
 /* Icon */
 "generic_fieldname_icon" = "Icon";
@@ -1997,19 +1997,19 @@
 "alerts_yes" = "Yes";
 
 /* Password */
-"alerts_password" = "Password";
+"alerts_password" = "パスワード";
 
 /* Unknown Error */
 "alerts_unknown_error" = "Unknown Error";
 
 /* Date Created */
-"browse_prefs_item_subtitle_date_created" = "Date Created";
+"browse_prefs_item_subtitle_date_created" = "作成日";
 
 /* Date Modified */
-"browse_prefs_item_subtitle_date_modified" = "Date Modified";
+"browse_prefs_item_subtitle_date_modified" = "変更日";
 
 /* Email */
-"browse_prefs_item_subtitle_email" = "Email";
+"browse_prefs_item_subtitle_email" = "メール";
 
 /* None */
 "browse_prefs_item_subtitle_none" = "None";
@@ -2023,16 +2023,16 @@
 "databases_preferences_subtitle_field_name_none" = "None";
 
 /* Notes */
-"browse_prefs_item_subtitle_notes" = "Notes";
+"browse_prefs_item_subtitle_notes" = "メモ";
 
 /* Password */
-"browse_prefs_item_subtitle_password" = "Password";
+"browse_prefs_item_subtitle_password" = "パスワード";
 
 /* URL */
 "browse_prefs_item_subtitle_url" = "URL";
 
 /* Username */
-"browse_prefs_item_subtitle_username" = "Username";
+"browse_prefs_item_subtitle_username" = "ユーザー名";
 
 /* Duplicate */
 "browse_vc_action_duplicate" = "Duplicate";
@@ -2044,16 +2044,16 @@
 "browse_vc_action_rename" = "Rename";
 
 /* Password */
-"browse_vc_search_scope_password" = "Password";
+"browse_vc_search_scope_password" = "パスワード";
 
 /* Title */
-"browse_vc_search_scope_title" = "Title";
+"browse_vc_search_scope_title" = "タイトル";
 
 /* URL */
 "browse_vc_search_scope_url" = "URL";
 
 /* Username */
-"browse_vc_search_scope_username" = "Username";
+"browse_vc_search_scope_username" = "ユーザー名";
 
 /* Add */
 "casg_add_action" = "Add";
@@ -2065,10 +2065,10 @@
 "casg_rename_action" = "Rename";
 
 /* Password */
-"casg_text_field_placeholder_password" = "Password";
+"casg_text_field_placeholder_password" = "パスワード";
 
 /* Email */
-"item_details_email_field_title" = "Email";
+"item_details_email_field_title" = "メール";
 
 /* Expires */
 "item_details_expires_field_title" = "Expires";
@@ -2080,13 +2080,13 @@
 "item_details_metadata_modified_field_title" = "Modified";
 
 /* Password */
-"item_details_password_field_title" = "Password";
+"item_details_password_field_title" = "パスワード";
 
 /* Notes */
-"item_details_section_header_notes" = "Notes";
+"item_details_section_header_notes" = "メモ";
 
 /* Title */
-"item_details_title_field_name" = "Title";
+"item_details_title_field_name" = "タイトル";
 
 /* URL Copied */
 "item_details_url_copied" = "URL Copied";
@@ -2095,7 +2095,7 @@
 "item_details_url_field_title" = "URL";
 
 /* Username */
-"item_details_username_field_title" = "Username";
+"item_details_username_field_title" = "ユーザー名";
 
 /* Disabled */
 "prefs_vc_setting_disabled" = "Disabled";
@@ -2125,13 +2125,13 @@
 "open_sequence_prompt_option_no" = "No";
 
 /* Title */
-"pick_creds_vc_search_scope_title" = "Title";
+"pick_creds_vc_search_scope_title" = "タイトル";
 
 /* Username */
-"pick_creds_vc_search_scope_username" = "Username";
+"pick_creds_vc_search_scope_username" = "ユーザー名";
 
 /* Password */
-"pick_creds_vc_search_scope_password" = "Password";
+"pick_creds_vc_search_scope_password" = "パスワード";
 
 /* URL */
 "pick_creds_vc_search_scope_url" = "URL";
@@ -2346,20 +2346,20 @@
 /* Search (⌘F) */
 "mac_search_placeholder" = "Search (⌘F)";
 
-/* Please enter your custom Title auto fill */
-"mac_enter_custom_title_default" = "Please enter your custom Title auto fill";
+/* Please Enter Your Custom Default Title */
+"mac_enter_custom_title_default" = "Please Enter Your Custom Default Title";
 
-/* Please enter your custom Username auto fill */
-"mac_enter_custom_username_default" = "Please enter your custom Username auto fill";
+/* Please Enter Your Custom Default Username */
+"mac_enter_custom_username_default" = "Please Enter Your Custom Default Username";
 
-/* Please enter your custom Email auto fill */
-"mac_enter_custom_email_default" = "Please enter your custom Email auto fill";
+/* Please Enter Your Custom Default Email */
+"mac_enter_custom_email_default" = "Please Enter Your Custom Default Email";
 
-/* Please enter your custom Password auto fill */
-"mac_enter_custom_password_default" = "Please enter your custom Password auto fill";
+/* Please Enter Your Custom Default Password */
+"mac_enter_custom_password_default" = "Please Enter Your Custom Default Password";
 
-/* Please enter your custom URL auto fill */
-"mac_enter_custom_url_default" = "Please enter your custom URL auto fill";
+/* Please Enter Your Custom Default URL */
+"mac_enter_custom_url_default" = "Please Enter Your Custom Default URL";
 
 /* Welcome to Strongbox */
 "mac_welcome_to_strongbox_title" = "Welcome to Strongbox";
@@ -2668,9 +2668,6 @@
 /* Welcome */
 "auto_fill_welcome_message_header" = "Welcome";
 
-/* Translators Note: A welcome/warning message that certain native storage providers do not support Live Auto Fill, and must use a cached version of the database */
-"auto_fill_welcome_live_storage_warning_message" = "It should be noted that the following storage providers do not support live access to your database from App Extensions:\nDropbox, OneDrive & Google Drive\nIn these cases, Strongbox can use a cache... Enjoy Strongbox Auto Fill!\n-Mark";
-
 /* Automatically download FavIcon on URL Change (PRO Only) */
 "mac_auto_download_favicon_pro_only" = "Automatically download FavIcon on URL Change (Pro Feature Only)";
 
@@ -2693,7 +2690,7 @@
 "mac_key_file_none" = "None";
 
 /* Browse... - (Translators Note: When user wants to open the File dialog to select a key file...)*/
-"mac_browse_for_key_file" = "Browse...";
+"mac_browse_for_key_file" = "参照…";
 
 /* [Configured] - (Translators Note: User is using a key file, Strongbox knows what/where it is, but will not display the file name in the UI for privacy reasons. This appears on the unlock screen. */
 "mac_key_file_configured_but_filename_hidden" = "[Configured]";
@@ -2753,7 +2750,7 @@
 "mac_convenience_expiry_period_on_app_exit" = "App Exit";
 
 /* Unlock with Touch ID or Watch */
-"mac_unlock_screen_button_title_convenience_unlock" = "Unlock with Touch ID or Watch";
+"mac_unlock_screen_button_title_convenience_unlock" = "Touch ID または Watchでロック解除";
 
 /* Convenience Unlock Expired */
 "mac_unlock_screen_button_title_convenience_unlock_expired" = "Convenience Unlock Expired";
@@ -2776,8 +2773,8 @@
 /* Slot 2 */
 "casg_yubikey_configured_slot2" = "Slot 2";
 
-/* YubiKey Unlock is not supported in Auto Fill mode */
-"open_sequence_cannot_use_yubikey_in_autofill_mode" = "YubiKey Unlock is not supported in Auto Fill mode";
+/* YubiKey Unlock is not supported in AutoFill mode */
+"open_sequence_cannot_use_yubikey_in_autofill_mode" = "YubiKey Unlock is not supported in AutoFill mode";
 
 /* YubiKey Unlock is only available in the Pro edition of Strongbox */
 "open_sequence_yubikey_only_available_in_pro" = "YubiKey Unlock is only available in the Pro edition of Strongbox";
@@ -2801,7 +2798,7 @@
 "mac_error_getting_challenge_response_yubikey" = "Could not get challenge response from Yubikey";
 
 /* Refreshing... (Translators Note: Used whenever running a fairly short operation to indicate somehting is happening, e.g. when polling YubiKey status (can take a few seconds)) */
-"generic_refreshing_ellipsis" = "Refreshing...";
+"generic_refreshing_ellipsis" = "更新中...";
 
 /* Could not generate Composite Key */
 "mac_error_could_not_generate_composite_key" = "Could not generate Composite Key";
@@ -2832,11 +2829,11 @@
 
 "casg_yubikey_configured_mfi" = "Lightning";
 
-/* Auto Fill Crash Occurred */
-"autofill_did_not_close_cleanly_title" = "Auto Fill Crash Occurred";
+/* AutoFill Crash Occurred */
+"autofill_did_not_close_cleanly_title" = "AutoFill Crash Occurred";
 
-/* It looks like the last time you used Auto Fill you had a crash. This is usually due to a memory limitation. Please check your database file size and your Argon2 memory settings (should be <= 64MB) */
-"autofill_did_not_close_cleanly_message" = "It looks like the last time you used Auto Fill you had a crash. This is usually due to a iOS memory limitations. Please check database file size and Argon2 memory (should be <= 64MB) settings";
+/* It looks like the last time you used AutoFill you had a crash. This is usually due to a memory limitation. Please check your database file size and your Argon2 memory settings (should be <= 64MB) */
+"autofill_did_not_close_cleanly_message" = "It looks like the last time you used AutoFill you had a crash. This is usually due to a iOS memory limitations. Please check database file size and Argon2 memory (should be <= 64MB) settings";
 
 /* Regenerate... */
 "password_generation_regenerate_ellipsis" = "Regenerate...";
@@ -3145,7 +3142,7 @@
 "audit_drill_down_section_header_preferences" = "Preferences";
 
 /* Summary */
-"audit_drill_down_section_header_summary" = "Summary";
+"audit_drill_down_section_header_summary" = "概要";
 
 /* Duplicate Passwords */
 "audit_drill_down_section_header_duplicates" = "Items using same password";
@@ -3348,8 +3345,8 @@
 /* Local Copy Unavailable */
 "autofill_vc_item_subtitle_local_copy_unavailable" = "Local Copy Unavailable";
 
-/* Auto Fill Disabled */
-"autofill_vc_item_subtitle_disabled" = "Auto Fill Disabled";
+/* AutoFill Disabled */
+"autofill_vc_item_subtitle_disabled" = "AutoFill Disabled";
 
 /* Sync Required */
 "autofill_add_entry_sync_required_title" = "Sync Required";
@@ -3365,3 +3362,27 @@
 
 /* No Subscription Required */
 "onboarding_vc_start_your_free_trial_subtitle_no_subscription" = "No Subscription Required";
+
+/* Could not bookmark this file */
+"open_sequence_error_could_not_bookmark_file" = "Could not bookmark this file";
+
+/* Invalid Database - [%@] */
+"open_sequence_invalid_database_filename_fmt" = "Invalid Database - [%@]";
+
+/* Different Filename */
+"open_sequence_database_different_filename_title" = "Different Filename";
+
+/* This doesn't look like it's the right file because the filename looks different than the one you originally added. Do you want to continue?" */
+"open_sequence_database_different_filename_message" = "This doesn't look like it's the right file because the filename looks different than the one you originally added. Do you want to continue?";
+
+/* Relocate Database */
+"open_sequence_storage_provider_try_relocate_files_db" = "Locate Database...";
+
+/* Strongbox is having trouble locating your database. This can happen sometimes especially after iOS updates or with some 3rd party providers (e.g.Nextcloud).\n\nYou now need to tell Strongbox where to locate it. Alternatively you can open Strongbox's local copy and fix this later.\n\nFor Nextcloud please use WebDAV instead... */
+"open_sequence_storage_provider_try_relocate_files_db_message" = "Strongbox is having trouble locating your database. This can happen sometimes especially after iOS updates or with some 3rd party providers (e.g.Nextcloud).\n\nYou now need to tell Strongbox where to locate it. Alternatively you can open Strongbox's local copy and fix this later.\n\nFor Nextcloud please use WebDAV instead...";
+
+/* View Error Details */
+"open_sequence_storage_provider_view_sync_error_details" = "View Error Details";
+
+/* Use Local (Read-Only) */
+"open_sequence_use_local_copy_option" = "Use Local (Read-Only)";
