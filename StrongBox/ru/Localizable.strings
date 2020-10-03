@@ -44,10 +44,10 @@
 "safes_vc_about_setting_quick_launch_and_confirm" = "Функция быстрого запуска означает, что база данных будет разблокирована автоматически, как только Вы запустите или повторно активируете Strongbox. Это сэкономит одно драгоценное нажатие!\n\nВключить быстрый запуск для базы данных?";
 
 /* Button title to Show Database in iOS Files App */
-"safes_vc_show_database_in_files_info" = "Отображение базы данных в приложении Файлы сделает её доступной для Finder на компьютере Mac. Однако база данных будет недоступна для записи при автозаполнении. Это связано с ограничениями iOS.\n\nПримечание: Это действие всегда можете отменить";
+"safes_vc_show_database_in_files_info" = "Отображение базы данных в приложении Файлы сделает её доступной для Finder на компьютере Mac. Но, вследствие ограничений iOS, она будет недоступна для записи при автозаполнении.\n\nПримечание: Это действие всегда можете отменить";
 
 /* Button title to Hide Database from the iOS Files App */
-"safes_vc_make_database_auto_fill_info" = "Скрытие базы данных в приложении Файлы сделает её недоступной для Finder на компьютере Mac. Однако база данных будет доступна для записи при автозаполнении.\n\nПримечание: Это действие всегда можете отменить";
+"safes_vc_make_database_auto_fill_info" = "Скрытие базы данных в приложении Файлы сделает её недоступной для Finder на компьютере Mac. Однако она будет доступна для записи при автозаполнении.\n\nПримечание: Это действие всегда можете отменить";
 
 /* OK/Cancel prompt title for changing local storage mode */
 "safes_vc_change_local_device_storage_mode_title" = "Отображение в Файлах";
@@ -694,7 +694,7 @@
 "prefs_vc_clear_pin_codes_yesno_title" = "Очистка код-паролей";
 
 /* Sessions (%d) */
-"prefs_vc_cloud_sessions_count_fmt" = "Сессий (%d)";
+"prefs_vc_cloud_sessions_count_fmt" = "Сессии (%d)";
 
 /* No Sessions */
 "prefs_vc_cloud_sessions_count_none" = "Сессии отсутствуют";
@@ -727,7 +727,7 @@
 "prefs_vc_info_email_not_available_title" = "Email недоступен";
 
 /* It is very important that you know your master password for your databases, and that you are not relying entirely on %@.\nThe migration and importation process makes every effort to maintain %@ data but it is not guaranteed. In any case it is important that you always know your master passwords.\n\nDo you want to continue changing iCloud usage settings? */
-"prefs_vc_master_password_icloud_migration_yesno_warning_message_fmt" = "Очень важно помнить пароли для своих баз данных и не полагались полностью на %@.\nПроцесс переноса данных не гарантирует сохранение данных %@. Поэтому необходимо, чтобы Вы помнили свой пароль.\n\nПродолжить изменение настроек использования iCloud?";
+"prefs_vc_master_password_icloud_migration_yesno_warning_message_fmt" = "Очень важно помнить пароли для своих баз данных и не полагаться полностью на %@.\nПроцесс переноса данных не гарантирует сохранение данных %@. Поэтому необходимо, чтобы Вы помнили свой пароль.\n\nПродолжить изменение настроек использования iCloud?";
 
 /* Master Password Warning */
 "prefs_vc_master_password_icloud_migration_yesno_warning_title" = "Предупреждение";
@@ -1087,7 +1087,7 @@
 "key_files_vc_key_file_used_by_multiple" = "несколько баз данных";
 
 /* No Known Database Associations */
-"key_files_vc_key_file_used_by_none" = "Нет известных ассоциаций баз данных";
+"key_files_vc_key_file_used_by_none" = "Нет ассоциаций с базой данных";
 
 /* Disable History? */
 "pw_history_vc_prompt_disable_history_title" = "Отключить историю?";
@@ -1393,8 +1393,8 @@
 /* AutoFill Crash Likely */
 "open_sequence_autofill_creash_likely_title" = "Возможен сбой автозаполнения";
 
-/* Your database has encryption settings that may cause iOS Password Auto Fill extensions to be terminated due to excessive resource consumption. This will mean Auto Fill appears not to work. Unfortunately this is an Apple imposed limit. You could consider reducing the amount of resources consumed by your encryption settings (Memory in particular with Argon2 to below 64MB). */
-"open_sequence_autofill_creash_likely_message" = "Размер базы данных слишком большой или имеет настройки шифрования, которые могут привести к сбою в работе функции автозаполнения из-за чрезмерного потребления ресурсов.\nВозможно, автозаполнение не будет работать. К сожалению, это ограничение системы, наложенное компанией Apple.\nПопробуйте уменьшить размер файла или изменить количество потребляемых ресурсов (уменьшить объём памяти с Argon2 до 64 МБ).";
+/* Your database has encryption settings that may cause iOS Password AutoFill extensions to be terminated due to excessive resource consumption. This will mean AutoFill appears not to work. Unfortunately this is an Apple imposed limit. You could consider reducing the amount of resources consumed by your encryption settings (Memory in particular with Argon2 to below 64MB). */
+"open_sequence_autofill_creash_likely_message" = "Размер базы данных слишком большой или имеет настройки шифрования, которые могут привести к сбою в работе функции автозаполнения из-за чрезмерного потребления ресурсов.\nВозможно, автозаполнение не будет работать. К сожалению, это ограничение системы, наложенное компанией Apple.\nПопробуйте уменьшить размер файла или изменить настройки (уменьшить объём памяти с Argon2 до 64 МБ).";
 
 /* No Key File */
 "key_files_vc_no_key_file" = "Без файл-ключа";
@@ -1433,7 +1433,7 @@
 "open_sequence_prompt_use_convenience_pin_message" = "Можно использовать код-пароль, чтобы разблокировать базу данных. Несмотря на удобство, безопасность базы данных на устройстве может снизиться. Выберите ниже, если хотите использовать этот способ или выберите «Нет», чтобы продолжить использование своего пароля.\n\nВажно: Вы ВСЕГДА должны помнить свой пароль";
 
 /* \n\nNB: Convenience Unlock is a Pro feature */
-"open_sequence_append_convenience_pro_warning" = "\n\nПримечание: Быстрая разблокировка - это функция Pro версии";
+"open_sequence_append_convenience_pro_warning" = "\n\nПримечание: Быстрая разблокировка - функция Pro версии";
 
 /* Use %@ */
 "open_sequence_prompt_use_convenience_use_bio_fmt" = "Использовать %@";
@@ -1526,13 +1526,13 @@
 "autofill_safes_vc_storage_local_docs_name" = "Локальный (документы)";
 
 /* Clear Google Drive Session */
-"cloud_sessions_clear_google" = "Очистить сессию Google Диска";
+"cloud_sessions_clear_google" = "Очистка сессии Google Drive";
 
 /* Unlink Dropbox */
 "cloud_sessions_unlink_dropbox" = "Отсоединить Dropbox";
 
 /* Clear OneDrive Session */
-"cloud_sessions_clear_onedrive" = "Очистить сессию OneDrive";
+"cloud_sessions_clear_onedrive" = "Очистка сессии OneDrive";
 
 /* Sign Out of Google Drive? */
 "cloud_sessions_prompt_signout_google_title" = "Выход из Google Drive";
@@ -2346,20 +2346,20 @@
 /* Search (⌘F) */
 "mac_search_placeholder" = "Поиск (⌘F)";
 
-/* Please enter your custom Title auto fill */
-"mac_enter_custom_title_default" = "Пожалуйста, настройте название автозаполнения";
+/* Please Enter Your Custom Default Title */
+"mac_enter_custom_title_default" = "Введите заголовок по умолчанию";
 
-/* Please enter your custom Username auto fill */
-"mac_enter_custom_username_default" = "Пожалуйста, настройте логин автозаполнения";
+/* Please Enter Your Custom Default Username */
+"mac_enter_custom_username_default" = "Введите логин по умолчанию";
 
-/* Please enter your custom Email auto fill */
-"mac_enter_custom_email_default" = "Пожалуйста, настройте Email автозаполнения";
+/* Please Enter Your Custom Default Email */
+"mac_enter_custom_email_default" = "Введите Email по умолчанию";
 
-/* Please enter your custom Password auto fill */
-"mac_enter_custom_password_default" = "Пожалуйста, настройте пароль автозаполнения";
+/* Please Enter Your Custom Default Password */
+"mac_enter_custom_password_default" = "Введите пароль по умолчанию";
 
-/* Please enter your custom URL auto fill */
-"mac_enter_custom_url_default" = "Пожалуйста, настройте URL автозаполнения";
+/* Please Enter Your Custom Default URL */
+"mac_enter_custom_url_default" = "Введите URL по умолчанию";
 
 /* Welcome to Strongbox */
 "mac_welcome_to_strongbox_title" = "Добро пожаловать в Strongbox";
@@ -2668,9 +2668,6 @@
 /* Welcome */
 "auto_fill_welcome_message_header" = "Автозаполнение из кэша";
 
-/* Translators Note: A welcome/warning message that certain native storage providers do not support Live Auto Fill, and must use a cached version of the database */
-"auto_fill_welcome_live_storage_warning_message" = "Обратите внимание, что облачные провайдеры: Dropbox, Microsoft OneDrive и Google Drive не поддерживают прямой доступ к базе данных из расширений приложений.\nВ этих случаях Strongbox может использовать кэш базы данных для автозаполнения.";
-
 /* Automatically download FavIcon on URL Change (PRO Only) */
 "mac_auto_download_favicon_pro_only" = "Автоматически загружать значок сайта при изменении URL (Pro версия)";
 
@@ -2776,7 +2773,7 @@
 /* Slot 2 */
 "casg_yubikey_configured_slot2" = "Слот 2";
 
-/* YubiKey Unlock is not supported in Auto Fill mode */
+/* YubiKey Unlock is not supported in AutoFill mode */
 "open_sequence_cannot_use_yubikey_in_autofill_mode" = "Разблокировка YubiKey не поддерживается в режиме автозаполнения";
 
 /* YubiKey Unlock is only available in the Pro edition of Strongbox */
@@ -2832,11 +2829,11 @@
 
 "casg_yubikey_configured_mfi" = "Lightning";
 
-/* Auto Fill Crash Occurred */
-"autofill_did_not_close_cleanly_title" = "Произошёл сбой автозаполнения";
+/* AutoFill Crash Occurred */
+"autofill_did_not_close_cleanly_title" = "Сбой автозаполнения";
 
-/* It looks like the last time you used Auto Fill you had a crash. This is usually due to a memory limitation. Please check your database file size and your Argon2 memory settings (should be <= 64MB) */
-"autofill_did_not_close_cleanly_message" = "Возможно, при последнем использовании автозаполнения произошёл сбой. Обычно это связано с ограничениями памяти iOS. Пожалуйста, проверьте размер файла базы данных и настройки памяти Argon2 (должно быть <= 64МБ)";
+/* It looks like the last time you used AutoFill you had a crash. This is usually due to a memory limitation. Please check your database file size and your Argon2 memory settings (should be <= 64MB) */
+"autofill_did_not_close_cleanly_message" = "Возможно, при последнем использовании функции автозаполнения произошёл сбой. Обычно это связано с ограничениями памяти iOS. Пожалуйста, проверьте размер файла базы данных и настройки памяти Argon2 (должно быть <= 64МБ)";
 
 /* Regenerate... */
 "password_generation_regenerate_ellipsis" = "Сгенерировать заново";
@@ -3348,7 +3345,7 @@
 /* Local Copy Unavailable */
 "autofill_vc_item_subtitle_local_copy_unavailable" = "Локальная копия недоступна";
 
-/* Auto Fill Disabled */
+/* AutoFill Disabled */
 "autofill_vc_item_subtitle_disabled" = "Автозаполнение отключено";
 
 /* Sync Required */
@@ -3365,3 +3362,27 @@
 
 /* No Subscription Required */
 "onboarding_vc_start_your_free_trial_subtitle_no_subscription" = "Без подписки";
+
+/* Could not bookmark this file */
+"open_sequence_error_could_not_bookmark_file" = "Не удалось добавить файл в закладки";
+
+/* Invalid Database - [%@] */
+"open_sequence_invalid_database_filename_fmt" = "[%@] - неверная база данных";
+
+/* Different Filename */
+"open_sequence_database_different_filename_title" = "Разные имена файлов";
+
+/* This doesn't look like it's the right file because the filename looks different than the one you originally added. Do you want to continue?" */
+"open_sequence_database_different_filename_message" = "Это неверный файл, т.к. имя файла отличается от того, который Вы изначально добавили. Хотите продолжить?";
+
+/* Relocate Database */
+"open_sequence_storage_provider_try_relocate_files_db" = "Выбор места";
+
+/* Strongbox is having trouble locating your database. This can happen sometimes especially after iOS updates or with some 3rd party providers (e.g.Nextcloud).\n\nYou now need to tell Strongbox where to locate it. Alternatively you can open Strongbox's local copy and fix this later.\n\nFor Nextcloud please use WebDAV instead... */
+"open_sequence_storage_provider_try_relocate_files_db_message" = "Возникли проблемы при открытии базы данных. Такое может происходить после обновления iOS или при работе с некоторыми провайдерами (напр., Nextcloud).\n\nВам необходимо указать место, где хранится база данных. Можно также открыть локальную копию и устранить ошибку позже.\n\nПримечание: Для Nextcloud используйте WebDAV";
+
+/* View Error Details */
+"open_sequence_storage_provider_view_sync_error_details" = "Сведения об ошибке";
+
+/* Use Local (Read-Only) */
+"open_sequence_use_local_copy_option" = "Локальная копия";
