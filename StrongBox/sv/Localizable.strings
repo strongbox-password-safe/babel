@@ -44,10 +44,10 @@
 "safes_vc_about_setting_quick_launch_and_confirm" = "Om du väljer denna databas som din snabbstartsdatabas innebär det att du automatisk blir ombedd att låsa upp databasen när du startar eller återaktiverar Strongbox. Detta kan spara dig en värdefull tryckning!\n\nAnge som snabbstartsdatabas?";
 
 /* Button title to Show Database in iOS Files App */
-"safes_vc_show_database_in_files_info" = "Synliggörande av denna databas i Filer-appen gör databasen tillgänglig för åtkomst genom Finder på din Mac. Databasen kommer dock inte att vara skrivbar i Autofyll-läge. Detta beror på iOS systemdesign.\n\nObs! Du kan alltid återställa denna åtgärd";
+"safes_vc_show_database_in_files_info" = "Making this database visible in the Files App will also make the database available for access via Finder on your Mac. However the database will no longer be write-able in AutoFill mode. This is due to iOS system design.\n\nNB: You can always reverse this action";
 
 /* Button title to Hide Database from the iOS Files App */
-"safes_vc_make_database_auto_fill_info" = "Om denna databas döljs från Filer-appen innebär det att den inte heller visas i Finder på din Mac. En sidoeffekt är att du får full (läs/skriv) Autofyll-funktionalitet (inte enbart skrivskyddad cache).\n\nObs! Du kan alltid återställa denna åtgärd";
+"safes_vc_make_database_auto_fill_info" = "Hiding this database from the Files App also means it will no longer be visible via Finder on your Mac. As a side-effect, this also means you get full (read/write) AutoFill functionality (not just a read-only cache).\n\nNB: You can always reverse this action";
 
 /* OK/Cancel prompt title for changing local storage mode */
 "safes_vc_change_local_device_storage_mode_title" = "Ändra synlighet i Filer";
@@ -1393,8 +1393,8 @@
 /* AutoFill Crash Likely */
 "open_sequence_autofill_creash_likely_title" = "Autofyll-krasch sannolik";
 
-/* Your database has encryption settings that may cause iOS Password Auto Fill extensions to be terminated due to excessive resource consumption. This will mean Auto Fill appears not to work. Unfortunately this is an Apple imposed limit. You could consider reducing the amount of resources consumed by your encryption settings (Memory in particular with Argon2 to below 64MB). */
-"open_sequence_autofill_creash_likely_message" = "Din databas är ganska stor eller har krypteringsinställningar som kan få iOS lösenords Autofyll-tillägg att avslutas på grund av orimligt stor resurs användning.\nDet betyder att det verkar som att Autofyll inte fungerar. Tyvärr är det en av Apple påtvingad systembegränsning.\nDu kan överväga att minska filstorleken eller ändra mängden resurser som används (särskilt minne för Argon2 till under 64MB).";
+/* Your database has encryption settings that may cause iOS Password AutoFill extensions to be terminated due to excessive resource consumption. This will mean AutoFill appears not to work. Unfortunately this is an Apple imposed limit. You could consider reducing the amount of resources consumed by your encryption settings (Memory in particular with Argon2 to below 64MB). */
+"open_sequence_autofill_creash_likely_message" = "Your database is quite large, or has encryption settings that may cause iOS Password AutoFill extensions to be terminated due to excessive resource consumption.\nThis will mean AutoFill appears not to work. Unfortunately this is an Apple imposed system limitation.\nYou could consider reducing file size or changing the amount of resources consumed (Memory in particular with Argon2 to below 64MB).";
 
 /* No Key File */
 "key_files_vc_no_key_file" = "Ingen nyckelfil";
@@ -2346,20 +2346,20 @@
 /* Search (⌘F) */
 "mac_search_placeholder" = "Sök (⌘F)";
 
-/* Please enter your custom Title auto fill */
-"mac_enter_custom_title_default" = "Ange din anpassade rubrik att autofyllla";
+/* Please Enter Your Custom Default Title */
+"mac_enter_custom_title_default" = "Please Enter Your Custom Default Title";
 
-/* Please enter your custom Username auto fill */
-"mac_enter_custom_username_default" = "Ange ditt anpassade användarnamn att autofyllla";
+/* Please Enter Your Custom Default Username */
+"mac_enter_custom_username_default" = "Please Enter Your Custom Default Username";
 
-/* Please enter your custom Email auto fill */
-"mac_enter_custom_email_default" = "Ange din anpassade e-post att autofyllla";
+/* Please Enter Your Custom Default Email */
+"mac_enter_custom_email_default" = "Please Enter Your Custom Default Email";
 
-/* Please enter your custom Password auto fill */
-"mac_enter_custom_password_default" = "Ange ditt anpassade lösenord att autofyllla";
+/* Please Enter Your Custom Default Password */
+"mac_enter_custom_password_default" = "Please Enter Your Custom Default Password";
 
-/* Please enter your custom URL auto fill */
-"mac_enter_custom_url_default" = "Ange din anpassade URL att autofyllla";
+/* Please Enter Your Custom Default URL */
+"mac_enter_custom_url_default" = "Please Enter Your Custom Default URL";
 
 /* Welcome to Strongbox */
 "mac_welcome_to_strongbox_title" = "Välkommen till Strongbox";
@@ -2668,9 +2668,6 @@
 /* Welcome */
 "auto_fill_welcome_message_header" = "Välkommen";
 
-/* Translators Note: A welcome/warning message that certain native storage providers do not support Live Auto Fill, and must use a cached version of the database */
-"auto_fill_welcome_live_storage_warning_message" = "Det bör noteras att följande lagringsleverantörer inte stöder liveåtkomst till din databas i App-tillägg:\nDropbox, OneDrive och Google Drive\nI dessa fall kan Strongbox använda en cache ... Njut av Strongbox Autofyll!\n-Mark";
-
 /* Automatically download FavIcon on URL Change (PRO Only) */
 "mac_auto_download_favicon_pro_only" = "Ladda automatiskt ner favicon vid URL-ändring (endast Pro-funktion)";
 
@@ -2776,8 +2773,8 @@
 /* Slot 2 */
 "casg_yubikey_configured_slot2" = "Plats 2";
 
-/* YubiKey Unlock is not supported in Auto Fill mode */
-"open_sequence_cannot_use_yubikey_in_autofill_mode" = "YubiKey-upplåsning stöds inte i autofyllningsläge";
+/* YubiKey Unlock is not supported in AutoFill mode */
+"open_sequence_cannot_use_yubikey_in_autofill_mode" = "YubiKey Unlock is not supported in AutoFill mode";
 
 /* YubiKey Unlock is only available in the Pro edition of Strongbox */
 "open_sequence_yubikey_only_available_in_pro" = "YubiKey-upplåsning finns endast i Pro-versionen av Strongbox";
@@ -2832,11 +2829,11 @@
 
 "casg_yubikey_configured_mfi" = "Lightning";
 
-/* Auto Fill Crash Occurred */
-"autofill_did_not_close_cleanly_title" = "Autofyll-krasch inträffade";
+/* AutoFill Crash Occurred */
+"autofill_did_not_close_cleanly_title" = "AutoFill Crash Occurred";
 
-/* It looks like the last time you used Auto Fill you had a crash. This is usually due to a memory limitation. Please check your database file size and your Argon2 memory settings (should be <= 64MB) */
-"autofill_did_not_close_cleanly_message" = "Förra gången du använde Autofyll verkar det som att du hade en krasch. Detta beror ofta på iOS-minnesbegränsningar. Kontrollera databasens storlek och inställningen för Argon2 minne (bör vara <= 64MB)";
+/* It looks like the last time you used AutoFill you had a crash. This is usually due to a memory limitation. Please check your database file size and your Argon2 memory settings (should be <= 64MB) */
+"autofill_did_not_close_cleanly_message" = "It looks like the last time you used AutoFill you had a crash. This is usually due to a iOS memory limitations. Please check database file size and Argon2 memory (should be <= 64MB) settings";
 
 /* Regenerate... */
 "password_generation_regenerate_ellipsis" = "Återskapa ...";
@@ -3348,8 +3345,8 @@
 /* Local Copy Unavailable */
 "autofill_vc_item_subtitle_local_copy_unavailable" = "Local Copy Unavailable";
 
-/* Auto Fill Disabled */
-"autofill_vc_item_subtitle_disabled" = "Auto Fill Disabled";
+/* AutoFill Disabled */
+"autofill_vc_item_subtitle_disabled" = "Autofyll inaktiverad";
 
 /* Sync Required */
 "autofill_add_entry_sync_required_title" = "Sync Required";
@@ -3365,3 +3362,27 @@
 
 /* No Subscription Required */
 "onboarding_vc_start_your_free_trial_subtitle_no_subscription" = "No Subscription Required";
+
+/* Could not bookmark this file */
+"open_sequence_error_could_not_bookmark_file" = "Kunde inte bokmärka denna fil";
+
+/* Invalid Database - [%@] */
+"open_sequence_invalid_database_filename_fmt" = "Ogiltig databas – [%@]";
+
+/* Different Filename */
+"open_sequence_database_different_filename_title" = "Different Filename";
+
+/* This doesn't look like it's the right file because the filename looks different than the one you originally added. Do you want to continue?" */
+"open_sequence_database_different_filename_message" = "This doesn't look like it's the right file because the filename looks different than the one you originally added. Do you want to continue?";
+
+/* Relocate Database */
+"open_sequence_storage_provider_try_relocate_files_db" = "Locate Database...";
+
+/* Strongbox is having trouble locating your database. This can happen sometimes especially after iOS updates or with some 3rd party providers (e.g.Nextcloud).\n\nYou now need to tell Strongbox where to locate it. Alternatively you can open Strongbox's local copy and fix this later.\n\nFor Nextcloud please use WebDAV instead... */
+"open_sequence_storage_provider_try_relocate_files_db_message" = "Strongbox is having trouble locating your database. This can happen sometimes especially after iOS updates or with some 3rd party providers (e.g.Nextcloud).\n\nYou now need to tell Strongbox where to locate it. Alternatively you can open Strongbox's local copy and fix this later.\n\nFor Nextcloud please use WebDAV instead...";
+
+/* View Error Details */
+"open_sequence_storage_provider_view_sync_error_details" = "View Error Details";
+
+/* Use Local (Read-Only) */
+"open_sequence_use_local_copy_option" = "Use Local (Read-Only)";
