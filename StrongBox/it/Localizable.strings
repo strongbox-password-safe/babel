@@ -44,10 +44,10 @@
 "safes_vc_about_setting_quick_launch_and_confirm" = "Impostare questo database come database di Avvio Rapido significa che all'avvio o ripristino di Strongbox, ti verrà automaticamente chiesto di sbloccare questo database. Questa impostazione può salvarti un secondo prezioso!\n\nImpostare come Database di Avvio Rapido?";
 
 /* Button title to Show Database in iOS Files App */
-"safes_vc_show_database_in_files_info" = "Making this database visible in the Files App will also make the database available for access via Finder on your Mac. However the database will no longer be write-able in AutoFill mode. This is due to iOS system design.\n\nNB: You can always reverse this action";
+"safes_vc_show_database_in_files_info" = "Rendere questo database visibile nella App Files significa che il database diventerà disponibile per l'accesso tramite Finder sul tuo Mac. Tuttavia, il database diventerà a sola lettura nella modalità Riempimento Automatico, a causa del design del sistema operativo iOS.\n\nNB: puoi re-invertire questa impostazione in qualsiasi momento";
 
 /* Button title to Hide Database from the iOS Files App */
-"safes_vc_make_database_auto_fill_info" = "Hiding this database from the Files App also means it will no longer be visible via Finder on your Mac. As a side-effect, this also means you get full (read/write) AutoFill functionality (not just a read-only cache).\n\nNB: You can always reverse this action";
+"safes_vc_make_database_auto_fill_info" = "Nascondere questo database dall'App Files significa che non sarà più visibile via Finder dal tuo Mac. Come effetto collaterale, questo significa anche otterrai la piena funzionalità (lettura/scrittura) con il Riempimento Automatico (non solo una cache di sola lettura).\n\nNB: puoi re-invertire questa impostazione in qualsiasi momento";
 
 /* OK/Cancel prompt title for changing local storage mode */
 "safes_vc_change_local_device_storage_mode_title" = "Modifica Visibilità dei File";
@@ -276,40 +276,40 @@
 "browse_prefs_single_tap_action" = "Azione Singolo Tocco";
 
 /* Copy Email */
-"browse_prefs_tap_action_copy_copy_email" = "Copia Email";
+"browse_prefs_tap_action_copy_copy_email" = "Copiare Email";
 
 /* Copy Notes */
-"browse_prefs_tap_action_copy_copy_notes" = "Copia Note";
+"browse_prefs_tap_action_copy_copy_notes" = "Copiare Note";
 
 /* Copy Password */
-"browse_prefs_tap_action_copy_copy_password" = "Copia Password";
+"browse_prefs_tap_action_copy_copy_password" = "Copiare Password";
 
 /* Copy TOTP */
-"browse_prefs_tap_action_copy_copy_totp" = "Copia TOTP";
+"browse_prefs_tap_action_copy_copy_totp" = "Copiare TOTP";
 
 /* Copy URL */
-"browse_prefs_tap_action_copy_copy_url" = "Copia URL";
+"browse_prefs_tap_action_copy_copy_url" = "Copiare URL";
 
 /* Copy Title */
-"browse_prefs_tap_action_copy_title" = "Copia Titolo";
+"browse_prefs_tap_action_copy_title" = "Copiare Titolo";
 
 /* Copy Username */
-"browse_prefs_tap_action_copy_username" = "Copia Nome Utente";
+"browse_prefs_tap_action_copy_username" = "Copiare Nome Utente";
 
 /* Edit Item */
-"browse_prefs_tap_action_edit" = "Modifica Elemento";
+"browse_prefs_tap_action_edit" = "Modificare Elemento";
 
 /* No Action */
 "browse_prefs_tap_action_none" = "Nessuna Azione";
 
 /* View Item */
-"browse_prefs_tap_action_view_item" = "Vedi Elemento";
+"browse_prefs_tap_action_view_item" = "Vista Elemento";
 
 /* Triple Tap Action */
 "browse_prefs_triple_tap_action" = "Azione Triplo Tocco";
 
 /* View As */
-"browse_prefs_view_as" = "Visualizza Come";
+"browse_prefs_view_as" = "Visualizzare Come";
 
 /* Flat List */
 "browse_prefs_view_as_flat_list" = "Elenco";
@@ -321,19 +321,19 @@
 "browse_prefs_view_as_totp_list" = "Elenco TOTP";
 
 /* Set Icon */
-"browse_vc_action_set_icon" = "Imposta Icona";
+"browse_vc_action_set_icon" = "Impostare Icona";
 
 /* Are you sure you want to permanently delete these item(s)? */
-"browse_vc_are_you_sure_delete" = "Sei sicuro di voler eliminare definitivamente questo(i) elemento(i)?";
+"browse_vc_are_you_sure_delete" = "Si è sicuri di voler eliminare definitivamente questo(i) elemento(i)?";
 
 /* Are you sure you want to permanently delete '%@'? */
-"browse_vc_are_you_sure_delete_fmt" = "Sei sicuro di voler eliminare definitivamente '%@'?";
+"browse_vc_are_you_sure_delete_fmt" = "Si è sicuri di voler eliminare definitivamente '%@'?";
 
 /* Are you sure you want to send these item(s) to the Recycle Bin? */
-"browse_vc_are_you_sure_recycle" = "Sei sicuro di voler spostare questo(i) elemento(i) nel Cestino?";
+"browse_vc_are_you_sure_recycle" = "Si è sicuri di voler spostare questo(i) elemento(i) nel Cestino?";
 
 /* Are you sure you want to send '%@' to the Recycle Bin? */
-"browse_vc_are_you_sure_recycle_fmt" = "Sei sicuro di voler spostare '%@' nel Cestino?";
+"browse_vc_are_you_sure_recycle_fmt" = "Si è sicuri di voler spostare '%@' nel Cestino?";
 
 /* Cannot create group */
 "browse_vc_cannot_create_group" = "Impossibile creare gruppo";
@@ -850,7 +850,7 @@
 "upgrade_vc_yearly_subscription_title" = "Annuale";
 
 /* Show/Hide Password */
-"welcome_vc_accessibility_show_hide_password" = "Mostra / Nascondi Password";
+"welcome_vc_accessibility_show_hide_password" = "Mostra/Nascondi Password";
 
 /* Add Existing Database */
 "welcome_vc_add_existing_database" = "Aggiungi Database Esistente";
@@ -2347,19 +2347,19 @@
 "mac_search_placeholder" = "Cerca (⌘F)";
 
 /* Please Enter Your Custom Default Title */
-"mac_enter_custom_title_default" = "Please Enter Your Custom Default Title";
+"mac_enter_custom_title_default" = "Si Prega Inserire Il Titolo Personalizzato Per Il Riempimento Automatico";
 
 /* Please Enter Your Custom Default Username */
-"mac_enter_custom_username_default" = "Please Enter Your Custom Default Username";
+"mac_enter_custom_username_default" = "Si prega di inserire il Nome Utente Personalizzato per il Riempimento Automatico";
 
 /* Please Enter Your Custom Default Email */
-"mac_enter_custom_email_default" = "Please Enter Your Custom Default Email";
+"mac_enter_custom_email_default" = "Si prega di inserire la Email Personalizzata per il Riempimento Automatico";
 
 /* Please Enter Your Custom Default Password */
-"mac_enter_custom_password_default" = "Please Enter Your Custom Default Password";
+"mac_enter_custom_password_default" = "Si prega di inserire la Password Personalizzata per il Riempimento Automatico";
 
 /* Please Enter Your Custom Default URL */
-"mac_enter_custom_url_default" = "Please Enter Your Custom Default URL";
+"mac_enter_custom_url_default" = "Si prega di inserire la propria URL personalizzata per il riempimento automatico";
 
 /* Welcome to Strongbox */
 "mac_welcome_to_strongbox_title" = "Benvenuto a Strongbox";
@@ -2369,7 +2369,7 @@
 "mac_welcome_to_strongbox_message" = "Ciao e benvenuto/a a Strongbox!\n\nSpero che l'app ti piacerà davvero, e che la trovi utile. Potrai usufruire di questa versione Pro di Strongbox con funzionalità complete per i prossimi tre mesi. Dopodiché, se non farai l'Ugrade, sarai transitato/a alla versione regolare e gratuita di Strongbox.\n\nPuò scoprire di più in qualsiasi momento, toccando 'Upgrade a Pro' nel menu di Strongbox.\n\nGrazie!\n- Mark";
 
 /* Change Master Credentials */
-"mac_undo_action_change_master_credentials" = "Modifica le Credenziali Master";
+"mac_undo_action_change_master_credentials" = "Modificare le Credenziali Master";
 
 /* Title Change */
 "mac_undo_action_title_change" = "Modifica Titolo";
@@ -2480,7 +2480,7 @@
 "mac_enter_database_master_credentials" = "Inserisci le Credenziali Master del Database";
 
 /* Click Browse to Select a Key File */
-"mac_click_browse_select_key_file" = "Fare clic su Sfoglia per Selezionare un File Chiave";
+"mac_click_browse_select_key_file" = "Fare clic su Sfogliare per Selezionare un File Chiave";
 
 /* Passwords don't match */
 "mac_passwords_dont_match" = "Le Passwords Non Coincidono";
@@ -2690,7 +2690,7 @@
 "mac_key_file_none" = "Nessuno";
 
 /* Browse... - (Translators Note: When user wants to open the File dialog to select a key file...)*/
-"mac_browse_for_key_file" = "Sfoglia...";
+"mac_browse_for_key_file" = "Sfogliare...";
 
 /* [Configured] - (Translators Note: User is using a key file, Strongbox knows what/where it is, but will not display the file name in the UI for privacy reasons. This appears on the unlock screen. */
 "mac_key_file_configured_but_filename_hidden" = "[Configured]";
