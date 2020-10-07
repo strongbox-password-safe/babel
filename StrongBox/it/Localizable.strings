@@ -502,7 +502,7 @@
 "casg_text_label_key_selected_key_file" = "Selezionato il File Chiave";
 
 /* Unlock */
-"casg_unlock_action" = "Sblocca";
+"casg_unlock_action" = "Sbloccare";
 
 /* %@ Unlock */
 "db_management_biometric_unlock_fmt" = "Sblocco %@";
@@ -679,7 +679,7 @@
 "prefs_vc_auto_lock_database_delay" = "Ritardo Blocco Automatico Database";
 
 /* This will clear all securely stored master passwords (for all databases) used by biometric unlock. Are you sure? */
-"prefs_vc_clear_biometrics_yesno_message" = "Questo cancellerà tutte le Master password memorizzate in modo sicuro (per tutti i database), usate dallo sblocco biometrico. Si è sicuri?";
+"prefs_vc_clear_biometrics_yesno_message" = "Questo cancellerà tutte le Master Password memorizzate in modo sicuro (per tutti i database), usate dallo sblocco biometrico. Si è sicuri?";
 
 /* Clear Biometrics */
 "prefs_vc_clear_biometrics_yesno_title" = "Cancellare Biometriche";
@@ -688,7 +688,7 @@
 "prefs_vc_clear_clipboard_delay" = "Azzera Ritardo Appunti";
 
 /* This will clear all securely stored master passwords (for all databases) used for PIN Code unlock. Are you sure? */
-"prefs_vc_clear_pin_codes_yesno_message" = "Questo cancellerà tutte le Master password memorizzate in modo sicuro (per tutti i database), usate dallo sblocco tramite codice PIN. Si è sicuri?";
+"prefs_vc_clear_pin_codes_yesno_message" = "Questo cancellerà tutte le Master Password memorizzate in modo sicuro (per tutti i database), usate dallo sblocco tramite codice PIN. Si è sicuri?";
 
 /* Clear PIN Codes */
 "prefs_vc_clear_pin_codes_yesno_title" = "Cancellare Codici PIN";
@@ -1351,7 +1351,7 @@
 "open_sequence_prompt_too_many_incorrect_pins_title" = "Troppi PIN Errati";
 
 /* You have entered the wrong PIN too many times. PIN Unlock is now disabled, and you must enter the master password to unlock this database. */
-"open_sequence_prompt_too_many_incorrect_pins_message" = "Hai inserito il PIN sbagliato per troppe volte. Sblocca con PIN è ora disabilitato e devi inserire la Master password per sbloccare questo database.";
+"open_sequence_prompt_too_many_incorrect_pins_message" = "Si è digitato il PIN sbagliato per troppe volte. Sbloccare con PIN è ora disabilitato e si deve inserire nuovamente la Master Password per sbloccare questo database.";
 
 /* There was a technical error opening the database. */
 "open_sequence_duress_technical_error_message" = "Si è verificato un errore tecnico durante l'apertura del database.";
@@ -1360,10 +1360,10 @@
 "open_sequence_duress_technical_error_title" = "Problema Tecnico";
 
 /* Identify to Unlock Database */
-"open_sequence_biometric_unlock_prompt_title" = "Identificati per Sbloccare Database";
+"open_sequence_biometric_unlock_prompt_title" = "Identificarsi per Sbloccare Database";
 
 /* Unlock Manually... */
-"open_sequence_biometric_unlock_fallback" = "Sblocca Manualmente...";
+"open_sequence_biometric_unlock_fallback" = "Sbloccare Manualmente...";
 
 /* %@ Failed */
 "open_sequence_biometric_unlock_warn_failed_title_fmt" = "%@ Fallito";
@@ -1412,7 +1412,7 @@
 "open_sequence_yesno_set_quick_launch_title" = "Imposta Avvio Veloce?";
 
 /* Would you like to use this as your Quick Launch database? Quick Launch means you will get prompted immediately to unlock when you open Strongbox, saving you a precious tap. */
-"open_sequence_yesno_set_quick_launch_message" = "Vuoi utilizzare questo come database di Avvio Rapido? Avvio Rapido significa che riceverai immediatamente la richiesta di sblocco del database quando aprirai Strongbox, risparmiando un prezioso tocco.";
+"open_sequence_yesno_set_quick_launch_message" = "Si vuole utilizzare questo come database di Avvio Rapido? Avvio Rapido significa che si riceverà immediatamente la richiesta di sblocco del database quando si aprire Strongbox, risparmiando un prezioso tocco.";
 
 /* Convenience Unlock: Use %@ or PIN Code in Future? */
 "open_sequence_prompt_use_convenience_both_title_fmt" = "Sblocco di Comodità: utilizzare %@ o codice PIN in Futuro?";
@@ -1424,13 +1424,13 @@
 "open_sequence_prompt_use_convenience_bio_title_fmt" = "Sblocco di Comodità: utilizzare %@ per Sbloccare in Futuro?";
 
 /* You can use %@ to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use this then please select it below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
-"open_sequence_prompt_use_convenience_bio_message_fmt" = "È possibile utilizzare %@ per sbloccare questo database. Mentre è comodo, potrebbe ridurre la sicurezza del database su questo dispositivo. Se si desidera utilizzare questa opzione, si prega di selezionarla di seguito o selezionare No per continuare a utilizzare la Master password.\n\n*Importante: devi SEMPRE ricordare la Master password";
+"open_sequence_prompt_use_convenience_bio_message_fmt" = "È possibile utilizzare %@ per sbloccare questo database. Mentre è comodo, potrebbe ridurre la sicurezza del database su questo dispositivo. Se si desidera utilizzare questa opzione, si prega di selezionarla di seguito o selezionare No per continuare a utilizzare la Master Password.\n\n*Importante: si deve SEMPRE comunque ricordare la Master Password";
 
 /* Convenience Unlock: Use a PIN Code to Unlock in Future? */
 "open_sequence_prompt_use_convenience_pin_title" = "Sblocco di Comodità: utilizzare un Codice PIN in Futuro?";
 
 /* You can use a convenience PIN Code to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use this then please select it below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
-"open_sequence_prompt_use_convenience_pin_message" = "È possibile utilizzare un Codice PIN di comodità per sbloccare questo database. Mentre è sicuramente comodo, può ridurre la sicurezza del database su questo dispositivo. Se si desidera utilizzarlo si prega di selezionarlo da qua sotto o scegliere No per continuare ad utilizzare la password Master.\n\n*Importante: devi SEMPRE ricordare la tua password Master";
+"open_sequence_prompt_use_convenience_pin_message" = "È possibile utilizzare un Codice PIN di comodità per sbloccare questo database. Mentre è sicuramente comodo, può ridurre la sicurezza del database su questo dispositivo. Se si desidera utilizzarlo si prega di selezionarlo da qua sotto o scegliere No per continuare ad utilizzare la Master Password.\n\n*Importante: si deve SEMPRE comunque ricordare la Master Password";
 
 /* \n\nNB: Convenience Unlock is a Pro feature */
 "open_sequence_append_convenience_pro_warning" = "\n\nNB: lo Sblocco di Comodità è una funzione Pro";
@@ -2211,13 +2211,13 @@
 "favicon_invalid_preferences_alert_message" = "Questa serie di impostazioni non produrrà risultati validi per le FavIcone.";
 
 /* Unlock with %@ */
-"mac_unlock_database_with_biometric_fmt" = "Sblocca con %@ o Watch";
+"mac_unlock_database_with_biometric_fmt" = "Sblocco con %@ o Watch";
 
 /* Could not open key file. */
 "mac_error_could_not_open_key_file" = "Impossibile aprire file chiave.";
 
 /* The database has been changed by another application, would you like to reload this latest version and automatically unlock? */
-"mac_db_changed_externally_reload_yes_or_no" = "Il database è stato modificato da un'altra applicazione, vuoi ricaricare l'ultima versione e sbloccare automaticamente?";
+"mac_db_changed_externally_reload_yes_or_no" = "Il database è stato modificato da un'altra applicazione, si vuole ricaricare l'ultima versione e sbloccare automaticamente?";
 
 /* Reloading after external changes... */
 "mac_db_reloading_after_external_changes_popup_notification" = "Ricaricamento dopo le modifiche esterne...";
@@ -2938,7 +2938,7 @@
 "mac_use_biometric_to_open_in_future_fmt" = "Vuoi usare %@ o il tuo Apple Watch per sbloccare questo database in futuro? La Master Password verrà memorizzata in modo sicuro per %@ prima di reinserirla.";
 
 /* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be stored securely. Note for translators (1st Param = "Touch ID") */
-"mac_use_biometric_to_open_in_future_simple_fmt" = "Vuoi usare %@ o il tuo Apple Watch per sbloccare questo database in futuro? La Master Password verrà memorizzata in modo sicuro.";
+"mac_use_biometric_to_open_in_future_simple_fmt" = "Si vuole usare %@ o l'Apple Watch per sbloccare questo database in futuro? La Master Password verrà memorizzata in modo sicuro.";
 
 /* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be stored securely until you exit Strongbox Note for translators (1st Param = "Touch ID") */
 "mac_use_biometric_to_open_in_future_simple_app_exit_fmt" = "Vuoi usare %@ o il tuo Apple Watch per sbloccare questo database in futuro? La Master Password verrà memorizzata in modo sicuro finché non esci da Strongbox";
