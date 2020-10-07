@@ -12,7 +12,7 @@ If you'd like to have Strongbox translated into your language and are willing to
 
 3. If you come across any issues, or problems with existing contributions, or if you can't find a particular string then just create and issue here in this repository and hopefully we can resolve things quickly and amicably.
 
-4. Once you've completed and all going well, your work will be waiting for a Pull Request and I should be able to take this work integrate it into the main app.
+4. Once you've completed and all going well, your work will be waiting for a pull request and I should be able to take this work integrate it into the main app.
 
 # Hints, Tips & FAQ for Contributors
  - Start with **StrongBox/Localizable.strings** - it's the biggest one and you'll have almost all expressions/terms to decide on the best translation. You can then keep these terms consistent across the code base. For example, will you use 'Unlock' or 'Open'?
@@ -78,7 +78,7 @@ Below is a list of the contributors for various languages completed so far. A bi
 - French - Charles-Ivan Chesneau
 - German - @Slummi
 - Italian - Marco Ermini
-- Norwegian - Ole Aldric 
+- Norwegian - Ole Aldric, Allan Nordhøy
 - Russian - Wishes to remain anonymous
 - Spanish - Wishes to remain anonymous
 - Swedish - Jari Häkkinen
