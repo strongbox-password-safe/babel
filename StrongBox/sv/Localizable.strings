@@ -20,7 +20,7 @@
 "safes_vc_cached_date_time_fmt" = "Cachad: %@";
 
 /* Open ths database offline table action */
-"safes_vc_slide_left_open_offline_action" = "Open Local...";
+"safes_vc_slide_left_open_offline_action" = "Öppna lokalt ...";
 
 /* Title of the 'More Actions' alert/action sheet */
 "safes_vc_database_actions_sheet_title" = "Databasåtgärder";
@@ -44,10 +44,10 @@
 "safes_vc_about_setting_quick_launch_and_confirm" = "Om du väljer denna databas som din snabbstartsdatabas innebär det att du automatisk blir ombedd att låsa upp databasen när du startar eller återaktiverar Strongbox. Detta kan spara dig en värdefull tryckning!\n\nAnge som snabbstartsdatabas?";
 
 /* Button title to Show Database in iOS Files App */
-"safes_vc_show_database_in_files_info" = "Making this database visible in the Files App will also make the database available for access via Finder on your Mac. However the database will no longer be write-able in AutoFill mode. This is due to iOS system design.\n\nNB: You can always reverse this action";
+"safes_vc_show_database_in_files_info" = "Synliggörande av denna databas i Filer-appen gör databasen tillgänglig för åtkomst genom Finder på din Mac. Databasen kommer dock inte att vara skrivbar i Autofyll-läge. Detta beror på iOS systemdesign.\n\nObs! Du kan alltid återställa denna åtgärd";
 
 /* Button title to Hide Database from the iOS Files App */
-"safes_vc_make_database_auto_fill_info" = "Hiding this database from the Files App also means it will no longer be visible via Finder on your Mac. As a side-effect, this also means you get full (read/write) AutoFill functionality (not just a read-only cache).\n\nNB: You can always reverse this action";
+"safes_vc_make_database_auto_fill_info" = "Om denna databas döljs från Filer-appen innebär det att den inte heller visas i Finder på din Mac. En sidoeffekt är att du får full (läs/skriv) Autofyll-funktionalitet (inte enbart skrivskyddad cache).\n\nObs! Du kan alltid återställa denna åtgärd";
 
 /* OK/Cancel prompt title for changing local storage mode */
 "safes_vc_change_local_device_storage_mode_title" = "Ändra synlighet i Filer";
@@ -350,7 +350,7 @@
 /*  Copy */
 "browse_vc_duplicate_title_suffix" = " Kopiera";
 
-/* '%@' Email Copied */
+/* '%@' Email Copied - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
 "browse_vc_email_copied_fmt" = "\"%@\" E-post kopierades";
 
 /* Enter Group Name */
@@ -371,16 +371,16 @@
 /* Group Name */
 "browse_vc_group_name" = "Gruppnamn";
 
-/* (in %@) */
+/* (in %@) - Translator's note, the 1st param is the name of the group that this search result is found in, e.g. 'Finance' or 'Work' */
 "browse_vc_group_path_string_fmt" = "(i %@)";
 
 /* '%@': No TOTP setup to Copy! */
 "browse_vc_no_totp_to_copy_fmt" = "\"%@\": Ingen TOTP-konfiguration att kopiera!";
 
-/* '%@' Notes Copied */
+/* '%@' Notes Copied  - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
 "browse_vc_notes_copied_fmt" = "\"%@\" Anteckningar kopierades";
 
-/* '%@' Password Copied */
+/* '%@' Password Copied  - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup  */
 "browse_vc_password_copied_fmt" = "\"%@\" Lösenord kopierades";
 
 /*  (Read Only) */
@@ -407,17 +407,16 @@
 /* Fast Tap Actions */
 "browse_vc_tip_fast_tap_title" = "Åtgärd vid snabbtryckning";
 
-/* '%@' Title Copied */
+/* '%@' Title Copied  - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup  */
 "browse_vc_title_copied_fmt" = "\"%@\" Rubrik kopierades";
 
-/* '%@' OTP Code Copied
-   '%@' TOTP Copied */
+/* '%@' OTP Code Copied - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
 "browse_vc_totp_copied_fmt" = "\"%@\" OTP-kod kopierades";
 
-/* '%@' URL Copied */
+/* '%@' URL Copied - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
 "browse_vc_url_copied_fmt" = "\"%@\" URL kopierades";
 
-/* '%@' Username Copied */
+/* '%@' Username Copied - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
 "browse_vc_username_copied_fmt" = "\"%@\" Användarnamn kopierades";
 
 /* No Entries */
@@ -726,7 +725,7 @@
 /* Email Not Available */
 "prefs_vc_info_email_not_available_title" = "E-post inte tillgänglig";
 
-/* It is very important that you know your master password for your databases, and that you are not relying entirely on %@.\nThe migration and importation process makes every effort to maintain %@ data but it is not guaranteed. In any case it is important that you always know your master passwords.\n\nDo you want to continue changing iCloud usage settings? */
+/* It is very important that you know your master password for your databases, and that you are not relying entirely on %@.\nThe migration and importation process makes every effort to maintain %@ data but it is not guaranteed. In any case it is important that you always know your master passwords.\n\nDo you want to continue changing iCloud usage settings? - Translators Note - the parameters are the name of the biometric ID, so either "Face ID" or "Touch ID" depending on the device */
 "prefs_vc_master_password_icloud_migration_yesno_warning_message_fmt" = "Det är mycket viktigt att du kan ditt huvudlösenord för dina databaser och att du inte helt förlitar dig på %@.\nMigrations- och importprocessen gör allt för att behålla %@ data men det är inte garanterat. Hur som helst är det viktigt att du alltid kan dina huvudlösenord.\n\nVill du fortsätta med att ändra inställningarna för iCloud användning?";
 
 /* Master Password Warning */
@@ -1394,7 +1393,7 @@
 "open_sequence_autofill_creash_likely_title" = "Autofyll-krasch sannolik";
 
 /* Your database has encryption settings that may cause iOS Password AutoFill extensions to be terminated due to excessive resource consumption. This will mean AutoFill appears not to work. Unfortunately this is an Apple imposed limit. You could consider reducing the amount of resources consumed by your encryption settings (Memory in particular with Argon2 to below 64MB). */
-"open_sequence_autofill_creash_likely_message" = "Your database is quite large, or has encryption settings that may cause iOS Password AutoFill extensions to be terminated due to excessive resource consumption.\nThis will mean AutoFill appears not to work. Unfortunately this is an Apple imposed system limitation.\nYou could consider reducing file size or changing the amount of resources consumed (Memory in particular with Argon2 to below 64MB).";
+"open_sequence_autofill_creash_likely_message" = "Din databas är ganska stor eller har krypteringsinställningar som kan få iOS lösenords Autofyll-tillägg att avslutas på grund av orimligt stor resurs användning.\nDet betyder att det kommer att verka som att Autofyll inte fungerar. Tyvärr är det en av Apple påtvingad systembegränsning.\nDu kan överväga att minska filstorleken eller ändra mängden resurser som används (särskilt minne för Argon2 till under 64MB).";
 
 /* No Key File */
 "key_files_vc_no_key_file" = "Ingen nyckelfil";
@@ -1718,7 +1717,7 @@
 "safes_vc_tip" = "Tips: dra åt vänster på databasen för alternativ";
 
 /* Tip: Tap to Copy, Double Tap to Copy Notes */
-"item_details_tip" = "Tip: Tap to Copy, Double Tap to Copy Notes";
+"item_details_tip" = "Tips! Tryck för att kopiera, dubbeltryck för att kopiera anteckningar";
 
 /* Tip: Slide Left for Options or Tap to View */
 "keepass_history_tip" = "Tips! Svep vänster för alternativ eller tryck för att visa";
@@ -2347,19 +2346,19 @@
 "mac_search_placeholder" = "Sök (⌘F)";
 
 /* Please Enter Your Custom Default Title */
-"mac_enter_custom_title_default" = "Please Enter Your Custom Default Title";
+"mac_enter_custom_title_default" = "Ange din standardtext för rubrik";
 
 /* Please Enter Your Custom Default Username */
-"mac_enter_custom_username_default" = "Please Enter Your Custom Default Username";
+"mac_enter_custom_username_default" = "Ange ditt standardanvändarnamn";
 
 /* Please Enter Your Custom Default Email */
-"mac_enter_custom_email_default" = "Please Enter Your Custom Default Email";
+"mac_enter_custom_email_default" = "Ange din standard-e-post";
 
 /* Please Enter Your Custom Default Password */
-"mac_enter_custom_password_default" = "Please Enter Your Custom Default Password";
+"mac_enter_custom_password_default" = "Ange ditt standardlösenord";
 
 /* Please Enter Your Custom Default URL */
-"mac_enter_custom_url_default" = "Please Enter Your Custom Default URL";
+"mac_enter_custom_url_default" = "Ange din standard-URL";
 
 /* Welcome to Strongbox */
 "mac_welcome_to_strongbox_title" = "Välkommen till Strongbox";
@@ -2774,7 +2773,7 @@
 "casg_yubikey_configured_slot2" = "Plats 2";
 
 /* YubiKey Unlock is not supported in AutoFill mode */
-"open_sequence_cannot_use_yubikey_in_autofill_mode" = "YubiKey Unlock is not supported in AutoFill mode";
+"open_sequence_cannot_use_yubikey_in_autofill_mode" = "YubiKey-upplåsning stöds inte i autofyllningsläge";
 
 /* YubiKey Unlock is only available in the Pro edition of Strongbox */
 "open_sequence_yubikey_only_available_in_pro" = "YubiKey-upplåsning finns endast i Pro-versionen av Strongbox";
@@ -2830,10 +2829,10 @@
 "casg_yubikey_configured_mfi" = "Lightning";
 
 /* AutoFill Crash Occurred */
-"autofill_did_not_close_cleanly_title" = "AutoFill Crash Occurred";
+"autofill_did_not_close_cleanly_title" = "Autofyll-krasch inträffade";
 
 /* It looks like the last time you used AutoFill you had a crash. This is usually due to a memory limitation. Please check your database file size and your Argon2 memory settings (should be <= 64MB) */
-"autofill_did_not_close_cleanly_message" = "It looks like the last time you used AutoFill you had a crash. This is usually due to a iOS memory limitations. Please check database file size and Argon2 memory (should be <= 64MB) settings";
+"autofill_did_not_close_cleanly_message" = "Förra gången du använde Autofyll verkar det som att du hade en krasch. Detta beror ofta på iOS-minnesbegränsningar. Kontrollera databasens storlek och inställningen för Argon2 minne (bör vara <= 64MB)";
 
 /* Regenerate... */
 "password_generation_regenerate_ellipsis" = "Återskapa ...";
@@ -3280,88 +3279,88 @@
 "backup_settings_prompt_no_dont_backup_anything" = "Nej, säkerhetskopiera INTE något";
 
 /* View Sync Status */
-"safes_vc_action_view_sync_status" = "View Debug Sync Log";
+"safes_vc_action_view_sync_status" = "Visa felsökningsloggen för synkronisering";
 
 /* Please send this crash report to support@strongboxsafe.com */
 "safes_vc_please_send_crash_report" = "Skicka denna kraschrapport till support@strongboxsafe.com";
 
 /* In Progress */
-"generic_in_progress" = "In Progress";
+"generic_in_progress" = "Pågår";
 
 /* Initial */
-"generic_initial_state" = "Initial";
+"generic_initial_state" = "Inledande";
 
 /* %@ - Sync No. %@ (Translators Note: 1st Parameter is the Date/Time of the Sync e.g. 'Today, 4:42PM', The second parameter is a sequence number like 1, 2, 42 etc. This is the number of times this database has been synced in this session */
-"sync_log_sync_header_fmt" = "%@ - Sync No. %@";
+"sync_log_sync_header_fmt" = "%@ - Synkningsnr %@";
 
 /* User Interaction Required */
 "sync_status_user_interaction_required_title" = "Användarinteraktion krävs";
 
 /* User Cancelled */
-"sync_status_user_interaction_cancelled" = "User Cancelled";
+"sync_status_user_interaction_cancelled" = "Användaravbruten";
 
 /* Use Mine/Local (%@) - Translators Note: The first parameter is the modified date of the local copy e.g. "Today, 14:22" */
-"sync_conflict_option_use_mine_fmt" = "Use Mine/Local (%@)";
+"sync_conflict_option_use_mine_fmt" = "Använd min/lokal (%@)";
 
 /* Use Theirs/Remote (%@) - Translators Note: The first parameter is the modified date of the remote copy e.g. "September 1st, 14:22" */
-"sync_conflict_option_use_theirs_fmt" = "Use Theirs/Remote (%@)";
+"sync_conflict_option_use_theirs_fmt" = "Använd deras/fjärr (%@)";
 
 /* Sync Conflict */
-"sync_conflict_title" = "Sync Conflict";
+"sync_conflict_title" = "Synkningskonflikt";
 
 /* It looks like the remote version of this database on '%@' has changed and so has the local version you've been working on. Which version would you like to use?  - Translators Note: The first parameter is the name of the remote storage provider e.g. "Dropbox" */
-"sync_conflict_message_fmt" = "It looks like the remote version of this database on '%@' has changed and so has the local version you've been working on. Which version would you like to use?";
+"sync_conflict_message_fmt" = "Det ser ut som fjärrversionen av denna databas på '%@' har ändrats och så även den lokala versionen du har arbetat med. Vilken version vill du använda?";
 
 /* Strongbox could not sync your changes. */
-"sync_could_not_sync_your_changes" = "Strongbox could not sync your changes.";
+"sync_could_not_sync_your_changes" = "Strongbox kunde inte synkronisera dina ändringar.";
 
 /* You must close and reopen this database for Read-Only changes to take effect. */
-"db_management_reopen_required_message" = "You must close and reopen this database for changes to take effect.";
+"db_management_reopen_required_message" = "Du måste stänga och öppna denna databas för att ändringar ska träda i kraft.";
 
 /* Re-Open Required */
 "db_management_reopen_required_title" = "Nödvändigt att öppna på nytt";
 
 /* Could Not Open Local Copy */
-"open_sequence_couldnt_open_local_title" = "Could Not Open Local Copy";
+"open_sequence_couldnt_open_local_title" = "Kunde inte öppna lokal kopia";
 
 /* Could not open Strongbox's local copy of this database. A online sync is required. */
-"open_sequence_couldnt_open_local_message" = "Could not open Strongbox's local copy of this database. A online sync is required.";
+"open_sequence_couldnt_open_local_message" = "Kunde inte öppna Strongbox lokala kopia av denna databasen. En onlinesynkning krävs.";
 
 /* Use Local Copy? */
-"open_sequence_yesno_use_local_copy_title" = "Use Local Copy?";
+"open_sequence_yesno_use_local_copy_title" = "Använd lokal kopia?";
 
 /* Yes, Use Local (Read-Only) */
-"open_sequence_yes_use_local_copy_option" = "Yes, Use Local (Read-Only)";
+"open_sequence_yes_use_local_copy_option" = "Ja, använd lokalt (skrivskyddad)";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use Strongbox's local copy in read-only mode instead? - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc */
-"open_sequence_user_looks_offline_open_local_ro_fmt" = "It looks like you may be offline and '%@' may not be reachable. Would you like to use Strongbox's local copy in read-only mode instead?";
+"open_sequence_user_looks_offline_open_local_ro_fmt" = "Det verkar som om du är offline och '%@' kanske inte kan nås. Vill du använda Strongbox lokala kopia i skrivskyddat läge istället?";
 
 /* Sync Error */
-"open_sequence_storage_provider_error_title" = "Sync Error";
+"open_sequence_storage_provider_error_title" = "Synkfel";
 
 /* If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open Strongbox's local copy in read-only mode instead? */
-"open_sequence_storage_provider_error_open_local_ro_instead" = "If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open Strongbox's local copy in read-only mode instead?";
+"open_sequence_storage_provider_error_open_local_ro_instead" = "Om detta händer upprepade gånger bör du försöka lägga till din databas igen. Se felsökningsloggen för synkning för mer ...\n\nVill du öppna Strongbox lokala kopia i skrivskyddat läge istället?";
 
 /* Local Copy Unavailable */
-"autofill_vc_item_subtitle_local_copy_unavailable" = "Local Copy Unavailable";
+"autofill_vc_item_subtitle_local_copy_unavailable" = "Lokal kopia är inte tillgänglig";
 
 /* AutoFill Disabled */
-"autofill_vc_item_subtitle_disabled" = "Autofyll inaktiverad";
+"autofill_vc_item_subtitle_disabled" = "Auto Fill Disabled";
 
 /* Sync Required */
-"autofill_add_entry_sync_required_title" = "Sync Required";
+"autofill_add_entry_sync_required_title" = "Synkning krävs";
 
 /* You have added a new entry and this change has been saved locally.\n\nDon't forget to switch to the main Strongbox app to fully sync these changes to %@. - Translators Note: The 1st parameter here is the storage location, e.g. 'Dropbox' */
-"autofill_add_entry_sync_required_message_fmt" = "You have added a new entry and this change has been saved locally.\n\nDon't forget to switch to the main Strongbox app to fully sync these changes to %@.";
+"autofill_add_entry_sync_required_message_fmt" = "Du har lagt till en ny post och denna ändring har sparats lokalt.\n\nGlöm inte att byta till Strongbox-appen för att helt synkronisera dessa ändringar till %@.";
 
 /* Got it! */
-"autofill_add_entry_sync_required_option_got_it" = "Got it!";
+"autofill_add_entry_sync_required_option_got_it" = "Uppfattat!";
 
 /* Don't tell me again */
-"autofill_add_entry_sync_required_option_dont_tell_again" = "Don't tell me again";
+"autofill_add_entry_sync_required_option_dont_tell_again" = "Visa inte igen";
 
 /* No Subscription Required */
-"onboarding_vc_start_your_free_trial_subtitle_no_subscription" = "No Subscription Required";
+"onboarding_vc_start_your_free_trial_subtitle_no_subscription" = "Ingen prenumeration krävs";
 
 /* Could not bookmark this file */
 "open_sequence_error_could_not_bookmark_file" = "Kunde inte bokmärka denna fil";
@@ -3370,22 +3369,34 @@
 "open_sequence_invalid_database_filename_fmt" = "Ogiltig databas – [%@]";
 
 /* Different Filename */
-"open_sequence_database_different_filename_title" = "Different Filename";
+"open_sequence_database_different_filename_title" = "Annat filnamn";
 
 /* This doesn't look like it's the right file because the filename looks different than the one you originally added. Do you want to continue?" */
-"open_sequence_database_different_filename_message" = "This doesn't look like it's the right file because the filename looks different than the one you originally added. Do you want to continue?";
+"open_sequence_database_different_filename_message" = "Det här ser inte ut som att det är rätt fil eftersom filnamnet ser annorlunda ut än det som du ursprungligen lade till. Vill du fortsätta?";
 
 /* Relocate Database */
-"open_sequence_storage_provider_try_relocate_files_db" = "Locate Database...";
+"open_sequence_storage_provider_try_relocate_files_db" = "Hitta databas ...";
 
 /* Strongbox is having trouble locating your database. This can happen sometimes especially after iOS updates or with some 3rd party providers (e.g.Nextcloud).\n\nYou now need to tell Strongbox where to locate it. Alternatively you can open Strongbox's local copy and fix this later.\n\nFor Nextcloud please use WebDAV instead... */
-"open_sequence_storage_provider_try_relocate_files_db_message" = "Strongbox is having trouble locating your database. This can happen sometimes especially after iOS updates or with some 3rd party providers (e.g.Nextcloud).\n\nYou now need to tell Strongbox where to locate it. Alternatively you can open Strongbox's local copy and fix this later.\n\nFor Nextcloud please use WebDAV instead...";
+"open_sequence_storage_provider_try_relocate_files_db_message" = "Strongbox har problem med att hitta din databas. Detta kan hända ibland särskilt efter iOS-uppdateringar eller med vissa tredjepartsleverantörer (t.ex. Nextcloud).\n\nDu måste nu visa för Strongbox var den finns. Alternativt kan du öppna Strongbox lokala kopia och fixa det senare.\n\nFör Nextcloud använd WebDAV istället ...";
 
 /* View Error Details */
-"open_sequence_storage_provider_view_sync_error_details" = "View Error Details";
+"open_sequence_storage_provider_view_sync_error_details" = "Visa feldetaljer";
 
 /* Use Local (Read-Only) */
-"open_sequence_use_local_copy_option" = "Use Local (Read-Only)";
+"open_sequence_use_local_copy_option" = "Använd lokalt (skrivskyddad)";
 
 /* Delete (Translators Note: Verb - To Delete an item) */
 "generic_action_delete" = "Ta bort";
+
+/* Are you sure the URL is correct? It should be a path to a parent folder. Not the database file. */
+"webdav_vc_validation_url_are_you_sure" = "Are you sure the URL is correct? It should be a URL to a parent folder. Not the database file.";
+
+/* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
+"sftp_path_are_you_sure" = "Are you sure the path is correct? It should be a path to a parent folder. Not the database file.";
+
+/* Path may be Invalid */
+"sftp_path_may_be_invalid" = "Path May Be Invalid";
+
+/* URL May Be Invalid */
+"webdav_vc_validation_url_maybe_invalid" = "URL May Be Invalid";

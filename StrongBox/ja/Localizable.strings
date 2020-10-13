@@ -258,7 +258,7 @@
 "safesvc_error_title_could_not_bookmark" = "Could not bookmark this file";
 
 /* Confirm Password */
-"alerts_confirm_password" = "Confirm Password";
+"alerts_confirm_password" = "パスワードを確認";
 
 /* Not Empty! */
 "alerts_not_empty" = "Not Empty!";
@@ -350,7 +350,7 @@
 /*  Copy */
 "browse_vc_duplicate_title_suffix" = " Copy";
 
-/* '%@' Email Copied */
+/* '%@' Email Copied - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
 "browse_vc_email_copied_fmt" = "'%@' Email Copied";
 
 /* Enter Group Name */
@@ -371,16 +371,16 @@
 /* Group Name */
 "browse_vc_group_name" = "Group Name";
 
-/* (in %@) */
+/* (in %@) - Translator's note, the 1st param is the name of the group that this search result is found in, e.g. 'Finance' or 'Work' */
 "browse_vc_group_path_string_fmt" = "(in %@)";
 
 /* '%@': No TOTP setup to Copy! */
 "browse_vc_no_totp_to_copy_fmt" = "'%@': No TOTP setup to Copy!";
 
-/* '%@' Notes Copied */
+/* '%@' Notes Copied  - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
 "browse_vc_notes_copied_fmt" = "'%@' Notes Copied";
 
-/* '%@' Password Copied */
+/* '%@' Password Copied  - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup  */
 "browse_vc_password_copied_fmt" = "'%@' Password Copied";
 
 /*  (Read Only) */
@@ -407,17 +407,16 @@
 /* Fast Tap Actions */
 "browse_vc_tip_fast_tap_title" = "Fast Tap Actions";
 
-/* '%@' Title Copied */
+/* '%@' Title Copied  - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup  */
 "browse_vc_title_copied_fmt" = "'%@' Title Copied";
 
-/* '%@' OTP Code Copied
-   '%@' TOTP Copied */
+/* '%@' OTP Code Copied - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
 "browse_vc_totp_copied_fmt" = "'%@' OTP Code Copied";
 
-/* '%@' URL Copied */
+/* '%@' URL Copied - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
 "browse_vc_url_copied_fmt" = "'%@' URL Copied";
 
-/* '%@' Username Copied */
+/* '%@' Username Copied - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
 "browse_vc_username_copied_fmt" = "'%@' Username Copied";
 
 /* No Entries */
@@ -463,7 +462,7 @@
 "casg_key_file_configured_but_not_found" = "Configured Key File Not Found";
 
 /* Select... */
-"casg_key_file_select_action" = "Select...";
+"casg_key_file_select_action" = "選択...";
 
 /* You have left the password field empty. This can be interpreted in two ways. Select the interpretation you want. */
 "casg_question_message_empty_password" = "You have left the password field empty. This can be interpreted in two ways. Select the interpretation you want.";
@@ -514,7 +513,7 @@
 "db_management_change_master_credentials" = "Change Master Credentials";
 
 /* Change Master Password */
-"db_management_change_master_password" = "Change Master Password";
+"db_management_change_master_password" = "マスターパスワードを変更";
 
 /* Could not change credentials */
 "db_management_couldnt_change_credentials" = "Could not change credentials";
@@ -574,7 +573,7 @@
 "item_details_username_copied" = "Username Copied";
 
 /* Entry History */
-"item_details_item_history" = "Entry History";
+"item_details_item_history" = "エントリー履歴";
 
 /* New Custom Field... */
 "item_details_new_custom_field_button" = "New Custom Field...";
@@ -604,7 +603,7 @@
 "item_details_section_header_custom_fields" = "Custom Fields";
 
 /* History */
-"item_details_section_header_history" = "History";
+"item_details_section_header_history" = "履歴";
 
 /* Metadata */
 "item_details_section_header_metadata" = "Metadata";
@@ -726,7 +725,7 @@
 /* Email Not Available */
 "prefs_vc_info_email_not_available_title" = "Email Not Available";
 
-/* It is very important that you know your master password for your databases, and that you are not relying entirely on %@.\nThe migration and importation process makes every effort to maintain %@ data but it is not guaranteed. In any case it is important that you always know your master passwords.\n\nDo you want to continue changing iCloud usage settings? */
+/* It is very important that you know your master password for your databases, and that you are not relying entirely on %@.\nThe migration and importation process makes every effort to maintain %@ data but it is not guaranteed. In any case it is important that you always know your master passwords.\n\nDo you want to continue changing iCloud usage settings? - Translators Note - the parameters are the name of the biometric ID, so either "Face ID" or "Touch ID" depending on the device */
 "prefs_vc_master_password_icloud_migration_yesno_warning_message_fmt" = "It is very important that you know your master password for your databases, and that you are not relying entirely on %@.\nThe migration and importation process makes every effort to maintain %@ data but it is not guaranteed. In any case it is important that you always know your master passwords.\n\nDo you want to continue changing iCloud usage settings?";
 
 /* Master Password Warning */
@@ -880,7 +879,7 @@
 "databases_preferences_subtitle_field_name_filename" = "Filename";
 
 /* Last Modified */
-"databases_preferences_subtitle_field_name_last_cached_data" = "Last Modified";
+"databases_preferences_subtitle_field_name_last_cached_data" = "最終変更日時";
 
 /* Last Modified (Precise) */
 "databases_preferences_subtitle_field_name_last_modified_date_precise" = "Last Modified (Precise)";
@@ -963,13 +962,13 @@
 "pins_config_vc_button_title_turn_convenience_pin_off" = "Turn Convenience PIN Off";
 
 /* Turn Convenience PIN On */
-"pins_config_vc_button_title_turn_convenience_pin_on" = "Turn Convenience PIN On";
+"pins_config_vc_button_title_turn_convenience_pin_on" = "コンビニエンス PIN をオンにする";
 
 /* Turn Duress PIN Off */
-"pins_config_vc_button_title_turn_duress_pin_off" = "Turn Duress PIN Off";
+"pins_config_vc_button_title_turn_duress_pin_off" = "強制 PIN をオフにする";
 
 /* Turn Duress PIN On */
-"pins_config_vc_button_title_turn_duress_pin_on" = "Turn Duress PIN On";
+"pins_config_vc_button_title_turn_duress_pin_on" = "強制 PIN をオンにする";
 
 /* Delete Database */
 "pins_config_vc_label_delete_database" = "Delete Database";
@@ -1748,7 +1747,7 @@
 "database_metadata_field_compressed" = "Compressed";
 
 /* Database Format */
-"database_metadata_field_format" = "Database Format";
+"database_metadata_field_format" = "データベースのフォーマット";
 
 /* Database Generator */
 "database_metadata_field_generator" = "Database Generator";
@@ -1910,7 +1909,7 @@
 "generic_fieldname_notes" = "メモ";
 
 /* Icon */
-"generic_fieldname_icon" = "Icon";
+"generic_fieldname_icon" = "アイコン";
 
 /* Custom Fields */
 "generic_fieldname_custom_fields" = "Custom Fields";
@@ -1940,7 +1939,7 @@
 "generic_done" = "Done";
 
 /* Failed */
-"generic_failed" = "Failed";
+"generic_failed" = "失敗";
 
 /* Error */
 "generic_error" = "Error";
@@ -1955,7 +1954,7 @@
 "generic_set" = "Set";
 
 /* Cancel */
-"generic_cancel" = "Cancel";
+"generic_cancel" = "キャンセル";
 
 /* Clear */
 "generic_clear" = "Clear";
@@ -2187,7 +2186,7 @@
 "favicon_status_no_eligible_items" = "No eligible items/valid URLs found...";
 
 /* FavIcon Results */
-"favicon_results_title" = "FavIcon Results";
+"favicon_results_title" = "FavIcon の検索結果";
 
 /* FavIcon Results (Pro Only) */
 "favicon_results_title_pro_only" = "FavIcon Results (Pro Only)";
@@ -2507,13 +2506,13 @@
 "mac_alerts_input_custom_field_label_key" = "Key";
 
 /* Value */
-"mac_alerts_input_custom_field_label_value" = "Value";
+"mac_alerts_input_custom_field_label_value" = "値";
 
 /* Field cannot be empty */
 "mac_alerts_field_cannot_be_empty" = "Field cannot be empty";
 
 /* Upgrade */
-"mac_upgrade_button_title" = "Upgrade";
+"mac_upgrade_button_title" = "アップグレード";
 
 /* Upgrade Momentarily Unavailable\nPlease Check Your Connection and Try Again Later */
 "mac_upgrade_momentarily_unavailble" = "Upgrade Momentarily Unavailable\nPlease Check Your Connection and Try Again Later";
@@ -2525,7 +2524,7 @@
 "mac_upgrade_no_thanks_seconds_remaining_fmt" = "No Thanks (%ld)";
 
 /* No Thanks */
-"mac_upgrade_no_thanks" = "No Thanks";
+"mac_upgrade_no_thanks" = "必要ありません";
 
 /* Purchases Are Disabled on Your Device. */
 "mac_upgrade_purchases_disabled_on_device" = "Purchases Are Disabled on Your Device.";
@@ -2567,7 +2566,7 @@
 "mac_node_details_historical_item_suffix_fmt" = "%@ (Historical Item)";
 
 /* Edit Custom Field */
-"mac_node_details_edit_custom_field" = "Edit Custom Field";
+"mac_node_details_edit_custom_field" = "カスタムフィールドを編集";
 
 /* Are you sure you want to remove the custom field '%@'? */
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
@@ -3013,7 +3012,7 @@
 "audit_status_done_with_hibp_errors_fmt" = "Found %@ issues in %@ entries (with %@ HIBP Errors)";
 
 /* Audit Complete */
-"audit_status_complete" = "Status: Complete";
+"audit_status_complete" = "ステータス: 完了";
 
 /* Database Auditor Initialized */
 "audit_status_initialized" = "Status: Initializing...";
@@ -3076,7 +3075,7 @@
 "hibp_check_interval_always_check" = "Always Check";
 
 /* Once a Day */
-"hibp_check_interval_once_a_day" = "Once a Day";
+"hibp_check_interval_once_a_day" = "1 日に 1 回";
 
 /* Once a Week */
 "hibp_check_interval_once_a_week" = "Once a Week";
@@ -3199,7 +3198,7 @@
 "audit_drill_down_go_to_database_audit_preferences" = "Database Audit Preferences";
 
 /* View All Audit Issues */
-"audit_drill_down_view_all_audit_issues" = "View All Audit Issues";
+"audit_drill_down_view_all_audit_issues" = "監査で見つかったすべての問題を表示";
 
 /* No Excluded Items */
 "audit_drill_down_no_excluded_items_title" = "No Excluded Items";
@@ -3232,7 +3231,7 @@
 "database_format_keepass1" = "KeePass 1";
 
 /* KeePass 2 (Legacy) */
-"database_format_keepass2_kdbx3_1" = "KeePass 2 (Legacy)";
+"database_format_keepass2_kdbx3_1" = "KeePass 2 (レガシー)";
 
 /* KeePass 2 */
 "database_format_keepass2_kdbx4" = "KeePass 2";
@@ -3268,7 +3267,7 @@
 "backup_settings_prompt_message" = "By default Strongbox includes all your local documents and databases in Apple backups, however imported Key Files are NOT included for security reasons. You can always change these settings in App Preferences.\n\nDoes this sound ok?";
 
 /* Backup Settings */
-"backup_settings_prompt_title" = "Backup Settings";
+"backup_settings_prompt_title" = "バックアップの設定";
 
 /* Yes, the defaults sound good */
 "backup_settings_prompt_option_yes_looks_good" = "Yes, sounds good";
@@ -3389,3 +3388,15 @@
 
 /* Delete (Translators Note: Verb - To Delete an item) */
 "generic_action_delete" = "Delete";
+
+/* Are you sure the URL is correct? It should be a path to a parent folder. Not the database file. */
+"webdav_vc_validation_url_are_you_sure" = "Are you sure the URL is correct? It should be a URL to a parent folder. Not the database file.";
+
+/* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
+"sftp_path_are_you_sure" = "Are you sure the path is correct? It should be a path to a parent folder. Not the database file.";
+
+/* Path may be Invalid */
+"sftp_path_may_be_invalid" = "Path May Be Invalid";
+
+/* URL May Be Invalid */
+"webdav_vc_validation_url_maybe_invalid" = "URL May Be Invalid";
