@@ -1001,7 +1001,7 @@
 "pins_config_vc_enter_duress_pin" = "Enter Duress PIN";
 
 /* PIN Conflict */
-"pins_config_vc_error_pin_conflict_title" = "PIN Conflict";
+"pins_config_vc_error_pin_conflict_title" = "PIN の競合";
 
 /* Your Convenience PIN conflicts with your Duress PIN. Please select another. */
 "pins_config_vc_error_pin_conflict_message" = "Your Convenience PIN conflicts with your Duress PIN or is of a different length. Please select another of the correct length.";
@@ -1423,124 +1423,124 @@
 "open_sequence_prompt_use_convenience_bio_title_fmt" = "コンビニエンスロック解除: 今後は %@ を使ってロック解除しますか？";
 
 /* You can use %@ to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use this then please select it below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
-"open_sequence_prompt_use_convenience_bio_message_fmt" = "You can use %@ to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use this then please select it below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password";
+"open_sequence_prompt_use_convenience_bio_message_fmt" = "このデータベースのロックを解除するには、%@ を使用することができます。 これは便利な一方で、このデバイス上のデータベースのセキュリティーを低下させる可能性があります。 この方法を使用する場合は、以下より選択してください。引き続きマスターパスワードを使用する場合は、「どちらも使用しない」を選択してください。\n\n*重要: マスターパスワードは常に覚えておきましょう。";
 
 /* Convenience Unlock: Use a PIN Code to Unlock in Future? */
-"open_sequence_prompt_use_convenience_pin_title" = "Convenience Unlock: Use a PIN Code to Unlock in Future?";
+"open_sequence_prompt_use_convenience_pin_title" = "コンビニエンスロック解除: 今後は PIN コードを使ってロック解除しますか？";
 
 /* You can use a convenience PIN Code to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use this then please select it below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
-"open_sequence_prompt_use_convenience_pin_message" = "You can use a convenience PIN Code to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use this then please select it below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password";
+"open_sequence_prompt_use_convenience_pin_message" = "このデータベースのロックを解除するには、コンビニエンス PIN コードを使用することができます。 これは便利な一方で、このデバイス上のデータベースのセキュリティーを低下させる可能性があります。 この方法を使用する場合は、以下より選択してください。引き続きマスターパスワードを使用する場合は、「どちらも使用しない」を選択してください。\n\n*重要: マスターパスワードは常に覚えておきましょう。";
 
 /* \n\nNB: Convenience Unlock is a Pro feature */
-"open_sequence_append_convenience_pro_warning" = "\n\nNB: Convenience Unlock is a Pro feature";
+"open_sequence_append_convenience_pro_warning" = "\n\n注意: コンビニエンスロック解除はプロ版の機能です";
 
 /* Use %@ */
-"open_sequence_prompt_use_convenience_use_bio_fmt" = "Use %@";
+"open_sequence_prompt_use_convenience_use_bio_fmt" = "%@ を使う";
 
 /* Use a PIN Code... */
-"open_sequence_prompt_use_convenience_use_pin" = "Use a PIN Code...";
+"open_sequence_prompt_use_convenience_use_pin" = "PIN コードを使う...";
 
 /* PIN Conflict */
-"open_sequence_warn_pin_conflict_title" = "PIN Conflict";
+"open_sequence_warn_pin_conflict_title" = "PIN の競合";
 
 /* Your Convenience PIN conflicts with your Duress PIN. Please configure in Database Settings */
-"open_sequence_warn_pin_conflict_message" = "Your Convenience PIN conflicts with your Duress PIN. Please configure in Database Settings";
+"open_sequence_warn_pin_conflict_message" = "お使いのコンビニエンス PIN は強制 PINと競合しています。データベース設定より設定しなおしてください。";
 
 /* Problem Saving to External File */
-"files_provider_problem_saving" = "Problem Saving to External File";
+"files_provider_problem_saving" = "外部ファイルへの保存中に問題が発生しました";
 
 /* Strongbox's reference to this external file is stale. Please remove and re-add this database. */
-"files_provider_stale_reference" = "Strongbox's reference to this external file is stale. Please remove and re-add this database.";
+"files_provider_stale_reference" = "Strongbox のこの外部ファイルへの参照が古くなっています。このデータベースを一旦削除してから、追加しなおしてください。";
 
 /* Unlock Attempts Remaining: %ld */
-"privacy_vc_label_unlock_attempts_fmt" = "Unlock Attempts Remaining: %ld";
+"privacy_vc_label_unlock_attempts_fmt" = "残りのロック解除試行回数: %ld";
 
 /* Unlock Attempts Exceeded */
-"privacy_vc_label_unlock_attempts_exceeded" = "Unlock Attempts Exceeded";
+"privacy_vc_label_unlock_attempts_exceeded" = "ロック解除の試行回数が上限をオーバーしました";
 
 /* Biometrics Unavailable */
-"privacy_vc_prompt_biometrics_unavailable_title" = "Biometrics Unavailable";
+"privacy_vc_prompt_biometrics_unavailable_title" = "生体認証は使用できません";
 
 /* This application requires a biometric unlock but biometrics is unavailable on this device. You must re-enable biometrics to continue unlocking this application. */
-"privacy_vc_prompt_biometrics_unavailable_message" = "This application requires a biometric unlock but biometrics is unavailable on this device. You must re-enable biometrics to continue unlocking this application.";
+"privacy_vc_prompt_biometrics_unavailable_message" = "このアプリケーションでは生体認証によるロック解除が必要ですが、このデバイスでは無効になっています。 引き続きこのアプリケーションのロックを解除するには、生体認証を再度有効にする必要があります。";
 
 /* Identify to Open Strongbox */
-"privacy_vc_prompt_identify_to_open" = "Identify to Open Strongbox";
+"privacy_vc_prompt_identify_to_open" = "本人確認をして Strongbox を開く";
 
 /* %ld Attempts Remaining */
-"privacy_vc_prompt_pin_attempts_remaining_fmt" = "%ld Attempts Remaining";
+"privacy_vc_prompt_pin_attempts_remaining_fmt" = "残りの試行回数 %ld";
 
 /* Sample Password Copied */
-"password_gen_vc_sample_password_copied" = "Sample Password Copied";
+"password_gen_vc_sample_password_copied" = "サンプルパスワードをコピーしました";
 
 /* <Generation Failed> */
 "password_gen_vc_generation_failed" = "<Generation Failed>";
 
 /* Basic */
-"password_gen_vc_mode_basic_title" = "Basic";
+"password_gen_vc_mode_basic_title" = "ベーシック";
 
 /* Using: %@ */
-"password_gen_vc_using_character_groups_fmt" = "Using: %@";
+"password_gen_vc_using_character_groups_fmt" = "使用中: %@";
 
 /* Using: %@ */
-"password_gen_vc_using_wordlists_fmt" = "Using: %@";
+"password_gen_vc_using_wordlists_fmt" = "使用中: %@";
 
 /* Select Algorithm */
-"password_gen_vc_select_mode" = "Select Algorithm";
+"password_gen_vc_select_mode" = "アルゴリズムの選択";
 
 /* Select Salt Type */
-"password_gen_vc_select_salt_type" = "Select Salt Type";
+"password_gen_vc_select_salt_type" = "ソルトのタイプを選択";
 
 /* Select l33t Level */
-"password_gen_vc_select_hacker_level" = "Select l33t Level";
+"password_gen_vc_select_hacker_level" = "レベル l33t を選択";
 
 /* Select Word Casing */
-"password_gen_vc_select_casing_type" = "Select Word Casing";
+"password_gen_vc_select_casing_type" = "単語の大文字小文字を選択";
 
 /* Select Word Lists */
-"password_gen_vc_select_wordlists" = "Select Word Lists";
+"password_gen_vc_select_wordlists" = "単語リストの選択";
 
 /* Select Character Groups */
-"password_gen_vc_select_character_groups" = "Select Character Groups";
+"password_gen_vc_select_character_groups" = "文字グループの選択";
 
 /* Word Separator */
-"password_gen_vc_prompt_word_separator" = "Word Separator";
+"password_gen_vc_prompt_word_separator" = "単語の区切り記号";
 
 /* Separator */
-"password_gen_vc_word_separator_placeholder" = "Separator";
+"password_gen_vc_word_separator_placeholder" = "区切り記号";
 
 /* Strongbox: Error Opening Database */
-"cred_vc_error_opening_title" = "Strongbox: Error Opening Database";
+"cred_vc_error_opening_title" = "Strongbox: データベースを開いている最中にエラーが発生しました";
 
 /* You Have No Databases Yet :( */
-"autofill_safes_vc_empty_title" = "You Have No Databases Yet :(";
+"autofill_safes_vc_empty_title" = "データベースはまだありません :(";
 
 /* To use Strongbox for Password Autofill you need to add a database. You can do this in the Strongbox App. */
-"autofill_safes_vc_empty_subtitle" = "To use Strongbox for Password Autofill you need to add a database. You can do this in the Strongbox App.";
+"autofill_safes_vc_empty_subtitle" = "パスワードのオートフィルに Strongbox を使用するには、データベースを追加する必要があります。Strongbox アプリから追加できます。";
 
 /* Local */
-"autofill_safes_vc_storage_local_name" = "Local";
+"autofill_safes_vc_storage_local_name" = "ローカル";
 
 /* Local (Documents) */
-"autofill_safes_vc_storage_local_docs_name" = "Local (Documents)";
+"autofill_safes_vc_storage_local_docs_name" = "ローカル (ドキュメント)";
 
 /* Clear Google Drive Session */
-"cloud_sessions_clear_google" = "Clear Google Drive Session";
+"cloud_sessions_clear_google" = "Google ドライブのセッションをクリア";
 
 /* Unlink Dropbox */
-"cloud_sessions_unlink_dropbox" = "Unlink Dropbox";
+"cloud_sessions_unlink_dropbox" = "Dropbox のリンクを解除";
 
 /* Clear OneDrive Session */
-"cloud_sessions_clear_onedrive" = "Clear OneDrive Session";
+"cloud_sessions_clear_onedrive" = "OneDrive のセッションをクリア";
 
 /* Sign Out of Google Drive? */
-"cloud_sessions_prompt_signout_google_title" = "Sign Out of Google Drive?";
+"cloud_sessions_prompt_signout_google_title" = "Google ドライブからサインアウトしますか？";
 
 /* Are you sure you want to sign out of Google Drive? */
-"cloud_sessions_prompt_signout_google_message" = "Are you sure you want to sign out of Google Drive?";
+"cloud_sessions_prompt_signout_google_message" = "Google ドライブからサインアウトしますか？";
 
 /* Sign Out Successful */
-"cloud_sessions_prompt_google_signout_success_title" = "Sign Out Successful";
+"cloud_sessions_prompt_google_signout_success_title" = "サインアウトしました";
 
 /* You have been successfully been signed out of Google Drive. */
 "cloud_sessions_prompt_google_signout_success_message" = "You have been successfully been signed out of Google Drive.";
@@ -1711,109 +1711,109 @@
 "pwgen_salt_mode_suffix" = "Suffix";
 
 /* Button Title to start reordering */
-"safes_vc_action_reorder_database" = "Reorder...";
+"safes_vc_action_reorder_database" = "並べ替え...";
 
 /* Tip displayed at top of screen. Slide left on Database for options */
-"safes_vc_tip" = "Tip: Slide left on database for options";
+"safes_vc_tip" = "ヒント: データベースの上で左にスライドするとオプションが表示されます";
 
 /* Tip: Tap to Copy, Double Tap to Copy Notes */
-"item_details_tip" = "Tip: Tap to Copy, Double Tap to Copy Notes";
+"item_details_tip" = "ヒント: タップ 1 回でコピー、2 回でメモをコピー";
 
 /* Tip: Slide Left for Options or Tap to View */
-"keepass_history_tip" = "Tip: Slide Left for Options or Tap to View";
+"keepass_history_tip" = "ヒント: 左にスライドしてオプションを確認するか、タップして表示します";
 
 /* Pin */
-"browse_vc_action_pin" = "Pin";
+"browse_vc_action_pin" = "ピン留め";
 
 /* Unpin */
-"browse_vc_action_unpin" = "Unpin";
+"browse_vc_action_unpin" = "ピン留めを外す";
 
 /* Section Header Title for Expired Items */
-"browse_vc_section_title_expired" = "Expired";
+"browse_vc_section_title_expired" = "期限切れ";
 
 /* Section Header Title for Nearly Expired Items */
-"browse_vc_section_title_nearly_expired" = "Nearly Expired";
+"browse_vc_section_title_nearly_expired" = "ほぼ期限切れ";
 
 /* Section Header Title for Pinned Items */
-"browse_vc_section_title_pinned" = "Pinned";
+"browse_vc_section_title_pinned" = "ピン留め";
 
 /* Section Header Title for Recent Items */
-"browse_vc_section_title_recents" = "Recent Items";
+"browse_vc_section_title_recents" = "最近のアイテム";
 
 /* Standard View Sections Header */
-"browse_vc_section_title_standard_view" = "Items";
+"browse_vc_section_title_standard_view" = "アイテム";
 
 /* Compressed */
-"database_metadata_field_compressed" = "Compressed";
+"database_metadata_field_compressed" = "圧縮";
 
 /* Database Format */
 "database_metadata_field_format" = "データベースのフォーマット";
 
 /* Database Generator */
-"database_metadata_field_generator" = "Database Generator";
+"database_metadata_field_generator" = "データベース生成プログラム";
 
 /* Inner Encryption */
-"database_metadata_field_inner_encryption" = "Inner Encryption";
+"database_metadata_field_inner_encryption" = "内部暗号化";
 
 /* KeePass File Version */
-"database_metadata_field_keepass_version" = "KeePass File Version";
+"database_metadata_field_keepass_version" = "KeePass ファイルのバージョン";
 
 /* Key Derivation */
-"database_metadata_field_key_derivation" = "Key Derivation";
+"database_metadata_field_key_derivation" = "キー導出";
 
 /* Max History Items */
-"database_metadata_field_max_history_items" = "Max History Items";
+"database_metadata_field_max_history_items" = "最大履歴アイテム数";
 
 /* Max History Size */
-"database_metadata_field_max_history_size" = "Max History Size";
+"database_metadata_field_max_history_size" = "最大履歴サイズ";
 
 /* Outer Encryption */
-"database_metadata_field_outer_encryption" = "Outer Encryption";
+"database_metadata_field_outer_encryption" = "外部暗号化";
 
 /* Password Safe File Version */
-"database_metadata_field_password_safe_version" = "Password Safe File Version";
+"database_metadata_field_password_safe_version" = "Password Safe ファイルのバージョン";
 
 /* Recycle Bin Enabled */
-"database_metadata_field_recycle_bin_enabled" = "Recycle Bin Enabled";
+"database_metadata_field_recycle_bin_enabled" = "ごみ箱を有効にする";
 
 /* Transform Rounds */
-"database_metadata_field_transform_rounds" = "Transform Rounds";
+"database_metadata_field_transform_rounds" = "ラウンドの変換";
 
 /* Last Update App */
 "database_metadata_field_last_update_app" = "データベースを最後に更新したアプリ";
 
 /* Last Update Host */
-"database_metadata_field_last_update_host" = "Last Update Host";
+"database_metadata_field_last_update_host" = "データベースを最後に更新したホスト";
 
 /* Last Update Time */
-"database_metadata_field_last_update_time" = "Last Update Time";
+"database_metadata_field_last_update_time" = "最終更新時刻";
 
 /* Last Update User */
-"database_metadata_field_last_update_user" = "Last Update User";
+"database_metadata_field_last_update_user" = "データベースを最後に更新したユーザー";
 
 /* Key Stretch Iterations */
-"database_metadata_field_password_key_stretch_iterations" = "Keystretch Iterations";
+"database_metadata_field_password_key_stretch_iterations" = "キーストレッチのイテレーション";
 
 /* Error message indicating that these item(s) cannot be deserialized to this database because they contain two groups with the same title. */
-"node_serialization_error_duplicate_group_title_fmt" = "Could not copy these items because they contain two groups with the same title '%@' which is unsupported by this database format.";
+"node_serialization_error_duplicate_group_title_fmt" = "これらのアイテムには同じタイトル '%@' を持つグループが 2 つあり、このデータベースフォーマットではそれがサポートされていないため、コピーできませんでした。";
 
 /* Argon 2 Memory */
-"database_metadata_field_argon2_memory" = "Argon2 Memory";
+"database_metadata_field_argon2_memory" = "Argon2 メモリー";
 
 /* Are you sure you want to Remove this backup? */
-"backup_vc_are_you_sure_remove" = "Are you sure you want to Remove this backup?";
+"backup_vc_are_you_sure_remove" = "このバックアップを削除しますか？";
 
 /* This backup has been added to your databases */
-"backup_vc_backup_added_to_databases" = "This backup has been added to your databases";
+"backup_vc_backup_added_to_databases" = "このバックアップはデータベースに追加されました";
 
 /* Add as Local Database */
-"backups_add_local" = "Add to Databases";
+"backups_add_local" = "データベースに追加";
 
 /* Are you sure you want to delete all backups? */
-"backups_vc_delete_all_backups_prompt_message" = "Are you sure you want to delete all backups?";
+"backups_vc_delete_all_backups_prompt_message" = "すべてのバックアップを削除しますか？";
 
 /* Set Maximum Backup Keep Count */
-"backups_vc_set_max_keep_count_title" = "Set Maximum Backup Keep Count";
+"backups_vc_set_max_keep_count_title" = "バックアップの最大保持数を設定";
 
 /* You cannot use convenience unlock with a one time key file. */
 "config_error_one_time_key_file_convenience_message" = "You cannot use convenience unlock with a one time key file.";
