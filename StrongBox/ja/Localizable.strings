@@ -3294,10 +3294,10 @@
 "sync_log_sync_header_fmt" = "%@ - 同期番号 %@";
 
 /* User Interaction Required */
-"sync_status_user_interaction_required_title" = "User Interaction Required";
+"sync_status_user_interaction_required_title" = "ユーザー操作が必要です";
 
 /* User Cancelled */
-"sync_status_user_interaction_cancelled" = "User Cancelled";
+"sync_status_user_interaction_cancelled" = "ユーザーがキャンセルしました";
 
 /* Use Mine/Local (%@) - Translators Note: The first parameter is the modified date of the local copy e.g. "Today, 14:22" */
 "sync_conflict_option_use_mine_fmt" = "Use Mine/Local (%@)";
@@ -3306,61 +3306,61 @@
 "sync_conflict_option_use_theirs_fmt" = "Use Theirs/Remote (%@)";
 
 /* Sync Conflict */
-"sync_conflict_title" = "Sync Conflict";
+"sync_conflict_title" = "同期の競合";
 
 /* It looks like the remote version of this database on '%@' has changed and so has the local version you've been working on. Which version would you like to use?  - Translators Note: The first parameter is the name of the remote storage provider e.g. "Dropbox" */
-"sync_conflict_message_fmt" = "It looks like the remote version of this database on '%@' has changed and so has the local version you've been working on. Which version would you like to use?";
+"sync_conflict_message_fmt" = "'%@' にあるこのデータベースのリモートバージョン、およびこれまで操作されているローカルバージョンも変更されているようです。どちらのバージョンを使いますか？";
 
 /* Strongbox could not sync your changes. */
-"sync_could_not_sync_your_changes" = "Strongbox could not sync your changes.";
+"sync_could_not_sync_your_changes" = "Strongbox は変更内容を同期できませんでした。";
 
 /* You must close and reopen this database for Read-Only changes to take effect. */
-"db_management_reopen_required_message" = "You must close and reopen this database for changes to take effect.";
+"db_management_reopen_required_message" = "変更内容を反映させるには、このデータベースを一旦閉じてからもう一度開く必要があります。";
 
 /* Re-Open Required */
-"db_management_reopen_required_title" = "Re-Open Required";
+"db_management_reopen_required_title" = "再度開く必要があります";
 
 /* Could Not Open Local Copy */
-"open_sequence_couldnt_open_local_title" = "Could Not Open Local Copy";
+"open_sequence_couldnt_open_local_title" = "ローカルコピーを開けませんでした";
 
 /* Could not open Strongbox's local copy of this database. A online sync is required. */
-"open_sequence_couldnt_open_local_message" = "Could not open Strongbox's local copy of this database. A online sync is required.";
+"open_sequence_couldnt_open_local_message" = "Strongbox 内にあるこのデータベースのローカルコピーを開けませんでした。オンラインでの同期が必要です。";
 
 /* Use Local Copy? */
-"open_sequence_yesno_use_local_copy_title" = "Use Local Copy?";
+"open_sequence_yesno_use_local_copy_title" = "ローカルコピーを使用しますか？";
 
 /* Yes, Use Local (Read-Only) */
-"open_sequence_yes_use_local_copy_option" = "Yes, Use Local (Read-Only)";
+"open_sequence_yes_use_local_copy_option" = "はい、ローカルを使用します (読み取り専用)";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use Strongbox's local copy in read-only mode instead? - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc */
-"open_sequence_user_looks_offline_open_local_ro_fmt" = "It looks like you may be offline and '%@' may not be reachable. Would you like to use Strongbox's local copy in read-only mode instead?";
+"open_sequence_user_looks_offline_open_local_ro_fmt" = "オフラインになっているようですので、'%@' にはアクセスできない可能性があります。代わりに、Strongbox のローカルコピーを読み取り専用モードで使用しますか？";
 
 /* Sync Error */
-"open_sequence_storage_provider_error_title" = "Sync Error";
+"open_sequence_storage_provider_error_title" = "同期エラー";
 
 /* If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open Strongbox's local copy in read-only mode instead? */
-"open_sequence_storage_provider_error_open_local_ro_instead" = "If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open Strongbox's local copy in read-only mode instead?";
+"open_sequence_storage_provider_error_open_local_ro_instead" = "これが繰り返し発生する場合は、データベースを追加しなおすことをお奨めします。詳細は、デバッグ同期ログをご覧ください...\n\n代わりに、Strongbox のローカルコピーを読み取り専用モードで使用しますか？";
 
 /* Local Copy Unavailable */
-"autofill_vc_item_subtitle_local_copy_unavailable" = "Local Copy Unavailable";
+"autofill_vc_item_subtitle_local_copy_unavailable" = "ローカルコピーは利用できません";
 
 /* AutoFill Disabled */
-"autofill_vc_item_subtitle_disabled" = "オートフィルが無効化されました";
+"autofill_vc_item_subtitle_disabled" = "オートフィルは無効です";
 
 /* Sync Required */
-"autofill_add_entry_sync_required_title" = "Sync Required";
+"autofill_add_entry_sync_required_title" = "同期が必要です";
 
 /* You have added a new entry and this change has been saved locally.\n\nDon't forget to switch to the main Strongbox app to fully sync these changes to %@. - Translators Note: The 1st parameter here is the storage location, e.g. 'Dropbox' */
-"autofill_add_entry_sync_required_message_fmt" = "You have added a new entry and this change has been saved locally.\n\nDon't forget to switch to the main Strongbox app to fully sync these changes to %@.";
+"autofill_add_entry_sync_required_message_fmt" = "新しいエントリーが追加され、この変更はローカルで保存されました。\n\nStrongbox のメインアプリに切り替えて、これらの変更を %@ に完全に同期させることを忘れないでください。";
 
 /* Got it! */
-"autofill_add_entry_sync_required_option_got_it" = "Got it!";
+"autofill_add_entry_sync_required_option_got_it" = "分かりました！";
 
 /* Don't tell me again */
-"autofill_add_entry_sync_required_option_dont_tell_again" = "Don't tell me again";
+"autofill_add_entry_sync_required_option_dont_tell_again" = "今後表示しない";
 
 /* No Subscription Required */
-"onboarding_vc_start_your_free_trial_subtitle_no_subscription" = "No Subscription Required";
+"onboarding_vc_start_your_free_trial_subtitle_no_subscription" = "サブスクリプションは不要です";
 
 /* Could not bookmark this file */
 "open_sequence_error_could_not_bookmark_file" = "このファイルをブックマークに登録できませんでした";
@@ -3369,22 +3369,22 @@
 "open_sequence_invalid_database_filename_fmt" = "無効なデータベース - [%@]";
 
 /* Different Filename */
-"open_sequence_database_different_filename_title" = "Different Filename";
+"open_sequence_database_different_filename_title" = "異なるファイル名";
 
 /* This doesn't look like it's the right file because the filename looks different than the one you originally added. Do you want to continue?" */
 "open_sequence_database_different_filename_message" = "This doesn't look like it's the right file because the filename looks different than the one you originally added. Do you want to continue?";
 
 /* Relocate Database */
-"open_sequence_storage_provider_try_relocate_files_db" = "Locate Database...";
+"open_sequence_storage_provider_try_relocate_files_db" = "データベースを検索...";
 
 /* Strongbox is having trouble locating your database. This can happen sometimes especially after iOS updates or with some 3rd party providers (e.g.Nextcloud).\n\nYou now need to tell Strongbox where to locate it. Alternatively you can open Strongbox's local copy and fix this later.\n\nFor Nextcloud please use WebDAV instead... */
-"open_sequence_storage_provider_try_relocate_files_db_message" = "Strongbox is having trouble locating your database. This can happen sometimes especially after iOS updates or with some 3rd party providers (e.g.Nextcloud).\n\nYou now need to tell Strongbox where to locate it. Alternatively you can open Strongbox's local copy and fix this later.\n\nFor Nextcloud please use WebDAV instead...";
+"open_sequence_storage_provider_try_relocate_files_db_message" = "Strongbox にデータベースが見つかりません。これは、特に iOS が更新された後や一部のサードパーティプロバイダー (Nextcloud など) が使用されているときに起こる場合があります。\n\nStrongbox にデータベースが保管されている場所を教える必要があります。また、後で Strongbox のローカルコピーを開いてこれを修正することもできます。\n\nNextcloud をご利用の場合は、代わりに WebDAV をお使いください...";
 
 /* View Error Details */
-"open_sequence_storage_provider_view_sync_error_details" = "View Error Details";
+"open_sequence_storage_provider_view_sync_error_details" = "エラーの詳細を表示";
 
 /* Use Local (Read-Only) */
-"open_sequence_use_local_copy_option" = "Use Local (Read-Only)";
+"open_sequence_use_local_copy_option" = "ローカルを使用 (読み取り専用)";
 
 /* Delete (Translators Note: Verb - To Delete an item) */
 "generic_action_delete" = "Delete";
