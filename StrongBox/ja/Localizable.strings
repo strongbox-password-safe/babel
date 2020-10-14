@@ -44,49 +44,49 @@
 "safes_vc_about_setting_quick_launch_and_confirm" = "このデータベースをクイック起動データベースとして設定すると、Strongbox を起動するとき、または再度有効にするときにこのデータベースのロックを解除するプロンプトが自動的に表示され、面倒なタップが 1 つ省かれます！\n\nクイック起動データベースとして設定しますか？";
 
 /* Button title to Show Database in iOS Files App */
-"safes_vc_show_database_in_files_info" = "Making this database visible in the Files App will also make the database available for access via Finder on your Mac. However the database will no longer be write-able in AutoFill mode. This is due to iOS system design.\n\nNB: You can always reverse this action";
+"safes_vc_show_database_in_files_info" = "このデータベースをファイルアプリに表示すると、Mac の Finder からアクセスできるようにもなります。しかし、データベースはオートフィルモードでの書き込みができなくなります。これは iOS のシステムデザインによるものです。\n\n注意: このアクションはいつでも取り消すことができます";
 
 /* Button title to Hide Database from the iOS Files App */
-"safes_vc_make_database_auto_fill_info" = "Hiding this database from the Files App also means it will no longer be visible via Finder on your Mac. As a side-effect, this also means you get full (read/write) AutoFill functionality (not just a read-only cache).\n\nNB: You can always reverse this action";
+"safes_vc_make_database_auto_fill_info" = "このデータベースをファイルアプリで非表示にすると、Mac の Finder を使っても表示されなくなります。その結果、読み取り専用のキャッシュだけでなく、完全なオートフィル機能 (読み取り / 書き込み) を使用できるようになります。\n\n注意: このアクションはいつでも取り消すことができます";
 
 /* OK/Cancel prompt title for changing local storage mode */
-"safes_vc_change_local_device_storage_mode_title" = "Change Files Visibility";
+"safes_vc_change_local_device_storage_mode_title" = "ファイルの可視性を変更";
 
 /* error message could not change local storage */
-"safes_vc_could_not_change_storage_location_error" = "Could not change Files visibility";
+"safes_vc_could_not_change_storage_location_error" = "ファイルの可視性を変更できませんでした";
 
 /* informational message - made the file visible in iOS Files */
-"safes_vc_database_made_visible_in_files" = "This database has been made visible in the Files App";
+"safes_vc_database_made_visible_in_files" = "このデータベースはファイルアプリに表示されています";
 
 /* informational message - made the database fully autofillable */
-"safes_vc_database_made_fully_autofillable" = "This database has been hidden from the Files App";
+"safes_vc_database_made_fully_autofillable" = "このデータベースはファイルアプリで非表示にされています";
 
 /* information message = title changed storage mode */
-"safes_vc_local_storage_mode_changed" = "Files Visibility Changed";
+"safes_vc_local_storage_mode_changed" = "ファイルの可視性が変更されました";
 
 /* warning message about removing database from icloud */
-"safes_vc_remove_icloud_databases_warning" = "This will remove the database from all your iCloud enabled devices.\n\nAre you sure you want to remove this database from Strongbox and iCloud?";
+"safes_vc_remove_icloud_databases_warning" = "これにより、データベースがすべての iCloud 使用可能デバイスから削除されます。\n\nこのデータベースを Strongbox と iCloud から削除しますか？";
 
 /* are you sure you want to remove database prompt with format string on end */
-"safes_vc_are_you_sure_remove_database_fmt" = "Are you sure you want to remove this database from Strongbox?%@";
+"safes_vc_are_you_sure_remove_database_fmt" = "このデータベースを Strongbox から削除しますか？%@";
 
 /* extra info appended to string about the underlying storage type */
-"safes_vc_extra_info_underlying_database" = " (NB: The underlying database file will not be deleted)";
+"safes_vc_extra_info_underlying_database" = " (注意: 基になるデータベースファイルは削除されません)";
 
 /* Error message - could not delete iCloud database */
-"safes_vc_error_delete_icloud_database" = "Error Deleting iCloud Database";
+"safes_vc_error_delete_icloud_database" = "iCloud データベースの削除中にエラーが発生しました";
 
 /* Informational message title - found an iCloud Database */
-"safes_vc_found_icloud_database" = "Found iCloud Database";
+"safes_vc_found_icloud_database" = "iCloud データベースが見つかりました";
 
 /* question message, use iCloud database or select a different one */
-"safes_vc_use_icloud_or_continue" = "It looks like you already have an iCloud database, would you like to use this one, or would you like to continue adding another?";
+"safes_vc_use_icloud_or_continue" = "iCloud データベースを既にお持ちのようです。このデータベースを使用しますか、それとも他のデータベースを追加しますか？";
 
 /* One of the options in response to prompt - Use this iCloud database */
-"safes_vc_use_this_icloud_database" = "Use this iCloud database";
+"safes_vc_use_this_icloud_database" = "この iCloud データベースを使用する";
 
 /* Second option - Select another database */
-"safes_vc_add_another" = "I'd like to add another database";
+"safes_vc_add_another" = "他のデータベースを追加する";
 
 /* Error title - error selecting storage location */
 "safes_vc_error_selecting_storage_location" = "Error Selecting Storage Location";
