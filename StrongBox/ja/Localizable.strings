@@ -2225,77 +2225,77 @@
 "mac_could_not_unlock_database" = "データベースのロックを解除できませんでした";
 
 /* Touch ID Considerations\n\nWhile this is very convenient, it is not a perfect system for protecting your passwords. It is provided for convenience only. It is within the realm of possibilities that someone with access to your device or your fingerprint, can produce a good enough fake fingerprint to fool Apple’s Touch ID. In addition, on your Mac, your master password will be securely stored in the Keychain. This means it is possible for someone with administrative privileges to search your Keychain for your master password. You should be aware that a strong passphrase held only in your mind provides the most secure experience with StrongBox.\n\nPlease take all of this into account, and make your decision to use Touch ID based on your preferred balance of convenience and security. */
-"mac_touch_id_one_time_warning" = "Touch ID/Apple Watch Considerations\n\nWhile this is very convenient, it is not a perfect system for protecting your passwords. It is provided for convenience only. It is within the realm of possibilities that someone with access to your device or your fingerprint, can produce a good enough fake fingerprint to fool Apple’s Touch ID. In addition, on your Mac, your master password will be securely stored in the Keychain. This means it is possible for someone with administrative privileges to search your Keychain for your master password. You should be aware that a strong passphrase held only in your mind provides the most secure experience with StrongBox.\n\nPlease take all of this into account, and make your decision to use Touch ID based on your preferred balance of convenience and security.";
+"mac_touch_id_one_time_warning" = "Touch ID / Apple ウォッチについて考慮する点\n\nこれらのツールは非常に便利な一方で、単純に利便性だけを考慮したものであるため、パスワードを保護する完璧なシステムとは言えません。ユーザーのデバイスや指紋にアクセスできる人がいれば、Apple の Touch ID を欺くに十分な指紋を偽装できてしまう可能性があります。また、Mac をご使用であれば、マスターパスワードはキーチェーンに保管されます。その場合、管理権限を持つユーザーであれば、キーチェーンの中を検索し、マスターパスワードを見つけ出すことが可能であるということになります。Strongbox を最も安全に使用できるのは、強力なパスフレーズを自分の頭の中だけに留めておいた場合に限るということを認識しておきましょう。\n\nTouch ID については、上述の内容をすべてご検討いただき、利便性とセキュリティに求めるバランスを考慮した上でご使用ください。";
 
 /* You cannot lock a database while changes are pending. Save changes and lock now? */
-"mac_cant_lock_db_while_changes_pending" = "You cannot lock a database while changes are pending. Save changes and lock now?";
+"mac_cant_lock_db_while_changes_pending" = "変更内容が保留中の間はデータベースをロックできません。 今すぐ変更を保存してロックしますか？";
 
 /* Locking... */
-"generic_locking_ellipsis" = "Locking...";
+"generic_locking_ellipsis" = "ロックしています...";
 
 /* Please Enter the Master Credentials for this Database */
-"mac_please_set_master_credentials" = "Please Enter the Master Credentials for this Database";
+"mac_please_set_master_credentials" = "このデータベースのマスター認証情報を入力してください";
 
 /* Change Master Credentials */
 "mac_change_master_credentials" = "マスター認証情報を変更";
 
 /* Master Credentials Changed and Database Saved */
-"mac_master_credentials_changed_and_saved" = "Master Credentials Changed and Database Saved";
+"mac_master_credentials_changed_and_saved" = "マスター認証情報の変更およびデータベースの保存が完了しました";
 
 /* KeePass does not natively support the 'Email' field. Strongbox will add it instead as a custom field.\nDo you want to continue? */
 "mac_drag_drop_between_databases_keepass_email_field_not_supported" = "KeePass は「メール」フィールドをネイティブにはサポートしていません。Strongbox では、「メール」フィールドはカスタムフィールドとして追加されます。\n続行しますか？";
 
 /* KeePass 1 does not support entries at the root level, these will be discarded. KeePass 1 also does not natively support the 'Email' field. Strongbox will append it instead to the end of the 'Notes' field.\nDo you want to continue? */
-"mac_keepass1_does_not_support_root_entries" = "KeePass 1 does not support entries at the root level, these will be discarded. KeePass 1 also does not natively support the 'Email' field. Strongbox will append it instead to the end of the 'Notes' field.\nDo you want to continue?";
+"mac_keepass1_does_not_support_root_entries" = "KeePass 1 は、エントリーをルートレベルではサポートしていません。そのようなエントリーは破棄されます。また、KeePass 1 は「メール」フィールドをネイティブにはサポートしておらず、Strongbox では、代わりに「メモ」フィールドの末尾に追加されます。\n続行しますか？";
 
 /* The Password Safe format does not support icons, attachments or custom fields. If you continue, these fields will not be copied to this database.\nDo you want to continue without these fields? */
-"mac_password_safe_fmt_does_not_support_icons_attachments_warning" = "The Password Safe format does not support icons, attachments or custom fields. If you continue, these fields will not be copied to this database.\nDo you want to continue without these fields?";
+"mac_password_safe_fmt_does_not_support_icons_attachments_warning" = "Password Safe フォーマットは、アイコンや添付ファイル、カスタムフィールドをサポートしていません。続行した場合、これらのフィールドはこのデータベースにコピーされません。\nこれらのフィールドなしで続行しますか？";
 
 /* The KeePass 1 (KDB) does not support entries at the root level, these will be discarded.\n\nThe KeePass 1 (KDB) format also does not support multiple attachments, custom fields or custom icons. If you continue only the first attachment from each item will be copied to this database. Custom Fields and Icons will be discarded.\nDo you want to continue? */
-"mac_keepass1_does_not_support_root_entries_or_attachments" = "The KeePass 1 (KDB) does not support entries at the root level, these will be discarded.\n\nThe KeePass 1 (KDB) format also does not support multiple attachments, custom fields or custom icons. If you continue only the first attachment from each item will be copied to this database. Custom Fields and Icons will be discarded.\nDo you want to continue?";
+"mac_keepass1_does_not_support_root_entries_or_attachments" = "KeePass 1 (KDB) は、エントリーをルートレベルではサポートしていません。そのようなエントリーは破棄されます。\n\nまた、KeePass 1 (KDB) フォーマットは、複数の添付ファイル、カスタムフィールド、およびカスタムアイコンをサポートしていません。 続行した場合は、各アイテムの最初の添付ファイルのみがこのデータベースにコピーされます。 カスタムフィールドとカスタムアイコンは破棄されます。\n続行しますか？";
 
 /* The Password Safe format does not support attachments or icons. If you continue, these fields will not be copied to this database.\nDo you want to continue without these fields? */
-"mac_password_safe_does_not_support_attachments_icons_continue_yes_no" = "The Password Safe format does not support attachments or icons. If you continue, these fields will not be copied to this database.\nDo you want to continue without these fields?";
+"mac_password_safe_does_not_support_attachments_icons_continue_yes_no" = "Password Safe フォーマットは添付ファイルもアイコンもサポートしていません。続行した場合、これらのフィールドはこのデータベースにコピーされません。\nこれらのフィールドなしで続行しますか？";
 
 /* You cannot create a new item here. It must be within an existing folder. */
-"mac_alert_cannot_create_item_here" = "You cannot create a new item here. It must be within an existing folder.";
+"mac_alert_cannot_create_item_here" = "ここでは新規アイテムを作成できません。 既存のフォルダー内で行う必要があります。";
 
 /* Please enter a Title for your new Group */
-"mac_please_enter_a_title_for_new_group" = "Please enter a Title for your new Group";
+"mac_please_enter_a_title_for_new_group" = "新規グループのタイトルを入力してください";
 
 /* Are you sure you want to send '%@' to the Recycle Bin? - Translation Note: 1st Param is the Item Title */
 "mac_are_you_sure_recycle_bin_yes_no_fmt" = "'%@' をごみ箱に移動しますか？";
 
 /* Are you sure you want to delete '%@'? - Translation Note: 1st Param is the Item Title  */
-"mac_are_you_sure_delete_yes_no_fmt" = "Are you sure you want to delete '%@'?";
+"mac_are_you_sure_delete_yes_no_fmt" = "'%@' を削除しますか？";
 
 /* Are you sure you want to send %lu items to the Recycle Bin? - Translation Note: 1st Param is the number of items being deleted  */
-"mac_are_you_sure_recycle_bin_multiple_yes_no_fmt" = "Are you sure you want to send %lu items to the Recycle Bin?";
+"mac_are_you_sure_recycle_bin_multiple_yes_no_fmt" = "%lu 件のアイテムをごみ箱に移動しますか？";
 
 /* Are you sure you want to delete %lu items? - Translation Note: 1st Param is the number of items being deleted */
-"mac_are_you_sure_delete_multiple_yes_no_fmt" = "Are you sure you want to delete %lu items?";
+"mac_are_you_sure_delete_multiple_yes_no_fmt" = "%lu 件のアイテムを削除しますか？";
 
 /* Delete Items */
-"mac_menu_item_delete_items" = "Delete Items";
+"mac_menu_item_delete_items" = "アイテムの削除";
 
 /* Delete Item */
-"mac_menu_item_delete_item" = "Delete Item";
+"mac_menu_item_delete_item" = "アイテムの削除";
 
 /* Choose CSV file to Import */
-"mac_choose_csv_file_import" = "Choose CSV file to Import";
+"mac_choose_csv_file_import" = "インポートする CSV ファイルの選択";
 
 /* The CSV file must contain a header row with at least one of the following fields:\n\n[%@, %@, %@, %@, %@, %@]\n\nThe order of the fields doesn't matter. */
 
-"mac_csv_file_must_contain_header_and_fields" = "The CSV file must contain a header row with at least one of the following fields:\n\n[%@, %@, %@, %@, %@, %@]\n\nThe order of the fields doesn't matter.";
+"mac_csv_file_must_contain_header_and_fields" = "CSV ファイルには、以下のフィールドの少なくとも 1 つを持つヘッダー行がなければいけません。\n\n[%@、%@、%@、%@、%@、%@]\n\nフィールドの順番に決まりはありません。";
 
 /* CSV Format */
-"mac_csv_format_info_title" = "CSV Format";
+"mac_csv_format_info_title" = "CSV フォーマット";
 
 /* CSV File Contains Zero Rows. Cannot Import. */
-"mac_csv_file_contains_zero_rows" = "CSV File Contains Zero Rows. Cannot Import.";
+"mac_csv_file_contains_zero_rows" = "CSV ファイルに行がないため、インポートできません。";
 
 /* Found %lu valid rows in CSV file. Are you sure you would like to import now? - Translators Note: 1st Param is the number of rows found in the CSV File */
-"mac_found_n_valid_rows_in_csv_file_prompt_to_import_fmt" = "Found %lu valid rows in CSV file. Are you sure you would like to import now?";
+"mac_found_n_valid_rows_in_csv_file_prompt_to_import_fmt" = "CSV ファイルに有効な行が %lu 個見つかりました。今すぐインポートしますか？";
 
 /* CSV File Successfully Imported. */
 "mac_csv_file_successfully_imported" = "CSV File Successfully Imported.";
@@ -2443,7 +2443,7 @@
 "mac_strongbox_cant_open_file_wrappers" = "Strongbox cannot open File Wrappers, Directories or Compressed Packages like this. Please directly select a KeePass or Password Safe database file.";
 
 /* Please Enter the Master Credentials for this Database */
-"mac_please_enter_master_credentials_for_this_database" = "Please Enter the Master Credentials for this Database";
+"mac_please_enter_master_credentials_for_this_database" = "このデータベースのマスター認証情報を入力してください";
 
 /* Save New Password Database... */
 "mac_save_new_database" = "Save New Password Database...";
@@ -2455,7 +2455,7 @@
 "mac_save_new_db_message" = "You must save this new database before you can use it";
 
 /* Untitled.%@ - Translators Note: 1st Parameter is the File Extension e.g. KDBX or psafe3*/
-"mac_untitled_database_filename_fmt" = "Untitled.%@";
+"mac_untitled_database_filename_fmt" = "タイトルなし。%@";
 
 /* - (Pro Upgrade Available) */
 "mac_free_trial_window_title_suffix" = " - (Pro Upgrade Available)";
