@@ -1341,56 +1341,56 @@
 "entry_defaults_vc_prompt_custom_title" = "カスタムデフォルト";
 
 /* Please enter a new custom default for this field */
-"entry_defaults_vc_prompt_custom_message" = "Please enter a new custom default for this field";
+"entry_defaults_vc_prompt_custom_message" = "このフィールドの新しいカスタムデフォルトを入力してください";
 
 /* %d attempts remaining */
-"open_sequence_pin_attempts_remaining_fmt" = "%d attempts remaining";
+"open_sequence_pin_attempts_remaining_fmt" = "残りの試行回数 %d";
 
 /* Too Many Incorrect PINs */
-"open_sequence_prompt_too_many_incorrect_pins_title" = "Too Many Incorrect PINs";
+"open_sequence_prompt_too_many_incorrect_pins_title" = "間違った PIN の入力が多すぎます";
 
 /* You have entered the wrong PIN too many times. PIN Unlock is now disabled, and you must enter the master password to unlock this database. */
-"open_sequence_prompt_too_many_incorrect_pins_message" = "You have entered the wrong PIN too many times. PIN Unlock is now disabled, and you must enter the master password to unlock this database.";
+"open_sequence_prompt_too_many_incorrect_pins_message" = "間違った PIN の入力回数が多すぎます。PIN のロック解除が無効化されましたので、このデータベースのロックを解除するにはマスターパスワードを入力する必要があります。";
 
 /* There was a technical error opening the database. */
-"open_sequence_duress_technical_error_message" = "There was a technical error opening the database.";
+"open_sequence_duress_technical_error_message" = "データベースを開く際に技術的なエラーが発生しました。";
 
 /* Technical Issue */
-"open_sequence_duress_technical_error_title" = "Technical Issue";
+"open_sequence_duress_technical_error_title" = "技術的な問題";
 
 /* Identify to Unlock Database */
-"open_sequence_biometric_unlock_prompt_title" = "Identify to Unlock Database";
+"open_sequence_biometric_unlock_prompt_title" = "本人確認をしてデータベースのロックを解除";
 
 /* Unlock Manually... */
-"open_sequence_biometric_unlock_fallback" = "Unlock Manually...";
+"open_sequence_biometric_unlock_fallback" = "手動でロック解除...";
 
 /* %@ Failed */
-"open_sequence_biometric_unlock_warn_failed_title_fmt" = "%@ Failed";
+"open_sequence_biometric_unlock_warn_failed_title_fmt" = "%@ に失敗しました";
 
 /* %@ Authentication Failed. You must now enter your password manually to open the database. */
-"open_sequence_biometric_unlock_warn_failed_message_fmt" = "%@ Authentication Failed. You must now enter your password manually to open the database.";
+"open_sequence_biometric_unlock_warn_failed_message_fmt" = "%@ の認証に失敗しました。データベースを開くには、手動でパスワードを入力する必要があります。";
 
 /* %@ has failed: %@. You must now enter your password manually to open the database. */
-"open_sequence_biometric_unlock_warn_not_configured_fmt" = "%@ has failed: %@. You must now enter your password manually to open the database.";
+"open_sequence_biometric_unlock_warn_not_configured_fmt" = "%@ に失敗しました: %@。データベースを開くには、手動でパスワードを入力する必要があります。";
 
 /* Error Reading Key File */
-"open_sequence_error_reading_key_file" = "Could not read Key File. Has it been moved or deleted? Check Key Files Management in Preferences";
+"open_sequence_error_reading_key_file" = "キーファイルを読み取れませんでした。移動または削除されましたか？環境設定でキーファイル管理を確認してください";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc, 2nd param is the date/time of the last cache) */
-"open_sequence_user_looks_offline_open_offline_instead_fmt" = "It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@";
+"open_sequence_user_looks_offline_open_offline_instead_fmt" = "オフラインで使用されているようなので、'%@' にアクセスできない可能性があります。 代わりに、このデータベースの読み取り専用のオフラインキャッシュバージョンを使用しますか？\n\n最終キャッシュ取得日: %@";
 
 /* No, Try to connect anyway */
-"open_sequence_yesno_use_offline_cache_no_try_connect_option" = "No, Try to connect anyway";
+"open_sequence_yesno_use_offline_cache_no_try_connect_option" = "いいえ、接続を試す";
 
 /* There was a problem reading the database on %@. would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ */
-"open_sequence_storage_unreachable_open_offline_instead_fmt" = "There was a problem reading the database on %@. If this happens repeatedly you should try removing and re-adding your database. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@";
+"open_sequence_storage_unreachable_open_offline_instead_fmt" = "%@ のデータベースの読み取り中に問題が発生しました。 これが繰り返し発生する場合は、データベースを一旦削除し、追加しなおしてください。 代わりに、このデータベースの読み取り専用のオフラインキャッシュバージョンを使用しますか？\n\n最終キャッシュ取得日: %@";
 
 /* Could not open database
    There was a problem opening the database. */
-"open_sequence_problem_opening_title" = "There was a problem opening the database.";
+"open_sequence_problem_opening_title" = "データベースを開く際に問題が発生しました。";
 
 /* AutoFill Crash Likely */
-"open_sequence_autofill_creash_likely_title" = "AutoFill Crash Likely";
+"open_sequence_autofill_creash_likely_title" = "オートフィルがクラッシュした可能性あり";
 
 /* Your database has encryption settings that may cause iOS Password AutoFill extensions to be terminated due to excessive resource consumption. This will mean AutoFill appears not to work. Unfortunately this is an Apple imposed limit. You could consider reducing the amount of resources consumed by your encryption settings (Memory in particular with Argon2 to below 64MB). */
 "open_sequence_autofill_creash_likely_message" = "お使いのデータベースが非常に大きくなっているか、リソースが過剰に消費される場合に iOS のパスワードオートフィル拡張機能を強制終了する可能性のある暗号化設定が使用されています。\nオートフィル機能が反応していないように見えるのはこのためです。 あいにく、これは Apple 社のシステム制限によるものです。\nファイルを縮小するか、リソースの消費量を変更する、特に Argon2 のメモリを 64MB 以下に下げることをお奨めします。";
@@ -1543,19 +1543,19 @@
 "cloud_sessions_prompt_google_signout_success_title" = "サインアウトしました";
 
 /* You have been successfully been signed out of Google Drive. */
-"cloud_sessions_prompt_google_signout_success_message" = "You have been successfully been signed out of Google Drive.";
+"cloud_sessions_prompt_google_signout_success_message" = "Google ドライブからサインアウトしました。";
 
 /* Unlink Dropbox? */
-"cloud_sessions_prompt_unlink_dropbox_title" = "Unlink Dropbox?";
+"cloud_sessions_prompt_unlink_dropbox_title" = "Dropbox のリンクを解除しますか？";
 
 /* Are you sure you want to unlink Strongbox from Dropbox? */
-"cloud_sessions_prompt_unlink_dropbox_message" = "Are you sure you want to unlink Strongbox from Dropbox?";
+"cloud_sessions_prompt_unlink_dropbox_message" = "Strongbox の Dropbox へのリンクを解除しますか？";
 
 /* Unlink Successful */
-"cloud_sessions_prompt_dropbox_unlink_success_title" = "Unlink Successful";
+"cloud_sessions_prompt_dropbox_unlink_success_title" = "リンクを解除しました";
 
 /* You have successfully unlinked Strongbox from Dropbox. */
-"cloud_sessions_prompt_dropbox_unlink_success_message" = "You have successfully unlinked Strongbox from Dropbox.";
+"cloud_sessions_prompt_dropbox_unlink_success_message" = "Strongbox の Dropbox へのリンクを解除しました。";
 
 /* Sign out of OneDrive? */
 "cloud_sessions_prompt_signout_onedrive_title" = "OneDrive からサインアウトしますか？";
@@ -2331,19 +2331,19 @@
 "mac_is_this_a_stream_token_yes_no" = "これはスチームトークンですか？(確かでない場合は「いいえ」と答えてください）";
 
 /* Show Quick View Panel */
-"mac_show_quick_view_panel" = "Show Quick View Panel";
+"mac_show_quick_view_panel" = "クイックビューパネルの表示";
 
 /* Hide Quick View Panel */
-"mac_hide_quick_view_panel" = "Hide Quick View Panel";
+"mac_hide_quick_view_panel" = "クイックビューパネルの非表示";
 
 /* %@ Emergency Sheet - Translators Note: 1st Param: Database Name */
-"mac_database_print_emergency_sheet_fmt" = "%@ Emergency Sheet";
+"mac_database_print_emergency_sheet_fmt" = "%@ 緊急シート";
 
 /* Search Disabled - Please Upgrade */
-"mac_search_disabled_please_upgrade" = "Search Disabled - Please Upgrade";
+"mac_search_disabled_please_upgrade" = "検索は無効です - アップグレードしてください";
 
 /* Search (⌘F) */
-"mac_search_placeholder" = "Search (⌘F)";
+"mac_search_placeholder" = "検索 (⌘F)";
 
 /* Please Enter Your Custom Default Title */
 "mac_enter_custom_title_default" = "Please Enter Your Custom Default Title";
@@ -2365,94 +2365,94 @@
 
 /* Hi and welcome to Strongbox!\n\nI hope you'll really like the app, and find it useful. You can enjoy this fully featured Pro version of Strongbox for the next three months. After that point, you will be transitioned to the regular version of Strongbox.\n\nYou can always find out more at any time by tapping 'Upgrade to Pro' in the Strongbox menu item.\n\nThanks!\n-Mark */
 
-"mac_welcome_to_strongbox_message" = "Hi and welcome to Strongbox!\n\nI hope you'll really like the app, and find it useful. You can enjoy this fully featured Pro version of Strongbox for the next three months. After that point, you will be transitioned to the regular version of Strongbox.\n\nYou can always find out more at any time by tapping 'Upgrade to Pro' in the Strongbox menu item.\n\nThanks!\n-Mark";
+"mac_welcome_to_strongbox_message" = "こんにちは、そして Strongbox へようこそ！\n\n弊社は、私たちのアプリがお客様のお役に立つことを願っております。翌 3 か月間は、全機能を搭載した Strongbox のプロ版をご利用いただけます。それ以降は、Strongbox の通常のバージョンに切り替わりますのでご了承ください。\n\n詳細は、Strongbox のメニューアイテムから「プロにアップグレード」をタップしていただければ、いつでもご確認いただけます。\n\nどうぞよろしくお願い申し上げます！\n-Mark";
 
 /* Change Master Credentials */
 "mac_undo_action_change_master_credentials" = "マスター認証情報を変更";
 
 /* Title Change */
-"mac_undo_action_title_change" = "Title Change";
+"mac_undo_action_title_change" = "タイトルの変更";
 
 /* Email Change */
-"mac_undo_action_email_change" = "Email Change";
+"mac_undo_action_email_change" = "メールアドレスの変更";
 
 /* Username Change */
-"mac_undo_action_username_change" = "Username Change";
+"mac_undo_action_username_change" = "ユーザー名の変更";
 
 /* URL Change */
-"mac_undo_action_url_change" = "URL Change";
+"mac_undo_action_url_change" = "URL の変更";
 
 /* Move Item */
-"mac_undo_action_move_item" = "Move Item";
+"mac_undo_action_move_item" = "アイテムを移動";
 
 /* Move Items */
-"mac_undo_action_move_items" = "Move Items";
+"mac_undo_action_move_items" = "アイテムを移動";
 
 /* Password Change */
-"mac_undo_action_password_change" = "Password Change";
+"mac_undo_action_password_change" = "パスワードの変更";
 
 /* Notes Change */
-"mac_undo_action_notes_change" = "Notes Change";
+"mac_undo_action_notes_change" = "メモの変更";
 
 /* Expiry Date Change */
-"mac_undo_action_expiry_change" = "Expiry Date Change";
+"mac_undo_action_expiry_change" = "有効期限の変更";
 
 /* Icon Change */
-"mac_undo_action_icon_change" = "Icon Change";
+"mac_undo_action_icon_change" = "アイコンの変更";
 
 /* Delete History Item */
-"mac_undo_action_delete_history_item" = "Delete History Item";
+"mac_undo_action_delete_history_item" = "履歴アイテムの削除";
 
 /* Restore History Item */
-"mac_undo_action_restore_history_item" = "Restore History Item";
+"mac_undo_action_restore_history_item" = "履歴アイテムの復元";
 
 /* Remove Attachment */
-"mac_undo_action_remove_attachment" = "Remove Attachment";
+"mac_undo_action_remove_attachment" = "添付ファイルの削除";
 
 /* Add Attachment */
-"mac_undo_action_add_attachment" = "Add Attachment";
+"mac_undo_action_add_attachment" = "添付ファイルの追加";
 
 /* Set Custom Field */
-"mac_undo_action_set_custom_field" = "Set Custom Field";
+"mac_undo_action_set_custom_field" = "カスタムフィールドの設定";
 
 /* Add Custom Field */
 "mac_undo_action_add_custom_field" = "カスタムフィールドの追加";
 
 /* Remove Custom Field */
-"mac_undo_action_remove_custom_field" = "Remove Custom Field";
+"mac_undo_action_remove_custom_field" = "カスタムフィールドの削除";
 
 /* Set TOTP */
-"mac_undo_action_set_totp" = "Set TOTP";
+"mac_undo_action_set_totp" = "TOTP の設定";
 
 /* Clear TOTP */
-"mac_undo_action_clear_totp" = "Clear TOTP";
+"mac_undo_action_clear_totp" = "TOTP のクリア";
 
 /* Add Items */
-"mac_undo_action_add_items" = "Add Items";
+"mac_undo_action_add_items" = "アイテムの追加";
 
 /* Add Item */
-"mac_undo_action_add_item" = "Add Item";
+"mac_undo_action_add_item" = "アイテムの追加";
 
 /* Import Entries from CSV */
-"mac_undo_action_import_entries_from_csv" = "Import Entries from CSV";
+"mac_undo_action_import_entries_from_csv" = "CSV からエントリーをインポート";
 
 /* Cannot save database while it is locked." */
-"mac_cannot_save_db_while_locked" = "Cannot save database while it is locked.";
+"mac_cannot_save_db_while_locked" = "ロックされているデータベースは保存できません。";
 
 /* Strongbox cannot open File Wrappers, Directories or Compressed Packages like this. Please directly select a KeePass or Password Safe database file. */
-"mac_strongbox_cant_open_file_wrappers" = "Strongbox cannot open File Wrappers, Directories or Compressed Packages like this. Please directly select a KeePass or Password Safe database file.";
+"mac_strongbox_cant_open_file_wrappers" = "Strongbox は、このような圧縮パッケージやファイルラッパー、ディレクトリーを開くことができません。KeePass または Password Safe のデータベースファイルを直接選択してください。";
 
 /* Please Enter the Master Credentials for this Database */
 "mac_please_enter_master_credentials_for_this_database" = "このデータベースのマスター認証情報を入力してください";
 
 /* Save New Password Database... */
-"mac_save_new_database" = "Save New Password Database...";
+"mac_save_new_database" = "新規パスワードデータベースの保存...";
 
 /* Save */
-"mac_save_action" = "Save";
+"mac_save_action" = "保存";
 
 /* You must save this new database before you can use it */
-"mac_save_new_db_message" = "You must save this new database before you can use it";
+"mac_save_new_db_message" = "この新規データベースを使用するには、まず保存する必要があります。";
 
 /* Untitled.%@ - Translators Note: 1st Parameter is the File Extension e.g. KDBX or psafe3*/
 "mac_untitled_database_filename_fmt" = "タイトルなし。%@";
@@ -2626,16 +2626,16 @@
 "mac_keepass_icons" = "KeePass アイコン";
 
 /* Identify to Open Database */
-"mac_biometrics_identify_to_open_database" = "Identify to Open Database";
+"mac_biometrics_identify_to_open_database" = "本人確認をしてデータベースを開く";
 
 /* Biometrics is not available on this device! */
-"mac_biometrics_not_available" = "Biometrics is not available on this device!";
+"mac_biometrics_not_available" = "このデバイスでは生体認証を使用できません！";
 
 /* Local Device */
-"storage_provider_name_local_device" = "Local Device";
+"storage_provider_name_local_device" = "ローカルデバイス";
 
 /* iOS Files */
-"storage_provider_name_ios_files" = "iOS Files";
+"storage_provider_name_ios_files" = "iOS ファイル";
 
 /* iCloud */
 "storage_provider_name_icloud" = "iCloud";
@@ -2656,31 +2656,31 @@
 "storage_provider_name_sftp" = "SFTP";
 
 /* %lu Icons Found (None selected) - Translators Note: 1st Parameter is the number of Icons found in the FavIcon Search */
-"favicon_results_n_icons_found_none_selected_fmt" = "%lu Icons Found (None selected)";
+"favicon_results_n_icons_found_none_selected_fmt" = "%lu 個のアイコンが見つかりました (いずれも未選択)";
 
 /* This will set the icons for %d items to your selected FavIcons. Are you sure you want to continue? - Translators Note: 1st Param is the number of items that will be changed */
-"set_favicons_are_you_sure_yes_no_fmt" = "This will set the icons for %d items to your selected FavIcons. Are you sure you want to continue?";
+"set_favicons_are_you_sure_yes_no_fmt" = "これにより、%d 件のアイテムのアイコンが、選択された FavIcon に設定されます。続行しますか？";
 
 /* Set FavIcon(s) */
-"mac_undo_action_set_icons" = "Set Icon(s)";
+"mac_undo_action_set_icons" = "アイコンを設定";
 
 /* Welcome */
 "auto_fill_welcome_message_header" = "ようこそ";
 
 /* Automatically download FavIcon on URL Change (PRO Only) */
-"mac_auto_download_favicon_pro_only" = "Automatically download FavIcon on URL Change (Pro Feature Only)";
+"mac_auto_download_favicon_pro_only" = "URL 変更時にファビコンを自動的にダウンロードする (プロ機能限定)";
 
 /* Set Icons (Pro Only) */
-"mac_button_set_favicons_pro_only" = "Set Icons (Pro Only)";
+"mac_button_set_favicons_pro_only" = "アイコンを設定 (プロ限定)";
 
 /* ⌘R to Reveal */
-"mac_button_reveal_master_password_title" = "⌘R to Reveal";
+"mac_button_reveal_master_password_title" = "⌘R で表示";
 
 /* ⌘R to Conceal */
-"mac_button_conceal_master_password_title" = "⌘R to Conceal";
+"mac_button_conceal_master_password_title" = "⌘R で隠す";
 
 /* Biometrics Database Changed */
-"open_sequence_warn_biometrics_db_changed_title" = "Biometrics Database Changed";
+"open_sequence_warn_biometrics_db_changed_title" = "生体認証データベースが変更されました";
 
 /* It looks like your biometrics database has changed, probably because you added a new face or fingerprint. Strongbox now requires you to re-enter your master credentials manually for security reasons. */
 "open_sequence_warn_biometrics_db_changed_message" = "おそらく新しい顔または指紋が追加されたため、生体認証データベースが変更されています。セキュリティ上の理由により、マスター認証情報を Strongbox に手動でもう一度入力していただく必要があります。";
@@ -3000,97 +3000,97 @@
 "audit_quick_summary_very_brief_password_is_too_short" = "Short";
 
 /* Pwned */
-"audit_quick_summary_very_brief_password_is_pwned" = "Pwned";
+"audit_quick_summary_very_brief_password_is_pwned" = "Pwned (侵害されている)";
 
 /* Audit: Password is too short. */
-"audit_quick_summary_password_is_too_short" = "Audit: Password is too short";
+"audit_quick_summary_password_is_too_short" = "監査: パスワードが短すぎる";
 
 /* Found %@ issues in %@ entries - Translators note, both parameters are numbers, e.g. 24 issues found in 12 entries */
-"audit_status_fmt" = "Found %@ issues in %@ entries";
+"audit_status_fmt" = "%@ 個のエントリーに %@ 個の問題が見つかりました";
 
 /* Found %@ issues in %@ entries - Translators note, all parameters are numbers, e.g. 24 issues found in 12 entries (with 5 HIBP Errors) */
-"audit_status_done_with_hibp_errors_fmt" = "Found %@ issues in %@ entries (with %@ HIBP Errors)";
+"audit_status_done_with_hibp_errors_fmt" = "%@ 個のエントリーに %@ 個の問題が見つかりました (%@ 個の HIBP エラーあり)";
 
 /* Audit Complete */
 "audit_status_complete" = "ステータス: 完了";
 
 /* Database Auditor Initialized */
-"audit_status_initialized" = "Status: Initializing...";
+"audit_status_initialized" = "ステータス: 初期化中...";
 
 /* Database Auditor Initialized */
-"audit_status_initialized_but_disabled" = "Status: Disabled";
+"audit_status_initialized_but_disabled" = "ステータス: 無効";
 
 /* Auditing... (%d%%) - Translator's Note - 1st Parameter is a percentage e.g. 25% - NB: Only 1 param (double percentages are an escape string for the single percentage symbol) */
-"audit_status_running_with_progress_fmt" = "Status: Auditing... (%d%%)";
+"audit_status_running_with_progress_fmt" = "ステータス: 監査中... (%d%%)";
 
 /* Auditing... */
-"audit_status_running_with_ellipsis" = "Status: Auditing...";
+"audit_status_running_with_ellipsis" = "ステータス: 監査中...";
 
 /* Audit Stopped */
-"audit_status_stopped" = "Status: Stopped";
+"audit_status_stopped" = "ステータス: 停止";
 
 /* No issues found */
 "audit_status_no_issues_found" = "No issues found";
 
 /* The credentials were incorrect for this database. Are you sure you are using this key file?\n\nNB: A key files are not the same as your database file. */
-"open_sequence_problem_opening_incorrect_credentials_message_verify_key_file" = "The credentials were incorrect for this database. Are you sure you are using this key file?\n\nNB: Please be aware that key files are not the same as your database file (KDBX/KDB)";
+"open_sequence_problem_opening_incorrect_credentials_message_verify_key_file" = "このデータベースの正しい認識情報ではありませんでした。このキーファイルを使用しますか？\n\n注意: キーファイルはデータベースファイルとは異なりますのでご注意ください (KDBX/KDB)";
 
 /* Is your Key File correct? */
-"casg_key_file_correct_title" = "Is your Key File correct?";
+"casg_key_file_correct_title" = "キーファイルは正しいですか？";
 
 /* You have configured this database to open with a key file but the key file you have chosen doesn't look valid.\n\nAre you sure you are using this key file?\n\nNB: A key file is not the same as your database file" */
-"casg_key_file_correct_message" = "You have configured this database to open with a key file but the key file you have chosen doesn't look valid.\n\nAre you sure you are using this key file?\n\nNB: A key file is not the same as your database file";
+"casg_key_file_correct_message" = "このデータベースはキーファイルで開くように設定されていますが、選択されたキーファイルが無効なようです。\n\nこのキーファイルを使用しますか？\n\n注意: キーファイルはデータベースファイルとは異なりますのでご注意ください";
 
 /* Yes, the key file is correct */
-"casg_key_file_correct_yes_key_file_correct" = "Yes, the key file is correct";
+"casg_key_file_correct_yes_key_file_correct" = "はい、キー ファイルは正しいです";
 
 /* No, I don't use a key file */
-"casg_key_file_correct_no_no_key_file" = "No, I don't use a key file";
+"casg_key_file_correct_no_no_key_file" = "いいえ、キーファイルは使用しません";
 
 /* Security Audit Complete */
-"browse_vc_audit_complete_title" = "Security Audit Complete";
+"browse_vc_audit_complete_title" = "セキュリティ監査が完了しました";
 
 /* No issues found */
-"browse_vc_audit_complete_message" = "No issues found";
+"browse_vc_audit_complete_message" = "問題は見つかりませんでした";
 
 /* %ld issues found */
-"browse_vc_audit_complete_message_issues_found_fmt" = "%ld issues found";
+"browse_vc_audit_complete_message_issues_found_fmt" = "%ld 件の問題が見つかりました";
 
 /* %ld New Issues Found! */
-"browse_vc_audit_complete_message_new_issues_found_fmt" = "%ld New Issues Found!";
+"browse_vc_audit_complete_message_new_issues_found_fmt" = "%ld の新しい問題が見つかりました！";
 
 /* HIBP Disclaimer */
-"audit_hibp_warning_title" = "HIBP Disclaimer";
+"audit_hibp_warning_title" = "HIBP 免責事項";
 
 /* I understand that my passwords will be sent over the web (HTTPS) to the 'Have I Been Pwned?' password checking service (using k-anonymity) and that I fully consent to this functionality. I also absolve Strongbox, Mark McGuill and Phoebe Code Limited of all liabilty for using this feature. */
-"audit_hibp_warning_message" = "I understand that my passwords will be sent over the web (HTTPS) to the 'Have I Been Pwned?' password checking service (using k-anonymity) and that I fully consent to this functionality. I also absolve Strongbox, Mark McGuill and Phoebe Code Limited of all liabilty for using this feature.";
+"audit_hibp_warning_message" = "私は自分のパスワードが (K 匿名化により) ウェブ (HTTPS) を使ってパスワード侵害の確認サービス 'Have I Been Pwned?' に送られることを理解し、この機能が使用されることに完全に同意します。また、私は自分がこの機能を使用することに起因し得るすべての法的責任から、Strongbox、Mark McGuill 氏、および Phoebe Code Limited を免責いたします。";
 
 /* No, I don't want to use this feature */
-"audit_hibp_warning_no" = "No, I don't want to use this feature";
+"audit_hibp_warning_no" = "いいえ、この機能は使用したくありません";
 
 /* Yes, I understand and agree */
-"audit_hibp_warning_yes" = "Yes, I understand and agree";
+"audit_hibp_warning_yes" = "はい、上記を理解し、同意します";
 
 /* Always Check */
-"hibp_check_interval_always_check" = "Always Check";
+"hibp_check_interval_always_check" = "常にチェック";
 
 /* Once a Day */
 "hibp_check_interval_once_a_day" = "1 日に 1 回";
 
 /* Once a Week */
-"hibp_check_interval_once_a_week" = "Once a Week";
+"hibp_check_interval_once_a_week" = "1 週間に 1 回";
 
 /* Once Every 30 days */
-"hibp_check_interval_once_every_30_days" = "Once Every 30 days";
+"hibp_check_interval_once_every_30_days" = "30 日ごと";
 
 /* Select Online Check Interval */
-"audit_hibp_online_check_interval" = "Select Online Check Interval";
+"audit_hibp_online_check_interval" = "オンラインチェックの間隔を選択";
 
 /* Have I Been Pwned? (Pro Edition Only) */
-"audit_hibp_pro_only_title" = "Have I Been Pwned? (Pro Edition Only)";
+"audit_hibp_pro_only_title" = "Have I Been Pwned? (プロ版限定)";
 
 /* Auto Fetch FavIcon? */
-"item_details_prompt_auto_fetch_favicon_title" = "Auto Fetch FavIcon?";
+"item_details_prompt_auto_fetch_favicon_title" = "FavIcon を自動取得しますか？";
 
 /* Strongbox can automatically fetch FavIcons when an new entry is created or updated.\n\nWould you like to Strongbox to do this? */
 "item_details_prompt_auto_fetch_favicon_message" = "Strongbox can automatically fetch FavIcons when an new entry is created or updated.\n\nWould you like to Strongbox to do this?";
