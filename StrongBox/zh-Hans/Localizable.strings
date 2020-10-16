@@ -2988,112 +2988,112 @@
 "audit_quick_summary_very_brief_no_password_set" = "没有密码";
 
 /* Weak/Common - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
-"audit_quick_summary_very_brief_very_common_password" = "Common";
+"audit_quick_summary_very_brief_very_common_password" = "常用";
 
 /* Duplicated - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
-"audit_quick_summary_very_brief_duplicated_password" = "Duplicated";
+"audit_quick_summary_very_brief_duplicated_password" = "重复";
 
 /* Similar - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
-"audit_quick_summary_very_brief_password_is_similar_to_another" = "Similar";
+"audit_quick_summary_very_brief_password_is_similar_to_another" = "相似";
 
 /* Short - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
-"audit_quick_summary_very_brief_password_is_too_short" = "Short";
+"audit_quick_summary_very_brief_password_is_too_short" = "过短";
 
 /* Pwned */
-"audit_quick_summary_very_brief_password_is_pwned" = "Pwned";
+"audit_quick_summary_very_brief_password_is_pwned" = "已泄露";
 
 /* Audit: Password is too short. */
-"audit_quick_summary_password_is_too_short" = "Audit: Password is too short";
+"audit_quick_summary_password_is_too_short" = "审计：密码过短";
 
 /* Found %@ issues in %@ entries - Translators note, both parameters are numbers, e.g. 24 issues found in 12 entries */
-"audit_status_fmt" = "Found %@ issues in %@ entries";
+"audit_status_fmt" = "在 %@ 个条目中找到 %@ 个问题";
 
 /* Found %@ issues in %@ entries - Translators note, all parameters are numbers, e.g. 24 issues found in 12 entries (with 5 HIBP Errors) */
-"audit_status_done_with_hibp_errors_fmt" = "Found %@ issues in %@ entries (with %@ HIBP Errors)";
+"audit_status_done_with_hibp_errors_fmt" = "在 %@ 个条目中找到 %@ 个问题 ( %@ 个 HIBP 错误)";
 
 /* Audit Complete */
-"audit_status_complete" = "Status: Complete";
+"audit_status_complete" = "状态：完成";
 
 /* Database Auditor Initialized */
-"audit_status_initialized" = "Status: Initializing...";
+"audit_status_initialized" = "状态：初始化...";
 
 /* Database Auditor Initialized */
-"audit_status_initialized_but_disabled" = "Status: Disabled";
+"audit_status_initialized_but_disabled" = "状态: 已禁用";
 
 /* Auditing... (%d%%) - Translator's Note - 1st Parameter is a percentage e.g. 25% - NB: Only 1 param (double percentages are an escape string for the single percentage symbol) */
-"audit_status_running_with_progress_fmt" = "Status: Auditing... (%d%%)";
+"audit_status_running_with_progress_fmt" = "状态：正在审计... (%d%%)";
 
 /* Auditing... */
-"audit_status_running_with_ellipsis" = "Status: Auditing...";
+"audit_status_running_with_ellipsis" = "状态：正在审计...";
 
 /* Audit Stopped */
-"audit_status_stopped" = "Status: Stopped";
+"audit_status_stopped" = "状态：已停止";
 
 /* No issues found */
-"audit_status_no_issues_found" = "No issues found";
+"audit_status_no_issues_found" = "未发现问题";
 
 /* The credentials were incorrect for this database. Are you sure you are using this key file?\n\nNB: A key files are not the same as your database file. */
-"open_sequence_problem_opening_incorrect_credentials_message_verify_key_file" = "The credentials were incorrect for this database. Are you sure you are using this key file?\n\nNB: Please be aware that key files are not the same as your database file (KDBX/KDB)";
+"open_sequence_problem_opening_incorrect_credentials_message_verify_key_file" = "该数据库的凭证不正确。你确定使用的是此密钥文件吗？\n\n注意: 密钥文件与您的数据库文件 (KDBX/KDB) 不同。";
 
 /* Is your Key File correct? */
-"casg_key_file_correct_title" = "Is your Key File correct?";
+"casg_key_file_correct_title" = "您的密钥文件正确吗？";
 
 /* You have configured this database to open with a key file but the key file you have chosen doesn't look valid.\n\nAre you sure you are using this key file?\n\nNB: A key file is not the same as your database file" */
-"casg_key_file_correct_message" = "You have configured this database to open with a key file but the key file you have chosen doesn't look valid.\n\nAre you sure you are using this key file?\n\nNB: A key file is not the same as your database file";
+"casg_key_file_correct_message" = "您已将此数据库配置为用密钥文件打开，但您选择的密钥文件无效。\n\n你确定使用的是此密钥文件吗？\n\n注意：密钥文件和数据库文件是不一样的。";
 
 /* Yes, the key file is correct */
-"casg_key_file_correct_yes_key_file_correct" = "Yes, the key file is correct";
+"casg_key_file_correct_yes_key_file_correct" = "是的，钥匙文件是正确的";
 
 /* No, I don't use a key file */
-"casg_key_file_correct_no_no_key_file" = "No, I don't use a key file";
+"casg_key_file_correct_no_no_key_file" = "不，我不使用密钥文件";
 
 /* Security Audit Complete */
-"browse_vc_audit_complete_title" = "Security Audit Complete";
+"browse_vc_audit_complete_title" = "安全审计完成";
 
 /* No issues found */
-"browse_vc_audit_complete_message" = "No issues found";
+"browse_vc_audit_complete_message" = "未发现问题";
 
 /* %ld issues found */
-"browse_vc_audit_complete_message_issues_found_fmt" = "%ld issues found";
+"browse_vc_audit_complete_message_issues_found_fmt" = "发现 %ld 个问题";
 
 /* %ld New Issues Found! */
-"browse_vc_audit_complete_message_new_issues_found_fmt" = "%ld New Issues Found!";
+"browse_vc_audit_complete_message_new_issues_found_fmt" = "发现 %ld 个新问题！";
 
 /* HIBP Disclaimer */
-"audit_hibp_warning_title" = "HIBP Disclaimer";
+"audit_hibp_warning_title" = "HIBP 免责声明";
 
 /* I understand that my passwords will be sent over the web (HTTPS) to the 'Have I Been Pwned?' password checking service (using k-anonymity) and that I fully consent to this functionality. I also absolve Strongbox, Mark McGuill and Phoebe Code Limited of all liabilty for using this feature. */
-"audit_hibp_warning_message" = "I understand that my passwords will be sent over the web (HTTPS) to the 'Have I Been Pwned?' password checking service (using k-anonymity) and that I fully consent to this functionality. I also absolve Strongbox, Mark McGuill and Phoebe Code Limited of all liabilty for using this feature.";
+"audit_hibp_warning_message" = "我明白我的密码将通过网络 (HTTPS) 发送到 “Have I Been Pwned？”密码检查服务 (使用 k-anonymity) 并且我完全同意这项功能。我也同意使用此功能产生的一切责任都将对 Strongbox、Mark McGuill 和 Phoebe Code Limited 免除。";
 
 /* No, I don't want to use this feature */
-"audit_hibp_warning_no" = "No, I don't want to use this feature";
+"audit_hibp_warning_no" = "不，我不想使用此功能";
 
 /* Yes, I understand and agree */
-"audit_hibp_warning_yes" = "Yes, I understand and agree";
+"audit_hibp_warning_yes" = "是的，我理解并同意";
 
 /* Always Check */
-"hibp_check_interval_always_check" = "Always Check";
+"hibp_check_interval_always_check" = "始终检查";
 
 /* Once a Day */
-"hibp_check_interval_once_a_day" = "Once a Day";
+"hibp_check_interval_once_a_day" = "每天一次";
 
 /* Once a Week */
-"hibp_check_interval_once_a_week" = "Once a Week";
+"hibp_check_interval_once_a_week" = "每周一次";
 
 /* Once Every 30 days */
-"hibp_check_interval_once_every_30_days" = "Once Every 30 days";
+"hibp_check_interval_once_every_30_days" = "每 30 天一次";
 
 /* Select Online Check Interval */
-"audit_hibp_online_check_interval" = "Select Online Check Interval";
+"audit_hibp_online_check_interval" = "选择联机检查间隔";
 
 /* Have I Been Pwned? (Pro Edition Only) */
-"audit_hibp_pro_only_title" = "Have I Been Pwned? (Pro Edition Only)";
+"audit_hibp_pro_only_title" = "Have I Been Pwned? (仅限 Pro 版本)";
 
 /* Auto Fetch FavIcon? */
-"item_details_prompt_auto_fetch_favicon_title" = "Auto Fetch FavIcon?";
+"item_details_prompt_auto_fetch_favicon_title" = "自动获取网页图标？";
 
 /* Strongbox can automatically fetch FavIcons when an new entry is created or updated.\n\nWould you like to Strongbox to do this? */
-"item_details_prompt_auto_fetch_favicon_message" = "Strongbox can automatically fetch FavIcons when an new entry is created or updated.\n\nWould you like to Strongbox to do this?";
+"item_details_prompt_auto_fetch_favicon_message" = "当创建或更新一个新条目时，Strongbox 可以自动获取网页图标。\n\n您想让 Strongbox 来做这件事吗？";
 
 /* Try Strongbox Pro? */
 "browse_pro_nudge_title" = "Try Strongbox Pro?";
