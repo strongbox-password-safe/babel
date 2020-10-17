@@ -20,7 +20,7 @@
 "safes_vc_cached_date_time_fmt" = "已缓存: %@";
 
 /* Open ths database offline table action */
-"safes_vc_slide_left_open_offline_action" = "Open Local...";
+"safes_vc_slide_left_open_offline_action" = "离线打开...";
 
 /* Title of the 'More Actions' alert/action sheet */
 "safes_vc_database_actions_sheet_title" = "数据库操作";
@@ -44,10 +44,10 @@
 "safes_vc_about_setting_quick_launch_and_confirm" = "将此数据库设置为\"快速启动\"数据库意味着在启动或重新激活 Strongbox 时将自动提示您解锁此数据库。这可节省您的一步操作!\n\n设置为\"快速启动\"数据库?";
 
 /* Button title to Show Database in iOS Files App */
-"safes_vc_show_database_in_files_info" = "Making this database visible in the Files App will also make the database available for access via Finder on your Mac. However the database will no longer be write-able in AutoFill mode. This is due to iOS system design.\n\nNB: You can always reverse this action";
+"safes_vc_show_database_in_files_info" = "使此数据库在“文件”应用程序中可见也将使此数据库可通过 Mac 上的 Finder 进行访问。然而由于 iOS 系统设计，数据库在自动填充模式下将不再能够写入。 \n\n注意：您可以随时撤销此操作。";
 
 /* Button title to Hide Database from the iOS Files App */
-"safes_vc_make_database_auto_fill_info" = "Hiding this database from the Files App also means it will no longer be visible via Finder on your Mac. As a side-effect, this also means you get full (read/write) AutoFill functionality (not just a read-only cache).\n\nNB: You can always reverse this action";
+"safes_vc_make_database_auto_fill_info" = "从“文件”应用程序中隐藏此数据库意味着它将不再在 Mac 上的 Finder 可见。因此，这也意味着您将获得完整的 (读取/写入) 自动填充功能 (而非只读缓存) 。\n\n注: 您可以随时撤销此操作。";
 
 /* OK/Cancel prompt title for changing local storage mode */
 "safes_vc_change_local_device_storage_mode_title" = "更改文件可见性";
@@ -705,7 +705,7 @@
 "prefs_vc_delete_data_attempt_count" = "删除数据前允许尝试失败次数";
 
 /* Allow %@ ( Translators Note: 1st param is the name of biometric method, so: 'Allow Touch ID' or 'Allow Face ID')*/
-"prefs_vc_enable_biometric_fmt" = "Allow %@";
+"prefs_vc_enable_biometric_fmt" = "允许 %@";
 
 /* Please find Strongbox in the App Store and you can write a review there. Much appreciated!\n-Mark */
 "prefs_vc_info_cannot_open_app_store_message" = "请在 App Store 找到 Strongbox，您可以在那里填写评论。非常感谢！\n-Mark";
@@ -882,7 +882,7 @@
 "databases_preferences_subtitle_field_name_last_cached_data" = "最后修改";
 
 /* Last Modified (Precise) */
-"databases_preferences_subtitle_field_name_last_modified_date_precise" = "Last Modified (Precise)";
+"databases_preferences_subtitle_field_name_last_modified_date_precise" = "最后一次修改 (精确)";
 
 /* File Size */
 "databases_preferences_subtitle_field_name_file_size" = "文件大小";
@@ -1377,10 +1377,10 @@
 "open_sequence_error_reading_key_file" = "无法读取密钥文件。它是否已被移动或删除？请在偏好设置中检查密钥文件管理。";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc, 2nd param is the date/time of the last cache) */
-"open_sequence_user_looks_offline_open_offline_instead_fmt" = "It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@";
+"open_sequence_user_looks_offline_open_offline_instead_fmt" = "看起来您可能处于离线状态，无法访问 '%@'。是否要改为使用此数据库的只读脱机缓存版本？\n\n最近缓存: %@";
 
 /* No, Try to connect anyway */
-"open_sequence_yesno_use_offline_cache_no_try_connect_option" = "No, Try to connect anyway";
+"open_sequence_yesno_use_offline_cache_no_try_connect_option" = "否，仍然尝试连接";
 
 /* There was a problem reading the database on %@. would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ */
 "open_sequence_storage_unreachable_open_offline_instead_fmt" = "在 %@ 上读取数据库时出现问题。如果重复发生这种情况，您应该尝试删除并重新添加您的数据库。您想要使用此数据库只读的离线缓存版本吗？\n\n最近缓存: %@";
@@ -1393,7 +1393,7 @@
 "open_sequence_autofill_creash_likely_title" = "自动填充似乎崩溃";
 
 /* Your database has encryption settings that may cause iOS Password AutoFill extensions to be terminated due to excessive resource consumption. This will mean AutoFill appears not to work. Unfortunately this is an Apple imposed limit. You could consider reducing the amount of resources consumed by your encryption settings (Memory in particular with Argon2 to below 64MB). */
-"open_sequence_autofill_creash_likely_message" = "Your database is quite large, or has encryption settings that may cause iOS Password AutoFill extensions to be terminated due to excessive resource consumption.\nThis will mean AutoFill appears not to work. Unfortunately this is an Apple imposed system limitation.\nYou could consider reducing file size or changing the amount of resources consumed (Memory in particular with Argon2 to below 64MB).";
+"open_sequence_autofill_creash_likely_message" = "您的数据库过于庞大，或因其加密设置，可能会使资源消耗过度，导致 iOS 密码自动填充扩展终止。\n这意味着自动填充可能无法使用。很不幸，这是一个 Apple 硬性的系统限制。\n您可以考虑减小文件大小或更改消耗的资源量 (尤其是 Argon2 的占用内存应小于 64 Mb) 。";
 
 /* No Key File */
 "key_files_vc_no_key_file" = "无密钥文件";
@@ -1411,7 +1411,7 @@
 "open_sequence_yesno_set_quick_launch_title" = "设置快速启动？";
 
 /* Would you like to use this as your Quick Launch database? Quick Launch means you will get prompted immediately to unlock when you open Strongbox, saving you a precious tap. */
-"open_sequence_yesno_set_quick_launch_message" = "Would you like to use this as your Quick Launch database? Quick Launch means you will get prompted immediately to unlock when you open Strongbox, saving you a precious tap.";
+"open_sequence_yesno_set_quick_launch_message" = "您想将其作为快速启动数据库吗？快速启动意味着当您打开 Strongbox 时，您将立即收到解锁提示，节省您的一步操作。";
 
 /* Convenience Unlock: Use %@ or PIN Code in Future? */
 "open_sequence_prompt_use_convenience_both_title_fmt" = "便捷解锁：后续使用 %@ 或 PIN 码？";
@@ -1612,7 +1612,7 @@
 "pwgen_wordlist_securedrop" = "SecureDrop";
 
 /* Norwegian */
-"pwgen_wordlist_norwegian" = "Norwegian";
+"pwgen_wordlist_norwegian" = "挪威语";
 
 /* EFF Large */
 "pwgen_wordlist_eff_large" = "EFF Long words";
@@ -1717,7 +1717,7 @@
 "safes_vc_tip" = "提示：向左滑动数据库以获取选项";
 
 /* Tip: Tap to Copy, Double Tap to Copy Notes */
-"item_details_tip" = "Tip: Tap to Copy, Double Tap to Copy Notes";
+"item_details_tip" = "提示：点击以复制，轻点两次以复制备注";
 
 /* Tip: Slide Left for Options or Tap to View */
 "keepass_history_tip" = "提示：向左滑动以获取选项或点击查看";
@@ -2346,19 +2346,19 @@
 "mac_search_placeholder" = "搜索 (⌘F)";
 
 /* Please Enter Your Custom Default Title */
-"mac_enter_custom_title_default" = "Please Enter Your Custom Default Title";
+"mac_enter_custom_title_default" = "请输入您的自定义默认标题";
 
 /* Please Enter Your Custom Default Username */
-"mac_enter_custom_username_default" = "Please Enter Your Custom Default Username";
+"mac_enter_custom_username_default" = "请输入您的自定义默认用户名";
 
 /* Please Enter Your Custom Default Email */
-"mac_enter_custom_email_default" = "Please Enter Your Custom Default Email";
+"mac_enter_custom_email_default" = "请输入您的自定义默认电子邮件";
 
 /* Please Enter Your Custom Default Password */
-"mac_enter_custom_password_default" = "Please Enter Your Custom Default Password";
+"mac_enter_custom_password_default" = "请输入您的自定义默认密码";
 
 /* Please Enter Your Custom Default URL */
-"mac_enter_custom_url_default" = "Please Enter Your Custom Default URL";
+"mac_enter_custom_url_default" = "请输入您的自定义默认 URL";
 
 /* Welcome to Strongbox */
 "mac_welcome_to_strongbox_title" = "欢迎使用 Strongbox";
@@ -2386,7 +2386,7 @@
 "mac_undo_action_move_item" = "移动项目";
 
 /* Move Items */
-"mac_undo_action_move_items" = "Move Items";
+"mac_undo_action_move_items" = "移动项目";
 
 /* Password Change */
 "mac_undo_action_password_change" = "密码更改";
@@ -2773,13 +2773,10 @@
 "casg_yubikey_configured_slot2" = "插槽 2";
 
 /* YubiKey Unlock is not supported in AutoFill mode */
-"open_sequence_cannot_use_yubikey_in_autofill_mode" = "YubiKey Unlock is not supported in AutoFill mode";
+"open_sequence_cannot_use_yubikey_in_autofill_mode" = "Hardware YubiKey Unlock is not supported in AutoFill mode due to system constraints. You can configure a virtual YubiKey instead.";
 
 /* YubiKey Unlock is only available in the Pro edition of Strongbox */
 "open_sequence_yubikey_only_available_in_pro" = "YubiKey 解锁仅在 Strongbox Pro 版本中可用";
-
-/* NFC Yubikey (Pro Edition Only) */
-"yubikey_config_section_header_nfc_pro_only" = "NFC Yubikey (仅限 Pro 版本)";
 
 /* Disabled (Pro Edition Only) */
 "casg_yubikey_configured_disabled_pro_only" = "禁用 (仅限 Pro 版本)";
@@ -2829,10 +2826,10 @@
 "casg_yubikey_configured_mfi" = "Lightning";
 
 /* AutoFill Crash Occurred */
-"autofill_did_not_close_cleanly_title" = "AutoFill Crash Occurred";
+"autofill_did_not_close_cleanly_title" = "自动填充崩溃了";
 
 /* It looks like the last time you used AutoFill you had a crash. This is usually due to a memory limitation. Please check your database file size and your Argon2 memory settings (should be <= 64MB) */
-"autofill_did_not_close_cleanly_message" = "It looks like the last time you used AutoFill you had a crash. This is usually due to a iOS memory limitations. Please check database file size and Argon2 memory (should be <= 64MB) settings";
+"autofill_did_not_close_cleanly_message" = "看起来您上次使用自动填充时发生崩溃。这通常是由于 iOS 内存限制。请检查数据库文件大小和 Argon2 内存 (应 <= 64MB) 设置";
 
 /* Regenerate... */
 "password_generation_regenerate_ellipsis" = "重新生成...";
@@ -2850,7 +2847,7 @@
 "browse_prefs_icon_set" = "图标集";
 
 /* Classic */
-"keepass_icon_set_classic" = "KeePass Classic";
+"keepass_icon_set_classic" = "KeePass 经典";
 
 /* SF Symbols (iOS 13+) */
 "keepass_icon_set_sf_symbols" = "SF Symbols (iOS 13+)";
@@ -2928,7 +2925,7 @@
 "upgrade_vc_start_your_free_trial_price_free" = "免费";
 
 /* Upgrade (Free Trial Available) */
-"safes_vc_upgrade_info_trial_available_button_title" = "Upgrade (Free 'Pro' Trial)...";
+"safes_vc_upgrade_info_trial_available_button_title" = "升级 (免费 'Pro' 试用)...";
 
 /* Would you like to add an entry or a group? */
 "browse_add_group_or_entry_question" = "要添加条目或组吗？";
@@ -2937,202 +2934,202 @@
 "mac_use_biometric_to_open_in_future_fmt" = "您想要后续使用 %@ 或 Apple Watch 来解锁此数据库吗？ 您的主密码将被安全地存储 %@，然后您需要重新输入。";
 
 /* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be stored securely. Note for translators (1st Param = "Touch ID") */
-"mac_use_biometric_to_open_in_future_simple_fmt" = "Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be stored securely.";
+"mac_use_biometric_to_open_in_future_simple_fmt" = "您想要后续使用 %@ 或 Apple Watch 来解锁此数据库吗？ 您的主密码会被安全地存储。";
 
 /* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be stored securely until you exit Strongbox Note for translators (1st Param = "Touch ID") */
-"mac_use_biometric_to_open_in_future_simple_app_exit_fmt" = "Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be stored securely until you exit Strongbox";
+"mac_use_biometric_to_open_in_future_simple_app_exit_fmt" = "您想要后续使用 %@ 或 Apple Watch 来解锁此数据库吗？ 您的主密码将被安全地存储，直到您退出 Strongbox。";
 
 /* Audit: No password set */
-"audit_quick_summary_no_password_set" = "No password set";
+"audit_quick_summary_no_password_set" = "未设置密码";
 
 /* Audit: Password is very common */
-"audit_quick_summary_very_common_password" = "Password is very common";
+"audit_quick_summary_very_common_password" = "密码很常见";
 
 /* Audit: Password is duplicated in another entry */
-"audit_quick_summary_duplicated_password" = "Password is duplicated in another entry";
+"audit_quick_summary_duplicated_password" = "密码与另一个条目中的密码重复";
 
 /* Audit: Password is similar to one in another entry. */
-"audit_quick_summary_password_is_similar_to_another" = "Password is similar to one in another entry";
+"audit_quick_summary_password_is_similar_to_another" = "密码与另一个条目中的密码相似";
 
 /* Password is Pwned (HIBP) */
-"audit_quick_summary_pwned" = "Password is Pwned (HIBP)";
+"audit_quick_summary_pwned" = "密码已泄露 (HIBP)";
 
 /* All Entries */
-"quick_view_title_all_entries_title" = "All Entries";
+"quick_view_title_all_entries_title" = "所有条目";
 
 /* View every entry in a flat list... */
-"quick_view_title_all_entries_subtitle" = "View every entry in a flat list...";
+"quick_view_title_all_entries_subtitle" = "在平面列表中查看每个条目...";
 
 /* Audit Issues */
-"quick_view_title_audit_issues_title" = "Audit Issues";
+"quick_view_title_audit_issues_title" = "审计问题";
 
 /* View all entries with audit issues */
-"quick_view_title_audit_issues_subtitle" = "View all entries with audit issues";
+"quick_view_title_audit_issues_subtitle" = "查看所有存在审计问题的条目";
 
 /* TOTP Entries */
-"quick_view_title_totp_entries_title" = "TOTP Entries";
+"quick_view_title_totp_entries_title" = "TOTP 条目";
 
 /* View all entries with a TOTP token */
-"quick_view_title_totp_entries_subtitle" = "View all entries with a TOTP token";
+"quick_view_title_totp_entries_subtitle" = "查看所有含有 TOTP 的条目";
 
 /* Quick Views */
-"quick_view_section_title_quick_views" = "Quick Views";
+"quick_view_section_title_quick_views" = "快速视图";
 
 /* Enhanced Audits (Pro Edition Only) */
-"audit_similar_passwords_pro_only_title" = "Similar Passwords (Pro Edition Only)";
+"audit_similar_passwords_pro_only_title" = "相似密码 (仅限 Pro 版本)";
 
 /* Audit Issues (%ld) - Translators note: format param is number of items with audit issues e.g. 5 */
-"quick_view_title_audit_issues_title_fmt" = "Audit Issues (%ld)";
+"quick_view_title_audit_issues_title_fmt" = "审计问题 (%ld)";
 
 /* No Password - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
 "audit_quick_summary_very_brief_no_password_set" = "没有密码";
 
 /* Weak/Common - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
-"audit_quick_summary_very_brief_very_common_password" = "Common";
+"audit_quick_summary_very_brief_very_common_password" = "常用";
 
 /* Duplicated - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
-"audit_quick_summary_very_brief_duplicated_password" = "Duplicated";
+"audit_quick_summary_very_brief_duplicated_password" = "重复";
 
 /* Similar - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
-"audit_quick_summary_very_brief_password_is_similar_to_another" = "Similar";
+"audit_quick_summary_very_brief_password_is_similar_to_another" = "相似";
 
 /* Short - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
-"audit_quick_summary_very_brief_password_is_too_short" = "Short";
+"audit_quick_summary_very_brief_password_is_too_short" = "过短";
 
 /* Pwned */
-"audit_quick_summary_very_brief_password_is_pwned" = "Pwned";
+"audit_quick_summary_very_brief_password_is_pwned" = "已泄露";
 
 /* Audit: Password is too short. */
-"audit_quick_summary_password_is_too_short" = "Audit: Password is too short";
+"audit_quick_summary_password_is_too_short" = "审计：密码过短";
 
 /* Found %@ issues in %@ entries - Translators note, both parameters are numbers, e.g. 24 issues found in 12 entries */
-"audit_status_fmt" = "Found %@ issues in %@ entries";
+"audit_status_fmt" = "在 %@ 个条目中找到 %@ 个问题";
 
 /* Found %@ issues in %@ entries - Translators note, all parameters are numbers, e.g. 24 issues found in 12 entries (with 5 HIBP Errors) */
-"audit_status_done_with_hibp_errors_fmt" = "Found %@ issues in %@ entries (with %@ HIBP Errors)";
+"audit_status_done_with_hibp_errors_fmt" = "在 %@ 个条目中找到 %@ 个问题 ( %@ 个 HIBP 错误)";
 
 /* Audit Complete */
-"audit_status_complete" = "Status: Complete";
+"audit_status_complete" = "状态：完成";
 
 /* Database Auditor Initialized */
-"audit_status_initialized" = "Status: Initializing...";
+"audit_status_initialized" = "状态：初始化...";
 
 /* Database Auditor Initialized */
-"audit_status_initialized_but_disabled" = "Status: Disabled";
+"audit_status_initialized_but_disabled" = "状态: 已禁用";
 
 /* Auditing... (%d%%) - Translator's Note - 1st Parameter is a percentage e.g. 25% - NB: Only 1 param (double percentages are an escape string for the single percentage symbol) */
-"audit_status_running_with_progress_fmt" = "Status: Auditing... (%d%%)";
+"audit_status_running_with_progress_fmt" = "状态：正在审计... (%d%%)";
 
 /* Auditing... */
-"audit_status_running_with_ellipsis" = "Status: Auditing...";
+"audit_status_running_with_ellipsis" = "状态：正在审计...";
 
 /* Audit Stopped */
-"audit_status_stopped" = "Status: Stopped";
+"audit_status_stopped" = "状态：已停止";
 
 /* No issues found */
-"audit_status_no_issues_found" = "No issues found";
+"audit_status_no_issues_found" = "未发现问题";
 
 /* The credentials were incorrect for this database. Are you sure you are using this key file?\n\nNB: A key files are not the same as your database file. */
-"open_sequence_problem_opening_incorrect_credentials_message_verify_key_file" = "The credentials were incorrect for this database. Are you sure you are using this key file?\n\nNB: Please be aware that key files are not the same as your database file (KDBX/KDB)";
+"open_sequence_problem_opening_incorrect_credentials_message_verify_key_file" = "该数据库的凭证不正确。你确定使用的是此密钥文件吗？\n\n注意: 密钥文件与您的数据库文件 (KDBX/KDB) 不同。";
 
 /* Is your Key File correct? */
-"casg_key_file_correct_title" = "Is your Key File correct?";
+"casg_key_file_correct_title" = "您的密钥文件正确吗？";
 
 /* You have configured this database to open with a key file but the key file you have chosen doesn't look valid.\n\nAre you sure you are using this key file?\n\nNB: A key file is not the same as your database file" */
-"casg_key_file_correct_message" = "You have configured this database to open with a key file but the key file you have chosen doesn't look valid.\n\nAre you sure you are using this key file?\n\nNB: A key file is not the same as your database file";
+"casg_key_file_correct_message" = "您已将此数据库配置为用密钥文件打开，但您选择的密钥文件无效。\n\n你确定使用的是此密钥文件吗？\n\n注意：密钥文件和数据库文件是不一样的。";
 
 /* Yes, the key file is correct */
-"casg_key_file_correct_yes_key_file_correct" = "Yes, the key file is correct";
+"casg_key_file_correct_yes_key_file_correct" = "是的，钥匙文件是正确的";
 
 /* No, I don't use a key file */
-"casg_key_file_correct_no_no_key_file" = "No, I don't use a key file";
+"casg_key_file_correct_no_no_key_file" = "不，我不使用密钥文件";
 
 /* Security Audit Complete */
-"browse_vc_audit_complete_title" = "Security Audit Complete";
+"browse_vc_audit_complete_title" = "安全审计完成";
 
 /* No issues found */
-"browse_vc_audit_complete_message" = "No issues found";
+"browse_vc_audit_complete_message" = "未发现问题";
 
 /* %ld issues found */
-"browse_vc_audit_complete_message_issues_found_fmt" = "%ld issues found";
+"browse_vc_audit_complete_message_issues_found_fmt" = "发现 %ld 个问题";
 
 /* %ld New Issues Found! */
-"browse_vc_audit_complete_message_new_issues_found_fmt" = "%ld New Issues Found!";
+"browse_vc_audit_complete_message_new_issues_found_fmt" = "发现 %ld 个新问题！";
 
 /* HIBP Disclaimer */
-"audit_hibp_warning_title" = "HIBP Disclaimer";
+"audit_hibp_warning_title" = "HIBP 免责声明";
 
 /* I understand that my passwords will be sent over the web (HTTPS) to the 'Have I Been Pwned?' password checking service (using k-anonymity) and that I fully consent to this functionality. I also absolve Strongbox, Mark McGuill and Phoebe Code Limited of all liabilty for using this feature. */
-"audit_hibp_warning_message" = "I understand that my passwords will be sent over the web (HTTPS) to the 'Have I Been Pwned?' password checking service (using k-anonymity) and that I fully consent to this functionality. I also absolve Strongbox, Mark McGuill and Phoebe Code Limited of all liabilty for using this feature.";
+"audit_hibp_warning_message" = "我明白我的密码将通过网络 (HTTPS) 发送到 \"Have I Been Pwned?\" 密码检查服务 (使用 k-anonymity) 并且我完全同意这项功能。我也同意使用此功能产生的一切责任都将对 Strongbox、Mark McGuill 和 Phoebe Code Limited 免除。";
 
 /* No, I don't want to use this feature */
-"audit_hibp_warning_no" = "No, I don't want to use this feature";
+"audit_hibp_warning_no" = "不，我不想使用此功能";
 
 /* Yes, I understand and agree */
-"audit_hibp_warning_yes" = "Yes, I understand and agree";
+"audit_hibp_warning_yes" = "是的，我理解并同意";
 
 /* Always Check */
-"hibp_check_interval_always_check" = "Always Check";
+"hibp_check_interval_always_check" = "始终检查";
 
 /* Once a Day */
-"hibp_check_interval_once_a_day" = "Once a Day";
+"hibp_check_interval_once_a_day" = "每天一次";
 
 /* Once a Week */
-"hibp_check_interval_once_a_week" = "Once a Week";
+"hibp_check_interval_once_a_week" = "每周一次";
 
 /* Once Every 30 days */
-"hibp_check_interval_once_every_30_days" = "Once Every 30 days";
+"hibp_check_interval_once_every_30_days" = "每 30 天一次";
 
 /* Select Online Check Interval */
-"audit_hibp_online_check_interval" = "Select Online Check Interval";
+"audit_hibp_online_check_interval" = "选择联机检查间隔";
 
 /* Have I Been Pwned? (Pro Edition Only) */
-"audit_hibp_pro_only_title" = "Have I Been Pwned? (Pro Edition Only)";
+"audit_hibp_pro_only_title" = "Have I Been Pwned? (仅限 Pro 版本)";
 
 /* Auto Fetch FavIcon? */
-"item_details_prompt_auto_fetch_favicon_title" = "Auto Fetch FavIcon?";
+"item_details_prompt_auto_fetch_favicon_title" = "自动获取网页图标？";
 
 /* Strongbox can automatically fetch FavIcons when an new entry is created or updated.\n\nWould you like to Strongbox to do this? */
-"item_details_prompt_auto_fetch_favicon_message" = "Strongbox can automatically fetch FavIcons when an new entry is created or updated.\n\nWould you like to Strongbox to do this?";
+"item_details_prompt_auto_fetch_favicon_message" = "当创建或更新一个新条目时，Strongbox 可以自动获取网页图标。\n\n您想让 Strongbox 来做这件事吗？";
 
 /* Try Strongbox Pro? */
-"browse_pro_nudge_title" = "Try Strongbox Pro?";
+"browse_pro_nudge_title" = "尝试 Strongbox Pro 版本？";
 
 /* Strongbox Pro is full of handy features like %@ Unlock.\n\nGood news! You have a Free 90-Day Trial available. Would you like to try Strongbox Pro? (Translators Note: 1st parameter is biometric id like 'Touch ID' or 'Face ID') */
-"browse_pro_nudge_message_fmt" = "Strongbox Pro is full of handy features like %@ Unlock.\n\nGood news! You have a Free 90-Day Trial available. Would you like to try Strongbox Pro?";
+"browse_pro_nudge_message_fmt" = "Strongbox Pro充满了便捷的功能，比如 %@ 解锁。\n\n好消息！您可以获得90天的免费试用期。您想试试 Strongbox Pro 吗？";
 
 /* Finnish */
-"pwgen_wordlist_finnish" = "Finnish";
+"pwgen_wordlist_finnish" = "芬兰语";
 
 /* Icelandic */
-"pwgen_wordlist_icelandic" = "Icelandic";
+"pwgen_wordlist_icelandic" = "冰岛语";
 
 /* Standard */
-"password_gen_vc_wordlist_category_standard" = "Standard";
+"password_gen_vc_wordlist_category_standard" = "标准";
 
 /* Fandom */
 "password_gen_vc_wordlist_category_fandom" = "Fandom";
 
 /* Languages */
-"password_gen_vc_wordlist_category_languages" = "Languages";
+"password_gen_vc_wordlist_category_languages" = "语言";
 
 /* Accessed */
-"item_details_metadata_accessed_field_title" = "Accessed";
+"item_details_metadata_accessed_field_title" = "最后访问时间";
 
 /* Location Changed */
-"item_details_metadata_location_changed_field_title" = "Location Changed";
+"item_details_metadata_location_changed_field_title" = "位置已变更";
 
 /* Usage Count */
-"item_details_metadata_usage_count_field_title" = "Usage Count";
+"item_details_metadata_usage_count_field_title" = "使用次数";
 
 /* Partial Recycle (Translators Note: If a user selects multiple items and some of them can't be recycled (e.g. The Recycle Bin itself, we ask if user is ok with that) */
-"browse_vc_partial_recycle_alert_title" = "Partial Recycle";
+"browse_vc_partial_recycle_alert_title" = "部分回收";
 
 /* Some of the items you have selected cannot be recycled and will be permanently deleted. Is that OK? */
-"browse_vc_partial_recycle_alert_message" = "Some of the items you have selected cannot be recycled and will be permanently deleted. Is that OK?";
+"browse_vc_partial_recycle_alert_message" = "您选择的一些项目不能被回收并将被永久删除。确定吗？";
 
 /* Audit */
-"browse_vc_action_audit" = "Audit";
+"browse_vc_action_audit" = "审计";
 
 /* KeePassXC */
 "keepass_icon_set_keepassxc" = "KeePassXC";
@@ -3144,94 +3141,94 @@
 "audit_drill_down_section_header_summary" = "摘要";
 
 /* Duplicate Passwords */
-"audit_drill_down_section_header_duplicates" = "Items using same password";
+"audit_drill_down_section_header_duplicates" = "使用相同密码的项";
 
 /* Similar Passwords */
-"audit_drill_down_section_header_similar" = "Items using similar password";
+"audit_drill_down_section_header_similar" = "使用相似密码的项";
 
 /* Actions */
-"audit_drill_down_section_header_actions" = "Actions";
+"audit_drill_down_section_header_actions" = "动作";
 
 /* No password has been set */
-"audit_summary_flag_no_password_set" = "No password has been set";
+"audit_summary_flag_no_password_set" = "尚未设置密码";
 
 /* This password is very common */
-"audit_summary_flag_very_common_password" = "This password is very common";
+"audit_summary_flag_very_common_password" = "这个密码非常常见";
 
 /* This password is pwned (HIBP) */
-"audit_summary_flag_pwned" = "This password is pwned (HIBP)";
+"audit_summary_flag_pwned" = "这个密码已泄露 (HIBP)";
 
 /* This password is too short */
-"audit_summary_flag_password_is_too_short" = "This password is too short";
+"audit_summary_flag_password_is_too_short" = "这个密码过短";
 
 /* The items above use exactly the same password as this item, this is generally considered a weakness. You should strive not to have any duplicated passwords. */
-"audit_drill_down_section_footer_duplicates" = "The items above use exactly the same password as this item. This is generally considered a weakness. You should strive not to have any duplicated passwords.";
+"audit_drill_down_section_footer_duplicates" = "以上项目使用的密码与本项目完全相同。这通常被认为是一个安全弱点。你应该尽量避免任何重复的密码。";
 
 /* The items above have a similar password to this item. This might indicate a weakness or use of a common component and could therefore be vulnerable to attack. */
-"audit_drill_down_section_footer_similar" = "The items above have a similar password to this item. This might indicate a weakness or use of a common component and could therefore be vulnerable to attack.";
+"audit_drill_down_section_footer_similar" = "以上项目的密码与本项目相似。这表明可能存在弱点或使用了共同组成部分，可能因此容易受到攻击。";
 
 /* Audit this Item */
-"audit_drill_down_audit_this_item_preference_title" = "Audit this Item";
+"audit_drill_down_audit_this_item_preference_title" = "审计此项目";
 
 /* Check if this password is Pwned (HIBP) */
-"audit_drill_down_action_check_hibp" = "Check if this password is Pwned (HIBP)";
+"audit_drill_down_action_check_hibp" = "检查此密码是否泄露 (HIBP)";
 
 /* This item is excluded from Audits */
-"audit_status_item_is_exluded" = "This item is excluded from Audits";
+"audit_status_item_is_exluded" = "此项目已从审计中排除";
 
 /* Checking HIBP */
-"audit_manual_pwn_progress_message" = "Checking HIBP";
+"audit_manual_pwn_progress_message" = "正在检查 HIBP";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Manual HIBP Result";
+"audit_manual_pwn_check_result_title" = "手动调整 HIBP 结果";
 
 /* Your password has NOT been pwned as is likely secure. */
-"audit_manual_pwn_check_result_not_pwned" = "Your password has NOT been pwned and is likely secure.";
+"audit_manual_pwn_check_result_not_pwned" = "您的密码并没有被泄露，很可能是安全的。";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Manual HIBP Result";
+"audit_manual_pwn_check_result_title" = "手动调整 HIBP 结果";
 
 /* This password is pwned and is vulnerable */
-"audit_manual_pwn_check_result_pwned" = "This password is pwned and is vulnerable";
+"audit_manual_pwn_check_result_pwned" = "这个密码已泄露，很容易受到攻击";
 
 /* Database Audit Preferences */
-"audit_drill_down_go_to_database_audit_preferences" = "Database Audit Preferences";
+"audit_drill_down_go_to_database_audit_preferences" = "数据库审计偏好设置";
 
 /* View All Audit Issues */
-"audit_drill_down_view_all_audit_issues" = "View All Audit Issues";
+"audit_drill_down_view_all_audit_issues" = "查看所有审计问题";
 
 /* No Excluded Items */
-"audit_drill_down_no_excluded_items_title" = "No Excluded Items";
+"audit_drill_down_no_excluded_items_title" = "无排除的项目";
 
 /* You have not explicitly excluded any items from the audit. You can exclude an item by sliding right on it and tapping the Audit button. */
-"audit_drill_down_no_excluded_items_subtitle" = "You have not explicitly excluded any items from the audit. You can exclude an item by sliding right on it and tapping the Audit button.";
+"audit_drill_down_no_excluded_items_subtitle" = "您没有明确地从审计中排除任何项目。您可以通过向右滑动项目并点击 \"审计\"按钮来排除该项目。";
 
 /* Unexclude */
-"audit_excluded_items_vc_action_unclude" = "Unexclude";
+"audit_excluded_items_vc_action_unclude" = "不包括在内";
 
 /* Share Last Crash Diagnostics? */
-"crash_diagnostics_share_last_title" = "Share Crash Diagnostics?";
+"crash_diagnostics_share_last_title" = "分享崩溃诊断？";
 
 /* It looks like Strongbox had a crash last time. Would you be so kind as to share the diagnostics with Strongbox Support?\n\nPlease mail to support@strongboxsafe.com */
-"crash_diagnostics_share_last_message" = "It looks like Strongbox had a crash last time. Would you be so kind as to share the diagnostics with Strongbox Support?\n\nPlease mail to support@strongboxsafe.com";
+"crash_diagnostics_share_last_message" = "看来上次 Strongbox 出现了崩溃。您愿意将诊断结果与 Strongbox Support 分享吗？\n\n请发邮件至 support@strongboxsafe.com";
 
 /* Share */
-"crash_diagnostics_share_action" = "Share";
+"crash_diagnostics_share_action" = "分享";
 
 /* Copy to Clipboard */
-"crash_diagnostics_copy_action" = "Copy to Clipboard";
+"crash_diagnostics_copy_action" = "复制到剪贴板";
 
 /* PIN */
 "pin_entry_default_text" = "PIN";
 
 /* No Attachments */
-"file_attachments_view_controller_empty_attachments_text" = "No Attachments";
+"file_attachments_view_controller_empty_attachments_text" = "没有附件";
 
 /* KeePass 1 */
 "database_format_keepass1" = "KeePass 1";
 
 /* KeePass 2 (Legacy) */
-"database_format_keepass2_kdbx3_1" = "KeePass 2 (Legacy)";
+"database_format_keepass2_kdbx3_1" = "KeePass 2 (传统)";
 
 /* KeePass 2 */
 "database_format_keepass2_kdbx4" = "KeePass 2";
@@ -3246,121 +3243,121 @@
 "password_gen_vc_mode_diceware_xkcd_title" = "Diceware (XKCD)";
 
 /* Strongbox: Unknown Database */
-"autofill_error_unknown_db_title" = "Strongbox: Unknown Database";
+"autofill_error_unknown_db_title" = "Strongbox: 未知数据库";
 
 /* This appears to be a reference to an older Strongbox database which can no longer be found. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill. */
-"autofill_error_unknown_db_message" = "This appears to be a reference to an older Strongbox database which can no longer be found. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill.";
+"autofill_error_unknown_db_message" = "这似乎是一个旧的 Strongbox 数据库，无法再找到它。 Strongbox 的 QuickType 自动填充数据库已被清理，因此您需要重新打开数据库以刷新 QuickType 自动填充。";
 
 /* Strongbox: Error Locating Entry */
-"autofill_error_unknown_item_title" = "Strongbox: Error Locating Entry";
+"autofill_error_unknown_item_title" = "Strongbox: 条目定位错误";
 
 /* Strongbox could not find this entry, it is possibly stale. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill. */
-"autofill_error_unknown_item_message" = "Strongbox could not find this entry, it is possibly stale. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill.";
+"autofill_error_unknown_item_message" = "Strongbox 找不到此条目，它可能已经过时。 Strongbox 的 QuickType 自动填充数据库已被清理，因此您需要重新打开数据库以刷新 QuickType 自动填充。";
 
 /* Locating... */
-"generic_status_sp_locating_ellipsis" = "Locating...";
+"generic_status_sp_locating_ellipsis" = "检索中...";
 
 /* %@ Unlock (Translators Note: 1st param is 'Touch ID' or 'Face ID' - Used on the Upgrade, Freemium Onboarding/Welcome screen and the Free vs Pro Chart screen) */
 "generic_biometric_unlock_fmt" = "%@ 解锁";
 
 /* By Default Strongbox now includes all your local documents and databases in Apple backups, however imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok? */
-"backup_settings_prompt_message" = "By default Strongbox includes all your local documents and databases in Apple backups, however imported Key Files are NOT included for security reasons. You can always change these settings in App Preferences.\n\nDoes this sound ok?";
+"backup_settings_prompt_message" = "默认情况下，Strongbox 将您所有的本地文档和数据库都包含在 Apple 备份中，但出于安全考虑，导入的密钥文件不包括在内。您可以随时在偏好设置中更改这些设置。\n\n这听起来不错吗？";
 
 /* Backup Settings */
 "backup_settings_prompt_title" = "备份设置";
 
 /* Yes, the defaults sound good */
-"backup_settings_prompt_option_yes_looks_good" = "Yes, sounds good";
+"backup_settings_prompt_option_yes_looks_good" = "是的，听上去不错";
 
 /* Yes, but also backup Key Files */
-"backup_settings_prompt_yes_but_include_key_files" = "Yes, but also backup key files";
+"backup_settings_prompt_yes_but_include_key_files" = "是的，但还是备份密钥文件";
 
 /* No, do NOT backup anything */
-"backup_settings_prompt_no_dont_backup_anything" = "No, do NOT backup anything";
+"backup_settings_prompt_no_dont_backup_anything" = "否，不备份任何内容";
 
 /* View Sync Status */
-"safes_vc_action_view_sync_status" = "View Debug Sync Log";
+"safes_vc_action_view_sync_status" = "查看调试同步日志";
 
 /* Please send this crash report to support@strongboxsafe.com */
-"safes_vc_please_send_crash_report" = "Please send this crash report to support@strongboxsafe.com";
+"safes_vc_please_send_crash_report" = "请将崩溃报告发送至 support@surboxsafe.com";
 
 /* In Progress */
-"generic_in_progress" = "In Progress";
+"generic_in_progress" = "进行中";
 
 /* Initial */
-"generic_initial_state" = "Initial";
+"generic_initial_state" = "初始";
 
 /* %@ - Sync No. %@ (Translators Note: 1st Parameter is the Date/Time of the Sync e.g. 'Today, 4:42PM', The second parameter is a sequence number like 1, 2, 42 etc. This is the number of times this database has been synced in this session */
-"sync_log_sync_header_fmt" = "%@ - Sync No. %@";
+"sync_log_sync_header_fmt" = "%@ - 同步次数： %@";
 
 /* User Interaction Required */
-"sync_status_user_interaction_required_title" = "User Interaction Required";
+"sync_status_user_interaction_required_title" = "需要用户操作";
 
 /* User Cancelled */
-"sync_status_user_interaction_cancelled" = "User Cancelled";
+"sync_status_user_interaction_cancelled" = "用户已取消";
 
 /* Use Mine/Local (%@) - Translators Note: The first parameter is the modified date of the local copy e.g. "Today, 14:22" */
-"sync_conflict_option_use_mine_fmt" = "Use Mine/Local (%@)";
+"sync_conflict_option_use_mine_fmt" = "使用我的/本地 (%@)";
 
 /* Use Theirs/Remote (%@) - Translators Note: The first parameter is the modified date of the remote copy e.g. "September 1st, 14:22" */
-"sync_conflict_option_use_theirs_fmt" = "Use Theirs/Remote (%@)";
+"sync_conflict_option_use_theirs_fmt" = "使用他们的/远程 (%@)";
 
 /* Sync Conflict */
-"sync_conflict_title" = "Sync Conflict";
+"sync_conflict_title" = "同步冲突";
 
 /* It looks like the remote version of this database on '%@' has changed and so has the local version you've been working on. Which version would you like to use?  - Translators Note: The first parameter is the name of the remote storage provider e.g. "Dropbox" */
-"sync_conflict_message_fmt" = "It looks like the remote version of this database on '%@' has changed and so has the local version you've been working on. Which version would you like to use?";
+"sync_conflict_message_fmt" = "看起来这个数据库的远程版本在 '%@' 已经改变了，所以您一直在使用的本地版本也是如此。您想要使用哪个版本？";
 
 /* Strongbox could not sync your changes. */
-"sync_could_not_sync_your_changes" = "Strongbox could not sync your changes.";
+"sync_could_not_sync_your_changes" = "Strongbox 无法同步您的更改。";
 
 /* You must close and reopen this database for Read-Only changes to take effect. */
-"db_management_reopen_required_message" = "You must close and reopen this database for changes to take effect.";
+"db_management_reopen_required_message" = "您必须关闭并重新打开此数据库才能使更改生效。";
 
 /* Re-Open Required */
 "db_management_reopen_required_title" = "需要重新打开";
 
 /* Could Not Open Local Copy */
-"open_sequence_couldnt_open_local_title" = "Could Not Open Local Copy";
+"open_sequence_couldnt_open_local_title" = "无法打开本地副本";
 
 /* Could not open Strongbox's local copy of this database. A online sync is required. */
-"open_sequence_couldnt_open_local_message" = "Could not open Strongbox's local copy of this database. A online sync is required.";
+"open_sequence_couldnt_open_local_message" = "无法打开此 Strongbox 数据库的本地副本。需要联机同步。";
 
 /* Use Local Copy? */
-"open_sequence_yesno_use_local_copy_title" = "Use Local Copy?";
+"open_sequence_yesno_use_local_copy_title" = "是否使用本地副本？";
 
 /* Yes, Use Local (Read-Only) */
-"open_sequence_yes_use_local_copy_option" = "Yes, Use Local (Read-Only)";
+"open_sequence_yes_use_local_copy_option" = "是的，使用本地 (只读)";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use Strongbox's local copy in read-only mode instead? - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc */
-"open_sequence_user_looks_offline_open_local_ro_fmt" = "It looks like you may be offline and '%@' may not be reachable. Would you like to use Strongbox's local copy in read-only mode instead?";
+"open_sequence_user_looks_offline_open_local_ro_fmt" = "看起来您可能处于离线状态，'%@' 可能无法访问。要改为以只读方式使用 Strongbox 的本地副本吗？";
 
 /* Sync Error */
-"open_sequence_storage_provider_error_title" = "Sync Error";
+"open_sequence_storage_provider_error_title" = "同步错误";
 
 /* If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open Strongbox's local copy in read-only mode instead? */
-"open_sequence_storage_provider_error_open_local_ro_instead" = "If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open Strongbox's local copy in read-only mode instead?";
+"open_sequence_storage_provider_error_open_local_ro_instead" = "如果重复发生这种情况，您应该尝试重新添加您的数据库。请参阅“调试同步日志”以获取更多...\n\n是否要改为以只读方式打开 Strongbox 的本地副本？";
 
 /* Local Copy Unavailable */
-"autofill_vc_item_subtitle_local_copy_unavailable" = "Local Copy Unavailable";
+"autofill_vc_item_subtitle_local_copy_unavailable" = "本地副本不可用";
 
 /* AutoFill Disabled */
 "autofill_vc_item_subtitle_disabled" = "自动填充已禁用";
 
 /* Sync Required */
-"autofill_add_entry_sync_required_title" = "Sync Required";
+"autofill_add_entry_sync_required_title" = "需要同步";
 
 /* You have added a new entry and this change has been saved locally.\n\nDon't forget to switch to the main Strongbox app to fully sync these changes to %@. - Translators Note: The 1st parameter here is the storage location, e.g. 'Dropbox' */
-"autofill_add_entry_sync_required_message_fmt" = "You have added a new entry and this change has been saved locally.\n\nDon't forget to switch to the main Strongbox app to fully sync these changes to %@.";
+"autofill_add_entry_sync_required_message_fmt" = "您已添加新条目，此更改已在本地保存。\n\n不要忘记切换到主 Strongbox 应用程序，将这些更改完全同步到 %@。";
 
 /* Got it! */
-"autofill_add_entry_sync_required_option_got_it" = "Got it!";
+"autofill_add_entry_sync_required_option_got_it" = "了解！";
 
 /* Don't tell me again */
-"autofill_add_entry_sync_required_option_dont_tell_again" = "Don't tell me again";
+"autofill_add_entry_sync_required_option_dont_tell_again" = "下次不再询问";
 
 /* No Subscription Required */
-"onboarding_vc_start_your_free_trial_subtitle_no_subscription" = "No Subscription Required";
+"onboarding_vc_start_your_free_trial_subtitle_no_subscription" = "无需订阅";
 
 /* Could not bookmark this file */
 "open_sequence_error_could_not_bookmark_file" = "无法标记此文件";
@@ -3369,34 +3366,61 @@
 "open_sequence_invalid_database_filename_fmt" = "无效的数据库-[%@]";
 
 /* Different Filename */
-"open_sequence_database_different_filename_title" = "Different Filename";
+"open_sequence_database_different_filename_title" = "不同的文件名";
 
 /* This doesn't look like it's the right file because the filename looks different than the one you originally added. Do you want to continue?" */
-"open_sequence_database_different_filename_message" = "This doesn't look like it's the right file because the filename looks different than the one you originally added. Do you want to continue?";
+"open_sequence_database_different_filename_message" = "这看起来不像是正确的文件，因为文件名与你原先添加的文件不同。你想要继续吗？";
 
 /* Relocate Database */
-"open_sequence_storage_provider_try_relocate_files_db" = "Locate Database...";
+"open_sequence_storage_provider_try_relocate_files_db" = "检索数据库...";
 
 /* Strongbox is having trouble locating your database. This can happen sometimes especially after iOS updates or with some 3rd party providers (e.g.Nextcloud).\n\nYou now need to tell Strongbox where to locate it. Alternatively you can open Strongbox's local copy and fix this later.\n\nFor Nextcloud please use WebDAV instead... */
-"open_sequence_storage_provider_try_relocate_files_db_message" = "Strongbox is having trouble locating your database. This can happen sometimes especially after iOS updates or with some 3rd party providers (e.g.Nextcloud).\n\nYou now need to tell Strongbox where to locate it. Alternatively you can open Strongbox's local copy and fix this later.\n\nFor Nextcloud please use WebDAV instead...";
+"open_sequence_storage_provider_try_relocate_files_db_message" = "Strongbox 在检索您的数据库时遇到问题。这有时会在 iOS 更新后或使用某些第三方提供商 (如 Nextcloud) 时遇到。\n\n您现在需要告诉 Strongbox 到哪里去检索它。或者，您可以稍后打开 Strongbox 的本地副本并修复此问题。\n\n对于 Nextcloud，请使用 WebDAV 代替...";
 
 /* View Error Details */
-"open_sequence_storage_provider_view_sync_error_details" = "View Error Details";
+"open_sequence_storage_provider_view_sync_error_details" = "查看错误详细信息";
 
 /* Use Local (Read-Only) */
-"open_sequence_use_local_copy_option" = "Use Local (Read-Only)";
+"open_sequence_use_local_copy_option" = "使用本地 (只读)";
 
 /* Delete (Translators Note: Verb - To Delete an item) */
 "generic_action_delete" = "删除";
 
 /* Are you sure the URL is correct? It should be a path to a parent folder. Not the database file. */
-"webdav_vc_validation_url_are_you_sure" = "Are you sure the URL is correct? It should be a URL to a parent folder. Not the database file.";
+"webdav_vc_validation_url_are_you_sure" = "您确定 URL 正确吗？它应该是父文件夹的 URL，而不是数据库文件。";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Are you sure the path is correct? It should be a path to a parent folder. Not the database file.";
+"sftp_path_are_you_sure" = "您确定路径正确吗？它应该是父文件夹的路径。而不是数据库文件。";
 
 /* Path may be Invalid */
-"sftp_path_may_be_invalid" = "Path May Be Invalid";
+"sftp_path_may_be_invalid" = "路径可能无效";
 
 /* URL May Be Invalid */
-"webdav_vc_validation_url_maybe_invalid" = "URL May Be Invalid";
+"webdav_vc_validation_url_maybe_invalid" = "URL 可能无效";
+
+/* NFC Yubikey (Pro Edition Only) */
+"yubikey_config_section_header_nfc_pro_only" = "NFC Yubikey (仅限 Pro 版本)";
+
+/* NFC Yubikey (NFC Not Supported on Device) */
+"yubikey_config_section_header_nfc_device_not_supported" = "NFC Yubikey (设备不支持 NFC)";
+
+/* NFC Yubikey (AutoFill Mode - NFC Unavailable) */
+"yubikey_config_section_header_nfc_autofill_unavailable" = "NFC Yubikey (自动填充中 NFC 不可用)";
+
+/* Lightning Yubikey (Pro Edition Only) */
+"yubikey_config_section_header_lightning_pro_only" = "Lightning Yubikey (仅限 Pro 版本)";
+
+/* Lightning Yubikey (Lightning Not Supported on Device) */
+"yubikey_config_section_header_lightning_device_not_supported" = "Lightning Yubikey (设备不支持 Lightning)";
+
+/* Lightning Yubikey (AutoFill Mode - Lightning Unavailable) */
+"yubikey_config_section_header_lightning_autofill_unavailable" = "Lightning YuBikey (自动填充中 Lightning 不可用)";
+
+/* Are you sure you want to delete this Virtual YubiKey? */
+"yubikey_config_are_you_sure_delete" = "Are you sure you want to delete this Virtual YubiKey?";
+
+/* %@ (AutoFill Only) - Translator's note, the 1st parameter is the name of the virtual yubikey, e.g. Mark's Virtual Yubikey - This string indicates that that key can only be used in AutoFill mode only, not regualr App mode */
+"yubikeys_virtual_autofill_only" = "%@ (AutoFill Only)";
+
+/* Virtual YubiKey */
+"casg_yubikey_configured_virtual" = "Virtual YubiKey";

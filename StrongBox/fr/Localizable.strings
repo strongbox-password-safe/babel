@@ -2773,19 +2773,16 @@
 "casg_yubikey_configured_slot2" = "Emplacement 2";
 
 /* YubiKey Unlock is not supported in AutoFill mode */
-"open_sequence_cannot_use_yubikey_in_autofill_mode" = "Le déverrouillage YubiKey n'est pas pris en charge en mode remplissage automatique";
+"open_sequence_cannot_use_yubikey_in_autofill_mode" = "Hardware YubiKey Unlock is not supported in AutoFill mode due to system constraints. You can configure a virtual YubiKey instead.";
 
 /* YubiKey Unlock is only available in the Pro edition of Strongbox */
 "open_sequence_yubikey_only_available_in_pro" = "Le déverrouillage YubiKey est disponible uniquement dans la version Pro de Strongbox";
 
-/* NFC Yubikey (Pro Edition Only) */
-"yubikey_config_section_header_nfc_pro_only" = "Yubikey NFC (Version Pro uniquement)";
-
 /* Disabled (Pro Edition Only) */
-"casg_yubikey_configured_disabled_pro_only" = "Désactivé (Version Pro uniquement)";
+"casg_yubikey_configured_disabled_pro_only" = "Désactivé (Version Pro seulement)";
 
 /* Yubikey (Pro Edition Only) */
-"casg_section_header_yubikey_pro_only" = "Yubikey (Version Pro uniquement)";
+"casg_section_header_yubikey_pro_only" = "Yubikey (Version Pro seulement)";
 
 /* Unknown (Translators Note: Used when generally when something can't be determined, e.g. The URL or file name of a database, or the type of storage provider used, or the format of a newly opened database etc.)*/
 "generic_unknown" = "Inconnu(e)";
@@ -2979,7 +2976,7 @@
 "quick_view_section_title_quick_views" = "Vues rapides";
 
 /* Enhanced Audits (Pro Edition Only) */
-"audit_similar_passwords_pro_only_title" = "Mots de passe similaires (Edition Pro seulement)";
+"audit_similar_passwords_pro_only_title" = "Mots de passe similaires (Version Pro seulement)";
 
 /* Audit Issues (%ld) - Translators note: format param is number of items with audit issues e.g. 5 */
 "quick_view_title_audit_issues_title_fmt" = "Problèmes d'audit (%ld)";
@@ -3087,7 +3084,7 @@
 "audit_hibp_online_check_interval" = "Sélectionnez l'intervalle de vérification en ligne";
 
 /* Have I Been Pwned? (Pro Edition Only) */
-"audit_hibp_pro_only_title" = "Have I Been Pwned ? (Edition Pro seulement)";
+"audit_hibp_pro_only_title" = "Have I Been Pwned ? (Version Pro seulement)";
 
 /* Auto Fetch FavIcon? */
 "item_details_prompt_auto_fetch_favicon_title" = "Téléch. auto de FavIcon ?";
@@ -3400,3 +3397,30 @@
 
 /* URL May Be Invalid */
 "webdav_vc_validation_url_maybe_invalid" = "URL peut-être invalide";
+
+/* NFC Yubikey (Pro Edition Only) */
+"yubikey_config_section_header_nfc_pro_only" = "Yubikey NFC (Version Pro seulement)";
+
+/* NFC Yubikey (NFC Not Supported on Device) */
+"yubikey_config_section_header_nfc_device_not_supported" = "Yubikey NFC (NFC non pris en charge sur l'appareil)";
+
+/* NFC Yubikey (AutoFill Mode - NFC Unavailable) */
+"yubikey_config_section_header_nfc_autofill_unavailable" = "Yubikey NFC (NFC indisponible en remplissage automatique)";
+
+/* Lightning Yubikey (Pro Edition Only) */
+"yubikey_config_section_header_lightning_pro_only" = "Yubikey Lightning (Version Pro seulement)";
+
+/* Lightning Yubikey (Lightning Not Supported on Device) */
+"yubikey_config_section_header_lightning_device_not_supported" = "Yubikey Lightning (Lightning non pris en charge sur l'appareil)";
+
+/* Lightning Yubikey (AutoFill Mode - Lightning Unavailable) */
+"yubikey_config_section_header_lightning_autofill_unavailable" = "Yubikey Lightning (Lightning indisponible en remplissage automatique)";
+
+/* Are you sure you want to delete this Virtual YubiKey? */
+"yubikey_config_are_you_sure_delete" = "Are you sure you want to delete this Virtual YubiKey?";
+
+/* %@ (AutoFill Only) - Translator's note, the 1st parameter is the name of the virtual yubikey, e.g. Mark's Virtual Yubikey - This string indicates that that key can only be used in AutoFill mode only, not regualr App mode */
+"yubikeys_virtual_autofill_only" = "%@ (AutoFill Only)";
+
+/* Virtual YubiKey */
+"casg_yubikey_configured_virtual" = "Virtual YubiKey";
