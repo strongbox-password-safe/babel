@@ -2773,7 +2773,7 @@
 "casg_yubikey_configured_slot2" = "Слот 2";
 
 /* YubiKey Unlock is not supported in AutoFill mode */
-"open_sequence_cannot_use_yubikey_in_autofill_mode" = "Hardware YubiKey Unlock is not supported in AutoFill mode due to system constraints. You can configure a virtual YubiKey instead.";
+"open_sequence_cannot_use_yubikey_in_autofill_mode" = "Аппаратное обеспечение YubiKey Unlock не поддерживается в режиме автозаполнения из-за системных ограничений. Вместо этого можно настроить виртуальный YubiKey.";
 
 /* YubiKey Unlock is only available in the Pro edition of Strongbox */
 "open_sequence_yubikey_only_available_in_pro" = "Разблокировка YubiKey доступна только в Pro версии Strongbox";
@@ -3392,6 +3392,9 @@
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
 "sftp_path_are_you_sure" = "Вы уверены, что путь правильный? Это должен быть путь к папке, а не файлу.";
 
+/* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
+"sftp_path_are_you_sure" = "Вы уверены, что путь правильный? Это должен быть путь к папке, а не файлу.";
+
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "Неверный путь к папке";
 
@@ -3408,7 +3411,7 @@
 "yubikey_config_section_header_nfc_autofill_unavailable" = "NFC Yubikey (NFC недоступен при автозаполнении)";
 
 /* Lightning Yubikey (Pro Edition Only) */
-"yubikey_config_section_header_lightning_pro_only" = "Lightning Yubikey (только Pro-версия)";
+"yubikey_config_section_header_lightning_pro_only" = "Lightning Yubikey (Pro-версия)";
 
 /* Lightning Yubikey (Lightning Not Supported on Device) */
 "yubikey_config_section_header_lightning_device_not_supported" = "Lightning Yubikey (Lightning не поддерживается устройством)";
@@ -3417,10 +3420,10 @@
 "yubikey_config_section_header_lightning_autofill_unavailable" = "Lightning Yubikey (Lightning недоступен при автозаполнении)";
 
 /* Are you sure you want to delete this Virtual YubiKey? */
-"yubikey_config_are_you_sure_delete" = "Are you sure you want to delete this Virtual YubiKey?";
+"yubikey_config_are_you_sure_delete" = "Вы хотите удалить виртуальный ключ YubiKey?";
 
 /* %@ (AutoFill Only) - Translator's note, the 1st parameter is the name of the virtual yubikey, e.g. Mark's Virtual Yubikey - This string indicates that that key can only be used in AutoFill mode only, not regualr App mode */
-"yubikeys_virtual_autofill_only" = "%@ (AutoFill Only)";
+"yubikeys_virtual_autofill_only" = "%@ (Только автозаполнение)";
 
 /* Virtual YubiKey */
-"casg_yubikey_configured_virtual" = "Virtual YubiKey";
+"casg_yubikey_configured_virtual" = "Виртуальный ключ YubiKey";
