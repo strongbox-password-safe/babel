@@ -624,10 +624,10 @@
 "item_details_setup_totp_how_title" = "Настройка TOTP";
 
 /* Manual (Standard/RFC 6238)... */
-"item_details_setup_totp_manual_rfc" = "Вручную (стандарт/RFC 6238)";
+"item_details_setup_totp_manual_rfc" = "Вручную (RFC 6238)";
 
 /* Manual (Steam Token)... */
-"item_details_setup_totp_manual_steam" = "Вручную (токен Steam)";
+"item_details_setup_totp_manual_steam" = "Вручную (Steam)";
 
 /* QR Code... */
 "item_details_setup_totp_qr_code" = "QR-код";
@@ -1633,7 +1633,7 @@
 "pwgen_wordlist_eff_short_1" = "EFF краткий (v1.0)";
 
 /* EFF Short (v2.0 - More memorable, unique prefix) */
-"pwgen_wordlist_eff_short_2" = "EFF краткий (v2.0 - запоминающиеся)";
+"pwgen_wordlist_eff_short_2" = "EFF краткий (v2.0, запоминающиеся)";
 
 /* French */
 "pwgen_wordlist_french" = "Французский";
@@ -2773,7 +2773,7 @@
 "casg_yubikey_configured_slot2" = "Слот 2";
 
 /* YubiKey Unlock is not supported in AutoFill mode */
-"open_sequence_cannot_use_yubikey_in_autofill_mode" = "Аппаратное обеспечение YubiKey Unlock не поддерживается в режиме автозаполнения из-за системных ограничений. Вместо этого можно настроить виртуальный YubiKey.";
+"open_sequence_cannot_use_yubikey_in_autofill_mode" = "Аппаратное обеспечение YubiKey Unlock не поддерживается в режиме автозаполнения из-за системных ограничений. Вместо этого можно настроить виртуальный аппаратный YubiKey.";
 
 /* YubiKey Unlock is only available in the Pro edition of Strongbox */
 "open_sequence_yubikey_only_available_in_pro" = "Разблокировка YubiKey доступна только в Pro версии Strongbox";
@@ -3419,11 +3419,11 @@
 /* Lightning Yubikey (AutoFill Mode - Lightning Unavailable) */
 "yubikey_config_section_header_lightning_autofill_unavailable" = "Lightning Yubikey (Lightning недоступен при автозаполнении)";
 
-/* Are you sure you want to delete this Virtual YubiKey? */
-"yubikey_config_are_you_sure_delete" = "Вы хотите удалить виртуальный ключ YubiKey?";
+/* Are you sure you want to delete this Virtual Hardware Key? */
+"yubikey_config_are_you_sure_delete" = "Вы хотите удалить виртуальный аппаратный ключ YubiKey?";
 
-/* %@ (AutoFill Only) - Translator's note, the 1st parameter is the name of the virtual yubikey, e.g. Mark's Virtual Yubikey - This string indicates that that key can only be used in AutoFill mode only, not regualr App mode */
+/* %@ (AutoFill Only) - Translator's note, the 1st parameter is the name of the virtual hardware key, e.g. Mark's Virtual Hardware Key - This string indicates that that key can only be used in AutoFill mode only, not regualr App mode */
 "yubikeys_virtual_autofill_only" = "%@ (Только автозаполнение)";
 
-/* Virtual YubiKey */
-"casg_yubikey_configured_virtual" = "Виртуальный ключ YubiKey";
+/* Virtual Hardware Key */
+"casg_yubikey_configured_virtual" = "Виртуальный аппаратный ключ";
