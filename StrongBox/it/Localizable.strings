@@ -20,22 +20,22 @@
 "safes_vc_cached_date_time_fmt" = "Nella Cache: %@";
 
 /* Open ths database offline table action */
-"safes_vc_slide_left_open_offline_action" = "Aprire in Locale...";
+"safes_vc_slide_left_open_offline_action" = "Open Local";
 
 /* Title of the 'More Actions' alert/action sheet */
 "safes_vc_database_actions_sheet_title" = "Azioni Database";
 
 /* Button Title to Unset Quick Launch */
-"safes_vc_action_unset_as_quick_launch" = "Disimposta come Avvio Veloce...";
+"safes_vc_action_unset_as_quick_launch" = "Unset Quick Launch";
 
 /* Button Title to Set Quick Launch */
-"safes_vc_action_set_as_quick_launch" = "Imposta come Avvio Veloce...";
+"safes_vc_action_set_as_quick_launch" = "Set Quick Launch";
 
 /* Button Title to Show in Files */
-"safes_vc_show_in_files" = "Rendi Visibile nei File...";
+"safes_vc_show_in_files" = "Show in Files";
 
 /* Button Title to Hide from Files */
-"safes_vc_make_autofillable" = "Nascondi dai File...";
+"safes_vc_make_autofillable" = "Hide in Files";
 
 /* Title of Prompt about setting Quick Launch */
 "safes_vc_about_quick_launch_title" = "Informazioni sull'Avvio Rapido";
@@ -44,10 +44,10 @@
 "safes_vc_about_setting_quick_launch_and_confirm" = "Impostare questo database come database di Avvio Rapido significa che all'avvio o ripristino di Strongbox, ti verrà automaticamente chiesto di sbloccare questo database. Questa impostazione può salvarti un secondo prezioso!\n\nImpostare come Database di Avvio Rapido?";
 
 /* Button title to Show Database in iOS Files App */
-"safes_vc_show_database_in_files_info" = "Rendere questo database visibile nella App Files significa che il database diventerà disponibile per l'accesso tramite Finder sul tuo Mac. Tuttavia, il database diventerà a sola lettura nella modalità Riempimento Automatico, a causa del design del sistema operativo iOS.\n\nNB: puoi re-invertire questa impostazione in qualsiasi momento";
+"safes_vc_show_database_in_files_info" = "Making this database visible in the Files App will also make the database available for access via Finder on your Mac.";
 
 /* Button title to Hide Database from the iOS Files App */
-"safes_vc_make_database_auto_fill_info" = "Nascondere questo database dall'App Files significa che non sarà più visibile via Finder dal tuo Mac. Come effetto collaterale, questo significa anche otterrai la piena funzionalità (lettura/scrittura) con il Riempimento Automatico (non solo una cache di sola lettura).\n\nNB: puoi re-invertire questa impostazione in qualsiasi momento";
+"safes_vc_make_database_auto_fill_info" = "Hiding this database from the Files App also means it will no longer be visible via Finder on your Mac.";
 
 /* OK/Cancel prompt title for changing local storage mode */
 "safes_vc_change_local_device_storage_mode_title" = "Modificare Visibilità dei File";
@@ -1711,7 +1711,7 @@
 "pwgen_salt_mode_suffix" = "Suffisso";
 
 /* Button Title to start reordering */
-"safes_vc_action_reorder_database" = "Riordinare...";
+"safes_vc_action_reorder_database" = "Reorder Databases";
 
 /* Tip displayed at top of screen. Slide left on Database for options */
 "safes_vc_tip" = "Suggerimento: Scorri a sinistra sul database per le opzioni";
@@ -1825,7 +1825,7 @@
 "model_error_cannot_write_backup" = "Impossibile scrivere il backup, non procederò con la scrittura del database!";
 
 /* Button Title to view backup settings of this database */
-"safes_vc_action_backups" = "Backup...";
+"safes_vc_action_backups" = "Backup";
 
 /* Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences */
 "open_sequence_error_reading_key_file_autofill_context" = "Impossibile leggere File Chiave. È stato importato correttamente? Verificare Gestione File Chiave nelle Impostazioni";
@@ -1947,8 +1947,11 @@
 /* Export */
 "generic_export" = "Esportazione";
 
-/* Remove */
+/* Remove - Translators Note: Verb - To Remove something, e.g. an item from a collection */
 "generic_remove" = "Rimuovi";
+
+/* Rename - Translators Note: Verb - To rename something, e.g. an item in a collection, to give it different title */
+"generic_rename" = "Rinomina";
 
 /* Set */
 "generic_set" = "Serie";
@@ -2149,8 +2152,8 @@
 /* Download FavIcon (Pro Only) */
 "set_icon_vc_icon_source_download_favicons_pro_only" = "Scaricare le FavIcone Figlio (Solo Pro)";
 
-/* Set Icons */
-"browse_vc_action_set_icons" = "Icone...";
+/* Set Icon(s) */
+"browse_vc_action_set_icons" = "Impostare Icone(i)";
 
 /* Tap Play to start search */
 "favicon_status_initial" = "Toccare Play per avviare la ricerca";
@@ -3276,7 +3279,7 @@
 "backup_settings_prompt_no_dont_backup_anything" = "No, NON eseguire alcun backup";
 
 /* View Sync Status */
-"safes_vc_action_view_sync_status" = "Vista Debug Log Sincronizzazione";
+"safes_vc_action_view_sync_status" = "View Sync Log";
 
 /* Please send this crash report to support@strongboxsafe.com */
 "safes_vc_please_send_crash_report" = "Si prega di inviare il rapporto del crash a support@strongboxsafe.com";
@@ -3427,3 +3430,18 @@
 
 /* Virtual Hardware Key */
 "casg_yubikey_configured_virtual" = "Virtual Hardware Key";
+
+/* Manual Unlock - Translators Note: This is an option available to users of Face/Touch ID or PIN Code Unlock - Instead of using these convenience unlock methods, display the manual entry standard unlock screen to enter Master Password manually */
+"safes_vc_unlock_manual_action" = "Manual Unlock";
+
+/* TIP: Tap and hold item to see options - Translators Note: Hint or Tip text usually displayed at the top of the screen, to indicate the user can or should tap and hold down to see a useful context menu with options they can perform on the items they are currently working with. */
+"hint_tap_and_hold_to_see_options" = "Tip: Tap and hold to see options";
+
+/* Launch URL & Copy */
+"browse_action_launch_url_copy_password" = "Apri URL & Copia Password";
+
+/* Copy Other Field... */
+"browse_context_menu_copy_other_field" = "Copy Other Field...";
+
+/* Move - Translators Note: Verb - To move something e.g. an entry or group somewhere else in the hierarchy */
+"generic_move" = "Sposta";
