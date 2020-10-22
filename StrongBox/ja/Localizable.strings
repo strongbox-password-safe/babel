@@ -20,22 +20,22 @@
 "safes_vc_cached_date_time_fmt" = "キャッシュ最終取得日時: %@";
 
 /* Open ths database offline table action */
-"safes_vc_slide_left_open_offline_action" = "ローカルを開く...";
+"safes_vc_slide_left_open_offline_action" = "Open Local";
 
 /* Title of the 'More Actions' alert/action sheet */
 "safes_vc_database_actions_sheet_title" = "データベースアクション";
 
 /* Button Title to Unset Quick Launch */
-"safes_vc_action_unset_as_quick_launch" = "クイック起動としての設定を解除...";
+"safes_vc_action_unset_as_quick_launch" = "Unset Quick Launch";
 
 /* Button Title to Set Quick Launch */
-"safes_vc_action_set_as_quick_launch" = "クイック起動として設定...";
+"safes_vc_action_set_as_quick_launch" = "Set Quick Launch";
 
 /* Button Title to Show in Files */
-"safes_vc_show_in_files" = "ファイル内で表示する...";
+"safes_vc_show_in_files" = "Show in Files";
 
 /* Button Title to Hide from Files */
-"safes_vc_make_autofillable" = "ファイルから隠す...";
+"safes_vc_make_autofillable" = "Hide in Files";
 
 /* Title of Prompt about setting Quick Launch */
 "safes_vc_about_quick_launch_title" = "クイック起動について";
@@ -44,10 +44,10 @@
 "safes_vc_about_setting_quick_launch_and_confirm" = "このデータベースをクイック起動データベースとして設定すると、Strongbox を起動するとき、または再度有効にするときにこのデータベースのロックを解除するプロンプトが自動的に表示され、面倒なタップが 1 つ省かれます！\n\nクイック起動データベースとして設定しますか？";
 
 /* Button title to Show Database in iOS Files App */
-"safes_vc_show_database_in_files_info" = "このデータベースをファイルアプリに表示すると、Mac の Finder からアクセスできるようにもなります。しかし、データベースはオートフィルモードでの書き込みができなくなります。これは iOS のシステムデザインによるものです。\n\n注意: このアクションはいつでも取り消すことができます";
+"safes_vc_show_database_in_files_info" = "Making this database visible in the Files App will also make the database available for access via Finder on your Mac.";
 
 /* Button title to Hide Database from the iOS Files App */
-"safes_vc_make_database_auto_fill_info" = "このデータベースをファイルアプリで非表示にすると、Mac の Finder を使っても表示されなくなります。その結果、読み取り専用のキャッシュだけでなく、完全なオートフィル機能 (読み取り / 書き込み) を使用できるようになります。\n\n注意: このアクションはいつでも取り消すことができます";
+"safes_vc_make_database_auto_fill_info" = "Hiding this database from the Files App also means it will no longer be visible via Finder on your Mac.";
 
 /* OK/Cancel prompt title for changing local storage mode */
 "safes_vc_change_local_device_storage_mode_title" = "ファイルの可視性を変更";
@@ -1711,7 +1711,7 @@
 "pwgen_salt_mode_suffix" = "サフィックス";
 
 /* Button Title to start reordering */
-"safes_vc_action_reorder_database" = "並べ替え...";
+"safes_vc_action_reorder_database" = "Reorder Databases";
 
 /* Tip displayed at top of screen. Slide left on Database for options */
 "safes_vc_tip" = "ヒント: データベースの上で左にスライドするとオプションが表示されます";
@@ -1825,7 +1825,7 @@
 "model_error_cannot_write_backup" = "バックアップの書き込みができなかったため、データベースの書き込みは続行いたしません！";
 
 /* Button Title to view backup settings of this database */
-"safes_vc_action_backups" = "バックアップ...";
+"safes_vc_action_backups" = "バックアップ";
 
 /* Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences */
 "open_sequence_error_reading_key_file_autofill_context" = "キーファイルを読み取れませんでした。適切にインポートされていますか？環境設定よりキーファイル管理を確認してください。";
@@ -1947,8 +1947,11 @@
 /* Export */
 "generic_export" = "エクスポート";
 
-/* Remove */
+/* Remove - Translators Note: Verb - To Remove something, e.g. an item from a collection */
 "generic_remove" = "削除";
+
+/* Rename - Translators Note: Verb - To rename something, e.g. an item in a collection, to give it different title */
+"generic_rename" = "名前を変更";
 
 /* Set */
 "generic_set" = "セット";
@@ -2149,8 +2152,8 @@
 /* Download FavIcon (Pro Only) */
 "set_icon_vc_icon_source_download_favicons_pro_only" = "子アイテム用に FavIcon をダウンロード (プロ限定)";
 
-/* Set Icons */
-"browse_vc_action_set_icons" = "アイコン...";
+/* Set Icon(s) */
+"browse_vc_action_set_icons" = "アイコンを設定";
 
 /* Tap Play to start search */
 "favicon_status_initial" = "「開始」をタップして検索を開始する";
@@ -3276,7 +3279,7 @@
 "backup_settings_prompt_no_dont_backup_anything" = "いいえ、何もバックアップしません";
 
 /* View Sync Status */
-"safes_vc_action_view_sync_status" = "デバッグ同期ログを表示";
+"safes_vc_action_view_sync_status" = "View Sync Log";
 
 /* Please send this crash report to support@strongboxsafe.com */
 "safes_vc_please_send_crash_report" = "このクラッシュレポートを support@strongboxsafe.com までお送りください";
@@ -3427,3 +3430,18 @@
 
 /* Virtual Hardware Key */
 "casg_yubikey_configured_virtual" = "Virtual Hardware Key";
+
+/* Manual Unlock - Translators Note: This is an option available to users of Face/Touch ID or PIN Code Unlock - Instead of using these convenience unlock methods, display the manual entry standard unlock screen to enter Master Password manually */
+"safes_vc_unlock_manual_action" = "Manual Unlock";
+
+/* TIP: Tap and hold item to see options - Translators Note: Hint or Tip text usually displayed at the top of the screen, to indicate the user can or should tap and hold down to see a useful context menu with options they can perform on the items they are currently working with. */
+"hint_tap_and_hold_to_see_options" = "Tip: Tap and hold to see options";
+
+/* Launch URL & Copy */
+"browse_action_launch_url_copy_password" = "URL を起動してパスワードをコピー";
+
+/* Copy Other Field... */
+"browse_context_menu_copy_other_field" = "Copy Other Field...";
+
+/* Move - Translators Note: Verb - To move something e.g. an entry or group somewhere else in the hierarchy */
+"generic_move" = "移動";
