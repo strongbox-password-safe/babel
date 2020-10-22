@@ -20,22 +20,22 @@
 "safes_vc_cached_date_time_fmt" = "Mis en cache : %@";
 
 /* Open ths database offline table action */
-"safes_vc_slide_left_open_offline_action" = "Ouvrir localement...";
+"safes_vc_slide_left_open_offline_action" = "Open Local";
 
 /* Title of the 'More Actions' alert/action sheet */
 "safes_vc_database_actions_sheet_title" = "Actions de base de données";
 
 /* Button Title to Unset Quick Launch */
-"safes_vc_action_unset_as_quick_launch" = "Désactiver le lancement rapide...";
+"safes_vc_action_unset_as_quick_launch" = "Unset Quick Launch";
 
 /* Button Title to Set Quick Launch */
-"safes_vc_action_set_as_quick_launch" = "Définir comme lancement rapide...";
+"safes_vc_action_set_as_quick_launch" = "Set Quick Launch";
 
 /* Button Title to Show in Files */
-"safes_vc_show_in_files" = "Rendre visible dans Fichiers...";
+"safes_vc_show_in_files" = "Show in Files";
 
 /* Button Title to Hide from Files */
-"safes_vc_make_autofillable" = "Masquer dans Fichiers...";
+"safes_vc_make_autofillable" = "Hide in Files";
 
 /* Title of Prompt about setting Quick Launch */
 "safes_vc_about_quick_launch_title" = "À propos du lancement rapide";
@@ -44,10 +44,10 @@
 "safes_vc_about_setting_quick_launch_and_confirm" = "Définir cette base de données comme lancement rapide signifie que vous serez automatiquement invité à la déverrouiller dès que vous lancerez ou réactiverez Strongbox. Cela peut vous économiser un appui précieux !\n\nDéfinir comme lancement rapide ?";
 
 /* Button title to Show Database in iOS Files App */
-"safes_vc_show_database_in_files_info" = "Rendre cette base de données visible dans l'application Fichiers la rendra également accessible via Finder sur votre Mac. Cependant, la base de données ne sera plus accessible en écriture en mode remplissage automatique. Ceci est dû à la conception du système iOS.\n\nNB : Cette action est réversible";
+"safes_vc_show_database_in_files_info" = "Making this database visible in the Files App will also make the database available for access via Finder on your Mac.";
 
 /* Button title to Hide Database from the iOS Files App */
-"safes_vc_make_database_auto_fill_info" = "Masquer cette base de données dans l'application Fichiers signifie aussi qu'elle ne sera plus visible via Finder sur votre Mac. Accessoirement, cela signifie également que vous obtenez la fonctionnalité complète (lecture/écriture) de remplissage automatique (pas juste un cache en lecture seule).\n\nNB : Cette action est réversible";
+"safes_vc_make_database_auto_fill_info" = "Hiding this database from the Files App also means it will no longer be visible via Finder on your Mac.";
 
 /* OK/Cancel prompt title for changing local storage mode */
 "safes_vc_change_local_device_storage_mode_title" = "Modifier la visibilité dans Fichiers";
@@ -1711,7 +1711,7 @@
 "pwgen_salt_mode_suffix" = "Suffixer";
 
 /* Button Title to start reordering */
-"safes_vc_action_reorder_database" = "Réorganiser...";
+"safes_vc_action_reorder_database" = "Reorder Databases";
 
 /* Tip displayed at top of screen. Slide left on Database for options */
 "safes_vc_tip" = "Astuce : Faites glisser à gauche pour les options";
@@ -1825,7 +1825,7 @@
 "model_error_cannot_write_backup" = "Impossible d'écrire la sauvegarde, ne procédera pas à l'écriture de la base de données !";
 
 /* Button Title to view backup settings of this database */
-"safes_vc_action_backups" = "Sauvegardes...";
+"safes_vc_action_backups" = "Sauvegardes";
 
 /* Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences */
 "open_sequence_error_reading_key_file_autofill_context" = "Impossible de lire le fichier-clé. A-t-il été importé correctement ? Vérifiez la gestion des fichiers-clés dans les préférences";
@@ -1947,8 +1947,11 @@
 /* Export */
 "generic_export" = "Exporter";
 
-/* Remove */
+/* Remove - Translators Note: Verb - To Remove something, e.g. an item from a collection */
 "generic_remove" = "Enlever";
+
+/* Rename - Translators Note: Verb - To rename something, e.g. an item in a collection, to give it different title */
+"generic_rename" = "Renommer";
 
 /* Set */
 "generic_set" = "Définir";
@@ -2149,8 +2152,8 @@
 /* Download FavIcon (Pro Only) */
 "set_icon_vc_icon_source_download_favicons_pro_only" = "Télécharger les FavIcons des éléments enfants (Pro uniquement)";
 
-/* Set Icons */
-"browse_vc_action_set_icons" = "Icônes...";
+/* Set Icon(s) */
+"browse_vc_action_set_icons" = "Définir le(s) icône(s)";
 
 /* Tap Play to start search */
 "favicon_status_initial" = "Appuyez sur Play pour démarrer la recherche";
@@ -3276,7 +3279,7 @@
 "backup_settings_prompt_no_dont_backup_anything" = "Non, NE RIEN sauvegarder";
 
 /* View Sync Status */
-"safes_vc_action_view_sync_status" = "Voir journal de synchro de debug";
+"safes_vc_action_view_sync_status" = "View Sync Log";
 
 /* Please send this crash report to support@strongboxsafe.com */
 "safes_vc_please_send_crash_report" = "Veuillez envoyer ce rapport de plantage à support@strongboxsafe.com";
@@ -3427,3 +3430,18 @@
 
 /* Virtual Hardware Key */
 "casg_yubikey_configured_virtual" = "Clé matérielle virtuelle";
+
+/* Manual Unlock - Translators Note: This is an option available to users of Face/Touch ID or PIN Code Unlock - Instead of using these convenience unlock methods, display the manual entry standard unlock screen to enter Master Password manually */
+"safes_vc_unlock_manual_action" = "Manual Unlock";
+
+/* TIP: Tap and hold item to see options - Translators Note: Hint or Tip text usually displayed at the top of the screen, to indicate the user can or should tap and hold down to see a useful context menu with options they can perform on the items they are currently working with. */
+"hint_tap_and_hold_to_see_options" = "Tip: Tap and hold to see options";
+
+/* Launch URL & Copy */
+"browse_action_launch_url_copy_password" = "Lancer l'URL et copier le mot de passe";
+
+/* Copy Other Field... */
+"browse_context_menu_copy_other_field" = "Copy Other Field...";
+
+/* Move - Translators Note: Verb - To move something e.g. an entry or group somewhere else in the hierarchy */
+"generic_move" = "Déplacer";
