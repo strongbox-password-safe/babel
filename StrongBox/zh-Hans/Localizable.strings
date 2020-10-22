@@ -20,22 +20,22 @@
 "safes_vc_cached_date_time_fmt" = "已缓存: %@";
 
 /* Open ths database offline table action */
-"safes_vc_slide_left_open_offline_action" = "离线打开...";
+"safes_vc_slide_left_open_offline_action" = "Open Local";
 
 /* Title of the 'More Actions' alert/action sheet */
 "safes_vc_database_actions_sheet_title" = "数据库操作";
 
 /* Button Title to Unset Quick Launch */
-"safes_vc_action_unset_as_quick_launch" = "取消快速启动...";
+"safes_vc_action_unset_as_quick_launch" = "Unset Quick Launch";
 
 /* Button Title to Set Quick Launch */
-"safes_vc_action_set_as_quick_launch" = "设置为快速启动...";
+"safes_vc_action_set_as_quick_launch" = "Set Quick Launch";
 
 /* Button Title to Show in Files */
-"safes_vc_show_in_files" = "在“文件”中显示...";
+"safes_vc_show_in_files" = "Show in Files";
 
 /* Button Title to Hide from Files */
-"safes_vc_make_autofillable" = "从“文件”隐藏...";
+"safes_vc_make_autofillable" = "Hide in Files";
 
 /* Title of Prompt about setting Quick Launch */
 "safes_vc_about_quick_launch_title" = "关于快速启动";
@@ -44,10 +44,10 @@
 "safes_vc_about_setting_quick_launch_and_confirm" = "将此数据库设置为\"快速启动\"数据库意味着在启动或重新激活 Strongbox 时将自动提示您解锁此数据库。这可节省您的一步操作!\n\n设置为\"快速启动\"数据库?";
 
 /* Button title to Show Database in iOS Files App */
-"safes_vc_show_database_in_files_info" = "使此数据库在“文件”应用程序中可见也将使此数据库可通过 Mac 上的 Finder 进行访问。然而由于 iOS 系统设计，数据库在自动填充模式下将不再能够写入。 \n\n注意：您可以随时撤销此操作。";
+"safes_vc_show_database_in_files_info" = "Making this database visible in the Files App will also make the database available for access via Finder on your Mac.";
 
 /* Button title to Hide Database from the iOS Files App */
-"safes_vc_make_database_auto_fill_info" = "从“文件”应用程序中隐藏此数据库意味着它将不再在 Mac 上的 Finder 可见。因此，这也意味着您将获得完整的 (读取/写入) 自动填充功能 (而非只读缓存) 。\n\n注: 您可以随时撤销此操作。";
+"safes_vc_make_database_auto_fill_info" = "Hiding this database from the Files App also means it will no longer be visible via Finder on your Mac.";
 
 /* OK/Cancel prompt title for changing local storage mode */
 "safes_vc_change_local_device_storage_mode_title" = "更改文件可见性";
@@ -1711,7 +1711,7 @@
 "pwgen_salt_mode_suffix" = "后缀";
 
 /* Button Title to start reordering */
-"safes_vc_action_reorder_database" = "重新排序...";
+"safes_vc_action_reorder_database" = "Reorder Databases";
 
 /* Tip displayed at top of screen. Slide left on Database for options */
 "safes_vc_tip" = "提示：向左滑动数据库以获取选项";
@@ -1825,7 +1825,7 @@
 "model_error_cannot_write_backup" = "无法写入备份，将不会继续写入数据库！";
 
 /* Button Title to view backup settings of this database */
-"safes_vc_action_backups" = "备份...";
+"safes_vc_action_backups" = "备份";
 
 /* Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences */
 "open_sequence_error_reading_key_file_autofill_context" = "无法读取密钥文件。它是否已被导入？请在偏好设置中检查密钥文件管理。";
@@ -1947,8 +1947,11 @@
 /* Export */
 "generic_export" = "导出";
 
-/* Remove */
+/* Remove - Translators Note: Verb - To Remove something, e.g. an item from a collection */
 "generic_remove" = "移除";
+
+/* Rename - Translators Note: Verb - To rename something, e.g. an item in a collection, to give it different title */
+"generic_rename" = "重命名";
 
 /* Set */
 "generic_set" = "设定";
@@ -2149,8 +2152,8 @@
 /* Download FavIcon (Pro Only) */
 "set_icon_vc_icon_source_download_favicons_pro_only" = "下载所有网页图标(仅限 Pro)";
 
-/* Set Icons */
-"browse_vc_action_set_icons" = "图标...";
+/* Set Icon(s) */
+"browse_vc_action_set_icons" = "设置图标";
 
 /* Tap Play to start search */
 "favicon_status_initial" = "点击播放按钮开始搜索";
@@ -3276,7 +3279,7 @@
 "backup_settings_prompt_no_dont_backup_anything" = "否，不备份任何内容";
 
 /* View Sync Status */
-"safes_vc_action_view_sync_status" = "查看调试同步日志";
+"safes_vc_action_view_sync_status" = "View Sync Log";
 
 /* Please send this crash report to support@strongboxsafe.com */
 "safes_vc_please_send_crash_report" = "请将崩溃报告发送至 support@surboxsafe.com";
@@ -3427,3 +3430,18 @@
 
 /* Virtual Hardware Key */
 "casg_yubikey_configured_virtual" = "虚拟硬件密钥";
+
+/* Manual Unlock - Translators Note: This is an option available to users of Face/Touch ID or PIN Code Unlock - Instead of using these convenience unlock methods, display the manual entry standard unlock screen to enter Master Password manually */
+"safes_vc_unlock_manual_action" = "Manual Unlock";
+
+/* TIP: Tap and hold item to see options - Translators Note: Hint or Tip text usually displayed at the top of the screen, to indicate the user can or should tap and hold down to see a useful context menu with options they can perform on the items they are currently working with. */
+"hint_tap_and_hold_to_see_options" = "Tip: Tap and hold to see options";
+
+/* Launch URL & Copy */
+"browse_action_launch_url_copy_password" = "启动 URL 并复制密码";
+
+/* Copy Other Field... */
+"browse_context_menu_copy_other_field" = "Copy Other Field...";
+
+/* Move - Translators Note: Verb - To move something e.g. an entry or group somewhere else in the hierarchy */
+"generic_move" = "移动";
