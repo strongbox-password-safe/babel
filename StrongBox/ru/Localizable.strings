@@ -32,7 +32,7 @@
 "safes_vc_action_set_as_quick_launch" = "Включить быстрый запуск";
 
 /* Button Title to Show in Files */
-"safes_vc_show_in_files" = "Отображать в Файлах";
+"safes_vc_show_in_files" = "Показать в Файлах";
 
 /* Button Title to Hide from Files */
 "safes_vc_make_autofillable" = "Скрыть из Файлов";
@@ -44,10 +44,10 @@
 "safes_vc_about_setting_quick_launch_and_confirm" = "Функция быстрого запуска означает, что база данных будет разблокирована автоматически, как только Вы запустите или повторно активируете Strongbox. Это сэкономит одно драгоценное нажатие!\n\nВключить быстрый запуск для базы данных?";
 
 /* Button title to Show Database in iOS Files App */
-"safes_vc_show_database_in_files_info" = "Отображение базы данных в приложении Файлы сделает её доступной для Finder на компьютере Mac. Но, вследствие ограничений iOS, она будет недоступна для записи при автозаполнении.\n\nПримечание: Это действие всегда можете отменить";
+"safes_vc_show_database_in_files_info" = "База данных, видимая в приложении Файлы, также будет доступна через Finder на компьютере Mac.";
 
 /* Button title to Hide Database from the iOS Files App */
-"safes_vc_make_database_auto_fill_info" = "Скрытие базы данных в приложении Файлы сделает её недоступной для Finder на компьютере Mac. Однако она будет доступна для записи при автозаполнении.\n\nПримечание: Это действие всегда можете отменить";
+"safes_vc_make_database_auto_fill_info" = "Скрытие базы данных из Файлов означает, что она больше не будет видна через Finder на компьютере Mac.";
 
 /* OK/Cancel prompt title for changing local storage mode */
 "safes_vc_change_local_device_storage_mode_title" = "Отображение в Файлах";
@@ -315,7 +315,7 @@
 "browse_prefs_view_as_flat_list" = "Простой список";
 
 /* Group Hierarchy */
-"browse_prefs_view_as_folders" = "Групповая иерархия";
+"browse_prefs_view_as_folders" = "Иерархия";
 
 /* TOTP List */
 "browse_prefs_view_as_totp_list" = "Список TOTP";
@@ -1711,7 +1711,7 @@
 "pwgen_salt_mode_suffix" = "Суффикс";
 
 /* Button Title to start reordering */
-"safes_vc_action_reorder_database" = "Изменение порядка...";
+"safes_vc_action_reorder_database" = "Изменить порядок баз данных";
 
 /* Tip displayed at top of screen. Slide left on Database for options */
 "safes_vc_tip" = "Смахните влево по базе данных для опций";
@@ -1947,8 +1947,11 @@
 /* Export */
 "generic_export" = "Экспорт";
 
-/* Remove */
+/* Remove - Translators Note: Verb - To Remove something, e.g. an item from a collection */
 "generic_remove" = "Удалить";
+
+/* Rename - Translators Note: Verb - To rename something, e.g. an item in a collection, to give it different title */
+"generic_rename" = "Переименовать";
 
 /* Set */
 "generic_set" = "Установить";
@@ -2149,8 +2152,8 @@
 /* Download FavIcon (Pro Only) */
 "set_icon_vc_icon_source_download_favicons_pro_only" = "Загрузить значки группы (Pro версия)";
 
-/* Set Icons */
-"browse_vc_action_set_icons" = "Значки...";
+/* Set Icon(s) */
+"browse_vc_action_set_icons" = "Установить значок(-ки)";
 
 /* Tap Play to start search */
 "favicon_status_initial" = "Нажмите кнопку воспроизведения, чтобы начать поиск.";
@@ -2773,7 +2776,7 @@
 "casg_yubikey_configured_slot2" = "Слот 2";
 
 /* YubiKey Unlock is not supported in AutoFill mode */
-"open_sequence_cannot_use_yubikey_in_autofill_mode" = "Аппаратное обеспечение YubiKey Unlock не поддерживается в режиме автозаполнения из-за системных ограничений. Вместо этого можно настроить виртуальный аппаратный YubiKey.";
+"open_sequence_cannot_use_yubikey_in_autofill_mode" = "Разблокировка аппаратным ключом не поддерживается в режиме автозаполнения из-за системных ограничений. Вместо этого можно настроить виртуальный ключ.";
 
 /* YubiKey Unlock is only available in the Pro edition of Strongbox */
 "open_sequence_yubikey_only_available_in_pro" = "Разблокировка YubiKey доступна только в Pro версии Strongbox";
@@ -3420,10 +3423,52 @@
 "yubikey_config_section_header_lightning_autofill_unavailable" = "Lightning Yubikey (Lightning недоступен при автозаполнении)";
 
 /* Are you sure you want to delete this Virtual Hardware Key? */
-"yubikey_config_are_you_sure_delete" = "Вы хотите удалить виртуальный аппаратный ключ YubiKey?";
+"yubikey_config_are_you_sure_delete" = "Вы хотите удалить виртуальный аппаратный ключ?";
 
 /* %@ (AutoFill Only) - Translator's note, the 1st parameter is the name of the virtual hardware key, e.g. Mark's Virtual Hardware Key - This string indicates that that key can only be used in AutoFill mode only, not regualr App mode */
 "yubikeys_virtual_autofill_only" = "%@ (Только автозаполнение)";
 
 /* Virtual Hardware Key */
 "casg_yubikey_configured_virtual" = "Виртуальный аппаратный ключ";
+
+/* Manual Unlock - Translators Note: This is an option available to users of Face/Touch ID or PIN Code Unlock - Instead of using these convenience unlock methods, display the manual entry standard unlock screen to enter Master Password manually */
+"safes_vc_unlock_manual_action" = "Разблокировать вручную";
+
+/* TIP: Tap and hold item to see options - Translators Note: Hint or Tip text usually displayed at the top of the screen, to indicate the user can or should tap and hold down to see a useful context menu with options they can perform on the items they are currently working with. */
+"hint_tap_and_hold_to_see_options" = "Нажмите и удерживайте для опций";
+
+/* Launch URL & Copy */
+"browse_action_launch_url_copy_password" = "Запустить URL и скопировать пароль";
+
+/* Copy Other Field... */
+"browse_context_menu_copy_other_field" = "Скопировать другое поле";
+
+/* Move - Translators Note: Verb - To move something e.g. an entry or group somewhere else in the hierarchy */
+"generic_move" = "Перемест.";
+
+/* New Entry - Translators Note: Menu option to add a new entry */
+"browse_context_menu_new_entry" = "Новая запись";
+
+/* New Group Translators Note: Menu option to add a new group */
+"browse_context_menu_new_group" = "Новая группа";
+
+/* Select Translators Note: Verb to select an item in Browse view - it will have a select beside it */
+"generic_select" = "Выбор";
+
+/* Start with Search - Translators Note: Option to start with the search field focused immediately upon unlock */
+"browse_context_menu_start_with_search" = "Начинать с поиска";
+
+/* Sort - Translators Note: Verb - to sort items by title or other field */
+"generic_sort" = "Сортировка";
+
+/* Customize View */
+"browse_context_menu_customize_view" = "Просмотр";
+
+/* Database Settings */
+"browse_context_menu_database_settings" = "Параметры базы данных";
+
+/* Set Master Credentials */
+"browse_context_menu_set_master_credentials" = "Мастер-ключ";
+
+/* Show Password - Translators Note: On Browse screen - context menu item - This option will display the password in a large full screen font for easy reading with a QR Code */
+"browse_context_menu_show_password" = "Show Password";
