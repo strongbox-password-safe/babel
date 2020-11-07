@@ -339,7 +339,7 @@
 "browse_vc_cannot_create_group" = "Невозможно создать группу";
 
 /* Could not create a group with this name here, possibly because one with this name already exists. */
-"browse_vc_cannot_create_group_message" = "Не удалось создать группу с таким названием. Возможно, такая группа уже существует.";
+"browse_vc_cannot_create_group_message" = "Не удалось создать группу с таким названием. Возможно, такая уже существует.";
 
 /* There was an error trying to delete this item. */
 "browse_vc_delete_error_message" = "При попытке удаления элемента произошла ошибка.";
@@ -362,8 +362,8 @@
 /* Error Deleting */
 "browse_vc_error_deleting" = "Ошибка при удалении";
 
-/* There was a problem deleting a least one of these items. */
-"browse_vc_error_deleting_message" = "При удалении, как минимум одного из этих элементов, произошла ошибка.";
+/* There was a problem deleting at least one of these items. */
+"browse_vc_error_deleting_message" = "Возникла проблема при удалении одного из этих элементов.";
 
 /* Error Saving */
 "browse_vc_error_saving" = "Ошибка при сохранении";
@@ -720,7 +720,7 @@
 "prefs_vc_info_data_deletion_care_required_title" = "Предупреждение";
 
 /* It looks like email is not setup on this device.\n\nContact support@strongboxsafe.com for help. */
-"prefs_vc_info_email_not_available_message" = "Возможно, электронная почта не настроена на этом устройстве.\n\nСвяжитесь с support@strongboxsafe.com для получения помощи.";
+"prefs_vc_info_email_not_available_message" = "Возможно, электронная почта не настроена на устройстве.\n\nСвяжитесь с support@strongboxsafe.com для помощи.";
 
 /* Email Not Available */
 "prefs_vc_info_email_not_available_title" = "Email недоступен";
@@ -935,7 +935,7 @@
 "export_vc_email_unavailable_title" = "Электронная почта недоступна";
 
 /* It looks like email is not setup on this device and so the database cannot be exported by email. */
-"export_vc_email_unavailable_message" = "Возможно, электронная почта не настроена на этом устройстве. База данных не может быть экспортирована данным способом.";
+"export_vc_email_unavailable_message" = "Возможно, электронная почта не настроена на устройстве. База данных не может быть экспортирована данным способом.";
 
 /* Strongbox Database: '%@' */
 "export_vc_email_subject" = "База данных Strongbox: «%@»";
@@ -1377,10 +1377,10 @@
 "open_sequence_error_reading_key_file" = "Не удалось открыть файл-ключ. Перейдите в Управление файл-ключами и проверьте настройки.";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc, 2nd param is the date/time of the last cache) */
-"open_sequence_user_looks_offline_open_offline_instead_fmt" = "Возможно, нет подключения к сети и хранилище «%@» недоступно. Хотите использовать доступный только для чтения кэш базы данных?\n\nДата кэша: %@";
+"open_sequence_user_looks_offline_open_offline_instead_fmt" = "Возможно, нет подключения к сети и хранилище %@ недоступно. Хотите использовать доступный только для чтения кэш базы данных?\n\nДата кэша: %@";
 
 /* No, Try to connect anyway */
-"open_sequence_yesno_use_offline_cache_no_try_connect_option" = "Нет, пытаться подключиться";
+"open_sequence_yesno_use_offline_cache_no_try_connect_option" = "Подключение";
 
 /* There was a problem reading the database on %@. would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ */
 "open_sequence_storage_unreachable_open_offline_instead_fmt" = "Ошибка при чтении данных с сервера %@. Если ошибка повторяется, попробуйте удалить и заново добавить базу данных. Хотите использовать доступный только для чтения кэш базы данных?\n\nДата кэша: %@";
@@ -1393,7 +1393,7 @@
 "open_sequence_autofill_creash_likely_title" = "Возможен сбой автозаполнения";
 
 /* Your database has encryption settings that may cause iOS Password AutoFill extensions to be terminated due to excessive resource consumption. This will mean AutoFill appears not to work. Unfortunately this is an Apple imposed limit. You could consider reducing the amount of resources consumed by your encryption settings (Memory in particular with Argon2 to below 64MB). */
-"open_sequence_autofill_creash_likely_message" = "Размер базы данных слишком большой или имеет настройки шифрования, которые могут привести к сбою в работе функции автозаполнения из-за чрезмерного потребления ресурсов.\nВозможно, автозаполнение не будет работать. К сожалению, это ограничение системы, наложенное компанией Apple.\nПопробуйте уменьшить размер файла или изменить настройки (уменьшить объём памяти с Argon2 до 64 МБ).";
+"open_sequence_autofill_creash_likely_message" = "Размер базы данных слишком большой или имеет настройки шифрования, которые могут привести к сбою в работе функции автозаполнения из-за чрезмерного потребления ресурсов.\nАвтозаполнение не будет работать. К сожалению, это ограничение системы, наложенное компанией Apple.\nПопробуйте уменьшить размер файла или изменить настройки (уменьшить объём памяти с Argon2 до 64 МБ).";
 
 /* No Key File */
 "key_files_vc_no_key_file" = "Без файл-ключа";
@@ -2318,8 +2318,8 @@
 /* Number of Entries */
 "mac_database_summary_number_of_entries" = "Количество записей";
 
-/* Number of Folders */
-"mac_database_summary_number_of_folders" = "Количество папок";
+/* Number of Groups */
+"mac_database_summary_number_of_folders" = "Число групп";
 
 /* This is a large image to use as an icon. Would you like to use a scaled down version to save %@? - Translators Note: 1st Parameter is how much space will be saved */
 "mac_large_image_as_icon_use_scaled_down_version_fmt" = "Это большое изображение для использования в качестве значка. Хотите использовать уменьшенную версию для сохранения %@?";
@@ -2686,7 +2686,7 @@
 "open_sequence_warn_biometrics_db_changed_title" = "База данных биометрии изменена";
 
 /* It looks like your biometrics database has changed, probably because you added a new face or fingerprint. Strongbox now requires you to re-enter your master credentials manually for security reasons. */
-"open_sequence_warn_biometrics_db_changed_message" = "База данных биометрии изменилась вследствие добавления нового лица или отпечатка пальца. В целях безопасности требуется повторно ввести мастер-ключ вручную.";
+"open_sequence_warn_biometrics_db_changed_message" = "База данных биометрии изменилась вследствие добавления нового лица или отпечатка пальца. В целях безопасности необходимо заново ввести мастер-ключ вручную.";
 
 /* None - (Tranlators Note: When the user is not using or has not selected a key file on the Unlock screen.) */
 "mac_key_file_none" = "Отсутствует";
@@ -2832,7 +2832,7 @@
 "autofill_did_not_close_cleanly_title" = "Сбой автозаполнения";
 
 /* It looks like the last time you used AutoFill you had a crash. This is usually due to a memory limitation. Please check your database file size and your Argon2 memory settings (should be <= 64MB) */
-"autofill_did_not_close_cleanly_message" = "Возможно, при последнем использовании функции автозаполнения произошёл сбой. Обычно это связано с ограничениями памяти iOS. Пожалуйста, проверьте размер файла базы данных и настройки памяти Argon2 (должно быть <= 64МБ)";
+"autofill_did_not_close_cleanly_message" = "Возможно, при использовании функции автозаполнения произошёл сбой. Обычно это связано с ограничениями памяти iOS. Пожалуйста, проверьте размер файла базы данных и настройки памяти Argon2 (должно быть <= 64МБ)";
 
 /* Regenerate... */
 "password_generation_regenerate_ellipsis" = "Сгенерировать заново";
@@ -3249,13 +3249,13 @@
 "autofill_error_unknown_db_title" = "Strongbox: Неизвестная база данных";
 
 /* This appears to be a reference to an older Strongbox database which can no longer be found. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill. */
-"autofill_error_unknown_db_message" = "Возможно, это устаревшая ссылка на базу данных Strongbox, которой больше не существует. Список автозаполнения очищен, поэтому необходимо повторно открыть базы данных для его обновления.";
+"autofill_error_unknown_db_message" = "Возможно, это устаревшая ссылка на базу данных, которой больше не существует. Список автозаполнения очищен, поэтому необходимо повторно открыть базу данных для его обновления.";
 
 /* Strongbox: Error Locating Entry */
 "autofill_error_unknown_item_title" = "Strongbox: Ошибка поиска записи";
 
 /* Strongbox could not find this entry, it is possibly stale. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill. */
-"autofill_error_unknown_item_message" = "Strongbox не удалось найти запись. Возможно, она устарела. Список автозаполнения очищен, поэтому необходимо повторно открыть базы данных для обновления списка.";
+"autofill_error_unknown_item_message" = "Не удалось найти запись. Возможно, она устарела. Список автозаполнения очищен, поэтому необходимо повторно открыть базу данных для его обновления.";
 
 /* Locating... */
 "generic_status_sp_locating_ellipsis" = "Поиск...";
@@ -3333,7 +3333,7 @@
 "open_sequence_yes_use_local_copy_option" = "Локальная копия";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use Strongbox's local copy in read-only mode instead? - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc */
-"open_sequence_user_looks_offline_open_local_ro_fmt" = "Возможно, нет подключения к сети и хранилище '%@' недоступно. Хотите использовать доступную только для чтения локальную копию базы данных?";
+"open_sequence_user_looks_offline_open_local_ro_fmt" = "Возможно, нет подключения к сети и хранилище %@ недоступно. Хотите использовать доступную только для чтения локальную копию базы данных?";
 
 /* Sync Error */
 "open_sequence_storage_provider_error_title" = "Ошибка при синхронизации";
@@ -3478,3 +3478,30 @@
 
 /* Quick Launch */
 "databases_toggle_quick_launch_context_menu" = "Быстрый запуск";
+
+/* Properties */
+"browse_vc_action_properties" = "Свойства";
+
+/* Find */
+"browse_vc_action_keyboard_shortcut_find" = "Найти";
+
+/* Custom Data */
+"properties_vc_header_custom_data" = "Пользовательские данные";
+
+/* Custom Data used by plugins and various other applications. */
+"properties_vc_footer_custom_data" = "Пользовательские данные, используемые плагинами и другими приложениями.";
+
+/* Properties */
+"properties_vc_header_basic" = "Свойства";
+
+/* Some simple properties and settings of this item. */
+"properties_vc_footer_basic" = "Свойства и параметры элемента.";
+
+/* Group Notes */
+"properties_vc_header_group_notes" = "Примечания группы";
+
+/* Notes set on this group. */
+"properties_vc_footer_group_notes" = "Примечания, установленные для этой группы.";
+
+/* Dates */
+"properties_vc_header_dates" = "Даты";
