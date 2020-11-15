@@ -971,7 +971,7 @@
 "pins_config_vc_button_title_turn_duress_pin_on" = "Duress PIN ഓൺ ചെയ്യുക";
 
 /* Delete Database */
-"pins_config_vc_label_delete_database" = "Delete Database";
+"pins_config_vc_label_delete_database" = "ഡാറ്റാബേസ് ഇല്ലാതാക്കുക";
 
 /* Local Device database will be permanently deleted. */
 "pins_config_vc_label_delete_database_local_permanent" = "Local Device database will be permanently deleted.";
@@ -995,7 +995,7 @@
 "pins_config_vc_turn_pin_off_confirm" = "Are you sure you want to turn off the PIN for this database?";
 
 /* Turn off PIN? */
-"pins_config_vc_turn_pin_off_prompt_title" = "Turn off PIN?";
+"pins_config_vc_turn_pin_off_prompt_title" = "PIN ഓഫാക്കുക?";
 
 /* Enter Duress PIN */
 "pins_config_vc_enter_duress_pin" = "Enter Duress PIN";
@@ -1007,7 +1007,7 @@
 "pins_config_vc_error_pin_conflict_message" = "Your Convenience PIN conflicts with your Duress PIN or is of a different length. Please select another of the correct length.";
 
 /* Warning */
-"pins_config_vc_warn_remove_database_title" = "Warning";
+"pins_config_vc_warn_remove_database_title" = "മുന്നറിയിപ്പ്‌";
 
 /* This will permanently delete the database file. */
 "pins_config_vc_warn_remove_database_delete_message" = "This will permanently delete the database file.";
@@ -1031,13 +1031,13 @@
 "key_files_vc_one_time_key_file_source_message" = "Select where you would like to choose your Key File from. This file will not be stored locally or remembered.";
 
 /* Files... */
-"key_files_vc_one_time_key_file_source_option_files" = "Files...";
+"key_files_vc_one_time_key_file_source_option_files" = "ഫയലുകൾ...";
 
 /* Photo Library... */
-"key_files_vc_one_time_key_file_source_option_photos" = "Photo Library...";
+"key_files_vc_one_time_key_file_source_option_photos" = "ഫോട്ടോ ലൈബ്രറി...";
 
 /* Photo Library Unavailable */
-"key_files_vc_error_photos_unavailable_title" = "Photo Library Unavailable";
+"key_files_vc_error_photos_unavailable_title" = "ഫോട്ടോ ലൈബ്രറി ലഭ്യമല്ല";
 
 /* Could not access Photo Library. Does Strongbox have Permission? */
 "key_files_vc_error_photos_unavailable_message" = "Could not access Photo Library. Does Strongbox have Permission?";
@@ -1077,7 +1077,7 @@
 "key_files_vc_import_error_title" = "File could not be Imported";
 
 /* File not removed */
-"key_files_vc_error_file_not_removed" = "File not removed";
+"key_files_vc_error_file_not_removed" = "ഫയൽ നീക്കംചെയ്തില്ല";
 
 /* Used by %@ */
 "key_files_vc_key_file_used_by_fmt" = "%@ ഉപയോഗിച്ചത്";
@@ -1095,13 +1095,13 @@
 "pw_history_vc_prompt_disable_history_message" = "Are you sure you want to disable history? This will clear previous passwords.";
 
 /* Problem Saving Database */
-"pw_history_vc_error_problem_saving" = "Problem Saving Database";
+"pw_history_vc_error_problem_saving" = "ഡാറ്റാബേസ് സംരക്ഷിക്കുന്നതിൽ പ്രശ്നം";
 
 /* Old Passwords (%lu) */
-"pw_history_vc_previous_passwords_count_fmt" = "Old Passwords (%lu)";
+"pw_history_vc_previous_passwords_count_fmt" = "പഴയ പാസ്‌വേഡുകൾ (%lu)";
 
 /* Old Passwords (None) */
-"pw_history_vc_previous_passwords_count_none" = "Old Passwords (None)";
+"pw_history_vc_previous_passwords_count_none" = "പഴയ പാസ്‌വേഡുകൾ (ഒന്നുമില്ല)";
 
 /* Could not create file */
 "sftp_provider_could_not_create" = "ഫയൽ സൃഷ്ടിക്കാൻ കഴിഞ്ഞില്ല";
@@ -1110,7 +1110,7 @@
 "sftp_provider_could_not_read" = "ഫയൽ വായിക്കാൻ കഴിഞ്ഞില്ല";
 
 /* Could not update file */
-"sftp_provider_could_not_update" = "Could not update file";
+"sftp_provider_could_not_update" = "ഫയൽ അപ്‌ഡേറ്റുചെയ്യാനായില്ല";
 
 /* Authentication Failed for [user: %@] */
 "sftp_provider_auth_failed_fmt" = "Authentication Failed for [user: %@]";
@@ -1122,16 +1122,16 @@
 "add_attachment_vc_prompt_title" = "Attachment Location";
 
 /* Photos */
-"add_attachment_vc_prompt_source_option_photos" = "Photos";
+"add_attachment_vc_prompt_source_option_photos" = "ഫോട്ടോകൾ";
 
 /* Camera */
-"add_attachment_vc_prompt_source_option_camera" = "Camera";
+"add_attachment_vc_prompt_source_option_camera" = "ക്യാമറ";
 
 /* Files */
-"add_attachment_vc_prompt_source_option_files" = "Files";
+"add_attachment_vc_prompt_source_option_files" = "ഫയലുകൾ";
 
 /* Source Unavailable */
-"add_attachment_vc_error_source_unavailable_title" = "Source Unavailable";
+"add_attachment_vc_error_source_unavailable_title" = "ഉറവിടം ലഭ്യമല്ല";
 
 /* Strongbox could not access the camera. Does it have permission? */
 "add_attachment_vc_error_source_unavailable_camera" = "Strongbox could not access the camera. Does it have permission?";
@@ -1200,7 +1200,7 @@
 "set_icon_vc_icon_source_media_libary" = "Media Library";
 
 /* Download FavIcon */
-"set_icon_vc_icon_source_download_favicon" = "Download FavIcon";
+"set_icon_vc_icon_source_download_favicon" = "Favlcon ഡൌൺലോഡ് ചെയ്യുക";
 
 /* Download FavIcon (Pro Only) */
 "set_icon_vc_icon_source_download_favicon_pro_only" = "Download FavIcon (Pro Only)";
@@ -1263,7 +1263,7 @@
 "sftp_vc_label_validation_select_private_key" = "ഒരു സ്വകാര്യ കീ തിരഞ്ഞെടുക്കുക...";
 
 /* Invalid Key */
-"sftp_vc_warn_invalid_key_title" = "Invalid Key";
+"sftp_vc_warn_invalid_key_title" = "അസാധുവായ കീ";
 
 /* This does not look like a valid private key */
 "sftp_vc_warn_invalid_key_message" = "This does not look like a valid private key";
@@ -1278,7 +1278,7 @@
 "custom_field_vc_accessibility_label_protected" = "Custom Field Protected";
 
 /* Name cannot be empty */
-"custom_field_vc_validation_name_not_empty_error" = "Name cannot be empty";
+"custom_field_vc_validation_name_not_empty_error" = "പേര് ശൂന്യമായിരിക്കരുത്";
 
 /* Name cannot be one of the reserved KeePass Field names */
 "custom_field_vc_validation_name_not_reserved_error" = "Name cannot be one of the reserved KeePass Field names";
@@ -1365,7 +1365,7 @@
 "open_sequence_biometric_unlock_fallback" = "Unlock Manually...";
 
 /* %@ Failed */
-"open_sequence_biometric_unlock_warn_failed_title_fmt" = "%@ Failed";
+"open_sequence_biometric_unlock_warn_failed_title_fmt" = "%@ പരാജയപ്പെട്ടു";
 
 /* %@ Authentication Failed. You must now enter your password manually to open the database. */
 "open_sequence_biometric_unlock_warn_failed_message_fmt" = "%@ Authentication Failed. You must now enter your password manually to open the database.";
@@ -3456,7 +3456,7 @@
 "generic_select" = "Select";
 
 /* Start with Search - Translators Note: Option to start with the search field focused immediately upon unlock */
-"browse_context_menu_start_with_search" = "Start with Search";
+"browse_context_menu_start_with_search" = "തിരയലിൽ ആരംഭിക്കുക";
 
 /* Sort - Translators Note: Verb - to sort items by title or other field */
 "generic_sort" = "Sort";
