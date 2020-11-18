@@ -279,7 +279,7 @@
 "browse_prefs_tap_action_copy_copy_email" = "Скопировать Email";
 
 /* Copy Notes */
-"browse_prefs_tap_action_copy_copy_notes" = "Скопировать примечания";
+"browse_prefs_tap_action_copy_copy_notes" = "Скопировать заметки";
 
 /* Copy Password */
 "browse_prefs_tap_action_copy_copy_password" = "Скопировать пароль";
@@ -321,7 +321,7 @@
 "browse_prefs_view_as_totp_list" = "Список TOTP";
 
 /* Set Icon */
-"browse_vc_action_set_icon" = "Изменение значка";
+"browse_vc_action_set_icon" = "Изменить значок";
 
 /* Are you sure you want to permanently delete these item(s)? */
 "browse_vc_are_you_sure_delete" = "Вы действительно хотите удалить элементы навсегда?";
@@ -378,7 +378,7 @@
 "browse_vc_no_totp_to_copy_fmt" = "TOTP не настроен для «%@»!";
 
 /* '%@' Notes Copied  - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
-"browse_vc_notes_copied_fmt" = "Примечания «%@» скопированы";
+"browse_vc_notes_copied_fmt" = "Заметки «%@» скопированы";
 
 /* '%@' Password Copied  - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup  */
 "browse_vc_password_copied_fmt" = "Пароль «%@» скопирован";
@@ -423,7 +423,7 @@
 "browse_vc_view_as_database_empty" = "Нет записей";
 
 /* View As: TOTP List (No TOTP Entries) */
-"browse_vc_view_as_totp_no_totps" = "Просмотр в виде TOTP-списка (записей, содержащих TOTP, не найдено)";
+"browse_vc_view_as_totp_no_totps" = "Записи, содержащие TOTP, не найдены";
 
 /* No matching entries found */
 "browse_vc_view_search_no_matches" = "Записей не найдено";
@@ -579,7 +579,7 @@
 "item_details_new_custom_field_button" = "Добавить поле";
 
 /* Notes Copied */
-"item_details_notes_copied" = "Примечания скопированы";
+"item_details_notes_copied" = "Заметки скопированы";
 
 /* Password Copied */
 "item_details_password_copied" = "Пароль скопирован";
@@ -1329,7 +1329,7 @@
 "defaults_model_custom_url_default" = "URL по умолчанию";
 
 /* Custom Notes Default Text */
-"defaults_model_custom_notes_default" = "Примечание по умолчанию";
+"defaults_model_custom_notes_default" = "Заметки по умолчанию";
 
 /* Select One */
 "select_item_vc_title_select_one" = "Выберите";
@@ -1393,7 +1393,7 @@
 "open_sequence_autofill_creash_likely_title" = "Возможен сбой автозаполнения";
 
 /* Your database has encryption settings that may cause iOS Password AutoFill extensions to be terminated due to excessive resource consumption. This will mean AutoFill appears not to work. Unfortunately this is an Apple imposed limit. You could consider reducing the amount of resources consumed by your encryption settings (Memory in particular with Argon2 to below 64MB). */
-"open_sequence_autofill_creash_likely_message" = "Размер базы данных слишком большой или имеет настройки шифрования, которые могут привести к сбою в работе функции автозаполнения из-за чрезмерного потребления ресурсов.\nАвтозаполнение не будет работать. К сожалению, это ограничение системы, наложенное компанией Apple.\nПопробуйте уменьшить размер файла или изменить настройки (уменьшить объём памяти с Argon2 до 64 МБ).";
+"open_sequence_autofill_creash_likely_message" = "Размер базы данных слишком большой или имеет настройки шифрования, которые могут привести к сбою в работе функции автозаполнения из-за чрезмерного потребления ресурсов.\nК сожалению, это ограничение системы, наложенное компанией Apple. Попробуйте уменьшить размер файла или изменить настройки (уменьшить объём памяти с Argon2 до 64 МБ).";
 
 /* No Key File */
 "key_files_vc_no_key_file" = "Без файл-ключа";
@@ -1501,7 +1501,7 @@
 "password_gen_vc_select_wordlists" = "Списки слов";
 
 /* Select Character Groups */
-"password_gen_vc_select_character_groups" = "Группы символов";
+"password_gen_vc_select_character_groups" = "Символы";
 
 /* Word Separator */
 "password_gen_vc_prompt_word_separator" = "Разделитель слов";
@@ -1672,10 +1672,10 @@
 "pwgen_casing_do_not_change" = "Не изменять";
 
 /* Lowercase */
-"pwgen_casing_lowercase" = "Нижний";
+"pwgen_casing_lowercase" = "Строчные";
 
 /* Uppercase */
-"pwgen_casing_uppercase" = "Верхний";
+"pwgen_casing_uppercase" = "Прописные";
 
 /* Title Case */
 "pwgen_casing_title_case" = "Первая заглавная";
@@ -1687,7 +1687,7 @@
 "pwgen_casing_numeric" = "Цифры";
 
 /* Symbols */
-"pwgen_casing_symbols" = "Символы";
+"pwgen_casing_symbols" = "Специальные";
 
 /* Basic (Some Words) */
 "pwgen_hacker_level_basic_some" = "Основной (частично)";
@@ -1717,7 +1717,7 @@
 "safes_vc_tip" = "Смахните влево по базе данных для опций";
 
 /* Tip: Tap to Copy, Double Tap to Copy Notes */
-"item_details_tip" = "Одиночное нажатие для копирования или двойное для копирования примечания";
+"item_details_tip" = "Одиночное нажатие для копирования или двойное для копирования заметок";
 
 /* Tip: Slide Left for Options or Tap to View */
 "keepass_history_tip" = "Смахните влево для опций или нажмите для просмотра";
@@ -1906,7 +1906,7 @@
 "generic_fieldname_url" = "URL";
 
 /* Notes */
-"generic_fieldname_notes" = "Примечания";
+"generic_fieldname_notes" = "Заметки";
 
 /* Icon */
 "generic_fieldname_icon" = "Значок";
@@ -2025,7 +2025,7 @@
 "databases_preferences_subtitle_field_name_none" = "Не показывать";
 
 /* Notes */
-"browse_prefs_item_subtitle_notes" = "Примечания";
+"browse_prefs_item_subtitle_notes" = "Заметки";
 
 /* Password */
 "browse_prefs_item_subtitle_password" = "Пароль";
@@ -2085,7 +2085,7 @@
 "item_details_password_field_title" = "Пароль";
 
 /* Notes */
-"item_details_section_header_notes" = "Примечания";
+"item_details_section_header_notes" = "Заметки";
 
 /* Title */
 "item_details_title_field_name" = "Название";
@@ -2153,7 +2153,7 @@
 "set_icon_vc_icon_source_download_favicons_pro_only" = "Загрузить значки группы (Pro версия)";
 
 /* Set Icon(s) */
-"browse_vc_action_set_icons" = "Изменение значка";
+"browse_vc_action_set_icons" = "Изменить значок";
 
 /* Tap Play to start search */
 "favicon_status_initial" = "Нажмите кнопку воспроизведения, чтобы начать поиск.";
@@ -2249,7 +2249,7 @@
 "mac_drag_drop_between_databases_keepass_email_field_not_supported" = "KeePass не поддерживает поле 'Email' по умолчанию. Strongbox добавит его как настраиваемое поле. Хотите продолжить?";
 
 /* KeePass 1 does not support entries at the root level, these will be discarded. KeePass 1 also does not natively support the 'Email' field. Strongbox will append it instead to the end of the 'Notes' field.\nDo you want to continue? */
-"mac_keepass1_does_not_support_root_entries" = "KeePass 1 не поддерживает записи на корневом уровне, они будут удалены. KeePass 1 также изначально не поддерживает поле 'Email'. Strongbox добавит его вместо этого в конце поля 'Примечания'.\nХотите продолжить?";
+"mac_keepass1_does_not_support_root_entries" = "KeePass 1 не поддерживает записи на корневом уровне, они будут удалены. KeePass 1 также не поддерживает поле «Email». Strongbox добавит его вместо этого в конце поля «Заметки».\nХотите продолжить?";
 
 /* The Password Safe format does not support icons, attachments or custom fields. If you continue, these fields will not be copied to this database.\nDo you want to continue without these fields? */
 "mac_password_safe_fmt_does_not_support_icons_attachments_warning" = "Формат Password Safe не поддерживает значки, вложения или настраиваемые поля. Если Вы продолжите, то поля не будут скопированы в базу данных.\nХотите продолжить без этих полей?";
@@ -2628,8 +2628,8 @@
 /* KeePass Icons */
 "mac_keepass_icons" = "Значки KeePass";
 
-/* Identify to Open Database */
-"mac_biometrics_identify_to_open_database" = "Идентифицируйтесь, чтобы открыть базу данных";
+/* Unlock Database */
+"mac_biometrics_identify_to_open_database" = "Разблокировать базу данных";
 
 /* Biometrics is not available on this device! */
 "mac_biometrics_not_available" = "Биометрия на этом устройстве недоступна!";
@@ -2832,7 +2832,7 @@
 "autofill_did_not_close_cleanly_title" = "Сбой автозаполнения";
 
 /* It looks like the last time you used AutoFill you had a crash. This is usually due to a memory limitation. Please check your database file size and your Argon2 memory settings (should be <= 64MB) */
-"autofill_did_not_close_cleanly_message" = "Возможно, при использовании функции автозаполнения произошёл сбой. Обычно это связано с ограничениями памяти iOS. Пожалуйста, проверьте размер файла базы данных и настройки памяти Argon2 (должно быть <= 64МБ)";
+"autofill_did_not_close_cleanly_message" = "При использовании функции автозаполнения произошёл сбой. Обычно это связано с ограничениями памяти iOS. Пожалуйста, проверьте размер файла базы данных и настройки памяти Argon2 (должно быть <= 64МБ)";
 
 /* Regenerate... */
 "password_generation_regenerate_ellipsis" = "Сгенерировать заново";
@@ -3204,7 +3204,7 @@
 "audit_drill_down_no_excluded_items_title" = "Записей не найдено";
 
 /* You have not explicitly excluded any items from the audit. You can exclude an item by sliding right on it and tapping the Audit button. */
-"audit_drill_down_no_excluded_items_subtitle" = "Вы не исключили из проверки что-либо. Для исключения записи перейдите в обзорный вид, смахните по ней вправо и выберите опцию аудита.";
+"audit_drill_down_no_excluded_items_subtitle" = "Вы не исключили из проверки что-либо. Для исключения выберите опцию аудита записи в контекстном меню.";
 
 /* Unexclude */
 "audit_excluded_items_vc_action_unclude" = "Отменить исключение";
@@ -3438,10 +3438,10 @@
 "hint_tap_and_hold_to_see_options" = "Нажмите и удерживайте для опций";
 
 /* Launch URL & Copy */
-"browse_action_launch_url_copy_password" = "Запустить URL и скопировать пароль";
+"browse_action_launch_url_copy_password" = "Скопировать пароль и запуск URL";
 
 /* Copy Other Field... */
-"browse_context_menu_copy_other_field" = "Скопировать другое поле";
+"browse_context_menu_copy_other_field" = "Скопировать поле...";
 
 /* Move - Translators Note: Verb - To move something e.g. an entry or group somewhere else in the hierarchy */
 "generic_move" = "Переместить";
@@ -3495,13 +3495,13 @@
 "properties_vc_header_basic" = "Свойства";
 
 /* Some simple properties and settings of this item. */
-"properties_vc_footer_basic" = "Свойства и параметры элемента.";
+"properties_vc_footer_basic" = "Свойства и сведения об элементе.";
 
 /* Group Notes */
-"properties_vc_header_group_notes" = "Примечания группы";
+"properties_vc_header_group_notes" = " Заметки группы";
 
 /* Notes set on this group. */
-"properties_vc_footer_group_notes" = "Примечания, установленные для этой группы.";
+"properties_vc_footer_group_notes" = "Заметки для группы.";
 
 /* Dates */
 "properties_vc_header_dates" = "История дат";
@@ -3522,4 +3522,31 @@
 "generic_setting_is_inherited_from_parent" = "Наследовать от родителя";
 
 /* Copy & Launch */
-"browse_prefs_tap_action_copy_and_launch" = "Скопировать пароль и запустить URL";
+"browse_prefs_tap_action_copy_and_launch" = "Скопировать пароль и запуск URL";
+
+/* Foreground Color */
+"item_properties_foreground_color" = "Цвет текста";
+
+/* Background Color */
+"item_properties_background_color" = "Цвет фона";
+
+/* Override URL */
+"item_properties_override_url" = "Переопределение URL";
+
+/* AutoType Enabled */
+"item_properties_autotype_enabled" = "Разрешить автонабор";
+
+/* AutoType Obfuscation */
+"item_properties_autotype_obfuscation" = "Усложнение автонабора";
+
+/* Target Window: [%@] - Translators Note: 1st param is a window title used by the AutoType feature in Windows KeePass to locate or match on a particular window before performing a specific AutoType sequence */
+"item_properties_target_window_fmt" = "Целевое окно: [%@]";
+
+/* Statistics */
+"properties_vc_header_statistics" = "Статистика";
+
+/* Database KeePass XML Copied to Clipboard */
+"export_vc_message_xml_copied" = "XML скопирован в буфер обмена";
+
+/* Latin-1 Supplement */
+"pwgen_casing_latin1_supplement" = "Дополнение Latin-1";
