@@ -1399,7 +1399,7 @@
 "key_files_vc_no_key_file" = "No Key File";
 
 /* The Convenience Password or Key File were incorrect for this database. Convenience Unlock Disabled. */
-"open_sequence_problem_opening_convenience_incorrect_message" = "The stored convenience password or other composite key factors (key file/Yubikey) were incorrect for this database. Convenience Unlock has been Disabled.";
+"open_sequence_problem_opening_convenience_incorrect_message" = "The stored convenience password or other composite key factors (key file/YubiKey) were incorrect for this database. Convenience Unlock has been Disabled.";
 
 /* Incorrect Credentials */
 "open_sequence_problem_opening_incorrect_credentials_title" = "Incorrect Credentials";
@@ -2784,8 +2784,8 @@
 /* Disabled (Pro Edition Only) */
 "casg_yubikey_configured_disabled_pro_only" = "Disabled (Pro Edition Only)";
 
-/* Yubikey (Pro Edition Only) */
-"casg_section_header_yubikey_pro_only" = "Yubikey (Pro Edition Only)";
+/* YubiKey (Pro Edition Only) */
+"casg_section_header_yubikey_pro_only" = "YubiKey (Pro Edition Only)";
 
 /* Unknown (Translators Note: Used when generally when something can't be determined, e.g. The URL or file name of a database, or the type of storage provider used, or the format of a newly opened database etc.)*/
 "generic_unknown" = "Unknown";
@@ -2793,8 +2793,8 @@
 /* Valid Credentials */
 "mac_valid_credentials" = "Valid Credentials";
 
-/* Could not get challenge response from Yubikey */
-"mac_error_getting_challenge_response_yubikey" = "Could not get challenge response from Yubikey";
+/* Could not get challenge response from YubiKey */
+"mac_error_getting_challenge_response_yubikey" = "Could not get challenge response from YubiKey";
 
 /* Refreshing... (Translators Note: Used whenever running a fairly short operation to indicate somehting is happening, e.g. when polling YubiKey status (can take a few seconds)) */
 "generic_refreshing_ellipsis" = "Refreshing...";
@@ -2808,20 +2808,20 @@
 /* YubiKey (Pro Only) */
 "mac_lock_screen_yubikey_popup_menu_yubico_pro_only" = "YubiKey (Pro Only)";
 
-/* Yubikey Slot %ld (Touch Required) - (Translators Note: Some YubiKey devices/configurations require the user to touch or press a button to authenticate. This string also takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_touch_required_fmt" = "Yubikey Slot %ld (Touch Required)";
+/* YubiKey Slot %ld (Touch Required) - (Translators Note: Some YubiKey devices/configurations require the user to touch or press a button to authenticate. This string also takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
+"mac_yubikey_slot_n_touch_required_fmt" = "YubiKey Slot %ld (Touch Required)";
 
-/* Yubikey Slot %ld (Translators Note: This string takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_fmt" = "Yubikey Slot %ld";
+/* YubiKey Slot %ld (Translators Note: This string takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
+"mac_yubikey_slot_n_fmt" = "YubiKey Slot %ld";
 
 /* No YubiKeys Found */
 "mac_no_yubikeys_found" = "No YubiKeys Found";
 
-/* Yubikey %@ Slot %ld (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
-"mac_yubikey_serial_number_slot_n_touch_required_fmt" = "Yubikey %@ Slot %ld (Touch Required)";
+/* YubiKey %@ Slot %ld (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
+"mac_yubikey_serial_number_slot_n_touch_required_fmt" = "YubiKey %@ Slot %ld (Touch Required)";
 
-/* Yubikey %@ Slot %ld  - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2) */
-"mac_yubikey_serial_number_slot_n_fmt" = "Yubikey %@ Slot %ld";
+/* YubiKey %@ Slot %ld  - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2) */
+"mac_yubikey_serial_number_slot_n_fmt" = "YubiKey %@ Slot %ld";
 
 /* YubiKey found but no compatible HMACSHA1 slots available */
 "mac_yubikey_available_but_no_compatible_slots" = "YubiKey found but no compatible HMACSHA1 slots available";
@@ -3404,23 +3404,23 @@
 /* URL May Be Invalid */
 "webdav_vc_validation_url_maybe_invalid" = "URL May Be Invalid";
 
-/* NFC Yubikey (Pro Edition Only) */
-"yubikey_config_section_header_nfc_pro_only" = "NFC Yubikey (Pro Edition Only)";
+/* NFC YubiKey (Pro Edition Only) */
+"yubikey_config_section_header_nfc_pro_only" = "NFC YubiKey (Pro Edition Only)";
 
-/* NFC Yubikey (NFC Not Supported on Device) */
-"yubikey_config_section_header_nfc_device_not_supported" = "NFC Yubikey (NFC Not Supported on Device)";
+/* NFC YubiKey (NFC Not Supported on Device) */
+"yubikey_config_section_header_nfc_device_not_supported" = "NFC YubiKey (NFC Not Supported on Device)";
 
-/* NFC Yubikey (AutoFill Mode - NFC Unavailable) */
-"yubikey_config_section_header_nfc_autofill_unavailable" = "NFC Yubikey (NFC Unavailable in AutoFill)";
+/* NFC YubiKey (AutoFill Mode - NFC Unavailable) */
+"yubikey_config_section_header_nfc_autofill_unavailable" = "NFC YubiKey (NFC Unavailable in AutoFill)";
 
-/* Lightning Yubikey (Pro Edition Only) */
-"yubikey_config_section_header_lightning_pro_only" = "Lightning Yubikey (Pro Edition Only)";
+/* Lightning YubiKey (Pro Edition Only) */
+"yubikey_config_section_header_lightning_pro_only" = "Lightning YubiKey (Pro Edition Only)";
 
-/* Lightning Yubikey (Lightning Not Supported on Device) */
-"yubikey_config_section_header_lightning_device_not_supported" = "Lightning Yubikey (Lightning Not Supported on Device)";
+/* Lightning YubiKey (Lightning Not Supported on Device) */
+"yubikey_config_section_header_lightning_device_not_supported" = "Lightning YubiKey (Lightning Not Supported on Device)";
 
-/* Lightning Yubikey (AutoFill Mode - Lightning Unavailable) */
-"yubikey_config_section_header_lightning_autofill_unavailable" = "Lightning Yubikey (Lightning Unavailable in AutoFill)";
+/* Lightning YubiKey (AutoFill Mode - Lightning Unavailable) */
+"yubikey_config_section_header_lightning_autofill_unavailable" = "Lightning YubiKey (Lightning Unavailable in AutoFill)";
 
 /* Are you sure you want to delete this Virtual Hardware Key? */
 "yubikey_config_are_you_sure_delete" = "Are you sure you want to delete this Virtual Hardware Key?";
