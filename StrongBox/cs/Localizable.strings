@@ -3012,7 +3012,7 @@
 "audit_status_done_with_hibp_errors_fmt" = "Nalezeno %@ problémů v %@ záznamech (s %@ chybami HIBS)";
 
 /* Audit Complete */
-"audit_status_complete" = "Status: Complete";
+"audit_status_complete" = "Stav: Dokončeno";
 
 /* Database Auditor Initialized */
 "audit_status_initialized" = "Stav: Inicializace...";
@@ -3198,7 +3198,7 @@
 "audit_drill_down_go_to_database_audit_preferences" = "Předvolby auditu databáze";
 
 /* View All Audit Issues */
-"audit_drill_down_view_all_audit_issues" = "View All Audit Issues";
+"audit_drill_down_view_all_audit_issues" = "Zobrazit všechny problémy s auditem";
 
 /* No Excluded Items */
 "audit_drill_down_no_excluded_items_title" = "Žádné vyloučené položky";
@@ -3447,7 +3447,7 @@
 "generic_move" = "Přesunout";
 
 /* New Entry - Translators Note: Menu option to add a new entry */
-"browse_context_menu_new_entry" = "New Entry";
+"browse_context_menu_new_entry" = "Nová položka";
 
 /* New Group Translators Note: Menu option to add a new group */
 "browse_context_menu_new_group" = "Nová skupina";
@@ -3462,7 +3462,7 @@
 "generic_sort" = "Seřadit";
 
 /* Customize View */
-"browse_context_menu_customize_view" = "Customize View";
+"browse_context_menu_customize_view" = "Přizpůsobit zobrazení";
 
 /* Database Settings */
 "browse_context_menu_database_settings" = "Nastavení databáze";
@@ -3559,3 +3559,21 @@
 
 /* No Databases Here Yet\n\nClick 'New Database...' or 'Add Existing...' below to get started. */
 "mac_no_databases_initial_message" = "Zde zatím nejsou žádné databáze,\n\nPro začátek klikněte na 'Nová databáze...' nebo 'Přidat existující...'.";
+
+/* No AutoFill Enabled Databases */
+"mac_no_autofill_enabled_databases_initial_message" = "No AutoFill Enabled Databases";
+
+/* It looks like this is your first time using AutoFill with this database.\n\nFor security reasons you must locate and select your database file for Strongbox so that the AutoFill can access it.\n\nAs a reminder your database file was last located here:\n\n%@\n\nPlease locate it now for Strongbox...  - Translator's note: The parameter is the path of the database like '/Users/mark/Desktop/my-database.kdbx' */
+"mac_autofill_first_time_locate-fmt" = "It looks like this is your first time using AutoFill with this database.\n\nFor security reasons you must locate and select your database file for Strongbox so that the AutoFill can access it.\n\nAs a reminder your database file was last located here:\n\n%@\n\nPlease locate it now for Strongbox...";
+
+/* Welcome to Strongbox AutoFill */
+"mac_welcome_to_autofill" = "Welcome to Strongbox AutoFill";
+
+/* Locate '%@' - Translator's note: The parameter is the filename of the database like 'my-database.kdbx' */
+"mac_autofill_locate_file_fmt" = "Locate '%@'";
+
+/* Pro Feature */
+"mac_autofill_pro_feature_title" = "Pro Feature";
+
+/* AutoFill is only available on the Pro edition of Strongbox. You can upgrade like this:\n\n1. Launch Strongbox\n2. Click the 'Strongbox' menu\n3. Click 'Upgrade to Pro...'.\n\nThank you! */
+"mac_autofill_pro_feature_upgrade-message" = "AutoFill is only available on the Pro edition of Strongbox. You can upgrade like this:\n\n1. Launch Strongbox\n2. Click the 'Strongbox' menu\n3. Click 'Upgrade to Pro...'.\n\nThank you!";
