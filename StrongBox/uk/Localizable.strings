@@ -1399,7 +1399,7 @@
 "key_files_vc_no_key_file" = "Немає ключового файлу";
 
 /* The Convenience Password or Key File were incorrect for this database. Convenience Unlock Disabled. */
-"open_sequence_problem_opening_convenience_incorrect_message" = "The stored convenience password or other composite key factors (key file/YubiKey) were incorrect for this database. Convenience Unlock has been Disabled.";
+"open_sequence_problem_opening_convenience_incorrect_message" = "Збережений пароль чи інші складові композитного ключа (ключовий файл/YubiKey) неправильні для цієї бази паролів. Зручне розблокування було вимкнено.";
 
 /* Incorrect Credentials */
 "open_sequence_problem_opening_incorrect_credentials_title" = "Неправильні облікові дані";
@@ -2785,7 +2785,7 @@
 "casg_yubikey_configured_disabled_pro_only" = "Вимкнено (Тільки Pro версія)";
 
 /* YubiKey (Pro Edition Only) */
-"casg_section_header_yubikey_pro_only" = "YubiKey (Pro Edition Only)";
+"casg_section_header_yubikey_pro_only" = "YubiKey (Лише версія Pro)";
 
 /* Unknown (Translators Note: Used when generally when something can't be determined, e.g. The URL or file name of a database, or the type of storage provider used, or the format of a newly opened database etc.)*/
 "generic_unknown" = "Невідомо";
@@ -2794,7 +2794,7 @@
 "mac_valid_credentials" = "Дійсні облікові дані";
 
 /* Could not get challenge response from YubiKey */
-"mac_error_getting_challenge_response_yubikey" = "Could not get challenge response from YubiKey";
+"mac_error_getting_challenge_response_yubikey" = "Не вдається отримати відповідь на виклик від YubiKey";
 
 /* Refreshing... (Translators Note: Used whenever running a fairly short operation to indicate somehting is happening, e.g. when polling YubiKey status (can take a few seconds)) */
 "generic_refreshing_ellipsis" = "Оновлення...";
@@ -2809,19 +2809,19 @@
 "mac_lock_screen_yubikey_popup_menu_yubico_pro_only" = "YubiKey (Тільки Pro)";
 
 /* YubiKey Slot %ld (Touch Required) - (Translators Note: Some YubiKey devices/configurations require the user to touch or press a button to authenticate. This string also takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_touch_required_fmt" = "YubiKey Slot %ld (Touch Required)";
+"mac_yubikey_slot_n_touch_required_fmt" = "Слот YubiKey %ld (Потрібен дотик)";
 
 /* YubiKey Slot %ld (Translators Note: This string takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_fmt" = "YubiKey Slot %ld";
+"mac_yubikey_slot_n_fmt" = "Слот YubiKey %ld";
 
 /* No YubiKeys Found */
 "mac_no_yubikeys_found" = "Не знайдено YubiKey";
 
 /* YubiKey %@ Slot %ld (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
-"mac_yubikey_serial_number_slot_n_touch_required_fmt" = "YubiKey %@ Slot %ld (Touch Required)";
+"mac_yubikey_serial_number_slot_n_touch_required_fmt" = "Слот %ld YubiKey %@ (Потрібен дотик)";
 
 /* YubiKey %@ Slot %ld  - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2) */
-"mac_yubikey_serial_number_slot_n_fmt" = "YubiKey %@ Slot %ld";
+"mac_yubikey_serial_number_slot_n_fmt" = "Слот %ld YubiKey %@";
 
 /* YubiKey found but no compatible HMACSHA1 slots available */
 "mac_yubikey_available_but_no_compatible_slots" = "YubiKey знайдено, але немає сумісних HMACSHA1 слотів";
@@ -3405,22 +3405,22 @@
 "webdav_vc_validation_url_maybe_invalid" = "URL може бути недійсним";
 
 /* NFC YubiKey (Pro Edition Only) */
-"yubikey_config_section_header_nfc_pro_only" = "NFC YubiKey (Pro Edition Only)";
+"yubikey_config_section_header_nfc_pro_only" = "NFC YubiKey (Лише версія Pro)";
 
 /* NFC YubiKey (NFC Not Supported on Device) */
-"yubikey_config_section_header_nfc_device_not_supported" = "NFC YubiKey (NFC Not Supported on Device)";
+"yubikey_config_section_header_nfc_device_not_supported" = "NFC YubiKey (NFC не підтримується пристроєм)";
 
 /* NFC YubiKey (AutoFill Mode - NFC Unavailable) */
-"yubikey_config_section_header_nfc_autofill_unavailable" = "NFC YubiKey (NFC Unavailable in AutoFill)";
+"yubikey_config_section_header_nfc_autofill_unavailable" = "NFC YubiKey (NFC недоступно для автозаповнення)";
 
 /* Lightning YubiKey (Pro Edition Only) */
-"yubikey_config_section_header_lightning_pro_only" = "Lightning YubiKey (Pro Edition Only)";
+"yubikey_config_section_header_lightning_pro_only" = "Lightning YubiKey (Лише версія Pro)";
 
 /* Lightning YubiKey (Lightning Not Supported on Device) */
-"yubikey_config_section_header_lightning_device_not_supported" = "Lightning YubiKey (Lightning Not Supported on Device)";
+"yubikey_config_section_header_lightning_device_not_supported" = "Lightning YubiKey (Lightning не підтримується пристроєм)";
 
 /* Lightning YubiKey (AutoFill Mode - Lightning Unavailable) */
-"yubikey_config_section_header_lightning_autofill_unavailable" = "Lightning YubiKey (Lightning Unavailable in AutoFill)";
+"yubikey_config_section_header_lightning_autofill_unavailable" = "Lightning YubiKey (Lightning недоступний для автозаповнення)";
 
 /* Are you sure you want to delete this Virtual Hardware Key? */
 "yubikey_config_are_you_sure_delete" = "Ви дійсно хочете видалити цей віртуальний апаратний ключ?";
@@ -3561,19 +3561,19 @@
 "mac_no_databases_initial_message" = "Тут ще немає баз паролів\n\nОберіть \"Нова база паролів...\" або \"Додати наявну...\" для початку.";
 
 /* No AutoFill Enabled Databases */
-"mac_no_autofill_enabled_databases_initial_message" = "No AutoFill Enabled Databases";
+"mac_no_autofill_enabled_databases_initial_message" = "Немає баз даних з увімкненим автозаповненням";
 
 /* It looks like this is your first time using AutoFill with this database.\n\nFor security reasons you must locate and select your database file for Strongbox so that the AutoFill can access it.\n\nAs a reminder your database file was last located here:\n\n%@\n\nPlease locate it now for Strongbox...  - Translator's note: The parameter is the path of the database like '/Users/mark/Desktop/my-database.kdbx' */
-"mac_autofill_first_time_locate-fmt" = "It looks like this is your first time using AutoFill with this database.\n\nFor security reasons you must locate and select your database file for Strongbox so that the AutoFill can access it.\n\nAs a reminder your database file was last located here:\n\n%@\n\nPlease locate it now for Strongbox...";
+"mac_autofill_first_time_locate-fmt" = "Схоже, ви вперше використовуєте автозаповнення з цією базою паролів.\n\nЗ міркувань безпеки, ви повинні вказати й вибрати файл бази даних для Strongbox, щоб функція автозаповнення отримала до нього доступ.\n\n%@\n\nВкажіть розташування для Strongbox...";
 
 /* Welcome to Strongbox AutoFill */
-"mac_welcome_to_autofill" = "Welcome to Strongbox AutoFill";
+"mac_welcome_to_autofill" = "Вітаємо в автозаповненні Strongbox";
 
 /* Locate '%@' - Translator's note: The parameter is the filename of the database like 'my-database.kdbx' */
-"mac_autofill_locate_file_fmt" = "Locate '%@'";
+"mac_autofill_locate_file_fmt" = "Вказати розташування %@";
 
 /* Pro Feature */
-"mac_autofill_pro_feature_title" = "Pro Feature";
+"mac_autofill_pro_feature_title" = "Функція Pro";
 
 /* AutoFill is only available on the Pro edition of Strongbox. You can upgrade like this:\n\n1. Launch Strongbox\n2. Click the 'Strongbox' menu\n3. Click 'Upgrade to Pro...'.\n\nThank you! */
-"mac_autofill_pro_feature_upgrade-message" = "AutoFill is only available on the Pro edition of Strongbox. You can upgrade like this:\n\n1. Launch Strongbox\n2. Click the 'Strongbox' menu\n3. Click 'Upgrade to Pro...'.\n\nThank you!";
+"mac_autofill_pro_feature_upgrade-message" = "Автозаповнення доступне лише у версії Strongbox Pro. Ви можете виконати оновлення таким чином:\n\n1. Запустіть Strongbox\n2. Оберіть меню Strongbox\n3. Торкніться \"Оновити до версії Pro...\".\n\nДякуємо!";
