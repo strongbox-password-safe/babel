@@ -765,7 +765,7 @@
 "sbtvc_select_new_database_location" = "പുതിയ ഡാറ്റാബേസിനായി ഫോൾഡർ തിരഞ്ഞെടുക്കുക";
 
 /* Copy from URL... */
-"sspc_copy_from_url_action" = "Copy from URL...";
+"sspc_copy_from_url_action" = "URL-ൽ നിന്ന് പകർത്തുക...";
 
 /* Invalid Database */
 "sspc_error_invalid_database" = "അസാധുവായ ഡാറ്റാബേസ്";
@@ -780,7 +780,7 @@
 "sspc_local_device_storage_warning_title" = "Local Device Database Caveat";
 
 /* Please Enter the URL of the Database File. */
-"sspc_manual_import_enter_url_message" = "Please Enter the URL of the Database File.";
+"sspc_manual_import_enter_url_message" = "ദയവായി ഡാറ്റാബേസിന്റെ URL നൽകുക.";
 
 /* Enter URL */
 "sspc_manual_import_enter_url_title" = "URL നൽകുക";
@@ -882,7 +882,7 @@
 "databases_preferences_subtitle_field_name_last_cached_data" = "അവസാനം പരിഷ്കരിച്ചത്";
 
 /* Last Modified (Precise) */
-"databases_preferences_subtitle_field_name_last_modified_date_precise" = "Last Modified (Precise)";
+"databases_preferences_subtitle_field_name_last_modified_date_precise" = "അവസാനം പരിഷ്‌ക്കരിച്ചത് (കൃത്യത)";
 
 /* File Size */
 "databases_preferences_subtitle_field_name_file_size" = "ഫയലിന്റെ വലുപ്പം";
@@ -929,22 +929,22 @@
 
 /* Could not get database data
    Error Encrypting */
-"export_vc_error_encrypting" = "Error Encrypting";
+"export_vc_error_encrypting" = "എൻ‌ക്രിപ്റ്റ് ചെയ്യുന്നതിൽ പിശക്";
 
 /* Email Not Available */
-"export_vc_email_unavailable_title" = "Email Not Available";
+"export_vc_email_unavailable_title" = "ഇമെയിൽ ലഭ്യമല്ല";
 
 /* It looks like email is not setup on this device and so the database cannot be exported by email. */
 "export_vc_email_unavailable_message" = "It looks like email is not setup on this device and so the database cannot be exported by email.";
 
 /* Strongbox Database: '%@' */
-"export_vc_email_subject" = "Strongbox Database: '%@'";
+"export_vc_email_subject" = "Strongbox ഡാറ്റാബേസ്: '%@'";
 
 /* Here's a copy of my '%@' Strongbox Database. */
 "export_vc_email_message_body_fmt" = "Here's a copy of my '%@' Strongbox Database.";
 
 /* Error Sending */
-"export_vc_email_error_sending" = "Error Sending";
+"export_vc_email_error_sending" = "അയയ്‌ക്കുന്നതിൽ പിശക്";
 
 /* Export Successful */
 "export_vc_export_successful_title" = "Export Successful";
@@ -1001,7 +1001,7 @@
 "pins_config_vc_enter_duress_pin" = "Enter Duress PIN";
 
 /* PIN Conflict */
-"pins_config_vc_error_pin_conflict_title" = "PIN Conflict";
+"pins_config_vc_error_pin_conflict_title" = "PIN സംഘർഷം";
 
 /* Your Convenience PIN conflicts with your Duress PIN. Please select another. */
 "pins_config_vc_error_pin_conflict_message" = "Your Convenience PIN conflicts with your Duress PIN or is of a different length. Please select another of the correct length.";
@@ -1016,7 +1016,7 @@
 "pins_config_vc_warn_remove_database_remove_message" = "This will remove the database from Strongbox but the underlying file will remain on cloud storage";
 
 /* Manage Key Files */
-"key_files_vc_manage_title" = "Manage Key Files";
+"key_files_vc_manage_title" = "കീ ഫയലുകൾ നിയന്ത്രിക്കുക";
 
 /* Select Key File */
 "key_files_vc_select_title" = "കീ ഫയൽ തിരഞ്ഞെടുക്കുക";
@@ -1119,7 +1119,7 @@
 "sftp_provider_connect_failed_fmt" = "Could not connect to host: %@ [user: %@]";
 
 /* Attachment Location */
-"add_attachment_vc_prompt_title" = "Attachment Location";
+"add_attachment_vc_prompt_title" = "അറ്റാച്ചുമെന്റ് സ്ഥാനം";
 
 /* Photos */
 "add_attachment_vc_prompt_source_option_photos" = "ഫോട്ടോകൾ";
@@ -1179,7 +1179,7 @@
 "add_attachment_vc_prompt_filename_message" = "Enter a filename for this item";
 
 /* Filename in Use */
-"add_attachment_vc_warn_filename_used_title" = "Filename in Use";
+"add_attachment_vc_warn_filename_used_title" = "ഉപയോഗത്തിലുള്ള ഫയൽ നാമം";
 
 /* This filename is already in use. Please enter a different name. */
 "add_attachment_vc_warn_filename_used_message" = "This filename is already in use. Please enter a different name.";
@@ -1362,7 +1362,7 @@
 "open_sequence_biometric_unlock_prompt_title" = "Identify to Unlock Database";
 
 /* Unlock Manually... */
-"open_sequence_biometric_unlock_fallback" = "Unlock Manually...";
+"open_sequence_biometric_unlock_fallback" = "സ്വമേധയാ അൺലോക്കുചെയ്യുക...";
 
 /* %@ Failed */
 "open_sequence_biometric_unlock_warn_failed_title_fmt" = "%@ പരാജയപ്പെട്ടു";
@@ -1380,14 +1380,14 @@
 "open_sequence_user_looks_offline_open_offline_instead_fmt" = "It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@";
 
 /* No, Try to connect anyway */
-"open_sequence_yesno_use_offline_cache_no_try_connect_option" = "No, Try to connect anyway";
+"open_sequence_yesno_use_offline_cache_no_try_connect_option" = "ഇല്ല, എന്തായാലും ബന്ധിപ്പിക്കാൻ ശ്രമിക്കുക";
 
 /* There was a problem reading the database on %@. would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ */
 "open_sequence_storage_unreachable_open_offline_instead_fmt" = "There was a problem reading the database on %@. If this happens repeatedly you should try removing and re-adding your database. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@";
 
 /* Could not open database
    There was a problem opening the database. */
-"open_sequence_problem_opening_title" = "There was a problem opening the database.";
+"open_sequence_problem_opening_title" = "ഡാറ്റാബേസ് തുറക്കുന്നതിൽ ഒരു പ്രശ്നമുണ്ടായിരുന്നു.";
 
 /* AutoFill Crash Likely */
 "open_sequence_autofill_creash_likely_title" = "AutoFill Crash Likely";
@@ -1441,7 +1441,7 @@
 "open_sequence_prompt_use_convenience_use_pin" = "ഒരു PIN കോഡ് ഉപയോഗിക്കുക...";
 
 /* PIN Conflict */
-"open_sequence_warn_pin_conflict_title" = "PIN Conflict";
+"open_sequence_warn_pin_conflict_title" = "PIN സംഘർഷം";
 
 /* Your Convenience PIN conflicts with your Duress PIN. Please configure in Database Settings */
 "open_sequence_warn_pin_conflict_message" = "Your Convenience PIN conflicts with your Duress PIN. Please configure in Database Settings";
@@ -1540,7 +1540,7 @@
 "cloud_sessions_prompt_signout_google_message" = "Are you sure you want to sign out of Google Drive?";
 
 /* Sign Out Successful */
-"cloud_sessions_prompt_google_signout_success_title" = "Sign Out Successful";
+"cloud_sessions_prompt_google_signout_success_title" = "സൈൻ ഔട്ട് വിജയകരം";
 
 /* You have been successfully been signed out of Google Drive. */
 "cloud_sessions_prompt_google_signout_success_message" = "You have been successfully been signed out of Google Drive.";
@@ -1573,7 +1573,7 @@
 "cloud_sessions_prompt_onedrive_signout_error" = "Error Signing out of OneDrive";
 
 /* (in /) */
-"pick_creds_vc_group_path_display_string_root" = "(in /)";
+"pick_creds_vc_group_path_display_string_root" = "( / -ൽ)";
 
 /* (in /%@) */
 "pick_creds_vc_group_path_display_string_fmt" = "(in /%@)";
@@ -1591,7 +1591,7 @@
 "pick_creds_vc_empty_search_dataset_title" = "No Matching Entries";
 
 /* Empty Database */
-"pick_creds_vc_empty_dataset_title" = "Empty Database";
+"pick_creds_vc_empty_dataset_title" = "ഡാറ്റാബേസ് ശൂന്യമാണ്";
 
 /* Could not find any matching entries */
 "pick_creds_vc_empty_search_dataset_subtitle" = "Could not find any matching entries";
@@ -1690,10 +1690,10 @@
 "pwgen_casing_symbols" = "ചിഹ്നങ്ങൾ";
 
 /* Basic (Some Words) */
-"pwgen_hacker_level_basic_some" = "Basic (Some Words)";
+"pwgen_hacker_level_basic_some" = "അടിസ്ഥാന (ചില വാക്കുകൾ)";
 
 /* Basic (All Words) */
-"pwgen_hacker_level_basic_all" = "Basic (All Words)";
+"pwgen_hacker_level_basic_all" = "അടിസ്ഥാന (എല്ലാ വാക്കുകളും)";
 
 /* Pro (Some Words) */
 "pwgen_hacker_level_pro_some" = "Pro (Some Words)";
