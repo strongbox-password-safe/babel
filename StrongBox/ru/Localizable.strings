@@ -3549,7 +3549,7 @@
 "export_vc_message_xml_copied" = "XML скопирован в буфер обмена";
 
 /* Latin-1 Supplement */
-"pwgen_casing_latin1_supplement" = "Дополнение Latin-1";
+"pwgen_casing_latin1_supplement" = "Дополнение к Latin-1";
 
 /* Are you sure you want to remove this database from Strongbox?\n\nNB: The underlying database file will not be deleted. Just Strongbox's settings for this database. */
 "are_you_sure_delete_database_single" = "Вы действительно хотите удалить базу данных из Strongbox?\n\nПримечание: Будут удалены настройки для этой базы данных в приложении. Сам файл не будет удалён.";
@@ -3588,10 +3588,19 @@
 "backups_backup_subtitle_fmt" = "%@ (Дата создания: %@)";
 
 /* Enable Strongbox Extension */
-"mac_autofill_enable_extension_title" = "Enable Strongbox Extension";
+"mac_autofill_enable_extension_title" = "Включить расширение Strongbox";
 
 /* To use AutoFill you must enable the Strongbox Extension in System Preferences. To do this click the 'Open System Preferences...' button below and navigate to:\n\n∙ Extensions > Password AutoFill > Check 'Strongbox' */
-"mac_autofill_enable_extension_message" = "To use AutoFill you must enable the Strongbox Extension in System Preferences. To do this click the 'Open System Preferences...' button below and navigate to:\n\n∙ Extensions > Password AutoFill > Check 'Strongbox'";
+"mac_autofill_enable_extension_message" = "Для использования функции автозаполнения необходимо включить расширение Strongbox в настройках. Для этого нажмите кнопку «Открыть системные параметры» и перейдите к:\n\n∙ Расширения > Автозаполнение паролей > Выберите «Strongbox»";
 
 /* Open System Preferences... */
-"mac_autofill_action_open_system_preferences" = "Open System Preferences...";
+"mac_autofill_action_open_system_preferences" = "Открыть системные параметры";
+
+/* Merge... - Translators Note: Merge is a verb, "To Merge", the idea being that the user will select 2 databases to merge together... */
+"generic_action_merge_ellipsis" = "Merge...";
+
+/* No Other Databases Available */
+"merge_no_other_databases_available_title" = "No Other Databases Available";
+
+/* There are no other databases in your databases collection to merge into this database. You must add another database so that you can select it for the merge operation. */
+"merge_no_other_databases_available_msg" = "There are no other databases in your databases collection to merge into this database. You must add another database so that you can select it for the merge operation.";

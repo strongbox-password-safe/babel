@@ -3579,19 +3579,28 @@
 "mac_autofill_pro_feature_upgrade-message" = "Le remplissage automatique n'est disponible que sur la version Pro de Strongbox. Vous pouvez mettre à niveau comme ceci :\n\n1. Lancez Strongbox\n2. Cliquez sur le menu 'Strongbox'\n3. Cliquez sur 'Mettre à niveau vers Pro...'.\n\nMerci!";
 
 /* Passcode Fallback for %@ - Translators Note: This is a preference that says that the device passcode can be used as a fallback if Face ID or Touch ID fails - the parameter is either 'Touch ID' or 'Face ID' */
-"app_lock_allow_device_passcode_fallback_for_biometric_fmt" = "Passcode Fallback for %@";
+"app_lock_allow_device_passcode_fallback_for_biometric_fmt" = "Code de l'appareil pour %@";
 
 /* Backup %ld (%@) - Translators Note: 1st Param is a number/integer, second parameter is the modified date, so e.g. 'Backup 4 (11 Nov 2020)'*/
-"backups_backup_title_fmt" = "Backup %ld (%@)";
+"backups_backup_title_fmt" = "Sauvegarde %ld (%@)";
 
 /* %@ (Created %@) - Translators Note: 1st Param is the filesize, second parameter is the created date, so e.g. '11KB (10 Nov 2020)' */
-"backups_backup_subtitle_fmt" = "%@ (Created %@)";
+"backups_backup_subtitle_fmt" = "%@ (Créé %@)";
 
 /* Enable Strongbox Extension */
-"mac_autofill_enable_extension_title" = "Enable Strongbox Extension";
+"mac_autofill_enable_extension_title" = "Activer l'extension Strongbox";
 
 /* To use AutoFill you must enable the Strongbox Extension in System Preferences. To do this click the 'Open System Preferences...' button below and navigate to:\n\n∙ Extensions > Password AutoFill > Check 'Strongbox' */
-"mac_autofill_enable_extension_message" = "To use AutoFill you must enable the Strongbox Extension in System Preferences. To do this click the 'Open System Preferences...' button below and navigate to:\n\n∙ Extensions > Password AutoFill > Check 'Strongbox'";
+"mac_autofill_enable_extension_message" = "Pour utiliser le remplissage automatique, vous devez activer l'extension Strongbox dans les préférences système. Pour ce faire, appuyez sur le bouton 'Ouvrir les préférences système...' ci-dessous et accédez à :\n\n∙ Extensions > Remplissage automatique du mot de passe > Cochez 'Strongbox'";
 
 /* Open System Preferences... */
-"mac_autofill_action_open_system_preferences" = "Open System Preferences...";
+"mac_autofill_action_open_system_preferences" = "Ouvrir les préférences système...";
+
+/* Merge... - Translators Note: Merge is a verb, "To Merge", the idea being that the user will select 2 databases to merge together... */
+"generic_action_merge_ellipsis" = "Merge...";
+
+/* No Other Databases Available */
+"merge_no_other_databases_available_title" = "No Other Databases Available";
+
+/* There are no other databases in your databases collection to merge into this database. You must add another database so that you can select it for the merge operation. */
+"merge_no_other_databases_available_msg" = "There are no other databases in your databases collection to merge into this database. You must add another database so that you can select it for the merge operation.";
