@@ -123,7 +123,7 @@
 "safes_vc_new_database_advanced" = "പുതിയ ഡാറ്റാബേസ് (വിപുലമായത്)...";
 
 /* No comment provided by engineer. */
-"safes_vc_new_database_express" = "New Database (Express)...";
+"safes_vc_new_database_express" = "പുതിയ ഡാറ്റാബേസ് (എക്സ്പ്രസ്)...";
 
 /* No comment provided by engineer. */
 "safes_vc_error_pin_incorrect_title" = "പിന് അസാധുവാണ്";
@@ -372,7 +372,7 @@
 "browse_vc_group_name" = "ഗ്രൂപ്പിന്റെ പേര്";
 
 /* (in %@) - Translator's note, the 1st param is the name of the group that this search result is found in, e.g. 'Finance' or 'Work' */
-"browse_vc_group_path_string_fmt" = "(in %@)";
+"browse_vc_group_path_string_fmt" = "(%@-ൽ)";
 
 /* '%@': No TOTP setup to Copy! */
 "browse_vc_no_totp_to_copy_fmt" = "'%@': No TOTP setup to Copy!";
@@ -384,7 +384,7 @@
 "browse_vc_password_copied_fmt" = "'%@' പാസ്‌വേഡ് പകർത്തി";
 
 /*  (Read Only) */
-"browse_vc_read_only_suffix" = " (Read Only)";
+"browse_vc_read_only_suffix" = " (വായിക്കാൻ മാത്രം)";
 
 /* Rename Item */
 "browse_vc_rename_item" = "ഇനത്തിന്റെ പേരുമാറ്റുക";
@@ -543,7 +543,7 @@
 "db_management_disable_biomtric_simple_fmt" = "Are you sure you want to disable %@ for this database?";
 
 /* AutoFill Disabled */
-"db_management_disable_done" = "AutoFill Disabled";
+"db_management_disable_done" = "ഓട്ടോഫിൽ അപ്രാപ്‌തമാക്കി";
 
 /* %@ has been enabled for this database. */
 "db_management_enable_biometric_notify_message_fmt" = "%@ has been enabled for this database.";
@@ -615,7 +615,7 @@
 "item_details_setup_totp_failed_message" = "Could not set TOTP because it could not be initialized.";
 
 /* Failed to Set TOTP */
-"item_details_setup_totp_failed_title" = "Failed to Set TOTP";
+"item_details_setup_totp_failed_title" = "TOTP സജ്ജീകരിക്കുന്നതിൽ പരാജയപ്പെട്ടു";
 
 /* You can setup TOTP by using a QR Code, or manually by entering the secret or an OTPAuth URL */
 "item_details_setup_totp_how_message" = "You can setup TOTP by using a QR Code, or manually by entering the secret or an OTPAuth URL";
@@ -747,7 +747,7 @@
 "sbtvc_empty_table_no_files_found" = "ഫയലുകളോ ഫോൾഡറുകളോ കണ്ടെത്തിയില്ല";
 
 /* Error Reading Database File */
-"sbtvc_error_reading_database" = "Error Reading Database File";
+"sbtvc_error_reading_database" = "ഡാറ്റാബേസ് ഫയൽ വായിക്കുന്നതിൽ പിശക്";
 
 /* Invalid Database File */
 "sbtvc_invalid_database_file" = "അസാധുവായ ഡാറ്റാബേസ് ഫയൽ";
@@ -756,7 +756,7 @@
 "sbtvc_root_folder_only_message" = "You can only have databases in the Root folder for this storage type.";
 
 /* Root Folder Only */
-"sbtvc_root_folder_only_title" = "Root Folder Only";
+"sbtvc_root_folder_only_title" = "റൂട്ട് ഫോൾഡർ മാത്രം";
 
 /* Please Select Database File */
 "sbtvc_select_database_file" = "ദയവായി ഡാറ്റാബേസ് തിരഞ്ഞെടുക്കുക";
@@ -822,7 +822,7 @@
 "upgrade_vc_price_per_month_fmt" = "%@ / മാസം";
 
 /* %@/month (Save %d%%) */
-"upgrade_vc_price_per_month_with_percentage_saving_fmt" = "%@ / month (Save %d%%)";
+"upgrade_vc_price_per_month_with_percentage_saving_fmt" = "%@ / മാസം (Save %d%%)";
 
 /* Issue Restoring Purchase */
 "upgrade_vc_problem_restoring" = "Issue Restoring Purchase";
@@ -1167,10 +1167,10 @@
 "add_attachment_vc_large_image_prompt_use" = "വലിയ ചിത്രം ഉപയോഗിക്കുക?";
 
 /* Original (%d x %d) %@ */
-"add_attachment_vc_large_image_prompt_option_original_size_fmt" = "Original (%d x %d) %@";
+"add_attachment_vc_large_image_prompt_option_original_size_fmt" = "യഥാർത്ഥമായത് (%d x %d) %@";
 
 /* Use Anyway (%d x %d) %@ */
-"add_attachment_vc_large_image_prompt_option_use_anyway_size_fmt" = "Use Anyway (%d x %d) %@";
+"add_attachment_vc_large_image_prompt_option_use_anyway_size_fmt" = "എന്തായാലും ഉപയോഗിക്കുക (%d x %d) %@";
 
 /* Filename */
 "add_attachment_vc_prompt_filename_title" = "ഫയലിന്റെ പേര്";
@@ -1510,10 +1510,10 @@
 "password_gen_vc_word_separator_placeholder" = "Separator";
 
 /* Strongbox: Error Opening Database */
-"cred_vc_error_opening_title" = "Strongbox: Error Opening Database";
+"cred_vc_error_opening_title" = "Strongbox: ഡാറ്റാബേസ് എഴുതുന്നതിൽ പിശക്";
 
 /* You Have No Databases Yet :( */
-"autofill_safes_vc_empty_title" = "You Have No Databases Yet :(";
+"autofill_safes_vc_empty_title" = "നിങ്ങൾക്ക് ഇതുവരെ ഡാറ്റാബേസുകളൊന്നുമില്ല :(";
 
 /* To use Strongbox for Password Autofill you need to add a database. You can do this in the Strongbox App. */
 "autofill_safes_vc_empty_subtitle" = "To use Strongbox for Password Autofill you need to add a database. You can do this in the Strongbox App.";
@@ -1534,7 +1534,7 @@
 "cloud_sessions_clear_onedrive" = "Clear OneDrive Session";
 
 /* Sign Out of Google Drive? */
-"cloud_sessions_prompt_signout_google_title" = "Sign Out of Google Drive?";
+"cloud_sessions_prompt_signout_google_title" = "Google Drive-ൽ നിന്ന് സൈൻ ഔട്ട് ചെയ്യണോ?";
 
 /* Are you sure you want to sign out of Google Drive? */
 "cloud_sessions_prompt_signout_google_message" = "Are you sure you want to sign out of Google Drive?";
@@ -1576,7 +1576,7 @@
 "pick_creds_vc_group_path_display_string_root" = "( / -ൽ)";
 
 /* (in /%@) */
-"pick_creds_vc_group_path_display_string_fmt" = "(in /%@)";
+"pick_creds_vc_group_path_display_string_fmt" = "(%@-ൽ)";
 
 /* Unsupported Storage */
 "pick_creds_vc_cannot_create_new_unsupported_storage_type_title" = "Unsupported Storage";
@@ -1681,7 +1681,7 @@
 "pwgen_casing_title_case" = "Title Case";
 
 /* Random */
-"pwgen_casing_random" = "Random";
+"pwgen_casing_random" = "വികലമായ";
 
 /* Numeric */
 "pwgen_casing_numeric" = "സംഖ്യാ";
@@ -1744,13 +1744,13 @@
 "browse_vc_section_title_standard_view" = "ഇനങ്ങൾ";
 
 /* Compressed */
-"database_metadata_field_compressed" = "Compressed";
+"database_metadata_field_compressed" = "കം‌പ്രസ്സുചെയ്‌തു";
 
 /* Database Format */
 "database_metadata_field_format" = "ഡാറ്റാബേസ് ഫോർമാറ്റ്";
 
 /* Database Generator */
-"database_metadata_field_generator" = "Database Generator";
+"database_metadata_field_generator" = "ഡാറ്റാബേസ് സ്രഷ്ടാവ്";
 
 /* Inner Encryption */
 "database_metadata_field_inner_encryption" = "Inner Encryption";
@@ -1762,7 +1762,7 @@
 "database_metadata_field_key_derivation" = "Key Derivation";
 
 /* Max History Items */
-"database_metadata_field_max_history_items" = "Max History Items";
+"database_metadata_field_max_history_items" = "ബാക്കപ്പുകൾ";
 
 /* Max History Size */
 "database_metadata_field_max_history_size" = "Max History Size";
@@ -1825,7 +1825,7 @@
 "model_error_cannot_write_backup" = "Could not write backup, will not proceed with write of database!";
 
 /* Button Title to view backup settings of this database */
-"safes_vc_action_backups" = "Backups";
+"safes_vc_action_backups" = "ബാക്കപ്പുകൾ";
 
 /* Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences */
 "open_sequence_error_reading_key_file_autofill_context" = "Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences";
@@ -1945,13 +1945,13 @@
 "generic_error" = "പിശക്";
 
 /* Export */
-"generic_export" = "Export";
+"generic_export" = "എക്സ്പോര്‍ട്ട്‌";
 
 /* Remove - Translators Note: Verb - To Remove something, e.g. an item from a collection */
 "generic_remove" = "നീക്കം ചെയ്യുക";
 
 /* Rename - Translators Note: Verb - To rename something, e.g. an item in a collection, to give it different title */
-"generic_rename" = "Rename";
+"generic_rename" = "പേരു മാറ്റുക";
 
 /* Set */
 "generic_set" = "സജ്ജമാക്കുക";
@@ -1960,10 +1960,10 @@
 "generic_cancel" = "റദ്ദാക്കുക";
 
 /* Clear */
-"generic_clear" = "Clear";
+"generic_clear" = "മായ്ക്കുക";
 
 /* Database */
-"generic_database" = "Database";
+"generic_database" = "ഡാ‍റ്റാബേസ്";
 
 /* Options Title - What would like to do? Options are to Add a Database or Create New etc */
 "safes_vc_what_would_you_like_to_do" = "നിങ്ങൾ എന്താണ് ചെയ്യാൻ ആഗ്രഹിക്കുന്നത്?";
@@ -1984,7 +1984,7 @@
 "safes_vc_slide_left_more_actions" = "കൂടുതൽ...";
 
 /* Button to Rename the Database */
-"safes_vc_action_rename_database" = "Rename...";
+"safes_vc_action_rename_database" = "പേരു മാറ്റുക...";
 
 /* Remove this database table action */
 "safes_vc_slide_left_remove_database_action" = "നീക്കം ചെയ്യുക...";
@@ -2043,7 +2043,7 @@
 "browse_vc_action_edit" = "തിരുത്തുക";
 
 /* Rename */
-"browse_vc_action_rename" = "Rename";
+"browse_vc_action_rename" = "പേരു മാറ്റുക";
 
 /* Password */
 "browse_vc_search_scope_password" = "പാസ്‌വേഡ്";
@@ -2064,7 +2064,7 @@
 "casg_create_action" = "സൃഷ്ടിക്കുക";
 
 /* Rename */
-"casg_rename_action" = "Rename";
+"casg_rename_action" = "പേരു മാറ്റുക";
 
 /* Password */
 "casg_text_field_placeholder_password" = "പാസ്‌വേഡ്";
@@ -2109,13 +2109,13 @@
 "settings_touch_id_name" = "Touch ID";
 
 /* Date */
-"edit_date_cell_date_field_placeholder" = "Date";
+"edit_date_cell_date_field_placeholder" = "തീയതി";
 
 /* Time */
 "edit_date_cell_time_field_placeholder" = "സമയം";
 
 /* Remove */
-"key_files_vc_option_remove" = "Remove";
+"key_files_vc_option_remove" = "നീക്കം ചെയ്യുക";
 
 /* Import */
 "key_files_vc_option_import" = "Import";
@@ -2139,7 +2139,7 @@
 "pick_creds_vc_search_scope_url" = "URL";
 
 /* All Fields */
-"pick_creds_vc_search_scope_all_fields" = "All Fields";
+"pick_creds_vc_search_scope_all_fields" = "എല്ലാ ഫീൽഡുകളും";
 
 /* Never */
 "item_details_expiry_never" = "Never";
@@ -2216,7 +2216,7 @@
 "mac_unlock_database_with_biometric_fmt" = "Unlock with %@ or Watch";
 
 /* Could not open key file. */
-"mac_error_could_not_open_key_file" = "Could not open key file.";
+"mac_error_could_not_open_key_file" = "കീ ഫയൽ തുറക്കാൻ സാധിച്ചില്ല.";
 
 /* The database has been changed by another application, would you like to reload this latest version and automatically unlock? */
 "mac_db_changed_externally_reload_yes_or_no" = "The database has been changed by another application, would you like to reload this latest version and automatically unlock?";
@@ -2225,7 +2225,7 @@
 "mac_db_reloading_after_external_changes_popup_notification" = "Reloading after external changes...";
 
 /* Could Not Unlock Database */
-"mac_could_not_unlock_database" = "Could Not Unlock Database";
+"mac_could_not_unlock_database" = "ഡാറ്റാബേസ് തുറക്കാൻ കഴിഞ്ഞില്ല";
 
 /* Touch ID Considerations\n\nWhile this is very convenient, it is not a perfect system for protecting your passwords. It is provided for convenience only. It is within the realm of possibilities that someone with access to your device or your fingerprint, can produce a good enough fake fingerprint to fool Apple’s Touch ID. In addition, on your Mac, your master password will be securely stored in the Keychain. This means it is possible for someone with administrative privileges to search your Keychain for your master password. You should be aware that a strong passphrase held only in your mind provides the most secure experience with StrongBox.\n\nPlease take all of this into account, and make your decision to use Touch ID based on your preferred balance of convenience and security. */
 "mac_touch_id_one_time_warning" = "Touch ID/Apple Watch Considerations\n\nWhile this is very convenient, it is not a perfect system for protecting your passwords. It is provided for convenience only. It is within the realm of possibilities that someone with access to your device or your fingerprint, can produce a good enough fake fingerprint to fool Apple’s Touch ID. In addition, on your Mac, your master password will be securely stored in the Keychain. This means it is possible for someone with administrative privileges to search your Keychain for your master password. You should be aware that a strong passphrase held only in your mind provides the most secure experience with StrongBox.\n\nPlease take all of this into account, and make your decision to use Touch ID based on your preferred balance of convenience and security.";
@@ -2346,7 +2346,7 @@
 "mac_search_disabled_please_upgrade" = "Search Disabled - Please Upgrade";
 
 /* Search (⌘F) */
-"mac_search_placeholder" = "Search (⌘F)";
+"mac_search_placeholder" = "തിരയുക (⌘F)";
 
 /* Please Enter Your Custom Default Title */
 "mac_enter_custom_title_default" = "Please Enter Your Custom Default Title";
@@ -2364,7 +2364,7 @@
 "mac_enter_custom_url_default" = "Please Enter Your Custom Default URL";
 
 /* Welcome to Strongbox */
-"mac_welcome_to_strongbox_title" = "Welcome to Strongbox";
+"mac_welcome_to_strongbox_title" = "Strongbox-ലേക്ക് സ്വാഗതം";
 
 /* Hi and welcome to Strongbox!\n\nI hope you'll really like the app, and find it useful. You can enjoy this fully featured Pro version of Strongbox for the next three months. After that point, you will be transitioned to the regular version of Strongbox.\n\nYou can always find out more at any time by tapping 'Upgrade to Pro' in the Strongbox menu item.\n\nThanks!\n-Mark */
 
@@ -2428,7 +2428,7 @@
 "mac_undo_action_set_totp" = "TOTP ക്രമീകരിക്കുക";
 
 /* Clear TOTP */
-"mac_undo_action_clear_totp" = "Clear TOTP";
+"mac_undo_action_clear_totp" = "TOTP മായ്ക്കുക";
 
 /* Add Items */
 "mac_undo_action_add_items" = "ഇനങ്ങൾ ചേർക്കുക";
@@ -2476,7 +2476,7 @@
 "mac_problem_opening_db" = "There was a problem opening this file. It will be removed from your databases.";
 
 /* Create New Password Database */
-"mac_create_new_database_title" = "Create New Password Database";
+"mac_create_new_database_title" = "പുതിയ പാസ്‍വേഡ് ഡാറ്റാബേസ് സൃഷ്ടിക്കുക";
 
 /* Enter Master Credentials */
 "mac_enter_database_master_credentials" = "Enter Master Credentials";
@@ -2485,7 +2485,7 @@
 "mac_click_browse_select_key_file" = "Click Browse to Select a Key File";
 
 /* Passwords don't match */
-"mac_passwords_dont_match" = "Passwords don't match";
+"mac_passwords_dont_match" = "പാസ്‌വേഡുകൾ പൊരുത്തപ്പെടുന്നില്ല";
 
 /* Key File Invalid */
 "mac_key_file_invalid" = "Key File Invalid";
@@ -2506,7 +2506,7 @@
 "mac_alerts_input_custom_field_protected_checkbox" = "Protected";
 
 /* Key */
-"mac_alerts_input_custom_field_label_key" = "Key";
+"mac_alerts_input_custom_field_label_key" = "കീ";
 
 /* Value */
 "mac_alerts_input_custom_field_label_value" = "മൂല്യം";
@@ -2758,13 +2758,13 @@
 "mac_unlock_screen_button_title_convenience_unlock_expired" = "Convenience Unlock Expired";
 
 /* Touch ID/Watch Unavailable */
-"mac_unlock_screen_button_title_convenience_unlock_bio_unavailable" = "Touch ID/Watch Unavailable";
+"mac_unlock_screen_button_title_convenience_unlock_bio_unavailable" = "Touch ID/Watch ലഭ്യമല്ല";
 
 /* Touch ID/Watch Unlock (Pro Only) */
 "mac_unlock_screen_button_title_convenience_unlock_pro_only" = "Touch ID/Watch Unlock (Pro Only)";
 
 /* Configure... */
-"casg_yubikey_configure_action" = "Configure...";
+"casg_yubikey_configure_action" = "ക്രമീകരിക്കുക...";
 
 /* NFC */
 "casg_yubikey_configured_nfc" = "NFC";
@@ -2892,7 +2892,7 @@
 "upgrade_question_answer_buy_company_licenses" = "Please see the Strongbox website (https://strongboxsafe.com/business) for business licensing details.";
 
 /* A storage provider is in the process of writing. This is the status displayed on the progress dialog. In english:  Syncing... */
-"storage_provider_status_syncing" = "Syncing...";
+"storage_provider_status_syncing" = "സമന്വയിപ്പിക്കുന്നു...";
 
 /* Duplicate Item? */
 "browse_vc_duplicate_prompt_title" = "Duplicate Item?";
@@ -2904,10 +2904,10 @@
 "error_database_is_encrypted_ms_intune" = "It looks like your database is encrypted by Microsoft InTune probably due to corporate policy.";
 
 /* Add Entry... */
-"browse_add_entry_button_title" = "Add Entry...";
+"browse_add_entry_button_title" = "എൻ‌ട്രി ചേർക്കുക...";
 
 /* Add Group... */
-"browse_add_group_button_title" = "Add Group...";
+"browse_add_group_button_title" = "ഗ്രൂപ്പ് ചേർക്കുക...";
 
 /* Tags */
 "browse_vc_search_scope_tags" = "ടാഗുകൾ";
@@ -2955,7 +2955,7 @@
 "audit_quick_summary_password_is_similar_to_another" = "Password is similar to one in another entry";
 
 /* Password is Pwned (HIBP) */
-"audit_quick_summary_pwned" = "Password is Pwned (HIBP)";
+"audit_quick_summary_pwned" = "പാസ്‌വേഡ് Pwned (HIBP)";
 
 /* All Entries */
 "quick_view_title_all_entries_title" = "എല്ലാ എൻ‌ട്രികളും";
@@ -2994,7 +2994,7 @@
 "audit_quick_summary_very_brief_duplicated_password" = "Duplicated";
 
 /* Similar - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
-"audit_quick_summary_very_brief_password_is_similar_to_another" = "Similar";
+"audit_quick_summary_very_brief_password_is_similar_to_another" = "സമാനമായ";
 
 /* Short - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
 "audit_quick_summary_very_brief_password_is_too_short" = "Short";
@@ -3066,19 +3066,19 @@
 "audit_hibp_warning_message" = "I understand that my passwords will be sent over the web (HTTPS) to the 'Have I Been Pwned?' password checking service (using k-anonymity) and that I fully consent to this functionality. I also absolve Strongbox, Mark McGuill and Phoebe Code Limited of all liabilty for using this feature.";
 
 /* No, I don't want to use this feature */
-"audit_hibp_warning_no" = "No, I don't want to use this feature";
+"audit_hibp_warning_no" = "ഇല്ല, ഈ സവിശേഷത ഉപയോഗിക്കാൻ ഞാൻ ആഗ്രഹിക്കുന്നില്ല";
 
 /* Yes, I understand and agree */
-"audit_hibp_warning_yes" = "Yes, I understand and agree";
+"audit_hibp_warning_yes" = "അതെ, ഞാൻ മനസ്സിലാക്കുകയും അംഗീകരിക്കുകയും ചെയ്യുന്നു";
 
 /* Always Check */
-"hibp_check_interval_always_check" = "Always Check";
+"hibp_check_interval_always_check" = "എപ്പോഴും പരിശോധിക്കുക";
 
 /* Once a Day */
-"hibp_check_interval_once_a_day" = "Once a Day";
+"hibp_check_interval_once_a_day" = "ദിവസത്തിൽ ഒരിക്കൽ";
 
 /* Once a Week */
-"hibp_check_interval_once_a_week" = "Once a Week";
+"hibp_check_interval_once_a_week" = "ആഴ്ച്ചയിൽ ഒരിക്കൽ";
 
 /* Once Every 30 days */
 "hibp_check_interval_once_every_30_days" = "Once Every 30 days";
@@ -3162,7 +3162,7 @@
 "audit_summary_flag_pwned" = "This password is pwned (HIBP)";
 
 /* This password is too short */
-"audit_summary_flag_password_is_too_short" = "This password is too short";
+"audit_summary_flag_password_is_too_short" = "ഈ പാസ്‌വേഡ് വളരെ ചെറുതാണ്";
 
 /* The items above use exactly the same password as this item, this is generally considered a weakness. You should strive not to have any duplicated passwords. */
 "audit_drill_down_section_footer_duplicates" = "The items above use exactly the same password as this item. This is generally considered a weakness. You should strive not to have any duplicated passwords.";
@@ -3180,7 +3180,7 @@
 "audit_status_item_is_exluded" = "This item is excluded from Audits";
 
 /* Checking HIBP */
-"audit_manual_pwn_progress_message" = "Checking HIBP";
+"audit_manual_pwn_progress_message" = "HIBP പരിശോധിക്കുന്നു";
 
 /* Manual HIBP Result */
 "audit_manual_pwn_check_result_title" = "Manual HIBP Result";
@@ -3216,16 +3216,16 @@
 "crash_diagnostics_share_last_message" = "It looks like Strongbox had a crash last time. Would you be so kind as to share the diagnostics with Strongbox Support?\n\nPlease mail to support@strongboxsafe.com";
 
 /* Share */
-"crash_diagnostics_share_action" = "Share";
+"crash_diagnostics_share_action" = "പങ്കിടുക";
 
 /* Copy to Clipboard */
-"crash_diagnostics_copy_action" = "Copy to Clipboard";
+"crash_diagnostics_copy_action" = "ക്ലിപ്ബോർഡിലേക്ക് പകർത്തുക";
 
 /* PIN */
 "pin_entry_default_text" = "PIN";
 
 /* No Attachments */
-"file_attachments_view_controller_empty_attachments_text" = "No Attachments";
+"file_attachments_view_controller_empty_attachments_text" = "അറ്റാച്ചുമെന്റുകൾ ഇല്ല";
 
 /* KeePass 1 */
 "database_format_keepass1" = "KeePass 1";
@@ -3258,7 +3258,7 @@
 "autofill_error_unknown_item_message" = "Strongbox could not find this entry, it is possibly stale. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill.";
 
 /* Locating... */
-"generic_status_sp_locating_ellipsis" = "Locating...";
+"generic_status_sp_locating_ellipsis" = "കണ്ടെത്തുന്നു...";
 
 /* %@ Unlock (Translators Note: 1st param is 'Touch ID' or 'Face ID' - Used on the Upgrade, Freemium Onboarding/Welcome screen and the Free vs Pro Chart screen) */
 "generic_biometric_unlock_fmt" = "%@ അൺലോക്ക്";
@@ -3267,10 +3267,10 @@
 "backup_settings_prompt_message" = "By default Strongbox includes all your local documents and databases in Apple backups, however imported Key Files are NOT included for security reasons. You can always change these settings in App Preferences.\n\nDoes this sound ok?";
 
 /* Backup Settings */
-"backup_settings_prompt_title" = "Backup Settings";
+"backup_settings_prompt_title" = "ബാക്കപ്പ് ക്രമീകരങ്ങൾ";
 
 /* Yes, the defaults sound good */
-"backup_settings_prompt_option_yes_looks_good" = "Yes, sounds good";
+"backup_settings_prompt_option_yes_looks_good" = "അതെ, നന്നായി തോന്നുന്നു";
 
 /* Yes, but also backup Key Files */
 "backup_settings_prompt_yes_but_include_key_files" = "Yes, but also backup key files";
@@ -3345,7 +3345,7 @@
 "autofill_vc_item_subtitle_local_copy_unavailable" = "Local Copy Unavailable";
 
 /* AutoFill Disabled */
-"autofill_vc_item_subtitle_disabled" = "AutoFill Disabled";
+"autofill_vc_item_subtitle_disabled" = "ഓട്ടോഫിൽ അപ്രാപ്‌തമാക്കി";
 
 /* Sync Required */
 "autofill_add_entry_sync_required_title" = "Sync Required";
@@ -3360,7 +3360,7 @@
 "autofill_add_entry_sync_required_option_dont_tell_again" = "Don't tell me again";
 
 /* No Subscription Required */
-"onboarding_vc_start_your_free_trial_subtitle_no_subscription" = "No Subscription Required";
+"onboarding_vc_start_your_free_trial_subtitle_no_subscription" = "സബ്‌സ്‌ക്രിപ്‌ഷൻ ആവശ്യമില്ല";
 
 /* Could not bookmark this file */
 "open_sequence_error_could_not_bookmark_file" = "ഈ ഫയൽ അടയാളപ്പെടുത്താൻ കഴിഞ്ഞില്ല";
@@ -3447,19 +3447,19 @@
 "generic_move" = "നീക്കുക";
 
 /* New Entry - Translators Note: Menu option to add a new entry */
-"browse_context_menu_new_entry" = "New Entry";
+"browse_context_menu_new_entry" = "പുതിയ എൻ‌ട്രി";
 
 /* New Group Translators Note: Menu option to add a new group */
-"browse_context_menu_new_group" = "New Group";
+"browse_context_menu_new_group" = "പുതിയ ഗ്രൂപ്പ്";
 
 /* Select Translators Note: Verb to select an item in Browse view - it will have a select beside it */
-"generic_select" = "Select";
+"generic_select" = "തിരഞ്ഞെടുക്കുക";
 
 /* Start with Search - Translators Note: Option to start with the search field focused immediately upon unlock */
 "browse_context_menu_start_with_search" = "തിരയലിൽ ആരംഭിക്കുക";
 
 /* Sort - Translators Note: Verb - to sort items by title or other field */
-"generic_sort" = "Sort";
+"generic_sort" = "അടുക്കുക";
 
 /* Customize View */
 "browse_context_menu_customize_view" = "Customize View";
@@ -3471,10 +3471,10 @@
 "browse_context_menu_set_master_credentials" = "മാസ്റ്റർ ക്രെഡൻഷ്യലുകൾ സജ്ജമാക്കുക";
 
 /* Show Password - Translators Note: On Browse screen - context menu item - This option will display the password in a large full screen font for easy reading with a QR Code */
-"browse_context_menu_show_password" = "Show Password";
+"browse_context_menu_show_password" = "പാസ്‌വേഡ് കാണിക്കുക";
 
 /* Read Only */
-"databases_toggle_read_only_context_menu" = "Read Only";
+"databases_toggle_read_only_context_menu" = "വായിക്കാൻ മാത്രം";
 
 /* Quick Launch */
 "databases_toggle_quick_launch_context_menu" = "Quick Launch";
