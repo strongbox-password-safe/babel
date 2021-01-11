@@ -3221,9 +3221,6 @@
 /* Copy to Clipboard */
 "crash_diagnostics_copy_action" = "Copia negli Appunti";
 
-/* PIN */
-"pin_entry_default_text" = "PIN";
-
 /* No Attachments */
 "file_attachments_view_controller_empty_attachments_text" = "Nessun Allegato";
 
@@ -3441,7 +3438,7 @@
 "browse_action_launch_url_copy_password" = "Apri URL & Copia Password";
 
 /* Copy Other Field... */
-"browse_context_menu_copy_other_field" = "Copy Field...";
+"browse_context_menu_copy_other_field" = "Copiare Campo...";
 
 /* Move - Translators Note: Verb - To move something e.g. an entry or group somewhere else in the hierarchy */
 "generic_move" = "Sposta";
@@ -3698,8 +3695,8 @@
 /* Database Description will change. */
 "diff_drill_down_database_desc_will_change" = "Database Description will change.";
 
-/* Default Username date will change. */
-"diff_drill_down_default_username_will_change" = "Default Username date will change.";
+/* Default Username will change. */
+"diff_drill_down_default_username_will_change" = "Default Username will change.";
 
 /* Recycle Bin Enabled state will change. */
 "diff_drill_down_recycle_bin_enabled_will_change" = "Recycle Bin Enabled state will change.";
@@ -3747,7 +3744,7 @@
 "diff_drill_down_username_will_change" = "Username will change.";
 
 /* Username will change. */
-"diff_drill_down_usernames_are_different" = "Usernames are different.";
+"diff_drill_down_usernames_are_different" = "I Nomi Utente sono diversi.";
 
 /* Password will change. */
 "diff_drill_down_password_will_change" = "Password will change.";
@@ -3849,16 +3846,70 @@
 "diff_progress_comparing" = "Comparing...";
 
 /* Pro feature only. Please Upgrade. */
-"generic_pro_feature_only_please_upgrade" = "Pro feature only. Please Upgrade.";
+"generic_pro_feature_only_please_upgrade" = "Solo funzione Pro. Per Favore fare l’Upgrade.";
 
 /* Comparison Results */
-"diff_nav_title_comparison_title" = "Comparison Results";
+"diff_nav_title_comparison_title" = "Risultati Del Confronto";
 
 /* Compare Partially Supported */
-"diff_compare_partially_supported_title" = "Compare Partially Supported";
+"diff_compare_partially_supported_title" = "Confronto Parzialmente Supportato";
 
 /* Because of the underlying database format(s) of these databases a full comparison is not possible. Pleaese use the KeePass 2 database format to allow detection of Moves, Deletions, and Group edits.\n\nYou can proceed with compare/merge but it may not be comprehensive. */
-"diff_compare_partially_supported_msg" = "Because of the underlying database format(s) of these databases a full comparison is not possible. Only the KeePass 2 format allows detection of Moves, Deletions, and Group edits.\n\nYou can proceed with compare/merge but it may not be comprehensive.";
+"diff_compare_partially_supported_msg" = "A causa del formato/i o dei database scelti, non è possibile effettuare un confronto completo. Solo il formato KeePass 2 consente il rilevamento di Spostamenti, Cancellazioni e Modifiche di gruppo.\n\nÈ possibile procedere con il confronto/unione, ma potrebbe non essere completo.";
 
 /* View As... */
-"browse_prefs_view_as_ellipsis" = "View As...";
+"browse_prefs_view_as_ellipsis" = "Visualizzare Come...";
+
+/* Database PIN */
+"pin_entry_database_default_text" = "Database PIN";
+
+/* App PIN */
+"pin_entry_app_default_text" = "App PIN";
+
+/* Compare & Merge (Pro) */
+"conflict_resolution_compare_pro_only" = "Compare & Merge (Pro)";
+
+/* Sync Later (Pro) */
+"conflict_resolution_sync_later_pro_only" = "Sync Later (Pro)";
+
+/* Remote (%@) - Translators Note: First Param is the remote storage location e.g. Google Drive or Dropbox etc */
+"conflict_resolution_remote_fmt" = "Remote (%@)";
+
+/* Force Overwrite? */
+"conflict_resolution_force_overwrite_title" = "Force Overwrite?";
+
+/* You can overwrite changes in either your local copy or in the remote copy. */
+"conflict_resolution_force_overwrite_message" = "You can overwrite changes in either your local copy or in the remote copy.";
+
+/* Take Remote Copy, Overwrite Local */
+"conflict_resolution_force_overwrite_take_remote" = "Take Remote Copy, Overwrite Local";
+
+/* Keep Local Copy, Overwrite Remote */
+"conflict_resolution_force_overwrite_keep_lacal" = "Keep Local Copy, Overwrite Remote";
+
+/* Technical Error - Could not write local copies for comparison/merge. */
+"model_error_could_not_write_local_merge" = "Technical Error - Could not write local copies for comparison/merge.";
+
+/* Cannot merge in background or without key. */
+"model_error_cannot_merge_in_background" = "Cannot merge in background or without key.";
+
+/* Are you sure you want to always Auto-Merge when you have a Sync Conflict like this? */
+"sync_are_you_sure_always_auto_merge" = "Are you sure you want to always Auto-Merge when you have a Sync Conflict like this?";
+
+/* Technical Error - Could not merge local and remote databases. */
+"model_error_could_not_merge_local_remote" = "Technical Error - Could not merge local and remote databases.";
+
+/* Your database format does not support advanced synchronization features (available in KeePass 2). This means the merge may be less than ideal.\n\nAre you sure you want to continue with the merge? */
+"merge_are_you_sure_less_than_ideal_format" = "Your database format does not support advanced synchronization features (available in KeePass 2). This means the merge may be less than ideal.\n\nAre you sure you want to continue with the merge?";
+
+/* Database Refreshed */
+"browse_vc_pulldown_refresh_updated_title" = "Database Refreshed";
+
+/* Error Refreshing */
+"browse_vc_pulldown_refresh_error_title" = "Error Refreshing";
+
+/* See Sync Log */
+"browse_vc_pulldown_refresh_error_message" = "See Sync Log";
+
+/* Database Refreshed - No Changes */
+"browse_vc_pulldown_refresh_no_changes_title" = "Database Refreshed - No Changes";

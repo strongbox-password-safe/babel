@@ -20,7 +20,7 @@
 "safes_vc_cached_date_time_fmt" = "Дата кэша: %@";
 
 /* Open ths database offline table action */
-"safes_vc_slide_left_open_offline_action" = "Локальная копия";
+"safes_vc_slide_left_open_offline_action" = "Открыть офлайн";
 
 /* Title of the 'More Actions' alert/action sheet */
 "safes_vc_database_actions_sheet_title" = "Выбор действия";
@@ -41,7 +41,7 @@
 "safes_vc_about_quick_launch_title" = "Быстрый запуск";
 
 /* Message about quick launch feature and asking to confirm yes or no */
-"safes_vc_about_setting_quick_launch_and_confirm" = "Функция быстрого запуска означает, что база данных будет разблокирована автоматически, как только Вы запустите или повторно активируете Strongbox. Это сэкономит одно драгоценное нажатие!\n\nВключить быстрый запуск для базы данных?";
+"safes_vc_about_setting_quick_launch_and_confirm" = "Функция быстрого запуска означает, что данная база данных будет разблокирована автоматически, как только Вы запустите или повторно активируете приложение.\n\nВключить быстрый запуск?";
 
 /* Button title to Show Database in iOS Files App */
 "safes_vc_show_database_in_files_info" = "База данных, видимая в приложении Файлы, также будет доступна через Finder на компьютере Mac.";
@@ -1411,7 +1411,7 @@
 "open_sequence_yesno_set_quick_launch_title" = "Быстрый запуск";
 
 /* Would you like to use this as your Quick Launch database? Quick Launch means you will get prompted immediately to unlock when you open Strongbox, saving you a precious tap. */
-"open_sequence_yesno_set_quick_launch_message" = "Функция быстрого запуска означает, что  база данных будет разблокирована автоматически, как только Вы запустите или повторно активируете Strongbox. Это сэкономит одно драгоценное нажатие!\n\nВключить быстрый запуск для базы данных?";
+"open_sequence_yesno_set_quick_launch_message" = "Функция быстрого запуска означает, что данная база данных будет разблокирована автоматически, как только Вы запустите или повторно активируете приложение.\n\nВключить быстрый запуск?";
 
 /* Convenience Unlock: Use %@ or PIN Code in Future? */
 "open_sequence_prompt_use_convenience_both_title_fmt" = "Быстрая разблокировка";
@@ -3033,16 +3033,16 @@
 "audit_status_no_issues_found" = "Проблем не найдено";
 
 /* The credentials were incorrect for this database. Are you sure you are using this key file?\n\nNB: A key files are not the same as your database file. */
-"open_sequence_problem_opening_incorrect_credentials_message_verify_key_file" = "Неверный мастер-ключ для базы данных. Вы используете правильный файл-ключ?";
+"open_sequence_problem_opening_incorrect_credentials_message_verify_key_file" = "Мастер-ключ не подходит для этой базы данных. Вы используете верный файл-ключ?";
 
 /* Is your Key File correct? */
 "casg_key_file_correct_title" = "Недопустимый файл-ключ";
 
 /* You have configured this database to open with a key file but the key file you have chosen doesn't look valid.\n\nAre you sure you are using this key file?\n\nNB: A key file is not the same as your database file" */
-"casg_key_file_correct_message" = "База данных настроена для открытия с помощью файл-ключа, но выбранный файл-ключ не является допустимым.\n\nВы используете правильный файл-ключ?";
+"casg_key_file_correct_message" = "База данных настроена для открытия с помощью файл-ключа, но выбранный файл-ключ не является допустимым.\n\nВы используете верный файл-ключ?";
 
 /* Yes, the key file is correct */
-"casg_key_file_correct_yes_key_file_correct" = "Да, это правильный файл-ключ";
+"casg_key_file_correct_yes_key_file_correct" = "Да, это верный файл-ключ";
 
 /* No, I don't use a key file */
 "casg_key_file_correct_no_no_key_file" = "Нет, я не использую файл-ключ";
@@ -3221,9 +3221,6 @@
 /* Copy to Clipboard */
 "crash_diagnostics_copy_action" = "Скопировать в буфер обмена";
 
-/* PIN */
-"pin_entry_default_text" = "Код-пароль";
-
 /* No Attachments */
 "file_attachments_view_controller_empty_attachments_text" = "Вложения отсутствуют";
 
@@ -3264,7 +3261,7 @@
 "generic_biometric_unlock_fmt" = "%@";
 
 /* By Default Strongbox now includes all your local documents and databases in Apple backups, however imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok? */
-"backup_settings_prompt_message" = "По умолчанию Strongbox включает в резервную копию все локальные файлы, однако импортированные файл-ключи не входят в нее по соображениям безопасности. Изменить эти параметры можно в настройках приложения.\n\nВыберите действие ниже.";
+"backup_settings_prompt_message" = "По умолчанию в резервную копию включаются все локальные файлы, однако импортированные файл-ключи не входят в неё по соображениям безопасности. Изменить эти параметры можно в настройках приложения.\n\nВыберите действие ниже.";
 
 /* Backup Settings */
 "backup_settings_prompt_title" = "Резервное копирование";
@@ -3441,7 +3438,7 @@
 "browse_action_launch_url_copy_password" = "Скопировать пароль и запуск URL";
 
 /* Copy Other Field... */
-"browse_context_menu_copy_other_field" = "Скопировать поле...";
+"browse_context_menu_copy_other_field" = "Скопировать поле ...";
 
 /* Move - Translators Note: Verb - To move something e.g. an entry or group somewhere else in the hierarchy */
 "generic_move" = "Переместить";
@@ -3609,7 +3606,7 @@
 "merge_no_other_databases_available_msg" = "Нет других доступных баз данных. Вам необходимо добавить базу данных, чтобы вы могли выбрать ее для объединения.";
 
 /* Create Local Copy */
-"generic_action_create_local_database" = "Создать локальную копию";
+"generic_action_create_local_database" = "Добавить как локальную";
 
 /* Identical databases. */
 "merge_result_databases_identical" = "Идентичные базы данных";
@@ -3618,19 +3615,19 @@
 "generic_action_compare_and_merge_ellipsis" = "Сравнить и объединить";
 
 /* Merge will lead to a %0.1f%% difference. (Translators Note: 1st param is a percentage like '12.2%' (please don't edit/touch the percentage signs as it will likely cause a crash)) */
-"merge_result_will_lead_to_percentage_difference_fmt" = "После объединения отличия составят %0.1f%%";
+"merge_result_will_lead_to_percentage_difference_fmt" = "Отличия составят - %0.1f%%.";
 
 /* Identical databases. Merge will have no effect. */
-"merge_result_databases_identical" = "Идентичные базы данных. Объединение не будет иметь эффекта.";
+"merge_result_databases_identical" = "Идентичные базы данных";
 
 /* Second database is %0.1f%% different. (Translators Note: 1st param is a percentage like '12.2%' (please don't edit/touch the percentage signs as it will likely cause a crash)) */
-"diff_result_percentage_difference_fmt" = "Вторая база данных отличается на %0.1f%%";
+"diff_result_percentage_difference_fmt" = "Отличия составляют - %0.1f%%.";
 
 /* Identical databases. */
 "diff_result_databases_identical" = "Идентичные базы данных";
 
 /* Some database properties will change. */
-"merge_result_databases_properties_will_change" = "Некоторые свойства базы данных будут изменены";
+"merge_result_databases_properties_will_change" = "Свойства базы данных будут изменены";
 
 /* Database properties are different. */
 "diff_result_databases_properties_different" = "Свойства базы данных отличаются";
@@ -3639,34 +3636,34 @@
 "diff_view_section_header_summary" = "Отчёт";
 
 /* Will be Changed (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_will_be_changed_count_fmt" = "Будет изменено элементов (%lu)";
+"diff_view_section_header_entry_will_be_changed_count_fmt" = "Будет изменено элементов - %lu";
 
 /* Items with Differences (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_differences_fmt" = "Элементы с отличиями (%lu)";
+"diff_view_section_header_entry_differences_fmt" = "Элементы с отличиями - %lu";
 
 /* Will be Added (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_will_be_added_count_fmt" = "Будет добавлено элементов (%lu)";
+"diff_view_section_header_entry_will_be_added_count_fmt" = "Будет добавлено элементов - %lu";
 
 /* Only in Second Database (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_only_in_second_fmt" = "Только во второй базе данных (%lu)";
+"diff_view_section_header_only_in_second_fmt" = "Во второй базе данных - %lu";
 
 /* Will be Moved (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_will_be_moved_count_fmt" = "Будет перемещено элементов (%lu)";
+"diff_view_section_header_entry_will_be_moved_count_fmt" = "Будет перемещено элементов - %lu";
 
 /* Items in Different Locations (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_items_in_different_loc_fmt" = "Элементы в разных местах (%lu)";
+"diff_view_section_header_items_in_different_loc_fmt" = "Элементы в разных местах - %lu";
 
 /* Will be Deleted (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_will_be_deleted_count_fmt" = "Будет удалено элементов (%lu)";
+"diff_view_section_header_entry_will_be_deleted_count_fmt" = "Будет удалено элементов - %lu";
 
 /* Only in First Database (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_only_in_first_fmt" = "Только в первой базе данных (%lu)";
+"diff_view_section_header_only_in_first_fmt" = "В первой базе данных - %lu";
 
 /* History will Change (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_history_will_change_count_fmt" = "История изменится (%lu)";
+"diff_view_section_header_entry_history_will_change_count_fmt" = "История элементов изменится  - %lu";
 
 /* Items with Historical Differences (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_historical_diffs_fmt" = "Элементы с отличиями в истории (%lu)";
+"diff_view_section_header_historical_diffs_fmt" = "Элементы с отличиями в истории - %lu";
 
 /* Are you sure you want to merge the second database into the first? */
 "merge_view_are_you_sure" = "Вы действительно хотите объединить вторую базу данных в первую?";
@@ -3678,172 +3675,172 @@
 "merge_view_merge_title_success" = "Объединение выполнено";
 
 /* The Merge was successful and your database is now up to date. */
-"merge_view_merge_message_success" = "Объединение выполнено успешно. База данных обновлена";
+"merge_view_merge_message_success" = "Объединение выполнено успешно. База данных обновлена.";
 
 /* There was an problem merging this database. */
 "merge_view_merge_title_error" = "Ошибка при объединении";
 
 /* From %@ to %@ - Translators Note: 1st parameter is the old value that will change to the new value which is the second value e.g. 'From my-initial-username to my-changed-username' */
-"diff_drill_down_previous_new_fmt" = "С %@ до %@";
+"diff_drill_down_previous_new_fmt" = "С %@ на %@";
 
 /* %@ <> %@ - Translators Note: 1st parameter is the first database value and the second parameter is the value of this item in the second database e.g. 'my-username-1 <> my-username-2' */
 "diff_drill_down_first_vs_second_fmt" = "%@ <> %@";
 
 /* Color will change. */
-"diff_drill_down_color_will_change" = "Цвет изменится";
+"diff_drill_down_color_will_change" = "Цвет будет изменён.";
 
 /* Database Name will change. */
-"diff_drill_down_database_name_will_change" = "Название базы данных изменится";
+"diff_drill_down_database_name_will_change" = "Название базы данных будет изменено.";
 
 /* Database Description will change. */
-"diff_drill_down_database_desc_will_change" = "Описание базы данных изменится";
+"diff_drill_down_database_desc_will_change" = "Описание базы данных будет изменено.";
 
-/* Default Username date will change. */
-"diff_drill_down_default_username_will_change" = "Логин по умолчанию изменится";
+/* Default Username will change. */
+"diff_drill_down_default_username_will_change" = "Логин по умолчанию будет изменён.";
 
 /* Recycle Bin Enabled state will change. */
-"diff_drill_down_recycle_bin_enabled_will_change" = "Состояние корзины изменится";
+"diff_drill_down_recycle_bin_enabled_will_change" = "Состояние корзины будет изменено.";
 
 /* Custom Data %@ will change. Translators Note: 1st param is the key of the custom data e.g. KEEPASSXC_PLUGIN_DATA  */
-"diff_drill_down_custom_data_will_change_fmt" = "Пользовательские данные %@ изменятся";
+"diff_drill_down_custom_data_will_change_fmt" = "Пользовательские данные %@ будут изменены.";
 
 /* Custom Data %@ is different. */
-"diff_drill_down_custom_data_is_different_fmt" = "Пользовательские данные %@ отличаются";
+"diff_drill_down_custom_data_is_different_fmt" = "Пользовательские данные %@ отличаются.";
 
 /* Custom Data item will be removed. */
-"diff_drill_down_custom_data_will_be_removed_fmt" = "Пользовательские данные будут удалены";
+"diff_drill_down_custom_data_will_be_removed_fmt" = "Пользовательские данные будут удалены.";
 
 /* Custom Data is only in first. */
-"diff_drill_down_custom_data_is_only_in_first" = "Пользовательские данные только в первой";
+"diff_drill_down_custom_data_is_only_in_first" = "Пользовательские данные только в первой.";
 
 /* Custom Data item will be added. */
-"diff_drill_down_custom_data_will_be_added_fmt" = "Будет добавлен пользовательский элемент данных";
+"diff_drill_down_custom_data_will_be_added_fmt" = "Будет добавлен пользовательский элемент данных.";
 
 /* Custom Data is only in second. */
-"diff_drill_down_custom_data_is_only_in_second" = "Пользовательские данные только во второй";
+"diff_drill_down_custom_data_is_only_in_second" = "Пользовательские данные только во второй.";
 
 /* %@ -> %@ - Translators Note: 1st param is the key and 2nd param is the value. e.g. my_custom_plugin_key -> some_value */
 "diff_drill_down_custom_data_new_entry_key_value" = "%@ -> %@";
 
 /* Title will change. */
-"diff_drill_down_title_change" = "Заголовок изменится";
+"diff_drill_down_title_change" = "Заголовок будет изменён.";
 
 /* Titles are different. */
-"diff_drill_down_titles_are_different" = "Заголовки отличаются";
+"diff_drill_down_titles_are_different" = "Заголовки отличаются.";
 
 /* Modified Date will change. */
-"diff_drill_down_mod_will_change" = "Дата модификации изменится";
+"diff_drill_down_mod_will_change" = "Дата изменения будет изменена.";
 
 /* Modified Dates are different. */
-"diff_drill_down_mods_are_different" = "Даты модификации отличаются";
+"diff_drill_down_mods_are_different" = "Даты изменения отличаются.";
 
 /* Icons will change. */
-"diff_drill_down_icons_will_change" = "Значки изменятся";
+"diff_drill_down_icons_will_change" = "Значки будут изменены.";
 
 /* Icons are different. */
-"diff_drill_down_icons_are_different" = "Значки отличаются";
+"diff_drill_down_icons_are_different" = "Значки отличаются.";
 
 /* Username will change. */
-"diff_drill_down_username_will_change" = "Логин изменится";
+"diff_drill_down_username_will_change" = "Логин будет изменён.";
 
 /* Username will change. */
-"diff_drill_down_usernames_are_different" = "Логины отличаются";
+"diff_drill_down_usernames_are_different" = "Логины отличаются.";
 
 /* Password will change. */
-"diff_drill_down_password_will_change" = "Пароль изменится";
+"diff_drill_down_password_will_change" = "Пароль будет изменён.";
 
 /* Password will change. */
-"diff_drill_down_passwords_are_different" = "Пароли отличаются";
+"diff_drill_down_passwords_are_different" = "Пароли отличаются.";
 
 /* URL will change. */
-"diff_drill_down_url_will_change" = "URL изменится";
+"diff_drill_down_url_will_change" = "URL будет изменён.";
 
 /* URLs are different. */
-"diff_drill_down_urls_are_different" = "URL отличаются";
+"diff_drill_down_urls_are_different" = "URL отличаются.";
 
 /* Notes will change. */
-"diff_drill_down_notes_will_change" = "Заметки изменятся";
+"diff_drill_down_notes_will_change" = "Заметки будут изменены.";
 
 /* Notes are different. */
-"diff_drill_down_notes_are_different" = "Заметки отличаются";
+"diff_drill_down_notes_are_different" = "Заметки отличаются.";
 
 /* Email will change. */
-"diff_drill_down_email_will_change" = "Email изменится";
+"diff_drill_down_email_will_change" = "Email будет изменён.";
 
 /* Email will change. */
-"diff_drill_down_emails_are_different" = "Email отличается";
+"diff_drill_down_emails_are_different" = "Email отличаются.";
 
 /* Created Date will change. */
-"diff_drill_down_create_date_will_change" = "Дата создания изменится";
+"diff_drill_down_create_date_will_change" = "Дата создания будет изменена.";
 
 /* Created Dates are different. */
-"diff_drill_down_created_dates_are_different" = "Даты создания отличаются";
+"diff_drill_down_created_dates_are_different" = "Даты создания отличаются.";
 
 /* Modified Date will change. */
-"diff_drill_down_mod_date_will_change" = "Дата модификации изменится";
+"diff_drill_down_mod_date_will_change" = "Дата изменения будет изменена.";
 
 /* Modified Dates are different. */
-"diff_drill_down_mod_dates_are_different" = "Даты модификации отличаются";
+"diff_drill_down_mod_dates_are_different" = "Даты изменения отличаются.";
 
 /* Expiry Date will change. */
-"diff_drill_down_expiry_date_will_change" = "Срок действия изменится";
+"diff_drill_down_expiry_date_will_change" = "Срок действия будет изменён.";
 
 /* Expiry Dates are different. */
-"diff_drill_down_expiry_are_different" = "Срок действия отличается";
+"diff_drill_down_expiry_are_different" = "Срок действия отличается.";
 
 /* Foreground Color will change. */
-"diff_drill_down_foreground_color_will_change" = "Основной цвет изменится";
+"diff_drill_down_foreground_color_will_change" = "Основной цвет будет изменён.";
 
 /* Foreground Colors are different. */
-"diff_drill_down_foreground_color_are_different" = "Основные цвета отличаются";
+"diff_drill_down_foreground_color_are_different" = "Основные цвета отличаются.";
 
 /* Background Color will change. */
-"diff_drill_down_background_color_will_change" = "Цвет фона изменится";
+"diff_drill_down_background_color_will_change" = "Цвет фона будет изменён.";
 
 /* Background Colors are different. */
-"diff_drill_down_background_color_are_different" = "Цвет фона отличается";
+"diff_drill_down_background_color_are_different" = "Цвет фона отличается.";
 
 /* Override URL will change. */
-"diff_drill_down_override_url_will_change" = "Переопределение URL изменится";
+"diff_drill_down_override_url_will_change" = "Переопределение URL будет изменено.";
 
 /* Override URLs are different. */
-"diff_drill_down_override_url_are_different" = "Переопределённые URL отличаются";
+"diff_drill_down_override_url_are_different" = "Переопределённые URL отличаются.";
 
 /* AutoType will change. */
-"diff_drill_down_autotype_will_change" = "Автонабор изменится";
+"diff_drill_down_autotype_will_change" = "Автонабор будет изменён.";
 
 /* AutoTypes are different. */
-"diff_drill_down_autotype_are_different" = "Автонабор отличается";
+"diff_drill_down_autotype_are_different" = "Автонабор отличается.";
 
 /* Attachments will change. */
-"diff_drill_down_attachments_will_change" = "Вложения изменятся";
+"diff_drill_down_attachments_will_change" = "Вложения будут изменены.";
 
 /* Attachments are different. */
-"diff_drill_down_attachments_are_different" = "Вложения отличаются";
+"diff_drill_down_attachments_are_different" = "Вложения отличаются.";
 
 /* Tags will change. */
-"diff_drill_down_tags_will_change" = "Теги изменятся";
+"diff_drill_down_tags_will_change" = "Теги будут изменены.";
 
 /* Tags are different. */
-"diff_drill_down_tags_are_different" = "Теги отличаются";
+"diff_drill_down_tags_are_different" = "Теги отличаются.";
 
 /* Custom Fields will change. */
-"diff_drill_down_custom_fields_will_change" = "Пользовательские поля изменятся";
+"diff_drill_down_custom_fields_will_change" = "Пользовательские поля будут изменены.";
 
 /* Custom Fields are different. */
-"diff_drill_down_custom_fields_are_different" = "Пользовательские поля отличаются";
+"diff_drill_down_custom_fields_are_different" = "Пользовательские поля отличаются.";
 
 /* Item will be moved. */
-"diff_drill_down_location_will_change" = "Элемент будет удалён";
+"diff_drill_down_location_will_change" = "Элемент будет перемещён.";
 
 /* Item locations are different. */
-"diff_drill_down_locations_are_different" = "Расположения элементов отличаются";
+"diff_drill_down_locations_are_different" = "Расположения элементов отличаются.";
 
 /* In %@ and %@ */
 "diff_drill_down_diff_loc_different" = "В %@ и %@";
 
 /* Local Copy Created. */
-"safes_vc_created_local_copy_done" = "Локальная копия создана";
+"safes_vc_created_local_copy_done" = "Локальная копия добавлена в список баз.";
 
 /* Comparing... */
 "diff_progress_comparing" = "Идёт сравнение...";
@@ -3855,10 +3852,64 @@
 "diff_nav_title_comparison_title" = "Результаты сравнения";
 
 /* Compare Partially Supported */
-"diff_compare_partially_supported_title" = "Сравнение частично поддерживаемых";
+"diff_compare_partially_supported_title" = "Частичное сравнение";
 
 /* Because of the underlying database format(s) of these databases a full comparison is not possible. Pleaese use the KeePass 2 database format to allow detection of Moves, Deletions, and Group edits.\n\nYou can proceed with compare/merge but it may not be comprehensive. */
-"diff_compare_partially_supported_msg" = "Из-за разного формата баз данных полное сравнение невозможно. Только формат KeePass 2 позволяет обнаруживать перемещения, удаления и изменения групп.\n\nВы можете продолжить сравнение/слияние, но оно не будет полным.";
+"diff_compare_partially_supported_msg" = "Из-за разного формата баз данных полное сравнение невозможно. Только формат KeePass 2 позволяет обнаруживать перемещения, удаления и изменения.\n\nВы можете продолжить сравнение/объединение, но оно не будет полным.";
 
 /* View As... */
 "browse_prefs_view_as_ellipsis" = "Просмотр";
+
+/* Database PIN */
+"pin_entry_database_default_text" = "Код-пароль базы данных";
+
+/* App PIN */
+"pin_entry_app_default_text" = "Код-пароль приложения";
+
+/* Compare & Merge (Pro) */
+"conflict_resolution_compare_pro_only" = "Сравнить и объединить (Pro версия)";
+
+/* Sync Later (Pro) */
+"conflict_resolution_sync_later_pro_only" = "Синхронизировать позже (Pro версия)";
+
+/* Remote (%@) - Translators Note: First Param is the remote storage location e.g. Google Drive or Dropbox etc */
+"conflict_resolution_remote_fmt" = "Облачный сервис (%@)";
+
+/* Force Overwrite? */
+"conflict_resolution_force_overwrite_title" = "Перезапись изменений";
+
+/* You can overwrite changes in either your local copy or in the remote copy. */
+"conflict_resolution_force_overwrite_message" = "Вы можете перезаписать изменения либо в локальной, либо в удалённой копии.";
+
+/* Take Remote Copy, Overwrite Local */
+"conflict_resolution_force_overwrite_take_remote" = "Использовать удалённую, перезаписать локальную копию";
+
+/* Keep Local Copy, Overwrite Remote */
+"conflict_resolution_force_overwrite_keep_lacal" = "Использовать локальную, перезаписать удалённую копию";
+
+/* Technical Error - Could not write local copies for comparison/merge. */
+"model_error_could_not_write_local_merge" = "Ошибка: Не удалось записать локальные копии для сравнения/объединения.";
+
+/* Cannot merge in background or without key. */
+"model_error_cannot_merge_in_background" = "Невозможно выполнить объединение в фоновом режиме или без ключа.";
+
+/* Are you sure you want to always Auto-Merge when you have a Sync Conflict like this? */
+"sync_are_you_sure_always_auto_merge" = "Вы хотите всегда автоматически объединять, когда есть конфликт синхронизации?";
+
+/* Technical Error - Could not merge local and remote databases. */
+"model_error_could_not_merge_local_remote" = "Ошибка: Не удалось объединить локальную и удалённую базы данных.";
+
+/* Your database format does not support advanced synchronization features (available in KeePass 2). This means the merge may be less than ideal.\n\nAre you sure you want to continue with the merge? */
+"merge_are_you_sure_less_than_ideal_format" = "Формат базы данных не поддерживает расширенные функции синхронизации (доступно в KeePass 2). Объединение может быть неполным.\n\nВы хотите продолжить?";
+
+/* Database Refreshed */
+"browse_vc_pulldown_refresh_updated_title" = "Database Refreshed";
+
+/* Error Refreshing */
+"browse_vc_pulldown_refresh_error_title" = "Error Refreshing";
+
+/* See Sync Log */
+"browse_vc_pulldown_refresh_error_message" = "See Sync Log";
+
+/* Database Refreshed - No Changes */
+"browse_vc_pulldown_refresh_no_changes_title" = "Database Refreshed - No Changes";

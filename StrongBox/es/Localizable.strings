@@ -3221,9 +3221,6 @@
 /* Copy to Clipboard */
 "crash_diagnostics_copy_action" = "Copiar al portapapeles";
 
-/* PIN */
-"pin_entry_default_text" = "PIN";
-
 /* No Attachments */
 "file_attachments_view_controller_empty_attachments_text" = "Sin adjuntos";
 
@@ -3698,8 +3695,8 @@
 /* Database Description will change. */
 "diff_drill_down_database_desc_will_change" = "La descripción de base de datos cambiará.";
 
-/* Default Username date will change. */
-"diff_drill_down_default_username_will_change" = "La fecha por defecto del nombre de usuario cambiará.";
+/* Default Username will change. */
+"diff_drill_down_default_username_will_change" = "El nombre de usuario por defecto cambiará.";
 
 /* Recycle Bin Enabled state will change. */
 "diff_drill_down_recycle_bin_enabled_will_change" = "El estado de la Papelera de Reciclaje Activada cambiará.";
@@ -3862,3 +3859,57 @@
 
 /* View As... */
 "browse_prefs_view_as_ellipsis" = "Ver como...";
+
+/* Database PIN */
+"pin_entry_database_default_text" = "PIN de la base de datos";
+
+/* App PIN */
+"pin_entry_app_default_text" = "PIN de la aplicación";
+
+/* Compare & Merge (Pro) */
+"conflict_resolution_compare_pro_only" = "Comparar y fusionar (Pro)";
+
+/* Sync Later (Pro) */
+"conflict_resolution_sync_later_pro_only" = "Sincronizar más tarde (Pro)";
+
+/* Remote (%@) - Translators Note: First Param is the remote storage location e.g. Google Drive or Dropbox etc */
+"conflict_resolution_remote_fmt" = "Remoto (%@)";
+
+/* Force Overwrite? */
+"conflict_resolution_force_overwrite_title" = "¿Forzar sobrescritura?";
+
+/* You can overwrite changes in either your local copy or in the remote copy. */
+"conflict_resolution_force_overwrite_message" = "Puede sobrescribir los cambios en su copia local o en la copia remota.";
+
+/* Take Remote Copy, Overwrite Local */
+"conflict_resolution_force_overwrite_take_remote" = "Tomar copia remota, sobrescribir local";
+
+/* Keep Local Copy, Overwrite Remote */
+"conflict_resolution_force_overwrite_keep_lacal" = "Conservar copia local, sobrescribir remota";
+
+/* Technical Error - Could not write local copies for comparison/merge. */
+"model_error_could_not_write_local_merge" = "Error técnico - No se han podido escribir copias locales para la comparación/fusión.";
+
+/* Cannot merge in background or without key. */
+"model_error_cannot_merge_in_background" = "No se puede fusionar en segundo plano o sin clave.";
+
+/* Are you sure you want to always Auto-Merge when you have a Sync Conflict like this? */
+"sync_are_you_sure_always_auto_merge" = "¿Está seguro de que desea siempre la fusión automática cuando tiene un conflicto de sincronización como este?";
+
+/* Technical Error - Could not merge local and remote databases. */
+"model_error_could_not_merge_local_remote" = "Error técnico - No se han podido fusionar las bases de datos local y remota.";
+
+/* Your database format does not support advanced synchronization features (available in KeePass 2). This means the merge may be less than ideal.\n\nAre you sure you want to continue with the merge? */
+"merge_are_you_sure_less_than_ideal_format" = "El formato de su base de datos no soporta las funciones de sincronización avanzadas (disponibles en KeePass 2). Esto significa que la fusión puede no ser adecuada.\n\n¿Está seguro de que desea continuar con la fusión?";
+
+/* Database Refreshed */
+"browse_vc_pulldown_refresh_updated_title" = "Database Refreshed";
+
+/* Error Refreshing */
+"browse_vc_pulldown_refresh_error_title" = "Error Refreshing";
+
+/* See Sync Log */
+"browse_vc_pulldown_refresh_error_message" = "See Sync Log";
+
+/* Database Refreshed - No Changes */
+"browse_vc_pulldown_refresh_no_changes_title" = "Database Refreshed - No Changes";

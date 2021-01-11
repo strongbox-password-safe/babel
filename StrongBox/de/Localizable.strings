@@ -3221,9 +3221,6 @@
 /* Copy to Clipboard */
 "crash_diagnostics_copy_action" = "In Zwischenablage kopieren";
 
-/* PIN */
-"pin_entry_default_text" = "PIN";
-
 /* No Attachments */
 "file_attachments_view_controller_empty_attachments_text" = "Keine Anhänge";
 
@@ -3441,7 +3438,7 @@
 "browse_action_launch_url_copy_password" = "URL aufrufen & Passwort kopieren";
 
 /* Copy Other Field... */
-"browse_context_menu_copy_other_field" = "Copy Field...";
+"browse_context_menu_copy_other_field" = "Feld kopieren...";
 
 /* Move - Translators Note: Verb - To move something e.g. an entry or group somewhere else in the hierarchy */
 "generic_move" = "Verschieben";
@@ -3513,7 +3510,7 @@
 "item_properties_allow_autotype" = "Auto-Type erlauben";
 
 /* Default Auto Type Sequence */
-"item_properties_default_autotype_sequence" = "Standard-Auto-Typ-Sequenz";
+"item_properties_default_autotype_sequence" = "Standard-Auto-Type-Sequenz";
 
 /* Last Top Visible Entry */
 "item_properties_last_top_visible_entry" = "Letzter sichtbarer Eintrag";
@@ -3534,10 +3531,10 @@
 "item_properties_override_url" = "URL überschreiben";
 
 /* AutoType Enabled */
-"item_properties_autotype_enabled" = "AutoType aktiviert";
+"item_properties_autotype_enabled" = "Auto-Type aktiviert";
 
 /* AutoType Obfuscation */
-"item_properties_autotype_obfuscation" = "AutoType-Verschleierung";
+"item_properties_autotype_obfuscation" = "Auto-Type-Verschleierung";
 
 /* Target Window: [%@] - Translators Note: 1st param is a window title used by the AutoType feature in Windows KeePass to locate or match on a particular window before performing a specific AutoType sequence */
 "item_properties_target_window_fmt" = "Zielfenster: [%@]";
@@ -3609,256 +3606,310 @@
 "merge_no_other_databases_available_msg" = "Es gibt keine anderen Datenbanken in Ihrer Datenbanksammlung, die in dieser Datenbank zusammengeführt werden können. Sie müssen eine weitere Datenbank hinzufügen, damit Sie sie für das Zusammenführen auswählen können.";
 
 /* Create Local Copy */
-"generic_action_create_local_database" = "Create Local Copy";
+"generic_action_create_local_database" = "Lokale Kopie erstellen";
 
 /* Identical databases. */
-"merge_result_databases_identical" = "Identical databases.";
+"merge_result_databases_identical" = "Identische Datenbanken.";
 
 /* Compare & Merge... */
-"generic_action_compare_and_merge_ellipsis" = "Compare & Merge...";
+"generic_action_compare_and_merge_ellipsis" = "Vergleichen & Zusammenführen...";
 
 /* Merge will lead to a %0.1f%% difference. (Translators Note: 1st param is a percentage like '12.2%' (please don't edit/touch the percentage signs as it will likely cause a crash)) */
-"merge_result_will_lead_to_percentage_difference_fmt" = "Merge will lead to a %0.1f%% difference.";
+"merge_result_will_lead_to_percentage_difference_fmt" = "Das Zusammenführen wird zu einer Differenz von %0.1f%% führen.";
 
 /* Identical databases. Merge will have no effect. */
-"merge_result_databases_identical" = "Identical databases. Merge will have no effect.";
+"merge_result_databases_identical" = "Identische Datenbanken. Das Zusammenführen wird keine Auswirkungen haben.";
 
 /* Second database is %0.1f%% different. (Translators Note: 1st param is a percentage like '12.2%' (please don't edit/touch the percentage signs as it will likely cause a crash)) */
-"diff_result_percentage_difference_fmt" = "Second database is %0.1f%% different.";
+"diff_result_percentage_difference_fmt" = "Die zweite Datenbank ist zu %0.1f%% unterschiedlich.";
 
 /* Identical databases. */
-"diff_result_databases_identical" = "Identical databases.";
+"diff_result_databases_identical" = "Identische Datenbanken.";
 
 /* Some database properties will change. */
-"merge_result_databases_properties_will_change" = "Some database properties will change.";
+"merge_result_databases_properties_will_change" = "Einige Datenbankeigenschaften werden sich ändern.";
 
 /* Database properties are different. */
-"diff_result_databases_properties_different" = "Database properties are different.";
+"diff_result_databases_properties_different" = "Die Datenbankeigenschaften sind unterschiedlich.";
 
 /* Summary */
 "diff_view_section_header_summary" = "Zusammenfassung";
 
 /* Will be Changed (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_will_be_changed_count_fmt" = "Will be Changed (%lu)";
+"diff_view_section_header_entry_will_be_changed_count_fmt" = "Wird geändert (%lu)";
 
 /* Items with Differences (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_differences_fmt" = "Items with Differences (%lu)";
+"diff_view_section_header_entry_differences_fmt" = "Einträge mit Unterschieden (%lu)";
 
 /* Will be Added (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_will_be_added_count_fmt" = "Will be Added (%lu)";
+"diff_view_section_header_entry_will_be_added_count_fmt" = "Wird hinzugefügt (%lu)";
 
 /* Only in Second Database (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_only_in_second_fmt" = "Only in Second Database (%lu)";
+"diff_view_section_header_only_in_second_fmt" = "Nur in der zweiten Datenbank (%lu)";
 
 /* Will be Moved (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_will_be_moved_count_fmt" = "Will be Moved (%lu)";
+"diff_view_section_header_entry_will_be_moved_count_fmt" = "Wird verschoben (%lu)";
 
 /* Items in Different Locations (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_items_in_different_loc_fmt" = "Items in Different Locations (%lu)";
+"diff_view_section_header_items_in_different_loc_fmt" = "Einträge an verschiedenen Orten (%lu)";
 
 /* Will be Deleted (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_will_be_deleted_count_fmt" = "Will be Deleted (%lu)";
+"diff_view_section_header_entry_will_be_deleted_count_fmt" = "Wird gelöscht (%lu)";
 
 /* Only in First Database (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_only_in_first_fmt" = "Only in First Database (%lu)";
+"diff_view_section_header_only_in_first_fmt" = "Nur in der ersten Datenbank (%lu)";
 
 /* History will Change (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_history_will_change_count_fmt" = "History will Change (%lu)";
+"diff_view_section_header_entry_history_will_change_count_fmt" = "Der Verlauf wird geändert (%lu)";
 
 /* Items with Historical Differences (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_historical_diffs_fmt" = "Items with Historical Differences (%lu)";
+"diff_view_section_header_historical_diffs_fmt" = "Einträge mit Unterschieden im Verlauf (%lu)";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Are you sure you want to merge the second database into the first?";
+"merge_view_are_you_sure" = "Sind Sie sicher, dass Sie die zweite Datenbank in die erste zusammenführen möchten?";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Are you sure you want to merge the second database into the first?";
+"merge_view_are_you_sure" = "Sind Sie sicher, dass Sie die zweite Datenbank in die erste zusammenführen möchten?";
 
 /* Merge Successful */
-"merge_view_merge_title_success" = "Merge Successful";
+"merge_view_merge_title_success" = "Zusammenführen erfolgreich";
 
 /* The Merge was successful and your database is now up to date. */
-"merge_view_merge_message_success" = "The Merge was successful and your database is now up to date.";
+"merge_view_merge_message_success" = "Das Zusammenführen war erfolgreich und Ihre Datenbank ist nun auf dem neuesten Stand.";
 
 /* There was an problem merging this database. */
-"merge_view_merge_title_error" = "There was an problem merging this database.";
+"merge_view_merge_title_error" = "Beim Zusammenführen dieser Datenbank ist ein Fehler aufgetreten.";
 
 /* From %@ to %@ - Translators Note: 1st parameter is the old value that will change to the new value which is the second value e.g. 'From my-initial-username to my-changed-username' */
-"diff_drill_down_previous_new_fmt" = "From %@ to %@";
+"diff_drill_down_previous_new_fmt" = "Von %@ zu %@";
 
 /* %@ <> %@ - Translators Note: 1st parameter is the first database value and the second parameter is the value of this item in the second database e.g. 'my-username-1 <> my-username-2' */
 "diff_drill_down_first_vs_second_fmt" = "%@ <> %@";
 
 /* Color will change. */
-"diff_drill_down_color_will_change" = "Color will change.";
+"diff_drill_down_color_will_change" = "Die Farbe wird geändert.";
 
 /* Database Name will change. */
-"diff_drill_down_database_name_will_change" = "Database Name will change.";
+"diff_drill_down_database_name_will_change" = "Der Datenbankname wird geändert.";
 
 /* Database Description will change. */
-"diff_drill_down_database_desc_will_change" = "Database Description will change.";
+"diff_drill_down_database_desc_will_change" = "Die Datenbankbeschreibung wird geändert.";
 
-/* Default Username date will change. */
-"diff_drill_down_default_username_will_change" = "Default Username date will change.";
+/* Default Username will change. */
+"diff_drill_down_default_username_will_change" = "Der Standard-Benutzername wird geändert.";
 
 /* Recycle Bin Enabled state will change. */
-"diff_drill_down_recycle_bin_enabled_will_change" = "Recycle Bin Enabled state will change.";
+"diff_drill_down_recycle_bin_enabled_will_change" = "Der Aktivierungsstatus des Papierkorbs wird geändert.";
 
 /* Custom Data %@ will change. Translators Note: 1st param is the key of the custom data e.g. KEEPASSXC_PLUGIN_DATA  */
-"diff_drill_down_custom_data_will_change_fmt" = "Custom Data %@ will change.";
+"diff_drill_down_custom_data_will_change_fmt" = "Die benutzerdefinierten Daten %@ werden geändert.";
 
 /* Custom Data %@ is different. */
-"diff_drill_down_custom_data_is_different_fmt" = "Custom Data %@ is different.";
+"diff_drill_down_custom_data_is_different_fmt" = "Die benutzerdefinierten Daten %@ sind unterschiedlich.";
 
 /* Custom Data item will be removed. */
-"diff_drill_down_custom_data_will_be_removed_fmt" = "Custom Data item will be removed.";
+"diff_drill_down_custom_data_will_be_removed_fmt" = "Ein Element aus den benutzerdefinierten Daten wird entfernt.";
 
 /* Custom Data is only in first. */
-"diff_drill_down_custom_data_is_only_in_first" = "Custom Data is only in first.";
+"diff_drill_down_custom_data_is_only_in_first" = "Benutzerdefinierte Daten sind nur in der ersten Datenbank enthalten.";
 
 /* Custom Data item will be added. */
-"diff_drill_down_custom_data_will_be_added_fmt" = "Custom Data item will be added.";
+"diff_drill_down_custom_data_will_be_added_fmt" = "Ein Element wird zu den benutzerdefinierten Daten hinzugefügt.";
 
 /* Custom Data is only in second. */
-"diff_drill_down_custom_data_is_only_in_second" = "Custom Data is only in second.";
+"diff_drill_down_custom_data_is_only_in_second" = "Benutzerdefinierte Daten sind nur in der zweiten Datenbank enthalten.";
 
 /* %@ -> %@ - Translators Note: 1st param is the key and 2nd param is the value. e.g. my_custom_plugin_key -> some_value */
 "diff_drill_down_custom_data_new_entry_key_value" = "%@ -> %@";
 
 /* Title will change. */
-"diff_drill_down_title_change" = "Title will change.";
+"diff_drill_down_title_change" = "Der Titel wird geändert.";
 
 /* Titles are different. */
-"diff_drill_down_titles_are_different" = "Titles are different.";
+"diff_drill_down_titles_are_different" = "Die Titel sind unterschiedlich.";
 
 /* Modified Date will change. */
-"diff_drill_down_mod_will_change" = "Modified Date will change.";
+"diff_drill_down_mod_will_change" = "Das Änderungsdatum wird geändert.";
 
 /* Modified Dates are different. */
-"diff_drill_down_mods_are_different" = "Modified Dates are different.";
+"diff_drill_down_mods_are_different" = "Die Änderungsdaten sind unterschiedlich.";
 
 /* Icons will change. */
-"diff_drill_down_icons_will_change" = "Icons will change.";
+"diff_drill_down_icons_will_change" = "Die Icons werden geändert.";
 
 /* Icons are different. */
-"diff_drill_down_icons_are_different" = "Icons are different.";
+"diff_drill_down_icons_are_different" = "Die Icons sind unterschiedlich.";
 
 /* Username will change. */
-"diff_drill_down_username_will_change" = "Username will change.";
+"diff_drill_down_username_will_change" = "Der Benutzername wird geändert.";
 
 /* Username will change. */
-"diff_drill_down_usernames_are_different" = "Usernames are different.";
+"diff_drill_down_usernames_are_different" = "Die Benutzernamen sind unterschiedlich.";
 
 /* Password will change. */
-"diff_drill_down_password_will_change" = "Password will change.";
+"diff_drill_down_password_will_change" = "Das Passwort wird geändert.";
 
 /* Password will change. */
-"diff_drill_down_passwords_are_different" = "Passwords are different.";
+"diff_drill_down_passwords_are_different" = "Die Passwörter sind unterschiedlich.";
 
 /* URL will change. */
-"diff_drill_down_url_will_change" = "URL will change.";
+"diff_drill_down_url_will_change" = "Die URL wird geändert.";
 
 /* URLs are different. */
-"diff_drill_down_urls_are_different" = "URLs are different.";
+"diff_drill_down_urls_are_different" = "Die URLs sind unterschiedlich.";
 
 /* Notes will change. */
-"diff_drill_down_notes_will_change" = "Notes will change.";
+"diff_drill_down_notes_will_change" = "Die Anmerkungen werden geändert.";
 
 /* Notes are different. */
-"diff_drill_down_notes_are_different" = "Notes are different.";
+"diff_drill_down_notes_are_different" = "Die Anmerkungen sind unterschiedlich.";
 
 /* Email will change. */
-"diff_drill_down_email_will_change" = "Email will change.";
+"diff_drill_down_email_will_change" = "Die E-Mail-Adresse wird geändert.";
 
 /* Email will change. */
-"diff_drill_down_emails_are_different" = "Emails are different.";
+"diff_drill_down_emails_are_different" = "Die E-Mail-Adressen sind unterschiedlich.";
 
 /* Created Date will change. */
-"diff_drill_down_create_date_will_change" = "Created Date will change.";
+"diff_drill_down_create_date_will_change" = "Das Erstellungsdatum wird geändert.";
 
 /* Created Dates are different. */
-"diff_drill_down_created_dates_are_different" = "Created Dates are different.";
+"diff_drill_down_created_dates_are_different" = "Die Erstellungsdaten sind unterschiedlich.";
 
 /* Modified Date will change. */
-"diff_drill_down_mod_date_will_change" = "Modified Date will change.";
+"diff_drill_down_mod_date_will_change" = "Das Änderungsdatum wird geändert.";
 
 /* Modified Dates are different. */
-"diff_drill_down_mod_dates_are_different" = "Modified Dates are different.";
+"diff_drill_down_mod_dates_are_different" = "Die Änderungsdaten sind unterschiedlich.";
 
 /* Expiry Date will change. */
-"diff_drill_down_expiry_date_will_change" = "Expiry Date will change.";
+"diff_drill_down_expiry_date_will_change" = "Das Ablaufdatum wird geändert.";
 
 /* Expiry Dates are different. */
-"diff_drill_down_expiry_are_different" = "Expiry Dates are different.";
+"diff_drill_down_expiry_are_different" = "Die Ablaufdaten sind unterschiedlich.";
 
 /* Foreground Color will change. */
-"diff_drill_down_foreground_color_will_change" = "Foreground Color will change.";
+"diff_drill_down_foreground_color_will_change" = "Die Vordergrundfarbe wird geändert.";
 
 /* Foreground Colors are different. */
-"diff_drill_down_foreground_color_are_different" = "Foreground Colors are different.";
+"diff_drill_down_foreground_color_are_different" = "Die Vordergrundfarben sind unterschiedlich.";
 
 /* Background Color will change. */
-"diff_drill_down_background_color_will_change" = "Background Color will change.";
+"diff_drill_down_background_color_will_change" = "Die Hintergrundfarbe wird geändert.";
 
 /* Background Colors are different. */
-"diff_drill_down_background_color_are_different" = "Background Colors are different.";
+"diff_drill_down_background_color_are_different" = "Die Hintergrundfarben sind unterschiedlich.";
 
 /* Override URL will change. */
-"diff_drill_down_override_url_will_change" = "Override URL will change.";
+"diff_drill_down_override_url_will_change" = "Die URL-Überschreibungen werden geändert.";
 
 /* Override URLs are different. */
-"diff_drill_down_override_url_are_different" = "Override URLs are different.";
+"diff_drill_down_override_url_are_different" = "Die URL-Überschreibungen sind unterschiedlich.";
 
 /* AutoType will change. */
-"diff_drill_down_autotype_will_change" = "AutoType will change.";
+"diff_drill_down_autotype_will_change" = "Die Auto-Type-Sequenzen werden geändert.";
 
 /* AutoTypes are different. */
-"diff_drill_down_autotype_are_different" = "AutoTypes are different.";
+"diff_drill_down_autotype_are_different" = "Die Auto-Type-Sequenzen sind unterschiedlich.";
 
 /* Attachments will change. */
-"diff_drill_down_attachments_will_change" = "Attachments will change.";
+"diff_drill_down_attachments_will_change" = "Die Anhänge werden geändert.";
 
 /* Attachments are different. */
-"diff_drill_down_attachments_are_different" = "Attachments are different.";
+"diff_drill_down_attachments_are_different" = "Die Anhänge sind unterschiedlich.";
 
 /* Tags will change. */
-"diff_drill_down_tags_will_change" = "Tags will change.";
+"diff_drill_down_tags_will_change" = "Die Tags werden geändert.";
 
 /* Tags are different. */
-"diff_drill_down_tags_are_different" = "Tags are different.";
+"diff_drill_down_tags_are_different" = "Die Tags sind unterschiedlich.";
 
 /* Custom Fields will change. */
-"diff_drill_down_custom_fields_will_change" = "Custom Fields will change.";
+"diff_drill_down_custom_fields_will_change" = "Die benutzerdefinierten Felder werden geändert.";
 
 /* Custom Fields are different. */
-"diff_drill_down_custom_fields_are_different" = "Custom Fields are different.";
+"diff_drill_down_custom_fields_are_different" = "Die benutzerdefinierten Felder sind unterschiedlich.";
 
 /* Item will be moved. */
-"diff_drill_down_location_will_change" = "Item will be moved.";
+"diff_drill_down_location_will_change" = "Der Eintrag wird verschoben.";
 
 /* Item locations are different. */
-"diff_drill_down_locations_are_different" = "Item locations are different.";
+"diff_drill_down_locations_are_different" = "Der Ort der Einträge ist unterschiedlich.";
 
 /* In %@ and %@ */
-"diff_drill_down_diff_loc_different" = "In %@ and %@";
+"diff_drill_down_diff_loc_different" = "In %@ und %@";
 
 /* Local Copy Created. */
-"safes_vc_created_local_copy_done" = "Local Copy Created.";
+"safes_vc_created_local_copy_done" = "Lokale Kopie erstellt.";
 
 /* Comparing... */
-"diff_progress_comparing" = "Comparing...";
+"diff_progress_comparing" = "Vergleiche...";
 
 /* Pro feature only. Please Upgrade. */
-"generic_pro_feature_only_please_upgrade" = "Pro feature only. Please Upgrade.";
+"generic_pro_feature_only_please_upgrade" = "Pro-Funktion. Bitte upgraden.";
 
 /* Comparison Results */
-"diff_nav_title_comparison_title" = "Comparison Results";
+"diff_nav_title_comparison_title" = "Vergleichsergebnisse";
 
 /* Compare Partially Supported */
-"diff_compare_partially_supported_title" = "Compare Partially Supported";
+"diff_compare_partially_supported_title" = "Vergleichen nur teilweise unterstützt";
 
 /* Because of the underlying database format(s) of these databases a full comparison is not possible. Pleaese use the KeePass 2 database format to allow detection of Moves, Deletions, and Group edits.\n\nYou can proceed with compare/merge but it may not be comprehensive. */
-"diff_compare_partially_supported_msg" = "Because of the underlying database format(s) of these databases a full comparison is not possible. Only the KeePass 2 format allows detection of Moves, Deletions, and Group edits.\n\nYou can proceed with compare/merge but it may not be comprehensive.";
+"diff_compare_partially_supported_msg" = "Aufgrund der zugrundeliegenden Datenbankformate dieser Datenbanken ist ein vollständiger Vergleich nicht möglich. Nur das KeePass 2 Format erlaubt die Erkennung von Verschiebungen, Löschungen und Gruppen-Bearbeitungen.\n\nSie können mit dem Vergleichen/Zusammenführen fortfahren, aber es kann möglicherweise unvollständig sein.";
 
 /* View As... */
-"browse_prefs_view_as_ellipsis" = "View As...";
+"browse_prefs_view_as_ellipsis" = "Anzeigen als...";
+
+/* Database PIN */
+"pin_entry_database_default_text" = "Datenbank-PIN";
+
+/* App PIN */
+"pin_entry_app_default_text" = "App-PIN";
+
+/* Compare & Merge (Pro) */
+"conflict_resolution_compare_pro_only" = "Vergleichen & Zusammenführen (Pro)";
+
+/* Sync Later (Pro) */
+"conflict_resolution_sync_later_pro_only" = "Später synchronisieren (Pro)";
+
+/* Remote (%@) - Translators Note: First Param is the remote storage location e.g. Google Drive or Dropbox etc */
+"conflict_resolution_remote_fmt" = "Remote (%@)";
+
+/* Force Overwrite? */
+"conflict_resolution_force_overwrite_title" = "Überschreiben erzwingen?";
+
+/* You can overwrite changes in either your local copy or in the remote copy. */
+"conflict_resolution_force_overwrite_message" = "Sie können Änderungen entweder in Ihrer lokalen Kopie oder in der Remote-Kopie überschreiben.";
+
+/* Take Remote Copy, Overwrite Local */
+"conflict_resolution_force_overwrite_take_remote" = "Remote-Kopie übernehmen, lokal überschreiben";
+
+/* Keep Local Copy, Overwrite Remote */
+"conflict_resolution_force_overwrite_keep_lacal" = "Lokale Kopie behalten, Remote überschreiben";
+
+/* Technical Error - Could not write local copies for comparison/merge. */
+"model_error_could_not_write_local_merge" = "Technischer Fehler - Es konnten keine lokalen Kopien für das Vergleichen/Zusammenführen geschrieben werden.";
+
+/* Cannot merge in background or without key. */
+"model_error_cannot_merge_in_background" = "Zusammenführen im Hintergrund oder ohne Schlüssel nicht möglich.";
+
+/* Are you sure you want to always Auto-Merge when you have a Sync Conflict like this? */
+"sync_are_you_sure_always_auto_merge" = "Sind Sie sicher, dass Sie bei einem Sync-Konflikt wie diesem immer automatisch zusammenführen möchten?";
+
+/* Technical Error - Could not merge local and remote databases. */
+"model_error_could_not_merge_local_remote" = "Technischer Fehler - Lokale und remote Datenbanken konnten nicht zusammengeführt werden.";
+
+/* Your database format does not support advanced synchronization features (available in KeePass 2). This means the merge may be less than ideal.\n\nAre you sure you want to continue with the merge? */
+"merge_are_you_sure_less_than_ideal_format" = "Ihr Datenbankformat unterstützt keine erweiterten Synchronisationsfunktionen (verfügbar in KeePass 2). Dies bedeutet, dass das Zusammenführen nicht ideal sein kann.\n\nSind Sie sicher, dass Sie mit dem Zusammenführen fortfahren möchten?";
+
+/* Database Refreshed */
+"browse_vc_pulldown_refresh_updated_title" = "Database Refreshed";
+
+/* Error Refreshing */
+"browse_vc_pulldown_refresh_error_title" = "Error Refreshing";
+
+/* See Sync Log */
+"browse_vc_pulldown_refresh_error_message" = "See Sync Log";
+
+/* Database Refreshed - No Changes */
+"browse_vc_pulldown_refresh_no_changes_title" = "Database Refreshed - No Changes";
