@@ -2710,37 +2710,37 @@
 "mac_convenience_unlock_title" = "Gemakkelijk ontgrendelen";
 
 /* Convenience Unlock (Touch ID/Watch Unavailable) */
-"mac_convenience_unlock_title_bio_unavailable" = "Convenience Unlock (Touch ID/Watch Unavailable)";
+"mac_convenience_unlock_title_bio_unavailable" = "Gemakkelijk Ontgrendelen (Touch ID/×Watch niet beschikbaar)";
 
 /* Convenience Unlock (Pro Feature Only) */
-"mac_convenience_unlock_title_pro_only" = "Convenience Unlock (Pro Feature Only)";
+"mac_convenience_unlock_title_pro_only" = "Gemakkelijk ontgrendelen (uitsluitend Pro-functie)";
 
 /* Convenience Password is securely stored, protected by your device's Secure Enclave and will expire: %@. - Translators Note: 1st Parameter is a date, like "Today at 14:52" or "16 September 2020 at 16:54" */
-"mac_convenience_summary_secure_enclave_and_will_expire_fmt" = "Convenience Password is securely stored, protected by your device's Secure Enclave and will expire: %@.";
+"mac_convenience_summary_secure_enclave_and_will_expire_fmt" = "Convenience wachtwoord is veilig opgeslagen, beschermd door de Secure Enclave van uw apparaat en zal verlopen: %@.";
 
 /* Convenience Password is securely stored in your Keychain (Secure Enclave unavailable on this device) and will expire: %@. - Translators Note: 1st Parameter is a date, like "Today at 14:52" or "16 September 2020 at 16:54" */
-"mac_convenience_summary_keychain_and_will_expire_fmt" = "Convenience Password is securely stored in your Keychain (Secure Enclave unavailable on this device) and will expire: %@.";
+"mac_convenience_summary_keychain_and_will_expire_fmt" = "Convenience Password is veilig opgeslagen in uw sleutelhanger (Secure Enclave niet beschikbaar op dit apparaat) en vervalt: %@.";
 
 /* Convenience Password is securely stored, protected by your device's Secure Enclave and is configured not to expire. */
-"mac_convenience_summary_secure_enclave_and_will_not_expire" = "Convenience Password is securely stored, protected by your device's Secure Enclave and is configured not to expire.";
+"mac_convenience_summary_secure_enclave_and_will_not_expire" = "Convenience wachtwoord is veilig opgeslagen, beschermd door het Secure Enclave van uw apparaat en is geconfigureerd om niet te verlopen.";
 
 /* Convenience Password is securely stored in your Keychain (Secure Enclave unavailable on this device), and is configured not to expire. */
-"mac_convenience_summary_keychain_and_will_not_expire" = "Convenience Password is securely stored in your Keychain (Secure Enclave unavailable on this device), and is configured not to expire.";
+"mac_convenience_summary_keychain_and_will_not_expire" = "Convenience wachtwoord wordt veilig opgeslagen in uw Sleutelhanger (Secure Enclave niet beschikbaar op dit apparaat), en is geconfigureerd om niet te verlopen.";
 
 /* Convenience Password is securely stored (in memory only) encrypted by your device's Secure Enclave and will expire on Strongbox Exit. */
-"mac_convenience_summary_secure_enclave_and_will_expire_on_exit" = "Convenience Password is securely stored (in memory only) encrypted by your device's Secure Enclave and will expire on Strongbox Exit.";
+"mac_convenience_summary_secure_enclave_and_will_expire_on_exit" = "Convenience Password is veilig opgeslagen (alleen in het geheugen) gecodeerd door de Secure Enclave van uw apparaat en zal vervallen op Strongbox Exit.";
 
 /* Convenience Password is securely stored (in memory only) only and will expire on Strongbox Exit. */
-"mac_convenience_summary_keychain_and_will_expire_on_exit" = "Convenience Password is securely stored (in memory only) only and will expire on Strongbox Exit.";
+"mac_convenience_summary_keychain_and_will_expire_on_exit" = "Password Password is veilig opgeslagen (alleen in het geheugen) en zal vervallen als je Strongbox Verlaat.";
 
 /* Convenience Unlock is Enabled but the securely stored master password has expired. */
-"mac_convenience_summary_enabled_but_expired" = "Convenience Unlock is enabled but the securely stored master password has expired.";
+"mac_convenience_summary_enabled_but_expired" = "Convenience Unlock is ingeschakeld, maar het beveiligde hoofdwachtwoord is verlopen.";
 
 /* Convenience Unlock Disabled */
-"mac_convenience_summary_disabled" = "Convenience Unlock Disabled";
+"mac_convenience_summary_disabled" = "Gemak Ontgrendelen Uitgeschakeld";
 
 /* Convenience Unlock (Touch ID/Watch Unavailable) */
-"mac_convenience_summary_biometrics_unavailable" = "Convenience Unlock (Touch ID/Watch Unavailable)";
+"mac_convenience_summary_biometrics_unavailable" = "Gemakkelijk Ontgrendelen (Touch ID/×Watch niet beschikbaar)";
 
 /* Convenience Unlock is only available in the Pro version of Strongbox. Please consider upgrading to support development. */
 "mac_convenience_summary_only_available_on_pro" = "Convenience Unlock is only available in the Pro version of Strongbox. Please consider upgrading to support development.";
@@ -3063,7 +3063,7 @@
 "audit_hibp_warning_title" = "HIBP Disclaimer";
 
 /* I understand that my passwords will be sent over the web (HTTPS) to the 'Have I Been Pwned?' password checking service (using k-anonymity) and that I fully consent to this functionality. I also absolve Strongbox, Mark McGuill and Phoebe Code Limited of all liabilty for using this feature. */
-"audit_hibp_warning_message" = "I understand that my passwords will be sent over the web (HTTPS) to the 'Have I Been Pwned?' password checking service (using k-anonymity) and that I fully consent to this functionality. I also absolve Strongbox, Mark McGuill and Phoebe Code Limited of all liabilty for using this feature.";
+"audit_hibp_warning_message" = "Ik begrijp dat mijn wachtwoorden worden verzonden via het web (HTTPS) naar de 'Have I Been Pwned?' wachtwoord controle service (met k-anonimiteit) en dat ik volledig akkoord met deze functionaliteit. Ik ook absolve Strongbox, Mark McGuill en Phoebe Code Limited van alle liabilty voor het gebruik van deze functie.";
 
 /* No, I don't want to use this feature */
 "audit_hibp_warning_no" = "Nee, ik wil deze functie niet gebruiken";
@@ -3165,7 +3165,7 @@
 "audit_summary_flag_password_is_too_short" = "Dit wachtwoord is te kort";
 
 /* The items above use exactly the same password as this item, this is generally considered a weakness. You should strive not to have any duplicated passwords. */
-"audit_drill_down_section_footer_duplicates" = "The items above use exactly the same password as this item. This is generally considered a weakness. You should strive not to have any duplicated passwords.";
+"audit_drill_down_section_footer_duplicates" = "De bovenstaande items gebruiken exact hetzelfde wachtwoord als dit item. Dit wordt over het algemeen beschouwd als een zwakte. U moet ernaar streven geen dubbele wachtwoorden te hebben.";
 
 /* The items above have a similar password to this item. This might indicate a weakness or use of a common component and could therefore be vulnerable to attack. */
 "audit_drill_down_section_footer_similar" = "De bovenstaande items hebben een vergelijkbaar wachtwoord voor dit item. Dit kan duiden op een zwakte of gebruik van een gemeenschappelijk onderdeel en kan daarom kwetsbaar zijn voor aanvallen.";
@@ -3246,118 +3246,118 @@
 "autofill_error_unknown_db_title" = "Strongbox: Onbekende Database";
 
 /* This appears to be a reference to an older Strongbox database which can no longer be found. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill. */
-"autofill_error_unknown_db_message" = "This appears to be a reference to an older Strongbox database which can no longer be found. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill.";
+"autofill_error_unknown_db_message" = "Dit lijkt een verwijzing naar een oudere Strongbox-database die niet meer kan worden gevonden. Strongbox's QuickType AutoFill database is nu gewist, en dus moet u uw databases te heropenen om QuickType AutoFill te vernieuwen.";
 
 /* Strongbox: Error Locating Entry */
-"autofill_error_unknown_item_title" = "Strongbox: Error Locating Entry";
+"autofill_error_unknown_item_title" = "Strongbox: Fout bij lokaliseren";
 
 /* Strongbox could not find this entry, it is possibly stale. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill. */
-"autofill_error_unknown_item_message" = "Strongbox could not find this entry, it is possibly stale. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill.";
+"autofill_error_unknown_item_message" = "Strongbox kon dit item niet vinden, het is mogelijk verouderd. Strongbox's QuickType AutoFill database is nu gewist, en dus moet u uw databases te heropenen om QuickType AutoFill te vernieuwen.";
 
 /* Locating... */
-"generic_status_sp_locating_ellipsis" = "Locating...";
+"generic_status_sp_locating_ellipsis" = "Lokaliseren...";
 
 /* %@ Unlock (Translators Note: 1st param is 'Touch ID' or 'Face ID' - Used on the Upgrade, Freemium Onboarding/Welcome screen and the Free vs Pro Chart screen) */
 "generic_biometric_unlock_fmt" = "%@ Ontgrendelen";
 
 /* By Default Strongbox now includes all your local documents and databases in Apple backups, however imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok? */
-"backup_settings_prompt_message" = "By default Strongbox includes all your local documents and databases in Apple backups, however imported Key Files are NOT included for security reasons. You can always change these settings in App Preferences.\n\nDoes this sound ok?";
+"backup_settings_prompt_message" = "Standaard bevat Strongbox alle lokale documenten en databases in Apple-backups, maar geïmporteerde sleutelbestanden worden NIET opgenomen om veiligheidsredenen. U kunt deze instellingen altijd wijzigen in Appvoorkeuren.\n\nIs dit goed?";
 
 /* Backup Settings */
 "backup_settings_prompt_title" = "Backup-instellingen";
 
 /* Yes, the defaults sound good */
-"backup_settings_prompt_option_yes_looks_good" = "Yes, sounds good";
+"backup_settings_prompt_option_yes_looks_good" = "Ja, klinkt goed";
 
 /* Yes, but also backup Key Files */
-"backup_settings_prompt_yes_but_include_key_files" = "Yes, but also backup key files";
+"backup_settings_prompt_yes_but_include_key_files" = "Ja, maar ook backup-sleutelbestanden";
 
 /* No, do NOT backup anything */
-"backup_settings_prompt_no_dont_backup_anything" = "No, do NOT backup anything";
+"backup_settings_prompt_no_dont_backup_anything" = "Nee, geen reservekopie maken";
 
 /* View Sync Status */
-"safes_vc_action_view_sync_status" = "View Sync Log";
+"safes_vc_action_view_sync_status" = "Synchronisatielogboek bekijken";
 
 /* Please send this crash report to support@strongboxsafe.com */
-"safes_vc_please_send_crash_report" = "Please send this crash report to support@strongboxsafe.com";
+"safes_vc_please_send_crash_report" = "Stuur dit crashrapport naar support@strongboxsafe.com";
 
 /* In Progress */
-"generic_in_progress" = "In Progress";
+"generic_in_progress" = "In uitvoering";
 
 /* Initial */
-"generic_initial_state" = "Initial";
+"generic_initial_state" = "Initieel";
 
 /* %@ - Sync No. %@ (Translators Note: 1st Parameter is the Date/Time of the Sync e.g. 'Today, 4:42PM', The second parameter is a sequence number like 1, 2, 42 etc. This is the number of times this database has been synced in this session */
-"sync_log_sync_header_fmt" = "%@ - Sync No. %@";
+"sync_log_sync_header_fmt" = "%@ -Sync nr. %@";
 
 /* User Interaction Required */
-"sync_status_user_interaction_required_title" = "User Interaction Required";
+"sync_status_user_interaction_required_title" = "Gebruikersinteractie vereist";
 
 /* User Cancelled */
-"sync_status_user_interaction_cancelled" = "User Cancelled";
+"sync_status_user_interaction_cancelled" = "Door gebruiker geannuleerd";
 
 /* Use Mine/Local (%@) - Translators Note: The first parameter is the modified date of the local copy e.g. "Today, 14:22" */
-"sync_conflict_option_use_mine_fmt" = "Use Mine/Local (%@)";
+"sync_conflict_option_use_mine_fmt" = "Mijn/lokale gebruiken (%@)";
 
 /* Use Theirs/Remote (%@) - Translators Note: The first parameter is the modified date of the remote copy e.g. "September 1st, 14:22" */
-"sync_conflict_option_use_theirs_fmt" = "Use Theirs/Remote (%@)";
+"sync_conflict_option_use_theirs_fmt" = "Gebruik Hun/Op Afstand (%@)";
 
 /* Sync Conflict */
-"sync_conflict_title" = "Sync Conflict";
+"sync_conflict_title" = "Synchroon conflict";
 
 /* It looks like the remote version of this database on '%@' has changed and so has the local version you've been working on. Which version would you like to use?  - Translators Note: The first parameter is the name of the remote storage provider e.g. "Dropbox" */
-"sync_conflict_message_fmt" = "It looks like the remote version of this database on '%@' has changed and so has the local version you've been working on. Which version would you like to use?";
+"sync_conflict_message_fmt" = "Het ziet eruit als de remote versie van deze database op '%@\" is veranderd en heeft dus de lokale versie waar je aan gewerkt hebt. Welke versie wilt u gebruiken?";
 
 /* Strongbox could not sync your changes. */
-"sync_could_not_sync_your_changes" = "Strongbox could not sync your changes.";
+"sync_could_not_sync_your_changes" = "Strongbox kon uw wijzigingen niet synchroniseren.";
 
 /* You must close and reopen this database for Read-Only changes to take effect. */
-"db_management_reopen_required_message" = "You must close and reopen this database for changes to take effect.";
+"db_management_reopen_required_message" = "U moet deze database sluiten en opnieuw openen om de wijzigingen van kracht te laten worden.";
 
 /* Re-Open Required */
-"db_management_reopen_required_title" = "Re-Open Required";
+"db_management_reopen_required_title" = "Opnieuw openen vereist";
 
 /* Could Not Open Local Copy */
-"open_sequence_couldnt_open_local_title" = "Could Not Open Local Copy";
+"open_sequence_couldnt_open_local_title" = "Lokale kopie kan niet worden geopend";
 
 /* Could not open Strongbox's local copy of this database. A online sync is required. */
-"open_sequence_couldnt_open_local_message" = "Could not open Strongbox's local copy of this database. A online sync is required.";
+"open_sequence_couldnt_open_local_message" = "Kan de lokale kopie van deze database van Strongbox niet openen. Een online synchronisatie is vereist.";
 
 /* Use Local Copy? */
-"open_sequence_yesno_use_local_copy_title" = "Use Local Copy?";
+"open_sequence_yesno_use_local_copy_title" = "Lokale kopie gebruiken?";
 
 /* Yes, Use Local (Read-Only) */
-"open_sequence_yes_use_local_copy_option" = "Yes, Use Local (Read-Only)";
+"open_sequence_yes_use_local_copy_option" = "Ja, Lokaal gebruiken (alleen-lezen)";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use Strongbox's local copy in read-only mode instead? - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc */
-"open_sequence_user_looks_offline_open_local_ro_fmt" = "It looks like you may be offline and '%@' may not be reachable. Would you like to use Strongbox's local copy in read-only mode instead?";
+"open_sequence_user_looks_offline_open_local_ro_fmt" = "Het lijkt erop dat je offline bent en dat '%@' niet bereikbaar is. Wil je in plaats daarvan de lokale kopie van Strongbox gebruiken in de modus alleen-lezen?";
 
 /* Sync Error */
-"open_sequence_storage_provider_error_title" = "Sync Error";
+"open_sequence_storage_provider_error_title" = "Synchronisatiefout";
 
 /* If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open Strongbox's local copy in read-only mode instead? */
-"open_sequence_storage_provider_error_open_local_ro_instead" = "If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open Strongbox's local copy in read-only mode instead?";
+"open_sequence_storage_provider_error_open_local_ro_instead" = "Als dit herhaaldelijk gebeurt, moet u proberen de database opnieuw toe te voegen. Zie het Debug Sync Log voor meer..\n\nWilt u in plaats daarvan de lokale kopie van Strongbox openen in de modus alleen-lezen?";
 
 /* Local Copy Unavailable */
-"autofill_vc_item_subtitle_local_copy_unavailable" = "Local Copy Unavailable";
+"autofill_vc_item_subtitle_local_copy_unavailable" = "Lokale kopie niet beschikbaar";
 
 /* AutoFill Disabled */
-"autofill_vc_item_subtitle_disabled" = "Automatisch invullen uitgeschakeld";
+"autofill_vc_item_subtitle_disabled" = "Auto Fill Disabled";
 
 /* Sync Required */
-"autofill_add_entry_sync_required_title" = "Sync Required";
+"autofill_add_entry_sync_required_title" = "Synchronisatie vereist";
 
 /* You have added a new entry and this change has been saved locally.\n\nDon't forget to switch to the main Strongbox app to fully sync these changes to %@. - Translators Note: The 1st parameter here is the storage location, e.g. 'Dropbox' */
-"autofill_add_entry_sync_required_message_fmt" = "You have added a new entry and this change has been saved locally.\n\nDon't forget to switch to the main Strongbox app to fully sync these changes to %@.";
+"autofill_add_entry_sync_required_message_fmt" = "U heeft een nieuw item toegevoegd en deze wijziging is lokaal opgeslagen.\n\nVergeet niet om over te schakelen naar de Strongbox app om deze wijzigingen volledig te synchroniseren naar %@.";
 
 /* Got it! */
-"autofill_add_entry_sync_required_option_got_it" = "Got it!";
+"autofill_add_entry_sync_required_option_got_it" = "Ik snap het!";
 
 /* Don't tell me again */
-"autofill_add_entry_sync_required_option_dont_tell_again" = "Don't tell me again";
+"autofill_add_entry_sync_required_option_dont_tell_again" = "Vertel het me niet nog een keer";
 
 /* No Subscription Required */
-"onboarding_vc_start_your_free_trial_subtitle_no_subscription" = "No Subscription Required";
+"onboarding_vc_start_your_free_trial_subtitle_no_subscription" = "Geen abonnement vereist";
 
 /* Could not bookmark this file */
 "open_sequence_error_could_not_bookmark_file" = "Kon dit bestand niet als favoriet markeren";
@@ -3366,40 +3366,40 @@
 "open_sequence_invalid_database_filename_fmt" = "Ongeldige database - [%@]";
 
 /* Different Filename */
-"open_sequence_database_different_filename_title" = "Different Filename";
+"open_sequence_database_different_filename_title" = "Andere bestandsnaam";
 
 /* This doesn't look like it's the right file because the filename looks different than the one you originally added. Do you want to continue?" */
-"open_sequence_database_different_filename_message" = "This doesn't look like it's the right file because the filename looks different than the one you originally added. Do you want to continue?";
+"open_sequence_database_different_filename_message" = "Dit lijkt er niet op dat het het juiste bestand is omdat de bestandsnaam er anders uitziet dan de bestandsnaam die je oorspronkelijk hebt toegevoegd. Wil je doorgaan?";
 
 /* Relocate Database */
-"open_sequence_storage_provider_try_relocate_files_db" = "Locate Database...";
+"open_sequence_storage_provider_try_relocate_files_db" = "Database opzoeken...";
 
 /* Strongbox is having trouble locating your database. This can happen sometimes especially after iOS updates or with some 3rd party providers (e.g.Nextcloud).\n\nYou now need to tell Strongbox where to locate it. Alternatively you can open Strongbox's local copy and fix this later.\n\nFor Nextcloud please use WebDAV instead... */
-"open_sequence_storage_provider_try_relocate_files_db_message" = "Strongbox is having trouble locating your database. This can happen sometimes especially after iOS updates or with some 3rd party providers (e.g.Nextcloud).\n\nYou now need to tell Strongbox where to locate it. Alternatively you can open Strongbox's local copy and fix this later.\n\nFor Nextcloud please use WebDAV instead...";
+"open_sequence_storage_provider_try_relocate_files_db_message" = "Strongbox heeft problemen met het lokaliseren van uw database. Dit kan soms gebeuren vooral na iOS-updates of met een aantal 3rd party providers\n\nU moet Strongbox vertellen waar het te vinden is. Als alternatief kunt u de lokale kopie van Strongbox openen en dit later oplossen.\n\nVoor Nextcloud gebruik WebDAV in plaats daarvan...";
 
 /* View Error Details */
-"open_sequence_storage_provider_view_sync_error_details" = "View Error Details";
+"open_sequence_storage_provider_view_sync_error_details" = "Foutgegevens bekijken";
 
 /* Use Local (Read-Only) */
-"open_sequence_use_local_copy_option" = "Use Local (Read-Only)";
+"open_sequence_use_local_copy_option" = "Lokaal gebruiken (alleen-lezen)";
 
 /* Delete (Translators Note: Verb - To Delete an item) */
 "generic_action_delete" = "Verwijderen";
 
 /* Are you sure the URL is correct? It should be a path to a parent folder. Not the database file. */
-"webdav_vc_validation_url_are_you_sure" = "Are you sure the URL is correct? It should be a URL to a parent folder. Not the database file.";
+"webdav_vc_validation_url_are_you_sure" = "Weet u zeker dat de URL juist is? Het zou een URL naar een bovenliggende map moeten zijn. Niet het databasebestand.";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Are you sure the path is correct? It should be a path to a parent folder. Not the database file.";
+"sftp_path_are_you_sure" = "Weet u zeker dat de Url juist is? Het zou een Url naar een bovenliggende map moeten zijn. Niet het databasebestand.";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Are you sure the path is correct? It should be a path to a parent folder. Not the database file.";
+"sftp_path_are_you_sure" = "Weet u zeker dat de Url juist is? Het zou een Url naar een bovenliggende map moeten zijn. Niet het databasebestand.";
 
 /* Path may be Invalid */
-"sftp_path_may_be_invalid" = "Path May Be Invalid";
+"sftp_path_may_be_invalid" = "Pad Kan Ongeldig Zijn";
 
 /* URL May Be Invalid */
-"webdav_vc_validation_url_maybe_invalid" = "URL May Be Invalid";
+"webdav_vc_validation_url_maybe_invalid" = "URL Kan Ongeldig Zijn";
 
 /* NFC YubiKey (Pro Edition Only) */
 "yubikey_config_section_header_nfc_pro_only" = "NFC YubiKey (Pro Edition Only)";
@@ -3609,7 +3609,7 @@
 "generic_action_create_local_database" = "Create Local Copy";
 
 /* Identical databases. */
-"merge_result_databases_identical" = "Identical databases.";
+"merge_result_databases_identical" = "Identieke databases.";
 
 /* Compare & Merge... */
 "generic_action_compare_and_merge_ellipsis" = "Compare & Merge...";
@@ -3624,7 +3624,7 @@
 "diff_result_percentage_difference_fmt" = "Second database is %0.1f%% different.";
 
 /* Identical databases. */
-"diff_result_databases_identical" = "Identical databases.";
+"diff_result_databases_identical" = "Identieke databases.";
 
 /* Some database properties will change. */
 "merge_result_databases_properties_will_change" = "Some database properties will change.";
@@ -3882,37 +3882,37 @@
 "conflict_resolution_force_overwrite_message" = "You can overwrite changes in either your local copy or in the remote copy.";
 
 /* Take Remote Copy, Overwrite Local */
-"conflict_resolution_force_overwrite_take_remote" = "Take Remote Copy, Overwrite Local";
+"conflict_resolution_force_overwrite_take_remote" = "Neem externe kopie, overschrijf lokale kopieën";
 
 /* Keep Local Copy, Overwrite Remote */
-"conflict_resolution_force_overwrite_keep_lacal" = "Keep Local Copy, Overwrite Remote";
+"conflict_resolution_force_overwrite_keep_lacal" = "Lokale kopie behouden, externe overschrijven";
 
 /* Technical Error - Could not write local copies for comparison/merge. */
-"model_error_could_not_write_local_merge" = "Technical Error - Could not write local copies for comparison/merge.";
+"model_error_could_not_write_local_merge" = "Technische fout - Kan geen lokale kopieën schrijven voor vergelijking/samenvoeging.";
 
 /* Cannot merge in background or without key. */
-"model_error_cannot_merge_in_background" = "Cannot merge in background or without key.";
+"model_error_cannot_merge_in_background" = "Kan niet samenvoegen op de achtergrond of zonder sleutel.";
 
 /* Are you sure you want to always Auto-Merge when you have a Sync Conflict like this? */
-"sync_are_you_sure_always_auto_merge" = "Are you sure you want to always Auto-Merge when you have a Sync Conflict like this?";
+"sync_are_you_sure_always_auto_merge" = "Weet u zeker dat u automatisch wilt samenvoegen wanneer u een synchronisatieconflict als deze hebt?";
 
 /* Technical Error - Could not merge local and remote databases. */
-"model_error_could_not_merge_local_remote" = "Technical Error - Could not merge local and remote databases.";
+"model_error_could_not_merge_local_remote" = "Technische fout - Kan lokale en externe databases niet samenvoegen.";
 
 /* Your database format does not support advanced synchronization features (available in KeePass 2). This means the merge may be less than ideal.\n\nAre you sure you want to continue with the merge? */
-"merge_are_you_sure_less_than_ideal_format" = "Your database format does not support advanced synchronization features (available in KeePass 2). This means the merge may be less than ideal.\n\nAre you sure you want to continue with the merge?";
+"merge_are_you_sure_less_than_ideal_format" = "Uw database formaat biedt geen ondersteuning voor geavanceerde synchronisatie-functies (beschikbaar in KeePass 2). Dit betekent dat de samenvoeging mogelijk niet ideaal is.\n\nWeet je zeker dat je door wilt samenvoegen?";
 
 /* Database Refreshed */
-"browse_vc_pulldown_refresh_updated_title" = "Database Refreshed";
+"browse_vc_pulldown_refresh_updated_title" = "Database vernieuwd";
 
 /* Error Refreshing */
-"browse_vc_pulldown_refresh_error_title" = "Error Refreshing";
+"browse_vc_pulldown_refresh_error_title" = "Fout bij vernieuwen";
 
 /* See Sync Log */
-"browse_vc_pulldown_refresh_error_message" = "See Sync Log";
+"browse_vc_pulldown_refresh_error_message" = "Synchronisatielogboek bekijken";
 
 /* Database Refreshed - No Changes */
-"browse_vc_pulldown_refresh_no_changes_title" = "Database Refreshed - No Changes";
+"browse_vc_pulldown_refresh_no_changes_title" = "Database vernieuwd-Geen wijzigingen";
 
 /* %ld Failed Unlock Attempts - Translators note, first parameter is an integer, e.g 3 Failed Unlock Attempts */
-"privacy_vc_label_number_of_failed_unlock_attempts_fmt" = "%@ Failed Unlock Attempts";
+"privacy_vc_label_number_of_failed_unlock_attempts_fmt" = "%@ Mislukte ontgrendelingspogingen";
