@@ -3618,7 +3618,7 @@
 "merge_result_will_lead_to_percentage_difference_fmt" = "Об'єднання призведе до %0.1f%% відмінностей.";
 
 /* No changes to merge into first. */
-"merge_result_databases_identical" = "No changes to merge into first.";
+"merge_result_databases_identical" = "Немає змін для об'єднання з першою.";
 
 /* Second database is %0.1f%% different. (Translators Note: 1st param is a percentage like '12.2%' (please don't edit/touch the percentage signs as it will likely cause a crash)) */
 "diff_result_percentage_difference_fmt" = "Друга база даних відрізняється на %0.1f%%.";
@@ -3879,40 +3879,46 @@
 "conflict_resolution_force_overwrite_title" = "Примусово перезаписати?";
 
 /* You can overwrite changes in either your local copy or in the remote copy. */
-"conflict_resolution_force_overwrite_message" = "You can overwrite changes in either your local copy or in the remote copy.";
+"conflict_resolution_force_overwrite_message" = "Ви можете перезаписати зміни у вашій локальній, або у віддаленій копії.";
 
 /* Take Remote Copy, Overwrite Local */
-"conflict_resolution_force_overwrite_take_remote" = "Take Remote Copy, Overwrite Local";
+"conflict_resolution_force_overwrite_take_remote" = "Зберегти віддалену копію. Перезаписати локальну";
 
 /* Keep Local Copy, Overwrite Remote */
-"conflict_resolution_force_overwrite_keep_lacal" = "Keep Local Copy, Overwrite Remote";
+"conflict_resolution_force_overwrite_keep_lacal" = "Зберегти локальну копію. Перезаписати віддалену";
 
 /* Technical Error - Could not write local copies for comparison/merge. */
-"model_error_could_not_write_local_merge" = "Technical Error - Could not write local copies for comparison/merge.";
+"model_error_could_not_write_local_merge" = "Технічна помилка - Не вдається записати локальні копії для порівняння та об'єднання.";
 
 /* Cannot merge in background or without key. */
-"model_error_cannot_merge_in_background" = "Cannot merge in background or without key.";
+"model_error_cannot_merge_in_background" = "Неможливо об'єднати на задньому плані або без ключа.";
 
 /* Are you sure you want to always Auto-Merge when you have a Sync Conflict like this? */
-"sync_are_you_sure_always_auto_merge" = "Are you sure you want to always Auto-Merge when you have a Sync Conflict like this?";
+"sync_are_you_sure_always_auto_merge" = "Ви дійсно хочете завжди автоматично об'єднувати при наявності таких конфліктів?";
 
 /* Technical Error - Could not merge local and remote databases. */
-"model_error_could_not_merge_local_remote" = "Technical Error - Could not merge local and remote databases.";
+"model_error_could_not_merge_local_remote" = "Технічна помилка - Не вдається об'єднати локальну та віддалену бази даних.";
 
 /* Your database format does not support advanced synchronization features (available in KeePass 2). This means the merge may be less than ideal.\n\nAre you sure you want to continue with the merge? */
-"merge_are_you_sure_less_than_ideal_format" = "Your database format does not support advanced synchronization features (available in KeePass 2). This means the merge may be less than ideal.\n\nAre you sure you want to continue with the merge?";
+"merge_are_you_sure_less_than_ideal_format" = "Формат вашої бази даних не підтримує розширені функції синхронізації (доступні в KeePass 2). Це означає, що об'єднання може бути неповноцінним.\n\nВи дійсно хочете продовжити об'єднання?";
 
 /* Database Refreshed */
-"browse_vc_pulldown_refresh_updated_title" = "Database Refreshed";
+"browse_vc_pulldown_refresh_updated_title" = "База даних оновлена";
 
 /* Error Refreshing */
-"browse_vc_pulldown_refresh_error_title" = "Error Refreshing";
+"browse_vc_pulldown_refresh_error_title" = "Помилка оновлення";
 
 /* See Sync Log */
-"browse_vc_pulldown_refresh_error_message" = "See Sync Log";
+"browse_vc_pulldown_refresh_error_message" = "Журнал синхронізації";
 
 /* Database Refreshed - No Changes */
-"browse_vc_pulldown_refresh_no_changes_title" = "Database Refreshed - No Changes";
+"browse_vc_pulldown_refresh_no_changes_title" = "База даних оновлена - Немає змін";
 
 /* %ld Failed Unlock Attempts - Translators note, first parameter is an integer, e.g 3 Failed Unlock Attempts */
-"privacy_vc_label_number_of_failed_unlock_attempts_fmt" = "%@ Failed Unlock Attempts";
+"privacy_vc_label_number_of_failed_unlock_attempts_fmt" = "%@ невдалих спроб розблокування";
+
+/* Modified %@ - Translators Note: first parameter is a friendly date string. e.g. "Modified Today at 3:28PM" */
+"backups_backup_modified_title_fmt" = "Modified %@";
+
+/* %@ (Backup taken %@) - Translators Note: first parameter is the file size and the second parameter a friendly date string. e.g. "4KB (Backup taken Today at 3:29PM)" */
+"backups_backup_taken_at_subtitle_fmt" = "%@ (Backup taken %@)";
