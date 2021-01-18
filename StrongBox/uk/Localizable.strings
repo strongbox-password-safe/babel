@@ -123,7 +123,7 @@
 "safes_vc_new_database_advanced" = "Нова база паролів (Налаштувати)...";
 
 /* No comment provided by engineer. */
-"safes_vc_new_database_express" = "New Database (Express)...";
+"safes_vc_new_database_express" = "Нова база паролів (Швидко)...";
 
 /* No comment provided by engineer. */
 "safes_vc_error_pin_incorrect_title" = "Неправильний ПІН";
@@ -3438,7 +3438,7 @@
 "browse_action_launch_url_copy_password" = "Відкрити посилання та скопіювати пароль";
 
 /* Copy Other Field... */
-"browse_context_menu_copy_other_field" = "Copy Field...";
+"browse_context_menu_copy_other_field" = "Копіювати поле...";
 
 /* Move - Translators Note: Verb - To move something e.g. an entry or group somewhere else in the hierarchy */
 "generic_move" = "Перемістити";
@@ -3606,313 +3606,325 @@
 "merge_no_other_databases_available_msg" = "У вашій колекції немає інших баз паролів для об'єднання з цією базою паролів. Ви повинні додати іншу базу паролів для можливості її вибору та об'єднання.";
 
 /* Create Local Copy */
-"generic_action_create_local_database" = "Create Local Copy";
+"generic_action_create_local_database" = "Створити локальну копію";
 
 /* Identical databases. */
-"merge_result_databases_identical" = "Identical databases.";
+"merge_result_databases_identical" = "Ідентичні бази даних.";
 
 /* Compare & Merge... */
-"generic_action_compare_and_merge_ellipsis" = "Compare & Merge...";
+"generic_action_compare_and_merge_ellipsis" = "Порівняти й об’єднати...";
 
 /* Merge will lead to a %0.1f%% difference. (Translators Note: 1st param is a percentage like '12.2%' (please don't edit/touch the percentage signs as it will likely cause a crash)) */
-"merge_result_will_lead_to_percentage_difference_fmt" = "Merge will lead to a %0.1f%% difference.";
+"merge_result_will_lead_to_percentage_difference_fmt" = "Об'єднання призведе до %0.1f%% відмінностей.";
 
 /* No changes to merge into first. */
-"merge_result_databases_identical" = "No changes to merge into first.";
+"merge_result_databases_identical" = "Немає змін для об'єднання з першою.";
 
 /* Second database is %0.1f%% different. (Translators Note: 1st param is a percentage like '12.2%' (please don't edit/touch the percentage signs as it will likely cause a crash)) */
-"diff_result_percentage_difference_fmt" = "Second database is %0.1f%% different.";
+"diff_result_percentage_difference_fmt" = "Друга база даних відрізняється на %0.1f%%.";
 
 /* Identical databases. */
-"diff_result_databases_identical" = "Identical databases.";
+"diff_result_databases_identical" = "Ідентичні бази даних.";
 
 /* Some database properties will change. */
-"merge_result_databases_properties_will_change" = "Some database properties will change.";
+"merge_result_databases_properties_will_change" = "Деякі властивості бази даних зміняться.";
 
 /* Database properties are different. */
-"diff_result_databases_properties_different" = "Database properties are different.";
+"diff_result_databases_properties_different" = "Властивості бази даних відрізняються.";
 
 /* Summary */
 "diff_view_section_header_summary" = "Підсумок";
 
 /* Will be Changed (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_will_be_changed_count_fmt" = "Will be Changed (%lu)";
+"diff_view_section_header_entry_will_be_changed_count_fmt" = "Буде змінено (%lu)";
 
 /* Items with Differences (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_differences_fmt" = "Items with Differences (%lu)";
+"diff_view_section_header_entry_differences_fmt" = "Елементи з відмінностями (%lu)";
 
 /* Will be Added (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_will_be_added_count_fmt" = "Will be Added (%lu)";
+"diff_view_section_header_entry_will_be_added_count_fmt" = "Буде додано (%lu)";
 
 /* Only in Second Database (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_only_in_second_fmt" = "Only in Second Database (%lu)";
+"diff_view_section_header_only_in_second_fmt" = "Лише в другій базі даних (%lu)";
 
 /* Will be Moved (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_will_be_moved_count_fmt" = "Will be Moved (%lu)";
+"diff_view_section_header_entry_will_be_moved_count_fmt" = "Буде переміщено (%lu)";
 
 /* Items in Different Locations (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_items_in_different_loc_fmt" = "Items in Different Locations (%lu)";
+"diff_view_section_header_items_in_different_loc_fmt" = "Елементи в різних розташуваннях (%lu)";
 
 /* Will be Deleted (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_will_be_deleted_count_fmt" = "Will be Deleted (%lu)";
+"diff_view_section_header_entry_will_be_deleted_count_fmt" = "Буде видалено (%lu)";
 
 /* Only in First Database (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_only_in_first_fmt" = "Only in First Database (%lu)";
+"diff_view_section_header_only_in_first_fmt" = "Лише в першій базі даних (%lu)";
 
 /* History will Change (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_history_will_change_count_fmt" = "History will Change (%lu)";
+"diff_view_section_header_entry_history_will_change_count_fmt" = "Історія зміниться (%lu)";
 
 /* Items with Historical Differences (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_historical_diffs_fmt" = "Items with Historical Differences (%lu)";
+"diff_view_section_header_historical_diffs_fmt" = "Елементи з відмінностями історії (%lu)";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Are you sure you want to merge the second database into the first?";
+"merge_view_are_you_sure" = "Ви дійсно хочете об'єднати другу базу даних з першою?";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Are you sure you want to merge the second database into the first?";
+"merge_view_are_you_sure" = "Ви дійсно хочете об'єднати другу базу даних з першою?";
 
 /* Merge Successful */
-"merge_view_merge_title_success" = "Merge Successful";
+"merge_view_merge_title_success" = "Успішно об'єднано";
 
 /* The Merge was successful and your database is now up to date. */
-"merge_view_merge_message_success" = "The Merge was successful and your database is now up to date.";
+"merge_view_merge_message_success" = "Об'єднання пройшло успішно і ваша база даних тепер оновлена.";
 
 /* There was an problem merging this database. */
-"merge_view_merge_title_error" = "There was an problem merging this database.";
+"merge_view_merge_title_error" = "Виникла проблема при об’єднанні цієї бази даних.";
 
 /* From %@ to %@ - Translators Note: 1st parameter is the old value that will change to the new value which is the second value e.g. 'From my-initial-username to my-changed-username' */
-"diff_drill_down_previous_new_fmt" = "From %@ to %@";
+"diff_drill_down_previous_new_fmt" = "З %@ по %@";
 
 /* %@ <> %@ - Translators Note: 1st parameter is the first database value and the second parameter is the value of this item in the second database e.g. 'my-username-1 <> my-username-2' */
 "diff_drill_down_first_vs_second_fmt" = "%@ <> %@";
 
 /* Color will change. */
-"diff_drill_down_color_will_change" = "Color will change.";
+"diff_drill_down_color_will_change" = "Колір зміниться.";
 
 /* Database Name will change. */
-"diff_drill_down_database_name_will_change" = "Database Name will change.";
+"diff_drill_down_database_name_will_change" = "Назва бази даних зміниться.";
 
 /* Database Description will change. */
-"diff_drill_down_database_desc_will_change" = "Database Description will change.";
+"diff_drill_down_database_desc_will_change" = "Опис бази даних зміниться.";
 
 /* Default Username will change. */
-"diff_drill_down_default_username_will_change" = "Default Username will change.";
+"diff_drill_down_default_username_will_change" = "Типове ім'я користувача зміниться.";
 
 /* Recycle Bin Enabled state will change. */
-"diff_drill_down_recycle_bin_enabled_will_change" = "Recycle Bin Enabled state will change.";
+"diff_drill_down_recycle_bin_enabled_will_change" = "Стан смітника зміниться.";
 
 /* Custom Data %@ will change. Translators Note: 1st param is the key of the custom data e.g. KEEPASSXC_PLUGIN_DATA  */
-"diff_drill_down_custom_data_will_change_fmt" = "Custom Data %@ will change.";
+"diff_drill_down_custom_data_will_change_fmt" = "Власні дані %@ зміняться.";
 
 /* Custom Data %@ is different. */
-"diff_drill_down_custom_data_is_different_fmt" = "Custom Data %@ is different.";
+"diff_drill_down_custom_data_is_different_fmt" = "Власні дані %@ відрізняються.";
 
 /* Custom Data item will be removed. */
-"diff_drill_down_custom_data_will_be_removed_fmt" = "Custom Data item will be removed.";
+"diff_drill_down_custom_data_will_be_removed_fmt" = "Власний елемент запису буде вилучено.";
 
 /* Custom Data is only in first. */
-"diff_drill_down_custom_data_is_only_in_first" = "Custom Data is only in first.";
+"diff_drill_down_custom_data_is_only_in_first" = "Власні дані лише у першій.";
 
 /* Custom Data item will be added. */
-"diff_drill_down_custom_data_will_be_added_fmt" = "Custom Data item will be added.";
+"diff_drill_down_custom_data_will_be_added_fmt" = "Буде додано власні дані запису.";
 
 /* Custom Data is only in second. */
-"diff_drill_down_custom_data_is_only_in_second" = "Custom Data is only in second.";
+"diff_drill_down_custom_data_is_only_in_second" = "Власні дані лише у другій.";
 
 /* %@ -> %@ - Translators Note: 1st param is the key and 2nd param is the value. e.g. my_custom_plugin_key -> some_value */
 "diff_drill_down_custom_data_new_entry_key_value" = "%@ -> %@";
 
 /* Title will change. */
-"diff_drill_down_title_change" = "Title will change.";
+"diff_drill_down_title_change" = "Заголовок зміниться.";
 
 /* Titles are different. */
-"diff_drill_down_titles_are_different" = "Titles are different.";
+"diff_drill_down_titles_are_different" = "Заголовки відрізняються.";
 
 /* Modified Date will change. */
-"diff_drill_down_mod_will_change" = "Modified Date will change.";
+"diff_drill_down_mod_will_change" = "Дата запису зміниться.";
 
 /* Modified Dates are different. */
-"diff_drill_down_mods_are_different" = "Modified Dates are different.";
+"diff_drill_down_mods_are_different" = "Дати запису відрізняються.";
 
 /* Icons will change. */
-"diff_drill_down_icons_will_change" = "Icons will change.";
+"diff_drill_down_icons_will_change" = "Піктограми зміняться.";
 
 /* Icons are different. */
-"diff_drill_down_icons_are_different" = "Icons are different.";
+"diff_drill_down_icons_are_different" = "Піктограми відрізняються.";
 
 /* Username will change. */
-"diff_drill_down_username_will_change" = "Username will change.";
+"diff_drill_down_username_will_change" = "Ім'я користувача зміниться.";
 
 /* Username will change. */
-"diff_drill_down_usernames_are_different" = "Usernames are different.";
+"diff_drill_down_usernames_are_different" = "Ім'я користувача відрізняється.";
 
 /* Password will change. */
-"diff_drill_down_password_will_change" = "Password will change.";
+"diff_drill_down_password_will_change" = "Пароль зміниться.";
 
 /* Password will change. */
-"diff_drill_down_passwords_are_different" = "Passwords are different.";
+"diff_drill_down_passwords_are_different" = "Паролі відрізняються.";
 
 /* URL will change. */
-"diff_drill_down_url_will_change" = "URL will change.";
+"diff_drill_down_url_will_change" = "URL-адреса зміниться.";
 
 /* URLs are different. */
-"diff_drill_down_urls_are_different" = "URLs are different.";
+"diff_drill_down_urls_are_different" = "URL-адреси відрізняються.";
 
 /* Notes will change. */
-"diff_drill_down_notes_will_change" = "Notes will change.";
+"diff_drill_down_notes_will_change" = "Нотатка зміниться.";
 
 /* Notes are different. */
-"diff_drill_down_notes_are_different" = "Notes are different.";
+"diff_drill_down_notes_are_different" = "Нотатка зміниться.";
 
 /* Email will change. */
-"diff_drill_down_email_will_change" = "Email will change.";
+"diff_drill_down_email_will_change" = "Е-пошта зміниться.";
 
 /* Email will change. */
-"diff_drill_down_emails_are_different" = "Emails are different.";
+"diff_drill_down_emails_are_different" = "Е-пошта відрізняється.";
 
 /* Created Date will change. */
-"diff_drill_down_create_date_will_change" = "Created Date will change.";
+"diff_drill_down_create_date_will_change" = "Дата створення зміниться.";
 
 /* Created Dates are different. */
-"diff_drill_down_created_dates_are_different" = "Created Dates are different.";
+"diff_drill_down_created_dates_are_different" = "Дати створення відрізняються.";
 
 /* Modified Date will change. */
-"diff_drill_down_mod_date_will_change" = "Modified Date will change.";
+"diff_drill_down_mod_date_will_change" = "Дата запису зміниться.";
 
 /* Modified Dates are different. */
-"diff_drill_down_mod_dates_are_different" = "Modified Dates are different.";
+"diff_drill_down_mod_dates_are_different" = "Дати запису відрізняються.";
 
 /* Expiry Date will change. */
-"diff_drill_down_expiry_date_will_change" = "Expiry Date will change.";
+"diff_drill_down_expiry_date_will_change" = "Дата терміну дії зміниться.";
 
 /* Expiry Dates are different. */
-"diff_drill_down_expiry_are_different" = "Expiry Dates are different.";
+"diff_drill_down_expiry_are_different" = "Дата терміну дії відрізняється.";
 
 /* Foreground Color will change. */
-"diff_drill_down_foreground_color_will_change" = "Foreground Color will change.";
+"diff_drill_down_foreground_color_will_change" = "Колір переднього плану зміниться.";
 
 /* Foreground Colors are different. */
-"diff_drill_down_foreground_color_are_different" = "Foreground Colors are different.";
+"diff_drill_down_foreground_color_are_different" = "Колір переднього плану відрізняється.";
 
 /* Background Color will change. */
-"diff_drill_down_background_color_will_change" = "Background Color will change.";
+"diff_drill_down_background_color_will_change" = "Колір тла зміниться.";
 
 /* Background Colors are different. */
-"diff_drill_down_background_color_are_different" = "Background Colors are different.";
+"diff_drill_down_background_color_are_different" = "Колір тла відрізняється.";
 
 /* Override URL will change. */
-"diff_drill_down_override_url_will_change" = "Override URL will change.";
+"diff_drill_down_override_url_will_change" = "Перевизначений URL зміниться.";
 
 /* Override URLs are different. */
-"diff_drill_down_override_url_are_different" = "Override URLs are different.";
+"diff_drill_down_override_url_are_different" = "Перевизначений URL відрізняється.";
 
 /* AutoType will change. */
-"diff_drill_down_autotype_will_change" = "AutoType will change.";
+"diff_drill_down_autotype_will_change" = "Автонабір зміниться.";
 
 /* AutoTypes are different. */
-"diff_drill_down_autotype_are_different" = "AutoTypes are different.";
+"diff_drill_down_autotype_are_different" = "Автонабір відрізняється.";
 
 /* Attachments will change. */
-"diff_drill_down_attachments_will_change" = "Attachments will change.";
+"diff_drill_down_attachments_will_change" = "Вкладення зміниться.";
 
 /* Attachments are different. */
-"diff_drill_down_attachments_are_different" = "Attachments are different.";
+"diff_drill_down_attachments_are_different" = "Вкладення відрізняється.";
 
 /* Tags will change. */
-"diff_drill_down_tags_will_change" = "Tags will change.";
+"diff_drill_down_tags_will_change" = "Мітки зміняться.";
 
 /* Tags are different. */
-"diff_drill_down_tags_are_different" = "Tags are different.";
+"diff_drill_down_tags_are_different" = "Мітки відрізняються.";
 
 /* Custom Fields will change. */
-"diff_drill_down_custom_fields_will_change" = "Custom Fields will change.";
+"diff_drill_down_custom_fields_will_change" = "Власні поля зміняться.";
 
 /* Custom Fields are different. */
-"diff_drill_down_custom_fields_are_different" = "Custom Fields are different.";
+"diff_drill_down_custom_fields_are_different" = "Власні поля відрізняються.";
 
 /* Item will be moved. */
-"diff_drill_down_location_will_change" = "Item will be moved.";
+"diff_drill_down_location_will_change" = "Елемент буде переміщено.";
 
 /* Item locations are different. */
-"diff_drill_down_locations_are_different" = "Item locations are different.";
+"diff_drill_down_locations_are_different" = "Розташування елементів відрізняються.";
 
 /* In %@ and %@ */
-"diff_drill_down_diff_loc_different" = "In %@ and %@";
+"diff_drill_down_diff_loc_different" = "В %@ та %@";
 
 /* Local Copy Created. */
-"safes_vc_created_local_copy_done" = "Local Copy Created.";
+"safes_vc_created_local_copy_done" = "Створено локальну копію.";
 
 /* Comparing... */
-"diff_progress_comparing" = "Comparing...";
+"diff_progress_comparing" = "Порівняння...";
 
 /* Pro feature only. Please Upgrade. */
-"generic_pro_feature_only_please_upgrade" = "Pro feature only. Please Upgrade.";
+"generic_pro_feature_only_please_upgrade" = "Це функція Pro. Будь ласка, придбайте оновлення.";
 
 /* Comparison Results */
-"diff_nav_title_comparison_title" = "Comparison Results";
+"diff_nav_title_comparison_title" = "Результати порівняння";
 
 /* Compare Partially Supported */
-"diff_compare_partially_supported_title" = "Compare Partially Supported";
+"diff_compare_partially_supported_title" = "Порівняння підтримується частково";
 
 /* Because of the underlying database format(s) of these databases a full comparison is not possible. Pleaese use the KeePass 2 database format to allow detection of Moves, Deletions, and Group edits.\n\nYou can proceed with compare/merge but it may not be comprehensive. */
-"diff_compare_partially_supported_msg" = "Because of the underlying database format(s) of these databases a full comparison is not possible. Only the KeePass 2 format allows detection of Moves, Deletions, and Group edits.\n\nYou can proceed with compare/merge but it may not be comprehensive.";
+"diff_compare_partially_supported_msg" = "У зв'язку з певними форматами цих баз даних, повноцінне їх порівняння неможливе. Лише формати KeePass 2 дозволяють виявлення переміщень, видалень та групових редагувань.\n\nВи можете продовжити порівняння та об'єднання, але воно може бути неповноцінним.";
 
 /* View As... */
-"browse_prefs_view_as_ellipsis" = "View As...";
+"browse_prefs_view_as_ellipsis" = "Переглянути як...";
 
 /* Database PIN */
-"pin_entry_database_default_text" = "Database PIN";
+"pin_entry_database_default_text" = "ПІН бази даних";
 
 /* App PIN */
-"pin_entry_app_default_text" = "App PIN";
+"pin_entry_app_default_text" = "ПІН програми";
 
 /* Compare & Merge (Pro) */
-"conflict_resolution_compare_pro_only" = "Compare & Merge (Pro)";
+"conflict_resolution_compare_pro_only" = "Порівняти й об'єднати (Pro)";
 
 /* Sync Later (Pro) */
-"conflict_resolution_sync_later_pro_only" = "Sync Later (Pro)";
+"conflict_resolution_sync_later_pro_only" = "Синхронізувати пізніше (Pro)";
 
 /* Remote (%@) - Translators Note: First Param is the remote storage location e.g. Google Drive or Dropbox etc */
-"conflict_resolution_remote_fmt" = "Remote (%@)";
+"conflict_resolution_remote_fmt" = "Віддалений (%@)";
 
 /* Force Overwrite? */
-"conflict_resolution_force_overwrite_title" = "Force Overwrite?";
+"conflict_resolution_force_overwrite_title" = "Примусово перезаписати?";
 
 /* You can overwrite changes in either your local copy or in the remote copy. */
-"conflict_resolution_force_overwrite_message" = "You can overwrite changes in either your local copy or in the remote copy.";
+"conflict_resolution_force_overwrite_message" = "Ви можете перезаписати зміни у вашій локальній, або у віддаленій копії.";
 
 /* Take Remote Copy, Overwrite Local */
-"conflict_resolution_force_overwrite_take_remote" = "Take Remote Copy, Overwrite Local";
+"conflict_resolution_force_overwrite_take_remote" = "Зберегти віддалену копію. Перезаписати локальну";
 
 /* Keep Local Copy, Overwrite Remote */
-"conflict_resolution_force_overwrite_keep_lacal" = "Keep Local Copy, Overwrite Remote";
+"conflict_resolution_force_overwrite_keep_lacal" = "Зберегти локальну копію. Перезаписати віддалену";
 
 /* Technical Error - Could not write local copies for comparison/merge. */
-"model_error_could_not_write_local_merge" = "Technical Error - Could not write local copies for comparison/merge.";
+"model_error_could_not_write_local_merge" = "Технічна помилка - Не вдається записати локальні копії для порівняння та об'єднання.";
 
 /* Cannot merge in background or without key. */
-"model_error_cannot_merge_in_background" = "Cannot merge in background or without key.";
+"model_error_cannot_merge_in_background" = "Неможливо об'єднати на задньому плані або без ключа.";
 
 /* Are you sure you want to always Auto-Merge when you have a Sync Conflict like this? */
-"sync_are_you_sure_always_auto_merge" = "Are you sure you want to always Auto-Merge when you have a Sync Conflict like this?";
+"sync_are_you_sure_always_auto_merge" = "Ви дійсно хочете завжди автоматично об'єднувати при наявності таких конфліктів?";
 
 /* Technical Error - Could not merge local and remote databases. */
-"model_error_could_not_merge_local_remote" = "Technical Error - Could not merge local and remote databases.";
+"model_error_could_not_merge_local_remote" = "Технічна помилка - Не вдається об'єднати локальну та віддалену бази даних.";
 
 /* Your database format does not support advanced synchronization features (available in KeePass 2). This means the merge may be less than ideal.\n\nAre you sure you want to continue with the merge? */
-"merge_are_you_sure_less_than_ideal_format" = "Your database format does not support advanced synchronization features (available in KeePass 2). This means the merge may be less than ideal.\n\nAre you sure you want to continue with the merge?";
+"merge_are_you_sure_less_than_ideal_format" = "Формат вашої бази даних не підтримує розширені функції синхронізації (доступні в KeePass 2). Це означає, що об'єднання може бути неповноцінним.\n\nВи дійсно хочете продовжити об'єднання?";
 
 /* Database Refreshed */
-"browse_vc_pulldown_refresh_updated_title" = "Database Refreshed";
+"browse_vc_pulldown_refresh_updated_title" = "База даних оновлена";
 
 /* Error Refreshing */
-"browse_vc_pulldown_refresh_error_title" = "Error Refreshing";
+"browse_vc_pulldown_refresh_error_title" = "Помилка оновлення";
 
 /* See Sync Log */
-"browse_vc_pulldown_refresh_error_message" = "See Sync Log";
+"browse_vc_pulldown_refresh_error_message" = "Журнал синхронізації";
 
 /* Database Refreshed - No Changes */
-"browse_vc_pulldown_refresh_no_changes_title" = "Database Refreshed - No Changes";
+"browse_vc_pulldown_refresh_no_changes_title" = "База даних оновлена - Немає змін";
 
 /* %ld Failed Unlock Attempts - Translators note, first parameter is an integer, e.g 3 Failed Unlock Attempts */
-"privacy_vc_label_number_of_failed_unlock_attempts_fmt" = "%@ Failed Unlock Attempts";
+"privacy_vc_label_number_of_failed_unlock_attempts_fmt" = "%@ невдалих спроб розблокування";
+
+/* Modified %@ - Translators Note: first parameter is a friendly date string. e.g. "Modified Today at 3:28PM" */
+"backups_backup_modified_title_fmt" = "Modified %@";
+
+/* %@ (Backup taken %@) - Translators Note: first parameter is the file size and the second parameter a friendly date string. e.g. "4KB (Backup taken Today at 3:29PM)" */
+"backups_backup_taken_at_subtitle_fmt" = "%@ (Backup taken %@)";
+
+/* Sync Possibly Required */
+"compare_merge_sync_possibly_required_title" = "Sync Possibly Required";
+
+/* One or both of these databases hasn't been sync'd very recently. It is recommended that you return to the Home screen and pull down to initiate the Sync process. This will ensure you are working with the latest versions. */
+"compare_merge_sync_possibly_required_message" = "At least one these databases haven't been synchronized very recently. It is recommended that you return to the Home screen and pull down to initiate the Sync process. This will ensure you are working with the latest versions.";

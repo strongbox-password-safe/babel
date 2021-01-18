@@ -3618,7 +3618,7 @@
 "merge_result_will_lead_to_percentage_difference_fmt" = "合并将导致 %0.1f%% 的差异。";
 
 /* No changes to merge into first. */
-"merge_result_databases_identical" = "No changes to merge into first.";
+"merge_result_databases_identical" = "没有要合并到第一个的更改。";
 
 /* Second database is %0.1f%% different. (Translators Note: 1st param is a percentage like '12.2%' (please don't edit/touch the percentage signs as it will likely cause a crash)) */
 "diff_result_percentage_difference_fmt" = "第二个数据库有 %0.1f%% 的差异。";
@@ -3696,7 +3696,7 @@
 "diff_drill_down_database_desc_will_change" = "数据库描述将会更改。";
 
 /* Default Username will change. */
-"diff_drill_down_default_username_will_change" = "Default Username will change.";
+"diff_drill_down_default_username_will_change" = "默认用户名将更改。";
 
 /* Recycle Bin Enabled state will change. */
 "diff_drill_down_recycle_bin_enabled_will_change" = "回收站启用状态将会更改。";
@@ -3867,52 +3867,64 @@
 "pin_entry_app_default_text" = "应用程序 PIN";
 
 /* Compare & Merge (Pro) */
-"conflict_resolution_compare_pro_only" = "Compare & Merge (Pro)";
+"conflict_resolution_compare_pro_only" = "比较 & 合并 (Pro)";
 
 /* Sync Later (Pro) */
-"conflict_resolution_sync_later_pro_only" = "Sync Later (Pro)";
+"conflict_resolution_sync_later_pro_only" = "稍后同步 (Pro)";
 
 /* Remote (%@) - Translators Note: First Param is the remote storage location e.g. Google Drive or Dropbox etc */
-"conflict_resolution_remote_fmt" = "Remote (%@)";
+"conflict_resolution_remote_fmt" = "远程 (%@)";
 
 /* Force Overwrite? */
-"conflict_resolution_force_overwrite_title" = "Force Overwrite?";
+"conflict_resolution_force_overwrite_title" = "强制覆盖？";
 
 /* You can overwrite changes in either your local copy or in the remote copy. */
-"conflict_resolution_force_overwrite_message" = "You can overwrite changes in either your local copy or in the remote copy.";
+"conflict_resolution_force_overwrite_message" = "您可以覆盖本地副本或远程副本中的更改。";
 
 /* Take Remote Copy, Overwrite Local */
-"conflict_resolution_force_overwrite_take_remote" = "Take Remote Copy, Overwrite Local";
+"conflict_resolution_force_overwrite_take_remote" = "采用远程副本，覆盖本地";
 
 /* Keep Local Copy, Overwrite Remote */
-"conflict_resolution_force_overwrite_keep_lacal" = "Keep Local Copy, Overwrite Remote";
+"conflict_resolution_force_overwrite_keep_lacal" = "保留本地副本，覆盖远程";
 
 /* Technical Error - Could not write local copies for comparison/merge. */
-"model_error_could_not_write_local_merge" = "Technical Error - Could not write local copies for comparison/merge.";
+"model_error_could_not_write_local_merge" = "技术错误 - 无法写入本地副本进行比较/合并。";
 
 /* Cannot merge in background or without key. */
-"model_error_cannot_merge_in_background" = "Cannot merge in background or without key.";
+"model_error_cannot_merge_in_background" = "不能在后台或无密钥合并。";
 
 /* Are you sure you want to always Auto-Merge when you have a Sync Conflict like this? */
-"sync_are_you_sure_always_auto_merge" = "Are you sure you want to always Auto-Merge when you have a Sync Conflict like this?";
+"sync_are_you_sure_always_auto_merge" = "您确定要在出现同步冲突时总是自动合并吗？";
 
 /* Technical Error - Could not merge local and remote databases. */
-"model_error_could_not_merge_local_remote" = "Technical Error - Could not merge local and remote databases.";
+"model_error_could_not_merge_local_remote" = "技术错误 - 无法合并本地和远程数据库。";
 
 /* Your database format does not support advanced synchronization features (available in KeePass 2). This means the merge may be less than ideal.\n\nAre you sure you want to continue with the merge? */
-"merge_are_you_sure_less_than_ideal_format" = "Your database format does not support advanced synchronization features (available in KeePass 2). This means the merge may be less than ideal.\n\nAre you sure you want to continue with the merge?";
+"merge_are_you_sure_less_than_ideal_format" = "您的数据库格式不支持高级同步功能（在 KeePass 2 中可用）。这意味着合并可能不是很理想。\n\n您确定要继续合并吗？";
 
 /* Database Refreshed */
-"browse_vc_pulldown_refresh_updated_title" = "Database Refreshed";
+"browse_vc_pulldown_refresh_updated_title" = "数据库已刷新";
 
 /* Error Refreshing */
-"browse_vc_pulldown_refresh_error_title" = "Error Refreshing";
+"browse_vc_pulldown_refresh_error_title" = "刷新错误";
 
 /* See Sync Log */
-"browse_vc_pulldown_refresh_error_message" = "See Sync Log";
+"browse_vc_pulldown_refresh_error_message" = "查看同步日志";
 
 /* Database Refreshed - No Changes */
-"browse_vc_pulldown_refresh_no_changes_title" = "Database Refreshed - No Changes";
+"browse_vc_pulldown_refresh_no_changes_title" = "数据库已刷新 - 无更改";
 
 /* %ld Failed Unlock Attempts - Translators note, first parameter is an integer, e.g 3 Failed Unlock Attempts */
-"privacy_vc_label_number_of_failed_unlock_attempts_fmt" = "%@ Failed Unlock Attempts";
+"privacy_vc_label_number_of_failed_unlock_attempts_fmt" = "%@ 次失败的解锁尝试";
+
+/* Modified %@ - Translators Note: first parameter is a friendly date string. e.g. "Modified Today at 3:28PM" */
+"backups_backup_modified_title_fmt" = "Modified %@";
+
+/* %@ (Backup taken %@) - Translators Note: first parameter is the file size and the second parameter a friendly date string. e.g. "4KB (Backup taken Today at 3:29PM)" */
+"backups_backup_taken_at_subtitle_fmt" = "%@ (Backup taken %@)";
+
+/* Sync Possibly Required */
+"compare_merge_sync_possibly_required_title" = "Sync Possibly Required";
+
+/* One or both of these databases hasn't been sync'd very recently. It is recommended that you return to the Home screen and pull down to initiate the Sync process. This will ensure you are working with the latest versions. */
+"compare_merge_sync_possibly_required_message" = "At least one these databases haven't been synchronized very recently. It is recommended that you return to the Home screen and pull down to initiate the Sync process. This will ensure you are working with the latest versions.";

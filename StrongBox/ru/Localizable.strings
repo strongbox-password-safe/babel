@@ -3036,7 +3036,7 @@
 "open_sequence_problem_opening_incorrect_credentials_message_verify_key_file" = "Мастер-ключ не подходит для этой базы данных. Вы используете верный файл-ключ?";
 
 /* Is your Key File correct? */
-"casg_key_file_correct_title" = "Недопустимый файл-ключ";
+"casg_key_file_correct_title" = "Неверный файл-ключ";
 
 /* You have configured this database to open with a key file but the key file you have chosen doesn't look valid.\n\nAre you sure you are using this key file?\n\nNB: A key file is not the same as your database file" */
 "casg_key_file_correct_message" = "База данных настроена для открытия с помощью файл-ключа, но выбранный файл-ключ не является допустимым.\n\nВы используете верный файл-ключ?";
@@ -3855,7 +3855,7 @@
 "diff_compare_partially_supported_title" = "Частичное сравнение";
 
 /* Because of the underlying database format(s) of these databases a full comparison is not possible. Pleaese use the KeePass 2 database format to allow detection of Moves, Deletions, and Group edits.\n\nYou can proceed with compare/merge but it may not be comprehensive. */
-"diff_compare_partially_supported_msg" = "Из-за разного формата баз данных полное сравнение невозможно. Только формат KeePass 2 позволяет обнаруживать перемещения, удаления и изменения.\n\nВы можете продолжить сравнение/объединение, но оно не будет полным.";
+"diff_compare_partially_supported_msg" = "Из-за разного формата баз данных полное сравнение невозможно. Только формат KeePass 2 позволяет обнаруживать перемещения, изменения и удаления.\n\nВы можете продолжить сравнение/объединение, но оно не будет полным.";
 
 /* View As... */
 "browse_prefs_view_as_ellipsis" = "Просмотр";
@@ -3903,7 +3903,7 @@
 "merge_are_you_sure_less_than_ideal_format" = "Формат базы данных не поддерживает расширенные функции синхронизации (доступно в KeePass 2). Объединение может быть неполным.\n\nВы хотите продолжить?";
 
 /* Database Refreshed */
-"browse_vc_pulldown_refresh_updated_title" = "База данных обновлена";
+"browse_vc_pulldown_refresh_updated_title" = "База данных обновлена - внесены изменения.";
 
 /* Error Refreshing */
 "browse_vc_pulldown_refresh_error_title" = "Ошибка при обновлении";
@@ -3912,7 +3912,19 @@
 "browse_vc_pulldown_refresh_error_message" = "См. лог синхронизации";
 
 /* Database Refreshed - No Changes */
-"browse_vc_pulldown_refresh_no_changes_title" = "База данных обновлена -изменений нет";
+"browse_vc_pulldown_refresh_no_changes_title" = "База данных обновлена - изменений нет.";
 
 /* %ld Failed Unlock Attempts - Translators note, first parameter is an integer, e.g 3 Failed Unlock Attempts */
 "privacy_vc_label_number_of_failed_unlock_attempts_fmt" = "Неудачных попыток разблокировки: %@";
+
+/* Modified %@ - Translators Note: first parameter is a friendly date string. e.g. "Modified Today at 3:28PM" */
+"backups_backup_modified_title_fmt" = "Дата изменения: %@";
+
+/* %@ (Backup taken %@) - Translators Note: first parameter is the file size and the second parameter a friendly date string. e.g. "4KB (Backup taken Today at 3:29PM)" */
+"backups_backup_taken_at_subtitle_fmt" = "%@ (Резервная копия: %@)";
+
+/* Sync Possibly Required */
+"compare_merge_sync_possibly_required_title" = "Требуется синхронизация";
+
+/* One or both of these databases hasn't been sync'd very recently. It is recommended that you return to the Home screen and pull down to initiate the Sync process. This will ensure you are working with the latest versions. */
+"compare_merge_sync_possibly_required_message" = "Сихронизация, по крайней мере, одной из этих баз данных давно не выполнялась. Пожалуйста, перейдите к домашнему экрану и смахните вниз.";
