@@ -383,9 +383,6 @@
 /* '%@' Password Copied  - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup  */
 "browse_vc_password_copied_fmt" = "Пароль «%@» скопирован";
 
-/*  (Read Only) */
-"browse_vc_read_only_suffix" = " (Только чтение)";
-
 /* Rename Item */
 "browse_vc_rename_item" = "Переименование группы";
 
@@ -3323,15 +3320,6 @@
 /* Could not open Strongbox's local copy of this database. A online sync is required. */
 "open_sequence_couldnt_open_local_message" = "Не удалось открыть локальную копию. Необходима синхронизация базы данных.";
 
-/* Use Local Copy? */
-"open_sequence_yesno_use_local_copy_title" = "Использование локальной копии";
-
-/* Yes, Use Local (Read-Only) */
-"open_sequence_yes_use_local_copy_option" = "Локальная копия";
-
-/* It looks like you may be offline and '%@' may not be reachable. Would you like to use Strongbox's local copy in read-only mode instead? - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc */
-"open_sequence_user_looks_offline_open_local_ro_fmt" = "Возможно, нет подключения к сети и хранилище %@ недоступно. Хотите использовать доступную только для чтения локальную копию базы данных?";
-
 /* Sync Error */
 "open_sequence_storage_provider_error_title" = "Ошибка при синхронизации";
 
@@ -3612,7 +3600,7 @@
 "merge_result_databases_identical" = "Идентичные базы данных";
 
 /* Compare & Merge... */
-"generic_action_compare_and_merge_ellipsis" = "Сравнить и объединить";
+"generic_action_compare_and_merge_ellipsis" = "Сравнение и объединение";
 
 /* Merge will lead to a %0.1f%% difference. (Translators Note: 1st param is a percentage like '12.2%' (please don't edit/touch the percentage signs as it will likely cause a crash)) */
 "merge_result_will_lead_to_percentage_difference_fmt" = "Отличия составят: %0.1f%%.";
@@ -3867,7 +3855,7 @@
 "pin_entry_app_default_text" = "Код-пароль приложения";
 
 /* Compare & Merge (Pro) */
-"conflict_resolution_compare_pro_only" = "Сравнить и объединить (Pro версия)";
+"conflict_resolution_compare_pro_only" = "Сравнение и объединение (Pro версия)";
 
 /* Sync Later (Pro) */
 "conflict_resolution_sync_later_pro_only" = "Синхронизировать позже (Pro версия)";
@@ -3926,5 +3914,59 @@
 /* Sync Possibly Required */
 "compare_merge_sync_possibly_required_title" = "Требуется синхронизация";
 
-/* One or both of these databases hasn't been sync'd very recently. It is recommended that you return to the Home screen and pull down to initiate the Sync process. This will ensure you are working with the latest versions. */
-"compare_merge_sync_possibly_required_message" = "Сихронизация, по крайней мере, одной из этих баз данных давно не выполнялась. Пожалуйста, перейдите к домашнему экрану и смахните вниз.";
+/* At least one of these databases haven't been synchronized very recently. It is recommended that you return to the Databases List screen and pull down to initiate the Sync process. This will ensure you are working with the latest versions. */
+"compare_merge_sync_possibly_required_message" = "At least one of these databases haven't been synchronized very recently. It is recommended that you return to the Databases List screen and pull down to initiate the Sync process. This will ensure you are working with the latest versions.";
+
+/* It looks like you may be offline and '%@' may not be reachable. Would you like to open in offline mode instead? - Translators Note: 1st Parameter is the storage provider name like Google Drive or Dropbox */
+"open_sequence_user_looks_offline_open_local_fmt" = "Возможно, нет подключения к сети и хранилище %@ недоступно. Хотите  открыть базу данных офлайн?";
+
+/* It looks like you may be offline and '%@' may not be reachable. Would you like to use Strongbox's local copy in read-only mode instead? - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc */
+"open_sequence_user_looks_offline_open_local_ro_fmt" = "Возможно, нет подключения к сети и хранилище %@ недоступно. Хотите  открыть базу данных офлайн?\n\nПримечание: Режим - только чтение. Редактирование в офлайн доступно в Pro версии.";
+
+/* Open Offline? */
+"open_sequence_yesno_use_local_copy_title" = "Открыть офлайн?";
+
+/* Yes, Open Offline */
+"open_sequence_yes_use_local_copy_option" = "Да, открыть офлайн";
+
+/* Open Offline */
+"open_sequence_use_local_copy_option" = "Открыть офлайн";
+
+/* Open Offline (Read-Only) */
+"open_sequence_use_local_copy_option_ro" = "Открыть офлайн (только чтение)";
+
+/*  (Read Only) */
+"browse_vc_read_only_suffix" = " (Только чтение)";
+
+/*  (Offline) */
+"browse_vc_offline_suffix" = " (Офлайн)";
+
+/* Offline Mode */
+"browse_vc_pulldown_refresh_offline_title" = "Режим офлайн";
+
+/* Database Not Refreshed */
+"browse_vc_pulldown_refresh_offline_message" = "База данных не обновлена";
+
+/* Do not allow changes to be made to this database when it is open. */
+"database_properties_subtitle_read_only" = "Do not allow changes to be made to this database when it is open.";
+
+/* Automatically prompt to open this database on App launch. */
+"database_properties_subtitle_quick_launch" = "Automatically prompt to open this database on App launch.";
+
+/* Always Auto-Merge */
+"database_properties_title_always_auto_merge" = "Всегда использовать автоматическое слияние";
+
+/* When a sync conflict occurs automatically merge without asking. */
+"database_properties_subtitle_conflict_resolution" = "When a sync conflict occurs automatically merge without asking.";
+
+/* Immediate Open Offline Offer */
+"database_properties_title_offline_behaviour" = "Immediate Open Offline Offer";
+
+/* Immediately offer to open offline if Strongbox detects you are offline. Alternatively, if you turn this off, Strongbox will try to connect which may take some time. */
+"database_properties_subtitle_offline_behaviour" = "Immediately offer to open in offline mode if Strongbox detects you are offline. Alternatively, if you turn this off, Strongbox will try to connect which may take some time.";
+
+/* Configure & View local backups." */
+"database_properties_subtitle_backups" = "Configure & View local backups.";
+
+/* View recent sync details including errors. */
+"database_properties_subtitle_view_sync_log" = "View recent sync details including errors.";

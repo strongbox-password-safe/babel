@@ -20,7 +20,7 @@
 "safes_vc_cached_date_time_fmt" = "Mis en cache : %@";
 
 /* Open ths database offline table action */
-"safes_vc_slide_left_open_offline_action" = "Ouvrir localement";
+"safes_vc_slide_left_open_offline_action" = "Open Offline";
 
 /* Title of the 'More Actions' alert/action sheet */
 "safes_vc_database_actions_sheet_title" = "Actions de base de données";
@@ -382,9 +382,6 @@
 
 /* '%@' Password Copied  - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup  */
 "browse_vc_password_copied_fmt" = "Mot de passe de '%@' copié";
-
-/*  (Read Only) */
-"browse_vc_read_only_suffix" = " (Lecture seule)";
 
 /* Rename Item */
 "browse_vc_rename_item" = "Renommer l'élément";
@@ -3318,19 +3315,10 @@
 "db_management_reopen_required_title" = "Réouverture nécessaire";
 
 /* Could Not Open Local Copy */
-"open_sequence_couldnt_open_local_title" = "Impossible d'ouvrir la copie locale";
+"open_sequence_couldnt_open_local_title" = "Could Not Open Offline";
 
 /* Could not open Strongbox's local copy of this database. A online sync is required. */
 "open_sequence_couldnt_open_local_message" = "Impossible d'ouvrir la copie locale de Strongbox de cette base de données. Une synchronisation en ligne est requise.";
-
-/* Use Local Copy? */
-"open_sequence_yesno_use_local_copy_title" = "Utiliser la copie locale ?";
-
-/* Yes, Use Local (Read-Only) */
-"open_sequence_yes_use_local_copy_option" = "Oui, utiliser la copie locale (lecture seule)";
-
-/* It looks like you may be offline and '%@' may not be reachable. Would you like to use Strongbox's local copy in read-only mode instead? - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc */
-"open_sequence_user_looks_offline_open_local_ro_fmt" = "Il semble que vous soyez déconnecté et que '%@' ne soit pas accessible. Voulez-vous utiliser la copie locale de Strongbox en mode lecture seule à la place ?";
 
 /* Sync Error */
 "open_sequence_storage_provider_error_title" = "Erreur de synchro";
@@ -3926,5 +3914,59 @@
 /* Sync Possibly Required */
 "compare_merge_sync_possibly_required_title" = "Sync Possibly Required";
 
-/* One or both of these databases hasn't been sync'd very recently. It is recommended that you return to the Home screen and pull down to initiate the Sync process. This will ensure you are working with the latest versions. */
-"compare_merge_sync_possibly_required_message" = "At least one these databases haven't been synchronized very recently. It is recommended that you return to the Home screen and pull down to initiate the Sync process. This will ensure you are working with the latest versions.";
+/* At least one of these databases haven't been synchronized very recently. It is recommended that you return to the Databases List screen and pull down to initiate the Sync process. This will ensure you are working with the latest versions. */
+"compare_merge_sync_possibly_required_message" = "At least one of these databases haven't been synchronized very recently. It is recommended that you return to the Databases List screen and pull down to initiate the Sync process. This will ensure you are working with the latest versions.";
+
+/* It looks like you may be offline and '%@' may not be reachable. Would you like to open in offline mode instead? - Translators Note: 1st Parameter is the storage provider name like Google Drive or Dropbox */
+"open_sequence_user_looks_offline_open_local_fmt" = "It looks like you may be offline and '%@' may not be reachable. Would you like to open in offline mode instead?";
+
+/* It looks like you may be offline and '%@' may not be reachable. Would you like to use Strongbox's local copy in read-only mode instead? - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc */
+"open_sequence_user_looks_offline_open_local_ro_fmt" = "It looks like you may be offline and '%@' may not be reachable. Would you like to open in offline mode instead?\n\nNB: This is read-only. You can also edit offline in the Pro version.";
+
+/* Open Offline? */
+"open_sequence_yesno_use_local_copy_title" = "Open Offline?";
+
+/* Yes, Open Offline */
+"open_sequence_yes_use_local_copy_option" = "Yes, Open Offline";
+
+/* Open Offline */
+"open_sequence_use_local_copy_option" = "Open Offline";
+
+/* Open Offline (Read-Only) */
+"open_sequence_use_local_copy_option_ro" = "Open Offline (Read-Only)";
+
+/*  (Read Only) */
+"browse_vc_read_only_suffix" = " (Lecture seule)";
+
+/*  (Offline) */
+"browse_vc_offline_suffix" = " (Offline)";
+
+/* Offline Mode */
+"browse_vc_pulldown_refresh_offline_title" = "Offline Mode";
+
+/* Database Not Refreshed */
+"browse_vc_pulldown_refresh_offline_message" = "Database Not Refreshed";
+
+/* Do not allow changes to be made to this database when it is open. */
+"database_properties_subtitle_read_only" = "Do not allow changes to be made to this database when it is open.";
+
+/* Automatically prompt to open this database on App launch. */
+"database_properties_subtitle_quick_launch" = "Automatically prompt to open this database on App launch.";
+
+/* Always Auto-Merge */
+"database_properties_title_always_auto_merge" = "Toujours fusionner automatiquement";
+
+/* When a sync conflict occurs automatically merge without asking. */
+"database_properties_subtitle_conflict_resolution" = "When a sync conflict occurs automatically merge without asking.";
+
+/* Immediate Open Offline Offer */
+"database_properties_title_offline_behaviour" = "Immediate Open Offline Offer";
+
+/* Immediately offer to open offline if Strongbox detects you are offline. Alternatively, if you turn this off, Strongbox will try to connect which may take some time. */
+"database_properties_subtitle_offline_behaviour" = "Immediately offer to open in offline mode if Strongbox detects you are offline. Alternatively, if you turn this off, Strongbox will try to connect which may take some time.";
+
+/* Configure & View local backups." */
+"database_properties_subtitle_backups" = "Configure & View local backups.";
+
+/* View recent sync details including errors. */
+"database_properties_subtitle_view_sync_log" = "View recent sync details including errors.";
