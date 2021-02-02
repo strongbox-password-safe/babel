@@ -1822,7 +1822,7 @@
 "model_error_cannot_write_backup" = "Не удалось создать резервную копию, создание базы данных будет остановлено!";
 
 /* Button Title to view backup settings of this database */
-"safes_vc_action_backups" = "Резервные копии";
+"safes_vc_action_backups" = "Резервное копирование";
 
 /* Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences */
 "open_sequence_error_reading_key_file_autofill_context" = "Не удалось открыть файл-ключ. Перейдите в Управление файл-ключами и проверьте настройки.";
@@ -3054,7 +3054,7 @@
 "browse_vc_audit_complete_message_issues_found_fmt" = "Найдено %ld проблем";
 
 /* %ld New Issues Found! */
-"browse_vc_audit_complete_message_new_issues_found_fmt" = "Найдено %ld новых проблем!";
+"browse_vc_audit_complete_message_new_issues_found_fmt" = "Найдено %ld новых проблем";
 
 /* HIBP Disclaimer */
 "audit_hibp_warning_title" = "Отказ от ответственности";
@@ -3900,7 +3900,7 @@
 "browse_vc_pulldown_refresh_error_message" = "См. лог синхронизации";
 
 /* Database Refreshed - No Changes */
-"browse_vc_pulldown_refresh_no_changes_title" = "Нет изменений в базе данных";
+"browse_vc_pulldown_refresh_no_changes_title" = "Изменений не обнаружено";
 
 /* %ld Failed Unlock Attempts - Translators note, first parameter is an integer, e.g 3 Failed Unlock Attempts */
 "privacy_vc_label_number_of_failed_unlock_attempts_fmt" = "Неудачных попыток разблокировки: %@";
@@ -3945,28 +3945,43 @@
 "browse_vc_pulldown_refresh_offline_title" = "Режим офлайн";
 
 /* Database Not Refreshed */
-"browse_vc_pulldown_refresh_offline_message" = "База данных не обновлена";
+"browse_vc_pulldown_refresh_offline_message" = "Нет соединения";
 
 /* Do not allow changes to be made to this database when it is open. */
-"database_properties_subtitle_read_only" = "Не разрешать вносить изменения в базу данных, если она открыта.";
+"database_properties_subtitle_read_only" = "Запретить изменения в базе данных, если она открыта";
 
 /* Automatically prompt to open this database on App launch. */
-"database_properties_subtitle_quick_launch" = "Автоматически предлагать открыть базу данных при запуске приложения.";
+"database_properties_subtitle_quick_launch" = "Автоматически открывать базу данных при запуске приложения";
 
 /* Always Auto-Merge */
 "database_properties_title_always_auto_merge" = "Автообъединение";
 
 /* When a sync conflict occurs automatically merge without asking. */
-"database_properties_subtitle_conflict_resolution" = "При возникновении конфликта синхронизации автоматически объединять без запроса.";
+"database_properties_subtitle_conflict_resolution" = "При возникновении конфликта синхронизации автоматически объединять без запроса";
 
 /* Immediate Open Offline Offer */
-"database_properties_title_offline_behaviour" = "Предлагать открыть офлайн";
+"database_properties_title_offline_behaviour" = "Открывать офлайн";
 
 /* Immediately offer to open offline if Strongbox detects you are offline. Alternatively, if you turn this off, Strongbox will try to connect which may take some time. */
-"database_properties_subtitle_offline_behaviour" = "Предлагать открыть офлайн при отсутствии сети. Если выключено, Strongbox будет пытаться подключиться, что займёт некоторое время.";
+"database_properties_subtitle_offline_behaviour" = "Предлагать открыть офлайн копию при отсутствии сети";
 
 /* Configure & View local backups." */
-"database_properties_subtitle_backups" = "Настройка и просмотр локальных резервных копий.";
+"database_properties_subtitle_backups" = "Настройка и просмотр локальных резервных копий";
 
 /* View recent sync details including errors. */
-"database_properties_subtitle_view_sync_log" = "Просмотр сведений и ошибок синхронизации.";
+"database_properties_subtitle_view_sync_log" = "Просмотр сведений и ошибок синхронизации";
+
+/* Your Database is configured to use a YubiKey, however no YubiKey or an incorrect YubiKey was found connected. */
+"mac_autofill_no_or_incorrect_yubikey_found" = "База данных сконфигурирована для использования YubiKey. Однако его не удалось найти или это неверный ключ.";
+
+/* Title (Username) */
+"quick_type_format_title_username" = "Название (Логин)";
+
+/* Title */
+"quick_type_format_title" = "Название";
+
+/* Username */
+"quick_type_format_username" = "Логин";
+
+/* QuickType Format */
+"prefs_vc_quick_type_format" = "Формат QuickType";

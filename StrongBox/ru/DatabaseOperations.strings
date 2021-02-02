@@ -22,11 +22,17 @@
 /* Class = "UILabel"; text = "Export Database"; ObjectID = "8t7-OA-fuK"; */
 "8t7-OA-fuK.text" = "Экспорт";
 
-/* Class = "UITableViewSection"; headerTitle = "Miscellaneous"; ObjectID = "AXk-eB-GHh"; */
-"AXk-eB-GHh.headerTitle" = "Дополнительно";
+/* Class = "UITableViewSection"; footerTitle = "Settings for AutoFill in Safari and other Third Party Applications. QuickType provides suggestions above the keyboard for fast access."; ObjectID = "AXk-eB-GHh"; */
+"AXk-eB-GHh.footerTitle" = "Параметры автозаполнения в Safari и других приложениях. QuickType предложит варианты для быстрого доступа.";
+
+/* Class = "UITableViewSection"; headerTitle = "AutoFill"; ObjectID = "AXk-eB-GHh"; */
+"AXk-eB-GHh.headerTitle" = "Автозаполнение";
 
 /* Class = "UILabel"; text = "Print Database"; ObjectID = "CCi-ZI-4Gk"; */
 "CCi-ZI-4Gk.text" = "Печать";
+
+/* Class = "UILabel"; text = "Title & Username"; ObjectID = "Cht-ce-289"; */
+"Cht-ce-289.text" = "Название и логин";
 
 /* Class = "UILabel"; text = "Statistics & Properties"; ObjectID = "Emf-KT-4U5"; */
 "Emf-KT-4U5.text" = "Статистика и свойства";
@@ -49,8 +55,8 @@
 /* Class = "UILabel"; text = "NB: Local Device database are permanently deleted"; ObjectID = "JIi-2p-HGt"; */
 "JIi-2p-HGt.text" = "Примечание: Локальная база данных будет удалена навсегда";
 
-/* Class = "UILabel"; text = "AutoFill"; ObjectID = "MyM-Gm-9ER"; */
-"MyM-Gm-9ER.text" = "Автозаполнение";
+/* Class = "UILabel"; text = "Enabled"; ObjectID = "MyM-Gm-9ER"; */
+"MyM-Gm-9ER.text" = "Включено";
 
 /* Class = "UITableViewSection"; footerTitle = "Show interesting and informative information about your database. Most common username, format, number of entries etc."; ObjectID = "Oh1-eR-pfP"; */
 "Oh1-eR-pfP.footerTitle" = "Формат, версия файла, шифрование, размер истории, количество групп и т.д.";
@@ -66,12 +72,6 @@
 
 /* Class = "UITableViewSection"; headerTitle = "Convenience PIN"; ObjectID = "TUP-XN-gQC"; */
 "TUP-XN-gQC.headerTitle" = "Код-пароль";
-
-/* Class = "UITableViewSection"; footerTitle = "Database wide operations. Change Master Credentials, Export, Print & Download FavIcons for your database."; ObjectID = "Usu-2m-wwg"; */
-"Usu-2m-wwg.footerTitle" = "Изменение мастер-ключа, экспорт, печать, просмотр вложений и загрузка значков.";
-
-/* Class = "UITableViewSection"; headerTitle = "Operations"; ObjectID = "Usu-2m-wwg"; */
-"Usu-2m-wwg.headerTitle" = "Операции с базой данных";
 
 /* Class = "UINavigationItem"; title = "Database Settings"; ObjectID = "Vua-Ec-gtU"; */
 "Vua-Ec-gtU.title" = "Настройки";
@@ -94,9 +94,6 @@
 /* Class = "UILabel"; text = "Database Operations"; ObjectID = "bW7-8i-cE7"; */
 "bW7-8i-cE7.text" = "Операции";
 
-/* Class = "UILabel"; text = "Read-Only"; ObjectID = "dYn-dT-eVK"; */
-"dYn-dT-eVK.text" = "Режим «Только чтение»";
-
 /* Class = "UILabel"; text = "Title"; ObjectID = "dqx-dU-chI"; */
 "dqx-dU-chI.text" = "Название";
 
@@ -109,11 +106,11 @@
 /* Class = "UILabel"; text = "Change Master Password"; ObjectID = "gqm-VJ-fD5"; */
 "gqm-VJ-fD5.text" = "Изменить пароль";
 
-/* Class = "UITableViewSection"; footerTitle = "Show and hide elements of your database, set fast Tap Actions and tweak Audit settings"; ObjectID = "hPZ-hV-dmn"; */
-"hPZ-hV-dmn.footerTitle" = "Настройка отображения элементов базы данных, действия при касании записи, аудита.";
+/* Class = "UITableViewSection"; footerTitle = "Show and hide elements of your database, tweak Audit settings and perform other database wide operaitons"; ObjectID = "hPZ-hV-dmn"; */
+"hPZ-hV-dmn.footerTitle" = "Показать и скрыть элементы базы данных, настройки аудита и другие операции.";
 
-/* Class = "UITableViewSection"; headerTitle = "Preferences"; ObjectID = "hPZ-hV-dmn"; */
-"hPZ-hV-dmn.headerTitle" = "Интерфейс и аудит";
+/* Class = "UITableViewSection"; headerTitle = "Preferences & Actions"; ObjectID = "hPZ-hV-dmn"; */
+"hPZ-hV-dmn.headerTitle" = "Настройки и действия";
 
 /* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "iFa-AQ-sUK"; */
 "iFa-AQ-sUK.title" = "Назад";
@@ -142,8 +139,11 @@
 /* Class = "UITableViewSection"; headerTitle = "Convenience Unlocking"; ObjectID = "wg6-2k-ifx"; */
 "wg6-2k-ifx.headerTitle" = "Быстрая разблокировка базы данных";
 
-/* Class = "UILabel"; text = "QuickType AutoFill"; ObjectID = "yRb-Gt-KiB"; */
-"yRb-Gt-KiB.text" = "Автозаполнение QuickType";
+/* Class = "UILabel"; text = "QuickType Enabled"; ObjectID = "yRb-Gt-KiB"; */
+"yRb-Gt-KiB.text" = "QuickType включен";
 
 /* Class = "UILabel"; text = "Present a Technical Error"; ObjectID = "zOJ-be-bYv"; */
 "zOJ-be-bYv.text" = "Показать техническую ошибку";
+
+/* Class = "UILabel"; text = "QuickType Format"; ObjectID = "zqp-Gq-nXl"; */
+"zqp-Gq-nXl.text" = "Формат QuickType";
