@@ -3894,88 +3894,88 @@
 "browse_vc_pulldown_refresh_updated_title" = "Base de données actualisée";
 
 /* Error Refreshing */
-"browse_vc_pulldown_refresh_error_title" = "Erreur lors de l'actualisation";
+"browse_vc_pulldown_refresh_error_title" = "Erreur d'actualisation";
 
 /* See Sync Log */
-"browse_vc_pulldown_refresh_error_message" = "See Sync Log";
+"browse_vc_pulldown_refresh_error_message" = "Voir le journal de synchronisation";
 
 /* Database Refreshed - No Changes */
-"browse_vc_pulldown_refresh_no_changes_title" = "Database Refreshed - No Changes";
+"browse_vc_pulldown_refresh_no_changes_title" = "Base de données mise à jour - Aucun changement";
 
 /* %ld Failed Unlock Attempts - Translators note, first parameter is an integer, e.g 3 Failed Unlock Attempts */
-"privacy_vc_label_number_of_failed_unlock_attempts_fmt" = "%@ Failed Unlock Attempts";
+"privacy_vc_label_number_of_failed_unlock_attempts_fmt" = "%@ tentative(s) de déverrouillage échouée(s)";
 
 /* Modified %@ - Translators Note: first parameter is a friendly date string. e.g. "Modified Today at 3:28PM" */
-"backups_backup_modified_title_fmt" = "Modified %@";
+"backups_backup_modified_title_fmt" = "Modifié %@";
 
 /* %@ (Backup taken %@) - Translators Note: first parameter is the file size and the second parameter a friendly date string. e.g. "4KB (Backup taken Today at 3:29PM)" */
-"backups_backup_taken_at_subtitle_fmt" = "%@ (Backup taken %@)";
+"backups_backup_taken_at_subtitle_fmt" = "%@ (Sauvegarde prise %@)";
 
 /* Sync Possibly Required */
-"compare_merge_sync_possibly_required_title" = "Sync Possibly Required";
+"compare_merge_sync_possibly_required_title" = "Synchronisation éventuellement requise";
 
 /* At least one of these databases haven't been synchronized very recently. It is recommended that you return to the Databases List screen and pull down to initiate the Sync process. This will ensure you are working with the latest versions. */
-"compare_merge_sync_possibly_required_message" = "At least one of these databases haven't been synchronized very recently. It is recommended that you return to the Databases List screen and pull down to initiate the Sync process. This will ensure you are working with the latest versions.";
+"compare_merge_sync_possibly_required_message" = "Au moins une de ces bases de données n'a pas été synchronisée très récemment. Il est recommandé de retourner à l'écran de la liste des bases de données et de tirer vers le bas pour lancer le processus de synchronisation. Cela vous assurera de travailler avec les dernières versions.";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to open in offline mode instead? - Translators Note: 1st Parameter is the storage provider name like Google Drive or Dropbox */
-"open_sequence_user_looks_offline_open_local_fmt" = "It looks like you may be offline and '%@' may not be reachable. Would you like to open in offline mode instead?";
+"open_sequence_user_looks_offline_open_local_fmt" = "Il semble que vous soyez hors ligne et que '%@' soit inaccessible. Souhaitez-vous ouvrir en mode hors ligne à la place ?";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use Strongbox's local copy in read-only mode instead? - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc */
-"open_sequence_user_looks_offline_open_local_ro_fmt" = "It looks like you may be offline and '%@' may not be reachable. Would you like to open in offline mode instead?\n\nNB: This is read-only. You can also edit offline in the Pro version.";
+"open_sequence_user_looks_offline_open_local_ro_fmt" = "Il semble que vous soyez hors ligne et que '%@' soit inaccessible. Souhaitez-vous ouvrir en mode hors ligne à la place ?\n\nNB : C'est en lecture seule. Vous pouvez éditer hors ligne dans la version Pro.";
 
 /* Open Offline? */
-"open_sequence_yesno_use_local_copy_title" = "Open Offline?";
+"open_sequence_yesno_use_local_copy_title" = "Ouvrir hors ligne ?";
 
 /* Yes, Open Offline */
-"open_sequence_yes_use_local_copy_option" = "Yes, Open Offline";
+"open_sequence_yes_use_local_copy_option" = "Oui, ouvrir hors ligne";
 
 /* Open Offline */
 "open_sequence_use_local_copy_option" = "Ouvrir hors ligne";
 
 /* Open Offline (Read-Only) */
-"open_sequence_use_local_copy_option_ro" = "Open Offline (Read-Only)";
+"open_sequence_use_local_copy_option_ro" = "Ouvrir hors ligne (lecture seule)";
 
 /*  (Read Only) */
 "browse_vc_read_only_suffix" = " (Lecture seule)";
 
 /*  (Offline) */
-"browse_vc_offline_suffix" = " (Offline)";
+"browse_vc_offline_suffix" = " (Hors ligne)";
 
 /* Offline Mode */
-"browse_vc_pulldown_refresh_offline_title" = "Offline Mode";
+"browse_vc_pulldown_refresh_offline_title" = "Mode hors-ligne";
 
 /* Database Not Refreshed */
-"browse_vc_pulldown_refresh_offline_message" = "Database Not Refreshed";
+"browse_vc_pulldown_refresh_offline_message" = "Base de données non actualisée";
 
 /* Do not allow changes to be made to this database when it is open. */
-"database_properties_subtitle_read_only" = "Do not allow changes to be made to this database when it is open.";
+"database_properties_subtitle_read_only" = "N'autorisez pas les modifications de cette base de données lorsqu'elle est ouverte.";
 
 /* Automatically prompt to open this database on App launch. */
-"database_properties_subtitle_quick_launch" = "Automatically prompt to open this database on App launch.";
+"database_properties_subtitle_quick_launch" = "Proposer automatiquement l'ouverture de cette base de données au lancement de l'application.";
 
 /* Always Auto-Merge */
 "database_properties_title_always_auto_merge" = "Toujours fusionner automatiquement";
 
 /* When a sync conflict occurs automatically merge without asking. */
-"database_properties_subtitle_conflict_resolution" = "When a sync conflict occurs automatically merge without asking.";
+"database_properties_subtitle_conflict_resolution" = "Lorsqu'un conflit de synchronisation survient, fusionner automatiquement sans demander.";
 
 /* Immediate Open Offline Offer */
-"database_properties_title_offline_behaviour" = "Immediate Open Offline Offer";
+"database_properties_title_offline_behaviour" = "Proposer immédiatement l'ouverture hors ligne";
 
 /* Immediately offer to open offline if Strongbox detects you are offline. Alternatively, if you turn this off, Strongbox will try to connect which may take some time. */
-"database_properties_subtitle_offline_behaviour" = "Immediately offer to open in offline mode if Strongbox detects you are offline. Alternatively, if you turn this off, Strongbox will try to connect which may take some time.";
+"database_properties_subtitle_offline_behaviour" = "Proposer immédiatement l'ouverture hors ligne si Strongbox détecte que vous êtes déconnecté. Sinon, si vous désactivez cette option, Strongbox essaiera de se connecter ce qui peut prendre un certain temps.";
 
 /* Configure & View local backups." */
-"database_properties_subtitle_backups" = "Configure & View local backups.";
+"database_properties_subtitle_backups" = "Configurer et afficher les sauvegardes locales.";
 
 /* View recent sync details including errors. */
-"database_properties_subtitle_view_sync_log" = "View recent sync details including errors.";
+"database_properties_subtitle_view_sync_log" = "Afficher les détails de synchronisation récents, y compris les erreurs.";
 
 /* Your Database is configured to use a YubiKey, however no YubiKey or an incorrect YubiKey was found connected. */
-"mac_autofill_no_or_incorrect_yubikey_found" = "Your Database is configured to use a YubiKey, however no YubiKey or an incorrect YubiKey was found connected.";
+"mac_autofill_no_or_incorrect_yubikey_found" = "Votre base de données est configurée pour utiliser une YubiKey, mais aucune YubiKey valide n'a été détectée.";
 
 /* Title (Username) */
-"quick_type_format_title_username" = "Title (Username)";
+"quick_type_format_title_username" = "Titre (Nom d'utilisateur)";
 
 /* Title */
 "quick_type_format_title" = "Titre";
