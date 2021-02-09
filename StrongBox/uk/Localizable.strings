@@ -1374,7 +1374,7 @@
 "open_sequence_error_reading_key_file" = "Не вдається прочитати ключовий файл. Можливо, він переміщений чи видалений? Перевірте керування ключовими файлами в параметрах";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc, 2nd param is the date/time of the last cache) */
-"open_sequence_user_looks_offline_open_offline_instead_fmt" = "Схоже, ви знаходитесь поза мережею, тому не вдається з'єднатися з %@. Бажаєте використовувати автономну кеш-версію цієї бази даних лише для читання?\n\nВостаннє кешовано: %@";
+"open_sequence_user_looks_offline_open_offline_instead_fmt" = "Схоже, ви знаходитесь поза мережею, тому не вдається з'єднатися з %@. Бажаєте використовувати локальну кеш-версію цієї бази даних лише для читання?\n\nВостаннє кешовано: %@";
 
 /* No, Try to connect anyway */
 "open_sequence_yesno_use_offline_cache_no_try_connect_option" = "Ні, спробувати з'єднатися знову";
@@ -3972,10 +3972,10 @@
 "database_properties_subtitle_view_sync_log" = "Перегляд останніх подробиць синхронізації включно з помилками.";
 
 /* Your Database is configured to use a YubiKey, however no YubiKey or an incorrect YubiKey was found connected. */
-"mac_autofill_no_or_incorrect_yubikey_found" = "Your Database is configured to use a YubiKey, however no YubiKey or an incorrect YubiKey was found connected.";
+"mac_autofill_no_or_incorrect_yubikey_found" = "Ваша база даних налаштована для використання YubiKey, однак з'єднаний YubiKey неправильний, або він відсутній.";
 
 /* Title (Username) */
-"quick_type_format_title_username" = "Title (Username)";
+"quick_type_format_title_username" = "Заголовок (ім'я користувача)";
 
 /* Title */
 "quick_type_format_title" = "Заголовок";
@@ -3984,4 +3984,4 @@
 "quick_type_format_username" = "Ім'я користувача";
 
 /* QuickType Format */
-"prefs_vc_quick_type_format" = "QuickType Format";
+"prefs_vc_quick_type_format" = "Формат QuickType";
