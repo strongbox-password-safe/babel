@@ -3543,7 +3543,7 @@
 "are_you_sure_delete_database_multiple" = "Вы действительно хотите удалить эти базы данных из Strongbox?\n\nПримечание: Будут удалены настройки для баз данных в приложении. Сами файлы не будут удалены.";
 
 /* No Databases Here Yet.\n\nClick 'Add Database...' below to get started... */
-"mac_no_databases_initial_message" = "No Databases Here Yet.\n\nClick 'Add Database...' below to get started...";
+"mac_no_databases_initial_message" = "Нет баз данных.\n\nНажмите кнопку ниже, чтобы начать работу";
 
 /* No AutoFill Enabled Databases */
 "mac_no_autofill_enabled_databases_initial_message" = "Нет баз данных с включенной поддержкой автозаполнения";
@@ -3988,10 +3988,16 @@
 
 
 /* Authenticating... */
-"storage_provider_status_authenticating" = "Authenticating...";
+"storage_provider_status_authenticating" = "Аутентификация ...";
 
 /* Connecting... */
-"storage_provider_status_authenticating_connecting" = "Connecting...";
+"storage_provider_status_authenticating_connecting" = "Соединение ...";
 
 /* Listing... */
-"storage_provider_status_authenticating_listing" = "Listing...";
+"storage_provider_status_authenticating_listing" = "Список ...";
+
+/* Creating... */
+"storage_provider_status_authenticating_creating" = "Creating...";
+
+/* Strongbox iCloud */
+"databases_vc_database_location_suffix_database_is_in_official_icloud_strongbox_folder" = "Strongbox iCloud";
