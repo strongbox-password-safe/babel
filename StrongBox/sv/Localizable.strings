@@ -737,8 +737,8 @@
 /* Use iCloud */
 "prefs_vc_use_icloud_action" = "Använd iCloud";
 
-/* Use iCloud (Unavailable) */
-"prefs_vc_use_icloud_disabled" = "Använd iCloud (ej tillgänglig)";
+/* iCloud (Disabled in System Settings) */
+"prefs_vc_use_icloud_disabled" = "iCloud (Disabled in System Settings)";
 
 /* No Files or Folders Found */
 "sbtvc_empty_table_no_files_found" = "Inga filer eller mappar hittades";
@@ -3813,10 +3813,10 @@
 "diff_drill_down_tags_are_different" = "Taggar är olika.";
 
 /* Custom Fields will change. */
-"diff_drill_down_custom_fields_will_change" = "Custom Fields will change.";
+"diff_drill_down_custom_fields_will_change" = "Anpassade fält kommer att ändras.";
 
 /* Custom Fields are different. */
-"diff_drill_down_custom_fields_are_different" = "Custom Fields are different.";
+"diff_drill_down_custom_fields_are_different" = "Anpassade fält är olika.";
 
 /* Item will be moved. */
 "diff_drill_down_location_will_change" = "Objektet kommer att flyttas.";
@@ -3870,10 +3870,10 @@
 "conflict_resolution_force_overwrite_message" = "You can overwrite changes in either your local copy or in the remote copy.";
 
 /* Take Remote Copy, Overwrite Local */
-"conflict_resolution_force_overwrite_take_remote" = "Take Remote Copy, Overwrite Local";
+"conflict_resolution_force_overwrite_take_remote" = "Använd fjärrkopia, skriv över lokal";
 
 /* Keep Local Copy, Overwrite Remote */
-"conflict_resolution_force_overwrite_keep_lacal" = "Keep Local Copy, Overwrite Remote";
+"conflict_resolution_force_overwrite_keep_lacal" = "Behåll lokal kopia, skriv över fjärrkopia";
 
 /* Technical Error - Could not write local copies for comparison/merge. */
 "model_error_could_not_write_local_merge" = "Technical Error - Could not write local copies for comparison/merge.";
@@ -3891,7 +3891,7 @@
 "merge_are_you_sure_less_than_ideal_format" = "Your database format does not support advanced synchronization features (available in KeePass 2). This means the merge may be less than ideal.\n\nAre you sure you want to continue with the merge?";
 
 /* Database Refreshed */
-"browse_vc_pulldown_refresh_updated_title" = "Database Refreshed";
+"browse_vc_pulldown_refresh_updated_title" = "Databas uppdaterad";
 
 /* Error Refreshing */
 "browse_vc_pulldown_refresh_error_title" = "Fel vid uppdatering";
@@ -3924,16 +3924,16 @@
 "open_sequence_user_looks_offline_open_local_ro_fmt" = "It looks like you may be offline and '%@' may not be reachable. Would you like to open in offline mode instead?\n\nNB: This is read-only. You can also edit offline in the Pro version.";
 
 /* Open Offline? */
-"open_sequence_yesno_use_local_copy_title" = "Open Offline?";
+"open_sequence_yesno_use_local_copy_title" = "Öppna offline?";
 
 /* Yes, Open Offline */
-"open_sequence_yes_use_local_copy_option" = "Yes, Open Offline";
+"open_sequence_yes_use_local_copy_option" = "Ja, öppna offline";
 
 /* Open Offline */
 "open_sequence_use_local_copy_option" = "Öppna offline";
 
 /* Open Offline (Read-Only) */
-"open_sequence_use_local_copy_option_ro" = "Open Offline (Read-Only)";
+"open_sequence_use_local_copy_option_ro" = "Öppna offline (skrivskyddad)";
 
 /*  (Read Only) */
 "browse_vc_read_only_suffix" = " (Skrivskyddad)";
@@ -3942,10 +3942,10 @@
 "browse_vc_offline_suffix" = " (Offline)";
 
 /* Offline Mode */
-"browse_vc_pulldown_refresh_offline_title" = "Offline Mode";
+"browse_vc_pulldown_refresh_offline_title" = "Offline-läge";
 
 /* Database Not Refreshed */
-"browse_vc_pulldown_refresh_offline_message" = "Database Not Refreshed";
+"browse_vc_pulldown_refresh_offline_message" = "Databas inte uppdaterad";
 
 /* Do not allow changes to be made to this database when it is open. */
 "database_properties_subtitle_read_only" = "Do not allow changes to be made to this database when it is open.";
@@ -3975,7 +3975,7 @@
 "mac_autofill_no_or_incorrect_yubikey_found" = "Your Database is configured to use a YubiKey, however no YubiKey or an incorrect YubiKey was found connected.";
 
 /* Title (Username) */
-"quick_type_format_title_username" = "Title (Username)";
+"quick_type_format_title_username" = "Rubrik (användarnamn)";
 
 /* Title */
 "quick_type_format_title" = "Rubrik";
@@ -4007,3 +4007,21 @@
 
 /* Allow Watch Unlock - (Enable in System Preferences > Security & Privacy) */
 "preference_allow_watch_unlock_system_disabled" = "Allow Watch Unlock - (Enable in System Preferences > Security & Privacy)";
+
+/* No Cloud Session Found */
+"cloud_sessions_prompt_no_session_found" = "Hittade ingen molnsession";
+
+/* Copy Debug Information? */
+"prompt_title_copy_debug_info" = "Copy Debug Information?";
+
+/* Would you like to copy some helpful debug information that you can share with support before proceeding? */
+"prompt_message_copy_debug_info" = "Would you like to copy some helpful debug information that you can share with support before proceeding?";
+
+/* Third Party Storage Privacy Opt-In */
+"third_party_storage_privacy_opt_in_title" = "Third Party Storage Privacy Opt-In";
+
+/* You are about to use a software library from Google, Microsoft or Dropbox for the first time.\n\nStrongbox does not control these organizations privacy policies (which may not be awesome).\n\nStrongbox offers these services for your convenience and it is entirely at your discretion whether you use them or not. You must Opt In to continue. */
+"third_party_storage_privacy_opt_in_message" = "You are about to use a software library from Google, Microsoft or Dropbox for the first time.\n\nStrongbox does not control these organizations privacy policies (which may not be awesome).\n\nStrongbox offers these services for your convenience and it is entirely at your discretion whether you use them or not.\n\nYou must Opt In to continue.";
+
+/* Opt In, Let's Go... */
+"third_party_storage_privacy_option_opt_in" = "Opt In, Let's Go...";
