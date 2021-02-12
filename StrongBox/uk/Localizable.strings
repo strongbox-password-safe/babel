@@ -1374,7 +1374,7 @@
 "open_sequence_error_reading_key_file" = "Не вдається прочитати ключовий файл. Можливо, він переміщений чи видалений? Перевірте керування ключовими файлами в параметрах";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc, 2nd param is the date/time of the last cache) */
-"open_sequence_user_looks_offline_open_offline_instead_fmt" = "Схоже, ви знаходитесь поза мережею, тому не вдається з'єднатися з %@. Бажаєте використовувати автономну кеш-версію цієї бази даних лише для читання?\n\nВостаннє кешовано: %@";
+"open_sequence_user_looks_offline_open_offline_instead_fmt" = "Схоже, ви знаходитесь поза мережею, тому не вдається з'єднатися з %@. Бажаєте використовувати локальну кеш-версію цієї бази даних лише для читання?\n\nВостаннє кешовано: %@";
 
 /* No, Try to connect anyway */
 "open_sequence_yesno_use_offline_cache_no_try_connect_option" = "Ні, спробувати з'єднатися знову";
@@ -3542,8 +3542,8 @@
 /* Are you sure you want to remove these databases from Strongbox?\n\nNB: The underlying database files will not be deleted. Just Strongbox's settings for these databases. */
 "are_you_sure_delete_database_multiple" = "Ви дійсно хочете вилучити ці бази паролів зі Strongbox?\n\nПримітка: Основні файли баз паролів не будуть видалені. Лише параметри Strongbox для цих баз паролів.";
 
-/* No Databases Here Yet\n\nClick 'New Database...' or 'Add Existing...' below to get started. */
-"mac_no_databases_initial_message" = "Тут ще немає баз паролів\n\nОберіть \"Нова база паролів...\" або \"Додати наявну...\" для початку.";
+/* No Databases Here Yet.\n\nClick 'Add Database...' below to get started... */
+"mac_no_databases_initial_message" = "Ще немає баз даних.\n\nТоркніться \"Додати базу даних...\" внизу, щоб почати...";
 
 /* No AutoFill Enabled Databases */
 "mac_no_autofill_enabled_databases_initial_message" = "Немає баз даних з увімкненим автозаповненням";
@@ -3972,10 +3972,10 @@
 "database_properties_subtitle_view_sync_log" = "Перегляд останніх подробиць синхронізації включно з помилками.";
 
 /* Your Database is configured to use a YubiKey, however no YubiKey or an incorrect YubiKey was found connected. */
-"mac_autofill_no_or_incorrect_yubikey_found" = "Your Database is configured to use a YubiKey, however no YubiKey or an incorrect YubiKey was found connected.";
+"mac_autofill_no_or_incorrect_yubikey_found" = "Ваша база даних налаштована для використання YubiKey, однак з'єднаний YubiKey неправильний, або він відсутній.";
 
 /* Title (Username) */
-"quick_type_format_title_username" = "Title (Username)";
+"quick_type_format_title_username" = "Заголовок (ім'я користувача)";
 
 /* Title */
 "quick_type_format_title" = "Заголовок";
@@ -3984,4 +3984,26 @@
 "quick_type_format_username" = "Ім'я користувача";
 
 /* QuickType Format */
-"prefs_vc_quick_type_format" = "QuickType Format";
+"prefs_vc_quick_type_format" = "Формат QuickType";
+
+
+/* Authenticating... */
+"storage_provider_status_authenticating" = "Перевірка...";
+
+/* Connecting... */
+"storage_provider_status_authenticating_connecting" = "З'єднання...";
+
+/* Listing... */
+"storage_provider_status_authenticating_listing" = "Формування...";
+
+/* Creating... */
+"storage_provider_status_authenticating_creating" = "Створення...";
+
+/* Strongbox iCloud */
+"databases_vc_database_location_suffix_database_is_in_official_icloud_strongbox_folder" = "Strongbox iCloud";
+
+/* Allow Watch Unlock */
+"preference_allow_watch_unlock" = "Розблокування Watch";
+
+/* Allow Watch Unlock - (Enable in System Preferences > Security & Privacy) */
+"preference_allow_watch_unlock_system_disabled" = "Дозволити розблокування з Watch - (Увімкніть у параметрах системи > Безпека і приватність)";

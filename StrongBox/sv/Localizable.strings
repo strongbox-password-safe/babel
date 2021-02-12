@@ -2716,13 +2716,13 @@
 "mac_convenience_summary_secure_enclave_and_will_expire_fmt" = "Bekvämlighetslösenordet är säkert lagrat, skyddad av din enhets Secure Enclave och upphör att gälla: %@.";
 
 /* Convenience Password is securely stored in your Keychain (Secure Enclave unavailable on this device) and will expire: %@. - Translators Note: 1st Parameter is a date, like "Today at 14:52" or "16 September 2020 at 16:54" */
-"mac_convenience_summary_keychain_and_will_expire_fmt" = "Bekvämlighetslösenordet är säkert lagrat i din nyckelring (Secure Enclave är inte tillgänglig på denna enhet) och upphör att gälla: %@.";
+"mac_convenience_summary_keychain_and_will_expire_fmt" = "Bekvämlighetslösenordet är säkert lagrat i din Nyckelhanterare (Secure Enclave är inte tillgänglig på denna enhet) och upphör att gälla: %@.";
 
 /* Convenience Password is securely stored, protected by your device's Secure Enclave and is configured not to expire. */
 "mac_convenience_summary_secure_enclave_and_will_not_expire" = "Bekvämlighetslösenordet är säkert lagrat, skyddad av din enhets Secure Enclave och är konfigurerad att gälla tills vidare.";
 
 /* Convenience Password is securely stored in your Keychain (Secure Enclave unavailable on this device), and is configured not to expire. */
-"mac_convenience_summary_keychain_and_will_not_expire" = "Bekvämlighetslösenordet är säkert lagrat i din nyckelring (Secure Enclave är inte tillgänglig på denna enhet) och är konfigurerad att gälla tills vidare.";
+"mac_convenience_summary_keychain_and_will_not_expire" = "Bekvämlighetslösenordet är säkert lagrat i din Nyckelhanterare (Secure Enclave är inte tillgänglig på denna enhet) och är konfigurerad att gälla tills vidare.";
 
 /* Convenience Password is securely stored (in memory only) encrypted by your device's Secure Enclave and will expire on Strongbox Exit. */
 "mac_convenience_summary_secure_enclave_and_will_expire_on_exit" = "Bekvämlighetslösenordet är säkert lagrat (endast i minnet), krypterad av din enhets Secure Enclave och upphör att gälla när Strongbox avslutas.";
@@ -3542,8 +3542,8 @@
 /* Are you sure you want to remove these databases from Strongbox?\n\nNB: The underlying database files will not be deleted. Just Strongbox's settings for these databases. */
 "are_you_sure_delete_database_multiple" = "Är du säker på att du vill ta bort dessa databaser från Strongbox?\n\nObs! De underliggande databasfilerna kommer inte att raderas. Bara Strongboxinställningar för dessa databaser.";
 
-/* No Databases Here Yet\n\nClick 'New Database...' or 'Add Existing...' below to get started. */
-"mac_no_databases_initial_message" = "Inga databaser här ännu\n\nKlicka på 'Ny databas ...' eller 'Lägg till befintlig ...' nedan för att komma igång.";
+/* No Databases Here Yet.\n\nClick 'Add Database...' below to get started... */
+"mac_no_databases_initial_message" = "No Databases Here Yet.\n\nClick 'Add Database...' below to get started...";
 
 /* No AutoFill Enabled Databases */
 "mac_no_autofill_enabled_databases_initial_message" = "Autofyll inte aktiverad för någon databas";
@@ -3819,52 +3819,52 @@
 "diff_drill_down_custom_fields_are_different" = "Custom Fields are different.";
 
 /* Item will be moved. */
-"diff_drill_down_location_will_change" = "Item will be moved.";
+"diff_drill_down_location_will_change" = "Objektet kommer att flyttas.";
 
 /* Item locations are different. */
-"diff_drill_down_locations_are_different" = "Item locations are different.";
+"diff_drill_down_locations_are_different" = "Objektplatser är olika.";
 
 /* In %@ and %@ */
-"diff_drill_down_diff_loc_different" = "In %@ and %@";
+"diff_drill_down_diff_loc_different" = "I %@ och %@";
 
 /* Local Copy Created. */
-"safes_vc_created_local_copy_done" = "Local Copy Created.";
+"safes_vc_created_local_copy_done" = "Lokal kopia skapad.";
 
 /* Comparing... */
-"diff_progress_comparing" = "Comparing...";
+"diff_progress_comparing" = "Jämför ...";
 
 /* Pro feature only. Please Upgrade. */
-"generic_pro_feature_only_please_upgrade" = "Pro feature only. Please Upgrade.";
+"generic_pro_feature_only_please_upgrade" = "Endast Pro-funktion. Uppgradera.";
 
 /* Comparison Results */
-"diff_nav_title_comparison_title" = "Comparison Results";
+"diff_nav_title_comparison_title" = "Jämförelseresultat";
 
 /* Compare Partially Supported */
-"diff_compare_partially_supported_title" = "Compare Partially Supported";
+"diff_compare_partially_supported_title" = "Jämförelse stöds delvis";
 
 /* Because of the underlying database format(s) of these databases a full comparison is not possible. Pleaese use the KeePass 2 database format to allow detection of Moves, Deletions, and Group edits.\n\nYou can proceed with compare/merge but it may not be comprehensive. */
 "diff_compare_partially_supported_msg" = "Because of the underlying database format(s) of these databases a full comparison is not possible. Only the KeePass 2 format allows detection of Moves, Deletions, and Group edits.\n\nYou can proceed with compare/merge but it may not be comprehensive.";
 
 /* View As... */
-"browse_prefs_view_as_ellipsis" = "View As...";
+"browse_prefs_view_as_ellipsis" = "Visa som ...";
 
 /* Database PIN */
-"pin_entry_database_default_text" = "Database PIN";
+"pin_entry_database_default_text" = "Databas-PIN-kod";
 
 /* App PIN */
-"pin_entry_app_default_text" = "App PIN";
+"pin_entry_app_default_text" = "App-PIN-kod";
 
 /* Compare & Merge (Pro) */
-"conflict_resolution_compare_pro_only" = "Compare & Merge (Pro)";
+"conflict_resolution_compare_pro_only" = "Jämför och slå samman (Pro)";
 
 /* Sync Later (Pro) */
-"conflict_resolution_sync_later_pro_only" = "Sync Later (Pro)";
+"conflict_resolution_sync_later_pro_only" = "Synkronisera senare (Pro)";
 
 /* Remote (%@) - Translators Note: First Param is the remote storage location e.g. Google Drive or Dropbox etc */
-"conflict_resolution_remote_fmt" = "Remote (%@)";
+"conflict_resolution_remote_fmt" = "Fjärr (%@)";
 
 /* Force Overwrite? */
-"conflict_resolution_force_overwrite_title" = "Force Overwrite?";
+"conflict_resolution_force_overwrite_title" = "Tvinga överskrivning?";
 
 /* You can overwrite changes in either your local copy or in the remote copy. */
 "conflict_resolution_force_overwrite_message" = "You can overwrite changes in either your local copy or in the remote copy.";
@@ -3894,25 +3894,25 @@
 "browse_vc_pulldown_refresh_updated_title" = "Database Refreshed";
 
 /* Error Refreshing */
-"browse_vc_pulldown_refresh_error_title" = "Error Refreshing";
+"browse_vc_pulldown_refresh_error_title" = "Fel vid uppdatering";
 
 /* See Sync Log */
-"browse_vc_pulldown_refresh_error_message" = "See Sync Log";
+"browse_vc_pulldown_refresh_error_message" = "Se synkroniseringslogg";
 
 /* Database Refreshed - No Changes */
-"browse_vc_pulldown_refresh_no_changes_title" = "Database Refreshed - No Changes";
+"browse_vc_pulldown_refresh_no_changes_title" = "Databasen uppdaterades - Inga ändringar";
 
 /* %ld Failed Unlock Attempts - Translators note, first parameter is an integer, e.g 3 Failed Unlock Attempts */
-"privacy_vc_label_number_of_failed_unlock_attempts_fmt" = "%@ Failed Unlock Attempts";
+"privacy_vc_label_number_of_failed_unlock_attempts_fmt" = "%@ misslyckade upplåsningsförsök";
 
 /* Modified %@ - Translators Note: first parameter is a friendly date string. e.g. "Modified Today at 3:28PM" */
-"backups_backup_modified_title_fmt" = "Modified %@";
+"backups_backup_modified_title_fmt" = "Ändrad %@";
 
 /* %@ (Backup taken %@) - Translators Note: first parameter is the file size and the second parameter a friendly date string. e.g. "4KB (Backup taken Today at 3:29PM)" */
-"backups_backup_taken_at_subtitle_fmt" = "%@ (Backup taken %@)";
+"backups_backup_taken_at_subtitle_fmt" = "%@ (Säkerhetskopia skapad %@)";
 
 /* Sync Possibly Required */
-"compare_merge_sync_possibly_required_title" = "Sync Possibly Required";
+"compare_merge_sync_possibly_required_title" = "Synkronisering kan behövas";
 
 /* At least one of these databases haven't been synchronized very recently. It is recommended that you return to the Databases List screen and pull down to initiate the Sync process. This will ensure you are working with the latest versions. */
 "compare_merge_sync_possibly_required_message" = "At least one of these databases haven't been synchronized very recently. It is recommended that you return to the Databases List screen and pull down to initiate the Sync process. This will ensure you are working with the latest versions.";
@@ -3984,4 +3984,26 @@
 "quick_type_format_username" = "Användarnamn";
 
 /* QuickType Format */
-"prefs_vc_quick_type_format" = "QuickType Format";
+"prefs_vc_quick_type_format" = "QuickTypeformat";
+
+
+/* Authenticating... */
+"storage_provider_status_authenticating" = "Autentiserar ...";
+
+/* Connecting... */
+"storage_provider_status_authenticating_connecting" = "Ansluter ...";
+
+/* Listing... */
+"storage_provider_status_authenticating_listing" = "Lista ...";
+
+/* Creating... */
+"storage_provider_status_authenticating_creating" = "Skapar ...";
+
+/* Strongbox iCloud */
+"databases_vc_database_location_suffix_database_is_in_official_icloud_strongbox_folder" = "Strongbox iCloud";
+
+/* Allow Watch Unlock */
+"preference_allow_watch_unlock" = "Tillåt Watch-upplåsning";
+
+/* Allow Watch Unlock - (Enable in System Preferences > Security & Privacy) */
+"preference_allow_watch_unlock_system_disabled" = "Allow Watch Unlock - (Enable in System Preferences > Security & Privacy)";

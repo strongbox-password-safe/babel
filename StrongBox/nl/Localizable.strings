@@ -3542,8 +3542,8 @@
 /* Are you sure you want to remove these databases from Strongbox?\n\nNB: The underlying database files will not be deleted. Just Strongbox's settings for these databases. */
 "are_you_sure_delete_database_multiple" = "Weet u zeker dat u deze databases uit Strongbox wilt verwijderen?\n\nNB: De onderliggende databasebestanden worden niet gewist. Alleen de instellingen van strongbox voor deze databases.";
 
-/* No Databases Here Yet\n\nClick 'New Database...' or 'Add Existing...' below to get started. */
-"mac_no_databases_initial_message" = "Nog geen Databases\n\nKlik op 'Nieuwe database...' of 'Bestaande toevoegen...' hieronder om aan de slag te gaan.";
+/* No Databases Here Yet.\n\nClick 'Add Database...' below to get started... */
+"mac_no_databases_initial_message" = "No Databases Here Yet.\n\nClick 'Add Database...' below to get started...";
 
 /* No AutoFill Enabled Databases */
 "mac_no_autofill_enabled_databases_initial_message" = "Geen databases met automatisch vullen";
@@ -3915,7 +3915,7 @@
 "compare_merge_sync_possibly_required_title" = "Synchronisatie mogelijk vereist";
 
 /* At least one of these databases haven't been synchronized very recently. It is recommended that you return to the Databases List screen and pull down to initiate the Sync process. This will ensure you are working with the latest versions. */
-"compare_merge_sync_possibly_required_message" = "At least one of these databases haven't been synchronized very recently. It is recommended that you return to the Databases List screen and pull down to initiate the Sync process. This will ensure you are working with the latest versions.";
+"compare_merge_sync_possibly_required_message" = "Ten minste één van deze databases is niet erg recent gesynchroniseerd. Het is raadzaam om terug te gaan naar het scherm Lijst van databases en te stoppen om het synchronisatieproces te starten. Dit zorgt ervoor dat u met de nieuwste versies werkt.";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to open in offline mode instead? - Translators Note: 1st Parameter is the storage provider name like Google Drive or Dropbox */
 "open_sequence_user_looks_offline_open_local_fmt" = "Het lijkt erop dat je offline bent en '%@\" kan niet bereikbaar zijn. Wilt u in de offline modus openen?";
@@ -3948,34 +3948,34 @@
 "browse_vc_pulldown_refresh_offline_message" = "Database niet vernieuwd";
 
 /* Do not allow changes to be made to this database when it is open. */
-"database_properties_subtitle_read_only" = "Do not allow changes to be made to this database when it is open.";
+"database_properties_subtitle_read_only" = "Het is niet mogelijk om wijzigingen aan te brengen in deze database wanneer deze is geopend.";
 
 /* Automatically prompt to open this database on App launch. */
-"database_properties_subtitle_quick_launch" = "Automatically prompt to open this database on App launch.";
+"database_properties_subtitle_quick_launch" = "Automatisch vragen om deze database te openen op het starten van apps.";
 
 /* Always Auto-Merge */
 "database_properties_title_always_auto_merge" = "Altijd automatisch samenvoegen";
 
 /* When a sync conflict occurs automatically merge without asking. */
-"database_properties_subtitle_conflict_resolution" = "When a sync conflict occurs automatically merge without asking.";
+"database_properties_subtitle_conflict_resolution" = "Als er een synchronisatieconflict optreedt, wordt er automatisch samenvoegd zonder bevestiging.";
 
 /* Immediate Open Offline Offer */
-"database_properties_title_offline_behaviour" = "Immediate Open Offline Offer";
+"database_properties_title_offline_behaviour" = "Offline aanbieding onmiddellijk openen";
 
 /* Immediately offer to open offline if Strongbox detects you are offline. Alternatively, if you turn this off, Strongbox will try to connect which may take some time. */
-"database_properties_subtitle_offline_behaviour" = "Immediately offer to open in offline mode if Strongbox detects you are offline. Alternatively, if you turn this off, Strongbox will try to connect which may take some time.";
+"database_properties_subtitle_offline_behaviour" = "Bied onmiddellijk aan om in de offline modus te openen als Strongbox detecteert dat je offline bent. Als u dit uitschakelt, probeert Strongbox ook verbinding te maken die enige tijd kan duren.";
 
 /* Configure & View local backups." */
-"database_properties_subtitle_backups" = "Configure & View local backups.";
+"database_properties_subtitle_backups" = "Lokale back-ups configureren en weergeven.";
 
 /* View recent sync details including errors. */
-"database_properties_subtitle_view_sync_log" = "View recent sync details including errors.";
+"database_properties_subtitle_view_sync_log" = "Recente synchronisatiegegevens weergeven inclusief fouten.";
 
 /* Your Database is configured to use a YubiKey, however no YubiKey or an incorrect YubiKey was found connected. */
-"mac_autofill_no_or_incorrect_yubikey_found" = "Your Database is configured to use a YubiKey, however no YubiKey or an incorrect YubiKey was found connected.";
+"mac_autofill_no_or_incorrect_yubikey_found" = "Uw database is geconfigureerd voor het gebruik van een YubiKey, maar er is geen YubiKey of een onjuiste YubiKey gevonden.";
 
 /* Title (Username) */
-"quick_type_format_title_username" = "Title (Username)";
+"quick_type_format_title_username" = "Titel (Gebruikersnaam)";
 
 /* Title */
 "quick_type_format_title" = "Titel";
@@ -3984,4 +3984,26 @@
 "quick_type_format_username" = "Gebruikersnaam";
 
 /* QuickType Format */
-"prefs_vc_quick_type_format" = "QuickType Format";
+"prefs_vc_quick_type_format" = "QuickType Formaat";
+
+
+/* Authenticating... */
+"storage_provider_status_authenticating" = "Authenticating...";
+
+/* Connecting... */
+"storage_provider_status_authenticating_connecting" = "Connecting...";
+
+/* Listing... */
+"storage_provider_status_authenticating_listing" = "Listing...";
+
+/* Creating... */
+"storage_provider_status_authenticating_creating" = "Creating...";
+
+/* Strongbox iCloud */
+"databases_vc_database_location_suffix_database_is_in_official_icloud_strongbox_folder" = "Strongbox iCloud";
+
+/* Allow Watch Unlock */
+"preference_allow_watch_unlock" = "Allow Watch Unlock";
+
+/* Allow Watch Unlock - (Enable in System Preferences > Security & Privacy) */
+"preference_allow_watch_unlock_system_disabled" = "Allow Watch Unlock - (Enable in System Preferences > Security & Privacy)";
