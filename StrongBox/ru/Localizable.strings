@@ -297,7 +297,7 @@
 "browse_prefs_tap_action_copy_username" = "Скопировать логин";
 
 /* Edit Item */
-"browse_prefs_tap_action_edit" = "Изменение";
+"browse_prefs_tap_action_edit" = "Правка";
 
 /* No Action */
 "browse_prefs_tap_action_none" = "Без действия";
@@ -1525,7 +1525,7 @@
 "cloud_sessions_clear_google" = "Очистка сессии Google Drive";
 
 /* Unlink Dropbox */
-"cloud_sessions_unlink_dropbox" = "Отсоединить Dropbox";
+"cloud_sessions_unlink_dropbox" = "Очистка сессии Dropbox";
 
 /* Clear OneDrive Session */
 "cloud_sessions_clear_onedrive" = "Очистка сессии OneDrive";
@@ -1540,19 +1540,19 @@
 "cloud_sessions_prompt_google_signout_success_title" = "Выход успешен";
 
 /* You have been successfully been signed out of Google Drive. */
-"cloud_sessions_prompt_google_signout_success_message" = "Вы успешно вышли из Google Диска.";
+"cloud_sessions_prompt_google_signout_success_message" = "Вы успешно вышли из Google Drive.";
 
 /* Unlink Dropbox? */
-"cloud_sessions_prompt_unlink_dropbox_title" = "Отсоединение Dropbox";
+"cloud_sessions_prompt_unlink_dropbox_title" = "Выход из Dropbox";
 
 /* Are you sure you want to unlink Strongbox from Dropbox? */
-"cloud_sessions_prompt_unlink_dropbox_message" = "Вы хотите отсоединить Dropbox?";
+"cloud_sessions_prompt_unlink_dropbox_message" = "Вы хотите выйти из Dropbox?";
 
 /* Unlink Successful */
 "cloud_sessions_prompt_dropbox_unlink_success_title" = "Отсоединение успешно";
 
 /* You have successfully unlinked Strongbox from Dropbox. */
-"cloud_sessions_prompt_dropbox_unlink_success_message" = "Вы успешно отсоединили Dropbox.";
+"cloud_sessions_prompt_dropbox_unlink_success_message" = "Вы успешно вышли из Dropbox.";
 
 /* Sign out of OneDrive? */
 "cloud_sessions_prompt_signout_onedrive_title" = "Выход из OneDrive";
@@ -3921,7 +3921,7 @@
 "open_sequence_user_looks_offline_open_local_fmt" = "Возможно, нет подключения к сети и хранилище %@ недоступно. Хотите  открыть базу данных офлайн?";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use Strongbox's local copy in read-only mode instead? - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc */
-"open_sequence_user_looks_offline_open_local_ro_fmt" = "Возможно, нет подключения к сети и хранилище %@ недоступно. Хотите  открыть базу данных офлайн?\n\nПримечание: Режим - только чтение. Редактирование в офлайн доступно в Pro версии.";
+"open_sequence_user_looks_offline_open_local_ro_fmt" = "Возможно, нет подключения к сети и хранилище %@ недоступно. Хотите  открыть базу данных офлайн?\n\nПримечание: Режим - только чтение. Офлайн редактирование доступно в Pro версии.";
 
 /* Open Offline? */
 "open_sequence_yesno_use_local_copy_title" = "Открыть офлайн?";
@@ -4018,10 +4018,22 @@
 "prompt_message_copy_debug_info" = "Хотите скопировать отладочную информацию, которой Вы можете поделиться с технической поддержкой перед тем, как продолжить?";
 
 /* Third Party Storage Privacy Opt-In */
-"third_party_storage_privacy_opt_in_title" = "Third Party Storage Privacy Opt-In";
+"third_party_storage_privacy_opt_in_title" = "Сторонние сервисы";
 
 /* You are about to use a software library from Google, Microsoft or Dropbox for the first time.\n\nStrongbox does not control these organizations privacy policies (which may not be awesome).\n\nStrongbox offers these services for your convenience and it is entirely at your discretion whether you use them or not. You must Opt In to continue. */
-"third_party_storage_privacy_opt_in_message" = "You are about to use a software library from Google, Microsoft or Dropbox for the first time.\n\nStrongbox does not control these organizations privacy policies (which may not be awesome).\n\nStrongbox offers these services for your convenience and it is entirely at your discretion whether you use them or not.\n\nYou must Opt In to continue.";
+"third_party_storage_privacy_opt_in_message" = "Для дальнейшей работы будут использоваться библиотеки Google, Microsoft или Dropbox. Strongbox не контролирует политики конфиденциальности этих организаций, и предлагает данные сервисы исключительно для Вашего удобства. Используйте их по своему усмотрению.\n\nХотите продолжить?";
 
 /* Opt In, Let's Go... */
-"third_party_storage_privacy_option_opt_in" = "Opt In, Let's Go...";
+"third_party_storage_privacy_option_opt_in" = "Да, я согласен";
+
+/* Sync Successful */
+"notification_sync_successful" = "Синхронизация выполнена";
+
+/* Add SFTP Database... (Pro) */
+"mac_add_sftp_pro_only" = "Добавить базу данных с SFTP";
+
+/* Add WebDAV Database... (Pro) */
+"mac_add_webdav_pro_only" = "Добавить базу данных с WebDAV";
+
+/* This database can only be unlocked by Strongbox Pro because it is stored via SFTP or WebDAV.\n\nPlease Upgrade. */
+"mac_non_file_database_pro_message" = "База данных может быть разблокирована только Pro версии, т.к.она находится в SFTP или WebDAV хранилище.\n\nПожалуйста, улучшите приложение.";

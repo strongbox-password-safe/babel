@@ -738,7 +738,7 @@
 "prefs_vc_use_icloud_action" = "Použít iCloud";
 
 /* iCloud (Disabled in System Settings) */
-"prefs_vc_use_icloud_disabled" = "iCloud (Disabled in System Settings)";
+"prefs_vc_use_icloud_disabled" = "iCloud (zakázáno v nastavení systému)";
 
 /* No Files or Folders Found */
 "sbtvc_empty_table_no_files_found" = "Nebyly nalezeny žádné soubory nebo složky";
@@ -3543,7 +3543,7 @@
 "are_you_sure_delete_database_multiple" = "Opravdu chcete odstranit tyto databáze ze Strongboxu?\n\nPozn.: základní databázové soubory nebudou smazány. Pouze nastavení Strongboxu pro tyto databáze.";
 
 /* No Databases Here Yet.\n\nClick 'Add Database...' below to get started... */
-"mac_no_databases_initial_message" = "No Databases Here Yet.\n\nClick 'Add Database...' below to get started...";
+"mac_no_databases_initial_message" = "Zatím zde nejsou žádné databáze.\n\nPro začátek klikněte na 'Přidat databázi...'";
 
 /* No AutoFill Enabled Databases */
 "mac_no_autofill_enabled_databases_initial_message" = "Žádné databáze s povoleným automatickým vyplňováním";
@@ -3988,40 +3988,52 @@
 
 
 /* Authenticating... */
-"storage_provider_status_authenticating" = "Authenticating...";
+"storage_provider_status_authenticating" = "Ověřování...";
 
 /* Connecting... */
-"storage_provider_status_authenticating_connecting" = "Connecting...";
+"storage_provider_status_authenticating_connecting" = "Připojování...";
 
 /* Listing... */
-"storage_provider_status_authenticating_listing" = "Listing...";
+"storage_provider_status_authenticating_listing" = "Výpis...";
 
 /* Creating... */
-"storage_provider_status_authenticating_creating" = "Creating...";
+"storage_provider_status_authenticating_creating" = "Vytváření...";
 
 /* Strongbox iCloud */
 "databases_vc_database_location_suffix_database_is_in_official_icloud_strongbox_folder" = "Strongbox iCloud";
 
 /* Allow Watch Unlock */
-"preference_allow_watch_unlock" = "Allow Watch Unlock";
+"preference_allow_watch_unlock" = "Povolit odemknutí přes Watch";
 
 /* Allow Watch Unlock - (Enable in System Preferences > Security & Privacy) */
-"preference_allow_watch_unlock_system_disabled" = "Allow Watch Unlock - (Enable in System Preferences > Security & Privacy)";
+"preference_allow_watch_unlock_system_disabled" = "Povolit odemknutí přes Watch - (aktivujte v Předvolbách systému > Zabezpečení a soukromí)";
 
 /* No Cloud Session Found */
-"cloud_sessions_prompt_no_session_found" = "No Cloud Session Found";
+"cloud_sessions_prompt_no_session_found" = "Nebyla nalezena žádná relace cloudu";
 
 /* Copy Debug Information? */
-"prompt_title_copy_debug_info" = "Copy Debug Information?";
+"prompt_title_copy_debug_info" = "Kopírovat ladicí informace?";
 
 /* Would you like to copy some helpful debug information that you can share with support before proceeding? */
-"prompt_message_copy_debug_info" = "Would you like to copy some helpful debug information that you can share with support before proceeding?";
+"prompt_message_copy_debug_info" = "Chcete před pokračováním zkopírovat některé užitečné ladicí informace, které můžete sdílet s podporou?";
 
 /* Third Party Storage Privacy Opt-In */
-"third_party_storage_privacy_opt_in_title" = "Third Party Storage Privacy Opt-In";
+"third_party_storage_privacy_opt_in_title" = "Přihlášení k ochraně osobních údajů třetí strany";
 
 /* You are about to use a software library from Google, Microsoft or Dropbox for the first time.\n\nStrongbox does not control these organizations privacy policies (which may not be awesome).\n\nStrongbox offers these services for your convenience and it is entirely at your discretion whether you use them or not. You must Opt In to continue. */
-"third_party_storage_privacy_opt_in_message" = "You are about to use a software library from Google, Microsoft or Dropbox for the first time.\n\nStrongbox does not control these organizations privacy policies (which may not be awesome).\n\nStrongbox offers these services for your convenience and it is entirely at your discretion whether you use them or not.\n\nYou must Opt In to continue.";
+"third_party_storage_privacy_opt_in_message" = "Chystáte se poprvé použít softwarovou knihovnu od Google, Microsoftu nebo Dropboxu.\n\nStrongbox neřídí zásady ochrany osobních údajů těchto organizací (které nemusí být ideální).\n\nStrongbox nabízí tyto služby pro vaše pohodlí a je zcela na vašem uvážení, zda je používáte, či ne.\n\nMusíte se přihlásit, abyste mohli pokračovat.";
 
 /* Opt In, Let's Go... */
-"third_party_storage_privacy_option_opt_in" = "Opt In, Let's Go...";
+"third_party_storage_privacy_option_opt_in" = "Přihlašte se, pojďme...";
+
+/* Sync Successful */
+"notification_sync_successful" = "Synchronizace byla úspěšná";
+
+/* Add SFTP Database... (Pro) */
+"mac_add_sftp_pro_only" = "Add SFTP Database... (Pro)";
+
+/* Add WebDAV Database... (Pro) */
+"mac_add_webdav_pro_only" = "Add WebDAV Database... (Pro)";
+
+/* This database can only be unlocked by Strongbox Pro because it is stored via SFTP or WebDAV.\n\nPlease Upgrade. */
+"mac_non_file_database_pro_message" = "This database can only be unlocked by Strongbox Pro because it is stored via SFTP or WebDAV.\n\nPlease Upgrade.";

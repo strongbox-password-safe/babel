@@ -738,7 +738,7 @@
 "prefs_vc_use_icloud_action" = "iCloud verwenden";
 
 /* iCloud (Disabled in System Settings) */
-"prefs_vc_use_icloud_disabled" = "iCloud (Disabled in System Settings)";
+"prefs_vc_use_icloud_disabled" = "iCloud (in Systemeinstellungen deaktiviert)";
 
 /* No Files or Folders Found */
 "sbtvc_empty_table_no_files_found" = "Keine Dateien oder Ordner gefunden";
@@ -3543,7 +3543,7 @@
 "are_you_sure_delete_database_multiple" = "Sind Sie sicher, dass Sie diese Datenbanken aus Strongbox entfernen möchten?\n\nHinweis: Die zugrundeliegenden Datenbankdateien werden nicht gelöscht. Nur Strongbox' Einstellungen für diese Datenbanken.";
 
 /* No Databases Here Yet.\n\nClick 'Add Database...' below to get started... */
-"mac_no_databases_initial_message" = "No Databases Here Yet.\n\nClick 'Add Database...' below to get started...";
+"mac_no_databases_initial_message" = "Noch keine Datenbanken vorhanden.\n\nKlicken Sie unten auf 'Datenbank hinzufügen...', um loszulegen...";
 
 /* No AutoFill Enabled Databases */
 "mac_no_autofill_enabled_databases_initial_message" = "Keine Datenbanken für autom. Ausfüllen konfiguriert";
@@ -3988,40 +3988,52 @@
 
 
 /* Authenticating... */
-"storage_provider_status_authenticating" = "Authenticating...";
+"storage_provider_status_authenticating" = "Authentifizieren...";
 
 /* Connecting... */
-"storage_provider_status_authenticating_connecting" = "Connecting...";
+"storage_provider_status_authenticating_connecting" = "Verbinden...";
 
 /* Listing... */
-"storage_provider_status_authenticating_listing" = "Listing...";
+"storage_provider_status_authenticating_listing" = "Auflisten...";
 
 /* Creating... */
-"storage_provider_status_authenticating_creating" = "Creating...";
+"storage_provider_status_authenticating_creating" = "Erstellen...";
 
 /* Strongbox iCloud */
 "databases_vc_database_location_suffix_database_is_in_official_icloud_strongbox_folder" = "Strongbox iCloud";
 
 /* Allow Watch Unlock */
-"preference_allow_watch_unlock" = "Allow Watch Unlock";
+"preference_allow_watch_unlock" = "Mit Watch entsperren erlauben";
 
 /* Allow Watch Unlock - (Enable in System Preferences > Security & Privacy) */
-"preference_allow_watch_unlock_system_disabled" = "Allow Watch Unlock - (Enable in System Preferences > Security & Privacy)";
+"preference_allow_watch_unlock_system_disabled" = "Mit Watch entsperren erlauben - (unter Systemeinstellungen > Sicherheit & Datenschutz aktivieren)";
 
 /* No Cloud Session Found */
-"cloud_sessions_prompt_no_session_found" = "No Cloud Session Found";
+"cloud_sessions_prompt_no_session_found" = "Keine Cloud-Sitzung gefunden";
 
 /* Copy Debug Information? */
-"prompt_title_copy_debug_info" = "Copy Debug Information?";
+"prompt_title_copy_debug_info" = "Debug-Informationen kopieren?";
 
 /* Would you like to copy some helpful debug information that you can share with support before proceeding? */
-"prompt_message_copy_debug_info" = "Would you like to copy some helpful debug information that you can share with support before proceeding?";
+"prompt_message_copy_debug_info" = "Möchten Sie einige hilfreiche Debug-Informationen kopieren, die Sie mit dem Support teilen können, bevor Sie fortfahren?";
 
 /* Third Party Storage Privacy Opt-In */
-"third_party_storage_privacy_opt_in_title" = "Third Party Storage Privacy Opt-In";
+"third_party_storage_privacy_opt_in_title" = "Datenschutz-Opt-in für Cloud-Speicher-Anbieter";
 
 /* You are about to use a software library from Google, Microsoft or Dropbox for the first time.\n\nStrongbox does not control these organizations privacy policies (which may not be awesome).\n\nStrongbox offers these services for your convenience and it is entirely at your discretion whether you use them or not. You must Opt In to continue. */
-"third_party_storage_privacy_opt_in_message" = "You are about to use a software library from Google, Microsoft or Dropbox for the first time.\n\nStrongbox does not control these organizations privacy policies (which may not be awesome).\n\nStrongbox offers these services for your convenience and it is entirely at your discretion whether you use them or not.\n\nYou must Opt In to continue.";
+"third_party_storage_privacy_opt_in_message" = "Sie sind dabei, zum ersten Mal eine Softwarebibliothek von Google, Microsoft oder Dropbox zu verwenden.\n\nStrongbox kontrolliert die Datenschutzrichtlinien dieser Unternehmen nicht (die vielleicht nicht so toll sind).\n\nStrongbox bietet diese Dienste zu Ihrem Komfort an und es liegt ganz in Ihrem Ermessen, ob Sie diese nutzen oder nicht.\n\nSie müssen zustimmen, um fortzufahren.";
 
 /* Opt In, Let's Go... */
-"third_party_storage_privacy_option_opt_in" = "Opt In, Let's Go...";
+"third_party_storage_privacy_option_opt_in" = "Opt-in, Los geht's...";
+
+/* Sync Successful */
+"notification_sync_successful" = "Sync Successful";
+
+/* Add SFTP Database... (Pro) */
+"mac_add_sftp_pro_only" = "Add SFTP Database... (Pro)";
+
+/* Add WebDAV Database... (Pro) */
+"mac_add_webdav_pro_only" = "Add WebDAV Database... (Pro)";
+
+/* This database can only be unlocked by Strongbox Pro because it is stored via SFTP or WebDAV.\n\nPlease Upgrade. */
+"mac_non_file_database_pro_message" = "This database can only be unlocked by Strongbox Pro because it is stored via SFTP or WebDAV.\n\nPlease Upgrade.";

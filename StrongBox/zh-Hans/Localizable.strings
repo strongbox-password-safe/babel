@@ -738,7 +738,7 @@
 "prefs_vc_use_icloud_action" = "使用 iCloud";
 
 /* iCloud (Disabled in System Settings) */
-"prefs_vc_use_icloud_disabled" = "iCloud (Disabled in System Settings)";
+"prefs_vc_use_icloud_disabled" = "iCloud (在系统设置中禁用)";
 
 /* No Files or Folders Found */
 "sbtvc_empty_table_no_files_found" = "未找到文件或文件夹";
@@ -3543,7 +3543,7 @@
 "are_you_sure_delete_database_multiple" = "您确定要从 Strongbox 中删除这些数据库吗？\n\n注意：基础数据库文件将不会被删除。 仅限这些数据库的 Strongbox 设置。";
 
 /* No Databases Here Yet.\n\nClick 'Add Database...' below to get started... */
-"mac_no_databases_initial_message" = "No Databases Here Yet.\n\nClick 'Add Database...' below to get started...";
+"mac_no_databases_initial_message" = "这里还没有数据库。\n\n点击下面的“添加数据库...”以开始...";
 
 /* No AutoFill Enabled Databases */
 "mac_no_autofill_enabled_databases_initial_message" = "没有已启用自动填充的数据库";
@@ -3975,7 +3975,7 @@
 "mac_autofill_no_or_incorrect_yubikey_found" = "您的数据库被配置为使用 YubiKey，但没有发现连接的 YubiKey 或连接了错误的 YubiKey。";
 
 /* Title (Username) */
-"quick_type_format_title_username" = "Title (Username)";
+"quick_type_format_title_username" = "标题 (用户名)";
 
 /* Title */
 "quick_type_format_title" = "标题";
@@ -3984,44 +3984,56 @@
 "quick_type_format_username" = "用户名";
 
 /* QuickType Format */
-"prefs_vc_quick_type_format" = "QuickType Format";
+"prefs_vc_quick_type_format" = "快速输入格式";
 
 
 /* Authenticating... */
-"storage_provider_status_authenticating" = "Authenticating...";
+"storage_provider_status_authenticating" = "验证中…";
 
 /* Connecting... */
-"storage_provider_status_authenticating_connecting" = "Connecting...";
+"storage_provider_status_authenticating_connecting" = "连接中...";
 
 /* Listing... */
-"storage_provider_status_authenticating_listing" = "Listing...";
+"storage_provider_status_authenticating_listing" = "列表中...";
 
 /* Creating... */
-"storage_provider_status_authenticating_creating" = "Creating...";
+"storage_provider_status_authenticating_creating" = "创建中...";
 
 /* Strongbox iCloud */
 "databases_vc_database_location_suffix_database_is_in_official_icloud_strongbox_folder" = "Strongbox iCloud";
 
 /* Allow Watch Unlock */
-"preference_allow_watch_unlock" = "Allow Watch Unlock";
+"preference_allow_watch_unlock" = "允许 Watch 解锁";
 
 /* Allow Watch Unlock - (Enable in System Preferences > Security & Privacy) */
-"preference_allow_watch_unlock_system_disabled" = "Allow Watch Unlock - (Enable in System Preferences > Security & Privacy)";
+"preference_allow_watch_unlock_system_disabled" = "允许 Watch 解锁 - (在系统首选项 > 安全性和隐私中启用)";
 
 /* No Cloud Session Found */
-"cloud_sessions_prompt_no_session_found" = "No Cloud Session Found";
+"cloud_sessions_prompt_no_session_found" = "未找到云端会话";
 
 /* Copy Debug Information? */
-"prompt_title_copy_debug_info" = "Copy Debug Information?";
+"prompt_title_copy_debug_info" = "复制调试信息？";
 
 /* Would you like to copy some helpful debug information that you can share with support before proceeding? */
-"prompt_message_copy_debug_info" = "Would you like to copy some helpful debug information that you can share with support before proceeding?";
+"prompt_message_copy_debug_info" = "在继续之前，您是否愿意复制一些有用的调试信息以与支持人员共享?";
 
 /* Third Party Storage Privacy Opt-In */
-"third_party_storage_privacy_opt_in_title" = "Third Party Storage Privacy Opt-In";
+"third_party_storage_privacy_opt_in_title" = "第三方存储隐私选项";
 
 /* You are about to use a software library from Google, Microsoft or Dropbox for the first time.\n\nStrongbox does not control these organizations privacy policies (which may not be awesome).\n\nStrongbox offers these services for your convenience and it is entirely at your discretion whether you use them or not. You must Opt In to continue. */
-"third_party_storage_privacy_opt_in_message" = "You are about to use a software library from Google, Microsoft or Dropbox for the first time.\n\nStrongbox does not control these organizations privacy policies (which may not be awesome).\n\nStrongbox offers these services for your convenience and it is entirely at your discretion whether you use them or not.\n\nYou must Opt In to continue.";
+"third_party_storage_privacy_opt_in_message" = "您将首次使用 Google，Microsoft 或 Dropbox 中的软件库。\n\nStrongbox 并不控制这些组织的隐私策略 (可能不太棒)。\n\nStrongbox 提供这些服务以方便您，您是否使用这些服务完全由您自行决定。\n\n您必须选择加入才能继续。";
 
 /* Opt In, Let's Go... */
-"third_party_storage_privacy_option_opt_in" = "Opt In, Let's Go...";
+"third_party_storage_privacy_option_opt_in" = "选择加入，让我们开始...";
+
+/* Sync Successful */
+"notification_sync_successful" = "Sync Successful";
+
+/* Add SFTP Database... (Pro) */
+"mac_add_sftp_pro_only" = "Add SFTP Database... (Pro)";
+
+/* Add WebDAV Database... (Pro) */
+"mac_add_webdav_pro_only" = "Add WebDAV Database... (Pro)";
+
+/* This database can only be unlocked by Strongbox Pro because it is stored via SFTP or WebDAV.\n\nPlease Upgrade. */
+"mac_non_file_database_pro_message" = "This database can only be unlocked by Strongbox Pro because it is stored via SFTP or WebDAV.\n\nPlease Upgrade.";
