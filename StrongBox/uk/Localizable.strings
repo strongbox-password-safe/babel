@@ -134,8 +134,8 @@
 /* iCloud no longer available */
 "safesvc_icloud_no_longer_available_title" = "iCloud більше недоступний";
 
-/* Some databases were removed from this device because iCloud has become unavailable, but they remain stored in iCloud. */
-"safesvc_icloud_no_longer_available_message" = "Деякі бази паролів було вилучено з цього пристрою, тому що iCloud став недоступним, але вони й надалі зберігаються в iCloud.";
+/* iCloud has become unavailable. Your iCloud databases remain stored in iCloud but they will no longer sync to or from this device though you may still access them here. */
+"safesvc_icloud_no_longer_available_message" = "iCloud has become unavailable. Your iCloud databases remain stored in iCloud but they will no longer sync to or from this device though you may still access them here.";
 
 /* You can now use iCloud with Strongbox. Should your current local databases be migrated to iCloud and available on all your devices? (NB: Your existing cloud databases will not be affected) */
 "safesvc_migrate_local_existing" = "Тепер ви можете використовувати iCloud із Strongbox. Мігрувати поточну локальну базу даних в iCloud для доступу на інших пристроях? (Примітка: Ваші наявні бази даних в хмарному сховищі не будуть змінені)";
@@ -738,7 +738,7 @@
 "prefs_vc_use_icloud_action" = "Використовувати iCloud";
 
 /* iCloud (Disabled in System Settings) */
-"prefs_vc_use_icloud_disabled" = "iCloud (Disabled in System Settings)";
+"prefs_vc_use_icloud_disabled" = "iCloud (Вимкнено в параметрах системи)";
 
 /* No Files or Folders Found */
 "sbtvc_empty_table_no_files_found" = "Не знайдено файлів чи тек";
@@ -768,7 +768,7 @@
 "sspc_error_invalid_database" = "Недійсна база паролів";
 
 /* Files... */
-"sspc_ios_files_storage_location" = "Файли...";
+"sspc_ios_files_storage_location" = "Файли";
 
 /* Since a local database is only stored on this device, any loss of this device will lead to the loss of all passwords stored within this database. You may want to consider using a cloud storage provider, such as the ones supported by Strongbox to avoid catastrophic data loss.\n\nWould you still like to proceed with creating a local device database? */
 "sspc_local_device_storage_warning_message" = "Оскільки локальна база паролів зберігається лише на цьому пристрої, його втрата призведе до втрати всіх паролів цієї бази паролів. Можливо, ви захочете використати одне з хмарних сховищ, що підтримуються Strongbox, щоб запобігти втраті даних.\n\nВсе одно бажаєте продовжити створення локальної бази паролів на пристрої?";
@@ -2469,8 +2469,8 @@
 /* File Based */
 "mac_storage_provider_name_file" = "На основі файлу";
 
-/* There was a problem opening this file. It will be removed from your databases. */
-"mac_problem_opening_db" = "Виникла проблема з відкриттям цього файлу. Він буде вилучений зі списку ваших баз даних.";
+/* There was a problem opening this file. */
+"mac_problem_opening_db" = "Виникла проблема при відкритті цього файлу.";
 
 /* Create New Password Database */
 "mac_create_new_database_title" = "Створити нову базу паролів";
@@ -4009,31 +4009,52 @@
 "preference_allow_watch_unlock_system_disabled" = "Дозволити розблокування з Watch - (Увімкніть у параметрах системи > Безпека і приватність)";
 
 /* No Cloud Session Found */
-"cloud_sessions_prompt_no_session_found" = "No Cloud Session Found";
+"cloud_sessions_prompt_no_session_found" = "Хмарних сеансів не знайдено";
 
 /* Copy Debug Information? */
-"prompt_title_copy_debug_info" = "Copy Debug Information?";
+"prompt_title_copy_debug_info" = "Копіювати інформацію зневадження?";
 
 /* Would you like to copy some helpful debug information that you can share with support before proceeding? */
-"prompt_message_copy_debug_info" = "Would you like to copy some helpful debug information that you can share with support before proceeding?";
+"prompt_message_copy_debug_info" = "Бажаєте скопіювати деяку корисну інформацію зневадження, якою ви можете поділитися зі службою підтримки?";
 
 /* Third Party Storage Privacy Opt-In */
-"third_party_storage_privacy_opt_in_title" = "Third Party Storage Privacy Opt-In";
+"third_party_storage_privacy_opt_in_title" = "Погодження політики приватності сторонніх хмарних сховищ";
 
 /* You are about to use a software library from Google, Microsoft or Dropbox for the first time.\n\nStrongbox does not control these organizations privacy policies (which may not be awesome).\n\nStrongbox offers these services for your convenience and it is entirely at your discretion whether you use them or not. You must Opt In to continue. */
-"third_party_storage_privacy_opt_in_message" = "You are about to use a software library from Google, Microsoft or Dropbox for the first time.\n\nStrongbox does not control these organizations privacy policies (which may not be awesome).\n\nStrongbox offers these services for your convenience and it is entirely at your discretion whether you use them or not.\n\nYou must Opt In to continue.";
+"third_party_storage_privacy_opt_in_message" = "Ви збираєтеся вперше використовувати програмні бібліотеки від Google, Microsoft чи Dropbox.\n\nStrongbox не контролює політики приватності цих організацій (які можуть бути не найкращими).\n\nStrongbox пропонує ці сервіси для вашої зручності, тому їх використання є цілком вашою відповідальністю.\n\nВи повинні погодитись для продовження.";
 
 /* Opt In, Let's Go... */
-"third_party_storage_privacy_option_opt_in" = "Opt In, Let's Go...";
+"third_party_storage_privacy_option_opt_in" = "Погоджуюсь. Рушаймо...";
 
 /* Sync Successful */
-"notification_sync_successful" = "Sync Successful";
+"notification_sync_successful" = "Успішно синхронізовано";
 
 /* Add SFTP Database... (Pro) */
-"mac_add_sftp_pro_only" = "Add SFTP Database... (Pro)";
+"mac_add_sftp_pro_only" = "Додати базу даних SFTP... (Pro)";
 
 /* Add WebDAV Database... (Pro) */
-"mac_add_webdav_pro_only" = "Add WebDAV Database... (Pro)";
+"mac_add_webdav_pro_only" = "Додати базу даних WebDAV... (Pro)";
 
 /* This database can only be unlocked by Strongbox Pro because it is stored via SFTP or WebDAV.\n\nPlease Upgrade. */
-"mac_non_file_database_pro_message" = "This database can only be unlocked by Strongbox Pro because it is stored via SFTP or WebDAV.\n\nPlease Upgrade.";
+"mac_non_file_database_pro_message" = "Цю базу паролів можна розблокувати лише в Strongbox Pro, тому що вона зберігається через SFTP або WebDAV.\n\nБудь ласка, придбайте передплату.";
+
+/* Item Copied to Clipboard */
+"mac_copied_item_to_clipboard" = "Item Copied to Clipboard";
+
+/* Items Copied to Clipboard */
+"mac_copied_items_to_clipboard" = "Items Copied to Clipboard";
+
+/* Item Pasted from Clipboard */
+"mac_item_pasted_from_clipboard" = "Item Pasted from Clipboard";
+
+/* Items Pasted from Clipboard */
+"mac_items_pasted_from_clipboard" = "Items Pasted from Clipboard";
+
+/* Item Duplicated */
+"mac_item_duplicated" = "Item Duplicated";
+
+/* File - Localization Note: This should be very short, 3-4 characters if possible. This indicates a regular file on the file system on a Mac. */
+"storage_provider_name_mac_file_short" = "Файл";
+
+/* Done. ✅ */
+"sync_log_status_done" = "Done. ✅";

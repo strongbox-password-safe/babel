@@ -134,8 +134,8 @@
 /* iCloud no longer available */
 "safesvc_icloud_no_longer_available_title" = "iCloud är inte tillgänglig längre";
 
-/* Some databases were removed from this device because iCloud has become unavailable, but they remain stored in iCloud. */
-"safesvc_icloud_no_longer_available_message" = "Vissa databaser har tagits bort från denna enhet eftersom iCloud blivit otillgänglig men databaserna lagras fortsatt i iCloud.";
+/* iCloud has become unavailable. Your iCloud databases remain stored in iCloud but they will no longer sync to or from this device though you may still access them here. */
+"safesvc_icloud_no_longer_available_message" = "iCloud has become unavailable. Your iCloud databases remain stored in iCloud but they will no longer sync to or from this device though you may still access them here.";
 
 /* You can now use iCloud with Strongbox. Should your current local databases be migrated to iCloud and available on all your devices? (NB: Your existing cloud databases will not be affected) */
 "safesvc_migrate_local_existing" = "Nu kan du använda iCloud med Strongbox. Ska dina nuvarande lokala databaser migreras till iCloud och göras tillgängliga på alla dina enheter? (Obs! Dina befintliga molndatabaser berörs inte)";
@@ -738,7 +738,7 @@
 "prefs_vc_use_icloud_action" = "Använd iCloud";
 
 /* iCloud (Disabled in System Settings) */
-"prefs_vc_use_icloud_disabled" = "iCloud (Disabled in System Settings)";
+"prefs_vc_use_icloud_disabled" = "iCloud (inaktiverat i Systeminställningar)";
 
 /* No Files or Folders Found */
 "sbtvc_empty_table_no_files_found" = "Inga filer eller mappar hittades";
@@ -768,7 +768,7 @@
 "sspc_error_invalid_database" = "Ogiltig databas";
 
 /* Files... */
-"sspc_ios_files_storage_location" = "Filer ...";
+"sspc_ios_files_storage_location" = "Filer";
 
 /* Since a local database is only stored on this device, any loss of this device will lead to the loss of all passwords stored within this database. You may want to consider using a cloud storage provider, such as the ones supported by Strongbox to avoid catastrophic data loss.\n\nWould you still like to proceed with creating a local device database? */
 "sspc_local_device_storage_warning_message" = "Eftersom en lokal databas enbart lagras på den här enheten kommer förlust av den här enheten leda till förlust av alla lösenord som lagras i denna databas förloras. Du kanske ska överväga att använda en molnlagringsleverantör, t.ex. de som stöds av Strongbox, för att undvika katastrofala dataförluster.\n\nVill du fortfarande gå vidare med att skapa en lokal enhetsdatabas?";
@@ -2469,8 +2469,8 @@
 /* File Based */
 "mac_storage_provider_name_file" = "Filbaserad";
 
-/* There was a problem opening this file. It will be removed from your databases. */
-"mac_problem_opening_db" = "Det gick inte att öppna den här filen. Den kommer att tas bort från dina databaser.";
+/* There was a problem opening this file. */
+"mac_problem_opening_db" = "Det gick inte att öppna denna fil.";
 
 /* Create New Password Database */
 "mac_create_new_database_title" = "Skapa ny lösenorddatabas";
@@ -3543,7 +3543,7 @@
 "are_you_sure_delete_database_multiple" = "Är du säker på att du vill ta bort dessa databaser från Strongbox?\n\nObs! De underliggande databasfilerna kommer inte att raderas. Bara Strongboxinställningar för dessa databaser.";
 
 /* No Databases Here Yet.\n\nClick 'Add Database...' below to get started... */
-"mac_no_databases_initial_message" = "No Databases Here Yet.\n\nClick 'Add Database...' below to get started...";
+"mac_no_databases_initial_message" = "Inga databaser här ännu.\n\nKlicka på 'Ny databas...' nedan för att komma igång ...";
 
 /* No AutoFill Enabled Databases */
 "mac_no_autofill_enabled_databases_initial_message" = "Autofyll inte aktiverad för någon databas";
@@ -3843,7 +3843,7 @@
 "diff_compare_partially_supported_title" = "Jämförelse stöds delvis";
 
 /* Because of the underlying database format(s) of these databases a full comparison is not possible. Pleaese use the KeePass 2 database format to allow detection of Moves, Deletions, and Group edits.\n\nYou can proceed with compare/merge but it may not be comprehensive. */
-"diff_compare_partially_supported_msg" = "Because of the underlying database format(s) of these databases a full comparison is not possible. Only the KeePass 2 format allows detection of Moves, Deletions, and Group edits.\n\nYou can proceed with compare/merge but it may not be comprehensive.";
+"diff_compare_partially_supported_msg" = "En fullständig jämförelse är inte möjlig på grund av de underliggande databasformaten. Endast KeePass 2-formatet tillåter identifiering av flyttning, borttagning och gruppredigering.\n\nDu kan fortsätta med jämförelse/sammanslagning men det blir kanske inte heltäckande.";
 
 /* View As... */
 "browse_prefs_view_as_ellipsis" = "Visa som ...";
@@ -3867,7 +3867,7 @@
 "conflict_resolution_force_overwrite_title" = "Tvinga överskrivning?";
 
 /* You can overwrite changes in either your local copy or in the remote copy. */
-"conflict_resolution_force_overwrite_message" = "You can overwrite changes in either your local copy or in the remote copy.";
+"conflict_resolution_force_overwrite_message" = "Du kan skriva över ändringar antingen i din lokala kopia eller i fjärrkopian.";
 
 /* Take Remote Copy, Overwrite Local */
 "conflict_resolution_force_overwrite_take_remote" = "Använd fjärrkopia, skriv över lokal";
@@ -3876,19 +3876,19 @@
 "conflict_resolution_force_overwrite_keep_lacal" = "Behåll lokal kopia, skriv över fjärrkopia";
 
 /* Technical Error - Could not write local copies for comparison/merge. */
-"model_error_could_not_write_local_merge" = "Technical Error - Could not write local copies for comparison/merge.";
+"model_error_could_not_write_local_merge" = "Tekniskt fel - Gick inte skriva lokala kopior för jämförelse/sammanslagning.";
 
 /* Cannot merge in background or without key. */
-"model_error_cannot_merge_in_background" = "Cannot merge in background or without key.";
+"model_error_cannot_merge_in_background" = "Kan inte slå samman i bakgrunden eller utan nyckel.";
 
 /* Are you sure you want to always Auto-Merge when you have a Sync Conflict like this? */
 "sync_are_you_sure_always_auto_merge" = "Are you sure you want to always Auto-Merge when you have a Sync Conflict like this?";
 
 /* Technical Error - Could not merge local and remote databases. */
-"model_error_could_not_merge_local_remote" = "Technical Error - Could not merge local and remote databases.";
+"model_error_could_not_merge_local_remote" = "Tekniskt fel - Gick inte slå samman lokal- och fjärrdatabaser.";
 
 /* Your database format does not support advanced synchronization features (available in KeePass 2). This means the merge may be less than ideal.\n\nAre you sure you want to continue with the merge? */
-"merge_are_you_sure_less_than_ideal_format" = "Your database format does not support advanced synchronization features (available in KeePass 2). This means the merge may be less than ideal.\n\nAre you sure you want to continue with the merge?";
+"merge_are_you_sure_less_than_ideal_format" = "Ditt databasformat stöder inte avancerade synkroniseringsfunktioner (tillgängliga i KeePass 2). Detta innebär att sammanslagningen kan vara mindre ideal.\n\nÄr du säker på att du vill fortsätta med sammanslagningen?";
 
 /* Database Refreshed */
 "browse_vc_pulldown_refresh_updated_title" = "Databas uppdaterad";
@@ -3915,10 +3915,10 @@
 "compare_merge_sync_possibly_required_title" = "Synkronisering kan behövas";
 
 /* At least one of these databases haven't been synchronized very recently. It is recommended that you return to the Databases List screen and pull down to initiate the Sync process. This will ensure you are working with the latest versions. */
-"compare_merge_sync_possibly_required_message" = "At least one of these databases haven't been synchronized very recently. It is recommended that you return to the Databases List screen and pull down to initiate the Sync process. This will ensure you are working with the latest versions.";
+"compare_merge_sync_possibly_required_message" = "Åtminstone en av dessa databaser har inte synkroniserats sedan länge. Det rekommenderas att du återgår till databaslistvyn och drar neråt för att starta synkronisering. Detta kommer att säkerställa att du arbetar med de senaste versionerna.";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to open in offline mode instead? - Translators Note: 1st Parameter is the storage provider name like Google Drive or Dropbox */
-"open_sequence_user_looks_offline_open_local_fmt" = "It looks like you may be offline and '%@' may not be reachable. Would you like to open in offline mode instead?";
+"open_sequence_user_looks_offline_open_local_fmt" = "Det verkar som om du är offline och '%@' kanske inte kan nås. Vill du öppna i offline-läge istället?";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use Strongbox's local copy in read-only mode instead? - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc */
 "open_sequence_user_looks_offline_open_local_ro_fmt" = "It looks like you may be offline and '%@' may not be reachable. Would you like to open in offline mode instead?\n\nNB: This is read-only. You can also edit offline in the Pro version.";
@@ -3948,28 +3948,28 @@
 "browse_vc_pulldown_refresh_offline_message" = "Databas inte uppdaterad";
 
 /* Do not allow changes to be made to this database when it is open. */
-"database_properties_subtitle_read_only" = "Do not allow changes to be made to this database when it is open.";
+"database_properties_subtitle_read_only" = "Tillåt inte att ändringar görs i denna databas när den är öppen.";
 
 /* Automatically prompt to open this database on App launch. */
 "database_properties_subtitle_quick_launch" = "Automatically prompt to open this database on App launch.";
 
 /* Always Auto-Merge */
-"database_properties_title_always_auto_merge" = "Always Auto-Merge";
+"database_properties_title_always_auto_merge" = "Alltid autosammanslagning";
 
 /* When a sync conflict occurs automatically merge without asking. */
 "database_properties_subtitle_conflict_resolution" = "When a sync conflict occurs automatically merge without asking.";
 
 /* Immediate Open Offline Offer */
-"database_properties_title_offline_behaviour" = "Immediate Open Offline Offer";
+"database_properties_title_offline_behaviour" = "Öppna offline-erbjudande direkt";
 
 /* Immediately offer to open offline if Strongbox detects you are offline. Alternatively, if you turn this off, Strongbox will try to connect which may take some time. */
 "database_properties_subtitle_offline_behaviour" = "Immediately offer to open in offline mode if Strongbox detects you are offline. Alternatively, if you turn this off, Strongbox will try to connect which may take some time.";
 
 /* Configure & View local backups." */
-"database_properties_subtitle_backups" = "Configure & View local backups.";
+"database_properties_subtitle_backups" = "Konfigurera och visa lokala säkerhetskopior.";
 
 /* View recent sync details including errors. */
-"database_properties_subtitle_view_sync_log" = "View recent sync details including errors.";
+"database_properties_subtitle_view_sync_log" = "Visa senaste synkroniseringsdetaljer inklusive fel.";
 
 /* Your Database is configured to use a YubiKey, however no YubiKey or an incorrect YubiKey was found connected. */
 "mac_autofill_no_or_incorrect_yubikey_found" = "Your Database is configured to use a YubiKey, however no YubiKey or an incorrect YubiKey was found connected.";
@@ -4012,7 +4012,7 @@
 "cloud_sessions_prompt_no_session_found" = "Hittade ingen molnsession";
 
 /* Copy Debug Information? */
-"prompt_title_copy_debug_info" = "Copy Debug Information?";
+"prompt_title_copy_debug_info" = "Kopiera felsökningsinformation?";
 
 /* Would you like to copy some helpful debug information that you can share with support before proceeding? */
 "prompt_message_copy_debug_info" = "Would you like to copy some helpful debug information that you can share with support before proceeding?";
@@ -4027,13 +4027,34 @@
 "third_party_storage_privacy_option_opt_in" = "Opt In, Let's Go...";
 
 /* Sync Successful */
-"notification_sync_successful" = "Sync Successful";
+"notification_sync_successful" = "Synkning slutförd";
 
 /* Add SFTP Database... (Pro) */
-"mac_add_sftp_pro_only" = "Add SFTP Database... (Pro)";
+"mac_add_sftp_pro_only" = "Lägg till SFTP-databas ... (Pro)";
 
 /* Add WebDAV Database... (Pro) */
-"mac_add_webdav_pro_only" = "Add WebDAV Database... (Pro)";
+"mac_add_webdav_pro_only" = "Lägg till WebDAV-databas ... (Pro)";
 
 /* This database can only be unlocked by Strongbox Pro because it is stored via SFTP or WebDAV.\n\nPlease Upgrade. */
-"mac_non_file_database_pro_message" = "This database can only be unlocked by Strongbox Pro because it is stored via SFTP or WebDAV.\n\nPlease Upgrade.";
+"mac_non_file_database_pro_message" = "Databasen kan endast låsas upp av Strongbox Pro eftersom den lagras via SFTP eller WebDAV.\n\nDu behöver uppgradera.";
+
+/* Item Copied to Clipboard */
+"mac_copied_item_to_clipboard" = "Item Copied to Clipboard";
+
+/* Items Copied to Clipboard */
+"mac_copied_items_to_clipboard" = "Items Copied to Clipboard";
+
+/* Item Pasted from Clipboard */
+"mac_item_pasted_from_clipboard" = "Item Pasted from Clipboard";
+
+/* Items Pasted from Clipboard */
+"mac_items_pasted_from_clipboard" = "Items Pasted from Clipboard";
+
+/* Item Duplicated */
+"mac_item_duplicated" = "Item Duplicated";
+
+/* File - Localization Note: This should be very short, 3-4 characters if possible. This indicates a regular file on the file system on a Mac. */
+"storage_provider_name_mac_file_short" = "Fil";
+
+/* Done. ✅ */
+"sync_log_status_done" = "Done. ✅";

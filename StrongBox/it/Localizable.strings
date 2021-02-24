@@ -134,8 +134,8 @@
 /* iCloud no longer available */
 "safesvc_icloud_no_longer_available_title" = "iCloud non più disponibile";
 
-/* Some databases were removed from this device because iCloud has become unavailable, but they remain stored in iCloud. */
-"safesvc_icloud_no_longer_available_message" = "Alcuni database sono stati rimossi da questo dispositivo perché iCloud non è più disponibile, ma rimangono memorizzati su iCloud.";
+/* iCloud has become unavailable. Your iCloud databases remain stored in iCloud but they will no longer sync to or from this device though you may still access them here. */
+"safesvc_icloud_no_longer_available_message" = "iCloud è diventato non disponibile. I database iCloud rimangono memorizzati su iCloud ma non verranno più sincronizzati con questo dispositivo anche se potranno comunque essere accessibili.";
 
 /* You can now use iCloud with Strongbox. Should your current local databases be migrated to iCloud and available on all your devices? (NB: Your existing cloud databases will not be affected) */
 "safesvc_migrate_local_existing" = "Ora puoi usare iCloud con Strongbox. Vuoi che i tuoi database locali siano migrati su iCloud e resi disponibili su tutti i tuoi dispositivi? (NB: i tuoi database su cloud esistenti non saranno affetti da questa azione)";
@@ -768,7 +768,7 @@
 "sspc_error_invalid_database" = "Database Non Valido";
 
 /* Files... */
-"sspc_ios_files_storage_location" = "Sfoglia...";
+"sspc_ios_files_storage_location" = "File";
 
 /* Since a local database is only stored on this device, any loss of this device will lead to the loss of all passwords stored within this database. You may want to consider using a cloud storage provider, such as the ones supported by Strongbox to avoid catastrophic data loss.\n\nWould you still like to proceed with creating a local device database? */
 "sspc_local_device_storage_warning_message" = "Dato che un database locale è memorizzato solo su questo dispositivo, qualsiasi perdita di questo dispositivo comporterà la perdita di tutte le password memorizzate in questo database. Potresti voler considerare l'utilizzo di un provider di archiviazione su cloud, come quelli supportati da Strongbox, per evitare perdite di dati irreversibili.\n\nVuoi comunque procedere con la creazione di un database locale su questo dispositivo?";
@@ -2469,8 +2469,8 @@
 /* File Based */
 "mac_storage_provider_name_file" = "Basato su File";
 
-/* There was a problem opening this file. It will be removed from your databases. */
-"mac_problem_opening_db" = "Si è verificato un problema durante l'apertura di questo file. Verrà rimosso dai tuoi database.";
+/* There was a problem opening this file. */
+"mac_problem_opening_db" = "Si è verificato un errore durante l'apertura di questo file.";
 
 /* Create New Password Database */
 "mac_create_new_database_title" = "Creare Nuovo Database per le Password";
@@ -4027,13 +4027,34 @@
 "third_party_storage_privacy_option_opt_in" = "Opt In, Andiamo...";
 
 /* Sync Successful */
-"notification_sync_successful" = "Sync Successful";
+"notification_sync_successful" = "Sincronizzazione Completata";
 
 /* Add SFTP Database... (Pro) */
-"mac_add_sftp_pro_only" = "Add SFTP Database... (Pro)";
+"mac_add_sftp_pro_only" = "Aggiungere Database SFTP... (Pro)";
 
 /* Add WebDAV Database... (Pro) */
-"mac_add_webdav_pro_only" = "Add WebDAV Database... (Pro)";
+"mac_add_webdav_pro_only" = "Aggiungere Database WebDAV... (Pro)";
 
 /* This database can only be unlocked by Strongbox Pro because it is stored via SFTP or WebDAV.\n\nPlease Upgrade. */
-"mac_non_file_database_pro_message" = "This database can only be unlocked by Strongbox Pro because it is stored via SFTP or WebDAV.\n\nPlease Upgrade.";
+"mac_non_file_database_pro_message" = "Questo database può essere sbloccato solo da Strongbox Pro perché è memorizzato tramite SFTP o WebDAV.\n\nSi prega di fare l'Upgrade.";
+
+/* Item Copied to Clipboard */
+"mac_copied_item_to_clipboard" = "Item Copied to Clipboard";
+
+/* Items Copied to Clipboard */
+"mac_copied_items_to_clipboard" = "Items Copied to Clipboard";
+
+/* Item Pasted from Clipboard */
+"mac_item_pasted_from_clipboard" = "Item Pasted from Clipboard";
+
+/* Items Pasted from Clipboard */
+"mac_items_pasted_from_clipboard" = "Items Pasted from Clipboard";
+
+/* Item Duplicated */
+"mac_item_duplicated" = "Item Duplicated";
+
+/* File - Localization Note: This should be very short, 3-4 characters if possible. This indicates a regular file on the file system on a Mac. */
+"storage_provider_name_mac_file_short" = "File";
+
+/* Done. ✅ */
+"sync_log_status_done" = "Done. ✅";
