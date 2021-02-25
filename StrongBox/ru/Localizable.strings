@@ -135,19 +135,19 @@
 "safesvc_icloud_no_longer_available_title" = "iCloud недоступен";
 
 /* iCloud has become unavailable. Your iCloud databases remain stored in iCloud but they will no longer sync to or from this device though you may still access them here. */
-"safesvc_icloud_no_longer_available_message" = "ICloud недоступен. Ваши базы данных останутся в iCloud и будут доступны, но они не будет синхронизироваться с этим устройством.";
+"safesvc_icloud_no_longer_available_message" = "iCloud недоступен. Ваши базы данных останутся в iCloud, но они не будет синхронизироваться с этим устройством.";
 
 /* You can now use iCloud with Strongbox. Should your current local databases be migrated to iCloud and available on all your devices? (NB: Your existing cloud databases will not be affected) */
-"safesvc_migrate_local_existing" = "Теперь можно использовать iCloud в Strongbox. Хотите переместить локальные базы данных в iCloud, чтобы они стали доступными на всех Ваших устройствах? \nПримечание: Имеющиеся базы данных в облаке не будут затронуты";
+"safesvc_migrate_local_existing" = "Теперь можно использовать iCloud. Хотите переместить локальные базы данных в iCloud, чтобы они стали доступными на всех Ваших устройствах? \nПримечание: Имеющиеся базы данных в облаке не будут затронуты";
 
 /* You can now use iCloud with Strongbox. Should your current local databases be migrated to iCloud and available on all your devices? */
-"safesvc_migrate_local_no_existing" = "Теперь можно использовать iCloud в Strongbox. Хотите переместить локальные базы данных в iCloud, чтобы они стали доступными на всех Ваших устройствах?";
+"safesvc_migrate_local_no_existing" = "Теперь можно использовать iCloud. Хотите переместить локальные базы данных в iCloud, чтобы они стали доступными на всех Ваших устройствах?";
 
 /* Would you like the option to use iCloud with Strongbox? (NB: Your existing cloud databases will not be affected) */
 "safesvc_use_icloud_question_existing" = "Хотите использовать iCloud в Strongbox?\nПримечание: Имеющиеся базы данных в облаке не будут затронуты";
 
 /* You can now use iCloud with Strongbox. Would you like to have your databases available on all your devices? */
-"safesvc_use_icloud_question_no_existing" = "Теперь можно использовать iCloud в Strongbox. Хотите, чтобы базы данных стали доступными на всех Ваших устройствах?";
+"safesvc_use_icloud_question_no_existing" = "Теперь можно использовать iCloud. Хотите, чтобы базы данных стали доступными на всех Ваших устройствах?";
 
 /* iCloud is Now Available */
 "safesvc_icloud_now_available_title" = "iCloud доступен";
@@ -1116,7 +1116,7 @@
 "sftp_provider_connect_failed_fmt" = "Не удалось подключиться к хосту: %@ [пользователь: %@]";
 
 /* Attachment Location */
-"add_attachment_vc_prompt_title" = "Выбор расположения";
+"add_attachment_vc_prompt_title" = "Выбор источника";
 
 /* Photos */
 "add_attachment_vc_prompt_source_option_photos" = "Медиатека";
@@ -3363,7 +3363,7 @@
 "open_sequence_storage_provider_try_relocate_files_db" = "Выбор расположения";
 
 /* Strongbox is having trouble locating your database. This can happen sometimes especially after iOS updates or with some 3rd party providers (e.g.Nextcloud).\n\nYou now need to tell Strongbox where to locate it. Alternatively you can open Strongbox's local copy and fix this later.\n\nFor Nextcloud please use WebDAV instead... */
-"open_sequence_storage_provider_try_relocate_files_db_message" = "Возникли проблемы при открытии базы данных. Такое может происходить после обновления iOS или при работе с некоторыми провайдерами (напр., Nextcloud).\n\nВам необходимо указать место, где хранится база данных. Можно также открыть локальную копию и устранить ошибку позже.\n\nПримечание: Для Nextcloud используйте WebDAV";
+"open_sequence_storage_provider_try_relocate_files_db_message" = "Возникли проблемы при открытии базы данных. Такое может происходить после обновления iOS или при работе с некоторыми провайдерами (напр., Nextcloud).\n\nВам необходимо указать расположение, где хранится база данных. Можно также открыть локальную копию и устранить ошибку позже.\n\nПримечание: Для Nextcloud используйте WebDAV";
 
 /* View Error Details */
 "open_sequence_storage_provider_view_sync_error_details" = "Сведения об ошибке";
@@ -4030,13 +4030,13 @@
 "notification_sync_successful" = "Синхронизация выполнена";
 
 /* Add SFTP Database... (Pro) */
-"mac_add_sftp_pro_only" = "Добавить базу данных с SFTP";
+"mac_add_sftp_pro_only" = "Добавить базу данных с SFTP (Pro версия)";
 
 /* Add WebDAV Database... (Pro) */
-"mac_add_webdav_pro_only" = "Добавить базу данных с WebDAV";
+"mac_add_webdav_pro_only" = "Добавить базу данных с WebDAV (Pro версия)";
 
 /* This database can only be unlocked by Strongbox Pro because it is stored via SFTP or WebDAV.\n\nPlease Upgrade. */
-"mac_non_file_database_pro_message" = "База данных может быть разблокирована только Pro версии, т.к.она находится в SFTP или WebDAV хранилище.\n\nПожалуйста, улучшите приложение.";
+"mac_non_file_database_pro_message" = "База данных может быть разблокирована только в Pro версии, т.к.она находится в SFTP или WebDAV хранилище.\n\nПожалуйста, улучшите приложение.";
 
 /* Item Copied to Clipboard */
 "mac_copied_item_to_clipboard" = "Элемент скопирован в буфер обмена";
