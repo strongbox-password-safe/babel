@@ -135,7 +135,7 @@
 "safesvc_icloud_no_longer_available_title" = "iCloud niet meer beschikbaar";
 
 /* iCloud has become unavailable. Your iCloud databases remain stored in iCloud but they will no longer sync to or from this device though you may still access them here. */
-"safesvc_icloud_no_longer_available_message" = "iCloud has become unavailable. Your iCloud databases remain stored in iCloud but they will no longer sync to or from this device though you may still access them here.";
+"safesvc_icloud_no_longer_available_message" = "iCloud is niet beschikbaar. Uw iCloud-databases blijven opgeslagen in iCloud, maar ze worden niet meer gesynchroniseerd naar of van dit apparaat, maar u kunt ze hier nog steeds openen.";
 
 /* You can now use iCloud with Strongbox. Should your current local databases be migrated to iCloud and available on all your devices? (NB: Your existing cloud databases will not be affected) */
 "safesvc_migrate_local_existing" = "U kunt nu iCloud gebruiken met Strongbox. Moeten uw huidige lokale databases worden gemigreerd naar iCloud en beschikbaar zijn op al uw apparaten? (NB: Uw bestaande cloud-databases worden niet beïnvloed)";
@@ -738,7 +738,7 @@
 "prefs_vc_use_icloud_action" = "Gebruik iCloud";
 
 /* iCloud (Disabled in System Settings) */
-"prefs_vc_use_icloud_disabled" = "iCloud (Disabled in System Settings)";
+"prefs_vc_use_icloud_disabled" = "iCloud (Uitgeschakeld in systeeminstellingen)";
 
 /* No Files or Folders Found */
 "sbtvc_empty_table_no_files_found" = "Geen bestanden of mappen gevonden";
@@ -2470,7 +2470,7 @@
 "mac_storage_provider_name_file" = "Gebaseerd op bestand";
 
 /* There was a problem opening this file. */
-"mac_problem_opening_db" = "There was a problem opening this file.";
+"mac_problem_opening_db" = "Er is een probleem opgetreden bij het openen van dit bestand.";
 
 /* Create New Password Database */
 "mac_create_new_database_title" = "Nieuwe wachtwoorddatabase maken";
@@ -3543,7 +3543,7 @@
 "are_you_sure_delete_database_multiple" = "Weet u zeker dat u deze databases uit Strongbox wilt verwijderen?\n\nNB: De onderliggende databasebestanden worden niet gewist. Alleen de instellingen van strongbox voor deze databases.";
 
 /* No Databases Here Yet.\n\nClick 'Add Database...' below to get started... */
-"mac_no_databases_initial_message" = "No Databases Here Yet.\n\nClick 'Add Database...' below to get started...";
+"mac_no_databases_initial_message" = "Nog Geen Databases Hier.\n\nKlik 'Add Database...' hieronder om te beginnen...";
 
 /* No AutoFill Enabled Databases */
 "mac_no_autofill_enabled_databases_initial_message" = "Geen databases met automatisch vullen";
@@ -3988,73 +3988,118 @@
 
 
 /* Authenticating... */
-"storage_provider_status_authenticating" = "Authenticating...";
+"storage_provider_status_authenticating" = "Verificatie...";
 
 /* Connecting... */
-"storage_provider_status_authenticating_connecting" = "Connecting...";
+"storage_provider_status_authenticating_connecting" = "Verbinden...";
 
 /* Listing... */
-"storage_provider_status_authenticating_listing" = "Listing...";
+"storage_provider_status_authenticating_listing" = "Lijst...";
 
 /* Creating... */
-"storage_provider_status_authenticating_creating" = "Creating...";
+"storage_provider_status_authenticating_creating" = "Maken...";
 
 /* Strongbox iCloud */
 "databases_vc_database_location_suffix_database_is_in_official_icloud_strongbox_folder" = "Strongbox iCloud";
 
 /* Allow Watch Unlock */
-"preference_allow_watch_unlock" = "Allow Watch Unlock";
+"preference_allow_watch_unlock" = "IPhone Watch ontgrendeling toestaan";
 
 /* Allow Watch Unlock - (Enable in System Preferences > Security & Privacy) */
-"preference_allow_watch_unlock_system_disabled" = "Allow Watch Unlock - (Enable in System Preferences > Security & Privacy)";
+"preference_allow_watch_unlock_system_disabled" = "IPhone Watch ontgrendeling toestaan - (Inschakelen in Systeem Voorkeuren > Veiligheid & Privacy)";
 
 /* No Cloud Session Found */
-"cloud_sessions_prompt_no_session_found" = "No Cloud Session Found";
+"cloud_sessions_prompt_no_session_found" = "Geen Cloud-sessie gevonden";
 
 /* Copy Debug Information? */
-"prompt_title_copy_debug_info" = "Copy Debug Information?";
+"prompt_title_copy_debug_info" = "Foutengegevens kopiëren?";
 
 /* Would you like to copy some helpful debug information that you can share with support before proceeding? */
-"prompt_message_copy_debug_info" = "Would you like to copy some helpful debug information that you can share with support before proceeding?";
+"prompt_message_copy_debug_info" = "Wilt u foutopsporingsinformatie kopiëren die u kunt delen met ondersteuning voordat u verder gaat?";
 
 /* Third Party Storage Privacy Opt-In */
-"third_party_storage_privacy_opt_in_title" = "Third Party Storage Privacy Opt-In";
+"third_party_storage_privacy_opt_in_title" = "Derde Partij Opslag Privacy Opt-In";
 
 /* You are about to use a software library from Google, Microsoft or Dropbox for the first time.\n\nStrongbox does not control these organizations privacy policies (which may not be awesome).\n\nStrongbox offers these services for your convenience and it is entirely at your discretion whether you use them or not. You must Opt In to continue. */
-"third_party_storage_privacy_opt_in_message" = "You are about to use a software library from Google, Microsoft or Dropbox for the first time.\n\nStrongbox does not control these organizations privacy policies (which may not be awesome).\n\nStrongbox offers these services for your convenience and it is entirely at your discretion whether you use them or not.\n\nYou must Opt In to continue.";
+"third_party_storage_privacy_opt_in_message" = "U staat op het punt voor de eerste keer een softwarebibliotheek van Google, Microsoft of Dropbox te gebruiken.\n\nStrongbox heeft geen controle over het privacybeleid van deze organisaties (welke misschien niet geweldig is).\n\nStrongbox biedt deze diensten aan voor uw gemak en het is geheel naar uw eigen goeddunken of u ze gebruikt of niet.\n\nJe moet Opt-In nemen om door te gaan.";
 
 /* Opt In, Let's Go... */
-"third_party_storage_privacy_option_opt_in" = "Opt In, Let's Go...";
+"third_party_storage_privacy_option_opt_in" = "Opt in, laten we beginnen...";
 
 /* Sync Successful */
-"notification_sync_successful" = "Sync Successful";
+"notification_sync_successful" = "Synchronisatie geslaagd";
 
 /* Add SFTP Database... (Pro) */
-"mac_add_sftp_pro_only" = "Add SFTP Database... (Pro)";
+"mac_add_sftp_pro_only" = "SFTP-database toevoegen... (Pro)";
 
 /* Add WebDAV Database... (Pro) */
-"mac_add_webdav_pro_only" = "Add WebDAV Database... (Pro)";
+"mac_add_webdav_pro_only" = "WebDAV-database toevoegen... (Pro)";
 
 /* This database can only be unlocked by Strongbox Pro because it is stored via SFTP or WebDAV.\n\nPlease Upgrade. */
-"mac_non_file_database_pro_message" = "This database can only be unlocked by Strongbox Pro because it is stored via SFTP or WebDAV.\n\nPlease Upgrade.";
+"mac_non_file_database_pro_message" = "Deze database kan alleen worden ontgrendeld door Strongbox Pro omdat deze is opgeslagen via SFTP of WebDAV.\n\nUpgrade aub.";
 
 /* Item Copied to Clipboard */
-"mac_copied_item_to_clipboard" = "Item Copied to Clipboard";
+"mac_copied_item_to_clipboard" = "Item gekopieerd naar klembord";
 
 /* Items Copied to Clipboard */
-"mac_copied_items_to_clipboard" = "Items Copied to Clipboard";
+"mac_copied_items_to_clipboard" = "Items gekopieerd naar klembord";
 
 /* Item Pasted from Clipboard */
-"mac_item_pasted_from_clipboard" = "Item Pasted from Clipboard";
+"mac_item_pasted_from_clipboard" = "Item geplakt van klembord";
 
 /* Items Pasted from Clipboard */
-"mac_items_pasted_from_clipboard" = "Items Pasted from Clipboard";
+"mac_items_pasted_from_clipboard" = "Items geplakt van Klembord";
 
 /* Item Duplicated */
-"mac_item_duplicated" = "Item Duplicated";
+"mac_item_duplicated" = "Item gedupliceerd";
 
 /* File - Localization Note: This should be very short, 3-4 characters if possible. This indicates a regular file on the file system on a Mac. */
 "storage_provider_name_mac_file_short" = "Bestand";
 
 /* Done. ✅ */
-"sync_log_status_done" = "Done. ✅";
+"sync_log_status_done" = "Klaar. ✅";
+
+/* TOTP Copied */
+"autofill_info_totp_copied_title" = "TOTP gekopieerd";
+
+/* Your TOTP Code has been copied to the clipboard. */
+"autofill_info_totp_copied_message" = "Uw TOTP-code is naar het klembord gekopieerd.";
+
+/* Convenience Auto Unlock */
+"prefs_vc_autofill_convenience_auto_unlock" = "Gemakkelijk ontgrendelen";
+
+/* Not Configured */
+"generic_preference_not_configured" = "Niet geconfigureerd";
+
+/* Auto Unlock Feature */
+"autofill_auto_unlock_title" = "Functie automatisch ontgrendelen";
+
+/* Auto Unlock lets you avoid having to repeatedly unlock your database for a configurable time period. Would you like to use this handy feature?\n\nNB: Your password is stored in the Secure Enclave for this feature. */
+"autofill_auto_unlock_message" = "Met automatisch Ontgrendelen kunt u voorkomen dat u herhaaldelijk uw database moet ontgrendelen voor een configureerbare periode. Wilt u deze handige functie gebruiken?\n\nNB: Uw wachtwoord is opgeslagen in de Secure Enclave voor deze functie.";
+
+/* Great, let try 3 mins */
+"autofill_auto_unlock_try_3_minutes" = "Geweldig, laten we 3 minuten proberen";
+
+/* I'd prefer 10 mins */
+"autofill_auto_unlock_try_10_minutes" = "Ik heb liever 10 minuten";
+
+/* AutoFill Quick Launch */
+"databases_toggle_autofill_quick_launch_context_menu" = "AutoFill Quick Launch";
+
+/* Title Matches */
+"autofill_search_title_matches_section_header" = "Title Matches";
+
+/* URL Matches */
+"autofill_search_url_matches_section_header" = "URL Matches";
+
+/* Other Matches */
+"autofill_search_other_matches_section_header" = "Other Matches";
+
+/* Service ID */
+"autofill_search_title_service_id_section_header" = "Service ID";
+
+/* The Service ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Service ID. */
+"autofill_search_service_id_section_footer" = "The Service ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Service ID. Tap to Copy.";
+
+/* Results */
+"quick_view_title_no_matches_title" = "Resultaten";

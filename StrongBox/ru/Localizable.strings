@@ -135,19 +135,19 @@
 "safesvc_icloud_no_longer_available_title" = "iCloud недоступен";
 
 /* iCloud has become unavailable. Your iCloud databases remain stored in iCloud but they will no longer sync to or from this device though you may still access them here. */
-"safesvc_icloud_no_longer_available_message" = "ICloud недоступен. Ваши базы данных останутся в iCloud и будут доступны, но они не будет синхронизироваться с этим устройством.";
+"safesvc_icloud_no_longer_available_message" = "iCloud недоступен. Ваши базы данных останутся в iCloud, но они не будет синхронизироваться с этим устройством.";
 
 /* You can now use iCloud with Strongbox. Should your current local databases be migrated to iCloud and available on all your devices? (NB: Your existing cloud databases will not be affected) */
-"safesvc_migrate_local_existing" = "Теперь можно использовать iCloud в Strongbox. Хотите переместить локальные базы данных в iCloud, чтобы они стали доступными на всех Ваших устройствах? \nПримечание: Имеющиеся базы данных в облаке не будут затронуты";
+"safesvc_migrate_local_existing" = "Теперь можно использовать iCloud. Хотите переместить локальные базы данных в iCloud, чтобы они стали доступными на всех Ваших устройствах? \nПримечание: Имеющиеся базы данных в облаке не будут затронуты";
 
 /* You can now use iCloud with Strongbox. Should your current local databases be migrated to iCloud and available on all your devices? */
-"safesvc_migrate_local_no_existing" = "Теперь можно использовать iCloud в Strongbox. Хотите переместить локальные базы данных в iCloud, чтобы они стали доступными на всех Ваших устройствах?";
+"safesvc_migrate_local_no_existing" = "Теперь можно использовать iCloud. Хотите переместить локальные базы данных в iCloud, чтобы они стали доступными на всех Ваших устройствах?";
 
 /* Would you like the option to use iCloud with Strongbox? (NB: Your existing cloud databases will not be affected) */
 "safesvc_use_icloud_question_existing" = "Хотите использовать iCloud в Strongbox?\nПримечание: Имеющиеся базы данных в облаке не будут затронуты";
 
 /* You can now use iCloud with Strongbox. Would you like to have your databases available on all your devices? */
-"safesvc_use_icloud_question_no_existing" = "Теперь можно использовать iCloud в Strongbox. Хотите, чтобы базы данных стали доступными на всех Ваших устройствах?";
+"safesvc_use_icloud_question_no_existing" = "Теперь можно использовать iCloud. Хотите, чтобы базы данных стали доступными на всех Ваших устройствах?";
 
 /* iCloud is Now Available */
 "safesvc_icloud_now_available_title" = "iCloud доступен";
@@ -210,10 +210,10 @@
 "safesvc_error_title_import_database_fmt" = "[%@] - неверная база данных";
 
 /* Edit or Copy? */
-"safesvc_import_database_prompt_title_edit_copy" = "Открытие файла";
+"safesvc_import_database_prompt_title_edit_copy" = "Импорт файла";
 
 /* Strongbox can attempt to edit this document in its current location and keep a reference or, if you'd prefer, Strongbox can just make a copy of this file for itself.\n\nWhich option would you like? */
-"safesvc_import_database_prompt_message" = "Strongbox попытается открыть файл в его текущем месте и сохранить ссылку или, если Вам будет удобнее, создаст копию этого файла в приложении.\n\nВыберите действие ниже.";
+"safesvc_import_database_prompt_message" = "Хотите открыть файл в текущем расположении и сохранить ссылку или, если Вам будет удобнее, создать его копию в приложении?\n\nВыберите действие ниже.";
 
 /* Edit in Place */
 "safesvc_option_edit_in_place" = "Открыть";
@@ -759,7 +759,7 @@
 "sbtvc_select_database_file" = "Пожалуйста, выберите файл базы данных";
 
 /* Select Folder For New Database */
-"sbtvc_select_new_database_location" = "Выбор места для новой базы данных";
+"sbtvc_select_new_database_location" = "Выбор расположения для новой базы данных";
 
 /* Copy from URL... */
 "sspc_copy_from_url_action" = "Скопировать из ссылки";
@@ -1022,7 +1022,7 @@
 "key_files_vc_empty_key_files_title" = "Файл-ключи не найдены. Нажмите «+» для импорта.";
 
 /* One Time Key File Source */
-"key_files_vc_one_time_key_file_source_title" = "Выбор места";
+"key_files_vc_one_time_key_file_source_title" = "Выбор расположения";
 
 /* Select where you would like to choose your Key File from. This file will not be stored locally or remembered. */
 "key_files_vc_one_time_key_file_source_message" = "Выберите источник одноразового файл-ключа. Файл не будет сохранён локально.";
@@ -1116,7 +1116,7 @@
 "sftp_provider_connect_failed_fmt" = "Не удалось подключиться к хосту: %@ [пользователь: %@]";
 
 /* Attachment Location */
-"add_attachment_vc_prompt_title" = "Выбор места";
+"add_attachment_vc_prompt_title" = "Выбор источника";
 
 /* Photos */
 "add_attachment_vc_prompt_source_option_photos" = "Медиатека";
@@ -3324,7 +3324,7 @@
 "open_sequence_storage_provider_error_title" = "Ошибка при синхронизации";
 
 /* If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open Strongbox's local copy in read-only mode instead? */
-"open_sequence_storage_provider_error_open_local_ro_instead" = "Если ошибка повторяется, попробуйте удалить и заново добавить базу данных. См. лог синхронизации для получения дополнительной информации.\n\nХотите открыть доступную только для чтения локальную копию?";
+"open_sequence_storage_provider_error_open_local_ro_instead" = "Если ошибка повторяется, попробуйте удалить и заново добавить базу данных. См. лог синхронизации для получения дополнительной информации.\n\nХотите открыть локальную копию?";
 
 /* Local Copy Unavailable */
 "autofill_vc_item_subtitle_local_copy_unavailable" = "Локальная копия недоступна";
@@ -3360,10 +3360,10 @@
 "open_sequence_database_different_filename_message" = "Это неверный файл, т.к. имя файла отличается от того, который Вы изначально добавили. Хотите продолжить?";
 
 /* Relocate Database */
-"open_sequence_storage_provider_try_relocate_files_db" = "Выбор места";
+"open_sequence_storage_provider_try_relocate_files_db" = "Выбор расположения";
 
 /* Strongbox is having trouble locating your database. This can happen sometimes especially after iOS updates or with some 3rd party providers (e.g.Nextcloud).\n\nYou now need to tell Strongbox where to locate it. Alternatively you can open Strongbox's local copy and fix this later.\n\nFor Nextcloud please use WebDAV instead... */
-"open_sequence_storage_provider_try_relocate_files_db_message" = "Возникли проблемы при открытии базы данных. Такое может происходить после обновления iOS или при работе с некоторыми провайдерами (напр., Nextcloud).\n\nВам необходимо указать место, где хранится база данных. Можно также открыть локальную копию и устранить ошибку позже.\n\nПримечание: Для Nextcloud используйте WebDAV";
+"open_sequence_storage_provider_try_relocate_files_db_message" = "Возникли проблемы при открытии базы данных. Такое может происходить после обновления iOS или при работе с некоторыми провайдерами (напр., Nextcloud).\n\nВам необходимо указать расположение, где хранится база данных. Можно также открыть локальную копию и устранить ошибку позже.\n\nПримечание: Для Nextcloud используйте WebDAV";
 
 /* View Error Details */
 "open_sequence_storage_provider_view_sync_error_details" = "Сведения об ошибке";
@@ -3984,7 +3984,7 @@
 "quick_type_format_username" = "Логин";
 
 /* QuickType Format */
-"prefs_vc_quick_type_format" = "Формат QuickType";
+"prefs_vc_quick_type_format" = "Данные при наборе";
 
 
 /* Authenticating... */
@@ -4021,7 +4021,7 @@
 "third_party_storage_privacy_opt_in_title" = "Сторонние сервисы";
 
 /* You are about to use a software library from Google, Microsoft or Dropbox for the first time.\n\nStrongbox does not control these organizations privacy policies (which may not be awesome).\n\nStrongbox offers these services for your convenience and it is entirely at your discretion whether you use them or not. You must Opt In to continue. */
-"third_party_storage_privacy_opt_in_message" = "Для дальнейшей работы будут использоваться библиотеки Google, Microsoft или Dropbox. Strongbox не контролирует политики конфиденциальности этих организаций, и предлагает данные сервисы исключительно для Вашего удобства. Используйте их по своему усмотрению.\n\nХотите продолжить?";
+"third_party_storage_privacy_opt_in_message" = "Для дальнейшей работы будут использоваться библиотеки Google, Microsoft или Dropbox. Strongbox не контролирует политики конфиденциальности провайдеров, и предлагает данные сервисы исключительно для Вашего удобства. Используйте их по своему усмотрению.\n\nХотите продолжить?";
 
 /* Opt In, Let's Go... */
 "third_party_storage_privacy_option_opt_in" = "Да, я согласен";
@@ -4030,13 +4030,13 @@
 "notification_sync_successful" = "Синхронизация выполнена";
 
 /* Add SFTP Database... (Pro) */
-"mac_add_sftp_pro_only" = "Добавить базу данных с SFTP";
+"mac_add_sftp_pro_only" = "Добавить базу данных с SFTP (Pro версия)";
 
 /* Add WebDAV Database... (Pro) */
-"mac_add_webdav_pro_only" = "Добавить базу данных с WebDAV";
+"mac_add_webdav_pro_only" = "Добавить базу данных с WebDAV (Pro версия)";
 
 /* This database can only be unlocked by Strongbox Pro because it is stored via SFTP or WebDAV.\n\nPlease Upgrade. */
-"mac_non_file_database_pro_message" = "База данных может быть разблокирована только Pro версии, т.к.она находится в SFTP или WebDAV хранилище.\n\nПожалуйста, улучшите приложение.";
+"mac_non_file_database_pro_message" = "База данных может быть разблокирована только в Pro версии, т.к.она находится в SFTP или WebDAV хранилище.\n\nПожалуйста, улучшите приложение.";
 
 /* Item Copied to Clipboard */
 "mac_copied_item_to_clipboard" = "Элемент скопирован в буфер обмена";
@@ -4057,4 +4057,49 @@
 "storage_provider_name_mac_file_short" = "Файл";
 
 /* Done. ✅ */
-"sync_log_status_done" = "Done. ✅";
+"sync_log_status_done" = "Готово ✅";
+
+/* TOTP Copied */
+"autofill_info_totp_copied_title" = "TOTP скопирован";
+
+/* Your TOTP Code has been copied to the clipboard. */
+"autofill_info_totp_copied_message" = "TOTP скопирован в буфер обмена.";
+
+/* Convenience Auto Unlock */
+"prefs_vc_autofill_convenience_auto_unlock" = "Авторазблокировка";
+
+/* Not Configured */
+"generic_preference_not_configured" = "Не настроено";
+
+/* Auto Unlock Feature */
+"autofill_auto_unlock_title" = "Авторазблокировка";
+
+/* Auto Unlock lets you avoid having to repeatedly unlock your database for a configurable time period. Would you like to use this handy feature?\n\nNB: Your password is stored in the Secure Enclave for this feature. */
+"autofill_auto_unlock_message" = "Авторазблокировка позволяет избежать многократной разблокировки базы данных за настраиваемый период времени. Хотите использовать эту функцию?";
+
+/* Great, let try 3 mins */
+"autofill_auto_unlock_try_3_minutes" = "Задержка 3 мин.";
+
+/* I'd prefer 10 mins */
+"autofill_auto_unlock_try_10_minutes" = "Задержка 10 мин.";
+
+/* AutoFill Quick Launch */
+"databases_toggle_autofill_quick_launch_context_menu" = "Автозаполнение";
+
+/* Title Matches */
+"autofill_search_title_matches_section_header" = "Совпадение названия";
+
+/* URL Matches */
+"autofill_search_url_matches_section_header" = "Совпадение URL";
+
+/* Other Matches */
+"autofill_search_other_matches_section_header" = "Другие совпадения";
+
+/* Service ID */
+"autofill_search_title_service_id_section_header" = "ID сервиса";
+
+/* The Service ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Service ID. */
+"autofill_search_service_id_section_footer" = "ID сервиса - это идентификатор, полученный приложением при автозаполнении. Он может помочь в поиске, если вы зададите URL записи так, чтобы он совпадал с ID сервиса. Коснитесь, чтобы скопировать.";
+
+/* Results */
+"quick_view_title_no_matches_title" = "Результаты";
