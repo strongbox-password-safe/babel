@@ -2346,13 +2346,13 @@
 "mac_search_placeholder" = "Поиск (⌘F)";
 
 /* Please Enter Your Custom Default Title */
-"mac_enter_custom_title_default" = "Please Enter Your Custom Default Title";
+"mac_enter_custom_title_default" = "Введите название по умолчанию";
 
 /* Please Enter Your Custom Default Username */
-"mac_enter_custom_username_default" = "Please Enter Your Custom Default Username";
+"mac_enter_custom_username_default" = "Введите логин по умолчанию";
 
 /* Please Enter Your Custom Default Email */
-"mac_enter_custom_email_default" = "Please Enter Your Custom Default Email";
+"mac_enter_custom_email_default" = "Введите Email по умолчанию";
 
 /* Please Enter Your Custom Default Password */
 "mac_enter_custom_password_default" = "Введите пароль по умолчанию";
@@ -2539,13 +2539,13 @@
 "mac_upgrade_welcome_back_to_strongbox" = "Добро пожаловать в Strongbox Pro";
 
 /* Upgrade Restored Successfully. Thank you for your support!\n\nPlease restart the Application to enjoy your Pro features. */
-"mac_upgrade_upgrade_restored_success" = "Улучшение успешно восстановлено. Спасибо за Вашу поддержку!\n\nПожалуйста, перезапустите приложение, чтобы воспользоваться Pro функциями.";
+"mac_upgrade_upgrade_restored_success" = "Улучшение успешно восстановлено. Спасибо за Вашу поддержку!\n\nПожалуйста, перезапустите приложение, чтобы воспользоваться функциями Pro версии.";
 
 /* Welcome to Strongbox Pro */
 "mac_upgrade_welcome_to_strongbox" = "Добро пожаловать в Strongbox Pro";
 
 /* Upgrade to Pro version successful! Thank you for your support!\n\nPlease restart the Application to enjoy your Pro features. */
-"mac_upgrade_upgrade_successful_thank_you" = "Улучшение до Pro версии выполнено успешно. Спасибо за Вашу поддержку!\n\nПожалуйста, перезапустите приложение, чтобы воспользоваться Pro функциями.";
+"mac_upgrade_upgrade_successful_thank_you" = "Улучшение до Pro версии выполнено успешно. Спасибо за Вашу поддержку!\n\nПожалуйста, перезапустите приложение, чтобы воспользоваться функциями Pro версии.";
 
 /* Failed to Upgrade */
 "mac_upgrade_failed_to_upgrade" = "Не удалось улучшить";
@@ -2725,7 +2725,7 @@
 "mac_convenience_summary_keychain_and_will_not_expire" = "Пароль надёжно сохранён в Вашей связке ключей (чип безопасности на этом устройстве недоступен). Срок действия неограничен.";
 
 /* Convenience Password is securely stored (in memory only) encrypted by your device's Secure Enclave and will expire on Strongbox Exit. */
-"mac_convenience_summary_secure_enclave_and_will_expire_on_exit" = "Пароль надёжно сохранён (только в памяти) и зашифрован в чипе безопасности устройства. Срок действия истечёт при выходе из Strongbox.";
+"mac_convenience_summary_secure_enclave_and_will_expire_on_exit" = "Пароль надёжно сохранён (только в памяти) и зашифрован в чипе безопасности устройства. Срок действия истечёт при выходе из приложения.";
 
 /* Convenience Password is securely stored (in memory only) only and will expire on Strongbox Exit. */
 "mac_convenience_summary_keychain_and_will_expire_on_exit" = "Пароль надёжно сохранён (только в памяти). Срок действия истечёт при выходе из Strongbox.";
@@ -2776,7 +2776,7 @@
 "open_sequence_cannot_use_yubikey_in_autofill_mode" = "Разблокировка аппаратным ключом не поддерживается в режиме автозаполнения из-за системных ограничений. Вместо этого можно настроить виртуальный ключ.";
 
 /* YubiKey Unlock is only available in the Pro edition of Strongbox */
-"open_sequence_yubikey_only_available_in_pro" = "Разблокировка YubiKey доступна только в Pro версии Strongbox";
+"open_sequence_yubikey_only_available_in_pro" = "Разблокировка YubiKey доступна только в Pro версии";
 
 /* Disabled (Pro Edition Only) */
 "casg_yubikey_configured_disabled_pro_only" = "Отключен (Pro версия)";
@@ -2821,7 +2821,7 @@
 "mac_yubikey_serial_number_slot_n_fmt" = "YubiKey %@ Слот %ld";
 
 /* YubiKey found but no compatible HMACSHA1 slots available */
-"mac_yubikey_available_but_no_compatible_slots" = "YubiKey найден, но нет совместимых разъемов HMACSHA1";
+"mac_yubikey_available_but_no_compatible_slots" = "YubiKey найден, но нет совместимых разъемов HMAC-SHA1";
 
 "casg_yubikey_configured_mfi" = "Lightning";
 
@@ -3012,19 +3012,19 @@
 "audit_status_complete" = "Статус: Завершена";
 
 /* Database Auditor Initialized */
-"audit_status_initialized" = "Статус: Инициализация";
+"audit_status_initialized" = "Status: Initializing...";
 
 /* Database Auditor Initialized */
-"audit_status_initialized_but_disabled" = "Статус: Отключена";
+"audit_status_initialized_but_disabled" = "Status: Disabled";
 
 /* Auditing... (%d%%) - Translator's Note - 1st Parameter is a percentage e.g. 25% - NB: Only 1 param (double percentages are an escape string for the single percentage symbol) */
-"audit_status_running_with_progress_fmt" = "Статус: Проверка ... (%d%%)";
+"audit_status_running_with_progress_fmt" = "Status: Auditing... (%d%%)";
 
 /* Auditing... */
-"audit_status_running_with_ellipsis" = "Статус: Проверка ...";
+"audit_status_running_with_ellipsis" = "Status: Auditing...";
 
 /* Audit Stopped */
-"audit_status_stopped" = "Статус: Остановлена";
+"audit_status_stopped" = "Status: Stopped";
 
 /* No issues found */
 "audit_status_no_issues_found" = "Проблем не найдено";
