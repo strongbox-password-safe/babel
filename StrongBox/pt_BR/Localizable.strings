@@ -1272,28 +1272,28 @@
 "custom_field_vc_accessibility_label_value" = "Valor de Campo Personalizado";
 
 /* Custom Field Protected */
-"custom_field_vc_accessibility_label_protected" = "Custom Field Protected";
+"custom_field_vc_accessibility_label_protected" = "Campo Personalizado Protegido";
 
 /* Name cannot be empty */
-"custom_field_vc_validation_name_not_empty_error" = "Name cannot be empty";
+"custom_field_vc_validation_name_not_empty_error" = "Nome não pode ser vazio";
 
 /* Name cannot be one of the reserved KeePass Field names */
-"custom_field_vc_validation_name_not_reserved_error" = "Name cannot be one of the reserved KeePass Field names";
+"custom_field_vc_validation_name_not_reserved_error" = "O nome não pode ser um dos nomes de campos reservados do KeePass";
 
 /* This key is already in use by another custom field. */
-"custom_field_vc_validation_name_already_in_use_error" = "This key is already in use by another custom field.";
+"custom_field_vc_validation_name_already_in_use_error" = "Está chave já é utilizada em outro campo personalizado.";
 
 /* You are in read-only mode. Cannot Write! */
-"model_error_readonly_cannot_write" = "You are in read-only mode. Cannot Write!";
+"model_error_readonly_cannot_write" = "Você está no modo somente leitura. Não é possível gravar!";
 
 /* Error while scanning */
-"qr_code_vc_error_scanning_title" = "Error while scanning";
+"qr_code_vc_error_scanning_title" = "Erro ao escanear";
 
 /* Could not access camera */
-"qr_code_vc_warn_problem_accessing_camera_title" = "Could not access camera";
+"qr_code_vc_warn_problem_accessing_camera_title" = "Não foi possível acessar a câmera";
 
 /* Strongbox could not access the camera on this device. Does it have permission? */
-"qr_code_vc_warn_problem_accessing_camera_message" = "Strongbox could not access the camera on this device. Does it have permission?";
+"qr_code_vc_warn_problem_accessing_camera_message" = "Strongbox não conseguiu acessar a câmera neste dispositivo. Ele tem permissão?";
 
 /* Database Icons */
 "icons_vc_header_database_icons_title" = "Ícones Da Base De Dados";
@@ -1368,7 +1368,7 @@
 "open_sequence_biometric_unlock_warn_failed_message_fmt" = "Falha na Autenticação com %@. Você precisa digitar sua senha manualmente para abrir a base de dados.";
 
 /* %@ has failed: %@. You must now enter your password manually to open the database. */
-"open_sequence_biometric_unlock_warn_not_configured_fmt" = "%@ has failed: %@. You must now enter your password manually to open the database.";
+"open_sequence_biometric_unlock_warn_not_configured_fmt" = "%@ falhou: %@. Você precisa digitar sua senha manualmente para abrir a base de dados.";
 
 /* Error Reading Key File */
 "open_sequence_error_reading_key_file" = "Não foi possível ler o Arquivo Chave. Ele foi movido ou removido? Verifique o Gerenciamento de Arquivos Chave nas Preferências";
@@ -1552,10 +1552,10 @@
 "cloud_sessions_prompt_dropbox_unlink_success_title" = "Desvinculação Bem-Sucedida";
 
 /* You have successfully unlinked Strongbox from Dropbox. */
-"cloud_sessions_prompt_dropbox_unlink_success_message" = "You have successfully unlinked Strongbox from Dropbox.";
+"cloud_sessions_prompt_dropbox_unlink_success_message" = "Você desvinculou com sucesso o Strongbox do Dropbox.";
 
 /* Sign out of OneDrive? */
-"cloud_sessions_prompt_signout_onedrive_title" = "Sign out of OneDrive?";
+"cloud_sessions_prompt_signout_onedrive_title" = "Sair do OneDrive?";
 
 /* Are you sure you want to sign out of OneDrive? */
 "cloud_sessions_prompt_signout_onedrive_message" = "Are you sure you want to sign out of OneDrive?";
@@ -2252,28 +2252,28 @@
 "mac_password_safe_fmt_does_not_support_icons_attachments_warning" = "The Password Safe format does not support icons, attachments or custom fields. If you continue, these fields will not be copied to this database.\nDo you want to continue without these fields?";
 
 /* The KeePass 1 (KDB) does not support entries at the root level, these will be discarded.\n\nThe KeePass 1 (KDB) format also does not support multiple attachments, custom fields or custom icons. If you continue only the first attachment from each item will be copied to this database. Custom Fields and Icons will be discarded.\nDo you want to continue? */
-"mac_keepass1_does_not_support_root_entries_or_attachments" = "The KeePass 1 (KDB) does not support entries at the root level, these will be discarded.\n\nThe KeePass 1 (KDB) format also does not support multiple attachments, custom fields or custom icons. If you continue only the first attachment from each item will be copied to this database. Custom Fields and Icons will be discarded.\nDo you want to continue?";
+"mac_keepass1_does_not_support_root_entries_or_attachments" = "O KeePass 1 (KDB) não suporta registros no nível raiz, eles serão descartados.\n\nO formato KeePass 1 (KDB) também não suporta anexos múltiplos, campos personalizados ou ícones personalizados. Se você continuar, apenas o primeiro anexo de cada item será copiado para esta base de dados. Campos personalizados e ícones serão descartados.\nGostaria de continuar?";
 
 /* The Password Safe format does not support attachments or icons. If you continue, these fields will not be copied to this database.\nDo you want to continue without these fields? */
-"mac_password_safe_does_not_support_attachments_icons_continue_yes_no" = "The Password Safe format does not support attachments or icons. If you continue, these fields will not be copied to this database.\nDo you want to continue without these fields?";
+"mac_password_safe_does_not_support_attachments_icons_continue_yes_no" = "O formato Password Safe não suporta anexos ou ícones. Se continuar, estes campos não serão copiados para esta base de dados.\nQuer continuar sem estes campos?";
 
 /* You cannot create a new item here. It must be within an existing folder. */
-"mac_alert_cannot_create_item_here" = "You cannot create a new item here. It must be within an existing folder.";
+"mac_alert_cannot_create_item_here" = "Você não pode criar um novo item aqui. Isso precisa ser feito dentro de um diretório existente.";
 
 /* Please enter a Title for your new Group */
-"mac_please_enter_a_title_for_new_group" = "Please enter a Title for your new Group";
+"mac_please_enter_a_title_for_new_group" = "Por favor insira um Título para seu novo Grupo";
 
 /* Are you sure you want to send '%@' to the Recycle Bin? - Translation Note: 1st Param is the Item Title */
 "mac_are_you_sure_recycle_bin_yes_no_fmt" = "Tem certeza de que quer enviar '%@' para a Lixeira?";
 
 /* Are you sure you want to delete '%@'? - Translation Note: 1st Param is the Item Title  */
-"mac_are_you_sure_delete_yes_no_fmt" = "Are you sure you want to delete '%@'?";
+"mac_are_you_sure_delete_yes_no_fmt" = "Tem certeza que deseja remover ‘%@’?";
 
 /* Are you sure you want to send %lu items to the Recycle Bin? - Translation Note: 1st Param is the number of items being deleted  */
-"mac_are_you_sure_recycle_bin_multiple_yes_no_fmt" = "Are you sure you want to send %lu items to the Recycle Bin?";
+"mac_are_you_sure_recycle_bin_multiple_yes_no_fmt" = "Tem certeza de que quer enviar %lu itens para a Lixeira?";
 
 /* Are you sure you want to delete %lu items? - Translation Note: 1st Param is the number of items being deleted */
-"mac_are_you_sure_delete_multiple_yes_no_fmt" = "Are you sure you want to delete %lu items?";
+"mac_are_you_sure_delete_multiple_yes_no_fmt" = "Tem certeza que deseja remover %lu itens?";
 
 /* Delete Items */
 "mac_menu_item_delete_items" = "Remover Itens";
@@ -2282,90 +2282,90 @@
 "mac_menu_item_delete_item" = "Remover Item";
 
 /* Choose CSV file to Import */
-"mac_choose_csv_file_import" = "Choose CSV file to Import";
+"mac_choose_csv_file_import" = "Escolha arquivo CSV para Importar";
 
 /* The CSV file must contain a header row with at least one of the following fields:\n\n[%@, %@, %@, %@, %@, %@]\n\nThe order of the fields doesn't matter. */
 
-"mac_csv_file_must_contain_header_and_fields" = "The CSV file must contain a header row with at least one of the following fields:\n\n[%@, %@, %@, %@, %@, %@]\n\nThe order of the fields doesn't matter.";
+"mac_csv_file_must_contain_header_and_fields" = "O arquivo CSV deve conter uma linha de cabeçalho com pelo menos um dos seguintes campos:\n\n[%@, %@, %@, %@, %@, %@]\n\nA ordem dos campos não importa.";
 
 /* CSV Format */
-"mac_csv_format_info_title" = "CSV Format";
+"mac_csv_format_info_title" = "Formato CSV";
 
 /* CSV File Contains Zero Rows. Cannot Import. */
-"mac_csv_file_contains_zero_rows" = "CSV File Contains Zero Rows. Cannot Import.";
+"mac_csv_file_contains_zero_rows" = "Arquivo CSV Contém Zero Linhas. Não é Possível Importar.";
 
 /* Found %lu valid rows in CSV file. Are you sure you would like to import now? - Translators Note: 1st Param is the number of rows found in the CSV File */
-"mac_found_n_valid_rows_in_csv_file_prompt_to_import_fmt" = "Found %lu valid rows in CSV file. Are you sure you would like to import now?";
+"mac_found_n_valid_rows_in_csv_file_prompt_to_import_fmt" = "Foram encontradas %lu linhas válidas no arquivo CSV. Tem certeza que gostaria de importa-las agora?";
 
 /* CSV File Successfully Imported. */
-"mac_csv_file_successfully_imported" = "CSV File Successfully Imported.";
+"mac_csv_file_successfully_imported" = "Arquivo CSV Importado Com Sucesso.";
 
 /* No valid rows found. Ensure CSV file contains a header row and at least one of the required fields. */
-"mac_no_valid_csv_rows_found" = "No valid rows found. Ensure CSV file contains a header row and at least one of the required fields.";
+"mac_no_valid_csv_rows_found" = "Nenhuma linha válida encontrada. Certifique-se de que o arquivo CSV contém uma linha de cabeçalho e pelo menos um dos campos obrigatórios.";
 
 /* Unique Usernames */
-"mac_database_summary_unique_usernames" = "Unique Usernames";
+"mac_database_summary_unique_usernames" = "Nomes de Usuário Únicos";
 
 /* Unique Passwords */
-"mac_database_summary_unique_passwords" = "Unique Passwords";
+"mac_database_summary_unique_passwords" = "Senhas Únicas";
 
 /* Most Popular Username */
-"mac_database_summary_most_popular_username" = "Most Popular Username";
+"mac_database_summary_most_popular_username" = "Nome de Usuário Mais Popular";
 
 /* Number of Entries */
-"mac_database_summary_number_of_entries" = "Number of Entries";
+"mac_database_summary_number_of_entries" = "Número de Registros";
 
 /* Number of Groups */
-"mac_database_summary_number_of_folders" = "Number of Groups";
+"mac_database_summary_number_of_folders" = "Número de Grupos";
 
 /* This is a large image to use as an icon. Would you like to use a scaled down version to save %@? - Translators Note: 1st Parameter is how much space will be saved */
-"mac_large_image_as_icon_use_scaled_down_version_fmt" = "This is a large image to use as an icon. Would you like to use a scaled down version to save %@?";
+"mac_large_image_as_icon_use_scaled_down_version_fmt" = "Essa imagem é bem grande para ser usada como ícone. Gostaria que ela fosse encolhida para salvar %@?";
 
 /* This is not a valid image file. */
-"mac_not_a_valid_image_file" = "This is not a valid image file.";
+"mac_not_a_valid_image_file" = "Este não é um arquivo de imagem válido.";
 
 /* Please enter the secret or an OTPAuth URL */
 "mac_please_enter_totp_secret_or_otpauth_url" = "Por favor digite o segredo ou uma URL OTPAuth";
 
 /* Is this a Steam Token? (Say 'No' if you're unsure) */
-"mac_is_this_a_stream_token_yes_no" = "Is this a Steam Token? (Say 'No' if you're unsure)";
+"mac_is_this_a_stream_token_yes_no" = "Isso é um Token da Steam? (Responda ‘Não’ se não tiver certeza)";
 
 /* Show Quick View Panel */
-"mac_show_quick_view_panel" = "Show Quick View Panel";
+"mac_show_quick_view_panel" = "Exibir Painel de Exibição Rápida";
 
 /* Hide Quick View Panel */
-"mac_hide_quick_view_panel" = "Hide Quick View Panel";
+"mac_hide_quick_view_panel" = "Ocultar Painel de Exibição Rápida";
 
 /* %@ Emergency Sheet - Translators Note: 1st Param: Database Name */
-"mac_database_print_emergency_sheet_fmt" = "%@ Emergency Sheet";
+"mac_database_print_emergency_sheet_fmt" = "%@ Página de Emergência";
 
 /* Search Disabled - Please Upgrade */
-"mac_search_disabled_please_upgrade" = "Search Disabled - Please Upgrade";
+"mac_search_disabled_please_upgrade" = "Busca Desativada - Por Favor Faça o Upgrade";
 
 /* Search (⌘F) */
 "mac_search_placeholder" = "Buscar (⌘F)";
 
 /* Please Enter Your Custom Default Title */
-"mac_enter_custom_title_default" = "Please Enter Your Custom Default Title";
+"mac_enter_custom_title_default" = "Por Favor Insira Seu Título Padrão Personalizado";
 
 /* Please Enter Your Custom Default Username */
-"mac_enter_custom_username_default" = "Please Enter Your Custom Default Username";
+"mac_enter_custom_username_default" = "Por Favor Insira Seu Nome de Usuário Padrão Personalizado";
 
 /* Please Enter Your Custom Default Email */
-"mac_enter_custom_email_default" = "Please Enter Your Custom Default Email";
+"mac_enter_custom_email_default" = "Por Favor Insira Seu E-mail Padrão Personalizado";
 
 /* Please Enter Your Custom Default Password */
-"mac_enter_custom_password_default" = "Please Enter Your Custom Default Password";
+"mac_enter_custom_password_default" = "Por Favor Insira Sua Senha Padrão Personalizada";
 
 /* Please Enter Your Custom Default URL */
-"mac_enter_custom_url_default" = "Please Enter Your Custom Default URL";
+"mac_enter_custom_url_default" = "Por Favor Insira Sua URL Padrão Personalizada";
 
 /* Welcome to Strongbox */
 "mac_welcome_to_strongbox_title" = "Boas-vindas ao Strongbox";
 
 /* Hi and welcome to Strongbox!\n\nI hope you'll really like the app, and find it useful. You can enjoy this fully featured Pro version of Strongbox for the next three months. After that point, you will be transitioned to the regular version of Strongbox.\n\nYou can always find out more at any time by tapping 'Upgrade to Pro' in the Strongbox menu item.\n\nThanks!\n-Mark */
 
-"mac_welcome_to_strongbox_message" = "Hi and welcome to Strongbox!\n\nI hope you'll really like the app, and find it useful. You can enjoy this fully featured Pro version of Strongbox for the next three months. After that point, you will be transitioned to the regular version of Strongbox.\n\nYou can always find out more at any time by tapping 'Upgrade to Pro' in the Strongbox menu item.\n\nThanks!\n-Mark";
+"mac_welcome_to_strongbox_message" = "Olá e boas vindas ao Strongbox!\n\nEspero que você goste e ache o app muito útil. Você pode aproveitar essa versão Pro do Strongbox pelos próximos 3 meses. Depois deste período você será movido para a versão normal do Strongbox.\n\nVocê sempre poderá descobrir mais a qualquer tempo tocando em ‘Fazer Upgrade do Pro’ no menu.\n\nObrigado!\n-Mark";
 
 /* Change Master Credentials */
 "mac_undo_action_change_master_credentials" = "Alterar Credenciais Mestras";
@@ -2374,28 +2374,28 @@
 "mac_undo_action_title_change" = "Alteração de Título";
 
 /* Email Change */
-"mac_undo_action_email_change" = "Email Change";
+"mac_undo_action_email_change" = "Alteração de Email";
 
 /* Username Change */
-"mac_undo_action_username_change" = "Username Change";
+"mac_undo_action_username_change" = "Alteração de Nome de Usuário";
 
 /* URL Change */
-"mac_undo_action_url_change" = "URL Change";
+"mac_undo_action_url_change" = "Alteração de URL";
 
 /* Move Item */
 "mac_undo_action_move_item" = "Mover Item";
 
 /* Move Items */
-"mac_undo_action_move_items" = "Move Items";
+"mac_undo_action_move_items" = "Mover Itens";
 
 /* Password Change */
-"mac_undo_action_password_change" = "Password Change";
+"mac_undo_action_password_change" = "Alteração da Senha";
 
 /* Notes Change */
-"mac_undo_action_notes_change" = "Notes Change";
+"mac_undo_action_notes_change" = "Alteração de Notas";
 
 /* Expiry Date Change */
-"mac_undo_action_expiry_change" = "Expiry Date Change";
+"mac_undo_action_expiry_change" = "Alteração de Data de Validade";
 
 /* Icon Change */
 "mac_undo_action_icon_change" = "Alteração de Ícone";
@@ -2404,22 +2404,22 @@
 "mac_undo_action_delete_history_item" = "Excluir Item do Histórico";
 
 /* Restore History Item */
-"mac_undo_action_restore_history_item" = "Restore History Item";
+"mac_undo_action_restore_history_item" = "Restaurar Item do Histórico";
 
 /* Remove Attachment */
-"mac_undo_action_remove_attachment" = "Remove Attachment";
+"mac_undo_action_remove_attachment" = "Remover Anexo";
 
 /* Add Attachment */
 "mac_undo_action_add_attachment" = "Adicionar Anexo";
 
 /* Set Custom Field */
-"mac_undo_action_set_custom_field" = "Set Custom Field";
+"mac_undo_action_set_custom_field" = "Configurar Campo Personalizado";
 
 /* Add Custom Field */
 "mac_undo_action_add_custom_field" = "Adicionar Campo Personalizado";
 
 /* Remove Custom Field */
-"mac_undo_action_remove_custom_field" = "Remove Custom Field";
+"mac_undo_action_remove_custom_field" = "Remover Campo Personalizado";
 
 /* Set TOTP */
 "mac_undo_action_set_totp" = "Configurar TOTP";
@@ -2434,19 +2434,19 @@
 "mac_undo_action_add_item" = "Adicionar item";
 
 /* Import Entries from CSV */
-"mac_undo_action_import_entries_from_csv" = "Import Entries from CSV";
+"mac_undo_action_import_entries_from_csv" = "Importar Entradas do CSV";
 
 /* Cannot save database while it is locked." */
-"mac_cannot_save_db_while_locked" = "Cannot save database while it is locked.";
+"mac_cannot_save_db_while_locked" = "Não é possível salvar a base de dados enquanto ela estiver bloqueada.";
 
 /* Strongbox cannot open File Wrappers, Directories or Compressed Packages like this. Please directly select a KeePass or Password Safe database file. */
-"mac_strongbox_cant_open_file_wrappers" = "Strongbox cannot open File Wrappers, Directories or Compressed Packages like this. Please directly select a KeePass or Password Safe database file.";
+"mac_strongbox_cant_open_file_wrappers" = "O Strongbox não pode abrir Arquivos Encapsulados, Diretórios ou Pacotes Comprimidos assim. Por favor, selecione um arquivo de base de dados do KeePass ou Password Safe diretamente.";
 
 /* Please Enter the Master Credentials for this Database */
 "mac_please_enter_master_credentials_for_this_database" = "Insira suas Credencias Mestras para esta Base de Dados";
 
 /* Save New Password Database... */
-"mac_save_new_database" = "Save New Password Database...";
+"mac_save_new_database" = "Salvar Nova Base de Dados de Senhas...";
 
 /* Save */
 "mac_save_action" = "Salvar";
@@ -2659,7 +2659,7 @@
 "favicon_results_n_icons_found_none_selected_fmt" = "%lu Ícones Encontrados (Nenhum selecionado)";
 
 /* This will set the icons for %d items to your selected FavIcons. Are you sure you want to continue? - Translators Note: 1st Param is the number of items that will be changed */
-"set_favicons_are_you_sure_yes_no_fmt" = "This will set the icons for %d items to your selected FavIcons. Are you sure you want to continue?";
+"set_favicons_are_you_sure_yes_no_fmt" = "O FavIcon selecionado será definido para %d itens. Tem certeza que deseja continuar?";
 
 /* Set FavIcon(s) */
 "mac_undo_action_set_icons" = "Definir Ícone(s)";
@@ -2668,7 +2668,7 @@
 "auto_fill_welcome_message_header" = "Boas-vindas";
 
 /* Automatically download FavIcon on URL Change (PRO Only) */
-"mac_auto_download_favicon_pro_only" = "Automatically download FavIcon on URL Change (Pro Feature Only)";
+"mac_auto_download_favicon_pro_only" = "Automaticamente Baixar FavIcons ao Alterar a URL (Funcionalidade Pro)";
 
 /* Set Icons (Pro Only) */
 "mac_button_set_favicons_pro_only" = "Set Icons (Pro Only)";
@@ -3051,25 +3051,25 @@
 "browse_vc_audit_complete_message" = "Nenhum problema encontrado";
 
 /* %ld issues found */
-"browse_vc_audit_complete_message_issues_found_fmt" = "%ld issues found";
+"browse_vc_audit_complete_message_issues_found_fmt" = "%ld problemas encontrados";
 
 /* %ld New Issues Found! */
-"browse_vc_audit_complete_message_new_issues_found_fmt" = "%ld New Issues Found!";
+"browse_vc_audit_complete_message_new_issues_found_fmt" = "%ld Novos Problemas Encontrados!";
 
 /* HIBP Disclaimer */
-"audit_hibp_warning_title" = "HIBP Disclaimer";
+"audit_hibp_warning_title" = "Observações do HIBP";
 
 /* I understand that my passwords will be sent over the web (HTTPS) to the 'Have I Been Pwned?' password checking service (using k-anonymity) and that I fully consent to this functionality. I also absolve Strongbox, Mark McGuill and Phoebe Code Limited of all liabilty for using this feature. */
-"audit_hibp_warning_message" = "I understand that my passwords will be sent over the web (HTTPS) to the 'Have I Been Pwned?' password checking service (using k-anonymity) and that I fully consent to this functionality. I also absolve Strongbox, Mark McGuill and Phoebe Code Limited of all liabilty for using this feature.";
+"audit_hibp_warning_message" = "Eu entendo que minhas senhas serão enviadas para a internet (via HTTPS) para o serviço de consulta de senhas ‘Have I Been Pwned?’ (usando o algoritmo k-anonymity) e eu autorizo o uso desta funcionalidade. Eu também absolvo o Strongbox, Mark McGuill e Phoebe Code Limited de qualquer culpa por usar esta funcionalidade.";
 
 /* No, I don't want to use this feature */
-"audit_hibp_warning_no" = "No, I don't want to use this feature";
+"audit_hibp_warning_no" = "Não, não quero usar estar funcionalidade";
 
 /* Yes, I understand and agree */
-"audit_hibp_warning_yes" = "Yes, I understand and agree";
+"audit_hibp_warning_yes" = "Sim, eu entendo e aceito";
 
 /* Always Check */
-"hibp_check_interval_always_check" = "Always Check";
+"hibp_check_interval_always_check" = "Sempre Consultar";
 
 /* Once a Day */
 "hibp_check_interval_once_a_day" = "Uma Vez ao Dia";
@@ -3078,31 +3078,31 @@
 "hibp_check_interval_once_a_week" = "Uma Vez Por Semana";
 
 /* Once Every 30 days */
-"hibp_check_interval_once_every_30_days" = "Once Every 30 days";
+"hibp_check_interval_once_every_30_days" = "Uma Vez a Cada 30 Dias";
 
 /* Select Online Check Interval */
-"audit_hibp_online_check_interval" = "Select Online Check Interval";
+"audit_hibp_online_check_interval" = "Selecione um Intervalo de Consulta Online";
 
 /* Have I Been Pwned? (Pro Edition Only) */
-"audit_hibp_pro_only_title" = "Have I Been Pwned? (Pro Edition Only)";
+"audit_hibp_pro_only_title" = "Have I Been Pwned? (Apenas Versão Pro)";
 
 /* Auto Fetch FavIcon? */
-"item_details_prompt_auto_fetch_favicon_title" = "Auto Fetch FavIcon?";
+"item_details_prompt_auto_fetch_favicon_title" = "Obter FavIcon Automaticamente?";
 
 /* Strongbox can automatically fetch FavIcons when an new entry is created or updated.\n\nWould you like to Strongbox to do this? */
-"item_details_prompt_auto_fetch_favicon_message" = "Strongbox can automatically fetch FavIcons when an new entry is created or updated.\n\nWould you like to Strongbox to do this?";
+"item_details_prompt_auto_fetch_favicon_message" = "O Strongbox pode obter automaticamente os FavIcons quando um registro é criado ou alterado.\n\nGostaria que o Strongbox fizesse isso?";
 
 /* Try Strongbox Pro? */
-"browse_pro_nudge_title" = "Try Strongbox Pro?";
+"browse_pro_nudge_title" = "Experimentar o Strongbox Pro?";
 
 /* Strongbox Pro is full of handy features like %@ Unlock.\n\nGood news! You have a Free 90-Day Trial available. Would you like to try Strongbox Pro? (Translators Note: 1st parameter is biometric id like 'Touch ID' or 'Face ID') */
-"browse_pro_nudge_message_fmt" = "Strongbox Pro is full of handy features like %@ Unlock.\n\nGood news! You have a Free 90-Day Trial available. Would you like to try Strongbox Pro?";
+"browse_pro_nudge_message_fmt" = "O Strongbox Pro é cheio de funcionalidades úteis como o Desbloqueio com %@.\n\nBoas notícias! Você tem um Período de Testes Gratuito de 90 dias. Gostaria de experimentar o Strongbox Pro?";
 
 /* Finnish */
 "pwgen_wordlist_finnish" = "Finlandês";
 
 /* Icelandic */
-"pwgen_wordlist_icelandic" = "Icelandic";
+"pwgen_wordlist_icelandic" = "Islandês";
 
 /* Standard */
 "password_gen_vc_wordlist_category_standard" = "Padrão";
@@ -3111,22 +3111,22 @@
 "password_gen_vc_wordlist_category_fandom" = "Fandom";
 
 /* Languages */
-"password_gen_vc_wordlist_category_languages" = "Languages";
+"password_gen_vc_wordlist_category_languages" = "Idiomas";
 
 /* Accessed */
 "item_details_metadata_accessed_field_title" = "Último Acesso";
 
 /* Location Changed */
-"item_details_metadata_location_changed_field_title" = "Location Changed";
+"item_details_metadata_location_changed_field_title" = "Local Alterado";
 
 /* Usage Count */
 "item_details_metadata_usage_count_field_title" = "Quantidade de Usos";
 
 /* Partial Recycle (Translators Note: If a user selects multiple items and some of them can't be recycled (e.g. The Recycle Bin itself, we ask if user is ok with that) */
-"browse_vc_partial_recycle_alert_title" = "Partial Recycle";
+"browse_vc_partial_recycle_alert_title" = "Reciclagem Parcial";
 
 /* Some of the items you have selected cannot be recycled and will be permanently deleted. Is that OK? */
-"browse_vc_partial_recycle_alert_message" = "Some of the items you have selected cannot be recycled and will be permanently deleted. Is that OK?";
+"browse_vc_partial_recycle_alert_message" = "Alguns dos itens que você selecionou não podem ser enviados para a Lixeira e serão removidos de maneira permanente. Tudo bem?";
 
 /* Audit */
 "browse_vc_action_audit" = "Auditoria";
@@ -3141,37 +3141,37 @@
 "audit_drill_down_section_header_summary" = "Resumo";
 
 /* Duplicate Passwords */
-"audit_drill_down_section_header_duplicates" = "Items using same password";
+"audit_drill_down_section_header_duplicates" = "Itens usando a mesma senha";
 
 /* Similar Passwords */
-"audit_drill_down_section_header_similar" = "Items using similar password";
+"audit_drill_down_section_header_similar" = "Itens usando senhas semelhantes";
 
 /* Actions */
 "audit_drill_down_section_header_actions" = "Ações";
 
 /* No password has been set */
-"audit_summary_flag_no_password_set" = "No password has been set";
+"audit_summary_flag_no_password_set" = "Nenhuma senha foi definida";
 
 /* This password is very common */
-"audit_summary_flag_very_common_password" = "This password is very common";
+"audit_summary_flag_very_common_password" = "Esta senha é muito comum";
 
 /* This password is pwned (HIBP) */
-"audit_summary_flag_pwned" = "This password is pwned (HIBP)";
+"audit_summary_flag_pwned" = "Esta senha foi comprometida (HIBP)";
 
 /* This password is too short */
-"audit_summary_flag_password_is_too_short" = "This password is too short";
+"audit_summary_flag_password_is_too_short" = "Essa senha é muito curta";
 
 /* The items above use exactly the same password as this item, this is generally considered a weakness. You should strive not to have any duplicated passwords. */
-"audit_drill_down_section_footer_duplicates" = "The items above use exactly the same password as this item. This is generally considered a weakness. You should strive not to have any duplicated passwords.";
+"audit_drill_down_section_footer_duplicates" = "Os itens acima usam exatamente a mesma senha que este item. Isso normalmente é considerado uma vulnerabilidade. Você deve se esforçar para não ter senhas repetidas.";
 
 /* The items above have a similar password to this item. This might indicate a weakness or use of a common component and could therefore be vulnerable to attack. */
-"audit_drill_down_section_footer_similar" = "The items above have a similar password to this item. This might indicate a weakness or use of a common component and could therefore be vulnerable to attack.";
+"audit_drill_down_section_footer_similar" = "Os itens acima possuem senhas semelhantes a este registro. Isso pode indicar uma fraqueza ou uso de um componente em comum e por isso é vulnerável a ataques.";
 
 /* Audit this Item */
-"audit_drill_down_audit_this_item_preference_title" = "Audit this Item";
+"audit_drill_down_audit_this_item_preference_title" = "Auditar este item";
 
 /* Check if this password is Pwned (HIBP) */
-"audit_drill_down_action_check_hibp" = "Check if this password is Pwned (HIBP)";
+"audit_drill_down_action_check_hibp" = "Consultar se esta senha foi comprometida (HIBP)";
 
 /* This item is excluded from Audits */
 "audit_status_item_is_exluded" = "Este item é ignorado em Auditorias";
@@ -3180,19 +3180,19 @@
 "audit_manual_pwn_progress_message" = "Consultando HIBP";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Manual HIBP Result";
+"audit_manual_pwn_check_result_title" = "Resultado Manual do HIBP";
 
 /* Your password has NOT been pwned as is likely secure. */
-"audit_manual_pwn_check_result_not_pwned" = "Your password has NOT been pwned and is likely secure.";
+"audit_manual_pwn_check_result_not_pwned" = "Sua senha NÃO foi comprometida e tem boas chances de estar segura.";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Manual HIBP Result";
+"audit_manual_pwn_check_result_title" = "Resultado Manual do HIBP";
 
 /* This password is pwned and is vulnerable */
-"audit_manual_pwn_check_result_pwned" = "This password is pwned and is vulnerable";
+"audit_manual_pwn_check_result_pwned" = "Está senha foi comprometida e é vulnerável";
 
 /* Database Audit Preferences */
-"audit_drill_down_go_to_database_audit_preferences" = "Database Audit Preferences";
+"audit_drill_down_go_to_database_audit_preferences" = "Preferências de Auditoria de Base de Dados";
 
 /* View All Audit Issues */
 "audit_drill_down_view_all_audit_issues" = "Exibir Todos os Problemas de Auditoria";
@@ -3207,16 +3207,16 @@
 "audit_excluded_items_vc_action_unclude" = "Parar de Ignorar";
 
 /* Share Last Crash Diagnostics? */
-"crash_diagnostics_share_last_title" = "Share Crash Diagnostics?";
+"crash_diagnostics_share_last_title" = "Compartilhar Relatórios de Erro?";
 
 /* It looks like Strongbox had a crash last time. Would you be so kind as to share the diagnostics with Strongbox Support?\n\nPlease mail to support@strongboxsafe.com */
-"crash_diagnostics_share_last_message" = "It looks like Strongbox had a crash last time. Would you be so kind as to share the diagnostics with Strongbox Support?\n\nPlease mail to support@strongboxsafe.com";
+"crash_diagnostics_share_last_message" = "Parece que o Strongbox travou anteriormente. Estaria disposto a, de maneira muito generosa, compartilhar o diagnóstico com o Suporte do Strongbox?\n\nPor favor envie um e-mail para support@strongboxsafe.com";
 
 /* Share */
 "crash_diagnostics_share_action" = "Compartilhar";
 
 /* Copy to Clipboard */
-"crash_diagnostics_copy_action" = "Copy to Clipboard";
+"crash_diagnostics_copy_action" = "Copiar para Área de Transferência";
 
 /* No Attachments */
 "file_attachments_view_controller_empty_attachments_text" = "Sem Anexos";
@@ -3240,16 +3240,16 @@
 "password_gen_vc_mode_diceware_xkcd_title" = "Diceware (XKCD)";
 
 /* Strongbox: Unknown Database */
-"autofill_error_unknown_db_title" = "Strongbox: Unknown Database";
+"autofill_error_unknown_db_title" = "Strongox: Base de Dados Desconhecida";
 
 /* This appears to be a reference to an older Strongbox database which can no longer be found. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill. */
-"autofill_error_unknown_db_message" = "This appears to be a reference to an older Strongbox database which can no longer be found. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill.";
+"autofill_error_unknown_db_message" = "Essa parece ser uma referência a uma base de dados do Strongbox antiga e que não pode mais ser encontrada. A base de dados do QuickType e Preenchimento Automático do Strongbox foi limpa e você precisa reabrir sua base de dados para atualizar o QuickType e Preenchimento Automático.";
 
 /* Strongbox: Error Locating Entry */
-"autofill_error_unknown_item_title" = "Strongbox: Error Locating Entry";
+"autofill_error_unknown_item_title" = "Strongbox: Erro Ao Localizar Registro";
 
 /* Strongbox could not find this entry, it is possibly stale. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill. */
-"autofill_error_unknown_item_message" = "Strongbox could not find this entry, it is possibly stale. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill.";
+"autofill_error_unknown_item_message" = "O Strongbox não encontrou este registro, é possível que esteja defasado. A base de dados do QuickType e Preenchimento Automático do Strongbox foi limpa e você vai precisar reabrir suas bases de dados para atualizar o Preenchimento Automático e QuickType.";
 
 /* Locating... */
 "generic_status_sp_locating_ellipsis" = "Localizando...";
@@ -3258,25 +3258,25 @@
 "generic_biometric_unlock_fmt" = "Desbloqueio com %@";
 
 /* By Default Strongbox now includes all your local documents and databases in Apple backups, however imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok? */
-"backup_settings_prompt_message" = "By default Strongbox includes all your local documents and databases in Apple backups, however imported Key Files are NOT included for security reasons. You can always change these settings in App Preferences.\n\nDoes this sound ok?";
+"backup_settings_prompt_message" = "Por padrão o Strongbox inclui todos os seus documentos locais e bases de dados nos Backups da Apple, entretanto Arquivos Chave importados NÃO são incluídos por motivos de segurança. Você pode mudar esta configuração a qualquer momento nas Preferências do App.\n\nOk?";
 
 /* Backup Settings */
 "backup_settings_prompt_title" = "Configurações de Backup";
 
 /* Yes, the defaults sound good */
-"backup_settings_prompt_option_yes_looks_good" = "Yes, sounds good";
+"backup_settings_prompt_option_yes_looks_good" = "Sim, gostei";
 
 /* Yes, but also backup Key Files */
-"backup_settings_prompt_yes_but_include_key_files" = "Yes, but also backup key files";
+"backup_settings_prompt_yes_but_include_key_files" = "Sim, mas manter arquivos de backup de chaves";
 
 /* No, do NOT backup anything */
-"backup_settings_prompt_no_dont_backup_anything" = "No, do NOT backup anything";
+"backup_settings_prompt_no_dont_backup_anything" = "Não, NÃO faça qualquer backup";
 
 /* View Sync Status */
 "safes_vc_action_view_sync_status" = "Exibir Log de Sincronização";
 
 /* Please send this crash report to support@strongboxsafe.com */
-"safes_vc_please_send_crash_report" = "Please send this crash report to support@strongboxsafe.com";
+"safes_vc_please_send_crash_report" = "Por favor envie o relatório deste erro para support@strongboxsafe.com";
 
 /* In Progress */
 "generic_in_progress" = "Em Progresso";
@@ -3285,16 +3285,16 @@
 "generic_initial_state" = "Inicial";
 
 /* %@ - Sync No. %@ (Translators Note: 1st Parameter is the Date/Time of the Sync e.g. 'Today, 4:42PM', The second parameter is a sequence number like 1, 2, 42 etc. This is the number of times this database has been synced in this session */
-"sync_log_sync_header_fmt" = "%@ - Sync No. %@";
+"sync_log_sync_header_fmt" = "%@ - Qtde de Sincronizações. %@";
 
 /* User Interaction Required */
-"sync_status_user_interaction_required_title" = "User Interaction Required";
+"sync_status_user_interaction_required_title" = "Interação do Usuário é Obrigatória";
 
 /* User Cancelled */
 "sync_status_user_interaction_cancelled" = "Cancelado pelo Usuário";
 
 /* Use Mine/Local (%@) - Translators Note: The first parameter is the modified date of the local copy e.g. "Today, 14:22" */
-"sync_conflict_option_use_mine_fmt" = "Use Mine/Local (%@)";
+"sync_conflict_option_use_mine_fmt" = "Usar o Meu/Local (%@)";
 
 /* Use Theirs/Remote (%@) - Translators Note: The first parameter is the modified date of the remote copy e.g. "September 1st, 14:22" */
 "sync_conflict_option_use_theirs_fmt" = "Usar o Deles/Remoto (%@)";
@@ -3519,7 +3519,7 @@
 "item_properties_override_url" = "Sobrescrever URL";
 
 /* AutoType Enabled */
-"item_properties_autotype_enabled" = "AutoType Enabled";
+"item_properties_autotype_enabled" = "Digitação Automática Ativada";
 
 /* AutoType Obfuscation */
 "item_properties_autotype_obfuscation" = "AutoType Obfuscation";
@@ -3846,25 +3846,25 @@
 "diff_compare_partially_supported_msg" = "Because of the underlying database format(s) of these databases a full comparison is not possible. Only the KeePass 2 format allows detection of Moves, Deletions, and Group edits.\n\nYou can proceed with compare/merge but it may not be comprehensive.";
 
 /* View As... */
-"browse_prefs_view_as_ellipsis" = "View As...";
+"browse_prefs_view_as_ellipsis" = "Exibir Como...";
 
 /* Database PIN */
-"pin_entry_database_default_text" = "Database PIN";
+"pin_entry_database_default_text" = "PIN da Base de Dados";
 
 /* App PIN */
 "pin_entry_app_default_text" = "PIN do App";
 
 /* Compare & Merge (Pro) */
-"conflict_resolution_compare_pro_only" = "Compare & Merge (Pro)";
+"conflict_resolution_compare_pro_only" = "Comparar & Unificar (Pro)";
 
 /* Sync Later (Pro) */
-"conflict_resolution_sync_later_pro_only" = "Sync Later (Pro)";
+"conflict_resolution_sync_later_pro_only" = "Sincronizar Depois (Pro)";
 
 /* Remote (%@) - Translators Note: First Param is the remote storage location e.g. Google Drive or Dropbox etc */
 "conflict_resolution_remote_fmt" = "Remoto (%@)";
 
 /* Force Overwrite? */
-"conflict_resolution_force_overwrite_title" = "Force Overwrite?";
+"conflict_resolution_force_overwrite_title" = "Forçar Sobrescrita?";
 
 /* You can overwrite changes in either your local copy or in the remote copy. */
 "conflict_resolution_force_overwrite_message" = "You can overwrite changes in either your local copy or in the remote copy.";
