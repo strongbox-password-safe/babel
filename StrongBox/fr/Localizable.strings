@@ -135,7 +135,7 @@
 "safesvc_icloud_no_longer_available_title" = "iCloud n'est plus disponible";
 
 /* iCloud has become unavailable. Your iCloud databases remain stored in iCloud but they will no longer sync to or from this device though you may still access them here. */
-"safesvc_icloud_no_longer_available_message" = "iCloud has become unavailable. Your iCloud databases remain stored in iCloud but they will no longer sync to or from this device though you may still access them here.";
+"safesvc_icloud_no_longer_available_message" = "iCloud est devenu indisponible. Vos bases de données iCloud restent stockées dans iCloud, mais elles ne seront plus synchronisées vers ou depuis cet appareil, bien que vous puissiez toujours y accéder ici.";
 
 /* You can now use iCloud with Strongbox. Should your current local databases be migrated to iCloud and available on all your devices? (NB: Your existing cloud databases will not be affected) */
 "safesvc_migrate_local_existing" = "Vous pouvez maintenant utiliser iCloud avec Strongbox. Vos bases de données locales actuelles doivent-elles être migrées vers iCloud et ainsi rendues disponibles sur tous vos appareils ? (NB : Vos bases de données existantes dans le cloud ne seront pas affectées)";
@@ -2470,7 +2470,7 @@
 "mac_storage_provider_name_file" = "Basé sur un fichier";
 
 /* There was a problem opening this file. */
-"mac_problem_opening_db" = "There was a problem opening this file.";
+"mac_problem_opening_db" = "Un problème est survenu lors de l'ouverture de ce fichier.";
 
 /* Create New Password Database */
 "mac_create_new_database_title" = "Créer une nouvelle base de données de mots de passe";
@@ -4003,10 +4003,10 @@
 "databases_vc_database_location_suffix_database_is_in_official_icloud_strongbox_folder" = "Strongbox iCloud";
 
 /* Watch Unlock */
-"preference_allow_watch_unlock" = "Watch Unlock";
+"preference_allow_watch_unlock" = "Déverrouillage Watch";
 
 /* Watch Unlock - (Enable in System Preferences > Security & Privacy) */
-"preference_allow_watch_unlock_system_disabled" = "Watch Unlock - (Enable in System Preferences > Security & Privacy)";
+"preference_allow_watch_unlock_system_disabled" = "Déverrouillage Watch - (Activer dans Préférences Système > Sécurité & Confidentialité)";
 
 /* No Cloud Session Found */
 "cloud_sessions_prompt_no_session_found" = "Aucune session cloud trouvée";
@@ -4039,76 +4039,76 @@
 "mac_non_file_database_pro_message" = "Cette base de données ne peut être déverrouillée que par Strongbox Pro car elle est stockée par SFTP ou WebDAV.\n\nVeuillez mettre à niveau.";
 
 /* Item Copied to Clipboard */
-"mac_copied_item_to_clipboard" = "Item Copied to Clipboard";
+"mac_copied_item_to_clipboard" = "Copié dans le presse-papier";
 
 /* Items Copied to Clipboard */
-"mac_copied_items_to_clipboard" = "Items Copied to Clipboard";
+"mac_copied_items_to_clipboard" = "Copiés dans le presse-papier";
 
 /* Item Pasted from Clipboard */
-"mac_item_pasted_from_clipboard" = "Item Pasted from Clipboard";
+"mac_item_pasted_from_clipboard" = "Collé depuis le presse-papiers";
 
 /* Items Pasted from Clipboard */
-"mac_items_pasted_from_clipboard" = "Items Pasted from Clipboard";
+"mac_items_pasted_from_clipboard" = "Collés depuis le presse-papier";
 
 /* Item Duplicated */
-"mac_item_duplicated" = "Item Duplicated";
+"mac_item_duplicated" = "Élément dupliqué";
 
 /* File - Localization Note: This should be very short, 3-4 characters if possible. This indicates a regular file on the file system on a Mac. */
 "storage_provider_name_mac_file_short" = "Fichier";
 
 /* Done. ✅ */
-"sync_log_status_done" = "Done. ✅";
+"sync_log_status_done" = "Terminé. ✅";
 
 /* TOTP Copied */
-"autofill_info_totp_copied_title" = "TOTP Copied";
+"autofill_info_totp_copied_title" = "TOTP copié";
 
 /* Your TOTP Code has been copied to the clipboard. */
-"autofill_info_totp_copied_message" = "Your TOTP Code has been copied to the clipboard.";
+"autofill_info_totp_copied_message" = "Votre code TOTP a été copié dans le presse-papiers.";
 
 /* Convenience Auto Unlock */
-"prefs_vc_autofill_convenience_auto_unlock" = "Convenience Auto Unlock";
+"prefs_vc_autofill_convenience_auto_unlock" = "Déverrouillage automatique de confort";
 
 /* Not Configured */
-"generic_preference_not_configured" = "Not Configured";
+"generic_preference_not_configured" = "Non configuré";
 
 /* Auto Unlock Feature */
-"autofill_auto_unlock_title" = "Auto Unlock Feature";
+"autofill_auto_unlock_title" = "Fonction de déverrouillage automatique";
 
 /* Auto Unlock lets you avoid having to repeatedly unlock your database for a configurable time period. Would you like to use this handy feature?\n\nNB: Your password is stored in the Secure Enclave for this feature. */
-"autofill_auto_unlock_message" = "Auto Unlock lets you avoid having to repeatedly unlock your database for a configurable time period. Would you like to use this handy feature?\n\nNB: Your password is stored in the Secure Enclave for this feature.";
+"autofill_auto_unlock_message" = "Le déverrouillage automatique vous dispense de déverrouiller à nouveau votre base de données pendant une durée configurable. Souhaitez-vous utiliser cette fonctionnalité ?\n\nNB: Votre mot de passe est stocké dans le Secure Enclave pour cette fonctionnalité.";
 
 /* Great, let try 3 mins */
-"autofill_auto_unlock_try_3_minutes" = "Great, lets try 3 mins";
+"autofill_auto_unlock_try_3_minutes" = "Génial, essayons avec 3 minutes";
 
 /* I'd prefer 10 mins */
-"autofill_auto_unlock_try_10_minutes" = "I'd prefer 10 mins";
+"autofill_auto_unlock_try_10_minutes" = "Je préférerais 10 minutes";
 
 /* AutoFill Quick Launch */
-"databases_toggle_autofill_quick_launch_context_menu" = "AutoFill Quick Launch";
+"databases_toggle_autofill_quick_launch_context_menu" = "Lancement rapide pour le remplissage automatique";
 
 /* Title Matches */
-"autofill_search_title_matches_section_header" = "Title Matches";
+"autofill_search_title_matches_section_header" = "Correspondances de titre";
 
 /* URL Matches */
-"autofill_search_url_matches_section_header" = "URL Matches";
+"autofill_search_url_matches_section_header" = "Correspondances d'URL";
 
 /* Other Matches */
-"autofill_search_other_matches_section_header" = "Other Matches";
+"autofill_search_other_matches_section_header" = "Autres correspondances";
 
 /* Service ID */
-"autofill_search_title_service_id_section_header" = "Service ID";
+"autofill_search_title_service_id_section_header" = "ID de service";
 
 /* The Service ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Service ID. */
-"autofill_search_service_id_section_footer" = "The Service ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Service ID. Tap to Copy.";
+"autofill_search_service_id_section_footer" = "L'ID de service est un identifiant envoyé à Strongbox par le remplissage automatique. Cela peut aider à la recherche si vous définissez l'URL de votre entrée pour correspondre à l'ID de service. Appuyez pour copier.";
 
 /* Results */
 "quick_view_title_no_matches_title" = "Résultats";
 
 /* Unlock with Touch ID */
-"mac_unlock_database_with_touch_id" = "Unlock with Touch ID";
+"mac_unlock_database_with_touch_id" = "Déverrouiller avec Touch ID";
 
 /* Unlock with Watch */
-"mac_unlock_database_with_apple_watch" = "Unlock with Watch";
+"mac_unlock_database_with_apple_watch" = "Déverrouiller avec Watch";
 
 /* Unlock with Touch ID or Watch */
 "mac_unlock_database_with_touch_or_watch" = "Déverrouiller avec Touch ID ou Watch";
