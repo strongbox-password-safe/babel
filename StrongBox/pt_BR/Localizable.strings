@@ -1558,16 +1558,16 @@
 "cloud_sessions_prompt_signout_onedrive_title" = "Sair do OneDrive?";
 
 /* Are you sure you want to sign out of OneDrive? */
-"cloud_sessions_prompt_signout_onedrive_message" = "Are you sure you want to sign out of OneDrive?";
+"cloud_sessions_prompt_signout_onedrive_message" = "Você tem certeza que deseja sair do OneDrive?";
 
 /* Signout Successful */
-"cloud_sessions_prompt_onedrive_signout_success_title" = "Signout Successful";
+"cloud_sessions_prompt_onedrive_signout_success_title" = "Sessão Encerrada com Sucesso";
 
 /* You have successfully signed out of OneDrive. */
-"cloud_sessions_prompt_onedrive_signout_success_message" = "You have successfully signed out of OneDrive.";
+"cloud_sessions_prompt_onedrive_signout_success_message" = "Você saiu do OneDrive com sucesso.";
 
 /* Error Signing out of OneDrive */
-"cloud_sessions_prompt_onedrive_signout_error" = "Error Signing out of OneDrive";
+"cloud_sessions_prompt_onedrive_signout_error" = "Erro ao sair do OneDrive";
 
 /* (in /) */
 "pick_creds_vc_group_path_display_string_root" = "(em /)";
@@ -1576,10 +1576,10 @@
 "pick_creds_vc_group_path_display_string_fmt" = "(em /%@)";
 
 /* Unsupported Storage */
-"pick_creds_vc_cannot_create_new_unsupported_storage_type_title" = "Unsupported Storage";
+"pick_creds_vc_cannot_create_new_unsupported_storage_type_title" = "Armazenamento Não Suportado";
 
 /* This database is stored on a Storage Provider that does not support Live editing in App Extensions. Cannot Create New Entry. */
-"pick_creds_vc_cannot_create_new_unsupported_storage_type_message" = "This database is stored on a Storage Provider that does not support Live editing in App Extensions. Cannot Create New Entry.";
+"pick_creds_vc_cannot_create_new_unsupported_storage_type_message" = "Esta base de dados está armazenada em um Provedor de Armazenamento que não suporta edição desta forma. Não é Possível Criar Um Novo Registro.";
 
 /* Create New Entry... */
 "pick_creds_vc_create_new_button_title" = "Create New Entry...";
@@ -3867,73 +3867,73 @@
 "conflict_resolution_force_overwrite_title" = "Forçar Sobrescrita?";
 
 /* You can overwrite changes in either your local copy or in the remote copy. */
-"conflict_resolution_force_overwrite_message" = "You can overwrite changes in either your local copy or in the remote copy.";
+"conflict_resolution_force_overwrite_message" = "Você pode sobrescrever mudanças tanto na sua cópia local quanto na remota.";
 
 /* Take Remote Copy, Overwrite Local */
-"conflict_resolution_force_overwrite_take_remote" = "Take Remote Copy, Overwrite Local";
+"conflict_resolution_force_overwrite_take_remote" = "Usar Cópia Remota, Sobrescrever a Local";
 
 /* Keep Local Copy, Overwrite Remote */
-"conflict_resolution_force_overwrite_keep_lacal" = "Keep Local Copy, Overwrite Remote";
+"conflict_resolution_force_overwrite_keep_lacal" = "Manter a Cópia Local, Sobrescrever a Remota";
 
 /* Technical Error - Could not write local copies for comparison/merge. */
-"model_error_could_not_write_local_merge" = "Technical Error - Could not write local copies for comparison/merge.";
+"model_error_could_not_write_local_merge" = "Erro Técnico - Não foi possível gravar cópias locais para comparação/unificação.";
 
 /* Cannot merge in background or without key. */
-"model_error_cannot_merge_in_background" = "Cannot merge in background or without key.";
+"model_error_cannot_merge_in_background" = "Não é possível unificar em segundo plano ou sem chave.";
 
 /* Are you sure you want to always Auto-Merge when you have a Sync Conflict like this? */
-"sync_are_you_sure_always_auto_merge" = "Are you sure you want to always Auto-Merge when you have a Sync Conflict like this?";
+"sync_are_you_sure_always_auto_merge" = "Tem certeza que deseja sempre Unificar Automaticamente quando acontecerem Conflitos de Sincronização como este?";
 
 /* Technical Error - Could not merge local and remote databases. */
-"model_error_could_not_merge_local_remote" = "Technical Error - Could not merge local and remote databases.";
+"model_error_could_not_merge_local_remote" = "Erro Técnico - Não foi possível unificar as bases de dados local e remota.";
 
 /* Your database format does not support advanced synchronization features (available in KeePass 2). This means the merge may be less than ideal.\n\nAre you sure you want to continue with the merge? */
-"merge_are_you_sure_less_than_ideal_format" = "Your database format does not support advanced synchronization features (available in KeePass 2). This means the merge may be less than ideal.\n\nAre you sure you want to continue with the merge?";
+"merge_are_you_sure_less_than_ideal_format" = "O formato da sua base de dados não suporta funcionalidades avançadas de sincronização (disponível no formato KeePass 2). Isso significa que a unificação não será a ideal.\n\nTem certeza que quer continuar com a unificação?";
 
 /* Database Refreshed */
-"browse_vc_pulldown_refresh_updated_title" = "Database Refreshed";
+"browse_vc_pulldown_refresh_updated_title" = "Base de Dados Atualizada";
 
 /* Error Refreshing */
-"browse_vc_pulldown_refresh_error_title" = "Error Refreshing";
+"browse_vc_pulldown_refresh_error_title" = "Erro ao Atualizar";
 
 /* See Sync Log */
-"browse_vc_pulldown_refresh_error_message" = "See Sync Log";
+"browse_vc_pulldown_refresh_error_message" = "Exibir Log de Sincronização";
 
 /* Database Refreshed - No Changes */
-"browse_vc_pulldown_refresh_no_changes_title" = "Database Refreshed - No Changes";
+"browse_vc_pulldown_refresh_no_changes_title" = "Base de Dados Atualizada - Nenhuma Mudança";
 
 /* %ld Failed Unlock Attempts - Translators note, first parameter is an integer, e.g 3 Failed Unlock Attempts */
-"privacy_vc_label_number_of_failed_unlock_attempts_fmt" = "%@ Failed Unlock Attempts";
+"privacy_vc_label_number_of_failed_unlock_attempts_fmt" = "%@ Tentativas de Desbloqueio Incorretas";
 
 /* Modified %@ - Translators Note: first parameter is a friendly date string. e.g. "Modified Today at 3:28PM" */
 "backups_backup_modified_title_fmt" = "Modificado %@";
 
 /* %@ (Backup taken %@) - Translators Note: first parameter is the file size and the second parameter a friendly date string. e.g. "4KB (Backup taken Today at 3:29PM)" */
-"backups_backup_taken_at_subtitle_fmt" = "%@ (Backup taken %@)";
+"backups_backup_taken_at_subtitle_fmt" = "%@ (Backup feito %@)";
 
 /* Sync Possibly Required */
-"compare_merge_sync_possibly_required_title" = "Sync Possibly Required";
+"compare_merge_sync_possibly_required_title" = "Sincronização Possivelmente Necessária";
 
 /* At least one of these databases haven't been synchronized very recently. It is recommended that you return to the Databases List screen and pull down to initiate the Sync process. This will ensure you are working with the latest versions. */
-"compare_merge_sync_possibly_required_message" = "At least one of these databases haven't been synchronized very recently. It is recommended that you return to the Databases List screen and pull down to initiate the Sync process. This will ensure you are working with the latest versions.";
+"compare_merge_sync_possibly_required_message" = "Pelo menos uma destas bases de dados não foi sincronizada recentemente. É recomendado que você retorne à Lista de Bases de Dados e arraste para baixo para iniciar o processo de Sincronização. Isso vai garantir que você está trabalhando com as versões mais recentes.";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to open in offline mode instead? - Translators Note: 1st Parameter is the storage provider name like Google Drive or Dropbox */
-"open_sequence_user_looks_offline_open_local_fmt" = "It looks like you may be offline and '%@' may not be reachable. Would you like to open in offline mode instead?";
+"open_sequence_user_looks_offline_open_local_fmt" = "Parece que você está offline e não é possível se conectar a ‘%@‘. Gostaria de abrir a base de dados no modo offline?";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use Strongbox's local copy in read-only mode instead? - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc */
-"open_sequence_user_looks_offline_open_local_ro_fmt" = "It looks like you may be offline and '%@' may not be reachable. Would you like to open in offline mode instead?\n\nNB: This is read-only. You can also edit offline in the Pro version.";
+"open_sequence_user_looks_offline_open_local_ro_fmt" = "Parece que você está offline e não é possível se conectar a ‘%@‘. Gostaria de abrir o arquivo no modo offline?\n\nNota: O arquivo será aberto somente para leitura. Você também pode fazer alterações offline na versão Pro.";
 
 /* Open Offline? */
 "open_sequence_yesno_use_local_copy_title" = "Abrir Offline?";
 
 /* Yes, Open Offline */
-"open_sequence_yes_use_local_copy_option" = "Yes, Open Offline";
+"open_sequence_yes_use_local_copy_option" = "Sim, Abrir Offline";
 
 /* Open Offline */
 "open_sequence_use_local_copy_option" = "Abrir Offline";
 
 /* Open Offline (Read-Only) */
-"open_sequence_use_local_copy_option_ro" = "Open Offline (Read-Only)";
+"open_sequence_use_local_copy_option_ro" = "Abrir Offline (Apenas Leitura)";
 
 /*  (Read Only) */
 "browse_vc_read_only_suffix" = " (Somente Leitura)";
@@ -3942,13 +3942,13 @@
 "browse_vc_offline_suffix" = " (Offline)";
 
 /* Offline Mode */
-"browse_vc_pulldown_refresh_offline_title" = "Offline Mode";
+"browse_vc_pulldown_refresh_offline_title" = "Modo Offline";
 
 /* Database Not Refreshed */
-"browse_vc_pulldown_refresh_offline_message" = "Database Not Refreshed";
+"browse_vc_pulldown_refresh_offline_message" = "Base de Dados Não Foi Atualizada";
 
 /* Do not allow changes to be made to this database when it is open. */
-"database_properties_subtitle_read_only" = "Do not allow changes to be made to this database when it is open.";
+"database_properties_subtitle_read_only" = "Não permitir que alterações sejam feitas nesta base quando ela estiver aberta.";
 
 /* Automatically prompt to open this database on App launch. */
 "database_properties_subtitle_quick_launch" = "Solicitar a abertura desta base de dados ao abrir o App.";
@@ -3957,25 +3957,25 @@
 "database_properties_title_always_auto_merge" = "Sempre Auto-Unificar";
 
 /* When a sync conflict occurs automatically merge without asking. */
-"database_properties_subtitle_conflict_resolution" = "When a sync conflict occurs automatically merge without asking.";
+"database_properties_subtitle_conflict_resolution" = "Quando um conflito de sincronização ocorrer, unificar as bases sem perguntar.";
 
 /* Immediate Open Offline Offer */
-"database_properties_title_offline_behaviour" = "Immediate Open Offline Offer";
+"database_properties_title_offline_behaviour" = "Oferecer Imediatamente Para Abrir Offline";
 
 /* Immediately offer to open offline if Strongbox detects you are offline. Alternatively, if you turn this off, Strongbox will try to connect which may take some time. */
-"database_properties_subtitle_offline_behaviour" = "Immediately offer to open in offline mode if Strongbox detects you are offline. Alternatively, if you turn this off, Strongbox will try to connect which may take some time.";
+"database_properties_subtitle_offline_behaviour" = "Oferecer imediatamente a opção de abrir no modo offline se o Strongbox detectar que você está offline. Se você desativar isso, o Strongbox tentará realizar uma conexão, o que pode levar um tempo.";
 
 /* Configure & View local backups." */
-"database_properties_subtitle_backups" = "Configure & View local backups.";
+"database_properties_subtitle_backups" = "Configurar & Exibir backups locais.";
 
 /* View recent sync details including errors. */
-"database_properties_subtitle_view_sync_log" = "View recent sync details including errors.";
+"database_properties_subtitle_view_sync_log" = "Exibir detalhes de sincronização recente incluindo erros.";
 
 /* Your Database is configured to use a YubiKey, however no YubiKey or an incorrect YubiKey was found connected. */
-"mac_autofill_no_or_incorrect_yubikey_found" = "Your Database is configured to use a YubiKey, however no YubiKey or an incorrect YubiKey was found connected.";
+"mac_autofill_no_or_incorrect_yubikey_found" = "Sua Base de Dados está configurada para usar a YubiKey, entretanto nenhuma YubiKey ou uma YubiKey incorreta está conectada.";
 
 /* Title (Username) */
-"quick_type_format_title_username" = "Title (Username)";
+"quick_type_format_title_username" = "Título (Nome de Usuário)";
 
 /* Title */
 "quick_type_format_title" = "Título";
@@ -3984,17 +3984,17 @@
 "quick_type_format_username" = "Nome de Usuário";
 
 /* QuickType Format */
-"prefs_vc_quick_type_format" = "QuickType Format";
+"prefs_vc_quick_type_format" = "Formato do QuickType";
 
 
 /* Authenticating... */
-"storage_provider_status_authenticating" = "Authenticating...";
+"storage_provider_status_authenticating" = "Autenticando...";
 
 /* Connecting... */
 "storage_provider_status_authenticating_connecting" = "Conectando...";
 
 /* Listing... */
-"storage_provider_status_authenticating_listing" = "Listing...";
+"storage_provider_status_authenticating_listing" = "Listando...";
 
 /* Creating... */
 "storage_provider_status_authenticating_creating" = "Criando...";
@@ -4009,7 +4009,7 @@
 "preference_allow_watch_unlock_system_disabled" = "Desbloqueio com Watch - (Ative em Preferências do Sistema > Segurança e Privacidade)";
 
 /* No Cloud Session Found */
-"cloud_sessions_prompt_no_session_found" = "No Cloud Session Found";
+"cloud_sessions_prompt_no_session_found" = "Nenhuma Sessão em Nuvem Encontrada";
 
 /* Copy Debug Information? */
 "prompt_title_copy_debug_info" = "Copiar Informação de Depuração?";
@@ -4018,31 +4018,31 @@
 "prompt_message_copy_debug_info" = "Gostaria de copiar algumas úteis informações de diagnóstico que você pode compartilhar com o suporte antes de continuar?";
 
 /* Third Party Storage Privacy Opt-In */
-"third_party_storage_privacy_opt_in_title" = "Third Party Storage Privacy Opt-In";
+"third_party_storage_privacy_opt_in_title" = "Política de Privacidade de Armazenamento de Terceiros";
 
 /* You are about to use a software library from Google, Microsoft or Dropbox for the first time.\n\nStrongbox does not control these organizations privacy policies (which may not be awesome).\n\nStrongbox offers these services for your convenience and it is entirely at your discretion whether you use them or not. You must Opt In to continue. */
-"third_party_storage_privacy_opt_in_message" = "You are about to use a software library from Google, Microsoft or Dropbox for the first time.\n\nStrongbox does not control these organizations privacy policies (which may not be awesome).\n\nStrongbox offers these services for your convenience and it is entirely at your discretion whether you use them or not.\n\nYou must Opt In to continue.";
+"third_party_storage_privacy_opt_in_message" = "Você está prestes a utilizar uma biblioteca de software do Google, Microsoft ou Dropbox pela primeira vez.\n\nO Strongbox não controla as políticas de privacidade dessas organizações (que podem não ser muito bacanas).\n\nO Strongbox oferece esses serviços para sua conveniência e a decisão de utilizá-los fica totalmente em suas mãos.\n\nVocê precisa Aceitar para continuar.";
 
 /* Opt In, Let's Go... */
-"third_party_storage_privacy_option_opt_in" = "Opt In, Let's Go...";
+"third_party_storage_privacy_option_opt_in" = "Aceito, Vamos lá...";
 
 /* Sync Successful */
-"notification_sync_successful" = "Sync Successful";
+"notification_sync_successful" = "Sincronização Concluída com Êxito";
 
 /* Add SFTP Database... (Pro) */
-"mac_add_sftp_pro_only" = "Add SFTP Database... (Pro)";
+"mac_add_sftp_pro_only" = "Adicionar Base de Dados via SFTP... (Pro)";
 
 /* Add WebDAV Database... (Pro) */
-"mac_add_webdav_pro_only" = "Add WebDAV Database... (Pro)";
+"mac_add_webdav_pro_only" = "Adicionar Base de Dados via WebDAV... (Pro)";
 
 /* This database can only be unlocked by Strongbox Pro because it is stored via SFTP or WebDAV.\n\nPlease Upgrade. */
-"mac_non_file_database_pro_message" = "This database can only be unlocked by Strongbox Pro because it is stored via SFTP or WebDAV.\n\nPlease Upgrade.";
+"mac_non_file_database_pro_message" = "Esta base de dados pode ser desbloqueada apenas pelo Strongbox versão Pro porque ela está armazenada via SFTP ou WebDAV.\n\nPor favor faça o Upgrade.";
 
 /* Item Copied to Clipboard */
-"mac_copied_item_to_clipboard" = "Item Copied to Clipboard";
+"mac_copied_item_to_clipboard" = "Item Copiado Para Área de Transferência";
 
 /* Items Copied to Clipboard */
-"mac_copied_items_to_clipboard" = "Items Copied to Clipboard";
+"mac_copied_items_to_clipboard" = "Itens Copiados Para a Área de Transferência";
 
 /* Item Pasted from Clipboard */
 "mac_item_pasted_from_clipboard" = "Item Colado da Área de Transferência";
