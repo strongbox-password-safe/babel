@@ -1843,7 +1843,7 @@
 "upgrade_family_sharing_info_title" = "Compartilhamento Familiar da Apple";
 
 /* A message about how you will need to download/purchase a separate App for Apple Family Sharing to work */
-"upgrade_family_sharing_info_message" = "Para se beneficiar do Compartilhamento Familiar da Apple você precisa tê-lo configurado para sua família. Então você precisará comprar a Edição Family Sharing do Strongbox. Toque em OK para ver essa edição na App Store";
+"upgrade_family_sharing_info_message" = "Para se beneficiar do Compartilhamento Familiar da Apple você precisa tê-lo configurado para sua família. Então você precisará comprar a Versão Family Sharing do Strongbox. Toque em OK para ver essa edição na App Store";
 
 /* Need Apple Family Sharing? */
 "upgrade_family_sharing_button_title" = "Precisa do Compartilhamento Familiar da Apple?";
@@ -2776,84 +2776,84 @@
 "open_sequence_cannot_use_yubikey_in_autofill_mode" = "Desbloqueio com Chave de Hardware não é suportado no Preenchimento Automático devido a limitações do sistema. Você pode configurar uma Chave de Hardware Virtual no lugar.";
 
 /* YubiKey Unlock is only available in the Pro edition of Strongbox */
-"open_sequence_yubikey_only_available_in_pro" = "O Desbloqueio com YubiKey está disponível apenas na edição Pro do Strongbox";
+"open_sequence_yubikey_only_available_in_pro" = "O Desbloqueio com YubiKey está disponível apenas na versão Pro do Strongbox";
 
 /* Disabled (Pro Edition Only) */
-"casg_yubikey_configured_disabled_pro_only" = "Disabled (Pro Edition Only)";
+"casg_yubikey_configured_disabled_pro_only" = "Desativado (Apenas Versão Pro)";
 
 /* YubiKey (Pro Edition Only) */
-"casg_section_header_yubikey_pro_only" = "YubiKey (Pro Edition Only)";
+"casg_section_header_yubikey_pro_only" = "YubiKey (Apenas Versão Pro)";
 
 /* Unknown (Translators Note: Used when generally when something can't be determined, e.g. The URL or file name of a database, or the type of storage provider used, or the format of a newly opened database etc.)*/
 "generic_unknown" = "Desconhecido";
 
 /* Valid Credentials */
-"mac_valid_credentials" = "Valid Credentials";
+"mac_valid_credentials" = "Credenciais Válidas";
 
 /* Could not get challenge response from YubiKey */
-"mac_error_getting_challenge_response_yubikey" = "Could not get challenge response from YubiKey";
+"mac_error_getting_challenge_response_yubikey" = "Não foi possível obter a resposta do desafio da YubiKey";
 
 /* Refreshing... (Translators Note: Used whenever running a fairly short operation to indicate somehting is happening, e.g. when polling YubiKey status (can take a few seconds)) */
 "generic_refreshing_ellipsis" = "Atualizando...";
 
 /* Could not generate Composite Key */
-"mac_error_could_not_generate_composite_key" = "Could not generate Composite Key";
+"mac_error_could_not_generate_composite_key" = "Não foi possível gerar a Chave Composta";
 
 /* None */
 "generic_none" = "Nenhum(a)";
 
 /* YubiKey (Pro Only) */
-"mac_lock_screen_yubikey_popup_menu_yubico_pro_only" = "YubiKey (Pro Only)";
+"mac_lock_screen_yubikey_popup_menu_yubico_pro_only" = "YubiKey (Apenas Pro)";
 
 /* YubiKey Slot %ld (Touch Required) - (Translators Note: Some YubiKey devices/configurations require the user to touch or press a button to authenticate. This string also takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_touch_required_fmt" = "YubiKey Slot %ld (Touch Required)";
+"mac_yubikey_slot_n_touch_required_fmt" = "Slot YubiKey %ld (Touch Necessário)";
 
 /* YubiKey Slot %ld (Translators Note: This string takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_fmt" = "YubiKey Slot %ld";
+"mac_yubikey_slot_n_fmt" = "Slot YubiKey %ld";
 
 /* No YubiKeys Found */
-"mac_no_yubikeys_found" = "No YubiKeys Found";
+"mac_no_yubikeys_found" = "Nenhuma YubiKey Encontrada";
 
 /* YubiKey %@ Slot %ld (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
-"mac_yubikey_serial_number_slot_n_touch_required_fmt" = "YubiKey %@ Slot %ld (Touch Required)";
+"mac_yubikey_serial_number_slot_n_touch_required_fmt" = "Slot %ld de YubiKey %@ (Toque Necessário)";
 
 /* YubiKey %@ Slot %ld  - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2) */
-"mac_yubikey_serial_number_slot_n_fmt" = "YubiKey %@ Slot %ld";
+"mac_yubikey_serial_number_slot_n_fmt" = "Slot %ld de YubiKey %@";
 
 /* YubiKey found but no compatible HMACSHA1 slots available */
-"mac_yubikey_available_but_no_compatible_slots" = "YubiKey found but no compatible HMACSHA1 slots available";
+"mac_yubikey_available_but_no_compatible_slots" = "YubiKey encontrada mas nenhum slot HMACSHA1 está disponível";
 
 "casg_yubikey_configured_mfi" = "Lightning";
 
 /* AutoFill Crash Occurred */
-"autofill_did_not_close_cleanly_title" = "AutoFill Crash Occurred";
+"autofill_did_not_close_cleanly_title" = "Houve Uma Falha no Preenchimento Automático";
 
 /* It looks like the last time you used AutoFill you had a crash. This is usually due to a memory limitation. Please check your database file size and your Argon2 memory settings (should be <= 64MB) */
-"autofill_did_not_close_cleanly_message" = "It looks like the last time you used AutoFill you had a crash. This is usually due to a iOS memory limitations. Please check database file size and Argon2 memory (should be <= 64MB) settings";
+"autofill_did_not_close_cleanly_message" = "Parece que houve uma falha da última vez que você usou o Preenchimento Automático. Isso normalmente é causado por limitações de memória do iOS. Verifique o tamanho da base de dados e as configurações de memória Argon2 (deve ser >= 64MB)";
 
 /* Regenerate... */
 "password_generation_regenerate_ellipsis" = "Gerar novamente...";
 
 /* Touch the key to read the OTP */
-"yubikey_touch_the_key_to_read_the_otp" = "Touch the key to read the OTP";
+"yubikey_touch_the_key_to_read_the_otp" = "Toque a chave para ler o OTP";
 
 /* Insert the key to read the OTP */
-"yubikey_insert_the_key_to_read_the_otp" = "Insert the key to read the OTP";
+"yubikey_insert_the_key_to_read_the_otp" = "Insira a chave para ler o OTP";
 
 /* Communicating with YubiKey... */
-"yubikey_communicating_with_key_ellipsis" = "Communicating with YubiKey...";
+"yubikey_communicating_with_key_ellipsis" = "Comunicando com a YubiKey...";
 
 /* Icon Set */
 "browse_prefs_icon_set" = "Conjunto de Ícones";
 
 /* Classic */
-"keepass_icon_set_classic" = "KeePass Classic";
+"keepass_icon_set_classic" = "KeePass Clássico";
 
 /* SF Symbols (iOS 13+) */
-"keepass_icon_set_sf_symbols" = "SF Symbols (iOS 13+)";
+"keepass_icon_set_sf_symbols" = "Símbolos SF (iOS 13+)";
 
 /* Translators Note: 1 parameter here to mention Biometric unlock, which depends on the device (will be either: 'Touch ID Unlock' or 'Face ID Unlock') */
-"upgrade_short_developer_message_fmt" = "Hi, Mark here, I'm the developer of Strongbox. Just to let you know Strongbox works on the freemium model, which means there is a free and a pro version. I hope you really like Strongbox and find it useful every day.\n\nI was wondering if you would consider upgrading? By upgrading you help to support an indie app developer and make continuous improvement possible.\n\nYou also secure access to great Pro features like %@, PIN Codes & FavIcons!\n\nI love working on this app and your support allows me to keep doing so.\n\nThank you,\n-Mark";
+"upgrade_short_developer_message_fmt" = "Olá, aqui é o Mark, sou o desenvolvedor do Strongbox. Esta mensagem é só pra informar a você de que o Strongbox trabalha no modelo freemium, isso significa que existem as versões Free e Pro. Espero que você goste do Strongbox e que ele lhe seja útil todos os dias.\n\nSerá que você consideraria fazer o upgrade? Ao fazê-lo você vai ajudar a apoiar um desenvolvedor indie e tornar possível que o desenvolvimento continue.\n\nVocê também terá acesso a ótimas funcionalidades do Pro como %@, Códigos PIN e FavIcons!\n\nEu amo trabalhar neste app e seu apoio me permite continuar fazendo isso.\n\nObrigado,\n-Mark";
 
 /* Translators Note: 1 parameter indicating number of days left in users free trial */
 "upgrade_vc_you_have_n_days_remaining_fmt" = "Você tem %ld dias restantes no período de testes do Pro";
@@ -2976,7 +2976,7 @@
 "quick_view_section_title_quick_views" = "Exibições Rápidas";
 
 /* Enhanced Audits (Pro Edition Only) */
-"audit_similar_passwords_pro_only_title" = "Senhas Similares (Apenas Edição Pro)";
+"audit_similar_passwords_pro_only_title" = "Senhas Similares (Apenas Versão Pro)";
 
 /* Audit Issues (%ld) - Translators note: format param is number of items with audit issues e.g. 5 */
 "quick_view_title_audit_issues_title_fmt" = "Problemas de Auditoria (%ld)";
@@ -3045,7 +3045,7 @@
 "casg_key_file_correct_no_no_key_file" = "Não, não uso um arquivo chave";
 
 /* Security Audit Complete */
-"browse_vc_audit_complete_title" = "Security Audit Complete";
+"browse_vc_audit_complete_title" = "Auditoria de Segurança Completa";
 
 /* No issues found */
 "browse_vc_audit_complete_message" = "Nenhum problema encontrado";
@@ -3561,7 +3561,7 @@
 "mac_autofill_pro_feature_title" = "Funcionalidade Pro";
 
 /* AutoFill is only available on the Pro edition of Strongbox. You can upgrade like this:\n\n1. Launch Strongbox\n2. Click the 'Strongbox' menu\n3. Click 'Upgrade to Pro...'.\n\nThank you! */
-"mac_autofill_pro_feature_upgrade-message" = "Preenchimento Automático está disponível apenas na edição Pro do Strongbox. Você pode fazer o upgrade assim:\n\n1. Abra o Strongbox\n2. Clique no menu ‘Strongbox’\n3. Clique em ‘Fazer Upgrade pro Pro’!";
+"mac_autofill_pro_feature_upgrade-message" = "Preenchimento Automático está disponível apenas na versão Pro do Strongbox. Você pode fazer o upgrade assim:\n\n1. Abra o Strongbox\n2. Clique no menu ‘Strongbox’\n3. Clique em ‘Fazer Upgrade pro Pro’!";
 
 /* Passcode Fallback for %@ - Translators Note: This is a preference that says that the device passcode can be used as a fallback if Face ID or Touch ID fails - the parameter is either 'Touch ID' or 'Face ID' */
 "app_lock_allow_device_passcode_fallback_for_biometric_fmt" = "Senha Reserva de %@";
