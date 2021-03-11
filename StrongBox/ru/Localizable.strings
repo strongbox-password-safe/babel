@@ -135,7 +135,7 @@
 "safesvc_icloud_no_longer_available_title" = "iCloud недоступен";
 
 /* iCloud has become unavailable. Your iCloud databases remain stored in iCloud but they will no longer sync to or from this device though you may still access them here. */
-"safesvc_icloud_no_longer_available_message" = "iCloud недоступен. Ваши базы данных останутся в iCloud, но они не будет синхронизироваться с этим устройством.";
+"safesvc_icloud_no_longer_available_message" = "iCloud недоступен. Ваши базы данных останутся в облаке, но они не будет синхронизироваться с этим устройством.";
 
 /* You can now use iCloud with Strongbox. Should your current local databases be migrated to iCloud and available on all your devices? (NB: Your existing cloud databases will not be affected) */
 "safesvc_migrate_local_existing" = "Теперь можно использовать iCloud. Хотите переместить локальные базы данных в iCloud, чтобы они стали доступными на всех Ваших устройствах? \nПримечание: Имеющиеся БД в облаке не будут затронуты";
@@ -144,7 +144,7 @@
 "safesvc_migrate_local_no_existing" = "Теперь можно использовать iCloud. Хотите переместить локальные базы данных в iCloud, чтобы они стали доступными на всех Ваших устройствах?";
 
 /* Would you like the option to use iCloud with Strongbox? (NB: Your existing cloud databases will not be affected) */
-"safesvc_use_icloud_question_existing" = "Хотите использовать iCloud в Strongbox?\nПримечание: Имеющиеся базы данных в облаке не будут затронуты";
+"safesvc_use_icloud_question_existing" = "Хотите использовать iCloud в Strongbox?\nПримечание: Имеющиеся БД в облаке не будут затронуты";
 
 /* You can now use iCloud with Strongbox. Would you like to have your databases available on all your devices? */
 "safesvc_use_icloud_question_no_existing" = "Теперь можно использовать iCloud. Хотите, чтобы базы данных стали доступными на всех Ваших устройствах?";
@@ -162,7 +162,7 @@
 "safesvc_icloud_available_title" = "iCloud доступен";
 
 /* Would you like to migrate your current local device databases to iCloud? */
-"safesvc_question_migrate_local_to_icloud" = "Хотите переместить локальные базы данных с устройства в iCloud?";
+"safesvc_question_migrate_local_to_icloud" = "Хотите переместить локальные БД с устройства в iCloud?";
 
 /* Migrate to iCloud */
 "safesvc_option_migrate_to_icloud" = "Переместить в iCloud";
@@ -711,7 +711,7 @@
 "prefs_vc_info_cannot_open_app_store_title" = "Невозможно открыть App Store";
 
 /* Please be extremely careful as this will delete permanently any local device databases and all preferences */
-"prefs_vc_info_data_deletion_care_required_message" = "Пожалуйста, будьте предельно осторожны, т.к. все локальные базы данных и настройки Strongbox будут удалены с этого устройства по достижении указанного количества неудачных попыток разблокировки.";
+"prefs_vc_info_data_deletion_care_required_message" = "Пожалуйста, будьте предельно осторожны, т.к. все локальные БД и настройки приложения будут удалены с этого устройства по достижении указанного количества неудачных попыток разблокировки.";
 
 /* DATA DELETION: Care Required */
 "prefs_vc_info_data_deletion_care_required_title" = "Предупреждение";
@@ -759,7 +759,7 @@
 "sbtvc_select_database_file" = "Пожалуйста, выберите файл базы данных";
 
 /* Select Folder For New Database */
-"sbtvc_select_new_database_location" = "Выбор расположения для новой базы данных";
+"sbtvc_select_new_database_location" = "Выбор расположения для новой БД";
 
 /* Copy from URL... */
 "sspc_copy_from_url_action" = "URL ссылка";
@@ -777,7 +777,7 @@
 "sspc_local_device_storage_warning_title" = "Предупреждение";
 
 /* Please Enter the URL of the Database File. */
-"sspc_manual_import_enter_url_message" = "Пожалуйста, введите ссылку на файл базы данных";
+"sspc_manual_import_enter_url_message" = "Пожалуйста, введите ссылку на файл БД";
 
 /* Enter URL */
 "sspc_manual_import_enter_url_title" = "URL файла";
@@ -986,7 +986,7 @@
 "pins_config_vc_title_pro_only" = "Код-пароль (Pro версия)";
 
 /* Turning the PIN Off for this database will remove the securely stored password and you will have to enter it again. Are you sure you want to do this? */
-"pins_config_vc_turn_pin_off_warning" = "Выключение код-пароля для базы данных очистит главный пароль и Вам придется заново вводить его. Хотите продолжить?";
+"pins_config_vc_turn_pin_off_warning" = "Выключение код-пароля для БД очистит главный пароль и Вам придется заново вводить его. Хотите продолжить?";
 
 /* Are you sure you want to turn off the PIN for this database? */
 "pins_config_vc_turn_pin_off_confirm" = "Вы хотите выключить код-пароль для базы данных?";
@@ -1374,13 +1374,13 @@
 "open_sequence_error_reading_key_file" = "Не удалось открыть файл-ключ. Перейдите в Управление файл-ключами и проверьте настройки.";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc, 2nd param is the date/time of the last cache) */
-"open_sequence_user_looks_offline_open_offline_instead_fmt" = "Возможно, нет подключения к сети и хранилище %@ недоступно. Хотите использовать доступный только для чтения кэш базы данных?\n\nДата кэша: %@";
+"open_sequence_user_looks_offline_open_offline_instead_fmt" = "Возможно, нет подключения к сети и хранилище %@ недоступно. Хотите использовать доступный только для чтения кэш БД?\n\nДата кэша: %@";
 
 /* No, Try to connect anyway */
 "open_sequence_yesno_use_offline_cache_no_try_connect_option" = "Подключение";
 
 /* There was a problem reading the database on %@. would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ */
-"open_sequence_storage_unreachable_open_offline_instead_fmt" = "Ошибка при чтении данных с сервера %@. Если ошибка повторяется, попробуйте удалить и заново добавить базу данных. Хотите использовать доступный только для чтения кэш базы данных?\n\nДата кэша: %@";
+"open_sequence_storage_unreachable_open_offline_instead_fmt" = "Ошибка при чтении данных с сервера %@. Если ошибка повторяется, попробуйте удалить и заново добавить базу данных. Хотите использовать доступный только для чтения кэш БД?\n\nДата кэша: %@";
 
 /* Could not open database
    There was a problem opening the database. */
@@ -2440,7 +2440,7 @@
 "mac_cannot_save_db_while_locked" = "Невозможно сохранить базу данных, пока она заблокирована.";
 
 /* Strongbox cannot open File Wrappers, Directories or Compressed Packages like this. Please directly select a KeePass or Password Safe database file. */
-"mac_strongbox_cant_open_file_wrappers" = "Strongbox не может открывать файловые контейнеры, каталоги или сжатые пакеты, такие как этот. Пожалуйста, выберите непосредственно файл базы данных KeePass или Password Safe.";
+"mac_strongbox_cant_open_file_wrappers" = "Strongbox не может открывать файловые контейнеры, каталоги или сжатые файлы. Пожалуйста, выберите непосредственно файл базы данных KeePass или Password Safe.";
 
 /* Please Enter the Master Credentials for this Database */
 "mac_please_enter_master_credentials_for_this_database" = "Пожалуйста, введите мастер-ключ для базы данных";
@@ -2829,7 +2829,7 @@
 "autofill_did_not_close_cleanly_title" = "Сбой автозаполнения";
 
 /* It looks like the last time you used AutoFill you had a crash. This is usually due to a memory limitation. Please check your database file size and your Argon2 memory settings (should be <= 64MB) */
-"autofill_did_not_close_cleanly_message" = "При использовании функции автозаполнения произошёл сбой. Обычно это связано с ограничениями памяти iOS. Пожалуйста, проверьте размер файла базы данных и настройки памяти Argon2 (должно быть <= 64МБ)";
+"autofill_did_not_close_cleanly_message" = "При использовании функции автозаполнения произошёл сбой. Обычно это связано с ограничениями памяти iOS. Пожалуйста, проверьте размер файла БД и настройки памяти Argon2 (должно быть <= 64МБ)";
 
 /* Regenerate... */
 "password_generation_regenerate_ellipsis" = "Сгенерировать заново";
@@ -3030,7 +3030,7 @@
 "audit_status_no_issues_found" = "Проблем не найдено";
 
 /* The credentials were incorrect for this database. Are you sure you are using this key file?\n\nNB: A key files are not the same as your database file. */
-"open_sequence_problem_opening_incorrect_credentials_message_verify_key_file" = "Мастер-ключ не подходит для этой базы данных. Вы используете верный файл-ключ?";
+"open_sequence_problem_opening_incorrect_credentials_message_verify_key_file" = "Мастер-ключ не подходит для базы данных. Вы используете верный файл-ключ?";
 
 /* Is your Key File correct? */
 "casg_key_file_correct_title" = "Неверный файл-ключ";
@@ -3303,7 +3303,7 @@
 "sync_conflict_title" = "Конфликт синхронизации";
 
 /* It looks like the remote version of this database on '%@' has changed and so has the local version you've been working on. Which version would you like to use?  - Translators Note: The first parameter is the name of the remote storage provider e.g. "Dropbox" */
-"sync_conflict_message_fmt" = "Удалённая копия базы данных в хранилище '%@' изменилась. Какую копию вы хотите использовать?";
+"sync_conflict_message_fmt" = "Удалённая копия базы данных в хранилище '%@' изменилась. Какую копию Вы хотите использовать?";
 
 /* Strongbox could not sync your changes. */
 "sync_could_not_sync_your_changes" = "Не удалось синхронизировать изменения.";
@@ -3318,7 +3318,7 @@
 "open_sequence_couldnt_open_local_title" = "Ошибка при открытии";
 
 /* Could not open Strongbox's local copy of this database. A online sync is required. */
-"open_sequence_couldnt_open_local_message" = "Не удалось открыть локальную копию. Необходима синхронизация базы данных.";
+"open_sequence_couldnt_open_local_message" = "Не удалось открыть локальную копию. Необходима синхронизация БД.";
 
 /* Sync Error */
 "open_sequence_storage_provider_error_title" = "Ошибка при синхронизации";
@@ -3537,10 +3537,10 @@
 "pwgen_casing_latin1_supplement" = "Дополнение к Latin-1";
 
 /* Are you sure you want to remove this database from Strongbox?\n\nNB: The underlying database file will not be deleted. Just Strongbox's settings for this database. */
-"are_you_sure_delete_database_single" = "Вы действительно хотите удалить базу данных из Strongbox?\n\nПримечание: Будут удалены настройки для этой базы данных в приложении. Сам файл не будет удалён.";
+"are_you_sure_delete_database_single" = "Вы действительно хотите удалить базу данных из Strongbox?\n\nПримечание: Будут удалены настройки для этой БД в приложении. Сам файл не будет удалён.";
 
 /* Are you sure you want to remove these databases from Strongbox?\n\nNB: The underlying database files will not be deleted. Just Strongbox's settings for these databases. */
-"are_you_sure_delete_database_multiple" = "Вы действительно хотите удалить эти базы данных из Strongbox?\n\nПримечание: Будут удалены настройки для баз данных в приложении. Сами файлы не будут удалены.";
+"are_you_sure_delete_database_multiple" = "Вы действительно хотите удалить базы данных из Strongbox?\n\nПримечание: Будут удалены настройки для БД в приложении. Сами файлы не будут удалены.";
 
 /* No Databases Here Yet.\n\nClick 'Add Database...' below to get started... */
 "mac_no_databases_initial_message" = "Нет баз данных.\n\nНажмите кнопку ниже, чтобы начать работу";
