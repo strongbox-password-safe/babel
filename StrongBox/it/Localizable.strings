@@ -2225,7 +2225,7 @@
 "mac_could_not_unlock_database" = "Impossibile Sbloccare il Database";
 
 /* Touch ID Considerations\n\nWhile this is very convenient, it is not a perfect system for protecting your passwords. It is provided for convenience only. It is within the realm of possibilities that someone with access to your device or your fingerprint, can produce a good enough fake fingerprint to fool Apple’s Touch ID. In addition, on your Mac, your master password will be securely stored in the Keychain. This means it is possible for someone with administrative privileges to search your Keychain for your master password. You should be aware that a strong passphrase held only in your mind provides the most secure experience with StrongBox.\n\nPlease take all of this into account, and make your decision to use Touch ID based on your preferred balance of convenience and security. */
-"mac_touch_id_one_time_warning" = "Considerazioni su Touch ID/Apple Watch\n\nAnche se è molto conveniente, non è un sistema perfetto per proteggere le tue password. Viene fornito solo per comodità. È nel novero delle possibilità che qualcuno, con accesso al tuo dispositivo o alle tue impronte digitali, possa riprodurre una impronta digitale abbastanza falsificata sufficientemente bene da ingannare il Touch ID Apple. Inoltre, sul tuo Mac, la tua password principale sarà memorizzata in modo sicuro nel Portachiavi. Questo significa che, per qualcuno con privilegi amministrativi sul tuo Mac, è possibile cercare la tua Master password nel tuo Portachiavi. Dovresti essere consapevole che una frase segreta forte, tenuta soltanto nella tua mente, offre l'esperienza più sicura con StrongBox.\n\nPer favore, tieni conto di tutto questo, e prendi la decisione di utilizzare Touch ID in base al tuo bilanciamento preferito tra comodità e sicurezza.";
+"mac_touch_id_one_time_warning" = "Considerazioni su Touch ID/Apple Watch\n\nAnche se è molto conveniente, non è un sistema perfetto per proteggere le proprie password. Viene fornito solo per comodità. È nel novero delle possibilità che qualcuno, con accesso al dispositivo o alle impronte digitali del suo proprietario, possa riprodurre una impronta digitale falsificata sufficientemente bene da ingannare il Touch ID Apple. Inoltre, sul Mac, la password master sarà memorizzata in modo sicuro nel Portachiavi. Questo significa che per qualcuno con privilegi amministrativi sul tuo Mac è possibile individuare la password master di Strongbox nel Portachiavi. È importante essere consapevoli che una frase segreta forte, tenuta soltanto nella propria mente, offre l'esperienza più sicura con StrongBox.\n\nPer favore, si tenga conto di tutto questo, e si prenda la decisione di utilizzare Touch ID in base al proprio bilanciamento ideale tra comodità e sicurezza.";
 
 /* You cannot lock a database while changes are pending. Save changes and lock now? */
 "mac_cant_lock_db_while_changes_pending" = "Non è possibile bloccare un database mentre i cambiamenti sono in sospeso. Salvare le modifiche e bloccare ora?";
@@ -3576,7 +3576,7 @@
 "mac_autofill_enable_extension_title" = "Abilitare Estensione Strongbox";
 
 /* To use AutoFill you must enable the Strongbox Extension in System Preferences. To do this click the 'Open System Preferences...' button below and navigate to:\n\n∙ Extensions > Password AutoFill > Check 'Strongbox' */
-"mac_autofill_enable_extension_message" = "Per utilizzare Riempimento Automatico è necessario abilitare l'Estensione Strongbox in Preferenze di Sistema. Per fare ciò, fare clic sul pulsante 'Apri Preferenze di Sistema' qua sotto e navigare su:\n\n∙ Estensioni > Riempimento automatico password > marcare 'Strongbox'";
+"mac_autofill_enable_extension_message" = "Per utilizzare Riempimento Automatico è necessario abilitare l'Estensione Strongbox in Preferenze Di Sistema. Per fare ciò, fare clic sul pulsante 'Apri Preferenze Di Sistema' qua sotto e navigare su:\n\n∙ Estensioni > Riempimento Automatico Password > marcare 'Strongbox'";
 
 /* Open System Preferences... */
 "mac_autofill_action_open_system_preferences" = "Aprire Preferenze Di Sistema...";
@@ -4003,10 +4003,10 @@
 "databases_vc_database_location_suffix_database_is_in_official_icloud_strongbox_folder" = "Strongbox iCloud";
 
 /* Watch Unlock */
-"preference_allow_watch_unlock" = "Watch Unlock";
+"preference_allow_watch_unlock" = "Sblocco Watch";
 
 /* Watch Unlock - (Enable in System Preferences > Security & Privacy) */
-"preference_allow_watch_unlock_system_disabled" = "Watch Unlock - (Enable in System Preferences > Security & Privacy)";
+"preference_allow_watch_unlock_system_disabled" = "Sblocco Watch - (Attiva in Preferenze Di Sistema> Sicurezza & Privacy)";
 
 /* No Cloud Session Found */
 "cloud_sessions_prompt_no_session_found" = "Nessuna Sessione Cloud Trovata";
@@ -4060,55 +4060,88 @@
 "sync_log_status_done" = "Fatto. ✅";
 
 /* TOTP Copied */
-"autofill_info_totp_copied_title" = "TOTP Copied";
+"autofill_info_totp_copied_title" = "TOTP Copiato";
 
 /* Your TOTP Code has been copied to the clipboard. */
-"autofill_info_totp_copied_message" = "Your TOTP Code has been copied to the clipboard.";
+"autofill_info_totp_copied_message" = "Il Codice TOTP è stato copiato negli appunti.";
 
 /* Convenience Auto Unlock */
-"prefs_vc_autofill_convenience_auto_unlock" = "Convenience Auto Unlock";
+"prefs_vc_autofill_convenience_auto_unlock" = "Sblocco Automatico di Convenienza";
 
 /* Not Configured */
-"generic_preference_not_configured" = "Not Configured";
+"generic_preference_not_configured" = "Non Configurato";
 
 /* Auto Unlock Feature */
-"autofill_auto_unlock_title" = "Auto Unlock Feature";
+"autofill_auto_unlock_title" = "Funzione di Sblocco Automatico";
 
 /* Auto Unlock lets you avoid having to repeatedly unlock your database for a configurable time period. Would you like to use this handy feature?\n\nNB: Your password is stored in the Secure Enclave for this feature. */
-"autofill_auto_unlock_message" = "Auto Unlock lets you avoid having to repeatedly unlock your database for a configurable time period. Would you like to use this handy feature?\n\nNB: Your password is stored in the Secure Enclave for this feature.";
+"autofill_auto_unlock_message" = "Lo Sblocco Automatico consente di evitare di sbloccare ripetutamente il database per un periodo di tempo configurabile. Si vuole utilizzare questa pratica funzionalità?\n\nNB: La password per questa funzione è memorizzata nell'Enclave Sicuro.";
 
 /* Great, let try 3 mins */
-"autofill_auto_unlock_try_3_minutes" = "Great, lets try 3 mins";
+"autofill_auto_unlock_try_3_minutes" = "Ottimo, proviamo 3 minuti";
 
 /* I'd prefer 10 mins */
-"autofill_auto_unlock_try_10_minutes" = "I'd prefer 10 mins";
+"autofill_auto_unlock_try_10_minutes" = "10 minuti sono meglio";
 
 /* AutoFill Quick Launch */
-"databases_toggle_autofill_quick_launch_context_menu" = "AutoFill Quick Launch";
+"databases_toggle_autofill_quick_launch_context_menu" = "Avvio Rapido Riempimento Automatico";
 
 /* Title Matches */
-"autofill_search_title_matches_section_header" = "Title Matches";
+"autofill_search_title_matches_section_header" = "Abbinamenti per Titolo";
 
 /* URL Matches */
-"autofill_search_url_matches_section_header" = "URL Matches";
+"autofill_search_url_matches_section_header" = "Abbinamenti per URL";
 
 /* Other Matches */
-"autofill_search_other_matches_section_header" = "Other Matches";
+"autofill_search_other_matches_section_header" = "Altri Abbinamenti";
 
 /* Service ID */
 "autofill_search_title_service_id_section_header" = "Service ID";
 
 /* The Service ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Service ID. */
-"autofill_search_service_id_section_footer" = "The Service ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Service ID. Tap to Copy.";
+"autofill_search_service_id_section_footer" = "Il Service ID è un identificatore inviato a Strongbox dal Riempimento Automatico. Impostare l'URL della voce in abbinamento all'ID del Servizio può aiutare nelle ricerche. Toccare per Copiare.";
 
 /* Results */
 "quick_view_title_no_matches_title" = "Risultati";
 
 /* Unlock with Touch ID */
-"mac_unlock_database_with_touch_id" = "Unlock with Touch ID";
+"mac_unlock_database_with_touch_id" = "Sbloccare con Touch ID";
 
 /* Unlock with Watch */
-"mac_unlock_database_with_apple_watch" = "Unlock with Watch";
+"mac_unlock_database_with_apple_watch" = "Sbloccare con Watch";
 
 /* Unlock with Touch ID or Watch */
 "mac_unlock_database_with_touch_or_watch" = "Sbloccare con Touch ID o Watch";
+
+/* Blur */
+"app_privacy_shield_mode_blur" = "Blur";
+
+/* Pixellate */
+"app_privacy_shield_mode_pixellate" = "Pixellate";
+
+/* Blue Screen */
+"app_privacy_shield_mode_blue_screen" = "Blue Screen";
+
+/* Privacy Shield View */
+"prefs_vc_privacy_shield_view" = "Privacy Shield View";
+
+/* Always Open Offline */
+"database_properties_title_always_offline" = "Always Open Offline";
+
+/* You can choose to always open offline whenever you tap on this database. No sync will be performed on unlock, though a background sync can be performed by pulling down on your Databases List. */
+"database_properties_subtitle_always_offline" = "You can choose to always open offline whenever you tap on this database. No sync will be performed on unlock, though a background sync can be performed by pulling down on your Databases List.";
+
+/* Offline Detected Behaviour */
+"database_properties_title_offline_detected_behaviour" = "Offline Detected Behaviour";
+
+/* What to do if Strongbox detects you are Offline when opening a database. */
+"database_properties_subtitle_offline_detected_behaviour" = "What to do if Strongbox detects you are Offline when opening a database.";
+
+/* Prompt */
+"offline_detected_behaviour_ask_immediately" = "Prompt";
+
+/* Try to Connect */
+"offline_detected_behaviour_try_connect_anyway" = "Try to Connect";
+
+/* Open Offline (No Prompt) */
+"offline_detected_behaviour_open_offline" = "Open Offline (No Prompt)";

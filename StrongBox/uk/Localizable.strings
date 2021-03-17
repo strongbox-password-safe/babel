@@ -135,7 +135,7 @@
 "safesvc_icloud_no_longer_available_title" = "iCloud більше недоступний";
 
 /* iCloud has become unavailable. Your iCloud databases remain stored in iCloud but they will no longer sync to or from this device though you may still access them here. */
-"safesvc_icloud_no_longer_available_message" = "iCloud has become unavailable. Your iCloud databases remain stored in iCloud but they will no longer sync to or from this device though you may still access them here.";
+"safesvc_icloud_no_longer_available_message" = "iCloud став недоступним. Ваша база паролів з iCloud залишається збереженою в iCloud, але вона більше не синхронізується з цим пристроєм, однак все ще доступна на пристрої.";
 
 /* You can now use iCloud with Strongbox. Should your current local databases be migrated to iCloud and available on all your devices? (NB: Your existing cloud databases will not be affected) */
 "safesvc_migrate_local_existing" = "Тепер ви можете використовувати iCloud із Strongbox. Мігрувати поточну локальну базу даних в iCloud для доступу на інших пристроях? (Примітка: Ваші наявні бази даних в хмарному сховищі не будуть змінені)";
@@ -4003,10 +4003,10 @@
 "databases_vc_database_location_suffix_database_is_in_official_icloud_strongbox_folder" = "Strongbox iCloud";
 
 /* Watch Unlock */
-"preference_allow_watch_unlock" = "Watch Unlock";
+"preference_allow_watch_unlock" = "Розблокування Watch";
 
 /* Watch Unlock - (Enable in System Preferences > Security & Privacy) */
-"preference_allow_watch_unlock_system_disabled" = "Watch Unlock - (Enable in System Preferences > Security & Privacy)";
+"preference_allow_watch_unlock_system_disabled" = "Розблокування Watch - (Увімкніть в Параметрах системи > Безпека і приватність)";
 
 /* No Cloud Session Found */
 "cloud_sessions_prompt_no_session_found" = "Хмарних сеансів не знайдено";
@@ -4039,76 +4039,109 @@
 "mac_non_file_database_pro_message" = "Цю базу паролів можна розблокувати лише в Strongbox Pro, тому що вона зберігається через SFTP або WebDAV.\n\nБудь ласка, придбайте передплату.";
 
 /* Item Copied to Clipboard */
-"mac_copied_item_to_clipboard" = "Item Copied to Clipboard";
+"mac_copied_item_to_clipboard" = "Запис скопійовано";
 
 /* Items Copied to Clipboard */
-"mac_copied_items_to_clipboard" = "Items Copied to Clipboard";
+"mac_copied_items_to_clipboard" = "Записи скопійовано";
 
 /* Item Pasted from Clipboard */
-"mac_item_pasted_from_clipboard" = "Item Pasted from Clipboard";
+"mac_item_pasted_from_clipboard" = "Запис вставлено";
 
 /* Items Pasted from Clipboard */
-"mac_items_pasted_from_clipboard" = "Items Pasted from Clipboard";
+"mac_items_pasted_from_clipboard" = "Записи вставлено";
 
 /* Item Duplicated */
-"mac_item_duplicated" = "Item Duplicated";
+"mac_item_duplicated" = "Створено дублікат запису";
 
 /* File - Localization Note: This should be very short, 3-4 characters if possible. This indicates a regular file on the file system on a Mac. */
 "storage_provider_name_mac_file_short" = "Файл";
 
 /* Done. ✅ */
-"sync_log_status_done" = "Done. ✅";
+"sync_log_status_done" = "Виконано. ✅";
 
 /* TOTP Copied */
-"autofill_info_totp_copied_title" = "TOTP Copied";
+"autofill_info_totp_copied_title" = "TOTP скопійовано";
 
 /* Your TOTP Code has been copied to the clipboard. */
-"autofill_info_totp_copied_message" = "Your TOTP Code has been copied to the clipboard.";
+"autofill_info_totp_copied_message" = "Код TOTP скопійовано до буфера обміну.";
 
 /* Convenience Auto Unlock */
-"prefs_vc_autofill_convenience_auto_unlock" = "Convenience Auto Unlock";
+"prefs_vc_autofill_convenience_auto_unlock" = "Зручне авто розблокування";
 
 /* Not Configured */
-"generic_preference_not_configured" = "Not Configured";
+"generic_preference_not_configured" = "Не налаштовано";
 
 /* Auto Unlock Feature */
-"autofill_auto_unlock_title" = "Auto Unlock Feature";
+"autofill_auto_unlock_title" = "Автоматичне розблокування";
 
 /* Auto Unlock lets you avoid having to repeatedly unlock your database for a configurable time period. Would you like to use this handy feature?\n\nNB: Your password is stored in the Secure Enclave for this feature. */
-"autofill_auto_unlock_message" = "Auto Unlock lets you avoid having to repeatedly unlock your database for a configurable time period. Would you like to use this handy feature?\n\nNB: Your password is stored in the Secure Enclave for this feature.";
+"autofill_auto_unlock_message" = "Автоматичне розблокування дозволяє вам уникати постійного розблокування вашої бази паролів протягом вказаного періоду. Бажаєте використовувати цю зручну функцію?\n\nПримітка: Для роботи цієї функції ваш пароль зберігається в захищеному середовищі.";
 
 /* Great, let try 3 mins */
-"autofill_auto_unlock_try_3_minutes" = "Great, lets try 3 mins";
+"autofill_auto_unlock_try_3_minutes" = "Чудово! Спробуймо 3 хвилини";
 
 /* I'd prefer 10 mins */
-"autofill_auto_unlock_try_10_minutes" = "I'd prefer 10 mins";
+"autofill_auto_unlock_try_10_minutes" = "Я бажаю 10 хвилин";
 
 /* AutoFill Quick Launch */
-"databases_toggle_autofill_quick_launch_context_menu" = "AutoFill Quick Launch";
+"databases_toggle_autofill_quick_launch_context_menu" = "Швидкий запуск автозаповнення";
 
 /* Title Matches */
-"autofill_search_title_matches_section_header" = "Title Matches";
+"autofill_search_title_matches_section_header" = "Збіги заголовка";
 
 /* URL Matches */
-"autofill_search_url_matches_section_header" = "URL Matches";
+"autofill_search_url_matches_section_header" = "Збіги URL-адреси";
 
 /* Other Matches */
-"autofill_search_other_matches_section_header" = "Other Matches";
+"autofill_search_other_matches_section_header" = "Інші збіги";
 
 /* Service ID */
-"autofill_search_title_service_id_section_header" = "Service ID";
+"autofill_search_title_service_id_section_header" = "ID служби";
 
 /* The Service ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Service ID. */
-"autofill_search_service_id_section_footer" = "The Service ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Service ID. Tap to Copy.";
+"autofill_search_service_id_section_footer" = "ID служби - це ідентифікатор, що надсилається в Strongbox автозаповненням. Він може допомогти виявити, чи ви встановили для URL запису відповідність ID служби. Торкніться, щоб копіювати.";
 
 /* Results */
 "quick_view_title_no_matches_title" = "Результати";
 
 /* Unlock with Touch ID */
-"mac_unlock_database_with_touch_id" = "Unlock with Touch ID";
+"mac_unlock_database_with_touch_id" = "Розблокувати з Touch ID";
 
 /* Unlock with Watch */
-"mac_unlock_database_with_apple_watch" = "Unlock with Watch";
+"mac_unlock_database_with_apple_watch" = "Розблокувати з Watch";
 
 /* Unlock with Touch ID or Watch */
 "mac_unlock_database_with_touch_or_watch" = "Розблокувати з Touch ID чи Watch";
+
+/* Blur */
+"app_privacy_shield_mode_blur" = "Blur";
+
+/* Pixellate */
+"app_privacy_shield_mode_pixellate" = "Pixellate";
+
+/* Blue Screen */
+"app_privacy_shield_mode_blue_screen" = "Blue Screen";
+
+/* Privacy Shield View */
+"prefs_vc_privacy_shield_view" = "Privacy Shield View";
+
+/* Always Open Offline */
+"database_properties_title_always_offline" = "Always Open Offline";
+
+/* You can choose to always open offline whenever you tap on this database. No sync will be performed on unlock, though a background sync can be performed by pulling down on your Databases List. */
+"database_properties_subtitle_always_offline" = "You can choose to always open offline whenever you tap on this database. No sync will be performed on unlock, though a background sync can be performed by pulling down on your Databases List.";
+
+/* Offline Detected Behaviour */
+"database_properties_title_offline_detected_behaviour" = "Offline Detected Behaviour";
+
+/* What to do if Strongbox detects you are Offline when opening a database. */
+"database_properties_subtitle_offline_detected_behaviour" = "What to do if Strongbox detects you are Offline when opening a database.";
+
+/* Prompt */
+"offline_detected_behaviour_ask_immediately" = "Prompt";
+
+/* Try to Connect */
+"offline_detected_behaviour_try_connect_anyway" = "Try to Connect";
+
+/* Open Offline (No Prompt) */
+"offline_detected_behaviour_open_offline" = "Open Offline (No Prompt)";

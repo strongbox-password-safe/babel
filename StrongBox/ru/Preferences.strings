@@ -1,5 +1,5 @@
 /* Class = "UITableViewSection"; footerTitle = "When you perform a backup of this device via Finder or iTunes you can control whether local databases and imported key files are included in that backup here"; ObjectID = "28j-ig-jed"; */
-"28j-ig-jed.footerTitle" = "При создании резервной копии устройства через Finder или iTunes можно указать - включать или не включать в неё локальные базы данных и файл-ключи.";
+"28j-ig-jed.footerTitle" = "При создании резервной копии устройства через Finder или iTunes можно указать - включать или не включать в неё локальные БД и файл-ключи.";
 
 /* Class = "UITableViewSection"; headerTitle = "Backup Settings (Apple Device Backup)"; ObjectID = "28j-ig-jed"; */
 "28j-ig-jed.headerTitle" = "Резервное копирование";
@@ -15,6 +15,9 @@
 
 /* Class = "UINavigationItem"; title = "Cloud Sessions"; ObjectID = "3v9-gX-Y0u"; */
 "3v9-gX-Y0u.title" = "Сессии";
+
+/* Class = "UITableViewSection"; footerTitle = "Privacy Shield View is the view that appears in the App Switcher when Strongbox moves into the background. This helps protect your privacy."; ObjectID = "4Ci-Jw-CSP"; */
+"4Ci-Jw-CSP.footerTitle" = "Вид, отображаемый в переключателе приложений, если приложение находится в фоне.";
 
 /* Class = "UITableViewSection"; headerTitle = "General"; ObjectID = "4Ci-Jw-CSP"; */
 "4Ci-Jw-CSP.headerTitle" = "Общие";
@@ -55,6 +58,9 @@
 /* Class = "UILabel"; text = "Advanced"; ObjectID = "DFg-Z8-4Um"; */
 "DFg-Z8-4Um.text" = "Расширенные";
 
+/* Class = "UILabel"; text = "Privacy Shield View"; ObjectID = "DIn-Ka-FAz"; */
+"DIn-Ka-FAz.text" = "Конфиденциальность";
+
 /* Class = "UILabel"; text = "Change..."; ObjectID = "EWH-9d-dSV"; */
 "EWH-9d-dSV.text" = "Правка";
 
@@ -65,13 +71,16 @@
 "G3D-mW-lFG.text" = "Задержка";
 
 /* Class = "UITableViewSection"; footerTitle = "Strongbox will make a best effort attempt to clear the clipboard after the designated delay (subject to iOS system background process constraints)"; ObjectID = "GCi-AW-D9w"; */
-"GCi-AW-D9w.footerTitle" = "Очистка буфера обмена Strongbox после указанной задержки (с учётом ограничений iOS).";
+"GCi-AW-D9w.footerTitle" = "Очистка буфера обмена приложения после указанной задержки (с учётом ограничений iOS).";
 
 /* Class = "UITableViewSection"; headerTitle = "Auto Clear Clipboard After Delay"; ObjectID = "GCi-AW-D9w"; */
 "GCi-AW-D9w.headerTitle" = "Буфер обмена";
 
 /* Class = "UILabel"; text = "Change..."; ObjectID = "Geq-G0-6G5"; */
 "Geq-G0-6G5.text" = "Правка";
+
+/* Class = "UILabel"; text = "Blur"; ObjectID = "Hat-h6-i27"; */
+"Hat-h6-i27.text" = "Размытие";
 
 /* Class = "UILabel"; text = "Backup Imported Key Files"; ObjectID = "IVW-mU-vYE"; */
 "IVW-mU-vYE.text" = "Импортированные файл-ключи";
@@ -128,7 +137,7 @@
 "WT1-sH-KOf.text" = "Объединение биометрии";
 
 /* Class = "UITableViewSection"; footerTitle = "Require a PIN code and/or Biometric authentication before opening Strongbox. If enabled, this will happen immediately on startup, and subsequently (after an optional delay) on switching away from Strongbox. "; ObjectID = "Xea-R2-BE7"; */
-"Xea-R2-BE7.footerTitle" = "Запрос аутентификации при открытии. Если включено, это произойдет при запуске приложения или после указанной задержки при переключении из Strongbox.";
+"Xea-R2-BE7.footerTitle" = "Запрос аутентификации. Если включено, это произойдет при запуске приложения или после указанной задержки при переключении из него.";
 
 /* Class = "UITableViewSection"; headerTitle = "Application Lock"; ObjectID = "Xea-R2-BE7"; */
 "Xea-R2-BE7.headerTitle" = "Блокировка приложения";
@@ -230,10 +239,10 @@
 "mVt-rZ-QN9.segmentTitles[3]" = "Оба";
 
 /* Class = "UITableViewSection"; footerTitle = "Allow or disallow application wide use of convenience unlocking methods. \n\nIf you are using both Quick Launch and App Lock with biometrics (Face ID or Touch ID) then you can coalesce the biometric authentications. This means you are only requested to authenticate once on App Lock and your Quick Launch database will be unlocked. No need for two immediate authentications."; ObjectID = "o6m-Uq-NQN"; */
-"o6m-Uq-NQN.footerTitle" = "Разрешить или запретить использование методов быстрой разблокировки. \n\nЕсли для быстрого запуска базы данных и блокировки приложения применяется аутентификация с биометрией, то данные биометрии можно объединить. Тогда аутентификацию будет необходима только при разблокировке.";
+"o6m-Uq-NQN.footerTitle" = "Использование методов быстрой разблокировки. \n\nЕсли для быстрого запуска БД и блокировки приложения применяется аутентификация с биометрией, то данные биометрии можно объединить. Аутентификация будет необходима только при разблокировке.";
 
 /* Class = "UITableViewSection"; headerTitle = "Database Convenience Unlocking"; ObjectID = "o6m-Uq-NQN"; */
-"o6m-Uq-NQN.headerTitle" = "Методы быстрой разблокировки";
+"o6m-Uq-NQN.headerTitle" = "Быстрая разблокировка";
 
 /* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "p04-FH-J6b"; */
 "p04-FH-J6b.title" = "Элемент";
@@ -254,7 +263,7 @@
 "rF2-GZ-Oaf.title" = "Настройки для новых записей";
 
 /* Class = "UITableViewSection"; footerTitle = "Control aspects of synchronization with remote storage providers"; ObjectID = "tRu-jp-Afk"; */
-"tRu-jp-Afk.footerTitle" = "Если включено, принудительно загружать удалённую или выгружать локальную базу данных (даже при совпадающих датах изменения).";
+"tRu-jp-Afk.footerTitle" = "Если включено, принудительно загружать удалённую или выгружать локальную БД, даже если даты изменения совпадают.";
 
 /* Class = "UITableViewSection"; headerTitle = "Sync Settings"; ObjectID = "tRu-jp-Afk"; */
 "tRu-jp-Afk.headerTitle" = "Синхронизация";
