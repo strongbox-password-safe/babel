@@ -71,7 +71,7 @@
 "safes_vc_are_you_sure_remove_database_fmt" = "Вы действительно хотите удалить базу данных из Strongbox? %@";
 
 /* extra info appended to string about the underlying storage type */
-"safes_vc_extra_info_underlying_database" = "Примечание: Файл базы данных не будет удалён";
+"safes_vc_extra_info_underlying_database" = " (*) Файл базы данных не будет удалён";
 
 /* Error message - could not delete iCloud database */
 "safes_vc_error_delete_icloud_database" = "Ошибка удаления базы данных iCloud";
@@ -138,13 +138,13 @@
 "safesvc_icloud_no_longer_available_message" = "iCloud недоступен. Ваши базы данных останутся в облаке, но они не будет синхронизироваться с этим устройством.";
 
 /* You can now use iCloud with Strongbox. Should your current local databases be migrated to iCloud and available on all your devices? (NB: Your existing cloud databases will not be affected) */
-"safesvc_migrate_local_existing" = "Теперь можно использовать iCloud. Хотите переместить локальные базы данных в iCloud, чтобы они стали доступными на всех Ваших устройствах? \nПримечание: Имеющиеся БД в облаке не будут затронуты";
+"safesvc_migrate_local_existing" = "Теперь можно использовать iCloud. Хотите переместить локальные базы данных в iCloud, чтобы они стали доступными на всех Ваших устройствах? \n(*) Имеющиеся БД в облаке не будут затронуты";
 
 /* You can now use iCloud with Strongbox. Should your current local databases be migrated to iCloud and available on all your devices? */
 "safesvc_migrate_local_no_existing" = "Теперь можно использовать iCloud. Хотите переместить локальные базы данных в iCloud, чтобы они стали доступными на всех Ваших устройствах?";
 
 /* Would you like the option to use iCloud with Strongbox? (NB: Your existing cloud databases will not be affected) */
-"safesvc_use_icloud_question_existing" = "Хотите использовать iCloud в Strongbox?\nПримечание: Имеющиеся БД в облаке не будут затронуты";
+"safesvc_use_icloud_question_existing" = "Хотите использовать iCloud в приложении?\n(*) Имеющиеся БД в облаке не будут затронуты";
 
 /* You can now use iCloud with Strongbox. Would you like to have your databases available on all your devices? */
 "safesvc_use_icloud_question_no_existing" = "Теперь можно использовать iCloud. Хотите, чтобы базы данных стали доступными на всех Ваших устройствах?";
@@ -717,7 +717,7 @@
 "prefs_vc_info_data_deletion_care_required_title" = "Предупреждение";
 
 /* It looks like email is not setup on this device.\n\nContact support@strongboxsafe.com for help. */
-"prefs_vc_info_email_not_available_message" = "Возможно, электронная почта не настроена на устройстве.\n\nСвяжитесь с support@strongboxsafe.com для помощи.";
+"prefs_vc_info_email_not_available_message" = "Электронная почта не настроена на устройстве.\n\nСвяжитесь с support@strongboxsafe.com для помощи.";
 
 /* Email Not Available */
 "prefs_vc_info_email_not_available_title" = "Email недоступен";
@@ -980,7 +980,7 @@
 "pins_config_vc_label_remove_database" = "Удалить базу данных из Strongbox";
 
 /* NB: Database file will remain on remote storage. */
-"pins_config_vc_label_remove_database_warning" = "Примечание: Файл останется во внешнем хранилище";
+"pins_config_vc_label_remove_database_warning" = "(*) Файл останется во внешнем хранилище";
 
 /* PIN Codes (Pro Feature Only) */
 "pins_config_vc_title_pro_only" = "Код-пароль (Pro версия)";
@@ -1429,7 +1429,7 @@
 "open_sequence_prompt_use_convenience_pin_message" = "Можно использовать код-пароль, чтобы разблокировать базу данных. Несмотря на удобство, этот метод менее безопасный. Выберите ниже, если хотите использовать этот способ или выберите «Нет», чтобы продолжить использование своего пароля.";
 
 /* \n\nNB: Convenience Unlock is a Pro feature */
-"open_sequence_append_convenience_pro_warning" = "\n\n\nПримечание: Быстрая разблокировка - функция Pro версии";
+"open_sequence_append_convenience_pro_warning" = "\n\n\n(*) Быстрая разблокировка - функция Pro версии";
 
 /* Use %@ */
 "open_sequence_prompt_use_convenience_use_bio_fmt" = "Использовать %@";
@@ -2700,7 +2700,7 @@
 /* Touch ID/Apple Watch Unlock is not possible at the moment because Touch ID/Apple Watch is not available. */
 "mac_info_biometric_unlock_not_possible_right_now" = "Разблокировка с помощью Touch ID/Apple Watch на данный момент невозможна, поскольку Touch ID/Apple Watch недоступен.";
 /* Touch ID/Apple Watch Unlock is not possible because the stored credentials are unavailable. This is probably because they have expired. Please enter the password manually. */
-"mac_could_not_find_stored_credentials" = "Разблокировка с помощью Touch ID/Apple Watch на данный момент невозможна, поскольку сохранённый пароль недоступен. Возможно, это связано с тем, что срок его действия истёк. Пожалуйста, введите пароль вручную.";
+"mac_could_not_find_stored_credentials" = "Разблокировка с помощью Touch ID/Apple Watch на данный момент невозможна, поскольку сохранённый пароль недоступен. Возможно, срок его действия истёк. Пожалуйста, введите пароль вручную.";
 
 
 /* Convenience Unlock */
@@ -3363,7 +3363,7 @@
 "open_sequence_storage_provider_try_relocate_files_db" = "Выбор расположения";
 
 /* Strongbox is having trouble locating your database. This can happen sometimes especially after iOS updates or with some 3rd party providers (e.g.Nextcloud).\n\nYou now need to tell Strongbox where to locate it. Alternatively you can open Strongbox's local copy and fix this later.\n\nFor Nextcloud please use WebDAV instead... */
-"open_sequence_storage_provider_try_relocate_files_db_message" = "Возникли проблемы при открытии БД. Такое может происходить после обновления iOS или при работе с некоторыми провайдерами (напр., Nextcloud).\n\nВам необходимо указать расположение, где хранится база данных. Можно также открыть локальную копию и устранить ошибку позже.\n\nПримечание: Для Nextcloud используйте WebDAV";
+"open_sequence_storage_provider_try_relocate_files_db_message" = "Ошибка при открытии БД. Такое может происходить после обновления iOS или при работе с некоторыми провайдерами (напр., Nextcloud).\n\nВам необходимо указать расположение, где хранится база данных. Можно также открыть локальную копию и устранить ошибку позже.\n\n(*) Для Nextcloud используйте WebDAV";
 
 /* View Error Details */
 "open_sequence_storage_provider_view_sync_error_details" = "Сведения об ошибке";
@@ -3549,7 +3549,7 @@
 "mac_no_autofill_enabled_databases_initial_message" = "Нет баз данных с включенной поддержкой автозаполнения";
 
 /* It looks like this is your first time using AutoFill with this database.\n\nFor security reasons you must locate and select your database file for Strongbox so that the AutoFill can access it.\n\nAs a reminder your database file was last located here:\n\n%@\n\nPlease locate it now for Strongbox...  - Translator's note: The parameter is the path of the database like '/Users/mark/Desktop/my-database.kdbx' */
-"mac_autofill_first_time_locate-fmt" = "Возможно, что это первое использование автозаполнения с этой базой данных.\n\nПо соображениям безопасности необходимо выбрать файл БД для корректной работы функции.\n\nПоследнее расположение файла:\n\n%@\n\nПожалуйста, выберите базу данных.";
+"mac_autofill_first_time_locate-fmt" = "Это первое использование автозаполнения с этой базой данных.\n\nПо соображениям безопасности необходимо выбрать файл БД для корректной работы функции.\n\nПоследнее расположение файла:\n\n%@\n\nПожалуйста, выберите базу данных.";
 
 /* Welcome to Strongbox AutoFill */
 "mac_welcome_to_autofill" = "Функция автозаполнения Strongbox";
