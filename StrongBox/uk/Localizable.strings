@@ -2773,10 +2773,10 @@
 "casg_yubikey_configured_slot2" = "Слот 2";
 
 /* YubiKey Unlock is not supported in AutoFill mode */
-"open_sequence_cannot_use_yubikey_in_autofill_mode" = "Розблокування апаратного ключа не підтримується в режимі автозаповнення через обмеження системи. Натомість ви можете налаштувати віртуальний апаратний ключ.";
+"open_sequence_cannot_use_yubikey_in_autofill_mode" = "Відмикання апаратним ключем не підтримується в режимі автозаповнення через обмеження системи. Натомість ви можете налаштувати віртуальний апаратний ключ.";
 
 /* YubiKey Unlock is only available in the Pro edition of Strongbox */
-"open_sequence_yubikey_only_available_in_pro" = "Розблокування YubiKey доступне лише у версії Strongbox Pro";
+"open_sequence_yubikey_only_available_in_pro" = "Відмикання YubiKey доступне лише у версії Strongbox Pro";
 
 /* Disabled (Pro Edition Only) */
 "casg_yubikey_configured_disabled_pro_only" = "Вимкнено (Тільки Pro версія)";
@@ -2865,10 +2865,10 @@
 "upgrade_vc_enjoy_features_by_upgrading_fmt" = "Оцініть переваги %@ та інших можливостей версії Pro!";
 
 /* The main difference between the Free and Pro version of Strongbox is Touch/Face ID Unlock.\n\nThis is a super convenient method to unlock your databases. Without using this you need to enter your secure master password manually everytime, and usually this is a long and complicated password which can be slow and error prone to enter.\n\nOther than that there are a couple of features like PIN Codes and FavIcons which are nice to have.\n\nOne key benefit is that you won't see this upgrade screen again and you will be supporting continued development of Strongbox.\n\nYou can see a summary of the differences by tapping the 'Free vs Pro Comparison Chart' button on the main Upgrade screen. */
-"upgrade_question_answer_free_pro_differences" = "Основною відмінністю безплатної версії Strongbox від Pro є розблокування Touch ID/Face ID.\n\nЦе дуже зручний спосіб розблокування. В іншому випадку, вам необхідно щоразу вводити головний пароль вручну, який зазвичай є довгим і складним, тому його введення може бути повільним і часто з помилками.\n\nІншими корисними функціями є ПІН-коди та Піктограми записів, які покращують зручність.\n\nОднією з ключових переваг є відсутність екрану з пропозицією про покупку версії Pro, а також ви підтримаєте подальшу розробку Strongbox.\n\nВи можете поглянути на підсумок відмінностей, торкнувшись кнопки \"Порівняння безплатної версії з Pro\" на головному екрані Оновлення.";
+"upgrade_question_answer_free_pro_differences" = "Основною відмінністю безплатної версії Strongbox від Pro є відмикання Touch ID/Face ID.\n\nЦе дуже зручний спосіб відмикання. В іншому випадку, вам необхідно щоразу вводити головний пароль вручну, який зазвичай є довгим і складним, тому його введення може бути повільним і часто з помилками.\n\nІншими корисними функціями є ПІН-коди та Піктограми записів, які поліпшують зручність.\n\nОднією з ключових переваг є відсутність екрану з пропозицією про покупку версії Pro, а також ви підтримаєте подальшу розробку Strongbox.\n\nВи можете поглянути на підсумок відмінностей, торкнувшись кнопки \"Порівняння безплатної версії з Pro\" на головному екрані Оновлення.";
 
 /* At the end of your trial you will be automatically transitioned to the Free version and you will no longer be able to use nifty features like Touch/Face ID Unlock.\n\nYou will still be able to access your databases, search them, edit them, and sync them to your cloud.\n\nYou might see an upgrade prompt every now and then too. This is just to encourage you to consider supporting ongoing development. */
-"upgrade_question_answer_end_trial" = "У кінці пробного періоду ви будете автоматично переведені на безплатну версію і ви більше не зможете використовувати корисні функції розблокування Touch ID/Face ID.\n\nВи все ще зможете отримати доступ до своїх баз даних, виконувати пошук, редагувати їх та синхронізувати з хмарним сховищем.\n\nВи також час від часу отримуватимете екран з пропозицією придбання версії Pro. Це лише для того, щоб заохотити вас допомогти в сприянні подальшої розробки програми.";
+"upgrade_question_answer_end_trial" = "У кінці пробного періоду ви будете автоматично переведені на безплатну версію і більше не зможете використовувати зручні функції відмикання Touch ID/Face ID.\n\nВи все ще зможете отримати доступ до своїх баз даних, виконувати пошук, редагувати їх та синхронізувати з хмарним сховищем.\n\nВи також час від часу отримуватимете пропозицію придбання версії Pro. Це лише для того, щоб заохотити вас допомогти в сприянні подальшої розробки програми.";
 
 /* For sure, you can of course use the Free version forever. It's quite functional, but please if you find Strongbox useful or valuable, or if it makes your online life more secure then please consider upgrading. */
 "upgrade_question_answer_free_version_forever" = "Безумовно, ви завжди можете користуватися безплатною версією. Вона цілком функціональна, але все ж, якщо вам подобається Strongbox і приносить користь та робить ваше життя більш безпечним, тоді подумайте про покупку.";
@@ -2931,13 +2931,13 @@
 "browse_add_group_or_entry_question" = "Бажаєте додати запис чи групу?";
 
 /* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be securely stored for %@ before you need to re-enter it. Note for translators (1st Param = "Touch ID", 2nd Param is a time span something like "2 weeks") */
-"mac_use_biometric_to_open_in_future_fmt" = "Бажаєте використовувати %@ чи годинник Apple для розблокування цієї бази паролів у майбутньому? Головний пароль безпечно зберігатиметься протягом %@, доки вам необхідно буде ввести його знову.";
+"mac_use_biometric_to_open_in_future_fmt" = "Бажаєте використовувати %@ чи годинник Apple для відмикання цієї бази паролів у майбутньому? Головний пароль безпечно зберігатиметься протягом %@, доки вам необхідно буде ввести його знову.";
 
 /* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be stored securely. Note for translators (1st Param = "Touch ID") */
-"mac_use_biometric_to_open_in_future_simple_fmt" = "Бажаєте використовувати %@ чи годинник Apple для розблокування цієї бази паролів у майбутньому? Ваш головний пароль зберігатиметься в безпеці.";
+"mac_use_biometric_to_open_in_future_simple_fmt" = "Бажаєте використовувати %@ чи годинник Apple для відмикання цієї бази паролів у майбутньому? Ваш головний пароль зберігатиметься в безпеці.";
 
 /* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be stored securely until you exit Strongbox Note for translators (1st Param = "Touch ID") */
-"mac_use_biometric_to_open_in_future_simple_app_exit_fmt" = "Бажаєте використовувати %@ чи годинник Apple для розблокування цієї бази паролів у майбутньому? Ваш головний пароль зберігатиметься в безпеці, доки ви не вийдете зі Strongbox";
+"mac_use_biometric_to_open_in_future_simple_app_exit_fmt" = "Бажаєте використовувати %@ чи годинник Apple для відмикання цієї бази паролів у майбутньому? Ваш головний пароль зберігатиметься в безпеці, доки ви не вийдете зі Strongbox";
 
 /* Audit: No password set */
 "audit_quick_summary_no_password_set" = "Немає пароля";
@@ -3096,7 +3096,7 @@
 "browse_pro_nudge_title" = "Спробувати Strongbox Pro?";
 
 /* Strongbox Pro is full of handy features like %@ Unlock.\n\nGood news! You have a Free 90-Day Trial available. Would you like to try Strongbox Pro? (Translators Note: 1st parameter is biometric id like 'Touch ID' or 'Face ID') */
-"browse_pro_nudge_message_fmt" = "Strongbox Pro має багато корисних функцій, наприклад, розблокування %@.\n\nГарні новини! У вас є 90 днів безплатного пробного періоду. Бажаєте спробувати Strongbox Pro?";
+"browse_pro_nudge_message_fmt" = "Strongbox Pro має багато корисних функцій, наприклад, відмикання %@.\n\nГарні новини! У вас є 90 днів безплатного пробного періоду. Бажаєте спробувати Strongbox Pro?";
 
 /* Finnish */
 "pwgen_wordlist_finnish" = "Фінська";
@@ -3255,7 +3255,7 @@
 "generic_status_sp_locating_ellipsis" = "Пошук...";
 
 /* %@ Unlock (Translators Note: 1st param is 'Touch ID' or 'Face ID' - Used on the Upgrade, Freemium Onboarding/Welcome screen and the Free vs Pro Chart screen) */
-"generic_biometric_unlock_fmt" = "Розблокування з %@";
+"generic_biometric_unlock_fmt" = "Відмикання з %@";
 
 /* By Default Strongbox now includes all your local documents and databases in Apple backups, however imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok? */
 "backup_settings_prompt_message" = "Strongbox включає в резервні копії Apple усі ваші локальні документи й бази паролів, однак, з міркувань безпеки, імпортовані ключові файли НЕ включаються.\n\nЦе вас влаштовує?";
@@ -3417,7 +3417,7 @@
 "casg_yubikey_configured_virtual" = "Віртуальний апаратний ключ";
 
 /* Manual Unlock - Translators Note: This is an option available to users of Face/Touch ID or PIN Code Unlock - Instead of using these convenience unlock methods, display the manual entry standard unlock screen to enter Master Password manually */
-"safes_vc_unlock_manual_action" = "Ручне розблокування";
+"safes_vc_unlock_manual_action" = "Відімкнути вручну";
 
 /* TIP: Tap and hold item to see options - Translators Note: Hint or Tip text usually displayed at the top of the screen, to indicate the user can or should tap and hold down to see a useful context menu with options they can perform on the items they are currently working with. */
 "hint_tap_and_hold_to_see_options" = "Порада: Торкніться й утримуйте для перегляду параметрів";
@@ -3903,7 +3903,7 @@
 "browse_vc_pulldown_refresh_no_changes_title" = "База даних оновлена - Немає змін";
 
 /* %ld Failed Unlock Attempts - Translators note, first parameter is an integer, e.g 3 Failed Unlock Attempts */
-"privacy_vc_label_number_of_failed_unlock_attempts_fmt" = "%@ невдалих спроб розблокування";
+"privacy_vc_label_number_of_failed_unlock_attempts_fmt" = "%@ невдалих спроб відмикання";
 
 /* Modified %@ - Translators Note: first parameter is a friendly date string. e.g. "Modified Today at 3:28PM" */
 "backups_backup_modified_title_fmt" = "Змінено %@";
@@ -4003,10 +4003,10 @@
 "databases_vc_database_location_suffix_database_is_in_official_icloud_strongbox_folder" = "Strongbox iCloud";
 
 /* Watch Unlock */
-"preference_allow_watch_unlock" = "Розблокування Watch";
+"preference_allow_watch_unlock" = "Відмикання Watch";
 
 /* Watch Unlock - (Enable in System Preferences > Security & Privacy) */
-"preference_allow_watch_unlock_system_disabled" = "Розблокування Watch - (Увімкніть в Параметрах системи > Безпека і приватність)";
+"preference_allow_watch_unlock_system_disabled" = "Відмикання Watch - (Увімкніть в Параметрах системи > Безпека і приватність)";
 
 /* No Cloud Session Found */
 "cloud_sessions_prompt_no_session_found" = "Хмарних сеансів не знайдено";
@@ -4036,7 +4036,7 @@
 "mac_add_webdav_pro_only" = "Додати базу даних WebDAV... (Pro)";
 
 /* This database can only be unlocked by Strongbox Pro because it is stored via SFTP or WebDAV.\n\nPlease Upgrade. */
-"mac_non_file_database_pro_message" = "Цю базу паролів можна розблокувати лише в Strongbox Pro, тому що вона зберігається через SFTP або WebDAV.\n\nБудь ласка, придбайте передплату.";
+"mac_non_file_database_pro_message" = "Цю базу паролів можна відімкнути лише в Strongbox Pro, тому що вона зберігається через SFTP або WebDAV.\n\nБудь ласка, придбайте передплату.";
 
 /* Item Copied to Clipboard */
 "mac_copied_item_to_clipboard" = "Запис скопійовано";
