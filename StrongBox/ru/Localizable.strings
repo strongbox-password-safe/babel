@@ -80,7 +80,7 @@
 "safes_vc_found_icloud_database" = "Найдена база данных iCloud";
 
 /* question message, use iCloud database or select a different one */
-"safes_vc_use_icloud_or_continue" = "Вероятно, у Вас уже есть база данных iCloud. Хотите использовать эту БД или продолжить с добавлением другой?";
+"safes_vc_use_icloud_or_continue" = "У Вас уже есть база данных iCloud. Хотите использовать эту БД или продолжить с добавлением другой?";
 
 /* One of the options in response to prompt - Use this iCloud database */
 "safes_vc_use_this_icloud_database" = "Использовать эту базу данных iCloud";
@@ -1263,7 +1263,7 @@
 "sftp_vc_warn_invalid_key_title" = "Недопустимый ключ";
 
 /* This does not look like a valid private key */
-"sftp_vc_warn_invalid_key_message" = "Это не похоже на действительный закрытый ключ";
+"sftp_vc_warn_invalid_key_message" = "Файл не является действительным закрытым ключом.";
 
 /* Custom Field Name */
 "custom_field_vc_accessibility_label_name" = "Название настраиваемого поля";
@@ -3549,7 +3549,7 @@
 "mac_no_autofill_enabled_databases_initial_message" = "Нет баз данных с включенной поддержкой автозаполнения";
 
 /* It looks like this is your first time using AutoFill with this database.\n\nFor security reasons you must locate and select your database file for Strongbox so that the AutoFill can access it.\n\nAs a reminder your database file was last located here:\n\n%@\n\nPlease locate it now for Strongbox...  - Translator's note: The parameter is the path of the database like '/Users/mark/Desktop/my-database.kdbx' */
-"mac_autofill_first_time_locate-fmt" = "Возможно, что это первое использование автозаполнения с этой базой данных.\n\nПо соображениям безопасности необходимо выбрать файл базы данных, чтобы функционал мог получить к нему доступ.\n\nПоследнее расположение файла БД:\n\n%@\n\nПожалуйста, выберите базу данных.";
+"mac_autofill_first_time_locate-fmt" = "Возможно, что это первое использование автозаполнения с этой базой данных.\n\nПо соображениям безопасности необходимо выбрать файл БД для корректной работы функции.\n\nПоследнее расположение файла:\n\n%@\n\nПожалуйста, выберите базу данных.";
 
 /* Welcome to Strongbox AutoFill */
 "mac_welcome_to_autofill" = "Функция автозаполнения Strongbox";
@@ -3918,10 +3918,10 @@
 "compare_merge_sync_possibly_required_message" = "Сихронизация, по крайней мере, одной из этих баз данных давно не выполнялась. Перейдите к экрану списка баз данных и смахните вниз.";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to open in offline mode instead? - Translators Note: 1st Parameter is the storage provider name like Google Drive or Dropbox */
-"open_sequence_user_looks_offline_open_local_fmt" = "Возможно, нет подключения к сети и хранилище %@ недоступно. Хотите  открыть базу данных офлайн?";
+"open_sequence_user_looks_offline_open_local_fmt" = "Отсутствует подключения к сети и хранилище %@ недоступно. Хотите открыть БД офлайн?";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use Strongbox's local copy in read-only mode instead? - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc */
-"open_sequence_user_looks_offline_open_local_ro_fmt" = "Возможно, нет подключения к сети и хранилище %@ недоступно. Хотите  открыть базу данных офлайн?\n\nПримечание: Режим - только чтение. Офлайн редактирование доступно в Pro версии.";
+"open_sequence_user_looks_offline_open_local_ro_fmt" = "Отсутствует подключения к сети и хранилище %@ недоступно. Хотите  открыть БД офлайн?\n\n(*) Режим - только чтение. Офлайн редактирование доступно в Pro версии.";
 
 /* Open Offline? */
 "open_sequence_yesno_use_local_copy_title" = "Открыть офлайн?";
