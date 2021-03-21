@@ -498,13 +498,13 @@
 "casg_text_label_key_selected_key_file" = "Обраний ключовий файл";
 
 /* Unlock */
-"casg_unlock_action" = "Розблокувати";
+"casg_unlock_action" = "Відімкнути";
 
 /* %@ Unlock */
-"db_management_biometric_unlock_fmt" = "Розблокування з %@";
+"db_management_biometric_unlock_fmt" = "Відмикання з %@";
 
 /* %@ Unlock (Pro Only) */
-"db_management_biometric_unlock_fmt_pro_only" = "Розблокування %@ (Тільки Pro)";
+"db_management_biometric_unlock_fmt_pro_only" = "Відмикання %@ (Тільки Pro)";
 
 /* Change Master Credentials */
 "db_management_change_master_credentials" = "Змінити основні облікові дані";
@@ -675,7 +675,7 @@
 "prefs_vc_auto_lock_database_delay" = "Затримка автоблокування бази паролів";
 
 /* This will clear all securely stored master passwords (for all databases) used by biometric unlock. Are you sure? */
-"prefs_vc_clear_biometrics_yesno_message" = "Буде видалено всі надійно збережені головні паролі (для всіх баз даних), що використовуються біометричним розблокуванням. Ви впевнені?";
+"prefs_vc_clear_biometrics_yesno_message" = "Буде видалено всі надійно збережені головні паролі (для всіх баз даних), що використовуються біометричним відмиканням. Ви впевнені?";
 
 /* Clear Biometrics */
 "prefs_vc_clear_biometrics_yesno_title" = "Стерти біометричні дані";
@@ -684,7 +684,7 @@
 "prefs_vc_clear_clipboard_delay" = "Затримка очищення буфера обміну";
 
 /* This will clear all securely stored master passwords (for all databases) used for PIN Code unlock. Are you sure? */
-"prefs_vc_clear_pin_codes_yesno_message" = "Буде видалено всі надійно збережені головні паролі (для всіх баз даних), що використовуються для розблокування ПІН-кодом. Ви впевнені?";
+"prefs_vc_clear_pin_codes_yesno_message" = "Буде видалено всі надійно збережені головні паролі (для всіх баз даних), що використовуються для відмикання ПІН-кодом. Ви впевнені?";
 
 /* Clear PIN Codes */
 "prefs_vc_clear_pin_codes_yesno_title" = "Стерти ПІН-коди";
@@ -1347,7 +1347,7 @@
 "open_sequence_prompt_too_many_incorrect_pins_title" = "Надто багато неправильних спроб";
 
 /* You have entered the wrong PIN too many times. PIN Unlock is now disabled, and you must enter the master password to unlock this database. */
-"open_sequence_prompt_too_many_incorrect_pins_message" = "Ви ввели неправильний ПІН надто багато разів. Розблокування з ПІН вимкнено і вам необхідно ввести головний пароль для доступу до бази паролів.";
+"open_sequence_prompt_too_many_incorrect_pins_message" = "Ви ввели неправильний ПІН надто багато разів. Відмикання з ПІН вимкнено і вам необхідно ввести головний пароль для доступу до бази паролів.";
 
 /* There was a technical error opening the database. */
 "open_sequence_duress_technical_error_message" = "При відкритті бази паролів сталася технічна помилка.";
@@ -1356,10 +1356,10 @@
 "open_sequence_duress_technical_error_title" = "Технічна проблема";
 
 /* Identify to Unlock Database */
-"open_sequence_biometric_unlock_prompt_title" = "Ідентифікуйтесь для розблокування бази паролів";
+"open_sequence_biometric_unlock_prompt_title" = "Ідентифікуйтесь, щоб відімкнути базу паролів";
 
 /* Unlock Manually... */
-"open_sequence_biometric_unlock_fallback" = "Розблокувати вручну...";
+"open_sequence_biometric_unlock_fallback" = "Відімкнути вручну...";
 
 /* %@ Failed */
 "open_sequence_biometric_unlock_warn_failed_title_fmt" = "Помилка %@";
@@ -1396,7 +1396,7 @@
 "key_files_vc_no_key_file" = "Немає ключового файлу";
 
 /* The Convenience Password or Key File were incorrect for this database. Convenience Unlock Disabled. */
-"open_sequence_problem_opening_convenience_incorrect_message" = "Збережений пароль чи інші складові композитного ключа (ключовий файл/YubiKey) неправильні для цієї бази паролів. Зручне розблокування було вимкнено.";
+"open_sequence_problem_opening_convenience_incorrect_message" = "Збережений пароль чи інші складові композитного ключа (ключовий файл/YubiKey) неправильні для цієї бази паролів. Зручне відмикання було вимкнено.";
 
 /* Incorrect Credentials */
 "open_sequence_problem_opening_incorrect_credentials_title" = "Неправильні облікові дані";
@@ -1408,13 +1408,13 @@
 "open_sequence_yesno_set_quick_launch_title" = "Налаштувати швидкий запуск?";
 
 /* Would you like to use this as your Quick Launch database? Quick Launch means you will get prompted immediately to unlock when you open Strongbox, saving you a precious tap. */
-"open_sequence_yesno_set_quick_launch_message" = "Бажаєте використовувати цю базу паролів для швидкого запуску? Це означає, що ви отримуватимете запит її розблокування одразу при відкритті Strongbox, зменшивши кількість дій.";
+"open_sequence_yesno_set_quick_launch_message" = "Бажаєте використовувати цю базу паролів для швидкого запуску? Це означає, що ви отримуватимете запит її відімкнення одразу при відкритті Strongbox, зменшивши кількість дій.";
 
 /* Convenience Unlock: Use %@ or PIN Code in Future? */
 "open_sequence_prompt_use_convenience_both_title_fmt" = "Зручне розблокування: %@ чи ПІН";
 
 /* You can use either %@ or a convenience PIN Code to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use one of these methods, please select from below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
-"open_sequence_prompt_use_convenience_both_message_fmt" = "Ви можете використовувати %@ або ПІН для розблокування бази паролів. Незважаючи на зручність, це може знизити рівень захисту бази паролів на цьому пристрої. Якщо ви бажаєте використовувати один з цих способів, оберіть внизу, або оберіть НІ, щоб продовжити використовувати головний пароль.\n\n*Важливо: Ви повинні ЗАВЖДИ пам'ятати свій головний пароль";
+"open_sequence_prompt_use_convenience_both_message_fmt" = "Ви можете використовувати %@ або ПІН для відімкнення бази паролів. Незважаючи на зручність, це може знизити рівень захисту бази паролів на цьому пристрої. Якщо ви бажаєте використовувати один з цих способів, оберіть внизу, або оберіть НІ, щоб продовжити використовувати головний пароль.\n\n*Важливо: Ви повинні ЗАВЖДИ пам'ятати свій головний пароль";
 
 /* Convenience Unlock: Use %@ to Unlock in Future? */
 "open_sequence_prompt_use_convenience_bio_title_fmt" = "Зручне розблокування: Використовувати %@ в майбутньому?";
@@ -2758,7 +2758,7 @@
 "mac_unlock_screen_button_title_convenience_unlock_bio_unavailable" = "Touch ID/Watch Недоступно";
 
 /* Touch ID/Watch Unlock (Pro Only) */
-"mac_unlock_screen_button_title_convenience_unlock_pro_only" = "Розблокування з Touch ID/Watch Unlock (Функція Pro)";
+"mac_unlock_screen_button_title_convenience_unlock_pro_only" = "Відмикання з Touch ID/Watch Unlock (Функція Pro)";
 
 /* Configure... */
 "casg_yubikey_configure_action" = "Налаштувати...";
