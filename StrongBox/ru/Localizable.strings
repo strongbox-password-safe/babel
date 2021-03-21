@@ -65,7 +65,7 @@
 "safes_vc_local_storage_mode_changed" = "Отображение изменено";
 
 /* warning message about removing database from icloud */
-"safes_vc_remove_icloud_databases_warning" = "Удаление БД со всех Ваших устройств с поддержкой iCloud.\n\nВы действительно хотите удалить базу данных из Strongbox и iCloud?";
+"safes_vc_remove_icloud_databases_warning" = "Удаление БД со всех Ваших устройств с поддержкой iCloud.\n\nВы действительно хотите удалить базу данных из приложения и iCloud?";
 
 /* are you sure you want to remove database prompt with format string on end */
 "safes_vc_are_you_sure_remove_database_fmt" = "Вы действительно хотите удалить базу данных из Strongbox? %@";
@@ -3363,7 +3363,7 @@
 "open_sequence_storage_provider_try_relocate_files_db" = "Выбор расположения";
 
 /* Strongbox is having trouble locating your database. This can happen sometimes especially after iOS updates or with some 3rd party providers (e.g.Nextcloud).\n\nYou now need to tell Strongbox where to locate it. Alternatively you can open Strongbox's local copy and fix this later.\n\nFor Nextcloud please use WebDAV instead... */
-"open_sequence_storage_provider_try_relocate_files_db_message" = "Ошибка при открытии БД. Такое может происходить после обновления iOS или при работе с некоторыми провайдерами (напр., Nextcloud).\n\nВам необходимо указать расположение, где хранится база данных. Можно также открыть локальную копию и устранить ошибку позже.\n\n(*) Для Nextcloud используйте WebDAV";
+"open_sequence_storage_provider_try_relocate_files_db_message" = "Ошибка при открытии БД. Такое возможно после обновления iOS или при работе с некоторыми провайдерами (напр., Nextcloud).\n\nВам необходимо указать расположение, где хранится база данных. Можно также открыть локальную копию и устранить ошибку позже.\n\n(*) Для Nextcloud используйте WebDAV";
 
 /* View Error Details */
 "open_sequence_storage_provider_view_sync_error_details" = "Сведения об ошибке";
@@ -3537,10 +3537,10 @@
 "pwgen_casing_latin1_supplement" = "Дополнение к Latin-1";
 
 /* Are you sure you want to remove this database from Strongbox?\n\nNB: The underlying database file will not be deleted. Just Strongbox's settings for this database. */
-"are_you_sure_delete_database_single" = "Вы действительно хотите удалить базу данных из Strongbox?\n\nПримечание: Будут удалены настройки для этой БД в приложении. Сам файл не будет удалён.";
+"are_you_sure_delete_database_single" = "Вы действительно хотите удалить базу данных из приложения?\n\n(*) Будут удалены настройки для этой БД. Файл не будет удалён.";
 
 /* Are you sure you want to remove these databases from Strongbox?\n\nNB: The underlying database files will not be deleted. Just Strongbox's settings for these databases. */
-"are_you_sure_delete_database_multiple" = "Вы действительно хотите удалить базы данных из Strongbox?\n\nПримечание: Будут удалены настройки для БД в приложении. Сами файлы не будут удалены.";
+"are_you_sure_delete_database_multiple" = "Вы действительно хотите удалить базы данных из приложения?\n\n(*) Будут удалены настройки для этих БД. Файлы не будут удалены.";
 
 /* No Databases Here Yet.\n\nClick 'Add Database...' below to get started... */
 "mac_no_databases_initial_message" = "Нет баз данных.\n\nНажмите кнопку ниже, чтобы начать работу";
