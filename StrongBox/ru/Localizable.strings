@@ -65,13 +65,13 @@
 "safes_vc_local_storage_mode_changed" = "Отображение изменено";
 
 /* warning message about removing database from icloud */
-"safes_vc_remove_icloud_databases_warning" = "Удаление БД со всех Ваших устройств с поддержкой iCloud.\n\nВы действительно хотите удалить базу данных из Strongbox и iCloud?";
+"safes_vc_remove_icloud_databases_warning" = "Удаление БД со всех Ваших устройств с поддержкой iCloud.\n\nВы действительно хотите удалить базу данных из приложения и iCloud?";
 
 /* are you sure you want to remove database prompt with format string on end */
-"safes_vc_are_you_sure_remove_database_fmt" = "Вы действительно хотите удалить базу данных из Strongbox? %@";
+"safes_vc_are_you_sure_remove_database_fmt" = "Вы действительно хотите удалить базу данных из приложения? %@";
 
 /* extra info appended to string about the underlying storage type */
-"safes_vc_extra_info_underlying_database" = "Примечание: Файл базы данных не будет удалён";
+"safes_vc_extra_info_underlying_database" = " (*) Файл базы данных не будет удалён";
 
 /* Error message - could not delete iCloud database */
 "safes_vc_error_delete_icloud_database" = "Ошибка удаления базы данных iCloud";
@@ -80,7 +80,7 @@
 "safes_vc_found_icloud_database" = "Найдена база данных iCloud";
 
 /* question message, use iCloud database or select a different one */
-"safes_vc_use_icloud_or_continue" = "Вероятно, у Вас уже есть база данных iCloud. Хотите использовать эту БД или продолжить с добавлением другой?";
+"safes_vc_use_icloud_or_continue" = "У Вас уже есть база данных iCloud. Хотите использовать эту БД или продолжить с добавлением другой?";
 
 /* One of the options in response to prompt - Use this iCloud database */
 "safes_vc_use_this_icloud_database" = "Использовать эту базу данных iCloud";
@@ -138,13 +138,13 @@
 "safesvc_icloud_no_longer_available_message" = "iCloud недоступен. Ваши базы данных останутся в облаке, но они не будет синхронизироваться с этим устройством.";
 
 /* You can now use iCloud with Strongbox. Should your current local databases be migrated to iCloud and available on all your devices? (NB: Your existing cloud databases will not be affected) */
-"safesvc_migrate_local_existing" = "Теперь можно использовать iCloud. Хотите переместить локальные базы данных в iCloud, чтобы они стали доступными на всех Ваших устройствах? \nПримечание: Имеющиеся БД в облаке не будут затронуты";
+"safesvc_migrate_local_existing" = "Теперь можно использовать iCloud. Хотите переместить локальные базы данных в iCloud, чтобы они стали доступными на всех Ваших устройствах? \n(*) Имеющиеся БД в облаке не будут затронуты";
 
 /* You can now use iCloud with Strongbox. Should your current local databases be migrated to iCloud and available on all your devices? */
 "safesvc_migrate_local_no_existing" = "Теперь можно использовать iCloud. Хотите переместить локальные базы данных в iCloud, чтобы они стали доступными на всех Ваших устройствах?";
 
 /* Would you like the option to use iCloud with Strongbox? (NB: Your existing cloud databases will not be affected) */
-"safesvc_use_icloud_question_existing" = "Хотите использовать iCloud в Strongbox?\nПримечание: Имеющиеся БД в облаке не будут затронуты";
+"safesvc_use_icloud_question_existing" = "Хотите использовать iCloud в приложении?\n(*) Имеющиеся БД в облаке не будут затронуты";
 
 /* You can now use iCloud with Strongbox. Would you like to have your databases available on all your devices? */
 "safesvc_use_icloud_question_no_existing" = "Теперь можно использовать iCloud. Хотите, чтобы базы данных стали доступными на всех Ваших устройствах?";
@@ -717,7 +717,7 @@
 "prefs_vc_info_data_deletion_care_required_title" = "Предупреждение";
 
 /* It looks like email is not setup on this device.\n\nContact support@strongboxsafe.com for help. */
-"prefs_vc_info_email_not_available_message" = "Возможно, электронная почта не настроена на устройстве.\n\nСвяжитесь с support@strongboxsafe.com для помощи.";
+"prefs_vc_info_email_not_available_message" = "Электронная почта не настроена на устройстве.\n\nСвяжитесь с support@strongboxsafe.com для помощи.";
 
 /* Email Not Available */
 "prefs_vc_info_email_not_available_title" = "Email недоступен";
@@ -932,7 +932,7 @@
 "export_vc_email_unavailable_title" = "Электронная почта недоступна";
 
 /* It looks like email is not setup on this device and so the database cannot be exported by email. */
-"export_vc_email_unavailable_message" = "Возможно, электронная почта не настроена на устройстве. База данных не может быть экспортирована данным способом.";
+"export_vc_email_unavailable_message" = "Электронная почта не настроена на устройстве. База данных не может быть экспортирована данным способом.";
 
 /* Strongbox Database: '%@' */
 "export_vc_email_subject" = "База данных Strongbox: «%@»";
@@ -980,7 +980,7 @@
 "pins_config_vc_label_remove_database" = "Удалить базу данных из Strongbox";
 
 /* NB: Database file will remain on remote storage. */
-"pins_config_vc_label_remove_database_warning" = "Примечание: Файл останется во внешнем хранилище";
+"pins_config_vc_label_remove_database_warning" = "(*) Файл останется во внешнем хранилище";
 
 /* PIN Codes (Pro Feature Only) */
 "pins_config_vc_title_pro_only" = "Код-пароль (Pro версия)";
@@ -1263,7 +1263,7 @@
 "sftp_vc_warn_invalid_key_title" = "Недопустимый ключ";
 
 /* This does not look like a valid private key */
-"sftp_vc_warn_invalid_key_message" = "Это не похоже на действительный закрытый ключ";
+"sftp_vc_warn_invalid_key_message" = "Файл не является действительным закрытым ключом.";
 
 /* Custom Field Name */
 "custom_field_vc_accessibility_label_name" = "Название настраиваемого поля";
@@ -1374,10 +1374,10 @@
 "open_sequence_error_reading_key_file" = "Не удалось открыть файл-ключ. Перейдите в Управление файл-ключами и проверьте настройки.";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc, 2nd param is the date/time of the last cache) */
-"open_sequence_user_looks_offline_open_offline_instead_fmt" = "Возможно, нет подключения к сети и хранилище %@ недоступно. Хотите использовать доступный только для чтения кэш БД?\n\nДата кэша: %@";
+"open_sequence_user_looks_offline_open_offline_instead_fmt" = "Отсутствует подключения к сети и хранилище %@ недоступно. Хотите использовать доступный только для чтения кэш БД?\n\nДата кэша: %@";
 
 /* No, Try to connect anyway */
-"open_sequence_yesno_use_offline_cache_no_try_connect_option" = "Подключение";
+"open_sequence_yesno_use_offline_cache_no_try_connect_option" = "Попробовать подключиться";
 
 /* There was a problem reading the database on %@. would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ */
 "open_sequence_storage_unreachable_open_offline_instead_fmt" = "Ошибка при чтении данных с сервера %@. Если ошибка повторяется, попробуйте удалить и заново добавить базу данных. Хотите использовать доступный только для чтения кэш БД?\n\nДата кэша: %@";
@@ -1420,16 +1420,16 @@
 "open_sequence_prompt_use_convenience_bio_title_fmt" = "Быстрая разблокировка";
 
 /* You can use %@ to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use this then please select it below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
-"open_sequence_prompt_use_convenience_bio_message_fmt" = "Можно использовать %@, чтобы разблокировать базу данных. Несмотря на удобство, безопасность БД на устройстве может снизиться. Выберите ниже, если хотите использовать этот способ или выберите «Нет», чтобы продолжить использование своего пароля.";
+"open_sequence_prompt_use_convenience_bio_message_fmt" = "Можно использовать %@ для разблокировки базы данных. Несмотря на удобство, безопасность БД на устройстве может снизиться. Выберите ниже, если хотите применять этот способ или выберите «Нет», чтобы продолжить использование своего пароля.";
 
 /* Convenience Unlock: Use a PIN Code to Unlock in Future? */
 "open_sequence_prompt_use_convenience_pin_title" = "Быстрая разблокировка";
 
 /* You can use a convenience PIN Code to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use this then please select it below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
-"open_sequence_prompt_use_convenience_pin_message" = "Можно использовать код-пароль, чтобы разблокировать базу данных. Несмотря на удобство, этот метод менее безопасный. Выберите ниже, если хотите использовать этот способ или выберите «Нет», чтобы продолжить использование своего пароля.";
+"open_sequence_prompt_use_convenience_pin_message" = "Можно использовать код-пароль для разблокировки базы данных. Несмотря на удобство, этот метод менее безопасный. Выберите ниже, если хотите применять этот способ или выберите «Нет», чтобы продолжить использование своего пароля.";
 
 /* \n\nNB: Convenience Unlock is a Pro feature */
-"open_sequence_append_convenience_pro_warning" = "\n\n\nПримечание: Быстрая разблокировка - функция Pro версии";
+"open_sequence_append_convenience_pro_warning" = "\n\n\n(*) Быстрая разблокировка - функция Pro версии";
 
 /* Use %@ */
 "open_sequence_prompt_use_convenience_use_bio_fmt" = "Использовать %@";
@@ -1579,10 +1579,10 @@
 "pick_creds_vc_cannot_create_new_unsupported_storage_type_title" = "Неподдерживаемое хранилище";
 
 /* This database is stored on a Storage Provider that does not support Live editing in App Extensions. Cannot Create New Entry. */
-"pick_creds_vc_cannot_create_new_unsupported_storage_type_message" = "БД находится в хранилище поставщика, который не поддерживает редактирование в расширении приложений в реальном времени. Невозможно создать новую запись.";
+"pick_creds_vc_cannot_create_new_unsupported_storage_type_message" = "БД находится в хранилище поставщика, который не поддерживает редактирование в расширении приложений. Невозможно создать новую запись.";
 
 /* Create New Entry... */
-"pick_creds_vc_create_new_button_title" = "Новая запись";
+"pick_creds_vc_create_new_button_title" = "Добавить запись";
 
 /* No Matching Entries */
 "pick_creds_vc_empty_search_dataset_title" = "Нет подходящих записей";
@@ -2144,10 +2144,10 @@
 /**********************************************************************************************************************/
 /* Download FavIcon */
 
-"set_icon_vc_icon_source_download_favicons" = "Загрузить значки группы";
+"set_icon_vc_icon_source_download_favicons" = "Загрузка значков группы";
 
 /* Download FavIcon (Pro Only) */
-"set_icon_vc_icon_source_download_favicons_pro_only" = "Загрузить значки группы (Pro версия)";
+"set_icon_vc_icon_source_download_favicons_pro_only" = "Загрузка значков группы (Pro версия)";
 
 /* Set Icon(s) */
 "browse_vc_action_set_icons" = "Изменить значок";
@@ -2700,7 +2700,7 @@
 /* Touch ID/Apple Watch Unlock is not possible at the moment because Touch ID/Apple Watch is not available. */
 "mac_info_biometric_unlock_not_possible_right_now" = "Разблокировка с помощью Touch ID/Apple Watch на данный момент невозможна, поскольку Touch ID/Apple Watch недоступен.";
 /* Touch ID/Apple Watch Unlock is not possible because the stored credentials are unavailable. This is probably because they have expired. Please enter the password manually. */
-"mac_could_not_find_stored_credentials" = "Разблокировка с помощью Touch ID/Apple Watch на данный момент невозможна, поскольку сохранённый пароль недоступен. Возможно, это связано с тем, что срок его действия истёк. Пожалуйста, введите пароль вручную.";
+"mac_could_not_find_stored_credentials" = "Разблокировка с помощью Touch ID/Apple Watch на данный момент невозможна, поскольку сохранённый пароль недоступен. Возможно, срок его действия истёк. Пожалуйста, введите пароль вручную.";
 
 
 /* Convenience Unlock */
@@ -2877,7 +2877,7 @@
 "upgrade_question_answer_another_question" = "Если у Вас есть вопросы, то можно воспользоваться онлайн поиском, публикациями Reddit (r/strongbox) или материалами сайта Strongbox (https://strongboxsafe.com/support)\n\nПожалуйста, помните, что поддержка отнимает много времени, поэтому постарайтесь сделать Ваш запрос кратким и только на английском языке. Включите отладочную информацию и скриншоты.";
 
 /* Yes, the upgrade is linked to your Apple ID. So if you are signed in to that Apple ID account on your other iOS devices Strongbox will be available in the full Pro version.\n\nThis should happen automatically but you may need to tap the 'Restore Previous Purchase' button if it doesn't. */
-"upgrade_question_answer_works_on_other_devices" = "Да, улучшение привязано к Вашему Apple ID. Таким образом, если Вы вошли в учётную запись Apple ID на других Ваших iOS устройствах, Strongbox будет доступен в Pro версии.\n\nЭто должно произойти автоматически, но Вам может потребоваться нажать кнопку «Восстановить предыдущие покупки», если этого не произойдёт.";
+"upgrade_question_answer_works_on_other_devices" = "Да, улучшение привязано к Apple ID. Если Вы вошли в учётную запись Apple ID на других своих iOS устройствах, приложение будет доступно в Pro версии.\n\nЭто должно произойти автоматически, но Вам может потребоваться нажать кнопку «Восстановить предыдущие покупки», если этого не произойдёт.";
 
 /* Yes, Strongbox works with Apple's Family Sharing program. */
 "upgrade_question_answer_share_family" = "Да, Strongbox работает с программой Семейного доступа Apple.";
@@ -2898,7 +2898,7 @@
 "browse_vc_duplicate_prompt_message" = "Вы хотите создать копию этой записи?";
 
 /* It looks like your database is encrypted by Microsoft InTune probably due to corporate policy. */
-"error_database_is_encrypted_ms_intune" = "Возможно, база данных зашифрована Microsoft InTune вследствие корпоративной политики.";
+"error_database_is_encrypted_ms_intune" = "База данных зашифрована Microsoft InTune вследствие корпоративной политики.";
 
 /* Add Entry... */
 "browse_add_entry_button_title" = "Добавить запись";
@@ -2937,7 +2937,7 @@
 "mac_use_biometric_to_open_in_future_simple_fmt" = "Хотите использовать %@ или Apple Watch для разблокировки базы данных в будущем? Пароль будет сохранён в защищённом виде.";
 
 /* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be stored securely until you exit Strongbox Note for translators (1st Param = "Touch ID") */
-"mac_use_biometric_to_open_in_future_simple_app_exit_fmt" = "Хотите использовать %@ или Apple Watch для разблокировки базы данных в будущем? Пароль будет надёжно сохранён, пока Вы не выйдете из Strongbox.";
+"mac_use_biometric_to_open_in_future_simple_app_exit_fmt" = "Хотите использовать %@ или Apple Watch для разблокировки базы данных в будущем? Пароль будет надёжно сохранён, пока Вы не выйдете из приложения.";
 
 /* Audit: No password set */
 "audit_quick_summary_no_password_set" = "Запись без пароля";
@@ -3171,7 +3171,7 @@
 "audit_drill_down_audit_this_item_preference_title" = "Проверка записи";
 
 /* Check if this password is Pwned (HIBP) */
-"audit_drill_down_action_check_hibp" = "Проверка пароля HIBP";
+"audit_drill_down_action_check_hibp" = "Проверка «Have I Been Pwned?»";
 
 /* This item is excluded from Audits */
 "audit_status_item_is_exluded" = "Запись исключена из проверки";
@@ -3243,7 +3243,7 @@
 "autofill_error_unknown_db_title" = "Неизвестная база данных";
 
 /* This appears to be a reference to an older Strongbox database which can no longer be found. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill. */
-"autofill_error_unknown_db_message" = "Возможно, это устаревшая ссылка на базу данных, которой больше не существует. Список автозаполнения очищен, поэтому необходимо повторно открыть базу данных для его обновления.";
+"autofill_error_unknown_db_message" = "Это устаревшая ссылка на БД, которой больше не существует. Список автозаполнения очищен, поэтому необходимо повторно открыть базу данных для его обновления.";
 
 /* Strongbox: Error Locating Entry */
 "autofill_error_unknown_item_title" = "Ошибка при поиске записи";
@@ -3303,7 +3303,7 @@
 "sync_conflict_title" = "Конфликт синхронизации";
 
 /* It looks like the remote version of this database on '%@' has changed and so has the local version you've been working on. Which version would you like to use?  - Translators Note: The first parameter is the name of the remote storage provider e.g. "Dropbox" */
-"sync_conflict_message_fmt" = "Удалённая копия базы данных в хранилище '%@' изменилась. Какую копию Вы хотите использовать?";
+"sync_conflict_message_fmt" = "Удалённая копия БД в хранилище %@ изменилась. Какую копию Вы хотите использовать?";
 
 /* Strongbox could not sync your changes. */
 "sync_could_not_sync_your_changes" = "Не удалось синхронизировать изменения.";
@@ -3336,7 +3336,7 @@
 "autofill_add_entry_sync_required_title" = "Необходима синхронизация";
 
 /* You have added a new entry and this change has been saved locally.\n\nDon't forget to switch to the main Strongbox app to fully sync these changes to %@. - Translators Note: The 1st parameter here is the storage location, e.g. 'Dropbox' */
-"autofill_add_entry_sync_required_message_fmt" = "Новая запись добавлена и сохранена в локальной копии.\n\nСинхронизация изменений с %@ произойдёт при открытии приложения.";
+"autofill_add_entry_sync_required_message_fmt" = "Запись добавлена и сохранена в локальной копии.\n\nСинхронизация изменений с %@ произойдёт при открытии приложения.";
 
 /* Got it! */
 "autofill_add_entry_sync_required_option_got_it" = "Понятно";
@@ -3357,13 +3357,13 @@
 "open_sequence_database_different_filename_title" = "Разные имена файлов";
 
 /* This doesn't look like it's the right file because the filename looks different than the one you originally added. Do you want to continue?" */
-"open_sequence_database_different_filename_message" = "Это неверный файл, т.к. имя файла отличается от того, который Вы изначально добавили. Хотите продолжить?";
+"open_sequence_database_different_filename_message" = "Неверный файл. Имя файла отличается от того, который Вы изначально добавили. Хотите продолжить?";
 
 /* Relocate Database */
 "open_sequence_storage_provider_try_relocate_files_db" = "Выбор расположения";
 
 /* Strongbox is having trouble locating your database. This can happen sometimes especially after iOS updates or with some 3rd party providers (e.g.Nextcloud).\n\nYou now need to tell Strongbox where to locate it. Alternatively you can open Strongbox's local copy and fix this later.\n\nFor Nextcloud please use WebDAV instead... */
-"open_sequence_storage_provider_try_relocate_files_db_message" = "Возникли проблемы при открытии БД. Такое может происходить после обновления iOS или при работе с некоторыми провайдерами (напр., Nextcloud).\n\nВам необходимо указать расположение, где хранится база данных. Можно также открыть локальную копию и устранить ошибку позже.\n\nПримечание: Для Nextcloud используйте WebDAV";
+"open_sequence_storage_provider_try_relocate_files_db_message" = "Ошибка при открытии БД. Такое возможно после обновления iOS или при работе с некоторыми провайдерами (напр., Nextcloud).\n\nВам необходимо указать расположение, где хранится база данных. Можно также открыть локальную копию и устранить ошибку позже.\n\n(*) Для Nextcloud используйте WebDAV";
 
 /* View Error Details */
 "open_sequence_storage_provider_view_sync_error_details" = "Сведения об ошибке";
@@ -3432,10 +3432,10 @@
 "generic_move" = "Переместить";
 
 /* New Entry - Translators Note: Menu option to add a new entry */
-"browse_context_menu_new_entry" = "Новая запись";
+"browse_context_menu_new_entry" = "Добавить запись";
 
 /* New Group Translators Note: Menu option to add a new group */
-"browse_context_menu_new_group" = "Новая группа";
+"browse_context_menu_new_group" = "Добавить группу";
 
 /* Select Translators Note: Verb to select an item in Browse view - it will have a select beside it */
 "generic_select" = "Выбрать";
@@ -3537,10 +3537,10 @@
 "pwgen_casing_latin1_supplement" = "Дополнение к Latin-1";
 
 /* Are you sure you want to remove this database from Strongbox?\n\nNB: The underlying database file will not be deleted. Just Strongbox's settings for this database. */
-"are_you_sure_delete_database_single" = "Вы действительно хотите удалить базу данных из Strongbox?\n\nПримечание: Будут удалены настройки для этой БД в приложении. Сам файл не будет удалён.";
+"are_you_sure_delete_database_single" = "Вы действительно хотите удалить базу данных из приложения?\n\n(*) Будут удалены настройки для этой БД. Файл не будет удалён.";
 
 /* Are you sure you want to remove these databases from Strongbox?\n\nNB: The underlying database files will not be deleted. Just Strongbox's settings for these databases. */
-"are_you_sure_delete_database_multiple" = "Вы действительно хотите удалить базы данных из Strongbox?\n\nПримечание: Будут удалены настройки для БД в приложении. Сами файлы не будут удалены.";
+"are_you_sure_delete_database_multiple" = "Вы действительно хотите удалить базы данных из приложения?\n\n(*) Будут удалены настройки для этих БД. Файлы не будут удалены.";
 
 /* No Databases Here Yet.\n\nClick 'Add Database...' below to get started... */
 "mac_no_databases_initial_message" = "Нет баз данных.\n\nНажмите кнопку ниже, чтобы начать работу";
@@ -3549,7 +3549,7 @@
 "mac_no_autofill_enabled_databases_initial_message" = "Нет баз данных с включенной поддержкой автозаполнения";
 
 /* It looks like this is your first time using AutoFill with this database.\n\nFor security reasons you must locate and select your database file for Strongbox so that the AutoFill can access it.\n\nAs a reminder your database file was last located here:\n\n%@\n\nPlease locate it now for Strongbox...  - Translator's note: The parameter is the path of the database like '/Users/mark/Desktop/my-database.kdbx' */
-"mac_autofill_first_time_locate-fmt" = "Возможно, что это первое использование автозаполнения с этой базой данных.\n\nПо соображениям безопасности необходимо выбрать файл базы данных, чтобы функционал мог получить к нему доступ.\n\nПоследнее расположение файла БД:\n\n%@\n\nПожалуйста, выберите базу данных.";
+"mac_autofill_first_time_locate-fmt" = "Это первое использование автозаполнения с этой базой данных.\n\nПо соображениям безопасности необходимо выбрать файл БД для корректной работы функции.\n\nПоследнее расположение файла:\n\n%@\n\nПожалуйста, выберите базу данных.";
 
 /* Welcome to Strongbox AutoFill */
 "mac_welcome_to_autofill" = "Функция автозаполнения Strongbox";
@@ -3603,13 +3603,13 @@
 "generic_action_compare_and_merge_ellipsis" = "Сравнение и объединение";
 
 /* Merge will lead to a %0.1f%% difference. (Translators Note: 1st param is a percentage like '12.2%' (please don't edit/touch the percentage signs as it will likely cause a crash)) */
-"merge_result_will_lead_to_percentage_difference_fmt" = "Отличия составят: %0.1f%%.";
+"merge_result_will_lead_to_percentage_difference_fmt" = "Отличия: %0.1f%%.";
 
 /* No changes to merge into first. */
 "merge_result_databases_identical" = "Изменений для объединения не найдено";
 
 /* Second database is %0.1f%% different. (Translators Note: 1st param is a percentage like '12.2%' (please don't edit/touch the percentage signs as it will likely cause a crash)) */
-"diff_result_percentage_difference_fmt" = "Отличия составляют: %0.1f%%";
+"diff_result_percentage_difference_fmt" = "Отличия: %0.1f%%";
 
 /* Identical databases. */
 "diff_result_databases_identical" = "Идентичные базы данных";
@@ -3888,7 +3888,7 @@
 "model_error_could_not_merge_local_remote" = "Не удалось объединить локальную и удалённую базы данных.";
 
 /* Your database format does not support advanced synchronization features (available in KeePass 2). This means the merge may be less than ideal.\n\nAre you sure you want to continue with the merge? */
-"merge_are_you_sure_less_than_ideal_format" = "Формат базы данных не поддерживает расширенные функции синхронизации (доступно в KeePass 2). Объединение может быть неполным.\n\nВы хотите продолжить?";
+"merge_are_you_sure_less_than_ideal_format" = "Формат базы данных не поддерживает расширенные функции синхронизации (доступно в KeePass 2). Объединение может быть неполным.\n\nХотите продолжить?";
 
 /* Database Refreshed */
 "browse_vc_pulldown_refresh_updated_title" = "База данных обновлена";
@@ -3918,16 +3918,16 @@
 "compare_merge_sync_possibly_required_message" = "Сихронизация, по крайней мере, одной из этих баз данных давно не выполнялась. Перейдите к экрану списка баз данных и смахните вниз.";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to open in offline mode instead? - Translators Note: 1st Parameter is the storage provider name like Google Drive or Dropbox */
-"open_sequence_user_looks_offline_open_local_fmt" = "Возможно, нет подключения к сети и хранилище %@ недоступно. Хотите  открыть базу данных офлайн?";
+"open_sequence_user_looks_offline_open_local_fmt" = "Отсутствует подключения к сети и хранилище %@ недоступно. Хотите открыть БД офлайн?";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use Strongbox's local copy in read-only mode instead? - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc */
-"open_sequence_user_looks_offline_open_local_ro_fmt" = "Возможно, нет подключения к сети и хранилище %@ недоступно. Хотите  открыть базу данных офлайн?\n\nПримечание: Режим - только чтение. Офлайн редактирование доступно в Pro версии.";
+"open_sequence_user_looks_offline_open_local_ro_fmt" = "Отсутствует подключения к сети и хранилище %@ недоступно. Хотите  открыть БД офлайн?\n\n(*) Режим - только чтение. Офлайн редактирование доступно в Pro версии.";
 
 /* Open Offline? */
 "open_sequence_yesno_use_local_copy_title" = "Открыть офлайн?";
 
 /* Yes, Open Offline */
-"open_sequence_yes_use_local_copy_option" = "Да, открыть офлайн";
+"open_sequence_yes_use_local_copy_option" = "Открыть офлайн";
 
 /* Open Offline */
 "open_sequence_use_local_copy_option" = "Открыть офлайн";
@@ -4015,7 +4015,7 @@
 "prompt_title_copy_debug_info" = "Отладочная информация";
 
 /* Would you like to copy some helpful debug information that you can share with support before proceeding? */
-"prompt_message_copy_debug_info" = "Хотите скопировать отладочную информацию, которой Вы можете поделиться с технической поддержкой перед тем, как продолжить?";
+"prompt_message_copy_debug_info" = "Вы хотите скопировать отладочную информацию, которой можете поделиться с технической поддержкой перед тем, как продолжить?";
 
 /* Third Party Storage Privacy Opt-In */
 "third_party_storage_privacy_opt_in_title" = "Сторонние сервисы";
@@ -4063,7 +4063,7 @@
 "autofill_info_totp_copied_title" = "TOTP скопирован";
 
 /* Your TOTP Code has been copied to the clipboard. */
-"autofill_info_totp_copied_message" = "Код TOTP скопирован в буфер обмена.";
+"autofill_info_totp_copied_message" = "TOTP скопирован в буфер обмена.";
 
 /* Convenience Auto Unlock */
 "prefs_vc_autofill_convenience_auto_unlock" = "Авторазблокировка";
@@ -4129,10 +4129,10 @@
 "database_properties_title_always_offline" = "Всегда открывать офлайн";
 
 /* You can choose to always open offline whenever you tap on this database. No sync will be performed on unlock, though a background sync can be performed by pulling down on your Databases List. */
-"database_properties_subtitle_always_offline" = "Можно выбрать всегда открывать БД офлайн. Синхронизации при разблокировке не будет. Для её выполнения смахните вниз на экране списка баз данных.";
+"database_properties_subtitle_always_offline" = "Синхронизация при разблокировке выполняться не будет.";
 
 /* Offline Detected Behaviour */
-"database_properties_title_offline_detected_behaviour" = "Отсутствие сети";
+"database_properties_title_offline_detected_behaviour" = "При отсутствии сети";
 
 /* What to do if Strongbox detects you are Offline when opening a database. */
 "database_properties_subtitle_offline_detected_behaviour" = "Действия при открытии БД при отсутствии сети.";
@@ -4141,7 +4141,7 @@
 "offline_detected_behaviour_ask_immediately" = "Спросить в следующий раз";
 
 /* Try to Connect */
-"offline_detected_behaviour_try_connect_anyway" = "Пробовать подключиться";
+"offline_detected_behaviour_try_connect_anyway" = "Попробовать подключиться";
 
 /* Open Offline (No Prompt) */
-"offline_detected_behaviour_open_offline" = "Открывать офлайн";
+"offline_detected_behaviour_open_offline" = "Открыть офлайн";

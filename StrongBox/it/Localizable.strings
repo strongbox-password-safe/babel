@@ -26,10 +26,10 @@
 "safes_vc_database_actions_sheet_title" = "Azioni Database";
 
 /* Button Title to Unset Quick Launch */
-"safes_vc_action_unset_as_quick_launch" = "Disimpostare Avvio Veloce";
+"safes_vc_action_unset_as_quick_launch" = "Disimpostare Avvio Rapido";
 
 /* Button Title to Set Quick Launch */
-"safes_vc_action_set_as_quick_launch" = "Impostare Avvio Veloce";
+"safes_vc_action_set_as_quick_launch" = "Impostare Avvio Rapido";
 
 /* Button Title to Show in Files */
 "safes_vc_show_in_files" = "Mostrare nell'App File";
@@ -41,7 +41,7 @@
 "safes_vc_about_quick_launch_title" = "Informazioni sull'Avvio Rapido";
 
 /* Message about quick launch feature and asking to confirm yes or no */
-"safes_vc_about_setting_quick_launch_and_confirm" = "Impostare questo database come database di Avvio Rapido significa che all'avvio o ripristino di Strongbox, ti verrà automaticamente chiesto di sbloccare questo database. Questa impostazione può salvarti un secondo prezioso!\n\nImpostare come Database di Avvio Rapido?";
+"safes_vc_about_setting_quick_launch_and_confirm" = "Impostando questo database come database di Avvio Rapido significa che all'avvio o ripristino di Strongbox, verrà automaticamente chiesto di sbloccare questo database. Questa impostazione può risparmiare un prezioso secondo!\n\nImpostare come Database di Avvio Rapido?";
 
 /* Button title to Show Database in iOS Files App */
 "safes_vc_show_database_in_files_info" = "Rendere visibile questo database nell'App File renderà disponibile anche il database per l'accesso tramite Finder sul Mac.";
@@ -1405,7 +1405,7 @@
 "open_sequence_problem_opening_incorrect_credentials_message" = "Le credenziali non sono corrette per questo database.";
 
 /* Set Quick Launch? */
-"open_sequence_yesno_set_quick_launch_title" = "Imposta Avvio Veloce?";
+"open_sequence_yesno_set_quick_launch_title" = "Impostare Avvio Rapido?";
 
 /* Would you like to use this as your Quick Launch database? Quick Launch means you will get prompted immediately to unlock when you open Strongbox, saving you a precious tap. */
 "open_sequence_yesno_set_quick_launch_message" = "Si vuole utilizzare questo come database di Avvio Rapido? Avvio Rapido significa che si riceverà immediatamente la richiesta di sblocco del database quando si aprire Strongbox, risparmiando un prezioso tocco.";
@@ -2853,7 +2853,7 @@
 "keepass_icon_set_sf_symbols" = "Simboli SF (iOS 13 +)";
 
 /* Translators Note: 1 parameter here to mention Biometric unlock, which depends on the device (will be either: 'Touch ID Unlock' or 'Face ID Unlock') */
-"upgrade_short_developer_message_fmt" = "Ciao, sono Mark, lo sviluppatore di Strongbox. Volevo soltanto farvi sapere che Strongbox funziona con il modello freemium, che significa che esiste una versione gratuita e una pro. Spero che Strongbox vi piaccia davvero e che lo troviate utile quotidianamente.\n\nMi stavo chiedendo se potesse prendere in considerazione l'upgrade a Pro. Con l'upgrade si aiuta a sostenere uno sviluppatore di applicazioni indipendente e a rendere possibile un miglioramento continuo di Strongbox.\n\nSi assicurerà anche l'accesso a fantastiche funzioni Pro come %@, PIN Codes & FavIcone!\n\nMi piace molto lavorare su questa App, e il suo supporto mi permette di continuare a farlo.\n\nGrazie,\n-Mark";
+"upgrade_short_developer_message_fmt" = "Ciao, sono Mark, lo sviluppatore di Strongbox. Volevo soltanto farvi sapere che Strongbox funziona con il modello freemium, che significa che esiste una versione gratuita e una pro. Spero che Strongbox vi piaccia davvero e che lo troviate utile quotidianamente.\n\nMi stavo chiedendo se potesse prendere in considerazione l'upgrade a Pro. Con l'upgrade si aiuta a sostenere uno sviluppatore di applicazioni indipendente e a rendere possibile un miglioramento continuo di Strongbox.\n\nSi assicurerà anche l'accesso a fantastiche funzioni Pro come %@, Codici PIN & FavIcone!\n\nMi piace molto lavorare su questa App, e il suo supporto mi permette di continuare a farlo.\n\nGrazie,\n-Mark";
 
 /* Translators Note: 1 parameter indicating number of days left in users free trial */
 "upgrade_vc_you_have_n_days_remaining_fmt" = "Ti restano %ld giorni di test della version Pro";
@@ -4114,34 +4114,34 @@
 "mac_unlock_database_with_touch_or_watch" = "Sbloccare con Touch ID o Watch";
 
 /* Blur */
-"app_privacy_shield_mode_blur" = "Blur";
+"app_privacy_shield_mode_blur" = "Sfocatura";
 
 /* Pixellate */
-"app_privacy_shield_mode_pixellate" = "Pixellate";
+"app_privacy_shield_mode_pixellate" = "Pixellatura";
 
 /* Blue Screen */
-"app_privacy_shield_mode_blue_screen" = "Blue Screen";
+"app_privacy_shield_mode_blue_screen" = "Schermo Blu";
 
 /* Privacy Shield View */
-"prefs_vc_privacy_shield_view" = "Privacy Shield View";
+"prefs_vc_privacy_shield_view" = "Vista Scudo Privacy";
 
 /* Always Open Offline */
-"database_properties_title_always_offline" = "Always Open Offline";
+"database_properties_title_always_offline" = "Aprire Sempre Offline";
 
 /* You can choose to always open offline whenever you tap on this database. No sync will be performed on unlock, though a background sync can be performed by pulling down on your Databases List. */
-"database_properties_subtitle_always_offline" = "You can choose to always open offline whenever you tap on this database. No sync will be performed on unlock, though a background sync can be performed by pulling down on your Databases List.";
+"database_properties_subtitle_always_offline" = "È possibile scegliere di aprire sempre offline ogni volta che si tocca questo database. Nessuna sincronizzazione sarà eseguita allo sblocco, anche se si può forzare una sincronizzazione in background tirando giù sulla lista dei database.";
 
 /* Offline Detected Behaviour */
-"database_properties_title_offline_detected_behaviour" = "Offline Detected Behaviour";
+"database_properties_title_offline_detected_behaviour" = "Comportamento se Rilevato Offline";
 
 /* What to do if Strongbox detects you are Offline when opening a database. */
-"database_properties_subtitle_offline_detected_behaviour" = "What to do if Strongbox detects you are Offline when opening a database.";
+"database_properties_subtitle_offline_detected_behaviour" = "Cosa fare se Strongbox rileva che si è Offline quando si apre un database.";
 
 /* Prompt */
-"offline_detected_behaviour_ask_immediately" = "Prompt";
+"offline_detected_behaviour_ask_immediately" = "Chiedere";
 
 /* Try to Connect */
-"offline_detected_behaviour_try_connect_anyway" = "Try to Connect";
+"offline_detected_behaviour_try_connect_anyway" = "Provare a Connettersi";
 
 /* Open Offline (No Prompt) */
-"offline_detected_behaviour_open_offline" = "Open Offline (No Prompt)";
+"offline_detected_behaviour_open_offline" = "Aprire Offline (Senza Chiederlo)";
