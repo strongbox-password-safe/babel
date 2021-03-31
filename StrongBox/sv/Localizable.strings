@@ -2215,8 +2215,8 @@
 /* Could not open key file. */
 "mac_error_could_not_open_key_file" = "Kunde inte öppna nyckelfil.";
 
-/* The database has been changed by another application, would you like to reload this latest version and automatically unlock? */
-"mac_db_changed_externally_reload_yes_or_no" = "Databasen har ändrats av ett annat program. Vill du läsa in den senaste versionen och automatiskt låsa upp?";
+/* This database has been changed by another user or application. Would you like to reload the latest version? */
+"mac_db_changed_externally_reload_yes_or_no" = "This database has been changed by another user or application. Would you like to reload the latest version?";
 
 /* Reloading after external changes... */
 "mac_db_reloading_after_external_changes_popup_notification" = "Laddar om efter externa ändringar ...";
@@ -3879,7 +3879,7 @@
 "model_error_could_not_write_local_merge" = "Tekniskt fel - Gick inte skriva lokala kopior för jämförelse/sammanslagning.";
 
 /* Cannot merge in background or without key. */
-"model_error_cannot_merge_in_background" = "Kan inte slå samman i bakgrunden eller utan nyckel.";
+"model_error_cannot_merge_in_background" = "Cannot merge without Master Credentials.";
 
 /* Are you sure you want to always Auto-Merge when you have a Sync Conflict like this? */
 "sync_are_you_sure_always_auto_merge" = "Are you sure you want to always Auto-Merge when you have a Sync Conflict like this?";
@@ -4145,3 +4145,24 @@
 
 /* Open Offline (No Prompt) */
 "offline_detected_behaviour_open_offline" = "Open Offline (No Prompt)";
+
+/* There was a problem updating your database in the background and your assistance is required to resolve. Would you like to resolve this problem now? */
+"sync_status_user_interaction_required_prompt_yes_or_no" = "There was a problem updating your database and your assistance is required to resolve. Would you like to resolve this problem now?";
+
+/* Error Updating */
+"sync_status_error_updating_title" = "Error Updating";
+
+/* Recycle (L10n Note: This is an action, e.g. To Recycle and item, to send it to the Recycle Bin) */
+"generic_action_verb_recycle" = "Recycle";
+
+/* There was an error updating your database. Would you like to try updating again, or would you prefer to revert to the latest successful update? */
+"sync_status_error_updating_try_again_prompt" = "There was an error updating your database. Would you like to try updating again, or would you prefer to revert to the latest successful update?";
+
+/* Try Again */
+"sync_status_error_updating_try_again_action" = "Try Again";
+
+/* Revert to Latest */
+"sync_status_error_updating_revert_action" = "Revert to Latest";
+
+/* Assistance Required */
+"sync_status_user_interaction_required_prompt_title" = "Assistance Required";
