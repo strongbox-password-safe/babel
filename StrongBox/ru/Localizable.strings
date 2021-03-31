@@ -2216,7 +2216,7 @@
 "mac_error_could_not_open_key_file" = "Не удалось открыть файл-ключ.";
 
 /* This database has been changed by another user or application. Would you like to reload the latest version? */
-"mac_db_changed_externally_reload_yes_or_no" = "База данных была изменена другим пользователем или приложением. Хотите вернуться к последней версии?";
+"mac_db_changed_externally_reload_yes_or_no" = "БД была изменена другим пользователем или приложением. Хотите вернуться к последней версии?";
 
 /* Reloading after external changes... */
 "mac_db_reloading_after_external_changes_popup_notification" = "Перезагрузка после внешних изменений ...";
@@ -3879,7 +3879,7 @@
 "model_error_could_not_write_local_merge" = "Не удалось записать локальные копии для сравнения/объединения.";
 
 /* Cannot merge in background or without key. */
-"model_error_cannot_merge_in_background" = "Невозможно выполнить объединение без мастер-ключа.";
+"model_error_cannot_merge_in_background" = "Невозможно объединить без мастер-ключа.";
 
 /* Are you sure you want to always Auto-Merge when you have a Sync Conflict like this? */
 "sync_are_you_sure_always_auto_merge" = "Хотите всегда автоматически объединять при конфликте синхронизации?";
@@ -4150,7 +4150,7 @@
 "sync_status_error_updating_title" = "Ошибка при обновлении";
 
 /* Recycle (L10n Note: This is an action, e.g. To Recycle and item, to send it to the Recycle Bin) */
-"generic_action_verb_recycle" = "Удалить";
+"generic_action_verb_recycle" = "В корзину";
 
 /* There was an error updating your database. Would you like to try updating again, or would you prefer to revert to the latest successful update? */
 "sync_status_error_updating_try_again_prompt" = "Ошибка при обновлении БД. Повторить попытку обновления или вернуться к последней версии?";
@@ -4165,7 +4165,10 @@
 "sync_status_user_interaction_required_prompt_title" = "Выбор действия";
 
 /* Internet Unavailable Behaviour */
-"database_properties_title_offline_detected_behaviour" = "Internet Unavailable Behaviour";
+"database_properties_title_offline_detected_behaviour" = "Отсутствие сети";
 
 /* Could Not Connect Behaviour */
-"database_properties_title_could_not_connect_behaviour" = "Could Not Connect Behaviour";
+"database_properties_title_could_not_connect_behaviour" = "Не удалось подключиться";
+
+/* Open Online - NB: Action to open a database in Online mode, only applies to databases with 'Always Open Offline' set. */
+"safes_vc_slide_left_open_online_action" = "Открыть онлайн";
