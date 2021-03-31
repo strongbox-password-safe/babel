@@ -2216,7 +2216,7 @@
 "mac_error_could_not_open_key_file" = "Не удалось открыть файл-ключ.";
 
 /* This database has been changed by another user or application. Would you like to reload the latest version? */
-"mac_db_changed_externally_reload_yes_or_no" = "БД была изменена другим пользователем или приложением. Хотите вернуться к последней версии?";
+"mac_db_changed_externally_reload_yes_or_no" = "База данных была изменена другим пользователем или приложением. Хотите вернуться к последней версии?";
 
 /* Reloading after external changes... */
 "mac_db_reloading_after_external_changes_popup_notification" = "Перезагрузка после внешних изменений ...";
@@ -4131,9 +4131,6 @@
 /* You can choose to always open offline whenever you tap on this database. No sync will be performed on unlock, though a background sync can be performed by pulling down on your Databases List. */
 "database_properties_subtitle_always_offline" = "Синхронизация при разблокировке выполняться не будет.";
 
-/* Offline Detected Behaviour */
-"database_properties_title_offline_detected_behaviour" = "При отсутствии сети";
-
 /* What to do if Strongbox detects you are Offline when opening a database. */
 "database_properties_subtitle_offline_detected_behaviour" = "Действия при открытии БД при отсутствии сети.";
 
@@ -4166,3 +4163,9 @@
 
 /* Assistance Required */
 "sync_status_user_interaction_required_prompt_title" = "Выбор действия";
+
+/* Internet Unavailable Behaviour */
+"database_properties_title_offline_detected_behaviour" = "Internet Unavailable Behaviour";
+
+/* Could Not Connect Behaviour */
+"database_properties_title_could_not_connect_behaviour" = "Could Not Connect Behaviour";
