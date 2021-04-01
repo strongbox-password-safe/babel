@@ -2215,8 +2215,8 @@
 /* Could not open key file. */
 "mac_error_could_not_open_key_file" = "Soubor s klíči nelze otevřít.";
 
-/* The database has been changed by another application, would you like to reload this latest version and automatically unlock? */
-"mac_db_changed_externally_reload_yes_or_no" = "Databáze byla změněna jinou aplikací, chcete znovu načíst nejnovější verzi a automaticky ji odemknout?";
+/* This database has been changed by another user or application. Would you like to reload the latest version? */
+"mac_db_changed_externally_reload_yes_or_no" = "Tato databáze byla změněna jiným uživatelem nebo aplikací. Chcete znovu načíst nejnovější verzi?";
 
 /* Reloading after external changes... */
 "mac_db_reloading_after_external_changes_popup_notification" = "Nové načtení po externích změnách...";
@@ -3879,7 +3879,7 @@
 "model_error_could_not_write_local_merge" = "Technická chyba - Nelze zapsat místní kopie pro srovnání/sloučení.";
 
 /* Cannot merge in background or without key. */
-"model_error_cannot_merge_in_background" = "Nelze sloučit na pozadí nebo bez klíče.";
+"model_error_cannot_merge_in_background" = "Nelze sloučit bez hlavních přístupových údajů.";
 
 /* Are you sure you want to always Auto-Merge when you have a Sync Conflict like this? */
 "sync_are_you_sure_always_auto_merge" = "Jste si jisti, že chcete vždy automaticky sloučit, když máte podobný konflikt synchronizace?";
@@ -4131,9 +4131,6 @@
 /* You can choose to always open offline whenever you tap on this database. No sync will be performed on unlock, though a background sync can be performed by pulling down on your Databases List. */
 "database_properties_subtitle_always_offline" = "Při každém klepnutí na tuto databázi se můžete vždy rozhodnout, zdali ji chcete otevřít v režimu offline. Při synchronizaci nebude provedena žádná synchronizace, ale synchronizace na pozadí lze provést tažením na seznamu databází.";
 
-/* Offline Detected Behaviour */
-"database_properties_title_offline_detected_behaviour" = "Zjištěné offline chování";
-
 /* What to do if Strongbox detects you are Offline when opening a database. */
 "database_properties_subtitle_offline_detected_behaviour" = "Co dělat, pokud Strongbox detekuje, že jste v režimu offline při otevírání databáze.";
 
@@ -4145,3 +4142,33 @@
 
 /* Open Offline (No Prompt) */
 "offline_detected_behaviour_open_offline" = "Otevřít offline (bez výzvy)";
+
+/* There was a problem updating your database in the background and your assistance is required to resolve. Would you like to resolve this problem now? */
+"sync_status_user_interaction_required_prompt_yes_or_no" = "Při aktualizaci databáze došlo k potížím a k vyřešení je nutná asistence. Chcete tento problém vyřešit?";
+
+/* Error Updating */
+"sync_status_error_updating_title" = "Chyba exportu";
+
+/* Recycle (L10n Note: This is an action, e.g. To Recycle and item, to send it to the Recycle Bin) */
+"generic_action_verb_recycle" = "Recyklovat";
+
+/* There was an error updating your database. Would you like to try updating again, or would you prefer to revert to the latest successful update? */
+"sync_status_error_updating_try_again_prompt" = "Při aktualizaci databáze došlo k chybě. Chcete se znovu pokusit o aktualizaci, nebo byste se raději vrátili k nejnovější úspěšné aktualizaci?";
+
+/* Try Again */
+"sync_status_error_updating_try_again_action" = "Zkusit to znovu";
+
+/* Revert to Latest */
+"sync_status_error_updating_revert_action" = "Přejít zpět na nejnovější";
+
+/* Assistance Required */
+"sync_status_user_interaction_required_prompt_title" = "Vyžadována asistence";
+
+/* Internet Unavailable Behaviour */
+"database_properties_title_offline_detected_behaviour" = "Funkce internetu není k dispozici";
+
+/* Could Not Connect Behaviour */
+"database_properties_title_could_not_connect_behaviour" = "Funkci nelze připojit";
+
+/* Open Online - NB: Action to open a database in Online mode, only applies to databases with 'Always Open Offline' set. */
+"safes_vc_slide_left_open_online_action" = "Otevřít online";
