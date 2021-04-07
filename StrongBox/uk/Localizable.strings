@@ -660,19 +660,16 @@
 "keepass_history_are_you_sure_restore_message" = "Ви дійсно хочете відновити цей запис до вибраного стану в історії?";
 
 /* App Lock Delay */
-"prefs_vc_app_lock_delay" = "Затримка блокування програми";
+"prefs_vc_app_lock_delay" = "Затримка замкнення програми";
 
 /* Lite Version %@ (Please Upgrade) */
 "prefs_vc_app_version_info_free_fmt" = "Про Strongbox %@ (Безплатна версія - Будь ласка, оновіть)";
-
-/* Pro Version %@ */
-"prefs_vc_app_version_info_pro_fmt" = "Про Strongbox Pro %@";
 
 /* Pro Version %@ (Trial - %ld days left) */
 "prefs_vc_app_version_info_pro_trial_fmt" = "Про Strongbox %@ (Пробна версія Pro - Залишилось %ld днів)";
 
 /* Auto Lock Database Delay */
-"prefs_vc_auto_lock_database_delay" = "Затримка автоблокування бази паролів";
+"prefs_vc_auto_lock_database_delay" = "Затримка автозамкнення бази паролів";
 
 /* This will clear all securely stored master passwords (for all databases) used by biometric unlock. Are you sure? */
 "prefs_vc_clear_biometrics_yesno_message" = "Буде видалено всі надійно збережені головні паролі (для всіх баз даних), що використовуються біометричним відмиканням. Ви впевнені?";
@@ -1411,7 +1408,7 @@
 "open_sequence_yesno_set_quick_launch_message" = "Бажаєте використовувати цю базу паролів для швидкого запуску? Це означає, що ви отримуватимете запит її відімкнення одразу при відкритті Strongbox, зменшивши кількість дій.";
 
 /* Convenience Unlock: Use %@ or PIN Code in Future? */
-"open_sequence_prompt_use_convenience_both_title_fmt" = "Зручне розблокування: %@ чи ПІН";
+"open_sequence_prompt_use_convenience_both_title_fmt" = "Зручне відмикання: %@ чи ПІН?";
 
 /* You can use either %@ or a convenience PIN Code to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use one of these methods, please select from below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
 "open_sequence_prompt_use_convenience_both_message_fmt" = "Ви можете використовувати %@ або ПІН для відімкнення бази паролів. Попри зручність, це може знизити рівень захисту бази паролів на цьому пристрої. Якщо ви бажаєте використовувати один з цих способів, оберіть внизу, або оберіть НІ, щоб продовжити використовувати головний пароль.\n\n*Важливо: Ви повинні ЗАВЖДИ пам'ятати свій головний пароль";
@@ -2034,7 +2031,7 @@
 "browse_prefs_item_subtitle_username" = "Ім'я користувача";
 
 /* Duplicate */
-"browse_vc_action_duplicate" = "Дублікат";
+"browse_vc_action_duplicate" = "Дублювати";
 
 /* Edit */
 "browse_vc_action_edit" = "Редагувати";
@@ -2216,7 +2213,7 @@
 "mac_error_could_not_open_key_file" = "Не вдається відкрити ключовий файл.";
 
 /* This database has been changed by another user or application. Would you like to reload the latest version? */
-"mac_db_changed_externally_reload_yes_or_no" = "This database has been changed by another user or application. Would you like to reload the latest version?";
+"mac_db_changed_externally_reload_yes_or_no" = "Ця база паролів змінена іншим користувачем або програмою. Бажаєте завантажити останню версію?";
 
 /* Reloading after external changes... */
 "mac_db_reloading_after_external_changes_popup_notification" = "Перезавантаження після зовнішніх змін...";
@@ -2228,10 +2225,10 @@
 "mac_touch_id_one_time_warning" = "Застереження про Touch ID/Apple Watch\n\nНезважаючи на зручність, це не найкращий спосіб захисту ваших паролів. Ця функція забезпечує лише зручність. Цілком можливо, що стороння особа, яка має доступ до вашого пристрою чи ваших відбитків пальців, зможе підробити відбитки пальців, якими можна обдурити функцію Touch ID від Apple. Крім того, головний пароль зберігатиметься у в'язці ключів на вашому Mac. Це означає, що хтось з правами доступу адміністратора зможе знайти ваш головний пароль у в'язці ключів. Вам слід пам'ятати, що надійна парольна фраза, яку ви завжди пам'ятаєте, забезпечує найкращий захист разом із StrongBox.\n\nБудь ласка, подумайте про все це і прийміть зважене рішення щодо необхідності використання Touch ID, керуючись балансом зручності й безпеки.";
 
 /* You cannot lock a database while changes are pending. Save changes and lock now? */
-"mac_cant_lock_db_while_changes_pending" = "Неможливо блокувати базу паролів, якщо є незбережені зміни. Зберегти зміни зараз і заблокувати?";
+"mac_cant_lock_db_while_changes_pending" = "Неможливо замкнути базу паролів, якщо є незбережені зміни. Зберегти зміни зараз і замкнути?";
 
 /* Locking... */
-"generic_locking_ellipsis" = "Блокування...";
+"generic_locking_ellipsis" = "Замкнення...";
 
 /* Please Enter the Master Credentials for this Database */
 "mac_please_set_master_credentials" = "Введіть облікові дані для цієї бази паролів";
@@ -2437,7 +2434,7 @@
 "mac_undo_action_import_entries_from_csv" = "Імпортувати записи з CSV";
 
 /* Cannot save database while it is locked." */
-"mac_cannot_save_db_while_locked" = "Неможливо зберегти базу паролів, поки вона заблокована.";
+"mac_cannot_save_db_while_locked" = "Неможливо зберегти базу паролів, поки вона замкнена.";
 
 /* Strongbox cannot open File Wrappers, Directories or Compressed Packages like this. Please directly select a KeePass or Password Safe database file. */
 "mac_strongbox_cant_open_file_wrappers" = "Strongbox не може відкрити файлові контейнери, каталоги чи стиснуті пакунки, як от цей. Оберіть безпосередньо файл бази даних KeePass чи Password Safe.";
@@ -2758,7 +2755,7 @@
 "mac_unlock_screen_button_title_convenience_unlock_bio_unavailable" = "Touch ID/Watch Недоступно";
 
 /* Touch ID/Watch Unlock (Pro Only) */
-"mac_unlock_screen_button_title_convenience_unlock_pro_only" = "Відмикання з Touch ID/Watch Unlock (Функція Pro)";
+"mac_unlock_screen_button_title_convenience_unlock_pro_only" = "Відмикання з Touch ID/Watch (Функція Pro)";
 
 /* Configure... */
 "casg_yubikey_configure_action" = "Налаштувати...";
@@ -2767,10 +2764,10 @@
 "casg_yubikey_configured_nfc" = "NFC";
 
 /* Slot 1 */
-"casg_yubikey_configured_slot1" = "Слот 1";
+"casg_yubikey_configured_slot1" = "Роз'єм 1";
 
 /* Slot 2 */
-"casg_yubikey_configured_slot2" = "Слот 2";
+"casg_yubikey_configured_slot2" = "Роз'єм 2";
 
 /* YubiKey Unlock is not supported in AutoFill mode */
 "open_sequence_cannot_use_yubikey_in_autofill_mode" = "Відмикання апаратним ключем не підтримується в режимі автозаповнення через обмеження системи. Натомість ви можете налаштувати віртуальний апаратний ключ.";
@@ -2806,22 +2803,22 @@
 "mac_lock_screen_yubikey_popup_menu_yubico_pro_only" = "YubiKey (Тільки Pro)";
 
 /* YubiKey Slot %ld (Touch Required) - (Translators Note: Some YubiKey devices/configurations require the user to touch or press a button to authenticate. This string also takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_touch_required_fmt" = "Слот YubiKey %ld (Потрібен дотик)";
+"mac_yubikey_slot_n_touch_required_fmt" = "YubiKey роз'єм %ld (Потрібен дотик)";
 
 /* YubiKey Slot %ld (Translators Note: This string takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_fmt" = "Слот YubiKey %ld";
+"mac_yubikey_slot_n_fmt" = "YubiKey роз'єм %ld";
 
 /* No YubiKeys Found */
 "mac_no_yubikeys_found" = "Не знайдено YubiKey";
 
 /* YubiKey %@ Slot %ld (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
-"mac_yubikey_serial_number_slot_n_touch_required_fmt" = "Слот %ld YubiKey %@ (Потрібен дотик)";
+"mac_yubikey_serial_number_slot_n_touch_required_fmt" = "YubiKey %@ роз'єм %ld (Потрібен дотик)";
 
 /* YubiKey %@ Slot %ld  - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2) */
-"mac_yubikey_serial_number_slot_n_fmt" = "Слот %ld YubiKey %@";
+"mac_yubikey_serial_number_slot_n_fmt" = "YubiKey %@ роз'єм %ld";
 
 /* YubiKey found but no compatible HMACSHA1 slots available */
-"mac_yubikey_available_but_no_compatible_slots" = "YubiKey знайдено, але немає сумісних HMACSHA1 слотів";
+"mac_yubikey_available_but_no_compatible_slots" = "YubiKey знайдено, але немає сумісних роз'ємів HMACSHA1";
 
 "casg_yubikey_configured_mfi" = "Lightning";
 
@@ -3879,7 +3876,7 @@
 "model_error_could_not_write_local_merge" = "Технічна помилка - Не вдається записати локальні копії для порівняння та об'єднання.";
 
 /* Cannot merge in background or without key. */
-"model_error_cannot_merge_in_background" = "Cannot merge without Master Credentials.";
+"model_error_cannot_merge_in_background" = "Неможливо об'єднати без основних облікових даних.";
 
 /* Are you sure you want to always Auto-Merge when you have a Sync Conflict like this? */
 "sync_are_you_sure_always_auto_merge" = "Ви дійсно хочете завжди автоматично об'єднувати при наявності таких конфліктів?";
@@ -4144,31 +4141,58 @@
 "offline_detected_behaviour_open_offline" = "Відкрити автономно (Без запиту)";
 
 /* There was a problem updating your database in the background and your assistance is required to resolve. Would you like to resolve this problem now? */
-"sync_status_user_interaction_required_prompt_yes_or_no" = "There was a problem updating your database and your assistance is required to resolve. Would you like to resolve this problem now?";
+"sync_status_user_interaction_required_prompt_yes_or_no" = "Виникла проблема при оновленні бази паролів, для розв'язання якої необхідне ваше втручання. Бажаєте розв'язати проблему зараз?";
 
 /* Error Updating */
-"sync_status_error_updating_title" = "Error Updating";
+"sync_status_error_updating_title" = "Помилка оновлення";
 
 /* Recycle (L10n Note: This is an action, e.g. To Recycle and item, to send it to the Recycle Bin) */
-"generic_action_verb_recycle" = "Recycle";
+"generic_action_verb_recycle" = "Вилучити";
 
 /* There was an error updating your database. Would you like to try updating again, or would you prefer to revert to the latest successful update? */
-"sync_status_error_updating_try_again_prompt" = "There was an error updating your database. Would you like to try updating again, or would you prefer to revert to the latest successful update?";
+"sync_status_error_updating_try_again_prompt" = "При оновленні бази паролів сталася помилка. Бажаєте спробувати оновити знову, чи повернутися до останнього успішного оновлення?";
 
 /* Try Again */
-"sync_status_error_updating_try_again_action" = "Try Again";
+"sync_status_error_updating_try_again_action" = "Спробувати знову";
 
 /* Revert to Latest */
-"sync_status_error_updating_revert_action" = "Revert to Latest";
+"sync_status_error_updating_revert_action" = "Повернути";
 
 /* Assistance Required */
-"sync_status_user_interaction_required_prompt_title" = "Assistance Required";
+"sync_status_user_interaction_required_prompt_title" = "Необхідне втручання";
 
 /* Internet Unavailable Behaviour */
-"database_properties_title_offline_detected_behaviour" = "Internet Unavailable Behaviour";
+"database_properties_title_offline_detected_behaviour" = "Поведінка при відсутності Інтернету";
 
 /* Could Not Connect Behaviour */
-"database_properties_title_could_not_connect_behaviour" = "Could Not Connect Behaviour";
+"database_properties_title_could_not_connect_behaviour" = "Поведінка при відсутності з'єднання";
 
 /* Open Online - NB: Action to open a database in Online mode, only applies to databases with 'Always Open Offline' set. */
-"safes_vc_slide_left_open_online_action" = "Open Online";
+"safes_vc_slide_left_open_online_action" = "Відкрити онлайн";
+
+/* At least one of these database is open and unlocked. You must lock this database before you can remove it. */
+"mac_at_least_one_db_unlocked_cannot_remove" = "At least one of these databases is unlocked. You must lock this database before you can remove it.";
+
+/* About Strongbox %@ - L10n note: 1st parameter is the App Version, e.g. 'About Strongbox 1.52.17' */
+"prefs_vc_app_version_info_none_pro_fmt" = "About Strongbox %@";
+
+/* About Strongbox Pro %@ - L10n note: 1st parameter is the App Version, e.g. 'About Strongbox Pro 1.52.17' */
+"prefs_vc_app_version_info_pro_fmt" = "Про Strongbox Pro %@";
+
+/* Strongbox %@ - L10n note: 1st parameter is the App Version, e.g. 'Strongbox 1.52.17' */
+"subtitle_app_version_info_none_pro_fmt" = "Strongbox %@";
+
+/* Strongbox Pro %@ - L10n note: 1st parameter is the App Version, e.g. 'Strongbox Pro 1.52.17' */
+"subtitle_app_version_info_pro_fmt" = "Strongbox Pro %@";
+
+/* Remove Tag */
+"mac_undo_action_remove_tag" = "Remove Tag";
+
+/* Add Tag */
+"mac_undo_action_add_tag" = "Add Tag";
+
+/* Tags */
+"generic_fieldname_tags" = "Мітки";
+
+/* Enter a new tag to add for this item */
+"mac_vc_please_enter_a_tag" = "Enter a new tag to add to this item";

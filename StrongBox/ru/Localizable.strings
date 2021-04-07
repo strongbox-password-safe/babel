@@ -71,7 +71,7 @@
 "safes_vc_are_you_sure_remove_database_fmt" = "Вы действительно хотите удалить базу данных из приложения? %@";
 
 /* extra info appended to string about the underlying storage type */
-"safes_vc_extra_info_underlying_database" = " (*) Файл базы данных не будет удалён";
+"safes_vc_extra_info_underlying_database" = "\n(*) Файл БД останется во внешнем хранилище";
 
 /* Error message - could not delete iCloud database */
 "safes_vc_error_delete_icloud_database" = "Ошибка удаления базы данных iCloud";
@@ -105,7 +105,7 @@
 "safes_vc_copy_icloud_or_local" = "Копировать в iCloud или на локальное устройство?";
 
 /* Question message: copy to iCloud or to Local */
-"safes_vc_copy_local_to_icloud" = "Использование iCloud включено. Хотите копировать базу данных в iCloud или использовать локально?";
+"safes_vc_copy_local_to_icloud" = "Использование iCloud включено. Хотите скопировать БД в iCloud или хранить на устройстве?";
 
 /* Default button: Copy to Local */
 "safes_vc_copy_to_local" = "Использовать локально";
@@ -240,10 +240,10 @@
 "safesvc_error_updating_message" = "Не удалось обновить локальный файл";
 
 /* Copy to iCloud or Local? */
-"safesvc_copy_database_to_location_title" = "Копирование базы данных";
+"safesvc_copy_database_to_location_title" = "Копирование БД";
 
 /* iCloud is currently enabled. Would you like to copy this database to iCloud now, or would you prefer to keep on your local device only? */
-"safesvc_copy_database_to_location_message" = "Использование iCloud включено. Хотите копировать базу данных в iCloud или использовать локально?";
+"safesvc_copy_database_to_location_message" = "Использование iCloud включено. Хотите скопировать БД в iCloud или хранить на устройстве?";
 
 /* Copy to Local Device Only */
 "safesvc_copy_database_option_to_local" = "Использовать локально";
@@ -330,10 +330,10 @@
 "browse_vc_are_you_sure_delete_fmt" = "Вы действительно хотите удалить «%@» навсегда?";
 
 /* Are you sure you want to send these item(s) to the Recycle Bin? */
-"browse_vc_are_you_sure_recycle" = "Вы хотите отправить выбранные элементы в корзину?";
+"browse_vc_are_you_sure_recycle" = "Вы хотите отправить выбранные элементы в Корзину?";
 
 /* Are you sure you want to send '%@' to the Recycle Bin? */
-"browse_vc_are_you_sure_recycle_fmt" = "Вы хотите отправить «%@» в корзину?";
+"browse_vc_are_you_sure_recycle_fmt" = "Вы хотите отправить «%@» в Корзину?";
 
 /* Cannot create group */
 "browse_vc_cannot_create_group" = "Невозможно создать группу";
@@ -664,9 +664,6 @@
 
 /* Lite Version %@ (Please Upgrade) */
 "prefs_vc_app_version_info_free_fmt" = "О Strongbox %@ (бесплатная)";
-
-/* Pro Version %@ */
-"prefs_vc_app_version_info_pro_fmt" = "О Strongbox Pro %@";
 
 /* Pro Version %@ (Trial - %ld days left) */
 "prefs_vc_app_version_info_pro_trial_fmt" = "О Strongbox %@ (пробная Pro версия - осталось %ld дней)";
@@ -1053,7 +1050,7 @@
 "key_files_vc_error_file_already_exists_message" = "Файл с таким именем уже существует в папке файл-ключей.";
 
 /* Imported Key Files (Auto-Fill Enabled) */
-"key_files_vc_section_header_imported" = "Импортированные (автозаполнение вкл.)";
+"key_files_vc_section_header_imported" = "Импортированные";
 
 /* Application Local Files */
 "key_files_vc_section_header_local" = "Документы (автозаполнение выкл.)";
@@ -1155,7 +1152,7 @@
 "add_attachment_vc_large_image_message_rescale" = "Слишком большое изображение, которое может негативно повлиять на производительность Strongbox и замедлить сетевую синхронизацию. Хотите изменить масштаб изображения до одного из оптимизированных вариантов, представленных ниже?";
 
 /* This is a rather large image which could negatively affect the performance of Strongbox, and significantly slow down network synchronisation times. Is there a smaller version you could use? */
-"add_attachment_vc_large_image_message" = "Слишком большое изображение, которое может негативно повлиять на производительность Strongbox и замедлить сетевую синхронизацию. Есть ли уменьшенная версия, которую Вы могли бы использовать?";
+"add_attachment_vc_large_image_message" = "Слишком большое изображение, которое может негативно повлиять на производительность приложения и замедлить сетевую синхронизацию. Есть ли уменьшенная версия, которую Вы могли бы использовать?";
 
 /* Rescale Large Image? */
 "add_attachment_vc_large_image_prompt_rescale_title" = "Изменить масштаб изображения?";
@@ -1771,7 +1768,7 @@
 "database_metadata_field_password_safe_version" = "Версия файла Password Safe";
 
 /* Recycle Bin Enabled */
-"database_metadata_field_recycle_bin_enabled" = "Корзина включена";
+"database_metadata_field_recycle_bin_enabled" = "Использование Корзины";
 
 /* Transform Rounds */
 "database_metadata_field_transform_rounds" = "Циклов преобразования";
@@ -1792,7 +1789,7 @@
 "database_metadata_field_password_key_stretch_iterations" = "Циклы ключа растяжения";
 
 /* Error message indicating that these item(s) cannot be deserialized to this database because they contain two groups with the same title. */
-"node_serialization_error_duplicate_group_title_fmt" = "Не удалось копировать элементы, поскольку они содержат две группы с одинаковым названием «%@». Это не поддерживается форматом БД.";
+"node_serialization_error_duplicate_group_title_fmt" = "Не удалось скопировать элементы, поскольку они содержат две группы с одинаковым названием «%@». Это не поддерживается форматом БД.";
 
 /* Argon 2 Memory */
 "database_metadata_field_argon2_memory" = "Память Argon2";
@@ -2264,13 +2261,13 @@
 "mac_please_enter_a_title_for_new_group" = "Пожалуйста, введите название для новой группы";
 
 /* Are you sure you want to send '%@' to the Recycle Bin? - Translation Note: 1st Param is the Item Title */
-"mac_are_you_sure_recycle_bin_yes_no_fmt" = "Вы хотите отправить «%@» в корзину?";
+"mac_are_you_sure_recycle_bin_yes_no_fmt" = "Вы хотите отправить «%@» в Корзину?";
 
 /* Are you sure you want to delete '%@'? - Translation Note: 1st Param is the Item Title  */
 "mac_are_you_sure_delete_yes_no_fmt" = "Вы действительно хотите удалить '%@'?";
 
 /* Are you sure you want to send %lu items to the Recycle Bin? - Translation Note: 1st Param is the number of items being deleted  */
-"mac_are_you_sure_recycle_bin_multiple_yes_no_fmt" = "Вы хотите отправить %lu элементов в корзину?";
+"mac_are_you_sure_recycle_bin_multiple_yes_no_fmt" = "Вы хотите отправить %lu элементов в Корзину?";
 
 /* Are you sure you want to delete %lu items? - Translation Note: 1st Param is the number of items being deleted */
 "mac_are_you_sure_delete_multiple_yes_no_fmt" = "Вы действительно хотите удалить %lu элементов?";
@@ -3069,7 +3066,7 @@
 "audit_hibp_warning_yes" = "Да, я согласен";
 
 /* Always Check */
-"hibp_check_interval_always_check" = "Периодически";
+"hibp_check_interval_always_check" = "При изменении БД";
 
 /* Once a Day */
 "hibp_check_interval_once_a_day" = "Ежедневно";
@@ -3126,7 +3123,7 @@
 "browse_vc_partial_recycle_alert_title" = "Частичное удаление";
 
 /* Some of the items you have selected cannot be recycled and will be permanently deleted. Is that OK? */
-"browse_vc_partial_recycle_alert_message" = "Некоторые из выбранных элементов не могут быть отправлены в корзину и будут окончательно удалены. Хотите продолжить?";
+"browse_vc_partial_recycle_alert_message" = "Некоторые из выбранных элементов не могут быть отправлены в Корзину и будут окончательно удалены. Хотите продолжить?";
 
 /* Audit */
 "browse_vc_action_audit" = "Аудит записи";
@@ -3687,7 +3684,7 @@
 "diff_drill_down_default_username_will_change" = "Изменения: Логин по умолчанию";
 
 /* Recycle Bin Enabled state will change. */
-"diff_drill_down_recycle_bin_enabled_will_change" = "Изменения: Показ корзины";
+"diff_drill_down_recycle_bin_enabled_will_change" = "Изменения: Использование Корзины";
 
 /* Custom Data %@ will change. Translators Note: 1st param is the key of the custom data e.g. KEEPASSXC_PLUGIN_DATA  */
 "diff_drill_down_custom_data_will_change_fmt" = "Изменения: Данные %@";
@@ -3957,7 +3954,7 @@
 "database_properties_title_always_auto_merge" = "Автообъединение";
 
 /* When a sync conflict occurs automatically merge without asking. */
-"database_properties_subtitle_conflict_resolution" = "При конфликте синхронизации объединять без запроса";
+"database_properties_subtitle_conflict_resolution" = "При конфликте синхронизации без запроса";
 
 /* Immediate Open Offline Offer */
 "database_properties_title_offline_behaviour" = "Открывать офлайн";
@@ -4015,7 +4012,7 @@
 "prompt_title_copy_debug_info" = "Отладочная информация";
 
 /* Would you like to copy some helpful debug information that you can share with support before proceeding? */
-"prompt_message_copy_debug_info" = "Вы хотите копировать отладочную информацию, которой можно поделиться с технической поддержкой перед тем, как продолжить?";
+"prompt_message_copy_debug_info" = "Вы хотите скопировать отладочную информацию, которой можно поделиться с технической поддержкой перед тем, как продолжить?";
 
 /* Third Party Storage Privacy Opt-In */
 "third_party_storage_privacy_opt_in_title" = "Сторонние сервисы";
@@ -4075,7 +4072,7 @@
 "autofill_auto_unlock_title" = "Авторазблокировка";
 
 /* Auto Unlock lets you avoid having to repeatedly unlock your database for a configurable time period. Would you like to use this handy feature?\n\nNB: Your password is stored in the Secure Enclave for this feature. */
-"autofill_auto_unlock_message" = "Авторазблокировка позволяет избежать многократной разблокировки базы данных за настраиваемый период времени. Хотите использовать эту функцию?";
+"autofill_auto_unlock_message" = "Авторазблокировка позволяет избежать многократной разблокировки БД за настраиваемый период времени. Хотите использовать эту функцию?";
 
 /* Great, let try 3 mins */
 "autofill_auto_unlock_try_3_minutes" = "Задержка 3 мин.";
@@ -4129,10 +4126,10 @@
 "database_properties_title_always_offline" = "Всегда открывать офлайн";
 
 /* You can choose to always open offline whenever you tap on this database. No sync will be performed on unlock, though a background sync can be performed by pulling down on your Databases List. */
-"database_properties_subtitle_always_offline" = "Синхронизация при разблокировке выполняться не будет.";
+"database_properties_subtitle_always_offline" = "Без синхронизации при разблокировке";
 
 /* What to do if Strongbox detects you are Offline when opening a database. */
-"database_properties_subtitle_offline_detected_behaviour" = "Действия при открытии БД при отсутствии сети.";
+"database_properties_subtitle_offline_detected_behaviour" = "Действия при отсутствии сети.";
 
 /* Prompt */
 "offline_detected_behaviour_ask_immediately" = "Спросить в следующий раз";
@@ -4150,7 +4147,7 @@
 "sync_status_error_updating_title" = "Ошибка при обновлении";
 
 /* Recycle (L10n Note: This is an action, e.g. To Recycle and item, to send it to the Recycle Bin) */
-"generic_action_verb_recycle" = "В корзину";
+"generic_action_verb_recycle" = "В Корзину";
 
 /* There was an error updating your database. Would you like to try updating again, or would you prefer to revert to the latest successful update? */
 "sync_status_error_updating_try_again_prompt" = "Ошибка при обновлении БД. Попробовать ещё раз или возвратиться к последней версии?";
@@ -4165,10 +4162,37 @@
 "sync_status_user_interaction_required_prompt_title" = "Выбор действия";
 
 /* Internet Unavailable Behaviour */
-"database_properties_title_offline_detected_behaviour" = "Отсутствие сети";
+"database_properties_title_offline_detected_behaviour" = "При отсутствии сети";
 
 /* Could Not Connect Behaviour */
-"database_properties_title_could_not_connect_behaviour" = "Не удалось подключиться";
+"database_properties_title_could_not_connect_behaviour" = "Нет соединения с БД";
 
 /* Open Online - NB: Action to open a database in Online mode, only applies to databases with 'Always Open Offline' set. */
 "safes_vc_slide_left_open_online_action" = "Открыть онлайн";
+
+/* At least one of these database is open and unlocked. You must lock this database before you can remove it. */
+"mac_at_least_one_db_unlocked_cannot_remove" = "По крайней мере, одна из этих БД разблокирована. Её необходимо заблокировать, прежде чем удалить.";
+
+/* About Strongbox %@ - L10n note: 1st parameter is the App Version, e.g. 'About Strongbox 1.52.17' */
+"prefs_vc_app_version_info_none_pro_fmt" = "О Strongbox %@";
+
+/* About Strongbox Pro %@ - L10n note: 1st parameter is the App Version, e.g. 'About Strongbox Pro 1.52.17' */
+"prefs_vc_app_version_info_pro_fmt" = "О Strongbox Pro %@";
+
+/* Strongbox %@ - L10n note: 1st parameter is the App Version, e.g. 'Strongbox 1.52.17' */
+"subtitle_app_version_info_none_pro_fmt" = "Strongbox %@";
+
+/* Strongbox Pro %@ - L10n note: 1st parameter is the App Version, e.g. 'Strongbox Pro 1.52.17' */
+"subtitle_app_version_info_pro_fmt" = "Strongbox Pro %@";
+
+/* Remove Tag */
+"mac_undo_action_remove_tag" = "Удалить тег";
+
+/* Add Tag */
+"mac_undo_action_add_tag" = "Добавить тег";
+
+/* Tags */
+"generic_fieldname_tags" = "Теги";
+
+/* Enter a new tag to add for this item */
+"mac_vc_please_enter_a_tag" = "Введите новый тег для этого элемента";

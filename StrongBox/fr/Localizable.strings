@@ -665,9 +665,6 @@
 /* Lite Version %@ (Please Upgrade) */
 "prefs_vc_app_version_info_free_fmt" = "À propos de Strongbox %@ (version gratuite - Veuillez mettre à niveau)";
 
-/* Pro Version %@ */
-"prefs_vc_app_version_info_pro_fmt" = "À propos de Strongbox Pro %@";
-
 /* Pro Version %@ (Trial - %ld days left) */
 "prefs_vc_app_version_info_pro_trial_fmt" = "À propos de Strongbox %@ (essai Pro - %ld jours restants)";
 
@@ -2216,7 +2213,7 @@
 "mac_error_could_not_open_key_file" = "Impossible d'ouvrir le fichier-clé.";
 
 /* This database has been changed by another user or application. Would you like to reload the latest version? */
-"mac_db_changed_externally_reload_yes_or_no" = "This database has been changed by another user or application. Would you like to reload the latest version?";
+"mac_db_changed_externally_reload_yes_or_no" = "Cette base de données a été modifiée par un autre utilisateur ou une autre application. Voulez-vous recharger la dernière version ?";
 
 /* Reloading after external changes... */
 "mac_db_reloading_after_external_changes_popup_notification" = "Rechargement après modifications externes...";
@@ -3879,7 +3876,7 @@
 "model_error_could_not_write_local_merge" = "Erreur technique - Impossible d'écrire des copies locales pour comparaison/fusion.";
 
 /* Cannot merge in background or without key. */
-"model_error_cannot_merge_in_background" = "Cannot merge without Master Credentials.";
+"model_error_cannot_merge_in_background" = "Impossible de fusionner sans les identifiants maîtres.";
 
 /* Are you sure you want to always Auto-Merge when you have a Sync Conflict like this? */
 "sync_are_you_sure_always_auto_merge" = "Êtes-vous sûr(e) de vouloir toujours fusionner automatiquement lorsque vous avez un conflit de synchronisation comme celui-ci ?";
@@ -4144,31 +4141,58 @@
 "offline_detected_behaviour_open_offline" = "Ouvrir hors ligne (pas d'invite)";
 
 /* There was a problem updating your database in the background and your assistance is required to resolve. Would you like to resolve this problem now? */
-"sync_status_user_interaction_required_prompt_yes_or_no" = "There was a problem updating your database and your assistance is required to resolve. Would you like to resolve this problem now?";
+"sync_status_user_interaction_required_prompt_yes_or_no" = "Un problème est survenu lors de la mise à jour de votre base de données et votre assistance est nécessaire pour le résoudre. Souhaitez-vous résoudre ce problème maintenant ?";
 
 /* Error Updating */
-"sync_status_error_updating_title" = "Error Updating";
+"sync_status_error_updating_title" = "Erreur de mise à jour";
 
 /* Recycle (L10n Note: This is an action, e.g. To Recycle and item, to send it to the Recycle Bin) */
-"generic_action_verb_recycle" = "Recycle";
+"generic_action_verb_recycle" = "Envoyer à la corbeille";
 
 /* There was an error updating your database. Would you like to try updating again, or would you prefer to revert to the latest successful update? */
-"sync_status_error_updating_try_again_prompt" = "There was an error updating your database. Would you like to try updating again, or would you prefer to revert to the latest successful update?";
+"sync_status_error_updating_try_again_prompt" = "Une erreur s'est produite lors de la mise à jour de votre base de données. Voulez-vous réessayer de la mettre à jour ou préférez-vous revenir à la dernière mise à jour réussie ?";
 
 /* Try Again */
-"sync_status_error_updating_try_again_action" = "Try Again";
+"sync_status_error_updating_try_again_action" = "Réessayer";
 
 /* Revert to Latest */
-"sync_status_error_updating_revert_action" = "Revert to Latest";
+"sync_status_error_updating_revert_action" = "Revenir à la dernière version";
 
 /* Assistance Required */
-"sync_status_user_interaction_required_prompt_title" = "Assistance Required";
+"sync_status_user_interaction_required_prompt_title" = "Assistance requise";
 
 /* Internet Unavailable Behaviour */
-"database_properties_title_offline_detected_behaviour" = "Internet Unavailable Behaviour";
+"database_properties_title_offline_detected_behaviour" = "Comportement Internet indisponible";
 
 /* Could Not Connect Behaviour */
-"database_properties_title_could_not_connect_behaviour" = "Could Not Connect Behaviour";
+"database_properties_title_could_not_connect_behaviour" = "Comportement \"connexion impossible\"";
 
 /* Open Online - NB: Action to open a database in Online mode, only applies to databases with 'Always Open Offline' set. */
-"safes_vc_slide_left_open_online_action" = "Open Online";
+"safes_vc_slide_left_open_online_action" = "Ouvrir en ligne";
+
+/* At least one of these database is open and unlocked. You must lock this database before you can remove it. */
+"mac_at_least_one_db_unlocked_cannot_remove" = "At least one of these databases is unlocked. You must lock this database before you can remove it.";
+
+/* About Strongbox %@ - L10n note: 1st parameter is the App Version, e.g. 'About Strongbox 1.52.17' */
+"prefs_vc_app_version_info_none_pro_fmt" = "About Strongbox %@";
+
+/* About Strongbox Pro %@ - L10n note: 1st parameter is the App Version, e.g. 'About Strongbox Pro 1.52.17' */
+"prefs_vc_app_version_info_pro_fmt" = "À propos de Strongbox Pro %@";
+
+/* Strongbox %@ - L10n note: 1st parameter is the App Version, e.g. 'Strongbox 1.52.17' */
+"subtitle_app_version_info_none_pro_fmt" = "Strongbox %@";
+
+/* Strongbox Pro %@ - L10n note: 1st parameter is the App Version, e.g. 'Strongbox Pro 1.52.17' */
+"subtitle_app_version_info_pro_fmt" = "Strongbox Pro %@";
+
+/* Remove Tag */
+"mac_undo_action_remove_tag" = "Remove Tag";
+
+/* Add Tag */
+"mac_undo_action_add_tag" = "Add Tag";
+
+/* Tags */
+"generic_fieldname_tags" = "Balises";
+
+/* Enter a new tag to add for this item */
+"mac_vc_please_enter_a_tag" = "Enter a new tag to add to this item";
