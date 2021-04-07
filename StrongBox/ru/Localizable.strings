@@ -330,10 +330,10 @@
 "browse_vc_are_you_sure_delete_fmt" = "Вы действительно хотите удалить «%@» навсегда?";
 
 /* Are you sure you want to send these item(s) to the Recycle Bin? */
-"browse_vc_are_you_sure_recycle" = "Вы хотите отправить выбранные элементы в корзину?";
+"browse_vc_are_you_sure_recycle" = "Вы хотите отправить выбранные элементы в Корзину?";
 
 /* Are you sure you want to send '%@' to the Recycle Bin? */
-"browse_vc_are_you_sure_recycle_fmt" = "Вы хотите отправить «%@» в корзину?";
+"browse_vc_are_you_sure_recycle_fmt" = "Вы хотите отправить «%@» в Корзину?";
 
 /* Cannot create group */
 "browse_vc_cannot_create_group" = "Невозможно создать группу";
@@ -1155,7 +1155,7 @@
 "add_attachment_vc_large_image_message_rescale" = "Слишком большое изображение, которое может негативно повлиять на производительность Strongbox и замедлить сетевую синхронизацию. Хотите изменить масштаб изображения до одного из оптимизированных вариантов, представленных ниже?";
 
 /* This is a rather large image which could negatively affect the performance of Strongbox, and significantly slow down network synchronisation times. Is there a smaller version you could use? */
-"add_attachment_vc_large_image_message" = "Слишком большое изображение, которое может негативно повлиять на производительность Strongbox и замедлить сетевую синхронизацию. Есть ли уменьшенная версия, которую Вы могли бы использовать?";
+"add_attachment_vc_large_image_message" = "Слишком большое изображение, которое может негативно повлиять на производительность приложения и замедлить сетевую синхронизацию. Есть ли уменьшенная версия, которую Вы могли бы использовать?";
 
 /* Rescale Large Image? */
 "add_attachment_vc_large_image_prompt_rescale_title" = "Изменить масштаб изображения?";
@@ -1771,7 +1771,7 @@
 "database_metadata_field_password_safe_version" = "Версия файла Password Safe";
 
 /* Recycle Bin Enabled */
-"database_metadata_field_recycle_bin_enabled" = "Корзина включена";
+"database_metadata_field_recycle_bin_enabled" = "Использование Корзины";
 
 /* Transform Rounds */
 "database_metadata_field_transform_rounds" = "Циклов преобразования";
@@ -2264,13 +2264,13 @@
 "mac_please_enter_a_title_for_new_group" = "Пожалуйста, введите название для новой группы";
 
 /* Are you sure you want to send '%@' to the Recycle Bin? - Translation Note: 1st Param is the Item Title */
-"mac_are_you_sure_recycle_bin_yes_no_fmt" = "Вы хотите отправить «%@» в корзину?";
+"mac_are_you_sure_recycle_bin_yes_no_fmt" = "Вы хотите отправить «%@» в Корзину?";
 
 /* Are you sure you want to delete '%@'? - Translation Note: 1st Param is the Item Title  */
 "mac_are_you_sure_delete_yes_no_fmt" = "Вы действительно хотите удалить '%@'?";
 
 /* Are you sure you want to send %lu items to the Recycle Bin? - Translation Note: 1st Param is the number of items being deleted  */
-"mac_are_you_sure_recycle_bin_multiple_yes_no_fmt" = "Вы хотите отправить %lu элементов в корзину?";
+"mac_are_you_sure_recycle_bin_multiple_yes_no_fmt" = "Вы хотите отправить %lu элементов в Корзину?";
 
 /* Are you sure you want to delete %lu items? - Translation Note: 1st Param is the number of items being deleted */
 "mac_are_you_sure_delete_multiple_yes_no_fmt" = "Вы действительно хотите удалить %lu элементов?";
@@ -3126,7 +3126,7 @@
 "browse_vc_partial_recycle_alert_title" = "Частичное удаление";
 
 /* Some of the items you have selected cannot be recycled and will be permanently deleted. Is that OK? */
-"browse_vc_partial_recycle_alert_message" = "Некоторые из выбранных элементов не могут быть отправлены в корзину и будут окончательно удалены. Хотите продолжить?";
+"browse_vc_partial_recycle_alert_message" = "Некоторые из выбранных элементов не могут быть отправлены в Корзину и будут окончательно удалены. Хотите продолжить?";
 
 /* Audit */
 "browse_vc_action_audit" = "Аудит записи";
@@ -3687,7 +3687,7 @@
 "diff_drill_down_default_username_will_change" = "Изменения: Логин по умолчанию";
 
 /* Recycle Bin Enabled state will change. */
-"diff_drill_down_recycle_bin_enabled_will_change" = "Изменения: Показ корзины";
+"diff_drill_down_recycle_bin_enabled_will_change" = "Изменения: Использование Корзины";
 
 /* Custom Data %@ will change. Translators Note: 1st param is the key of the custom data e.g. KEEPASSXC_PLUGIN_DATA  */
 "diff_drill_down_custom_data_will_change_fmt" = "Изменения: Данные %@";
@@ -4075,7 +4075,7 @@
 "autofill_auto_unlock_title" = "Авторазблокировка";
 
 /* Auto Unlock lets you avoid having to repeatedly unlock your database for a configurable time period. Would you like to use this handy feature?\n\nNB: Your password is stored in the Secure Enclave for this feature. */
-"autofill_auto_unlock_message" = "Авторазблокировка позволяет избежать многократной разблокировки базы данных за настраиваемый период времени. Хотите использовать эту функцию?";
+"autofill_auto_unlock_message" = "Авторазблокировка позволяет избежать многократной разблокировки БД за настраиваемый период времени. Хотите использовать эту функцию?";
 
 /* Great, let try 3 mins */
 "autofill_auto_unlock_try_3_minutes" = "Задержка 3 мин.";
@@ -4150,7 +4150,7 @@
 "sync_status_error_updating_title" = "Ошибка при обновлении";
 
 /* Recycle (L10n Note: This is an action, e.g. To Recycle and item, to send it to the Recycle Bin) */
-"generic_action_verb_recycle" = "В корзину";
+"generic_action_verb_recycle" = "В Корзину";
 
 /* There was an error updating your database. Would you like to try updating again, or would you prefer to revert to the latest successful update? */
 "sync_status_error_updating_try_again_prompt" = "Ошибка при обновлении БД. Попробовать ещё раз или возвратиться к последней версии?";
