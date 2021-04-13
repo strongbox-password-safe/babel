@@ -2213,7 +2213,7 @@
 "mac_error_could_not_open_key_file" = "Kan het sleutelbestand niet openen.";
 
 /* This database has been changed by another user or application. Would you like to reload the latest version? */
-"mac_db_changed_externally_reload_yes_or_no" = "This database has been changed by another user or application. Would you like to reload the latest version?";
+"mac_db_changed_externally_reload_yes_or_no" = "Deze database is gewijzigd door een andere gebruiker of toepassing. Wilt u de laatste versie opnieuw laden?";
 
 /* Reloading after external changes... */
 "mac_db_reloading_after_external_changes_popup_notification" = "Opnieuw laden na externe wijzigingen...";
@@ -2950,6 +2950,12 @@
 
 /* Password is Pwned (HIBP) */
 "audit_quick_summary_pwned" = "Wachtwoord is Pwned (HIBP)";
+
+/* Weak/Entropy */
+"audit_quick_summary_very_brief_low_entropy" = "Zwak/Entropie";
+
+/* Password is weak (low entropy) */
+"audit_quick_summary_password_low_entropy" = "Wachtwoord is zwak (lage entropie)";
 
 /* All Entries */
 "quick_view_title_all_entries_title" = "Alle items";
@@ -3876,7 +3882,7 @@
 "model_error_could_not_write_local_merge" = "Technische fout - Kan geen lokale kopieën schrijven voor vergelijking/samenvoeging.";
 
 /* Cannot merge in background or without key. */
-"model_error_cannot_merge_in_background" = "Cannot merge without Master Credentials.";
+"model_error_cannot_merge_in_background" = "Kan niet samenvoegen zonder Hoofd Wachtwoord.";
 
 /* Are you sure you want to always Auto-Merge when you have a Sync Conflict like this? */
 "sync_are_you_sure_always_auto_merge" = "Weet u zeker dat u automatisch wilt samenvoegen wanneer u een synchronisatieconflict als deze hebt?";
@@ -4000,10 +4006,10 @@
 "databases_vc_database_location_suffix_database_is_in_official_icloud_strongbox_folder" = "Strongbox iCloud";
 
 /* Watch Unlock */
-"preference_allow_watch_unlock" = "Watch Unlock";
+"preference_allow_watch_unlock" = "・Watch ontgrendeling";
 
 /* Watch Unlock - (Enable in System Preferences > Security & Privacy) */
-"preference_allow_watch_unlock_system_disabled" = "Watch Unlock - (Enable in System Preferences > Security & Privacy)";
+"preference_allow_watch_unlock_system_disabled" = "Iphone Watch ontgrendeling toestaan - (Inschakelen in Systeem Voorkeuren > Veiligheid & Privacy)";
 
 /* No Cloud Session Found */
 "cloud_sessions_prompt_no_session_found" = "Geen Cloud-sessie gevonden";
@@ -4081,28 +4087,28 @@
 "autofill_auto_unlock_try_10_minutes" = "Ik heb liever 10 minuten";
 
 /* AutoFill Quick Launch */
-"databases_toggle_autofill_quick_launch_context_menu" = "AutoFill Quick Launch";
+"databases_toggle_autofill_quick_launch_context_menu" = "Snel starten automatisch vullen";
 
 /* Title Matches */
-"autofill_search_title_matches_section_header" = "Title Matches";
+"autofill_search_title_matches_section_header" = "Titelovereenkomsten";
 
 /* URL Matches */
-"autofill_search_url_matches_section_header" = "URL Matches";
+"autofill_search_url_matches_section_header" = "URL-overeenkomsten";
 
 /* Other Matches */
-"autofill_search_other_matches_section_header" = "Other Matches";
+"autofill_search_other_matches_section_header" = "Andere overeenkomsten";
 
 /* Service ID */
-"autofill_search_title_service_id_section_header" = "Service ID";
+"autofill_search_title_service_id_section_header" = "Service-ID";
 
 /* The Service ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Service ID. */
-"autofill_search_service_id_section_footer" = "The Service ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Service ID. Tap to Copy.";
+"autofill_search_service_id_section_footer" = "Het service-ID is een ID dat door Automatisch invullen naar Strongbox wordt gestuurd. Het kan helpen bij het zoeken als u de URL van uw item instelt op het Service-ID. Tik om te kopiëren.";
 
 /* Results */
 "quick_view_title_no_matches_title" = "Resultaten";
 
 /* Unlock with Touch ID */
-"mac_unlock_database_with_touch_id" = "Unlock with Touch ID";
+"mac_unlock_database_with_touch_id" = "Ontgrendelen met Touch-ID";
 
 /* Unlock with Watch */
 "mac_unlock_database_with_apple_watch" = "Unlock with Watch";
@@ -4186,85 +4192,85 @@
 "subtitle_app_version_info_pro_fmt" = "Strongbox Pro %@";
 
 /* Remove Tag */
-"mac_undo_action_remove_tag" = "Remove Tag";
+"mac_undo_action_remove_tag" = "Tag verwijderen";
 
 /* Add Tag */
-"mac_undo_action_add_tag" = "Add Tag";
+"mac_undo_action_add_tag" = "Tag toevoegen";
 
 /* Tags */
 "generic_fieldname_tags" = "Tags";
 
 /* Enter a new tag to add for this item */
-"mac_vc_please_enter_a_tag" = "Enter a new tag to add to this item";
+"mac_vc_please_enter_a_tag" = "Voer een nieuwe tag in om toe te voegen aan dit item";
 
 /* Zxcvbn (Smart) */
 "password_strength_algo_zxcvbn_title" = "Zxcvbn (Smart)";
 
 /* Basic (Pooled Entropy) */
-"password_strength_algo_basic_title" = "Basic (Pooled Entropy)";
+"password_strength_algo_basic_title" = "Basis (Pooled Entropy)";
 
 /* Password Strength Algorithm */
-"prefs_vc_password_strength_algorithm" = "Password Strength Algorithm";
+"prefs_vc_password_strength_algorithm" = "Algoritme voor wachtwoordsterkte";
 
 /* Very Weak */
-"password_strength_category_very_weak" = "Very Weak";
+"password_strength_category_very_weak" = "Zeer zwak";
 
 /* Weak */
-"password_strength_category_weak" = "Weak";
+"password_strength_category_weak" = "Zwak";
 
 /* Mediocre */
-"password_strength_category_mediocre" = "Mediocre";
+"password_strength_category_mediocre" = "Middelmatig";
 
 /* Strong */
-"password_strength_category_strong" = "Strong";
+"password_strength_category_strong" = "Sterk";
 
 /* Very Strong */
-"password_strength_category_very_strong" = "Very Strong";
+"password_strength_category_very_strong" = "Zeer sterk";
 
 /* Overkill */
 "password_strength_category_overkill" = "Overkill";
 
 /* >100m years - L10n note: this is a time span - Password will take this long to crack */
-"password_time_to_crack_more_than_100m_years" = ">100m years";
+"password_time_to_crack_more_than_100m_years" = "> 100m jaar";
 
 /* %@m years - L10n note: this is a time span - Password will take X million years to crack, where X is the first parameter and is an integer (positive whole number). e.g. 45m years  - please try to abbreviate million for your locale */
-"password_time_to_crack_million_years_fmt" = "%@m years";
+"password_time_to_crack_million_years_fmt" = "%@m jaar";
 
 /* %@k years - L10n note: this is a time span - Password will take X thousand years to crack, where X is the first parameter and is an integer (positive whole number). e.g. 45k years  - please try to abbreviate thousand for your locale  */
-"password_time_to_crack_thousand_years_fmt" = "%@k years";
+"password_time_to_crack_thousand_years_fmt" = "%@k jaar";
 
 /* %@ centuries - L10n note: this is a time span - Password will take X centuries to crack, where X is the first parameter and is an integer (positive whole number). e.g. 5 centuries  - please try to abbreviate for your locale */
-"password_time_to_crack_centuries_fmt" = "%@ centuries";
+"password_time_to_crack_centuries_fmt" = "%@ eeuwen";
 
 /* %@ years  - L10n note: this is a time span - Password will take X years to crack, where X is the first parameter and is an integer (positive whole number). e.g. 5 years  - please try to abbreviate for your locale */
-"password_time_to_crack_years_fmt" = "%@ years";
+"password_time_to_crack_years_fmt" = "%@ jaar";
 
 /* %@ days - L10n note: this is a time span - Password will take X days to crack, where X is the first parameter and is an integer (positive whole number). e.g. 5 days  - please try to abbreviate for your locale */
-"password_time_to_crack_days_fmt" = "%@ days";
+"password_time_to_crack_days_fmt" = "%@ dagen";
 
 /* %@ hours - L10n note: this is a time span - Password will take X hours to crack, where X is the first parameter and is an integer (positive whole number). e.g. 5 hours  - please try to abbreviate for your locale */
-"password_time_to_crack_hours_fmt" = "%@ hours";
+"password_time_to_crack_hours_fmt" = "%@ uur";
 
 /* Adversary Guess Rate */
-"prefs_vc_password_strength_adversary_crack_rate" = "Adversary Guess Rate";
+"prefs_vc_password_strength_adversary_crack_rate" = "Tegenstanders gokpercentage";
 
 /* Thousand */
-"number_suffix_thousand" = "Thousand";
+"number_suffix_thousand" = "Duizend";
 
 /* Million */
-"number_suffix_million" = "Million";
+"number_suffix_million" = "Miljoen";
 
 /* Billion */
-"number_suffix_billion" = "Billion";
+"number_suffix_billion" = "Biljoen";
 
 /* Trillion */
 "number_suffix_trillion" = "Trillion";
 
 /* Quadrillion */
-"number_suffix_quadrillion" = "Quadrillion";
+"number_suffix_quadrillion" = "Quadriljoen";
 
 /* Quintillion */
 "number_suffix_quintillion" = "Quintillion";
 
 /* %@ / second - L10n:  First parameter is the number of guesses per second for an adversary. So e.g.  '1 billion / second' */
-"adversary_guess_rate_fmt" = "%@ / second";
+"adversary_guess_rate_fmt" = "%@ /seconde";
