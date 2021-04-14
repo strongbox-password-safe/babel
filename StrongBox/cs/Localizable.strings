@@ -2951,6 +2951,12 @@
 /* Password is Pwned (HIBP) */
 "audit_quick_summary_pwned" = "Toto heslo je Pwned (HIBP)";
 
+/* Weak/Entropy */
+"audit_quick_summary_very_brief_low_entropy" = "Slabá/entropie";
+
+/* Password is weak (low entropy) */
+"audit_quick_summary_password_low_entropy" = "Heslo je slabé (nízké entropie)";
+
 /* All Entries */
 "quick_view_title_all_entries_title" = "Všechny položky";
 
@@ -4171,10 +4177,10 @@
 "safes_vc_slide_left_open_online_action" = "Otevřít online";
 
 /* At least one of these database is open and unlocked. You must lock this database before you can remove it. */
-"mac_at_least_one_db_unlocked_cannot_remove" = "At least one of these databases is unlocked. You must lock this database before you can remove it.";
+"mac_at_least_one_db_unlocked_cannot_remove" = "Alespoň jedna z těchto databází je odemčena. Před odstraněním musíte tuto databázi zamknout.";
 
 /* About Strongbox %@ - L10n note: 1st parameter is the App Version, e.g. 'About Strongbox 1.52.17' */
-"prefs_vc_app_version_info_none_pro_fmt" = "About Strongbox %@";
+"prefs_vc_app_version_info_none_pro_fmt" = "O Strongbox %@";
 
 /* About Strongbox Pro %@ - L10n note: 1st parameter is the App Version, e.g. 'About Strongbox Pro 1.52.17' */
 "prefs_vc_app_version_info_pro_fmt" = "O Strongbox Pro %@";
@@ -4186,13 +4192,94 @@
 "subtitle_app_version_info_pro_fmt" = "Strongbox Pro %@";
 
 /* Remove Tag */
-"mac_undo_action_remove_tag" = "Remove Tag";
+"mac_undo_action_remove_tag" = "Odebrat štítek";
 
 /* Add Tag */
-"mac_undo_action_add_tag" = "Add Tag";
+"mac_undo_action_add_tag" = "Přidat štítek";
 
 /* Tags */
 "generic_fieldname_tags" = "Štítky";
 
 /* Enter a new tag to add for this item */
-"mac_vc_please_enter_a_tag" = "Enter a new tag to add to this item";
+"mac_vc_please_enter_a_tag" = "Zadejte nový štítek, který chcete přidat do této položky";
+
+/* Zxcvbn (Smart) */
+"password_strength_algo_zxcvbn_title" = "Zxcvbn (chytrý)";
+
+/* Basic (Pooled Entropy) */
+"password_strength_algo_basic_title" = "Základní (sdružená entropie)";
+
+/* Password Strength Algorithm */
+"prefs_vc_password_strength_algorithm" = "Algoritmus síly hesla";
+
+/* Very Weak */
+"password_strength_category_very_weak" = "Velmi slabá";
+
+/* Weak */
+"password_strength_category_weak" = "Slabá";
+
+/* Mediocre */
+"password_strength_category_mediocre" = "Průměrná";
+
+/* Strong */
+"password_strength_category_strong" = "Silná";
+
+/* Very Strong */
+"password_strength_category_very_strong" = "Velmi silná";
+
+/* Overkill */
+"password_strength_category_overkill" = "Nesmyslná";
+
+/* >100m years - L10n note: this is a time span - Password will take this long to crack */
+"password_time_to_crack_more_than_100m_years" = "> 100 milionů let";
+
+/* %@m years - L10n note: this is a time span - Password will take X million years to crack, where X is the first parameter and is an integer (positive whole number). e.g. 45m years  - please try to abbreviate million for your locale */
+"password_time_to_crack_million_years_fmt" = "%@ miliónů let";
+
+/* %@k years - L10n note: this is a time span - Password will take X thousand years to crack, where X is the first parameter and is an integer (positive whole number). e.g. 45k years  - please try to abbreviate thousand for your locale  */
+"password_time_to_crack_thousand_years_fmt" = "%@ tisíců let";
+
+/* %@ centuries - L10n note: this is a time span - Password will take X centuries to crack, where X is the first parameter and is an integer (positive whole number). e.g. 5 centuries  - please try to abbreviate for your locale */
+"password_time_to_crack_centuries_fmt" = "%@ staletí";
+
+/* %@ years  - L10n note: this is a time span - Password will take X years to crack, where X is the first parameter and is an integer (positive whole number). e.g. 5 years  - please try to abbreviate for your locale */
+"password_time_to_crack_years_fmt" = "%@ roků";
+
+/* %@ days - L10n note: this is a time span - Password will take X days to crack, where X is the first parameter and is an integer (positive whole number). e.g. 5 days  - please try to abbreviate for your locale */
+"password_time_to_crack_days_fmt" = "%@ dnů";
+
+/* %@ hours - L10n note: this is a time span - Password will take X hours to crack, where X is the first parameter and is an integer (positive whole number). e.g. 5 hours  - please try to abbreviate for your locale */
+"password_time_to_crack_hours_fmt" = "%@ hodin";
+
+/* Adversary Guess Rate */
+"prefs_vc_password_strength_adversary_crack_rate" = "Rychlost odhadu protivníka";
+
+/* Thousand */
+"number_suffix_thousand" = "Tisíc";
+
+/* Million */
+"number_suffix_million" = "Milion";
+
+/* Billion */
+"number_suffix_billion" = "Miliarda";
+
+/* Trillion */
+"number_suffix_trillion" = "Trilion";
+
+/* Quadrillion */
+"number_suffix_quadrillion" = "Kvadrilion";
+
+/* Quintillion */
+"number_suffix_quintillion" = "Kvintilion";
+
+/* %@ / second - L10n:  First parameter is the number of guesses per second for an adversary. So e.g.  '1 billion / second' */
+"adversary_guess_rate_fmt" = "%@ /sekundu";
+
+/* 🚀 Sale Now On! 🚀 */
+"prompt_sale_now_on_title" = "🚀 Je tu sleva! 🚀";
+
+/* Hi there! Strongbox Pro is now 20% off for a very short period only.\n\nWould you like to grab it now and support Strongbox development? Go on, treat yourself! 😎 */
+"prompt_sale_now_on_message" = "Ahoj! Strongbox Pro je nyní zlevněn o 20%, ale pouze na velmi krátkou dobu.\n\nChcete ho nyní získat a podpořit tak vývoj Strongboxu? Nyní je šance! 😎";
+
+/* 🚀 20% Off Sale 🚀 Go Pro Now 🔥 */
+"safesvc_upgrade_button_sale_now_on_title" = "🚀 20% sleva 🚀 Využijte k získání Pro 🔥";

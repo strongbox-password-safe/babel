@@ -135,7 +135,7 @@
 "safesvc_icloud_no_longer_available_title" = "iCloud 不再可用";
 
 /* iCloud has become unavailable. Your iCloud databases remain stored in iCloud but they will no longer sync to or from this device though you may still access them here. */
-"safesvc_icloud_no_longer_available_message" = "iCloud has become unavailable. Your iCloud databases remain stored in iCloud but they will no longer sync to or from this device though you may still access them here.";
+"safesvc_icloud_no_longer_available_message" = "iCloud 已不可用。您的 iCloud 数据库仍存储在 iCloud 中，但它们将不再与此设备同步，不过您仍可在此处访问这些数据库。";
 
 /* You can now use iCloud with Strongbox. Should your current local databases be migrated to iCloud and available on all your devices? (NB: Your existing cloud databases will not be affected) */
 "safesvc_migrate_local_existing" = "现在，您可以将 iCloud 与 Strongbox 一起使用。 是否选择将当前本地数据库迁移到 iCloud 并在所有设备上可用? (注: 您现有的云数据库不受影响)";
@@ -2213,7 +2213,7 @@
 "mac_error_could_not_open_key_file" = "无法打开密钥文件。";
 
 /* This database has been changed by another user or application. Would you like to reload the latest version? */
-"mac_db_changed_externally_reload_yes_or_no" = "This database has been changed by another user or application. Would you like to reload the latest version?";
+"mac_db_changed_externally_reload_yes_or_no" = "此数据库已由另一个用户或应用程序更改。要重新载入最新版本吗？";
 
 /* Reloading after external changes... */
 "mac_db_reloading_after_external_changes_popup_notification" = "在外部更改后重新加载...";
@@ -2467,7 +2467,7 @@
 "mac_storage_provider_name_file" = "基于文件";
 
 /* There was a problem opening this file. */
-"mac_problem_opening_db" = "There was a problem opening this file.";
+"mac_problem_opening_db" = "在打开此文件时出现问题。";
 
 /* Create New Password Database */
 "mac_create_new_database_title" = "创建新的密码数据库";
@@ -2950,6 +2950,12 @@
 
 /* Password is Pwned (HIBP) */
 "audit_quick_summary_pwned" = "密码已泄露 (HIBP)";
+
+/* Weak/Entropy */
+"audit_quick_summary_very_brief_low_entropy" = "Weak/Entropy";
+
+/* Password is weak (low entropy) */
+"audit_quick_summary_password_low_entropy" = "Password is weak (low entropy)";
 
 /* All Entries */
 "quick_view_title_all_entries_title" = "所有条目";
@@ -3876,7 +3882,7 @@
 "model_error_could_not_write_local_merge" = "技术错误 - 无法写入本地副本进行比较/合并。";
 
 /* Cannot merge in background or without key. */
-"model_error_cannot_merge_in_background" = "Cannot merge without Master Credentials.";
+"model_error_cannot_merge_in_background" = "没有主凭证，无法合并。";
 
 /* Are you sure you want to always Auto-Merge when you have a Sync Conflict like this? */
 "sync_are_you_sure_always_auto_merge" = "您确定要在出现同步冲突时总是自动合并吗？";
@@ -4000,10 +4006,10 @@
 "databases_vc_database_location_suffix_database_is_in_official_icloud_strongbox_folder" = "Strongbox iCloud";
 
 /* Watch Unlock */
-"preference_allow_watch_unlock" = "Watch Unlock";
+"preference_allow_watch_unlock" = "Watch 解锁";
 
 /* Watch Unlock - (Enable in System Preferences > Security & Privacy) */
-"preference_allow_watch_unlock_system_disabled" = "Watch Unlock - (Enable in System Preferences > Security & Privacy)";
+"preference_allow_watch_unlock_system_disabled" = "Watch 解锁 - (在系统首选项 > 安全性和隐私中启用)";
 
 /* No Cloud Session Found */
 "cloud_sessions_prompt_no_session_found" = "未找到云端会话";
@@ -4024,157 +4030,157 @@
 "third_party_storage_privacy_option_opt_in" = "选择加入，让我们开始...";
 
 /* Sync Successful */
-"notification_sync_successful" = "Sync Successful";
+"notification_sync_successful" = "同步成功";
 
 /* Add SFTP Database... (Pro) */
-"mac_add_sftp_pro_only" = "Add SFTP Database... (Pro)";
+"mac_add_sftp_pro_only" = "添加 SFTP 数据库... (Pro)";
 
 /* Add WebDAV Database... (Pro) */
-"mac_add_webdav_pro_only" = "Add WebDAV Database... (Pro)";
+"mac_add_webdav_pro_only" = "添加 WebDAV 数据库... (Pro)";
 
 /* This database can only be unlocked by Strongbox Pro because it is stored via SFTP or WebDAV.\n\nPlease Upgrade. */
-"mac_non_file_database_pro_message" = "This database can only be unlocked by Strongbox Pro because it is stored via SFTP or WebDAV.\n\nPlease Upgrade.";
+"mac_non_file_database_pro_message" = "此数据库只能由 Strongbox Pro 解锁，因为它通过 SFTP 或 WebDAV 存储。\n\n请升级。";
 
 /* Item Copied to Clipboard */
-"mac_copied_item_to_clipboard" = "Item Copied to Clipboard";
+"mac_copied_item_to_clipboard" = "项目已复制到剪切板";
 
 /* Items Copied to Clipboard */
-"mac_copied_items_to_clipboard" = "Items Copied to Clipboard";
+"mac_copied_items_to_clipboard" = "项目已复制到剪切板";
 
 /* Item Pasted from Clipboard */
-"mac_item_pasted_from_clipboard" = "Item Pasted from Clipboard";
+"mac_item_pasted_from_clipboard" = "项目自剪贴板粘贴";
 
 /* Items Pasted from Clipboard */
-"mac_items_pasted_from_clipboard" = "Items Pasted from Clipboard";
+"mac_items_pasted_from_clipboard" = "项目自剪贴板粘贴";
 
 /* Item Duplicated */
-"mac_item_duplicated" = "Item Duplicated";
+"mac_item_duplicated" = "项目重复";
 
 /* File - Localization Note: This should be very short, 3-4 characters if possible. This indicates a regular file on the file system on a Mac. */
 "storage_provider_name_mac_file_short" = "文件";
 
 /* Done. ✅ */
-"sync_log_status_done" = "Done. ✅";
+"sync_log_status_done" = "完成。✅";
 
 /* TOTP Copied */
-"autofill_info_totp_copied_title" = "TOTP Copied";
+"autofill_info_totp_copied_title" = "已复制 TOTP";
 
 /* Your TOTP Code has been copied to the clipboard. */
-"autofill_info_totp_copied_message" = "Your TOTP Code has been copied to the clipboard.";
+"autofill_info_totp_copied_message" = "您的 TOTP 代码已复制到剪贴板。";
 
 /* Convenience Auto Unlock */
-"prefs_vc_autofill_convenience_auto_unlock" = "Convenience Auto Unlock";
+"prefs_vc_autofill_convenience_auto_unlock" = "便捷自动解锁";
 
 /* Not Configured */
-"generic_preference_not_configured" = "Not Configured";
+"generic_preference_not_configured" = "未配置";
 
 /* Auto Unlock Feature */
-"autofill_auto_unlock_title" = "Auto Unlock Feature";
+"autofill_auto_unlock_title" = "自动解锁功能";
 
 /* Auto Unlock lets you avoid having to repeatedly unlock your database for a configurable time period. Would you like to use this handy feature?\n\nNB: Your password is stored in the Secure Enclave for this feature. */
-"autofill_auto_unlock_message" = "Auto Unlock lets you avoid having to repeatedly unlock your database for a configurable time period. Would you like to use this handy feature?\n\nNB: Your password is stored in the Secure Enclave for this feature.";
+"autofill_auto_unlock_message" = "通过 “自动解锁” ，您可以避免在可选的时间段内重复解锁数据库。您要使用此便捷功能吗？\n\nNB: 您的密码存储在安全隔区中。";
 
 /* Great, let try 3 mins */
-"autofill_auto_unlock_try_3_minutes" = "Great, lets try 3 mins";
+"autofill_auto_unlock_try_3_minutes" = "很好，请尝试 3 分钟";
 
 /* I'd prefer 10 mins */
-"autofill_auto_unlock_try_10_minutes" = "I'd prefer 10 mins";
+"autofill_auto_unlock_try_10_minutes" = "我更喜欢 10 分钟";
 
 /* AutoFill Quick Launch */
-"databases_toggle_autofill_quick_launch_context_menu" = "AutoFill Quick Launch";
+"databases_toggle_autofill_quick_launch_context_menu" = "自动填充快速启动";
 
 /* Title Matches */
-"autofill_search_title_matches_section_header" = "Title Matches";
+"autofill_search_title_matches_section_header" = "标题匹配项";
 
 /* URL Matches */
-"autofill_search_url_matches_section_header" = "URL Matches";
+"autofill_search_url_matches_section_header" = "URL 匹配项";
 
 /* Other Matches */
-"autofill_search_other_matches_section_header" = "Other Matches";
+"autofill_search_other_matches_section_header" = "其他匹配项";
 
 /* Service ID */
-"autofill_search_title_service_id_section_header" = "Service ID";
+"autofill_search_title_service_id_section_header" = "服务 ID";
 
 /* The Service ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Service ID. */
-"autofill_search_service_id_section_footer" = "The Service ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Service ID. Tap to Copy.";
+"autofill_search_service_id_section_footer" = "服务 ID 是自动填充发送到 Strongbox 的识别符。如果您设置条目的 URL 与服务 ID 匹配，它可以帮助你搜索。点击复制。";
 
 /* Results */
 "quick_view_title_no_matches_title" = "结果";
 
 /* Unlock with Touch ID */
-"mac_unlock_database_with_touch_id" = "Unlock with Touch ID";
+"mac_unlock_database_with_touch_id" = "使用 Touch ID 解锁";
 
 /* Unlock with Watch */
-"mac_unlock_database_with_apple_watch" = "Unlock with Watch";
+"mac_unlock_database_with_apple_watch" = "使用 Watch 解锁";
 
 /* Unlock with Touch ID or Watch */
 "mac_unlock_database_with_touch_or_watch" = "使用 Touch ID 或 Watch 解锁";
 
 /* Blur */
-"app_privacy_shield_mode_blur" = "Blur";
+"app_privacy_shield_mode_blur" = "虚化";
 
 /* Pixellate */
-"app_privacy_shield_mode_pixellate" = "Pixellate";
+"app_privacy_shield_mode_pixellate" = "像素化";
 
 /* Blue Screen */
-"app_privacy_shield_mode_blue_screen" = "Blue Screen";
+"app_privacy_shield_mode_blue_screen" = "蓝色屏幕";
 
 /* Privacy Shield View */
-"prefs_vc_privacy_shield_view" = "Privacy Shield View";
+"prefs_vc_privacy_shield_view" = "隐私保护视图";
 
 /* Always Open Offline */
-"database_properties_title_always_offline" = "Always Open Offline";
+"database_properties_title_always_offline" = "总是离线打开";
 
 /* You can choose to always open offline whenever you tap on this database. No sync will be performed on unlock, though a background sync can be performed by pulling down on your Databases List. */
-"database_properties_subtitle_always_offline" = "You can choose to always open offline whenever you tap on this database. No sync will be performed on unlock, though a background sync can be performed by pulling down on your Databases List.";
+"database_properties_subtitle_always_offline" = "您可以选择每当您点击此数据库时始终离线打开。 当解锁时将不会执行同步，但可以通过下拉数据库列表来执行后台同步。";
 
 /* What to do if Strongbox detects you are Offline when opening a database. */
-"database_properties_subtitle_offline_detected_behaviour" = "What to do if Strongbox detects you are Offline when opening a database.";
+"database_properties_subtitle_offline_detected_behaviour" = "当打开数据库时，如果 Strongbox 检测到您是离线的，该怎么办？";
 
 /* Prompt */
-"offline_detected_behaviour_ask_immediately" = "Prompt";
+"offline_detected_behaviour_ask_immediately" = "提示";
 
 /* Try to Connect */
-"offline_detected_behaviour_try_connect_anyway" = "Try to Connect";
+"offline_detected_behaviour_try_connect_anyway" = "尝试连接";
 
 /* Open Offline (No Prompt) */
-"offline_detected_behaviour_open_offline" = "Open Offline (No Prompt)";
+"offline_detected_behaviour_open_offline" = "离线打开（无提示）";
 
 /* There was a problem updating your database in the background and your assistance is required to resolve. Would you like to resolve this problem now? */
-"sync_status_user_interaction_required_prompt_yes_or_no" = "There was a problem updating your database and your assistance is required to resolve. Would you like to resolve this problem now?";
+"sync_status_user_interaction_required_prompt_yes_or_no" = "更新您的数据库时出现问题，需要您的帮助来解决。您想现在解决这个问题吗？";
 
 /* Error Updating */
-"sync_status_error_updating_title" = "Error Updating";
+"sync_status_error_updating_title" = "更新错误";
 
 /* Recycle (L10n Note: This is an action, e.g. To Recycle and item, to send it to the Recycle Bin) */
-"generic_action_verb_recycle" = "Recycle";
+"generic_action_verb_recycle" = "回收";
 
 /* There was an error updating your database. Would you like to try updating again, or would you prefer to revert to the latest successful update? */
-"sync_status_error_updating_try_again_prompt" = "There was an error updating your database. Would you like to try updating again, or would you prefer to revert to the latest successful update?";
+"sync_status_error_updating_try_again_prompt" = "更新数据库时发生错误。您是否希望再次尝试更新，还是希望恢复到最近的更新？";
 
 /* Try Again */
-"sync_status_error_updating_try_again_action" = "Try Again";
+"sync_status_error_updating_try_again_action" = "再试一次";
 
 /* Revert to Latest */
-"sync_status_error_updating_revert_action" = "Revert to Latest";
+"sync_status_error_updating_revert_action" = "恢复为最近";
 
 /* Assistance Required */
-"sync_status_user_interaction_required_prompt_title" = "Assistance Required";
+"sync_status_user_interaction_required_prompt_title" = "需要帮助";
 
 /* Internet Unavailable Behaviour */
-"database_properties_title_offline_detected_behaviour" = "Internet Unavailable Behaviour";
+"database_properties_title_offline_detected_behaviour" = "网络不可用行为";
 
 /* Could Not Connect Behaviour */
-"database_properties_title_could_not_connect_behaviour" = "Could Not Connect Behaviour";
+"database_properties_title_could_not_connect_behaviour" = "无法连接行为";
 
 /* Open Online - NB: Action to open a database in Online mode, only applies to databases with 'Always Open Offline' set. */
-"safes_vc_slide_left_open_online_action" = "Open Online";
+"safes_vc_slide_left_open_online_action" = "在线打开";
 
 /* At least one of these database is open and unlocked. You must lock this database before you can remove it. */
-"mac_at_least_one_db_unlocked_cannot_remove" = "At least one of these databases is unlocked. You must lock this database before you can remove it.";
+"mac_at_least_one_db_unlocked_cannot_remove" = "至少一个数据库已解锁。必须先锁定此数据库，然后才能将其移除。";
 
 /* About Strongbox %@ - L10n note: 1st parameter is the App Version, e.g. 'About Strongbox 1.52.17' */
-"prefs_vc_app_version_info_none_pro_fmt" = "About Strongbox %@";
+"prefs_vc_app_version_info_none_pro_fmt" = "关于 Strongbox %@";
 
 /* About Strongbox Pro %@ - L10n note: 1st parameter is the App Version, e.g. 'About Strongbox Pro 1.52.17' */
 "prefs_vc_app_version_info_pro_fmt" = "关于 Strongbox Pro %@";
@@ -4186,13 +4192,94 @@
 "subtitle_app_version_info_pro_fmt" = "Strongbox Pro %@";
 
 /* Remove Tag */
-"mac_undo_action_remove_tag" = "Remove Tag";
+"mac_undo_action_remove_tag" = "移除标签";
 
 /* Add Tag */
-"mac_undo_action_add_tag" = "Add Tag";
+"mac_undo_action_add_tag" = "添加标签";
 
 /* Tags */
 "generic_fieldname_tags" = "标签";
 
 /* Enter a new tag to add for this item */
-"mac_vc_please_enter_a_tag" = "Enter a new tag to add to this item";
+"mac_vc_please_enter_a_tag" = "输入一个新标签以添加到此项目";
+
+/* Zxcvbn (Smart) */
+"password_strength_algo_zxcvbn_title" = "Zxcvbn (Smart)";
+
+/* Basic (Pooled Entropy) */
+"password_strength_algo_basic_title" = "Basic (Pooled Entropy)";
+
+/* Password Strength Algorithm */
+"prefs_vc_password_strength_algorithm" = "Password Strength Algorithm";
+
+/* Very Weak */
+"password_strength_category_very_weak" = "Very Weak";
+
+/* Weak */
+"password_strength_category_weak" = "Weak";
+
+/* Mediocre */
+"password_strength_category_mediocre" = "Mediocre";
+
+/* Strong */
+"password_strength_category_strong" = "Strong";
+
+/* Very Strong */
+"password_strength_category_very_strong" = "Very Strong";
+
+/* Overkill */
+"password_strength_category_overkill" = "Overkill";
+
+/* >100m years - L10n note: this is a time span - Password will take this long to crack */
+"password_time_to_crack_more_than_100m_years" = ">100m years";
+
+/* %@m years - L10n note: this is a time span - Password will take X million years to crack, where X is the first parameter and is an integer (positive whole number). e.g. 45m years  - please try to abbreviate million for your locale */
+"password_time_to_crack_million_years_fmt" = "%@m years";
+
+/* %@k years - L10n note: this is a time span - Password will take X thousand years to crack, where X is the first parameter and is an integer (positive whole number). e.g. 45k years  - please try to abbreviate thousand for your locale  */
+"password_time_to_crack_thousand_years_fmt" = "%@k years";
+
+/* %@ centuries - L10n note: this is a time span - Password will take X centuries to crack, where X is the first parameter and is an integer (positive whole number). e.g. 5 centuries  - please try to abbreviate for your locale */
+"password_time_to_crack_centuries_fmt" = "%@ centuries";
+
+/* %@ years  - L10n note: this is a time span - Password will take X years to crack, where X is the first parameter and is an integer (positive whole number). e.g. 5 years  - please try to abbreviate for your locale */
+"password_time_to_crack_years_fmt" = "%@ years";
+
+/* %@ days - L10n note: this is a time span - Password will take X days to crack, where X is the first parameter and is an integer (positive whole number). e.g. 5 days  - please try to abbreviate for your locale */
+"password_time_to_crack_days_fmt" = "%@ days";
+
+/* %@ hours - L10n note: this is a time span - Password will take X hours to crack, where X is the first parameter and is an integer (positive whole number). e.g. 5 hours  - please try to abbreviate for your locale */
+"password_time_to_crack_hours_fmt" = "%@ hours";
+
+/* Adversary Guess Rate */
+"prefs_vc_password_strength_adversary_crack_rate" = "Adversary Guess Rate";
+
+/* Thousand */
+"number_suffix_thousand" = "Thousand";
+
+/* Million */
+"number_suffix_million" = "Million";
+
+/* Billion */
+"number_suffix_billion" = "Billion";
+
+/* Trillion */
+"number_suffix_trillion" = "Trillion";
+
+/* Quadrillion */
+"number_suffix_quadrillion" = "Quadrillion";
+
+/* Quintillion */
+"number_suffix_quintillion" = "Quintillion";
+
+/* %@ / second - L10n:  First parameter is the number of guesses per second for an adversary. So e.g.  '1 billion / second' */
+"adversary_guess_rate_fmt" = "%@ / second";
+
+/* 🚀 Sale Now On! 🚀 */
+"prompt_sale_now_on_title" = "🚀 Sale Now On! 🚀";
+
+/* Hi there! Strongbox Pro is now 20% off for a very short period only.\n\nWould you like to grab it now and support Strongbox development? Go on, treat yourself! 😎 */
+"prompt_sale_now_on_message" = "Hi there! Strongbox Pro is now 20% off for a very short period only.\n\nWould you like to grab it now and support Strongbox development? Go on, treat yourself! 😎";
+
+/* 🚀 20% Off Sale 🚀 Go Pro Now 🔥 */
+"safesvc_upgrade_button_sale_now_on_title" = "🚀 20% Off Sale 🚀 Go Pro Now 🔥";

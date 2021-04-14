@@ -2951,6 +2951,12 @@
 /* Password is Pwned (HIBP) */
 "audit_quick_summary_pwned" = "Пароль викрито (HIBP)";
 
+/* Weak/Entropy */
+"audit_quick_summary_very_brief_low_entropy" = "Слабкий/Ентропія";
+
+/* Password is weak (low entropy) */
+"audit_quick_summary_password_low_entropy" = "Пароль слабкий (низька ентропія)";
+
 /* All Entries */
 "quick_view_title_all_entries_title" = "Усі записи";
 
@@ -4171,10 +4177,10 @@
 "safes_vc_slide_left_open_online_action" = "Відкрити онлайн";
 
 /* At least one of these database is open and unlocked. You must lock this database before you can remove it. */
-"mac_at_least_one_db_unlocked_cannot_remove" = "At least one of these databases is unlocked. You must lock this database before you can remove it.";
+"mac_at_least_one_db_unlocked_cannot_remove" = "Принаймні одна з цих баз паролів відімкнена. Ви повинні замкнути цю базу паролів, щоб можна було її вилучити.";
 
 /* About Strongbox %@ - L10n note: 1st parameter is the App Version, e.g. 'About Strongbox 1.52.17' */
-"prefs_vc_app_version_info_none_pro_fmt" = "About Strongbox %@";
+"prefs_vc_app_version_info_none_pro_fmt" = "Про Strongbox %@";
 
 /* About Strongbox Pro %@ - L10n note: 1st parameter is the App Version, e.g. 'About Strongbox Pro 1.52.17' */
 "prefs_vc_app_version_info_pro_fmt" = "Про Strongbox Pro %@";
@@ -4186,13 +4192,94 @@
 "subtitle_app_version_info_pro_fmt" = "Strongbox Pro %@";
 
 /* Remove Tag */
-"mac_undo_action_remove_tag" = "Remove Tag";
+"mac_undo_action_remove_tag" = "Вилучити мітку";
 
 /* Add Tag */
-"mac_undo_action_add_tag" = "Add Tag";
+"mac_undo_action_add_tag" = "Додати мітку";
 
 /* Tags */
 "generic_fieldname_tags" = "Мітки";
 
 /* Enter a new tag to add for this item */
-"mac_vc_please_enter_a_tag" = "Enter a new tag to add to this item";
+"mac_vc_please_enter_a_tag" = "Введіть нову мітку для цього запису";
+
+/* Zxcvbn (Smart) */
+"password_strength_algo_zxcvbn_title" = "Zxcvbn (Smart)";
+
+/* Basic (Pooled Entropy) */
+"password_strength_algo_basic_title" = "Звичайний (Пул ентропії)";
+
+/* Password Strength Algorithm */
+"prefs_vc_password_strength_algorithm" = "Алгоритм надійності пароля";
+
+/* Very Weak */
+"password_strength_category_very_weak" = "Дуже слабкий";
+
+/* Weak */
+"password_strength_category_weak" = "Слабкий";
+
+/* Mediocre */
+"password_strength_category_mediocre" = "Середній";
+
+/* Strong */
+"password_strength_category_strong" = "Надійний";
+
+/* Very Strong */
+"password_strength_category_very_strong" = "Дуже надійний";
+
+/* Overkill */
+"password_strength_category_overkill" = "Надзвичайний";
+
+/* >100m years - L10n note: this is a time span - Password will take this long to crack */
+"password_time_to_crack_more_than_100m_years" = ">100 млн років";
+
+/* %@m years - L10n note: this is a time span - Password will take X million years to crack, where X is the first parameter and is an integer (positive whole number). e.g. 45m years  - please try to abbreviate million for your locale */
+"password_time_to_crack_million_years_fmt" = "%@ млн років";
+
+/* %@k years - L10n note: this is a time span - Password will take X thousand years to crack, where X is the first parameter and is an integer (positive whole number). e.g. 45k years  - please try to abbreviate thousand for your locale  */
+"password_time_to_crack_thousand_years_fmt" = "%@ тис років";
+
+/* %@ centuries - L10n note: this is a time span - Password will take X centuries to crack, where X is the first parameter and is an integer (positive whole number). e.g. 5 centuries  - please try to abbreviate for your locale */
+"password_time_to_crack_centuries_fmt" = "%@ століть";
+
+/* %@ years  - L10n note: this is a time span - Password will take X years to crack, where X is the first parameter and is an integer (positive whole number). e.g. 5 years  - please try to abbreviate for your locale */
+"password_time_to_crack_years_fmt" = "%@ років";
+
+/* %@ days - L10n note: this is a time span - Password will take X days to crack, where X is the first parameter and is an integer (positive whole number). e.g. 5 days  - please try to abbreviate for your locale */
+"password_time_to_crack_days_fmt" = "%@ днів";
+
+/* %@ hours - L10n note: this is a time span - Password will take X hours to crack, where X is the first parameter and is an integer (positive whole number). e.g. 5 hours  - please try to abbreviate for your locale */
+"password_time_to_crack_hours_fmt" = "%@ годин";
+
+/* Adversary Guess Rate */
+"prefs_vc_password_strength_adversary_crack_rate" = "Оцінка зловмисника";
+
+/* Thousand */
+"number_suffix_thousand" = "Тисяча";
+
+/* Million */
+"number_suffix_million" = "Мільйон";
+
+/* Billion */
+"number_suffix_billion" = "Мільярд";
+
+/* Trillion */
+"number_suffix_trillion" = "Трильйон";
+
+/* Quadrillion */
+"number_suffix_quadrillion" = "Квадрильйон";
+
+/* Quintillion */
+"number_suffix_quintillion" = "Квінтільйон";
+
+/* %@ / second - L10n:  First parameter is the number of guesses per second for an adversary. So e.g.  '1 billion / second' */
+"adversary_guess_rate_fmt" = "%@ за секунду";
+
+/* 🚀 Sale Now On! 🚀 */
+"prompt_sale_now_on_title" = "🚀 Розпродаж! 🚀";
+
+/* Hi there! Strongbox Pro is now 20% off for a very short period only.\n\nWould you like to grab it now and support Strongbox development? Go on, treat yourself! 😎 */
+"prompt_sale_now_on_message" = "Привіт! Strongbox Pro зараз можна придбати зі знижкою 20% лише протягом короткого періоду.\n\nЧи не бажаєте придбати зараз і підтримати розробку Strongbox? Вперед, порадуйте себе! 😎";
+
+/* 🚀 20% Off Sale 🚀 Go Pro Now 🔥 */
+"safesvc_upgrade_button_sale_now_on_title" = "🚀 Знижка 20% 🚀 Придбайте Pro зараз 🔥";

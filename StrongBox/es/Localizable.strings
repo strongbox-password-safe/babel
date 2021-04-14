@@ -2951,6 +2951,12 @@
 /* Password is Pwned (HIBP) */
 "audit_quick_summary_pwned" = "La contraseña está Pwned (HIBP)";
 
+/* Weak/Entropy */
+"audit_quick_summary_very_brief_low_entropy" = "Débil/Entropía";
+
+/* Password is weak (low entropy) */
+"audit_quick_summary_password_low_entropy" = "La contraseña es débil (entropía baja)";
+
 /* All Entries */
 "quick_view_title_all_entries_title" = "Todas las entradas";
 
@@ -4196,3 +4202,84 @@
 
 /* Enter a new tag to add for this item */
 "mac_vc_please_enter_a_tag" = "Introduzca una nueva etiqueta para añadir a este elemento";
+
+/* Zxcvbn (Smart) */
+"password_strength_algo_zxcvbn_title" = "Zxcvbn (Smart)";
+
+/* Basic (Pooled Entropy) */
+"password_strength_algo_basic_title" = "Básica (Entropía Agrupada)";
+
+/* Password Strength Algorithm */
+"prefs_vc_password_strength_algorithm" = "Algoritmo de fortaleza de la contraseña";
+
+/* Very Weak */
+"password_strength_category_very_weak" = "Muy débil";
+
+/* Weak */
+"password_strength_category_weak" = "Débil";
+
+/* Mediocre */
+"password_strength_category_mediocre" = "Mediocre";
+
+/* Strong */
+"password_strength_category_strong" = "Fuerte";
+
+/* Very Strong */
+"password_strength_category_very_strong" = "Muy Fuerte";
+
+/* Overkill */
+"password_strength_category_overkill" = "Extremo";
+
+/* >100m years - L10n note: this is a time span - Password will take this long to crack */
+"password_time_to_crack_more_than_100m_years" = ">100m años";
+
+/* %@m years - L10n note: this is a time span - Password will take X million years to crack, where X is the first parameter and is an integer (positive whole number). e.g. 45m years  - please try to abbreviate million for your locale */
+"password_time_to_crack_million_years_fmt" = "%@m años";
+
+/* %@k years - L10n note: this is a time span - Password will take X thousand years to crack, where X is the first parameter and is an integer (positive whole number). e.g. 45k years  - please try to abbreviate thousand for your locale  */
+"password_time_to_crack_thousand_years_fmt" = "%@k años";
+
+/* %@ centuries - L10n note: this is a time span - Password will take X centuries to crack, where X is the first parameter and is an integer (positive whole number). e.g. 5 centuries  - please try to abbreviate for your locale */
+"password_time_to_crack_centuries_fmt" = "%@ siglos";
+
+/* %@ years  - L10n note: this is a time span - Password will take X years to crack, where X is the first parameter and is an integer (positive whole number). e.g. 5 years  - please try to abbreviate for your locale */
+"password_time_to_crack_years_fmt" = "%@ años";
+
+/* %@ days - L10n note: this is a time span - Password will take X days to crack, where X is the first parameter and is an integer (positive whole number). e.g. 5 days  - please try to abbreviate for your locale */
+"password_time_to_crack_days_fmt" = "%@ días";
+
+/* %@ hours - L10n note: this is a time span - Password will take X hours to crack, where X is the first parameter and is an integer (positive whole number). e.g. 5 hours  - please try to abbreviate for your locale */
+"password_time_to_crack_hours_fmt" = "%@ horas";
+
+/* Adversary Guess Rate */
+"prefs_vc_password_strength_adversary_crack_rate" = "Frecuencia de adivinación del adversario";
+
+/* Thousand */
+"number_suffix_thousand" = "Mil";
+
+/* Million */
+"number_suffix_million" = "Millón";
+
+/* Billion */
+"number_suffix_billion" = "Mil millones";
+
+/* Trillion */
+"number_suffix_trillion" = "Billón";
+
+/* Quadrillion */
+"number_suffix_quadrillion" = "Cuatrillón";
+
+/* Quintillion */
+"number_suffix_quintillion" = "Quintillion";
+
+/* %@ / second - L10n:  First parameter is the number of guesses per second for an adversary. So e.g.  '1 billion / second' */
+"adversary_guess_rate_fmt" = "%@ / segundo";
+
+/* 🚀 Sale Now On! 🚀 */
+"prompt_sale_now_on_title" = "🚀 ¡Ya a la venta! 🚀";
+
+/* Hi there! Strongbox Pro is now 20% off for a very short period only.\n\nWould you like to grab it now and support Strongbox development? Go on, treat yourself! 😎 */
+"prompt_sale_now_on_message" = "¡Hola! Strongbox Pro está ahora al 20% de descuento durante un período muy corto.\n\n¿Quiere conseguirlo ahora y apoyar el desarrollo de Strongbox? Adelante, ¡dése el gusto! 😎";
+
+/* 🚀 20% Off Sale 🚀 Go Pro Now 🔥 */
+"safesvc_upgrade_button_sale_now_on_title" = "🚀 A la venta con 20% de descuento 🚀 Ir a la versión Pro ahora 🔥";

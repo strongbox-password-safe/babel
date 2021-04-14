@@ -2951,6 +2951,12 @@
 /* Password is Pwned (HIBP) */
 "audit_quick_summary_pwned" = "Senha Comprometida (HIBP)";
 
+/* Weak/Entropy */
+"audit_quick_summary_very_brief_low_entropy" = "Fraca/Entropia";
+
+/* Password is weak (low entropy) */
+"audit_quick_summary_password_low_entropy" = "Senha é fraca (baixa entropia)";
+
 /* All Entries */
 "quick_view_title_all_entries_title" = "Todos os Registros";
 
@@ -3120,7 +3126,7 @@
 "item_details_metadata_usage_count_field_title" = "Quantidade de Usos";
 
 /* Partial Recycle (Translators Note: If a user selects multiple items and some of them can't be recycled (e.g. The Recycle Bin itself, we ask if user is ok with that) */
-"browse_vc_partial_recycle_alert_title" = "Reciclagem Parcial";
+"browse_vc_partial_recycle_alert_title" = "Deleção Parcial";
 
 /* Some of the items you have selected cannot be recycled and will be permanently deleted. Is that OK? */
 "browse_vc_partial_recycle_alert_message" = "Alguns dos itens que você selecionou não podem ser enviados para a Lixeira e serão removidos de maneira permanente. Tudo bem?";
@@ -4147,7 +4153,7 @@
 "sync_status_error_updating_title" = "Erro ao Atualizar";
 
 /* Recycle (L10n Note: This is an action, e.g. To Recycle and item, to send it to the Recycle Bin) */
-"generic_action_verb_recycle" = "Reciclar";
+"generic_action_verb_recycle" = "Enviar p/ Lixeira";
 
 /* There was an error updating your database. Would you like to try updating again, or would you prefer to revert to the latest successful update? */
 "sync_status_error_updating_try_again_prompt" = "Houve um erro ao atualizar sua base de dados. Gostaria de tentar atualizar novamente, ou prefere usar a versão atualizada com êxito mais recente?";
@@ -4186,13 +4192,94 @@
 "subtitle_app_version_info_pro_fmt" = "Strongbox Pro %@";
 
 /* Remove Tag */
-"mac_undo_action_remove_tag" = "Remove Tag";
+"mac_undo_action_remove_tag" = "Remover Etiqueta";
 
 /* Add Tag */
-"mac_undo_action_add_tag" = "Add Tag";
+"mac_undo_action_add_tag" = "Adicionar Etiqueta";
 
 /* Tags */
 "generic_fieldname_tags" = "Etiquetas";
 
 /* Enter a new tag to add for this item */
-"mac_vc_please_enter_a_tag" = "Enter a new tag to add to this item";
+"mac_vc_please_enter_a_tag" = "Digite uma nova etiqueta a ser adicionada ao item";
+
+/* Zxcvbn (Smart) */
+"password_strength_algo_zxcvbn_title" = "Zxcvbn (Inteligente)";
+
+/* Basic (Pooled Entropy) */
+"password_strength_algo_basic_title" = "Básico (Pooled Entropy)";
+
+/* Password Strength Algorithm */
+"prefs_vc_password_strength_algorithm" = "Algoritmo de Força de Senha";
+
+/* Very Weak */
+"password_strength_category_very_weak" = "Muito Fraca";
+
+/* Weak */
+"password_strength_category_weak" = "Fraca";
+
+/* Mediocre */
+"password_strength_category_mediocre" = "Medíocre";
+
+/* Strong */
+"password_strength_category_strong" = "Forte";
+
+/* Very Strong */
+"password_strength_category_very_strong" = "Muito Forte";
+
+/* Overkill */
+"password_strength_category_overkill" = "Exagerada";
+
+/* >100m years - L10n note: this is a time span - Password will take this long to crack */
+"password_time_to_crack_more_than_100m_years" = ">100m anos";
+
+/* %@m years - L10n note: this is a time span - Password will take X million years to crack, where X is the first parameter and is an integer (positive whole number). e.g. 45m years  - please try to abbreviate million for your locale */
+"password_time_to_crack_million_years_fmt" = "%@m anos";
+
+/* %@k years - L10n note: this is a time span - Password will take X thousand years to crack, where X is the first parameter and is an integer (positive whole number). e.g. 45k years  - please try to abbreviate thousand for your locale  */
+"password_time_to_crack_thousand_years_fmt" = "%@ mil anos";
+
+/* %@ centuries - L10n note: this is a time span - Password will take X centuries to crack, where X is the first parameter and is an integer (positive whole number). e.g. 5 centuries  - please try to abbreviate for your locale */
+"password_time_to_crack_centuries_fmt" = "%@ séculos";
+
+/* %@ years  - L10n note: this is a time span - Password will take X years to crack, where X is the first parameter and is an integer (positive whole number). e.g. 5 years  - please try to abbreviate for your locale */
+"password_time_to_crack_years_fmt" = "%@ anos";
+
+/* %@ days - L10n note: this is a time span - Password will take X days to crack, where X is the first parameter and is an integer (positive whole number). e.g. 5 days  - please try to abbreviate for your locale */
+"password_time_to_crack_days_fmt" = "%@ dias";
+
+/* %@ hours - L10n note: this is a time span - Password will take X hours to crack, where X is the first parameter and is an integer (positive whole number). e.g. 5 hours  - please try to abbreviate for your locale */
+"password_time_to_crack_hours_fmt" = "%@ horas";
+
+/* Adversary Guess Rate */
+"prefs_vc_password_strength_adversary_crack_rate" = "Taxa de Chutes do Adversário";
+
+/* Thousand */
+"number_suffix_thousand" = "Mil";
+
+/* Million */
+"number_suffix_million" = "Milhão";
+
+/* Billion */
+"number_suffix_billion" = "Bilhão";
+
+/* Trillion */
+"number_suffix_trillion" = "Trilhão";
+
+/* Quadrillion */
+"number_suffix_quadrillion" = "Quadrilhão";
+
+/* Quintillion */
+"number_suffix_quintillion" = "Quintilhão";
+
+/* %@ / second - L10n:  First parameter is the number of guesses per second for an adversary. So e.g.  '1 billion / second' */
+"adversary_guess_rate_fmt" = "%@ / segundo";
+
+/* 🚀 Sale Now On! 🚀 */
+"prompt_sale_now_on_title" = "🚀 Promoção! 🚀";
+
+/* Hi there! Strongbox Pro is now 20% off for a very short period only.\n\nWould you like to grab it now and support Strongbox development? Go on, treat yourself! 😎 */
+"prompt_sale_now_on_message" = "Olá! O Strongbox Pro está com 20% de desconto por tempo limitado.\n\nGostaria de ativá-lo agora e apoiar o desenvolvimento do Strongbox? Vá em frente, aproveite! 😎";
+
+/* 🚀 20% Off Sale 🚀 Go Pro Now 🔥 */
+"safesvc_upgrade_button_sale_now_on_title" = "🚀 Promoção com 20% de Desconto 🚀 Ative o Pro Agora 🔥";
