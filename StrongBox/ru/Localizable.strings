@@ -95,7 +95,7 @@
 "safes_vc_error_adding_database" = "Ошибка при добавлении";
 
 /* Error Message- unknown error while adding */
-"safes_vc_unknown_error_while_adding_database" = "При попытке добавления базы данных произошла ошибка.";
+"safes_vc_unknown_error_while_adding_database" = "При попытке добавления БД произошла ошибка.";
 
 /* Error Title: Error creating database
    Error Title: Error while creating database */
@@ -534,7 +534,7 @@
 "db_management_disable_biometric_question_fmt" = "Отключение %@";
 
 /* Disabling %@ for this database will remove the securely stored password and you will have to enter it again. Are you sure you want to do this? */
-"db_management_disable_biometric_warning_fmt" = "Отключение %@ для базы данных приведёт к удалению сохранённого пароля и Вам придется вводить его заново. Хотите продолжить?";
+"db_management_disable_biometric_warning_fmt" = "Отключение %@ для БД приведёт к удалению сохранённого пароля и Вам придется вводить его заново. Хотите продолжить?";
 
 /* Are you sure you want to disable %@ for this database? */
 "db_management_disable_biomtric_simple_fmt" = "Вы хотите отключить %@ для этой базы данных?";
@@ -741,10 +741,10 @@
 "sbtvc_empty_table_no_files_found" = "Файлы или папки не найдены";
 
 /* Error Reading Database File */
-"sbtvc_error_reading_database" = "Ошибка чтения файла базы данных";
+"sbtvc_error_reading_database" = "Ошибка чтения файла БД";
 
 /* Invalid Database File */
-"sbtvc_invalid_database_file" = "Неверный файл базы данных";
+"sbtvc_invalid_database_file" = "Неверный файл БД";
 
 /* You can only have databases in the Root folder for this storage type. */
 "sbtvc_root_folder_only_message" = "Для данного типа хранилища базы данных могут содержаться только в корневой папке.";
@@ -753,7 +753,7 @@
 "sbtvc_root_folder_only_title" = "Только корневая папка";
 
 /* Please Select Database File */
-"sbtvc_select_database_file" = "Пожалуйста, выберите файл базы данных";
+"sbtvc_select_database_file" = "Пожалуйста, выберите файл БД";
 
 /* Select Folder For New Database */
 "sbtvc_select_new_database_location" = "Выбор расположения для новой БД";
@@ -849,7 +849,7 @@
 "welcome_vc_add_existing_database" = "Добавить имеющуюся БД";
 
 /* Error Creating Database */
-"welcome_vc_error_creating" = "Ошибка при создании базы данных";
+"welcome_vc_error_creating" = "Ошибка при создании БД";
 
 /* View Your Database */
 "welcome_vc_view_database" = "Просмотр Вашей базы данных";
@@ -947,7 +947,7 @@
 "export_vc_export_successful_message" = "Ваша база данных была успешно экспортирована.";
 
 /* Error Writing Database */
-"export_vc_error_writing" = "Ошибка сохранения базы данных";
+"export_vc_error_writing" = "Ошибка сохранения БД";
 
 /* Error Exporting */
 "export_vc_error_exporting" = "Ошибка экспорта";
@@ -986,7 +986,7 @@
 "pins_config_vc_turn_pin_off_warning" = "Выключение код-пароля для БД очистит главный пароль и Вам придется заново вводить его. Хотите продолжить?";
 
 /* Are you sure you want to turn off the PIN for this database? */
-"pins_config_vc_turn_pin_off_confirm" = "Вы хотите выключить код-пароль для базы данных?";
+"pins_config_vc_turn_pin_off_confirm" = "Вы хотите выключить код-пароль для БД?";
 
 /* Turn off PIN? */
 "pins_config_vc_turn_pin_off_prompt_title" = "Выключение код-пароля";
@@ -1004,7 +1004,7 @@
 "pins_config_vc_warn_remove_database_title" = "Предупреждение";
 
 /* This will permanently delete the database file. */
-"pins_config_vc_warn_remove_database_delete_message" = "Это навсегда удалит файл базы данных.";
+"pins_config_vc_warn_remove_database_delete_message" = "Это навсегда удалит файл БД.";
 
 /* This will remove the database from Strongbox but the underlying file will remain on cloud storage */
 "pins_config_vc_warn_remove_database_remove_message" = "Это удалит БД из приложения, но файл останется во внешнем хранилище.";
@@ -1089,7 +1089,7 @@
 "pw_history_vc_prompt_disable_history_message" = "Отключение истории удалит предыдущие пароли. Хотите продолжить?";
 
 /* Problem Saving Database */
-"pw_history_vc_error_problem_saving" = "Проблема при сохранении базы данных";
+"pw_history_vc_error_problem_saving" = "Ошибка при сохранении БД";
 
 /* Old Passwords (%lu) */
 "pw_history_vc_previous_passwords_count_fmt" = "Старые пароли (%lu)";
@@ -1347,7 +1347,7 @@
 "open_sequence_prompt_too_many_incorrect_pins_message" = "Неверный код-пароль был введён слишком много раз. Разблокировка по код-паролю отключена и Вам необходимо ввести пароль вручную, чтобы разблокировать БД.";
 
 /* There was a technical error opening the database. */
-"open_sequence_duress_technical_error_message" = "При открытии базы данных произошла ошибка.";
+"open_sequence_duress_technical_error_message" = "При открытии БД произошла ошибка.";
 
 /* Technical Issue */
 "open_sequence_duress_technical_error_title" = "Техническая ошибка";
@@ -1387,7 +1387,7 @@
 "open_sequence_autofill_creash_likely_title" = "Возможен сбой автозаполнения";
 
 /* Your database has encryption settings that may cause iOS Password AutoFill extensions to be terminated due to excessive resource consumption. This will mean AutoFill appears not to work. Unfortunately this is an Apple imposed limit. You could consider reducing the amount of resources consumed by your encryption settings (Memory in particular with Argon2 to below 64MB). */
-"open_sequence_autofill_creash_likely_message" = "Размер базы данных слишком большой или имеет настройки шифрования, которые могут привести к сбою в работе функции автозаполнения из-за чрезмерного потребления ресурсов.\nК сожалению, это ограничение системы, наложенное компанией Apple. Попробуйте уменьшить размер файла или изменить настройки (уменьшить объём памяти с Argon2 до 64 МБ).";
+"open_sequence_autofill_creash_likely_message" = "Размер БД слишком большой или имеет настройки шифрования, которые могут привести к сбою в работе функции автозаполнения.\nК сожалению, это ограничение системы, наложенное компанией Apple. Попробуйте уменьшить размер файла или изменить настройки (уменьшить объём памяти с Argon2 до 64 МБ).";
 
 /* No Key File */
 "key_files_vc_no_key_file" = "Без файл-ключа";
@@ -2231,7 +2231,7 @@
 "generic_locking_ellipsis" = "Блокировка ...";
 
 /* Please Enter the Master Credentials for this Database */
-"mac_please_set_master_credentials" = "Пожалуйста, введите мастер-ключ для базы данных";
+"mac_please_set_master_credentials" = "Пожалуйста, введите мастер-ключ для БД";
 
 /* Change Master Credentials */
 "mac_change_master_credentials" = "Изменить мастер-ключ";
@@ -2246,13 +2246,13 @@
 "mac_keepass1_does_not_support_root_entries" = "KeePass 1 не поддерживает записи на корневом уровне, они будут удалены. KeePass 1 также не поддерживает поле «Email». Strongbox добавит его вместо этого в конце поля «Заметки».\nХотите продолжить?";
 
 /* The Password Safe format does not support icons, attachments or custom fields. If you continue, these fields will not be copied to this database.\nDo you want to continue without these fields? */
-"mac_password_safe_fmt_does_not_support_icons_attachments_warning" = "Формат Password Safe не поддерживает значки, вложения или настраиваемые поля. Если Вы продолжите, то поля не будут скопированы в базу данных.\nХотите продолжить без этих полей?";
+"mac_password_safe_fmt_does_not_support_icons_attachments_warning" = "Формат Password Safe не поддерживает значки, вложения или настраиваемые поля. Если Вы продолжите, то поля не будут скопированы в БД.\nХотите продолжить без этих полей?";
 
 /* The KeePass 1 (KDB) does not support entries at the root level, these will be discarded.\n\nThe KeePass 1 (KDB) format also does not support multiple attachments, custom fields or custom icons. If you continue only the first attachment from each item will be copied to this database. Custom Fields and Icons will be discarded.\nDo you want to continue? */
-"mac_keepass1_does_not_support_root_entries_or_attachments" = "KeePass 1 (KDB) не поддерживает записи на корневом уровне, они будут отброшены.\n\nФормат KeePass 1 (KDB) также не поддерживает многочисленные вложения, настраиваемые поля или настраиваемые значки. Если Вы продолжите, только первое вложение из каждого элемента будет скопировано в базу данных. Настраиваемые поля и значки будут отброшены.\nХотите продолжить?";
+"mac_keepass1_does_not_support_root_entries_or_attachments" = "Формат KeePass 1 (KDB) не поддерживает записи на корневом уровне, они будут отброшены.\n\nТакже не поддерживаются многочисленные вложения, настраиваемые поля или настраиваемые значки. Если Вы продолжите, только первое вложение из каждого элемента будет скопировано в БД. Настраиваемые поля и значки будут отброшены.\nХотите продолжить?";
 
 /* The Password Safe format does not support attachments or icons. If you continue, these fields will not be copied to this database.\nDo you want to continue without these fields? */
-"mac_password_safe_does_not_support_attachments_icons_continue_yes_no" = "Формат Password Safe не поддерживает вложения или значки. Если Вы продолжите, то поля не будут скопированы в базу данных.\nХотите продолжить без этих полей?";
+"mac_password_safe_does_not_support_attachments_icons_continue_yes_no" = "Формат Password Safe не поддерживает вложения или значки. Если Вы продолжите, то поля не будут скопированы в БД. Хотите продолжить без этих полей?";
 
 /* You cannot create a new item here. It must be within an existing folder. */
 "mac_alert_cannot_create_item_here" = "Вы не можете создать здесь новый элемент. Он должен находиться в существующей папке.";
@@ -2461,7 +2461,7 @@
 "mac_pro_days_left_window_title_suffix_fmt" = " - [осталось %ld дней Pro версии]";
 
 /* Enter a new name for this database */
-"mac_enter_new_name_for_db" = "Введите новое название базы данных";
+"mac_enter_new_name_for_db" = "Введите новое название БД";
 
 /* File Based */
 "mac_storage_provider_name_file" = "На основе файла";
@@ -3594,7 +3594,7 @@
 "merge_no_other_databases_available_title" = "Нет других доступных баз данных";
 
 /* There are no other databases in your databases collection to merge into this database. You must add another database so that you can select it for the merge operation. */
-"merge_no_other_databases_available_msg" = "Нет других доступных баз данных. Вам необходимо добавить базу данных, чтобы вы могли выбрать ее для объединения.";
+"merge_no_other_databases_available_msg" = "Нет доступных баз данных. Вам необходимо добавить БД, чтобы вы могли выбрать ее для объединения.";
 
 /* Create Local Copy */
 "generic_action_create_local_database" = "Добавить как локальную";
@@ -3657,10 +3657,10 @@
 "diff_view_section_header_historical_diffs_fmt" = "Элементы с отличиями в истории: %lu";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Вы действительно хотите объединить вторую базу данных в первую?";
+"merge_view_are_you_sure" = "Вы действительно хотите объединить вторую БД в первую?";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Вы действительно хотите объединить вторую базу данных в первую?";
+"merge_view_are_you_sure" = "Вы действительно хотите объединить вторую БД в первую?";
 
 /* Merge Successful */
 "merge_view_merge_title_success" = "Объединение выполнено";
