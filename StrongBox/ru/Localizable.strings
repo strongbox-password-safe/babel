@@ -95,7 +95,7 @@
 "safes_vc_error_adding_database" = "Ошибка при добавлении";
 
 /* Error Message- unknown error while adding */
-"safes_vc_unknown_error_while_adding_database" = "При попытке добавления базы данных произошла ошибка.";
+"safes_vc_unknown_error_while_adding_database" = "При попытке добавления БД произошла ошибка.";
 
 /* Error Title: Error creating database
    Error Title: Error while creating database */
@@ -354,10 +354,10 @@
 "browse_vc_email_copied_fmt" = "Email «%@» скопирован";
 
 /* Enter Group Name */
-"browse_vc_enter_group_name" = "Добавление группы";
+"browse_vc_enter_group_name" = "Новая группа";
 
 /* Please Enter the New Group Name: */
-"browse_vc_enter_group_name_message" = "Пожалуйста, введите название новой группы";
+"browse_vc_enter_group_name_message" = "Введите название для этой группы.";
 
 /* Error Deleting */
 "browse_vc_error_deleting" = "Ошибка при удалении";
@@ -384,10 +384,10 @@
 "browse_vc_password_copied_fmt" = "Пароль «%@» скопирован";
 
 /* Rename Item */
-"browse_vc_rename_item" = "Переименование группы";
+"browse_vc_rename_item" = "Переименование";
 
 /* Please enter a new title for this item */
-"browse_vc_rename_item_enter_title" = "Пожалуйста, введите новое название для группы";
+"browse_vc_rename_item_enter_title" = "Введите новое название для этой группы.";
 
 /* All Fields */
 "browse_vc_search_scope_all" = "Все";
@@ -534,7 +534,7 @@
 "db_management_disable_biometric_question_fmt" = "Отключение %@";
 
 /* Disabling %@ for this database will remove the securely stored password and you will have to enter it again. Are you sure you want to do this? */
-"db_management_disable_biometric_warning_fmt" = "Отключение %@ для базы данных приведёт к удалению сохранённого пароля и Вам придется вводить его заново. Хотите продолжить?";
+"db_management_disable_biometric_warning_fmt" = "Отключение %@ для БД приведёт к удалению сохранённого пароля и Вам придется вводить его заново. Хотите продолжить?";
 
 /* Are you sure you want to disable %@ for this database? */
 "db_management_disable_biomtric_simple_fmt" = "Вы хотите отключить %@ для этой базы данных?";
@@ -630,7 +630,7 @@
 "item_details_setup_totp_qr_code" = "QR код";
 
 /* Please enter the secret or an OTPAuth URL */
-"item_details_setup_totp_secret_message" = "Пожалуйста, введите секретный ключ или ссылку OTPAuth";
+"item_details_setup_totp_secret_message" = "Введите секретный ключ или ссылку OTPAuth.";
 
 /* Secret or OTPAuth URL */
 "item_details_setup_totp_secret_title" = "Секретный ключ или ссылка OTPAuth";
@@ -708,7 +708,7 @@
 "prefs_vc_info_cannot_open_app_store_title" = "Невозможно открыть App Store";
 
 /* Please be extremely careful as this will delete permanently any local device databases and all preferences */
-"prefs_vc_info_data_deletion_care_required_message" = "Пожалуйста, будьте предельно осторожны, т.к. все локальные БД и настройки приложения будут удалены с этого устройства по достижении указанного количества неудачных попыток разблокировки.";
+"prefs_vc_info_data_deletion_care_required_message" = "Будьте предельно осторожны, т.к. все локальные БД и настройки приложения будут удалены с этого устройства по достижении указанного количества неудачных попыток разблокировки.";
 
 /* DATA DELETION: Care Required */
 "prefs_vc_info_data_deletion_care_required_title" = "Предупреждение";
@@ -741,10 +741,10 @@
 "sbtvc_empty_table_no_files_found" = "Файлы или папки не найдены";
 
 /* Error Reading Database File */
-"sbtvc_error_reading_database" = "Ошибка чтения файла базы данных";
+"sbtvc_error_reading_database" = "Ошибка чтения файла БД";
 
 /* Invalid Database File */
-"sbtvc_invalid_database_file" = "Неверный файл базы данных";
+"sbtvc_invalid_database_file" = "Неверный файл БД";
 
 /* You can only have databases in the Root folder for this storage type. */
 "sbtvc_root_folder_only_message" = "Для данного типа хранилища базы данных могут содержаться только в корневой папке.";
@@ -753,7 +753,7 @@
 "sbtvc_root_folder_only_title" = "Только корневая папка";
 
 /* Please Select Database File */
-"sbtvc_select_database_file" = "Пожалуйста, выберите файл базы данных";
+"sbtvc_select_database_file" = "Выберите файл БД";
 
 /* Select Folder For New Database */
 "sbtvc_select_new_database_location" = "Выбор расположения для новой БД";
@@ -774,7 +774,7 @@
 "sspc_local_device_storage_warning_title" = "Предупреждение";
 
 /* Please Enter the URL of the Database File. */
-"sspc_manual_import_enter_url_message" = "Пожалуйста, введите ссылку на файл БД";
+"sspc_manual_import_enter_url_message" = "Введите ссылку на файл БД.";
 
 /* Enter URL */
 "sspc_manual_import_enter_url_title" = "URL файла";
@@ -849,7 +849,7 @@
 "welcome_vc_add_existing_database" = "Добавить имеющуюся БД";
 
 /* Error Creating Database */
-"welcome_vc_error_creating" = "Ошибка при создании базы данных";
+"welcome_vc_error_creating" = "Ошибка при создании БД";
 
 /* View Your Database */
 "welcome_vc_view_database" = "Просмотр Вашей базы данных";
@@ -947,7 +947,7 @@
 "export_vc_export_successful_message" = "Ваша база данных была успешно экспортирована.";
 
 /* Error Writing Database */
-"export_vc_error_writing" = "Ошибка сохранения базы данных";
+"export_vc_error_writing" = "Ошибка сохранения БД";
 
 /* Error Exporting */
 "export_vc_error_exporting" = "Ошибка экспорта";
@@ -986,7 +986,7 @@
 "pins_config_vc_turn_pin_off_warning" = "Выключение код-пароля для БД очистит главный пароль и Вам придется заново вводить его. Хотите продолжить?";
 
 /* Are you sure you want to turn off the PIN for this database? */
-"pins_config_vc_turn_pin_off_confirm" = "Вы хотите выключить код-пароль для базы данных?";
+"pins_config_vc_turn_pin_off_confirm" = "Вы хотите выключить код-пароль для БД?";
 
 /* Turn off PIN? */
 "pins_config_vc_turn_pin_off_prompt_title" = "Выключение код-пароля";
@@ -998,13 +998,13 @@
 "pins_config_vc_error_pin_conflict_title" = "Ошибка ввода";
 
 /* Your Convenience PIN conflicts with your Duress PIN. Please select another. */
-"pins_config_vc_error_pin_conflict_message" = "Код-пароли либо совпадают, либо отличаются по длине. Пожалуйста, попробуйте еще раз.";
+"pins_config_vc_error_pin_conflict_message" = "Код-пароли либо совпадают, либо отличаются по длине. Пожалуйста, попробуйте ещё раз.";
 
 /* Warning */
 "pins_config_vc_warn_remove_database_title" = "Предупреждение";
 
 /* This will permanently delete the database file. */
-"pins_config_vc_warn_remove_database_delete_message" = "Это навсегда удалит файл базы данных.";
+"pins_config_vc_warn_remove_database_delete_message" = "Это навсегда удалит файл БД.";
 
 /* This will remove the database from Strongbox but the underlying file will remain on cloud storage */
 "pins_config_vc_warn_remove_database_remove_message" = "Это удалит БД из приложения, но файл останется во внешнем хранилище.";
@@ -1089,7 +1089,7 @@
 "pw_history_vc_prompt_disable_history_message" = "Отключение истории удалит предыдущие пароли. Хотите продолжить?";
 
 /* Problem Saving Database */
-"pw_history_vc_error_problem_saving" = "Проблема при сохранении базы данных";
+"pw_history_vc_error_problem_saving" = "Ошибка при сохранении БД";
 
 /* Old Passwords (%lu) */
 "pw_history_vc_previous_passwords_count_fmt" = "Старые пароли (%lu)";
@@ -1239,10 +1239,10 @@
 "moveentry_vc_add_group_prompt_placeholder" = "Название группы";
 
 /* Enter Group Name */
-"moveentry_vc_add_group_prompt_title" = "Добавление группы";
+"moveentry_vc_add_group_prompt_title" = "Новая группа";
 
 /* Please Enter the New Group Name */
-"moveentry_vc_add_group_prompt_message" = "Пожалуйста, введите название новой группы";
+"moveentry_vc_add_group_prompt_message" = "Введите название для этой группы.";
 
 /* Could not create group */
 "moveentry_vc_warn_creating_group_title" = "Не удалось создать группу";
@@ -1251,7 +1251,7 @@
 "moveentry_vc_warn_creating_group_message" = "Не удалось создать группу с таким названием";
 
 /* Please Enter a Host */
-"sftp_vc_label_validation_enter_host" = "Пожалуйста, укажите хост";
+"sftp_vc_label_validation_enter_host" = "Укажите хост";
 
 /* Select a Private Key... */
 "sftp_vc_label_validation_select_private_key" = "Выберите закрытый ключ ...";
@@ -1335,7 +1335,7 @@
 "entry_defaults_vc_prompt_custom_title" = "Настройка значения";
 
 /* Please enter a new custom default for this field */
-"entry_defaults_vc_prompt_custom_message" = "Пожалуйста, введите новое значение, которое будет использоваться по умолчанию";
+"entry_defaults_vc_prompt_custom_message" = "Введите новое значение, которое будет использоваться по умолчанию.";
 
 /* %d attempts remaining */
 "open_sequence_pin_attempts_remaining_fmt" = "Осталось %d попыток";
@@ -1347,7 +1347,7 @@
 "open_sequence_prompt_too_many_incorrect_pins_message" = "Неверный код-пароль был введён слишком много раз. Разблокировка по код-паролю отключена и Вам необходимо ввести пароль вручную, чтобы разблокировать БД.";
 
 /* There was a technical error opening the database. */
-"open_sequence_duress_technical_error_message" = "При открытии базы данных произошла ошибка.";
+"open_sequence_duress_technical_error_message" = "При открытии БД произошла ошибка.";
 
 /* Technical Issue */
 "open_sequence_duress_technical_error_title" = "Техническая ошибка";
@@ -1362,10 +1362,10 @@
 "open_sequence_biometric_unlock_warn_failed_title_fmt" = "Ошибка %@";
 
 /* %@ Authentication Failed. You must now enter your password manually to open the database. */
-"open_sequence_biometric_unlock_warn_failed_message_fmt" = "Ошибка аутентификации %@. Необходимо ввести свой пароль вручную, чтобы открыть базу данных.";
+"open_sequence_biometric_unlock_warn_failed_message_fmt" = "Ошибка аутентификации %@. Необходимо ввести свой пароль вручную, чтобы открыть БД.";
 
 /* %@ has failed: %@. You must now enter your password manually to open the database. */
-"open_sequence_biometric_unlock_warn_not_configured_fmt" = "Ошибка %@: %@. Необходимо ввести свой пароль вручную, чтобы открыть базу данных.";
+"open_sequence_biometric_unlock_warn_not_configured_fmt" = "Ошибка %@: %@. Необходимо ввести свой пароль вручную, чтобы открыть БД.";
 
 /* Error Reading Key File */
 "open_sequence_error_reading_key_file" = "Не удалось открыть файл-ключ. Перейдите в Управление файл-ключами и проверьте настройки.";
@@ -1387,7 +1387,7 @@
 "open_sequence_autofill_creash_likely_title" = "Возможен сбой автозаполнения";
 
 /* Your database has encryption settings that may cause iOS Password AutoFill extensions to be terminated due to excessive resource consumption. This will mean AutoFill appears not to work. Unfortunately this is an Apple imposed limit. You could consider reducing the amount of resources consumed by your encryption settings (Memory in particular with Argon2 to below 64MB). */
-"open_sequence_autofill_creash_likely_message" = "Размер базы данных слишком большой или имеет настройки шифрования, которые могут привести к сбою в работе функции автозаполнения из-за чрезмерного потребления ресурсов.\nК сожалению, это ограничение системы, наложенное компанией Apple. Попробуйте уменьшить размер файла или изменить настройки (уменьшить объём памяти с Argon2 до 64 МБ).";
+"open_sequence_autofill_creash_likely_message" = "Размер БД слишком большой или имеет настройки шифрования, которые могут привести к сбою в работе функции автозаполнения.\nК сожалению, это ограничение системы, наложенное компанией Apple. Попробуйте уменьшить размер файла или изменить настройки (уменьшить объём памяти с Argon2 до 64 МБ).";
 
 /* No Key File */
 "key_files_vc_no_key_file" = "Без файл-ключа";
@@ -1741,7 +1741,7 @@
 "database_metadata_field_compressed" = "Сжатие";
 
 /* Database Format */
-"database_metadata_field_format" = "Формат базы данных";
+"database_metadata_field_format" = "Формат";
 
 /* Database Generator */
 "database_metadata_field_generator" = "Генератор базы данных";
@@ -1852,7 +1852,7 @@
 "select_generated_field_title" = "Сгенерированные строки";
 
 /* Select your preferred generated field message. */
-"select_generated_field_message" = "Пожалуйста, выберите предпочтительную строку";
+"select_generated_field_message" = "Выберите предпочитаемую строку.";
 
 /* Support Options */
 "prefs_vc_info_email_support_options_title" = "Поддержка";
@@ -2231,7 +2231,7 @@
 "generic_locking_ellipsis" = "Блокировка ...";
 
 /* Please Enter the Master Credentials for this Database */
-"mac_please_set_master_credentials" = "Пожалуйста, введите мастер-ключ для базы данных";
+"mac_please_set_master_credentials" = "Введите мастер-ключ для БД.";
 
 /* Change Master Credentials */
 "mac_change_master_credentials" = "Изменить мастер-ключ";
@@ -2246,19 +2246,19 @@
 "mac_keepass1_does_not_support_root_entries" = "KeePass 1 не поддерживает записи на корневом уровне, они будут удалены. KeePass 1 также не поддерживает поле «Email». Strongbox добавит его вместо этого в конце поля «Заметки».\nХотите продолжить?";
 
 /* The Password Safe format does not support icons, attachments or custom fields. If you continue, these fields will not be copied to this database.\nDo you want to continue without these fields? */
-"mac_password_safe_fmt_does_not_support_icons_attachments_warning" = "Формат Password Safe не поддерживает значки, вложения или настраиваемые поля. Если Вы продолжите, то поля не будут скопированы в базу данных.\nХотите продолжить без этих полей?";
+"mac_password_safe_fmt_does_not_support_icons_attachments_warning" = "Формат Password Safe не поддерживает значки, вложения или настраиваемые поля. Если Вы продолжите, то поля не будут скопированы в БД.\nХотите продолжить без этих полей?";
 
 /* The KeePass 1 (KDB) does not support entries at the root level, these will be discarded.\n\nThe KeePass 1 (KDB) format also does not support multiple attachments, custom fields or custom icons. If you continue only the first attachment from each item will be copied to this database. Custom Fields and Icons will be discarded.\nDo you want to continue? */
-"mac_keepass1_does_not_support_root_entries_or_attachments" = "KeePass 1 (KDB) не поддерживает записи на корневом уровне, они будут отброшены.\n\nФормат KeePass 1 (KDB) также не поддерживает многочисленные вложения, настраиваемые поля или настраиваемые значки. Если Вы продолжите, только первое вложение из каждого элемента будет скопировано в базу данных. Настраиваемые поля и значки будут отброшены.\nХотите продолжить?";
+"mac_keepass1_does_not_support_root_entries_or_attachments" = "Формат KeePass 1 (KDB) не поддерживает записи на корневом уровне, они будут отброшены.\n\nТакже не поддерживаются многочисленные вложения, настраиваемые поля или настраиваемые значки. Если Вы продолжите, только первое вложение из каждого элемента будет скопировано в БД. Настраиваемые поля и значки будут отброшены.\nХотите продолжить?";
 
 /* The Password Safe format does not support attachments or icons. If you continue, these fields will not be copied to this database.\nDo you want to continue without these fields? */
-"mac_password_safe_does_not_support_attachments_icons_continue_yes_no" = "Формат Password Safe не поддерживает вложения или значки. Если Вы продолжите, то поля не будут скопированы в базу данных.\nХотите продолжить без этих полей?";
+"mac_password_safe_does_not_support_attachments_icons_continue_yes_no" = "Формат Password Safe не поддерживает вложения или значки. Если Вы продолжите, то поля не будут скопированы в БД. Хотите продолжить без этих полей?";
 
 /* You cannot create a new item here. It must be within an existing folder. */
 "mac_alert_cannot_create_item_here" = "Вы не можете создать здесь новый элемент. Он должен находиться в существующей папке.";
 
 /* Please enter a Title for your new Group */
-"mac_please_enter_a_title_for_new_group" = "Пожалуйста, введите название для новой группы";
+"mac_please_enter_a_title_for_new_group" = "Введите название для этой группы.";
 
 /* Are you sure you want to send '%@' to the Recycle Bin? - Translation Note: 1st Param is the Item Title */
 "mac_are_you_sure_recycle_bin_yes_no_fmt" = "Вы хотите отправить «%@» в Корзину?";
@@ -2322,7 +2322,7 @@
 "mac_not_a_valid_image_file" = "Это недопустимый файл изображения.";
 
 /* Please enter the secret or an OTPAuth URL */
-"mac_please_enter_totp_secret_or_otpauth_url" = "Пожалуйста, введите секретный ключ или ссылку OTPAuth";
+"mac_please_enter_totp_secret_or_otpauth_url" = "Введите секретный ключ или ссылку OTPAuth.";
 
 /* Is this a Steam Token? (Say 'No' if you're unsure) */
 "mac_is_this_a_stream_token_yes_no" = "Это токен Steam? (Выберите 'Нет', если Вы не уверены)";
@@ -2437,10 +2437,10 @@
 "mac_cannot_save_db_while_locked" = "Невозможно сохранить базу данных, пока она заблокирована.";
 
 /* Strongbox cannot open File Wrappers, Directories or Compressed Packages like this. Please directly select a KeePass or Password Safe database file. */
-"mac_strongbox_cant_open_file_wrappers" = "Приложение не может открывать контейнеры, каталоги или сжатые файлы. Пожалуйста, выберите непосредственно файл базы данных формата KeePass или Password Safe.";
+"mac_strongbox_cant_open_file_wrappers" = "Приложение не может открывать контейнеры, каталоги или сжатые файлы. Выберите непосредственно файл базы данных формата KeePass или Password Safe.";
 
 /* Please Enter the Master Credentials for this Database */
-"mac_please_enter_master_credentials_for_this_database" = "Пожалуйста, введите мастер-ключ для базы данных";
+"mac_please_enter_master_credentials_for_this_database" = "Введите мастер-ключ для базы данных.";
 
 /* Save New Password Database... */
 "mac_save_new_database" = "Сохранить новую базу паролей ...";
@@ -2461,7 +2461,7 @@
 "mac_pro_days_left_window_title_suffix_fmt" = " - [осталось %ld дней Pro версии]";
 
 /* Enter a new name for this database */
-"mac_enter_new_name_for_db" = "Введите новое название базы данных";
+"mac_enter_new_name_for_db" = "Введите новое название БД";
 
 /* File Based */
 "mac_storage_provider_name_file" = "На основе файла";
@@ -2587,7 +2587,7 @@
 "mac_node_details_password_copied_url_launched" = "Пароль скопирован и URL запущен";
 
 /* Please enter the secret or an OTPAuth URL */
-"mac_node_details_please_enter_secret_totp" = "Пожалуйста, введите секретный ключ или ссылку OTPAuth";
+"mac_node_details_please_enter_secret_totp" = "Введите секретный ключ или ссылку OTPAuth.";
 
 /* Is this a Steam Token? (Say 'No' if you're unsure) */
 "mac_node_details_is_this_steam_totp" = "Это токен Steam? (Выберите 'Нет', если Вы не уверены)";
@@ -2826,7 +2826,7 @@
 "autofill_did_not_close_cleanly_title" = "Сбой автозаполнения";
 
 /* It looks like the last time you used AutoFill you had a crash. This is usually due to a memory limitation. Please check your database file size and your Argon2 memory settings (should be <= 64MB) */
-"autofill_did_not_close_cleanly_message" = "При использовании функции автозаполнения произошёл сбой. Обычно это связано с ограничениями памяти iOS. Пожалуйста, проверьте размер файла БД и настройки памяти Argon2 (должно быть <= 64МБ)";
+"autofill_did_not_close_cleanly_message" = "При использовании функции автозаполнения произошёл сбой. Обычно это связано с ограничениями памяти iOS. Проверьте размер файла БД и настройки памяти Argon2 (должно быть <= 64МБ)";
 
 /* Regenerate... */
 "password_generation_regenerate_ellipsis" = "Сгенерировать заново";
@@ -3057,12 +3057,12 @@
 "browse_vc_audit_complete_message_issues_found_fmt" = "Найдено %ld проблем";
 
 /* %ld New Issues Found! */
-"browse_vc_audit_complete_message_new_issues_found_fmt" = "Найдено %ld новых проблем";
+"browse_vc_audit_complete_message_new_issues_found_fmt" = "Найдено проблем: %ld";
 
 /* HIBP Disclaimer */
 "audit_hibp_warning_title" = "Отказ от ответственности";
 
-/* I understand that my passwords will be sent over the web (HTTPS) to the 'Have I Been Pwned?' password checking service (using k-anonymity) and that I fully consent to this functionality. I also absolve Strongbox, Mark McGuill and Phoebe Code Limited of all liabilty for using this feature. */
+/* I understand that an anonymised portion of my password(s) will be sent over the web (HTTPS) to the 'Have I Been Pwned?' password checking service (using a secure k-anonymity technique) and that I fully consent to this functionality. I also absolve Strongbox, Mark McGuill and Phoebe Code Limited of all liability for using this feature. */
 "audit_hibp_warning_message" = "Я понимаю, что мои пароли будут отправлены с помощью HTTPS в «Have I Been Pwned?» - сервис онлайн проверки (используя метод К-анонимизации), и даю согласие на обработку этих данных. Я снимаю всю ответственность с разработчиков приложения за использование этой функции.";
 
 /* No, I don't want to use this feature */
@@ -3174,7 +3174,7 @@
 "audit_drill_down_audit_this_item_preference_title" = "Проверка записи";
 
 /* Check if this password is Pwned (HIBP) */
-"audit_drill_down_action_check_hibp" = "Проверка «Have I Been Pwned?»";
+"audit_drill_down_action_check_hibp" = "Have I Been Pwned?";
 
 /* This item is excluded from Audits */
 "audit_status_item_is_exluded" = "Запись исключена из проверки";
@@ -3594,7 +3594,7 @@
 "merge_no_other_databases_available_title" = "Нет других доступных баз данных";
 
 /* There are no other databases in your databases collection to merge into this database. You must add another database so that you can select it for the merge operation. */
-"merge_no_other_databases_available_msg" = "Нет других доступных баз данных. Вам необходимо добавить базу данных, чтобы вы могли выбрать ее для объединения.";
+"merge_no_other_databases_available_msg" = "Нет доступных баз данных. Вам необходимо добавить БД, чтобы вы могли выбрать ее для объединения.";
 
 /* Create Local Copy */
 "generic_action_create_local_database" = "Добавить как локальную";
@@ -3657,10 +3657,10 @@
 "diff_view_section_header_historical_diffs_fmt" = "Элементы с отличиями в истории: %lu";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Вы действительно хотите объединить вторую базу данных в первую?";
+"merge_view_are_you_sure" = "Вы действительно хотите объединить вторую БД в первую?";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Вы действительно хотите объединить вторую базу данных в первую?";
+"merge_view_are_you_sure" = "Вы действительно хотите объединить вторую БД в первую?";
 
 /* Merge Successful */
 "merge_view_merge_title_success" = "Объединение выполнено";
@@ -3918,7 +3918,7 @@
 "compare_merge_sync_possibly_required_title" = "Требуется синхронизация";
 
 /* At least one of these databases haven't been synchronized very recently. It is recommended that you return to the Databases List screen and pull down to initiate the Sync process. This will ensure you are working with the latest versions. */
-"compare_merge_sync_possibly_required_message" = "Сихронизация, по крайней мере, одной из этих баз данных давно не выполнялась. Перейдите к экрану списка баз данных и смахните вниз.";
+"compare_merge_sync_possibly_required_message" = "Сихронизация, по крайней мере, одной из этих БД давно не выполнялась. Перейдите к экрану списка баз данных и смахните вниз.";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to open in offline mode instead? - Translators Note: 1st Parameter is the storage provider name like Google Drive or Dropbox */
 "open_sequence_user_looks_offline_open_local_fmt" = "Отсутствует подключения к сети и хранилище %@ недоступно. Хотите открыть БД офлайн?";
@@ -4204,13 +4204,13 @@
 "mac_vc_please_enter_a_tag" = "Введите новый тег для этого элемента";
 
 /* Zxcvbn (Smart) */
-"password_strength_algo_zxcvbn_title" = "Zxcvbn";
+"password_strength_algo_zxcvbn_title" = "ZXCVBN";
 
 /* Basic (Pooled Entropy) */
-"password_strength_algo_basic_title" = "Основной (Пул энтропии)";
+"password_strength_algo_basic_title" = "Пул энтропии";
 
 /* Password Strength Algorithm */
-"prefs_vc_password_strength_algorithm" = "Оценка надёжности";
+"prefs_vc_password_strength_algorithm" = "Алгоритм оценки";
 
 /* Very Weak */
 "password_strength_category_very_weak" = "Очень слабый";
@@ -4255,25 +4255,25 @@
 "prefs_vc_password_strength_adversary_crack_rate" = "Число итераций";
 
 /* Thousand */
-"number_suffix_thousand" = "Тысяча";
+"number_suffix_thousand" = "тыс.";
 
 /* Million */
-"number_suffix_million" = "Миллион";
+"number_suffix_million" = "млн.";
 
 /* Billion */
-"number_suffix_billion" = "Миллиард";
+"number_suffix_billion" = "млрд.";
 
 /* Trillion */
-"number_suffix_trillion" = "Триллион";
+"number_suffix_trillion" = "трлн.";
 
 /* Quadrillion */
-"number_suffix_quadrillion" = "Квадриллион";
+"number_suffix_quadrillion" = "квадрлн.";
 
 /* Quintillion */
 "number_suffix_quintillion" = "Квинтиллион";
 
 /* %@ / second - L10n:  First parameter is the number of guesses per second for an adversary. So e.g.  '1 billion / second' */
-"adversary_guess_rate_fmt" = "%@ в секунду";
+"adversary_guess_rate_fmt" = "%@ / сек.";
 
 /* 🚀 Sale Now On! 🚀 */
 "prompt_sale_now_on_title" = "🚀 Распродажа! 🚀";
