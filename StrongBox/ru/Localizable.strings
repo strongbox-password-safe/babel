@@ -780,7 +780,7 @@
 "sspc_manual_import_enter_url_title" = "URL файла";
 
 /* Error Reading from URL */
-"sspc_manual_import_error_title" = "Ошибка открытия по ссылке";
+"sspc_manual_import_error_title" = "Ошибка при открытии ссылки";
 
 /* URL */
 "sspc_manual_import_placeholder_url" = "URL";
@@ -892,7 +892,7 @@
 "upgrade_mgr_entitlements_error_message" = "Strongbox испытывает проблемы с проверкой своих прав в App Store. Это может привести к даунгрейду версии приложения. Пожалуйста, свяжитесь с support@strongboxsafe.com для получения помощи.";
 
 /* Strongbox Entitlements Error */
-"upgrade_mgr_entitlements_error_title" = "Ошибка прав Strongbox";
+"upgrade_mgr_entitlements_error_title" = "Ошибка прав приложения";
 
 /* Purchases are disabled on your device. */
 "upgrade_mgr_purchases_are_disabled" = "Покупки отключены на Вашем устройстве.";
@@ -938,7 +938,7 @@
 "export_vc_email_message_body_fmt" = "Копия базы данных «%@».";
 
 /* Error Sending */
-"export_vc_email_error_sending" = "Ошибка отправки";
+"export_vc_email_error_sending" = "Ошибка при отправке";
 
 /* Export Successful */
 "export_vc_export_successful_title" = "Экспорт выполнен успешно";
@@ -947,7 +947,7 @@
 "export_vc_export_successful_message" = "Ваша база данных была успешно экспортирована.";
 
 /* Error Writing Database */
-"export_vc_error_writing" = "Ошибка сохранения БД";
+"export_vc_error_writing" = "Ошибка при сохранении БД";
 
 /* Error Exporting */
 "export_vc_error_exporting" = "Ошибка при экспорте";
@@ -1038,7 +1038,7 @@
 
 /* Error Reading
    There was an error reading the Key File */
-"key_files_vc_error_reading" = "Ошибка чтения";
+"key_files_vc_error_reading" = "Ошибка чтения файла";
 
 /* There was an error importing the Key File (does it already exist?) */
 "key_files_vc_error_importing" = "При импорте файл-ключа произошла ошибка.";
@@ -1218,7 +1218,7 @@
 "set_icon_vc_progress_reading_data" = "Чтение данных ...";
 
 /* Error Reading Image */
-"set_icon_vc_error_reading_image" = "Ошибка открытия изображения";
+"set_icon_vc_error_reading_image" = "Ошибка при открытии изображения";
 
 /* Analyzing Image... */
 "set_icon_vc_progress_analyzing_image" = "Анализ изображения ...";
@@ -1230,7 +1230,7 @@
 "set_icon_vc_prompt_rescale_image_title" = "Изменить масштаб настраиваемого значка?";
 
 /* Error Moving */
-"moveentry_vc_error_moving" = "Ошибка перемещения";
+"moveentry_vc_error_moving" = "Ошибка при перемещении";
 
 /* Error Saving */
 "moveentry_vc_error_saving" = "Ошибка при сохранении";
@@ -1435,7 +1435,7 @@
 "open_sequence_prompt_use_convenience_use_pin" = "Использовать код-пароль";
 
 /* PIN Conflict */
-"open_sequence_warn_pin_conflict_title" = "Код-пароли совпадают";
+"open_sequence_warn_pin_conflict_title" = "Конфликт код-паролей";
 
 /* Your Convenience PIN conflicts with your Duress PIN. Please configure in Database Settings */
 "open_sequence_warn_pin_conflict_message" = "Код-пароль совпадает с принудительным код-паролем. Пожалуйста, выберите другой.";
@@ -1564,7 +1564,7 @@
 "cloud_sessions_prompt_onedrive_signout_success_message" = "Вы успешно вышли из OneDrive.";
 
 /* Error Signing out of OneDrive */
-"cloud_sessions_prompt_onedrive_signout_error" = "Ошибка выхода из OneDrive";
+"cloud_sessions_prompt_onedrive_signout_error" = "Ошибка при выходе из OneDrive";
 
 /* (in /) */
 "pick_creds_vc_group_path_display_string_root" = "(в /)";
@@ -3318,7 +3318,7 @@
 "db_management_reopen_required_title" = "Предупреждение";
 
 /* Could Not Open Local Copy */
-"open_sequence_couldnt_open_local_title" = "Ошибка при открытии";
+"open_sequence_couldnt_open_local_title" = "Ошибка при открытии офлайн";
 
 /* Could not open Strongbox's local copy of this database. A online sync is required. */
 "open_sequence_couldnt_open_local_message" = "Не удалось открыть локальную копию. Необходима синхронизация БД.";
@@ -3327,7 +3327,7 @@
 "open_sequence_storage_provider_error_title" = "Ошибка при синхронизации";
 
 /* If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open Strongbox's local copy in read-only mode instead? */
-"open_sequence_storage_provider_error_open_local_ro_instead" = "Если ошибка повторяется, попробуйте удалить и заново добавить базу данных. См. лог синхронизации для получения дополнительной информации.\n\nХотите открыть локальную копию?";
+"open_sequence_storage_provider_error_open_local_ro_instead" = "Если ошибка повторяется, попробуйте удалить и заново добавить БД. См. лог синхронизации для получения дополнительной информации.\n\nХотите открыть локальную копию?";
 
 /* Local Copy Unavailable */
 "autofill_vc_item_subtitle_local_copy_unavailable" = "Локальная копия недоступна";
@@ -3669,7 +3669,7 @@
 "merge_view_merge_message_success" = "Объединение выполнено успешно. База данных обновлена.";
 
 /* There was an problem merging this database. */
-"merge_view_merge_title_error" = "Ошибка при объединении";
+"merge_view_merge_title_error" = "Ошибка при объединении БД";
 
 /* From %@ to %@ - Translators Note: 1st parameter is the old value that will change to the new value which is the second value e.g. 'From my-initial-username to my-changed-username' */
 "diff_drill_down_previous_new_fmt" = "С %@ на %@";
@@ -4156,7 +4156,7 @@
 "generic_action_verb_recycle" = "В Корзину";
 
 /* There was an error updating your database. Would you like to try updating again, or would you prefer to revert to the latest successful update? */
-"sync_status_error_updating_try_again_prompt" = "Ошибка при обновлении БД. Попробовать ещё раз или возвратиться к последней версии?";
+"sync_status_error_updating_try_again_prompt" = "Ошибка при обновлении БД. Попробовать ещё раз или вернуться к последней версии?";
 
 /* Try Again */
 "sync_status_error_updating_try_again_action" = "Попробовать ещё раз";
