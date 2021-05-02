@@ -83,10 +83,10 @@
 "safes_vc_use_icloud_or_continue" = "У Вас уже есть база данных iCloud. Хотите использовать эту БД или продолжить с добавлением другой?";
 
 /* One of the options in response to prompt - Use this iCloud database */
-"safes_vc_use_this_icloud_database" = "Использовать эту базу данных iCloud";
+"safes_vc_use_this_icloud_database" = "Использовать эту";
 
 /* Second option - Select another database */
-"safes_vc_add_another" = "Я хотел бы добавить другую базу данных";
+"safes_vc_add_another" = "Добавить другую";
 
 /* Error title - error selecting storage location */
 "safes_vc_error_selecting_storage_location" = "Ошибка при выборе расположения";
@@ -396,7 +396,7 @@
 "browse_vc_sort_by_title" = "Сортировать элементы по названию?";
 
 /* Do you want to sort all the items in this group by Title? This will set the order in which they are stored in your database. */
-"browse_vc_sort_by_title_message" = "Вы хотите отсортировать все записи в группе по названию? Это позволит использовать порядок, в котором они хранятся в базе данных.";
+"browse_vc_sort_by_title_message" = "Вы хотите отсортировать все записи в группе по названию? Это позволит использовать порядок, в котором они хранятся в БД.";
 
 /* You can long press, or double/triple tap to quickly copy fields... Give it a try! */
 "browse_vc_tip_fast_tap_message" = "Можно использовать длительное, двойное или тройное нажатие, чтобы быстро копировать поля";
@@ -2225,7 +2225,7 @@
 "mac_touch_id_one_time_warning" = "Предупреждение Touch ID/Apple Watch\n\nНесмотря на удобство, это неидеальная система для защиты паролей. Не  исключайте возможность того, что кто-либо, имеющий доступ к Вашему устройству или отпечатку пальцев, может создать достаточно хорошую подделку для обхода Touch ID. Пароль будет надёжно сохранён в связке ключей на Вашем Mac. Это означает, что пользователь с административными правами сможет найти его. Поэтому для максимальной безопасности пароль лучше всегда помнить.\n\nПожалуйста, примите это во внимание и решите, является ли использование Touch ID целесообразным, основываясь на выборе между удобством и безопасностью.";
 
 /* You cannot lock a database while changes are pending. Save changes and lock now? */
-"mac_cant_lock_db_while_changes_pending" = "Вы не можете заблокировать базу данных, пока изменения ещё в процессе. Сохранить изменения и заблокировать сейчас?";
+"mac_cant_lock_db_while_changes_pending" = "Невозможно заблокировать БД, т.к. изменения не сохранены. Сохранить всё и заблокировать сейчас?";
 
 /* Locking... */
 "generic_locking_ellipsis" = "Блокировка ...";
@@ -2434,7 +2434,7 @@
 "mac_undo_action_import_entries_from_csv" = "Импортировать записи из CSV";
 
 /* Cannot save database while it is locked." */
-"mac_cannot_save_db_while_locked" = "Невозможно сохранить базу данных, пока она заблокирована.";
+"mac_cannot_save_db_while_locked" = "Невозможно сохранить БД, т.к. она заблокирована.";
 
 /* Strongbox cannot open File Wrappers, Directories or Compressed Packages like this. Please directly select a KeePass or Password Safe database file. */
 "mac_strongbox_cant_open_file_wrappers" = "Приложение не может открывать контейнеры, каталоги или сжатые файлы. Выберите файл БД в формате KeePass или Password Safe.";
@@ -2449,7 +2449,7 @@
 "mac_save_action" = "Сохранить";
 
 /* You must save this new database before you can use it */
-"mac_save_new_db_message" = "Необходимо сохранить новую базу данных, прежде чем Вы сможете её использовать";
+"mac_save_new_db_message" = "Необходимо сохранить новую БД, прежде чем Вы сможете её использовать.";
 
 /* Untitled.%@ - Translators Note: 1st Parameter is the File Extension e.g. KDBX or psafe3*/
 "mac_untitled_database_filename_fmt" = "Без названия.%@";
@@ -3600,7 +3600,7 @@
 "generic_action_create_local_database" = "Добавить как локальную";
 
 /* Identical databases. */
-"merge_result_databases_identical" = "Идентичные базы данных";
+"merge_result_databases_identical" = "Идентичные БД";
 
 /* Compare & Merge... */
 "generic_action_compare_and_merge_ellipsis" = "Сравнить и объединить";
@@ -3615,7 +3615,7 @@
 "diff_result_percentage_difference_fmt" = "Отличия: %0.1f%%";
 
 /* Identical databases. */
-"diff_result_databases_identical" = "Идентичные базы данных";
+"diff_result_databases_identical" = "Идентичные БД";
 
 /* Some database properties will change. */
 "merge_result_databases_properties_will_change" = "Изменения: Свойства БД";
@@ -3681,10 +3681,10 @@
 "diff_drill_down_color_will_change" = "Изменения: Цвет";
 
 /* Database Name will change. */
-"diff_drill_down_database_name_will_change" = "Изменения: Название базы";
+"diff_drill_down_database_name_will_change" = "Изменения: Название БД";
 
 /* Database Description will change. */
-"diff_drill_down_database_desc_will_change" = "Изменения: Описание базы";
+"diff_drill_down_database_desc_will_change" = "Изменения: Описание БД";
 
 /* Default Username will change. */
 "diff_drill_down_default_username_will_change" = "Изменения: Логин по умолчанию";
