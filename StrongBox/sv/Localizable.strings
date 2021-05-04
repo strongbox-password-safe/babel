@@ -135,7 +135,7 @@
 "safesvc_icloud_no_longer_available_title" = "iCloud är inte tillgänglig längre";
 
 /* iCloud has become unavailable. Your iCloud databases remain stored in iCloud but they will no longer sync to or from this device though you may still access them here. */
-"safesvc_icloud_no_longer_available_message" = "iCloud has become unavailable. Your iCloud databases remain stored in iCloud but they will no longer sync to or from this device though you may still access them here.";
+"safesvc_icloud_no_longer_available_message" = "iCloud har blivit otillgängligt. Dina iCloud-databaser finns kvar i iCloud men de kommer inte längre att synkroniseras till eller från den här enheten även om du fortfarande kan komma åt dem här.";
 
 /* You can now use iCloud with Strongbox. Should your current local databases be migrated to iCloud and available on all your devices? (NB: Your existing cloud databases will not be affected) */
 "safesvc_migrate_local_existing" = "Nu kan du använda iCloud med Strongbox. Ska dina nuvarande lokala databaser migreras till iCloud och göras tillgängliga på alla dina enheter? (Obs! Dina befintliga molndatabaser berörs inte)";
@@ -4006,7 +4006,7 @@
 "databases_vc_database_location_suffix_database_is_in_official_icloud_strongbox_folder" = "Strongbox iCloud";
 
 /* Watch Unlock */
-"preference_allow_watch_unlock" = "Watch Unlock";
+"preference_allow_watch_unlock" = "Watch-upplåsning";
 
 /* Watch Unlock - (Enable in System Preferences > Security & Privacy) */
 "preference_allow_watch_unlock_system_disabled" = "Watch-upplåsning - (Aktivera i systeminställningar > Säkerhet och integritet)";
@@ -4042,16 +4042,16 @@
 "mac_non_file_database_pro_message" = "Databasen kan endast låsas upp av Strongbox Pro eftersom den lagras via SFTP eller WebDAV.\n\nDu behöver uppgradera.";
 
 /* Item Copied to Clipboard */
-"mac_copied_item_to_clipboard" = "Item Copied to Clipboard";
+"mac_copied_item_to_clipboard" = "Objekt kopierat till urklipp";
 
 /* Items Copied to Clipboard */
-"mac_copied_items_to_clipboard" = "Items Copied to Clipboard";
+"mac_copied_items_to_clipboard" = "Objekt kopierat till urklipp";
 
 /* Item Pasted from Clipboard */
-"mac_item_pasted_from_clipboard" = "Item Pasted from Clipboard";
+"mac_item_pasted_from_clipboard" = "Objekt inklistrat från urklipp";
 
 /* Items Pasted from Clipboard */
-"mac_items_pasted_from_clipboard" = "Items Pasted from Clipboard";
+"mac_items_pasted_from_clipboard" = "Objekt inklistrat från urklipp";
 
 /* Item Duplicated */
 "mac_item_duplicated" = "Item Duplicated";
@@ -4063,28 +4063,28 @@
 "sync_log_status_done" = "Klar. ✅";
 
 /* TOTP Copied */
-"autofill_info_totp_copied_title" = "TOTP Copied";
+"autofill_info_totp_copied_title" = "TOTP kopierad";
 
 /* Your TOTP Code has been copied to the clipboard. */
-"autofill_info_totp_copied_message" = "Your TOTP Code has been copied to the clipboard.";
+"autofill_info_totp_copied_message" = "Din TOTP-kod har kopierats till urklipp.";
 
 /* Convenience Auto Unlock */
-"prefs_vc_autofill_convenience_auto_unlock" = "Convenience Auto Unlock";
+"prefs_vc_autofill_convenience_auto_unlock" = "Automatisk bekvämlighetsupplåsning";
 
 /* Not Configured */
-"generic_preference_not_configured" = "Not Configured";
+"generic_preference_not_configured" = "Inte konfigurerad";
 
 /* Auto Unlock Feature */
-"autofill_auto_unlock_title" = "Auto Unlock Feature";
+"autofill_auto_unlock_title" = "Automatisk upplåsningsfunktion";
 
 /* Auto Unlock lets you avoid having to repeatedly unlock your database for a configurable time period. Would you like to use this handy feature?\n\nNB: Your password is stored in the Secure Enclave for this feature. */
 "autofill_auto_unlock_message" = "Auto Unlock lets you avoid having to repeatedly unlock your database for a configurable time period. Would you like to use this handy feature?\n\nNB: Your password is stored in the Secure Enclave for this feature.";
 
 /* Great, let try 3 mins */
-"autofill_auto_unlock_try_3_minutes" = "Great, lets try 3 mins";
+"autofill_auto_unlock_try_3_minutes" = "Perfekt, vi provar 3 minuter";
 
 /* I'd prefer 10 mins */
-"autofill_auto_unlock_try_10_minutes" = "I'd prefer 10 mins";
+"autofill_auto_unlock_try_10_minutes" = "Jag föredrar 10 minuter";
 
 /* AutoFill Quick Launch */
 "databases_toggle_autofill_quick_launch_context_menu" = "Autofyll snabbstart";
@@ -4099,7 +4099,7 @@
 "autofill_search_other_matches_section_header" = "Other Matches";
 
 /* Service ID */
-"autofill_search_title_service_id_section_header" = "Service ID";
+"autofill_search_title_service_id_section_header" = "Tjänste-ID";
 
 /* The Service ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Service ID. */
 "autofill_search_service_id_section_footer" = "The Service ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Service ID. Tap to Copy.";
@@ -4123,7 +4123,7 @@
 "app_privacy_shield_mode_pixellate" = "Pixellate";
 
 /* Blue Screen */
-"app_privacy_shield_mode_blue_screen" = "Blue Screen";
+"app_privacy_shield_mode_blue_screen" = "Blåskärm";
 
 /* Privacy Shield View */
 "prefs_vc_privacy_shield_view" = "Privacy Shield View";
@@ -4159,10 +4159,10 @@
 "sync_status_error_updating_try_again_prompt" = "There was an error updating your database. Would you like to try updating again, or would you prefer to revert to the latest successful update?";
 
 /* Try Again */
-"sync_status_error_updating_try_again_action" = "Try Again";
+"sync_status_error_updating_try_again_action" = "Försök igen";
 
 /* Revert to Latest */
-"sync_status_error_updating_revert_action" = "Revert to Latest";
+"sync_status_error_updating_revert_action" = "Återställ till senaste";
 
 /* Assistance Required */
 "sync_status_user_interaction_required_prompt_title" = "Assistance Required";
@@ -4174,13 +4174,13 @@
 "database_properties_title_could_not_connect_behaviour" = "Could Not Connect Behaviour";
 
 /* Open Online - NB: Action to open a database in Online mode, only applies to databases with 'Always Open Offline' set. */
-"safes_vc_slide_left_open_online_action" = "Open Online";
+"safes_vc_slide_left_open_online_action" = "Öppna online";
 
 /* At least one of these database is open and unlocked. You must lock this database before you can remove it. */
 "mac_at_least_one_db_unlocked_cannot_remove" = "At least one of these databases is unlocked. You must lock this database before you can remove it.";
 
 /* About Strongbox %@ - L10n note: 1st parameter is the App Version, e.g. 'About Strongbox 1.52.17' */
-"prefs_vc_app_version_info_none_pro_fmt" = "About Strongbox %@";
+"prefs_vc_app_version_info_none_pro_fmt" = "Om Strongbox %@";
 
 /* About Strongbox Pro %@ - L10n note: 1st parameter is the App Version, e.g. 'About Strongbox Pro 1.52.17' */
 "prefs_vc_app_version_info_pro_fmt" = "Om Strongbox Pro %@";
@@ -4192,10 +4192,10 @@
 "subtitle_app_version_info_pro_fmt" = "Strongbox Pro %@";
 
 /* Remove Tag */
-"mac_undo_action_remove_tag" = "Remove Tag";
+"mac_undo_action_remove_tag" = "Ta bort tagg";
 
 /* Add Tag */
-"mac_undo_action_add_tag" = "Add Tag";
+"mac_undo_action_add_tag" = "Lägga till tagg";
 
 /* Tags */
 "generic_fieldname_tags" = "Taggar";
@@ -4204,7 +4204,7 @@
 "mac_vc_please_enter_a_tag" = "Enter a new tag to add to this item";
 
 /* Zxcvbn (Smart) */
-"password_strength_algo_zxcvbn_title" = "Zxcvbn (Smart)";
+"password_strength_algo_zxcvbn_title" = "Zxcvbn (smart)";
 
 /* Basic (Pooled Entropy) */
 "password_strength_algo_basic_title" = "Basic (Pooled Entropy)";
@@ -4213,7 +4213,7 @@
 "prefs_vc_password_strength_algorithm" = "Password Strength Algorithm";
 
 /* Very Weak */
-"password_strength_category_very_weak" = "Very Weak";
+"password_strength_category_very_weak" = "Mycket svag";
 
 /* Weak */
 "password_strength_category_weak" = "Weak";
