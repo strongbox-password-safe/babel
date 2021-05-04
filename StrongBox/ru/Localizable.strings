@@ -65,7 +65,7 @@
 "safes_vc_local_storage_mode_changed" = "Отображение изменено";
 
 /* warning message about removing database from icloud */
-"safes_vc_remove_icloud_databases_warning" = "Удаление БД со всех Ваших устройств с поддержкой iCloud.\n\nВы действительно хотите удалить базу данных из приложения и iCloud?";
+"safes_vc_remove_icloud_databases_warning" = "Удаление БД со всех Ваших устройств с поддержкой iCloud.\n\nВы действительно хотите удалить эту БД из приложения и iCloud?";
 
 /* are you sure you want to remove database prompt with format string on end */
 "safes_vc_are_you_sure_remove_database_fmt" = "Вы действительно хотите удалить БД из приложения? %@";
@@ -3540,7 +3540,7 @@
 "pwgen_casing_latin1_supplement" = "Дополнение к Latin-1";
 
 /* Are you sure you want to remove this database from Strongbox?\n\nNB: The underlying database file will not be deleted. Just Strongbox's settings for this database. */
-"are_you_sure_delete_database_single" = "Вы действительно хотите удалить базу данных из приложения?\n\n(*) Будут удалены настройки для этой БД. Файл не будет удалён.";
+"are_you_sure_delete_database_single" = "Вы действительно хотите удалить БД из приложения?\n\n(*) Будут удалены настройки для этой БД. Файл не будет удалён.";
 
 /* Are you sure you want to remove these databases from Strongbox?\n\nNB: The underlying database files will not be deleted. Just Strongbox's settings for these databases. */
 "are_you_sure_delete_database_multiple" = "Вы действительно хотите удалить базы данных из приложения?\n\n(*) Будут удалены настройки для этих БД. Файлы не будут удалены.";
@@ -3552,7 +3552,7 @@
 "mac_no_autofill_enabled_databases_initial_message" = "Нет баз данных с включенной поддержкой автозаполнения";
 
 /* It looks like this is your first time using AutoFill with this database.\n\nFor security reasons you must locate and select your database file for Strongbox so that the AutoFill can access it.\n\nAs a reminder your database file was last located here:\n\n%@\n\nPlease locate it now for Strongbox...  - Translator's note: The parameter is the path of the database like '/Users/mark/Desktop/my-database.kdbx' */
-"mac_autofill_first_time_locate-fmt" = "Это первое использование автозаполнения с этой базой данных.\n\nПо соображениям безопасности необходимо выбрать файл БД для корректной работы функции.\n\nПоследнее расположение файла:\n\n%@\n\nПожалуйста, выберите базу данных.";
+"mac_autofill_first_time_locate-fmt" = "Это первое использование автозаполнения с этой базой данных.\n\nПо соображениям безопасности необходимо выбрать файл БД для корректной работы функции.\n\nПоследнее расположение:\n\n%@\n\nПожалуйста, выберите файл.";
 
 /* Welcome to Strongbox AutoFill */
 "mac_welcome_to_autofill" = "Функция автозаполнения Strongbox";
@@ -4033,10 +4033,10 @@
 "notification_sync_successful" = "Синхронизация выполнена";
 
 /* Add SFTP Database... (Pro) */
-"mac_add_sftp_pro_only" = "Добавить базу данных с SFTP (Pro версия)";
+"mac_add_sftp_pro_only" = "Добавить БД с SFTP (Pro версия)";
 
 /* Add WebDAV Database... (Pro) */
-"mac_add_webdav_pro_only" = "Добавить базу данных с WebDAV (Pro версия)";
+"mac_add_webdav_pro_only" = "Добавить БД с WebDAV (Pro версия)";
 
 /* This database can only be unlocked by Strongbox Pro because it is stored via SFTP or WebDAV.\n\nPlease Upgrade. */
 "mac_non_file_database_pro_message" = "БД может быть разблокирована только в Pro версии, т.к. она находится в SFTP или WebDAV хранилище.\n\nПожалуйста, улучшите приложение.";
