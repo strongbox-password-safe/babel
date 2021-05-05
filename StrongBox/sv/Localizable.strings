@@ -135,7 +135,7 @@
 "safesvc_icloud_no_longer_available_title" = "iCloud är inte tillgänglig längre";
 
 /* iCloud has become unavailable. Your iCloud databases remain stored in iCloud but they will no longer sync to or from this device though you may still access them here. */
-"safesvc_icloud_no_longer_available_message" = "iCloud has become unavailable. Your iCloud databases remain stored in iCloud but they will no longer sync to or from this device though you may still access them here.";
+"safesvc_icloud_no_longer_available_message" = "iCloud har blivit otillgängligt. Dina iCloud-databaser finns kvar i iCloud men de kommer inte längre att synkroniseras till eller från den här enheten även om du fortfarande kan komma åt dem här.";
 
 /* You can now use iCloud with Strongbox. Should your current local databases be migrated to iCloud and available on all your devices? (NB: Your existing cloud databases will not be affected) */
 "safesvc_migrate_local_existing" = "Nu kan du använda iCloud med Strongbox. Ska dina nuvarande lokala databaser migreras till iCloud och göras tillgängliga på alla dina enheter? (Obs! Dina befintliga molndatabaser berörs inte)";
@@ -522,7 +522,7 @@
 "db_management_disable_autofill_yesno_message" = "Är du säker på att du vill göra detta?";
 
 /* Disable AutoFill? */
-"db_management_disable_autofill_yesno_title" = "Inaktivera autofyll?";
+"db_management_disable_autofill_yesno_title" = "Inaktivera Autofyll?";
 
 /* %@ for this database has been disabled. */
 "db_management_disable_biometric_notify_message_fmt" = "%@ har inaktiverats för denna databas.";
@@ -3063,7 +3063,7 @@
 "audit_hibp_warning_title" = "HIBP ansvarsfriskrivning";
 
 /* I understand that an anonymised portion of my password(s) will be sent over the web (HTTPS) to the 'Have I Been Pwned?' password checking service (using a secure k-anonymity technique) and that I fully consent to this functionality. I also absolve Strongbox, Mark McGuill and Phoebe Code Limited of all liability for using this feature. */
-"audit_hibp_warning_message" = "I understand that an anonymised portion of my password(s) will be sent over the web (HTTPS) to the 'Have I Been Pwned?' password checking service (using a secure k-anonymity technique) and that I fully consent to this functionality. I also absolve Strongbox, Mark McGuill and Phoebe Code Limited of all liability for using this feature.";
+"audit_hibp_warning_message" = "Jag förstår att en anonymiserad del av mina lösenord kommer att skickas över webben (HTTPS) till lösenordskontrolltjänsten \"Have I Been Pwned?\" (säker k-anonymitetsteknik används) och att jag helt samtycker till denna funktionalitet. Jag frikänner också Strongbox, Mark McGuill och Phoebe Code Limited från allt ansvar vid användandet av denna funktion.";
 
 /* No, I don't want to use this feature */
 "audit_hibp_warning_no" = "Nej, jag vill inte använda den här funktionen";
@@ -3246,13 +3246,13 @@
 "autofill_error_unknown_db_title" = "Strongbox: Okänd databas";
 
 /* This appears to be a reference to an older Strongbox database which can no longer be found. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill. */
-"autofill_error_unknown_db_message" = "Detta verkar vara en referens till en äldre Strongbox databas som inte längre kan hittas. Strongbox QuickType autofylldatabas har nu rensats och du måste därför öppna dina databaser igen för att uppdatera QuickType autofyill.";
+"autofill_error_unknown_db_message" = "Detta verkar vara en referens till en äldre Strongbox databas som inte längre kan hittas. Strongbox QuickType autofylldatabas har nu rensats och du måste därför öppna dina databaser igen för att uppdatera QuickType Autofyill.";
 
 /* Strongbox: Error Locating Entry */
 "autofill_error_unknown_item_title" = "Strongbox: Fel vid sökning efter post";
 
 /* Strongbox could not find this entry, it is possibly stale. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill. */
-"autofill_error_unknown_item_message" = "Strongbox kan inte hitta denna post. Strongbox QuickType autofylldatabas har nu rensats och du måste därför öppna dina databaser igen för att uppdatera QuickType autofyill.";
+"autofill_error_unknown_item_message" = "Strongbox kan inte hitta denna post. Strongbox QuickType autofylldatabas har nu rensats och du måste därför öppna dina databaser igen för att uppdatera QuickType Autofyill.";
 
 /* Locating... */
 "generic_status_sp_locating_ellipsis" = "Söker ...";
@@ -3333,7 +3333,7 @@
 "autofill_vc_item_subtitle_local_copy_unavailable" = "Lokal kopia är inte tillgänglig";
 
 /* AutoFill Disabled */
-"autofill_vc_item_subtitle_disabled" = "Auto Fill Disabled";
+"autofill_vc_item_subtitle_disabled" = "Autofyll inaktiverad";
 
 /* Sync Required */
 "autofill_add_entry_sync_required_title" = "Synkning krävs";
@@ -3399,7 +3399,7 @@
 "yubikey_config_section_header_nfc_device_not_supported" = "NFC YubiKey (NFC stöds inte på enheten)";
 
 /* NFC YubiKey (AutoFill Mode - NFC Unavailable) */
-"yubikey_config_section_header_nfc_autofill_unavailable" = "NFC YubiKey (NFC ej tillgängligt i autofyll)";
+"yubikey_config_section_header_nfc_autofill_unavailable" = "NFC YubiKey (NFC ej tillgängligt i Autofyll)";
 
 /* Lightning YubiKey (Pro Edition Only) */
 "yubikey_config_section_header_lightning_pro_only" = "Lightning YubiKey (endast Pro-version)";
@@ -3408,13 +3408,13 @@
 "yubikey_config_section_header_lightning_device_not_supported" = "Lightning YubiKey (Lightning stöds inte av enheten)";
 
 /* Lightning YubiKey (AutoFill Mode - Lightning Unavailable) */
-"yubikey_config_section_header_lightning_autofill_unavailable" = "Lightning YubiKey (Lightning ej tillgänglig i autofyll)";
+"yubikey_config_section_header_lightning_autofill_unavailable" = "Lightning YubiKey (Lightning ej tillgänglig i Autofyll)";
 
 /* Are you sure you want to delete this Virtual Hardware Key? */
 "yubikey_config_are_you_sure_delete" = "Är du säker på att du vill ta bort denna virtuella maskinvarunyckel?";
 
 /* %@ (AutoFill Only) - Translator's note, the 1st parameter is the name of the virtual hardware key, e.g. Mark's Virtual Hardware Key - This string indicates that that key can only be used in AutoFill mode only, not regualr App mode */
-"yubikeys_virtual_autofill_only" = "%@ (endast autofyll)";
+"yubikeys_virtual_autofill_only" = "%@ (endast Autofyll)";
 
 /* Virtual Hardware Key */
 "casg_yubikey_configured_virtual" = "Virtuell maskinvarunyckel";
@@ -3552,7 +3552,7 @@
 "mac_no_autofill_enabled_databases_initial_message" = "Autofyll inte aktiverad för någon databas";
 
 /* It looks like this is your first time using AutoFill with this database.\n\nFor security reasons you must locate and select your database file for Strongbox so that the AutoFill can access it.\n\nAs a reminder your database file was last located here:\n\n%@\n\nPlease locate it now for Strongbox...  - Translator's note: The parameter is the path of the database like '/Users/mark/Desktop/my-database.kdbx' */
-"mac_autofill_first_time_locate-fmt" = "Det verkar vara den första gången du använder autofyll med denna databas.\n\nAv säkerhetsskäl måste du hitta och välja din databasfil för Strongbox så att autofyll kan komma åt den.\n\nSom en påminnelse var din databasfil senast placerad här:\n\n%@\n\nVänligen välj den nu för Strongbox ...";
+"mac_autofill_first_time_locate-fmt" = "Det verkar vara den första gången du använder Autofyll med denna databas.\n\nAv säkerhetsskäl måste du hitta och välja din databasfil för Strongbox så att Autofyll kan komma åt den.\n\nSom en påminnelse var din databasfil senast placerad här:\n\n%@\n\nVänligen välj den nu för Strongbox ...";
 
 /* Welcome to Strongbox AutoFill */
 "mac_welcome_to_autofill" = "Välkommen till Strongbox autofyll";
@@ -3579,7 +3579,7 @@
 "mac_autofill_enable_extension_title" = "Aktivera Strongbox-tillägg";
 
 /* To use AutoFill you must enable the Strongbox Extension in System Preferences. To do this click the 'Open System Preferences...' button below and navigate to:\n\n∙ Extensions > Password AutoFill > Check 'Strongbox' */
-"mac_autofill_enable_extension_message" = "För att använda autofyll måste du aktivera Strongboxtillägg i Systeminställningar. För att göra detta klickar du på \"Öppna systeminställningar ...\"-knappen nedan och navigerar till:\n\n• Tillägg > Autofyll lösenord > Markera \"Strongbox\"";
+"mac_autofill_enable_extension_message" = "För att använda Autofyll måste du aktivera Strongboxtillägg i Systeminställningar. För att göra detta klickar du på \"Öppna systeminställningar ...\"-knappen nedan och navigerar till:\n\n• Tillägg > Autofyll lösenord > Markera \"Strongbox\"";
 
 /* Open System Preferences... */
 "mac_autofill_action_open_system_preferences" = "Öppna systeminställningar ...";
@@ -4006,10 +4006,10 @@
 "databases_vc_database_location_suffix_database_is_in_official_icloud_strongbox_folder" = "Strongbox iCloud";
 
 /* Watch Unlock */
-"preference_allow_watch_unlock" = "Watch Unlock";
+"preference_allow_watch_unlock" = "Watch-upplåsning";
 
 /* Watch Unlock - (Enable in System Preferences > Security & Privacy) */
-"preference_allow_watch_unlock_system_disabled" = "Watch Unlock - (Enable in System Preferences > Security & Privacy)";
+"preference_allow_watch_unlock_system_disabled" = "Watch-upplåsning - (Aktivera i systeminställningar > Säkerhet och integritet)";
 
 /* No Cloud Session Found */
 "cloud_sessions_prompt_no_session_found" = "Hittade ingen molnsession";
@@ -4042,16 +4042,16 @@
 "mac_non_file_database_pro_message" = "Databasen kan endast låsas upp av Strongbox Pro eftersom den lagras via SFTP eller WebDAV.\n\nDu behöver uppgradera.";
 
 /* Item Copied to Clipboard */
-"mac_copied_item_to_clipboard" = "Item Copied to Clipboard";
+"mac_copied_item_to_clipboard" = "Objekt kopierat till urklipp";
 
 /* Items Copied to Clipboard */
-"mac_copied_items_to_clipboard" = "Items Copied to Clipboard";
+"mac_copied_items_to_clipboard" = "Objekt kopierat till urklipp";
 
 /* Item Pasted from Clipboard */
-"mac_item_pasted_from_clipboard" = "Item Pasted from Clipboard";
+"mac_item_pasted_from_clipboard" = "Objekt inklistrat från urklipp";
 
 /* Items Pasted from Clipboard */
-"mac_items_pasted_from_clipboard" = "Items Pasted from Clipboard";
+"mac_items_pasted_from_clipboard" = "Objekt inklistrat från urklipp";
 
 /* Item Duplicated */
 "mac_item_duplicated" = "Item Duplicated";
@@ -4063,31 +4063,31 @@
 "sync_log_status_done" = "Klar. ✅";
 
 /* TOTP Copied */
-"autofill_info_totp_copied_title" = "TOTP Copied";
+"autofill_info_totp_copied_title" = "TOTP kopierad";
 
 /* Your TOTP Code has been copied to the clipboard. */
-"autofill_info_totp_copied_message" = "Your TOTP Code has been copied to the clipboard.";
+"autofill_info_totp_copied_message" = "Din TOTP-kod har kopierats till urklipp.";
 
 /* Convenience Auto Unlock */
-"prefs_vc_autofill_convenience_auto_unlock" = "Convenience Auto Unlock";
+"prefs_vc_autofill_convenience_auto_unlock" = "Automatisk bekvämlighetsupplåsning";
 
 /* Not Configured */
-"generic_preference_not_configured" = "Not Configured";
+"generic_preference_not_configured" = "Inte konfigurerad";
 
 /* Auto Unlock Feature */
-"autofill_auto_unlock_title" = "Auto Unlock Feature";
+"autofill_auto_unlock_title" = "Automatisk upplåsningsfunktion";
 
 /* Auto Unlock lets you avoid having to repeatedly unlock your database for a configurable time period. Would you like to use this handy feature?\n\nNB: Your password is stored in the Secure Enclave for this feature. */
 "autofill_auto_unlock_message" = "Auto Unlock lets you avoid having to repeatedly unlock your database for a configurable time period. Would you like to use this handy feature?\n\nNB: Your password is stored in the Secure Enclave for this feature.";
 
 /* Great, let try 3 mins */
-"autofill_auto_unlock_try_3_minutes" = "Great, lets try 3 mins";
+"autofill_auto_unlock_try_3_minutes" = "Perfekt, vi provar 3 minuter";
 
 /* I'd prefer 10 mins */
-"autofill_auto_unlock_try_10_minutes" = "I'd prefer 10 mins";
+"autofill_auto_unlock_try_10_minutes" = "Jag föredrar 10 minuter";
 
 /* AutoFill Quick Launch */
-"databases_toggle_autofill_quick_launch_context_menu" = "AutoFill Quick Launch";
+"databases_toggle_autofill_quick_launch_context_menu" = "Autofyll snabbstart";
 
 /* Title Matches */
 "autofill_search_title_matches_section_header" = "Title Matches";
@@ -4099,7 +4099,7 @@
 "autofill_search_other_matches_section_header" = "Other Matches";
 
 /* Service ID */
-"autofill_search_title_service_id_section_header" = "Service ID";
+"autofill_search_title_service_id_section_header" = "Tjänste-ID";
 
 /* The Service ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Service ID. */
 "autofill_search_service_id_section_footer" = "The Service ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Service ID. Tap to Copy.";
@@ -4108,10 +4108,10 @@
 "quick_view_title_no_matches_title" = "Resultat";
 
 /* Unlock with Touch ID */
-"mac_unlock_database_with_touch_id" = "Unlock with Touch ID";
+"mac_unlock_database_with_touch_id" = "Lås upp med Touch ID";
 
 /* Unlock with Watch */
-"mac_unlock_database_with_apple_watch" = "Unlock with Watch";
+"mac_unlock_database_with_apple_watch" = "Lås upp med Watch";
 
 /* Unlock with Touch ID or Watch */
 "mac_unlock_database_with_touch_or_watch" = "Lås upp med Touch ID eller Watch";
@@ -4123,7 +4123,7 @@
 "app_privacy_shield_mode_pixellate" = "Pixellate";
 
 /* Blue Screen */
-"app_privacy_shield_mode_blue_screen" = "Blue Screen";
+"app_privacy_shield_mode_blue_screen" = "Blåskärm";
 
 /* Privacy Shield View */
 "prefs_vc_privacy_shield_view" = "Privacy Shield View";
@@ -4150,7 +4150,7 @@
 "sync_status_user_interaction_required_prompt_yes_or_no" = "There was a problem updating your database and your assistance is required to resolve. Would you like to resolve this problem now?";
 
 /* Error Updating */
-"sync_status_error_updating_title" = "Error Updating";
+"sync_status_error_updating_title" = "Fel vid uppdatering";
 
 /* Recycle (L10n Note: This is an action, e.g. To Recycle and item, to send it to the Recycle Bin) */
 "generic_action_verb_recycle" = "Recycle";
@@ -4159,10 +4159,10 @@
 "sync_status_error_updating_try_again_prompt" = "There was an error updating your database. Would you like to try updating again, or would you prefer to revert to the latest successful update?";
 
 /* Try Again */
-"sync_status_error_updating_try_again_action" = "Try Again";
+"sync_status_error_updating_try_again_action" = "Försök igen";
 
 /* Revert to Latest */
-"sync_status_error_updating_revert_action" = "Revert to Latest";
+"sync_status_error_updating_revert_action" = "Återställ till senaste";
 
 /* Assistance Required */
 "sync_status_user_interaction_required_prompt_title" = "Assistance Required";
@@ -4174,13 +4174,13 @@
 "database_properties_title_could_not_connect_behaviour" = "Could Not Connect Behaviour";
 
 /* Open Online - NB: Action to open a database in Online mode, only applies to databases with 'Always Open Offline' set. */
-"safes_vc_slide_left_open_online_action" = "Open Online";
+"safes_vc_slide_left_open_online_action" = "Öppna online";
 
 /* At least one of these database is open and unlocked. You must lock this database before you can remove it. */
 "mac_at_least_one_db_unlocked_cannot_remove" = "At least one of these databases is unlocked. You must lock this database before you can remove it.";
 
 /* About Strongbox %@ - L10n note: 1st parameter is the App Version, e.g. 'About Strongbox 1.52.17' */
-"prefs_vc_app_version_info_none_pro_fmt" = "About Strongbox %@";
+"prefs_vc_app_version_info_none_pro_fmt" = "Om Strongbox %@";
 
 /* About Strongbox Pro %@ - L10n note: 1st parameter is the App Version, e.g. 'About Strongbox Pro 1.52.17' */
 "prefs_vc_app_version_info_pro_fmt" = "Om Strongbox Pro %@";
@@ -4192,10 +4192,10 @@
 "subtitle_app_version_info_pro_fmt" = "Strongbox Pro %@";
 
 /* Remove Tag */
-"mac_undo_action_remove_tag" = "Remove Tag";
+"mac_undo_action_remove_tag" = "Ta bort tagg";
 
 /* Add Tag */
-"mac_undo_action_add_tag" = "Add Tag";
+"mac_undo_action_add_tag" = "Lägga till tagg";
 
 /* Tags */
 "generic_fieldname_tags" = "Taggar";
@@ -4204,7 +4204,7 @@
 "mac_vc_please_enter_a_tag" = "Enter a new tag to add to this item";
 
 /* Zxcvbn (Smart) */
-"password_strength_algo_zxcvbn_title" = "Zxcvbn (Smart)";
+"password_strength_algo_zxcvbn_title" = "Zxcvbn (smart)";
 
 /* Basic (Pooled Entropy) */
 "password_strength_algo_basic_title" = "Basic (Pooled Entropy)";
@@ -4213,13 +4213,13 @@
 "prefs_vc_password_strength_algorithm" = "Password Strength Algorithm";
 
 /* Very Weak */
-"password_strength_category_very_weak" = "Very Weak";
+"password_strength_category_very_weak" = "Mycket svag";
 
 /* Weak */
-"password_strength_category_weak" = "Weak";
+"password_strength_category_weak" = "Svag";
 
 /* Mediocre */
-"password_strength_category_mediocre" = "Mediocre";
+"password_strength_category_mediocre" = "Medioker";
 
 /* Strong */
 "password_strength_category_strong" = "Strong";

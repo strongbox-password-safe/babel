@@ -2952,10 +2952,10 @@
 "audit_quick_summary_pwned" = "密码已泄露 (HIBP)";
 
 /* Weak/Entropy */
-"audit_quick_summary_very_brief_low_entropy" = "Weak/Entropy";
+"audit_quick_summary_very_brief_low_entropy" = "弱/熵";
 
 /* Password is weak (low entropy) */
-"audit_quick_summary_password_low_entropy" = "Password is weak (low entropy)";
+"audit_quick_summary_password_low_entropy" = "密码较弱 (低熵)";
 
 /* All Entries */
 "quick_view_title_all_entries_title" = "所有条目";
@@ -3063,7 +3063,7 @@
 "audit_hibp_warning_title" = "HIBP 免责声明";
 
 /* I understand that an anonymised portion of my password(s) will be sent over the web (HTTPS) to the 'Have I Been Pwned?' password checking service (using a secure k-anonymity technique) and that I fully consent to this functionality. I also absolve Strongbox, Mark McGuill and Phoebe Code Limited of all liability for using this feature. */
-"audit_hibp_warning_message" = "I understand that an anonymised portion of my password(s) will be sent over the web (HTTPS) to the 'Have I Been Pwned?' password checking service (using a secure k-anonymity technique) and that I fully consent to this functionality. I also absolve Strongbox, Mark McGuill and Phoebe Code Limited of all liability for using this feature.";
+"audit_hibp_warning_message" = "我明白我密码的匿名部分将通过网络 (HTTPS) 发送到 \"Have I Been Pwned?\" 密码检查服务 (使用安全的 k-anonymity 技术) 并且我完全同意这项功能。我也同意使用此功能产生的一切责任都将对 Strongbox、Mark McGuill 和 Phoebe Code Limited 免除。";
 
 /* No, I don't want to use this feature */
 "audit_hibp_warning_no" = "不，我不想使用此功能";
@@ -4204,97 +4204,97 @@
 "mac_vc_please_enter_a_tag" = "输入一个新标签以添加到此项目";
 
 /* Zxcvbn (Smart) */
-"password_strength_algo_zxcvbn_title" = "Zxcvbn (Smart)";
+"password_strength_algo_zxcvbn_title" = "Zxcvbn (智能)";
 
 /* Basic (Pooled Entropy) */
-"password_strength_algo_basic_title" = "Basic (Pooled Entropy)";
+"password_strength_algo_basic_title" = "基本 (集合熵)";
 
 /* Password Strength Algorithm */
-"prefs_vc_password_strength_algorithm" = "Password Strength Algorithm";
+"prefs_vc_password_strength_algorithm" = "密码强度算法";
 
 /* Very Weak */
-"password_strength_category_very_weak" = "Very Weak";
+"password_strength_category_very_weak" = "非常弱";
 
 /* Weak */
-"password_strength_category_weak" = "Weak";
+"password_strength_category_weak" = "弱";
 
 /* Mediocre */
-"password_strength_category_mediocre" = "Mediocre";
+"password_strength_category_mediocre" = "平庸";
 
 /* Strong */
-"password_strength_category_strong" = "Strong";
+"password_strength_category_strong" = "强";
 
 /* Very Strong */
-"password_strength_category_very_strong" = "Very Strong";
+"password_strength_category_very_strong" = "非常强";
 
 /* Overkill */
-"password_strength_category_overkill" = "Overkill";
+"password_strength_category_overkill" = "极其强";
 
 /* >100m years - L10n note: this is a time span - Password will take this long to crack */
-"password_time_to_crack_more_than_100m_years" = ">100m years";
+"password_time_to_crack_more_than_100m_years" = "> 一亿年";
 
 /* %@m years - L10n note: this is a time span - Password will take X million years to crack, where X is the first parameter and is an integer (positive whole number). e.g. 45m years  - please try to abbreviate million for your locale */
-"password_time_to_crack_million_years_fmt" = "%@m years";
+"password_time_to_crack_million_years_fmt" = "%@ 百万年";
 
 /* %@k years - L10n note: this is a time span - Password will take X thousand years to crack, where X is the first parameter and is an integer (positive whole number). e.g. 45k years  - please try to abbreviate thousand for your locale  */
-"password_time_to_crack_thousand_years_fmt" = "%@k years";
+"password_time_to_crack_thousand_years_fmt" = "%@ 千年";
 
 /* %@ centuries - L10n note: this is a time span - Password will take X centuries to crack, where X is the first parameter and is an integer (positive whole number). e.g. 5 centuries  - please try to abbreviate for your locale */
-"password_time_to_crack_centuries_fmt" = "%@ centuries";
+"password_time_to_crack_centuries_fmt" = "%@ 世纪";
 
 /* %@ years  - L10n note: this is a time span - Password will take X years to crack, where X is the first parameter and is an integer (positive whole number). e.g. 5 years  - please try to abbreviate for your locale */
-"password_time_to_crack_years_fmt" = "%@ years";
+"password_time_to_crack_years_fmt" = "%@ 年";
 
 /* %@ days - L10n note: this is a time span - Password will take X days to crack, where X is the first parameter and is an integer (positive whole number). e.g. 5 days  - please try to abbreviate for your locale */
-"password_time_to_crack_days_fmt" = "%@ days";
+"password_time_to_crack_days_fmt" = "%@ 天";
 
 /* %@ hours - L10n note: this is a time span - Password will take X hours to crack, where X is the first parameter and is an integer (positive whole number). e.g. 5 hours  - please try to abbreviate for your locale */
-"password_time_to_crack_hours_fmt" = "%@ hours";
+"password_time_to_crack_hours_fmt" = "%@ 小时";
 
 /* Adversary Guess Rate */
-"prefs_vc_password_strength_adversary_crack_rate" = "Adversary Guess Rate";
+"prefs_vc_password_strength_adversary_crack_rate" = "对手猜测速率";
 
 /* Thousand */
-"number_suffix_thousand" = "Thousand";
+"number_suffix_thousand" = "千";
 
 /* Million */
-"number_suffix_million" = "Million";
+"number_suffix_million" = "百万";
 
 /* Billion */
-"number_suffix_billion" = "Billion";
+"number_suffix_billion" = "十亿";
 
 /* Trillion */
-"number_suffix_trillion" = "Trillion";
+"number_suffix_trillion" = "万亿";
 
 /* Quadrillion */
-"number_suffix_quadrillion" = "Quadrillion";
+"number_suffix_quadrillion" = "千万亿";
 
 /* Quintillion */
-"number_suffix_quintillion" = "Quintillion";
+"number_suffix_quintillion" = "一百亿亿";
 
 /* %@ / second - L10n:  First parameter is the number of guesses per second for an adversary. So e.g.  '1 billion / second' */
-"adversary_guess_rate_fmt" = "%@ / second";
+"adversary_guess_rate_fmt" = "%@ / 秒";
 
 /* 🚀 Sale Now On! 🚀 */
-"prompt_sale_now_on_title" = "🚀 Sale Now On! 🚀";
+"prompt_sale_now_on_title" = "🚀 促销开始！ 🚀";
 
 /* Hi there! Strongbox Pro is now 20% off for a very short period only.\n\nWould you like to grab it now and support Strongbox development? Go on, treat yourself! 😎 */
-"prompt_sale_now_on_message" = "Hi there! Strongbox Pro is now 20% off for a very short period only.\n\nWould you like to grab it now and support Strongbox development? Go on, treat yourself! 😎";
+"prompt_sale_now_on_message" = "你好！Strongbox Pro 现在只在很短的时间内降价 20%。\n\n你想现在抓住它并支持 Strongbox 的开发吗？继续，善待你自己！😎";
 
 /* 🚀 20% Off Sale 🚀 Go Pro Now 🔥 */
-"safesvc_upgrade_button_sale_now_on_title" = "🚀 20% Off Sale 🚀 Go Pro Now 🔥";
+"safesvc_upgrade_button_sale_now_on_title" = "🚀 20% 促销 🚀 现在就升级 Pro 🔥";
 
 /* Visible in Search - L10n Note: This indicates whether this item will show up in search results. It depends on whether the user has marked any of the parent folders/groups as Search Enabled or Disabled. The value will be Yes or No. e.g. Visible in Search: Yes */
-"item_properties_search_visible_state" = "Visible in Search";
+"item_properties_search_visible_state" = "在搜索中可见";
 
 /* Is Expanded - L10n Note: Indicates whether a folder is in an expanded or collapsed state in the MacOS/Windows/Desktop UI. Value will be Yes or No. */
-"item_properties_is_expanded" = "Is Expanded";
+"item_properties_is_expanded" = "已展开";
 
 /* Group Expanded state will change. */
-"diff_drill_down_is_expanded_will_change" = "Group Expanded state will change.";
+"diff_drill_down_is_expanded_will_change" = "组扩展状态将会改变。";
 
 /* Group Expanded states are different. */
-"diff_drill_down_expanded_states_are_different" = "Group Expanded states are different.";
+"diff_drill_down_expanded_states_are_different" = "组扩展状态不同。";
 
 /* Previous Parent Group */
-"item_properties_previous_parent_group" = "Previous Parent Group";
+"item_properties_previous_parent_group" = "上一个父组";
