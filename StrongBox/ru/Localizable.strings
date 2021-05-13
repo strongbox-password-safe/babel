@@ -324,7 +324,7 @@
 "browse_vc_action_set_icon" = "Изменить значок";
 
 /* Are you sure you want to permanently delete these item(s)? */
-"browse_vc_are_you_sure_delete" = "Вы действительно хотите удалить элементы навсегда?";
+"browse_vc_are_you_sure_delete" = "Вы действительно хотите удалить эти элементы навсегда?";
 
 /* Are you sure you want to permanently delete '%@'? */
 "browse_vc_are_you_sure_delete_fmt" = "Вы действительно хотите удалить «%@» навсегда?";
@@ -983,7 +983,7 @@
 "pins_config_vc_title_pro_only" = "Код-пароль (Pro версия)";
 
 /* Turning the PIN Off for this database will remove the securely stored password and you will have to enter it again. Are you sure you want to do this? */
-"pins_config_vc_turn_pin_off_warning" = "Выключение код-пароля для БД очистит главный пароль и Вам придется заново вводить его. Хотите продолжить?";
+"pins_config_vc_turn_pin_off_warning" = "Выключение код-пароля для БД очистит главный пароль и Вам придется вводить его заново. Хотите продолжить?";
 
 /* Are you sure you want to turn off the PIN for this database? */
 "pins_config_vc_turn_pin_off_confirm" = "Вы хотите выключить код-пароль для БД?";
@@ -1194,10 +1194,10 @@
 "set_icon_vc_icon_source_media_libary" = "Медиатека";
 
 /* Download FavIcon */
-"set_icon_vc_icon_source_download_favicon" = "Загрузить значок сайта";
+"set_icon_vc_icon_source_download_favicon" = "Загрузка значка сайта";
 
 /* Download FavIcon (Pro Only) */
-"set_icon_vc_icon_source_download_favicon_pro_only" = "Загрузить значок сайта (Pro версия)";
+"set_icon_vc_icon_source_download_favicon_pro_only" = "Загрузка значка сайта (Pro версия)";
 
 /* Downloading FavIcon */
 "set_icon_vc_progress_downloading_favicon" = "Загрузка значка";
@@ -1224,7 +1224,7 @@
 "set_icon_vc_progress_analyzing_image" = "Анализ изображения ...";
 
 /* This is a rather large image (%dx%d), would you like to rescale it to a maximum dimension of %d pixels for a file size saving of roughly %@ */
-"set_icon_vc_prompt_rescale_image_message_fmt" = "Это довольно большое изображение (%d x %d), Вы хотите изменить его масштаб до максимального размера в %d пикселей (сэкономит примерно %@)?";
+"set_icon_vc_prompt_rescale_image_message_fmt" = "Слишком  большой размер изображения (%d x %d), Хотите изменить его масштаб до максимального в %d пикселей (экономия приммерно - %@)?";
 
 /* Large Custom Icon Image, Rescale? */
 "set_icon_vc_prompt_rescale_image_title" = "Изменить масштаб настраиваемого значка?";
@@ -1816,7 +1816,7 @@
 "config_error_one_time_key_file_convenience_title" = "Проблема с одноразовым файл-ключом";
 
 /* Could not write backup, will not proceed with write of database! */
-"model_error_cannot_write_backup" = "Не удалось создать резервную копию. Изменения не будут сохранены в БД!";
+"model_error_cannot_write_backup" = "Не удалось создать резервную копию. Изменения не будут сохранены в БД.";
 
 /* Button Title to view backup settings of this database */
 "safes_vc_action_backups" = "Резервные копии";
@@ -2141,10 +2141,10 @@
 /**********************************************************************************************************************/
 /* Download FavIcon */
 
-"set_icon_vc_icon_source_download_favicons" = "Загрузка значков";
+"set_icon_vc_icon_source_download_favicons" = "Загрузка значков группы";
 
 /* Download FavIcon (Pro Only) */
-"set_icon_vc_icon_source_download_favicons_pro_only" = "Загрузка значков (Pro версия)";
+"set_icon_vc_icon_source_download_favicons_pro_only" = "Загрузка значков группы (Pro версия)";
 
 /* Set Icon(s) */
 "browse_vc_action_set_icons" = "Изменить значок";
@@ -3081,7 +3081,7 @@
 "hibp_check_interval_once_a_week" = "Раз в неделю";
 
 /* Once Every 30 days */
-"hibp_check_interval_once_every_30_days" = "Раз в 30 дней";
+"hibp_check_interval_once_every_30_days" = "Раз в месяц";
 
 /* Select Online Check Interval */
 "audit_hibp_online_check_interval" = "Интервал проверки";
@@ -3093,7 +3093,7 @@
 "item_details_prompt_auto_fetch_favicon_title" = "Автозагрузка значков";
 
 /* Strongbox can automatically fetch FavIcons when an new entry is created or updated.\n\nWould you like to Strongbox to do this? */
-"item_details_prompt_auto_fetch_favicon_message" = "Можно автоматически загружать значки сайтов при создании новой записи или обновлении существующей.\n\nХотите использовать автозагрузку?";
+"item_details_prompt_auto_fetch_favicon_message" = "Можно автоматически загружать значки сайтов при добавлении записи или обновлении существующей.\n\nХотите использовать автозагрузку?";
 
 /* Try Strongbox Pro? */
 "browse_pro_nudge_title" = "Попробовать Strongbox Pro?";
@@ -3326,8 +3326,8 @@
 /* Sync Error */
 "open_sequence_storage_provider_error_title" = "Ошибка при синхронизации";
 
-/* If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open Strongbox's local copy in read-only mode instead? */
-"open_sequence_storage_provider_error_open_local_ro_instead" = "Если ошибка повторяется, попробуйте удалить и заново добавить БД. См. лог синхронизации для получения дополнительной информации.\n\nХотите открыть локальную копию?";
+/* If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open in offline mode instead? */
+"open_sequence_storage_provider_error_open_local_ro_instead" = "Если ошибка повторяется, попробуйте удалить и заново добавить БД. См. лог синхронизации для получения дополнительной информации.\n\nХотите открыть офлайн?";
 
 /* Local Copy Unavailable */
 "autofill_vc_item_subtitle_local_copy_unavailable" = "Локальная копия недоступна";
@@ -4298,3 +4298,27 @@
 
 /* Previous Parent Group */
 "item_properties_previous_parent_group" = "Прежняя родительская группа";
+
+/* %@ & PIN Codes - L10n Note: The first parameter is automatically be replaced by the appropriate biometric name for the device (i.e. Face ID or Touch ID) - So the string will look like e.g. 'Face ID & PIN Codes' */
+"convenience_unlock_preferences_title_fmt" = "%@ и код-пароль";
+
+/* Require After */
+"convenience_unlock_require_after_prefix" = "Запрос через";
+
+/* It's time now to re-enter your Master Password manually. You can change this master password expiry interval in Database Settings. */
+"composite_key_determiner_convenience_expired_message" = "Введите свой главный пароль. Интервал срока действия можно изменить в настройках БД.";
+
+/* Got it! */
+"generic_got_it" = "Понятно";
+
+/* Don't tell me again */
+"generic_dont_tell_again" = "Больше не напоминать";
+
+/* Actions - L10n - a generic collection of actions (or items that will perform certain actions/tasks) - often used as a Section Header */
+"generic_actions" = "Действия";
+
+/* Preferences - L10n - a generic header or item that leads to a set or settings / preferences - often used as a Section Header or button */
+"generic_preferences" = "Настройки";
+
+/* Rearrange - L10n - Verb - to re-order or otherwise change the order of a list of items */
+"generic_rearrange" = "Переупорядочить";

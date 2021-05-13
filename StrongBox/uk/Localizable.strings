@@ -3326,8 +3326,8 @@
 /* Sync Error */
 "open_sequence_storage_provider_error_title" = "Помилка синхронізації";
 
-/* If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open Strongbox's local copy in read-only mode instead? */
-"open_sequence_storage_provider_error_open_local_ro_instead" = "Якщо це повторюватиметься, вам слід спробувати ще раз додати свою базу паролів. Перегляньте журнал синхронізації для докладних відомостей...\n\nБажаєте відкрити локальну копію Strongbox в режимі лише для читання?";
+/* If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open in offline mode instead? */
+"open_sequence_storage_provider_error_open_local_ro_instead" = "If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open in offline mode instead?";
 
 /* Local Copy Unavailable */
 "autofill_vc_item_subtitle_local_copy_unavailable" = "Локальна копія недоступна";
@@ -4298,3 +4298,27 @@
 
 /* Previous Parent Group */
 "item_properties_previous_parent_group" = "Попередня група вищого рівня";
+
+/* %@ & PIN Codes - L10n Note: The first parameter is automatically be replaced by the appropriate biometric name for the device (i.e. Face ID or Touch ID) - So the string will look like e.g. 'Face ID & PIN Codes' */
+"convenience_unlock_preferences_title_fmt" = "%@ та ПІН";
+
+/* Require After */
+"convenience_unlock_require_after_prefix" = "Вимагати через";
+
+/* It's time now to re-enter your Master Password manually. You can change this master password expiry interval in Database Settings. */
+"composite_key_determiner_convenience_expired_message" = "Необхідно ввести ваш головний пароль. Ви можете змінити інтервал запиту головного пароля в параметрах бази даних Strongbox.";
+
+/* Got it! */
+"generic_got_it" = "Зрозуміло!";
+
+/* Don't tell me again */
+"generic_dont_tell_again" = "Більше не повідомляти";
+
+/* Actions - L10n - a generic collection of actions (or items that will perform certain actions/tasks) - often used as a Section Header */
+"generic_actions" = "Дії";
+
+/* Preferences - L10n - a generic header or item that leads to a set or settings / preferences - often used as a Section Header or button */
+"generic_preferences" = "Параметри";
+
+/* Rearrange - L10n - Verb - to re-order or otherwise change the order of a list of items */
+"generic_rearrange" = "Змінити порядок";

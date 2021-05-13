@@ -3326,8 +3326,8 @@
 /* Sync Error */
 "open_sequence_storage_provider_error_title" = "Error de sincronización";
 
-/* If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open Strongbox's local copy in read-only mode instead? */
-"open_sequence_storage_provider_error_open_local_ro_instead" = "Si esto sucede repetidamente, debería intentar volver a añadir la base de datos. Consulte el registro de sincronización de depuración para obtener más información...\n\n¿Desea abrir la copia local de Strongbox en modalidad de sólo lectura?";
+/* If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open in offline mode instead? */
+"open_sequence_storage_provider_error_open_local_ro_instead" = "Si esto sucede repetidamente, debería intentar volver a añadir la base de datos. Consulte el registro de sincronización de depuración para obtener más datos...\n\n¿Desea abrir la base de datos en modalidad fuera de línea?";
 
 /* Local Copy Unavailable */
 "autofill_vc_item_subtitle_local_copy_unavailable" = "Copia local no disponible";
@@ -4298,3 +4298,27 @@
 
 /* Previous Parent Group */
 "item_properties_previous_parent_group" = "Grupo padre anterior";
+
+/* %@ & PIN Codes - L10n Note: The first parameter is automatically be replaced by the appropriate biometric name for the device (i.e. Face ID or Touch ID) - So the string will look like e.g. 'Face ID & PIN Codes' */
+"convenience_unlock_preferences_title_fmt" = "%@ y códigos PIN";
+
+/* Require After */
+"convenience_unlock_require_after_prefix" = "Requerir después de";
+
+/* It's time now to re-enter your Master Password manually. You can change this master password expiry interval in Database Settings. */
+"composite_key_determiner_convenience_expired_message" = "Ahora es el momento de volver a introducir manualmente su contraseña maestra. Puede cambiar este intervalo de expiración de contraseña maestra en la configuración de la base de datos.";
+
+/* Got it! */
+"generic_got_it" = "¡Entendido!";
+
+/* Don't tell me again */
+"generic_dont_tell_again" = "No volver a preguntarme";
+
+/* Actions - L10n - a generic collection of actions (or items that will perform certain actions/tasks) - often used as a Section Header */
+"generic_actions" = "Acciones";
+
+/* Preferences - L10n - a generic header or item that leads to a set or settings / preferences - often used as a Section Header or button */
+"generic_preferences" = "Preferencias";
+
+/* Rearrange - L10n - Verb - to re-order or otherwise change the order of a list of items */
+"generic_rearrange" = "Reordenar";

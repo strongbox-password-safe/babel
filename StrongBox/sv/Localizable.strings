@@ -3326,8 +3326,8 @@
 /* Sync Error */
 "open_sequence_storage_provider_error_title" = "Synkfel";
 
-/* If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open Strongbox's local copy in read-only mode instead? */
-"open_sequence_storage_provider_error_open_local_ro_instead" = "Om detta händer upprepade gånger bör du försöka lägga till din databas igen. Se felsökningsloggen för synkning för mer ...\n\nVill du öppna Strongbox lokala kopia i skrivskyddat läge istället?";
+/* If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open in offline mode instead? */
+"open_sequence_storage_provider_error_open_local_ro_instead" = "If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open in offline mode instead?";
 
 /* Local Copy Unavailable */
 "autofill_vc_item_subtitle_local_copy_unavailable" = "Lokal kopia är inte tillgänglig";
@@ -4298,3 +4298,27 @@
 
 /* Previous Parent Group */
 "item_properties_previous_parent_group" = "Previous Parent Group";
+
+/* %@ & PIN Codes - L10n Note: The first parameter is automatically be replaced by the appropriate biometric name for the device (i.e. Face ID or Touch ID) - So the string will look like e.g. 'Face ID & PIN Codes' */
+"convenience_unlock_preferences_title_fmt" = "%@ & PIN Codes";
+
+/* Require After */
+"convenience_unlock_require_after_prefix" = "Require After";
+
+/* It's time now to re-enter your Master Password manually. You can change this master password expiry interval in Database Settings. */
+"composite_key_determiner_convenience_expired_message" = "It's time now to re-enter your Master Password manually. You can change this master password expiry interval in Database Settings.";
+
+/* Got it! */
+"generic_got_it" = "Uppfattat!";
+
+/* Don't tell me again */
+"generic_dont_tell_again" = "Visa inte igen";
+
+/* Actions - L10n - a generic collection of actions (or items that will perform certain actions/tasks) - often used as a Section Header */
+"generic_actions" = "Åtgärder";
+
+/* Preferences - L10n - a generic header or item that leads to a set or settings / preferences - often used as a Section Header or button */
+"generic_preferences" = "Inställningar";
+
+/* Rearrange - L10n - Verb - to re-order or otherwise change the order of a list of items */
+"generic_rearrange" = "Rearrange";
