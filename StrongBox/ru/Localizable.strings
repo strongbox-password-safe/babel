@@ -135,7 +135,7 @@
 "safesvc_icloud_no_longer_available_title" = "iCloud недоступен";
 
 /* iCloud has become unavailable. Your iCloud databases remain stored in iCloud but they will no longer sync to or from this device though you may still access them here. */
-"safesvc_icloud_no_longer_available_message" = "iCloud недоступен. Ваши БД останутся в облаке, но они не будут синхронизироваться с этим устройством.";
+"safesvc_icloud_no_longer_available_message" = "iCloud стал недоступен. БД останутся в облаке, но они не будут синхронизироваться с этим устройством.";
 
 /* You can now use iCloud with Strongbox. Should your current local databases be migrated to iCloud and available on all your devices? (NB: Your existing cloud databases will not be affected) */
 "safesvc_migrate_local_existing" = "Теперь можно использовать iCloud. Хотите переместить локальные БД в iCloud, чтобы они стали доступными на всех Ваших устройствах? \n(*) Имеющиеся БД в облаке не будут затронуты";
@@ -144,7 +144,7 @@
 "safesvc_migrate_local_no_existing" = "Теперь можно использовать iCloud. Хотите переместить локальные БД в iCloud, чтобы они стали доступными на всех Ваших устройствах?";
 
 /* Would you like the option to use iCloud with Strongbox? (NB: Your existing cloud databases will not be affected) */
-"safesvc_use_icloud_question_existing" = "Хотите использовать iCloud в приложении?\n(*) Имеющиеся БД в облаке не будут затронуты";
+"safesvc_use_icloud_question_existing" = "iCloud стал доступен. Использовать его в приложении?\n(*) Имеющиеся БД в облаке не будут затронуты";
 
 /* You can now use iCloud with Strongbox. Would you like to have your databases available on all your devices? */
 "safesvc_use_icloud_question_no_existing" = "Теперь можно использовать iCloud. Хотите, чтобы БД стали доступными на всех Ваших устройствах?";
@@ -156,7 +156,7 @@
 "safesvc_option_use_icloud" = "Использовать iCloud";
 
 /* Local Only */
-"safesvc_option_local_only" = "Использовать локально";
+"safesvc_option_local_only" = "Локальный доступ";
 
 /* iCloud Available */
 "safesvc_icloud_available_title" = "iCloud доступен";
@@ -615,10 +615,10 @@
 "item_details_setup_totp_failed_title" = "Ошибка при добавлении TOTP";
 
 /* You can setup TOTP by using a QR Code, or manually by entering the secret or an OTPAuth URL */
-"item_details_setup_totp_how_message" = "Вы можете настроить TOTP с помощью QR кода или вручную, введя секретный ключ или ссылку OTPAuth.";
+"item_details_setup_totp_how_message" = "Можно настроить TOTP с помощью QR кода или вручную, введя секретный ключ или ссылку OTPAuth.";
 
 /* How would you like to setup TOTP? */
-"item_details_setup_totp_how_title" = "Настройка TOTP";
+"item_details_setup_totp_how_title" = "TOTP";
 
 /* Manual (Standard/RFC 6238)... */
 "item_details_setup_totp_manual_rfc" = "Вручную (RFC 6238)";
@@ -663,16 +663,16 @@
 "prefs_vc_app_lock_delay" = "Задержка блокировки";
 
 /* Lite Version %@ (Please Upgrade) */
-"prefs_vc_app_version_info_free_fmt" = "О Strongbox %@ (бесплатная)";
+"prefs_vc_app_version_info_free_fmt" = "Strongbox %@ (бесплатная)";
 
 /* Pro Version %@ (Trial - %ld days left) */
-"prefs_vc_app_version_info_pro_trial_fmt" = "О Strongbox %@ (пробная Pro версия - осталось %ld дней)";
+"prefs_vc_app_version_info_pro_trial_fmt" = "Strongbox %@ (пробная Pro версия - осталось %ld дней)";
 
 /* Auto Lock Database Delay */
 "prefs_vc_auto_lock_database_delay" = "Задержка автоблокировки";
 
 /* This will clear all securely stored master passwords (for all databases) used by biometric unlock. Are you sure? */
-"prefs_vc_clear_biometrics_yesno_message" = "Сохранённые пароли для всех БД, использующиеся для биометрической разблокировки, будут очищены. Хотите продолжить?";
+"prefs_vc_clear_biometrics_yesno_message" = "Сохранённые пароли для всех БД, использующих биометрическую разблокировку, будут очищены. Хотите продолжить?";
 
 /* Clear Biometrics */
 "prefs_vc_clear_biometrics_yesno_title" = "Очистка биометрии";
@@ -681,7 +681,7 @@
 "prefs_vc_clear_clipboard_delay" = "Задержка очистки";
 
 /* This will clear all securely stored master passwords (for all databases) used for PIN Code unlock. Are you sure? */
-"prefs_vc_clear_pin_codes_yesno_message" = "Сохранённые пароли для всех БД, использующиеся для разблокировки код-паролем, будут очищены. Хотите продолжить?";
+"prefs_vc_clear_pin_codes_yesno_message" = "Сохранённые пароли для всех БД, использующих разблокировку код-паролем, будут очищены. Хотите продолжить?";
 
 /* Clear PIN Codes */
 "prefs_vc_clear_pin_codes_yesno_title" = "Очистка код-паролей";
@@ -2743,7 +2743,7 @@
 "mac_convenience_expiry_period_never" = "Никогда";
 
 /* App Exit */
-"mac_convenience_expiry_period_on_app_exit" = "Выйти из приложения";
+"mac_convenience_expiry_period_on_app_exit" = "Выход из приложения";
 
 /* Unlock with Touch ID or Watch */
 "mac_unlock_screen_button_title_convenience_unlock" = "Разблокировать с помощью Touch ID или Watch";
@@ -3342,7 +3342,7 @@
 "autofill_add_entry_sync_required_message_fmt" = "Запись добавлена и сохранена в локальной копии.\n\nСинхронизация изменений с %@ произойдёт при открытии приложения.";
 
 /* Got it! */
-"autofill_add_entry_sync_required_option_got_it" = "Понятно";
+"autofill_add_entry_sync_required_option_got_it" = "ОК";
 
 /* Don't tell me again */
 "autofill_add_entry_sync_required_option_dont_tell_again" = "Больше не напоминать";
@@ -3951,7 +3951,7 @@
 "browse_vc_pulldown_refresh_offline_message" = "Нет соединения";
 
 /* Do not allow changes to be made to this database when it is open. */
-"database_properties_subtitle_read_only" = "Запрет изменений, если БД открыта";
+"database_properties_subtitle_read_only" = "Запрет изменений в открытой БД";
 
 /* Automatically prompt to open this database on App launch. */
 "database_properties_subtitle_quick_launch" = "Открывать при запуске приложения";
@@ -4180,10 +4180,10 @@
 "mac_at_least_one_db_unlocked_cannot_remove" = "По крайней мере, одна из этих БД разблокирована. Её необходимо заблокировать, прежде чем удалить.";
 
 /* About Strongbox %@ - L10n note: 1st parameter is the App Version, e.g. 'About Strongbox 1.52.17' */
-"prefs_vc_app_version_info_none_pro_fmt" = "О Strongbox %@";
+"prefs_vc_app_version_info_none_pro_fmt" = "Strongbox %@";
 
 /* About Strongbox Pro %@ - L10n note: 1st parameter is the App Version, e.g. 'About Strongbox Pro 1.52.17' */
-"prefs_vc_app_version_info_pro_fmt" = "О Strongbox Pro %@";
+"prefs_vc_app_version_info_pro_fmt" = "Strongbox Pro %@";
 
 /* Strongbox %@ - L10n note: 1st parameter is the App Version, e.g. 'Strongbox 1.52.17' */
 "subtitle_app_version_info_none_pro_fmt" = "Strongbox %@";
@@ -4258,22 +4258,22 @@
 "number_suffix_thousand" = "тыс.";
 
 /* Million */
-"number_suffix_million" = "млн.";
+"number_suffix_million" = "млн";
 
 /* Billion */
-"number_suffix_billion" = "млрд.";
+"number_suffix_billion" = "млрд";
 
 /* Trillion */
-"number_suffix_trillion" = "трлн.";
+"number_suffix_trillion" = "трлн";
 
 /* Quadrillion */
-"number_suffix_quadrillion" = "квадрлн.";
+"number_suffix_quadrillion" = "квадрлн";
 
 /* Quintillion */
 "number_suffix_quintillion" = "Квинтиллион";
 
 /* %@ / second - L10n:  First parameter is the number of guesses per second for an adversary. So e.g.  '1 billion / second' */
-"adversary_guess_rate_fmt" = "%@ / сек.";
+"adversary_guess_rate_fmt" = "%@ / с";
 
 /* 🚀 Sale Now On! 🚀 */
 "prompt_sale_now_on_title" = "🚀 Распродажа! 🚀";
@@ -4303,13 +4303,13 @@
 "convenience_unlock_preferences_title_fmt" = "%@ и код-пароль";
 
 /* Require After */
-"convenience_unlock_require_after_prefix" = "Запрос через";
+"convenience_unlock_require_after_prefix" = "Интервал";
 
-/* It's time now to re-enter your Master Password manually. You can change this master password expiry interval in Database Settings. */
-"composite_key_determiner_convenience_expired_message" = "Введите свой главный пароль. Интервал срока действия можно изменить в настройках БД.";
+/* It's time now to re-enter your Master Password manually. You can change this reminder interval in Database Settings. */
+"composite_key_determiner_convenience_expired_message" = "Введите свой главный пароль. Интервал запроса можно изменить в настройках БД.";
 
 /* Got it! */
-"generic_got_it" = "Понятно";
+"generic_got_it" = "ОК";
 
 /* Don't tell me again */
 "generic_dont_tell_again" = "Больше не напоминать";
@@ -4322,3 +4322,24 @@
 
 /* Rearrange - L10n - Verb - to re-order or otherwise change the order of a list of items */
 "generic_rearrange" = "Переупорядочить";
+
+/* Typing your master password is slow, cumbersome and error prone. Strongbox can help you to conveniently and securely unlock your database so that you don't need to enter your master password all the time.\n\nWould you like to use Convenience Unlock? */
+"onboarding_convenience_message_fmt" = "Ввод главного пароля является медленным способом и приводит к ошибкам. Strongbox поможет вам безопасно и быстро разблокировать базу данных без использования главного пароля каждый раз.\n\nХотите использовать быструю разблокировку?";
+
+/* Dismiss - L10n Note: Generic Action to dismiss a dialog or popup */
+"generic_dismiss" = "Отменить";
+
+/* There is a configuration issue you should be aware of. You are using %@ for both App Lock and Quick Launch. In addition you allow device passcode fallback for App Lock.\n\nThis leads to a situation where you can unlock your database using only your device passcode.\n\nIf you do not want this you can do any of the following: Disable App Lock passcode fallback, or Quick Launch, or %@ Database Unlock, or coalescing of unlocks - L10n Note: 3 format parameters here are identical and will be either 'Face ID' or 'Touch ID' */
+"app_lock_coalescing_with_quick_launch_warning" = "Имеется проблема конфигурации, о которой вы должны знать. Вы используете %@ как для блокировки приложения, так и для быстрого запуска. Кроме того, вы разрешаете использовать код-пароль устройства для блокировки приложения.\n\nЭто приводит к ситуации, когда вы можете разблокировать базу данных, используя только код-пароль устройства.\n\nВы могли выполнить следующие действия: Выключить код-пароль устройства для блокировки приложения, или Быстрый запуск, или %@ для разблокировки базы данных, или объединение биометрии.";
+
+/* Configuration Issue */
+"onboarding_configuration_issue_title" = "Проблема конфигурации";
+
+/* Let's Go - L10n Note: Generic Action Button to get started, similar to OK, but more friendly and indicates progression */
+"generic_lets_go" = "Приступить к работе";
+
+/* Ready to Launch */
+"onboarding_ready_to_launch_title" = "Готово";
+
+/* You're all set to get the best out of Strongbox.\n\nDon't forget you can always tweak these settings at any time. */
+"onboarding_ready_to_launch_message" = "Все настройки выполнены.\n\nВы можете в любой момент изменить их.";
