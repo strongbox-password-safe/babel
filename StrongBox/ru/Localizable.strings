@@ -615,7 +615,7 @@
 "item_details_setup_totp_failed_title" = "Ошибка при добавлении TOTP";
 
 /* You can setup TOTP by using a QR Code, or manually by entering the secret or an OTPAuth URL */
-"item_details_setup_totp_how_message" = "Можно настроить TOTP с помощью QR кода или вручную, введя секретный ключ или ссылку OTPAuth.";
+"item_details_setup_totp_how_message" = "Настройка TOTP с помощью QR кода или вручную, введя секретный ключ или ссылку OTPAuth.";
 
 /* How would you like to setup TOTP? */
 "item_details_setup_totp_how_title" = "TOTP";
@@ -1185,7 +1185,7 @@
 "set_icon_vc_select_icon_source_title" = "Изменение значка";
 
 /* Select the source of the icon you would like to use for this entry */
-"set_icon_vc_select_icon_source_message" = "Выберите источник значков, который хотите использовать.";
+"set_icon_vc_select_icon_source_message" = "Выберите источник значков.";
 
 /* KeePass & Database Icon Set */
 "set_icon_vc_icon_source_keepass_set" = "Значки KeePass и этой БД";
@@ -1699,7 +1699,7 @@
 "pwgen_salt_mode_prefix" = "Префикс";
 
 /* Sprinkle */
-"pwgen_salt_mode_sprinkle" = "Любое место";
+"pwgen_salt_mode_sprinkle" = "Произвольно";
 
 /* Suffix */
 "pwgen_salt_mode_suffix" = "Суффикс";
@@ -3483,7 +3483,7 @@
 "properties_vc_header_basic" = "Сведения";
 
 /* Some simple properties and settings of this item. */
-"properties_vc_footer_basic" = "Свойства и сведения об элементе.";
+"properties_vc_footer_basic" = "Некоторые сведения об элементе.";
 
 /* Group Notes */
 "properties_vc_header_group_notes" = "Заметки группы";
@@ -4324,22 +4324,58 @@
 "generic_rearrange" = "Переупорядочить";
 
 /* Typing your master password is slow, cumbersome and error prone. Strongbox can help you to conveniently and securely unlock your database so that you don't need to enter your master password all the time.\n\nWould you like to use Convenience Unlock? */
-"onboarding_convenience_message_fmt" = "Ввод главного пароля является медленным способом и может приводить к ошибкам. Strongbox поможет Вам быстро и безопасно разблокировать БД без использования главного пароля.\n\nХотите включить быструю разблокировку?";
+"onboarding_convenience_message_fmt" = "Ввод главного пароля вручную - медленный способ и может приводить к ошибкам. Strongbox поможет Вам быстро и безопасно разблокировать БД без использования главного пароля.\n\nХотите включить быструю разблокировку?";
 
 /* Dismiss - L10n Note: Generic Action to dismiss a dialog or popup */
 "generic_dismiss" = "Отменить";
 
 /* There is a configuration issue you should be aware of. You are using %@ for both App Lock and Quick Launch. In addition you allow device passcode fallback for App Lock.\n\nThis leads to a situation where you can unlock your database using only your device passcode.\n\nIf you do not want this you can do any of the following: Disable App Lock passcode fallback, or Quick Launch, or %@ Database Unlock, or coalescing of unlocks - L10n Note: 3 format parameters here are identical and will be either 'Face ID' or 'Touch ID' */
-"app_lock_coalescing_with_quick_launch_warning" = "Имеется проблема конфигурации о которой необходимо помнить. Вы используете %@ как для блокировки приложения, так и для быстрого запуска. Кроме того, Вы разрешили использовать код-пароль устройства для блокировки приложения.\n\nМожет возникнуть ситуация, когда Вы сможете разблокировать базу данных только с помощью код-пароля устройства.\n\nЕсли Вы не хотите этого, выполните любое из следующих действий: выключите код-пароль устройства для блокировки приложения, или быстрый запуск, или %@ для разблокировки базы данных, или объединение биометрии.";
+"app_lock_coalescing_with_quick_launch_warning" = "Вы применяете %@ как для блокировки приложения, так и для быстрого запуска БД. Кроме того, разрешено использовать код-пароль устройства для блокировки приложения.\n\nМожет возникнуть ситуация, когда разблокировка БД будет возможна только с помощью код-пароля устройства.\n\nЧтобы изменить это, выполните любое из следующих действий: выключите код-пароль устройства для блокировки приложения, или быстрый запуск, или %@ для разблокировки БД, или объединение биометрии.";
 
 /* Configuration Issue */
-"onboarding_configuration_issue_title" = "Проблема конфигурации";
+"onboarding_configuration_issue_title" = "Оптимизация настроек";
 
 /* Let's Go - L10n Note: Generic Action Button to get started, similar to OK, but more friendly and indicates progression */
 "generic_lets_go" = "Приступить к работе";
 
 /* Ready to Launch */
-"onboarding_ready_to_launch_title" = "Готово";
+"onboarding_ready_to_launch_title" = "Готово!";
 
 /* You're all set to get the best out of Strongbox.\n\nDon't forget you can always tweak these settings at any time. */
 "onboarding_ready_to_launch_message" = "Все настройки выполнены.\n\nВы можете в любой момент изменить их.";
+
+/* Scheduled Export */
+"onboarding_scheduled_export_title" = "Расписание экспорта";
+
+/* It's always a good idea to keep backups, especially external ones. Strongbox can remind you to export your database every so often.\n\nWould you like Strongbox to prompt you to export your database if it has been a while? */
+"onboarding_scheduled_export_message" = "Приложение может напоминать Вам об экспорте резервной копии БД.\n\nХотите получать напоминания?";
+
+/* Remind me after 2 weeks */
+"onboarding_scheduled_export_onboarding_remind_2_weeks" = "Раз в 2 недели";
+
+/* Remind me after 4 weeks */
+"onboarding_scheduled_export_onboarding_remind_4_weeks" = "Раз в 4 недели";
+
+/* Don't Remind Me */
+"generic_dont_remind_me" = "Не напоминать";
+
+/* It's time to export a backup copy of your database somewhere safe.\n\nWould you like do that now? */
+"scheduled_export_message" = "Приложение выполнит экспорт резервной копии БД.\n\nХотите продолжить?";
+
+/* Postpone */
+"generic_postpone" = "Отложить";
+
+/* iCloud Create Database Error */
+"icloud_create_issue_title" = "Ошибка при создании БД в iCloud";
+
+/* Strongbox could not create a new iCloud Database for you, most likely because the Strongbox iCloud folder has been deleted.\n\nYou can find out how to fix this issue below. */
+"icloud_create_issue_message" = "Не удалось создать новую БД в iCloud, т.к. отсутствует папка Strongbox.\n\nЧтобы исправить это, см. информацию ниже.";
+
+/* How do I fix this? */
+"icloud_create_issue_fix" = "Как это исправить?";
+
+/* Create local database instead */
+"icloud_create_issue_local_instead" = "Создать локальную БД";
+
+/* Copied - L10n Note: This means a string has just been copied to the clipboard. Used to notify user via a toast message or similar. */
+"generic_copied" = "Скопировано";

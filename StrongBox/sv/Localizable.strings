@@ -2213,7 +2213,7 @@
 "mac_error_could_not_open_key_file" = "Kunde inte öppna nyckelfil.";
 
 /* This database has been changed by another user or application. Would you like to reload the latest version? */
-"mac_db_changed_externally_reload_yes_or_no" = "This database has been changed by another user or application. Would you like to reload the latest version?";
+"mac_db_changed_externally_reload_yes_or_no" = "Denna databas har ändrats av en annan användare eller applikation. Vill du läsa in den senaste versionen?";
 
 /* Reloading after external changes... */
 "mac_db_reloading_after_external_changes_popup_notification" = "Laddar om efter externa ändringar ...";
@@ -2952,10 +2952,10 @@
 "audit_quick_summary_pwned" = "Lösenordet är pwned (HIBP)";
 
 /* Weak/Entropy */
-"audit_quick_summary_very_brief_low_entropy" = "Weak/Entropy";
+"audit_quick_summary_very_brief_low_entropy" = "Svag/Entropi";
 
 /* Password is weak (low entropy) */
-"audit_quick_summary_password_low_entropy" = "Password is weak (low entropy)";
+"audit_quick_summary_password_low_entropy" = "Lösenordet är svagt (låg entropi)";
 
 /* All Entries */
 "quick_view_title_all_entries_title" = "Alla poster";
@@ -3327,7 +3327,7 @@
 "open_sequence_storage_provider_error_title" = "Synkfel";
 
 /* If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open in offline mode instead? */
-"open_sequence_storage_provider_error_open_local_ro_instead" = "If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open in offline mode instead?";
+"open_sequence_storage_provider_error_open_local_ro_instead" = "Om detta händer upprepade gånger bör du försöka lägga till din databas igen. Se felsökningsloggen för synkning för mer ...\n\nVill du öppna i offlineläge istället?";
 
 /* Local Copy Unavailable */
 "autofill_vc_item_subtitle_local_copy_unavailable" = "Lokal kopia är inte tillgänglig";
@@ -3882,10 +3882,10 @@
 "model_error_could_not_write_local_merge" = "Tekniskt fel - Gick inte skriva lokala kopior för jämförelse/sammanslagning.";
 
 /* Cannot merge in background or without key. */
-"model_error_cannot_merge_in_background" = "Cannot merge without Master Credentials.";
+"model_error_cannot_merge_in_background" = "Kan inte slå samman utan huvudautentiseringsuppgifter.";
 
 /* Are you sure you want to always Auto-Merge when you have a Sync Conflict like this? */
-"sync_are_you_sure_always_auto_merge" = "Are you sure you want to always Auto-Merge when you have a Sync Conflict like this?";
+"sync_are_you_sure_always_auto_merge" = "Är du säker på att du alltid vill göra autosammanslagning när du har denna typ av synkroniseringskonflikt?";
 
 /* Technical Error - Could not merge local and remote databases. */
 "model_error_could_not_merge_local_remote" = "Tekniskt fel - Gick inte slå samman lokal- och fjärrdatabaser.";
@@ -3924,7 +3924,7 @@
 "open_sequence_user_looks_offline_open_local_fmt" = "Det verkar som om du är offline och '%@' kanske inte kan nås. Vill du öppna i offline-läge istället?";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use Strongbox's local copy in read-only mode instead? - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc */
-"open_sequence_user_looks_offline_open_local_ro_fmt" = "It looks like you may be offline and '%@' may not be reachable. Would you like to open in offline mode instead?\n\nNB: This is read-only. You can also edit offline in the Pro version.";
+"open_sequence_user_looks_offline_open_local_ro_fmt" = "Det verkar som om du är offline och '%@' kanske inte kan nås. Vill du öppna i offline-läge istället?\n\nObs! Detta är skrivskyddat. Du kan redigera även offline i Pro-versionen.";
 
 /* Open Offline? */
 "open_sequence_yesno_use_local_copy_title" = "Öppna offline?";
@@ -3954,19 +3954,19 @@
 "database_properties_subtitle_read_only" = "Tillåt inte att ändringar görs i denna databas när den är öppen.";
 
 /* Automatically prompt to open this database on App launch. */
-"database_properties_subtitle_quick_launch" = "Automatically prompt to open this database on App launch.";
+"database_properties_subtitle_quick_launch" = "Fråga automatiskt ifall du vill öppna denna databas vid appstart.";
 
 /* Always Auto-Merge */
 "database_properties_title_always_auto_merge" = "Alltid autosammanslagning";
 
 /* When a sync conflict occurs automatically merge without asking. */
-"database_properties_subtitle_conflict_resolution" = "When a sync conflict occurs automatically merge without asking.";
+"database_properties_subtitle_conflict_resolution" = "Slå samman automatiskt utan att fråga när en synkroniseringskonflikt uppstår.";
 
 /* Immediate Open Offline Offer */
 "database_properties_title_offline_behaviour" = "Öppna offline-erbjudande direkt";
 
 /* Immediately offer to open offline if Strongbox detects you are offline. Alternatively, if you turn this off, Strongbox will try to connect which may take some time. */
-"database_properties_subtitle_offline_behaviour" = "Immediately offer to open in offline mode if Strongbox detects you are offline. Alternatively, if you turn this off, Strongbox will try to connect which may take some time.";
+"database_properties_subtitle_offline_behaviour" = "Erbjud omedelbart att öppna i offline-läge om Strongbox upptäcker att du är offline. Alternativt, om du stänger av detta, kommer Strongbox försöka ansluta och det kan ta lite tid.";
 
 /* Configure & View local backups." */
 "database_properties_subtitle_backups" = "Konfigurera och visa lokala säkerhetskopior.";
@@ -3975,7 +3975,7 @@
 "database_properties_subtitle_view_sync_log" = "Visa senaste synkroniseringsdetaljer inklusive fel.";
 
 /* Your Database is configured to use a YubiKey, however no YubiKey or an incorrect YubiKey was found connected. */
-"mac_autofill_no_or_incorrect_yubikey_found" = "Your Database is configured to use a YubiKey, however no YubiKey or an incorrect YubiKey was found connected.";
+"mac_autofill_no_or_incorrect_yubikey_found" = "Din databas är konfigurerad för att använda en YubiKey men ingen YubiKey eller en felaktig YubiKey hittades ansluten.";
 
 /* Title (Username) */
 "quick_type_format_title_username" = "Rubrik (användarnamn)";
@@ -4018,16 +4018,16 @@
 "prompt_title_copy_debug_info" = "Kopiera felsökningsinformation?";
 
 /* Would you like to copy some helpful debug information that you can share with support before proceeding? */
-"prompt_message_copy_debug_info" = "Would you like to copy some helpful debug information that you can share with support before proceeding?";
+"prompt_message_copy_debug_info" = "Vill du kopiera hjälpsam felsökningsinformation som du kan dela med supporten innan du fortsätter?";
 
 /* Third Party Storage Privacy Opt-In */
-"third_party_storage_privacy_opt_in_title" = "Third Party Storage Privacy Opt-In";
+"third_party_storage_privacy_opt_in_title" = "Ja-krav till tredjepartslagringintegritet";
 
 /* You are about to use a software library from Google, Microsoft or Dropbox for the first time.\n\nStrongbox does not control these organizations privacy policies (which may not be awesome).\n\nStrongbox offers these services for your convenience and it is entirely at your discretion whether you use them or not. You must Opt In to continue. */
-"third_party_storage_privacy_opt_in_message" = "You are about to use a software library from Google, Microsoft or Dropbox for the first time.\n\nStrongbox does not control these organizations privacy policies (which may not be awesome).\n\nStrongbox offers these services for your convenience and it is entirely at your discretion whether you use them or not.\n\nYou must Opt In to continue.";
+"third_party_storage_privacy_opt_in_message" = "Du är på väg att använda ett programbibliotek från Google, Microsoft eller Dropbox för första gången.\n\nStrongbox har inte kontroll över dessa organisationers integritetspolicy (vilka kanske inte är fantastiska).\n\nStrongbox erbjuder dessa tjänster för din bekvämlighet och det är upp till dig om du vill använda dem eller inte.\n\nDu måste acceptera ja-krav för att fortsätta.";
 
 /* Opt In, Let's Go... */
-"third_party_storage_privacy_option_opt_in" = "Opt In, Let's Go...";
+"third_party_storage_privacy_option_opt_in" = "Anmälan ja-krav, vi kör ...";
 
 /* Sync Successful */
 "notification_sync_successful" = "Synkning slutförd";
@@ -4054,7 +4054,7 @@
 "mac_items_pasted_from_clipboard" = "Objekt inklistrat från urklipp";
 
 /* Item Duplicated */
-"mac_item_duplicated" = "Item Duplicated";
+"mac_item_duplicated" = "Objekt duplicerat";
 
 /* File - Localization Note: This should be very short, 3-4 characters if possible. This indicates a regular file on the file system on a Mac. */
 "storage_provider_name_mac_file_short" = "Fil";
@@ -4078,7 +4078,7 @@
 "autofill_auto_unlock_title" = "Automatisk upplåsningsfunktion";
 
 /* Auto Unlock lets you avoid having to repeatedly unlock your database for a configurable time period. Would you like to use this handy feature?\n\nNB: Your password is stored in the Secure Enclave for this feature. */
-"autofill_auto_unlock_message" = "Auto Unlock lets you avoid having to repeatedly unlock your database for a configurable time period. Would you like to use this handy feature?\n\nNB: Your password is stored in the Secure Enclave for this feature.";
+"autofill_auto_unlock_message" = "Automatisk upplåsning gör att du slipper låsa upp databasen upprepade gånger under en konfigurerbar tidsperiod. Vill du använda denna praktiska funktion?\n\nObs: Ditt lösenord lagras i Secure Enclave för den här funktionen.";
 
 /* Great, let try 3 mins */
 "autofill_auto_unlock_try_3_minutes" = "Perfekt, vi provar 3 minuter";
@@ -4090,19 +4090,19 @@
 "databases_toggle_autofill_quick_launch_context_menu" = "Autofyll snabbstart";
 
 /* Title Matches */
-"autofill_search_title_matches_section_header" = "Title Matches";
+"autofill_search_title_matches_section_header" = "Rubrik matchar";
 
 /* URL Matches */
-"autofill_search_url_matches_section_header" = "URL Matches";
+"autofill_search_url_matches_section_header" = "URL-träffar";
 
 /* Other Matches */
-"autofill_search_other_matches_section_header" = "Other Matches";
+"autofill_search_other_matches_section_header" = "Andra matchningar";
 
 /* Service ID */
 "autofill_search_title_service_id_section_header" = "Tjänste-ID";
 
 /* The Service ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Service ID. */
-"autofill_search_service_id_section_footer" = "The Service ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Service ID. Tap to Copy.";
+"autofill_search_service_id_section_footer" = "Tjänste-ID är en identifierare som skickas till Strongbox av Autofyll. Det kan hjälpa vid sökning om du ställer in URL-adressen i din post att vara den samma som tjänste-ID:t. Tryck för att kopiera.";
 
 /* Results */
 "quick_view_title_no_matches_title" = "Resultat";
@@ -4117,46 +4117,46 @@
 "mac_unlock_database_with_touch_or_watch" = "Lås upp med Touch ID eller Watch";
 
 /* Blur */
-"app_privacy_shield_mode_blur" = "Blur";
+"app_privacy_shield_mode_blur" = "Använd oskärpa";
 
 /* Pixellate */
-"app_privacy_shield_mode_pixellate" = "Pixellate";
+"app_privacy_shield_mode_pixellate" = "Pixelera";
 
 /* Blue Screen */
 "app_privacy_shield_mode_blue_screen" = "Blåskärm";
 
 /* Privacy Shield View */
-"prefs_vc_privacy_shield_view" = "Privacy Shield View";
+"prefs_vc_privacy_shield_view" = "Privacy Shield-vy";
 
 /* Always Open Offline */
-"database_properties_title_always_offline" = "Always Open Offline";
+"database_properties_title_always_offline" = "Öppna alltid offline";
 
 /* You can choose to always open offline whenever you tap on this database. No sync will be performed on unlock, though a background sync can be performed by pulling down on your Databases List. */
-"database_properties_subtitle_always_offline" = "You can choose to always open offline whenever you tap on this database. No sync will be performed on unlock, though a background sync can be performed by pulling down on your Databases List.";
+"database_properties_subtitle_always_offline" = "Du kan välja att alltid öppna offline när du trycker på denna databas. Ingen synkronisering kommer att utföras vid upplåsning men en bakgrundssynkronisering kan utföras genom att dra ner över databaslistan.";
 
 /* What to do if Strongbox detects you are Offline when opening a database. */
-"database_properties_subtitle_offline_detected_behaviour" = "What to do if Strongbox detects you are Offline when opening a database.";
+"database_properties_subtitle_offline_detected_behaviour" = "Vad ska göras om Strongbox upptäcker att du är offline när en databas öppnas.";
 
 /* Prompt */
-"offline_detected_behaviour_ask_immediately" = "Prompt";
+"offline_detected_behaviour_ask_immediately" = "Fråga";
 
 /* Try to Connect */
-"offline_detected_behaviour_try_connect_anyway" = "Try to Connect";
+"offline_detected_behaviour_try_connect_anyway" = "Försök att ansluta";
 
 /* Open Offline (No Prompt) */
-"offline_detected_behaviour_open_offline" = "Open Offline (No Prompt)";
+"offline_detected_behaviour_open_offline" = "Öppna offline (utan fråga)";
 
 /* There was a problem updating your database in the background and your assistance is required to resolve. Would you like to resolve this problem now? */
-"sync_status_user_interaction_required_prompt_yes_or_no" = "There was a problem updating your database and your assistance is required to resolve. Would you like to resolve this problem now?";
+"sync_status_user_interaction_required_prompt_yes_or_no" = "Det gick inte att uppdatera databasen och du måste hjälpa till att lösa problemet. Vill du lösa det här problemet nu?";
 
 /* Error Updating */
 "sync_status_error_updating_title" = "Fel vid uppdatering";
 
 /* Recycle (L10n Note: This is an action, e.g. To Recycle and item, to send it to the Recycle Bin) */
-"generic_action_verb_recycle" = "Recycle";
+"generic_action_verb_recycle" = "Flytta till papperskorg";
 
 /* There was an error updating your database. Would you like to try updating again, or would you prefer to revert to the latest successful update? */
-"sync_status_error_updating_try_again_prompt" = "There was an error updating your database. Would you like to try updating again, or would you prefer to revert to the latest successful update?";
+"sync_status_error_updating_try_again_prompt" = "Ett fel uppstod när databasen skulle uppdateras. Vill du försöka uppdatera igen eller föredrar du att återgå till den senast lyckade uppdateringen?";
 
 /* Try Again */
 "sync_status_error_updating_try_again_action" = "Försök igen";
@@ -4165,19 +4165,19 @@
 "sync_status_error_updating_revert_action" = "Återställ till senaste";
 
 /* Assistance Required */
-"sync_status_user_interaction_required_prompt_title" = "Assistance Required";
+"sync_status_user_interaction_required_prompt_title" = "Hjälp krävs";
 
 /* Internet Unavailable Behaviour */
-"database_properties_title_offline_detected_behaviour" = "Internet Unavailable Behaviour";
+"database_properties_title_offline_detected_behaviour" = "Beteende när internet är otillgängligt";
 
 /* Could Not Connect Behaviour */
-"database_properties_title_could_not_connect_behaviour" = "Could Not Connect Behaviour";
+"database_properties_title_could_not_connect_behaviour" = "Beteende vid kan inte ansluta";
 
 /* Open Online - NB: Action to open a database in Online mode, only applies to databases with 'Always Open Offline' set. */
 "safes_vc_slide_left_open_online_action" = "Öppna online";
 
 /* At least one of these database is open and unlocked. You must lock this database before you can remove it. */
-"mac_at_least_one_db_unlocked_cannot_remove" = "At least one of these databases is unlocked. You must lock this database before you can remove it.";
+"mac_at_least_one_db_unlocked_cannot_remove" = "Minst en av dessa databaser är upplåst. Du måste låsa denna databas innan du kan ta bort den.";
 
 /* About Strongbox %@ - L10n note: 1st parameter is the App Version, e.g. 'About Strongbox 1.52.17' */
 "prefs_vc_app_version_info_none_pro_fmt" = "Om Strongbox %@";
@@ -4201,16 +4201,16 @@
 "generic_fieldname_tags" = "Taggar";
 
 /* Enter a new tag to add for this item */
-"mac_vc_please_enter_a_tag" = "Enter a new tag to add to this item";
+"mac_vc_please_enter_a_tag" = "Ange en ny tagg att lägga till detta objekt";
 
 /* Zxcvbn (Smart) */
 "password_strength_algo_zxcvbn_title" = "Zxcvbn (smart)";
 
 /* Basic (Pooled Entropy) */
-"password_strength_algo_basic_title" = "Basic (Pooled Entropy)";
+"password_strength_algo_basic_title" = "Enkel (poolad entropi)";
 
 /* Password Strength Algorithm */
-"prefs_vc_password_strength_algorithm" = "Password Strength Algorithm";
+"prefs_vc_password_strength_algorithm" = "Algoritm för lösenordsstyrka";
 
 /* Very Weak */
 "password_strength_category_very_weak" = "Mycket svag";
@@ -4222,91 +4222,91 @@
 "password_strength_category_mediocre" = "Medioker";
 
 /* Strong */
-"password_strength_category_strong" = "Strong";
+"password_strength_category_strong" = "Stark";
 
 /* Very Strong */
-"password_strength_category_very_strong" = "Very Strong";
+"password_strength_category_very_strong" = "Mycket stark";
 
 /* Overkill */
-"password_strength_category_overkill" = "Overkill";
+"password_strength_category_overkill" = "Överdriven";
 
 /* >100m years - L10n note: this is a time span - Password will take this long to crack */
-"password_time_to_crack_more_than_100m_years" = ">100m years";
+"password_time_to_crack_more_than_100m_years" = ">100M år";
 
 /* %@m years - L10n note: this is a time span - Password will take X million years to crack, where X is the first parameter and is an integer (positive whole number). e.g. 45m years  - please try to abbreviate million for your locale */
-"password_time_to_crack_million_years_fmt" = "%@m years";
+"password_time_to_crack_million_years_fmt" = "%@M år";
 
 /* %@k years - L10n note: this is a time span - Password will take X thousand years to crack, where X is the first parameter and is an integer (positive whole number). e.g. 45k years  - please try to abbreviate thousand for your locale  */
-"password_time_to_crack_thousand_years_fmt" = "%@k years";
+"password_time_to_crack_thousand_years_fmt" = "%@k år";
 
 /* %@ centuries - L10n note: this is a time span - Password will take X centuries to crack, where X is the first parameter and is an integer (positive whole number). e.g. 5 centuries  - please try to abbreviate for your locale */
-"password_time_to_crack_centuries_fmt" = "%@ centuries";
+"password_time_to_crack_centuries_fmt" = "%@ århundraden";
 
 /* %@ years  - L10n note: this is a time span - Password will take X years to crack, where X is the first parameter and is an integer (positive whole number). e.g. 5 years  - please try to abbreviate for your locale */
-"password_time_to_crack_years_fmt" = "%@ years";
+"password_time_to_crack_years_fmt" = "%@ år";
 
 /* %@ days - L10n note: this is a time span - Password will take X days to crack, where X is the first parameter and is an integer (positive whole number). e.g. 5 days  - please try to abbreviate for your locale */
-"password_time_to_crack_days_fmt" = "%@ days";
+"password_time_to_crack_days_fmt" = "%@ dagar";
 
 /* %@ hours - L10n note: this is a time span - Password will take X hours to crack, where X is the first parameter and is an integer (positive whole number). e.g. 5 hours  - please try to abbreviate for your locale */
-"password_time_to_crack_hours_fmt" = "%@ hours";
+"password_time_to_crack_hours_fmt" = "%@ timmar";
 
 /* Adversary Guess Rate */
-"prefs_vc_password_strength_adversary_crack_rate" = "Adversary Guess Rate";
+"prefs_vc_password_strength_adversary_crack_rate" = "Motståndarens gissningsfrekvens";
 
 /* Thousand */
-"number_suffix_thousand" = "Thousand";
+"number_suffix_thousand" = "Tusen";
 
 /* Million */
-"number_suffix_million" = "Million";
+"number_suffix_million" = "Miljon";
 
 /* Billion */
-"number_suffix_billion" = "Billion";
+"number_suffix_billion" = "Miljard";
 
 /* Trillion */
-"number_suffix_trillion" = "Trillion";
+"number_suffix_trillion" = "Biljon";
 
 /* Quadrillion */
-"number_suffix_quadrillion" = "Quadrillion";
+"number_suffix_quadrillion" = "Kvadriljon";
 
 /* Quintillion */
-"number_suffix_quintillion" = "Quintillion";
+"number_suffix_quintillion" = "Triljon";
 
 /* %@ / second - L10n:  First parameter is the number of guesses per second for an adversary. So e.g.  '1 billion / second' */
-"adversary_guess_rate_fmt" = "%@ / second";
+"adversary_guess_rate_fmt" = "%@ / sekund";
 
 /* 🚀 Sale Now On! 🚀 */
-"prompt_sale_now_on_title" = "🚀 Sale Now On! 🚀";
+"prompt_sale_now_on_title" = "🚀 Rea nu! 🚀";
 
 /* Hi there! Strongbox Pro is now 20% off for a very short period only.\n\nWould you like to grab it now and support Strongbox development? Go on, treat yourself! 😎 */
-"prompt_sale_now_on_message" = "Hi there! Strongbox Pro is now 20% off for a very short period only.\n\nWould you like to grab it now and support Strongbox development? Go on, treat yourself! 😎";
+"prompt_sale_now_on_message" = "Hallå där! Strongbox Pro har 20% rabatt under en mycket kort period.\n\nUtnyttja tillfället nu och stöd Strongbox utveckling! Passa på och unna dig själv! 😎";
 
 /* 🚀 20% Off Sale 🚀 Go Pro Now 🔥 */
-"safesvc_upgrade_button_sale_now_on_title" = "🚀 20% Off Sale 🚀 Go Pro Now 🔥";
+"safesvc_upgrade_button_sale_now_on_title" = "🚀 20% rabatt 🚀 Byt till Pro nu 🔥";
 
 /* Visible in Search - L10n Note: This indicates whether this item will show up in search results. It depends on whether the user has marked any of the parent folders/groups as Search Enabled or Disabled. The value will be Yes or No. e.g. Visible in Search: Yes */
-"item_properties_search_visible_state" = "Visible in Search";
+"item_properties_search_visible_state" = "Synlig vid sökning";
 
 /* Is Expanded - L10n Note: Indicates whether a folder is in an expanded or collapsed state in the MacOS/Windows/Desktop UI. Value will be Yes or No. */
-"item_properties_is_expanded" = "Is Expanded";
+"item_properties_is_expanded" = "Är expanderad";
 
 /* Group Expanded state will change. */
-"diff_drill_down_is_expanded_will_change" = "Group Expanded state will change.";
+"diff_drill_down_is_expanded_will_change" = "Grupp utökat tillstånd kommer att ändras.";
 
 /* Group Expanded states are different. */
-"diff_drill_down_expanded_states_are_different" = "Group Expanded states are different.";
+"diff_drill_down_expanded_states_are_different" = "Grupp utökat tillstånd är olika.";
 
 /* Previous Parent Group */
-"item_properties_previous_parent_group" = "Previous Parent Group";
+"item_properties_previous_parent_group" = "Föregående överordnad grupp";
 
 /* %@ & PIN Codes - L10n Note: The first parameter is automatically be replaced by the appropriate biometric name for the device (i.e. Face ID or Touch ID) - So the string will look like e.g. 'Face ID & PIN Codes' */
-"convenience_unlock_preferences_title_fmt" = "%@ & PIN Codes";
+"convenience_unlock_preferences_title_fmt" = "%@ och PIN-koder";
 
 /* Require After */
-"convenience_unlock_require_after_prefix" = "Require After";
+"convenience_unlock_require_after_prefix" = "Kräv efter";
 
 /* It's time now to re-enter your Master Password manually. You can change this reminder interval in Database Settings. */
-"composite_key_determiner_convenience_expired_message" = "It's time now to re-enter your Master Password manually. You can change this reminder interval in Database Settings.";
+"composite_key_determiner_convenience_expired_message" = "Det är dags att ange ditt huvudlösenord manuellt. Du kan ändra detta påminnelseintervall i databasinställningar.";
 
 /* Got it! */
 "generic_got_it" = "Uppfattat!";
@@ -4321,25 +4321,61 @@
 "generic_preferences" = "Inställningar";
 
 /* Rearrange - L10n - Verb - to re-order or otherwise change the order of a list of items */
-"generic_rearrange" = "Rearrange";
+"generic_rearrange" = "Ordna";
 
 /* Typing your master password is slow, cumbersome and error prone. Strongbox can help you to conveniently and securely unlock your database so that you don't need to enter your master password all the time.\n\nWould you like to use Convenience Unlock? */
-"onboarding_convenience_message_fmt" = "Typing your master password is slow, cumbersome and error prone. Strongbox can help you to securely & quickly unlock your database without needing to use your master password every time.\n\nWould you like to use Convenience Unlock?";
+"onboarding_convenience_message_fmt" = "Att skriva ditt huvudlösenord är långsamt, besvärligt och felkänsligt. Strongbox kan hjälpa dig att säkert och snabbt låsa upp din databas utan att behöva använda ditt huvudlösenord varje gång.\n\nVill du använda bekvämlighetsupplåsning?";
 
 /* Dismiss - L10n Note: Generic Action to dismiss a dialog or popup */
 "generic_dismiss" = "Avfärda";
 
 /* There is a configuration issue you should be aware of. You are using %@ for both App Lock and Quick Launch. In addition you allow device passcode fallback for App Lock.\n\nThis leads to a situation where you can unlock your database using only your device passcode.\n\nIf you do not want this you can do any of the following: Disable App Lock passcode fallback, or Quick Launch, or %@ Database Unlock, or coalescing of unlocks - L10n Note: 3 format parameters here are identical and will be either 'Face ID' or 'Touch ID' */
-"app_lock_coalescing_with_quick_launch_warning" = "There is a configuration issue you should be aware of. You are using %@ for both App Lock and Quick Launch. In addition you allow device passcode fallback for App Lock.\n\nThis leads to a situation where you can unlock your database using only your device passcode.\n\nIf you do not want this you can do any of the following: Disable App Lock passcode fallback, or Quick Launch, or %@ Database Unlock, or coalescing of unlocks.";
+"app_lock_coalescing_with_quick_launch_warning" = "Det finns ett konfigurationsproblem som du bör vara medveten om. Du använder %@ för både applås och Snabbstart. Dessutom tillåter du att enhetens lösenkod används som reserv för applås.\n\nDetta leder till en situation där du kan låsa upp din databas med endast din enhets lösenkod.\n\nOm du inte vill detta kan du göra något av följande: inaktivera applås-lösenordets reserv, Snabbstart, %@ databasupplåsning eller sammanlänkning av upplåsningar.";
 
 /* Configuration Issue */
-"onboarding_configuration_issue_title" = "Configuration Issue";
+"onboarding_configuration_issue_title" = "Konfigurationsproblem";
 
 /* Let's Go - L10n Note: Generic Action Button to get started, similar to OK, but more friendly and indicates progression */
-"generic_lets_go" = "Let's Go";
+"generic_lets_go" = "Nu kör vi";
 
 /* Ready to Launch */
-"onboarding_ready_to_launch_title" = "Ready to Launch";
+"onboarding_ready_to_launch_title" = "Redo att starta";
 
 /* You're all set to get the best out of Strongbox.\n\nDon't forget you can always tweak these settings at any time. */
-"onboarding_ready_to_launch_message" = "You're all set to get the best out of Strongbox.\n\nDon't forget you can always tweak these settings at any time.";
+"onboarding_ready_to_launch_message" = "Du är nu redo att få ut det bästa av Strongbox.\n\nGlöm inte att du alltid kan justera dessa inställningar när du vill.";
+
+/* Scheduled Export */
+"onboarding_scheduled_export_title" = "Schemalagd export";
+
+/* It's always a good idea to keep backups, especially external ones. Strongbox can remind you to export your database every so often.\n\nWould you like Strongbox to prompt you to export your database if it has been a while? */
+"onboarding_scheduled_export_message" = "Det är alltid en bra idé att ha säkerhetskopior, särskilt externa. Strongbox kan påminna dig om att exportera din databas då och då.\n\nVill du att Strongbox ska uppmana dig att exportera din databas om det var ett tid sedan?";
+
+/* Remind me after 2 weeks */
+"onboarding_scheduled_export_onboarding_remind_2_weeks" = "Påminn mig om 2 veckor";
+
+/* Remind me after 4 weeks */
+"onboarding_scheduled_export_onboarding_remind_4_weeks" = "Påminn mig om 4 veckor";
+
+/* Don't Remind Me */
+"generic_dont_remind_me" = "Påminn mig inte";
+
+/* It's time to export a backup copy of your database somewhere safe.\n\nWould you like do that now? */
+"scheduled_export_message" = "Det är dags att exportera en säkerhetskopia av din databas till ett säkert ställe.\n\nVill du göra det nu?";
+
+/* Postpone */
+"generic_postpone" = "Senarelägg";
+
+/* iCloud Create Database Error */
+"icloud_create_issue_title" = "Fel vid skapa ICloud-databas";
+
+/* Strongbox could not create a new iCloud Database for you, most likely because the Strongbox iCloud folder has been deleted.\n\nYou can find out how to fix this issue below. */
+"icloud_create_issue_message" = "Strongbox kunde inte skapa en ny iCloud-databas [t dig, troligtvis eftersom Strongbox iCloud-mapp tagits bort.\n\nDu kan ta reda på hur du åtgärdar detta problem nedan.";
+
+/* How do I fix this? */
+"icloud_create_issue_fix" = "Hur fixar jag detta?";
+
+/* Create local database instead */
+"icloud_create_issue_local_instead" = "Skapa lokal databas istället";
+
+/* Copied - L10n Note: This means a string has just been copied to the clipboard. Used to notify user via a toast message or similar. */
+"generic_copied" = "Kopierad";

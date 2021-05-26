@@ -4324,22 +4324,58 @@
 "generic_rearrange" = "Riorganizzare";
 
 /* Typing your master password is slow, cumbersome and error prone. Strongbox can help you to conveniently and securely unlock your database so that you don't need to enter your master password all the time.\n\nWould you like to use Convenience Unlock? */
-"onboarding_convenience_message_fmt" = "Typing your master password is slow, cumbersome and error prone. Strongbox can help you to securely & quickly unlock your database without needing to use your master password every time.\n\nWould you like to use Convenience Unlock?";
+"onboarding_convenience_message_fmt" = "Digitare la Master Password è un processo lento, tedioso e prono ad errori. Strongbox può aiutare a sbloccare in modo sicuro e rapido il database senza dover utilizzare la Master Password ogni volta.\n\nSi vuole utilizzare Lo Sblocco di Convenienza?";
 
 /* Dismiss - L10n Note: Generic Action to dismiss a dialog or popup */
 "generic_dismiss" = "Chiudere";
 
 /* There is a configuration issue you should be aware of. You are using %@ for both App Lock and Quick Launch. In addition you allow device passcode fallback for App Lock.\n\nThis leads to a situation where you can unlock your database using only your device passcode.\n\nIf you do not want this you can do any of the following: Disable App Lock passcode fallback, or Quick Launch, or %@ Database Unlock, or coalescing of unlocks - L10n Note: 3 format parameters here are identical and will be either 'Face ID' or 'Touch ID' */
-"app_lock_coalescing_with_quick_launch_warning" = "There is a configuration issue you should be aware of. You are using %@ for both App Lock and Quick Launch. In addition you allow device passcode fallback for App Lock.\n\nThis leads to a situation where you can unlock your database using only your device passcode.\n\nIf you do not want this you can do any of the following: Disable App Lock passcode fallback, or Quick Launch, or %@ Database Unlock, or coalescing of unlocks.";
+"app_lock_coalescing_with_quick_launch_warning" = "C'è un problema di configurazione di cui si dovrebbe essere a conoscenza. Si sta utilizzando %@ sia per Blocco App che Avvio Rapido. Inoltre, si consente il fallback del codice di accesso del dispositivo per Blocco App.\n\nQuesto porta a una situazione in cui è possibile sbloccare il proprio database utilizzando solo il codice di accesso del dispositivo.\n\nSe non si desidera questo è possibile effettuare una delle seguenti operazioni: Disabilitare Blocco App passcode fallback, o Avvio Rapido, o %@ Sblocco Database o la coalescenza degli sblocchi.";
 
 /* Configuration Issue */
-"onboarding_configuration_issue_title" = "Configuration Issue";
+"onboarding_configuration_issue_title" = "Problema Configurazione";
 
 /* Let's Go - L10n Note: Generic Action Button to get started, similar to OK, but more friendly and indicates progression */
-"generic_lets_go" = "Let's Go";
+"generic_lets_go" = "Si Comincia";
 
 /* Ready to Launch */
-"onboarding_ready_to_launch_title" = "Ready to Launch";
+"onboarding_ready_to_launch_title" = "Pronto per il Lancio";
 
 /* You're all set to get the best out of Strongbox.\n\nDon't forget you can always tweak these settings at any time. */
-"onboarding_ready_to_launch_message" = "You're all set to get the best out of Strongbox.\n\nDon't forget you can always tweak these settings at any time.";
+"onboarding_ready_to_launch_message" = "Si è adesso pronti per partire al meglio con Strongbox.\n\nNon si dimentichi che è possibile modificare queste impostazioni in qualsiasi momento.";
+
+/* Scheduled Export */
+"onboarding_scheduled_export_title" = "Esportazione Pianificata";
+
+/* It's always a good idea to keep backups, especially external ones. Strongbox can remind you to export your database every so often.\n\nWould you like Strongbox to prompt you to export your database if it has been a while? */
+"onboarding_scheduled_export_message" = "È sempre una buona idea mantenere dei backup, soprattutto se esterni. Strongbox può ricordare di esportare il database ogni tanto.\n\nSi vuole che Strongbox chieda di esportare il database, se non lo è stato per un po'?";
+
+/* Remind me after 2 weeks */
+"onboarding_scheduled_export_onboarding_remind_2_weeks" = "Ricordarlo dopo 2 settimane";
+
+/* Remind me after 4 weeks */
+"onboarding_scheduled_export_onboarding_remind_4_weeks" = "Ricordarlo dopo 4 settimane";
+
+/* Don't Remind Me */
+"generic_dont_remind_me" = "Non Ricordarla";
+
+/* It's time to export a backup copy of your database somewhere safe.\n\nWould you like do that now? */
+"scheduled_export_message" = "È l'ora di esportare una copia di backup del database in qualche posto sicuro.\n\nSi vuole farlo adesso?";
+
+/* Postpone */
+"generic_postpone" = "Rimandare";
+
+/* iCloud Create Database Error */
+"icloud_create_issue_title" = "Errore Creazione Database iCloud";
+
+/* Strongbox could not create a new iCloud Database for you, most likely because the Strongbox iCloud folder has been deleted.\n\nYou can find out how to fix this issue below. */
+"icloud_create_issue_message" = "Strongbox non ha potuto creare un nuovo database iCloud, molto probabilmente perché la cartella Strongbox su iCloud è stata eliminata.\n\nSi può scoprire come risolvere questo problema qua di seguito.";
+
+/* How do I fix this? */
+"icloud_create_issue_fix" = "Come si risolve?";
+
+/* Create local database instead */
+"icloud_create_issue_local_instead" = "Creare invece un database locale";
+
+/* Copied - L10n Note: This means a string has just been copied to the clipboard. Used to notify user via a toast message or similar. */
+"generic_copied" = "Copiato";

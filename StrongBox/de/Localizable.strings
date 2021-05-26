@@ -4324,7 +4324,7 @@
 "generic_rearrange" = "Neu anordnen";
 
 /* Typing your master password is slow, cumbersome and error prone. Strongbox can help you to conveniently and securely unlock your database so that you don't need to enter your master password all the time.\n\nWould you like to use Convenience Unlock? */
-"onboarding_convenience_message_fmt" = "Typing your master password is slow, cumbersome and error prone. Strongbox can help you to securely & quickly unlock your database without needing to use your master password every time.\n\nWould you like to use Convenience Unlock?";
+"onboarding_convenience_message_fmt" = "Das Eingeben des Master-Passworts ist langsam, umständlich und fehleranfällig. Strongbox kann Ihnen dabei helfen, Ihre Datenbank sicher und schnell zu entsperren, ohne dass Sie jedes Mal Ihr Master-Passwort verwenden müssen.\n\nMöchten Sie die Komfortentsperrung verwenden?";
 
 /* Dismiss - L10n Note: Generic Action to dismiss a dialog or popup */
 "generic_dismiss" = "Verwerfen";
@@ -4333,13 +4333,49 @@
 "app_lock_coalescing_with_quick_launch_warning" = "There is a configuration issue you should be aware of. You are using %@ for both App Lock and Quick Launch. In addition you allow device passcode fallback for App Lock.\n\nThis leads to a situation where you can unlock your database using only your device passcode.\n\nIf you do not want this you can do any of the following: Disable App Lock passcode fallback, or Quick Launch, or %@ Database Unlock, or coalescing of unlocks.";
 
 /* Configuration Issue */
-"onboarding_configuration_issue_title" = "Configuration Issue";
+"onboarding_configuration_issue_title" = "Konfigurationsproblem";
 
 /* Let's Go - L10n Note: Generic Action Button to get started, similar to OK, but more friendly and indicates progression */
-"generic_lets_go" = "Let's Go";
+"generic_lets_go" = "Los geht's";
 
 /* Ready to Launch */
-"onboarding_ready_to_launch_title" = "Ready to Launch";
+"onboarding_ready_to_launch_title" = "Bereit zum Starten";
 
 /* You're all set to get the best out of Strongbox.\n\nDon't forget you can always tweak these settings at any time. */
-"onboarding_ready_to_launch_message" = "You're all set to get the best out of Strongbox.\n\nDon't forget you can always tweak these settings at any time.";
+"onboarding_ready_to_launch_message" = "Sie sind nun bereit, das Beste aus Strongbox herauszuholen.\n\nVergessen Sie nicht, dass Sie diese Einstellungen jederzeit anpassen können.";
+
+/* Scheduled Export */
+"onboarding_scheduled_export_title" = "Geplanter Export";
+
+/* It's always a good idea to keep backups, especially external ones. Strongbox can remind you to export your database every so often.\n\nWould you like Strongbox to prompt you to export your database if it has been a while? */
+"onboarding_scheduled_export_message" = "Es ist immer eine gute Idee, Backups zu machen, besonders externe. Strongbox kann Sie ab und an daran erinnern, Ihre Datenbank zu exportieren.\n\nMöchten Sie, dass Strongbox Sie auffordert, Ihre Datenbank zu exportieren, wenn es bereits eine Weile her ist?";
+
+/* Remind me after 2 weeks */
+"onboarding_scheduled_export_onboarding_remind_2_weeks" = "Nach 2 Wochen erinnern";
+
+/* Remind me after 4 weeks */
+"onboarding_scheduled_export_onboarding_remind_4_weeks" = "Nach 4 Wochen erinnern";
+
+/* Don't Remind Me */
+"generic_dont_remind_me" = "Nicht erinnern";
+
+/* It's time to export a backup copy of your database somewhere safe.\n\nWould you like do that now? */
+"scheduled_export_message" = "Es ist Zeit, eine Sicherungskopie Ihrer Datenbank an einen sicheren Ort zu exportieren.\n\nMöchten Sie das jetzt tun?";
+
+/* Postpone */
+"generic_postpone" = "Verschieben";
+
+/* iCloud Create Database Error */
+"icloud_create_issue_title" = "Fehler beim Erstellen der iCloud-Datenbank";
+
+/* Strongbox could not create a new iCloud Database for you, most likely because the Strongbox iCloud folder has been deleted.\n\nYou can find out how to fix this issue below. */
+"icloud_create_issue_message" = "Strongbox konnte keine neue iCloud-Datenbank für Sie erstellen, weil wahrscheinlich der Strongbox-iCloud-Ordner gelöscht wurde.\n\nIm Folgenden erfahren Sie, wie Sie dieses Problem beheben können.";
+
+/* How do I fix this? */
+"icloud_create_issue_fix" = "Wie kann ich das beheben?";
+
+/* Create local database instead */
+"icloud_create_issue_local_instead" = "Stattdessen lokale Datenbank erstellen";
+
+/* Copied - L10n Note: This means a string has just been copied to the clipboard. Used to notify user via a toast message or similar. */
+"generic_copied" = "Kopiert";
