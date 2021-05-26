@@ -2213,7 +2213,7 @@
 "mac_error_could_not_open_key_file" = "Kunde inte öppna nyckelfil.";
 
 /* This database has been changed by another user or application. Would you like to reload the latest version? */
-"mac_db_changed_externally_reload_yes_or_no" = "This database has been changed by another user or application. Would you like to reload the latest version?";
+"mac_db_changed_externally_reload_yes_or_no" = "Denna databas har ändrats av en annan användare eller applikation. Vill du läsa in den senaste versionen?";
 
 /* Reloading after external changes... */
 "mac_db_reloading_after_external_changes_popup_notification" = "Laddar om efter externa ändringar ...";
@@ -3327,7 +3327,7 @@
 "open_sequence_storage_provider_error_title" = "Synkfel";
 
 /* If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open in offline mode instead? */
-"open_sequence_storage_provider_error_open_local_ro_instead" = "If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open in offline mode instead?";
+"open_sequence_storage_provider_error_open_local_ro_instead" = "Om detta händer upprepade gånger bör du försöka lägga till din databas igen. Se felsökningsloggen för synkning för mer ...\n\nVill du öppna i offlineläge istället?";
 
 /* Local Copy Unavailable */
 "autofill_vc_item_subtitle_local_copy_unavailable" = "Lokal kopia är inte tillgänglig";
@@ -3885,7 +3885,7 @@
 "model_error_cannot_merge_in_background" = "Kan inte slå samman utan huvudautentiseringsuppgifter.";
 
 /* Are you sure you want to always Auto-Merge when you have a Sync Conflict like this? */
-"sync_are_you_sure_always_auto_merge" = "Are you sure you want to always Auto-Merge when you have a Sync Conflict like this?";
+"sync_are_you_sure_always_auto_merge" = "Är du säker på att du alltid vill göra autosammanslagning när du har denna typ av synkroniseringskonflikt?";
 
 /* Technical Error - Could not merge local and remote databases. */
 "model_error_could_not_merge_local_remote" = "Tekniskt fel - Gick inte slå samman lokal- och fjärrdatabaser.";
@@ -3924,7 +3924,7 @@
 "open_sequence_user_looks_offline_open_local_fmt" = "Det verkar som om du är offline och '%@' kanske inte kan nås. Vill du öppna i offline-läge istället?";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use Strongbox's local copy in read-only mode instead? - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc */
-"open_sequence_user_looks_offline_open_local_ro_fmt" = "It looks like you may be offline and '%@' may not be reachable. Would you like to open in offline mode instead?\n\nNB: This is read-only. You can also edit offline in the Pro version.";
+"open_sequence_user_looks_offline_open_local_ro_fmt" = "Det verkar som om du är offline och '%@' kanske inte kan nås. Vill du öppna i offline-läge istället?\n\nObs! Detta är skrivskyddat. Du kan redigera även offline i Pro-versionen.";
 
 /* Open Offline? */
 "open_sequence_yesno_use_local_copy_title" = "Öppna offline?";
@@ -3954,7 +3954,7 @@
 "database_properties_subtitle_read_only" = "Tillåt inte att ändringar görs i denna databas när den är öppen.";
 
 /* Automatically prompt to open this database on App launch. */
-"database_properties_subtitle_quick_launch" = "Automatically prompt to open this database on App launch.";
+"database_properties_subtitle_quick_launch" = "Fråga automatiskt ifall du vill öppna denna databas vid appstart.";
 
 /* Always Auto-Merge */
 "database_properties_title_always_auto_merge" = "Alltid autosammanslagning";
@@ -3966,7 +3966,7 @@
 "database_properties_title_offline_behaviour" = "Öppna offline-erbjudande direkt";
 
 /* Immediately offer to open offline if Strongbox detects you are offline. Alternatively, if you turn this off, Strongbox will try to connect which may take some time. */
-"database_properties_subtitle_offline_behaviour" = "Immediately offer to open in offline mode if Strongbox detects you are offline. Alternatively, if you turn this off, Strongbox will try to connect which may take some time.";
+"database_properties_subtitle_offline_behaviour" = "Erbjud omedelbart att öppna i offline-läge om Strongbox upptäcker att du är offline. Alternativt, om du stänger av detta, kommer Strongbox försöka ansluta och det kan ta lite tid.";
 
 /* Configure & View local backups." */
 "database_properties_subtitle_backups" = "Konfigurera och visa lokala säkerhetskopior.";
@@ -3975,7 +3975,7 @@
 "database_properties_subtitle_view_sync_log" = "Visa senaste synkroniseringsdetaljer inklusive fel.";
 
 /* Your Database is configured to use a YubiKey, however no YubiKey or an incorrect YubiKey was found connected. */
-"mac_autofill_no_or_incorrect_yubikey_found" = "Your Database is configured to use a YubiKey, however no YubiKey or an incorrect YubiKey was found connected.";
+"mac_autofill_no_or_incorrect_yubikey_found" = "Din databas är konfigurerad för att använda en YubiKey men ingen YubiKey eller en felaktig YubiKey hittades ansluten.";
 
 /* Title (Username) */
 "quick_type_format_title_username" = "Rubrik (användarnamn)";
@@ -4018,13 +4018,13 @@
 "prompt_title_copy_debug_info" = "Kopiera felsökningsinformation?";
 
 /* Would you like to copy some helpful debug information that you can share with support before proceeding? */
-"prompt_message_copy_debug_info" = "Would you like to copy some helpful debug information that you can share with support before proceeding?";
+"prompt_message_copy_debug_info" = "Vill du kopiera hjälpsam felsökningsinformation som du kan dela med supporten innan du fortsätter?";
 
 /* Third Party Storage Privacy Opt-In */
 "third_party_storage_privacy_opt_in_title" = "Ja-krav till tredjepartslagringintegritet";
 
 /* You are about to use a software library from Google, Microsoft or Dropbox for the first time.\n\nStrongbox does not control these organizations privacy policies (which may not be awesome).\n\nStrongbox offers these services for your convenience and it is entirely at your discretion whether you use them or not. You must Opt In to continue. */
-"third_party_storage_privacy_opt_in_message" = "You are about to use a software library from Google, Microsoft or Dropbox for the first time.\n\nStrongbox does not control these organizations privacy policies (which may not be awesome).\n\nStrongbox offers these services for your convenience and it is entirely at your discretion whether you use them or not.\n\nYou must Opt In to continue.";
+"third_party_storage_privacy_opt_in_message" = "Du är på väg att använda ett programbibliotek från Google, Microsoft eller Dropbox för första gången.\n\nStrongbox har inte kontroll över dessa organisationers integritetspolicy (vilka kanske inte är fantastiska).\n\nStrongbox erbjuder dessa tjänster för din bekvämlighet och det är upp till dig om du vill använda dem eller inte.\n\nDu måste acceptera ja-krav för att fortsätta.";
 
 /* Opt In, Let's Go... */
 "third_party_storage_privacy_option_opt_in" = "Anmälan ja-krav, vi kör ...";
@@ -4078,7 +4078,7 @@
 "autofill_auto_unlock_title" = "Automatisk upplåsningsfunktion";
 
 /* Auto Unlock lets you avoid having to repeatedly unlock your database for a configurable time period. Would you like to use this handy feature?\n\nNB: Your password is stored in the Secure Enclave for this feature. */
-"autofill_auto_unlock_message" = "Auto Unlock lets you avoid having to repeatedly unlock your database for a configurable time period. Would you like to use this handy feature?\n\nNB: Your password is stored in the Secure Enclave for this feature.";
+"autofill_auto_unlock_message" = "Automatisk upplåsning gör att du slipper låsa upp databasen upprepade gånger under en konfigurerbar tidsperiod. Vill du använda denna praktiska funktion?\n\nObs: Ditt lösenord lagras i Secure Enclave för den här funktionen.";
 
 /* Great, let try 3 mins */
 "autofill_auto_unlock_try_3_minutes" = "Perfekt, vi provar 3 minuter";
@@ -4102,7 +4102,7 @@
 "autofill_search_title_service_id_section_header" = "Tjänste-ID";
 
 /* The Service ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Service ID. */
-"autofill_search_service_id_section_footer" = "The Service ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Service ID. Tap to Copy.";
+"autofill_search_service_id_section_footer" = "Tjänste-ID är en identifierare som skickas till Strongbox av Autofyll. Det kan hjälpa vid sökning om du ställer in URL-adressen i din post att vara den samma som tjänste-ID:t. Tryck för att kopiera.";
 
 /* Results */
 "quick_view_title_no_matches_title" = "Resultat";
@@ -4147,7 +4147,7 @@
 "offline_detected_behaviour_open_offline" = "Öppna offline (utan fråga)";
 
 /* There was a problem updating your database in the background and your assistance is required to resolve. Would you like to resolve this problem now? */
-"sync_status_user_interaction_required_prompt_yes_or_no" = "There was a problem updating your database and your assistance is required to resolve. Would you like to resolve this problem now?";
+"sync_status_user_interaction_required_prompt_yes_or_no" = "Det gick inte att uppdatera databasen och du måste hjälpa till att lösa problemet. Vill du lösa det här problemet nu?";
 
 /* Error Updating */
 "sync_status_error_updating_title" = "Fel vid uppdatering";
@@ -4156,7 +4156,7 @@
 "generic_action_verb_recycle" = "Flytta till papperskorg";
 
 /* There was an error updating your database. Would you like to try updating again, or would you prefer to revert to the latest successful update? */
-"sync_status_error_updating_try_again_prompt" = "There was an error updating your database. Would you like to try updating again, or would you prefer to revert to the latest successful update?";
+"sync_status_error_updating_try_again_prompt" = "Ett fel uppstod när databasen skulle uppdateras. Vill du försöka uppdatera igen eller föredrar du att återgå till den senast lyckade uppdateringen?";
 
 /* Try Again */
 "sync_status_error_updating_try_again_action" = "Försök igen";
@@ -4306,7 +4306,7 @@
 "convenience_unlock_require_after_prefix" = "Kräv efter";
 
 /* It's time now to re-enter your Master Password manually. You can change this reminder interval in Database Settings. */
-"composite_key_determiner_convenience_expired_message" = "It's time now to re-enter your Master Password manually. You can change this reminder interval in Database Settings.";
+"composite_key_determiner_convenience_expired_message" = "Det är dags att ange ditt huvudlösenord manuellt. Du kan ändra detta påminnelseintervall i databasinställningar.";
 
 /* Got it! */
 "generic_got_it" = "Uppfattat!";
@@ -4321,10 +4321,10 @@
 "generic_preferences" = "Inställningar";
 
 /* Rearrange - L10n - Verb - to re-order or otherwise change the order of a list of items */
-"generic_rearrange" = "Rearrange";
+"generic_rearrange" = "Ordna";
 
 /* Typing your master password is slow, cumbersome and error prone. Strongbox can help you to conveniently and securely unlock your database so that you don't need to enter your master password all the time.\n\nWould you like to use Convenience Unlock? */
-"onboarding_convenience_message_fmt" = "Typing your master password is slow, cumbersome and error prone. Strongbox can help you to securely & quickly unlock your database without needing to use your master password every time.\n\nWould you like to use Convenience Unlock?";
+"onboarding_convenience_message_fmt" = "Att skriva ditt huvudlösenord är långsamt, besvärligt och felkänsligt. Strongbox kan hjälpa dig att säkert och snabbt låsa upp din databas utan att behöva använda ditt huvudlösenord varje gång.\n\nVill du använda bekvämlighetsupplåsning?";
 
 /* Dismiss - L10n Note: Generic Action to dismiss a dialog or popup */
 "generic_dismiss" = "Avfärda";
