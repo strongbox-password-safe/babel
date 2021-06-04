@@ -4330,7 +4330,7 @@
 "generic_dismiss" = "Пропустити";
 
 /* There is a configuration issue you should be aware of. You are using %@ for both App Lock and Quick Launch. In addition you allow device passcode fallback for App Lock.\n\nThis leads to a situation where you can unlock your database using only your device passcode.\n\nIf you do not want this you can do any of the following: Disable App Lock passcode fallback, or Quick Launch, or %@ Database Unlock, or coalescing of unlocks - L10n Note: 3 format parameters here are identical and will be either 'Face ID' or 'Touch ID' */
-"app_lock_coalescing_with_quick_launch_warning" = "There is a configuration issue you should be aware of. You are using %@ for both App Lock and Quick Launch. In addition you allow device passcode fallback for App Lock.\n\nThis leads to a situation where you can unlock your database using only your device passcode.\n\nIf you do not want this you can do any of the following: Disable App Lock passcode fallback, or Quick Launch, or %@ Database Unlock, or coalescing of unlocks.";
+"app_lock_coalescing_with_quick_launch_warning" = "Виникла проблема конфігурації, про яку вам слід знати. Ви використовуєте %@ для замкнення програми та швидкого запуску. Крім того, ви дозволили резервне використання коду допуску пристрою для замкнення програми.\n\nЦе призводить до ситуації, коли ви зможете відімкнути базу паролів лише за допомогою коду допуску пристрою.\n\nЯкщо ви цього не хочете, ви можете зробити будь-що з наведеного: Вимкнути резервне відмикання кодом допуску пристрою, або вимкнути швидкий запуск, або %@ відмикання бази паролів, або об'єднанням способів відмикання.";
 
 /* Configuration Issue */
 "onboarding_configuration_issue_title" = "Проблема конфігурації";
@@ -4360,25 +4360,73 @@
 "generic_dont_remind_me" = "Не нагадувати";
 
 /* It's time to export a backup copy of your database somewhere safe.\n\nWould you like do that now? */
-"scheduled_export_message" = "It's time to export a backup copy of your database somewhere safe.\n\nWould you like do that now?";
+"scheduled_export_message" = "Настав час експортувати резервну копію вашої бази паролів у надійне місце.\n\nБажаєте зробити це зараз?";
 
 /* Postpone */
-"generic_postpone" = "Postpone";
+"generic_postpone" = "Відкласти";
 
 /* iCloud Create Database Error */
-"icloud_create_issue_title" = "iCloud Create Database Error";
+"icloud_create_issue_title" = "iCloud - Помилка створення бази";
 
 /* Strongbox could not create a new iCloud Database for you, most likely because the Strongbox iCloud folder has been deleted.\n\nYou can find out how to fix this issue below. */
-"icloud_create_issue_message" = "Strongbox could not create a new iCloud Database for you, most likely because the Strongbox iCloud folder has been deleted.\n\nYou can find out how to fix this issue below.";
+"icloud_create_issue_message" = "Strongbox не зміг створити нову базу паролів у iCloud. Найімовірніше, тому що тека Strongbox в iCloud була видалена.\n\nВи можете дізнатися нижче, як це виправити.";
 
 /* How do I fix this? */
-"icloud_create_issue_fix" = "How do I fix this?";
+"icloud_create_issue_fix" = "Як це виправити?";
 
 /* Create local database instead */
-"icloud_create_issue_local_instead" = "Create local database instead";
+"icloud_create_issue_local_instead" = "Створити натомість локальну базу";
 
 /* Copied - L10n Note: This means a string has just been copied to the clipboard. Used to notify user via a toast message or similar. */
-"generic_copied" = "Copied";
+"generic_copied" = "Скопійовано";
 
 /* Scheduled Export Interval */
-"prefs_vc_scheduled_export_interval" = "Scheduled Export Interval";
+"prefs_vc_scheduled_export_interval" = "Інтервал розкладу експорту";
+
+/* Welcome Aboard */
+"onboarding_welcome_to_strongbox_first_run_title" = "Ласкаво просимо";
+
+/* Hi there, and welcome to Strongbox 😎\n\nWe're sure you're excited to get started, but first, there are a few steps we should take so that everything runs smoothly... */
+"onboarding_welcome_to_strongbox_first_run_message" = "Вітаємо в Strongbox 😎\n\nМи впевнені, що ви бажаєте якнайшвидше розпочати користування, але спершу слід виконати кілька кроків для найкращої подальшої роботи...";
+
+/* Don't Use iCloud */
+"prefs_vc_dont_use_icloud_action" = "Не використовувати iCloud";
+
+/* Get Started */
+"generic_get_started" = "Розпочати";
+
+/* You're All Set! */
+"generic_youre_all_set" = "Все готово!";
+
+/* Next up, we'll take you to your regular Databases screen.\n\nFrom here, we'll help you add your first password database.\n\n❤️ The Strongbox Team ❤️ */
+"onboarding_welcome_to_strongbox_first_run_final_message" = "Далі ви перейдете до основного екрана вашої бази паролів.\n\nТут ми допоможемо вам додати свою першу базу паролів.\n\n❤️ Команда Strongbox ❤️";
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+/* Fix the format string crashes that are possible when these are incorrectly localized */
+/* %@'s Database %@  - (Tranlators Note: 1st param is the users name, and 2nd param is a number, e.g. 'Mark's Database 3' ), indicating this is Mark's 3rd database */
+
+"casg_suggested_database_name_users_database_number_suffix_fmt2" = "%@'s база паролів %@";
+
+/* About Strongbox %@ (Pro Trial - %@ days left)  - (Tranlators Note: 1st param is the version number and 2nd is number of days left in the Free Trial, e.g. 'About Strongbox 1.52.20 (Pro Trial - 75 days left)')  */
+"prefs_vc_app_version_info_pro_trial_fmt2" = "Про Strongbox %@ (Пробна версія Pro - Залишилось %@ днів)";
+
+/* %@ / month (Save %@%%)  - (Tranlators Note: Price per month and percentage savings indicator. e.g. $1.99/month (Save 20%)). Currency, percentage and price formatting is automatic. */
+"upgrade_vc_price_per_month_with_percentage_saving_fmt2" = "%@ / місяць (Заощадити %@%%)";
+
+/* Original (%@ x %@) %@  - (Tranlators Note: Attachment Image Size (Dimensions and File Size), e.g. 'Original: (2048x2048) 24.2 MB')  */
+"add_attachment_vc_large_image_prompt_option_original_size_fmt2" = "Оригінал (%@ x %@) %@";
+
+/* Use Anyway (%@ x %@) %@  - (Tranlators Note: Attachment Image Size (Dimensions and File Size), e.g. 'Use Anyway: (2048x2048) 24.2 MB')  */
+"add_attachment_vc_large_image_prompt_option_use_anyway_size_fmt2" = "Все одно використовувати (%@ x %@) %@";
+
+/* This is a rather large image (%@x%@), would you like to rescale it to a maximum dimension of %@ pixels for a file size saving of roughly %@  - (Tranlators Note: Message about reducing the file size of an image. e.g. 'This is a rather large image (4096x4096), would you like to rescale it to a maximum dimension of 512 pixels for a file size saving of roughly 15 MB')  */
+"set_icon_vc_prompt_rescale_image_message_fmt2" = "Це зображення досить велике (%@x%@). Бажаєте зменшити його розмір до %@ пікселів, щоб заощадити приблизно %@";
+
+/* YubiKey %@ Slot %@ (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
+"mac_yubikey_serial_number_slot_n_touch_required_fmt2" = "YubiKey %@ роз'єм %@ (Потрібен дотик)";
+
+/* YubiKey %@ Slot %@  - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2) */
+"mac_yubikey_serial_number_slot_n_fmt2" = "YubiKey %@ роз'єм %@";
+
+/* Backup %@ (%@) - Translators Note: 1st Param is a number/integer, second parameter is the modified date, so e.g. 'Backup 4 (11 Nov 2020)'*/
+"backups_backup_title_fmt2" = "Резервна копія %@ (%@)";
