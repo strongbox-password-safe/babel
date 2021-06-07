@@ -170,8 +170,8 @@
 /* Keep Local */
 "safesvc_option_keep_local" = "Mantieni in Locale";
 
-/* iCloud Unavailable */
-"safesvc_icloud_unavailable_title" = "iCloud Non Disponibile";
+/* iCloud Switched Off */
+"safesvc_icloud_unavailable_title" = "iCloud Switched Off";
 
 /* What would you like to do with the databases currently on this device? */
 "safesvc_icloud_unavailable_question" = "Cosa vuoi fare con i database attualmente presenti su questo dispositivo?";
@@ -880,10 +880,6 @@
 
 /* File Size */
 "databases_preferences_subtitle_field_name_file_size" = "Dimensione File";
-
-
-/* It looks like this app is no longer entitled to all the Pro features. These will be limited now. If you believe this is incorrect, please get in touch with support@strongboxsafe.com to get some help with this. Please include your purchase receipt. */
-"upgrade_mgr_downgrade_message" = "Sembra che questa app non abbia più diritto a tutte le funzionalità Pro. Queste saranno limitate adesso. Se ritieni che questo non sia corretto, contatta support@strongboxsafe.com per ottenere aiuto. Si prega di includere la ricevuta di acquisto.";
 
 /* Strongbox Downgrade */
 "upgrade_mgr_downgrade_title" = "Downgrade Strongbox";
@@ -4430,3 +4426,17 @@
 
 /* Backup %@ (%@) - Translators Note: 1st Param is a number/integer, second parameter is the modified date, so e.g. 'Backup 4 (11 Nov 2020)'*/
 "backups_backup_title_fmt2" = "Backup %@ (%@)";
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+/* Strongbox has been downgraded from Pro.\n\nDon't worry, all your databases are still available, but some convenient features (e.g. %@) may no longer work.\n\nThis is probably because your trial or subscription has just ended.\n\nWe'd love if you could support us by upgrading to Pro.\n\nWould you like to do that now? */
+
+"upgrade_mgr_downgrade_message" = "Strongbox has been downgraded from Pro.\n\nDon't worry, all your databases are still available, but some convenient features (e.g. %@) will no longer work.\n\nThis is probably because your trial or subscription has just ended.\n\nWe'd love if you could support us by upgrading to Pro.\n\nWould you like to do that now?";
+
+/* Upgrade... (L10n: A verb, To Upgrade, followed by ellipsis) */
+"generic_upgrade_ellipsis" = "Upgrade...";
+
+/* Free Trial Ending Soon */
+"upgrade_onboarding_free_trial_ending_soon_title" = "Free Trial Ending Soon";
+
+/* Your free trial of Strongbox Pro will end next week, and we wouldn't want you to lose any of the cool Pro features.\n\nWould you like to support Strongbox and take a look at some of the Upgrade options? */
+"upgrade_onboarding_free_trial_ending_soon_message" = "Your free trial of Strongbox Pro will end next week, and we wouldn't want you to lose any of the cool Pro features.\n\nWould you like to support Strongbox and take a look at some of the Upgrade options?";
