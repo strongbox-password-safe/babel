@@ -170,8 +170,8 @@
 /* Keep Local */
 "safesvc_option_keep_local" = "Garder en local";
 
-/* iCloud Unavailable */
-"safesvc_icloud_unavailable_title" = "iCloud indisponible";
+/* iCloud Switched Off */
+"safesvc_icloud_unavailable_title" = "iCloud Switched Off";
 
 /* What would you like to do with the databases currently on this device? */
 "safesvc_icloud_unavailable_question" = "Que souhaitez-vous faire des bases de données actuellement sur cet appareil ?";
@@ -880,10 +880,6 @@
 
 /* File Size */
 "databases_preferences_subtitle_field_name_file_size" = "Taille du fichier";
-
-
-/* It looks like this app is no longer entitled to all the Pro features. These will be limited now. If you believe this is incorrect, please get in touch with support@strongboxsafe.com to get some help with this. Please include your purchase receipt. */
-"upgrade_mgr_downgrade_message" = "Il semble que cette application n'ait plus droit à toutes les fonctionnalités Pro. Elles seront maintenant limitées. Si vous pensez que c'est incorrect, veuillez contacter support@strongboxsafe.com pour obtenir de l'aide. Veuillez inclure votre reçu d'achat.";
 
 /* Strongbox Downgrade */
 "upgrade_mgr_downgrade_title" = "Rétrogradation de Strongbox";
@@ -4252,7 +4248,7 @@
 "password_time_to_crack_hours_fmt" = "%@ heures";
 
 /* Adversary Guess Rate */
-"prefs_vc_password_strength_adversary_crack_rate" = "Cadence d'essai de l'adversaire";
+"prefs_vc_password_strength_adversary_crack_rate" = "Fréquence des tentatives";
 
 /* Thousand */
 "number_suffix_thousand" = "Millier";
@@ -4387,46 +4383,60 @@
 "onboarding_welcome_to_strongbox_first_run_title" = "Bienvenue à bord";
 
 /* Hi there, and welcome to Strongbox 😎\n\nWe're sure you're excited to get started, but first, there are a few steps we should take so that everything runs smoothly... */
-"onboarding_welcome_to_strongbox_first_run_message" = "Hi there, and welcome to Strongbox 😎\n\nWe're sure you're excited to get started, but first, there are a few steps we should take so that everything runs smoothly...";
+"onboarding_welcome_to_strongbox_first_run_message" = "Bonjour, et bienvenue dans Strongbox 😎\n\nNous sommes sûrs que vous avez hâte de commencer, mais d'abord, il y a quelques étapes que nous devrions suivre pour que tout fonctionne dans de bonnes conditions...";
 
 /* Don't Use iCloud */
-"prefs_vc_dont_use_icloud_action" = "Don't Use iCloud";
+"prefs_vc_dont_use_icloud_action" = "Ne pas utiliser iCloud";
 
 /* Get Started */
-"generic_get_started" = "Get Started";
+"generic_get_started" = "Démarrer";
 
 /* You're All Set! */
 "generic_youre_all_set" = "Tout est prêt !";
 
 /* Next up, we'll take you to your regular Databases screen.\n\nFrom here, we'll help you add your first password database.\n\n❤️ The Strongbox Team ❤️ */
-"onboarding_welcome_to_strongbox_first_run_final_message" = "Next up, we'll take you to your regular Databases screen.\n\nFrom here, we'll help you add your first password database.\n\n❤️ The Strongbox Team ❤️";
+"onboarding_welcome_to_strongbox_first_run_final_message" = "Ensuite, nous vous mènerons à l'écran de vos bases de données habituel.\n\nD'ici, nous vous aiderons à ajouter votre première base de données de mots de passe.\n\n❤️ L'équipe Strongbox ❤️";
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 /* Fix the format string crashes that are possible when these are incorrectly localized */
 /* %@'s Database %@  - (Tranlators Note: 1st param is the users name, and 2nd param is a number, e.g. 'Mark's Database 3' ), indicating this is Mark's 3rd database */
 
-"casg_suggested_database_name_users_database_number_suffix_fmt2" = "%@'s Database %@";
+"casg_suggested_database_name_users_database_number_suffix_fmt2" = "Base de données de %@ %@";
 
 /* About Strongbox %@ (Pro Trial - %@ days left)  - (Tranlators Note: 1st param is the version number and 2nd is number of days left in the Free Trial, e.g. 'About Strongbox 1.52.20 (Pro Trial - 75 days left)')  */
-"prefs_vc_app_version_info_pro_trial_fmt2" = "About Strongbox %@ (Pro Trial - %@ days left)";
+"prefs_vc_app_version_info_pro_trial_fmt2" = "À propos de Strongbox %@ (essai Pro - %@ jours restants)";
 
 /* %@ / month (Save %@%%)  - (Tranlators Note: Price per month and percentage savings indicator. e.g. $1.99/month (Save 20%)). Currency, percentage and price formatting is automatic. */
-"upgrade_vc_price_per_month_with_percentage_saving_fmt2" = "%@ / month (Save %@%%)";
+"upgrade_vc_price_per_month_with_percentage_saving_fmt2" = "%@ / mois (économisez %@%%)";
 
 /* Original (%@ x %@) %@  - (Tranlators Note: Attachment Image Size (Dimensions and File Size), e.g. 'Original: (2048x2048) 24.2 MB')  */
-"add_attachment_vc_large_image_prompt_option_original_size_fmt2" = "Original (%@ x %@) %@";
+"add_attachment_vc_large_image_prompt_option_original_size_fmt2" = "Originale (%@ x %@) %@";
 
 /* Use Anyway (%@ x %@) %@  - (Tranlators Note: Attachment Image Size (Dimensions and File Size), e.g. 'Use Anyway: (2048x2048) 24.2 MB')  */
-"add_attachment_vc_large_image_prompt_option_use_anyway_size_fmt2" = "Use Anyway (%@ x %@) %@";
+"add_attachment_vc_large_image_prompt_option_use_anyway_size_fmt2" = "Utiliser quand même (%@ x %@) %@";
 
 /* This is a rather large image (%@x%@), would you like to rescale it to a maximum dimension of %@ pixels for a file size saving of roughly %@  - (Tranlators Note: Message about reducing the file size of an image. e.g. 'This is a rather large image (4096x4096), would you like to rescale it to a maximum dimension of 512 pixels for a file size saving of roughly 15 MB')  */
-"set_icon_vc_prompt_rescale_image_message_fmt2" = "This is a rather large image (%@x%@), would you like to rescale it to a maximum dimension of %@ pixels for a file size saving of roughly %@";
+"set_icon_vc_prompt_rescale_image_message_fmt2" = "Il s'agit d'une assez grande image (%@x%@), voulez-vous la redimensionner à une taille maximale de %@ pixels pour une économie d'espace d'environ %@";
 
 /* YubiKey %@ Slot %@ (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
-"mac_yubikey_serial_number_slot_n_touch_required_fmt2" = "YubiKey %@ Slot %@ (Touch Required)";
+"mac_yubikey_serial_number_slot_n_touch_required_fmt2" = "YubiKey %@ emplacement %@ (appui requis)";
 
 /* YubiKey %@ Slot %@  - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2) */
-"mac_yubikey_serial_number_slot_n_fmt2" = "YubiKey %@ Slot %@";
+"mac_yubikey_serial_number_slot_n_fmt2" = "YubiKey %@ emplacement %@";
 
 /* Backup %@ (%@) - Translators Note: 1st Param is a number/integer, second parameter is the modified date, so e.g. 'Backup 4 (11 Nov 2020)'*/
-"backups_backup_title_fmt2" = "Backup %@ (%@)";
+"backups_backup_title_fmt2" = "Sauvegarde %@ (%@)";
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+/* Strongbox has been downgraded from Pro.\n\nDon't worry, all your databases are still available, but some convenient features (e.g. %@) may no longer work.\n\nThis is probably because your trial or subscription has just ended.\n\nWe'd love if you could support us by upgrading to Pro.\n\nWould you like to do that now? */
+
+"upgrade_mgr_downgrade_message" = "Strongbox has been downgraded from Pro.\n\nDon't worry, all your databases are still available, but some convenient features (e.g. %@) will no longer work.\n\nThis is probably because your trial or subscription has just ended.\n\nWe'd love if you could support us by upgrading to Pro.\n\nWould you like to do that now?";
+
+/* Upgrade... (L10n: A verb, To Upgrade, followed by ellipsis) */
+"generic_upgrade_ellipsis" = "Upgrade...";
+
+/* Free Trial Ending Soon */
+"upgrade_onboarding_free_trial_ending_soon_title" = "Free Trial Ending Soon";
+
+/* Your free trial of Strongbox Pro will end next week, and we wouldn't want you to lose any of the cool Pro features.\n\nWould you like to support Strongbox and take a look at some of the Upgrade options? */
+"upgrade_onboarding_free_trial_ending_soon_message" = "Your free trial of Strongbox Pro will end next week, and we wouldn't want you to lose any of the cool Pro features.\n\nWould you like to support Strongbox and take a look at some of the Upgrade options?";
