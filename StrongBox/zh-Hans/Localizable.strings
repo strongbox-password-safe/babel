@@ -171,7 +171,7 @@
 "safesvc_option_keep_local" = "保持本地";
 
 /* iCloud Switched Off */
-"safesvc_icloud_unavailable_title" = "iCloud Switched Off";
+"safesvc_icloud_unavailable_title" = "iCloud已关闭";
 
 /* What would you like to do with the databases currently on this device? */
 "safesvc_icloud_unavailable_question" = "您要如何处理此设备上当前的数据库？";
@@ -4302,7 +4302,7 @@
 "convenience_unlock_require_after_prefix" = "需要在此之后";
 
 /* It's time now to re-enter your Master Password manually. You can change this reminder interval in Database Settings. */
-"composite_key_determiner_convenience_expired_message" = "It's time now to re-enter your Master Password manually. You can change this reminder interval in Database Settings.";
+"composite_key_determiner_convenience_expired_message" = "是时候重新手动输入主密码了。您可以在 “数据库设置” 中更改此提醒的间隔时间。";
 
 /* Got it! */
 "generic_got_it" = "了解！";
@@ -4320,7 +4320,7 @@
 "generic_rearrange" = "重新排列";
 
 /* Typing your master password is slow, cumbersome and error prone. Strongbox can help you to conveniently and securely unlock your database so that you don't need to enter your master password all the time.\n\nWould you like to use Convenience Unlock? */
-"onboarding_convenience_message_fmt" = "Typing your master password is slow, cumbersome and error prone. Strongbox can help you to securely & quickly unlock your database without needing to use your master password every time.\n\nWould you like to use Convenience Unlock?";
+"onboarding_convenience_message_fmt" = "输入主密码既慢又繁琐并且容易出错的。Strongbox可以安全、快速地帮助您解锁数据库，而不需要每次都输入主密码。\n\n您想使用便捷解锁吗？";
 
 /* Dismiss - L10n Note: Generic Action to dismiss a dialog or popup */
 "generic_dismiss" = "忽略";
@@ -4329,46 +4329,46 @@
 "app_lock_coalescing_with_quick_launch_warning" = "There is a configuration issue you should be aware of. You are using %@ for both App Lock and Quick Launch. In addition you allow device passcode fallback for App Lock.\n\nThis leads to a situation where you can unlock your database using only your device passcode.\n\nIf you do not want this you can do any of the following: Disable App Lock passcode fallback, or Quick Launch, or %@ Database Unlock, or coalescing of unlocks.";
 
 /* Configuration Issue */
-"onboarding_configuration_issue_title" = "Configuration Issue";
+"onboarding_configuration_issue_title" = "配置问题";
 
 /* Let's Go - L10n Note: Generic Action Button to get started, similar to OK, but more friendly and indicates progression */
-"generic_lets_go" = "Let's Go";
+"generic_lets_go" = "让我们开始吧";
 
 /* Ready to Launch */
-"onboarding_ready_to_launch_title" = "Ready to Launch";
+"onboarding_ready_to_launch_title" = "准备启动";
 
 /* You're all set to get the best out of Strongbox.\n\nDon't forget you can always tweak these settings at any time. */
-"onboarding_ready_to_launch_message" = "You're all set to get the best out of Strongbox.\n\nDon't forget you can always tweak these settings at any time.";
+"onboarding_ready_to_launch_message" = "你已经完美搞定Strongbox的各种设置了。\n\n别忘了，你可以随时调整这些设置。";
 
 /* Scheduled Export */
-"onboarding_scheduled_export_title" = "Scheduled Export";
+"onboarding_scheduled_export_title" = "预定导出";
 
 /* It's always a good idea to keep backups, especially external ones. Strongbox can remind you to export your database every so often.\n\nWould you like Strongbox to prompt you to export your database if it has been a while? */
-"onboarding_scheduled_export_message" = "It's always a good idea to keep backups, especially external ones. Strongbox can remind you to export your database every so often.\n\nWould you like Strongbox to prompt you to export your database if it has been a while?";
+"onboarding_scheduled_export_message" = "保持备份总是一个好习惯，特别是外部备份。Strongbox可以每隔一段时间提醒您导出你的数据库。\n\n您希望Strongbox在一段时间后提示您导出数据库吗？";
 
 /* Remind me after 2 weeks */
-"onboarding_scheduled_export_onboarding_remind_2_weeks" = "Remind me after 2 weeks";
+"onboarding_scheduled_export_onboarding_remind_2_weeks" = "2周后提醒我";
 
 /* Remind me after 4 weeks */
-"onboarding_scheduled_export_onboarding_remind_4_weeks" = "Remind me after 4 weeks";
+"onboarding_scheduled_export_onboarding_remind_4_weeks" = "4 周后提醒我";
 
 /* Don't Remind Me */
-"generic_dont_remind_me" = "Don't Remind Me";
+"generic_dont_remind_me" = "不再提醒";
 
 /* It's time to export a backup copy of your database somewhere safe.\n\nWould you like do that now? */
-"scheduled_export_message" = "It's time to export a backup copy of your database somewhere safe.\n\nWould you like do that now?";
+"scheduled_export_message" = "是时候备份你的数据库了，把他拷贝导出到一个安全的地方吧。\n\n你想现在就开始吗？";
 
 /* Postpone */
-"generic_postpone" = "Postpone";
+"generic_postpone" = "推迟";
 
 /* iCloud Create Database Error */
-"icloud_create_issue_title" = "iCloud Create Database Error";
+"icloud_create_issue_title" = "iCloud创建数据库错误";
 
 /* Strongbox could not create a new iCloud Database for you, most likely because the Strongbox iCloud folder has been deleted.\n\nYou can find out how to fix this issue below. */
-"icloud_create_issue_message" = "Strongbox could not create a new iCloud Database for you, most likely because the Strongbox iCloud folder has been deleted.\n\nYou can find out how to fix this issue below.";
+"icloud_create_issue_message" = "Strongbox无法为你创建一个新的iCloud数据库，很可能是因为Strongbox iCloud文件夹已被删除。\n\n你可以在下面了解如何解决这个问题。";
 
 /* How do I fix this? */
-"icloud_create_issue_fix" = "How do I fix this?";
+"icloud_create_issue_fix" = "如何解决这个问题呢？";
 
 /* Create local database instead */
 "icloud_create_issue_local_instead" = "Create local database instead";
@@ -4377,7 +4377,7 @@
 "generic_copied" = "Copied";
 
 /* Scheduled Export Interval */
-"prefs_vc_scheduled_export_interval" = "Scheduled Export Interval";
+"prefs_vc_scheduled_export_interval" = "预定的导出间隔";
 
 /* Welcome Aboard */
 "onboarding_welcome_to_strongbox_first_run_title" = "Welcome Aboard";
