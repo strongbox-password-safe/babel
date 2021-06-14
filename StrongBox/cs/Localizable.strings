@@ -171,7 +171,7 @@
 "safesvc_option_keep_local" = "Ponechat místní";
 
 /* iCloud Switched Off */
-"safesvc_icloud_unavailable_title" = "iCloud Switched Off";
+"safesvc_icloud_unavailable_title" = "iCloud vypnut";
 
 /* What would you like to do with the databases currently on this device? */
 "safesvc_icloud_unavailable_question" = "Co chcete dělat s databázemi, které jsou aktuálně na tomto zařízení?";
@@ -4430,13 +4430,28 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////
 /* Strongbox has been downgraded from Pro.\n\nDon't worry, all your databases are still available, but some convenient features (e.g. %@) may no longer work.\n\nThis is probably because your trial or subscription has just ended.\n\nWe'd love if you could support us by upgrading to Pro.\n\nWould you like to do that now? */
 
-"upgrade_mgr_downgrade_message" = "Strongbox has been downgraded from Pro.\n\nDon't worry, all your databases are still available, but some convenient features (e.g. %@) will no longer work.\n\nThis is probably because your trial or subscription has just ended.\n\nWe'd love if you could support us by upgrading to Pro.\n\nWould you like to do that now?";
+"upgrade_mgr_downgrade_message" = "Strongbox byl ponížen z verze Pro.\n\nNebojte se, všechny vaše databáze jsou stále k dispozici, ale některé výhodné funkce (např. %@) již nebudou fungovat.\n\nJe to pravděpodobně proto, že vaše zkušební verze nebo předplatné právě skončily.\n\nRádi bychom, kdybyste nás mohli podpořit upgradem na verzi Pro.\n\nChcete to udělat nyní?";
 
 /* Upgrade... (L10n: A verb, To Upgrade, followed by ellipsis) */
-"generic_upgrade_ellipsis" = "Upgrade...";
+"generic_upgrade_ellipsis" = "Upgradovat...";
 
 /* Free Trial Ending Soon */
-"upgrade_onboarding_free_trial_ending_soon_title" = "Free Trial Ending Soon";
+"upgrade_onboarding_free_trial_ending_soon_title" = "Brzy skončí bezplatná zkušební doba";
 
 /* Your free trial of Strongbox Pro will end next week, and we wouldn't want you to lose any of the cool Pro features.\n\nWould you like to support Strongbox and take a look at some of the Upgrade options? */
-"upgrade_onboarding_free_trial_ending_soon_message" = "Your free trial of Strongbox Pro will end next week, and we wouldn't want you to lose any of the cool Pro features.\n\nWould you like to support Strongbox and take a look at some of the Upgrade options?";
+"upgrade_onboarding_free_trial_ending_soon_message" = "Vaše zkušební období Strongbox Pro skončí příští týden a my bychom nechtěli, abyste ztratili žádnou z Pro funkcí.\n\nChcete podpořit Strongbox a podívat se na některé z možností upgrade?";
+
+/* Strongbox could not find a QR Code in this image. */
+"could_not_find_qr_code" = "Strongbox v tomto obrázku nemohl najít QR kód.";
+
+/* Scan QR Code with Camera */
+"scan_qr_code_from_camera" = "Naskenujte fotoaparátem QR kód";
+
+/* Would you like to sync before exporting to ensure you have the latest version of your database? */
+"sync_before_export_question_yes_no" = "Chcete synchronizovat před exportem a ujistit se, že máte nejnovější verzi vaší databáze?";
+
+/* This database is already open. Please close it first if you would like to open it in a different mode. */
+"database_already_open_please_close" = "Tato databáze je již otevřena. Prosím nejprve ji zavřete, pokud ji chcete otevřít v jiném režimu.";
+
+/* Offline - L10n note: this is an adjective, meaning the current database has been opened in Offline mode */
+"database_offline_mode_window_suffix" = "Offline";

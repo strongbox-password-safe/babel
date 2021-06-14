@@ -171,7 +171,7 @@
 "safesvc_option_keep_local" = "Использовать локально";
 
 /* iCloud Switched Off */
-"safesvc_icloud_unavailable_title" = "iCloud Switched Off";
+"safesvc_icloud_unavailable_title" = "iCloud выключен";
 
 /* What would you like to do with the databases currently on this device? */
 "safesvc_icloud_unavailable_question" = "Что бы Вы хотели сделать с базами данных, находящимися на этом устройстве?";
@@ -1283,7 +1283,7 @@
 "qr_code_vc_error_scanning_title" = "Ошибка при сканировании";
 
 /* Could not access camera */
-"qr_code_vc_warn_problem_accessing_camera_title" = "Не удалось получить доступ к камере";
+"qr_code_vc_warn_problem_accessing_camera_title" = "Доступ к камере";
 
 /* Strongbox could not access the camera on this device. Does it have permission? */
 "qr_code_vc_warn_problem_accessing_camera_message" = "Не удалось получить доступ к камере. Проверьте настройки разрешений для приложения.";
@@ -4430,13 +4430,28 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////
 /* Strongbox has been downgraded from Pro.\n\nDon't worry, all your databases are still available, but some convenient features (e.g. %@) may no longer work.\n\nThis is probably because your trial or subscription has just ended.\n\nWe'd love if you could support us by upgrading to Pro.\n\nWould you like to do that now? */
 
-"upgrade_mgr_downgrade_message" = "Strongbox has been downgraded from Pro.\n\nDon't worry, all your databases are still available, but some convenient features (e.g. %@) will no longer work.\n\nThis is probably because your trial or subscription has just ended.\n\nWe'd love if you could support us by upgrading to Pro.\n\nWould you like to do that now?";
+"upgrade_mgr_downgrade_message" = "Произведён даунгрейд до базовой версии приложения.\n\nВсе БД по-прежнему доступны, но некоторые функции (напр., %@) больше не будут работать.\n\nСрок пробной версии или подписки только что закончился.\n\nМы будем рады, если Вы сможете поддержать нас, обновившись до Pro.\n\nХотите сделать это сейчас?";
 
 /* Upgrade... (L10n: A verb, To Upgrade, followed by ellipsis) */
-"generic_upgrade_ellipsis" = "Upgrade...";
+"generic_upgrade_ellipsis" = "Обновить до Pro ...";
 
 /* Free Trial Ending Soon */
-"upgrade_onboarding_free_trial_ending_soon_title" = "Free Trial Ending Soon";
+"upgrade_onboarding_free_trial_ending_soon_title" = "Окончание срока пробной версии";
 
 /* Your free trial of Strongbox Pro will end next week, and we wouldn't want you to lose any of the cool Pro features.\n\nWould you like to support Strongbox and take a look at some of the Upgrade options? */
-"upgrade_onboarding_free_trial_ending_soon_message" = "Your free trial of Strongbox Pro will end next week, and we wouldn't want you to lose any of the cool Pro features.\n\nWould you like to support Strongbox and take a look at some of the Upgrade options?";
+"upgrade_onboarding_free_trial_ending_soon_message" = "Бесплатная пробная версия Strongbox Pro закончится на следующей неделе, и некоторые функции приложения станут недоступными.\n\nХотите поддержать Strongbox и посмотреть варианты обновления?";
+
+/* Strongbox could not find a QR Code in this image. */
+"could_not_find_qr_code" = "Невозможно распознать QR код на этом изображении.";
+
+/* Scan QR Code with Camera */
+"scan_qr_code_from_camera" = "Сканировать QR код";
+
+/* Would you like to sync before exporting to ensure you have the latest version of your database? */
+"sync_before_export_question_yes_no" = "Хотите выполнить синхронизацию БД перед экспортом?";
+
+/* This database is already open. Please close it first if you would like to open it in a different mode. */
+"database_already_open_please_close" = "БД уже открыта. Пожалуйста, закройте её, если хотите открыть в другом режиме.";
+
+/* Offline - L10n note: this is an adjective, meaning the current database has been opened in Offline mode */
+"database_offline_mode_window_suffix" = "Офлайн";
