@@ -1,14 +1,12 @@
-
 # Strongbox Babel
 This is the repository for contributing to translation and localisation for Strongbox. Please read the CONTRIBUTIONS.md file before you contribute. 
 
-**Note**: It is no small task as there are upwards of 6,000 words in the project, so please only take this on if it something you feel you can do a good job on and bring to completion. I don't want to release a localised Strongbox which is only half way there, Thanks!
 # How to contribute for your Language
 If you'd like to have Strongbox translated into your language and are willing to do so under the terms of the MIT licence then please follow the steps below:
 
-1. Get in touch (support@strongboxsafe.com) or simply open an issue here and we can discuss.
+1. Get in touch (support@strongboxsafe.com).
 
-2. I will add you to the Crowd In system and you can begin translating
+2. We will add you to the CrowdIn system and you can begin translating
 
 3. If you come across any issues, or problems with existing contributions, or if you can't find a particular string then just create and issue here in this repository and hopefully we can resolve things quickly and amicably.
 
