@@ -471,7 +471,7 @@
 "casg_question_option_none" = "Отсутствие пароля";
 
 /* Empty Password or None? */
-"casg_question_title_empty_password" = "Пустой или отсутствующий пароль?";
+"casg_question_title_empty_password" = "Отсутствующий пароль";
 
 /* Rename Database */
 "casg_rename_database_action" = "Переименование";
@@ -588,7 +588,7 @@
 "item_details_password_history" = "История пароля";
 
 /* Problem Saving */
-"item_details_problem_saving" = "Проблема с сохранением";
+"item_details_problem_saving" = "Ошибка при сохранении";
 
 /*  (Read Only) */
 "item_details_read_only_suffix" = " (Режим для чтения)";
@@ -1012,7 +1012,7 @@
 "key_files_vc_select_title" = "Выбор файл-ключа";
 
 /* No Key Files Found. Tap '+' to import one. */
-"key_files_vc_empty_key_files_title" = "Файл-ключи не найдены.\nНажмите «+» для импорта.";
+"key_files_vc_empty_key_files_title" = "Файл-ключи не найдены.";
 
 /* One Time Key File Source */
 "key_files_vc_one_time_key_file_source_title" = "Выбор расположения";
@@ -2108,7 +2108,7 @@
 "key_files_vc_option_remove" = "Удалить";
 
 /* Import */
-"key_files_vc_option_import" = "Импортировать";
+"key_files_vc_option_import" = "Импорт";
 
 /* Decrypting... */
 "open_sequence_progress_decrypting" = "Расшифровка ...";
@@ -2215,7 +2215,7 @@
 "mac_db_reloading_after_external_changes_popup_notification" = "Перезагрузка после внешних изменений ...";
 
 /* Could Not Unlock Database */
-"mac_could_not_unlock_database" = "Не удалось разблокировать базу данных";
+"mac_could_not_unlock_database" = "Не удалось разблокировать БД";
 
 /* Touch ID Considerations\n\nWhile this is very convenient, it is not a perfect system for protecting your passwords. It is provided for convenience only. It is within the realm of possibilities that someone with access to your device or your fingerprint, can produce a good enough fake fingerprint to fool Apple’s Touch ID. In addition, on your Mac, your master password will be securely stored in the Keychain. This means it is possible for someone with administrative privileges to search your Keychain for your master password. You should be aware that a strong passphrase held only in your mind provides the most secure experience with StrongBox.\n\nPlease take all of this into account, and make your decision to use Touch ID based on your preferred balance of convenience and security. */
 "mac_touch_id_one_time_warning" = "Предупреждение Touch ID/Apple Watch\n\nНесмотря на удобство, это неидеальная система для защиты паролей. Не  исключайте возможность того, что кто-либо, имеющий доступ к Вашему устройству или отпечатку пальцев, может создать достаточно хорошую подделку для обхода Touch ID. Пароль будет надёжно сохранён в связке ключей на Вашем Mac. Это означает, что пользователь с административными правами сможет найти его. Поэтому для максимальной безопасности пароль лучше всегда помнить.\n\nПожалуйста, примите это во внимание и решите, является ли использование Touch ID целесообразным, основываясь на выборе между удобством и безопасностью.";
@@ -2233,7 +2233,7 @@
 "mac_change_master_credentials" = "Изменить мастер-ключ";
 
 /* Master Credentials Changed and Database Saved */
-"mac_master_credentials_changed_and_saved" = "Мастер-ключ изменён и база данных сохранена";
+"mac_master_credentials_changed_and_saved" = "Мастер-ключ изменён и БД сохранена";
 
 /* KeePass does not natively support the 'Email' field. Strongbox will add it instead as a custom field.\nDo you want to continue? */
 "mac_drag_drop_between_databases_keepass_email_field_not_supported" = "KeePass не поддерживает поле «Email» по умолчанию. Strongbox добавит его как настраиваемое поле. Хотите продолжить?";
@@ -2275,7 +2275,7 @@
 "mac_menu_item_delete_item" = "Удалить элемент";
 
 /* Choose CSV file to Import */
-"mac_choose_csv_file_import" = "Выберите CSV-файл для импорта";
+"mac_choose_csv_file_import" = "Выберите CSV файл для импорта";
 
 /* The CSV file must contain a header row with at least one of the following fields:\n\n[%@, %@, %@, %@, %@, %@]\n\nThe order of the fields doesn't matter. */
 
@@ -2772,7 +2772,7 @@
 "open_sequence_yubikey_only_available_in_pro" = "Разблокировка YubiKey доступна только в Pro версии";
 
 /* Disabled (Pro Edition Only) */
-"casg_yubikey_configured_disabled_pro_only" = "Отключен (Pro версия)";
+"casg_yubikey_configured_disabled_pro_only" = "Выключен (Pro версия)";
 
 /* YubiKey (Pro Edition Only) */
 "casg_section_header_yubikey_pro_only" = "YubiKey (Pro версия)";
@@ -2802,19 +2802,19 @@
 "mac_yubikey_slot_n_touch_required_fmt" = "YubiKey Слот %ld (Требуется касание)";
 
 /* YubiKey Slot %ld (Translators Note: This string takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_fmt" = "YubiKey слот %ld";
+"mac_yubikey_slot_n_fmt" = "YubiKey Слот %ld";
 
 /* No YubiKeys Found */
-"mac_no_yubikeys_found" = "Не найдено YubiKey";
+"mac_no_yubikeys_found" = "Ключи YubiKey не найдены.";
 
 /* YubiKey %@ Slot %ld (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
-"mac_yubikey_serial_number_slot_n_touch_required_fmt" = "YubiKey %@ слот %ld (Требуется касание)";
+"mac_yubikey_serial_number_slot_n_touch_required_fmt" = "YubiKey %@ Слот %ld (Требуется касание)";
 
 /* YubiKey %@ Slot %ld  - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2) */
-"mac_yubikey_serial_number_slot_n_fmt" = "YubiKey %@ слот %ld";
+"mac_yubikey_serial_number_slot_n_fmt" = "YubiKey %@ Слот %ld";
 
 /* YubiKey found but no compatible HMACSHA1 slots available */
-"mac_yubikey_available_but_no_compatible_slots" = "YubiKey найден, но нет доступных совместимых HMAC-SHA1 слотов";
+"mac_yubikey_available_but_no_compatible_slots" = "YubiKey найден, но нет доступных совместимых HMAC-SHA1 слотов.";
 
 "casg_yubikey_configured_mfi" = "Lightning";
 
@@ -2828,10 +2828,10 @@
 "password_generation_regenerate_ellipsis" = "Сгенерировать заново";
 
 /* Touch the key to read the OTP */
-"yubikey_touch_the_key_to_read_the_otp" = "Коснитесь ключа для чтения одноразового пароля";
+"yubikey_touch_the_key_to_read_the_otp" = "Коснитесь ключа для чтения OTP";
 
 /* Insert the key to read the OTP */
-"yubikey_insert_the_key_to_read_the_otp" = "Вставьте ключ для чтения одноразового пароля";
+"yubikey_insert_the_key_to_read_the_otp" = "Вставьте ключ для чтения OTP";
 
 /* Communicating with YubiKey... */
 "yubikey_communicating_with_key_ellipsis" = "Устанавливаю связь с YubiKey ...";
@@ -2843,7 +2843,7 @@
 "keepass_icon_set_classic" = "KeePass";
 
 /* SF Symbols (iOS 13+) */
-"keepass_icon_set_sf_symbols" = "SF-символы (iOS 13+)";
+"keepass_icon_set_sf_symbols" = "SF Символы (iOS 13+)";
 
 /* Translators Note: 1 parameter here to mention Biometric unlock, which depends on the device (will be either: 'Touch ID Unlock' or 'Face ID Unlock') */
 "upgrade_short_developer_message_fmt" = "Привет! Меня зовут Марк, и я разработчик Strongbox. Strongbox - условно-бесплатное приложение. Это означает, что есть бесплатная и Pro версии. Надеюсь, приложение Вам понравится и окажется действительно полезным в использовании.\n\nХотите расширить функционал приложения? Так Вы поможете независимому разработчику и сделаете возможным постоянное совершенствование Strongbox.\n\nВы также получите доступ к таким функциям Pro, как %@, код-пароли и значки сайтов!\n\nЯ с удовольствием работаю над этим приложением, и Ваша поддержка позволяет мне продолжать это делать.\n\nСпасибо!\nС уважением, Марк";
@@ -2936,13 +2936,13 @@
 "audit_quick_summary_no_password_set" = "Запись без пароля";
 
 /* Audit: Password is very common */
-"audit_quick_summary_very_common_password" = "Пароль является очень распространённым";
+"audit_quick_summary_very_common_password" = "Распространённый пароль";
 
 /* Audit: Password is duplicated in another entry */
-"audit_quick_summary_duplicated_password" = "Пароль повторяется в другой записи";
+"audit_quick_summary_duplicated_password" = "Повторяющийся пароль";
 
 /* Audit: Password is similar to one in another entry. */
-"audit_quick_summary_password_is_similar_to_another" = "Пароль похож на один из другой записи";
+"audit_quick_summary_password_is_similar_to_another" = "Схожий пароль";
 
 /* Password is Pwned (HIBP) */
 "audit_quick_summary_pwned" = "Пароль скомпрометирован";
@@ -2984,13 +2984,13 @@
 "audit_quick_summary_very_brief_no_password_set" = "Без пароля";
 
 /* Weak/Common - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
-"audit_quick_summary_very_brief_very_common_password" = "Распростр.";
+"audit_quick_summary_very_brief_very_common_password" = "Распространённый";
 
 /* Duplicated - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
-"audit_quick_summary_very_brief_duplicated_password" = "Повторный";
+"audit_quick_summary_very_brief_duplicated_password" = "Повторяющийся";
 
 /* Similar - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
-"audit_quick_summary_very_brief_password_is_similar_to_another" = "Похожий";
+"audit_quick_summary_very_brief_password_is_similar_to_another" = "Схожий";
 
 /* Short - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
 "audit_quick_summary_very_brief_password_is_too_short" = "Короткий";
@@ -3392,19 +3392,19 @@
 "yubikey_config_section_header_nfc_pro_only" = "NFC YubiKey (Pro версия)";
 
 /* NFC YubiKey (NFC Not Supported on Device) */
-"yubikey_config_section_header_nfc_device_not_supported" = "NFC Yubikey (Не поддерживается устройством)";
+"yubikey_config_section_header_nfc_device_not_supported" = "NFC YubiKey (NFC не поддерживается устройством)";
 
 /* NFC YubiKey (AutoFill Mode - NFC Unavailable) */
-"yubikey_config_section_header_nfc_autofill_unavailable" = "NFC Yubikey (Недоступен при автозаполнении)";
+"yubikey_config_section_header_nfc_autofill_unavailable" = "NFC YubiKey (NFC недоступен при автозаполнении)";
 
 /* Lightning YubiKey (Pro Edition Only) */
-"yubikey_config_section_header_lightning_pro_only" = "Lightning Yubikey (Pro версия)";
+"yubikey_config_section_header_lightning_pro_only" = "Lightning YubiKey (Pro версия)";
 
 /* Lightning YubiKey (Lightning Not Supported on Device) */
-"yubikey_config_section_header_lightning_device_not_supported" = "Lightning Yubikey (Не поддерживается устройством)";
+"yubikey_config_section_header_lightning_device_not_supported" = "Lightning YubiKey (Lightning не поддерживается устройством)";
 
 /* Lightning YubiKey (AutoFill Mode - Lightning Unavailable) */
-"yubikey_config_section_header_lightning_autofill_unavailable" = "Lightning Yubikey (Недоступен при автозаполнении)";
+"yubikey_config_section_header_lightning_autofill_unavailable" = "Lightning YubiKey (Lightning недоступен при автозаполнении)";
 
 /* Are you sure you want to delete this Virtual Hardware Key? */
 "yubikey_config_are_you_sure_delete" = "Вы хотите удалить виртуальный аппаратный ключ?";
@@ -4419,10 +4419,10 @@
 "set_icon_vc_prompt_rescale_image_message_fmt2" = "Слишком  большой размер изображения (%@ x %@). Хотите изменить его масштаб до максимального в %@ пикселей (уменьшение размера файла примерно - %@)?";
 
 /* YubiKey %@ Slot %@ (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
-"mac_yubikey_serial_number_slot_n_touch_required_fmt2" = "YubiKey %@ слот %@ (Требуется касание)";
+"mac_yubikey_serial_number_slot_n_touch_required_fmt2" = "YubiKey %@ Слот %@ (Требуется касание)";
 
 /* YubiKey %@ Slot %@  - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2) */
-"mac_yubikey_serial_number_slot_n_fmt2" = "YubiKey %@ слот %@";
+"mac_yubikey_serial_number_slot_n_fmt2" = "YubiKey %@ Слот %@";
 
 /* Backup %@ (%@) - Translators Note: 1st Param is a number/integer, second parameter is the modified date, so e.g. 'Backup 4 (11 Nov 2020)'*/
 "backups_backup_title_fmt2" = "Резервная копия - %@ (%@)";
