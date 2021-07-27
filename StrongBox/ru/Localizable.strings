@@ -1271,7 +1271,7 @@
 "custom_field_vc_validation_name_not_empty_error" = "Название не может быть пустым";
 
 /* Name cannot be one of the reserved KeePass Field names */
-"custom_field_vc_validation_name_not_reserved_error" = "Название не может быть идентичным зарезервированным названиям полей KeePass.";
+"custom_field_vc_validation_name_not_reserved_error" = "Название не может совпадать с зарезервированными названиями полей KeePass.";
 
 /* This key is already in use by another custom field. */
 "custom_field_vc_validation_name_already_in_use_error" = "Название уже используется другим полем.";
@@ -2239,7 +2239,7 @@
 "mac_drag_drop_between_databases_keepass_email_field_not_supported" = "KeePass не поддерживает поле «Email» по умолчанию. Strongbox добавит его как настраиваемое поле. Хотите продолжить?";
 
 /* KeePass 1 does not support entries at the root level, these will be discarded. KeePass 1 also does not natively support the 'Email' field. Strongbox will append it instead to the end of the 'Notes' field.\nDo you want to continue? */
-"mac_keepass1_does_not_support_root_entries" = "KeePass 1 не поддерживает записи на корневом уровне, они будут удалены. KeePass 1 также не поддерживает поле «Email». Strongbox добавит его вместо этого в конце поля «Заметки».\nХотите продолжить?";
+"mac_keepass1_does_not_support_root_entries" = "KeePass 1 не поддерживает записи на корневом уровне, они будут удалены. Также не поддерживается поле «Email». Strongbox добавит его вместо этого в конце поля «Заметки».\nХотите продолжить?";
 
 /* The Password Safe format does not support icons, attachments or custom fields. If you continue, these fields will not be copied to this database.\nDo you want to continue without these fields? */
 "mac_password_safe_fmt_does_not_support_icons_attachments_warning" = "Формат Password Safe не поддерживает значки, вложения или настраиваемые поля. Если Вы продолжите, то поля не будут скопированы в БД.\nХотите продолжить без этих полей?";
@@ -3530,7 +3530,7 @@
 "properties_vc_header_statistics" = "Статистика";
 
 /* Database KeePass XML Copied to Clipboard */
-"export_vc_message_xml_copied" = "KeePass XML скопирован в буфер обмена";
+"export_vc_message_xml_copied" = "Файл БД в формате XML скопирован в буфер обмена";
 
 /* Latin-1 Supplement */
 "pwgen_casing_latin1_supplement" = "Дополнение к Latin-1";
