@@ -507,7 +507,7 @@
 "db_management_biometric_unlock_fmt_pro_only" = "%@ (Pro версия)";
 
 /* Change Master Credentials */
-"db_management_change_master_credentials" = "Изменение мастер-ключа";
+"db_management_change_master_credentials" = "Мастер-ключ";
 
 /* Change Master Password */
 "db_management_change_master_password" = "Изменить пароль";
@@ -702,7 +702,7 @@
 "prefs_vc_enable_biometric_fmt" = "Использование %@";
 
 /* Please find Strongbox in the App Store and you can write a review there. Much appreciated!\n-Mark */
-"prefs_vc_info_cannot_open_app_store_message" = "Пожалуйста, оставьте отзыв о приложении Strongbox в App Store. Буду Вам очень признателен!\n\nС уважением, Марк";
+"prefs_vc_info_cannot_open_app_store_message" = "Пожалуйста, оставьте отзыв о приложении в App Store. Буду Вам очень признателен!\n\nС уважением, Марк";
 
 /* Cannot open App Store */
 "prefs_vc_info_cannot_open_app_store_title" = "Невозможно открыть App Store";
@@ -810,7 +810,7 @@
 "upgrade_vc_price_not_available_try_later" = "Пожалуйста, повторите попытку позже";
 
 /* Momentarily Unavailable */
-"upgrade_vc_price_not_currently_available" = "Недоступно ... Проверьте сетевое соединение";
+"upgrade_vc_price_not_currently_available" = "Недоступно ... Проверьте подключение к сети";
 
 /* %@/month */
 "upgrade_vc_price_per_month_fmt" = "%@ в месяц";
@@ -982,7 +982,7 @@
 "pins_config_vc_turn_pin_off_warning" = "Выключение код-пароля для БД очистит главный пароль и Вам придется вводить его заново. Хотите продолжить?";
 
 /* Are you sure you want to turn off the PIN for this database? */
-"pins_config_vc_turn_pin_off_confirm" = "Вы хотите выключить код-пароль для БД?";
+"pins_config_vc_turn_pin_off_confirm" = "Вы хотите выключить код-пароль для этой БД?";
 
 /* Turn off PIN? */
 "pins_config_vc_turn_pin_off_prompt_title" = "Выключение код-пароля";
@@ -1271,7 +1271,7 @@
 "custom_field_vc_validation_name_not_empty_error" = "Название не может быть пустым";
 
 /* Name cannot be one of the reserved KeePass Field names */
-"custom_field_vc_validation_name_not_reserved_error" = "Название не может быть идентичным зарезервированному названию полей KeePass.";
+"custom_field_vc_validation_name_not_reserved_error" = "Название не может совпадать с зарезервированными названиями полей KeePass.";
 
 /* This key is already in use by another custom field. */
 "custom_field_vc_validation_name_already_in_use_error" = "Название уже используется другим полем.";
@@ -1367,7 +1367,7 @@
 "open_sequence_error_reading_key_file" = "Не удалось открыть файл-ключ. Откройте Файл-ключи в настройках и проверьте данные.";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc, 2nd param is the date/time of the last cache) */
-"open_sequence_user_looks_offline_open_offline_instead_fmt" = "Отсутствует подключения к сети и хранилище %@ недоступно. Хотите использовать доступный только для чтения кэш БД?\n\nДата кэша: %@";
+"open_sequence_user_looks_offline_open_offline_instead_fmt" = "Отсутствует подключение к сети и хранилище %@ недоступно. Хотите использовать доступный только для чтения кэш БД?\n\nДата кэша: %@";
 
 /* No, Try to connect anyway */
 "open_sequence_yesno_use_offline_cache_no_try_connect_option" = "Попробовать подключиться";
@@ -1830,7 +1830,7 @@
 "open_sequence_biometric_unlock_preferences_message" = "Идентифицируйтесь, чтобы открыть настройки";
 
 /* Message to display when device is offline and has no IP address in Local HTTP Transfer - Select Storage -> Transfer over Local Network */
-"transfer_local_network_network_unavailable_message" = "Нет подключения к локальной сети";
+"transfer_local_network_network_unavailable_message" = "Отсутствует подключение к локальной сети";
 
 /* Title of info dialog about Apple Family Sharing upgrade */
 "upgrade_family_sharing_info_title" = "Семейный доступ Apple";
@@ -2239,7 +2239,7 @@
 "mac_drag_drop_between_databases_keepass_email_field_not_supported" = "KeePass не поддерживает поле «Email» по умолчанию. Strongbox добавит его как настраиваемое поле. Хотите продолжить?";
 
 /* KeePass 1 does not support entries at the root level, these will be discarded. KeePass 1 also does not natively support the 'Email' field. Strongbox will append it instead to the end of the 'Notes' field.\nDo you want to continue? */
-"mac_keepass1_does_not_support_root_entries" = "KeePass 1 не поддерживает записи на корневом уровне, они будут удалены. KeePass 1 также не поддерживает поле «Email». Strongbox добавит его вместо этого в конце поля «Заметки».\nХотите продолжить?";
+"mac_keepass1_does_not_support_root_entries" = "KeePass 1 не поддерживает записи на корневом уровне, они будут удалены. Также не поддерживается поле «Email». Strongbox добавит его вместо этого в конце поля «Заметки».\nХотите продолжить?";
 
 /* The Password Safe format does not support icons, attachments or custom fields. If you continue, these fields will not be copied to this database.\nDo you want to continue without these fields? */
 "mac_password_safe_fmt_does_not_support_icons_attachments_warning" = "Формат Password Safe не поддерживает значки, вложения или настраиваемые поля. Если Вы продолжите, то поля не будут скопированы в БД.\nХотите продолжить без этих полей?";
@@ -2508,7 +2508,7 @@
 "mac_upgrade_button_title" = "Обновить до Pro";
 
 /* Upgrade Momentarily Unavailable\nPlease Check Your Connection and Try Again Later */
-"mac_upgrade_momentarily_unavailble" = "Обновление до Pro версии на данный момент недоступно. Проверьте соединение и повторите попытку позже.";
+"mac_upgrade_momentarily_unavailble" = "Обновление до Pro версии на данный момент недоступно. Проверьте подключение к сети и повторите попытку позже.";
 
 /* Restore Momentarily Unavailable */
 "mac_restore_momentarily_unavailble" = "Восстановление в данный момент недоступно";
@@ -2999,7 +2999,7 @@
 "audit_quick_summary_very_brief_password_is_pwned" = "Взломан";
 
 /* Audit: Password is too short. */
-"audit_quick_summary_password_is_too_short" = "Аудит: пароль слишком короткий";
+"audit_quick_summary_password_is_too_short" = "Пароль слишком короткий";
 
 /* Found %@ issues in %@ entries - Translators note, both parameters are numbers, e.g. 24 issues found in 12 entries */
 "audit_status_fmt" = "Найдено %@ проблем в %@ записях";
@@ -3224,7 +3224,7 @@
 "database_format_keepass1" = "KeePass 1";
 
 /* KeePass 2 (Legacy) */
-"database_format_keepass2_kdbx3_1" = "KeePass 2 (устаревший)";
+"database_format_keepass2_kdbx3_1" = "KeePass 2 (Устаревший)";
 
 /* KeePass 2 */
 "database_format_keepass2_kdbx4" = "KeePass 2";
@@ -3530,7 +3530,7 @@
 "properties_vc_header_statistics" = "Статистика";
 
 /* Database KeePass XML Copied to Clipboard */
-"export_vc_message_xml_copied" = "KeePass XML скопирован в буфер обмена";
+"export_vc_message_xml_copied" = "Файл БД в формате XML скопирован в буфер обмена";
 
 /* Latin-1 Supplement */
 "pwgen_casing_latin1_supplement" = "Дополнение к Latin-1";
@@ -3848,7 +3848,7 @@
 "browse_prefs_view_as_ellipsis" = "Просмотр";
 
 /* Database PIN */
-"pin_entry_database_default_text" = "Код-пароль базы данных";
+"pin_entry_database_default_text" = "Код-пароль";
 
 /* App PIN */
 "pin_entry_app_default_text" = "Код-пароль приложения";
@@ -3917,10 +3917,10 @@
 "compare_merge_sync_possibly_required_message" = "Сихронизация, по крайней мере, одной из этих БД давно не выполнялась. Перейдите к экрану списка баз данных и смахните вниз.";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to open in offline mode instead? - Translators Note: 1st Parameter is the storage provider name like Google Drive or Dropbox */
-"open_sequence_user_looks_offline_open_local_fmt" = "Отсутствует подключения к сети и хранилище %@ недоступно. Хотите открыть БД офлайн?";
+"open_sequence_user_looks_offline_open_local_fmt" = "Отсутствует подключение к сети и хранилище %@ недоступно. Хотите открыть БД офлайн?";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use Strongbox's local copy in read-only mode instead? - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc */
-"open_sequence_user_looks_offline_open_local_ro_fmt" = "Отсутствует подключения к сети и хранилище %@ недоступно. Хотите  открыть БД офлайн?\n\n(*) В режиме для чтения. Офлайн редактирование доступно в Pro версии.";
+"open_sequence_user_looks_offline_open_local_ro_fmt" = "Отсутствует подключение к сети и хранилище %@ недоступно. Хотите открыть БД офлайн?\n\n(*) В режиме для чтения. Офлайн редактирование доступно в Pro версии.";
 
 /* Open Offline? */
 "open_sequence_yesno_use_local_copy_title" = "Открыть офлайн?";
@@ -3990,7 +3990,7 @@
 "storage_provider_status_authenticating" = "Аутентификация ...";
 
 /* Connecting... */
-"storage_provider_status_authenticating_connecting" = "Соединение ...";
+"storage_provider_status_authenticating_connecting" = "Подключение ...";
 
 /* Listing... */
 "storage_provider_status_authenticating_listing" = "Список ...";
@@ -4395,7 +4395,7 @@
 "generic_youre_all_set" = "Готово!";
 
 /* Next up, we'll take you to your regular Databases screen.\n\nFrom here, we'll help you add your first password database.\n\n❤️ The Strongbox Team ❤️ */
-"onboarding_welcome_to_strongbox_first_run_final_message" = "Далее мы перейдём к экрану списка баз данных.\n\nМы поможем вам добавить Вашу первую БД.\n\nС уважением, команда Strongbox";
+"onboarding_welcome_to_strongbox_first_run_final_message" = "Далее мы перейдём к экрану списка баз данных.\n\nМы поможем вам добавить Вашу первую БД.";
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 /* Fix the format string crashes that are possible when these are incorrectly localized */
@@ -4455,3 +4455,105 @@
 
 /* Offline - L10n note: this is an adjective, meaning the current database has been opened in Offline mode */
 "database_offline_mode_window_suffix" = "Офлайн";
+
+/* Destination Database */
+"export_items_select_destination_database_title" = "Экспорт в БД";
+
+/* Export Here */
+"export_items_select_destination_group_title" = "Экспорт в группу";
+
+/* Export Database */
+"generic_export_database" = "Экспорт";
+
+/* Export Item */
+"generic_export_item" = "Экспорт элемента";
+
+/* 1 item will be replaced in destination database '%@'. (L10n Note: 1st Param is the destination database name e.g. '1 item will be replaced in destination database 'Mark's Database'.') */
+"export_options_1_replaced_fmt" = "1 элемент будет заменён в БД %@.";
+
+/* %@ items will be exported with 1 item being replaced in destination database '%@'. (L10n Note: 1st Param is the number of items that will be exported and 2nd param is the destination database name) */
+"export_options_n_items_1_replaced_fmt" = "%@ элементов будет экспортировано.1 из них будет заменён в БД %@.";
+
+/* %@ items will be exported with %@ items being replaced in destination database '%@'. (L10n Note: 1st Param is the number of items that will be exported and 2nd param is the number of replacements. 3rd param is the destination database name */
+"export_options_n_items_n_replaced_fmt" = "%@ элементов будет экспортировано. %@ из них будут заменены в БД %@.";
+
+/* 1 item will be added to destination database '%@'. (L10n Note: 1st Param is the destination database name */
+"export_options_1_added_fmt" = "1 элемент будет добавлен в БД %@.";
+
+/* %@ items will be added to destination database '%@'. (L10n Note: 1st Param is the number of items that will be exported and 2nd param is the destination database name */
+"export_options_n_added_fmt" = "%@ элементов будет добавлено в БД %@.";
+
+/* Are you sure you want to replace the existing matching item(s) in the destination database? */
+"export_are_you_sure_replace" = "Хотите заменить существующие совпавшие элементы в целевой БД?";
+
+/* The 'Export Items' feature is part of the Pro feature set. Upgrade to enjoy! */
+"export_is_a_pro_feature_message" = "Функция «Экспорт элементов» доступна в Pro версии. Для её использования необходимо обновление.";
+
+/* Your selected items have now be exported to the destination database. */
+"export_vc_export_items_successful_message" = "Выбранные элементы экспортированы в целевую БД.";
+
+/* Export Failed */
+"export_vc_export_failed_title" = "Ошибка при экспорте";
+
+/* There was a problem exporting some or all of these items. The export has been cancelled. */
+"export_vc_export_items_failed_message" = "Произошла ошибка при экспорте элементов. Операция экспорта отменена.";
+
+/* Format Incompatibilities */
+"database_format_incompatibilities_title" = "Несовместимость формата";
+
+/* Determining Fast Unlock */
+"yubikey_fast_unlock_title" = "Быстрая разблокировка";
+
+/* Strongbox is determining the fastest way to unlock this database. You will be asked to scan your YubiKey once again. */
+"yubikey_fast_unlock_message" = "Приложение определяет самый быстрый способ разблокировки этой БД. Вам будет предложено проверить YubiKey ещё раз.";
+
+/* Title displayed in tableview when there are no SFTP or WebDAV connections setup */
+"empty_connections_list_tableview_title" = "Нет подключений";
+
+/* Please enter a valid name. */
+"connection_vc_name_invalid" = "Введите имя подключения.";
+
+/* Tap '+' to add a connection. */
+"tap_plus_to_add_a_connection_hint" = "Нажмите «+», чтобы добавить подключение";
+
+/* Select Connection */
+"select_webdav_or_sftp_connection" = "Выбор подключения";
+
+/* Slide left for options */
+"slide_left_for_options" = "Смахните влево для опций";
+
+/* Not used by any databases. */
+"not_used_by_any_databases" = "Не используется ни одной БД.";
+
+/* Used by '%@' - L10n note: 1st param is a database name e.g. 'Mark's Database' */
+"used_by_database_name_fmt" = "Используется %@";
+
+/* Used by '%@' and %@ more - L10n note: 1st param is a database name e.g. 'Mark's Database', 2nd param is a number/count of how many other databases are using this item */
+"used_by_database_name_and_n_more_fmt" = "Используется %@ и %@ ещё";
+
+/* SFTP Connection... */
+"generic_action_edit_sftp_connection_ellipsis" = "SFTP Connection...";
+
+/* WebDAV Connection... */
+"generic_action_edit_webdav_connection_ellipsis" = "WebDAV Connection...";
+
+/* Are you want to change the connection for this database? */
+"are_you_sure_change_connection" = "Are you sure you want to change the connection for this database?";
+
+/* Reselect SFTP File... */
+"reselect_sftp_file_ellipsis" = "Reselect SFTP File...";
+
+/* Reselect WebDAV File... */
+"reselect_webdav_file_ellipsis" = "Reselect WebDAV File...";
+
+/* Are you want to use this file for this database? */
+"are_you_sure_use_this_file_this_database" = "Are you want to use this file for this database?";
+
+/* Your private key or password is no longer available, probably because you've just migrated to a new device.\nPlease edit your connection to fix. */
+"password_unavailable_please_edit_connection_error" = "Your private key or password is no longer available, probably because you've just migrated to a new device.\nPlease edit your connection to fix.";
+
+/* Password Missing */
+"password_missing" = "Password missing";
+
+/* Private Key or Password missing */
+"pk_or_password_missing" = "Private Key or Password missing";

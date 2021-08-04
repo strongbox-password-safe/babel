@@ -1704,13 +1704,13 @@
 "safes_vc_action_reorder_database" = "Змінити порядок баз паролів";
 
 /* Tip displayed at top of screen. Slide left on Database for options */
-"safes_vc_tip" = "Порада: Проведіть вліво по базі паролів для параметрів";
+"safes_vc_tip" = "Порада: Посуньте вліво по базі паролів для параметрів";
 
 /* Tip: Tap to Copy, Double Tap to Copy Notes */
 "item_details_tip" = "Порада: Дотик для копії, Подвійний дотик для копіювання нотаток";
 
 /* Tip: Slide Left for Options or Tap to View */
-"keepass_history_tip" = "Порада: Проведіть вліво для параметрів або торкніться для перегляду";
+"keepass_history_tip" = "Порада: Посуньте вліво для параметрів або торкніться для перегляду";
 
 /* Pin */
 "browse_vc_action_pin" = "Прикріпити";
@@ -1866,7 +1866,7 @@
 "prefs_vc_info_email_support_options_mail_support" = "Підтримка Е-поштою (Лише англійською)";
 
 /* No comment provided by engineer. */
-"transfer_over_local_network_website_prologue" = "<p>Перетягуйте файли в це вікно або використайте кнопку \"Вивантажити файли&hellip;\" для додавання нових файлів. Якщо ці файли є дійсними базами паролів KeePass або Password Safe, їх буде автоматично додано до вашої колекції.</p><p>Примітка: Якщо ви хочете, щоб ці файли працювали з автозаповненням iOS, вам слід провести вліво на базі паролів у програмі й обрати 'Активувати автозаповнення'.</p>";
+"transfer_over_local_network_website_prologue" = "<p>Перетягуйте файли в це вікно або використайте кнопку \"Вивантажити файли&hellip;\" для додавання нових файлів. Якщо ці файли є дійсними базами паролів KeePass або Password Safe, їх буде автоматично додано до вашої колекції.</p><p>Примітка: Якщо ви хочете, щоб ці файли працювали з автозаповненням iOS, вам слід жестом посунути вліво на базі паролів у програмі й обрати 'Активувати автозаповнення'.</p>";
 
 /**********************************************************************************************************************/
 /* FUTURE: genericise... */
@@ -4455,3 +4455,105 @@
 
 /* Offline - L10n note: this is an adjective, meaning the current database has been opened in Offline mode */
 "database_offline_mode_window_suffix" = "Локально";
+
+/* Destination Database */
+"export_items_select_destination_database_title" = "База даних призначення";
+
+/* Export Here */
+"export_items_select_destination_group_title" = "Експортувати сюди";
+
+/* Export Database */
+"generic_export_database" = "Експорт бази паролів";
+
+/* Export Item */
+"generic_export_item" = "Експорт елемента";
+
+/* 1 item will be replaced in destination database '%@'. (L10n Note: 1st Param is the destination database name e.g. '1 item will be replaced in destination database 'Mark's Database'.') */
+"export_options_1_replaced_fmt" = "1 запис буде замінено в цільовій базі даних '%@'.";
+
+/* %@ items will be exported with 1 item being replaced in destination database '%@'. (L10n Note: 1st Param is the number of items that will be exported and 2nd param is the destination database name) */
+"export_options_n_items_1_replaced_fmt" = "%@ записів будуть експортовані з 1 записом, який замінюється в цільовій базі даних '%@'.";
+
+/* %@ items will be exported with %@ items being replaced in destination database '%@'. (L10n Note: 1st Param is the number of items that will be exported and 2nd param is the number of replacements. 3rd param is the destination database name */
+"export_options_n_items_n_replaced_fmt" = "%@ записів будуть експортовані з %@ записами, які замінюються в цільовій базі даних '%@'.";
+
+/* 1 item will be added to destination database '%@'. (L10n Note: 1st Param is the destination database name */
+"export_options_1_added_fmt" = "1 запис буде додано в цільовій базі даних '%@'.";
+
+/* %@ items will be added to destination database '%@'. (L10n Note: 1st Param is the number of items that will be exported and 2nd param is the destination database name */
+"export_options_n_added_fmt" = "%@ записів буде додано в цільовій базі даних '%@'.";
+
+/* Are you sure you want to replace the existing matching item(s) in the destination database? */
+"export_are_you_sure_replace" = "Ви дійсно хочете замінити наявні відповідні записи в цільовій базі даних?";
+
+/* The 'Export Items' feature is part of the Pro feature set. Upgrade to enjoy! */
+"export_is_a_pro_feature_message" = "Функція експорту записів є частиною набору функцій Pro. Придбайте передплату, щоб користуватися нею!";
+
+/* Your selected items have now be exported to the destination database. */
+"export_vc_export_items_successful_message" = "Ваші вибрані записи тепер експортовані до цільової бази даних.";
+
+/* Export Failed */
+"export_vc_export_failed_title" = "Не вдалося експортувати";
+
+/* There was a problem exporting some or all of these items. The export has been cancelled. */
+"export_vc_export_items_failed_message" = "Виникла проблема при експортуванні деяких або всіх записів. Експортування було скасовано.";
+
+/* Format Incompatibilities */
+"database_format_incompatibilities_title" = "Несумісність форматів";
+
+/* Determining Fast Unlock */
+"yubikey_fast_unlock_title" = "Визначення швидкого відмикання";
+
+/* Strongbox is determining the fastest way to unlock this database. You will be asked to scan your YubiKey once again. */
+"yubikey_fast_unlock_message" = "Strongbox визначає найшвидший спосіб відмикання цієї бази паролів. Вам буде запропоновано сканувати ваш YubiKey ще раз.";
+
+/* Title displayed in tableview when there are no SFTP or WebDAV connections setup */
+"empty_connections_list_tableview_title" = "Наразі немає з'єднань";
+
+/* Please enter a valid name. */
+"connection_vc_name_invalid" = "Введіть правильну назву.";
+
+/* Tap '+' to add a connection. */
+"tap_plus_to_add_a_connection_hint" = "Торкніться '+', щоб додати з'єднання.";
+
+/* Select Connection */
+"select_webdav_or_sftp_connection" = "Виберіть з'єднання";
+
+/* Slide left for options */
+"slide_left_for_options" = "Посуньте вліво для параметрів";
+
+/* Not used by any databases. */
+"not_used_by_any_databases" = "Не використовується в жодній базі даних.";
+
+/* Used by '%@' - L10n note: 1st param is a database name e.g. 'Mark's Database' */
+"used_by_database_name_fmt" = "Використовується в '%@'";
+
+/* Used by '%@' and %@ more - L10n note: 1st param is a database name e.g. 'Mark's Database', 2nd param is a number/count of how many other databases are using this item */
+"used_by_database_name_and_n_more_fmt" = "Використовується в '%@' та %@ інших";
+
+/* SFTP Connection... */
+"generic_action_edit_sftp_connection_ellipsis" = "SFTP Connection...";
+
+/* WebDAV Connection... */
+"generic_action_edit_webdav_connection_ellipsis" = "WebDAV Connection...";
+
+/* Are you want to change the connection for this database? */
+"are_you_sure_change_connection" = "Are you sure you want to change the connection for this database?";
+
+/* Reselect SFTP File... */
+"reselect_sftp_file_ellipsis" = "Reselect SFTP File...";
+
+/* Reselect WebDAV File... */
+"reselect_webdav_file_ellipsis" = "Reselect WebDAV File...";
+
+/* Are you want to use this file for this database? */
+"are_you_sure_use_this_file_this_database" = "Are you want to use this file for this database?";
+
+/* Your private key or password is no longer available, probably because you've just migrated to a new device.\nPlease edit your connection to fix. */
+"password_unavailable_please_edit_connection_error" = "Your private key or password is no longer available, probably because you've just migrated to a new device.\nPlease edit your connection to fix.";
+
+/* Password Missing */
+"password_missing" = "Password missing";
+
+/* Private Key or Password missing */
+"pk_or_password_missing" = "Private Key or Password missing";
