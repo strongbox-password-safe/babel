@@ -135,7 +135,7 @@
 "safesvc_icloud_no_longer_available_title" = "iCloud は使用できなくなりました";
 
 /* iCloud has become unavailable. Your iCloud databases remain stored in iCloud but they will no longer sync to or from this device though you may still access them here. */
-"safesvc_icloud_no_longer_available_message" = "iCloud has become unavailable. Your iCloud databases remain stored in iCloud but they will no longer sync to or from this device though you may still access them here.";
+"safesvc_icloud_no_longer_available_message" = "iCloud が使用できなくなりました。お使いの iCloud データベースは、引き続き iCloud に保存されます。しかし、ここではアクセスできたとしても、このデバイスとの間で同期することはできなくなります。";
 
 /* You can now use iCloud with Strongbox. Should your current local databases be migrated to iCloud and available on all your devices? (NB: Your existing cloud databases will not be affected) */
 "safesvc_migrate_local_existing" = "Strongbox で iCloud を使用できるようになりました。現在のローカルデータベースを iCloud に移行し、すべてのデバイスで使用できるようにしますか? (注意: 既存のクラウドデータベースには影響しません)";
@@ -171,7 +171,7 @@
 "safesvc_option_keep_local" = "ローカルで保管する";
 
 /* iCloud Switched Off */
-"safesvc_icloud_unavailable_title" = "iCloud Switched Off";
+"safesvc_icloud_unavailable_title" = "iCloud はオフです";
 
 /* What would you like to do with the databases currently on this device? */
 "safesvc_icloud_unavailable_question" = "現在このデバイスにあるデータベースはどうされますか？";
@@ -735,7 +735,7 @@
 "prefs_vc_use_icloud_action" = "iCloud を使う";
 
 /* iCloud (Disabled in System Settings) */
-"prefs_vc_use_icloud_disabled" = "iCloud (Disabled in System Settings)";
+"prefs_vc_use_icloud_disabled" = "iCloud (システム設定で無効化されている)";
 
 /* No Files or Folders Found */
 "sbtvc_empty_table_no_files_found" = "ファイルもフォルダーも見つかりませんでした";
@@ -2209,7 +2209,7 @@
 "mac_error_could_not_open_key_file" = "キーファイルを開けませんでした。";
 
 /* This database has been changed by another user or application. Would you like to reload the latest version? */
-"mac_db_changed_externally_reload_yes_or_no" = "This database has been changed by another user or application. Would you like to reload the latest version?";
+"mac_db_changed_externally_reload_yes_or_no" = "このデータベースは、他のユーザーかアプリケーションによって変更されています。最新版をリロードしますか？";
 
 /* Reloading after external changes... */
 "mac_db_reloading_after_external_changes_popup_notification" = "外部からの変更があり再読み込み中...";
@@ -2463,7 +2463,7 @@
 "mac_storage_provider_name_file" = "ファイルベース";
 
 /* There was a problem opening this file. */
-"mac_problem_opening_db" = "There was a problem opening this file.";
+"mac_problem_opening_db" = "このファイルを開く際に問題が発生しました。";
 
 /* Create New Password Database */
 "mac_create_new_database_title" = "新規パスワードデータベースの作成";
@@ -2948,10 +2948,10 @@
 "audit_quick_summary_pwned" = "パスワードが Pwned (HIBP) されています";
 
 /* Weak/Entropy */
-"audit_quick_summary_very_brief_low_entropy" = "Weak/Entropy";
+"audit_quick_summary_very_brief_low_entropy" = "弱い / エントロピー";
 
 /* Password is weak (low entropy) */
-"audit_quick_summary_password_low_entropy" = "Password is weak (low entropy)";
+"audit_quick_summary_password_low_entropy" = "パスワードが脆弱です (低エントロピー)";
 
 /* All Entries */
 "quick_view_title_all_entries_title" = "すべてのエントリー";
@@ -3059,7 +3059,7 @@
 "audit_hibp_warning_title" = "HIBP 免責事項";
 
 /* I understand that an anonymised portion of my password(s) will be sent over the web (HTTPS) to the 'Have I Been Pwned?' password checking service (using a secure k-anonymity technique) and that I fully consent to this functionality. I also absolve Strongbox, Mark McGuill and Phoebe Code Limited of all liability for using this feature. */
-"audit_hibp_warning_message" = "I understand that an anonymised portion of my password(s) will be sent over the web (HTTPS) to the 'Have I Been Pwned?' password checking service (using a secure k-anonymity technique) and that I fully consent to this functionality. I also absolve Strongbox, Mark McGuill and Phoebe Code Limited of all liability for using this feature.";
+"audit_hibp_warning_message" = "私は自分のパスワードの匿名化された箇所が (安全な K 匿名化手法により) ウェブ (HTTPS) を使ってパスワード侵害の確認サービス 'Have I Been Pwned?' に送られることを理解し、この機能が使用されることに完全に同意します。また、私は自分がこの機能を使用することに起因し得るすべての法的責任から、Strongbox、Mark McGuill 氏、および Phoebe Code Limited を免責いたします。";
 
 /* No, I don't want to use this feature */
 "audit_hibp_warning_no" = "いいえ、この機能は使用したくありません";
@@ -3314,7 +3314,7 @@
 "db_management_reopen_required_title" = "再度開く必要があります";
 
 /* Could Not Open Local Copy */
-"open_sequence_couldnt_open_local_title" = "Could Not Open Offline";
+"open_sequence_couldnt_open_local_title" = "オフラインで開けませんでした";
 
 /* Could not open Strongbox's local copy of this database. A online sync is required. */
 "open_sequence_couldnt_open_local_message" = "Strongbox 内にあるこのデータベースのローカルコピーを開けませんでした。オンラインでの同期が必要です。";
@@ -3323,7 +3323,7 @@
 "open_sequence_storage_provider_error_title" = "同期エラー";
 
 /* If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open in offline mode instead? */
-"open_sequence_storage_provider_error_open_local_ro_instead" = "If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open in offline mode instead?";
+"open_sequence_storage_provider_error_open_local_ro_instead" = "これが繰り返し発生する場合は、データベースを追加しなおすことをお奨めします。詳細は、デバッグ同期ログをご覧ください...\n\n代わりに、Strongbox のオフラインモードで使用しますか？";
 
 /* Local Copy Unavailable */
 "autofill_vc_item_subtitle_local_copy_unavailable" = "ローカルコピーは利用できません";
@@ -4341,7 +4341,7 @@
 "onboarding_ready_to_launch_message" = "You're all set to get the best out of Strongbox.\n\nDon't forget you can always tweak these settings at any time.";
 
 /* Scheduled Export */
-"onboarding_scheduled_export_title" = "Scheduled Export";
+"onboarding_scheduled_export_title" = "予定されたエクスポート";
 
 /* It's always a good idea to keep backups, especially external ones. Strongbox can remind you to export your database every so often.\n\nWould you like Strongbox to prompt you to export your database if it has been a while? */
 "onboarding_scheduled_export_message" = "It's always a good idea to keep backups, especially external ones. Strongbox can remind you to export your database every so often.\n\nWould you like Strongbox to prompt you to export your database if it has been a while?";
