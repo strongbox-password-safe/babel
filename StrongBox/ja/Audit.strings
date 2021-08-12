@@ -77,7 +77,7 @@
 "c4g-Lt-LFY.text" = "監査で見つかったすべての問題を表示";
 
 /* Class = "UILabel"; text = "Low Entropy Passwords"; ObjectID = "cZE-NH-6Gv"; */
-"cZE-NH-6Gv.text" = "Low Entropy Passwords";
+"cZE-NH-6Gv.text" = "低エントロピーパスワード";
 
 /* Class = "UITableViewSection"; footerTitle = "This is an online service that can check your passwords against known compromised passwords from hacker forums and 'pastes'. Compromised password hashes are securely cached by Strongbox to display audit warnings and reduce network traffic.\n\nCaveat: Your passwords are hashed (SHA1) and then using a system called k-anonymization, a short 5-byte prefix is sent to HIBP servers to check if compromised. You may or may not be comfortable with this. Use at your own discretion. You can read more about this system at https://haveibeenpwned.com"; ObjectID = "dPk-gM-4bf"; */
 "dPk-gM-4bf.footerTitle" = "これは、自分のパスワードをハッカーフォーラムや「ペースト」サイトに登録されている侵害されたパスワードと照合し、自分のパスワードが侵害されていないかどうかを確認できるオンラインサービスです。侵害されたパスワードはハッシュ化され、Strongbox で安全に保管されるため、監査による警告を表示し、ネットワークトラフィックを低減できるようになっています。\n\n注意: パスワードは SHA 1 ハッシュ関数を使ってハッシュ化されます。その後、K 匿名化と呼ばれるシステムを使い、5 バイトの短いプレフィックスが HIBP サーバーに送信され、パスワードが侵害されていないかどうかが確認されます。これに抵抗を感じる方もおられると思いますので、利用するかどうかはご自身の判断におまかせします。このシステムの詳細は、https://haveibeenpwned.com をご覧ください。";
@@ -95,7 +95,7 @@
 "hJk-QQ-I4O.text" = "類似性のしきい値";
 
 /* Class = "UILabel"; text = "Entropy Threshold"; ObjectID = "jQT-Me-JuJ"; */
-"jQT-Me-JuJ.text" = "Entropy Threshold";
+"jQT-Me-JuJ.text" = "エントロピーのしきい値";
 
 /* Class = "UILabel"; text = "Check Offline Pwned Cache"; ObjectID = "loP-Ow-ttH"; */
 "loP-Ow-ttH.text" = "侵害されたハッシュのローカルキャッシュをチェックしない";
@@ -110,10 +110,10 @@
 "r4c-ff-uct.text" = "8 個のエントリーに 12 個の問題が見つかりました";
 
 /* Class = "UITableViewSection"; footerTitle = "This check detects passwords that could be regarded as weak, because they do not contain enough complexity. This makes them vulnerable to brute force cracking techniques. This check is completely offline (no network access required)"; ObjectID = "s3w-oN-7UW"; */
-"s3w-oN-7UW.footerTitle" = "This check detects passwords that could be regarded as weak, because they do not contain enough complexity. This makes them vulnerable to brute force cracking techniques. This check is completely offline (no network access required)";
+"s3w-oN-7UW.footerTitle" = "このチェックは、複雑度が低いために弱いとみなされる可能性があるパスワードを検出します。該当するパスワードは、総当たり攻撃を使ったクラッキング手法の被害を受けやすくなります。このチェックは、完全オフラインで実行されます (ネットワークへのアクセスは不要)。";
 
 /* Class = "UITableViewSection"; headerTitle = "Weak (Low Entropy)"; ObjectID = "s3w-oN-7UW"; */
-"s3w-oN-7UW.headerTitle" = "Weak (Low Entropy)";
+"s3w-oN-7UW.headerTitle" = "弱い (低エントロピー)";
 
 /* Class = "UILabel"; text = "Minimum Length"; ObjectID = "skO-2d-vMa"; */
 "skO-2d-vMa.text" = "最小の長さ";

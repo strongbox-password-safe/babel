@@ -20,22 +20,22 @@
 "safes_vc_cached_date_time_fmt" = "キャッシュ最終取得日時: %@";
 
 /* Open ths database offline table action */
-"safes_vc_slide_left_open_offline_action" = "Open Offline";
+"safes_vc_slide_left_open_offline_action" = "オフラインで開く";
 
 /* Title of the 'More Actions' alert/action sheet */
 "safes_vc_database_actions_sheet_title" = "データベースアクション";
 
 /* Button Title to Unset Quick Launch */
-"safes_vc_action_unset_as_quick_launch" = "Unset Quick Launch";
+"safes_vc_action_unset_as_quick_launch" = "クイック起動を解除";
 
 /* Button Title to Set Quick Launch */
-"safes_vc_action_set_as_quick_launch" = "Set Quick Launch";
+"safes_vc_action_set_as_quick_launch" = "クイック起動を設定";
 
 /* Button Title to Show in Files */
-"safes_vc_show_in_files" = "Show in Files";
+"safes_vc_show_in_files" = "ファイルの表示";
 
 /* Button Title to Hide from Files */
-"safes_vc_make_autofillable" = "Hide in Files";
+"safes_vc_make_autofillable" = "ファイルを隠す";
 
 /* Title of Prompt about setting Quick Launch */
 "safes_vc_about_quick_launch_title" = "クイック起動について";
@@ -44,10 +44,10 @@
 "safes_vc_about_setting_quick_launch_and_confirm" = "このデータベースをクイック起動データベースとして設定すると、Strongbox を起動するとき、または再度有効にするときにこのデータベースのロックを解除するプロンプトが自動的に表示され、面倒なタップが 1 つ省かれます！\n\nクイック起動データベースとして設定しますか？";
 
 /* Button title to Show Database in iOS Files App */
-"safes_vc_show_database_in_files_info" = "Making this database visible in the Files App will also make the database available for access via Finder on your Mac.";
+"safes_vc_show_database_in_files_info" = "このデータベースをファイル・アプリケーションで表示すると、データベースを Mac上の Finder 経由でアクセスできるようになります。";
 
 /* Button title to Hide Database from the iOS Files App */
-"safes_vc_make_database_auto_fill_info" = "Hiding this database from the Files App also means it will no longer be visible via Finder on your Mac.";
+"safes_vc_make_database_auto_fill_info" = "このデータベースをファイル・アプリケーションから非表示にするということは、 Mac上で Finder を介して表示されなくなります。";
 
 /* OK/Cancel prompt title for changing local storage mode */
 "safes_vc_change_local_device_storage_mode_title" = "ファイルの可視性を変更";
@@ -123,7 +123,7 @@
 "safes_vc_new_database_advanced" = "新しいデータベース (高度)...";
 
 /* No comment provided by engineer. */
-"safes_vc_new_database_express" = "New Database (Express)...";
+"safes_vc_new_database_express" = "新規データベース (Express)...";
 
 /* No comment provided by engineer. */
 "safes_vc_error_pin_incorrect_title" = "PIN が正しくありません";
@@ -135,7 +135,7 @@
 "safesvc_icloud_no_longer_available_title" = "iCloud は使用できなくなりました";
 
 /* iCloud has become unavailable. Your iCloud databases remain stored in iCloud but they will no longer sync to or from this device though you may still access them here. */
-"safesvc_icloud_no_longer_available_message" = "iCloud has become unavailable. Your iCloud databases remain stored in iCloud but they will no longer sync to or from this device though you may still access them here.";
+"safesvc_icloud_no_longer_available_message" = "iCloud が使用できなくなりました。お使いの iCloud データベースは、引き続き iCloud に保存されます。しかし、ここではアクセスできたとしても、このデバイスとの間で同期することはできなくなります。";
 
 /* You can now use iCloud with Strongbox. Should your current local databases be migrated to iCloud and available on all your devices? (NB: Your existing cloud databases will not be affected) */
 "safesvc_migrate_local_existing" = "Strongbox で iCloud を使用できるようになりました。現在のローカルデータベースを iCloud に移行し、すべてのデバイスで使用できるようにしますか? (注意: 既存のクラウドデータベースには影響しません)";
@@ -171,7 +171,7 @@
 "safesvc_option_keep_local" = "ローカルで保管する";
 
 /* iCloud Switched Off */
-"safesvc_icloud_unavailable_title" = "iCloud Switched Off";
+"safesvc_icloud_unavailable_title" = "iCloud はオフです";
 
 /* What would you like to do with the databases currently on this device? */
 "safesvc_icloud_unavailable_question" = "現在このデバイスにあるデータベースはどうされますか？";
@@ -315,7 +315,7 @@
 "browse_prefs_view_as_flat_list" = "フラットリスト";
 
 /* Group Hierarchy */
-"browse_prefs_view_as_folders" = "Hierarchy";
+"browse_prefs_view_as_folders" = "階層";
 
 /* TOTP List */
 "browse_prefs_view_as_totp_list" = "TOTP リスト";
@@ -363,7 +363,7 @@
 "browse_vc_error_deleting" = "削除中にエラーが発生しました";
 
 /* There was a problem deleting at least one of these items. */
-"browse_vc_error_deleting_message" = "There was a problem deleting at least one of these items.";
+"browse_vc_error_deleting_message" = "これらのアイテムのうち少なくとも 1 つを削除している間にエラーが発生しました";
 
 /* Error Saving */
 "browse_vc_error_saving" = "保存中にエラーが発生しました";
@@ -735,7 +735,7 @@
 "prefs_vc_use_icloud_action" = "iCloud を使う";
 
 /* iCloud (Disabled in System Settings) */
-"prefs_vc_use_icloud_disabled" = "iCloud (Disabled in System Settings)";
+"prefs_vc_use_icloud_disabled" = "iCloud (システム設定で無効化されている)";
 
 /* No Files or Folders Found */
 "sbtvc_empty_table_no_files_found" = "ファイルもフォルダーも見つかりませんでした";
@@ -1389,7 +1389,7 @@
 "key_files_vc_no_key_file" = "キーファイルなし";
 
 /* The Convenience Password or Key File were incorrect for this database. Convenience Unlock Disabled. */
-"open_sequence_problem_opening_convenience_incorrect_message" = "The stored convenience password or other composite key factors (key file/YubiKey) were incorrect for this database. Convenience Unlock has been Disabled.";
+"open_sequence_problem_opening_convenience_incorrect_message" = "保存されているコンビニエンス・パスワード、又はその他の複合キー要素（キーファイル/YubiKey）は、このデータベースでは正しくありませんでした。 コンビニエンス・ロック解除が無効になりました。";
 
 /* Incorrect Credentials */
 "open_sequence_problem_opening_incorrect_credentials_title" = "不正な認識情報";
@@ -1701,7 +1701,7 @@
 "pwgen_salt_mode_suffix" = "サフィックス";
 
 /* Button Title to start reordering */
-"safes_vc_action_reorder_database" = "Reorder Databases";
+"safes_vc_action_reorder_database" = "データベースの並べ替え";
 
 /* Tip displayed at top of screen. Slide left on Database for options */
 "safes_vc_tip" = "ヒント: データベースの上で左にスライドするとオプションが表示されます";
@@ -1737,7 +1737,7 @@
 "database_metadata_field_compressed" = "圧縮";
 
 /* Database Format */
-"database_metadata_field_format" = "Database Format";
+"database_metadata_field_format" = "データベースのフォーマット";
 
 /* Database Generator */
 "database_metadata_field_generator" = "データベース生成プログラム";
@@ -1947,7 +1947,7 @@
 "generic_set" = "セット";
 
 /* Cancel */
-"generic_cancel" = "Cancel";
+"generic_cancel" = "キャンセル";
 
 /* Clear */
 "generic_clear" = "クリア";
@@ -2209,7 +2209,7 @@
 "mac_error_could_not_open_key_file" = "キーファイルを開けませんでした。";
 
 /* This database has been changed by another user or application. Would you like to reload the latest version? */
-"mac_db_changed_externally_reload_yes_or_no" = "This database has been changed by another user or application. Would you like to reload the latest version?";
+"mac_db_changed_externally_reload_yes_or_no" = "このデータベースは、他のユーザーかアプリケーションによって変更されています。最新版をリロードしますか？";
 
 /* Reloading after external changes... */
 "mac_db_reloading_after_external_changes_popup_notification" = "外部からの変更があり再読み込み中...";
@@ -2309,7 +2309,7 @@
 "mac_database_summary_number_of_entries" = "エントリー数";
 
 /* Number of Groups */
-"mac_database_summary_number_of_folders" = "Number of Groups";
+"mac_database_summary_number_of_folders" = "グループ数";
 
 /* This is a large image to use as an icon. Would you like to use a scaled down version to save %@? - Translators Note: 1st Parameter is how much space will be saved */
 "mac_large_image_as_icon_use_scaled_down_version_fmt" = "この画像はアイコンとして使うには大きすぎます。縮小したバージョンを使ってスペースを %@ 節約されてはいかがですか？";
@@ -2463,7 +2463,7 @@
 "mac_storage_provider_name_file" = "ファイルベース";
 
 /* There was a problem opening this file. */
-"mac_problem_opening_db" = "There was a problem opening this file.";
+"mac_problem_opening_db" = "このファイルを開く際に問題が発生しました。";
 
 /* Create New Password Database */
 "mac_create_new_database_title" = "新規パスワードデータベースの作成";
@@ -2619,7 +2619,7 @@
 "mac_keepass_icons" = "KeePass アイコン";
 
 /* Unlock Database */
-"mac_biometrics_identify_to_open_database" = "Unlock Database";
+"mac_biometrics_identify_to_open_database" = "データベースをアンロック";
 
 /* Biometrics is not available on this device! */
 "mac_biometrics_not_available" = "このデバイスでは生体認証を使用できません！";
@@ -2766,7 +2766,7 @@
 "casg_yubikey_configured_slot2" = "スロット 2";
 
 /* YubiKey Unlock is not supported in AutoFill mode */
-"open_sequence_cannot_use_yubikey_in_autofill_mode" = "Hardware Key Unlock is not supported in AutoFill mode due to system constraints. You can configure a Virtual Hardware Key instead.";
+"open_sequence_cannot_use_yubikey_in_autofill_mode" = "ハードウェアキーによるロック解除は、システムの制約によりオートフィルモードでは対応していません。代わりにバーチャルキーを設定してください。";
 
 /* YubiKey Unlock is only available in the Pro edition of Strongbox */
 "open_sequence_yubikey_only_available_in_pro" = "YubiKey ロック解除は、Strongbox のプロ版でのみ使用できる機能です";
@@ -2775,7 +2775,7 @@
 "casg_yubikey_configured_disabled_pro_only" = "無効 (プロ版限定)";
 
 /* YubiKey (Pro Edition Only) */
-"casg_section_header_yubikey_pro_only" = "YubiKey (Pro Edition Only)";
+"casg_section_header_yubikey_pro_only" = "Yubikey (プロ版限定)";
 
 /* Unknown (Translators Note: Used when generally when something can't be determined, e.g. The URL or file name of a database, or the type of storage provider used, or the format of a newly opened database etc.)*/
 "generic_unknown" = "不明";
@@ -2784,7 +2784,7 @@
 "mac_valid_credentials" = "有効な認証情報";
 
 /* Could not get challenge response from YubiKey */
-"mac_error_getting_challenge_response_yubikey" = "Could not get challenge response from YubiKey";
+"mac_error_getting_challenge_response_yubikey" = "Yubikey のチャレンジレスポンスが得られませんでした";
 
 /* Refreshing... (Translators Note: Used whenever running a fairly short operation to indicate somehting is happening, e.g. when polling YubiKey status (can take a few seconds)) */
 "generic_refreshing_ellipsis" = "更新中...";
@@ -2799,19 +2799,19 @@
 "mac_lock_screen_yubikey_popup_menu_yubico_pro_only" = "YubiKey (プロ限定)";
 
 /* YubiKey Slot %ld (Touch Required) - (Translators Note: Some YubiKey devices/configurations require the user to touch or press a button to authenticate. This string also takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_touch_required_fmt" = "YubiKey Slot %ld (Touch Required)";
+"mac_yubikey_slot_n_touch_required_fmt" = "Yubikey スロット %ld (タッチが必要)";
 
 /* YubiKey Slot %ld (Translators Note: This string takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_fmt" = "YubiKey Slot %ld";
+"mac_yubikey_slot_n_fmt" = "Yubikey スロット %ld";
 
 /* No YubiKeys Found */
 "mac_no_yubikeys_found" = "YubiKeys が見つかりません";
 
 /* YubiKey %@ Slot %ld (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
-"mac_yubikey_serial_number_slot_n_touch_required_fmt" = "YubiKey %@ Slot %ld (Touch Required)";
+"mac_yubikey_serial_number_slot_n_touch_required_fmt" = "Yubikey %@ スロット %ld (タッチが必要)";
 
 /* YubiKey %@ Slot %ld  - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2) */
-"mac_yubikey_serial_number_slot_n_fmt" = "YubiKey %@ Slot %ld";
+"mac_yubikey_serial_number_slot_n_fmt" = "Yubikey %@ スロット %ld";
 
 /* YubiKey found but no compatible HMACSHA1 slots available */
 "mac_yubikey_available_but_no_compatible_slots" = "YubiKey は見つかりましたが、互換性のある HMACSHA1 スロットがありません";
@@ -2867,19 +2867,19 @@
 "upgrade_question_answer_free_version_forever" = "もちろん、無料バージョンは無期限でご使用いただけます。それだけでも機能性は十分なのですが、Strongbox は便利で、使用する価値がある、インターネットを安全に使用できるようになったと感じられた方は、ぜひアップグレードすることをご検討下さい。";
 
 /* If you have other questions you might be able to find the answer online, e.g. by searching, or reddit (r/strongbox) or the web (https://strongboxsafe.com/support).\n\nNote that support queries eat up a lot of development time so please consider this and make your inquiry short and in English only. Please include debug information and screenshots. */
-"upgrade_question_answer_another_question" = "If you have other questions you might be able to find the answer online, e.g. by searching, or reddit (r/strongbox) or the web (https://strongboxsafe.com/support).\n\nNote that support queries eat up a lot of development time so please consider this and make your inquiry short and in English only. Please include debug information and screenshots.";
+"upgrade_question_answer_another_question" = "他のご質問は、インターネットで検索、または Reddit (r/strongbox) や当社ウェブサイト (https://strongboxsafe.com/support) 等をご覧いただければ、答えが見つかる場合がございます。\n\nどうしても答えが見つからない場合は、メールにて英語で support@strongboxsafe.com までお問い合わせください。サポートへのお問い合わせは、開発の時間を使って対応していますので、その点を考慮していただき、なるべく簡潔にしていただくようお願いします。";
 
 /* Yes, the upgrade is linked to your Apple ID. So if you are signed in to that Apple ID account on your other iOS devices Strongbox will be available in the full Pro version.\n\nThis should happen automatically but you may need to tap the 'Restore Previous Purchase' button if it doesn't. */
 "upgrade_question_answer_works_on_other_devices" = "はい、アップグレードはお使いの Apple ID にリンクされます。したがい、他の iOS デバイスを使用していても、同じ Apple ID にサインインしている限り、Strongbox の完全なプロバージョンをご使用いただけます。\n\n自動的にアクセスできるはずですが、そうでない場合は「過去の購入を復元する」ボタンをタップしていただくことが必要になる場合があります。";
 
 /* Yes, Strongbox works with Apple's Family Sharing program. */
-"upgrade_question_answer_share_family" = "Yes, Strongbox works with Apple's Family Sharing program.";
+"upgrade_question_answer_share_family" = "そう、 StrongboxはAppleのFamily Sharingプログラムと連携しています。";
 
 /* No, iOS and Mac are two separate platforms and Strongbox iOS and Mac are two very separate apps at the moment. */
-"upgrade_question_answer_works_on_mac" = "No, iOS and Mac are two separate platforms and Strongbox iOS and Mac are two very separate apps at the moment.";
+"upgrade_question_answer_works_on_mac" = "いいえ、iOSとMacは2つの別々のプラットフォームであり、Strongbox iOSとMacは別々のアプリです。";
 
 /* Please see the Strongbox website (https://strongboxsafe.com/business) for business licensing details. */
-"upgrade_question_answer_buy_company_licenses" = "Please see the Strongbox website (https://strongboxsafe.com/business) for business licensing details.";
+"upgrade_question_answer_buy_company_licenses" = "ビジネス・ライセンスの詳細については、 Strongbox Web サイト (https://strongboxsafe.com/business) をご覧ください。";
 
 /* A storage provider is in the process of writing. This is the status displayed on the progress dialog. In english:  Syncing... */
 "storage_provider_status_syncing" = "同期中...";
@@ -2912,7 +2912,7 @@
 "upgrade_vc_start_your_free_trial" = "90 日間のトライアル";
 
 /* Free Trial - No subscription or commitment required!" */
-"upgrade_vc_start_your_free_trial_subtitle" = "Try all Pro features (No subscription, uses a Free In-App Purchase to start)";
+"upgrade_vc_start_your_free_trial_subtitle" = "プロ版の全機能を試す (サブスクリプション不要。無料のアプリ内購入で始められます)";
 
 /* Free */
 "upgrade_vc_start_your_free_trial_price_free" = "無料";
@@ -2948,10 +2948,10 @@
 "audit_quick_summary_pwned" = "パスワードが Pwned (HIBP) されています";
 
 /* Weak/Entropy */
-"audit_quick_summary_very_brief_low_entropy" = "Weak/Entropy";
+"audit_quick_summary_very_brief_low_entropy" = "弱い / エントロピー";
 
 /* Password is weak (low entropy) */
-"audit_quick_summary_password_low_entropy" = "Password is weak (low entropy)";
+"audit_quick_summary_password_low_entropy" = "パスワードが脆弱です (低エントロピー)";
 
 /* All Entries */
 "quick_view_title_all_entries_title" = "すべてのエントリー";
@@ -3059,7 +3059,7 @@
 "audit_hibp_warning_title" = "HIBP 免責事項";
 
 /* I understand that an anonymised portion of my password(s) will be sent over the web (HTTPS) to the 'Have I Been Pwned?' password checking service (using a secure k-anonymity technique) and that I fully consent to this functionality. I also absolve Strongbox, Mark McGuill and Phoebe Code Limited of all liability for using this feature. */
-"audit_hibp_warning_message" = "I understand that an anonymised portion of my password(s) will be sent over the web (HTTPS) to the 'Have I Been Pwned?' password checking service (using a secure k-anonymity technique) and that I fully consent to this functionality. I also absolve Strongbox, Mark McGuill and Phoebe Code Limited of all liability for using this feature.";
+"audit_hibp_warning_message" = "私は自分のパスワードの匿名化された箇所が (安全な K 匿名化手法により) ウェブ (HTTPS) を使ってパスワード侵害の確認サービス 'Have I Been Pwned?' に送られることを理解し、この機能が使用されることに完全に同意します。また、私は自分がこの機能を使用することに起因し得るすべての法的責任から、Strongbox、Mark McGuill 氏、および Phoebe Code Limited を免責いたします。";
 
 /* No, I don't want to use this feature */
 "audit_hibp_warning_no" = "いいえ、この機能は使用したくありません";
@@ -3272,7 +3272,7 @@
 "backup_settings_prompt_no_dont_backup_anything" = "いいえ、何もバックアップしません";
 
 /* View Sync Status */
-"safes_vc_action_view_sync_status" = "View Sync Log";
+"safes_vc_action_view_sync_status" = "同期ログを表示";
 
 /* Please send this crash report to support@strongboxsafe.com */
 "safes_vc_please_send_crash_report" = "このクラッシュレポートを support@strongboxsafe.com までお送りください";
@@ -3314,7 +3314,7 @@
 "db_management_reopen_required_title" = "再度開く必要があります";
 
 /* Could Not Open Local Copy */
-"open_sequence_couldnt_open_local_title" = "Could Not Open Offline";
+"open_sequence_couldnt_open_local_title" = "オフラインで開けませんでした";
 
 /* Could not open Strongbox's local copy of this database. A online sync is required. */
 "open_sequence_couldnt_open_local_message" = "Strongbox 内にあるこのデータベースのローカルコピーを開けませんでした。オンラインでの同期が必要です。";
@@ -3323,7 +3323,7 @@
 "open_sequence_storage_provider_error_title" = "同期エラー";
 
 /* If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open in offline mode instead? */
-"open_sequence_storage_provider_error_open_local_ro_instead" = "If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open in offline mode instead?";
+"open_sequence_storage_provider_error_open_local_ro_instead" = "これが繰り返し発生する場合は、データベースを追加しなおすことをお奨めします。詳細は、デバッグ同期ログをご覧ください...\n\n代わりに、Strongbox のオフラインモードで使用しますか？";
 
 /* Local Copy Unavailable */
 "autofill_vc_item_subtitle_local_copy_unavailable" = "ローカルコピーは利用できません";
@@ -3389,43 +3389,43 @@
 "webdav_vc_validation_url_maybe_invalid" = "URL が無効な可能性があります";
 
 /* NFC YubiKey (Pro Edition Only) */
-"yubikey_config_section_header_nfc_pro_only" = "NFC YubiKey (Pro Edition Only)";
+"yubikey_config_section_header_nfc_pro_only" = "NFC Yubikey (プロ版限定)";
 
 /* NFC YubiKey (NFC Not Supported on Device) */
-"yubikey_config_section_header_nfc_device_not_supported" = "NFC YubiKey (NFC Not Supported on Device)";
+"yubikey_config_section_header_nfc_device_not_supported" = "NFC Yubikey (NFCはこのデバイスでは対応していません)";
 
 /* NFC YubiKey (AutoFill Mode - NFC Unavailable) */
-"yubikey_config_section_header_nfc_autofill_unavailable" = "NFC YubiKey (NFC Unavailable in AutoFill)";
+"yubikey_config_section_header_nfc_autofill_unavailable" = "NFC Yubikey (NFC はオートフィルモードで使用できません)";
 
 /* Lightning YubiKey (Pro Edition Only) */
-"yubikey_config_section_header_lightning_pro_only" = "Lightning YubiKey (Pro Edition Only)";
+"yubikey_config_section_header_lightning_pro_only" = "Lightning Yubikey (プロ版限定)";
 
 /* Lightning YubiKey (Lightning Not Supported on Device) */
-"yubikey_config_section_header_lightning_device_not_supported" = "Lightning YubiKey (Lightning Not Supported on Device)";
+"yubikey_config_section_header_lightning_device_not_supported" = "Lightning YubiKey ( このデバイスではLightningは対応していません。)";
 
 /* Lightning YubiKey (AutoFill Mode - Lightning Unavailable) */
-"yubikey_config_section_header_lightning_autofill_unavailable" = "Lightning YubiKey (Lightning Unavailable in AutoFill)";
+"yubikey_config_section_header_lightning_autofill_unavailable" = "Lightning YubiKey (AutoFillではLightningは使用できません)";
 
 /* Are you sure you want to delete this Virtual Hardware Key? */
-"yubikey_config_are_you_sure_delete" = "Are you sure you want to delete this Virtual Hardware Key?";
+"yubikey_config_are_you_sure_delete" = "この仮想ハードウェアキーを削除しますか？";
 
 /* %@ (AutoFill Only) - Translator's note, the 1st parameter is the name of the virtual hardware key, e.g. Mark's Virtual Hardware Key - This string indicates that that key can only be used in AutoFill mode only, not regualr App mode */
 "yubikeys_virtual_autofill_only" = "%@ (オートフィルのみ)";
 
 /* Virtual Hardware Key */
-"casg_yubikey_configured_virtual" = "Virtual Hardware Key";
+"casg_yubikey_configured_virtual" = "仮想ハードウェアキー";
 
 /* Manual Unlock - Translators Note: This is an option available to users of Face/Touch ID or PIN Code Unlock - Instead of using these convenience unlock methods, display the manual entry standard unlock screen to enter Master Password manually */
-"safes_vc_unlock_manual_action" = "Manual Unlock";
+"safes_vc_unlock_manual_action" = "手動でロック解除";
 
 /* TIP: Tap and hold item to see options - Translators Note: Hint or Tip text usually displayed at the top of the screen, to indicate the user can or should tap and hold down to see a useful context menu with options they can perform on the items they are currently working with. */
-"hint_tap_and_hold_to_see_options" = "Tip: Tap and hold to see options";
+"hint_tap_and_hold_to_see_options" = "ヒント: オプションを表示するにはタップ アンド ホールドする";
 
 /* Launch URL & Copy */
 "browse_action_launch_url_copy_password" = "URL を起動してパスワードをコピー";
 
 /* Copy Other Field... */
-"browse_context_menu_copy_other_field" = "Copy Field...";
+"browse_context_menu_copy_other_field" = "フィールドのコピー...";
 
 /* Move - Translators Note: Verb - To move something e.g. an entry or group somewhere else in the hierarchy */
 "generic_move" = "移動";
@@ -3434,547 +3434,547 @@
 "browse_context_menu_new_entry" = "新しいエントリー";
 
 /* New Group Translators Note: Menu option to add a new group */
-"browse_context_menu_new_group" = "New Group";
+"browse_context_menu_new_group" = "新しいグループ";
 
 /* Select Translators Note: Verb to select an item in Browse view - it will have a select beside it */
-"generic_select" = "Select";
+"generic_select" = "選ぶ";
 
 /* Start with Search - Translators Note: Option to start with the search field focused immediately upon unlock */
-"browse_context_menu_start_with_search" = "検索から始める";
+"browse_context_menu_start_with_search" = "検索から開始";
 
 /* Sort - Translators Note: Verb - to sort items by title or other field */
-"generic_sort" = "Sort";
+"generic_sort" = "並び替え";
 
 /* Customize View */
-"browse_context_menu_customize_view" = "Customize View";
+"browse_context_menu_customize_view" = "カスタムビュー";
 
 /* Database Settings */
-"browse_context_menu_database_settings" = "Database Settings";
+"browse_context_menu_database_settings" = "データベース設定";
 
 /* Set Master Credentials */
 "browse_context_menu_set_master_credentials" = "マスター認証情報の設定";
 
 /* Show Password - Translators Note: On Browse screen - context menu item - This option will display the password in a large full screen font for easy reading with a QR Code */
-"browse_context_menu_show_password" = "Show Password";
+"browse_context_menu_show_password" = "パスワードを表示";
 
 /* Read Only */
 "databases_toggle_read_only_context_menu" = "読み取り専用";
 
 /* Quick Launch */
-"databases_toggle_quick_launch_context_menu" = "Quick Launch";
+"databases_toggle_quick_launch_context_menu" = "クイック起動";
 
 /* Properties */
-"browse_vc_action_properties" = "Properties";
+"browse_vc_action_properties" = "プロパティ";
 
 /* Find */
 "browse_vc_action_keyboard_shortcut_find" = "検索";
 
 /* Custom Data */
-"properties_vc_header_custom_data" = "Custom Data";
+"properties_vc_header_custom_data" = "カスタムデータ";
 
 /* Custom Data used by plugins and various other applications. */
-"properties_vc_footer_custom_data" = "Custom Data used by plugins and various other applications.";
+"properties_vc_footer_custom_data" = "プラグインおよびその他のさまざまなアプリケーションによって使用されるカスタム・データ。";
 
 /* Properties */
-"properties_vc_header_basic" = "Properties";
+"properties_vc_header_basic" = "プロパティ";
 
 /* Some simple properties and settings of this item. */
-"properties_vc_footer_basic" = "Some simple properties and settings of this item.";
+"properties_vc_footer_basic" = "この項目のいくつかの簡単なプロパティと設定。";
 
 /* Group Notes */
-"properties_vc_header_group_notes" = "Group Notes";
+"properties_vc_header_group_notes" = "グループメモ";
 
 /* Notes set on this group. */
-"properties_vc_footer_group_notes" = "Notes set on this group.";
+"properties_vc_footer_group_notes" = "このグループに設定されているメモ。";
 
 /* Dates */
-"properties_vc_header_dates" = "Dates";
+"properties_vc_header_dates" = "日付";
 
 /* Allow Search */
-"item_properties_allow_search" = "Allow Search";
+"item_properties_allow_search" = "検索を許可";
 
 /* Allow AutoType */
-"item_properties_allow_autotype" = "Allow AutoType";
+"item_properties_allow_autotype" = "自動入力を許可";
 
 /* Default Auto Type Sequence */
-"item_properties_default_autotype_sequence" = "Default Auto Type Sequence";
+"item_properties_default_autotype_sequence" = "デフォルトの自動入力手順";
 
 /* Last Top Visible Entry */
-"item_properties_last_top_visible_entry" = "Last Top Visible Entry";
+"item_properties_last_top_visible_entry" = "最後のトップに表示される項目";
 
 /* Inherited from Parent */
-"generic_setting_is_inherited_from_parent" = "Inherited from Parent";
+"generic_setting_is_inherited_from_parent" = "親から継承";
 
 /* Copy & Launch */
-"browse_prefs_tap_action_copy_and_launch" = "Copy & Launch";
+"browse_prefs_tap_action_copy_and_launch" = "コピーして起動";
 
 /* Foreground Color */
-"item_properties_foreground_color" = "Foreground Color";
+"item_properties_foreground_color" = "前景色";
 
 /* Background Color */
-"item_properties_background_color" = "Background Color";
+"item_properties_background_color" = "背景色";
 
 /* Override URL */
-"item_properties_override_url" = "Override URL";
+"item_properties_override_url" = "URL のオーバーライド";
 
 /* AutoType Enabled */
-"item_properties_autotype_enabled" = "AutoType Enabled";
+"item_properties_autotype_enabled" = "自動入力を有効";
 
 /* AutoType Obfuscation */
-"item_properties_autotype_obfuscation" = "AutoType Obfuscation";
+"item_properties_autotype_obfuscation" = "自動入力の難読化";
 
 /* Target Window: [%@] - Translators Note: 1st param is a window title used by the AutoType feature in Windows KeePass to locate or match on a particular window before performing a specific AutoType sequence */
-"item_properties_target_window_fmt" = "Target Window: [%@]";
+"item_properties_target_window_fmt" = "ターゲットウィンドウ: [%@]";
 
 /* Statistics */
-"properties_vc_header_statistics" = "Statistics";
+"properties_vc_header_statistics" = "統計";
 
 /* Database KeePass XML Copied to Clipboard */
-"export_vc_message_xml_copied" = "Database KeePass XML Copied to Clipboard";
+"export_vc_message_xml_copied" = "データベースのXMLをクリップボードにコピーしました";
 
 /* Latin-1 Supplement */
-"pwgen_casing_latin1_supplement" = "Latin-1 Supplement";
+"pwgen_casing_latin1_supplement" = "ラテン 1 補足";
 
 /* Are you sure you want to remove this database from Strongbox?\n\nNB: The underlying database file will not be deleted. Just Strongbox's settings for this database. */
-"are_you_sure_delete_database_single" = "Are you sure you want to remove this database from Strongbox?\n\nNB: The underlying database file will not be deleted. Just Strongbox's settings for this database.";
+"are_you_sure_delete_database_single" = "このデータベースを Strongbox から削除してもよろしいですか？\n\n注意: 元のデータベースファイルは削除されません。 このデータベースのStrongboxの設定だけです。";
 
 /* Are you sure you want to remove these databases from Strongbox?\n\nNB: The underlying database files will not be deleted. Just Strongbox's settings for these databases. */
-"are_you_sure_delete_database_multiple" = "Are you sure you want to remove these databases from Strongbox?\n\nNB: The underlying database files will not be deleted. Just Strongbox's settings for these databases.";
+"are_you_sure_delete_database_multiple" = "このデータベースを Strongbox から削除してもよろしいですか？\n\n注意: 元のデータベースファイルは削除されません。 このデータベースのStrongboxの設定だけです。";
 
 /* No Databases Here Yet.\n\nClick 'Add Database...' below to get started... */
-"mac_no_databases_initial_message" = "No Databases Here Yet.\n\nClick 'Add Database...' below to get started...";
+"mac_no_databases_initial_message" = "ここにはまだデータベースがありません\n\n開始するには、下の「データベースを追加...」をクリックしてください。。。";
 
 /* No AutoFill Enabled Databases */
-"mac_no_autofill_enabled_databases_initial_message" = "No AutoFill Enabled Databases";
+"mac_no_autofill_enabled_databases_initial_message" = "自動入力が有効なデータベースがありません";
 
 /* It looks like this is your first time using AutoFill with this database.\n\nFor security reasons you must locate and select your database file for Strongbox so that the AutoFill can access it.\n\nAs a reminder your database file was last located here:\n\n%@\n\nPlease locate it now for Strongbox...  - Translator's note: The parameter is the path of the database like '/Users/mark/Desktop/my-database.kdbx' */
-"mac_autofill_first_time_locate-fmt" = "It looks like this is your first time using AutoFill with this database.\n\nFor security reasons you must locate and select your database file for Strongbox so that the AutoFill can access it.\n\nAs a reminder your database file was last located here:\n\n%@\n\nPlease locate it now for Strongbox...";
+"mac_autofill_first_time_locate-fmt" = "このデータベースで AutoFill を使用するのは初めてのようです。\n\nセキュリティ上の理由から、AutoFill がアクセスできるように、データベースファイルを選択する必要があります。 \n\n最後に使用されたデータベースは下記です。\n\n%@\n\nデータベースを指定してください。";
 
 /* Welcome to Strongbox AutoFill */
-"mac_welcome_to_autofill" = "Welcome to Strongbox AutoFill";
+"mac_welcome_to_autofill" = "Strongbox AutoFill へようこそ";
 
 /* Locate '%@' - Translator's note: The parameter is the filename of the database like 'my-database.kdbx' */
 "mac_autofill_locate_file_fmt" = "Locate '%@'";
 
 /* Pro Feature */
-"mac_autofill_pro_feature_title" = "Pro Feature";
+"mac_autofill_pro_feature_title" = "プロ版の機能";
 
 /* AutoFill is only available on the Pro edition of Strongbox. You can upgrade like this:\n\n1. Launch Strongbox\n2. Click the 'Strongbox' menu\n3. Click 'Upgrade to Pro...'.\n\nThank you! */
-"mac_autofill_pro_feature_upgrade-message" = "AutoFill is only available on the Pro edition of Strongbox. You can upgrade like this:\n\n1. Launch Strongbox\n2. Click the 'Strongbox' menu\n3. Click 'Upgrade to Pro...'.\n\nThank you!";
+"mac_autofill_pro_feature_upgrade-message" = "「自動入力」は、「 Strongbox」の Pro 版でのみ使用可能です。 アップグレードの手順は下記の通りです。\n\n1. Strongboxを起動する。\n2. Strongboxのメニューをタップする\n3. アップグレードをタップする";
 
 /* Passcode Fallback for %@ - Translators Note: This is a preference that says that the device passcode can be used as a fallback if Face ID or Touch ID fails - the parameter is either 'Touch ID' or 'Face ID' */
-"app_lock_allow_device_passcode_fallback_for_biometric_fmt" = "Passcode Fallback for %@";
+"app_lock_allow_device_passcode_fallback_for_biometric_fmt" = "%@ のパスコードフォールバック";
 
 /* Backup %ld (%@) - Translators Note: 1st Param is a number/integer, second parameter is the modified date, so e.g. 'Backup 4 (11 Nov 2020)'*/
-"backups_backup_title_fmt" = "Backup %ld (%@)";
+"backups_backup_title_fmt" = "バックアップ %ld (%@)";
 
 /* %@ (Created %@) - Translators Note: 1st Param is the filesize, second parameter is the created date, so e.g. '11KB (10 Nov 2020)' */
-"backups_backup_subtitle_fmt" = "%@ (Created %@)";
+"backups_backup_subtitle_fmt" = "%@ ( 作成 %@)";
 
 /* Enable Strongbox Extension */
-"mac_autofill_enable_extension_title" = "Enable Strongbox Extension";
+"mac_autofill_enable_extension_title" = "Strongbox 拡張機能を有効にする";
 
 /* To use AutoFill you must enable the Strongbox Extension in System Preferences. To do this click the 'Open System Preferences...' button below and navigate to:\n\n∙ Extensions > Password AutoFill > Check 'Strongbox' */
-"mac_autofill_enable_extension_message" = "To use AutoFill you must enable the Strongbox Extension in System Preferences. To do this click the 'Open System Preferences...' button below and navigate to:\n\n∙ Extensions > Password AutoFill > Check 'Strongbox'";
+"mac_autofill_enable_extension_message" = "オートフィルを使用するには、システム環境設定でStrongbox拡張を有効にする必要があります。これを行うには、「システム環境設定を開く」をタップします。 ボタンの下にある\n\n∙ Extensions> PasswordAutoFill > 'Strongbox' にチェックを入れてください";
 
 /* Open System Preferences... */
-"mac_autofill_action_open_system_preferences" = "Open System Preferences...";
+"mac_autofill_action_open_system_preferences" = "設定を開く";
 
 /* Merge... - Translators Note: Merge is a verb, "To Merge", the idea being that the user will select 2 databases to merge together... */
-"generic_action_merge_ellipsis" = "Merge...";
+"generic_action_merge_ellipsis" = "マージ...";
 
 /* Merge */
-"generic_action_merge" = "Merge";
+"generic_action_merge" = "マージ";
 
 /* No Other Databases Available */
-"merge_no_other_databases_available_title" = "No Other Databases Available";
+"merge_no_other_databases_available_title" = "他のデータベースはありません";
 
 /* There are no other databases in your databases collection to merge into this database. You must add another database so that you can select it for the merge operation. */
-"merge_no_other_databases_available_msg" = "There are no other databases in your databases collection to merge into this database. You must add another database so that you can select it for the merge operation.";
+"merge_no_other_databases_available_msg" = "データベースコレクションには、このデータベースにマージする他のデータベースはありません。 マージするには、別のデータベースを追加する必要があります。";
 
 /* Create Local Copy */
-"generic_action_create_local_database" = "Create Local Copy";
+"generic_action_create_local_database" = "ローカルコピーを作成";
 
 /* Identical databases. */
-"merge_result_databases_identical" = "Identical databases.";
+"merge_result_databases_identical" = "同じデータベースです。";
 
 /* Compare & Merge... */
-"generic_action_compare_and_merge_ellipsis" = "Compare & Merge...";
+"generic_action_compare_and_merge_ellipsis" = "比較およびマージ...";
 
 /* Merge will lead to a %0.1f%% difference. (Translators Note: 1st param is a percentage like '12.2%' (please don't edit/touch the percentage signs as it will likely cause a crash)) */
-"merge_result_will_lead_to_percentage_difference_fmt" = "Merge will lead to a %0.1f%% difference.";
+"merge_result_will_lead_to_percentage_difference_fmt" = "マージは %0.1f%% 差分です。";
 
 /* No changes to merge into first. */
-"merge_result_databases_identical" = "No changes to merge into first.";
+"merge_result_databases_identical" = "1 つ目のデータベースにマージする変更内容はありません。";
 
 /* Second database is %0.1f%% different. (Translators Note: 1st param is a percentage like '12.2%' (please don't edit/touch the percentage signs as it will likely cause a crash)) */
-"diff_result_percentage_difference_fmt" = "Second database is %0.1f%% different.";
+"diff_result_percentage_difference_fmt" = "2 番目のデータベースは、 %0.1f%% 異なっています。";
 
 /* Identical databases. */
-"diff_result_databases_identical" = "Identical databases.";
+"diff_result_databases_identical" = "同じデータベースです。";
 
 /* Some database properties will change. */
-"merge_result_databases_properties_will_change" = "Some database properties will change.";
+"merge_result_databases_properties_will_change" = "いくつかのデータベースプロパティが変更されます。";
 
 /* Database properties are different. */
-"diff_result_databases_properties_different" = "Database properties are different.";
+"diff_result_databases_properties_different" = "データベースのプロパティが異なります。";
 
 /* Summary */
 "diff_view_section_header_summary" = "概要";
 
 /* Will be Changed (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_will_be_changed_count_fmt" = "Will be Changed (%lu)";
+"diff_view_section_header_entry_will_be_changed_count_fmt" = "変更されます (%lu)";
 
 /* Items with Differences (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_differences_fmt" = "Items with Differences (%lu)";
+"diff_view_section_header_entry_differences_fmt" = "差異のあるアイテム (%lu)";
 
 /* Will be Added (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_will_be_added_count_fmt" = "Will be Added (%lu)";
+"diff_view_section_header_entry_will_be_added_count_fmt" = "追加されます (%lu)";
 
 /* Only in Second Database (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_only_in_second_fmt" = "Only in Second Database (%lu)";
+"diff_view_section_header_only_in_second_fmt" = "2 番目のデータベースでのみ (%lu)";
 
 /* Will be Moved (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_will_be_moved_count_fmt" = "Will be Moved (%lu)";
+"diff_view_section_header_entry_will_be_moved_count_fmt" = "移動されます (%lu)";
 
 /* Items in Different Locations (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_items_in_different_loc_fmt" = "Items in Different Locations (%lu)";
+"diff_view_section_header_items_in_different_loc_fmt" = "異なる場所にあるアイテム (%lu)";
 
 /* Will be Deleted (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_will_be_deleted_count_fmt" = "Will be Deleted (%lu)";
+"diff_view_section_header_entry_will_be_deleted_count_fmt" = "削除されます (%lu)";
 
 /* Only in First Database (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_only_in_first_fmt" = "Only in First Database (%lu)";
+"diff_view_section_header_only_in_first_fmt" = "最初のデータベースでのみ (%lu)";
 
 /* History will Change (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_history_will_change_count_fmt" = "History will Change (%lu)";
+"diff_view_section_header_entry_history_will_change_count_fmt" = "履歴を変更する (%lu)";
 
 /* Items with Historical Differences (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_historical_diffs_fmt" = "Items with Historical Differences (%lu)";
+"diff_view_section_header_historical_diffs_fmt" = "差異のあるアイテム (%lu)";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Are you sure you want to merge the second database into the first?";
+"merge_view_are_you_sure" = "2 番目のデータベースを最初のデータベースにマージしてもよろしいですか?";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Are you sure you want to merge the second database into the first?";
+"merge_view_are_you_sure" = "2 番目のデータベースを最初のデータベースにマージしてもよろしいですか?";
 
 /* Merge Successful */
-"merge_view_merge_title_success" = "Merge Successful";
+"merge_view_merge_title_success" = "マージ成功";
 
 /* The Merge was successful and your database is now up to date. */
-"merge_view_merge_message_success" = "The Merge was successful and your database is now up to date.";
+"merge_view_merge_message_success" = "マージが正常に終了し、データベースが最新の状態になりました。";
 
 /* There was an problem merging this database. */
-"merge_view_merge_title_error" = "There was an problem merging this database.";
+"merge_view_merge_title_error" = "データベースを開く際に問題が発生しました。";
 
 /* From %@ to %@ - Translators Note: 1st parameter is the old value that will change to the new value which is the second value e.g. 'From my-initial-username to my-changed-username' */
-"diff_drill_down_previous_new_fmt" = "From %@ to %@";
+"diff_drill_down_previous_new_fmt" = "%@ から %@ まで";
 
 /* %@ <> %@ - Translators Note: 1st parameter is the first database value and the second parameter is the value of this item in the second database e.g. 'my-username-1 <> my-username-2' */
 "diff_drill_down_first_vs_second_fmt" = "%@ <> %@";
 
 /* Color will change. */
-"diff_drill_down_color_will_change" = "Color will change.";
+"diff_drill_down_color_will_change" = "色が変わります。";
 
 /* Database Name will change. */
-"diff_drill_down_database_name_will_change" = "Database Name will change.";
+"diff_drill_down_database_name_will_change" = "データベース名が変わります。";
 
 /* Database Description will change. */
-"diff_drill_down_database_desc_will_change" = "Database Description will change.";
+"diff_drill_down_database_desc_will_change" = "データベースの説明が変更されます。";
 
 /* Default Username will change. */
-"diff_drill_down_default_username_will_change" = "Default Username will change.";
+"diff_drill_down_default_username_will_change" = "デフォルトのユーザー名が変わります。";
 
 /* Recycle Bin Enabled state will change. */
-"diff_drill_down_recycle_bin_enabled_will_change" = "Recycle Bin Enabled state will change.";
+"diff_drill_down_recycle_bin_enabled_will_change" = "ごみ箱の有効状態が変更されます。";
 
 /* Custom Data %@ will change. Translators Note: 1st param is the key of the custom data e.g. KEEPASSXC_PLUGIN_DATA  */
-"diff_drill_down_custom_data_will_change_fmt" = "Custom Data %@ will change.";
+"diff_drill_down_custom_data_will_change_fmt" = "カスタム・データ %@ が変更されます。";
 
 /* Custom Data %@ is different. */
-"diff_drill_down_custom_data_is_different_fmt" = "Custom Data %@ is different.";
+"diff_drill_down_custom_data_is_different_fmt" = "カスタム・データ %@ が異なります。";
 
 /* Custom Data item will be removed. */
-"diff_drill_down_custom_data_will_be_removed_fmt" = "Custom Data item will be removed.";
+"diff_drill_down_custom_data_will_be_removed_fmt" = "カスタム・データ項目は削除されます。";
 
 /* Custom Data is only in first. */
-"diff_drill_down_custom_data_is_only_in_first" = "Custom Data is only in first.";
+"diff_drill_down_custom_data_is_only_in_first" = "カスタムデータは最初のみです。";
 
 /* Custom Data item will be added. */
-"diff_drill_down_custom_data_will_be_added_fmt" = "Custom Data item will be added.";
+"diff_drill_down_custom_data_will_be_added_fmt" = "カスタムデータ項目が追加されます。";
 
 /* Custom Data is only in second. */
-"diff_drill_down_custom_data_is_only_in_second" = "Custom Data is only in second.";
+"diff_drill_down_custom_data_is_only_in_second" = "カスタムデータは秒単位です。";
 
 /* %@ -> %@ - Translators Note: 1st param is the key and 2nd param is the value. e.g. my_custom_plugin_key -> some_value */
 "diff_drill_down_custom_data_new_entry_key_value" = "%@ -> %@";
 
 /* Title will change. */
-"diff_drill_down_title_change" = "Title will change.";
+"diff_drill_down_title_change" = "タイトルが変わります。";
 
 /* Titles are different. */
-"diff_drill_down_titles_are_different" = "Titles are different.";
+"diff_drill_down_titles_are_different" = "タイトルが異なります。";
 
 /* Modified Date will change. */
-"diff_drill_down_mod_will_change" = "Modified Date will change.";
+"diff_drill_down_mod_will_change" = "変更日が変更されます。";
 
 /* Modified Dates are different. */
-"diff_drill_down_mods_are_different" = "Modified Dates are different.";
+"diff_drill_down_mods_are_different" = "変更日が異なります。";
 
 /* Icons will change. */
-"diff_drill_down_icons_will_change" = "Icons will change.";
+"diff_drill_down_icons_will_change" = "アイコンが変わります。";
 
 /* Icons are different. */
-"diff_drill_down_icons_are_different" = "Icons are different.";
+"diff_drill_down_icons_are_different" = "アイコンが異なります。";
 
 /* Username will change. */
-"diff_drill_down_username_will_change" = "Username will change.";
+"diff_drill_down_username_will_change" = "ユーザー名が変更されます。";
 
 /* Username will change. */
-"diff_drill_down_usernames_are_different" = "Usernames are different.";
+"diff_drill_down_usernames_are_different" = "ユーザー名が異なります。";
 
 /* Password will change. */
-"diff_drill_down_password_will_change" = "Password will change.";
+"diff_drill_down_password_will_change" = "パスワードが変わります。";
 
 /* Password will change. */
-"diff_drill_down_passwords_are_different" = "Passwords are different.";
+"diff_drill_down_passwords_are_different" = "パスワードが異なります。";
 
 /* URL will change. */
-"diff_drill_down_url_will_change" = "URL will change.";
+"diff_drill_down_url_will_change" = "URL が変更されます。";
 
 /* URLs are different. */
-"diff_drill_down_urls_are_different" = "URLs are different.";
+"diff_drill_down_urls_are_different" = "URL が異なります。";
 
 /* Notes will change. */
-"diff_drill_down_notes_will_change" = "Notes will change.";
+"diff_drill_down_notes_will_change" = "メモが変わります。";
 
 /* Notes are different. */
-"diff_drill_down_notes_are_different" = "Notes are different.";
+"diff_drill_down_notes_are_different" = "メモが異なります。";
 
 /* Email will change. */
-"diff_drill_down_email_will_change" = "Email will change.";
+"diff_drill_down_email_will_change" = "メールアドレスは変更されます。";
 
 /* Email will change. */
-"diff_drill_down_emails_are_different" = "Emails are different.";
+"diff_drill_down_emails_are_different" = "E メールが異なります。";
 
 /* Created Date will change. */
-"diff_drill_down_create_date_will_change" = "Created Date will change.";
+"diff_drill_down_create_date_will_change" = "作成日が変更されます。";
 
 /* Created Dates are different. */
-"diff_drill_down_created_dates_are_different" = "Created Dates are different.";
+"diff_drill_down_created_dates_are_different" = "作成日は異なります。";
 
 /* Modified Date will change. */
-"diff_drill_down_mod_date_will_change" = "Modified Date will change.";
+"diff_drill_down_mod_date_will_change" = "変更日が変更されます。";
 
 /* Modified Dates are different. */
-"diff_drill_down_mod_dates_are_different" = "Modified Dates are different.";
+"diff_drill_down_mod_dates_are_different" = "変更日が異なります。";
 
 /* Expiry Date will change. */
-"diff_drill_down_expiry_date_will_change" = "Expiry Date will change.";
+"diff_drill_down_expiry_date_will_change" = "有効期限が変更されます。";
 
 /* Expiry Dates are different. */
-"diff_drill_down_expiry_are_different" = "Expiry Dates are different.";
+"diff_drill_down_expiry_are_different" = "有効期限が異なります。";
 
 /* Foreground Color will change. */
-"diff_drill_down_foreground_color_will_change" = "Foreground Color will change.";
+"diff_drill_down_foreground_color_will_change" = "前景色が変わります。";
 
 /* Foreground Colors are different. */
-"diff_drill_down_foreground_color_are_different" = "Foreground Colors are different.";
+"diff_drill_down_foreground_color_are_different" = "前景色が異なります。";
 
 /* Background Color will change. */
-"diff_drill_down_background_color_will_change" = "Background Color will change.";
+"diff_drill_down_background_color_will_change" = "背景色が変わります。";
 
 /* Background Colors are different. */
-"diff_drill_down_background_color_are_different" = "Background Colors are different.";
+"diff_drill_down_background_color_are_different" = "背景色が異なります。";
 
 /* Override URL will change. */
-"diff_drill_down_override_url_will_change" = "Override URL will change.";
+"diff_drill_down_override_url_will_change" = "オーバーライド URL が変更されます";
 
 /* Override URLs are different. */
-"diff_drill_down_override_url_are_different" = "Override URLs are different.";
+"diff_drill_down_override_url_are_different" = "オーバーライド URL が異なります。";
 
 /* AutoType will change. */
-"diff_drill_down_autotype_will_change" = "AutoType will change.";
+"diff_drill_down_autotype_will_change" = "自動入力が変更されます。";
 
 /* AutoTypes are different. */
-"diff_drill_down_autotype_are_different" = "AutoTypes are different.";
+"diff_drill_down_autotype_are_different" = "自動入力が異なります。";
 
 /* Attachments will change. */
-"diff_drill_down_attachments_will_change" = "Attachments will change.";
+"diff_drill_down_attachments_will_change" = "添付ファイルが変更されます。";
 
 /* Attachments are different. */
-"diff_drill_down_attachments_are_different" = "Attachments are different.";
+"diff_drill_down_attachments_are_different" = "添付ファイルが異なります。";
 
 /* Tags will change. */
-"diff_drill_down_tags_will_change" = "Tags will change.";
+"diff_drill_down_tags_will_change" = "タグが変更されます。";
 
 /* Tags are different. */
-"diff_drill_down_tags_are_different" = "Tags are different.";
+"diff_drill_down_tags_are_different" = "タグが異なります。";
 
 /* Custom Fields will change. */
-"diff_drill_down_custom_fields_will_change" = "Custom Fields will change.";
+"diff_drill_down_custom_fields_will_change" = "カスタムフィールドが変更されます。";
 
 /* Custom Fields are different. */
-"diff_drill_down_custom_fields_are_different" = "Custom Fields are different.";
+"diff_drill_down_custom_fields_are_different" = "カスタムフィールドが異なります。";
 
 /* Item will be moved. */
-"diff_drill_down_location_will_change" = "Item will be moved.";
+"diff_drill_down_location_will_change" = "項目は移動されます。";
 
 /* Item locations are different. */
-"diff_drill_down_locations_are_different" = "Item locations are different.";
+"diff_drill_down_locations_are_different" = "アイテムの場所が異なります。";
 
 /* In %@ and %@ */
-"diff_drill_down_diff_loc_different" = "In %@ and %@";
+"diff_drill_down_diff_loc_different" = "%@ と %@";
 
 /* Local Copy Created. */
-"safes_vc_created_local_copy_done" = "Local Copy Created.";
+"safes_vc_created_local_copy_done" = "ローカルコピーが作成されました。";
 
 /* Comparing... */
-"diff_progress_comparing" = "Comparing...";
+"diff_progress_comparing" = "比較中...";
 
 /* Pro feature only. Please Upgrade. */
-"generic_pro_feature_only_please_upgrade" = "Pro feature only. Please Upgrade.";
+"generic_pro_feature_only_please_upgrade" = "Pro版のみ。アップグレードしてください。";
 
 /* Comparison Results */
-"diff_nav_title_comparison_title" = "Comparison Results";
+"diff_nav_title_comparison_title" = "比較結果";
 
 /* Compare Partially Supported */
-"diff_compare_partially_supported_title" = "Compare Partially Supported";
+"diff_compare_partially_supported_title" = "一部サポートされているものを比較";
 
 /* Because of the underlying database format(s) of these databases a full comparison is not possible. Pleaese use the KeePass 2 database format to allow detection of Moves, Deletions, and Group edits.\n\nYou can proceed with compare/merge but it may not be comprehensive. */
-"diff_compare_partially_supported_msg" = "Because of the underlying database format(s) of these databases a full comparison is not possible. Only the KeePass 2 format allows detection of Moves, Deletions, and Group edits.\n\nYou can proceed with compare/merge but it may not be comprehensive.";
+"diff_compare_partially_supported_msg" = "これらのデータベースの基礎となるデータベース・フォーマットが原因で、完全な比較ができないことがあります。 Moves、 Deletions、および Group 編集を検出できるのは、 KeePass 2 フォーマットのみです。\n\n比較/マージを続行できますが、完璧ではない可能性があります。";
 
 /* View As... */
-"browse_prefs_view_as_ellipsis" = "View As...";
+"browse_prefs_view_as_ellipsis" = "表示方法...";
 
 /* Database PIN */
-"pin_entry_database_default_text" = "Database PIN";
+"pin_entry_database_default_text" = "データベース PIN";
 
 /* App PIN */
-"pin_entry_app_default_text" = "App PIN";
+"pin_entry_app_default_text" = "アプリのPIN";
 
 /* Compare & Merge (Pro) */
-"conflict_resolution_compare_pro_only" = "Compare & Merge (Pro)";
+"conflict_resolution_compare_pro_only" = "比較 & マージ (Pro)";
 
 /* Sync Later (Pro) */
-"conflict_resolution_sync_later_pro_only" = "Sync Later (Pro)";
+"conflict_resolution_sync_later_pro_only" = "後で同期 (Pro)";
 
 /* Remote (%@) - Translators Note: First Param is the remote storage location e.g. Google Drive or Dropbox etc */
-"conflict_resolution_remote_fmt" = "Remote (%@)";
+"conflict_resolution_remote_fmt" = "リモート (%@)";
 
 /* Force Overwrite? */
-"conflict_resolution_force_overwrite_title" = "Force Overwrite?";
+"conflict_resolution_force_overwrite_title" = "強制上書きしますか？";
 
 /* You can overwrite changes in either your local copy or in the remote copy. */
-"conflict_resolution_force_overwrite_message" = "You can overwrite changes in either your local copy or in the remote copy.";
+"conflict_resolution_force_overwrite_message" = "ローカルコピーまたはリモートコピーのいずれかの変更を上書きできます。";
 
 /* Take Remote Copy, Overwrite Local */
-"conflict_resolution_force_overwrite_take_remote" = "Take Remote Copy, Overwrite Local";
+"conflict_resolution_force_overwrite_take_remote" = "リモートコピーを取得し、ローカルを上書きする";
 
 /* Keep Local Copy, Overwrite Remote */
-"conflict_resolution_force_overwrite_keep_lacal" = "Keep Local Copy, Overwrite Remote";
+"conflict_resolution_force_overwrite_keep_lacal" = "ローカルコピーを保持し、リモートを上書きする";
 
 /* Technical Error - Could not write local copies for comparison/merge. */
-"model_error_could_not_write_local_merge" = "Technical Error - Could not write local copies for comparison/merge.";
+"model_error_could_not_write_local_merge" = "技術エラー - 比較/マージ用にローカル・コピーを書き込めませんでした。";
 
 /* Cannot merge in background or without key. */
-"model_error_cannot_merge_in_background" = "Cannot merge without Master Credentials.";
+"model_error_cannot_merge_in_background" = "マスター認証情報なしにはマージできません。";
 
 /* Are you sure you want to always Auto-Merge when you have a Sync Conflict like this? */
-"sync_are_you_sure_always_auto_merge" = "Are you sure you want to always Auto-Merge when you have a Sync Conflict like this?";
+"sync_are_you_sure_always_auto_merge" = "同期の競合が発生した場合でも、常に自動マージを実行しますか?";
 
 /* Technical Error - Could not merge local and remote databases. */
-"model_error_could_not_merge_local_remote" = "Technical Error - Could not merge local and remote databases.";
+"model_error_could_not_merge_local_remote" = "技術エラー - ローカルおよびリモート・データベースをマージできませんでした。";
 
 /* Your database format does not support advanced synchronization features (available in KeePass 2). This means the merge may be less than ideal.\n\nAre you sure you want to continue with the merge? */
-"merge_are_you_sure_less_than_ideal_format" = "Your database format does not support advanced synchronization features (available in KeePass 2). This means the merge may be less than ideal.\n\nAre you sure you want to continue with the merge?";
+"merge_are_you_sure_less_than_ideal_format" = "ご使用のデータベース・フォーマットは、拡張同期機能 ( KeePass 2 で使用可能) をサポートしていません。 つまり、マージは完璧に行われない可能性があります。\n\nマージを続行しますか?";
 
 /* Database Refreshed */
-"browse_vc_pulldown_refresh_updated_title" = "Database Refreshed";
+"browse_vc_pulldown_refresh_updated_title" = "データベースを更新しました";
 
 /* Error Refreshing */
-"browse_vc_pulldown_refresh_error_title" = "Error Refreshing";
+"browse_vc_pulldown_refresh_error_title" = "更新エラー";
 
 /* See Sync Log */
-"browse_vc_pulldown_refresh_error_message" = "See Sync Log";
+"browse_vc_pulldown_refresh_error_message" = "同期ログを表示";
 
 /* Database Refreshed - No Changes */
-"browse_vc_pulldown_refresh_no_changes_title" = "Database Refreshed - No Changes";
+"browse_vc_pulldown_refresh_no_changes_title" = "データベースを更新しました - 変更はありません";
 
 /* %ld Failed Unlock Attempts - Translators note, first parameter is an integer, e.g 3 Failed Unlock Attempts */
-"privacy_vc_label_number_of_failed_unlock_attempts_fmt" = "%@ Failed Unlock Attempts";
+"privacy_vc_label_number_of_failed_unlock_attempts_fmt" = "失敗したロック解除試行数 %@";
 
 /* Modified %@ - Translators Note: first parameter is a friendly date string. e.g. "Modified Today at 3:28PM" */
-"backups_backup_modified_title_fmt" = "Modified %@";
+"backups_backup_modified_title_fmt" = "変更回数 %@";
 
 /* %@ (Backup taken %@) - Translators Note: first parameter is the file size and the second parameter a friendly date string. e.g. "4KB (Backup taken Today at 3:29PM)" */
-"backups_backup_taken_at_subtitle_fmt" = "%@ (Backup taken %@)";
+"backups_backup_taken_at_subtitle_fmt" = "%@ (バックアップ作成日時 %@)";
 
 /* Sync Possibly Required */
-"compare_merge_sync_possibly_required_title" = "Sync Possibly Required";
+"compare_merge_sync_possibly_required_title" = "同期が必要な可能性あり";
 
 /* At least one of these databases haven't been synchronized very recently. It is recommended that you return to the Databases List screen and pull down to initiate the Sync process. This will ensure you are working with the latest versions. */
-"compare_merge_sync_possibly_required_message" = "At least one of these databases haven't been synchronized very recently. It is recommended that you return to the Databases List screen and pull down to initiate the Sync process. This will ensure you are working with the latest versions.";
+"compare_merge_sync_possibly_required_message" = "これらのデータベースの中に最近同期されていないものが少なくとも 1 つあります。データベースリスト画面に戻り、プルダウンして同期プロセスを開始することをお勧めします。そうすることで、最新バージョンを使用していることが保証されます。";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to open in offline mode instead? - Translators Note: 1st Parameter is the storage provider name like Google Drive or Dropbox */
-"open_sequence_user_looks_offline_open_local_fmt" = "It looks like you may be offline and '%@' may not be reachable. Would you like to open in offline mode instead?";
+"open_sequence_user_looks_offline_open_local_fmt" = "オフラインになっているようですので、'%@' にはアクセスできない可能性があります。代わりに、オフラインモードで使用しますか？";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use Strongbox's local copy in read-only mode instead? - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc */
-"open_sequence_user_looks_offline_open_local_ro_fmt" = "It looks like you may be offline and '%@' may not be reachable. Would you like to open in offline mode instead?\n\nNB: This is read-only. You can also edit offline in the Pro version.";
+"open_sequence_user_looks_offline_open_local_ro_fmt" = "オフラインになっているようですので、'%@' にはアクセスできない可能性があります。代わりに、オフラインモードで使用しますか？\n\n注意: これは読み取り専用です。Pro 版ならオフラインでも編集できます。";
 
 /* Open Offline? */
-"open_sequence_yesno_use_local_copy_title" = "Open Offline?";
+"open_sequence_yesno_use_local_copy_title" = "オフラインで開きますか？";
 
 /* Yes, Open Offline */
-"open_sequence_yes_use_local_copy_option" = "Yes, Open Offline";
+"open_sequence_yes_use_local_copy_option" = "はい、オフラインで開きます";
 
 /* Open Offline */
-"open_sequence_use_local_copy_option" = "Open Offline";
+"open_sequence_use_local_copy_option" = "オフラインで開く";
 
 /* Open Offline (Read-Only) */
-"open_sequence_use_local_copy_option_ro" = "Open Offline (Read-Only)";
+"open_sequence_use_local_copy_option_ro" = "オフラインで開く (読み取り専用)";
 
 /*  (Read Only) */
 "browse_vc_read_only_suffix" = " (読み取り専用)";
 
 /*  (Offline) */
-"browse_vc_offline_suffix" = " (Offline)";
+"browse_vc_offline_suffix" = " (オフライン)";
 
 /* Offline Mode */
-"browse_vc_pulldown_refresh_offline_title" = "Offline Mode";
+"browse_vc_pulldown_refresh_offline_title" = "オフラインモード";
 
 /* Database Not Refreshed */
-"browse_vc_pulldown_refresh_offline_message" = "Database Not Refreshed";
+"browse_vc_pulldown_refresh_offline_message" = "データベースが更新されていません";
 
 /* Do not allow changes to be made to this database when it is open. */
-"database_properties_subtitle_read_only" = "Do not allow changes to be made to this database when it is open.";
+"database_properties_subtitle_read_only" = "このデータベースが開いているときに変更を加えることを許可しない。";
 
 /* Automatically prompt to open this database on App launch. */
-"database_properties_subtitle_quick_launch" = "Automatically prompt to open this database on App launch.";
+"database_properties_subtitle_quick_launch" = "アプリ起動時にこのデータベースを開くプロンプトを自動的に表示する。";
 
 /* Always Auto-Merge */
-"database_properties_title_always_auto_merge" = "Always Auto-Merge";
+"database_properties_title_always_auto_merge" = "常に自動マージ";
 
 /* When a sync conflict occurs automatically merge without asking. */
-"database_properties_subtitle_conflict_resolution" = "When a sync conflict occurs automatically merge without asking.";
+"database_properties_subtitle_conflict_resolution" = "同期が競合する際は、確認せずに自動的にマージする。";
 
 /* Immediate Open Offline Offer */
-"database_properties_title_offline_behaviour" = "Immediate Open Offline Offer";
+"database_properties_title_offline_behaviour" = "オフラインで開くことを即座に提案";
 
 /* Immediately offer to open offline if Strongbox detects you are offline. Alternatively, if you turn this off, Strongbox will try to connect which may take some time. */
-"database_properties_subtitle_offline_behaviour" = "Immediately offer to open in offline mode if Strongbox detects you are offline. Alternatively, if you turn this off, Strongbox will try to connect which may take some time.";
+"database_properties_subtitle_offline_behaviour" = "Strongbox はユーザーがオフラインであることを検出すると、オフラインモードで開くことを即座に提案します。また、この機能をオフにすると、Strongbox は接続を試みます (少し時間がかかる場合あり)。";
 
 /* Configure & View local backups." */
-"database_properties_subtitle_backups" = "Configure & View local backups.";
+"database_properties_subtitle_backups" = "ローカルのバックアップを設定 & 表示";
 
 /* View recent sync details including errors. */
-"database_properties_subtitle_view_sync_log" = "View recent sync details including errors.";
+"database_properties_subtitle_view_sync_log" = "最近の同期に関する詳細をエラーを含めて表示する。";
 
 /* Your Database is configured to use a YubiKey, however no YubiKey or an incorrect YubiKey was found connected. */
-"mac_autofill_no_or_incorrect_yubikey_found" = "Your Database is configured to use a YubiKey, however no YubiKey or an incorrect YubiKey was found connected.";
+"mac_autofill_no_or_incorrect_yubikey_found" = "データベースは YubiKey を使用するように設定されていますが、接続された YubiKey は正しくないものも含めて見つかりませんでした。";
 
 /* Title (Username) */
-"quick_type_format_title_username" = "Title (Username)";
+"quick_type_format_title_username" = "タイトル (ユーザー名)";
 
 /* Title */
 "quick_type_format_title" = "タイトル";
@@ -3983,200 +3983,200 @@
 "quick_type_format_username" = "ユーザー名";
 
 /* QuickType Format */
-"prefs_vc_quick_type_format" = "QuickType Format";
+"prefs_vc_quick_type_format" = "QuickType フォーマット";
 
 
 /* Authenticating... */
-"storage_provider_status_authenticating" = "Authenticating...";
+"storage_provider_status_authenticating" = "認証中…";
 
 /* Connecting... */
-"storage_provider_status_authenticating_connecting" = "Connecting...";
+"storage_provider_status_authenticating_connecting" = "接続中...";
 
 /* Listing... */
-"storage_provider_status_authenticating_listing" = "Listing...";
+"storage_provider_status_authenticating_listing" = "一覧作成中...";
 
 /* Creating... */
-"storage_provider_status_authenticating_creating" = "Creating...";
+"storage_provider_status_authenticating_creating" = "作成中...";
 
 /* Strongbox iCloud */
 "databases_vc_database_location_suffix_database_is_in_official_icloud_strongbox_folder" = "Strongbox iCloud";
 
 /* Watch Unlock */
-"preference_allow_watch_unlock" = "Watch Unlock";
+"preference_allow_watch_unlock" = "ウォッチによるロック解除";
 
 /* Watch Unlock - (Enable in System Preferences > Security & Privacy) */
-"preference_allow_watch_unlock_system_disabled" = "Watch Unlock - (Enable in System Preferences > Security & Privacy)";
+"preference_allow_watch_unlock_system_disabled" = "ウォッチによるロック解除 - (システム環境設定 > セキュリティ & プライバシーで有効化)";
 
 /* No Cloud Session Found */
-"cloud_sessions_prompt_no_session_found" = "No Cloud Session Found";
+"cloud_sessions_prompt_no_session_found" = "クラウドセッションは見つかりませんでした";
 
 /* Copy Debug Information? */
-"prompt_title_copy_debug_info" = "Copy Debug Information?";
+"prompt_title_copy_debug_info" = "デバッグ情報をコピーしますか？";
 
 /* Would you like to copy some helpful debug information that you can share with support before proceeding? */
-"prompt_message_copy_debug_info" = "Would you like to copy some helpful debug information that you can share with support before proceeding?";
+"prompt_message_copy_debug_info" = "続行する前に、サポートと共有できる便利なデバッグ情報をコピーしますか？";
 
 /* Third Party Storage Privacy Opt-In */
-"third_party_storage_privacy_opt_in_title" = "Third Party Storage Privacy Opt-In";
+"third_party_storage_privacy_opt_in_title" = "サードパーティストレージのプライバシーオプトイン";
 
 /* You are about to use a software library from Google, Microsoft or Dropbox for the first time.\n\nStrongbox does not control these organizations privacy policies (which may not be awesome).\n\nStrongbox offers these services for your convenience and it is entirely at your discretion whether you use them or not. You must Opt In to continue. */
-"third_party_storage_privacy_opt_in_message" = "You are about to use a software library from Google, Microsoft or Dropbox for the first time.\n\nStrongbox does not control these organizations privacy policies (which may not be awesome).\n\nStrongbox offers these services for your convenience and it is entirely at your discretion whether you use them or not.\n\nYou must Opt In to continue.";
+"third_party_storage_privacy_opt_in_message" = "Google、Microsoft、または Dropbox のソフトウェアライブラリを初めて使用します。\n\nStrongbox はこうした組織のプライバシーポリシー (理想的ではない可能性あり) を管理していません。\n\nStrongbox がこうしたサービスを提供しているのは、ユーザーの利便性を考慮しているためであり、使用するかどうかはユーザーの判断におまかせしています。\n\n続行するにはオプトインしてください。";
 
 /* Opt In, Let's Go... */
-"third_party_storage_privacy_option_opt_in" = "Opt In, Let's Go...";
+"third_party_storage_privacy_option_opt_in" = "オプトインして続行します。。。";
 
 /* Sync Successful */
-"notification_sync_successful" = "Sync Successful";
+"notification_sync_successful" = "同期に成功しました";
 
 /* Add SFTP Database... (Pro) */
-"mac_add_sftp_pro_only" = "Add SFTP Database... (Pro)";
+"mac_add_sftp_pro_only" = "SFTP データベースを追加... (Pro 版)";
 
 /* Add WebDAV Database... (Pro) */
-"mac_add_webdav_pro_only" = "Add WebDAV Database... (Pro)";
+"mac_add_webdav_pro_only" = "WebDAV データベースを追加... (Pro)";
 
 /* This database can only be unlocked by Strongbox Pro because it is stored via SFTP or WebDAV.\n\nPlease Upgrade. */
-"mac_non_file_database_pro_message" = "This database can only be unlocked by Strongbox Pro because it is stored via SFTP or WebDAV.\n\nPlease Upgrade.";
+"mac_non_file_database_pro_message" = "このデータベースは SFTP または WebDAV で保存されているため、Strongbox の Pro 版でしかロックを解除できません。\n\nアップグレードしてください。";
 
 /* Item Copied to Clipboard */
-"mac_copied_item_to_clipboard" = "Item Copied to Clipboard";
+"mac_copied_item_to_clipboard" = "アイテムがクリックボードにコピーされました";
 
 /* Items Copied to Clipboard */
-"mac_copied_items_to_clipboard" = "Items Copied to Clipboard";
+"mac_copied_items_to_clipboard" = "アイテムがクリックボードにコピーされました";
 
 /* Item Pasted from Clipboard */
-"mac_item_pasted_from_clipboard" = "Item Pasted from Clipboard";
+"mac_item_pasted_from_clipboard" = "アイテムがクリップボードからペーストされました";
 
 /* Items Pasted from Clipboard */
-"mac_items_pasted_from_clipboard" = "Items Pasted from Clipboard";
+"mac_items_pasted_from_clipboard" = "アイテムがクリップボードからペーストされました";
 
 /* Item Duplicated */
-"mac_item_duplicated" = "Item Duplicated";
+"mac_item_duplicated" = "アイテムが複製されました";
 
 /* File - Localization Note: This should be very short, 3-4 characters if possible. This indicates a regular file on the file system on a Mac. */
 "storage_provider_name_mac_file_short" = "ファイル";
 
 /* Done. ✅ */
-"sync_log_status_done" = "Done. ✅";
+"sync_log_status_done" = "完了。✅";
 
 /* TOTP Copied */
-"autofill_info_totp_copied_title" = "TOTP Copied";
+"autofill_info_totp_copied_title" = "TOTP がコピーされました";
 
 /* Your TOTP Code has been copied to the clipboard. */
-"autofill_info_totp_copied_message" = "Your TOTP Code has been copied to the clipboard.";
+"autofill_info_totp_copied_message" = "あなたの TOTP コードがクリップボードにコピーされました。";
 
 /* Convenience Auto Unlock */
-"prefs_vc_autofill_convenience_auto_unlock" = "Convenience Auto Unlock";
+"prefs_vc_autofill_convenience_auto_unlock" = "コンビニエンス自動ロック解除";
 
 /* Not Configured */
-"generic_preference_not_configured" = "Not Configured";
+"generic_preference_not_configured" = "設定されていません";
 
 /* Auto Unlock Feature */
-"autofill_auto_unlock_title" = "Auto Unlock Feature";
+"autofill_auto_unlock_title" = "自動ロック解除機能";
 
 /* Auto Unlock lets you avoid having to repeatedly unlock your database for a configurable time period. Would you like to use this handy feature?\n\nNB: Your password is stored in the Secure Enclave for this feature. */
-"autofill_auto_unlock_message" = "Auto Unlock lets you avoid having to repeatedly unlock your database for a configurable time period. Would you like to use this handy feature?\n\nNB: Your password is stored in the Secure Enclave for this feature.";
+"autofill_auto_unlock_message" = "自動ロック解除を使用すると、設定可能な時間中にデータベースを何度もロック解除する手間が省けます。この便利な機能を使用しますか？\n\n注意: パスワードはこの機能の Secure Enclave に保存されています。";
 
 /* Great, let try 3 mins */
-"autofill_auto_unlock_try_3_minutes" = "Great, lets try 3 mins";
+"autofill_auto_unlock_try_3_minutes" = "いいですね、3 分試します";
 
 /* I'd prefer 10 mins */
-"autofill_auto_unlock_try_10_minutes" = "I'd prefer 10 mins";
+"autofill_auto_unlock_try_10_minutes" = "10 分でお願いします";
 
 /* AutoFill Quick Launch */
-"databases_toggle_autofill_quick_launch_context_menu" = "AutoFill Quick Launch";
+"databases_toggle_autofill_quick_launch_context_menu" = "オートフィルのクイック起動";
 
 /* Title Matches */
-"autofill_search_title_matches_section_header" = "Title Matches";
+"autofill_search_title_matches_section_header" = "タイトルの一致";
 
 /* URL Matches */
-"autofill_search_url_matches_section_header" = "URL Matches";
+"autofill_search_url_matches_section_header" = "URL の一致";
 
 /* Other Matches */
-"autofill_search_other_matches_section_header" = "Other Matches";
+"autofill_search_other_matches_section_header" = "その他の一致";
 
 /* Service ID */
-"autofill_search_title_service_id_section_header" = "Service ID";
+"autofill_search_title_service_id_section_header" = "サービス ID";
 
 /* The Service ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Service ID. */
-"autofill_search_service_id_section_footer" = "The Service ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Service ID. Tap to Copy.";
+"autofill_search_service_id_section_footer" = "サービス ID はオートフィルにより Strongbox に送られる識別子です。自分のエントリーの URL をサービス ID と一致するように設定すれば、検索を実行する際に役立ちます。";
 
 /* Results */
 "quick_view_title_no_matches_title" = "検索結果";
 
 /* Unlock with Touch ID */
-"mac_unlock_database_with_touch_id" = "Unlock with Touch ID";
+"mac_unlock_database_with_touch_id" = "Touch ID でロック解除";
 
 /* Unlock with Watch */
-"mac_unlock_database_with_apple_watch" = "Unlock with Watch";
+"mac_unlock_database_with_apple_watch" = "ウォッチでロック解除";
 
 /* Unlock with Touch ID or Watch */
 "mac_unlock_database_with_touch_or_watch" = "Touch ID または Watchでロック解除";
 
 /* Blur */
-"app_privacy_shield_mode_blur" = "Blur";
+"app_privacy_shield_mode_blur" = "ぼかし";
 
 /* Pixellate */
-"app_privacy_shield_mode_pixellate" = "Pixellate";
+"app_privacy_shield_mode_pixellate" = "モザイク";
 
 /* Blue Screen */
-"app_privacy_shield_mode_blue_screen" = "Blue Screen";
+"app_privacy_shield_mode_blue_screen" = "ブルースクリーン";
 
 /* Privacy Shield View */
-"prefs_vc_privacy_shield_view" = "Privacy Shield View";
+"prefs_vc_privacy_shield_view" = "Privacy Shield ビュー";
 
 /* Always Open Offline */
-"database_properties_title_always_offline" = "Always Open Offline";
+"database_properties_title_always_offline" = "常にオフラインで開く";
 
 /* You can choose to always open offline whenever you tap on this database. No sync will be performed on unlock, though a background sync can be performed by pulling down on your Databases List. */
-"database_properties_subtitle_always_offline" = "You can choose to always open offline whenever you tap on this database. No sync will be performed on unlock, though a background sync can be performed by pulling down on your Databases List.";
+"database_properties_subtitle_always_offline" = "このデータベースをタップすれば、いつもオフラインで開くことができます。ロック解除時に同期は実行されませんが、データベースの一覧をプルダウンすれば、バックグラウンドでの同期は実行できます。";
 
 /* What to do if Strongbox detects you are Offline when opening a database. */
-"database_properties_subtitle_offline_detected_behaviour" = "What to do if Strongbox detects you are Offline when opening a database.";
+"database_properties_subtitle_offline_detected_behaviour" = "データベースを開くときに Strongbox によりオフラインであると検出される場合の対処法。";
 
 /* Prompt */
-"offline_detected_behaviour_ask_immediately" = "Prompt";
+"offline_detected_behaviour_ask_immediately" = "プロンプト";
 
 /* Try to Connect */
-"offline_detected_behaviour_try_connect_anyway" = "Try to Connect";
+"offline_detected_behaviour_try_connect_anyway" = "接続を試みる";
 
 /* Open Offline (No Prompt) */
-"offline_detected_behaviour_open_offline" = "Open Offline (No Prompt)";
+"offline_detected_behaviour_open_offline" = "オフラインで開く (プロンプト無し)";
 
 /* There was a problem updating your database in the background and your assistance is required to resolve. Would you like to resolve this problem now? */
-"sync_status_user_interaction_required_prompt_yes_or_no" = "There was a problem updating your database and your assistance is required to resolve. Would you like to resolve this problem now?";
+"sync_status_user_interaction_required_prompt_yes_or_no" = "データベースの更新中に問題が発生しました。解決するにはアシストしていただく必要があります。すぐにこの問題を解決しますか？";
 
 /* Error Updating */
-"sync_status_error_updating_title" = "Error Updating";
+"sync_status_error_updating_title" = "更新中にエラーが発生しました";
 
 /* Recycle (L10n Note: This is an action, e.g. To Recycle and item, to send it to the Recycle Bin) */
-"generic_action_verb_recycle" = "Recycle";
+"generic_action_verb_recycle" = "リサイクル";
 
 /* There was an error updating your database. Would you like to try updating again, or would you prefer to revert to the latest successful update? */
-"sync_status_error_updating_try_again_prompt" = "There was an error updating your database. Would you like to try updating again, or would you prefer to revert to the latest successful update?";
+"sync_status_error_updating_try_again_prompt" = "データベースの更新中にエラーが発生しました。もう一度更新を試みますか？それとも、更新に成功していた最新バージョンに戻しますか？";
 
 /* Try Again */
-"sync_status_error_updating_try_again_action" = "Try Again";
+"sync_status_error_updating_try_again_action" = "もう一度試す";
 
 /* Revert to Latest */
-"sync_status_error_updating_revert_action" = "Revert to Latest";
+"sync_status_error_updating_revert_action" = "更新に成功していた最新バージョンに戻す";
 
 /* Assistance Required */
-"sync_status_user_interaction_required_prompt_title" = "Assistance Required";
+"sync_status_user_interaction_required_prompt_title" = "アシストが必要です";
 
 /* Internet Unavailable Behaviour */
-"database_properties_title_offline_detected_behaviour" = "Internet Unavailable Behaviour";
+"database_properties_title_offline_detected_behaviour" = "インターネットが使用できない場合の動作";
 
 /* Could Not Connect Behaviour */
-"database_properties_title_could_not_connect_behaviour" = "Could Not Connect Behaviour";
+"database_properties_title_could_not_connect_behaviour" = "接続できない場合の動作";
 
 /* Open Online - NB: Action to open a database in Online mode, only applies to databases with 'Always Open Offline' set. */
-"safes_vc_slide_left_open_online_action" = "Open Online";
+"safes_vc_slide_left_open_online_action" = "オンラインで開く";
 
 /* At least one of these database is open and unlocked. You must lock this database before you can remove it. */
-"mac_at_least_one_db_unlocked_cannot_remove" = "At least one of these databases is unlocked. You must lock this database before you can remove it.";
+"mac_at_least_one_db_unlocked_cannot_remove" = "これらのデータベースのうち少なくとも 1 つはロック解除されています。このデータベースを削除するには、まずロックする必要があります。";
 
 /* About Strongbox %@ - L10n note: 1st parameter is the App Version, e.g. 'About Strongbox 1.52.17' */
-"prefs_vc_app_version_info_none_pro_fmt" = "About Strongbox %@";
+"prefs_vc_app_version_info_none_pro_fmt" = "Strongbox %@ について";
 
 /* About Strongbox Pro %@ - L10n note: 1st parameter is the App Version, e.g. 'About Strongbox Pro 1.52.17' */
 "prefs_vc_app_version_info_pro_fmt" = "Strongbox プロ %@ について";
@@ -4188,121 +4188,121 @@
 "subtitle_app_version_info_pro_fmt" = "Strongbox Pro %@";
 
 /* Remove Tag */
-"mac_undo_action_remove_tag" = "Remove Tag";
+"mac_undo_action_remove_tag" = "タグを削除";
 
 /* Add Tag */
-"mac_undo_action_add_tag" = "Add Tag";
+"mac_undo_action_add_tag" = "タグを追加";
 
 /* Tags */
 "generic_fieldname_tags" = "タグ";
 
 /* Enter a new tag to add for this item */
-"mac_vc_please_enter_a_tag" = "Enter a new tag to add to this item";
+"mac_vc_please_enter_a_tag" = "このアイテムに追加する新しいタグを入力";
 
 /* Zxcvbn (Smart) */
 "password_strength_algo_zxcvbn_title" = "Zxcvbn (Smart)";
 
 /* Basic (Pooled Entropy) */
-"password_strength_algo_basic_title" = "Basic (Pooled Entropy)";
+"password_strength_algo_basic_title" = "ベーシック (プール済みエントロピー)";
 
 /* Password Strength Algorithm */
-"prefs_vc_password_strength_algorithm" = "Password Strength Algorithm";
+"prefs_vc_password_strength_algorithm" = "パスワード強度アルゴリズム";
 
 /* Very Weak */
-"password_strength_category_very_weak" = "Very Weak";
+"password_strength_category_very_weak" = "非常に弱い";
 
 /* Weak */
-"password_strength_category_weak" = "Weak";
+"password_strength_category_weak" = "弱い";
 
 /* Mediocre */
-"password_strength_category_mediocre" = "Mediocre";
+"password_strength_category_mediocre" = "並";
 
 /* Strong */
-"password_strength_category_strong" = "Strong";
+"password_strength_category_strong" = "強い";
 
 /* Very Strong */
-"password_strength_category_very_strong" = "Very Strong";
+"password_strength_category_very_strong" = "非常に強い";
 
 /* Overkill */
-"password_strength_category_overkill" = "Overkill";
+"password_strength_category_overkill" = "オーバーキル";
 
 /* >100m years - L10n note: this is a time span - Password will take this long to crack */
-"password_time_to_crack_more_than_100m_years" = ">100m years";
+"password_time_to_crack_more_than_100m_years" = "> 1 億年";
 
 /* %@m years - L10n note: this is a time span - Password will take X million years to crack, where X is the first parameter and is an integer (positive whole number). e.g. 45m years  - please try to abbreviate million for your locale */
-"password_time_to_crack_million_years_fmt" = "%@m years";
+"password_time_to_crack_million_years_fmt" = "%@ 億年";
 
 /* %@k years - L10n note: this is a time span - Password will take X thousand years to crack, where X is the first parameter and is an integer (positive whole number). e.g. 45k years  - please try to abbreviate thousand for your locale  */
-"password_time_to_crack_thousand_years_fmt" = "%@k years";
+"password_time_to_crack_thousand_years_fmt" = "%@ 千年";
 
 /* %@ centuries - L10n note: this is a time span - Password will take X centuries to crack, where X is the first parameter and is an integer (positive whole number). e.g. 5 centuries  - please try to abbreviate for your locale */
-"password_time_to_crack_centuries_fmt" = "%@ centuries";
+"password_time_to_crack_centuries_fmt" = "%@ 世紀";
 
 /* %@ years  - L10n note: this is a time span - Password will take X years to crack, where X is the first parameter and is an integer (positive whole number). e.g. 5 years  - please try to abbreviate for your locale */
-"password_time_to_crack_years_fmt" = "%@ years";
+"password_time_to_crack_years_fmt" = "%@ 年";
 
 /* %@ days - L10n note: this is a time span - Password will take X days to crack, where X is the first parameter and is an integer (positive whole number). e.g. 5 days  - please try to abbreviate for your locale */
-"password_time_to_crack_days_fmt" = "%@ days";
+"password_time_to_crack_days_fmt" = "%@ 日";
 
 /* %@ hours - L10n note: this is a time span - Password will take X hours to crack, where X is the first parameter and is an integer (positive whole number). e.g. 5 hours  - please try to abbreviate for your locale */
-"password_time_to_crack_hours_fmt" = "%@ hours";
+"password_time_to_crack_hours_fmt" = "%@ 時間";
 
 /* Adversary Guess Rate */
-"prefs_vc_password_strength_adversary_crack_rate" = "Adversary Guess Rate";
+"prefs_vc_password_strength_adversary_crack_rate" = "サイバー犯罪者が試行可能なパスワードの数 / 秒";
 
 /* Thousand */
-"number_suffix_thousand" = "Thousand";
+"number_suffix_thousand" = "1000";
 
 /* Million */
-"number_suffix_million" = "Million";
+"number_suffix_million" = "100 万";
 
 /* Billion */
-"number_suffix_billion" = "Billion";
+"number_suffix_billion" = "10 億";
 
 /* Trillion */
-"number_suffix_trillion" = "Trillion";
+"number_suffix_trillion" = "1 兆";
 
 /* Quadrillion */
-"number_suffix_quadrillion" = "Quadrillion";
+"number_suffix_quadrillion" = "1 千兆";
 
 /* Quintillion */
-"number_suffix_quintillion" = "Quintillion";
+"number_suffix_quintillion" = "100 万兆";
 
 /* %@ / second - L10n:  First parameter is the number of guesses per second for an adversary. So e.g.  '1 billion / second' */
-"adversary_guess_rate_fmt" = "%@ / second";
+"adversary_guess_rate_fmt" = "%@ / 秒";
 
 /* 🚀 Sale Now On! 🚀 */
-"prompt_sale_now_on_title" = "🚀 Sale Now On! 🚀";
+"prompt_sale_now_on_title" = "🚀 割引実施中！🚀";
 
 /* Hi there! Strongbox Pro is now 20% off for a very short period only.\n\nWould you like to grab it now and support Strongbox development? Go on, treat yourself! 😎 */
-"prompt_sale_now_on_message" = "Hi there! Strongbox Pro is now 20% off for a very short period only.\n\nWould you like to grab it now and support Strongbox development? Go on, treat yourself! 😎";
+"prompt_sale_now_on_message" = "こんにちは！Strongbox の Pro 版が期間限定で 20% オフとなっています。\n\n今すぐ購入して Strongbox の開発をご支援いただけますか？ぜひご利用ください！😎";
 
 /* 🚀 20% Off Sale 🚀 Go Pro Now 🔥 */
-"safesvc_upgrade_button_sale_now_on_title" = "🚀 20% Off Sale 🚀 Go Pro Now 🔥";
+"safesvc_upgrade_button_sale_now_on_title" = "🚀 20% オフセール実施中 🚀 今すぐ Pro 版にアップグレードしましょう🔥";
 
 /* Visible in Search - L10n Note: This indicates whether this item will show up in search results. It depends on whether the user has marked any of the parent folders/groups as Search Enabled or Disabled. The value will be Yes or No. e.g. Visible in Search: Yes */
-"item_properties_search_visible_state" = "Visible in Search";
+"item_properties_search_visible_state" = "検索結果に表示";
 
 /* Is Expanded - L10n Note: Indicates whether a folder is in an expanded or collapsed state in the MacOS/Windows/Desktop UI. Value will be Yes or No. */
-"item_properties_is_expanded" = "Is Expanded";
+"item_properties_is_expanded" = "展開された状態";
 
 /* Group Expanded state will change. */
-"diff_drill_down_is_expanded_will_change" = "Group Expanded state will change.";
+"diff_drill_down_is_expanded_will_change" = "グループの展開された状態が変更されます。";
 
 /* Group Expanded states are different. */
-"diff_drill_down_expanded_states_are_different" = "Group Expanded states are different.";
+"diff_drill_down_expanded_states_are_different" = "グループの展開された状態が異なります。";
 
 /* Previous Parent Group */
-"item_properties_previous_parent_group" = "Previous Parent Group";
+"item_properties_previous_parent_group" = "前の親グループ";
 
 /* %@ & PIN Codes - L10n Note: The first parameter is automatically be replaced by the appropriate biometric name for the device (i.e. Face ID or Touch ID) - So the string will look like e.g. 'Face ID & PIN Codes' */
-"convenience_unlock_preferences_title_fmt" = "%@ & PIN Codes";
+"convenience_unlock_preferences_title_fmt" = "%@ & PIN コード";
 
 /* Require After */
-"convenience_unlock_require_after_prefix" = "Require After";
+"convenience_unlock_require_after_prefix" = "マスターパスワードの入力を要求するまでの時間";
 
 /* It's time now to re-enter your Master Password manually. You can change this reminder interval in Database Settings. */
-"composite_key_determiner_convenience_expired_message" = "It's time now to re-enter your Master Password manually. You can change this reminder interval in Database Settings.";
+"composite_key_determiner_convenience_expired_message" = "マスターパスワードを再度手動で入力してください。このリマインダーを表示する間隔はデータベース設定で変更できます。";
 
 /* Got it! */
 "generic_got_it" = "分かりました！";
@@ -4317,243 +4317,243 @@
 "generic_preferences" = "環境設定";
 
 /* Rearrange - L10n - Verb - to re-order or otherwise change the order of a list of items */
-"generic_rearrange" = "Rearrange";
+"generic_rearrange" = "並び替え";
 
 /* Typing your master password is slow, cumbersome and error prone. Strongbox can help you to conveniently and securely unlock your database so that you don't need to enter your master password all the time.\n\nWould you like to use Convenience Unlock? */
-"onboarding_convenience_message_fmt" = "Typing your master password is slow, cumbersome and error prone. Strongbox can help you to securely & quickly unlock your database without needing to use your master password every time.\n\nWould you like to use Convenience Unlock?";
+"onboarding_convenience_message_fmt" = "マスターパスワードを手動で入力するのは時間がかかるほか、面倒で、入力ミスもしやすくなります。Strongbox を使用すると、毎回マスターパスワードを使用しなくても、安全にかつすばやくデータベースのロックを解除できます。\n\nコンビニエンスロック解除を使用しますか？";
 
 /* Dismiss - L10n Note: Generic Action to dismiss a dialog or popup */
 "generic_dismiss" = "閉じる";
 
 /* There is a configuration issue you should be aware of. You are using %@ for both App Lock and Quick Launch. In addition you allow device passcode fallback for App Lock.\n\nThis leads to a situation where you can unlock your database using only your device passcode.\n\nIf you do not want this you can do any of the following: Disable App Lock passcode fallback, or Quick Launch, or %@ Database Unlock, or coalescing of unlocks - L10n Note: 3 format parameters here are identical and will be either 'Face ID' or 'Touch ID' */
-"app_lock_coalescing_with_quick_launch_warning" = "There is a configuration issue you should be aware of. You are using %@ for both App Lock and Quick Launch. In addition you allow device passcode fallback for App Lock.\n\nThis leads to a situation where you can unlock your database using only your device passcode.\n\nIf you do not want this you can do any of the following: Disable App Lock passcode fallback, or Quick Launch, or %@ Database Unlock, or coalescing of unlocks.";
+"app_lock_coalescing_with_quick_launch_warning" = "設定に関する問題でお客様にお伝えしたいことがございます。お客様はアプリロックとクイック起動の両方に %@ を使用されています。また、アプリロックについては、デバイスのパスコードのフォールバックを許可されています。\n\nそうした場合、デバイスのパスコードだけを使ってデータベースのロックを解除できてしまうという状況が生まれてしまいます。\n\nそうした状況を好まない場合は、アプリロックのパスコードのフォールバックを無効化する、クイック起動を無効化する、%@ データベースロック解除を無効化する、ロック解除を融合する、のいずれかを行ってください。";
 
 /* Configuration Issue */
-"onboarding_configuration_issue_title" = "Configuration Issue";
+"onboarding_configuration_issue_title" = "設定に関する問題";
 
 /* Let's Go - L10n Note: Generic Action Button to get started, similar to OK, but more friendly and indicates progression */
-"generic_lets_go" = "Let's Go";
+"generic_lets_go" = "レッツゴー！";
 
 /* Ready to Launch */
-"onboarding_ready_to_launch_title" = "Ready to Launch";
+"onboarding_ready_to_launch_title" = "起動準備完了";
 
 /* You're all set to get the best out of Strongbox.\n\nDon't forget you can always tweak these settings at any time. */
-"onboarding_ready_to_launch_message" = "You're all set to get the best out of Strongbox.\n\nDon't forget you can always tweak these settings at any time.";
+"onboarding_ready_to_launch_message" = "Strongbox をフル活用する準備が整いました。\n\nこれらの設定はいつでも変更していただけます。";
 
 /* Scheduled Export */
-"onboarding_scheduled_export_title" = "Scheduled Export";
+"onboarding_scheduled_export_title" = "予定されたエクスポート";
 
 /* It's always a good idea to keep backups, especially external ones. Strongbox can remind you to export your database every so often.\n\nWould you like Strongbox to prompt you to export your database if it has been a while? */
-"onboarding_scheduled_export_message" = "It's always a good idea to keep backups, especially external ones. Strongbox can remind you to export your database every so often.\n\nWould you like Strongbox to prompt you to export your database if it has been a while?";
+"onboarding_scheduled_export_message" = "バックアップを取っておくと良いでしょう。特に、外部に取ることをお勧めします。Strongbox では、時折データベースをエクスポートするリマインダーを表示できます。\n\nデータベースをしばらくエクスポートしていないときは、Strongbox からプロンプトが表示されるようにしますか？";
 
 /* Remind me after 2 weeks */
-"onboarding_scheduled_export_onboarding_remind_2_weeks" = "Remind me after 2 weeks";
+"onboarding_scheduled_export_onboarding_remind_2_weeks" = "2 週間後にリマインダーを表示";
 
 /* Remind me after 4 weeks */
-"onboarding_scheduled_export_onboarding_remind_4_weeks" = "Remind me after 4 weeks";
+"onboarding_scheduled_export_onboarding_remind_4_weeks" = "4 週間後にリマインダーを表示";
 
 /* Don't Remind Me */
-"generic_dont_remind_me" = "Don't Remind Me";
+"generic_dont_remind_me" = "リマインダーは表示しない";
 
 /* It's time to export a backup copy of your database somewhere safe.\n\nWould you like do that now? */
-"scheduled_export_message" = "It's time to export a backup copy of your database somewhere safe.\n\nWould you like do that now?";
+"scheduled_export_message" = "データベースのバックアップコピーを安全な場所にエクスポートしてください。\n\n今すぐしますか？";
 
 /* Postpone */
-"generic_postpone" = "Postpone";
+"generic_postpone" = "後でする";
 
 /* iCloud Create Database Error */
-"icloud_create_issue_title" = "iCloud Create Database Error";
+"icloud_create_issue_title" = "iCloud データベース作成エラー";
 
 /* Strongbox could not create a new iCloud Database for you, most likely because the Strongbox iCloud folder has been deleted.\n\nYou can find out how to fix this issue below. */
-"icloud_create_issue_message" = "Strongbox could not create a new iCloud Database for you, most likely because the Strongbox iCloud folder has been deleted.\n\nYou can find out how to fix this issue below.";
+"icloud_create_issue_message" = "Strongbox は iCloud データベースを新規作成できませんでした。Strongbox の iCloud フォルダーが削除されていることが原因であると思われます。\n\nこの問題を解決する方法は以下を参照してください。";
 
 /* How do I fix this? */
-"icloud_create_issue_fix" = "How do I fix this?";
+"icloud_create_issue_fix" = "どうすれば解決できますか？";
 
 /* Create local database instead */
-"icloud_create_issue_local_instead" = "Create local database instead";
+"icloud_create_issue_local_instead" = "代わりにローカルデータベースを作成する";
 
 /* Copied - L10n Note: This means a string has just been copied to the clipboard. Used to notify user via a toast message or similar. */
-"generic_copied" = "Copied";
+"generic_copied" = "コピーされました";
 
 /* Scheduled Export Interval */
-"prefs_vc_scheduled_export_interval" = "Scheduled Export Interval";
+"prefs_vc_scheduled_export_interval" = "定期エクスポートの間隔";
 
 /* Welcome Aboard */
-"onboarding_welcome_to_strongbox_first_run_title" = "Welcome Aboard";
+"onboarding_welcome_to_strongbox_first_run_title" = "ようこそ！";
 
 /* Hi there, and welcome to Strongbox 😎\n\nWe're sure you're excited to get started, but first, there are a few steps we should take so that everything runs smoothly... */
-"onboarding_welcome_to_strongbox_first_run_message" = "Hi there, and welcome to Strongbox 😎\n\nWe're sure you're excited to get started, but first, there are a few steps we should take so that everything runs smoothly...";
+"onboarding_welcome_to_strongbox_first_run_message" = "こんにちは、Strongbox へようこそ 😎\n\n早く始めたくてうずうずされていることだと思います。しかし、まずは、すべてをスムーズに進めるために欠かせないステップがいくつかあります。";
 
 /* Don't Use iCloud */
-"prefs_vc_dont_use_icloud_action" = "Don't Use iCloud";
+"prefs_vc_dont_use_icloud_action" = "iCloud は使用しない";
 
 /* Get Started */
-"generic_get_started" = "Get Started";
+"generic_get_started" = "始める";
 
 /* You're All Set! */
 "generic_youre_all_set" = "セットアップ完了です！";
 
 /* Next up, we'll take you to your regular Databases screen.\n\nFrom here, we'll help you add your first password database.\n\n❤️ The Strongbox Team ❤️ */
-"onboarding_welcome_to_strongbox_first_run_final_message" = "Next up, we'll take you to your regular Databases screen.\n\nFrom here, we'll help you add your first password database.\n\n❤️ The Strongbox Team ❤️";
+"onboarding_welcome_to_strongbox_first_run_final_message" = "次に、データベースの通常の画面をお見せします。\n\nここから、最初のパスワードデータベースを追加するお手伝いをします。\n\n❤️ Strongbox チーム ❤️";
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 /* Fix the format string crashes that are possible when these are incorrectly localized */
 /* %@'s Database %@  - (Tranlators Note: 1st param is the users name, and 2nd param is a number, e.g. 'Mark's Database 3' ), indicating this is Mark's 3rd database */
 
-"casg_suggested_database_name_users_database_number_suffix_fmt2" = "%@'s Database %@";
+"casg_suggested_database_name_users_database_number_suffix_fmt2" = "%@ のデータベース %@";
 
 /* About Strongbox %@ (Pro Trial - %@ days left)  - (Tranlators Note: 1st param is the version number and 2nd is number of days left in the Free Trial, e.g. 'About Strongbox 1.52.20 (Pro Trial - 75 days left)')  */
-"prefs_vc_app_version_info_pro_trial_fmt2" = "About Strongbox %@ (Pro Trial - %@ days left)";
+"prefs_vc_app_version_info_pro_trial_fmt2" = "Strongbox %@ について (Pro 版トライアル - 残り %@ 日)";
 
 /* %@ / month (Save %@%%)  - (Tranlators Note: Price per month and percentage savings indicator. e.g. $1.99/month (Save 20%)). Currency, percentage and price formatting is automatic. */
-"upgrade_vc_price_per_month_with_percentage_saving_fmt2" = "%@ / month (Save %@%%)";
+"upgrade_vc_price_per_month_with_percentage_saving_fmt2" = "%@ / 月 (%@%% 割引)";
 
 /* Original (%@ x %@) %@  - (Tranlators Note: Attachment Image Size (Dimensions and File Size), e.g. 'Original: (2048x2048) 24.2 MB')  */
-"add_attachment_vc_large_image_prompt_option_original_size_fmt2" = "Original (%@ x %@) %@";
+"add_attachment_vc_large_image_prompt_option_original_size_fmt2" = "元のサイズ (%@ x %@) %@";
 
 /* Use Anyway (%@ x %@) %@  - (Tranlators Note: Attachment Image Size (Dimensions and File Size), e.g. 'Use Anyway: (2048x2048) 24.2 MB')  */
-"add_attachment_vc_large_image_prompt_option_use_anyway_size_fmt2" = "Use Anyway (%@ x %@) %@";
+"add_attachment_vc_large_image_prompt_option_use_anyway_size_fmt2" = "このまま使用する (%@ x %@) %@";
 
 /* This is a rather large image (%@x%@), would you like to rescale it to a maximum dimension of %@ pixels for a file size saving of roughly %@  - (Tranlators Note: Message about reducing the file size of an image. e.g. 'This is a rather large image (4096x4096), would you like to rescale it to a maximum dimension of 512 pixels for a file size saving of roughly 15 MB')  */
-"set_icon_vc_prompt_rescale_image_message_fmt2" = "This is a rather large image (%@x%@), would you like to rescale it to a maximum dimension of %@ pixels for a file size saving of roughly %@";
+"set_icon_vc_prompt_rescale_image_message_fmt2" = "これは非常に大きな画像です (%@x%@)。%@ ピクセルの最大寸法に縮小しますか？(ファイルサイズをおよそ %@ 節約できます)";
 
 /* YubiKey %@ Slot %@ (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
-"mac_yubikey_serial_number_slot_n_touch_required_fmt2" = "YubiKey %@ Slot %@ (Touch Required)";
+"mac_yubikey_serial_number_slot_n_touch_required_fmt2" = "YubiKey %@ スロット %@ (タッチが必要)";
 
 /* YubiKey %@ Slot %@  - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2) */
-"mac_yubikey_serial_number_slot_n_fmt2" = "YubiKey %@ Slot %@";
+"mac_yubikey_serial_number_slot_n_fmt2" = "YubiKey %@ スロット %@";
 
 /* Backup %@ (%@) - Translators Note: 1st Param is a number/integer, second parameter is the modified date, so e.g. 'Backup 4 (11 Nov 2020)'*/
-"backups_backup_title_fmt2" = "Backup %@ (%@)";
+"backups_backup_title_fmt2" = "バックアップ %@ (%@)";
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 /* Strongbox has been downgraded from Pro.\n\nDon't worry, all your databases are still available, but some convenient features (e.g. %@) may no longer work.\n\nThis is probably because your trial or subscription has just ended.\n\nWe'd love if you could support us by upgrading to Pro.\n\nWould you like to do that now? */
 
-"upgrade_mgr_downgrade_message" = "Strongbox has been downgraded from Pro.\n\nDon't worry, all your databases are still available, but some convenient features (e.g. %@) will no longer work.\n\nThis is probably because your trial or subscription has just ended.\n\nWe'd love if you could support us by upgrading to Pro.\n\nWould you like to do that now?";
+"upgrade_mgr_downgrade_message" = "Strongbox は Pro 版からダウングレードされました。\n\n引き続きすべてのデータベースをご利用いただけますので、ご安心ください。ただし、便利な機能 (%@ など) は一部ご利用いただけなくなりますのでご了承ください。\n\nこれは、お客様のトライアルもしくはサブスクリプションが終了したためだと思われます。\n\nPro 版にアップグレードして、当社をご支援いただければ幸いです。\n\n今すぐアップグレードされますか？";
 
 /* Upgrade... (L10n: A verb, To Upgrade, followed by ellipsis) */
-"generic_upgrade_ellipsis" = "Upgrade...";
+"generic_upgrade_ellipsis" = "アップグレード...";
 
 /* Free Trial Ending Soon */
-"upgrade_onboarding_free_trial_ending_soon_title" = "Free Trial Ending Soon";
+"upgrade_onboarding_free_trial_ending_soon_title" = "無料トライアルが間もなく終了します";
 
 /* Your free trial of Strongbox Pro will end next week, and we wouldn't want you to lose any of the cool Pro features.\n\nWould you like to support Strongbox and take a look at some of the Upgrade options? */
-"upgrade_onboarding_free_trial_ending_soon_message" = "Your free trial of Strongbox Pro will end next week, and we wouldn't want you to lose any of the cool Pro features.\n\nWould you like to support Strongbox and take a look at some of the Upgrade options?";
+"upgrade_onboarding_free_trial_ending_soon_message" = "Strongbox Pro 版の無料トライアルは来週終了します。引き続き Pro 版の素晴らしい機能をご利用ください。\n\nぜひ Strongbox をご支援ください。アップグレードのオプションを一部ご覧になりますか？";
 
 /* Strongbox could not find a QR Code in this image. */
-"could_not_find_qr_code" = "Strongbox could not find a QR Code in this image.";
+"could_not_find_qr_code" = "Strongbox はこの画像の QR コードを見つけられませんでした。";
 
 /* Scan QR Code with Camera */
-"scan_qr_code_from_camera" = "Scan QR Code with Camera";
+"scan_qr_code_from_camera" = "カメラで QR コードをスキャン";
 
 /* Would you like to sync before exporting to ensure you have the latest version of your database? */
-"sync_before_export_question_yes_no" = "Would you like to sync before exporting to ensure you have the latest version of your database?";
+"sync_before_export_question_yes_no" = "データベースが最新版であることを保証できるよう、エクスポートする前に同期しておきますか？";
 
 /* This database is already open. Please close it first if you would like to open it in a different mode. */
-"database_already_open_please_close" = "This database is already open. Please close it first if you would like to open it in a different mode.";
+"database_already_open_please_close" = "このデータベースはすでに開いています。別のモードで開きたい場合は、まず最初に閉じてください。";
 
 /* Offline - L10n note: this is an adjective, meaning the current database has been opened in Offline mode */
-"database_offline_mode_window_suffix" = "Offline";
+"database_offline_mode_window_suffix" = "オフライン";
 
 /* Destination Database */
-"export_items_select_destination_database_title" = "Destination Database";
+"export_items_select_destination_database_title" = "エクスポート先データベース";
 
 /* Export Here */
-"export_items_select_destination_group_title" = "Export Here";
+"export_items_select_destination_group_title" = "ここにエクスポート";
 
 /* Export Database */
-"generic_export_database" = "Export Database";
+"generic_export_database" = "データベースをエクスポート";
 
 /* Export Item */
-"generic_export_item" = "Export Item";
+"generic_export_item" = "アイテムのエクスポート";
 
 /* 1 item will be replaced in destination database '%@'. (L10n Note: 1st Param is the destination database name e.g. '1 item will be replaced in destination database 'Mark's Database'.') */
-"export_options_1_replaced_fmt" = "1 item will be replaced in destination database '%@'.";
+"export_options_1_replaced_fmt" = "エクスポート先データベース '%@' で 1 個のアイテムが置換されます。";
 
 /* %@ items will be exported with 1 item being replaced in destination database '%@'. (L10n Note: 1st Param is the number of items that will be exported and 2nd param is the destination database name) */
-"export_options_n_items_1_replaced_fmt" = "%@ items will be exported with 1 item being replaced in destination database '%@'.";
+"export_options_n_items_1_replaced_fmt" = "%@ 個のアイテムがエクスポートされ、1 個のアイテムがエクスポート先データベース '%@' で置換されます。";
 
 /* %@ items will be exported with %@ items being replaced in destination database '%@'. (L10n Note: 1st Param is the number of items that will be exported and 2nd param is the number of replacements. 3rd param is the destination database name */
-"export_options_n_items_n_replaced_fmt" = "%@ items will be exported with %@ items being replaced in destination database '%@'.";
+"export_options_n_items_n_replaced_fmt" = "%@ 個のアイテムがエクスポートされ、%@ 個のアイテムがエクスポート先データベース '%@' で置換されます。";
 
 /* 1 item will be added to destination database '%@'. (L10n Note: 1st Param is the destination database name */
-"export_options_1_added_fmt" = "1 item will be added to destination database '%@'.";
+"export_options_1_added_fmt" = "1 個のアイテムがエクスポート先データベース '%@' に追加されます。";
 
 /* %@ items will be added to destination database '%@'. (L10n Note: 1st Param is the number of items that will be exported and 2nd param is the destination database name */
-"export_options_n_added_fmt" = "%@ items will be added to destination database '%@'.";
+"export_options_n_added_fmt" = "%@ 個のアイテムがエクスポート先データベース '%@' に追加されます。";
 
 /* Are you sure you want to replace the existing matching item(s) in the destination database? */
-"export_are_you_sure_replace" = "Are you sure you want to replace the existing matching item(s) in the destination database?";
+"export_are_you_sure_replace" = "エクスポート先データベースに既存の一致するアイテムを置換しますか？";
 
 /* The 'Export Items' feature is part of the Pro feature set. Upgrade to enjoy! */
-"export_is_a_pro_feature_message" = "The 'Export Items' feature is part of the Pro feature set. Upgrade to enjoy!";
+"export_is_a_pro_feature_message" = "'アイテムのエクスポート' 機能は Pro 版の機能の 1 つです。アップグレードしてご利用ください！";
 
 /* Your selected items have now be exported to the destination database. */
-"export_vc_export_items_successful_message" = "Your selected items have now been exported to the destination database.";
+"export_vc_export_items_successful_message" = "選択したアイテムはエクスポート先データベースにエクスポートされました。";
 
 /* Export Failed */
-"export_vc_export_failed_title" = "Export Failed";
+"export_vc_export_failed_title" = "エクスポートに失敗しました";
 
 /* There was a problem exporting some or all of these items. The export has been cancelled. */
-"export_vc_export_items_failed_message" = "There was a problem exporting some or all of these items. The export has been cancelled.";
+"export_vc_export_items_failed_message" = "これらのアイテムの一部またはすべてをエクスポートしている最中に問題が発生しました。エクスポートはキャンセルされました。";
 
 /* Format Incompatibilities */
-"database_format_incompatibilities_title" = "Format Incompatibilities";
+"database_format_incompatibilities_title" = "フォーマットの非互換性";
 
 /* Determining Fast Unlock */
-"yubikey_fast_unlock_title" = "Determining Fast Unlock";
+"yubikey_fast_unlock_title" = "すばやいロック解除の決定";
 
 /* Strongbox is determining the fastest way to unlock this database. You will be asked to scan your YubiKey once again. */
-"yubikey_fast_unlock_message" = "Strongbox is determining the fastest way to unlock this database. You will be asked to scan your YubiKey once again.";
+"yubikey_fast_unlock_message" = "Strongbox はこのデータベースのロックをすばやく解除する方法を決定しています。YubiKey をもう一度スキャンしていただきます。";
 
 /* Title displayed in tableview when there are no SFTP or WebDAV connections setup */
-"empty_connections_list_tableview_title" = "No Connections Yet";
+"empty_connections_list_tableview_title" = "まだ接続が確立されていません";
 
 /* Please enter a valid name. */
-"connection_vc_name_invalid" = "Please enter a valid name.";
+"connection_vc_name_invalid" = "有効な名前を入力してください。";
 
 /* Tap '+' to add a connection. */
-"tap_plus_to_add_a_connection_hint" = "Tap '+' to add a connection.";
+"tap_plus_to_add_a_connection_hint" = "'+' をタップして接続を追加します。";
 
 /* Select Connection */
-"select_webdav_or_sftp_connection" = "Select Connection";
+"select_webdav_or_sftp_connection" = "接続を選択";
 
 /* Slide left for options */
-"slide_left_for_options" = "Slide left for options";
+"slide_left_for_options" = "左にスワイプしてオプションを表示";
 
 /* Not used by any databases. */
-"not_used_by_any_databases" = "Not used by any databases.";
+"not_used_by_any_databases" = "どのデータベースにも使用されていません。";
 
 /* Used by '%@' - L10n note: 1st param is a database name e.g. 'Mark's Database' */
-"used_by_database_name_fmt" = "Used by '%@'";
+"used_by_database_name_fmt" = "'%@' が使用中";
 
 /* Used by '%@' and %@ more - L10n note: 1st param is a database name e.g. 'Mark's Database', 2nd param is a number/count of how many other databases are using this item */
-"used_by_database_name_and_n_more_fmt" = "Used by '%@' and %@ more";
+"used_by_database_name_and_n_more_fmt" = "'%@' と %@ 個のデータベースが使用中";
 
 /* SFTP Connection... */
-"generic_action_edit_sftp_connection_ellipsis" = "SFTP Connection...";
+"generic_action_edit_sftp_connection_ellipsis" = "SFTP 接続...";
 
 /* WebDAV Connection... */
-"generic_action_edit_webdav_connection_ellipsis" = "WebDAV Connection...";
+"generic_action_edit_webdav_connection_ellipsis" = "WebDAV 接続...";
 
 /* Are you want to change the connection for this database? */
-"are_you_sure_change_connection" = "Are you sure you want to change the connection for this database?";
+"are_you_sure_change_connection" = "このデータベースの接続を変更しますか？";
 
 /* Reselect SFTP File... */
-"reselect_sftp_file_ellipsis" = "Reselect SFTP File...";
+"reselect_sftp_file_ellipsis" = "SFTP ファイルを再選択...";
 
 /* Reselect WebDAV File... */
-"reselect_webdav_file_ellipsis" = "Reselect WebDAV File...";
+"reselect_webdav_file_ellipsis" = "WebDAV ファイルを再選択...";
 
 /* Are you sure you want to use this file for this database? */
-"are_you_sure_use_this_file_this_database" = "Are you sure you want to use this file for this database?";
+"are_you_sure_use_this_file_this_database" = "このデータベースにこのファイルを使用しますか？";
 
 /* Your private key or password is no longer available, probably because you've just migrated to a new device.\nPlease edit your connection to fix. */
-"password_unavailable_please_edit_connection_error" = "Your private key or password is no longer available, probably because you've just migrated to a new device.\nPlease edit your connection to fix.";
+"password_unavailable_please_edit_connection_error" = "お使いのプライベートキーまたはパスワードが使用できなくなっています。新しいデバイスに移行されたためだと思われます。\n修正するには、接続を変更してください。";
 
 /* Password Missing */
-"password_missing" = "Password missing";
+"password_missing" = "パスワードがありません";
 
 /* Private Key or Password missing */
-"pk_or_password_missing" = "Private Key or Password missing";
+"pk_or_password_missing" = "プライベートキーまたはパスワードがありません";
