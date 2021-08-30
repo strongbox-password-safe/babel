@@ -608,8 +608,8 @@
 /* Setup TOTP... */
 "item_details_setup_totp" = "TOTP einrichten...";
 
-/* Could not set TOTP because it could not be initialized. */
-"item_details_setup_totp_failed_message" = "TOTP konnte nicht eingerichtet werden, da es nicht initialisiert werden konnte.";
+/* Could not set TOTP because the format is unsupported. */
+"item_details_setup_totp_failed_message" = "Could not set TOTP because the format is unsupported.";
 
 /* Failed to Set TOTP */
 "item_details_setup_totp_failed_title" = "TOTP-Einrichtung fehlgeschlagen";
@@ -1706,8 +1706,8 @@
 /* Tip displayed at top of screen. Slide left on Database for options */
 "safes_vc_tip" = "Tipp: Für Optionen Datenbank nach links schieben";
 
-/* Tip: Tap to Copy, Double Tap to Copy Notes */
-"item_details_tip" = "Tipp: Zum Kopieren antippen, um Anmerkungen zu kopieren doppelt tippen";
+/* Tip: Tap to Copy or Long Tap for Large View */
+"item_details_tip" = "Tip: Tap to Copy or Long Tap for Large View";
 
 /* Tip: Slide Left for Options or Tap to View */
 "keepass_history_tip" = "Tipp: Für Optionen nach links wischen, zum Anzeigen tippen";
@@ -1820,8 +1820,8 @@
 /* Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences */
 "open_sequence_error_reading_key_file_autofill_context" = "Die Schlüsseldatei konnte nicht gelesen werden. Bitte überprüfen Sie in den Einstellungen unter \"Schlüsseldatei verwalten\", ob die Datei richtig importiert wurde";
 
-/* Local Network (Built In Http Server for Upload) with a Wifi Icon... */
-"sspc_local_network_storage_location" = "Übertragung über lokales Netzwerk";
+/* Transfer over WiFi (or LAN) */
+"sspc_local_network_storage_location" = "Transfer over WiFi (or LAN)";
 
 /* A storage provider is in the process of reading. This is the status displayed on the progress dialog. In english:  Reading... */
 "storage_provider_status_reading" = "Lese...";
@@ -3199,8 +3199,8 @@
 /* No Excluded Items */
 "audit_drill_down_no_excluded_items_title" = "Keine ausgeschlossenen Einträge";
 
-/* You have not explicitly excluded any items from the audit. You can exclude an item by sliding right on it and tapping the Audit button. */
-"audit_drill_down_no_excluded_items_subtitle" = "Sie haben keine Einträge explizit vom Audit ausgeschlossen. Sie können einen Eintrag ausschließen, indem Sie nach rechts wischen und auf den Audit-Button tippen.";
+/* You have not explicitly excluded any items from the audit. You can exclude an item by long tapping on it > Audit > Audit this Item > Toggle Off. */
+"audit_drill_down_no_excluded_items_subtitle" = "You have not explicitly excluded any items from the audit. You can exclude an item by long tapping on it > Audit > Audit this Item > Toggle Off.";
 
 /* Unexclude */
 "audit_excluded_items_vc_action_unclude" = "Nicht ausschließen";
@@ -4557,3 +4557,6 @@
 
 /* Private Key or Password missing */
 "pk_or_password_missing" = "Privater Schlüssel oder Passwort fehlt";
+
+/* Select Destination Group - L10n Note: When a user is moving item(s) to another group in a database, this is the title. */
+"select_destination_group" = "Select Destination Group";
