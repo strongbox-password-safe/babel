@@ -608,8 +608,8 @@
 /* Setup TOTP... */
 "item_details_setup_totp" = "Добавить TOTP";
 
-/* Could not set TOTP because it could not be initialized. */
-"item_details_setup_totp_failed_message" = "Не удалось добавить TOTP, поскольку он не может быть инициализирован";
+/* Could not set TOTP because the format is unsupported. */
+"item_details_setup_totp_failed_message" = "Не удалось добавить TOTP, т.к. формат не поддерживается.";
 
 /* Failed to Set TOTP */
 "item_details_setup_totp_failed_title" = "Ошибка при добавлении TOTP";
@@ -1706,8 +1706,8 @@
 /* Tip displayed at top of screen. Slide left on Database for options */
 "safes_vc_tip" = "Смахните влево по БД для опций";
 
-/* Tip: Tap to Copy, Double Tap to Copy Notes */
-"item_details_tip" = "Одиночное нажатие для копирования или двойное для копирования заметок";
+/* Tip: Tap to Copy or Long Tap for Large View */
+"item_details_tip" = "Коснитесь, чтобы копировать или нажмите и удерживайте для просмотра";
 
 /* Tip: Slide Left for Options or Tap to View */
 "keepass_history_tip" = "Смахните влево для опций или нажмите для просмотра";
@@ -1820,8 +1820,8 @@
 /* Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences */
 "open_sequence_error_reading_key_file_autofill_context" = "Не удалось открыть файл-ключ. Откройте Файл-ключи в настройках и проверьте данные.";
 
-/* Local Network (Built In Http Server for Upload) with a Wifi Icon... */
-"sspc_local_network_storage_location" = "Локальная сеть";
+/* Transfer over WiFi (or LAN) */
+"sspc_local_network_storage_location" = "Передача по WiFi (LAN)";
 
 /* A storage provider is in the process of reading. This is the status displayed on the progress dialog. In english:  Reading... */
 "storage_provider_status_reading" = "Чтение ...";
@@ -2685,10 +2685,10 @@
 "mac_browse_for_key_file" = "Обзор ...";
 
 /* [Configured] - (Translators Note: User is using a key file, Strongbox knows what/where it is, but will not display the file name in the UI for privacy reasons. This appears on the unlock screen. */
-"mac_key_file_configured_but_filename_hidden" = "[установлен]";
+"mac_key_file_configured_but_filename_hidden" = "[Установлен]";
 
 /* %@ [Configured] - (Translators Note: User is using a key file that has previously been set/remembered by Strongbox. First parameter is the filename of the key file. This appears on the unlock screen. */
-"mac_key_file_filename_configured_fmt" = "%@ [установлен]";
+"mac_key_file_filename_configured_fmt" = "%@ [Установлен]";
 
 /* Touch ID/Apple Watch Unlock is not possible at the moment because Touch ID/Apple Watch is not available. */
 "mac_info_biometric_unlock_not_possible_right_now" = "Разблокировка с помощью Touch ID/Apple Watch на данный момент невозможна, поскольку Touch ID/Apple Watch недоступен.";
@@ -3199,7 +3199,7 @@
 /* No Excluded Items */
 "audit_drill_down_no_excluded_items_title" = "Записей не найдено";
 
-/* You have not explicitly excluded any items from the audit. You can exclude an item by sliding right on it and tapping the Audit button. */
+/* You have not explicitly excluded any items from the audit. You can exclude an item by long tapping on it > Audit > Audit this Item > Toggle Off. */
 "audit_drill_down_no_excluded_items_subtitle" = "Для исключения из проверки выберите в контекстном меню записи опцию аудита.";
 
 /* Unexclude */
@@ -3233,7 +3233,7 @@
 "database_format_password_safe" = "Password Safe 3";
 
 /* ***************** (Translators Note: No need to translate here - this is just to remove XCode warnings about untranslated strings) */
-"generic_masked_protected_field_text" = "*****************";
+"generic_masked_protected_field_text" = "•••••••••••••••••";
 
 /* Diceware (XKCD) */
 "password_gen_vc_mode_diceware_xkcd_title" = "Diceware (XKCD)";
@@ -4557,3 +4557,6 @@
 
 /* Private Key or Password missing */
 "pk_or_password_missing" = "Отсутствует закрытый ключ или пароль";
+
+/* Select Destination Group - L10n Note: When a user is moving item(s) to another group in a database, this is the title. */
+"select_destination_group" = "Выбор группы";

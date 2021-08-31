@@ -608,8 +608,8 @@
 /* Setup TOTP... */
 "item_details_setup_totp" = "TOTP instellen...";
 
-/* Could not set TOTP because it could not be initialized. */
-"item_details_setup_totp_failed_message" = "TOTP kan niet worden ingesteld omdat deze niet kan worden geïnitialiseerd.";
+/* Could not set TOTP because the format is unsupported. */
+"item_details_setup_totp_failed_message" = "Could not set TOTP because the format is unsupported.";
 
 /* Failed to Set TOTP */
 "item_details_setup_totp_failed_title" = "TOTP instellen mislukt";
@@ -1706,8 +1706,8 @@
 /* Tip displayed at top of screen. Slide left on Database for options */
 "safes_vc_tip" = "Tip: Schuif naar links op de database voor opties";
 
-/* Tip: Tap to Copy, Double Tap to Copy Notes */
-"item_details_tip" = "Tip: Tik om te kopiëren, dubbeltikken om notities te kopiëren";
+/* Tip: Tap to Copy or Long Tap for Large View */
+"item_details_tip" = "Tip: Tap to Copy or Long Tap for Large View";
 
 /* Tip: Slide Left for Options or Tap to View */
 "keepass_history_tip" = "Tip: Veeg naar links voor opties of tik om te bekijken";
@@ -1820,8 +1820,8 @@
 /* Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences */
 "open_sequence_error_reading_key_file_autofill_context" = "Sleutelbestand kan niet worden gelezen. Is het goed geïmporteerd? Controleer het beheer van sleutelbestanden in de voorkeuren";
 
-/* Local Network (Built In Http Server for Upload) with a Wifi Icon... */
-"sspc_local_network_storage_location" = "Transfer Over Lokaal Netwerk";
+/* Transfer over WiFi (or LAN) */
+"sspc_local_network_storage_location" = "Transfer over WiFi (or LAN)";
 
 /* A storage provider is in the process of reading. This is the status displayed on the progress dialog. In english:  Reading... */
 "storage_provider_status_reading" = "Lezen...";
@@ -3199,8 +3199,8 @@
 /* No Excluded Items */
 "audit_drill_down_no_excluded_items_title" = "Geen uitgesloten items";
 
-/* You have not explicitly excluded any items from the audit. You can exclude an item by sliding right on it and tapping the Audit button. */
-"audit_drill_down_no_excluded_items_subtitle" = "U hebt geen items expliciet uitgesloten van de audit. U kunt een item uitsluiten door erop te schuiven en op de knop Audit te tikken.";
+/* You have not explicitly excluded any items from the audit. You can exclude an item by long tapping on it > Audit > Audit this Item > Toggle Off. */
+"audit_drill_down_no_excluded_items_subtitle" = "You have not explicitly excluded any items from the audit. You can exclude an item by long tapping on it > Audit > Audit this Item > Toggle Off.";
 
 /* Unexclude */
 "audit_excluded_items_vc_action_unclude" = "Niet uitsluiten";
@@ -3233,7 +3233,7 @@
 "database_format_password_safe" = "Password Safe 3";
 
 /* ***************** (Translators Note: No need to translate here - this is just to remove XCode warnings about untranslated strings) */
-"generic_masked_protected_field_text" = "*****************";
+"generic_masked_protected_field_text" = "•••••••••••••••••";
 
 /* Diceware (XKCD) */
 "password_gen_vc_mode_diceware_xkcd_title" = "Diceware (XKCD)";
@@ -4557,3 +4557,6 @@
 
 /* Private Key or Password missing */
 "pk_or_password_missing" = "Private Key or Password missing";
+
+/* Select Destination Group - L10n Note: When a user is moving item(s) to another group in a database, this is the title. */
+"select_destination_group" = "Select Destination Group";

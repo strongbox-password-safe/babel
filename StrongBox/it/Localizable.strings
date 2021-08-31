@@ -608,8 +608,8 @@
 /* Setup TOTP... */
 "item_details_setup_totp" = "Imposta TOTP...";
 
-/* Could not set TOTP because it could not be initialized. */
-"item_details_setup_totp_failed_message" = "Impossibile impostare TOTP perché non può essere inizializzato.";
+/* Could not set TOTP because the format is unsupported. */
+"item_details_setup_totp_failed_message" = "Could not set TOTP because the format is unsupported.";
 
 /* Failed to Set TOTP */
 "item_details_setup_totp_failed_title" = "Fallita Impostazione TOTP";
@@ -1706,8 +1706,8 @@
 /* Tip displayed at top of screen. Slide left on Database for options */
 "safes_vc_tip" = "Suggerimento: Scorrere a sinistra sul database per le opzioni";
 
-/* Tip: Tap to Copy, Double Tap to Copy Notes */
-"item_details_tip" = "Suggerimento: Tocco per Copia, Doppio Tocco per Lancio Url o Copia Note";
+/* Tip: Tap to Copy or Long Tap for Large View */
+"item_details_tip" = "Tip: Tap to Copy or Long Tap for Large View";
 
 /* Tip: Slide Left for Options or Tap to View */
 "keepass_history_tip" = "Suggerimento: Scorrere a Sinistra per le Opzioni o Toccare per Visualizzare";
@@ -1820,8 +1820,8 @@
 /* Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences */
 "open_sequence_error_reading_key_file_autofill_context" = "Impossibile leggere File Chiave. È stato importato correttamente? Verificare Gestione File Chiave nelle Impostazioni";
 
-/* Local Network (Built In Http Server for Upload) with a Wifi Icon... */
-"sspc_local_network_storage_location" = "Trasferimento Tramite Rete Locale";
+/* Transfer over WiFi (or LAN) */
+"sspc_local_network_storage_location" = "Transfer over WiFi (or LAN)";
 
 /* A storage provider is in the process of reading. This is the status displayed on the progress dialog. In english:  Reading... */
 "storage_provider_status_reading" = "Lettura...";
@@ -3199,8 +3199,8 @@
 /* No Excluded Items */
 "audit_drill_down_no_excluded_items_title" = "Nessun Elemento Escluso";
 
-/* You have not explicitly excluded any items from the audit. You can exclude an item by sliding right on it and tapping the Audit button. */
-"audit_drill_down_no_excluded_items_subtitle" = "Non hai esplicitamente escluso alcun elemento dalla revisione. Puoi escludere un elemento scorrendolo verso destra e toccando il pulsante Revisione.";
+/* You have not explicitly excluded any items from the audit. You can exclude an item by long tapping on it > Audit > Audit this Item > Toggle Off. */
+"audit_drill_down_no_excluded_items_subtitle" = "You have not explicitly excluded any items from the audit. You can exclude an item by long tapping on it > Audit > Audit this Item > Toggle Off.";
 
 /* Unexclude */
 "audit_excluded_items_vc_action_unclude" = "Rimuovi dalle esclusioni";
@@ -3233,7 +3233,7 @@
 "database_format_password_safe" = "Password Safe 3";
 
 /* ***************** (Translators Note: No need to translate here - this is just to remove XCode warnings about untranslated strings) */
-"generic_masked_protected_field_text" = "*****************";
+"generic_masked_protected_field_text" = "•••••••••••••••••";
 
 /* Diceware (XKCD) */
 "password_gen_vc_mode_diceware_xkcd_title" = "Diceware (XKCD)";
@@ -4557,3 +4557,6 @@
 
 /* Private Key or Password missing */
 "pk_or_password_missing" = "Chiave Privata o Password mancanti";
+
+/* Select Destination Group - L10n Note: When a user is moving item(s) to another group in a database, this is the title. */
+"select_destination_group" = "Select Destination Group";
