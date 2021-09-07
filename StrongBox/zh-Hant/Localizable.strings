@@ -1593,10 +1593,10 @@
 "model_sample_group_title" = "Sample Group";
 
 /* username */
-"model_sample_entry_username" = "username";
+"model_sample_entry_username" = "用戶名";
 
 /* Sample */
-"model_sample_entry_title" = "Sample";
+"model_sample_entry_title" = "範例";
 
 /* SecureDrop */
 "pwgen_wordlist_securedrop" = "SecureDrop";
@@ -2957,7 +2957,7 @@
 "quick_view_title_all_entries_title" = "All Entries";
 
 /* View every entry in a flat list... */
-"quick_view_title_all_entries_subtitle" = "View every entry in a flat list...";
+"quick_view_title_all_entries_subtitle" = "在平面清單中檢視每個條目…";
 
 /* Audit Issues */
 "quick_view_title_audit_issues_title" = "Audit Issues";
@@ -3089,7 +3089,7 @@
 "item_details_prompt_auto_fetch_favicon_title" = "Auto Fetch FavIcon?";
 
 /* Strongbox can automatically fetch FavIcons when an new entry is created or updated.\n\nWould you like to Strongbox to do this? */
-"item_details_prompt_auto_fetch_favicon_message" = "Strongbox can automatically fetch FavIcons when an new entry is created or updated.\n\nWould you like to Strongbox to do this?";
+"item_details_prompt_auto_fetch_favicon_message" = "當建立或更新項目時， Strongbox 可以自動提取網頁圖標 。\n\n你想讓 Strongbox 來做這服務嗎？";
 
 /* Try Strongbox Pro? */
 "browse_pro_nudge_title" = "Try Strongbox Pro?";
@@ -3245,7 +3245,7 @@
 "autofill_error_unknown_db_message" = "This appears to be a reference to an older Strongbox database which can no longer be found. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill.";
 
 /* Strongbox: Error Locating Entry */
-"autofill_error_unknown_item_title" = "Strongbox: Error Locating Entry";
+"autofill_error_unknown_item_title" = "Strongbox：條目定位錯誤";
 
 /* Strongbox could not find this entry, it is possibly stale. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill. */
 "autofill_error_unknown_item_message" = "Strongbox could not find this entry, it is possibly stale. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill.";
@@ -3332,16 +3332,16 @@
 "autofill_vc_item_subtitle_disabled" = "AutoFill Disabled";
 
 /* Sync Required */
-"autofill_add_entry_sync_required_title" = "Sync Required";
+"autofill_add_entry_sync_required_title" = "需要同步";
 
 /* You have added a new entry and this change has been saved locally.\n\nDon't forget to switch to the main Strongbox app to fully sync these changes to %@. - Translators Note: The 1st parameter here is the storage location, e.g. 'Dropbox' */
 "autofill_add_entry_sync_required_message_fmt" = "You have added a new entry and this change has been saved locally.\n\nDon't forget to switch to the main Strongbox app to fully sync these changes to %@.";
 
 /* Got it! */
-"autofill_add_entry_sync_required_option_got_it" = "Got it!";
+"autofill_add_entry_sync_required_option_got_it" = "了解！";
 
 /* Don't tell me again */
-"autofill_add_entry_sync_required_option_dont_tell_again" = "Don't tell me again";
+"autofill_add_entry_sync_required_option_dont_tell_again" = "别再提示我";
 
 /* No Subscription Required */
 "onboarding_vc_start_your_free_trial_subtitle_no_subscription" = "No Subscription Required";
@@ -3416,7 +3416,7 @@
 "casg_yubikey_configured_virtual" = "Virtual Hardware Key";
 
 /* Manual Unlock - Translators Note: This is an option available to users of Face/Touch ID or PIN Code Unlock - Instead of using these convenience unlock methods, display the manual entry standard unlock screen to enter Master Password manually */
-"safes_vc_unlock_manual_action" = "Manual Unlock";
+"safes_vc_unlock_manual_action" = "手動解鎖";
 
 /* TIP: Tap and hold item to see options - Translators Note: Hint or Tip text usually displayed at the top of the screen, to indicate the user can or should tap and hold down to see a useful context menu with options they can perform on the items they are currently working with. */
 "hint_tap_and_hold_to_see_options" = "Tip: Tap and hold to see options";
@@ -3629,25 +3629,25 @@
 "diff_view_section_header_entry_differences_fmt" = "Items with Differences (%lu)";
 
 /* Will be Added (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_will_be_added_count_fmt" = "Will be Added (%lu)";
+"diff_view_section_header_entry_will_be_added_count_fmt" = "將新增 (%lu)";
 
 /* Only in Second Database (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
 "diff_view_section_header_only_in_second_fmt" = "Only in Second Database (%lu)";
 
 /* Will be Moved (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_will_be_moved_count_fmt" = "Will be Moved (%lu)";
+"diff_view_section_header_entry_will_be_moved_count_fmt" = "將移動 (%lu)";
 
 /* Items in Different Locations (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
 "diff_view_section_header_items_in_different_loc_fmt" = "Items in Different Locations (%lu)";
 
 /* Will be Deleted (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_will_be_deleted_count_fmt" = "Will be Deleted (%lu)";
+"diff_view_section_header_entry_will_be_deleted_count_fmt" = "將被刪除 (%lu)";
 
 /* Only in First Database (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
 "diff_view_section_header_only_in_first_fmt" = "Only in First Database (%lu)";
 
 /* History will Change (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_history_will_change_count_fmt" = "History will Change (%lu)";
+"diff_view_section_header_entry_history_will_change_count_fmt" = "歷史記錄將變更 (%lu)";
 
 /* Items with Historical Differences (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
 "diff_view_section_header_historical_diffs_fmt" = "Items with Historical Differences (%lu)";
@@ -4305,10 +4305,10 @@
 "composite_key_determiner_convenience_expired_message" = "It's time now to re-enter your Master Password manually. You can change this reminder interval in Database Settings.";
 
 /* Got it! */
-"generic_got_it" = "Got it!";
+"generic_got_it" = "了解！";
 
 /* Don't tell me again */
-"generic_dont_tell_again" = "Don't tell me again";
+"generic_dont_tell_again" = "别再提示我";
 
 /* Actions - L10n - a generic collection of actions (or items that will perform certain actions/tasks) - often used as a Section Header */
 "generic_actions" = "Actions";
