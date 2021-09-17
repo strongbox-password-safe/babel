@@ -1367,20 +1367,20 @@
 "open_sequence_error_reading_key_file" = "無法讀取金鑰檔案。是否已移動或刪除？請在喜好設定中檢查金鑰檔案管理";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc, 2nd param is the date/time of the last cache) */
-"open_sequence_user_looks_offline_open_offline_instead_fmt" = "It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@";
+"open_sequence_user_looks_offline_open_offline_instead_fmt" = "起來您可能正處於離線狀態，可能無法觸及「%@」。是否要改為使用此資料庫的唯讀離線快取版本？\n\n最近的快取：%@";
 
 /* No, Try to connect anyway */
 "open_sequence_yesno_use_offline_cache_no_try_connect_option" = "否，仍然嘗試連線";
 
 /* There was a problem reading the database on %@. would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ */
-"open_sequence_storage_unreachable_open_offline_instead_fmt" = "There was a problem reading the database on %@. If this happens repeatedly you should try removing and re-adding your database. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@";
+"open_sequence_storage_unreachable_open_offline_instead_fmt" = "在 %@ 上讀取資料庫時發生問題。如果此情況重複發生，您應該嘗試移除並重新建立新的資料庫。是否要改為使用此資料庫的唯讀離線快取版本？\n\n最近的快取：%@";
 
 /* Could not open database
    There was a problem opening the database. */
 "open_sequence_problem_opening_title" = "開啟資料庫時出現問題。";
 
 /* AutoFill Crash Likely */
-"open_sequence_autofill_creash_likely_title" = "AutoFill Crash Likely";
+"open_sequence_autofill_creash_likely_title" = "自動填入似乎當機了";
 
 /* Your database has encryption settings that may cause iOS Password AutoFill extensions to be terminated due to excessive resource consumption. This will mean AutoFill appears not to work. Unfortunately this is an Apple imposed limit. You could consider reducing the amount of resources consumed by your encryption settings (Memory in particular with Argon2 to below 64MB). */
 "open_sequence_autofill_creash_likely_message" = "您的資料庫過於龐大，或因其加密設定，可能會使資源消耗過度，導致 iOS 密碼自動填入的擴展終止。\n這表示自動填入可能無法使用。很不幸，這是 Apple 的硬性系統限制。\n您可以考慮縮小檔案大小或變更消耗的資源量 (尤其是讓 Argon2 所佔用的記憶體小於 64 MB) 。";
@@ -1392,10 +1392,10 @@
 "open_sequence_problem_opening_convenience_incorrect_message" = "快速密碼或其他組合金鑰因素 (金鑰檔案/YubiKey) 對此資料不正確。快速解鎖已停用。";
 
 /* Incorrect Credentials */
-"open_sequence_problem_opening_incorrect_credentials_title" = "Incorrect Credentials";
+"open_sequence_problem_opening_incorrect_credentials_title" = "不正確的憑證";
 
 /* The credentials were incorrect for this database. */
-"open_sequence_problem_opening_incorrect_credentials_message" = "The credentials were incorrect for this database.";
+"open_sequence_problem_opening_incorrect_credentials_message" = "此資料庫的憑證不正確。";
 
 /* Set Quick Launch? */
 "open_sequence_yesno_set_quick_launch_title" = "設定快速啟動？";
@@ -1491,7 +1491,7 @@
 "password_gen_vc_select_wordlists" = "選取字詞清單";
 
 /* Select Character Groups */
-"password_gen_vc_select_character_groups" = "Select Character Groups";
+"password_gen_vc_select_character_groups" = "選擇字元組";
 
 /* Word Separator */
 "password_gen_vc_prompt_word_separator" = "字分隔符";
@@ -1503,16 +1503,16 @@
 "cred_vc_error_opening_title" = "Strongbox：開啟資料庫時發生錯誤";
 
 /* You Have No Databases Yet :( */
-"autofill_safes_vc_empty_title" = "You Have No Databases Yet :(";
+"autofill_safes_vc_empty_title" = "您還沒有資料庫 :(";
 
 /* To use Strongbox for Password Autofill you need to add a database. You can do this in the Strongbox App. */
 "autofill_safes_vc_empty_subtitle" = "要使用 Strongbox 密碼自動填入功能，您需要新增一個資料庫。您可以在 Strongbox 應用程式中做到這一點。";
 
 /* Local */
-"autofill_safes_vc_storage_local_name" = "Local";
+"autofill_safes_vc_storage_local_name" = "本機";
 
 /* Local (Documents) */
-"autofill_safes_vc_storage_local_docs_name" = "Local (Documents)";
+"autofill_safes_vc_storage_local_docs_name" = "本機 (文件)";
 
 /* Clear Google Drive Session */
 "cloud_sessions_clear_google" = "清除 Google Drive 工作階段";
@@ -1590,10 +1590,10 @@
 "pick_creds_vc_empty_dataset_subtitle" = "It appears your database is empty";
 
 /* Sample Group */
-"model_sample_group_title" = "Sample Group";
+"model_sample_group_title" = "樣本群組";
 
 /* username */
-"model_sample_entry_username" = "username";
+"model_sample_entry_username" = "使用者名稱";
 
 /* Sample */
 "model_sample_entry_title" = "Sample";
@@ -2260,19 +2260,19 @@
 "mac_are_you_sure_recycle_bin_yes_no_fmt" = "您確定要把「%@」移動到資源回收筒嗎？";
 
 /* Are you sure you want to delete '%@'? - Translation Note: 1st Param is the Item Title  */
-"mac_are_you_sure_delete_yes_no_fmt" = "Are you sure you want to delete '%@'?";
+"mac_are_you_sure_delete_yes_no_fmt" = "您確定要刪除「%@」嗎？";
 
 /* Are you sure you want to send %lu items to the Recycle Bin? - Translation Note: 1st Param is the number of items being deleted  */
-"mac_are_you_sure_recycle_bin_multiple_yes_no_fmt" = "Are you sure you want to send %lu items to the Recycle Bin?";
+"mac_are_you_sure_recycle_bin_multiple_yes_no_fmt" = "您確定要將 %lu 個項目傳送到資源回收筒嗎？";
 
 /* Are you sure you want to delete %lu items? - Translation Note: 1st Param is the number of items being deleted */
-"mac_are_you_sure_delete_multiple_yes_no_fmt" = "Are you sure you want to delete %lu items?";
+"mac_are_you_sure_delete_multiple_yes_no_fmt" = "您確定要刪除 %lu 個項目嗎？";
 
 /* Delete Items */
-"mac_menu_item_delete_items" = "Delete Items";
+"mac_menu_item_delete_items" = "刪除項目";
 
 /* Delete Item */
-"mac_menu_item_delete_item" = "Delete Item";
+"mac_menu_item_delete_item" = "刪除項目";
 
 /* Choose CSV file to Import */
 "mac_choose_csv_file_import" = "選擇要匯入的 CSV 檔案";
@@ -2297,19 +2297,19 @@
 "mac_no_valid_csv_rows_found" = "找不到有效的列。請確保 CSV 檔案包含了一個標頭列和至少一個必填欄位。";
 
 /* Unique Usernames */
-"mac_database_summary_unique_usernames" = "Unique Usernames";
+"mac_database_summary_unique_usernames" = "獨特的使用者名稱";
 
 /* Unique Passwords */
 "mac_database_summary_unique_passwords" = "唯一密碼";
 
 /* Most Popular Username */
-"mac_database_summary_most_popular_username" = "Most Popular Username";
+"mac_database_summary_most_popular_username" = "最常用的使用者名稱";
 
 /* Number of Entries */
 "mac_database_summary_number_of_entries" = "條目數";
 
 /* Number of Groups */
-"mac_database_summary_number_of_folders" = "Number of Groups";
+"mac_database_summary_number_of_folders" = "群組數";
 
 /* This is a large image to use as an icon. Would you like to use a scaled down version to save %@? - Translators Note: 1st Parameter is how much space will be saved */
 "mac_large_image_as_icon_use_scaled_down_version_fmt" = "圖像過大，無法作為圖示使用。是否要使用縮小的版本以節省 %@？";
@@ -2342,7 +2342,7 @@
 "mac_enter_custom_title_default" = "請輸入您的自訂預設標題";
 
 /* Please Enter Your Custom Default Username */
-"mac_enter_custom_username_default" = "Please Enter Your Custom Default Username";
+"mac_enter_custom_username_default" = "請輸入您的自訂預設使用者名稱";
 
 /* Please Enter Your Custom Default Email */
 "mac_enter_custom_email_default" = "請輸入您的自訂預設電子郵件";
@@ -2370,7 +2370,7 @@
 "mac_undo_action_email_change" = "電子郵件變更";
 
 /* Username Change */
-"mac_undo_action_username_change" = "Username Change";
+"mac_undo_action_username_change" = "使用者名稱變更";
 
 /* URL Change */
 "mac_undo_action_url_change" = "URL 變更";
@@ -2394,7 +2394,7 @@
 "mac_undo_action_icon_change" = "圖示變更";
 
 /* Delete History Item */
-"mac_undo_action_delete_history_item" = "Delete History Item";
+"mac_undo_action_delete_history_item" = "刪除歷史項目";
 
 /* Restore History Item */
 "mac_undo_action_restore_history_item" = "恢復歷史項目";
@@ -2469,7 +2469,7 @@
 "mac_create_new_database_title" = "建立新的密碼資料庫";
 
 /* Enter Master Credentials */
-"mac_enter_database_master_credentials" = "Enter Master Credentials";
+"mac_enter_database_master_credentials" = "輸入主要憑證";
 
 /* Click Browse to Select a Key File */
 "mac_click_browse_select_key_file" = "按一下「瀏覽」以便選取金鑰檔案";
@@ -2484,13 +2484,13 @@
 "mac_select_key_file" = "選取金鑰檔案";
 
 /* You must use at least one of either a Password, a Key File or a YubiKey for your master credentials. */
-"mac_you_must_use_at_least_a_password_or_key_file" = "You must use at least one of either a Password, a Key File or a YubiKey for your master credentials.";
+"mac_you_must_use_at_least_a_password_or_key_file" = "您必須為主憑證使用密碼、金鑰檔案或 YubiKey 中的至少一種。";
 
 /* Password cannot be Empty */
 "mac_password_cannot_be_empty" = "密碼不能為空";
 
 /* Weak Credentials */
-"mac_weak_credentials" = "Weak Credentials";
+"mac_weak_credentials" = "弱憑證";
 
 /* Protected */
 "mac_alerts_input_custom_field_protected_checkbox" = "受保護";
@@ -2505,7 +2505,7 @@
 "mac_alerts_field_cannot_be_empty" = "欄位不能為空";
 
 /* Upgrade */
-"mac_upgrade_button_title" = "Upgrade";
+"mac_upgrade_button_title" = "升級";
 
 /* Upgrade Momentarily Unavailable\nPlease Check Your Connection and Try Again Later */
 "mac_upgrade_momentarily_unavailble" = "升級暫時無法使用\n請檢查您的網路連線並稍後再試";
@@ -2517,7 +2517,7 @@
 "mac_upgrade_no_thanks_seconds_remaining_fmt" = "不，謝謝 (%ld)";
 
 /* No Thanks */
-"mac_upgrade_no_thanks" = "No Thanks";
+"mac_upgrade_no_thanks" = "不用了，謝謝";
 
 /* Purchases Are Disabled on Your Device. */
 "mac_upgrade_purchases_disabled_on_device" = "您的裝置已停用購買。";
@@ -2589,22 +2589,22 @@
 "mac_node_details_is_this_steam_totp" = "這是否是 Steam 權杖？(如果您不確定，請選擇「否」。)";
 
 /* Could not change group! Validate failed... */
-"mac_node_details_could_not_change_group" = "Could not change group! Validate failed...";
+"mac_node_details_could_not_change_group" = "無法變更群組！驗證失敗…";
 
 /* '%@' %@ Copied - Translators Note: 1st Param is Title of Item, 2nd Param is the Field name e.g. Username or Password */
-"mac_field_copied_to_clipboard_fmt" = "'%@' %@ Copied";
+"mac_field_copied_to_clipboard_fmt" = "「%@」%@ 已複製";
 
 /* '%@' %@ Copied - Translators Note: 1sd Param is the Field name e.g. Username or Password */
-"mac_field_copied_to_clipboard_no_item_title_fmt" = "%@ Copied";
+"mac_field_copied_to_clipboard_no_item_title_fmt" = "%@ 已複製";
 
 /* '%@' %@ Changed... First parameter is field that changed, e.g. Username or Password */
-"mac_field_changed_notification_fmt" = "%@ Changed...";
+"mac_field_changed_notification_fmt" = "%@ 已變更…";
 
 /* '%@' %@ Changed... First parameter Title of Item, second parameter which field changed, e.g. Username or Password */
-"mac_field_changed_popup_notification_fmt" = "'%@' %@ Changed...";
+"mac_field_changed_popup_notification_fmt" = "「%@」%@ 已變更…";
 
 /* Are you sure you want to delete this history item? */
-"mac_keepass_history_are_sure_delete" = "Are you sure you want to delete this history item?";
+"mac_keepass_history_are_sure_delete" = "您確定要刪除此歷史項目嗎？";
 
 /* Are you sure you want to restore this history item? */
 "mac_keepass_history_are_sure_restore" = "您確定要還原此歷史項目嗎？";
@@ -2682,7 +2682,7 @@
 "mac_key_file_none" = "無";
 
 /* Browse... - (Translators Note: When user wants to open the File dialog to select a key file...)*/
-"mac_browse_for_key_file" = "Browse...";
+"mac_browse_for_key_file" = "瀏覽…";
 
 /* [Configured] - (Translators Note: User is using a key file, Strongbox knows what/where it is, but will not display the file name in the UI for privacy reasons. This appears on the unlock screen. */
 "mac_key_file_configured_but_filename_hidden" = "[Configured]";
@@ -2693,7 +2693,7 @@
 /* Touch ID/Apple Watch Unlock is not possible at the moment because Touch ID/Apple Watch is not available. */
 "mac_info_biometric_unlock_not_possible_right_now" = "由於 Touch ID/Apple Watch 無法使用，目前無法使用 Touch ID/Apple Watch 解鎖。";
 /* Touch ID/Apple Watch Unlock is not possible because the stored credentials are unavailable. This is probably because they have expired. Please enter the password manually. */
-"mac_could_not_find_stored_credentials" = "Touch ID/Apple Watch Unlock is not possible because the stored credentials are unavailable. This is probably because they have expired. Please enter the password manually.";
+"mac_could_not_find_stored_credentials" = "Touch ID/ Apple Watch Unlock 無法使用，因為儲存的憑證無法使用。這可能是因為它們已過期。請手動輸入密碼。";
 
 
 /* Convenience Unlock */
@@ -2742,7 +2742,7 @@
 "mac_convenience_expiry_period_on_app_exit" = "應用程式退出";
 
 /* Unlock with Touch ID or Watch */
-"mac_unlock_screen_button_title_convenience_unlock" = "Unlock with Touch ID or Watch";
+"mac_unlock_screen_button_title_convenience_unlock" = "使用 Touch ID 或是 Watch 來解鎖";
 
 /* Convenience Unlock Expired */
 "mac_unlock_screen_button_title_convenience_unlock_expired" = "快速解鎖已過期";
@@ -2781,7 +2781,7 @@
 "generic_unknown" = "未知";
 
 /* Valid Credentials */
-"mac_valid_credentials" = "Valid Credentials";
+"mac_valid_credentials" = "有效憑證";
 
 /* Could not get challenge response from YubiKey */
 "mac_error_getting_challenge_response_yubikey" = "無法從 YubiKey 取得挑戰回應";
@@ -2819,7 +2819,7 @@
 "casg_yubikey_configured_mfi" = "Lightning";
 
 /* AutoFill Crash Occurred */
-"autofill_did_not_close_cleanly_title" = "AutoFill Crash Occurred";
+"autofill_did_not_close_cleanly_title" = "自動填入當機了";
 
 /* It looks like the last time you used AutoFill you had a crash. This is usually due to a memory limitation. Please check your database file size and your Argon2 memory settings (should be <= 64MB) */
 "autofill_did_not_close_cleanly_message" = "看起來您在上次使用自動填入時當機。這通常肇因於 iOS 的記憶體限制。請檢查資料庫檔案大小和 Argon2 記憶體 (應 <= 64MB) 設定";
@@ -2897,7 +2897,7 @@
 "browse_add_entry_button_title" = "Add Entry...";
 
 /* Add Group... */
-"browse_add_group_button_title" = "Add Group...";
+"browse_add_group_button_title" = "新增群組…";
 
 /* Tags */
 "browse_vc_search_scope_tags" = "標籤";
@@ -2921,7 +2921,7 @@
 "safes_vc_upgrade_info_trial_available_button_title" = "升級 (免費「Pro」試用)…";
 
 /* Would you like to add an entry or a group? */
-"browse_add_group_or_entry_question" = "Would you like to add an entry or a group?";
+"browse_add_group_or_entry_question" = "要新增條目或群組嗎？";
 
 /* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be securely stored for %@ before you need to re-enter it. Note for translators (1st Param = "Touch ID", 2nd Param is a time span something like "2 weeks") */
 "mac_use_biometric_to_open_in_future_fmt" = "之後也要使用 %@ 或 Apple Watch 來將此資料庫解鎖嗎？您的主密碼將安全地儲存 %@，之後便需要重新輸入。";
@@ -3008,7 +3008,7 @@
 "audit_status_done_with_hibp_errors_fmt" = "在 %@ 個條目中找到 %@ 個問題 (%@ 個 HIBP 錯誤)";
 
 /* Audit Complete */
-"audit_status_complete" = "Status: Complete";
+"audit_status_complete" = "狀態：完成";
 
 /* Database Auditor Initialized */
 "audit_status_initialized" = "狀態：正在初始化…";
@@ -3029,7 +3029,7 @@
 "audit_status_no_issues_found" = "未發現問題";
 
 /* The credentials were incorrect for this database. Are you sure you are using this key file?\n\nNB: A key files are not the same as your database file. */
-"open_sequence_problem_opening_incorrect_credentials_message_verify_key_file" = "The credentials were incorrect for this database. Are you sure you are using this key file?\n\nNB: Please be aware that key files are not the same as your database file (KDBX/KDB)";
+"open_sequence_problem_opening_incorrect_credentials_message_verify_key_file" = "此資料庫的憑證不正確。您確定要使用此金鑰檔案嗎？\n\n備註：請注意，金鑰檔與您的資料庫檔案 (KDBX/KDB) 不同";
 
 /* Is your Key File correct? */
 "casg_key_file_correct_title" = "您的金鑰檔案正確嗎？";
@@ -3071,7 +3071,7 @@
 "hibp_check_interval_always_check" = "始終檢查";
 
 /* Once a Day */
-"hibp_check_interval_once_a_day" = "Once a Day";
+"hibp_check_interval_once_a_day" = "每天一次";
 
 /* Once a Week */
 "hibp_check_interval_once_a_week" = "每週一次";
@@ -3125,7 +3125,7 @@
 "browse_vc_partial_recycle_alert_title" = "部分回收";
 
 /* Some of the items you have selected cannot be recycled and will be permanently deleted. Is that OK? */
-"browse_vc_partial_recycle_alert_message" = "Some of the items you have selected cannot be recycled and will be permanently deleted. Is that OK?";
+"browse_vc_partial_recycle_alert_message" = "您選取的部分項目無法回收並將永久刪除。可以嗎？";
 
 /* Audit */
 "browse_vc_action_audit" = "稽核";
@@ -3137,7 +3137,7 @@
 "audit_drill_down_section_header_preferences" = "喜好設定";
 
 /* Summary */
-"audit_drill_down_section_header_summary" = "Summary";
+"audit_drill_down_section_header_summary" = "摘要";
 
 /* Duplicate Passwords */
 "audit_drill_down_section_header_duplicates" = "使用相同密碼的項目";
@@ -3194,7 +3194,7 @@
 "audit_drill_down_go_to_database_audit_preferences" = "資料庫稽核喜好設定";
 
 /* View All Audit Issues */
-"audit_drill_down_view_all_audit_issues" = "View All Audit Issues";
+"audit_drill_down_view_all_audit_issues" = "檢視所有稽核問題";
 
 /* No Excluded Items */
 "audit_drill_down_no_excluded_items_title" = "無排除的項目";
@@ -3224,7 +3224,7 @@
 "database_format_keepass1" = "KeePass 1";
 
 /* KeePass 2 (Legacy) */
-"database_format_keepass2_kdbx3_1" = "KeePass 2 (Legacy)";
+"database_format_keepass2_kdbx3_1" = "KeePass 2 (舊格式)";
 
 /* KeePass 2 */
 "database_format_keepass2_kdbx4" = "KeePass 2";
@@ -3239,7 +3239,7 @@
 "password_gen_vc_mode_diceware_xkcd_title" = "Diceware (XKCD)";
 
 /* Strongbox: Unknown Database */
-"autofill_error_unknown_db_title" = "Strongbox: Unknown Database";
+"autofill_error_unknown_db_title" = "Strongbox：未知資料庫";
 
 /* This appears to be a reference to an older Strongbox database which can no longer be found. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill. */
 "autofill_error_unknown_db_message" = "這個 Strongbox 資料庫可能太舊了，已經找不到了。Strongbox 的快速輸入資料庫已經清理過了，因此您需要再次開啟資料庫才能重新整理快速輸入的內容。";
@@ -3260,7 +3260,7 @@
 "backup_settings_prompt_message" = "預設情況下，Strongbox 將您所有的本機文件和資料庫都包含在 Apple 備份中，但出於安全考量，匯入的金鑰檔案不包括在內。您可以隨時在喜好設定中變更這些設定。\n\n這樣聽起來可以嗎？";
 
 /* Backup Settings */
-"backup_settings_prompt_title" = "Backup Settings";
+"backup_settings_prompt_title" = "備份設定";
 
 /* Yes, the defaults sound good */
 "backup_settings_prompt_option_yes_looks_good" = "是的，聽起來不錯";
@@ -3323,7 +3323,7 @@
 "open_sequence_storage_provider_error_title" = "同步錯誤";
 
 /* If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open in offline mode instead? */
-"open_sequence_storage_provider_error_open_local_ro_instead" = "If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open in offline mode instead?";
+"open_sequence_storage_provider_error_open_local_ro_instead" = "如果重複發生這種情況，您應該嘗試重新新增您的資料庫。請參閱「偵錯同步記錄」以瞭解更多…\n\n您要離線開啟試試嗎？";
 
 /* Local Copy Unavailable */
 "autofill_vc_item_subtitle_local_copy_unavailable" = "本機副本無法使用";
@@ -3332,16 +3332,16 @@
 "autofill_vc_item_subtitle_disabled" = "自動填入已停用";
 
 /* Sync Required */
-"autofill_add_entry_sync_required_title" = "Sync Required";
+"autofill_add_entry_sync_required_title" = "需要同步";
 
 /* You have added a new entry and this change has been saved locally.\n\nDon't forget to switch to the main Strongbox app to fully sync these changes to %@. - Translators Note: The 1st parameter here is the storage location, e.g. 'Dropbox' */
 "autofill_add_entry_sync_required_message_fmt" = "您已新增條目，此變更已在本機儲存。\n\n不要忘記切換到 Strongbox 的主應用程式，將這些變更完全同步到 %@。";
 
 /* Got it! */
-"autofill_add_entry_sync_required_option_got_it" = "Got it!";
+"autofill_add_entry_sync_required_option_got_it" = "了解！";
 
 /* Don't tell me again */
-"autofill_add_entry_sync_required_option_dont_tell_again" = "Don't tell me again";
+"autofill_add_entry_sync_required_option_dont_tell_again" = "不再詢問";
 
 /* No Subscription Required */
 "onboarding_vc_start_your_free_trial_subtitle_no_subscription" = "無需訂閱";
@@ -3395,7 +3395,7 @@
 "yubikey_config_section_header_nfc_device_not_supported" = "NFC YubiKey (裝置不支援 NFC)";
 
 /* NFC YubiKey (AutoFill Mode - NFC Unavailable) */
-"yubikey_config_section_header_nfc_autofill_unavailable" = "NFC YubiKey (NFC Unavailable in AutoFill)";
+"yubikey_config_section_header_nfc_autofill_unavailable" = "NFC YibiKey (NFC 在自動填入中無法使用)";
 
 /* Lightning YubiKey (Pro Edition Only) */
 "yubikey_config_section_header_lightning_pro_only" = "Lightning YubiKey (僅限 Pro 版本)";
@@ -3404,13 +3404,13 @@
 "yubikey_config_section_header_lightning_device_not_supported" = "Lightning YubiKey (裝置不支援 Lightning)";
 
 /* Lightning YubiKey (AutoFill Mode - Lightning Unavailable) */
-"yubikey_config_section_header_lightning_autofill_unavailable" = "Lightning YubiKey (Lightning Unavailable in AutoFill)";
+"yubikey_config_section_header_lightning_autofill_unavailable" = "Lightning YugiKey (Lightning 在自動填入中無法使用)";
 
 /* Are you sure you want to delete this Virtual Hardware Key? */
-"yubikey_config_are_you_sure_delete" = "Are you sure you want to delete this Virtual Hardware Key?";
+"yubikey_config_are_you_sure_delete" = "您確定要刪除此虛擬硬體金鑰嗎？";
 
 /* %@ (AutoFill Only) - Translator's note, the 1st parameter is the name of the virtual hardware key, e.g. Mark's Virtual Hardware Key - This string indicates that that key can only be used in AutoFill mode only, not regualr App mode */
-"yubikeys_virtual_autofill_only" = "%@ (AutoFill Only)";
+"yubikeys_virtual_autofill_only" = "%@ (僅自動填入)";
 
 /* Virtual Hardware Key */
 "casg_yubikey_configured_virtual" = "虛擬硬體金鑰";
@@ -3422,7 +3422,7 @@
 "hint_tap_and_hold_to_see_options" = "提示：點選並按住即可檢視選項";
 
 /* Launch URL & Copy */
-"browse_action_launch_url_copy_password" = "Launch URL & Copy Password";
+"browse_action_launch_url_copy_password" = "啟動網址並複製密碼";
 
 /* Copy Other Field... */
 "browse_context_menu_copy_other_field" = "複製欄位…";
@@ -3434,19 +3434,19 @@
 "browse_context_menu_new_entry" = "新條目";
 
 /* New Group Translators Note: Menu option to add a new group */
-"browse_context_menu_new_group" = "New Group";
+"browse_context_menu_new_group" = "新群組";
 
 /* Select Translators Note: Verb to select an item in Browse view - it will have a select beside it */
 "generic_select" = "選取";
 
 /* Start with Search - Translators Note: Option to start with the search field focused immediately upon unlock */
-"browse_context_menu_start_with_search" = "Start with Search";
+"browse_context_menu_start_with_search" = "進入時打開搜尋方塊";
 
 /* Sort - Translators Note: Verb - to sort items by title or other field */
 "generic_sort" = "排序";
 
 /* Customize View */
-"browse_context_menu_customize_view" = "Customize View";
+"browse_context_menu_customize_view" = "自訂視圖";
 
 /* Database Settings */
 "browse_context_menu_database_settings" = "資料庫設定";
@@ -3458,7 +3458,7 @@
 "browse_context_menu_show_password" = "顯示密碼";
 
 /* Read Only */
-"databases_toggle_read_only_context_menu" = "Read Only";
+"databases_toggle_read_only_context_menu" = "唯讀";
 
 /* Quick Launch */
 "databases_toggle_quick_launch_context_menu" = "快速啟動";
@@ -3467,7 +3467,7 @@
 "browse_vc_action_properties" = "屬性";
 
 /* Find */
-"browse_vc_action_keyboard_shortcut_find" = "Find";
+"browse_vc_action_keyboard_shortcut_find" = "搜尋";
 
 /* Custom Data */
 "properties_vc_header_custom_data" = "自訂資料";
@@ -3482,7 +3482,7 @@
 "properties_vc_footer_basic" = "此專案的一些簡單屬性和設定。";
 
 /* Group Notes */
-"properties_vc_header_group_notes" = "Group Notes";
+"properties_vc_header_group_notes" = "群組備註";
 
 /* Notes set on this group. */
 "properties_vc_footer_group_notes" = "設定於此組群的備註。";
@@ -3536,25 +3536,25 @@
 "pwgen_casing_latin1_supplement" = "Latin-1 補充";
 
 /* Are you sure you want to remove this database from Strongbox?\n\nNB: The underlying database file will not be deleted. Just Strongbox's settings for this database. */
-"are_you_sure_delete_database_single" = "Are you sure you want to remove this database from Strongbox?\n\nNB: The underlying database file will not be deleted. Just Strongbox's settings for this database.";
+"are_you_sure_delete_database_single" = "您確定要從 Strongbox 移除此資料庫嗎？\n\n注意：將不會刪除基礎資料庫檔案。僅限於資料庫的 Strongbox 設定。";
 
 /* Are you sure you want to remove these databases from Strongbox?\n\nNB: The underlying database files will not be deleted. Just Strongbox's settings for these databases. */
-"are_you_sure_delete_database_multiple" = "Are you sure you want to remove these databases from Strongbox?\n\nNB: The underlying database files will not be deleted. Just Strongbox's settings for these databases.";
+"are_you_sure_delete_database_multiple" = "您確定要從 Strongbox 移除這些資料庫嗎？\n\n注意：將不會刪除基礎資料庫檔案。僅限這些資料庫的 Strongbox 設定。";
 
 /* No Databases Here Yet.\n\nClick 'Add Database...' below to get started... */
 "mac_no_databases_initial_message" = "這裡還沒有資料庫。\n\n點選下方的「新增資料庫…」以開始…";
 
 /* No AutoFill Enabled Databases */
-"mac_no_autofill_enabled_databases_initial_message" = "No AutoFill Enabled Databases";
+"mac_no_autofill_enabled_databases_initial_message" = "無已啟用的自動填入資料庫";
 
 /* It looks like this is your first time using AutoFill with this database.\n\nFor security reasons you must locate and select your database file for Strongbox so that the AutoFill can access it.\n\nAs a reminder your database file was last located here:\n\n%@\n\nPlease locate it now for Strongbox...  - Translator's note: The parameter is the path of the database like '/Users/mark/Desktop/my-database.kdbx' */
 "mac_autofill_first_time_locate-fmt" = "看起來這是您第一次在此資料庫使用自動填入。\n\n出於安全原因，您必須找出並選取要用於 Strongbox 的資料庫檔案，以便自動填入功能可以加以存取。\n\n作為提醒，您的資料庫檔案最後位於這裡：\n\n%@\n\n現在請為 Strongbox 進行定位…";
 
 /* Welcome to Strongbox AutoFill */
-"mac_welcome_to_autofill" = "Welcome to Strongbox AutoFill";
+"mac_welcome_to_autofill" = "歡迎使用 Strongbox 自動填入";
 
 /* Locate '%@' - Translator's note: The parameter is the filename of the database like 'my-database.kdbx' */
-"mac_autofill_locate_file_fmt" = "Locate '%@'";
+"mac_autofill_locate_file_fmt" = "尋找「%@」";
 
 /* Pro Feature */
 "mac_autofill_pro_feature_title" = "Pro 版功能";
@@ -3572,13 +3572,13 @@
 "backups_backup_subtitle_fmt" = "%@ (建立於 %@)";
 
 /* Enable Strongbox Extension */
-"mac_autofill_enable_extension_title" = "Enable Strongbox Extension";
+"mac_autofill_enable_extension_title" = "啟用 Strongbox 延伸功能";
 
 /* To use AutoFill you must enable the Strongbox Extension in System Preferences. To do this click the 'Open System Preferences...' button below and navigate to:\n\n∙ Extensions > Password AutoFill > Check 'Strongbox' */
-"mac_autofill_enable_extension_message" = "To use AutoFill you must enable the Strongbox Extension in System Preferences. To do this click the 'Open System Preferences...' button below and navigate to:\n\n∙ Extensions > Password AutoFill > Check 'Strongbox'";
+"mac_autofill_enable_extension_message" = "若要使用「自動填入」，您必須在系統喜好設定中啟用 Strongbox Extension。若要執行此作業，請按一下「開啟系統喜好設定…」按鈕，並遵循下面路徑：\n\n∙ 延伸 > 密碼自動填入 > 勾選「Strongbox」";
 
 /* Open System Preferences... */
-"mac_autofill_action_open_system_preferences" = "Open System Preferences...";
+"mac_autofill_action_open_system_preferences" = "開啟系統喜好設定…";
 
 /* Merge... - Translators Note: Merge is a verb, "To Merge", the idea being that the user will select 2 databases to merge together... */
 "generic_action_merge_ellipsis" = "合併…";
@@ -3686,7 +3686,7 @@
 "diff_drill_down_default_username_will_change" = "Default Username will change.";
 
 /* Recycle Bin Enabled state will change. */
-"diff_drill_down_recycle_bin_enabled_will_change" = "資源回收桶啟用狀態將會變更。";
+"diff_drill_down_recycle_bin_enabled_will_change" = "資源回收筒啟用狀態將會變更。";
 
 /* Custom Data %@ will change. Translators Note: 1st param is the key of the custom data e.g. KEEPASSXC_PLUGIN_DATA  */
 "diff_drill_down_custom_data_will_change_fmt" = "自訂資料 %@ 將會變更。";
@@ -4305,10 +4305,10 @@
 "composite_key_determiner_convenience_expired_message" = "是時候重新手動輸入主密碼了。您可以在「資料庫設定」中變更此提醒的間隔時間。";
 
 /* Got it! */
-"generic_got_it" = "Got it!";
+"generic_got_it" = "了解！";
 
 /* Don't tell me again */
-"generic_dont_tell_again" = "Don't tell me again";
+"generic_dont_tell_again" = "不再詢問";
 
 /* Actions - L10n - a generic collection of actions (or items that will perform certain actions/tasks) - often used as a Section Header */
 "generic_actions" = "動作";
