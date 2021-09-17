@@ -2,7 +2,7 @@
 "safes_vc_upgrade_info_button_title" = "升級資訊";
 
 /* Upgrade Button Title with Days remaining of pro trial version */
-"safes_vc_upgrade_info_button_title_days_remaining" = "升級資訊 — (Pro 版仍可使用 %ld 天)";
+"safes_vc_upgrade_info_button_title_days_remaining" = "升級資訊 — (專業版仍可使用 %ld 天)";
 
 /* Upgrade Button Title asking to Please Upgrade */
 "safes_vc_upgrade_info_button_title_please_upgrade" = "請升級…";
@@ -657,7 +657,7 @@
 "keepass_history_are_you_sure_delete_message" = "您確定要刪除此歷史項目嗎？";
 
 /* Are you sure you want to restore this entry to this historical state? */
-"keepass_history_are_you_sure_restore_message" = "Are you sure you want to restore this entry to this historical state?";
+"keepass_history_are_you_sure_restore_message" = "您確定要將該條目恢復至此歷史狀態嗎？";
 
 /* App Lock Delay */
 "prefs_vc_app_lock_delay" = "應用程式鎖定延遲";
@@ -1015,7 +1015,7 @@
 "key_files_vc_empty_key_files_title" = "未找到金鑰檔案。請點選「+」並匯入一個。";
 
 /* One Time Key File Source */
-"key_files_vc_one_time_key_file_source_title" = "單性金鑰檔案來源";
+"key_files_vc_one_time_key_file_source_title" = "單次金鑰檔案來源";
 
 /* Select where you would like to choose your Key File from. This file will not be stored locally or remembered. */
 "key_files_vc_one_time_key_file_source_message" = "選擇您想要的金鑰檔案。該檔案將不會於本機儲存或記住。";
@@ -1181,7 +1181,7 @@
 "set_icon_vc_select_icon_source_title" = "選取圖示來源";
 
 /* Select the source of the icon you would like to use for this entry */
-"set_icon_vc_select_icon_source_message" = "Select the source of the icon you would like to use for this entry";
+"set_icon_vc_select_icon_source_message" = "選取您想為此條目使用的圖示來源";
 
 /* KeePass & Database Icon Set */
 "set_icon_vc_icon_source_keepass_set" = "KeePass & 資料庫圖示集";
@@ -1193,7 +1193,7 @@
 "set_icon_vc_icon_source_download_favicon" = "下載最愛圖示";
 
 /* Download FavIcon (Pro Only) */
-"set_icon_vc_icon_source_download_favicon_pro_only" = "下載最愛圖示 (僅限 Pro 版)";
+"set_icon_vc_icon_source_download_favicon_pro_only" = "下載最愛圖示 (僅限專業版)";
 
 /* Downloading FavIcon */
 "set_icon_vc_progress_downloading_favicon" = "下載最愛圖示";
@@ -1343,10 +1343,10 @@
 "open_sequence_prompt_too_many_incorrect_pins_message" = "您輸入了錯誤的 PIN 碼次數過多。PIN 解鎖現在已停用，您必須輸入主密碼才能將此資料庫解鎖。";
 
 /* There was a technical error opening the database. */
-"open_sequence_duress_technical_error_message" = "There was a technical error opening the database.";
+"open_sequence_duress_technical_error_message" = "開啟資料庫時出現技術錯誤。";
 
 /* Technical Issue */
-"open_sequence_duress_technical_error_title" = "Technical Issue";
+"open_sequence_duress_technical_error_title" = "技術問題";
 
 /* Identify to Unlock Database */
 "open_sequence_biometric_unlock_prompt_title" = "表明身份以便將資料庫解鎖";
@@ -1422,7 +1422,7 @@
 "open_sequence_prompt_use_convenience_pin_message" = "您可以使用一個快速 PIN 碼來將此資料庫解鎖。雖然這樣很方便，但可能會降低此裝置上資料庫的安全性。如果您想要使用此方法，請從下列項目中選取，或選擇「不」而繼續使用您的主密碼。\n* 重要：您始終必須記住您的主密碼。";
 
 /* \n\nNB: Convenience Unlock is a Pro feature */
-"open_sequence_append_convenience_pro_warning" = "\n\n註：快速解鎖是 Pro 版本才有的功能。";
+"open_sequence_append_convenience_pro_warning" = "\n\n註：快速解鎖是專業版本才有的功能。";
 
 /* Use %@ */
 "open_sequence_prompt_use_convenience_use_bio_fmt" = "使用 %@";
@@ -1575,19 +1575,19 @@
 "pick_creds_vc_cannot_create_new_unsupported_storage_type_message" = "用於儲存此資料庫的儲存空間提供者，並不支援使用應用程式擴充來進行即時編輯，因此無法建立新條目。";
 
 /* Create New Entry... */
-"pick_creds_vc_create_new_button_title" = "Create New Entry...";
+"pick_creds_vc_create_new_button_title" = "建立新條目…";
 
 /* No Matching Entries */
 "pick_creds_vc_empty_search_dataset_title" = "無相符條目";
 
 /* Empty Database */
-"pick_creds_vc_empty_dataset_title" = "Empty Database";
+"pick_creds_vc_empty_dataset_title" = "空資料庫";
 
 /* Could not find any matching entries */
-"pick_creds_vc_empty_search_dataset_subtitle" = "Could not find any matching entries";
+"pick_creds_vc_empty_search_dataset_subtitle" = "找不到任何相符條目";
 
 /* It appears your database is empty */
-"pick_creds_vc_empty_dataset_subtitle" = "It appears your database is empty";
+"pick_creds_vc_empty_dataset_subtitle" = "看來您的資料庫是空的";
 
 /* Sample Group */
 "model_sample_group_title" = "樣本群組";
@@ -1596,13 +1596,13 @@
 "model_sample_entry_username" = "使用者名稱";
 
 /* Sample */
-"model_sample_entry_title" = "Sample";
+"model_sample_entry_title" = "範例";
 
 /* SecureDrop */
 "pwgen_wordlist_securedrop" = "SecureDrop";
 
 /* Norwegian */
-"pwgen_wordlist_norwegian" = "Norwegian";
+"pwgen_wordlist_norwegian" = "挪威語";
 
 /* EFF Large */
 "pwgen_wordlist_eff_large" = "EFF Large";
@@ -1611,13 +1611,13 @@
 "pwgen_wordlist_beale" = "Beale";
 
 /* Catalan */
-"pwgen_wordlist_catalan" = "Catalan";
+"pwgen_wordlist_catalan" = "加泰隆尼亞語";
 
 /* Diceware (Arnold G. Reinhold's Original) */
-"pwgen_wordlist_diceware" = "Diceware (Arnold G. Reinhold's Original)";
+"pwgen_wordlist_diceware" = "Diceware (Arnold G. Reinhold 的原始版本)";
 
 /* Dutch */
-"pwgen_wordlist_dutch" = "Dutch";
+"pwgen_wordlist_dutch" = "荷蘭語";
 
 /* EFF Short (v1.0) */
 "pwgen_wordlist_eff_short_1" = "EFF Short (v1.0)";
@@ -1626,25 +1626,25 @@
 "pwgen_wordlist_eff_short_2" = "EFF Short (v2.0 - 更好記憶且獨有的前綴)";
 
 /* French */
-"pwgen_wordlist_french" = "French";
+"pwgen_wordlist_french" = "法語";
 
 /* German */
-"pwgen_wordlist_german" = "German";
+"pwgen_wordlist_german" = "德語";
 
 /* Google (U.S. English, No Swears) */
-"pwgen_wordlist_google" = "Google (U.S. English, No Swears)";
+"pwgen_wordlist_google" = "Google (美式英語，純淨版)";
 
 /* Italian */
-"pwgen_wordlist_italian" = "Italian";
+"pwgen_wordlist_italian" = "義大利語";
 
 /* Japanese */
-"pwgen_wordlist_japanese" = "Japanese";
+"pwgen_wordlist_japanese" = "日語";
 
 /* Polish */
-"pwgen_wordlist_polish" = "Polish";
+"pwgen_wordlist_polish" = "波蘭語";
 
 /* Swedish */
-"pwgen_wordlist_swedish" = "Swedish";
+"pwgen_wordlist_swedish" = "瑞典語";
 
 /* Game of Thrones (EFF Fandom) */
 "pwgen_wordlist_gameofthrones" = "權力遊戲 (EFF Fandom)";
@@ -1659,31 +1659,31 @@
 "pwgen_wordlist_starwars" = "星際大戰 (EFF Fandom)";
 
 /* Do Not Change */
-"pwgen_casing_do_not_change" = "Do Not Change";
+"pwgen_casing_do_not_change" = "不要變更";
 
 /* Lowercase */
-"pwgen_casing_lowercase" = "Lowercase";
+"pwgen_casing_lowercase" = "小寫字母";
 
 /* Uppercase */
-"pwgen_casing_uppercase" = "Uppercase";
+"pwgen_casing_uppercase" = "大寫字母";
 
 /* Title Case */
-"pwgen_casing_title_case" = "Title Case";
+"pwgen_casing_title_case" = "首字母大寫";
 
 /* Random */
-"pwgen_casing_random" = "Random";
+"pwgen_casing_random" = "隨機";
 
 /* Numeric */
-"pwgen_casing_numeric" = "Numeric";
+"pwgen_casing_numeric" = "數字";
 
 /* Symbols */
-"pwgen_casing_symbols" = "Symbols";
+"pwgen_casing_symbols" = "符號";
 
 /* Basic (Some Words) */
-"pwgen_hacker_level_basic_some" = "Basic (Some Words)";
+"pwgen_hacker_level_basic_some" = "基礎 (部分字詞)";
 
 /* Basic (All Words) */
-"pwgen_hacker_level_basic_all" = "Basic (All Words)";
+"pwgen_hacker_level_basic_all" = "基礎 (所有字詞)";
 
 /* Pro (Some Words) */
 "pwgen_hacker_level_pro_some" = "Pro (所有文字)";
@@ -1722,7 +1722,7 @@
 "browse_vc_section_title_expired" = "已過期";
 
 /* Section Header Title for Nearly Expired Items */
-"browse_vc_section_title_nearly_expired" = "Nearly Expired";
+"browse_vc_section_title_nearly_expired" = "即將過期";
 
 /* Section Header Title for Pinned Items */
 "browse_vc_section_title_pinned" = "釘選";
@@ -1731,7 +1731,7 @@
 "browse_vc_section_title_recents" = "最近項目";
 
 /* Standard View Sections Header */
-"browse_vc_section_title_standard_view" = "Items";
+"browse_vc_section_title_standard_view" = "項目";
 
 /* Compressed */
 "database_metadata_field_compressed" = "已壓縮";
@@ -1761,13 +1761,13 @@
 "database_metadata_field_outer_encryption" = "外部加密";
 
 /* Password Safe File Version */
-"database_metadata_field_password_safe_version" = "Password Safe File Version";
+"database_metadata_field_password_safe_version" = "Password Safe 檔案版本";
 
 /* Recycle Bin Enabled */
-"database_metadata_field_recycle_bin_enabled" = "Recycle Bin Enabled";
+"database_metadata_field_recycle_bin_enabled" = "資源回收桶已啟用";
 
 /* Transform Rounds */
-"database_metadata_field_transform_rounds" = "Transform Rounds";
+"database_metadata_field_transform_rounds" = "轉換次數";
 
 /* Last Update App */
 "database_metadata_field_last_update_app" = "最後更新的App";
@@ -1833,13 +1833,13 @@
 "transfer_local_network_network_unavailable_message" = "您好像處於離線狀態？";
 
 /* Title of info dialog about Apple Family Sharing upgrade */
-"upgrade_family_sharing_info_title" = "Apple Family Sharing";
+"upgrade_family_sharing_info_title" = "Apple 家人共享";
 
 /* A message about how you will need to download/purchase a separate App for Apple Family Sharing to work */
 "upgrade_family_sharing_info_message" = "為了享受 Apple 家人共享，您需要為您的家庭成員設定「Apple 家人共享」。且您應該單獨購買 Strongbox 家人共享版。\n點選「確定」即可在 App Store 上檢視此版本。";
 
 /* Need Apple Family Sharing? */
-"upgrade_family_sharing_button_title" = "Need Apple Family Sharing?";
+"upgrade_family_sharing_button_title" = "需要 Apple 家人共享嗎？";
 
 /* Need Apple Family Sharing? */
 "upgrade_family_sharing_button_subtitle" = "點選以取得更多資訊…";
@@ -1932,10 +1932,10 @@
 "generic_failed" = "失敗";
 
 /* Error */
-"generic_error" = "Error";
+"generic_error" = "錯誤";
 
 /* Export */
-"generic_export" = "Export";
+"generic_export" = "匯出";
 
 /* Remove - Translators Note: Verb - To Remove something, e.g. an item from a collection */
 "generic_remove" = "移除";
@@ -2140,7 +2140,7 @@
 "set_icon_vc_icon_source_download_favicons" = "下載子項目的最愛圖示";
 
 /* Download FavIcon (Pro Only) */
-"set_icon_vc_icon_source_download_favicons_pro_only" = "下載子項目的最愛圖示 (僅限 Pro 版)";
+"set_icon_vc_icon_source_download_favicons_pro_only" = "下載子項目的最愛圖示 (僅限專業版)";
 
 /* Set Icon(s) */
 "browse_vc_action_set_icons" = "設定圖示";
@@ -2182,7 +2182,7 @@
 "favicon_results_title" = "最愛圖示結果";
 
 /* FavIcon Results (Pro Only) */
-"favicon_results_title_pro_only" = "最愛圖示 (僅限 Pro 版)";
+"favicon_results_title_pro_only" = "最愛圖示 (僅限專業版)";
 
 /* %lu Icons Found (%dx%d selected) */
 "favicon_results_n_icons_found_with_xy_resolution_fmt" = "%lu 個圖示已找到 (%dx%d 已選取)";
@@ -2358,7 +2358,7 @@
 
 /* Hi and welcome to Strongbox!\n\nI hope you'll really like the app, and find it useful. You can enjoy this fully featured Pro version of Strongbox for the next three months. After that point, you will be transitioned to the regular version of Strongbox.\n\nYou can always find out more at any time by tapping 'Upgrade to Pro' in the Strongbox menu item.\n\nThanks!\n-Mark */
 
-"mac_welcome_to_strongbox_message" = "歡迎使用 Strongbox！\n\n希望您會真心愛上這個應用程式，並覺得實用。您在接下來的三個月內可以享受功能齊全的 Strongbox Pro 版本。在此之後，您將過渡回 Strongbox 的普通版本。\n\n您隨時都能點選 Strongbox 選單中的「升級為 Pro」選項來瞭解更多資訊。\n\n感謝！\n-Mark";
+"mac_welcome_to_strongbox_message" = "歡迎使用 Strongbox！\n\n希望您會真心愛上這個應用程式，並覺得實用。您在接下來的三個月內可以享受功能齊全的 Strongbox專業版本。在此之後，您將過渡回 Strongbox 的普通版本。\n\n您隨時都能點選 Strongbox 選單中的「升級為 Pro」選項來瞭解更多資訊。\n\n感謝！\n-Mark";
 
 /* Change Master Credentials */
 "mac_undo_action_change_master_credentials" = "變更主要憑證";
@@ -2451,10 +2451,10 @@
 "mac_untitled_database_filename_fmt" = "未命名 %@";
 
 /* - (Pro Upgrade Available) */
-"mac_free_trial_window_title_suffix" = " - (Pro 版升級可用)";
+"mac_free_trial_window_title_suffix" = " - (專業版升級可用)";
 
 /* - [%ld 'Pro' Days Left] - Translators Note - 1st Param is number of days left in the Pro trial */
-"mac_pro_days_left_window_title_suffix_fmt" = " - [Pro 版剩餘天數 %ld]";
+"mac_pro_days_left_window_title_suffix_fmt" = " - [專業版剩餘天數 %ld]";
 
 /* Enter a new name for this database */
 "mac_enter_new_name_for_db" = "為此資料庫輸入新名稱";
@@ -2532,25 +2532,25 @@
 "mac_upgrade_welcome_back_to_strongbox" = "歡迎回到 Strongbox Pro";
 
 /* Upgrade Restored Successfully. Thank you for your support!\n\nPlease restart the Application to enjoy your Pro features. */
-"mac_upgrade_upgrade_restored_success" = "Pro 版本成功恢復。感謝您的支持！\n\n請重新啟動應用程式以享受您的 Pro 版本功能。";
+"mac_upgrade_upgrade_restored_success" = "專業版本成功恢復。感謝您的支持！\n\n請重新啟動應用程式以享受您的專業版本功能。";
 
 /* Welcome to Strongbox Pro */
 "mac_upgrade_welcome_to_strongbox" = "歡迎使用 Strongbox Pro";
 
 /* Upgrade to Pro version successful! Thank you for your support!\n\nPlease restart the Application to enjoy your Pro features. */
-"mac_upgrade_upgrade_successful_thank_you" = "成功升級為 Pro 版本！感謝您的支持！\n\n請重新啟動應用程式以享受您的 Pro 版本功能。";
+"mac_upgrade_upgrade_successful_thank_you" = "成功升級為專業版本！感謝您的支持！\n\n請重新啟動應用程式以享受您的專業版本功能。";
 
 /* Failed to Upgrade */
 "mac_upgrade_failed_to_upgrade" = "升級失敗";
 
 /* Discard New Entry? */
-"mac_node_details_discard_new_entry" = "Discard New Entry?";
+"mac_node_details_discard_new_entry" = "捨棄新條目？";
 
 /* Save Changes? */
 "mac_node_details_save_changes" = "儲存變更？";
 
 /* You have made no changes to this new entry, do you want to discard?" */
-"mac_node_details_you_made_changes_discard" = "You have made no changes to this new entry, do you want to discard?";
+"mac_node_details_you_made_changes_discard" = "您尚未變更此新條目，是否要捨棄？";
 
 /* There are unsaved changes present. Would you like to save those before exiting? */
 "mac_node_details_unsaved_changes_save" = "存在未儲存的變更。要在退出前儲存這些變更嗎？";
@@ -2661,10 +2661,10 @@
 "auto_fill_welcome_message_header" = "歡迎";
 
 /* Automatically download FavIcon on URL Change (PRO Only) */
-"mac_auto_download_favicon_pro_only" = "在網址變更時自動下載最愛圖示 (僅限 Pro 版)";
+"mac_auto_download_favicon_pro_only" = "在網址變更時自動下載最愛圖示 (僅限專業版)";
 
 /* Set Icons (Pro Only) */
-"mac_button_set_favicons_pro_only" = "設定圖示 (僅限 Pro 版本)";
+"mac_button_set_favicons_pro_only" = "設定圖示 (僅限專業版本)";
 
 /* ⌘R to Reveal */
 "mac_button_reveal_master_password_title" = "⌘R 以顯示";
@@ -2733,7 +2733,7 @@
 "mac_convenience_summary_biometrics_unavailable" = "快速解鎖 (Touch ID/Watch 無法使用)";
 
 /* Convenience Unlock is only available in the Pro version of Strongbox. Please consider upgrading to support development. */
-"mac_convenience_summary_only_available_on_pro" = "快速解鎖僅在 Strongbox 的 Pro 版本中可用。請考慮升級以支持開發。";
+"mac_convenience_summary_only_available_on_pro" = "快速解鎖僅在 Strongbox 的專業版本中可用。請考慮升級以支持開發。";
 
 /* Never */
 "mac_convenience_expiry_period_never" = "從不";
@@ -2769,13 +2769,13 @@
 "open_sequence_cannot_use_yubikey_in_autofill_mode" = "由於系統限制，自動填入模式不支援硬體金鑰解鎖。您可以設定虛擬硬體金鑰來加以替代。";
 
 /* YubiKey Unlock is only available in the Pro edition of Strongbox */
-"open_sequence_yubikey_only_available_in_pro" = "YubiKey 解鎖僅在 Strongbox Pro 版本中可用";
+"open_sequence_yubikey_only_available_in_pro" = "YubiKey 解鎖僅在 Strongbox專業版本中可用";
 
 /* Disabled (Pro Edition Only) */
-"casg_yubikey_configured_disabled_pro_only" = "停用 (僅限 Pro 版本)";
+"casg_yubikey_configured_disabled_pro_only" = "停用 (僅限專業版本)";
 
 /* YubiKey (Pro Edition Only) */
-"casg_section_header_yubikey_pro_only" = "YubiKey (僅限 Pro 版本)";
+"casg_section_header_yubikey_pro_only" = "YubiKey (僅限專業版本)";
 
 /* Unknown (Translators Note: Used when generally when something can't be determined, e.g. The URL or file name of a database, or the type of storage provider used, or the format of a newly opened database etc.)*/
 "generic_unknown" = "未知";
@@ -2846,7 +2846,7 @@
 "keepass_icon_set_sf_symbols" = "SF 符號 (iOS 13+)";
 
 /* Translators Note: 1 parameter here to mention Biometric unlock, which depends on the device (will be either: 'Touch ID Unlock' or 'Face ID Unlock') */
-"upgrade_short_developer_message_fmt" = "您好，我是 Strongbox 的開發者 Mark。Strongbox 以免費增值模式執行，這表示有免費版和 Pro 版本可以選擇。我希望您真心喜歡 Strongbox 並覺得實用。\n\n我想知道您是否會考慮升級？透過升級，您可支持獨立應用程式的開發者，並使持續改進成為可能。\n\n您還可以安全使用更強大的 Pro 功能，例如 %@、PIN 碼和最愛圖示！\n\n我喜歡開發這個應用程式，您的支持是持續的動力。\n\n謝謝，\n-Mark";
+"upgrade_short_developer_message_fmt" = "您好，我是 Strongbox 的開發者 Mark。Strongbox 以免費增值模式執行，這表示有免費版和專業版本可以選擇。我希望您真心喜歡 Strongbox 並覺得實用。\n\n我想知道您是否會考慮升級？透過升級，您可支持獨立應用程式的開發者，並使持續改進成為可能。\n\n您還可以安全使用更強大的 Pro 功能，例如 %@、PIN 碼和最愛圖示！\n\n我喜歡開發這個應用程式，您的支持是持續的動力。\n\n謝謝，\n-Mark";
 
 /* Translators Note: 1 parameter indicating number of days left in users free trial */
 "upgrade_vc_you_have_n_days_remaining_fmt" = "您的 Pro 試用剩餘 %ld 天";
@@ -2858,7 +2858,7 @@
 "upgrade_vc_enjoy_features_by_upgrading_fmt" = "透過升級來享受 %@ 和其他 Pro 功能！";
 
 /* The main difference between the Free and Pro version of Strongbox is Touch/Face ID Unlock.\n\nThis is a super convenient method to unlock your databases. Without using this you need to enter your secure master password manually everytime, and usually this is a long and complicated password which can be slow and error prone to enter.\n\nOther than that there are a couple of features like PIN Codes and FavIcons which are nice to have.\n\nOne key benefit is that you won't see this upgrade screen again and you will be supporting continued development of Strongbox.\n\nYou can see a summary of the differences by tapping the 'Free vs Pro Comparison Chart' button on the main Upgrade screen. */
-"upgrade_question_answer_free_pro_differences" = "Strongbox 免費版和 Pro 版本之間的主要區別在於 Touch/Face ID 解鎖。\n\n這是資料庫最為便捷的解鎖方法之一。若不使用，那麼每次都需要手動輸入安全主密碼，而這個密碼通常又長又複雜，過程緩慢且容易輸入錯誤。\n\n除此之外，還有些不錯的功能，例如 PIN 碼和最愛圖示。\n\n更重要的是，您既不會再次看到此升級介面，還能支持 Strongbox 持續開發。\n\n您可以透過點選主升級介面上的「免費 vs Pro 比較表」按鈕來檢視差異概要。";
+"upgrade_question_answer_free_pro_differences" = "Strongbox 免費版和專業版本之間的主要區別在於 Touch/Face ID 解鎖。\n\n這是資料庫最為便捷的解鎖方法之一。若不使用，那麼每次都需要手動輸入安全主密碼，而這個密碼通常又長又複雜，過程緩慢且容易輸入錯誤。\n\n除此之外，還有些不錯的功能，例如 PIN 碼和最愛圖示。\n\n更重要的是，您既不會再次看到此升級介面，還能支持 Strongbox 持續開發。\n\n您可以透過點選主升級介面上的「免費 vs Pro 比較表」按鈕來檢視差異概要。";
 
 /* At the end of your trial you will be automatically transitioned to the Free version and you will no longer be able to use nifty features like Touch/Face ID Unlock.\n\nYou will still be able to access your databases, search them, edit them, and sync them to your cloud.\n\nYou might see an upgrade prompt every now and then too. This is just to encourage you to consider supporting ongoing development. */
 "upgrade_question_answer_end_trial" = "試用結束後，您將自動轉換為免費版本，無法再使用像 Touch/Face ID 解鎖等實用功能。\n\n您仍然可以存取、搜尋、編輯您的資料庫，並將其同步到您的雲端。\n\n您可能還會不時收到升級提示。這只是為了鼓勵您考慮支持進行中的開發。";
@@ -2870,7 +2870,7 @@
 "upgrade_question_answer_another_question" = "如果您有其他問題，您可以在線上尋找答案。透過搜尋、reddit (r/strongbox) 或網站 (https://strongboxsafe.com/support) 都可以做到這一點。\n\n請注意，向支援部門提出詢問會佔用大量開發時間，所以請好好考慮並保持詢問內容簡短明瞭 (僅限英語)。請在詢問時提交偵錯資訊和截圖。";
 
 /* Yes, the upgrade is linked to your Apple ID. So if you are signed in to that Apple ID account on your other iOS devices Strongbox will be available in the full Pro version.\n\nThis should happen automatically but you may need to tap the 'Restore Previous Purchase' button if it doesn't. */
-"upgrade_question_answer_works_on_other_devices" = "是的，此次升級已與您的 Apple ID 建立連結。所以如果您在其他 iOS 裝置上登入此 Apple ID 帳戶，Strongbox 都將提供完整的 Pro 版本。\n\n這應該會自動發生，但如果沒有的話，您可能需要點選「恢復先前購買」按鈕。";
+"upgrade_question_answer_works_on_other_devices" = "是的，此次升級已與您的 Apple ID 建立連結。所以如果您在其他 iOS 裝置上登入此 Apple ID 帳戶，Strongbox 都將提供完整的專業版本。\n\n這應該會自動發生，但如果沒有的話，您可能需要點選「恢復先前購買」按鈕。";
 
 /* Yes, Strongbox works with Apple's Family Sharing program. */
 "upgrade_question_answer_share_family" = "是的，Strongbox 支援 Apple 家人共享方案。";
@@ -2894,7 +2894,7 @@
 "error_database_is_encrypted_ms_intune" = "您的資料庫好像是由 Microsoft InTune 加密的，這可能是公司政策所致。";
 
 /* Add Entry... */
-"browse_add_entry_button_title" = "Add Entry...";
+"browse_add_entry_button_title" = "新增條目…";
 
 /* Add Group... */
 "browse_add_group_button_title" = "新增群組…";
@@ -2939,10 +2939,10 @@
 "audit_quick_summary_very_common_password" = "密碼太常見";
 
 /* Audit: Password is duplicated in another entry */
-"audit_quick_summary_duplicated_password" = "Password is duplicated in another entry";
+"audit_quick_summary_duplicated_password" = "密碼與另一個條目中的密碼重複";
 
 /* Audit: Password is similar to one in another entry. */
-"audit_quick_summary_password_is_similar_to_another" = "Password is similar to one in another entry";
+"audit_quick_summary_password_is_similar_to_another" = "密碼與另一個條目中的密碼相似";
 
 /* Password is Pwned (HIBP) */
 "audit_quick_summary_pwned" = "密碼已洩露 (HIBP)";
@@ -2957,7 +2957,7 @@
 "quick_view_title_all_entries_title" = "所有條目";
 
 /* View every entry in a flat list... */
-"quick_view_title_all_entries_subtitle" = "View every entry in a flat list...";
+"quick_view_title_all_entries_subtitle" = "在平面清單中檢視每個條目…";
 
 /* Audit Issues */
 "quick_view_title_audit_issues_title" = "稽核問題";
@@ -2975,7 +2975,7 @@
 "quick_view_section_title_quick_views" = "快速檢視";
 
 /* Enhanced Audits (Pro Edition Only) */
-"audit_similar_passwords_pro_only_title" = "相似密碼 (僅限 Pro 版本)";
+"audit_similar_passwords_pro_only_title" = "相似密碼 (僅限專業版本)";
 
 /* Audit Issues (%ld) - Translators note: format param is number of items with audit issues e.g. 5 */
 "quick_view_title_audit_issues_title_fmt" = "稽核問題 (%ld)";
@@ -3083,7 +3083,7 @@
 "audit_hibp_online_check_interval" = "選取線上檢查間隔";
 
 /* Have I Been Pwned? (Pro Edition Only) */
-"audit_hibp_pro_only_title" = "Have I Been Pwned?(僅限 Pro 版本)";
+"audit_hibp_pro_only_title" = "Have I Been Pwned?(僅限專業版本)";
 
 /* Auto Fetch FavIcon? */
 "item_details_prompt_auto_fetch_favicon_title" = "自動擷取最愛圖示？";
@@ -3092,7 +3092,7 @@
 "item_details_prompt_auto_fetch_favicon_message" = "當建立或更新條目時，Strongbox 可以自動提取最愛圖示 。\n\n您想讓 Strongbox 執行這項服務嗎？";
 
 /* Try Strongbox Pro? */
-"browse_pro_nudge_title" = "要試試 Strongbox Pro 版本嗎？";
+"browse_pro_nudge_title" = "要試試 Strongbox專業版本嗎？";
 
 /* Strongbox Pro is full of handy features like %@ Unlock.\n\nGood news! You have a Free 90-Day Trial available. Would you like to try Strongbox Pro? (Translators Note: 1st parameter is biometric id like 'Touch ID' or 'Face ID') */
 "browse_pro_nudge_message_fmt" = "Strongbox Pro 充滿了方便的功能，例如 %@ 解鎖。\n\n好消息！您可以獲得 90 天的免費試用期。您想試試 Strongbox Pro 嗎？";
@@ -3245,7 +3245,7 @@
 "autofill_error_unknown_db_message" = "這個 Strongbox 資料庫可能太舊了，已經找不到了。Strongbox 的快速輸入資料庫已經清理過了，因此您需要再次開啟資料庫才能重新整理快速輸入的內容。";
 
 /* Strongbox: Error Locating Entry */
-"autofill_error_unknown_item_title" = "Strongbox: Error Locating Entry";
+"autofill_error_unknown_item_title" = "Strongbox：條目定位錯誤";
 
 /* Strongbox could not find this entry, it is possibly stale. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill. */
 "autofill_error_unknown_item_message" = "Strongbox 找不到此條目。該條目可能已經過時。Strongbox 的快速輸入資料庫已經清理過了，因此您需要再次開啟資料庫才能重新整理快速輸入的內容。";
@@ -3389,7 +3389,7 @@
 "webdav_vc_validation_url_maybe_invalid" = "URL 可能無效";
 
 /* NFC YubiKey (Pro Edition Only) */
-"yubikey_config_section_header_nfc_pro_only" = "NFC YubiKey (僅限 Pro 版本)";
+"yubikey_config_section_header_nfc_pro_only" = "NFC YubiKey (僅限專業版本)";
 
 /* NFC YubiKey (NFC Not Supported on Device) */
 "yubikey_config_section_header_nfc_device_not_supported" = "NFC YubiKey (裝置不支援 NFC)";
@@ -3398,7 +3398,7 @@
 "yubikey_config_section_header_nfc_autofill_unavailable" = "NFC YibiKey (NFC 在自動填入中無法使用)";
 
 /* Lightning YubiKey (Pro Edition Only) */
-"yubikey_config_section_header_lightning_pro_only" = "Lightning YubiKey (僅限 Pro 版本)";
+"yubikey_config_section_header_lightning_pro_only" = "Lightning YubiKey (僅限專業版本)";
 
 /* Lightning YubiKey (Lightning Not Supported on Device) */
 "yubikey_config_section_header_lightning_device_not_supported" = "Lightning YubiKey (裝置不支援 Lightning)";
@@ -3416,7 +3416,7 @@
 "casg_yubikey_configured_virtual" = "虛擬硬體金鑰";
 
 /* Manual Unlock - Translators Note: This is an option available to users of Face/Touch ID or PIN Code Unlock - Instead of using these convenience unlock methods, display the manual entry standard unlock screen to enter Master Password manually */
-"safes_vc_unlock_manual_action" = "Manual Unlock";
+"safes_vc_unlock_manual_action" = "手動解鎖";
 
 /* TIP: Tap and hold item to see options - Translators Note: Hint or Tip text usually displayed at the top of the screen, to indicate the user can or should tap and hold down to see a useful context menu with options they can perform on the items they are currently working with. */
 "hint_tap_and_hold_to_see_options" = "提示：點選並按住即可檢視選項";
@@ -3557,10 +3557,10 @@
 "mac_autofill_locate_file_fmt" = "尋找「%@」";
 
 /* Pro Feature */
-"mac_autofill_pro_feature_title" = "Pro 版功能";
+"mac_autofill_pro_feature_title" = "專業版功能";
 
 /* AutoFill is only available on the Pro edition of Strongbox. You can upgrade like this:\n\n1. Launch Strongbox\n2. Click the 'Strongbox' menu\n3. Click 'Upgrade to Pro...'.\n\nThank you! */
-"mac_autofill_pro_feature_upgrade-message" = "自動填充功能只能在 Strongbox 的 Pro 版上使用。您可以這樣升級：\n\n1. 啟動 Strongbox\n2. 按一下「Strongbox」功能表\n3. 按一下「升級至 Pro 版…」。\n\n謝謝！";
+"mac_autofill_pro_feature_upgrade-message" = "自動填充功能只能在 Strongbox 的專業版上使用。您可以這樣升級：\n\n1. 啟動 Strongbox\n2. 按一下「Strongbox」功能表\n3. 按一下「升級至專業版…」。\n\n謝謝！";
 
 /* Passcode Fallback for %@ - Translators Note: This is a preference that says that the device passcode can be used as a fallback if Face ID or Touch ID fails - the parameter is either 'Touch ID' or 'Face ID' */
 "app_lock_allow_device_passcode_fallback_for_biometric_fmt" = "%@ 的密碼備援";
@@ -3623,19 +3623,19 @@
 "diff_view_section_header_summary" = "摘要";
 
 /* Will be Changed (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_will_be_changed_count_fmt" = "Will be Changed (%lu)";
+"diff_view_section_header_entry_will_be_changed_count_fmt" = "將變更 (%lu)";
 
 /* Items with Differences (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_differences_fmt" = "Items with Differences (%lu)";
+"diff_view_section_header_entry_differences_fmt" = "具有差異的項目 (%lu)";
 
 /* Will be Added (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_will_be_added_count_fmt" = "Will be Added (%lu)";
+"diff_view_section_header_entry_will_be_added_count_fmt" = "將新增 (%lu)";
 
 /* Only in Second Database (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
 "diff_view_section_header_only_in_second_fmt" = "僅在第二個資料庫中 (%lu)";
 
 /* Will be Moved (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_will_be_moved_count_fmt" = "Will be Moved (%lu)";
+"diff_view_section_header_entry_will_be_moved_count_fmt" = "將移動 (%lu)";
 
 /* Items in Different Locations (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
 "diff_view_section_header_items_in_different_loc_fmt" = "不同位置的項目 (%lu)";
@@ -3647,7 +3647,7 @@
 "diff_view_section_header_only_in_first_fmt" = "僅在第一個資料庫中 (%lu)";
 
 /* History will Change (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_history_will_change_count_fmt" = "History will Change (%lu)";
+"diff_view_section_header_entry_history_will_change_count_fmt" = "歷史記錄將變更 (%lu)";
 
 /* Items with Historical Differences (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
 "diff_view_section_header_historical_diffs_fmt" = "具有歷程差異的項目 (%lu)";
@@ -3833,7 +3833,7 @@
 "diff_progress_comparing" = "正在比較…";
 
 /* Pro feature only. Please Upgrade. */
-"generic_pro_feature_only_please_upgrade" = "Pro 版獨佔功能。請升級。";
+"generic_pro_feature_only_please_upgrade" = "專業版獨佔功能。請升級。";
 
 /* Comparison Results */
 "diff_nav_title_comparison_title" = "比較結果";
@@ -3920,7 +3920,7 @@
 "open_sequence_user_looks_offline_open_local_fmt" = "看起來您可能正處於離線狀態，'%@」可能無法存取。您想在離線模式中開啟嗎？";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use Strongbox's local copy in read-only mode instead? - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc */
-"open_sequence_user_looks_offline_open_local_ro_fmt" = "看起來您可能正處於離線狀態，'%@」可能無法存取。您想在離線模式中開啟嗎？\n\n注意：這是唯讀的。您也可以在 Pro 版中進行離線編輯。";
+"open_sequence_user_looks_offline_open_local_ro_fmt" = "看起來您可能正處於離線狀態，'%@」可能無法存取。您想在離線模式中開啟嗎？\n\n注意：這是唯讀的。您也可以在專業版中進行離線編輯。";
 
 /* Open Offline? */
 "open_sequence_yesno_use_local_copy_title" = "離線開啟？";
@@ -4110,7 +4110,7 @@
 "mac_unlock_database_with_apple_watch" = "用 Watch 解鎖";
 
 /* Unlock with Touch ID or Watch */
-"mac_unlock_database_with_touch_or_watch" = "Unlock with Touch ID or Watch";
+"mac_unlock_database_with_touch_or_watch" = "使用 Touch ID 或 Watch 來解鎖";
 
 /* Blur */
 "app_privacy_shield_mode_blur" = "模糊";
@@ -4487,7 +4487,7 @@
 "export_are_you_sure_replace" = "您確定要取代目的地資料庫中現有的相符項目嗎？";
 
 /* The 'Export Items' feature is part of the Pro feature set. Upgrade to enjoy! */
-"export_is_a_pro_feature_message" = "「匯出項目」為 Pro 版本功能，升級即可享用！";
+"export_is_a_pro_feature_message" = "「匯出項目」為專業版本功能，升級即可享用！";
 
 /* Your selected items have now be exported to the destination database. */
 "export_vc_export_items_successful_message" = "您選取的項目已經匯出到目的地資料庫。";
@@ -4583,4 +4583,4 @@
 "are_you_sure_change_encryption_settings" = "您確定要變更資料庫加密設定嗎？";
 
 /* No significant changes. Tap Done to Continue. */
-"merge_result_databases_identical_sync_initiated" = "Merge OK. Tap Done to continue.";
+"merge_result_databases_identical_sync_initiated" = "合併正常，點選「完成」即可繼續。";
