@@ -3620,7 +3620,7 @@
 "diff_result_databases_properties_different" = "資料庫屬性不同。";
 
 /* Summary */
-"diff_view_section_header_summary" = "Summary";
+"diff_view_section_header_summary" = "摘要";
 
 /* Will be Changed (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
 "diff_view_section_header_entry_will_be_changed_count_fmt" = "Will be Changed (%lu)";
@@ -3641,7 +3641,7 @@
 "diff_view_section_header_items_in_different_loc_fmt" = "不同位置的項目 (%lu)";
 
 /* Will be Deleted (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_will_be_deleted_count_fmt" = "Will be Deleted (%lu)";
+"diff_view_section_header_entry_will_be_deleted_count_fmt" = "即將刪除 (%lu)";
 
 /* Only in First Database (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
 "diff_view_section_header_only_in_first_fmt" = "僅在第一個資料庫中 (%lu)";
@@ -3668,7 +3668,7 @@
 "merge_view_merge_title_error" = "合併此資料庫時出現問題。";
 
 /* From %@ to %@ - Translators Note: 1st parameter is the old value that will change to the new value which is the second value e.g. 'From my-initial-username to my-changed-username' */
-"diff_drill_down_previous_new_fmt" = "From %@ to %@";
+"diff_drill_down_previous_new_fmt" = "從 %@ 到 %@";
 
 /* %@ <> %@ - Translators Note: 1st parameter is the first database value and the second parameter is the value of this item in the second database e.g. 'my-username-1 <> my-username-2' */
 "diff_drill_down_first_vs_second_fmt" = "%@ <> %@";
@@ -3683,7 +3683,7 @@
 "diff_drill_down_database_desc_will_change" = "資料庫說明將會變更。";
 
 /* Default Username will change. */
-"diff_drill_down_default_username_will_change" = "Default Username will change.";
+"diff_drill_down_default_username_will_change" = "預設使用者名稱將變更。";
 
 /* Recycle Bin Enabled state will change. */
 "diff_drill_down_recycle_bin_enabled_will_change" = "資源回收筒啟用狀態將會變更。";
@@ -3728,10 +3728,10 @@
 "diff_drill_down_icons_are_different" = "圖示不同。";
 
 /* Username will change. */
-"diff_drill_down_username_will_change" = "Username will change.";
+"diff_drill_down_username_will_change" = "使用者名稱將變更。";
 
 /* Username will change. */
-"diff_drill_down_usernames_are_different" = "Usernames are different.";
+"diff_drill_down_usernames_are_different" = "使用者名稱不同。";
 
 /* Password will change. */
 "diff_drill_down_password_will_change" = "密碼將會變更。";
@@ -3878,7 +3878,7 @@
 "model_error_could_not_write_local_merge" = "技術錯誤 - 無法寫入本機副本並進行比較/合併。";
 
 /* Cannot merge in background or without key. */
-"model_error_cannot_merge_in_background" = "Cannot merge without Master Credentials.";
+"model_error_cannot_merge_in_background" = "沒有主要憑證，無法合併。";
 
 /* Are you sure you want to always Auto-Merge when you have a Sync Conflict like this? */
 "sync_are_you_sure_always_auto_merge" = "您確定總是要在出現同步衝突時自動合併嗎？";
@@ -3953,7 +3953,7 @@
 "database_properties_subtitle_quick_launch" = "在 App 啟動時自動提示開啟該資料庫。";
 
 /* Always Auto-Merge */
-"database_properties_title_always_auto_merge" = "Always Auto-Merge";
+"database_properties_title_always_auto_merge" = "一律自動合併";
 
 /* When a sync conflict occurs automatically merge without asking. */
 "database_properties_subtitle_conflict_resolution" = "當發生同步衝突時自動合併，無需詢問。";
@@ -3971,10 +3971,10 @@
 "database_properties_subtitle_view_sync_log" = "檢視最近的同步詳細資料，包括錯誤。";
 
 /* Your Database is configured to use a YubiKey, however no YubiKey or an incorrect YubiKey was found connected. */
-"mac_autofill_no_or_incorrect_yubikey_found" = "Your Database is configured to use a YubiKey, however no YubiKey or an incorrect YubiKey was found connected.";
+"mac_autofill_no_or_incorrect_yubikey_found" = "您的資料庫已設定為使用 YubiKey，但找不到 YubiKey 或無法觸及正確的 YubiKey。";
 
 /* Title (Username) */
-"quick_type_format_title_username" = "Title (Username)";
+"quick_type_format_title_username" = "標題 (使用者名稱)";
 
 /* Title */
 "quick_type_format_title" = "標題";
@@ -4002,7 +4002,7 @@
 "databases_vc_database_location_suffix_database_is_in_official_icloud_strongbox_folder" = "Strongbox iCloud";
 
 /* Watch Unlock */
-"preference_allow_watch_unlock" = "Watch Unlock";
+"preference_allow_watch_unlock" = "Watch 解鎖";
 
 /* Watch Unlock - (Enable in System Preferences > Security & Privacy) */
 "preference_allow_watch_unlock_system_disabled" = "Watch 解鎖 - (在系統喜好設定 > 安全性和隱私權中啟用)";
@@ -4026,7 +4026,7 @@
 "third_party_storage_privacy_option_opt_in" = "選擇加入，我們就能開始…";
 
 /* Sync Successful */
-"notification_sync_successful" = "Sync Successful";
+"notification_sync_successful" = "同步成功";
 
 /* Add SFTP Database... (Pro) */
 "mac_add_sftp_pro_only" = "新增 SFTP 資料庫… (Pro)";
@@ -4053,16 +4053,16 @@
 "mac_item_duplicated" = "項目重複";
 
 /* File - Localization Note: This should be very short, 3-4 characters if possible. This indicates a regular file on the file system on a Mac. */
-"storage_provider_name_mac_file_short" = "File";
+"storage_provider_name_mac_file_short" = "檔案";
 
 /* Done. ✅ */
 "sync_log_status_done" = "完成。✅";
 
 /* TOTP Copied */
-"autofill_info_totp_copied_title" = "TOTP Copied";
+"autofill_info_totp_copied_title" = "已複製 TOTP";
 
 /* Your TOTP Code has been copied to the clipboard. */
-"autofill_info_totp_copied_message" = "Your TOTP Code has been copied to the clipboard.";
+"autofill_info_totp_copied_message" = "您的 TOTP 代碼已複製到剪貼簿。";
 
 /* Convenience Auto Unlock */
 "prefs_vc_autofill_convenience_auto_unlock" = "快速自動解鎖";
@@ -4083,7 +4083,7 @@
 "autofill_auto_unlock_try_10_minutes" = "我想試試 10 分鐘";
 
 /* AutoFill Quick Launch */
-"databases_toggle_autofill_quick_launch_context_menu" = "AutoFill Quick Launch";
+"databases_toggle_autofill_quick_launch_context_menu" = "自動填入快速啟動";
 
 /* Title Matches */
 "autofill_search_title_matches_section_header" = "標題相符的項目";
@@ -4101,7 +4101,7 @@
 "autofill_search_service_id_section_footer" = "服務 ID 是由自動填入功能傳送到 Strongbox 的識別項。如果您將條目的 URL 設定為與服務 ID 相符，它就能幫助您搜尋。點選以複製。";
 
 /* Results */
-"quick_view_title_no_matches_title" = "Results";
+"quick_view_title_no_matches_title" = "搜尋結果";
 
 /* Unlock with Touch ID */
 "mac_unlock_database_with_touch_id" = "用 Touch ID 解鎖";
@@ -4299,7 +4299,7 @@
 "convenience_unlock_preferences_title_fmt" = "%@ & PIN 碼";
 
 /* Require After */
-"convenience_unlock_require_after_prefix" = "Require After";
+"convenience_unlock_require_after_prefix" = "在此之後需要";
 
 /* It's time now to re-enter your Master Password manually. You can change this reminder interval in Database Settings. */
 "composite_key_determiner_convenience_expired_message" = "是時候重新手動輸入主密碼了。您可以在「資料庫設定」中變更此提醒的間隔時間。";
@@ -4353,7 +4353,7 @@
 "onboarding_scheduled_export_onboarding_remind_4_weeks" = "4 週後提醒我";
 
 /* Don't Remind Me */
-"generic_dont_remind_me" = "Don't Remind Me";
+"generic_dont_remind_me" = "不要提醒我";
 
 /* It's time to export a backup copy of your database somewhere safe.\n\nWould you like do that now? */
 "scheduled_export_message" = "該備份資料庫囉，複製並匯出到某個安全的地方吧。\n\n想馬上開始嗎？";
@@ -4380,7 +4380,7 @@
 "prefs_vc_scheduled_export_interval" = "預定的匯出間隔";
 
 /* Welcome Aboard */
-"onboarding_welcome_to_strongbox_first_run_title" = "Welcome Aboard";
+"onboarding_welcome_to_strongbox_first_run_title" = "歡迎您的加入";
 
 /* Hi there, and welcome to Strongbox 😎\n\nWe're sure you're excited to get started, but first, there are a few steps we should take so that everything runs smoothly... */
 "onboarding_welcome_to_strongbox_first_run_message" = "您好，歡迎使用 Strongbox😎。\n\n相信您已經迫不及待想開始使用了，但我們要先完成幾個步驟，以便一切順利進行……";
@@ -4460,7 +4460,7 @@
 "export_items_select_destination_database_title" = "目的地資料庫";
 
 /* Export Here */
-"export_items_select_destination_group_title" = "Export Here";
+"export_items_select_destination_group_title" = "在此匯出";
 
 /* Export Database */
 "generic_export_database" = "匯出資料庫";
@@ -4559,7 +4559,7 @@
 "pk_or_password_missing" = "私鑰或密碼遺失";
 
 /* Select Destination Group - L10n Note: When a user is moving item(s) to another group in a database, this is the title. */
-"select_destination_group" = "Select Destination Group";
+"select_destination_group" = "選擇目標群組";
 
 /* KeePass 2 (KDBX 3.x) ⚠️ */
 "keepass_kdbx3_format_not_recommended" = "KeePass 2 (KDBX 3.x) ⚠️";
@@ -4571,16 +4571,16 @@
 "generic_memory" = "記憶體";
 
 /* Parallelism */
-"generic_parallelism" = "Parallelism";
+"generic_parallelism" = "平行演算法";
 
 /* Algorithm */
 "generic_algorithm" = "演算法";
 
 /* Compression */
-"generic_compression" = "Compression";
+"generic_compression" = "壓縮方式";
 
 /* Are you sure you want to change your database encryption settings? */
-"are_you_sure_change_encryption_settings" = "Are you sure you want to change your database encryption settings?";
+"are_you_sure_change_encryption_settings" = "您確定要變更資料庫加密設定嗎？";
 
 /* No significant changes. Tap Done to Continue. */
 "merge_result_databases_identical_sync_initiated" = "Merge OK. Tap Done to continue.";
