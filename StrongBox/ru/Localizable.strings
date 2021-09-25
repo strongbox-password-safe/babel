@@ -3563,7 +3563,7 @@
 "mac_autofill_pro_feature_upgrade-message" = "Функция автозаполнения доступна только в Pro версии приложения. Обновление можно выполнить следующим образом:\n\n1. Запустите приложение.\n2. Выберите меню Strongbox.\n3. Нажмите «Обновить до Pro».";
 
 /* Passcode Fallback for %@ - Translators Note: This is a preference that says that the device passcode can be used as a fallback if Face ID or Touch ID fails - the parameter is either 'Touch ID' or 'Face ID' */
-"app_lock_allow_device_passcode_fallback_for_biometric_fmt" = "Код-пароль устройства для %@";
+"app_lock_allow_device_passcode_fallback_for_biometric_fmt" = "Код-пароль iOS для %@";
 
 /* Backup %ld (%@) - Translators Note: 1st Param is a number/integer, second parameter is the modified date, so e.g. 'Backup 4 (11 Nov 2020)'*/
 "backups_backup_title_fmt" = "Резервная копия #%ld (%@)";
@@ -4326,7 +4326,7 @@
 "generic_dismiss" = "Отменить";
 
 /* There is a configuration issue you should be aware of. You are using %@ for both App Lock and Quick Launch. In addition you allow device passcode fallback for App Lock.\n\nThis leads to a situation where you can unlock your database using only your device passcode.\n\nIf you do not want this you can do any of the following: Disable App Lock passcode fallback, or Quick Launch, or %@ Database Unlock, or coalescing of unlocks - L10n Note: 3 format parameters here are identical and will be either 'Face ID' or 'Touch ID' */
-"app_lock_coalescing_with_quick_launch_warning" = "Вы применяете %@ как для блокировки приложения, так и для быстрого запуска БД. Кроме того, разрешено использовать код-пароль устройства для блокировки приложения.\n\nМожет возникнуть ситуация, когда разблокировка БД будет возможна только с помощью код-пароля устройства.\n\nЧтобы изменить это, выполните любое из действий: выключите код-пароль устройства для блокировки приложения, или быстрый запуск, или %@ для разблокировки БД, или объединение биометрии.";
+"app_lock_coalescing_with_quick_launch_warning" = "Вы применяете %@ как для блокировки приложения, так и для быстрого запуска БД. Кроме того, разрешено использовать код-пароль iOS для блокировки приложения.\n\nМожет возникнуть ситуация, когда разблокировка БД будет возможна только с помощью код-пароля iOS.\n\nЧтобы изменить это, выполните любое из действий: выключите код-пароль iOS для блокировки приложения, или быстрый запуск, или %@ для разблокировки БД, или объединение биометрии.";
 
 /* Configuration Issue */
 "onboarding_configuration_issue_title" = "Оптимизация настроек";
