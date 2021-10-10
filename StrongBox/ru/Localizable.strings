@@ -582,7 +582,7 @@
 "item_details_password_copied" = "Пароль скопирован";
 
 /* Password Copied. Launching URL... */
-"item_details_password_copied_and_launching" = "Пароль скопирован. Запуск ссылки ...";
+"item_details_password_copied_and_launching" = "Пароль скопирован. Запуск URL ...";
 
 /* Password History */
 "item_details_password_history" = "История пароля";
@@ -1136,7 +1136,7 @@
 "add_attachment_vc_error_reading_message" = "Не удалось открыть данные этого элемента.";
 
 /* This is quite a large file (%@), and could significantly affect the performance of Strongbox and slow down syncs across networks. Is there a smaller version you could use?\n\nContinue adding this attachment anyway? */
-"add_attachment_vc_large_file_message_fmt" = "Слишком большой файл (%@), который может существенно повлиять на производительность Strongbox и замедлить сетевую синхронизацию.\n\nДобавить вложение в любом случае?";
+"add_attachment_vc_large_file_message_fmt" = "Слишком большой файл (%@). Это может негативно повлиять на производительность и замедлить синхронизацию.\n\nДобавить вложение в любом случае?";
 
 /* Large Attachment */
 "add_attachment_vc_large_file_title" = "Большой размер вложения";
@@ -1145,10 +1145,10 @@
 "add_attachment_vc_large_file_analyzing_progress_title" = "Анализ изображения ...";
 
 /* This is a rather large image which could negatively affect the performance of Strongbox, and significantly slow down network synchronisation times. Would you like to rescale this image to one of the streamlined options below? */
-"add_attachment_vc_large_image_message_rescale" = "Слишком большое изображение. Это может негативно повлиять на производительность приложения и замедлить синхронизацию. Хотите изменить масштаб до одного из оптимизированных вариантов, представленных ниже?";
+"add_attachment_vc_large_image_message_rescale" = "Слишком большое изображение. Это может негативно повлиять на производительность и замедлить синхронизацию. Хотите изменить масштаб до одного из вариантов, представленных ниже?";
 
 /* This is a rather large image which could negatively affect the performance of Strongbox, and significantly slow down network synchronisation times. Is there a smaller version you could use? */
-"add_attachment_vc_large_image_message" = "Слишком большое изображение, которое может негативно повлиять на производительность приложения и замедлить сетевую синхронизацию. Есть ли уменьшенная версия, которую Вы могли бы использовать?";
+"add_attachment_vc_large_image_message" = "Слишком большое изображение. Это может негативно повлиять на производительность приложения и замедлить синхронизацию. Есть ли уменьшенная версия, которую Вы могли бы использовать?";
 
 /* Rescale Large Image? */
 "add_attachment_vc_large_image_prompt_rescale_title" = "Изменить масштаб изображения?";
@@ -1220,7 +1220,7 @@
 "set_icon_vc_progress_analyzing_image" = "Анализ изображения ...";
 
 /* This is a rather large image (%dx%d), would you like to rescale it to a maximum dimension of %d pixels for a file size saving of roughly %@ */
-"set_icon_vc_prompt_rescale_image_message_fmt" = "Слишком  большой размер изображения (%d x %d). Хотите изменить его до максимального в %d пикселей (уменьшение размера файла - %@)?";
+"set_icon_vc_prompt_rescale_image_message_fmt" = "Слишком большое изображение (%d x %d). Хотите изменить его масштаб до максимального в %d пикселей (уменьшение размера файла - %@)?";
 
 /* Large Custom Icon Image, Rescale? */
 "set_icon_vc_prompt_rescale_image_title" = "Размер значка";
@@ -1820,8 +1820,8 @@
 /* Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences */
 "open_sequence_error_reading_key_file_autofill_context" = "Не удалось открыть файл-ключ. Откройте Файл-ключи в настройках и проверьте данные.";
 
-/* Transfer over WiFi (or LAN) */
-"sspc_local_network_storage_location" = "Передача по WiFi (LAN)";
+/* Transfer over Wi-Fi (or LAN) */
+"sspc_local_network_storage_location" = "Передача по Wi-Fi (LAN)";
 
 /* A storage provider is in the process of reading. This is the status displayed on the progress dialog. In english:  Reading... */
 "storage_provider_status_reading" = "Чтение ...";
@@ -1879,6 +1879,9 @@
 
 /* Title */
 "generic_fieldname_title" = "Название";
+
+/* All Fields */
+"generic_fieldname_all_fields" = "Все поля";
 
 /* Username */
 "generic_fieldname_username" = "Логин";
@@ -2738,7 +2741,7 @@
 /* Never */
 "mac_convenience_expiry_period_never" = "Никогда";
 
-/* App Exit */
+/* App Exit  (Memory Only, No AutoFill) */
 "mac_convenience_expiry_period_on_app_exit" = "Выход из приложения";
 
 /* Unlock with Touch ID or Watch */
@@ -3563,7 +3566,7 @@
 "mac_autofill_pro_feature_upgrade-message" = "Функция автозаполнения доступна только в Pro версии приложения. Обновление можно выполнить следующим образом:\n\n1. Запустите приложение.\n2. Выберите меню Strongbox.\n3. Нажмите «Обновить до Pro».";
 
 /* Passcode Fallback for %@ - Translators Note: This is a preference that says that the device passcode can be used as a fallback if Face ID or Touch ID fails - the parameter is either 'Touch ID' or 'Face ID' */
-"app_lock_allow_device_passcode_fallback_for_biometric_fmt" = "Код-пароль устройства для %@";
+"app_lock_allow_device_passcode_fallback_for_biometric_fmt" = "Код-пароль iOS для %@";
 
 /* Backup %ld (%@) - Translators Note: 1st Param is a number/integer, second parameter is the modified date, so e.g. 'Backup 4 (11 Nov 2020)'*/
 "backups_backup_title_fmt" = "Резервная копия #%ld (%@)";
@@ -4326,7 +4329,7 @@
 "generic_dismiss" = "Отменить";
 
 /* There is a configuration issue you should be aware of. You are using %@ for both App Lock and Quick Launch. In addition you allow device passcode fallback for App Lock.\n\nThis leads to a situation where you can unlock your database using only your device passcode.\n\nIf you do not want this you can do any of the following: Disable App Lock passcode fallback, or Quick Launch, or %@ Database Unlock, or coalescing of unlocks - L10n Note: 3 format parameters here are identical and will be either 'Face ID' or 'Touch ID' */
-"app_lock_coalescing_with_quick_launch_warning" = "Вы применяете %@ как для блокировки приложения, так и для быстрого запуска БД. Кроме того, разрешено использовать код-пароль устройства для блокировки приложения.\n\nМожет возникнуть ситуация, когда разблокировка БД будет возможна только с помощью код-пароля устройства.\n\nЧтобы изменить это, выполните любое из действий: выключите код-пароль устройства для блокировки приложения, или быстрый запуск, или %@ для разблокировки БД, или объединение биометрии.";
+"app_lock_coalescing_with_quick_launch_warning" = "Вы применяете %@ как для блокировки приложения, так и для быстрого запуска БД. Кроме того, разрешено использовать код-пароль iOS для блокировки приложения.\n\nМожет возникнуть ситуация, когда разблокировка БД будет возможна только с помощью код-пароля iOS.\n\nЧтобы изменить это, выполните любое из действий: выключите код-пароль iOS для блокировки приложения, или быстрый запуск, или %@ для разблокировки БД, или объединение биометрии.";
 
 /* Configuration Issue */
 "onboarding_configuration_issue_title" = "Оптимизация настроек";
@@ -4416,7 +4419,7 @@
 "add_attachment_vc_large_image_prompt_option_use_anyway_size_fmt2" = "Использовать (%@ x %@) %@";
 
 /* This is a rather large image (%@x%@), would you like to rescale it to a maximum dimension of %@ pixels for a file size saving of roughly %@  - (Tranlators Note: Message about reducing the file size of an image. e.g. 'This is a rather large image (4096x4096), would you like to rescale it to a maximum dimension of 512 pixels for a file size saving of roughly 15 MB')  */
-"set_icon_vc_prompt_rescale_image_message_fmt2" = "Слишком  большой размер изображения (%@ x %@). Хотите изменить его до максимального в %@ пикселей (уменьшение размера файла примерно - %@)?";
+"set_icon_vc_prompt_rescale_image_message_fmt2" = "Слишком  большое изображение (%@ x %@). Хотите изменить его масштаб до максимального в %@ пикселей (уменьшение размера файла - %@)?";
 
 /* YubiKey %@ Slot %@ (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
 "mac_yubikey_serial_number_slot_n_touch_required_fmt2" = "YubiKey %@ Слот %@ (Требуется касание)";
@@ -4584,3 +4587,31 @@
 
 /* No significant changes. Tap Done to Continue. */
 "merge_result_databases_identical_sync_initiated" = "Слияние завершено. Нажмите «Готово», чтобы продолжить.";
+
+/* Expired Entries (%@)  - L10n note - 1st paramter is the number of entries, e.g. Expired Entries (2) */
+"quick_view_title_expired_entries_title_fmt" = "С истёкшим сроком (%@)";
+
+/* View all expired entries */
+"quick_view_title_expired_entries_subtitle" = "Все с истёкшим сроком";
+
+/* Nearly Expired Entries (%@) - L10n note - 1st paramter is the number of entries, e.g. Nearly Expired Entries (2) */
+"quick_view_title_nearly_expired_entries_title_fmt" = "Близкие к истечению срока (%@)";
+
+/* View all nearly expired entries */
+"quick_view_title_nearly_expired_entries_subtitle" = "Все близкие к истечению срока";
+
+/* Wi-Fi Transfer */
+"safes_vc_wifi_transfer" = "Передача по Wi-Fi";
+
+/* Get Started Wizard */
+"safes_vc_quick_start" = "Запуск мастера";
+
+/* New (Advanced) */
+"safes_vc_new_advanced" = "Создать БД";
+
+/* Add Existing */
+"safes_vc_add_existing" = "Добавить имеющуюся";
+
+"safesvc_inner_stream_error_title" = "Inner Stream Decryption Error";
+
+"safesvc_inner_stream_error_message" = "Strongbox has had a problem decrypting some protected fields in this database. This is likely due to a previous corrupt save.\n\nThe database will now open in Read-Only mode to prevent further corruption.\n\nWe recommend restoring from an older backup, or trying to re-save to restore or undo corruption.";
