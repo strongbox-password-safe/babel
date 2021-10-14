@@ -1821,7 +1821,7 @@
 "open_sequence_error_reading_key_file_autofill_context" = "Не удалось открыть файл-ключ. Откройте Файл-ключи в настройках и проверьте данные.";
 
 /* Transfer over Wi-Fi (or LAN) */
-"sspc_local_network_storage_location" = "Передача по Wi-Fi (LAN)";
+"sspc_local_network_storage_location" = "Через Wi-Fi";
 
 /* A storage provider is in the process of reading. This is the status displayed on the progress dialog. In english:  Reading... */
 "storage_provider_status_reading" = "Чтение ...";
@@ -4612,6 +4612,7 @@
 /* Add Existing */
 "safes_vc_add_existing" = "Добавить имеющуюся";
 
-"safesvc_inner_stream_error_title" = "Inner Stream Decryption Error";
+"safesvc_inner_stream_error_title" = "Ошибка при дешифровании";
 
-"safesvc_inner_stream_error_message" = "Strongbox has had a problem decrypting some protected fields in this database. This is likely due to a previous corrupt save.\n\nThe database will now open in Read-Only mode to prevent further corruption.\n\nWe recommend restoring from an older backup, or trying to re-save to restore or undo corruption.";
+/* Strongbox has had a problem decrypting some protected fields in this database. \n\nThe database will now open in Read-Only mode to prevent further corruption.\n\nWe recommend restoring from an older backup or upgrading to KDBX4 which does not suffer from this issue. */
+"safesvc_inner_stream_error_message" = "Не удалось дешифровать некоторые защищённые поля. \n\nБД будет открыта только для чтения.\n\nРекомендуем восстановить данные из резервной копии или обновить формат БД до KDBX4.";
