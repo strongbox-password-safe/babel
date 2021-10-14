@@ -4614,4 +4614,5 @@
 
 "safesvc_inner_stream_error_title" = "Chyba při dešifrování vnitřního streamu";
 
-"safesvc_inner_stream_error_message" = "Strongbox měl problém s dešifrováním některých chráněných polí v této databázi. To je pravděpodobně způsobeno předchozím špatným uložením.\n\nDatabáze bude nyní otevřena v režimu jen pro čtení, aby se zabránilo dalšímu poškození.\n\nDoporučujeme ji obnovit ze starší zálohy nebo se pokusit ji obnovit nebo vrátit poškození.";
+/* Strongbox has had a problem decrypting some protected fields in this database. \n\nThe database will now open in Read-Only mode to prevent further corruption.\n\nWe recommend restoring from an older backup or upgrading to KDBX4 which does not suffer from this issue. */
+"safesvc_inner_stream_error_message" = "Strongbox has had a problem decrypting some protected fields in this database. \n\nThe database will now open in Read-Only mode to prevent further corruption.\n\nWe recommend restoring from an older backup or upgrading to KDBX4 which does not suffer from this issue.";
