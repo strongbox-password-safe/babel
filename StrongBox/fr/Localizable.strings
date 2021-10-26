@@ -1821,7 +1821,7 @@
 "open_sequence_error_reading_key_file_autofill_context" = "Impossible de lire le fichier-clé. A-t-il été importé correctement ? Vérifiez la gestion des fichiers-clés dans les préférences";
 
 /* Transfer over Wi-Fi (or LAN) */
-"sspc_local_network_storage_location" = "Transfer over Wi-Fi (or LAN)";
+"sspc_local_network_storage_location" = "Transfert par WiFi (ou LAN)";
 
 /* A storage provider is in the process of reading. This is the status displayed on the progress dialog. In english:  Reading... */
 "storage_provider_status_reading" = "Lecture en cours...";
@@ -2742,7 +2742,7 @@
 "mac_convenience_expiry_period_never" = "Jamais";
 
 /* App Exit  (Memory Only, No AutoFill) */
-"mac_convenience_expiry_period_on_app_exit" = "App Exit (Memory Only, No AutoFill)";
+"mac_convenience_expiry_period_on_app_exit" = "Sortie de l'application (Pas de remplissage automatique)";
 
 /* Unlock with Touch ID or Watch */
 "mac_unlock_screen_button_title_convenience_unlock" = "Déverrouiller avec Touch ID ou Watch";
@@ -4601,18 +4601,36 @@
 "quick_view_title_nearly_expired_entries_subtitle" = "Voir toutes les entrées bientôt expirées";
 
 /* Wi-Fi Transfer */
-"safes_vc_wifi_transfer" = "Wi-Fi Transfer";
+"safes_vc_wifi_transfer" = "Transfert WiFi";
 
 /* Get Started Wizard */
-"safes_vc_quick_start" = "Get Started Wizard";
+"safes_vc_quick_start" = "Assistant de démarrage";
 
 /* New (Advanced) */
-"safes_vc_new_advanced" = "New Database";
+"safes_vc_new_advanced" = "Nouvelle base de données";
 
 /* Add Existing */
-"safes_vc_add_existing" = "Add Existing";
+"safes_vc_add_existing" = "Ajouter existante";
 
-"safesvc_inner_stream_error_title" = "Inner Stream Decryption Error";
+"safesvc_inner_stream_error_title" = "Erreur de déchiffrement du flux interne";
 
 /* Strongbox has had a problem decrypting some protected fields in this database. \n\nThe database will now open in Read-Only mode to prevent further corruption.\n\nWe recommend restoring from an older backup or upgrading to KDBX4 which does not suffer from this issue. */
-"safesvc_inner_stream_error_message" = "Strongbox has had a problem decrypting some protected fields in this database. \n\nThe database will now open in Read-Only mode to prevent further corruption.\n\nWe recommend restoring from an older backup or upgrading to KDBX4 which does not suffer from this issue.";
+"safesvc_inner_stream_error_message" = "Strongbox a rencontré un problème lors du déchiffrement de certains champs protégés dans cette base de données. \n\nLa base de données va maintenant s'ouvrir en mode lecture seule pour éviter d'aggraver la corruption.\n\nNous recommandons de restaurer à partir d'une sauvegarde plus ancienne ou de mettre à jour vers KDBX4 qui ne souffre pas de ce problème.";
+
+/* Choose file to Import */
+"mac_choose_file_import" = "Choose file to Import";
+
+/* 🔴 Import Failed */
+"import_failed_title" = "🔴 Import Failed";
+
+/* Strongbox could not import this file. Please check it is in the correct format. */
+"import_failed_message" = "Strongbox could not import this file. Please check it is in the correct format.";
+
+/* ✅ Import Successful */
+"import_successful_title" = "✅ Import Successful";
+
+/* Your import was successful! Now, let's set a strong master password and save your new Strongbox database. */
+"import_successful_message" = "Your import was successful! Now, let's set a strong master password and save your new Strongbox database.";
+
+/* Are you sure you want to clear the TOTP for this entry? */
+"are_you_sure_clear_totp" = "Are you sure you want to clear the TOTP for this entry?";

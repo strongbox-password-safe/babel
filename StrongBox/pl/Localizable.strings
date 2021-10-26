@@ -1815,7 +1815,7 @@
 "model_error_cannot_write_backup" = "Could not write backup, will not proceed with write of database!";
 
 /* Button Title to view backup settings of this database */
-"safes_vc_action_backups" = "Backups";
+"safes_vc_action_backups" = "Kopie zapasowe";
 
 /* Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences */
 "open_sequence_error_reading_key_file_autofill_context" = "Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences";
@@ -1878,7 +1878,7 @@
 "browse_vc_action_delete" = "Delete";
 
 /* Title */
-"generic_fieldname_title" = "Title";
+"generic_fieldname_title" = "Tytuł";
 
 /* All Fields */
 "generic_fieldname_all_fields" = "All Fields";
@@ -1902,7 +1902,7 @@
 "generic_fieldname_notes" = "Notes";
 
 /* Icon */
-"generic_fieldname_icon" = "Icon";
+"generic_fieldname_icon" = "Ikona";
 
 /* Custom Fields */
 "generic_fieldname_custom_fields" = "Custom Fields";
@@ -2042,7 +2042,7 @@
 "browse_vc_search_scope_password" = "Password";
 
 /* Title */
-"browse_vc_search_scope_title" = "Title";
+"browse_vc_search_scope_title" = "Tytuł";
 
 /* URL */
 "browse_vc_search_scope_url" = "URL";
@@ -2081,7 +2081,7 @@
 "item_details_section_header_notes" = "Notes";
 
 /* Title */
-"item_details_title_field_name" = "Title";
+"item_details_title_field_name" = "Tytuł";
 
 /* URL Copied */
 "item_details_url_copied" = "URL Copied";
@@ -2120,7 +2120,7 @@
 "open_sequence_prompt_option_no" = "No";
 
 /* Title */
-"pick_creds_vc_search_scope_title" = "Title";
+"pick_creds_vc_search_scope_title" = "Tytuł";
 
 /* Username */
 "pick_creds_vc_search_scope_username" = "Username";
@@ -2472,7 +2472,7 @@
 "mac_create_new_database_title" = "Create New Password Database";
 
 /* Enter Master Credentials */
-"mac_enter_database_master_credentials" = "Enter Master Credentials";
+"mac_enter_database_master_credentials" = "Wprowadź główne hasło";
 
 /* Click Browse to Select a Key File */
 "mac_click_browse_select_key_file" = "Click Browse to Select a Key File";
@@ -3011,7 +3011,7 @@
 "audit_status_done_with_hibp_errors_fmt" = "Found %@ issues in %@ entries (with %@ HIBP Errors)";
 
 /* Audit Complete */
-"audit_status_complete" = "Status: Complete";
+"audit_status_complete" = "Status: Zakończone";
 
 /* Database Auditor Initialized */
 "audit_status_initialized" = "Status: Initializing...";
@@ -3074,7 +3074,7 @@
 "hibp_check_interval_always_check" = "Always Check";
 
 /* Once a Day */
-"hibp_check_interval_once_a_day" = "Once a Day";
+"hibp_check_interval_once_a_day" = "Raz dziennie";
 
 /* Once a Week */
 "hibp_check_interval_once_a_week" = "Once a Week";
@@ -3137,7 +3137,7 @@
 "keepass_icon_set_keepassxc" = "KeePassXC";
 
 /* Preferences */
-"audit_drill_down_section_header_preferences" = "Preferences";
+"audit_drill_down_section_header_preferences" = "Ustawienia";
 
 /* Summary */
 "audit_drill_down_section_header_summary" = "Summary";
@@ -3980,7 +3980,7 @@
 "quick_type_format_title_username" = "Title (Username)";
 
 /* Title */
-"quick_type_format_title" = "Title";
+"quick_type_format_title" = "Tytuł";
 
 /* Username */
 "quick_type_format_username" = "Username";
@@ -4317,7 +4317,7 @@
 "generic_actions" = "Actions";
 
 /* Preferences - L10n - a generic header or item that leads to a set or settings / preferences - often used as a Section Header or button */
-"generic_preferences" = "Preferences";
+"generic_preferences" = "Ustawienia";
 
 /* Rearrange - L10n - Verb - to re-order or otherwise change the order of a list of items */
 "generic_rearrange" = "Rearrange";
@@ -4326,7 +4326,7 @@
 "onboarding_convenience_message_fmt" = "Typing your master password is slow, cumbersome and error prone. Strongbox can help you to securely & quickly unlock your database without needing to use your master password every time.\n\nWould you like to use Convenience Unlock?";
 
 /* Dismiss - L10n Note: Generic Action to dismiss a dialog or popup */
-"generic_dismiss" = "Dismiss";
+"generic_dismiss" = "Odrzuć";
 
 /* There is a configuration issue you should be aware of. You are using %@ for both App Lock and Quick Launch. In addition you allow device passcode fallback for App Lock.\n\nThis leads to a situation where you can unlock your database using only your device passcode.\n\nIf you do not want this you can do any of the following: Disable App Lock passcode fallback, or Quick Launch, or %@ Database Unlock, or coalescing of unlocks - L10n Note: 3 format parameters here are identical and will be either 'Face ID' or 'Touch ID' */
 "app_lock_coalescing_with_quick_launch_warning" = "There is a configuration issue you should be aware of. You are using %@ for both App Lock and Quick Launch. In addition you allow device passcode fallback for App Lock.\n\nThis leads to a situation where you can unlock your database using only your device passcode.\n\nIf you do not want this you can do any of the following: Disable App Lock passcode fallback, or Quick Launch, or %@ Database Unlock, or coalescing of unlocks.";
@@ -4616,3 +4616,21 @@
 
 /* Strongbox has had a problem decrypting some protected fields in this database. \n\nThe database will now open in Read-Only mode to prevent further corruption.\n\nWe recommend restoring from an older backup or upgrading to KDBX4 which does not suffer from this issue. */
 "safesvc_inner_stream_error_message" = "Strongbox has had a problem decrypting some protected fields in this database. \n\nThe database will now open in Read-Only mode to prevent further corruption.\n\nWe recommend restoring from an older backup or upgrading to KDBX4 which does not suffer from this issue.";
+
+/* Choose file to Import */
+"mac_choose_file_import" = "Choose file to Import";
+
+/* 🔴 Import Failed */
+"import_failed_title" = "🔴 Import Failed";
+
+/* Strongbox could not import this file. Please check it is in the correct format. */
+"import_failed_message" = "Strongbox could not import this file. Please check it is in the correct format.";
+
+/* ✅ Import Successful */
+"import_successful_title" = "✅ Import Successful";
+
+/* Your import was successful! Now, let's set a strong master password and save your new Strongbox database. */
+"import_successful_message" = "Your import was successful! Now, let's set a strong master password and save your new Strongbox database.";
+
+/* Are you sure you want to clear the TOTP for this entry? */
+"are_you_sure_clear_totp" = "Are you sure you want to clear the TOTP for this entry?";

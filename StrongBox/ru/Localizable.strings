@@ -231,7 +231,7 @@
 "safesvc_update_existing_option_update" = "Обновить имеющуюся БД";
 
 /* Create a New Database */
-"safesvc_update_existing_option_create" = "Создать новую БД";
+"safesvc_update_existing_option_create" = "Создать БД";
 
 /* Error updating file. */
 "safesvc_error_updating_title" = "Ошибка при обновлении";
@@ -1821,7 +1821,7 @@
 "open_sequence_error_reading_key_file_autofill_context" = "Не удалось открыть файл-ключ. Откройте Файл-ключи в настройках и проверьте данные.";
 
 /* Transfer over Wi-Fi (or LAN) */
-"sspc_local_network_storage_location" = "Через Wi-Fi";
+"sspc_local_network_storage_location" = "Передача по Wi-Fi";
 
 /* A storage provider is in the process of reading. This is the status displayed on the progress dialog. In english:  Reading... */
 "storage_provider_status_reading" = "Чтение ...";
@@ -1830,7 +1830,7 @@
 "open_sequence_biometric_unlock_preferences_message" = "Идентифицируйтесь, чтобы открыть настройки";
 
 /* Message to display when device is offline and has no IP address in Local HTTP Transfer - Select Storage -> Transfer over Local Network */
-"transfer_local_network_network_unavailable_message" = "Отсутствует подключение к локальной сети";
+"transfer_local_network_network_unavailable_message" = "Отсутствует подключение к сети Wi-Fi";
 
 /* Title of info dialog about Apple Family Sharing upgrade */
 "upgrade_family_sharing_info_title" = "Семейный доступ Apple";
@@ -2412,10 +2412,10 @@
 "mac_undo_action_set_custom_field" = "Установить настраиваемое поле";
 
 /* Add Custom Field */
-"mac_undo_action_add_custom_field" = "Добавить настраиваемое поле";
+"mac_undo_action_add_custom_field" = "Добавить поле";
 
 /* Remove Custom Field */
-"mac_undo_action_remove_custom_field" = "Удалить настраиваемое поле";
+"mac_undo_action_remove_custom_field" = "Удалить поле";
 
 /* Set TOTP */
 "mac_undo_action_set_totp" = "Добавить TOTP";
@@ -2442,7 +2442,7 @@
 "mac_please_enter_master_credentials_for_this_database" = "Введите мастер-ключ для этой БД.";
 
 /* Save New Password Database... */
-"mac_save_new_database" = "Сохранить новую базу паролей ...";
+"mac_save_new_database" = "Сохранить новую БД";
 
 /* Save */
 "mac_save_action" = "Сохранить";
@@ -2469,7 +2469,7 @@
 "mac_problem_opening_db" = "Ошибка при открытии файла";
 
 /* Create New Password Database */
-"mac_create_new_database_title" = "Создать новую базу паролей";
+"mac_create_new_database_title" = "Создать новую БД";
 
 /* Enter Master Credentials */
 "mac_enter_database_master_credentials" = "Введите мастер-ключ";
@@ -2571,7 +2571,7 @@
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "Вы действительно хотите удалить поле '%@'?";
 
 /* Add Custom Field */
-"mac_node_details_add_custom_field" = "Добавить настраиваемое поле";
+"mac_node_details_add_custom_field" = "Добавить поле";
 
 /* You cannot use that Key here as it already exists in custom fields. */
 "mac_node_details_you_cannot_use_that_key_already_exists" = "Вы не можете использовать этот ключ здесь, так как он уже существует в настраиваемых полях.";
@@ -2658,7 +2658,7 @@
 "set_favicons_are_you_sure_yes_no_fmt" = "Это позволит установить выбранные Вами значки для %d элементов. Хотите продолжить?";
 
 /* Set FavIcon(s) */
-"mac_undo_action_set_icons" = "Установить значок(-ки)";
+"mac_undo_action_set_icons" = "Изменить значок";
 
 /* Welcome */
 "auto_fill_welcome_message_header" = "Автозаполнение из кэша";
@@ -4368,7 +4368,7 @@
 "icloud_create_issue_title" = "Ошибка при создании БД в iCloud";
 
 /* Strongbox could not create a new iCloud Database for you, most likely because the Strongbox iCloud folder has been deleted.\n\nYou can find out how to fix this issue below. */
-"icloud_create_issue_message" = "Не удалось создать новую БД в iCloud, т.к. отсутствует папка Strongbox.\n\nЧтобы исправить это, см. информацию ниже.";
+"icloud_create_issue_message" = "Не удалось создать БД в iCloud, т.к. отсутствует папка Strongbox.\n\nЧтобы исправить это, см. информацию ниже.";
 
 /* How do I fix this? */
 "icloud_create_issue_fix" = "Как это исправить?";
@@ -4615,4 +4615,22 @@
 "safesvc_inner_stream_error_title" = "Ошибка при дешифровании";
 
 /* Strongbox has had a problem decrypting some protected fields in this database. \n\nThe database will now open in Read-Only mode to prevent further corruption.\n\nWe recommend restoring from an older backup or upgrading to KDBX4 which does not suffer from this issue. */
-"safesvc_inner_stream_error_message" = "Не удалось дешифровать некоторые защищённые поля. \n\nБД будет открыта только для чтения.\n\nРекомендуем восстановить данные из резервной копии или обновить формат БД до KDBX4.";
+"safesvc_inner_stream_error_message" = "Не удалось дешифровать некоторые защищённые поля. \n\nБД будет открыта в режиме для чтения.\n\nРекомендуем восстановить данные из резервной копии или обновить формат БД до KDBX4.";
+
+/* Choose file to Import */
+"mac_choose_file_import" = "Выбор файла для импорта";
+
+/* 🔴 Import Failed */
+"import_failed_title" = "🔴 Ошибка при импорте";
+
+/* Strongbox could not import this file. Please check it is in the correct format. */
+"import_failed_message" = "Не удалось импортировать файл. Пожалуйста, проверьте формат.";
+
+/* ✅ Import Successful */
+"import_successful_title" = "✅ Импорт выполнен";
+
+/* Your import was successful! Now, let's set a strong master password and save your new Strongbox database. */
+"import_successful_message" = "Импорт выполнен успешно. Теперь необходимо установить мастер-пароль и сохранить Вашу новую БД.";
+
+/* Are you sure you want to clear the TOTP for this entry? */
+"are_you_sure_clear_totp" = "Вы уверены, что хотите удалить TOTP для этой записи?";

@@ -1821,7 +1821,7 @@
 "open_sequence_error_reading_key_file_autofill_context" = "Не вдається прочитати ключовий файл. Можливо, він неправильно імпортований? Перевірте керування ключовими файлами в параметрах";
 
 /* Transfer over Wi-Fi (or LAN) */
-"sspc_local_network_storage_location" = "Transfer over Wi-Fi (or LAN)";
+"sspc_local_network_storage_location" = "Передати через Wi-Fi (або LAN)";
 
 /* A storage provider is in the process of reading. This is the status displayed on the progress dialog. In english:  Reading... */
 "storage_provider_status_reading" = "Зчитування...";
@@ -4601,18 +4601,36 @@
 "quick_view_title_nearly_expired_entries_subtitle" = "Переглянути всі майже протерміновані записи";
 
 /* Wi-Fi Transfer */
-"safes_vc_wifi_transfer" = "Wi-Fi Transfer";
+"safes_vc_wifi_transfer" = "Передати через Wi-Fi";
 
 /* Get Started Wizard */
-"safes_vc_quick_start" = "Get Started Wizard";
+"safes_vc_quick_start" = "Початок роботи";
 
 /* New (Advanced) */
-"safes_vc_new_advanced" = "New Database";
+"safes_vc_new_advanced" = "Нова база даних";
 
 /* Add Existing */
-"safes_vc_add_existing" = "Add Existing";
+"safes_vc_add_existing" = "Додати наявну";
 
-"safesvc_inner_stream_error_title" = "Inner Stream Decryption Error";
+"safesvc_inner_stream_error_title" = "Помилка розшифрування";
 
 /* Strongbox has had a problem decrypting some protected fields in this database. \n\nThe database will now open in Read-Only mode to prevent further corruption.\n\nWe recommend restoring from an older backup or upgrading to KDBX4 which does not suffer from this issue. */
-"safesvc_inner_stream_error_message" = "Strongbox has had a problem decrypting some protected fields in this database. \n\nThe database will now open in Read-Only mode to prevent further corruption.\n\nWe recommend restoring from an older backup or upgrading to KDBX4 which does not suffer from this issue.";
+"safesvc_inner_stream_error_message" = "Strongbox зазнав проблеми з розшифруванням деяких захищених полів у цій базі даних. \n\nБаза даних відкриється в режимі лише для читання, щоб запобігти пошкодженню.\n\nМи рекомендуємо відновити зі старішої резервної копії або оновити до версії KDBX4, яка не має такої проблеми.";
+
+/* Choose file to Import */
+"mac_choose_file_import" = "Choose file to Import";
+
+/* 🔴 Import Failed */
+"import_failed_title" = "🔴 Import Failed";
+
+/* Strongbox could not import this file. Please check it is in the correct format. */
+"import_failed_message" = "Strongbox could not import this file. Please check it is in the correct format.";
+
+/* ✅ Import Successful */
+"import_successful_title" = "✅ Import Successful";
+
+/* Your import was successful! Now, let's set a strong master password and save your new Strongbox database. */
+"import_successful_message" = "Your import was successful! Now, let's set a strong master password and save your new Strongbox database.";
+
+/* Are you sure you want to clear the TOTP for this entry? */
+"are_you_sure_clear_totp" = "Are you sure you want to clear the TOTP for this entry?";
