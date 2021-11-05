@@ -1389,7 +1389,7 @@
 "key_files_vc_no_key_file" = "Žádný soubor s klíčem";
 
 /* The stored convenience password or other composite key factors (key file/hardware key) were incorrect for this database. Convenience Unlock has been Disabled. */
-"open_sequence_problem_opening_convenience_incorrect_message" = "The stored convenience password or other composite key factors (key file/hardware key) were incorrect for this database. Convenience Unlock has been Disabled.";
+"open_sequence_problem_opening_convenience_incorrect_message" = "Uložené pohodlné heslo nebo jiné faktory složeného klíče (soubor s klíčem/hardwarový klíč) byly pro tuto databázi nesprávné. Pohodlné odemknutí bylo zakázáno.";
 
 /* Incorrect Credentials */
 "open_sequence_problem_opening_incorrect_credentials_title" = "Chybné přihlašovací údaje";
@@ -2487,7 +2487,7 @@
 "mac_select_key_file" = "Vybrat soubor s klíčem";
 
 /* You must use at least one of either a password, a key file or a hardware key for your master credentials. */
-"mac_you_must_use_at_least_a_password_or_key_file" = "You must use at least one of either a password, a key file or a hardware key for your master credentials.";
+"mac_you_must_use_at_least_a_password_or_key_file" = "Musíte použít alespoň jedno z hesel, klíčového souboru nebo hardwarového klíče pro hlavní přihlašovací údaje.";
 
 /* Password cannot be Empty */
 "mac_password_cannot_be_empty" = "Heslo nemůže být prázdné";
@@ -2691,7 +2691,7 @@
 "mac_key_file_configured_but_filename_hidden" = "Nakonfigurováno";
 
 /* %@ (Configured) - (Translators Note: User is using a key file that has previously been set/remembered by Strongbox. First parameter is the filename of the key file. This appears on the unlock screen. */
-"mac_key_file_filename_configured_fmt" = "%@ (Configured)";
+"mac_key_file_filename_configured_fmt" = "%@ (konfigurováno)";
 
 /* Touch ID/Apple Watch Unlock is not possible at the moment because Touch ID/Apple Watch is not available. */
 "mac_info_biometric_unlock_not_possible_right_now" = "Odemknutí Touch ID/Apple Watch není v současné době možné, protože Touch ID/Apple Watch nejsou k dispozici.";
@@ -2772,13 +2772,13 @@
 "open_sequence_cannot_use_yubikey_in_autofill_mode" = "V režimu automatického vyplňování není podporováno odemknutí hardwarového klíče kvůli omezením systému. Místo toho můžete konfigurovat virtuální hardwarový klíč.";
 
 /* Hardware Key Unlock is only available in the Pro edition of Strongbox */
-"open_sequence_yubikey_only_available_in_pro" = "Hardware Key Unlock is only available in the Pro edition of Strongbox";
+"open_sequence_yubikey_only_available_in_pro" = "Odemknutí s pomocí hardwarového klíče je dostupné pouze v Pro verzi Strongboxu";
 
 /* Disabled (Pro Edition Only) */
 "casg_yubikey_configured_disabled_pro_only" = "Zakázáno (pouze Pro edice)";
 
 /* Hardware Key (Pro Edition Only) */
-"casg_section_header_yubikey_pro_only" = "Hardware Key (Pro Edition Only)";
+"casg_section_header_yubikey_pro_only" = "Hardwarový klíč (pouze Pro verze)";
 
 /* Unknown (Translators Note: Used when generally when something can't be determined, e.g. The URL or file name of a database, or the type of storage provider used, or the format of a newly opened database etc.)*/
 "generic_unknown" = "Neznámé";
@@ -2787,7 +2787,7 @@
 "mac_valid_credentials" = "Platné přihlašovací údaje";
 
 /* Could not get challenge response from hardware key */
-"mac_error_getting_challenge_response_yubikey" = "Could not get challenge response from hardware key";
+"mac_error_getting_challenge_response_yubikey" = "Z hardwarového klíče nelze získat odpověď na výzvu";
 
 /* Refreshing... (Translators Note: Used whenever running a fairly short operation to indicate somehting is happening, e.g. when polling hardware key status (can take a few seconds)) */
 "generic_refreshing_ellipsis" = "Aktualizace...";
@@ -2799,7 +2799,7 @@
 "generic_none" = "Žádný";
 
 /* Hardware Key (Pro Only) */
-"mac_lock_screen_yubikey_popup_menu_yubico_pro_only" = "Hardware Key (Pro Only)";
+"mac_lock_screen_yubikey_popup_menu_yubico_pro_only" = "Hardwarový klíč (pouze verze Pro)";
 
 "casg_yubikey_configured_mfi" = "Lightning";
 
@@ -2819,7 +2819,7 @@
 "yubikey_insert_the_key_to_read_the_otp" = "Vložte klíč pro přečtění OTP kódu";
 
 /* Communicating with hardware key... */
-"yubikey_communicating_with_key_ellipsis" = "Communicating with hardware key...";
+"yubikey_communicating_with_key_ellipsis" = "Komunikace s hardwarovým klíčem...";
 
 /* Icon Set */
 "browse_prefs_icon_set" = "Sada ikon";
@@ -3956,7 +3956,7 @@
 "database_properties_subtitle_view_sync_log" = "Zobrazit detaily poslední synchronizace včetně chyb.";
 
 /* Your Database is configured to use a hardware key, however no key or an incorrect key was found connected. */
-"mac_autofill_no_or_incorrect_yubikey_found" = "Your Database is configured to use a hardware key, however no key or an incorrect key was found connected.";
+"mac_autofill_no_or_incorrect_yubikey_found" = "Databáze je nakonfigurována pro použití s hardwarovým klíčem, ale nebyl nalezen žádný klíč nebo špatný klíč.";
 
 /* Title (Username) */
 "quick_type_format_title_username" = "Název (uživatelské jméno)";
@@ -4612,44 +4612,44 @@
 "are_you_sure_clear_totp" = "Opravdu chcete vymazat TOTP pro tento záznam?";
 
 /* Date Created (Precise) */
-"databases_preferences_subtitle_field_name_create_date_precise" = "Date Created (Precise)";
+"databases_preferences_subtitle_field_name_create_date_precise" = "Datum vytvoření (přesné)";
 
 /* Hardware Slot %@ (Touch Required) - (Translators Note: Some YubiKey devices/configurations require the user to touch or press a button to authenticate. This string also takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_touch_required_fmt" = "Hardware Slot %@ (Touch Required)";
+"mac_yubikey_slot_n_touch_required_fmt" = "Hardwarový slot %@ (požadován dotyk)";
 
 /* Hardware Slot %@ (Translators Note: This string takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_fmt" = "Hardware Slot %@";
+"mac_yubikey_slot_n_fmt" = "Hardwarový slot %@";
 
 /* No Hardware Keys Found */
-"mac_no_yubikeys_found" = "No Hardware Keys Found";
+"mac_no_yubikeys_found" = "Nebyly nalezeny žádné hardwarové klíče";
 
 /* Hardware Key found but no compatible HMACSHA1 slots available */
-"mac_yubikey_available_but_no_compatible_slots" = "Hardware Key found but no compatible HMACSHA1 slots available";
+"mac_yubikey_available_but_no_compatible_slots" = "Byl nalezen hardwarový klíč, ale nejsou dostupné žádné kompatibilní HMACSHA1 sloty";
 
 /* Hardware Key %@ Slot %@ (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
-"mac_yubikey_serial_number_slot_n_touch_required_fmt2" = "Hardware Key %@ Slot %@ (Touch Required)";
+"mac_yubikey_serial_number_slot_n_touch_required_fmt2" = "Hardwarový klíč %@ slot %@ (vyžadován dotyk)";
 
 /* Hardware Key %@ Slot %@  - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2) */
-"mac_yubikey_serial_number_slot_n_fmt2" = "Hardware Key %@ Slot %@";
+"mac_yubikey_serial_number_slot_n_fmt2" = "Hardwarový klíč %@ slot %@";
 
 
 /* None (%@ Available) - L10n Guide: The 1st parameter is the number of detected hardware key/slots, but None have been selected by the user */
-"mac_hardware_key_dropdown_n_available_fmt" = "None (%@ Available)";
+"mac_hardware_key_dropdown_n_available_fmt" = "Žádný (%@ k dispozici)";
 
 /* None (No Keys Detected) - L10n Guide: This means no hardware key is selected and none have been detected */
-"mac_hardware_key_dropdown_none_no_keys_detected" = "None (No Keys Detected)";
+"mac_hardware_key_dropdown_none_no_keys_detected" = "Žádný (nebyly nalezeny žádné klíče)";
 
 /* 🔴 Configured Key [CR Unavailable] - L10n Guide: A hardware key has been previously configured/setup by the user for this database but the Challenge Response functionality is not available, probably by error or user mistake */
-"mac_hardware_key_key_configured_but_cr_unavailable" = "🔴 Configured Key [CR Unavailable]";
+"mac_hardware_key_key_configured_but_cr_unavailable" = "🔴 Konfigurovaný klíč [CR není k dispozici]";
 
 /* ⚠️ Disconnected Key (Configured) - L10n Guide: A hardware key has been previously configured/setup by the user for this database but it is not currently connected to the mac/iphone */
-"mac_hardware_key_key_configured_but_disconnected" = "⚠️ Disconnected Key (Configured)";
+"mac_hardware_key_key_configured_but_disconnected" = "⚠️ Odpojený klíč (nastavený)";
 
 /* Connected Key Slot %@ (Configured) - L10n Guide: A hardware key has been previously configured/setup by the user for this database and it is also connected. The 1st parameter is slot number the user has configured. It will be '1' or '2'.  */
-"mac_hardware_key_configured_and_connected_slot_n_fmt" = "Connected Key Slot %@ (Configured)";
+"mac_hardware_key_configured_and_connected_slot_n_fmt" = "Připojený slot klíče %@ (konfigurováno)";
 
 /* Connected Key Slot %@ - L10n Guide: A hardware key is connected. The 1st parameter is slot number that is available for use. It will be '1' or '2'.  */
-"mac_hardware_key_connected_slot_n_fmt" = "Connected Key Slot %@";
+"mac_hardware_key_connected_slot_n_fmt" = "Připojený slot klíče %@";
 
 /* ⚠️ Selected Key (Disconnected) - L10n Guide: The user previously selected a hardware key from the dropdown, but it has now been disconnected. */
-"mac_hardware_key_selected_but_has_been_disconnected" = "⚠️ Selected Key (Disconnected)";
+"mac_hardware_key_selected_but_has_been_disconnected" = "⚠️ Vybraný klíč (odpojen)";
