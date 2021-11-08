@@ -1388,8 +1388,8 @@
 /* No Key File */
 "key_files_vc_no_key_file" = "Немає ключового файлу";
 
-/* The Convenience Password or Key File were incorrect for this database. Convenience Unlock Disabled. */
-"open_sequence_problem_opening_convenience_incorrect_message" = "Збережений пароль чи інші складові композитного ключа (ключовий файл/YubiKey) неправильні для цієї бази паролів. Зручне відмикання було вимкнено.";
+/* The stored convenience password or other composite key factors (key file/hardware key) were incorrect for this database. Convenience Unlock has been Disabled. */
+"open_sequence_problem_opening_convenience_incorrect_message" = "Збережений пароль чи інші складові композитного ключа (ключовий файл/апаратний ключ) некоректні для цієї бази паролів. Зручне розблокування було вимкнено.";
 
 /* Incorrect Credentials */
 "open_sequence_problem_opening_incorrect_credentials_title" = "Неправильні облікові дані";
@@ -2486,8 +2486,8 @@
 /* Select a Key File */
 "mac_select_key_file" = "Оберіть ключовий файл";
 
-/* You must use at least one of either a Password, a Key File or a YubiKey for your master credentials. */
-"mac_you_must_use_at_least_a_password_or_key_file" = "Ви повинні використовувати пароль, ключовий файл або YubiKey для основного захисту.";
+/* You must use at least one of either a password, a key file or a hardware key for your master credentials. */
+"mac_you_must_use_at_least_a_password_or_key_file" = "Ви повинні використовувати пароль, ключовий файл або апаратний ключ для основного захисту.";
 
 /* Password cannot be Empty */
 "mac_password_cannot_be_empty" = "Пароль не може бути порожнім";
@@ -2687,11 +2687,11 @@
 /* Browse... - (Translators Note: When user wants to open the File dialog to select a key file...)*/
 "mac_browse_for_key_file" = "Огляд...";
 
-/* [Configured] - (Translators Note: User is using a key file, Strongbox knows what/where it is, but will not display the file name in the UI for privacy reasons. This appears on the unlock screen. */
-"mac_key_file_configured_but_filename_hidden" = "[Налаштовано]";
+/* Configured - (Translators Note: User is using a key file, Strongbox knows what/where it is, but will not display the file name in the UI for privacy reasons. This appears on the unlock screen. */
+"mac_key_file_configured_but_filename_hidden" = "Налаштовано";
 
-/* %@ [Configured] - (Translators Note: User is using a key file that has previously been set/remembered by Strongbox. First parameter is the filename of the key file. This appears on the unlock screen. */
-"mac_key_file_filename_configured_fmt" = "%@ [Налаштовано]";
+/* %@ (Configured) - (Translators Note: User is using a key file that has previously been set/remembered by Strongbox. First parameter is the filename of the key file. This appears on the unlock screen. */
+"mac_key_file_filename_configured_fmt" = "%@ (налаштовано)";
 
 /* Touch ID/Apple Watch Unlock is not possible at the moment because Touch ID/Apple Watch is not available. */
 "mac_info_biometric_unlock_not_possible_right_now" = "Відмикання з Touch ID/Apple Watch зараз неможливе, тому що відповідні функції недоступні.";
@@ -2741,8 +2741,8 @@
 /* Never */
 "mac_convenience_expiry_period_never" = "Необмежений";
 
-/* App Exit  (Memory Only, No AutoFill) */
-"mac_convenience_expiry_period_on_app_exit" = "Вийти з програми (Лише пам'ять, без автозаповнення)";
+/* App Exit (Memory Only) */
+"mac_convenience_expiry_period_on_app_exit" = "App Exit (Memory Only)";
 
 /* Unlock with Touch ID or Watch */
 "mac_unlock_screen_button_title_convenience_unlock" = "Відімкнути з Touch ID чи Watch";
@@ -2768,17 +2768,17 @@
 /* Slot 2 */
 "casg_yubikey_configured_slot2" = "Роз'єм 2";
 
-/* YubiKey Unlock is not supported in AutoFill mode */
+/* Hardware Key Unlock is not supported in AutoFill mode due to system constraints. You can configure a Virtual Hardware Key instead. */
 "open_sequence_cannot_use_yubikey_in_autofill_mode" = "Відмикання апаратним ключем не підтримується в режимі автозаповнення через обмеження системи. Натомість ви можете налаштувати віртуальний апаратний ключ.";
 
-/* YubiKey Unlock is only available in the Pro edition of Strongbox */
-"open_sequence_yubikey_only_available_in_pro" = "Відмикання YubiKey доступне лише у версії Strongbox Pro";
+/* Hardware Key Unlock is only available in the Pro edition of Strongbox */
+"open_sequence_yubikey_only_available_in_pro" = "Відмикання з апаратним ключем доступне лише у версії Strongbox Pro";
 
 /* Disabled (Pro Edition Only) */
 "casg_yubikey_configured_disabled_pro_only" = "Вимкнено (Тільки Pro версія)";
 
-/* YubiKey (Pro Edition Only) */
-"casg_section_header_yubikey_pro_only" = "YubiKey (Лише версія Pro)";
+/* Hardware Key (Pro Edition Only) */
+"casg_section_header_yubikey_pro_only" = "Апаратний ключ (лише версія Pro)";
 
 /* Unknown (Translators Note: Used when generally when something can't be determined, e.g. The URL or file name of a database, or the type of storage provider used, or the format of a newly opened database etc.)*/
 "generic_unknown" = "Невідомо";
@@ -2786,10 +2786,10 @@
 /* Valid Credentials */
 "mac_valid_credentials" = "Дійсні облікові дані";
 
-/* Could not get challenge response from YubiKey */
-"mac_error_getting_challenge_response_yubikey" = "Не вдається отримати відповідь на виклик від YubiKey";
+/* Could not get challenge response from hardware key */
+"mac_error_getting_challenge_response_yubikey" = "Не вдається отримати відповідь на виклик від апаратного ключа";
 
-/* Refreshing... (Translators Note: Used whenever running a fairly short operation to indicate somehting is happening, e.g. when polling YubiKey status (can take a few seconds)) */
+/* Refreshing... (Translators Note: Used whenever running a fairly short operation to indicate somehting is happening, e.g. when polling hardware key status (can take a few seconds)) */
 "generic_refreshing_ellipsis" = "Оновлення...";
 
 /* Could not generate Composite Key */
@@ -2798,26 +2798,8 @@
 /* None */
 "generic_none" = "Немає";
 
-/* YubiKey (Pro Only) */
-"mac_lock_screen_yubikey_popup_menu_yubico_pro_only" = "YubiKey (Тільки Pro)";
-
-/* YubiKey Slot %ld (Touch Required) - (Translators Note: Some YubiKey devices/configurations require the user to touch or press a button to authenticate. This string also takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_touch_required_fmt" = "YubiKey роз'єм %ld (Потрібен дотик)";
-
-/* YubiKey Slot %ld (Translators Note: This string takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_fmt" = "YubiKey роз'єм %ld";
-
-/* No YubiKeys Found */
-"mac_no_yubikeys_found" = "Не знайдено YubiKey";
-
-/* YubiKey %@ Slot %ld (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
-"mac_yubikey_serial_number_slot_n_touch_required_fmt" = "YubiKey %@ роз'єм %ld (Потрібен дотик)";
-
-/* YubiKey %@ Slot %ld  - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2) */
-"mac_yubikey_serial_number_slot_n_fmt" = "YubiKey %@ роз'єм %ld";
-
-/* YubiKey found but no compatible HMACSHA1 slots available */
-"mac_yubikey_available_but_no_compatible_slots" = "YubiKey знайдено, але немає сумісних роз'ємів HMACSHA1";
+/* Hardware Key (Pro Only) */
+"mac_lock_screen_yubikey_popup_menu_yubico_pro_only" = "Апаратний ключ (лише версія Pro)";
 
 "casg_yubikey_configured_mfi" = "Lightning";
 
@@ -2836,8 +2818,8 @@
 /* Insert the key to read the OTP */
 "yubikey_insert_the_key_to_read_the_otp" = "Вставте ключ, щоб прочитати одноразовий пароль";
 
-/* Communicating with YubiKey... */
-"yubikey_communicating_with_key_ellipsis" = "З’єднання з YubiKey...";
+/* Communicating with hardware key... */
+"yubikey_communicating_with_key_ellipsis" = "З’єднання з апаратним ключем...";
 
 /* Icon Set */
 "browse_prefs_icon_set" = "Набір піктограм";
@@ -3973,8 +3955,8 @@
 /* View recent sync details including errors. */
 "database_properties_subtitle_view_sync_log" = "Перегляд останніх подробиць синхронізації включно з помилками.";
 
-/* Your Database is configured to use a YubiKey, however no YubiKey or an incorrect YubiKey was found connected. */
-"mac_autofill_no_or_incorrect_yubikey_found" = "Ваша база даних налаштована для використання YubiKey, однак з'єднаний YubiKey неправильний, або він відсутній.";
+/* Your Database is configured to use a hardware key, however no key or an incorrect key was found connected. */
+"mac_autofill_no_or_incorrect_yubikey_found" = "Ваша база даних налаштована для використання з апаратним ключем, однак під'єднаний апаратний ключ неправильний, або він відсутній.";
 
 /* Title (Username) */
 "quick_type_format_title_username" = "Заголовок (ім'я користувача)";
@@ -4421,12 +4403,6 @@
 /* This is a rather large image (%@x%@), would you like to rescale it to a maximum dimension of %@ pixels for a file size saving of roughly %@  - (Tranlators Note: Message about reducing the file size of an image. e.g. 'This is a rather large image (4096x4096), would you like to rescale it to a maximum dimension of 512 pixels for a file size saving of roughly 15 MB')  */
 "set_icon_vc_prompt_rescale_image_message_fmt2" = "Це зображення досить велике (%@x%@). Бажаєте зменшити його розмір до %@ пікселів, щоб заощадити приблизно %@";
 
-/* YubiKey %@ Slot %@ (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
-"mac_yubikey_serial_number_slot_n_touch_required_fmt2" = "YubiKey %@ роз'єм %@ (Потрібен дотик)";
-
-/* YubiKey %@ Slot %@  - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2) */
-"mac_yubikey_serial_number_slot_n_fmt2" = "YubiKey %@ роз'єм %@";
-
 /* Backup %@ (%@) - Translators Note: 1st Param is a number/integer, second parameter is the modified date, so e.g. 'Backup 4 (11 Nov 2020)'*/
 "backups_backup_title_fmt2" = "Резервна копія %@ (%@)";
 
@@ -4618,19 +4594,62 @@
 "safesvc_inner_stream_error_message" = "Strongbox зазнав проблеми з розшифруванням деяких захищених полів у цій базі даних. \n\nБаза даних відкриється в режимі лише для читання, щоб запобігти пошкодженню.\n\nМи рекомендуємо відновити зі старішої резервної копії або оновити до версії KDBX4, яка не має такої проблеми.";
 
 /* Choose file to Import */
-"mac_choose_file_import" = "Choose file to Import";
+"mac_choose_file_import" = "Виберіть файл для імпорту";
 
 /* 🔴 Import Failed */
-"import_failed_title" = "🔴 Import Failed";
+"import_failed_title" = "🔴 Збій імпорту";
 
 /* Strongbox could not import this file. Please check it is in the correct format. */
-"import_failed_message" = "Strongbox could not import this file. Please check it is in the correct format.";
+"import_failed_message" = "Strongbox не може імпортувати цей файл. Будь ласка, перевірте правильність його формату.";
 
 /* ✅ Import Successful */
-"import_successful_title" = "✅ Import Successful";
+"import_successful_title" = "✅ Імпорт успішний";
 
 /* Your import was successful! Now, let's set a strong master password and save your new Strongbox database. */
-"import_successful_message" = "Your import was successful! Now, let's set a strong master password and save your new Strongbox database.";
+"import_successful_message" = "Ваш імпорт пройшов успішно! Тепер встановимо складний головний пароль та збережемо нову базу паролів Strongbox.";
 
 /* Are you sure you want to clear the TOTP for this entry? */
-"are_you_sure_clear_totp" = "Are you sure you want to clear the TOTP for this entry?";
+"are_you_sure_clear_totp" = "Ви дійсно хочете очистити TOTP для цього запису?";
+
+/* Date Created (Precise) */
+"databases_preferences_subtitle_field_name_create_date_precise" = "Дата створення (точно)";
+
+/* Hardware Slot %@ (Touch Required) - (Translators Note: Some YubiKey devices/configurations require the user to touch or press a button to authenticate. This string also takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
+"mac_yubikey_slot_n_touch_required_fmt" = "Роз'єм апаратного ключа %@ (потрібен дотик)";
+
+/* Hardware Slot %@ (Translators Note: This string takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
+"mac_yubikey_slot_n_fmt" = "Роз'єм апаратного ключа %@";
+
+/* No Hardware Keys Found */
+"mac_no_yubikeys_found" = "Апаратних ключів не знайдено";
+
+/* Hardware Key found but no compatible HMACSHA1 slots available */
+"mac_yubikey_available_but_no_compatible_slots" = "Апаратний ключ знайдено, але немає сумісних роз'ємів HMACSHA1";
+
+/* Hardware Key %@ Slot %@ (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
+"mac_yubikey_serial_number_slot_n_touch_required_fmt2" = "Апаратний ключ %@, Роз'єм %@ (потрібен дотик)";
+
+/* Hardware Key %@ Slot %@  - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2) */
+"mac_yubikey_serial_number_slot_n_fmt2" = "Апаратний ключ %@, Роз'єм %@";
+
+
+/* None (%@ Available) - L10n Guide: The 1st parameter is the number of detected hardware key/slots, but None have been selected by the user */
+"mac_hardware_key_dropdown_n_available_fmt" = "Немає (доступно %@)";
+
+/* None (No Keys Detected) - L10n Guide: This means no hardware key is selected and none have been detected */
+"mac_hardware_key_dropdown_none_no_keys_detected" = "Немає (ключів не виявлено)";
+
+/* 🔴 Configured Key [CR Unavailable] - L10n Guide: A hardware key has been previously configured/setup by the user for this database but the Challenge Response functionality is not available, probably by error or user mistake */
+"mac_hardware_key_key_configured_but_cr_unavailable" = "🔴 Налаштований ключ [CR недоступний]";
+
+/* ⚠️ Disconnected Key (Configured) - L10n Guide: A hardware key has been previously configured/setup by the user for this database but it is not currently connected to the mac/iphone */
+"mac_hardware_key_key_configured_but_disconnected" = "⚠️ Від'єднаний ключ (налаштовано)";
+
+/* Connected Key Slot %@ (Configured) - L10n Guide: A hardware key has been previously configured/setup by the user for this database and it is also connected. The 1st parameter is slot number the user has configured. It will be '1' or '2'.  */
+"mac_hardware_key_configured_and_connected_slot_n_fmt" = "Під'єднаний роз'єм ключа %@ (налаштовано)";
+
+/* Connected Key Slot %@ - L10n Guide: A hardware key is connected. The 1st parameter is slot number that is available for use. It will be '1' or '2'.  */
+"mac_hardware_key_connected_slot_n_fmt" = "Під'єднаний роз'єм ключа %@";
+
+/* ⚠️ Selected Key (Disconnected) - L10n Guide: The user previously selected a hardware key from the dropdown, but it has now been disconnected. */
+"mac_hardware_key_selected_but_has_been_disconnected" = "⚠️ Вибраний ключ (від'єднано)";

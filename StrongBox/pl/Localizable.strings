@@ -258,7 +258,7 @@
 "safesvc_error_title_could_not_bookmark" = "Could not bookmark this file";
 
 /* Confirm Password */
-"alerts_confirm_password" = "Confirm Password";
+"alerts_confirm_password" = "Potwierdź hasło";
 
 /* Not Empty! */
 "alerts_not_empty" = "Not Empty!";
@@ -267,7 +267,7 @@
 "browse_prefs_double_tap_action" = "Double Tap Action";
 
 /* Item Subtitle */
-"browse_prefs_item_subtitle" = "Item Subtitle";
+"browse_prefs_item_subtitle" = "Podtytuł elementu";
 
 /* Long Press Action */
 "browse_prefs_long_press_action" = "Long Press Action";
@@ -285,7 +285,7 @@
 "browse_prefs_tap_action_copy_copy_password" = "Copy Password";
 
 /* Copy TOTP */
-"browse_prefs_tap_action_copy_copy_totp" = "Copy TOTP";
+"browse_prefs_tap_action_copy_copy_totp" = "Skopiuj TOTP";
 
 /* Copy URL */
 "browse_prefs_tap_action_copy_copy_url" = "Copy URL";
@@ -294,7 +294,7 @@
 "browse_prefs_tap_action_copy_title" = "Copy Title";
 
 /* Copy Username */
-"browse_prefs_tap_action_copy_username" = "Copy Username";
+"browse_prefs_tap_action_copy_username" = "Kopiuj nazwę użytkownika";
 
 /* Edit Item */
 "browse_prefs_tap_action_edit" = "Edit Item";
@@ -309,7 +309,7 @@
 "browse_prefs_triple_tap_action" = "Triple Tap Action";
 
 /* View As */
-"browse_prefs_view_as" = "View As";
+"browse_prefs_view_as" = "Wyświetl jako";
 
 /* Flat List */
 "browse_prefs_view_as_flat_list" = "Flat List";
@@ -459,7 +459,7 @@
 "casg_key_file_configured_but_not_found" = "Configured Key File Not Found";
 
 /* Select... */
-"casg_key_file_select_action" = "Select...";
+"casg_key_file_select_action" = "Wybierz...";
 
 /* You have left the password field empty. This can be interpreted in two ways. Select the interpretation you want. */
 "casg_question_message_empty_password" = "You have left the password field empty. This can be interpreted in two ways. Select the interpretation you want.";
@@ -510,7 +510,7 @@
 "db_management_change_master_credentials" = "Change Master Credentials";
 
 /* Change Master Password */
-"db_management_change_master_password" = "Change Master Password";
+"db_management_change_master_password" = "Zmień główne hasło";
 
 /* Could not change credentials */
 "db_management_couldnt_change_credentials" = "Could not change credentials";
@@ -783,7 +783,7 @@
 "sspc_manual_import_error_title" = "Error Reading from URL";
 
 /* URL */
-"sspc_manual_import_placeholder_url" = "URL";
+"sspc_manual_import_placeholder_url" = "Adres URL";
 
 /* Select where your existing database is stored */
 "sspc_select_where_existing_stored" = "Select where your existing database is stored";
@@ -1388,8 +1388,8 @@
 /* No Key File */
 "key_files_vc_no_key_file" = "No Key File";
 
-/* The Convenience Password or Key File were incorrect for this database. Convenience Unlock Disabled. */
-"open_sequence_problem_opening_convenience_incorrect_message" = "The stored convenience password or other composite key factors (key file/YubiKey) were incorrect for this database. Convenience Unlock has been Disabled.";
+/* The stored convenience password or other composite key factors (key file/hardware key) were incorrect for this database. Convenience Unlock has been Disabled. */
+"open_sequence_problem_opening_convenience_incorrect_message" = "The stored convenience password or other composite key factors (key file/hardware key) were incorrect for this database. Convenience Unlock has been Disabled.";
 
 /* Incorrect Credentials */
 "open_sequence_problem_opening_incorrect_credentials_title" = "Incorrect Credentials";
@@ -1722,7 +1722,7 @@
 "browse_vc_section_title_expired" = "Expired";
 
 /* Section Header Title for Nearly Expired Items */
-"browse_vc_section_title_nearly_expired" = "Nearly Expired";
+"browse_vc_section_title_nearly_expired" = "Prawie wygasłe";
 
 /* Section Header Title for Pinned Items */
 "browse_vc_section_title_pinned" = "Pinned";
@@ -1737,7 +1737,7 @@
 "database_metadata_field_compressed" = "Compressed";
 
 /* Database Format */
-"database_metadata_field_format" = "Database Format";
+"database_metadata_field_format" = "Format bazy danych";
 
 /* Database Generator */
 "database_metadata_field_generator" = "Database Generator";
@@ -1815,7 +1815,7 @@
 "model_error_cannot_write_backup" = "Could not write backup, will not proceed with write of database!";
 
 /* Button Title to view backup settings of this database */
-"safes_vc_action_backups" = "Kopie zapasowe";
+"safes_vc_action_backups" = "Backups";
 
 /* Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences */
 "open_sequence_error_reading_key_file_autofill_context" = "Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences";
@@ -1884,22 +1884,22 @@
 "generic_fieldname_all_fields" = "All Fields";
 
 /* Username */
-"generic_fieldname_username" = "Username";
+"generic_fieldname_username" = "Nazwa użytkownika";
 
 /* Expiry Date */
 "generic_fieldname_expiry_date" = "Expiry Date";
 
 /* Password */
-"generic_fieldname_password" = "Password";
+"generic_fieldname_password" = "Hasło";
 
 /* Email */
-"generic_fieldname_email" = "Email";
+"generic_fieldname_email" = "Adres e-mail";
 
 /* URL */
-"generic_fieldname_url" = "URL";
+"generic_fieldname_url" = "Adres URL";
 
 /* Notes */
-"generic_fieldname_notes" = "Notes";
+"generic_fieldname_notes" = "Notatki";
 
 /* Icon */
 "generic_fieldname_icon" = "Ikona";
@@ -1932,7 +1932,7 @@
 "generic_done" = "Done";
 
 /* Failed */
-"generic_failed" = "Failed";
+"generic_failed" = "Niepowodzenie";
 
 /* Error */
 "generic_error" = "Error";
@@ -1947,10 +1947,10 @@
 "generic_rename" = "Rename";
 
 /* Set */
-"generic_set" = "Set";
+"generic_set" = "Ustaw";
 
 /* Cancel */
-"generic_cancel" = "Cancel";
+"generic_cancel" = "Anuluj";
 
 /* Clear */
 "generic_clear" = "Clear";
@@ -1959,7 +1959,7 @@
 "generic_database" = "Database";
 
 /* Options Title - What would like to do? Options are to Add a Database or Create New etc */
-"safes_vc_what_would_you_like_to_do" = "What would you like to do?";
+"safes_vc_what_would_you_like_to_do" = "Co chcesz zrobić?";
 
 /* Are you sure? */
 "safes_vc_question_confirm_are_you_sure" = "Are you sure?";
@@ -1992,19 +1992,19 @@
 "alerts_yes" = "Yes";
 
 /* Password */
-"alerts_password" = "Password";
+"alerts_password" = "Hasło";
 
 /* Unknown Error */
 "alerts_unknown_error" = "Unknown Error";
 
 /* Date Created */
-"browse_prefs_item_subtitle_date_created" = "Date Created";
+"browse_prefs_item_subtitle_date_created" = "Data utworzenia";
 
 /* Date Modified */
-"browse_prefs_item_subtitle_date_modified" = "Date Modified";
+"browse_prefs_item_subtitle_date_modified" = "Data modyfikacji";
 
 /* Email */
-"browse_prefs_item_subtitle_email" = "Email";
+"browse_prefs_item_subtitle_email" = "Adres e-mail";
 
 /* None */
 "browse_prefs_item_subtitle_none" = "None";
@@ -2018,19 +2018,19 @@
 "databases_preferences_subtitle_field_name_none" = "None";
 
 /* Notes */
-"browse_prefs_item_subtitle_notes" = "Notes";
+"browse_prefs_item_subtitle_notes" = "Notatki";
 
 /* Password */
-"browse_prefs_item_subtitle_password" = "Password";
+"browse_prefs_item_subtitle_password" = "Hasło";
 
 /* URL */
-"browse_prefs_item_subtitle_url" = "URL";
+"browse_prefs_item_subtitle_url" = "Adres URL";
 
 /* Username */
-"browse_prefs_item_subtitle_username" = "Username";
+"browse_prefs_item_subtitle_username" = "Nazwa użytkownika";
 
 /* Duplicate */
-"browse_vc_action_duplicate" = "Duplicate";
+"browse_vc_action_duplicate" = "Duplikuj";
 
 /* Edit */
 "browse_vc_action_edit" = "Edit";
@@ -2039,19 +2039,19 @@
 "browse_vc_action_rename" = "Rename";
 
 /* Password */
-"browse_vc_search_scope_password" = "Password";
+"browse_vc_search_scope_password" = "Hasło";
 
 /* Title */
 "browse_vc_search_scope_title" = "Tytuł";
 
 /* URL */
-"browse_vc_search_scope_url" = "URL";
+"browse_vc_search_scope_url" = "Adres URL";
 
 /* Username */
-"browse_vc_search_scope_username" = "Username";
+"browse_vc_search_scope_username" = "Nazwa użytkownika";
 
 /* Add */
-"casg_add_action" = "Add";
+"casg_add_action" = "Dodaj";
 
 /* Create */
 "casg_create_action" = "Create";
@@ -2060,10 +2060,10 @@
 "casg_rename_action" = "Rename";
 
 /* Password */
-"casg_text_field_placeholder_password" = "Password";
+"casg_text_field_placeholder_password" = "Hasło";
 
 /* Email */
-"item_details_email_field_title" = "Email";
+"item_details_email_field_title" = "Adres e-mail";
 
 /* Expires */
 "item_details_expires_field_title" = "Expires";
@@ -2072,13 +2072,13 @@
 "item_details_metadata_created_field_title" = "Created";
 
 /* Modified */
-"item_details_metadata_modified_field_title" = "Modified";
+"item_details_metadata_modified_field_title" = "Zmodyfikowano";
 
 /* Password */
-"item_details_password_field_title" = "Password";
+"item_details_password_field_title" = "Hasło";
 
 /* Notes */
-"item_details_section_header_notes" = "Notes";
+"item_details_section_header_notes" = "Notatki";
 
 /* Title */
 "item_details_title_field_name" = "Tytuł";
@@ -2087,10 +2087,10 @@
 "item_details_url_copied" = "URL Copied";
 
 /* URL */
-"item_details_url_field_title" = "URL";
+"item_details_url_field_title" = "Adres URL";
 
 /* Username */
-"item_details_username_field_title" = "Username";
+"item_details_username_field_title" = "Nazwa użytkownika";
 
 /* Disabled */
 "prefs_vc_setting_disabled" = "Disabled";
@@ -2123,13 +2123,13 @@
 "pick_creds_vc_search_scope_title" = "Tytuł";
 
 /* Username */
-"pick_creds_vc_search_scope_username" = "Username";
+"pick_creds_vc_search_scope_username" = "Nazwa użytkownika";
 
 /* Password */
-"pick_creds_vc_search_scope_password" = "Password";
+"pick_creds_vc_search_scope_password" = "Hasło";
 
 /* URL */
-"pick_creds_vc_search_scope_url" = "URL";
+"pick_creds_vc_search_scope_url" = "Adres URL";
 
 /* All Fields */
 "pick_creds_vc_search_scope_all_fields" = "All Fields";
@@ -2182,7 +2182,7 @@
 "favicon_status_no_eligible_items" = "No eligible items/valid URLs found...";
 
 /* FavIcon Results */
-"favicon_results_title" = "FavIcon Results";
+"favicon_results_title" = "Wyniki ulubionych ikon";
 
 /* FavIcon Results (Pro Only) */
 "favicon_results_title_pro_only" = "FavIcon Results (Pro Only)";
@@ -2486,8 +2486,8 @@
 /* Select a Key File */
 "mac_select_key_file" = "Select a Key File";
 
-/* You must use at least one of either a Password, a Key File or a YubiKey for your master credentials. */
-"mac_you_must_use_at_least_a_password_or_key_file" = "You must use at least one of either a Password, a Key File or a YubiKey for your master credentials.";
+/* You must use at least one of either a password, a key file or a hardware key for your master credentials. */
+"mac_you_must_use_at_least_a_password_or_key_file" = "You must use at least one of either a password, a key file or a hardware key for your master credentials.";
 
 /* Password cannot be Empty */
 "mac_password_cannot_be_empty" = "Password cannot be Empty";
@@ -2687,11 +2687,11 @@
 /* Browse... - (Translators Note: When user wants to open the File dialog to select a key file...)*/
 "mac_browse_for_key_file" = "Browse...";
 
-/* [Configured] - (Translators Note: User is using a key file, Strongbox knows what/where it is, but will not display the file name in the UI for privacy reasons. This appears on the unlock screen. */
-"mac_key_file_configured_but_filename_hidden" = "[Configured]";
+/* Configured - (Translators Note: User is using a key file, Strongbox knows what/where it is, but will not display the file name in the UI for privacy reasons. This appears on the unlock screen. */
+"mac_key_file_configured_but_filename_hidden" = "Configured";
 
-/* %@ [Configured] - (Translators Note: User is using a key file that has previously been set/remembered by Strongbox. First parameter is the filename of the key file. This appears on the unlock screen. */
-"mac_key_file_filename_configured_fmt" = "%@ [Configured]";
+/* %@ (Configured) - (Translators Note: User is using a key file that has previously been set/remembered by Strongbox. First parameter is the filename of the key file. This appears on the unlock screen. */
+"mac_key_file_filename_configured_fmt" = "%@ (Configured)";
 
 /* Touch ID/Apple Watch Unlock is not possible at the moment because Touch ID/Apple Watch is not available. */
 "mac_info_biometric_unlock_not_possible_right_now" = "Touch ID/Apple Watch Unlock is not possible at the moment because Touch ID/Apple Watch is not available.";
@@ -2741,8 +2741,8 @@
 /* Never */
 "mac_convenience_expiry_period_never" = "Never";
 
-/* App Exit  (Memory Only, No AutoFill) */
-"mac_convenience_expiry_period_on_app_exit" = "App Exit (Memory Only, No AutoFill)";
+/* App Exit (Memory Only) */
+"mac_convenience_expiry_period_on_app_exit" = "App Exit (Memory Only)";
 
 /* Unlock with Touch ID or Watch */
 "mac_unlock_screen_button_title_convenience_unlock" = "Unlock with Touch ID or Watch";
@@ -2768,17 +2768,17 @@
 /* Slot 2 */
 "casg_yubikey_configured_slot2" = "Slot 2";
 
-/* YubiKey Unlock is not supported in AutoFill mode */
+/* Hardware Key Unlock is not supported in AutoFill mode due to system constraints. You can configure a Virtual Hardware Key instead. */
 "open_sequence_cannot_use_yubikey_in_autofill_mode" = "Hardware Key Unlock is not supported in AutoFill mode due to system constraints. You can configure a Virtual Hardware Key instead.";
 
-/* YubiKey Unlock is only available in the Pro edition of Strongbox */
-"open_sequence_yubikey_only_available_in_pro" = "YubiKey Unlock is only available in the Pro edition of Strongbox";
+/* Hardware Key Unlock is only available in the Pro edition of Strongbox */
+"open_sequence_yubikey_only_available_in_pro" = "Hardware Key Unlock is only available in the Pro edition of Strongbox";
 
 /* Disabled (Pro Edition Only) */
 "casg_yubikey_configured_disabled_pro_only" = "Disabled (Pro Edition Only)";
 
-/* YubiKey (Pro Edition Only) */
-"casg_section_header_yubikey_pro_only" = "YubiKey (Pro Edition Only)";
+/* Hardware Key (Pro Edition Only) */
+"casg_section_header_yubikey_pro_only" = "Hardware Key (Pro Edition Only)";
 
 /* Unknown (Translators Note: Used when generally when something can't be determined, e.g. The URL or file name of a database, or the type of storage provider used, or the format of a newly opened database etc.)*/
 "generic_unknown" = "Unknown";
@@ -2786,10 +2786,10 @@
 /* Valid Credentials */
 "mac_valid_credentials" = "Valid Credentials";
 
-/* Could not get challenge response from YubiKey */
-"mac_error_getting_challenge_response_yubikey" = "Could not get challenge response from YubiKey";
+/* Could not get challenge response from hardware key */
+"mac_error_getting_challenge_response_yubikey" = "Could not get challenge response from hardware key";
 
-/* Refreshing... (Translators Note: Used whenever running a fairly short operation to indicate somehting is happening, e.g. when polling YubiKey status (can take a few seconds)) */
+/* Refreshing... (Translators Note: Used whenever running a fairly short operation to indicate somehting is happening, e.g. when polling hardware key status (can take a few seconds)) */
 "generic_refreshing_ellipsis" = "Refreshing...";
 
 /* Could not generate Composite Key */
@@ -2798,26 +2798,8 @@
 /* None */
 "generic_none" = "None";
 
-/* YubiKey (Pro Only) */
-"mac_lock_screen_yubikey_popup_menu_yubico_pro_only" = "YubiKey (Pro Only)";
-
-/* YubiKey Slot %ld (Touch Required) - (Translators Note: Some YubiKey devices/configurations require the user to touch or press a button to authenticate. This string also takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_touch_required_fmt" = "YubiKey Slot %ld (Touch Required)";
-
-/* YubiKey Slot %ld (Translators Note: This string takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_fmt" = "YubiKey Slot %ld";
-
-/* No YubiKeys Found */
-"mac_no_yubikeys_found" = "No YubiKeys Found";
-
-/* YubiKey %@ Slot %ld (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
-"mac_yubikey_serial_number_slot_n_touch_required_fmt" = "YubiKey %@ Slot %ld (Touch Required)";
-
-/* YubiKey %@ Slot %ld  - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2) */
-"mac_yubikey_serial_number_slot_n_fmt" = "YubiKey %@ Slot %ld";
-
-/* YubiKey found but no compatible HMACSHA1 slots available */
-"mac_yubikey_available_but_no_compatible_slots" = "YubiKey found but no compatible HMACSHA1 slots available";
+/* Hardware Key (Pro Only) */
+"mac_lock_screen_yubikey_popup_menu_yubico_pro_only" = "Hardware Key (Pro Only)";
 
 "casg_yubikey_configured_mfi" = "Lightning";
 
@@ -2836,8 +2818,8 @@
 /* Insert the key to read the OTP */
 "yubikey_insert_the_key_to_read_the_otp" = "Insert the key to read the OTP";
 
-/* Communicating with YubiKey... */
-"yubikey_communicating_with_key_ellipsis" = "Communicating with YubiKey...";
+/* Communicating with hardware key... */
+"yubikey_communicating_with_key_ellipsis" = "Communicating with hardware key...";
 
 /* Icon Set */
 "browse_prefs_icon_set" = "Icon Set";
@@ -3140,7 +3122,7 @@
 "audit_drill_down_section_header_preferences" = "Ustawienia";
 
 /* Summary */
-"audit_drill_down_section_header_summary" = "Summary";
+"audit_drill_down_section_header_summary" = "Podsumowanie";
 
 /* Duplicate Passwords */
 "audit_drill_down_section_header_duplicates" = "Items using same password";
@@ -3227,7 +3209,7 @@
 "database_format_keepass1" = "KeePass 1";
 
 /* KeePass 2 (Legacy) */
-"database_format_keepass2_kdbx3_1" = "KeePass 2 (Legacy)";
+"database_format_keepass2_kdbx3_1" = "KeePass 2 (Oryginalny)";
 
 /* KeePass 2 */
 "database_format_keepass2_kdbx4" = "KeePass 2";
@@ -3263,7 +3245,7 @@
 "backup_settings_prompt_message" = "By default Strongbox includes all your local documents and databases in Apple backups, however imported Key Files are NOT included for security reasons. You can always change these settings in App Preferences.\n\nDoes this sound ok?";
 
 /* Backup Settings */
-"backup_settings_prompt_title" = "Backup Settings";
+"backup_settings_prompt_title" = "Ustawienia kopii zapasowych";
 
 /* Yes, the defaults sound good */
 "backup_settings_prompt_option_yes_looks_good" = "Yes, sounds good";
@@ -3431,7 +3413,7 @@
 "browse_context_menu_copy_other_field" = "Copy Field...";
 
 /* Move - Translators Note: Verb - To move something e.g. an entry or group somewhere else in the hierarchy */
-"generic_move" = "Move";
+"generic_move" = "Przenieś";
 
 /* New Entry - Translators Note: Menu option to add a new entry */
 "browse_context_menu_new_entry" = "New Entry";
@@ -3443,7 +3425,7 @@
 "generic_select" = "Select";
 
 /* Start with Search - Translators Note: Option to start with the search field focused immediately upon unlock */
-"browse_context_menu_start_with_search" = "Start with Search";
+"browse_context_menu_start_with_search" = "Zacznij od wyszukiwania";
 
 /* Sort - Translators Note: Verb - to sort items by title or other field */
 "generic_sort" = "Sort";
@@ -3623,7 +3605,7 @@
 "diff_result_databases_properties_different" = "Database properties are different.";
 
 /* Summary */
-"diff_view_section_header_summary" = "Summary";
+"diff_view_section_header_summary" = "Podsumowanie";
 
 /* Will be Changed (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
 "diff_view_section_header_entry_will_be_changed_count_fmt" = "Will be Changed (%lu)";
@@ -3973,8 +3955,8 @@
 /* View recent sync details including errors. */
 "database_properties_subtitle_view_sync_log" = "View recent sync details including errors.";
 
-/* Your Database is configured to use a YubiKey, however no YubiKey or an incorrect YubiKey was found connected. */
-"mac_autofill_no_or_incorrect_yubikey_found" = "Your Database is configured to use a YubiKey, however no YubiKey or an incorrect YubiKey was found connected.";
+/* Your Database is configured to use a hardware key, however no key or an incorrect key was found connected. */
+"mac_autofill_no_or_incorrect_yubikey_found" = "Your Database is configured to use a hardware key, however no key or an incorrect key was found connected.";
 
 /* Title (Username) */
 "quick_type_format_title_username" = "Title (Username)";
@@ -3983,7 +3965,7 @@
 "quick_type_format_title" = "Tytuł";
 
 /* Username */
-"quick_type_format_username" = "Username";
+"quick_type_format_username" = "Nazwa użytkownika";
 
 /* QuickType Format */
 "prefs_vc_quick_type_format" = "QuickType Format";
@@ -4421,12 +4403,6 @@
 /* This is a rather large image (%@x%@), would you like to rescale it to a maximum dimension of %@ pixels for a file size saving of roughly %@  - (Tranlators Note: Message about reducing the file size of an image. e.g. 'This is a rather large image (4096x4096), would you like to rescale it to a maximum dimension of 512 pixels for a file size saving of roughly 15 MB')  */
 "set_icon_vc_prompt_rescale_image_message_fmt2" = "This is a rather large image (%@x%@), would you like to rescale it to a maximum dimension of %@ pixels for a file size saving of roughly %@";
 
-/* YubiKey %@ Slot %@ (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
-"mac_yubikey_serial_number_slot_n_touch_required_fmt2" = "YubiKey %@ Slot %@ (Touch Required)";
-
-/* YubiKey %@ Slot %@  - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2) */
-"mac_yubikey_serial_number_slot_n_fmt2" = "YubiKey %@ Slot %@";
-
 /* Backup %@ (%@) - Translators Note: 1st Param is a number/integer, second parameter is the modified date, so e.g. 'Backup 4 (11 Nov 2020)'*/
 "backups_backup_title_fmt2" = "Backup %@ (%@)";
 
@@ -4466,7 +4442,7 @@
 "export_items_select_destination_group_title" = "Export Here";
 
 /* Export Database */
-"generic_export_database" = "Export Database";
+"generic_export_database" = "Eksportuj bazę danych";
 
 /* Export Item */
 "generic_export_item" = "Export Item";
@@ -4634,3 +4610,46 @@
 
 /* Are you sure you want to clear the TOTP for this entry? */
 "are_you_sure_clear_totp" = "Are you sure you want to clear the TOTP for this entry?";
+
+/* Date Created (Precise) */
+"databases_preferences_subtitle_field_name_create_date_precise" = "Date Created (Precise)";
+
+/* Hardware Slot %@ (Touch Required) - (Translators Note: Some YubiKey devices/configurations require the user to touch or press a button to authenticate. This string also takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
+"mac_yubikey_slot_n_touch_required_fmt" = "Hardware Key Slot %@ (Touch Required)";
+
+/* Hardware Slot %@ (Translators Note: This string takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
+"mac_yubikey_slot_n_fmt" = "Hardware Key Slot %@";
+
+/* No Hardware Keys Found */
+"mac_no_yubikeys_found" = "No Hardware Keys Found";
+
+/* Hardware Key found but no compatible HMACSHA1 slots available */
+"mac_yubikey_available_but_no_compatible_slots" = "Hardware Key found but no compatible HMACSHA1 slots available";
+
+/* Hardware Key %@ Slot %@ (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
+"mac_yubikey_serial_number_slot_n_touch_required_fmt2" = "Hardware Key %@ Slot %@ (Touch Required)";
+
+/* Hardware Key %@ Slot %@  - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2) */
+"mac_yubikey_serial_number_slot_n_fmt2" = "Hardware Key %@ Slot %@";
+
+
+/* None (%@ Available) - L10n Guide: The 1st parameter is the number of detected hardware key/slots, but None have been selected by the user */
+"mac_hardware_key_dropdown_n_available_fmt" = "None (%@ Available)";
+
+/* None (No Keys Detected) - L10n Guide: This means no hardware key is selected and none have been detected */
+"mac_hardware_key_dropdown_none_no_keys_detected" = "None (No Keys Detected)";
+
+/* 🔴 Configured Key [CR Unavailable] - L10n Guide: A hardware key has been previously configured/setup by the user for this database but the Challenge Response functionality is not available, probably by error or user mistake */
+"mac_hardware_key_key_configured_but_cr_unavailable" = "🔴 Configured Key [CR Unavailable]";
+
+/* ⚠️ Disconnected Key (Configured) - L10n Guide: A hardware key has been previously configured/setup by the user for this database but it is not currently connected to the mac/iphone */
+"mac_hardware_key_key_configured_but_disconnected" = "⚠️ Disconnected Key (Configured)";
+
+/* Connected Key Slot %@ (Configured) - L10n Guide: A hardware key has been previously configured/setup by the user for this database and it is also connected. The 1st parameter is slot number the user has configured. It will be '1' or '2'.  */
+"mac_hardware_key_configured_and_connected_slot_n_fmt" = "Connected Key Slot %@ (Configured)";
+
+/* Connected Key Slot %@ - L10n Guide: A hardware key is connected. The 1st parameter is slot number that is available for use. It will be '1' or '2'.  */
+"mac_hardware_key_connected_slot_n_fmt" = "Connected Key Slot %@";
+
+/* ⚠️ Selected Key (Disconnected) - L10n Guide: The user previously selected a hardware key from the dropdown, but it has now been disconnected. */
+"mac_hardware_key_selected_but_has_been_disconnected" = "⚠️ Selected Key (Disconnected)";

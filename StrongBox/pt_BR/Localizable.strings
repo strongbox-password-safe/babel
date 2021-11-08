@@ -1388,8 +1388,8 @@
 /* No Key File */
 "key_files_vc_no_key_file" = "Nenhum Arquivo Chave";
 
-/* The Convenience Password or Key File were incorrect for this database. Convenience Unlock Disabled. */
-"open_sequence_problem_opening_convenience_incorrect_message" = "A senha de conveniência armazenada ou outros fatores de chave compostos (arquivo de chave/YubiKey) estão incorretos para esta base de dados. O Desbloqueio Conveniente foi Desativado.";
+/* The stored convenience password or other composite key factors (key file/hardware key) were incorrect for this database. Convenience Unlock has been Disabled. */
+"open_sequence_problem_opening_convenience_incorrect_message" = "The stored convenience password or other composite key factors (key file/hardware key) were incorrect for this database. Convenience Unlock has been Disabled.";
 
 /* Incorrect Credentials */
 "open_sequence_problem_opening_incorrect_credentials_title" = "Credenciais Incorretas";
@@ -2486,8 +2486,8 @@
 /* Select a Key File */
 "mac_select_key_file" = "Selecione um Arquivo Chave";
 
-/* You must use at least one of either a Password, a Key File or a YubiKey for your master credentials. */
-"mac_you_must_use_at_least_a_password_or_key_file" = "Você precisa usar pelo menos um entre uma Senha, um Arquivo Chave ou uma YubiKey como sua credencial mestra.";
+/* You must use at least one of either a password, a key file or a hardware key for your master credentials. */
+"mac_you_must_use_at_least_a_password_or_key_file" = "You must use at least one of either a password, a key file or a hardware key for your master credentials.";
 
 /* Password cannot be Empty */
 "mac_password_cannot_be_empty" = "A senha não pode ser Vazia";
@@ -2687,11 +2687,11 @@
 /* Browse... - (Translators Note: When user wants to open the File dialog to select a key file...)*/
 "mac_browse_for_key_file" = "Navegar...";
 
-/* [Configured] - (Translators Note: User is using a key file, Strongbox knows what/where it is, but will not display the file name in the UI for privacy reasons. This appears on the unlock screen. */
-"mac_key_file_configured_but_filename_hidden" = "[Configurado]";
+/* Configured - (Translators Note: User is using a key file, Strongbox knows what/where it is, but will not display the file name in the UI for privacy reasons. This appears on the unlock screen. */
+"mac_key_file_configured_but_filename_hidden" = "Configurado";
 
-/* %@ [Configured] - (Translators Note: User is using a key file that has previously been set/remembered by Strongbox. First parameter is the filename of the key file. This appears on the unlock screen. */
-"mac_key_file_filename_configured_fmt" = "%@ [Configurado]";
+/* %@ (Configured) - (Translators Note: User is using a key file that has previously been set/remembered by Strongbox. First parameter is the filename of the key file. This appears on the unlock screen. */
+"mac_key_file_filename_configured_fmt" = "%@ (Configured)";
 
 /* Touch ID/Apple Watch Unlock is not possible at the moment because Touch ID/Apple Watch is not available. */
 "mac_info_biometric_unlock_not_possible_right_now" = "Desbloqueio com Touch ID/Apple Watch não é possível porque o Touch ID/Apple Watch não estão disponíveis.";
@@ -2741,8 +2741,8 @@
 /* Never */
 "mac_convenience_expiry_period_never" = "Nunca";
 
-/* App Exit  (Memory Only, No AutoFill) */
-"mac_convenience_expiry_period_on_app_exit" = "App Exit (Memory Only, No AutoFill)";
+/* App Exit (Memory Only) */
+"mac_convenience_expiry_period_on_app_exit" = "App Exit (Memory Only)";
 
 /* Unlock with Touch ID or Watch */
 "mac_unlock_screen_button_title_convenience_unlock" = "Desbloquear com Touch ID ou Watch";
@@ -2768,17 +2768,17 @@
 /* Slot 2 */
 "casg_yubikey_configured_slot2" = "Slot 2";
 
-/* YubiKey Unlock is not supported in AutoFill mode */
+/* Hardware Key Unlock is not supported in AutoFill mode due to system constraints. You can configure a Virtual Hardware Key instead. */
 "open_sequence_cannot_use_yubikey_in_autofill_mode" = "Desbloqueio com Chave de Hardware não é suportado no Preenchimento Automático devido a limitações do sistema. Você pode configurar uma Chave de Hardware Virtual no lugar.";
 
-/* YubiKey Unlock is only available in the Pro edition of Strongbox */
-"open_sequence_yubikey_only_available_in_pro" = "O Desbloqueio com YubiKey está disponível apenas na versão Pro do Strongbox";
+/* Hardware Key Unlock is only available in the Pro edition of Strongbox */
+"open_sequence_yubikey_only_available_in_pro" = "Hardware Key Unlock is only available in the Pro edition of Strongbox";
 
 /* Disabled (Pro Edition Only) */
 "casg_yubikey_configured_disabled_pro_only" = "Desativado (Apenas Versão Pro)";
 
-/* YubiKey (Pro Edition Only) */
-"casg_section_header_yubikey_pro_only" = "YubiKey (Apenas Versão Pro)";
+/* Hardware Key (Pro Edition Only) */
+"casg_section_header_yubikey_pro_only" = "Hardware Key (Pro Edition Only)";
 
 /* Unknown (Translators Note: Used when generally when something can't be determined, e.g. The URL or file name of a database, or the type of storage provider used, or the format of a newly opened database etc.)*/
 "generic_unknown" = "Desconhecido";
@@ -2786,10 +2786,10 @@
 /* Valid Credentials */
 "mac_valid_credentials" = "Credenciais Válidas";
 
-/* Could not get challenge response from YubiKey */
-"mac_error_getting_challenge_response_yubikey" = "Não foi possível obter a resposta do desafio da YubiKey";
+/* Could not get challenge response from hardware key */
+"mac_error_getting_challenge_response_yubikey" = "Could not get challenge response from hardware key";
 
-/* Refreshing... (Translators Note: Used whenever running a fairly short operation to indicate somehting is happening, e.g. when polling YubiKey status (can take a few seconds)) */
+/* Refreshing... (Translators Note: Used whenever running a fairly short operation to indicate somehting is happening, e.g. when polling hardware key status (can take a few seconds)) */
 "generic_refreshing_ellipsis" = "Atualizando...";
 
 /* Could not generate Composite Key */
@@ -2798,26 +2798,8 @@
 /* None */
 "generic_none" = "Nenhum(a)";
 
-/* YubiKey (Pro Only) */
-"mac_lock_screen_yubikey_popup_menu_yubico_pro_only" = "YubiKey (Apenas Pro)";
-
-/* YubiKey Slot %ld (Touch Required) - (Translators Note: Some YubiKey devices/configurations require the user to touch or press a button to authenticate. This string also takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_touch_required_fmt" = "Slot YubiKey %ld (Touch Necessário)";
-
-/* YubiKey Slot %ld (Translators Note: This string takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_fmt" = "Slot YubiKey %ld";
-
-/* No YubiKeys Found */
-"mac_no_yubikeys_found" = "Nenhuma YubiKey Encontrada";
-
-/* YubiKey %@ Slot %ld (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
-"mac_yubikey_serial_number_slot_n_touch_required_fmt" = "YubiKey %@ Slot %ld (Toque Necessário)";
-
-/* YubiKey %@ Slot %ld  - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2) */
-"mac_yubikey_serial_number_slot_n_fmt" = "YubiKey %@ Slot %ld";
-
-/* YubiKey found but no compatible HMACSHA1 slots available */
-"mac_yubikey_available_but_no_compatible_slots" = "YubiKey encontrada mas nenhum slot HMACSHA1 está disponível";
+/* Hardware Key (Pro Only) */
+"mac_lock_screen_yubikey_popup_menu_yubico_pro_only" = "Hardware Key (Pro Only)";
 
 "casg_yubikey_configured_mfi" = "Lightning";
 
@@ -2836,8 +2818,8 @@
 /* Insert the key to read the OTP */
 "yubikey_insert_the_key_to_read_the_otp" = "Insira a chave para ler o OTP";
 
-/* Communicating with YubiKey... */
-"yubikey_communicating_with_key_ellipsis" = "Comunicando com a YubiKey...";
+/* Communicating with hardware key... */
+"yubikey_communicating_with_key_ellipsis" = "Communicating with hardware key...";
 
 /* Icon Set */
 "browse_prefs_icon_set" = "Conjunto de Ícones";
@@ -3973,8 +3955,8 @@
 /* View recent sync details including errors. */
 "database_properties_subtitle_view_sync_log" = "Exibir detalhes de sincronização recente incluindo erros.";
 
-/* Your Database is configured to use a YubiKey, however no YubiKey or an incorrect YubiKey was found connected. */
-"mac_autofill_no_or_incorrect_yubikey_found" = "Sua Base de Dados está configurada para usar a YubiKey, entretanto nenhuma YubiKey ou uma YubiKey incorreta está conectada.";
+/* Your Database is configured to use a hardware key, however no key or an incorrect key was found connected. */
+"mac_autofill_no_or_incorrect_yubikey_found" = "Your Database is configured to use a hardware key, however no key or an incorrect key was found connected.";
 
 /* Title (Username) */
 "quick_type_format_title_username" = "Título (Nome de Usuário)";
@@ -4421,12 +4403,6 @@
 /* This is a rather large image (%@x%@), would you like to rescale it to a maximum dimension of %@ pixels for a file size saving of roughly %@  - (Tranlators Note: Message about reducing the file size of an image. e.g. 'This is a rather large image (4096x4096), would you like to rescale it to a maximum dimension of 512 pixels for a file size saving of roughly 15 MB')  */
 "set_icon_vc_prompt_rescale_image_message_fmt2" = "This is a rather large image (%@x%@), would you like to rescale it to a maximum dimension of %@ pixels for a file size saving of roughly %@";
 
-/* YubiKey %@ Slot %@ (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
-"mac_yubikey_serial_number_slot_n_touch_required_fmt2" = "YubiKey %@ Slot %@ (Touch Required)";
-
-/* YubiKey %@ Slot %@  - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2) */
-"mac_yubikey_serial_number_slot_n_fmt2" = "YubiKey %@ Slot %@";
-
 /* Backup %@ (%@) - Translators Note: 1st Param is a number/integer, second parameter is the modified date, so e.g. 'Backup 4 (11 Nov 2020)'*/
 "backups_backup_title_fmt2" = "Backup %@ (%@)";
 
@@ -4634,3 +4610,46 @@
 
 /* Are you sure you want to clear the TOTP for this entry? */
 "are_you_sure_clear_totp" = "Are you sure you want to clear the TOTP for this entry?";
+
+/* Date Created (Precise) */
+"databases_preferences_subtitle_field_name_create_date_precise" = "Date Created (Precise)";
+
+/* Hardware Slot %@ (Touch Required) - (Translators Note: Some YubiKey devices/configurations require the user to touch or press a button to authenticate. This string also takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
+"mac_yubikey_slot_n_touch_required_fmt" = "Hardware Key Slot %@ (Touch Required)";
+
+/* Hardware Slot %@ (Translators Note: This string takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
+"mac_yubikey_slot_n_fmt" = "Hardware Key Slot %@";
+
+/* No Hardware Keys Found */
+"mac_no_yubikeys_found" = "No Hardware Keys Found";
+
+/* Hardware Key found but no compatible HMACSHA1 slots available */
+"mac_yubikey_available_but_no_compatible_slots" = "Hardware Key found but no compatible HMACSHA1 slots available";
+
+/* Hardware Key %@ Slot %@ (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
+"mac_yubikey_serial_number_slot_n_touch_required_fmt2" = "Hardware Key %@ Slot %@ (Touch Required)";
+
+/* Hardware Key %@ Slot %@  - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2) */
+"mac_yubikey_serial_number_slot_n_fmt2" = "Hardware Key %@ Slot %@";
+
+
+/* None (%@ Available) - L10n Guide: The 1st parameter is the number of detected hardware key/slots, but None have been selected by the user */
+"mac_hardware_key_dropdown_n_available_fmt" = "None (%@ Available)";
+
+/* None (No Keys Detected) - L10n Guide: This means no hardware key is selected and none have been detected */
+"mac_hardware_key_dropdown_none_no_keys_detected" = "None (No Keys Detected)";
+
+/* 🔴 Configured Key [CR Unavailable] - L10n Guide: A hardware key has been previously configured/setup by the user for this database but the Challenge Response functionality is not available, probably by error or user mistake */
+"mac_hardware_key_key_configured_but_cr_unavailable" = "🔴 Configured Key [CR Unavailable]";
+
+/* ⚠️ Disconnected Key (Configured) - L10n Guide: A hardware key has been previously configured/setup by the user for this database but it is not currently connected to the mac/iphone */
+"mac_hardware_key_key_configured_but_disconnected" = "⚠️ Disconnected Key (Configured)";
+
+/* Connected Key Slot %@ (Configured) - L10n Guide: A hardware key has been previously configured/setup by the user for this database and it is also connected. The 1st parameter is slot number the user has configured. It will be '1' or '2'.  */
+"mac_hardware_key_configured_and_connected_slot_n_fmt" = "Connected Key Slot %@ (Configured)";
+
+/* Connected Key Slot %@ - L10n Guide: A hardware key is connected. The 1st parameter is slot number that is available for use. It will be '1' or '2'.  */
+"mac_hardware_key_connected_slot_n_fmt" = "Connected Key Slot %@";
+
+/* ⚠️ Selected Key (Disconnected) - L10n Guide: The user previously selected a hardware key from the dropdown, but it has now been disconnected. */
+"mac_hardware_key_selected_but_has_been_disconnected" = "⚠️ Selected Key (Disconnected)";

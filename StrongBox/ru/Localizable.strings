@@ -117,7 +117,7 @@
 "safes_vc_error_importing_database" = "Ошибка при импорте";
 
 /* No comment provided by engineer. */
-"safes_vc_add_existing_database" = "Добавить имеющуюся";
+"safes_vc_add_existing_database" = "Добавить БД";
 
 /* No comment provided by engineer. */
 "safes_vc_new_database_advanced" = "Создать (Расширенный режим)";
@@ -267,7 +267,7 @@
 "browse_prefs_double_tap_action" = "Двойное нажатие";
 
 /* Item Subtitle */
-"browse_prefs_item_subtitle" = "Подзаголовок записи";
+"browse_prefs_item_subtitle" = "Подзаголовок";
 
 /* Long Press Action */
 "browse_prefs_long_press_action" = "Длительное нажатие";
@@ -324,10 +324,10 @@
 "browse_vc_action_set_icon" = "Изменить значок";
 
 /* Are you sure you want to permanently delete these item(s)? */
-"browse_vc_are_you_sure_delete" = "Вы действительно хотите удалить эти элементы навсегда?";
+"browse_vc_are_you_sure_delete" = "Вы хотите эти элементы удалить навсегда?";
 
 /* Are you sure you want to permanently delete '%@'? */
-"browse_vc_are_you_sure_delete_fmt" = "Вы действительно хотите удалить «%@» навсегда?";
+"browse_vc_are_you_sure_delete_fmt" = "Вы хотите удалить «%@» навсегда?";
 
 /* Are you sure you want to send these item(s) to the Recycle Bin? */
 "browse_vc_are_you_sure_recycle" = "Вы хотите отправить выбранные элементы в Корзину?";
@@ -696,7 +696,7 @@
 "prefs_vc_confirm_pin" = "Подтвердить код-пароль";
 
 /* Delete Data Failed Attempt Count */
-"prefs_vc_delete_data_attempt_count" = "Число неудачных попыток";
+"prefs_vc_delete_data_attempt_count" = "Число попыток";
 
 /* Allow %@ ( Translators Note: 1st param is the name of biometric method, so: 'Allow Touch ID' or 'Allow Face ID')*/
 "prefs_vc_enable_biometric_fmt" = "Использование %@";
@@ -786,10 +786,10 @@
 "sspc_manual_import_placeholder_url" = "URL";
 
 /* Select where your existing database is stored */
-"sspc_select_where_existing_stored" = "Укажите расположение имеющейся БД";
+"sspc_select_where_existing_stored" = "Укажите хранилище имеющейся БД";
 
 /* Select where you would like to store your new database */
-"sspc_select_where_store_new" = "Укажите расположение хранения новой БД";
+"sspc_select_where_store_new" = "Укажите хранилище новой БД";
 
 /* 3 Months */
 "upgrade_vc_2monthly_subscription_title" = "3 месяца";
@@ -846,7 +846,7 @@
 "welcome_vc_accessibility_show_hide_password" = "Показать / скрыть пароль";
 
 /* Add Existing Database */
-"welcome_vc_add_existing_database" = "Добавить имеющуюся БД";
+"welcome_vc_add_existing_database" = "Добавить БД";
 
 /* Error Creating Database */
 "welcome_vc_error_creating" = "Ошибка при создании БД";
@@ -940,7 +940,7 @@
 "export_vc_export_successful_title" = "Экспорт выполнен";
 
 /* Your database was successfully exported. */
-"export_vc_export_successful_message" = "Ваша БД успешно экспортирована.";
+"export_vc_export_successful_message" = "БД успешно экспортирована.";
 
 /* Error Writing Database */
 "export_vc_error_writing" = "Ошибка при сохранении БД";
@@ -967,7 +967,7 @@
 "pins_config_vc_label_delete_database_local_permanent" = "(*) Локальная БД будет удалена навсегда";
 
 /* iCloud database will be permanently deleted from iCloud. */
-"pins_config_vc_label_delete_database_icloud_permanent" = "(*) БД будет навсегда удалена из iCloud";
+"pins_config_vc_label_delete_database_icloud_permanent" = "(*) БД будет удалена из iCloud навсегда";
 
 /* Remove Database from Strongbox */
 "pins_config_vc_label_remove_database" = "Удалить БД из приложения";
@@ -1000,7 +1000,7 @@
 "pins_config_vc_warn_remove_database_title" = "Предупреждение";
 
 /* This will permanently delete the database file. */
-"pins_config_vc_warn_remove_database_delete_message" = "Это навсегда удалит файл БД.";
+"pins_config_vc_warn_remove_database_delete_message" = "Файл БД будет удалён навсегда.";
 
 /* This will remove the database from Strongbox but the underlying file will remain on cloud storage */
 "pins_config_vc_warn_remove_database_remove_message" = "Это удалит БД из приложения, но файл останется во внешнем хранилище.";
@@ -1388,8 +1388,8 @@
 /* No Key File */
 "key_files_vc_no_key_file" = "Без файл-ключа";
 
-/* The Convenience Password or Key File were incorrect for this database. Convenience Unlock Disabled. */
-"open_sequence_problem_opening_convenience_incorrect_message" = "Сохранённый пароль или другие составные факторы мастер-ключа (файл-ключ/YubiKey) неверны. Быстрая разблокировка отключена.";
+/* The stored convenience password or other composite key factors (key file/hardware key) were incorrect for this database. Convenience Unlock has been Disabled. */
+"open_sequence_problem_opening_convenience_incorrect_message" = "Сохранённый пароль или другие компоненты мастер-ключа (Файл-ключ / YubiKey) неверны для этой БД. Быстрая разблокировка отключена.";
 
 /* Incorrect Credentials */
 "open_sequence_problem_opening_incorrect_credentials_title" = "Ошибка ввода";
@@ -1572,7 +1572,7 @@
 "pick_creds_vc_cannot_create_new_unsupported_storage_type_title" = "Неподдерживаемое хранилище";
 
 /* This database is stored on a Storage Provider that does not support Live editing in App Extensions. Cannot Create New Entry. */
-"pick_creds_vc_cannot_create_new_unsupported_storage_type_message" = "БД находится в хранилище провайдера, который не поддерживает редактирование в расширении приложений. Невозможно создать новую запись.";
+"pick_creds_vc_cannot_create_new_unsupported_storage_type_message" = "БД находится в хранилище провайдера, который не поддерживает правку в расширении приложений. Невозможно добавить запись.";
 
 /* Create New Entry... */
 "pick_creds_vc_create_new_button_title" = "Добавить запись";
@@ -2324,7 +2324,7 @@
 "mac_please_enter_totp_secret_or_otpauth_url" = "Введите секретный ключ или ссылку OTPAuth.";
 
 /* Is this a Steam Token? (Say 'No' if you're unsure) */
-"mac_is_this_a_stream_token_yes_no" = "Это токен Steam? (Выберите 'Нет', если Вы не уверены)";
+"mac_is_this_a_stream_token_yes_no" = "Это  действительно Steam токен? (Выберите «Нет», если не уверены)";
 
 /* Show Quick View Panel */
 "mac_show_quick_view_panel" = "Показать панель быстрого доступа";
@@ -2469,7 +2469,7 @@
 "mac_problem_opening_db" = "Ошибка при открытии файла";
 
 /* Create New Password Database */
-"mac_create_new_database_title" = "Создать новую БД";
+"mac_create_new_database_title" = "Создать БД";
 
 /* Enter Master Credentials */
 "mac_enter_database_master_credentials" = "Введите мастер-ключ";
@@ -2486,8 +2486,8 @@
 /* Select a Key File */
 "mac_select_key_file" = "Выберите файл-ключ";
 
-/* You must use at least one of either a Password, a Key File or a YubiKey for your master credentials. */
-"mac_you_must_use_at_least_a_password_or_key_file" = "В качестве мастер-ключа необходимо использовать, по крайней мере, один из компонентов: пароль, файл-ключ или YubiKey.";
+/* You must use at least one of either a password, a key file or a hardware key for your master credentials. */
+"mac_you_must_use_at_least_a_password_or_key_file" = "Для мастер-ключа необходимо использовать, по крайней мере, один из компонентов: пароль, файл-ключ или YubiKey.";
 
 /* Password cannot be Empty */
 "mac_password_cannot_be_empty" = "Пароль не может быть пустым";
@@ -2589,7 +2589,7 @@
 "mac_node_details_please_enter_secret_totp" = "Введите секретный ключ или ссылку OTPAuth.";
 
 /* Is this a Steam Token? (Say 'No' if you're unsure) */
-"mac_node_details_is_this_steam_totp" = "Это токен Steam? (Выберите 'Нет', если Вы не уверены)";
+"mac_node_details_is_this_steam_totp" = "Это  действительно Steam токен? (Выберите «Нет», если не уверены)";
 
 /* Could not change group! Validate failed... */
 "mac_node_details_could_not_change_group" = "Не удалось изменить группу! Проверка завершилась неудачно.";
@@ -2687,11 +2687,11 @@
 /* Browse... - (Translators Note: When user wants to open the File dialog to select a key file...)*/
 "mac_browse_for_key_file" = "Обзор ...";
 
-/* [Configured] - (Translators Note: User is using a key file, Strongbox knows what/where it is, but will not display the file name in the UI for privacy reasons. This appears on the unlock screen. */
-"mac_key_file_configured_but_filename_hidden" = "[Установлен]";
+/* Configured - (Translators Note: User is using a key file, Strongbox knows what/where it is, but will not display the file name in the UI for privacy reasons. This appears on the unlock screen. */
+"mac_key_file_configured_but_filename_hidden" = "Установлен";
 
-/* %@ [Configured] - (Translators Note: User is using a key file that has previously been set/remembered by Strongbox. First parameter is the filename of the key file. This appears on the unlock screen. */
-"mac_key_file_filename_configured_fmt" = "%@ [Установлен]";
+/* %@ (Configured) - (Translators Note: User is using a key file that has previously been set/remembered by Strongbox. First parameter is the filename of the key file. This appears on the unlock screen. */
+"mac_key_file_filename_configured_fmt" = "%@ - Установлен";
 
 /* Touch ID/Apple Watch Unlock is not possible at the moment because Touch ID/Apple Watch is not available. */
 "mac_info_biometric_unlock_not_possible_right_now" = "Разблокировка с помощью Touch ID/Apple Watch на данный момент невозможна, поскольку Touch ID/Apple Watch недоступен.";
@@ -2741,8 +2741,8 @@
 /* Never */
 "mac_convenience_expiry_period_never" = "Никогда";
 
-/* App Exit  (Memory Only, No AutoFill) */
-"mac_convenience_expiry_period_on_app_exit" = "Выход из приложения";
+/* App Exit (Memory Only) */
+"mac_convenience_expiry_period_on_app_exit" = "Выход из приложения (только память)";
 
 /* Unlock with Touch ID or Watch */
 "mac_unlock_screen_button_title_convenience_unlock" = "Разблокировать с помощью Touch ID или Watch";
@@ -2768,17 +2768,17 @@
 /* Slot 2 */
 "casg_yubikey_configured_slot2" = "Слот 2";
 
-/* YubiKey Unlock is not supported in AutoFill mode */
+/* Hardware Key Unlock is not supported in AutoFill mode due to system constraints. You can configure a Virtual Hardware Key instead. */
 "open_sequence_cannot_use_yubikey_in_autofill_mode" = "Разблокировка аппаратным ключом не поддерживается в режиме автозаполнения из-за системных ограничений. Вместо этого можно настроить виртуальный ключ.";
 
-/* YubiKey Unlock is only available in the Pro edition of Strongbox */
-"open_sequence_yubikey_only_available_in_pro" = "Разблокировка YubiKey доступна только в Pro версии";
+/* Hardware Key Unlock is only available in the Pro edition of Strongbox */
+"open_sequence_yubikey_only_available_in_pro" = "Разблокировка аппаратным ключом доступна только в Pro версии";
 
 /* Disabled (Pro Edition Only) */
 "casg_yubikey_configured_disabled_pro_only" = "Выключен (Pro версия)";
 
-/* YubiKey (Pro Edition Only) */
-"casg_section_header_yubikey_pro_only" = "YubiKey (Pro версия)";
+/* Hardware Key (Pro Edition Only) */
+"casg_section_header_yubikey_pro_only" = "Аппаратный ключ (Pro версия)";
 
 /* Unknown (Translators Note: Used when generally when something can't be determined, e.g. The URL or file name of a database, or the type of storage provider used, or the format of a newly opened database etc.)*/
 "generic_unknown" = "Неизвестный";
@@ -2786,10 +2786,10 @@
 /* Valid Credentials */
 "mac_valid_credentials" = "Допустимый пароль";
 
-/* Could not get challenge response from YubiKey */
-"mac_error_getting_challenge_response_yubikey" = "Не удалось получить ответ на вызов YubiKey";
+/* Could not get challenge response from hardware key */
+"mac_error_getting_challenge_response_yubikey" = "Не удалось получить ответ от ключа";
 
-/* Refreshing... (Translators Note: Used whenever running a fairly short operation to indicate somehting is happening, e.g. when polling YubiKey status (can take a few seconds)) */
+/* Refreshing... (Translators Note: Used whenever running a fairly short operation to indicate somehting is happening, e.g. when polling hardware key status (can take a few seconds)) */
 "generic_refreshing_ellipsis" = "Обновление ...";
 
 /* Could not generate Composite Key */
@@ -2798,26 +2798,8 @@
 /* None */
 "generic_none" = "Отсутствует";
 
-/* YubiKey (Pro Only) */
-"mac_lock_screen_yubikey_popup_menu_yubico_pro_only" = "YubiKey (Pro версия)";
-
-/* YubiKey Slot %ld (Touch Required) - (Translators Note: Some YubiKey devices/configurations require the user to touch or press a button to authenticate. This string also takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_touch_required_fmt" = "YubiKey Слот %ld (Требуется касание)";
-
-/* YubiKey Slot %ld (Translators Note: This string takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_fmt" = "YubiKey Слот %ld";
-
-/* No YubiKeys Found */
-"mac_no_yubikeys_found" = "Ключи YubiKey не найдены.";
-
-/* YubiKey %@ Slot %ld (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
-"mac_yubikey_serial_number_slot_n_touch_required_fmt" = "YubiKey %@ Слот %ld (Требуется касание)";
-
-/* YubiKey %@ Slot %ld  - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2) */
-"mac_yubikey_serial_number_slot_n_fmt" = "YubiKey %@ Слот %ld";
-
-/* YubiKey found but no compatible HMACSHA1 slots available */
-"mac_yubikey_available_but_no_compatible_slots" = "YubiKey найден, но нет доступных совместимых HMAC-SHA1 слотов.";
+/* Hardware Key (Pro Only) */
+"mac_lock_screen_yubikey_popup_menu_yubico_pro_only" = "Аппаратный ключ (Pro версия)";
 
 "casg_yubikey_configured_mfi" = "Lightning";
 
@@ -2836,8 +2818,8 @@
 /* Insert the key to read the OTP */
 "yubikey_insert_the_key_to_read_the_otp" = "Вставьте ключ для чтения OTP";
 
-/* Communicating with YubiKey... */
-"yubikey_communicating_with_key_ellipsis" = "Устанавливаю связь с YubiKey ...";
+/* Communicating with hardware key... */
+"yubikey_communicating_with_key_ellipsis" = "Соединение с ключом ...";
 
 /* Icon Set */
 "browse_prefs_icon_set" = "Набор значков";
@@ -3128,7 +3110,7 @@
 "browse_vc_partial_recycle_alert_title" = "Частичное удаление";
 
 /* Some of the items you have selected cannot be recycled and will be permanently deleted. Is that OK? */
-"browse_vc_partial_recycle_alert_message" = "Некоторые из выбранных элементов не могут быть отправлены в Корзину и будут окончательно удалены. Хотите продолжить?";
+"browse_vc_partial_recycle_alert_message" = "Некоторые из выбранных элементов не могут быть отправлены в Корзину и будут удалены навсегда. Хотите продолжить?";
 
 /* Audit */
 "browse_vc_action_audit" = "Аудит";
@@ -3377,13 +3359,13 @@
 "generic_action_delete" = "Удалить";
 
 /* Are you sure the URL is correct? It should be a path to a parent folder. Not the database file. */
-"webdav_vc_validation_url_are_you_sure" = "Вы уверены, что URL правильный? Это должен быть URL папки, а не файла.";
+"webdav_vc_validation_url_are_you_sure" = "Проверьте правильность URL. Это должен быть URL папки, а не файла.";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Вы уверены, что путь правильный? Это должен быть путь к папке, а не файлу.";
+"sftp_path_are_you_sure" = "Проверьте правильность пути. Это должен быть путь к папке, а не файлу.";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Вы уверены, что путь правильный? Это должен быть путь к папке, а не файлу.";
+"sftp_path_are_you_sure" = "Проверьте правильность пути. Это должен быть путь к папке, а не файлу.";
 
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "Неверный путь к папке";
@@ -3973,8 +3955,8 @@
 /* View recent sync details including errors. */
 "database_properties_subtitle_view_sync_log" = "Сведения и ошибки";
 
-/* Your Database is configured to use a YubiKey, however no YubiKey or an incorrect YubiKey was found connected. */
-"mac_autofill_no_or_incorrect_yubikey_found" = "Не удалось обнаружить YubiKey или это неверный ключ.";
+/* Your Database is configured to use a hardware key, however no key or an incorrect key was found connected. */
+"mac_autofill_no_or_incorrect_yubikey_found" = "Не удалось обнаружить ключ или это неверный ключ.";
 
 /* Title (Username) */
 "quick_type_format_title_username" = "Название и Логин";
@@ -4421,12 +4403,6 @@
 /* This is a rather large image (%@x%@), would you like to rescale it to a maximum dimension of %@ pixels for a file size saving of roughly %@  - (Tranlators Note: Message about reducing the file size of an image. e.g. 'This is a rather large image (4096x4096), would you like to rescale it to a maximum dimension of 512 pixels for a file size saving of roughly 15 MB')  */
 "set_icon_vc_prompt_rescale_image_message_fmt2" = "Слишком  большое изображение (%@ x %@). Хотите изменить его масштаб до максимального в %@ пикселей (уменьшение размера файла - %@)?";
 
-/* YubiKey %@ Slot %@ (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
-"mac_yubikey_serial_number_slot_n_touch_required_fmt2" = "YubiKey %@ Слот %@ (Требуется касание)";
-
-/* YubiKey %@ Slot %@  - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2) */
-"mac_yubikey_serial_number_slot_n_fmt2" = "YubiKey %@ Слот %@";
-
 /* Backup %@ (%@) - Translators Note: 1st Param is a number/integer, second parameter is the modified date, so e.g. 'Backup 4 (11 Nov 2020)'*/
 "backups_backup_title_fmt2" = "Резервная копия - %@ (%@)";
 
@@ -4610,7 +4586,7 @@
 "safes_vc_new_advanced" = "Создать БД";
 
 /* Add Existing */
-"safes_vc_add_existing" = "Добавить имеющуюся";
+"safes_vc_add_existing" = "Добавить БД";
 
 "safesvc_inner_stream_error_title" = "Ошибка при дешифровании";
 
@@ -4633,4 +4609,47 @@
 "import_successful_message" = "Импорт выполнен успешно. Теперь необходимо установить мастер-пароль и сохранить Вашу новую БД.";
 
 /* Are you sure you want to clear the TOTP for this entry? */
-"are_you_sure_clear_totp" = "Вы уверены, что хотите удалить TOTP для этой записи?";
+"are_you_sure_clear_totp" = "Вы хотите удалить TOTP для этой записи?";
+
+/* Date Created (Precise) */
+"databases_preferences_subtitle_field_name_create_date_precise" = "Дата создания";
+
+/* Hardware Slot %@ (Touch Required) - (Translators Note: Some YubiKey devices/configurations require the user to touch or press a button to authenticate. This string also takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
+"mac_yubikey_slot_n_touch_required_fmt" = "Ключ Слот %@ (Требуется касание)";
+
+/* Hardware Slot %@ (Translators Note: This string takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
+"mac_yubikey_slot_n_fmt" = "Ключ Слот %@";
+
+/* No Hardware Keys Found */
+"mac_no_yubikeys_found" = "Аппаратные ключи не найдены";
+
+/* Hardware Key found but no compatible HMACSHA1 slots available */
+"mac_yubikey_available_but_no_compatible_slots" = "Ключ найден, но нет доступных совместимых слотов.";
+
+/* Hardware Key %@ Slot %@ (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
+"mac_yubikey_serial_number_slot_n_touch_required_fmt2" = "Ключ %@, Слот %@ (Требуется касание)";
+
+/* Hardware Key %@ Slot %@  - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2) */
+"mac_yubikey_serial_number_slot_n_fmt2" = "Ключ %@, Слот %@";
+
+
+/* None (%@ Available) - L10n Guide: The 1st parameter is the number of detected hardware key/slots, but None have been selected by the user */
+"mac_hardware_key_dropdown_n_available_fmt" = "Не выбран (%@ Доступен)";
+
+/* None (No Keys Detected) - L10n Guide: This means no hardware key is selected and none have been detected */
+"mac_hardware_key_dropdown_none_no_keys_detected" = "Не выбран (Ключи не обнаружены)";
+
+/* 🔴 Configured Key [CR Unavailable] - L10n Guide: A hardware key has been previously configured/setup by the user for this database but the Challenge Response functionality is not available, probably by error or user mistake */
+"mac_hardware_key_key_configured_but_cr_unavailable" = "🔴 Установлен [Нет ответа]";
+
+/* ⚠️ Disconnected Key (Configured) - L10n Guide: A hardware key has been previously configured/setup by the user for this database but it is not currently connected to the mac/iphone */
+"mac_hardware_key_key_configured_but_disconnected" = "⚠️  Ключ не найден (Установлен)";
+
+/* Connected Key Slot %@ (Configured) - L10n Guide: A hardware key has been previously configured/setup by the user for this database and it is also connected. The 1st parameter is slot number the user has configured. It will be '1' or '2'.  */
+"mac_hardware_key_configured_and_connected_slot_n_fmt" = "Ключ установлен - Слот %@";
+
+/* Connected Key Slot %@ - L10n Guide: A hardware key is connected. The 1st parameter is slot number that is available for use. It will be '1' or '2'.  */
+"mac_hardware_key_connected_slot_n_fmt" = "Ключ найден - Слот %@";
+
+/* ⚠️ Selected Key (Disconnected) - L10n Guide: The user previously selected a hardware key from the dropdown, but it has now been disconnected. */
+"mac_hardware_key_selected_but_has_been_disconnected" = "⚠️ Выбран (Не найден)";

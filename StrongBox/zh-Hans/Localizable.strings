@@ -1388,8 +1388,8 @@
 /* No Key File */
 "key_files_vc_no_key_file" = "无密钥文件";
 
-/* The Convenience Password or Key File were incorrect for this database. Convenience Unlock Disabled. */
-"open_sequence_problem_opening_convenience_incorrect_message" = "便捷密码或其他组合密钥因素 (密钥文件/YubiKey) 对此数据可不正确。便捷解锁已禁用。";
+/* The stored convenience password or other composite key factors (key file/hardware key) were incorrect for this database. Convenience Unlock has been Disabled. */
+"open_sequence_problem_opening_convenience_incorrect_message" = "The stored convenience password or other composite key factors (key file/hardware key) were incorrect for this database. Convenience Unlock has been Disabled.";
 
 /* Incorrect Credentials */
 "open_sequence_problem_opening_incorrect_credentials_title" = "凭据错误";
@@ -1821,7 +1821,7 @@
 "open_sequence_error_reading_key_file_autofill_context" = "无法读取密钥文件。它是否已被导入？请在偏好设置中检查密钥文件管理。";
 
 /* Transfer over Wi-Fi (or LAN) */
-"sspc_local_network_storage_location" = "Transfer over Wi-Fi (or LAN)";
+"sspc_local_network_storage_location" = "通过 WiFi （或局域网）传输";
 
 /* A storage provider is in the process of reading. This is the status displayed on the progress dialog. In english:  Reading... */
 "storage_provider_status_reading" = "正在读取...";
@@ -2486,8 +2486,8 @@
 /* Select a Key File */
 "mac_select_key_file" = "选择密钥文件";
 
-/* You must use at least one of either a Password, a Key File or a YubiKey for your master credentials. */
-"mac_you_must_use_at_least_a_password_or_key_file" = "您必须为主凭证使用密码，密钥文件或 YubiKey 中的至少一种。";
+/* You must use at least one of either a password, a key file or a hardware key for your master credentials. */
+"mac_you_must_use_at_least_a_password_or_key_file" = "You must use at least one of either a password, a key file or a hardware key for your master credentials.";
 
 /* Password cannot be Empty */
 "mac_password_cannot_be_empty" = "密码不能为空";
@@ -2687,11 +2687,11 @@
 /* Browse... - (Translators Note: When user wants to open the File dialog to select a key file...)*/
 "mac_browse_for_key_file" = "浏览...";
 
-/* [Configured] - (Translators Note: User is using a key file, Strongbox knows what/where it is, but will not display the file name in the UI for privacy reasons. This appears on the unlock screen. */
-"mac_key_file_configured_but_filename_hidden" = "[Configured]";
+/* Configured - (Translators Note: User is using a key file, Strongbox knows what/where it is, but will not display the file name in the UI for privacy reasons. This appears on the unlock screen. */
+"mac_key_file_configured_but_filename_hidden" = "已配置";
 
-/* %@ [Configured] - (Translators Note: User is using a key file that has previously been set/remembered by Strongbox. First parameter is the filename of the key file. This appears on the unlock screen. */
-"mac_key_file_filename_configured_fmt" = "%@ [Configured]";
+/* %@ (Configured) - (Translators Note: User is using a key file that has previously been set/remembered by Strongbox. First parameter is the filename of the key file. This appears on the unlock screen. */
+"mac_key_file_filename_configured_fmt" = "%@ (Configured)";
 
 /* Touch ID/Apple Watch Unlock is not possible at the moment because Touch ID/Apple Watch is not available. */
 "mac_info_biometric_unlock_not_possible_right_now" = "由于 Touch ID/Apple Watch 不可用，目前无法使用 Touch ID/Apple Watch 解锁。";
@@ -2741,8 +2741,8 @@
 /* Never */
 "mac_convenience_expiry_period_never" = "从不";
 
-/* App Exit  (Memory Only, No AutoFill) */
-"mac_convenience_expiry_period_on_app_exit" = "App Exit (Memory Only, No AutoFill)";
+/* App Exit (Memory Only) */
+"mac_convenience_expiry_period_on_app_exit" = "App Exit (Memory Only)";
 
 /* Unlock with Touch ID or Watch */
 "mac_unlock_screen_button_title_convenience_unlock" = "使用触控 ID 或 Watch 解锁";
@@ -2768,17 +2768,17 @@
 /* Slot 2 */
 "casg_yubikey_configured_slot2" = "插槽 2";
 
-/* YubiKey Unlock is not supported in AutoFill mode */
+/* Hardware Key Unlock is not supported in AutoFill mode due to system constraints. You can configure a Virtual Hardware Key instead. */
 "open_sequence_cannot_use_yubikey_in_autofill_mode" = "由于系统限制，自动填充模式不支持硬件密钥解锁。您可以配置虚拟硬件密钥以替代。";
 
-/* YubiKey Unlock is only available in the Pro edition of Strongbox */
-"open_sequence_yubikey_only_available_in_pro" = "YubiKey 解锁仅在 Strongbox Pro 版本中可用";
+/* Hardware Key Unlock is only available in the Pro edition of Strongbox */
+"open_sequence_yubikey_only_available_in_pro" = "Hardware Key Unlock is only available in the Pro edition of Strongbox";
 
 /* Disabled (Pro Edition Only) */
 "casg_yubikey_configured_disabled_pro_only" = "禁用 (仅限 Pro 版本)";
 
-/* YubiKey (Pro Edition Only) */
-"casg_section_header_yubikey_pro_only" = "YubiKey (仅限 Pro 版本)";
+/* Hardware Key (Pro Edition Only) */
+"casg_section_header_yubikey_pro_only" = "Hardware Key (Pro Edition Only)";
 
 /* Unknown (Translators Note: Used when generally when something can't be determined, e.g. The URL or file name of a database, or the type of storage provider used, or the format of a newly opened database etc.)*/
 "generic_unknown" = "未知";
@@ -2786,10 +2786,10 @@
 /* Valid Credentials */
 "mac_valid_credentials" = "有效凭据";
 
-/* Could not get challenge response from YubiKey */
-"mac_error_getting_challenge_response_yubikey" = "无法从 YubiKey 获取挑战响应";
+/* Could not get challenge response from hardware key */
+"mac_error_getting_challenge_response_yubikey" = "Could not get challenge response from hardware key";
 
-/* Refreshing... (Translators Note: Used whenever running a fairly short operation to indicate somehting is happening, e.g. when polling YubiKey status (can take a few seconds)) */
+/* Refreshing... (Translators Note: Used whenever running a fairly short operation to indicate somehting is happening, e.g. when polling hardware key status (can take a few seconds)) */
 "generic_refreshing_ellipsis" = "正在刷新...";
 
 /* Could not generate Composite Key */
@@ -2798,26 +2798,8 @@
 /* None */
 "generic_none" = "无";
 
-/* YubiKey (Pro Only) */
-"mac_lock_screen_yubikey_popup_menu_yubico_pro_only" = "YubiKey (仅限 Pro)";
-
-/* YubiKey Slot %ld (Touch Required) - (Translators Note: Some YubiKey devices/configurations require the user to touch or press a button to authenticate. This string also takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_touch_required_fmt" = "YubiKey 插槽 %ld (需要触摸)";
-
-/* YubiKey Slot %ld (Translators Note: This string takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_fmt" = "YubiKey 插槽 %ld";
-
-/* No YubiKeys Found */
-"mac_no_yubikeys_found" = "未发现 YubiKeys";
-
-/* YubiKey %@ Slot %ld (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
-"mac_yubikey_serial_number_slot_n_touch_required_fmt" = "YubiKey %@ 插槽 %ld (需要触摸)";
-
-/* YubiKey %@ Slot %ld  - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2) */
-"mac_yubikey_serial_number_slot_n_fmt" = "YubiKey %@ 插槽 %ld";
-
-/* YubiKey found but no compatible HMACSHA1 slots available */
-"mac_yubikey_available_but_no_compatible_slots" = "发现 YubiKey 但无兼容的 HMACSHA1 插槽";
+/* Hardware Key (Pro Only) */
+"mac_lock_screen_yubikey_popup_menu_yubico_pro_only" = "Hardware Key (Pro Only)";
 
 "casg_yubikey_configured_mfi" = "Lightning";
 
@@ -2836,8 +2818,8 @@
 /* Insert the key to read the OTP */
 "yubikey_insert_the_key_to_read_the_otp" = "插入密钥读取 OTP";
 
-/* Communicating with YubiKey... */
-"yubikey_communicating_with_key_ellipsis" = "与 YubiKey 通讯中…";
+/* Communicating with hardware key... */
+"yubikey_communicating_with_key_ellipsis" = "Communicating with hardware key...";
 
 /* Icon Set */
 "browse_prefs_icon_set" = "图标集";
@@ -3973,8 +3955,8 @@
 /* View recent sync details including errors. */
 "database_properties_subtitle_view_sync_log" = "查看最近的同步详情，包括错误。";
 
-/* Your Database is configured to use a YubiKey, however no YubiKey or an incorrect YubiKey was found connected. */
-"mac_autofill_no_or_incorrect_yubikey_found" = "您的数据库被配置为使用 YubiKey，但没有发现连接的 YubiKey 或连接了错误的 YubiKey。";
+/* Your Database is configured to use a hardware key, however no key or an incorrect key was found connected. */
+"mac_autofill_no_or_incorrect_yubikey_found" = "Your Database is configured to use a hardware key, however no key or an incorrect key was found connected.";
 
 /* Title (Username) */
 "quick_type_format_title_username" = "标题 (用户名)";
@@ -4421,12 +4403,6 @@
 /* This is a rather large image (%@x%@), would you like to rescale it to a maximum dimension of %@ pixels for a file size saving of roughly %@  - (Tranlators Note: Message about reducing the file size of an image. e.g. 'This is a rather large image (4096x4096), would you like to rescale it to a maximum dimension of 512 pixels for a file size saving of roughly 15 MB')  */
 "set_icon_vc_prompt_rescale_image_message_fmt2" = "这是一张相当大的图片(%@x%@)，你是否愿意将其重新缩放到最大尺寸为%@像素，以节省大约%@的文件大小。";
 
-/* YubiKey %@ Slot %@ (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
-"mac_yubikey_serial_number_slot_n_touch_required_fmt2" = "YubiKey %@ 插槽 %@ (需要触控)";
-
-/* YubiKey %@ Slot %@  - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2) */
-"mac_yubikey_serial_number_slot_n_fmt2" = "YubiKey %@ 插槽 %@";
-
 /* Backup %@ (%@) - Translators Note: 1st Param is a number/integer, second parameter is the modified date, so e.g. 'Backup 4 (11 Nov 2020)'*/
 "backups_backup_title_fmt2" = "备份 %@ (%@)";
 
@@ -4574,63 +4550,106 @@
 "generic_memory" = "内存";
 
 /* Parallelism */
-"generic_parallelism" = "Parallelism";
+"generic_parallelism" = "并行度";
 
 /* Algorithm */
 "generic_algorithm" = "算法";
 
 /* Compression */
-"generic_compression" = "Compression";
+"generic_compression" = "压缩方式";
 
 /* Are you sure you want to change your database encryption settings? */
 "are_you_sure_change_encryption_settings" = "您确定要更改数据库加密设置吗？";
 
 /* No significant changes. Tap Done to Continue. */
-"merge_result_databases_identical_sync_initiated" = "Merge OK. Tap Done to continue.";
+"merge_result_databases_identical_sync_initiated" = "合并成功，点击“完成”以继续。";
 
 /* Expired Entries (%@)  - L10n note - 1st paramter is the number of entries, e.g. Expired Entries (2) */
-"quick_view_title_expired_entries_title_fmt" = "Expired Entries (%@)";
+"quick_view_title_expired_entries_title_fmt" = "过期条目 (%@)";
 
 /* View all expired entries */
-"quick_view_title_expired_entries_subtitle" = "View all expired entries";
+"quick_view_title_expired_entries_subtitle" = "查看所有过期条目";
 
 /* Nearly Expired Entries (%@) - L10n note - 1st paramter is the number of entries, e.g. Nearly Expired Entries (2) */
-"quick_view_title_nearly_expired_entries_title_fmt" = "Nearly Expired Entries (%@)";
+"quick_view_title_nearly_expired_entries_title_fmt" = "即将过期的条目(%@)";
 
 /* View all nearly expired entries */
-"quick_view_title_nearly_expired_entries_subtitle" = "View all nearly expired entries";
+"quick_view_title_nearly_expired_entries_subtitle" = "查看所有即将过期的条目";
 
 /* Wi-Fi Transfer */
-"safes_vc_wifi_transfer" = "Wi-Fi Transfer";
+"safes_vc_wifi_transfer" = "Wi-Fi 传输";
 
 /* Get Started Wizard */
-"safes_vc_quick_start" = "Get Started Wizard";
+"safes_vc_quick_start" = "开始使用向导";
 
 /* New (Advanced) */
-"safes_vc_new_advanced" = "New Database";
+"safes_vc_new_advanced" = "新数据库";
 
 /* Add Existing */
-"safes_vc_add_existing" = "Add Existing";
+"safes_vc_add_existing" = "添加现有数据库";
 
-"safesvc_inner_stream_error_title" = "Inner Stream Decryption Error";
+"safesvc_inner_stream_error_title" = "内部流解密错误";
 
 /* Strongbox has had a problem decrypting some protected fields in this database. \n\nThe database will now open in Read-Only mode to prevent further corruption.\n\nWe recommend restoring from an older backup or upgrading to KDBX4 which does not suffer from this issue. */
-"safesvc_inner_stream_error_message" = "Strongbox has had a problem decrypting some protected fields in this database. \n\nThe database will now open in Read-Only mode to prevent further corruption.\n\nWe recommend restoring from an older backup or upgrading to KDBX4 which does not suffer from this issue.";
+"safesvc_inner_stream_error_message" = "Strongbox在解密该数据库的某些受保护字段时出现问题。\n\n该数据库现在将以只读模式打开，以防止进一步损坏。\n\n我们建议从旧的备份中恢复，或者升级到没有此问题的KDBX4。";
 
 /* Choose file to Import */
-"mac_choose_file_import" = "Choose file to Import";
+"mac_choose_file_import" = "选择要导入的文件";
 
 /* 🔴 Import Failed */
-"import_failed_title" = "🔴 Import Failed";
+"import_failed_title" = "🔴 导入失败";
 
 /* Strongbox could not import this file. Please check it is in the correct format. */
-"import_failed_message" = "Strongbox could not import this file. Please check it is in the correct format.";
+"import_failed_message" = "Strongbox 无法导入此文件。请检查文件格式是否正确。";
 
 /* ✅ Import Successful */
-"import_successful_title" = "✅ Import Successful";
+"import_successful_title" = "✅ 导入成功";
 
 /* Your import was successful! Now, let's set a strong master password and save your new Strongbox database. */
-"import_successful_message" = "Your import was successful! Now, let's set a strong master password and save your new Strongbox database.";
+"import_successful_message" = "导入成功! 现在来设置一个强大的主密码，并保存你您的新Strongbox数据库。";
 
 /* Are you sure you want to clear the TOTP for this entry? */
-"are_you_sure_clear_totp" = "Are you sure you want to clear the TOTP for this entry?";
+"are_you_sure_clear_totp" = "您确定要清除此条目的TOTP吗？";
+
+/* Date Created (Precise) */
+"databases_preferences_subtitle_field_name_create_date_precise" = "Date Created (Precise)";
+
+/* Hardware Slot %@ (Touch Required) - (Translators Note: Some YubiKey devices/configurations require the user to touch or press a button to authenticate. This string also takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
+"mac_yubikey_slot_n_touch_required_fmt" = "Hardware Key Slot %@ (Touch Required)";
+
+/* Hardware Slot %@ (Translators Note: This string takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
+"mac_yubikey_slot_n_fmt" = "Hardware Key Slot %@";
+
+/* No Hardware Keys Found */
+"mac_no_yubikeys_found" = "No Hardware Keys Found";
+
+/* Hardware Key found but no compatible HMACSHA1 slots available */
+"mac_yubikey_available_but_no_compatible_slots" = "Hardware Key found but no compatible HMACSHA1 slots available";
+
+/* Hardware Key %@ Slot %@ (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
+"mac_yubikey_serial_number_slot_n_touch_required_fmt2" = "Hardware Key %@ Slot %@ (Touch Required)";
+
+/* Hardware Key %@ Slot %@  - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2) */
+"mac_yubikey_serial_number_slot_n_fmt2" = "Hardware Key %@ Slot %@";
+
+
+/* None (%@ Available) - L10n Guide: The 1st parameter is the number of detected hardware key/slots, but None have been selected by the user */
+"mac_hardware_key_dropdown_n_available_fmt" = "None (%@ Available)";
+
+/* None (No Keys Detected) - L10n Guide: This means no hardware key is selected and none have been detected */
+"mac_hardware_key_dropdown_none_no_keys_detected" = "None (No Keys Detected)";
+
+/* 🔴 Configured Key [CR Unavailable] - L10n Guide: A hardware key has been previously configured/setup by the user for this database but the Challenge Response functionality is not available, probably by error or user mistake */
+"mac_hardware_key_key_configured_but_cr_unavailable" = "🔴 Configured Key [CR Unavailable]";
+
+/* ⚠️ Disconnected Key (Configured) - L10n Guide: A hardware key has been previously configured/setup by the user for this database but it is not currently connected to the mac/iphone */
+"mac_hardware_key_key_configured_but_disconnected" = "⚠️ Disconnected Key (Configured)";
+
+/* Connected Key Slot %@ (Configured) - L10n Guide: A hardware key has been previously configured/setup by the user for this database and it is also connected. The 1st parameter is slot number the user has configured. It will be '1' or '2'.  */
+"mac_hardware_key_configured_and_connected_slot_n_fmt" = "Connected Key Slot %@ (Configured)";
+
+/* Connected Key Slot %@ - L10n Guide: A hardware key is connected. The 1st parameter is slot number that is available for use. It will be '1' or '2'.  */
+"mac_hardware_key_connected_slot_n_fmt" = "Connected Key Slot %@";
+
+/* ⚠️ Selected Key (Disconnected) - L10n Guide: The user previously selected a hardware key from the dropdown, but it has now been disconnected. */
+"mac_hardware_key_selected_but_has_been_disconnected" = "⚠️ Selected Key (Disconnected)";
