@@ -1271,10 +1271,10 @@
 "custom_field_vc_validation_name_not_empty_error" = "Название не может быть пустым";
 
 /* Name cannot be one of the reserved KeePass Field names */
-"custom_field_vc_validation_name_not_reserved_error" = "Название не может совпадать с зарезервированными названиями полей KeePass.";
+"custom_field_vc_validation_name_not_reserved_error" = "Название не может совпадать с зарезервированными именами полей KeePass.";
 
 /* This key is already in use by another custom field. */
-"custom_field_vc_validation_name_already_in_use_error" = "Название уже используется другим полем.";
+"custom_field_vc_validation_name_already_in_use_error" = "Имя уже используется другим полем.";
 
 /* You are in read-only mode. Cannot Write! */
 "model_error_readonly_cannot_write" = "Вы находитесь в режиме для чтения. Изменение данных невозможно!";
@@ -2242,13 +2242,13 @@
 "mac_drag_drop_between_databases_keepass_email_field_not_supported" = "KeePass не поддерживает поле «Email» по умолчанию. Strongbox добавит его как строковое поле. Хотите продолжить?";
 
 /* KeePass 1 does not support entries at the root level, these will be discarded. KeePass 1 also does not natively support the 'Email' field. Strongbox will append it instead to the end of the 'Notes' field.\nDo you want to continue? */
-"mac_keepass1_does_not_support_root_entries" = "KeePass 1 не поддерживает записи на корневом уровне, они будут удалены. Также не поддерживается поле «Email». Strongbox добавит его вместо этого в конце поля «Заметки».\nХотите продолжить?";
+"mac_keepass1_does_not_support_root_entries" = "KeePass 1 не поддерживает записи на корневом уровне, поэтому они будут удалены. Также не поддерживается поле «Email». Strongbox добавит его вместо этого в конце поля «Заметки».\nХотите продолжить?";
 
 /* The Password Safe format does not support icons, attachments or custom fields. If you continue, these fields will not be copied to this database.\nDo you want to continue without these fields? */
 "mac_password_safe_fmt_does_not_support_icons_attachments_warning" = "Формат Password Safe не поддерживает значки, вложения или пользовательские поля. Если Вы продолжите, то поля не будут скопированы в БД.\nХотите продолжить без этих полей?";
 
 /* The KeePass 1 (KDB) does not support entries at the root level, these will be discarded.\n\nThe KeePass 1 (KDB) format also does not support multiple attachments, custom fields or custom icons. If you continue only the first attachment from each item will be copied to this database. Custom Fields and Icons will be discarded.\nDo you want to continue? */
-"mac_keepass1_does_not_support_root_entries_or_attachments" = "Формат KeePass 1 (KDB) не поддерживает записи на корневом уровне, они будут отброшены.\n\nТакже не поддерживаются множественные вложения, пользовательские поля или настраиваемые значки. Если Вы продолжите, только первое вложение из каждого элемента будет скопировано в БД. Пользовательские поля и значки будут отброшены.\nХотите продолжить?";
+"mac_keepass1_does_not_support_root_entries_or_attachments" = "Формат KeePass 1 (KDB) не поддерживает записи на корневом уровне, они будут отброшены.\n\nТакже не поддерживаются множественные вложения, пользовательские поля или настраиваемые значки. Если Вы продолжите, только первое вложение из каждого элемента будет скопировано в БД. Хотите продолжить?";
 
 /* The Password Safe format does not support attachments or icons. If you continue, these fields will not be copied to this database.\nDo you want to continue without these fields? */
 "mac_password_safe_does_not_support_attachments_icons_continue_yes_no" = "Формат Password Safe не поддерживает вложения или значки. Если Вы продолжите, то эти поля не будут скопированы в БД. Хотите продолжить без этих полей?";
@@ -2409,7 +2409,7 @@
 "mac_undo_action_add_attachment" = "Добавить вложение";
 
 /* Set Custom Field */
-"mac_undo_action_set_custom_field" = "Установить настраиваемое поле";
+"mac_undo_action_set_custom_field" = "Установить строковое поле";
 
 /* Add Custom Field */
 "mac_undo_action_add_custom_field" = "Добавить поле";
@@ -3686,7 +3686,7 @@
 "diff_drill_down_custom_data_is_only_in_first" = "Пользовательские данные только в первой.";
 
 /* Custom Data item will be added. */
-"diff_drill_down_custom_data_will_be_added_fmt" = "Будет добавлен пользовательский элемент данных.";
+"diff_drill_down_custom_data_will_be_added_fmt" = "Будут добавлены пользовательские данные.";
 
 /* Custom Data is only in second. */
 "diff_drill_down_custom_data_is_only_in_second" = "Пользовательские данные только во второй.";
