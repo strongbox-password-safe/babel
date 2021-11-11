@@ -1389,7 +1389,7 @@
 "key_files_vc_no_key_file" = "Aucun fichier-clé";
 
 /* The stored convenience password or other composite key factors (key file/hardware key) were incorrect for this database. Convenience Unlock has been Disabled. */
-"open_sequence_problem_opening_convenience_incorrect_message" = "The stored convenience password or other composite key factors (key file/hardware key) were incorrect for this database. Convenience Unlock has been Disabled.";
+"open_sequence_problem_opening_convenience_incorrect_message" = "Le mot de passe de confort enregistré ou d'autres facteurs de clé composites (fichier-clé / clé matérielle) étaient incorrects pour cette base de données. Le déverrouillage de confort est désactivé.";
 
 /* Incorrect Credentials */
 "open_sequence_problem_opening_incorrect_credentials_title" = "Identifiants incorrects";
@@ -2487,7 +2487,7 @@
 "mac_select_key_file" = "Sélectionnez un fichier-clé";
 
 /* You must use at least one of either a password, a key file or a hardware key for your master credentials. */
-"mac_you_must_use_at_least_a_password_or_key_file" = "You must use at least one of either a password, a key file or a hardware key for your master credentials.";
+"mac_you_must_use_at_least_a_password_or_key_file" = "Vous devez utiliser au moins un mot de passe, un fichier-clé ou une clé matérielle pour vos identifiants maîtres.";
 
 /* Password cannot be Empty */
 "mac_password_cannot_be_empty" = "Le mot de passe ne peut pas être vide";
@@ -2691,7 +2691,7 @@
 "mac_key_file_configured_but_filename_hidden" = "Configuré";
 
 /* %@ (Configured) - (Translators Note: User is using a key file that has previously been set/remembered by Strongbox. First parameter is the filename of the key file. This appears on the unlock screen. */
-"mac_key_file_filename_configured_fmt" = "%@ (Configured)";
+"mac_key_file_filename_configured_fmt" = "%@ (configuré)";
 
 /* Touch ID/Apple Watch Unlock is not possible at the moment because Touch ID/Apple Watch is not available. */
 "mac_info_biometric_unlock_not_possible_right_now" = "Le déverrouillage Touch ID/Apple Watch n'est pas possible pour le moment parce que Touch ID/Apple Watch n'est pas disponible.";
@@ -2742,7 +2742,7 @@
 "mac_convenience_expiry_period_never" = "Jamais";
 
 /* App Exit (Memory Only) */
-"mac_convenience_expiry_period_on_app_exit" = "App Exit (Memory Only)";
+"mac_convenience_expiry_period_on_app_exit" = "Sortie de l'application (Mémoire seulement)";
 
 /* Unlock with Touch ID or Watch */
 "mac_unlock_screen_button_title_convenience_unlock" = "Déverrouiller avec Touch ID ou Watch";
@@ -2772,13 +2772,13 @@
 "open_sequence_cannot_use_yubikey_in_autofill_mode" = "Le déverrouillage par clé matérielle n'est pas pris en charge en mode Remplissage automatique en raison de contraintes système. Vous pouvez configurer une clé matérielle virtuelle à la place.";
 
 /* Hardware Key Unlock is only available in the Pro edition of Strongbox */
-"open_sequence_yubikey_only_available_in_pro" = "Hardware Key Unlock is only available in the Pro edition of Strongbox";
+"open_sequence_yubikey_only_available_in_pro" = "Le déverrouillage par clé matérielle n'est disponible que dans la version Pro de Strongbox";
 
 /* Disabled (Pro Edition Only) */
 "casg_yubikey_configured_disabled_pro_only" = "Désactivé (Version Pro seulement)";
 
 /* Hardware Key (Pro Edition Only) */
-"casg_section_header_yubikey_pro_only" = "Hardware Key (Pro Edition Only)";
+"casg_section_header_yubikey_pro_only" = "Clé matérielle (Version Pro seulement)";
 
 /* Unknown (Translators Note: Used when generally when something can't be determined, e.g. The URL or file name of a database, or the type of storage provider used, or the format of a newly opened database etc.)*/
 "generic_unknown" = "Inconnu(e)";
@@ -2787,7 +2787,7 @@
 "mac_valid_credentials" = "Identifiants valides";
 
 /* Could not get challenge response from hardware key */
-"mac_error_getting_challenge_response_yubikey" = "Could not get challenge response from hardware key";
+"mac_error_getting_challenge_response_yubikey" = "Impossible d'obtenir la réponse au défi depuis la clé matérielle";
 
 /* Refreshing... (Translators Note: Used whenever running a fairly short operation to indicate somehting is happening, e.g. when polling hardware key status (can take a few seconds)) */
 "generic_refreshing_ellipsis" = "Actualisation...";
@@ -2799,7 +2799,7 @@
 "generic_none" = "Aucun";
 
 /* Hardware Key (Pro Only) */
-"mac_lock_screen_yubikey_popup_menu_yubico_pro_only" = "Hardware Key (Pro Only)";
+"mac_lock_screen_yubikey_popup_menu_yubico_pro_only" = "Clé matérielle (Pro seulement)";
 
 "casg_yubikey_configured_mfi" = "Lightning";
 
@@ -2819,7 +2819,7 @@
 "yubikey_insert_the_key_to_read_the_otp" = "Insérez la clé pour lire l'OTP";
 
 /* Communicating with hardware key... */
-"yubikey_communicating_with_key_ellipsis" = "Communicating with hardware key...";
+"yubikey_communicating_with_key_ellipsis" = "Communication avec la clé matérielle...";
 
 /* Icon Set */
 "browse_prefs_icon_set" = "Jeu d'icônes";
@@ -3956,7 +3956,7 @@
 "database_properties_subtitle_view_sync_log" = "Afficher les détails de synchronisation récents, y compris les erreurs.";
 
 /* Your Database is configured to use a hardware key, however no key or an incorrect key was found connected. */
-"mac_autofill_no_or_incorrect_yubikey_found" = "Your Database is configured to use a hardware key, however no key or an incorrect key was found connected.";
+"mac_autofill_no_or_incorrect_yubikey_found" = "Votre base de données est configurée pour utiliser une clé matérielle, mais aucune clé matérielle valide n'a été détectée.";
 
 /* Title (Username) */
 "quick_type_format_title_username" = "Titre (Nom d'utilisateur)";
@@ -4612,44 +4612,86 @@
 "are_you_sure_clear_totp" = "Êtes-vous sûr(e) de vouloir effacer le TOTP pour cette entrée ?";
 
 /* Date Created (Precise) */
-"databases_preferences_subtitle_field_name_create_date_precise" = "Date Created (Precise)";
+"databases_preferences_subtitle_field_name_create_date_precise" = "Date de création (Précise)";
 
 /* Hardware Slot %@ (Touch Required) - (Translators Note: Some YubiKey devices/configurations require the user to touch or press a button to authenticate. This string also takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_touch_required_fmt" = "Hardware Key Slot %@ (Touch Required)";
+"mac_yubikey_slot_n_touch_required_fmt" = "Clé matérielle emplacement %@ (appui requis)";
 
 /* Hardware Slot %@ (Translators Note: This string takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_fmt" = "Hardware Key Slot %@";
+"mac_yubikey_slot_n_fmt" = "Clé matérielle emplacement %@";
 
 /* No Hardware Keys Found */
-"mac_no_yubikeys_found" = "No Hardware Keys Found";
+"mac_no_yubikeys_found" = "Aucune clé matérielle trouvée";
 
 /* Hardware Key found but no compatible HMACSHA1 slots available */
-"mac_yubikey_available_but_no_compatible_slots" = "Hardware Key found but no compatible HMACSHA1 slots available";
+"mac_yubikey_available_but_no_compatible_slots" = "Clé matérielle trouvée, mais aucun emplacement HMACSHA1 compatible disponible";
 
 /* Hardware Key %@ Slot %@ (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
-"mac_yubikey_serial_number_slot_n_touch_required_fmt2" = "Hardware Key %@ Slot %@ (Touch Required)";
+"mac_yubikey_serial_number_slot_n_touch_required_fmt2" = "Clé matérielle %@ emplacement %@ (appui requis)";
 
 /* Hardware Key %@ Slot %@  - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2) */
-"mac_yubikey_serial_number_slot_n_fmt2" = "Hardware Key %@ Slot %@";
+"mac_yubikey_serial_number_slot_n_fmt2" = "Clé matérielle %@ emplacement %@";
 
 
 /* None (%@ Available) - L10n Guide: The 1st parameter is the number of detected hardware key/slots, but None have been selected by the user */
-"mac_hardware_key_dropdown_n_available_fmt" = "None (%@ Available)";
+"mac_hardware_key_dropdown_n_available_fmt" = "Aucune (%@ disponible)";
 
 /* None (No Keys Detected) - L10n Guide: This means no hardware key is selected and none have been detected */
-"mac_hardware_key_dropdown_none_no_keys_detected" = "None (No Keys Detected)";
+"mac_hardware_key_dropdown_none_no_keys_detected" = "Aucune (Aucune clé détectée)";
 
 /* 🔴 Configured Key [CR Unavailable] - L10n Guide: A hardware key has been previously configured/setup by the user for this database but the Challenge Response functionality is not available, probably by error or user mistake */
-"mac_hardware_key_key_configured_but_cr_unavailable" = "🔴 Configured Key [CR Unavailable]";
+"mac_hardware_key_key_configured_but_cr_unavailable" = "🔴 Clé configurée [défi-réponse indisp.]";
 
 /* ⚠️ Disconnected Key (Configured) - L10n Guide: A hardware key has been previously configured/setup by the user for this database but it is not currently connected to the mac/iphone */
-"mac_hardware_key_key_configured_but_disconnected" = "⚠️ Disconnected Key (Configured)";
+"mac_hardware_key_key_configured_but_disconnected" = "⚠️ Clé déconnectée (configurée)";
 
 /* Connected Key Slot %@ (Configured) - L10n Guide: A hardware key has been previously configured/setup by the user for this database and it is also connected. The 1st parameter is slot number the user has configured. It will be '1' or '2'.  */
-"mac_hardware_key_configured_and_connected_slot_n_fmt" = "Connected Key Slot %@ (Configured)";
+"mac_hardware_key_configured_and_connected_slot_n_fmt" = "Clé connectée emplacement %@ (configurée)";
 
 /* Connected Key Slot %@ - L10n Guide: A hardware key is connected. The 1st parameter is slot number that is available for use. It will be '1' or '2'.  */
-"mac_hardware_key_connected_slot_n_fmt" = "Connected Key Slot %@";
+"mac_hardware_key_connected_slot_n_fmt" = "Clé connectée emplacement %@";
 
 /* ⚠️ Selected Key (Disconnected) - L10n Guide: The user previously selected a hardware key from the dropdown, but it has now been disconnected. */
-"mac_hardware_key_selected_but_has_been_disconnected" = "⚠️ Selected Key (Disconnected)";
+"mac_hardware_key_selected_but_has_been_disconnected" = "⚠️ Clé sélectionnée (déconnectée)";
+
+/* AutoFill Issue */
+"autofill_argon2_onboarding_issue_title" = "AutoFill Issue";
+
+/* Your database has a very high Argon2 memory setting that will cause it to crash when used in AutoFill mode.\n\nWould you like Strongbox to automatically adjust this so that you can safely use AutoFill? */
+"autofill_argon2_onboarding_issue_message" = "Your database has a very high Argon2 memory setting that will cause it to crash when used in AutoFill mode.\n\nWould you like Strongbox to automatically adjust this so that you can safely use AutoFill?";
+
+/* Yes, Great Idea! */
+"generic_yes_great_idea_bang" = "Yes, Great Idea!";
+
+/* No, I don't use AutoFill */
+"autofill_argon2_onboarding_no_use_autofill" = "No, I don't use AutoFill";
+
+/* Dont't Ask Again */
+"generic_dont_ask_again" = "Don't Ask Again";
+
+/* Not Right Now */
+"generic_not_right_now" = "Not Right Now";
+
+/* Database Upgrade */
+"kdbx4_upgrade_onboarding_issue_title" = "Database Upgrade";
+
+/* Your database is using an old format (KDBX 3.1). The new format (KDBX 4.x) offers security improvements, performance enhancements and should also reduce the size of your database.\n\nWould you like Strongbox to automatically upgrade your database now? */
+"kdbx4_upgrade_onboarding_issue_message" = "Your database is using an old format (KDBX 3.1). The new format (KDBX 4.x) offers security improvements, performance enhancements and should also reduce the size of your database.\n\nWould you like Strongbox to automatically upgrade your database now?";
+
+/* Import 1Password */
+"safes_vc_import_1password" = "Import 1Password";
+
+/* Import CSV */
+"safes_vc_import_csv" = "Import CSV";
+
+/* Strongbox can import 1Pif files from 1Password. Tap OK to select your exported 1Pif file. */
+"safes_vc_import_1password_message" = "Strongbox can import 1Pif files from 1Password. Tap OK to select your exported 1Pif file.";
+
+/* Read Only Unavailable */
+"read_only_unavailable_title" = "Read Only Unavailable";
+
+/* You currently have changes pending and so you cannot switch to Read Only mode. You must save or discard your current changes first. */
+"read_only_unavailable_pending_changes_message" = "You currently have changes pending and so you cannot switch to Read Only mode. You must save or discard your current changes first.";
+
+/* Your database is in Read Only mode and cannot be updated. */
+"warn_database_is_ro_no_update" = "Your database is in Read Only mode and cannot be updated.";

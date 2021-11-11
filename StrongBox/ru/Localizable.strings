@@ -204,7 +204,7 @@
 "safesvc_info_message_key_file_imported" = "Файл-ключ успешно импортирован.";
 
 /* Problem Importing Key File */
-"safesvc_error_title_error_importing_key_file" = "Проблема при импорте файл-ключа";
+"safesvc_error_title_error_importing_key_file" = "Ошибка при импорте файл-ключа";
 
 /* Invalid Database - [%@] */
 "safesvc_error_title_import_database_fmt" = "[%@] - неверная база данных";
@@ -597,7 +597,7 @@
 "item_details_section_header_attachments" = "Вложения";
 
 /* Custom Fields */
-"item_details_section_header_custom_fields" = "Настраиваемые поля";
+"item_details_section_header_custom_fields" = "Строковые поля";
 
 /* History */
 "item_details_section_header_history" = "История";
@@ -1103,10 +1103,10 @@
 "sftp_provider_could_not_update" = "Не удалось обновить файл";
 
 /* Authentication Failed for [user: %@] */
-"sftp_provider_auth_failed_fmt" = "Ошибка аутентификации [пользователь: %@]";
+"sftp_provider_auth_failed_fmt" = "Ошибка аутентификации [Пользователь: %@]";
 
 /* Could not connect to host: %@ [user: %@] */
-"sftp_provider_connect_failed_fmt" = "Не удалось подключиться к хосту: %@ [пользователь: %@]";
+"sftp_provider_connect_failed_fmt" = "Не удалось подключиться к хосту: %@ [Пользователь: %@]";
 
 /* Attachment Location */
 "add_attachment_vc_prompt_title" = "Выбор источника";
@@ -1259,22 +1259,22 @@
 "sftp_vc_warn_invalid_key_message" = "Файл не является действительным закрытым ключом.";
 
 /* Custom Field Name */
-"custom_field_vc_accessibility_label_name" = "Название настраиваемого поля";
+"custom_field_vc_accessibility_label_name" = "Имя строкового поля";
 
 /* Custom Field Value */
-"custom_field_vc_accessibility_label_value" = "Значение настраиваемого поля";
+"custom_field_vc_accessibility_label_value" = "Значение строкового поля";
 
 /* Custom Field Protected */
-"custom_field_vc_accessibility_label_protected" = "Защита настраиваемого поля";
+"custom_field_vc_accessibility_label_protected" = "Защита строкового поля";
 
 /* Name cannot be empty */
 "custom_field_vc_validation_name_not_empty_error" = "Название не может быть пустым";
 
 /* Name cannot be one of the reserved KeePass Field names */
-"custom_field_vc_validation_name_not_reserved_error" = "Название не может совпадать с зарезервированными названиями полей KeePass.";
+"custom_field_vc_validation_name_not_reserved_error" = "Название не может совпадать с зарезервированными именами полей KeePass.";
 
 /* This key is already in use by another custom field. */
-"custom_field_vc_validation_name_already_in_use_error" = "Название уже используется другим полем.";
+"custom_field_vc_validation_name_already_in_use_error" = "Имя уже используется другим полем.";
 
 /* You are in read-only mode. Cannot Write! */
 "model_error_readonly_cannot_write" = "Вы находитесь в режиме для чтения. Изменение данных невозможно!";
@@ -1905,10 +1905,10 @@
 "generic_fieldname_icon" = "Значок";
 
 /* Custom Fields */
-"generic_fieldname_custom_fields" = "Настраиваемые поля";
+"generic_fieldname_custom_fields" = "Строковые поля";
 
 /* Custom Fields */
-"generic_fieldname_custom_field" = "Настраиваемое поле";
+"generic_fieldname_custom_field" = "Строкове поле";
 
 /* TOTP */
 "generic_fieldname_totp" = "TOTP";
@@ -2239,19 +2239,19 @@
 "mac_master_credentials_changed_and_saved" = "Мастер-ключ изменён и БД сохранена";
 
 /* KeePass does not natively support the 'Email' field. Strongbox will add it instead as a custom field.\nDo you want to continue? */
-"mac_drag_drop_between_databases_keepass_email_field_not_supported" = "KeePass не поддерживает поле «Email» по умолчанию. Strongbox добавит его как настраиваемое поле. Хотите продолжить?";
+"mac_drag_drop_between_databases_keepass_email_field_not_supported" = "KeePass не поддерживает поле «Email» по умолчанию. Strongbox добавит его как строковое поле. Хотите продолжить?";
 
 /* KeePass 1 does not support entries at the root level, these will be discarded. KeePass 1 also does not natively support the 'Email' field. Strongbox will append it instead to the end of the 'Notes' field.\nDo you want to continue? */
-"mac_keepass1_does_not_support_root_entries" = "KeePass 1 не поддерживает записи на корневом уровне, они будут удалены. Также не поддерживается поле «Email». Strongbox добавит его вместо этого в конце поля «Заметки».\nХотите продолжить?";
+"mac_keepass1_does_not_support_root_entries" = "KeePass 1 не поддерживает записи на корневом уровне, поэтому они будут удалены. Также не поддерживается поле «Email». Strongbox добавит его вместо этого в конце поля «Заметки».\nХотите продолжить?";
 
 /* The Password Safe format does not support icons, attachments or custom fields. If you continue, these fields will not be copied to this database.\nDo you want to continue without these fields? */
-"mac_password_safe_fmt_does_not_support_icons_attachments_warning" = "Формат Password Safe не поддерживает значки, вложения или настраиваемые поля. Если Вы продолжите, то поля не будут скопированы в БД.\nХотите продолжить без этих полей?";
+"mac_password_safe_fmt_does_not_support_icons_attachments_warning" = "Формат Password Safe не поддерживает значки, вложения или пользовательские поля. Если Вы продолжите, то поля не будут скопированы в БД.\nХотите продолжить без этих полей?";
 
 /* The KeePass 1 (KDB) does not support entries at the root level, these will be discarded.\n\nThe KeePass 1 (KDB) format also does not support multiple attachments, custom fields or custom icons. If you continue only the first attachment from each item will be copied to this database. Custom Fields and Icons will be discarded.\nDo you want to continue? */
-"mac_keepass1_does_not_support_root_entries_or_attachments" = "Формат KeePass 1 (KDB) не поддерживает записи на корневом уровне, они будут отброшены.\n\nТакже не поддерживаются многочисленные вложения, настраиваемые поля или настраиваемые значки. Если Вы продолжите, только первое вложение из каждого элемента будет скопировано в БД. Настраиваемые поля и значки будут отброшены.\nХотите продолжить?";
+"mac_keepass1_does_not_support_root_entries_or_attachments" = "Формат KeePass 1 (KDB) не поддерживает записи на корневом уровне, они будут отброшены.\n\nТакже не поддерживаются множественные вложения, пользовательские поля или настраиваемые значки. Если Вы продолжите, только первое вложение из каждого элемента будет скопировано в БД. Хотите продолжить?";
 
 /* The Password Safe format does not support attachments or icons. If you continue, these fields will not be copied to this database.\nDo you want to continue without these fields? */
-"mac_password_safe_does_not_support_attachments_icons_continue_yes_no" = "Формат Password Safe не поддерживает вложения или значки. Если Вы продолжите, то поля не будут скопированы в БД. Хотите продолжить без этих полей?";
+"mac_password_safe_does_not_support_attachments_icons_continue_yes_no" = "Формат Password Safe не поддерживает вложения или значки. Если Вы продолжите, то эти поля не будут скопированы в БД. Хотите продолжить без этих полей?";
 
 /* You cannot create a new item here. It must be within an existing folder. */
 "mac_alert_cannot_create_item_here" = "Вы не можете создать здесь новый элемент. Он должен находиться в существующей папке.";
@@ -2409,7 +2409,7 @@
 "mac_undo_action_add_attachment" = "Добавить вложение";
 
 /* Set Custom Field */
-"mac_undo_action_set_custom_field" = "Установить настраиваемое поле";
+"mac_undo_action_set_custom_field" = "Установить строковое поле";
 
 /* Add Custom Field */
 "mac_undo_action_add_custom_field" = "Добавить поле";
@@ -2562,7 +2562,7 @@
 "mac_node_details_historical_item_suffix_fmt" = "%@ (в истории элемента)";
 
 /* Edit Custom Field */
-"mac_node_details_edit_custom_field" = "Настройки поля";
+"mac_node_details_edit_custom_field" = "Строковое поле";
 
 /* Are you sure you want to remove the custom field '%@'? */
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "Вы действительно хотите удалить поле '%@'?";
@@ -2574,7 +2574,7 @@
 "mac_node_details_add_custom_field" = "Добавить поле";
 
 /* You cannot use that Key here as it already exists in custom fields. */
-"mac_node_details_you_cannot_use_that_key_already_exists" = "Вы не можете использовать этот ключ здесь, так как он уже существует в настраиваемых полях.";
+"mac_node_details_you_cannot_use_that_key_already_exists" = "Вы не можете использовать этот ключ здесь, так как он уже существует в пользовательских полях.";
 
 /* You cannot use that Key here as it is reserved for standard KeePass fields. */
 "mac_node_details_you_cannot_use_key_reserved" = "Вы не можете использовать этот ключ здесь, так как он зарезервирован для стандартных полей KeePass.";
@@ -3686,7 +3686,7 @@
 "diff_drill_down_custom_data_is_only_in_first" = "Пользовательские данные только в первой.";
 
 /* Custom Data item will be added. */
-"diff_drill_down_custom_data_will_be_added_fmt" = "Будет добавлен пользовательский элемент данных.";
+"diff_drill_down_custom_data_will_be_added_fmt" = "Будут добавлены пользовательские данные.";
 
 /* Custom Data is only in second. */
 "diff_drill_down_custom_data_is_only_in_second" = "Пользовательские данные только во второй.";
@@ -3797,10 +3797,10 @@
 "diff_drill_down_tags_are_different" = "Отличия: Теги";
 
 /* Custom Fields will change. */
-"diff_drill_down_custom_fields_will_change" = "Изменения: Пользовательские поля";
+"diff_drill_down_custom_fields_will_change" = "Изменения: Строковые поля";
 
 /* Custom Fields are different. */
-"diff_drill_down_custom_fields_are_different" = "Отличия: Пользовательские поля";
+"diff_drill_down_custom_fields_are_different" = "Отличия: Строковые поля";
 
 /* Item will be moved. */
 "diff_drill_down_location_will_change" = "Элемент будет перемещён.";
@@ -4653,3 +4653,45 @@
 
 /* ⚠️ Selected Key (Disconnected) - L10n Guide: The user previously selected a hardware key from the dropdown, but it has now been disconnected. */
 "mac_hardware_key_selected_but_has_been_disconnected" = "⚠️ Выбран (Не найден)";
+
+/* AutoFill Issue */
+"autofill_argon2_onboarding_issue_title" = "Возможен сбой автозаполнения";
+
+/* Your database has a very high Argon2 memory setting that will cause it to crash when used in AutoFill mode.\n\nWould you like Strongbox to automatically adjust this so that you can safely use AutoFill? */
+"autofill_argon2_onboarding_issue_message" = "Слишком большое значение для памяти Argon2, что может быть причиной сбоя функции автозаполнения.\n\nХотите автоматически скорректировать параметры?";
+
+/* Yes, Great Idea! */
+"generic_yes_great_idea_bang" = "Да";
+
+/* No, I don't use AutoFill */
+"autofill_argon2_onboarding_no_use_autofill" = "Нет";
+
+/* Dont't Ask Again */
+"generic_dont_ask_again" = "Don't Ask Again";
+
+/* Not Right Now */
+"generic_not_right_now" = "Позже";
+
+/* Database Upgrade */
+"kdbx4_upgrade_onboarding_issue_title" = "Обновление формата БД";
+
+/* Your database is using an old format (KDBX 3.1). The new format (KDBX 4.x) offers security improvements, performance enhancements and should also reduce the size of your database.\n\nWould you like Strongbox to automatically upgrade your database now? */
+"kdbx4_upgrade_onboarding_issue_message" = "БД использует формат KDBX 3.1. Формат KDBX 4.x предлагает улучшения безопасности и производительности, а также уменьшает размер БД.\n\nХотите обновить формат сейчас?";
+
+/* Import 1Password */
+"safes_vc_import_1password" = "Import 1Password";
+
+/* Import CSV */
+"safes_vc_import_csv" = "Import CSV";
+
+/* Strongbox can import 1Pif files from 1Password. Tap OK to select your exported 1Pif file. */
+"safes_vc_import_1password_message" = "Strongbox can import 1Pif files from 1Password. Tap OK to select your exported 1Pif file.";
+
+/* Read Only Unavailable */
+"read_only_unavailable_title" = "Read Only Unavailable";
+
+/* You currently have changes pending and so you cannot switch to Read Only mode. You must save or discard your current changes first. */
+"read_only_unavailable_pending_changes_message" = "You currently have changes pending and so you cannot switch to Read Only mode. You must save or discard your current changes first.";
+
+/* Your database is in Read Only mode and cannot be updated. */
+"warn_database_is_ro_no_update" = "Your database is in Read Only mode and cannot be updated.";

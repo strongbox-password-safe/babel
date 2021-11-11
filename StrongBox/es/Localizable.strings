@@ -2742,7 +2742,7 @@
 "mac_convenience_expiry_period_never" = "Nunca";
 
 /* App Exit (Memory Only) */
-"mac_convenience_expiry_period_on_app_exit" = "App Exit (Memory Only)";
+"mac_convenience_expiry_period_on_app_exit" = "Salir de la aplicación (Sólo memoria)";
 
 /* Unlock with Touch ID or Watch */
 "mac_unlock_screen_button_title_convenience_unlock" = "Desbloquear con Touch ID o Watch";
@@ -4653,3 +4653,45 @@
 
 /* ⚠️ Selected Key (Disconnected) - L10n Guide: The user previously selected a hardware key from the dropdown, but it has now been disconnected. */
 "mac_hardware_key_selected_but_has_been_disconnected" = "⚠️ Llave seleccionada (Desconectada)";
+
+/* AutoFill Issue */
+"autofill_argon2_onboarding_issue_title" = "Problema de autorrelleno";
+
+/* Your database has a very high Argon2 memory setting that will cause it to crash when used in AutoFill mode.\n\nWould you like Strongbox to automatically adjust this so that you can safely use AutoFill? */
+"autofill_argon2_onboarding_issue_message" = "Su base de datos tiene un ajuste de memoria Argon2 muy alto que hará que se bloquee cuando se use en modo Autorelleno.\n\n¿Le gustaría que Strongbox ajuste esto automáticamente para que puedas usar Autorelleno de forma segura?";
+
+/* Yes, Great Idea! */
+"generic_yes_great_idea_bang" = "Sí, ¡Gran Idea!";
+
+/* No, I don't use AutoFill */
+"autofill_argon2_onboarding_no_use_autofill" = "No, no utilizo Autorelleno";
+
+/* Dont't Ask Again */
+"generic_dont_ask_again" = "Don't Ask Again";
+
+/* Not Right Now */
+"generic_not_right_now" = "No en este momento";
+
+/* Database Upgrade */
+"kdbx4_upgrade_onboarding_issue_title" = "Actualización de la base de datos";
+
+/* Your database is using an old format (KDBX 3.1). The new format (KDBX 4.x) offers security improvements, performance enhancements and should also reduce the size of your database.\n\nWould you like Strongbox to automatically upgrade your database now? */
+"kdbx4_upgrade_onboarding_issue_message" = "Su base de datos está usando un formato antiguo (KDBX 3.1). El nuevo formato (KDBX 4.) ofrece mejoras de seguridad, mejoras de rendimiento y también debería reducir el tamaño de su base de datos.\n\n¿Quieres que Strongbox actualice tu base de datos automáticamente ahora?";
+
+/* Import 1Password */
+"safes_vc_import_1password" = "Import 1Password";
+
+/* Import CSV */
+"safes_vc_import_csv" = "Import CSV";
+
+/* Strongbox can import 1Pif files from 1Password. Tap OK to select your exported 1Pif file. */
+"safes_vc_import_1password_message" = "Strongbox can import 1Pif files from 1Password. Tap OK to select your exported 1Pif file.";
+
+/* Read Only Unavailable */
+"read_only_unavailable_title" = "Read Only Unavailable";
+
+/* You currently have changes pending and so you cannot switch to Read Only mode. You must save or discard your current changes first. */
+"read_only_unavailable_pending_changes_message" = "You currently have changes pending and so you cannot switch to Read Only mode. You must save or discard your current changes first.";
+
+/* Your database is in Read Only mode and cannot be updated. */
+"warn_database_is_ro_no_update" = "Your database is in Read Only mode and cannot be updated.";
