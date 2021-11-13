@@ -264,13 +264,13 @@
 "alerts_not_empty" = "Не пустой!";
 
 /* Double Tap Action */
-"browse_prefs_double_tap_action" = "Двойное нажатие";
+"browse_prefs_double_tap_action" = "Двойное касание";
 
 /* Item Subtitle */
 "browse_prefs_item_subtitle" = "Подзаголовок";
 
 /* Long Press Action */
-"browse_prefs_long_press_action" = "Длительное нажатие";
+"browse_prefs_long_press_action" = "Долгое нажатие";
 
 /* Single Tap Action */
 "browse_prefs_single_tap_action" = "Касание записи";
@@ -306,7 +306,7 @@
 "browse_prefs_tap_action_view_item" = "Просмотр";
 
 /* Triple Tap Action */
-"browse_prefs_triple_tap_action" = "Тройное нажатие";
+"browse_prefs_triple_tap_action" = "Тройное касание";
 
 /* View As */
 "browse_prefs_view_as" = "Просмотр";
@@ -399,7 +399,7 @@
 "browse_vc_sort_by_title_message" = "Вы хотите отсортировать все записи в группе по названию? Это позволит использовать порядок, в котором они хранятся в БД.";
 
 /* You can long press, or double/triple tap to quickly copy fields... Give it a try! */
-"browse_vc_tip_fast_tap_message" = "Можно использовать длительное, двойное или тройное нажатие, чтобы быстро копировать поля";
+"browse_vc_tip_fast_tap_message" = "Долгое нажатие, а также двойное или тройное касание, чтобы быстро копировать поля.";
 
 /* Fast Tap Actions */
 "browse_vc_tip_fast_tap_title" = "Действия быстрого нажатия";
@@ -1707,7 +1707,7 @@
 "safes_vc_tip" = "Смахните влево по БД для опций";
 
 /* Tip: Tap to Copy or Long Tap for Large View */
-"item_details_tip" = "Коснитесь, чтобы копировать или длительное для просмотра";
+"item_details_tip" = "Коснитесь, чтобы копировать или долгое нажатие для просмотра";
 
 /* Tip: Slide Left for Options or Tap to View */
 "keepass_history_tip" = "Смахните влево для опций или коснитесь для просмотра";
@@ -3404,7 +3404,7 @@
 "safes_vc_unlock_manual_action" = "Разблокировать вручную";
 
 /* TIP: Tap and hold item to see options - Translators Note: Hint or Tip text usually displayed at the top of the screen, to indicate the user can or should tap and hold down to see a useful context menu with options they can perform on the items they are currently working with. */
-"hint_tap_and_hold_to_see_options" = "Нажмите и удерживайте для опций";
+"hint_tap_and_hold_to_see_options" = "Долгое нажатие для опций";
 
 /* Launch URL & Copy */
 "browse_action_launch_url_copy_password" = "Копировать пароль и запуск URL";
@@ -4562,7 +4562,7 @@
 "are_you_sure_change_encryption_settings" = "Хотите изменить настройки шифрования БД?";
 
 /* No significant changes. Tap Done to Continue. */
-"merge_result_databases_identical_sync_initiated" = "Слияние завершено. Нажмите «Готово», чтобы продолжить.";
+"merge_result_databases_identical_sync_initiated" = "Объединение завершено. Нажмите «Готово», чтобы продолжить.";
 
 /* Expired Entries (%@)  - L10n note - 1st paramter is the number of entries, e.g. Expired Entries (2) */
 "quick_view_title_expired_entries_title_fmt" = "С истёкшим сроком (%@)";
@@ -4667,7 +4667,7 @@
 "autofill_argon2_onboarding_no_use_autofill" = "Нет";
 
 /* Dont't Ask Again */
-"generic_dont_ask_again" = "Don't Ask Again";
+"generic_dont_ask_again" = "Больше не спрашивать";
 
 /* Not Right Now */
 "generic_not_right_now" = "Позже";
@@ -4679,19 +4679,22 @@
 "kdbx4_upgrade_onboarding_issue_message" = "БД использует формат KDBX 3.1. Формат KDBX 4.x предлагает улучшения безопасности и производительности, а также уменьшает размер БД.\n\nХотите обновить формат сейчас?";
 
 /* Import 1Password */
-"safes_vc_import_1password" = "Import 1Password";
+"safes_vc_import_1password" = "Импорт 1Password";
 
 /* Import CSV */
-"safes_vc_import_csv" = "Import CSV";
+"safes_vc_import_csv" = "Импорт CSV";
 
 /* Strongbox can import 1Pif files from 1Password. Tap OK to select your exported 1Pif file. */
-"safes_vc_import_1password_message" = "Strongbox can import 1Pif files from 1Password. Tap OK to select your exported 1Pif file.";
+"safes_vc_import_1password_message" = "Приложение может импортировать файлы 1Password. Нажмите OK для выбора файла формата 1PIF.";
 
 /* Read Only Unavailable */
-"read_only_unavailable_title" = "Read Only Unavailable";
+"read_only_unavailable_title" = "Режим для чтения недоступен";
 
 /* You currently have changes pending and so you cannot switch to Read Only mode. You must save or discard your current changes first. */
-"read_only_unavailable_pending_changes_message" = "You currently have changes pending and so you cannot switch to Read Only mode. You must save or discard your current changes first.";
+"read_only_unavailable_pending_changes_message" = "Режим для чтения недоступен, т.к. внесены изменения в БД. Необходимо их сохранить или отменить.";
 
 /* Your database is in Read Only mode and cannot be updated. */
-"warn_database_is_ro_no_update" = "Your database is in Read Only mode and cannot be updated.";
+"warn_database_is_ro_no_update" = "БД в режиме для чтения и не может быть обновлена.";
+
+/* Quitting - Finishing Sync... */
+"macos_quitting_finishing_sync" = "Выход - Завершение синхронизации ...";
