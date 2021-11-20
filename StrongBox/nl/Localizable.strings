@@ -3241,8 +3241,8 @@
 /* %@ Unlock (Translators Note: 1st param is 'Touch ID' or 'Face ID' - Used on the Upgrade, Freemium Onboarding/Welcome screen and the Free vs Pro Chart screen) */
 "generic_biometric_unlock_fmt" = "%@ Ontgrendelen";
 
-/* By Default Strongbox now includes all your local documents and databases in Apple backups, however imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok? */
-"backup_settings_prompt_message" = "Standaard bevat Strongbox alle lokale documenten en databases in Apple-backups, maar geïmporteerde sleutelbestanden worden NIET opgenomen om veiligheidsredenen. U kunt deze instellingen altijd wijzigen in Appvoorkeuren.\n\nIs dit goed?";
+/* By Default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok? */
+"backup_settings_prompt_message" = "By Default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok?";
 
 /* Backup Settings */
 "backup_settings_prompt_title" = "Backup-instellingen";
@@ -3251,10 +3251,10 @@
 "backup_settings_prompt_option_yes_looks_good" = "Ja, klinkt goed";
 
 /* Yes, but also backup Key Files */
-"backup_settings_prompt_yes_but_include_key_files" = "Ja, maar ook backup-sleutelbestanden";
+"backup_settings_prompt_yes_but_include_key_files" = "Yes, but also backup Key Files";
 
 /* No, do NOT backup anything */
-"backup_settings_prompt_no_dont_backup_anything" = "Nee, geen reservekopie maken";
+"backup_settings_prompt_no_dont_backup_anything" = "No, do not include anything";
 
 /* View Sync Status */
 "safes_vc_action_view_sync_status" = "Synchronisatielogboek bekijken";
@@ -4698,3 +4698,9 @@
 
 /* Quitting - Finishing Sync... */
 "macos_quitting_finishing_sync" = "Quitting - Finishing Sync...";
+
+/* More */
+"safesvc_more_submenu" = "More";
+
+/* Please Enter a New Word Separator */
+"mac_password_gen_enter_new_separator" = "Please Enter a New Word Separator";
