@@ -609,7 +609,7 @@
 "item_details_setup_totp" = "Imposta TOTP...";
 
 /* Could not set TOTP because the format is unsupported. */
-"item_details_setup_totp_failed_message" = "Could not set TOTP because the format is unsupported.";
+"item_details_setup_totp_failed_message" = "Impossibile impostare TOTP perché il formato non è supportato.";
 
 /* Failed to Set TOTP */
 "item_details_setup_totp_failed_title" = "Fallita Impostazione TOTP";
@@ -1707,7 +1707,7 @@
 "safes_vc_tip" = "Suggerimento: Scorrere a sinistra sul database per le opzioni";
 
 /* Tip: Tap to Copy or Long Tap for Large View */
-"item_details_tip" = "Tip: Tap to Copy or Long Tap for Large View";
+"item_details_tip" = "Suggerimento: Toccare per copiare, o Toccare a Lungo per visualizzare a grandi dimensioni";
 
 /* Tip: Slide Left for Options or Tap to View */
 "keepass_history_tip" = "Suggerimento: Scorrere a Sinistra per le Opzioni o Toccare per Visualizzare";
@@ -1788,7 +1788,7 @@
 "node_serialization_error_duplicate_group_title_fmt" = "Impossibile copiare questi elementi perché contengono due gruppi con lo stesso titolo '%@' che è non supportato da questo formato di database.";
 
 /* Memory */
-"database_metadata_field_argon2_memory" = "Memory";
+"database_metadata_field_argon2_memory" = "Memoria";
 
 /* Are you sure you want to Remove this backup? */
 "backup_vc_are_you_sure_remove" = "Si è sicuri di volere Rimuovere questo backup?";
@@ -1821,7 +1821,7 @@
 "open_sequence_error_reading_key_file_autofill_context" = "Impossibile leggere File Chiave. È stato importato correttamente? Verificare Gestione File Chiave nelle Impostazioni";
 
 /* Transfer over Wi-Fi (or LAN) */
-"sspc_local_network_storage_location" = "Transfer over Wi-Fi (or LAN)";
+"sspc_local_network_storage_location" = "Trasferimento tramite Wi-Fi (o LAN)";
 
 /* A storage provider is in the process of reading. This is the status displayed on the progress dialog. In english:  Reading... */
 "storage_provider_status_reading" = "Lettura...";
@@ -2802,7 +2802,7 @@
 "generic_none" = "Nessuno";
 
 /* Hardware Key (Pro Only) */
-"mac_lock_screen_yubikey_popup_menu_yubico_pro_only" = "Hardware Key (Pro Only)";
+"mac_lock_screen_yubikey_popup_menu_yubico_pro_only" = "Chiave Hardware (Solo Pro)";
 
 "casg_yubikey_configured_mfi" = "Lightning";
 
@@ -3188,7 +3188,7 @@
 "audit_drill_down_no_excluded_items_title" = "Nessun Elemento Escluso";
 
 /* You have not explicitly excluded any items from the audit. You can exclude an item by long tapping on it > Audit > Audit this Item > Toggle Off. */
-"audit_drill_down_no_excluded_items_subtitle" = "You have not explicitly excluded any items from the audit. You can exclude an item by long tapping on it > Audit > Audit this Item > Toggle Off.";
+"audit_drill_down_no_excluded_items_subtitle" = "Non si è esplicitamente escluso alcun elemento dalla revisione. Si può escludere un elemento scorrendolo verso destra e toccando il pulsante Revisione.";
 
 /* Unexclude */
 "audit_excluded_items_vc_action_unclude" = "Rimuovi dalle esclusioni";
@@ -4550,25 +4550,25 @@
 "keepass_kdbx4x_format" = "KeePass 2 (KDBX 4.x)";
 
 /* Memory */
-"generic_memory" = "Memory";
+"generic_memory" = "Memoria";
 
 /* Parallelism */
-"generic_parallelism" = "Parallelism";
+"generic_parallelism" = "Parallelismo";
 
 /* Algorithm */
 "generic_algorithm" = "Algoritmo";
 
 /* Compression */
-"generic_compression" = "Compression";
+"generic_compression" = "Compressione";
 
 /* Are you sure you want to change your database encryption settings? */
 "are_you_sure_change_encryption_settings" = "Are you sure you want to change your database encryption settings?";
 
 /* No significant changes. Tap Done to Continue. */
-"merge_result_databases_identical_sync_initiated" = "Merge OK. Tap Done to continue.";
+"merge_result_databases_identical_sync_initiated" = "Unione OK. Toccare Fatto per continuare.";
 
 /* Expired Entries (%@)  - L10n note - 1st paramter is the number of entries, e.g. Expired Entries (2) */
-"quick_view_title_expired_entries_title_fmt" = "Expired Entries (%@)";
+"quick_view_title_expired_entries_title_fmt" = "Elementi (%@) Scaduti";
 
 /* View all expired entries */
 "quick_view_title_expired_entries_subtitle" = "View all expired entries";
@@ -4586,10 +4586,10 @@
 "safes_vc_quick_start" = "Get Started Wizard";
 
 /* New (Advanced) */
-"safes_vc_new_advanced" = "New Database";
+"safes_vc_new_advanced" = "Nuovo Database";
 
 /* Add Existing */
-"safes_vc_add_existing" = "Add Existing";
+"safes_vc_add_existing" = "Aggiungere Esistente";
 
 "safesvc_inner_stream_error_title" = "Inner Stream Decryption Error";
 
@@ -4597,19 +4597,19 @@
 "safesvc_inner_stream_error_message" = "Strongbox has had a problem decrypting some protected fields in this database. \n\nThe database will now open in Read-Only mode to prevent further corruption.\n\nWe recommend restoring from an older backup or upgrading to KDBX4 which does not suffer from this issue.";
 
 /* Choose file to Import */
-"mac_choose_file_import" = "Choose file to Import";
+"mac_choose_file_import" = "Scegliere il file da Importare";
 
 /* 🔴 Import Failed */
-"import_failed_title" = "🔴 Import Failed";
+"import_failed_title" = "🔴 Importazione Fallita";
 
 /* Strongbox could not import this file. Please check it is in the correct format. */
-"import_failed_message" = "Strongbox could not import this file. Please check it is in the correct format.";
+"import_failed_message" = "Strongbox non ha potuto importare questo file. Si prega di controllare che sia nel formato corretto.";
 
 /* ✅ Import Successful */
-"import_successful_title" = "✅ Import Successful";
+"import_successful_title" = "✅ importazione Riuscita";
 
 /* Your import was successful! Now, let's set a strong master password and save your new Strongbox database. */
-"import_successful_message" = "Your import was successful! Now, let's set a strong master password and save your new Strongbox database.";
+"import_successful_message" = "L'importazione ha avuto successo! Ora impostiamo una Password Master forte e salviamo il nuovo database Strongbox.";
 
 /* Are you sure you want to clear the TOTP for this entry? */
 "are_you_sure_clear_totp" = "Are you sure you want to clear the TOTP for this entry?";
