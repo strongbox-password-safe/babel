@@ -4,17 +4,20 @@
 /* Class = "NSTextFieldCell"; title = "AutoFill can communicate securely through a \"wormhole\" if your database is already unlocked on your Desktop. This is usually faster because you do not need to unlock and decrypt your database and you can use Touch ID to immediately fill.\n\nNB: The Secure Enclave/Keychain along with a dedicated Inter Process Communication channel are used to manage this securely. Note also, the AutoFill subsystem may require you to authenticate on each fill."; ObjectID = "0OR-gR-hhu"; */
 "0OR-gR-hhu.title" = "O Preenchimento Automático pode se comunicar de maneira segura através de um \"túnel\" se sua base de dados já estiver desbloqueada em seu computador. Isso normalmente é mais rápido porque você não precisa desbloquear e descriptografar sua base de dados e você pode usar o Touch ID para preencher seus dados.\n\nAtenção: O chip Secure Enclave/Chaves e um canal dedicado de Comunicação Interprocesso são utilizados para tornar isso possível de maneira segura. Note também que o subsistema de Preenchimento Automático pode solicitar que você se autentique a cada preenchimento.";
 
+/* Class = "NSTextFieldCell"; title = "Instructions"; ObjectID = "1Hb-Cd-56f"; */
+"1Hb-Cd-56f.title" = "Instructions";
+
 /* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "1bf-WF-BHP"; */
 "1bf-WF-BHP.title" = "Item 1";
 
-/* Class = "NSTextFieldCell"; title = "‣ System Preferences ‣ Extensions ‣ Password AutoFill ‣ Check 'Strongbox'"; ObjectID = "4Gp-NS-hQd"; */
-"4Gp-NS-hQd.title" = "‣ Preferências do Sistema ‣ Extensões ‣ Preenchimento Automático de Senhas ‣ Marque 'Strongbox'";
+/* Class = "NSButtonCell"; title = "Close"; ObjectID = "2ut-1X-del"; */
+"2ut-1X-del.title" = "Fechar";
+
+/* Class = "NSTextFieldCell"; title = "QuickType"; ObjectID = "4C7-9m-7Hx"; */
+"4C7-9m-7Hx.title" = "QuickType";
 
 /* Class = "NSButtonCell"; title = "KeePass: Show 'Recycle Bin' or 'Backup' in Search"; ObjectID = "4ba-5D-36o"; */
 "4ba-5D-36o.title" = "KeePass: Exibir 'Lixeira' ou 'Backup' na Busca";
-
-/* Class = "NSTextFieldCell"; title = "NB: AutoFill is a Pro feature only"; ObjectID = "5X1-Nu-NER"; */
-"5X1-Nu-NER.title" = "Atenção: Preenchimento Automático é uma funcionalidade disponível apenas na versão Pro";
 
 /* Class = "NSButtonCell"; title = "Use 'Wormhole' Fill if Unlocked"; ObjectID = "7An-Xb-fFy"; */
 "7An-Xb-fFy.title" = "Usar Preenchimento \"Túnel\" se Desbloqueado";
@@ -22,14 +25,17 @@
 /* Class = "NSTextFieldCell"; title = "Strongbox integrates with AutoFill on your Mac to allow you to enter usernames & passwords seamlessly in other apps like Safari."; ObjectID = "8JO-FF-e8i"; */
 "8JO-FF-e8i.title" = "O Strongbox se integra ao Preenchimento Automático do seu Mac para permitir que você insira nomes de usuário & senhas rapidamente em outros apps como o Safari.";
 
+/* Class = "NSButtonCell"; title = "Close"; ObjectID = "BsX-06-LEw"; */
+"BsX-06-LEw.title" = "Fechar";
+
 /* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "DY1-yw-9hG"; */
 "DY1-yw-9hG.title" = "Item 3";
 
 /* Class = "NSButtonCell"; title = "Watch Unlock"; ObjectID = "DpV-9C-Moa"; */
 "DpV-9C-Moa.title" = "Desbloqueio com Watch";
 
-/* Class = "NSButtonCell"; title = "Include Alternative URLs"; ObjectID = "E6v-yV-Fek"; */
-"E6v-yV-Fek.title" = "Include Alternative URLs";
+/* Class = "NSButtonCell"; title = "Suggest for Alternative URLs"; ObjectID = "E6v-yV-Fek"; */
+"E6v-yV-Fek.title" = "Suggest for Alternative URLs";
 
 /* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "FQo-aS-7Mz"; */
 "FQo-aS-7Mz.title" = "Item 2";
@@ -37,11 +43,17 @@
 /* Class = "NSButtonCell"; title = "KeePass: Show 'Recycle Bin' or 'Backup' group"; ObjectID = "G8y-rl-xQb"; */
 "G8y-rl-xQb.title" = "KeePass: Exibir grupo 'Lixeira' ou 'Backup'";
 
-/* Class = "NSButtonCell"; title = "Enable AutoFill System Extension"; ObjectID = "HRB-yF-KyO"; */
-"HRB-yF-KyO.title" = "Ativar Extensão do Sistema de Preenchimento Automático";
+/* Class = "NSTabViewItem"; label = "AutoFill"; ObjectID = "Hcz-Wk-4TC"; */
+"Hcz-Wk-4TC.label" = "Preenchimento Automático";
 
 /* Class = "NSViewController"; title = "Convenience Unlock"; ObjectID = "IEg-2b-tZr"; */
 "IEg-2b-tZr.title" = "Desbloqueio Conveniente";
+
+/* Class = "NSTextFieldCell"; title = "NB: AutoFill is a Pro feature only"; ObjectID = "IVl-XB-z6S"; */
+"IVl-XB-z6S.title" = "Atenção: Preenchimento Automático é uma funcionalidade disponível apenas na versão Pro";
+
+/* Class = "NSTabViewItem"; label = "Touch ID & Watch"; ObjectID = "Jfb-Ir-IqY"; */
+"Jfb-Ir-IqY.label" = "Touch ID & Watch";
 
 /* Class = "NSButtonCell"; title = "Lock Database on Screen Lock"; ObjectID = "K77-Xk-HrK"; */
 "K77-Xk-HrK.title" = "Bloquear Base de Dados ao Bloquear Tela";
@@ -49,20 +61,23 @@
 /* Class = "NSTextFieldCell"; title = "QuickType Display Format"; ObjectID = "KRS-Ui-AmX"; */
 "KRS-Ui-AmX.title" = "Formato de Exibição do QuickType";
 
+/* Class = "NSTextFieldCell"; title = "1. Click below to open the 'Extensions' Preferences "; ObjectID = "LxF-oY-xSs"; */
+"LxF-oY-xSs.title" = "1. Click below to open the 'Extensions' Preferences ";
+
+/* Class = "NSTextFieldCell"; title = "3. Check 'Strongbox'"; ObjectID = "M2V-CV-kXy"; */
+"M2V-CV-kXy.title" = "3. Check 'Strongbox'";
+
 /* Class = "NSButtonCell"; title = "Suggest Concealable Fields"; ObjectID = "MEL-zz-I5C"; */
 "MEL-zz-I5C.title" = "Suggest Concealable Fields";
-
-/* Class = "NSTextFieldCell"; title = "Global AutoFill Settings"; ObjectID = "NLv-rb-D8e"; */
-"NLv-rb-D8e.title" = "Configurações Globais do Preenchimento Automático";
 
 /* Class = "NSTextFieldCell"; title = "You can customize the format of the suggestions to make them shorter or more detailed."; ObjectID = "OXT-aK-G41"; */
 "OXT-aK-G41.title" = "Você pode personalizar o formato das sugestões para torná-las mais curtas ou mais detalhadas.";
 
+/* Class = "NSTextFieldCell"; title = "⚠️ Password AutoFill is not enabled for Strongbox"; ObjectID = "OxJ-6C-xgW"; */
+"OxJ-6C-xgW.title" = "⚠️ Password AutoFill is not enabled for Strongbox";
+
 /* Class = "NSTextFieldCell"; title = "About the AutoFill Wormhole"; ObjectID = "Q6z-Dr-8L2"; */
 "Q6z-Dr-8L2.title" = "About the AutoFill Wormhole";
-
-/* Class = "NSButtonCell"; title = "Auto Launch Single Database"; ObjectID = "TMl-6f-BSx"; */
-"TMl-6f-BSx.title" = "Abrir Base de Dados Única";
 
 /* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "Tn1-Gi-PQX"; */
 "Tn1-Gi-PQX.title" = "Item 1";
@@ -70,14 +85,14 @@
 /* Class = "NSButtonCell"; title = "Use Auto Complete on Fields"; ObjectID = "UyC-nC-fp8"; */
 "UyC-nC-fp8.title" = "Usar Auto Completar nos Campos";
 
+/* Class = "NSButtonCell"; title = "Close"; ObjectID = "VQM-QS-Sxm"; */
+"VQM-QS-Sxm.title" = "Fechar";
+
 /* Class = "NSButtonCell"; title = "Scan Custom Fields for URLs"; ObjectID = "VTr-xw-gyl"; */
 "VTr-xw-gyl.title" = "Scan Custom Fields for URLs";
 
-/* Class = "NSTextFieldCell"; title = "AutoFill Settings for This Database"; ObjectID = "X3H-qH-mmc"; */
-"X3H-qH-mmc.title" = "Configurações do Preenchimento Automático Desta Base de Dados";
-
-/* Class = "NSButtonCell"; title = "Enable AutoFill for Database"; ObjectID = "Zq0-tv-WZC"; */
-"Zq0-tv-WZC.title" = "Ativar Preenchimento Automático para a Base de dados";
+/* Class = "NSButtonCell"; title = "Enable AutoFill for this Database"; ObjectID = "Zq0-tv-WZC"; */
+"Zq0-tv-WZC.title" = "Enable AutoFill for this Database";
 
 /* Class = "NSTextFieldCell"; title = "QuickType goes further and presents you with suggestions for logins directly as you type."; ObjectID = "aQO-pJ-189"; */
 "aQO-pJ-189.title" = "O recurso QuickType vai além e lhe sugere dados de login enquanto você está digitando.";
@@ -94,11 +109,11 @@
 /* Class = "NSButtonCell"; title = "Enable QuickType"; ObjectID = "c9J-7D-UWE"; */
 "c9J-7D-UWE.title" = "Ativar QuickType";
 
+/* Class = "NSButtonCell"; title = "Open 'Extensions' Preferences"; ObjectID = "ccX-c1-YWi"; */
+"ccX-c1-YWi.title" = "Open 'Extensions' Preferences";
+
 /* Class = "NSButtonCell"; title = "Touch ID Unlock"; ObjectID = "cj4-Gu-u8g"; */
 "cj4-Gu-u8g.title" = "Desbloqueio com Touch ID";
-
-/* Class = "NSTextFieldCell"; title = "If there is only a single eligible database to use in AutoFill then automatically launch it. This can save you a click."; ObjectID = "e6c-gs-mgp"; */
-"e6c-gs-mgp.title" = "Se houver apenas uma base de dados a ser usada no Preenchimento Automático então abri-la automaticamente. Isso vai lhe economizar um clique.";
 
 /* Class = "NSTextFieldCell"; title = "Seconds"; ObjectID = "eDS-aE-E88"; */
 "eDS-aE-E88.title" = "Segundos";
@@ -106,8 +121,8 @@
 /* Class = "NSButtonCell"; title = "Suggest Unconcealable Fields"; ObjectID = "eQM-St-J88"; */
 "eQM-St-J88.title" = "Suggest Unconcealable Fields";
 
-/* Class = "NSButtonCell"; title = "Automatically download FavIcon on URL Change"; ObjectID = "elU-dt-8wH"; */
-"elU-dt-8wH.title" = "Fazer Download Automático de FavIcon ao Alterar URL";
+/* Class = "NSButtonCell"; title = "Automatically Download FavIcon on URL Change"; ObjectID = "elU-dt-8wH"; */
+"elU-dt-8wH.title" = "Automatically Download FavIcon on URL Change";
 
 /* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "f2T-kT-Ieu"; */
 "f2T-kT-Ieu.title" = "Item 2";
@@ -127,20 +142,32 @@
 /* Class = "NSButtonCell"; title = "Scan Notes for URLs"; ObjectID = "k6U-Nz-H3Y"; */
 "k6U-Nz-H3Y.title" = "Scan Notes for URLs";
 
+/* Class = "NSTabViewItem"; label = "Advanced"; ObjectID = "lLl-CP-e3B"; */
+"lLl-CP-e3B.label" = "Avançado";
+
 /* Class = "NSTextFieldCell"; title = "Require Master Password Re-Entry After:"; ObjectID = "lih-Rp-yz1"; */
 "lih-Rp-yz1.title" = "Solicitar a Digitação da Senha Mestra Após:";
 
 /* Class = "NSButtonCell"; title = "Monitor for External Changes Interval"; ObjectID = "mC8-FL-AkX"; */
 "mC8-FL-AkX.title" = "Intervalo de Checagem de Modificação Externa";
 
+/* Class = "NSButtonCell"; title = "Close"; ObjectID = "mxR-6S-TfI"; */
+"mxR-6S-TfI.title" = "Fechar";
+
 /* Class = "NSButtonCell"; title = "KeePass: Do Not Sort - Use Custom Ordering"; ObjectID = "oJe-oM-ag3"; */
 "oJe-oM-ag3.title" = "KeePass: Não Ordenar - Usar Ordenação Personalizada";
+
+/* Class = "NSTextFieldCell"; title = "2. Click on 'Password AutoFill' on the left hand pane"; ObjectID = "r0i-1u-R0h"; */
+"r0i-1u-R0h.title" = "2. Click on 'Password AutoFill' on the left hand pane";
 
 /* Class = "NSButtonCell"; title = "Title is Editable"; ObjectID = "rtb-M4-48e"; */
 "rtb-M4-48e.title" = "O Título é Editável";
 
 /* Class = "NSTextFieldCell"; title = "*Master Password currently securely stored until XYZ (protected by Secure Enclave) and this string can get quite long and does not need to be translated"; ObjectID = "ru3-gY-LUd"; */
 "ru3-gY-LUd.title" = "*Master Password currently securely stored until XYZ (protected by Secure Enclave) and this string can get quite long and does not need to be translated";
+
+/* Class = "NSTabViewItem"; label = "General"; ObjectID = "tei-4O-PIT"; */
+"tei-4O-PIT.label" = "Geral";
 
 /* Class = "NSTextFieldCell"; title = "Convenience Auto Unlock Timeout"; ObjectID = "vrO-KJ-YLG"; */
 "vrO-KJ-YLG.title" = "Tempo de Expiração do Desbloqueio Conveniente";
