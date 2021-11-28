@@ -609,7 +609,7 @@
 "item_details_setup_totp" = "TOTP のセットアップ...";
 
 /* Could not set TOTP because the format is unsupported. */
-"item_details_setup_totp_failed_message" = "Could not set TOTP because the format is unsupported.";
+"item_details_setup_totp_failed_message" = "フォーマットがサポートされていないため、TOTP を設定できませんでした。";
 
 /* Failed to Set TOTP */
 "item_details_setup_totp_failed_title" = "TOTP の設定に失敗しました";
@@ -1389,7 +1389,7 @@
 "key_files_vc_no_key_file" = "キーファイルなし";
 
 /* The stored convenience password or other composite key factors (key file/hardware key) were incorrect for this database. Convenience Unlock has been Disabled. */
-"open_sequence_problem_opening_convenience_incorrect_message" = "The stored convenience password or other composite key factors (key file/hardware key) were incorrect for this database. Convenience Unlock has been Disabled.";
+"open_sequence_problem_opening_convenience_incorrect_message" = "このデータベースに格納されている利便性パスワードまたはその他の複合キー要因（キーファイル/ハードウェアキー）が正しくありません。便利なロック解除が無効になりました。";
 
 /* Incorrect Credentials */
 "open_sequence_problem_opening_incorrect_credentials_title" = "不正な認識情報";
@@ -1707,16 +1707,16 @@
 "safes_vc_tip" = "ヒント: データベースの上で左にスライドするとオプションが表示されます";
 
 /* Tip: Tap to Copy or Long Tap for Large View */
-"item_details_tip" = "Tip: Tap to Copy or Long Tap for Large View";
+"item_details_tip" = "ヒント：タップしてコピーまたはロングタップで大型ビューを表示";
 
 /* Tip: Slide Left for Options or Tap to View */
 "keepass_history_tip" = "ヒント: 左にスライドしてオプションを確認するか、タップして表示します";
 
 /* Favourite */
-"browse_vc_action_pin" = "Favourite";
+"browse_vc_action_pin" = "お気に入り";
 
 /* Un-Favourite */
-"browse_vc_action_unpin" = "Un-Favourite";
+"browse_vc_action_unpin" = "お気に入り解除";
 
 /* Section Header Title for Expired Items */
 "browse_vc_section_title_expired" = "期限切れ";
@@ -1725,7 +1725,7 @@
 "browse_vc_section_title_nearly_expired" = "ほぼ期限切れ";
 
 /* Section Header Title for Favourite Items */
-"browse_vc_section_title_pinned" = "Favourites";
+"browse_vc_section_title_pinned" = "お気に入り";
 
 /* Section Header Title for Recent Items */
 "browse_vc_section_title_recents" = "最近のアイテム";
@@ -1788,7 +1788,7 @@
 "node_serialization_error_duplicate_group_title_fmt" = "これらのアイテムには同じタイトル '%@' を持つグループが 2 つあり、このデータベースフォーマットではそれがサポートされていないため、コピーできませんでした。";
 
 /* Memory */
-"database_metadata_field_argon2_memory" = "Memory";
+"database_metadata_field_argon2_memory" = "メモリ";
 
 /* Are you sure you want to Remove this backup? */
 "backup_vc_are_you_sure_remove" = "このバックアップを削除しますか？";
@@ -1821,7 +1821,7 @@
 "open_sequence_error_reading_key_file_autofill_context" = "キーファイルを読み取れませんでした。適切にインポートされていますか？環境設定よりキーファイル管理を確認してください。";
 
 /* Transfer over Wi-Fi (or LAN) */
-"sspc_local_network_storage_location" = "Transfer over Wi-Fi (or LAN)";
+"sspc_local_network_storage_location" = "Wi-Fi経由で転送（またはLAN）";
 
 /* A storage provider is in the process of reading. This is the status displayed on the progress dialog. In english:  Reading... */
 "storage_provider_status_reading" = "読み取り中...";
@@ -2357,7 +2357,7 @@
 "mac_enter_custom_url_default" = "デフォルトのカスタム URL を入力してください";
 
 /* Please Enter Your Custom Default URL */
-"mac_enter_custom_notes_default" = "Please Enter Your Custom Default Notes";
+"mac_enter_custom_notes_default" = "カスタムのデフォルトのメモを入力してください";
 
 /* Welcome to Strongbox */
 "mac_welcome_to_strongbox_title" = "Strongbox へようこそ";
@@ -2490,7 +2490,7 @@
 "mac_select_key_file" = "キーファイルの選択";
 
 /* You must use at least one of either a password, a key file or a hardware key for your master credentials. */
-"mac_you_must_use_at_least_a_password_or_key_file" = "You must use at least one of either a password, a key file or a hardware key for your master credentials.";
+"mac_you_must_use_at_least_a_password_or_key_file" = "パスワード、キーファイル、またはマスター資格情報のハードウェアキーのいずれかを少なくとも1つ使用する必要があります。";
 
 /* Password cannot be Empty */
 "mac_password_cannot_be_empty" = "パスワードは空にできません";
@@ -2694,7 +2694,7 @@
 "mac_key_file_configured_but_filename_hidden" = "設定済み";
 
 /* %@ (Configured) - (Translators Note: User is using a key file that has previously been set/remembered by Strongbox. First parameter is the filename of the key file. This appears on the unlock screen. */
-"mac_key_file_filename_configured_fmt" = "%@ (Configured)";
+"mac_key_file_filename_configured_fmt" = "%@ (設定済み)";
 
 /* Touch ID/Apple Watch Unlock is not possible at the moment because Touch ID/Apple Watch is not available. */
 "mac_info_biometric_unlock_not_possible_right_now" = "Touch ID / Apple ウォッチは利用できないため、現時点ではそれらを使ったロック解除ができません。";
@@ -2745,7 +2745,7 @@
 "mac_convenience_expiry_period_never" = "期限なし";
 
 /* App Exit (Memory Only) */
-"mac_convenience_expiry_period_on_app_exit" = "App Exit (Memory Only)";
+"mac_convenience_expiry_period_on_app_exit" = "アプリを終了 (Memoryのみ)";
 
 /* Unlock with Touch ID or Watch */
 "mac_unlock_screen_button_title_convenience_unlock" = "Touch ID または Watchでロック解除";
@@ -2775,13 +2775,13 @@
 "open_sequence_cannot_use_yubikey_in_autofill_mode" = "ハードウェアキーによるロック解除は、システムの制約によりオートフィルモードでは対応していません。代わりにバーチャルキーを設定してください。";
 
 /* Hardware Key Unlock is only available in the Pro edition of Strongbox */
-"open_sequence_yubikey_only_available_in_pro" = "Hardware Key Unlock is only available in the Pro edition of Strongbox";
+"open_sequence_yubikey_only_available_in_pro" = "ハードウェアキーのロック解除はPro版のStrongboxでのみ利用可能です";
 
 /* Disabled (Pro Edition Only) */
 "casg_yubikey_configured_disabled_pro_only" = "無効 (プロ版限定)";
 
 /* Hardware Key (Pro Edition Only) */
-"casg_section_header_yubikey_pro_only" = "Hardware Key (Pro Edition Only)";
+"casg_section_header_yubikey_pro_only" = "ハードウェア キー (Pro 版のみ)";
 
 /* Unknown (Translators Note: Used when generally when something can't be determined, e.g. The URL or file name of a database, or the type of storage provider used, or the format of a newly opened database etc.)*/
 "generic_unknown" = "不明";
@@ -2790,7 +2790,7 @@
 "mac_valid_credentials" = "有効な認証情報";
 
 /* Could not get challenge response from hardware key */
-"mac_error_getting_challenge_response_yubikey" = "Could not get challenge response from hardware key";
+"mac_error_getting_challenge_response_yubikey" = "ハードウェアキーからチャレンジ応答を取得できませんでした";
 
 /* Refreshing... (Translators Note: Used whenever running a fairly short operation to indicate somehting is happening, e.g. when polling hardware key status (can take a few seconds)) */
 "generic_refreshing_ellipsis" = "更新中...";
@@ -2802,7 +2802,7 @@
 "generic_none" = "なし";
 
 /* Hardware Key (Pro Only) */
-"mac_lock_screen_yubikey_popup_menu_yubico_pro_only" = "Hardware Key (Pro Only)";
+"mac_lock_screen_yubikey_popup_menu_yubico_pro_only" = "ハードウェア キー (Pro 版のみ)";
 
 "casg_yubikey_configured_mfi" = "ライトニング";
 
@@ -2822,7 +2822,7 @@
 "yubikey_insert_the_key_to_read_the_otp" = "キーを挿入して OTP を読み取る";
 
 /* Communicating with hardware key... */
-"yubikey_communicating_with_key_ellipsis" = "Communicating with hardware key...";
+"yubikey_communicating_with_key_ellipsis" = "ハードウェアキーと通信中...";
 
 /* Icon Set */
 "browse_prefs_icon_set" = "アイコンセット";
@@ -4550,7 +4550,7 @@
 "keepass_kdbx4x_format" = "KeePass 2 (KDBX 4.x)";
 
 /* Memory */
-"generic_memory" = "Memory";
+"generic_memory" = "メモリ";
 
 /* Parallelism */
 "generic_parallelism" = "Parallelism";
@@ -4591,7 +4591,7 @@
 /* Add Existing */
 "safes_vc_add_existing" = "Add Existing";
 
-"safesvc_inner_stream_error_title" = "Inner Stream Decryption Error";
+"safesvc_inner_stream_error_title" = "内部ストリーム復号エラー";
 
 /* Strongbox has had a problem decrypting some protected fields in this database. \n\nThe database will now open in Read-Only mode to prevent further corruption.\n\nWe recommend restoring from an older backup or upgrading to KDBX4 which does not suffer from this issue. */
 "safesvc_inner_stream_error_message" = "Strongbox has had a problem decrypting some protected fields in this database. \n\nThe database will now open in Read-Only mode to prevent further corruption.\n\nWe recommend restoring from an older backup or upgrading to KDBX4 which does not suffer from this issue.";
