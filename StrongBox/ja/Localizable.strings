@@ -3188,7 +3188,7 @@
 "audit_drill_down_no_excluded_items_title" = "除外されたアイテムはありません";
 
 /* You have not explicitly excluded any items from the audit. You can exclude an item by long tapping on it > Audit > Audit this Item > Toggle Off. */
-"audit_drill_down_no_excluded_items_subtitle" = "You have not explicitly excluded any items from the audit. You can exclude an item by long tapping on it > Audit > Audit this Item > Toggle Off.";
+"audit_drill_down_no_excluded_items_subtitle" = "明示的に監査から項目を除外していません。 長いタップでアイテムを除外することができます > Audit > Audit this Item > Toggle Off.";
 
 /* Unexclude */
 "audit_excluded_items_vc_action_unclude" = "除外を解除";
@@ -3245,7 +3245,7 @@
 "generic_biometric_unlock_fmt" = "%@ によるロック解除";
 
 /* By Default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok? */
-"backup_settings_prompt_message" = "By Default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok?";
+"backup_settings_prompt_message" = "Default Strongbox には、このデバイスの Apple バックアップに含まれるすべてのローカル ファイル (データベース バックアップを含む) とローカル デバイス データベースが含まれます。 ただし、インポートされたキーファイルはセキュリティ上の理由から明示的には含まれません。\n\nこれらの設定は、環境設定 > 詳細設定\n\nでいつでも変更できますか？";
 
 /* Backup Settings */
 "backup_settings_prompt_title" = "バックアップの設定";
@@ -3254,10 +3254,10 @@
 "backup_settings_prompt_option_yes_looks_good" = "はい、大丈夫です";
 
 /* Yes, but also backup Key Files */
-"backup_settings_prompt_yes_but_include_key_files" = "Yes, but also backup Key Files";
+"backup_settings_prompt_yes_but_include_key_files" = "はい、キーファイルのバックアップ";
 
 /* No, do NOT backup anything */
-"backup_settings_prompt_no_dont_backup_anything" = "No, do not include anything";
+"backup_settings_prompt_no_dont_backup_anything" = "いいえ、何も含まない";
 
 /* View Sync Status */
 "safes_vc_action_view_sync_status" = "同期ログを表示";
@@ -3959,7 +3959,7 @@
 "database_properties_subtitle_view_sync_log" = "最近の同期に関する詳細をエラーを含めて表示する。";
 
 /* Your Database is configured to use a hardware key, however no key or an incorrect key was found connected. */
-"mac_autofill_no_or_incorrect_yubikey_found" = "Your Database is configured to use a hardware key, however no key or an incorrect key was found connected.";
+"mac_autofill_no_or_incorrect_yubikey_found" = "データベースは YubiKey を使用するように設定されていますが、接続された YubiKey は正しくないものも含めて見つかりませんでした。";
 
 /* Title (Username) */
 "quick_type_format_title_username" = "タイトル (ユーザー名)";
@@ -4284,7 +4284,7 @@
 "item_properties_previous_parent_group" = "前の親グループ";
 
 /* %@ & PIN - L10n Note: The first parameter is automatically be replaced by the appropriate biometric name for the device (i.e. Face ID or Touch ID) - So the string will look like e.g. 'Face ID & PIN' */
-"convenience_unlock_preferences_title_fmt" = "%@ & PIN";
+"convenience_unlock_preferences_title_fmt" = "%@ とPIN";
 
 /* Require After */
 "convenience_unlock_require_after_prefix" = "マスターパスワードの入力を要求するまでの時間";
@@ -4541,7 +4541,7 @@
 "pk_or_password_missing" = "プライベートキーまたはパスワードがありません";
 
 /* Select Destination Group - L10n Note: When a user is moving item(s) to another group in a database, this is the title. */
-"select_destination_group" = "Select Destination Group";
+"select_destination_group" = "移動先を選択";
 
 /* KeePass 2 (KDBX 3.x) ⚠️ */
 "keepass_kdbx3_format_not_recommended" = "KeePass 2 (KDBX 3.x) ⚠️";
@@ -4553,43 +4553,43 @@
 "generic_memory" = "メモリ";
 
 /* Parallelism */
-"generic_parallelism" = "Parallelism";
+"generic_parallelism" = "並列処理";
 
 /* Algorithm */
 "generic_algorithm" = "アルゴリズム";
 
 /* Compression */
-"generic_compression" = "Compression";
+"generic_compression" = "圧縮";
 
 /* Are you sure you want to change your database encryption settings? */
-"are_you_sure_change_encryption_settings" = "Are you sure you want to change your database encryption settings?";
+"are_you_sure_change_encryption_settings" = "本当にデータベースの暗号化設定を変更しますか？";
 
 /* No significant changes. Tap Done to Continue. */
-"merge_result_databases_identical_sync_initiated" = "Merge OK. Tap Done to continue.";
+"merge_result_databases_identical_sync_initiated" = "OKをマージします。完了をタップして続行します。";
 
 /* Expired Entries (%@)  - L10n note - 1st paramter is the number of entries, e.g. Expired Entries (2) */
-"quick_view_title_expired_entries_title_fmt" = "Expired Entries (%@)";
+"quick_view_title_expired_entries_title_fmt" = "期限切れ項目 (%@)";
 
 /* View all expired entries */
-"quick_view_title_expired_entries_subtitle" = "View all expired entries";
+"quick_view_title_expired_entries_subtitle" = "期限切れのエントリをすべて表示";
 
 /* Nearly Expired Entries (%@) - L10n note - 1st paramter is the number of entries, e.g. Nearly Expired Entries (2) */
-"quick_view_title_nearly_expired_entries_title_fmt" = "Nearly Expired Entries (%@)";
+"quick_view_title_nearly_expired_entries_title_fmt" = "ほぼ期限切れの項目 (%@)";
 
 /* View all nearly expired entries */
-"quick_view_title_nearly_expired_entries_subtitle" = "View all nearly expired entries";
+"quick_view_title_nearly_expired_entries_subtitle" = "ほぼ期限切れのエントリをすべて表示";
 
 /* Wi-Fi Transfer */
-"safes_vc_wifi_transfer" = "Wi-Fi Transfer";
+"safes_vc_wifi_transfer" = "Wi-Fi転送";
 
 /* Get Started Wizard */
-"safes_vc_quick_start" = "Get Started Wizard";
+"safes_vc_quick_start" = "始めるウィザード";
 
 /* New (Advanced) */
-"safes_vc_new_advanced" = "New Database";
+"safes_vc_new_advanced" = "新しいデータベース";
 
 /* Add Existing */
-"safes_vc_add_existing" = "Add Existing";
+"safes_vc_add_existing" = "既存を追加";
 
 "safesvc_inner_stream_error_title" = "内部ストリーム復号エラー";
 
@@ -4597,16 +4597,16 @@
 "safesvc_inner_stream_error_message" = "Strongbox has had a problem decrypting some protected fields in this database. \n\nThe database will now open in Read-Only mode to prevent further corruption.\n\nWe recommend restoring from an older backup or upgrading to KDBX4 which does not suffer from this issue.";
 
 /* Choose file to Import */
-"mac_choose_file_import" = "Choose file to Import";
+"mac_choose_file_import" = "インポートするファイルを選択";
 
 /* 🔴 Import Failed */
-"import_failed_title" = "🔴 Import Failed";
+"import_failed_title" = "🔴 インポートに失敗しました";
 
 /* Strongbox could not import this file. Please check it is in the correct format. */
-"import_failed_message" = "Strongbox could not import this file. Please check it is in the correct format.";
+"import_failed_message" = "Strongbox ファイルをインポートできませんでした。正しい形式であるか確認してください。";
 
 /* ✅ Import Successful */
-"import_successful_title" = "✅ Import Successful";
+"import_successful_title" = "インポート成功";
 
 /* Your import was successful! Now, let's set a strong master password and save your new Strongbox database. */
 "import_successful_message" = "Your import was successful! Now, let's set a strong master password and save your new Strongbox database.";
