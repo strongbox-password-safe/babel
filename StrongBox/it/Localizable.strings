@@ -1389,7 +1389,7 @@
 "key_files_vc_no_key_file" = "Nessun File Chiave";
 
 /* The stored convenience password or other composite key factors (key file/hardware key) were incorrect for this database. Convenience Unlock has been Disabled. */
-"open_sequence_problem_opening_convenience_incorrect_message" = "The stored convenience password or other composite key factors (key file/hardware key) were incorrect for this database. Convenience Unlock has been Disabled.";
+"open_sequence_problem_opening_convenience_incorrect_message" = "La password di convenienza memorizzata o altri fattori di chiave compositi (chiave file/chiave hardware) non erano corretti per questo database. Lo Sblocco di Comodità è stato disattivato.";
 
 /* Incorrect Credentials */
 "open_sequence_problem_opening_incorrect_credentials_title" = "Credenziali Errate";
@@ -2200,7 +2200,7 @@
 "favicon_results_are_you_sure_remove_result_message" = "Si è sicuri di voler rimuovere questo risultato di FavIcona?";
 
 /* Invalid FavIcon Preferences */
-"favicon_invalid_preferences_alert_title" = "Preferenze FavIcona Non Valide";
+"favicon_invalid_preferences_alert_title" = "Impostazioni FavIcona Non Valide";
 
 /* This set of preferences will not produce valid FavIcon results. */
 "favicon_invalid_preferences_alert_message" = "Questa serie di impostazioni non produrrà risultati validi per le FavIcone.";
@@ -2490,7 +2490,7 @@
 "mac_select_key_file" = "Seleziona File Chiave";
 
 /* You must use at least one of either a password, a key file or a hardware key for your master credentials. */
-"mac_you_must_use_at_least_a_password_or_key_file" = "You must use at least one of either a password, a key file or a hardware key for your master credentials.";
+"mac_you_must_use_at_least_a_password_or_key_file" = "È necessario utilizzare almeno uno tra una password, un file chiave o una YubiKey per le credenziali master.";
 
 /* Password cannot be Empty */
 "mac_password_cannot_be_empty" = "La Password Non Può Essere Vuota";
@@ -3179,7 +3179,7 @@
 "audit_manual_pwn_check_result_pwned" = "Questa password è compromessa ed è vulnerabile";
 
 /* Database Audit Preferences */
-"audit_drill_down_go_to_database_audit_preferences" = "Preferenze Revsione Database";
+"audit_drill_down_go_to_database_audit_preferences" = "Impostazioni Revisione Database";
 
 /* View All Audit Issues */
 "audit_drill_down_view_all_audit_issues" = "Visualizzare Tutti I Problemi Di Revisione";
@@ -3245,7 +3245,7 @@
 "generic_biometric_unlock_fmt" = "Sblocco %@";
 
 /* By Default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok? */
-"backup_settings_prompt_message" = "By Default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok?";
+"backup_settings_prompt_message" = "Per impostazione predefinita, Strongbox include tutti i file locali (inclusi i backup del database) e i database dei dispositivi locali nei backup Apple di questo dispositivo. Tuttavia i File Chiavi importati non sono esplicitamente inclusi per motivi di sicurezza.\n\nÈ possibile modificare queste impostazioni in qualsiasi momento nelle Impostazioni > Impostazioni Avanzate.\n\nTutto questo suona bene?";
 
 /* Backup Settings */
 "backup_settings_prompt_title" = "Impostazioni del Backup";
@@ -3566,7 +3566,7 @@
 "mac_autofill_enable_extension_message" = "Per utilizzare Riempimento Automatico è necessario abilitare l'Estensione Strongbox in Preferenze Di Sistema. Per fare ciò, fare click sul pulsante 'Apri Preferenze Di Sistema' qua sotto e navigare su:\n\n∙ Estensioni > Riempimento Automatico Password > marcare 'Strongbox'";
 
 /* Open System Preferences... */
-"mac_autofill_action_open_system_preferences" = "Aprire Preferenze Di Sistema...";
+"mac_autofill_action_open_system_preferences" = "Aprire Impostazioni Di Sistema...";
 
 /* Merge... - Translators Note: Merge is a verb, "To Merge", the idea being that the user will select 2 databases to merge together... */
 "generic_action_merge_ellipsis" = "Unire...";
@@ -3993,7 +3993,7 @@
 "preference_allow_watch_unlock" = "Sblocco Watch";
 
 /* Watch Unlock - (Enable in System Preferences > Security & Privacy) */
-"preference_allow_watch_unlock_system_disabled" = "Sblocco Watch - (Attiva in Preferenze Di Sistema> Sicurezza & Privacy)";
+"preference_allow_watch_unlock_system_disabled" = "Sblocco Watch - (Attiva in Impostazioni Di Sistema> Sicurezza & Privacy)";
 
 /* No Cloud Session Found */
 "cloud_sessions_prompt_no_session_found" = "Nessuna Sessione Cloud Trovata";
@@ -4541,7 +4541,7 @@
 "pk_or_password_missing" = "Chiave Privata o Password mancanti";
 
 /* Select Destination Group - L10n Note: When a user is moving item(s) to another group in a database, this is the title. */
-"select_destination_group" = "Select Destination Group";
+"select_destination_group" = "Selezionare Gruppo Destinazione";
 
 /* KeePass 2 (KDBX 3.x) ⚠️ */
 "keepass_kdbx3_format_not_recommended" = "KeePass 2 (KDBX 3.x) ⚠️";
@@ -4612,10 +4612,10 @@
 "import_successful_message" = "L'importazione ha avuto successo! Ora impostiamo una Password Master forte e salviamo il nuovo database Strongbox.";
 
 /* Are you sure you want to clear the TOTP for this entry? */
-"are_you_sure_clear_totp" = "Are you sure you want to clear the TOTP for this entry?";
+"are_you_sure_clear_totp" = "Si è sicuri di voler cancellare il TOTP per questa voce?";
 
 /* Date Created (Precise) */
-"databases_preferences_subtitle_field_name_create_date_precise" = "Date Created (Precise)";
+"databases_preferences_subtitle_field_name_create_date_precise" = "Data Di Creazione (Esatta)";
 
 /* Hardware Slot %@ (Touch Required) - (Translators Note: Some YubiKey devices/configurations require the user to touch or press a button to authenticate. This string also takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
 "mac_yubikey_slot_n_touch_required_fmt" = "Hardware Key Slot %@ (Touch Required)";
@@ -4643,10 +4643,10 @@
 "mac_hardware_key_dropdown_none_no_keys_detected" = "None (No Keys Detected)";
 
 /* 🔴 Configured Key [CR Unavailable] - L10n Guide: A hardware key has been previously configured/setup by the user for this database but the Challenge Response functionality is not available, probably by error or user mistake */
-"mac_hardware_key_key_configured_but_cr_unavailable" = "🔴 Configured Key [CR Unavailable]";
+"mac_hardware_key_key_configured_but_cr_unavailable" = "🔴 Chiave Configurata [CR Non Disponibile]";
 
 /* ⚠️ Disconnected Key (Configured) - L10n Guide: A hardware key has been previously configured/setup by the user for this database but it is not currently connected to the mac/iphone */
-"mac_hardware_key_key_configured_but_disconnected" = "⚠️ Disconnected Key (Configured)";
+"mac_hardware_key_key_configured_but_disconnected" = "⚠️ Chiave Disconnessa (Configurata)";
 
 /* Connected Key Slot %@ (Configured) - L10n Guide: A hardware key has been previously configured/setup by the user for this database and it is also connected. The 1st parameter is slot number the user has configured. It will be '1' or '2'.  */
 "mac_hardware_key_configured_and_connected_slot_n_fmt" = "Connected Key Slot %@ (Configured)";
