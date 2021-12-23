@@ -3254,10 +3254,10 @@
 "backup_settings_prompt_option_yes_looks_good" = "Sì, va bene";
 
 /* Yes, but also backup Key Files */
-"backup_settings_prompt_yes_but_include_key_files" = "Yes, but also backup Key Files";
+"backup_settings_prompt_yes_but_include_key_files" = "Sì, ma anche backup dei File Chiave";
 
 /* No, do NOT backup anything */
-"backup_settings_prompt_no_dont_backup_anything" = "No, do not include anything";
+"backup_settings_prompt_no_dont_backup_anything" = "No, non includere nulla";
 
 /* View Sync Status */
 "safes_vc_action_view_sync_status" = "Visualizza Log Sincronizzazione";
@@ -3959,7 +3959,7 @@
 "database_properties_subtitle_view_sync_log" = "Visualizzare i dettagli della sincronizzazione recente, inclusi errori.";
 
 /* Your Database is configured to use a hardware key, however no key or an incorrect key was found connected. */
-"mac_autofill_no_or_incorrect_yubikey_found" = "Your Database is configured to use a hardware key, however no key or an incorrect key was found connected.";
+"mac_autofill_no_or_incorrect_yubikey_found" = "Il Database è configurato per utilizzare una chiave hardware, tuttavia non è stata trovata alcuna chiave o era collegata una chiave errata.";
 
 /* Title (Username) */
 "quick_type_format_title_username" = "Titolo (Nome Utente)";
@@ -4562,7 +4562,7 @@
 "generic_compression" = "Compressione";
 
 /* Are you sure you want to change your database encryption settings? */
-"are_you_sure_change_encryption_settings" = "Are you sure you want to change your database encryption settings?";
+"are_you_sure_change_encryption_settings" = "Si è sicuri di voler modificare le impostazioni di crittografia del database?";
 
 /* No significant changes. Tap Done to Continue. */
 "merge_result_databases_identical_sync_initiated" = "Unione OK. Toccare Fatto per continuare.";
@@ -4571,19 +4571,19 @@
 "quick_view_title_expired_entries_title_fmt" = "Elementi (%@) Scaduti";
 
 /* View all expired entries */
-"quick_view_title_expired_entries_subtitle" = "View all expired entries";
+"quick_view_title_expired_entries_subtitle" = "Visualizzare tutte le voci scadute";
 
 /* Nearly Expired Entries (%@) - L10n note - 1st paramter is the number of entries, e.g. Nearly Expired Entries (2) */
-"quick_view_title_nearly_expired_entries_title_fmt" = "Nearly Expired Entries (%@)";
+"quick_view_title_nearly_expired_entries_title_fmt" = "Voci Quasi Scadute (%@)";
 
 /* View all nearly expired entries */
-"quick_view_title_nearly_expired_entries_subtitle" = "View all nearly expired entries";
+"quick_view_title_nearly_expired_entries_subtitle" = "Visualizzare tutte le voci quasi scadute";
 
 /* Wi-Fi Transfer */
-"safes_vc_wifi_transfer" = "Wi-Fi Transfer";
+"safes_vc_wifi_transfer" = "Trasferimento Wi-Fi";
 
 /* Get Started Wizard */
-"safes_vc_quick_start" = "Get Started Wizard";
+"safes_vc_quick_start" = "Percorso Guidato Iniziale";
 
 /* New (Advanced) */
 "safes_vc_new_advanced" = "Nuovo Database";
@@ -4591,10 +4591,10 @@
 /* Add Existing */
 "safes_vc_add_existing" = "Aggiungere Esistente";
 
-"safesvc_inner_stream_error_title" = "Inner Stream Decryption Error";
+"safesvc_inner_stream_error_title" = "Errore Decifratura Flusso Interno";
 
 /* Strongbox has had a problem decrypting some protected fields in this database. \n\nThe database will now open in Read-Only mode to prevent further corruption.\n\nWe recommend restoring from an older backup or upgrading to KDBX4 which does not suffer from this issue. */
-"safesvc_inner_stream_error_message" = "Strongbox has had a problem decrypting some protected fields in this database. \n\nThe database will now open in Read-Only mode to prevent further corruption.\n\nWe recommend restoring from an older backup or upgrading to KDBX4 which does not suffer from this issue.";
+"safesvc_inner_stream_error_message" = "Strongbox ha avuto un problema a decriptare alcuni campi protetti in questo database. \n\nIl database ora si aprirà in modalità sola lettura per prevenire ulteriori corruzioni.\n\nSi consiglia di ripristinare da un backup precedente o di aggiornare a KDBX4 che non soffre di questo problema.";
 
 /* Choose file to Import */
 "mac_choose_file_import" = "Scegliere il file da Importare";
@@ -4621,13 +4621,13 @@
 "mac_yubikey_slot_n_touch_required_fmt" = "Slot Chiave Hardware %@ (Tocco Richiesto)";
 
 /* Hardware Slot %@ (Translators Note: This string takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_fmt" = "Hardware Key Slot %@";
+"mac_yubikey_slot_n_fmt" = "Slot Chiave Hardware %@";
 
 /* No Hardware Keys Found */
-"mac_no_yubikeys_found" = "No Hardware Keys Found";
+"mac_no_yubikeys_found" = "Nessuna Chiave Hardware Trovata";
 
 /* Hardware Key found but no compatible HMACSHA1 slots available */
-"mac_yubikey_available_but_no_compatible_slots" = "Hardware Key found but no compatible HMACSHA1 slots available";
+"mac_yubikey_available_but_no_compatible_slots" = "Chiave Hardware trovata ma non sono disponibili slot HMACSHA1 compatibili";
 
 /* Hardware Key %@ Slot %@ (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
 "mac_yubikey_serial_number_slot_n_touch_required_fmt2" = "Chiave Hardware %@ Slot %@ (Tocco Richiesto)";
@@ -4694,28 +4694,28 @@
 "read_only_unavailable_title" = "Sola Lettura Non Disponibile";
 
 /* You currently have changes pending and so you cannot switch to Read Only mode. You must save or discard your current changes first. */
-"read_only_unavailable_pending_changes_message" = "You currently have changes pending and so you cannot switch to Read Only mode. You must save or discard your current changes first.";
+"read_only_unavailable_pending_changes_message" = "Al momento ci sono modifiche in sospeso e quindi non si può passare alla modalità di sola lettura. Si deve prima salvare o abbandonare le modifiche attuali.";
 
 /* Your database is in Read Only mode and cannot be updated. */
-"warn_database_is_ro_no_update" = "Your database is in Read Only mode and cannot be updated.";
+"warn_database_is_ro_no_update" = "Il database è in modalità sola lettura e non può essere aggiornato.";
 
 /* Quitting - Finishing Sync... */
-"macos_quitting_finishing_sync" = "Quitting - Finishing Sync...";
+"macos_quitting_finishing_sync" = "Uscita - Completamento Sincronizzazione...";
 
 /* More */
-"safesvc_more_submenu" = "More";
+"safesvc_more_submenu" = "Altro";
 
 /* Please Enter a New Word Separator */
-"mac_password_gen_enter_new_separator" = "Please Enter a New Word Separator";
+"mac_password_gen_enter_new_separator" = "Prego Inserire un Nuovo Separatore di Parole";
 
 /* AutoFill is only available on macOS Big Sur+ */
 "autofill_app_preferences_only_avail_big_sur" = "AutoFill è disponibile solo su macOS Big Sur+";
 
 /* ✅ Strongbox is enabled for Password AutoFill */
-"strongbox_is_enabled_for_autofill" = "✅ Strongbox is enabled for Password AutoFill";
+"strongbox_is_enabled_for_autofill" = "✅ Strongbox è abilitato per il Riempimento Automatico della Password";
 
 /* ⭐️ Wow ⭐️ */
-"tip_purchased_title" = "⭐️ Wow ⭐️";
+"tip_purchased_title" = "⭐ Wow ⭐";
 
 /* \n❤️ Thank you so much ❤️\n\nSending good vibes your way from everyone at Strongbox HQ! */
-"tip_purchased_message" = "\n❤️ Thank you so much ❤️\n\nSending good vibes your way from everyone at Strongbox HQ!";
+"tip_purchased_message" = "\n❤️ Grazie mille ❤️\n\nInvio di buone vibrazioni da tutti qui dall'HQ di Strongbox!";
