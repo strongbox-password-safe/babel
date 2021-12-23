@@ -1713,10 +1713,10 @@
 "keepass_history_tip" = "Suggerimento: Scorrere a Sinistra per le Opzioni o Toccare per Visualizzare";
 
 /* Favourite */
-"browse_vc_action_pin" = "Favourite";
+"browse_vc_action_pin" = "Preferito";
 
 /* Un-Favourite */
-"browse_vc_action_unpin" = "Un-Favourite";
+"browse_vc_action_unpin" = "Non Preferire";
 
 /* Section Header Title for Expired Items */
 "browse_vc_section_title_expired" = "Scaduto";
@@ -1725,7 +1725,7 @@
 "browse_vc_section_title_nearly_expired" = "Quasi Scaduto";
 
 /* Section Header Title for Favourite Items */
-"browse_vc_section_title_pinned" = "Favourites";
+"browse_vc_section_title_pinned" = "Preferiti";
 
 /* Section Header Title for Recent Items */
 "browse_vc_section_title_recents" = "Elementi Recenti";
@@ -2357,7 +2357,7 @@
 "mac_enter_custom_url_default" = "Si prega di inserire la propria URL Predefinita";
 
 /* Please Enter Your Custom Default URL */
-"mac_enter_custom_notes_default" = "Please Enter Your Custom Default Notes";
+"mac_enter_custom_notes_default" = "Si Prega d'Inserire Le Note Predefinite Personalizzate";
 
 /* Welcome to Strongbox */
 "mac_welcome_to_strongbox_title" = "Benvenuto a Strongbox";
@@ -2694,7 +2694,7 @@
 "mac_key_file_configured_but_filename_hidden" = "Configurato";
 
 /* %@ (Configured) - (Translators Note: User is using a key file that has previously been set/remembered by Strongbox. First parameter is the filename of the key file. This appears on the unlock screen. */
-"mac_key_file_filename_configured_fmt" = "%@ (Configured)";
+"mac_key_file_filename_configured_fmt" = "%@ (Configurato)";
 
 /* Touch ID/Apple Watch Unlock is not possible at the moment because Touch ID/Apple Watch is not available. */
 "mac_info_biometric_unlock_not_possible_right_now" = "Al momento non è possibile sbloccare Touch ID/Apple Watch poiché il Touch ID/Apple Watch non è disponibile.";
@@ -2745,7 +2745,7 @@
 "mac_convenience_expiry_period_never" = "Mai";
 
 /* App Exit (Memory Only) */
-"mac_convenience_expiry_period_on_app_exit" = "App Exit (Memory Only)";
+"mac_convenience_expiry_period_on_app_exit" = "Uscita App (Solo Memoria)";
 
 /* Unlock with Touch ID or Watch */
 "mac_unlock_screen_button_title_convenience_unlock" = "Sbloccare con Touch ID o Watch";
@@ -2775,13 +2775,13 @@
 "open_sequence_cannot_use_yubikey_in_autofill_mode" = "Lo sblocco con Chiave Hardware non è supportato in modalità Riempimento Automatico a causa di vincoli di sistema. È possibile configurare invece una Chiave Hardware Virtuale.";
 
 /* Hardware Key Unlock is only available in the Pro edition of Strongbox */
-"open_sequence_yubikey_only_available_in_pro" = "Hardware Key Unlock is only available in the Pro edition of Strongbox";
+"open_sequence_yubikey_only_available_in_pro" = "Sblocco con Chiave Hardware è disponibile solo nella versione Pro di Strongbox";
 
 /* Disabled (Pro Edition Only) */
 "casg_yubikey_configured_disabled_pro_only" = "Disabilitato (Solo Edizione Pro)";
 
 /* Hardware Key (Pro Edition Only) */
-"casg_section_header_yubikey_pro_only" = "Hardware Key (Pro Edition Only)";
+"casg_section_header_yubikey_pro_only" = "Chiave Hardware (solo Edizione Pro)";
 
 /* Unknown (Translators Note: Used when generally when something can't be determined, e.g. The URL or file name of a database, or the type of storage provider used, or the format of a newly opened database etc.)*/
 "generic_unknown" = "Sconosciuto";
@@ -2790,7 +2790,7 @@
 "mac_valid_credentials" = "Credenziali Valide";
 
 /* Could not get challenge response from hardware key */
-"mac_error_getting_challenge_response_yubikey" = "Could not get challenge response from hardware key";
+"mac_error_getting_challenge_response_yubikey" = "Impossibile ottenere il \"challenge response\" dalla chave hardware";
 
 /* Refreshing... (Translators Note: Used whenever running a fairly short operation to indicate somehting is happening, e.g. when polling hardware key status (can take a few seconds)) */
 "generic_refreshing_ellipsis" = "Aggiornamento...";
@@ -2822,7 +2822,7 @@
 "yubikey_insert_the_key_to_read_the_otp" = "Inserire la chiave per leggere l'OTP";
 
 /* Communicating with hardware key... */
-"yubikey_communicating_with_key_ellipsis" = "Communicating with hardware key...";
+"yubikey_communicating_with_key_ellipsis" = "Comunicazione con la chiave hardware...";
 
 /* Icon Set */
 "browse_prefs_icon_set" = "Set di Icone";
@@ -4618,7 +4618,7 @@
 "databases_preferences_subtitle_field_name_create_date_precise" = "Data Di Creazione (Esatta)";
 
 /* Hardware Slot %@ (Touch Required) - (Translators Note: Some YubiKey devices/configurations require the user to touch or press a button to authenticate. This string also takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_touch_required_fmt" = "Hardware Key Slot %@ (Touch Required)";
+"mac_yubikey_slot_n_touch_required_fmt" = "Slot Chiave Hardware %@ (Tocco Richiesto)";
 
 /* Hardware Slot %@ (Translators Note: This string takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
 "mac_yubikey_slot_n_fmt" = "Hardware Key Slot %@";
@@ -4630,17 +4630,17 @@
 "mac_yubikey_available_but_no_compatible_slots" = "Hardware Key found but no compatible HMACSHA1 slots available";
 
 /* Hardware Key %@ Slot %@ (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
-"mac_yubikey_serial_number_slot_n_touch_required_fmt2" = "Hardware Key %@ Slot %@ (Touch Required)";
+"mac_yubikey_serial_number_slot_n_touch_required_fmt2" = "Chiave Hardware %@ Slot %@ (Tocco Richiesto)";
 
 /* Hardware Key %@ Slot %@  - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2) */
-"mac_yubikey_serial_number_slot_n_fmt2" = "Hardware Key %@ Slot %@";
+"mac_yubikey_serial_number_slot_n_fmt2" = "Chiave Hardware %@ Slot %@";
 
 
 /* None (%@ Available) - L10n Guide: The 1st parameter is the number of detected hardware key/slots, but None have been selected by the user */
-"mac_hardware_key_dropdown_n_available_fmt" = "None (%@ Available)";
+"mac_hardware_key_dropdown_n_available_fmt" = "Nessuna (%@ Disponibile)";
 
 /* None (No Keys Detected) - L10n Guide: This means no hardware key is selected and none have been detected */
-"mac_hardware_key_dropdown_none_no_keys_detected" = "None (No Keys Detected)";
+"mac_hardware_key_dropdown_none_no_keys_detected" = "Nessuna (Nessuna Chiave Rilevata)";
 
 /* 🔴 Configured Key [CR Unavailable] - L10n Guide: A hardware key has been previously configured/setup by the user for this database but the Challenge Response functionality is not available, probably by error or user mistake */
 "mac_hardware_key_key_configured_but_cr_unavailable" = "🔴 Chiave Configurata [CR Non Disponibile]";
@@ -4649,49 +4649,49 @@
 "mac_hardware_key_key_configured_but_disconnected" = "⚠️ Chiave Disconnessa (Configurata)";
 
 /* Connected Key Slot %@ (Configured) - L10n Guide: A hardware key has been previously configured/setup by the user for this database and it is also connected. The 1st parameter is slot number the user has configured. It will be '1' or '2'.  */
-"mac_hardware_key_configured_and_connected_slot_n_fmt" = "Connected Key Slot %@ (Configured)";
+"mac_hardware_key_configured_and_connected_slot_n_fmt" = "Slot Chiave Collegato %@ (Configurato)";
 
 /* Connected Key Slot %@ - L10n Guide: A hardware key is connected. The 1st parameter is slot number that is available for use. It will be '1' or '2'.  */
-"mac_hardware_key_connected_slot_n_fmt" = "Connected Key Slot %@";
+"mac_hardware_key_connected_slot_n_fmt" = "Slot Chiave Collegato %@";
 
 /* ⚠️ Selected Key (Disconnected) - L10n Guide: The user previously selected a hardware key from the dropdown, but it has now been disconnected. */
-"mac_hardware_key_selected_but_has_been_disconnected" = "⚠️ Selected Key (Disconnected)";
+"mac_hardware_key_selected_but_has_been_disconnected" = "⚠️ Chiave Selezionata (Disconnessa)";
 
 /* AutoFill Issue */
-"autofill_argon2_onboarding_issue_title" = "AutoFill Issue";
+"autofill_argon2_onboarding_issue_title" = "Problema Riempimento Automatico";
 
 /* Your database has a very high Argon2 memory setting that will cause it to crash when used in AutoFill mode.\n\nWould you like Strongbox to automatically adjust this so that you can safely use AutoFill? */
-"autofill_argon2_onboarding_issue_message" = "Your database has a very high Argon2 memory setting that will cause it to crash when used in AutoFill mode.\n\nWould you like Strongbox to automatically adjust this so that you can safely use AutoFill?";
+"autofill_argon2_onboarding_issue_message" = "Il database ha un'impostazione di memoria Argon2 molto alta che causerà crash quando usato in modalità Riempimento Automatico.\n\nSi vuole che Strongbox lo aggiusti automaticamente in modo da poter utilizzare in modo sicuro Riempimento Automatico?";
 
 /* Yes, Great Idea! */
-"generic_yes_great_idea_bang" = "Yes, Great Idea!";
+"generic_yes_great_idea_bang" = "Sì, Ottima Idea!";
 
 /* No, I don't use AutoFill */
-"autofill_argon2_onboarding_no_use_autofill" = "No, I don't use AutoFill";
+"autofill_argon2_onboarding_no_use_autofill" = "No, non usare Riempimento Automatico";
 
 /* Dont't Ask Again */
-"generic_dont_ask_again" = "Don't Ask Again";
+"generic_dont_ask_again" = "Non Chiedere Di Nuovo";
 
 /* Not Right Now */
-"generic_not_right_now" = "Not Right Now";
+"generic_not_right_now" = "Non Adesso";
 
 /* Database Upgrade */
-"kdbx4_upgrade_onboarding_issue_title" = "Database Upgrade";
+"kdbx4_upgrade_onboarding_issue_title" = "Aggiornamento Database";
 
 /* Your database is using an old format (KDBX 3.1). The new format (KDBX 4.x) offers security improvements, performance enhancements and should also reduce the size of your database.\n\nWould you like Strongbox to automatically upgrade your database now? */
-"kdbx4_upgrade_onboarding_issue_message" = "Your database is using an old format (KDBX 3.1). The new format (KDBX 4.x) offers security improvements, performance enhancements and should also reduce the size of your database.\n\nWould you like Strongbox to automatically upgrade your database now?";
+"kdbx4_upgrade_onboarding_issue_message" = "Il database sta usando un vecchio formato (KDBX 3.1). Il nuovo formato (KDBX 4.x) offre miglioramenti della sicurezza, prestazioni potenziate e dovrebbe anche ridurre le dimensioni del database.\n\nSi vuole che Strongbox aggiorni automaticamente il database adesso?";
 
 /* Import 1Password */
-"safes_vc_import_1password" = "Import 1Password";
+"safes_vc_import_1password" = "Importare 1Password";
 
 /* Import CSV */
-"safes_vc_import_csv" = "Import CSV";
+"safes_vc_import_csv" = "Importare CSV";
 
 /* Strongbox can import 1Pif files from 1Password. Tap OK to select your exported 1Pif file. */
-"safes_vc_import_1password_message" = "Strongbox can import 1Pif files from 1Password. Tap OK to select your exported 1Pif file.";
+"safes_vc_import_1password_message" = "Strongbox può importare i file 1Pif da 1Password. Toccare OK per selezionare il file 1Pif da importare.";
 
 /* Read Only Unavailable */
-"read_only_unavailable_title" = "Read Only Unavailable";
+"read_only_unavailable_title" = "Sola Lettura Non Disponibile";
 
 /* You currently have changes pending and so you cannot switch to Read Only mode. You must save or discard your current changes first. */
 "read_only_unavailable_pending_changes_message" = "You currently have changes pending and so you cannot switch to Read Only mode. You must save or discard your current changes first.";
@@ -4709,7 +4709,7 @@
 "mac_password_gen_enter_new_separator" = "Please Enter a New Word Separator";
 
 /* AutoFill is only available on macOS Big Sur+ */
-"autofill_app_preferences_only_avail_big_sur" = "AutoFill is only available on macOS Big Sur+";
+"autofill_app_preferences_only_avail_big_sur" = "AutoFill è disponibile solo su macOS Big Sur+";
 
 /* ✅ Strongbox is enabled for Password AutoFill */
 "strongbox_is_enabled_for_autofill" = "✅ Strongbox is enabled for Password AutoFill";
