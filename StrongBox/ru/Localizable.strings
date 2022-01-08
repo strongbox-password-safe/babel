@@ -2996,13 +2996,13 @@
 "audit_status_done_with_hibp_errors_fmt" = "Найдено %@ проблем в %@ записях (с %@ HIBP ошибками)";
 
 /* Audit Complete */
-"audit_status_complete" = "Статус: Завершена";
+"audit_status_complete" = "Статус: Завершён";
 
 /* Database Auditor Initialized */
 "audit_status_initialized" = "Статус: Инициализация";
 
 /* Database Auditor Initialized */
-"audit_status_initialized_but_disabled" = "Статус: Отключена";
+"audit_status_initialized_but_disabled" = "Статус: Выключен";
 
 /* Auditing... (%d%%) - Translator's Note - 1st Parameter is a percentage e.g. 25% - NB: Only 1 param (double percentages are an escape string for the single percentage symbol) */
 "audit_status_running_with_progress_fmt" = "Статус: Проверка ... (%d%%)";
@@ -3011,7 +3011,7 @@
 "audit_status_running_with_ellipsis" = "Статус: Проверка ...";
 
 /* Audit Stopped */
-"audit_status_stopped" = "Статус: Остановлена";
+"audit_status_stopped" = "Статус: Остановлен";
 
 /* No issues found */
 "audit_status_no_issues_found" = "Проблем не найдено";
@@ -3152,7 +3152,7 @@
 "audit_drill_down_section_footer_duplicates" = "Указанные выше элементы используют тот же пароль, что и этот элемент. Вам стоит избегать использования дублирующихся паролей.";
 
 /* The items above have a similar password to this item. This might indicate a weakness or use of a common component and could therefore be vulnerable to attack. */
-"audit_drill_down_section_footer_similar" = "Указанные выше элементы используют пароль аналогичный с этим элементом. Они могут стать уязвимыми для атаки.";
+"audit_drill_down_section_footer_similar" = "Указанные выше элементы используют схожий пароль с этой записью. Они могут стать уязвимыми для атаки.";
 
 /* Audit this Item */
 "audit_drill_down_audit_this_item_preference_title" = "Проверка";
@@ -3260,7 +3260,7 @@
 "backup_settings_prompt_no_dont_backup_anything" = "Не включать ничего";
 
 /* View Sync Status */
-"safes_vc_action_view_sync_status" = "Лог синхронизации";
+"safes_vc_action_view_sync_status" = "Журнал";
 
 /* Please send this crash report to support@strongboxsafe.com */
 "safes_vc_please_send_crash_report" = "Пожалуйста, отправьте отчёт о сбое на support@strongboxsafe.com";
@@ -3311,7 +3311,7 @@
 "open_sequence_storage_provider_error_title" = "Ошибка при синхронизации";
 
 /* If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open in offline mode instead? */
-"open_sequence_storage_provider_error_open_local_ro_instead" = "Если ошибка повторяется, попробуйте удалить и заново добавить БД. См. лог синхронизации для получения дополнительной информации.\n\nХотите открыть офлайн?";
+"open_sequence_storage_provider_error_open_local_ro_instead" = "Если ошибка повторяется, попробуйте удалить и заново добавить БД. См. сведения и ошибки синхронизации в журнале для получения дополнительной информации.\n\nХотите открыть офлайн?";
 
 /* Local Copy Unavailable */
 "autofill_vc_item_subtitle_local_copy_unavailable" = "Локальная копия недоступна";
@@ -3884,7 +3884,7 @@
 "browse_vc_pulldown_refresh_error_title" = "Ошибка при обновлении";
 
 /* See Sync Log */
-"browse_vc_pulldown_refresh_error_message" = "См. лог синхронизации";
+"browse_vc_pulldown_refresh_error_message" = "См. журнал сведений и ошибок синхронизации";
 
 /* Database Refreshed - No Changes */
 "browse_vc_pulldown_refresh_no_changes_title" = "Изменений не найдено";
@@ -3956,7 +3956,7 @@
 "database_properties_subtitle_backups" = "Параметры и просмотр";
 
 /* View recent sync details including errors. */
-"database_properties_subtitle_view_sync_log" = "Сведения и ошибки";
+"database_properties_subtitle_view_sync_log" = "Сведения и ошибки синхронизации";
 
 /* Your Database is configured to use a hardware key, however no key or an incorrect key was found connected. */
 "mac_autofill_no_or_incorrect_yubikey_found" = "Не удалось обнаружить ключ или это неверный ключ.";

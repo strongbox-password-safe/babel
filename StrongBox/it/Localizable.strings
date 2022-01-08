@@ -510,7 +510,7 @@
 "db_management_change_master_credentials" = "Cambiare Credenziali Master";
 
 /* Change Master Password */
-"db_management_change_master_password" = "Cambiare Master Password";
+"db_management_change_master_password" = "Cambiare Password Master";
 
 /* Could not change credentials */
 "db_management_couldnt_change_credentials" = "Non è stato possibile cambiare le credenziali";
@@ -723,7 +723,7 @@
 "prefs_vc_master_password_icloud_migration_yesno_warning_message_fmt" = "È molto importante che si conosca la Master Password dei database e che non ci si basi interamente su %@.\nIl processo di migrazione e importazione compie ogni sforzo per conservare i dati di %@, ma non possiamo offrire garanzie. È importante che in ogni caso si conoscano sempre le proprie Master Password.\n\nSi vuole continuare a modificare le impostazioni di utilizzo di iCloud?";
 
 /* Master Password Warning */
-"prefs_vc_master_password_icloud_migration_yesno_warning_title" = "Avviso Master Password";
+"prefs_vc_master_password_icloud_migration_yesno_warning_title" = "Avviso Password Master";
 
 /* Your PINs do not match. */
 "prefs_vc_pins_dont_match_warning_message" = "I tuoi PIN non corrispondono.";
@@ -1340,7 +1340,7 @@
 "open_sequence_prompt_too_many_incorrect_pins_title" = "Troppi PIN Errati";
 
 /* You have entered the wrong PIN too many times. PIN Unlock is now disabled, and you must enter the master password to unlock this database. */
-"open_sequence_prompt_too_many_incorrect_pins_message" = "Si è digitato il PIN sbagliato per troppe volte. Lo Sblocco con PIN è ora disabilitato e si deve inserire nuovamente la Master Password per sbloccare questo database.";
+"open_sequence_prompt_too_many_incorrect_pins_message" = "Si è digitato il PIN sbagliato per troppe volte. Lo Sblocco con PIN è ora disabilitato e si deve inserire nuovamente la Password Master per sbloccare questo database.";
 
 /* There was a technical error opening the database. */
 "open_sequence_duress_technical_error_message" = "Si è verificato un errore tecnico durante l'apertura del database.";
@@ -1389,7 +1389,7 @@
 "key_files_vc_no_key_file" = "Nessun File Chiave";
 
 /* The stored convenience password or other composite key factors (key file/hardware key) were incorrect for this database. Convenience Unlock has been Disabled. */
-"open_sequence_problem_opening_convenience_incorrect_message" = "The stored convenience password or other composite key factors (key file/hardware key) were incorrect for this database. Convenience Unlock has been Disabled.";
+"open_sequence_problem_opening_convenience_incorrect_message" = "La password di convenienza memorizzata o altri fattori di chiave compositi (chiave file/chiave hardware) non erano corretti per questo database. Lo Sblocco di Comodità è stato disattivato.";
 
 /* Incorrect Credentials */
 "open_sequence_problem_opening_incorrect_credentials_title" = "Credenziali Errate";
@@ -1713,10 +1713,10 @@
 "keepass_history_tip" = "Suggerimento: Scorrere a Sinistra per le Opzioni o Toccare per Visualizzare";
 
 /* Favourite */
-"browse_vc_action_pin" = "Favourite";
+"browse_vc_action_pin" = "Preferito";
 
 /* Un-Favourite */
-"browse_vc_action_unpin" = "Un-Favourite";
+"browse_vc_action_unpin" = "Non Preferire";
 
 /* Section Header Title for Expired Items */
 "browse_vc_section_title_expired" = "Scaduto";
@@ -1725,7 +1725,7 @@
 "browse_vc_section_title_nearly_expired" = "Quasi Scaduto";
 
 /* Section Header Title for Favourite Items */
-"browse_vc_section_title_pinned" = "Favourites";
+"browse_vc_section_title_pinned" = "Preferiti";
 
 /* Section Header Title for Recent Items */
 "browse_vc_section_title_recents" = "Elementi Recenti";
@@ -2200,7 +2200,7 @@
 "favicon_results_are_you_sure_remove_result_message" = "Si è sicuri di voler rimuovere questo risultato di FavIcona?";
 
 /* Invalid FavIcon Preferences */
-"favicon_invalid_preferences_alert_title" = "Preferenze FavIcona Non Valide";
+"favicon_invalid_preferences_alert_title" = "Impostazioni FavIcona Non Valide";
 
 /* This set of preferences will not produce valid FavIcon results. */
 "favicon_invalid_preferences_alert_message" = "Questa serie di impostazioni non produrrà risultati validi per le FavIcone.";
@@ -2357,7 +2357,7 @@
 "mac_enter_custom_url_default" = "Si prega di inserire la propria URL Predefinita";
 
 /* Please Enter Your Custom Default URL */
-"mac_enter_custom_notes_default" = "Please Enter Your Custom Default Notes";
+"mac_enter_custom_notes_default" = "Si Prega d'Inserire Le Note Predefinite Personalizzate";
 
 /* Welcome to Strongbox */
 "mac_welcome_to_strongbox_title" = "Benvenuto a Strongbox";
@@ -2490,7 +2490,7 @@
 "mac_select_key_file" = "Seleziona File Chiave";
 
 /* You must use at least one of either a password, a key file or a hardware key for your master credentials. */
-"mac_you_must_use_at_least_a_password_or_key_file" = "You must use at least one of either a password, a key file or a hardware key for your master credentials.";
+"mac_you_must_use_at_least_a_password_or_key_file" = "È necessario utilizzare almeno uno tra una password, un file chiave o una YubiKey per le credenziali master.";
 
 /* Password cannot be Empty */
 "mac_password_cannot_be_empty" = "La Password Non Può Essere Vuota";
@@ -2694,7 +2694,7 @@
 "mac_key_file_configured_but_filename_hidden" = "Configurato";
 
 /* %@ (Configured) - (Translators Note: User is using a key file that has previously been set/remembered by Strongbox. First parameter is the filename of the key file. This appears on the unlock screen. */
-"mac_key_file_filename_configured_fmt" = "%@ (Configured)";
+"mac_key_file_filename_configured_fmt" = "%@ (Configurato)";
 
 /* Touch ID/Apple Watch Unlock is not possible at the moment because Touch ID/Apple Watch is not available. */
 "mac_info_biometric_unlock_not_possible_right_now" = "Al momento non è possibile sbloccare Touch ID/Apple Watch poiché il Touch ID/Apple Watch non è disponibile.";
@@ -2745,7 +2745,7 @@
 "mac_convenience_expiry_period_never" = "Mai";
 
 /* App Exit (Memory Only) */
-"mac_convenience_expiry_period_on_app_exit" = "App Exit (Memory Only)";
+"mac_convenience_expiry_period_on_app_exit" = "Uscita App (Solo Memoria)";
 
 /* Unlock with Touch ID or Watch */
 "mac_unlock_screen_button_title_convenience_unlock" = "Sbloccare con Touch ID o Watch";
@@ -2775,13 +2775,13 @@
 "open_sequence_cannot_use_yubikey_in_autofill_mode" = "Lo sblocco con Chiave Hardware non è supportato in modalità Riempimento Automatico a causa di vincoli di sistema. È possibile configurare invece una Chiave Hardware Virtuale.";
 
 /* Hardware Key Unlock is only available in the Pro edition of Strongbox */
-"open_sequence_yubikey_only_available_in_pro" = "Hardware Key Unlock is only available in the Pro edition of Strongbox";
+"open_sequence_yubikey_only_available_in_pro" = "Sblocco con Chiave Hardware è disponibile solo nella versione Pro di Strongbox";
 
 /* Disabled (Pro Edition Only) */
 "casg_yubikey_configured_disabled_pro_only" = "Disabilitato (Solo Edizione Pro)";
 
 /* Hardware Key (Pro Edition Only) */
-"casg_section_header_yubikey_pro_only" = "Hardware Key (Pro Edition Only)";
+"casg_section_header_yubikey_pro_only" = "Chiave Hardware (solo Edizione Pro)";
 
 /* Unknown (Translators Note: Used when generally when something can't be determined, e.g. The URL or file name of a database, or the type of storage provider used, or the format of a newly opened database etc.)*/
 "generic_unknown" = "Sconosciuto";
@@ -2790,7 +2790,7 @@
 "mac_valid_credentials" = "Credenziali Valide";
 
 /* Could not get challenge response from hardware key */
-"mac_error_getting_challenge_response_yubikey" = "Could not get challenge response from hardware key";
+"mac_error_getting_challenge_response_yubikey" = "Impossibile ottenere il \"challenge response\" dalla chave hardware";
 
 /* Refreshing... (Translators Note: Used whenever running a fairly short operation to indicate somehting is happening, e.g. when polling hardware key status (can take a few seconds)) */
 "generic_refreshing_ellipsis" = "Aggiornamento...";
@@ -2822,7 +2822,7 @@
 "yubikey_insert_the_key_to_read_the_otp" = "Inserire la chiave per leggere l'OTP";
 
 /* Communicating with hardware key... */
-"yubikey_communicating_with_key_ellipsis" = "Communicating with hardware key...";
+"yubikey_communicating_with_key_ellipsis" = "Comunicazione con la chiave hardware...";
 
 /* Icon Set */
 "browse_prefs_icon_set" = "Set di Icone";
@@ -3179,7 +3179,7 @@
 "audit_manual_pwn_check_result_pwned" = "Questa password è compromessa ed è vulnerabile";
 
 /* Database Audit Preferences */
-"audit_drill_down_go_to_database_audit_preferences" = "Preferenze Revsione Database";
+"audit_drill_down_go_to_database_audit_preferences" = "Impostazioni Revisione Database";
 
 /* View All Audit Issues */
 "audit_drill_down_view_all_audit_issues" = "Visualizzare Tutti I Problemi Di Revisione";
@@ -3245,7 +3245,7 @@
 "generic_biometric_unlock_fmt" = "Sblocco %@";
 
 /* By Default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok? */
-"backup_settings_prompt_message" = "By Default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok?";
+"backup_settings_prompt_message" = "Per impostazione predefinita, Strongbox include tutti i file locali (inclusi i backup del database) e i database dei dispositivi locali nei backup Apple di questo dispositivo. Tuttavia i File Chiavi importati non sono esplicitamente inclusi per motivi di sicurezza.\n\nÈ possibile modificare queste impostazioni in qualsiasi momento nelle Impostazioni > Impostazioni Avanzate.\n\nTutto questo suona bene?";
 
 /* Backup Settings */
 "backup_settings_prompt_title" = "Impostazioni del Backup";
@@ -3254,10 +3254,10 @@
 "backup_settings_prompt_option_yes_looks_good" = "Sì, va bene";
 
 /* Yes, but also backup Key Files */
-"backup_settings_prompt_yes_but_include_key_files" = "Yes, but also backup Key Files";
+"backup_settings_prompt_yes_but_include_key_files" = "Sì, ma anche backup dei File Chiave";
 
 /* No, do NOT backup anything */
-"backup_settings_prompt_no_dont_backup_anything" = "No, do not include anything";
+"backup_settings_prompt_no_dont_backup_anything" = "No, non includere nulla";
 
 /* View Sync Status */
 "safes_vc_action_view_sync_status" = "Visualizza Log Sincronizzazione";
@@ -3566,7 +3566,7 @@
 "mac_autofill_enable_extension_message" = "Per utilizzare Riempimento Automatico è necessario abilitare l'Estensione Strongbox in Preferenze Di Sistema. Per fare ciò, fare click sul pulsante 'Apri Preferenze Di Sistema' qua sotto e navigare su:\n\n∙ Estensioni > Riempimento Automatico Password > marcare 'Strongbox'";
 
 /* Open System Preferences... */
-"mac_autofill_action_open_system_preferences" = "Aprire Preferenze Di Sistema...";
+"mac_autofill_action_open_system_preferences" = "Aprire Impostazioni Di Sistema...";
 
 /* Merge... - Translators Note: Merge is a verb, "To Merge", the idea being that the user will select 2 databases to merge together... */
 "generic_action_merge_ellipsis" = "Unire...";
@@ -3959,7 +3959,7 @@
 "database_properties_subtitle_view_sync_log" = "Visualizzare i dettagli della sincronizzazione recente, inclusi errori.";
 
 /* Your Database is configured to use a hardware key, however no key or an incorrect key was found connected. */
-"mac_autofill_no_or_incorrect_yubikey_found" = "Your Database is configured to use a hardware key, however no key or an incorrect key was found connected.";
+"mac_autofill_no_or_incorrect_yubikey_found" = "Il Database è configurato per utilizzare una chiave hardware, tuttavia non è stata trovata alcuna chiave o era collegata una chiave errata.";
 
 /* Title (Username) */
 "quick_type_format_title_username" = "Titolo (Nome Utente)";
@@ -3993,7 +3993,7 @@
 "preference_allow_watch_unlock" = "Sblocco Watch";
 
 /* Watch Unlock - (Enable in System Preferences > Security & Privacy) */
-"preference_allow_watch_unlock_system_disabled" = "Sblocco Watch - (Attiva in Preferenze Di Sistema> Sicurezza & Privacy)";
+"preference_allow_watch_unlock_system_disabled" = "Sblocco Watch - (Attiva in Impostazioni Di Sistema> Sicurezza & Privacy)";
 
 /* No Cloud Session Found */
 "cloud_sessions_prompt_no_session_found" = "Nessuna Sessione Cloud Trovata";
@@ -4541,7 +4541,7 @@
 "pk_or_password_missing" = "Chiave Privata o Password mancanti";
 
 /* Select Destination Group - L10n Note: When a user is moving item(s) to another group in a database, this is the title. */
-"select_destination_group" = "Select Destination Group";
+"select_destination_group" = "Selezionare Gruppo Destinazione";
 
 /* KeePass 2 (KDBX 3.x) ⚠️ */
 "keepass_kdbx3_format_not_recommended" = "KeePass 2 (KDBX 3.x) ⚠️";
@@ -4562,7 +4562,7 @@
 "generic_compression" = "Compressione";
 
 /* Are you sure you want to change your database encryption settings? */
-"are_you_sure_change_encryption_settings" = "Are you sure you want to change your database encryption settings?";
+"are_you_sure_change_encryption_settings" = "Si è sicuri di voler modificare le impostazioni di crittografia del database?";
 
 /* No significant changes. Tap Done to Continue. */
 "merge_result_databases_identical_sync_initiated" = "Unione OK. Toccare Fatto per continuare.";
@@ -4571,19 +4571,19 @@
 "quick_view_title_expired_entries_title_fmt" = "Elementi (%@) Scaduti";
 
 /* View all expired entries */
-"quick_view_title_expired_entries_subtitle" = "View all expired entries";
+"quick_view_title_expired_entries_subtitle" = "Visualizzare tutte le voci scadute";
 
 /* Nearly Expired Entries (%@) - L10n note - 1st paramter is the number of entries, e.g. Nearly Expired Entries (2) */
-"quick_view_title_nearly_expired_entries_title_fmt" = "Nearly Expired Entries (%@)";
+"quick_view_title_nearly_expired_entries_title_fmt" = "Voci Quasi Scadute (%@)";
 
 /* View all nearly expired entries */
-"quick_view_title_nearly_expired_entries_subtitle" = "View all nearly expired entries";
+"quick_view_title_nearly_expired_entries_subtitle" = "Visualizzare tutte le voci quasi scadute";
 
 /* Wi-Fi Transfer */
-"safes_vc_wifi_transfer" = "Wi-Fi Transfer";
+"safes_vc_wifi_transfer" = "Trasferimento Wi-Fi";
 
 /* Get Started Wizard */
-"safes_vc_quick_start" = "Get Started Wizard";
+"safes_vc_quick_start" = "Percorso Guidato Iniziale";
 
 /* New (Advanced) */
 "safes_vc_new_advanced" = "Nuovo Database";
@@ -4591,10 +4591,10 @@
 /* Add Existing */
 "safes_vc_add_existing" = "Aggiungere Esistente";
 
-"safesvc_inner_stream_error_title" = "Inner Stream Decryption Error";
+"safesvc_inner_stream_error_title" = "Errore Decifratura Flusso Interno";
 
 /* Strongbox has had a problem decrypting some protected fields in this database. \n\nThe database will now open in Read-Only mode to prevent further corruption.\n\nWe recommend restoring from an older backup or upgrading to KDBX4 which does not suffer from this issue. */
-"safesvc_inner_stream_error_message" = "Strongbox has had a problem decrypting some protected fields in this database. \n\nThe database will now open in Read-Only mode to prevent further corruption.\n\nWe recommend restoring from an older backup or upgrading to KDBX4 which does not suffer from this issue.";
+"safesvc_inner_stream_error_message" = "Strongbox ha avuto un problema a decriptare alcuni campi protetti in questo database. \n\nIl database ora si aprirà in modalità sola lettura per prevenire ulteriori corruzioni.\n\nSi consiglia di ripristinare da un backup precedente o di aggiornare a KDBX4 che non soffre di questo problema.";
 
 /* Choose file to Import */
 "mac_choose_file_import" = "Scegliere il file da Importare";
@@ -4612,110 +4612,110 @@
 "import_successful_message" = "L'importazione ha avuto successo! Ora impostiamo una Password Master forte e salviamo il nuovo database Strongbox.";
 
 /* Are you sure you want to clear the TOTP for this entry? */
-"are_you_sure_clear_totp" = "Are you sure you want to clear the TOTP for this entry?";
+"are_you_sure_clear_totp" = "Si è sicuri di voler cancellare il TOTP per questa voce?";
 
 /* Date Created (Precise) */
-"databases_preferences_subtitle_field_name_create_date_precise" = "Date Created (Precise)";
+"databases_preferences_subtitle_field_name_create_date_precise" = "Data Di Creazione (Esatta)";
 
 /* Hardware Slot %@ (Touch Required) - (Translators Note: Some YubiKey devices/configurations require the user to touch or press a button to authenticate. This string also takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_touch_required_fmt" = "Hardware Key Slot %@ (Touch Required)";
+"mac_yubikey_slot_n_touch_required_fmt" = "Slot Chiave Hardware %@ (Tocco Richiesto)";
 
 /* Hardware Slot %@ (Translators Note: This string takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_fmt" = "Hardware Key Slot %@";
+"mac_yubikey_slot_n_fmt" = "Slot Chiave Hardware %@";
 
 /* No Hardware Keys Found */
-"mac_no_yubikeys_found" = "No Hardware Keys Found";
+"mac_no_yubikeys_found" = "Nessuna Chiave Hardware Trovata";
 
 /* Hardware Key found but no compatible HMACSHA1 slots available */
-"mac_yubikey_available_but_no_compatible_slots" = "Hardware Key found but no compatible HMACSHA1 slots available";
+"mac_yubikey_available_but_no_compatible_slots" = "Chiave Hardware trovata ma non sono disponibili slot HMACSHA1 compatibili";
 
 /* Hardware Key %@ Slot %@ (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
-"mac_yubikey_serial_number_slot_n_touch_required_fmt2" = "Hardware Key %@ Slot %@ (Touch Required)";
+"mac_yubikey_serial_number_slot_n_touch_required_fmt2" = "Chiave Hardware %@ Slot %@ (Tocco Richiesto)";
 
 /* Hardware Key %@ Slot %@  - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2) */
-"mac_yubikey_serial_number_slot_n_fmt2" = "Hardware Key %@ Slot %@";
+"mac_yubikey_serial_number_slot_n_fmt2" = "Chiave Hardware %@ Slot %@";
 
 
 /* None (%@ Available) - L10n Guide: The 1st parameter is the number of detected hardware key/slots, but None have been selected by the user */
-"mac_hardware_key_dropdown_n_available_fmt" = "None (%@ Available)";
+"mac_hardware_key_dropdown_n_available_fmt" = "Nessuna (%@ Disponibile)";
 
 /* None (No Keys Detected) - L10n Guide: This means no hardware key is selected and none have been detected */
-"mac_hardware_key_dropdown_none_no_keys_detected" = "None (No Keys Detected)";
+"mac_hardware_key_dropdown_none_no_keys_detected" = "Nessuna (Nessuna Chiave Rilevata)";
 
 /* 🔴 Configured Key [CR Unavailable] - L10n Guide: A hardware key has been previously configured/setup by the user for this database but the Challenge Response functionality is not available, probably by error or user mistake */
-"mac_hardware_key_key_configured_but_cr_unavailable" = "🔴 Configured Key [CR Unavailable]";
+"mac_hardware_key_key_configured_but_cr_unavailable" = "🔴 Chiave Configurata [CR Non Disponibile]";
 
 /* ⚠️ Disconnected Key (Configured) - L10n Guide: A hardware key has been previously configured/setup by the user for this database but it is not currently connected to the mac/iphone */
-"mac_hardware_key_key_configured_but_disconnected" = "⚠️ Disconnected Key (Configured)";
+"mac_hardware_key_key_configured_but_disconnected" = "⚠️ Chiave Disconnessa (Configurata)";
 
 /* Connected Key Slot %@ (Configured) - L10n Guide: A hardware key has been previously configured/setup by the user for this database and it is also connected. The 1st parameter is slot number the user has configured. It will be '1' or '2'.  */
-"mac_hardware_key_configured_and_connected_slot_n_fmt" = "Connected Key Slot %@ (Configured)";
+"mac_hardware_key_configured_and_connected_slot_n_fmt" = "Slot Chiave Collegato %@ (Configurato)";
 
 /* Connected Key Slot %@ - L10n Guide: A hardware key is connected. The 1st parameter is slot number that is available for use. It will be '1' or '2'.  */
-"mac_hardware_key_connected_slot_n_fmt" = "Connected Key Slot %@";
+"mac_hardware_key_connected_slot_n_fmt" = "Slot Chiave Collegato %@";
 
 /* ⚠️ Selected Key (Disconnected) - L10n Guide: The user previously selected a hardware key from the dropdown, but it has now been disconnected. */
-"mac_hardware_key_selected_but_has_been_disconnected" = "⚠️ Selected Key (Disconnected)";
+"mac_hardware_key_selected_but_has_been_disconnected" = "⚠️ Chiave Selezionata (Disconnessa)";
 
 /* AutoFill Issue */
-"autofill_argon2_onboarding_issue_title" = "AutoFill Issue";
+"autofill_argon2_onboarding_issue_title" = "Problema Riempimento Automatico";
 
 /* Your database has a very high Argon2 memory setting that will cause it to crash when used in AutoFill mode.\n\nWould you like Strongbox to automatically adjust this so that you can safely use AutoFill? */
-"autofill_argon2_onboarding_issue_message" = "Your database has a very high Argon2 memory setting that will cause it to crash when used in AutoFill mode.\n\nWould you like Strongbox to automatically adjust this so that you can safely use AutoFill?";
+"autofill_argon2_onboarding_issue_message" = "Il database ha un'impostazione di memoria Argon2 molto alta che causerà crash quando usato in modalità Riempimento Automatico.\n\nSi vuole che Strongbox lo aggiusti automaticamente in modo da poter utilizzare in modo sicuro Riempimento Automatico?";
 
 /* Yes, Great Idea! */
-"generic_yes_great_idea_bang" = "Yes, Great Idea!";
+"generic_yes_great_idea_bang" = "Sì, Ottima Idea!";
 
 /* No, I don't use AutoFill */
-"autofill_argon2_onboarding_no_use_autofill" = "No, I don't use AutoFill";
+"autofill_argon2_onboarding_no_use_autofill" = "No, non usare Riempimento Automatico";
 
 /* Dont't Ask Again */
-"generic_dont_ask_again" = "Don't Ask Again";
+"generic_dont_ask_again" = "Non Chiedere Di Nuovo";
 
 /* Not Right Now */
-"generic_not_right_now" = "Not Right Now";
+"generic_not_right_now" = "Non Adesso";
 
 /* Database Upgrade */
-"kdbx4_upgrade_onboarding_issue_title" = "Database Upgrade";
+"kdbx4_upgrade_onboarding_issue_title" = "Aggiornamento Database";
 
 /* Your database is using an old format (KDBX 3.1). The new format (KDBX 4.x) offers security improvements, performance enhancements and should also reduce the size of your database.\n\nWould you like Strongbox to automatically upgrade your database now? */
-"kdbx4_upgrade_onboarding_issue_message" = "Your database is using an old format (KDBX 3.1). The new format (KDBX 4.x) offers security improvements, performance enhancements and should also reduce the size of your database.\n\nWould you like Strongbox to automatically upgrade your database now?";
+"kdbx4_upgrade_onboarding_issue_message" = "Il database sta usando un vecchio formato (KDBX 3.1). Il nuovo formato (KDBX 4.x) offre miglioramenti della sicurezza, prestazioni potenziate e dovrebbe anche ridurre le dimensioni del database.\n\nSi vuole che Strongbox aggiorni automaticamente il database adesso?";
 
 /* Import 1Password */
-"safes_vc_import_1password" = "Import 1Password";
+"safes_vc_import_1password" = "Importare 1Password";
 
 /* Import CSV */
-"safes_vc_import_csv" = "Import CSV";
+"safes_vc_import_csv" = "Importare CSV";
 
 /* Strongbox can import 1Pif files from 1Password. Tap OK to select your exported 1Pif file. */
-"safes_vc_import_1password_message" = "Strongbox can import 1Pif files from 1Password. Tap OK to select your exported 1Pif file.";
+"safes_vc_import_1password_message" = "Strongbox può importare i file 1Pif da 1Password. Toccare OK per selezionare il file 1Pif da importare.";
 
 /* Read Only Unavailable */
-"read_only_unavailable_title" = "Read Only Unavailable";
+"read_only_unavailable_title" = "Sola Lettura Non Disponibile";
 
 /* You currently have changes pending and so you cannot switch to Read Only mode. You must save or discard your current changes first. */
-"read_only_unavailable_pending_changes_message" = "You currently have changes pending and so you cannot switch to Read Only mode. You must save or discard your current changes first.";
+"read_only_unavailable_pending_changes_message" = "Al momento ci sono modifiche in sospeso e quindi non si può passare alla modalità di sola lettura. Si deve prima salvare o abbandonare le modifiche attuali.";
 
 /* Your database is in Read Only mode and cannot be updated. */
-"warn_database_is_ro_no_update" = "Your database is in Read Only mode and cannot be updated.";
+"warn_database_is_ro_no_update" = "Il database è in modalità sola lettura e non può essere aggiornato.";
 
 /* Quitting - Finishing Sync... */
-"macos_quitting_finishing_sync" = "Quitting - Finishing Sync...";
+"macos_quitting_finishing_sync" = "Uscita - Completamento Sincronizzazione...";
 
 /* More */
-"safesvc_more_submenu" = "More";
+"safesvc_more_submenu" = "Altro";
 
 /* Please Enter a New Word Separator */
-"mac_password_gen_enter_new_separator" = "Please Enter a New Word Separator";
+"mac_password_gen_enter_new_separator" = "Prego Inserire un Nuovo Separatore di Parole";
 
 /* AutoFill is only available on macOS Big Sur+ */
-"autofill_app_preferences_only_avail_big_sur" = "AutoFill is only available on macOS Big Sur+";
+"autofill_app_preferences_only_avail_big_sur" = "AutoFill è disponibile solo su macOS Big Sur+";
 
 /* ✅ Strongbox is enabled for Password AutoFill */
-"strongbox_is_enabled_for_autofill" = "✅ Strongbox is enabled for Password AutoFill";
+"strongbox_is_enabled_for_autofill" = "✅ Strongbox è abilitato per il Riempimento Automatico della Password";
 
 /* ⭐️ Wow ⭐️ */
-"tip_purchased_title" = "⭐️ Wow ⭐️";
+"tip_purchased_title" = "⭐ Wow ⭐";
 
 /* \n❤️ Thank you so much ❤️\n\nSending good vibes your way from everyone at Strongbox HQ! */
-"tip_purchased_message" = "\n❤️ Thank you so much ❤️\n\nSending good vibes your way from everyone at Strongbox HQ!";
+"tip_purchased_message" = "\n❤️ Grazie mille ❤️\n\nInvio di buone vibrazioni da tutti qui dall'HQ di Strongbox!";
