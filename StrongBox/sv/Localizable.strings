@@ -171,7 +171,7 @@
 "safesvc_option_keep_local" = "Behåll lokalt";
 
 /* iCloud Switched Off */
-"safesvc_icloud_unavailable_title" = "iCloud Switched Off";
+"safesvc_icloud_unavailable_title" = "iCloud avstängd";
 
 /* What would you like to do with the databases currently on this device? */
 "safesvc_icloud_unavailable_question" = "Vad vill du göra med databaserna för närvarande i denna enhet?";
@@ -609,7 +609,7 @@
 "item_details_setup_totp" = "Konfigurera TOTP ...";
 
 /* Could not set TOTP because the format is unsupported. */
-"item_details_setup_totp_failed_message" = "Could not set TOTP because the format is unsupported.";
+"item_details_setup_totp_failed_message" = "Kunde inte ställa in TOTP eftersom formatet inte stöds.";
 
 /* Failed to Set TOTP */
 "item_details_setup_totp_failed_title" = "Misslyckades med att aktivera TOTP";
@@ -1389,7 +1389,7 @@
 "key_files_vc_no_key_file" = "Ingen nyckelfil";
 
 /* The stored convenience password or other composite key factors (key file/hardware key) were incorrect for this database. Convenience Unlock has been Disabled. */
-"open_sequence_problem_opening_convenience_incorrect_message" = "The stored convenience password or other composite key factors (key file/hardware key) were incorrect for this database. Convenience Unlock has been Disabled.";
+"open_sequence_problem_opening_convenience_incorrect_message" = "Det lagrade bekvämlighetslösenordet eller andra sammansatta nyckelfaktorer (nyckelfil/hårdvarunyckel) var felaktiga för denna databas. Bekvämlighetsupplåsning har inaktiverats.";
 
 /* Incorrect Credentials */
 "open_sequence_problem_opening_incorrect_credentials_title" = "Felaktiga autentiseringsuppgifter";
@@ -1707,16 +1707,16 @@
 "safes_vc_tip" = "Tips: dra åt vänster på databasen för alternativ";
 
 /* Tip: Tap to Copy or Long Tap for Large View */
-"item_details_tip" = "Tip: Tap to Copy or Long Tap for Large View";
+"item_details_tip" = "Tips! Tryck för att kopiera eller långtryck för stor vy";
 
 /* Tip: Slide Left for Options or Tap to View */
 "keepass_history_tip" = "Tips! Svep vänster för alternativ eller tryck för att visa";
 
 /* Favourite */
-"browse_vc_action_pin" = "Favourite";
+"browse_vc_action_pin" = "Favorit";
 
 /* Un-Favourite */
-"browse_vc_action_unpin" = "Un-Favourite";
+"browse_vc_action_unpin" = "Ej favorit";
 
 /* Section Header Title for Expired Items */
 "browse_vc_section_title_expired" = "Utgångna";
@@ -1725,7 +1725,7 @@
 "browse_vc_section_title_nearly_expired" = "Nästan utgångna";
 
 /* Section Header Title for Favourite Items */
-"browse_vc_section_title_pinned" = "Favourites";
+"browse_vc_section_title_pinned" = "Favoriter";
 
 /* Section Header Title for Recent Items */
 "browse_vc_section_title_recents" = "Senaste objekt";
@@ -1788,7 +1788,7 @@
 "node_serialization_error_duplicate_group_title_fmt" = "Det gick inte att kopiera dessa objekt eftersom de innehåller två grupper med samma rubrik \"%@\" vilket inte stöds av det här databasformatet.";
 
 /* Memory */
-"database_metadata_field_argon2_memory" = "Memory";
+"database_metadata_field_argon2_memory" = "Minne";
 
 /* Are you sure you want to Remove this backup? */
 "backup_vc_are_you_sure_remove" = "Är du säker på att du vill ta bort den här säkerhetskopian?";
@@ -1821,7 +1821,7 @@
 "open_sequence_error_reading_key_file_autofill_context" = "Kunde inte läsa nyckelfil. Har den importerats ordentligt? Kolla nyckelfilshantering i Inställningar";
 
 /* Transfer over Wi-Fi (or LAN) */
-"sspc_local_network_storage_location" = "Transfer over Wi-Fi (or LAN)";
+"sspc_local_network_storage_location" = "Överför via Wi-Fi (eller LAN)";
 
 /* A storage provider is in the process of reading. This is the status displayed on the progress dialog. In english:  Reading... */
 "storage_provider_status_reading" = "Läser ...";
@@ -2357,7 +2357,7 @@
 "mac_enter_custom_url_default" = "Ange din standard-URL";
 
 /* Please Enter Your Custom Default URL */
-"mac_enter_custom_notes_default" = "Please Enter Your Custom Default Notes";
+"mac_enter_custom_notes_default" = "Ange din standardtext för anteckningar";
 
 /* Welcome to Strongbox */
 "mac_welcome_to_strongbox_title" = "Välkommen till Strongbox";
@@ -2490,7 +2490,7 @@
 "mac_select_key_file" = "Välj en nyckelfil";
 
 /* You must use at least one of either a password, a key file or a hardware key for your master credentials. */
-"mac_you_must_use_at_least_a_password_or_key_file" = "You must use at least one of either a password, a key file or a hardware key for your master credentials.";
+"mac_you_must_use_at_least_a_password_or_key_file" = "Som huvudautentiseringsuppgift måste du använda minst en av ett lösenord, en nyckelfil eller en hårdvarunyckel.";
 
 /* Password cannot be Empty */
 "mac_password_cannot_be_empty" = "Lösenord kan inte vara tomt";
@@ -2694,7 +2694,7 @@
 "mac_key_file_configured_but_filename_hidden" = "Konfigurerad";
 
 /* %@ (Configured) - (Translators Note: User is using a key file that has previously been set/remembered by Strongbox. First parameter is the filename of the key file. This appears on the unlock screen. */
-"mac_key_file_filename_configured_fmt" = "%@ (Configured)";
+"mac_key_file_filename_configured_fmt" = "%@ (konfigurerad)";
 
 /* Touch ID/Apple Watch Unlock is not possible at the moment because Touch ID/Apple Watch is not available. */
 "mac_info_biometric_unlock_not_possible_right_now" = "Upplåsning med Touch ID/Apple Watch är inte möjligt just nu eftersom Touch ID/Apple Watch inte är tillgänglig.";
@@ -2745,7 +2745,7 @@
 "mac_convenience_expiry_period_never" = "Aldrig";
 
 /* App Exit (Memory Only) */
-"mac_convenience_expiry_period_on_app_exit" = "App Exit (Memory Only)";
+"mac_convenience_expiry_period_on_app_exit" = "Avsluta appen (endast minnet)";
 
 /* Unlock with Touch ID or Watch */
 "mac_unlock_screen_button_title_convenience_unlock" = "Lås upp med Touch ID eller Watch";
@@ -2775,13 +2775,13 @@
 "open_sequence_cannot_use_yubikey_in_autofill_mode" = "Upplåsning med maskinvarunyckel stöds inte i autofyll-läge på grund av systembegränsningar. Du kan konfigurera en virtuell maskinvarunyckel istället.";
 
 /* Hardware Key Unlock is only available in the Pro edition of Strongbox */
-"open_sequence_yubikey_only_available_in_pro" = "Hardware Key Unlock is only available in the Pro edition of Strongbox";
+"open_sequence_yubikey_only_available_in_pro" = "Hårdvarunyckel-upplåsning finns endast i Pro-versionen av Strongbox";
 
 /* Disabled (Pro Edition Only) */
 "casg_yubikey_configured_disabled_pro_only" = "Inaktiverad (endast Pro-version)";
 
 /* Hardware Key (Pro Edition Only) */
-"casg_section_header_yubikey_pro_only" = "Hardware Key (Pro Edition Only)";
+"casg_section_header_yubikey_pro_only" = "Hårdvarunyckel (endast Pro-version)";
 
 /* Unknown (Translators Note: Used when generally when something can't be determined, e.g. The URL or file name of a database, or the type of storage provider used, or the format of a newly opened database etc.)*/
 "generic_unknown" = "Okänd";
@@ -4550,7 +4550,7 @@
 "keepass_kdbx4x_format" = "KeePass 2 (KDBX 4.x)";
 
 /* Memory */
-"generic_memory" = "Memory";
+"generic_memory" = "Minne";
 
 /* Parallelism */
 "generic_parallelism" = "Parallelism";
