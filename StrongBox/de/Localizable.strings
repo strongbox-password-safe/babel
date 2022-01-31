@@ -2831,7 +2831,7 @@
 "keepass_icon_set_classic" = "KeePass klassisch";
 
 /* SF Symbols */
-"keepass_icon_set_sf_symbols" = "SF Symbols";
+"keepass_icon_set_sf_symbols" = "SF-Symbole";
 
 /* Translators Note: 1 parameter here to mention Biometric unlock, which depends on the device (will be either: 'Touch ID Unlock' or 'Face ID Unlock') */
 "upgrade_short_developer_message_fmt" = "Hi, Mark hier, ich bin der Entwickler von Strongbox. Nur um Sie es wissen zu lassen: Strongbox basiert auf dem Freemium-Modell, was bedeutet, dass es eine kostenlose und eine Pro-Version gibt. Ich hoffe, Sie mögen Strongbox und es ist jeden Tag nützlich für Sie.\n\nIch frage mich, ob Sie ein Upgrade in Betracht ziehen würden? Durch ein Upgrade helfen Sie dabei, einen unabhängigen App-Entwickler zu unterstützen und ermöglichen kontinuierliche Verbesserungen.\n\nSie sichern sich außerdem den Zugang zu großartigen Pro-Funktionen wie %@, PIN-Codes & FavIcons!\n\nIch liebe es, an dieser App zu arbeiten und Ihre Unterstützung ermöglicht es mir, dies weiterhin zu tun.\n\nVielen Dank,\n-Mark";
@@ -4721,19 +4721,19 @@
 "tip_purchased_message" = "\n❤️ Vielen Dank ❤️\n\nWir vom Strongbox-Team senden Ihnen gute Wünsche!";
 
 /* There was an error adding this item as an Attachment */
-"edit_item_could_not_add_item_as_attachment" = "There was an error adding this item as an Attachment";
+"edit_item_could_not_add_item_as_attachment" = "Beim Hinzufügen dieses Anhangs ist ein Fehler aufgetreten";
 
 /* Invalid Attachment Name */
-"invalid_attachment_name" = "Invalid Attachment Name";
+"invalid_attachment_name" = "Name des Anhangs ungültig";
 
 /* The attachment name must not be empty */
 "attachment_name_must_not_be_empty" = "The attachment name must not be empty";
 
 /* That attachment name is already used */
-"attachment_name_already_exists" = "That attachment name is already in use by another attachment";
+"attachment_name_already_exists" = "Dieser Name wird bereits von einer anderen Anlage verwendet";
 
 /* Are you sure you want to delete the selected attachment(s)? */
-"are_you_sure_delete_attachment_s" = "Are you sure you want to delete the selected attachment(s)?";
+"are_you_sure_delete_attachment_s" = "Möchten Sie die ausgewählte(n) Anlage(n) wirklich löschen?";
 
 /* Are you sure you want to delete the selected field(s)? */
 "are_you_sure_delete_custom_field_s" = "Are you sure you want to delete the selected field(s)?";
@@ -4748,49 +4748,49 @@
 "menu_item_header_most_used_suggestions" = "Am häufigsten verwendet";
 
 /* Are you sure you want to clear the expiry for this entry? */
-"are_you_sure_clear_expiry" = "Are you sure you want to clear the expiry for this entry?";
+"are_you_sure_clear_expiry" = "Möchten Sie das Ablaufdatum für diesen Eintrag wirklich löschen?";
 
 /* paste-at-%@.png - L10n Note: The first parameter is a timestamp, so the string will look like: "paste-at-20220113_165952_523.png" */
-"pasted_image_attachment_at_time_filename_png_fmt" = "paste-at-%@.png";
+"pasted_image_attachment_at_time_filename_png_fmt" = "eingefügt-am-%@.png";
 
 /* Hierarchy */
 "side_bar_hierarchy_folder_structure" = "Hierarchie";
 
 /* Discard Changes */
-"discard_changes" = "Discard Changes";
+"discard_changes" = "Änderungen verwerfen";
 
 /* Create Group */
 "create_group" = "Gruppe erstellen";
 
 /* Edit Entry */
-"edit_entry" = "Edit Entry";
+"edit_entry" = "Eintrag bearbeiten";
 
 /* Create Entry */
 "create_entry" = "Eintrag erstellen";
 
 /* Tidy Up Field? */
-"field_tidy_title_tidy_up_field" = "Tidy Up Field?";
+"field_tidy_title_tidy_up_field" = "Feld bereinigen?";
 
 /* There are some blank characters (e.g. spaces, tabs) at the start or end of this field.\n\nShould Strongbox tidy up these extraneous characters? */
-"field_tidy_message_tidy_up_field" = "There are some blank characters (e.g. spaces, tabs) at the start or end of this field.\n\nShould Strongbox tidy up these extraneous characters?";
+"field_tidy_message_tidy_up_field" = "Zu Beginn oder am Ende dieses Feldes befinden sich einige Leerzeichen (z. B. Leerzeichen, Tabulatoren).\n\nSoll Strongbox diese überflüssigen Zeichen entfernen?";
 
 /* Tidy Up */
-"field_tidy_choice_tidy_up_field" = "Tidy Up";
+"field_tidy_choice_tidy_up_field" = "Bereinigen";
 
 /* Don't Tidy */
-"field_tidy_choice_dont_tidy" = "Don't Tidy";
+"field_tidy_choice_dont_tidy" = "Nicht bereinigen";
 
 /* Location - The location of an item, e.g. Location = /Group-1/Group-2/ */
-"generic_fieldname_location" = "Location";
+"generic_fieldname_location" = "Gespeichert unter";
 
 /* Extimated Size - This is memory/file size in bytes/KB/MB consumed by a particular entry e.g. Estimated Size= 64KB*/
-"generic_fieldname_estimated_size" = "Estimated Size";
+"generic_fieldname_estimated_size" = "Geschätzte Größe";
 
 /* Historical Item Count - This is number of previous copies/older copies of this entry we have */
 "generic_fieldname_historical_item_count" = "Historical Item Count";
 
 /* Custom Icon */
-"generic_fieldname_custom_icon" = "Custom Icon";
+"generic_fieldname_custom_icon" = "Benutzerdefiniertes Symbol";
 
 /* ID - L10n Note: This is the unique id (identifier/uuid) of an item, usually a long string like 5E7CBED9D6D14AF38BB6FE4B9CF1CF64 */
 "generic_fieldname_id" = "ID";
@@ -4811,7 +4811,7 @@
 "generic_action_verb_speak_field" = "Speak";
 
 /* Launch URL - L10n: An action/verb, to launch a URL */
-"generic_action_verb_launch_url" = "Launch URL";
+"generic_action_verb_launch_url" = "URL aufrufen";
 
 /* Show QR Code */
 "generic_action_show_qr_code" = "QR-Code anzeigen";
@@ -4823,40 +4823,40 @@
 "generic_action_preview_attachment" = "Preview Attachment";
 
 /* Export Attachment */
-"generic_action_export_attachment" = "Export Attachment";
+"generic_action_export_attachment" = "Anhang exportieren";
 
 /* Reveal - L10n: Verb, to reveal a concealed field e.g. a password */
-"generic_action_reveal" = "Reveal";
+"generic_action_reveal" = "Aufdecken";
 
 /* Conceal - L10n: Verb, to conceal a revealed field e.g. a password */
-"generic_action_conceal" = "Conceal";
+"generic_action_conceal" = "Ausblenden";
 
 /* Copy Filename */
-"generic_action_copy_filename" = "Copy Filename";
+"generic_action_copy_filename" = "Dateiname kopieren";
 
 /* Field Name */
-"generic_field_name" = "Field Name";
+"generic_field_name" = "Feldname";
 
 /* No Selection */
-"detail_view_no_selection_header" = "No Selection";
+"detail_view_no_selection_header" = "Keine Auswahl";
 
 /* Multiple Items */
-"detail_view_multiple_items_selected_header" = "Multiple Items";
+"detail_view_multiple_items_selected_header" = "Mehrere Einträge";
 
 /* Select an Item */
-"detail_view_no_selection_message" = "Select an Item";
+"detail_view_no_selection_message" = "Eintrag auswählen";
 
 /* %@ Items Selected */
-"detail_view_no_multiple_items_selected_message_fmt" = "%@ Items Selected";
+"detail_view_no_multiple_items_selected_message_fmt" = "%@ Einträge ausgewählt";
 
 /* Toggle Details Panel - L10n shows or hides the right hand side details view panel */
-"nextgen_toolbar_item_toggle_details_panel" = "Toggle Details Panel";
+"nextgen_toolbar_item_toggle_details_panel" = "Details ein-/ausblenden";
 
 /* Toggle Sidebar - L10n shows or hides the left hand side bar navigation panel */
-"nextgen_toolbar_item_toggle_sidebar" = "Toggle Sidebar";
+"nextgen_toolbar_item_toggle_sidebar" = "Seitenleiste ein-/ausblenden";
 
 /* Recycle Items - This is a verb/action - Recycle the selected items, sending them to the Recycle Bin */
-"generic_recycle_items" = "Recycle Items";
+"generic_recycle_items" = "Einträge in Papierkorb verschieben";
 
 /* Recycle Item - This is a verb/action - Recycle the selected item, sending it to the Recycle Bin  */
-"generic_recycle_item" = "Recycle Item";
+"generic_recycle_item" = "Eintrag in Papierkorb verschieben";
