@@ -4878,3 +4878,18 @@
 
 /* %@ (%@ bits / %@) - L10n Note: 1st Param is the strength category (weak/strong/mediocre, etc). 2nd parameter is the number of bits of entropy, with 1 decimal place, so "92.3". 3rd parameter is the estimated time it will take to crack this password, so "1 million years"*/
 "password_strength_summary_fmt" = "%@ (%@ bits / %@)";
+
+/* %@ characters - 1st param is a simple integer like 22 so e.g. "22 characters" */
+"num_of_characters_fmt" = "%@ characters";
+
+/* %@ bits - 1st param is a number like 36.2 so e.g. "36.2 bits" */
+"num_of_bits_fmt" = "%@ bits";
+
+/* Exclude Item from Audit */
+"exclude_item_from_audit" = "Exclude Item from Audit";
+
+/* Check with 'Have I Been Pwned?' */
+"check_field_with_hibp" = "Check with 'Have I Been Pwned?'";
+
+/* Pro - A short tag / text that will appear beside Pro features in a badge like fashion - keep v short if possible */
+"pro_badge_text" = "Pro";
