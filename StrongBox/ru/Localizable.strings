@@ -1821,7 +1821,7 @@
 "open_sequence_error_reading_key_file_autofill_context" = "Не удалось открыть файл-ключ. Откройте Файл-ключи в настройках и проверьте данные.";
 
 /* Transfer over Wi-Fi (or LAN) */
-"sspc_local_network_storage_location" = "Передача по Wi-Fi";
+"sspc_local_network_storage_location" = "Через Wi-Fi";
 
 /* A storage provider is in the process of reading. This is the status displayed on the progress dialog. In english:  Reading... */
 "storage_provider_status_reading" = "Чтение ...";
@@ -2938,6 +2938,12 @@
 /* Weak/Entropy */
 "audit_quick_summary_very_brief_low_entropy" = "Слабый/Низкая энтропия";
 
+/* 2FA Available - L10n - please keep this as short as possible, "2FA" will probably suffice. The meaning of this string is that Strongbox has discovered the 2 Factor Authentication is available for this entry given it's URL/Domain, but that the user does not have a 2 Factor Code (TOTP) setup within Strongbox */
+"audit_quick_summary_very_brief_two_factor_available" = "2FA Доступна";
+
+/* 2 Factor Authentication is available for this domain. - L10n - The meaning of this string is that Strongbox has discovered the 2 Factor Authentication is available for this entry given it's URL/Domain, but that the user does not have a 2 Factor Code (TOTP) setup within Strongbox */
+"audit_quick_summary_two_factor_available" = "2FA Доступна для этого домена";
+
 /* Password is weak (low entropy) */
 "audit_quick_summary_password_low_entropy" = "Слабый пароль";
 
@@ -2986,8 +2992,8 @@
 /* Pwned */
 "audit_quick_summary_very_brief_password_is_pwned" = "Взломан";
 
-/* Audit: Password is too short. */
-"audit_quick_summary_password_is_too_short" = "Пароль слишком короткий";
+/* Password is too short. */
+"audit_quick_summary_password_is_too_short" = "Password is too short";
 
 /* Found %@ issues in %@ entries - Translators note, both parameters are numbers, e.g. 24 issues found in 12 entries */
 "audit_status_fmt" = "Найдено %@ проблем в %@ записях";
@@ -4580,7 +4586,7 @@
 "quick_view_title_nearly_expired_entries_subtitle" = "Все близкие к истечению срока";
 
 /* Wi-Fi Transfer */
-"safes_vc_wifi_transfer" = "Передача по Wi-Fi";
+"safes_vc_wifi_transfer" = "Через Wi-Fi";
 
 /* Get Started Wizard */
 "safes_vc_quick_start" = "Запуск мастера";
@@ -4866,3 +4872,36 @@
 
 /* Hide Details Panel */
 "main_menu_hide_details_panel" = "Скрыть сведения";
+
+/* %@ (%@ / %@ bits / %@) - L10n Note: 1st Param is the strength category (weak/strong/mediocre, etc). 2nd Param is the number of characters in the password. 3rd parameter is the number of bits of entropy, with 1 decimal place, so "92.3". 4th parameter is the estimated time it will take to crack this password, so "1 million years" */
+"password_strength_summary_char_count_fmt" = "%@ (%@ / %@ бит / %@)";
+
+/* %@ (%@ bits / %@) - L10n Note: 1st Param is the strength category (weak/strong/mediocre, etc). 2nd parameter is the number of bits of entropy, with 1 decimal place, so "92.3". 3rd parameter is the estimated time it will take to crack this password, so "1 million years"*/
+"password_strength_summary_fmt" = "%@ (%@ бит / %@)";
+
+/* %@ characters - 1st param is a simple integer like 22 so e.g. "22 characters" */
+"num_of_characters_fmt" = "%@ символов";
+
+/* %@ bits - 1st param is a number like 36.2 so e.g. "36.2 bits" */
+"num_of_bits_fmt" = "%@ бит";
+
+/* Exclude Item from Audit */
+"exclude_item_from_audit" = "Исключить из аудита";
+
+/* Check with 'Have I Been Pwned?' */
+"check_field_with_hibp" = "Have I Been Pwned?";
+
+/* Pro - A short tag / text that will appear beside Pro features in a badge like fashion - keep v short if possible */
+"pro_badge_text" = "Pro";
+
+/* New Tag... */
+"new_tag_ellipsis" = "Новый тег";
+
+/* Add Tag to Item(s) */
+"add_tag_to_items" = "Добавить тег";
+
+/* Remove Tag from Item(s) */
+"remove_tag_from_items" = "Удалить тег";
+
+/* All Issues */
+"audit_side_bar_nav_all_issues" = "All Issues";

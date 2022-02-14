@@ -2938,6 +2938,12 @@
 /* Weak/Entropy */
 "audit_quick_summary_very_brief_low_entropy" = "Slabá/entropie";
 
+/* 2FA Available - L10n - please keep this as short as possible, "2FA" will probably suffice. The meaning of this string is that Strongbox has discovered the 2 Factor Authentication is available for this entry given it's URL/Domain, but that the user does not have a 2 Factor Code (TOTP) setup within Strongbox */
+"audit_quick_summary_very_brief_two_factor_available" = "2FA k dispozici";
+
+/* 2 Factor Authentication is available for this domain. - L10n - The meaning of this string is that Strongbox has discovered the 2 Factor Authentication is available for this entry given it's URL/Domain, but that the user does not have a 2 Factor Code (TOTP) setup within Strongbox */
+"audit_quick_summary_two_factor_available" = "Pro tuto doménu je k dispozici 2 faktorové ověřování.";
+
 /* Password is weak (low entropy) */
 "audit_quick_summary_password_low_entropy" = "Heslo je slabé (nízké entropie)";
 
@@ -2986,8 +2992,8 @@
 /* Pwned */
 "audit_quick_summary_very_brief_password_is_pwned" = "Pwned";
 
-/* Audit: Password is too short. */
-"audit_quick_summary_password_is_too_short" = "Audit: Heslo je příliš krátké";
+/* Password is too short. */
+"audit_quick_summary_password_is_too_short" = "Heslo je příliš krátké";
 
 /* Found %@ issues in %@ entries - Translators note, both parameters are numbers, e.g. 24 issues found in 12 entries */
 "audit_status_fmt" = "Nalezeno %@ problémů v %@ záznamech";
@@ -4866,3 +4872,36 @@
 
 /* Hide Details Panel */
 "main_menu_hide_details_panel" = "Skrýt panel s detaily";
+
+/* %@ (%@ / %@ bits / %@) - L10n Note: 1st Param is the strength category (weak/strong/mediocre, etc). 2nd Param is the number of characters in the password. 3rd parameter is the number of bits of entropy, with 1 decimal place, so "92.3". 4th parameter is the estimated time it will take to crack this password, so "1 million years" */
+"password_strength_summary_char_count_fmt" = "%@ (%@ / %@ bitů / %@)";
+
+/* %@ (%@ bits / %@) - L10n Note: 1st Param is the strength category (weak/strong/mediocre, etc). 2nd parameter is the number of bits of entropy, with 1 decimal place, so "92.3". 3rd parameter is the estimated time it will take to crack this password, so "1 million years"*/
+"password_strength_summary_fmt" = "%@ (%@ bitů / %@)";
+
+/* %@ characters - 1st param is a simple integer like 22 so e.g. "22 characters" */
+"num_of_characters_fmt" = "%@ znaků";
+
+/* %@ bits - 1st param is a number like 36.2 so e.g. "36.2 bits" */
+"num_of_bits_fmt" = "%@ bitů";
+
+/* Exclude Item from Audit */
+"exclude_item_from_audit" = "Vyloučit položku z auditu";
+
+/* Check with 'Have I Been Pwned?' */
+"check_field_with_hibp" = "Zkontrolovat službou 'Have I Been Pwned?'";
+
+/* Pro - A short tag / text that will appear beside Pro features in a badge like fashion - keep v short if possible */
+"pro_badge_text" = "Pro";
+
+/* New Tag... */
+"new_tag_ellipsis" = "Nový štítek...";
+
+/* Add Tag to Item(s) */
+"add_tag_to_items" = "Přidat štitěk k položkám";
+
+/* Remove Tag from Item(s) */
+"remove_tag_from_items" = "Odstranit štítek z položek";
+
+/* All Issues */
+"audit_side_bar_nav_all_issues" = "Všechny problémy";

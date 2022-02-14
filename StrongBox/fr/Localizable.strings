@@ -390,7 +390,7 @@
 "browse_vc_rename_item_enter_title" = "Veuillez entrer un nouveau titre pour cet élément";
 
 /* All Fields */
-"browse_vc_search_scope_all" = "All";
+"browse_vc_search_scope_all" = "Tous";
 
 /* Sort Items By Title? */
 "browse_vc_sort_by_title" = "Trier les éléments par titre ?";
@@ -2938,6 +2938,12 @@
 /* Weak/Entropy */
 "audit_quick_summary_very_brief_low_entropy" = "Faible/Entropie";
 
+/* 2FA Available - L10n - please keep this as short as possible, "2FA" will probably suffice. The meaning of this string is that Strongbox has discovered the 2 Factor Authentication is available for this entry given it's URL/Domain, but that the user does not have a 2 Factor Code (TOTP) setup within Strongbox */
+"audit_quick_summary_very_brief_two_factor_available" = "2FA disponible";
+
+/* 2 Factor Authentication is available for this domain. - L10n - The meaning of this string is that Strongbox has discovered the 2 Factor Authentication is available for this entry given it's URL/Domain, but that the user does not have a 2 Factor Code (TOTP) setup within Strongbox */
+"audit_quick_summary_two_factor_available" = "L'authentification à deux facteurs est disponible pour ce domaine.";
+
 /* Password is weak (low entropy) */
 "audit_quick_summary_password_low_entropy" = "Le mot de passe est faible (faible entropie)";
 
@@ -2986,8 +2992,8 @@
 /* Pwned */
 "audit_quick_summary_very_brief_password_is_pwned" = "Pwned";
 
-/* Audit: Password is too short. */
-"audit_quick_summary_password_is_too_short" = "Audit : Mot de passe trop court";
+/* Password is too short. */
+"audit_quick_summary_password_is_too_short" = "Password is too short";
 
 /* Found %@ issues in %@ entries - Translators note, both parameters are numbers, e.g. 24 issues found in 12 entries */
 "audit_status_fmt" = "Trouvé %@ problèmes dans %@ entrées";
@@ -4850,19 +4856,52 @@
 "detail_view_no_multiple_items_selected_message_fmt" = "%@ éléments sélectionnés";
 
 /* Toggle Details Panel - L10n shows or hides the right hand side details view panel */
-"nextgen_toolbar_item_toggle_details_panel" = "Toggle Details Panel";
+"nextgen_toolbar_item_toggle_details_panel" = "Afficher/Masquer le panneau de détails";
 
 /* Toggle Sidebar - L10n shows or hides the left hand side bar navigation panel */
-"nextgen_toolbar_item_toggle_sidebar" = "Toggle Sidebar";
+"nextgen_toolbar_item_toggle_sidebar" = "Afficher/Masquer la barre latérale";
 
 /* Recycle Items - This is a verb/action - Recycle the selected items, sending them to the Recycle Bin */
-"generic_recycle_items" = "Recycle Items";
+"generic_recycle_items" = "Envoyer à la corbeille";
 
 /* Recycle Item - This is a verb/action - Recycle the selected item, sending it to the Recycle Bin  */
-"generic_recycle_item" = "Recycle Item";
+"generic_recycle_item" = "Envoyer à la corbeille";
 
 /* Show Details Panel */
-"main_menu_show_details_panel" = "Show Details Panel";
+"main_menu_show_details_panel" = "Afficher le panneau de détails";
 
 /* Hide Details Panel */
-"main_menu_hide_details_panel" = "Hide Details Panel";
+"main_menu_hide_details_panel" = "Masquer le panneau de détails";
+
+/* %@ (%@ / %@ bits / %@) - L10n Note: 1st Param is the strength category (weak/strong/mediocre, etc). 2nd Param is the number of characters in the password. 3rd parameter is the number of bits of entropy, with 1 decimal place, so "92.3". 4th parameter is the estimated time it will take to crack this password, so "1 million years" */
+"password_strength_summary_char_count_fmt" = "%@ (%@ / %@ bits / %@)";
+
+/* %@ (%@ bits / %@) - L10n Note: 1st Param is the strength category (weak/strong/mediocre, etc). 2nd parameter is the number of bits of entropy, with 1 decimal place, so "92.3". 3rd parameter is the estimated time it will take to crack this password, so "1 million years"*/
+"password_strength_summary_fmt" = "%@ (%@ bits / %@)";
+
+/* %@ characters - 1st param is a simple integer like 22 so e.g. "22 characters" */
+"num_of_characters_fmt" = "%@ caractères";
+
+/* %@ bits - 1st param is a number like 36.2 so e.g. "36.2 bits" */
+"num_of_bits_fmt" = "%@ bits";
+
+/* Exclude Item from Audit */
+"exclude_item_from_audit" = "Exclure l'élément de l'audit";
+
+/* Check with 'Have I Been Pwned?' */
+"check_field_with_hibp" = "Vérifier avec \"Have I Been Pwned ?\"";
+
+/* Pro - A short tag / text that will appear beside Pro features in a badge like fashion - keep v short if possible */
+"pro_badge_text" = "Pro";
+
+/* New Tag... */
+"new_tag_ellipsis" = "Nouvelle étiquette...";
+
+/* Add Tag to Item(s) */
+"add_tag_to_items" = "Ajouter une étiquette à l'élément";
+
+/* Remove Tag from Item(s) */
+"remove_tag_from_items" = "Supprimer l'étiquette de l'élément";
+
+/* All Issues */
+"audit_side_bar_nav_all_issues" = "All Issues";

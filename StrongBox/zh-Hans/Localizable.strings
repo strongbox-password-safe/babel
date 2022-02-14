@@ -2938,6 +2938,12 @@
 /* Weak/Entropy */
 "audit_quick_summary_very_brief_low_entropy" = "弱/熵";
 
+/* 2FA Available - L10n - please keep this as short as possible, "2FA" will probably suffice. The meaning of this string is that Strongbox has discovered the 2 Factor Authentication is available for this entry given it's URL/Domain, but that the user does not have a 2 Factor Code (TOTP) setup within Strongbox */
+"audit_quick_summary_very_brief_two_factor_available" = "可设置两步验证";
+
+/* 2 Factor Authentication is available for this domain. - L10n - The meaning of this string is that Strongbox has discovered the 2 Factor Authentication is available for this entry given it's URL/Domain, but that the user does not have a 2 Factor Code (TOTP) setup within Strongbox */
+"audit_quick_summary_two_factor_available" = "该域名支持两步验证。";
+
 /* Password is weak (low entropy) */
 "audit_quick_summary_password_low_entropy" = "密码较弱 (低熵)";
 
@@ -2986,8 +2992,8 @@
 /* Pwned */
 "audit_quick_summary_very_brief_password_is_pwned" = "已泄露";
 
-/* Audit: Password is too short. */
-"audit_quick_summary_password_is_too_short" = "审计：密码过短";
+/* Password is too short. */
+"audit_quick_summary_password_is_too_short" = "Password is too short";
 
 /* Found %@ issues in %@ entries - Translators note, both parameters are numbers, e.g. 24 issues found in 12 entries */
 "audit_status_fmt" = "在 %@ 个条目中找到 %@ 个问题";
@@ -4862,7 +4868,40 @@
 "generic_recycle_item" = "回收项目";
 
 /* Show Details Panel */
-"main_menu_show_details_panel" = "Show Details Panel";
+"main_menu_show_details_panel" = "显示详细信息面板";
 
 /* Hide Details Panel */
-"main_menu_hide_details_panel" = "Hide Details Panel";
+"main_menu_hide_details_panel" = "显示详细信息面板";
+
+/* %@ (%@ / %@ bits / %@) - L10n Note: 1st Param is the strength category (weak/strong/mediocre, etc). 2nd Param is the number of characters in the password. 3rd parameter is the number of bits of entropy, with 1 decimal place, so "92.3". 4th parameter is the estimated time it will take to crack this password, so "1 million years" */
+"password_strength_summary_char_count_fmt" = "%@ (%@ / %@ bits / %@)";
+
+/* %@ (%@ bits / %@) - L10n Note: 1st Param is the strength category (weak/strong/mediocre, etc). 2nd parameter is the number of bits of entropy, with 1 decimal place, so "92.3". 3rd parameter is the estimated time it will take to crack this password, so "1 million years"*/
+"password_strength_summary_fmt" = "%@ (%@ bits / %@)";
+
+/* %@ characters - 1st param is a simple integer like 22 so e.g. "22 characters" */
+"num_of_characters_fmt" = "%@ 个字符";
+
+/* %@ bits - 1st param is a number like 36.2 so e.g. "36.2 bits" */
+"num_of_bits_fmt" = "%@ 位";
+
+/* Exclude Item from Audit */
+"exclude_item_from_audit" = "从审计中排除项目";
+
+/* Check with 'Have I Been Pwned?' */
+"check_field_with_hibp" = "使用 \"Have I Been Pwned?\" 检查";
+
+/* Pro - A short tag / text that will appear beside Pro features in a badge like fashion - keep v short if possible */
+"pro_badge_text" = "Pro";
+
+/* New Tag... */
+"new_tag_ellipsis" = "New Tag...";
+
+/* Add Tag to Item(s) */
+"add_tag_to_items" = "Add Tag to Item(s)";
+
+/* Remove Tag from Item(s) */
+"remove_tag_from_items" = "Remove Tag from Item(s)";
+
+/* All Issues */
+"audit_side_bar_nav_all_issues" = "All Issues";
