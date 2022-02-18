@@ -1824,7 +1824,7 @@
 "sspc_local_network_storage_location" = "Über Wi-Fi (oder LAN) übertragen";
 
 /* A storage provider is in the process of reading. This is the status displayed on the progress dialog. In english:  Reading... */
-"storage_provider_status_reading" = "Wird gelesen ...";
+"storage_provider_status_reading" = "Wird eingelesen …";
 
 /* Identify to Open Preferences */
 "open_sequence_biometric_unlock_preferences_message" = "Identifizieren, um Einstellungen zu öffnen";
@@ -2993,7 +2993,7 @@
 "audit_quick_summary_very_brief_password_is_pwned" = "Pwned";
 
 /* Password is too short. */
-"audit_quick_summary_password_is_too_short" = "Password is too short";
+"audit_quick_summary_password_is_too_short" = "Das Passwort ist zu kurz";
 
 /* Found %@ issues in %@ entries - Translators note, both parameters are numbers, e.g. 24 issues found in 12 entries */
 "audit_status_fmt" = "%@ Problem(e) in %@ Einträgen gefunden";
@@ -4880,28 +4880,46 @@
 "password_strength_summary_fmt" = "%@ (%@ Bits / %@)";
 
 /* %@ characters - 1st param is a simple integer like 22 so e.g. "22 characters" */
-"num_of_characters_fmt" = "%@ characters";
+"num_of_characters_fmt" = "%@ Zeichen";
 
 /* %@ bits - 1st param is a number like 36.2 so e.g. "36.2 bits" */
-"num_of_bits_fmt" = "%@ bits";
+"num_of_bits_fmt" = "%@ Bits";
 
 /* Exclude Item from Audit */
-"exclude_item_from_audit" = "Exclude Item from Audit";
+"exclude_item_from_audit" = "Eintrag von Prüfung ausschließen";
 
 /* Check with 'Have I Been Pwned?' */
-"check_field_with_hibp" = "Check with 'Have I Been Pwned?'";
+"check_field_with_hibp" = "Mit „Datenbank, von im Internet veröffentlichten Passwörtern” überprüfen";
 
 /* Pro - A short tag / text that will appear beside Pro features in a badge like fashion - keep v short if possible */
 "pro_badge_text" = "Pro";
 
 /* New Tag... */
-"new_tag_ellipsis" = "New Tag...";
+"new_tag_ellipsis" = "Neues Schlagwort …";
 
 /* Add Tag to Item(s) */
-"add_tag_to_items" = "Add Tag to Item(s)";
+"add_tag_to_items" = "Schlagwort zu Einträgen hinzufügen";
 
 /* Remove Tag from Item(s) */
-"remove_tag_from_items" = "Remove Tag from Item(s)";
+"remove_tag_from_items" = "Schlagwort aus Einträgen entfernen";
 
 /* All Issues */
-"audit_side_bar_nav_all_issues" = "All Issues";
+"audit_side_bar_nav_all_issues" = "Alle Probleme";
+
+/* There are some blank characters (e.g. spaces, tabs) at the start or end of your password.\n\nShould Strongbox tidy up these extraneous characters? */
+"field_tidy_message_tidy_up_password" = "Am Anfang oder Ende Ihres Passworts befinden sich einige Leerstellen (z. B. Leerzeichen, Tabulatoren).\n\nSoll Strongbox diese überflüssigen Zeichen entfernen?";
+
+/* Fun */
+"custom_app_icon_category_fun" = "Unterhaltung";
+
+/* Utilities */
+"custom_app_icon_category_utilities" = "Dienstprogramme";
+
+/* Default */
+"custom_app_icon_category_default" = "Standard";
+
+/* Are you sure you want to reset to the default App Icon? */
+"are_you_sure_reset_to_default_app_icon" = "Möchten Sie wirklich auf das Standard-App-Symbol zurücksetzen?";
+
+/* This icon is only available for Pro users. */
+"custom_app_icon_pro_only" = "Dieses Symbol steht nur für Pro-Benutzer zur Verfügung.";
