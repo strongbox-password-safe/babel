@@ -666,7 +666,7 @@
 "prefs_vc_app_version_info_free_fmt" = "Strongbox %@ (бесплатная)";
 
 /* Pro Version %@ (Trial - %ld days left) */
-"prefs_vc_app_version_info_pro_trial_fmt" = "Strongbox %@ (пробная Pro версия - осталось %ld дней)";
+"prefs_vc_app_version_info_pro_trial_fmt" = "Strongbox %@ (пробная Pro - осталось %ld дней)";
 
 /* Auto Lock Database Delay */
 "prefs_vc_auto_lock_database_delay" = "Задержка автоблокировки";
@@ -1842,7 +1842,7 @@
 "upgrade_family_sharing_button_title" = "Требуется семейный доступ Apple?";
 
 /* Need Apple Family Sharing? */
-"upgrade_family_sharing_button_subtitle" = "Нажмите для получения дополнительной информации";
+"upgrade_family_sharing_button_subtitle" = "Нажмите для информации ...";
 
 /* Select your preferred generated field title. */
 "select_generated_field_title" = "Варианты паролей";
@@ -2939,10 +2939,10 @@
 "audit_quick_summary_very_brief_low_entropy" = "Слабый/Низкая энтропия";
 
 /* 2FA Available - L10n - please keep this as short as possible, "2FA" will probably suffice. The meaning of this string is that Strongbox has discovered the 2 Factor Authentication is available for this entry given it's URL/Domain, but that the user does not have a 2 Factor Code (TOTP) setup within Strongbox */
-"audit_quick_summary_very_brief_two_factor_available" = "2FA Доступна";
+"audit_quick_summary_very_brief_two_factor_available" = "2FA доступна";
 
 /* 2 Factor Authentication is available for this domain. - L10n - The meaning of this string is that Strongbox has discovered the 2 Factor Authentication is available for this entry given it's URL/Domain, but that the user does not have a 2 Factor Code (TOTP) setup within Strongbox */
-"audit_quick_summary_two_factor_available" = "2FA Доступна для этого домена";
+"audit_quick_summary_two_factor_available" = "2FA доступна для этого домена";
 
 /* Password is weak (low entropy) */
 "audit_quick_summary_password_low_entropy" = "Слабый пароль";
@@ -4919,7 +4919,7 @@
 "custom_app_icon_category_default" = "По умолчанию";
 
 /* Are you sure you want to reset to the default App Icon? */
-"are_you_sure_reset_to_default_app_icon" = "Вы хотите установить значок приложения по умолчанию?";
+"are_you_sure_reset_to_default_app_icon" = "Вы хотите установить иконку приложения по умолчанию?";
 
 /* This icon is only available for Pro users. */
 "custom_app_icon_pro_only" = "Доступно только в Pro версии.";
@@ -4940,10 +4940,37 @@
 "pro_status_monthly_pro" = "Pro (Месячная подписка)";
 
 /* Free Trial (%@ days left) */
-"pro_status_free_trial_days_left_fmt" = "Бесплатная пробная версия (осталось %@ дней)";
+"pro_status_free_trial_days_left_fmt" = "Бесплатная Pro (осталось %@ дней)";
 
 /* Unlicensed (Please Upgrade) */
 "pro_status_unlicensed_please_upgrade" = "Бесплатная (Пожалуйста, обновитесь)";
 
 /* Unlicensed */
 "pro_status_unlicensed" = "Бесплатная";
+
+/* Unsupported by Database Format */
+"unsupported_by_database_format" = "Не поддерживается форматом БД";
+
+/* Include in Audit */
+"action_include_in_audit" = "Включить в аудит";
+
+/* Exclude from Audit */
+"action_exclude_from_audit" = "Исключить из аудита";
+
+/* [Database] Title (Username) */
+"quick_type_format_database_title_username" = "[БД] Название [Логин]";
+
+/* [Database] Title */
+"quick_type_format_database_title" = "[БД] Название";
+
+/* [Database] Username */
+"quick_type_format_database_username" = "[БД] Логин";
+
+/* New UI Available */
+"new_ui_available_title" = "Доступен новый UI";
+
+/* Would you like to use our latest new and improved \"NextGen\" UI?\n\nWe think you'll like it! */
+"new_ui_available_message" = "Хотите использовать интерфейс NextGen?";
+
+/* Ask Me Later */
+"generic_ask_me_later" = "Спросить позже";
