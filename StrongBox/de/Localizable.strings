@@ -1082,7 +1082,7 @@
 "pw_history_vc_prompt_disable_history_title" = "Verlauf deaktivieren?";
 
 /* Are you sure you want to disable history? This will clear previous passwords. */
-"pw_history_vc_prompt_disable_history_message" = "Sind Sie sicher, dass Sie den Verlauf deaktivieren möchten? Dies wird die vorherigen Passwörter löschen.";
+"pw_history_vc_prompt_disable_history_message" = "Möchten Sie den Verlauf wirklich deaktivieren? Dadurch werden vorherigen Passwörter gelöscht.";
 
 /* Problem Saving Database */
 "pw_history_vc_error_problem_saving" = "Problem beim Speichern der Datenbank";
@@ -1527,7 +1527,7 @@
 "cloud_sessions_prompt_signout_google_title" = "Von Google Drive abmelden?";
 
 /* Are you sure you want to sign out of Google Drive? */
-"cloud_sessions_prompt_signout_google_message" = "Sind Sie sicher, dass Sie sich von Google Drive abmelden möchten?";
+"cloud_sessions_prompt_signout_google_message" = "Möchten Sie sich wirklich von Google Drive abmelden?";
 
 /* Sign Out Successful */
 "cloud_sessions_prompt_google_signout_success_title" = "Abmeldung erfolgreich";
@@ -1539,7 +1539,7 @@
 "cloud_sessions_prompt_unlink_dropbox_title" = "Dropbox trennen?";
 
 /* Are you sure you want to unlink Strongbox from Dropbox? */
-"cloud_sessions_prompt_unlink_dropbox_message" = "Sind Sie sicher, dass Sie Strongbox von Dropbox trennen möchten?";
+"cloud_sessions_prompt_unlink_dropbox_message" = "Möchten Sie die Verknüpfung zwischen Strongbox und Dropbox wirklich aufheben?";
 
 /* Unlink Successful */
 "cloud_sessions_prompt_dropbox_unlink_success_title" = "Trennen erfolgreich";
@@ -1551,7 +1551,7 @@
 "cloud_sessions_prompt_signout_onedrive_title" = "Von OneDrive abmelden?";
 
 /* Are you sure you want to sign out of OneDrive? */
-"cloud_sessions_prompt_signout_onedrive_message" = "Sind Sie sicher, dass Sie sich von OneDrive abmelden möchten?";
+"cloud_sessions_prompt_signout_onedrive_message" = "Möchten Sie sich wirklich von OneDrive abmelden?";
 
 /* Signout Successful */
 "cloud_sessions_prompt_onedrive_signout_success_title" = "Abmeldung erfolgreich";
@@ -2260,16 +2260,16 @@
 "mac_please_enter_a_title_for_new_group" = "Bitte geben Sie einen Titel für Ihre neue Gruppe ein";
 
 /* Are you sure you want to send '%@' to the Recycle Bin? - Translation Note: 1st Param is the Item Title */
-"mac_are_you_sure_recycle_bin_yes_no_fmt" = "Sind Sie sicher, dass Sie '%@' in den Papierkorb verschieben möchten?";
+"mac_are_you_sure_recycle_bin_yes_no_fmt" = "Möchten Sie „%@” wirklich in den Papierkorb verschieben?";
 
 /* Are you sure you want to delete '%@'? - Translation Note: 1st Param is the Item Title  */
-"mac_are_you_sure_delete_yes_no_fmt" = "Sind Sie sicher, dass Sie '%@' löschen möchten?";
+"mac_are_you_sure_delete_yes_no_fmt" = "Möchten Sie „%@” wirklich löschen?";
 
 /* Are you sure you want to send %lu items to the Recycle Bin? - Translation Note: 1st Param is the number of items being deleted  */
 "mac_are_you_sure_recycle_bin_multiple_yes_no_fmt" = "Möchten Sie wirklich %lu Elemente in den Papierkorb verschieben?";
 
 /* Are you sure you want to delete %lu items? - Translation Note: 1st Param is the number of items being deleted */
-"mac_are_you_sure_delete_multiple_yes_no_fmt" = "Sind Sie sicher, dass Sie %lu Einträge löschen möchten?";
+"mac_are_you_sure_delete_multiple_yes_no_fmt" = "Möchten Sie wirklich %lu Einträge löschen?";
 
 /* Delete Items */
 "mac_menu_item_delete_items" = "Einträge löschen";
@@ -2291,7 +2291,7 @@
 "mac_csv_file_contains_zero_rows" = "Die CSV-Datei enthält keine Zeilen. Import nicht möglich.";
 
 /* Found %lu valid rows in CSV file. Are you sure you would like to import now? - Translators Note: 1st Param is the number of rows found in the CSV File */
-"mac_found_n_valid_rows_in_csv_file_prompt_to_import_fmt" = "%lu gültige Zeilen in CSV-Datei gefunden. Sind Sie sicher, dass Sie jetzt importieren möchten?";
+"mac_found_n_valid_rows_in_csv_file_prompt_to_import_fmt" = "%lu gültige Zeilen in der CSV-Datei gefunden. Möchten Sie diese jetzt wirklich importieren?";
 
 /* CSV File Successfully Imported. */
 "mac_csv_file_successfully_imported" = "CSV-Datei erfolgreich importiert.";
@@ -2568,10 +2568,10 @@
 "mac_node_details_edit_custom_field" = "Benutzerdefiniertes Feld bearbeiten";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Sind Sie sicher, dass Sie das benutzerdefinierte Feld '%@' entfernen möchten?";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Möchten Sie das benutzerdefinierte Feld „%@” wirklich entfernen?";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Sind Sie sicher, dass Sie das benutzerdefinierte Feld '%@' entfernen möchten?";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Möchten Sie das benutzerdefinierte Feld „%@” wirklich entfernen?";
 
 /* Add Custom Field */
 "mac_node_details_add_custom_field" = "Benutzerdefiniertes Feld hinzufügen";
@@ -2583,7 +2583,7 @@
 "mac_node_details_you_cannot_use_key_reserved" = "Sie können diesen Schlüssel hier nicht verwenden, da er für Standard-KeePass-Felder reserviert ist.";
 
 /* Are you sure you want to remove the attachment: %@? */
-"mac_node_details_are_you_sure_remove_attachment_fmt" = "Sind Sie sicher, dass Sie den Anhang %@ entfernen möchten?";
+"mac_node_details_are_you_sure_remove_attachment_fmt" = "Möchten Sie den Anhang „%@” wirklich entfernen?";
 
 /* Password Copied and URL Launched */
 "mac_node_details_password_copied_url_launched" = "Passwort kopiert und URL aufgerufen";
@@ -2610,10 +2610,10 @@
 "mac_field_changed_popup_notification_fmt" = "'%@' - %@ geändert ...";
 
 /* Are you sure you want to delete this history item? */
-"mac_keepass_history_are_sure_delete" = "Sind Sie sicher, dass Sie diesen Verlaufseintrag löschen möchten?";
+"mac_keepass_history_are_sure_delete" = "Möchten Sie diesen Eintrag wirklich löschen?";
 
 /* Are you sure you want to restore this history item? */
-"mac_keepass_history_are_sure_restore" = "Sind Sie sicher, dass Sie diesen Verlaufseintrag wiederherstellen möchten?";
+"mac_keepass_history_are_sure_restore" = "Möchten Sie diesen Verlaufseintrag wirklich wiederherstellen?";
 
 /* Could not open this file. */
 "mac_could_not_open_this_file" = "Diese Datei konnte nicht geöffnet werden.";
@@ -2876,7 +2876,7 @@
 "browse_vc_duplicate_prompt_title" = "Eintrag duplizieren?";
 
 /* Are you sure you want to duplicate this item? */
-"browse_vc_duplicate_prompt_message" = "Sind Sie sicher, dass Sie diesen Eintrag duplizieren möchten?";
+"browse_vc_duplicate_prompt_message" = "Möchten Sie diesen Eintrag wirklich duplizieren?";
 
 /* It looks like your database is encrypted by Microsoft InTune probably due to corporate policy. */
 "error_database_is_encrypted_ms_intune" = "Es sieht so aus, als ob Ihre Datenbank durch Microsoft InTune verschlüsselt ist, wahrscheinlich aufgrund von Unternehmensrichtlinien.";
@@ -3023,13 +3023,13 @@
 "audit_status_no_issues_found" = "Keine Probleme gefunden";
 
 /* The credentials were incorrect for this database. Are you sure you are using this key file?\n\nNB: A key files are not the same as your database file. */
-"open_sequence_problem_opening_incorrect_credentials_message_verify_key_file" = "Die Zugangsdaten für diese Datenbank waren falsch. Sind Sie sicher, dass Sie diese Schlüsseldatei verwenden?\n\nBitte beachten Sie, dass Schlüsseldateien nicht dasselbe wie Ihre Datenbankdateien (KDBX/KDB) sind.";
+"open_sequence_problem_opening_incorrect_credentials_message_verify_key_file" = "Die Zugangsdaten für diese Datenbank waren falsch. Möchte Sie diese Schlüsseldatei wirklich verwenden?\n\nBitte beachten Sie, dass Schlüsseldateien nicht dasselbe wie Ihre Datenbankdateien (KDBX/KDB) sind.";
 
 /* Is your Key File correct? */
 "casg_key_file_correct_title" = "Ist Ihre Schlüsseldatei korrekt?";
 
 /* You have configured this database to open with a key file but the key file you have chosen doesn't look valid.\n\nAre you sure you are using this key file?\n\nNB: A key file is not the same as your database file" */
-"casg_key_file_correct_message" = "Sie haben diese Datenbank so konfiguriert, dass sie mit einer Schlüsseldatei geöffnet wird, aber die von Ihnen ausgewählte Schlüsseldatei scheint ungültig zu sein.\n\nSind Sie sicher, dass Sie diese Schlüsseldatei verwenden?\n\nBitte beachten: Eine Schlüsseldatei ist nicht dasselbe wie Ihre Datenbankdatei.";
+"casg_key_file_correct_message" = "Sie haben diese Datenbank so konfiguriert, dass sie mit einer Schlüsseldatei geöffnet wird, aber die von Ihnen ausgewählte Schlüsseldatei scheint ungültig zu sein.\n\nMöchten Sie diese Schlüsseldatei wirklich verwenden?\n\nBitte beachten: Eine Schlüsseldatei ist nicht dasselbe wie Ihre Datenbankdatei.";
 
 /* Yes, the key file is correct */
 "casg_key_file_correct_yes_key_file_correct" = "Ja, die Schlüsseldatei ist korrekt";
