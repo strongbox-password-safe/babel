@@ -171,7 +171,7 @@
 "safesvc_option_keep_local" = "Lokaal houden";
 
 /* iCloud Switched Off */
-"safesvc_icloud_unavailable_title" = "iCloud Switched Off";
+"safesvc_icloud_unavailable_title" = "iCloud uitgeschakeld";
 
 /* What would you like to do with the databases currently on this device? */
 "safesvc_icloud_unavailable_question" = "Wat wil je doen met de databases op dit apparaat?";
@@ -609,7 +609,7 @@
 "item_details_setup_totp" = "TOTP instellen...";
 
 /* Could not set TOTP because the format is unsupported. */
-"item_details_setup_totp_failed_message" = "Could not set TOTP because the format is unsupported.";
+"item_details_setup_totp_failed_message" = "Kan TOTP niet instellen omdat het formaat niet wordt ondersteund.";
 
 /* Failed to Set TOTP */
 "item_details_setup_totp_failed_title" = "TOTP instellen mislukt";
@@ -1389,7 +1389,7 @@
 "key_files_vc_no_key_file" = "Geen sleutelbestand";
 
 /* The stored convenience password or other composite key factors (key file/hardware key) were incorrect for this database. Convenience Unlock has been Disabled. */
-"open_sequence_problem_opening_convenience_incorrect_message" = "The stored convenience password or other composite key factors (key file/hardware key) were incorrect for this database. Convenience Unlock has been Disabled.";
+"open_sequence_problem_opening_convenience_incorrect_message" = "Het opgeslagen gemakswachtwoord of andere samengestelde sleutelfactoren (sleutelbestand/hardware sleutel) zijn onjuist voor deze database. Handige ontgrendeling is uitgeschakeld.";
 
 /* Incorrect Credentials */
 "open_sequence_problem_opening_incorrect_credentials_title" = "Onjuiste aanmeldgegevens";
@@ -1707,7 +1707,7 @@
 "safes_vc_tip" = "Tip: Schuif naar links op de database voor opties";
 
 /* Tip: Tap to Copy or Long Tap for Large View */
-"item_details_tip" = "Tip: Tap to Copy or Long Tap for Large View";
+"item_details_tip" = "Tip: Tik om te kopiëren of lang te tikken voor een grote weergave";
 
 /* Tip: Slide Left for Options or Tap to View */
 "keepass_history_tip" = "Tip: Veeg naar links voor opties of tik om te bekijken";
@@ -1716,7 +1716,7 @@
 "browse_vc_action_pin" = "Favoriete";
 
 /* Un-Favourite */
-"browse_vc_action_unpin" = "Un-Favourite";
+"browse_vc_action_unpin" = "Geen Favoriete";
 
 /* Section Header Title for Expired Items */
 "browse_vc_section_title_expired" = "Verlopen";
@@ -1725,7 +1725,7 @@
 "browse_vc_section_title_nearly_expired" = "Bijna verlopen";
 
 /* Section Header Title for Favourite Items */
-"browse_vc_section_title_pinned" = "Favourites";
+"browse_vc_section_title_pinned" = "Favorieten";
 
 /* Section Header Title for Recent Items */
 "browse_vc_section_title_recents" = "Recente items";
@@ -1788,7 +1788,7 @@
 "node_serialization_error_duplicate_group_title_fmt" = "Deze items kunnen niet worden gekopieerd omdat ze twee groepen met dezelfde titel '%@' bevatten die niet wordt ondersteund door dit database-formaat.";
 
 /* Memory */
-"database_metadata_field_argon2_memory" = "Memory";
+"database_metadata_field_argon2_memory" = "Geheugen";
 
 /* Are you sure you want to Remove this backup? */
 "backup_vc_are_you_sure_remove" = "Weet u zeker dat u deze backup wilt verwijderen?";
@@ -1821,7 +1821,7 @@
 "open_sequence_error_reading_key_file_autofill_context" = "Sleutelbestand kan niet worden gelezen. Is het goed geïmporteerd? Controleer het beheer van sleutelbestanden in de voorkeuren";
 
 /* Transfer over Wi-Fi (or LAN) */
-"sspc_local_network_storage_location" = "Transfer over Wi-Fi (or LAN)";
+"sspc_local_network_storage_location" = "Overdracht via Wi-Fi (of LAN)";
 
 /* A storage provider is in the process of reading. This is the status displayed on the progress dialog. In english:  Reading... */
 "storage_provider_status_reading" = "Lezen...";
@@ -2357,7 +2357,7 @@
 "mac_enter_custom_url_default" = "Voer uw aangepaste standaard URL in";
 
 /* Please Enter Your Custom Default URL */
-"mac_enter_custom_notes_default" = "Please Enter Your Custom Default Notes";
+"mac_enter_custom_notes_default" = "Voer uw aangepaste standaardnotities in";
 
 /* Welcome to Strongbox */
 "mac_welcome_to_strongbox_title" = "Welkom bij Strongbox";
@@ -2490,7 +2490,7 @@
 "mac_select_key_file" = "Sleutelbestand selecteren";
 
 /* You must use at least one of either a password, a key file or a hardware key for your master credentials. */
-"mac_you_must_use_at_least_a_password_or_key_file" = "You must use at least one of either a password, a key file or a hardware key for your master credentials.";
+"mac_you_must_use_at_least_a_password_or_key_file" = "U moet ten minste één van ofwel een wachtwoord, een sleutelbestand of een hardware sleutel voor uw hoofdreferenties gebruiken.";
 
 /* Password cannot be Empty */
 "mac_password_cannot_be_empty" = "Wachtwoord mag niet leeg zijn";
@@ -2694,7 +2694,7 @@
 "mac_key_file_configured_but_filename_hidden" = "Geconfigureerd";
 
 /* %@ (Configured) - (Translators Note: User is using a key file that has previously been set/remembered by Strongbox. First parameter is the filename of the key file. This appears on the unlock screen. */
-"mac_key_file_filename_configured_fmt" = "%@ (Configured)";
+"mac_key_file_filename_configured_fmt" = "%@ (geconfigureerd)";
 
 /* Touch ID/Apple Watch Unlock is not possible at the moment because Touch ID/Apple Watch is not available. */
 "mac_info_biometric_unlock_not_possible_right_now" = "Touch ID/Apple Watch ontgrendeling is momenteel niet mogelijk omdat Touch ID/Apple Watch niet beschikbaar is.";
@@ -2745,7 +2745,7 @@
 "mac_convenience_expiry_period_never" = "Nooit";
 
 /* App Exit (Memory Only) */
-"mac_convenience_expiry_period_on_app_exit" = "App Exit (Memory Only)";
+"mac_convenience_expiry_period_on_app_exit" = "App afsluiten (alleen geheugen)";
 
 /* Unlock with Touch ID or Watch */
 "mac_unlock_screen_button_title_convenience_unlock" = "Ontgrendelen met Touch-ID of een Face-ID";
@@ -2775,13 +2775,13 @@
 "open_sequence_cannot_use_yubikey_in_autofill_mode" = "Hardware Key Unlock wordt niet ondersteund in AutoFill-modus vanwege systeembeperkingen. U kunt in plaats daarvan een virtuele hardwaresleutel configureren.";
 
 /* Hardware Key Unlock is only available in the Pro edition of Strongbox */
-"open_sequence_yubikey_only_available_in_pro" = "Hardware Key Unlock is only available in the Pro edition of Strongbox";
+"open_sequence_yubikey_only_available_in_pro" = "Hardware Key Ontgrendelen is alleen beschikbaar in de Pro-editie van Strongbox";
 
 /* Disabled (Pro Edition Only) */
 "casg_yubikey_configured_disabled_pro_only" = "Uitgeschakeld (alleen Pro Edition)";
 
 /* Hardware Key (Pro Edition Only) */
-"casg_section_header_yubikey_pro_only" = "Hardware Key (Pro Edition Only)";
+"casg_section_header_yubikey_pro_only" = "Hardware Sleutel (Pro Editie alleen)";
 
 /* Unknown (Translators Note: Used when generally when something can't be determined, e.g. The URL or file name of a database, or the type of storage provider used, or the format of a newly opened database etc.)*/
 "generic_unknown" = "Onbekend";
@@ -2790,7 +2790,7 @@
 "mac_valid_credentials" = "Geldige aanmeldgegevens";
 
 /* Could not get challenge response from hardware key */
-"mac_error_getting_challenge_response_yubikey" = "Could not get challenge response from hardware key";
+"mac_error_getting_challenge_response_yubikey" = "Kon geen antwoord krijgen van de hardware toets";
 
 /* Refreshing... (Translators Note: Used whenever running a fairly short operation to indicate somehting is happening, e.g. when polling hardware key status (can take a few seconds)) */
 "generic_refreshing_ellipsis" = "Verversen...";
@@ -2802,7 +2802,7 @@
 "generic_none" = "Geen";
 
 /* Hardware Key (Pro Only) */
-"mac_lock_screen_yubikey_popup_menu_yubico_pro_only" = "Hardware Key (Pro Only)";
+"mac_lock_screen_yubikey_popup_menu_yubico_pro_only" = "Hardware Sleutel (uitsluitend Pro)";
 
 "casg_yubikey_configured_mfi" = "Lightning";
 
@@ -2822,7 +2822,7 @@
 "yubikey_insert_the_key_to_read_the_otp" = "Plaats de sleutel om de OTP te lezen";
 
 /* Communicating with hardware key... */
-"yubikey_communicating_with_key_ellipsis" = "Communicating with hardware key...";
+"yubikey_communicating_with_key_ellipsis" = "Communiceren met hardware sleutel...";
 
 /* Icon Set */
 "browse_prefs_icon_set" = "Pictogramset";
@@ -2831,7 +2831,7 @@
 "keepass_icon_set_classic" = "KeePass Classic";
 
 /* SF Symbols */
-"keepass_icon_set_sf_symbols" = "SF Symbols";
+"keepass_icon_set_sf_symbols" = "SF symbolen";
 
 /* Translators Note: 1 parameter here to mention Biometric unlock, which depends on the device (will be either: 'Touch ID Unlock' or 'Face ID Unlock') */
 "upgrade_short_developer_message_fmt" = "Hallo, Mark hier, ik ben de ontwikkelaar van Strongbox. Om je te laten weten dat Strongbox werkt op het freemium model, wat betekent dat er een gratis en een pro versie is. Ik hoop echt dat je Strongbox elke dag nuttig vind.\n\nIk vroeg me af of u zou overwegen om upgraden? Door het upgraden help je de app-ontwikkelaar en kunnen we ondersteunen en continue verbetering mogelijk te maken.\n\nU ook veilige toegang tot de grote Pro functies zoals %@, PIN Codes & FavIcons!\n\nIk hou van het werken aan deze app en met uw steun kan ik dat blijven doen.\n\nDank u,\n-Mark";
@@ -2939,10 +2939,10 @@
 "audit_quick_summary_very_brief_low_entropy" = "Zwak/Entropie";
 
 /* 2FA Available - L10n - please keep this as short as possible, "2FA" will probably suffice. The meaning of this string is that Strongbox has discovered the 2 Factor Authentication is available for this entry given it's URL/Domain, but that the user does not have a 2 Factor Code (TOTP) setup within Strongbox */
-"audit_quick_summary_very_brief_two_factor_available" = "2FA Available";
+"audit_quick_summary_very_brief_two_factor_available" = "2FA beschikbaar";
 
 /* 2 Factor Authentication is available for this domain. - L10n - The meaning of this string is that Strongbox has discovered the 2 Factor Authentication is available for this entry given it's URL/Domain, but that the user does not have a 2 Factor Code (TOTP) setup within Strongbox */
-"audit_quick_summary_two_factor_available" = "2 Factor Authentication is available for this domain.";
+"audit_quick_summary_two_factor_available" = "Tweestapsverificatie is beschikbaar voor dit domein.";
 
 /* Password is weak (low entropy) */
 "audit_quick_summary_password_low_entropy" = "Wachtwoord is zwak (lage entropie)";
@@ -2993,7 +2993,7 @@
 "audit_quick_summary_very_brief_password_is_pwned" = "Pwned";
 
 /* Password is too short. */
-"audit_quick_summary_password_is_too_short" = "Password is too short";
+"audit_quick_summary_password_is_too_short" = "Wachtwoord is te kort";
 
 /* Found %@ issues in %@ entries - Translators note, both parameters are numbers, e.g. 24 issues found in 12 entries */
 "audit_status_fmt" = "Gevonden %@ problemen in %@ items";
@@ -3053,7 +3053,7 @@
 "audit_hibp_warning_title" = "HIBP Disclaimer";
 
 /* I understand that an anonymised portion of my password(s) will be sent over the web (HTTPS) to the 'Have I Been Pwned?' password checking service (using a secure k-anonymity technique) and that I fully consent to this functionality. I also absolve Strongbox, Mark McGuill and Phoebe Code Limited of all liability for using this feature. */
-"audit_hibp_warning_message" = "I understand that an anonymised portion of my password(s) will be sent over the web (HTTPS) to the 'Have I Been Pwned?' password checking service (using a secure k-anonymity technique) and that I fully consent to this functionality. I also absolve Strongbox, Mark McGuill and Phoebe Code Limited of all liability for using this feature.";
+"audit_hibp_warning_message" = "Ik begrijp dat een geanonimiseerd deel van mijn wachtwoorden via het web (HTTPS) zal worden verzonden naar de 'Heb ik een Pwned? wachtwoordcontroleservice (met behulp van een veilige k-anonimiteitstechniek) die ik volledig accepteer deze functionaliteit. Ik ablos ook Strongbox, Mark McGuill en Phoebe Code Limited van alle aansprakelijkheid voor het gebruik van deze functie.";
 
 /* No, I don't want to use this feature */
 "audit_hibp_warning_no" = "Nee, ik wil deze functie niet gebruiken";
@@ -3194,7 +3194,7 @@
 "audit_drill_down_no_excluded_items_title" = "Geen uitgesloten items";
 
 /* You have not explicitly excluded any items from the audit. You can exclude an item by long tapping on it > Audit > Audit this Item > Toggle Off. */
-"audit_drill_down_no_excluded_items_subtitle" = "You have not explicitly excluded any items from the audit. You can exclude an item by long tapping on it > Audit > Audit this Item > Toggle Off.";
+"audit_drill_down_no_excluded_items_subtitle" = "U hebt geen items expliciet uitgesloten van de audit. U kunt een item uitsluiten door erop te schuiven en op de knop Audit te tikken.";
 
 /* Unexclude */
 "audit_excluded_items_vc_action_unclude" = "Niet uitsluiten";
@@ -3251,7 +3251,7 @@
 "generic_biometric_unlock_fmt" = "%@ Ontgrendelen";
 
 /* By Default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok? */
-"backup_settings_prompt_message" = "By Default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok?";
+"backup_settings_prompt_message" = "Standaard bevat Strongbox alle lokale bestanden (inclusief database-back-ups) en databases van lokale apparaten in Apple-back-ups van dit apparaat. Geïmporteerde sleutelbestanden worden om veiligheidsredenen echter expliciet niet opgenomen.\n\nU kunt deze instellingen op elk gewenst moment wijzigen in Voorkeuren > Geavanceerde Voorkeuren.\n\nGeldt dit ok?";
 
 /* Backup Settings */
 "backup_settings_prompt_title" = "Backup-instellingen";
@@ -3260,10 +3260,10 @@
 "backup_settings_prompt_option_yes_looks_good" = "Ja, klinkt goed";
 
 /* Yes, but also backup Key Files */
-"backup_settings_prompt_yes_but_include_key_files" = "Yes, but also backup Key Files";
+"backup_settings_prompt_yes_but_include_key_files" = "Ja, maar ook backup sleutelbestanden";
 
 /* No, do NOT backup anything */
-"backup_settings_prompt_no_dont_backup_anything" = "No, do not include anything";
+"backup_settings_prompt_no_dont_backup_anything" = "Nee, voeg niets toe";
 
 /* View Sync Status */
 "safes_vc_action_view_sync_status" = "Synchronisatielogboek bekijken";
@@ -3317,7 +3317,7 @@
 "open_sequence_storage_provider_error_title" = "Synchronisatiefout";
 
 /* If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open in offline mode instead? */
-"open_sequence_storage_provider_error_open_local_ro_instead" = "If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open in offline mode instead?";
+"open_sequence_storage_provider_error_open_local_ro_instead" = "Als dit herhaaldelijk gebeurt, moet u proberen de database opnieuw toe te voegen. Zie de Debug Sync Log voor meer...\n\nWilt u in plaats daarvan in offline modus openen?";
 
 /* Local Copy Unavailable */
 "autofill_vc_item_subtitle_local_copy_unavailable" = "Lokale kopie niet beschikbaar";
@@ -3965,7 +3965,7 @@
 "database_properties_subtitle_view_sync_log" = "Recente synchronisatiegegevens weergeven inclusief fouten.";
 
 /* Your Database is configured to use a hardware key, however no key or an incorrect key was found connected. */
-"mac_autofill_no_or_incorrect_yubikey_found" = "Your Database is configured to use a hardware key, however no key or an incorrect key was found connected.";
+"mac_autofill_no_or_incorrect_yubikey_found" = "Uw database is geconfigureerd om een hardware-sleutel te gebruiken, maar er is geen sleutel of onjuiste sleutel gevonden.";
 
 /* Title (Username) */
 "quick_type_format_title_username" = "Titel (Gebruikersnaam)";
@@ -4266,34 +4266,34 @@
 "adversary_guess_rate_fmt" = "%@ /seconde";
 
 /* 🚀 Sale Now On! 🚀 */
-"prompt_sale_now_on_title" = "🚀 Sale Now On! 🚀";
+"prompt_sale_now_on_title" = "🚀 Koop nu sale 🚀";
 
 /* Hi there! Strongbox Pro is now 20% off for a very short period only.\n\nWould you like to grab it now and support Strongbox development? Go on, treat yourself! 😎 */
-"prompt_sale_now_on_message" = "Hi there! Strongbox Pro is now 20% off for a very short period only.\n\nWould you like to grab it now and support Strongbox development? Go on, treat yourself! 😎";
+"prompt_sale_now_on_message" = "Hallo daar! Strongbox Pro is nu 20% korting voor een zeer korte periode.\n\nWil je het nu pakken en Strongbox ontwikkeling ondersteunen? Ga zo door, handel jezelf! 😎";
 
 /* 🚀 20% Off Sale 🚀 Go Pro Now 🔥 */
-"safesvc_upgrade_button_sale_now_on_title" = "🚀 20% Off Sale 🚀 Go Pro Now 🔥";
+"safesvc_upgrade_button_sale_now_on_title" = "🚀 20% korting op verkoop 🚀 Go Pro nu 🔥";
 
 /* Visible in Search - L10n Note: This indicates whether this item will show up in search results. It depends on whether the user has marked any of the parent folders/groups as Search Enabled or Disabled. The value will be Yes or No. e.g. Visible in Search: Yes */
-"item_properties_search_visible_state" = "Visible in Search";
+"item_properties_search_visible_state" = "Zichtbaar in Zoeken";
 
 /* Is Expanded - L10n Note: Indicates whether a folder is in an expanded or collapsed state in the MacOS/Windows/Desktop UI. Value will be Yes or No. */
-"item_properties_is_expanded" = "Is Expanded";
+"item_properties_is_expanded" = "Uitgevouwen";
 
 /* Group Expanded state will change. */
-"diff_drill_down_is_expanded_will_change" = "Group Expanded state will change.";
+"diff_drill_down_is_expanded_will_change" = "Groep uitgebreide status zal veranderen.";
 
 /* Group Expanded states are different. */
-"diff_drill_down_expanded_states_are_different" = "Group Expanded states are different.";
+"diff_drill_down_expanded_states_are_different" = "Uitgebreide lidstaten van de groep zijn verschillend.";
 
 /* Previous Parent Group */
-"item_properties_previous_parent_group" = "Previous Parent Group";
+"item_properties_previous_parent_group" = "Vorige bovenliggende groep";
 
 /* %@ & PIN - L10n Note: The first parameter is automatically be replaced by the appropriate biometric name for the device (i.e. Face ID or Touch ID) - So the string will look like e.g. 'Face ID & PIN' */
-"convenience_unlock_preferences_title_fmt" = "%@ & PIN";
+"convenience_unlock_preferences_title_fmt" = "%@ & pincode";
 
 /* Require After */
-"convenience_unlock_require_after_prefix" = "Require After";
+"convenience_unlock_require_after_prefix" = "Vereisen na";
 
 /* It's time now to re-enter your Master Password manually. You can change this reminder interval in Database Settings. */
 "composite_key_determiner_convenience_expired_message" = "It's time now to re-enter your Master Password manually. You can change this reminder interval in Database Settings.";
@@ -4478,76 +4478,76 @@
 "export_is_a_pro_feature_message" = "The 'Export Items' feature is part of the Pro feature set. Upgrade to enjoy!";
 
 /* Your selected items have now be exported to the destination database. */
-"export_vc_export_items_successful_message" = "Your selected items have now been exported to the destination database.";
+"export_vc_export_items_successful_message" = "De geselecteerde items zijn nu geëxporteerd naar de doeldatabase.";
 
 /* Export Failed */
-"export_vc_export_failed_title" = "Export Failed";
+"export_vc_export_failed_title" = "Exporteren mislukt";
 
 /* There was a problem exporting some or all of these items. The export has been cancelled. */
-"export_vc_export_items_failed_message" = "There was a problem exporting some or all of these items. The export has been cancelled.";
+"export_vc_export_items_failed_message" = "Er was een probleem bij het exporteren van sommige of al deze items. De export is geannuleerd.";
 
 /* Format Incompatibilities */
-"database_format_incompatibilities_title" = "Format Incompatibilities";
+"database_format_incompatibilities_title" = "Incompatibele formaten";
 
 /* Determining Fast Unlock */
-"yubikey_fast_unlock_title" = "Determining Fast Unlock";
+"yubikey_fast_unlock_title" = "Vaststellen Snel Ontgrendelen";
 
 /* Strongbox is determining the fastest way to unlock this database. You will be asked to scan your YubiKey once again. */
-"yubikey_fast_unlock_message" = "Strongbox is determining the fastest way to unlock this database. You will be asked to scan your YubiKey once again.";
+"yubikey_fast_unlock_message" = "Strongbox bepaalt de snelste manier om deze database te ontgrendelen. U wordt gevraagd om uw YubiKey nogmaals te scannen.";
 
 /* Title displayed in tableview when there are no SFTP or WebDAV connections setup */
-"empty_connections_list_tableview_title" = "No Connections Yet";
+"empty_connections_list_tableview_title" = "Nog geen connecties";
 
 /* Please enter a valid name. */
-"connection_vc_name_invalid" = "Please enter a valid name.";
+"connection_vc_name_invalid" = "Voer een geldige naam in.";
 
 /* Tap '+' to add a connection. */
-"tap_plus_to_add_a_connection_hint" = "Tap '+' to add a connection.";
+"tap_plus_to_add_a_connection_hint" = "Tik op '+' om een verbinding toe te voegen.";
 
 /* Select Connection */
-"select_webdav_or_sftp_connection" = "Select Connection";
+"select_webdav_or_sftp_connection" = "Selecteer verbinding";
 
 /* Slide left for options */
-"slide_left_for_options" = "Slide left for options";
+"slide_left_for_options" = "Schuif naar links voor opties";
 
 /* Not used by any databases. */
-"not_used_by_any_databases" = "Not used by any databases.";
+"not_used_by_any_databases" = "Niet gebruikt door een database.";
 
 /* Used by '%@' - L10n note: 1st param is a database name e.g. 'Mark's Database' */
-"used_by_database_name_fmt" = "Used by '%@'";
+"used_by_database_name_fmt" = "Gebruikt door '%@'";
 
 /* Used by '%@' and %@ more - L10n note: 1st param is a database name e.g. 'Mark's Database', 2nd param is a number/count of how many other databases are using this item */
-"used_by_database_name_and_n_more_fmt" = "Used by '%@' and %@ more";
+"used_by_database_name_and_n_more_fmt" = "Gebruikt door '%@' en %@ meer";
 
 /* SFTP Connection... */
-"generic_action_edit_sftp_connection_ellipsis" = "SFTP Connection...";
+"generic_action_edit_sftp_connection_ellipsis" = "SFTP verbinding...";
 
 /* WebDAV Connection... */
-"generic_action_edit_webdav_connection_ellipsis" = "WebDAV Connection...";
+"generic_action_edit_webdav_connection_ellipsis" = "WebDAV verbinding...";
 
 /* Are you want to change the connection for this database? */
-"are_you_sure_change_connection" = "Are you sure you want to change the connection for this database?";
+"are_you_sure_change_connection" = "Weet u zeker dat u de verbinding met deze database wilt wijzigen?";
 
 /* Reselect SFTP File... */
-"reselect_sftp_file_ellipsis" = "Reselect SFTP File...";
+"reselect_sftp_file_ellipsis" = "SFTP bestand opnieuw selecteren...";
 
 /* Reselect WebDAV File... */
-"reselect_webdav_file_ellipsis" = "Reselect WebDAV File...";
+"reselect_webdav_file_ellipsis" = "WebDAV bestand herselecteren...";
 
 /* Are you sure you want to use this file for this database? */
-"are_you_sure_use_this_file_this_database" = "Are you sure you want to use this file for this database?";
+"are_you_sure_use_this_file_this_database" = "Weet u zeker dat u dit bestand wilt gebruiken voor deze database?";
 
 /* Your private key or password is no longer available, probably because you've just migrated to a new device.\nPlease edit your connection to fix. */
-"password_unavailable_please_edit_connection_error" = "Your private key or password is no longer available, probably because you've just migrated to a new device.\nPlease edit your connection to fix.";
+"password_unavailable_please_edit_connection_error" = "Uw persoonlijke sleutel of wachtwoord is niet meer beschikbaar, waarschijnlijk omdat u net bent gemigreerd naar een nieuw apparaat.\nBewerk uw verbinding om te corrigeren.";
 
 /* Password Missing */
-"password_missing" = "Password missing";
+"password_missing" = "Wachtwoord ontbreekt";
 
 /* Private Key or Password missing */
-"pk_or_password_missing" = "Private Key or Password missing";
+"pk_or_password_missing" = "Privésleutel of wachtwoord ontbreekt";
 
 /* Select Destination Group - L10n Note: When a user is moving item(s) to another group in a database, this is the title. */
-"select_destination_group" = "Select Destination Group";
+"select_destination_group" = "Selecteer doelgroep";
 
 /* KeePass 2 (KDBX 3.x) ⚠️ */
 "keepass_kdbx3_format_not_recommended" = "KeePass 2 (KDBX 3.x) ⚠️";
@@ -4556,7 +4556,7 @@
 "keepass_kdbx4x_format" = "KeePass 2 (KDBX 4.x)";
 
 /* Memory */
-"generic_memory" = "Memory";
+"generic_memory" = "Geheugen";
 
 /* Parallelism */
 "generic_parallelism" = "Parallelerisme";
@@ -4568,82 +4568,82 @@
 "generic_compression" = "Compressie";
 
 /* Are you sure you want to change your database encryption settings? */
-"are_you_sure_change_encryption_settings" = "Are you sure you want to change your database encryption settings?";
+"are_you_sure_change_encryption_settings" = "Weet je zeker dat je de database encryptie instellingen wilt wijzigen?";
 
 /* No significant changes. Tap Done to Continue. */
-"merge_result_databases_identical_sync_initiated" = "Merge OK. Tap Done to continue.";
+"merge_result_databases_identical_sync_initiated" = "Samenvoegen OK. Tik op Klaar om door te gaan.";
 
 /* Expired Entries (%@)  - L10n note - 1st paramter is the number of entries, e.g. Expired Entries (2) */
-"quick_view_title_expired_entries_title_fmt" = "Expired Entries (%@)";
+"quick_view_title_expired_entries_title_fmt" = "Verlopen items (%@)";
 
 /* View all expired entries */
-"quick_view_title_expired_entries_subtitle" = "View all expired entries";
+"quick_view_title_expired_entries_subtitle" = "Bekijk alle verlopen items";
 
 /* Nearly Expired Entries (%@) - L10n note - 1st paramter is the number of entries, e.g. Nearly Expired Entries (2) */
-"quick_view_title_nearly_expired_entries_title_fmt" = "Nearly Expired Entries (%@)";
+"quick_view_title_nearly_expired_entries_title_fmt" = "Bijna verlopen ingangen (%@)";
 
 /* View all nearly expired entries */
-"quick_view_title_nearly_expired_entries_subtitle" = "View all nearly expired entries";
+"quick_view_title_nearly_expired_entries_subtitle" = "Bekijk alle bijna verlopen items";
 
 /* Wi-Fi Transfer */
-"safes_vc_wifi_transfer" = "Wi-Fi Transfer";
+"safes_vc_wifi_transfer" = "Overdracht via wifi";
 
 /* Get Started Wizard */
-"safes_vc_quick_start" = "Get Started Wizard";
+"safes_vc_quick_start" = "Aan de slag Wizard";
 
 /* New (Advanced) */
-"safes_vc_new_advanced" = "New Database";
+"safes_vc_new_advanced" = "Nieuwe database";
 
 /* Add Existing */
-"safes_vc_add_existing" = "Add Existing";
+"safes_vc_add_existing" = "Bestaande toevoegen";
 
-"safesvc_inner_stream_error_title" = "Inner Stream Decryption Error";
+"safesvc_inner_stream_error_title" = "Inner Stream Decodering Fout";
 
 /* Strongbox has had a problem decrypting some protected fields in this database. \n\nThe database will now open in Read-Only mode to prevent further corruption.\n\nWe recommend restoring from an older backup or upgrading to KDBX4 which does not suffer from this issue. */
-"safesvc_inner_stream_error_message" = "Strongbox has had a problem decrypting some protected fields in this database. \n\nThe database will now open in Read-Only mode to prevent further corruption.\n\nWe recommend restoring from an older backup or upgrading to KDBX4 which does not suffer from this issue.";
+"safesvc_inner_stream_error_message" = "Strongbox heeft een probleem gehad bij het decoderen van sommige beschermde velden in deze database. \n\nDe database zal nu openen in alleen-lezen modus om verdere corruptie te voorkomen.\n\nWe raden aan om een oudere back-up of upgrade terug te zetten naar KDBX4 die niet aan deze kwestie lijdt.";
 
 /* Choose file to Import */
-"mac_choose_file_import" = "Choose file to Import";
+"mac_choose_file_import" = "Kies bestand om te importeren";
 
 /* 🔴 Import Failed */
-"import_failed_title" = "🔴 Import Failed";
+"import_failed_title" = "Import mislukt";
 
 /* Strongbox could not import this file. Please check it is in the correct format. */
-"import_failed_message" = "Strongbox could not import this file. Please check it is in the correct format.";
+"import_failed_message" = "Strongbox kon dit bestand niet importeren. Controleer of het in het juiste formaat is.";
 
 /* ✅ Import Successful */
-"import_successful_title" = "✅ Import Successful";
+"import_successful_title" = "Importeren was succesvol";
 
 /* Your import was successful! Now, let's set a strong master password and save your new Strongbox database. */
-"import_successful_message" = "Your import was successful! Now, let's set a strong master password and save your new Strongbox database.";
+"import_successful_message" = "Je import was succesvol! Laten we nu een sterk hoofdwachtwoord instellen en je nieuwe Strongbox database opslaan.";
 
 /* Are you sure you want to clear the TOTP for this entry? */
-"are_you_sure_clear_totp" = "Are you sure you want to clear the TOTP for this entry?";
+"are_you_sure_clear_totp" = "Weet u zeker dat u de TOTP voor deze invoer wilt wissen?";
 
 /* Date Created (Precise) */
-"databases_preferences_subtitle_field_name_create_date_precise" = "Date Created (Precise)";
+"databases_preferences_subtitle_field_name_create_date_precise" = "Datum aangemaakt (Precise)";
 
 /* Hardware Slot %@ (Touch Required) - (Translators Note: Some YubiKey devices/configurations require the user to touch or press a button to authenticate. This string also takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_touch_required_fmt" = "Hardware Key Slot %@ (Touch Required)";
+"mac_yubikey_slot_n_touch_required_fmt" = "Hardware Sleutel %@ (Aanraking Vereist)";
 
 /* Hardware Slot %@ (Translators Note: This string takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_fmt" = "Hardware Key Slot %@";
+"mac_yubikey_slot_n_fmt" = "Hardware sleutel slot %@";
 
 /* No Hardware Keys Found */
-"mac_no_yubikeys_found" = "No Hardware Keys Found";
+"mac_no_yubikeys_found" = "Geen handware sleutel gevonden";
 
 /* Hardware Key found but no compatible HMACSHA1 slots available */
-"mac_yubikey_available_but_no_compatible_slots" = "Hardware Key found but no compatible HMACSHA1 slots available";
+"mac_yubikey_available_but_no_compatible_slots" = "Hardware Key gevonden, maar er zijn geen compatibele HMACSHA1 slots beschikbaar";
 
 /* Hardware Key %@ Slot %@ (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
-"mac_yubikey_serial_number_slot_n_touch_required_fmt2" = "Hardware Key %@ Slot %@ (Touch Required)";
+"mac_yubikey_serial_number_slot_n_touch_required_fmt2" = "Hardwaresleutel %@ slot %@ (aanraking vereist)";
 
 /* Hardware Key %@ Slot %@  - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2) */
-"mac_yubikey_serial_number_slot_n_fmt2" = "Hardware Key %@ Slot %@";
+"mac_yubikey_serial_number_slot_n_fmt2" = "Hardware Sleutel %@ Sleutel %@";
 
 
 /* None (%@ Available) - L10n Guide: The 1st parameter is the number of detected hardware key/slots, but None have been selected by the user */
-"mac_hardware_key_dropdown_n_available_fmt" = "None (%@ Available)";
+"mac_hardware_key_dropdown_n_available_fmt" = "Geen (%@ beschikbaar)";
 
 /* None (No Keys Detected) - L10n Guide: This means no hardware key is selected and none have been detected */
 "mac_hardware_key_dropdown_none_no_keys_detected" = "None (No Keys Detected)";
@@ -4814,52 +4814,52 @@
 "generic_action_verb_spell_out_field" = "Spell Out";
 
 /* Speak - L10n: To have Strongbox speak a item field (e.g. password) through the speech synthesizer */
-"generic_action_verb_speak_field" = "Speak";
+"generic_action_verb_speak_field" = "Spreek";
 
 /* Launch URL - L10n: An action/verb, to launch a URL */
-"generic_action_verb_launch_url" = "Launch URL";
+"generic_action_verb_launch_url" = "URL starten";
 
 /* Show QR Code */
 "generic_action_show_qr_code" = "Toon QR code";
 
 /* Show Large Text View */
-"generic_action_show_large_text_view" = "Show Large Text View";
+"generic_action_show_large_text_view" = "Toon grote tekstweergave";
 
 /* Preview Attachment */
-"generic_action_preview_attachment" = "Preview Attachment";
+"generic_action_preview_attachment" = "Bijlage bekijken";
 
 /* Export Attachment */
-"generic_action_export_attachment" = "Export Attachment";
+"generic_action_export_attachment" = "Bijlage exporteren";
 
 /* Reveal - L10n: Verb, to reveal a concealed field e.g. a password */
-"generic_action_reveal" = "Reveal";
+"generic_action_reveal" = "Laat zien";
 
 /* Conceal - L10n: Verb, to conceal a revealed field e.g. a password */
-"generic_action_conceal" = "Conceal";
+"generic_action_conceal" = "Verbergen";
 
 /* Copy Filename */
-"generic_action_copy_filename" = "Copy Filename";
+"generic_action_copy_filename" = "Kopieer bestandsnaam";
 
 /* Field Name */
-"generic_field_name" = "Field Name";
+"generic_field_name" = "Veld naam";
 
 /* No Selection */
-"detail_view_no_selection_header" = "No Selection";
+"detail_view_no_selection_header" = "Geen selectie";
 
 /* Multiple Items */
-"detail_view_multiple_items_selected_header" = "Multiple Items";
+"detail_view_multiple_items_selected_header" = "Meerdere items";
 
 /* Select an Item */
-"detail_view_no_selection_message" = "Select an Item";
+"detail_view_no_selection_message" = "Selecteer een item";
 
 /* %@ Items Selected */
-"detail_view_no_multiple_items_selected_message_fmt" = "%@ Items Selected";
+"detail_view_no_multiple_items_selected_message_fmt" = "%@ items geselecteerd";
 
 /* Toggle Details Panel - L10n shows or hides the right hand side details view panel */
-"nextgen_toolbar_item_toggle_details_panel" = "Toggle Details Panel";
+"nextgen_toolbar_item_toggle_details_panel" = "Schakelen tussen details paneel";
 
 /* Toggle Sidebar - L10n shows or hides the left hand side bar navigation panel */
-"nextgen_toolbar_item_toggle_sidebar" = "Toggle Sidebar";
+"nextgen_toolbar_item_toggle_sidebar" = "Zijbalk in-/uitschakelen";
 
 /* Recycle Items - This is a verb/action - Recycle the selected items, sending them to the Recycle Bin */
 "generic_recycle_items" = "Recycle Items";
@@ -4868,10 +4868,10 @@
 "generic_recycle_item" = "Recycle Item";
 
 /* Show Details Panel */
-"main_menu_show_details_panel" = "Show Details Panel";
+"main_menu_show_details_panel" = "Toon Details Paneel";
 
 /* Hide Details Panel */
-"main_menu_hide_details_panel" = "Hide Details Panel";
+"main_menu_hide_details_panel" = "Verberg Details Paneel";
 
 /* %@ (%@ / %@ bits / %@) - L10n Note: 1st Param is the strength category (weak/strong/mediocre, etc). 2nd Param is the number of characters in the password. 3rd parameter is the number of bits of entropy, with 1 decimal place, so "92.3". 4th parameter is the estimated time it will take to crack this password, so "1 million years" */
 "password_strength_summary_char_count_fmt" = "%@ (%@ / %@ bits / %@)";
@@ -4880,16 +4880,16 @@
 "password_strength_summary_fmt" = "%@ (%@ bits / %@)";
 
 /* %@ characters - 1st param is a simple integer like 22 so e.g. "22 characters" */
-"num_of_characters_fmt" = "%@ characters";
+"num_of_characters_fmt" = "%@ tekens";
 
 /* %@ bits - 1st param is a number like 36.2 so e.g. "36.2 bits" */
 "num_of_bits_fmt" = "%@ bits";
 
 /* Exclude Item from Audit */
-"exclude_item_from_audit" = "Exclude Item from Audit";
+"exclude_item_from_audit" = "Artikel uitsluiten van audit";
 
 /* Check with 'Have I Been Pwned?' */
-"check_field_with_hibp" = "Check with 'Have I Been Pwned?'";
+"check_field_with_hibp" = "Check met 'Ben ik gehackt'";
 
 /* Pro - A short tag / text that will appear beside Pro features in a badge like fashion - keep v short if possible */
 "pro_badge_text" = "Pro";
@@ -4898,31 +4898,31 @@
 "new_tag_ellipsis" = "Nieuw label...";
 
 /* Add Tag to Item(s) */
-"add_tag_to_items" = "Add Tag to Item(s)";
+"add_tag_to_items" = "Tag toevoegen aan item(s)";
 
 /* Remove Tag from Item(s) */
-"remove_tag_from_items" = "Remove Tag from Item(s)";
+"remove_tag_from_items" = "Verwijder Tag van item(s)";
 
 /* All Issues */
-"audit_side_bar_nav_all_issues" = "All Issues";
+"audit_side_bar_nav_all_issues" = "Alle problemen";
 
 /* There are some blank characters (e.g. spaces, tabs) at the start or end of your password.\n\nShould Strongbox tidy up these extraneous characters? */
-"field_tidy_message_tidy_up_password" = "There are some blank characters (e.g. spaces, tabs) at the start or end of your password.\n\nShould Strongbox tidy up these extraneous characters?";
+"field_tidy_message_tidy_up_password" = "Er zijn enkele lege tekens (bijv. spaties, tabbladen) aan het begin of einde van uw wachtwoord.\n\nMoet Strongbox deze vreemde tekens opschonen?";
 
 /* Fun */
-"custom_app_icon_category_fun" = "Fun";
+"custom_app_icon_category_fun" = "Leuk";
 
 /* Utilities */
-"custom_app_icon_category_utilities" = "Utilities";
+"custom_app_icon_category_utilities" = "Hulpprogramma's";
 
 /* Default */
 "custom_app_icon_category_default" = "Standaard";
 
 /* Are you sure you want to reset to the default App Icon? */
-"are_you_sure_reset_to_default_app_icon" = "Are you sure you want to reset to the default App Icon?";
+"are_you_sure_reset_to_default_app_icon" = "Weet u zeker dat u wilt herstellen naar het standaard App pictogram?";
 
 /* This icon is only available for Pro users. */
-"custom_app_icon_pro_only" = "This icon is only available for Pro users.";
+"custom_app_icon_pro_only" = "Dit pictogram is alleen beschikbaar voor Pro-gebruikers.";
 
 /* Pro Version %@ */
 "about_strongbox_pro_version_fmt" = "Pro Version %@";
@@ -4949,28 +4949,28 @@
 "pro_status_unlicensed" = "Ongelicentieerd";
 
 /* Unsupported by Database Format */
-"unsupported_by_database_format" = "Unsupported by Database Format";
+"unsupported_by_database_format" = "Niet-ondersteund door Database Format";
 
 /* Include in Audit */
-"action_include_in_audit" = "Include in Audit";
+"action_include_in_audit" = "Bij Audit opnemen";
 
 /* Exclude from Audit */
-"action_exclude_from_audit" = "Exclude from Audit";
+"action_exclude_from_audit" = "Uitsluiten van audit";
 
 /* [Database] Title (Username) */
-"quick_type_format_database_title_username" = "[Database] Title (Username)";
+"quick_type_format_database_title_username" = "[Database] Titel (gebruikersnaam)";
 
 /* [Database] Title */
-"quick_type_format_database_title" = "[Database] Title";
+"quick_type_format_database_title" = "[Database] Titel";
 
 /* [Database] Username */
-"quick_type_format_database_username" = "[Database] Username";
+"quick_type_format_database_username" = "[Database] Gebruikersnaam";
 
 /* New UI Available */
-"new_ui_available_title" = "New UI Available";
+"new_ui_available_title" = "Nieuwe UI beschikbaar";
 
 /* Would you like to use our latest new and improved \"NextGen\" UI?\n\nWe think you'll like it! */
-"new_ui_available_message" = "Would you like to use our latest new and improved \"NextGen\" UI?\n\nWe think you'll like it!";
+"new_ui_available_message" = "Wenst u onze nieuwste en verbeterde \"Volgende\" UI?\n\nWij denken dat u het leuk vindt!";
 
 /* Ask Me Later */
 "generic_ask_me_later" = "Vraag mij later";
