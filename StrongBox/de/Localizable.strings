@@ -2245,13 +2245,13 @@
 "mac_keepass1_does_not_support_root_entries" = "KeePass 1 unterstützt keine Einträge auf Stammebene, diese werden verworfen. KeePass 1 unterstützt auch das Feld „E-Mail-Adresse” nur indirekt. Strongbox wird es stattdessen an das Ende des Feldes „Notizen” anhängen.\nMöchten Sie fortfahren?";
 
 /* The Password Safe format does not support icons, attachments or custom fields. If you continue, these fields will not be copied to this database.\nDo you want to continue without these fields? */
-"mac_password_safe_fmt_does_not_support_icons_attachments_warning" = "Das Format 'Password Safe' unterstützt keine Symbole, Anhänge oder benutzerdefinierte Felder. Wenn Sie fortfahren, werden diese Felder nicht in diese Datenbank kopiert.\nMöchten Sie ohne diese Felder fortfahren?";
+"mac_password_safe_fmt_does_not_support_icons_attachments_warning" = "Das Format Password Safe unterstützt weder Symbole, Anhänge noch benutzerdefinierte Felder. Wenn Sie fortfahren, werden diese Felder nicht in diese Datenbank übertragen.\nMöchten Sie fortfahren, ohne diese Felder zu übernehmen?";
 
 /* The KeePass 1 (KDB) does not support entries at the root level, these will be discarded.\n\nThe KeePass 1 (KDB) format also does not support multiple attachments, custom fields or custom icons. If you continue only the first attachment from each item will be copied to this database. Custom Fields and Icons will be discarded.\nDo you want to continue? */
 "mac_keepass1_does_not_support_root_entries_or_attachments" = "KeePass 1 (KDB) unterstützt keine Einträge auf Root-Ebene. Diese werden verworfen.\n\nDas Format 'KeePass 1 (KDB)' unterstützt auch keine mehrfachen Anhänge, benutzerdefinierte Felder oder benutzerdefinierte Symbole. Wenn Sie fortfahren, wird nur der erste Anhang jedes Eintrags in diese Datenbank kopiert. Benutzerdefinierte Felder und Symbole werden verworfen.\nMöchten Sie fortfahren?";
 
 /* The Password Safe format does not support attachments or icons. If you continue, these fields will not be copied to this database.\nDo you want to continue without these fields? */
-"mac_password_safe_does_not_support_attachments_icons_continue_yes_no" = "Das Format 'Password Safe' unterstützt keine Anhänge oder Symbole. Wenn Sie fortfahren, werden diese Felder nicht in diese Datenbank kopiert.\nMöchten Sie ohne diese Felder fortfahren?";
+"mac_password_safe_does_not_support_attachments_icons_continue_yes_no" = "Das Format Password Safe unterstützt weder Symbole noch Anhänge, Wenn Sie fortfahren, werden diese Felder nicht in diese Datenbank übertragen.\nMöchten Sie fortfahren, ohne diese Felder zu übernehmen?";
 
 /* You cannot create a new item here. It must be within an existing folder. */
 "mac_alert_cannot_create_item_here" = "Sie können hier keinen neuen Eintrag erstellen. Er muss sich in einem existierenden Ordner befinden.";
@@ -2300,10 +2300,10 @@
 "mac_no_valid_csv_rows_found" = "Keine gültigen Zeilen gefunden. Stellen Sie sicher, dass die CSV-Datei eine Kopfzeile und mindestens eines der erforderlichen Felder enthält.";
 
 /* Unique Usernames */
-"mac_database_summary_unique_usernames" = "Einmalige Benutzernamen";
+"mac_database_summary_unique_usernames" = "Eindeutige Benutzernamen";
 
 /* Unique Passwords */
-"mac_database_summary_unique_passwords" = "Einmalige Passwörter";
+"mac_database_summary_unique_passwords" = "Eindeutige Passwörter";
 
 /* Most Popular Username */
 "mac_database_summary_most_popular_username" = "Beliebtester Benutzername";
@@ -2315,7 +2315,7 @@
 "mac_database_summary_number_of_folders" = "Anzahl der Gruppen";
 
 /* This is a large image to use as an icon. Would you like to use a scaled down version to save %@? - Translators Note: 1st Parameter is how much space will be saved */
-"mac_large_image_as_icon_use_scaled_down_version_fmt" = "Dies ist ein großes Bild, das als Symbol verwendet werden soll. Möchten Sie eine verkleinerte Version verwenden, um %@ zu sparen?";
+"mac_large_image_as_icon_use_scaled_down_version_fmt" = "Dieses große Bild kann nicht als Symbol verwendet werden. Möchten Sie eine verkleinerte Version verwenden, um %@ zu sparen?";
 
 /* This is not a valid image file. */
 "mac_not_a_valid_image_file" = "Dies ist keine gültige Bilddatei.";
@@ -2339,7 +2339,7 @@
 "mac_search_disabled_please_upgrade" = "Suche deaktiviert - Bitte upgraden";
 
 /* Search (⌘F) */
-"mac_search_placeholder" = "Suche (⌘F)";
+"mac_search_placeholder" = "Suchen (⌘F)";
 
 /* Please Enter Your Custom Default Title */
 "mac_enter_custom_title_default" = "Standardtitel eingeben";
@@ -4974,3 +4974,6 @@
 
 /* Ask Me Later */
 "generic_ask_me_later" = "Später fragen";
+
+/* Lock Database - L10n note: Verb, To Lock, Locks the Database */
+"verb_lock_database" = "Datenbank sperren";

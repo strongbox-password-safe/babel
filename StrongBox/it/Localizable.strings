@@ -2831,7 +2831,7 @@
 "keepass_icon_set_classic" = "KeePass Classic";
 
 /* SF Symbols */
-"keepass_icon_set_sf_symbols" = "SF Symbols";
+"keepass_icon_set_sf_symbols" = "Simboli SF";
 
 /* Translators Note: 1 parameter here to mention Biometric unlock, which depends on the device (will be either: 'Touch ID Unlock' or 'Face ID Unlock') */
 "upgrade_short_developer_message_fmt" = "Ciao, sono Mark, lo sviluppatore di Strongbox. Volevo soltanto farvi sapere che Strongbox funziona con il modello freemium, che significa che esiste una versione gratuita e una pro. Spero che Strongbox vi piaccia davvero e che lo troviate utile quotidianamente.\n\nMi stavo chiedendo se potesse prendere in considerazione l'upgrade a Pro. Con l'upgrade si aiuta a sostenere uno sviluppatore di applicazioni indipendente e a rendere possibile un miglioramento continuo di Strongbox.\n\nSi assicurerà anche l'accesso a fantastiche funzioni Pro come %@, Codici PIN & FavIcone!\n\nMi piace molto lavorare su questa App, e il suo supporto mi permette di continuare a farlo.\n\nGrazie,\n-Mark";
@@ -2939,10 +2939,10 @@
 "audit_quick_summary_very_brief_low_entropy" = "Debole/Entropia";
 
 /* 2FA Available - L10n - please keep this as short as possible, "2FA" will probably suffice. The meaning of this string is that Strongbox has discovered the 2 Factor Authentication is available for this entry given it's URL/Domain, but that the user does not have a 2 Factor Code (TOTP) setup within Strongbox */
-"audit_quick_summary_very_brief_two_factor_available" = "2FA Available";
+"audit_quick_summary_very_brief_two_factor_available" = "2FA Disponibile";
 
 /* 2 Factor Authentication is available for this domain. - L10n - The meaning of this string is that Strongbox has discovered the 2 Factor Authentication is available for this entry given it's URL/Domain, but that the user does not have a 2 Factor Code (TOTP) setup within Strongbox */
-"audit_quick_summary_two_factor_available" = "2 Factor Authentication is available for this domain.";
+"audit_quick_summary_two_factor_available" = "L'Autenticazione a 2 Fattori è disponibile per questo dominio.";
 
 /* Password is weak (low entropy) */
 "audit_quick_summary_password_low_entropy" = "La password è debole (bassa entropia)";
@@ -2993,7 +2993,7 @@
 "audit_quick_summary_very_brief_password_is_pwned" = "Compromessa";
 
 /* Password is too short. */
-"audit_quick_summary_password_is_too_short" = "Password is too short";
+"audit_quick_summary_password_is_too_short" = "La password è troppo corta";
 
 /* Found %@ issues in %@ entries - Translators note, both parameters are numbers, e.g. 24 issues found in 12 entries */
 "audit_status_fmt" = "Trovati %@ problemi in %@ voci";
@@ -4727,19 +4727,19 @@
 "tip_purchased_message" = "\n❤️ Grazie mille ❤️\n\nInvio di buone vibrazioni da tutti qui dall'HQ di Strongbox!";
 
 /* There was an error adding this item as an Attachment */
-"edit_item_could_not_add_item_as_attachment" = "There was an error adding this item as an Attachment";
+"edit_item_could_not_add_item_as_attachment" = "Si è verificato un errore durante l'aggiunta di questo elemento come allegato";
 
 /* Invalid Attachment Name */
-"invalid_attachment_name" = "Invalid Attachment Name";
+"invalid_attachment_name" = "Nome Allegato Non Valido";
 
 /* The attachment name must not be empty */
-"attachment_name_must_not_be_empty" = "The attachment name must not be empty";
+"attachment_name_must_not_be_empty" = "Il nome dell'allegato non deve essere vuoto";
 
 /* That attachment name is already used */
-"attachment_name_already_exists" = "That attachment name is already in use by another attachment";
+"attachment_name_already_exists" = "Questo nome allegato è già in uso da un altro allegato";
 
 /* Are you sure you want to delete the selected attachment(s)? */
-"are_you_sure_delete_attachment_s" = "Are you sure you want to delete the selected attachment(s)?";
+"are_you_sure_delete_attachment_s" = "Si è sicuri di voler eliminare gli allegati selezionati?";
 
 /* Are you sure you want to delete the selected field(s)? */
 "are_you_sure_delete_custom_field_s" = "Are you sure you want to delete the selected field(s)?";
@@ -4748,13 +4748,13 @@
 "found_totp_code_in_x_window_fmt" = "Found TOTP Code in '%@' Window";
 
 /* Randomly Generated */
-"menu_item_header_randomly_generated_suggestions" = "Randomly Generated";
+"menu_item_header_randomly_generated_suggestions" = "Generato Casualmente";
 
 /* Most Used */
 "menu_item_header_most_used_suggestions" = "Più Utilizzati";
 
 /* Are you sure you want to clear the expiry for this entry? */
-"are_you_sure_clear_expiry" = "Are you sure you want to clear the expiry for this entry?";
+"are_you_sure_clear_expiry" = "Si è sicuri di voler cancellare il a scadenza per questa voce?";
 
 /* paste-at-%@.png - L10n Note: The first parameter is a timestamp, so the string will look like: "paste-at-20220113_165952_523.png" */
 "pasted_image_attachment_at_time_filename_png_fmt" = "paste-at-%@.png";
@@ -4763,13 +4763,13 @@
 "side_bar_hierarchy_folder_structure" = "Gerarchia";
 
 /* Discard Changes */
-"discard_changes" = "Discard Changes";
+"discard_changes" = "Annullare le Modifiche";
 
 /* Create Group */
 "create_group" = "Creare Gruppo";
 
 /* Edit Entry */
-"edit_entry" = "Edit Entry";
+"edit_entry" = "Modifica Voce";
 
 /* Create Entry */
 "create_entry" = "Creare Elemento";
@@ -4787,7 +4787,7 @@
 "field_tidy_choice_dont_tidy" = "Don't Tidy";
 
 /* Location - The location of an item, e.g. Location = /Group-1/Group-2/ */
-"generic_fieldname_location" = "Location";
+"generic_fieldname_location" = "Posizione";
 
 /* Extimated Size - This is memory/file size in bytes/KB/MB consumed by a particular entry e.g. Estimated Size= 64KB*/
 "generic_fieldname_estimated_size" = "Estimated Size";
@@ -4796,19 +4796,19 @@
 "generic_fieldname_historical_item_count" = "Historical Item Count";
 
 /* Custom Icon */
-"generic_fieldname_custom_icon" = "Custom Icon";
+"generic_fieldname_custom_icon" = "Icona Personalizzata";
 
 /* ID - L10n Note: This is the unique id (identifier/uuid) of an item, usually a long string like 5E7CBED9D6D14AF38BB6FE4B9CF1CF64 */
 "generic_fieldname_id" = "ID";
 
 /* URLs - L10n Note: Plural of URL */
-"generic_fieldname_urls" = "URLs";
+"generic_fieldname_urls" = "Indirizzi URL";
 
 /* Copy - L10n Note: This is a verb, to copy an item/string/field to the clipboard */
 "generic_action_verb_copy_to_clipboard" = "Copia";
 
 /* Copy - L10n Note: This is a verb, to copy the field name (e.g. if there is a field: Custom-Field-1="value", then this would copy "Custom-Field-1" to the clipboard */
-"generic_action_verb_copy_field_name_to_clipboard" = "Copy Field Name";
+"generic_action_verb_copy_field_name_to_clipboard" = "Copiare Nome Campo";
 
 /* Spell Out - L10n: To have Strongbox spell out through the speech synthesizer, character by character a field */
 "generic_action_verb_spell_out_field" = "Spell Out";
@@ -4817,73 +4817,73 @@
 "generic_action_verb_speak_field" = "Speak";
 
 /* Launch URL - L10n: An action/verb, to launch a URL */
-"generic_action_verb_launch_url" = "Launch URL";
+"generic_action_verb_launch_url" = "Avviare URL";
 
 /* Show QR Code */
 "generic_action_show_qr_code" = "Mostra Codice QR";
 
 /* Show Large Text View */
-"generic_action_show_large_text_view" = "Show Large Text View";
+"generic_action_show_large_text_view" = "Mostrare Vista Testo Grande";
 
 /* Preview Attachment */
-"generic_action_preview_attachment" = "Preview Attachment";
+"generic_action_preview_attachment" = "Anteprima Allegato";
 
 /* Export Attachment */
-"generic_action_export_attachment" = "Export Attachment";
+"generic_action_export_attachment" = "Esportare Allegato";
 
 /* Reveal - L10n: Verb, to reveal a concealed field e.g. a password */
-"generic_action_reveal" = "Reveal";
+"generic_action_reveal" = "Rivelare";
 
 /* Conceal - L10n: Verb, to conceal a revealed field e.g. a password */
-"generic_action_conceal" = "Conceal";
+"generic_action_conceal" = "Nascondere";
 
 /* Copy Filename */
-"generic_action_copy_filename" = "Copy Filename";
+"generic_action_copy_filename" = "Copia Nome File";
 
 /* Field Name */
-"generic_field_name" = "Field Name";
+"generic_field_name" = "Nome Del Campo";
 
 /* No Selection */
-"detail_view_no_selection_header" = "No Selection";
+"detail_view_no_selection_header" = "Nessuna Selezione";
 
 /* Multiple Items */
-"detail_view_multiple_items_selected_header" = "Multiple Items";
+"detail_view_multiple_items_selected_header" = "Elementi multipli";
 
 /* Select an Item */
-"detail_view_no_selection_message" = "Select an Item";
+"detail_view_no_selection_message" = "Selezionare un Elemento";
 
 /* %@ Items Selected */
-"detail_view_no_multiple_items_selected_message_fmt" = "%@ Items Selected";
+"detail_view_no_multiple_items_selected_message_fmt" = "%@ Elementi selezionati";
 
 /* Toggle Details Panel - L10n shows or hides the right hand side details view panel */
-"nextgen_toolbar_item_toggle_details_panel" = "Toggle Details Panel";
+"nextgen_toolbar_item_toggle_details_panel" = "Attiva/Disattiva Pannello Dettagli";
 
 /* Toggle Sidebar - L10n shows or hides the left hand side bar navigation panel */
-"nextgen_toolbar_item_toggle_sidebar" = "Toggle Sidebar";
+"nextgen_toolbar_item_toggle_sidebar" = "Attiva/Disattiva Barra Laterale";
 
 /* Recycle Items - This is a verb/action - Recycle the selected items, sending them to the Recycle Bin */
-"generic_recycle_items" = "Recycle Items";
+"generic_recycle_items" = "Riciclo Elementi";
 
 /* Recycle Item - This is a verb/action - Recycle the selected item, sending it to the Recycle Bin  */
-"generic_recycle_item" = "Recycle Item";
+"generic_recycle_item" = "Riciclo Elemento";
 
 /* Show Details Panel */
-"main_menu_show_details_panel" = "Show Details Panel";
+"main_menu_show_details_panel" = "Mostra Pannello Dettagli";
 
 /* Hide Details Panel */
-"main_menu_hide_details_panel" = "Hide Details Panel";
+"main_menu_hide_details_panel" = "Nascondi Pannello Dettagli";
 
 /* %@ (%@ / %@ bits / %@) - L10n Note: 1st Param is the strength category (weak/strong/mediocre, etc). 2nd Param is the number of characters in the password. 3rd parameter is the number of bits of entropy, with 1 decimal place, so "92.3". 4th parameter is the estimated time it will take to crack this password, so "1 million years" */
-"password_strength_summary_char_count_fmt" = "%@ (%@ / %@ bits / %@)";
+"password_strength_summary_char_count_fmt" = "%@ (%@ / %@ bit / %@)";
 
 /* %@ (%@ bits / %@) - L10n Note: 1st Param is the strength category (weak/strong/mediocre, etc). 2nd parameter is the number of bits of entropy, with 1 decimal place, so "92.3". 3rd parameter is the estimated time it will take to crack this password, so "1 million years"*/
-"password_strength_summary_fmt" = "%@ (%@ bits / %@)";
+"password_strength_summary_fmt" = "%@ (%@ bit / %@)";
 
 /* %@ characters - 1st param is a simple integer like 22 so e.g. "22 characters" */
-"num_of_characters_fmt" = "%@ characters";
+"num_of_characters_fmt" = "%@ caratteri";
 
 /* %@ bits - 1st param is a number like 36.2 so e.g. "36.2 bits" */
-"num_of_bits_fmt" = "%@ bits";
+"num_of_bits_fmt" = "%@ bit";
 
 /* Exclude Item from Audit */
 "exclude_item_from_audit" = "Exclude Item from Audit";
@@ -4974,3 +4974,6 @@
 
 /* Ask Me Later */
 "generic_ask_me_later" = "Chiederlo Più Tardi";
+
+/* Lock Database - L10n note: Verb, To Lock, Locks the Database */
+"verb_lock_database" = "Blocca Database";

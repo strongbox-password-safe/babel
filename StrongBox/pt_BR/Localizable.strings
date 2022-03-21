@@ -171,7 +171,7 @@
 "safesvc_option_keep_local" = "Manter Localmente";
 
 /* iCloud Switched Off */
-"safesvc_icloud_unavailable_title" = "iCloud Switched Off";
+"safesvc_icloud_unavailable_title" = "iCloud Desativado";
 
 /* What would you like to do with the databases currently on this device? */
 "safesvc_icloud_unavailable_question" = "O que você gostaria de fazer com as bases de dados atualmente armazenadas neste dispositivo?";
@@ -609,7 +609,7 @@
 "item_details_setup_totp" = "Configurar TOTP...";
 
 /* Could not set TOTP because the format is unsupported. */
-"item_details_setup_totp_failed_message" = "Could not set TOTP because the format is unsupported.";
+"item_details_setup_totp_failed_message" = "Não foi possível definir TOTP porque o formato não é suportado.";
 
 /* Failed to Set TOTP */
 "item_details_setup_totp_failed_title" = "Falha ao Configurar TOTP";
@@ -1389,7 +1389,7 @@
 "key_files_vc_no_key_file" = "Nenhum Arquivo Chave";
 
 /* The stored convenience password or other composite key factors (key file/hardware key) were incorrect for this database. Convenience Unlock has been Disabled. */
-"open_sequence_problem_opening_convenience_incorrect_message" = "The stored convenience password or other composite key factors (key file/hardware key) were incorrect for this database. Convenience Unlock has been Disabled.";
+"open_sequence_problem_opening_convenience_incorrect_message" = "A senha de conveniência armazenada ou outros fatores de chave compostos (arquivo de chave/YubiKey) estão incorretos para esta base de dados. O Desbloqueio Conveniente foi Desativado.";
 
 /* Incorrect Credentials */
 "open_sequence_problem_opening_incorrect_credentials_title" = "Credenciais Incorretas";
@@ -1707,7 +1707,7 @@
 "safes_vc_tip" = "Dica: Deslize para a esquerda para opções da base de dados";
 
 /* Tip: Tap to Copy or Long Tap for Large View */
-"item_details_tip" = "Tip: Tap to Copy or Long Tap for Large View";
+"item_details_tip" = "Dica: Toque Curto para Copiar ou Toque Longo para Exibir em Tamanho Grande";
 
 /* Tip: Slide Left for Options or Tap to View */
 "keepass_history_tip" = "Dica: Deslize para a Esquerda ou Toque para Exibir";
@@ -1716,7 +1716,7 @@
 "browse_vc_action_pin" = "Favoritar";
 
 /* Un-Favourite */
-"browse_vc_action_unpin" = "Un-Favourite";
+"browse_vc_action_unpin" = "Desfavoritar";
 
 /* Section Header Title for Expired Items */
 "browse_vc_section_title_expired" = "Expirado";
@@ -1725,7 +1725,7 @@
 "browse_vc_section_title_nearly_expired" = "Quase Expirado";
 
 /* Section Header Title for Favourite Items */
-"browse_vc_section_title_pinned" = "Favourites";
+"browse_vc_section_title_pinned" = "Favoritos";
 
 /* Section Header Title for Recent Items */
 "browse_vc_section_title_recents" = "Itens Recentes";
@@ -1788,7 +1788,7 @@
 "node_serialization_error_duplicate_group_title_fmt" = "Não foi possível copiar estes itens porque eles contêm dois grupos com o mesmo nome '%@', o que não é suportado neste formato de base de dados.";
 
 /* Memory */
-"database_metadata_field_argon2_memory" = "Memory";
+"database_metadata_field_argon2_memory" = "Memória";
 
 /* Are you sure you want to Remove this backup? */
 "backup_vc_are_you_sure_remove" = "Tem certeza que deseja Remover este backup?";
@@ -1821,7 +1821,7 @@
 "open_sequence_error_reading_key_file_autofill_context" = "Não foi possível ler o Arquivo Chave. Ele foi importado corretamente? Consulte o Gerenciamento de Arquivos Chave nas Preferências";
 
 /* Transfer over Wi-Fi (or LAN) */
-"sspc_local_network_storage_location" = "Transfer over Wi-Fi (or LAN)";
+"sspc_local_network_storage_location" = "Transferir por Wi-Fi (ou Rede Local)";
 
 /* A storage provider is in the process of reading. This is the status displayed on the progress dialog. In english:  Reading... */
 "storage_provider_status_reading" = "Lendo...";
@@ -2357,7 +2357,7 @@
 "mac_enter_custom_url_default" = "Por Favor Insira Sua URL Padrão Personalizada";
 
 /* Please Enter Your Custom Default URL */
-"mac_enter_custom_notes_default" = "Please Enter Your Custom Default Notes";
+"mac_enter_custom_notes_default" = "Por Favor Digite Sua URL Padrão Personalizada";
 
 /* Welcome to Strongbox */
 "mac_welcome_to_strongbox_title" = "Boas-vindas ao Strongbox";
@@ -2490,7 +2490,7 @@
 "mac_select_key_file" = "Selecione um Arquivo Chave";
 
 /* You must use at least one of either a password, a key file or a hardware key for your master credentials. */
-"mac_you_must_use_at_least_a_password_or_key_file" = "You must use at least one of either a password, a key file or a hardware key for your master credentials.";
+"mac_you_must_use_at_least_a_password_or_key_file" = "Você deve usar pelo menos uma senha, um arquivo de chave ou uma chave de hardware para as suas credenciais principais.";
 
 /* Password cannot be Empty */
 "mac_password_cannot_be_empty" = "A senha não pode ser Vazia";
@@ -2667,7 +2667,7 @@
 "auto_fill_welcome_message_header" = "Boas-vindas";
 
 /* Automatically download FavIcon on URL Change (PRO Only) */
-"mac_auto_download_favicon_pro_only" = "Automaticamente Baixar Favicons ao Alterar a URL (Funcionalidade Pro)";
+"mac_auto_download_favicon_pro_only" = "Baixar Favicons Automaticamente ao Alterar a URL (Funcionalidade Pro)";
 
 /* Set Icons (Pro Only) */
 "mac_button_set_favicons_pro_only" = "Definir Ícones (Apenas Pro)";
@@ -2694,7 +2694,7 @@
 "mac_key_file_configured_but_filename_hidden" = "Configurado";
 
 /* %@ (Configured) - (Translators Note: User is using a key file that has previously been set/remembered by Strongbox. First parameter is the filename of the key file. This appears on the unlock screen. */
-"mac_key_file_filename_configured_fmt" = "%@ (Configured)";
+"mac_key_file_filename_configured_fmt" = "%@ (Configurado)";
 
 /* Touch ID/Apple Watch Unlock is not possible at the moment because Touch ID/Apple Watch is not available. */
 "mac_info_biometric_unlock_not_possible_right_now" = "Desbloqueio com Touch ID/Apple Watch não é possível porque o Touch ID/Apple Watch não estão disponíveis.";
@@ -2775,13 +2775,13 @@
 "open_sequence_cannot_use_yubikey_in_autofill_mode" = "Desbloqueio com Chave de Hardware não é suportado no Preenchimento Automático devido a limitações do sistema. Você pode configurar uma Chave de Hardware Virtual no lugar.";
 
 /* Hardware Key Unlock is only available in the Pro edition of Strongbox */
-"open_sequence_yubikey_only_available_in_pro" = "Hardware Key Unlock is only available in the Pro edition of Strongbox";
+"open_sequence_yubikey_only_available_in_pro" = "O Desbloqueio com Chave de Hardware está disponível apenas na versão Pro do Strongbox";
 
 /* Disabled (Pro Edition Only) */
 "casg_yubikey_configured_disabled_pro_only" = "Desativado (Apenas Versão Pro)";
 
 /* Hardware Key (Pro Edition Only) */
-"casg_section_header_yubikey_pro_only" = "Hardware Key (Pro Edition Only)";
+"casg_section_header_yubikey_pro_only" = "Chave de Hardware (Apenas Versão Pro)";
 
 /* Unknown (Translators Note: Used when generally when something can't be determined, e.g. The URL or file name of a database, or the type of storage provider used, or the format of a newly opened database etc.)*/
 "generic_unknown" = "Desconhecido";
@@ -2802,7 +2802,7 @@
 "generic_none" = "Nenhum(a)";
 
 /* Hardware Key (Pro Only) */
-"mac_lock_screen_yubikey_popup_menu_yubico_pro_only" = "Hardware Key (Pro Only)";
+"mac_lock_screen_yubikey_popup_menu_yubico_pro_only" = "Chave de Hardware (Apenas Pro)";
 
 "casg_yubikey_configured_mfi" = "Lightning";
 
@@ -2831,7 +2831,7 @@
 "keepass_icon_set_classic" = "KeePass Clássico";
 
 /* SF Symbols */
-"keepass_icon_set_sf_symbols" = "SF Symbols";
+"keepass_icon_set_sf_symbols" = "Símbolos SF";
 
 /* Translators Note: 1 parameter here to mention Biometric unlock, which depends on the device (will be either: 'Touch ID Unlock' or 'Face ID Unlock') */
 "upgrade_short_developer_message_fmt" = "Olá, aqui é o Mark, sou o desenvolvedor do Strongbox. Esta mensagem é só para informar a você que o Strongbox trabalha no modelo freemium. Isso significa que existem as versões Free e Pro. Espero que você goste do Strongbox e que ele lhe seja útil todos os dias.\n\nSerá que você consideraria fazer o upgrade? Ao fazê-lo você vai ajudar a apoiar um desenvolvedor independente e tornar possível que o desenvolvimento continue.\n\nVocê também terá acesso a ótimas funcionalidades do Pro como %@, Códigos PIN e Favicons!\n\nEu amo trabalhar neste app e seu apoio me permite continuar fazendo isso.\n\nObrigado,\n-Mark";
@@ -2939,10 +2939,10 @@
 "audit_quick_summary_very_brief_low_entropy" = "Fraca/Entropia";
 
 /* 2FA Available - L10n - please keep this as short as possible, "2FA" will probably suffice. The meaning of this string is that Strongbox has discovered the 2 Factor Authentication is available for this entry given it's URL/Domain, but that the user does not have a 2 Factor Code (TOTP) setup within Strongbox */
-"audit_quick_summary_very_brief_two_factor_available" = "2FA Available";
+"audit_quick_summary_very_brief_two_factor_available" = "2FA Disponível";
 
 /* 2 Factor Authentication is available for this domain. - L10n - The meaning of this string is that Strongbox has discovered the 2 Factor Authentication is available for this entry given it's URL/Domain, but that the user does not have a 2 Factor Code (TOTP) setup within Strongbox */
-"audit_quick_summary_two_factor_available" = "2 Factor Authentication is available for this domain.";
+"audit_quick_summary_two_factor_available" = "Autenticação de 2 fatores está disponível para este domínio.";
 
 /* Password is weak (low entropy) */
 "audit_quick_summary_password_low_entropy" = "Senha é fraca (baixa entropia)";
@@ -2993,7 +2993,7 @@
 "audit_quick_summary_very_brief_password_is_pwned" = "Comprometida";
 
 /* Password is too short. */
-"audit_quick_summary_password_is_too_short" = "Password is too short";
+"audit_quick_summary_password_is_too_short" = "A senha é muito curta";
 
 /* Found %@ issues in %@ entries - Translators note, both parameters are numbers, e.g. 24 issues found in 12 entries */
 "audit_status_fmt" = "Foram encontrados %@ problemas em %@ registros";
@@ -3194,7 +3194,7 @@
 "audit_drill_down_no_excluded_items_title" = "Nenhum Item Ignorado";
 
 /* You have not explicitly excluded any items from the audit. You can exclude an item by long tapping on it > Audit > Audit this Item > Toggle Off. */
-"audit_drill_down_no_excluded_items_subtitle" = "You have not explicitly excluded any items from the audit. You can exclude an item by long tapping on it > Audit > Audit this Item > Toggle Off.";
+"audit_drill_down_no_excluded_items_subtitle" = "Você não ignorou explicitamente nenhum item nesta auditoria. Você pode ignorar um item deslizando para a direita sobre ele e tocando no botão Auditoria.";
 
 /* Unexclude */
 "audit_excluded_items_vc_action_unclude" = "Parar de Ignorar";
@@ -4380,7 +4380,7 @@
 "onboarding_welcome_to_strongbox_first_run_message" = "Hi there, and welcome to Strongbox 😎\n\nWe're sure you're excited to get started, but first, there are a few steps we should take so that everything runs smoothly...";
 
 /* Don't Use iCloud */
-"prefs_vc_dont_use_icloud_action" = "Don't Use iCloud";
+"prefs_vc_dont_use_icloud_action" = "Não usar o iCloud";
 
 /* Get Started */
 "generic_get_started" = "Get Started";
@@ -4424,7 +4424,7 @@
 "generic_upgrade_ellipsis" = "Upgrade...";
 
 /* Free Trial Ending Soon */
-"upgrade_onboarding_free_trial_ending_soon_title" = "Free Trial Ending Soon";
+"upgrade_onboarding_free_trial_ending_soon_title" = "Período de Teste Gratuito Encerrará em Breve";
 
 /* Your free trial of Strongbox Pro will end next week, and we wouldn't want you to lose any of the cool Pro features.\n\nWould you like to support Strongbox and take a look at some of the Upgrade options? */
 "upgrade_onboarding_free_trial_ending_soon_message" = "Your free trial of Strongbox Pro will end next week, and we wouldn't want you to lose any of the cool Pro features.\n\nWould you like to support Strongbox and take a look at some of the Upgrade options?";
@@ -4448,13 +4448,13 @@
 "export_items_select_destination_database_title" = "Destination Database";
 
 /* Export Here */
-"export_items_select_destination_group_title" = "Export Here";
+"export_items_select_destination_group_title" = "Exportar Aqui";
 
 /* Export Database */
 "generic_export_database" = "Exportar Base de Dados";
 
 /* Export Item */
-"generic_export_item" = "Export Item";
+"generic_export_item" = "Exportar item";
 
 /* 1 item will be replaced in destination database '%@'. (L10n Note: 1st Param is the destination database name e.g. '1 item will be replaced in destination database 'Mark's Database'.') */
 "export_options_1_replaced_fmt" = "1 item will be replaced in destination database '%@'.";
@@ -4481,7 +4481,7 @@
 "export_vc_export_items_successful_message" = "Your selected items have now been exported to the destination database.";
 
 /* Export Failed */
-"export_vc_export_failed_title" = "Export Failed";
+"export_vc_export_failed_title" = "Falha na Exportação";
 
 /* There was a problem exporting some or all of these items. The export has been cancelled. */
 "export_vc_export_items_failed_message" = "There was a problem exporting some or all of these items. The export has been cancelled.";
@@ -4493,61 +4493,61 @@
 "yubikey_fast_unlock_title" = "Determining Fast Unlock";
 
 /* Strongbox is determining the fastest way to unlock this database. You will be asked to scan your YubiKey once again. */
-"yubikey_fast_unlock_message" = "Strongbox is determining the fastest way to unlock this database. You will be asked to scan your YubiKey once again.";
+"yubikey_fast_unlock_message" = "O Strongbox está determinando a maneira mais rápida para desbloquear esta base de dados. Será solicitado que você digitalize o seu YubiKey novamente.";
 
 /* Title displayed in tableview when there are no SFTP or WebDAV connections setup */
-"empty_connections_list_tableview_title" = "No Connections Yet";
+"empty_connections_list_tableview_title" = "Sem Conexões";
 
 /* Please enter a valid name. */
-"connection_vc_name_invalid" = "Please enter a valid name.";
+"connection_vc_name_invalid" = "Digite um nome válido.";
 
 /* Tap '+' to add a connection. */
-"tap_plus_to_add_a_connection_hint" = "Tap '+' to add a connection.";
+"tap_plus_to_add_a_connection_hint" = "Toque em '+' para adicionar uma conexão.";
 
 /* Select Connection */
-"select_webdav_or_sftp_connection" = "Select Connection";
+"select_webdav_or_sftp_connection" = "Selecione a Conexão";
 
 /* Slide left for options */
-"slide_left_for_options" = "Slide left for options";
+"slide_left_for_options" = "Deslize para a esquerda para opções";
 
 /* Not used by any databases. */
-"not_used_by_any_databases" = "Not used by any databases.";
+"not_used_by_any_databases" = "Não usado por nenhuma base de dados.";
 
 /* Used by '%@' - L10n note: 1st param is a database name e.g. 'Mark's Database' */
-"used_by_database_name_fmt" = "Used by '%@'";
+"used_by_database_name_fmt" = "Usado por '%@'";
 
 /* Used by '%@' and %@ more - L10n note: 1st param is a database name e.g. 'Mark's Database', 2nd param is a number/count of how many other databases are using this item */
-"used_by_database_name_and_n_more_fmt" = "Used by '%@' and %@ more";
+"used_by_database_name_and_n_more_fmt" = "Usado por '%@' e mais %@";
 
 /* SFTP Connection... */
-"generic_action_edit_sftp_connection_ellipsis" = "SFTP Connection...";
+"generic_action_edit_sftp_connection_ellipsis" = "Conexão SFTP...";
 
 /* WebDAV Connection... */
-"generic_action_edit_webdav_connection_ellipsis" = "WebDAV Connection...";
+"generic_action_edit_webdav_connection_ellipsis" = "Conexão WebDAV...";
 
 /* Are you want to change the connection for this database? */
-"are_you_sure_change_connection" = "Are you sure you want to change the connection for this database?";
+"are_you_sure_change_connection" = "Tem certeza de que deseja alterar a conexão para esta base de dados?";
 
 /* Reselect SFTP File... */
-"reselect_sftp_file_ellipsis" = "Reselect SFTP File...";
+"reselect_sftp_file_ellipsis" = "Reselecionar Arquivo SFTP...";
 
 /* Reselect WebDAV File... */
-"reselect_webdav_file_ellipsis" = "Reselect WebDAV File...";
+"reselect_webdav_file_ellipsis" = "Reselecionar Arquivo WebDAV...";
 
 /* Are you sure you want to use this file for this database? */
-"are_you_sure_use_this_file_this_database" = "Are you sure you want to use this file for this database?";
+"are_you_sure_use_this_file_this_database" = "Tem certeza de que deseja usar este arquivo para esta base de dados?";
 
 /* Your private key or password is no longer available, probably because you've just migrated to a new device.\nPlease edit your connection to fix. */
-"password_unavailable_please_edit_connection_error" = "Your private key or password is no longer available, probably because you've just migrated to a new device.\nPlease edit your connection to fix.";
+"password_unavailable_please_edit_connection_error" = "Sua chave privada ou senha não estão mais disponíveis. Provavelmente porque você acabou de migrar para um novo dispositivo.\nPor favor, edite sua conexão para corrigir.";
 
 /* Password Missing */
-"password_missing" = "Password missing";
+"password_missing" = "Senha não informada";
 
 /* Private Key or Password missing */
-"pk_or_password_missing" = "Private Key or Password missing";
+"pk_or_password_missing" = "Chave Privada ou Senha faltando";
 
 /* Select Destination Group - L10n Note: When a user is moving item(s) to another group in a database, this is the title. */
-"select_destination_group" = "Select Destination Group";
+"select_destination_group" = "Selecionar Grupo de Destino";
 
 /* KeePass 2 (KDBX 3.x) ⚠️ */
 "keepass_kdbx3_format_not_recommended" = "KeePass 2 (KDBX 3.x) ⚠️";
@@ -4556,16 +4556,16 @@
 "keepass_kdbx4x_format" = "KeePass 2 (KDBX 4.x)";
 
 /* Memory */
-"generic_memory" = "Memory";
+"generic_memory" = "Memória";
 
 /* Parallelism */
-"generic_parallelism" = "Parallelism";
+"generic_parallelism" = "Paralelismo";
 
 /* Algorithm */
 "generic_algorithm" = "Algoritmo";
 
 /* Compression */
-"generic_compression" = "Compression";
+"generic_compression" = "Compressão";
 
 /* Are you sure you want to change your database encryption settings? */
 "are_you_sure_change_encryption_settings" = "Are you sure you want to change your database encryption settings?";
@@ -4574,7 +4574,7 @@
 "merge_result_databases_identical_sync_initiated" = "Merge OK. Tap Done to continue.";
 
 /* Expired Entries (%@)  - L10n note - 1st paramter is the number of entries, e.g. Expired Entries (2) */
-"quick_view_title_expired_entries_title_fmt" = "Expired Entries (%@)";
+"quick_view_title_expired_entries_title_fmt" = "Registros expirados (%@)";
 
 /* View all expired entries */
 "quick_view_title_expired_entries_subtitle" = "View all expired entries";
@@ -4586,36 +4586,36 @@
 "quick_view_title_nearly_expired_entries_subtitle" = "View all nearly expired entries";
 
 /* Wi-Fi Transfer */
-"safes_vc_wifi_transfer" = "Wi-Fi Transfer";
+"safes_vc_wifi_transfer" = "Transferência Wi-Fi";
 
 /* Get Started Wizard */
-"safes_vc_quick_start" = "Get Started Wizard";
+"safes_vc_quick_start" = "Iniciar o Assistente";
 
 /* New (Advanced) */
-"safes_vc_new_advanced" = "New Database";
+"safes_vc_new_advanced" = "Nova Base de Dados";
 
 /* Add Existing */
-"safes_vc_add_existing" = "Add Existing";
+"safes_vc_add_existing" = "Adicionar Existente";
 
-"safesvc_inner_stream_error_title" = "Inner Stream Decryption Error";
+"safesvc_inner_stream_error_title" = "Erro de Descriptografia do Fluxo Interno";
 
 /* Strongbox has had a problem decrypting some protected fields in this database. \n\nThe database will now open in Read-Only mode to prevent further corruption.\n\nWe recommend restoring from an older backup or upgrading to KDBX4 which does not suffer from this issue. */
-"safesvc_inner_stream_error_message" = "Strongbox has had a problem decrypting some protected fields in this database. \n\nThe database will now open in Read-Only mode to prevent further corruption.\n\nWe recommend restoring from an older backup or upgrading to KDBX4 which does not suffer from this issue.";
+"safesvc_inner_stream_error_message" = "O Strongbox teve um problema ao descriptografar alguns campos protegidos nesta base de dados. \n\nAgora a base de dados será aberta no modo Somente Leitura para evitar mais corrupção.\n\nRecomendamos a restauração de um backup ou atualização de um mais antigo para o KDBX4 que não tem esse problema.";
 
 /* Choose file to Import */
-"mac_choose_file_import" = "Choose file to Import";
+"mac_choose_file_import" = "Selecione arquivo para Importar";
 
 /* 🔴 Import Failed */
-"import_failed_title" = "🔴 Import Failed";
+"import_failed_title" = "🔴 Falha ao importar";
 
 /* Strongbox could not import this file. Please check it is in the correct format. */
-"import_failed_message" = "Strongbox could not import this file. Please check it is in the correct format.";
+"import_failed_message" = "O Strongbox não pôde importar este arquivo. Por favor verifique se está no formato correto.";
 
 /* ✅ Import Successful */
-"import_successful_title" = "✅ Import Successful";
+"import_successful_title" = "Importação Bem Sucedida";
 
 /* Your import was successful! Now, let's set a strong master password and save your new Strongbox database. */
-"import_successful_message" = "Your import was successful! Now, let's set a strong master password and save your new Strongbox database.";
+"import_successful_message" = "Sua importação foi bem sucedida! Agora vamos definir uma senha mestra forte e salvar sua nova base de dados no Strongbox.";
 
 /* Are you sure you want to clear the TOTP for this entry? */
 "are_you_sure_clear_totp" = "Are you sure you want to clear the TOTP for this entry?";
@@ -4630,7 +4630,7 @@
 "mac_yubikey_slot_n_fmt" = "Hardware Key Slot %@";
 
 /* No Hardware Keys Found */
-"mac_no_yubikeys_found" = "No Hardware Keys Found";
+"mac_no_yubikeys_found" = "Nenhuma Chave de Hardware Encontrada";
 
 /* Hardware Key found but no compatible HMACSHA1 slots available */
 "mac_yubikey_available_but_no_compatible_slots" = "Hardware Key found but no compatible HMACSHA1 slots available";
@@ -4763,13 +4763,13 @@
 "side_bar_hierarchy_folder_structure" = "Hierarquia";
 
 /* Discard Changes */
-"discard_changes" = "Discard Changes";
+"discard_changes" = "Descartar Alterações";
 
 /* Create Group */
 "create_group" = "Criar Grupo";
 
 /* Edit Entry */
-"edit_entry" = "Edit Entry";
+"edit_entry" = "Editar Registro";
 
 /* Create Entry */
 "create_entry" = "Criar Registro";
@@ -4787,16 +4787,16 @@
 "field_tidy_choice_dont_tidy" = "Don't Tidy";
 
 /* Location - The location of an item, e.g. Location = /Group-1/Group-2/ */
-"generic_fieldname_location" = "Location";
+"generic_fieldname_location" = "Localização";
 
 /* Extimated Size - This is memory/file size in bytes/KB/MB consumed by a particular entry e.g. Estimated Size= 64KB*/
-"generic_fieldname_estimated_size" = "Estimated Size";
+"generic_fieldname_estimated_size" = "Tamanho Estimado";
 
 /* Historical Item Count - This is number of previous copies/older copies of this entry we have */
 "generic_fieldname_historical_item_count" = "Historical Item Count";
 
 /* Custom Icon */
-"generic_fieldname_custom_icon" = "Custom Icon";
+"generic_fieldname_custom_icon" = "Ícone Personalizado";
 
 /* ID - L10n Note: This is the unique id (identifier/uuid) of an item, usually a long string like 5E7CBED9D6D14AF38BB6FE4B9CF1CF64 */
 "generic_fieldname_id" = "ID";
@@ -4808,7 +4808,7 @@
 "generic_action_verb_copy_to_clipboard" = "Copiar";
 
 /* Copy - L10n Note: This is a verb, to copy the field name (e.g. if there is a field: Custom-Field-1="value", then this would copy "Custom-Field-1" to the clipboard */
-"generic_action_verb_copy_field_name_to_clipboard" = "Copy Field Name";
+"generic_action_verb_copy_field_name_to_clipboard" = "Copiar Nome do Campo";
 
 /* Spell Out - L10n: To have Strongbox spell out through the speech synthesizer, character by character a field */
 "generic_action_verb_spell_out_field" = "Spell Out";
@@ -4886,7 +4886,7 @@
 "num_of_bits_fmt" = "%@ bits";
 
 /* Exclude Item from Audit */
-"exclude_item_from_audit" = "Exclude Item from Audit";
+"exclude_item_from_audit" = "Excluir Item da Auditoria";
 
 /* Check with 'Have I Been Pwned?' */
 "check_field_with_hibp" = "Check with 'Have I Been Pwned?'";
@@ -4904,7 +4904,7 @@
 "remove_tag_from_items" = "Remove Tag from Item(s)";
 
 /* All Issues */
-"audit_side_bar_nav_all_issues" = "All Issues";
+"audit_side_bar_nav_all_issues" = "Todos os problemas";
 
 /* There are some blank characters (e.g. spaces, tabs) at the start or end of your password.\n\nShould Strongbox tidy up these extraneous characters? */
 "field_tidy_message_tidy_up_password" = "There are some blank characters (e.g. spaces, tabs) at the start or end of your password.\n\nShould Strongbox tidy up these extraneous characters?";
@@ -4952,10 +4952,10 @@
 "unsupported_by_database_format" = "Unsupported by Database Format";
 
 /* Include in Audit */
-"action_include_in_audit" = "Include in Audit";
+"action_include_in_audit" = "Incluir na Auditoria";
 
 /* Exclude from Audit */
-"action_exclude_from_audit" = "Exclude from Audit";
+"action_exclude_from_audit" = "Excluir da Auditoria";
 
 /* [Database] Title (Username) */
 "quick_type_format_database_title_username" = "[Database] Title (Username)";
@@ -4973,4 +4973,7 @@
 "new_ui_available_message" = "Would you like to use our latest new and improved \"NextGen\" UI?\n\nWe think you'll like it!";
 
 /* Ask Me Later */
-"generic_ask_me_later" = "Ask Me Later";
+"generic_ask_me_later" = "Me Pergunte Depois";
+
+/* Lock Database - L10n note: Verb, To Lock, Locks the Database */
+"verb_lock_database" = "Bloquear Base de Dados";
