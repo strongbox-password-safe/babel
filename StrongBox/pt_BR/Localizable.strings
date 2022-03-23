@@ -4643,10 +4643,10 @@
 
 
 /* None (%@ Available) - L10n Guide: The 1st parameter is the number of detected hardware key/slots, but None have been selected by the user */
-"mac_hardware_key_dropdown_n_available_fmt" = "None (%@ Available)";
+"mac_hardware_key_dropdown_n_available_fmt" = "Nenhum (%@ Disponível)";
 
 /* None (No Keys Detected) - L10n Guide: This means no hardware key is selected and none have been detected */
-"mac_hardware_key_dropdown_none_no_keys_detected" = "None (No Keys Detected)";
+"mac_hardware_key_dropdown_none_no_keys_detected" = "Nenhum (Nenhuma Chave Detectada)";
 
 /* 🔴 Configured Key [CR Unavailable] - L10n Guide: A hardware key has been previously configured/setup by the user for this database but the Challenge Response functionality is not available, probably by error or user mistake */
 "mac_hardware_key_key_configured_but_cr_unavailable" = "🔴 Configured Key [CR Unavailable]";
@@ -4712,7 +4712,7 @@
 "safesvc_more_submenu" = "Mais";
 
 /* Please Enter a New Word Separator */
-"mac_password_gen_enter_new_separator" = "Please Enter a New Word Separator";
+"mac_password_gen_enter_new_separator" = "Por favor insira um novo Separador de Palavras";
 
 /* AutoFill is only available on macOS Big Sur+ */
 "autofill_app_preferences_only_avail_big_sur" = "Preenchimento Automático disponível apenas no macOS Big Sur ou superior";
@@ -4814,73 +4814,73 @@
 "generic_action_verb_spell_out_field" = "Spell Out";
 
 /* Speak - L10n: To have Strongbox speak a item field (e.g. password) through the speech synthesizer */
-"generic_action_verb_speak_field" = "Speak";
+"generic_action_verb_speak_field" = "Falar";
 
 /* Launch URL - L10n: An action/verb, to launch a URL */
-"generic_action_verb_launch_url" = "Launch URL";
+"generic_action_verb_launch_url" = "Abrir URL";
 
 /* Show QR Code */
 "generic_action_show_qr_code" = "Exibir QR Code";
 
 /* Show Large Text View */
-"generic_action_show_large_text_view" = "Show Large Text View";
+"generic_action_show_large_text_view" = "Exibir em Texto Grande";
 
 /* Preview Attachment */
-"generic_action_preview_attachment" = "Preview Attachment";
+"generic_action_preview_attachment" = "Pré-visualização do anexo";
 
 /* Export Attachment */
-"generic_action_export_attachment" = "Export Attachment";
+"generic_action_export_attachment" = "Exportar Anexo";
 
 /* Reveal - L10n: Verb, to reveal a concealed field e.g. a password */
-"generic_action_reveal" = "Reveal";
+"generic_action_reveal" = "Exibir";
 
 /* Conceal - L10n: Verb, to conceal a revealed field e.g. a password */
-"generic_action_conceal" = "Conceal";
+"generic_action_conceal" = "Ocultar";
 
 /* Copy Filename */
-"generic_action_copy_filename" = "Copy Filename";
+"generic_action_copy_filename" = "Copiar nome do arquivo";
 
 /* Field Name */
-"generic_field_name" = "Field Name";
+"generic_field_name" = "Nome do campo";
 
 /* No Selection */
-"detail_view_no_selection_header" = "No Selection";
+"detail_view_no_selection_header" = "Nada selecionado";
 
 /* Multiple Items */
-"detail_view_multiple_items_selected_header" = "Multiple Items";
+"detail_view_multiple_items_selected_header" = "Múltiplos itens";
 
 /* Select an Item */
-"detail_view_no_selection_message" = "Select an Item";
+"detail_view_no_selection_message" = "Selecione um item";
 
 /* %@ Items Selected */
-"detail_view_no_multiple_items_selected_message_fmt" = "%@ Items Selected";
+"detail_view_no_multiple_items_selected_message_fmt" = "%@ itens selecionados";
 
 /* Toggle Details Panel - L10n shows or hides the right hand side details view panel */
-"nextgen_toolbar_item_toggle_details_panel" = "Toggle Details Panel";
+"nextgen_toolbar_item_toggle_details_panel" = "Alternar Painel de Detalhes";
 
 /* Toggle Sidebar - L10n shows or hides the left hand side bar navigation panel */
-"nextgen_toolbar_item_toggle_sidebar" = "Toggle Sidebar";
+"nextgen_toolbar_item_toggle_sidebar" = "Alternar Barra Lateral";
 
 /* Recycle Items - This is a verb/action - Recycle the selected items, sending them to the Recycle Bin */
-"generic_recycle_items" = "Recycle Items";
+"generic_recycle_items" = "Enviar itens para Lixeira";
 
 /* Recycle Item - This is a verb/action - Recycle the selected item, sending it to the Recycle Bin  */
-"generic_recycle_item" = "Recycle Item";
+"generic_recycle_item" = "Enviar item para Lixeira";
 
 /* Show Details Panel */
-"main_menu_show_details_panel" = "Show Details Panel";
+"main_menu_show_details_panel" = "Exibir Painel de Detalhes";
 
 /* Hide Details Panel */
-"main_menu_hide_details_panel" = "Hide Details Panel";
+"main_menu_hide_details_panel" = "Ocultar Painel de Detalhes";
 
 /* %@ (%@ / %@ bits / %@) - L10n Note: 1st Param is the strength category (weak/strong/mediocre, etc). 2nd Param is the number of characters in the password. 3rd parameter is the number of bits of entropy, with 1 decimal place, so "92.3". 4th parameter is the estimated time it will take to crack this password, so "1 million years" */
 "password_strength_summary_char_count_fmt" = "%@ (%@ / %@ bits / %@)";
 
 /* %@ (%@ bits / %@) - L10n Note: 1st Param is the strength category (weak/strong/mediocre, etc). 2nd parameter is the number of bits of entropy, with 1 decimal place, so "92.3". 3rd parameter is the estimated time it will take to crack this password, so "1 million years"*/
-"password_strength_summary_fmt" = "%@ (%@ bits / %@)";
+"password_strength_summary_fmt" = "%@ / %@ bits / %@)";
 
 /* %@ characters - 1st param is a simple integer like 22 so e.g. "22 characters" */
-"num_of_characters_fmt" = "%@ characters";
+"num_of_characters_fmt" = "%@ caracteres";
 
 /* %@ bits - 1st param is a number like 36.2 so e.g. "36.2 bits" */
 "num_of_bits_fmt" = "%@ bits";
@@ -4889,7 +4889,7 @@
 "exclude_item_from_audit" = "Excluir Item da Auditoria";
 
 /* Check with 'Have I Been Pwned?' */
-"check_field_with_hibp" = "Check with 'Have I Been Pwned?'";
+"check_field_with_hibp" = "Checar com 'Have I Been Pwned?'";
 
 /* Pro - A short tag / text that will appear beside Pro features in a badge like fashion - keep v short if possible */
 "pro_badge_text" = "Pro";
@@ -4898,49 +4898,49 @@
 "new_tag_ellipsis" = "Nova Etiqueta...";
 
 /* Add Tag to Item(s) */
-"add_tag_to_items" = "Add Tag to Item(s)";
+"add_tag_to_items" = "Adicionar Tag ao(s) item(ns)";
 
 /* Remove Tag from Item(s) */
-"remove_tag_from_items" = "Remove Tag from Item(s)";
+"remove_tag_from_items" = "Remover Tag do Item(s)";
 
 /* All Issues */
 "audit_side_bar_nav_all_issues" = "Todos os problemas";
 
 /* There are some blank characters (e.g. spaces, tabs) at the start or end of your password.\n\nShould Strongbox tidy up these extraneous characters? */
-"field_tidy_message_tidy_up_password" = "There are some blank characters (e.g. spaces, tabs) at the start or end of your password.\n\nShould Strongbox tidy up these extraneous characters?";
+"field_tidy_message_tidy_up_password" = "Existem alguns caracteres em branco (por exemplo: espaços, tabs) no início ou final da sua senha.\n\nO Strongbox deve remover esses caracteres extras?";
 
 /* Fun */
 "custom_app_icon_category_fun" = "Fun";
 
 /* Utilities */
-"custom_app_icon_category_utilities" = "Utilities";
+"custom_app_icon_category_utilities" = "Utilitários";
 
 /* Default */
 "custom_app_icon_category_default" = "Padrão";
 
 /* Are you sure you want to reset to the default App Icon? */
-"are_you_sure_reset_to_default_app_icon" = "Are you sure you want to reset to the default App Icon?";
+"are_you_sure_reset_to_default_app_icon" = "Tem certeza que deseja redefinir para o ícone padrão do aplicativo?";
 
 /* This icon is only available for Pro users. */
-"custom_app_icon_pro_only" = "This icon is only available for Pro users.";
+"custom_app_icon_pro_only" = "Este ícone só está disponível para usuários Pro.";
 
 /* Pro Version %@ */
-"about_strongbox_pro_version_fmt" = "Pro Version %@";
+"about_strongbox_pro_version_fmt" = "Versão Pro %@";
 
 /* Version %@ */
-"about_strongbox_free_version_fmt" = "Version %@";
+"about_strongbox_free_version_fmt" = "Versão %@";
 
 /* Lifetime Pro */
-"pro_status_lifetime_pro" = "Lifetime Pro";
+"pro_status_lifetime_pro" = "Pro Vitalício";
 
 /* Pro (Yearly subscription) */
-"pro_status_yearly_pro" = "Pro (Yearly subscription)";
+"pro_status_yearly_pro" = "Pro (assinatura anual)";
 
 /* Pro (Monthly subscription) */
-"pro_status_monthly_pro" = "Pro (Monthly subscription)";
+"pro_status_monthly_pro" = "Pro (assinatura mensal)";
 
 /* Free Trial (%@ days left) */
-"pro_status_free_trial_days_left_fmt" = "Free Trial (%@ days left)";
+"pro_status_free_trial_days_left_fmt" = "Teste Gratuito (%@ dias restantes)";
 
 /* Unlicensed (Please Upgrade) */
 "pro_status_unlicensed_please_upgrade" = "Unlicensed (Please Upgrade)";
