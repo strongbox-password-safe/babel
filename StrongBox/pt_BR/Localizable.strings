@@ -2745,7 +2745,7 @@
 "mac_convenience_expiry_period_never" = "Nunca";
 
 /* App Exit (Memory Only) */
-"mac_convenience_expiry_period_on_app_exit" = "App Exit (Memory Only)";
+"mac_convenience_expiry_period_on_app_exit" = "Saída do App (Apenas memória)";
 
 /* Unlock with Touch ID or Watch */
 "mac_unlock_screen_button_title_convenience_unlock" = "Desbloquear com Touch ID ou Watch";
@@ -2790,7 +2790,7 @@
 "mac_valid_credentials" = "Credenciais Válidas";
 
 /* Could not get challenge response from hardware key */
-"mac_error_getting_challenge_response_yubikey" = "Could not get challenge response from hardware key";
+"mac_error_getting_challenge_response_yubikey" = "Não foi possível obter \"challenge response\" da chave de hardware";
 
 /* Refreshing... (Translators Note: Used whenever running a fairly short operation to indicate somehting is happening, e.g. when polling hardware key status (can take a few seconds)) */
 "generic_refreshing_ellipsis" = "Atualizando...";
@@ -2822,7 +2822,7 @@
 "yubikey_insert_the_key_to_read_the_otp" = "Insira a chave para ler o OTP";
 
 /* Communicating with hardware key... */
-"yubikey_communicating_with_key_ellipsis" = "Communicating with hardware key...";
+"yubikey_communicating_with_key_ellipsis" = "Comunicando com a chave de hardware...";
 
 /* Icon Set */
 "browse_prefs_icon_set" = "Conjunto de Ícones";
@@ -3251,7 +3251,7 @@
 "generic_biometric_unlock_fmt" = "Desbloqueio com %@";
 
 /* By Default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok? */
-"backup_settings_prompt_message" = "By Default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok?";
+"backup_settings_prompt_message" = "Por padrão o Strongbox inclui todos os seus arquivos locais (incluindo backups de bases de dados) e bases de dados locais nos Backups da Apple deste dispositivo. Contudo Arquivos de Chave importados não são incluídos por motivos de segurança.\n\nVocê pode mudar esta configuração a qualquer momento em Preferências > Avançado.\n\nOk?";
 
 /* Backup Settings */
 "backup_settings_prompt_title" = "Configurações de Backup";
@@ -3260,10 +3260,10 @@
 "backup_settings_prompt_option_yes_looks_good" = "Sim, gostei";
 
 /* Yes, but also backup Key Files */
-"backup_settings_prompt_yes_but_include_key_files" = "Yes, but also backup Key Files";
+"backup_settings_prompt_yes_but_include_key_files" = "Sim, mas também fazer backup dos Arquivos de Chave";
 
 /* No, do NOT backup anything */
-"backup_settings_prompt_no_dont_backup_anything" = "No, do not include anything";
+"backup_settings_prompt_no_dont_backup_anything" = "Não, não incluir nada";
 
 /* View Sync Status */
 "safes_vc_action_view_sync_status" = "Exibir Log de Sincronização";
@@ -3965,7 +3965,7 @@
 "database_properties_subtitle_view_sync_log" = "Exibir detalhes de sincronização recente incluindo erros.";
 
 /* Your Database is configured to use a hardware key, however no key or an incorrect key was found connected. */
-"mac_autofill_no_or_incorrect_yubikey_found" = "Your Database is configured to use a hardware key, however no key or an incorrect key was found connected.";
+"mac_autofill_no_or_incorrect_yubikey_found" = "Sua Base de Dados está configurada para usar uma chave de hardware, porém nenhuma chave ou uma chave incorreta foi conectada.";
 
 /* Title (Username) */
 "quick_type_format_title_username" = "Título (Nome de Usuário)";
@@ -4290,7 +4290,7 @@
 "item_properties_previous_parent_group" = "Grupo Pai Anterior";
 
 /* %@ & PIN - L10n Note: The first parameter is automatically be replaced by the appropriate biometric name for the device (i.e. Face ID or Touch ID) - So the string will look like e.g. 'Face ID & PIN' */
-"convenience_unlock_preferences_title_fmt" = "%@ & PIN";
+"convenience_unlock_preferences_title_fmt" = "%@ e PIN";
 
 /* Require After */
 "convenience_unlock_require_after_prefix" = "Solicitar Após";
@@ -4377,37 +4377,37 @@
 "onboarding_welcome_to_strongbox_first_run_title" = "Boas Vindas a Bordo";
 
 /* Hi there, and welcome to Strongbox 😎\n\nWe're sure you're excited to get started, but first, there are a few steps we should take so that everything runs smoothly... */
-"onboarding_welcome_to_strongbox_first_run_message" = "Hi there, and welcome to Strongbox 😎\n\nWe're sure you're excited to get started, but first, there are a few steps we should take so that everything runs smoothly...";
+"onboarding_welcome_to_strongbox_first_run_message" = "Olá, seja bem-vindo ao Strongbox 😎\n\nTemos certeza de que está animado para começar, mas primeiro há alguns passos que devemos dar para que tudo corra bem...";
 
 /* Don't Use iCloud */
 "prefs_vc_dont_use_icloud_action" = "Não usar o iCloud";
 
 /* Get Started */
-"generic_get_started" = "Get Started";
+"generic_get_started" = "Comece Agora";
 
 /* You're All Set! */
 "generic_youre_all_set" = "Tudo Pronto!";
 
 /* Next up, we'll take you to your regular Databases screen.\n\nFrom here, we'll help you add your first password database.\n\n❤️ The Strongbox Team ❤️ */
-"onboarding_welcome_to_strongbox_first_run_final_message" = "Next up, we'll take you to your regular Databases screen.\n\nFrom here, we'll help you add your first password database.\n\n❤️ The Strongbox Team ❤️";
+"onboarding_welcome_to_strongbox_first_run_final_message" = "Em seguida, levaremos você à sua tela de Base de Dados normal.\n\nDaqui, ajudaremos você a adicionar sua primeira senha de base de dados.\n\n❤️ Equipe do Strongbox ❤️";
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 /* Fix the format string crashes that are possible when these are incorrectly localized */
 /* %@'s Database %@  - (Tranlators Note: 1st param is the users name, and 2nd param is a number, e.g. 'Mark's Database 3' ), indicating this is Mark's 3rd database */
 
-"casg_suggested_database_name_users_database_number_suffix_fmt2" = "%@'s Database %@";
+"casg_suggested_database_name_users_database_number_suffix_fmt2" = "Base de Dados de %@";
 
 /* About Strongbox %@ (Pro Trial - %@ days left)  - (Tranlators Note: 1st param is the version number and 2nd is number of days left in the Free Trial, e.g. 'About Strongbox 1.52.20 (Pro Trial - 75 days left)')  */
-"prefs_vc_app_version_info_pro_trial_fmt2" = "About Strongbox %@ (Pro Trial - %@ days left)";
+"prefs_vc_app_version_info_pro_trial_fmt2" = "Sobre o Strongbox %@ (Avaliação do Pro - %@ dias restantes)";
 
 /* %@ / month (Save %@%%)  - (Tranlators Note: Price per month and percentage savings indicator. e.g. $1.99/month (Save 20%)). Currency, percentage and price formatting is automatic. */
-"upgrade_vc_price_per_month_with_percentage_saving_fmt2" = "%@ / month (Save %@%%)";
+"upgrade_vc_price_per_month_with_percentage_saving_fmt2" = "%@ / mês (Economize %@%%)";
 
 /* Original (%@ x %@) %@  - (Tranlators Note: Attachment Image Size (Dimensions and File Size), e.g. 'Original: (2048x2048) 24.2 MB')  */
 "add_attachment_vc_large_image_prompt_option_original_size_fmt2" = "Original (%@ x %@) %@";
 
 /* Use Anyway (%@ x %@) %@  - (Tranlators Note: Attachment Image Size (Dimensions and File Size), e.g. 'Use Anyway: (2048x2048) 24.2 MB')  */
-"add_attachment_vc_large_image_prompt_option_use_anyway_size_fmt2" = "Use Anyway (%@ x %@) %@";
+"add_attachment_vc_large_image_prompt_option_use_anyway_size_fmt2" = "Usar Assim Mesmo (%@ x %@) %@";
 
 /* This is a rather large image (%@x%@), would you like to rescale it to a maximum dimension of %@ pixels for a file size saving of roughly %@  - (Tranlators Note: Message about reducing the file size of an image. e.g. 'This is a rather large image (4096x4096), would you like to rescale it to a maximum dimension of 512 pixels for a file size saving of roughly 15 MB')  */
 "set_icon_vc_prompt_rescale_image_message_fmt2" = "This is a rather large image (%@x%@), would you like to rescale it to a maximum dimension of %@ pixels for a file size saving of roughly %@";
@@ -4418,7 +4418,7 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////
 /* Strongbox has been downgraded from Pro.\n\nDon't worry, all your databases are still available, but some convenient features (e.g. %@) may no longer work.\n\nThis is probably because your trial or subscription has just ended.\n\nWe'd love if you could support us by upgrading to Pro.\n\nWould you like to do that now? */
 
-"upgrade_mgr_downgrade_message" = "Strongbox has been downgraded from Pro.\n\nDon't worry, all your databases are still available, but some convenient features (e.g. %@) will no longer work.\n\nThis is probably because your trial or subscription has just ended.\n\nWe'd love if you could support us by upgrading to Pro.\n\nWould you like to do that now?";
+"upgrade_mgr_downgrade_message" = "Strongbox foi rebaixado do Pro.\n\nNão se preocupe, todas as suas Bases de Dados ainda estão disponíveis, mas alguns recursos convenientes (por exemplo, %@) já não funcionarão.\n\nIsso provavelmente aconteceu porque seu período de teste ou assinatura acabou há pouco.\n\nNós adoraríamos se você pudesse nos apoiar atualizando para o Pro.\n\nGostaria de fazer isso agora?";
 
 /* Upgrade... (L10n: A verb, To Upgrade, followed by ellipsis) */
 "generic_upgrade_ellipsis" = "Upgrade...";
@@ -4427,16 +4427,16 @@
 "upgrade_onboarding_free_trial_ending_soon_title" = "Período de Teste Gratuito Encerrará em Breve";
 
 /* Your free trial of Strongbox Pro will end next week, and we wouldn't want you to lose any of the cool Pro features.\n\nWould you like to support Strongbox and take a look at some of the Upgrade options? */
-"upgrade_onboarding_free_trial_ending_soon_message" = "Your free trial of Strongbox Pro will end next week, and we wouldn't want you to lose any of the cool Pro features.\n\nWould you like to support Strongbox and take a look at some of the Upgrade options?";
+"upgrade_onboarding_free_trial_ending_soon_message" = "Seu período de teste gratuito do Strongbox Pro terminará na próxima semana e não gostaríamos que você perdesse nenhum dos recursos legais do Pro.\n\nGostaria de apoiar o Strongbox e dar uma olhada em algumas das opções de atualização?";
 
 /* Strongbox could not find a QR Code in this image. */
-"could_not_find_qr_code" = "Strongbox could not find a QR Code in this image.";
+"could_not_find_qr_code" = "O Strongbox não encontrou um código QR nesta imagem.";
 
 /* Scan QR Code with Camera */
-"scan_qr_code_from_camera" = "Scan QR Code with Camera";
+"scan_qr_code_from_camera" = "Escaneie o código QR com a câmera";
 
 /* Would you like to sync before exporting to ensure you have the latest version of your database? */
-"sync_before_export_question_yes_no" = "Would you like to sync before exporting to ensure you have the latest version of your database?";
+"sync_before_export_question_yes_no" = "Gostaria de sincronizar antes de exportar para garantir que tem a versão mais recente da sua base de dados?";
 
 /* This database is already open. Please close it first if you would like to open it in a different mode. */
 "database_already_open_please_close" = "This database is already open. Please close it first if you would like to open it in a different mode.";
@@ -4715,7 +4715,7 @@
 "mac_password_gen_enter_new_separator" = "Please Enter a New Word Separator";
 
 /* AutoFill is only available on macOS Big Sur+ */
-"autofill_app_preferences_only_avail_big_sur" = "AutoFill is only available on macOS Big Sur+";
+"autofill_app_preferences_only_avail_big_sur" = "Preenchimento Automático disponível apenas no macOS Big Sur ou superior";
 
 /* ✅ Strongbox is enabled for Password AutoFill */
 "strongbox_is_enabled_for_autofill" = "✅ Strongbox is enabled for Password AutoFill";
