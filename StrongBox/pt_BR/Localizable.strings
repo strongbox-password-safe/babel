@@ -4410,7 +4410,7 @@
 "add_attachment_vc_large_image_prompt_option_use_anyway_size_fmt2" = "Usar Assim Mesmo (%@ x %@) %@";
 
 /* This is a rather large image (%@x%@), would you like to rescale it to a maximum dimension of %@ pixels for a file size saving of roughly %@  - (Tranlators Note: Message about reducing the file size of an image. e.g. 'This is a rather large image (4096x4096), would you like to rescale it to a maximum dimension of 512 pixels for a file size saving of roughly 15 MB')  */
-"set_icon_vc_prompt_rescale_image_message_fmt2" = "This is a rather large image (%@x%@), would you like to rescale it to a maximum dimension of %@ pixels for a file size saving of roughly %@";
+"set_icon_vc_prompt_rescale_image_message_fmt2" = "Esta é uma imagem bastante grande (%@x%@). Você gostaria de redimensioná-la para o máximo de %@ pixels? A economia de espaço será de aproximadamente %@";
 
 /* Backup %@ (%@) - Translators Note: 1st Param is a number/integer, second parameter is the modified date, so e.g. 'Backup 4 (11 Nov 2020)'*/
 "backups_backup_title_fmt2" = "Backup %@ (%@)";
@@ -4439,10 +4439,10 @@
 "sync_before_export_question_yes_no" = "Gostaria de sincronizar antes de exportar para garantir que tem a versão mais recente da sua base de dados?";
 
 /* This database is already open. Please close it first if you would like to open it in a different mode. */
-"database_already_open_please_close" = "This database is already open. Please close it first if you would like to open it in a different mode.";
+"database_already_open_please_close" = "Esta Base de Dados já está aberta. Por favor, feche-a primeiro se quiser abri-la em um modo diferente.";
 
 /* Offline - L10n note: this is an adjective, meaning the current database has been opened in Offline mode */
-"database_offline_mode_window_suffix" = "Offline";
+"database_offline_mode_window_suffix" = "Desconectado";
 
 /* Destination Database */
 "export_items_select_destination_database_title" = "Base de Dados de Destino";
@@ -4577,13 +4577,13 @@
 "quick_view_title_expired_entries_title_fmt" = "Registros expirados (%@)";
 
 /* View all expired entries */
-"quick_view_title_expired_entries_subtitle" = "View all expired entries";
+"quick_view_title_expired_entries_subtitle" = "Exibir todos os registros expirados";
 
 /* Nearly Expired Entries (%@) - L10n note - 1st paramter is the number of entries, e.g. Nearly Expired Entries (2) */
-"quick_view_title_nearly_expired_entries_title_fmt" = "Nearly Expired Entries (%@)";
+"quick_view_title_nearly_expired_entries_title_fmt" = "Registros quase expirados (%@)";
 
 /* View all nearly expired entries */
-"quick_view_title_nearly_expired_entries_subtitle" = "View all nearly expired entries";
+"quick_view_title_nearly_expired_entries_subtitle" = "Exibir todos os registros quase expirados";
 
 /* Wi-Fi Transfer */
 "safes_vc_wifi_transfer" = "Transferência Wi-Fi";
@@ -4621,10 +4621,10 @@
 "are_you_sure_clear_totp" = "Tem certeza que deseja limpar o TOTP para este registro?";
 
 /* Date Created (Precise) */
-"databases_preferences_subtitle_field_name_create_date_precise" = "Date Created (Precise)";
+"databases_preferences_subtitle_field_name_create_date_precise" = "Data de Criação (Precisa)";
 
 /* Hardware Slot %@ (Touch Required) - (Translators Note: Some YubiKey devices/configurations require the user to touch or press a button to authenticate. This string also takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_touch_required_fmt" = "Hardware Key Slot %@ (Touch Required)";
+"mac_yubikey_slot_n_touch_required_fmt" = "Slot da Chave de Hardware %@ (Toque Necessário)";
 
 /* Hardware Slot %@ (Translators Note: This string takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
 "mac_yubikey_slot_n_fmt" = "Slot da Chave de Hardware %@";
@@ -4633,13 +4633,13 @@
 "mac_no_yubikeys_found" = "Nenhuma Chave de Hardware Encontrada";
 
 /* Hardware Key found but no compatible HMACSHA1 slots available */
-"mac_yubikey_available_but_no_compatible_slots" = "Hardware Key found but no compatible HMACSHA1 slots available";
+"mac_yubikey_available_but_no_compatible_slots" = "Chave de Hardware encontrada, mas não há slots disponíveis compatíveis com HMACSHA1";
 
 /* Hardware Key %@ Slot %@ (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
-"mac_yubikey_serial_number_slot_n_touch_required_fmt2" = "Hardware Key %@ Slot %@ (Touch Required)";
+"mac_yubikey_serial_number_slot_n_touch_required_fmt2" = "Chave de Hardware %@, Slot %@ (Toque Necessário)";
 
 /* Hardware Key %@ Slot %@  - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2) */
-"mac_yubikey_serial_number_slot_n_fmt2" = "Hardware Key %@ Slot %@";
+"mac_yubikey_serial_number_slot_n_fmt2" = "Chave de Hardware %@, Slot %@";
 
 
 /* None (%@ Available) - L10n Guide: The 1st parameter is the number of detected hardware key/slots, but None have been selected by the user */
@@ -4652,16 +4652,16 @@
 "mac_hardware_key_key_configured_but_cr_unavailable" = "🔴 Configured Key [CR Unavailable]";
 
 /* ⚠️ Disconnected Key (Configured) - L10n Guide: A hardware key has been previously configured/setup by the user for this database but it is not currently connected to the mac/iphone */
-"mac_hardware_key_key_configured_but_disconnected" = "⚠️ Disconnected Key (Configured)";
+"mac_hardware_key_key_configured_but_disconnected" = "⚠️ Chave Desconectada (Configurada)";
 
 /* Connected Key Slot %@ (Configured) - L10n Guide: A hardware key has been previously configured/setup by the user for this database and it is also connected. The 1st parameter is slot number the user has configured. It will be '1' or '2'.  */
-"mac_hardware_key_configured_and_connected_slot_n_fmt" = "Connected Key Slot %@ (Configured)";
+"mac_hardware_key_configured_and_connected_slot_n_fmt" = "Slot de Chave %@ Conectado (Configurado)";
 
 /* Connected Key Slot %@ - L10n Guide: A hardware key is connected. The 1st parameter is slot number that is available for use. It will be '1' or '2'.  */
-"mac_hardware_key_connected_slot_n_fmt" = "Connected Key Slot %@";
+"mac_hardware_key_connected_slot_n_fmt" = "Slot de Chave %@ Conectado";
 
 /* ⚠️ Selected Key (Disconnected) - L10n Guide: The user previously selected a hardware key from the dropdown, but it has now been disconnected. */
-"mac_hardware_key_selected_but_has_been_disconnected" = "⚠️ Selected Key (Disconnected)";
+"mac_hardware_key_selected_but_has_been_disconnected" = "⚠️ Chave Selecionada (Desconectada)";
 
 /* AutoFill Issue */
 "autofill_argon2_onboarding_issue_title" = "Problema no Preenchimento Automático";
@@ -4754,7 +4754,7 @@
 "menu_item_header_most_used_suggestions" = "Mais Usados";
 
 /* Are you sure you want to clear the expiry for this entry? */
-"are_you_sure_clear_expiry" = "Are you sure you want to clear the expiry for this entry?";
+"are_you_sure_clear_expiry" = "Tem certeza que deseja limpar a expiração para este registro?";
 
 /* paste-at-%@.png - L10n Note: The first parameter is a timestamp, so the string will look like: "paste-at-20220113_165952_523.png" */
 "pasted_image_attachment_at_time_filename_png_fmt" = "paste-at-%@.png";
@@ -4946,10 +4946,10 @@
 "pro_status_unlicensed_please_upgrade" = "Unlicensed (Please Upgrade)";
 
 /* Unlicensed */
-"pro_status_unlicensed" = "Unlicensed";
+"pro_status_unlicensed" = "Não Licenciado";
 
 /* Unsupported by Database Format */
-"unsupported_by_database_format" = "Unsupported by Database Format";
+"unsupported_by_database_format" = "Não Suportado pelo Formato da Base de Dados";
 
 /* Include in Audit */
 "action_include_in_audit" = "Incluir na Auditoria";
@@ -4958,10 +4958,10 @@
 "action_exclude_from_audit" = "Excluir da Auditoria";
 
 /* [Database] Title (Username) */
-"quick_type_format_database_title_username" = "[Database] Title (Username)";
+"quick_type_format_database_title_username" = "Título da [Base de Dados] (Nome de Usuário)";
 
 /* [Database] Title */
-"quick_type_format_database_title" = "[Database] Title";
+"quick_type_format_database_title" = "Título da [Base de Dados]";
 
 /* [Database] Username */
 "quick_type_format_database_username" = "[Database] Username";
