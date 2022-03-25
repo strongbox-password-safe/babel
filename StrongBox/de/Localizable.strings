@@ -1367,7 +1367,7 @@
 "open_sequence_error_reading_key_file" = "Die Schlüsseldatei konnte nicht gelesen werden. Bitte überprüfen Sie in den Einstellungen unter \"Schlüsseldatei verwalten\", ob die Datei verschoben oder gelöscht wurde";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc, 2nd param is the date/time of the last cache) */
-"open_sequence_user_looks_offline_open_offline_instead_fmt" = "Es sieht so aus, als ob Sie offline wären und '%@' nicht erreicht werden kann. Möchten Sie stattdessen eine schreibgeschützte Offline-Cache-Version dieser Datenbank verwenden?\n\nZuletzt zwischengespeichert: %@";
+"open_sequence_user_looks_offline_open_offline_instead_fmt" = "Es sieht so aus, als ob Sie derzeit nicht mit dem Internet verbunden sind und „%@” daher nicht erreicht werden kann. Möchten Sie stattdessen eine schreibgeschützte Offline-zwischengespeicherte Version dieser Datenbank verwenden?\n\nZuletzt zwischengespeichert: %@";
 
 /* No, Try to connect anyway */
 "open_sequence_yesno_use_offline_cache_no_try_connect_option" = "Nein, trotzdem versuchen zu verbinden";
@@ -1542,7 +1542,7 @@
 "cloud_sessions_prompt_unlink_dropbox_message" = "Möchten Sie die Verknüpfung zwischen Strongbox und Dropbox wirklich aufheben?";
 
 /* Unlink Successful */
-"cloud_sessions_prompt_dropbox_unlink_success_title" = "Trennen erfolgreich";
+"cloud_sessions_prompt_dropbox_unlink_success_title" = "Erfolgreich getrennt";
 
 /* You have successfully unlinked Strongbox from Dropbox. */
 "cloud_sessions_prompt_dropbox_unlink_success_message" = "Sie haben Strongbox erfolgreich von Dropbox getrennt.";
@@ -1815,7 +1815,7 @@
 "model_error_cannot_write_backup" = "Backup konnte nicht geschrieben werden. Datenbank wird nicht gespeichert!";
 
 /* Button Title to view backup settings of this database */
-"safes_vc_action_backups" = "Backups";
+"safes_vc_action_backups" = "Sicherungen";
 
 /* Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences */
 "open_sequence_error_reading_key_file_autofill_context" = "Die Schlüsseldatei konnte nicht gelesen werden. Bitte überprüfen Sie in den Einstellungen unter \"Schlüsseldatei verwalten\", ob die Datei richtig importiert wurde";
@@ -3296,7 +3296,7 @@
 "sync_conflict_title" = "Sync-Konflikt";
 
 /* It looks like the remote version of this database on '%@' has changed and so has the local version you've been working on. Which version would you like to use?  - Translators Note: The first parameter is the name of the remote storage provider e.g. "Dropbox" */
-"sync_conflict_message_fmt" = "Es sieht so aus, als hätten sich sowohl die Remote-Version auf '%@' als auch die lokale Version dieser Datenbank geändert. Welche Version möchten Sie verwenden?";
+"sync_conflict_message_fmt" = "Es sieht so aus, als hätten sich sowohl die Remote-Version auf „%@” als auch die lokale Version dieser Datenbank geändert. Welche Version möchten Sie verwenden?";
 
 /* Strongbox could not sync your changes. */
 "sync_could_not_sync_your_changes" = "Strongbox konnte Ihre Änderungen nicht synchronisieren.";
@@ -3854,7 +3854,7 @@
 "conflict_resolution_sync_later_pro_only" = "Später synchronisieren (Pro)";
 
 /* Remote (%@) - Translators Note: First Param is the remote storage location e.g. Google Drive or Dropbox etc */
-"conflict_resolution_remote_fmt" = "Remote (%@)";
+"conflict_resolution_remote_fmt" = "Extern (%@)";
 
 /* Force Overwrite? */
 "conflict_resolution_force_overwrite_title" = "Überschreiben erzwingen?";
@@ -3911,10 +3911,10 @@
 "compare_merge_sync_possibly_required_message" = "Mindestens eine dieser Datenbanken wurde in jüngster Zeit nicht synchronisiert. Es wird empfohlen, zur Datenbankliste zurückzukehren und den Sync-Prozess durch Herunterziehen zu starten. Auf diese Weise wird sichergestellt, dass Sie mit den neuesten Versionen arbeiten.";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to open in offline mode instead? - Translators Note: 1st Parameter is the storage provider name like Google Drive or Dropbox */
-"open_sequence_user_looks_offline_open_local_fmt" = "Es sieht so aus, als wären Sie offline und '%@' nicht erreichbar. Möchten Sie die Datenbank stattdessen im Offline-Modus öffnen?";
+"open_sequence_user_looks_offline_open_local_fmt" = "Es sieht so aus, als ob Sie derzeit nicht mit dem Internet verbunden sind und „%@” daher nicht erreicht werden kann. Möchten Sie die Datenbank stattdessen im Offline-Modus öffnen?";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use Strongbox's local copy in read-only mode instead? - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc */
-"open_sequence_user_looks_offline_open_local_ro_fmt" = "Es sieht so aus, als wären Sie offline und '%@' nicht erreichbar. Möchten Sie die Datenbank stattdessen im Offline-Modus öffnen?\n\nHinweis: Die Datenbank ist dann schreibgeschützt. In der Pro-Version können Sie sie auch offline bearbeiten.";
+"open_sequence_user_looks_offline_open_local_ro_fmt" = "Es sieht so aus, als ob Sie derzeit nicht mit dem Internet verbunden sind und „%@” daher nicht erreicht werden kann. Möchten Sie die Datenbank stattdessen im Offline-Modus öffnen?\n\nHinweis: Die Datenbank ist dann schreibgeschützt. In der Pro-Version kann diese auch offline bearbeitet werden.";
 
 /* Open Offline? */
 "open_sequence_yesno_use_local_copy_title" = "Offline öffnen?";
@@ -3959,7 +3959,7 @@
 "database_properties_subtitle_offline_behaviour" = "Sofort anbieten im Offline-Modus zu öffnen, wenn Strongbox erkennt, dass Sie offline sind. Wenn Sie dies deaktivieren, wird Strongbox versuchen eine Verbindung herzustellen, was einige Zeit dauern kann.";
 
 /* Configure & View local backups." */
-"database_properties_subtitle_backups" = "Lokale Backups konfigurieren & anzeigen.";
+"database_properties_subtitle_backups" = "Lokale Sicherungen konfigurieren und anzeigen.";
 
 /* View recent sync details including errors. */
 "database_properties_subtitle_view_sync_log" = "Aktuelle Sync-Details inklusive Fehlern anzeigen.";
@@ -4338,7 +4338,7 @@
 "onboarding_scheduled_export_title" = "Geplanter Export";
 
 /* It's always a good idea to keep backups, especially external ones. Strongbox can remind you to export your database every so often.\n\nWould you like Strongbox to prompt you to export your database if it has been a while? */
-"onboarding_scheduled_export_message" = "Es ist immer eine gute Idee, Backups zu machen, besonders externe. Strongbox kann Sie ab und an daran erinnern, Ihre Datenbank zu exportieren.\n\nMöchten Sie, dass Strongbox Sie auffordert, Ihre Datenbank zu exportieren, wenn es bereits eine Weile her ist?";
+"onboarding_scheduled_export_message" = "Es ist immer eine gute Idee, Sicherungen zu erstellen, besonders externe. Strongbox kann Sie ab und an daran erinnern, Ihre Datenbank zu exportieren.\n\nMöchten Sie, dass Strongbox Sie auffordert, Ihre Datenbank zu exportieren, wenn einige Zeit vergangen ist?";
 
 /* Remind me after 2 weeks */
 "onboarding_scheduled_export_onboarding_remind_2_weeks" = "Nach 2 Wochen erinnern";
