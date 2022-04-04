@@ -522,7 +522,7 @@
 "db_management_disable_autofill_yesno_message" = "Tem certeza de que deseja fazer isso?";
 
 /* Disable AutoFill? */
-"db_management_disable_autofill_yesno_title" = "Desativar Preenchimento Automático?";
+"db_management_disable_autofill_yesno_title" = "Desativar Auto Preenchimento?";
 
 /* %@ for this database has been disabled. */
 "db_management_disable_biometric_notify_message_fmt" = "O %@ foi desativado para esta base de dados.";
@@ -540,7 +540,7 @@
 "db_management_disable_biomtric_simple_fmt" = "Você tem certeza de que pretende desativar o %@ desta base de dados?";
 
 /* AutoFill Disabled */
-"db_management_disable_done" = "Preenchimento Automático Desativado";
+"db_management_disable_done" = "Auto Preenchimento Desativado";
 
 /* %@ has been enabled for this database. */
 "db_management_enable_biometric_notify_message_fmt" = "%@ foi ativado para esta base de dados.";
@@ -549,7 +549,7 @@
 "db_management_enable_biometric_notify_title_fmt" = "%@ Ativado";
 
 /* AutoFill Enabled */
-"db_management_enable_done" = "Preenchimento Automático Ativado";
+"db_management_enable_done" = "Auto Preenchimento Ativado";
 
 /* Could not change credentials */
 "db_management_error_title_couldnt_change_credentials" = "Não foi possível alterar as credenciais";
@@ -1380,16 +1380,16 @@
 "open_sequence_problem_opening_title" = "Houve um problema ao abrir a base de dados.";
 
 /* AutoFill Crash Likely */
-"open_sequence_autofill_creash_likely_title" = "Provavelmente Ocorreu Uma Falha do Preenchimento Automático";
+"open_sequence_autofill_creash_likely_title" = "Provavelmente Ocorreu Uma Falha do Auto Preenchimento";
 
 /* Your database has encryption settings that may cause iOS Password AutoFill extensions to be terminated due to excessive resource consumption. This will mean AutoFill appears not to work. Unfortunately this is an Apple imposed limit. You could consider reducing the amount of resources consumed by your encryption settings (Memory in particular with Argon2 to below 64MB). */
-"open_sequence_autofill_creash_likely_message" = "Sua base de dados é bem grande ou possui configuração de criptografia que fará com que as extensões de Preenchimento Automático de Senhas do iOS sejam encerradas devido ao consumo exagerado de recursos.\nIsso significa que o Preenchimento Automático pode parecer não funcionar. Infelizmente essa é uma limitação imposta pela Apple.\nVocê pode considerar diminuir o tamanho do seu arquivo ou alterar a quantidade de recursos consumidos (Memória em particular com o Argon2 para menos de 64MB).";
+"open_sequence_autofill_creash_likely_message" = "Sua base de dados é bem grande ou possui configuração de criptografia que fará com que as extensões de Preenchimento Automático de Senhas do iOS sejam encerradas devido ao consumo exagerado de recursos.\nIsso significa que o Auto Preenchimento pode parecer não funcionar. Infelizmente essa é uma limitação imposta pela Apple.\nVocê pode considerar diminuir o tamanho do seu arquivo ou alterar a quantidade de recursos consumidos (Memória em particular com o Argon2 para menos de 64MB).";
 
 /* No Key File */
 "key_files_vc_no_key_file" = "Nenhum Arquivo Chave";
 
 /* The stored convenience password or other composite key factors (key file/hardware key) were incorrect for this database. Convenience Unlock has been Disabled. */
-"open_sequence_problem_opening_convenience_incorrect_message" = "A senha de conveniência armazenada ou outros fatores de chave compostos (arquivo de chave/YubiKey) estão incorretos para esta base de dados. O Desbloqueio Conveniente foi Desativado.";
+"open_sequence_problem_opening_convenience_incorrect_message" = "A senha de conveniência armazenada ou outros fatores de chave compostos (arquivo chave/chave de hardware) estão incorretos para esta base de dados. O Desbloqueio Conveniente foi Desativado.";
 
 /* Incorrect Credentials */
 "open_sequence_problem_opening_incorrect_credentials_title" = "Credenciais Incorretas";
@@ -1506,7 +1506,7 @@
 "autofill_safes_vc_empty_title" = "Você Ainda Não Tem Bases De Dados :(";
 
 /* To use Strongbox for Password Autofill you need to add a database. You can do this in the Strongbox App. */
-"autofill_safes_vc_empty_subtitle" = "Para usar o Strongbox com Preenchimento Automático você precisa adicionar uma base de dados. Você pode fazer isso no App Strongbox.";
+"autofill_safes_vc_empty_subtitle" = "Para usar o Strongbox com Auto Preenchimento você precisa adicionar uma base de dados. Você pode fazer isso no App Strongbox.";
 
 /* Local */
 "autofill_safes_vc_storage_local_name" = "Local";
@@ -1866,7 +1866,7 @@
 "prefs_vc_info_email_support_options_mail_support" = "Enviar E-mail para o Suporte (Apenas Inglês)";
 
 /* No comment provided by engineer. */
-"transfer_over_local_network_website_prologue" = "<p>Arraste&amp; solte arquivos nesta janela ou use o botão “Enviar Arquivos&hellip;” para enviar novos arquivos. Se esses arquivos forem do formato Password Safe ou KeePass eles serão adicionados à sua coleção de bases de dados.</p><p>Nota: Se quiser que estes arquivos funcionem com o Preenchimento Automático do iOS, deslize para a esquerda sobre a base de dados no App e selecione “Tornar Auto-Preenchível”.</p>";
+"transfer_over_local_network_website_prologue" = "<p>Arraste&amp; solte arquivos nesta janela ou use o botão “Enviar Arquivos&hellip;” para enviar novos arquivos. Se esses arquivos forem do formato Password Safe ou KeePass eles serão adicionados à sua coleção de bases de dados.</p><p>Nota: Se quiser que estes arquivos funcionem com o Auto Preenchimento do iOS, deslize para a esquerda sobre a base de dados no App e selecione “Tornar Auto-Preenchível”.</p>";
 
 /**********************************************************************************************************************/
 /* FUTURE: genericise... */
@@ -2490,7 +2490,7 @@
 "mac_select_key_file" = "Selecione um Arquivo Chave";
 
 /* You must use at least one of either a password, a key file or a hardware key for your master credentials. */
-"mac_you_must_use_at_least_a_password_or_key_file" = "Você deve usar pelo menos uma senha, um arquivo de chave ou uma chave de hardware para as suas credenciais principais.";
+"mac_you_must_use_at_least_a_password_or_key_file" = "Você deve usar pelo menos uma senha, um arquivo chave ou uma chave de hardware para as suas credenciais principais.";
 
 /* Password cannot be Empty */
 "mac_password_cannot_be_empty" = "A senha não pode ser Vazia";
@@ -2745,7 +2745,7 @@
 "mac_convenience_expiry_period_never" = "Nunca";
 
 /* App Exit (Memory Only) */
-"mac_convenience_expiry_period_on_app_exit" = "App Exit (Memory Only)";
+"mac_convenience_expiry_period_on_app_exit" = "Saída do App (Apenas memória)";
 
 /* Unlock with Touch ID or Watch */
 "mac_unlock_screen_button_title_convenience_unlock" = "Desbloquear com Touch ID ou Watch";
@@ -2772,7 +2772,7 @@
 "casg_yubikey_configured_slot2" = "Slot 2";
 
 /* Hardware Key Unlock is not supported in AutoFill mode due to system constraints. You can configure a Virtual Hardware Key instead. */
-"open_sequence_cannot_use_yubikey_in_autofill_mode" = "Desbloqueio com Chave de Hardware não é suportado no Preenchimento Automático devido a limitações do sistema. Você pode configurar uma Chave de Hardware Virtual no lugar.";
+"open_sequence_cannot_use_yubikey_in_autofill_mode" = "Desbloqueio com Chave de Hardware não é suportado no Auto Preenchimento devido a limitações do sistema. Você pode configurar uma Chave de Hardware Virtual no lugar.";
 
 /* Hardware Key Unlock is only available in the Pro edition of Strongbox */
 "open_sequence_yubikey_only_available_in_pro" = "O Desbloqueio com Chave de Hardware está disponível apenas na versão Pro do Strongbox";
@@ -2790,7 +2790,7 @@
 "mac_valid_credentials" = "Credenciais Válidas";
 
 /* Could not get challenge response from hardware key */
-"mac_error_getting_challenge_response_yubikey" = "Could not get challenge response from hardware key";
+"mac_error_getting_challenge_response_yubikey" = "Não foi possível obter \"challenge response\" da chave de hardware";
 
 /* Refreshing... (Translators Note: Used whenever running a fairly short operation to indicate somehting is happening, e.g. when polling hardware key status (can take a few seconds)) */
 "generic_refreshing_ellipsis" = "Atualizando...";
@@ -2807,10 +2807,10 @@
 "casg_yubikey_configured_mfi" = "Lightning";
 
 /* AutoFill Crash Occurred */
-"autofill_did_not_close_cleanly_title" = "Houve Uma Falha no Preenchimento Automático";
+"autofill_did_not_close_cleanly_title" = "Houve Uma Falha no Auto Preenchimento";
 
 /* It looks like the last time you used AutoFill you had a crash. This is usually due to a memory limitation. Please check your database file size and your Argon2 memory settings (should be <= 64MB) */
-"autofill_did_not_close_cleanly_message" = "Parece que houve uma falha da última vez que você usou o Preenchimento Automático. Isso normalmente é causado por limitações de memória do iOS. Verifique o tamanho da base de dados e as configurações de memória Argon2 (deve ser >= 64MB)";
+"autofill_did_not_close_cleanly_message" = "Parece que houve uma falha da última vez que você usou o Auto Preenchimento. Isso normalmente é causado por limitações de memória do iOS. Verifique o tamanho da base de dados e as configurações de memória Argon2 (deve ser >= 64MB)";
 
 /* Regenerate... */
 "password_generation_regenerate_ellipsis" = "Gerar novamente...";
@@ -2822,7 +2822,7 @@
 "yubikey_insert_the_key_to_read_the_otp" = "Insira a chave para ler o OTP";
 
 /* Communicating with hardware key... */
-"yubikey_communicating_with_key_ellipsis" = "Communicating with hardware key...";
+"yubikey_communicating_with_key_ellipsis" = "Comunicando com a chave de hardware...";
 
 /* Icon Set */
 "browse_prefs_icon_set" = "Conjunto de Ícones";
@@ -2927,7 +2927,7 @@
 "audit_quick_summary_very_common_password" = "A senha é muito comum";
 
 /* Audit: Password is duplicated in another entry */
-"audit_quick_summary_duplicated_password" = "A senha é duplicada em outro registro";
+"audit_quick_summary_duplicated_password" = "A senha é igual a de outro registro";
 
 /* Audit: Password is similar to one in another entry. */
 "audit_quick_summary_password_is_similar_to_another" = "A senha é semelhante a de outro registro";
@@ -2936,7 +2936,7 @@
 "audit_quick_summary_pwned" = "Senha Comprometida (HIBP)";
 
 /* Weak/Entropy */
-"audit_quick_summary_very_brief_low_entropy" = "Fraca/Entropia";
+"audit_quick_summary_very_brief_low_entropy" = "Senhas Fracas";
 
 /* 2FA Available - L10n - please keep this as short as possible, "2FA" will probably suffice. The meaning of this string is that Strongbox has discovered the 2 Factor Authentication is available for this entry given it's URL/Domain, but that the user does not have a 2 Factor Code (TOTP) setup within Strongbox */
 "audit_quick_summary_very_brief_two_factor_available" = "2FA Disponível";
@@ -2945,7 +2945,7 @@
 "audit_quick_summary_two_factor_available" = "Autenticação de 2 fatores está disponível para este domínio.";
 
 /* Password is weak (low entropy) */
-"audit_quick_summary_password_low_entropy" = "Senha é fraca (baixa entropia)";
+"audit_quick_summary_password_low_entropy" = "A senha é fraca (baixa entropia)";
 
 /* All Entries */
 "quick_view_title_all_entries_title" = "Todos os Registros";
@@ -2981,7 +2981,7 @@
 "audit_quick_summary_very_brief_very_common_password" = "Comum";
 
 /* Duplicated - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
-"audit_quick_summary_very_brief_duplicated_password" = "Duplicada";
+"audit_quick_summary_very_brief_duplicated_password" = "Senhas Duplicadas";
 
 /* Similar - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
 "audit_quick_summary_very_brief_password_is_similar_to_another" = "Similar";
@@ -3236,13 +3236,13 @@
 "autofill_error_unknown_db_title" = "Strongox: Base de Dados Desconhecida";
 
 /* This appears to be a reference to an older Strongbox database which can no longer be found. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill. */
-"autofill_error_unknown_db_message" = "Essa parece ser uma referência a uma base de dados do Strongbox antiga e que não pode mais ser encontrada. A base de dados do QuickType e Preenchimento Automático do Strongbox foi limpa e você precisa reabrir sua base de dados para atualizar o QuickType e Preenchimento Automático.";
+"autofill_error_unknown_db_message" = "Essa parece ser uma referência a uma base de dados do Strongbox antiga e que não pode mais ser encontrada. A base de dados do QuickType e Auto Preenchimento do Strongbox foi limpa e você precisa reabrir sua base de dados para atualizar o QuickType e Preenchimento Automático.";
 
 /* Strongbox: Error Locating Entry */
 "autofill_error_unknown_item_title" = "Strongbox: Erro Ao Localizar Registro";
 
 /* Strongbox could not find this entry, it is possibly stale. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill. */
-"autofill_error_unknown_item_message" = "O Strongbox não encontrou este registro, é possível que esteja defasado. A base de dados do QuickType e Preenchimento Automático do Strongbox foi limpa e você vai precisar reabrir suas bases de dados para atualizar o Preenchimento Automático e QuickType.";
+"autofill_error_unknown_item_message" = "O Strongbox não encontrou este registro, é possível que esteja defasado. A base de dados do QuickType e Auto Preenchimento do Strongbox foi limpa e você vai precisar reabrir suas bases de dados para atualizar o Auto Preenchimento e QuickType.";
 
 /* Locating... */
 "generic_status_sp_locating_ellipsis" = "Localizando...";
@@ -3251,7 +3251,7 @@
 "generic_biometric_unlock_fmt" = "Desbloqueio com %@";
 
 /* By Default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok? */
-"backup_settings_prompt_message" = "By Default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok?";
+"backup_settings_prompt_message" = "Por padrão o Strongbox inclui todos os seus arquivos locais (incluindo backups de bases de dados) e bases de dados locais nos Backups da Apple deste dispositivo. Contudo, Arquivos Chave importados não são incluídos por motivos de segurança.\n\nVocê pode mudar esta configuração a qualquer momento em Preferências > Avançado.\n\nOk?";
 
 /* Backup Settings */
 "backup_settings_prompt_title" = "Configurações de Backup";
@@ -3260,10 +3260,10 @@
 "backup_settings_prompt_option_yes_looks_good" = "Sim, gostei";
 
 /* Yes, but also backup Key Files */
-"backup_settings_prompt_yes_but_include_key_files" = "Yes, but also backup Key Files";
+"backup_settings_prompt_yes_but_include_key_files" = "Sim, mas também fazer backup dos Arquivos Chave";
 
 /* No, do NOT backup anything */
-"backup_settings_prompt_no_dont_backup_anything" = "No, do not include anything";
+"backup_settings_prompt_no_dont_backup_anything" = "Não, não incluir nada";
 
 /* View Sync Status */
 "safes_vc_action_view_sync_status" = "Exibir Log de Sincronização";
@@ -3323,7 +3323,7 @@
 "autofill_vc_item_subtitle_local_copy_unavailable" = "Cópia Local Indisponível";
 
 /* AutoFill Disabled */
-"autofill_vc_item_subtitle_disabled" = "Preenchimento Automático Desativado";
+"autofill_vc_item_subtitle_disabled" = "Auto Preenchimento Desativado";
 
 /* Sync Required */
 "autofill_add_entry_sync_required_title" = "Sincronização Necessária";
@@ -3389,7 +3389,7 @@
 "yubikey_config_section_header_nfc_device_not_supported" = "YubiKey NFC (NFC Não É Suportado Neste Dispositivo)";
 
 /* NFC YubiKey (AutoFill Mode - NFC Unavailable) */
-"yubikey_config_section_header_nfc_autofill_unavailable" = "YubiKey NFC (NFC Não Disponível No Preenchimento Automático)";
+"yubikey_config_section_header_nfc_autofill_unavailable" = "YubiKey NFC (NFC Indisponível No Auto Preenchimento)";
 
 /* Lightning YubiKey (Pro Edition Only) */
 "yubikey_config_section_header_lightning_pro_only" = "YubiKey Lightning (Apenas Versão Pro)";
@@ -3398,13 +3398,13 @@
 "yubikey_config_section_header_lightning_device_not_supported" = "YubiKey Lightning (Lightning Não Suportado Neste Dispositivo)";
 
 /* Lightning YubiKey (AutoFill Mode - Lightning Unavailable) */
-"yubikey_config_section_header_lightning_autofill_unavailable" = "YubiKey Lightning (Lightning Indisponível no Preenchimento Automático)";
+"yubikey_config_section_header_lightning_autofill_unavailable" = "YubiKey Lightning (Lightning Indisponível no Auto Preenchimento)";
 
 /* Are you sure you want to delete this Virtual Hardware Key? */
 "yubikey_config_are_you_sure_delete" = "Tem certeza que deseja remover está Chave de Hardware Virtual?";
 
 /* %@ (AutoFill Only) - Translator's note, the 1st parameter is the name of the virtual hardware key, e.g. Mark's Virtual Hardware Key - This string indicates that that key can only be used in AutoFill mode only, not regualr App mode */
-"yubikeys_virtual_autofill_only" = "%@ (Apenas Preenchimento Automático)";
+"yubikeys_virtual_autofill_only" = "%@ (Apenas Auto Preenchimento)";
 
 /* Virtual Hardware Key */
 "casg_yubikey_configured_virtual" = "Chave de Hardware Virtual";
@@ -3539,13 +3539,13 @@
 "mac_no_databases_initial_message" = "Nenhuma Base de Dados Por Aqui Ainda.\n\nClique em ‘Adiciona Base de Dados’ para começarmos...";
 
 /* No AutoFill Enabled Databases */
-"mac_no_autofill_enabled_databases_initial_message" = "Nenhuma Base de Dados com Preenchimento Automático Ativo";
+"mac_no_autofill_enabled_databases_initial_message" = "Nenhuma Base de Dados com Auto Preenchimento Ativo";
 
 /* It looks like this is your first time using AutoFill with this database.\n\nFor security reasons you must locate and select your database file for Strongbox so that the AutoFill can access it.\n\nAs a reminder your database file was last located here:\n\n%@\n\nPlease locate it now for Strongbox...  - Translator's note: The parameter is the path of the database like '/Users/mark/Desktop/my-database.kdbx' */
-"mac_autofill_first_time_locate-fmt" = "Parece que esta é a primeira vez que você usa o Preenchimento Automático com esta base de dados.\n\nPor motivos de segurança você precisa localizar e selecionar seu arquivo de base de dados para que o Preenchimento Automático possa acessá-lo.\n\nLembrete: Seu arquivo de base de dados foi visto por último aqui:\n\n%@\n\nAgora localize-o...";
+"mac_autofill_first_time_locate-fmt" = "Parece que esta é a primeira vez que você usa o Auto Preenchimento com esta base de dados.\n\nPor motivos de segurança você precisa localizar e selecionar seu arquivo de base de dados para que o Auto Preenchimento possa acessá-lo.\n\nLembrete: Seu arquivo de base de dados foi visto por último aqui:\n\n%@\n\nAgora localize-o...";
 
 /* Welcome to Strongbox AutoFill */
-"mac_welcome_to_autofill" = "Boas vindas ao Preenchimento Automático do Strongbox";
+"mac_welcome_to_autofill" = "Boas vindas ao Auto Preenchimento do Strongbox";
 
 /* Locate '%@' - Translator's note: The parameter is the filename of the database like 'my-database.kdbx' */
 "mac_autofill_locate_file_fmt" = "Localizar '%@'";
@@ -3554,7 +3554,7 @@
 "mac_autofill_pro_feature_title" = "Funcionalidade Pro";
 
 /* AutoFill is only available on the Pro edition of Strongbox. You can upgrade like this:\n\n1. Launch Strongbox\n2. Click the 'Strongbox' menu\n3. Click 'Upgrade to Pro...'.\n\nThank you! */
-"mac_autofill_pro_feature_upgrade-message" = "Preenchimento Automático está disponível apenas na versão Pro do Strongbox. Você pode fazer o upgrade assim:\n\n1. Abra o Strongbox\n2. Clique no menu ‘Strongbox’\n3. Clique em ‘Fazer Upgrade pro Pro’!";
+"mac_autofill_pro_feature_upgrade-message" = "Auto Preenchimento está disponível apenas na versão Pro do Strongbox. Você pode fazer o upgrade assim:\n\n1. Abra o Strongbox\n2. Clique no menu ‘Strongbox’\n3. Clique em ‘Fazer Upgrade pro Pro’!";
 
 /* Passcode Fallback for %@ - Translators Note: This is a preference that says that the device passcode can be used as a fallback if Face ID or Touch ID fails - the parameter is either 'Touch ID' or 'Face ID' */
 "app_lock_allow_device_passcode_fallback_for_biometric_fmt" = "Senha Reserva de %@";
@@ -3569,7 +3569,7 @@
 "mac_autofill_enable_extension_title" = "Ativar Extensão do Strongbox";
 
 /* To use AutoFill you must enable the Strongbox Extension in System Preferences. To do this click the 'Open System Preferences...' button below and navigate to:\n\n∙ Extensions > Password AutoFill > Check 'Strongbox' */
-"mac_autofill_enable_extension_message" = "Para usar o Preenchimento Automático você precisa ativar a Extensão Strongbox nas Preferências do Sistema. Para fazer isso clique no botão “Abrir Preferências do Sistema...” abaixo e navegue até:\n\n∙ Extensões > Preenchimento Automático de Senhas > Marque 'Strongbox'";
+"mac_autofill_enable_extension_message" = "Para usar o Auto Preenchimento você precisa ativar a Extensão Strongbox nas Preferências do Sistema. Para fazer isso clique no botão “Abrir Preferências do Sistema...” abaixo e navegue até:\n\n∙ Extensões > Preenchimento Automático de Senhas > Marque 'Strongbox'";
 
 /* Open System Preferences... */
 "mac_autofill_action_open_system_preferences" = "Abrir Preferências do Sistema...";
@@ -3965,7 +3965,7 @@
 "database_properties_subtitle_view_sync_log" = "Exibir detalhes de sincronização recente incluindo erros.";
 
 /* Your Database is configured to use a hardware key, however no key or an incorrect key was found connected. */
-"mac_autofill_no_or_incorrect_yubikey_found" = "Your Database is configured to use a hardware key, however no key or an incorrect key was found connected.";
+"mac_autofill_no_or_incorrect_yubikey_found" = "Sua Base de Dados está configurada para usar uma chave de hardware, porém nenhuma chave ou uma chave incorreta foi conectada.";
 
 /* Title (Username) */
 "quick_type_format_title_username" = "Título (Nome de Usuário)";
@@ -4077,7 +4077,7 @@
 "autofill_auto_unlock_try_10_minutes" = "Prefiro 10 minutos";
 
 /* AutoFill Quick Launch */
-"databases_toggle_autofill_quick_launch_context_menu" = "Início Rápido Para Preenchimento Automático";
+"databases_toggle_autofill_quick_launch_context_menu" = "Início Rápido Para Auto Preenchimento";
 
 /* Title Matches */
 "autofill_search_title_matches_section_header" = "Título Corresponde";
@@ -4092,7 +4092,7 @@
 "autofill_search_title_service_id_section_header" = "ID de Serviço";
 
 /* The Service ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Service ID. */
-"autofill_search_service_id_section_footer" = "O ID de Serviço é um identificador enviado ao Strongbox pelo Preenchimento Automático. Ele pode ajudar na busca se você definir a URL do seu registro para corresponder ao ID de Serviço. Toque para Copiar.";
+"autofill_search_service_id_section_footer" = "O ID de Serviço é um identificador enviado ao Strongbox pelo Auto Preenchimento. Ele pode ajudar na busca se você definir a URL do seu registro para corresponder ao ID de Serviço. Toque para Copiar.";
 
 /* Results */
 "quick_view_title_no_matches_title" = "Resultados";
@@ -4290,7 +4290,7 @@
 "item_properties_previous_parent_group" = "Grupo Pai Anterior";
 
 /* %@ & PIN - L10n Note: The first parameter is automatically be replaced by the appropriate biometric name for the device (i.e. Face ID or Touch ID) - So the string will look like e.g. 'Face ID & PIN' */
-"convenience_unlock_preferences_title_fmt" = "%@ & PIN";
+"convenience_unlock_preferences_title_fmt" = "%@ e PIN";
 
 /* Require After */
 "convenience_unlock_require_after_prefix" = "Solicitar Após";
@@ -4377,40 +4377,40 @@
 "onboarding_welcome_to_strongbox_first_run_title" = "Boas Vindas a Bordo";
 
 /* Hi there, and welcome to Strongbox 😎\n\nWe're sure you're excited to get started, but first, there are a few steps we should take so that everything runs smoothly... */
-"onboarding_welcome_to_strongbox_first_run_message" = "Hi there, and welcome to Strongbox 😎\n\nWe're sure you're excited to get started, but first, there are a few steps we should take so that everything runs smoothly...";
+"onboarding_welcome_to_strongbox_first_run_message" = "Olá, seja bem-vindo ao Strongbox 😎\n\nTemos certeza de que está animado para começar, mas primeiro há alguns passos que devemos dar para que tudo corra bem...";
 
 /* Don't Use iCloud */
 "prefs_vc_dont_use_icloud_action" = "Não usar o iCloud";
 
 /* Get Started */
-"generic_get_started" = "Get Started";
+"generic_get_started" = "Comece Agora";
 
 /* You're All Set! */
 "generic_youre_all_set" = "Tudo Pronto!";
 
 /* Next up, we'll take you to your regular Databases screen.\n\nFrom here, we'll help you add your first password database.\n\n❤️ The Strongbox Team ❤️ */
-"onboarding_welcome_to_strongbox_first_run_final_message" = "Next up, we'll take you to your regular Databases screen.\n\nFrom here, we'll help you add your first password database.\n\n❤️ The Strongbox Team ❤️";
+"onboarding_welcome_to_strongbox_first_run_final_message" = "Em seguida, levaremos você à sua tela de Base de Dados normal.\n\nDaqui, ajudaremos você a adicionar sua primeira senha de base de dados.\n\n❤️ Equipe do Strongbox ❤️";
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 /* Fix the format string crashes that are possible when these are incorrectly localized */
 /* %@'s Database %@  - (Tranlators Note: 1st param is the users name, and 2nd param is a number, e.g. 'Mark's Database 3' ), indicating this is Mark's 3rd database */
 
-"casg_suggested_database_name_users_database_number_suffix_fmt2" = "%@'s Database %@";
+"casg_suggested_database_name_users_database_number_suffix_fmt2" = "Base de Dados de %@";
 
 /* About Strongbox %@ (Pro Trial - %@ days left)  - (Tranlators Note: 1st param is the version number and 2nd is number of days left in the Free Trial, e.g. 'About Strongbox 1.52.20 (Pro Trial - 75 days left)')  */
-"prefs_vc_app_version_info_pro_trial_fmt2" = "About Strongbox %@ (Pro Trial - %@ days left)";
+"prefs_vc_app_version_info_pro_trial_fmt2" = "Sobre o Strongbox %@ (Avaliação do Pro - %@ dias restantes)";
 
 /* %@ / month (Save %@%%)  - (Tranlators Note: Price per month and percentage savings indicator. e.g. $1.99/month (Save 20%)). Currency, percentage and price formatting is automatic. */
-"upgrade_vc_price_per_month_with_percentage_saving_fmt2" = "%@ / month (Save %@%%)";
+"upgrade_vc_price_per_month_with_percentage_saving_fmt2" = "%@ / mês (Economize %@%%)";
 
 /* Original (%@ x %@) %@  - (Tranlators Note: Attachment Image Size (Dimensions and File Size), e.g. 'Original: (2048x2048) 24.2 MB')  */
 "add_attachment_vc_large_image_prompt_option_original_size_fmt2" = "Original (%@ x %@) %@";
 
 /* Use Anyway (%@ x %@) %@  - (Tranlators Note: Attachment Image Size (Dimensions and File Size), e.g. 'Use Anyway: (2048x2048) 24.2 MB')  */
-"add_attachment_vc_large_image_prompt_option_use_anyway_size_fmt2" = "Use Anyway (%@ x %@) %@";
+"add_attachment_vc_large_image_prompt_option_use_anyway_size_fmt2" = "Usar Assim Mesmo (%@ x %@) %@";
 
 /* This is a rather large image (%@x%@), would you like to rescale it to a maximum dimension of %@ pixels for a file size saving of roughly %@  - (Tranlators Note: Message about reducing the file size of an image. e.g. 'This is a rather large image (4096x4096), would you like to rescale it to a maximum dimension of 512 pixels for a file size saving of roughly 15 MB')  */
-"set_icon_vc_prompt_rescale_image_message_fmt2" = "This is a rather large image (%@x%@), would you like to rescale it to a maximum dimension of %@ pixels for a file size saving of roughly %@";
+"set_icon_vc_prompt_rescale_image_message_fmt2" = "Esta é uma imagem bastante grande (%@x%@). Você gostaria de redimensioná-la para o máximo de %@ pixels? A economia de espaço será de aproximadamente %@";
 
 /* Backup %@ (%@) - Translators Note: 1st Param is a number/integer, second parameter is the modified date, so e.g. 'Backup 4 (11 Nov 2020)'*/
 "backups_backup_title_fmt2" = "Backup %@ (%@)";
@@ -4418,7 +4418,7 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////
 /* Strongbox has been downgraded from Pro.\n\nDon't worry, all your databases are still available, but some convenient features (e.g. %@) may no longer work.\n\nThis is probably because your trial or subscription has just ended.\n\nWe'd love if you could support us by upgrading to Pro.\n\nWould you like to do that now? */
 
-"upgrade_mgr_downgrade_message" = "Strongbox has been downgraded from Pro.\n\nDon't worry, all your databases are still available, but some convenient features (e.g. %@) will no longer work.\n\nThis is probably because your trial or subscription has just ended.\n\nWe'd love if you could support us by upgrading to Pro.\n\nWould you like to do that now?";
+"upgrade_mgr_downgrade_message" = "Strongbox foi rebaixado do Pro.\n\nNão se preocupe, todas as suas Bases de Dados ainda estão disponíveis, mas alguns recursos convenientes (por exemplo, %@) já não funcionarão.\n\nIsso provavelmente aconteceu porque seu período de teste ou assinatura acabou há pouco.\n\nNós adoraríamos se você pudesse nos apoiar atualizando para o Pro.\n\nGostaria de fazer isso agora?";
 
 /* Upgrade... (L10n: A verb, To Upgrade, followed by ellipsis) */
 "generic_upgrade_ellipsis" = "Upgrade...";
@@ -4427,25 +4427,25 @@
 "upgrade_onboarding_free_trial_ending_soon_title" = "Período de Teste Gratuito Encerrará em Breve";
 
 /* Your free trial of Strongbox Pro will end next week, and we wouldn't want you to lose any of the cool Pro features.\n\nWould you like to support Strongbox and take a look at some of the Upgrade options? */
-"upgrade_onboarding_free_trial_ending_soon_message" = "Your free trial of Strongbox Pro will end next week, and we wouldn't want you to lose any of the cool Pro features.\n\nWould you like to support Strongbox and take a look at some of the Upgrade options?";
+"upgrade_onboarding_free_trial_ending_soon_message" = "Seu período de teste gratuito do Strongbox Pro terminará na próxima semana e não gostaríamos que você perdesse nenhum dos recursos legais do Pro.\n\nGostaria de apoiar o Strongbox e dar uma olhada em algumas das opções de atualização?";
 
 /* Strongbox could not find a QR Code in this image. */
-"could_not_find_qr_code" = "Strongbox could not find a QR Code in this image.";
+"could_not_find_qr_code" = "O Strongbox não encontrou um código QR nesta imagem.";
 
 /* Scan QR Code with Camera */
-"scan_qr_code_from_camera" = "Scan QR Code with Camera";
+"scan_qr_code_from_camera" = "Escaneie o código QR com a câmera";
 
 /* Would you like to sync before exporting to ensure you have the latest version of your database? */
-"sync_before_export_question_yes_no" = "Would you like to sync before exporting to ensure you have the latest version of your database?";
+"sync_before_export_question_yes_no" = "Gostaria de sincronizar antes de exportar para garantir que tem a versão mais recente da sua base de dados?";
 
 /* This database is already open. Please close it first if you would like to open it in a different mode. */
-"database_already_open_please_close" = "This database is already open. Please close it first if you would like to open it in a different mode.";
+"database_already_open_please_close" = "Esta Base de Dados já está aberta. Por favor, feche-a primeiro se quiser abri-la em um modo diferente.";
 
 /* Offline - L10n note: this is an adjective, meaning the current database has been opened in Offline mode */
-"database_offline_mode_window_suffix" = "Offline";
+"database_offline_mode_window_suffix" = "Desconectado";
 
 /* Destination Database */
-"export_items_select_destination_database_title" = "Destination Database";
+"export_items_select_destination_database_title" = "Base de Dados de Destino";
 
 /* Export Here */
 "export_items_select_destination_group_title" = "Exportar Aqui";
@@ -4457,40 +4457,40 @@
 "generic_export_item" = "Exportar item";
 
 /* 1 item will be replaced in destination database '%@'. (L10n Note: 1st Param is the destination database name e.g. '1 item will be replaced in destination database 'Mark's Database'.') */
-"export_options_1_replaced_fmt" = "1 item will be replaced in destination database '%@'.";
+"export_options_1_replaced_fmt" = "1 item será substituído na base de dados de destino '%@'.";
 
 /* %@ items will be exported with 1 item being replaced in destination database '%@'. (L10n Note: 1st Param is the number of items that will be exported and 2nd param is the destination database name) */
-"export_options_n_items_1_replaced_fmt" = "%@ items will be exported with 1 item being replaced in destination database '%@'.";
+"export_options_n_items_1_replaced_fmt" = "%@ itens serão exportados com 1 item a ser substituído na base de dados de destino '%@'.";
 
 /* %@ items will be exported with %@ items being replaced in destination database '%@'. (L10n Note: 1st Param is the number of items that will be exported and 2nd param is the number of replacements. 3rd param is the destination database name */
-"export_options_n_items_n_replaced_fmt" = "%@ items will be exported with %@ items being replaced in destination database '%@'.";
+"export_options_n_items_n_replaced_fmt" = "%@ itens serão exportados com %@ itens a serem substituídos na base de dados de destino '%@'.";
 
 /* 1 item will be added to destination database '%@'. (L10n Note: 1st Param is the destination database name */
-"export_options_1_added_fmt" = "1 item will be added to destination database '%@'.";
+"export_options_1_added_fmt" = "1 item será adicionado na base de dados de destino '%@'.";
 
 /* %@ items will be added to destination database '%@'. (L10n Note: 1st Param is the number of items that will be exported and 2nd param is the destination database name */
-"export_options_n_added_fmt" = "%@ items will be added to destination database '%@'.";
+"export_options_n_added_fmt" = "%@ itens serão substituídos na base de dados de destino '%@'.";
 
 /* Are you sure you want to replace the existing matching item(s) in the destination database? */
-"export_are_you_sure_replace" = "Are you sure you want to replace the existing matching item(s) in the destination database?";
+"export_are_you_sure_replace" = "Tem certeza que deseja substituir o(s) item(s) existente(s) correspondente(s) na base de dados de destino?";
 
 /* The 'Export Items' feature is part of the Pro feature set. Upgrade to enjoy! */
-"export_is_a_pro_feature_message" = "The 'Export Items' feature is part of the Pro feature set. Upgrade to enjoy!";
+"export_is_a_pro_feature_message" = "A funcionalidade 'Exportar Itens' faz parte do conjunto de recursos Pro. Atualize para aproveitar!";
 
 /* Your selected items have now be exported to the destination database. */
-"export_vc_export_items_successful_message" = "Your selected items have now been exported to the destination database.";
+"export_vc_export_items_successful_message" = "Seus itens selecionados foram agora exportados para a base de dados de destino.";
 
 /* Export Failed */
 "export_vc_export_failed_title" = "Falha na Exportação";
 
 /* There was a problem exporting some or all of these items. The export has been cancelled. */
-"export_vc_export_items_failed_message" = "There was a problem exporting some or all of these items. The export has been cancelled.";
+"export_vc_export_items_failed_message" = "Houve um problema ao exportar alguns ou todos estes itens. A exportação foi cancelada.";
 
 /* Format Incompatibilities */
-"database_format_incompatibilities_title" = "Format Incompatibilities";
+"database_format_incompatibilities_title" = "Incompatibilidades de Formato";
 
 /* Determining Fast Unlock */
-"yubikey_fast_unlock_title" = "Determining Fast Unlock";
+"yubikey_fast_unlock_title" = "Determinando Desbloqueio Rápido";
 
 /* Strongbox is determining the fastest way to unlock this database. You will be asked to scan your YubiKey once again. */
 "yubikey_fast_unlock_message" = "O Strongbox está determinando a maneira mais rápida para desbloquear esta base de dados. Será solicitado que você digitalize o seu YubiKey novamente.";
@@ -4568,22 +4568,22 @@
 "generic_compression" = "Compressão";
 
 /* Are you sure you want to change your database encryption settings? */
-"are_you_sure_change_encryption_settings" = "Are you sure you want to change your database encryption settings?";
+"are_you_sure_change_encryption_settings" = "Você tem certeza que deseja alterar suas configurações de criptografia da base de dados?";
 
 /* No significant changes. Tap Done to Continue. */
-"merge_result_databases_identical_sync_initiated" = "Merge OK. Tap Done to continue.";
+"merge_result_databases_identical_sync_initiated" = "Unificação OK. Toque em Concluído para continuar.";
 
 /* Expired Entries (%@)  - L10n note - 1st paramter is the number of entries, e.g. Expired Entries (2) */
 "quick_view_title_expired_entries_title_fmt" = "Registros expirados (%@)";
 
 /* View all expired entries */
-"quick_view_title_expired_entries_subtitle" = "View all expired entries";
+"quick_view_title_expired_entries_subtitle" = "Exibir todos os registros expirados";
 
 /* Nearly Expired Entries (%@) - L10n note - 1st paramter is the number of entries, e.g. Nearly Expired Entries (2) */
-"quick_view_title_nearly_expired_entries_title_fmt" = "Nearly Expired Entries (%@)";
+"quick_view_title_nearly_expired_entries_title_fmt" = "Registros quase expirados (%@)";
 
 /* View all nearly expired entries */
-"quick_view_title_nearly_expired_entries_subtitle" = "View all nearly expired entries";
+"quick_view_title_nearly_expired_entries_subtitle" = "Exibir todos os registros quase expirados";
 
 /* Wi-Fi Transfer */
 "safes_vc_wifi_transfer" = "Transferência Wi-Fi";
@@ -4618,146 +4618,146 @@
 "import_successful_message" = "Sua importação foi bem sucedida! Agora vamos definir uma senha mestra forte e salvar sua nova base de dados no Strongbox.";
 
 /* Are you sure you want to clear the TOTP for this entry? */
-"are_you_sure_clear_totp" = "Are you sure you want to clear the TOTP for this entry?";
+"are_you_sure_clear_totp" = "Tem certeza que deseja limpar o TOTP para este registro?";
 
 /* Date Created (Precise) */
-"databases_preferences_subtitle_field_name_create_date_precise" = "Date Created (Precise)";
+"databases_preferences_subtitle_field_name_create_date_precise" = "Data de Criação (Precisa)";
 
 /* Hardware Slot %@ (Touch Required) - (Translators Note: Some YubiKey devices/configurations require the user to touch or press a button to authenticate. This string also takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_touch_required_fmt" = "Hardware Key Slot %@ (Touch Required)";
+"mac_yubikey_slot_n_touch_required_fmt" = "Slot da Chave de Hardware %@ (Toque Necessário)";
 
 /* Hardware Slot %@ (Translators Note: This string takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_fmt" = "Hardware Key Slot %@";
+"mac_yubikey_slot_n_fmt" = "Slot da Chave de Hardware %@";
 
 /* No Hardware Keys Found */
 "mac_no_yubikeys_found" = "Nenhuma Chave de Hardware Encontrada";
 
 /* Hardware Key found but no compatible HMACSHA1 slots available */
-"mac_yubikey_available_but_no_compatible_slots" = "Hardware Key found but no compatible HMACSHA1 slots available";
+"mac_yubikey_available_but_no_compatible_slots" = "Chave de Hardware encontrada, mas não há slots disponíveis compatíveis com HMACSHA1";
 
 /* Hardware Key %@ Slot %@ (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
-"mac_yubikey_serial_number_slot_n_touch_required_fmt2" = "Hardware Key %@ Slot %@ (Touch Required)";
+"mac_yubikey_serial_number_slot_n_touch_required_fmt2" = "Chave de Hardware %@, Slot %@ (Toque Necessário)";
 
 /* Hardware Key %@ Slot %@  - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2) */
-"mac_yubikey_serial_number_slot_n_fmt2" = "Hardware Key %@ Slot %@";
+"mac_yubikey_serial_number_slot_n_fmt2" = "Chave de Hardware %@, Slot %@";
 
 
 /* None (%@ Available) - L10n Guide: The 1st parameter is the number of detected hardware key/slots, but None have been selected by the user */
-"mac_hardware_key_dropdown_n_available_fmt" = "None (%@ Available)";
+"mac_hardware_key_dropdown_n_available_fmt" = "Nenhum (%@ Disponível)";
 
 /* None (No Keys Detected) - L10n Guide: This means no hardware key is selected and none have been detected */
-"mac_hardware_key_dropdown_none_no_keys_detected" = "None (No Keys Detected)";
+"mac_hardware_key_dropdown_none_no_keys_detected" = "Nenhum (Nenhuma Chave Detectada)";
 
 /* 🔴 Configured Key [CR Unavailable] - L10n Guide: A hardware key has been previously configured/setup by the user for this database but the Challenge Response functionality is not available, probably by error or user mistake */
-"mac_hardware_key_key_configured_but_cr_unavailable" = "🔴 Configured Key [CR Unavailable]";
+"mac_hardware_key_key_configured_but_cr_unavailable" = "🔴 Chave Configurada [CR Indisponível]";
 
 /* ⚠️ Disconnected Key (Configured) - L10n Guide: A hardware key has been previously configured/setup by the user for this database but it is not currently connected to the mac/iphone */
-"mac_hardware_key_key_configured_but_disconnected" = "⚠️ Disconnected Key (Configured)";
+"mac_hardware_key_key_configured_but_disconnected" = "⚠️ Chave Desconectada (Configurada)";
 
 /* Connected Key Slot %@ (Configured) - L10n Guide: A hardware key has been previously configured/setup by the user for this database and it is also connected. The 1st parameter is slot number the user has configured. It will be '1' or '2'.  */
-"mac_hardware_key_configured_and_connected_slot_n_fmt" = "Connected Key Slot %@ (Configured)";
+"mac_hardware_key_configured_and_connected_slot_n_fmt" = "Slot de Chave %@ Conectado (Configurado)";
 
 /* Connected Key Slot %@ - L10n Guide: A hardware key is connected. The 1st parameter is slot number that is available for use. It will be '1' or '2'.  */
-"mac_hardware_key_connected_slot_n_fmt" = "Connected Key Slot %@";
+"mac_hardware_key_connected_slot_n_fmt" = "Slot de Chave %@ Conectado";
 
 /* ⚠️ Selected Key (Disconnected) - L10n Guide: The user previously selected a hardware key from the dropdown, but it has now been disconnected. */
-"mac_hardware_key_selected_but_has_been_disconnected" = "⚠️ Selected Key (Disconnected)";
+"mac_hardware_key_selected_but_has_been_disconnected" = "⚠️ Chave Selecionada (Desconectada)";
 
 /* AutoFill Issue */
-"autofill_argon2_onboarding_issue_title" = "AutoFill Issue";
+"autofill_argon2_onboarding_issue_title" = "Problema no Auto Preenchimento";
 
 /* Your database has a very high Argon2 memory setting that will cause it to crash when used in AutoFill mode.\n\nWould you like Strongbox to automatically adjust this so that you can safely use AutoFill? */
-"autofill_argon2_onboarding_issue_message" = "Your database has a very high Argon2 memory setting that will cause it to crash when used in AutoFill mode.\n\nWould you like Strongbox to automatically adjust this so that you can safely use AutoFill?";
+"autofill_argon2_onboarding_issue_message" = "Sua base de dados usa uma configuração de memória muito alta do Argon2 que fará com que ela trave quando usada no modo de Auto Preenchimento.\n\nGostaria que o Strongbox ajustasse isso automaticamente para que você possa usar o Auto Preenchimento com segurança?";
 
 /* Yes, Great Idea! */
-"generic_yes_great_idea_bang" = "Yes, Great Idea!";
+"generic_yes_great_idea_bang" = "Sim, ótima ideia!";
 
 /* No, I don't use AutoFill */
-"autofill_argon2_onboarding_no_use_autofill" = "No, I don't use AutoFill";
+"autofill_argon2_onboarding_no_use_autofill" = "Não, eu não uso o Auto Preenchimento";
 
 /* Dont't Ask Again */
-"generic_dont_ask_again" = "Don't Ask Again";
+"generic_dont_ask_again" = "Não Pergunte Novamente";
 
 /* Not Right Now */
-"generic_not_right_now" = "Not Right Now";
+"generic_not_right_now" = "Por enquanto, não";
 
 /* Database Upgrade */
-"kdbx4_upgrade_onboarding_issue_title" = "Database Upgrade";
+"kdbx4_upgrade_onboarding_issue_title" = "Atualização da Base de Dados";
 
 /* Your database is using an old format (KDBX 3.1). The new format (KDBX 4.x) offers security improvements, performance enhancements and should also reduce the size of your database.\n\nWould you like Strongbox to automatically upgrade your database now? */
-"kdbx4_upgrade_onboarding_issue_message" = "Your database is using an old format (KDBX 3.1). The new format (KDBX 4.x) offers security improvements, performance enhancements and should also reduce the size of your database.\n\nWould you like Strongbox to automatically upgrade your database now?";
+"kdbx4_upgrade_onboarding_issue_message" = "Sua base de dados está utilizando um formato antigo (KDBX 3.1). O novo formato (KDBX 4.x) oferece melhorias de segurança, de desempenho e também deve reduzir o tamanho da sua base de dados.\n\nGostaria que o Strongbox automaticamente atualizasse sua base de dados agora?";
 
 /* Import 1Password */
-"safes_vc_import_1password" = "Import 1Password";
+"safes_vc_import_1password" = "Importar 1Password";
 
 /* Import CSV */
-"safes_vc_import_csv" = "Import CSV";
+"safes_vc_import_csv" = "Importar CSV";
 
 /* Strongbox can import 1Pif files from 1Password. Tap OK to select your exported 1Pif file. */
-"safes_vc_import_1password_message" = "Strongbox can import 1Pif files from 1Password. Tap OK to select your exported 1Pif file.";
+"safes_vc_import_1password_message" = "O Strongbox pode importar arquivos 1Pif do 1Password. Toque em OK para selecionar o arquivo 1Pif exportado.";
 
 /* Read Only Unavailable */
-"read_only_unavailable_title" = "Read Only Unavailable";
+"read_only_unavailable_title" = "Somente Leitura Indisponível";
 
 /* You currently have changes pending and so you cannot switch to Read Only mode. You must save or discard your current changes first. */
-"read_only_unavailable_pending_changes_message" = "You currently have changes pending and so you cannot switch to Read Only mode. You must save or discard your current changes first.";
+"read_only_unavailable_pending_changes_message" = "Atualmente você tem alterações pendentes e, por isso, não pode alternar para o modo Somente Leitura. Deve primeiro salvar ou descartar as suas alterações atuais.";
 
 /* Your database is in Read Only mode and cannot be updated. */
-"warn_database_is_ro_no_update" = "Your database is in Read Only mode and cannot be updated.";
+"warn_database_is_ro_no_update" = "Sua base de dados está no modo Somente Leitura e não pode ser atualizada.";
 
 /* Quitting - Finishing Sync... */
-"macos_quitting_finishing_sync" = "Quitting - Finishing Sync...";
+"macos_quitting_finishing_sync" = "Saindo - Terminando a Sincronização...";
 
 /* More */
-"safesvc_more_submenu" = "More";
+"safesvc_more_submenu" = "Mais";
 
 /* Please Enter a New Word Separator */
-"mac_password_gen_enter_new_separator" = "Please Enter a New Word Separator";
+"mac_password_gen_enter_new_separator" = "Por favor insira um novo Separador de Palavras";
 
 /* AutoFill is only available on macOS Big Sur+ */
-"autofill_app_preferences_only_avail_big_sur" = "AutoFill is only available on macOS Big Sur+";
+"autofill_app_preferences_only_avail_big_sur" = "Auto Preenchimento disponível apenas no macOS Big Sur ou superior";
 
 /* ✅ Strongbox is enabled for Password AutoFill */
-"strongbox_is_enabled_for_autofill" = "✅ Strongbox is enabled for Password AutoFill";
+"strongbox_is_enabled_for_autofill" = "✅ Strongbox está ativo para Auto Preenchimento de Senhas";
 
 /* ⭐️ Wow ⭐️ */
-"tip_purchased_title" = "⭐️ Wow ⭐️";
+"tip_purchased_title" = "⭐️ Uau! ⭐️";
 
 /* \n❤️ Thank you so much ❤️\n\nSending good vibes your way from everyone at Strongbox HQ! */
-"tip_purchased_message" = "\n❤️ Thank you so much ❤️\n\nSending good vibes your way from everyone at Strongbox HQ!";
+"tip_purchased_message" = "\n❤️ Muito obrigado ❤️\n\nEnviando boas vibrações a todos no time do Strongbox!";
 
 /* There was an error adding this item as an Attachment */
-"edit_item_could_not_add_item_as_attachment" = "There was an error adding this item as an Attachment";
+"edit_item_could_not_add_item_as_attachment" = "Houve um erro ao adicionar este item como Anexo";
 
 /* Invalid Attachment Name */
-"invalid_attachment_name" = "Invalid Attachment Name";
+"invalid_attachment_name" = "Nome de Anexo Inválido";
 
 /* The attachment name must not be empty */
-"attachment_name_must_not_be_empty" = "The attachment name must not be empty";
+"attachment_name_must_not_be_empty" = "O nome do anexo não pode estar vazio";
 
 /* That attachment name is already used */
-"attachment_name_already_exists" = "That attachment name is already in use by another attachment";
+"attachment_name_already_exists" = "Esse nome de anexo já está em uso por outro anexo";
 
 /* Are you sure you want to delete the selected attachment(s)? */
-"are_you_sure_delete_attachment_s" = "Are you sure you want to delete the selected attachment(s)?";
+"are_you_sure_delete_attachment_s" = "Tem certeza que deseja excluir o(s) anexo(s) selecionado(s)?";
 
 /* Are you sure you want to delete the selected field(s)? */
-"are_you_sure_delete_custom_field_s" = "Are you sure you want to delete the selected field(s)?";
+"are_you_sure_delete_custom_field_s" = "Tem certeza que deseja remover o(s) registro(s) selecionado(s)?";
 
 /* Found TOTP Code in '%@' Window - Localization Note: The parameter here is an App name like "Firefox" or "Safari" */
-"found_totp_code_in_x_window_fmt" = "Found TOTP Code in '%@' Window";
+"found_totp_code_in_x_window_fmt" = "Código TOTP encontrado na Janela '%@'";
 
 /* Randomly Generated */
-"menu_item_header_randomly_generated_suggestions" = "Randomly Generated";
+"menu_item_header_randomly_generated_suggestions" = "Gerado Aleatoriamente";
 
 /* Most Used */
 "menu_item_header_most_used_suggestions" = "Mais Usados";
 
 /* Are you sure you want to clear the expiry for this entry? */
-"are_you_sure_clear_expiry" = "Are you sure you want to clear the expiry for this entry?";
+"are_you_sure_clear_expiry" = "Tem certeza que deseja limpar a expiração para este registro?";
 
 /* paste-at-%@.png - L10n Note: The first parameter is a timestamp, so the string will look like: "paste-at-20220113_165952_523.png" */
-"pasted_image_attachment_at_time_filename_png_fmt" = "paste-at-%@.png";
+"pasted_image_attachment_at_time_filename_png_fmt" = "colar-em-%@.png";
 
 /* Hierarchy */
 "side_bar_hierarchy_folder_structure" = "Hierarquia";
@@ -4775,16 +4775,16 @@
 "create_entry" = "Criar Registro";
 
 /* Tidy Up Field? */
-"field_tidy_title_tidy_up_field" = "Tidy Up Field?";
+"field_tidy_title_tidy_up_field" = "Ordenar o Campo?";
 
 /* There are some blank characters (e.g. spaces, tabs) at the start or end of this field.\n\nShould Strongbox tidy up these extraneous characters? */
-"field_tidy_message_tidy_up_field" = "There are some blank characters (e.g. spaces, tabs) at the start or end of this field.\n\nShould Strongbox tidy up these extraneous characters?";
+"field_tidy_message_tidy_up_field" = "Existem alguns caracteres em branco (por exemplo: espaços, tabs) no início ou final da sua senha.\n\nO Strongbox deve remover esses caracteres extras?";
 
 /* Tidy Up */
-"field_tidy_choice_tidy_up_field" = "Tidy Up";
+"field_tidy_choice_tidy_up_field" = "Ordenar";
 
 /* Don't Tidy */
-"field_tidy_choice_dont_tidy" = "Don't Tidy";
+"field_tidy_choice_dont_tidy" = "Não Ordenar";
 
 /* Location - The location of an item, e.g. Location = /Group-1/Group-2/ */
 "generic_fieldname_location" = "Localização";
@@ -4793,7 +4793,7 @@
 "generic_fieldname_estimated_size" = "Tamanho Estimado";
 
 /* Historical Item Count - This is number of previous copies/older copies of this entry we have */
-"generic_fieldname_historical_item_count" = "Historical Item Count";
+"generic_fieldname_historical_item_count" = "Contagem Histórica do Item";
 
 /* Custom Icon */
 "generic_fieldname_custom_icon" = "Ícone Personalizado";
@@ -4811,76 +4811,76 @@
 "generic_action_verb_copy_field_name_to_clipboard" = "Copiar Nome do Campo";
 
 /* Spell Out - L10n: To have Strongbox spell out through the speech synthesizer, character by character a field */
-"generic_action_verb_spell_out_field" = "Spell Out";
+"generic_action_verb_spell_out_field" = "Falar Soletrado";
 
 /* Speak - L10n: To have Strongbox speak a item field (e.g. password) through the speech synthesizer */
-"generic_action_verb_speak_field" = "Speak";
+"generic_action_verb_speak_field" = "Falar";
 
 /* Launch URL - L10n: An action/verb, to launch a URL */
-"generic_action_verb_launch_url" = "Launch URL";
+"generic_action_verb_launch_url" = "Abrir URL";
 
 /* Show QR Code */
 "generic_action_show_qr_code" = "Exibir QR Code";
 
 /* Show Large Text View */
-"generic_action_show_large_text_view" = "Show Large Text View";
+"generic_action_show_large_text_view" = "Exibir em Texto Grande";
 
 /* Preview Attachment */
-"generic_action_preview_attachment" = "Preview Attachment";
+"generic_action_preview_attachment" = "Pré-visualização do anexo";
 
 /* Export Attachment */
-"generic_action_export_attachment" = "Export Attachment";
+"generic_action_export_attachment" = "Exportar Anexo";
 
 /* Reveal - L10n: Verb, to reveal a concealed field e.g. a password */
-"generic_action_reveal" = "Reveal";
+"generic_action_reveal" = "Exibir";
 
 /* Conceal - L10n: Verb, to conceal a revealed field e.g. a password */
-"generic_action_conceal" = "Conceal";
+"generic_action_conceal" = "Ocultar";
 
 /* Copy Filename */
-"generic_action_copy_filename" = "Copy Filename";
+"generic_action_copy_filename" = "Copiar nome do arquivo";
 
 /* Field Name */
-"generic_field_name" = "Field Name";
+"generic_field_name" = "Nome do campo";
 
 /* No Selection */
-"detail_view_no_selection_header" = "No Selection";
+"detail_view_no_selection_header" = "Nada selecionado";
 
 /* Multiple Items */
-"detail_view_multiple_items_selected_header" = "Multiple Items";
+"detail_view_multiple_items_selected_header" = "Múltiplos itens";
 
 /* Select an Item */
-"detail_view_no_selection_message" = "Select an Item";
+"detail_view_no_selection_message" = "Selecione um item";
 
 /* %@ Items Selected */
-"detail_view_no_multiple_items_selected_message_fmt" = "%@ Items Selected";
+"detail_view_no_multiple_items_selected_message_fmt" = "%@ itens selecionados";
 
 /* Toggle Details Panel - L10n shows or hides the right hand side details view panel */
-"nextgen_toolbar_item_toggle_details_panel" = "Toggle Details Panel";
+"nextgen_toolbar_item_toggle_details_panel" = "Alternar Painel de Detalhes";
 
 /* Toggle Sidebar - L10n shows or hides the left hand side bar navigation panel */
-"nextgen_toolbar_item_toggle_sidebar" = "Toggle Sidebar";
+"nextgen_toolbar_item_toggle_sidebar" = "Alternar Barra Lateral";
 
 /* Recycle Items - This is a verb/action - Recycle the selected items, sending them to the Recycle Bin */
-"generic_recycle_items" = "Recycle Items";
+"generic_recycle_items" = "Enviar itens para Lixeira";
 
 /* Recycle Item - This is a verb/action - Recycle the selected item, sending it to the Recycle Bin  */
-"generic_recycle_item" = "Recycle Item";
+"generic_recycle_item" = "Enviar item para Lixeira";
 
 /* Show Details Panel */
-"main_menu_show_details_panel" = "Show Details Panel";
+"main_menu_show_details_panel" = "Exibir Painel de Detalhes";
 
 /* Hide Details Panel */
-"main_menu_hide_details_panel" = "Hide Details Panel";
+"main_menu_hide_details_panel" = "Ocultar Painel de Detalhes";
 
 /* %@ (%@ / %@ bits / %@) - L10n Note: 1st Param is the strength category (weak/strong/mediocre, etc). 2nd Param is the number of characters in the password. 3rd parameter is the number of bits of entropy, with 1 decimal place, so "92.3". 4th parameter is the estimated time it will take to crack this password, so "1 million years" */
 "password_strength_summary_char_count_fmt" = "%@ (%@ / %@ bits / %@)";
 
 /* %@ (%@ bits / %@) - L10n Note: 1st Param is the strength category (weak/strong/mediocre, etc). 2nd parameter is the number of bits of entropy, with 1 decimal place, so "92.3". 3rd parameter is the estimated time it will take to crack this password, so "1 million years"*/
-"password_strength_summary_fmt" = "%@ (%@ bits / %@)";
+"password_strength_summary_fmt" = "%@ / %@ bits / %@)";
 
 /* %@ characters - 1st param is a simple integer like 22 so e.g. "22 characters" */
-"num_of_characters_fmt" = "%@ characters";
+"num_of_characters_fmt" = "%@ caracteres";
 
 /* %@ bits - 1st param is a number like 36.2 so e.g. "36.2 bits" */
 "num_of_bits_fmt" = "%@ bits";
@@ -4889,7 +4889,7 @@
 "exclude_item_from_audit" = "Excluir Item da Auditoria";
 
 /* Check with 'Have I Been Pwned?' */
-"check_field_with_hibp" = "Check with 'Have I Been Pwned?'";
+"check_field_with_hibp" = "Checar com 'Have I Been Pwned?'";
 
 /* Pro - A short tag / text that will appear beside Pro features in a badge like fashion - keep v short if possible */
 "pro_badge_text" = "Pro";
@@ -4898,58 +4898,58 @@
 "new_tag_ellipsis" = "Nova Etiqueta...";
 
 /* Add Tag to Item(s) */
-"add_tag_to_items" = "Add Tag to Item(s)";
+"add_tag_to_items" = "Adicionar Tag ao(s) item(ns)";
 
 /* Remove Tag from Item(s) */
-"remove_tag_from_items" = "Remove Tag from Item(s)";
+"remove_tag_from_items" = "Remover Tag do Item(s)";
 
 /* All Issues */
 "audit_side_bar_nav_all_issues" = "Todos os problemas";
 
 /* There are some blank characters (e.g. spaces, tabs) at the start or end of your password.\n\nShould Strongbox tidy up these extraneous characters? */
-"field_tidy_message_tidy_up_password" = "There are some blank characters (e.g. spaces, tabs) at the start or end of your password.\n\nShould Strongbox tidy up these extraneous characters?";
+"field_tidy_message_tidy_up_password" = "Existem alguns caracteres em branco (por exemplo: espaços, tabs) no início ou final da sua senha.\n\nO Strongbox deve remover esses caracteres extras?";
 
 /* Fun */
-"custom_app_icon_category_fun" = "Fun";
+"custom_app_icon_category_fun" = "Divertidos";
 
 /* Utilities */
-"custom_app_icon_category_utilities" = "Utilities";
+"custom_app_icon_category_utilities" = "Utilitários";
 
 /* Default */
 "custom_app_icon_category_default" = "Padrão";
 
 /* Are you sure you want to reset to the default App Icon? */
-"are_you_sure_reset_to_default_app_icon" = "Are you sure you want to reset to the default App Icon?";
+"are_you_sure_reset_to_default_app_icon" = "Tem certeza que deseja redefinir para o ícone padrão do aplicativo?";
 
 /* This icon is only available for Pro users. */
-"custom_app_icon_pro_only" = "This icon is only available for Pro users.";
+"custom_app_icon_pro_only" = "Este ícone só está disponível para usuários Pro.";
 
 /* Pro Version %@ */
-"about_strongbox_pro_version_fmt" = "Pro Version %@";
+"about_strongbox_pro_version_fmt" = "Versão Pro %@";
 
 /* Version %@ */
-"about_strongbox_free_version_fmt" = "Version %@";
+"about_strongbox_free_version_fmt" = "Versão %@";
 
 /* Lifetime Pro */
-"pro_status_lifetime_pro" = "Lifetime Pro";
+"pro_status_lifetime_pro" = "Pro Vitalício";
 
 /* Pro (Yearly subscription) */
-"pro_status_yearly_pro" = "Pro (Yearly subscription)";
+"pro_status_yearly_pro" = "Pro (assinatura anual)";
 
 /* Pro (Monthly subscription) */
-"pro_status_monthly_pro" = "Pro (Monthly subscription)";
+"pro_status_monthly_pro" = "Pro (assinatura mensal)";
 
 /* Free Trial (%@ days left) */
-"pro_status_free_trial_days_left_fmt" = "Free Trial (%@ days left)";
+"pro_status_free_trial_days_left_fmt" = "Teste Gratuito (%@ dias restantes)";
 
 /* Unlicensed (Please Upgrade) */
-"pro_status_unlicensed_please_upgrade" = "Unlicensed (Please Upgrade)";
+"pro_status_unlicensed_please_upgrade" = "Não Licenciado (Por Favor Faça o Upgrade)";
 
 /* Unlicensed */
-"pro_status_unlicensed" = "Unlicensed";
+"pro_status_unlicensed" = "Não Licenciado";
 
 /* Unsupported by Database Format */
-"unsupported_by_database_format" = "Unsupported by Database Format";
+"unsupported_by_database_format" = "Não Suportado pelo Formato da Base de Dados";
 
 /* Include in Audit */
 "action_include_in_audit" = "Incluir na Auditoria";
@@ -4958,22 +4958,28 @@
 "action_exclude_from_audit" = "Excluir da Auditoria";
 
 /* [Database] Title (Username) */
-"quick_type_format_database_title_username" = "[Database] Title (Username)";
+"quick_type_format_database_title_username" = "Título da [Base de Dados] (Nome de Usuário)";
 
 /* [Database] Title */
-"quick_type_format_database_title" = "[Database] Title";
+"quick_type_format_database_title" = "Título da [Base de Dados]";
 
 /* [Database] Username */
-"quick_type_format_database_username" = "[Database] Username";
+"quick_type_format_database_username" = "[Base de Dados] Nome de Usuário";
 
 /* New UI Available */
-"new_ui_available_title" = "New UI Available";
+"new_ui_available_title" = "Nova Interface Disponível";
 
 /* Would you like to use our latest new and improved \"NextGen\" UI?\n\nWe think you'll like it! */
-"new_ui_available_message" = "Would you like to use our latest new and improved \"NextGen\" UI?\n\nWe think you'll like it!";
+"new_ui_available_message" = "Gostaria de usar nossa nova e aprimorada interface \"NextGen\"?\n\nAcreditamos que você vai gostar!";
 
 /* Ask Me Later */
 "generic_ask_me_later" = "Me Pergunte Depois";
 
 /* Lock Database - L10n note: Verb, To Lock, Locks the Database */
 "verb_lock_database" = "Bloquear Base de Dados";
+
+/* Are you sure you want to delete this tag? */
+"are_you_sure_delete_tag_message" = "Are you sure you want to delete this tag?";
+
+/* Rename Tag */
+"action_rename_tag" = "Rename Tag";

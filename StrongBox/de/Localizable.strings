@@ -315,7 +315,7 @@
 "browse_prefs_view_as_flat_list" = "Flache Liste";
 
 /* Group Hierarchy */
-"browse_prefs_view_as_folders" = "Hierarchie";
+"browse_prefs_view_as_folders" = "Baumstruktur";
 
 /* TOTP List */
 "browse_prefs_view_as_totp_list" = "TOTP-Liste";
@@ -1367,7 +1367,7 @@
 "open_sequence_error_reading_key_file" = "Die Schlüsseldatei konnte nicht gelesen werden. Bitte überprüfen Sie in den Einstellungen unter \"Schlüsseldatei verwalten\", ob die Datei verschoben oder gelöscht wurde";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc, 2nd param is the date/time of the last cache) */
-"open_sequence_user_looks_offline_open_offline_instead_fmt" = "Es sieht so aus, als ob Sie offline wären und '%@' nicht erreicht werden kann. Möchten Sie stattdessen eine schreibgeschützte Offline-Cache-Version dieser Datenbank verwenden?\n\nZuletzt zwischengespeichert: %@";
+"open_sequence_user_looks_offline_open_offline_instead_fmt" = "Es sieht so aus, als ob Sie derzeit nicht mit dem Internet verbunden sind und „%@” daher nicht erreicht werden kann. Möchten Sie stattdessen eine schreibgeschützte Offline-zwischengespeicherte Version dieser Datenbank verwenden?\n\nZuletzt zwischengespeichert: %@";
 
 /* No, Try to connect anyway */
 "open_sequence_yesno_use_offline_cache_no_try_connect_option" = "Nein, trotzdem versuchen zu verbinden";
@@ -1542,7 +1542,7 @@
 "cloud_sessions_prompt_unlink_dropbox_message" = "Möchten Sie die Verknüpfung zwischen Strongbox und Dropbox wirklich aufheben?";
 
 /* Unlink Successful */
-"cloud_sessions_prompt_dropbox_unlink_success_title" = "Trennen erfolgreich";
+"cloud_sessions_prompt_dropbox_unlink_success_title" = "Erfolgreich getrennt";
 
 /* You have successfully unlinked Strongbox from Dropbox. */
 "cloud_sessions_prompt_dropbox_unlink_success_message" = "Sie haben Strongbox erfolgreich von Dropbox getrennt.";
@@ -1722,7 +1722,7 @@
 "browse_vc_section_title_expired" = "Abgelaufen";
 
 /* Section Header Title for Nearly Expired Items */
-"browse_vc_section_title_nearly_expired" = "Fast Abgelaufen";
+"browse_vc_section_title_nearly_expired" = "Demnächst ablaufend";
 
 /* Section Header Title for Favourite Items */
 "browse_vc_section_title_pinned" = "Favoriten";
@@ -1815,7 +1815,7 @@
 "model_error_cannot_write_backup" = "Backup konnte nicht geschrieben werden. Datenbank wird nicht gespeichert!";
 
 /* Button Title to view backup settings of this database */
-"safes_vc_action_backups" = "Backups";
+"safes_vc_action_backups" = "Sicherungen";
 
 /* Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences */
 "open_sequence_error_reading_key_file_autofill_context" = "Die Schlüsseldatei konnte nicht gelesen werden. Bitte überprüfen Sie in den Einstellungen unter \"Schlüsseldatei verwalten\", ob die Datei richtig importiert wurde";
@@ -2888,13 +2888,13 @@
 "browse_add_group_button_title" = "Gruppe hinzufügen ...";
 
 /* Tags */
-"browse_vc_search_scope_tags" = "Tags";
+"browse_vc_search_scope_tags" = "Schlagwörter";
 
 /* Tags */
-"browse_prefs_item_subtitle_tags" = "Tags";
+"browse_prefs_item_subtitle_tags" = "Schlagwörter";
 
 /* Tags */
-"item_details_username_field_tags" = "Tags";
+"item_details_username_field_tags" = "Schlagwörter";
 
 /* 90 Day Trial */
 "upgrade_vc_start_your_free_trial" = "90 Tage Testversion";
@@ -3296,7 +3296,7 @@
 "sync_conflict_title" = "Sync-Konflikt";
 
 /* It looks like the remote version of this database on '%@' has changed and so has the local version you've been working on. Which version would you like to use?  - Translators Note: The first parameter is the name of the remote storage provider e.g. "Dropbox" */
-"sync_conflict_message_fmt" = "Es sieht so aus, als hätten sich sowohl die Remote-Version auf '%@' als auch die lokale Version dieser Datenbank geändert. Welche Version möchten Sie verwenden?";
+"sync_conflict_message_fmt" = "Es sieht so aus, als hätten sich sowohl die Remote-Version auf „%@” als auch die lokale Version dieser Datenbank geändert. Welche Version möchten Sie verwenden?";
 
 /* Strongbox could not sync your changes. */
 "sync_could_not_sync_your_changes" = "Strongbox konnte Ihre Änderungen nicht synchronisieren.";
@@ -3800,10 +3800,10 @@
 "diff_drill_down_attachments_are_different" = "Die Anhänge sind unterschiedlich.";
 
 /* Tags will change. */
-"diff_drill_down_tags_will_change" = "Die Tags werden geändert.";
+"diff_drill_down_tags_will_change" = "Die Schlagwörter werden geändert.";
 
 /* Tags are different. */
-"diff_drill_down_tags_are_different" = "Die Tags sind unterschiedlich.";
+"diff_drill_down_tags_are_different" = "Die Schlagwörter sind unterschiedlich.";
 
 /* Custom Fields will change. */
 "diff_drill_down_custom_fields_will_change" = "Die benutzerdefinierten Felder werden geändert.";
@@ -3854,7 +3854,7 @@
 "conflict_resolution_sync_later_pro_only" = "Später synchronisieren (Pro)";
 
 /* Remote (%@) - Translators Note: First Param is the remote storage location e.g. Google Drive or Dropbox etc */
-"conflict_resolution_remote_fmt" = "Remote (%@)";
+"conflict_resolution_remote_fmt" = "Extern (%@)";
 
 /* Force Overwrite? */
 "conflict_resolution_force_overwrite_title" = "Überschreiben erzwingen?";
@@ -3911,10 +3911,10 @@
 "compare_merge_sync_possibly_required_message" = "Mindestens eine dieser Datenbanken wurde in jüngster Zeit nicht synchronisiert. Es wird empfohlen, zur Datenbankliste zurückzukehren und den Sync-Prozess durch Herunterziehen zu starten. Auf diese Weise wird sichergestellt, dass Sie mit den neuesten Versionen arbeiten.";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to open in offline mode instead? - Translators Note: 1st Parameter is the storage provider name like Google Drive or Dropbox */
-"open_sequence_user_looks_offline_open_local_fmt" = "Es sieht so aus, als wären Sie offline und '%@' nicht erreichbar. Möchten Sie die Datenbank stattdessen im Offline-Modus öffnen?";
+"open_sequence_user_looks_offline_open_local_fmt" = "Es sieht so aus, als ob Sie derzeit nicht mit dem Internet verbunden sind und „%@” daher nicht erreicht werden kann. Möchten Sie die Datenbank stattdessen im Offline-Modus öffnen?";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use Strongbox's local copy in read-only mode instead? - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc */
-"open_sequence_user_looks_offline_open_local_ro_fmt" = "Es sieht so aus, als wären Sie offline und '%@' nicht erreichbar. Möchten Sie die Datenbank stattdessen im Offline-Modus öffnen?\n\nHinweis: Die Datenbank ist dann schreibgeschützt. In der Pro-Version können Sie sie auch offline bearbeiten.";
+"open_sequence_user_looks_offline_open_local_ro_fmt" = "Es sieht so aus, als ob Sie derzeit nicht mit dem Internet verbunden sind und „%@” daher nicht erreicht werden kann. Möchten Sie die Datenbank stattdessen im Offline-Modus öffnen?\n\nHinweis: Die Datenbank ist dann schreibgeschützt. In der Pro-Version kann diese auch offline bearbeitet werden.";
 
 /* Open Offline? */
 "open_sequence_yesno_use_local_copy_title" = "Offline öffnen?";
@@ -3959,7 +3959,7 @@
 "database_properties_subtitle_offline_behaviour" = "Sofort anbieten im Offline-Modus zu öffnen, wenn Strongbox erkennt, dass Sie offline sind. Wenn Sie dies deaktivieren, wird Strongbox versuchen eine Verbindung herzustellen, was einige Zeit dauern kann.";
 
 /* Configure & View local backups." */
-"database_properties_subtitle_backups" = "Lokale Backups konfigurieren & anzeigen.";
+"database_properties_subtitle_backups" = "Lokale Sicherungen konfigurieren und anzeigen.";
 
 /* View recent sync details including errors. */
 "database_properties_subtitle_view_sync_log" = "Aktuelle Sync-Details inklusive Fehlern anzeigen.";
@@ -4182,16 +4182,16 @@
 "subtitle_app_version_info_pro_fmt" = "Strongbox Pro %@";
 
 /* Remove Tag */
-"mac_undo_action_remove_tag" = "Tag entfernen";
+"mac_undo_action_remove_tag" = "Schlagwort entfernen";
 
 /* Add Tag */
-"mac_undo_action_add_tag" = "Tag hinzufügen";
+"mac_undo_action_add_tag" = "Schlagwort hinzufügen";
 
 /* Tags */
-"generic_fieldname_tags" = "Tags";
+"generic_fieldname_tags" = "Schlagwörter";
 
 /* Enter a new tag to add for this item */
-"mac_vc_please_enter_a_tag" = "Geben Sie ein neues Tag ein, um es zu diesem Eintrag hinzuzufügen";
+"mac_vc_please_enter_a_tag" = "Geben Sie ein neues Schlagwort ein, um es zu diesem Eintrag hinzuzufügen";
 
 /* Zxcvbn (Smart) */
 "password_strength_algo_zxcvbn_title" = "Zxcvbn (Smart)";
@@ -4338,7 +4338,7 @@
 "onboarding_scheduled_export_title" = "Geplanter Export";
 
 /* It's always a good idea to keep backups, especially external ones. Strongbox can remind you to export your database every so often.\n\nWould you like Strongbox to prompt you to export your database if it has been a while? */
-"onboarding_scheduled_export_message" = "Es ist immer eine gute Idee, Backups zu machen, besonders externe. Strongbox kann Sie ab und an daran erinnern, Ihre Datenbank zu exportieren.\n\nMöchten Sie, dass Strongbox Sie auffordert, Ihre Datenbank zu exportieren, wenn es bereits eine Weile her ist?";
+"onboarding_scheduled_export_message" = "Es ist immer eine gute Idee, Sicherungen zu erstellen, besonders externe. Strongbox kann Sie ab und an daran erinnern, Ihre Datenbank zu exportieren.\n\nMöchten Sie, dass Strongbox Sie auffordert, Ihre Datenbank zu exportieren, wenn einige Zeit vergangen ist?";
 
 /* Remind me after 2 weeks */
 "onboarding_scheduled_export_onboarding_remind_2_weeks" = "Nach 2 Wochen erinnern";
@@ -4580,10 +4580,10 @@
 "quick_view_title_expired_entries_subtitle" = "Alle abgelaufenen Einträge anzeigen";
 
 /* Nearly Expired Entries (%@) - L10n note - 1st paramter is the number of entries, e.g. Nearly Expired Entries (2) */
-"quick_view_title_nearly_expired_entries_title_fmt" = "Fast abgelaufene Einträge (%@)";
+"quick_view_title_nearly_expired_entries_title_fmt" = "Demnächst ablaufende Einträge (%@)";
 
 /* View all nearly expired entries */
-"quick_view_title_nearly_expired_entries_subtitle" = "Alle fast abgelaufenen Einträge anzeigen";
+"quick_view_title_nearly_expired_entries_subtitle" = "Alle demnächst ablaufenden Einträge anzeigen";
 
 /* Wi-Fi Transfer */
 "safes_vc_wifi_transfer" = "WiFi-Übertragung";
@@ -4760,7 +4760,7 @@
 "pasted_image_attachment_at_time_filename_png_fmt" = "eingefügt-am-%@.png";
 
 /* Hierarchy */
-"side_bar_hierarchy_folder_structure" = "Hierarchie";
+"side_bar_hierarchy_folder_structure" = "Baumstruktur";
 
 /* Discard Changes */
 "discard_changes" = "Änderungen verwerfen";
@@ -4793,7 +4793,7 @@
 "generic_fieldname_estimated_size" = "Geschätzte Größe";
 
 /* Historical Item Count - This is number of previous copies/older copies of this entry we have */
-"generic_fieldname_historical_item_count" = "Anzahl von Einträgen im Verlauf";
+"generic_fieldname_historical_item_count" = "Verlauf der Anzahl von Einträgen";
 
 /* Custom Icon */
 "generic_fieldname_custom_icon" = "Benutzerdefiniertes Symbol";
@@ -4977,3 +4977,9 @@
 
 /* Lock Database - L10n note: Verb, To Lock, Locks the Database */
 "verb_lock_database" = "Datenbank sperren";
+
+/* Are you sure you want to delete this tag? */
+"are_you_sure_delete_tag_message" = "Möchten Sie dieses Schlagwort wirklich löschen?";
+
+/* Rename Tag */
+"action_rename_tag" = "Schlagwort umbenennen";
