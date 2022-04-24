@@ -231,7 +231,7 @@
 "safesvc_update_existing_option_update" = "Update Existing Database";
 
 /* Create a New Database */
-"safesvc_update_existing_option_create" = "Create a New Database";
+"safesvc_update_existing_option_create" = "Új adatbázis létrehozása";
 
 /* Error updating file. */
 "safesvc_error_updating_title" = "Error updating file.";
@@ -432,7 +432,7 @@
 "casg_add_existing_database_action" = "Létező adatbázis hozzáadása";
 
 /* Create Database */
-"casg_create_database_action" = "Create Database";
+"casg_create_database_action" = "Adatbázis létrehozása";
 
 /* KDB, AES (Supports Icons & Attachments) */
 "casg_database_format_information_kp1" = "KDB, AES (Supports Icons & Attachments)";
@@ -513,7 +513,7 @@
 "db_management_change_master_password" = "Change Master Password";
 
 /* Could not change credentials */
-"db_management_couldnt_change_credentials" = "Could not change credentials";
+"db_management_couldnt_change_credentials" = "Nem sikerült módosítani a hitelesítési adatokat";
 
 /* Master Credentials Changed */
 "db_management_credentials_changed" = "Master Credentials Changed";
@@ -552,7 +552,7 @@
 "db_management_enable_done" = "AutoFill Enabled";
 
 /* Could not change credentials */
-"db_management_error_title_couldnt_change_credentials" = "Could not change credentials";
+"db_management_error_title_couldnt_change_credentials" = "Nem sikerült módosítani a hitelesítési adatokat";
 
 /* Master Password Changed */
 "db_management_password_changed" = "Master Password Changed";
@@ -1094,10 +1094,10 @@
 "pw_history_vc_previous_passwords_count_none" = "Old Passwords (None)";
 
 /* Could not create file */
-"sftp_provider_could_not_create" = "Could not create file";
+"sftp_provider_could_not_create" = "Nem sikerült létrehozni a fájlt";
 
 /* Could not read file */
-"sftp_provider_could_not_read" = "Could not read file";
+"sftp_provider_could_not_read" = "A fájlt nem lehet olvasni";
 
 /* Could not update file */
 "sftp_provider_could_not_update" = "Could not update file";
@@ -1202,7 +1202,7 @@
 "set_icon_vc_error_downloading_favicon_title" = "FavIcon Problem";
 
 /* Could not download favicon for this item */
-"set_icon_vc_error_downloading_favicon_message" = "Could not download favicon for this item";
+"set_icon_vc_error_downloading_favicon_message" = "Nem sikerült letölteni a favicon-t ehhez az elemhez";
 
 /* Image Source Unavailable */
 "set_icon_vc_image_src_unavailable_title" = "Image Source Unavailable";
@@ -1241,10 +1241,10 @@
 "moveentry_vc_add_group_prompt_message" = "Please Enter the New Group Name";
 
 /* Could not create group */
-"moveentry_vc_warn_creating_group_title" = "Could not create group";
+"moveentry_vc_warn_creating_group_title" = "Nem sikerült létrehozni a csoportot";
 
 /* Could not create group with that title here. */
-"moveentry_vc_warn_creating_group_message" = "Could not create group with that title here.";
+"moveentry_vc_warn_creating_group_message" = "Nem sikerült létrehozni a csoportot ezzel a névvel.";
 
 /* Please Enter a Host */
 "sftp_vc_label_validation_enter_host" = "Please Enter a Host";
@@ -1289,7 +1289,7 @@
 "qr_code_vc_warn_problem_accessing_camera_message" = "Strongbox could not access the camera on this device. Does it have permission?";
 
 /* Database Icons */
-"icons_vc_header_database_icons_title" = "Database Icons";
+"icons_vc_header_database_icons_title" = "Adatbázis ikonok";
 
 /* KeePass Icons */
 "icons_vc_header_keepass_icons_title" = "KeePass Icons";
@@ -1575,7 +1575,7 @@
 "pick_creds_vc_cannot_create_new_unsupported_storage_type_message" = "This database is stored on a Storage Provider that does not support Live editing in App Extensions. Cannot Create New Entry.";
 
 /* Create New Entry... */
-"pick_creds_vc_create_new_button_title" = "Create New Entry...";
+"pick_creds_vc_create_new_button_title" = "Új bejegyzés létrehozása...";
 
 /* No Matching Entries */
 "pick_creds_vc_empty_search_dataset_title" = "No Matching Entries";
@@ -1734,7 +1734,7 @@
 "browse_vc_section_title_standard_view" = "Items";
 
 /* Compressed */
-"database_metadata_field_compressed" = "Compressed";
+"database_metadata_field_compressed" = "Tömörített";
 
 /* Database Format */
 "database_metadata_field_format" = "Database Format";
@@ -2054,7 +2054,7 @@
 "casg_add_action" = "Add";
 
 /* Create */
-"casg_create_action" = "Create";
+"casg_create_action" = "Létrehozás";
 
 /* Rename */
 "casg_rename_action" = "Rename";
@@ -2069,7 +2069,7 @@
 "item_details_expires_field_title" = "Expires";
 
 /* Created */
-"item_details_metadata_created_field_title" = "Created";
+"item_details_metadata_created_field_title" = "Létrehozva";
 
 /* Modified */
 "item_details_metadata_modified_field_title" = "Modified";
@@ -2209,7 +2209,7 @@
 "mac_unlock_database_with_biometric_fmt" = "Unlock with %@ or Watch";
 
 /* Could not open key file. */
-"mac_error_could_not_open_key_file" = "Could not open key file.";
+"mac_error_could_not_open_key_file" = "Nem sikerült megnyitni a kulcsfájlt.";
 
 /* This database has been changed by another user or application. Would you like to reload the latest version? */
 "mac_db_changed_externally_reload_yes_or_no" = "This database has been changed by another user or application. Would you like to reload the latest version?";
@@ -2285,16 +2285,16 @@
 "mac_csv_file_must_contain_header_and_fields" = "The CSV file must contain a header row with at least one of the following fields:\n\n[%@, %@, %@, %@, %@, %@]\n\nThe order of the fields doesn't matter.";
 
 /* CSV Format */
-"mac_csv_format_info_title" = "CSV Format";
+"mac_csv_format_info_title" = "CSV formátum";
 
 /* CSV File Contains Zero Rows. Cannot Import. */
-"mac_csv_file_contains_zero_rows" = "CSV File Contains Zero Rows. Cannot Import.";
+"mac_csv_file_contains_zero_rows" = "A CSV-fájl nem tartalmaz sort. Nem lehet beimportálni.";
 
 /* Found %lu valid rows in CSV file. Are you sure you would like to import now? - Translators Note: 1st Param is the number of rows found in the CSV File */
 "mac_found_n_valid_rows_in_csv_file_prompt_to_import_fmt" = "Found %lu valid rows in CSV file. Are you sure you would like to import now?";
 
 /* CSV File Successfully Imported. */
-"mac_csv_file_successfully_imported" = "CSV File Successfully Imported.";
+"mac_csv_file_successfully_imported" = "A CSV-fájl importálása sikeresen megtörtént.";
 
 /* No valid rows found. Ensure CSV file contains a header row and at least one of the required fields. */
 "mac_no_valid_csv_rows_found" = "No valid rows found. Ensure CSV file contains a header row and at least one of the required fields.";
@@ -2472,7 +2472,7 @@
 "mac_problem_opening_db" = "There was a problem opening this file.";
 
 /* Create New Password Database */
-"mac_create_new_database_title" = "Create New Password Database";
+"mac_create_new_database_title" = "Új jelszó adatbázis létrehozása";
 
 /* Enter Master Credentials */
 "mac_enter_database_master_credentials" = "Enter Master Credentials";
@@ -2616,10 +2616,10 @@
 "mac_keepass_history_are_sure_restore" = "Are you sure you want to restore this history item?";
 
 /* Could not open this file. */
-"mac_could_not_open_this_file" = "Could not open this file.";
+"mac_could_not_open_this_file" = "Nem sikerült megnyitni a fájlt.";
 
 /* Database Icons */
-"mac_database_icons" = "Database Icons";
+"mac_database_icons" = "Adatbázis ikonok";
 
 /* KeePass Icons */
 "mac_keepass_icons" = "KeePass Icons";
@@ -3419,7 +3419,7 @@
 "browse_action_launch_url_copy_password" = "URL megnyitása és jelszó másolása";
 
 /* Copy Other Field... */
-"browse_context_menu_copy_other_field" = "Copy Field...";
+"browse_context_menu_copy_other_field" = "Mező másolása...";
 
 /* Move - Translators Note: Verb - To move something e.g. an entry or group somewhere else in the hierarchy */
 "generic_move" = "Move";
@@ -3500,7 +3500,7 @@
 "generic_setting_is_inherited_from_parent" = "Inherited from Parent";
 
 /* Copy & Launch */
-"browse_prefs_tap_action_copy_and_launch" = "Copy & Launch";
+"browse_prefs_tap_action_copy_and_launch" = "Másolás és megnyitás";
 
 /* Foreground Color */
 "item_properties_foreground_color" = "Foreground Color";
@@ -3587,7 +3587,7 @@
 "merge_no_other_databases_available_msg" = "There are no other databases in your databases collection to merge into this database. You must add another database so that you can select it for the merge operation.";
 
 /* Create Local Copy */
-"generic_action_create_local_database" = "Create Local Copy";
+"generic_action_create_local_database" = "Lokális másolat létrehozása";
 
 /* Identical databases. */
 "merge_result_databases_identical" = "Identical databases.";
@@ -3752,10 +3752,10 @@
 "diff_drill_down_emails_are_different" = "Emails are different.";
 
 /* Created Date will change. */
-"diff_drill_down_create_date_will_change" = "Created Date will change.";
+"diff_drill_down_create_date_will_change" = "A létrehozás dátuma megváltozik.";
 
 /* Created Dates are different. */
-"diff_drill_down_created_dates_are_different" = "Created Dates are different.";
+"diff_drill_down_created_dates_are_different" = "A létrehozás dátumok különböznek.";
 
 /* Modified Date will change. */
 "diff_drill_down_mod_date_will_change" = "Modified Date will change.";
@@ -4365,7 +4365,7 @@
 "icloud_create_issue_fix" = "How do I fix this?";
 
 /* Create local database instead */
-"icloud_create_issue_local_instead" = "Create local database instead";
+"icloud_create_issue_local_instead" = "Hozzon létre inkább lokális adatbázis";
 
 /* Copied - L10n Note: This means a string has just been copied to the clipboard. Used to notify user via a toast message or similar. */
 "generic_copied" = "Copied";
@@ -4565,7 +4565,7 @@
 "generic_algorithm" = "Algoritmus";
 
 /* Compression */
-"generic_compression" = "Compression";
+"generic_compression" = "Tömörítés";
 
 /* Are you sure you want to change your database encryption settings? */
 "are_you_sure_change_encryption_settings" = "Are you sure you want to change your database encryption settings?";
@@ -4805,10 +4805,10 @@
 "generic_fieldname_urls" = "URLs";
 
 /* Copy - L10n Note: This is a verb, to copy an item/string/field to the clipboard */
-"generic_action_verb_copy_to_clipboard" = "Copy";
+"generic_action_verb_copy_to_clipboard" = "Másolás";
 
 /* Copy - L10n Note: This is a verb, to copy the field name (e.g. if there is a field: Custom-Field-1="value", then this would copy "Custom-Field-1" to the clipboard */
-"generic_action_verb_copy_field_name_to_clipboard" = "Copy Field Name";
+"generic_action_verb_copy_field_name_to_clipboard" = "Mező nevének másolása";
 
 /* Spell Out - L10n: To have Strongbox spell out through the speech synthesizer, character by character a field */
 "generic_action_verb_spell_out_field" = "Spell Out";
