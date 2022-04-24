@@ -940,7 +940,7 @@
 "export_vc_export_successful_title" = "Sikeres exportálás";
 
 /* Your database was successfully exported. */
-"export_vc_export_successful_message" = "Your database was successfully exported.";
+"export_vc_export_successful_message" = "Az adatbázisa sikeresen exportálva.";
 
 /* Error Writing Database */
 "export_vc_error_writing" = "Error Writing Database";
@@ -1383,7 +1383,7 @@
 "open_sequence_autofill_creash_likely_title" = "AutoFill Crash Likely";
 
 /* Your database has encryption settings that may cause iOS Password AutoFill extensions to be terminated due to excessive resource consumption. This will mean AutoFill appears not to work. Unfortunately this is an Apple imposed limit. You could consider reducing the amount of resources consumed by your encryption settings (Memory in particular with Argon2 to below 64MB). */
-"open_sequence_autofill_creash_likely_message" = "Your database is quite large, or has encryption settings that may cause iOS Password AutoFill extensions to be terminated due to excessive resource consumption.\nThis will mean AutoFill appears not to work. Unfortunately this is an Apple imposed system limitation.\nYou could consider reducing file size or changing the amount of resources consumed (Memory in particular with Argon2 to below 64MB).";
+"open_sequence_autofill_creash_likely_message" = "Az Ön adatbázisa meglehetősen nagy, vagy olyan titkosítási beállításokkal rendelkezik, amelyek miatt az iOS jelszó automatikus kitöltés bővítményei leállhatnak a túlzott erőforrás-felhasználás miatt.\nEz azt jelenti, hogy az automatikus kitöltés nem működik. Sajnos ez az Apple által kiszabott rendszerkorlátozás. Megfontolhatja a fájl méretének csökkentését vagy a felhasznált erőforrások mennyiségének módosítását (a memória különösen Argon2 esetén legfeljebb 64 Mb lehet).";
 
 /* No Key File */
 "key_files_vc_no_key_file" = "No Key File";
@@ -1989,7 +1989,7 @@
 "alerts_ok" = "OK";
 
 /* Yes */
-"alerts_yes" = "Yes";
+"alerts_yes" = "Igen";
 
 /* Password */
 "alerts_password" = "Jelszó";
@@ -2840,7 +2840,7 @@
 "upgrade_vc_you_have_n_days_remaining_fmt" = "You have %ld days left in your Pro trial";
 
 /* Your free trial of Strongbox Pro has expired. */
-"upgrade_vc_your_free_trial_expired" = "Your free trial of Strongbox Pro has expired.";
+"upgrade_vc_your_free_trial_expired" = "A Strongbox Pro ingyenes próbaidőszaka lejárt.";
 
 /* Enjoy %@ and other Pro features by Upgrading! - Translators Note: 1st parameter is for biometric unlock (will be either: 'Touch ID Unlock' or 'Face ID Unlock') */
 "upgrade_vc_enjoy_features_by_upgrading_fmt" = "Enjoy %@ and other Pro features by Upgrading!";
@@ -3059,7 +3059,7 @@
 "audit_hibp_warning_no" = "No, I don't want to use this feature";
 
 /* Yes, I understand and agree */
-"audit_hibp_warning_yes" = "Yes, I understand and agree";
+"audit_hibp_warning_yes" = "Igen, értem és egyetértek";
 
 /* Always Check */
 "hibp_check_interval_always_check" = "Always Check";
@@ -3260,7 +3260,7 @@
 "backup_settings_prompt_option_yes_looks_good" = "Yes, sounds good";
 
 /* Yes, but also backup Key Files */
-"backup_settings_prompt_yes_but_include_key_files" = "Yes, but also backup Key Files";
+"backup_settings_prompt_yes_but_include_key_files" = "Igen, de készítsen biztonsági másolatot a kulcsfájlokról is";
 
 /* No, do NOT backup anything */
 "backup_settings_prompt_no_dont_backup_anything" = "No, do not include anything";
@@ -3965,7 +3965,7 @@
 "database_properties_subtitle_view_sync_log" = "View recent sync details including errors.";
 
 /* Your Database is configured to use a hardware key, however no key or an incorrect key was found connected. */
-"mac_autofill_no_or_incorrect_yubikey_found" = "Your Database is configured to use a hardware key, however no key or an incorrect key was found connected.";
+"mac_autofill_no_or_incorrect_yubikey_found" = "Az adatbázis hardverkulcs használatára van konfigurálva, azonban nem találtunk kulcsot vagy helytelen kulcsot lett csatlakoztatva.";
 
 /* Title (Username) */
 "quick_type_format_title_username" = "Title (Username)";
@@ -4427,7 +4427,7 @@
 "upgrade_onboarding_free_trial_ending_soon_title" = "Free Trial Ending Soon";
 
 /* Your free trial of Strongbox Pro will end next week, and we wouldn't want you to lose any of the cool Pro features.\n\nWould you like to support Strongbox and take a look at some of the Upgrade options? */
-"upgrade_onboarding_free_trial_ending_soon_message" = "Your free trial of Strongbox Pro will end next week, and we wouldn't want you to lose any of the cool Pro features.\n\nWould you like to support Strongbox and take a look at some of the Upgrade options?";
+"upgrade_onboarding_free_trial_ending_soon_message" = "A Strongbox Pro ingyenes próbaidőszaka a jövő héten lejár, és nem szeretnénk, ha elveszítené a Pro nagyszerű funkcióit.\n\nSzeretné támogatni a Strongboxot, és megnézni néhány frissítési lehetőséget?";
 
 /* Strongbox could not find a QR Code in this image. */
 "could_not_find_qr_code" = "Strongbox could not find a QR Code in this image.";
@@ -4615,7 +4615,7 @@
 "import_successful_title" = "✅ Importálás sikeres";
 
 /* Your import was successful! Now, let's set a strong master password and save your new Strongbox database. */
-"import_successful_message" = "Your import was successful! Now, let's set a strong master password and save your new Strongbox database.";
+"import_successful_message" = "Az importálás sikeres volt! Most állítsunk be egy erős mesterjelszót, és mentsük el az új Strongbox adatbázist.";
 
 /* Are you sure you want to clear the TOTP for this entry? */
 "are_you_sure_clear_totp" = "Are you sure you want to clear the TOTP for this entry?";
@@ -4667,10 +4667,10 @@
 "autofill_argon2_onboarding_issue_title" = "AutoFill Issue";
 
 /* Your database has a very high Argon2 memory setting that will cause it to crash when used in AutoFill mode.\n\nWould you like Strongbox to automatically adjust this so that you can safely use AutoFill? */
-"autofill_argon2_onboarding_issue_message" = "Your database has a very high Argon2 memory setting that will cause it to crash when used in AutoFill mode.\n\nWould you like Strongbox to automatically adjust this so that you can safely use AutoFill?";
+"autofill_argon2_onboarding_issue_message" = "Az adatbázis nagyon magas Argon2 memóriabeállítással dolgozik, ami összeomláshoz vezethet, ha AutoFill módban használják.\n\nSzeretné, ha a Strongbox automatikusan beállítaná ezt, hogy biztonságosan használhassa az automatikus kitöltést?";
 
 /* Yes, Great Idea! */
-"generic_yes_great_idea_bang" = "Yes, Great Idea!";
+"generic_yes_great_idea_bang" = "Igen, jó ötlet!";
 
 /* No, I don't use AutoFill */
 "autofill_argon2_onboarding_no_use_autofill" = "No, I don't use AutoFill";
@@ -4685,7 +4685,7 @@
 "kdbx4_upgrade_onboarding_issue_title" = "Adatbázis frissítés";
 
 /* Your database is using an old format (KDBX 3.1). The new format (KDBX 4.x) offers security improvements, performance enhancements and should also reduce the size of your database.\n\nWould you like Strongbox to automatically upgrade your database now? */
-"kdbx4_upgrade_onboarding_issue_message" = "Your database is using an old format (KDBX 3.1). The new format (KDBX 4.x) offers security improvements, performance enhancements and should also reduce the size of your database.\n\nWould you like Strongbox to automatically upgrade your database now?";
+"kdbx4_upgrade_onboarding_issue_message" = "Az adatbázis egy régi formátumot használ (KDBX 3.1). Az új formátum (KDBX 4.x) biztonsági fejlesztéseket, teljesítménynövelést kínál, és csökkenti az adatbázis méretét is.\n\nSzeretné, hogy a Strongbox most automatikusan frissítse adatbázisát?";
 
 /* Import 1Password */
 "safes_vc_import_1password" = "Import 1Password";
@@ -4703,7 +4703,7 @@
 "read_only_unavailable_pending_changes_message" = "You currently have changes pending and so you cannot switch to Read Only mode. You must save or discard your current changes first.";
 
 /* Your database is in Read Only mode and cannot be updated. */
-"warn_database_is_ro_no_update" = "Your database is in Read Only mode and cannot be updated.";
+"warn_database_is_ro_no_update" = "Az adatbázis csak olvasható módban van, és nem frissíthető.";
 
 /* Quitting - Finishing Sync... */
 "macos_quitting_finishing_sync" = "Quitting - Finishing Sync...";
@@ -4958,13 +4958,13 @@
 "action_exclude_from_audit" = "Exclude from Audit";
 
 /* [Database] Title (Username) */
-"quick_type_format_database_title_username" = "[Database] Title (Username)";
+"quick_type_format_database_title_username" = "[Database] Cím (Felhasználónév)";
 
 /* [Database] Title */
-"quick_type_format_database_title" = "[Database] Title";
+"quick_type_format_database_title" = "[Database] Cím";
 
 /* [Database] Username */
-"quick_type_format_database_username" = "[Database] Username";
+"quick_type_format_database_username" = "[Database] Felhasználónév";
 
 /* New UI Available */
 "new_ui_available_title" = "New UI Available";
