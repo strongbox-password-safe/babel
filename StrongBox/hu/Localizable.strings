@@ -255,7 +255,7 @@
 "safesvc_error_importing_title" = "Hiba az adatbázis importálása során";
 
 /* Could not bookmark this file */
-"safesvc_error_title_could_not_bookmark" = "Could not bookmark this file";
+"safesvc_error_title_could_not_bookmark" = "Nem lehet létrehozni könyvjelzőt";
 
 /* Confirm Password */
 "alerts_confirm_password" = "Confirm Password";
@@ -285,10 +285,10 @@
 "browse_prefs_tap_action_copy_copy_password" = "Jelszó másolása";
 
 /* Copy TOTP */
-"browse_prefs_tap_action_copy_copy_totp" = "Copy TOTP";
+"browse_prefs_tap_action_copy_copy_totp" = "TOTP másolása";
 
 /* Copy URL */
-"browse_prefs_tap_action_copy_copy_url" = "Copy URL";
+"browse_prefs_tap_action_copy_copy_url" = "URL másolása";
 
 /* Copy Title */
 "browse_prefs_tap_action_copy_title" = "Cím másolása";
@@ -345,7 +345,7 @@
 "browse_vc_delete_error_message" = "There was an error trying to delete this item.";
 
 /* Delete Failed */
-"browse_vc_delete_failed" = "Delete Failed";
+"browse_vc_delete_failed" = "Törlés sikertelen";
 
 /*  Copy */
 "browse_vc_duplicate_title_suffix" = " Másolás";
@@ -510,7 +510,7 @@
 "db_management_change_master_credentials" = "Change Master Credentials";
 
 /* Change Master Password */
-"db_management_change_master_password" = "Change Master Password";
+"db_management_change_master_password" = "Mesterjelszó módosítása";
 
 /* Could not change credentials */
 "db_management_couldnt_change_credentials" = "Nem sikerült módosítani a hitelesítési adatokat";
@@ -597,7 +597,7 @@
 "item_details_section_header_attachments" = "Mellékletek";
 
 /* Custom Fields */
-"item_details_section_header_custom_fields" = "Custom Fields";
+"item_details_section_header_custom_fields" = "Egyéni mezők";
 
 /* History */
 "item_details_section_header_history" = "Előzmények";
@@ -609,7 +609,7 @@
 "item_details_setup_totp" = "Setup TOTP...";
 
 /* Could not set TOTP because the format is unsupported. */
-"item_details_setup_totp_failed_message" = "Could not set TOTP because the format is unsupported.";
+"item_details_setup_totp_failed_message" = "Nem sikerült beállítani a TOTP-t, mert a formátum nem támogatott.";
 
 /* Failed to Set TOTP */
 "item_details_setup_totp_failed_title" = "Failed to Set TOTP";
@@ -684,7 +684,7 @@
 "prefs_vc_clear_pin_codes_yesno_message" = "This will clear all securely stored master passwords (for all databases) used for PIN Code unlock. Are you sure?";
 
 /* Clear PIN Codes */
-"prefs_vc_clear_pin_codes_yesno_title" = "Clear PIN Codes";
+"prefs_vc_clear_pin_codes_yesno_title" = "Pin kód törlése";
 
 /* Sessions (%d) */
 "prefs_vc_cloud_sessions_count_fmt" = "Sessions (%d)";
@@ -961,7 +961,7 @@
 "pins_config_vc_button_title_turn_duress_pin_on" = "Turn Duress PIN On";
 
 /* Delete Database */
-"pins_config_vc_label_delete_database" = "Delete Database";
+"pins_config_vc_label_delete_database" = "Adatbázis törlése";
 
 /* Local Device database will be permanently deleted. */
 "pins_config_vc_label_delete_database_local_permanent" = "Local Device database will be permanently deleted.";
@@ -1100,7 +1100,7 @@
 "sftp_provider_could_not_read" = "A fájlt nem lehet olvasni";
 
 /* Could not update file */
-"sftp_provider_could_not_update" = "Could not update file";
+"sftp_provider_could_not_update" = "Nem sikerült frissíteni a fájlt";
 
 /* Authentication Failed for [user: %@] */
 "sftp_provider_auth_failed_fmt" = "Authentication Failed for [user: %@]";
@@ -1133,7 +1133,7 @@
 "add_attachment_vc_error_reading_title" = "Error Reading";
 
 /* Could not read the data for this item. */
-"add_attachment_vc_error_reading_message" = "Could not read the data for this item.";
+"add_attachment_vc_error_reading_message" = "Nem sikerült beolvasni az elem adatait.";
 
 /* This is quite a large file (%@), and could significantly affect the performance of Strongbox and slow down syncs across networks. Is there a smaller version you could use?\n\nContinue adding this attachment anyway? */
 "add_attachment_vc_large_file_message_fmt" = "This is quite a large file (%@), and could significantly affect the performance of Strongbox and slow down syncs across networks. Is there a smaller version you could use?\n\nContinue adding this attachment anyway?";
@@ -1259,10 +1259,10 @@
 "sftp_vc_warn_invalid_key_message" = "This does not look like a valid private key";
 
 /* Custom Field Name */
-"custom_field_vc_accessibility_label_name" = "Custom Field Name";
+"custom_field_vc_accessibility_label_name" = "Egyéni mező neve";
 
 /* Custom Field Value */
-"custom_field_vc_accessibility_label_value" = "Custom Field Value";
+"custom_field_vc_accessibility_label_value" = "Egyedi mezőérték";
 
 /* Custom Field Protected */
 "custom_field_vc_accessibility_label_protected" = "Custom Field Protected";
@@ -1364,7 +1364,7 @@
 "open_sequence_biometric_unlock_warn_not_configured_fmt" = "%@ has failed: %@. You must now enter your password manually to open the database.";
 
 /* Error Reading Key File */
-"open_sequence_error_reading_key_file" = "Could not read Key File. Has it been moved or deleted? Check Key Files Management in Preferences";
+"open_sequence_error_reading_key_file" = "Nem sikerült beolvasni a kulcsfájlt. Át lett helyezve, vagy le lett törölve? Jelölje be a Kulcsfájlok kezelését a beállításokban";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc, 2nd param is the date/time of the last cache) */
 "open_sequence_user_looks_offline_open_offline_instead_fmt" = "It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@";
@@ -1515,13 +1515,13 @@
 "autofill_safes_vc_storage_local_docs_name" = "Local (Documents)";
 
 /* Clear Google Drive Session */
-"cloud_sessions_clear_google" = "Clear Google Drive Session";
+"cloud_sessions_clear_google" = "Google Drive munkamenet törlése";
 
 /* Unlink Dropbox */
 "cloud_sessions_unlink_dropbox" = "Unlink Dropbox";
 
 /* Clear OneDrive Session */
-"cloud_sessions_clear_onedrive" = "Clear OneDrive Session";
+"cloud_sessions_clear_onedrive" = "OneDrive munkamenet törlése";
 
 /* Sign Out of Google Drive? */
 "cloud_sessions_prompt_signout_google_title" = "Sign Out of Google Drive?";
@@ -1818,7 +1818,7 @@
 "safes_vc_action_backups" = "Mentések";
 
 /* Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences */
-"open_sequence_error_reading_key_file_autofill_context" = "Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences";
+"open_sequence_error_reading_key_file_autofill_context" = "Nem sikerült beolvasni a kulcsfájlt. Megfelelően lett importálva? Jelölje be a Kulcsfájlok kezelését a beállításokban";
 
 /* Transfer over Wi-Fi (or LAN) */
 "sspc_local_network_storage_location" = "Transfer over Wi-Fi (or LAN)";
@@ -1905,7 +1905,7 @@
 "generic_fieldname_icon" = "Icon";
 
 /* Custom Fields */
-"generic_fieldname_custom_fields" = "Custom Fields";
+"generic_fieldname_custom_fields" = "Egyéni mezők";
 
 /* Custom Fields */
 "generic_fieldname_custom_field" = "Custom Field";
@@ -1917,7 +1917,7 @@
 "generic_fieldname_attachments" = "Mellékletek";
 
 /* Decrypting */
-"generic_decrypting" = "Decrypting";
+"generic_decrypting" = "Visszafejtés";
 
 /* Decrypting */
 "generic_unlocking_ellipsis" = "Unlocking...";
@@ -2114,7 +2114,7 @@
 "key_files_vc_option_import" = "Importálás";
 
 /* Decrypting... */
-"open_sequence_progress_decrypting" = "Decrypting...";
+"open_sequence_progress_decrypting" = "Visszafejtés...";
 
 /* No */
 "open_sequence_prompt_option_no" = "Nem";
@@ -2218,7 +2218,7 @@
 "mac_db_reloading_after_external_changes_popup_notification" = "Reloading after external changes...";
 
 /* Could Not Unlock Database */
-"mac_could_not_unlock_database" = "Could Not Unlock Database";
+"mac_could_not_unlock_database" = "Nem sikerült feloldani az adatbázist";
 
 /* Touch ID Considerations\n\nWhile this is very convenient, it is not a perfect system for protecting your passwords. It is provided for convenience only. It is within the realm of possibilities that someone with access to your device or your fingerprint, can produce a good enough fake fingerprint to fool Apple’s Touch ID. In addition, on your Mac, your master password will be securely stored in the Keychain. This means it is possible for someone with administrative privileges to search your Keychain for your master password. You should be aware that a strong passphrase held only in your mind provides the most secure experience with StrongBox.\n\nPlease take all of this into account, and make your decision to use Touch ID based on your preferred balance of convenience and security. */
 "mac_touch_id_one_time_warning" = "Touch ID/Apple Watch Considerations\n\nWhile this is very convenient, it is not a perfect system for protecting your passwords. It is provided for convenience only. It is within the realm of possibilities that someone with access to your device or your fingerprint, can produce a good enough fake fingerprint to fool Apple’s Touch ID. In addition, on your Mac, your master password will be securely stored in the Keychain. This means it is possible for someone with administrative privileges to search your Keychain for your master password. You should be aware that a strong passphrase held only in your mind provides the most secure experience with StrongBox.\n\nPlease take all of this into account, and make your decision to use Touch ID based on your preferred balance of convenience and security.";
@@ -2272,10 +2272,10 @@
 "mac_are_you_sure_delete_multiple_yes_no_fmt" = "Are you sure you want to delete %lu items?";
 
 /* Delete Items */
-"mac_menu_item_delete_items" = "Delete Items";
+"mac_menu_item_delete_items" = "Elemek törlése";
 
 /* Delete Item */
-"mac_menu_item_delete_item" = "Delete Item";
+"mac_menu_item_delete_item" = "Elem törlése";
 
 /* Choose CSV file to Import */
 "mac_choose_csv_file_import" = "Choose CSV file to Import";
@@ -2424,7 +2424,7 @@
 "mac_undo_action_set_totp" = "Set TOTP";
 
 /* Clear TOTP */
-"mac_undo_action_clear_totp" = "Clear TOTP";
+"mac_undo_action_clear_totp" = "TOTP törlése";
 
 /* Add Items */
 "mac_undo_action_add_items" = "Elemek hozzáadása";
@@ -2978,7 +2978,7 @@
 "audit_quick_summary_very_brief_no_password_set" = "No Password";
 
 /* Weak/Common - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
-"audit_quick_summary_very_brief_very_common_password" = "Common";
+"audit_quick_summary_very_brief_very_common_password" = "Általános";
 
 /* Duplicated - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
 "audit_quick_summary_very_brief_duplicated_password" = "Duplicated";
@@ -3341,7 +3341,7 @@
 "onboarding_vc_start_your_free_trial_subtitle_no_subscription" = "No Subscription Required";
 
 /* Could not bookmark this file */
-"open_sequence_error_could_not_bookmark_file" = "Could not bookmark this file";
+"open_sequence_error_could_not_bookmark_file" = "Nem lehet létrehozni könyvjelzőt";
 
 /* Invalid Database - [%@] */
 "open_sequence_invalid_database_filename_fmt" = "Érvénytelen adatbázis - [%@]";
@@ -3593,7 +3593,7 @@
 "merge_result_databases_identical" = "Identical databases.";
 
 /* Compare & Merge... */
-"generic_action_compare_and_merge_ellipsis" = "Compare & Merge...";
+"generic_action_compare_and_merge_ellipsis" = "Összehasonlítás és összevonás...";
 
 /* Merge will lead to a %0.1f%% difference. (Translators Note: 1st param is a percentage like '12.2%' (please don't edit/touch the percentage signs as it will likely cause a crash)) */
 "merge_result_will_lead_to_percentage_difference_fmt" = "Merge will lead to a %0.1f%% difference.";
@@ -3824,7 +3824,7 @@
 "safes_vc_created_local_copy_done" = "Local Copy Created.";
 
 /* Comparing... */
-"diff_progress_comparing" = "Comparing...";
+"diff_progress_comparing" = "Összehasonlítás...";
 
 /* Pro feature only. Please Upgrade. */
 "generic_pro_feature_only_please_upgrade" = "Pro feature only. Please Upgrade.";
@@ -3872,7 +3872,7 @@
 "model_error_could_not_write_local_merge" = "Technical Error - Could not write local copies for comparison/merge.";
 
 /* Cannot merge in background or without key. */
-"model_error_cannot_merge_in_background" = "Cannot merge without Master Credentials.";
+"model_error_cannot_merge_in_background" = "Fő hitelesítő adatok nélkül nem egyesíthető.";
 
 /* Are you sure you want to always Auto-Merge when you have a Sync Conflict like this? */
 "sync_are_you_sure_always_auto_merge" = "Are you sure you want to always Auto-Merge when you have a Sync Conflict like this?";
@@ -4445,7 +4445,7 @@
 "database_offline_mode_window_suffix" = "Offline";
 
 /* Destination Database */
-"export_items_select_destination_database_title" = "Destination Database";
+"export_items_select_destination_database_title" = "Cél adatbázis";
 
 /* Export Here */
 "export_items_select_destination_group_title" = "Export Here";
