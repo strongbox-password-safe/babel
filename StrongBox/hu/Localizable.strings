@@ -462,7 +462,7 @@
 "casg_key_file_select_action" = "Select...";
 
 /* You have left the password field empty. This can be interpreted in two ways. Select the interpretation you want. */
-"casg_question_message_empty_password" = "You have left the password field empty. This can be interpreted in two ways. Select the interpretation you want.";
+"casg_question_message_empty_password" = "A jelszó mezőt üresen hagyta. Ezt kétféleképpen lehet értelmezni. Válassza ki a kívánt értelmezést.";
 
 /* Empty Password */
 "casg_question_option_empty" = "Üres jelszó";
@@ -1325,7 +1325,7 @@
 "select_item_vc_title_select_one" = "Select One";
 
 /* You must select at least one item */
-"select_item_vc_message_select_one" = "You must select at least one item";
+"select_item_vc_message_select_one" = "Legalább egy elemet ki kell választania";
 
 /* Custom Default */
 "entry_defaults_vc_prompt_custom_title" = "Custom Default";
@@ -1340,7 +1340,7 @@
 "open_sequence_prompt_too_many_incorrect_pins_title" = "Too Many Incorrect PINs";
 
 /* You have entered the wrong PIN too many times. PIN Unlock is now disabled, and you must enter the master password to unlock this database. */
-"open_sequence_prompt_too_many_incorrect_pins_message" = "You have entered the wrong PIN too many times. PIN Unlock is now disabled, and you must enter the master password to unlock this database.";
+"open_sequence_prompt_too_many_incorrect_pins_message" = "Túl sokszor adta meg a rossz PIN-kódot. A PIN-feloldás most le van tiltva, és az adatbázis feloldásához meg kell adnia a mesterjelszót.";
 
 /* There was a technical error opening the database. */
 "open_sequence_duress_technical_error_message" = "There was a technical error opening the database.";
@@ -1503,7 +1503,7 @@
 "cred_vc_error_opening_title" = "Strongbox: Error Opening Database";
 
 /* You Have No Databases Yet :( */
-"autofill_safes_vc_empty_title" = "You Have No Databases Yet :(";
+"autofill_safes_vc_empty_title" = "Önnek még nincs adatbázisa :(";
 
 /* To use Strongbox for Password Autofill you need to add a database. You can do this in the Strongbox App. */
 "autofill_safes_vc_empty_subtitle" = "To use Strongbox for Password Autofill you need to add a database. You can do this in the Strongbox App.";
@@ -1533,7 +1533,7 @@
 "cloud_sessions_prompt_google_signout_success_title" = "Sign Out Successful";
 
 /* You have been successfully been signed out of Google Drive. */
-"cloud_sessions_prompt_google_signout_success_message" = "You have been successfully been signed out of Google Drive.";
+"cloud_sessions_prompt_google_signout_success_message" = "Sikeresen kijelentkezett a Google Drive-ból.";
 
 /* Unlink Dropbox? */
 "cloud_sessions_prompt_unlink_dropbox_title" = "Unlink Dropbox?";
@@ -1545,7 +1545,7 @@
 "cloud_sessions_prompt_dropbox_unlink_success_title" = "Unlink Successful";
 
 /* You have successfully unlinked Strongbox from Dropbox. */
-"cloud_sessions_prompt_dropbox_unlink_success_message" = "You have successfully unlinked Strongbox from Dropbox.";
+"cloud_sessions_prompt_dropbox_unlink_success_message" = "Sikeresen leválasztotta a Strongbox-ot a Dropboxról.";
 
 /* Sign out of OneDrive? */
 "cloud_sessions_prompt_signout_onedrive_title" = "Sign out of OneDrive?";
@@ -1557,7 +1557,7 @@
 "cloud_sessions_prompt_onedrive_signout_success_title" = "Signout Successful";
 
 /* You have successfully signed out of OneDrive. */
-"cloud_sessions_prompt_onedrive_signout_success_message" = "You have successfully signed out of OneDrive.";
+"cloud_sessions_prompt_onedrive_signout_success_message" = "Sikeresen kijelentkezett a OneDrive-ból.";
 
 /* Error Signing out of OneDrive */
 "cloud_sessions_prompt_onedrive_signout_error" = "Error Signing out of OneDrive";
@@ -1806,7 +1806,7 @@
 "backups_vc_set_max_keep_count_title" = "Set Maximum Backup Keep Count";
 
 /* You cannot use convenience unlock with a one time key file. */
-"config_error_one_time_key_file_convenience_message" = "You cannot use convenience unlock with a one time key file.";
+"config_error_one_time_key_file_convenience_message" = "A kényelmi feloldás nem használható egyszeri kulcsfájllal.";
 
 /* One Time Key File Problem */
 "config_error_one_time_key_file_convenience_title" = "One Time Key File Problem";
@@ -2224,7 +2224,7 @@
 "mac_touch_id_one_time_warning" = "Touch ID/Apple Watch Considerations\n\nWhile this is very convenient, it is not a perfect system for protecting your passwords. It is provided for convenience only. It is within the realm of possibilities that someone with access to your device or your fingerprint, can produce a good enough fake fingerprint to fool Apple’s Touch ID. In addition, on your Mac, your master password will be securely stored in the Keychain. This means it is possible for someone with administrative privileges to search your Keychain for your master password. You should be aware that a strong passphrase held only in your mind provides the most secure experience with StrongBox.\n\nPlease take all of this into account, and make your decision to use Touch ID based on your preferred balance of convenience and security.";
 
 /* You cannot lock a database while changes are pending. Save changes and lock now? */
-"mac_cant_lock_db_while_changes_pending" = "You cannot lock a database while changes are pending. Save changes and lock now?";
+"mac_cant_lock_db_while_changes_pending" = "Amíg a módosítások függőben vannak, addig nem zárolhat adatbázist. Menti a változtatásokat és zárolja most?";
 
 /* Locking... */
 "generic_locking_ellipsis" = "Locking...";
@@ -2451,7 +2451,7 @@
 "mac_save_action" = "Save";
 
 /* You must save this new database before you can use it */
-"mac_save_new_db_message" = "You must save this new database before you can use it";
+"mac_save_new_db_message" = "Az új adatbázist használat előtt el kell mentenie";
 
 /* Untitled.%@ - Translators Note: 1st Parameter is the File Extension e.g. KDBX or psafe3*/
 "mac_untitled_database_filename_fmt" = "Untitled.%@";
@@ -2490,7 +2490,7 @@
 "mac_select_key_file" = "Select a Key File";
 
 /* You must use at least one of either a password, a key file or a hardware key for your master credentials. */
-"mac_you_must_use_at_least_a_password_or_key_file" = "You must use at least one of either a password, a key file or a hardware key for your master credentials.";
+"mac_you_must_use_at_least_a_password_or_key_file" = "A fő hitelesítési adatokhoz legalább egy jelszót, kulcsfájlt vagy hardverkulcsot kell használnia.";
 
 /* Password cannot be Empty */
 "mac_password_cannot_be_empty" = "Password cannot be Empty";
@@ -2556,7 +2556,7 @@
 "mac_node_details_save_changes" = "Save Changes?";
 
 /* You have made no changes to this new entry, do you want to discard?" */
-"mac_node_details_you_made_changes_discard" = "You have made no changes to this new entry, do you want to discard?";
+"mac_node_details_you_made_changes_discard" = "Nem módosította ezt az új bejegyzést, el szeretné vetni?";
 
 /* There are unsaved changes present. Would you like to save those before exiting? */
 "mac_node_details_unsaved_changes_save" = "There are unsaved changes present. Would you like to save those before exiting?";
@@ -2577,10 +2577,10 @@
 "mac_node_details_add_custom_field" = "Egyéni mező hozzáadása";
 
 /* You cannot use that Key here as it already exists in custom fields. */
-"mac_node_details_you_cannot_use_that_key_already_exists" = "You cannot use that Key here as it already exists in custom fields.";
+"mac_node_details_you_cannot_use_that_key_already_exists" = "Itt nem használhatja ezt a kulcsot, mivel az már létezik az egyéni mezőkben.";
 
 /* You cannot use that Key here as it is reserved for standard KeePass fields. */
-"mac_node_details_you_cannot_use_key_reserved" = "You cannot use that Key here as it is reserved for standard KeePass fields.";
+"mac_node_details_you_cannot_use_key_reserved" = "Itt nem használhatja ezt a kulcsot, mivel az a szabványos KeePass mezők számára van fenntartva.";
 
 /* Are you sure you want to remove the attachment: %@? */
 "mac_node_details_are_you_sure_remove_attachment_fmt" = "Biztosan eltávolítja a következő mellékletet: '%@'?";
@@ -2837,7 +2837,7 @@
 "upgrade_short_developer_message_fmt" = "Üdvözlöm, a nevem Mark, én vagyok a Strongbox fejlesztője. Tájékoztatásul közlöm, hogy a Strongbox működik a freemium modellen, ami azt jelenti, hogy van ingyenes és Pro verziója is. Remélem, tetszeni fog Önnek a Strongbox, és a mindennapokban is hasznosnak találja majd.\n\nÉrdeklődnék, hogy fontolóra venné-e a frissítést? A frissítéssel hozzájárna egy független alkalmazásfejlesztő támogatásához, és lehetővé tenné a folyamatos fejlesztést.\n\nBiztosítaná a hozzáférést az olyan nagyszerű Pro funkciókhoz is, mint a %@, PIN kódok és faviconok! \n\nSzeretek ezen az alkalmazáson dolgozni, és az Ön támogatása lehetővé teszi, hogy ezt továbbra is megtegyem.\n\nKöszönöm,\n-Mark";
 
 /* Translators Note: 1 parameter indicating number of days left in users free trial */
-"upgrade_vc_you_have_n_days_remaining_fmt" = "You have %ld days left in your Pro trial";
+"upgrade_vc_you_have_n_days_remaining_fmt" = "Még %ld napja van a Pro próbaidőszakból";
 
 /* Your free trial of Strongbox Pro has expired. */
 "upgrade_vc_your_free_trial_expired" = "A Strongbox Pro ingyenes próbaidőszaka lejárt.";
@@ -3029,7 +3029,7 @@
 "casg_key_file_correct_title" = "Is your Key File correct?";
 
 /* You have configured this database to open with a key file but the key file you have chosen doesn't look valid.\n\nAre you sure you are using this key file?\n\nNB: A key file is not the same as your database file" */
-"casg_key_file_correct_message" = "You have configured this database to open with a key file but the key file you have chosen doesn't look valid.\n\nAre you sure you are using this key file?\n\nNB: A key file is not the same as your database file";
+"casg_key_file_correct_message" = "Úgy állította be ezt az adatbázist, hogy kulcsfájllal nyíljon meg, de a kiválasztott kulcsfájl nem tűnik érvényesnek.\n\nBiztos benne, hogy ezt a kulcsfájlt használja?\n\nMegjegyzés: A kulcsfájl nem egyezik meg az adatbázisfájllal";
 
 /* Yes, the key file is correct */
 "casg_key_file_correct_yes_key_file_correct" = "Igen, a kulcsfájl helyes";
@@ -3194,7 +3194,7 @@
 "audit_drill_down_no_excluded_items_title" = "No Excluded Items";
 
 /* You have not explicitly excluded any items from the audit. You can exclude an item by long tapping on it > Audit > Audit this Item > Toggle Off. */
-"audit_drill_down_no_excluded_items_subtitle" = "You have not explicitly excluded any items from the audit. You can exclude an item by long tapping on it > Audit > Audit this Item > Toggle Off.";
+"audit_drill_down_no_excluded_items_subtitle" = "Ön nem zárt ki kifejezetten egyetlen tételt sem az ellenőrzésből. Kizárhat egy elemet, ha hosszan megérinti a > Audit > Audit this Item > Kapcsolja ki.";
 
 /* Unexclude */
 "audit_excluded_items_vc_action_unclude" = "Unexclude";
@@ -3302,7 +3302,7 @@
 "sync_could_not_sync_your_changes" = "Strongbox could not sync your changes.";
 
 /* You must close and reopen this database for Read-Only changes to take effect. */
-"db_management_reopen_required_message" = "You must close and reopen this database for changes to take effect.";
+"db_management_reopen_required_message" = "A módosítások életbe lépéséhez be kell zárnia, majd újra meg kell nyitnia ezt az adatbázist.";
 
 /* Re-Open Required */
 "db_management_reopen_required_title" = "Re-Open Required";
@@ -3329,7 +3329,7 @@
 "autofill_add_entry_sync_required_title" = "Sync Required";
 
 /* You have added a new entry and this change has been saved locally.\n\nDon't forget to switch to the main Strongbox app to fully sync these changes to %@. - Translators Note: The 1st parameter here is the storage location, e.g. 'Dropbox' */
-"autofill_add_entry_sync_required_message_fmt" = "You have added a new entry and this change has been saved locally.\n\nDon't forget to switch to the main Strongbox app to fully sync these changes to %@.";
+"autofill_add_entry_sync_required_message_fmt" = "Új bejegyzést adott hozzá, és ezt a módosítást a rendszer elmentette helyileg.\n\nNe felejtsen el a fő Strongbox alkalmazásra váltani, hogy teljes mértékben szinkronizálja ezeket a változtatásokat a %@ alkalmazással.";
 
 /* Got it! */
 "autofill_add_entry_sync_required_option_got_it" = "Got it!";
@@ -4332,7 +4332,7 @@
 "onboarding_ready_to_launch_title" = "Ready to Launch";
 
 /* You're all set to get the best out of Strongbox.\n\nDon't forget you can always tweak these settings at any time. */
-"onboarding_ready_to_launch_message" = "You're all set to get the best out of Strongbox.\n\nDon't forget you can always tweak these settings at any time.";
+"onboarding_ready_to_launch_message" = "Minden készen áll, hogy a legjobbat hozza ki a Strongboxból.\n\nNe felejtse el, hogy ezeket a beállításokat bármikor módosíthatja.";
 
 /* Scheduled Export */
 "onboarding_scheduled_export_title" = "Scheduled Export";
@@ -4700,7 +4700,7 @@
 "read_only_unavailable_title" = "Read Only Unavailable";
 
 /* You currently have changes pending and so you cannot switch to Read Only mode. You must save or discard your current changes first. */
-"read_only_unavailable_pending_changes_message" = "You currently have changes pending and so you cannot switch to Read Only mode. You must save or discard your current changes first.";
+"read_only_unavailable_pending_changes_message" = "Jelenleg függőben lévő módosítások vannak, ezért nem tud átváltani Csak olvasható módba. Először el kell mentenie vagy el kell vetnie az aktuális módosításokat.";
 
 /* Your database is in Read Only mode and cannot be updated. */
 "warn_database_is_ro_no_update" = "Az adatbázis csak olvasható módban van, és nem frissíthető.";
