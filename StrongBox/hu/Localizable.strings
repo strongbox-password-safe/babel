@@ -138,16 +138,16 @@
 "safesvc_icloud_no_longer_available_message" = "iCloud has become unavailable. Your iCloud databases remain stored in iCloud but they will no longer sync to or from this device though you may still access them here.";
 
 /* You can now use iCloud with Strongbox. Should your current local databases be migrated to iCloud and available on all your devices? (NB: Your existing cloud databases will not be affected) */
-"safesvc_migrate_local_existing" = "You can now use iCloud with Strongbox. Should your current local databases be migrated to iCloud and available on all your devices? (NB: Your existing cloud databases will not be affected)";
+"safesvc_migrate_local_existing" = "Most már használhatja az iCloudot a Strongboxszal. A jelenlegi helyi adatbázisait át kell telepíteni az iCloudba, és minden eszközén elérhetővé kell tenni? (Megjegyzés: a meglévő felhőadatbázisait ez nem érinti)";
 
 /* You can now use iCloud with Strongbox. Should your current local databases be migrated to iCloud and available on all your devices? */
-"safesvc_migrate_local_no_existing" = "You can now use iCloud with Strongbox. Should your current local databases be migrated to iCloud and available on all your devices?";
+"safesvc_migrate_local_no_existing" = "Most már használhatja az iCloudot a Strongboxszal. A jelenlegi helyi adatbázisait át kell telepíteni az iCloudba, és minden eszközén elérhetővé kell tenni?";
 
 /* Would you like the option to use iCloud with Strongbox? (NB: Your existing cloud databases will not be affected) */
 "safesvc_use_icloud_question_existing" = "Would you like the option to use iCloud with Strongbox? (NB: Your existing cloud databases will not be affected)";
 
 /* You can now use iCloud with Strongbox. Would you like to have your databases available on all your devices? */
-"safesvc_use_icloud_question_no_existing" = "You can now use iCloud with Strongbox. Would you like to have your databases available on all your devices?";
+"safesvc_use_icloud_question_no_existing" = "Most már használhatja az iCloudot a Strongboxszal. Szeretné, hogy adatbázisai minden eszközén elérhetőek legyenek?";
 
 /* iCloud is Now Available */
 "safesvc_icloud_now_available_title" = "iCloud is Now Available";
@@ -399,7 +399,7 @@
 "browse_vc_sort_by_title_message" = "Do you want to sort all the items in this group by Title? This will set the order in which they are stored in your database.";
 
 /* You can long press, or double/triple tap to quickly copy fields... Give it a try! */
-"browse_vc_tip_fast_tap_message" = "You can long press, or double/triple tap to quickly copy fields... Give it a try!";
+"browse_vc_tip_fast_tap_message" = "A mezők gyors másolásához hosszan nyomja le vagy dupla/háromszor koppintson... Próbálja ki!";
 
 /* Fast Tap Actions */
 "browse_vc_tip_fast_tap_title" = "Fast Tap Actions";
@@ -615,7 +615,7 @@
 "item_details_setup_totp_failed_title" = "Nem sikerült beállítani a TOTP-t";
 
 /* You can setup TOTP by using a QR Code, or manually by entering the secret or an OTPAuth URL */
-"item_details_setup_totp_how_message" = "You can setup TOTP by using a QR Code, or manually by entering the secret or an OTPAuth URL";
+"item_details_setup_totp_how_message" = "A TOTP-t beállíthatja QR-kód használatával, vagy manuálisan a titkos vagy egy OTPAuth URL megadásával";
 
 /* How would you like to setup TOTP? */
 "item_details_setup_totp_how_title" = "How would you like to setup TOTP?";
@@ -747,7 +747,7 @@
 "sbtvc_invalid_database_file" = "Érvénytelen adatbázisfájl";
 
 /* You can only have databases in the Root folder for this storage type. */
-"sbtvc_root_folder_only_message" = "You can only have databases in the Root folder for this storage type.";
+"sbtvc_root_folder_only_message" = "Ehhez a tárolótípushoz csak a gyökérmappában lehetnek adatbázisok.";
 
 /* Root Folder Only */
 "sbtvc_root_folder_only_title" = "Root Folder Only";
@@ -1277,7 +1277,7 @@
 "custom_field_vc_validation_name_already_in_use_error" = "This key is already in use by another custom field.";
 
 /* You are in read-only mode. Cannot Write! */
-"model_error_readonly_cannot_write" = "You are in read-only mode. Cannot Write!";
+"model_error_readonly_cannot_write" = "Ön csak olvasható módban van. Nem lehet írni!";
 
 /* Error while scanning */
 "qr_code_vc_error_scanning_title" = "Error while scanning";
@@ -1407,19 +1407,19 @@
 "open_sequence_prompt_use_convenience_both_title_fmt" = "Convenience Unlock: Use %@ or PIN Code in Future?";
 
 /* You can use either %@ or a convenience PIN Code to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use one of these methods, please select from below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
-"open_sequence_prompt_use_convenience_both_message_fmt" = "You can use either %@ or a convenience PIN Code to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use one of these methods, please select from below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password";
+"open_sequence_prompt_use_convenience_both_message_fmt" = "Az adatbázis feloldásához használhatja a %@ vagy egy kényelmes PIN-kódot. Bár ez kényelmes, csökkentheti az adatbázis biztonságát ezen az eszközön. Ha ezen módszerek valamelyikét szeretné használni, kérjük, válasszon az alábbiak közül, vagy válassza a Nem lehetőséget, hogy továbbra is használja mesterjelszavát.\n\n*Fontos: MINDIG emlékeznie kell a mesterjelszóra";
 
 /* Convenience Unlock: Use %@ to Unlock in Future? */
 "open_sequence_prompt_use_convenience_bio_title_fmt" = "Convenience Unlock: Use %@ to Unlock in Future?";
 
 /* You can use %@ to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use this then please select it below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
-"open_sequence_prompt_use_convenience_bio_message_fmt" = "You can use %@ to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use this then please select it below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password";
+"open_sequence_prompt_use_convenience_bio_message_fmt" = "A %@ segítségével feloldhatja az adatbázis zárolását. Bár ez kényelmes, csökkentheti az adatbázis biztonságát ezen az eszközön. Ha ezt szeretné használni, kérjük, válassza ki lent, vagy válassza a Nem lehetőséget, hogy továbbra is használja fő jelszavát.\n\n*Fontos: MINDIG emlékeznie kell a mesterjelszavára";
 
 /* Convenience Unlock: Use a PIN Code to Unlock in Future? */
 "open_sequence_prompt_use_convenience_pin_title" = "Convenience Unlock: Use a PIN Code to Unlock in Future?";
 
 /* You can use a convenience PIN Code to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use this then please select it below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
-"open_sequence_prompt_use_convenience_pin_message" = "You can use a convenience PIN Code to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use this then please select it below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password";
+"open_sequence_prompt_use_convenience_pin_message" = "Az adatbázis zárolásának feloldásához egy kényelmes PIN-kódot használhat. Bár ez kényelmes, csökkentheti az adatbázis biztonságát ezen az eszközön. Ha ezt szeretné használni, kérjük, válassza ki lent, vagy válassza a Nem lehetőséget, hogy továbbra is használja mesterjelszavát.\n\n*Fontos: MINDIG emlékeznie kell a mesterjelszavára";
 
 /* \n\nNB: Convenience Unlock is a Pro feature */
 "open_sequence_append_convenience_pro_warning" = "\n\nNB: Convenience Unlock is a Pro feature";
@@ -2254,7 +2254,7 @@
 "mac_password_safe_does_not_support_attachments_icons_continue_yes_no" = "The Password Safe format does not support attachments or icons. If you continue, these fields will not be copied to this database.\nDo you want to continue without these fields?";
 
 /* You cannot create a new item here. It must be within an existing folder. */
-"mac_alert_cannot_create_item_here" = "You cannot create a new item here. It must be within an existing folder.";
+"mac_alert_cannot_create_item_here" = "Itt nem hozhat létre új elemet. Egy meglévő mappában kell lennie.";
 
 /* Please enter a Title for your new Group */
 "mac_please_enter_a_title_for_new_group" = "Please enter a Title for your new Group";
@@ -3860,7 +3860,7 @@
 "conflict_resolution_force_overwrite_title" = "Force Overwrite?";
 
 /* You can overwrite changes in either your local copy or in the remote copy. */
-"conflict_resolution_force_overwrite_message" = "You can overwrite changes in either your local copy or in the remote copy.";
+"conflict_resolution_force_overwrite_message" = "Felülírhatja a változtatásokat a helyi vagy akár a távoli másolatban.";
 
 /* Take Remote Copy, Overwrite Local */
 "conflict_resolution_force_overwrite_take_remote" = "Take Remote Copy, Overwrite Local";
@@ -4014,7 +4014,7 @@
 "third_party_storage_privacy_opt_in_title" = "Third Party Storage Privacy Opt-In";
 
 /* You are about to use a software library from Google, Microsoft or Dropbox for the first time.\n\nStrongbox does not control these organizations privacy policies (which may not be awesome).\n\nStrongbox offers these services for your convenience and it is entirely at your discretion whether you use them or not. You must Opt In to continue. */
-"third_party_storage_privacy_opt_in_message" = "You are about to use a software library from Google, Microsoft or Dropbox for the first time.\n\nStrongbox does not control these organizations privacy policies (which may not be awesome).\n\nStrongbox offers these services for your convenience and it is entirely at your discretion whether you use them or not.\n\nYou must Opt In to continue.";
+"third_party_storage_privacy_opt_in_message" = "Első alkalommal készül a Google, a Microsoft vagy a Dropbox szoftverkönyvtárának használatára.\n\nA Strongbox nem ellenőrzi ezeket a szervezetek adatvédelmi irányelveit (ami nem biztos, hogy helyes).\n\nA Strongbox az Ön kényelme érdekében kínálja ezeket a szolgáltatásokat, és teljes mértékben az Ön döntése, hogy használja-e őket vagy sem.\n\nA folytatáshoz el kell fogadnia.";
 
 /* Opt In, Let's Go... */
 "third_party_storage_privacy_option_opt_in" = "Opt In, Let's Go...";
@@ -4122,7 +4122,7 @@
 "database_properties_title_always_offline" = "Always Open Offline";
 
 /* You can choose to always open offline whenever you tap on this database. No sync will be performed on unlock, though a background sync can be performed by pulling down on your Databases List. */
-"database_properties_subtitle_always_offline" = "You can choose to always open offline whenever you tap on this database. No sync will be performed on unlock, though a background sync can be performed by pulling down on your Databases List.";
+"database_properties_subtitle_always_offline" = "Kiválaszthatja, hogy mindig offline módban nyíljon meg, amikor koppint ezen az adatbázison. A feloldáskor nem történik szinkronizálás, de a háttérben történő szinkronizálás végrehajtható az adatbázislista lehúzásával.";
 
 /* What to do if Strongbox detects you are Offline when opening a database. */
 "database_properties_subtitle_offline_detected_behaviour" = "What to do if Strongbox detects you are Offline when opening a database.";
