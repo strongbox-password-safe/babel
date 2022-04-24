@@ -2673,10 +2673,10 @@
 "mac_button_set_favicons_pro_only" = "Ikonok beállítása (Pro)";
 
 /* ⌘R to Reveal */
-"mac_button_reveal_master_password_title" = "⌘R to Reveal";
+"mac_button_reveal_master_password_title" = "⌘R Felfedés";
 
 /* ⌘R to Conceal */
-"mac_button_conceal_master_password_title" = "⌘R to Conceal";
+"mac_button_conceal_master_password_title" = "⌘R Elrejtés";
 
 /* Biometrics Database Changed */
 "open_sequence_warn_biometrics_db_changed_title" = "A biometrikus adatbázis megváltozott";
@@ -2834,7 +2834,7 @@
 "keepass_icon_set_sf_symbols" = "SF Symbols";
 
 /* Translators Note: 1 parameter here to mention Biometric unlock, which depends on the device (will be either: 'Touch ID Unlock' or 'Face ID Unlock') */
-"upgrade_short_developer_message_fmt" = "Hi, Mark here, I'm the developer of Strongbox. Just to let you know Strongbox works on the freemium model, which means there is a free and a pro version. I hope you really like Strongbox and find it useful every day.\n\nI was wondering if you would consider upgrading? By upgrading you help to support an indie app developer and make continuous improvement possible.\n\nYou also secure access to great Pro features like %@, PIN Codes & FavIcons!\n\nI love working on this app and your support allows me to keep doing so.\n\nThank you,\n-Mark";
+"upgrade_short_developer_message_fmt" = "Üdvözlöm, a nevem Mark, én vagyok a Strongbox fejlesztője. Tájékoztatásul közlöm, hogy a Strongbox működik a freemium modellen, ami azt jelenti, hogy van ingyenes és Pro verziója is. Remélem, tetszeni fog Önnek a Strongbox, és a mindennapokban is hasznosnak találja majd.\n\nÉrdeklődnék, hogy fontolóra venné-e a frissítést? A frissítéssel hozzájárna egy független alkalmazásfejlesztő támogatásához, és lehetővé tenné a folyamatos fejlesztést.\n\nBiztosítaná a hozzáférést az olyan nagyszerű Pro funkciókhoz is, mint a %@, PIN kódok és faviconok! \n\nSzeretek ezen az alkalmazáson dolgozni, és az Ön támogatása lehetővé teszi, hogy ezt továbbra is megtegyem.\n\nKöszönöm,\n-Mark";
 
 /* Translators Note: 1 parameter indicating number of days left in users free trial */
 "upgrade_vc_you_have_n_days_remaining_fmt" = "You have %ld days left in your Pro trial";
@@ -3999,7 +3999,7 @@
 "preference_allow_watch_unlock" = "Watch-val feloldás";
 
 /* Watch Unlock - (Enable in System Preferences > Security & Privacy) */
-"preference_allow_watch_unlock_system_disabled" = "Watch Unlock - (Enable in System Preferences > Security & Privacy)";
+"preference_allow_watch_unlock_system_disabled" = "Watch feloldás – (Engedélyezze a Rendszerbeállítások > Biztonság és adatvédelem alatt)";
 
 /* No Cloud Session Found */
 "cloud_sessions_prompt_no_session_found" = "No Cloud Session Found";
@@ -4266,13 +4266,13 @@
 "adversary_guess_rate_fmt" = "%@ / másodperc";
 
 /* 🚀 Sale Now On! 🚀 */
-"prompt_sale_now_on_title" = "🚀 Sale Now On! 🚀";
+"prompt_sale_now_on_title" = "🚀 Akció! 🚀";
 
 /* Hi there! Strongbox Pro is now 20% off for a very short period only.\n\nWould you like to grab it now and support Strongbox development? Go on, treat yourself! 😎 */
 "prompt_sale_now_on_message" = "Üdvözlöm!\n\nA Strongbox Pro most egy rövid ideig 20% kedvezménnyel kapható.\nSzeretné most megragadni a lehetőséget és egyuttal támogatni a Strongbox fejlesztését? Hát tegye meg! 😎";
 
 /* 🚀 20% Off Sale 🚀 Go Pro Now 🔥 */
-"safesvc_upgrade_button_sale_now_on_title" = "🚀 20% Off Sale 🚀 Go Pro Now 🔥";
+"safesvc_upgrade_button_sale_now_on_title" = "🚀 20% Akció 🚀 Váltson Pro-ra most 🔥";
 
 /* Visible in Search - L10n Note: This indicates whether this item will show up in search results. It depends on whether the user has marked any of the parent folders/groups as Search Enabled or Disabled. The value will be Yes or No. e.g. Visible in Search: Yes */
 "item_properties_search_visible_state" = "Visible in Search";
@@ -4538,7 +4538,7 @@
 "are_you_sure_use_this_file_this_database" = "Are you sure you want to use this file for this database?";
 
 /* Your private key or password is no longer available, probably because you've just migrated to a new device.\nPlease edit your connection to fix. */
-"password_unavailable_please_edit_connection_error" = "Your private key or password is no longer available, probably because you've just migrated to a new device.\nPlease edit your connection to fix.";
+"password_unavailable_please_edit_connection_error" = "Privát kulcsa vagy jelszava már nem érhető el, valószínűleg azért, mert most költözött át egy új eszközre. Kérjük, módosítsa a kapcsolatot a hiba elhárítása érdekében.";
 
 /* Password Missing */
 "password_missing" = "Password missing";
@@ -4606,13 +4606,13 @@
 "mac_choose_file_import" = "Choose file to Import";
 
 /* 🔴 Import Failed */
-"import_failed_title" = "🔴 Import Failed";
+"import_failed_title" = "🔴 Importálás sikertelen";
 
 /* Strongbox could not import this file. Please check it is in the correct format. */
 "import_failed_message" = "Strongbox could not import this file. Please check it is in the correct format.";
 
 /* ✅ Import Successful */
-"import_successful_title" = "✅ Import Successful";
+"import_successful_title" = "✅ Importálás sikeres";
 
 /* Your import was successful! Now, let's set a strong master password and save your new Strongbox database. */
 "import_successful_message" = "Your import was successful! Now, let's set a strong master password and save your new Strongbox database.";
@@ -4718,7 +4718,7 @@
 "autofill_app_preferences_only_avail_big_sur" = "AutoFill is only available on macOS Big Sur+";
 
 /* ✅ Strongbox is enabled for Password AutoFill */
-"strongbox_is_enabled_for_autofill" = "✅ Strongbox is enabled for Password AutoFill";
+"strongbox_is_enabled_for_autofill" = "✅ A Strongbox engedélyezve van a jelszó AutoFill-re";
 
 /* ⭐️ Wow ⭐️ */
 "tip_purchased_title" = "⭐️ Wow ⭐️";
@@ -4871,7 +4871,7 @@
 "main_menu_show_details_panel" = "Részletek panel megjelenítése";
 
 /* Hide Details Panel */
-"main_menu_hide_details_panel" = "Hide Details Panel";
+"main_menu_hide_details_panel" = "Részletek panel elrejtése";
 
 /* %@ (%@ / %@ bits / %@) - L10n Note: 1st Param is the strength category (weak/strong/mediocre, etc). 2nd Param is the number of characters in the password. 3rd parameter is the number of bits of entropy, with 1 decimal place, so "92.3". 4th parameter is the estimated time it will take to crack this password, so "1 million years" */
 "password_strength_summary_char_count_fmt" = "%@ (%@ / %@ bit / %@)";
