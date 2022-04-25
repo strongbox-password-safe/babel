@@ -126,7 +126,7 @@
 "safes_vc_new_database_express" = "New Database (Express)...";
 
 /* No comment provided by engineer. */
-"safes_vc_error_pin_incorrect_title" = "PIN Incorrect";
+"safes_vc_error_pin_incorrect_title" = "A PIN nem megfelelő";
 
 /* No comment provided by engineer. */
 "safes_vc_error_pin_incorrect_message" = "That is not the correct PIN code.";
@@ -585,7 +585,7 @@
 "item_details_password_copied_and_launching" = "Password Copied. Launching URL...";
 
 /* Password History */
-"item_details_password_history" = "Password History";
+"item_details_password_history" = "Jelszó előzmények";
 
 /* Problem Saving */
 "item_details_problem_saving" = "Problem Saving";
@@ -976,7 +976,7 @@
 "pins_config_vc_label_remove_database_warning" = "NB: Database file will remain on remote storage.";
 
 /* PIN Codes (Pro Feature Only) */
-"pins_config_vc_title_pro_only" = "PIN Codes (Pro Feature Only)";
+"pins_config_vc_title_pro_only" = "PIN kódok (csak Pro verzió)";
 
 /* Turning the PIN Off for this database will remove the securely stored password and you will have to enter it again. Are you sure you want to do this? */
 "pins_config_vc_turn_pin_off_warning" = "Turning the PIN Off for this database will remove the securely stored password and you will have to enter it again. Are you sure you want to do this?";
@@ -991,7 +991,7 @@
 "pins_config_vc_enter_duress_pin" = "Enter Duress PIN";
 
 /* PIN Conflict */
-"pins_config_vc_error_pin_conflict_title" = "PIN Conflict";
+"pins_config_vc_error_pin_conflict_title" = "PIN-ütközés";
 
 /* Your Convenience PIN conflicts with your Duress PIN. Please select another. */
 "pins_config_vc_error_pin_conflict_message" = "A kényelmi PIN-kód ütközik a kényszerű PIN-kóddal, vagy eltérő hosszúságú. Kérjük, válasszon másik megfelelő hosszúságot.";
@@ -1024,7 +1024,7 @@
 "key_files_vc_one_time_key_file_source_option_files" = "Fájlok...";
 
 /* Photo Library... */
-"key_files_vc_one_time_key_file_source_option_photos" = "Photo Library...";
+"key_files_vc_one_time_key_file_source_option_photos" = "Képgaléria...";
 
 /* Photo Library Unavailable */
 "key_files_vc_error_photos_unavailable_title" = "Photo Library Unavailable";
@@ -1112,7 +1112,7 @@
 "add_attachment_vc_prompt_title" = "Attachment Location";
 
 /* Photos */
-"add_attachment_vc_prompt_source_option_photos" = "Photos";
+"add_attachment_vc_prompt_source_option_photos" = "Fényképek";
 
 /* Camera */
 "add_attachment_vc_prompt_source_option_camera" = "Kamera";
@@ -1157,7 +1157,7 @@
 "add_attachment_vc_large_image_prompt_use" = "Use Large Image?";
 
 /* Original (%d x %d) %@ */
-"add_attachment_vc_large_image_prompt_option_original_size_fmt" = "Original (%d x %d) %@";
+"add_attachment_vc_large_image_prompt_option_original_size_fmt" = "Eredeti (%d x %d) %@";
 
 /* Use Anyway (%d x %d) %@ */
 "add_attachment_vc_large_image_prompt_option_use_anyway_size_fmt" = "Use Anyway (%d x %d) %@";
@@ -1431,7 +1431,7 @@
 "open_sequence_prompt_use_convenience_use_pin" = "Use a PIN Code...";
 
 /* PIN Conflict */
-"open_sequence_warn_pin_conflict_title" = "PIN Conflict";
+"open_sequence_warn_pin_conflict_title" = "PIN-ütközés";
 
 /* Your Convenience PIN conflicts with your Duress PIN. Please configure in Database Settings */
 "open_sequence_warn_pin_conflict_message" = "A kényelmi PIN-kód ütközik a kényszerű PIN-kóddal. Kérjük, állítsa be az adatbázis-beállításokban";
@@ -1758,7 +1758,7 @@
 "database_metadata_field_max_history_size" = "Maximum előzményméret";
 
 /* Outer Encryption */
-"database_metadata_field_outer_encryption" = "Outer Encryption";
+"database_metadata_field_outer_encryption" = "Külső titkosítás";
 
 /* Password Safe File Version */
 "database_metadata_field_password_safe_version" = "Password Safe File Version";
@@ -2481,7 +2481,7 @@
 "mac_click_browse_select_key_file" = "Click Browse to Select a Key File";
 
 /* Passwords don't match */
-"mac_passwords_dont_match" = "Passwords don't match";
+"mac_passwords_dont_match" = "A jelszavak nem egyeznek";
 
 /* Key File Invalid */
 "mac_key_file_invalid" = "Key File Invalid";
@@ -2924,10 +2924,10 @@
 "audit_quick_summary_no_password_set" = "No password set";
 
 /* Audit: Password is very common */
-"audit_quick_summary_very_common_password" = "Password is very common";
+"audit_quick_summary_very_common_password" = "A jelszó nagyon gyakori";
 
 /* Audit: Password is duplicated in another entry */
-"audit_quick_summary_duplicated_password" = "Password is duplicated in another entry";
+"audit_quick_summary_duplicated_password" = "A jelszó egy másik bejegyzésben megkettőződött";
 
 /* Audit: Password is similar to one in another entry. */
 "audit_quick_summary_password_is_similar_to_another" = "Password is similar to one in another entry";
@@ -2945,7 +2945,7 @@
 "audit_quick_summary_two_factor_available" = "2 Factor Authentication is available for this domain.";
 
 /* Password is weak (low entropy) */
-"audit_quick_summary_password_low_entropy" = "Password is weak (low entropy)";
+"audit_quick_summary_password_low_entropy" = "A jelszó gyenge (alacsony entrópia)";
 
 /* All Entries */
 "quick_view_title_all_entries_title" = "Minden bejegyzés";
@@ -2993,7 +2993,7 @@
 "audit_quick_summary_very_brief_password_is_pwned" = "Pwned";
 
 /* Password is too short. */
-"audit_quick_summary_password_is_too_short" = "Password is too short";
+"audit_quick_summary_password_is_too_short" = "A jelszó túl rövid";
 
 /* Found %@ issues in %@ entries - Translators note, both parameters are numbers, e.g. 24 issues found in 12 entries */
 "audit_status_fmt" = "Found %@ issues in %@ entries";
@@ -3509,7 +3509,7 @@
 "item_properties_background_color" = "Background Color";
 
 /* Override URL */
-"item_properties_override_url" = "Override URL";
+"item_properties_override_url" = "URL felülírása";
 
 /* AutoType Enabled */
 "item_properties_autotype_enabled" = "AutoType Enabled";
@@ -3572,7 +3572,7 @@
 "mac_autofill_enable_extension_message" = "To use AutoFill you must enable the Strongbox Extension in System Preferences. To do this click the 'Open System Preferences...' button below and navigate to:\n\n∙ Extensions > Password AutoFill > Check 'Strongbox'";
 
 /* Open System Preferences... */
-"mac_autofill_action_open_system_preferences" = "Open System Preferences...";
+"mac_autofill_action_open_system_preferences" = "Nyissa meg a Rendszerbeállításokat...";
 
 /* Merge... - Translators Note: Merge is a verb, "To Merge", the idea being that the user will select 2 databases to merge together... */
 "generic_action_merge_ellipsis" = "Egyesítés...";
@@ -3728,10 +3728,10 @@
 "diff_drill_down_usernames_are_different" = "Usernames are different.";
 
 /* Password will change. */
-"diff_drill_down_password_will_change" = "Password will change.";
+"diff_drill_down_password_will_change" = "A jelszó meg fog változni.";
 
 /* Password will change. */
-"diff_drill_down_passwords_are_different" = "Passwords are different.";
+"diff_drill_down_passwords_are_different" = "A jelszavak különbözőek.";
 
 /* URL will change. */
 "diff_drill_down_url_will_change" = "URL will change.";
@@ -3743,7 +3743,7 @@
 "diff_drill_down_notes_will_change" = "Notes will change.";
 
 /* Notes are different. */
-"diff_drill_down_notes_are_different" = "Notes are different.";
+"diff_drill_down_notes_are_different" = "A jegyzetek különböznek.";
 
 /* Email will change. */
 "diff_drill_down_email_will_change" = "Email will change.";
@@ -3917,16 +3917,16 @@
 "open_sequence_user_looks_offline_open_local_ro_fmt" = "It looks like you may be offline and '%@' may not be reachable. Would you like to open in offline mode instead?\n\nNB: This is read-only. You can also edit offline in the Pro version.";
 
 /* Open Offline? */
-"open_sequence_yesno_use_local_copy_title" = "Open Offline?";
+"open_sequence_yesno_use_local_copy_title" = "Offline megnyitás?";
 
 /* Yes, Open Offline */
 "open_sequence_yes_use_local_copy_option" = "Igen, nyissa meg offline";
 
 /* Open Offline */
-"open_sequence_use_local_copy_option" = "Open Offline";
+"open_sequence_use_local_copy_option" = "Offline megnyitás";
 
 /* Open Offline (Read-Only) */
-"open_sequence_use_local_copy_option_ro" = "Open Offline (Read-Only)";
+"open_sequence_use_local_copy_option_ro" = "Offline megnyitás (Csak olvasható)";
 
 /*  (Read Only) */
 "browse_vc_read_only_suffix" = " (Csak olvasható)";
@@ -4086,7 +4086,7 @@
 "autofill_search_url_matches_section_header" = "URL Matches";
 
 /* Other Matches */
-"autofill_search_other_matches_section_header" = "Other Matches";
+"autofill_search_other_matches_section_header" = "Egyéb találatok";
 
 /* Service ID */
 "autofill_search_title_service_id_section_header" = "Service ID";
@@ -4134,7 +4134,7 @@
 "offline_detected_behaviour_try_connect_anyway" = "Try to Connect";
 
 /* Open Offline (No Prompt) */
-"offline_detected_behaviour_open_offline" = "Open Offline (No Prompt)";
+"offline_detected_behaviour_open_offline" = "Offline megnyitás (Nincs igény)";
 
 /* There was a problem updating your database in the background and your assistance is required to resolve. Would you like to resolve this problem now? */
 "sync_status_user_interaction_required_prompt_yes_or_no" = "There was a problem updating your database and your assistance is required to resolve. Would you like to resolve this problem now?";
@@ -4164,7 +4164,7 @@
 "database_properties_title_could_not_connect_behaviour" = "Could Not Connect Behaviour";
 
 /* Open Online - NB: Action to open a database in Online mode, only applies to databases with 'Always Open Offline' set. */
-"safes_vc_slide_left_open_online_action" = "Open Online";
+"safes_vc_slide_left_open_online_action" = "Offline megnyitás";
 
 /* At least one of these database is open and unlocked. You must lock this database before you can remove it. */
 "mac_at_least_one_db_unlocked_cannot_remove" = "At least one of these databases is unlocked. You must lock this database before you can remove it.";
@@ -4404,7 +4404,7 @@
 "upgrade_vc_price_per_month_with_percentage_saving_fmt2" = "%@ / hónap (Megtakarítás %@%%)";
 
 /* Original (%@ x %@) %@  - (Tranlators Note: Attachment Image Size (Dimensions and File Size), e.g. 'Original: (2048x2048) 24.2 MB')  */
-"add_attachment_vc_large_image_prompt_option_original_size_fmt2" = "Original (%@ x %@) %@";
+"add_attachment_vc_large_image_prompt_option_original_size_fmt2" = "Eredeti (%@ x %@) %@";
 
 /* Use Anyway (%@ x %@) %@  - (Tranlators Note: Attachment Image Size (Dimensions and File Size), e.g. 'Use Anyway: (2048x2048) 24.2 MB')  */
 "add_attachment_vc_large_image_prompt_option_use_anyway_size_fmt2" = "Use Anyway (%@ x %@) %@";
@@ -4511,7 +4511,7 @@
 "slide_left_for_options" = "Slide left for options";
 
 /* Not used by any databases. */
-"not_used_by_any_databases" = "Not used by any databases.";
+"not_used_by_any_databases" = "Egyetlen adatbázis sem használja.";
 
 /* Used by '%@' - L10n note: 1st param is a database name e.g. 'Mark's Database' */
 "used_by_database_name_fmt" = "Used by '%@'";
@@ -4541,7 +4541,7 @@
 "password_unavailable_please_edit_connection_error" = "Privát kulcsa vagy jelszava már nem érhető el, valószínűleg azért, mert most költözött át egy új eszközre. Kérjük, módosítsa a kapcsolatot a hiba elhárítása érdekében.";
 
 /* Password Missing */
-"password_missing" = "Password missing";
+"password_missing" = "A jelszó hiányzik";
 
 /* Private Key or Password missing */
 "pk_or_password_missing" = "Private Key or Password missing";
@@ -4559,7 +4559,7 @@
 "generic_memory" = "Memória";
 
 /* Parallelism */
-"generic_parallelism" = "Parallelism";
+"generic_parallelism" = "Párhuzamosság";
 
 /* Algorithm */
 "generic_algorithm" = "Algoritmus";
@@ -4679,7 +4679,7 @@
 "generic_dont_ask_again" = "Don't Ask Again";
 
 /* Not Right Now */
-"generic_not_right_now" = "Not Right Now";
+"generic_not_right_now" = "Most nem";
 
 /* Database Upgrade */
 "kdbx4_upgrade_onboarding_issue_title" = "Adatbázis frissítés";
