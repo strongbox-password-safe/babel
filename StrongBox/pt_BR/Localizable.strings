@@ -1049,7 +1049,7 @@
 "key_files_vc_section_header_imported" = "Arquivos Chave Importados (AutoPreenchimento Ativado)";
 
 /* Application Local Files */
-"key_files_vc_section_header_local" = "Diretório de Documentos (Auto Preenchimento não suportado)";
+"key_files_vc_section_header_local" = "Diretório de Documentos (AutoPreenchimento não suportado)";
 
 /* Remove After Import */
 "key_files_vc_remove_after_import_title" = "Remover Após Importação";
@@ -1383,7 +1383,7 @@
 "open_sequence_autofill_creash_likely_title" = "Provavelmente Ocorreu Uma Falha do AutoPreenchimento";
 
 /* Your database has encryption settings that may cause iOS Password AutoFill extensions to be terminated due to excessive resource consumption. This will mean AutoFill appears not to work. Unfortunately this is an Apple imposed limit. You could consider reducing the amount of resources consumed by your encryption settings (Memory in particular with Argon2 to below 64MB). */
-"open_sequence_autofill_creash_likely_message" = "Sua base de dados é bem grande ou possui configuração de criptografia que fará com que as extensões de Preenchimento Automático de Senhas do iOS sejam encerradas devido ao consumo exagerado de recursos.\nIsso significa que o Auto Preenchimento pode parecer não funcionar. Infelizmente essa é uma limitação imposta pela Apple.\nVocê pode considerar diminuir o tamanho do seu arquivo ou alterar a quantidade de recursos consumidos (Memória em particular com o Argon2 para menos de 64MB).";
+"open_sequence_autofill_creash_likely_message" = "Sua base de dados é bem grande ou possui configuração de criptografia que fará com que as extensões de Preenchimento Automático de Senhas do iOS sejam encerradas devido ao consumo exagerado de recursos.\nIsso significa que o AutoPreenchimento pode parecer não funcionar. Infelizmente essa é uma limitação imposta pela Apple.\nVocê pode considerar diminuir o tamanho do seu arquivo ou alterar a quantidade de recursos consumidos (Memória em particular com o Argon2 para menos de 64MB).";
 
 /* No Key File */
 "key_files_vc_no_key_file" = "Nenhum Arquivo Chave";
@@ -1506,7 +1506,7 @@
 "autofill_safes_vc_empty_title" = "Você Ainda Não Tem Bases De Dados :(";
 
 /* To use Strongbox for Password Autofill you need to add a database. You can do this in the Strongbox App. */
-"autofill_safes_vc_empty_subtitle" = "Para usar o Strongbox com Auto Preenchimento você precisa adicionar uma base de dados. Você pode fazer isso no App Strongbox.";
+"autofill_safes_vc_empty_subtitle" = "Para usar o Strongbox com AutoPreenchimento você precisa adicionar uma base de dados. Você pode fazer isso no App Strongbox.";
 
 /* Local */
 "autofill_safes_vc_storage_local_name" = "Local";
@@ -1866,7 +1866,7 @@
 "prefs_vc_info_email_support_options_mail_support" = "Enviar E-mail para o Suporte (Apenas Inglês)";
 
 /* No comment provided by engineer. */
-"transfer_over_local_network_website_prologue" = "<p>Arraste&amp; solte arquivos nesta janela ou use o botão “Enviar Arquivos&hellip;” para enviar novos arquivos. Se esses arquivos forem do formato Password Safe ou KeePass eles serão adicionados à sua coleção de bases de dados.</p><p>Nota: Se quiser que estes arquivos funcionem com o Auto Preenchimento do iOS, deslize para a esquerda sobre a base de dados no App e selecione “Tornar Auto-Preenchível”.</p>";
+"transfer_over_local_network_website_prologue" = "<p>Arraste&amp; solte arquivos nesta janela ou use o botão “Enviar Arquivos&hellip;” para enviar novos arquivos. Se esses arquivos forem do formato Password Safe ou KeePass eles serão adicionados à sua coleção de bases de dados.</p><p>Nota: Se quiser que estes arquivos funcionem com o AutoPreenchimento do iOS, deslize para a esquerda sobre a base de dados no App e selecione “Tornar Auto-Preenchível”.</p>";
 
 /**********************************************************************************************************************/
 /* FUTURE: genericise... */
@@ -2772,7 +2772,7 @@
 "casg_yubikey_configured_slot2" = "Slot 2";
 
 /* Hardware Key Unlock is not supported in AutoFill mode due to system constraints. You can configure a Virtual Hardware Key instead. */
-"open_sequence_cannot_use_yubikey_in_autofill_mode" = "Desbloqueio com Chave de Hardware não é suportado no Auto Preenchimento devido a limitações do sistema. Você pode configurar uma Chave de Hardware Virtual no lugar.";
+"open_sequence_cannot_use_yubikey_in_autofill_mode" = "Desbloqueio com Chave de Hardware não é suportado no AutoPreenchimento devido a limitações do sistema. Você pode configurar uma Chave de Hardware Virtual no lugar.";
 
 /* Hardware Key Unlock is only available in the Pro edition of Strongbox */
 "open_sequence_yubikey_only_available_in_pro" = "O Desbloqueio com Chave de Hardware está disponível apenas na versão Pro do Strongbox";
@@ -2807,10 +2807,10 @@
 "casg_yubikey_configured_mfi" = "Lightning";
 
 /* AutoFill Crash Occurred */
-"autofill_did_not_close_cleanly_title" = "Houve Uma Falha no Auto Preenchimento";
+"autofill_did_not_close_cleanly_title" = "Houve Uma Falha no AutoPreenchimento";
 
 /* It looks like the last time you used AutoFill you had a crash. This is usually due to a memory limitation. Please check your database file size and your Argon2 memory settings (should be <= 64MB) */
-"autofill_did_not_close_cleanly_message" = "Parece que houve uma falha da última vez que você usou o Auto Preenchimento. Isso normalmente é causado por limitações de memória do iOS. Verifique o tamanho da base de dados e as configurações de memória Argon2 (deve ser >= 64MB)";
+"autofill_did_not_close_cleanly_message" = "Parece que houve uma falha da última vez que você usou o AutoPreenchimento. Isso normalmente é causado por limitações de memória do iOS. Verifique o tamanho da base de dados e as configurações de memória Argon2 (deve ser >= 64MB)";
 
 /* Regenerate... */
 "password_generation_regenerate_ellipsis" = "Gerar novamente...";
@@ -3236,13 +3236,13 @@
 "autofill_error_unknown_db_title" = "Strongox: Base de Dados Desconhecida";
 
 /* This appears to be a reference to an older Strongbox database which can no longer be found. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill. */
-"autofill_error_unknown_db_message" = "Essa parece ser uma referência a uma base de dados do Strongbox antiga e que não pode mais ser encontrada. A base de dados do QuickType e Auto Preenchimento do Strongbox foi limpa e você precisa reabrir sua base de dados para atualizar o QuickType e Preenchimento Automático.";
+"autofill_error_unknown_db_message" = "Essa parece ser uma referência a uma base de dados do Strongbox antiga e que não pode mais ser encontrada. A base de dados do QuickType e AutoPreenchimento do Strongbox foi limpa e você precisa reabrir sua base de dados para atualizar o QuickType e Preenchimento Automático.";
 
 /* Strongbox: Error Locating Entry */
 "autofill_error_unknown_item_title" = "Strongbox: Erro Ao Localizar Registro";
 
 /* Strongbox could not find this entry, it is possibly stale. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill. */
-"autofill_error_unknown_item_message" = "O Strongbox não encontrou este registro, é possível que esteja defasado. A base de dados do QuickType e Auto Preenchimento do Strongbox foi limpa e você vai precisar reabrir suas bases de dados para atualizar o Auto Preenchimento e QuickType.";
+"autofill_error_unknown_item_message" = "O Strongbox não encontrou este registro, é possível que esteja defasado. A base de dados do QuickType e AutoPreenchimento do Strongbox foi limpa e você vai precisar reabrir suas bases de dados para atualizar o Auto Preenchimento e QuickType.";
 
 /* Locating... */
 "generic_status_sp_locating_ellipsis" = "Localizando...";
@@ -3389,7 +3389,7 @@
 "yubikey_config_section_header_nfc_device_not_supported" = "YubiKey NFC (NFC Não É Suportado Neste Dispositivo)";
 
 /* NFC YubiKey (AutoFill Mode - NFC Unavailable) */
-"yubikey_config_section_header_nfc_autofill_unavailable" = "YubiKey NFC (NFC Indisponível No Auto Preenchimento)";
+"yubikey_config_section_header_nfc_autofill_unavailable" = "YubiKey NFC (NFC Indisponível No AutoPreenchimento)";
 
 /* Lightning YubiKey (Pro Edition Only) */
 "yubikey_config_section_header_lightning_pro_only" = "YubiKey Lightning (Apenas Versão Pro)";
@@ -3398,13 +3398,13 @@
 "yubikey_config_section_header_lightning_device_not_supported" = "YubiKey Lightning (Lightning Não Suportado Neste Dispositivo)";
 
 /* Lightning YubiKey (AutoFill Mode - Lightning Unavailable) */
-"yubikey_config_section_header_lightning_autofill_unavailable" = "YubiKey Lightning (Lightning Indisponível no Auto Preenchimento)";
+"yubikey_config_section_header_lightning_autofill_unavailable" = "YubiKey Lightning (Lightning Indisponível no AutoPreenchimento)";
 
 /* Are you sure you want to delete this Virtual Hardware Key? */
 "yubikey_config_are_you_sure_delete" = "Tem certeza que deseja remover está Chave de Hardware Virtual?";
 
 /* %@ (AutoFill Only) - Translator's note, the 1st parameter is the name of the virtual hardware key, e.g. Mark's Virtual Hardware Key - This string indicates that that key can only be used in AutoFill mode only, not regualr App mode */
-"yubikeys_virtual_autofill_only" = "%@ (Apenas Auto Preenchimento)";
+"yubikeys_virtual_autofill_only" = "%@ (Apenas AutoPreenchimento)";
 
 /* Virtual Hardware Key */
 "casg_yubikey_configured_virtual" = "Chave de Hardware Virtual";
@@ -3539,13 +3539,13 @@
 "mac_no_databases_initial_message" = "Nenhuma Base de Dados Por Aqui Ainda.\n\nClique em ‘Adiciona Base de Dados’ para começarmos...";
 
 /* No AutoFill Enabled Databases */
-"mac_no_autofill_enabled_databases_initial_message" = "Nenhuma Base de Dados com Auto Preenchimento Ativo";
+"mac_no_autofill_enabled_databases_initial_message" = "Nenhuma Base de Dados com AutoPreenchimento Ativo";
 
 /* It looks like this is your first time using AutoFill with this database.\n\nFor security reasons you must locate and select your database file for Strongbox so that the AutoFill can access it.\n\nAs a reminder your database file was last located here:\n\n%@\n\nPlease locate it now for Strongbox...  - Translator's note: The parameter is the path of the database like '/Users/mark/Desktop/my-database.kdbx' */
-"mac_autofill_first_time_locate-fmt" = "Parece que esta é a primeira vez que você usa o Auto Preenchimento com esta base de dados.\n\nPor motivos de segurança você precisa localizar e selecionar seu arquivo de base de dados para que o Auto Preenchimento possa acessá-lo.\n\nLembrete: Seu arquivo de base de dados foi visto por último aqui:\n\n%@\n\nAgora localize-o...";
+"mac_autofill_first_time_locate-fmt" = "Parece que esta é a primeira vez que você usa o AutoPreenchimento com esta base de dados.\n\nPor motivos de segurança você precisa localizar e selecionar seu arquivo de base de dados para que o AutoPreenchimento possa acessá-lo.\n\nLembrete: Seu arquivo de base de dados foi visto por último aqui:\n\n%@\n\nAgora localize-o...";
 
 /* Welcome to Strongbox AutoFill */
-"mac_welcome_to_autofill" = "Boas vindas ao Auto Preenchimento do Strongbox";
+"mac_welcome_to_autofill" = "Boas vindas ao AutoPreenchimento do Strongbox";
 
 /* Locate '%@' - Translator's note: The parameter is the filename of the database like 'my-database.kdbx' */
 "mac_autofill_locate_file_fmt" = "Localizar '%@'";
@@ -3554,7 +3554,7 @@
 "mac_autofill_pro_feature_title" = "Funcionalidade Pro";
 
 /* AutoFill is only available on the Pro edition of Strongbox. You can upgrade like this:\n\n1. Launch Strongbox\n2. Click the 'Strongbox' menu\n3. Click 'Upgrade to Pro...'.\n\nThank you! */
-"mac_autofill_pro_feature_upgrade-message" = "Auto Preenchimento está disponível apenas na versão Pro do Strongbox. Você pode fazer o upgrade assim:\n\n1. Abra o Strongbox\n2. Clique no menu ‘Strongbox’\n3. Clique em ‘Fazer Upgrade pro Pro’!";
+"mac_autofill_pro_feature_upgrade-message" = "AutoPreenchimento está disponível apenas na versão Pro do Strongbox. Você pode fazer o upgrade assim:\n\n1. Abra o Strongbox\n2. Clique no menu ‘Strongbox’\n3. Clique em ‘Fazer Upgrade pro Pro’!";
 
 /* Passcode Fallback for %@ - Translators Note: This is a preference that says that the device passcode can be used as a fallback if Face ID or Touch ID fails - the parameter is either 'Touch ID' or 'Face ID' */
 "app_lock_allow_device_passcode_fallback_for_biometric_fmt" = "Senha Reserva de %@";
@@ -3569,7 +3569,7 @@
 "mac_autofill_enable_extension_title" = "Ativar Extensão do Strongbox";
 
 /* To use AutoFill you must enable the Strongbox Extension in System Preferences. To do this click the 'Open System Preferences...' button below and navigate to:\n\n∙ Extensions > Password AutoFill > Check 'Strongbox' */
-"mac_autofill_enable_extension_message" = "Para usar o Auto Preenchimento você precisa ativar a Extensão Strongbox nas Preferências do Sistema. Para fazer isso clique no botão “Abrir Preferências do Sistema...” abaixo e navegue até:\n\n∙ Extensões > Preenchimento Automático de Senhas > Marque 'Strongbox'";
+"mac_autofill_enable_extension_message" = "Para usar o AutoPreenchimento você precisa ativar a Extensão Strongbox nas Preferências do Sistema. Para fazer isso clique no botão “Abrir Preferências do Sistema...” abaixo e navegue até:\n\n∙ Extensões > Preenchimento Automático de Senhas > Marque 'Strongbox'";
 
 /* Open System Preferences... */
 "mac_autofill_action_open_system_preferences" = "Abrir Preferências do Sistema...";
@@ -4077,7 +4077,7 @@
 "autofill_auto_unlock_try_10_minutes" = "Prefiro 10 minutos";
 
 /* AutoFill Quick Launch */
-"databases_toggle_autofill_quick_launch_context_menu" = "Início Rápido Para Auto Preenchimento";
+"databases_toggle_autofill_quick_launch_context_menu" = "Início Rápido Para AutoPreenchimento";
 
 /* Title Matches */
 "autofill_search_title_matches_section_header" = "Título Corresponde";
@@ -4092,7 +4092,7 @@
 "autofill_search_title_service_id_section_header" = "ID de Serviço";
 
 /* The Service ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Service ID. */
-"autofill_search_service_id_section_footer" = "O ID de Serviço é um identificador enviado ao Strongbox pelo Auto Preenchimento. Ele pode ajudar na busca se você definir a URL do seu registro para corresponder ao ID de Serviço. Toque para Copiar.";
+"autofill_search_service_id_section_footer" = "O ID de Serviço é um identificador enviado ao Strongbox pelo AutoPreenchimento. Ele pode ajudar na busca se você definir a URL do seu registro para corresponder ao ID de Serviço. Toque para Copiar.";
 
 /* Results */
 "quick_view_title_no_matches_title" = "Resultados";
@@ -4664,16 +4664,16 @@
 "mac_hardware_key_selected_but_has_been_disconnected" = "⚠️ Chave Selecionada (Desconectada)";
 
 /* AutoFill Issue */
-"autofill_argon2_onboarding_issue_title" = "Problema no Auto Preenchimento";
+"autofill_argon2_onboarding_issue_title" = "Problema no AutoPreenchimento";
 
 /* Your database has a very high Argon2 memory setting that will cause it to crash when used in AutoFill mode.\n\nWould you like Strongbox to automatically adjust this so that you can safely use AutoFill? */
-"autofill_argon2_onboarding_issue_message" = "Sua base de dados usa uma configuração de memória muito alta do Argon2 que fará com que ela trave quando usada no modo de Auto Preenchimento.\n\nGostaria que o Strongbox ajustasse isso automaticamente para que você possa usar o Auto Preenchimento com segurança?";
+"autofill_argon2_onboarding_issue_message" = "Sua base de dados usa uma configuração de memória muito alta do Argon2 que fará com que ela trave quando usada no modo de AutoPreenchimento.\n\nGostaria que o Strongbox ajustasse isso automaticamente para que você possa usar o AutoPreenchimento com segurança?";
 
 /* Yes, Great Idea! */
 "generic_yes_great_idea_bang" = "Sim, ótima ideia!";
 
 /* No, I don't use AutoFill */
-"autofill_argon2_onboarding_no_use_autofill" = "Não, eu não uso o Auto Preenchimento";
+"autofill_argon2_onboarding_no_use_autofill" = "Não, eu não uso o AutoPreenchimento";
 
 /* Dont't Ask Again */
 "generic_dont_ask_again" = "Não Pergunte Novamente";
@@ -4715,10 +4715,10 @@
 "mac_password_gen_enter_new_separator" = "Por favor insira um novo Separador de Palavras";
 
 /* AutoFill is only available on macOS Big Sur+ */
-"autofill_app_preferences_only_avail_big_sur" = "Auto Preenchimento disponível apenas no macOS Big Sur ou superior";
+"autofill_app_preferences_only_avail_big_sur" = "AutoPreenchimento disponível apenas no macOS Big Sur ou superior";
 
 /* ✅ Strongbox is enabled for Password AutoFill */
-"strongbox_is_enabled_for_autofill" = "✅ Strongbox está ativo para Auto Preenchimento de Senhas";
+"strongbox_is_enabled_for_autofill" = "✅ Strongbox está ativo para AutoPreenchimento de Senhas";
 
 /* ⭐️ Wow ⭐️ */
 "tip_purchased_title" = "⭐️ Uau! ⭐️";
