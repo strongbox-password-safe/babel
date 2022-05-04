@@ -1383,7 +1383,7 @@
 "open_sequence_autofill_creash_likely_title" = "自动填充似乎崩溃";
 
 /* Your database has encryption settings that may cause iOS Password AutoFill extensions to be terminated due to excessive resource consumption. This will mean AutoFill appears not to work. Unfortunately this is an Apple imposed limit. You could consider reducing the amount of resources consumed by your encryption settings (Memory in particular with Argon2 to below 64MB). */
-"open_sequence_autofill_creash_likely_message" = "您的数据库过于庞大，或因其加密设置，可能会使资源消耗过度，导致 iOS 密码自动填充扩展被终止。\n这意味着自动填充可能无法使用。很不幸，这是一个 Apple 硬性的系统限制。\n您可以考虑减小文件大小或更改消耗的资源量 (尤其是 Argon2 的占用内存应小于 64 MB) 。";
+"open_sequence_autofill_creash_likely_message" = "您的数据库过于庞大，或因其加密设置，可能会使资源消耗过度，导致 iOS 密码自动填充扩展终止。\n这意味着自动填充可能无法使用。很不幸，这是一个 Apple 硬性的系统限制。\n您可以考虑减小文件大小或更改消耗的资源量（尤其是 Argon2 的占用内存应小于 64 MB）。";
 
 /* No Key File */
 "key_files_vc_no_key_file" = "无密钥文件";
@@ -2724,10 +2724,10 @@
 "mac_convenience_summary_keychain_and_will_not_expire" = "便捷密码已安全存储在钥匙串中 (安全隔区在此设备上不可用)，并且设定为不过期。";
 
 /* Convenience Password is securely stored (in memory only) encrypted by your device's Secure Enclave and will expire on Strongbox Exit. */
-"mac_convenience_summary_secure_enclave_and_will_expire_on_exit" = "便捷密码已安全存储 (仅在内存中) 由设备的安全隔区加密，并将在退出 Strongbox 时过期。";
+"mac_convenience_summary_secure_enclave_and_will_expire_on_exit" = "便捷密码已安全存储（仅在内存中），由设备的安全隔区加密，并将在退出 Strongbox 时过期。";
 
 /* Convenience Password is securely stored (in memory only) only and will expire on Strongbox Exit. */
-"mac_convenience_summary_keychain_and_will_expire_on_exit" = "便捷密码已安全存储(仅在内存中)，并且将在退出 Strongbox 时过期。";
+"mac_convenience_summary_keychain_and_will_expire_on_exit" = "便捷密码已安全存储（仅在内存中），并将在退出 Strongbox 时过期。";
 
 /* Convenience Unlock is Enabled but the securely stored master password has expired. */
 "mac_convenience_summary_enabled_but_expired" = "便捷解锁已启用，但安全存储的主密码已过期。";
@@ -4068,7 +4068,7 @@
 "autofill_auto_unlock_title" = "自动解锁功能";
 
 /* Auto Unlock lets you avoid having to repeatedly unlock your database for a configurable time period. Would you like to use this handy feature?\n\nNB: Your password is stored in the Secure Enclave for this feature. */
-"autofill_auto_unlock_message" = "通过 “自动解锁” ，您可以避免在可选的时间段内重复解锁数据库。您要使用此便捷功能吗？\n\nNB: 您的密码存储在安全隔区中。";
+"autofill_auto_unlock_message" = "通过 “自动解锁” ，您可以避免在可选的时间段内重复解锁数据库。您要使用此便捷功能吗？\n\n注意：您的密码存储在安全隔区中。";
 
 /* Great, let try 3 mins */
 "autofill_auto_unlock_try_3_minutes" = "很好，请尝试 3 分钟";
