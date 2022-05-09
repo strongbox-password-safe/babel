@@ -3257,88 +3257,88 @@
 "backup_settings_prompt_title" = "Ustawienia kopii zapasowych";
 
 /* Yes, the defaults sound good */
-"backup_settings_prompt_option_yes_looks_good" = "Yes, sounds good";
+"backup_settings_prompt_option_yes_looks_good" = "Tak";
 
 /* Yes, but also backup Key Files */
-"backup_settings_prompt_yes_but_include_key_files" = "Yes, but also backup Key Files";
+"backup_settings_prompt_yes_but_include_key_files" = "Tak, ale uwzględnij pliki-klucze";
 
 /* No, do NOT backup anything */
-"backup_settings_prompt_no_dont_backup_anything" = "No, do not include anything";
+"backup_settings_prompt_no_dont_backup_anything" = "Nie, nie uwzględniaj niczego";
 
 /* View Sync Status */
 "safes_vc_action_view_sync_status" = "Wyświetl dziennik synchronizacji";
 
 /* Please send this crash report to support@strongboxsafe.com */
-"safes_vc_please_send_crash_report" = "Please send this crash report to support@strongboxsafe.com";
+"safes_vc_please_send_crash_report" = "Wyślij ten raport awarii na support@strongboxsafe.com";
 
 /* In Progress */
-"generic_in_progress" = "In Progress";
+"generic_in_progress" = "W trakcie";
 
 /* Initial */
-"generic_initial_state" = "Initial";
+"generic_initial_state" = "Początkowe";
 
 /* %@ - Sync No. %@ (Translators Note: 1st Parameter is the Date/Time of the Sync e.g. 'Today, 4:42PM', The second parameter is a sequence number like 1, 2, 42 etc. This is the number of times this database has been synced in this session */
-"sync_log_sync_header_fmt" = "%@ - Sync No. %@";
+"sync_log_sync_header_fmt" = "%@ - Synchronizacja Nr. %@";
 
 /* User Interaction Required */
-"sync_status_user_interaction_required_title" = "User Interaction Required";
+"sync_status_user_interaction_required_title" = "Wymagane działanie użytkownika";
 
 /* User Cancelled */
-"sync_status_user_interaction_cancelled" = "User Cancelled";
+"sync_status_user_interaction_cancelled" = "Anulowane przez użytkownika";
 
 /* Use Mine/Local (%@) - Translators Note: The first parameter is the modified date of the local copy e.g. "Today, 14:22" */
-"sync_conflict_option_use_mine_fmt" = "Use Mine/Local (%@)";
+"sync_conflict_option_use_mine_fmt" = "Użyj lokalnej (%@)";
 
 /* Use Theirs/Remote (%@) - Translators Note: The first parameter is the modified date of the remote copy e.g. "September 1st, 14:22" */
-"sync_conflict_option_use_theirs_fmt" = "Use Theirs/Remote (%@)";
+"sync_conflict_option_use_theirs_fmt" = "Użyj zdalnej (%@)";
 
 /* Sync Conflict */
-"sync_conflict_title" = "Sync Conflict";
+"sync_conflict_title" = "Konflikt synchronizacji";
 
 /* It looks like the remote version of this database on '%@' has changed and so has the local version you've been working on. Which version would you like to use?  - Translators Note: The first parameter is the name of the remote storage provider e.g. "Dropbox" */
-"sync_conflict_message_fmt" = "It looks like the remote version of this database on '%@' has changed and so has the local version you've been working on. Which version would you like to use?";
+"sync_conflict_message_fmt" = "Wygląda na to, że zdalna wersja tej bazy danych w '%@' oraz wersja lokalna, uległy zmianie. Której wersji chcesz użyć?";
 
 /* Strongbox could not sync your changes. */
-"sync_could_not_sync_your_changes" = "Strongbox could not sync your changes.";
+"sync_could_not_sync_your_changes" = "Strongbox nie mógł zsynchronizować Twoich zmian.";
 
 /* You must close and reopen this database for Read-Only changes to take effect. */
-"db_management_reopen_required_message" = "You must close and reopen this database for changes to take effect.";
+"db_management_reopen_required_message" = "Musisz zamknąć i ponownie otworzyć tę bazę danych, aby zmiany zostały zastosowane.";
 
 /* Re-Open Required */
-"db_management_reopen_required_title" = "Re-Open Required";
+"db_management_reopen_required_title" = "Wymagane ponowne otwarcie";
 
 /* Could Not Open Local Copy */
-"open_sequence_couldnt_open_local_title" = "Could Not Open Offline";
+"open_sequence_couldnt_open_local_title" = "Nie można otworzyć w trybie offline";
 
 /* Could not open Strongbox's local copy of this database. A online sync is required. */
-"open_sequence_couldnt_open_local_message" = "Could not open Strongbox's local copy of this database. A online sync is required.";
+"open_sequence_couldnt_open_local_message" = "Nie można otworzyć lokalnej kopii tej bazy danych. Wymagana jest synchronizacja online.";
 
 /* Sync Error */
-"open_sequence_storage_provider_error_title" = "Sync Error";
+"open_sequence_storage_provider_error_title" = "Błąd synchronizacji";
 
 /* If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open in offline mode instead? */
-"open_sequence_storage_provider_error_open_local_ro_instead" = "If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open in offline mode instead?";
+"open_sequence_storage_provider_error_open_local_ro_instead" = "Jeśli ten problem się powtórzy, powinieneś spróbować ponownie dodać tę bazę danych. Sprawdź dziennik synchronizacji, aby dowiedzieć się więcej...\n\nCzy zamiast tego chcesz otworzyć w trybie offline?";
 
 /* Local Copy Unavailable */
-"autofill_vc_item_subtitle_local_copy_unavailable" = "Local Copy Unavailable";
+"autofill_vc_item_subtitle_local_copy_unavailable" = "Lokalna kopia niedostępna";
 
 /* AutoFill Disabled */
-"autofill_vc_item_subtitle_disabled" = "Automatyczne wypełnianie wyłączone";
+"autofill_vc_item_subtitle_disabled" = "Auto Fill Disabled";
 
 /* Sync Required */
-"autofill_add_entry_sync_required_title" = "Sync Required";
+"autofill_add_entry_sync_required_title" = "Wymagana synchronizacja";
 
 /* You have added a new entry and this change has been saved locally.\n\nDon't forget to switch to the main Strongbox app to fully sync these changes to %@. - Translators Note: The 1st parameter here is the storage location, e.g. 'Dropbox' */
-"autofill_add_entry_sync_required_message_fmt" = "You have added a new entry and this change has been saved locally.\n\nDon't forget to switch to the main Strongbox app to fully sync these changes to %@.";
+"autofill_add_entry_sync_required_message_fmt" = "Dodałeś nowy wpis, który został zapisany lokalnie.\n\nNie zapomnij otworzyć aplikacji Strongbox, aby zsynchronizować zmiany z %@.";
 
 /* Got it! */
-"autofill_add_entry_sync_required_option_got_it" = "Got it!";
+"autofill_add_entry_sync_required_option_got_it" = "Rozumiem!";
 
 /* Don't tell me again */
-"autofill_add_entry_sync_required_option_dont_tell_again" = "Don't tell me again";
+"autofill_add_entry_sync_required_option_dont_tell_again" = "Nie przypominaj ponownie";
 
 /* No Subscription Required */
-"onboarding_vc_start_your_free_trial_subtitle_no_subscription" = "No Subscription Required";
+"onboarding_vc_start_your_free_trial_subtitle_no_subscription" = "Subskrypcja nie jest wymagana";
 
 /* Could not bookmark this file */
 "open_sequence_error_could_not_bookmark_file" = "Nie można oznaczyć tego pliku";
@@ -3347,79 +3347,79 @@
 "open_sequence_invalid_database_filename_fmt" = "Nieprawidłowa baza danych - [%@]";
 
 /* Different Filename */
-"open_sequence_database_different_filename_title" = "Different Filename";
+"open_sequence_database_different_filename_title" = "Inna nazwa pliku";
 
 /* This doesn't look like it's the right file because the filename looks different than the one you originally added. Do you want to continue?" */
-"open_sequence_database_different_filename_message" = "This doesn't look like it's the right file because the filename looks different than the one you originally added. Do you want to continue?";
+"open_sequence_database_different_filename_message" = "Ten plik nie wygląda na prawidłowy, ponieważ jego nazwa jest inna. Czy chcesz kontynuować?";
 
 /* Relocate Database */
-"open_sequence_storage_provider_try_relocate_files_db" = "Locate Database...";
+"open_sequence_storage_provider_try_relocate_files_db" = "Znajdź bazę danych...";
 
 /* Strongbox is having trouble locating your database. This can happen sometimes especially after iOS updates or with some 3rd party providers (e.g.Nextcloud).\n\nYou now need to tell Strongbox where to locate it. Alternatively you can open Strongbox's local copy and fix this later.\n\nFor Nextcloud please use WebDAV instead... */
-"open_sequence_storage_provider_try_relocate_files_db_message" = "Strongbox is having trouble locating your database. This can happen sometimes especially after iOS updates or with some 3rd party providers (e.g.Nextcloud).\n\nYou now need to tell Strongbox where to locate it. Alternatively you can open Strongbox's local copy and fix this later.\n\nFor Nextcloud please use WebDAV instead...";
+"open_sequence_storage_provider_try_relocate_files_db_message" = "Strongbox ma problemy ze znalezieniem bazy danych. Może się to zdarzyć, zwłaszcza po aktualizacjach systemu iOS, lub u niektórych dostawców zewnętrznych (np. Nextcloud).\n\nNależy teraz ponownie wskazać lokalizację pliku dla Strongbox. Możesz równierz otworzyć lokalną kopię bazy danych, i zajac się tym później.\n\nZamiast Nextcloud warto użyć WebDAV...";
 
 /* View Error Details */
-"open_sequence_storage_provider_view_sync_error_details" = "View Error Details";
+"open_sequence_storage_provider_view_sync_error_details" = "Zobacz szczegóły błędu";
 
 /* Use Local (Read-Only) */
-"open_sequence_use_local_copy_option" = "Use Local (Read-Only)";
+"open_sequence_use_local_copy_option" = "Użyj lokalnego (tylko do odczytu)";
 
 /* Delete (Translators Note: Verb - To Delete an item) */
 "generic_action_delete" = "Usuń";
 
 /* Are you sure the URL is correct? It should be a path to a parent folder. Not the database file. */
-"webdav_vc_validation_url_are_you_sure" = "Are you sure the URL is correct? It should be a URL to a parent folder. Not the database file.";
+"webdav_vc_validation_url_are_you_sure" = "Czy na pewno adres URL jest poprawny? Powinien to być adres URL do folderu nadrzędnego. Nie plik bazy danych.";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Are you sure the path is correct? It should be a path to a parent folder. Not the database file.";
+"sftp_path_are_you_sure" = "Czy na pewno ścieżka jest poprawna? Powinna to być ścieżka do folderu nadrzędnego. Nie plik bazy danych.";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Are you sure the path is correct? It should be a path to a parent folder. Not the database file.";
+"sftp_path_are_you_sure" = "Czy na pewno ścieżka jest poprawna? Powinna to być ścieżka do folderu nadrzędnego. Nie plik bazy danych.";
 
 /* Path may be Invalid */
-"sftp_path_may_be_invalid" = "Path May Be Invalid";
+"sftp_path_may_be_invalid" = "Ścieżka może być nieprawidłowa";
 
 /* URL May Be Invalid */
-"webdav_vc_validation_url_maybe_invalid" = "URL May Be Invalid";
+"webdav_vc_validation_url_maybe_invalid" = "Adres URL może być nieprawidłowy";
 
 /* NFC YubiKey (Pro Edition Only) */
-"yubikey_config_section_header_nfc_pro_only" = "NFC YubiKey (Pro Edition Only)";
+"yubikey_config_section_header_nfc_pro_only" = "YubiKey NFC (Tylko Wersja Pro)";
 
 /* NFC YubiKey (NFC Not Supported on Device) */
-"yubikey_config_section_header_nfc_device_not_supported" = "NFC YubiKey (NFC Not Supported on Device)";
+"yubikey_config_section_header_nfc_device_not_supported" = "YubiKey NFC (NFC nie jest obsługiwane na tym urządzeniu)";
 
 /* NFC YubiKey (AutoFill Mode - NFC Unavailable) */
-"yubikey_config_section_header_nfc_autofill_unavailable" = "NFC YubiKey (NFC Unavailable in AutoFill)";
+"yubikey_config_section_header_nfc_autofill_unavailable" = "YubiKey NFC (NFC niedostępne w AutoUzupełnianiul)";
 
 /* Lightning YubiKey (Pro Edition Only) */
-"yubikey_config_section_header_lightning_pro_only" = "Lightning YubiKey (Pro Edition Only)";
+"yubikey_config_section_header_lightning_pro_only" = "YubiKey Lightning (Tylko Wersja Pro)";
 
 /* Lightning YubiKey (Lightning Not Supported on Device) */
-"yubikey_config_section_header_lightning_device_not_supported" = "Lightning YubiKey (Lightning Not Supported on Device)";
+"yubikey_config_section_header_lightning_device_not_supported" = "YubiKey Lightning (Lightning nie jest obsługiwane na tym urządzeniu)";
 
 /* Lightning YubiKey (AutoFill Mode - Lightning Unavailable) */
-"yubikey_config_section_header_lightning_autofill_unavailable" = "Lightning YubiKey (Lightning Unavailable in AutoFill)";
+"yubikey_config_section_header_lightning_autofill_unavailable" = "YubiKey Lightning (niedostępne w AutoUzupełnianiu)";
 
 /* Are you sure you want to delete this Virtual Hardware Key? */
-"yubikey_config_are_you_sure_delete" = "Are you sure you want to delete this Virtual Hardware Key?";
+"yubikey_config_are_you_sure_delete" = "Czy na pewno chcesz usunąć ten wirtualny klucz sprzętowy?";
 
 /* %@ (AutoFill Only) - Translator's note, the 1st parameter is the name of the virtual hardware key, e.g. Mark's Virtual Hardware Key - This string indicates that that key can only be used in AutoFill mode only, not regualr App mode */
-"yubikeys_virtual_autofill_only" = "%@ (AutoFill Only)";
+"yubikeys_virtual_autofill_only" = "%@ (Tylko automatyczne wypełnianie)";
 
 /* Virtual Hardware Key */
-"casg_yubikey_configured_virtual" = "Virtual Hardware Key";
+"casg_yubikey_configured_virtual" = "Wirtualny Klucz Sprzętowy";
 
 /* Manual Unlock - Translators Note: This is an option available to users of Face/Touch ID or PIN Code Unlock - Instead of using these convenience unlock methods, display the manual entry standard unlock screen to enter Master Password manually */
-"safes_vc_unlock_manual_action" = "Manual Unlock";
+"safes_vc_unlock_manual_action" = "Odblokuj ręcznie";
 
 /* TIP: Tap and hold item to see options - Translators Note: Hint or Tip text usually displayed at the top of the screen, to indicate the user can or should tap and hold down to see a useful context menu with options they can perform on the items they are currently working with. */
-"hint_tap_and_hold_to_see_options" = "Tip: Tap and hold to see options";
+"hint_tap_and_hold_to_see_options" = "Wskazówka: Dotknij i przytrzymaj, aby zobaczyć opcje";
 
 /* Launch URL & Copy */
 "browse_action_launch_url_copy_password" = "Uruchom adres URL i skopiuj hasło";
 
 /* Copy Other Field... */
-"browse_context_menu_copy_other_field" = "Copy Field...";
+"browse_context_menu_copy_other_field" = "Kopiuj pole...";
 
 /* Move - Translators Note: Verb - To move something e.g. an entry or group somewhere else in the hierarchy */
 "generic_move" = "Przenieś";
@@ -3428,7 +3428,7 @@
 "browse_context_menu_new_entry" = "Nowy wpis";
 
 /* New Group Translators Note: Menu option to add a new group */
-"browse_context_menu_new_group" = "New Group";
+"browse_context_menu_new_group" = "Nowa grupa";
 
 /* Select Translators Note: Verb to select an item in Browse view - it will have a select beside it */
 "generic_select" = "Wybierz";
@@ -3437,7 +3437,7 @@
 "browse_context_menu_start_with_search" = "Zacznij od wyszukiwania";
 
 /* Sort - Translators Note: Verb - to sort items by title or other field */
-"generic_sort" = "Sort";
+"generic_sort" = "Sortuj";
 
 /* Customize View */
 "browse_context_menu_customize_view" = "Dostosuj widok";
@@ -3449,13 +3449,13 @@
 "browse_context_menu_set_master_credentials" = "Ustaw dane logowania";
 
 /* Show Password - Translators Note: On Browse screen - context menu item - This option will display the password in a large full screen font for easy reading with a QR Code */
-"browse_context_menu_show_password" = "Show Password";
+"browse_context_menu_show_password" = "Pokaż hasło";
 
 /* Read Only */
 "databases_toggle_read_only_context_menu" = "Tylko do odczytu";
 
 /* Quick Launch */
-"databases_toggle_quick_launch_context_menu" = "Quick Launch";
+"databases_toggle_quick_launch_context_menu" = "Szybkie uruchamianie";
 
 /* Properties */
 "browse_vc_action_properties" = "Właściwości";
@@ -3464,211 +3464,211 @@
 "browse_vc_action_keyboard_shortcut_find" = "Znajdź";
 
 /* Custom Data */
-"properties_vc_header_custom_data" = "Custom Data";
+"properties_vc_header_custom_data" = "Niestandardowe dane";
 
 /* Custom Data used by plugins and various other applications. */
-"properties_vc_footer_custom_data" = "Custom Data used by plugins and various other applications.";
+"properties_vc_footer_custom_data" = "Dane niestandardowe używane przez wtyczki i różne inne aplikacje.";
 
 /* Properties */
 "properties_vc_header_basic" = "Właściwości";
 
 /* Some simple properties and settings of this item. */
-"properties_vc_footer_basic" = "Some simple properties and settings of this item.";
+"properties_vc_footer_basic" = "Niektóre proste właściwości i ustawienia tego elementu.";
 
 /* Group Notes */
-"properties_vc_header_group_notes" = "Group Notes";
+"properties_vc_header_group_notes" = "Notatki grupowe";
 
 /* Notes set on this group. */
-"properties_vc_footer_group_notes" = "Notes set on this group.";
+"properties_vc_footer_group_notes" = "Notatki ustawione dla tej grupy.";
 
 /* Dates */
-"properties_vc_header_dates" = "Dates";
+"properties_vc_header_dates" = "Daty";
 
 /* Allow Search */
-"item_properties_allow_search" = "Allow Search";
+"item_properties_allow_search" = "Zezwól na wyszukiwanie";
 
 /* Allow AutoType */
-"item_properties_allow_autotype" = "Allow AutoType";
+"item_properties_allow_autotype" = "Zezwalaj na użycie AutoType";
 
 /* Default Auto Type Sequence */
-"item_properties_default_autotype_sequence" = "Default Auto Type Sequence";
+"item_properties_default_autotype_sequence" = "Domyślna sekwencja AutoType";
 
 /* Last Top Visible Entry */
-"item_properties_last_top_visible_entry" = "Last Top Visible Entry";
+"item_properties_last_top_visible_entry" = "Ostatni widoczny wpis";
 
 /* Inherited from Parent */
-"generic_setting_is_inherited_from_parent" = "Inherited from Parent";
+"generic_setting_is_inherited_from_parent" = "Dziedzicz z grupy nadrzędnej";
 
 /* Copy & Launch */
-"browse_prefs_tap_action_copy_and_launch" = "Copy & Launch";
+"browse_prefs_tap_action_copy_and_launch" = "Kopiuj i otwórz";
 
 /* Foreground Color */
-"item_properties_foreground_color" = "Foreground Color";
+"item_properties_foreground_color" = "Główny kolor";
 
 /* Background Color */
-"item_properties_background_color" = "Background Color";
+"item_properties_background_color" = "Kolor tła";
 
 /* Override URL */
-"item_properties_override_url" = "Override URL";
+"item_properties_override_url" = "Nadpisz adres URL";
 
 /* AutoType Enabled */
-"item_properties_autotype_enabled" = "AutoType Enabled";
+"item_properties_autotype_enabled" = "AutoType włączone";
 
 /* AutoType Obfuscation */
-"item_properties_autotype_obfuscation" = "AutoType Obfuscation";
+"item_properties_autotype_obfuscation" = "Maskowanie AutoType";
 
 /* Target Window: [%@] - Translators Note: 1st param is a window title used by the AutoType feature in Windows KeePass to locate or match on a particular window before performing a specific AutoType sequence */
-"item_properties_target_window_fmt" = "Target Window: [%@]";
+"item_properties_target_window_fmt" = "Okno docelowe: [%@]";
 
 /* Statistics */
-"properties_vc_header_statistics" = "Statistics";
+"properties_vc_header_statistics" = "Statystyki";
 
 /* Database KeePass XML Copied to Clipboard */
-"export_vc_message_xml_copied" = "Database KeePass XML Copied to Clipboard";
+"export_vc_message_xml_copied" = "Baza danych KeePass XML skopiowana do schowka";
 
 /* Latin-1 Supplement */
 "pwgen_casing_latin1_supplement" = "Latin-1 Supplement";
 
 /* Are you sure you want to remove this database from Strongbox?\n\nNB: The underlying database file will not be deleted. Just Strongbox's settings for this database. */
-"are_you_sure_delete_database_single" = "Are you sure you want to remove this database from Strongbox?\n\nNB: The underlying database file will not be deleted. Just Strongbox's settings for this database.";
+"are_you_sure_delete_database_single" = "Czy na pewno chcesz usunąć tę bazę danych ze Strongbox?\n\nPlik bazy danych nie zostanie usunięty, a jedynie ustawienia w Strongbox.";
 
 /* Are you sure you want to remove these databases from Strongbox?\n\nNB: The underlying database files will not be deleted. Just Strongbox's settings for these databases. */
-"are_you_sure_delete_database_multiple" = "Are you sure you want to remove these databases from Strongbox?\n\nNB: The underlying database files will not be deleted. Just Strongbox's settings for these databases.";
+"are_you_sure_delete_database_multiple" = "Czy na pewno chcesz usunąć te bazy danych ze Strongbox?\n\nPlik bazy danych nie zostanie usunięty, a jedynie ustawienia w Strongbox.";
 
 /* No Databases Here Yet.\n\nClick 'Add Database...' below to get started... */
-"mac_no_databases_initial_message" = "No Databases Here Yet.\n\nClick 'Add Database...' below to get started...";
+"mac_no_databases_initial_message" = "Tutaj nic jeszcze nie ma.\n\nWybierz 'Dodaj bazę danych...' aby rozpocząć...";
 
 /* No AutoFill Enabled Databases */
-"mac_no_autofill_enabled_databases_initial_message" = "No AutoFill Enabled Databases";
+"mac_no_autofill_enabled_databases_initial_message" = "Brak baz danych z włączonym Automatycznym Wypełnianiem";
 
 /* It looks like this is your first time using AutoFill with this database.\n\nFor security reasons you must locate and select your database file for Strongbox so that the AutoFill can access it.\n\nAs a reminder your database file was last located here:\n\n%@\n\nPlease locate it now for Strongbox...  - Translator's note: The parameter is the path of the database like '/Users/mark/Desktop/my-database.kdbx' */
-"mac_autofill_first_time_locate-fmt" = "It looks like this is your first time using AutoFill with this database.\n\nFor security reasons you must locate and select your database file for Strongbox so that the AutoFill can access it.\n\nAs a reminder your database file was last located here:\n\n%@\n\nPlease locate it now for Strongbox...";
+"mac_autofill_first_time_locate-fmt" = "Wygląda na to, że pierwszy raz używasz Automatycznego Wypełniania z tą bazą danych.\n\nDla bezpieczeństwa musisz wskazać plik bazy danych, żeby moduł Automatycznego Wypełniania mógł uzyskać do niego dostęp.\n\nOstatnia znana lokalizacja pliku:\n\n%@\n\nWskaż go teraz dla Strongbox...";
 
 /* Welcome to Strongbox AutoFill */
-"mac_welcome_to_autofill" = "Welcome to Strongbox AutoFill";
+"mac_welcome_to_autofill" = "Witaj w Automatycznym Wypełnianiu";
 
 /* Locate '%@' - Translator's note: The parameter is the filename of the database like 'my-database.kdbx' */
-"mac_autofill_locate_file_fmt" = "Locate '%@'";
+"mac_autofill_locate_file_fmt" = "Wskaż '%@'";
 
 /* Pro Feature */
-"mac_autofill_pro_feature_title" = "Pro Feature";
+"mac_autofill_pro_feature_title" = "Funkcja Pro";
 
 /* AutoFill is only available on the Pro edition of Strongbox. You can upgrade like this:\n\n1. Launch Strongbox\n2. Click the 'Strongbox' menu\n3. Click 'Upgrade to Pro...'.\n\nThank you! */
-"mac_autofill_pro_feature_upgrade-message" = "AutoFill is only available on the Pro edition of Strongbox. You can upgrade like this:\n\n1. Launch Strongbox\n2. Click the 'Strongbox' menu\n3. Click 'Upgrade to Pro...'.\n\nThank you!";
+"mac_autofill_pro_feature_upgrade-message" = "Autouzupełnianie jest dostępne tylko w wersji Pro. Możesz ulepszyć Strongbox w następujący sposób:\n\n1. Uruchom Strongbox\n2. Kliknij menu 'Strongbox'\n3. Kliknij 'Ulepsz do Pro...'.\n\nDziękujemy!";
 
 /* Passcode Fallback for %@ - Translators Note: This is a preference that says that the device passcode can be used as a fallback if Face ID or Touch ID fails - the parameter is either 'Touch ID' or 'Face ID' */
-"app_lock_allow_device_passcode_fallback_for_biometric_fmt" = "Passcode Fallback for %@";
+"app_lock_allow_device_passcode_fallback_for_biometric_fmt" = "Użyj kodu w razie niepowodzenia %@";
 
 /* Backup %ld (%@) - Translators Note: 1st Param is a number/integer, second parameter is the modified date, so e.g. 'Backup 4 (11 Nov 2020)'*/
-"backups_backup_title_fmt" = "Backup %ld (%@)";
+"backups_backup_title_fmt" = "Kopia zapasowa %ld (%@)";
 
 /* %@ (Created %@) - Translators Note: 1st Param is the filesize, second parameter is the created date, so e.g. '11KB (10 Nov 2020)' */
-"backups_backup_subtitle_fmt" = "%@ (Created %@)";
+"backups_backup_subtitle_fmt" = "%@ (Utworzono %@)";
 
 /* Enable Strongbox Extension */
-"mac_autofill_enable_extension_title" = "Enable Strongbox Extension";
+"mac_autofill_enable_extension_title" = "Włącz rozszerzenie Strongbox";
 
 /* To use AutoFill you must enable the Strongbox Extension in System Preferences. To do this click the 'Open System Preferences...' button below and navigate to:\n\n∙ Extensions > Password AutoFill > Check 'Strongbox' */
-"mac_autofill_enable_extension_message" = "To use AutoFill you must enable the Strongbox Extension in System Preferences. To do this click the 'Open System Preferences...' button below and navigate to:\n\n∙ Extensions > Password AutoFill > Check 'Strongbox'";
+"mac_autofill_enable_extension_message" = "Aby użyć autouzupełniania, musisz włączyć rozszerzenie Strongbox w Preferencjach Systemowych. Aby to zrobić, kliknij \"Otwórz ustawienia systemowe\" poniżej i przejdź do:\n\n· Rozszerzenia > Automatyczne wypełnianie haseł> Zaznacz 'Strongbox'";
 
 /* Open System Preferences... */
-"mac_autofill_action_open_system_preferences" = "Open System Preferences...";
+"mac_autofill_action_open_system_preferences" = "Otwórz ustawienia systemowe...";
 
 /* Merge... - Translators Note: Merge is a verb, "To Merge", the idea being that the user will select 2 databases to merge together... */
-"generic_action_merge_ellipsis" = "Merge...";
+"generic_action_merge_ellipsis" = "Scal...";
 
 /* Merge */
-"generic_action_merge" = "Merge";
+"generic_action_merge" = "Scal";
 
 /* No Other Databases Available */
-"merge_no_other_databases_available_title" = "No Other Databases Available";
+"merge_no_other_databases_available_title" = "Brak dostępnych innych baz danych";
 
 /* There are no other databases in your databases collection to merge into this database. You must add another database so that you can select it for the merge operation. */
-"merge_no_other_databases_available_msg" = "There are no other databases in your databases collection to merge into this database. You must add another database so that you can select it for the merge operation.";
+"merge_no_other_databases_available_msg" = "Nie ma innych baz danych do scalenia. Musisz dodać nową bazę danych, abyś mógł jej użyć.";
 
 /* Create Local Copy */
-"generic_action_create_local_database" = "Create Local Copy";
+"generic_action_create_local_database" = "Utwórz kopię lokalną";
 
 /* Identical databases. */
-"merge_result_databases_identical" = "Identical databases.";
+"merge_result_databases_identical" = "Identyczne bazy danych.";
 
 /* Compare & Merge... */
-"generic_action_compare_and_merge_ellipsis" = "Compare & Merge...";
+"generic_action_compare_and_merge_ellipsis" = "Porównaj i scal...";
 
 /* Merge will lead to a %0.1f%% difference. (Translators Note: 1st param is a percentage like '12.2%' (please don't edit/touch the percentage signs as it will likely cause a crash)) */
-"merge_result_will_lead_to_percentage_difference_fmt" = "Merge will lead to a %0.1f%% difference.";
+"merge_result_will_lead_to_percentage_difference_fmt" = "Scalenie spowoduje %0.1f%% różnicy.";
 
 /* No changes to merge into first. */
-"merge_result_databases_identical" = "No changes to merge into first.";
+"merge_result_databases_identical" = "Bak zmian do scalenia.";
 
 /* Second database is %0.1f%% different. (Translators Note: 1st param is a percentage like '12.2%' (please don't edit/touch the percentage signs as it will likely cause a crash)) */
-"diff_result_percentage_difference_fmt" = "Second database is %0.1f%% different.";
+"diff_result_percentage_difference_fmt" = "Druga baza danych różni się o %0.1f%%.";
 
 /* Identical databases. */
-"diff_result_databases_identical" = "Identical databases.";
+"diff_result_databases_identical" = "Identyczne bazy danych.";
 
 /* Some database properties will change. */
-"merge_result_databases_properties_will_change" = "Some database properties will change.";
+"merge_result_databases_properties_will_change" = "Niektóre właściwości bazy danych ulegną zmianie.";
 
 /* Database properties are different. */
-"diff_result_databases_properties_different" = "Database properties are different.";
+"diff_result_databases_properties_different" = "Właściwości bazy danych są inne.";
 
 /* Summary */
 "diff_view_section_header_summary" = "Podsumowanie";
 
 /* Will be Changed (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_will_be_changed_count_fmt" = "Will be Changed (%lu)";
+"diff_view_section_header_entry_will_be_changed_count_fmt" = "Ulegnie zmianie (%lu)";
 
 /* Items with Differences (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_differences_fmt" = "Items with Differences (%lu)";
+"diff_view_section_header_entry_differences_fmt" = "Różniące się elementy (%lu)";
 
 /* Will be Added (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_will_be_added_count_fmt" = "Will be Added (%lu)";
+"diff_view_section_header_entry_will_be_added_count_fmt" = "Zostanie dodanych (%lu)";
 
 /* Only in Second Database (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_only_in_second_fmt" = "Only in Second Database (%lu)";
+"diff_view_section_header_only_in_second_fmt" = "Tylko w drugiej bazie danych (%lu)";
 
 /* Will be Moved (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_will_be_moved_count_fmt" = "Will be Moved (%lu)";
+"diff_view_section_header_entry_will_be_moved_count_fmt" = "Zostanie przeniesionych (%lu)";
 
 /* Items in Different Locations (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_items_in_different_loc_fmt" = "Items in Different Locations (%lu)";
+"diff_view_section_header_items_in_different_loc_fmt" = "Elementy w różnych lokalizacjach (%lu)";
 
 /* Will be Deleted (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_will_be_deleted_count_fmt" = "Will be Deleted (%lu)";
+"diff_view_section_header_entry_will_be_deleted_count_fmt" = "Zostanie usuniętych (%lu)";
 
 /* Only in First Database (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_only_in_first_fmt" = "Only in First Database (%lu)";
+"diff_view_section_header_only_in_first_fmt" = "Tylko w pierwszej bazie danych (%lu)";
 
 /* History will Change (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_history_will_change_count_fmt" = "History will Change (%lu)";
+"diff_view_section_header_entry_history_will_change_count_fmt" = "Historia zmieni się (%lu)";
 
 /* Items with Historical Differences (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_historical_diffs_fmt" = "Items with Historical Differences (%lu)";
+"diff_view_section_header_historical_diffs_fmt" = "Przedmioty z różnicami w historii (%lu)";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Are you sure you want to merge the second database into the first?";
+"merge_view_are_you_sure" = "Czy na pewno chcesz scalić drugą bazę danych z pierwszą?";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Are you sure you want to merge the second database into the first?";
+"merge_view_are_you_sure" = "Czy na pewno chcesz scalić drugą bazę danych z pierwszą?";
 
 /* Merge Successful */
-"merge_view_merge_title_success" = "Merge Successful";
+"merge_view_merge_title_success" = "Scalanie zakończone";
 
 /* The Merge was successful and your database is now up to date. */
-"merge_view_merge_message_success" = "The Merge was successful and your database is now up to date.";
+"merge_view_merge_message_success" = "Scalanie powiodło się i baza danych jest teraz aktualna.";
 
 /* There was an problem merging this database. */
-"merge_view_merge_title_error" = "There was an problem merging this database.";
+"merge_view_merge_title_error" = "Wystąpił błąd podczas scalania tej bazy danych.";
 
 /* From %@ to %@ - Translators Note: 1st parameter is the old value that will change to the new value which is the second value e.g. 'From my-initial-username to my-changed-username' */
-"diff_drill_down_previous_new_fmt" = "From %@ to %@";
+"diff_drill_down_previous_new_fmt" = "Z %@ na %@";
 
 /* %@ <> %@ - Translators Note: 1st parameter is the first database value and the second parameter is the value of this item in the second database e.g. 'my-username-1 <> my-username-2' */
 "diff_drill_down_first_vs_second_fmt" = "%@ <> %@";
 
 /* Color will change. */
-"diff_drill_down_color_will_change" = "Color will change.";
+"diff_drill_down_color_will_change" = "Kolor zmieni się.";
 
 /* Color is different. */
 "diff_drill_down_color_is_different" = "Color is different.";
@@ -3686,262 +3686,262 @@
 "diff_drill_down_recycle_bin_enabled_is_different" = "Recycle Bin Enabled state is different.";
 
 /* Database Name will change. */
-"diff_drill_down_database_name_will_change" = "Database Name will change.";
+"diff_drill_down_database_name_will_change" = "Nazwa bazy danych ulegnie zmianie.";
 
 /* Database Description will change. */
-"diff_drill_down_database_desc_will_change" = "Database Description will change.";
+"diff_drill_down_database_desc_will_change" = "Opis bazy danych ulegnie zmianie.";
 
 /* Default Username will change. */
-"diff_drill_down_default_username_will_change" = "Default Username will change.";
+"diff_drill_down_default_username_will_change" = "Domyślna nazwa użytkownika się zmieni.";
 
 /* Recycle Bin Enabled state will change. */
-"diff_drill_down_recycle_bin_enabled_will_change" = "Recycle Bin Enabled state will change.";
+"diff_drill_down_recycle_bin_enabled_will_change" = "Stan kosza zmieni się.";
 
 /* Custom Data %@ will change. Translators Note: 1st param is the key of the custom data e.g. KEEPASSXC_PLUGIN_DATA  */
-"diff_drill_down_custom_data_will_change_fmt" = "Custom Data %@ will change.";
+"diff_drill_down_custom_data_will_change_fmt" = "Niestandardowe dane %@ ulegną zmianie.";
 
 /* Custom Data %@ is different. */
-"diff_drill_down_custom_data_is_different_fmt" = "Custom Data %@ is different.";
+"diff_drill_down_custom_data_is_different_fmt" = "Niestandardowe dane %@ są inne.";
 
 /* Custom Data item will be removed. */
-"diff_drill_down_custom_data_will_be_removed_fmt" = "Custom Data item will be removed.";
+"diff_drill_down_custom_data_will_be_removed_fmt" = "Niestandardowe dane zostaną usunięte.";
 
 /* Custom Data is only in first. */
-"diff_drill_down_custom_data_is_only_in_first" = "Custom Data is only in first.";
+"diff_drill_down_custom_data_is_only_in_first" = "Niestandardowe dane są tylko w pierwszej bazie danych.";
 
 /* Custom Data item will be added. */
-"diff_drill_down_custom_data_will_be_added_fmt" = "Custom Data item will be added.";
+"diff_drill_down_custom_data_will_be_added_fmt" = "Niestandardowe dane zostaną dodane.";
 
 /* Custom Data is only in second. */
-"diff_drill_down_custom_data_is_only_in_second" = "Custom Data is only in second.";
+"diff_drill_down_custom_data_is_only_in_second" = "Niestandardowe dane są tylko w drugiej bazie danych.";
 
 /* %@ -> %@ - Translators Note: 1st param is the key and 2nd param is the value. e.g. my_custom_plugin_key -> some_value */
 "diff_drill_down_custom_data_new_entry_key_value" = "%@ -> %@";
 
 /* Title will change. */
-"diff_drill_down_title_change" = "Title will change.";
+"diff_drill_down_title_change" = "Tytuł ulegnie zmianie.";
 
 /* Titles are different. */
-"diff_drill_down_titles_are_different" = "Titles are different.";
+"diff_drill_down_titles_are_different" = "Tytuły są inne.";
 
 /* Modified Date will change. */
-"diff_drill_down_mod_will_change" = "Modified Date will change.";
+"diff_drill_down_mod_will_change" = "Data modyfikacji ulegnie zmianie.";
 
 /* Modified Dates are different. */
-"diff_drill_down_mods_are_different" = "Modified Dates are different.";
+"diff_drill_down_mods_are_different" = "Daty modyfikacji są inne.";
 
 /* Icons will change. */
-"diff_drill_down_icons_will_change" = "Icons will change.";
+"diff_drill_down_icons_will_change" = "Ikony się zmienią.";
 
 /* Icons are different. */
-"diff_drill_down_icons_are_different" = "Icons are different.";
+"diff_drill_down_icons_are_different" = "Ikony są inne.";
 
 /* Username will change. */
-"diff_drill_down_username_will_change" = "Username will change.";
+"diff_drill_down_username_will_change" = "Nazwa użytkownika się zmieni.";
 
 /* Username will change. */
-"diff_drill_down_usernames_are_different" = "Usernames are different.";
+"diff_drill_down_usernames_are_different" = "Nazwy użytkowników są inne.";
 
 /* Password will change. */
-"diff_drill_down_password_will_change" = "Password will change.";
+"diff_drill_down_password_will_change" = "Hasło się zmieni.";
 
 /* Password will change. */
-"diff_drill_down_passwords_are_different" = "Passwords are different.";
+"diff_drill_down_passwords_are_different" = "Hasła są inne.";
 
 /* URL will change. */
-"diff_drill_down_url_will_change" = "URL will change.";
+"diff_drill_down_url_will_change" = "Adres URL zostanie zmieniony.";
 
 /* URLs are different. */
-"diff_drill_down_urls_are_different" = "URLs are different.";
+"diff_drill_down_urls_are_different" = "Adresy URL są inne.";
 
 /* Notes will change. */
-"diff_drill_down_notes_will_change" = "Notes will change.";
+"diff_drill_down_notes_will_change" = "Notatki ulegną zmianie.";
 
 /* Notes are different. */
-"diff_drill_down_notes_are_different" = "Notes are different.";
+"diff_drill_down_notes_are_different" = "Notatki są inne.";
 
 /* Email will change. */
-"diff_drill_down_email_will_change" = "Email will change.";
+"diff_drill_down_email_will_change" = "E-maile się ulegną zmianie.";
 
 /* Email will change. */
-"diff_drill_down_emails_are_different" = "Emails are different.";
+"diff_drill_down_emails_are_different" = "E-maile są inne.";
 
 /* Created Date will change. */
-"diff_drill_down_create_date_will_change" = "Created Date will change.";
+"diff_drill_down_create_date_will_change" = "Data utworzenia ulegnie zmianie.";
 
 /* Created Dates are different. */
-"diff_drill_down_created_dates_are_different" = "Created Dates are different.";
+"diff_drill_down_created_dates_are_different" = "Daty utworzenia są inne.";
 
 /* Modified Date will change. */
-"diff_drill_down_mod_date_will_change" = "Modified Date will change.";
+"diff_drill_down_mod_date_will_change" = "Data modyfikacji ulegnie zmianie.";
 
 /* Modified Dates are different. */
-"diff_drill_down_mod_dates_are_different" = "Modified Dates are different.";
+"diff_drill_down_mod_dates_are_different" = "Daty modyfikacji są inne.";
 
 /* Expiry Date will change. */
-"diff_drill_down_expiry_date_will_change" = "Expiry Date will change.";
+"diff_drill_down_expiry_date_will_change" = "Data wygaśnięcia ulegnie zmianie.";
 
 /* Expiry Dates are different. */
-"diff_drill_down_expiry_are_different" = "Expiry Dates are different.";
+"diff_drill_down_expiry_are_different" = "Daty wygaśnięcia są inne.";
 
 /* Foreground Color will change. */
-"diff_drill_down_foreground_color_will_change" = "Foreground Color will change.";
+"diff_drill_down_foreground_color_will_change" = "Kolor pierwszego planu ulegnie zmianie.";
 
 /* Foreground Colors are different. */
-"diff_drill_down_foreground_color_are_different" = "Foreground Colors are different.";
+"diff_drill_down_foreground_color_are_different" = "Kolory pierwszego planu są inne.";
 
 /* Background Color will change. */
-"diff_drill_down_background_color_will_change" = "Background Color will change.";
+"diff_drill_down_background_color_will_change" = "Kolor tła się zmieni.";
 
 /* Background Colors are different. */
-"diff_drill_down_background_color_are_different" = "Background Colors are different.";
+"diff_drill_down_background_color_are_different" = "Kolory tła są inne.";
 
 /* Override URL will change. */
-"diff_drill_down_override_url_will_change" = "Override URL will change.";
+"diff_drill_down_override_url_will_change" = "Zastąpiony adres URL zostanie zmieniony.";
 
 /* Override URLs are different. */
-"diff_drill_down_override_url_are_different" = "Override URLs are different.";
+"diff_drill_down_override_url_are_different" = "Adresy URL są inne.";
 
 /* AutoType will change. */
-"diff_drill_down_autotype_will_change" = "AutoType will change.";
+"diff_drill_down_autotype_will_change" = "AutoType się zmieni.";
 
 /* AutoTypes are different. */
-"diff_drill_down_autotype_are_different" = "AutoTypes are different.";
+"diff_drill_down_autotype_are_different" = "AutoType są inne.";
 
 /* Attachments will change. */
-"diff_drill_down_attachments_will_change" = "Attachments will change.";
+"diff_drill_down_attachments_will_change" = "Załączniki się zmienią.";
 
 /* Attachments are different. */
-"diff_drill_down_attachments_are_different" = "Attachments are different.";
+"diff_drill_down_attachments_are_different" = "Załączniki są inne.";
 
 /* Tags will change. */
-"diff_drill_down_tags_will_change" = "Tags will change.";
+"diff_drill_down_tags_will_change" = "Tagi się zmienią.";
 
 /* Tags are different. */
-"diff_drill_down_tags_are_different" = "Tags are different.";
+"diff_drill_down_tags_are_different" = "Tagi są inne.";
 
 /* Custom Fields will change. */
-"diff_drill_down_custom_fields_will_change" = "Custom Fields will change.";
+"diff_drill_down_custom_fields_will_change" = "Pola niestandardowe się zmienią.";
 
 /* Custom Fields are different. */
-"diff_drill_down_custom_fields_are_different" = "Custom Fields are different.";
+"diff_drill_down_custom_fields_are_different" = "Pola niestandardowe są inne.";
 
 /* Item will be moved. */
-"diff_drill_down_location_will_change" = "Item will be moved.";
+"diff_drill_down_location_will_change" = "Element zostanie przeniesiony.";
 
 /* Item locations are different. */
-"diff_drill_down_locations_are_different" = "Item locations are different.";
+"diff_drill_down_locations_are_different" = "Lokalizacje elementów są inne.";
 
 /* In %@ and %@ */
-"diff_drill_down_diff_loc_different" = "In %@ and %@";
+"diff_drill_down_diff_loc_different" = "W %@ i %@";
 
 /* Local Copy Created. */
-"safes_vc_created_local_copy_done" = "Local Copy Created.";
+"safes_vc_created_local_copy_done" = "Utworzono lokalną kopię.";
 
 /* Comparing... */
-"diff_progress_comparing" = "Comparing...";
+"diff_progress_comparing" = "Porównywanie...";
 
 /* Pro feature only. Please Upgrade. */
-"generic_pro_feature_only_please_upgrade" = "Pro feature only. Please Upgrade.";
+"generic_pro_feature_only_please_upgrade" = "Funkcja Pro. Proszę zaktualizować.";
 
 /* Merge Preview */
 "diff_nav_title_comparison_title" = "Merge Preview"; // "Comparison Results";
 
 /* Compare Partially Supported */
-"diff_compare_partially_supported_title" = "Compare Partially Supported";
+"diff_compare_partially_supported_title" = "Porównywanie obsługiwane tylko częściowo";
 
 /* Because of the underlying database format(s) of these databases a full comparison is not possible. Pleaese use the KeePass 2 database format to allow detection of Moves, Deletions, and Group edits.\n\nYou can proceed with compare/merge but it may not be comprehensive. */
-"diff_compare_partially_supported_msg" = "Because of the underlying database format(s) of these databases a full comparison is not possible. Only the KeePass 2 format allows detection of Moves, Deletions, and Group edits.\n\nYou can proceed with compare/merge but it may not be comprehensive.";
+"diff_compare_partially_supported_msg" = "Ze względu na formaty tych baz danych pełne porównanie nie jest możliwe. Tylko format KeePass 2 pozwala na wykrywanie przeniesień, usunięć i modyfikacji grup.\n\nMożesz kontynuować, ale porównanie nie będzie pełne.";
 
 /* View As... */
-"browse_prefs_view_as_ellipsis" = "View As...";
+"browse_prefs_view_as_ellipsis" = "Wyświetl jako...";
 
 /* Database PIN */
-"pin_entry_database_default_text" = "Database PIN";
+"pin_entry_database_default_text" = "PIN bazy danych";
 
 /* App PIN */
-"pin_entry_app_default_text" = "App PIN";
+"pin_entry_app_default_text" = "PIN do aplikacji";
 
 /* Compare & Merge (Pro) */
-"conflict_resolution_compare_pro_only" = "Compare & Merge (Pro)";
+"conflict_resolution_compare_pro_only" = "Porównaj & Scal (Pro)";
 
 /* Sync Later (Pro) */
-"conflict_resolution_sync_later_pro_only" = "Sync Later (Pro)";
+"conflict_resolution_sync_later_pro_only" = "Synchronizuj później (Pro)";
 
 /* Remote (%@) - Translators Note: First Param is the remote storage location e.g. Google Drive or Dropbox etc */
-"conflict_resolution_remote_fmt" = "Remote (%@)";
+"conflict_resolution_remote_fmt" = "Zdalny (%@)";
 
 /* Force Overwrite? */
-"conflict_resolution_force_overwrite_title" = "Force Overwrite?";
+"conflict_resolution_force_overwrite_title" = "Wymusić nadpisanie?";
 
 /* You can overwrite changes in either your local copy or in the remote copy. */
-"conflict_resolution_force_overwrite_message" = "You can overwrite changes in either your local copy or in the remote copy.";
+"conflict_resolution_force_overwrite_message" = "Możesz nadpisać zmiany w lokalnej lub w zdalnej kopii.";
 
 /* Take Remote Copy, Overwrite Local */
-"conflict_resolution_force_overwrite_take_remote" = "Take Remote Copy, Overwrite Local";
+"conflict_resolution_force_overwrite_take_remote" = "Użyj kopii zdalnej, nadpisz lokalną";
 
 /* Keep Local Copy, Overwrite Remote */
-"conflict_resolution_force_overwrite_keep_lacal" = "Keep Local Copy, Overwrite Remote";
+"conflict_resolution_force_overwrite_keep_lacal" = "Zachowaj kopię lokalną, nadpisz zdalną";
 
 /* Technical Error - Could not write local copies for comparison/merge. */
-"model_error_could_not_write_local_merge" = "Technical Error - Could not write local copies for comparison/merge.";
+"model_error_could_not_write_local_merge" = "Błąd techniczny - Nie można zapisać kopii lokalnych dla porównania/scalenia.";
 
 /* Cannot merge in background or without key. */
-"model_error_cannot_merge_in_background" = "Cannot merge without Master Credentials.";
+"model_error_cannot_merge_in_background" = "Nie można scalić bez danych uwierzytelniających.";
 
 /* Are you sure you want to always Auto-Merge when you have a Sync Conflict like this? */
-"sync_are_you_sure_always_auto_merge" = "Are you sure you want to always Auto-Merge when you have a Sync Conflict like this?";
+"sync_are_you_sure_always_auto_merge" = "Czy na pewno chcesz zawsze automatycznie scalić, gdy masz taki konflikt synchronizacji?";
 
 /* Technical Error - Could not merge local and remote databases. */
-"model_error_could_not_merge_local_remote" = "Technical Error - Could not merge local and remote databases.";
+"model_error_could_not_merge_local_remote" = "Błąd techniczny - Nie można scalić lokalnych i zdalnych baz danych.";
 
 /* Your database format does not support advanced synchronization features (available in KeePass 2). This means the merge may be less than ideal.\n\nAre you sure you want to continue with the merge? */
-"merge_are_you_sure_less_than_ideal_format" = "Your database format does not support advanced synchronization features (available in KeePass 2). This means the merge may be less than ideal.\n\nAre you sure you want to continue with the merge?";
+"merge_are_you_sure_less_than_ideal_format" = "Format bazy danych nie obsługuje zaawansowanych funkcji synchronizacji (dostępnych w KeePass 2). Oznacza to, że scalanie może nie być idealne.\n\nCzy na pewno chcesz kontynuować?";
 
 /* Database Refreshed */
-"browse_vc_pulldown_refresh_updated_title" = "Database Refreshed";
+"browse_vc_pulldown_refresh_updated_title" = "Baza danych odświeżona";
 
 /* Error Refreshing */
-"browse_vc_pulldown_refresh_error_title" = "Error Refreshing";
+"browse_vc_pulldown_refresh_error_title" = "Błąd odświeżania";
 
 /* See Sync Log */
-"browse_vc_pulldown_refresh_error_message" = "See Sync Log";
+"browse_vc_pulldown_refresh_error_message" = "Zobacz dziennik synchronizacji";
 
 /* Database Refreshed - No Changes */
-"browse_vc_pulldown_refresh_no_changes_title" = "Database Refreshed - No Changes";
+"browse_vc_pulldown_refresh_no_changes_title" = "Baza danych odświeżona - brak zmian";
 
 /* %ld Failed Unlock Attempts - Translators note, first parameter is an integer, e.g 3 Failed Unlock Attempts */
-"privacy_vc_label_number_of_failed_unlock_attempts_fmt" = "%@ Failed Unlock Attempts";
+"privacy_vc_label_number_of_failed_unlock_attempts_fmt" = "%@ Nieudane próby odblokowania";
 
 /* Modified %@ - Translators Note: first parameter is a friendly date string. e.g. "Modified Today at 3:28PM" */
-"backups_backup_modified_title_fmt" = "Modified %@";
+"backups_backup_modified_title_fmt" = "Zmodyfikowano %@";
 
 /* %@ (Backup taken %@) - Translators Note: first parameter is the file size and the second parameter a friendly date string. e.g. "4KB (Backup taken Today at 3:29PM)" */
-"backups_backup_taken_at_subtitle_fmt" = "%@ (Backup taken %@)";
+"backups_backup_taken_at_subtitle_fmt" = "%@ (Kopia zapasowa wykonana %@)";
 
 /* Sync Possibly Required */
-"compare_merge_sync_possibly_required_title" = "Sync Possibly Required";
+"compare_merge_sync_possibly_required_title" = "Może być wymagana synchronizacja";
 
 /* At least one of these databases haven't been synchronized very recently. It is recommended that you return to the Databases List screen and pull down to initiate the Sync process. This will ensure you are working with the latest versions. */
-"compare_merge_sync_possibly_required_message" = "At least one of these databases haven't been synchronized very recently. It is recommended that you return to the Databases List screen and pull down to initiate the Sync process. This will ensure you are working with the latest versions.";
+"compare_merge_sync_possibly_required_message" = "Co najmniej jedna z tych baz danych nie została ostatnio zsynchronizowana. Zaleca się powrót do ekranu listy baz danych i przeciągnięcie w dół, aby rozpocząć proces synchronizacji. To zapewni, że masz z najnowsze wersje baz danych.";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to open in offline mode instead? - Translators Note: 1st Parameter is the storage provider name like Google Drive or Dropbox */
-"open_sequence_user_looks_offline_open_local_fmt" = "It looks like you may be offline and '%@' may not be reachable. Would you like to open in offline mode instead?";
+"open_sequence_user_looks_offline_open_local_fmt" = "Wygląda na to, że możesz być offline i '%@' nie jest dostępny. Czy zamiast tego chcesz otworzyć w trybie offline?";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use Strongbox's local copy in read-only mode instead? - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc */
-"open_sequence_user_looks_offline_open_local_ro_fmt" = "It looks like you may be offline and '%@' may not be reachable. Would you like to open in offline mode instead?\n\nNB: This is read-only. You can also edit offline in the Pro version.";
+"open_sequence_user_looks_offline_open_local_ro_fmt" = "Wygląda na to, że możesz być offline i '%@' nie jest dostępny. Czy zamiast tego chcesz otworzyć w trybie offline?\n\nBędzie dostępny tryb tylko-do-odczytu. Możliwość edycji offline jest w wersji Pro.";
 
 /* Open Offline? */
-"open_sequence_yesno_use_local_copy_title" = "Open Offline?";
+"open_sequence_yesno_use_local_copy_title" = "Otworzyć offline?";
 
 /* Yes, Open Offline */
-"open_sequence_yes_use_local_copy_option" = "Yes, Open Offline";
+"open_sequence_yes_use_local_copy_option" = "Tak, otwórz w trybie offline";
 
 /* Open Offline */
 "open_sequence_use_local_copy_option" = "Otwórz bez połączenia z internetem";
 
 /* Open Offline (Read-Only) */
-"open_sequence_use_local_copy_option_ro" = "Open Offline (Read-Only)";
+"open_sequence_use_local_copy_option_ro" = "Otwórz w trybie offline (Tylko do odczytu)";
 
 /*  (Read Only) */
 "browse_vc_read_only_suffix" = " (Tylko do odczytu)";
@@ -3953,37 +3953,37 @@
 "browse_vc_pulldown_refresh_offline_title" = "Tryb offline";
 
 /* Database Not Refreshed */
-"browse_vc_pulldown_refresh_offline_message" = "Database Not Refreshed";
+"browse_vc_pulldown_refresh_offline_message" = "Baza danych nie została odświeżona";
 
 /* Do not allow changes to be made to this database when it is open. */
-"database_properties_subtitle_read_only" = "Do not allow changes to be made to this database when it is open.";
+"database_properties_subtitle_read_only" = "Nie zezwalaj na wprowadzanie zmian do tej bazy danych, gdy jest ona otwarta.";
 
 /* Automatically prompt to open this database on App launch. */
-"database_properties_subtitle_quick_launch" = "Automatically prompt to open this database on App launch.";
+"database_properties_subtitle_quick_launch" = "Automatycznie poproś o otwarcie tej bazy danych przy uruchomieniu aplikacji.";
 
 /* Always Auto-Merge */
 "database_properties_title_always_auto_merge" = "Zawsze Scalaj Automatycznie";
 
 /* When a sync conflict occurs automatically merge without asking. */
-"database_properties_subtitle_conflict_resolution" = "When a sync conflict occurs automatically merge without asking.";
+"database_properties_subtitle_conflict_resolution" = "Gdy następuje konflikt synchronizacji, automatycznie scalaj bez pytania.";
 
 /* Immediate Open Offline Offer */
-"database_properties_title_offline_behaviour" = "Immediate Open Offline Offer";
+"database_properties_title_offline_behaviour" = "Natychmiastowa sugestia o otwarcie Offline";
 
 /* Immediately offer to open offline if Strongbox detects you are offline. Alternatively, if you turn this off, Strongbox will try to connect which may take some time. */
-"database_properties_subtitle_offline_behaviour" = "Immediately offer to open in offline mode if Strongbox detects you are offline. Alternatively, if you turn this off, Strongbox will try to connect which may take some time.";
+"database_properties_subtitle_offline_behaviour" = "Natychmiast zaproponuj otwarcie w trybie offline, jeśli Strongbox wykryje, że nie ma dostępu do internetu. Jeśli to wyłączysz, Strongbox spróbuje się połączyć, co może zająć trochę czasu.";
 
 /* Configure & View local backups." */
-"database_properties_subtitle_backups" = "Configure & View local backups.";
+"database_properties_subtitle_backups" = "Skonfiguruj i wyświetl lokalne kopie zapasowe.";
 
 /* View recent sync details including errors. */
-"database_properties_subtitle_view_sync_log" = "View recent sync details including errors.";
+"database_properties_subtitle_view_sync_log" = "Zobacz ostatnie szczegóły synchronizacji, w tym błędy.";
 
 /* Your Database is configured to use a hardware key, however no key or an incorrect key was found connected. */
-"mac_autofill_no_or_incorrect_yubikey_found" = "Your Database is configured to use a hardware key, however no key or an incorrect key was found connected.";
+"mac_autofill_no_or_incorrect_yubikey_found" = "Twoja baza danych jest skonfigurowana do używania klucza sprzętowego, jednak nie znaleziono żadnego klucza lub podłączony klucz jest nieprawidłowy.";
 
 /* Title (Username) */
-"quick_type_format_title_username" = "Title (Username)";
+"quick_type_format_title_username" = "Tytuł (Nazwa użytkownika)";
 
 /* Title */
 "quick_type_format_title" = "Tytuł";
@@ -3992,20 +3992,20 @@
 "quick_type_format_username" = "Nazwa użytkownika";
 
 /* QuickType Format */
-"prefs_vc_quick_type_format" = "QuickType Format";
+"prefs_vc_quick_type_format" = "Format Szybkiego Uzupełniania";
 
 
 /* Authenticating... */
-"storage_provider_status_authenticating" = "Authenticating...";
+"storage_provider_status_authenticating" = "Uwierzytelnianie...";
 
 /* Connecting... */
-"storage_provider_status_authenticating_connecting" = "Connecting...";
+"storage_provider_status_authenticating_connecting" = "Łączenie...";
 
 /* Listing... */
-"storage_provider_status_authenticating_listing" = "Listing...";
+"storage_provider_status_authenticating_listing" = "Układanie...";
 
 /* Creating... */
-"storage_provider_status_authenticating_creating" = "Creating...";
+"storage_provider_status_authenticating_creating" = "Tworzenie...";
 
 /* Strongbox iCloud */
 "databases_vc_database_location_suffix_database_is_in_official_icloud_strongbox_folder" = "Strongbox iCloud";
@@ -4014,100 +4014,100 @@
 "preference_allow_watch_unlock" = "Odblokowanie Watch";
 
 /* Watch Unlock - (Enable in System Preferences > Security & Privacy) */
-"preference_allow_watch_unlock_system_disabled" = "Watch Unlock - (Enable in System Preferences > Security & Privacy)";
+"preference_allow_watch_unlock_system_disabled" = "Odblokowanie Watch - (Włącz w Preferencje > Bezpieczeństwo i Prywatność)";
 
 /* No Cloud Session Found */
-"cloud_sessions_prompt_no_session_found" = "No Cloud Session Found";
+"cloud_sessions_prompt_no_session_found" = "Nie znaleziono sesji w chmurze";
 
 /* Copy Debug Information? */
-"prompt_title_copy_debug_info" = "Copy Debug Information?";
+"prompt_title_copy_debug_info" = "Skopiować informacje debugowania?";
 
 /* Would you like to copy some helpful debug information that you can share with support before proceeding? */
-"prompt_message_copy_debug_info" = "Would you like to copy some helpful debug information that you can share with support before proceeding?";
+"prompt_message_copy_debug_info" = "Czy chcesz skopiować kilka pomocnych informacji debugowania, które możesz przekazać zespołowi wsparcia przed kontynuowaniem?";
 
 /* Third Party Storage Privacy Opt-In */
-"third_party_storage_privacy_opt_in_title" = "Third Party Storage Privacy Opt-In";
+"third_party_storage_privacy_opt_in_title" = "Zgoda na politykę prywatności dostawcy";
 
 /* You are about to use a software library from Google, Microsoft or Dropbox for the first time.\n\nStrongbox does not control these organizations privacy policies (which may not be awesome).\n\nStrongbox offers these services for your convenience and it is entirely at your discretion whether you use them or not. You must Opt In to continue. */
-"third_party_storage_privacy_opt_in_message" = "You are about to use a software library from Google, Microsoft or Dropbox for the first time.\n\nStrongbox does not control these organizations privacy policies (which may not be awesome).\n\nStrongbox offers these services for your convenience and it is entirely at your discretion whether you use them or not.\n\nYou must Opt In to continue.";
+"third_party_storage_privacy_opt_in_message" = "Za chwilę korzystasz z biblioteki oprogramowania Google, Microsoft lub Dropbox po raz pierwszy.\n\nStrongbox nie ma wpływu na politykę prywatności tych firm.\n\nStrongbox oferuje te usługi dla Twojej wygody i to od ciebie zależy, czy z nich skorzystasz.\n\nMusisz wyrazić zgodę na kontynuację.";
 
 /* Opt In, Let's Go... */
-"third_party_storage_privacy_option_opt_in" = "Opt In, Let's Go...";
+"third_party_storage_privacy_option_opt_in" = "Zgadzam się, kontynuuj...";
 
 /* Sync Successful */
-"notification_sync_successful" = "Sync Successful";
+"notification_sync_successful" = "Zsynchronizowano pomyślnie";
 
 /* Add SFTP Database... (Pro) */
-"mac_add_sftp_pro_only" = "Add SFTP Database... (Pro)";
+"mac_add_sftp_pro_only" = "Dodaj bazę danych SFTP... (Pro)";
 
 /* Add WebDAV Database... (Pro) */
-"mac_add_webdav_pro_only" = "Add WebDAV Database... (Pro)";
+"mac_add_webdav_pro_only" = "Dodaj bazę danych WebDAV... (Pro)";
 
 /* This database can only be unlocked by Strongbox Pro because it is stored via SFTP or WebDAV.\n\nPlease Upgrade. */
-"mac_non_file_database_pro_message" = "This database can only be unlocked by Strongbox Pro because it is stored via SFTP or WebDAV.\n\nPlease Upgrade.";
+"mac_non_file_database_pro_message" = "Ta baza danych może zostać odblokowana tylko przez Strongbox Pro, ponieważ jest przechowywana na serwerze SFTP lub WebDAV.\n\nProszę zaktualizować.";
 
 /* Item Copied to Clipboard */
-"mac_copied_item_to_clipboard" = "Item Copied to Clipboard";
+"mac_copied_item_to_clipboard" = "Element skopiowany do schowka";
 
 /* Items Copied to Clipboard */
-"mac_copied_items_to_clipboard" = "Items Copied to Clipboard";
+"mac_copied_items_to_clipboard" = "Elementy skopiowane do schowka";
 
 /* Item Pasted from Clipboard */
-"mac_item_pasted_from_clipboard" = "Item Pasted from Clipboard";
+"mac_item_pasted_from_clipboard" = "Element wklejony ze schowka";
 
 /* Items Pasted from Clipboard */
-"mac_items_pasted_from_clipboard" = "Items Pasted from Clipboard";
+"mac_items_pasted_from_clipboard" = "Elementy wklejone ze schowka";
 
 /* Item Duplicated */
-"mac_item_duplicated" = "Item Duplicated";
+"mac_item_duplicated" = "Element zduplikowany";
 
 /* File - Localization Note: This should be very short, 3-4 characters if possible. This indicates a regular file on the file system on a Mac. */
 "storage_provider_name_mac_file_short" = "Plik";
 
 /* Done. ✅ */
-"sync_log_status_done" = "Done. ✅";
+"sync_log_status_done" = "Gotowe. ✅";
 
 /* TOTP Copied */
-"autofill_info_totp_copied_title" = "TOTP Copied";
+"autofill_info_totp_copied_title" = "Skopiowano TOTP";
 
 /* Your TOTP Code has been copied to the clipboard. */
-"autofill_info_totp_copied_message" = "Your TOTP Code has been copied to the clipboard.";
+"autofill_info_totp_copied_message" = "Twój kod TOTP został skopiowany do schowka.";
 
 /* Convenience Auto Unlock */
-"prefs_vc_autofill_convenience_auto_unlock" = "Convenience Auto Unlock";
+"prefs_vc_autofill_convenience_auto_unlock" = "Wygodne Automatyczne Odblokowanie";
 
 /* Not Configured */
-"generic_preference_not_configured" = "Not Configured";
+"generic_preference_not_configured" = "Nie skonfigurowano";
 
 /* Auto Unlock Feature */
-"autofill_auto_unlock_title" = "Auto Unlock Feature";
+"autofill_auto_unlock_title" = "Funkcja automatycznego odblokowania";
 
 /* Auto Unlock lets you avoid having to repeatedly unlock your database for a configurable time period. Would you like to use this handy feature?\n\nNB: Your password is stored in the Secure Enclave for this feature. */
-"autofill_auto_unlock_message" = "Auto Unlock lets you avoid having to repeatedly unlock your database for a configurable time period. Would you like to use this handy feature?\n\nNB: Your password is stored in the Secure Enclave for this feature.";
+"autofill_auto_unlock_message" = "Automatyczne odblokowanie pozwala uniknąć wielokrotnego odblokowania bazy danych przez określony czas. Czy chcesz użyć tej funkcji?\n\nTwoje hasło jest przechowywane w układzie Secure Enclave.";
 
 /* Great, let try 3 mins */
-"autofill_auto_unlock_try_3_minutes" = "Great, lets try 3 mins";
+"autofill_auto_unlock_try_3_minutes" = "Świetnie, spróbujmy przez 3 minuty";
 
 /* I'd prefer 10 mins */
-"autofill_auto_unlock_try_10_minutes" = "I'd prefer 10 mins";
+"autofill_auto_unlock_try_10_minutes" = "Wolałbym 10 minut";
 
 /* AutoFill Quick Launch */
-"databases_toggle_autofill_quick_launch_context_menu" = "AutoFill Quick Launch";
+"databases_toggle_autofill_quick_launch_context_menu" = "Szybkie uruchamianie (AutoUzupełnianie)";
 
 /* Title Matches */
-"autofill_search_title_matches_section_header" = "Title Matches";
+"autofill_search_title_matches_section_header" = "Dopasowania tytułu";
 
 /* URL Matches */
-"autofill_search_url_matches_section_header" = "URL Matches";
+"autofill_search_url_matches_section_header" = "Dopasowania URL";
 
 /* Other Matches */
-"autofill_search_other_matches_section_header" = "Other Matches";
+"autofill_search_other_matches_section_header" = "Inne dopasowania";
 
 /* Service ID */
-"autofill_search_title_service_id_section_header" = "Service ID";
+"autofill_search_title_service_id_section_header" = "ID usługi";
 
 /* The Service ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Service ID. */
-"autofill_search_service_id_section_footer" = "The Service ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Service ID. Tap to Copy.";
+"autofill_search_service_id_section_footer" = "Identyfikator usługi jest przekazywany przez funkcję Automatycznego Uzupełniania. Pomaga znaleźć wpis, jeśli ustawisz taki sam adres URL, jak identyfikator usługi.";
 
 /* Results */
 "quick_view_title_no_matches_title" = "Wyniki";
@@ -4314,10 +4314,10 @@
 "composite_key_determiner_convenience_expired_message" = "It's time now to re-enter your Master Password manually. You can change this reminder interval in Database Settings.";
 
 /* Got it! */
-"generic_got_it" = "Got it!";
+"generic_got_it" = "Rozumiem!";
 
 /* Don't tell me again */
-"generic_dont_tell_again" = "Don't tell me again";
+"generic_dont_tell_again" = "Nie przypominaj ponownie";
 
 /* Actions - L10n - a generic collection of actions (or items that will perform certain actions/tasks) - often used as a Section Header */
 "generic_actions" = "Działania";
