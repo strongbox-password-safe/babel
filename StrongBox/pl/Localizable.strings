@@ -4278,40 +4278,40 @@
 "number_suffix_quintillion" = "Trylion";
 
 /* %@ / second - L10n:  First parameter is the number of guesses per second for an adversary. So e.g.  '1 billion / second' */
-"adversary_guess_rate_fmt" = "%@ / second";
+"adversary_guess_rate_fmt" = "%@ / sekunda";
 
 /* 🚀 Sale Now On! 🚀 */
-"prompt_sale_now_on_title" = "🚀 Sale Now On! 🚀";
+"prompt_sale_now_on_title" = "🚀 Trwa wyprzedaż! 🚀";
 
 /* Hi there! Strongbox Pro is now 20% off for a very short period only.\n\nWould you like to grab it now and support Strongbox development? Go on, treat yourself! 😎 */
-"prompt_sale_now_on_message" = "Hi there! Strongbox Pro is now 20% off for a very short period only.\n\nWould you like to grab it now and support Strongbox development? Go on, treat yourself! 😎";
+"prompt_sale_now_on_message" = "Cześć! Przez krótki czas Strongbox Pro będzie dostępne 20% taniej.\n\nCzy chciałbyś skorzystać, wspierając programistę aplikacji?";
 
 /* 🚀 20% Off Sale 🚀 Go Pro Now 🔥 */
-"safesvc_upgrade_button_sale_now_on_title" = "🚀 20% Off Sale 🚀 Go Pro Now 🔥";
+"safesvc_upgrade_button_sale_now_on_title" = "🚀 20% Zniżki 🚀 Zdobądź Pro teraz 🔥";
 
 /* Visible in Search - L10n Note: This indicates whether this item will show up in search results. It depends on whether the user has marked any of the parent folders/groups as Search Enabled or Disabled. The value will be Yes or No. e.g. Visible in Search: Yes */
-"item_properties_search_visible_state" = "Visible in Search";
+"item_properties_search_visible_state" = "Widoczne w wyszukiwarce";
 
 /* Is Expanded - L10n Note: Indicates whether a folder is in an expanded or collapsed state in the MacOS/Windows/Desktop UI. Value will be Yes or No. */
-"item_properties_is_expanded" = "Is Expanded";
+"item_properties_is_expanded" = "Rozszerzony";
 
 /* Group Expanded state will change. */
-"diff_drill_down_is_expanded_will_change" = "Group Expanded state will change.";
+"diff_drill_down_is_expanded_will_change" = "Status rozszerzenia grupy ulegnie zmianie.";
 
 /* Group Expanded states are different. */
 "diff_drill_down_expanded_states_are_different" = "Statusy rozszerzenia grupy są inne.";
 
 /* Previous Parent Group */
-"item_properties_previous_parent_group" = "Previous Parent Group";
+"item_properties_previous_parent_group" = "Poprzednia grupa nadrzędna";
 
 /* %@ & PIN - L10n Note: The first parameter is automatically be replaced by the appropriate biometric name for the device (i.e. Face ID or Touch ID) - So the string will look like e.g. 'Face ID & PIN' */
-"convenience_unlock_preferences_title_fmt" = "%@ & PIN";
+"convenience_unlock_preferences_title_fmt" = "%@ oraz PIN";
 
 /* Require After */
-"convenience_unlock_require_after_prefix" = "Require After";
+"convenience_unlock_require_after_prefix" = "Wymagaj po";
 
 /* It's time now to re-enter your Master Password manually. You can change this reminder interval in Database Settings. */
-"composite_key_determiner_convenience_expired_message" = "It's time now to re-enter your Master Password manually. You can change this reminder interval in Database Settings.";
+"composite_key_determiner_convenience_expired_message" = "Musisz teraz ręcznie wprowadzić swoje hasło główne. Możesz wybrać, po jakim czasie hasło ma wygasać w ustawieniach bazy danych.";
 
 /* Got it! */
 "generic_got_it" = "Rozumiem!";
@@ -4326,85 +4326,85 @@
 "generic_preferences" = "Ustawienia";
 
 /* Rearrange - L10n - Verb - to re-order or otherwise change the order of a list of items */
-"generic_rearrange" = "Rearrange";
+"generic_rearrange" = "Zmień kolejność";
 
 /* Typing your master password is slow, cumbersome and error prone. Strongbox can help you to conveniently and securely unlock your database so that you don't need to enter your master password all the time.\n\nWould you like to use Convenience Unlock? */
-"onboarding_convenience_message_fmt" = "Typing your master password is slow, cumbersome and error prone. Strongbox can help you to securely & quickly unlock your database without needing to use your master password every time.\n\nWould you like to use Convenience Unlock?";
+"onboarding_convenience_message_fmt" = "Wpisywanie hasła głównego jest powolne i uciążliwe. Strongbox może Ci pomóc bezpiecznie i szybko odblokować bazę danych bez konieczności używania hasła głównego za każdym razem.\n\nCzy chcesz użyć Wygodnego Odblokowania?";
 
 /* Dismiss - L10n Note: Generic Action to dismiss a dialog or popup */
 "generic_dismiss" = "Odrzuć";
 
 /* There is a configuration issue you should be aware of. You are using %@ for both App Lock and Quick Launch. In addition you allow device passcode fallback for App Lock.\n\nThis leads to a situation where you can unlock your database using only your device passcode.\n\nIf you do not want this you can do any of the following: Disable App Lock passcode fallback, or Quick Launch, or %@ Database Unlock, or coalescing of unlocks - L10n Note: 3 format parameters here are identical and will be either 'Face ID' or 'Touch ID' */
-"app_lock_coalescing_with_quick_launch_warning" = "There is a configuration issue you should be aware of. You are using %@ for both App Lock and Quick Launch. In addition you allow device passcode fallback for App Lock.\n\nThis leads to a situation where you can unlock your database using only your device passcode.\n\nIf you do not want this you can do any of the following: Disable App Lock passcode fallback, or Quick Launch, or %@ Database Unlock, or coalescing of unlocks.";
+"app_lock_coalescing_with_quick_launch_warning" = "Aplikacja została skonfigurowana w specyficzny sposób, o czym powinieneś wiedzieć. Używasz %@ zarówno do odblokowania aplikacji, jak i bazy danych. Jednocześnie masz skonfigurowane odblokowanie aplikacji kodem.\n\nProwadzi to do sytuacji, w której można odblokować bazę danych podając tylko kod do urządzenia.\n\nJeśli nie chcesz, aby było to możliwe wyłącz: jednoczesne uwierzytelnienie, odblokowanie aplikacje kodem, odblkowanie %@ lub szybkie uruchomienie.";
 
 /* Configuration Issue */
-"onboarding_configuration_issue_title" = "Configuration Issue";
+"onboarding_configuration_issue_title" = "Problem z konfiguracją";
 
 /* Let's Go - L10n Note: Generic Action Button to get started, similar to OK, but more friendly and indicates progression */
-"generic_lets_go" = "Let's Go";
+"generic_lets_go" = "Zaczynajmy";
 
 /* Ready to Launch */
-"onboarding_ready_to_launch_title" = "Ready to Launch";
+"onboarding_ready_to_launch_title" = "Gotowy do uruchomienia";
 
 /* You're all set to get the best out of Strongbox.\n\nDon't forget you can always tweak these settings at any time. */
-"onboarding_ready_to_launch_message" = "You're all set to get the best out of Strongbox.\n\nDon't forget you can always tweak these settings at any time.";
+"onboarding_ready_to_launch_message" = "Wszystko gotowe, aby uzyskać najlepsze wrażenia ze Strongbox.\n\nPamiętaj, że możesz dostosować te ustawienia w dowolnym momencie.";
 
 /* Scheduled Export */
 "onboarding_scheduled_export_title" = "Planowany eksport";
 
 /* It's always a good idea to keep backups, especially external ones. Strongbox can remind you to export your database every so often.\n\nWould you like Strongbox to prompt you to export your database if it has been a while? */
-"onboarding_scheduled_export_message" = "It's always a good idea to keep backups, especially external ones. Strongbox can remind you to export your database every so often.\n\nWould you like Strongbox to prompt you to export your database if it has been a while?";
+"onboarding_scheduled_export_message" = "Zawsze warto trzymać kopie zapasowe, najlepiej w zewnętrznej lokalizacji. Strongbox może co pewien czas przypominać Ci o eksporcie bazy danych.\n\nCzy chciałbyś, aby Strongbox poprosił Cię o eksport bazy danych, jeśli minie trochę czasu?";
 
 /* Remind me after 2 weeks */
-"onboarding_scheduled_export_onboarding_remind_2_weeks" = "Remind me after 2 weeks";
+"onboarding_scheduled_export_onboarding_remind_2_weeks" = "Przypomnij mi po 2 tygodniach";
 
 /* Remind me after 4 weeks */
-"onboarding_scheduled_export_onboarding_remind_4_weeks" = "Remind me after 4 weeks";
+"onboarding_scheduled_export_onboarding_remind_4_weeks" = "Przypomnij mi po 4 tygodniach";
 
 /* Don't Remind Me */
 "generic_dont_remind_me" = "Nie przypominaj mi";
 
 /* It's time to export a backup copy of your database somewhere safe.\n\nWould you like do that now? */
-"scheduled_export_message" = "It's time to export a backup copy of your database somewhere safe.\n\nWould you like do that now?";
+"scheduled_export_message" = "Czas wyeksportować kopię zapasową bazy danych w bezpiecznym miejscu.\n\nCzy chcesz to zrobić teraz?";
 
 /* Postpone */
-"generic_postpone" = "Postpone";
+"generic_postpone" = "Odłóż";
 
 /* iCloud Create Database Error */
-"icloud_create_issue_title" = "iCloud Create Database Error";
+"icloud_create_issue_title" = "Błąd tworzenia bazy danych w iCloud";
 
 /* Strongbox could not create a new iCloud Database for you, most likely because the Strongbox iCloud folder has been deleted.\n\nYou can find out how to fix this issue below. */
-"icloud_create_issue_message" = "Strongbox could not create a new iCloud Database for you, most likely because the Strongbox iCloud folder has been deleted.\n\nYou can find out how to fix this issue below.";
+"icloud_create_issue_message" = "Strongbox nie mógł utworzyć dla Ciebie nowej bazy danych iCloud najprawdopodobniej dlatego, że folder Strongbox iCloud został usunięty.\n\nPoniżej możesz dowiedzieć się, jak rozwiązać ten problem.";
 
 /* How do I fix this? */
-"icloud_create_issue_fix" = "How do I fix this?";
+"icloud_create_issue_fix" = "Jak to naprawić?";
 
 /* Create local database instead */
-"icloud_create_issue_local_instead" = "Create local database instead";
+"icloud_create_issue_local_instead" = "Zamiast tego utwórz lokalną bazę danych";
 
 /* Copied - L10n Note: This means a string has just been copied to the clipboard. Used to notify user via a toast message or similar. */
-"generic_copied" = "Copied";
+"generic_copied" = "Skopiowano";
 
 /* Scheduled Export Interval */
-"prefs_vc_scheduled_export_interval" = "Scheduled Export Interval";
+"prefs_vc_scheduled_export_interval" = "Przedział zaplanowanego eksportu";
 
 /* Welcome Aboard */
 "onboarding_welcome_to_strongbox_first_run_title" = "Witamy";
 
 /* Hi there, and welcome to Strongbox 😎\n\nWe're sure you're excited to get started, but first, there are a few steps we should take so that everything runs smoothly... */
-"onboarding_welcome_to_strongbox_first_run_message" = "Hi there, and welcome to Strongbox 😎\n\nWe're sure you're excited to get started, but first, there are a few steps we should take so that everything runs smoothly...";
+"onboarding_welcome_to_strongbox_first_run_message" = "Witaj w Strongbox 😎\n\nJesteśmy pewni, że chciałbyś już rozpocząć, ale najpierw powinniśmy sprawdzić kilka rzeczy, aby wszystko działało sprawnie...";
 
 /* Don't Use iCloud */
-"prefs_vc_dont_use_icloud_action" = "Don't Use iCloud";
+"prefs_vc_dont_use_icloud_action" = "Nie używaj iCloud";
 
 /* Get Started */
-"generic_get_started" = "Get Started";
+"generic_get_started" = "Rozpocznij";
 
 /* You're All Set! */
 "generic_youre_all_set" = "Wszystko gotowe!";
 
 /* Next up, we'll take you to your regular Databases screen.\n\nFrom here, we'll help you add your first password database.\n\n❤️ The Strongbox Team ❤️ */
-"onboarding_welcome_to_strongbox_first_run_final_message" = "Next up, we'll take you to your regular Databases screen.\n\nFrom here, we'll help you add your first password database.\n\n❤️ The Strongbox Team ❤️";
+"onboarding_welcome_to_strongbox_first_run_final_message" = "Za chwilę, przeniesiemy cię do twojej bazy danych.\n\nOd tego miejsca pomożemy Ci dodać swoją pierwszą bazę haseł.\n\n❤️ Zespół Strongbox ❤️";
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 /* Fix the format string crashes that are possible when these are incorrectly localized */
@@ -4413,48 +4413,48 @@
 "casg_suggested_database_name_users_database_number_suffix_fmt2" = "%@'s Database %@";
 
 /* About Strongbox %@ (Pro Trial - %@ days left)  - (Tranlators Note: 1st param is the version number and 2nd is number of days left in the Free Trial, e.g. 'About Strongbox 1.52.20 (Pro Trial - 75 days left)')  */
-"prefs_vc_app_version_info_pro_trial_fmt2" = "About Strongbox %@ (Pro Trial - %@ days left)";
+"prefs_vc_app_version_info_pro_trial_fmt2" = "O Strongbox %@ (wersja próbna - pozostało %@ dni)";
 
 /* %@ / month (Save %@%%)  - (Tranlators Note: Price per month and percentage savings indicator. e.g. $1.99/month (Save 20%)). Currency, percentage and price formatting is automatic. */
-"upgrade_vc_price_per_month_with_percentage_saving_fmt2" = "%@ / month (Save %@%%)";
+"upgrade_vc_price_per_month_with_percentage_saving_fmt2" = "%@ / miesiąc (zaoszczędź %@%%)";
 
 /* Original (%@ x %@) %@  - (Tranlators Note: Attachment Image Size (Dimensions and File Size), e.g. 'Original: (2048x2048) 24.2 MB')  */
-"add_attachment_vc_large_image_prompt_option_original_size_fmt2" = "Original (%@ x %@) %@";
+"add_attachment_vc_large_image_prompt_option_original_size_fmt2" = "Oryginalny (%@ x %@) %@";
 
 /* Use Anyway (%@ x %@) %@  - (Tranlators Note: Attachment Image Size (Dimensions and File Size), e.g. 'Use Anyway: (2048x2048) 24.2 MB')  */
-"add_attachment_vc_large_image_prompt_option_use_anyway_size_fmt2" = "Use Anyway (%@ x %@) %@";
+"add_attachment_vc_large_image_prompt_option_use_anyway_size_fmt2" = "Użyj mimo to (%@ x %@) %@";
 
 /* This is a rather large image (%@x%@), would you like to rescale it to a maximum dimension of %@ pixels for a file size saving of roughly %@  - (Tranlators Note: Message about reducing the file size of an image. e.g. 'This is a rather large image (4096x4096), would you like to rescale it to a maximum dimension of 512 pixels for a file size saving of roughly 15 MB')  */
-"set_icon_vc_prompt_rescale_image_message_fmt2" = "This is a rather large image (%@x%@), would you like to rescale it to a maximum dimension of %@ pixels for a file size saving of roughly %@";
+"set_icon_vc_prompt_rescale_image_message_fmt2" = "To jest dość duży obraz (%@x%@), chciałbyś przeskalować go do maksymalnej wielkości %@ pikseli, żeby rozmiar pliku wynosił w przybliżeniu %@";
 
 /* Backup %@ (%@) - Translators Note: 1st Param is a number/integer, second parameter is the modified date, so e.g. 'Backup 4 (11 Nov 2020)'*/
-"backups_backup_title_fmt2" = "Backup %@ (%@)";
+"backups_backup_title_fmt2" = "Kopia zapasowa %@ (%@)";
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 /* Strongbox has been downgraded from Pro.\n\nDon't worry, all your databases are still available, but some convenient features (e.g. %@) may no longer work.\n\nThis is probably because your trial or subscription has just ended.\n\nWe'd love if you could support us by upgrading to Pro.\n\nWould you like to do that now? */
 
-"upgrade_mgr_downgrade_message" = "Strongbox has been downgraded from Pro.\n\nDon't worry, all your databases are still available, but some convenient features (e.g. %@) will no longer work.\n\nThis is probably because your trial or subscription has just ended.\n\nWe'd love if you could support us by upgrading to Pro.\n\nWould you like to do that now?";
+"upgrade_mgr_downgrade_message" = "Nie masz już dostępu do wersji Pro.\n\nPrawdopodobnie dlatego, że Twój okres próbny lub subskrypcja właśnie się zakończyły.\n\nNie martw się, wszystkie twoje bazy danych są nadal dostępne, ale niektóre wygodne funkcje (np. %@) nie będą już działać.\n\nByłoby nam miło, gdybyś wsparł nas kupując wersję Pro.\n\nCzy chcesz to zrobić teraz?";
 
 /* Upgrade... (L10n: A verb, To Upgrade, followed by ellipsis) */
-"generic_upgrade_ellipsis" = "Upgrade...";
+"generic_upgrade_ellipsis" = "Ulepsz...";
 
 /* Free Trial Ending Soon */
-"upgrade_onboarding_free_trial_ending_soon_title" = "Free Trial Ending Soon";
+"upgrade_onboarding_free_trial_ending_soon_title" = "Bezpłatny okres próbny wkrótce się zakończy";
 
 /* Your free trial of Strongbox Pro will end next week, and we wouldn't want you to lose any of the cool Pro features.\n\nWould you like to support Strongbox and take a look at some of the Upgrade options? */
-"upgrade_onboarding_free_trial_ending_soon_message" = "Your free trial of Strongbox Pro will end next week, and we wouldn't want you to lose any of the cool Pro features.\n\nWould you like to support Strongbox and take a look at some of the Upgrade options?";
+"upgrade_onboarding_free_trial_ending_soon_message" = "Twój darmowy okres próbny Strongbox Pro zakończy się w przyszłym tygodniu, a my nie chcielibyśmy, abyś stracił jakąkolwiek fajną funkcję Pro.\n\nCzy chcesz wesprzeć Strongbox i sprawdzić opcje aktualizacji?";
 
 /* Strongbox could not find a QR Code in this image. */
-"could_not_find_qr_code" = "Strongbox could not find a QR Code in this image.";
+"could_not_find_qr_code" = "Strongbox nie mógł znaleźć kodu QR na tym obrazku.";
 
 /* Scan QR Code with Camera */
-"scan_qr_code_from_camera" = "Scan QR Code with Camera";
+"scan_qr_code_from_camera" = "Zeskanuj kod QR za pomocą kamery";
 
 /* Would you like to sync before exporting to ensure you have the latest version of your database? */
-"sync_before_export_question_yes_no" = "Would you like to sync before exporting to ensure you have the latest version of your database?";
+"sync_before_export_question_yes_no" = "Czy chcesz zsynchronizować przed eksportem, aby upewnić się, że masz najnowszą wersję bazy danych?";
 
 /* This database is already open. Please close it first if you would like to open it in a different mode. */
-"database_already_open_please_close" = "This database is already open. Please close it first if you would like to open it in a different mode.";
+"database_already_open_please_close" = "Ta baza danych jest już otwarta. Zamknij ją najpierw, jeśli chcesz otworzyć ją w innym trybie.";
 
 /* Offline - L10n note: this is an adjective, meaning the current database has been opened in Offline mode */
 "database_offline_mode_window_suffix" = "Offline";
