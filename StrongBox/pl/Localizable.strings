@@ -815,6 +815,12 @@
 /* %@/month */
 "upgrade_vc_price_per_month_fmt" = "%@ /miesiąc";
 
+/* %@/month */
+"upgrade_vc_price_per_year_fmt" = "%@ / rok";
+
+/* (Save %@%%) - L10n Note: This is a percentage saved by choosing a yearly subscription over a monthly subscription, it will look like "(Save 56%)" */
+"upgrade_vc_percentage_saving_fmt" = "(Oszczędź %@%%)";
+
 /* %@/month (Save %d%%) */
 "upgrade_vc_price_per_month_with_percentage_saving_fmt" = "%@ / miesiąc (zaoszczędź %d%%)";
 
@@ -3251,7 +3257,7 @@
 "generic_biometric_unlock_fmt" = "Odblokowanie %@";
 
 /* By Default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok? */
-"backup_settings_prompt_message" = "Domyślnie Strongbox uwzględnia wszystkie lokalne pliki (wraz z kopiami baz danych) w kopiach zapasowych Apple. Natomiast dla bezpieczeństwa, pliki-klucze nie są uwzględnione.\n\nMożesz zmienić to w Ustawienia > Zaawansowane.\n\nCzy odpowiada ci to ustawienie?";
+"backup_settings_prompt_message" = "Domyślnie Strongbox uwzględnia wszystkie lokalne pliki (wraz z kopiami baz danych) w kopiach zapasowych Apple. Natomiast dla bezpieczeństwa, pliki-klucze nie zostaną uwzględnione.\n\nMożesz zmienić to w Ustawienia > Zaawansowane.\n\nCzy odpowiada ci to ustawienie?";
 
 /* Backup Settings */
 "backup_settings_prompt_title" = "Ustawienia kopii zapasowych";
@@ -4311,7 +4317,7 @@
 "convenience_unlock_require_after_prefix" = "Wymagaj po";
 
 /* It's time now to re-enter your Master Password manually. You can change this reminder interval in Database Settings. */
-"composite_key_determiner_convenience_expired_message" = "Musisz teraz ręcznie wprowadzić swoje hasło główne. Możesz wybrać, po jakim czasie hasło ma wygasać w ustawieniach bazy danych.";
+"composite_key_determiner_convenience_expired_message" = "Musisz teraz ręcznie wprowadzić swoje hasło główne. Możesz wybrać po jakim czasie hasło ma wygasać w ustawieniach bazy danych.";
 
 /* Got it! */
 "generic_got_it" = "Rozumiem!";
@@ -5033,10 +5039,94 @@
 "generic_apply_changes" = "Zastosuj zmiany";
 
 /* Pop Out Details - L10n Note: A user can "Pop Out" a Details window, which is usually embedded in a frame. Popping it out means it can be moved around independently of the main App window */
-"action_verb_popout_details_window" = "Pop Out Details";
+"action_verb_popout_details_window" = "Szczegóły w wyskakującym oknie";
 
 /* Float on Top - L10n Note: This is when a user can PIN a window, or make it float on top of other windows */
-"window_toggle_float_on_top" = "Float on Top";
+"window_toggle_float_on_top" = "Zawsze na wierzchu";
 
 /* Notes (Partially) Copied */
-"mac_notes_partially_copied_to_clipboard" = "Notes (Partially) Copied";
+"mac_notes_partially_copied_to_clipboard" = "Notatki (częściowo) skopiowane";
+
+/* Change My License... */
+"upgrade_vc_change_my_license" = "Zarządzaj licencją...";
+
+/* Hi there 😎\n\nWe're excited you've decided to try us out and we just wanted to say thanks! So, without further ado, let's get started...\n\n❤️ The Strongbox Team ❤️ */
+"onboarding_welcome_to_strongbox_first_run_message_macos" = "Cześć\n\nCieszymy się, że zdecydowałeś wypróbować naszą aplikację. Nie przedłużając, zaczynajmy...\n\n❤️ Zespół Strongbox ❤️";
+
+/* Then %@ every year - L10n Note: The 1srt parameter is a price like "£12.99" - It is placed below a button that says "Redeem Your 90 Free Days" - So when they click that button they get 90 day free trial, then they pay £12.99 per year when the trial is over  */
+"price_per_year_after_free_trial_fmt" = "Następnie %@ rocznie";
+
+/* Upgrade to Pro */
+"generic_upgrade_to_pro" = "Ulepsz do Pro";
+
+/* Upgrade to Strongbox Pro and enjoy all these great features */
+"upgrade_body_text" = "Ulepsz do Strongbox Pro i ciesz się wszystkimi funkcjami";
+
+/* Face ID & PIN Code Unlock */
+"upgrade_vc_feature_face_id_pin_code" = "Face ID & PIN Code Unlock";
+
+/* Touch ID & PIN Code Unlock */
+"upgrade_vc_feature_touch_id_pin_code" = "Touch ID & PIN Code Unlock";
+
+/* Super Fast, Secure & Convenient */
+"upgrade_vc_feature_subtitle_biometric" = "Super Fast, Secure & Convenient";
+
+/* Use a YubiKey as a second factor */
+"upgrade_vc_feature_subtitle_yubikey" = "Use a YubiKey as a second factor";
+
+/* Advanced Auditing */
+"upgrade_vc_feature_auditing" = "Advanced Auditing";
+
+/* HIBP & Similar Passwords */
+"upgrade_vc_feature_subtitle_auditing" = "HIBP & Similar Passwords";
+
+/* Premium Support */
+"upgrade_vc_feature_support" = "Premium Support";
+
+/* We're here for you */
+"upgrade_vc_feature_subtitle_support" = "We're here for you";
+
+/* Compare & Merge */
+"upgrade_vc_feature_compare_and_merge" = "Porównaj i scal";
+
+/* View & Combine Revisions */
+"upgrade_vc_feature_subtitle_compare_and_merge" = "View & Combine Revisions";
+
+/* Offline Editing */
+"upgrade_vc_feature_offline_editing" = "Edycja w trybie offline";
+
+/* Edit Offline, Sync Later */
+"upgrade_vc_feature_subtitle_offline_editing" = "Edit Offline, Sync Later";
+
+/* Custom App Icons */
+"upgrade_vc_feature_custom_app_icon" = "Custom App Icons";
+
+/* Customize your Strongbox */
+"upgrade_vc_feature_subtitle_custom_app_icon" = "Customize your Strongbox";
+
+/* Favicon Downloader */
+"upgrade_vc_feature_favicon_downloader" = "Favicon Downloader";
+
+/* Make your entries stand out */
+"upgrade_vc_feature_subtitle_favicon_downloader" = "Make your entries stand out";
+
+/* Support Indie Development */
+"upgrade_vc_feature_support_indie" = "Wesprzyj niezależnego programistę";
+
+/* Help us stay awesome! */
+"upgrade_vc_feature_subtitle_support_indie" = "Help us stay awesome!";
+
+/* then %@ every year - L10n note, the 1st parameter is a price like "£12.99" */
+"upgrade_vc_price_per_year_with_free_trial_fmt" = "then %@ every year";
+
+/* Strongbox is now available for both iOS and macOS as a unified App.\n\nIf you have already purchased Strongbox then click 'Restore' below.\n\nIf you are new and want to Upgrade, the best way to do that is via the unified Strongbox app. Click 'View Strongbox Unified App' below to view on the App Store. */
+"upgrade_vc_strongbox_unified_message" = "Strongbox is now available for both iOS and macOS as a unified App.\n\nIf you have already purchased Strongbox then click 'Restore' below.\n\nIf you are new and want to Upgrade, the best way to do that is via the unified Strongbox app. Click 'View Strongbox Unified App' below to view on the App Store.";
+
+/* Strongbox Upgrade Options */
+"upgrade_vc_old_freemium_upgrade_options_title" = "Strongbox Upgrade Options";
+
+/* View Strongbox Unified */
+"upgrade_vc_old_freemium_upgrade_view_unified" = "View Strongbox Unified";
+
+/* Restore My Pro Purchase */
+"upgrade_vc_old_freemium_upgrade_restore_pro" = "Restore My Pro Purchase";

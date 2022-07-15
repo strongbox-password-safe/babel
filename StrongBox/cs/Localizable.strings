@@ -815,6 +815,12 @@
 /* %@/month */
 "upgrade_vc_price_per_month_fmt" = "%@ / měsíc";
 
+/* %@/month */
+"upgrade_vc_price_per_year_fmt" = "%@ / rok";
+
+/* (Save %@%%) - L10n Note: This is a percentage saved by choosing a yearly subscription over a monthly subscription, it will look like "(Save 56%)" */
+"upgrade_vc_percentage_saving_fmt" = "(ušetříte %@%%)";
+
 /* %@/month (Save %d%%) */
 "upgrade_vc_price_per_month_with_percentage_saving_fmt" = "%@ /měsíc (ušetříte %d%%)";
 
@@ -5030,13 +5036,97 @@
 "onedrive_readd_required" = "Kvůli aktualizaci Microsoft SDK musíte znovu přidat databázi na OneDrive.\n\nKlepněte na OK a vyberte databázi na OneDrive...";
 
 /* Apply Changes */
-"generic_apply_changes" = "Apply Changes";
+"generic_apply_changes" = "Uložit změny";
 
 /* Pop Out Details - L10n Note: A user can "Pop Out" a Details window, which is usually embedded in a frame. Popping it out means it can be moved around independently of the main App window */
-"action_verb_popout_details_window" = "Pop Out Details";
+"action_verb_popout_details_window" = "Podrobnosti vyskakovacího okna";
 
 /* Float on Top - L10n Note: This is when a user can PIN a window, or make it float on top of other windows */
-"window_toggle_float_on_top" = "Float on Top";
+"window_toggle_float_on_top" = "Plovoucí v popředí";
 
 /* Notes (Partially) Copied */
-"mac_notes_partially_copied_to_clipboard" = "Notes (Partially) Copied";
+"mac_notes_partially_copied_to_clipboard" = "Poznámky (částečně) zkopírovány";
+
+/* Change My License... */
+"upgrade_vc_change_my_license" = "Změnit moji licenci...";
+
+/* Hi there 😎\n\nWe're excited you've decided to try us out and we just wanted to say thanks! So, without further ado, let's get started...\n\n❤️ The Strongbox Team ❤️ */
+"onboarding_welcome_to_strongbox_first_run_message_macos" = "Dobrý den 😎\n\nJsme rádi, že jste se rozhodli nás vyzkoušet a chtěli jsme vám jen poděkovat! Takže bez dalších řečí začneme...\n\n❤️ Tým Strongbox ❤️";
+
+/* Then %@ every year - L10n Note: The 1srt parameter is a price like "£12.99" - It is placed below a button that says "Redeem Your 90 Free Days" - So when they click that button they get 90 day free trial, then they pay £12.99 per year when the trial is over  */
+"price_per_year_after_free_trial_fmt" = "Poté %@ každý rok";
+
+/* Upgrade to Pro */
+"generic_upgrade_to_pro" = "Upgradovat na Pro";
+
+/* Upgrade to Strongbox Pro and enjoy all these great features */
+"upgrade_body_text" = "Upgradujte na Strongbox Pro a užijte si všechny tyto skvělé funkce";
+
+/* Face ID & PIN Code Unlock */
+"upgrade_vc_feature_face_id_pin_code" = "Odemknutí Face ID a PIN kódem";
+
+/* Touch ID & PIN Code Unlock */
+"upgrade_vc_feature_touch_id_pin_code" = "Odemknutí Touch ID a PIN kódem";
+
+/* Super Fast, Secure & Convenient */
+"upgrade_vc_feature_subtitle_biometric" = "Super rychlý, bezpečný a pohodlný";
+
+/* Use a YubiKey as a second factor */
+"upgrade_vc_feature_subtitle_yubikey" = "Použít YubiKey jako druhý faktor";
+
+/* Advanced Auditing */
+"upgrade_vc_feature_auditing" = "Pokročilý audit";
+
+/* HIBP & Similar Passwords */
+"upgrade_vc_feature_subtitle_auditing" = "HIBP & podobná hesla";
+
+/* Premium Support */
+"upgrade_vc_feature_support" = "Prémiová podpora";
+
+/* We're here for you */
+"upgrade_vc_feature_subtitle_support" = "Jsme tu pro vás";
+
+/* Compare & Merge */
+"upgrade_vc_feature_compare_and_merge" = "Porovnat & sloučit";
+
+/* View & Combine Revisions */
+"upgrade_vc_feature_subtitle_compare_and_merge" = "Zobrazit a kombinovat revize";
+
+/* Offline Editing */
+"upgrade_vc_feature_offline_editing" = "Úprava offline";
+
+/* Edit Offline, Sync Later */
+"upgrade_vc_feature_subtitle_offline_editing" = "Upravit offline, synchronizovat později";
+
+/* Custom App Icons */
+"upgrade_vc_feature_custom_app_icon" = "Vlastní ikony aplikací";
+
+/* Customize your Strongbox */
+"upgrade_vc_feature_subtitle_custom_app_icon" = "Přizpůsobte si svůj Strongbox";
+
+/* Favicon Downloader */
+"upgrade_vc_feature_favicon_downloader" = "Stahování oblíbených ikon";
+
+/* Make your entries stand out */
+"upgrade_vc_feature_subtitle_favicon_downloader" = "Nechte své záznamy vyniknout";
+
+/* Support Indie Development */
+"upgrade_vc_feature_support_indie" = "Podpora nezávislého vývoje";
+
+/* Help us stay awesome! */
+"upgrade_vc_feature_subtitle_support_indie" = "Pomozte nám zůstat úžasnými!";
+
+/* then %@ every year - L10n note, the 1st parameter is a price like "£12.99" */
+"upgrade_vc_price_per_year_with_free_trial_fmt" = "poté %@ každý rok";
+
+/* Strongbox is now available for both iOS and macOS as a unified App.\n\nIf you have already purchased Strongbox then click 'Restore' below.\n\nIf you are new and want to Upgrade, the best way to do that is via the unified Strongbox app. Click 'View Strongbox Unified App' below to view on the App Store. */
+"upgrade_vc_strongbox_unified_message" = "Strongbox is now available for both iOS and macOS as a unified App.\n\nIf you have already purchased Strongbox then click 'Restore' below.\n\nIf you are new and want to Upgrade, the best way to do that is via the unified Strongbox app. Click 'View Strongbox Unified App' below to view on the App Store.";
+
+/* Strongbox Upgrade Options */
+"upgrade_vc_old_freemium_upgrade_options_title" = "Strongbox Upgrade Options";
+
+/* View Strongbox Unified */
+"upgrade_vc_old_freemium_upgrade_view_unified" = "View Strongbox Unified";
+
+/* Restore My Pro Purchase */
+"upgrade_vc_old_freemium_upgrade_restore_pro" = "Restore My Pro Purchase";

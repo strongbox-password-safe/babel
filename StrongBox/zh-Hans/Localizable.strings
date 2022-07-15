@@ -504,7 +504,7 @@
 "db_management_biometric_unlock_fmt" = "%@ 解锁";
 
 /* %@ Unlock (Pro Only) */
-"db_management_biometric_unlock_fmt_pro_only" = "%@ 解锁(仅限 Pro)";
+"db_management_biometric_unlock_fmt_pro_only" = "%@ 解锁（仅限 Pro）";
 
 /* Change Master Credentials */
 "db_management_change_master_credentials" = "更改主凭据";
@@ -815,6 +815,12 @@
 /* %@/month */
 "upgrade_vc_price_per_month_fmt" = "%@ / 月";
 
+/* %@/month */
+"upgrade_vc_price_per_year_fmt" = "%@ / 年";
+
+/* (Save %@%%) - L10n Note: This is a percentage saved by choosing a yearly subscription over a monthly subscription, it will look like "(Save 56%)" */
+"upgrade_vc_percentage_saving_fmt" = "（节省 %@%%）";
+
 /* %@/month (Save %d%%) */
 "upgrade_vc_price_per_month_with_percentage_saving_fmt" = "%@ / 月 (节省 %d%%)";
 
@@ -976,7 +982,7 @@
 "pins_config_vc_label_remove_database_warning" = "注意：数据库文件将保留在远程服务器上。";
 
 /* PIN Codes (Pro Feature Only) */
-"pins_config_vc_title_pro_only" = "PIN 码 (Pro 专有功能)";
+"pins_config_vc_title_pro_only" = "PIN 码（仅限 Pro）";
 
 /* Turning the PIN Off for this database will remove the securely stored password and you will have to enter it again. Are you sure you want to do this? */
 "pins_config_vc_turn_pin_off_warning" = "禁用此数据库的 PIN 码将会删除安全存储的密码，您必须再次输入密码。确定要这样做吗？";
@@ -1193,7 +1199,7 @@
 "set_icon_vc_icon_source_download_favicon" = "下载网页图标";
 
 /* Download FavIcon (Pro Only) */
-"set_icon_vc_icon_source_download_favicon_pro_only" = "下载网页图标(仅限 Pro)";
+"set_icon_vc_icon_source_download_favicon_pro_only" = "下载网页图标（仅限 Pro）";
 
 /* Downloading FavIcon */
 "set_icon_vc_progress_downloading_favicon" = "网页图标下载中";
@@ -2457,7 +2463,7 @@
 "mac_untitled_database_filename_fmt" = "未命名 %@";
 
 /* - (Pro Upgrade Available) */
-"mac_free_trial_window_title_suffix" = " - (Pro 版升级可用)";
+"mac_free_trial_window_title_suffix" = " - （Pro 版升级可用）";
 
 /* - [%ld 'Pro' Days Left] - Translators Note - 1st Param is number of days left in the Pro trial */
 "mac_pro_days_left_window_title_suffix_fmt" = " - [Pro 版剩余天数 %ld]";
@@ -3077,7 +3083,7 @@
 "audit_hibp_online_check_interval" = "选择联机检查间隔";
 
 /* Have I Been Pwned? (Pro Edition Only) */
-"audit_hibp_pro_only_title" = "Have I Been Pwned? (仅限 Pro 版本)";
+"audit_hibp_pro_only_title" = "Have I Been Pwned?（仅限 Pro 版本）";
 
 /* Auto Fetch FavIcon? */
 "item_details_prompt_auto_fetch_favicon_title" = "自动获取网页图标？";
@@ -3251,7 +3257,7 @@
 "generic_biometric_unlock_fmt" = "%@ 解锁";
 
 /* By Default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok? */
-"backup_settings_prompt_message" = "默认情况下，Strongbox 将您所有的本地文档（包括数据库备份）和本地设备数据库都在在该设备的 Apple 备份中进行保存，但出于安全考虑，导入的密钥文件不包括在内。\n\n您随时可以在偏好设置中更改这些设置。\n\n这样合您心意吗？";
+"backup_settings_prompt_message" = "默认情况下，Strongbox 会将您的所有本地文件（包括数据库备份）和本地设备数据库都保存在该设备的 Apple 备份中。但出于安全考虑，导入的密钥文件不包括在内。\n\n您随时可以在偏好设置 > 高级设置中更改这些设置。\n\n这样合您心意吗？";
 
 /* Backup Settings */
 "backup_settings_prompt_title" = "备份设置";
@@ -5033,10 +5039,94 @@
 "generic_apply_changes" = "应用更改";
 
 /* Pop Out Details - L10n Note: A user can "Pop Out" a Details window, which is usually embedded in a frame. Popping it out means it can be moved around independently of the main App window */
-"action_verb_popout_details_window" = "Pop Out Details";
+"action_verb_popout_details_window" = "弹出详情";
 
 /* Float on Top - L10n Note: This is when a user can PIN a window, or make it float on top of other windows */
-"window_toggle_float_on_top" = "Float on Top";
+"window_toggle_float_on_top" = "窗口置顶";
 
 /* Notes (Partially) Copied */
-"mac_notes_partially_copied_to_clipboard" = "Notes (Partially) Copied";
+"mac_notes_partially_copied_to_clipboard" = "备注（部分）已复制";
+
+/* Change My License... */
+"upgrade_vc_change_my_license" = "更改我的许可证...";
+
+/* Hi there 😎\n\nWe're excited you've decided to try us out and we just wanted to say thanks! So, without further ado, let's get started...\n\n❤️ The Strongbox Team ❤️ */
+"onboarding_welcome_to_strongbox_first_run_message_macos" = "哈喽 😎\n\n很高兴您决定试用 Strongbox，谢谢！ 那么话不多说，让我们开始吧~\n\n❤️ The Strongbox Team ❤️";
+
+/* Then %@ every year - L10n Note: The 1srt parameter is a price like "£12.99" - It is placed below a button that says "Redeem Your 90 Free Days" - So when they click that button they get 90 day free trial, then they pay £12.99 per year when the trial is over  */
+"price_per_year_after_free_trial_fmt" = "然后每年 %@";
+
+/* Upgrade to Pro */
+"generic_upgrade_to_pro" = "升级到 Pro 版";
+
+/* Upgrade to Strongbox Pro and enjoy all these great features */
+"upgrade_body_text" = "升级到 Strongbox Pro 并享受所有这些超棒功能";
+
+/* Face ID & PIN Code Unlock */
+"upgrade_vc_feature_face_id_pin_code" = "面容ID 和 PIN码解锁";
+
+/* Touch ID & PIN Code Unlock */
+"upgrade_vc_feature_touch_id_pin_code" = "触控ID 和 PIN码解锁";
+
+/* Super Fast, Secure & Convenient */
+"upgrade_vc_feature_subtitle_biometric" = "超快，超安全，超方便";
+
+/* Use a YubiKey as a second factor */
+"upgrade_vc_feature_subtitle_yubikey" = "使用 YubiKey 作为第二个验证步骤";
+
+/* Advanced Auditing */
+"upgrade_vc_feature_auditing" = "高级审计";
+
+/* HIBP & Similar Passwords */
+"upgrade_vc_feature_subtitle_auditing" = "HIBP 和相似密码";
+
+/* Premium Support */
+"upgrade_vc_feature_support" = "高级支持";
+
+/* We're here for you */
+"upgrade_vc_feature_subtitle_support" = "需要帮助吗？";
+
+/* Compare & Merge */
+"upgrade_vc_feature_compare_and_merge" = "比较并合并";
+
+/* View & Combine Revisions */
+"upgrade_vc_feature_subtitle_compare_and_merge" = "查看和合并修改";
+
+/* Offline Editing */
+"upgrade_vc_feature_offline_editing" = "离线编辑";
+
+/* Edit Offline, Sync Later */
+"upgrade_vc_feature_subtitle_offline_editing" = "离线编辑，稍后同步";
+
+/* Custom App Icons */
+"upgrade_vc_feature_custom_app_icon" = "自定义应用图标";
+
+/* Customize your Strongbox */
+"upgrade_vc_feature_subtitle_custom_app_icon" = "自定义您的 Strongbox";
+
+/* Favicon Downloader */
+"upgrade_vc_feature_favicon_downloader" = "Favicon 下载器";
+
+/* Make your entries stand out */
+"upgrade_vc_feature_subtitle_favicon_downloader" = "使条目更醒目";
+
+/* Support Indie Development */
+"upgrade_vc_feature_support_indie" = "支持独立开发";
+
+/* Help us stay awesome! */
+"upgrade_vc_feature_subtitle_support_indie" = "帮助我们保持出色！";
+
+/* then %@ every year - L10n note, the 1st parameter is a price like "£12.99" */
+"upgrade_vc_price_per_year_with_free_trial_fmt" = "之后 %@/年";
+
+/* Strongbox is now available for both iOS and macOS as a unified App.\n\nIf you have already purchased Strongbox then click 'Restore' below.\n\nIf you are new and want to Upgrade, the best way to do that is via the unified Strongbox app. Click 'View Strongbox Unified App' below to view on the App Store. */
+"upgrade_vc_strongbox_unified_message" = "Strongbox 现在可作为通用 App 在 iOS 和 macOS 上使用。\n\n如果您购买过 Strongbox Pro 版，请点击下方的“恢复”按钮。\n\n如果您是新用户并想要使用 Pro 版，我们建议您在通用版 Strongbox 里进行升级。 点击下方“查看通用版 Strongbox”按钮以跳转到 App Store 并下载。";
+
+/* Strongbox Upgrade Options */
+"upgrade_vc_old_freemium_upgrade_options_title" = "Strongbox 升级选项";
+
+/* View Strongbox Unified */
+"upgrade_vc_old_freemium_upgrade_view_unified" = "查看通用版 Strongbox";
+
+/* Restore My Pro Purchase */
+"upgrade_vc_old_freemium_upgrade_restore_pro" = "恢复先前购买的 Pro 版";
