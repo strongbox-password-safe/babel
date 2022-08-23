@@ -522,7 +522,7 @@
 "db_management_disable_autofill_yesno_message" = "Möchten Sie das wirklich tun?";
 
 /* Disable AutoFill? */
-"db_management_disable_autofill_yesno_title" = "Autom. Ausfüllen deaktivieren?";
+"db_management_disable_autofill_yesno_title" = "Automatisches Ausfüllen deaktivieren?";
 
 /* %@ for this database has been disabled. */
 "db_management_disable_biometric_notify_message_fmt" = "%@ wurde für diese Datenbank deaktiviert.";
@@ -549,7 +549,7 @@
 "db_management_enable_biometric_notify_title_fmt" = "%@ aktiviert";
 
 /* AutoFill Enabled */
-"db_management_enable_done" = "Autom. Ausfüllen aktiviert";
+"db_management_enable_done" = "Automatisches Ausfüllen aktiviert";
 
 /* Could not change credentials */
 "db_management_error_title_couldnt_change_credentials" = "Zugangsdaten konnten nicht geändert werden";
@@ -1386,7 +1386,7 @@
 "open_sequence_problem_opening_title" = "Beim Öffnen der Datenbank ist ein Problem aufgetreten.";
 
 /* AutoFill Crash Likely */
-"open_sequence_autofill_creash_likely_title" = "Absturz des autom. Ausfüllens wahrscheinlich";
+"open_sequence_autofill_creash_likely_title" = "Automatisches Ausfüllen wahrscheinlich abgestürzt";
 
 /* Your database has encryption settings that may cause iOS Password AutoFill extensions to be terminated due to excessive resource consumption. This will mean AutoFill appears not to work. Unfortunately this is an Apple imposed limit. You could consider reducing the amount of resources consumed by your encryption settings (Memory in particular with Argon2 to below 64MB). */
 "open_sequence_autofill_creash_likely_message" = "Ihre Datenbank hat Verschlüsselungseinstellungen, die verursachen können, dass die Erweiterungen zum automatischen Ausfüllen von iOS-Passwörtern wegen übermäßigen Ressourcenverbrauch beendet werden. D. h., dass das automatische Ausfüllen nicht zu funktionieren scheint. Leider ist das ein Limit, das von Apple auferlegt wird. Sie könnten in Betracht ziehen, die verbrauchte Ressourcenmenge durch Ihre Verschlüsselungseinstellungen (insbesondere Speicher mit Argon2 auf unter 64 MB) zu reduzieren.";
@@ -2813,10 +2813,10 @@
 "casg_yubikey_configured_mfi" = "Lightning";
 
 /* AutoFill Crash Occurred */
-"autofill_did_not_close_cleanly_title" = "Absturz beim autom. Ausfüllen aufgetreten";
+"autofill_did_not_close_cleanly_title" = "Absturz beim automatischen Ausfüllen aufgetreten";
 
 /* It looks like the last time you used AutoFill you had a crash. This is usually due to a memory limitation. Please check your database file size and your Argon2 memory settings (should be <= 64MB) */
-"autofill_did_not_close_cleanly_message" = "Es sieht so aus, als ob Sie bei der letzten Verwendung des autom. Ausfüllens einen Absturz hatten. Dies ist in der Regel auf eine iOS-Speicherbeschränkung zurückzuführen. Bitte überprüfen Sie die Größe der Datenbankdatei und die Konfiguration des Argon2-Speichers (sollte <= 64 MB sein).";
+"autofill_did_not_close_cleanly_message" = "Es sieht so aus, als ob es bei der letzten Verwendung von AutoAusfüllen einen Absturz gab. Dies ist in der Regel auf eine iOS-Speicherbeschränkung zurückzuführen. Bitte überprüfen Sie die Größe der Datenbankdatei und die Einstellungen für den Argon2-Speicher (sollte ≦ 64MB sein)";
 
 /* Regenerate... */
 "password_generation_regenerate_ellipsis" = "Neu generieren ...";
@@ -3242,13 +3242,13 @@
 "autofill_error_unknown_db_title" = "Strongbox: Unbekannte Datenbank";
 
 /* This appears to be a reference to an older Strongbox database which can no longer be found. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill. */
-"autofill_error_unknown_db_message" = "Dies scheint ein Verweis auf eine ältere Strongbox-Datenbank zu sein, die nicht mehr gefunden werden kann. Strongbox' interne Datenbank für das autom. Ausfüllen wurde gelöscht, sodass Sie Ihre Datenbanken erneut öffnen müssen, um sie für das autom. Ausfüllen verwenden zu können.";
+"autofill_error_unknown_db_message" = "Dies scheint ein Verweis auf eine ältere Strongbox-Datenbank zu sein, die nicht mehr gefunden werden konnte. Die Datenbank zum automatischem Ausfüllen von Strongbox wurde jetzt geleert, so dass Sie Ihre Datenbanken erneut öffnen müssen, um sie für das autom. Ausfüllen verwenden zu können.";
 
 /* Strongbox: Error Locating Entry */
 "autofill_error_unknown_item_title" = "Strongbox: Fehler beim Finden des Eintrags";
 
 /* Strongbox could not find this entry, it is possibly stale. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill. */
-"autofill_error_unknown_item_message" = "Strongbox konnte diesen Eintrag nicht finden, da er möglicherweise veraltet ist. Strongbox' interne Datenbank für das autom. Ausfüllen wurde gelöscht, sodass Sie Ihre Datenbanken erneut öffnen müssen, um sie für das autom. Ausfüllen verwenden zu können.";
+"autofill_error_unknown_item_message" = "Strongbox konnte diesen Eintrag nicht finden, da er möglicherweise veraltet ist. Die Datenbank zum automatischen Ausfüllen von Strongbox wurde jetzt geleert, so dass Sie Ihre Datenbanken erneut öffnen müssen, um das Automatische Ausfüllen nutzen zu können.";
 
 /* Locating... */
 "generic_status_sp_locating_ellipsis" = "Wird lokalisiert ...";
@@ -3329,7 +3329,7 @@
 "autofill_vc_item_subtitle_local_copy_unavailable" = "Lokale Kopie nicht verfügbar";
 
 /* AutoFill Disabled */
-"autofill_vc_item_subtitle_disabled" = "Autom. Ausfüllen deaktiviert";
+"autofill_vc_item_subtitle_disabled" = "Automatisches Ausfüllen deaktiviert";
 
 /* Sync Required */
 "autofill_add_entry_sync_required_title" = "Synchronisation erforderlich";
@@ -5138,7 +5138,7 @@
 "generic_restart_required_for_changes_to_take_effect" = "Die Änderungen werden erst nach einem Neustart von Strongbox wirksam.";
 
 /* Relocate Database */
-"relocate_database_title" = "Relocate Database";
+"relocate_database_title" = "Datenbank neu zuweisen";
 
 /* Strongbox's reference to this database has become invalid or the database cannot be found.\n\nPlease reselect this database from your files for Strongbox. */
-"relocate_database_msg" = "Strongbox's reference to this database has become invalid or the database cannot be found.\n\nPlease reselect this database from your files for Strongbox.";
+"relocate_database_msg" = "Der Verweis von Strongbox auf diese Datenbank ist ungültig geworden oder die Datenbank konnte nicht gefunden werden.\n\nBitte wählen Sie diese Datenbank erneut aus Ihren Dateien für Strongbox aus.";
