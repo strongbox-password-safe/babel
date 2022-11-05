@@ -3893,7 +3893,7 @@
 "model_error_could_not_write_local_merge" = "技術エラー - 比較/マージ用にローカル・コピーを書き込めませんでした。";
 
 /* Cannot merge in background or without key. */
-"model_error_cannot_merge_in_background" = "マスター認証情報なしにはマージできません。";
+"model_error_cannot_merge_in_background" = "Cannot merge without credentials or in Background Sync mode. You must now do an Online Sync to resolve this conflict.";
 
 /* Are you sure you want to always Auto-Merge when you have a Sync Conflict like this? */
 "sync_are_you_sure_always_auto_merge" = "同期の競合が発生した場合でも、常に自動マージを実行しますか?";
