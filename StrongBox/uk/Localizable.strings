@@ -3893,7 +3893,7 @@
 "model_error_could_not_write_local_merge" = "Технічна помилка - Не вдається записати локальні копії для порівняння та об'єднання.";
 
 /* Cannot merge in background or without key. */
-"model_error_cannot_merge_in_background" = "Cannot merge without credentials or in Background Sync mode. You must now do an Online Sync to resolve this conflict.";
+"model_error_cannot_merge_in_background" = "Неможливо об'єднати у фоновому режимі синхронізації без облікових даних. Щоб розв'язати цей конфлікт, необхідно виконати онлайн-синхронізацію.";
 
 /* Are you sure you want to always Auto-Merge when you have a Sync Conflict like this? */
 "sync_are_you_sure_always_auto_merge" = "Ви дійсно хочете завжди автоматично об'єднувати при наявності таких конфліктів?";
@@ -5177,10 +5177,22 @@
 "nextgen_toolbar_settings_database_settings_ellipsis" = "Параметри бази даних...";
 
 /* Application Preferences... */
-"nextgen_toolbar_settings_application_preferences_ellipsis" = "Application Preferences...";
+"nextgen_toolbar_settings_application_preferences_ellipsis" = "Параметри програми...";
 
 /* Settings */
 "generic_settings" = "Параметри";
 
 /* Excluded Characters */
 "password_gen_vc_prompt_excluded_characters" = "Виключені символи";
+
+/* Ascending */
+"generic_sort_order_ascending" = "За зростанням";
+
+/* Descending */
+"generic_sort_order_descending" = "За спаданням";
+
+/* Custom */
+"generic_sort_order_custom" = "Custom";
+
+/* Sort: %@ - Localization Note: The 1st parameter will be the actual sort order, so e.g. "Sort: Ascending" */
+"sort_status_fmt" = "Sort: %@";
