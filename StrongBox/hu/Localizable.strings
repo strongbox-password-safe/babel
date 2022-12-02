@@ -153,10 +153,10 @@
 "safesvc_icloud_now_available_title" = "iCloud is Now Available";
 
 /* Use iCloud */
-"safesvc_option_use_icloud" = "Use iCloud";
+"safesvc_option_use_icloud" = "iCloud használata";
 
 /* Local Only */
-"safesvc_option_local_only" = "Local Only";
+"safesvc_option_local_only" = "Csak helyi";
 
 /* iCloud Available */
 "safesvc_icloud_available_title" = "iCloud Available";
@@ -168,7 +168,7 @@
 "safesvc_option_migrate_to_icloud" = "Migrálás az iCloudba";
 
 /* Keep Local */
-"safesvc_option_keep_local" = "Keep Local";
+"safesvc_option_keep_local" = "Tárolás helyben";
 
 /* iCloud Switched Off */
 "safesvc_icloud_unavailable_title" = "iCloud Switched Off";
@@ -183,7 +183,7 @@
 "safesvc_icloud_unavailable_option_make_local" = "Helyi másolat készítése";
 
 /* Switch iCloud Back On */
-"safesvc_icloud_unavailable_option_icloud_on" = "Switch iCloud Back On";
+"safesvc_icloud_unavailable_option_icloud_on" = "iCloud visszakapcsolása";
 
 /* Migrating... */
 "safesvc_icloud_migration_progress_title_migrating" = "Migrálás...";
@@ -195,13 +195,13 @@
 "safesvc_error_title_import_file_error_opening" = "Error Opening";
 
 /* Could not access this file. */
-"safesvc_error_message_import_file_error_opening" = "Could not access this file.";
+"safesvc_error_message_import_file_error_opening" = "Nem sikerült hozzáférni a fájlhoz.";
 
 /* Key File Imported */
-"safesvc_info_title_key_file_imported" = "Key File Imported";
+"safesvc_info_title_key_file_imported" = "Kulcsfájl importálva";
 
 /* This key file has been imported successfully. */
-"safesvc_info_message_key_file_imported" = "This key file has been imported successfully.";
+"safesvc_info_message_key_file_imported" = "Kulcsfájl sikeresen importálva.";
 
 /* Problem Importing Key File */
 "safesvc_error_title_error_importing_key_file" = "Probléma a kulcsfájl importálásakor";
@@ -210,22 +210,22 @@
 "safesvc_error_title_import_database_fmt" = "Érvénytelen adatbázis - [%@]";
 
 /* Edit or Copy? */
-"safesvc_import_database_prompt_title_edit_copy" = "Edit or Copy?";
+"safesvc_import_database_prompt_title_edit_copy" = "Szerkesztés vagy másolás?";
 
 /* Strongbox can attempt to edit this document in its current location and keep a reference or, if you'd prefer, Strongbox can just make a copy of this file for itself.\n\nWhich option would you like? */
-"safesvc_import_database_prompt_message" = "Strongbox can attempt to edit this document in its current location and keep a reference or, if you'd prefer, Strongbox can just make a copy of this file for itself.\n\nWhich option would you like?";
+"safesvc_import_database_prompt_message" = "A Strongbox megpróbálhatja szerkeszteni ezt a dokumentumot a jelenlegi helyén, és megőrzi a hivatkozást, vagy ha úgy szeretné, a Strongbox egyszerűen másolatot készíthet a fájlról.\n\nMelyik opciót szeretné?";
 
 /* Edit in Place */
-"safesvc_option_edit_in_place" = "Edit in Place";
+"safesvc_option_edit_in_place" = "Helyben szerkesztés";
 
 /* Make a Copy */
 "safesvc_option_make_a_copy" = "Másolat létrehozása";
 
 /* Update Existing Database? */
-"safesvc_update_existing_database_title" = "Update Existing Database?";
+"safesvc_update_existing_database_title" = "Létező adatbázis frissítése?";
 
 /* A database using this file name was found in Strongbox. Should Strongbox overwrite that database with this file, or would you like to create a new database using this file? */
-"safesvc_update_existing_question" = "A database using this file name was found in Strongbox. Should Strongbox overwrite that database with this file, or would you like to create a new database using this file?";
+"safesvc_update_existing_question" = "Ezt a fájlnevet használó adatbázis már létezik a Strongboxban. Kívánja felülírni az adatbázist ezzel a fájllal, vagy új adatbázist szeretne létrehozni?";
 
 /* Update Existing Database */
 "safesvc_update_existing_option_update" = "Létező adatbázis frissítése";
@@ -234,7 +234,7 @@
 "safesvc_update_existing_option_create" = "Új adatbázis létrehozása";
 
 /* Error updating file. */
-"safesvc_error_updating_title" = "Error updating file.";
+"safesvc_error_updating_title" = "Hiba a fájl frissítésekor.";
 
 /* Could not update local file. */
 "safesvc_error_updating_message" = "Could not update local file.";
@@ -258,7 +258,7 @@
 "safesvc_error_title_could_not_bookmark" = "Nem lehet létrehozni könyvjelzőt";
 
 /* Confirm Password */
-"alerts_confirm_password" = "Confirm Password";
+"alerts_confirm_password" = "Jelszó megerősítése";
 
 /* Not Empty! */
 "alerts_not_empty" = "Nem üres!";
@@ -309,10 +309,10 @@
 "browse_prefs_triple_tap_action" = "Triple Tap Action";
 
 /* View As */
-"browse_prefs_view_as" = "View As";
+"browse_prefs_view_as" = "Megtekintés mint";
 
 /* Flat List */
-"browse_prefs_view_as_flat_list" = "Flat List";
+"browse_prefs_view_as_flat_list" = "Sima lista";
 
 /* Group Hierarchy */
 "browse_prefs_view_as_folders" = "Hierarchia";
@@ -372,28 +372,28 @@
 "browse_vc_group_name" = "Csoport neve";
 
 /* (in %@) - Translator's note, the 1st param is the name of the group that this search result is found in, e.g. 'Finance' or 'Work' */
-"browse_vc_group_path_string_fmt" = "(in %@)";
+"browse_vc_group_path_string_fmt" = "(%@)";
 
 /* '%@': No TOTP setup to Copy! */
-"browse_vc_no_totp_to_copy_fmt" = "'%@': No TOTP setup to Copy!";
+"browse_vc_no_totp_to_copy_fmt" = "'%@': Nincs másolható TOTP beállítás!";
 
 /* '%@' Notes Copied  - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
-"browse_vc_notes_copied_fmt" = "'%@' Notes Copied";
+"browse_vc_notes_copied_fmt" = "'%@' Bejegyzés átmásolva";
 
 /* '%@' Password Copied  - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup  */
-"browse_vc_password_copied_fmt" = "'%@' Password Copied";
+"browse_vc_password_copied_fmt" = "'%@' Jelszó átmásolva";
 
 /* Rename Item */
 "browse_vc_rename_item" = "Elem átnevezése";
 
 /* Please enter a new title for this item */
-"browse_vc_rename_item_enter_title" = "Please enter a new title for this item";
+"browse_vc_rename_item_enter_title" = "Kérem adja meg az új címet ehhez az elemhez";
 
 /* All Fields */
 "browse_vc_search_scope_all" = "Összes";
 
 /* Sort Items By Title? */
-"browse_vc_sort_by_title" = "Sort Items By Title?";
+"browse_vc_sort_by_title" = "Cím szerint rendezi az elemeket?";
 
 /* Do you want to sort all the items in this group by Title? This will set the order in which they are stored in your database. */
 "browse_vc_sort_by_title_message" = "Do you want to sort all the items in this group by Title? This will set the order in which they are stored in your database.";
@@ -405,16 +405,16 @@
 "browse_vc_tip_fast_tap_title" = "Fast Tap Actions";
 
 /* '%@' Title Copied  - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup  */
-"browse_vc_title_copied_fmt" = "'%@' Title Copied";
+"browse_vc_title_copied_fmt" = "'%@' Cím átmásolva";
 
 /* '%@' OTP Code Copied - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
-"browse_vc_totp_copied_fmt" = "'%@' OTP Code Copied";
+"browse_vc_totp_copied_fmt" = "'%@' OTP kód átmásolva";
 
 /* '%@' URL Copied - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
-"browse_vc_url_copied_fmt" = "'%@' URL Copied";
+"browse_vc_url_copied_fmt" = "'%@' URL átmásolva";
 
 /* '%@' Username Copied - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
-"browse_vc_username_copied_fmt" = "'%@' Username Copied";
+"browse_vc_username_copied_fmt" = "'%@' Felhasználónév átmásolva";
 
 /* No Entries */
 "browse_vc_view_as_database_empty" = "Nincs bejegyzés";
@@ -486,16 +486,16 @@
 "casg_suggested_database_name_default" = "Adatbázis";
 
 /* %@'s Database */
-"casg_suggested_database_name_users_database_fmt" = "%@'s Database";
+"casg_suggested_database_name_users_database_fmt" = "%@ adatbázis";
 
 /* %@'s Database %d */
-"casg_suggested_database_name_users_database_number_suffix_fmt" = "%@'s Database %d";
+"casg_suggested_database_name_users_database_number_suffix_fmt" = "%@ adatbázis %d";
 
 /* Password (Required) */
 "casg_text_field_placeholder_password_required" = "Jelszó (Szükséges)";
 
 /* Selected Key File */
-"casg_text_label_key_selected_key_file" = "Selected Key File";
+"casg_text_label_key_selected_key_file" = "Kulcsfájl kiválasztása";
 
 /* Unlock */
 "casg_unlock_action" = "Feloldás";
@@ -507,7 +507,7 @@
 "db_management_biometric_unlock_fmt_pro_only" = "%@ Unlock (Pro Only)";
 
 /* Change Master Credentials */
-"db_management_change_master_credentials" = "Change Master Credentials";
+"db_management_change_master_credentials" = "Mesterjelszó megváltoztatása";
 
 /* Change Master Password */
 "db_management_change_master_password" = "Mesterjelszó módosítása";
@@ -564,7 +564,7 @@
 "item_details_add_attachment_button" = "Melléklet hozzáadása...";
 
 /* Email Copied */
-"item_details_email_copied" = "Email Copied";
+"item_details_email_copied" = "E-mail másolva";
 
 /* Username Copied */
 "item_details_username_copied" = "Felhasználónév másolása";
@@ -576,7 +576,7 @@
 "item_details_new_custom_field_button" = "Új egyéni mező...";
 
 /* Notes Copied */
-"item_details_notes_copied" = "Notes Copied";
+"item_details_notes_copied" = "Bejegyzés átmásolva";
 
 /* Password Copied */
 "item_details_password_copied" = "Jelszó másolva";
@@ -732,7 +732,7 @@
 "prefs_vc_pins_dont_match_warning_title" = "A PIN-kódok nem egyeznek";
 
 /* Use iCloud */
-"prefs_vc_use_icloud_action" = "Use iCloud";
+"prefs_vc_use_icloud_action" = "iCloud használata";
 
 /* iCloud (Disabled in System Settings) */
 "prefs_vc_use_icloud_disabled" = "iCloud (Disabled in System Settings)";
@@ -1743,7 +1743,7 @@
 "database_metadata_field_compressed" = "Tömörített";
 
 /* Database Format */
-"database_metadata_field_format" = "Database Format";
+"database_metadata_field_format" = "Adatbázis formátum";
 
 /* Database Generator */
 "database_metadata_field_generator" = "Database Generator";
@@ -1953,7 +1953,7 @@
 "generic_rename" = "Átnevezés";
 
 /* Set */
-"generic_set" = "Set";
+"generic_set" = "Beállít";
 
 /* Cancel */
 "generic_cancel" = "Mégsem";
@@ -2188,7 +2188,7 @@
 "favicon_status_no_eligible_items" = "No eligible items/valid URLs found...";
 
 /* FavIcon Results */
-"favicon_results_title" = "FavIcon Results";
+"favicon_results_title" = "FavIkon eredmények";
 
 /* FavIcon Results (Pro Only) */
 "favicon_results_title_pro_only" = "FavIcon Results (Pro Only)";
@@ -2239,7 +2239,7 @@
 "mac_please_set_master_credentials" = "Please Enter the Master Credentials for this Database";
 
 /* Change Master Credentials */
-"mac_change_master_credentials" = "Change Master Credentials";
+"mac_change_master_credentials" = "Mesterjelszó megváltoztatása";
 
 /* Master Credentials Changed and Database Saved */
 "mac_master_credentials_changed_and_saved" = "A fő hitelesítő adatok megváltoztak, és az adatbázis elmentve";
@@ -2373,7 +2373,7 @@
 "mac_welcome_to_strongbox_message" = "Üdvözöljük a Strongboxban!\n\nRemélem, hogy igazán tetszeni fog az alkalmazás, és hasznosnak találja majd. A következő három hónapban élvezheti a Strongbox teljes funkcionalitású Pro verzióját. Ezt követően a rendszer átvált a Strongbox normál verziójára.\n\nBármikor többet megtudhat, ha megérinti a \"Frissítés Pro\"-ra lehetőséget a Strongbox menüben.\n\nKöszönöm!\n-Mark";
 
 /* Change Master Credentials */
-"mac_undo_action_change_master_credentials" = "Change Master Credentials";
+"mac_undo_action_change_master_credentials" = "Mesterjelszó megváltoztatása";
 
 /* Title Change */
 "mac_undo_action_title_change" = "Title Change";
@@ -3452,7 +3452,7 @@
 "browse_context_menu_database_settings" = "Adatbázis beállítások";
 
 /* Set Credentials */
-"browse_context_menu_set_master_credentials" = "Set Credentials";
+"browse_context_menu_set_master_credentials" = "Hitelesítő adatokat megadása";
 
 /* Show Password - Translators Note: On Browse screen - context menu item - This option will display the password in a large full screen font for easy reading with a QR Code */
 "browse_context_menu_show_password" = "Jelszó megjelenítése";
@@ -3968,7 +3968,7 @@
 "database_properties_subtitle_quick_launch" = "Automatically prompt to open this database on App launch.";
 
 /* Always Auto-Merge */
-"database_properties_title_always_auto_merge" = "Always Auto-Merge";
+"database_properties_title_always_auto_merge" = "Mindig auto. egyesítés";
 
 /* When a sync conflict occurs automatically merge without asking. */
 "database_properties_subtitle_conflict_resolution" = "Szinkronizálási ütközés esetén kérés nélkül egyesítse a rendszert.";
@@ -4356,7 +4356,7 @@
 "onboarding_ready_to_launch_message" = "Minden készen áll, hogy a legjobbat hozza ki a Strongboxból.\n\nNe felejtse el, hogy ezeket a beállításokat bármikor módosíthatja.";
 
 /* Scheduled Export */
-"onboarding_scheduled_export_title" = "Scheduled Export";
+"onboarding_scheduled_export_title" = "Ütemezett exportálás";
 
 /* It's always a good idea to keep backups, especially external ones. Strongbox can remind you to export your database every so often.\n\nWould you like Strongbox to prompt you to export your database if it has been a while? */
 "onboarding_scheduled_export_message" = "It's always a good idea to keep backups, especially external ones. Strongbox can remind you to export your database every so often.\n\nWould you like Strongbox to prompt you to export your database if it has been a while?";
@@ -4368,7 +4368,7 @@
 "onboarding_scheduled_export_onboarding_remind_4_weeks" = "Figyelmeztessen 4 hét múlva";
 
 /* Don't Remind Me */
-"generic_dont_remind_me" = "Don't Remind Me";
+"generic_dont_remind_me" = "Ne emlékeztessen";
 
 /* It's time to export a backup copy of your database somewhere safe.\n\nWould you like do that now? */
 "scheduled_export_message" = "It's time to export a backup copy of your database somewhere safe.\n\nWould you like do that now?";
@@ -5039,7 +5039,7 @@
 "onedrive_readd_required" = "You need to re-add your OneDrive database due to a Microsoft SDK update.\n\nTap OK, and select your OneDrive database to get started...";
 
 /* Apply Changes */
-"generic_apply_changes" = "Apply Changes";
+"generic_apply_changes" = "Módosítások alkalmazása";
 
 /* Pop Out Details - L10n Note: A user can "Pop Out" a Details window, which is usually embedded in a frame. Popping it out means it can be moved around independently of the main App window */
 "action_verb_popout_details_window" = "Pop Out Details";
@@ -5051,7 +5051,7 @@
 "mac_notes_partially_copied_to_clipboard" = "Notes (Partially) Copied";
 
 /* Change My License... */
-"upgrade_vc_change_my_license" = "Change My License...";
+"upgrade_vc_change_my_license" = "Licenc módosítása...";
 
 /* Hi there 😎\n\nWe're excited you've decided to try us out and we just wanted to say thanks! So, without further ado, let's get started...\n\n❤️ The Strongbox Team ❤️ */
 "onboarding_welcome_to_strongbox_first_run_message_macos" = "Hi there 😎\n\nWe're excited you've decided to try us out and we just wanted to say thanks! So, without further ado, let's get started...\n\n❤️ The Strongbox Team ❤️";
@@ -5090,7 +5090,7 @@
 "upgrade_vc_feature_subtitle_support" = "We're here for you";
 
 /* Compare & Merge */
-"upgrade_vc_feature_compare_and_merge" = "Compare & Merge";
+"upgrade_vc_feature_compare_and_merge" = "Összehasonlítás és összevonás";
 
 /* View & Combine Revisions */
 "upgrade_vc_feature_subtitle_compare_and_merge" = "View & Combine Revisions";
@@ -5114,7 +5114,7 @@
 "upgrade_vc_feature_subtitle_favicon_downloader" = "Make your entries stand out";
 
 /* Support Indie Development */
-"upgrade_vc_feature_support_indie" = "Support Indie Development";
+"upgrade_vc_feature_support_indie" = "A fejlesztés támogatása";
 
 /* Help us stay awesome! */
 "upgrade_vc_feature_subtitle_support_indie" = "Help us stay awesome!";
@@ -5135,7 +5135,7 @@
 "upgrade_vc_old_freemium_upgrade_restore_pro" = "Restore My Pro Purchase";
 
 /* Restart Required */
-"generic_restart_required" = "Restart Required";
+"generic_restart_required" = "Újraindítás szükséges";
 
 /* You must restart Strongbox for these changes to take effect. */
 "generic_restart_required_for_changes_to_take_effect" = "You must restart Strongbox for these changes to take effect.";
@@ -5153,22 +5153,22 @@
 "1password_import_warning_msg" = "The import process isn't perfect and some features of 1Password such as named sections are not available in Strongbox.\n\nIt is important to check that your entries are acceptable after you have imported.";
 
 /* Recycle Bin - The name of the recycle bin, the folder where items go instead of being fully deleted */
-"generic_recycle_bin_name" = "Recycle Bin";
+"generic_recycle_bin_name" = "Lomtár";
 
 /* Commit & Close (⌘⏎) */
-"mac_create_or_edit_commit_changes_and_close" = "Commit & Close (⌘⏎)";
+"mac_create_or_edit_commit_changes_and_close" = "Véglegesít és bezár (⌘⏎)";
 
 /* Close (⌘⏎) */
-"mac_create_or_edit_commit_close" = "Close (⌘⏎)";
+"mac_create_or_edit_commit_close" = "Bezár (⌘⏎)";
 
 /* Touch ID & Watch Unlock Settings... */
 "nextgen_toolbar_settings_convenience_unlock_ellipsis" = "Touch ID és Watch feloldás beállításai...";
 
 /* AutoFill Settings... */
-"nextgen_toolbar_settings_autofill_settings_ellipsis" = "AutoFill Settings...";
+"nextgen_toolbar_settings_autofill_settings_ellipsis" = "Automatikus kitöltés beállításai...";
 
 /* Encryption Settings... */
-"nextgen_toolbar_settings_encryption_settings_ellipsis" = "Encryption Settings...";
+"nextgen_toolbar_settings_encryption_settings_ellipsis" = "Titokisítási beállítások...";
 
 /* Change Master Credentials... */
 "nextgen_toolbar_settings_change_master_credentials_ellipsis" = "Mesterjelszót megváltoztatása...";
@@ -5180,10 +5180,10 @@
 "nextgen_toolbar_settings_application_preferences_ellipsis" = "Application Preferences...";
 
 /* Settings */
-"generic_settings" = "Settings";
+"generic_settings" = "Beállítások";
 
 /* Excluded Characters */
-"password_gen_vc_prompt_excluded_characters" = "Excluded Characters";
+"password_gen_vc_prompt_excluded_characters" = "Kizárt karakterek";
 
 /* Ascending */
 "generic_sort_order_ascending" = "Növekvő";
