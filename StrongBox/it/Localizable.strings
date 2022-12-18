@@ -5228,7 +5228,7 @@
 "database_unlocked_status" = "Sbloccato";
 
 /* Your changes could not be safely saved. You are now working on an in-memory version only of your database. We recommend you try to save again */
-"error_could_not_save_message" = "Le modifiche non possono essere salvate in modo sicuro. Si sta ora lavorando solo su una versione in memoria del database. È consigliabile provare a salvarlo di nuovo";
+"error_could_not_save_message" = "Your changes could not be safely saved. You are now working on an in-memory only version of your database. We recommend you try to save again.";
 
 /* Error Saving\nWe recommend you try to save again */
 "error_could_not_save_title" = "Errore nel salvataggio\nSi consiglia di provare a salvare di nuovo";
@@ -5240,7 +5240,22 @@
 "sync_error_message_including_error_detail_fmt" = "Il database è stato salvato in modo sicuro, ma c'è stato un errore di sincronizzazione. Si vuole riprovare o dare un'occhiata al registro di sincronizzazione?\n\n%@\n";
 
 /* This database is in Offline Mode and cannot be synced. */
-"database_is_in_offline_mode_cannot_be_synced" = "This database is in Offline Mode and cannot be synced.";
+"database_is_in_offline_mode_cannot_be_synced" = "Questo database è in Modalità Offline e non può essere sincronizzato.";
 
 /* Save Successful */
-"generic_save_was_successful" = "Save Successful";
+"generic_save_was_successful" = "Salvataggio Riuscito";
+
+/* Lazy Sync Mode */
+"lazy_sync_option_title" = "Lazy Sync Mode";
+
+/* Unlock database first, then attempt to sync. */
+"lazy_sync_option_detail" = "Unlock database first, then attempt to sync.";
+
+/* Persistently Lazy (Ignore Errors) */
+"lazy_sync_persist_option_title" = "Persistently Lazy (Ignore Errors)*";
+
+/* Keep in Lazy Sync Mode even if an error in sync occurs. */
+"lazy_sync_persist_option_detail" = "Keep in Lazy Sync mode even if a sync error occurs.\n*Advanced Users Only";
+
+/* Portuguese (Brazilian) */
+"pwgen_wordlist_pt_br" = "Portuguese (Brazilian)";
