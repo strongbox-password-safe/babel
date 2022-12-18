@@ -5213,34 +5213,49 @@
 "generic_more_with_ellipsis" = "Більше...";
 
 /* Lock Database? */
-"mac_on_window_close_action_title" = "Lock Database?";
+"mac_on_window_close_action_title" = "Замкнути базу даних?";
 
 /* Strongbox can keep your databases open in the background or it can lock them immediately when you close the window.\n\nWhat would you like Strongbox to do when you close a database window? */
-"mac_on_window_close_action_message" = "Strongbox can keep your databases open in the background or it can lock them immediately when you close the window.\n\nWhat would you like Strongbox to do when you close a database window?";
+"mac_on_window_close_action_message" = "Strongbox може утримувати вашу базу даних відімкненою на задньому плані або замикати негайно після закриття.\n\nЯку дію має виконати Strongbox після закриття вікна бази даних?";
 
 /* Keep Database Unlocked */
-"mac_on_window_close_action_option_keep_unlocked" = "Keep Database Unlocked";
+"mac_on_window_close_action_option_keep_unlocked" = "Утримувати відімкненою";
 
 /* Lock Database Immediately */
-"mac_on_window_close_action_lock_immediately" = "Lock Database Immediately";
+"mac_on_window_close_action_lock_immediately" = "Замкнути негайно";
 
 /* Offline Mode - L10n - this is a status/state, the database is currently unlocked */
-"database_unlocked_status" = "Unlocked";
+"database_unlocked_status" = "Відімкнено";
 
 /* Your changes could not be safely saved. You are now working on an in-memory version only of your database. We recommend you try to save again */
-"error_could_not_save_message" = "Your changes could not be safely saved. You are now working on an in-memory version only of your database. We recommend you try to save again";
+"error_could_not_save_message" = "Your changes could not be safely saved. You are now working on an in-memory only version of your database. We recommend you try to save again.";
 
 /* Error Saving\nWe recommend you try to save again */
-"error_could_not_save_title" = "Error Saving\nWe recommend you try to save again";
+"error_could_not_save_title" = "Помилка збереження\nСпробуйте зберегти ще раз";
 
 /* Sync - L10n - This is a verb - To Synchronize */
 "generic_action_sync" = "Синхронізація";
 
 /* Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Sync Log?\n\n%@\n */
-"sync_error_message_including_error_detail_fmt" = "Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Sync Log?\n\n%@\n";
+"sync_error_message_including_error_detail_fmt" = "Вашу базу даних надійно збережено, але виникла помилка під час синхронізації. Бажаєте спробувати синхронізувати знову чи переглянути журнал синхронізації?\n\n%@\n";
 
 /* This database is in Offline Mode and cannot be synced. */
-"database_is_in_offline_mode_cannot_be_synced" = "This database is in Offline Mode and cannot be synced.";
+"database_is_in_offline_mode_cannot_be_synced" = "Ця база даних зараз в автономному режимі, тому її неможливо синхронізувати.";
 
 /* Save Successful */
-"generic_save_was_successful" = "Save Successful";
+"generic_save_was_successful" = "Успішно збережено";
+
+/* Lazy Sync Mode */
+"lazy_sync_option_title" = "Lazy Sync Mode";
+
+/* Unlock database first, then attempt to sync. */
+"lazy_sync_option_detail" = "Unlock database first, then attempt to sync.";
+
+/* Persistently Lazy (Ignore Errors) */
+"lazy_sync_persist_option_title" = "Persistently Lazy (Ignore Errors)*";
+
+/* Keep in Lazy Sync Mode even if an error in sync occurs. */
+"lazy_sync_persist_option_detail" = "Keep in Lazy Sync mode even if a sync error occurs.\n*Advanced Users Only";
+
+/* Portuguese (Brazilian) */
+"pwgen_wordlist_pt_br" = "Portuguese (Brazilian)";
