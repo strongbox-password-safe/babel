@@ -312,13 +312,13 @@
 "browse_prefs_view_as" = "视图方式";
 
 /* Flat List */
-"browse_prefs_view_as_flat_list" = "扁平布局";
+"browse_prefs_view_as_flat_list" = "条目";
 
 /* Group Hierarchy */
-"browse_prefs_view_as_folders" = "层级";
+"browse_prefs_view_as_folders" = "组";
 
-/* TOTP List */
-"browse_prefs_view_as_totp_list" = "TOTP 列表";
+/* TOTPs */
+"browse_prefs_view_as_totp_list" = "TOTP";
 
 /* Set Icon */
 "browse_vc_action_set_icon" = "设置图标";
@@ -419,8 +419,8 @@
 /* No Entries */
 "browse_vc_view_as_database_empty" = "无条目";
 
-/* View As: TOTP List (No TOTP Entries) */
-"browse_vc_view_as_totp_no_totps" = "视图方式: TOTP 列表 (无 TOTP 条目)";
+/* No TOTPs Found */
+"browse_vc_view_as_totp_no_totps" = "未找到 TOTP";
 
 /* No matching entries found */
 "browse_vc_view_search_no_matches" = "未找到匹配条目";
@@ -5225,22 +5225,85 @@
 "mac_on_window_close_action_lock_immediately" = "立即锁定数据库";
 
 /* Offline Mode - L10n - this is a status/state, the database is currently unlocked */
-"database_unlocked_status" = "Unlocked";
+"database_unlocked_status" = "已解锁";
 
 /* Your changes could not be safely saved. You are now working on an in-memory version only of your database. We recommend you try to save again */
-"error_could_not_save_message" = "Your changes could not be safely saved. You are now working on an in-memory version only of your database. We recommend you try to save again";
+"error_could_not_save_message" = "您的更改无法安全保存。 您正在使用内存中的数据库，我们建议您尝试再次保存。";
 
 /* Error Saving\nWe recommend you try to save again */
-"error_could_not_save_title" = "Error Saving\nWe recommend you try to save again";
+"error_could_not_save_title" = "保存出错\n我们建议您尝试再次保存";
 
 /* Sync - L10n - This is a verb - To Synchronize */
 "generic_action_sync" = "同步";
 
 /* Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Sync Log?\n\n%@\n */
-"sync_error_message_including_error_detail_fmt" = "Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Sync Log?\n\n%@\n";
+"sync_error_message_including_error_detail_fmt" = "您的数据库已被安全保存，但在同步时出现错误。 您想重试或者查看同步日志吗？\n\n%@\n";
 
 /* This database is in Offline Mode and cannot be synced. */
-"database_is_in_offline_mode_cannot_be_synced" = "This database is in Offline Mode and cannot be synced.";
+"database_is_in_offline_mode_cannot_be_synced" = "此数据库处于离线模式，无法同步。";
 
 /* Save Successful */
-"generic_save_was_successful" = "Save Successful";
+"generic_save_was_successful" = "成功保存";
+
+/* Lazy Sync Mode */
+"lazy_sync_option_title" = "延迟同步模式";
+
+/* Unlock database first, then attempt to sync. */
+"lazy_sync_option_detail" = "请先解锁数据库，然后尝试同步。";
+
+/* Persistently Lazy (Ignore Errors) */
+"lazy_sync_persist_option_title" = "持续使用延迟同步模式（忽略错误）";
+
+/* Keep in Lazy Sync Mode even if an error in sync occurs. */
+"lazy_sync_persist_option_detail" = "即使出现同步错误，也仍旧使用延迟同步模式。\n* 仅限高级用户";
+
+/* Portuguese (Brazilian) */
+"pwgen_wordlist_pt_br" = "葡萄牙语（巴西）";
+
+/* Hidden (An item of some kind will be hidden from the User Interface) */
+"generic_item_is_hidden" = "已隐藏";
+
+/* These tabs will be visible in this order, providing there are eligible items to display. You must always have at least one visible tab. */
+"configure_tabs_footer_visible_tabs" = "若有可显示的标签页，它们将以该顺序显现在标签栏。您需要确保至少有一个可见的标签页。";
+
+/* These tabs will remain hidden. */
+"configure_tabs_footer_hidden_tabs" = "这些标签页将保持隐藏状态。";
+
+/* You can choose to completely hide the bottom tab bar since you have only a single visible tab. Tap to toggle. */
+"configure_tabs_footer_text_hide_tab_bar" = "鉴于您仅有一个标签页，您可以选择完全隐藏底部的标签栏。点击切换。";
+
+/* Drag tabs here to hide them */
+"configure_tabs_drag_tabs_to_hide" = "拖动到此处以隐藏";
+
+/* Hide Tab Bar Completely */
+"configure_tabs_option_hide_tab_bar_completely" = "完全隐藏标签栏";
+
+/* %@ Items */
+"generic_number_of_items_plural_fmt" = "%@ 项";
+
+/* %@ Item */
+"generic_single_item_singular_fmt" = "%@ 项";
+
+/* Configure Tabs */
+"configure_tabs" = "配置标签栏";
+
+/* Sort Groups Separately */
+"sort_configuration_custom_sort_order_and_sort_groups_separately" = "Keep Groups on Top";
+
+/* Oldest First */
+"generic_sort_order_chronologically_oldest_first" = "Oldest First";
+
+/* Alphabetically */
+"generic_sort_order_alphabetically" = "Alphabetically";
+
+/* Newest First */
+"generic_sort_order_chronologically_newest_first" = "Newest First";
+
+/* Reverse Alphabetically */
+"generic_sort_order_reverse_alphabetically" = "Reverse Alphabetically";
+
+/* %@ Items Sorted By - L10n note: This is the header of a menu, the menu contains the fields you can sort by. e.g. Title. So this will look like "120 Items Sorted By" for example. The first parameter is numeric, the number of items sorted below */
+"sort_menu_header_number_of_items_plural_sorted_by_fmt" = "%@ Items Sorted By";
+
+/* 1 Item Sorted By - L10n note: This is the header of a menu, the menu contains the fields you can sort by. e.g. Title. So this will look like "1 Item Sorted By" for example */
+"sort_menu_header_singular_item_sorted_by" = "1 Item Sorted By";

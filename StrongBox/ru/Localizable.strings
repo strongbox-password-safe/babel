@@ -312,13 +312,13 @@
 "browse_prefs_view_as" = "Вид";
 
 /* Flat List */
-"browse_prefs_view_as_flat_list" = "Простой список";
+"browse_prefs_view_as_flat_list" = "Записи";
 
 /* Group Hierarchy */
-"browse_prefs_view_as_folders" = "Иерархия";
+"browse_prefs_view_as_folders" = "Группы";
 
-/* TOTP List */
-"browse_prefs_view_as_totp_list" = "Список TOTP";
+/* TOTPs */
+"browse_prefs_view_as_totp_list" = "TOTP";
 
 /* Set Icon */
 "browse_vc_action_set_icon" = "Изменить значок";
@@ -419,8 +419,8 @@
 /* No Entries */
 "browse_vc_view_as_database_empty" = "Нет записей";
 
-/* View As: TOTP List (No TOTP Entries) */
-"browse_vc_view_as_totp_no_totps" = "Записи c TOTP не найдены";
+/* No TOTPs Found */
+"browse_vc_view_as_totp_no_totps" = "TOTP не найдено";
 
 /* No matching entries found */
 "browse_vc_view_search_no_matches" = "Записей не найдено";
@@ -582,7 +582,7 @@
 "item_details_password_copied" = "Пароль скопирован";
 
 /* Password Copied. Launching URL... */
-"item_details_password_copied_and_launching" = "Пароль скопирован. Запуск URL ...";
+"item_details_password_copied_and_launching" = "Пароль скопирован. Запуск браузера ...";
 
 /* Password History */
 "item_details_password_history" = "История пароля";
@@ -3422,7 +3422,7 @@
 "hint_tap_and_hold_to_see_options" = "Долгое нажатие для опций";
 
 /* Launch URL & Copy */
-"browse_action_launch_url_copy_password" = "Копировать пароль и запуск URL";
+"browse_action_launch_url_copy_password" = "Копировать пароль и открыть URL";
 
 /* Copy Other Field... */
 "browse_context_menu_copy_other_field" = "Копировать ...";
@@ -3506,7 +3506,7 @@
 "generic_setting_is_inherited_from_parent" = "Наследовать от родителя";
 
 /* Copy & Launch */
-"browse_prefs_tap_action_copy_and_launch" = "Копировать пароль и запуск URL";
+"browse_prefs_tap_action_copy_and_launch" = "Копировать пароль и открыть URL";
 
 /* Foreground Color */
 "item_properties_foreground_color" = "Цвет текста";
@@ -4838,7 +4838,7 @@
 "generic_action_verb_speak_field" = "Произнести";
 
 /* Launch URL - L10n: An action/verb, to launch a URL */
-"generic_action_verb_launch_url" = "Запуск URL";
+"generic_action_verb_launch_url" = "Открыть URL";
 
 /* Show QR Code */
 "generic_action_show_qr_code" = "Показать QR код";
@@ -5244,3 +5244,66 @@
 
 /* Save Successful */
 "generic_save_was_successful" = "Успешно сохранено";
+
+/* Lazy Sync Mode */
+"lazy_sync_option_title" = "Режим Lazy";
+
+/* Unlock database first, then attempt to sync. */
+"lazy_sync_option_detail" = "Разблокировка, затем попытка синхронизации";
+
+/* Persistently Lazy (Ignore Errors) */
+"lazy_sync_persist_option_title" = "Всегда режим Lazy";
+
+/* Keep in Lazy Sync Mode even if an error in sync occurs. */
+"lazy_sync_persist_option_detail" = "Даже при возникновении ошибок синхронизации";
+
+/* Portuguese (Brazilian) */
+"pwgen_wordlist_pt_br" = "Португальский (Бразилия)";
+
+/* Hidden (An item of some kind will be hidden from the User Interface) */
+"generic_item_is_hidden" = "Скрытые";
+
+/* These tabs will be visible in this order, providing there are eligible items to display. You must always have at least one visible tab. */
+"configure_tabs_footer_visible_tabs" = "Вкладки будут отображены в этом порядке. Всегда необходимо иметь хотя бы одну видимую.";
+
+/* These tabs will remain hidden. */
+"configure_tabs_footer_hidden_tabs" = "Вкладки не будут отображаться.";
+
+/* You can choose to completely hide the bottom tab bar since you have only a single visible tab. Tap to toggle. */
+"configure_tabs_footer_text_hide_tab_bar" = "Можно полностью скрыть нижнюю панель вкладок, т.к. есть только одна видимая. Нажмите для переключения.";
+
+/* Drag tabs here to hide them */
+"configure_tabs_drag_tabs_to_hide" = "Перетащите сюда, чтобы скрыть вкладку";
+
+/* Hide Tab Bar Completely */
+"configure_tabs_option_hide_tab_bar_completely" = "Скрыть панель вкладок";
+
+/* %@ Items */
+"generic_number_of_items_plural_fmt" = "%@ элементов";
+
+/* %@ Item */
+"generic_single_item_singular_fmt" = "%@ элемент";
+
+/* Configure Tabs */
+"configure_tabs" = "Настройка вкладок";
+
+/* Sort Groups Separately */
+"sort_configuration_custom_sort_order_and_sort_groups_separately" = "Keep Groups on Top";
+
+/* Oldest First */
+"generic_sort_order_chronologically_oldest_first" = "Oldest First";
+
+/* Alphabetically */
+"generic_sort_order_alphabetically" = "Alphabetically";
+
+/* Newest First */
+"generic_sort_order_chronologically_newest_first" = "Newest First";
+
+/* Reverse Alphabetically */
+"generic_sort_order_reverse_alphabetically" = "Reverse Alphabetically";
+
+/* %@ Items Sorted By - L10n note: This is the header of a menu, the menu contains the fields you can sort by. e.g. Title. So this will look like "120 Items Sorted By" for example. The first parameter is numeric, the number of items sorted below */
+"sort_menu_header_number_of_items_plural_sorted_by_fmt" = "%@ Items Sorted By";
+
+/* 1 Item Sorted By - L10n note: This is the header of a menu, the menu contains the fields you can sort by. e.g. Title. So this will look like "1 Item Sorted By" for example */
+"sort_menu_header_singular_item_sorted_by" = "1 Item Sorted By";

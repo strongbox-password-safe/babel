@@ -312,13 +312,13 @@
 "browse_prefs_view_as" = "Anzeigen als";
 
 /* Flat List */
-"browse_prefs_view_as_flat_list" = "Flache Liste";
+"browse_prefs_view_as_flat_list" = "Einträge";
 
 /* Group Hierarchy */
-"browse_prefs_view_as_folders" = "Baumstruktur";
+"browse_prefs_view_as_folders" = "Gruppen";
 
-/* TOTP List */
-"browse_prefs_view_as_totp_list" = "TOTP-Liste";
+/* TOTPs */
+"browse_prefs_view_as_totp_list" = "TOTPs (zeitlich beschränkte Einmalpasswörter)";
 
 /* Set Icon */
 "browse_vc_action_set_icon" = "Symbol festlegen";
@@ -419,8 +419,8 @@
 /* No Entries */
 "browse_vc_view_as_database_empty" = "Keine Einträge";
 
-/* View As: TOTP List (No TOTP Entries) */
-"browse_vc_view_as_totp_no_totps" = "Anzeigen als: TOTP-Liste (keine TOTP-Einträge)";
+/* No TOTPs Found */
+"browse_vc_view_as_totp_no_totps" = "Keine TOTPs gefunden";
 
 /* No matching entries found */
 "browse_vc_view_search_no_matches" = "Keine passenden Einträge gefunden";
@@ -2942,7 +2942,7 @@
 "audit_quick_summary_pwned" = "Passwort durch Datenschutzverletzungen veröffentlicht (HIBP)";
 
 /* Weak/Entropy */
-"audit_quick_summary_very_brief_low_entropy" = "Schwach/Entropie";
+"audit_quick_summary_very_brief_low_entropy" = "Schwach/Entropie (Zufälligkeit)";
 
 /* 2FA Available - L10n - please keep this as short as possible, "2FA" will probably suffice. The meaning of this string is that Strongbox has discovered the 2 Factor Authentication is available for this entry given it's URL/Domain, but that the user does not have a 2 Factor Code (TOTP) setup within Strongbox */
 "audit_quick_summary_very_brief_two_factor_available" = "2FA verfügbar";
@@ -2951,7 +2951,7 @@
 "audit_quick_summary_two_factor_available" = "Die 2-Faktor-Authentifizierung ist für diese Domain verfügbar.";
 
 /* Password is weak (low entropy) */
-"audit_quick_summary_password_low_entropy" = "Passwort ist schwach (niedrige Entropie)";
+"audit_quick_summary_password_low_entropy" = "Passwort ist schwach (geringe Zufälligkeit)";
 
 /* All Entries */
 "quick_view_title_all_entries_title" = "Alle Einträge";
@@ -5225,22 +5225,85 @@
 "mac_on_window_close_action_lock_immediately" = "Datenbank sofort sperren";
 
 /* Offline Mode - L10n - this is a status/state, the database is currently unlocked */
-"database_unlocked_status" = "Unlocked";
+"database_unlocked_status" = "Entsperrt";
 
 /* Your changes could not be safely saved. You are now working on an in-memory version only of your database. We recommend you try to save again */
-"error_could_not_save_message" = "Your changes could not be safely saved. You are now working on an in-memory version only of your database. We recommend you try to save again";
+"error_could_not_save_message" = "Ihre Änderungen konnten nicht sicher gespeichert werden. Sie arbeiten jetzt nur mit einer im Speicher befindlichen Version Ihrer Datenbank. Wir empfehlen Ihnen, das Speichern erneut zu versuchen.";
 
 /* Error Saving\nWe recommend you try to save again */
-"error_could_not_save_title" = "Error Saving\nWe recommend you try to save again";
+"error_could_not_save_title" = "Fehler beim Speichern\nEs wird empfohlen, erneut zu speichern";
 
 /* Sync - L10n - This is a verb - To Synchronize */
 "generic_action_sync" = "Synchronisieren";
 
 /* Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Sync Log?\n\n%@\n */
-"sync_error_message_including_error_detail_fmt" = "Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Sync Log?\n\n%@\n";
+"sync_error_message_including_error_detail_fmt" = "Ihre Datenbank wurde sicher gespeichert, aber es ist ein Fehler bei der Synchronisation aufgetreten. Möchten Sie es noch einmal versuchen oder einen Blick in das Synchronisierungsprotokoll werfen?\n\n%@\n";
 
 /* This database is in Offline Mode and cannot be synced. */
-"database_is_in_offline_mode_cannot_be_synced" = "This database is in Offline Mode and cannot be synced.";
+"database_is_in_offline_mode_cannot_be_synced" = "Diese Datenbank befindet sich im Offline-Modus und kann nicht synchronisiert werden.";
 
 /* Save Successful */
-"generic_save_was_successful" = "Save Successful";
+"generic_save_was_successful" = "Erfolgreich gespeichert";
+
+/* Lazy Sync Mode */
+"lazy_sync_option_title" = "Verzögerter Synchronisationsmodus";
+
+/* Unlock database first, then attempt to sync. */
+"lazy_sync_option_detail" = "Zuerst die Datenbank entsperren, danach versuchen die Synchronisierung auszuführen.";
+
+/* Persistently Lazy (Ignore Errors) */
+"lazy_sync_persist_option_title" = "Dauerhaft verzögert (Fehler ignorieren)*";
+
+/* Keep in Lazy Sync Mode even if an error in sync occurs. */
+"lazy_sync_persist_option_detail" = "Verzögerten Sync-Modus beibehalten, auch wenn ein Synchronisierungsfehler auftritt.\n*Nur für fortgeschrittene Benutzer";
+
+/* Portuguese (Brazilian) */
+"pwgen_wordlist_pt_br" = "Portugiesisch (Brasilianisch)";
+
+/* Hidden (An item of some kind will be hidden from the User Interface) */
+"generic_item_is_hidden" = "Ausgeblendet";
+
+/* These tabs will be visible in this order, providing there are eligible items to display. You must always have at least one visible tab. */
+"configure_tabs_footer_visible_tabs" = "Diese Tabs sind in dieser Reihenfolge sichtbar, vorausgesetzt, es gibt geeignete Einträge, die angezeigt werden können. Sie müssen immer mindestens einen sichtbaren Tab haben.";
+
+/* These tabs will remain hidden. */
+"configure_tabs_footer_hidden_tabs" = "Diese Tabs bleiben ausgeblendet.";
+
+/* You can choose to completely hide the bottom tab bar since you have only a single visible tab. Tap to toggle. */
+"configure_tabs_footer_text_hide_tab_bar" = "Sie können die untere Tableiste vollständig ausblenden, da Sie nur einen einzigen sichtbaren Tab haben. Antippen zum Umschalten.";
+
+/* Drag tabs here to hide them */
+"configure_tabs_drag_tabs_to_hide" = "Tabs hierhin ziehen, um sie auszublenden";
+
+/* Hide Tab Bar Completely */
+"configure_tabs_option_hide_tab_bar_completely" = "Tableiste vollständig ausblenden";
+
+/* %@ Items */
+"generic_number_of_items_plural_fmt" = "%@ Einträge";
+
+/* %@ Item */
+"generic_single_item_singular_fmt" = "%@ Eintrag";
+
+/* Configure Tabs */
+"configure_tabs" = "Tabs konfigurieren";
+
+/* Sort Groups Separately */
+"sort_configuration_custom_sort_order_and_sort_groups_separately" = "Keep Groups on Top";
+
+/* Oldest First */
+"generic_sort_order_chronologically_oldest_first" = "Oldest First";
+
+/* Alphabetically */
+"generic_sort_order_alphabetically" = "Alphabetically";
+
+/* Newest First */
+"generic_sort_order_chronologically_newest_first" = "Newest First";
+
+/* Reverse Alphabetically */
+"generic_sort_order_reverse_alphabetically" = "Reverse Alphabetically";
+
+/* %@ Items Sorted By - L10n note: This is the header of a menu, the menu contains the fields you can sort by. e.g. Title. So this will look like "120 Items Sorted By" for example. The first parameter is numeric, the number of items sorted below */
+"sort_menu_header_number_of_items_plural_sorted_by_fmt" = "%@ Items Sorted By";
+
+/* 1 Item Sorted By - L10n note: This is the header of a menu, the menu contains the fields you can sort by. e.g. Title. So this will look like "1 Item Sorted By" for example */
+"sort_menu_header_singular_item_sorted_by" = "1 Item Sorted By";

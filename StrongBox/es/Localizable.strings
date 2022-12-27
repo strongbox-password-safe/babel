@@ -312,13 +312,13 @@
 "browse_prefs_view_as" = "Ver como";
 
 /* Flat List */
-"browse_prefs_view_as_flat_list" = "Lista sin formato";
+"browse_prefs_view_as_flat_list" = "Entradas";
 
 /* Group Hierarchy */
-"browse_prefs_view_as_folders" = "Jerarquía";
+"browse_prefs_view_as_folders" = "Grupos";
 
-/* TOTP List */
-"browse_prefs_view_as_totp_list" = "Lista TOTP";
+/* TOTPs */
+"browse_prefs_view_as_totp_list" = "TOTPs";
 
 /* Set Icon */
 "browse_vc_action_set_icon" = "Establecer icono";
@@ -419,8 +419,8 @@
 /* No Entries */
 "browse_vc_view_as_database_empty" = "Sin elementos";
 
-/* View As: TOTP List (No TOTP Entries) */
-"browse_vc_view_as_totp_no_totps" = "Ver como: Lista TOTP (Sin entradas TOTP)";
+/* No TOTPs Found */
+"browse_vc_view_as_totp_no_totps" = "No se han encontrado TOTPs";
 
 /* No matching entries found */
 "browse_vc_view_search_no_matches" = "No se han encontrado entradas coincidentes";
@@ -5228,7 +5228,7 @@
 "database_unlocked_status" = "Desbloqueado";
 
 /* Your changes could not be safely saved. You are now working on an in-memory version only of your database. We recommend you try to save again */
-"error_could_not_save_message" = "Sus cambios no se han podido guardar de forma segura. Ahora está trabajando en una versión en memoria de su base de datos. Le recomendamos que intente guardar de nuevo";
+"error_could_not_save_message" = "Sus cambios no se han podido guardar de forma segura. Ahora está trabajando en una versión en memoria de su base de datos. Le recomendamos que intente guardar de nuevo.";
 
 /* Error Saving\nWe recommend you try to save again */
 "error_could_not_save_title" = "Error al guardar\nLe recomendamos que intente guardar de nuevo";
@@ -5240,7 +5240,70 @@
 "sync_error_message_including_error_detail_fmt" = "Su base de datos está guardada de forma segura pero hubo un error de sincronización. ¿Le gustaría intentarlo de nuevo o echar un vistazo al registro de sincronización?\n\n%@\n";
 
 /* This database is in Offline Mode and cannot be synced. */
-"database_is_in_offline_mode_cannot_be_synced" = "This database is in Offline Mode and cannot be synced.";
+"database_is_in_offline_mode_cannot_be_synced" = "Esta base de datos está en modo sin conexión y no puede ser sincronizada.";
 
 /* Save Successful */
-"generic_save_was_successful" = "Save Successful";
+"generic_save_was_successful" = "Se guardó correctamente";
+
+/* Lazy Sync Mode */
+"lazy_sync_option_title" = "Modo de sincronización lenta";
+
+/* Unlock database first, then attempt to sync. */
+"lazy_sync_option_detail" = "Primero desbloquee la base de datos y después intente sincronizar.";
+
+/* Persistently Lazy (Ignore Errors) */
+"lazy_sync_persist_option_title" = "Persistentemente lenta (Ignorar errores)*";
+
+/* Keep in Lazy Sync Mode even if an error in sync occurs. */
+"lazy_sync_persist_option_detail" = "Mantener en modo de Sincronización Lenta incluso si ocurre un error de sincronización.\n*Solo usuarios avanzados";
+
+/* Portuguese (Brazilian) */
+"pwgen_wordlist_pt_br" = "Portugués (Brasileño)";
+
+/* Hidden (An item of some kind will be hidden from the User Interface) */
+"generic_item_is_hidden" = "Hidden";
+
+/* These tabs will be visible in this order, providing there are eligible items to display. You must always have at least one visible tab. */
+"configure_tabs_footer_visible_tabs" = "These tabs will be visible in this order, providing there are eligible items to display. You must always have at least one visible tab.";
+
+/* These tabs will remain hidden. */
+"configure_tabs_footer_hidden_tabs" = "These tabs will remain hidden.";
+
+/* You can choose to completely hide the bottom tab bar since you have only a single visible tab. Tap to toggle. */
+"configure_tabs_footer_text_hide_tab_bar" = "You can choose to completely hide the bottom tab bar since you have only a single visible tab. Tap to toggle.";
+
+/* Drag tabs here to hide them */
+"configure_tabs_drag_tabs_to_hide" = "Drag tabs here to hide them";
+
+/* Hide Tab Bar Completely */
+"configure_tabs_option_hide_tab_bar_completely" = "Hide Tab Bar Completely";
+
+/* %@ Items */
+"generic_number_of_items_plural_fmt" = "%@ Items";
+
+/* %@ Item */
+"generic_single_item_singular_fmt" = "%@ Item";
+
+/* Configure Tabs */
+"configure_tabs" = "Configurar pestañas";
+
+/* Sort Groups Separately */
+"sort_configuration_custom_sort_order_and_sort_groups_separately" = "Keep Groups on Top";
+
+/* Oldest First */
+"generic_sort_order_chronologically_oldest_first" = "Oldest First";
+
+/* Alphabetically */
+"generic_sort_order_alphabetically" = "Alphabetically";
+
+/* Newest First */
+"generic_sort_order_chronologically_newest_first" = "Newest First";
+
+/* Reverse Alphabetically */
+"generic_sort_order_reverse_alphabetically" = "Reverse Alphabetically";
+
+/* %@ Items Sorted By - L10n note: This is the header of a menu, the menu contains the fields you can sort by. e.g. Title. So this will look like "120 Items Sorted By" for example. The first parameter is numeric, the number of items sorted below */
+"sort_menu_header_number_of_items_plural_sorted_by_fmt" = "%@ Items Sorted By";
+
+/* 1 Item Sorted By - L10n note: This is the header of a menu, the menu contains the fields you can sort by. e.g. Title. So this will look like "1 Item Sorted By" for example */
+"sort_menu_header_singular_item_sorted_by" = "1 Item Sorted By";
