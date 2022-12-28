@@ -312,13 +312,13 @@
 "browse_prefs_view_as" = "Переглянути як";
 
 /* Flat List */
-"browse_prefs_view_as_flat_list" = "Entries";
+"browse_prefs_view_as_flat_list" = "Записи";
 
 /* Group Hierarchy */
 "browse_prefs_view_as_folders" = "Груп";
 
 /* TOTPs */
-"browse_prefs_view_as_totp_list" = "TOTPs";
+"browse_prefs_view_as_totp_list" = "TOTP";
 
 /* Set Icon */
 "browse_vc_action_set_icon" = "Встановити піктограму";
@@ -420,7 +420,7 @@
 "browse_vc_view_as_database_empty" = "Немає записів";
 
 /* No TOTPs Found */
-"browse_vc_view_as_totp_no_totps" = "No TOTPs Found";
+"browse_vc_view_as_totp_no_totps" = "TOTP не знайдено";
 
 /* No matching entries found */
 "browse_vc_view_search_no_matches" = "Не знайдено відповідних записів";
@@ -5228,7 +5228,7 @@
 "database_unlocked_status" = "Відімкнено";
 
 /* Your changes could not be safely saved. You are now working on an in-memory version only of your database. We recommend you try to save again */
-"error_could_not_save_message" = "Your changes could not be safely saved. You are now working on an in-memory only version of your database. We recommend you try to save again.";
+"error_could_not_save_message" = "Ваші зміни могли не зберегтися надійно. Наразі ви працюєте зі збереженою в пам'яті версією бази даних. Рекомендуємо спробувати зберегти її ще раз.";
 
 /* Error Saving\nWe recommend you try to save again */
 "error_could_not_save_title" = "Помилка збереження\nСпробуйте зберегти ще раз";
@@ -5246,64 +5246,64 @@
 "generic_save_was_successful" = "Успішно збережено";
 
 /* Lazy Sync Mode */
-"lazy_sync_option_title" = "Lazy Sync Mode";
+"lazy_sync_option_title" = "Відкладений режим синхронізації";
 
 /* Unlock database first, then attempt to sync. */
-"lazy_sync_option_detail" = "Unlock database first, then attempt to sync.";
+"lazy_sync_option_detail" = "Спершу відімкніть базу паролів, а потім спробуйте синхронізувати.";
 
 /* Persistently Lazy (Ignore Errors) */
-"lazy_sync_persist_option_title" = "Persistently Lazy (Ignore Errors)*";
+"lazy_sync_persist_option_title" = "Постійно відкладений (ігнорувати помилки)*";
 
 /* Keep in Lazy Sync Mode even if an error in sync occurs. */
-"lazy_sync_persist_option_detail" = "Keep in Lazy Sync mode even if a sync error occurs.\n*Advanced Users Only";
+"lazy_sync_persist_option_detail" = "Використовувати відкладений режим синхронізації навіть за наявності помилок.\n*Лише для досвідчених користувачів";
 
 /* Portuguese (Brazilian) */
-"pwgen_wordlist_pt_br" = "Portuguese (Brazilian)";
+"pwgen_wordlist_pt_br" = "Португальська (Бразилія)";
 
 /* Hidden (An item of some kind will be hidden from the User Interface) */
-"generic_item_is_hidden" = "Hidden";
+"generic_item_is_hidden" = "Приховано";
 
 /* These tabs will be visible in this order, providing there are eligible items to display. You must always have at least one visible tab. */
-"configure_tabs_footer_visible_tabs" = "These tabs will be visible in this order, providing there are eligible items to display. You must always have at least one visible tab.";
+"configure_tabs_footer_visible_tabs" = "Вкладки показуватимуться в такому порядку, за умови доступних елементів. Має бути завжди принаймні одна видима вкладка.";
 
 /* These tabs will remain hidden. */
-"configure_tabs_footer_hidden_tabs" = "These tabs will remain hidden.";
+"configure_tabs_footer_hidden_tabs" = "Ці вкладки залишатимуться прихованими.";
 
 /* You can choose to completely hide the bottom tab bar since you have only a single visible tab. Tap to toggle. */
-"configure_tabs_footer_text_hide_tab_bar" = "You can choose to completely hide the bottom tab bar since you have only a single visible tab. Tap to toggle.";
+"configure_tabs_footer_text_hide_tab_bar" = "Ви можете цілком приховати нижню панель вкладок, оскільки у вас лише одна видима вкладка. Торкніться, щоб перемкнути.";
 
 /* Drag tabs here to hide them */
-"configure_tabs_drag_tabs_to_hide" = "Drag tabs here to hide them";
+"configure_tabs_drag_tabs_to_hide" = "Перетягніть вкладки сюди, щоб їх приховати";
 
 /* Hide Tab Bar Completely */
-"configure_tabs_option_hide_tab_bar_completely" = "Hide Tab Bar Completely";
+"configure_tabs_option_hide_tab_bar_completely" = "Цілком приховати панель вкладок";
 
 /* %@ Items */
-"generic_number_of_items_plural_fmt" = "%@ Items";
+"generic_number_of_items_plural_fmt" = "%@ елементів";
 
 /* %@ Item */
-"generic_single_item_singular_fmt" = "%@ Item";
+"generic_single_item_singular_fmt" = "%@ елемент";
 
 /* Configure Tabs */
-"configure_tabs" = "Configure Tabs";
+"configure_tabs" = "Налаштувати вкладки";
 
 /* Sort Groups Separately */
-"sort_configuration_custom_sort_order_and_sort_groups_separately" = "Keep Groups on Top";
+"sort_configuration_custom_sort_order_and_sort_groups_separately" = "Зберігати групи вгорі";
 
 /* Oldest First */
-"generic_sort_order_chronologically_oldest_first" = "Oldest First";
+"generic_sort_order_chronologically_oldest_first" = "Спочатку старіші";
 
 /* Alphabetically */
-"generic_sort_order_alphabetically" = "Alphabetically";
+"generic_sort_order_alphabetically" = "За алфавітом";
 
 /* Newest First */
-"generic_sort_order_chronologically_newest_first" = "Newest First";
+"generic_sort_order_chronologically_newest_first" = "Спочатку новіші";
 
 /* Reverse Alphabetically */
-"generic_sort_order_reverse_alphabetically" = "Reverse Alphabetically";
+"generic_sort_order_reverse_alphabetically" = "Зворотний алфавітний порядок";
 
 /* %@ Items Sorted By - L10n note: This is the header of a menu, the menu contains the fields you can sort by. e.g. Title. So this will look like "120 Items Sorted By" for example. The first parameter is numeric, the number of items sorted below */
-"sort_menu_header_number_of_items_plural_sorted_by_fmt" = "%@ Items Sorted By";
+"sort_menu_header_number_of_items_plural_sorted_by_fmt" = "%@ елементів відсортовано";
 
 /* 1 Item Sorted By - L10n note: This is the header of a menu, the menu contains the fields you can sort by. e.g. Title. So this will look like "1 Item Sorted By" for example */
-"sort_menu_header_singular_item_sorted_by" = "1 Item Sorted By";
+"sort_menu_header_singular_item_sorted_by" = "1 елемент відсортовано";
