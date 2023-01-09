@@ -318,7 +318,7 @@
 "browse_prefs_view_as_folders" = "Grupy";
 
 /* TOTPs */
-"browse_prefs_view_as_totp_list" = "TOTPs";
+"browse_prefs_view_as_totp_list" = "Hasła TOTP";
 
 /* Set Icon */
 "browse_vc_action_set_icon" = "Ustaw ikonę";
@@ -420,7 +420,7 @@
 "browse_vc_view_as_database_empty" = "Brak wpisów";
 
 /* No TOTPs Found */
-"browse_vc_view_as_totp_no_totps" = "No TOTPs Found";
+"browse_vc_view_as_totp_no_totps" = "Nie znaleziono TOTP";
 
 /* No matching entries found */
 "browse_vc_view_search_no_matches" = "Nie znaleziono pasujących wpisów";
@@ -3185,7 +3185,7 @@
 "audit_manual_pwn_check_result_not_pwned" = "Twoje hasło NIE zostało wykradzione i prawdopodobnie jest bezpieczne.";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Wynik weryfikacji";
+"audit_manual_pwn_check_result_title" = "Wynik ręcznej weryfikacji HIBP";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "To hasło wyciekło i jest podatne na atak";
@@ -3893,7 +3893,7 @@
 "model_error_could_not_write_local_merge" = "Błąd techniczny - Nie można zapisać kopii lokalnych dla porównania/scalenia.";
 
 /* Cannot merge in background or without key. */
-"model_error_cannot_merge_in_background" = "Cannot merge without credentials or in Background Sync mode. You must now do an Online Sync to resolve this conflict.";
+"model_error_cannot_merge_in_background" = "Nie można scalić bez danych logowania lub w trybie synchronizacji w tle. Musisz teraz wykonać synchronizację online, aby rozwiązać ten konflikt.";
 
 /* Are you sure you want to always Auto-Merge when you have a Sync Conflict like this? */
 "sync_are_you_sure_always_auto_merge" = "Czy na pewno chcesz zawsze automatycznie scalić, gdy masz taki konflikt synchronizacji?";
@@ -3905,7 +3905,7 @@
 "merge_are_you_sure_less_than_ideal_format" = "Format bazy danych nie obsługuje zaawansowanych funkcji synchronizacji (dostępnych w KeePass 2). Oznacza to, że scalanie może nie być idealne.\n\nCzy na pewno chcesz kontynuować?";
 
 /* Database Refreshed */
-"browse_vc_pulldown_refresh_updated_title" = "Database Updated";
+"browse_vc_pulldown_refresh_updated_title" = "Baza danych została zaktualizowana";
 
 /* Error Refreshing */
 "browse_vc_pulldown_refresh_error_title" = "Błąd odświeżania";
@@ -4955,7 +4955,7 @@
 "pro_status_lifetime_pro" = "Dożywotnie Pro";
 
 /* Lifetime Pro (In-App Purchase) */
-"pro_status_lifetime_pro_iap" = "Lifetime Pro (In-App Purchase)";
+"pro_status_lifetime_pro_iap" = "Dożywotnia wersja Pro (Zakupy w aplikacji)";
 
 /* Pro (Yearly subscription) */
 "pro_status_yearly_pro" = "Pro (roczna subskrypcja)";
@@ -5066,91 +5066,91 @@
 "upgrade_body_text" = "Ulepsz do Strongbox Pro i ciesz się wszystkimi funkcjami";
 
 /* Face ID & PIN Code Unlock */
-"upgrade_vc_feature_face_id_pin_code" = "Face ID & PIN Code Unlock";
+"upgrade_vc_feature_face_id_pin_code" = "Odblokowanie przy pomocy Face ID i kodu PIN";
 
 /* Touch ID & PIN Code Unlock */
-"upgrade_vc_feature_touch_id_pin_code" = "Touch ID & PIN Code Unlock";
+"upgrade_vc_feature_touch_id_pin_code" = "Odblokowanie przy pomocy Touch ID i kodu PIN";
 
 /* Super Fast, Secure & Convenient */
-"upgrade_vc_feature_subtitle_biometric" = "Super Fast, Secure & Convenient";
+"upgrade_vc_feature_subtitle_biometric" = "Bardzo szybki, bezpieczny i wygodny";
 
 /* Use a YubiKey as a second factor */
-"upgrade_vc_feature_subtitle_yubikey" = "Use a YubiKey as a second factor";
+"upgrade_vc_feature_subtitle_yubikey" = "Użyj YubiKey jako drugiego sposobu logowania";
 
 /* Advanced Auditing */
-"upgrade_vc_feature_auditing" = "Advanced Auditing";
+"upgrade_vc_feature_auditing" = "Zaawansowany Audyt";
 
 /* HIBP & Similar Passwords */
-"upgrade_vc_feature_subtitle_auditing" = "HIBP & Similar Passwords";
+"upgrade_vc_feature_subtitle_auditing" = "HIBP i Podobne hasła";
 
 /* Premium Support */
-"upgrade_vc_feature_support" = "Premium Support";
+"upgrade_vc_feature_support" = "Wsparcie dla wersji Premium";
 
 /* We're here for you */
-"upgrade_vc_feature_subtitle_support" = "We're here for you";
+"upgrade_vc_feature_subtitle_support" = "Jesteśmy dla Ciebie";
 
 /* Compare & Merge */
 "upgrade_vc_feature_compare_and_merge" = "Porównaj i scal";
 
 /* View & Combine Revisions */
-"upgrade_vc_feature_subtitle_compare_and_merge" = "View & Combine Revisions";
+"upgrade_vc_feature_subtitle_compare_and_merge" = "Zobacz i połącz wersje";
 
 /* Offline Editing */
 "upgrade_vc_feature_offline_editing" = "Edycja w trybie offline";
 
 /* Edit Offline, Sync Later */
-"upgrade_vc_feature_subtitle_offline_editing" = "Edit Offline, Sync Later";
+"upgrade_vc_feature_subtitle_offline_editing" = "Edytuj Offline, Synchronizuj później";
 
 /* Custom App Icons */
-"upgrade_vc_feature_custom_app_icon" = "Custom App Icons";
+"upgrade_vc_feature_custom_app_icon" = "Niestandardowe ikony aplikacji";
 
 /* Customize your Strongbox */
-"upgrade_vc_feature_subtitle_custom_app_icon" = "Customize your Strongbox";
+"upgrade_vc_feature_subtitle_custom_app_icon" = "Spersonalizuj aplikację Strongbox";
 
 /* Favicon Downloader */
-"upgrade_vc_feature_favicon_downloader" = "Favicon Downloader";
+"upgrade_vc_feature_favicon_downloader" = "Narzędzie do pobierania favicon";
 
 /* Make your entries stand out */
-"upgrade_vc_feature_subtitle_favicon_downloader" = "Make your entries stand out";
+"upgrade_vc_feature_subtitle_favicon_downloader" = "Spraw, aby Twoje wpisy wyróżniały się";
 
 /* Support Indie Development */
 "upgrade_vc_feature_support_indie" = "Wesprzyj niezależnego programistę";
 
 /* Help us stay awesome! */
-"upgrade_vc_feature_subtitle_support_indie" = "Help us stay awesome!";
+"upgrade_vc_feature_subtitle_support_indie" = "Pomóż nam pozostać niesamowitymi!";
 
 /* then %@ every year - L10n note, the 1st parameter is a price like "£12.99" */
-"upgrade_vc_price_per_year_with_free_trial_fmt" = "then %@ every year";
+"upgrade_vc_price_per_year_with_free_trial_fmt" = "następnie %@ każdego roku";
 
 /* Strongbox is now available for both iOS and macOS as a unified App.\n\nIf you have already purchased Strongbox then click 'Restore' below.\n\nIf you are new and want to Upgrade, the best way to do that is via the unified Strongbox app. Click 'View Strongbox Unified App' below to view on the App Store. */
-"upgrade_vc_strongbox_unified_message" = "Strongbox is now available for both iOS and macOS as a unified App.\n\nIf you have already purchased Strongbox then click 'Restore' below.\n\nIf you are new and want to Upgrade, the best way to do that is via the unified Strongbox app. Click 'View Strongbox Unified App' below to view on the App Store.";
+"upgrade_vc_strongbox_unified_message" = "Strongbox jest teraz dostępny zarówno dla iOS, jak i macOS jako jedna aplikacja.\n\nJeśli kupiłeś już Strongbox, kliknij przycisk 'Przywróć' poniżej.\n\nJeśli jesteś nowym użytkownikiem i chcesz ulepszyć aplikację, to najlepszym sposobem na to jest nowa aplikacja Strongbox. Kliknij 'Zobacz aplikację Strongbox Unified' poniżej, aby wyświetlić ją w App Store.";
 
 /* Strongbox Upgrade Options */
-"upgrade_vc_old_freemium_upgrade_options_title" = "Strongbox Upgrade Options";
+"upgrade_vc_old_freemium_upgrade_options_title" = "Opcje ulepszenia aplikacji Strongbox";
 
 /* View Strongbox Unified */
-"upgrade_vc_old_freemium_upgrade_view_unified" = "View Strongbox Unified";
+"upgrade_vc_old_freemium_upgrade_view_unified" = "Zobacz aplikację Strongbox Unified";
 
 /* Restore My Pro Purchase */
-"upgrade_vc_old_freemium_upgrade_restore_pro" = "Restore My Pro Purchase";
+"upgrade_vc_old_freemium_upgrade_restore_pro" = "Przywróć poprzedni zakup wersji Pro";
 
 /* Restart Required */
-"generic_restart_required" = "Restart Required";
+"generic_restart_required" = "Wymagane ponowne uruchomienie";
 
 /* You must restart Strongbox for these changes to take effect. */
-"generic_restart_required_for_changes_to_take_effect" = "You must restart Strongbox for these changes to take effect.";
+"generic_restart_required_for_changes_to_take_effect" = "Musisz ponownie uruchomić Strongbox, aby te zmiany zaczęły obowiązywać.";
 
 /* Relocate Database */
-"relocate_database_title" = "Relocate Database";
+"relocate_database_title" = "Wskaż plik bazy danych";
 
 /* Strongbox's reference to this database has become invalid or the database cannot be found.\n\nPlease reselect this database from your files for Strongbox. */
-"relocate_database_msg" = "Strongbox's reference to this database has become invalid or the database cannot be found.\n\nPlease reselect this database from your files for Strongbox.";
+"relocate_database_msg" = "Powiązanie do tej bazy danych stało się niepoprawne lub baza danych nie może zostać znaleziona.\n\nProszę wskazać ponownie tę bazę danych wśród swoich plików aplikacji Strongbox.";
 
 /* 1Password Import Warning */
-"1password_import_warning_title" = "1Password Import Warning";
+"1password_import_warning_title" = "Ostrzeżenie dotyczące importu z programu 1Password";
 
 /* The import process isn't perfect and some features of 1Password such as named sections are not available in Strongbox.\n\nIt is important to check that your entries as acceptable after you have imported. */
-"1password_import_warning_msg" = "The import process isn't perfect and some features of 1Password such as named sections are not available in Strongbox.\n\nIt is important to check that your entries are acceptable after you have imported.";
+"1password_import_warning_msg" = "Proces importowania nie jest idealny i niektóre funkcje 1Password takie jak nazwane sekcje, nie są dostępne w Strongbox.\n\nWażne jest, aby sprawdzić, czy Twoje wpisy zostały poprawnie zaimportowane.";
 
 /* Recycle Bin - The name of the recycle bin, the folder where items go instead of being fully deleted */
 "generic_recycle_bin_name" = "Kosz";
@@ -5159,13 +5159,13 @@
 "mac_create_or_edit_commit_changes_and_close" = "Zatwierdź i zapisz (⌘⏎)";
 
 /* Close (⌘⏎) */
-"mac_create_or_edit_commit_close" = "Close (⌘⏎)";
+"mac_create_or_edit_commit_close" = "Zamknij (⌘⏎)";
 
 /* Touch ID & Watch Unlock Settings... */
 "nextgen_toolbar_settings_convenience_unlock_ellipsis" = "Ustawienia odblokowania Touch ID & Watch...";
 
 /* AutoFill Settings... */
-"nextgen_toolbar_settings_autofill_settings_ellipsis" = "AutoFill Settings...";
+"nextgen_toolbar_settings_autofill_settings_ellipsis" = "Ustawienia automatycznego uzupełniania...";
 
 /* Encryption Settings... */
 "nextgen_toolbar_settings_encryption_settings_ellipsis" = "Ustawienia szyfrowania...";
@@ -5177,7 +5177,7 @@
 "nextgen_toolbar_settings_database_settings_ellipsis" = "Ustawienia bazy danych...";
 
 /* Application Preferences... */
-"nextgen_toolbar_settings_application_preferences_ellipsis" = "Application Preferences...";
+"nextgen_toolbar_settings_application_preferences_ellipsis" = "Ustawienia aplikacji...";
 
 /* Settings */
 "generic_settings" = "Ustawienia";
@@ -5192,19 +5192,19 @@
 "generic_sort_order_descending" = "Malejąco";
 
 /* Custom */
-"generic_sort_order_custom" = "Custom";
+"generic_sort_order_custom" = "Niestandardowe";
 
 /* Sort: %@ - Localization Note: The 1st parameter will be the actual sort order, so e.g. "Sort: Ascending" */
 "sort_status_fmt" = "Sortuj: %@";
 
 /* Enter Length */
-"alert_enter_password_basic_length" = "Enter Length";
+"alert_enter_password_basic_length" = "Podaj długość";
 
 /* Not to worry, your database is safely saved locally but could not be synchronised with the source database.\n\nIf this happens repeatedly, investigate the Sync Log and try re-adding your database. */
-"sync_nextgen_sync_issue_message" = "Not to worry, your database is safely saved locally but could not be synchronised with the source database.\n\nIf this happens repeatedly, investigate the Sync Log and try re-adding your database.";
+"sync_nextgen_sync_issue_message" = "Nie martw się, twoja baza danych jest bezpiecznie zapisywana lokalnie, ale nie można jej zsynchronizować ze źródłową bazą danych.\n\nJeśli to się powtarza, zbadaj dziennik synchronizacji i spróbuj ponownie dodać swoją bazę danych.";
 
 /* Sync Issue */
-"nextgen_sync_issue_toast_title" = "Sync Issue";
+"nextgen_sync_issue_toast_title" = "Problem z synchronizacją";
 
 /* Strongbox could not sync... */
 "nextgen_sync_issue_toast_message" = "Strongbox nie mógł dokonać synchronizacji...";
@@ -5213,100 +5213,100 @@
 "generic_more_with_ellipsis" = "Więcej...";
 
 /* Lock Database? */
-"mac_on_window_close_action_title" = "Lock Database?";
+"mac_on_window_close_action_title" = "Zablokować bazę danych?";
 
 /* Strongbox can keep your databases open in the background or it can lock them immediately when you close the window.\n\nWhat would you like Strongbox to do when you close a database window? */
-"mac_on_window_close_action_message" = "Strongbox can keep your databases open in the background or it can lock them immediately when you close the window.\n\nWhat would you like Strongbox to do when you close a database window?";
+"mac_on_window_close_action_message" = "Strongbox może utrzymać twoje bazy danych otwarte w tle lub może je zablokować natychmiast po zamknięciu okna.\n\nCo chciałbyś, aby robił Strongbox, gdy zamkniesz okno bazy danych?";
 
 /* Keep Database Unlocked */
-"mac_on_window_close_action_option_keep_unlocked" = "Keep Database Unlocked";
+"mac_on_window_close_action_option_keep_unlocked" = "Utrzymuj odblokowaną bazę danych";
 
 /* Lock Database Immediately */
-"mac_on_window_close_action_lock_immediately" = "Lock Database Immediately";
+"mac_on_window_close_action_lock_immediately" = "Natychmiast zablokuj bazę danych";
 
 /* Offline Mode - L10n - this is a status/state, the database is currently unlocked */
-"database_unlocked_status" = "Unlocked";
+"database_unlocked_status" = "Odblokowana";
 
 /* Your changes could not be safely saved. You are now working on an in-memory version only of your database. We recommend you try to save again */
-"error_could_not_save_message" = "Your changes could not be safely saved. You are now working on an in-memory only version of your database. We recommend you try to save again.";
+"error_could_not_save_message" = "Twoje zmiany nie mogły zostać zapisane w bezpieczny sposób. Pracujesz teraz nad wersją bazy danych przechowywanej tylko w pamięci. Zalecamy spróbować zapisać ponownie.";
 
 /* Error Saving\nWe recommend you try to save again */
-"error_could_not_save_title" = "Error Saving\nWe recommend you try to save again";
+"error_could_not_save_title" = "Błąd podczas zapisywania\nZalecamy ponowną próbę zapisania";
 
 /* Sync - L10n - This is a verb - To Synchronize */
 "generic_action_sync" = "Synchronizuj";
 
 /* Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Sync Log?\n\n%@\n */
-"sync_error_message_including_error_detail_fmt" = "Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Sync Log?\n\n%@\n";
+"sync_error_message_including_error_detail_fmt" = "Twoja baza danych została bezpiecznie zapisana, ale wystąpił błąd podczas synchronizacji. Chcesz spróbować zapisać ją ponownie, czy przejrzeć log z synchronizacji?\n\n%@\n";
 
 /* This database is in Offline Mode and cannot be synced. */
-"database_is_in_offline_mode_cannot_be_synced" = "This database is in Offline Mode and cannot be synced.";
+"database_is_in_offline_mode_cannot_be_synced" = "Ta baza danych znajduje się w trybie offline i nie może być zsynchronizowana.";
 
 /* Save Successful */
-"generic_save_was_successful" = "Save Successful";
+"generic_save_was_successful" = "Zapisywanie zakończone powodzeniem";
 
 /* Lazy Sync Mode */
-"lazy_sync_option_title" = "Lazy Sync Mode";
+"lazy_sync_option_title" = "Tryb Lazy Sync";
 
 /* Unlock database first, then attempt to sync. */
-"lazy_sync_option_detail" = "Unlock database first, then attempt to sync.";
+"lazy_sync_option_detail" = "Najpierw odblokuj bazę danych, a następnie spróbuj synchronizować.";
 
 /* Persistently Lazy (Ignore Errors) */
-"lazy_sync_persist_option_title" = "Persistently Lazy (Ignore Errors)*";
+"lazy_sync_persist_option_title" = "Trwały tryb Lazy (ignorowanie błędów)*";
 
 /* Keep in Lazy Sync Mode even if an error in sync occurs. */
-"lazy_sync_persist_option_detail" = "Keep in Lazy Sync mode even if a sync error occurs.\n*Advanced Users Only";
+"lazy_sync_persist_option_detail" = "Zachowaj w trybie Lazy Sync, nawet jeśli wystąpi błąd synchronizacji.\n*Tylko dla zaawansowanych użytkowników";
 
 /* Portuguese (Brazilian) */
-"pwgen_wordlist_pt_br" = "Portuguese (Brazilian)";
+"pwgen_wordlist_pt_br" = "Portugalski (Brazylijski)";
 
 /* Hidden (An item of some kind will be hidden from the User Interface) */
 "generic_item_is_hidden" = "Ukryte";
 
 /* These tabs will be visible in this order, providing there are eligible items to display. You must always have at least one visible tab. */
-"configure_tabs_footer_visible_tabs" = "These tabs will be visible in this order, providing there are eligible items to display. You must always have at least one visible tab.";
+"configure_tabs_footer_visible_tabs" = "Sekcje będą widoczne w tej kolejności, pod warunkiem, że kwalifikują się do wyświetlania. Zawsze musisz mieć co najmniej jedną widoczną sekcję.";
 
 /* These tabs will remain hidden. */
-"configure_tabs_footer_hidden_tabs" = "These tabs will remain hidden.";
+"configure_tabs_footer_hidden_tabs" = "Te sekcje pozostaną ukryte.";
 
 /* You can choose to completely hide the bottom tab bar since you have only a single visible tab. Tap to toggle. */
-"configure_tabs_footer_text_hide_tab_bar" = "You can choose to completely hide the bottom tab bar since you have only a single visible tab. Tap to toggle.";
+"configure_tabs_footer_text_hide_tab_bar" = "Możesz całkowicie ukryć dolny pasek sekcji, ponieważ masz tylko jedną widoczną sekcję. Dotknij, aby przełączyć.";
 
 /* Drag tabs here to hide them */
-"configure_tabs_drag_tabs_to_hide" = "Drag tabs here to hide them";
+"configure_tabs_drag_tabs_to_hide" = "Przeciągnij karty tutaj, aby je ukryć";
 
 /* Hide Tab Bar Completely */
-"configure_tabs_option_hide_tab_bar_completely" = "Hide Tab Bar Completely";
+"configure_tabs_option_hide_tab_bar_completely" = "Całkowicie ukryj pasek z sekcjami";
 
 /* %@ Items */
-"generic_number_of_items_plural_fmt" = "%@ Items";
+"generic_number_of_items_plural_fmt" = "%@ elementów";
 
 /* %@ Item */
-"generic_single_item_singular_fmt" = "%@ Item";
+"generic_single_item_singular_fmt" = "%@ element";
 
 /* Configure Tabs */
 "configure_tabs" = "Konfiguruj sekcje";
 
 /* Sort Groups Separately */
-"sort_configuration_custom_sort_order_and_sort_groups_separately" = "Keep Groups on Top";
+"sort_configuration_custom_sort_order_and_sort_groups_separately" = "Trzymaj grupy na początku";
 
 /* Oldest First */
-"generic_sort_order_chronologically_oldest_first" = "Oldest First";
+"generic_sort_order_chronologically_oldest_first" = "Najpierw najstarsze";
 
 /* Alphabetically */
-"generic_sort_order_alphabetically" = "Alphabetically";
+"generic_sort_order_alphabetically" = "Alfabetycznie";
 
 /* Newest First */
-"generic_sort_order_chronologically_newest_first" = "Newest First";
+"generic_sort_order_chronologically_newest_first" = "Najpierw najnowsze";
 
 /* Reverse Alphabetically */
-"generic_sort_order_reverse_alphabetically" = "Reverse Alphabetically";
+"generic_sort_order_reverse_alphabetically" = "Alfabetycznie w odwrotnej kolejności";
 
 /* %@ Items Sorted By - L10n note: This is the header of a menu, the menu contains the fields you can sort by. e.g. Title. So this will look like "120 Items Sorted By" for example. The first parameter is numeric, the number of items sorted below */
-"sort_menu_header_number_of_items_plural_sorted_by_fmt" = "%@ Items Sorted By";
+"sort_menu_header_number_of_items_plural_sorted_by_fmt" = "%@ elementów posortowanych według";
 
 /* 1 Item Sorted By - L10n note: This is the header of a menu, the menu contains the fields you can sort by. e.g. Title. So this will look like "1 Item Sorted By" for example */
-"sort_menu_header_singular_item_sorted_by" = "1 Item Sorted By";
+"sort_menu_header_singular_item_sorted_by" = "1 element posortowany według";
 
 /* Alphabetic Index */
-"alphabetic_index_menu_item_title" = "Alphabetic Index";
+"alphabetic_index_menu_item_title" = "Indeks alfabetyczny";
