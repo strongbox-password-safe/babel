@@ -2285,7 +2285,7 @@
 
 /* The CSV file must contain a header row with at least one of the following fields:\n\n[%@, %@, %@, %@, %@, %@]\n\nThe order of the fields doesn't matter. */
 
-"mac_csv_file_must_contain_header_and_fields" = "Plik CSV musi zawierać wiersz nagłówka z przynajmniej jednym z tych pól:\n\n[%@, %@, %@, %@, %@, %@]\n\nKolejność pól nie ma znaczenia.";
+"mac_csv_file_must_contain_header_and_fields" = "The CSV file must contain a header row with at least one of the following fields:\n\n[%@, %@, %@, %@, %@, %@, %@]\n\nThe order of the fields doesn't matter.";
 
 /* CSV Format */
 "mac_csv_format_info_title" = "Format CSV";
@@ -3182,7 +3182,7 @@
 "audit_manual_pwn_check_result_not_pwned" = "Twoje hasło NIE zostało wykradzione i prawdopodobnie jest bezpieczne.";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Wynik ręcznej weryfikacji HIBP";
+"audit_manual_pwn_check_result_title" = "Wynik weryfikacji";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "To hasło wyciekło i jest podatne na atak";
@@ -4708,8 +4708,8 @@
 /* Import 1Password */
 "safes_vc_import_1password" = "Importuj z 1Password";
 
-/* Import CSV */
-"safes_vc_import_csv" = "CSV...";
+/* Generic CSV... */
+"safes_vc_import_csv" = "Generic CSV...";
 
 /* Strongbox can import 1Pif files from 1Password. Tap OK to select your exported 1Pif file. */
 "safes_vc_import_1password_message" = "Strongbox może importować pliki 1Pif z 1Password. Naciśnij OK, aby wybrać eksportowany plik 1Pif.";
@@ -5319,3 +5319,9 @@
 
 /* Import */
 "safesvc_import_submenu" = "Importuj";
+
+/* LastPass (CSV) */
+"safes_vc_import_lastpass" = "LastPass (CSV)";
+
+/* iCloud Keychain (CSV) */
+"safes_vc_import_icloud" = "iCloud Keychain (CSV)";
