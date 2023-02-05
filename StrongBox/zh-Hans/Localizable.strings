@@ -1413,19 +1413,19 @@
 "open_sequence_prompt_use_convenience_both_title_fmt" = "便捷解锁：后续使用 %@ 或 PIN 码？";
 
 /* You can use either %@ or a convenience PIN Code to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use one of these methods, please select from below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
-"open_sequence_prompt_use_convenience_both_message_fmt" = "您可以使用 %@ 或一个便捷 PIN 码来解锁此数据库。虽然这样很方便，但可能会降低此设备上数据库的安全性。如果您想要使用其中一种方法，请从下列选择或选择不而继续使用您的主密码。\n*重要：您必须始终记住您的主密码。";
+"open_sequence_prompt_use_convenience_both_message_fmt" = "您可以使用 %@ 或一个便捷 PIN 码来解锁此数据库。虽然这样很方便，但可能会降低此设备上数据库的安全性。如果您想要使用其中一种方法，请在下方进行选择；当然，您也可以选择“不”以继续使用您的主密码。\n*重要：您必须时刻牢记您的主密码。";
 
 /* Convenience Unlock: Use %@ to Unlock in Future? */
 "open_sequence_prompt_use_convenience_bio_title_fmt" = "便捷解锁：后续使用 %@ 解锁？";
 
 /* You can use %@ to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use this then please select it below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
-"open_sequence_prompt_use_convenience_bio_message_fmt" = "您可以使用 %@ 解锁此数据库。虽然这样很方便，但可能会降低此设备上数据库的安全性。如果您想要使用此方法，请在下方选中或选择不而继续使用您的主密码。\n* 重要：您必须始终记住您的主密码。";
+"open_sequence_prompt_use_convenience_bio_message_fmt" = "您可以使用 %@ 解锁此数据库。虽然这样很方便，但可能会降低此设备上数据库的安全性。如果您想要使用此种方法，请在下方进行选择；当然，您也可以选择“不”以继续使用您的主密码。\n*重要：您必须时刻牢记您的主密码。";
 
 /* Convenience Unlock: Use a PIN Code to Unlock in Future? */
 "open_sequence_prompt_use_convenience_pin_title" = "便捷解锁：后续使用 PIN 码解锁？";
 
 /* You can use a convenience PIN Code to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use this then please select it below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
-"open_sequence_prompt_use_convenience_pin_message" = "您可以使用一个便捷 PIN 码解锁此数据库。虽然这样很方便，但可能会降低此设备上数据库的安全性。如果您想要使用此方法，请在下方选中或选择不而继续使用您的主密码。\n* 重要：您必须始终记住您的主密码。";
+"open_sequence_prompt_use_convenience_pin_message" = "您可以使用一个便捷 PIN 码解锁此数据库。虽然这样很方便，但可能会降低此设备上数据库的安全性。如果您想要使用此种方法，请在下方进行选择；当然，您也可以选择“不”以继续使用您的主密码。\n*重要：您必须时刻牢记您的主密码。";
 
 /* \n\nNB: Convenience Unlock is a Pro feature */
 "open_sequence_append_convenience_pro_warning" = "\n\n注意：便捷解锁仅在 Pro 版中提供。";
@@ -1709,9 +1709,6 @@
 /* Button Title to start reordering */
 "safes_vc_action_reorder_database" = "重新排序数据库";
 
-/* Tip displayed at top of screen. Slide left on Database for options */
-"safes_vc_tip" = "提示：向左滑动数据库以获取选项";
-
 /* Tip: Tap to Copy or Long Tap for Large View */
 "item_details_tip" = "提示：点击进行复制或长按以放大查看";
 
@@ -1872,7 +1869,7 @@
 "prefs_vc_info_email_support_options_mail_support" = "邮件支持 (仅限英文)";
 
 /* No comment provided by engineer. */
-"transfer_over_local_network_website_prologue" = "<p>在此窗口拖&amp; 拽文件或点击”上传文件&hellip;“按钮以上传新文件。如果这些文件是有效的 Keepass 数据库或 Password safe 数据库，那么这些文件将自动添加到您的数据库集。</p><p>注：如果你想要这些文件在 iOS 上可自动填充，您在应用中左滑数据库，并选择“设为自动填充”。</p>";
+"transfer_over_local_network_website_prologue" = "<p>在此窗口拖&amp; 拽文件或点击“上传文件&hellip;”按钮以上传新文件。如果这些文件是有效的 KeePass 数据库或 Password Safe 数据库，那么这些文件将自动加入到您的数据库集。</p>";
 
 /**********************************************************************************************************************/
 /* FUTURE: genericise... */
@@ -1965,7 +1962,7 @@
 "generic_database" = "数据库";
 
 /* Options Title - What would like to do? Options are to Add a Database or Create New etc */
-"safes_vc_what_would_you_like_to_do" = "您想做什么？";
+"safes_vc_what_would_you_like_to_do" = "您打算怎么做？";
 
 /* Are you sure? */
 "safes_vc_question_confirm_are_you_sure" = "您确定吗？";
@@ -2248,7 +2245,7 @@
 "mac_drag_drop_between_databases_keepass_email_field_not_supported" = "KeePass 本身不支持\"电子邮箱\"字段。Strongbox 会将其添加为自定义字段。\n是否继续?";
 
 /* KeePass 1 does not support entries at the root level, these will be discarded. KeePass 1 also does not natively support the 'Email' field. Strongbox will append it instead to the end of the 'Notes' field.\nDo you want to continue? */
-"mac_keepass1_does_not_support_root_entries" = "KeePass 1 不支持根层条目，它们将被丢弃。KeePass 1 也不支持“电子邮箱”字段。Strongbox 将其附加在“备注”字段的末尾。\n您想要继续吗？";
+"mac_keepass1_does_not_support_root_entries" = "KeePass 1 不支持根层条目，它们将被丢弃。KeePass 1 也不支持“Email”字段。Strongbox 将把它附加在“备注”字段的末尾。\n您想要继续吗？";
 
 /* The Password Safe format does not support icons, attachments or custom fields. If you continue, these fields will not be copied to this database.\nDo you want to continue without these fields? */
 "mac_password_safe_fmt_does_not_support_icons_attachments_warning" = "Password Safe 格式不支持图标、附件或自定义字段。 如果您继续，这些字段将不会被复制到此数据库。\n您想要在没有这些字段的情况下继续吗？";
@@ -2288,7 +2285,7 @@
 
 /* The CSV file must contain a header row with at least one of the following fields:\n\n[%@, %@, %@, %@, %@, %@]\n\nThe order of the fields doesn't matter. */
 
-"mac_csv_file_must_contain_header_and_fields" = "CSV 文件首行必须包含以下字段中的至少一个项:\n\n[%@，%@，%@，%@，%@，%@]\n\n字段的顺序不重要。";
+"mac_csv_file_must_contain_header_and_fields" = "CSV 文件首行必须至少包含以下字段中的一项：\n\n[%@, %@, %@, %@, %@, %@]\n\n字段的顺序不重要。";
 
 /* CSV Format */
 "mac_csv_format_info_title" = "CSV 格式";
@@ -2370,7 +2367,7 @@
 
 /* Hi and welcome to Strongbox!\n\nI hope you'll really like the app, and find it useful. You can enjoy this fully featured Pro version of Strongbox for the next three months. After that point, you will be transitioned to the regular version of Strongbox.\n\nYou can always find out more at any time by tapping 'Upgrade to Pro' in the Strongbox menu item.\n\nThanks!\n-Mark */
 
-"mac_welcome_to_strongbox_message" = "欢迎来到 Strongbox!\n\n我希望您会真心爱上这个应用，并觉得它实用。 您在接下来的三个月内可以享受功能齐全的 Strongbox Pro 版本。 在此之后，您将过渡到 Strongbox 的普通版本。\n\n您可随时通过点击 Strongbox 菜单项中的\"升级到 Pro\"选项来了解更多信息。\n\n感谢!\n-Mark";
+"mac_welcome_to_strongbox_message" = "欢迎来到 Strongbox！\n\n希望您会喜欢上这个应用，并愈发感到爱不释手。 您在接下来的三个月内可以享受功能齐全的 Strongbox Pro 版本。 在此之后，您将过渡到 Strongbox 的普通版本。\n\n您随时能够通过点击 Strongbox 菜单中的“升级到 Pro”选项来了解更多信息。\n\n感谢！\n-Mark";
 
 /* Change Master Credentials */
 "mac_undo_action_change_master_credentials" = "更改主凭据";
@@ -2688,7 +2685,7 @@
 "open_sequence_warn_biometrics_db_changed_title" = "生物识别数据库变更";
 
 /* It looks like your biometrics database has changed, probably because you added a new face or fingerprint. Strongbox now requires you to re-enter your master credentials manually for security reasons. */
-"open_sequence_warn_biometrics_db_changed_message" = "看起来您的生物识别数据库已改变，可能是因为您添加了一个新的面容或指纹。 现在，出于安全原因，Strongbox 要求您重新手动输入主凭据。";
+"open_sequence_warn_biometrics_db_changed_message" = "看起来您的生物识别数据库已改变，可能是因为您添加了一个新的面容或指纹。 现在，出于安全原因，Strongbox 将要求您重新手动输入主凭据。";
 
 /* None - (Tranlators Note: When the user is not using or has not selected a key file on the Unlock screen.) */
 "mac_key_file_none" = "无";
@@ -3029,13 +3026,13 @@
 "audit_status_no_issues_found" = "未发现问题";
 
 /* The credentials were incorrect for this database. Are you sure you are using this key file?\n\nNB: A key files are not the same as your database file. */
-"open_sequence_problem_opening_incorrect_credentials_message_verify_key_file" = "该数据库的凭证不正确。你确定使用的是此密钥文件吗？\n\n注意：密钥文件与您的数据库文件 (KDBX/KDB) 不同。";
+"open_sequence_problem_opening_incorrect_credentials_message_verify_key_file" = "该数据库的凭证不正确。您确定使用的是此密钥文件吗？\n\n注意：密钥文件不同于您的数据库文件 (KDBX/KDB) ";
 
 /* Is your Key File correct? */
 "casg_key_file_correct_title" = "您的密钥文件正确吗？";
 
 /* You have configured this database to open with a key file but the key file you have chosen doesn't look valid.\n\nAre you sure you are using this key file?\n\nNB: A key file is not the same as your database file" */
-"casg_key_file_correct_message" = "您已将此数据库配置为用密钥文件打开，但您选择的密钥文件无效。\n\n你确定使用的是此密钥文件吗？\n\n注意：密钥文件和数据库文件是不一样的。";
+"casg_key_file_correct_message" = "您已将此数据库配置为用密钥文件打开，但您选择的密钥文件无效。\n\n您确定使用的是此密钥文件吗？\n\n注意：密钥文件不同于数据库文件";
 
 /* Yes, the key file is correct */
 "casg_key_file_correct_yes_key_file_correct" = "是的，钥匙文件是正确的";
@@ -3161,7 +3158,7 @@
 "audit_summary_flag_password_is_too_short" = "这个密码过短";
 
 /* The items above use exactly the same password as this item, this is generally considered a weakness. You should strive not to have any duplicated passwords. */
-"audit_drill_down_section_footer_duplicates" = "以上项目使用的密码与本项目完全相同。这通常被认为是一个安全弱点。你应该尽量避免任何重复的密码。";
+"audit_drill_down_section_footer_duplicates" = "以上条目使用的密码与本条目的完全相同。这通常被认为是一个安全弱点。您应该尽量避免任何重复的密码。";
 
 /* The items above have a similar password to this item. This might indicate a weakness or use of a common component and could therefore be vulnerable to attack. */
 "audit_drill_down_section_footer_similar" = "以上项目的密码与本项目相似。这表明可能存在弱点或使用了共同组成部分，可能因此容易受到攻击。";
@@ -3182,7 +3179,7 @@
 "audit_manual_pwn_check_result_title" = "手动调整 HIBP 结果";
 
 /* Your password has NOT been pwned as is likely secure. */
-"audit_manual_pwn_check_result_not_pwned" = "您的密码并没有被泄露，很可能是安全的。";
+"audit_manual_pwn_check_result_not_pwned" = "您的密码并没有泄露，较大概率是安全的。";
 
 /* Manual HIBP Result */
 "audit_manual_pwn_check_result_title" = "手动调整 HIBP 结果";
@@ -3302,7 +3299,7 @@
 "sync_conflict_title" = "同步冲突";
 
 /* It looks like the remote version of this database on '%@' has changed and so has the local version you've been working on. Which version would you like to use?  - Translators Note: The first parameter is the name of the remote storage provider e.g. "Dropbox" */
-"sync_conflict_message_fmt" = "看起来这个数据库的远程版本在 '%@' 已经改变了，所以您一直在使用的本地版本也是如此。您想要使用哪个版本？";
+"sync_conflict_message_fmt" = "看起来这个在 '%@' 上的的远程版本数据库发生了些许改变，同样的，您正在使用的本地版本也是如此。您希望使用哪个版本？";
 
 /* Strongbox could not sync your changes. */
 "sync_could_not_sync_your_changes" = "Strongbox 无法同步您的更改。";
@@ -3356,7 +3353,7 @@
 "open_sequence_database_different_filename_title" = "不同的文件名";
 
 /* This doesn't look like it's the right file because the filename looks different than the one you originally added. Do you want to continue?" */
-"open_sequence_database_different_filename_message" = "这看起来不像是正确的文件，因为文件名与你原先添加的文件不同。你想要继续吗？";
+"open_sequence_database_different_filename_message" = "这看起来不像是正确的文件，因为文件名与您原先添加的文件不同。您想继续吗？";
 
 /* Relocate Database */
 "open_sequence_storage_provider_try_relocate_files_db" = "检索数据库...";
@@ -4711,8 +4708,8 @@
 /* Import 1Password */
 "safes_vc_import_1password" = "导入 1Password";
 
-/* Import CSV */
-"safes_vc_import_csv" = "导入 CSV";
+/* Generic CSV... */
+"safes_vc_import_csv" = "通用 CSV...";
 
 /* Strongbox can import 1Pif files from 1Password. Tap OK to select your exported 1Pif file. */
 "safes_vc_import_1password_message" = "Strongbox 可以从 1Password 导入 1Pif 文件。点击确定选择您导出的 1Pif 文件。";
@@ -5310,3 +5307,33 @@
 
 /* Alphabetic Index */
 "alphabetic_index_menu_item_title" = "字母索引";
+
+/* Strongbox can import 1Pux files from 1Password. Tap OK to select your exported 1Pux file. */
+"safes_vc_import_1password_1pux_message" = "Strongbox 可以从 1Password 导入 1Pux 文件。点击 OK 选择您导出的 1Pux 文件。";
+
+/* Import 1Password (1Pif) */
+"safes_vc_import_1password_1pif" = "1Password (1Pif)...";
+
+/* Import 1Password (1Pux) */
+"safes_vc_import_1password_1pux" = "1Password (1Pux)...";
+
+/* Import */
+"safesvc_import_submenu" = "导入";
+
+/* LastPass (CSV) */
+"safes_vc_import_lastpass" = "LastPass (CSV)";
+
+/* iCloud Keychain (CSV) */
+"safes_vc_import_icloud" = "iCloud Keychain (CSV)";
+
+/* Disabling Auto-Commit could mean you lose this TOTP if you forget to commit later, are you sure? */
+"are_you_sure_auto_commit_totp_msg" = "Disabling Auto-Commit could mean you lose this TOTP if you forget to commit later. Are you sure?";
+
+/* Close - A generic verb - to Close a popup or dialog */
+"generic_verb_close" = "关闭";
+
+/* Discard - A verb - to discard any pending changes that might have been made */
+"generic_verb_discard" = "Discard";
+
+/* Start Typing to Begin Search */
+"browse_vc_view_start_typing_to_search" = "Start Typing to Begin Search";

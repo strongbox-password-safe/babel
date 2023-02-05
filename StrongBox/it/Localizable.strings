@@ -1709,9 +1709,6 @@
 /* Button Title to start reordering */
 "safes_vc_action_reorder_database" = "Riordinare Database";
 
-/* Tip displayed at top of screen. Slide left on Database for options */
-"safes_vc_tip" = "Suggerimento: Scorrere a sinistra sul database per le opzioni";
-
 /* Tip: Tap to Copy or Long Tap for Large View */
 "item_details_tip" = "Suggerimento: Toccare per copiare, o Toccare a Lungo per visualizzare a grandi dimensioni";
 
@@ -1872,7 +1869,7 @@
 "prefs_vc_info_email_support_options_mail_support" = "Supporto Mail (solo Inglese)";
 
 /* No comment provided by engineer. */
-"transfer_over_local_network_website_prologue" = "<p>Trascinare &amp; rilascia file su questa finestra o usare il pulsante \"Carica Files&hellip;\" per caricare nuovi file. Se questi file sono database KeePass o Password Safe, verranno automaticamente aggiunti alla raccolta di Database.</p><p>NB: Se si vuole che questi file funzionino con il Riempimento Automatico iOS si deve scorrere verso sinistra sul database nell'app, e scegliere 'Attiva Riempimento Automatico'.</p>";
+"transfer_over_local_network_website_prologue" = "<p>Trascinare &amp; rilasciare file su questa finestra o usare il pulsante \"Carica Files&hellip;\" per caricare nuovi file. Se questi file sono database KeePass o Password Safe, verranno automaticamente aggiunti alla raccolta di Database.</p>";
 
 /**********************************************************************************************************************/
 /* FUTURE: genericise... */
@@ -2288,7 +2285,7 @@
 
 /* The CSV file must contain a header row with at least one of the following fields:\n\n[%@, %@, %@, %@, %@, %@]\n\nThe order of the fields doesn't matter. */
 
-"mac_csv_file_must_contain_header_and_fields" = "Il file CSV deve contenere una riga di intestazione con almeno uno dei seguenti campi:\n\n[%@, %@, %@, %@, %@, %@]\n\nL'ordine dei campi non ha importanza.";
+"mac_csv_file_must_contain_header_and_fields" = "The CSV file must contain a header row with at least one of the following fields:\n\n[%@, %@, %@, %@, %@, %@, %@]\n\nThe order of the fields doesn't matter.";
 
 /* CSV Format */
 "mac_csv_format_info_title" = "Formato CSV";
@@ -4711,8 +4708,8 @@
 /* Import 1Password */
 "safes_vc_import_1password" = "Importare 1Password";
 
-/* Import CSV */
-"safes_vc_import_csv" = "Importare CSV";
+/* Generic CSV... */
+"safes_vc_import_csv" = "Generic CSV...";
 
 /* Strongbox can import 1Pif files from 1Password. Tap OK to select your exported 1Pif file. */
 "safes_vc_import_1password_message" = "Strongbox può importare i file 1Pif da 1Password. Toccare OK per selezionare il file 1Pif da importare.";
@@ -5310,3 +5307,33 @@
 
 /* Alphabetic Index */
 "alphabetic_index_menu_item_title" = "Indice Alfabetico";
+
+/* Strongbox can import 1Pux files from 1Password. Tap OK to select your exported 1Pux file. */
+"safes_vc_import_1password_1pux_message" = "Strongbox può importare i file 1Pux da 1Password. Toccare OK per selezionare il file 1Pux esportato.";
+
+/* Import 1Password (1Pif) */
+"safes_vc_import_1password_1pif" = "1Password (1Pif)...";
+
+/* Import 1Password (1Pux) */
+"safes_vc_import_1password_1pux" = "1Password (1Pux)...";
+
+/* Import */
+"safesvc_import_submenu" = "Importare";
+
+/* LastPass (CSV) */
+"safes_vc_import_lastpass" = "LastPass (CSV)";
+
+/* iCloud Keychain (CSV) */
+"safes_vc_import_icloud" = "iCloud Keychain (CSV)";
+
+/* Disabling Auto-Commit could mean you lose this TOTP if you forget to commit later, are you sure? */
+"are_you_sure_auto_commit_totp_msg" = "Disabling Auto-Commit could mean you lose this TOTP if you forget to commit later. Are you sure?";
+
+/* Close - A generic verb - to Close a popup or dialog */
+"generic_verb_close" = "Chiudi";
+
+/* Discard - A verb - to discard any pending changes that might have been made */
+"generic_verb_discard" = "Discard";
+
+/* Start Typing to Begin Search */
+"browse_vc_view_start_typing_to_search" = "Start Typing to Begin Search";

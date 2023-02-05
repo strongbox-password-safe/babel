@@ -1709,9 +1709,6 @@
 /* Button Title to start reordering */
 "safes_vc_action_reorder_database" = "Změnit pořadí databází";
 
-/* Tip displayed at top of screen. Slide left on Database for options */
-"safes_vc_tip" = "Tip: Volby zobrazíte posunutím vlevo na databázi";
-
 /* Tip: Tap to Copy or Long Tap for Large View */
 "item_details_tip" = "Tip: klepnutím zkopírujete nebo delším podržením pro velké zobrazení";
 
@@ -1872,7 +1869,7 @@
 "prefs_vc_info_email_support_options_mail_support" = "Emailová podpora (pouze anglicky)";
 
 /* No comment provided by engineer. */
-"transfer_over_local_network_website_prologue" = "<p>Přetáhněte &amp; pusťte soubory v tomto okně nebo použijte tlačítko \"Nahrát soubory&hellip;\" pro nahrání nových souborů. Pokud jsou tyto soubory platnými soubory databáze KeePass nebo Password Safe, budou automaticky přidány do vaší kolekce databází.</p><p>Pozn.: pokud chcete, aby tyto soubory v iOS fungovaly s automatickým vyplňováním, měli byste je přejet vlevo a zvolit \"Povolit automatické vyplňování\".</p>";
+"transfer_over_local_network_website_prologue" = "<p>Přetáhněte &amp; pustťe soubory v tomto okně nebo použijte tlačítko \"Nahrát soubory&hellip;\" pro nahrání nových souborů. Pokud jsou tyto soubory opravdové databáze hesel z KeePass nebo Passwords Safe, budou automaticky přidány do vaší kolekce databází.</p>";
 
 /**********************************************************************************************************************/
 /* FUTURE: genericise... */
@@ -2288,7 +2285,7 @@
 
 /* The CSV file must contain a header row with at least one of the following fields:\n\n[%@, %@, %@, %@, %@, %@]\n\nThe order of the fields doesn't matter. */
 
-"mac_csv_file_must_contain_header_and_fields" = "Soubor CSV musí obsahovat záhlaví s alespoň jedním z následujících polí:\n\n[%@, %@, %@, %@, %@, %@]\n\nPořadí polí nevadí.";
+"mac_csv_file_must_contain_header_and_fields" = "Soubor CSV musí obsahovat záhlaví s alespoň jedním z následujících polí:\n\n[%@, %@, %@, %@, %@, %@, %@]\n\nPořadí polí nevadí.";
 
 /* CSV Format */
 "mac_csv_format_info_title" = "Formát CSV";
@@ -4711,8 +4708,8 @@
 /* Import 1Password */
 "safes_vc_import_1password" = "1Password import";
 
-/* Import CSV */
-"safes_vc_import_csv" = "CSV import";
+/* Generic CSV... */
+"safes_vc_import_csv" = "Obecný CSV...";
 
 /* Strongbox can import 1Pif files from 1Password. Tap OK to select your exported 1Pif file. */
 "safes_vc_import_1password_message" = "Strongbox může importovat 1Pif soubory z 1Password. Klepnutím na OK vyberte váš exportovaný 1Pif soubor.";
@@ -5310,3 +5307,33 @@
 
 /* Alphabetic Index */
 "alphabetic_index_menu_item_title" = "Abecední index";
+
+/* Strongbox can import 1Pux files from 1Password. Tap OK to select your exported 1Pux file. */
+"safes_vc_import_1password_1pux_message" = "Strongbox může importovat 1Pux soubory z 1Password. Klepnutím na OK vyberte exportovaný 1Pux soubor.";
+
+/* Import 1Password (1Pif) */
+"safes_vc_import_1password_1pif" = "1Password (1Pif)...";
+
+/* Import 1Password (1Pux) */
+"safes_vc_import_1password_1pux" = "1Password (1Pux)...";
+
+/* Import */
+"safesvc_import_submenu" = "Importovat";
+
+/* LastPass (CSV) */
+"safes_vc_import_lastpass" = "LastPass (CSV)";
+
+/* iCloud Keychain (CSV) */
+"safes_vc_import_icloud" = "iCloud klíčenka (CSV)";
+
+/* Disabling Auto-Commit could mean you lose this TOTP if you forget to commit later, are you sure? */
+"are_you_sure_auto_commit_totp_msg" = "Disabling Auto-Commit could mean you lose this TOTP if you forget to commit later. Are you sure?";
+
+/* Close - A generic verb - to Close a popup or dialog */
+"generic_verb_close" = "Zavřít";
+
+/* Discard - A verb - to discard any pending changes that might have been made */
+"generic_verb_discard" = "Discard";
+
+/* Start Typing to Begin Search */
+"browse_vc_view_start_typing_to_search" = "Start Typing to Begin Search";

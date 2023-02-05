@@ -1709,9 +1709,6 @@
 /* Button Title to start reordering */
 "safes_vc_action_reorder_database" = "將資料庫重新排序";
 
-/* Tip displayed at top of screen. Slide left on Database for options */
-"safes_vc_tip" = "提示：向左滑動資料庫以取得選項";
-
 /* Tip: Tap to Copy or Long Tap for Large View */
 "item_details_tip" = "提示：點選進行複製或長按可放大檢視";
 
@@ -1872,7 +1869,7 @@
 "prefs_vc_info_email_support_options_mail_support" = "郵件支援 (僅限英文)";
 
 /* No comment provided by engineer. */
-"transfer_over_local_network_website_prologue" = "<p>將檔案拖&amp; 曳至在此視窗，或點選「上傳檔案&hellip;」按鈕即可上傳新檔案。如果檔案是有效的 Keepass 資料庫或 Password safe 資料庫，那麼就會自動新增至您的資料庫集。</p><p>註：如果希望這些檔案在 iOS 上可進行自動填入，您可在應用程式的資料庫上左滑，並選擇「設為自動填入」。</p>";
+"transfer_over_local_network_website_prologue" = "<p>Drag &amp; drop files on this window or use the \"Upload Files&hellip;\" button to upload new files. If these files are valid KeePass or Password Safe databases they will be automatically be added to your Databases collection.</p>";
 
 /**********************************************************************************************************************/
 /* FUTURE: genericise... */
@@ -2288,7 +2285,7 @@
 
 /* The CSV file must contain a header row with at least one of the following fields:\n\n[%@, %@, %@, %@, %@, %@]\n\nThe order of the fields doesn't matter. */
 
-"mac_csv_file_must_contain_header_and_fields" = "CSV 檔案首行必須包含以下欄位中的至少一個項目：\n\n[%@，%@，%@，%@，%@，%@]\n\n欄位的順序不重要。";
+"mac_csv_file_must_contain_header_and_fields" = "The CSV file must contain a header row with at least one of the following fields:\n\n[%@, %@, %@, %@, %@, %@, %@]\n\nThe order of the fields doesn't matter.";
 
 /* CSV Format */
 "mac_csv_format_info_title" = "CSV 格式";
@@ -4711,8 +4708,8 @@
 /* Import 1Password */
 "safes_vc_import_1password" = "Import 1Password";
 
-/* Import CSV */
-"safes_vc_import_csv" = "Import CSV";
+/* Generic CSV... */
+"safes_vc_import_csv" = "Generic CSV...";
 
 /* Strongbox can import 1Pif files from 1Password. Tap OK to select your exported 1Pif file. */
 "safes_vc_import_1password_message" = "Strongbox can import 1Pif files from 1Password. Tap OK to select your exported 1Pif file.";
@@ -5310,3 +5307,33 @@
 
 /* Alphabetic Index */
 "alphabetic_index_menu_item_title" = "Alphabetic Index";
+
+/* Strongbox can import 1Pux files from 1Password. Tap OK to select your exported 1Pux file. */
+"safes_vc_import_1password_1pux_message" = "Strongbox can import 1Pux files from 1Password. Tap OK to select your exported 1Pux file.";
+
+/* Import 1Password (1Pif) */
+"safes_vc_import_1password_1pif" = "1Password (1Pif)...";
+
+/* Import 1Password (1Pux) */
+"safes_vc_import_1password_1pux" = "1Password (1Pux)...";
+
+/* Import */
+"safesvc_import_submenu" = "匯入";
+
+/* LastPass (CSV) */
+"safes_vc_import_lastpass" = "LastPass (CSV)";
+
+/* iCloud Keychain (CSV) */
+"safes_vc_import_icloud" = "iCloud Keychain (CSV)";
+
+/* Disabling Auto-Commit could mean you lose this TOTP if you forget to commit later, are you sure? */
+"are_you_sure_auto_commit_totp_msg" = "Disabling Auto-Commit could mean you lose this TOTP if you forget to commit later. Are you sure?";
+
+/* Close - A generic verb - to Close a popup or dialog */
+"generic_verb_close" = "關閉";
+
+/* Discard - A verb - to discard any pending changes that might have been made */
+"generic_verb_discard" = "Discard";
+
+/* Start Typing to Begin Search */
+"browse_vc_view_start_typing_to_search" = "Start Typing to Begin Search";
