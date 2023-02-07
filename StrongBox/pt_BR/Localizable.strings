@@ -318,7 +318,7 @@
 "browse_prefs_view_as_folders" = "Grupos";
 
 /* TOTPs */
-"browse_prefs_view_as_totp_list" = "TOTPs";
+"browse_prefs_view_as_totp_list" = "TOTP's";
 
 /* Set Icon */
 "browse_vc_action_set_icon" = "Definir Ícone";
@@ -420,7 +420,7 @@
 "browse_vc_view_as_database_empty" = "Sem Registros";
 
 /* No TOTPs Found */
-"browse_vc_view_as_totp_no_totps" = "No TOTPs Found";
+"browse_vc_view_as_totp_no_totps" = "Sem TOTP's Encontradas";
 
 /* No matching entries found */
 "browse_vc_view_search_no_matches" = "Nenhum registro correspondente foi encontrado";
@@ -2285,7 +2285,7 @@
 
 /* The CSV file must contain a header row with at least one of the following fields:\n\n[%@, %@, %@, %@, %@, %@]\n\nThe order of the fields doesn't matter. */
 
-"mac_csv_file_must_contain_header_and_fields" = "The CSV file must contain a header row with at least one of the following fields:\n\n[%@, %@, %@, %@, %@, %@, %@]\n\nThe order of the fields doesn't matter.";
+"mac_csv_file_must_contain_header_and_fields" = "O arquivo CSV deve conter uma linha de cabeçalho com pelo menos um dos seguintes campos:\n\n[%@, %@, %@, %@, %@, %@, %@]\n\nA ordem dos campos não importa.";
 
 /* CSV Format */
 "mac_csv_format_info_title" = "Formato CSV";
@@ -4709,7 +4709,7 @@
 "safes_vc_import_1password" = "Importar 1Password";
 
 /* Generic CSV... */
-"safes_vc_import_csv" = "Generic CSV...";
+"safes_vc_import_csv" = "CSV Genérico...";
 
 /* Strongbox can import 1Pif files from 1Password. Tap OK to select your exported 1Pif file. */
 "safes_vc_import_1password_message" = "O Strongbox pode importar arquivos 1Pif do 1Password. Toque em OK para selecionar o arquivo 1Pif exportado.";
@@ -5210,103 +5210,103 @@
 "generic_more_with_ellipsis" = "Mais...";
 
 /* Lock Database? */
-"mac_on_window_close_action_title" = "Lock Database?";
+"mac_on_window_close_action_title" = "Bloquear Base de Dados?";
 
 /* Strongbox can keep your databases open in the background or it can lock them immediately when you close the window.\n\nWhat would you like Strongbox to do when you close a database window? */
-"mac_on_window_close_action_message" = "Strongbox can keep your databases open in the background or it can lock them immediately when you close the window.\n\nWhat would you like Strongbox to do when you close a database window?";
+"mac_on_window_close_action_message" = "O Strongbox pode manter suas bases de dados abertas em segundo plano ou bloqueá-las imediatamente quando você fechar a janela.\n\nO que você gostaria que o Strongbox fizesse ao fechar uma janela de base de dados?";
 
 /* Keep Database Unlocked */
-"mac_on_window_close_action_option_keep_unlocked" = "Keep Database Unlocked";
+"mac_on_window_close_action_option_keep_unlocked" = "Manter Base de Dados Desbloqueada";
 
 /* Lock Database Immediately */
-"mac_on_window_close_action_lock_immediately" = "Lock Database Immediately";
+"mac_on_window_close_action_lock_immediately" = "Bloquear Base de Dados Imediatamente";
 
 /* Offline Mode - L10n - this is a status/state, the database is currently unlocked */
-"database_unlocked_status" = "Unlocked";
+"database_unlocked_status" = "Desbloqueado";
 
 /* Your changes could not be safely saved. You are now working on an in-memory version only of your database. We recommend you try to save again */
-"error_could_not_save_message" = "Your changes could not be safely saved. You are now working on an in-memory only version of your database. We recommend you try to save again.";
+"error_could_not_save_message" = "Suas alterações não puderam ser salvas com segurança. Agora você está trabalhando em uma versão \"somente em memória\" da sua base de dados. Recomendamos que você tente salvar novamente.";
 
 /* Error Saving\nWe recommend you try to save again */
-"error_could_not_save_title" = "Error Saving\nWe recommend you try to save again";
+"error_could_not_save_title" = "Erro ao Salvar\nRecomendamos que você tente salvar novamente";
 
 /* Sync - L10n - This is a verb - To Synchronize */
 "generic_action_sync" = "Sincronizar";
 
 /* Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Sync Log?\n\n%@\n */
-"sync_error_message_including_error_detail_fmt" = "Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Sync Log?\n\n%@\n";
+"sync_error_message_including_error_detail_fmt" = "Sua base de dados está salva com segurança, mas houve um erro ao sincronizar. Gostaria de tentar novamente ou dar uma olhada no Log de Sincronização?\n\n%@\n";
 
 /* This database is in Offline Mode and cannot be synced. */
-"database_is_in_offline_mode_cannot_be_synced" = "This database is in Offline Mode and cannot be synced.";
+"database_is_in_offline_mode_cannot_be_synced" = "Esta base de dados está no Modo Offline e não pode ser sincronizada.";
 
 /* Save Successful */
-"generic_save_was_successful" = "Save Successful";
+"generic_save_was_successful" = "Salvo com Sucesso";
 
 /* Lazy Sync Mode */
-"lazy_sync_option_title" = "Lazy Sync Mode";
+"lazy_sync_option_title" = "Modo de Sincronização com Atraso";
 
 /* Unlock database first, then attempt to sync. */
-"lazy_sync_option_detail" = "Unlock database first, then attempt to sync.";
+"lazy_sync_option_detail" = "Desbloqueie a base de dados primeiro, depois tente sincronizar.";
 
 /* Persistently Lazy (Ignore Errors) */
-"lazy_sync_persist_option_title" = "Persistently Lazy (Ignore Errors)*";
+"lazy_sync_persist_option_title" = "Persistentemente Atrasado (Ignorar Erros)*";
 
 /* Keep in Lazy Sync Mode even if an error in sync occurs. */
-"lazy_sync_persist_option_detail" = "Keep in Lazy Sync mode even if a sync error occurs.\n*Advanced Users Only";
+"lazy_sync_persist_option_detail" = "Mantenha no modo Atrasado mesmo que ocorram erros de sincronização.\n*Somente Usuários Avançados";
 
 /* Portuguese (Brazilian) */
-"pwgen_wordlist_pt_br" = "Portuguese (Brazilian)";
+"pwgen_wordlist_pt_br" = "Português (Brasileiro)";
 
 /* Hidden (An item of some kind will be hidden from the User Interface) */
-"generic_item_is_hidden" = "Hidden";
+"generic_item_is_hidden" = "Oculto";
 
 /* These tabs will be visible in this order, providing there are eligible items to display. You must always have at least one visible tab. */
-"configure_tabs_footer_visible_tabs" = "These tabs will be visible in this order, providing there are eligible items to display. You must always have at least one visible tab.";
+"configure_tabs_footer_visible_tabs" = "Estas abas ficarão visíveis nesta ordem, desde que hajam itens elegíveis para exibir. Você deve ter sempre pelo menos uma aba visível.";
 
 /* These tabs will remain hidden. */
-"configure_tabs_footer_hidden_tabs" = "These tabs will remain hidden.";
+"configure_tabs_footer_hidden_tabs" = "Estas abas permanecerão ocultas.";
 
 /* You can choose to completely hide the bottom tab bar since you have only a single visible tab. Tap to toggle. */
-"configure_tabs_footer_text_hide_tab_bar" = "You can choose to completely hide the bottom tab bar since you have only a single visible tab. Tap to toggle.";
+"configure_tabs_footer_text_hide_tab_bar" = "Você pode optar por ocultar completamente a barra de abas, já que só existe uma única aba visível. Toque para alternar.";
 
 /* Drag tabs here to hide them */
-"configure_tabs_drag_tabs_to_hide" = "Drag tabs here to hide them";
+"configure_tabs_drag_tabs_to_hide" = "Arraste abas para cá para ocultá-las";
 
 /* Hide Tab Bar Completely */
-"configure_tabs_option_hide_tab_bar_completely" = "Hide Tab Bar Completely";
+"configure_tabs_option_hide_tab_bar_completely" = "Ocultar Barra de Abas Completamente";
 
 /* %@ Items */
-"generic_number_of_items_plural_fmt" = "%@ Items";
+"generic_number_of_items_plural_fmt" = "%@ Itens";
 
 /* %@ Item */
 "generic_single_item_singular_fmt" = "%@ Item";
 
 /* Configure Tabs */
-"configure_tabs" = "Configure Tabs";
+"configure_tabs" = "Configurar Guias";
 
 /* Sort Groups Separately */
-"sort_configuration_custom_sort_order_and_sort_groups_separately" = "Keep Groups on Top";
+"sort_configuration_custom_sort_order_and_sort_groups_separately" = "Manter Grupos no Topo";
 
 /* Oldest First */
-"generic_sort_order_chronologically_oldest_first" = "Oldest First";
+"generic_sort_order_chronologically_oldest_first" = "Antigos Primeiro";
 
 /* Alphabetically */
-"generic_sort_order_alphabetically" = "Alphabetically";
+"generic_sort_order_alphabetically" = "Alfabeticamente";
 
 /* Newest First */
-"generic_sort_order_chronologically_newest_first" = "Newest First";
+"generic_sort_order_chronologically_newest_first" = "Recentes Primeiro";
 
 /* Reverse Alphabetically */
-"generic_sort_order_reverse_alphabetically" = "Reverse Alphabetically";
+"generic_sort_order_reverse_alphabetically" = "Ordem Alfabética Reversa";
 
 /* %@ Items Sorted By - L10n note: This is the header of a menu, the menu contains the fields you can sort by. e.g. Title. So this will look like "120 Items Sorted By" for example. The first parameter is numeric, the number of items sorted below */
-"sort_menu_header_number_of_items_plural_sorted_by_fmt" = "%@ Items Sorted By";
+"sort_menu_header_number_of_items_plural_sorted_by_fmt" = "%@ Itens Classificados Por";
 
 /* 1 Item Sorted By - L10n note: This is the header of a menu, the menu contains the fields you can sort by. e.g. Title. So this will look like "1 Item Sorted By" for example */
-"sort_menu_header_singular_item_sorted_by" = "1 Item Sorted By";
+"sort_menu_header_singular_item_sorted_by" = "1 Item Classificado Por";
 
 /* Alphabetic Index */
-"alphabetic_index_menu_item_title" = "Alphabetic Index";
+"alphabetic_index_menu_item_title" = "Índice Alfabético";
 
 /* Strongbox can import 1Pux files from 1Password. Tap OK to select your exported 1Pux file. */
 "safes_vc_import_1password_1pux_message" = "Strongbox can import 1Pux files from 1Password. Tap OK to select your exported 1Pux file.";
@@ -5333,13 +5333,13 @@
 "generic_verb_close" = "Fechar";
 
 /* Discard - A verb - to discard any pending changes that might have been made */
-"generic_verb_discard" = "Discard";
+"generic_verb_discard" = "Descartar";
 
 /* Start Typing to Begin Search */
-"browse_vc_view_start_typing_to_search" = "Start Typing to Begin Search";
+"browse_vc_view_start_typing_to_search" = "Comece a Digitar para Buscar";
 
 /* Used until %@ - Header above a previously used password. The 1st parameter is a friend date string, e.g. 'Used until 2 February 2023 at 10:31' */
-"password_history_this_password_was_used_until_fmt" = "Used until %@";
+"password_history_this_password_was_used_until_fmt" = "Usado até %@";
 
 /* Previous Passwords - A heading above a list of previously used passwords */
 "password_history_previous_passwords" = "Senhas Anteriores";
