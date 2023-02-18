@@ -318,7 +318,7 @@
 "browse_prefs_view_as_folders" = "Groepen";
 
 /* TOTPs */
-"browse_prefs_view_as_totp_list" = "TOTPs";
+"browse_prefs_view_as_totp_list" = "TOTP's";
 
 /* Set Icon */
 "browse_vc_action_set_icon" = "Pictogram instellen";
@@ -420,7 +420,7 @@
 "browse_vc_view_as_database_empty" = "Geen items";
 
 /* No TOTPs Found */
-"browse_vc_view_as_totp_no_totps" = "No TOTPs Found";
+"browse_vc_view_as_totp_no_totps" = "Geen TOTP's gevonden";
 
 /* No matching entries found */
 "browse_vc_view_search_no_matches" = "Geen overeenkomende items gevonden";
@@ -816,10 +816,10 @@
 "upgrade_vc_price_per_month_fmt" = "%@ / maand";
 
 /* %@/month */
-"upgrade_vc_price_per_year_fmt" = "%@ / year";
+"upgrade_vc_price_per_year_fmt" = "%@ / jaar";
 
 /* (Save %@%%) - L10n Note: This is a percentage saved by choosing a yearly subscription over a monthly subscription, it will look like "(Save 56%)" */
-"upgrade_vc_percentage_saving_fmt" = "(Save %@%%)";
+"upgrade_vc_percentage_saving_fmt" = "(Bespaar %@%%)";
 
 /* %@/month (Save %d%%) */
 "upgrade_vc_price_per_month_with_percentage_saving_fmt" = "%@ / maand (bespaar %d%%)";
@@ -1869,7 +1869,7 @@
 "prefs_vc_info_email_support_options_mail_support" = "Mailondersteuning (alleen Engels)";
 
 /* No comment provided by engineer. */
-"transfer_over_local_network_website_prologue" = "<p>Drag &amp; drop files on this window or use the \"Upload Files&hellip;\" button to upload new files. If these files are valid KeePass or Password Safe databases they will be automatically be added to your Databases collection.</p>";
+"transfer_over_local_network_website_prologue" = "<p>Drag &amp; drop bestanden in dit venster of gebruik de \"Bestanden Uploaden &hellip;\" knop om nieuwe bestanden te uploaden. Als deze bestanden geldige KeePass of Password Safe databases zijn, worden ze automatisch toegevoegd aan je Databases collectie. </p>";
 
 /**********************************************************************************************************************/
 /* FUTURE: genericise... */
@@ -2285,7 +2285,7 @@
 
 /* The CSV file must contain a header row with at least one of the following fields:\n\n[%@, %@, %@, %@, %@, %@]\n\nThe order of the fields doesn't matter. */
 
-"mac_csv_file_must_contain_header_and_fields" = "The CSV file must contain a header row with at least one of the following fields:\n\n[%@, %@, %@, %@, %@, %@, %@]\n\nThe order of the fields doesn't matter.";
+"mac_csv_file_must_contain_header_and_fields" = "Het CSV-bestand moet een kopregel met ten minste één van de volgende velden bevatten:\n\n[%@, %@, %@, %@, %@, %@, %@]\n\nDe volgorde van de velden maakt niet uit.";
 
 /* CSV Format */
 "mac_csv_format_info_title" = "CSV Formaat";
@@ -3254,7 +3254,7 @@
 "generic_biometric_unlock_fmt" = "%@ Ontgrendelen";
 
 /* By Default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok? */
-"backup_settings_prompt_message" = "By default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok?";
+"backup_settings_prompt_message" = "Standaard neemt Strongbox alle lokale bestanden (inclusief database backups) en lokale databases mee in Apple-back-ups van dit apparaat. Geïmporteerde sleutelbestanden worden om veiligheidsredenen echter expliciet niet opgenomen.\n\nU kunt deze instellingen op elk gewenst moment wijzigen in Voorkeuren > Geavanceerde Voorkeuren.\n\nAkkoord?";
 
 /* Backup Settings */
 "backup_settings_prompt_title" = "Backup-instellingen";
@@ -3674,19 +3674,19 @@
 "diff_drill_down_color_will_change" = "Kleur zal veranderen.";
 
 /* Color is different. */
-"diff_drill_down_color_is_different" = "Color is different.";
+"diff_drill_down_color_is_different" = "Kleur is anders.";
 
 /* Database Name is different. */
-"diff_drill_down_database_name_is_different" = "Database Name is different.";
+"diff_drill_down_database_name_is_different" = "Database naam is anders.";
 
 /* Database Description is different. */
-"diff_drill_down_database_desc_is_different" = "Database Description is different.";
+"diff_drill_down_database_desc_is_different" = "Database beschrijving is anders.";
 
 /* Default Username is different. */
-"diff_drill_down_default_username_is_different" = "Default Username is different.";
+"diff_drill_down_default_username_is_different" = "Standaard gebruikersnaam is anders.";
 
 /* Recycle Bin Enabled state is different." */
-"diff_drill_down_recycle_bin_enabled_is_different" = "Recycle Bin Enabled state is different.";
+"diff_drill_down_recycle_bin_enabled_is_different" = "Prullenbak Ingeschakeld heeft een andere status.";
 
 /* Database Name will change. */
 "diff_drill_down_database_name_will_change" = "Databasenaam wordt gewijzigd.";
@@ -3848,7 +3848,7 @@
 "generic_pro_feature_only_please_upgrade" = "Alleen pro-functie. Upgrade aanbrengen.";
 
 /* Merge Preview */
-"diff_nav_title_comparison_title" = "Merge Preview"; // "Comparison Results";
+"diff_nav_title_comparison_title" = "Samenvoeg Voorbeeld"; // "Comparison Results";
 
 /* Compare Partially Supported */
 "diff_compare_partially_supported_title" = "Gedeeltelijk ondersteund vergelijken";
@@ -3890,7 +3890,7 @@
 "model_error_could_not_write_local_merge" = "Technische fout - Kan geen lokale kopieën schrijven voor vergelijking/samenvoeging.";
 
 /* Cannot merge in background or without key. */
-"model_error_cannot_merge_in_background" = "Cannot merge without credentials or in Background Sync mode. You must now do an Online Sync to resolve this conflict.";
+"model_error_cannot_merge_in_background" = "Kan niet samenvoegen zonder inloggegevens of in de achtergrondsynchronisatiemodus. Je moet nu een Online Sync gebruiken om dit conflict op te lossen.";
 
 /* Are you sure you want to always Auto-Merge when you have a Sync Conflict like this? */
 "sync_are_you_sure_always_auto_merge" = "Weet u zeker dat u automatisch wilt samenvoegen wanneer u een synchronisatieconflict als deze hebt?";
@@ -3902,7 +3902,7 @@
 "merge_are_you_sure_less_than_ideal_format" = "Uw database formaat biedt geen ondersteuning voor geavanceerde synchronisatie-functies (beschikbaar in KeePass 2). Dit betekent dat de samenvoeging mogelijk niet ideaal is.\n\nWeet je zeker dat je door wilt samenvoegen?";
 
 /* Database Refreshed */
-"browse_vc_pulldown_refresh_updated_title" = "Database Updated";
+"browse_vc_pulldown_refresh_updated_title" = "Database bijgewerkt";
 
 /* Error Refreshing */
 "browse_vc_pulldown_refresh_error_title" = "Fout bij vernieuwen";
@@ -4709,7 +4709,7 @@
 "safes_vc_import_1password" = "Import 1Password";
 
 /* Generic CSV... */
-"safes_vc_import_csv" = "Generic CSV...";
+"safes_vc_import_csv" = "Generieke CSV...";
 
 /* Strongbox can import 1Pif files from 1Password. Tap OK to select your exported 1Pif file. */
 "safes_vc_import_1password_message" = "Strongbox can import 1Pif files from 1Password. Tap OK to select your exported 1Pif file.";
@@ -4952,7 +4952,7 @@
 "pro_status_lifetime_pro" = "Levenslange Pro";
 
 /* Lifetime Pro (In-App Purchase) */
-"pro_status_lifetime_pro_iap" = "Lifetime Pro (In-App Purchase)";
+"pro_status_lifetime_pro_iap" = "Levenslange Pro (In-App Aankoop)";
 
 /* Pro (Yearly subscription) */
 "pro_status_yearly_pro" = "Pro (Jaarlijks abonnement)";
@@ -5000,16 +5000,16 @@
 "verb_lock_database" = "Database vergrendelen";
 
 /* Are you sure you want to delete this tag? */
-"are_you_sure_delete_tag_message" = "Are you sure you want to delete this tag?";
+"are_you_sure_delete_tag_message" = "Weet je zeker dat je deze tag wilt verwijderen?";
 
 /* Rename Tag */
-"action_rename_tag" = "Rename Tag";
+"action_rename_tag" = "Tag hernoemen";
 
 /* Merge In or Synchronize? */
-"compare_merge_merge_or_synchronize_title" = "Merge In or Synchronize?";
+"compare_merge_merge_or_synchronize_title" = "'Merge in' of Synchroniseren?";
 
 /* A 'Merge In' merges changes into the first database only. A 'Synchronize' also updates the second database to match. */
-"compare_merge_merge_or_synchronize_message" = "A 'Merge In' merges changes into the first database only. A 'Synchronize' also updates the second database to match.";
+"compare_merge_merge_or_synchronize_message" = "Een 'Merge in' voegt wijzigingen alleen toe aan de eerste database. Een 'Synchroniseren' update ook de tweede database om gelijk te trekken.";
 
 /* Merge In Only (Update First) */
 "compare_merge_merge_or_synchronize_option_merge" = "Merge In Only (Update First)";
