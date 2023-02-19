@@ -318,7 +318,7 @@
 "browse_prefs_view_as_folders" = "Groepen";
 
 /* TOTPs */
-"browse_prefs_view_as_totp_list" = "TOTPs";
+"browse_prefs_view_as_totp_list" = "TOTP's";
 
 /* Set Icon */
 "browse_vc_action_set_icon" = "Pictogram instellen";
@@ -420,7 +420,7 @@
 "browse_vc_view_as_database_empty" = "Geen items";
 
 /* No TOTPs Found */
-"browse_vc_view_as_totp_no_totps" = "No TOTPs Found";
+"browse_vc_view_as_totp_no_totps" = "Geen TOTP's gevonden";
 
 /* No matching entries found */
 "browse_vc_view_search_no_matches" = "Geen overeenkomende items gevonden";
@@ -816,10 +816,10 @@
 "upgrade_vc_price_per_month_fmt" = "%@ / maand";
 
 /* %@/month */
-"upgrade_vc_price_per_year_fmt" = "%@ / year";
+"upgrade_vc_price_per_year_fmt" = "%@ / jaar";
 
 /* (Save %@%%) - L10n Note: This is a percentage saved by choosing a yearly subscription over a monthly subscription, it will look like "(Save 56%)" */
-"upgrade_vc_percentage_saving_fmt" = "(Save %@%%)";
+"upgrade_vc_percentage_saving_fmt" = "(Bespaar %@%%)";
 
 /* %@/month (Save %d%%) */
 "upgrade_vc_price_per_month_with_percentage_saving_fmt" = "%@ / maand (bespaar %d%%)";
@@ -1620,7 +1620,7 @@
 "pwgen_wordlist_catalan" = "Catalaans";
 
 /* Diceware (Arnold G. Reinhold's Original) */
-"pwgen_wordlist_diceware" = "Diceware (Arnold G. Reinhold's Original)";
+"pwgen_wordlist_diceware" = "Diceware (Arnold G. Reinholds origineel)";
 
 /* Dutch */
 "pwgen_wordlist_dutch" = "Nederlands";
@@ -1629,7 +1629,7 @@
 "pwgen_wordlist_eff_short_1" = "EFF Kort (v1.0)";
 
 /* EFF Short (v2.0 - More memorable, unique prefix) */
-"pwgen_wordlist_eff_short_2" = "Korte EFF (v2.0 - meer memorabele, unieke voorvoegsel)";
+"pwgen_wordlist_eff_short_2" = "EFF Kort (v2.0 - Meer memorabel, unieke voorvoegsels)";
 
 /* French */
 "pwgen_wordlist_french" = "Frans";
@@ -1638,10 +1638,10 @@
 "pwgen_wordlist_german" = "Duits";
 
 /* Google (U.S. English, No Swears) */
-"pwgen_wordlist_google" = "Google (Amerikaans Engels, Geen Zweden)";
+"pwgen_wordlist_google" = "Google (VS Engels, geen vloekwoorden)";
 
 /* Italian */
-"pwgen_wordlist_italian" = "Italian";
+"pwgen_wordlist_italian" = "Italiaans";
 
 /* Japanese */
 "pwgen_wordlist_japanese" = "Japans";
@@ -1869,7 +1869,7 @@
 "prefs_vc_info_email_support_options_mail_support" = "Mailondersteuning (alleen Engels)";
 
 /* No comment provided by engineer. */
-"transfer_over_local_network_website_prologue" = "<p>Drag &amp; drop files on this window or use the \"Upload Files&hellip;\" button to upload new files. If these files are valid KeePass or Password Safe databases they will be automatically be added to your Databases collection.</p>";
+"transfer_over_local_network_website_prologue" = "<p>Drag &amp; drop bestanden in dit venster of gebruik de \"Bestanden Uploaden &hellip;\" knop om nieuwe bestanden te uploaden. Als deze bestanden geldige KeePass of Password Safe databases zijn, worden ze automatisch toegevoegd aan je Databases collectie. </p>";
 
 /**********************************************************************************************************************/
 /* FUTURE: genericise... */
@@ -2285,7 +2285,7 @@
 
 /* The CSV file must contain a header row with at least one of the following fields:\n\n[%@, %@, %@, %@, %@, %@]\n\nThe order of the fields doesn't matter. */
 
-"mac_csv_file_must_contain_header_and_fields" = "The CSV file must contain a header row with at least one of the following fields:\n\n[%@, %@, %@, %@, %@, %@, %@]\n\nThe order of the fields doesn't matter.";
+"mac_csv_file_must_contain_header_and_fields" = "Het CSV-bestand moet een kopregel met ten minste één van de volgende velden bevatten:\n\n[%@, %@, %@, %@, %@, %@, %@]\n\nDe volgorde van de velden maakt niet uit.";
 
 /* CSV Format */
 "mac_csv_format_info_title" = "CSV Formaat";
@@ -3254,7 +3254,7 @@
 "generic_biometric_unlock_fmt" = "%@ Ontgrendelen";
 
 /* By Default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok? */
-"backup_settings_prompt_message" = "By default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok?";
+"backup_settings_prompt_message" = "Standaard neemt Strongbox alle lokale bestanden (inclusief database backups) en lokale databases mee in Apple-back-ups van dit apparaat. Geïmporteerde sleutelbestanden worden om veiligheidsredenen echter expliciet niet opgenomen.\n\nU kunt deze instellingen op elk gewenst moment wijzigen in Voorkeuren > Geavanceerde Voorkeuren.\n\nAkkoord?";
 
 /* Backup Settings */
 "backup_settings_prompt_title" = "Backup-instellingen";
@@ -3674,19 +3674,19 @@
 "diff_drill_down_color_will_change" = "Kleur zal veranderen.";
 
 /* Color is different. */
-"diff_drill_down_color_is_different" = "Color is different.";
+"diff_drill_down_color_is_different" = "Kleur is anders.";
 
 /* Database Name is different. */
-"diff_drill_down_database_name_is_different" = "Database Name is different.";
+"diff_drill_down_database_name_is_different" = "Database naam is anders.";
 
 /* Database Description is different. */
-"diff_drill_down_database_desc_is_different" = "Database Description is different.";
+"diff_drill_down_database_desc_is_different" = "Database beschrijving is anders.";
 
 /* Default Username is different. */
-"diff_drill_down_default_username_is_different" = "Default Username is different.";
+"diff_drill_down_default_username_is_different" = "Standaard gebruikersnaam is anders.";
 
 /* Recycle Bin Enabled state is different." */
-"diff_drill_down_recycle_bin_enabled_is_different" = "Recycle Bin Enabled state is different.";
+"diff_drill_down_recycle_bin_enabled_is_different" = "Prullenbak Ingeschakeld heeft een andere status.";
 
 /* Database Name will change. */
 "diff_drill_down_database_name_will_change" = "Databasenaam wordt gewijzigd.";
@@ -3848,7 +3848,7 @@
 "generic_pro_feature_only_please_upgrade" = "Alleen pro-functie. Upgrade aanbrengen.";
 
 /* Merge Preview */
-"diff_nav_title_comparison_title" = "Merge Preview"; // "Comparison Results";
+"diff_nav_title_comparison_title" = "Samenvoeg Voorbeeld"; // "Comparison Results";
 
 /* Compare Partially Supported */
 "diff_compare_partially_supported_title" = "Gedeeltelijk ondersteund vergelijken";
@@ -3890,7 +3890,7 @@
 "model_error_could_not_write_local_merge" = "Technische fout - Kan geen lokale kopieën schrijven voor vergelijking/samenvoeging.";
 
 /* Cannot merge in background or without key. */
-"model_error_cannot_merge_in_background" = "Cannot merge without credentials or in Background Sync mode. You must now do an Online Sync to resolve this conflict.";
+"model_error_cannot_merge_in_background" = "Kan niet samenvoegen zonder inloggegevens of in de achtergrondsynchronisatiemodus. Je moet nu een Online Sync gebruiken om dit conflict op te lossen.";
 
 /* Are you sure you want to always Auto-Merge when you have a Sync Conflict like this? */
 "sync_are_you_sure_always_auto_merge" = "Weet u zeker dat u automatisch wilt samenvoegen wanneer u een synchronisatieconflict als deze hebt?";
@@ -3902,7 +3902,7 @@
 "merge_are_you_sure_less_than_ideal_format" = "Uw database formaat biedt geen ondersteuning voor geavanceerde synchronisatie-functies (beschikbaar in KeePass 2). Dit betekent dat de samenvoeging mogelijk niet ideaal is.\n\nWeet je zeker dat je door wilt samenvoegen?";
 
 /* Database Refreshed */
-"browse_vc_pulldown_refresh_updated_title" = "Database Updated";
+"browse_vc_pulldown_refresh_updated_title" = "Database bijgewerkt";
 
 /* Error Refreshing */
 "browse_vc_pulldown_refresh_error_title" = "Fout bij vernieuwen";
@@ -4314,7 +4314,7 @@
 "convenience_unlock_require_after_prefix" = "Vereisen na";
 
 /* It's time now to re-enter your Master Password manually. You can change this reminder interval in Database Settings. */
-"composite_key_determiner_convenience_expired_message" = "It's time now to re-enter your Master Password manually. You can change this reminder interval in Database Settings.";
+"composite_key_determiner_convenience_expired_message" = "Het is nu tijd om uw hoofdwachtwoord handmatig opnieuw in te voeren. U kunt deze herinneringsinterval wijzigen in de database-instellingen.";
 
 /* Got it! */
 "generic_got_it" = "Ik snap het!";
@@ -4709,7 +4709,7 @@
 "safes_vc_import_1password" = "Import 1Password";
 
 /* Generic CSV... */
-"safes_vc_import_csv" = "Generic CSV...";
+"safes_vc_import_csv" = "Generieke CSV...";
 
 /* Strongbox can import 1Pif files from 1Password. Tap OK to select your exported 1Pif file. */
 "safes_vc_import_1password_message" = "Strongbox can import 1Pif files from 1Password. Tap OK to select your exported 1Pif file.";
@@ -4952,7 +4952,7 @@
 "pro_status_lifetime_pro" = "Levenslange Pro";
 
 /* Lifetime Pro (In-App Purchase) */
-"pro_status_lifetime_pro_iap" = "Lifetime Pro (In-App Purchase)";
+"pro_status_lifetime_pro_iap" = "Levenslange Pro (In-App Aankoop)";
 
 /* Pro (Yearly subscription) */
 "pro_status_yearly_pro" = "Pro (Jaarlijks abonnement)";
@@ -5000,172 +5000,172 @@
 "verb_lock_database" = "Database vergrendelen";
 
 /* Are you sure you want to delete this tag? */
-"are_you_sure_delete_tag_message" = "Are you sure you want to delete this tag?";
+"are_you_sure_delete_tag_message" = "Weet je zeker dat je deze tag wilt verwijderen?";
 
 /* Rename Tag */
-"action_rename_tag" = "Rename Tag";
+"action_rename_tag" = "Tag hernoemen";
 
 /* Merge In or Synchronize? */
-"compare_merge_merge_or_synchronize_title" = "Merge In or Synchronize?";
+"compare_merge_merge_or_synchronize_title" = "'Merge in' of Synchroniseren?";
 
 /* A 'Merge In' merges changes into the first database only. A 'Synchronize' also updates the second database to match. */
-"compare_merge_merge_or_synchronize_message" = "A 'Merge In' merges changes into the first database only. A 'Synchronize' also updates the second database to match.";
+"compare_merge_merge_or_synchronize_message" = "Een 'Merge in' voegt wijzigingen alleen toe aan de eerste database. Een 'Synchroniseren' update ook de tweede database om gelijk te trekken.";
 
 /* Merge In Only (Update First) */
-"compare_merge_merge_or_synchronize_option_merge" = "Merge In Only (Update First)";
+"compare_merge_merge_or_synchronize_option_merge" = "Enkel 'Merge in' (eerst bijwerken)";
 
 /* Synchronize (Update Both) */
-"compare_merge_merge_or_synchronize_option_synchronize" = "Synchronize (Update Both)";
+"compare_merge_merge_or_synchronize_option_synchronize" = "Synchroniseren (beide wijzigen)";
 
 /* Audit Exclusion State (Quality Check) will change. */
-"diff_drill_down_audit_exclusion_will_change" = "Audit Exclusion State (Quality Check) will change.";
+"diff_drill_down_audit_exclusion_will_change" = "Audit Exclusie Status (kwaliteitscontrole) zal veranderen.";
 
 /* Audit Exclusion State (Quality Check) is different. */
-"diff_drill_down_audit_exclusion_are_different" = "Audit Exclusion State (Quality Check) is different.";
+"diff_drill_down_audit_exclusion_are_different" = "Audit Exclusie Status (kwaliteitscontrole) is anders.";
 
 /* Cannot Merge because your database is Read-Only */
-"merge_cannot_merge_because_read_only" = "Cannot Merge because your database is Read-Only";
+"merge_cannot_merge_because_read_only" = "Kan niet samenvoegen omdat de database 'alleen-lezen' is";
 
 /* Cannot Sort by Title */
-"browse_cannot_sort_by_title_title" = "Cannot Sort by Title";
+"browse_cannot_sort_by_title_title" = "Kan niet sorteren op titel";
 
 /* You cannot sort by Title here because you have disabled sorting in Database Settings. */
-"browse_cannot_sort_by_title_message" = "You cannot sort by Title here because you have disabled sorting in Database Settings.";
+"browse_cannot_sort_by_title_message" = "Je kunt hier niet op titel sorteren omdat je sortering uitgeschakeld heeft in de database-instellingen.";
 
 /* You need to re-add your OneDrive database due to a Microsoft SDK update. Tap OK, and select your OneDrive database to get started... */
-"onedrive_readd_required" = "You need to re-add your OneDrive database due to a Microsoft SDK update.\n\nTap OK, and select your OneDrive database to get started...";
+"onedrive_readd_required" = "Je moet je OneDrive database opnieuw toevoegen vanwege een Microsoft SDK update.\n \nTik op OK en selecteer je OneDrive database om te beginnen...";
 
 /* Apply Changes */
-"generic_apply_changes" = "Apply Changes";
+"generic_apply_changes" = "Wijzigingen toepassen";
 
 /* Pop Out Details - L10n Note: A user can "Pop Out" a Details window, which is usually embedded in a frame. Popping it out means it can be moved around independently of the main App window */
-"action_verb_popout_details_window" = "Pop Out Details";
+"action_verb_popout_details_window" = "Pop Uit Details";
 
 /* Float on Top - L10n Note: This is when a user can PIN a window, or make it float on top of other windows */
-"window_toggle_float_on_top" = "Float on Top";
+"window_toggle_float_on_top" = "Zwevend op voorgrond";
 
 /* Notes (Partially) Copied */
-"mac_notes_partially_copied_to_clipboard" = "Notes (Partially) Copied";
+"mac_notes_partially_copied_to_clipboard" = "Notities (deels) Gekopieerd";
 
 /* Change My License... */
 "upgrade_vc_change_my_license" = "Wijzig mijn licentie...";
 
 /* Hi there 😎\n\nWe're excited you've decided to try us out and we just wanted to say thanks! So, without further ado, let's get started...\n\n❤️ The Strongbox Team ❤️ */
-"onboarding_welcome_to_strongbox_first_run_message_macos" = "Hi there 😎\n\nWe're excited you've decided to try us out and we just wanted to say thanks! So, without further ado, let's get started...\n\n❤️ The Strongbox Team ❤️";
+"onboarding_welcome_to_strongbox_first_run_message_macos" = "Hallo daar 😎\n\nWe zijn blij dat je hebt besloten dat je ons wilt uitproberen en we willen je gewoon bedanken! Dus laten we nu meteen beginnen...\n\n❤️ Het Strongbox Team ❤️";
 
 /* Then %@ every year - L10n Note: The 1srt parameter is a price like "£12.99" - It is placed below a button that says "Redeem Your 90 Free Days" - So when they click that button they get 90 day free trial, then they pay £12.99 per year when the trial is over  */
-"price_per_year_after_free_trial_fmt" = "Then %@ every year";
+"price_per_year_after_free_trial_fmt" = "Daarna %@ per jaar";
 
 /* Upgrade to Pro */
-"generic_upgrade_to_pro" = "Upgrade to Pro";
+"generic_upgrade_to_pro" = "Opwaarderen naar Pro";
 
 /* Upgrade to Strongbox Pro and enjoy all these great features */
-"upgrade_body_text" = "Upgrade to Strongbox Pro and enjoy all these great features";
+"upgrade_body_text" = "Opwaarderen naar Strongbox Pro en geniet van al deze geweldige functies";
 
 /* Face ID & PIN Code Unlock */
-"upgrade_vc_feature_face_id_pin_code" = "Face ID & PIN Code Unlock";
+"upgrade_vc_feature_face_id_pin_code" = "Ontgrendelen met Face ID & PIN code";
 
 /* Touch ID & PIN Code Unlock */
-"upgrade_vc_feature_touch_id_pin_code" = "Touch ID & PIN Code Unlock";
+"upgrade_vc_feature_touch_id_pin_code" = "Ontgrendelen met Touch ID & PIN code";
 
 /* Super Fast, Secure & Convenient */
-"upgrade_vc_feature_subtitle_biometric" = "Super Fast, Secure & Convenient";
+"upgrade_vc_feature_subtitle_biometric" = "Super snel, veilig en handig";
 
 /* Use a YubiKey as a second factor */
-"upgrade_vc_feature_subtitle_yubikey" = "Use a YubiKey as a second factor";
+"upgrade_vc_feature_subtitle_yubikey" = "Gebruik een YubiKey als een tweede factor";
 
 /* Advanced Auditing */
-"upgrade_vc_feature_auditing" = "Advanced Auditing";
+"upgrade_vc_feature_auditing" = "Geavanceerde audit";
 
 /* HIBP & Similar Passwords */
-"upgrade_vc_feature_subtitle_auditing" = "HIBP & Similar Passwords";
+"upgrade_vc_feature_subtitle_auditing" = "HIBP & Soortgelijke wachtwoorden";
 
 /* Premium Support */
-"upgrade_vc_feature_support" = "Premium Support";
+"upgrade_vc_feature_support" = "Premium Ondersteuning";
 
 /* We're here for you */
-"upgrade_vc_feature_subtitle_support" = "We're here for you";
+"upgrade_vc_feature_subtitle_support" = "We zijn er voor jou";
 
 /* Compare & Merge */
 "upgrade_vc_feature_compare_and_merge" = "Vergelijken en samenvoegen";
 
 /* View & Combine Revisions */
-"upgrade_vc_feature_subtitle_compare_and_merge" = "View & Combine Revisions";
+"upgrade_vc_feature_subtitle_compare_and_merge" = "Bekijk & Combineer Herzieningen";
 
 /* Offline Editing */
 "upgrade_vc_feature_offline_editing" = "Offline bewerken";
 
 /* Edit Offline, Sync Later */
-"upgrade_vc_feature_subtitle_offline_editing" = "Edit Offline, Sync Later";
+"upgrade_vc_feature_subtitle_offline_editing" = "Bewerk offline, Sync Later";
 
 /* Custom App Icons */
-"upgrade_vc_feature_custom_app_icon" = "Custom App Icons";
+"upgrade_vc_feature_custom_app_icon" = "Aangepaste app-pictogrammen";
 
 /* Customize your Strongbox */
-"upgrade_vc_feature_subtitle_custom_app_icon" = "Customize your Strongbox";
+"upgrade_vc_feature_subtitle_custom_app_icon" = "Pas uw Strongbox aan";
 
 /* Favicon Downloader */
 "upgrade_vc_feature_favicon_downloader" = "Favicon Downloader";
 
 /* Make your entries stand out */
-"upgrade_vc_feature_subtitle_favicon_downloader" = "Make your entries stand out";
+"upgrade_vc_feature_subtitle_favicon_downloader" = "Laat je items opvallen";
 
 /* Support Indie Development */
 "upgrade_vc_feature_support_indie" = "Ondersteuning van Indie Development";
 
 /* Help us stay awesome! */
-"upgrade_vc_feature_subtitle_support_indie" = "Help us stay awesome!";
+"upgrade_vc_feature_subtitle_support_indie" = "Help ons om geweldig te blijven!";
 
 /* then %@ every year - L10n note, the 1st parameter is a price like "£12.99" */
-"upgrade_vc_price_per_year_with_free_trial_fmt" = "then %@ every year";
+"upgrade_vc_price_per_year_with_free_trial_fmt" = "daarna %@ per jaar";
 
 /* Strongbox is now available for both iOS and macOS as a unified App.\n\nIf you have already purchased Strongbox then click 'Restore' below.\n\nIf you are new and want to Upgrade, the best way to do that is via the unified Strongbox app. Click 'View Strongbox Unified App' below to view on the App Store. */
-"upgrade_vc_strongbox_unified_message" = "Strongbox is now available for both iOS and macOS as a unified App.\n\nIf you have already purchased Strongbox then click 'Restore' below.\n\nIf you are new and want to Upgrade, the best way to do that is via the unified Strongbox app. Click 'View Strongbox Unified App' below to view on the App Store.";
+"upgrade_vc_strongbox_unified_message" = "Strongbox is nu beschikbaar voor zowel iOS als macOS als een unified App.\n\nAls u Strongbox al hebt aangeschaft, klik dan op 'Herstellen' hieronder.\n\nAls u nieuw bent en wilt opwaarderen, is de beste manier om dat te doen via de unified Strongbox app. Klik hieronder op 'Bekijk Strongbox Unified App' om het in de App Store te bekijken.";
 
 /* Strongbox Upgrade Options */
-"upgrade_vc_old_freemium_upgrade_options_title" = "Strongbox Upgrade Options";
+"upgrade_vc_old_freemium_upgrade_options_title" = "Strongbox opwaardeer-opties";
 
 /* View Strongbox Unified */
-"upgrade_vc_old_freemium_upgrade_view_unified" = "View Strongbox Unified";
+"upgrade_vc_old_freemium_upgrade_view_unified" = "Bekijk Strongbox Unified";
 
 /* Restore My Pro Purchase */
-"upgrade_vc_old_freemium_upgrade_restore_pro" = "Restore My Pro Purchase";
+"upgrade_vc_old_freemium_upgrade_restore_pro" = "Herstel mijn Pro aankoop";
 
 /* Restart Required */
-"generic_restart_required" = "Restart Required";
+"generic_restart_required" = "Herstart vereist";
 
 /* You must restart Strongbox for these changes to take effect. */
-"generic_restart_required_for_changes_to_take_effect" = "You must restart Strongbox for these changes to take effect.";
+"generic_restart_required_for_changes_to_take_effect" = "Je moet Strongbox opnieuw opstarten om deze wijzigingen toe te passen.";
 
 /* Relocate Database */
-"relocate_database_title" = "Relocate Database";
+"relocate_database_title" = "Verplaats Database";
 
 /* Strongbox's reference to this database has become invalid or the database cannot be found.\n\nPlease reselect this database from your files for Strongbox. */
-"relocate_database_msg" = "Strongbox's reference to this database has become invalid or the database cannot be found.\n\nPlease reselect this database from your files for Strongbox.";
+"relocate_database_msg" = "De verwijzing van Strongbox naar deze database is ongeldig geworden of de database kan niet gevonden worden.\n\nSelecteer deze database opnieuw in uw bestanden voor Strongbox.";
 
 /* 1Password Import Warning */
-"1password_import_warning_title" = "1Password Import Warning";
+"1password_import_warning_title" = "1Password Import Waarschuwing";
 
 /* The import process isn't perfect and some features of 1Password such as named sections are not available in Strongbox.\n\nIt is important to check that your entries as acceptable after you have imported. */
-"1password_import_warning_msg" = "The import process isn't perfect and some features of 1Password such as named sections are not available in Strongbox.\n\nIt is important to check that your entries are acceptable after you have imported.";
+"1password_import_warning_msg" = "Het importproces is niet perfect en sommige functies van 1Password zoals genoemde secties zijn niet beschikbaar in Strongbox.\n\nHet is belangrijk om te controleren of je items acceptabel zijn nadat je ze hebt geïmporteerd.";
 
 /* Recycle Bin - The name of the recycle bin, the folder where items go instead of being fully deleted */
 "generic_recycle_bin_name" = "Prullenbak";
 
 /* Commit & Close (⌘⏎) */
-"mac_create_or_edit_commit_changes_and_close" = "Commit & Close (⌘⏎)";
+"mac_create_or_edit_commit_changes_and_close" = "Opslaan & Sluiten (⌘⏎)";
 
 /* Close (⌘⏎) */
-"mac_create_or_edit_commit_close" = "Close (⌘⏎)";
+"mac_create_or_edit_commit_close" = "Sluiten (⌘⏎)";
 
 /* Touch ID & Watch Unlock Settings... */
 "nextgen_toolbar_settings_convenience_unlock_ellipsis" = "Touch ID & Face ID Ontgrendel Instellingen...";
 
 /* AutoFill Settings... */
-"nextgen_toolbar_settings_autofill_settings_ellipsis" = "AutoFill Settings...";
+"nextgen_toolbar_settings_autofill_settings_ellipsis" = "AutoFill instellingen...";
 
 /* Encryption Settings... */
-"nextgen_toolbar_settings_encryption_settings_ellipsis" = "Encryption Settings...";
+"nextgen_toolbar_settings_encryption_settings_ellipsis" = "Versleuteling instellingen...";
 
 /* Change Master Credentials... */
 "nextgen_toolbar_settings_change_master_credentials_ellipsis" = "Wijzig hoofwachtwoord...";
@@ -5174,13 +5174,13 @@
 "nextgen_toolbar_settings_database_settings_ellipsis" = "Database-instellingen...";
 
 /* Application Preferences... */
-"nextgen_toolbar_settings_application_preferences_ellipsis" = "Application Preferences...";
+"nextgen_toolbar_settings_application_preferences_ellipsis" = "Applicatie Voorkeuren...";
 
 /* Settings */
 "generic_settings" = "Instellingen";
 
 /* Excluded Characters */
-"password_gen_vc_prompt_excluded_characters" = "Excluded Characters";
+"password_gen_vc_prompt_excluded_characters" = "Uitgesloten tekens";
 
 /* Ascending */
 "generic_sort_order_ascending" = "Oplopend";
@@ -5189,91 +5189,91 @@
 "generic_sort_order_descending" = "Aflopend";
 
 /* Custom */
-"generic_sort_order_custom" = "Custom";
+"generic_sort_order_custom" = "Aangepast";
 
 /* Sort: %@ - Localization Note: The 1st parameter will be the actual sort order, so e.g. "Sort: Ascending" */
-"sort_status_fmt" = "Sort: %@";
+"sort_status_fmt" = "Sorteer: %@";
 
 /* Enter Length */
-"alert_enter_password_basic_length" = "Enter Length";
+"alert_enter_password_basic_length" = "Voer lengte in";
 
 /* Not to worry, your database is safely saved locally but could not be synchronised with the source database.\n\nIf this happens repeatedly, investigate the Sync Log and try re-adding your database. */
-"sync_nextgen_sync_issue_message" = "Not to worry, your database is safely saved locally but could not be synchronised with the source database.\n\nIf this happens repeatedly, investigate the Sync Log and try re-adding your database.";
+"sync_nextgen_sync_issue_message" = "Geen zorgen, uw database is veilig lokaal opgeslagen, maar kon niet worden gesynchroniseerd met de brondatabase.\n\nAls dit herhaaldelijk gebeurt, onderzoek dan het Sync Log en probeer de database opnieuw toe te voegen.";
 
 /* Sync Issue */
-"nextgen_sync_issue_toast_title" = "Sync Issue";
+"nextgen_sync_issue_toast_title" = "Synchronisatieprobleem";
 
 /* Strongbox could not sync... */
-"nextgen_sync_issue_toast_message" = "Strongbox could not sync...";
+"nextgen_sync_issue_toast_message" = "Strongbox kon niet synchroniseren...";
 
 /* More... - Used in the UI to indicate a button which you can click on to learn or find out more */
 "generic_more_with_ellipsis" = "Meer...";
 
 /* Lock Database? */
-"mac_on_window_close_action_title" = "Lock Database?";
+"mac_on_window_close_action_title" = "Database vergrendelen?";
 
 /* Strongbox can keep your databases open in the background or it can lock them immediately when you close the window.\n\nWhat would you like Strongbox to do when you close a database window? */
-"mac_on_window_close_action_message" = "Strongbox can keep your databases open in the background or it can lock them immediately when you close the window.\n\nWhat would you like Strongbox to do when you close a database window?";
+"mac_on_window_close_action_message" = "Strongbox kan je databases open houden op de achtergrond of kan ze direct vergrendelen wanneer je het venster sluit.\n\nWat wil je dat Strongbox doet wanneer je een databasevenster sluit?";
 
 /* Keep Database Unlocked */
-"mac_on_window_close_action_option_keep_unlocked" = "Keep Database Unlocked";
+"mac_on_window_close_action_option_keep_unlocked" = "Laat Database Ontgrendeld";
 
 /* Lock Database Immediately */
-"mac_on_window_close_action_lock_immediately" = "Lock Database Immediately";
+"mac_on_window_close_action_lock_immediately" = "Vergrendel Database Onmiddellijk";
 
 /* Offline Mode - L10n - this is a status/state, the database is currently unlocked */
-"database_unlocked_status" = "Unlocked";
+"database_unlocked_status" = "Ontgrendeld";
 
 /* Your changes could not be safely saved. You are now working on an in-memory version only of your database. We recommend you try to save again */
-"error_could_not_save_message" = "Your changes could not be safely saved. You are now working on an in-memory only version of your database. We recommend you try to save again.";
+"error_could_not_save_message" = "Je wijzigingen konden niet veilig worden opgeslagen. Je werkt nu met een 'in-memory only' versie van uw database. We raden je aan om opnieuw te proberen op te slaan.";
 
 /* Error Saving\nWe recommend you try to save again */
-"error_could_not_save_title" = "Error Saving\nWe recommend you try to save again";
+"error_could_not_save_title" = "Fout bij opslaan\nWij raden je aan om opnieuw te proberen op te slaan";
 
 /* Sync - L10n - This is a verb - To Synchronize */
 "generic_action_sync" = "Synchroniseren";
 
 /* Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Sync Log?\n\n%@\n */
-"sync_error_message_including_error_detail_fmt" = "Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Sync Log?\n\n%@\n";
+"sync_error_message_including_error_detail_fmt" = "Je database is veilig opgeslagen, maar er is een fout opgetreden bij het synchroniseren. Wil je het opnieuw proberen of een kijkje nemen in de Sync-log?\n\n%@\n";
 
 /* This database is in Offline Mode and cannot be synced. */
-"database_is_in_offline_mode_cannot_be_synced" = "This database is in Offline Mode and cannot be synced.";
+"database_is_in_offline_mode_cannot_be_synced" = "Deze database is in offline modus en kan niet worden gesynchroniseerd.";
 
 /* Save Successful */
-"generic_save_was_successful" = "Save Successful";
+"generic_save_was_successful" = "Succesvol opgeslagen";
 
 /* Lazy Sync Mode */
-"lazy_sync_option_title" = "Lazy Sync Mode";
+"lazy_sync_option_title" = "'Lazy Sync' Modus";
 
 /* Unlock database first, then attempt to sync. */
-"lazy_sync_option_detail" = "Unlock database first, then attempt to sync.";
+"lazy_sync_option_detail" = "Ontgrendel eerst de database en probeer daarna te synchroniseren.";
 
 /* Persistently Lazy (Ignore Errors) */
-"lazy_sync_persist_option_title" = "Persistently Lazy (Ignore Errors)*";
+"lazy_sync_persist_option_title" = "Blijvend 'Lazy' (Fouten negeren)*";
 
 /* Keep in Lazy Sync Mode even if an error in sync occurs. */
-"lazy_sync_persist_option_detail" = "Keep in Lazy Sync mode even if a sync error occurs.\n*Advanced Users Only";
+"lazy_sync_persist_option_detail" = "Houd in de 'Lazy Sync' modus, zelfs als er een synchronisatiefout optreedt.\n*Alleen Geavanceerde Gebruikers";
 
 /* Portuguese (Brazilian) */
-"pwgen_wordlist_pt_br" = "Portuguese (Brazilian)";
+"pwgen_wordlist_pt_br" = "Portugees (Braziliaans)";
 
 /* Hidden (An item of some kind will be hidden from the User Interface) */
-"generic_item_is_hidden" = "Hidden";
+"generic_item_is_hidden" = "Verborgen";
 
 /* These tabs will be visible in this order, providing there are eligible items to display. You must always have at least one visible tab. */
-"configure_tabs_footer_visible_tabs" = "These tabs will be visible in this order, providing there are eligible items to display. You must always have at least one visible tab.";
+"configure_tabs_footer_visible_tabs" = "Deze tabbladen zijn zichtbaar in deze volgorde, op voorwaarde dat er items in aanmerking komen om te tonen. Je moet altijd ten minste één zichtbaar tabblad hebben.";
 
 /* These tabs will remain hidden. */
-"configure_tabs_footer_hidden_tabs" = "These tabs will remain hidden.";
+"configure_tabs_footer_hidden_tabs" = "Deze tabbladen blijven verborgen.";
 
 /* You can choose to completely hide the bottom tab bar since you have only a single visible tab. Tap to toggle. */
-"configure_tabs_footer_text_hide_tab_bar" = "You can choose to completely hide the bottom tab bar since you have only a single visible tab. Tap to toggle.";
+"configure_tabs_footer_text_hide_tab_bar" = "Je kunt ervoor kiezen om de onderste tabbalk volledig te verbergen, omdat u slechts één zichtbaar tabblad heeft. Tik om te schakelen.";
 
 /* Drag tabs here to hide them */
-"configure_tabs_drag_tabs_to_hide" = "Drag tabs here to hide them";
+"configure_tabs_drag_tabs_to_hide" = "Sleep tabbladen hier om ze te verbergen";
 
 /* Hide Tab Bar Completely */
-"configure_tabs_option_hide_tab_bar_completely" = "Hide Tab Bar Completely";
+"configure_tabs_option_hide_tab_bar_completely" = "Tabbalk volledig verbergen";
 
 /* %@ Items */
 "generic_number_of_items_plural_fmt" = "%@ Items";
@@ -5282,34 +5282,34 @@
 "generic_single_item_singular_fmt" = "%@ Item";
 
 /* Configure Tabs */
-"configure_tabs" = "Configure Tabs";
+"configure_tabs" = "Tabbladen configureren";
 
 /* Sort Groups Separately */
-"sort_configuration_custom_sort_order_and_sort_groups_separately" = "Keep Groups on Top";
+"sort_configuration_custom_sort_order_and_sort_groups_separately" = "Houd Groepen bovenaan";
 
 /* Oldest First */
-"generic_sort_order_chronologically_oldest_first" = "Oldest First";
+"generic_sort_order_chronologically_oldest_first" = "Oudste eerst";
 
 /* Alphabetically */
-"generic_sort_order_alphabetically" = "Alphabetically";
+"generic_sort_order_alphabetically" = "Alfabetisch (A-Z)";
 
 /* Newest First */
-"generic_sort_order_chronologically_newest_first" = "Newest First";
+"generic_sort_order_chronologically_newest_first" = "Nieuwste eerst";
 
 /* Reverse Alphabetically */
-"generic_sort_order_reverse_alphabetically" = "Reverse Alphabetically";
+"generic_sort_order_reverse_alphabetically" = "Omgekeerd alfabetisch (Z-A)";
 
 /* %@ Items Sorted By - L10n note: This is the header of a menu, the menu contains the fields you can sort by. e.g. Title. So this will look like "120 Items Sorted By" for example. The first parameter is numeric, the number of items sorted below */
-"sort_menu_header_number_of_items_plural_sorted_by_fmt" = "%@ Items Sorted By";
+"sort_menu_header_number_of_items_plural_sorted_by_fmt" = "%@ Items gesorteerd op";
 
 /* 1 Item Sorted By - L10n note: This is the header of a menu, the menu contains the fields you can sort by. e.g. Title. So this will look like "1 Item Sorted By" for example */
-"sort_menu_header_singular_item_sorted_by" = "1 Item Sorted By";
+"sort_menu_header_singular_item_sorted_by" = "1 item gesorteerd op";
 
 /* Alphabetic Index */
-"alphabetic_index_menu_item_title" = "Alphabetic Index";
+"alphabetic_index_menu_item_title" = "Alfabetische index";
 
 /* Strongbox can import 1Pux files from 1Password. Tap OK to select your exported 1Pux file. */
-"safes_vc_import_1password_1pux_message" = "Strongbox can import 1Pux files from 1Password. Tap OK to select your exported 1Pux file.";
+"safes_vc_import_1password_1pux_message" = "Strongbox kan 1Pux bestanden importeren uit 1Password. Tik op OK om je geëxporteerde 1Pux bestand te selecteren.";
 
 /* Import 1Password (1Pif) */
 "safes_vc_import_1password_1pif" = "1Password (1Pif)...";
@@ -5327,19 +5327,19 @@
 "safes_vc_import_icloud" = "iCloud Keychain (CSV)";
 
 /* Disabling Auto-Commit could mean you lose this TOTP if you forget to commit later, are you sure? */
-"are_you_sure_auto_commit_totp_msg" = "Disabling Auto-Commit could mean you lose this TOTP if you forget to commit later. Are you sure?";
+"are_you_sure_auto_commit_totp_msg" = "Het uitschakelen van Auto-Commit kan betekenen dat je deze TOTP verliest als je het later vergeet op te slaan. Weet je het zeker?";
 
 /* Close - A generic verb - to Close a popup or dialog */
 "generic_verb_close" = "Sluiten";
 
 /* Discard - A verb - to discard any pending changes that might have been made */
-"generic_verb_discard" = "Discard";
+"generic_verb_discard" = "Weggooien";
 
 /* Start Typing to Begin Search */
-"browse_vc_view_start_typing_to_search" = "Start Typing to Begin Search";
+"browse_vc_view_start_typing_to_search" = "Begin met typen om Zoeken te beginnen";
 
 /* Used until %@ - Header above a previously used password. The 1st parameter is a friend date string, e.g. 'Used until 2 February 2023 at 10:31' */
-"password_history_this_password_was_used_until_fmt" = "Used until %@";
+"password_history_this_password_was_used_until_fmt" = "Gebruikt tot %@";
 
 /* Previous Passwords - A heading above a list of previously used passwords */
 "password_history_previous_passwords" = "Vorige wachtwoorden";
