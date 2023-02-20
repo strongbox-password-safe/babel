@@ -522,7 +522,7 @@
 "db_management_disable_autofill_yesno_message" = "Weet je zeker dat je dit wilt doen?";
 
 /* Disable AutoFill? */
-"db_management_disable_autofill_yesno_title" = "Automatisch invullen uitschakelen?";
+"db_management_disable_autofill_yesno_title" = "AutoFill uitschakelen?";
 
 /* %@ for this database has been disabled. */
 "db_management_disable_biometric_notify_message_fmt" = "%@ is voor deze database uitgeschakeld.";
@@ -540,7 +540,7 @@
 "db_management_disable_biomtric_simple_fmt" = "Weet je zeker dat je %@ voor deze database wilt uitschakelen?";
 
 /* AutoFill Disabled */
-"db_management_disable_done" = "Automatisch invullen uitgeschakeld";
+"db_management_disable_done" = "AutoFill uitgeschakeld";
 
 /* %@ has been enabled for this database. */
 "db_management_enable_biometric_notify_message_fmt" = "%@ is ingeschakeld voor deze database.";
@@ -549,7 +549,7 @@
 "db_management_enable_biometric_notify_title_fmt" = "%@ ingeschakeld";
 
 /* AutoFill Enabled */
-"db_management_enable_done" = "Automatisch invullen ingeschakeld";
+"db_management_enable_done" = "AutoFill ingeschakeld";
 
 /* Could not change credentials */
 "db_management_error_title_couldnt_change_credentials" = "Kon inloggegevens niet wijzigen";
@@ -925,7 +925,7 @@
 
 /* Could not get database data
    Error Encrypting */
-"export_vc_error_encrypting" = "Fout bij versleutelen";
+"export_vc_error_encrypting" = "Fout bij encrypteren";
 
 /* Email Not Available */
 "export_vc_email_unavailable_title" = "E-mail niet beschikbaar";
@@ -1052,10 +1052,10 @@
 "key_files_vc_error_file_already_exists_message" = "Er bestaat al een bestand met deze naam in de directory voor sleutelbestanden.";
 
 /* Imported Key Files (Auto-Fill Enabled) */
-"key_files_vc_section_header_imported" = "Geïmporteerde sleutelbestanden (Automatisch invullen ingeschakeld)";
+"key_files_vc_section_header_imported" = "Geïmporteerde sleutelbestanden (AutoFill ingeschakeld)";
 
 /* Application Local Files */
-"key_files_vc_section_header_local" = "Documentenmap (Automatisch invullen niet ondersteund)";
+"key_files_vc_section_header_local" = "Documentenmap (AutoFill niet ondersteund)";
 
 /* Remove After Import */
 "key_files_vc_remove_after_import_title" = "Verwijderen na importeren";
@@ -1386,10 +1386,10 @@
 "open_sequence_problem_opening_title" = "Er is een probleem opgetreden bij het openen van de database.";
 
 /* AutoFill Crash Likely */
-"open_sequence_autofill_creash_likely_title" = "Automatisch vullen crash waarschijnlijk";
+"open_sequence_autofill_creash_likely_title" = "AutoFill crash waarschijnlijk";
 
 /* Your database has encryption settings that may cause iOS Password AutoFill extensions to be terminated due to excessive resource consumption. This will mean AutoFill appears not to work. Unfortunately this is an Apple imposed limit. You could consider reducing the amount of resources consumed by your encryption settings (Memory in particular with Argon2 to below 64MB). */
-"open_sequence_autofill_creash_likely_message" = "Uw database is vrij groot, of heeft encryptie-instellingen die kunnen leiden tot het iOS-wachtwoord AutoFill extensies worden beëindigd als gevolg van overmatig gebruik van resources.\nDit betekent dat Automatisch invullen niet lijkt te werken. Helaas is dit een Apple opgelegde systeembeperking.\nU kunt overwegen de bestandsgrootte te verkleinen of de hoeveelheid verbruikte resources te wijzigen (Memory in het bijzonder met Argon2 tot minder dan 64 Mb).";
+"open_sequence_autofill_creash_likely_message" = "Uw database is vrij groot, of heeft encryptie-instellingen die kunnen leiden tot het iOS-wachtwoord AutoFill extensies worden beëindigd als gevolg van overmatig gebruik van resources.\nDit betekent dat AutoFill niet lijkt te werken. Helaas is dit een Apple opgelegde systeembeperking.\nU kunt overwegen de bestandsgrootte te verkleinen of de hoeveelheid verbruikte resources te wijzigen (Memory in het bijzonder met Argon2 tot minder dan 64 Mb).";
 
 /* No Key File */
 "key_files_vc_no_key_file" = "Geen sleutelbestand";
@@ -1419,7 +1419,7 @@
 "open_sequence_prompt_use_convenience_bio_title_fmt" = "Handige ontgrendelen: %@ of Pin code gebruiken in de toekomst?";
 
 /* You can use %@ to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use this then please select it below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
-"open_sequence_prompt_use_convenience_bio_message_fmt" = "U kunt gebruik maken van %@ om deze database te ontgrendelen. Hoewel dit handig is, kan het verminderen van de beveiliging van de database op dit apparaat. Als u dit wilt gebruiken, selecteert u het hieronder of selecteert u Nee om door te gaan met uw masterwachtwoord.\n\n*Belangrijk: U moet uw masterwachtwoord ALTIJD onthouden";
+"open_sequence_prompt_use_convenience_bio_message_fmt" = "U kunt gebruik maken van %@ om deze database te ontgrendelen. Hoewel dit handig is, kan het verminderen van de beveiliging van de database op dit apparaat. Als u dit wilt gebruiken, selecteert u het hieronder of selecteert u Nee om door te gaan met uw hoofdwachtwoord.\n\n*Belangrijk: U moet uw hoofdwachtwoord ALTIJD onthouden";
 
 /* Convenience Unlock: Use a PIN Code to Unlock in Future? */
 "open_sequence_prompt_use_convenience_pin_title" = "Handige ontgrendelen: %@ of Pin code gebruiken in de toekomst?";
@@ -1746,7 +1746,7 @@
 "database_metadata_field_generator" = "Database-generator";
 
 /* Inner Encryption */
-"database_metadata_field_inner_encryption" = "Interne versleuteling";
+"database_metadata_field_inner_encryption" = "Interne encryptie";
 
 /* KeePass File Version */
 "database_metadata_field_keepass_version" = "KeePass bestandsversie";
@@ -1761,7 +1761,7 @@
 "database_metadata_field_max_history_size" = "Max geschiedenis grootte";
 
 /* Outer Encryption */
-"database_metadata_field_outer_encryption" = "Buitenste versleuteling";
+"database_metadata_field_outer_encryption" = "Buitenste encryptie";
 
 /* Password Safe File Version */
 "database_metadata_field_password_safe_version" = "Wachtwoord veilige bestandsversie";
@@ -1926,7 +1926,7 @@
 "generic_unlocking_ellipsis" = "Ontgrendelen...";
 
 /* Encrypting */
-"generic_encrypting" = "Versleutelen";
+"generic_encrypting" = "Encrypteren";
 
 /* Loading... */
 "generic_loading" = "Laden...";
@@ -2224,7 +2224,7 @@
 "mac_could_not_unlock_database" = "Kan database niet ontgrendelen";
 
 /* Touch ID Considerations\n\nWhile this is very convenient, it is not a perfect system for protecting your passwords. It is provided for convenience only. It is within the realm of possibilities that someone with access to your device or your fingerprint, can produce a good enough fake fingerprint to fool Apple’s Touch ID. In addition, on your Mac, your master password will be securely stored in the Keychain. This means it is possible for someone with administrative privileges to search your Keychain for your master password. You should be aware that a strong passphrase held only in your mind provides the most secure experience with StrongBox.\n\nPlease take all of this into account, and make your decision to use Touch ID based on your preferred balance of convenience and security. */
-"mac_touch_id_one_time_warning" = "Touch ID/Apple Horloge Ongrendeling\n\nTerwijl dit erg handig is, is het niet een perfect systeem voor het beschermen van uw wachtwoorden. Het wordt alleen voor het gemak verstrekt. Het is in het rijk van de mogelijkheden dat iemand met toegang tot uw apparaat of uw vingerafdruk, kan produceren een goed genoeg nep-vingerafdruk te misleiden Apple ' s Touch-ID. Bovendien zal uw hoofdwachtwoord op uw Mac veilig worden opgeslagen in de sleutelhanger. Dit betekent dat het mogelijk is voor iemand met beheermachtigingen om uw sleutelhanger te doorzoeken op uw masterwachtwoord. U moet zich ervan bewust zijn dat een sterke passphrase gehouden alleen in uw geest biedt de meest veilige ervaring met StrongBox.\n\nNeem dit alles in rekening, en maak uw beslissing om Touch ID te gebruiken op basis van uw voorkeur evenwicht van gemak en veiligheid.";
+"mac_touch_id_one_time_warning" = "Touch ID/Apple Horloge Ongrendeling\n\nTerwijl dit erg handig is, is het niet een perfect systeem voor het beschermen van uw wachtwoorden. Het wordt alleen voor het gemak verstrekt. Het is in het rijk van de mogelijkheden dat iemand met toegang tot uw apparaat of uw vingerafdruk, kan produceren een goed genoeg nep-vingerafdruk te misleiden Apple ' s Touch-ID. Bovendien zal uw hoofdwachtwoord op uw Mac veilig worden opgeslagen in de sleutelhanger. Dit betekent dat het mogelijk is voor iemand met beheermachtigingen om uw sleutelhanger te doorzoeken op uw hoofdwachtwoord. U moet zich ervan bewust zijn dat een sterke passphrase gehouden alleen in uw geest biedt de meest veilige ervaring met StrongBox.\n\nNeem dit alles in rekening, en maak uw beslissing om Touch ID te gebruiken op basis van uw voorkeur evenwicht van gemak en veiligheid.";
 
 /* You cannot lock a database while changes are pending. Save changes and lock now? */
 "mac_cant_lock_db_while_changes_pending" = "U kunt een database niet vergrendelen wanneer er wijzigingen in behandeling zijn. Wijzigingen opslaan en nu vergrendelen?";
@@ -2733,7 +2733,7 @@
 "mac_convenience_summary_keychain_and_will_expire_on_exit" = "Password Password is veilig opgeslagen (alleen in het geheugen) en zal vervallen als je Strongbox Verlaat.";
 
 /* Convenience Unlock is Enabled but the securely stored master password has expired. */
-"mac_convenience_summary_enabled_but_expired" = "Convenience Unlock is ingeschakeld, maar het beveiligde hoofdwachtwoord is verlopen.";
+"mac_convenience_summary_enabled_but_expired" = "Gemakkelijk Ontgrendelen is ingeschakeld, maar het beveiligde hoofdwachtwoord is verlopen.";
 
 /* Convenience Unlock Disabled */
 "mac_convenience_summary_disabled" = "Gemak Ontgrendelen Uitgeschakeld";
@@ -2810,10 +2810,10 @@
 "casg_yubikey_configured_mfi" = "Lightning";
 
 /* AutoFill Crash Occurred */
-"autofill_did_not_close_cleanly_title" = "Auto Fill Crash Occurred";
+"autofill_did_not_close_cleanly_title" = "AutoFill Crash Gebeurd";
 
 /* It looks like the last time you used AutoFill you had a crash. This is usually due to a memory limitation. Please check your database file size and your Argon2 memory settings (should be <= 64MB) */
-"autofill_did_not_close_cleanly_message" = "It looks like the last time you used Auto Fill you had a crash. This is usually due to a iOS memory limitations. Please check database file size and Argon2 memory (should be <= 64MB) settings";
+"autofill_did_not_close_cleanly_message" = "Het lijkt erop dat je bij de laatste keer dat je AutoFill gebruikte, een crash hebt gehad. Dit is meestal te wijten aan een beperking in het geheugen van iOS. Controleer de database bestandsgrootte en Argon2 geheugen (moet zijn <= 64MB) instellingen";
 
 /* Regenerate... */
 "password_generation_regenerate_ellipsis" = "Opnieuw genereren...";
@@ -2918,7 +2918,7 @@
 "mac_use_biometric_to_open_in_future_fmt" = "Wilt u gebruik maken van %@ of uw Apple Watch om deze database in de toekomst te ontgrendelen? Uw hoofdwachtwoord wordt veilig opgeslagen voor %@ voordat u het opnieuw moet invoeren.";
 
 /* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be stored securely. Note for translators (1st Param = "Touch ID") */
-"mac_use_biometric_to_open_in_future_simple_fmt" = "Wilt u gebruik maken van %@ of uw Apple Watch om deze database in de toekomst te ontgrendelen? Uw masterwachtwoord wordt veilig opgeslagen.";
+"mac_use_biometric_to_open_in_future_simple_fmt" = "Wilt u gebruik maken van %@ of uw Apple Watch om deze database in de toekomst te ontgrendelen? Uw hoofdwachtwoord wordt veilig opgeslagen.";
 
 /* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be stored securely until you exit Strongbox Note for translators (1st Param = "Touch ID") */
 "mac_use_biometric_to_open_in_future_simple_app_exit_fmt" = "Wilt u gebruik maken van %@ of uw Apple Watch om deze database in de toekomst te ontgrendelen? Uw hoofdwachtwoord wordt veilig opgeslagen totdat u Strongbox afsluit";
@@ -3326,7 +3326,7 @@
 "autofill_vc_item_subtitle_local_copy_unavailable" = "Lokale kopie niet beschikbaar";
 
 /* AutoFill Disabled */
-"autofill_vc_item_subtitle_disabled" = "Auto Fill Disabled";
+"autofill_vc_item_subtitle_disabled" = "AutoFill Uitgeschakeld";
 
 /* Sync Required */
 "autofill_add_entry_sync_required_title" = "Synchronisatie vereist";
@@ -3407,7 +3407,7 @@
 "yubikey_config_are_you_sure_delete" = "Weet u zeker dat u deze virtuele hardwaresleutel wilt wissen?";
 
 /* %@ (AutoFill Only) - Translator's note, the 1st parameter is the name of the virtual hardware key, e.g. Mark's Virtual Hardware Key - This string indicates that that key can only be used in AutoFill mode only, not regualr App mode */
-"yubikeys_virtual_autofill_only" = "%@ (Alleen Automatisch invullen)";
+"yubikeys_virtual_autofill_only" = "%@ (Alleen AutoFill)";
 
 /* Virtual Hardware Key */
 "casg_yubikey_configured_virtual" = "Virtuele hardwaresleutel";
@@ -3572,7 +3572,7 @@
 "mac_autofill_enable_extension_title" = "Strongbox extensie inschakelen";
 
 /* To use AutoFill you must enable the Strongbox Extension in System Preferences. To do this click the 'Open System Preferences...' button below and navigate to:\n\n∙ Extensions > Password AutoFill > Check 'Strongbox' */
-"mac_autofill_enable_extension_message" = "Als u Automatisch invullen wilt gebruiken, moet u de Strongbox-extensie inschakelen in systeemvoorkeuren. Klik hieronder op de knop 'Systeemvoorkeuren openen...' en navigeer naar:\n\n-Extensies > Wachtwoord Automatisch invullen > Check 'Strongbox'";
+"mac_autofill_enable_extension_message" = "Als u AutoFill wilt gebruiken, moet u de Strongbox-extensie inschakelen in systeemvoorkeuren. Klik hieronder op de knop 'Systeemvoorkeuren openen...' en navigeer naar:\n\n-Extensies > Wachtwoord AutoFill > Check 'Strongbox'";
 
 /* Open System Preferences... */
 "mac_autofill_action_open_system_preferences" = "Open systeemvoorkeuren...";
@@ -4110,7 +4110,7 @@
 "autofill_search_title_service_id_section_header" = "Service-ID";
 
 /* The Service ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Service ID. */
-"autofill_search_service_id_section_footer" = "Het service-ID is een ID dat door Automatisch invullen naar Strongbox wordt gestuurd. Het kan helpen bij het zoeken als u de URL van uw item instelt op het Service-ID. Tik om te kopiëren.";
+"autofill_search_service_id_section_footer" = "Het service-ID is een ID dat door AutoFill naar Strongbox wordt gestuurd. Het kan helpen bij het zoeken als u de URL van uw item instelt op het Service-ID. Tik om te kopiëren.";
 
 /* Results */
 "quick_view_title_no_matches_title" = "Resultaten";
@@ -4332,7 +4332,7 @@
 "generic_rearrange" = "Herschikken";
 
 /* Typing your master password is slow, cumbersome and error prone. Strongbox can help you to conveniently and securely unlock your database so that you don't need to enter your master password all the time.\n\nWould you like to use Convenience Unlock? */
-"onboarding_convenience_message_fmt" = "Het typen van je hoofdwachtwoord is traag, omslachtig en foutgevoelig. Strongbox kan je helpen om de database veilig en snel te ontgrendelen zonder elke keer je hoofdwachtwoord te hoeven gebruiken.\n\nWil je Comfortabel Ontgrendelen gebruiken?";
+"onboarding_convenience_message_fmt" = "Het typen van je hoofdwachtwoord is traag, omslachtig en foutgevoelig. Strongbox kan je helpen om de database veilig en snel te ontgrendelen zonder elke keer je hoofdwachtwoord te hoeven gebruiken.\n\nWil je Gemakkelijk Ontgrendelen gebruiken?";
 
 /* Dismiss - L10n Note: Generic Action to dismiss a dialog or popup */
 "generic_dismiss" = "Afwijzen";
@@ -4682,16 +4682,16 @@
 "mac_hardware_key_selected_but_has_been_disconnected" = "⚠️ Selected Key (Disconnected)";
 
 /* AutoFill Issue */
-"autofill_argon2_onboarding_issue_title" = "AutoFill Issue";
+"autofill_argon2_onboarding_issue_title" = "AutoFill Probleem";
 
 /* Your database has a very high Argon2 memory setting that will cause it to crash when used in AutoFill mode.\n\nWould you like Strongbox to automatically adjust this so that you can safely use AutoFill? */
-"autofill_argon2_onboarding_issue_message" = "Your database has a very high Argon2 memory setting that will cause it to crash when used in AutoFill mode.\n\nWould you like Strongbox to automatically adjust this so that you can safely use AutoFill?";
+"autofill_argon2_onboarding_issue_message" = "Uw database heeft een zeer hoge Argon2 geheugeninstelling die ervoor zal zorgen dat deze crasht in de AutoFill modus.\n\nWil je dat Strongbox dit automatisch aanpast zodat je AutoFill veilig kunt gebruiken?";
 
 /* Yes, Great Idea! */
 "generic_yes_great_idea_bang" = "Yes, Great Idea!";
 
 /* No, I don't use AutoFill */
-"autofill_argon2_onboarding_no_use_autofill" = "No, I don't use AutoFill";
+"autofill_argon2_onboarding_no_use_autofill" = "Nee, ik gebruik AutoFill niet";
 
 /* Dont't Ask Again */
 "generic_dont_ask_again" = "Don't Ask Again";
@@ -4733,10 +4733,10 @@
 "mac_password_gen_enter_new_separator" = "Please Enter a New Word Separator";
 
 /* AutoFill is only available on macOS Big Sur+ */
-"autofill_app_preferences_only_avail_big_sur" = "AutoFill is only available on macOS Big Sur+";
+"autofill_app_preferences_only_avail_big_sur" = "AutoFill is alleen beschikbaar op macOS Big Sur+";
 
 /* ✅ Strongbox is enabled for Password AutoFill */
-"strongbox_is_enabled_for_autofill" = "✅ Strongbox is enabled for Password AutoFill";
+"strongbox_is_enabled_for_autofill" = "✅ Strongbox is ingeschakeld voor wachtwoord AutoFill";
 
 /* ⭐️ Wow ⭐️ */
 "tip_purchased_title" = "⭐️ Wow ⭐️";
@@ -5165,7 +5165,7 @@
 "nextgen_toolbar_settings_autofill_settings_ellipsis" = "AutoFill instellingen...";
 
 /* Encryption Settings... */
-"nextgen_toolbar_settings_encryption_settings_ellipsis" = "Versleuteling instellingen...";
+"nextgen_toolbar_settings_encryption_settings_ellipsis" = "Encryptie instellingen...";
 
 /* Change Master Credentials... */
 "nextgen_toolbar_settings_change_master_credentials_ellipsis" = "Wijzig hoofwachtwoord...";
