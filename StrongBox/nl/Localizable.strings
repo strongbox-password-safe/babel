@@ -522,7 +522,7 @@
 "db_management_disable_autofill_yesno_message" = "Weet je zeker dat je dit wilt doen?";
 
 /* Disable AutoFill? */
-"db_management_disable_autofill_yesno_title" = "Automatisch invullen uitschakelen?";
+"db_management_disable_autofill_yesno_title" = "AutoFill uitschakelen?";
 
 /* %@ for this database has been disabled. */
 "db_management_disable_biometric_notify_message_fmt" = "%@ is voor deze database uitgeschakeld.";
@@ -540,7 +540,7 @@
 "db_management_disable_biomtric_simple_fmt" = "Weet je zeker dat je %@ voor deze database wilt uitschakelen?";
 
 /* AutoFill Disabled */
-"db_management_disable_done" = "Automatisch invullen uitgeschakeld";
+"db_management_disable_done" = "AutoFill uitgeschakeld";
 
 /* %@ has been enabled for this database. */
 "db_management_enable_biometric_notify_message_fmt" = "%@ is ingeschakeld voor deze database.";
@@ -549,7 +549,7 @@
 "db_management_enable_biometric_notify_title_fmt" = "%@ ingeschakeld";
 
 /* AutoFill Enabled */
-"db_management_enable_done" = "Automatisch invullen ingeschakeld";
+"db_management_enable_done" = "AutoFill ingeschakeld";
 
 /* Could not change credentials */
 "db_management_error_title_couldnt_change_credentials" = "Kon inloggegevens niet wijzigen";
@@ -925,7 +925,7 @@
 
 /* Could not get database data
    Error Encrypting */
-"export_vc_error_encrypting" = "Fout bij versleutelen";
+"export_vc_error_encrypting" = "Fout bij encrypteren";
 
 /* Email Not Available */
 "export_vc_email_unavailable_title" = "E-mail niet beschikbaar";
@@ -1052,10 +1052,10 @@
 "key_files_vc_error_file_already_exists_message" = "Er bestaat al een bestand met deze naam in de directory voor sleutelbestanden.";
 
 /* Imported Key Files (Auto-Fill Enabled) */
-"key_files_vc_section_header_imported" = "Geïmporteerde sleutelbestanden (Automatisch invullen ingeschakeld)";
+"key_files_vc_section_header_imported" = "Geïmporteerde sleutelbestanden (AutoFill ingeschakeld)";
 
 /* Application Local Files */
-"key_files_vc_section_header_local" = "Documentenmap (Automatisch invullen niet ondersteund)";
+"key_files_vc_section_header_local" = "Documentenmap (AutoFill niet ondersteund)";
 
 /* Remove After Import */
 "key_files_vc_remove_after_import_title" = "Verwijderen na importeren";
@@ -1386,10 +1386,10 @@
 "open_sequence_problem_opening_title" = "Er is een probleem opgetreden bij het openen van de database.";
 
 /* AutoFill Crash Likely */
-"open_sequence_autofill_creash_likely_title" = "Automatisch vullen crash waarschijnlijk";
+"open_sequence_autofill_creash_likely_title" = "AutoFill crash waarschijnlijk";
 
 /* Your database has encryption settings that may cause iOS Password AutoFill extensions to be terminated due to excessive resource consumption. This will mean AutoFill appears not to work. Unfortunately this is an Apple imposed limit. You could consider reducing the amount of resources consumed by your encryption settings (Memory in particular with Argon2 to below 64MB). */
-"open_sequence_autofill_creash_likely_message" = "Uw database is vrij groot, of heeft encryptie-instellingen die kunnen leiden tot het iOS-wachtwoord AutoFill extensies worden beëindigd als gevolg van overmatig gebruik van resources.\nDit betekent dat Automatisch invullen niet lijkt te werken. Helaas is dit een Apple opgelegde systeembeperking.\nU kunt overwegen de bestandsgrootte te verkleinen of de hoeveelheid verbruikte resources te wijzigen (Memory in het bijzonder met Argon2 tot minder dan 64 Mb).";
+"open_sequence_autofill_creash_likely_message" = "Uw database is vrij groot, of heeft encryptie-instellingen die kunnen leiden tot het iOS-wachtwoord AutoFill extensies worden beëindigd als gevolg van overmatig gebruik van resources.\nDit betekent dat AutoFill niet lijkt te werken. Helaas is dit een Apple opgelegde systeembeperking.\nU kunt overwegen de bestandsgrootte te verkleinen of de hoeveelheid verbruikte resources te wijzigen (Memory in het bijzonder met Argon2 tot minder dan 64 Mb).";
 
 /* No Key File */
 "key_files_vc_no_key_file" = "Geen sleutelbestand";
@@ -1419,7 +1419,7 @@
 "open_sequence_prompt_use_convenience_bio_title_fmt" = "Handige ontgrendelen: %@ of Pin code gebruiken in de toekomst?";
 
 /* You can use %@ to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use this then please select it below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
-"open_sequence_prompt_use_convenience_bio_message_fmt" = "U kunt gebruik maken van %@ om deze database te ontgrendelen. Hoewel dit handig is, kan het verminderen van de beveiliging van de database op dit apparaat. Als u dit wilt gebruiken, selecteert u het hieronder of selecteert u Nee om door te gaan met uw masterwachtwoord.\n\n*Belangrijk: U moet uw masterwachtwoord ALTIJD onthouden";
+"open_sequence_prompt_use_convenience_bio_message_fmt" = "U kunt gebruik maken van %@ om deze database te ontgrendelen. Hoewel dit handig is, kan het verminderen van de beveiliging van de database op dit apparaat. Als u dit wilt gebruiken, selecteert u het hieronder of selecteert u Nee om door te gaan met uw hoofdwachtwoord.\n\n*Belangrijk: U moet uw hoofdwachtwoord ALTIJD onthouden";
 
 /* Convenience Unlock: Use a PIN Code to Unlock in Future? */
 "open_sequence_prompt_use_convenience_pin_title" = "Handige ontgrendelen: %@ of Pin code gebruiken in de toekomst?";
@@ -1746,7 +1746,7 @@
 "database_metadata_field_generator" = "Database-generator";
 
 /* Inner Encryption */
-"database_metadata_field_inner_encryption" = "Interne versleuteling";
+"database_metadata_field_inner_encryption" = "Interne encryptie";
 
 /* KeePass File Version */
 "database_metadata_field_keepass_version" = "KeePass bestandsversie";
@@ -1761,7 +1761,7 @@
 "database_metadata_field_max_history_size" = "Max geschiedenis grootte";
 
 /* Outer Encryption */
-"database_metadata_field_outer_encryption" = "Buitenste versleuteling";
+"database_metadata_field_outer_encryption" = "Buitenste encryptie";
 
 /* Password Safe File Version */
 "database_metadata_field_password_safe_version" = "Wachtwoord veilige bestandsversie";
@@ -1926,7 +1926,7 @@
 "generic_unlocking_ellipsis" = "Ontgrendelen...";
 
 /* Encrypting */
-"generic_encrypting" = "Versleutelen";
+"generic_encrypting" = "Encrypteren";
 
 /* Loading... */
 "generic_loading" = "Laden...";
@@ -2224,7 +2224,7 @@
 "mac_could_not_unlock_database" = "Kan database niet ontgrendelen";
 
 /* Touch ID Considerations\n\nWhile this is very convenient, it is not a perfect system for protecting your passwords. It is provided for convenience only. It is within the realm of possibilities that someone with access to your device or your fingerprint, can produce a good enough fake fingerprint to fool Apple’s Touch ID. In addition, on your Mac, your master password will be securely stored in the Keychain. This means it is possible for someone with administrative privileges to search your Keychain for your master password. You should be aware that a strong passphrase held only in your mind provides the most secure experience with StrongBox.\n\nPlease take all of this into account, and make your decision to use Touch ID based on your preferred balance of convenience and security. */
-"mac_touch_id_one_time_warning" = "Touch ID/Apple Horloge Ongrendeling\n\nTerwijl dit erg handig is, is het niet een perfect systeem voor het beschermen van uw wachtwoorden. Het wordt alleen voor het gemak verstrekt. Het is in het rijk van de mogelijkheden dat iemand met toegang tot uw apparaat of uw vingerafdruk, kan produceren een goed genoeg nep-vingerafdruk te misleiden Apple ' s Touch-ID. Bovendien zal uw hoofdwachtwoord op uw Mac veilig worden opgeslagen in de sleutelhanger. Dit betekent dat het mogelijk is voor iemand met beheermachtigingen om uw sleutelhanger te doorzoeken op uw masterwachtwoord. U moet zich ervan bewust zijn dat een sterke passphrase gehouden alleen in uw geest biedt de meest veilige ervaring met StrongBox.\n\nNeem dit alles in rekening, en maak uw beslissing om Touch ID te gebruiken op basis van uw voorkeur evenwicht van gemak en veiligheid.";
+"mac_touch_id_one_time_warning" = "Touch ID/Apple Horloge Ongrendeling\n\nTerwijl dit erg handig is, is het niet een perfect systeem voor het beschermen van uw wachtwoorden. Het wordt alleen voor het gemak verstrekt. Het is in het rijk van de mogelijkheden dat iemand met toegang tot uw apparaat of uw vingerafdruk, kan produceren een goed genoeg nep-vingerafdruk te misleiden Apple ' s Touch-ID. Bovendien zal uw hoofdwachtwoord op uw Mac veilig worden opgeslagen in de sleutelhanger. Dit betekent dat het mogelijk is voor iemand met beheermachtigingen om uw sleutelhanger te doorzoeken op uw hoofdwachtwoord. U moet zich ervan bewust zijn dat een sterke passphrase gehouden alleen in uw geest biedt de meest veilige ervaring met StrongBox.\n\nNeem dit alles in rekening, en maak uw beslissing om Touch ID te gebruiken op basis van uw voorkeur evenwicht van gemak en veiligheid.";
 
 /* You cannot lock a database while changes are pending. Save changes and lock now? */
 "mac_cant_lock_db_while_changes_pending" = "U kunt een database niet vergrendelen wanneer er wijzigingen in behandeling zijn. Wijzigingen opslaan en nu vergrendelen?";
@@ -2733,7 +2733,7 @@
 "mac_convenience_summary_keychain_and_will_expire_on_exit" = "Password Password is veilig opgeslagen (alleen in het geheugen) en zal vervallen als je Strongbox Verlaat.";
 
 /* Convenience Unlock is Enabled but the securely stored master password has expired. */
-"mac_convenience_summary_enabled_but_expired" = "Convenience Unlock is ingeschakeld, maar het beveiligde hoofdwachtwoord is verlopen.";
+"mac_convenience_summary_enabled_but_expired" = "Gemakkelijk Ontgrendelen is ingeschakeld, maar het beveiligde hoofdwachtwoord is verlopen.";
 
 /* Convenience Unlock Disabled */
 "mac_convenience_summary_disabled" = "Gemak Ontgrendelen Uitgeschakeld";
@@ -2810,10 +2810,10 @@
 "casg_yubikey_configured_mfi" = "Lightning";
 
 /* AutoFill Crash Occurred */
-"autofill_did_not_close_cleanly_title" = "Auto Fill Crash Occurred";
+"autofill_did_not_close_cleanly_title" = "AutoFill Crash Gebeurd";
 
 /* It looks like the last time you used AutoFill you had a crash. This is usually due to a memory limitation. Please check your database file size and your Argon2 memory settings (should be <= 64MB) */
-"autofill_did_not_close_cleanly_message" = "It looks like the last time you used Auto Fill you had a crash. This is usually due to a iOS memory limitations. Please check database file size and Argon2 memory (should be <= 64MB) settings";
+"autofill_did_not_close_cleanly_message" = "Het lijkt erop dat je bij de laatste keer dat je AutoFill gebruikte, een crash hebt gehad. Dit is meestal te wijten aan een beperking in het geheugen van iOS. Controleer de database bestandsgrootte en Argon2 geheugen (moet zijn <= 64MB) instellingen";
 
 /* Regenerate... */
 "password_generation_regenerate_ellipsis" = "Opnieuw genereren...";
@@ -2918,7 +2918,7 @@
 "mac_use_biometric_to_open_in_future_fmt" = "Wilt u gebruik maken van %@ of uw Apple Watch om deze database in de toekomst te ontgrendelen? Uw hoofdwachtwoord wordt veilig opgeslagen voor %@ voordat u het opnieuw moet invoeren.";
 
 /* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be stored securely. Note for translators (1st Param = "Touch ID") */
-"mac_use_biometric_to_open_in_future_simple_fmt" = "Wilt u gebruik maken van %@ of uw Apple Watch om deze database in de toekomst te ontgrendelen? Uw masterwachtwoord wordt veilig opgeslagen.";
+"mac_use_biometric_to_open_in_future_simple_fmt" = "Wilt u gebruik maken van %@ of uw Apple Watch om deze database in de toekomst te ontgrendelen? Uw hoofdwachtwoord wordt veilig opgeslagen.";
 
 /* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be stored securely until you exit Strongbox Note for translators (1st Param = "Touch ID") */
 "mac_use_biometric_to_open_in_future_simple_app_exit_fmt" = "Wilt u gebruik maken van %@ of uw Apple Watch om deze database in de toekomst te ontgrendelen? Uw hoofdwachtwoord wordt veilig opgeslagen totdat u Strongbox afsluit";
@@ -3326,7 +3326,7 @@
 "autofill_vc_item_subtitle_local_copy_unavailable" = "Lokale kopie niet beschikbaar";
 
 /* AutoFill Disabled */
-"autofill_vc_item_subtitle_disabled" = "Auto Fill Disabled";
+"autofill_vc_item_subtitle_disabled" = "AutoFill Uitgeschakeld";
 
 /* Sync Required */
 "autofill_add_entry_sync_required_title" = "Synchronisatie vereist";
@@ -3407,7 +3407,7 @@
 "yubikey_config_are_you_sure_delete" = "Weet u zeker dat u deze virtuele hardwaresleutel wilt wissen?";
 
 /* %@ (AutoFill Only) - Translator's note, the 1st parameter is the name of the virtual hardware key, e.g. Mark's Virtual Hardware Key - This string indicates that that key can only be used in AutoFill mode only, not regualr App mode */
-"yubikeys_virtual_autofill_only" = "%@ (Alleen Automatisch invullen)";
+"yubikeys_virtual_autofill_only" = "%@ (Alleen AutoFill)";
 
 /* Virtual Hardware Key */
 "casg_yubikey_configured_virtual" = "Virtuele hardwaresleutel";
@@ -3572,7 +3572,7 @@
 "mac_autofill_enable_extension_title" = "Strongbox extensie inschakelen";
 
 /* To use AutoFill you must enable the Strongbox Extension in System Preferences. To do this click the 'Open System Preferences...' button below and navigate to:\n\n∙ Extensions > Password AutoFill > Check 'Strongbox' */
-"mac_autofill_enable_extension_message" = "Als u Automatisch invullen wilt gebruiken, moet u de Strongbox-extensie inschakelen in systeemvoorkeuren. Klik hieronder op de knop 'Systeemvoorkeuren openen...' en navigeer naar:\n\n-Extensies > Wachtwoord Automatisch invullen > Check 'Strongbox'";
+"mac_autofill_enable_extension_message" = "Als u AutoFill wilt gebruiken, moet u de Strongbox-extensie inschakelen in systeemvoorkeuren. Klik hieronder op de knop 'Systeemvoorkeuren openen...' en navigeer naar:\n\n-Extensies > Wachtwoord AutoFill > Check 'Strongbox'";
 
 /* Open System Preferences... */
 "mac_autofill_action_open_system_preferences" = "Open systeemvoorkeuren...";
@@ -4110,7 +4110,7 @@
 "autofill_search_title_service_id_section_header" = "Service-ID";
 
 /* The Service ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Service ID. */
-"autofill_search_service_id_section_footer" = "Het service-ID is een ID dat door Automatisch invullen naar Strongbox wordt gestuurd. Het kan helpen bij het zoeken als u de URL van uw item instelt op het Service-ID. Tik om te kopiëren.";
+"autofill_search_service_id_section_footer" = "Het service-ID is een ID dat door AutoFill naar Strongbox wordt gestuurd. Het kan helpen bij het zoeken als u de URL van uw item instelt op het Service-ID. Tik om te kopiëren.";
 
 /* Results */
 "quick_view_title_no_matches_title" = "Resultaten";
@@ -4329,85 +4329,85 @@
 "generic_preferences" = "Voorkeuren";
 
 /* Rearrange - L10n - Verb - to re-order or otherwise change the order of a list of items */
-"generic_rearrange" = "Rearrange";
+"generic_rearrange" = "Herschikken";
 
 /* Typing your master password is slow, cumbersome and error prone. Strongbox can help you to conveniently and securely unlock your database so that you don't need to enter your master password all the time.\n\nWould you like to use Convenience Unlock? */
-"onboarding_convenience_message_fmt" = "Typing your master password is slow, cumbersome and error prone. Strongbox can help you to securely & quickly unlock your database without needing to use your master password every time.\n\nWould you like to use Convenience Unlock?";
+"onboarding_convenience_message_fmt" = "Het typen van je hoofdwachtwoord is traag, omslachtig en foutgevoelig. Strongbox kan je helpen om de database veilig en snel te ontgrendelen zonder elke keer je hoofdwachtwoord te hoeven gebruiken.\n\nWil je Gemakkelijk Ontgrendelen gebruiken?";
 
 /* Dismiss - L10n Note: Generic Action to dismiss a dialog or popup */
 "generic_dismiss" = "Afwijzen";
 
 /* There is a configuration issue you should be aware of. You are using %@ for both App Lock and Quick Launch. In addition you allow device passcode fallback for App Lock.\n\nThis leads to a situation where you can unlock your database using only your device passcode.\n\nIf you do not want this you can do any of the following: Disable App Lock passcode fallback, or Quick Launch, or %@ Database Unlock, or coalescing of unlocks - L10n Note: 3 format parameters here are identical and will be either 'Face ID' or 'Touch ID' */
-"app_lock_coalescing_with_quick_launch_warning" = "There is a configuration issue you should be aware of. You are using %@ for both App Lock and Quick Launch. In addition you allow device passcode fallback for App Lock.\n\nThis leads to a situation where you can unlock your database using only your device passcode.\n\nIf you do not want this you can do any of the following: Disable App Lock passcode fallback, or Quick Launch, or %@ Database Unlock, or coalescing of unlocks.";
+"app_lock_coalescing_with_quick_launch_warning" = "Er is een configuratieprobleem waarvan u op de hoogte zou moeten zijn. U gebruikt %@ voor zowel App Lock als Quick Launch. Daarnaast sta je terugvallen op toegangscode toe voor App Lock.\n\nDit leidt tot een situatie waarin je de database kunt ontgrendelen met alleen je toegangscode van je apparaat.\n\nAls je dit niet wilt, kunt u een van de volgende dingen doen: 'App Lock-terugvallen op toegangscode' uitschakelen, of Snel Starten uitschakelen, of %@ Database Ontgrendeling of coalescing van ontgrendelingen.";
 
 /* Configuration Issue */
-"onboarding_configuration_issue_title" = "Configuration Issue";
+"onboarding_configuration_issue_title" = "Configuratie probleem";
 
 /* Let's Go - L10n Note: Generic Action Button to get started, similar to OK, but more friendly and indicates progression */
-"generic_lets_go" = "Let's Go";
+"generic_lets_go" = "Laten we beginnen";
 
 /* Ready to Launch */
-"onboarding_ready_to_launch_title" = "Ready to Launch";
+"onboarding_ready_to_launch_title" = "Klaar om te starten";
 
 /* You're all set to get the best out of Strongbox.\n\nDon't forget you can always tweak these settings at any time. */
-"onboarding_ready_to_launch_message" = "You're all set to get the best out of Strongbox.\n\nDon't forget you can always tweak these settings at any time.";
+"onboarding_ready_to_launch_message" = "Je bent er helemaal klaar voor om het beste uit Strongbox te halen.\n\nVergeet niet dat je deze instellingen altijd nog kunt aanpassen.";
 
 /* Scheduled Export */
-"onboarding_scheduled_export_title" = "Geplande export";
+"onboarding_scheduled_export_title" = "Geplande Export";
 
 /* It's always a good idea to keep backups, especially external ones. Strongbox can remind you to export your database every so often.\n\nWould you like Strongbox to prompt you to export your database if it has been a while? */
-"onboarding_scheduled_export_message" = "It's always a good idea to keep backups, especially external ones. Strongbox can remind you to export your database every so often.\n\nWould you like Strongbox to prompt you to export your database if it has been a while?";
+"onboarding_scheduled_export_message" = "Het is altijd een goed idee om back-ups te maken, vooral externe back-ups. Strongbox kan je eraan herinneren om met regelmaat je database te exporteren.\n\nWil je dat Strongbox je herinnert om je database te exporteren als het al een tijdje geleden is?";
 
 /* Remind me after 2 weeks */
-"onboarding_scheduled_export_onboarding_remind_2_weeks" = "Remind me after 2 weeks";
+"onboarding_scheduled_export_onboarding_remind_2_weeks" = "Herinner me na 2 weken";
 
 /* Remind me after 4 weeks */
-"onboarding_scheduled_export_onboarding_remind_4_weeks" = "Remind me after 4 weeks";
+"onboarding_scheduled_export_onboarding_remind_4_weeks" = "Herinner me na 4 weken";
 
 /* Don't Remind Me */
 "generic_dont_remind_me" = "Herinner mij niet";
 
 /* It's time to export a backup copy of your database somewhere safe.\n\nWould you like do that now? */
-"scheduled_export_message" = "It's time to export a backup copy of your database somewhere safe.\n\nWould you like do that now?";
+"scheduled_export_message" = "Het is tijd om een back-up van je database ergens veilig te exporteren.\n\nWil je dat nu doen?";
 
 /* Postpone */
-"generic_postpone" = "Postpone";
+"generic_postpone" = "Uitstellen";
 
 /* iCloud Create Database Error */
-"icloud_create_issue_title" = "iCloud Create Database Error";
+"icloud_create_issue_title" = "iCloud creëer Database Fout";
 
 /* Strongbox could not create a new iCloud Database for you, most likely because the Strongbox iCloud folder has been deleted.\n\nYou can find out how to fix this issue below. */
-"icloud_create_issue_message" = "Strongbox could not create a new iCloud Database for you, most likely because the Strongbox iCloud folder has been deleted.\n\nYou can find out how to fix this issue below.";
+"icloud_create_issue_message" = "Strongbox kon geen nieuwe iCloud Database voor je maken, waarschijnlijk omdat de Strongbox iCloud map is verwijderd.\n\nJe kunt hieronder ontdekken hoe je dit probleem kunt oplossen.";
 
 /* How do I fix this? */
-"icloud_create_issue_fix" = "How do I fix this?";
+"icloud_create_issue_fix" = "Hoe kan ik dit oplossen?";
 
 /* Create local database instead */
-"icloud_create_issue_local_instead" = "Create local database instead";
+"icloud_create_issue_local_instead" = "In plaats daarvan een Lokale database aanmaken";
 
 /* Copied - L10n Note: This means a string has just been copied to the clipboard. Used to notify user via a toast message or similar. */
-"generic_copied" = "Copied";
+"generic_copied" = "Gekopieerd";
 
 /* Scheduled Export Interval */
-"prefs_vc_scheduled_export_interval" = "Scheduled Export Interval";
+"prefs_vc_scheduled_export_interval" = "Geplande exporteer interval";
 
 /* Welcome Aboard */
 "onboarding_welcome_to_strongbox_first_run_title" = "Welkom aan boord";
 
 /* Hi there, and welcome to Strongbox 😎\n\nWe're sure you're excited to get started, but first, there are a few steps we should take so that everything runs smoothly... */
-"onboarding_welcome_to_strongbox_first_run_message" = "Hi there, and welcome to Strongbox 😎\n\nWe're sure you're excited to get started, but first, there are a few steps we should take so that everything runs smoothly...";
+"onboarding_welcome_to_strongbox_first_run_message" = "Hallo, en welkom bij Strongbox 😎\n\nJe bent vast enthousiast om te beginnen, maar eerst moeten we een paar stappen zetten, zodat alles soepel verloopt...";
 
 /* Don't Use iCloud */
-"prefs_vc_dont_use_icloud_action" = "Don't Use iCloud";
+"prefs_vc_dont_use_icloud_action" = "iCloud niet gebruiken";
 
 /* Get Started */
-"generic_get_started" = "Get Started";
+"generic_get_started" = "Aan de slag";
 
 /* You're All Set! */
 "generic_youre_all_set" = "Je bent helemaal klaar!";
 
 /* Next up, we'll take you to your regular Databases screen.\n\nFrom here, we'll help you add your first password database.\n\n❤️ The Strongbox Team ❤️ */
-"onboarding_welcome_to_strongbox_first_run_final_message" = "Next up, we'll take you to your regular Databases screen.\n\nFrom here, we'll help you add your first password database.\n\n❤️ The Strongbox Team ❤️";
+"onboarding_welcome_to_strongbox_first_run_final_message" = "Volgende, we zullen je naar je normale databases-scherm brengen.\n\nVanaf daar zullen we je helpen je eerste wachtwoord-database toe te voegen.\n\n❤️ Het Strongbox Team ❤️";
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 /* Fix the format string crashes that are possible when these are incorrectly localized */
@@ -4416,84 +4416,84 @@
 "casg_suggested_database_name_users_database_number_suffix_fmt2" = "%@'s Database %@";
 
 /* About Strongbox %@ (Pro Trial - %@ days left)  - (Tranlators Note: 1st param is the version number and 2nd is number of days left in the Free Trial, e.g. 'About Strongbox 1.52.20 (Pro Trial - 75 days left)')  */
-"prefs_vc_app_version_info_pro_trial_fmt2" = "About Strongbox %@ (Pro Trial - %@ days left)";
+"prefs_vc_app_version_info_pro_trial_fmt2" = "Over Strongbox %@ (Pro-proefperiode - %@ dagen resterend)";
 
 /* %@ / month (Save %@%%)  - (Tranlators Note: Price per month and percentage savings indicator. e.g. $1.99/month (Save 20%)). Currency, percentage and price formatting is automatic. */
-"upgrade_vc_price_per_month_with_percentage_saving_fmt2" = "%@ / month (Save %@%%)";
+"upgrade_vc_price_per_month_with_percentage_saving_fmt2" = "%@ / maand (Bespaar %@%%)";
 
 /* Original (%@ x %@) %@  - (Tranlators Note: Attachment Image Size (Dimensions and File Size), e.g. 'Original: (2048x2048) 24.2 MB')  */
-"add_attachment_vc_large_image_prompt_option_original_size_fmt2" = "Original (%@ x %@) %@";
+"add_attachment_vc_large_image_prompt_option_original_size_fmt2" = "Origineel (%@ x %@) %@";
 
 /* Use Anyway (%@ x %@) %@  - (Tranlators Note: Attachment Image Size (Dimensions and File Size), e.g. 'Use Anyway: (2048x2048) 24.2 MB')  */
-"add_attachment_vc_large_image_prompt_option_use_anyway_size_fmt2" = "Use Anyway (%@ x %@) %@";
+"add_attachment_vc_large_image_prompt_option_use_anyway_size_fmt2" = "Gebruik toch (%@ x %@) %@";
 
 /* This is a rather large image (%@x%@), would you like to rescale it to a maximum dimension of %@ pixels for a file size saving of roughly %@  - (Tranlators Note: Message about reducing the file size of an image. e.g. 'This is a rather large image (4096x4096), would you like to rescale it to a maximum dimension of 512 pixels for a file size saving of roughly 15 MB')  */
-"set_icon_vc_prompt_rescale_image_message_fmt2" = "This is a rather large image (%@x%@), would you like to rescale it to a maximum dimension of %@ pixels for a file size saving of roughly %@";
+"set_icon_vc_prompt_rescale_image_message_fmt2" = "Dit is een vrij grote afbeelding (%@x%@), wil je deze verkleinen naar een maximale afmeting van %@ pixels voor een bestandsgrootte van grofweg %@";
 
 /* Backup %@ (%@) - Translators Note: 1st Param is a number/integer, second parameter is the modified date, so e.g. 'Backup 4 (11 Nov 2020)'*/
-"backups_backup_title_fmt2" = "Backup %@ (%@)";
+"backups_backup_title_fmt2" = "Back-up %@ (%@)";
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 /* Strongbox has been downgraded from Pro.\n\nDon't worry, all your databases are still available, but some convenient features (e.g. %@) may no longer work.\n\nThis is probably because your trial or subscription has just ended.\n\nWe'd love if you could support us by upgrading to Pro.\n\nWould you like to do that now? */
 
-"upgrade_mgr_downgrade_message" = "Strongbox has been downgraded from Pro.\n\nDon't worry, all your databases are still available, but some convenient features (e.g. %@) will no longer work.\n\nThis is probably because your trial or subscription has just ended.\n\nWe'd love if you could support us by upgrading to Pro.\n\nWould you like to do that now?";
+"upgrade_mgr_downgrade_message" = "Strongbox is gedowngraded van Pro.\n\nGeen zorgen, al je databases zijn nog steeds beschikbaar, maar sommige handige functies (bijvoorbeeld %@) werken niet meer.\n\nDit komt waarschijnlijk omdat je proefperiode of abonnement zojuist is geëindigd.\n\nWe zouden het leuk vinden als je ons zou kunnen ondersteunen door te upgraden naar Pro.\n\nWil je dat nu doen?";
 
 /* Upgrade... (L10n: A verb, To Upgrade, followed by ellipsis) */
 "generic_upgrade_ellipsis" = "Upgrade...";
 
 /* Free Trial Ending Soon */
-"upgrade_onboarding_free_trial_ending_soon_title" = "Free Trial Ending Soon";
+"upgrade_onboarding_free_trial_ending_soon_title" = "Gratis proefperiode eindigt binnenkort";
 
 /* Your free trial of Strongbox Pro will end next week, and we wouldn't want you to lose any of the cool Pro features.\n\nWould you like to support Strongbox and take a look at some of the Upgrade options? */
-"upgrade_onboarding_free_trial_ending_soon_message" = "Your free trial of Strongbox Pro will end next week, and we wouldn't want you to lose any of the cool Pro features.\n\nWould you like to support Strongbox and take a look at some of the Upgrade options?";
+"upgrade_onboarding_free_trial_ending_soon_message" = "Je gratis proefperiode van Strongbox Pro zal volgende week eindigen, en we zouden niet willen dat je de coole Pro functies verliest.\n\nWil je Strongbox ondersteunen en een kijkje nemen naar enkele van de upgrade opties?";
 
 /* Strongbox could not find a QR Code in this image. */
-"could_not_find_qr_code" = "Strongbox could not find a QR Code in this image.";
+"could_not_find_qr_code" = "Strongbox kon geen QR-Code vinden in deze afbeelding.";
 
 /* Scan QR Code with Camera */
-"scan_qr_code_from_camera" = "Scan QR Code with Camera";
+"scan_qr_code_from_camera" = "QR-Code scannen met Camera";
 
 /* Would you like to sync before exporting to ensure you have the latest version of your database? */
-"sync_before_export_question_yes_no" = "Would you like to sync before exporting to ensure you have the latest version of your database?";
+"sync_before_export_question_yes_no" = "Wil je eerst synchroniseren voordat je exporteert om ervoor te zorgen dat je de laatste versie van je database hebt?";
 
 /* This database is already open. Please close it first if you would like to open it in a different mode. */
-"database_already_open_please_close" = "This database is already open. Please close it first if you would like to open it in a different mode.";
+"database_already_open_please_close" = "Deze database is al geopend. Sluit deze eerst af als u deze in een andere modus wilt openen.";
 
 /* Offline - L10n note: this is an adjective, meaning the current database has been opened in Offline mode */
 "database_offline_mode_window_suffix" = "Offline";
 
 /* Destination Database */
-"export_items_select_destination_database_title" = "Destination Database";
+"export_items_select_destination_database_title" = "Doeldatabase";
 
 /* Export Here */
-"export_items_select_destination_group_title" = "Export Here";
+"export_items_select_destination_group_title" = "Hier exporteren";
 
 /* Export Database */
 "generic_export_database" = "Exporteer database";
 
 /* Export Item */
-"generic_export_item" = "Export Item";
+"generic_export_item" = "Item exporteren";
 
 /* 1 item will be replaced in destination database '%@'. (L10n Note: 1st Param is the destination database name e.g. '1 item will be replaced in destination database 'Mark's Database'.') */
-"export_options_1_replaced_fmt" = "1 item will be replaced in destination database '%@'.";
+"export_options_1_replaced_fmt" = "1 item zal worden vervangen in de doeldatabase '%@'.";
 
 /* %@ items will be exported with 1 item being replaced in destination database '%@'. (L10n Note: 1st Param is the number of items that will be exported and 2nd param is the destination database name) */
-"export_options_n_items_1_replaced_fmt" = "%@ items will be exported with 1 item being replaced in destination database '%@'.";
+"export_options_n_items_1_replaced_fmt" = "%@ items zullen worden geëxporteerd waarbij 1 item wordt vervangen in de doeldatabase '%@'.";
 
 /* %@ items will be exported with %@ items being replaced in destination database '%@'. (L10n Note: 1st Param is the number of items that will be exported and 2nd param is the number of replacements. 3rd param is the destination database name */
-"export_options_n_items_n_replaced_fmt" = "%@ items will be exported with %@ items being replaced in destination database '%@'.";
+"export_options_n_items_n_replaced_fmt" = "%@ items zullen worden geëxporteerd waarbij %@ items worden vervangen in de doeldatabase '%@'.";
 
 /* 1 item will be added to destination database '%@'. (L10n Note: 1st Param is the destination database name */
-"export_options_1_added_fmt" = "1 item will be added to destination database '%@'.";
+"export_options_1_added_fmt" = "1 item zal worden toegevoegd aan doeldatabase '%@'.";
 
 /* %@ items will be added to destination database '%@'. (L10n Note: 1st Param is the number of items that will be exported and 2nd param is the destination database name */
-"export_options_n_added_fmt" = "%@ items will be added to destination database '%@'.";
+"export_options_n_added_fmt" = "%@ items zullen worden toegevoegd aan de doeldatabase '%@'.";
 
 /* Are you sure you want to replace the existing matching item(s) in the destination database? */
-"export_are_you_sure_replace" = "Are you sure you want to replace the existing matching item(s) in the destination database?";
+"export_are_you_sure_replace" = "Weet je zeker dat je de bestaande overeenkomende items in de doeldatabase wilt vervangen?";
 
 /* The 'Export Items' feature is part of the Pro feature set. Upgrade to enjoy! */
-"export_is_a_pro_feature_message" = "The 'Export Items' feature is part of the Pro feature set. Upgrade to enjoy!";
+"export_is_a_pro_feature_message" = "De functie 'Export Items' is een Pro-functie. Upgrade om er gebruik van te kunnen maken!";
 
 /* Your selected items have now be exported to the destination database. */
 "export_vc_export_items_successful_message" = "De geselecteerde items zijn nu geëxporteerd naar de doeldatabase.";
@@ -4664,115 +4664,115 @@
 "mac_hardware_key_dropdown_n_available_fmt" = "Geen (%@ beschikbaar)";
 
 /* None (No Keys Detected) - L10n Guide: This means no hardware key is selected and none have been detected */
-"mac_hardware_key_dropdown_none_no_keys_detected" = "None (No Keys Detected)";
+"mac_hardware_key_dropdown_none_no_keys_detected" = "Geen (geen sleutels gedetecteerd)";
 
 /* 🔴 Configured Key [CR Unavailable] - L10n Guide: A hardware key has been previously configured/setup by the user for this database but the Challenge Response functionality is not available, probably by error or user mistake */
-"mac_hardware_key_key_configured_but_cr_unavailable" = "🔴 Configured Key [CR Unavailable]";
+"mac_hardware_key_key_configured_but_cr_unavailable" = "🔴 Geconfigureerde sleutel [CR onbeschikbaar]";
 
 /* ⚠️ Disconnected Key (Configured) - L10n Guide: A hardware key has been previously configured/setup by the user for this database but it is not currently connected to the mac/iphone */
-"mac_hardware_key_key_configured_but_disconnected" = "⚠️ Disconnected Key (Configured)";
+"mac_hardware_key_key_configured_but_disconnected" = "⚠️ Niet verbonden Sleutel (Ingesteld)";
 
 /* Connected Key Slot %@ (Configured) - L10n Guide: A hardware key has been previously configured/setup by the user for this database and it is also connected. The 1st parameter is slot number the user has configured. It will be '1' or '2'.  */
-"mac_hardware_key_configured_and_connected_slot_n_fmt" = "Connected Key Slot %@ (Configured)";
+"mac_hardware_key_configured_and_connected_slot_n_fmt" = "Verbonden Sleutel Slot %@ (Geconfigureerd)";
 
 /* Connected Key Slot %@ - L10n Guide: A hardware key is connected. The 1st parameter is slot number that is available for use. It will be '1' or '2'.  */
-"mac_hardware_key_connected_slot_n_fmt" = "Connected Key Slot %@";
+"mac_hardware_key_connected_slot_n_fmt" = "Verbonden Sleutel Slot %@";
 
 /* ⚠️ Selected Key (Disconnected) - L10n Guide: The user previously selected a hardware key from the dropdown, but it has now been disconnected. */
-"mac_hardware_key_selected_but_has_been_disconnected" = "⚠️ Selected Key (Disconnected)";
+"mac_hardware_key_selected_but_has_been_disconnected" = "⚠️ Geselecteerde sleutel (niet verbonden)";
 
 /* AutoFill Issue */
-"autofill_argon2_onboarding_issue_title" = "AutoFill Issue";
+"autofill_argon2_onboarding_issue_title" = "AutoFill Probleem";
 
 /* Your database has a very high Argon2 memory setting that will cause it to crash when used in AutoFill mode.\n\nWould you like Strongbox to automatically adjust this so that you can safely use AutoFill? */
-"autofill_argon2_onboarding_issue_message" = "Your database has a very high Argon2 memory setting that will cause it to crash when used in AutoFill mode.\n\nWould you like Strongbox to automatically adjust this so that you can safely use AutoFill?";
+"autofill_argon2_onboarding_issue_message" = "Uw database heeft een zeer hoge Argon2 geheugeninstelling die ervoor zal zorgen dat deze crasht in de AutoFill modus.\n\nWil je dat Strongbox dit automatisch aanpast zodat je AutoFill veilig kunt gebruiken?";
 
 /* Yes, Great Idea! */
-"generic_yes_great_idea_bang" = "Yes, Great Idea!";
+"generic_yes_great_idea_bang" = "Ja, Goed idee!";
 
 /* No, I don't use AutoFill */
-"autofill_argon2_onboarding_no_use_autofill" = "No, I don't use AutoFill";
+"autofill_argon2_onboarding_no_use_autofill" = "Nee, ik gebruik AutoFill niet";
 
 /* Dont't Ask Again */
-"generic_dont_ask_again" = "Don't Ask Again";
+"generic_dont_ask_again" = "Vraag niet opnieuw";
 
 /* Not Right Now */
-"generic_not_right_now" = "Not Right Now";
+"generic_not_right_now" = "Niet op dit moment";
 
 /* Database Upgrade */
-"kdbx4_upgrade_onboarding_issue_title" = "Database Upgrade";
+"kdbx4_upgrade_onboarding_issue_title" = "Database-upgrade";
 
 /* Your database is using an old format (KDBX 3.1). The new format (KDBX 4.x) offers security improvements, performance enhancements and should also reduce the size of your database.\n\nWould you like Strongbox to automatically upgrade your database now? */
-"kdbx4_upgrade_onboarding_issue_message" = "Your database is using an old format (KDBX 3.1). The new format (KDBX 4.x) offers security improvements, performance enhancements and should also reduce the size of your database.\n\nWould you like Strongbox to automatically upgrade your database now?";
+"kdbx4_upgrade_onboarding_issue_message" = "Je database gebruikt een oud formaat (KDBX 3.1). Het nieuwe formaat (KDBX 4.) biedt beveiligingsverbeteringen, prestatieverbeteringen en zou ook de grootte van je database moeten verminderen.\n\nWil je dat Strongbox nu automatisch je database opwaardeert?";
 
 /* Import 1Password */
-"safes_vc_import_1password" = "Import 1Password";
+"safes_vc_import_1password" = "1Password importeren";
 
 /* Generic CSV... */
 "safes_vc_import_csv" = "Generieke CSV...";
 
 /* Strongbox can import 1Pif files from 1Password. Tap OK to select your exported 1Pif file. */
-"safes_vc_import_1password_message" = "Strongbox can import 1Pif files from 1Password. Tap OK to select your exported 1Pif file.";
+"safes_vc_import_1password_message" = "Strongbox kan 1Pif bestanden importeren uit 1Password. Tik op OK om je geëxporteerde 1Pif bestand te selecteren.";
 
 /* Read Only Unavailable */
-"read_only_unavailable_title" = "Read Only Unavailable";
+"read_only_unavailable_title" = "Alleen-lezen niet beschikbaar";
 
 /* You currently have changes pending and so you cannot switch to Read Only mode. You must save or discard your current changes first. */
-"read_only_unavailable_pending_changes_message" = "You currently have changes pending and so you cannot switch to Read Only mode. You must save or discard your current changes first.";
+"read_only_unavailable_pending_changes_message" = "Je hebt momenteel wijzigingen in behandeling en kunt dus niet overschakelen naar Alleen-Lezen modus. Je moet eerst de huidige wijzigingen opslaan of weggooien.";
 
 /* Your database is in Read Only mode and cannot be updated. */
-"warn_database_is_ro_no_update" = "Your database is in Read Only mode and cannot be updated.";
+"warn_database_is_ro_no_update" = "Je database is in 'Alleen-Lezen' modus en kan niet worden bijgewerkt.";
 
 /* Quitting - Finishing Sync... */
-"macos_quitting_finishing_sync" = "Quitting - Finishing Sync...";
+"macos_quitting_finishing_sync" = "Afsluiten - Synchronisatie wordt afgerond...";
 
 /* More */
-"safesvc_more_submenu" = "More";
+"safesvc_more_submenu" = "Meer";
 
 /* Please Enter a New Word Separator */
-"mac_password_gen_enter_new_separator" = "Please Enter a New Word Separator";
+"mac_password_gen_enter_new_separator" = "Voer een nieuw woord-scheidingsteken in";
 
 /* AutoFill is only available on macOS Big Sur+ */
-"autofill_app_preferences_only_avail_big_sur" = "AutoFill is only available on macOS Big Sur+";
+"autofill_app_preferences_only_avail_big_sur" = "AutoFill is alleen beschikbaar op macOS Big Sur+";
 
 /* ✅ Strongbox is enabled for Password AutoFill */
-"strongbox_is_enabled_for_autofill" = "✅ Strongbox is enabled for Password AutoFill";
+"strongbox_is_enabled_for_autofill" = "✅ Strongbox is ingeschakeld voor wachtwoord AutoFill";
 
 /* ⭐️ Wow ⭐️ */
-"tip_purchased_title" = "⭐️ Wow ⭐️";
+"tip_purchased_title" = "⭐ Wow ⭐";
 
 /* \n❤️ Thank you so much ❤️\n\nSending good vibes your way from everyone at Strongbox HQ! */
-"tip_purchased_message" = "\n❤️ Thank you so much ❤️\n\nSending good vibes your way from everyone at Strongbox HQ!";
+"tip_purchased_message" = "\n❤️ Heel hartelijk bedankt ❤️\n\nDe beste wensen van iedereen in Strongbox HQ!";
 
 /* There was an error adding this item as an Attachment */
-"edit_item_could_not_add_item_as_attachment" = "There was an error adding this item as an Attachment";
+"edit_item_could_not_add_item_as_attachment" = "Er is een fout opgetreden bij het toevoegen van dit item als bijlage";
 
 /* Invalid Attachment Name */
-"invalid_attachment_name" = "Invalid Attachment Name";
+"invalid_attachment_name" = "Ongeldige bijlage naam";
 
 /* The attachment name must not be empty */
-"attachment_name_must_not_be_empty" = "The attachment name must not be empty";
+"attachment_name_must_not_be_empty" = "De naam van de bijlage mag niet leeg zijn";
 
 /* That attachment name is already used */
-"attachment_name_already_exists" = "That attachment name is already in use by another attachment";
+"attachment_name_already_exists" = "Deze bijlagenaam is al in gebruik door een andere bijlage";
 
 /* Are you sure you want to delete the selected attachment(s)? */
-"are_you_sure_delete_attachment_s" = "Are you sure you want to delete the selected attachment(s)?";
+"are_you_sure_delete_attachment_s" = "Weet je zeker dat je de geselecteerde bijlagen wilt verwijderen?";
 
 /* Are you sure you want to delete the selected field(s)? */
-"are_you_sure_delete_custom_field_s" = "Are you sure you want to delete the selected field(s)?";
+"are_you_sure_delete_custom_field_s" = "Weet je zeker dat je de geselecteerde velden wilt verwijderen?";
 
 /* Found TOTP Code in '%@' Window - Localization Note: The parameter here is an App name like "Firefox" or "Safari" */
-"found_totp_code_in_x_window_fmt" = "Found TOTP Code in '%@' Window";
+"found_totp_code_in_x_window_fmt" = "TOTP-code gevonden in het '%@' venster";
 
 /* Randomly Generated */
-"menu_item_header_randomly_generated_suggestions" = "Randomly Generated";
+"menu_item_header_randomly_generated_suggestions" = "Random Gegenereerd";
 
 /* Most Used */
 "menu_item_header_most_used_suggestions" = "Meest gebruikt";
 
 /* Are you sure you want to clear the expiry for this entry? */
-"are_you_sure_clear_expiry" = "Are you sure you want to clear the expiry for this entry?";
+"are_you_sure_clear_expiry" = "Weet je zeker dat je de vervaldatum voor deze invoer wilt wissen?";
 
 /* paste-at-%@.png - L10n Note: The first parameter is a timestamp, so the string will look like: "paste-at-20220113_165952_523.png" */
 "pasted_image_attachment_at_time_filename_png_fmt" = "paste-at-%@.png";
@@ -4781,55 +4781,55 @@
 "side_bar_hierarchy_folder_structure" = "Hiërarchie";
 
 /* Discard Changes */
-"discard_changes" = "Discard Changes";
+"discard_changes" = "Wijzigingen ongedaan maken";
 
 /* Create Group */
 "create_group" = "Groep aanmaken";
 
 /* Edit Entry */
-"edit_entry" = "Edit Entry";
+"edit_entry" = "Item bewerken";
 
 /* Create Entry */
 "create_entry" = "Item maken";
 
 /* Tidy Up Field? */
-"field_tidy_title_tidy_up_field" = "Tidy Up Field?";
+"field_tidy_title_tidy_up_field" = "Veld netjes maken?";
 
 /* There are some blank characters (e.g. spaces, tabs) at the start or end of this field.\n\nShould Strongbox tidy up these extraneous characters? */
-"field_tidy_message_tidy_up_field" = "There are some blank characters (e.g. spaces, tabs) at the start or end of this field.\n\nShould Strongbox tidy up these extraneous characters?";
+"field_tidy_message_tidy_up_field" = "Er zijn enkele lege tekens (bijv. spaties, tabs) aan het begin of einde van dit veld.\n\nMoet Strongbox deze extra tekens opruimen?";
 
 /* Tidy Up */
-"field_tidy_choice_tidy_up_field" = "Tidy Up";
+"field_tidy_choice_tidy_up_field" = "Netjes maken";
 
 /* Don't Tidy */
-"field_tidy_choice_dont_tidy" = "Don't Tidy";
+"field_tidy_choice_dont_tidy" = "Niet netjes maken";
 
 /* Location - The location of an item, e.g. Location = /Group-1/Group-2/ */
-"generic_fieldname_location" = "Location";
+"generic_fieldname_location" = "Locatie";
 
 /* Extimated Size - This is memory/file size in bytes/KB/MB consumed by a particular entry e.g. Estimated Size= 64KB*/
-"generic_fieldname_estimated_size" = "Estimated Size";
+"generic_fieldname_estimated_size" = "Geschatte grootte";
 
 /* Historical Item Count - This is number of previous copies/older copies of this entry we have */
-"generic_fieldname_historical_item_count" = "Historical Item Count";
+"generic_fieldname_historical_item_count" = "Aantal historische items";
 
 /* Custom Icon */
-"generic_fieldname_custom_icon" = "Custom Icon";
+"generic_fieldname_custom_icon" = "Aangepast pictogram";
 
 /* ID - L10n Note: This is the unique id (identifier/uuid) of an item, usually a long string like 5E7CBED9D6D14AF38BB6FE4B9CF1CF64 */
 "generic_fieldname_id" = "ID";
 
 /* URLs - L10n Note: Plural of URL */
-"generic_fieldname_urls" = "URLs";
+"generic_fieldname_urls" = "URL's";
 
 /* Copy - L10n Note: This is a verb, to copy an item/string/field to the clipboard */
 "generic_action_verb_copy_to_clipboard" = "Kopiëren";
 
 /* Copy - L10n Note: This is a verb, to copy the field name (e.g. if there is a field: Custom-Field-1="value", then this would copy "Custom-Field-1" to the clipboard */
-"generic_action_verb_copy_field_name_to_clipboard" = "Copy Field Name";
+"generic_action_verb_copy_field_name_to_clipboard" = "Veldnaam kopiëren";
 
 /* Spell Out - L10n: To have Strongbox spell out through the speech synthesizer, character by character a field */
-"generic_action_verb_spell_out_field" = "Spell Out";
+"generic_action_verb_spell_out_field" = "Spreek uit";
 
 /* Speak - L10n: To have Strongbox speak a item field (e.g. password) through the speech synthesizer */
 "generic_action_verb_speak_field" = "Spreek";
@@ -5165,7 +5165,7 @@
 "nextgen_toolbar_settings_autofill_settings_ellipsis" = "AutoFill instellingen...";
 
 /* Encryption Settings... */
-"nextgen_toolbar_settings_encryption_settings_ellipsis" = "Versleuteling instellingen...";
+"nextgen_toolbar_settings_encryption_settings_ellipsis" = "Encryptie instellingen...";
 
 /* Change Master Credentials... */
 "nextgen_toolbar_settings_change_master_credentials_ellipsis" = "Wijzig hoofwachtwoord...";
