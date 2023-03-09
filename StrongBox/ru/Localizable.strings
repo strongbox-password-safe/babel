@@ -4016,8 +4016,8 @@
 /* Watch Unlock */
 "preference_allow_watch_unlock" = "Разблокировка Watch";
 
-/* Watch Unlock - (Enable in System Preferences > Security & Privacy) */
-"preference_allow_watch_unlock_system_disabled" = "Разблокировка Watch (Настройки - Безопасность и конфиденциальность)";
+/* Watch Unlock - (Enable in System Settings > Touch ID & Password) */
+"preference_allow_watch_unlock_system_disabled" = "Watch разблокировка - (Настройки системы > Touch ID и пароль)\n";
 
 /* No Cloud Session Found */
 "cloud_sessions_prompt_no_session_found" = "Сессий не найдено";
@@ -5343,3 +5343,33 @@
 
 /* Previous Passwords - A heading above a list of previously used passwords */
 "password_history_previous_passwords" = "Предыдущие пароли";
+
+/* Turn On Browser AutoFill? */
+"onboarding_autofill_title_turn_on" = "Автозаполнение в браузере";
+
+/* Turn On AutoFill */
+"onboarding_autofill_option_turn_on_autofill" = "Автозаполнение";
+
+/* No Thanks */
+"generic_no_thanks" = "Нет, спасибо";
+
+/* Browser AutoFill is available but currently not turned on. Would you like to enable Browser AutoFill so that you can conveniently and securely login from within your browser? */
+"onboarding_autofill_msg_available_turn_on_question" = "Автозаполнение в браузере в настоящее время не включено. Хотите включить?";
+
+/* On - L10n note - This is a state of affairs - A setting/configuration that is On */
+"generic_state_on" = "Вкл.";
+
+/* Off - L10n note - This is a state of affairs - A setting/configuration that Off */
+"generic_state_off" = "Выкл.";
+
+/* %d (%d Recursive) */
+"number_of_entries_or_groups_immediate_and_recursive_fmt" = "%d (%d рекурсивно)";
+
+/* Searchable */
+"group_properties_searchable" = "Поиск записей в этой группе";
+
+/* Inherited (%@) - L10n Note: The 1st parameter will be "Yes" or "No" indicating whether the actual inherited value of this item is effectively Yes/No flowing down from its parent value. */
+"item_properties_inherited_yes_no_fmt" = "Наследуемый (%@)";
+
+/* The Searchable setting affects whether this group and its contents are visible in search results, AutoFill suggestions and most views. This is useful if you'd like to archive/ignore some items, but not permanently delete them. */
+"group_properties_searchable_footer_info" = "Параметр \"Поиск\" влияет на видимость этой группы и её содержимого в результатах поиска, автозаполнении и большинстве просмотров. Это полезно, если Вы хотите архивировать или игнорировать некоторые элементы, но не удалять их навсегда.";
