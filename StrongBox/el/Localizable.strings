@@ -5415,3 +5415,6 @@
 
 /* *** WARNING ***\n\nThe SFTP host returned a different Fingerprint than expected.\n\nThis could be a man-in-the-middle attack, or it could be something you expect if your host configuration recently changed.\n\nShould Strongbox use this new Fingerprint and continue connecting to this host?\n\n%@ */
 "sftp_hostkey_fingerprint_has_changed_confirm_fmt" = "*** WARNING ***\n\nThe SFTP host returned a different Fingerprint than expected.\n\nThis could be a man-in-the-middle attack, or it could be something you expect if your host configuration recently changed.\n\nShould Strongbox use this new Fingerprint and continue connecting to this host?\n\n%@";
+
+/* SFTP Fingerprint */
+"sftp_hostkey_fingerprint_alert_title" = "SFTP Fingerprint";
