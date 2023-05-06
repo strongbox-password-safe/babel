@@ -5381,31 +5381,37 @@
 "browse_vc_action_empty_recycle_bin_are_you_sure" = "这将永久删除回收站中的所有项目。";
 
 /* Save & Close (⌘⏎) */
-"mac_create_or_edit_save_changes_and_close" = "Save & Close (⌘⏎)";
+"mac_create_or_edit_save_changes_and_close" = "保存并关闭(⌘⏎)";
 
 /* Save (⌘S) */
-"mac_create_or_edit_save_changes" = "Save (⌘S)";
+"mac_create_or_edit_save_changes" = "保存(⌘S)";
 
 /* Commit (⌘S) */
 "mac_create_or_edit_commit_changes" = "提交 (⌘S)";
 
 /* Hierarchy (%@ Groups, %@ Entries) - L10n Note - The two parameters are numeric, so for example: "23 Groups, 3456 Entries"*/
-"side_bar_hierarchy_folder_structure_summary_count_fmt" = "Hierarchy (%@ Groups, %@ Entries)";
+"side_bar_hierarchy_folder_structure_summary_count_fmt" = "层级结构（%@ 个群组，%@ 个条目）";
 
 /* Entries */
 "side_bar_child_count_format_entries" = "条目";
 
 /* Entries (Recursive) */
-"side_bar_child_count_format_entries_rec" = "Entries (Recursive)";
+"side_bar_child_count_format_entries_rec" = "条目（递归）";
 
 /* Groups and Entries */
-"side_bar_child_count_format_groups_and_entries" = "Groups and Entries";
+"side_bar_child_count_format_groups_and_entries" = "群组和条目";
 
 /* Groups and Entries (Recursive) */
-"side_bar_child_count_format_groups_and_entries_rec" = "Groups and Entries (Recursive)";
+"side_bar_child_count_format_groups_and_entries_rec" = "群组和条目（递归）";
 
 /* Items */
 "side_bar_child_count_format_items" = "项目";
 
 /* Items (Recursive) */
-"side_bar_child_count_format_items_rec" = "Items (Recursive)";
+"side_bar_child_count_format_items_rec" = "项目（递归）";
+
+/* The SFTP host returned the Fingerprint below.\n\nStrongbox will use this Fingerprint to verify it is commumicating with only this host.\n\nPlease confirm you are happy with this Fingerprint. You will be notified if it ever changes.\n\n%@ */
+"sftp_hostkey_fingerprint_first_use_confirm_fmt" = "The SFTP host returned the Fingerprint below.\n\nStrongbox will use this Fingerprint to verify it is commumicating with only this host.\n\nPlease confirm you are happy with this Fingerprint. You will be notified if it ever changes.\n\n%@";
+
+/* *** WARNING ***\n\nThe SFTP host returned a different Fingerprint than expected.\n\nThis could be a man-in-the-middle attack, or it could be something you expect if your host configuration recently changed.\n\nShould Strongbox use this new Fingerprint and continue connecting to this host?\n\n%@ */
+"sftp_hostkey_fingerprint_has_changed_confirm_fmt" = "*** WARNING ***\n\nThe SFTP host returned a different Fingerprint than expected.\n\nThis could be a man-in-the-middle attack, or it could be something you expect if your host configuration recently changed.\n\nShould Strongbox use this new Fingerprint and continue connecting to this host?\n\n%@";
