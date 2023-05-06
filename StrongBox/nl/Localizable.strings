@@ -312,7 +312,7 @@
 "browse_prefs_view_as" = "Toon als";
 
 /* Flat List */
-"browse_prefs_view_as_flat_list" = "Onderdelen";
+"browse_prefs_view_as_flat_list" = "Entries";
 
 /* Group Hierarchy */
 "browse_prefs_view_as_folders" = "Groepen";
@@ -5393,7 +5393,7 @@
 "side_bar_hierarchy_folder_structure_summary_count_fmt" = "Hierarchy (%@ Groups, %@ Entries)";
 
 /* Entries */
-"side_bar_child_count_format_entries" = "Onderdelen";
+"side_bar_child_count_format_entries" = "Entries";
 
 /* Entries (Recursive) */
 "side_bar_child_count_format_entries_rec" = "Entries (Recursive)";
@@ -5409,3 +5409,9 @@
 
 /* Items (Recursive) */
 "side_bar_child_count_format_items_rec" = "Items (Recursive)";
+
+/* The SFTP host returned the Fingerprint below.\n\nStrongbox will use this Fingerprint to verify it is commumicating with only this host.\n\nPlease confirm you are happy with this Fingerprint. You will be notified if it ever changes.\n\n%@ */
+"sftp_hostkey_fingerprint_first_use_confirm_fmt" = "The SFTP host returned the Fingerprint below.\n\nStrongbox will use this Fingerprint to verify it is commumicating with only this host.\n\nPlease confirm you are happy with this Fingerprint. You will be notified if it ever changes.\n\n%@";
+
+/* *** WARNING ***\n\nThe SFTP host returned a different Fingerprint than expected.\n\nThis could be a man-in-the-middle attack, or it could be something you expect if your host configuration recently changed.\n\nShould Strongbox use this new Fingerprint and continue connecting to this host?\n\n%@ */
+"sftp_hostkey_fingerprint_has_changed_confirm_fmt" = "*** WARNING ***\n\nThe SFTP host returned a different Fingerprint than expected.\n\nThis could be a man-in-the-middle attack, or it could be something you expect if your host configuration recently changed.\n\nShould Strongbox use this new Fingerprint and continue connecting to this host?\n\n%@";
