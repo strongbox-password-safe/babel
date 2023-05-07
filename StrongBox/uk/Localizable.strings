@@ -5381,43 +5381,52 @@
 "browse_vc_action_empty_recycle_bin_are_you_sure" = "Ця дія остаточно видалить усі записи, що містяться у смітнику.";
 
 /* Save & Close (⌘⏎) */
-"mac_create_or_edit_save_changes_and_close" = "Save & Close (⌘⏎)";
+"mac_create_or_edit_save_changes_and_close" = "Зберегти й закрити (⌘⏎)";
 
 /* Save (⌘S) */
-"mac_create_or_edit_save_changes" = "Save (⌘S)";
+"mac_create_or_edit_save_changes" = "Зберегти (⌘S)";
 
 /* Commit (⌘S) */
 "mac_create_or_edit_commit_changes" = "Зберегти (⌘S)";
 
 /* Hierarchy (%@ Groups, %@ Entries) - L10n Note - The two parameters are numeric, so for example: "23 Groups, 3456 Entries"*/
-"side_bar_hierarchy_folder_structure_summary_count_fmt" = "Hierarchy (%@ Groups, %@ Entries)";
+"side_bar_hierarchy_folder_structure_summary_count_fmt" = "Ієрархія (%@ груп, %@ записів)";
 
 /* Entries */
 "side_bar_child_count_format_entries" = "Записи";
 
 /* Entries (Recursive) */
-"side_bar_child_count_format_entries_rec" = "Entries (Recursive)";
+"side_bar_child_count_format_entries_rec" = "Записи (Рекурсивно)";
 
 /* Groups and Entries */
-"side_bar_child_count_format_groups_and_entries" = "Groups and Entries";
+"side_bar_child_count_format_groups_and_entries" = "Групи й записи";
 
 /* Groups and Entries (Recursive) */
-"side_bar_child_count_format_groups_and_entries_rec" = "Groups and Entries (Recursive)";
+"side_bar_child_count_format_groups_and_entries_rec" = "Групи й записи (Рекурсивно)";
 
 /* Items */
 "side_bar_child_count_format_items" = "Елементи";
 
 /* Items (Recursive) */
-"side_bar_child_count_format_items_rec" = "Items (Recursive)";
+"side_bar_child_count_format_items_rec" = "Елементи (Рекурсивно)";
 
 /* The SFTP host returned the Fingerprint below.\n\nStrongbox will use this Fingerprint to verify it is communicating with only this host.\n\nPlease confirm you are happy with this Fingerprint. You will be notified if it ever changes.\n\n%@ */
-"sftp_hostkey_fingerprint_first_use_confirm_fmt" = "The SFTP host returned the Fingerprint below.\n\nStrongbox will use this Fingerprint to verify it is communicating with only this host.\n\nPlease confirm you are happy with this Fingerprint. You will be notified if it ever changes.\n\n%@";
+"sftp_hostkey_fingerprint_first_use_confirm_fmt" = "Хост SFTP повернув наведений нижче цифровий відбиток.\n\nStrongbox використовуватиме цей відбиток, щоб пересвідчитися, що зв'язок відбувається саме з цим хостом.\n\nПідтвердьте цей цифровий відбиток. Якщо він зміниться, ви одразу отримаєте сповіщення.\n\n%@";
 
 /* *** WARNING ***\n\nThe SFTP host returned a different Fingerprint than expected.\n\nThis could be a man-in-the-middle attack, or it could be something you expect if your host configuration recently changed.\n\nShould Strongbox use this new Fingerprint and continue connecting to this host?\n\n%@ */
-"sftp_hostkey_fingerprint_has_changed_confirm_fmt" = "*** WARNING ***\n\nThe SFTP host returned a different Fingerprint than expected.\n\nThis could be a man-in-the-middle attack, or it could be something you expect if your host configuration recently changed.\n\nShould Strongbox use this new Fingerprint and continue connecting to this host?\n\n%@";
+"sftp_hostkey_fingerprint_has_changed_confirm_fmt" = "*** ПОПЕРЕДЖЕННЯ ***\n\nХост SFTP повернув інший цифровий відбиток, ніж очікувалось.\n\nЦе може бути атакою типу \"Людина посередині\", або ж наслідком нещодавніх змін конфігурації хосту.\n\nЧи повинен Strongbox використовувати цей новий відбиток для зв'язку з цим хостом?\n\n%@";
 
 /* SFTP Fingerprint */
-"sftp_hostkey_fingerprint_alert_title" = "SFTP Fingerprint";
+"sftp_hostkey_fingerprint_alert_title" = "Відбиток SFTP";
 
 /* Note: Enabling Easy-Read Font will have the effect of disabling the 'Markdown Notes' formatting feature. Is this OK? */
 "are_you_sure_message_easy_read_font_markdown_notes" = "Note: Enabling Easy-Read Font will have the effect of disabling the 'Markdown Notes' formatting feature. Is this OK?";
+
+/* 1 Match Found */
+"search_results_summary_1_match_found" = "1 Match Found";
+
+/* %@ Matches Found */
+"search_results_summary_n_match_found_fmt" = "%@ Matches Found";
+
+/* No Matches Found */
+"search_results_summary_no_matches_found" = "No Matches Found";
