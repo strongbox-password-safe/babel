@@ -2285,7 +2285,7 @@
 
 /* The CSV file must contain a header row with at least one of the following fields:\n\n[%@, %@, %@, %@, %@, %@]\n\nThe order of the fields doesn't matter. */
 
-"mac_csv_file_must_contain_header_and_fields" = "The CSV file must contain a header row with at least one of the following fields:\n\n[%@, %@, %@, %@, %@, %@, %@]\n\nThe order of the fields doesn't matter.";
+"mac_csv_file_must_contain_header_and_fields" = "Το αρχείο CSV πρέπει να περιέχει μια σειρά κεφαλίδας με τουλάχιστον ένα από τα ακόλουθα πεδία:\n\n[%@, %@, %@, %@, %@, %@, %@]\n\nΗ σειρά των πεδίων δεν έχει σημασία.";
 
 /* CSV Format */
 "mac_csv_format_info_title" = "Μορφή CSV";
@@ -4017,7 +4017,7 @@
 "preference_allow_watch_unlock" = "Ξεκλείδωσε με Watch";
 
 /* Watch Unlock - (Enable in System Settings > Touch ID & Password) */
-"preference_allow_watch_unlock_system_disabled" = "Watch Unlock - (Enable in System Settings > Touch ID & Password)";
+"preference_allow_watch_unlock_system_disabled" = "Ξεκλείδωμα Watch - (Ενεργοποιήστε στις Ρυθμίσεις Συστήματος > Touch ID & Κωδικός)";
 
 /* No Cloud Session Found */
 "cloud_sessions_prompt_no_session_found" = "Δεν Βρέθηκε Συνεδρία Σύννεφου";
@@ -4709,7 +4709,7 @@
 "safes_vc_import_1password" = "Εισαγωγή 1Password";
 
 /* Generic CSV... */
-"safes_vc_import_csv" = "Generic CSV...";
+"safes_vc_import_csv" = "Κοινό CSV...";
 
 /* Strongbox can import 1Pif files from 1Password. Tap OK to select your exported 1Pif file. */
 "safes_vc_import_1password_message" = "Το Strongbox μπορεί να εισάγει αρχεία 1Pif από το 1Password. Πατήστε OK για να επιλέξετε το αρχείο 1Pif που έχει εξαχθεί.";
@@ -5327,25 +5327,25 @@
 "safes_vc_import_icloud" = "iCloud Keychain (CSV)";
 
 /* Disabling Auto-Commit could mean you lose this TOTP if you forget to commit later, are you sure? */
-"are_you_sure_auto_commit_totp_msg" = "Disabling Auto-Commit could mean you lose this TOTP if you forget to commit later. Are you sure?";
+"are_you_sure_auto_commit_totp_msg" = "Απενεργοποιώντας την Αυτόματη Καταχώρηση μπορεί να χαθεί αυτό το TOTP αν ξεχάσετε να το καταχωρήσετε αργότερα. Είστε σίγουροι;";
 
 /* Close - A generic verb - to Close a popup or dialog */
 "generic_verb_close" = "Κλείσιμο";
 
 /* Discard - A verb - to discard any pending changes that might have been made */
-"generic_verb_discard" = "Discard";
+"generic_verb_discard" = "Απόρριψη";
 
 /* Start Typing to Begin Search */
-"browse_vc_view_start_typing_to_search" = "Start Typing to Begin Search";
+"browse_vc_view_start_typing_to_search" = "Πληκτρολογήστε για αναζήτηση";
 
 /* Used until %@ - Header above a previously used password. The 1st parameter is a friend date string, e.g. 'Used until 2 February 2023 at 10:31' */
-"password_history_this_password_was_used_until_fmt" = "Used until %@";
+"password_history_this_password_was_used_until_fmt" = "Χρησιμοποιήθηκε μέχρι %@";
 
 /* Previous Passwords - A heading above a list of previously used passwords */
 "password_history_previous_passwords" = "Προηγούμενοι Κωδικοί Πρόσβασης";
 
 /* Turn On Browser AutoFill? */
-"onboarding_autofill_title_turn_on" = "Turn On Browser AutoFill?";
+"onboarding_autofill_title_turn_on" = "Ενεργοποίηση Αυτόματης Συμπλήρωσης Περιηγητή;";
 
 /* Turn On AutoFill */
 "onboarding_autofill_option_turn_on_autofill" = "Ενεργοποίηση Αυτόματης Συμπλήρωσης";
@@ -5354,28 +5354,79 @@
 "generic_no_thanks" = "Όχι Ευχαριστώ";
 
 /* Browser AutoFill is available but currently not turned on. Would you like to enable Browser AutoFill so that you can conveniently and securely login from within your browser? */
-"onboarding_autofill_msg_available_turn_on_question" = "Browser AutoFill is available but currently not turned on. Would you like to enable Browser AutoFill so that you can conveniently and securely login from within your browser?";
+"onboarding_autofill_msg_available_turn_on_question" = "Η Αυτόματη Συμπλήρωση του προγράμματος περιήγησης είναι διαθέσιμη, αλλά προς το παρόν δεν είναι ενεργοποιημένη. Θα θέλατε να ενεργοποιήσετε την Αυτόματη Συμπλήρωση έτσι ώστε να μπορείτε εύκολα και με ασφάλεια να συνδεθείτε από το πρόγραμμα περιήγησής σας;";
 
 /* On - L10n note - This is a state of affairs - A setting/configuration that is On */
-"generic_state_on" = "On";
+"generic_state_on" = "Ενεργό";
 
 /* Off - L10n note - This is a state of affairs - A setting/configuration that Off */
-"generic_state_off" = "Off";
+"generic_state_off" = "Ανενεργό";
 
 /* %d (%d Recursive) */
-"number_of_entries_or_groups_immediate_and_recursive_fmt" = "%d (%d Recursive)";
+"number_of_entries_or_groups_immediate_and_recursive_fmt" = "%d (%d Αναδρομικά)";
 
 /* Searchable */
-"group_properties_searchable" = "Searchable";
+"group_properties_searchable" = "Αναζητήσιμο";
 
 /* Inherited (%@) - L10n Note: The 1st parameter will be "Yes" or "No" indicating whether the actual inherited value of this item is effectively Yes/No flowing down from its parent value. */
-"item_properties_inherited_yes_no_fmt" = "Inherited (%@)";
+"item_properties_inherited_yes_no_fmt" = "Κληρονομούμενα (%@)";
 
 /* The Searchable setting affects whether this group and its contents are visible in search results, AutoFill suggestions and most views. This is useful if you'd like to archive/ignore some items, but not permanently delete them. */
-"group_properties_searchable_footer_info" = "The Searchable setting affects whether this group and its contents are visible in search results, AutoFill suggestions and most views. This is useful if you'd like to archive or ignore some items, but not permanently delete them.";
+"group_properties_searchable_footer_info" = "Η ρύθμιση με δυνατότητα αναζήτησης επηρεάζει το αν αυτή η ομάδα και τα περιεχόμενά της είναι ορατά στα αποτελέσματα αναζήτησης, τις προτάσεις αυτόματης συμπλήρωσης και τις περισσότερες προβολές. Αυτό είναι χρήσιμο αν θέλετε να αρχειοθετήσετε ή να αγνοήσετε κάποια στοιχεία χωρίς να τα διαγράψετε μόνιμα.";
 
 /* Empty Recycle Bin */
-"browse_vc_action_empty_recycle_bin" = "Empty Recycle Bin";
+"browse_vc_action_empty_recycle_bin" = "Άδειασμα Κάδου Ανακύκλωσης";
 
 /* This will permanently delete all items contained within the Recycle Bin */
-"browse_vc_action_empty_recycle_bin_are_you_sure" = "This will permanently delete all items contained within the Recycle Bin.";
+"browse_vc_action_empty_recycle_bin_are_you_sure" = "Αυτό θα διαγράψει μόνιμα όλα τα στοιχεία που περιέχονται στον κάδο ανακύκλωσης.";
+
+/* Save & Close (⌘⏎) */
+"mac_create_or_edit_save_changes_and_close" = "Αποθήκευση & Κλείσιμο (⌘⏎)";
+
+/* Save (⌘S) */
+"mac_create_or_edit_save_changes" = "Αποθήκευση (⌘S)";
+
+/* Commit (⌘S) */
+"mac_create_or_edit_commit_changes" = "Αποθήκευση (⌘S)";
+
+/* Hierarchy (%@ Groups, %@ Entries) - L10n Note - The two parameters are numeric, so for example: "23 Groups, 3456 Entries"*/
+"side_bar_hierarchy_folder_structure_summary_count_fmt" = "Ιεραρχία (%@ Ομάδες, %@ Καταχωρήσεις)";
+
+/* Entries */
+"side_bar_child_count_format_entries" = "Καταχωρήσεις";
+
+/* Entries (Recursive) */
+"side_bar_child_count_format_entries_rec" = "Entries (Recursive)";
+
+/* Groups and Entries */
+"side_bar_child_count_format_groups_and_entries" = "Groups and Entries";
+
+/* Groups and Entries (Recursive) */
+"side_bar_child_count_format_groups_and_entries_rec" = "Groups and Entries (Recursive)";
+
+/* Items */
+"side_bar_child_count_format_items" = "Στοιχεία";
+
+/* Items (Recursive) */
+"side_bar_child_count_format_items_rec" = "Items (Recursive)";
+
+/* The SFTP host returned the Fingerprint below.\n\nStrongbox will use this Fingerprint to verify it is communicating with only this host.\n\nPlease confirm you are happy with this Fingerprint. You will be notified if it ever changes.\n\n%@ */
+"sftp_hostkey_fingerprint_first_use_confirm_fmt" = "The SFTP host returned the Fingerprint below.\n\nStrongbox will use this Fingerprint to verify it is communicating with only this host.\n\nPlease confirm you are happy with this Fingerprint. You will be notified if it ever changes.\n\n%@";
+
+/* *** WARNING ***\n\nThe SFTP host returned a different Fingerprint than expected.\n\nThis could be a man-in-the-middle attack, or it could be something you expect if your host configuration recently changed.\n\nShould Strongbox use this new Fingerprint and continue connecting to this host?\n\n%@ */
+"sftp_hostkey_fingerprint_has_changed_confirm_fmt" = "*** WARNING ***\n\nThe SFTP host returned a different Fingerprint than expected.\n\nThis could be a man-in-the-middle attack, or it could be something you expect if your host configuration recently changed.\n\nShould Strongbox use this new Fingerprint and continue connecting to this host?\n\n%@";
+
+/* SFTP Fingerprint */
+"sftp_hostkey_fingerprint_alert_title" = "SFTP Fingerprint";
+
+/* Note: Enabling Easy-Read Font will have the effect of disabling the 'Markdown Notes' formatting feature. Is this OK? */
+"are_you_sure_message_easy_read_font_markdown_notes" = "Note: Enabling Easy-Read Font will have the effect of disabling the 'Markdown Notes' formatting feature. Is this OK?";
+
+/* 1 Match Found */
+"search_results_summary_1_match_found" = "1 Match Found";
+
+/* %@ Matches Found */
+"search_results_summary_n_match_found_fmt" = "%@ Matches Found";
+
+/* No Matches Found */
+"search_results_summary_no_matches_found" = "No Matches Found";

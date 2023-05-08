@@ -4592,7 +4592,7 @@
 "merge_result_databases_identical_sync_initiated" = "Unione OK. Toccare Fatto per continuare.";
 
 /* Expired Entries (%@)  - L10n note - 1st paramter is the number of entries, e.g. Expired Entries (2) */
-"quick_view_title_expired_entries_title_fmt" = "Elementi (%@) Scaduti";
+"quick_view_title_expired_entries_title_fmt" = "Voci (%@) Scadute";
 
 /* View all expired entries */
 "quick_view_title_expired_entries_subtitle" = "Visualizzare tutte le voci scadute";
@@ -5379,3 +5379,54 @@
 
 /* This will permanently delete all items contained within the Recycle Bin */
 "browse_vc_action_empty_recycle_bin_are_you_sure" = "Questo eliminerà definitivamente tutti gli elementi contenuti nel Cestino.";
+
+/* Save & Close (⌘⏎) */
+"mac_create_or_edit_save_changes_and_close" = "Salvare & Chiudere (⌘⏎)";
+
+/* Save (⌘S) */
+"mac_create_or_edit_save_changes" = "Salvare (⌘S)";
+
+/* Commit (⌘S) */
+"mac_create_or_edit_commit_changes" = "Salvare (⌘S)";
+
+/* Hierarchy (%@ Groups, %@ Entries) - L10n Note - The two parameters are numeric, so for example: "23 Groups, 3456 Entries"*/
+"side_bar_hierarchy_folder_structure_summary_count_fmt" = "Gerarchia (%@ Gruppi, %@ Voci)";
+
+/* Entries */
+"side_bar_child_count_format_entries" = "Voci";
+
+/* Entries (Recursive) */
+"side_bar_child_count_format_entries_rec" = "Voci (Ricorsivo)";
+
+/* Groups and Entries */
+"side_bar_child_count_format_groups_and_entries" = "Gruppi e Voci";
+
+/* Groups and Entries (Recursive) */
+"side_bar_child_count_format_groups_and_entries_rec" = "Gruppi e Voci (Ricorsivo)";
+
+/* Items */
+"side_bar_child_count_format_items" = "Elementi";
+
+/* Items (Recursive) */
+"side_bar_child_count_format_items_rec" = "Elementi (Ricorsivo)";
+
+/* The SFTP host returned the Fingerprint below.\n\nStrongbox will use this Fingerprint to verify it is communicating with only this host.\n\nPlease confirm you are happy with this Fingerprint. You will be notified if it ever changes.\n\n%@ */
+"sftp_hostkey_fingerprint_first_use_confirm_fmt" = "Il sistema SFTP ha restituito la seguente Impronta Digitale.\n\nStrongbox userà questa Impronta Digitale per verificare che stia comunicando con solo questo sistema.\n\nSi prega di confermare che si è soddisfatti di questa Impronta Digitale. Un avviso sarà prodotto se dovesse cambiare.\n\n%@";
+
+/* *** WARNING ***\n\nThe SFTP host returned a different Fingerprint than expected.\n\nThis could be a man-in-the-middle attack, or it could be something you expect if your host configuration recently changed.\n\nShould Strongbox use this new Fingerprint and continue connecting to this host?\n\n%@ */
+"sftp_hostkey_fingerprint_has_changed_confirm_fmt" = "*** ATTENZIONE***\n\nIl sistema SFTP ha restituito un'Impronta Digitale diversa da quella prevista.\n\nPotrebbe trattarsi di attacco \"man-in-the-middle\" o potrebbe essere normale se la configurazione del sistema è cambiata di recente.\n\nSi ritiene che Strongbox debba usare questa nuova Impronta Digitale e continuare la connessione a questo sistema?\n\n%@";
+
+/* SFTP Fingerprint */
+"sftp_hostkey_fingerprint_alert_title" = "Impronta Digitale SFTP";
+
+/* Note: Enabling Easy-Read Font will have the effect of disabling the 'Markdown Notes' formatting feature. Is this OK? */
+"are_you_sure_message_easy_read_font_markdown_notes" = "Nota: Abilitare i carattere Facile da Leggere avrà l'effetto di disabilitare la funzione di formattazione delle Note Markdown. È OK?";
+
+/* 1 Match Found */
+"search_results_summary_1_match_found" = "1 Corrispondenza Trovata";
+
+/* %@ Matches Found */
+"search_results_summary_n_match_found_fmt" = "Trovate %@ Corrispondenze";
+
+/* No Matches Found */
+"search_results_summary_no_matches_found" = "Nessuna Corrispondenza Trovata";

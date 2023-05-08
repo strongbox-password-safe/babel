@@ -267,7 +267,7 @@
 "browse_prefs_double_tap_action" = "Дія подвійного дотику";
 
 /* Item Subtitle */
-"browse_prefs_item_subtitle" = "Підзаголовок запису";
+"browse_prefs_item_subtitle" = "Підзаголовок елемента";
 
 /* Long Press Action */
 "browse_prefs_long_press_action" = "Дія тривалого дотику";
@@ -303,7 +303,7 @@
 "browse_prefs_tap_action_none" = "Без дій";
 
 /* View Item */
-"browse_prefs_tap_action_view_item" = "Переглянути запис";
+"browse_prefs_tap_action_view_item" = "Переглянути елемент";
 
 /* Triple Tap Action */
 "browse_prefs_triple_tap_action" = "Дія потрійного дотику";
@@ -384,10 +384,10 @@
 "browse_vc_password_copied_fmt" = "'%@' Пароль скопійовано";
 
 /* Rename Item */
-"browse_vc_rename_item" = "Перейменувати запис";
+"browse_vc_rename_item" = "Перейменувати елемент";
 
 /* Please enter a new title for this item */
-"browse_vc_rename_item_enter_title" = "Введіть нову назву для цього запису";
+"browse_vc_rename_item_enter_title" = "Введіть нову назву для цього елемента";
 
 /* All Fields */
 "browse_vc_search_scope_all" = "Усе";
@@ -1331,7 +1331,7 @@
 "select_item_vc_title_select_one" = "Оберіть";
 
 /* You must select at least one item */
-"select_item_vc_message_select_one" = "Ви повинні обрати принаймні один елемент";
+"select_item_vc_message_select_one" = "Потрібно вибрати принаймні один елемент";
 
 /* Custom Default */
 "entry_defaults_vc_prompt_custom_title" = "Використовувати типово";
@@ -2275,10 +2275,10 @@
 "mac_are_you_sure_delete_multiple_yes_no_fmt" = "Ви впевнені, що хочете видалити %lu елементів?";
 
 /* Delete Items */
-"mac_menu_item_delete_items" = "Видалити";
+"mac_menu_item_delete_items" = "Видалити елементи";
 
 /* Delete Item */
-"mac_menu_item_delete_item" = "Видалити запис";
+"mac_menu_item_delete_item" = "Видалити елемент";
 
 /* Choose CSV file to Import */
 "mac_choose_csv_file_import" = "Оберіть CSV файл для імпорту";
@@ -2385,7 +2385,7 @@
 "mac_undo_action_url_change" = "Зміна URL";
 
 /* Move Item */
-"mac_undo_action_move_item" = "Перемістити запис";
+"mac_undo_action_move_item" = "Перемістити елемент";
 
 /* Move Items */
 "mac_undo_action_move_items" = "Перемістити елементи";
@@ -5379,3 +5379,54 @@
 
 /* This will permanently delete all items contained within the Recycle Bin */
 "browse_vc_action_empty_recycle_bin_are_you_sure" = "Ця дія остаточно видалить усі записи, що містяться у смітнику.";
+
+/* Save & Close (⌘⏎) */
+"mac_create_or_edit_save_changes_and_close" = "Зберегти й закрити (⌘⏎)";
+
+/* Save (⌘S) */
+"mac_create_or_edit_save_changes" = "Зберегти (⌘S)";
+
+/* Commit (⌘S) */
+"mac_create_or_edit_commit_changes" = "Зберегти (⌘S)";
+
+/* Hierarchy (%@ Groups, %@ Entries) - L10n Note - The two parameters are numeric, so for example: "23 Groups, 3456 Entries"*/
+"side_bar_hierarchy_folder_structure_summary_count_fmt" = "Ієрархія (%@ груп, %@ записів)";
+
+/* Entries */
+"side_bar_child_count_format_entries" = "Записи";
+
+/* Entries (Recursive) */
+"side_bar_child_count_format_entries_rec" = "Записи (Рекурсивно)";
+
+/* Groups and Entries */
+"side_bar_child_count_format_groups_and_entries" = "Групи й записи";
+
+/* Groups and Entries (Recursive) */
+"side_bar_child_count_format_groups_and_entries_rec" = "Групи й записи (Рекурсивно)";
+
+/* Items */
+"side_bar_child_count_format_items" = "Елементи";
+
+/* Items (Recursive) */
+"side_bar_child_count_format_items_rec" = "Елементи (Рекурсивно)";
+
+/* The SFTP host returned the Fingerprint below.\n\nStrongbox will use this Fingerprint to verify it is communicating with only this host.\n\nPlease confirm you are happy with this Fingerprint. You will be notified if it ever changes.\n\n%@ */
+"sftp_hostkey_fingerprint_first_use_confirm_fmt" = "Хост SFTP повернув наведений нижче цифровий відбиток.\n\nStrongbox використовуватиме цей відбиток, щоб пересвідчитися, що зв'язок відбувається саме з цим хостом.\n\nПідтвердьте цей цифровий відбиток. Якщо він зміниться, ви одразу отримаєте сповіщення.\n\n%@";
+
+/* *** WARNING ***\n\nThe SFTP host returned a different Fingerprint than expected.\n\nThis could be a man-in-the-middle attack, or it could be something you expect if your host configuration recently changed.\n\nShould Strongbox use this new Fingerprint and continue connecting to this host?\n\n%@ */
+"sftp_hostkey_fingerprint_has_changed_confirm_fmt" = "*** ПОПЕРЕДЖЕННЯ ***\n\nХост SFTP повернув інший цифровий відбиток, ніж очікувалось.\n\nЦе може бути атакою типу \"Людина посередині\", або ж наслідком нещодавніх змін конфігурації хосту.\n\nЧи повинен Strongbox використовувати цей новий відбиток для зв'язку з цим хостом?\n\n%@";
+
+/* SFTP Fingerprint */
+"sftp_hostkey_fingerprint_alert_title" = "Відбиток SFTP";
+
+/* Note: Enabling Easy-Read Font will have the effect of disabling the 'Markdown Notes' formatting feature. Is this OK? */
+"are_you_sure_message_easy_read_font_markdown_notes" = "Примітка: Увімкнення легкого для читання шрифту вплине на функцію форматованих нотаток. Ви згодні?";
+
+/* 1 Match Found */
+"search_results_summary_1_match_found" = "Знайдено 1 збіг";
+
+/* %@ Matches Found */
+"search_results_summary_n_match_found_fmt" = "Знайдені збіги: %@";
+
+/* No Matches Found */
+"search_results_summary_no_matches_found" = "Збігів не знайдено";
