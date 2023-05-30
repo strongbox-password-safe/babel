@@ -1652,17 +1652,17 @@
 /* Swedish */
 "pwgen_wordlist_swedish" = "Schwedisch";
 
-/* Game of Thrones (EFF Fandom) */
-"pwgen_wordlist_gameofthrones" = "Game of Thrones (EFF Fangemeinde)";
+/* Game of Thrones */
+"pwgen_wordlist_gameofthrones" = "Game of Thrones";
 
-/* Harry Potter (EFF Fandom) */
-"pwgen_wordlist_harrypotter" = "Harry Potter (EFF Fangemeinde)";
+/* Harry Potter */
+"pwgen_wordlist_harrypotter" = "Harry Potter";
 
-/* Star Trek (EFF Fandom) */
-"pwgen_wordlist_star_trek" = "Star Trek (EFF Fangemeinde)";
+/* Star Trek */
+"pwgen_wordlist_star_trek" = "Star Trek";
 
-/* Star Wars (EFF Fandom) */
-"pwgen_wordlist_starwars" = "Star Wars (EFF Fangemeinde)";
+/* Star Wars */
+"pwgen_wordlist_starwars" = "Star Wars";
 
 /* Do Not Change */
 "pwgen_casing_do_not_change" = "Nicht ändern";
@@ -5381,55 +5381,123 @@
 "browse_vc_action_empty_recycle_bin_are_you_sure" = "Dadurch werden alle im Papierkorb enthaltenen Elemente unwiderruflich gelöscht.";
 
 /* Save & Close (⌘⏎) */
-"mac_create_or_edit_save_changes_and_close" = "Save & Close (⌘⏎)";
+"mac_create_or_edit_save_changes_and_close" = "Speichern und Schließen (⌘⏎)";
 
 /* Save (⌘S) */
-"mac_create_or_edit_save_changes" = "Save (⌘S)";
+"mac_create_or_edit_save_changes" = "Speichern (⌘S)";
 
 /* Commit (⌘S) */
 "mac_create_or_edit_commit_changes" = "Speichern (⌘S)";
 
 /* Hierarchy (%@ Groups, %@ Entries) - L10n Note - The two parameters are numeric, so for example: "23 Groups, 3456 Entries"*/
-"side_bar_hierarchy_folder_structure_summary_count_fmt" = "Hierarchy (%@ Groups, %@ Entries)";
+"side_bar_hierarchy_folder_structure_summary_count_fmt" = "Baumstruktur (%@ Gruppen, %@ Einträge)";
 
 /* Entries */
 "side_bar_child_count_format_entries" = "Einträge";
 
 /* Entries (Recursive) */
-"side_bar_child_count_format_entries_rec" = "Entries (Recursive)";
+"side_bar_child_count_format_entries_rec" = "Einträge (Rekursiv)";
 
 /* Groups and Entries */
-"side_bar_child_count_format_groups_and_entries" = "Groups and Entries";
+"side_bar_child_count_format_groups_and_entries" = "Gruppen und Einträge";
 
 /* Groups and Entries (Recursive) */
-"side_bar_child_count_format_groups_and_entries_rec" = "Groups and Entries (Recursive)";
+"side_bar_child_count_format_groups_and_entries_rec" = "Gruppen und Einträge (rekursiv)";
 
 /* Items */
 "side_bar_child_count_format_items" = "Artikel";
 
 /* Items (Recursive) */
-"side_bar_child_count_format_items_rec" = "Items (Recursive)";
+"side_bar_child_count_format_items_rec" = "Elemente (Rekursiv)";
 
 /* The SFTP host returned the Fingerprint below.\n\nStrongbox will use this Fingerprint to verify it is communicating with only this host.\n\nPlease confirm you are happy with this Fingerprint. You will be notified if it ever changes.\n\n%@ */
-"sftp_hostkey_fingerprint_first_use_confirm_fmt" = "The SFTP host returned the Fingerprint below.\n\nStrongbox will use this Fingerprint to verify it is communicating with only this host.\n\nPlease confirm you are happy with this Fingerprint. You will be notified if it ever changes.\n\n%@";
+"sftp_hostkey_fingerprint_first_use_confirm_fmt" = "Der SFTP-Host hat den unten stehenden Fingerabdruck zurückgegeben.\n\nStrongbox verwendet diesen Fingerabdruck, um zu überprüfen, dass er nur mit diesem Host kommuniziert.\n\nBitte bestätigen Sie, dass Sie mit diesem Fingerabdruck einverstanden sind. Sie werden benachrichtigt, wenn er sich ändert.\n\n%@";
 
 /* *** WARNING ***\n\nThe SFTP host returned a different Fingerprint than expected.\n\nThis could be a man-in-the-middle attack, or it could be something you expect if your host configuration recently changed.\n\nShould Strongbox use this new Fingerprint and continue connecting to this host?\n\n%@ */
-"sftp_hostkey_fingerprint_has_changed_confirm_fmt" = "*** WARNING ***\n\nThe SFTP host returned a different Fingerprint than expected.\n\nThis could be a man-in-the-middle attack, or it could be something you expect if your host configuration recently changed.\n\nShould Strongbox use this new Fingerprint and continue connecting to this host?\n\n%@";
+"sftp_hostkey_fingerprint_has_changed_confirm_fmt" = "*** WARNHINWEIS ***\n\nDer SFTP-Host hat einen anderen Fingerabdruck als erwartet zurückgegeben.\n\nEs könnte sich um einen Man-in-the-Middle-Angriff handeln, oder es könnte etwas sein, das Sie erwarten, wenn sich Ihre Hostkonfiguration kürzlich geändert hat.\n\nSoll Strongbox diesen neuen Fingerabdruck verwenden und die Verbindung zu diesem Host fortsetzen?\n\n%@";
 
 /* SFTP Fingerprint */
-"sftp_hostkey_fingerprint_alert_title" = "SFTP Fingerprint";
+"sftp_hostkey_fingerprint_alert_title" = "SFTP-Fingerabdruck";
 
 /* Note: Enabling Easy-Read Font will have the effect of disabling the 'Markdown Notes' formatting feature. Is this OK? */
-"are_you_sure_message_easy_read_font_markdown_notes" = "Note: Enabling Easy-Read Font will have the effect of disabling the 'Markdown Notes' formatting feature. Is this OK?";
+"are_you_sure_message_easy_read_font_markdown_notes" = "Hinweis: Die Aktivierung der leicht lesbaren Schriftart hat zur Folge, dass die Formatierungsfunktion „Markdown-Anmerkungen” deaktiviert wird. Ist das in Ordnung?";
 
 /* 1 Match Found */
-"search_results_summary_1_match_found" = "1 Match Found";
+"search_results_summary_1_match_found" = "1 Übereinstimmung gefunden";
 
 /* %@ Matches Found */
-"search_results_summary_n_match_found_fmt" = "%@ Matches Found";
+"search_results_summary_n_match_found_fmt" = "%@ Übereinstimmungen gefunden";
 
 /* No Matches Found */
-"search_results_summary_no_matches_found" = "No Matches Found";
+"search_results_summary_no_matches_found" = "Keine Übereinstimmungen gefunden";
 
 /* Orchard Street (Medium) */
 "pwgen_wordlist_orchard_st" = "Orchard Street (Medium)";
+
+/* SSH Keys */
+"sidebar_quick_view_keeagent_ssh_keys_title" = "SSH Keys";
+
+/* Passphrase Protected */
+"ssh_agent_passphrase_protected" = "Passphrase Protected";
+
+/* Passphrase Protected (Entry Password Incorrect) */
+"ssh_agent_passphrase_protected_incorrect" = "Passphrase Protected (Entry Password Incorrect)";
+
+/* Enabled for SSH Agent - L10n Note: An SSH Key is enabled for the Strongbox SSH Agent */
+"ssh_agent_key_enabled_for_agent" = "Enabled for SSH Agent";
+
+/* Disabled for SSH Agent - L10n Note: An SSH Key is not enabled for the Strongbox SSH Agent*/
+"ssh_agent_disabled_for_agent" = "Disabled for SSH Agent";
+
+/* SSH Key */
+"ssh_agent_ssh_key" = "SSH Key";
+
+/* Export... */
+"generic_export_ellipsis" = "Exportieren ...";
+
+/* Public Key */
+"generic_public_key" = "Public Key";
+
+/* Private Key */
+"generic_private_key" = "Privater Schlüssel";
+
+/* Fingerprint - L10n Note: An SSH Key Fingerprint */
+"ssh_agent_key_fingerprint" = "Fingerprint";
+
+/* Enter a passphrase to protect the exported SSH Key file */
+"ssh_agent_enter_passphrase_for_export" = "Enter a passphrase to protect the exported SSH Key file";
+
+/* Could not read this file. Are you sure it is a valid OpenSSH Private Key file? */
+"ssh_agent_could_not_read_sshkey_file" = "Could not read this file. Are you sure it is a valid OpenSSH Private Key file?";
+
+/* That SSH Key passphrase was incorrect. Please try again. */
+"ssh_agent_ssh_key_passphrase_incorrect_try_again" = "That SSH Key passphrase was incorrect. Please try again.";
+
+/* Overwrite Password?" */
+"ssh_agent_overwrite_password" = "Overwrite Password?";
+
+/* This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt. Strongbox will then set the password of this entry to match. */
+"ssh_agent_sshkey_please_enter_passphrase_msg" = "This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt. Strongbox will then set the password of this entry to match.";
+
+/* The passphrase does not match the existing password. Strongbox needs the password to match the passphrase to use this SSH Key properly.\n\nContinue to overwrite the current password? */
+"ssh_agent_passphrase_password_mismatch" = "The passphrase does not match the existing password. Strongbox needs the password to match the passphrase to use this SSH Key properly.\n\nContinue to overwrite the current password?";
+
+/* Are you sure you want to remove this SSH Key? */
+"ssh_agent_ays_remove_key" = "Are you sure you want to remove this SSH Key?";
+
+/* Inccorect SSH Key Passphrase */
+"ssh_agent_incorrect_sshkey_passphrase" = "Inccorect SSH Key Passphrase";
+
+/* The SSH Key is passphrase protected but the password for this entry is not the correct passphrase.\n\nDo you want to continue saving? */
+"ssh_agent_validation_passphrase_password_mismatch" = "The SSH Key is passphrase protected but the password for this entry is not the correct passphrase.\n\nDo you want to continue saving?";
+
+/* Unknown Process */
+"ssh_agent_unknown_process" = "Unknown Process";
+
+/* unlock \"%@\" to allow \"%@\" to use an SSH Key - L10n Note: Request the user to approve an SSH Key. The first param is the Name of the Database containing the key. The second parameter is the name of the process requesting to use the Key. The string is prefixed by the system with "Strongbox is trying"... Ultimately the string looks like: '"Strongbox" is trying to unlock "Mark's Database" to allow "ssh" to use an SSH Key' */
+"ssh_agent_approve_unlock_key_use_fmt" = "unlock \"%@\" to allow \"%@\" to use an SSH Key";
+/* allow \"%@\" to use the key \"%@\" for SSH - L10n Note: Request the user to approve an SSH Key. The first param is the name of the process requesting to use the Key. The second parameter this the title of the SSH Key entry. The string is prefixed by the system with "Strongbox is trying"... Ultimately the string looks like: '"Strongbox" is trying to aalow "ssh" to use the key "Mark's SSH Key" for SSH' */
+"ssh_agent_approve_key_use_fmt" = "allow \"%@\" to use the key \"%@\" for SSH";
+
+/* %@ (%@ bits) - L10n Note: 1st Param is something the SSH key type like 'RSA' or 'ED25519', 2nd param is the number of bits used by the key, usually 3072 or 256 */
+"ssh_agent_algo_bits_fmt" = "%@ (%@ bits)";
