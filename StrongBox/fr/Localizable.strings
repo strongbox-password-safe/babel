@@ -5402,102 +5402,102 @@
 "side_bar_child_count_format_groups_and_entries" = "Groupes et Entrées";
 
 /* Groups and Entries (Recursive) */
-"side_bar_child_count_format_groups_and_entries_rec" = "Groups and Entries (Recursive)";
+"side_bar_child_count_format_groups_and_entries_rec" = "Groupes et Entrées (Récursif)";
 
 /* Items */
 "side_bar_child_count_format_items" = "Eléments";
 
 /* Items (Recursive) */
-"side_bar_child_count_format_items_rec" = "Items (Recursive)";
+"side_bar_child_count_format_items_rec" = "Items (Récursif)";
 
 /* The SFTP host returned the Fingerprint below.\n\nStrongbox will use this Fingerprint to verify it is communicating with only this host.\n\nPlease confirm you are happy with this Fingerprint. You will be notified if it ever changes.\n\n%@ */
-"sftp_hostkey_fingerprint_first_use_confirm_fmt" = "The SFTP host returned the Fingerprint below.\n\nStrongbox will use this Fingerprint to verify it is communicating with only this host.\n\nPlease confirm you are happy with this Fingerprint. You will be notified if it ever changes.\n\n%@";
+"sftp_hostkey_fingerprint_first_use_confirm_fmt" = "L'hôte SFTP a retourné l'empreinte ci-dessous.\n\nStrongbox utilisera cette empreinte pour vérifier qu'il communique uniquement avec cet hôte.\n\nVeuillez confirmer que vous êtes satisfait de cette empreinte. Vous serez notifié si jamais elle changeait.\n\n%@";
 
 /* *** WARNING ***\n\nThe SFTP host returned a different Fingerprint than expected.\n\nThis could be a man-in-the-middle attack, or it could be something you expect if your host configuration recently changed.\n\nShould Strongbox use this new Fingerprint and continue connecting to this host?\n\n%@ */
-"sftp_hostkey_fingerprint_has_changed_confirm_fmt" = "*** WARNING ***\n\nThe SFTP host returned a different Fingerprint than expected.\n\nThis could be a man-in-the-middle attack, or it could be something you expect if your host configuration recently changed.\n\nShould Strongbox use this new Fingerprint and continue connecting to this host?\n\n%@";
+"sftp_hostkey_fingerprint_has_changed_confirm_fmt" = "*** AVERTISSEMENT ***\n\nL'hôte SFTP a retourné une empreinte différente de celle attendue.\n\nCela pourrait être une attaque de l'homme du milieu, ou bien être quelque chose auquel vous vous attendez si la configuration de votre hôte a récemment changé.\n\nStrongbox doit-il utiliser cette nouvelle empreinte et continuer à se connecter à cet hôte ?\n\n%@";
 
 /* SFTP Fingerprint */
-"sftp_hostkey_fingerprint_alert_title" = "SFTP Fingerprint";
+"sftp_hostkey_fingerprint_alert_title" = "Empreinte SFTP";
 
 /* Note: Enabling Easy-Read Font will have the effect of disabling the 'Markdown Notes' formatting feature. Is this OK? */
-"are_you_sure_message_easy_read_font_markdown_notes" = "Note: Enabling Easy-Read Font will have the effect of disabling the 'Markdown Notes' formatting feature. Is this OK?";
+"are_you_sure_message_easy_read_font_markdown_notes" = "Note : L'activation de la police Lecture Facile aura pour effet de désactiver la fonction de formatage 'Notes Markdown'. C'est bon pour vous ?";
 
 /* 1 Match Found */
-"search_results_summary_1_match_found" = "1 Match Found";
+"search_results_summary_1_match_found" = "1 correspondance trouvée";
 
 /* %@ Matches Found */
-"search_results_summary_n_match_found_fmt" = "%@ Matches Found";
+"search_results_summary_n_match_found_fmt" = "%@ correspondances trouvées";
 
 /* No Matches Found */
-"search_results_summary_no_matches_found" = "No Matches Found";
+"search_results_summary_no_matches_found" = "Pas de correspondance";
 
 /* Orchard Street (Medium) */
-"pwgen_wordlist_orchard_st" = "Orchard Street (Medium)";
+"pwgen_wordlist_orchard_st" = "Orchard Street (Moyenne)";
 
 /* SSH Keys */
-"sidebar_quick_view_keeagent_ssh_keys_title" = "SSH Keys";
+"sidebar_quick_view_keeagent_ssh_keys_title" = "Clés SSH";
 
 /* Passphrase Protected */
-"ssh_agent_passphrase_protected" = "Passphrase Protected";
+"ssh_agent_passphrase_protected" = "Protégé par phrase de passe";
 
 /* Passphrase Protected (Entry Password Incorrect) */
-"ssh_agent_passphrase_protected_incorrect" = "Passphrase Protected (Entry Password Incorrect)";
+"ssh_agent_passphrase_protected_incorrect" = "Protégé par phrase de passe (mot de passe saisi incorrect)";
 
 /* Enabled for SSH Agent - L10n Note: An SSH Key is enabled for the Strongbox SSH Agent */
-"ssh_agent_key_enabled_for_agent" = "Enabled for SSH Agent";
+"ssh_agent_key_enabled_for_agent" = "Activé pour l'agent SSH";
 
 /* Disabled for SSH Agent - L10n Note: An SSH Key is not enabled for the Strongbox SSH Agent*/
-"ssh_agent_disabled_for_agent" = "Disabled for SSH Agent";
+"ssh_agent_disabled_for_agent" = "Désactivé pour l'agent SSH";
 
 /* SSH Key */
-"ssh_agent_ssh_key" = "SSH Key";
+"ssh_agent_ssh_key" = "Clé SSH";
 
 /* Export... */
 "generic_export_ellipsis" = "Exporter...";
 
 /* Public Key */
-"generic_public_key" = "Public Key";
+"generic_public_key" = "Clef publique";
 
 /* Private Key */
 "generic_private_key" = "Clé privée";
 
 /* Fingerprint - L10n Note: An SSH Key Fingerprint */
-"ssh_agent_key_fingerprint" = "Fingerprint";
+"ssh_agent_key_fingerprint" = "Empreinte";
 
 /* Enter a passphrase to protect the exported SSH Key file */
-"ssh_agent_enter_passphrase_for_export" = "Enter a passphrase to protect the exported SSH Key file";
+"ssh_agent_enter_passphrase_for_export" = "Entrez une phrase de passe pour protéger le fichier de clé SSH exporté";
 
 /* Could not read this file. Are you sure it is a valid OpenSSH Private Key file? */
-"ssh_agent_could_not_read_sshkey_file" = "Could not read this file. Are you sure it is a valid OpenSSH Private Key file?";
+"ssh_agent_could_not_read_sshkey_file" = "Impossible de lire ce fichier. Êtes-vous sûr(e) qu'il s'agit d'un fichier valide de clef privée OpenSSH ?";
 
 /* That SSH Key passphrase was incorrect. Please try again. */
-"ssh_agent_ssh_key_passphrase_incorrect_try_again" = "That SSH Key passphrase was incorrect. Please try again.";
+"ssh_agent_ssh_key_passphrase_incorrect_try_again" = "La phrase de passe de la clé SSH est incorrecte. Veuillez réessayer.";
 
 /* Overwrite Password?" */
-"ssh_agent_overwrite_password" = "Overwrite Password?";
+"ssh_agent_overwrite_password" = "Remplacer le mot de passe ?";
 
 /* This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt. Strongbox will then set the password of this entry to match. */
-"ssh_agent_sshkey_please_enter_passphrase_msg" = "This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt. Strongbox will then set the password of this entry to match.";
+"ssh_agent_sshkey_please_enter_passphrase_msg" = "Cette clef SSH est protégée par phrase de passe.\n\nVeuillez entrer la phrase de passe pour la déchiffrer. Strongbox définira ensuite le mot de passe de cette entrée pour correspondre.";
 
 /* The passphrase does not match the existing password. Strongbox needs the password to match the passphrase to use this SSH Key properly.\n\nContinue to overwrite the current password? */
-"ssh_agent_passphrase_password_mismatch" = "The passphrase does not match the existing password. Strongbox needs the password to match the passphrase to use this SSH Key properly.\n\nContinue to overwrite the current password?";
+"ssh_agent_passphrase_password_mismatch" = "La phrase de passe ne correspond pas au mot de passe existant. Strongbox a besoin que le mot de passe corresponde à la phrase de passe pour utiliser correctement cette clef SSH.\n\nContinuer à écraser le mot de passe actuel ?";
 
 /* Are you sure you want to remove this SSH Key? */
-"ssh_agent_ays_remove_key" = "Are you sure you want to remove this SSH Key?";
+"ssh_agent_ays_remove_key" = "Êtes-vous sûr(e) de vouloir retirer cette clef SSH ?";
 
 /* Inccorect SSH Key Passphrase */
-"ssh_agent_incorrect_sshkey_passphrase" = "Incorrect SSH Key Passphrase";
+"ssh_agent_incorrect_sshkey_passphrase" = "Phrase de passe SSH incorrecte";
 
 /* The SSH Key is passphrase protected but the password for this entry is not the correct passphrase.\n\nDo you want to continue saving? */
-"ssh_agent_validation_passphrase_password_mismatch" = "The SSH Key is passphrase protected but the password for this entry is not the correct passphrase.\n\nDo you want to continue saving?";
+"ssh_agent_validation_passphrase_password_mismatch" = "La clef SSH est protégée par phrase de passe mais le mot de passe pour cette entrée n'est pas la phrase de passe correcte.\n\nVoulez-vous continuer à enregistrer ?";
 
 /* Unknown Process */
-"ssh_agent_unknown_process" = "Unknown Process";
+"ssh_agent_unknown_process" = "Processus inconnu";
 
 /* unlock \"%@\" to allow \"%@\" to use an SSH Key - L10n Note: Request the user to approve an SSH Key. The first param is the Name of the Database containing the key. The second parameter is the name of the process requesting to use the Key. The string is prefixed by the system with "Strongbox is trying"... Ultimately the string looks like: '"Strongbox" is trying to unlock "Mark's Database" to allow "ssh" to use an SSH Key' */
-"ssh_agent_approve_unlock_key_use_fmt" = "unlock \"%@\" to allow \"%@\" to use an SSH Key";
+"ssh_agent_approve_unlock_key_use_fmt" = "déverrouiller \"%@\" pour autoriser \"%@\" à utiliser une clef SSH";
 /* allow \"%@\" to use the key \"%@\" for SSH - L10n Note: Request the user to approve an SSH Key. The first param is the name of the process requesting to use the Key. The second parameter this the title of the SSH Key entry. The string is prefixed by the system with "Strongbox is trying"... Ultimately the string looks like: '"Strongbox" is trying to aalow "ssh" to use the key "Mark's SSH Key" for SSH' */
-"ssh_agent_approve_key_use_fmt" = "allow \"%@\" to use the key \"%@\" for SSH";
+"ssh_agent_approve_key_use_fmt" = "autoriser \"%@\" à utiliser la clef \"%@\" pour SSH";
 
 /* %@ (%@ bits) - L10n Note: 1st Param is something the SSH key type like 'RSA' or 'ED25519', 2nd param is the number of bits used by the key, usually 3072 or 256 */
 "ssh_agent_algo_bits_fmt" = "%@ (%@ bits)";
