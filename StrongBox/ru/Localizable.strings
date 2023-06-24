@@ -5495,9 +5495,9 @@
 "ssh_agent_unknown_process" = "Неизвестный процесс";
 
 /* unlock \"%@\" to allow \"%@\" to use an SSH Key - L10n Note: Request the user to approve an SSH Key. The first param is the Name of the Database containing the key. The second parameter is the name of the process requesting to use the Key. The string is prefixed by the system with "Strongbox is trying"... Ultimately the string looks like: '"Strongbox" is trying to unlock "Mark's Database" to allow "ssh" to use an SSH Key' */
-"ssh_agent_approve_unlock_key_use_fmt" = "unlock \"%@\" to allow \"%@\" to use an SSH Key";
+"ssh_agent_approve_unlock_key_use_fmt" = "разблокируйте \"%@\", чтобы позволить \"%@\" использовать ключ SSH";
 /* allow \"%@\" to use the key \"%@\" for SSH - L10n Note: Request the user to approve an SSH Key. The first param is the name of the process requesting to use the Key. The second parameter this the title of the SSH Key entry. The string is prefixed by the system with "Strongbox is trying"... Ultimately the string looks like: '"Strongbox" is trying to aalow "ssh" to use the key "Mark's SSH Key" for SSH' */
-"ssh_agent_approve_key_use_fmt" = "allow \"%@\" to use the key \"%@\" for SSH";
+"ssh_agent_approve_key_use_fmt" = "разрешить \"%@\" использовать \"%@\" для SSH";
 
 /* %@ (%@ bits) - L10n Note: 1st Param is something the SSH key type like 'RSA' or 'ED25519', 2nd param is the number of bits used by the key, usually 3072 or 256 */
 "ssh_agent_algo_bits_fmt" = "%@ (%@ бит)";
@@ -5509,4 +5509,4 @@
 "business_activation_unknown_org_message" = "Strongbox could not recognize this Organisation. Are you sure you have entered it correctly?";
 
 /* Customizing... */
-"generic_customizing_ellipsis" = "Customizing...";
+"generic_customizing_ellipsis" = "Настройка ...";
