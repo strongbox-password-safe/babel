@@ -5495,7 +5495,7 @@
 /* Unknown Process */
 "ssh_agent_unknown_process" = "Unknown Process";
 
-/* unlock \"%@\" to allow \"%@\" to use an SSH Key - L10n Note: Request the user to approve an SSH Key. The first param is the Name of the Database containing the key. The second parameter is the name of the process requesting to use the Key. The string is prefixed by the system with "Strongbox is trying"... Ultimately the string looks like: '"Strongbox" is trying to unlock "Mark's Database" to allow "ssh" to use an SSH Key' */
+/* unlock \"%@\" to allow \"%@\" to use an SSH Key - L10n Note: Request the user to approve an SSH Key. The first param is the Name of the Database containing the key. The second parameter is the name of the process requesting to use the Key. The string is prefixed by the system with "Strongbox is trying to"... Ultimately the string looks like: '"Strongbox" is trying to unlock "Mark's Database" to allow "ssh" to use an SSH Key' */
 "ssh_agent_approve_unlock_key_use_fmt" = "unlock \"%@\" to allow \"%@\" to use an SSH Key";
 /* allow \"%@\" to use the key \"%@\" for SSH - L10n Note: Request the user to approve an SSH Key. The first param is the name of the process requesting to use the Key. The second parameter this the title of the SSH Key entry. The string is prefixed by the system with "Strongbox is trying"... Ultimately the string looks like: '"Strongbox" is trying to aalow "ssh" to use the key "Mark's SSH Key" for SSH' */
 "ssh_agent_approve_key_use_fmt" = "allow \"%@\" to use the key \"%@\" for SSH";
@@ -5514,3 +5514,48 @@
 
 /* You're all set! We recommend restarting Strongbox to enable the new UI. */
 "nextgen_ui_deprecation_switch_notice" = "You're all set! We recommend restarting Strongbox to enable the new UI.";
+
+/* Password Generator */
+"popout_password_generator" = "Password Generator";
+
+/* verify existing credentials before you can change them - L10n Note: This is a suffix that appears on the Touch ID request dialog on macOS, it is prefixed by system text: "Strongbox is trying to", so ultimately this string will look like: "Strongbox is trying to verify existing credentials before you can change them" */
+"verify_creds_before_changing_bio_message_suffix" = "verify credentials before you can change them";
+
+/* Verify Master Credentials */
+"verify_creds_headline" = "Verify Master Credentials";
+
+/* For security reasons your current master credentials must be verified before you can change them. */
+"verify_creds_subhead" = "For security reasons your master credentials must be verified before you can change them.";
+
+/* Those credentials are incorrect and your database has now been locked for security reasons. */
+"credentials_incorrect_database_locked" = "Those credentials are incorrect and your database has now been locked for security reasons.";
+
+/* Unsaved Changes */
+"generic_unsaved_changes" = "Unsaved Changes";
+
+/* You have pending unsaved changes which should be saved before continuing.\n\nWould you like to save now? */
+"unsaved_changes_question_save_now" = "You have pending unsaved changes which should be saved before continuing.\n\nWould you like to save now?";
+
+/* Verifying... */
+"generic_verifying_ellipsis" = "Verifying...";
+
+/* verify existing credentials before you can export in plaintext - L10n Note: This is a suffix that appears on the Touch ID request dialog on macOS, it is prefixed by system text: "Strongbox is trying to", so ultimately this string will look like: "Strongbox is trying to verify existing credentials before you can export in plaintext" */
+"verify_creds_before_plaintext_export_bio_message_suffix" = "verify credentials before you can export in plaintext";
+
+/* For security reasons your master credentials must be verified before you can export in plaintext. */
+"verify_creds_before_plaintext_export_subhead" = "For security reasons your master credentials must be verified before you can export in plaintext.";
+
+/* verify existing credentials before you can print - L10n Note: This is a suffix that appears on the Touch ID request dialog on macOS, it is prefixed by system text: "Strongbox is trying to", so ultimately this string will look like: "Strongbox is trying to verify credentials before you can print" */
+"verify_creds_before_print_bio_message_suffix" = "verify credentials before you can print";
+
+/* For security reasons your master credentials must be verified before you can print. */
+"verify_creds_before_print_subhead" = "For security reasons your master credentials must be verified before you can print.";
+
+/* Import Messages */
+"import_messages_header" = "Import Messages";
+
+/* Set New Master Password */
+"import_next_step_set_password" = "Set New Master Password";
+
+/* Please consider sharing (support@strongboxsafe.com) the above messages with us to help us improve the import process.*/
+"import_please_share_import_messages" = "Please consider sharing (support@strongboxsafe.com) the above messages with us to help us improve the import process.";
