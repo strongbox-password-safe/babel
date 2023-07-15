@@ -2909,7 +2909,7 @@
 "upgrade_vc_start_your_free_trial_price_free" = "Zdarma";
 
 /* Upgrade (Free Trial Available) */
-"safes_vc_upgrade_info_trial_available_button_title" = "Upgrade (zkušební verze 'Pro')...";
+"safes_vc_upgrade_info_trial_available_button_title" = "Vyzkoušejte Pro zdarma 3 měsíce";
 
 /* Would you like to add an entry or a group? */
 "browse_add_group_or_entry_question" = "Chcete přidat položku nebo skupinu?";
@@ -3449,7 +3449,7 @@
 "browse_context_menu_database_settings" = "Nastavení databáze";
 
 /* Set Credentials */
-"browse_context_menu_set_master_credentials" = "Nastavit přihlašovací údaje";
+"browse_context_menu_set_master_credentials" = "Nastavit hlavní přihlašovací údaje";
 
 /* Show Password - Translators Note: On Browse screen - context menu item - This option will display the password in a large full screen font for easy reading with a QR Code */
 "browse_context_menu_show_password" = "Zobrazit heslo";
@@ -5486,7 +5486,7 @@
 "ssh_agent_ays_remove_key" = "Jste si jisti, že chcete odstranit tento SSH klíč?";
 
 /* Inccorect SSH Key Passphrase */
-"ssh_agent_incorrect_sshkey_passphrase" = "Nesprávná přístupová fráze klíče SSH";
+"ssh_agent_incorrect_sshkey_passphrase" = "Nesprávná přístupová fráze SSH klíče";
 
 /* The SSH Key is passphrase protected but the password for this entry is not the correct passphrase.\n\nDo you want to continue saving? */
 "ssh_agent_validation_passphrase_password_mismatch" = "SSH klíč je chráněn přístupovou frází, ale heslo pro tento záznam neodpovídá správné přístupové frázi.\n\nChcete pokračovat v ukládání?";
@@ -5494,10 +5494,169 @@
 /* Unknown Process */
 "ssh_agent_unknown_process" = "Neznámý proces";
 
-/* unlock \"%@\" to allow \"%@\" to use an SSH Key - L10n Note: Request the user to approve an SSH Key. The first param is the Name of the Database containing the key. The second parameter is the name of the process requesting to use the Key. The string is prefixed by the system with "Strongbox is trying"... Ultimately the string looks like: '"Strongbox" is trying to unlock "Mark's Database" to allow "ssh" to use an SSH Key' */
+/* unlock \"%@\" to allow \"%@\" to use an SSH Key - L10n Note: Request the user to approve an SSH Key. The first param is the Name of the Database containing the key. The second parameter is the name of the process requesting to use the Key. The string is prefixed by the system with "Strongbox is trying to"... Ultimately the string looks like: '"Strongbox" is trying to unlock "Mark's Database" to allow "ssh" to use an SSH Key' */
 "ssh_agent_approve_unlock_key_use_fmt" = "odemkněte \"%@\" pro povolení \"%@\" pro použití SSH klíče";
 /* allow \"%@\" to use the key \"%@\" for SSH - L10n Note: Request the user to approve an SSH Key. The first param is the name of the process requesting to use the Key. The second parameter this the title of the SSH Key entry. The string is prefixed by the system with "Strongbox is trying"... Ultimately the string looks like: '"Strongbox" is trying to aalow "ssh" to use the key "Mark's SSH Key" for SSH' */
 "ssh_agent_approve_key_use_fmt" = "povolit \"%@\" použít klíč \"%@\" pro SSH";
 
 /* %@ (%@ bits) - L10n Note: 1st Param is something the SSH key type like 'RSA' or 'ED25519', 2nd param is the number of bits used by the key, usually 3072 or 256 */
 "ssh_agent_algo_bits_fmt" = "%@ (%@ bitů)";
+
+/* Unknown Organisation */
+"business_activation_unknown_org_title" = "Neznámá organizace";
+
+/* Strongbox could not recognize this Organisation. Are you sure you have entered it correctly? */
+"business_activation_unknown_org_message" = "Strongbox nemohl tuto organizaci rozpoznat. Jste si jisti, že jste ji zadali správně?";
+
+/* Customizing... */
+"generic_customizing_ellipsis" = "Přizpůsobuji...";
+
+/* You're all set! We recommend restarting Strongbox to enable the new UI. */
+"nextgen_ui_deprecation_switch_notice" = "Vše je nastaveno! Doporučujeme restartovat Strongbox pro povolení nového uživatelského rozhraní.";
+
+/* Password Generator */
+"popout_password_generator" = "Generátor hesel";
+
+/* verify existing credentials before you can change them - L10n Note: This is a suffix that appears on the Touch ID request dialog on macOS, it is prefixed by system text: "Strongbox is trying to", so ultimately this string will look like: "Strongbox is trying to verify existing credentials before you can change them" */
+"verify_creds_before_changing_bio_message_suffix" = "ověřit pověření před tím, než je budete moci změnit";
+
+/* Verify Master Credentials */
+"verify_creds_headline" = "Ověřit hlavní přihlašovací údaje";
+
+/* For security reasons your current master credentials must be verified before you can change them. */
+"verify_creds_subhead" = "Z bezpečnostních důvodů musí být vaše hlavní přihlašovací údaje ověřeny před tím, než je budete moci změnit.";
+
+/* Those credentials are incorrect and your database has now been locked for security reasons. */
+"credentials_incorrect_database_locked" = "Tyto přihlašovací údaje jsou nesprávné a vaše databáze byla z bezpečnostních důvodů uzamčena.";
+
+/* Unsaved Changes */
+"generic_unsaved_changes" = "Neuložené změny";
+
+/* You have pending unsaved changes which should be saved before continuing.\n\nWould you like to save now? */
+"unsaved_changes_question_save_now" = "Máte neuložené změny, které by měly být uloženy.\n\nChcete je nyní uložit?";
+
+/* Verifying... */
+"generic_verifying_ellipsis" = "Ověřování...";
+
+/* verify existing credentials before you can export in plaintext - L10n Note: This is a suffix that appears on the Touch ID request dialog on macOS, it is prefixed by system text: "Strongbox is trying to", so ultimately this string will look like: "Strongbox is trying to verify existing credentials before you can export in plaintext" */
+"verify_creds_before_plaintext_export_bio_message_suffix" = "ověřit přihlašovací údaje před tím, než je budete moci exportovat do textového souboru";
+
+/* For security reasons your master credentials must be verified before you can export in plaintext. */
+"verify_creds_before_plaintext_export_subhead" = "Z bezpečnostních důvodů musí být vaše hlavní přihlašovací údaje ověřeny před tím, než je budete moci exportovat do textového souboru.";
+
+/* verify existing credentials before you can print - L10n Note: This is a suffix that appears on the Touch ID request dialog on macOS, it is prefixed by system text: "Strongbox is trying to", so ultimately this string will look like: "Strongbox is trying to verify credentials before you can print" */
+"verify_creds_before_print_bio_message_suffix" = "ověřte přihlašovací údaje, než je budete moci vytisknout";
+
+/* For security reasons your master credentials must be verified before you can print. */
+"verify_creds_before_print_subhead" = "Z bezpečnostních důvodů musí být vaše hlavní přihlašovací údaje ověřeny před tím, než je budete moci vytisknout.";
+
+/* Import Messages */
+"import_messages_header" = "Importovat zprávy";
+
+/* Set New Master Password */
+"import_next_step_set_password" = "Nastavit nové hlavní heslo";
+
+/* Please consider sharing (support@strongboxsafe.com) the above messages with us to help us improve the import process.*/
+"import_please_share_import_messages" = "Zvažte prosím sdílení (support@strongboxsafe.com) výše uvedených zpráv, které nám pomohou zlepšit proces importu.";
+
+/* TOTP Secret */
+"generic_totp_secret" = "Tajný klíč TOTP";
+
+/* Select Items */
+"generic_select_items" = "Vybrat položky";
+
+/* Select All */
+"generic_select_all" = "Vybrat vše";
+
+/* Print Database */
+"generic_print_database" = "Tisk databáze";
+
+/* Advanced - L10n: Noun - e.g. Advanced Settings */
+"generic_advanced_noun" = "Rozšířené";
+
+/* AutoFill - L10n: Noun referring to AutoFill Settings */
+"generic_autofill_settings" = "Automatické vyplňování";
+
+/* Automatic Locking - L10n: Noun referring to Automatic Locking Settings */
+"generic_auto_lock_settings" = "Automatické uzamčení";
+
+/* Encryption - L10n: Noun referring to Encryption Settings  */
+"generic_encryption_settings" = "Šifrování";
+
+/* Easy Read Font on All Fields */
+"item_details_view_settings_easy_read_all" = "Písmo Easy-Read na všech polích";
+
+/* Auto Fetch FavIcon */
+"item_details_view_settings_auto_fetch_favicon" = "Automaticky načíst FavIkonu";
+
+/* Reveal Password Immediately */
+"item_details_view_settings_reveal_password_immediately" = "Okamžitě odhalit heslo";
+
+/* Colorize Passwords */
+"item_details_view_settings_colorize_passwords" = "Obarvit hesla";
+
+/* Sort Custom Fields */
+"item_details_view_settings_sort_custom_fields" = "Seřadit vlastní pole";
+
+/* New SSH Key */
+"details_add_new_ssh_key" = "Nový SSH klíč";
+
+/* What kind of SSH key would you like to add?\n\nWe recommend using the modern ED25519 key type. */
+"details_add_new_ssh_key_what_kind_prompt" = "Jaký druh SSH klíče byste chtěli přidat?\n\nDoporučujeme používat moderní typ klíče ED25519.";
+
+/* New ED25519 Key */
+"details_add_new_ssh_key_ed25519" = "Nový klíč ED25519";
+
+/* New RSA Key */
+"details_add_new_ssh_key_rsa" = "Nový RSA klíč";
+
+/* New SSH Key... */
+"details_add_new_ssh_key_ellipsis" = "Nový SSH klíč...";
+
+/* Actions - L10n Note: A noun, e.g a list of actions that can be performed */
+"generic_noun_actions" = "Akce";
+
+/* OK, Don't Remind Me Again */
+"generic_ok_dont_remind_me_again" = "OK, znovu nepřipomínat";
+
+/* Strongbox Sale Now On */
+"safesvc_sale_now_on" = "Prodej Strongboxu nyní spuštěn";
+
+/* Subscriber Sale Offer */
+"sale_view_subscriber_title" = "Nabídka předplatného";
+
+/* Sale Now On */
+"sale_view_regular_title" = "Je tu sleva";
+
+/* Since you're a Pro subscriber, we'd like to say thank you and offer you a discount on your next renewal */
+"sale_view_subscriber_message" = "Protože jste předplatitelem Pro, rádi bychom vám poděkovali a nabídli vám slevu na další obnovení";
+
+/* Want to grab a great deal? Now's the perfect time to go Pro. We've got a special offer on all Strongbox licenses for a short time only. */
+"sale_view_regular_message" = "Nyní je skvělý čas přejít na Pro. Máme speciální nabídku u všech licencí Strongbox, ale pouze na omezenou dobu";
+
+/* Redeem Offer Now */
+"sale_view_subscriber_cta" = "Uplatnit kód";
+
+/* Go Pro Now */
+"sale_view_regular_cta" = "Přejít na verzi Pro";
+
+/* Looking for a Lifetime License? */
+"sale_view_looking_for_lifetime" = "Hledáte doživotní licenci?";
+
+/* Offer ends Midnight %@ - L10n note: The 1st parameter is a day, like Monday or Friday, so: "Offer ends Midnight Friday" for example */
+"sale_view_offer_ends_date_fmt %@" = "Nabídka končí v půlnoci %@";
+
+/* Item Properties... */
+"generic_item_properties_ellipsis" = "Vlastnosti položky...";
+
+/* Audit Issue Details... */
+"view_audit_issue_details_ellipsis" = "Detaily problému auditu...";
+
+/* Suggest in AutoFill - L10n - Whether an entry should be suggested in the AutoFill dropdown in your browser - It's a Yes/No flag in the UI */
+"suggest_in_autofill_yesno_flag" = "Navrhnout při automatickém vyplňování";
+
+/* Toggle Suggest in AutoFill */
+"item_settings_action_verb_toggle_suggest_in_autofill" = "Toggle Suggest in AutoFill";
+
+/* Toggle Audit this Item */
+"item_settings_action_verb_toggle_suggest_in_audit" = "Toggle Audit this Item";
