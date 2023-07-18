@@ -2909,7 +2909,7 @@
 "upgrade_vc_start_your_free_trial_price_free" = "Kostenlos";
 
 /* Upgrade (Free Trial Available) */
-"safes_vc_upgrade_info_trial_available_button_title" = "Try Pro free for 3 months";
+"safes_vc_upgrade_info_trial_available_button_title" = "Pro-Version 3 Monate lang kostenlos testen";
 
 /* Would you like to add an entry or a group? */
 "browse_add_group_or_entry_question" = "Möchten Sie einen Eintrag oder eine Gruppe hinzufügen?";
@@ -5435,135 +5435,135 @@
 "pwgen_wordlist_orchard_st" = "Orchard Street (Medium)";
 
 /* SSH Keys */
-"sidebar_quick_view_keeagent_ssh_keys_title" = "SSH Keys";
+"sidebar_quick_view_keeagent_ssh_keys_title" = "SSH-Schlüssel";
 
 /* Passphrase Protected */
-"ssh_agent_passphrase_protected" = "Passphrase Protected";
+"ssh_agent_passphrase_protected" = "Passphrasengeschützt";
 
 /* Passphrase Protected (Entry Password Incorrect) */
-"ssh_agent_passphrase_protected_incorrect" = "Passphrase Protected (Entry Password Incorrect)";
+"ssh_agent_passphrase_protected_incorrect" = "Passphrasengeschützt (Eingabe-Passwort fehlerhaft)";
 
 /* Enabled for SSH Agent - L10n Note: An SSH Key is enabled for the Strongbox SSH Agent */
-"ssh_agent_key_enabled_for_agent" = "Enabled for SSH Agent";
+"ssh_agent_key_enabled_for_agent" = "Für SSH-Agent aktiviert";
 
 /* Disabled for SSH Agent - L10n Note: An SSH Key is not enabled for the Strongbox SSH Agent*/
-"ssh_agent_disabled_for_agent" = "Disabled for SSH Agent";
+"ssh_agent_disabled_for_agent" = "Für SSH-Agent deaktiviert";
 
 /* SSH Key */
-"ssh_agent_ssh_key" = "SSH Key";
+"ssh_agent_ssh_key" = "SSH-Schlüssel";
 
 /* Export... */
 "generic_export_ellipsis" = "Exportieren ...";
 
 /* Public Key */
-"generic_public_key" = "Public Key";
+"generic_public_key" = "Öffentlicher Schlüssel";
 
 /* Private Key */
 "generic_private_key" = "Privater Schlüssel";
 
 /* Fingerprint - L10n Note: An SSH Key Fingerprint */
-"ssh_agent_key_fingerprint" = "Fingerprint";
+"ssh_agent_key_fingerprint" = "Fingerabdruck";
 
 /* Enter a passphrase to protect the exported SSH Key file */
-"ssh_agent_enter_passphrase_for_export" = "Enter a passphrase to protect the exported SSH Key file";
+"ssh_agent_enter_passphrase_for_export" = "Geben Sie eine Passphrase ein, um die exportierte SSH-Schlüsseldatei zu schützen";
 
 /* Could not read this file. Are you sure it is a valid OpenSSH Private Key file? */
-"ssh_agent_could_not_read_sshkey_file" = "Could not read this file. Are you sure it is a valid OpenSSH Private Key file?";
+"ssh_agent_could_not_read_sshkey_file" = "Diese Datei konnte nicht gelesen werden. Sind Sie sicher, dass es sich um eine gültige OpenSSH Private Key-Datei handelt?";
 
 /* That SSH Key passphrase was incorrect. Please try again. */
-"ssh_agent_ssh_key_passphrase_incorrect_try_again" = "That SSH Key passphrase was incorrect. Please try again.";
+"ssh_agent_ssh_key_passphrase_incorrect_try_again" = "Die Passphrase für den SSH-Schlüssel ist ungültig. Bitte versuchen Sie es erneut.";
 
 /* Overwrite Password?" */
-"ssh_agent_overwrite_password" = "Overwrite Password?";
+"ssh_agent_overwrite_password" = "Passwort überschreiben?";
 
 /* This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt. Strongbox will then set the password of this entry to match. */
-"ssh_agent_sshkey_please_enter_passphrase_msg" = "This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt. Strongbox will then set the password of this entry to match.";
+"ssh_agent_sshkey_please_enter_passphrase_msg" = "Dieser SSH-Schlüssel ist durch eine Passphrase geschützt.\n\nBitte geben Sie die Passphrase zum Entschlüsseln ein. Strongbox setzt dann das Passwort dieses Eintrags entsprechend.";
 
 /* The passphrase does not match the existing password. Strongbox needs the password to match the passphrase to use this SSH Key properly.\n\nContinue to overwrite the current password? */
-"ssh_agent_passphrase_password_mismatch" = "The passphrase does not match the existing password. Strongbox needs the password to match the passphrase to use this SSH Key properly.\n\nContinue to overwrite the current password?";
+"ssh_agent_passphrase_password_mismatch" = "Die Passphrase stimmt nicht mit dem vorhandenen Passwort überein. Strongbox benötigt die Übereinstimmung des Passworts mit der Passphrase, um diesen SSH-Schlüssel ordnungsgemäß zu verwenden.\n\nDas aktuelle Passwort trotzdem überschreiben?";
 
 /* Are you sure you want to remove this SSH Key? */
-"ssh_agent_ays_remove_key" = "Are you sure you want to remove this SSH Key?";
+"ssh_agent_ays_remove_key" = "Möchten Sie diesen SSH-Schlüssel wirklich entfernen?";
 
 /* Inccorect SSH Key Passphrase */
-"ssh_agent_incorrect_sshkey_passphrase" = "Incorrect SSH Key Passphrase";
+"ssh_agent_incorrect_sshkey_passphrase" = "Ungültige SSH-Schlüssel-Passphrase";
 
 /* The SSH Key is passphrase protected but the password for this entry is not the correct passphrase.\n\nDo you want to continue saving? */
-"ssh_agent_validation_passphrase_password_mismatch" = "The SSH Key is passphrase protected but the password for this entry is not the correct passphrase.\n\nDo you want to continue saving?";
+"ssh_agent_validation_passphrase_password_mismatch" = "Der SSH-Schlüssel ist durch eine Passphrase geschützt, aber das Passwort für diesen Eintrag ist nicht die richtige Passphrase.\n\nMöchten Sie mit dem Speichern fortfahren?";
 
 /* Unknown Process */
-"ssh_agent_unknown_process" = "Unknown Process";
+"ssh_agent_unknown_process" = "Unbekannter Prozess";
 
 /* unlock \"%@\" to allow \"%@\" to use an SSH Key - L10n Note: Request the user to approve an SSH Key. The first param is the Name of the Database containing the key. The second parameter is the name of the process requesting to use the Key. The string is prefixed by the system with "Strongbox is trying to"... Ultimately the string looks like: '"Strongbox" is trying to unlock "Mark's Database" to allow "ssh" to use an SSH Key' */
-"ssh_agent_approve_unlock_key_use_fmt" = "unlock \"%@\" to allow \"%@\" to use an SSH Key";
+"ssh_agent_approve_unlock_key_use_fmt" = "„%@” entsperren, damit „%@” einen SSH-Schlüssel verwenden kann";
 /* allow \"%@\" to use the key \"%@\" for SSH - L10n Note: Request the user to approve an SSH Key. The first param is the name of the process requesting to use the Key. The second parameter this the title of the SSH Key entry. The string is prefixed by the system with "Strongbox is trying"... Ultimately the string looks like: '"Strongbox" is trying to aalow "ssh" to use the key "Mark's SSH Key" for SSH' */
-"ssh_agent_approve_key_use_fmt" = "allow \"%@\" to use the key \"%@\" for SSH";
+"ssh_agent_approve_key_use_fmt" = "erlauben, dass „%@” den Schlüssel „%@” für SSH verwendet";
 
 /* %@ (%@ bits) - L10n Note: 1st Param is something the SSH key type like 'RSA' or 'ED25519', 2nd param is the number of bits used by the key, usually 3072 or 256 */
-"ssh_agent_algo_bits_fmt" = "%@ (%@ bits)";
+"ssh_agent_algo_bits_fmt" = "%@ (%@ Bits)";
 
 /* Unknown Organisation */
-"business_activation_unknown_org_title" = "Unknown Organisation";
+"business_activation_unknown_org_title" = "Unbekannte Organisation";
 
 /* Strongbox could not recognize this Organisation. Are you sure you have entered it correctly? */
-"business_activation_unknown_org_message" = "Strongbox could not recognize this Organisation. Are you sure you have entered it correctly?";
+"business_activation_unknown_org_message" = "Strongbox konnte diese Organisation nicht erkennen. Sind Sie sicher, dass Sie sie richtig eingegeben haben?";
 
 /* Customizing... */
-"generic_customizing_ellipsis" = "Customizing...";
+"generic_customizing_ellipsis" = "Wird angepasst …";
 
 /* You're all set! We recommend restarting Strongbox to enable the new UI. */
-"nextgen_ui_deprecation_switch_notice" = "You're all set! We recommend restarting Strongbox to enable the new UI.";
+"nextgen_ui_deprecation_switch_notice" = "Das war's schon! Wir empfehlen einen Neustart von Strongbox, um die neue Benutzeroberfläche zu aktivieren.";
 
 /* Password Generator */
 "popout_password_generator" = "Passwort-Generator";
 
 /* verify existing credentials before you can change them - L10n Note: This is a suffix that appears on the Touch ID request dialog on macOS, it is prefixed by system text: "Strongbox is trying to", so ultimately this string will look like: "Strongbox is trying to verify existing credentials before you can change them" */
-"verify_creds_before_changing_bio_message_suffix" = "verify credentials before you can change them";
+"verify_creds_before_changing_bio_message_suffix" = ", vorhandene Anmeldedaten zu überprüfen, bevor Sie sie ändern können";
 
 /* Verify Master Credentials */
-"verify_creds_headline" = "Verify Master Credentials";
+"verify_creds_headline" = "Master-Zugangsdaten überprüfen";
 
 /* For security reasons your current master credentials must be verified before you can change them. */
-"verify_creds_subhead" = "For security reasons your master credentials must be verified before you can change them.";
+"verify_creds_subhead" = "Aus Sicherheitsgründen müssen Ihre Master-Anmeldedaten überprüft werden, bevor Sie sie ändern können.";
 
 /* Those credentials are incorrect and your database has now been locked for security reasons. */
-"credentials_incorrect_database_locked" = "Those credentials are incorrect and your database has now been locked for security reasons.";
+"credentials_incorrect_database_locked" = "Diese Anmeldedaten sind ungültig und Ihre Datenbank wurde aus Sicherheitsgründen gesperrt.";
 
 /* Unsaved Changes */
-"generic_unsaved_changes" = "Unsaved Changes";
+"generic_unsaved_changes" = "Nicht gespeicherte Änderungen";
 
 /* You have pending unsaved changes which should be saved before continuing.\n\nWould you like to save now? */
-"unsaved_changes_question_save_now" = "You have pending unsaved changes which should be saved before continuing.\n\nWould you like to save now?";
+"unsaved_changes_question_save_now" = "Es gibt noch ungespeicherte Änderungen, die gespeichert werden sollten, bevor Sie fortfahren.\n\nMöchten Sie sie jetzt speichern?";
 
 /* Verifying... */
-"generic_verifying_ellipsis" = "Verifying...";
+"generic_verifying_ellipsis" = "Wird überprüft …";
 
 /* verify existing credentials before you can export in plaintext - L10n Note: This is a suffix that appears on the Touch ID request dialog on macOS, it is prefixed by system text: "Strongbox is trying to", so ultimately this string will look like: "Strongbox is trying to verify existing credentials before you can export in plaintext" */
-"verify_creds_before_plaintext_export_bio_message_suffix" = "verify credentials before you can export in plaintext";
+"verify_creds_before_plaintext_export_bio_message_suffix" = ", die Anmeldeinformationen zu überprüfen, bevor Sie im Klartext exportiert werden können";
 
 /* For security reasons your master credentials must be verified before you can export in plaintext. */
-"verify_creds_before_plaintext_export_subhead" = "For security reasons your master credentials must be verified before you can export in plaintext.";
+"verify_creds_before_plaintext_export_subhead" = "Aus Sicherheitsgründen müssen Ihre Master-Anmeldedaten überprüft werden, bevor diese im Klartext exportiert werden können.";
 
 /* verify existing credentials before you can print - L10n Note: This is a suffix that appears on the Touch ID request dialog on macOS, it is prefixed by system text: "Strongbox is trying to", so ultimately this string will look like: "Strongbox is trying to verify credentials before you can print" */
-"verify_creds_before_print_bio_message_suffix" = "verify credentials before you can print";
+"verify_creds_before_print_bio_message_suffix" = ", die Anmeldeinformationen zu überprüfen, bevor Sie gedruckt werden können";
 
 /* For security reasons your master credentials must be verified before you can print. */
-"verify_creds_before_print_subhead" = "For security reasons your master credentials must be verified before you can print.";
+"verify_creds_before_print_subhead" = "Aus Sicherheitsgründen müssen Ihre Master-Zugangsdaten überprüft werden, bevor diese gedruckt werden können.";
 
 /* Import Messages */
-"import_messages_header" = "Import Messages";
+"import_messages_header" = "Nachrichten importieren";
 
 /* Set New Master Password */
-"import_next_step_set_password" = "Set New Master Password";
+"import_next_step_set_password" = "Neues Master-Passwort festlegen";
 
 /* Please consider sharing (support@strongboxsafe.com) the above messages with us to help us improve the import process.*/
-"import_please_share_import_messages" = "Please consider sharing (support@strongboxsafe.com) the above messages with us to help us improve the import process.";
+"import_please_share_import_messages" = "Bitte ziehen Sie in Erwägung, die oben genannten Meldungen mit uns zu teilen (support@strongboxsafe.com), um uns bei der Verbesserung des Importprozesses zu helfen.";
 
 /* TOTP Secret */
-"generic_totp_secret" = "TOTP Secret";
+"generic_totp_secret" = "TOTP-Geheimnis";
 
 /* Select Items */
-"generic_select_items" = "Select Items";
+"generic_select_items" = "Einträge auswählen";
 
 /* Select All */
 "generic_select_all" = "Alle auswählen";
@@ -5584,7 +5584,7 @@
 "generic_encryption_settings" = "Verschlüsselung";
 
 /* Easy Read Font on All Fields */
-"item_details_view_settings_easy_read_all" = "Easy Read Font on All Fields";
+"item_details_view_settings_easy_read_all" = "Einfach zu lesende Schriftart in allen Feldern";
 
 /* Auto Fetch FavIcon */
 "item_details_view_settings_auto_fetch_favicon" = "Favicon automatisch abrufen";
@@ -5599,64 +5599,70 @@
 "item_details_view_settings_sort_custom_fields" = "Benutzerdefinierte Felder sortieren";
 
 /* New SSH Key */
-"details_add_new_ssh_key" = "New SSH Key";
+"details_add_new_ssh_key" = "Neuer SSH-Schlüssel";
 
 /* What kind of SSH key would you like to add?\n\nWe recommend using the modern ED25519 key type. */
-"details_add_new_ssh_key_what_kind_prompt" = "What kind of SSH key would you like to add?\n\nWe recommend using the modern ED25519 key type.";
+"details_add_new_ssh_key_what_kind_prompt" = "Welche Art von SSH-Schlüssel möchten Sie hinzufügen?\n\nWir empfehlen die Verwendung des modernen Schlüsseltyps ED25519.";
 
 /* New ED25519 Key */
-"details_add_new_ssh_key_ed25519" = "New ED25519 Key";
+"details_add_new_ssh_key_ed25519" = "Neuer ED25519-Schlüssel";
 
 /* New RSA Key */
-"details_add_new_ssh_key_rsa" = "New RSA Key";
+"details_add_new_ssh_key_rsa" = "Neuer RSA-Schlüssel";
 
 /* New SSH Key... */
-"details_add_new_ssh_key_ellipsis" = "New SSH Key...";
+"details_add_new_ssh_key_ellipsis" = "Neuer SSH-Schlüssel …";
 
 /* Actions - L10n Note: A noun, e.g a list of actions that can be performed */
 "generic_noun_actions" = "Aktionen";
 
 /* OK, Don't Remind Me Again */
-"generic_ok_dont_remind_me_again" = "OK, Don't Remind Me Again";
+"generic_ok_dont_remind_me_again" = "OK, mich bitte nicht erneut daran erinnern";
 
 /* Strongbox Sale Now On */
-"safesvc_sale_now_on" = "Strongbox Sale Now On";
+"safesvc_sale_now_on" = "Strongbox-Verkauf jetzt eröffnet";
 
 /* Subscriber Sale Offer */
-"sale_view_subscriber_title" = "Subscriber Sale Offer";
+"sale_view_subscriber_title" = "Verkaufsangebot für Abonnenten";
 
 /* Sale Now On */
 "sale_view_regular_title" = "Jetzt im Sale";
 
 /* Since you're a Pro subscriber, we'd like to say thank you and offer you a discount on your next renewal */
-"sale_view_subscriber_message" = "Since you're a Pro subscriber, we'd like to say thank you and offer you a discount on your next renewal";
+"sale_view_subscriber_message" = "Da Sie ein Pro-Abonnent sind, möchten wir uns bei Ihnen bedanken und Ihnen einen Rabatt für Ihre nächste Verlängerung anbieten";
 
 /* Want to grab a great deal? Now's the perfect time to go Pro. We've got a special offer on all Strongbox licenses for a short time only. */
-"sale_view_regular_message" = "Now's the perfect time to go Pro. We've got a special offer on all Strongbox licenses for a short time only";
+"sale_view_regular_message" = "Jetzt ist der perfekte Zeitpunkt, um zum Profi zu werden. Nur für kurze Zeit haben wir ein Sonderangebot für alle Strongbox-Lizenzen";
 
 /* Redeem Offer Now */
-"sale_view_subscriber_cta" = "Redeem Offer Now";
+"sale_view_subscriber_cta" = "Angebot jetzt einlösen";
 
 /* Go Pro Now */
-"sale_view_regular_cta" = "Go Pro Now";
+"sale_view_regular_cta" = "Pro jetzt freischalten";
 
 /* Looking for a Lifetime License? */
 "sale_view_looking_for_lifetime" = "Suchen Sie eine unbefristete Lizenz?";
 
 /* Offer ends Midnight %@ - L10n note: The 1st parameter is a day, like Monday or Friday, so: "Offer ends Midnight Friday" for example */
-"sale_view_offer_ends_date_fmt %@" = "Offer ends Midnight %@";
+"sale_view_offer_ends_date_fmt %@" = "Angebot endet um Mitternacht %@";
 
 /* Item Properties... */
-"generic_item_properties_ellipsis" = "Item Properties...";
+"generic_item_properties_ellipsis" = "Eigenschaften des Eintrags ...";
 
 /* Audit Issue Details... */
-"view_audit_issue_details_ellipsis" = "Audit Issue Details...";
+"view_audit_issue_details_ellipsis" = "Details der Sicherheitsprobleme …";
 
 /* Suggest in AutoFill - L10n - Whether an entry should be suggested in the AutoFill dropdown in your browser - It's a Yes/No flag in the UI */
-"suggest_in_autofill_yesno_flag" = "Suggest in AutoFill";
+"suggest_in_autofill_yesno_flag" = "In AutoFill vorschlagen";
 
 /* Toggle Suggest in AutoFill */
-"item_settings_action_verb_toggle_suggest_in_autofill" = "Toggle Suggest in AutoFill";
+"item_settings_action_verb_toggle_suggest_in_autofill" = "In AutoFill vorschlagen (Ein/Aus)";
 
 /* Toggle Audit this Item */
-"item_settings_action_verb_toggle_suggest_in_audit" = "Toggle Audit this Item";
+"item_settings_action_verb_toggle_suggest_in_audit" = "Diesen Eintrag prüfen (Ein/Aus)";
+
+/* for %@ hours - L10n note: the first parameter is numeric, e.g. "for 4 hours", which can appear in the UI as a suffix, so something like "Remember this for 12 hours" */
+"generic_for_n_hours_suffix_fmt" = "for %@ hours";
+
+/* until Strongbox quits - L10n note: used as a suffix, e.g. "Remember this until Strongbox quits" */
+"ssh_agent_remember_approval_until_strongbox_quits" = "until Strongbox quits";
