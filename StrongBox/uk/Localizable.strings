@@ -105,10 +105,10 @@
 "safes_vc_copy_icloud_or_local" = "Копіювати до iCloud чи в локальне сховище?";
 
 /* Question message: copy to iCloud or to Local */
-"safes_vc_copy_local_to_icloud" = "iCloud зараз увімкнено. Хочете скопіювати цю базу паролів до iCloud, чи зберегти лише в пам'яті пристрою?";
+"safes_vc_copy_local_to_icloud" = "iCloud зараз увімкнено. Хочете скопіювати цю базу паролів до iCloud, чи зберегти лише в пам’яті пристрою?";
 
 /* Default button: Copy to Local */
-"safes_vc_copy_to_local" = "Зберегти в пам'яті пристрою";
+"safes_vc_copy_to_local" = "Зберегти в пам’яті пристрою";
 
 /* Second Button: Copy to iCLoud */
 "safes_vc_copy_to_icloud" = "Копіювати до iCloud";
@@ -765,7 +765,7 @@
 "sspc_error_invalid_database" = "Недійсна база паролів";
 
 /* Files... */
-"sspc_ios_files_storage_location" = "Files";
+"sspc_ios_files_storage_location" = "Файли";
 
 /* Since a local database is only stored on this device, any loss of this device will lead to the loss of all passwords stored within this database. You may want to consider using a cloud storage provider, such as the ones supported by Strongbox to avoid catastrophic data loss.\n\nWould you still like to proceed with creating a local device database? */
 "sspc_local_device_storage_warning_message" = "Оскільки локальна база паролів зберігається лише на цьому пристрої, його втрата призведе до втрати всіх паролів цієї бази паролів. Можливо, ви захочете використати одне з хмарних сховищ, що підтримуються Strongbox, щоб запобігти втраті даних.\n\nВсе одно бажаєте продовжити створення локальної бази паролів на пристрої?";
@@ -1818,7 +1818,7 @@
 "model_error_cannot_write_backup" = "Не вдається записати резервну копію. Запис в базу паролів не буде виконано!";
 
 /* Button Title to view backup settings of this database */
-"safes_vc_action_backups" = "Backups";
+"safes_vc_action_backups" = "Резервні копії";
 
 /* Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences */
 "open_sequence_error_reading_key_file_autofill_context" = "Не вдається прочитати ключовий файл. Можливо, він неправильно імпортований? Перевірте керування ключовими файлами в параметрах";
@@ -1884,7 +1884,7 @@
 "generic_fieldname_title" = "Назва";
 
 /* All Fields */
-"generic_fieldname_all_fields" = "All Fields";
+"generic_fieldname_all_fields" = "Всі поля";
 
 /* Username */
 "generic_fieldname_username" = "Ім'я користувача";
@@ -1947,7 +1947,7 @@
 "generic_remove" = "Вилучити";
 
 /* Rename - Translators Note: Verb - To rename something, e.g. an item in a collection, to give it different title */
-"generic_rename" = "Rename";
+"generic_rename" = "Перейменувати";
 
 /* Set */
 "generic_set" = "Встановити";
@@ -2149,7 +2149,7 @@
 "set_icon_vc_icon_source_download_favicons_pro_only" = "Завантажити дочірні піктограми (тільки Pro)";
 
 /* Set Icon(s) */
-"browse_vc_action_set_icons" = "Set Icon(s)";
+"browse_vc_action_set_icons" = "Встановити піктограму";
 
 /* Tap Play to start search */
 "favicon_status_initial" = "Торкніться Відтворити, щоб почати пошук";
@@ -2224,7 +2224,7 @@
 "mac_could_not_unlock_database" = "Не вдалося відімкнути базу паролів";
 
 /* Touch ID Considerations\n\nWhile this is very convenient, it is not a perfect system for protecting your passwords. It is provided for convenience only. It is within the realm of possibilities that someone with access to your device or your fingerprint, can produce a good enough fake fingerprint to fool Apple’s Touch ID. In addition, on your Mac, your master password will be securely stored in the Keychain. This means it is possible for someone with administrative privileges to search your Keychain for your master password. You should be aware that a strong passphrase held only in your mind provides the most secure experience with StrongBox.\n\nPlease take all of this into account, and make your decision to use Touch ID based on your preferred balance of convenience and security. */
-"mac_touch_id_one_time_warning" = "Застереження про Touch ID/Apple Watch\nПопри зручність, це не найкращий спосіб захисту ваших паролів. Ця функція забезпечує лише зручність. Цілком можливо, що стороння особа, яка має доступ до вашого пристрою чи ваших відбитків пальців, зможе підробити відбитки пальців, якими можна обдурити функцію Touch ID від Apple. Крім того, головний пароль зберігатиметься у в'язці ключів на вашому Mac. Це означає, що хтось із правами доступу адміністратора зможе знайти ваш головний пароль у в'язці ключів. Надійна парольна фраза, яку ви завжди пам'ятаєте, забезпечує найкращий захист разом зі StrongBox.\n\nБудь ласка, подумайте про все це і прийміть зважене рішення щодо необхідності використання Touch ID, керуючись балансом зручності й безпеки.";
+"mac_touch_id_one_time_warning" = "Застереження про Touch ID/Apple Watch\n\nНезважаючи на зручність, це не найкращий спосіб захисту ваших паролів. Ця функція забезпечує лише зручність. Цілком можливо, що стороння особа, яка має доступ до вашого пристрою чи ваших відбитків пальців, зможе підробити відбитки пальців, якими можна обдурити функцію Touch ID від Apple. Крім того, головний пароль зберігатиметься у в'язці ключів на вашому Mac. Це означає, що хтось з правами доступу адміністратора зможе знайти ваш головний пароль у в'язці ключів. Вам слід пам'ятати, що надійна парольна фраза, яку ви завжди пам'ятаєте, забезпечує найкращий захист разом із StrongBox.\n\nБудь ласка, подумайте про все це і прийміть зважене рішення щодо необхідності використання Touch ID, керуючись балансом зручності й безпеки.";
 
 /* You cannot lock a database while changes are pending. Save changes and lock now? */
 "mac_cant_lock_db_while_changes_pending" = "Неможливо замкнути базу паролів, якщо є незбережені зміни. Зберегти зміни зараз і замкнути?";
@@ -2478,7 +2478,7 @@
 "mac_create_new_database_title" = "Створити нову базу паролів";
 
 /* Enter Master Credentials */
-"mac_enter_database_master_credentials" = "Enter Master Credentials";
+"mac_enter_database_master_credentials" = "Введіть основні облікові дані";
 
 /* Click Browse to Select a Key File */
 "mac_click_browse_select_key_file" = "Натисніть Огляд для вибору ключового файлу";
@@ -2694,7 +2694,7 @@
 "mac_browse_for_key_file" = "Огляд...";
 
 /* Configured - (Translators Note: User is using a key file, Strongbox knows what/where it is, but will not display the file name in the UI for privacy reasons. This appears on the unlock screen. */
-"mac_key_file_configured_but_filename_hidden" = "Configured";
+"mac_key_file_configured_but_filename_hidden" = "Налаштовано";
 
 /* %@ (Configured) - (Translators Note: User is using a key file that has previously been set/remembered by Strongbox. First parameter is the filename of the key file. This appears on the unlock screen. */
 "mac_key_file_filename_configured_fmt" = "%@ (налаштовано)";
@@ -2825,7 +2825,7 @@
 "yubikey_insert_the_key_to_read_the_otp" = "Вставте ключ, щоб прочитати одноразовий пароль";
 
 /* Communicating with hardware key... */
-"yubikey_communicating_with_key_ellipsis" = "З'єднання з апаратним ключем...";
+"yubikey_communicating_with_key_ellipsis" = "З’єднання з апаратним ключем...";
 
 /* Icon Set */
 "browse_prefs_icon_set" = "Набір піктограм";
@@ -3344,10 +3344,10 @@
 "onboarding_vc_start_your_free_trial_subtitle_no_subscription" = "Передплата не обов'язкова";
 
 /* Could not bookmark this file */
-"open_sequence_error_could_not_bookmark_file" = "Could not bookmark this file";
+"open_sequence_error_could_not_bookmark_file" = "Не вдалося додати закладку для цього файлу";
 
 /* Invalid Database - [%@] */
-"open_sequence_invalid_database_filename_fmt" = "Invalid Database - [%@]";
+"open_sequence_invalid_database_filename_fmt" = "Недійсна база паролів - [%@]";
 
 /* Different Filename */
 "open_sequence_database_different_filename_title" = "Інша назва файлу";
@@ -3365,10 +3365,10 @@
 "open_sequence_storage_provider_view_sync_error_details" = "Подробиці помилки";
 
 /* Use Local (Read-Only) */
-"open_sequence_use_local_copy_option" = "Локальна копія (Лише читання)";
+"open_sequence_use_local_copy_option" = "Відкрити локально";
 
 /* Delete (Translators Note: Verb - To Delete an item) */
-"generic_action_delete" = "Delete";
+"generic_action_delete" = "Видалити";
 
 /* Are you sure the URL is correct? It should be a path to a parent folder. Not the database file. */
 "webdav_vc_validation_url_are_you_sure" = "Ви впевнені, що URL-адреса правильна? Це повинна бути URL до теки верхнього рівня. Не файл бази даних.";
@@ -3419,16 +3419,16 @@
 "hint_tap_and_hold_to_see_options" = "Порада: Торкніться й утримуйте для перегляду параметрів";
 
 /* Launch URL & Copy */
-"browse_action_launch_url_copy_password" = "Launch URL & Copy Password";
+"browse_action_launch_url_copy_password" = "Відкрити посилання та скопіювати пароль";
 
 /* Copy Other Field... */
 "browse_context_menu_copy_other_field" = "Копіювати поле...";
 
 /* Move - Translators Note: Verb - To move something e.g. an entry or group somewhere else in the hierarchy */
-"generic_move" = "Move";
+"generic_move" = "Перемістити";
 
 /* New Entry - Translators Note: Menu option to add a new entry */
-"browse_context_menu_new_entry" = "New Entry";
+"browse_context_menu_new_entry" = "Новий запис";
 
 /* New Group Translators Note: Menu option to add a new group */
 "browse_context_menu_new_group" = "Нова група";
@@ -3437,7 +3437,7 @@
 "generic_select" = "Вибрати";
 
 /* Start with Search - Translators Note: Option to start with the search field focused immediately upon unlock */
-"browse_context_menu_start_with_search" = "Start with Search";
+"browse_context_menu_start_with_search" = "Запускати з пошуку";
 
 /* Sort - Translators Note: Verb - to sort items by title or other field */
 "generic_sort" = "Впорядкувати";
@@ -3449,13 +3449,13 @@
 "browse_context_menu_database_settings" = "Параметри";
 
 /* Set Credentials */
-"browse_context_menu_set_master_credentials" = "Set Master Credentials";
+"browse_context_menu_set_master_credentials" = "Встановити основні облікові дані";
 
 /* Show Password - Translators Note: On Browse screen - context menu item - This option will display the password in a large full screen font for easy reading with a QR Code */
 "browse_context_menu_show_password" = "Показати пароль";
 
 /* Read Only */
-"databases_toggle_read_only_context_menu" = "Read Only";
+"databases_toggle_read_only_context_menu" = "Лише читання";
 
 /* Quick Launch */
 "databases_toggle_quick_launch_context_menu" = "Швидкий запуск";
@@ -3464,7 +3464,7 @@
 "browse_vc_action_properties" = "Властивості";
 
 /* Find */
-"browse_vc_action_keyboard_shortcut_find" = "Find";
+"browse_vc_action_keyboard_shortcut_find" = "Знайти";
 
 /* Custom Data */
 "properties_vc_header_custom_data" = "Власні дані";
@@ -3473,7 +3473,7 @@
 "properties_vc_footer_custom_data" = "Власні дані використовуються плагінами й іншими програмами.";
 
 /* Properties */
-"properties_vc_header_basic" = "Properties";
+"properties_vc_header_basic" = "Властивості";
 
 /* Some simple properties and settings of this item. */
 "properties_vc_footer_basic" = "Деякі прості властивості й параметри цього запису.";
@@ -3593,10 +3593,10 @@
 "generic_action_create_local_database" = "Створити локальну копію";
 
 /* Identical databases. */
-"merge_result_databases_identical" = "Ідентичні бази даних.";
+"merge_result_databases_identical" = "Немає змін для об'єднання з першою.";
 
 /* Compare & Merge... */
-"generic_action_compare_and_merge_ellipsis" = "Порівняти й об'єднати...";
+"generic_action_compare_and_merge_ellipsis" = "Порівняти й об’єднати...";
 
 /* Merge will lead to a %0.1f%% difference. (Translators Note: 1st param is a percentage like '12.2%' (please don't edit/touch the percentage signs as it will likely cause a crash)) */
 "merge_result_will_lead_to_percentage_difference_fmt" = "Об'єднання призведе до %0.1f%% відмінностей.";
@@ -3608,7 +3608,7 @@
 "diff_result_percentage_difference_fmt" = "Друга база даних відрізняється на %0.1f%%.";
 
 /* Identical databases. */
-"diff_result_databases_identical" = "Identical databases.";
+"diff_result_databases_identical" = "Ідентичні бази даних.";
 
 /* Some database properties will change. */
 "merge_result_databases_properties_will_change" = "Деякі властивості бази даних зміняться.";
@@ -3617,7 +3617,7 @@
 "diff_result_databases_properties_different" = "Властивості бази даних відрізняються.";
 
 /* Summary */
-"diff_view_section_header_summary" = "Summary";
+"diff_view_section_header_summary" = "Підсумок";
 
 /* Will be Changed (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
 "diff_view_section_header_entry_will_be_changed_count_fmt" = "Буде змінено (%lu)";
@@ -3662,7 +3662,7 @@
 "merge_view_merge_message_success" = "Об'єднання пройшло успішно і ваша база даних тепер оновлена.";
 
 /* There was an problem merging this database. */
-"merge_view_merge_title_error" = "Виникла проблема при об'єднанні цієї бази даних.";
+"merge_view_merge_title_error" = "Виникла проблема при об’єднанні цієї бази даних.";
 
 /* From %@ to %@ - Translators Note: 1st parameter is the old value that will change to the new value which is the second value e.g. 'From my-initial-username to my-changed-username' */
 "diff_drill_down_previous_new_fmt" = "З %@ по %@";
@@ -3776,10 +3776,10 @@
 "diff_drill_down_created_dates_are_different" = "Дати створення відрізняються.";
 
 /* Modified Date will change. */
-"diff_drill_down_mod_date_will_change" = "Modified Date will change.";
+"diff_drill_down_mod_date_will_change" = "Дата запису зміниться.";
 
 /* Modified Dates are different. */
-"diff_drill_down_mod_dates_are_different" = "Modified Dates are different.";
+"diff_drill_down_mod_dates_are_different" = "Дати запису відрізняються.";
 
 /* Expiry Date will change. */
 "diff_drill_down_expiry_date_will_change" = "Дата терміну дії зміниться.";
@@ -3866,7 +3866,7 @@
 "pin_entry_app_default_text" = "ПІН програми";
 
 /* Compare & Merge (Pro) */
-"conflict_resolution_compare_pro_only" = "Порівняння й об'єднання (Pro)";
+"conflict_resolution_compare_pro_only" = "Порівняти й об'єднати (Pro)";
 
 /* Sync Later (Pro) */
 "conflict_resolution_sync_later_pro_only" = "Синхронізувати пізніше (Pro)";
@@ -3941,7 +3941,7 @@
 "open_sequence_yes_use_local_copy_option" = "Відкрити локально";
 
 /* Open Offline */
-"open_sequence_use_local_copy_option" = "Open Offline";
+"open_sequence_use_local_copy_option" = "Відкрити локально";
 
 /* Open Offline (Read-Only) */
 "open_sequence_use_local_copy_option_ro" = "Відкрити локально (лише читання)";
@@ -3989,10 +3989,10 @@
 "quick_type_format_title_username" = "Заголовок (ім'я користувача)";
 
 /* Title */
-"quick_type_format_title" = "Title";
+"quick_type_format_title" = "Заголовок";
 
 /* Username */
-"quick_type_format_username" = "Username";
+"quick_type_format_username" = "Ім'я користувача";
 
 /* QuickType Format */
 "prefs_vc_quick_type_format" = "Формат QuickType";
@@ -4065,7 +4065,7 @@
 "mac_item_duplicated" = "Створено дублікат запису";
 
 /* File - Localization Note: This should be very short, 3-4 characters if possible. This indicates a regular file on the file system on a Mac. */
-"storage_provider_name_mac_file_short" = "File";
+"storage_provider_name_mac_file_short" = "Файл";
 
 /* Done. ✅ */
 "sync_log_status_done" = "Виконано. ✅";
@@ -4113,7 +4113,7 @@
 "autofill_search_service_id_section_footer" = "ID служби - це ідентифікатор, що надсилається в Strongbox автозаповненням. Він може допомогти виявити, чи ви встановили для URL запису відповідність ID служби. Торкніться, щоб копіювати.";
 
 /* Results */
-"quick_view_title_no_matches_title" = "Results";
+"quick_view_title_no_matches_title" = "Результати";
 
 /* Unlock with Touch ID */
 "mac_unlock_database_with_touch_id" = "Відімкнути з Touch ID";
@@ -4206,7 +4206,7 @@
 "mac_undo_action_add_tag" = "Додати мітку";
 
 /* Tags */
-"generic_fieldname_tags" = "Tags";
+"generic_fieldname_tags" = "Мітки";
 
 /* Enter a new tag to add for this item */
 "mac_vc_please_enter_a_tag" = "Введіть нову мітку для цього запису";
@@ -4317,16 +4317,16 @@
 "composite_key_determiner_convenience_expired_message" = "Необхідно ввести ваш головний пароль. Ви можете змінити інтервал нагадування в параметрах бази даних.";
 
 /* Got it! */
-"generic_got_it" = "Got it!";
+"generic_got_it" = "Зрозуміло!";
 
 /* Don't tell me again */
-"generic_dont_tell_again" = "Don't tell me again";
+"generic_dont_tell_again" = "Більше не повідомляти";
 
 /* Actions - L10n - a generic collection of actions (or items that will perform certain actions/tasks) - often used as a Section Header */
-"generic_actions" = "Actions";
+"generic_actions" = "Дії";
 
 /* Preferences - L10n - a generic header or item that leads to a set or settings / preferences - often used as a Section Header or button */
-"generic_preferences" = "Preferences";
+"generic_preferences" = "Параметри";
 
 /* Rearrange - L10n - Verb - to re-order or otherwise change the order of a list of items */
 "generic_rearrange" = "Змінити порядок";
@@ -4335,7 +4335,7 @@
 "onboarding_convenience_message_fmt" = "Вводити головний пароль - це довго, складно і можна помилитися. Strongbox може допомогти вам безпечно та швидко відмикати вашу базу паролів без необхідності вводити щоразу головний пароль.\n\nБажаєте використовувати зручне відмикання?";
 
 /* Dismiss - L10n Note: Generic Action to dismiss a dialog or popup */
-"generic_dismiss" = "Dismiss";
+"generic_dismiss" = "Пропустити";
 
 /* There is a configuration issue you should be aware of. You are using %@ for both App Lock and Quick Launch. In addition you allow device passcode fallback for App Lock.\n\nThis leads to a situation where you can unlock your database using only your device passcode.\n\nIf you do not want this you can do any of the following: Disable App Lock passcode fallback, or Quick Launch, or %@ Database Unlock, or coalescing of unlocks - L10n Note: 3 format parameters here are identical and will be either 'Face ID' or 'Touch ID' */
 "app_lock_coalescing_with_quick_launch_warning" = "Виникла проблема конфігурації, про яку вам слід знати. Ви використовуєте %@ для замкнення програми та швидкого запуску. Крім того, ви дозволили резервне використання коду допуску пристрою для замкнення програми.\n\nЦе призводить до ситуації, коли ви зможете відімкнути базу паролів лише за допомогою коду допуску пристрою.\n\nЯкщо ви цього не хочете, ви можете зробити будь-що з наведеного: Вимкнути резервне відмикання кодом допуску пристрою, або вимкнути швидкий запуск, або %@ відмикання бази паролів, або об'єднанням способів відмикання.";
@@ -4353,7 +4353,7 @@
 "onboarding_ready_to_launch_message" = "Ви все налаштували для найкращої роботи Strongbox.\n\nПам'ятайте, що ви завжди можете змінити ці налаштування.";
 
 /* Scheduled Export */
-"onboarding_scheduled_export_title" = "Scheduled Export";
+"onboarding_scheduled_export_title" = "Запланований експорт";
 
 /* It's always a good idea to keep backups, especially external ones. Strongbox can remind you to export your database every so often.\n\nWould you like Strongbox to prompt you to export your database if it has been a while? */
 "onboarding_scheduled_export_message" = "Зберігати резервні копії завжди хороша ідея, особливо в зовнішніх місцях. Strongbox може періодично нагадувати вам про необхідність експорту бази паролів.\n\nБажаєте, щоб Strongbox запитував вас про експорт бази паролів через певний час?";
@@ -4392,7 +4392,7 @@
 "prefs_vc_scheduled_export_interval" = "Інтервал розкладу експорту";
 
 /* Welcome Aboard */
-"onboarding_welcome_to_strongbox_first_run_title" = "Welcome Aboard";
+"onboarding_welcome_to_strongbox_first_run_title" = "Ласкаво просимо";
 
 /* Hi there, and welcome to Strongbox 😎\n\nWe're sure you're excited to get started, but first, there are a few steps we should take so that everything runs smoothly... */
 "onboarding_welcome_to_strongbox_first_run_message" = "Вітаємо в Strongbox 😎\n\nМи впевнені, що ви бажаєте якнайшвидше розпочати користування, але спершу слід виконати кілька кроків для найкращої подальшої роботи...";
@@ -4404,7 +4404,7 @@
 "generic_get_started" = "Розпочати";
 
 /* You're All Set! */
-"generic_youre_all_set" = "You're All Set!";
+"generic_youre_all_set" = "Все готово!";
 
 /* Next up, we'll take you to your regular Databases screen.\n\nFrom here, we'll help you add your first password database.\n\n❤️ The Strongbox Team ❤️ */
 "onboarding_welcome_to_strongbox_first_run_final_message" = "Далі ви перейдете до основного екрана вашої бази паролів.\n\nТут ми допоможемо вам додати свою першу базу паролів.\n\n❤️ Команда Strongbox ❤️";
@@ -4469,7 +4469,7 @@
 "export_items_select_destination_group_title" = "Експортувати сюди";
 
 /* Export Database */
-"generic_export_database" = "Export Database";
+"generic_export_database" = "Експорт бази паролів";
 
 /* Export Item */
 "generic_export_item" = "Експорт елемента";
@@ -4574,13 +4574,13 @@
 "keepass_kdbx4x_format" = "KeePass 2 (KDBX 4.x)";
 
 /* Memory */
-"generic_memory" = "Memory";
+"generic_memory" = "Пам'ять";
 
 /* Parallelism */
 "generic_parallelism" = "Паралелізм";
 
 /* Algorithm */
-"generic_algorithm" = "Algorithm";
+"generic_algorithm" = "Алгоритм";
 
 /* Compression */
 "generic_compression" = "Стиснення";
@@ -4769,7 +4769,7 @@
 "menu_item_header_randomly_generated_suggestions" = "Випадково згенеровано";
 
 /* Most Used */
-"menu_item_header_most_used_suggestions" = "Most Used";
+"menu_item_header_most_used_suggestions" = "Найвживаніше";
 
 /* Are you sure you want to clear the expiry for this entry? */
 "are_you_sure_clear_expiry" = "Ви дійсно хочете очистити термін дії цього запису?";
@@ -4784,13 +4784,13 @@
 "discard_changes" = "Відхилити зміни";
 
 /* Create Group */
-"create_group" = "Create Group";
+"create_group" = "Створити групу";
 
 /* Edit Entry */
 "edit_entry" = "Редагувати запис";
 
 /* Create Entry */
-"create_entry" = "Create Entry";
+"create_entry" = "Створити запис";
 
 /* Tidy Up Field? */
 "field_tidy_title_tidy_up_field" = "Стерти зайве в полі?";
@@ -4823,7 +4823,7 @@
 "generic_fieldname_urls" = "URL-адреси";
 
 /* Copy - L10n Note: This is a verb, to copy an item/string/field to the clipboard */
-"generic_action_verb_copy_to_clipboard" = "Copy";
+"generic_action_verb_copy_to_clipboard" = "Копіювати";
 
 /* Copy - L10n Note: This is a verb, to copy the field name (e.g. if there is a field: Custom-Field-1="value", then this would copy "Custom-Field-1" to the clipboard */
 "generic_action_verb_copy_field_name_to_clipboard" = "Копіювати назву поля";
@@ -4838,7 +4838,7 @@
 "generic_action_verb_launch_url" = "Запуск URL";
 
 /* Show QR Code */
-"generic_action_show_qr_code" = "Show QR Code";
+"generic_action_show_qr_code" = "Показати QR-код";
 
 /* Show Large Text View */
 "generic_action_show_large_text_view" = "Великий текст";
@@ -4934,7 +4934,7 @@
 "custom_app_icon_category_utilities" = "Утиліти";
 
 /* Default */
-"custom_app_icon_category_default" = "Default";
+"custom_app_icon_category_default" = "Типово";
 
 /* Are you sure you want to reset to the default App Icon? */
 "are_you_sure_reset_to_default_app_icon" = "Ви дійсно хочете повернути типову піктограму програми?";
@@ -4997,7 +4997,7 @@
 "generic_ask_me_later" = "Запитати пізніше";
 
 /* Lock Database - L10n note: Verb, To Lock, Locks the Database */
-"verb_lock_database" = "Lock Database";
+"verb_lock_database" = "Замкнути базу даних";
 
 /* Are you sure you want to delete this tag? */
 "are_you_sure_delete_tag_message" = "Ви дійсно хочете видалити цю мітку?";
@@ -5048,7 +5048,7 @@
 "mac_notes_partially_copied_to_clipboard" = "Примітки (Частково) скопійовано";
 
 /* Change My License... */
-"upgrade_vc_change_my_license" = "Change My License...";
+"upgrade_vc_change_my_license" = "Змінити мою ліцензію...";
 
 /* Hi there 😎\n\nWe're excited you've decided to try us out and we just wanted to say thanks! So, without further ado, let's get started...\n\n❤️ The Strongbox Team ❤️ */
 "onboarding_welcome_to_strongbox_first_run_message_macos" = "Вітаю 😎\n\nНам дуже приємно, що ви вирішили спробувати, і вдячні за це! Отже, без зайвих зволікань розпочнімо...\n\n❤️ Команда Strongbox ❤️";
@@ -5087,7 +5087,7 @@
 "upgrade_vc_feature_subtitle_support" = "Ми працюємо для вас";
 
 /* Compare & Merge */
-"upgrade_vc_feature_compare_and_merge" = "Порівняння й об'єднання";
+"upgrade_vc_feature_compare_and_merge" = "Порівняти й об’єднати";
 
 /* View & Combine Revisions */
 "upgrade_vc_feature_subtitle_compare_and_merge" = "Перегляд та об'єднання редакцій";
@@ -5111,7 +5111,7 @@
 "upgrade_vc_feature_subtitle_favicon_downloader" = "Зробіть свої записи особливими";
 
 /* Support Indie Development */
-"upgrade_vc_feature_support_indie" = "Support Indie Development";
+"upgrade_vc_feature_support_indie" = "Підтримка незалежної розробки";
 
 /* Help us stay awesome! */
 "upgrade_vc_feature_subtitle_support_indie" = "Допоможіть нам залишатися неймовірними!";
@@ -5150,37 +5150,37 @@
 "1password_import_warning_msg" = "Процес імпортування не ідеальний і деякі функції 1Password, як-от назви розділів, недоступні в Strongbox.\n\nВажливо перевірити, що після імпортування ваші записи є прийнятними.";
 
 /* Recycle Bin - The name of the recycle bin, the folder where items go instead of being fully deleted */
-"generic_recycle_bin_name" = "Recycle Bin";
+"generic_recycle_bin_name" = "Смітник";
 
 /* Commit & Close (⌘⏎) */
-"mac_create_or_edit_commit_changes_and_close" = "Commit & Close (⌘⏎)";
+"mac_create_or_edit_commit_changes_and_close" = "Зберегти й закрити (⌘⏎)";
 
 /* Close (⌘⏎) */
 "mac_create_or_edit_commit_close" = "Закрити (⌘⏎)";
 
 /* Touch ID & Watch Unlock Settings... */
-"nextgen_toolbar_settings_convenience_unlock_ellipsis" = "Touch ID & Watch Unlock Settings...";
+"nextgen_toolbar_settings_convenience_unlock_ellipsis" = "Параметри відмикання Touch ID та Watch...";
 
 /* AutoFill Settings... */
-"nextgen_toolbar_settings_autofill_settings_ellipsis" = "AutoFill Settings...";
+"nextgen_toolbar_settings_autofill_settings_ellipsis" = "Параметри автозаповнення...";
 
 /* Encryption Settings... */
-"nextgen_toolbar_settings_encryption_settings_ellipsis" = "Encryption Settings...";
+"nextgen_toolbar_settings_encryption_settings_ellipsis" = "Параметри шифрування...";
 
 /* Change Master Credentials... */
-"nextgen_toolbar_settings_change_master_credentials_ellipsis" = "Change Master Credentials...";
+"nextgen_toolbar_settings_change_master_credentials_ellipsis" = "Змінити основні облікові дані...";
 
 /* Database Settings... */
-"nextgen_toolbar_settings_database_settings_ellipsis" = "Database Settings...";
+"nextgen_toolbar_settings_database_settings_ellipsis" = "Параметри бази даних...";
 
 /* Application Preferences... */
 "nextgen_toolbar_settings_application_preferences_ellipsis" = "Параметри програми...";
 
 /* Settings */
-"generic_settings" = "Settings";
+"generic_settings" = "Параметри";
 
 /* Excluded Characters */
-"password_gen_vc_prompt_excluded_characters" = "Excluded Characters";
+"password_gen_vc_prompt_excluded_characters" = "Виключені символи";
 
 /* Ascending */
 "generic_sort_order_ascending" = "За зростанням";
@@ -5207,7 +5207,7 @@
 "nextgen_sync_issue_toast_message" = "Strongbox не може синхронізувати зміни...";
 
 /* More... - Used in the UI to indicate a button which you can click on to learn or find out more */
-"generic_more_with_ellipsis" = "More...";
+"generic_more_with_ellipsis" = "Більше...";
 
 /* Lock Database? */
 "mac_on_window_close_action_title" = "Замкнути базу даних?";
@@ -5231,7 +5231,7 @@
 "error_could_not_save_title" = "Помилка збереження\nСпробуйте зберегти ще раз";
 
 /* Sync - L10n - This is a verb - To Synchronize */
-"generic_action_sync" = "Sync";
+"generic_action_sync" = "Синхронізація";
 
 /* Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Sync Log?\n\n%@\n */
 "sync_error_message_including_error_detail_fmt" = "Вашу базу даних надійно збережено, але виникла помилка під час синхронізації. Бажаєте спробувати синхронізувати знову чи переглянути журнал синхронізації?\n\n%@\n";
@@ -5282,7 +5282,7 @@
 "generic_single_item_singular_fmt" = "%@ елемент";
 
 /* Configure Tabs */
-"configure_tabs" = "Configure Tabs";
+"configure_tabs" = "Налаштувати вкладки";
 
 /* Sort Groups Separately */
 "sort_configuration_custom_sort_order_and_sort_groups_separately" = "Зберігати групи вгорі";
@@ -5318,7 +5318,7 @@
 "safes_vc_import_1password_1pux" = "1Password (1Pux)...";
 
 /* Import */
-"safesvc_import_submenu" = "Import";
+"safesvc_import_submenu" = "Імпорт";
 
 /* LastPass (CSV) */
 "safes_vc_import_lastpass" = "LastPass (CSV)";
@@ -5330,7 +5330,7 @@
 "are_you_sure_auto_commit_totp_msg" = "Вимкнення автовведення означає, що ви можете втратити цей TOTP, якщо забудете його ввести. Ви впевнені?";
 
 /* Close - A generic verb - to Close a popup or dialog */
-"generic_verb_close" = "Close";
+"generic_verb_close" = "Закрити";
 
 /* Discard - A verb - to discard any pending changes that might have been made */
 "generic_verb_discard" = "Відхилити";
@@ -5342,16 +5342,16 @@
 "password_history_this_password_was_used_until_fmt" = "Використовувався до %@";
 
 /* Previous Passwords - A heading above a list of previously used passwords */
-"password_history_previous_passwords" = "Previous Passwords";
+"password_history_previous_passwords" = "Попередні паролі";
 
 /* Turn On Browser AutoFill? */
 "onboarding_autofill_title_turn_on" = "Увімкнути автозаповнення в браузері?";
 
 /* Turn On AutoFill */
-"onboarding_autofill_option_turn_on_autofill" = "Turn On AutoFill";
+"onboarding_autofill_option_turn_on_autofill" = "Увімкнути автозаповнення";
 
 /* No Thanks */
-"generic_no_thanks" = "No Thanks";
+"generic_no_thanks" = "Ні, дякую";
 
 /* Browser AutoFill is available but currently not turned on. Would you like to enable Browser AutoFill so that you can conveniently and securely login from within your browser? */
 "onboarding_autofill_msg_available_turn_on_question" = "Автозаповнення в браузері доступне, але наразі вимкнено. Бажаєте увімкнути його для можливості зручного та безпечного введення облікових даних у браузері?";
@@ -5366,7 +5366,7 @@
 "number_of_entries_or_groups_immediate_and_recursive_fmt" = "%d (%d рекурсивні)";
 
 /* Searchable */
-"group_properties_searchable" = "Searchable";
+"group_properties_searchable" = "Доступно для пошуку";
 
 /* Inherited (%@) - L10n Note: The 1st parameter will be "Yes" or "No" indicating whether the actual inherited value of this item is effectively Yes/No flowing down from its parent value. */
 "item_properties_inherited_yes_no_fmt" = "Успадковано (%@)";
@@ -5387,13 +5387,13 @@
 "mac_create_or_edit_save_changes" = "Зберегти (⌘S)";
 
 /* Commit (⌘S) */
-"mac_create_or_edit_commit_changes" = "Commit (⌘S)";
+"mac_create_or_edit_commit_changes" = "Зберегти (⌘S)";
 
 /* Hierarchy (%@ Groups, %@ Entries) - L10n Note - The two parameters are numeric, so for example: "23 Groups, 3456 Entries"*/
 "side_bar_hierarchy_folder_structure_summary_count_fmt" = "Ієрархія (%@ груп, %@ записів)";
 
 /* Entries */
-"side_bar_child_count_format_entries" = "Entries";
+"side_bar_child_count_format_entries" = "Записи";
 
 /* Entries (Recursive) */
 "side_bar_child_count_format_entries_rec" = "Записи (Рекурсивно)";
@@ -5405,7 +5405,7 @@
 "side_bar_child_count_format_groups_and_entries_rec" = "Групи й записи (Рекурсивно)";
 
 /* Items */
-"side_bar_child_count_format_items" = "Items";
+"side_bar_child_count_format_items" = "Елементи";
 
 /* Items (Recursive) */
 "side_bar_child_count_format_items_rec" = "Елементи (Рекурсивно)";
@@ -5450,16 +5450,16 @@
 "ssh_agent_disabled_for_agent" = "Вимкнено для SSH-агента";
 
 /* SSH Key */
-"ssh_agent_ssh_key" = "SSH Key";
+"ssh_agent_ssh_key" = "SSH-ключ";
 
 /* Export... */
-"generic_export_ellipsis" = "Export...";
+"generic_export_ellipsis" = "Експорт...";
 
 /* Public Key */
 "generic_public_key" = "Публічний ключ";
 
 /* Private Key */
-"generic_private_key" = "Private Key";
+"generic_private_key" = "Приватний ключ";
 
 /* Fingerprint - L10n Note: An SSH Key Fingerprint */
 "ssh_agent_key_fingerprint" = "Відбиток пальця";
@@ -5515,7 +5515,7 @@
 "nextgen_ui_deprecation_switch_notice" = "Все готово! Потрібно перезапустити Strongbox, щоб активувати новий інтерфейс.";
 
 /* Password Generator */
-"popout_password_generator" = "Password Generator";
+"popout_password_generator" = "Генератор паролів";
 
 /* verify existing credentials before you can change them - L10n Note: This is a suffix that appears on the Touch ID request dialog on macOS, it is prefixed by system text: "Strongbox is trying to", so ultimately this string will look like: "Strongbox is trying to verify existing credentials before you can change them" */
 "verify_creds_before_changing_bio_message_suffix" = "підтвердьте облікові дані, перш ніж їх змінити";
@@ -5566,37 +5566,37 @@
 "generic_select_items" = "Виберіть записи";
 
 /* Select All */
-"generic_select_all" = "Select All";
+"generic_select_all" = "Виділити все";
 
 /* Print Database */
-"generic_print_database" = "Print Database";
+"generic_print_database" = "Друк бази паролів";
 
 /* Advanced - L10n: Noun - e.g. Advanced Settings */
-"generic_advanced_noun" = "Advanced";
+"generic_advanced_noun" = "Додатково";
 
 /* AutoFill - L10n: Noun referring to AutoFill Settings */
-"generic_autofill_settings" = "AutoFill";
+"generic_autofill_settings" = "Автозаповнення";
 
 /* Automatic Locking - L10n: Noun referring to Automatic Locking Settings */
-"generic_auto_lock_settings" = "Automatic Locking";
+"generic_auto_lock_settings" = "Автоматичне замкнення";
 
 /* Encryption - L10n: Noun referring to Encryption Settings  */
-"generic_encryption_settings" = "Encryption";
+"generic_encryption_settings" = "Шифрування";
 
 /* Easy Read Font on All Fields */
 "item_details_view_settings_easy_read_all" = "Легкий для читання шрифт у всіх полях";
 
 /* Auto Fetch FavIcon */
-"item_details_view_settings_auto_fetch_favicon" = "Auto Fetch FavIcon";
+"item_details_view_settings_auto_fetch_favicon" = "Автозавантаження піктограм";
 
 /* Reveal Password Immediately */
-"item_details_view_settings_reveal_password_immediately" = "Reveal Password Immediately";
+"item_details_view_settings_reveal_password_immediately" = "Показувати паролі";
 
 /* Colorize Passwords */
-"item_details_view_settings_colorize_passwords" = "Colorize Passwords";
+"item_details_view_settings_colorize_passwords" = "Кольорові паролі";
 
 /* Sort Custom Fields */
-"item_details_view_settings_sort_custom_fields" = "Sort Custom Fields";
+"item_details_view_settings_sort_custom_fields" = "Сортувати власні поля";
 
 /* New SSH Key */
 "details_add_new_ssh_key" = "Новий SSH-ключ";
@@ -5605,7 +5605,7 @@
 "details_add_new_ssh_key_what_kind_prompt" = "Який тип SSH-ключа ви бажаєте додати?\n\nМи рекомендуємо використовувати сучасний тип ключа ED25519.";
 
 /* New ED25519 Key */
-"details_add_new_ssh_key_ed25519" = "New ED25519 Key";
+"details_add_new_ssh_key_ed25519" = "Новий ключ ED25519";
 
 /* New RSA Key */
 "details_add_new_ssh_key_rsa" = "Новий RSA-ключ";
@@ -5614,7 +5614,7 @@
 "details_add_new_ssh_key_ellipsis" = "Новий SSH-ключ...";
 
 /* Actions - L10n Note: A noun, e.g a list of actions that can be performed */
-"generic_noun_actions" = "Actions";
+"generic_noun_actions" = "Дії";
 
 /* OK, Don't Remind Me Again */
 "generic_ok_dont_remind_me_again" = "Гаразд, не нагадувати мені знову";
@@ -5626,7 +5626,7 @@
 "sale_view_subscriber_title" = "Пропозиція розпродажу для передплатників";
 
 /* Sale Now On */
-"sale_view_regular_title" = "Sale Now On";
+"sale_view_regular_title" = "Розпродаж";
 
 /* Since you're a Pro subscriber, we'd like to say thank you and offer you a discount on your next renewal */
 "sale_view_subscriber_message" = "Оскільки ви користуєтеся передплатою Pro, ми дякуємо вам і бажаємо запропонувати знижку на наступне поновлення передплати";
@@ -5641,7 +5641,7 @@
 "sale_view_regular_cta" = "Перейти на Pro";
 
 /* Looking for a Lifetime License? */
-"sale_view_looking_for_lifetime" = "Looking for a Lifetime License?";
+"sale_view_looking_for_lifetime" = "Шукаєте довічну ліцензію?";
 
 /* Offer ends Midnight %@ - L10n note: The 1st parameter is a day, like Monday or Friday, so: "Offer ends Midnight Friday" for example */
 "sale_view_offer_ends_date_fmt %@" = "Пропозиція завершується опівночі %@";
@@ -5665,4 +5665,4 @@
 "generic_for_n_hours_suffix_fmt" = "на %@ годин";
 
 /* until Strongbox quits - L10n note: used as a suffix, e.g. "Remember this until Strongbox quits" */
-"ssh_agent_remember_approval_until_strongbox_quits" = "until Strongbox quits";
+"ssh_agent_remember_approval_until_strongbox_quits" = "до виходу зі Strongbox";
