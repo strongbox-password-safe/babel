@@ -552,7 +552,7 @@
 "db_management_enable_done" = "自动填充已启用";
 
 /* Could not change credentials */
-"db_management_error_title_couldnt_change_credentials" = "Could not change credentials";
+"db_management_error_title_couldnt_change_credentials" = "无法更改凭据";
 
 /* Master Password Changed */
 "db_management_password_changed" = "主密码已更改";
@@ -591,7 +591,7 @@
 "item_details_problem_saving" = "保存错误";
 
 /*  (Read Only) */
-"item_details_read_only_suffix" = " (Read Only)";
+"item_details_read_only_suffix" = " (只读)";
 
 /* Attachments */
 "item_details_section_header_attachments" = "附件";
@@ -600,7 +600,7 @@
 "item_details_section_header_custom_fields" = "自定义字段";
 
 /* History */
-"item_details_section_header_history" = "History";
+"item_details_section_header_history" = "历史记录";
 
 /* Metadata */
 "item_details_section_header_metadata" = "元数据";
@@ -732,7 +732,7 @@
 "prefs_vc_pins_dont_match_warning_title" = "PIN 不正确";
 
 /* Use iCloud */
-"prefs_vc_use_icloud_action" = "Use iCloud";
+"prefs_vc_use_icloud_action" = "使用 iCloud";
 
 /* iCloud (Disabled in System Settings) */
 "prefs_vc_use_icloud_disabled" = "iCloud（在系统设置中禁用）";
@@ -762,10 +762,10 @@
 "sspc_copy_from_url_action" = "通过 URL 获取...";
 
 /* Invalid Database */
-"sspc_error_invalid_database" = "Invalid Database";
+"sspc_error_invalid_database" = "无效的数据库";
 
 /* Files... */
-"sspc_ios_files_storage_location" = "Files";
+"sspc_ios_files_storage_location" = "文件";
 
 /* Since a local database is only stored on this device, any loss of this device will lead to the loss of all passwords stored within this database. You may want to consider using a cloud storage provider, such as the ones supported by Strongbox to avoid catastrophic data loss.\n\nWould you still like to proceed with creating a local device database? */
 "sspc_local_device_storage_warning_message" = "一旦数据库仅本地存储在此设备上，此设备的任何丢失都将导致此数据库中存储的所有密码丢失。您不妨考虑使用 Strongbox 支持的云存储提供商，以避免灾难性的数据丢失。\n\n是否仍要继续创建本地设备数据库?";
@@ -849,13 +849,13 @@
 "upgrade_vc_yearly_subscription_title" = "每年";
 
 /* Show/Hide Password */
-"welcome_vc_accessibility_show_hide_password" = "Show/Hide Password";
+"welcome_vc_accessibility_show_hide_password" = "显示/隐藏密码";
 
 /* Add Existing Database */
-"welcome_vc_add_existing_database" = "Add Existing Database";
+"welcome_vc_add_existing_database" = "添加现有数据库";
 
 /* Error Creating Database */
-"welcome_vc_error_creating" = "Error Creating Database";
+"welcome_vc_error_creating" = "创建数据库出错";
 
 /* View Your Database */
 "welcome_vc_view_database" = "查看您的数据库";
@@ -879,13 +879,13 @@
 "databases_preferences_subtitle_field_name_filename" = "文件名称";
 
 /* Last Modified */
-"databases_preferences_subtitle_field_name_last_cached_data" = "Last Modified";
+"databases_preferences_subtitle_field_name_last_cached_data" = "最后修改";
 
 /* Last Modified (Precise) */
 "databases_preferences_subtitle_field_name_last_modified_date_precise" = "最后一次修改（精确）";
 
 /* File Size */
-"databases_preferences_subtitle_field_name_file_size" = "File Size";
+"databases_preferences_subtitle_field_name_file_size" = "文件大小";
 
 /* Strongbox Downgrade */
 "upgrade_mgr_downgrade_title" = "Strongbox 降级";
@@ -928,7 +928,7 @@
 "export_vc_error_encrypting" = "加密出错";
 
 /* Email Not Available */
-"export_vc_email_unavailable_title" = "Email Not Available";
+"export_vc_email_unavailable_title" = "电子邮箱不可用";
 
 /* It looks like email is not setup on this device and so the database cannot be exported by email. */
 "export_vc_email_unavailable_message" = "在此设备上没有设置电子邮箱，所以数据库不能通过电子邮件导出。";
@@ -1136,7 +1136,7 @@
 "add_attachment_vc_error_source_unavailable_photos" = "Strongbox 无法访问照片。它是否有权限？";
 
 /* Error Reading */
-"add_attachment_vc_error_reading_title" = "Error Reading";
+"add_attachment_vc_error_reading_title" = "读取错误";
 
 /* Could not read the data for this item. */
 "add_attachment_vc_error_reading_message" = "无法读取此项目的数据。";
@@ -1169,7 +1169,7 @@
 "add_attachment_vc_large_image_prompt_option_use_anyway_size_fmt" = "仍要使用 (%d x %d) %@";
 
 /* Filename */
-"add_attachment_vc_prompt_filename_title" = "Filename";
+"add_attachment_vc_prompt_filename_title" = "文件名称";
 
 /* Enter a filename for this item */
 "add_attachment_vc_prompt_filename_message" = "输入此项目的文件名";
@@ -1223,7 +1223,7 @@
 "set_icon_vc_error_reading_image" = "读取图像出错";
 
 /* Analyzing Image... */
-"set_icon_vc_progress_analyzing_image" = "Analyzing Image...";
+"set_icon_vc_progress_analyzing_image" = "正在分析图像...";
 
 /* This is a rather large image (%dx%d), would you like to rescale it to a maximum dimension of %d pixels for a file size saving of roughly %@ */
 "set_icon_vc_prompt_rescale_image_message_fmt" = "这是一张相当大的图片(%dx%d)，您是否愿意将其重新缩放到最大尺寸为 %d 像素，以节省大约 %@ 的文件大小";
@@ -1235,13 +1235,13 @@
 "moveentry_vc_error_moving" = "移动错误";
 
 /* Error Saving */
-"moveentry_vc_error_saving" = "Error Saving";
+"moveentry_vc_error_saving" = "保存错误";
 
 /* Group Name */
-"moveentry_vc_add_group_prompt_placeholder" = "Group Name";
+"moveentry_vc_add_group_prompt_placeholder" = "组名称";
 
 /* Enter Group Name */
-"moveentry_vc_add_group_prompt_title" = "Enter Group Name";
+"moveentry_vc_add_group_prompt_title" = "输入组名称";
 
 /* Please Enter the New Group Name */
 "moveentry_vc_add_group_prompt_message" = "请输入新群组名称";
@@ -1437,7 +1437,7 @@
 "open_sequence_prompt_use_convenience_use_pin" = "使用 PIN 码...";
 
 /* PIN Conflict */
-"open_sequence_warn_pin_conflict_title" = "PIN Conflict";
+"open_sequence_warn_pin_conflict_title" = "PIN 冲突";
 
 /* Your Convenience PIN conflicts with your Duress PIN. Please configure in Database Settings */
 "open_sequence_warn_pin_conflict_message" = "您的便捷 PIN 与您的胁迫 PIN 冲突。请在数据库设置中设定。";
@@ -1740,7 +1740,7 @@
 "database_metadata_field_compressed" = "已压缩";
 
 /* Database Format */
-"database_metadata_field_format" = "Database Format";
+"database_metadata_field_format" = "数据库格式";
 
 /* Database Generator */
 "database_metadata_field_generator" = "数据库生成器";
@@ -1818,7 +1818,7 @@
 "model_error_cannot_write_backup" = "无法写入备份，将不会继续写入数据库！";
 
 /* Button Title to view backup settings of this database */
-"safes_vc_action_backups" = "Backups";
+"safes_vc_action_backups" = "备份";
 
 /* Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences */
 "open_sequence_error_reading_key_file_autofill_context" = "无法读取密钥文件。它是否已被导入？请在偏好设置中检查密钥文件管理。";
@@ -1881,19 +1881,19 @@
 "browse_vc_action_delete" = "删除";
 
 /* Title */
-"generic_fieldname_title" = "Title";
+"generic_fieldname_title" = "标题";
 
 /* All Fields */
-"generic_fieldname_all_fields" = "All Fields";
+"generic_fieldname_all_fields" = "所有字段";
 
 /* Username */
-"generic_fieldname_username" = "Username";
+"generic_fieldname_username" = "用户名";
 
 /* Expiry Date */
 "generic_fieldname_expiry_date" = "到期日";
 
 /* Password */
-"generic_fieldname_password" = "Password";
+"generic_fieldname_password" = "密码";
 
 /* Email */
 "generic_fieldname_email" = "电子邮箱";
@@ -1902,13 +1902,13 @@
 "generic_fieldname_url" = "URL";
 
 /* Notes */
-"generic_fieldname_notes" = "Notes";
+"generic_fieldname_notes" = "备注";
 
 /* Icon */
 "generic_fieldname_icon" = "图标";
 
 /* Custom Fields */
-"generic_fieldname_custom_fields" = "Custom Fields";
+"generic_fieldname_custom_fields" = "自定义字段";
 
 /* Custom Fields */
 "generic_fieldname_custom_field" = "自定义字段";
@@ -1917,7 +1917,7 @@
 "generic_fieldname_totp" = "TOTP";
 
 /* Attachments */
-"generic_fieldname_attachments" = "Attachments";
+"generic_fieldname_attachments" = "附件";
 
 /* Decrypting */
 "generic_decrypting" = "正在解密...";
@@ -1929,13 +1929,13 @@
 "generic_encrypting" = "正在加密";
 
 /* Loading... */
-"generic_loading" = "Loading...";
+"generic_loading" = "加载中...";
 
 /* Done */
-"generic_done" = "Done";
+"generic_done" = "完成";
 
 /* Failed */
-"generic_failed" = "Failed";
+"generic_failed" = "失败";
 
 /* Error */
 "generic_error" = "错误";
@@ -1947,13 +1947,13 @@
 "generic_remove" = "移除";
 
 /* Rename - Translators Note: Verb - To rename something, e.g. an item in a collection, to give it different title */
-"generic_rename" = "Rename";
+"generic_rename" = "重命名";
 
 /* Set */
 "generic_set" = "设定";
 
 /* Cancel */
-"generic_cancel" = "Cancel";
+"generic_cancel" = "取消";
 
 /* Clear */
 "generic_clear" = "清除";
@@ -1968,13 +1968,13 @@
 "safes_vc_question_confirm_are_you_sure" = "您确定吗？";
 
 /* Are you sure? */
-"generic_are_you_sure" = "Are you sure?";
+"generic_are_you_sure" = "您确定吗？";
 
 /* Are you sure? */
-"browse_vc_are_you_sure" = "Are you sure?";
+"browse_vc_are_you_sure" = "您确定吗？";
 
 /* Are you sure? */
-"keepass_history_are_you_sure" = "Are you sure?";
+"keepass_history_are_you_sure" = "您确定吗？";
 
 /* View more actions table action */
 "safes_vc_slide_left_more_actions" = "更多...";
@@ -1995,7 +1995,7 @@
 "alerts_yes" = "是";
 
 /* Password */
-"alerts_password" = "Password";
+"alerts_password" = "密码";
 
 /* Unknown Error */
 "alerts_unknown_error" = "未知错误";
@@ -2012,19 +2012,19 @@
 /* None */
 "browse_prefs_item_subtitle_none" = "无";
 /* None */
-"prefs_vc_time_interval_none" = "None";
+"prefs_vc_time_interval_none" = "无";
 /* None */
-"pwgen_hacker_level_none" = "None";
+"pwgen_hacker_level_none" = "无";
 /* None */
-"pwgen_salt_mode_none" = "None";
+"pwgen_salt_mode_none" = "无";
 /* None */
-"databases_preferences_subtitle_field_name_none" = "None";
+"databases_preferences_subtitle_field_name_none" = "无";
 
 /* Notes */
 "browse_prefs_item_subtitle_notes" = "备注";
 
 /* Password */
-"browse_prefs_item_subtitle_password" = "Password";
+"browse_prefs_item_subtitle_password" = "密码";
 
 /* URL */
 "browse_prefs_item_subtitle_url" = "URL";
@@ -2042,16 +2042,16 @@
 "browse_vc_action_rename" = "重命名";
 
 /* Password */
-"browse_vc_search_scope_password" = "Password";
+"browse_vc_search_scope_password" = "密码";
 
 /* Title */
-"browse_vc_search_scope_title" = "Title";
+"browse_vc_search_scope_title" = "标题";
 
 /* URL */
 "browse_vc_search_scope_url" = "URL";
 
 /* Username */
-"browse_vc_search_scope_username" = "Username";
+"browse_vc_search_scope_username" = "用户名";
 
 /* Add */
 "casg_add_action" = "添加";
@@ -2060,10 +2060,10 @@
 "casg_create_action" = "创建";
 
 /* Rename */
-"casg_rename_action" = "Rename";
+"casg_rename_action" = "重命名";
 
 /* Password */
-"casg_text_field_placeholder_password" = "Password";
+"casg_text_field_placeholder_password" = "密码";
 
 /* Email */
 "item_details_email_field_title" = "电子邮箱";
@@ -2078,13 +2078,13 @@
 "item_details_metadata_modified_field_title" = "修改时间";
 
 /* Password */
-"item_details_password_field_title" = "Password";
+"item_details_password_field_title" = "密码";
 
 /* Notes */
-"item_details_section_header_notes" = "Notes";
+"item_details_section_header_notes" = "备注";
 
 /* Title */
-"item_details_title_field_name" = "Title";
+"item_details_title_field_name" = "标题";
 
 /* URL Copied */
 "item_details_url_copied" = "URL 已复制";
@@ -2093,7 +2093,7 @@
 "item_details_url_field_title" = "URL";
 
 /* Username */
-"item_details_username_field_title" = "Username";
+"item_details_username_field_title" = "用户名";
 
 /* Disabled */
 "prefs_vc_setting_disabled" = "已禁用";
@@ -2120,16 +2120,16 @@
 "open_sequence_progress_decrypting" = "正在解密...";
 
 /* No */
-"open_sequence_prompt_option_no" = "No";
+"open_sequence_prompt_option_no" = "否";
 
 /* Title */
-"pick_creds_vc_search_scope_title" = "Title";
+"pick_creds_vc_search_scope_title" = "标题";
 
 /* Username */
-"pick_creds_vc_search_scope_username" = "Username";
+"pick_creds_vc_search_scope_username" = "用户名";
 
 /* Password */
-"pick_creds_vc_search_scope_password" = "Password";
+"pick_creds_vc_search_scope_password" = "密码";
 
 /* URL */
 "pick_creds_vc_search_scope_url" = "URL";
@@ -2149,7 +2149,7 @@
 "set_icon_vc_icon_source_download_favicons_pro_only" = "下载所有网页图标（仅限 Pro）";
 
 /* Set Icon(s) */
-"browse_vc_action_set_icons" = "Set Icon(s)";
+"browse_vc_action_set_icons" = "设置图标";
 
 /* Tap Play to start search */
 "favicon_status_initial" = "点击播放按钮开始搜索";
@@ -2236,7 +2236,7 @@
 "mac_please_set_master_credentials" = "请输入此数据库的主凭据信息";
 
 /* Change Master Credentials */
-"mac_change_master_credentials" = "Change Master Credentials";
+"mac_change_master_credentials" = "更改主凭据";
 
 /* Master Credentials Changed and Database Saved */
 "mac_master_credentials_changed_and_saved" = "更改主凭据并保存数据库";
@@ -2263,7 +2263,7 @@
 "mac_please_enter_a_title_for_new_group" = "请为您的新组输入一个标题";
 
 /* Are you sure you want to send '%@' to the Recycle Bin? - Translation Note: 1st Param is the Item Title */
-"mac_are_you_sure_recycle_bin_yes_no_fmt" = "Are you sure you want to send '%@' to the Recycle Bin?";
+"mac_are_you_sure_recycle_bin_yes_no_fmt" = "您确定要将'%@'移动到回收站吗？";
 
 /* Are you sure you want to delete '%@'? - Translation Note: 1st Param is the Item Title  */
 "mac_are_you_sure_delete_yes_no_fmt" = "您确定要删除'%@'吗？";
@@ -2324,7 +2324,7 @@
 "mac_not_a_valid_image_file" = "无效的图像文件。";
 
 /* Please enter the secret or an OTPAuth URL */
-"mac_please_enter_totp_secret_or_otpauth_url" = "Please enter the secret or an OTPAuth URL";
+"mac_please_enter_totp_secret_or_otpauth_url" = "请输入私钥或 OTPAuth URL";
 
 /* Is this a Steam Token? (Say 'No' if you're unsure) */
 "mac_is_this_a_stream_token_yes_no" = "这是否是 Steam 令牌？(如果您不确定，请选择“否”。)";
@@ -2370,7 +2370,7 @@
 "mac_welcome_to_strongbox_message" = "欢迎来到 Strongbox！\n\n希望您会喜欢上这个应用，并愈发感到爱不释手。 您在接下来的三个月内可以享受功能齐全的 Strongbox Pro 版本。 在此之后，您将过渡到 Strongbox 的普通版本。\n\n您随时能够通过点击 Strongbox 菜单中的“升级到 Pro”选项来了解更多信息。\n\n感谢！\n-Mark";
 
 /* Change Master Credentials */
-"mac_undo_action_change_master_credentials" = "Change Master Credentials";
+"mac_undo_action_change_master_credentials" = "更改主凭据";
 
 /* Title Change */
 "mac_undo_action_title_change" = "标题更改";
@@ -2478,7 +2478,7 @@
 "mac_create_new_database_title" = "创建新的密码数据库";
 
 /* Enter Master Credentials */
-"mac_enter_database_master_credentials" = "Enter Master Credentials";
+"mac_enter_database_master_credentials" = "输入主凭据";
 
 /* Click Browse to Select a Key File */
 "mac_click_browse_select_key_file" = "单击\" 浏览 \"以选择密钥文件";
@@ -2508,7 +2508,7 @@
 "mac_alerts_input_custom_field_label_key" = "密钥";
 
 /* Value */
-"mac_alerts_input_custom_field_label_value" = "Value";
+"mac_alerts_input_custom_field_label_value" = "数值";
 
 /* Field cannot be empty */
 "mac_alerts_field_cannot_be_empty" = "字段不能为空";
@@ -2532,7 +2532,7 @@
 "mac_upgrade_purchases_disabled_on_device" = "您的设备已禁用购买。";
 
 /* Restoration Unsuccessful */
-"mac_upgrade_restoration_unsuccessful" = "Restoration Unsuccessful";
+"mac_upgrade_restoration_unsuccessful" = "恢复失败";
 
 /* Could not find any previously purchased products. */
 "mac_upgrade_could_not_find_any_previous_purchases" = "找不到任何先前购买的产品。";
@@ -2568,7 +2568,7 @@
 "mac_node_details_historical_item_suffix_fmt" = "%@ (历史记录)";
 
 /* Edit Custom Field */
-"mac_node_details_edit_custom_field" = "Edit Custom Field";
+"mac_node_details_edit_custom_field" = "编辑自定义字段";
 
 /* Are you sure you want to remove the custom field '%@'? */
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "您确定要移除自定义字段'%@'吗？";
@@ -2592,10 +2592,10 @@
 "mac_node_details_password_copied_url_launched" = "密码已复制，网址已启动";
 
 /* Please enter the secret or an OTPAuth URL */
-"mac_node_details_please_enter_secret_totp" = "Please enter the secret or an OTPAuth URL";
+"mac_node_details_please_enter_secret_totp" = "请输入私钥或 OTPAuth URL";
 
 /* Is this a Steam Token? (Say 'No' if you're unsure) */
-"mac_node_details_is_this_steam_totp" = "Is this a Steam Token? (Say 'No' if you're unsure)";
+"mac_node_details_is_this_steam_totp" = "这是否是 Steam 令牌？(如果您不确定，请选择“否”。)";
 
 /* Could not change group! Validate failed... */
 "mac_node_details_could_not_change_group" = "无法更改分组！验证失败...";
@@ -2622,10 +2622,10 @@
 "mac_could_not_open_this_file" = "无法打开此文件";
 
 /* Database Icons */
-"mac_database_icons" = "Database Icons";
+"mac_database_icons" = "数据库图标";
 
 /* KeePass Icons */
-"mac_keepass_icons" = "KeePass Icons";
+"mac_keepass_icons" = "KeePass 图标";
 
 /* Unlock Database */
 "mac_biometrics_identify_to_open_database" = "解锁数据库";
@@ -2667,7 +2667,7 @@
 "mac_undo_action_set_icons" = "设置图标";
 
 /* Welcome */
-"auto_fill_welcome_message_header" = "Welcome";
+"auto_fill_welcome_message_header" = "欢迎";
 
 /* Automatically download FavIcon on URL Change (PRO Only) */
 "mac_auto_download_favicon_pro_only" = "URL 变更时自动下载网页图标 (仅限 Pro 版)";
@@ -2688,13 +2688,13 @@
 "open_sequence_warn_biometrics_db_changed_message" = "看起来您的生物识别数据库已改变，可能是因为您添加了一个新的面容或指纹。 现在，出于安全原因，Strongbox 将要求您重新手动输入主凭据。";
 
 /* None - (Tranlators Note: When the user is not using or has not selected a key file on the Unlock screen.) */
-"mac_key_file_none" = "None";
+"mac_key_file_none" = "无";
 
 /* Browse... - (Translators Note: When user wants to open the File dialog to select a key file...)*/
-"mac_browse_for_key_file" = "Browse...";
+"mac_browse_for_key_file" = "浏览...";
 
 /* Configured - (Translators Note: User is using a key file, Strongbox knows what/where it is, but will not display the file name in the UI for privacy reasons. This appears on the unlock screen. */
-"mac_key_file_configured_but_filename_hidden" = "Configured";
+"mac_key_file_configured_but_filename_hidden" = "已配置";
 
 /* %@ (Configured) - (Translators Note: User is using a key file that has previously been set/remembered by Strongbox. First parameter is the filename of the key file. This appears on the unlock screen. */
 "mac_key_file_filename_configured_fmt" = "%@（已配置）";
@@ -2739,19 +2739,19 @@
 "mac_convenience_summary_disabled" = "便捷解锁已禁用";
 
 /* Convenience Unlock (Touch ID/Watch Unavailable) */
-"mac_convenience_summary_biometrics_unavailable" = "Convenience Unlock (Touch ID/Watch Unavailable)";
+"mac_convenience_summary_biometrics_unavailable" = "便捷解锁 (Touch ID/Watch 不可用)";
 
 /* Convenience Unlock is only available in the Pro version of Strongbox. Please consider upgrading to support development. */
 "mac_convenience_summary_only_available_on_pro" = "便捷解锁仅在 Strongbox 的 Pro 版本中可用。请考虑升级以支持开发。";
 
 /* Never */
-"mac_convenience_expiry_period_never" = "Never";
+"mac_convenience_expiry_period_never" = "从不";
 
 /* App Exit (Memory Only) */
 "mac_convenience_expiry_period_on_app_exit" = "应用程序退出（仅在内存中）";
 
 /* Unlock with Touch ID or Watch */
-"mac_unlock_screen_button_title_convenience_unlock" = "Unlock with Touch ID or Watch";
+"mac_unlock_screen_button_title_convenience_unlock" = "使用触控 ID 或 Watch 解锁";
 
 /* Convenience Unlock Expired */
 "mac_unlock_screen_button_title_convenience_unlock_expired" = "便捷解锁已过期";
@@ -2796,13 +2796,13 @@
 "mac_error_getting_challenge_response_yubikey" = "无法从硬件密钥获得质询响应";
 
 /* Refreshing... (Translators Note: Used whenever running a fairly short operation to indicate somehting is happening, e.g. when polling hardware key status (can take a few seconds)) */
-"generic_refreshing_ellipsis" = "Refreshing...";
+"generic_refreshing_ellipsis" = "正在刷新...";
 
 /* Could not generate Composite Key */
 "mac_error_could_not_generate_composite_key" = "无法生成组合密钥";
 
 /* None */
-"generic_none" = "None";
+"generic_none" = "无";
 
 /* Hardware Key (Pro Only) */
 "mac_lock_screen_yubikey_popup_menu_yubico_pro_only" = "硬件密钥（仅限 Pro）";
@@ -2894,10 +2894,10 @@
 "browse_vc_search_scope_tags" = "标签";
 
 /* Tags */
-"browse_prefs_item_subtitle_tags" = "Tags";
+"browse_prefs_item_subtitle_tags" = "标签";
 
 /* Tags */
-"item_details_username_field_tags" = "Tags";
+"item_details_username_field_tags" = "标签";
 
 /* 90 Day Trial */
 "upgrade_vc_start_your_free_trial" = "90 天试用";
@@ -2978,7 +2978,7 @@
 "quick_view_title_audit_issues_title_fmt" = "审计问题 (%ld)";
 
 /* No Password - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
-"audit_quick_summary_very_brief_no_password_set" = "No Password";
+"audit_quick_summary_very_brief_no_password_set" = "没有密码";
 
 /* Weak/Common - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
 "audit_quick_summary_very_brief_very_common_password" = "常用";
@@ -3005,7 +3005,7 @@
 "audit_status_done_with_hibp_errors_fmt" = "在 %@ 个条目中找到 %@ 个问题 ( %@ 个 HIBP 错误)";
 
 /* Audit Complete */
-"audit_status_complete" = "Status: Complete";
+"audit_status_complete" = "状态：完成";
 
 /* Database Auditor Initialized */
 "audit_status_initialized" = "状态：初始化...";
@@ -3068,7 +3068,7 @@
 "hibp_check_interval_always_check" = "始终检查";
 
 /* Once a Day */
-"hibp_check_interval_once_a_day" = "Once a Day";
+"hibp_check_interval_once_a_day" = "每天一次";
 
 /* Once a Week */
 "hibp_check_interval_once_a_week" = "每周一次";
@@ -3131,10 +3131,10 @@
 "keepass_icon_set_keepassxc" = "KeePassXC";
 
 /* Preferences */
-"audit_drill_down_section_header_preferences" = "Preferences";
+"audit_drill_down_section_header_preferences" = "偏好设置";
 
 /* Summary */
-"audit_drill_down_section_header_summary" = "Summary";
+"audit_drill_down_section_header_summary" = "概要";
 
 /* Duplicate Passwords */
 "audit_drill_down_section_header_duplicates" = "使用相同密码的项";
@@ -3221,7 +3221,7 @@
 "database_format_keepass1" = "KeePass 1";
 
 /* KeePass 2 (Legacy) */
-"database_format_keepass2_kdbx3_1" = "KeePass 2 (Legacy)";
+"database_format_keepass2_kdbx3_1" = "KeePass 2（旧格式）";
 
 /* KeePass 2 */
 "database_format_keepass2_kdbx4" = "KeePass 2";
@@ -3251,13 +3251,13 @@
 "generic_status_sp_locating_ellipsis" = "检索中...";
 
 /* %@ Unlock (Translators Note: 1st param is 'Touch ID' or 'Face ID' - Used on the Upgrade, Freemium Onboarding/Welcome screen and the Free vs Pro Chart screen) */
-"generic_biometric_unlock_fmt" = "%@ Unlock";
+"generic_biometric_unlock_fmt" = "%@ 解锁";
 
 /* By Default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok? */
 "backup_settings_prompt_message" = "默认情况下，Strongbox 会将您的所有本地文件（包括数据库备份）和本地设备数据库都保存在该设备的 Apple 备份中。但出于安全考虑，导入的密钥文件不包括在内。\n\n您随时可以在偏好设置 > 高级设置中更改这些设置。\n\n这样合您心意吗？";
 
 /* Backup Settings */
-"backup_settings_prompt_title" = "Backup Settings";
+"backup_settings_prompt_title" = "备份设置";
 
 /* Yes, the defaults sound good */
 "backup_settings_prompt_option_yes_looks_good" = "是的，听上去不错";
@@ -3326,7 +3326,7 @@
 "autofill_vc_item_subtitle_local_copy_unavailable" = "本地副本不可用";
 
 /* AutoFill Disabled */
-"autofill_vc_item_subtitle_disabled" = "AutoFill Disabled";
+"autofill_vc_item_subtitle_disabled" = "自动填充已禁用";
 
 /* Sync Required */
 "autofill_add_entry_sync_required_title" = "需要同步";
@@ -3344,10 +3344,10 @@
 "onboarding_vc_start_your_free_trial_subtitle_no_subscription" = "无需订阅";
 
 /* Could not bookmark this file */
-"open_sequence_error_could_not_bookmark_file" = "Could not bookmark this file";
+"open_sequence_error_could_not_bookmark_file" = "无法标记此文件";
 
 /* Invalid Database - [%@] */
-"open_sequence_invalid_database_filename_fmt" = "Invalid Database - [%@]";
+"open_sequence_invalid_database_filename_fmt" = "无效的数据库-[%@]";
 
 /* Different Filename */
 "open_sequence_database_different_filename_title" = "不同的文件名";
@@ -3365,10 +3365,10 @@
 "open_sequence_storage_provider_view_sync_error_details" = "查看错误详细信息";
 
 /* Use Local (Read-Only) */
-"open_sequence_use_local_copy_option" = "使用本地 (只读)";
+"open_sequence_use_local_copy_option" = "离线打开";
 
 /* Delete (Translators Note: Verb - To Delete an item) */
-"generic_action_delete" = "Delete";
+"generic_action_delete" = "删除";
 
 /* Are you sure the URL is correct? It should be a path to a parent folder. Not the database file. */
 "webdav_vc_validation_url_are_you_sure" = "您确定 URL 正确吗？它应该是父文件夹的 URL，而不是数据库文件。";
@@ -3419,16 +3419,16 @@
 "hint_tap_and_hold_to_see_options" = "提示：点击并按住以查看选项";
 
 /* Launch URL & Copy */
-"browse_action_launch_url_copy_password" = "Launch URL & Copy Password";
+"browse_action_launch_url_copy_password" = "打开 URL 并复制密码";
 
 /* Copy Other Field... */
 "browse_context_menu_copy_other_field" = "复制字段...";
 
 /* Move - Translators Note: Verb - To move something e.g. an entry or group somewhere else in the hierarchy */
-"generic_move" = "Move";
+"generic_move" = "移动";
 
 /* New Entry - Translators Note: Menu option to add a new entry */
-"browse_context_menu_new_entry" = "New Entry";
+"browse_context_menu_new_entry" = "新条目";
 
 /* New Group Translators Note: Menu option to add a new group */
 "browse_context_menu_new_group" = "新群组";
@@ -3437,7 +3437,7 @@
 "generic_select" = "选择";
 
 /* Start with Search - Translators Note: Option to start with the search field focused immediately upon unlock */
-"browse_context_menu_start_with_search" = "Start with Search";
+"browse_context_menu_start_with_search" = "进入时弹出搜索框";
 
 /* Sort - Translators Note: Verb - to sort items by title or other field */
 "generic_sort" = "排序";
@@ -3449,13 +3449,13 @@
 "browse_context_menu_database_settings" = "数据库设置";
 
 /* Set Credentials */
-"browse_context_menu_set_master_credentials" = "Set Master Credentials";
+"browse_context_menu_set_master_credentials" = "设置主凭据";
 
 /* Show Password - Translators Note: On Browse screen - context menu item - This option will display the password in a large full screen font for easy reading with a QR Code */
 "browse_context_menu_show_password" = "显示密码";
 
 /* Read Only */
-"databases_toggle_read_only_context_menu" = "Read Only";
+"databases_toggle_read_only_context_menu" = "只读";
 
 /* Quick Launch */
 "databases_toggle_quick_launch_context_menu" = "快速启动";
@@ -3464,7 +3464,7 @@
 "browse_vc_action_properties" = "属性";
 
 /* Find */
-"browse_vc_action_keyboard_shortcut_find" = "Find";
+"browse_vc_action_keyboard_shortcut_find" = "查找";
 
 /* Custom Data */
 "properties_vc_header_custom_data" = "自定义数据";
@@ -3473,7 +3473,7 @@
 "properties_vc_footer_custom_data" = "插件和各种其他应用程序使用的自定义数据。";
 
 /* Properties */
-"properties_vc_header_basic" = "Properties";
+"properties_vc_header_basic" = "属性";
 
 /* Some simple properties and settings of this item. */
 "properties_vc_footer_basic" = "此项目的一些简单属性和设置。";
@@ -3593,7 +3593,7 @@
 "generic_action_create_local_database" = "创建本地副本";
 
 /* Identical databases. */
-"merge_result_databases_identical" = "相同的数据库。";
+"merge_result_databases_identical" = "没有要合并到第一个的更改。";
 
 /* Compare & Merge... */
 "generic_action_compare_and_merge_ellipsis" = "比较 & 合并...";
@@ -3608,7 +3608,7 @@
 "diff_result_percentage_difference_fmt" = "第二个数据库有 %0.1f%% 的差异。";
 
 /* Identical databases. */
-"diff_result_databases_identical" = "Identical databases.";
+"diff_result_databases_identical" = "相同的数据库。";
 
 /* Some database properties will change. */
 "merge_result_databases_properties_will_change" = "某些数据库属性将会更改。";
@@ -3617,7 +3617,7 @@
 "diff_result_databases_properties_different" = "数据库属性不同。";
 
 /* Summary */
-"diff_view_section_header_summary" = "Summary";
+"diff_view_section_header_summary" = "概要";
 
 /* Will be Changed (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
 "diff_view_section_header_entry_will_be_changed_count_fmt" = "将被更改 (%lu)";
@@ -3776,10 +3776,10 @@
 "diff_drill_down_created_dates_are_different" = "创建日期不同。";
 
 /* Modified Date will change. */
-"diff_drill_down_mod_date_will_change" = "Modified Date will change.";
+"diff_drill_down_mod_date_will_change" = "修改日期将会更改。";
 
 /* Modified Dates are different. */
-"diff_drill_down_mod_dates_are_different" = "Modified Dates are different.";
+"diff_drill_down_mod_dates_are_different" = "修改日期不同。";
 
 /* Expiry Date will change. */
 "diff_drill_down_expiry_date_will_change" = "到期日期将会更改。";
@@ -3965,7 +3965,7 @@
 "database_properties_subtitle_quick_launch" = "在 App 启动时自动提示打开该数据库。";
 
 /* Always Auto-Merge */
-"database_properties_title_always_auto_merge" = "Always Auto-Merge";
+"database_properties_title_always_auto_merge" = "始终自动合并";
 
 /* When a sync conflict occurs automatically merge without asking. */
 "database_properties_subtitle_conflict_resolution" = "当发生同步冲突时自动合并，无需询问。";
@@ -3989,10 +3989,10 @@
 "quick_type_format_title_username" = "标题 (用户名)";
 
 /* Title */
-"quick_type_format_title" = "Title";
+"quick_type_format_title" = "标题";
 
 /* Username */
-"quick_type_format_username" = "Username";
+"quick_type_format_username" = "用户名";
 
 /* QuickType Format */
 "prefs_vc_quick_type_format" = "快速输入格式";
@@ -4065,7 +4065,7 @@
 "mac_item_duplicated" = "项目重复";
 
 /* File - Localization Note: This should be very short, 3-4 characters if possible. This indicates a regular file on the file system on a Mac. */
-"storage_provider_name_mac_file_short" = "File";
+"storage_provider_name_mac_file_short" = "文件";
 
 /* Done. ✅ */
 "sync_log_status_done" = "完成。✅";
@@ -4113,7 +4113,7 @@
 "autofill_search_service_id_section_footer" = "服务 ID 是自动填充功能发送给 Strongbox 的识别符。它可以在您设置的条目 URL 与服务 ID 相匹配时帮助搜索。点击 以复制。";
 
 /* Results */
-"quick_view_title_no_matches_title" = "Results";
+"quick_view_title_no_matches_title" = "结果";
 
 /* Unlock with Touch ID */
 "mac_unlock_database_with_touch_id" = "使用 Touch ID 解锁";
@@ -4122,7 +4122,7 @@
 "mac_unlock_database_with_apple_watch" = "使用 Watch 解锁";
 
 /* Unlock with Touch ID or Watch */
-"mac_unlock_database_with_touch_or_watch" = "Unlock with Touch ID or Watch";
+"mac_unlock_database_with_touch_or_watch" = "使用触控 ID 或 Watch 解锁";
 
 /* Blur */
 "app_privacy_shield_mode_blur" = "虚化";
@@ -4206,7 +4206,7 @@
 "mac_undo_action_add_tag" = "添加标签";
 
 /* Tags */
-"generic_fieldname_tags" = "Tags";
+"generic_fieldname_tags" = "标签";
 
 /* Enter a new tag to add for this item */
 "mac_vc_please_enter_a_tag" = "输入一个新标签以添加到此项目";
@@ -4317,16 +4317,16 @@
 "composite_key_determiner_convenience_expired_message" = "是时候重新手动输入主密码了。您可以在 “数据库设置” 中更改此提醒的间隔时间。";
 
 /* Got it! */
-"generic_got_it" = "Got it!";
+"generic_got_it" = "了解！";
 
 /* Don't tell me again */
-"generic_dont_tell_again" = "Don't tell me again";
+"generic_dont_tell_again" = "不再提醒";
 
 /* Actions - L10n - a generic collection of actions (or items that will perform certain actions/tasks) - often used as a Section Header */
-"generic_actions" = "Actions";
+"generic_actions" = "动作";
 
 /* Preferences - L10n - a generic header or item that leads to a set or settings / preferences - often used as a Section Header or button */
-"generic_preferences" = "Preferences";
+"generic_preferences" = "偏好设置";
 
 /* Rearrange - L10n - Verb - to re-order or otherwise change the order of a list of items */
 "generic_rearrange" = "重新排列";
@@ -4335,7 +4335,7 @@
 "onboarding_convenience_message_fmt" = "输入主密码既慢又繁琐并且容易出错的。Strongbox可以安全、快速地帮助您解锁数据库，而不需要每次都输入主密码。\n\n您想使用便捷解锁吗？";
 
 /* Dismiss - L10n Note: Generic Action to dismiss a dialog or popup */
-"generic_dismiss" = "Dismiss";
+"generic_dismiss" = "忽略";
 
 /* There is a configuration issue you should be aware of. You are using %@ for both App Lock and Quick Launch. In addition you allow device passcode fallback for App Lock.\n\nThis leads to a situation where you can unlock your database using only your device passcode.\n\nIf you do not want this you can do any of the following: Disable App Lock passcode fallback, or Quick Launch, or %@ Database Unlock, or coalescing of unlocks - L10n Note: 3 format parameters here are identical and will be either 'Face ID' or 'Touch ID' */
 "app_lock_coalescing_with_quick_launch_warning" = "有个配置问题请您留意。您在应用程序锁定和快速启动中都使用了%@。此外，您允许使用设备密码作为解锁失败的备用方法。\n\n这将导致您只需输入设备密码即可解锁数据库。\n\n如果您不希望这样，您可以执行以下任一操作：禁用失败时使用密码功能、禁用快速启动、禁用%@解锁数据库，或者禁用组合解锁方式。";
@@ -4392,7 +4392,7 @@
 "prefs_vc_scheduled_export_interval" = "定期导出间隔";
 
 /* Welcome Aboard */
-"onboarding_welcome_to_strongbox_first_run_title" = "Welcome Aboard";
+"onboarding_welcome_to_strongbox_first_run_title" = "欢迎加入";
 
 /* Hi there, and welcome to Strongbox 😎\n\nWe're sure you're excited to get started, but first, there are a few steps we should take so that everything runs smoothly... */
 "onboarding_welcome_to_strongbox_first_run_message" = "您好，欢迎来到Strongbox😎。\n\n相信您已经迫不及待地想开始使用了，但我们首先需要完成几个步骤，以便一切顺利进行......";
@@ -4404,7 +4404,7 @@
 "generic_get_started" = "开始使用";
 
 /* You're All Set! */
-"generic_youre_all_set" = "You're All Set!";
+"generic_youre_all_set" = "准备就绪！";
 
 /* Next up, we'll take you to your regular Databases screen.\n\nFrom here, we'll help you add your first password database.\n\n❤️ The Strongbox Team ❤️ */
 "onboarding_welcome_to_strongbox_first_run_final_message" = "接下来，我们将带您去到常规的数据库页面。\n\n在那里，我们会帮助您添加您的第一个密码数据库。\n\n❤️ Strongbox 团队 ❤️";
@@ -4469,7 +4469,7 @@
 "export_items_select_destination_group_title" = "在此导出";
 
 /* Export Database */
-"generic_export_database" = "Export Database";
+"generic_export_database" = "导出数据库";
 
 /* Export Item */
 "generic_export_item" = "导出项目";
@@ -4574,16 +4574,16 @@
 "keepass_kdbx4x_format" = "KeePass 2 (KDBX 4.x)";
 
 /* Memory */
-"generic_memory" = "Memory";
+"generic_memory" = "内存";
 
 /* Parallelism */
-"generic_parallelism" = "Parallelism";
+"generic_parallelism" = "并行度";
 
 /* Algorithm */
-"generic_algorithm" = "Algorithm";
+"generic_algorithm" = "算法";
 
 /* Compression */
-"generic_compression" = "Compression";
+"generic_compression" = "压缩方式";
 
 /* Are you sure you want to change your database encryption settings? */
 "are_you_sure_change_encryption_settings" = "您确定要更改数据库加密设置吗？";
@@ -4769,7 +4769,7 @@
 "menu_item_header_randomly_generated_suggestions" = "随机生成";
 
 /* Most Used */
-"menu_item_header_most_used_suggestions" = "Most Used";
+"menu_item_header_most_used_suggestions" = "最常用的";
 
 /* Are you sure you want to clear the expiry for this entry? */
 "are_you_sure_clear_expiry" = "您确定要清除此条目的到期设置吗？";
@@ -4784,13 +4784,13 @@
 "discard_changes" = "放弃更改";
 
 /* Create Group */
-"create_group" = "Create Group";
+"create_group" = "创建组";
 
 /* Edit Entry */
 "edit_entry" = "编辑条目";
 
 /* Create Entry */
-"create_entry" = "Create Entry";
+"create_entry" = "创建条目";
 
 /* Tidy Up Field? */
 "field_tidy_title_tidy_up_field" = "清理字段？";
@@ -4823,7 +4823,7 @@
 "generic_fieldname_urls" = "URLs";
 
 /* Copy - L10n Note: This is a verb, to copy an item/string/field to the clipboard */
-"generic_action_verb_copy_to_clipboard" = "Copy";
+"generic_action_verb_copy_to_clipboard" = "复制";
 
 /* Copy - L10n Note: This is a verb, to copy the field name (e.g. if there is a field: Custom-Field-1="value", then this would copy "Custom-Field-1" to the clipboard */
 "generic_action_verb_copy_field_name_to_clipboard" = "复制字段名称";
@@ -4838,7 +4838,7 @@
 "generic_action_verb_launch_url" = "打开 URL";
 
 /* Show QR Code */
-"generic_action_show_qr_code" = "Show QR Code";
+"generic_action_show_qr_code" = "显示二维码";
 
 /* Show Large Text View */
 "generic_action_show_large_text_view" = "显示大文本视图";
@@ -4913,7 +4913,7 @@
 "pro_badge_text" = "Pro";
 
 /* New Tag... */
-"new_tag_ellipsis" = "New Tag...";
+"new_tag_ellipsis" = "新建标签...";
 
 /* Add Tag to Item(s) */
 "add_tag_to_items" = "将标签添加到项目";
@@ -4934,7 +4934,7 @@
 "custom_app_icon_category_utilities" = "实用工具";
 
 /* Default */
-"custom_app_icon_category_default" = "Default";
+"custom_app_icon_category_default" = "默认";
 
 /* Are you sure you want to reset to the default App Icon? */
 "are_you_sure_reset_to_default_app_icon" = "您确定要重置为默认应用程序图标吗？";
@@ -4997,7 +4997,7 @@
 "generic_ask_me_later" = "稍后询问";
 
 /* Lock Database - L10n note: Verb, To Lock, Locks the Database */
-"verb_lock_database" = "Lock Database";
+"verb_lock_database" = "锁定数据库";
 
 /* Are you sure you want to delete this tag? */
 "are_you_sure_delete_tag_message" = "确定要删除这个标签吗？";
@@ -5036,7 +5036,7 @@
 "onedrive_readd_required" = "由于 Microsoft SDK 的更新，您需要重新添加 OneDrive 数据库。\n\n点击“确定”，并选择您的 OneDrive 数据库以开始……";
 
 /* Apply Changes */
-"generic_apply_changes" = "Apply Changes";
+"generic_apply_changes" = "应用更改";
 
 /* Pop Out Details - L10n Note: A user can "Pop Out" a Details window, which is usually embedded in a frame. Popping it out means it can be moved around independently of the main App window */
 "action_verb_popout_details_window" = "弹出详情";
@@ -5048,7 +5048,7 @@
 "mac_notes_partially_copied_to_clipboard" = "备注（部分）已复制";
 
 /* Change My License... */
-"upgrade_vc_change_my_license" = "Change My License...";
+"upgrade_vc_change_my_license" = "更改我的许可证...";
 
 /* Hi there 😎\n\nWe're excited you've decided to try us out and we just wanted to say thanks! So, without further ado, let's get started...\n\n❤️ The Strongbox Team ❤️ */
 "onboarding_welcome_to_strongbox_first_run_message_macos" = "哈喽 😎\n\n很高兴您决定试用 Strongbox，谢谢！ 那么话不多说，让我们开始吧~\n\n❤️ The Strongbox Team ❤️";
@@ -5087,7 +5087,7 @@
 "upgrade_vc_feature_subtitle_support" = "需要帮助吗？";
 
 /* Compare & Merge */
-"upgrade_vc_feature_compare_and_merge" = "Compare & Merge";
+"upgrade_vc_feature_compare_and_merge" = "比较并合并";
 
 /* View & Combine Revisions */
 "upgrade_vc_feature_subtitle_compare_and_merge" = "查看和合并修改";
@@ -5111,7 +5111,7 @@
 "upgrade_vc_feature_subtitle_favicon_downloader" = "使条目更醒目";
 
 /* Support Indie Development */
-"upgrade_vc_feature_support_indie" = "Support Indie Development";
+"upgrade_vc_feature_support_indie" = "支持独立开发";
 
 /* Help us stay awesome! */
 "upgrade_vc_feature_subtitle_support_indie" = "帮助我们保持出色！";
@@ -5150,34 +5150,34 @@
 "1password_import_warning_msg" = "导入过程并不完全顺利，1Password 的某些功能，如命名的部分在 Strongbox 中不可用。\n\n请务必在导入后检查这些条目是否符合您的要求。";
 
 /* Recycle Bin - The name of the recycle bin, the folder where items go instead of being fully deleted */
-"generic_recycle_bin_name" = "Recycle Bin";
+"generic_recycle_bin_name" = "回收站";
 
 /* Commit & Close (⌘⏎) */
-"mac_create_or_edit_commit_changes_and_close" = "Commit & Close (⌘⏎)";
+"mac_create_or_edit_commit_changes_and_close" = "提交并关闭 (⌘⏎)";
 
 /* Close (⌘⏎) */
 "mac_create_or_edit_commit_close" = "关闭 (⌘⏎)";
 
 /* Touch ID & Watch Unlock Settings... */
-"nextgen_toolbar_settings_convenience_unlock_ellipsis" = "Touch ID & Watch Unlock Settings...";
+"nextgen_toolbar_settings_convenience_unlock_ellipsis" = "触控 ID & Watch 解锁设置...";
 
 /* AutoFill Settings... */
-"nextgen_toolbar_settings_autofill_settings_ellipsis" = "AutoFill Settings...";
+"nextgen_toolbar_settings_autofill_settings_ellipsis" = "自动填充设置...";
 
 /* Encryption Settings... */
-"nextgen_toolbar_settings_encryption_settings_ellipsis" = "Encryption Settings...";
+"nextgen_toolbar_settings_encryption_settings_ellipsis" = "加密设置……";
 
 /* Change Master Credentials... */
-"nextgen_toolbar_settings_change_master_credentials_ellipsis" = "Change Master Credentials...";
+"nextgen_toolbar_settings_change_master_credentials_ellipsis" = "更改主凭据...";
 
 /* Database Settings... */
-"nextgen_toolbar_settings_database_settings_ellipsis" = "Database Settings...";
+"nextgen_toolbar_settings_database_settings_ellipsis" = "数据库设置...";
 
 /* Application Preferences... */
 "nextgen_toolbar_settings_application_preferences_ellipsis" = "应用程序首选项...";
 
 /* Settings */
-"generic_settings" = "Settings";
+"generic_settings" = "设置";
 
 /* Excluded Characters */
 "password_gen_vc_prompt_excluded_characters" = "排除的字符";
@@ -5207,7 +5207,7 @@
 "nextgen_sync_issue_toast_message" = "Strongbox 无法同步……";
 
 /* More... - Used in the UI to indicate a button which you can click on to learn or find out more */
-"generic_more_with_ellipsis" = "More...";
+"generic_more_with_ellipsis" = "更多...";
 
 /* Lock Database? */
 "mac_on_window_close_action_title" = "锁定数据库？";
@@ -5231,7 +5231,7 @@
 "error_could_not_save_title" = "保存出错\n我们建议您尝试再次保存";
 
 /* Sync - L10n - This is a verb - To Synchronize */
-"generic_action_sync" = "Sync";
+"generic_action_sync" = "同步";
 
 /* Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Sync Log?\n\n%@\n */
 "sync_error_message_including_error_detail_fmt" = "您的数据库已被安全保存，但在同步时出现错误。 您想重试或者查看同步日志吗？\n\n%@\n";
@@ -5282,7 +5282,7 @@
 "generic_single_item_singular_fmt" = "%@ 项";
 
 /* Configure Tabs */
-"configure_tabs" = "Configure Tabs";
+"configure_tabs" = "配置标签栏";
 
 /* Sort Groups Separately */
 "sort_configuration_custom_sort_order_and_sort_groups_separately" = "保持群组置顶";
@@ -5318,7 +5318,7 @@
 "safes_vc_import_1password_1pux" = "1Password (1Pux)...";
 
 /* Import */
-"safesvc_import_submenu" = "Import";
+"safesvc_import_submenu" = "导入";
 
 /* LastPass (CSV) */
 "safes_vc_import_lastpass" = "LastPass (CSV)";
@@ -5330,7 +5330,7 @@
 "are_you_sure_auto_commit_totp_msg" = "禁用自动提交可能意味着如果您稍后忘记提交，您将会丢失这个 TOTP，您确定吗？";
 
 /* Close - A generic verb - to Close a popup or dialog */
-"generic_verb_close" = "Close";
+"generic_verb_close" = "关闭";
 
 /* Discard - A verb - to discard any pending changes that might have been made */
 "generic_verb_discard" = "丢弃";
@@ -5348,10 +5348,10 @@
 "onboarding_autofill_title_turn_on" = "要打开浏览器自动填充吗？";
 
 /* Turn On AutoFill */
-"onboarding_autofill_option_turn_on_autofill" = "Turn On AutoFill";
+"onboarding_autofill_option_turn_on_autofill" = "打开自动填充";
 
 /* No Thanks */
-"generic_no_thanks" = "No Thanks";
+"generic_no_thanks" = "不，谢谢";
 
 /* Browser AutoFill is available but currently not turned on. Would you like to enable Browser AutoFill so that you can conveniently and securely login from within your browser? */
 "onboarding_autofill_msg_available_turn_on_question" = "浏览器自动填充尚未开启。 您想要启用浏览器自动填充以便您可以方便且安全地从浏览器中进行登录吗？";
@@ -5366,7 +5366,7 @@
 "number_of_entries_or_groups_immediate_and_recursive_fmt" = "%d（%d 项可递归）";
 
 /* Searchable */
-"group_properties_searchable" = "Searchable";
+"group_properties_searchable" = "可搜索";
 
 /* Inherited (%@) - L10n Note: The 1st parameter will be "Yes" or "No" indicating whether the actual inherited value of this item is effectively Yes/No flowing down from its parent value. */
 "item_properties_inherited_yes_no_fmt" = "继承 (%@)";
@@ -5387,13 +5387,13 @@
 "mac_create_or_edit_save_changes" = "保存(⌘S)";
 
 /* Commit (⌘S) */
-"mac_create_or_edit_commit_changes" = "Commit (⌘S)";
+"mac_create_or_edit_commit_changes" = "提交 (⌘S)";
 
 /* Hierarchy (%@ Groups, %@ Entries) - L10n Note - The two parameters are numeric, so for example: "23 Groups, 3456 Entries"*/
 "side_bar_hierarchy_folder_structure_summary_count_fmt" = "层级结构（%@ 个群组，%@ 个条目）";
 
 /* Entries */
-"side_bar_child_count_format_entries" = "Entries";
+"side_bar_child_count_format_entries" = "条目";
 
 /* Entries (Recursive) */
 "side_bar_child_count_format_entries_rec" = "条目（递归）";
@@ -5405,7 +5405,7 @@
 "side_bar_child_count_format_groups_and_entries_rec" = "群组和条目（递归）";
 
 /* Items */
-"side_bar_child_count_format_items" = "Items";
+"side_bar_child_count_format_items" = "项目";
 
 /* Items (Recursive) */
 "side_bar_child_count_format_items_rec" = "项目（递归）";
@@ -5453,13 +5453,13 @@
 "ssh_agent_ssh_key" = "SSH 密钥";
 
 /* Export... */
-"generic_export_ellipsis" = "Export...";
+"generic_export_ellipsis" = "导出...";
 
 /* Public Key */
 "generic_public_key" = "公钥";
 
 /* Private Key */
-"generic_private_key" = "Private Key";
+"generic_private_key" = "私钥";
 
 /* Fingerprint - L10n Note: An SSH Key Fingerprint */
 "ssh_agent_key_fingerprint" = "设备指纹";
@@ -5515,7 +5515,7 @@
 "nextgen_ui_deprecation_switch_notice" = "搞定！您可以通过重启 Strongbox 来使用新的 UI。";
 
 /* Password Generator */
-"popout_password_generator" = "Password Generator";
+"popout_password_generator" = "密码生成器";
 
 /* verify existing credentials before you can change them - L10n Note: This is a suffix that appears on the Touch ID request dialog on macOS, it is prefixed by system text: "Strongbox is trying to", so ultimately this string will look like: "Strongbox is trying to verify existing credentials before you can change them" */
 "verify_creds_before_changing_bio_message_suffix" = "验证凭据以进行更改";
@@ -5566,37 +5566,37 @@
 "generic_select_items" = "选择项目";
 
 /* Select All */
-"generic_select_all" = "Select All";
+"generic_select_all" = "选择全部";
 
 /* Print Database */
-"generic_print_database" = "Print Database";
+"generic_print_database" = "打印数据库";
 
 /* Advanced - L10n: Noun - e.g. Advanced Settings */
-"generic_advanced_noun" = "Advanced";
+"generic_advanced_noun" = "高级设置";
 
 /* AutoFill - L10n: Noun referring to AutoFill Settings */
-"generic_autofill_settings" = "AutoFill";
+"generic_autofill_settings" = "自动填充";
 
 /* Automatic Locking - L10n: Noun referring to Automatic Locking Settings */
-"generic_auto_lock_settings" = "Automatic Locking";
+"generic_auto_lock_settings" = "自动锁定";
 
 /* Encryption - L10n: Noun referring to Encryption Settings  */
-"generic_encryption_settings" = "Encryption";
+"generic_encryption_settings" = "加密方式";
 
 /* Easy Read Font on All Fields */
 "item_details_view_settings_easy_read_all" = "所有字段使用易读字体";
 
 /* Auto Fetch FavIcon */
-"item_details_view_settings_auto_fetch_favicon" = "Auto Fetch FavIcon";
+"item_details_view_settings_auto_fetch_favicon" = "自动取得网页图标";
 
 /* Reveal Password Immediately */
-"item_details_view_settings_reveal_password_immediately" = "Reveal Password Immediately";
+"item_details_view_settings_reveal_password_immediately" = "立即显示密码";
 
 /* Colorize Passwords */
-"item_details_view_settings_colorize_passwords" = "Colorize Passwords";
+"item_details_view_settings_colorize_passwords" = "密码着色";
 
 /* Sort Custom Fields */
-"item_details_view_settings_sort_custom_fields" = "Sort Custom Fields";
+"item_details_view_settings_sort_custom_fields" = "自定义字段排序";
 
 /* New SSH Key */
 "details_add_new_ssh_key" = "新 SSH 密钥";
@@ -5605,7 +5605,7 @@
 "details_add_new_ssh_key_what_kind_prompt" = "您想添加哪种 SSH 密钥？\n\n我们推荐使用先进的 ED25519 密钥类型。";
 
 /* New ED25519 Key */
-"details_add_new_ssh_key_ed25519" = "New ED25519 Key";
+"details_add_new_ssh_key_ed25519" = "新建 ED25519 密钥";
 
 /* New RSA Key */
 "details_add_new_ssh_key_rsa" = "新 RSA 密钥";
@@ -5614,7 +5614,7 @@
 "details_add_new_ssh_key_ellipsis" = "新 SSH 密钥...";
 
 /* Actions - L10n Note: A noun, e.g a list of actions that can be performed */
-"generic_noun_actions" = "Actions";
+"generic_noun_actions" = "动作";
 
 /* OK, Don't Remind Me Again */
 "generic_ok_dont_remind_me_again" = "好的，不要再提醒我";
@@ -5626,7 +5626,7 @@
 "sale_view_subscriber_title" = "订阅特卖优惠";
 
 /* Sale Now On */
-"sale_view_regular_title" = "Sale Now On";
+"sale_view_regular_title" = "促销已开始";
 
 /* Since you're a Pro subscriber, we'd like to say thank you and offer you a discount on your next renewal */
 "sale_view_subscriber_message" = "由于您是 Pro 版用户，我们在此向您表示感谢，并为您提供续订折扣。";
@@ -5641,7 +5641,7 @@
 "sale_view_regular_cta" = "立即成为 Pro";
 
 /* Looking for a Lifetime License? */
-"sale_view_looking_for_lifetime" = "Looking for a Lifetime License?";
+"sale_view_looking_for_lifetime" = "想要获得终身许可证？";
 
 /* Offer ends Midnight %@ - L10n note: The 1st parameter is a day, like Monday or Friday, so: "Offer ends Midnight Friday" for example */
 "sale_view_offer_ends_date_fmt %@" = "优惠截至午夜 %@";
