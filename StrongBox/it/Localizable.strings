@@ -765,7 +765,7 @@
 "sspc_error_invalid_database" = "Database Non Valido";
 
 /* Files... */
-"sspc_ios_files_storage_location" = "Files";
+"sspc_ios_files_storage_location" = "File";
 
 /* Since a local database is only stored on this device, any loss of this device will lead to the loss of all passwords stored within this database. You may want to consider using a cloud storage provider, such as the ones supported by Strongbox to avoid catastrophic data loss.\n\nWould you still like to proceed with creating a local device database? */
 "sspc_local_device_storage_warning_message" = "Dato che un database locale è memorizzato solo su questo dispositivo, qualsiasi perdita di questo dispositivo comporterà la perdita di tutte le password memorizzate in questo database. Potresti voler considerare l'utilizzo di un provider di archiviazione su cloud, come quelli supportati da Strongbox, per evitare perdite di dati irreversibili.\n\nVuoi comunque procedere con la creazione di un database locale su questo dispositivo?";
@@ -1818,7 +1818,7 @@
 "model_error_cannot_write_backup" = "Impossibile scrivere il backup, non procederò con la scrittura del database!";
 
 /* Button Title to view backup settings of this database */
-"safes_vc_action_backups" = "Backups";
+"safes_vc_action_backups" = "Backup";
 
 /* Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences */
 "open_sequence_error_reading_key_file_autofill_context" = "Impossibile leggere File Chiave. È stato importato correttamente? Verificare Gestione File Chiave nelle Impostazioni";
@@ -1884,7 +1884,7 @@
 "generic_fieldname_title" = "Titolo";
 
 /* All Fields */
-"generic_fieldname_all_fields" = "All Fields";
+"generic_fieldname_all_fields" = "Tutti i Campi";
 
 /* Username */
 "generic_fieldname_username" = "Nome Utente";
@@ -1947,7 +1947,7 @@
 "generic_remove" = "Rimuovi";
 
 /* Rename - Translators Note: Verb - To rename something, e.g. an item in a collection, to give it different title */
-"generic_rename" = "Rename";
+"generic_rename" = "Rinomina";
 
 /* Set */
 "generic_set" = "Serie";
@@ -2149,7 +2149,7 @@
 "set_icon_vc_icon_source_download_favicons_pro_only" = "Scaricare le FavIcone Figlio (Solo Pro)";
 
 /* Set Icon(s) */
-"browse_vc_action_set_icons" = "Set Icon(s)";
+"browse_vc_action_set_icons" = "Impostare Icone(i)";
 
 /* Tap Play to start search */
 "favicon_status_initial" = "Toccare Play per avviare la ricerca";
@@ -2694,7 +2694,7 @@
 "mac_browse_for_key_file" = "Sfogliare...";
 
 /* Configured - (Translators Note: User is using a key file, Strongbox knows what/where it is, but will not display the file name in the UI for privacy reasons. This appears on the unlock screen. */
-"mac_key_file_configured_but_filename_hidden" = "Configured";
+"mac_key_file_configured_but_filename_hidden" = "Configurato";
 
 /* %@ (Configured) - (Translators Note: User is using a key file that has previously been set/remembered by Strongbox. First parameter is the filename of the key file. This appears on the unlock screen. */
 "mac_key_file_filename_configured_fmt" = "%@ (Configurato)";
@@ -3344,10 +3344,10 @@
 "onboarding_vc_start_your_free_trial_subtitle_no_subscription" = "Nessun Abbonamento Necessario";
 
 /* Could not bookmark this file */
-"open_sequence_error_could_not_bookmark_file" = "Could not bookmark this file";
+"open_sequence_error_could_not_bookmark_file" = "Non è stato possibile salvare un segnalibro per questo file";
 
 /* Invalid Database - [%@] */
-"open_sequence_invalid_database_filename_fmt" = "Invalid Database - [%@]";
+"open_sequence_invalid_database_filename_fmt" = "Database Non Valido - [%@]";
 
 /* Different Filename */
 "open_sequence_database_different_filename_title" = "Nome File Diverso";
@@ -3365,7 +3365,7 @@
 "open_sequence_storage_provider_view_sync_error_details" = "Visualizzare Dettagli Errore";
 
 /* Use Local (Read-Only) */
-"open_sequence_use_local_copy_option" = "Usare Locale (Solo Lettura)";
+"open_sequence_use_local_copy_option" = "Aprire Offline";
 
 /* Delete (Translators Note: Verb - To Delete an item) */
 "generic_action_delete" = "Elimina";
@@ -3419,16 +3419,16 @@
 "hint_tap_and_hold_to_see_options" = "Suggerimento: Toccare e tienere premuto per vedere le opzioni";
 
 /* Launch URL & Copy */
-"browse_action_launch_url_copy_password" = "Launch URL & Copy Password";
+"browse_action_launch_url_copy_password" = "Aprire URL & Copiare Password";
 
 /* Copy Other Field... */
 "browse_context_menu_copy_other_field" = "Copiare Campo...";
 
 /* Move - Translators Note: Verb - To move something e.g. an entry or group somewhere else in the hierarchy */
-"generic_move" = "Move";
+"generic_move" = "Sposta";
 
 /* New Entry - Translators Note: Menu option to add a new entry */
-"browse_context_menu_new_entry" = "New Entry";
+"browse_context_menu_new_entry" = "Nuovo Elemento";
 
 /* New Group Translators Note: Menu option to add a new group */
 "browse_context_menu_new_group" = "Nuovo Gruppo";
@@ -3437,7 +3437,7 @@
 "generic_select" = "Selezionare";
 
 /* Start with Search - Translators Note: Option to start with the search field focused immediately upon unlock */
-"browse_context_menu_start_with_search" = "Start with Search";
+"browse_context_menu_start_with_search" = "Inizia con la Ricerca";
 
 /* Sort - Translators Note: Verb - to sort items by title or other field */
 "generic_sort" = "Ordinare";
@@ -3449,13 +3449,13 @@
 "browse_context_menu_database_settings" = "Impostazioni Database";
 
 /* Set Credentials */
-"browse_context_menu_set_master_credentials" = "Set Master Credentials";
+"browse_context_menu_set_master_credentials" = "Impostare Credenziali Master";
 
 /* Show Password - Translators Note: On Browse screen - context menu item - This option will display the password in a large full screen font for easy reading with a QR Code */
 "browse_context_menu_show_password" = "Mostrare Password";
 
 /* Read Only */
-"databases_toggle_read_only_context_menu" = "Read Only";
+"databases_toggle_read_only_context_menu" = "Sola Lettura";
 
 /* Quick Launch */
 "databases_toggle_quick_launch_context_menu" = "Avvio Rapido";
@@ -3464,7 +3464,7 @@
 "browse_vc_action_properties" = "Proprietà";
 
 /* Find */
-"browse_vc_action_keyboard_shortcut_find" = "Find";
+"browse_vc_action_keyboard_shortcut_find" = "Trova";
 
 /* Custom Data */
 "properties_vc_header_custom_data" = "Dati Personalizzati";
@@ -3473,7 +3473,7 @@
 "properties_vc_footer_custom_data" = "Dati Personalizzati utilizzati da plugin e varie altre applicazioni.";
 
 /* Properties */
-"properties_vc_header_basic" = "Properties";
+"properties_vc_header_basic" = "Proprietà";
 
 /* Some simple properties and settings of this item. */
 "properties_vc_footer_basic" = "Alcune semplici proprietà e impostazioni di questo elemento.";
@@ -3593,7 +3593,7 @@
 "generic_action_create_local_database" = "Creare Copia Locale";
 
 /* Identical databases. */
-"merge_result_databases_identical" = "Database identici.";
+"merge_result_databases_identical" = "Nessuna modifica da unire nel primo.";
 
 /* Compare & Merge... */
 "generic_action_compare_and_merge_ellipsis" = "Confrontare & Unire...";
@@ -3608,7 +3608,7 @@
 "diff_result_percentage_difference_fmt" = "Il secondo database è differente per il %0.1f%%.";
 
 /* Identical databases. */
-"diff_result_databases_identical" = "Identical databases.";
+"diff_result_databases_identical" = "Database identici.";
 
 /* Some database properties will change. */
 "merge_result_databases_properties_will_change" = "Alcune proprietà del database cambieranno.";
@@ -3617,7 +3617,7 @@
 "diff_result_databases_properties_different" = "Le proprietà del database sono diverse.";
 
 /* Summary */
-"diff_view_section_header_summary" = "Summary";
+"diff_view_section_header_summary" = "Riepilogo";
 
 /* Will be Changed (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
 "diff_view_section_header_entry_will_be_changed_count_fmt" = "Verrà Cambiato (%lu)";
@@ -3776,10 +3776,10 @@
 "diff_drill_down_created_dates_are_different" = "Le Date di Creazione sono diverse.";
 
 /* Modified Date will change. */
-"diff_drill_down_mod_date_will_change" = "Modified Date will change.";
+"diff_drill_down_mod_date_will_change" = "La Data Modificata cambierà.";
 
 /* Modified Dates are different. */
-"diff_drill_down_mod_dates_are_different" = "Modified Dates are different.";
+"diff_drill_down_mod_dates_are_different" = "Le Date Modificate sono diverse.";
 
 /* Expiry Date will change. */
 "diff_drill_down_expiry_date_will_change" = "La Data di Scadenza cambierà.";
@@ -3965,7 +3965,7 @@
 "database_properties_subtitle_quick_launch" = "Chiedere automaticamente l'apertura di questo database all'avvio dell'App.";
 
 /* Always Auto-Merge */
-"database_properties_title_always_auto_merge" = "Always Auto-Merge";
+"database_properties_title_always_auto_merge" = "Unione Automatica Sempre";
 
 /* When a sync conflict occurs automatically merge without asking. */
 "database_properties_subtitle_conflict_resolution" = "Quando si verifica un conflitto di sincronizzazione si unisce automaticamente senza chiedere.";
@@ -3989,10 +3989,10 @@
 "quick_type_format_title_username" = "Titolo (Nome Utente)";
 
 /* Title */
-"quick_type_format_title" = "Title";
+"quick_type_format_title" = "Titolo";
 
 /* Username */
-"quick_type_format_username" = "Username";
+"quick_type_format_username" = "Nome Utente";
 
 /* QuickType Format */
 "prefs_vc_quick_type_format" = "Formato QuickType";
@@ -4113,7 +4113,7 @@
 "autofill_search_service_id_section_footer" = "Il Service ID è un identificatore inviato a Strongbox dal Riempimento Automatico. Impostare l'URL dell'elemento in abbinamento all'ID del Servizio può aiutare nelle ricerche. Toccare per Copiare.";
 
 /* Results */
-"quick_view_title_no_matches_title" = "Results";
+"quick_view_title_no_matches_title" = "Risultati";
 
 /* Unlock with Touch ID */
 "mac_unlock_database_with_touch_id" = "Sbloccare con Touch ID";
@@ -4122,7 +4122,7 @@
 "mac_unlock_database_with_apple_watch" = "Sbloccare con Watch";
 
 /* Unlock with Touch ID or Watch */
-"mac_unlock_database_with_touch_or_watch" = "Unlock with Touch ID or Watch";
+"mac_unlock_database_with_touch_or_watch" = "Sbloccare con Touch ID o Watch";
 
 /* Blur */
 "app_privacy_shield_mode_blur" = "Sfocatura";
@@ -4206,7 +4206,7 @@
 "mac_undo_action_add_tag" = "Aggiungere Etichetta";
 
 /* Tags */
-"generic_fieldname_tags" = "Tags";
+"generic_fieldname_tags" = "Etichette";
 
 /* Enter a new tag to add for this item */
 "mac_vc_please_enter_a_tag" = "Inserire una nuova etichetta da aggiungere a questo elemento";
@@ -4317,16 +4317,16 @@
 "composite_key_determiner_convenience_expired_message" = "Adesso è il momento di reinserire manualmente la password principale. È possibile modificare questo intervallo di promemoria nelle impostazioni del database.";
 
 /* Got it! */
-"generic_got_it" = "Got it!";
+"generic_got_it" = "Capito!";
 
 /* Don't tell me again */
-"generic_dont_tell_again" = "Don't tell me again";
+"generic_dont_tell_again" = "Non ricordarlo ancora";
 
 /* Actions - L10n - a generic collection of actions (or items that will perform certain actions/tasks) - often used as a Section Header */
-"generic_actions" = "Actions";
+"generic_actions" = "Azioni";
 
 /* Preferences - L10n - a generic header or item that leads to a set or settings / preferences - often used as a Section Header or button */
-"generic_preferences" = "Preferences";
+"generic_preferences" = "Impostazioni";
 
 /* Rearrange - L10n - Verb - to re-order or otherwise change the order of a list of items */
 "generic_rearrange" = "Riorganizzare";
@@ -4335,7 +4335,7 @@
 "onboarding_convenience_message_fmt" = "Digitare la Master Password è un processo lento, tedioso e prono ad errori. Strongbox può aiutare a sbloccare in modo sicuro e rapido il database senza dover utilizzare la Master Password ogni volta.\n\nSi vuole utilizzare Lo Sblocco di Convenienza?";
 
 /* Dismiss - L10n Note: Generic Action to dismiss a dialog or popup */
-"generic_dismiss" = "Dismiss";
+"generic_dismiss" = "Chiudere";
 
 /* There is a configuration issue you should be aware of. You are using %@ for both App Lock and Quick Launch. In addition you allow device passcode fallback for App Lock.\n\nThis leads to a situation where you can unlock your database using only your device passcode.\n\nIf you do not want this you can do any of the following: Disable App Lock passcode fallback, or Quick Launch, or %@ Database Unlock, or coalescing of unlocks - L10n Note: 3 format parameters here are identical and will be either 'Face ID' or 'Touch ID' */
 "app_lock_coalescing_with_quick_launch_warning" = "C'è un problema di configurazione di cui si dovrebbe essere a conoscenza. Si sta utilizzando %@ sia per Blocco App che Avvio Rapido. Inoltre, si consente il fallback del codice di accesso del dispositivo per Blocco App.\n\nQuesto porta a una situazione in cui è possibile sbloccare il proprio database utilizzando solo il codice di accesso del dispositivo.\n\nSe non si desidera questo è possibile effettuare una delle seguenti operazioni: Disabilitare Blocco App passcode fallback, o Avvio Rapido, o %@ Sblocco Database o la coalescenza degli sblocchi.";
@@ -4353,7 +4353,7 @@
 "onboarding_ready_to_launch_message" = "Si è adesso pronti per partire al meglio con Strongbox.\n\nNon si dimentichi che è possibile modificare queste impostazioni in qualsiasi momento.";
 
 /* Scheduled Export */
-"onboarding_scheduled_export_title" = "Scheduled Export";
+"onboarding_scheduled_export_title" = "Esportazione Pianificata";
 
 /* It's always a good idea to keep backups, especially external ones. Strongbox can remind you to export your database every so often.\n\nWould you like Strongbox to prompt you to export your database if it has been a while? */
 "onboarding_scheduled_export_message" = "È sempre una buona idea mantenere dei backup, soprattutto se esterni. Strongbox può ricordare di esportare il database ogni tanto.\n\nSi vuole che Strongbox chieda di esportare il database, se non lo è stato per un po'?";
@@ -4365,7 +4365,7 @@
 "onboarding_scheduled_export_onboarding_remind_4_weeks" = "Ricordarlo dopo 4 settimane";
 
 /* Don't Remind Me */
-"generic_dont_remind_me" = "Don't Remind Me";
+"generic_dont_remind_me" = "Non Ricordarla";
 
 /* It's time to export a backup copy of your database somewhere safe.\n\nWould you like do that now? */
 "scheduled_export_message" = "È l'ora di esportare una copia di backup del database in qualche posto sicuro.\n\nSi vuole farlo adesso?";
@@ -4392,7 +4392,7 @@
 "prefs_vc_scheduled_export_interval" = "Intervallo Di Esportazione Pianificato";
 
 /* Welcome Aboard */
-"onboarding_welcome_to_strongbox_first_run_title" = "Welcome Aboard";
+"onboarding_welcome_to_strongbox_first_run_title" = "Benvenuti a Bordo";
 
 /* Hi there, and welcome to Strongbox 😎\n\nWe're sure you're excited to get started, but first, there are a few steps we should take so that everything runs smoothly... */
 "onboarding_welcome_to_strongbox_first_run_message" = "Salve, e benvenuti a Strongbox 😎\n\nSiamo sicuri di essere entusiasti d'iniziare, ma in primo luogo, ci sono alcuni passi che bisogna fare per assicurarsi che tutto funzioni senza intoppi...";
@@ -4404,7 +4404,7 @@
 "generic_get_started" = "Per Iniziare";
 
 /* You're All Set! */
-"generic_youre_all_set" = "You're All Set!";
+"generic_youre_all_set" = "Sei A Posto!";
 
 /* Next up, we'll take you to your regular Databases screen.\n\nFrom here, we'll help you add your first password database.\n\n❤️ The Strongbox Team ❤️ */
 "onboarding_welcome_to_strongbox_first_run_final_message" = "Adesso ci rechiamo nella consueta schermata dei Database.\n\nDa qui, aggiungeremo il primo database di password.\n\n❤️ Il Team Strongbox ❤️";
@@ -4469,7 +4469,7 @@
 "export_items_select_destination_group_title" = "Esportare Qua";
 
 /* Export Database */
-"generic_export_database" = "Export Database";
+"generic_export_database" = "Esporta Database";
 
 /* Export Item */
 "generic_export_item" = "Esportare Elemento";
@@ -4574,13 +4574,13 @@
 "keepass_kdbx4x_format" = "KeePass 2 (KDBX 4.x)";
 
 /* Memory */
-"generic_memory" = "Memory";
+"generic_memory" = "Memoria";
 
 /* Parallelism */
 "generic_parallelism" = "Parallelismo";
 
 /* Algorithm */
-"generic_algorithm" = "Algorithm";
+"generic_algorithm" = "Algoritmo";
 
 /* Compression */
 "generic_compression" = "Compressione";
@@ -4769,7 +4769,7 @@
 "menu_item_header_randomly_generated_suggestions" = "Generato Casualmente";
 
 /* Most Used */
-"menu_item_header_most_used_suggestions" = "Most Used";
+"menu_item_header_most_used_suggestions" = "Più Utilizzati";
 
 /* Are you sure you want to clear the expiry for this entry? */
 "are_you_sure_clear_expiry" = "Si è sicuri di voler cancellare la scadenza per questo elemento?";
@@ -4784,13 +4784,13 @@
 "discard_changes" = "Annullare le Modifiche";
 
 /* Create Group */
-"create_group" = "Create Group";
+"create_group" = "Creare Gruppo";
 
 /* Edit Entry */
 "edit_entry" = "Modifica Elemento";
 
 /* Create Entry */
-"create_entry" = "Create Entry";
+"create_entry" = "Creare Elemento";
 
 /* Tidy Up Field? */
 "field_tidy_title_tidy_up_field" = "Ripulire Campo?";
@@ -4823,7 +4823,7 @@
 "generic_fieldname_urls" = "Indirizzi URL";
 
 /* Copy - L10n Note: This is a verb, to copy an item/string/field to the clipboard */
-"generic_action_verb_copy_to_clipboard" = "Copy";
+"generic_action_verb_copy_to_clipboard" = "Copia";
 
 /* Copy - L10n Note: This is a verb, to copy the field name (e.g. if there is a field: Custom-Field-1="value", then this would copy "Custom-Field-1" to the clipboard */
 "generic_action_verb_copy_field_name_to_clipboard" = "Copiare Nome Campo";
@@ -4838,7 +4838,7 @@
 "generic_action_verb_launch_url" = "Avviare URL";
 
 /* Show QR Code */
-"generic_action_show_qr_code" = "Show QR Code";
+"generic_action_show_qr_code" = "Mostra Codice QR";
 
 /* Show Large Text View */
 "generic_action_show_large_text_view" = "Mostrare Vista Testo Grande";
@@ -4934,7 +4934,7 @@
 "custom_app_icon_category_utilities" = "Utilità";
 
 /* Default */
-"custom_app_icon_category_default" = "Default";
+"custom_app_icon_category_default" = "Predefinito";
 
 /* Are you sure you want to reset to the default App Icon? */
 "are_you_sure_reset_to_default_app_icon" = "Si è sicuri di voler ripristinare l'Icona dell'App al formato predefinito?";
@@ -4997,7 +4997,7 @@
 "generic_ask_me_later" = "Chiederlo Più Tardi";
 
 /* Lock Database - L10n note: Verb, To Lock, Locks the Database */
-"verb_lock_database" = "Lock Database";
+"verb_lock_database" = "Blocca Database";
 
 /* Are you sure you want to delete this tag? */
 "are_you_sure_delete_tag_message" = "Si è sicuri di voler eliminare questa etichetta?";
@@ -5048,7 +5048,7 @@
 "mac_notes_partially_copied_to_clipboard" = "Note (Parzialmente) Copiate";
 
 /* Change My License... */
-"upgrade_vc_change_my_license" = "Change My License...";
+"upgrade_vc_change_my_license" = "Cambiare La Mia Licenza...";
 
 /* Hi there 😎\n\nWe're excited you've decided to try us out and we just wanted to say thanks! So, without further ado, let's get started...\n\n❤️ The Strongbox Team ❤️ */
 "onboarding_welcome_to_strongbox_first_run_message_macos" = "Ciao 😎\n\nSiamo entusiasti che abbiate deciso di provarci e volevamo semplicemente dire grazie! Quindi, senza ulteriori indugi, iniziamo.\n\n❤️ Il Team di Strongbox ❤️";
@@ -5087,7 +5087,7 @@
 "upgrade_vc_feature_subtitle_support" = "Siamo qui per te";
 
 /* Compare & Merge */
-"upgrade_vc_feature_compare_and_merge" = "Compare & Merge";
+"upgrade_vc_feature_compare_and_merge" = "Confrontare & Unire";
 
 /* View & Combine Revisions */
 "upgrade_vc_feature_subtitle_compare_and_merge" = "Visualizzare e Combinare Revisioni";
@@ -5111,7 +5111,7 @@
 "upgrade_vc_feature_subtitle_favicon_downloader" = "Far risaltare le proprie voci";
 
 /* Support Indie Development */
-"upgrade_vc_feature_support_indie" = "Support Indie Development";
+"upgrade_vc_feature_support_indie" = "Sostieni Gli Sviluppatori Indipendenti";
 
 /* Help us stay awesome! */
 "upgrade_vc_feature_subtitle_support_indie" = "Aiutaci a rimanere fantastici!";
@@ -5159,25 +5159,25 @@
 "mac_create_or_edit_commit_close" = "Chiudere (⌘⏎)";
 
 /* Touch ID & Watch Unlock Settings... */
-"nextgen_toolbar_settings_convenience_unlock_ellipsis" = "Touch ID & Watch Unlock Settings...";
+"nextgen_toolbar_settings_convenience_unlock_ellipsis" = "Impostazioni Sblocco Touch ID & Watch...";
 
 /* AutoFill Settings... */
-"nextgen_toolbar_settings_autofill_settings_ellipsis" = "AutoFill Settings...";
+"nextgen_toolbar_settings_autofill_settings_ellipsis" = "Impostazioni Riempimento Automatico...";
 
 /* Encryption Settings... */
-"nextgen_toolbar_settings_encryption_settings_ellipsis" = "Encryption Settings...";
+"nextgen_toolbar_settings_encryption_settings_ellipsis" = "Impostazioni Crittografia...";
 
 /* Change Master Credentials... */
-"nextgen_toolbar_settings_change_master_credentials_ellipsis" = "Change Master Credentials...";
+"nextgen_toolbar_settings_change_master_credentials_ellipsis" = "Cambiare Credenziali Master...";
 
 /* Database Settings... */
-"nextgen_toolbar_settings_database_settings_ellipsis" = "Database Settings...";
+"nextgen_toolbar_settings_database_settings_ellipsis" = "Impostazioni Database...";
 
 /* Application Preferences... */
 "nextgen_toolbar_settings_application_preferences_ellipsis" = "Impostazioni Applicazione...";
 
 /* Settings */
-"generic_settings" = "Settings";
+"generic_settings" = "Impostazioni";
 
 /* Excluded Characters */
 "password_gen_vc_prompt_excluded_characters" = "Caratteri Esclusi";
@@ -5207,7 +5207,7 @@
 "nextgen_sync_issue_toast_message" = "Strongbox non ha potuto sincronizzare...";
 
 /* More... - Used in the UI to indicate a button which you can click on to learn or find out more */
-"generic_more_with_ellipsis" = "More...";
+"generic_more_with_ellipsis" = "Altro...";
 
 /* Lock Database? */
 "mac_on_window_close_action_title" = "Bloccare Database?";
@@ -5231,7 +5231,7 @@
 "error_could_not_save_title" = "Errore nel salvataggio\nSi consiglia di provare a salvare di nuovo";
 
 /* Sync - L10n - This is a verb - To Synchronize */
-"generic_action_sync" = "Sync";
+"generic_action_sync" = "Sincronizzazione";
 
 /* Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Sync Log?\n\n%@\n */
 "sync_error_message_including_error_detail_fmt" = "Il database è stato salvato in modo sicuro, ma c'è stato un errore di sincronizzazione. Si vuole riprovare o dare un'occhiata al Log di Sincronizzazione?\n\n%@\n";
@@ -5318,7 +5318,7 @@
 "safes_vc_import_1password_1pux" = "1Password (1Pux)...";
 
 /* Import */
-"safesvc_import_submenu" = "Import";
+"safesvc_import_submenu" = "Importare";
 
 /* LastPass (CSV) */
 "safes_vc_import_lastpass" = "LastPass (CSV)";
@@ -5330,7 +5330,7 @@
 "are_you_sure_auto_commit_totp_msg" = "Disabilitare Auto-Salvataggio potrebbe significare perdere questo TOTP se si dimentica di effettuare il salvataggio più tardi. Si è sicuri?";
 
 /* Close - A generic verb - to Close a popup or dialog */
-"generic_verb_close" = "Close";
+"generic_verb_close" = "Chiudi";
 
 /* Discard - A verb - to discard any pending changes that might have been made */
 "generic_verb_discard" = "Scartare";
@@ -5342,16 +5342,16 @@
 "password_history_this_password_was_used_until_fmt" = "Usata fino a %@";
 
 /* Previous Passwords - A heading above a list of previously used passwords */
-"password_history_previous_passwords" = "Previous Passwords";
+"password_history_previous_passwords" = "Password precedenti";
 
 /* Turn On Browser AutoFill? */
 "onboarding_autofill_title_turn_on" = "Attivare Il Riempimento Automatico Del Browser?";
 
 /* Turn On AutoFill */
-"onboarding_autofill_option_turn_on_autofill" = "Turn On AutoFill";
+"onboarding_autofill_option_turn_on_autofill" = "Attivare Riempimento Automatico";
 
 /* No Thanks */
-"generic_no_thanks" = "No Thanks";
+"generic_no_thanks" = "No Grazie";
 
 /* Browser AutoFill is available but currently not turned on. Would you like to enable Browser AutoFill so that you can conveniently and securely login from within your browser? */
 "onboarding_autofill_msg_available_turn_on_question" = "Riempimento Automatico sul Browser è disponibile ma al momento non è attivato. Lo si vuole abilitare così da accedere comodamente e in modo sicuro direttamente dal browser?";
@@ -5366,7 +5366,7 @@
 "number_of_entries_or_groups_immediate_and_recursive_fmt" = "%d (%d Ricorsivi)";
 
 /* Searchable */
-"group_properties_searchable" = "Searchable";
+"group_properties_searchable" = "Ricercabile";
 
 /* Inherited (%@) - L10n Note: The 1st parameter will be "Yes" or "No" indicating whether the actual inherited value of this item is effectively Yes/No flowing down from its parent value. */
 "item_properties_inherited_yes_no_fmt" = "Ereditato (%@)";
@@ -5387,13 +5387,13 @@
 "mac_create_or_edit_save_changes" = "Salvare (⌘S)";
 
 /* Commit (⌘S) */
-"mac_create_or_edit_commit_changes" = "Commit (⌘S)";
+"mac_create_or_edit_commit_changes" = "Salvare (⌘S)";
 
 /* Hierarchy (%@ Groups, %@ Entries) - L10n Note - The two parameters are numeric, so for example: "23 Groups, 3456 Entries"*/
 "side_bar_hierarchy_folder_structure_summary_count_fmt" = "Gerarchia (%@ Gruppi, %@ Voci)";
 
 /* Entries */
-"side_bar_child_count_format_entries" = "Entries";
+"side_bar_child_count_format_entries" = "Voci";
 
 /* Entries (Recursive) */
 "side_bar_child_count_format_entries_rec" = "Voci (Ricorsivo)";
@@ -5405,7 +5405,7 @@
 "side_bar_child_count_format_groups_and_entries_rec" = "Gruppi e Voci (Ricorsivo)";
 
 /* Items */
-"side_bar_child_count_format_items" = "Items";
+"side_bar_child_count_format_items" = "Elementi";
 
 /* Items (Recursive) */
 "side_bar_child_count_format_items_rec" = "Elementi (Ricorsivo)";
@@ -5453,13 +5453,13 @@
 "ssh_agent_ssh_key" = "Chiave SSH";
 
 /* Export... */
-"generic_export_ellipsis" = "Export...";
+"generic_export_ellipsis" = "Esportazione...";
 
 /* Public Key */
 "generic_public_key" = "Chiave Pubblica";
 
 /* Private Key */
-"generic_private_key" = "Private Key";
+"generic_private_key" = "Chiave Privata";
 
 /* Fingerprint - L10n Note: An SSH Key Fingerprint */
 "ssh_agent_key_fingerprint" = "Impronta Digitale";
@@ -5515,7 +5515,7 @@
 "nextgen_ui_deprecation_switch_notice" = "Tutto è pronto! Raccomandiamo di riavviare Strongbox per abilitare la nuova UI.";
 
 /* Password Generator */
-"popout_password_generator" = "Password Generator";
+"popout_password_generator" = "Generatore di Password";
 
 /* verify existing credentials before you can change them - L10n Note: This is a suffix that appears on the Touch ID request dialog on macOS, it is prefixed by system text: "Strongbox is trying to", so ultimately this string will look like: "Strongbox is trying to verify existing credentials before you can change them" */
 "verify_creds_before_changing_bio_message_suffix" = "verificare le credenziali prima di poterle cambiare";
@@ -5566,37 +5566,37 @@
 "generic_select_items" = "Selezionare Elementi";
 
 /* Select All */
-"generic_select_all" = "Select All";
+"generic_select_all" = "Seleziona Tutto";
 
 /* Print Database */
-"generic_print_database" = "Print Database";
+"generic_print_database" = "Stampa Database";
 
 /* Advanced - L10n: Noun - e.g. Advanced Settings */
-"generic_advanced_noun" = "Advanced";
+"generic_advanced_noun" = "Avanzate";
 
 /* AutoFill - L10n: Noun referring to AutoFill Settings */
-"generic_autofill_settings" = "AutoFill";
+"generic_autofill_settings" = "Riempimento Automatico";
 
 /* Automatic Locking - L10n: Noun referring to Automatic Locking Settings */
-"generic_auto_lock_settings" = "Automatic Locking";
+"generic_auto_lock_settings" = "Blocco Automatico";
 
 /* Encryption - L10n: Noun referring to Encryption Settings  */
-"generic_encryption_settings" = "Encryption";
+"generic_encryption_settings" = "Crittografia";
 
 /* Easy Read Font on All Fields */
 "item_details_view_settings_easy_read_all" = "Font Facili da Leggere in Tutti i Campi";
 
 /* Auto Fetch FavIcon */
-"item_details_view_settings_auto_fetch_favicon" = "Auto Fetch FavIcon";
+"item_details_view_settings_auto_fetch_favicon" = "Recupero Automatico FavIcona";
 
 /* Reveal Password Immediately */
-"item_details_view_settings_reveal_password_immediately" = "Reveal Password Immediately";
+"item_details_view_settings_reveal_password_immediately" = "Rivelare Password Immediatamente";
 
 /* Colorize Passwords */
-"item_details_view_settings_colorize_passwords" = "Colorize Passwords";
+"item_details_view_settings_colorize_passwords" = "Colorizza Password";
 
 /* Sort Custom Fields */
-"item_details_view_settings_sort_custom_fields" = "Sort Custom Fields";
+"item_details_view_settings_sort_custom_fields" = "Ordinare Campi Personalizzati";
 
 /* New SSH Key */
 "details_add_new_ssh_key" = "Nuova Chiave SSH";
@@ -5605,7 +5605,7 @@
 "details_add_new_ssh_key_what_kind_prompt" = "Che tipo di chiave SSH si vorrebbe aggiungere?\n\nSi consiglia di utilizzare il moderno tipo di chiave ED25519.";
 
 /* New ED25519 Key */
-"details_add_new_ssh_key_ed25519" = "New ED25519 Key";
+"details_add_new_ssh_key_ed25519" = "Nuova Chiave ED25519";
 
 /* New RSA Key */
 "details_add_new_ssh_key_rsa" = "Nuova Chiave RSA";
@@ -5614,7 +5614,7 @@
 "details_add_new_ssh_key_ellipsis" = "Nuova Chiave SSH...";
 
 /* Actions - L10n Note: A noun, e.g a list of actions that can be performed */
-"generic_noun_actions" = "Actions";
+"generic_noun_actions" = "Azioni";
 
 /* OK, Don't Remind Me Again */
 "generic_ok_dont_remind_me_again" = "OK, Non Ricordarlo Di Nuovo";
@@ -5626,7 +5626,7 @@
 "sale_view_subscriber_title" = "Offerta Abbonamento";
 
 /* Sale Now On */
-"sale_view_regular_title" = "Sale Now On";
+"sale_view_regular_title" = "In Vendita Adesso";
 
 /* Since you're a Pro subscriber, we'd like to say thank you and offer you a discount on your next renewal */
 "sale_view_subscriber_message" = "Dato che sei un abbonato Pro, vorremmo ringraziarti e offrirti uno sconto sul tuo prossimo rinnovo";
@@ -5641,7 +5641,7 @@
 "sale_view_regular_cta" = "Passare a Pro Adesso";
 
 /* Looking for a Lifetime License? */
-"sale_view_looking_for_lifetime" = "Looking for a Lifetime License?";
+"sale_view_looking_for_lifetime" = "Si cerca una Licenza a Vita?";
 
 /* Offer ends Midnight %@ - L10n note: The 1st parameter is a day, like Monday or Friday, so: "Offer ends Midnight Friday" for example */
 "sale_view_offer_ends_date_fmt %@" = "L'Offerta termina a Mezzanotte %@";
