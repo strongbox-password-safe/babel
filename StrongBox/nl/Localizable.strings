@@ -3365,7 +3365,7 @@
 "open_sequence_storage_provider_view_sync_error_details" = "Toon foutgegevens";
 
 /* Use Local (Read-Only) */
-"open_sequence_use_local_copy_option" = "Lokaal gebruiken (alleen-lezen)";
+"open_sequence_use_local_copy_option" = "Open offline";
 
 /* Delete (Translators Note: Verb - To Delete an item) */
 "generic_action_delete" = "Verwijder";
@@ -3449,7 +3449,7 @@
 "browse_context_menu_database_settings" = "Database-instellingen";
 
 /* Set Credentials */
-"browse_context_menu_set_master_credentials" = "Set Master Credentials";
+"browse_context_menu_set_master_credentials" = "Stel hoofdinloggegevens in";
 
 /* Show Password - Translators Note: On Browse screen - context menu item - This option will display the password in a large full screen font for easy reading with a QR Code */
 "browse_context_menu_show_password" = "Toon wachtwoord";
@@ -3593,7 +3593,7 @@
 "generic_action_create_local_database" = "Maak lokale kopie";
 
 /* Identical databases. */
-"merge_result_databases_identical" = "Identieke databases.";
+"merge_result_databases_identical" = "Er zijn geen wijzigingen die in de eerste samengevoegd kunnen worden.";
 
 /* Compare & Merge... */
 "generic_action_compare_and_merge_ellipsis" = "Vergelijk en voeg samen...";
@@ -5387,7 +5387,7 @@
 "mac_create_or_edit_save_changes" = "Opslaan (⌘S)";
 
 /* Commit (⌘S) */
-"mac_create_or_edit_commit_changes" = "Commit (⌘S)";
+"mac_create_or_edit_commit_changes" = "Bewaar (⌘S)";
 
 /* Hierarchy (%@ Groups, %@ Entries) - L10n Note - The two parameters are numeric, so for example: "23 Groups, 3456 Entries"*/
 "side_bar_hierarchy_folder_structure_summary_count_fmt" = "Hiërarchie (%@ Groepen, %@ Entries)";
@@ -5405,7 +5405,7 @@
 "side_bar_child_count_format_groups_and_entries_rec" = "Groepen en Entries (Recursief)";
 
 /* Items */
-"side_bar_child_count_format_items" = "Items";
+"side_bar_child_count_format_items" = "Onderdelen";
 
 /* Items (Recursive) */
 "side_bar_child_count_format_items_rec" = "Onderdelen (Recursief)";
@@ -5450,16 +5450,16 @@
 "ssh_agent_disabled_for_agent" = "Uitgeschakeld voor SSH Agent";
 
 /* SSH Key */
-"ssh_agent_ssh_key" = "SSH Key";
+"ssh_agent_ssh_key" = "SSH sleutel";
 
 /* Export... */
-"generic_export_ellipsis" = "Export...";
+"generic_export_ellipsis" = "Exporteer...";
 
 /* Public Key */
 "generic_public_key" = "Publieke sleutel";
 
 /* Private Key */
-"generic_private_key" = "Private Key";
+"generic_private_key" = "Privésleutel";
 
 /* Fingerprint - L10n Note: An SSH Key Fingerprint */
 "ssh_agent_key_fingerprint" = "Vingerafdruk";
@@ -5515,7 +5515,7 @@
 "nextgen_ui_deprecation_switch_notice" = "Je bent klaar! We raden je aan om Strongbox te herstarten om de nieuwe gebruikersinterface in te schakelen.";
 
 /* Password Generator */
-"popout_password_generator" = "Password Generator";
+"popout_password_generator" = "Wachtwoordaanmaak";
 
 /* verify existing credentials before you can change them - L10n Note: This is a suffix that appears on the Touch ID request dialog on macOS, it is prefixed by system text: "Strongbox is trying to", so ultimately this string will look like: "Strongbox is trying to verify existing credentials before you can change them" */
 "verify_creds_before_changing_bio_message_suffix" = "controleer inloggegevens voordat je ze kunt wijzigen";
@@ -5566,37 +5566,37 @@
 "generic_select_items" = "Selecteer Items";
 
 /* Select All */
-"generic_select_all" = "Select All";
+"generic_select_all" = "Selecteer alles";
 
 /* Print Database */
-"generic_print_database" = "Print Database";
+"generic_print_database" = "Druk database af";
 
 /* Advanced - L10n: Noun - e.g. Advanced Settings */
-"generic_advanced_noun" = "Advanced";
+"generic_advanced_noun" = "Geavanceerd";
 
 /* AutoFill - L10n: Noun referring to AutoFill Settings */
-"generic_autofill_settings" = "AutoFill";
+"generic_autofill_settings" = "Automatisch invullen";
 
 /* Automatic Locking - L10n: Noun referring to Automatic Locking Settings */
-"generic_auto_lock_settings" = "Automatic Locking";
+"generic_auto_lock_settings" = "Vergrendel automatisch";
 
 /* Encryption - L10n: Noun referring to Encryption Settings  */
-"generic_encryption_settings" = "Encryption";
+"generic_encryption_settings" = "Versleuteling";
 
 /* Easy Read Font on All Fields */
 "item_details_view_settings_easy_read_all" = "Eenvoudig te lezen lettertype voor alle velden";
 
 /* Auto Fetch FavIcon */
-"item_details_view_settings_auto_fetch_favicon" = "Auto Fetch FavIcon";
+"item_details_view_settings_auto_fetch_favicon" = "Haal FavIcon automatisch op";
 
 /* Reveal Password Immediately */
-"item_details_view_settings_reveal_password_immediately" = "Reveal Password Immediately";
+"item_details_view_settings_reveal_password_immediately" = "Toon wachtwoord onmiddellijk";
 
 /* Colorize Passwords */
-"item_details_view_settings_colorize_passwords" = "Colorize Passwords";
+"item_details_view_settings_colorize_passwords" = "Kleur wachtwoorden";
 
 /* Sort Custom Fields */
-"item_details_view_settings_sort_custom_fields" = "Sort Custom Fields";
+"item_details_view_settings_sort_custom_fields" = "Sorteer eigen velden";
 
 /* New SSH Key */
 "details_add_new_ssh_key" = "Nieuwe SSH sleutel";
@@ -5605,7 +5605,7 @@
 "details_add_new_ssh_key_what_kind_prompt" = "Wat voor soort SSH sleutel wil je toevoegen?\n\nWe raden aan om het moderne ED25519 sleuteltype te gebruiken.";
 
 /* New ED25519 Key */
-"details_add_new_ssh_key_ed25519" = "New ED25519 Key";
+"details_add_new_ssh_key_ed25519" = "Nieuwe ED25519 sleutel";
 
 /* New RSA Key */
 "details_add_new_ssh_key_rsa" = "Nieuwe RSA Sleutel";
@@ -5614,7 +5614,7 @@
 "details_add_new_ssh_key_ellipsis" = "Nieuwe SSH Sleutel...";
 
 /* Actions - L10n Note: A noun, e.g a list of actions that can be performed */
-"generic_noun_actions" = "Actions";
+"generic_noun_actions" = "Acties";
 
 /* OK, Don't Remind Me Again */
 "generic_ok_dont_remind_me_again" = "OK, Herinner Me Niet Meer";
@@ -5626,7 +5626,7 @@
 "sale_view_subscriber_title" = "Abonnee Aanbieding";
 
 /* Sale Now On */
-"sale_view_regular_title" = "Sale Now On";
+"sale_view_regular_title" = "Nu in de aanbieding";
 
 /* Since you're a Pro subscriber, we'd like to say thank you and offer you a discount on your next renewal */
 "sale_view_subscriber_message" = "Aangezien je een Pro-abonnee bent, willen wij je bedanken en je bij de volgende verlenging een korting aanbieden";
@@ -5641,7 +5641,7 @@
 "sale_view_regular_cta" = "Ga nu Pro";
 
 /* Looking for a Lifetime License? */
-"sale_view_looking_for_lifetime" = "Looking for a Lifetime License?";
+"sale_view_looking_for_lifetime" = "Op zoek naar een levenslange licentie?";
 
 /* Offer ends Midnight %@ - L10n note: The 1st parameter is a day, like Monday or Friday, so: "Offer ends Midnight Friday" for example */
 "sale_view_offer_ends_date_fmt %@" = "Aanbieding eindigt middernacht %@";
@@ -5665,4 +5665,4 @@
 "generic_for_n_hours_suffix_fmt" = "gedurende %@ uur";
 
 /* until Strongbox quits - L10n note: used as a suffix, e.g. "Remember this until Strongbox quits" */
-"ssh_agent_remember_approval_until_strongbox_quits" = "until Strongbox quits";
+"ssh_agent_remember_approval_until_strongbox_quits" = "tot Strongbox stopt";
