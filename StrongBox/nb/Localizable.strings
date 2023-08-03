@@ -240,19 +240,19 @@
 "safesvc_error_updating_message" = "Kunne ikke oppdatere lokal fil.";
 
 /* Copy to iCloud or Local? */
-"safesvc_copy_database_to_location_title" = "Copy to iCloud or Local?";
+"safesvc_copy_database_to_location_title" = "Kopier til iCloud eller lokalt?";
 
 /* iCloud is currently enabled. Would you like to copy this database to iCloud now, or would you prefer to keep on your local device only? */
-"safesvc_copy_database_to_location_message" = "iCloud is currently enabled. Would you like to copy this database to iCloud now, or would you prefer to keep on your local device only?";
+"safesvc_copy_database_to_location_message" = "iCloud er aktivert. Ønsker du å kopiere denne databasen til iCloud nå, eller foretrekker du å bare beholde den lokalt?";
 
 /* Copy to Local Device Only */
-"safesvc_copy_database_option_to_local" = "Keep on Local Device Only";
+"safesvc_copy_database_option_to_local" = "Behold bare lokalt på enheten";
 
 /* Copy to iCloud */
-"safesvc_copy_database_option_to_icloud" = "Copy to iCloud";
+"safesvc_copy_database_option_to_icloud" = "Kopier til iCloud";
 
 /* Error Importing Database */
-"safesvc_error_importing_title" = "Error Importing Database";
+"safesvc_error_importing_title" = "Importering av databasen feilet";
 
 /* Could not bookmark this file */
 "safesvc_error_title_could_not_bookmark" = "Kunne ikke bokmerke denne filen";
@@ -552,7 +552,7 @@
 "db_management_enable_done" = "Autofyll aktivert";
 
 /* Could not change credentials */
-"db_management_error_title_couldnt_change_credentials" = "Could not change credentials";
+"db_management_error_title_couldnt_change_credentials" = "Kunne ikke endre legitimasjon";
 
 /* Master Password Changed */
 "db_management_password_changed" = "Hovedpassordet ble endret";
@@ -591,7 +591,7 @@
 "item_details_problem_saving" = "Problem under lagring";
 
 /*  (Read Only) */
-"item_details_read_only_suffix" = " (Read Only)";
+"item_details_read_only_suffix" = " (Skrivebeskyttet)";
 
 /* Attachments */
 "item_details_section_header_attachments" = "Vedlegg";
@@ -762,10 +762,10 @@
 "sspc_copy_from_url_action" = "Kopier fra URL …";
 
 /* Invalid Database */
-"sspc_error_invalid_database" = "Invalid Database";
+"sspc_error_invalid_database" = "Ugyldig database";
 
 /* Files... */
-"sspc_ios_files_storage_location" = "Files";
+"sspc_ios_files_storage_location" = "Filer";
 
 /* Since a local database is only stored on this device, any loss of this device will lead to the loss of all passwords stored within this database. You may want to consider using a cloud storage provider, such as the ones supported by Strongbox to avoid catastrophic data loss.\n\nWould you still like to proceed with creating a local device database? */
 "sspc_local_device_storage_warning_message" = "Fordi lokale databaser kun er lagret på denne enheten, vil tap av denne enheten føre til tap av alle passord lagret inni denne databasen. \nDu bør kanskje vurdere å bruke en skytjeneste slik som de Strongbox tilbyr, slik at du kan unngå et katastrofalt tap av data.\n\nEr du sikker på at du ønsker å opprette en lokal database?";
@@ -879,13 +879,13 @@
 "databases_preferences_subtitle_field_name_filename" = "Filnavn";
 
 /* Last Modified */
-"databases_preferences_subtitle_field_name_last_cached_data" = "Last Modified";
+"databases_preferences_subtitle_field_name_last_cached_data" = "Siste endring";
 
 /* Last Modified (Precise) */
 "databases_preferences_subtitle_field_name_last_modified_date_precise" = "Last Modified (Precise)";
 
 /* File Size */
-"databases_preferences_subtitle_field_name_file_size" = "File Size";
+"databases_preferences_subtitle_field_name_file_size" = "Filstørrelse";
 
 /* Strongbox Downgrade */
 "upgrade_mgr_downgrade_title" = "Nedgrader Strongbox";
@@ -1136,7 +1136,7 @@
 "add_attachment_vc_error_source_unavailable_photos" = "Strongbox fikk ikke tilgang til Photos. Har du gitt tillatelse?";
 
 /* Error Reading */
-"add_attachment_vc_error_reading_title" = "Error Reading";
+"add_attachment_vc_error_reading_title" = "Feil ved lesing";
 
 /* Could not read the data for this item. */
 "add_attachment_vc_error_reading_message" = "Kunne ikke lese data fra denne oppføringen.";
@@ -1169,7 +1169,7 @@
 "add_attachment_vc_large_image_prompt_option_use_anyway_size_fmt" = "Bruk likevel (%dx%d) %@";
 
 /* Filename */
-"add_attachment_vc_prompt_filename_title" = "Filename";
+"add_attachment_vc_prompt_filename_title" = "Filnavn";
 
 /* Enter a filename for this item */
 "add_attachment_vc_prompt_filename_message" = "Oppgi et filnavn for vedlegget";
@@ -1223,7 +1223,7 @@
 "set_icon_vc_error_reading_image" = "Feil ved lesing av bildet";
 
 /* Analyzing Image... */
-"set_icon_vc_progress_analyzing_image" = "Analyzing Image...";
+"set_icon_vc_progress_analyzing_image" = "Analyserer bilde …";
 
 /* This is a rather large image (%dx%d), would you like to rescale it to a maximum dimension of %d pixels for a file size saving of roughly %@ */
 "set_icon_vc_prompt_rescale_image_message_fmt" = "Dette er et ganske stort bilde (%dx%d), vil du skalere det til en maksimal dimensjon på %d piksler for å spare omtrent %@";
@@ -1235,13 +1235,13 @@
 "moveentry_vc_error_moving" = "Feil under flytting";
 
 /* Error Saving */
-"moveentry_vc_error_saving" = "Error Saving";
+"moveentry_vc_error_saving" = "Lagring feilet";
 
 /* Group Name */
-"moveentry_vc_add_group_prompt_placeholder" = "Group Name";
+"moveentry_vc_add_group_prompt_placeholder" = "Gruppenavn";
 
 /* Enter Group Name */
-"moveentry_vc_add_group_prompt_title" = "Enter Group Name";
+"moveentry_vc_add_group_prompt_title" = "Oppgi gruppenavn";
 
 /* Please Enter the New Group Name */
 "moveentry_vc_add_group_prompt_message" = "Oppgi et navn for ny gruppe";
@@ -1437,7 +1437,7 @@
 "open_sequence_prompt_use_convenience_use_pin" = "Bruk nummerkode …";
 
 /* PIN Conflict */
-"open_sequence_warn_pin_conflict_title" = "PIN Conflict";
+"open_sequence_warn_pin_conflict_title" = "Konflikt med nummerkode";
 
 /* Your Convenience PIN conflicts with your Duress PIN. Please configure in Database Settings */
 "open_sequence_warn_pin_conflict_message" = "Nummerkoden er i konflikt med tvangskoden. Vennligst konfigurer dette i databaseinnstillingene.";
@@ -1818,7 +1818,7 @@
 "model_error_cannot_write_backup" = "Kunne ikke skrive sikkerhetskopi, vil ikke fortsette å lagre database!";
 
 /* Button Title to view backup settings of this database */
-"safes_vc_action_backups" = "Backups";
+"safes_vc_action_backups" = "Sikkerhetskopier";
 
 /* Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences */
 "open_sequence_error_reading_key_file_autofill_context" = "Kunne ikke lese nøkkelfil. Har den blitt importert riktig? Sjekk nøkkelfilbehandling i preferansemenyen.";
@@ -1884,7 +1884,7 @@
 "generic_fieldname_title" = "Tittel";
 
 /* All Fields */
-"generic_fieldname_all_fields" = "All Fields";
+"generic_fieldname_all_fields" = "Alle felter";
 
 /* Username */
 "generic_fieldname_username" = "Brukernavn";
@@ -1935,7 +1935,7 @@
 "generic_done" = "Ferdig";
 
 /* Failed */
-"generic_failed" = "Failed";
+"generic_failed" = "Mislyktes";
 
 /* Error */
 "generic_error" = "Feil";
@@ -1947,10 +1947,10 @@
 "generic_remove" = "Fjern";
 
 /* Rename - Translators Note: Verb - To rename something, e.g. an item in a collection, to give it different title */
-"generic_rename" = "Rename";
+"generic_rename" = "Gi nytt navn";
 
 /* Set */
-"generic_set" = "Set";
+"generic_set" = "Angi";
 
 /* Cancel */
 "generic_cancel" = "Avbryt";
@@ -1968,13 +1968,13 @@
 "safes_vc_question_confirm_are_you_sure" = "Er du sikker?";
 
 /* Are you sure? */
-"generic_are_you_sure" = "Are you sure?";
+"generic_are_you_sure" = "Er du sikker?";
 
 /* Are you sure? */
-"browse_vc_are_you_sure" = "Are you sure?";
+"browse_vc_are_you_sure" = "Er du sikker?";
 
 /* Are you sure? */
-"keepass_history_are_you_sure" = "Are you sure?";
+"keepass_history_are_you_sure" = "Er du sikker?";
 
 /* View more actions table action */
 "safes_vc_slide_left_more_actions" = "Mer …";
@@ -2012,13 +2012,13 @@
 /* None */
 "browse_prefs_item_subtitle_none" = "Ingen";
 /* None */
-"prefs_vc_time_interval_none" = "None";
+"prefs_vc_time_interval_none" = "Ingen";
 /* None */
-"pwgen_hacker_level_none" = "None";
+"pwgen_hacker_level_none" = "Ingen";
 /* None */
-"pwgen_salt_mode_none" = "None";
+"pwgen_salt_mode_none" = "Ingen";
 /* None */
-"databases_preferences_subtitle_field_name_none" = "None";
+"databases_preferences_subtitle_field_name_none" = "Ingen";
 
 /* Notes */
 "browse_prefs_item_subtitle_notes" = "Notes";
@@ -2060,7 +2060,7 @@
 "casg_create_action" = "Opprett";
 
 /* Rename */
-"casg_rename_action" = "Rename";
+"casg_rename_action" = "Gi nytt navn";
 
 /* Password */
 "casg_text_field_placeholder_password" = "Password";
@@ -2120,7 +2120,7 @@
 "open_sequence_progress_decrypting" = "Dekrypterer …";
 
 /* No */
-"open_sequence_prompt_option_no" = "No";
+"open_sequence_prompt_option_no" = "Nei";
 
 /* Title */
 "pick_creds_vc_search_scope_title" = "Title";
@@ -2149,7 +2149,7 @@
 "set_icon_vc_icon_source_download_favicons_pro_only" = "Hent faneikon for alle i gruppe (Bare i Pro)";
 
 /* Set Icon(s) */
-"browse_vc_action_set_icons" = "Set Icon(s)";
+"browse_vc_action_set_icons" = "Angi ikon(er)";
 
 /* Tap Play to start search */
 "favicon_status_initial" = "Trykk på «play»-knappen for å søke";
@@ -2185,7 +2185,7 @@
 "favicon_status_no_eligible_items" = "Ingen potensielle/gyldige oppføringer eller «URL»-er funnet …";
 
 /* FavIcon Results */
-"favicon_results_title" = "FavIcon Results";
+"favicon_results_title" = "Faneikon-resultater";
 
 /* FavIcon Results (Pro Only) */
 "favicon_results_title_pro_only" = "Faneikon-resultater (Bare i Pro)";
@@ -2236,7 +2236,7 @@
 "mac_please_set_master_credentials" = "Angi hovedakkreditiver for databasen";
 
 /* Change Master Credentials */
-"mac_change_master_credentials" = "Change Master Credentials";
+"mac_change_master_credentials" = "Endre hovedlegitimasjon";
 
 /* Master Credentials Changed and Database Saved */
 "mac_master_credentials_changed_and_saved" = "Hovedlegitimasjonen ble endret og databasen lagret";
@@ -2324,7 +2324,7 @@
 "mac_not_a_valid_image_file" = "Dette er ikke en gyldig bildefil.";
 
 /* Please enter the secret or an OTPAuth URL */
-"mac_please_enter_totp_secret_or_otpauth_url" = "Please enter the secret or an OTPAuth URL";
+"mac_please_enter_totp_secret_or_otpauth_url" = "Venligst angi en TOTP-sikkerhetskode eller en OTPAuth URL";
 
 /* Is this a Steam Token? (Say 'No' if you're unsure) */
 "mac_is_this_a_stream_token_yes_no" = "Er dette et Steam Token? (Si Nei hvis du er usikker)";
@@ -2370,7 +2370,7 @@
 "mac_welcome_to_strongbox_message" = "Hei og velkommen til Strongbox!\n\njeg håper du liker appen, og finner det nyttig. Du kan nyte denne fullfunksjons Pro-versjonen av Strongbox for de neste tre månedene. Etter det punktet, vil du bli overført til den vanlige versjonen av Strongbox.\n\nDu kan alltid finne ut mer når som helst ved å trykke på \"Oppgradere til Pro' i Strongbox i menyen.\n\nTakk!\n-Mark";
 
 /* Change Master Credentials */
-"mac_undo_action_change_master_credentials" = "Change Master Credentials";
+"mac_undo_action_change_master_credentials" = "Endre hovedlegitimasjon";
 
 /* Title Change */
 "mac_undo_action_title_change" = "Endret tittel";
@@ -2478,7 +2478,7 @@
 "mac_create_new_database_title" = "Opprett ny database";
 
 /* Enter Master Credentials */
-"mac_enter_database_master_credentials" = "Enter Master Credentials";
+"mac_enter_database_master_credentials" = "Angi hovedakkreditiver";
 
 /* Click Browse to Select a Key File */
 "mac_click_browse_select_key_file" = "Klikk for å bla og velge nøkkelfil";
@@ -2508,7 +2508,7 @@
 "mac_alerts_input_custom_field_label_key" = "Nøkkel";
 
 /* Value */
-"mac_alerts_input_custom_field_label_value" = "Value";
+"mac_alerts_input_custom_field_label_value" = "Verdi";
 
 /* Field cannot be empty */
 "mac_alerts_field_cannot_be_empty" = "Feltet kan ikke være tomt";
@@ -2532,7 +2532,7 @@
 "mac_upgrade_purchases_disabled_on_device" = "Kjøp er deaktivert på din enhet.";
 
 /* Restoration Unsuccessful */
-"mac_upgrade_restoration_unsuccessful" = "Restoration Unsuccessful";
+"mac_upgrade_restoration_unsuccessful" = "Gjenoppretting feilet";
 
 /* Could not find any previously purchased products. */
 "mac_upgrade_could_not_find_any_previous_purchases" = "Kunne ikke finne noen tidligere kjøp.";
@@ -2568,7 +2568,7 @@
 "mac_node_details_historical_item_suffix_fmt" = "%@ (Tidligere versjon)";
 
 /* Edit Custom Field */
-"mac_node_details_edit_custom_field" = "Edit Custom Field";
+"mac_node_details_edit_custom_field" = "Endre egendefinert felt";
 
 /* Are you sure you want to remove the custom field '%@'? */
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "Er du sikker på at du vil fjerne det egendefinerte feltet %@?";
@@ -2592,10 +2592,10 @@
 "mac_node_details_password_copied_url_launched" = "Passordet ble kopiert og URL-en åpnet";
 
 /* Please enter the secret or an OTPAuth URL */
-"mac_node_details_please_enter_secret_totp" = "Please enter the secret or an OTPAuth URL";
+"mac_node_details_please_enter_secret_totp" = "Venligst angi en TOTP-sikkerhetskode eller en OTPAuth URL";
 
 /* Is this a Steam Token? (Say 'No' if you're unsure) */
-"mac_node_details_is_this_steam_totp" = "Is this a Steam Token? (Say 'No' if you're unsure)";
+"mac_node_details_is_this_steam_totp" = "Er dette et Steam Token? (Si Nei hvis du er usikker)";
 
 /* Could not change group! Validate failed... */
 "mac_node_details_could_not_change_group" = "Kunne ikke endre gruppen! Validering feilet …";
@@ -2622,10 +2622,10 @@
 "mac_could_not_open_this_file" = "Kunne ikke åpne denne filen.";
 
 /* Database Icons */
-"mac_database_icons" = "Database Icons";
+"mac_database_icons" = "Databaseikoner";
 
 /* KeePass Icons */
-"mac_keepass_icons" = "KeePass Icons";
+"mac_keepass_icons" = "KeePass-ikoner";
 
 /* Unlock Database */
 "mac_biometrics_identify_to_open_database" = "Unlock Database";
@@ -2667,7 +2667,7 @@
 "mac_undo_action_set_icons" = "Angi ikon(er)";
 
 /* Welcome */
-"auto_fill_welcome_message_header" = "Welcome";
+"auto_fill_welcome_message_header" = "Velkommen";
 
 /* Automatically download FavIcon on URL Change (PRO Only) */
 "mac_auto_download_favicon_pro_only" = "Last automatisk ned faneikoner når URL endres (Bare i Pro)";
@@ -2688,13 +2688,13 @@
 "open_sequence_warn_biometrics_db_changed_message" = "Det ser ut som den biometriske databasen har blitt endret. Dette kan være fordi du har skannet ansiktet på nytt eller lagt til et fingeravtrykk. Av sikkerhetsmessige årsaker har Strongbox deaktivert denne måten å åpne databasen på, så du må angi hovedpassordet på nytt.";
 
 /* None - (Tranlators Note: When the user is not using or has not selected a key file on the Unlock screen.) */
-"mac_key_file_none" = "None";
+"mac_key_file_none" = "Ingen";
 
 /* Browse... - (Translators Note: When user wants to open the File dialog to select a key file...)*/
 "mac_browse_for_key_file" = "Bla …";
 
 /* Configured - (Translators Note: User is using a key file, Strongbox knows what/where it is, but will not display the file name in the UI for privacy reasons. This appears on the unlock screen. */
-"mac_key_file_configured_but_filename_hidden" = "Configured";
+"mac_key_file_configured_but_filename_hidden" = "Konfigurert";
 
 /* %@ (Configured) - (Translators Note: User is using a key file that has previously been set/remembered by Strongbox. First parameter is the filename of the key file. This appears on the unlock screen. */
 "mac_key_file_filename_configured_fmt" = "%@ (Configured)";
@@ -2739,19 +2739,19 @@
 "mac_convenience_summary_disabled" = "Bekvemmelighetsopplåsing er deaktivert";
 
 /* Convenience Unlock (Touch ID/Watch Unavailable) */
-"mac_convenience_summary_biometrics_unavailable" = "Convenience Unlock (Touch ID/Watch Unavailable)";
+"mac_convenience_summary_biometrics_unavailable" = "Bekvemmelighetsopplåsing (Touch-ID/Watch er utilgjengelig)";
 
 /* Convenience Unlock is only available in the Pro version of Strongbox. Please consider upgrading to support development. */
 "mac_convenience_summary_only_available_on_pro" = "Bekvemmelighetsåpning er bare tilgjengelig i Pro-versjonen av Strongbox. Vennligst vurder å oppgradere for å støtte videre utvikling.";
 
 /* Never */
-"mac_convenience_expiry_period_never" = "Never";
+"mac_convenience_expiry_period_never" = "Aldri";
 
 /* App Exit (Memory Only) */
 "mac_convenience_expiry_period_on_app_exit" = "App Exit (Memory Only)";
 
 /* Unlock with Touch ID or Watch */
-"mac_unlock_screen_button_title_convenience_unlock" = "Unlock with Touch ID or Watch";
+"mac_unlock_screen_button_title_convenience_unlock" = "Lås opp med Touch ID eller Watch";
 
 /* Convenience Unlock Expired */
 "mac_unlock_screen_button_title_convenience_unlock_expired" = "Bekvemmelighetsopplåsing har utløpt";
@@ -2796,13 +2796,13 @@
 "mac_error_getting_challenge_response_yubikey" = "Could not get challenge response from hardware key";
 
 /* Refreshing... (Translators Note: Used whenever running a fairly short operation to indicate somehting is happening, e.g. when polling hardware key status (can take a few seconds)) */
-"generic_refreshing_ellipsis" = "Refreshing...";
+"generic_refreshing_ellipsis" = "Oppdaterer …";
 
 /* Could not generate Composite Key */
 "mac_error_could_not_generate_composite_key" = "Kunne ikke generere en komposittnøkkel";
 
 /* None */
-"generic_none" = "None";
+"generic_none" = "Ingen";
 
 /* Hardware Key (Pro Only) */
 "mac_lock_screen_yubikey_popup_menu_yubico_pro_only" = "Hardware Key (Pro Only)";
@@ -2894,10 +2894,10 @@
 "browse_vc_search_scope_tags" = "Merker";
 
 /* Tags */
-"browse_prefs_item_subtitle_tags" = "Tags";
+"browse_prefs_item_subtitle_tags" = "Merker";
 
 /* Tags */
-"item_details_username_field_tags" = "Tags";
+"item_details_username_field_tags" = "Merker";
 
 /* 90 Day Trial */
 "upgrade_vc_start_your_free_trial" = "90-dagers prøveperiode";
@@ -2978,7 +2978,7 @@
 "quick_view_title_audit_issues_title_fmt" = "Kontrollproblem (%ld)";
 
 /* No Password - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
-"audit_quick_summary_very_brief_no_password_set" = "No Password";
+"audit_quick_summary_very_brief_no_password_set" = "Ingen passord";
 
 /* Weak/Common - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
 "audit_quick_summary_very_brief_very_common_password" = "Ofte brukte";
@@ -3005,7 +3005,7 @@
 "audit_status_done_with_hibp_errors_fmt" = "Fant %@ problemer i %@ oppføringer (med %@ HIBP-rapporterte feil)";
 
 /* Audit Complete */
-"audit_status_complete" = "Status: Complete";
+"audit_status_complete" = "Status: Fullført";
 
 /* Database Auditor Initialized */
 "audit_status_initialized" = "Status: Initialiserer …";
@@ -3044,7 +3044,7 @@
 "browse_vc_audit_complete_title" = "Sikkerhetsjekk fullført";
 
 /* No issues found */
-"browse_vc_audit_complete_message" = "No issues found";
+"browse_vc_audit_complete_message" = "Ingen problemer funnet";
 
 /* %ld issues found */
 "browse_vc_audit_complete_message_issues_found_fmt" = "%ld problemer funnet";
@@ -3134,7 +3134,7 @@
 "audit_drill_down_section_header_preferences" = "Preferences";
 
 /* Summary */
-"audit_drill_down_section_header_summary" = "Summary";
+"audit_drill_down_section_header_summary" = "Oppsummering";
 
 /* Duplicate Passwords */
 "audit_drill_down_section_header_duplicates" = "Items using same password";
@@ -3221,7 +3221,7 @@
 "database_format_keepass1" = "KeePass 1";
 
 /* KeePass 2 (Legacy) */
-"database_format_keepass2_kdbx3_1" = "KeePass 2 (Legacy)";
+"database_format_keepass2_kdbx3_1" = "KeePass 2 (Eldre)";
 
 /* KeePass 2 */
 "database_format_keepass2_kdbx4" = "KeePass 2";
@@ -3251,13 +3251,13 @@
 "generic_status_sp_locating_ellipsis" = "Locating...";
 
 /* %@ Unlock (Translators Note: 1st param is 'Touch ID' or 'Face ID' - Used on the Upgrade, Freemium Onboarding/Welcome screen and the Free vs Pro Chart screen) */
-"generic_biometric_unlock_fmt" = "%@ Unlock";
+"generic_biometric_unlock_fmt" = "Opplåsing med %@";
 
 /* By Default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok? */
 "backup_settings_prompt_message" = "By default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok?";
 
 /* Backup Settings */
-"backup_settings_prompt_title" = "Backup Settings";
+"backup_settings_prompt_title" = "Innstillinger for sikkerhetskopi";
 
 /* Yes, the defaults sound good */
 "backup_settings_prompt_option_yes_looks_good" = "Yes, sounds good";
@@ -3326,7 +3326,7 @@
 "autofill_vc_item_subtitle_local_copy_unavailable" = "Local Copy Unavailable";
 
 /* AutoFill Disabled */
-"autofill_vc_item_subtitle_disabled" = "AutoFill Disabled";
+"autofill_vc_item_subtitle_disabled" = "Autofyll deaktivert";
 
 /* Sync Required */
 "autofill_add_entry_sync_required_title" = "Sync Required";
@@ -3344,10 +3344,10 @@
 "onboarding_vc_start_your_free_trial_subtitle_no_subscription" = "No Subscription Required";
 
 /* Could not bookmark this file */
-"open_sequence_error_could_not_bookmark_file" = "Could not bookmark this file";
+"open_sequence_error_could_not_bookmark_file" = "Kunne ikke bokmerke denne filen";
 
 /* Invalid Database - [%@] */
-"open_sequence_invalid_database_filename_fmt" = "Invalid Database - [%@]";
+"open_sequence_invalid_database_filename_fmt" = "Ugyldig database – [%@]";
 
 /* Different Filename */
 "open_sequence_database_different_filename_title" = "Different Filename";
@@ -3365,10 +3365,10 @@
 "open_sequence_storage_provider_view_sync_error_details" = "View Error Details";
 
 /* Use Local (Read-Only) */
-"open_sequence_use_local_copy_option" = "Use Local (Read-Only)";
+"open_sequence_use_local_copy_option" = "Open Offline";
 
 /* Delete (Translators Note: Verb - To Delete an item) */
-"generic_action_delete" = "Delete";
+"generic_action_delete" = "Slett";
 
 /* Are you sure the URL is correct? It should be a path to a parent folder. Not the database file. */
 "webdav_vc_validation_url_are_you_sure" = "Are you sure the URL is correct? It should be a URL to a parent folder. Not the database file.";
@@ -3419,16 +3419,16 @@
 "hint_tap_and_hold_to_see_options" = "Tip: Tap and hold to see options";
 
 /* Launch URL & Copy */
-"browse_action_launch_url_copy_password" = "Launch URL & Copy Password";
+"browse_action_launch_url_copy_password" = "Åpne URL og kopier passord";
 
 /* Copy Other Field... */
 "browse_context_menu_copy_other_field" = "Copy Field...";
 
 /* Move - Translators Note: Verb - To move something e.g. an entry or group somewhere else in the hierarchy */
-"generic_move" = "Move";
+"generic_move" = "Flytt";
 
 /* New Entry - Translators Note: Menu option to add a new entry */
-"browse_context_menu_new_entry" = "New Entry";
+"browse_context_menu_new_entry" = "Ny oppføring";
 
 /* New Group Translators Note: Menu option to add a new group */
 "browse_context_menu_new_group" = "New Group";
@@ -3437,7 +3437,7 @@
 "generic_select" = "Select";
 
 /* Start with Search - Translators Note: Option to start with the search field focused immediately upon unlock */
-"browse_context_menu_start_with_search" = "Start with Search";
+"browse_context_menu_start_with_search" = "Åpne med søkefeltet i fokus";
 
 /* Sort - Translators Note: Verb - to sort items by title or other field */
 "generic_sort" = "Sort";
@@ -3449,13 +3449,13 @@
 "browse_context_menu_database_settings" = "Database Settings";
 
 /* Set Credentials */
-"browse_context_menu_set_master_credentials" = "Set Master Credentials";
+"browse_context_menu_set_master_credentials" = "Angi hovedlegitimasjon";
 
 /* Show Password - Translators Note: On Browse screen - context menu item - This option will display the password in a large full screen font for easy reading with a QR Code */
 "browse_context_menu_show_password" = "Show Password";
 
 /* Read Only */
-"databases_toggle_read_only_context_menu" = "Read Only";
+"databases_toggle_read_only_context_menu" = "Skrivebeskyttet";
 
 /* Quick Launch */
 "databases_toggle_quick_launch_context_menu" = "Quick Launch";
@@ -3464,7 +3464,7 @@
 "browse_vc_action_properties" = "Properties";
 
 /* Find */
-"browse_vc_action_keyboard_shortcut_find" = "Find";
+"browse_vc_action_keyboard_shortcut_find" = "Finn";
 
 /* Custom Data */
 "properties_vc_header_custom_data" = "Custom Data";
@@ -3593,7 +3593,7 @@
 "generic_action_create_local_database" = "Create Local Copy";
 
 /* Identical databases. */
-"merge_result_databases_identical" = "Identical databases.";
+"merge_result_databases_identical" = "No changes to merge into first.";
 
 /* Compare & Merge... */
 "generic_action_compare_and_merge_ellipsis" = "Compare & Merge...";
@@ -3617,7 +3617,7 @@
 "diff_result_databases_properties_different" = "Database properties are different.";
 
 /* Summary */
-"diff_view_section_header_summary" = "Summary";
+"diff_view_section_header_summary" = "Oppsummering";
 
 /* Will be Changed (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
 "diff_view_section_header_entry_will_be_changed_count_fmt" = "Will be Changed (%lu)";
@@ -4065,7 +4065,7 @@
 "mac_item_duplicated" = "Item Duplicated";
 
 /* File - Localization Note: This should be very short, 3-4 characters if possible. This indicates a regular file on the file system on a Mac. */
-"storage_provider_name_mac_file_short" = "File";
+"storage_provider_name_mac_file_short" = "Fil";
 
 /* Done. ✅ */
 "sync_log_status_done" = "Done. ✅";
@@ -4113,7 +4113,7 @@
 "autofill_search_service_id_section_footer" = "The Service ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Service ID. Tap to Copy.";
 
 /* Results */
-"quick_view_title_no_matches_title" = "Results";
+"quick_view_title_no_matches_title" = "Resultater";
 
 /* Unlock with Touch ID */
 "mac_unlock_database_with_touch_id" = "Unlock with Touch ID";
@@ -4122,7 +4122,7 @@
 "mac_unlock_database_with_apple_watch" = "Unlock with Watch";
 
 /* Unlock with Touch ID or Watch */
-"mac_unlock_database_with_touch_or_watch" = "Unlock with Touch ID or Watch";
+"mac_unlock_database_with_touch_or_watch" = "Lås opp med Touch ID eller Watch";
 
 /* Blur */
 "app_privacy_shield_mode_blur" = "Blur";
@@ -4206,7 +4206,7 @@
 "mac_undo_action_add_tag" = "Add Tag";
 
 /* Tags */
-"generic_fieldname_tags" = "Tags";
+"generic_fieldname_tags" = "Merker";
 
 /* Enter a new tag to add for this item */
 "mac_vc_please_enter_a_tag" = "Enter a new tag to add to this item";
@@ -4335,7 +4335,7 @@
 "onboarding_convenience_message_fmt" = "Typing your master password is slow, cumbersome and error prone. Strongbox can help you to securely & quickly unlock your database without needing to use your master password every time.\n\nWould you like to use Convenience Unlock?";
 
 /* Dismiss - L10n Note: Generic Action to dismiss a dialog or popup */
-"generic_dismiss" = "Dismiss";
+"generic_dismiss" = "Avvis";
 
 /* There is a configuration issue you should be aware of. You are using %@ for both App Lock and Quick Launch. In addition you allow device passcode fallback for App Lock.\n\nThis leads to a situation where you can unlock your database using only your device passcode.\n\nIf you do not want this you can do any of the following: Disable App Lock passcode fallback, or Quick Launch, or %@ Database Unlock, or coalescing of unlocks - L10n Note: 3 format parameters here are identical and will be either 'Face ID' or 'Touch ID' */
 "app_lock_coalescing_with_quick_launch_warning" = "There is a configuration issue you should be aware of. You are using %@ for both App Lock and Quick Launch. In addition you allow device passcode fallback for App Lock.\n\nThis leads to a situation where you can unlock your database using only your device passcode.\n\nIf you do not want this you can do any of the following: Disable App Lock passcode fallback, or Quick Launch, or %@ Database Unlock, or coalescing of unlocks.";
@@ -4404,7 +4404,7 @@
 "generic_get_started" = "Get Started";
 
 /* You're All Set! */
-"generic_youre_all_set" = "You're All Set!";
+"generic_youre_all_set" = "Du er ferdig!";
 
 /* Next up, we'll take you to your regular Databases screen.\n\nFrom here, we'll help you add your first password database.\n\n❤️ The Strongbox Team ❤️ */
 "onboarding_welcome_to_strongbox_first_run_final_message" = "Next up, we'll take you to your regular Databases screen.\n\nFrom here, we'll help you add your first password database.\n\n❤️ The Strongbox Team ❤️";
@@ -4469,7 +4469,7 @@
 "export_items_select_destination_group_title" = "Export Here";
 
 /* Export Database */
-"generic_export_database" = "Export Database";
+"generic_export_database" = "Eksporter database";
 
 /* Export Item */
 "generic_export_item" = "Export Item";
@@ -4580,7 +4580,7 @@
 "generic_parallelism" = "Parallelism";
 
 /* Algorithm */
-"generic_algorithm" = "Algorithm";
+"generic_algorithm" = "Algoritme";
 
 /* Compression */
 "generic_compression" = "Compression";
@@ -4769,7 +4769,7 @@
 "menu_item_header_randomly_generated_suggestions" = "Randomly Generated";
 
 /* Most Used */
-"menu_item_header_most_used_suggestions" = "Most Used";
+"menu_item_header_most_used_suggestions" = "Mest brukt";
 
 /* Are you sure you want to clear the expiry for this entry? */
 "are_you_sure_clear_expiry" = "Are you sure you want to clear the expiry for this entry?";
@@ -4784,7 +4784,7 @@
 "discard_changes" = "Discard Changes";
 
 /* Create Group */
-"create_group" = "Create Group";
+"create_group" = "Opprett gruppe";
 
 /* Edit Entry */
 "edit_entry" = "Edit Entry";
@@ -4823,7 +4823,7 @@
 "generic_fieldname_urls" = "URLs";
 
 /* Copy - L10n Note: This is a verb, to copy an item/string/field to the clipboard */
-"generic_action_verb_copy_to_clipboard" = "Copy";
+"generic_action_verb_copy_to_clipboard" = "Kopier";
 
 /* Copy - L10n Note: This is a verb, to copy the field name (e.g. if there is a field: Custom-Field-1="value", then this would copy "Custom-Field-1" to the clipboard */
 "generic_action_verb_copy_field_name_to_clipboard" = "Copy Field Name";
@@ -4838,7 +4838,7 @@
 "generic_action_verb_launch_url" = "Launch URL";
 
 /* Show QR Code */
-"generic_action_show_qr_code" = "Show QR Code";
+"generic_action_show_qr_code" = "Vis QR-kode";
 
 /* Show Large Text View */
 "generic_action_show_large_text_view" = "Show Large Text View";
@@ -4934,7 +4934,7 @@
 "custom_app_icon_category_utilities" = "Utilities";
 
 /* Default */
-"custom_app_icon_category_default" = "Default";
+"custom_app_icon_category_default" = "Standardverdi";
 
 /* Are you sure you want to reset to the default App Icon? */
 "are_you_sure_reset_to_default_app_icon" = "Are you sure you want to reset to the default App Icon?";
@@ -4997,7 +4997,7 @@
 "generic_ask_me_later" = "Ask Me Later";
 
 /* Lock Database - L10n note: Verb, To Lock, Locks the Database */
-"verb_lock_database" = "Lock Database";
+"verb_lock_database" = "Lås database";
 
 /* Are you sure you want to delete this tag? */
 "are_you_sure_delete_tag_message" = "Are you sure you want to delete this tag?";
@@ -5048,7 +5048,7 @@
 "mac_notes_partially_copied_to_clipboard" = "Notes (Partially) Copied";
 
 /* Change My License... */
-"upgrade_vc_change_my_license" = "Change My License...";
+"upgrade_vc_change_my_license" = "Endre min lisens …";
 
 /* Hi there 😎\n\nWe're excited you've decided to try us out and we just wanted to say thanks! So, without further ado, let's get started...\n\n❤️ The Strongbox Team ❤️ */
 "onboarding_welcome_to_strongbox_first_run_message_macos" = "Hi there 😎\n\nWe're excited you've decided to try us out and we just wanted to say thanks! So, without further ado, let's get started...\n\n❤️ The Strongbox Team ❤️";
@@ -5111,7 +5111,7 @@
 "upgrade_vc_feature_subtitle_favicon_downloader" = "Make your entries stand out";
 
 /* Support Indie Development */
-"upgrade_vc_feature_support_indie" = "Support Indie Development";
+"upgrade_vc_feature_support_indie" = "Støtt indieutvikling";
 
 /* Help us stay awesome! */
 "upgrade_vc_feature_subtitle_support_indie" = "Help us stay awesome!";
@@ -5150,7 +5150,7 @@
 "1password_import_warning_msg" = "The import process isn't perfect and some features of 1Password such as named sections are not available in Strongbox.\n\nIt is important to check that your entries are acceptable after you have imported.";
 
 /* Recycle Bin - The name of the recycle bin, the folder where items go instead of being fully deleted */
-"generic_recycle_bin_name" = "Recycle Bin";
+"generic_recycle_bin_name" = "Papirkurv";
 
 /* Commit & Close (⌘⏎) */
 "mac_create_or_edit_commit_changes_and_close" = "Commit & Close (⌘⏎)";
@@ -5168,7 +5168,7 @@
 "nextgen_toolbar_settings_encryption_settings_ellipsis" = "Encryption Settings...";
 
 /* Change Master Credentials... */
-"nextgen_toolbar_settings_change_master_credentials_ellipsis" = "Change Master Credentials...";
+"nextgen_toolbar_settings_change_master_credentials_ellipsis" = "Endre hovedlegitimasjon …";
 
 /* Database Settings... */
 "nextgen_toolbar_settings_database_settings_ellipsis" = "Database Settings...";
@@ -5177,7 +5177,7 @@
 "nextgen_toolbar_settings_application_preferences_ellipsis" = "Application Preferences...";
 
 /* Settings */
-"generic_settings" = "Settings";
+"generic_settings" = "Innstillinger";
 
 /* Excluded Characters */
 "password_gen_vc_prompt_excluded_characters" = "Excluded Characters";
@@ -5207,7 +5207,7 @@
 "nextgen_sync_issue_toast_message" = "Strongbox could not sync...";
 
 /* More... - Used in the UI to indicate a button which you can click on to learn or find out more */
-"generic_more_with_ellipsis" = "More...";
+"generic_more_with_ellipsis" = "Mer …";
 
 /* Lock Database? */
 "mac_on_window_close_action_title" = "Lock Database?";
@@ -5318,7 +5318,7 @@
 "safes_vc_import_1password_1pux" = "1Password (1Pux)...";
 
 /* Import */
-"safesvc_import_submenu" = "Import";
+"safesvc_import_submenu" = "Importer";
 
 /* LastPass (CSV) */
 "safes_vc_import_lastpass" = "LastPass (CSV)";
@@ -5330,7 +5330,7 @@
 "are_you_sure_auto_commit_totp_msg" = "Disabling Auto-Commit could mean you lose this TOTP if you forget to commit later. Are you sure?";
 
 /* Close - A generic verb - to Close a popup or dialog */
-"generic_verb_close" = "Close";
+"generic_verb_close" = "Lukk";
 
 /* Discard - A verb - to discard any pending changes that might have been made */
 "generic_verb_discard" = "Discard";
@@ -5342,7 +5342,7 @@
 "password_history_this_password_was_used_until_fmt" = "Used until %@";
 
 /* Previous Passwords - A heading above a list of previously used passwords */
-"password_history_previous_passwords" = "Previous Passwords";
+"password_history_previous_passwords" = "Tidligere passord";
 
 /* Turn On Browser AutoFill? */
 "onboarding_autofill_title_turn_on" = "Turn On Browser AutoFill?";
@@ -5351,7 +5351,7 @@
 "onboarding_autofill_option_turn_on_autofill" = "Turn On AutoFill";
 
 /* No Thanks */
-"generic_no_thanks" = "No Thanks";
+"generic_no_thanks" = "Nei takk";
 
 /* Browser AutoFill is available but currently not turned on. Would you like to enable Browser AutoFill so that you can conveniently and securely login from within your browser? */
 "onboarding_autofill_msg_available_turn_on_question" = "Browser AutoFill is available but currently not turned on. Would you like to enable Browser AutoFill so that you can conveniently and securely login from within your browser?";
@@ -5405,7 +5405,7 @@
 "side_bar_child_count_format_groups_and_entries_rec" = "Groups and Entries (Recursive)";
 
 /* Items */
-"side_bar_child_count_format_items" = "Items";
+"side_bar_child_count_format_items" = "Elementer";
 
 /* Items (Recursive) */
 "side_bar_child_count_format_items_rec" = "Items (Recursive)";
@@ -5453,13 +5453,13 @@
 "ssh_agent_ssh_key" = "SSH Key";
 
 /* Export... */
-"generic_export_ellipsis" = "Export...";
+"generic_export_ellipsis" = "Eksportér...";
 
 /* Public Key */
 "generic_public_key" = "Public Key";
 
 /* Private Key */
-"generic_private_key" = "Private Key";
+"generic_private_key" = "Privat nøkkel";
 
 /* Fingerprint - L10n Note: An SSH Key Fingerprint */
 "ssh_agent_key_fingerprint" = "Fingerprint";
@@ -5566,13 +5566,13 @@
 "generic_select_items" = "Select Items";
 
 /* Select All */
-"generic_select_all" = "Select All";
+"generic_select_all" = "Marker alt";
 
 /* Print Database */
-"generic_print_database" = "Print Database";
+"generic_print_database" = "Skriv ut database …";
 
 /* Advanced - L10n: Noun - e.g. Advanced Settings */
-"generic_advanced_noun" = "Advanced";
+"generic_advanced_noun" = "Avansert";
 
 /* AutoFill - L10n: Noun referring to AutoFill Settings */
 "generic_autofill_settings" = "AutoFill";
@@ -5587,13 +5587,13 @@
 "item_details_view_settings_easy_read_all" = "Easy Read Font on All Fields";
 
 /* Auto Fetch FavIcon */
-"item_details_view_settings_auto_fetch_favicon" = "Auto Fetch FavIcon";
+"item_details_view_settings_auto_fetch_favicon" = "Autohent faneikoner";
 
 /* Reveal Password Immediately */
-"item_details_view_settings_reveal_password_immediately" = "Reveal Password Immediately";
+"item_details_view_settings_reveal_password_immediately" = "Avslør passord umiddelbart";
 
 /* Colorize Passwords */
-"item_details_view_settings_colorize_passwords" = "Colorize Passwords";
+"item_details_view_settings_colorize_passwords" = "Fargelegg passord";
 
 /* Sort Custom Fields */
 "item_details_view_settings_sort_custom_fields" = "Sort Custom Fields";
