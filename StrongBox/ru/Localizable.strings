@@ -765,7 +765,7 @@
 "sspc_error_invalid_database" = "Неверная база данных";
 
 /* Files... */
-"sspc_ios_files_storage_location" = "Files";
+"sspc_ios_files_storage_location" = "Файлы";
 
 /* Since a local database is only stored on this device, any loss of this device will lead to the loss of all passwords stored within this database. You may want to consider using a cloud storage provider, such as the ones supported by Strongbox to avoid catastrophic data loss.\n\nWould you still like to proceed with creating a local device database? */
 "sspc_local_device_storage_warning_message" = "Т.к. база данных будет храниться только на этом устройстве, то его утеря приведет к утрате всех паролей. Подумайте об облачном хранилище, которое поддерживается приложением во избежание потери данных.\n\nПродолжить создание БД на локальном устройстве?";
@@ -1884,7 +1884,7 @@
 "generic_fieldname_title" = "Название";
 
 /* All Fields */
-"generic_fieldname_all_fields" = "All Fields";
+"generic_fieldname_all_fields" = "Все поля";
 
 /* Username */
 "generic_fieldname_username" = "Логин";
@@ -1947,7 +1947,7 @@
 "generic_remove" = "Удалить";
 
 /* Rename - Translators Note: Verb - To rename something, e.g. an item in a collection, to give it different title */
-"generic_rename" = "Rename";
+"generic_rename" = "Переименовать";
 
 /* Set */
 "generic_set" = "Установить";
@@ -2478,7 +2478,7 @@
 "mac_create_new_database_title" = "Создать БД";
 
 /* Enter Master Credentials */
-"mac_enter_database_master_credentials" = "Enter Master Credentials";
+"mac_enter_database_master_credentials" = "Введите мастер-ключ";
 
 /* Click Browse to Select a Key File */
 "mac_click_browse_select_key_file" = "Нажмите «Обзор», чтобы выбрать файл-ключ";
@@ -2694,7 +2694,7 @@
 "mac_browse_for_key_file" = "Обзор ...";
 
 /* Configured - (Translators Note: User is using a key file, Strongbox knows what/where it is, but will not display the file name in the UI for privacy reasons. This appears on the unlock screen. */
-"mac_key_file_configured_but_filename_hidden" = "Configured";
+"mac_key_file_configured_but_filename_hidden" = "Установлен";
 
 /* %@ (Configured) - (Translators Note: User is using a key file that has previously been set/remembered by Strongbox. First parameter is the filename of the key file. This appears on the unlock screen. */
 "mac_key_file_filename_configured_fmt" = "%@ - Установлен";
@@ -3365,10 +3365,10 @@
 "open_sequence_storage_provider_view_sync_error_details" = "Сведения об ошибке";
 
 /* Use Local (Read-Only) */
-"open_sequence_use_local_copy_option" = "Локальная копия";
+"open_sequence_use_local_copy_option" = "Открыть офлайн";
 
 /* Delete (Translators Note: Verb - To Delete an item) */
-"generic_action_delete" = "Delete";
+"generic_action_delete" = "Удалить";
 
 /* Are you sure the URL is correct? It should be a path to a parent folder. Not the database file. */
 "webdav_vc_validation_url_are_you_sure" = "Проверьте правильность URL. Это должен быть URL папки, а не файла.";
@@ -3437,7 +3437,7 @@
 "generic_select" = "Выбрать";
 
 /* Start with Search - Translators Note: Option to start with the search field focused immediately upon unlock */
-"browse_context_menu_start_with_search" = "Start with Search";
+"browse_context_menu_start_with_search" = "Начинать с поиска";
 
 /* Sort - Translators Note: Verb - to sort items by title or other field */
 "generic_sort" = "Сортировка";
@@ -3449,7 +3449,7 @@
 "browse_context_menu_database_settings" = "Настройки";
 
 /* Set Credentials */
-"browse_context_menu_set_master_credentials" = "Set Master Credentials";
+"browse_context_menu_set_master_credentials" = "Мастер-ключ";
 
 /* Show Password - Translators Note: On Browse screen - context menu item - This option will display the password in a large full screen font for easy reading with a QR Code */
 "browse_context_menu_show_password" = "Показать пароль";
@@ -3464,7 +3464,7 @@
 "browse_vc_action_properties" = "Свойства";
 
 /* Find */
-"browse_vc_action_keyboard_shortcut_find" = "Find";
+"browse_vc_action_keyboard_shortcut_find" = "Найти";
 
 /* Custom Data */
 "properties_vc_header_custom_data" = "Пользовательские данные";
@@ -3593,7 +3593,7 @@
 "generic_action_create_local_database" = "Добавить как локальную";
 
 /* Identical databases. */
-"merge_result_databases_identical" = "Идентичные БД";
+"merge_result_databases_identical" = "Изменений для объединения не найдено";
 
 /* Compare & Merge... */
 "generic_action_compare_and_merge_ellipsis" = "Сравнить и объединить";
@@ -3608,7 +3608,7 @@
 "diff_result_percentage_difference_fmt" = "Отличия: %0.1f%%";
 
 /* Identical databases. */
-"diff_result_databases_identical" = "Identical databases.";
+"diff_result_databases_identical" = "Идентичные БД";
 
 /* Some database properties will change. */
 "merge_result_databases_properties_will_change" = "Изменения: Свойства БД";
@@ -3617,7 +3617,7 @@
 "diff_result_databases_properties_different" = "Отличия: Свойства БД";
 
 /* Summary */
-"diff_view_section_header_summary" = "Summary";
+"diff_view_section_header_summary" = "Отчёт";
 
 /* Will be Changed (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
 "diff_view_section_header_entry_will_be_changed_count_fmt" = "Будет изменено элементов: %lu";
@@ -3989,10 +3989,10 @@
 "quick_type_format_title_username" = "Название и Логин";
 
 /* Title */
-"quick_type_format_title" = "Title";
+"quick_type_format_title" = "Название";
 
 /* Username */
-"quick_type_format_username" = "Username";
+"quick_type_format_username" = "Логин";
 
 /* QuickType Format */
 "prefs_vc_quick_type_format" = "Показ данных";
@@ -4065,7 +4065,7 @@
 "mac_item_duplicated" = "Элемент дублирован";
 
 /* File - Localization Note: This should be very short, 3-4 characters if possible. This indicates a regular file on the file system on a Mac. */
-"storage_provider_name_mac_file_short" = "File";
+"storage_provider_name_mac_file_short" = "Файл";
 
 /* Done. ✅ */
 "sync_log_status_done" = "Готово ✅";
@@ -4113,7 +4113,7 @@
 "autofill_search_service_id_section_footer" = "ID сайта - идентификатор, полученный приложением. Он поможет при поиске, если задать URL записи в точности с ID сайта. Коснитесь, чтобы копировать.";
 
 /* Results */
-"quick_view_title_no_matches_title" = "Results";
+"quick_view_title_no_matches_title" = "Результаты";
 
 /* Unlock with Touch ID */
 "mac_unlock_database_with_touch_id" = "Разблокировка с Touch ID";
@@ -4122,7 +4122,7 @@
 "mac_unlock_database_with_apple_watch" = "Разблокировка с Watch";
 
 /* Unlock with Touch ID or Watch */
-"mac_unlock_database_with_touch_or_watch" = "Unlock with Touch ID or Watch";
+"mac_unlock_database_with_touch_or_watch" = "Разблокировать с помощью Touch ID или Watch";
 
 /* Blur */
 "app_privacy_shield_mode_blur" = "Размытие";
@@ -4206,7 +4206,7 @@
 "mac_undo_action_add_tag" = "Добавить тег";
 
 /* Tags */
-"generic_fieldname_tags" = "Tags";
+"generic_fieldname_tags" = "Теги";
 
 /* Enter a new tag to add for this item */
 "mac_vc_please_enter_a_tag" = "Введите новый тег для этого элемента";
@@ -4320,7 +4320,7 @@
 "generic_got_it" = "ОК";
 
 /* Don't tell me again */
-"generic_dont_tell_again" = "Don't tell me again";
+"generic_dont_tell_again" = "Больше не напоминать";
 
 /* Actions - L10n - a generic collection of actions (or items that will perform certain actions/tasks) - often used as a Section Header */
 "generic_actions" = "Действия";
@@ -4335,7 +4335,7 @@
 "onboarding_convenience_message_fmt" = "Ввод главного пароля вручную - медленный способ и может приводить к ошибкам. Strongbox поможет Вам быстро и безопасно разблокировать БД без использования главного пароля.\n\nХотите включить быструю разблокировку?";
 
 /* Dismiss - L10n Note: Generic Action to dismiss a dialog or popup */
-"generic_dismiss" = "Dismiss";
+"generic_dismiss" = "Отменить";
 
 /* There is a configuration issue you should be aware of. You are using %@ for both App Lock and Quick Launch. In addition you allow device passcode fallback for App Lock.\n\nThis leads to a situation where you can unlock your database using only your device passcode.\n\nIf you do not want this you can do any of the following: Disable App Lock passcode fallback, or Quick Launch, or %@ Database Unlock, or coalescing of unlocks - L10n Note: 3 format parameters here are identical and will be either 'Face ID' or 'Touch ID' */
 "app_lock_coalescing_with_quick_launch_warning" = "Вы применяете %@ как для блокировки приложения, так и для быстрого запуска БД. Кроме того, разрешено использовать код-пароль iOS для блокировки приложения.\n\nМожет возникнуть ситуация, когда разблокировка БД будет возможна только с помощью код-пароля iOS.\n\nЧтобы изменить это, выполните любое из действий: выключите код-пароль iOS для блокировки приложения, или быстрый запуск, или %@ для разблокировки БД, или объединение биометрии.";
@@ -4365,7 +4365,7 @@
 "onboarding_scheduled_export_onboarding_remind_4_weeks" = "Раз в 4 недели";
 
 /* Don't Remind Me */
-"generic_dont_remind_me" = "Don't Remind Me";
+"generic_dont_remind_me" = "Не напоминать";
 
 /* It's time to export a backup copy of your database somewhere safe.\n\nWould you like do that now? */
 "scheduled_export_message" = "Напоминание об экспорте резервной копии БД.\n\nХотите выполнить сейчас?";
@@ -4392,7 +4392,7 @@
 "prefs_vc_scheduled_export_interval" = "Интервал";
 
 /* Welcome Aboard */
-"onboarding_welcome_to_strongbox_first_run_title" = "Welcome Aboard";
+"onboarding_welcome_to_strongbox_first_run_title" = "Добро пожаловать";
 
 /* Hi there, and welcome to Strongbox 😎\n\nWe're sure you're excited to get started, but first, there are a few steps we should take so that everything runs smoothly... */
 "onboarding_welcome_to_strongbox_first_run_message" = "Привет и добро пожаловать в Strongbox!\n\nЕсть ряд настроек, которые можно выполнить изначально, чтобы приложение работало безупречно.";
@@ -4404,7 +4404,7 @@
 "generic_get_started" = "Приступить к работе";
 
 /* You're All Set! */
-"generic_youre_all_set" = "You're All Set!";
+"generic_youre_all_set" = "Готово!";
 
 /* Next up, we'll take you to your regular Databases screen.\n\nFrom here, we'll help you add your first password database.\n\n❤️ The Strongbox Team ❤️ */
 "onboarding_welcome_to_strongbox_first_run_final_message" = "Далее мы перейдём к экрану списка баз данных.\n\nМы поможем вам добавить Вашу первую БД.";
@@ -4574,7 +4574,7 @@
 "keepass_kdbx4x_format" = "KeePass 2 (KDBX 4.x)";
 
 /* Memory */
-"generic_memory" = "Memory";
+"generic_memory" = "Память";
 
 /* Parallelism */
 "generic_parallelism" = "Параллелизм";
@@ -4769,7 +4769,7 @@
 "menu_item_header_randomly_generated_suggestions" = "Варианты паролей";
 
 /* Most Used */
-"menu_item_header_most_used_suggestions" = "Most Used";
+"menu_item_header_most_used_suggestions" = "Часто используемый";
 
 /* Are you sure you want to clear the expiry for this entry? */
 "are_you_sure_clear_expiry" = "Вы хотите очистить просроченные для этого элемента?";
@@ -4784,13 +4784,13 @@
 "discard_changes" = "Отменить изменения";
 
 /* Create Group */
-"create_group" = "Create Group";
+"create_group" = "Добавить группу";
 
 /* Edit Entry */
 "edit_entry" = "Править";
 
 /* Create Entry */
-"create_entry" = "Create Entry";
+"create_entry" = "Добавить запись";
 
 /* Tidy Up Field? */
 "field_tidy_title_tidy_up_field" = "Пустые символы";
@@ -4823,7 +4823,7 @@
 "generic_fieldname_urls" = "URLs";
 
 /* Copy - L10n Note: This is a verb, to copy an item/string/field to the clipboard */
-"generic_action_verb_copy_to_clipboard" = "Copy";
+"generic_action_verb_copy_to_clipboard" = "Копировать";
 
 /* Copy - L10n Note: This is a verb, to copy the field name (e.g. if there is a field: Custom-Field-1="value", then this would copy "Custom-Field-1" to the clipboard */
 "generic_action_verb_copy_field_name_to_clipboard" = "Копировать имя поля";
@@ -4838,7 +4838,7 @@
 "generic_action_verb_launch_url" = "Открыть URL";
 
 /* Show QR Code */
-"generic_action_show_qr_code" = "Show QR Code";
+"generic_action_show_qr_code" = "Показать QR код";
 
 /* Show Large Text View */
 "generic_action_show_large_text_view" = "Показать крупный текст";
@@ -4913,7 +4913,7 @@
 "pro_badge_text" = "Pro";
 
 /* New Tag... */
-"new_tag_ellipsis" = "New Tag...";
+"new_tag_ellipsis" = "Новый тег";
 
 /* Add Tag to Item(s) */
 "add_tag_to_items" = "Добавить тег";
@@ -4934,7 +4934,7 @@
 "custom_app_icon_category_utilities" = "Утилиты";
 
 /* Default */
-"custom_app_icon_category_default" = "Default";
+"custom_app_icon_category_default" = "По умолчанию";
 
 /* Are you sure you want to reset to the default App Icon? */
 "are_you_sure_reset_to_default_app_icon" = "Вы хотите установить иконку приложения по умолчанию?";
@@ -4997,7 +4997,7 @@
 "generic_ask_me_later" = "Спросить позже";
 
 /* Lock Database - L10n note: Verb, To Lock, Locks the Database */
-"verb_lock_database" = "Lock Database";
+"verb_lock_database" = "Заблокировать БД";
 
 /* Are you sure you want to delete this tag? */
 "are_you_sure_delete_tag_message" = "Вы хотите удалить этот тег?";
@@ -5048,7 +5048,7 @@
 "mac_notes_partially_copied_to_clipboard" = "Заметки (частично) скопированы";
 
 /* Change My License... */
-"upgrade_vc_change_my_license" = "Change My License...";
+"upgrade_vc_change_my_license" = "Изменить мою лицензию ...";
 
 /* Hi there 😎\n\nWe're excited you've decided to try us out and we just wanted to say thanks! So, without further ado, let's get started...\n\n❤️ The Strongbox Team ❤️ */
 "onboarding_welcome_to_strongbox_first_run_message_macos" = "Привет, 😎\n\nМы рады, что Вы решили попробовать наше приложение и просто хотели сказать спасибо! Давайте начнём.\n\nС уважением, разработчики Strongbox";
@@ -5087,7 +5087,7 @@
 "upgrade_vc_feature_subtitle_support" = "Поддержка 24/7";
 
 /* Compare & Merge */
-"upgrade_vc_feature_compare_and_merge" = "Compare & Merge";
+"upgrade_vc_feature_compare_and_merge" = "Сравнение и объединение";
 
 /* View & Combine Revisions */
 "upgrade_vc_feature_subtitle_compare_and_merge" = "Инструменты для баз данных";
@@ -5111,7 +5111,7 @@
 "upgrade_vc_feature_subtitle_favicon_downloader" = "Выделяйте ваши записи";
 
 /* Support Indie Development */
-"upgrade_vc_feature_support_indie" = "Support Indie Development";
+"upgrade_vc_feature_support_indie" = "Поддержка разработчика";
 
 /* Help us stay awesome! */
 "upgrade_vc_feature_subtitle_support_indie" = "Ваша поддержка очень важна для нас!";
@@ -5150,34 +5150,34 @@
 "1password_import_warning_msg" = "Процесс импорта может не поддерживать некоторые функции 1Password.\n\nПожалуйста, проверьте результаты после завершения.";
 
 /* Recycle Bin - The name of the recycle bin, the folder where items go instead of being fully deleted */
-"generic_recycle_bin_name" = "Recycle Bin";
+"generic_recycle_bin_name" = "Корзина";
 
 /* Commit & Close (⌘⏎) */
-"mac_create_or_edit_commit_changes_and_close" = "Commit & Close (⌘⏎)";
+"mac_create_or_edit_commit_changes_and_close" = "Подтвердить и закрыть (⌘⏎)";
 
 /* Close (⌘⏎) */
 "mac_create_or_edit_commit_close" = "Закрыть (⌘⏎)";
 
 /* Touch ID & Watch Unlock Settings... */
-"nextgen_toolbar_settings_convenience_unlock_ellipsis" = "Touch ID & Watch Unlock Settings...";
+"nextgen_toolbar_settings_convenience_unlock_ellipsis" = "Параметры разблокировки Touch ID и Watch";
 
 /* AutoFill Settings... */
-"nextgen_toolbar_settings_autofill_settings_ellipsis" = "AutoFill Settings...";
+"nextgen_toolbar_settings_autofill_settings_ellipsis" = "Настройки автозаполнения";
 
 /* Encryption Settings... */
-"nextgen_toolbar_settings_encryption_settings_ellipsis" = "Encryption Settings...";
+"nextgen_toolbar_settings_encryption_settings_ellipsis" = "Настройки шифрования";
 
 /* Change Master Credentials... */
-"nextgen_toolbar_settings_change_master_credentials_ellipsis" = "Change Master Credentials...";
+"nextgen_toolbar_settings_change_master_credentials_ellipsis" = "Изменить мастер-ключ";
 
 /* Database Settings... */
-"nextgen_toolbar_settings_database_settings_ellipsis" = "Database Settings...";
+"nextgen_toolbar_settings_database_settings_ellipsis" = "Настройки БД";
 
 /* Application Preferences... */
 "nextgen_toolbar_settings_application_preferences_ellipsis" = "Настройки приложения ...";
 
 /* Settings */
-"generic_settings" = "Settings";
+"generic_settings" = "Параметры";
 
 /* Excluded Characters */
 "password_gen_vc_prompt_excluded_characters" = "Исключения";
@@ -5207,7 +5207,7 @@
 "nextgen_sync_issue_toast_message" = "Синхронизация невозможна";
 
 /* More... - Used in the UI to indicate a button which you can click on to learn or find out more */
-"generic_more_with_ellipsis" = "More...";
+"generic_more_with_ellipsis" = "Больше";
 
 /* Lock Database? */
 "mac_on_window_close_action_title" = "Блокировка БД";
@@ -5231,7 +5231,7 @@
 "error_could_not_save_title" = "Ошибка при сохранении";
 
 /* Sync - L10n - This is a verb - To Synchronize */
-"generic_action_sync" = "Sync";
+"generic_action_sync" = "Синхронизация";
 
 /* Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Sync Log?\n\n%@\n */
 "sync_error_message_including_error_detail_fmt" = "БД сохранена, но при синхронизации произошла ошибка. Хотите попробовать ещё раз или посмотреть журнал синхронизации?\n\n%@\n";
@@ -5282,7 +5282,7 @@
 "generic_single_item_singular_fmt" = "%@ элемент";
 
 /* Configure Tabs */
-"configure_tabs" = "Configure Tabs";
+"configure_tabs" = "Вкладки";
 
 /* Sort Groups Separately */
 "sort_configuration_custom_sort_order_and_sort_groups_separately" = "Группы отдельно";
@@ -5318,7 +5318,7 @@
 "safes_vc_import_1password_1pux" = "1Password (PUX)";
 
 /* Import */
-"safesvc_import_submenu" = "Import";
+"safesvc_import_submenu" = "Импорт";
 
 /* LastPass (CSV) */
 "safes_vc_import_lastpass" = "LastPass (CSV)";
@@ -5330,7 +5330,7 @@
 "are_you_sure_auto_commit_totp_msg" = "Отключение автофиксации может привести к истечению этого TOTP. Хотите продолжить?";
 
 /* Close - A generic verb - to Close a popup or dialog */
-"generic_verb_close" = "Close";
+"generic_verb_close" = "Закрыть";
 
 /* Discard - A verb - to discard any pending changes that might have been made */
 "generic_verb_discard" = "Отменить";
@@ -5342,16 +5342,16 @@
 "password_history_this_password_was_used_until_fmt" = "Использовался до: %@";
 
 /* Previous Passwords - A heading above a list of previously used passwords */
-"password_history_previous_passwords" = "Previous Passwords";
+"password_history_previous_passwords" = "Предыдущие пароли";
 
 /* Turn On Browser AutoFill? */
 "onboarding_autofill_title_turn_on" = "Автозаполнение в браузере";
 
 /* Turn On AutoFill */
-"onboarding_autofill_option_turn_on_autofill" = "Turn On AutoFill";
+"onboarding_autofill_option_turn_on_autofill" = "Автозаполнение";
 
 /* No Thanks */
-"generic_no_thanks" = "No Thanks";
+"generic_no_thanks" = "Нет, спасибо";
 
 /* Browser AutoFill is available but currently not turned on. Would you like to enable Browser AutoFill so that you can conveniently and securely login from within your browser? */
 "onboarding_autofill_msg_available_turn_on_question" = "Автозаполнение в браузере в настоящее время не включено. Хотите включить?";
@@ -5366,7 +5366,7 @@
 "number_of_entries_or_groups_immediate_and_recursive_fmt" = "%d (%d рекурсивно)";
 
 /* Searchable */
-"group_properties_searchable" = "Searchable";
+"group_properties_searchable" = "Поиск в группе";
 
 /* Inherited (%@) - L10n Note: The 1st parameter will be "Yes" or "No" indicating whether the actual inherited value of this item is effectively Yes/No flowing down from its parent value. */
 "item_properties_inherited_yes_no_fmt" = "Наследуемый (%@)";
@@ -5387,13 +5387,13 @@
 "mac_create_or_edit_save_changes" = "Сохранить (⌘S)";
 
 /* Commit (⌘S) */
-"mac_create_or_edit_commit_changes" = "Commit (⌘S)";
+"mac_create_or_edit_commit_changes" = "Подтвердить (⌘S)";
 
 /* Hierarchy (%@ Groups, %@ Entries) - L10n Note - The two parameters are numeric, so for example: "23 Groups, 3456 Entries"*/
 "side_bar_hierarchy_folder_structure_summary_count_fmt" = "Иерархия (%@ групп, %@ записей)";
 
 /* Entries */
-"side_bar_child_count_format_entries" = "Entries";
+"side_bar_child_count_format_entries" = "Записи";
 
 /* Entries (Recursive) */
 "side_bar_child_count_format_entries_rec" = "Записи (Рекурсивно)";
@@ -5405,7 +5405,7 @@
 "side_bar_child_count_format_groups_and_entries_rec" = "Группы и записи (Рекурсивно)";
 
 /* Items */
-"side_bar_child_count_format_items" = "Items";
+"side_bar_child_count_format_items" = "Элементы";
 
 /* Items (Recursive) */
 "side_bar_child_count_format_items_rec" = "Элементы (Рекурсивно)";
@@ -5453,13 +5453,13 @@
 "ssh_agent_ssh_key" = "Ключ SSH";
 
 /* Export... */
-"generic_export_ellipsis" = "Export...";
+"generic_export_ellipsis" = "Экспорт";
 
 /* Public Key */
 "generic_public_key" = "Открытый ключ";
 
 /* Private Key */
-"generic_private_key" = "Private Key";
+"generic_private_key" = "Закрытый ключ";
 
 /* Fingerprint - L10n Note: An SSH Key Fingerprint */
 "ssh_agent_key_fingerprint" = "Отпечаток";
@@ -5515,7 +5515,7 @@
 "nextgen_ui_deprecation_switch_notice" = "Все готово! Рекомендуем перезапустить Strongbox, чтобы включить новый пользовательский интерфейс.";
 
 /* Password Generator */
-"popout_password_generator" = "Password Generator";
+"popout_password_generator" = "Менеджер паролей";
 
 /* verify existing credentials before you can change them - L10n Note: This is a suffix that appears on the Touch ID request dialog on macOS, it is prefixed by system text: "Strongbox is trying to", so ultimately this string will look like: "Strongbox is trying to verify existing credentials before you can change them" */
 "verify_creds_before_changing_bio_message_suffix" = "Проверьте учётные данные, прежде чем сможете изменить их.";
@@ -5566,37 +5566,37 @@
 "generic_select_items" = "Выбор ...";
 
 /* Select All */
-"generic_select_all" = "Select All";
+"generic_select_all" = "Выбрать все";
 
 /* Print Database */
-"generic_print_database" = "Print Database";
+"generic_print_database" = "Печать";
 
 /* Advanced - L10n: Noun - e.g. Advanced Settings */
-"generic_advanced_noun" = "Advanced";
+"generic_advanced_noun" = "Дополнительно";
 
 /* AutoFill - L10n: Noun referring to AutoFill Settings */
-"generic_autofill_settings" = "AutoFill";
+"generic_autofill_settings" = "Автозаполнение";
 
 /* Automatic Locking - L10n: Noun referring to Automatic Locking Settings */
-"generic_auto_lock_settings" = "Automatic Locking";
+"generic_auto_lock_settings" = "Автоблокировка";
 
 /* Encryption - L10n: Noun referring to Encryption Settings  */
-"generic_encryption_settings" = "Encryption";
+"generic_encryption_settings" = "Шифрование";
 
 /* Easy Read Font on All Fields */
 "item_details_view_settings_easy_read_all" = "Моноширинный шрифт";
 
 /* Auto Fetch FavIcon */
-"item_details_view_settings_auto_fetch_favicon" = "Auto Fetch FavIcon";
+"item_details_view_settings_auto_fetch_favicon" = "Автозагрузка значков";
 
 /* Reveal Password Immediately */
-"item_details_view_settings_reveal_password_immediately" = "Reveal Password Immediately";
+"item_details_view_settings_reveal_password_immediately" = "Показ пароля";
 
 /* Colorize Passwords */
-"item_details_view_settings_colorize_passwords" = "Colorize Passwords";
+"item_details_view_settings_colorize_passwords" = "Раскрасить пароли";
 
 /* Sort Custom Fields */
-"item_details_view_settings_sort_custom_fields" = "Sort Custom Fields";
+"item_details_view_settings_sort_custom_fields" = "Сортировать поля";
 
 /* New SSH Key */
 "details_add_new_ssh_key" = "Добавить ключ SSH";
@@ -5605,7 +5605,7 @@
 "details_add_new_ssh_key_what_kind_prompt" = "Какой ключ SSH Вы хотите добавить?\n\nМы рекомендуем использовать ED25519 тип ключа.";
 
 /* New ED25519 Key */
-"details_add_new_ssh_key_ed25519" = "New ED25519 Key";
+"details_add_new_ssh_key_ed25519" = "Новый ключ ED25519";
 
 /* New RSA Key */
 "details_add_new_ssh_key_rsa" = "Добавить ключ RSA";
@@ -5626,7 +5626,7 @@
 "sale_view_subscriber_title" = "Распродажа для подписчика";
 
 /* Sale Now On */
-"sale_view_regular_title" = "Sale Now On";
+"sale_view_regular_title" = "Распродажа";
 
 /* Since you're a Pro subscriber, we'd like to say thank you and offer you a discount on your next renewal */
 "sale_view_subscriber_message" = "Поскольку вы подписаны на Pro, мы хотели бы предложить Вам скидку на следующее обновление";
@@ -5641,7 +5641,7 @@
 "sale_view_regular_cta" = "Перейти на Pro сейчас";
 
 /* Looking for a Lifetime License? */
-"sale_view_looking_for_lifetime" = "Looking for a Lifetime License?";
+"sale_view_looking_for_lifetime" = "Хотите бессрочную лицензию?";
 
 /* Offer ends Midnight %@ - L10n note: The 1st parameter is a day, like Monday or Friday, so: "Offer ends Midnight Friday" for example */
 "sale_view_offer_ends_date_fmt %@" = "Предложение заканчивается %@";
