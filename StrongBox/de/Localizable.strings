@@ -765,7 +765,7 @@
 "sspc_error_invalid_database" = "Ungültige Datenbank";
 
 /* Files... */
-"sspc_ios_files_storage_location" = "Files";
+"sspc_ios_files_storage_location" = "Dateien";
 
 /* Since a local database is only stored on this device, any loss of this device will lead to the loss of all passwords stored within this database. You may want to consider using a cloud storage provider, such as the ones supported by Strongbox to avoid catastrophic data loss.\n\nWould you still like to proceed with creating a local device database? */
 "sspc_local_device_storage_warning_message" = "Da eine lokale Datenbank nur auf diesem Gerät gespeichert wird, führt ein Verlust des Gerätes zum Verlust aller Passwörter, die in der Datenbank gespeichert sind. Um einen Datenverlust zu verhindern, sollten Sie in Betracht ziehen, einen der von Strongbox unterstützten Cloudspeicher-Anbieter zu verwenden.\n\nMöchten Sie dennoch mit dem Erstellen einer lokalen Gerätedatenbank fortfahren?";
@@ -1884,7 +1884,7 @@
 "generic_fieldname_title" = "Titel";
 
 /* All Fields */
-"generic_fieldname_all_fields" = "All Fields";
+"generic_fieldname_all_fields" = "Alle Felder";
 
 /* Username */
 "generic_fieldname_username" = "Benutzername";
@@ -1947,7 +1947,7 @@
 "generic_remove" = "Löschen";
 
 /* Rename - Translators Note: Verb - To rename something, e.g. an item in a collection, to give it different title */
-"generic_rename" = "Rename";
+"generic_rename" = "Umbenennen";
 
 /* Set */
 "generic_set" = "Festlegen";
@@ -2149,7 +2149,7 @@
 "set_icon_vc_icon_source_download_favicons_pro_only" = "Favicons der Gruppe herunterladen (nur Pro-Version)";
 
 /* Set Icon(s) */
-"browse_vc_action_set_icons" = "Set Icon(s)";
+"browse_vc_action_set_icons" = "Symbol(e) zuweisen";
 
 /* Tap Play to start search */
 "favicon_status_initial" = "Antippen, um Suche zu starten";
@@ -2478,7 +2478,7 @@
 "mac_create_new_database_title" = "Neue Passwort-Datenbank erstellen";
 
 /* Enter Master Credentials */
-"mac_enter_database_master_credentials" = "Enter Master Credentials";
+"mac_enter_database_master_credentials" = "Master-Zugangsdaten eingeben";
 
 /* Click Browse to Select a Key File */
 "mac_click_browse_select_key_file" = "Klicken Sie auf Durchsuchen, um eine Schlüsseldatei auszuwählen.";
@@ -2694,7 +2694,7 @@
 "mac_browse_for_key_file" = "Durchsuchen ...";
 
 /* Configured - (Translators Note: User is using a key file, Strongbox knows what/where it is, but will not display the file name in the UI for privacy reasons. This appears on the unlock screen. */
-"mac_key_file_configured_but_filename_hidden" = "Configured";
+"mac_key_file_configured_but_filename_hidden" = "Konfiguriert";
 
 /* %@ (Configured) - (Translators Note: User is using a key file that has previously been set/remembered by Strongbox. First parameter is the filename of the key file. This appears on the unlock screen. */
 "mac_key_file_filename_configured_fmt" = "%@ (konfiguriert)";
@@ -2894,10 +2894,10 @@
 "browse_vc_search_scope_tags" = "Schlagwörter";
 
 /* Tags */
-"browse_prefs_item_subtitle_tags" = "Tags";
+"browse_prefs_item_subtitle_tags" = "Schlagwörter";
 
 /* Tags */
-"item_details_username_field_tags" = "Tags";
+"item_details_username_field_tags" = "Schlagwörter";
 
 /* 90 Day Trial */
 "upgrade_vc_start_your_free_trial" = "90 Tage Testversion";
@@ -3344,10 +3344,10 @@
 "onboarding_vc_start_your_free_trial_subtitle_no_subscription" = "Kein Abonnement erforderlich";
 
 /* Could not bookmark this file */
-"open_sequence_error_could_not_bookmark_file" = "Could not bookmark this file";
+"open_sequence_error_could_not_bookmark_file" = "Diese Datei konnte nicht verknüpft werden";
 
 /* Invalid Database - [%@] */
-"open_sequence_invalid_database_filename_fmt" = "Invalid Database - [%@]";
+"open_sequence_invalid_database_filename_fmt" = "Ungültige Datenbank - [%@]";
 
 /* Different Filename */
 "open_sequence_database_different_filename_title" = "Anderer Dateiname";
@@ -3365,10 +3365,10 @@
 "open_sequence_storage_provider_view_sync_error_details" = "Fehlerdetails anzeigen";
 
 /* Use Local (Read-Only) */
-"open_sequence_use_local_copy_option" = "Lokal öffnen (schreibgeschützt)";
+"open_sequence_use_local_copy_option" = "Offline öffnen";
 
 /* Delete (Translators Note: Verb - To Delete an item) */
-"generic_action_delete" = "Delete";
+"generic_action_delete" = "Löschen";
 
 /* Are you sure the URL is correct? It should be a path to a parent folder. Not the database file. */
 "webdav_vc_validation_url_are_you_sure" = "Sind Sie sicher, dass die URL korrekt ist? Es sollte sich um eine URL zu einem übergeordneten Ordner handeln. Nicht zur Datenbankdatei.";
@@ -3419,16 +3419,16 @@
 "hint_tap_and_hold_to_see_options" = "Tipp: Tippen und halten um Optionen anzuzeigen";
 
 /* Launch URL & Copy */
-"browse_action_launch_url_copy_password" = "Launch URL & Copy Password";
+"browse_action_launch_url_copy_password" = "URL aufrufen & Passwort kopieren";
 
 /* Copy Other Field... */
 "browse_context_menu_copy_other_field" = "Feld kopieren ...";
 
 /* Move - Translators Note: Verb - To move something e.g. an entry or group somewhere else in the hierarchy */
-"generic_move" = "Move";
+"generic_move" = "Verschieben";
 
 /* New Entry - Translators Note: Menu option to add a new entry */
-"browse_context_menu_new_entry" = "New Entry";
+"browse_context_menu_new_entry" = "Neuer Eintrag";
 
 /* New Group Translators Note: Menu option to add a new group */
 "browse_context_menu_new_group" = "Neue Gruppe";
@@ -3437,7 +3437,7 @@
 "generic_select" = "Auswählen";
 
 /* Start with Search - Translators Note: Option to start with the search field focused immediately upon unlock */
-"browse_context_menu_start_with_search" = "Start with Search";
+"browse_context_menu_start_with_search" = "Mit Suche starten";
 
 /* Sort - Translators Note: Verb - to sort items by title or other field */
 "generic_sort" = "Sortieren";
@@ -3449,13 +3449,13 @@
 "browse_context_menu_database_settings" = "Datenbankeinstellungen";
 
 /* Set Credentials */
-"browse_context_menu_set_master_credentials" = "Set Master Credentials";
+"browse_context_menu_set_master_credentials" = "Master-Zugangsdaten festlegen";
 
 /* Show Password - Translators Note: On Browse screen - context menu item - This option will display the password in a large full screen font for easy reading with a QR Code */
 "browse_context_menu_show_password" = "Passwort anzeigen";
 
 /* Read Only */
-"databases_toggle_read_only_context_menu" = "Read Only";
+"databases_toggle_read_only_context_menu" = "Schreibgeschützt";
 
 /* Quick Launch */
 "databases_toggle_quick_launch_context_menu" = "Schnellstart";
@@ -3464,7 +3464,7 @@
 "browse_vc_action_properties" = "Eigenschaften";
 
 /* Find */
-"browse_vc_action_keyboard_shortcut_find" = "Find";
+"browse_vc_action_keyboard_shortcut_find" = "Suchen";
 
 /* Custom Data */
 "properties_vc_header_custom_data" = "Benutzerdefinierte Daten";
@@ -3473,7 +3473,7 @@
 "properties_vc_footer_custom_data" = "Benutzerdefinierte Daten, die von Plugins und verschiedenen anderen Anwendungen verwendet werden.";
 
 /* Properties */
-"properties_vc_header_basic" = "Properties";
+"properties_vc_header_basic" = "Eigenschaften";
 
 /* Some simple properties and settings of this item. */
 "properties_vc_footer_basic" = "Einige einfache Eigenschaften und Einstellungen dieses Elements.";
@@ -3593,7 +3593,7 @@
 "generic_action_create_local_database" = "Lokale Kopie erstellen";
 
 /* Identical databases. */
-"merge_result_databases_identical" = "Identische Datenbanken.";
+"merge_result_databases_identical" = "Keine Änderungen zum Zusammenführen in die erste Datenbank.";
 
 /* Compare & Merge... */
 "generic_action_compare_and_merge_ellipsis" = "Vergleichen & Zusammenführen ...";
@@ -3608,7 +3608,7 @@
 "diff_result_percentage_difference_fmt" = "Die zweite Datenbank ist zu %0.1f%% unterschiedlich.";
 
 /* Identical databases. */
-"diff_result_databases_identical" = "Identical databases.";
+"diff_result_databases_identical" = "Identische Datenbanken.";
 
 /* Some database properties will change. */
 "merge_result_databases_properties_will_change" = "Einige Datenbankeigenschaften werden sich ändern.";
@@ -3617,7 +3617,7 @@
 "diff_result_databases_properties_different" = "Die Datenbankeigenschaften sind unterschiedlich.";
 
 /* Summary */
-"diff_view_section_header_summary" = "Summary";
+"diff_view_section_header_summary" = "Zusammenfassung";
 
 /* Will be Changed (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
 "diff_view_section_header_entry_will_be_changed_count_fmt" = "Wird geändert (%lu)";
@@ -3776,10 +3776,10 @@
 "diff_drill_down_created_dates_are_different" = "Die Erstellungsdaten sind unterschiedlich.";
 
 /* Modified Date will change. */
-"diff_drill_down_mod_date_will_change" = "Modified Date will change.";
+"diff_drill_down_mod_date_will_change" = "Das Änderungsdatum wird geändert.";
 
 /* Modified Dates are different. */
-"diff_drill_down_mod_dates_are_different" = "Modified Dates are different.";
+"diff_drill_down_mod_dates_are_different" = "Die Änderungsdaten sind unterschiedlich.";
 
 /* Expiry Date will change. */
 "diff_drill_down_expiry_date_will_change" = "Das Ablaufdatum wird geändert.";
@@ -3965,7 +3965,7 @@
 "database_properties_subtitle_quick_launch" = "Automatische Aufforderung, diese Datenbank bei App-Start zu öffnen.";
 
 /* Always Auto-Merge */
-"database_properties_title_always_auto_merge" = "Always Auto-Merge";
+"database_properties_title_always_auto_merge" = "Immer automatisch zusammenführen";
 
 /* When a sync conflict occurs automatically merge without asking. */
 "database_properties_subtitle_conflict_resolution" = "Wenn ein Synchronisationskonflikt auftritt, automatisch zusammenführen, ohne zu fragen.";
@@ -3989,10 +3989,10 @@
 "quick_type_format_title_username" = "Titel (Benutzername)";
 
 /* Title */
-"quick_type_format_title" = "Title";
+"quick_type_format_title" = "Titel";
 
 /* Username */
-"quick_type_format_username" = "Username";
+"quick_type_format_username" = "Benutzername";
 
 /* QuickType Format */
 "prefs_vc_quick_type_format" = "QuickType-Format";
@@ -4065,7 +4065,7 @@
 "mac_item_duplicated" = "Eintrag dupliziert";
 
 /* File - Localization Note: This should be very short, 3-4 characters if possible. This indicates a regular file on the file system on a Mac. */
-"storage_provider_name_mac_file_short" = "File";
+"storage_provider_name_mac_file_short" = "Datei";
 
 /* Done. ✅ */
 "sync_log_status_done" = "Fertig. ✅";
@@ -4113,7 +4113,7 @@
 "autofill_search_service_id_section_footer" = "Die Service-ID ist eine Kennung, die vom autom. Ausfüllen an Strongbox gesendet wird. Es kann bei der Suche helfen, wenn Sie die URL Ihres Eintrags so einstellen, dass sie mit der Service-ID übereinstimmt. Tippen Sie auf Kopieren.";
 
 /* Results */
-"quick_view_title_no_matches_title" = "Results";
+"quick_view_title_no_matches_title" = "Ergebnisse";
 
 /* Unlock with Touch ID */
 "mac_unlock_database_with_touch_id" = "Mit Touch ID entsperren";
@@ -4122,7 +4122,7 @@
 "mac_unlock_database_with_apple_watch" = "Mit Watch entsperren";
 
 /* Unlock with Touch ID or Watch */
-"mac_unlock_database_with_touch_or_watch" = "Unlock with Touch ID or Watch";
+"mac_unlock_database_with_touch_or_watch" = "Mit %@ oder Watch entsperren";
 
 /* Blur */
 "app_privacy_shield_mode_blur" = "Weichzeichnen";
@@ -4206,7 +4206,7 @@
 "mac_undo_action_add_tag" = "Schlagwort hinzufügen";
 
 /* Tags */
-"generic_fieldname_tags" = "Tags";
+"generic_fieldname_tags" = "Schlagwörter";
 
 /* Enter a new tag to add for this item */
 "mac_vc_please_enter_a_tag" = "Geben Sie ein neues Schlagwort ein, um es zu diesem Eintrag hinzuzufügen";
@@ -4317,16 +4317,16 @@
 "composite_key_determiner_convenience_expired_message" = "Es ist jetzt an der Zeit, Ihr Master-Passwort erneut manuell einzugeben. Sie können dieses Erinnerungsintervall in den Datenbankeinstellungen ändern.";
 
 /* Got it! */
-"generic_got_it" = "Got it!";
+"generic_got_it" = "Verstanden!";
 
 /* Don't tell me again */
-"generic_dont_tell_again" = "Don't tell me again";
+"generic_dont_tell_again" = "Nicht erneut warnen";
 
 /* Actions - L10n - a generic collection of actions (or items that will perform certain actions/tasks) - often used as a Section Header */
-"generic_actions" = "Actions";
+"generic_actions" = "Aktionen";
 
 /* Preferences - L10n - a generic header or item that leads to a set or settings / preferences - often used as a Section Header or button */
-"generic_preferences" = "Preferences";
+"generic_preferences" = "Einstellungen";
 
 /* Rearrange - L10n - Verb - to re-order or otherwise change the order of a list of items */
 "generic_rearrange" = "Neu anordnen";
@@ -4335,7 +4335,7 @@
 "onboarding_convenience_message_fmt" = "Das Eingeben des Master-Passworts ist langsam, umständlich und fehleranfällig. Strongbox kann Ihnen dabei helfen, Ihre Datenbank sicher und schnell zu entsperren, ohne dass Sie jedes Mal Ihr Master-Passwort verwenden müssen.\n\nMöchten Sie die Komfortentsperrung verwenden?";
 
 /* Dismiss - L10n Note: Generic Action to dismiss a dialog or popup */
-"generic_dismiss" = "Dismiss";
+"generic_dismiss" = "Verwerfen";
 
 /* There is a configuration issue you should be aware of. You are using %@ for both App Lock and Quick Launch. In addition you allow device passcode fallback for App Lock.\n\nThis leads to a situation where you can unlock your database using only your device passcode.\n\nIf you do not want this you can do any of the following: Disable App Lock passcode fallback, or Quick Launch, or %@ Database Unlock, or coalescing of unlocks - L10n Note: 3 format parameters here are identical and will be either 'Face ID' or 'Touch ID' */
 "app_lock_coalescing_with_quick_launch_warning" = "Es gibt ein Konfigurationsproblem, das Sie beachten sollten. Sie verwenden %@ sowohl für die App-Sperre als auch für den Schnellstart. Zusätzlich erlauben Sie den Gerätecode-Fallback für die App-Sperre.\n\nDies führt dazu, dass Sie Ihre Datenbank allein mit Ihrem Gerätecode entsperren können.\n\nWenn Sie dies nicht möchten, können Sie einen der folgenden Schritte unternehmen: Deaktivieren Sie den Gerätecode-Fallback der App-Sperre, den Schnellstart, die %@-Komfortentsperrung der Datenbank oder das Verbinden der biometrischen Authentifizierungen für Schnellstart & App-Sperre.";
@@ -4392,7 +4392,7 @@
 "prefs_vc_scheduled_export_interval" = "Geplantes Exportintervall";
 
 /* Welcome Aboard */
-"onboarding_welcome_to_strongbox_first_run_title" = "Welcome Aboard";
+"onboarding_welcome_to_strongbox_first_run_title" = "Willkommen an Bord";
 
 /* Hi there, and welcome to Strongbox 😎\n\nWe're sure you're excited to get started, but first, there are a few steps we should take so that everything runs smoothly... */
 "onboarding_welcome_to_strongbox_first_run_message" = "Hallo, und willkommen bei Strongbox 😎\n\nWir sind sicher, dass Sie sich darauf freuen, loszulegen, aber zuerst sollten wir ein paar Schritte unternehmen, damit alles reibungslos läuft ...";
@@ -4404,7 +4404,7 @@
 "generic_get_started" = "Loslegen";
 
 /* You're All Set! */
-"generic_youre_all_set" = "You're All Set!";
+"generic_youre_all_set" = "Sie sind fertig!";
 
 /* Next up, we'll take you to your regular Databases screen.\n\nFrom here, we'll help you add your first password database.\n\n❤️ The Strongbox Team ❤️ */
 "onboarding_welcome_to_strongbox_first_run_final_message" = "Als nächstes führen wir Sie zu Ihrem regulären Datenbank-Bildschirm.\n\nVon hier aus helfen wir Ihnen, Ihre erste Passwortdatenbank hinzuzufügen.\n\n❤️ Das Strongbox Team ❤️";
@@ -4469,7 +4469,7 @@
 "export_items_select_destination_group_title" = "Hierhin exportieren";
 
 /* Export Database */
-"generic_export_database" = "Export Database";
+"generic_export_database" = "Datenbank exportieren";
 
 /* Export Item */
 "generic_export_item" = "Eintrag exportieren";
@@ -4574,13 +4574,13 @@
 "keepass_kdbx4x_format" = "KeePass 2 (KDBX 4.x)";
 
 /* Memory */
-"generic_memory" = "Memory";
+"generic_memory" = "Speicher";
 
 /* Parallelism */
 "generic_parallelism" = "Parallelisierung";
 
 /* Algorithm */
-"generic_algorithm" = "Algorithm";
+"generic_algorithm" = "Algorithmus";
 
 /* Compression */
 "generic_compression" = "Kompression";
@@ -4769,7 +4769,7 @@
 "menu_item_header_randomly_generated_suggestions" = "Nach Zufallsprinzip erzeugt";
 
 /* Most Used */
-"menu_item_header_most_used_suggestions" = "Most Used";
+"menu_item_header_most_used_suggestions" = "Am häufigsten verwendet";
 
 /* Are you sure you want to clear the expiry for this entry? */
 "are_you_sure_clear_expiry" = "Möchten Sie das Ablaufdatum für diesen Eintrag wirklich löschen?";
@@ -4784,13 +4784,13 @@
 "discard_changes" = "Änderungen verwerfen";
 
 /* Create Group */
-"create_group" = "Create Group";
+"create_group" = "Gruppe erstellen";
 
 /* Edit Entry */
 "edit_entry" = "Eintrag bearbeiten";
 
 /* Create Entry */
-"create_entry" = "Create Entry";
+"create_entry" = "Eintrag erstellen";
 
 /* Tidy Up Field? */
 "field_tidy_title_tidy_up_field" = "Feld bereinigen?";
@@ -4823,7 +4823,7 @@
 "generic_fieldname_urls" = "URLs";
 
 /* Copy - L10n Note: This is a verb, to copy an item/string/field to the clipboard */
-"generic_action_verb_copy_to_clipboard" = "Copy";
+"generic_action_verb_copy_to_clipboard" = "Kopieren";
 
 /* Copy - L10n Note: This is a verb, to copy the field name (e.g. if there is a field: Custom-Field-1="value", then this would copy "Custom-Field-1" to the clipboard */
 "generic_action_verb_copy_field_name_to_clipboard" = "Feldname kopieren";
@@ -4838,7 +4838,7 @@
 "generic_action_verb_launch_url" = "URL aufrufen";
 
 /* Show QR Code */
-"generic_action_show_qr_code" = "Show QR Code";
+"generic_action_show_qr_code" = "QR-Code anzeigen";
 
 /* Show Large Text View */
 "generic_action_show_large_text_view" = "Große Textansicht anzeigen";
@@ -4934,7 +4934,7 @@
 "custom_app_icon_category_utilities" = "Dienstprogramme";
 
 /* Default */
-"custom_app_icon_category_default" = "Default";
+"custom_app_icon_category_default" = "Standard";
 
 /* Are you sure you want to reset to the default App Icon? */
 "are_you_sure_reset_to_default_app_icon" = "Möchten Sie wirklich auf das Standard-App-Symbol zurücksetzen?";
@@ -4997,7 +4997,7 @@
 "generic_ask_me_later" = "Später fragen";
 
 /* Lock Database - L10n note: Verb, To Lock, Locks the Database */
-"verb_lock_database" = "Lock Database";
+"verb_lock_database" = "Datenbank sperren";
 
 /* Are you sure you want to delete this tag? */
 "are_you_sure_delete_tag_message" = "Möchten Sie dieses Schlagwort wirklich löschen?";
@@ -5036,7 +5036,7 @@
 "onedrive_readd_required" = "Ihre OneDrive-Datenbank muss aufgrund eines Microsoft SDK-Updates neu hinzugefügt werden.\n\nTippen Sie auf „OK” und wählen Sie Ihre OneDrive-Datenbank aus, um zu beginnen …";
 
 /* Apply Changes */
-"generic_apply_changes" = "Apply Changes";
+"generic_apply_changes" = "Änderungen übernehmen";
 
 /* Pop Out Details - L10n Note: A user can "Pop Out" a Details window, which is usually embedded in a frame. Popping it out means it can be moved around independently of the main App window */
 "action_verb_popout_details_window" = "Details anzeigen";
@@ -5048,7 +5048,7 @@
 "mac_notes_partially_copied_to_clipboard" = "Notizen (teilweise) kopiert";
 
 /* Change My License... */
-"upgrade_vc_change_my_license" = "Change My License...";
+"upgrade_vc_change_my_license" = "Meine Lizenz ändern ...";
 
 /* Hi there 😎\n\nWe're excited you've decided to try us out and we just wanted to say thanks! So, without further ado, let's get started...\n\n❤️ The Strongbox Team ❤️ */
 "onboarding_welcome_to_strongbox_first_run_message_macos" = "Hallo zusammen 😎.\n\nWir freuen uns, dass Sie sich entschieden haben, Strongbox auszuprobieren, und wir wollten uns bei Ihnen bedanken! Also, ohne Umschweife, fangen wir an …\n\n❤️ Das Strongbox-Team ❤️";
@@ -5087,7 +5087,7 @@
 "upgrade_vc_feature_subtitle_support" = "Wir sind für Sie da";
 
 /* Compare & Merge */
-"upgrade_vc_feature_compare_and_merge" = "Compare & Merge";
+"upgrade_vc_feature_compare_and_merge" = "Vergleichen & Zusammenführen";
 
 /* View & Combine Revisions */
 "upgrade_vc_feature_subtitle_compare_and_merge" = "Revisionen anzeigen und kombinieren";
@@ -5111,7 +5111,7 @@
 "upgrade_vc_feature_subtitle_favicon_downloader" = "Heben Sie Ihre Einträge hervor";
 
 /* Support Indie Development */
-"upgrade_vc_feature_support_indie" = "Support Indie Development";
+"upgrade_vc_feature_support_indie" = "Unabhängige Entwicklung unterstützen";
 
 /* Help us stay awesome! */
 "upgrade_vc_feature_subtitle_support_indie" = "Helfen Sie uns, großartig zu bleiben!";
@@ -5150,34 +5150,34 @@
 "1password_import_warning_msg" = "Der Importprozess ist nicht perfekt und einige Funktionen von 1Password, wie z. B. benannte Abschnitte, sind in Strongbox nicht verfügbar.\n\nEs ist wichtig, dass Sie nach dem Import prüfen, ob Ihre Einträge akzeptabel sind.";
 
 /* Recycle Bin - The name of the recycle bin, the folder where items go instead of being fully deleted */
-"generic_recycle_bin_name" = "Recycle Bin";
+"generic_recycle_bin_name" = "Papierkorb";
 
 /* Commit & Close (⌘⏎) */
-"mac_create_or_edit_commit_changes_and_close" = "Commit & Close (⌘⏎)";
+"mac_create_or_edit_commit_changes_and_close" = "Speichern und Schließen (⌘⏎)";
 
 /* Close (⌘⏎) */
 "mac_create_or_edit_commit_close" = "Schließen (⌘⏎)";
 
 /* Touch ID & Watch Unlock Settings... */
-"nextgen_toolbar_settings_convenience_unlock_ellipsis" = "Touch ID & Watch Unlock Settings...";
+"nextgen_toolbar_settings_convenience_unlock_ellipsis" = "Einstellungen für Touch ID- & Watch-Entsperrung ...";
 
 /* AutoFill Settings... */
-"nextgen_toolbar_settings_autofill_settings_ellipsis" = "AutoFill Settings...";
+"nextgen_toolbar_settings_autofill_settings_ellipsis" = "Einstellungen für das automatische Ausfüllen …";
 
 /* Encryption Settings... */
-"nextgen_toolbar_settings_encryption_settings_ellipsis" = "Encryption Settings...";
+"nextgen_toolbar_settings_encryption_settings_ellipsis" = "Verschlüsselungs-Einstellungen …";
 
 /* Change Master Credentials... */
-"nextgen_toolbar_settings_change_master_credentials_ellipsis" = "Change Master Credentials...";
+"nextgen_toolbar_settings_change_master_credentials_ellipsis" = "Master-Zugangsdaten ändern ...";
 
 /* Database Settings... */
-"nextgen_toolbar_settings_database_settings_ellipsis" = "Database Settings...";
+"nextgen_toolbar_settings_database_settings_ellipsis" = "Datenbankeinstellungen ...";
 
 /* Application Preferences... */
 "nextgen_toolbar_settings_application_preferences_ellipsis" = "Anwendungseinstellungen …";
 
 /* Settings */
-"generic_settings" = "Settings";
+"generic_settings" = "Einstellungen";
 
 /* Excluded Characters */
 "password_gen_vc_prompt_excluded_characters" = "Zeichen ausschließen";
@@ -5207,7 +5207,7 @@
 "nextgen_sync_issue_toast_message" = "Strongbox konnte nicht synchronisiert werden …";
 
 /* More... - Used in the UI to indicate a button which you can click on to learn or find out more */
-"generic_more_with_ellipsis" = "More...";
+"generic_more_with_ellipsis" = "Mehr ...";
 
 /* Lock Database? */
 "mac_on_window_close_action_title" = "Datenbank sperren?";
@@ -5231,7 +5231,7 @@
 "error_could_not_save_title" = "Fehler beim Speichern\nEs wird empfohlen, erneut zu speichern";
 
 /* Sync - L10n - This is a verb - To Synchronize */
-"generic_action_sync" = "Sync";
+"generic_action_sync" = "Synchronisieren";
 
 /* Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Sync Log?\n\n%@\n */
 "sync_error_message_including_error_detail_fmt" = "Ihre Datenbank wurde sicher gespeichert, aber es ist ein Fehler bei der Synchronisation aufgetreten. Möchten Sie es noch einmal versuchen oder einen Blick in das Synchronisierungsprotokoll werfen?\n\n%@\n";
@@ -5318,7 +5318,7 @@
 "safes_vc_import_1password_1pux" = "1Password (1Pux) ...";
 
 /* Import */
-"safesvc_import_submenu" = "Import";
+"safesvc_import_submenu" = "Importieren";
 
 /* LastPass (CSV) */
 "safes_vc_import_lastpass" = "LastPass (CSV) ...";
@@ -5330,7 +5330,7 @@
 "are_you_sure_auto_commit_totp_msg" = "Das Deaktivieren von „Automatisch übergeben” könnte bedeuten, dass Sie diesen TOTP verlieren, wenn Sie vergessen, ihn später zu bestätigen. Dennoch fortfahren?";
 
 /* Close - A generic verb - to Close a popup or dialog */
-"generic_verb_close" = "Close";
+"generic_verb_close" = "Schließen";
 
 /* Discard - A verb - to discard any pending changes that might have been made */
 "generic_verb_discard" = "Verwerfen";
@@ -5342,16 +5342,16 @@
 "password_history_this_password_was_used_until_fmt" = "Verwendet bis %@";
 
 /* Previous Passwords - A heading above a list of previously used passwords */
-"password_history_previous_passwords" = "Previous Passwords";
+"password_history_previous_passwords" = "Vorherige Passwörter";
 
 /* Turn On Browser AutoFill? */
 "onboarding_autofill_title_turn_on" = "Browser-Autofill aktivieren?";
 
 /* Turn On AutoFill */
-"onboarding_autofill_option_turn_on_autofill" = "Turn On AutoFill";
+"onboarding_autofill_option_turn_on_autofill" = "Autom. Ausfüllen aktivieren";
 
 /* No Thanks */
-"generic_no_thanks" = "No Thanks";
+"generic_no_thanks" = "Nein Danke";
 
 /* Browser AutoFill is available but currently not turned on. Would you like to enable Browser AutoFill so that you can conveniently and securely login from within your browser? */
 "onboarding_autofill_msg_available_turn_on_question" = "Browser-AutoFill ist verfügbar, aber derzeit nicht aktiviert. Möchten Sie Browser-AutoFill aktivieren, damit Sie sich bequem und sicher über Ihren Browser anmelden können?";
@@ -5387,13 +5387,13 @@
 "mac_create_or_edit_save_changes" = "Speichern (⌘S)";
 
 /* Commit (⌘S) */
-"mac_create_or_edit_commit_changes" = "Commit (⌘S)";
+"mac_create_or_edit_commit_changes" = "Speichern (⌘S)";
 
 /* Hierarchy (%@ Groups, %@ Entries) - L10n Note - The two parameters are numeric, so for example: "23 Groups, 3456 Entries"*/
 "side_bar_hierarchy_folder_structure_summary_count_fmt" = "Baumstruktur (%@ Gruppen, %@ Einträge)";
 
 /* Entries */
-"side_bar_child_count_format_entries" = "Entries";
+"side_bar_child_count_format_entries" = "Einträge";
 
 /* Entries (Recursive) */
 "side_bar_child_count_format_entries_rec" = "Einträge (Rekursiv)";
@@ -5405,7 +5405,7 @@
 "side_bar_child_count_format_groups_and_entries_rec" = "Gruppen und Einträge (rekursiv)";
 
 /* Items */
-"side_bar_child_count_format_items" = "Items";
+"side_bar_child_count_format_items" = "Artikel";
 
 /* Items (Recursive) */
 "side_bar_child_count_format_items_rec" = "Elemente (Rekursiv)";
@@ -5453,13 +5453,13 @@
 "ssh_agent_ssh_key" = "SSH-Schlüssel";
 
 /* Export... */
-"generic_export_ellipsis" = "Export...";
+"generic_export_ellipsis" = "Exportieren ...";
 
 /* Public Key */
 "generic_public_key" = "Öffentlicher Schlüssel";
 
 /* Private Key */
-"generic_private_key" = "Private Key";
+"generic_private_key" = "Privater Schlüssel";
 
 /* Fingerprint - L10n Note: An SSH Key Fingerprint */
 "ssh_agent_key_fingerprint" = "Fingerabdruck";
@@ -5515,7 +5515,7 @@
 "nextgen_ui_deprecation_switch_notice" = "Das war's schon! Wir empfehlen einen Neustart von Strongbox, um die neue Benutzeroberfläche zu aktivieren.";
 
 /* Password Generator */
-"popout_password_generator" = "Password Generator";
+"popout_password_generator" = "Passwort-Generator";
 
 /* verify existing credentials before you can change them - L10n Note: This is a suffix that appears on the Touch ID request dialog on macOS, it is prefixed by system text: "Strongbox is trying to", so ultimately this string will look like: "Strongbox is trying to verify existing credentials before you can change them" */
 "verify_creds_before_changing_bio_message_suffix" = ", vorhandene Anmeldedaten zu überprüfen, bevor Sie sie ändern können";
@@ -5566,37 +5566,37 @@
 "generic_select_items" = "Einträge auswählen";
 
 /* Select All */
-"generic_select_all" = "Select All";
+"generic_select_all" = "Alle auswählen";
 
 /* Print Database */
-"generic_print_database" = "Print Database";
+"generic_print_database" = "Datenbank drucken";
 
 /* Advanced - L10n: Noun - e.g. Advanced Settings */
-"generic_advanced_noun" = "Advanced";
+"generic_advanced_noun" = "Erweiterte Einstellungen";
 
 /* AutoFill - L10n: Noun referring to AutoFill Settings */
-"generic_autofill_settings" = "AutoFill";
+"generic_autofill_settings" = "Autom. Ausfüllen";
 
 /* Automatic Locking - L10n: Noun referring to Automatic Locking Settings */
-"generic_auto_lock_settings" = "Automatic Locking";
+"generic_auto_lock_settings" = "Automatisches Sperren";
 
 /* Encryption - L10n: Noun referring to Encryption Settings  */
-"generic_encryption_settings" = "Encryption";
+"generic_encryption_settings" = "Verschlüsselung";
 
 /* Easy Read Font on All Fields */
 "item_details_view_settings_easy_read_all" = "Einfach zu lesende Schriftart in allen Feldern";
 
 /* Auto Fetch FavIcon */
-"item_details_view_settings_auto_fetch_favicon" = "Auto Fetch FavIcon";
+"item_details_view_settings_auto_fetch_favicon" = "Favicon automatisch abrufen";
 
 /* Reveal Password Immediately */
-"item_details_view_settings_reveal_password_immediately" = "Reveal Password Immediately";
+"item_details_view_settings_reveal_password_immediately" = "Passwort im Klartext anzeigen";
 
 /* Colorize Passwords */
-"item_details_view_settings_colorize_passwords" = "Colorize Passwords";
+"item_details_view_settings_colorize_passwords" = "Passwörter einfärben";
 
 /* Sort Custom Fields */
-"item_details_view_settings_sort_custom_fields" = "Sort Custom Fields";
+"item_details_view_settings_sort_custom_fields" = "Benutzerdefinierte Felder sortieren";
 
 /* New SSH Key */
 "details_add_new_ssh_key" = "Neuer SSH-Schlüssel";
@@ -5605,7 +5605,7 @@
 "details_add_new_ssh_key_what_kind_prompt" = "Welche Art von SSH-Schlüssel möchten Sie hinzufügen?\n\nWir empfehlen die Verwendung des modernen Schlüsseltyps ED25519.";
 
 /* New ED25519 Key */
-"details_add_new_ssh_key_ed25519" = "New ED25519 Key";
+"details_add_new_ssh_key_ed25519" = "Neuer ED25519-Schlüssel";
 
 /* New RSA Key */
 "details_add_new_ssh_key_rsa" = "Neuer RSA-Schlüssel";
@@ -5614,7 +5614,7 @@
 "details_add_new_ssh_key_ellipsis" = "Neuer SSH-Schlüssel …";
 
 /* Actions - L10n Note: A noun, e.g a list of actions that can be performed */
-"generic_noun_actions" = "Actions";
+"generic_noun_actions" = "Aktionen";
 
 /* OK, Don't Remind Me Again */
 "generic_ok_dont_remind_me_again" = "OK, mich bitte nicht erneut daran erinnern";
@@ -5626,7 +5626,7 @@
 "sale_view_subscriber_title" = "Verkaufsangebot für Abonnenten";
 
 /* Sale Now On */
-"sale_view_regular_title" = "Sale Now On";
+"sale_view_regular_title" = "Jetzt im Sale";
 
 /* Since you're a Pro subscriber, we'd like to say thank you and offer you a discount on your next renewal */
 "sale_view_subscriber_message" = "Da Sie ein Pro-Abonnent sind, möchten wir uns bei Ihnen bedanken und Ihnen einen Rabatt für Ihre nächste Verlängerung anbieten";
@@ -5641,7 +5641,7 @@
 "sale_view_regular_cta" = "Pro jetzt freischalten";
 
 /* Looking for a Lifetime License? */
-"sale_view_looking_for_lifetime" = "Looking for a Lifetime License?";
+"sale_view_looking_for_lifetime" = "Suchen Sie eine unbefristete Lizenz?";
 
 /* Offer ends Midnight %@ - L10n note: The 1st parameter is a day, like Monday or Friday, so: "Offer ends Midnight Friday" for example */
 "sale_view_offer_ends_date_fmt %@" = "Angebot endet um Mitternacht %@";
@@ -5665,4 +5665,4 @@
 "generic_for_n_hours_suffix_fmt" = "für %@ Stunden";
 
 /* until Strongbox quits - L10n note: used as a suffix, e.g. "Remember this until Strongbox quits" */
-"ssh_agent_remember_approval_until_strongbox_quits" = "until Strongbox quits";
+"ssh_agent_remember_approval_until_strongbox_quits" = "bis Strongbox beendet wird";
