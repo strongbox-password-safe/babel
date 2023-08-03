@@ -765,7 +765,7 @@
 "sspc_error_invalid_database" = "Ogiltig databas";
 
 /* Files... */
-"sspc_ios_files_storage_location" = "Files";
+"sspc_ios_files_storage_location" = "Filer";
 
 /* Since a local database is only stored on this device, any loss of this device will lead to the loss of all passwords stored within this database. You may want to consider using a cloud storage provider, such as the ones supported by Strongbox to avoid catastrophic data loss.\n\nWould you still like to proceed with creating a local device database? */
 "sspc_local_device_storage_warning_message" = "Eftersom en lokal databas enbart lagras på den här enheten kommer förlust av den här enheten leda till förlust av alla lösenord som lagras i denna databas förloras. Du kanske ska överväga att använda en molnlagringsleverantör, t.ex. de som stöds av Strongbox, för att undvika katastrofala dataförluster.\n\nVill du fortfarande gå vidare med att skapa en lokal enhetsdatabas?";
@@ -1818,7 +1818,7 @@
 "model_error_cannot_write_backup" = "Kunde inte skriva säkerhetskopia och kommer därför inte skriva databasen!";
 
 /* Button Title to view backup settings of this database */
-"safes_vc_action_backups" = "Backups";
+"safes_vc_action_backups" = "Säkerhetskopior";
 
 /* Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences */
 "open_sequence_error_reading_key_file_autofill_context" = "Kunde inte läsa nyckelfil. Har den importerats ordentligt? Kolla nyckelfilshantering i Inställningar";
@@ -1884,7 +1884,7 @@
 "generic_fieldname_title" = "Rubrik";
 
 /* All Fields */
-"generic_fieldname_all_fields" = "All Fields";
+"generic_fieldname_all_fields" = "Alla fält";
 
 /* Username */
 "generic_fieldname_username" = "Användarnamn";
@@ -1947,7 +1947,7 @@
 "generic_remove" = "Ta bort";
 
 /* Rename - Translators Note: Verb - To rename something, e.g. an item in a collection, to give it different title */
-"generic_rename" = "Rename";
+"generic_rename" = "Ändra namn";
 
 /* Set */
 "generic_set" = "Ange";
@@ -2149,7 +2149,7 @@
 "set_icon_vc_icon_source_download_favicons_pro_only" = "Ladda ner relaterade faviconer (endast Pro)";
 
 /* Set Icon(s) */
-"browse_vc_action_set_icons" = "Set Icon(s)";
+"browse_vc_action_set_icons" = "Ange ikon(er)";
 
 /* Tap Play to start search */
 "favicon_status_initial" = "Tryck på Spela för att starta sökning";
@@ -2478,7 +2478,7 @@
 "mac_create_new_database_title" = "Skapa ny lösenorddatabas";
 
 /* Enter Master Credentials */
-"mac_enter_database_master_credentials" = "Enter Master Credentials";
+"mac_enter_database_master_credentials" = "Skriv in huvudautentiseringsuppgifter";
 
 /* Click Browse to Select a Key File */
 "mac_click_browse_select_key_file" = "Klicka på Bläddra för att välja en nyckelfil";
@@ -2694,7 +2694,7 @@
 "mac_browse_for_key_file" = "Bläddra ...";
 
 /* Configured - (Translators Note: User is using a key file, Strongbox knows what/where it is, but will not display the file name in the UI for privacy reasons. This appears on the unlock screen. */
-"mac_key_file_configured_but_filename_hidden" = "Configured";
+"mac_key_file_configured_but_filename_hidden" = "Konfigurerad";
 
 /* %@ (Configured) - (Translators Note: User is using a key file that has previously been set/remembered by Strongbox. First parameter is the filename of the key file. This appears on the unlock screen. */
 "mac_key_file_filename_configured_fmt" = "%@ (konfigurerad)";
@@ -3344,10 +3344,10 @@
 "onboarding_vc_start_your_free_trial_subtitle_no_subscription" = "Ingen prenumeration krävs";
 
 /* Could not bookmark this file */
-"open_sequence_error_could_not_bookmark_file" = "Could not bookmark this file";
+"open_sequence_error_could_not_bookmark_file" = "Kunde inte bokmärka denna fil";
 
 /* Invalid Database - [%@] */
-"open_sequence_invalid_database_filename_fmt" = "Invalid Database - [%@]";
+"open_sequence_invalid_database_filename_fmt" = "Ogiltig databas – [%@]";
 
 /* Different Filename */
 "open_sequence_database_different_filename_title" = "Annat filnamn";
@@ -3365,10 +3365,10 @@
 "open_sequence_storage_provider_view_sync_error_details" = "Visa felinformation";
 
 /* Use Local (Read-Only) */
-"open_sequence_use_local_copy_option" = "Använd lokalt (skrivskyddad)";
+"open_sequence_use_local_copy_option" = "Öppna offline";
 
 /* Delete (Translators Note: Verb - To Delete an item) */
-"generic_action_delete" = "Delete";
+"generic_action_delete" = "Ta bort";
 
 /* Are you sure the URL is correct? It should be a path to a parent folder. Not the database file. */
 "webdav_vc_validation_url_are_you_sure" = "Är du säker på att URL är korrekt? Det ska vara en URL till en överordnad mapp. Inte databasfilen.";
@@ -3419,16 +3419,16 @@
 "hint_tap_and_hold_to_see_options" = "Tips: Tryck och håll ned för att se alternativ";
 
 /* Launch URL & Copy */
-"browse_action_launch_url_copy_password" = "Launch URL & Copy Password";
+"browse_action_launch_url_copy_password" = "Starta URL och kopiera lösenord";
 
 /* Copy Other Field... */
 "browse_context_menu_copy_other_field" = "Kopiera fält ...";
 
 /* Move - Translators Note: Verb - To move something e.g. an entry or group somewhere else in the hierarchy */
-"generic_move" = "Move";
+"generic_move" = "Flytta";
 
 /* New Entry - Translators Note: Menu option to add a new entry */
-"browse_context_menu_new_entry" = "New Entry";
+"browse_context_menu_new_entry" = "Ny post";
 
 /* New Group Translators Note: Menu option to add a new group */
 "browse_context_menu_new_group" = "Ny grupp";
@@ -3437,7 +3437,7 @@
 "generic_select" = "Välj";
 
 /* Start with Search - Translators Note: Option to start with the search field focused immediately upon unlock */
-"browse_context_menu_start_with_search" = "Start with Search";
+"browse_context_menu_start_with_search" = "Börja med Sök";
 
 /* Sort - Translators Note: Verb - to sort items by title or other field */
 "generic_sort" = "Sortera";
@@ -3449,13 +3449,13 @@
 "browse_context_menu_database_settings" = "Databasinställningar";
 
 /* Set Credentials */
-"browse_context_menu_set_master_credentials" = "Set Master Credentials";
+"browse_context_menu_set_master_credentials" = "Ange huvudautentiseringsuppgifter";
 
 /* Show Password - Translators Note: On Browse screen - context menu item - This option will display the password in a large full screen font for easy reading with a QR Code */
 "browse_context_menu_show_password" = "Visa lösenord";
 
 /* Read Only */
-"databases_toggle_read_only_context_menu" = "Read Only";
+"databases_toggle_read_only_context_menu" = "Skrivskyddad";
 
 /* Quick Launch */
 "databases_toggle_quick_launch_context_menu" = "Snabbstart";
@@ -3464,7 +3464,7 @@
 "browse_vc_action_properties" = "Egenskaper";
 
 /* Find */
-"browse_vc_action_keyboard_shortcut_find" = "Find";
+"browse_vc_action_keyboard_shortcut_find" = "Hitta";
 
 /* Custom Data */
 "properties_vc_header_custom_data" = "Anpassade data";
@@ -3473,7 +3473,7 @@
 "properties_vc_footer_custom_data" = "Anpassade data som används av plugin-program och diverse andra program.";
 
 /* Properties */
-"properties_vc_header_basic" = "Properties";
+"properties_vc_header_basic" = "Egenskaper";
 
 /* Some simple properties and settings of this item. */
 "properties_vc_footer_basic" = "Några enkla egenskaper och inställningar för detta objekt.";
@@ -3593,7 +3593,7 @@
 "generic_action_create_local_database" = "Skapa lokal kopia";
 
 /* Identical databases. */
-"merge_result_databases_identical" = "Identiska databaser.";
+"merge_result_databases_identical" = "Inga ändringar att sammanfoga till första.";
 
 /* Compare & Merge... */
 "generic_action_compare_and_merge_ellipsis" = "Jämför och slå samman ...";
@@ -3608,7 +3608,7 @@
 "diff_result_percentage_difference_fmt" = "Den andra databasen skiljer sig med %0.1f%%.";
 
 /* Identical databases. */
-"diff_result_databases_identical" = "Identical databases.";
+"diff_result_databases_identical" = "Identiska databaser.";
 
 /* Some database properties will change. */
 "merge_result_databases_properties_will_change" = "Vissa databasegenskaper kommer att ändras.";
@@ -3617,7 +3617,7 @@
 "diff_result_databases_properties_different" = "Databasegenskaper är olika.";
 
 /* Summary */
-"diff_view_section_header_summary" = "Summary";
+"diff_view_section_header_summary" = "Sammanfattning";
 
 /* Will be Changed (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
 "diff_view_section_header_entry_will_be_changed_count_fmt" = "Kommer att ändras (%lu)";
@@ -3776,10 +3776,10 @@
 "diff_drill_down_created_dates_are_different" = "Skapatdatum är olika.";
 
 /* Modified Date will change. */
-"diff_drill_down_mod_date_will_change" = "Modified Date will change.";
+"diff_drill_down_mod_date_will_change" = "Ändringsdatum kommer att ändras.";
 
 /* Modified Dates are different. */
-"diff_drill_down_mod_dates_are_different" = "Modified Dates are different.";
+"diff_drill_down_mod_dates_are_different" = "Ändringsdatum är olika.";
 
 /* Expiry Date will change. */
 "diff_drill_down_expiry_date_will_change" = "Förfallodatum kommer att ändras.";
@@ -3965,7 +3965,7 @@
 "database_properties_subtitle_quick_launch" = "Fråga automatiskt ifall du vill öppna denna databas vid appstart.";
 
 /* Always Auto-Merge */
-"database_properties_title_always_auto_merge" = "Always Auto-Merge";
+"database_properties_title_always_auto_merge" = "Alltid autosammanslagning";
 
 /* When a sync conflict occurs automatically merge without asking. */
 "database_properties_subtitle_conflict_resolution" = "Slå samman automatiskt utan att fråga när en synkroniseringskonflikt uppstår.";
@@ -3989,10 +3989,10 @@
 "quick_type_format_title_username" = "Rubrik (användarnamn)";
 
 /* Title */
-"quick_type_format_title" = "Title";
+"quick_type_format_title" = "Rubrik";
 
 /* Username */
-"quick_type_format_username" = "Username";
+"quick_type_format_username" = "Användarnamn";
 
 /* QuickType Format */
 "prefs_vc_quick_type_format" = "QuickTypeformat";
@@ -4065,7 +4065,7 @@
 "mac_item_duplicated" = "Objekt duplicerat";
 
 /* File - Localization Note: This should be very short, 3-4 characters if possible. This indicates a regular file on the file system on a Mac. */
-"storage_provider_name_mac_file_short" = "File";
+"storage_provider_name_mac_file_short" = "Fil";
 
 /* Done. ✅ */
 "sync_log_status_done" = "Klar. ✅";
@@ -4113,7 +4113,7 @@
 "autofill_search_service_id_section_footer" = "Tjänste-ID är en identifierare som skickas till Strongbox av Autofyll. Det kan hjälpa vid sökning om du ställer in URL-adressen i din post att vara den samma som tjänste-ID:t. Tryck för att kopiera.";
 
 /* Results */
-"quick_view_title_no_matches_title" = "Results";
+"quick_view_title_no_matches_title" = "Resultat";
 
 /* Unlock with Touch ID */
 "mac_unlock_database_with_touch_id" = "Lås upp med Touch ID";
@@ -4122,7 +4122,7 @@
 "mac_unlock_database_with_apple_watch" = "Lås upp med Watch";
 
 /* Unlock with Touch ID or Watch */
-"mac_unlock_database_with_touch_or_watch" = "Unlock with Touch ID or Watch";
+"mac_unlock_database_with_touch_or_watch" = "Lås upp med Touch ID eller Watch";
 
 /* Blur */
 "app_privacy_shield_mode_blur" = "Använd oskärpa";
@@ -4206,7 +4206,7 @@
 "mac_undo_action_add_tag" = "Lägga till tagg";
 
 /* Tags */
-"generic_fieldname_tags" = "Tags";
+"generic_fieldname_tags" = "Taggar";
 
 /* Enter a new tag to add for this item */
 "mac_vc_please_enter_a_tag" = "Ange en ny tagg att lägga till detta objekt";
@@ -4317,16 +4317,16 @@
 "composite_key_determiner_convenience_expired_message" = "Det är dags att ange ditt huvudlösenord manuellt. Du kan ändra detta påminnelseintervall i databasinställningar.";
 
 /* Got it! */
-"generic_got_it" = "Got it!";
+"generic_got_it" = "Uppfattat!";
 
 /* Don't tell me again */
-"generic_dont_tell_again" = "Don't tell me again";
+"generic_dont_tell_again" = "Visa inte igen";
 
 /* Actions - L10n - a generic collection of actions (or items that will perform certain actions/tasks) - often used as a Section Header */
-"generic_actions" = "Actions";
+"generic_actions" = "Åtgärder";
 
 /* Preferences - L10n - a generic header or item that leads to a set or settings / preferences - often used as a Section Header or button */
-"generic_preferences" = "Preferences";
+"generic_preferences" = "Inställningar";
 
 /* Rearrange - L10n - Verb - to re-order or otherwise change the order of a list of items */
 "generic_rearrange" = "Ordna";
@@ -4335,7 +4335,7 @@
 "onboarding_convenience_message_fmt" = "Att skriva ditt huvudlösenord är långsamt, besvärligt och felkänsligt. Strongbox kan hjälpa dig att säkert och snabbt låsa upp din databas utan att behöva använda ditt huvudlösenord varje gång.\n\nVill du använda bekvämlighetsupplåsning?";
 
 /* Dismiss - L10n Note: Generic Action to dismiss a dialog or popup */
-"generic_dismiss" = "Dismiss";
+"generic_dismiss" = "Avfärda";
 
 /* There is a configuration issue you should be aware of. You are using %@ for both App Lock and Quick Launch. In addition you allow device passcode fallback for App Lock.\n\nThis leads to a situation where you can unlock your database using only your device passcode.\n\nIf you do not want this you can do any of the following: Disable App Lock passcode fallback, or Quick Launch, or %@ Database Unlock, or coalescing of unlocks - L10n Note: 3 format parameters here are identical and will be either 'Face ID' or 'Touch ID' */
 "app_lock_coalescing_with_quick_launch_warning" = "Det finns ett konfigurationsproblem som du bör vara medveten om. Du använder %@ för både applås och Snabbstart. Dessutom tillåter du att enhetens lösenkod används som reserv för applås.\n\nDetta leder till en situation där du kan låsa upp din databas med endast din enhets lösenkod.\n\nOm du inte vill detta kan du göra något av följande: avaktivera applåsets reservkod, Snabbstart, %@ databasupplåsning eller sammanlänkning av upplåsningar.";
@@ -4392,7 +4392,7 @@
 "prefs_vc_scheduled_export_interval" = "Schemalagd exportintervall";
 
 /* Welcome Aboard */
-"onboarding_welcome_to_strongbox_first_run_title" = "Welcome Aboard";
+"onboarding_welcome_to_strongbox_first_run_title" = "Välkommen ombord";
 
 /* Hi there, and welcome to Strongbox 😎\n\nWe're sure you're excited to get started, but first, there are a few steps we should take so that everything runs smoothly... */
 "onboarding_welcome_to_strongbox_first_run_message" = "Hallå och välkommen till Strongbox 😎\n\nVi är säkra på att du är sugen på att komma igång men vi behöver genomföra några steg så att allt fungerar smidigt ...";
@@ -4404,7 +4404,7 @@
 "generic_get_started" = "Kom igång";
 
 /* You're All Set! */
-"generic_youre_all_set" = "You're All Set!";
+"generic_youre_all_set" = "Du är klar!";
 
 /* Next up, we'll take you to your regular Databases screen.\n\nFrom here, we'll help you add your first password database.\n\n❤️ The Strongbox Team ❤️ */
 "onboarding_welcome_to_strongbox_first_run_final_message" = "Nästa steg är att ta dig till din ordinarie databasskärm.\n\nDärifrån hjälper vi dig att lägga till din första lösenordsdatabas.\n\n❤️ Strongbox teamet ❤️";
@@ -4469,7 +4469,7 @@
 "export_items_select_destination_group_title" = "Exportera hit";
 
 /* Export Database */
-"generic_export_database" = "Export Database";
+"generic_export_database" = "Exportera databas";
 
 /* Export Item */
 "generic_export_item" = "Exportera objekt";
@@ -4574,16 +4574,16 @@
 "keepass_kdbx4x_format" = "KeePass 2 (KDBX 4.x)";
 
 /* Memory */
-"generic_memory" = "Memory";
+"generic_memory" = "Minne";
 
 /* Parallelism */
 "generic_parallelism" = "Parallellism";
 
 /* Algorithm */
-"generic_algorithm" = "Algorithm";
+"generic_algorithm" = "Algoritm";
 
 /* Compression */
-"generic_compression" = "Compression";
+"generic_compression" = "Komprimering";
 
 /* Are you sure you want to change your database encryption settings? */
 "are_you_sure_change_encryption_settings" = "Är du säker på att du vill ändra databasens krypteringsinställningar?";
@@ -4769,7 +4769,7 @@
 "menu_item_header_randomly_generated_suggestions" = "Slumpmässigt genererad";
 
 /* Most Used */
-"menu_item_header_most_used_suggestions" = "Most Used";
+"menu_item_header_most_used_suggestions" = "Mest använda";
 
 /* Are you sure you want to clear the expiry for this entry? */
 "are_you_sure_clear_expiry" = "Är du säker att du vill rensa förfallodatum för denna post?";
@@ -4784,13 +4784,13 @@
 "discard_changes" = "Kasta ändringar";
 
 /* Create Group */
-"create_group" = "Create Group";
+"create_group" = "Skapa grupp";
 
 /* Edit Entry */
 "edit_entry" = "Redigera post";
 
 /* Create Entry */
-"create_entry" = "Create Entry";
+"create_entry" = "Skapa post";
 
 /* Tidy Up Field? */
 "field_tidy_title_tidy_up_field" = "Städa fältet?";
@@ -4817,13 +4817,13 @@
 "generic_fieldname_custom_icon" = "Anpassad ikon";
 
 /* ID - L10n Note: This is the unique id (identifier/uuid) of an item, usually a long string like 5E7CBED9D6D14AF38BB6FE4B9CF1CF64 */
-"generic_fieldname_id" = "ID";
+"generic_fieldname_id" = "Id";
 
 /* URLs - L10n Note: Plural of URL */
 "generic_fieldname_urls" = "URL:er";
 
 /* Copy - L10n Note: This is a verb, to copy an item/string/field to the clipboard */
-"generic_action_verb_copy_to_clipboard" = "Copy";
+"generic_action_verb_copy_to_clipboard" = "Kopiera";
 
 /* Copy - L10n Note: This is a verb, to copy the field name (e.g. if there is a field: Custom-Field-1="value", then this would copy "Custom-Field-1" to the clipboard */
 "generic_action_verb_copy_field_name_to_clipboard" = "Kopiera fältnamn";
@@ -4838,7 +4838,7 @@
 "generic_action_verb_launch_url" = "Starta URL";
 
 /* Show QR Code */
-"generic_action_show_qr_code" = "Show QR Code";
+"generic_action_show_qr_code" = "Visa QR-kod";
 
 /* Show Large Text View */
 "generic_action_show_large_text_view" = "Show Large Text View";
@@ -4934,7 +4934,7 @@
 "custom_app_icon_category_utilities" = "Verktyg";
 
 /* Default */
-"custom_app_icon_category_default" = "Default";
+"custom_app_icon_category_default" = "Standard";
 
 /* Are you sure you want to reset to the default App Icon? */
 "are_you_sure_reset_to_default_app_icon" = "Are you sure you want to reset to the default App Icon?";
@@ -4997,7 +4997,7 @@
 "generic_ask_me_later" = "Fråga mig senare";
 
 /* Lock Database - L10n note: Verb, To Lock, Locks the Database */
-"verb_lock_database" = "Lock Database";
+"verb_lock_database" = "Lås databas";
 
 /* Are you sure you want to delete this tag? */
 "are_you_sure_delete_tag_message" = "Är du säker på att du vill radera den här taggen?";
@@ -5048,7 +5048,7 @@
 "mac_notes_partially_copied_to_clipboard" = "Notes (Partially) Copied";
 
 /* Change My License... */
-"upgrade_vc_change_my_license" = "Change My License...";
+"upgrade_vc_change_my_license" = "Ändra min licens ...";
 
 /* Hi there 😎\n\nWe're excited you've decided to try us out and we just wanted to say thanks! So, without further ado, let's get started...\n\n❤️ The Strongbox Team ❤️ */
 "onboarding_welcome_to_strongbox_first_run_message_macos" = "Hi there 😎\n\nWe're excited you've decided to try us out and we just wanted to say thanks! So, without further ado, let's get started...\n\n❤️ The Strongbox Team ❤️";
@@ -5087,7 +5087,7 @@
 "upgrade_vc_feature_subtitle_support" = "We're here for you";
 
 /* Compare & Merge */
-"upgrade_vc_feature_compare_and_merge" = "Compare & Merge";
+"upgrade_vc_feature_compare_and_merge" = "Jämför och slå samman";
 
 /* View & Combine Revisions */
 "upgrade_vc_feature_subtitle_compare_and_merge" = "View & Combine Revisions";
@@ -5111,7 +5111,7 @@
 "upgrade_vc_feature_subtitle_favicon_downloader" = "Make your entries stand out";
 
 /* Support Indie Development */
-"upgrade_vc_feature_support_indie" = "Support Indie Development";
+"upgrade_vc_feature_support_indie" = "Stöd indieutveckling";
 
 /* Help us stay awesome! */
 "upgrade_vc_feature_subtitle_support_indie" = "Help us stay awesome!";
@@ -5150,7 +5150,7 @@
 "1password_import_warning_msg" = "The import process isn't perfect and some features of 1Password such as named sections are not available in Strongbox.\n\nIt is important to check that your entries are acceptable after you have imported.";
 
 /* Recycle Bin - The name of the recycle bin, the folder where items go instead of being fully deleted */
-"generic_recycle_bin_name" = "Recycle Bin";
+"generic_recycle_bin_name" = "Papperskorgen";
 
 /* Commit & Close (⌘⏎) */
 "mac_create_or_edit_commit_changes_and_close" = "Commit & Close (⌘⏎)";
@@ -5159,7 +5159,7 @@
 "mac_create_or_edit_commit_close" = "Close (⌘⏎)";
 
 /* Touch ID & Watch Unlock Settings... */
-"nextgen_toolbar_settings_convenience_unlock_ellipsis" = "Touch ID & Watch Unlock Settings...";
+"nextgen_toolbar_settings_convenience_unlock_ellipsis" = "Touch ID och Watch upplåsningsinställningar ...";
 
 /* AutoFill Settings... */
 "nextgen_toolbar_settings_autofill_settings_ellipsis" = "AutoFill Settings...";
@@ -5168,16 +5168,16 @@
 "nextgen_toolbar_settings_encryption_settings_ellipsis" = "Encryption Settings...";
 
 /* Change Master Credentials... */
-"nextgen_toolbar_settings_change_master_credentials_ellipsis" = "Change Master Credentials...";
+"nextgen_toolbar_settings_change_master_credentials_ellipsis" = "Ändra huvudautentiseringsuppgifter ...";
 
 /* Database Settings... */
-"nextgen_toolbar_settings_database_settings_ellipsis" = "Database Settings...";
+"nextgen_toolbar_settings_database_settings_ellipsis" = "Databasinställningar ...";
 
 /* Application Preferences... */
 "nextgen_toolbar_settings_application_preferences_ellipsis" = "Application Preferences...";
 
 /* Settings */
-"generic_settings" = "Settings";
+"generic_settings" = "Inställningar";
 
 /* Excluded Characters */
 "password_gen_vc_prompt_excluded_characters" = "Excluded Characters";
@@ -5207,7 +5207,7 @@
 "nextgen_sync_issue_toast_message" = "Strongbox could not sync...";
 
 /* More... - Used in the UI to indicate a button which you can click on to learn or find out more */
-"generic_more_with_ellipsis" = "More...";
+"generic_more_with_ellipsis" = "Mer ...";
 
 /* Lock Database? */
 "mac_on_window_close_action_title" = "Lock Database?";
@@ -5231,7 +5231,7 @@
 "error_could_not_save_title" = "Error Saving\nWe recommend you try to save again";
 
 /* Sync - L10n - This is a verb - To Synchronize */
-"generic_action_sync" = "Sync";
+"generic_action_sync" = "Synka";
 
 /* Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Sync Log?\n\n%@\n */
 "sync_error_message_including_error_detail_fmt" = "Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Sync Log?\n\n%@\n";
@@ -5318,7 +5318,7 @@
 "safes_vc_import_1password_1pux" = "1Password (1Pux)...";
 
 /* Import */
-"safesvc_import_submenu" = "Import";
+"safesvc_import_submenu" = "Importera";
 
 /* LastPass (CSV) */
 "safes_vc_import_lastpass" = "LastPass (CSV)";
@@ -5330,7 +5330,7 @@
 "are_you_sure_auto_commit_totp_msg" = "Disabling Auto-Commit could mean you lose this TOTP if you forget to commit later. Are you sure?";
 
 /* Close - A generic verb - to Close a popup or dialog */
-"generic_verb_close" = "Close";
+"generic_verb_close" = "Stäng";
 
 /* Discard - A verb - to discard any pending changes that might have been made */
 "generic_verb_discard" = "Discard";
@@ -5342,16 +5342,16 @@
 "password_history_this_password_was_used_until_fmt" = "Used until %@";
 
 /* Previous Passwords - A heading above a list of previously used passwords */
-"password_history_previous_passwords" = "Previous Passwords";
+"password_history_previous_passwords" = "Tidigare lösenord";
 
 /* Turn On Browser AutoFill? */
 "onboarding_autofill_title_turn_on" = "Turn On Browser AutoFill?";
 
 /* Turn On AutoFill */
-"onboarding_autofill_option_turn_on_autofill" = "Turn On AutoFill";
+"onboarding_autofill_option_turn_on_autofill" = "Aktivera Autofyll";
 
 /* No Thanks */
-"generic_no_thanks" = "No Thanks";
+"generic_no_thanks" = "Nej tack";
 
 /* Browser AutoFill is available but currently not turned on. Would you like to enable Browser AutoFill so that you can conveniently and securely login from within your browser? */
 "onboarding_autofill_msg_available_turn_on_question" = "Browser AutoFill is available but currently not turned on. Would you like to enable Browser AutoFill so that you can conveniently and securely login from within your browser?";
@@ -5387,7 +5387,7 @@
 "mac_create_or_edit_save_changes" = "Save (⌘S)";
 
 /* Commit (⌘S) */
-"mac_create_or_edit_commit_changes" = "Commit (⌘S)";
+"mac_create_or_edit_commit_changes" = "Genomför (⌘S)";
 
 /* Hierarchy (%@ Groups, %@ Entries) - L10n Note - The two parameters are numeric, so for example: "23 Groups, 3456 Entries"*/
 "side_bar_hierarchy_folder_structure_summary_count_fmt" = "Hierarchy (%@ Groups, %@ Entries)";
@@ -5405,7 +5405,7 @@
 "side_bar_child_count_format_groups_and_entries_rec" = "Groups and Entries (Recursive)";
 
 /* Items */
-"side_bar_child_count_format_items" = "Items";
+"side_bar_child_count_format_items" = "Objekt";
 
 /* Items (Recursive) */
 "side_bar_child_count_format_items_rec" = "Items (Recursive)";
@@ -5453,13 +5453,13 @@
 "ssh_agent_ssh_key" = "SSH Key";
 
 /* Export... */
-"generic_export_ellipsis" = "Export...";
+"generic_export_ellipsis" = "Exportera ...";
 
 /* Public Key */
 "generic_public_key" = "Public Key";
 
 /* Private Key */
-"generic_private_key" = "Private Key";
+"generic_private_key" = "Privat nyckel";
 
 /* Fingerprint - L10n Note: An SSH Key Fingerprint */
 "ssh_agent_key_fingerprint" = "Fingerprint";
@@ -5515,7 +5515,7 @@
 "nextgen_ui_deprecation_switch_notice" = "You're all set! We recommend restarting Strongbox to enable the new UI.";
 
 /* Password Generator */
-"popout_password_generator" = "Password Generator";
+"popout_password_generator" = "Lösenordsgenerator";
 
 /* verify existing credentials before you can change them - L10n Note: This is a suffix that appears on the Touch ID request dialog on macOS, it is prefixed by system text: "Strongbox is trying to", so ultimately this string will look like: "Strongbox is trying to verify existing credentials before you can change them" */
 "verify_creds_before_changing_bio_message_suffix" = "verify credentials before you can change them";
@@ -5566,34 +5566,34 @@
 "generic_select_items" = "Select Items";
 
 /* Select All */
-"generic_select_all" = "Select All";
+"generic_select_all" = "Markera alla";
 
 /* Print Database */
-"generic_print_database" = "Print Database";
+"generic_print_database" = "Skriv ut databas";
 
 /* Advanced - L10n: Noun - e.g. Advanced Settings */
-"generic_advanced_noun" = "Advanced";
+"generic_advanced_noun" = "Avancerat";
 
 /* AutoFill - L10n: Noun referring to AutoFill Settings */
-"generic_autofill_settings" = "AutoFill";
+"generic_autofill_settings" = "Autofyll";
 
 /* Automatic Locking - L10n: Noun referring to Automatic Locking Settings */
-"generic_auto_lock_settings" = "Automatic Locking";
+"generic_auto_lock_settings" = "Automatisk låsning";
 
 /* Encryption - L10n: Noun referring to Encryption Settings  */
-"generic_encryption_settings" = "Encryption";
+"generic_encryption_settings" = "Kryptering";
 
 /* Easy Read Font on All Fields */
 "item_details_view_settings_easy_read_all" = "Easy Read Font on All Fields";
 
 /* Auto Fetch FavIcon */
-"item_details_view_settings_auto_fetch_favicon" = "Auto Fetch FavIcon";
+"item_details_view_settings_auto_fetch_favicon" = "Hämta favicon automatiskt";
 
 /* Reveal Password Immediately */
-"item_details_view_settings_reveal_password_immediately" = "Reveal Password Immediately";
+"item_details_view_settings_reveal_password_immediately" = "Visa lösenord omedelbart";
 
 /* Colorize Passwords */
-"item_details_view_settings_colorize_passwords" = "Colorize Passwords";
+"item_details_view_settings_colorize_passwords" = "Färglägg lösenord";
 
 /* Sort Custom Fields */
 "item_details_view_settings_sort_custom_fields" = "Sort Custom Fields";
@@ -5614,7 +5614,7 @@
 "details_add_new_ssh_key_ellipsis" = "New SSH Key...";
 
 /* Actions - L10n Note: A noun, e.g a list of actions that can be performed */
-"generic_noun_actions" = "Actions";
+"generic_noun_actions" = "Åtgärder";
 
 /* OK, Don't Remind Me Again */
 "generic_ok_dont_remind_me_again" = "OK, Don't Remind Me Again";
@@ -5626,7 +5626,7 @@
 "sale_view_subscriber_title" = "Subscriber Sale Offer";
 
 /* Sale Now On */
-"sale_view_regular_title" = "Sale Now On";
+"sale_view_regular_title" = "Rea nu";
 
 /* Since you're a Pro subscriber, we'd like to say thank you and offer you a discount on your next renewal */
 "sale_view_subscriber_message" = "Since you're a Pro subscriber, we'd like to say thank you and offer you a discount on your next renewal";
