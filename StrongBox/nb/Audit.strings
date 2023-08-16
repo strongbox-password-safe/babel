@@ -26,7 +26,7 @@
 "Boz-Dy-72k.prompt" = "Sveip til venstre for handlinger";
 
 /* Class = "UINavigationItem"; title = "Excluded Items"; ObjectID = "Boz-Dy-72k"; */
-"Boz-Dy-72k.title" = "Excluded Items";
+"Boz-Dy-72k.title" = "Ekskluderte elementer";
 
 /* Class = "UILabel"; text = "Length"; ObjectID = "Cgs-79-shY"; */
 "Cgs-79-shY.text" = "Lengde";
@@ -56,7 +56,7 @@
 "KZT-Dq-T6O.text" = "Vis sprettoppnotifikasjoner";
 
 /* Class = "UILabel"; text = "Two Factor Available"; ObjectID = "R2g-Xn-5Ms"; */
-"R2g-Xn-5Ms.text" = "Two Factor Available";
+"R2g-Xn-5Ms.text" = "To-faktor tilgjengelig";
 
 /* Class = "UILabel"; text = "Empty Passwords"; ObjectID = "RdE-eX-RFC"; */
 "RdE-eX-RFC.text" = "Tomme passord";
@@ -68,7 +68,7 @@
 "XtZ-t1-tEw.text" = "Sjekk med «Have I Been Pwned?»";
 
 /* Class = "UILabel"; text = "View All Excluded Items"; ObjectID = "Yqg-Rj-6iA"; */
-"Yqg-Rj-6iA.text" = "View All Excluded Items";
+"Yqg-Rj-6iA.text" = "Vis alle ekskluderte elementer";
 
 /* Class = "UILabel"; text = "Once a Day"; ObjectID = "aQm-Q9-VIQ"; */
 "aQm-Q9-VIQ.text" = "En om dagen";
@@ -77,10 +77,10 @@
 "bZW-TB-Oe0.text" = "12";
 
 /* Class = "UILabel"; text = "View All Audit Issues"; ObjectID = "c4g-Lt-LFY"; */
-"c4g-Lt-LFY.text" = "View All Audit Issues";
+"c4g-Lt-LFY.text" = "Vis alle revisjonsproblemer";
 
 /* Class = "UILabel"; text = "Low Entropy Passwords"; ObjectID = "cZE-NH-6Gv"; */
-"cZE-NH-6Gv.text" = "Low Entropy Passwords";
+"cZE-NH-6Gv.text" = "Lave tropiske passord";
 
 /* Class = "UITableViewSection"; footerTitle = "This is an online service that can check your passwords against known compromised passwords from hacker forums and 'pastes'. Compromised password hashes are securely cached by Strongbox to display audit warnings and reduce network traffic.\n\nCaveat: Your passwords are hashed (SHA1) and then using a system called k-anonymization, a short 5-byte prefix is sent to HIBP servers to check if compromised. You may or may not be comfortable with this. Use at your own discretion. You can read more about this system at https://haveibeenpwned.com"; ObjectID = "dPk-gM-4bf"; */
 "dPk-gM-4bf.footerTitle" = "Dette er en tilkoblet tjeneste som sjekker om passordene dine har vært utsatt for lekasjer og spredt på såkalte «hacker»-forum eller «pastes». Kompromitterte passord-«hash»-er er sikkert bufret av Strongbox for å kunne vise advarsler ved sjekk og derfor redusere nettverkstrafikk.\n\nBakside: Passordene dine blir «hashed» (SHA1) og deretter brukes et system kalt «k-anonymity», en kort 5-byte prefiks er sendt til HIBP for å sjekke om passordet er kompromittert. Det kan være at du ikke er komfortabel med denne transaksjonen. Bruk funksjonaliteten etter eget skjønn. Du kan lese mer om systemet på https://haveibeenpwned.com";
@@ -98,13 +98,13 @@
 "hJk-QQ-I4O.text" = "Likhetsterskel";
 
 /* Class = "UILabel"; text = "Entropy Threshold"; ObjectID = "jQT-Me-JuJ"; */
-"jQT-Me-JuJ.text" = "Entropy Threshold";
+"jQT-Me-JuJ.text" = "Entropisk terskelverdi";
 
 /* Class = "UITableViewSection"; footerTitle = "This will check if 2FA (Two Factor Authentication) is available for a domain, and if your entry does not have a TOTP code then indicate that you can set one up."; ObjectID = "pGh-1X-pzL"; */
-"pGh-1X-pzL.footerTitle" = "This will check if 2FA (Two Factor Authentication) is available for a domain, and if your entry does not have a TOTP code then indicate that you can set one up.";
+"pGh-1X-pzL.footerTitle" = "Dette vil sjekke om 2FA (to-faktor autentisering) er tilgjengelig for et domene, og hvis du ikke har en TOTP-kode, indikerer du at du kan sette opp.";
 
 /* Class = "UITableViewSection"; headerTitle = "Two Factor Availability"; ObjectID = "pGh-1X-pzL"; */
-"pGh-1X-pzL.headerTitle" = "Two Factor Availability";
+"pGh-1X-pzL.headerTitle" = "To-faktor tilgjengelighet";
 
 /* Class = "UILabel"; text = "Audit Database"; ObjectID = "qBv-Cx-BWt"; */
 "qBv-Cx-BWt.text" = "Revider database";
@@ -116,10 +116,10 @@
 "r4c-ff-uct.text" = "Fant 12 problemer i 8 oppføringer";
 
 /* Class = "UITableViewSection"; footerTitle = "This check detects passwords that could be regarded as weak, because they do not contain enough complexity. This makes them vulnerable to brute force cracking techniques. This check is completely offline (no network access required)"; ObjectID = "s3w-oN-7UW"; */
-"s3w-oN-7UW.footerTitle" = "This check detects passwords that could be regarded as weak, because they do not contain enough complexity. This makes them vulnerable to brute force cracking techniques. This check is completely offline (no network access required)";
+"s3w-oN-7UW.footerTitle" = "Kontrollen oppdager passord som kan anses som svake, fordi de ikke inneholder nok kompleksitet. Dette gjør dem sårbare for støy knekking av makt. Denne kontrollen er helt frakoblet (ingen nettverkstilgang kreves)";
 
 /* Class = "UITableViewSection"; headerTitle = "Weak (Low Entropy)"; ObjectID = "s3w-oN-7UW"; */
-"s3w-oN-7UW.headerTitle" = "Weak (Low Entropy)";
+"s3w-oN-7UW.headerTitle" = "Svakt («Entropisk»)";
 
 /* Class = "UILabel"; text = "Minimum Length"; ObjectID = "skO-2d-vMa"; */
 "skO-2d-vMa.text" = "Minimumslengde";
