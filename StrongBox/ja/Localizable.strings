@@ -312,13 +312,13 @@
 "browse_prefs_view_as" = "表示方法";
 
 /* Flat List */
-"browse_prefs_view_as_flat_list" = "Entries";
+"browse_prefs_view_as_flat_list" = "項目";
 
 /* Group Hierarchy */
 "browse_prefs_view_as_folders" = "グループ";
 
 /* TOTPs */
-"browse_prefs_view_as_totp_list" = "TOTPs";
+"browse_prefs_view_as_totp_list" = "TOTP";
 
 /* Set Icon */
 "browse_vc_action_set_icon" = "アイコンを設定";
@@ -420,7 +420,7 @@
 "browse_vc_view_as_database_empty" = "エントリーなし";
 
 /* No TOTPs Found */
-"browse_vc_view_as_totp_no_totps" = "No TOTPs Found";
+"browse_vc_view_as_totp_no_totps" = "TOTP が見つかりませんでした";
 
 /* No matching entries found */
 "browse_vc_view_search_no_matches" = "一致するエントリーは見つかりませんでした";
@@ -816,10 +816,10 @@
 "upgrade_vc_price_per_month_fmt" = "%@ / 月";
 
 /* %@/month */
-"upgrade_vc_price_per_year_fmt" = "%@ / year";
+"upgrade_vc_price_per_year_fmt" = "%@ / 年";
 
 /* (Save %@%%) - L10n Note: This is a percentage saved by choosing a yearly subscription over a monthly subscription, it will look like "(Save 56%)" */
-"upgrade_vc_percentage_saving_fmt" = "(Save %@%%)";
+"upgrade_vc_percentage_saving_fmt" = "( %@を保存%%)";
 
 /* %@/month (Save %d%%) */
 "upgrade_vc_price_per_month_with_percentage_saving_fmt" = "%@ / 月 (%d%% の節約)";
@@ -1653,16 +1653,16 @@
 "pwgen_wordlist_swedish" = "スウェーデン語";
 
 /* Game of Thrones */
-"pwgen_wordlist_gameofthrones" = "Game of Thrones";
+"pwgen_wordlist_gameofthrones" = "玉座のゲーム";
 
 /* Harry Potter */
-"pwgen_wordlist_harrypotter" = "Harry Potter";
+"pwgen_wordlist_harrypotter" = "ハリーポッター";
 
 /* Star Trek */
-"pwgen_wordlist_star_trek" = "Star Trek";
+"pwgen_wordlist_star_trek" = "スタートレック";
 
 /* Star Wars */
-"pwgen_wordlist_starwars" = "Star Wars";
+"pwgen_wordlist_starwars" = "スター戦争";
 
 /* Do Not Change */
 "pwgen_casing_do_not_change" = "変更しない";
@@ -2285,7 +2285,7 @@
 
 /* The CSV file must contain a header row with at least one of the following fields:\n\n[%@, %@, %@, %@, %@, %@]\n\nThe order of the fields doesn't matter. */
 
-"mac_csv_file_must_contain_header_and_fields" = "The CSV file must contain a header row with at least one of the following fields:\n\n[%@, %@, %@, %@, %@, %@, %@]\n\nThe order of the fields doesn't matter.";
+"mac_csv_file_must_contain_header_and_fields" = "CSVファイルには、以下のフィールドの少なくとも1つのヘッダ行が含まれている必要があります:\n\n[%@, %@, %@, %@, %@, %@, %@]\n\nフィールドの順序は重要ではありません。";
 
 /* CSV Format */
 "mac_csv_format_info_title" = "CSV フォーマット";
@@ -2834,7 +2834,7 @@
 "keepass_icon_set_classic" = "KeePass クラシック";
 
 /* SF Symbols */
-"keepass_icon_set_sf_symbols" = "SF Symbols";
+"keepass_icon_set_sf_symbols" = "SF記号";
 
 /* Translators Note: 1 parameter here to mention Biometric unlock, which depends on the device (will be either: 'Touch ID Unlock' or 'Face ID Unlock') */
 "upgrade_short_developer_message_fmt" = "こんにちは、私は Mark といいます。Strongbox のディベロッパーです。お知らせしたいことがあります。Strongbox はフリーミアムモデルを採用していますので、無料バージョンとプロバージョンがあります。毎日 Strongbox をご利用いただき、その便利さを実感していただければ幸いです。\n\nアップグレードをご検討されてはいかがですか？アップグレードしていただければ、インディアプリのディベロッパーのサポート、そして継続的な改善の実現に貢献していただけます。\n\nまた、 %@ や PIN コード、FavIcon など、プロバージョン限定の強力な機能もご利用いただけます。\n\n大好きなこのアプリの開発を続けられるのも、皆さまからのご支援のおかげです。\n\nいつも本当にありがとうございます\n-Mark";
@@ -2909,7 +2909,7 @@
 "upgrade_vc_start_your_free_trial_price_free" = "無料";
 
 /* Upgrade (Free Trial Available) */
-"safes_vc_upgrade_info_trial_available_button_title" = "Try Pro free for 3 months";
+"safes_vc_upgrade_info_trial_available_button_title" = "Pro版を3ヶ月無料でお試しください";
 
 /* Would you like to add an entry or a group? */
 "browse_add_group_or_entry_question" = "エントリーまたはグループを追加しますか？";
@@ -2942,10 +2942,10 @@
 "audit_quick_summary_very_brief_low_entropy" = "弱い / エントロピー";
 
 /* 2FA Available - L10n - please keep this as short as possible, "2FA" will probably suffice. The meaning of this string is that Strongbox has discovered the 2 Factor Authentication is available for this entry given it's URL/Domain, but that the user does not have a 2 Factor Code (TOTP) setup within Strongbox */
-"audit_quick_summary_very_brief_two_factor_available" = "2FA Available";
+"audit_quick_summary_very_brief_two_factor_available" = "二段階認証が利用可能です";
 
 /* 2 Factor Authentication is available for this domain. - L10n - The meaning of this string is that Strongbox has discovered the 2 Factor Authentication is available for this entry given it's URL/Domain, but that the user does not have a 2 Factor Code (TOTP) setup within Strongbox */
-"audit_quick_summary_two_factor_available" = "2 Factor Authentication is available for this domain.";
+"audit_quick_summary_two_factor_available" = "2因子認証はこのドメインで利用できます。";
 
 /* Password is weak (low entropy) */
 "audit_quick_summary_password_low_entropy" = "パスワードが脆弱です (低エントロピー)";
@@ -2996,7 +2996,7 @@
 "audit_quick_summary_very_brief_password_is_pwned" = "Pwned (侵害されている)";
 
 /* Password is too short. */
-"audit_quick_summary_password_is_too_short" = "Password is too short";
+"audit_quick_summary_password_is_too_short" = "パスワードが短すぎます";
 
 /* Found %@ issues in %@ entries - Translators note, both parameters are numbers, e.g. 24 issues found in 12 entries */
 "audit_status_fmt" = "%@ 個のエントリーに %@ 個の問題が見つかりました";
@@ -3254,7 +3254,7 @@
 "generic_biometric_unlock_fmt" = "%@ によるロック解除";
 
 /* By Default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok? */
-"backup_settings_prompt_message" = "By default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok?";
+"backup_settings_prompt_message" = "デフォルトでは、Strongbox には、このデバイスの Apple バックアップ内のすべてのローカル ファイル (データベース バックアップを含む) とローカル デバイス データベースが含まれています。 ただし、インポートされたキーファイルはセキュリティ上の理由から明示的には含まれません。\n\nこれらの設定は、環境設定 > 詳細設定 からいつでも変更できます。\n\nこれで大丈夫ですか？";
 
 /* Backup Settings */
 "backup_settings_prompt_title" = "バックアップの設定";
@@ -3674,19 +3674,19 @@
 "diff_drill_down_color_will_change" = "色が変わります。";
 
 /* Color is different. */
-"diff_drill_down_color_is_different" = "Color is different.";
+"diff_drill_down_color_is_different" = "色が異なります。";
 
 /* Database Name is different. */
-"diff_drill_down_database_name_is_different" = "Database Name is different.";
+"diff_drill_down_database_name_is_different" = "データベース名が異なります。";
 
 /* Database Description is different. */
-"diff_drill_down_database_desc_is_different" = "Database Description is different.";
+"diff_drill_down_database_desc_is_different" = "データベースの説明が異なります。";
 
 /* Default Username is different. */
-"diff_drill_down_default_username_is_different" = "Default Username is different.";
+"diff_drill_down_default_username_is_different" = "デフォルトのユーザー名が異なります。";
 
 /* Recycle Bin Enabled state is different." */
-"diff_drill_down_recycle_bin_enabled_is_different" = "Recycle Bin Enabled state is different.";
+"diff_drill_down_recycle_bin_enabled_is_different" = "ごみ箱有効状態が異なります。";
 
 /* Database Name will change. */
 "diff_drill_down_database_name_will_change" = "データベース名が変わります。";
@@ -3848,7 +3848,7 @@
 "generic_pro_feature_only_please_upgrade" = "Pro版のみ。アップグレードしてください。";
 
 /* Merge Preview */
-"diff_nav_title_comparison_title" = "Merge Preview"; // "Comparison Results";
+"diff_nav_title_comparison_title" = "統合プレビュー"; // "Comparison Results";
 
 /* Compare Partially Supported */
 "diff_compare_partially_supported_title" = "一部サポートされているものを比較";
@@ -3890,7 +3890,7 @@
 "model_error_could_not_write_local_merge" = "技術エラー - 比較/マージ用にローカル・コピーを書き込めませんでした。";
 
 /* Cannot merge in background or without key. */
-"model_error_cannot_merge_in_background" = "Cannot merge without credentials or in Background Sync mode. You must now do an Online Sync to resolve this conflict.";
+"model_error_cannot_merge_in_background" = "資格情報なしまたはバックグラウンド同期モードではマージできません。この競合を解決するにはオンライン同期を行う必要があります。";
 
 /* Are you sure you want to always Auto-Merge when you have a Sync Conflict like this? */
 "sync_are_you_sure_always_auto_merge" = "同期の競合が発生した場合でも、常に自動マージを実行しますか?";
@@ -3902,7 +3902,7 @@
 "merge_are_you_sure_less_than_ideal_format" = "ご使用のデータベース・フォーマットは、拡張同期機能 ( KeePass 2 で使用可能) をサポートしていません。 つまり、マージは完璧に行われない可能性があります。\n\nマージを続行しますか?";
 
 /* Database Refreshed */
-"browse_vc_pulldown_refresh_updated_title" = "Database Updated";
+"browse_vc_pulldown_refresh_updated_title" = "データベースを更新しました";
 
 /* Error Refreshing */
 "browse_vc_pulldown_refresh_error_title" = "更新エラー";
@@ -3941,7 +3941,7 @@
 "open_sequence_yes_use_local_copy_option" = "はい、オフラインで開きます";
 
 /* Open Offline */
-"open_sequence_use_local_copy_option" = "Open Offline";
+"open_sequence_use_local_copy_option" = "オフラインで開く";
 
 /* Open Offline (Read-Only) */
 "open_sequence_use_local_copy_option_ro" = "オフラインで開く (読み取り専用)";
@@ -4017,7 +4017,7 @@
 "preference_allow_watch_unlock" = "ウォッチによるロック解除";
 
 /* Watch Unlock - (Enable in System Settings > Touch ID & Password) */
-"preference_allow_watch_unlock_system_disabled" = "Watch Unlock - (Enable in System Settings > Touch ID & Password)";
+"preference_allow_watch_unlock_system_disabled" = "<unk> Watch ロック解除 - (システム設定 > Touch ID & Passwordで有効)";
 
 /* No Cloud Session Found */
 "cloud_sessions_prompt_no_session_found" = "クラウドセッションは見つかりませんでした";
@@ -4633,25 +4633,25 @@
 "import_successful_title" = "インポート成功";
 
 /* Your import was successful! Now, let's set a strong master password and save your new Strongbox database. */
-"import_successful_message" = "Your import was successful! Now, let's set a strong master password and save your new Strongbox database.";
+"import_successful_message" = "インポートに成功しました！強力なマスターパスワードを設定し、新しいStrongboxデータベースを保存しましょう。";
 
 /* Are you sure you want to clear the TOTP for this entry? */
-"are_you_sure_clear_totp" = "Are you sure you want to clear the TOTP for this entry?";
+"are_you_sure_clear_totp" = "このエントリのTOTPをクリアしてもよろしいですか？";
 
 /* Date Created (Precise) */
-"databases_preferences_subtitle_field_name_create_date_precise" = "Date Created (Precise)";
+"databases_preferences_subtitle_field_name_create_date_precise" = "作成された日付 (プレシス)";
 
 /* Hardware Slot %@ (Touch Required) - (Translators Note: Some YubiKey devices/configurations require the user to touch or press a button to authenticate. This string also takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_touch_required_fmt" = "Hardware Key Slot %@ (Touch Required)";
+"mac_yubikey_slot_n_touch_required_fmt" = "Hardware Key Slot %@ (タッチが必要)";
 
 /* Hardware Slot %@ (Translators Note: This string takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
 "mac_yubikey_slot_n_fmt" = "Hardware Key Slot %@";
 
 /* No Hardware Keys Found */
-"mac_no_yubikeys_found" = "No Hardware Keys Found";
+"mac_no_yubikeys_found" = "ハードウェアキーが見つかりません";
 
 /* Hardware Key found but no compatible HMACSHA1 slots available */
-"mac_yubikey_available_but_no_compatible_slots" = "Hardware Key found but no compatible HMACSHA1 slots available";
+"mac_yubikey_available_but_no_compatible_slots" = "ハードウェアキーが見つかりましたが、互換性のある HMACSHA1 スロットは利用できません";
 
 /* Hardware Key %@ Slot %@ (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
 "mac_yubikey_serial_number_slot_n_touch_required_fmt2" = "Hardware Key %@ Slot %@ (Touch Required)";
@@ -4661,118 +4661,118 @@
 
 
 /* None (%@ Available) - L10n Guide: The 1st parameter is the number of detected hardware key/slots, but None have been selected by the user */
-"mac_hardware_key_dropdown_n_available_fmt" = "None (%@ Available)";
+"mac_hardware_key_dropdown_n_available_fmt" = "なし (%@ 利用可能)";
 
 /* None (No Keys Detected) - L10n Guide: This means no hardware key is selected and none have been detected */
-"mac_hardware_key_dropdown_none_no_keys_detected" = "None (No Keys Detected)";
+"mac_hardware_key_dropdown_none_no_keys_detected" = "なし (キーが検出されません)";
 
 /* 🔴 Configured Key [CR Unavailable] - L10n Guide: A hardware key has been previously configured/setup by the user for this database but the Challenge Response functionality is not available, probably by error or user mistake */
-"mac_hardware_key_key_configured_but_cr_unavailable" = "🔴 Configured Key [CR Unavailable]";
+"mac_hardware_key_key_configured_but_cr_unavailable" = "🔴 キーの設定 [CR Unavailable]";
 
 /* ⚠️ Disconnected Key (Configured) - L10n Guide: A hardware key has been previously configured/setup by the user for this database but it is not currently connected to the mac/iphone */
-"mac_hardware_key_key_configured_but_disconnected" = "⚠️ Disconnected Key (Configured)";
+"mac_hardware_key_key_configured_but_disconnected" = "⚠️ 切断されたキー (設定済み)";
 
 /* Connected Key Slot %@ (Configured) - L10n Guide: A hardware key has been previously configured/setup by the user for this database and it is also connected. The 1st parameter is slot number the user has configured. It will be '1' or '2'.  */
-"mac_hardware_key_configured_and_connected_slot_n_fmt" = "Connected Key Slot %@ (Configured)";
+"mac_hardware_key_configured_and_connected_slot_n_fmt" = "接続済みキースロット %@ (設定済み)";
 
 /* Connected Key Slot %@ - L10n Guide: A hardware key is connected. The 1st parameter is slot number that is available for use. It will be '1' or '2'.  */
 "mac_hardware_key_connected_slot_n_fmt" = "Connected Key Slot %@";
 
 /* ⚠️ Selected Key (Disconnected) - L10n Guide: The user previously selected a hardware key from the dropdown, but it has now been disconnected. */
-"mac_hardware_key_selected_but_has_been_disconnected" = "⚠️ Selected Key (Disconnected)";
+"mac_hardware_key_selected_but_has_been_disconnected" = "⚠️ 選択されたキー（切断）";
 
 /* AutoFill Issue */
-"autofill_argon2_onboarding_issue_title" = "AutoFill Issue";
+"autofill_argon2_onboarding_issue_title" = "問題を自動入力";
 
 /* Your database has a very high Argon2 memory setting that will cause it to crash when used in AutoFill mode.\n\nWould you like Strongbox to automatically adjust this so that you can safely use AutoFill? */
-"autofill_argon2_onboarding_issue_message" = "Your database has a very high Argon2 memory setting that will cause it to crash when used in AutoFill mode.\n\nWould you like Strongbox to automatically adjust this so that you can safely use AutoFill?";
+"autofill_argon2_onboarding_issue_message" = "データベースには、AutoFillモードで使用するとクラッシュする非常に高いArgon2メモリ設定があります。\n\n安全にオートフィルを使用できるように、Strongbox に自動調整してもらいますか?";
 
 /* Yes, Great Idea! */
-"generic_yes_great_idea_bang" = "Yes, Great Idea!";
+"generic_yes_great_idea_bang" = "はい、素晴らしいアイデア！";
 
 /* No, I don't use AutoFill */
-"autofill_argon2_onboarding_no_use_autofill" = "No, I don't use AutoFill";
+"autofill_argon2_onboarding_no_use_autofill" = "いいえ、オートフィルは使っていません";
 
 /* Dont't Ask Again */
-"generic_dont_ask_again" = "Don't Ask Again";
+"generic_dont_ask_again" = "今後確認しない";
 
 /* Not Right Now */
-"generic_not_right_now" = "Not Right Now";
+"generic_not_right_now" = "今は正しくありません";
 
 /* Database Upgrade */
-"kdbx4_upgrade_onboarding_issue_title" = "Database Upgrade";
+"kdbx4_upgrade_onboarding_issue_title" = "データベースのアップグレード";
 
 /* Your database is using an old format (KDBX 3.1). The new format (KDBX 4.x) offers security improvements, performance enhancements and should also reduce the size of your database.\n\nWould you like Strongbox to automatically upgrade your database now? */
-"kdbx4_upgrade_onboarding_issue_message" = "Your database is using an old format (KDBX 3.1). The new format (KDBX 4.x) offers security improvements, performance enhancements and should also reduce the size of your database.\n\nWould you like Strongbox to automatically upgrade your database now?";
+"kdbx4_upgrade_onboarding_issue_message" = "データベースは古い形式(KDBX 3.1)を使用しています。 ) セキュリティの強化、パフォーマンスの向上、データベースのサイズを小さくすることもできます。\n\n今すぐStrongboxにデータベースをアップグレードさせますか？";
 
 /* Import 1Password */
-"safes_vc_import_1password" = "Import 1Password";
+"safes_vc_import_1password" = "1Password をインポート";
 
 /* Generic CSV... */
 "safes_vc_import_csv" = "Generic CSV...";
 
 /* Strongbox can import 1Pif files from 1Password. Tap OK to select your exported 1Pif file. */
-"safes_vc_import_1password_message" = "Strongbox can import 1Pif files from 1Password. Tap OK to select your exported 1Pif file.";
+"safes_vc_import_1password_message" = "Strongbox は 1Password から 1Pif ファイルをインポートできます。OK をタップしてエクスポートした 1Pif ファイルを選択します。";
 
 /* Read Only Unavailable */
-"read_only_unavailable_title" = "Read Only Unavailable";
+"read_only_unavailable_title" = "読み取り専用が利用できません";
 
 /* You currently have changes pending and so you cannot switch to Read Only mode. You must save or discard your current changes first. */
-"read_only_unavailable_pending_changes_message" = "You currently have changes pending and so you cannot switch to Read Only mode. You must save or discard your current changes first.";
+"read_only_unavailable_pending_changes_message" = "現在保留中の変更があるため、読み取り専用モードに切り替えることはできません。最初に現在の変更を保存または破棄する必要があります。";
 
 /* Your database is in Read Only mode and cannot be updated. */
-"warn_database_is_ro_no_update" = "Your database is in Read Only mode and cannot be updated.";
+"warn_database_is_ro_no_update" = "データベースは読み取り専用モードになっているため、更新できません。";
 
 /* Quitting - Finishing Sync... */
-"macos_quitting_finishing_sync" = "Quitting - Finishing Sync...";
+"macos_quitting_finishing_sync" = "終了中 - 同期が完了しています...";
 
 /* More */
-"safesvc_more_submenu" = "More";
+"safesvc_more_submenu" = "もっと見る";
 
 /* Please Enter a New Word Separator */
-"mac_password_gen_enter_new_separator" = "Please Enter a New Word Separator";
+"mac_password_gen_enter_new_separator" = "新しい単語区切り文字を入力してください";
 
 /* AutoFill is only available on macOS Big Sur+ */
-"autofill_app_preferences_only_avail_big_sur" = "AutoFill is only available on macOS Big Sur+";
+"autofill_app_preferences_only_avail_big_sur" = "AutoFill は macOS Big Sur+ でのみ利用できます";
 
 /* ✅ Strongbox is enabled for Password AutoFill */
-"strongbox_is_enabled_for_autofill" = "✅ Strongbox is enabled for Password AutoFill";
+"strongbox_is_enabled_for_autofill" = "✅ パスワード自動入力でストロングボックスが有効になります";
 
 /* ⭐️ Wow ⭐️ */
-"tip_purchased_title" = "⭐️ Wow ⭐️";
+"tip_purchased_title" = "⭐Wow ⭐";
 
 /* \n❤️ Thank you so much ❤️\n\nSending good vibes your way from everyone at Strongbox HQ! */
-"tip_purchased_message" = "\n❤️ Thank you so much ❤️\n\nSending good vibes your way from everyone at Strongbox HQ!";
+"tip_purchased_message" = "\n❤️ 本当にありがとうございました。 ❤️\n\nStrongbox HQで皆さんから良いバイブを送ります！";
 
 /* There was an error adding this item as an Attachment */
-"edit_item_could_not_add_item_as_attachment" = "There was an error adding this item as an Attachment";
+"edit_item_could_not_add_item_as_attachment" = "添付ファイルとしてこのアイテムを追加中にエラーが発生しました";
 
 /* Invalid Attachment Name */
-"invalid_attachment_name" = "Invalid Attachment Name";
+"invalid_attachment_name" = "無効な添付ファイル名";
 
 /* The attachment name must not be empty */
-"attachment_name_must_not_be_empty" = "The attachment name must not be empty";
+"attachment_name_must_not_be_empty" = "添付ファイル名は空にできません";
 
 /* That attachment name is already used */
-"attachment_name_already_exists" = "That attachment name is already in use by another attachment";
+"attachment_name_already_exists" = "その添付ファイル名は既に別の添付ファイルで使用されています";
 
 /* Are you sure you want to delete the selected attachment(s)? */
-"are_you_sure_delete_attachment_s" = "Are you sure you want to delete the selected attachment(s)?";
+"are_you_sure_delete_attachment_s" = "選択した添付ファイルを削除してもよろしいですか？";
 
 /* Are you sure you want to delete the selected field(s)? */
-"are_you_sure_delete_custom_field_s" = "Are you sure you want to delete the selected field(s)?";
+"are_you_sure_delete_custom_field_s" = "選択したフィールドを削除してもよろしいですか？";
 
 /* Found TOTP Code in '%@' Window - Localization Note: The parameter here is an App name like "Firefox" or "Safari" */
-"found_totp_code_in_x_window_fmt" = "Found TOTP Code in '%@' Window";
+"found_totp_code_in_x_window_fmt" = "「%@」ウィンドウにTOTPコードが見つかりました";
 
 /* Randomly Generated */
-"menu_item_header_randomly_generated_suggestions" = "Randomly Generated";
+"menu_item_header_randomly_generated_suggestions" = "ランダムに生成";
 
 /* Most Used */
 "menu_item_header_most_used_suggestions" = "最も多用されている";
 
 /* Are you sure you want to clear the expiry for this entry? */
-"are_you_sure_clear_expiry" = "Are you sure you want to clear the expiry for this entry?";
+"are_you_sure_clear_expiry" = "このエントリの有効期限をクリアしてもよろしいですか？";
 
 /* paste-at-%@.png - L10n Note: The first parameter is a timestamp, so the string will look like: "paste-at-20220113_165952_523.png" */
 "pasted_image_attachment_at_time_filename_png_fmt" = "paste-at-%@.png";
@@ -4781,217 +4781,217 @@
 "side_bar_hierarchy_folder_structure" = "階層";
 
 /* Discard Changes */
-"discard_changes" = "Discard Changes";
+"discard_changes" = "変更を破棄";
 
 /* Create Group */
 "create_group" = "グループを作成";
 
 /* Edit Entry */
-"edit_entry" = "Edit Entry";
+"edit_entry" = "エントリを編集";
 
 /* Create Entry */
 "create_entry" = "エントリーを作成";
 
 /* Tidy Up Field? */
-"field_tidy_title_tidy_up_field" = "Tidy Up Field?";
+"field_tidy_title_tidy_up_field" = "フィールドを上に向けますか？";
 
 /* There are some blank characters (e.g. spaces, tabs) at the start or end of this field.\n\nShould Strongbox tidy up these extraneous characters? */
-"field_tidy_message_tidy_up_field" = "There are some blank characters (e.g. spaces, tabs) at the start or end of this field.\n\nShould Strongbox tidy up these extraneous characters?";
+"field_tidy_message_tidy_up_field" = "このフィールドの先頭または末尾には空白の文字 (スペース、タブなど) がいくつかあります。\n\nこれらの無関係な文字を整理する必要がありますか？";
 
 /* Tidy Up */
 "field_tidy_choice_tidy_up_field" = "Tidy Up";
 
 /* Don't Tidy */
-"field_tidy_choice_dont_tidy" = "Don't Tidy";
+"field_tidy_choice_dont_tidy" = "うるさくない";
 
 /* Location - The location of an item, e.g. Location = /Group-1/Group-2/ */
-"generic_fieldname_location" = "Location";
+"generic_fieldname_location" = "場所";
 
 /* Extimated Size - This is memory/file size in bytes/KB/MB consumed by a particular entry e.g. Estimated Size= 64KB*/
-"generic_fieldname_estimated_size" = "Estimated Size";
+"generic_fieldname_estimated_size" = "推定サイズ";
 
 /* Historical Item Count - This is number of previous copies/older copies of this entry we have */
-"generic_fieldname_historical_item_count" = "Historical Item Count";
+"generic_fieldname_historical_item_count" = "過去のアイテム数";
 
 /* Custom Icon */
-"generic_fieldname_custom_icon" = "Custom Icon";
+"generic_fieldname_custom_icon" = "カスタムアイコン";
 
 /* ID - L10n Note: This is the unique id (identifier/uuid) of an item, usually a long string like 5E7CBED9D6D14AF38BB6FE4B9CF1CF64 */
 "generic_fieldname_id" = "ID";
 
 /* URLs - L10n Note: Plural of URL */
-"generic_fieldname_urls" = "URLs";
+"generic_fieldname_urls" = "URL";
 
 /* Copy - L10n Note: This is a verb, to copy an item/string/field to the clipboard */
 "generic_action_verb_copy_to_clipboard" = "コピー";
 
 /* Copy - L10n Note: This is a verb, to copy the field name (e.g. if there is a field: Custom-Field-1="value", then this would copy "Custom-Field-1" to the clipboard */
-"generic_action_verb_copy_field_name_to_clipboard" = "Copy Field Name";
+"generic_action_verb_copy_field_name_to_clipboard" = "フィールド名をコピー";
 
 /* Spell Out - L10n: To have Strongbox spell out through the speech synthesizer, character by character a field */
-"generic_action_verb_spell_out_field" = "Spell Out";
+"generic_action_verb_spell_out_field" = "スペルアウト";
 
 /* Speak - L10n: To have Strongbox speak a item field (e.g. password) through the speech synthesizer */
-"generic_action_verb_speak_field" = "Speak";
+"generic_action_verb_speak_field" = "話す";
 
 /* Launch URL - L10n: An action/verb, to launch a URL */
-"generic_action_verb_launch_url" = "Launch URL";
+"generic_action_verb_launch_url" = "起動URL";
 
 /* Show QR Code */
 "generic_action_show_qr_code" = "QR コードを表示";
 
 /* Show Large Text View */
-"generic_action_show_large_text_view" = "Show Large Text View";
+"generic_action_show_large_text_view" = "大きなテキストビューを表示";
 
 /* Preview Attachment */
-"generic_action_preview_attachment" = "Preview Attachment";
+"generic_action_preview_attachment" = "添付ファイルをプレビュー";
 
 /* Export Attachment */
-"generic_action_export_attachment" = "Export Attachment";
+"generic_action_export_attachment" = "添付ファイルをエクスポート";
 
 /* Reveal - L10n: Verb, to reveal a concealed field e.g. a password */
-"generic_action_reveal" = "Reveal";
+"generic_action_reveal" = "表示する";
 
 /* Conceal - L10n: Verb, to conceal a revealed field e.g. a password */
 "generic_action_conceal" = "Conceal";
 
 /* Copy Filename */
-"generic_action_copy_filename" = "Copy Filename";
+"generic_action_copy_filename" = "ファイル名をコピー";
 
 /* Field Name */
-"generic_field_name" = "Field Name";
+"generic_field_name" = "フィールド名";
 
 /* No Selection */
-"detail_view_no_selection_header" = "No Selection";
+"detail_view_no_selection_header" = "選択なし";
 
 /* Multiple Items */
-"detail_view_multiple_items_selected_header" = "Multiple Items";
+"detail_view_multiple_items_selected_header" = "複数のアイテム";
 
 /* Select an Item */
-"detail_view_no_selection_message" = "Select an Item";
+"detail_view_no_selection_message" = "アイテムを選択";
 
 /* %@ Items Selected */
-"detail_view_no_multiple_items_selected_message_fmt" = "%@ Items Selected";
+"detail_view_no_multiple_items_selected_message_fmt" = "%@ 項目が選択されました";
 
 /* Toggle Details Panel - L10n shows or hides the right hand side details view panel */
-"nextgen_toolbar_item_toggle_details_panel" = "Toggle Details Panel";
+"nextgen_toolbar_item_toggle_details_panel" = "詳細パネルの切り替え";
 
 /* Toggle Sidebar - L10n shows or hides the left hand side bar navigation panel */
-"nextgen_toolbar_item_toggle_sidebar" = "Toggle Sidebar";
+"nextgen_toolbar_item_toggle_sidebar" = "サイドバーの切り替え";
 
 /* Recycle Items - This is a verb/action - Recycle the selected items, sending them to the Recycle Bin */
-"generic_recycle_items" = "Recycle Items";
+"generic_recycle_items" = "アイテムをリサイクルする";
 
 /* Recycle Item - This is a verb/action - Recycle the selected item, sending it to the Recycle Bin  */
-"generic_recycle_item" = "Recycle Item";
+"generic_recycle_item" = "リサイクルアイテム";
 
 /* Show Details Panel */
-"main_menu_show_details_panel" = "Show Details Panel";
+"main_menu_show_details_panel" = "詳細パネルを表示";
 
 /* Hide Details Panel */
-"main_menu_hide_details_panel" = "Hide Details Panel";
+"main_menu_hide_details_panel" = "詳細パネルを隠す";
 
 /* %@ (%@ / %@ bits / %@) - L10n Note: 1st Param is the strength category (weak/strong/mediocre, etc). 2nd Param is the number of characters in the password. 3rd parameter is the number of bits of entropy, with 1 decimal place, so "92.3". 4th parameter is the estimated time it will take to crack this password, so "1 million years" */
-"password_strength_summary_char_count_fmt" = "%@ (%@ / %@ bits / %@)";
+"password_strength_summary_char_count_fmt" = "%@ (%@ / %@ bit / %@)";
 
 /* %@ (%@ bits / %@) - L10n Note: 1st Param is the strength category (weak/strong/mediocre, etc). 2nd parameter is the number of bits of entropy, with 1 decimal place, so "92.3". 3rd parameter is the estimated time it will take to crack this password, so "1 million years"*/
 "password_strength_summary_fmt" = "%@ (%@ bits / %@)";
 
 /* %@ characters - 1st param is a simple integer like 22 so e.g. "22 characters" */
-"num_of_characters_fmt" = "%@ characters";
+"num_of_characters_fmt" = "%@ 文字";
 
 /* %@ bits - 1st param is a number like 36.2 so e.g. "36.2 bits" */
-"num_of_bits_fmt" = "%@ bits";
+"num_of_bits_fmt" = "%@ ビット";
 
 /* Exclude Item from Audit */
-"exclude_item_from_audit" = "Exclude Item from Audit";
+"exclude_item_from_audit" = "監査から項目を除外";
 
 /* Check with 'Have I Been Pwned?' */
-"check_field_with_hibp" = "Check with 'Have I Been Pwned?'";
+"check_field_with_hibp" = "「私はPwnedされたことがありますか？」を確認してください。";
 
 /* Pro - A short tag / text that will appear beside Pro features in a badge like fashion - keep v short if possible */
 "pro_badge_text" = "プロ";
 
 /* New Tag... */
-"new_tag_ellipsis" = "New Tag...";
+"new_tag_ellipsis" = "新しいタグ...";
 
 /* Add Tag to Item(s) */
-"add_tag_to_items" = "Add Tag to Item(s)";
+"add_tag_to_items" = "アイテムにタグを追加";
 
 /* Remove Tag from Item(s) */
-"remove_tag_from_items" = "Remove Tag from Item(s)";
+"remove_tag_from_items" = "アイテムからタグを削除";
 
 /* All Issues */
-"audit_side_bar_nav_all_issues" = "All Issues";
+"audit_side_bar_nav_all_issues" = "すべての課題";
 
 /* There are some blank characters (e.g. spaces, tabs) at the start or end of your password.\n\nShould Strongbox tidy up these extraneous characters? */
-"field_tidy_message_tidy_up_password" = "There are some blank characters (e.g. spaces, tabs) at the start or end of your password.\n\nShould Strongbox tidy up these extraneous characters?";
+"field_tidy_message_tidy_up_password" = "パスワードの先頭または末尾に空白の文字 (スペース、タブなど) がいくつかあります。\n\nStrongbox はこれらの無関係な文字を整理する必要がありますか？";
 
 /* Fun */
-"custom_app_icon_category_fun" = "Fun";
+"custom_app_icon_category_fun" = "楽しい";
 
 /* Utilities */
-"custom_app_icon_category_utilities" = "Utilities";
+"custom_app_icon_category_utilities" = "ユーティリティ";
 
 /* Default */
 "custom_app_icon_category_default" = "デフォルト";
 
 /* Are you sure you want to reset to the default App Icon? */
-"are_you_sure_reset_to_default_app_icon" = "Are you sure you want to reset to the default App Icon?";
+"are_you_sure_reset_to_default_app_icon" = "デフォルトのアプリアイコンにリセットしてもよろしいですか？";
 
 /* This icon is only available for Pro users. */
-"custom_app_icon_pro_only" = "This icon is only available for Pro users.";
+"custom_app_icon_pro_only" = "このアイコンはProユーザーのみ利用できます。";
 
 /* Pro Version %@ */
 "about_strongbox_pro_version_fmt" = "Pro Version %@";
 
 /* Version %@ */
-"about_strongbox_free_version_fmt" = "Version %@";
+"about_strongbox_free_version_fmt" = "バージョン %@";
 
 /* Lifetime Pro */
-"pro_status_lifetime_pro" = "Lifetime Pro";
+"pro_status_lifetime_pro" = "ライフタイムプロ";
 
 /* Lifetime Pro (In-App Purchase) */
-"pro_status_lifetime_pro_iap" = "Lifetime Pro (In-App Purchase)";
+"pro_status_lifetime_pro_iap" = "Lifetimeプロ（アプリ内購入）";
 
 /* Pro (Yearly subscription) */
-"pro_status_yearly_pro" = "Pro (Yearly subscription)";
+"pro_status_yearly_pro" = "Pro (年間サブスクリプション)";
 
 /* Pro (Monthly subscription) */
-"pro_status_monthly_pro" = "Pro (Monthly subscription)";
+"pro_status_monthly_pro" = "Pro (月額サブスクリプション)";
 
 /* Free Trial (%@ days left) */
-"pro_status_free_trial_days_left_fmt" = "Free Trial (%@ days left)";
+"pro_status_free_trial_days_left_fmt" = "無料体験版 (%@ 日残り)";
 
 /* Unlicensed (Please Upgrade) */
-"pro_status_unlicensed_please_upgrade" = "Unlicensed (Please Upgrade)";
+"pro_status_unlicensed_please_upgrade" = "ライセンスされていない（アップグレードしてください）";
 
 /* Unlicensed */
-"pro_status_unlicensed" = "Unlicensed";
+"pro_status_unlicensed" = "ライセンスなし";
 
 /* Unsupported by Database Format */
-"unsupported_by_database_format" = "Unsupported by Database Format";
+"unsupported_by_database_format" = "データベース形式でサポートされていません";
 
 /* Include in Audit */
-"action_include_in_audit" = "Include in Audit";
+"action_include_in_audit" = "監査に含める";
 
 /* Exclude from Audit */
-"action_exclude_from_audit" = "Exclude from Audit";
+"action_exclude_from_audit" = "監査から除外";
 
 /* [Database] Title (Username) */
-"quick_type_format_database_title_username" = "[Database] Title (Username)";
+"quick_type_format_database_title_username" = "[Database] タイトル (ユーザー名)";
 
 /* [Database] Title */
-"quick_type_format_database_title" = "[Database] Title";
+"quick_type_format_database_title" = "[Database] タイトル";
 
 /* [Database] Username */
-"quick_type_format_database_username" = "[Database] Username";
+"quick_type_format_database_username" = "[Database] ユーザー名";
 
 /* New UI Available */
-"new_ui_available_title" = "New UI Available";
+"new_ui_available_title" = "新しいUIが利用可能です";
 
 /* Would you like to use our latest new and improved \"NextGen\" UI?\n\nWe think you'll like it! */
-"new_ui_available_message" = "Would you like to use our latest new and improved \"NextGen\" UI?\n\nWe think you'll like it!";
+"new_ui_available_message" = "最新の改良版「NextGen」UIをご利用になりませんか？\n\n気に入ると思います！";
 
 /* Ask Me Later */
 "generic_ask_me_later" = "後で確認する";
@@ -5000,52 +5000,52 @@
 "verb_lock_database" = "データベースをロック";
 
 /* Are you sure you want to delete this tag? */
-"are_you_sure_delete_tag_message" = "Are you sure you want to delete this tag?";
+"are_you_sure_delete_tag_message" = "このタグを削除してもよろしいですか？";
 
 /* Rename Tag */
-"action_rename_tag" = "Rename Tag";
+"action_rename_tag" = "タグの名前を変更";
 
 /* Merge In or Synchronize? */
-"compare_merge_merge_or_synchronize_title" = "Merge In or Synchronize?";
+"compare_merge_merge_or_synchronize_title" = "統合または同期";
 
 /* A 'Merge In' merges changes into the first database only. A 'Synchronize' also updates the second database to match. */
-"compare_merge_merge_or_synchronize_message" = "A 'Merge In' merges changes into the first database only. A 'Synchronize' also updates the second database to match.";
+"compare_merge_merge_or_synchronize_message" = "'Merge In' は、最初のデータベースにのみ変更をマージします。'Synchronize' は、一致するように2番目のデータベースを更新します。";
 
 /* Merge In Only (Update First) */
-"compare_merge_merge_or_synchronize_option_merge" = "Merge In Only (Update First)";
+"compare_merge_merge_or_synchronize_option_merge" = "マージインのみ（最初にアップデート）";
 
 /* Synchronize (Update Both) */
-"compare_merge_merge_or_synchronize_option_synchronize" = "Synchronize (Update Both)";
+"compare_merge_merge_or_synchronize_option_synchronize" = "同期（両方ともアップデート）";
 
 /* Audit Exclusion State (Quality Check) will change. */
-"diff_drill_down_audit_exclusion_will_change" = "Audit Exclusion State (Quality Check) will change.";
+"diff_drill_down_audit_exclusion_will_change" = "監査除外状態(品質チェック)は変更されます。";
 
 /* Audit Exclusion State (Quality Check) is different. */
-"diff_drill_down_audit_exclusion_are_different" = "Audit Exclusion State (Quality Check) is different.";
+"diff_drill_down_audit_exclusion_are_different" = "監査除外状態(品質チェック)が異なります。";
 
 /* Cannot Merge because your database is Read-Only */
-"merge_cannot_merge_because_read_only" = "Cannot Merge because your database is Read-Only";
+"merge_cannot_merge_because_read_only" = "データベースが読み取り専用なのでマージできません";
 
 /* Cannot Sort by Title */
-"browse_cannot_sort_by_title_title" = "Cannot Sort by Title";
+"browse_cannot_sort_by_title_title" = "タイトルではソートできません";
 
 /* You cannot sort by Title here because you have disabled sorting in Database Settings. */
-"browse_cannot_sort_by_title_message" = "You cannot sort by Title here because you have disabled sorting in Database Settings.";
+"browse_cannot_sort_by_title_message" = "データベース設定でソートを無効にしているため、タイトルでソートできません。";
 
 /* You need to re-add your OneDrive database due to a Microsoft SDK update. Tap OK, and select your OneDrive database to get started... */
-"onedrive_readd_required" = "You need to re-add your OneDrive database due to a Microsoft SDK update.\n\nTap OK, and select your OneDrive database to get started...";
+"onedrive_readd_required" = "Microsoft SDKの更新により、OneDriveデータベースを再追加する必要があります。\n\nformat@@1 をタップして、OneDriveデータベースを選択して開始...";
 
 /* Apply Changes */
-"generic_apply_changes" = "Apply Changes";
+"generic_apply_changes" = "変更を適用";
 
 /* Pop Out Details - L10n Note: A user can "Pop Out" a Details window, which is usually embedded in a frame. Popping it out means it can be moved around independently of the main App window */
-"action_verb_popout_details_window" = "Pop Out Details";
+"action_verb_popout_details_window" = "ポップアウトの詳細";
 
 /* Float on Top - L10n Note: This is when a user can PIN a window, or make it float on top of other windows */
-"window_toggle_float_on_top" = "Float on Top";
+"window_toggle_float_on_top" = "上部にフロート表示";
 
 /* Notes (Partially) Copied */
-"mac_notes_partially_copied_to_clipboard" = "Notes (Partially) Copied";
+"mac_notes_partially_copied_to_clipboard" = "ノート（一部）をコピーしました";
 
 /* Change My License... */
 "upgrade_vc_change_my_license" = "ライセンスの変更...";
@@ -5054,118 +5054,118 @@
 "onboarding_welcome_to_strongbox_first_run_message_macos" = "Hi there 😎\n\nWe're excited you've decided to try us out and we just wanted to say thanks! So, without further ado, let's get started...\n\n❤️ The Strongbox Team ❤️";
 
 /* Then %@ every year - L10n Note: The 1srt parameter is a price like "£12.99" - It is placed below a button that says "Redeem Your 90 Free Days" - So when they click that button they get 90 day free trial, then they pay £12.99 per year when the trial is over  */
-"price_per_year_after_free_trial_fmt" = "Then %@ every year";
+"price_per_year_after_free_trial_fmt" = "その後、毎年 %@";
 
 /* Upgrade to Pro */
-"generic_upgrade_to_pro" = "Upgrade to Pro";
+"generic_upgrade_to_pro" = "Pro版にアップグレード";
 
 /* Upgrade to Strongbox Pro and enjoy all these great features */
-"upgrade_body_text" = "Upgrade to Strongbox Pro and enjoy all these great features";
+"upgrade_body_text" = "Strongbox Proにアップグレードして、これらの素晴らしい機能をすべてお楽しみください";
 
 /* Face ID & PIN Code Unlock */
-"upgrade_vc_feature_face_id_pin_code" = "Face ID & PIN Code Unlock";
+"upgrade_vc_feature_face_id_pin_code" = "Face ID & PIN コードのロック解除";
 
 /* Touch ID & PIN Code Unlock */
-"upgrade_vc_feature_touch_id_pin_code" = "Touch ID & PIN Code Unlock";
+"upgrade_vc_feature_touch_id_pin_code" = "Touch ID & PIN コードのロック解除";
 
 /* Super Fast, Secure & Convenient */
-"upgrade_vc_feature_subtitle_biometric" = "Super Fast, Secure & Convenient";
+"upgrade_vc_feature_subtitle_biometric" = "超高速、安全、便利な";
 
 /* Use a YubiKey as a second factor */
-"upgrade_vc_feature_subtitle_yubikey" = "Use a YubiKey as a second factor";
+"upgrade_vc_feature_subtitle_yubikey" = "YubiKey を第 2 要素として使用する";
 
 /* Advanced Auditing */
-"upgrade_vc_feature_auditing" = "Advanced Auditing";
+"upgrade_vc_feature_auditing" = "高度な監査";
 
 /* HIBP & Similar Passwords */
-"upgrade_vc_feature_subtitle_auditing" = "HIBP & Similar Passwords";
+"upgrade_vc_feature_subtitle_auditing" = "HIBP & 類似のパスワード";
 
 /* Premium Support */
-"upgrade_vc_feature_support" = "Premium Support";
+"upgrade_vc_feature_support" = "プレミアムサポート";
 
 /* We're here for you */
-"upgrade_vc_feature_subtitle_support" = "We're here for you";
+"upgrade_vc_feature_subtitle_support" = "私たちはあなたのためにここにいます";
 
 /* Compare & Merge */
 "upgrade_vc_feature_compare_and_merge" = "比較およびマージ";
 
 /* View & Combine Revisions */
-"upgrade_vc_feature_subtitle_compare_and_merge" = "View & Combine Revisions";
+"upgrade_vc_feature_subtitle_compare_and_merge" = "リビジョンの表示と結合";
 
 /* Offline Editing */
 "upgrade_vc_feature_offline_editing" = "オフライン編集";
 
 /* Edit Offline, Sync Later */
-"upgrade_vc_feature_subtitle_offline_editing" = "Edit Offline, Sync Later";
+"upgrade_vc_feature_subtitle_offline_editing" = "オフラインの編集、後で同期する";
 
 /* Custom App Icons */
-"upgrade_vc_feature_custom_app_icon" = "Custom App Icons";
+"upgrade_vc_feature_custom_app_icon" = "カスタムアプリアイコン";
 
 /* Customize your Strongbox */
-"upgrade_vc_feature_subtitle_custom_app_icon" = "Customize your Strongbox";
+"upgrade_vc_feature_subtitle_custom_app_icon" = "自分の拠点をカスタマイズする";
 
 /* Favicon Downloader */
-"upgrade_vc_feature_favicon_downloader" = "Favicon Downloader";
+"upgrade_vc_feature_favicon_downloader" = "ファビコンダウンローダー";
 
 /* Make your entries stand out */
-"upgrade_vc_feature_subtitle_favicon_downloader" = "Make your entries stand out";
+"upgrade_vc_feature_subtitle_favicon_downloader" = "エントリーを際立たせましょう";
 
 /* Support Indie Development */
 "upgrade_vc_feature_support_indie" = "インディ開発者をサポート";
 
 /* Help us stay awesome! */
-"upgrade_vc_feature_subtitle_support_indie" = "Help us stay awesome!";
+"upgrade_vc_feature_subtitle_support_indie" = "私たちが素晴らしい滞在を助けてください!";
 
 /* then %@ every year - L10n note, the 1st parameter is a price like "£12.99" */
-"upgrade_vc_price_per_year_with_free_trial_fmt" = "then %@ every year";
+"upgrade_vc_price_per_year_with_free_trial_fmt" = "それから毎年 %@";
 
 /* Strongbox is now available for both iOS and macOS as a unified App.\n\nIf you have already purchased Strongbox then click 'Restore' below.\n\nIf you are new and want to Upgrade, the best way to do that is via the unified Strongbox app. Click 'View Strongbox Unified App' below to view on the App Store. */
 "upgrade_vc_strongbox_unified_message" = "Strongbox is now available for both iOS and macOS as a unified App.\n\nIf you have already purchased Strongbox then click 'Restore' below.\n\nIf you are new and want to Upgrade, the best way to do that is via the unified Strongbox app. Click 'View Strongbox Unified App' below to view on the App Store.";
 
 /* Strongbox Upgrade Options */
-"upgrade_vc_old_freemium_upgrade_options_title" = "Strongbox Upgrade Options";
+"upgrade_vc_old_freemium_upgrade_options_title" = "ストロングボックスのアップグレードオプション";
 
 /* View Strongbox Unified */
-"upgrade_vc_old_freemium_upgrade_view_unified" = "View Strongbox Unified";
+"upgrade_vc_old_freemium_upgrade_view_unified" = "Strongbox Unifyを表示";
 
 /* Restore My Pro Purchase */
-"upgrade_vc_old_freemium_upgrade_restore_pro" = "Restore My Pro Purchase";
+"upgrade_vc_old_freemium_upgrade_restore_pro" = "プロの購入を復元する";
 
 /* Restart Required */
-"generic_restart_required" = "Restart Required";
+"generic_restart_required" = "再起動が必要です";
 
 /* You must restart Strongbox for these changes to take effect. */
-"generic_restart_required_for_changes_to_take_effect" = "You must restart Strongbox for these changes to take effect.";
+"generic_restart_required_for_changes_to_take_effect" = "これらの変更を有効にするには、Strongbox を再起動する必要があります。";
 
 /* Relocate Database */
 "relocate_database_title" = "Relocate Database";
 
 /* Strongbox's reference to this database has become invalid or the database cannot be found.\n\nPlease reselect this database from your files for Strongbox. */
-"relocate_database_msg" = "Strongbox's reference to this database has become invalid or the database cannot be found.\n\nPlease reselect this database from your files for Strongbox.";
+"relocate_database_msg" = "このデータベースへの参照が無効になったか、データベースが見つかりません。\n\nこのデータベースをStrongbox用にファイルから再選択してください。";
 
 /* 1Password Import Warning */
-"1password_import_warning_title" = "1Password Import Warning";
+"1password_import_warning_title" = "1Passwordインポート警告";
 
 /* The import process isn't perfect and some features of 1Password such as named sections are not available in Strongbox.\n\nIt is important to check that your entries as acceptable after you have imported. */
-"1password_import_warning_msg" = "The import process isn't perfect and some features of 1Password such as named sections are not available in Strongbox.\n\nIt is important to check that your entries are acceptable after you have imported.";
+"1password_import_warning_msg" = "インポート処理は完璧ではなく、Strongbox では名前付きセクションなどの一部の 1Password の機能を使用できません。\n\nインポート後にエントリが受け入れられることを確認することが重要です。";
 
 /* Recycle Bin - The name of the recycle bin, the folder where items go instead of being fully deleted */
 "generic_recycle_bin_name" = "ごみ箱";
 
 /* Commit & Close (⌘⏎) */
-"mac_create_or_edit_commit_changes_and_close" = "Commit & Close (⌘⏎)";
+"mac_create_or_edit_commit_changes_and_close" = "コミット & 閉じる (⌘<unk> )";
 
 /* Close (⌘⏎) */
-"mac_create_or_edit_commit_close" = "Close (⌘⏎)";
+"mac_create_or_edit_commit_close" = "閉じる (⌘<unk> )";
 
 /* Touch ID & Watch Unlock Settings... */
 "nextgen_toolbar_settings_convenience_unlock_ellipsis" = "タッチ ID とAppleWatchのアンロック設定...";
 
 /* AutoFill Settings... */
-"nextgen_toolbar_settings_autofill_settings_ellipsis" = "AutoFill Settings...";
+"nextgen_toolbar_settings_autofill_settings_ellipsis" = "AutoFillの設定...";
 
 /* Encryption Settings... */
-"nextgen_toolbar_settings_encryption_settings_ellipsis" = "Encryption Settings...";
+"nextgen_toolbar_settings_encryption_settings_ellipsis" = "暗号化設定...";
 
 /* Change Master Credentials... */
 "nextgen_toolbar_settings_change_master_credentials_ellipsis" = "マスター認証情報を変更...";
@@ -5174,13 +5174,13 @@
 "nextgen_toolbar_settings_database_settings_ellipsis" = "データベース設定...";
 
 /* Application Preferences... */
-"nextgen_toolbar_settings_application_preferences_ellipsis" = "Application Preferences...";
+"nextgen_toolbar_settings_application_preferences_ellipsis" = "アプリケーションの設定...";
 
 /* Settings */
 "generic_settings" = "設定";
 
 /* Excluded Characters */
-"password_gen_vc_prompt_excluded_characters" = "Excluded Characters";
+"password_gen_vc_prompt_excluded_characters" = "除外文字";
 
 /* Ascending */
 "generic_sort_order_ascending" = "昇順";
@@ -5189,127 +5189,127 @@
 "generic_sort_order_descending" = "降順";
 
 /* Custom */
-"generic_sort_order_custom" = "Custom";
+"generic_sort_order_custom" = "カスタム";
 
 /* Sort: %@ - Localization Note: The 1st parameter will be the actual sort order, so e.g. "Sort: Ascending" */
-"sort_status_fmt" = "Sort: %@";
+"sort_status_fmt" = "並べ替え: %@";
 
 /* Enter Length */
-"alert_enter_password_basic_length" = "Enter Length";
+"alert_enter_password_basic_length" = "長さを入力";
 
 /* Not to worry, your database is safely saved locally but could not be synchronised with the source database.\n\nIf this happens repeatedly, investigate the Sync Log and try re-adding your database. */
-"sync_nextgen_sync_issue_message" = "Not to worry, your database is safely saved locally but could not be synchronised with the source database.\n\nIf this happens repeatedly, investigate the Sync Log and try re-adding your database.";
+"sync_nextgen_sync_issue_message" = "ご心配なく、データベースはローカルに安全に保存されますが、ソースデータベースと同期できませんでした。\n\nこれが繰り返し発生した場合は、同期ログを調査し、データベースを再度追加してみてください。";
 
 /* Sync Issue */
-"nextgen_sync_issue_toast_title" = "Sync Issue";
+"nextgen_sync_issue_toast_title" = "同期の問題";
 
 /* Strongbox could not sync... */
-"nextgen_sync_issue_toast_message" = "Strongbox could not sync...";
+"nextgen_sync_issue_toast_message" = "Strongbox を同期できませんでした...";
 
 /* More... - Used in the UI to indicate a button which you can click on to learn or find out more */
 "generic_more_with_ellipsis" = "その他...";
 
 /* Lock Database? */
-"mac_on_window_close_action_title" = "Lock Database?";
+"mac_on_window_close_action_title" = "データベースをロック?";
 
 /* Strongbox can keep your databases open in the background or it can lock them immediately when you close the window.\n\nWhat would you like Strongbox to do when you close a database window? */
-"mac_on_window_close_action_message" = "Strongbox can keep your databases open in the background or it can lock them immediately when you close the window.\n\nWhat would you like Strongbox to do when you close a database window?";
+"mac_on_window_close_action_message" = "Strongbox は、バックグラウンドでデータベースを開いたり、ウィンドウを閉じたときにすぐにデータベースをロックしたりできます。\n\nデータベースウィンドウを閉じる際に、Strongbox に何をさせたいですか?";
 
 /* Keep Database Unlocked */
-"mac_on_window_close_action_option_keep_unlocked" = "Keep Database Unlocked";
+"mac_on_window_close_action_option_keep_unlocked" = "データベースをロック解除したままにする";
 
 /* Lock Database Immediately */
-"mac_on_window_close_action_lock_immediately" = "Lock Database Immediately";
+"mac_on_window_close_action_lock_immediately" = "すぐにデータベースをロック";
 
 /* Offline Mode - L10n - this is a status/state, the database is currently unlocked */
-"database_unlocked_status" = "Unlocked";
+"database_unlocked_status" = "ロック解除済み";
 
 /* Your changes could not be safely saved. You are now working on an in-memory version only of your database. We recommend you try to save again */
-"error_could_not_save_message" = "Your changes could not be safely saved. You are now working on an in-memory only version of your database. We recommend you try to save again.";
+"error_could_not_save_message" = "変更を安全に保存できませんでした。 現在、インメモリのみのバージョンのデータベースに取り組んでいます。もう一度保存することをお勧めします。";
 
 /* Error Saving\nWe recommend you try to save again */
-"error_could_not_save_title" = "Error Saving\nWe recommend you try to save again";
+"error_could_not_save_title" = "\n保存中にエラーが発生しました。再度保存することをお勧めします。";
 
 /* Sync - L10n - This is a verb - To Synchronize */
 "generic_action_sync" = "同期";
 
 /* Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Sync Log?\n\n%@\n */
-"sync_error_message_including_error_detail_fmt" = "Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Sync Log?\n\n%@\n";
+"sync_error_message_including_error_detail_fmt" = "データベースは安全に保存されましたが、同期中にエラーが発生しました。 再試行するか、同期ログを確認しますか？\n\n%@\n";
 
 /* This database is in Offline Mode and cannot be synced. */
-"database_is_in_offline_mode_cannot_be_synced" = "This database is in Offline Mode and cannot be synced.";
+"database_is_in_offline_mode_cannot_be_synced" = "このデータベースはオフラインモードのため同期できません。";
 
 /* Save Successful */
-"generic_save_was_successful" = "Save Successful";
+"generic_save_was_successful" = "保存成功";
 
 /* Lazy Sync Mode */
-"lazy_sync_option_title" = "Lazy Sync Mode";
+"lazy_sync_option_title" = "遅延同期モード";
 
 /* Unlock database first, then attempt to sync. */
-"lazy_sync_option_detail" = "Unlock database first, then attempt to sync.";
+"lazy_sync_option_detail" = "データベースのロックを解除してから、同期を試みてください。";
 
 /* Persistently Lazy (Ignore Errors) */
-"lazy_sync_persist_option_title" = "Persistently Lazy (Ignore Errors)*";
+"lazy_sync_persist_option_title" = "永続的に遅延（Ignore Errors）*";
 
 /* Keep in Lazy Sync Mode even if an error in sync occurs. */
-"lazy_sync_persist_option_detail" = "Keep in Lazy Sync mode even if a sync error occurs.\n*Advanced Users Only";
+"lazy_sync_persist_option_detail" = "同期エラーが発生しても遅延同期モードを維持します。\n*高度なユーザーのみ";
 
 /* Portuguese (Brazilian) */
-"pwgen_wordlist_pt_br" = "Portuguese (Brazilian)";
+"pwgen_wordlist_pt_br" = "ポルトガル語 (ブラジル)";
 
 /* Hidden (An item of some kind will be hidden from the User Interface) */
 "generic_item_is_hidden" = "Hidden";
 
 /* These tabs will be visible in this order, providing there are eligible items to display. You must always have at least one visible tab. */
-"configure_tabs_footer_visible_tabs" = "These tabs will be visible in this order, providing there are eligible items to display. You must always have at least one visible tab.";
+"configure_tabs_footer_visible_tabs" = "これらのタブはこの順序で表示され、表示する対象となるアイテムがあります。常に1つ以上のタブが表示されている必要があります。";
 
 /* These tabs will remain hidden. */
-"configure_tabs_footer_hidden_tabs" = "These tabs will remain hidden.";
+"configure_tabs_footer_hidden_tabs" = "これらのタブは非表示になります。";
 
 /* You can choose to completely hide the bottom tab bar since you have only a single visible tab. Tap to toggle. */
-"configure_tabs_footer_text_hide_tab_bar" = "You can choose to completely hide the bottom tab bar since you have only a single visible tab. Tap to toggle.";
+"configure_tabs_footer_text_hide_tab_bar" = "単一のタブしか表示されていないため、タブバーを完全に非表示にすることができます。タップして切り替えます。";
 
 /* Drag tabs here to hide them */
-"configure_tabs_drag_tabs_to_hide" = "Drag tabs here to hide them";
+"configure_tabs_drag_tabs_to_hide" = "ここにタブをドラッグして非表示にする";
 
 /* Hide Tab Bar Completely */
-"configure_tabs_option_hide_tab_bar_completely" = "Hide Tab Bar Completely";
+"configure_tabs_option_hide_tab_bar_completely" = "タブバーを完全に隠す";
 
 /* %@ Items */
-"generic_number_of_items_plural_fmt" = "%@ Items";
+"generic_number_of_items_plural_fmt" = "%@ アイテム";
 
 /* %@ Item */
 "generic_single_item_singular_fmt" = "%@ Item";
 
 /* Configure Tabs */
-"configure_tabs" = "Configure Tabs";
+"configure_tabs" = "タブの設定";
 
 /* Sort Groups Separately */
-"sort_configuration_custom_sort_order_and_sort_groups_separately" = "Keep Groups on Top";
+"sort_configuration_custom_sort_order_and_sort_groups_separately" = "グループをトップに表示する";
 
 /* Oldest First */
-"generic_sort_order_chronologically_oldest_first" = "Oldest First";
+"generic_sort_order_chronologically_oldest_first" = "古い順";
 
 /* Alphabetically */
-"generic_sort_order_alphabetically" = "Alphabetically";
+"generic_sort_order_alphabetically" = "アルファベット順";
 
 /* Newest First */
-"generic_sort_order_chronologically_newest_first" = "Newest First";
+"generic_sort_order_chronologically_newest_first" = "最も新しい順";
 
 /* Reverse Alphabetically */
-"generic_sort_order_reverse_alphabetically" = "Reverse Alphabetically";
+"generic_sort_order_reverse_alphabetically" = "逆順";
 
 /* %@ Items Sorted By - L10n note: This is the header of a menu, the menu contains the fields you can sort by. e.g. Title. So this will look like "120 Items Sorted By" for example. The first parameter is numeric, the number of items sorted below */
-"sort_menu_header_number_of_items_plural_sorted_by_fmt" = "%@ Items Sorted By";
+"sort_menu_header_number_of_items_plural_sorted_by_fmt" = "%@ 件のソートされたアイテム";
 
 /* 1 Item Sorted By - L10n note: This is the header of a menu, the menu contains the fields you can sort by. e.g. Title. So this will look like "1 Item Sorted By" for example */
-"sort_menu_header_singular_item_sorted_by" = "1 Item Sorted By";
+"sort_menu_header_singular_item_sorted_by" = "1つのアイテムの並べ替え順";
 
 /* Alphabetic Index */
-"alphabetic_index_menu_item_title" = "Alphabetic Index";
+"alphabetic_index_menu_item_title" = "アルファベット順 目次";
 
 /* Strongbox can import 1Pux files from 1Password. Tap OK to select your exported 1Pux file. */
-"safes_vc_import_1password_1pux_message" = "Strongbox can import 1Pux files from 1Password. Tap OK to select your exported 1Pux file.";
+"safes_vc_import_1password_1pux_message" = "Strongbox は1Passwordから1Puxファイルをインポートできます。format@@0をタップしてエクスポートした1Puxファイルを選択します。";
 
 /* Import 1Password (1Pif) */
 "safes_vc_import_1password_1pif" = "1Password (1Pif)...";
@@ -5327,25 +5327,25 @@
 "safes_vc_import_icloud" = "iCloud Keychain (CSV)";
 
 /* Disabling Auto-Commit could mean you lose this TOTP if you forget to commit later, are you sure? */
-"are_you_sure_auto_commit_totp_msg" = "Disabling Auto-Commit could mean you lose this TOTP if you forget to commit later. Are you sure?";
+"are_you_sure_auto_commit_totp_msg" = "自動コミットを無効にすると、後でコミットを忘れた場合、このTOTPが失われる可能性があります。よろしいですか？";
 
 /* Close - A generic verb - to Close a popup or dialog */
 "generic_verb_close" = "閉じる";
 
 /* Discard - A verb - to discard any pending changes that might have been made */
-"generic_verb_discard" = "Discard";
+"generic_verb_discard" = "破棄する";
 
 /* Start Typing to Begin Search */
-"browse_vc_view_start_typing_to_search" = "Start Typing to Begin Search";
+"browse_vc_view_start_typing_to_search" = "入力を開始して検索を開始";
 
 /* Used until %@ - Header above a previously used password. The 1st parameter is a friend date string, e.g. 'Used until 2 February 2023 at 10:31' */
-"password_history_this_password_was_used_until_fmt" = "Used until %@";
+"password_history_this_password_was_used_until_fmt" = "%@ まで使用";
 
 /* Previous Passwords - A heading above a list of previously used passwords */
 "password_history_previous_passwords" = "過去のパスワード";
 
 /* Turn On Browser AutoFill? */
-"onboarding_autofill_title_turn_on" = "Turn On Browser AutoFill?";
+"onboarding_autofill_title_turn_on" = "ブラウザの自動入力をオンにしますか？";
 
 /* Turn On AutoFill */
 "onboarding_autofill_option_turn_on_autofill" = "オートフィルをオンにする";
@@ -5354,61 +5354,61 @@
 "generic_no_thanks" = "必要ありません";
 
 /* Browser AutoFill is available but currently not turned on. Would you like to enable Browser AutoFill so that you can conveniently and securely login from within your browser? */
-"onboarding_autofill_msg_available_turn_on_question" = "Browser AutoFill is available but currently not turned on. Would you like to enable Browser AutoFill so that you can conveniently and securely login from within your browser?";
+"onboarding_autofill_msg_available_turn_on_question" = "ブラウザーのオートフィルは利用可能ですが、現在はオンになっていません。 ブラウザ内から簡単かつ安全にログインできるように、ブラウザオートフィルを有効にしますか?";
 
 /* On - L10n note - This is a state of affairs - A setting/configuration that is On */
-"generic_state_on" = "On";
+"generic_state_on" = "オン";
 
 /* Off - L10n note - This is a state of affairs - A setting/configuration that Off */
-"generic_state_off" = "Off";
+"generic_state_off" = "オフ";
 
 /* %d (%d Recursive) */
 "number_of_entries_or_groups_immediate_and_recursive_fmt" = "%d (%d Recursive)";
 
 /* Searchable */
-"group_properties_searchable" = "Searchable";
+"group_properties_searchable" = "検索可能";
 
 /* Inherited (%@) - L10n Note: The 1st parameter will be "Yes" or "No" indicating whether the actual inherited value of this item is effectively Yes/No flowing down from its parent value. */
-"item_properties_inherited_yes_no_fmt" = "Inherited (%@)";
+"item_properties_inherited_yes_no_fmt" = "継承 (%@)";
 
 /* The Searchable setting affects whether this group and its contents are visible in search results, AutoFill suggestions and most views. This is useful if you'd like to archive/ignore some items, but not permanently delete them. */
-"group_properties_searchable_footer_info" = "The Searchable setting affects whether this group and its contents are visible in search results, AutoFill suggestions and most views. This is useful if you'd like to archive or ignore some items, but not permanently delete them.";
+"group_properties_searchable_footer_info" = "検索可能な設定は、このグループとその内容が検索結果に表示されるかどうかに影響します。 これは、いくつかのアイテムをアーカイブしたり無視したりしたいが、それらを完全に削除しない場合に便利です。";
 
 /* Empty Recycle Bin */
-"browse_vc_action_empty_recycle_bin" = "Empty Recycle Bin";
+"browse_vc_action_empty_recycle_bin" = "ごみ箱を空にする";
 
 /* This will permanently delete all items contained within the Recycle Bin */
-"browse_vc_action_empty_recycle_bin_are_you_sure" = "This will permanently delete all items contained within the Recycle Bin.";
+"browse_vc_action_empty_recycle_bin_are_you_sure" = "これにより、ごみ箱にあるすべてのアイテムが完全に削除されます。";
 
 /* Save & Close (⌘⏎) */
-"mac_create_or_edit_save_changes_and_close" = "Save & Close (⌘⏎)";
+"mac_create_or_edit_save_changes_and_close" = "保存して閉じる (⌘<unk> )";
 
 /* Save (⌘S) */
-"mac_create_or_edit_save_changes" = "Save (⌘S)";
+"mac_create_or_edit_save_changes" = "保存 (⌘S)";
 
 /* Commit (⌘S) */
-"mac_create_or_edit_commit_changes" = "Commit (⌘S)";
+"mac_create_or_edit_commit_changes" = "コミット (⌘S)";
 
 /* Hierarchy (%@ Groups, %@ Entries) - L10n Note - The two parameters are numeric, so for example: "23 Groups, 3456 Entries"*/
-"side_bar_hierarchy_folder_structure_summary_count_fmt" = "Hierarchy (%@ Groups, %@ Entries)";
+"side_bar_hierarchy_folder_structure_summary_count_fmt" = "階層（%@ グループ、 %@ エントリー）";
 
 /* Entries */
-"side_bar_child_count_format_entries" = "Entries";
+"side_bar_child_count_format_entries" = "項目";
 
 /* Entries (Recursive) */
-"side_bar_child_count_format_entries_rec" = "Entries (Recursive)";
+"side_bar_child_count_format_entries_rec" = "項目 (再帰的)";
 
 /* Groups and Entries */
-"side_bar_child_count_format_groups_and_entries" = "Groups and Entries";
+"side_bar_child_count_format_groups_and_entries" = "グループとエントリ";
 
 /* Groups and Entries (Recursive) */
-"side_bar_child_count_format_groups_and_entries_rec" = "Groups and Entries (Recursive)";
+"side_bar_child_count_format_groups_and_entries_rec" = "グループとエントリ (再帰的)";
 
 /* Items */
 "side_bar_child_count_format_items" = "アイテム";
 
 /* Items (Recursive) */
-"side_bar_child_count_format_items_rec" = "Items (Recursive)";
+"side_bar_child_count_format_items_rec" = "アイテム（再利用）";
 
 /* The SFTP host returned the Fingerprint below.\n\nStrongbox will use this Fingerprint to verify it is communicating with only this host.\n\nPlease confirm you are happy with this Fingerprint. You will be notified if it ever changes.\n\n%@ */
 "sftp_hostkey_fingerprint_first_use_confirm_fmt" = "The SFTP host returned the Fingerprint below.\n\nStrongbox will use this Fingerprint to verify it is communicating with only this host.\n\nPlease confirm you are happy with this Fingerprint. You will be notified if it ever changes.\n\n%@";
@@ -5417,40 +5417,40 @@
 "sftp_hostkey_fingerprint_has_changed_confirm_fmt" = "*** WARNING ***\n\nThe SFTP host returned a different Fingerprint than expected.\n\nThis could be a man-in-the-middle attack, or it could be something you expect if your host configuration recently changed.\n\nShould Strongbox use this new Fingerprint and continue connecting to this host?\n\n%@";
 
 /* SFTP Fingerprint */
-"sftp_hostkey_fingerprint_alert_title" = "SFTP Fingerprint";
+"sftp_hostkey_fingerprint_alert_title" = "SFTP フィンガープリント";
 
 /* Note: Enabling Easy-Read Font will have the effect of disabling the 'Markdown Notes' formatting feature. Is this OK? */
-"are_you_sure_message_easy_read_font_markdown_notes" = "Note: Enabling Easy-Read Font will have the effect of disabling the 'Markdown Notes' formatting feature. Is this OK?";
+"are_you_sure_message_easy_read_font_markdown_notes" = "注意: 簡単読み取りフォントを有効にすると、「マークダウンノート」のフォーマット機能を無効にすることができます。よろしいですか？";
 
 /* 1 Match Found */
-"search_results_summary_1_match_found" = "1 Match Found";
+"search_results_summary_1_match_found" = "1つのマッチが見つかりました";
 
 /* %@ Matches Found */
-"search_results_summary_n_match_found_fmt" = "%@ Matches Found";
+"search_results_summary_n_match_found_fmt" = "%@ 一致が見つかりました";
 
 /* No Matches Found */
-"search_results_summary_no_matches_found" = "No Matches Found";
+"search_results_summary_no_matches_found" = "一致するものが見つかりません";
 
 /* Orchard Street (Medium) */
 "pwgen_wordlist_orchard_st" = "Orchard Street (Medium)";
 
 /* SSH Keys */
-"sidebar_quick_view_keeagent_ssh_keys_title" = "SSH Keys";
+"sidebar_quick_view_keeagent_ssh_keys_title" = "SSH キー";
 
 /* Passphrase Protected */
-"ssh_agent_passphrase_protected" = "Passphrase Protected";
+"ssh_agent_passphrase_protected" = "パスフレーズの保護";
 
 /* Passphrase Protected (Entry Password Incorrect) */
-"ssh_agent_passphrase_protected_incorrect" = "Passphrase Protected (Entry Password Incorrect)";
+"ssh_agent_passphrase_protected_incorrect" = "パスフレーズで保護された(入力パスワードが正しくありません)";
 
 /* Enabled for SSH Agent - L10n Note: An SSH Key is enabled for the Strongbox SSH Agent */
-"ssh_agent_key_enabled_for_agent" = "Enabled for SSH Agent";
+"ssh_agent_key_enabled_for_agent" = "SSHエージェントで有効";
 
 /* Disabled for SSH Agent - L10n Note: An SSH Key is not enabled for the Strongbox SSH Agent*/
-"ssh_agent_disabled_for_agent" = "Disabled for SSH Agent";
+"ssh_agent_disabled_for_agent" = "SSHエージェントで無効";
 
 /* SSH Key */
-"ssh_agent_ssh_key" = "SSH Key";
+"ssh_agent_ssh_key" = "SSH キー";
 
 /* Export... */
 "generic_export_ellipsis" = "エクスポート...";
@@ -5462,108 +5462,108 @@
 "generic_private_key" = "プライベートキー";
 
 /* Fingerprint - L10n Note: An SSH Key Fingerprint */
-"ssh_agent_key_fingerprint" = "Fingerprint";
+"ssh_agent_key_fingerprint" = "フィンガープリント";
 
 /* Enter a passphrase to protect the exported SSH Key file */
-"ssh_agent_enter_passphrase_for_export" = "Enter a passphrase to protect the exported SSH Key file";
+"ssh_agent_enter_passphrase_for_export" = "書き出されたSSHキーファイルを保護するためのパスフレーズを入力してください";
 
 /* Could not read this file. Are you sure it is a valid OpenSSH Private Key file? */
-"ssh_agent_could_not_read_sshkey_file" = "Could not read this file. Are you sure it is a valid OpenSSH Private Key file?";
+"ssh_agent_could_not_read_sshkey_file" = "このファイルを読み込めませんでした。有効な OpenSSH プライベートキーファイルですか？";
 
 /* That SSH Key passphrase was incorrect. Please try again. */
-"ssh_agent_ssh_key_passphrase_incorrect_try_again" = "That SSH Key passphrase was incorrect. Please try again.";
+"ssh_agent_ssh_key_passphrase_incorrect_try_again" = "SSH キーのパスフレーズが正しくありません。もう一度やり直してください。";
 
 /* Overwrite Password?" */
-"ssh_agent_overwrite_password" = "Overwrite Password?";
+"ssh_agent_overwrite_password" = "パスワードを上書きしますか？";
 
 /* This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt. Strongbox will then set the password of this entry to match. */
-"ssh_agent_sshkey_please_enter_passphrase_msg" = "This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt. Strongbox will then set the password of this entry to match.";
+"ssh_agent_sshkey_please_enter_passphrase_msg" = "このSSHキーはパスフレーズで保護されています。\n\n復号するパスフレーズを入力してください。Strongboxは一致するようにこのエントリのパスワードを設定します。";
 
 /* The passphrase does not match the existing password. Strongbox needs the password to match the passphrase to use this SSH Key properly.\n\nContinue to overwrite the current password? */
-"ssh_agent_passphrase_password_mismatch" = "The passphrase does not match the existing password. Strongbox needs the password to match the passphrase to use this SSH Key properly.\n\nContinue to overwrite the current password?";
+"ssh_agent_passphrase_password_mismatch" = "パスフレーズが既存のパスワードと一致しません。このSSHキーを正しく使用するには、Strongboxはパスフレーズに一致するパスワードを必要とします。\n\n現在のパスワードを上書きしますか？";
 
 /* Are you sure you want to remove this SSH Key? */
-"ssh_agent_ays_remove_key" = "Are you sure you want to remove this SSH Key?";
+"ssh_agent_ays_remove_key" = "このSSHキーを削除してもよろしいですか？";
 
 /* Inccorect SSH Key Passphrase */
-"ssh_agent_incorrect_sshkey_passphrase" = "Incorrect SSH Key Passphrase";
+"ssh_agent_incorrect_sshkey_passphrase" = "SSH キーのパスフレーズが正しくありません";
 
 /* The SSH Key is passphrase protected but the password for this entry is not the correct passphrase.\n\nDo you want to continue saving? */
-"ssh_agent_validation_passphrase_password_mismatch" = "The SSH Key is passphrase protected but the password for this entry is not the correct passphrase.\n\nDo you want to continue saving?";
+"ssh_agent_validation_passphrase_password_mismatch" = "SSHキーはパスフレーズで保護されていますが、このエントリのパスワードは正しいパスフレーズではありません。\n\n保存を続けますか？";
 
 /* Unknown Process */
-"ssh_agent_unknown_process" = "Unknown Process";
+"ssh_agent_unknown_process" = "不明なプロセス";
 
 /* unlock \"%@\" to allow \"%@\" to use an SSH Key - L10n Note: Request the user to approve an SSH Key. The first param is the Name of the Database containing the key. The second parameter is the name of the process requesting to use the Key. The string is prefixed by the system with "Strongbox is trying to"... Ultimately the string looks like: '"Strongbox" is trying to unlock "Mark's Database" to allow "ssh" to use an SSH Key' */
-"ssh_agent_approve_unlock_key_use_fmt" = "unlock \"%@\" to allow \"%@\" to use an SSH Key";
+"ssh_agent_approve_unlock_key_use_fmt" = "SSHキーの使用を「%@」で許可するには、「%@」をロック解除";
 /* allow \"%@\" to use the key \"%@\" for SSH - L10n Note: Request the user to approve an SSH Key. The first param is the name of the process requesting to use the Key. The second parameter this the title of the SSH Key entry. The string is prefixed by the system with "Strongbox is trying"... Ultimately the string looks like: '"Strongbox" is trying to aalow "ssh" to use the key "Mark's SSH Key" for SSH' */
-"ssh_agent_approve_key_use_fmt" = "allow \"%@\" to use the key \"%@\" for SSH";
+"ssh_agent_approve_key_use_fmt" = "SSHに\"%@\"キー\"%@\"を使用するようにする";
 
 /* %@ (%@ bits) - L10n Note: 1st Param is something the SSH key type like 'RSA' or 'ED25519', 2nd param is the number of bits used by the key, usually 3072 or 256 */
 "ssh_agent_algo_bits_fmt" = "%@ (%@ bits)";
 
 /* Unknown Organisation */
-"business_activation_unknown_org_title" = "Unknown Organisation";
+"business_activation_unknown_org_title" = "不明な組織";
 
 /* Strongbox could not recognize this Organisation. Are you sure you have entered it correctly? */
-"business_activation_unknown_org_message" = "Strongbox could not recognize this Organisation. Are you sure you have entered it correctly?";
+"business_activation_unknown_org_message" = "強力な組織は認識できませんでした。正しく入力しましたか？";
 
 /* Customizing... */
-"generic_customizing_ellipsis" = "Customizing...";
+"generic_customizing_ellipsis" = "カスタマイズ中...";
 
 /* You're all set! We recommend restarting Strongbox to enable the new UI. */
-"nextgen_ui_deprecation_switch_notice" = "You're all set! We recommend restarting Strongbox to enable the new UI.";
+"nextgen_ui_deprecation_switch_notice" = "準備完了！新しいUIを有効にするには、Strongboxを再起動することをお勧めします。";
 
 /* Password Generator */
 "popout_password_generator" = "パスワードジェネレーター";
 
 /* verify existing credentials before you can change them - L10n Note: This is a suffix that appears on the Touch ID request dialog on macOS, it is prefixed by system text: "Strongbox is trying to", so ultimately this string will look like: "Strongbox is trying to verify existing credentials before you can change them" */
-"verify_creds_before_changing_bio_message_suffix" = "verify credentials before you can change them";
+"verify_creds_before_changing_bio_message_suffix" = "変更する前に資格情報を確認してください";
 
 /* Verify Master Credentials */
-"verify_creds_headline" = "Verify Master Credentials";
+"verify_creds_headline" = "マスター資格情報を確認";
 
 /* For security reasons your current master credentials must be verified before you can change them. */
-"verify_creds_subhead" = "For security reasons your master credentials must be verified before you can change them.";
+"verify_creds_subhead" = "セキュリティ上の理由から、マスター資格情報を変更する前に認証する必要があります。";
 
 /* Those credentials are incorrect and your database has now been locked for security reasons. */
-"credentials_incorrect_database_locked" = "Those credentials are incorrect and your database has now been locked for security reasons.";
+"credentials_incorrect_database_locked" = "認証情報が正しくないため、セキュリティ上の理由によりデータベースがロックされました。";
 
 /* Unsaved Changes */
-"generic_unsaved_changes" = "Unsaved Changes";
+"generic_unsaved_changes" = "保存されていない変更";
 
 /* You have pending unsaved changes which should be saved before continuing.\n\nWould you like to save now? */
-"unsaved_changes_question_save_now" = "You have pending unsaved changes which should be saved before continuing.\n\nWould you like to save now?";
+"unsaved_changes_question_save_now" = "保存されていない変更を保留中です。\n\n今すぐ保存しますか？";
 
 /* Verifying... */
-"generic_verifying_ellipsis" = "Verifying...";
+"generic_verifying_ellipsis" = "確認中...";
 
 /* verify existing credentials before you can export in plaintext - L10n Note: This is a suffix that appears on the Touch ID request dialog on macOS, it is prefixed by system text: "Strongbox is trying to", so ultimately this string will look like: "Strongbox is trying to verify existing credentials before you can export in plaintext" */
-"verify_creds_before_plaintext_export_bio_message_suffix" = "verify credentials before you can export in plaintext";
+"verify_creds_before_plaintext_export_bio_message_suffix" = "プレーンテキストでエクスポートする前に資格情報を確認してください";
 
 /* For security reasons your master credentials must be verified before you can export in plaintext. */
-"verify_creds_before_plaintext_export_subhead" = "For security reasons your master credentials must be verified before you can export in plaintext.";
+"verify_creds_before_plaintext_export_subhead" = "セキュリティ上の理由から、プレーンテキストでエクスポートする前にマスター資格情報を検証する必要があります。";
 
 /* verify existing credentials before you can print - L10n Note: This is a suffix that appears on the Touch ID request dialog on macOS, it is prefixed by system text: "Strongbox is trying to", so ultimately this string will look like: "Strongbox is trying to verify credentials before you can print" */
-"verify_creds_before_print_bio_message_suffix" = "verify credentials before you can print";
+"verify_creds_before_print_bio_message_suffix" = "印刷する前に資格情報を確認する";
 
 /* For security reasons your master credentials must be verified before you can print. */
-"verify_creds_before_print_subhead" = "For security reasons your master credentials must be verified before you can print.";
+"verify_creds_before_print_subhead" = "セキュリティ上の理由から、印刷する前にマスター資格情報を検証する必要があります。";
 
 /* Import Messages */
-"import_messages_header" = "Import Messages";
+"import_messages_header" = "メッセージをインポート";
 
 /* Set New Master Password */
-"import_next_step_set_password" = "Set New Master Password";
+"import_next_step_set_password" = "新しいマスターパスワードを設定";
 
 /* Please consider sharing (support@strongboxsafe.com) the above messages with us to help us improve the import process.*/
-"import_please_share_import_messages" = "Please consider sharing (support@strongboxsafe.com) the above messages with us to help us improve the import process.";
+"import_please_share_import_messages" = "上記のメッセージを support@strongboxsafe.com と共有し、インポートプロセスの改善に役立ててください。";
 
 /* TOTP Secret */
-"generic_totp_secret" = "TOTP Secret";
+"generic_totp_secret" = "TOTP シークレット";
 
 /* Select Items */
-"generic_select_items" = "Select Items";
+"generic_select_items" = "アイテムを選択";
 
 /* Select All */
 "generic_select_all" = "すべてを選択";
@@ -5581,10 +5581,10 @@
 "generic_auto_lock_settings" = "自動的な施錠";
 
 /* Encryption - L10n: Noun referring to Encryption Settings  */
-"generic_encryption_settings" = "Encryption";
+"generic_encryption_settings" = "エンクリプション（暗号化）";
 
 /* Easy Read Font on All Fields */
-"item_details_view_settings_easy_read_all" = "Easy Read Font on All Fields";
+"item_details_view_settings_easy_read_all" = "すべてのフィールドの簡単な読み取りフォント";
 
 /* Auto Fetch FavIcon */
 "item_details_view_settings_auto_fetch_favicon" = "FavIcon を自動取得";
@@ -5596,73 +5596,73 @@
 "item_details_view_settings_colorize_passwords" = "パスワードに色を付ける";
 
 /* Sort Custom Fields */
-"item_details_view_settings_sort_custom_fields" = "Sort Custom Fields";
+"item_details_view_settings_sort_custom_fields" = "カスタムフィールドの並べ替え";
 
 /* New SSH Key */
-"details_add_new_ssh_key" = "New SSH Key";
+"details_add_new_ssh_key" = "新しいSSHキー";
 
 /* What kind of SSH key would you like to add?\n\nWe recommend using the modern ED25519 key type. */
-"details_add_new_ssh_key_what_kind_prompt" = "What kind of SSH key would you like to add?\n\nWe recommend using the modern ED25519 key type.";
+"details_add_new_ssh_key_what_kind_prompt" = "どのようなSSHキーを追加したいですか?\n\n最新のED25519キータイプを使用することをお勧めします。";
 
 /* New ED25519 Key */
-"details_add_new_ssh_key_ed25519" = "New ED25519 Key";
+"details_add_new_ssh_key_ed25519" = "新しい ED25519 キー";
 
 /* New RSA Key */
-"details_add_new_ssh_key_rsa" = "New RSA Key";
+"details_add_new_ssh_key_rsa" = "新しい RSA キー";
 
 /* New SSH Key... */
-"details_add_new_ssh_key_ellipsis" = "New SSH Key...";
+"details_add_new_ssh_key_ellipsis" = "新しいSSHキー...";
 
 /* Actions - L10n Note: A noun, e.g a list of actions that can be performed */
 "generic_noun_actions" = "アクション";
 
 /* OK, Don't Remind Me Again */
-"generic_ok_dont_remind_me_again" = "OK, Don't Remind Me Again";
+"generic_ok_dont_remind_me_again" = "OK、今後リマインドしない";
 
 /* Strongbox Sale Now On */
-"safesvc_sale_now_on" = "Strongbox Sale Now On";
+"safesvc_sale_now_on" = "Strongboxの販売が開始されました";
 
 /* Subscriber Sale Offer */
-"sale_view_subscriber_title" = "Subscriber Sale Offer";
+"sale_view_subscriber_title" = "購読者セールオファー";
 
 /* Sale Now On */
 "sale_view_regular_title" = "割引実施中";
 
 /* Since you're a Pro subscriber, we'd like to say thank you and offer you a discount on your next renewal */
-"sale_view_subscriber_message" = "Since you're a Pro subscriber, we'd like to say thank you and offer you a discount on your next renewal";
+"sale_view_subscriber_message" = "あなたはPro版の購読者ですので、次回の更新時に割引を提供したいと思います。";
 
 /* Want to grab a great deal? Now's the perfect time to go Pro. We've got a special offer on all Strongbox licenses for a short time only. */
-"sale_view_regular_message" = "Now's the perfect time to go Pro. We've got a special offer on all Strongbox licenses for a short time only";
+"sale_view_regular_message" = "Proに行くのに最適な時期です。Strongboxのすべてのライセンスで短期間限定の特別オファーがあります。";
 
 /* Redeem Offer Now */
-"sale_view_subscriber_cta" = "Redeem Offer Now";
+"sale_view_subscriber_cta" = "今すぐオファーを引き換えます";
 
 /* Go Pro Now */
-"sale_view_regular_cta" = "Go Pro Now";
+"sale_view_regular_cta" = "Pro版を今すぐ購入";
 
 /* Looking for a Lifetime License? */
-"sale_view_looking_for_lifetime" = "Looking for a Lifetime License?";
+"sale_view_looking_for_lifetime" = "生涯ライセンスをお探しですか？";
 
 /* Offer ends Midnight %@ - L10n note: The 1st parameter is a day, like Monday or Friday, so: "Offer ends Midnight Friday" for example */
-"sale_view_offer_ends_date_fmt %@" = "Offer ends Midnight %@";
+"sale_view_offer_ends_date_fmt %@" = "オファーが真夜中の %@";
 
 /* Item Properties... */
-"generic_item_properties_ellipsis" = "Item Properties...";
+"generic_item_properties_ellipsis" = "アイテムのプロパティ...";
 
 /* Audit Issue Details... */
-"view_audit_issue_details_ellipsis" = "Audit Issue Details...";
+"view_audit_issue_details_ellipsis" = "監査問題の詳細...";
 
 /* Suggest in AutoFill - L10n - Whether an entry should be suggested in the AutoFill dropdown in your browser - It's a Yes/No flag in the UI */
-"suggest_in_autofill_yesno_flag" = "Suggest in AutoFill";
+"suggest_in_autofill_yesno_flag" = "オートフィルを提案";
 
 /* Toggle Suggest in AutoFill */
-"item_settings_action_verb_toggle_suggest_in_autofill" = "Toggle Suggest in AutoFill";
+"item_settings_action_verb_toggle_suggest_in_autofill" = "自動入力の提案を切り替える";
 
 /* Toggle Audit this Item */
-"item_settings_action_verb_toggle_suggest_in_audit" = "Toggle Audit this Item";
+"item_settings_action_verb_toggle_suggest_in_audit" = "この項目を監査に切り替える";
 
 /* for %@ hours - L10n note: the first parameter is numeric, e.g. "for 4 hours", which can appear in the UI as a suffix, so something like "Remember this for 12 hours" */
-"generic_for_n_hours_suffix_fmt" = "for %@ hours";
+"generic_for_n_hours_suffix_fmt" = "%@ 時間";
 
 /* until Strongbox quits - L10n note: used as a suffix, e.g. "Remember this until Strongbox quits" */
-"ssh_agent_remember_approval_until_strongbox_quits" = "until Strongbox quits";
+"ssh_agent_remember_approval_until_strongbox_quits" = "Strongbox 終了まで";
