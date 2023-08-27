@@ -2574,7 +2574,7 @@
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "Tem certeza que deseja remover o campo personalizado '%@'?";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Tem certeza que deseja remover o campo personalizado '%@'?";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
 
 /* Add Custom Field */
 "mac_node_details_add_custom_field" = "Adicionar Campo Personalizado";
@@ -2909,7 +2909,7 @@
 "upgrade_vc_start_your_free_trial_price_free" = "Grátis";
 
 /* Upgrade (Free Trial Available) */
-"safes_vc_upgrade_info_trial_available_button_title" = "Try Pro free for 3 months";
+"safes_vc_upgrade_info_trial_available_button_title" = "Experimente o Pro grátis durante 3 meses";
 
 /* Would you like to add an entry or a group? */
 "browse_add_group_or_entry_question" = "Gostaria de adicionar um registro ou um grupo?";
@@ -3182,7 +3182,7 @@
 "audit_manual_pwn_check_result_not_pwned" = "Sua senha NÃO foi comprometida e tem boas chances de estar segura.";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Resultado Manual do HIBP";
+"audit_manual_pwn_check_result_title" = "Manual HIBP Result";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "Está senha foi comprometida e é vulnerável";
@@ -3377,7 +3377,7 @@
 "sftp_path_are_you_sure" = "Tem certeza que o caminho está correto? Ele deveria ser um caminho para um diretório pai e não para um arquivo de base de dados.";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Tem certeza que o caminho está correto? Ele deveria ser um caminho para um diretório pai e não para um arquivo de base de dados.";
+"sftp_path_are_you_sure" = "Are you sure the path is correct? It should be a path to a parent folder. Not the database file.";
 
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "O Caminho Pode Ser Inválido";
@@ -3653,7 +3653,7 @@
 "merge_view_are_you_sure" = "Tem certeza que deseja unir a segunda base de dados com a primeira?";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Tem certeza que deseja unir a segunda base de dados com a primeira?";
+"merge_view_are_you_sure" = "Are you sure you want to merge the second database into the first?";
 
 /* Merge Successful */
 "merge_view_merge_title_success" = "Unificação Concluída Com Sucesso";
@@ -3941,7 +3941,7 @@
 "open_sequence_yes_use_local_copy_option" = "Sim, Abrir Offline";
 
 /* Open Offline */
-"open_sequence_use_local_copy_option" = "Open Offline";
+"open_sequence_use_local_copy_option" = "Abrir Offline";
 
 /* Open Offline (Read-Only) */
 "open_sequence_use_local_copy_option_ro" = "Abrir Offline (Apenas Leitura)";
@@ -5363,7 +5363,7 @@
 "generic_state_off" = "Desativado";
 
 /* %d (%d Recursive) */
-"number_of_entries_or_groups_immediate_and_recursive_fmt" = "%d (%d Recursive)";
+"number_of_entries_or_groups_immediate_and_recursive_fmt" = "%d (%d Recursivo)";
 
 /* Searchable */
 "group_properties_searchable" = "Pesquisável";
@@ -5390,79 +5390,79 @@
 "mac_create_or_edit_commit_changes" = "Executar (⌘S)";
 
 /* Hierarchy (%@ Groups, %@ Entries) - L10n Note - The two parameters are numeric, so for example: "23 Groups, 3456 Entries"*/
-"side_bar_hierarchy_folder_structure_summary_count_fmt" = "Hierarchy (%@ Groups, %@ Entries)";
+"side_bar_hierarchy_folder_structure_summary_count_fmt" = "Hierarquia (%@ Grupos, %@ Entradas)";
 
 /* Entries */
 "side_bar_child_count_format_entries" = "Itens";
 
 /* Entries (Recursive) */
-"side_bar_child_count_format_entries_rec" = "Entries (Recursive)";
+"side_bar_child_count_format_entries_rec" = "Entradas (Recursivo)";
 
 /* Groups and Entries */
-"side_bar_child_count_format_groups_and_entries" = "Groups and Entries";
+"side_bar_child_count_format_groups_and_entries" = "Grupos e Entradas";
 
 /* Groups and Entries (Recursive) */
-"side_bar_child_count_format_groups_and_entries_rec" = "Groups and Entries (Recursive)";
+"side_bar_child_count_format_groups_and_entries_rec" = "Grupos e Entradas (Recursivo)";
 
 /* Items */
 "side_bar_child_count_format_items" = "Itens";
 
 /* Items (Recursive) */
-"side_bar_child_count_format_items_rec" = "Items (Recursive)";
+"side_bar_child_count_format_items_rec" = "Itens (Recursivo)";
 
 /* The SFTP host returned the Fingerprint below.\n\nStrongbox will use this Fingerprint to verify it is communicating with only this host.\n\nPlease confirm you are happy with this Fingerprint. You will be notified if it ever changes.\n\n%@ */
-"sftp_hostkey_fingerprint_first_use_confirm_fmt" = "The SFTP host returned the Fingerprint below.\n\nStrongbox will use this Fingerprint to verify it is communicating with only this host.\n\nPlease confirm you are happy with this Fingerprint. You will be notified if it ever changes.\n\n%@";
+"sftp_hostkey_fingerprint_first_use_confirm_fmt" = "O host SFTP retornou a Assinatura Digital abaixo.\n\nO Strongbox usará esta Assinatura Digital para verificar se está se comunicando somente com este host.\n\nPor favor confirme que está satisfeito com esta Assinatura Digital. Você será notificado caso ela seja alterada.\n\n%@";
 
 /* *** WARNING ***\n\nThe SFTP host returned a different Fingerprint than expected.\n\nThis could be a man-in-the-middle attack, or it could be something you expect if your host configuration recently changed.\n\nShould Strongbox use this new Fingerprint and continue connecting to this host?\n\n%@ */
-"sftp_hostkey_fingerprint_has_changed_confirm_fmt" = "*** WARNING ***\n\nThe SFTP host returned a different Fingerprint than expected.\n\nThis could be a man-in-the-middle attack, or it could be something you expect if your host configuration recently changed.\n\nShould Strongbox use this new Fingerprint and continue connecting to this host?\n\n%@";
+"sftp_hostkey_fingerprint_has_changed_confirm_fmt" = "*** ATENÇÃO ***\n\nO host SFTP devolveu uma Assinatura Digital diferente da esperada.\n\nIsso pode ser um ataque man-in-the-middle ou pode ser algo esperado se a configuração do host mudou recentemente.\n\nO Strongbox deve utilizar esta nova Assinatura Digital e continuar conectando-se a este host?\n\n%@";
 
 /* SFTP Fingerprint */
-"sftp_hostkey_fingerprint_alert_title" = "SFTP Fingerprint";
+"sftp_hostkey_fingerprint_alert_title" = "Assinatura Digital SFTP";
 
 /* Note: Enabling Easy-Read Font will have the effect of disabling the 'Markdown Notes' formatting feature. Is this OK? */
 "are_you_sure_message_easy_read_font_markdown_notes" = "Note: Enabling Easy-Read Font will have the effect of disabling the 'Markdown Notes' formatting feature. Is this OK?";
 
 /* 1 Match Found */
-"search_results_summary_1_match_found" = "1 Match Found";
+"search_results_summary_1_match_found" = "1 Resultado Encontrado";
 
 /* %@ Matches Found */
-"search_results_summary_n_match_found_fmt" = "%@ Matches Found";
+"search_results_summary_n_match_found_fmt" = "%@ Resultados Encontrados";
 
 /* No Matches Found */
-"search_results_summary_no_matches_found" = "No Matches Found";
+"search_results_summary_no_matches_found" = "Nenhum Resultado Encontrado";
 
 /* Orchard Street (Medium) */
-"pwgen_wordlist_orchard_st" = "Orchard Street (Medium)";
+"pwgen_wordlist_orchard_st" = "Rua Orchard (Médio)";
 
 /* SSH Keys */
-"sidebar_quick_view_keeagent_ssh_keys_title" = "SSH Keys";
+"sidebar_quick_view_keeagent_ssh_keys_title" = "Chaves SSH";
 
 /* Passphrase Protected */
-"ssh_agent_passphrase_protected" = "Passphrase Protected";
+"ssh_agent_passphrase_protected" = "Protegido por Senha";
 
 /* Passphrase Protected (Entry Password Incorrect) */
 "ssh_agent_passphrase_protected_incorrect" = "Passphrase Protected (Entry Password Incorrect)";
 
 /* Enabled for SSH Agent - L10n Note: An SSH Key is enabled for the Strongbox SSH Agent */
-"ssh_agent_key_enabled_for_agent" = "Enabled for SSH Agent";
+"ssh_agent_key_enabled_for_agent" = "Ativado para o Agente SSH";
 
 /* Disabled for SSH Agent - L10n Note: An SSH Key is not enabled for the Strongbox SSH Agent*/
-"ssh_agent_disabled_for_agent" = "Disabled for SSH Agent";
+"ssh_agent_disabled_for_agent" = "Desativado para o Agente SSH";
 
 /* SSH Key */
-"ssh_agent_ssh_key" = "SSH Key";
+"ssh_agent_ssh_key" = "Chave SSH";
 
 /* Export... */
 "generic_export_ellipsis" = "Exportar...";
 
 /* Public Key */
-"generic_public_key" = "Public Key";
+"generic_public_key" = "Chave Pública";
 
 /* Private Key */
 "generic_private_key" = "Chave Privada";
 
 /* Fingerprint - L10n Note: An SSH Key Fingerprint */
-"ssh_agent_key_fingerprint" = "Fingerprint";
+"ssh_agent_key_fingerprint" = "Impressão digital";
 
 /* Enter a passphrase to protect the exported SSH Key file */
 "ssh_agent_enter_passphrase_for_export" = "Enter a passphrase to protect the exported SSH Key file";
@@ -5474,7 +5474,7 @@
 "ssh_agent_ssh_key_passphrase_incorrect_try_again" = "That SSH Key passphrase was incorrect. Please try again.";
 
 /* Overwrite Password?" */
-"ssh_agent_overwrite_password" = "Overwrite Password?";
+"ssh_agent_overwrite_password" = "Sobrescrever Senha?";
 
 /* This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt. Strongbox will then set the password of this entry to match. */
 "ssh_agent_sshkey_please_enter_passphrase_msg" = "This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt. Strongbox will then set the password of this entry to match.";
@@ -5486,13 +5486,13 @@
 "ssh_agent_ays_remove_key" = "Are you sure you want to remove this SSH Key?";
 
 /* Inccorect SSH Key Passphrase */
-"ssh_agent_incorrect_sshkey_passphrase" = "Incorrect SSH Key Passphrase";
+"ssh_agent_incorrect_sshkey_passphrase" = "Senha da Chave SSH Incorreta";
 
 /* The SSH Key is passphrase protected but the password for this entry is not the correct passphrase.\n\nDo you want to continue saving? */
 "ssh_agent_validation_passphrase_password_mismatch" = "The SSH Key is passphrase protected but the password for this entry is not the correct passphrase.\n\nDo you want to continue saving?";
 
 /* Unknown Process */
-"ssh_agent_unknown_process" = "Unknown Process";
+"ssh_agent_unknown_process" = "Processo Desconhecido";
 
 /* unlock \"%@\" to allow \"%@\" to use an SSH Key - L10n Note: Request the user to approve an SSH Key. The first param is the Name of the Database containing the key. The second parameter is the name of the process requesting to use the Key. The string is prefixed by the system with "Strongbox is trying to"... Ultimately the string looks like: '"Strongbox" is trying to unlock "Mark's Database" to allow "ssh" to use an SSH Key' */
 "ssh_agent_approve_unlock_key_use_fmt" = "unlock \"%@\" to allow \"%@\" to use an SSH Key";
@@ -5509,7 +5509,7 @@
 "business_activation_unknown_org_message" = "Strongbox could not recognize this Organisation. Are you sure you have entered it correctly?";
 
 /* Customizing... */
-"generic_customizing_ellipsis" = "Customizing...";
+"generic_customizing_ellipsis" = "Personalizando...";
 
 /* You're all set! We recommend restarting Strongbox to enable the new UI. */
 "nextgen_ui_deprecation_switch_notice" = "You're all set! We recommend restarting Strongbox to enable the new UI.";
@@ -5530,13 +5530,13 @@
 "credentials_incorrect_database_locked" = "Those credentials are incorrect and your database has now been locked for security reasons.";
 
 /* Unsaved Changes */
-"generic_unsaved_changes" = "Unsaved Changes";
+"generic_unsaved_changes" = "Alterações não Salvas";
 
 /* You have pending unsaved changes which should be saved before continuing.\n\nWould you like to save now? */
 "unsaved_changes_question_save_now" = "You have pending unsaved changes which should be saved before continuing.\n\nWould you like to save now?";
 
 /* Verifying... */
-"generic_verifying_ellipsis" = "Verifying...";
+"generic_verifying_ellipsis" = "Verificando...";
 
 /* verify existing credentials before you can export in plaintext - L10n Note: This is a suffix that appears on the Touch ID request dialog on macOS, it is prefixed by system text: "Strongbox is trying to", so ultimately this string will look like: "Strongbox is trying to verify existing credentials before you can export in plaintext" */
 "verify_creds_before_plaintext_export_bio_message_suffix" = "verify credentials before you can export in plaintext";
@@ -5551,7 +5551,7 @@
 "verify_creds_before_print_subhead" = "For security reasons your master credentials must be verified before you can print.";
 
 /* Import Messages */
-"import_messages_header" = "Import Messages";
+"import_messages_header" = "Importar Mensagens";
 
 /* Set New Master Password */
 "import_next_step_set_password" = "Set New Master Password";
@@ -5560,10 +5560,10 @@
 "import_please_share_import_messages" = "Please consider sharing (support@strongboxsafe.com) the above messages with us to help us improve the import process.";
 
 /* TOTP Secret */
-"generic_totp_secret" = "TOTP Secret";
+"generic_totp_secret" = "Segredo TOTP";
 
 /* Select Items */
-"generic_select_items" = "Select Items";
+"generic_select_items" = "Selecionar Itens";
 
 /* Select All */
 "generic_select_all" = "Selecionar Tudo";
@@ -5599,25 +5599,25 @@
 "item_details_view_settings_sort_custom_fields" = "Ordenar Campos Personalizados";
 
 /* New SSH Key */
-"details_add_new_ssh_key" = "New SSH Key";
+"details_add_new_ssh_key" = "Nova Chave SSH";
 
 /* What kind of SSH key would you like to add?\n\nWe recommend using the modern ED25519 key type. */
 "details_add_new_ssh_key_what_kind_prompt" = "What kind of SSH key would you like to add?\n\nWe recommend using the modern ED25519 key type.";
 
 /* New ED25519 Key */
-"details_add_new_ssh_key_ed25519" = "New ED25519 Key";
+"details_add_new_ssh_key_ed25519" = "Nova Chave ED25519";
 
 /* New RSA Key */
-"details_add_new_ssh_key_rsa" = "New RSA Key";
+"details_add_new_ssh_key_rsa" = "Nova Chave RSA";
 
 /* New SSH Key... */
-"details_add_new_ssh_key_ellipsis" = "New SSH Key...";
+"details_add_new_ssh_key_ellipsis" = "Nova Chave SSH...";
 
 /* Actions - L10n Note: A noun, e.g a list of actions that can be performed */
 "generic_noun_actions" = "Ações";
 
 /* OK, Don't Remind Me Again */
-"generic_ok_dont_remind_me_again" = "OK, Don't Remind Me Again";
+"generic_ok_dont_remind_me_again" = "OK, não me lembre novamente";
 
 /* Strongbox Sale Now On */
 "safesvc_sale_now_on" = "Strongbox Sale Now On";
@@ -5635,19 +5635,19 @@
 "sale_view_regular_message" = "Now's the perfect time to go Pro. We've got a special offer on all Strongbox licenses for a short time only";
 
 /* Redeem Offer Now */
-"sale_view_subscriber_cta" = "Redeem Offer Now";
+"sale_view_subscriber_cta" = "Resgatar Código de Oferta";
 
 /* Go Pro Now */
-"sale_view_regular_cta" = "Go Pro Now";
+"sale_view_regular_cta" = "Mude para Pro Agora";
 
 /* Looking for a Lifetime License? */
 "sale_view_looking_for_lifetime" = "Procurando uma Licença Vitalícia?";
 
 /* Offer ends Midnight %@ - L10n note: The 1st parameter is a day, like Monday or Friday, so: "Offer ends Midnight Friday" for example */
-"sale_view_offer_ends_date_fmt %@" = "Offer ends Midnight %@";
+"sale_view_offer_ends_date_fmt %@" = "A oferta termina à meia-noite %@";
 
 /* Item Properties... */
-"generic_item_properties_ellipsis" = "Item Properties...";
+"generic_item_properties_ellipsis" = "Propriedades do Item...";
 
 /* Audit Issue Details... */
 "view_audit_issue_details_ellipsis" = "Audit Issue Details...";
@@ -5662,7 +5662,16 @@
 "item_settings_action_verb_toggle_suggest_in_audit" = "Toggle Audit this Item";
 
 /* for %@ hours - L10n note: the first parameter is numeric, e.g. "for 4 hours", which can appear in the UI as a suffix, so something like "Remember this for 12 hours" */
-"generic_for_n_hours_suffix_fmt" = "for %@ hours";
+"generic_for_n_hours_suffix_fmt" = "por %@ horas";
 
 /* until Strongbox quits - L10n note: used as a suffix, e.g. "Remember this until Strongbox quits" */
 "ssh_agent_remember_approval_until_strongbox_quits" = "until Strongbox quits";
+
+/* What format would you like to export to? */
+"export_what_format_question" = "What format would you like to export to?";
+
+/* Export Items */
+"export_items_dialog_title" = "Export Items";
+
+/* Export Group */
+"export_group_dialog_title" = "Export Group";

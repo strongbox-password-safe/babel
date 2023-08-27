@@ -7,6 +7,9 @@
 /* Class = "NSTextFieldCell"; title = "Strongbox will request approval for each new application that requests to use a key. This approval will be remembered for the period specified below."; ObjectID = "5sa-GK-U3q"; */
 "5sa-GK-U3q.title" = "Strongbox solicitará aprobación para cada nueva aplicación que solicite utilizar una clave. Esta aprobación será recordada para el período especificado a continuación.";
 
+/* Class = "NSTextFieldCell"; title = "If your database containing a requested SSH Key is locked, allow Strongbox to prompt you to Unlock. Otherwise Strongbox will simply deny access to requesting processes."; ObjectID = "AIv-9v-6Hg"; */
+"AIv-9v-6Hg.title" = "Si su base de datos que contiene una clave SSH solicitada está bloqueada, permita que Strongbox le pida que la desbloquee. De lo contrario, Strongbox simplemente denegará el acceso a los procesos solicitantes.";
+
 /* Class = "NSTextFieldCell"; title = "SSH Config Snippet"; ObjectID = "CDt-Bb-JvR"; */
 "CDt-Bb-JvR.title" = "Fragmento de configuración SSH";
 
@@ -15,6 +18,9 @@
 
 /* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "DKc-dY-iAz"; */
 "DKc-dY-iAz.title" = "Text Cell";
+
+/* Class = "NSButtonCell"; title = "Prevent Rapid Repeated Unlock Requests"; ObjectID = "DLa-c6-Asr"; */
+"DLa-c6-Asr.title" = "Evitar la repetición rápida de solicitudes de desbloqueo";
 
 /* Class = "NSButtonCell"; title = "Copy Snippet"; ObjectID = "DYE-5X-Y1O"; */
 "DYE-5X-Y1O.title" = "Copiar fragmento";
@@ -28,6 +34,9 @@
 /* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "NBQ-x4-PYL"; */
 "NBQ-x4-PYL.title" = "Text Cell";
 
+/* Class = "NSButtonCell"; title = "Allow Database Unlock Requests"; ObjectID = "NMo-kT-Crj"; */
+"NMo-kT-Crj.title" = "Permitir solicitudes de desbloqueo de bases de datos";
+
 /* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "OM8-vE-ZoN"; */
 "OM8-vE-ZoN.title" = "Text Cell";
 
@@ -39,6 +48,9 @@
 
 /* Class = "NSTextFieldCell"; title = "Error: Could not launch SSH Agent"; ObjectID = "VwH-fA-NJg"; */
 "VwH-fA-NJg.title" = "Error: No se pudo iniciar el agente SSH";
+
+/* Class = "NSTextFieldCell"; title = "Some processes can spawn multiple simultaneous requests for SSH Keys leading to repeated unlock requests. Strongbox can block these after the first unlock failure."; ObjectID = "YeP-Dg-KAc"; */
+"YeP-Dg-KAc.title" = "Algunos procesos pueden generar múltiples peticiones simultáneas de claves SSH, lo que lleva a repetidas peticiones de desbloqueo. Strongbox puede bloquearlas después del primer fallo de desbloqueo.";
 
 /* Class = "NSTextFieldCell"; title = "SSH Agent runs in the background and allows you to SSH with keys stored in your databases."; ObjectID = "ZBa-0R-Vmt"; */
 "ZBa-0R-Vmt.title" = "El Agente SSH se ejecuta en segundo plano y le permite realizar SSH con claves almacenadas en sus bases de datos.";
