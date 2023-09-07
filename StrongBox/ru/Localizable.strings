@@ -1363,11 +1363,11 @@
 /* %@ Failed */
 "open_sequence_biometric_unlock_warn_failed_title_fmt" = "Ошибка %@";
 
-/* %@ Authentication Failed. You must now enter your password manually to open the database. */
-"open_sequence_biometric_unlock_warn_failed_message_fmt" = "Ошибка аутентификации %@. Необходимо ввести свой пароль вручную, чтобы открыть БД.";
+/* You must now enter your password manually to open the database. */
+"open_sequence_biometric_unlock_warn_failed_message_fmt" = "You can cancel to try again or choose to unlock manually.";
 
 /* %@ has failed: %@. You must now enter your password manually to open the database. */
-"open_sequence_biometric_unlock_warn_not_configured_fmt" = "Ошибка %@: %@. Необходимо ввести свой пароль вручную, чтобы открыть БД.";
+"open_sequence_biometric_unlock_warn_not_configured_fmt" = "%@ has failed: %@.\n\nYou can cancel to try again or choose to unlock manually.";
 
 /* Error Reading Key File */
 "open_sequence_error_reading_key_file" = "Не удалось открыть файл-ключ. Откройте Файл-ключи в настройках и проверьте данные.";
@@ -2574,7 +2574,7 @@
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "Вы действительно хотите удалить поле '%@'?";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Вы действительно хотите удалить поле '%@'?";
 
 /* Add Custom Field */
 "mac_node_details_add_custom_field" = "Добавить поле";
@@ -3182,7 +3182,7 @@
 "audit_manual_pwn_check_result_not_pwned" = "Пароль не скомпрометирован и, вероятно, является безопасным.";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Manual HIBP Result";
+"audit_manual_pwn_check_result_title" = "Результат проверки";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "Пароль скомпрометирован";
@@ -3313,8 +3313,8 @@
 /* Could Not Open Local Copy */
 "open_sequence_couldnt_open_local_title" = "Ошибка при открытии офлайн";
 
-/* Could not open Strongbox's local copy of this database. A online sync is required. */
-"open_sequence_couldnt_open_local_message" = "Не удалось открыть локальную копию. Необходима синхронизация БД.";
+/* Could not open Strongbox's local copy of this database. A interactive sync is required. */
+"open_sequence_couldnt_open_local_message" = "Could not open Strongbox's local copy of this database. A Sync is required.";
 
 /* Sync Error */
 "open_sequence_storage_provider_error_title" = "Ошибка при синхронизации";
@@ -3377,7 +3377,7 @@
 "sftp_path_are_you_sure" = "Проверьте правильность пути. Это должен быть путь к папке, а не файлу.";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Are you sure the path is correct? It should be a path to a parent folder. Not the database file.";
+"sftp_path_are_you_sure" = "Проверьте правильность пути. Это должен быть путь к папке, а не файлу.";
 
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "Неверный путь к папке";
@@ -3653,7 +3653,7 @@
 "merge_view_are_you_sure" = "Вы действительно хотите объединить вторую БД в первую?";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Are you sure you want to merge the second database into the first?";
+"merge_view_are_you_sure" = "Вы действительно хотите объединить вторую БД в первую?";
 
 /* Merge Successful */
 "merge_view_merge_title_success" = "Объединение выполнено";
@@ -5668,10 +5668,10 @@
 "ssh_agent_remember_approval_until_strongbox_quits" = "до завершения работы приложения";
 
 /* What format would you like to export to? */
-"export_what_format_question" = "What format would you like to export to?";
+"export_what_format_question" = "В какой формат Вы хотите экспортировать?";
 
 /* Export Items */
-"export_items_dialog_title" = "Export Items";
+"export_items_dialog_title" = "Экспорт элементов";
 
 /* Export Group */
-"export_group_dialog_title" = "Export Group";
+"export_group_dialog_title" = "Экспорт группы";

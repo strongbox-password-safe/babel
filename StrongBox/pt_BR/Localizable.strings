@@ -1363,11 +1363,11 @@
 /* %@ Failed */
 "open_sequence_biometric_unlock_warn_failed_title_fmt" = "%@ Falhou";
 
-/* %@ Authentication Failed. You must now enter your password manually to open the database. */
-"open_sequence_biometric_unlock_warn_failed_message_fmt" = "Falha na Autenticação com %@. Você precisa digitar sua senha manualmente para abrir a base de dados.";
+/* You must now enter your password manually to open the database. */
+"open_sequence_biometric_unlock_warn_failed_message_fmt" = "You can cancel to try again or choose to unlock manually.";
 
 /* %@ has failed: %@. You must now enter your password manually to open the database. */
-"open_sequence_biometric_unlock_warn_not_configured_fmt" = "%@ falhou: %@. Você precisa digitar sua senha manualmente para abrir a base de dados.";
+"open_sequence_biometric_unlock_warn_not_configured_fmt" = "%@ has failed: %@.\n\nYou can cancel to try again or choose to unlock manually.";
 
 /* Error Reading Key File */
 "open_sequence_error_reading_key_file" = "Não foi possível ler o Arquivo Chave. Ele foi movido ou removido? Verifique o Gerenciamento de Arquivos Chave nas Preferências";
@@ -2574,7 +2574,7 @@
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "Tem certeza que deseja remover o campo personalizado '%@'?";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Tem certeza que deseja remover o campo personalizado '%@'?";
 
 /* Add Custom Field */
 "mac_node_details_add_custom_field" = "Adicionar Campo Personalizado";
@@ -3182,7 +3182,7 @@
 "audit_manual_pwn_check_result_not_pwned" = "Sua senha NÃO foi comprometida e tem boas chances de estar segura.";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Manual HIBP Result";
+"audit_manual_pwn_check_result_title" = "Resultado Manual do HIBP";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "Está senha foi comprometida e é vulnerável";
@@ -3313,8 +3313,8 @@
 /* Could Not Open Local Copy */
 "open_sequence_couldnt_open_local_title" = "Não Foi Possível Abrir Offline";
 
-/* Could not open Strongbox's local copy of this database. A online sync is required. */
-"open_sequence_couldnt_open_local_message" = "Não foi possível abrir a cópia local do Strongbox desta base de dados. Uma sincronização online é necessária.";
+/* Could not open Strongbox's local copy of this database. A interactive sync is required. */
+"open_sequence_couldnt_open_local_message" = "Could not open Strongbox's local copy of this database. A Sync is required.";
 
 /* Sync Error */
 "open_sequence_storage_provider_error_title" = "Erro de Sincronização";
@@ -3377,7 +3377,7 @@
 "sftp_path_are_you_sure" = "Tem certeza que o caminho está correto? Ele deveria ser um caminho para um diretório pai e não para um arquivo de base de dados.";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Are you sure the path is correct? It should be a path to a parent folder. Not the database file.";
+"sftp_path_are_you_sure" = "Tem certeza que o caminho está correto? Ele deveria ser um caminho para um diretório pai e não para um arquivo de base de dados.";
 
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "O Caminho Pode Ser Inválido";
@@ -3653,7 +3653,7 @@
 "merge_view_are_you_sure" = "Tem certeza que deseja unir a segunda base de dados com a primeira?";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Are you sure you want to merge the second database into the first?";
+"merge_view_are_you_sure" = "Tem certeza que deseja unir a segunda base de dados com a primeira?";
 
 /* Merge Successful */
 "merge_view_merge_title_success" = "Unificação Concluída Com Sucesso";

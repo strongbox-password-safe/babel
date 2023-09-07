@@ -315,7 +315,7 @@
 "browse_prefs_view_as_flat_list" = "条目";
 
 /* Group Hierarchy */
-"browse_prefs_view_as_folders" = "组";
+"browse_prefs_view_as_folders" = "群组";
 
 /* TOTPs */
 "browse_prefs_view_as_totp_list" = "TOTP";
@@ -336,10 +336,10 @@
 "browse_vc_are_you_sure_recycle_fmt" = "您确定要将'%@'移动到回收站吗？";
 
 /* Cannot create group */
-"browse_vc_cannot_create_group" = "无法创建组";
+"browse_vc_cannot_create_group" = "无法创建群组";
 
 /* Could not create a group with this name here, possibly because one with this name already exists. */
-"browse_vc_cannot_create_group_message" = "无法在此处创建具有此名称的组，可能是因为具有此名称的组已存在。";
+"browse_vc_cannot_create_group_message" = "无法在此处创建以此为名称的群组，可能是因为此名称的群组已存在。";
 
 /* There was an error trying to delete this item. */
 "browse_vc_delete_error_message" = "尝试删除此项时发生错误。";
@@ -354,7 +354,7 @@
 "browse_vc_email_copied_fmt" = "'%@' 电子邮箱已复制";
 
 /* Enter Group Name */
-"browse_vc_enter_group_name" = "输入组名称";
+"browse_vc_enter_group_name" = "输入群组名称";
 
 /* Please Enter the New Group Name: */
 "browse_vc_enter_group_name_message" = "请输入新群组名称：";
@@ -369,10 +369,10 @@
 "browse_vc_error_saving" = "保存错误";
 
 /* Group Name */
-"browse_vc_group_name" = "组名称";
+"browse_vc_group_name" = "群组名称";
 
 /* (in %@) - Translator's note, the 1st param is the name of the group that this search result is found in, e.g. 'Finance' or 'Work' */
-"browse_vc_group_path_string_fmt" = "(在 %@)";
+"browse_vc_group_path_string_fmt" = "（在 %@ 中）";
 
 /* '%@': No TOTP setup to Copy! */
 "browse_vc_no_totp_to_copy_fmt" = "'%@': 没有可复制的 TOTP 设置！";
@@ -396,7 +396,7 @@
 "browse_vc_sort_by_title" = "按标题排列项目？";
 
 /* Do you want to sort all the items in this group by Title? This will set the order in which they are stored in your database. */
-"browse_vc_sort_by_title_message" = "您想要按标题对该组中的所有项进行排序吗？ 这将设定它们存储在数据库中的顺序。";
+"browse_vc_sort_by_title_message" = "您想要按标题对该群组中的所有项进行排序吗？ 这将设定它们存储在数据库中的顺序。";
 
 /* You can long press, or double/triple tap to quickly copy fields... Give it a try! */
 "browse_vc_tip_fast_tap_message" = "您可以长按、轻点两次或轻点三次来快速复制字段... 试试看！";
@@ -1238,19 +1238,19 @@
 "moveentry_vc_error_saving" = "保存错误";
 
 /* Group Name */
-"moveentry_vc_add_group_prompt_placeholder" = "组名称";
+"moveentry_vc_add_group_prompt_placeholder" = "群组名称";
 
 /* Enter Group Name */
-"moveentry_vc_add_group_prompt_title" = "输入组名称";
+"moveentry_vc_add_group_prompt_title" = "输入群组名称";
 
 /* Please Enter the New Group Name */
 "moveentry_vc_add_group_prompt_message" = "请输入新群组名称";
 
 /* Could not create group */
-"moveentry_vc_warn_creating_group_title" = "无法创建组";
+"moveentry_vc_warn_creating_group_title" = "无法创建群组";
 
 /* Could not create group with that title here. */
-"moveentry_vc_warn_creating_group_message" = "无法在此处创建具有该标题的组。";
+"moveentry_vc_warn_creating_group_message" = "无法在此处创建具有该标题的群组。";
 
 /* Please Enter a Host */
 "sftp_vc_label_validation_enter_host" = "请输入主机";
@@ -1363,11 +1363,11 @@
 /* %@ Failed */
 "open_sequence_biometric_unlock_warn_failed_title_fmt" = "%@ 失败";
 
-/* %@ Authentication Failed. You must now enter your password manually to open the database. */
-"open_sequence_biometric_unlock_warn_failed_message_fmt" = "%@ 验证失败。您现在必须手动输入密码才能打开数据库。";
+/* You must now enter your password manually to open the database. */
+"open_sequence_biometric_unlock_warn_failed_message_fmt" = "You can cancel to try again or choose to unlock manually.";
 
 /* %@ has failed: %@. You must now enter your password manually to open the database. */
-"open_sequence_biometric_unlock_warn_not_configured_fmt" = "%@ 失败: %@。您现在必须手动输入密码才能打开数据库。";
+"open_sequence_biometric_unlock_warn_not_configured_fmt" = "%@ has failed: %@.\n\nYou can cancel to try again or choose to unlock manually.";
 
 /* Error Reading Key File */
 "open_sequence_error_reading_key_file" = "无法读取密钥文件。它是否已被移动或删除？请在偏好设置中检查密钥文件管理。";
@@ -1596,7 +1596,7 @@
 "pick_creds_vc_empty_dataset_subtitle" = "看来您的数据库是空的";
 
 /* Sample Group */
-"model_sample_group_title" = "示例组";
+"model_sample_group_title" = "示例群组";
 
 /* username */
 "model_sample_entry_username" = "用户名";
@@ -1788,7 +1788,7 @@
 "database_metadata_field_password_key_stretch_iterations" = "延伸密钥迭代次数";
 
 /* Error message indicating that these item(s) cannot be deserialized to this database because they contain two groups with the same title. */
-"node_serialization_error_duplicate_group_title_fmt" = "无法复制这些项，因为它们包含具有相同标题'%@'的两个组，不受此数据库格式支持。";
+"node_serialization_error_duplicate_group_title_fmt" = "无法复制这些项，因为它们包含具有相同标题'%@'的两个群组，不受此数据库格式支持。";
 
 /* Memory */
 "database_metadata_field_argon2_memory" = "内存";
@@ -2260,7 +2260,7 @@
 "mac_alert_cannot_create_item_here" = "您无法在此处创建新项。 它必须在现有文件夹中。";
 
 /* Please enter a Title for your new Group */
-"mac_please_enter_a_title_for_new_group" = "请为您的新组输入一个标题";
+"mac_please_enter_a_title_for_new_group" = "请为您的新群组输入一个标题";
 
 /* Are you sure you want to send '%@' to the Recycle Bin? - Translation Note: 1st Param is the Item Title */
 "mac_are_you_sure_recycle_bin_yes_no_fmt" = "您确定要将'%@'移动到回收站吗？";
@@ -2315,7 +2315,7 @@
 "mac_database_summary_number_of_entries" = "条目数";
 
 /* Number of Groups */
-"mac_database_summary_number_of_folders" = "组数";
+"mac_database_summary_number_of_folders" = "群组数量";
 
 /* This is a large image to use as an icon. Would you like to use a scaled down version to save %@? - Translators Note: 1st Parameter is how much space will be saved */
 "mac_large_image_as_icon_use_scaled_down_version_fmt" = "图像过大，无法作为图标使用。是否要使用缩减版本以节省 %@？";
@@ -2574,7 +2574,7 @@
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "您确定要移除自定义字段'%@'吗？";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "您确定要移除自定义字段'%@'吗？";
 
 /* Add Custom Field */
 "mac_node_details_add_custom_field" = "增加自定义字段";
@@ -2598,7 +2598,7 @@
 "mac_node_details_is_this_steam_totp" = "这是否是 Steam 令牌？(如果您不确定，请选择“否”。)";
 
 /* Could not change group! Validate failed... */
-"mac_node_details_could_not_change_group" = "无法更改分组！验证失败...";
+"mac_node_details_could_not_change_group" = "无法更改群组！验证失败...";
 
 /* '%@' %@ Copied - Translators Note: 1st Param is Title of Item, 2nd Param is the Field name e.g. Username or Password */
 "mac_field_copied_to_clipboard_fmt" = "'%@' %@ 已复制";
@@ -2888,7 +2888,7 @@
 "browse_add_entry_button_title" = "添加条目...";
 
 /* Add Group... */
-"browse_add_group_button_title" = "添加组...";
+"browse_add_group_button_title" = "添加群组...";
 
 /* Tags */
 "browse_vc_search_scope_tags" = "标签";
@@ -2912,7 +2912,7 @@
 "safes_vc_upgrade_info_trial_available_button_title" = "免费试用 3 个月 Pro 版";
 
 /* Would you like to add an entry or a group? */
-"browse_add_group_or_entry_question" = "要添加条目或组吗？";
+"browse_add_group_or_entry_question" = "要添加条目或群组吗？";
 
 /* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be securely stored for %@ before you need to re-enter it. Note for translators (1st Param = "Touch ID", 2nd Param is a time span something like "2 weeks") */
 "mac_use_biometric_to_open_in_future_fmt" = "您想要后续使用 %@ 或 Apple Watch 来解锁此数据库吗？ 您的主密码将被安全地存储 %@，然后您需要重新输入。";
@@ -3182,7 +3182,7 @@
 "audit_manual_pwn_check_result_not_pwned" = "您的密码并没有泄露，较大概率是安全的。";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Manual HIBP Result";
+"audit_manual_pwn_check_result_title" = "手动调整 HIBP 结果";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "这个密码已泄露，很容易受到攻击";
@@ -3313,8 +3313,8 @@
 /* Could Not Open Local Copy */
 "open_sequence_couldnt_open_local_title" = "无法离线打开";
 
-/* Could not open Strongbox's local copy of this database. A online sync is required. */
-"open_sequence_couldnt_open_local_message" = "无法打开此 Strongbox 数据库的本地副本。需要联机同步。";
+/* Could not open Strongbox's local copy of this database. A interactive sync is required. */
+"open_sequence_couldnt_open_local_message" = "Could not open Strongbox's local copy of this database. A Sync is required.";
 
 /* Sync Error */
 "open_sequence_storage_provider_error_title" = "同步错误";
@@ -3377,7 +3377,7 @@
 "sftp_path_are_you_sure" = "您确定路径正确吗？它应该是父文件夹的路径。而不是数据库文件。";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Are you sure the path is correct? It should be a path to a parent folder. Not the database file.";
+"sftp_path_are_you_sure" = "您确定路径正确吗？它应该是父文件夹的路径。而不是数据库文件。";
 
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "路径可能无效";
@@ -3479,10 +3479,10 @@
 "properties_vc_footer_basic" = "此项目的一些简单属性和设置。";
 
 /* Group Notes */
-"properties_vc_header_group_notes" = "组备注";
+"properties_vc_header_group_notes" = "群组备注";
 
 /* Notes set on this group. */
-"properties_vc_footer_group_notes" = "此组设置的备注。";
+"properties_vc_footer_group_notes" = "为此群组设置的备注。";
 
 /* Dates */
 "properties_vc_header_dates" = "日期";
@@ -3653,7 +3653,7 @@
 "merge_view_are_you_sure" = "您确定要将第二个数据库合并到第一个数据库吗？";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Are you sure you want to merge the second database into the first?";
+"merge_view_are_you_sure" = "您确定要将第二个数据库合并到第一个数据库吗？";
 
 /* Merge Successful */
 "merge_view_merge_title_success" = "合并成功";
@@ -3854,7 +3854,7 @@
 "diff_compare_partially_supported_title" = "支持部分比较";
 
 /* Because of the underlying database format(s) of these databases a full comparison is not possible. Pleaese use the KeePass 2 database format to allow detection of Moves, Deletions, and Group edits.\n\nYou can proceed with compare/merge but it may not be comprehensive. */
-"diff_compare_partially_supported_msg" = "由于这些数据库的基本数据库格式无法进行全面比较。只有 KeePass 2 格式允许检测移动、删除和分组编辑。\n\n您可以进行比较/合并，但它可能不全面。";
+"diff_compare_partially_supported_msg" = "由于这些数据库的底层数据库格式不同，因此无法进行全面比较。只有 KeePass 2 格式可以作检测移动、删除和群组编辑。\n\n您仍然可以进行比较/合并，但可能并不全面。";
 
 /* View As... */
 "browse_prefs_view_as_ellipsis" = "查看方式...";
@@ -4299,10 +4299,10 @@
 "item_properties_is_expanded" = "已展开";
 
 /* Group Expanded state will change. */
-"diff_drill_down_is_expanded_will_change" = "组扩展状态将会改变。";
+"diff_drill_down_is_expanded_will_change" = "群组扩展状态将发生变化。";
 
 /* Group Expanded states are different. */
-"diff_drill_down_expanded_states_are_different" = "组扩展状态不同。";
+"diff_drill_down_expanded_states_are_different" = "群组扩展状态不同。";
 
 /* Previous Parent Group */
 "item_properties_previous_parent_group" = "上一个父组";
@@ -4784,7 +4784,7 @@
 "discard_changes" = "放弃更改";
 
 /* Create Group */
-"create_group" = "创建组";
+"create_group" = "创建群组";
 
 /* Edit Entry */
 "edit_entry" = "编辑条目";
@@ -5668,10 +5668,10 @@
 "ssh_agent_remember_approval_until_strongbox_quits" = "直到 Strongbox 关闭";
 
 /* What format would you like to export to? */
-"export_what_format_question" = "What format would you like to export to?";
+"export_what_format_question" = "您希望导出成什么格式？";
 
 /* Export Items */
-"export_items_dialog_title" = "Export Items";
+"export_items_dialog_title" = "导出项目";
 
 /* Export Group */
-"export_group_dialog_title" = "Export Group";
+"export_group_dialog_title" = "导出群组";

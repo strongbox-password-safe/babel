@@ -1363,11 +1363,11 @@
 /* %@ Failed */
 "open_sequence_biometric_unlock_warn_failed_title_fmt" = "%@ Error";
 
-/* %@ Authentication Failed. You must now enter your password manually to open the database. */
-"open_sequence_biometric_unlock_warn_failed_message_fmt" = "%@ Error de autenticación. Ahora debe introducir la contraseña manualmente para abrir la base de datos.";
+/* You must now enter your password manually to open the database. */
+"open_sequence_biometric_unlock_warn_failed_message_fmt" = "You can cancel to try again or choose to unlock manually.";
 
 /* %@ has failed: %@. You must now enter your password manually to open the database. */
-"open_sequence_biometric_unlock_warn_not_configured_fmt" = "%@ ha fallado: %@. Ahora debe inroducir la contraseña manualmente para abrir la base de datos.";
+"open_sequence_biometric_unlock_warn_not_configured_fmt" = "%@ has failed: %@.\n\nYou can cancel to try again or choose to unlock manually.";
 
 /* Error Reading Key File */
 "open_sequence_error_reading_key_file" = "No se pudo leer el archivo clave. ¿Ha sido movido o eliminado? Compruebe la administración de archivos clave en Preferencias";
@@ -2574,7 +2574,7 @@
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "¿Está seguro de que quiere eliminar el campo personalizado '%@'?";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "¿Está seguro de que quiere eliminar el campo personalizado '%@'?";
 
 /* Add Custom Field */
 "mac_node_details_add_custom_field" = "Añadir campo personalizado";
@@ -3182,7 +3182,7 @@
 "audit_manual_pwn_check_result_not_pwned" = "Su contraseña NO ha sido pwned y probablemente sea segura.";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Manual HIBP Result";
+"audit_manual_pwn_check_result_title" = "Resultado de HIBP manual";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "Esta contraseña es pwned y es vulnerable";
@@ -3313,8 +3313,8 @@
 /* Could Not Open Local Copy */
 "open_sequence_couldnt_open_local_title" = "No se pudo abrir sin conexión";
 
-/* Could not open Strongbox's local copy of this database. A online sync is required. */
-"open_sequence_couldnt_open_local_message" = "No se pudo abrir la copia local de Strongbox de esta base de datos. Se requiere una sincronización en línea.";
+/* Could not open Strongbox's local copy of this database. A interactive sync is required. */
+"open_sequence_couldnt_open_local_message" = "Could not open Strongbox's local copy of this database. A Sync is required.";
 
 /* Sync Error */
 "open_sequence_storage_provider_error_title" = "Error de sincronización";
@@ -3377,7 +3377,7 @@
 "sftp_path_are_you_sure" = "¿Está seguro de que la ruta es correcta? Debe ser una ruta a una carpeta padre. No el archivo de base de datos.";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Are you sure the path is correct? It should be a path to a parent folder. Not the database file.";
+"sftp_path_are_you_sure" = "¿Está seguro de que la ruta es correcta? Debe ser una ruta a una carpeta padre. No el archivo de base de datos.";
 
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "La ruta puede no ser válida";
@@ -3653,7 +3653,7 @@
 "merge_view_are_you_sure" = "¿Está seguro de que desea fusionar la segunda base de datos en la primera?";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Are you sure you want to merge the second database into the first?";
+"merge_view_are_you_sure" = "¿Está seguro de que desea fusionar la segunda base de datos en la primera?";
 
 /* Merge Successful */
 "merge_view_merge_title_success" = "Fusión satisfactoria";
@@ -5668,10 +5668,10 @@
 "ssh_agent_remember_approval_until_strongbox_quits" = "hasta que Strongbox salga";
 
 /* What format would you like to export to? */
-"export_what_format_question" = "What format would you like to export to?";
+"export_what_format_question" = "¿A qué formato le gustaría exportar?";
 
 /* Export Items */
-"export_items_dialog_title" = "Export Items";
+"export_items_dialog_title" = "Exportar elementos";
 
 /* Export Group */
-"export_group_dialog_title" = "Export Group";
+"export_group_dialog_title" = "Exportar grupo";
