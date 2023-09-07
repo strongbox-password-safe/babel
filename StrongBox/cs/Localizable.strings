@@ -1363,11 +1363,11 @@
 /* %@ Failed */
 "open_sequence_biometric_unlock_warn_failed_title_fmt" = "%@ se nezdařilo";
 
-/* %@ Authentication Failed. You must now enter your password manually to open the database. */
-"open_sequence_biometric_unlock_warn_failed_message_fmt" = "%@ ověření se nezdařilo. Abyste mohli otevřít databázi, tak musíte zadat heslo ručně.";
+/* You must now enter your password manually to open the database. */
+"open_sequence_biometric_unlock_warn_failed_message_fmt" = "You can cancel to try again or choose to unlock manually.";
 
 /* %@ has failed: %@. You must now enter your password manually to open the database. */
-"open_sequence_biometric_unlock_warn_not_configured_fmt" = "%@ selhalo: %@. Abyste mohli otevřít databázi, tak musíte zadat heslo ručně.";
+"open_sequence_biometric_unlock_warn_not_configured_fmt" = "%@ has failed: %@.\n\nYou can cancel to try again or choose to unlock manually.";
 
 /* Error Reading Key File */
 "open_sequence_error_reading_key_file" = "Nepodařilo se přečíst soubor s klíčem. Byl přesunutý nebo odstraněný? Zkontrolujte v Předvolbách správu souborů s klíči";
@@ -3182,7 +3182,7 @@
 "audit_manual_pwn_check_result_not_pwned" = "Vaše heslo NEBYLO pwned a je pravděpodobně bezpečné.";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Ruční HIBP Výsledek";
+"audit_manual_pwn_check_result_title" = "Výsledek manuálního HIBP";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "Toto heslo je pwned a je tedy zranitelné";
@@ -3313,8 +3313,8 @@
 /* Could Not Open Local Copy */
 "open_sequence_couldnt_open_local_title" = "Nelze otevřít offline";
 
-/* Could not open Strongbox's local copy of this database. A online sync is required. */
-"open_sequence_couldnt_open_local_message" = "Nelze otevřít místní kopii této databáze Strongbox. Je vyžadována online synchronizace.";
+/* Could not open Strongbox's local copy of this database. A interactive sync is required. */
+"open_sequence_couldnt_open_local_message" = "Could not open Strongbox's local copy of this database. A Sync is required.";
 
 /* Sync Error */
 "open_sequence_storage_provider_error_title" = "Chyba synchronizace";
@@ -3653,7 +3653,7 @@
 "merge_view_are_you_sure" = "Opravdu chcete sloučit druhou databázi do první?";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Opravdu chcete sloučit druhou databázi s první?";
+"merge_view_are_you_sure" = "Opravdu chcete sloučit druhou databázi do první?";
 
 /* Merge Successful */
 "merge_view_merge_title_success" = "Sloučení bylo úspěšné";
