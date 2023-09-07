@@ -1363,11 +1363,11 @@
 /* %@ Failed */
 "open_sequence_biometric_unlock_warn_failed_title_fmt" = "%@ 失敗";
 
-/* %@ Authentication Failed. You must now enter your password manually to open the database. */
-"open_sequence_biometric_unlock_warn_failed_message_fmt" = "%@ 驗證失敗。您現在必須手動輸入密碼才能開啟資料庫。";
+/* You must now enter your password manually to open the database. */
+"open_sequence_biometric_unlock_warn_failed_message_fmt" = "You can cancel to try again or choose to unlock manually.";
 
 /* %@ has failed: %@. You must now enter your password manually to open the database. */
-"open_sequence_biometric_unlock_warn_not_configured_fmt" = "%@ 失敗：%@。您現在必須手動輸入密碼才能開啟資料庫。";
+"open_sequence_biometric_unlock_warn_not_configured_fmt" = "%@ has failed: %@.\n\nYou can cancel to try again or choose to unlock manually.";
 
 /* Error Reading Key File */
 "open_sequence_error_reading_key_file" = "無法讀取金鑰檔案。是否已移動或刪除？請在喜好設定中檢查金鑰檔案管理";
@@ -2574,7 +2574,7 @@
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "您確定要移除自訂欄位「%@」嗎？";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "您確定要移除自訂欄位「%@」嗎？";
 
 /* Add Custom Field */
 "mac_node_details_add_custom_field" = "新增自訂欄位";
@@ -3182,7 +3182,7 @@
 "audit_manual_pwn_check_result_not_pwned" = "您的密碼並沒有洩露，且很可能是安全的。";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Manual HIBP Result";
+"audit_manual_pwn_check_result_title" = "手動調整 HIBP 結果";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "這個密碼已洩露，很容易受到攻擊";
@@ -3313,8 +3313,8 @@
 /* Could Not Open Local Copy */
 "open_sequence_couldnt_open_local_title" = "無法離線開啟";
 
-/* Could not open Strongbox's local copy of this database. A online sync is required. */
-"open_sequence_couldnt_open_local_message" = "無法開啟此 Strongbox 資料庫的本機副本。需要線上同步。";
+/* Could not open Strongbox's local copy of this database. A interactive sync is required. */
+"open_sequence_couldnt_open_local_message" = "Could not open Strongbox's local copy of this database. A Sync is required.";
 
 /* Sync Error */
 "open_sequence_storage_provider_error_title" = "同步錯誤";
@@ -3377,7 +3377,7 @@
 "sftp_path_are_you_sure" = "您確定路徑正確嗎？應該要是父資料夾的路徑，而不是資料庫檔案的。";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Are you sure the path is correct? It should be a path to a parent folder. Not the database file.";
+"sftp_path_are_you_sure" = "您確定路徑正確嗎？應該要是父資料夾的路徑，而不是資料庫檔案的。";
 
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "路徑可能無效";
@@ -3653,7 +3653,7 @@
 "merge_view_are_you_sure" = "您確定要將第二個資料庫合併到第一個資料庫嗎？";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Are you sure you want to merge the second database into the first?";
+"merge_view_are_you_sure" = "您確定要將第二個資料庫合併到第一個資料庫嗎？";
 
 /* Merge Successful */
 "merge_view_merge_title_success" = "合併成功";
