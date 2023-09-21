@@ -2769,10 +2769,10 @@
 "casg_yubikey_configured_nfc" = "NFC";
 
 /* Slot 1 */
-"casg_yubikey_configured_slot1" = "Slot 1";
+"casg_yubikey_configured_slot1" = "Steckplatz 1";
 
 /* Slot 2 */
-"casg_yubikey_configured_slot2" = "Slot 2";
+"casg_yubikey_configured_slot2" = "Steckplatz 2";
 
 /* Hardware Key Unlock is not supported in AutoFill mode due to system constraints. You can configure a Virtual Hardware Key instead. */
 "open_sequence_cannot_use_yubikey_in_autofill_mode" = "Hardwareschlüssel-Entsperrung wird beim autom. Ausfüllen aufgrund von Systemeinschränkungen nicht unterstützt. Stattdessen können Sie einen virtuellen Hardwareschlüssel konfigurieren.";
@@ -4642,22 +4642,22 @@
 "databases_preferences_subtitle_field_name_create_date_precise" = "Erstellungsdatum (genau)";
 
 /* Hardware Slot %@ (Touch Required) - (Translators Note: Some YubiKey devices/configurations require the user to touch or press a button to authenticate. This string also takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_touch_required_fmt" = "Hardwareschlüssel Slot %@ (Berühren erforderlich)";
+"mac_yubikey_slot_n_touch_required_fmt" = "Hardwareschlüssel-Steckplatz %@ (Berühren erforderlich)";
 
 /* Hardware Slot %@ (Translators Note: This string takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
-"mac_yubikey_slot_n_fmt" = "Hardwareschlüssel Slot %@";
+"mac_yubikey_slot_n_fmt" = "Hardwareschlüssel-Steckplatz %@";
 
 /* No Hardware Keys Found */
 "mac_no_yubikeys_found" = "Keine Hardwareschlüssel gefunden";
 
 /* Hardware Key found but no compatible HMACSHA1 slots available */
-"mac_yubikey_available_but_no_compatible_slots" = "Hardwareschlüssel gefunden, aber keine kompatiblen HMAC-SHA1-Slots verfügbar";
+"mac_yubikey_available_but_no_compatible_slots" = "Hardwareschlüssel gefunden, aber keine kompatiblen HMAC-SHA1-Steckplatz verfügbar";
 
 /* Hardware Key %@ Slot %@ (Touch Required) - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2). Touch required means a physical action by the user pressing or touching the device is required. */
-"mac_yubikey_serial_number_slot_n_touch_required_fmt2" = "Hardwareschlüssel %@ Slot %@ (Berühren erforderlich)";
+"mac_yubikey_serial_number_slot_n_touch_required_fmt2" = "Hardwareschlüssel %@ Steckplatz %@ (Berühren erforderlich)";
 
 /* Hardware Key %@ Slot %@  - (Tranlators Note: 1st Parameter is a serial number like 11255332 and the 2nd Parameter is the Slot number, usualy 1 or 2) */
-"mac_yubikey_serial_number_slot_n_fmt2" = "Hardwareschlüssel %@ Slot %@";
+"mac_yubikey_serial_number_slot_n_fmt2" = "Hardwareschlüssel %@ Steckplatz %@";
 
 
 /* None (%@ Available) - L10n Guide: The 1st parameter is the number of detected hardware key/slots, but None have been selected by the user */
@@ -4673,10 +4673,10 @@
 "mac_hardware_key_key_configured_but_disconnected" = "⚠️ Getrennter Schlüssel (konfiguriert)";
 
 /* Connected Key Slot %@ (Configured) - L10n Guide: A hardware key has been previously configured/setup by the user for this database and it is also connected. The 1st parameter is slot number the user has configured. It will be '1' or '2'.  */
-"mac_hardware_key_configured_and_connected_slot_n_fmt" = "Verbundener Schlüssel Slot %@ (konfiguriert)";
+"mac_hardware_key_configured_and_connected_slot_n_fmt" = "Verbundener Schlüssel Steckplatz %@ (konfiguriert)";
 
 /* Connected Key Slot %@ - L10n Guide: A hardware key is connected. The 1st parameter is slot number that is available for use. It will be '1' or '2'.  */
-"mac_hardware_key_connected_slot_n_fmt" = "Verbundener Schlüssel Slot %@";
+"mac_hardware_key_connected_slot_n_fmt" = "Verbundener Schlüssel Steckplatz %@";
 
 /* ⚠️ Selected Key (Disconnected) - L10n Guide: The user previously selected a hardware key from the dropdown, but it has now been disconnected. */
 "mac_hardware_key_selected_but_has_been_disconnected" = "⚠️ Ausgewählter Schlüssel (getrennt)";
@@ -5719,16 +5719,16 @@
 "generic_noun_passkey" = "Passkey";
 
 /* Relying Party - L10n Note: This is related to Passkeys. It is a technical term from the spec. It is publicly visible/user facing. I am uncertain whether theser terms have a translation in your language, feel free to use your best judgement here about whether to localize or not. */
-"passkey_relying_party" = "Relying Party";
+"passkey_relying_party" = "Vertrauende Partei";
 
 /* Credential ID - L10n Note: This is related to Passkeys. It is a technical term from the spec. It is publicly visible/user facing. I am uncertain whether theser terms have a translation in your language, feel free to use your best judgement here about whether to localize or not.   */
-"passkey_credential_id" = "Credential ID";
+"passkey_credential_id" = "Anmelde-ID";
 
 /* User Handle - L10n Note: This is related to Passkeys. It is a technical term from the spec. It is publicly visible/user facing. I am uncertain whether theser terms have a translation in your language, feel free to use your best judgement here about whether to localize or not.  */
-"passkey_user_handle" = "User Handle";
+"passkey_user_handle" = "Benutzername";
 
 /* ECDSA / ES256 (Elliptic Curve) - L10n Note: This is related to Passkeys. It is a technical term. It is publicly visible/user facing. Feel free to use your best judgement here about whether to localize or not. */
-"passkey_ecdsa_es256_algo" = "ECDSA / ES256 (Elliptic Curve)";
+"passkey_ecdsa_es256_algo" = "ECDSA / ES256 (Elliptische Kurve)";
 
 /* Are you sure you want to remove the passkey from this entry? */
-"passkey_ays_remove_key" = "Are you sure you want to remove the passkey from this entry?";
+"passkey_ays_remove_key" = "Möchten Sie den Passkey wirklich von diesem Eintrag entfernen?";
