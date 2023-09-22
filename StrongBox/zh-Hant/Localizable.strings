@@ -2574,7 +2574,7 @@
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "您確定要移除自訂欄位「%@」嗎？";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "您確定要移除自訂欄位「%@」嗎？";
 
 /* Add Custom Field */
 "mac_node_details_add_custom_field" = "新增自訂欄位";
@@ -3182,7 +3182,7 @@
 "audit_manual_pwn_check_result_not_pwned" = "您的密碼並沒有洩露，且很可能是安全的。";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Manual HIBP Result";
+"audit_manual_pwn_check_result_title" = "手動調整 HIBP 結果";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "這個密碼已洩露，很容易受到攻擊";
@@ -3377,7 +3377,7 @@
 "sftp_path_are_you_sure" = "您確定路徑正確嗎？應該要是父資料夾的路徑，而不是資料庫檔案的。";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Are you sure the path is correct? It should be a path to a parent folder. Not the database file.";
+"sftp_path_are_you_sure" = "您確定路徑正確嗎？應該要是父資料夾的路徑，而不是資料庫檔案的。";
 
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "路徑可能無效";
@@ -3653,7 +3653,7 @@
 "merge_view_are_you_sure" = "您確定要將第二個資料庫合併到第一個資料庫嗎？";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Are you sure you want to merge the second database into the first?";
+"merge_view_are_you_sure" = "您確定要將第二個資料庫合併到第一個資料庫嗎？";
 
 /* Merge Successful */
 "merge_view_merge_title_success" = "合併成功";
@@ -5711,3 +5711,24 @@
 
 /* Save Passkey */
 "passkey_save_passkey" = "Save Passkey";
+
+/* Passkeys */
+"generic_noun_plural_passkeys" = "Passkeys";
+
+/* Passkey */
+"generic_noun_passkey" = "Passkey";
+
+/* Relying Party - L10n Note: This is related to Passkeys. It is a technical term from the spec. It is publicly visible/user facing. I am uncertain whether theser terms have a translation in your language, feel free to use your best judgement here about whether to localize or not. */
+"passkey_relying_party" = "Relying Party";
+
+/* Credential ID - L10n Note: This is related to Passkeys. It is a technical term from the spec. It is publicly visible/user facing. I am uncertain whether theser terms have a translation in your language, feel free to use your best judgement here about whether to localize or not.   */
+"passkey_credential_id" = "Credential ID";
+
+/* User Handle - L10n Note: This is related to Passkeys. It is a technical term from the spec. It is publicly visible/user facing. I am uncertain whether theser terms have a translation in your language, feel free to use your best judgement here about whether to localize or not.  */
+"passkey_user_handle" = "User Handle";
+
+/* ECDSA / ES256 (Elliptic Curve) - L10n Note: This is related to Passkeys. It is a technical term. It is publicly visible/user facing. Feel free to use your best judgement here about whether to localize or not. */
+"passkey_ecdsa_es256_algo" = "ECDSA / ES256 (Elliptic Curve)";
+
+/* Are you sure you want to remove the passkey from this entry? */
+"passkey_ays_remove_key" = "Are you sure you want to remove the passkey from this entry?";

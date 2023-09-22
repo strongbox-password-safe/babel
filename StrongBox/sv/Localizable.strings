@@ -819,7 +819,7 @@
 "upgrade_vc_price_per_year_fmt" = "%@ / year";
 
 /* (Save %@%%) - L10n Note: This is a percentage saved by choosing a yearly subscription over a monthly subscription, it will look like "(Save 56%)" */
-"upgrade_vc_percentage_saving_fmt" = "(Save %@%%)";
+"upgrade_vc_percentage_saving_fmt" = "(Spara %@%%)";
 
 /* %@/month (Save %d%%) */
 "upgrade_vc_price_per_month_with_percentage_saving_fmt" = "%@ / månad (spara %d%%)";
@@ -2574,7 +2574,7 @@
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "Är du säker på att du vill ta bort det anpassade fältet \"%@\"?";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Är du säker på att du vill ta bort det anpassade fältet \"%@\"?";
 
 /* Add Custom Field */
 "mac_node_details_add_custom_field" = "Lägg till anpassat fält";
@@ -3182,7 +3182,7 @@
 "audit_manual_pwn_check_result_not_pwned" = "Ditt lösenord har INTE blivit pwned och är förmodligen säkert.";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Manual HIBP Result";
+"audit_manual_pwn_check_result_title" = "Manuellt HIBP-resultat";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "Detta lösenord är pwned och är sårbart";
@@ -3377,7 +3377,7 @@
 "sftp_path_are_you_sure" = "Är du säker på att sökvägen är korrekt? Det ska vara en sökväg till en överordnad mapp. Inte databasfilen.";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Are you sure the path is correct? It should be a path to a parent folder. Not the database file.";
+"sftp_path_are_you_sure" = "Är du säker på att sökvägen är korrekt? Det ska vara en sökväg till en överordnad mapp. Inte databasfilen.";
 
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "Sökväg kan vara ogiltig";
@@ -3653,7 +3653,7 @@
 "merge_view_are_you_sure" = "Är du säker på att du vill slå ihop den andra databasen med den första?";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Are you sure you want to merge the second database into the first?";
+"merge_view_are_you_sure" = "Är du säker på att du vill slå ihop den andra databasen med den första?";
 
 /* Merge Successful */
 "merge_view_merge_title_success" = "Sammanslagning lyckades";
@@ -5384,7 +5384,7 @@
 "mac_create_or_edit_save_changes_and_close" = "Save & Close (⌘⏎)";
 
 /* Save (⌘S) */
-"mac_create_or_edit_save_changes" = "Save (⌘S)";
+"mac_create_or_edit_save_changes" = "Spara (⌘S)";
 
 /* Commit (⌘S) */
 "mac_create_or_edit_commit_changes" = "Genomför (⌘S)";
@@ -5530,7 +5530,7 @@
 "credentials_incorrect_database_locked" = "Those credentials are incorrect and your database has now been locked for security reasons.";
 
 /* Unsaved Changes */
-"generic_unsaved_changes" = "Unsaved Changes";
+"generic_unsaved_changes" = "Osparade ändringar";
 
 /* You have pending unsaved changes which should be saved before continuing.\n\nWould you like to save now? */
 "unsaved_changes_question_save_now" = "You have pending unsaved changes which should be saved before continuing.\n\nWould you like to save now?";
@@ -5554,7 +5554,7 @@
 "import_messages_header" = "Import Messages";
 
 /* Set New Master Password */
-"import_next_step_set_password" = "Set New Master Password";
+"import_next_step_set_password" = "Ange nytt huvudlösenord";
 
 /* Please consider sharing (support@strongboxsafe.com) the above messages with us to help us improve the import process.*/
 "import_please_share_import_messages" = "Please consider sharing (support@strongboxsafe.com) the above messages with us to help us improve the import process.";
@@ -5707,7 +5707,28 @@
 "passkey_new_entry_text" = "We'll create a new entry for this passkey. Choose a title and a group where you'd like to save it.";
 
 /* Group */
-"generic_field_name_group" = "Group";
+"generic_field_name_group" = "Grupp";
 
 /* Save Passkey */
 "passkey_save_passkey" = "Save Passkey";
+
+/* Passkeys */
+"generic_noun_plural_passkeys" = "Passkeys";
+
+/* Passkey */
+"generic_noun_passkey" = "Passkey";
+
+/* Relying Party - L10n Note: This is related to Passkeys. It is a technical term from the spec. It is publicly visible/user facing. I am uncertain whether theser terms have a translation in your language, feel free to use your best judgement here about whether to localize or not. */
+"passkey_relying_party" = "Relying Party";
+
+/* Credential ID - L10n Note: This is related to Passkeys. It is a technical term from the spec. It is publicly visible/user facing. I am uncertain whether theser terms have a translation in your language, feel free to use your best judgement here about whether to localize or not.   */
+"passkey_credential_id" = "Credential ID";
+
+/* User Handle - L10n Note: This is related to Passkeys. It is a technical term from the spec. It is publicly visible/user facing. I am uncertain whether theser terms have a translation in your language, feel free to use your best judgement here about whether to localize or not.  */
+"passkey_user_handle" = "User Handle";
+
+/* ECDSA / ES256 (Elliptic Curve) - L10n Note: This is related to Passkeys. It is a technical term. It is publicly visible/user facing. Feel free to use your best judgement here about whether to localize or not. */
+"passkey_ecdsa_es256_algo" = "ECDSA / ES256 (Elliptic Curve)";
+
+/* Are you sure you want to remove the passkey from this entry? */
+"passkey_ays_remove_key" = "Are you sure you want to remove the passkey from this entry?";
