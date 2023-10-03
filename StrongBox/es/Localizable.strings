@@ -3182,7 +3182,7 @@
 "audit_manual_pwn_check_result_not_pwned" = "Su contraseña NO ha sido pwned y probablemente sea segura.";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Resultado de HIBP manual";
+"audit_manual_pwn_check_result_title" = "Resultado HIBP manual";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "Esta contraseña es pwned y es vulnerable";
@@ -3653,7 +3653,7 @@
 "merge_view_are_you_sure" = "¿Está seguro de que desea fusionar la segunda base de datos en la primera?";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "¿Está seguro de que desea fusionar la segunda base de datos en la primera?";
+"merge_view_are_you_sure" = "¿Estás seguro de que quiere fusionar la segunda base de datos con la primera?";
 
 /* Merge Successful */
 "merge_view_merge_title_success" = "Fusión satisfactoria";
@@ -5732,3 +5732,30 @@
 
 /* Are you sure you want to remove the passkey from this entry? */
 "passkey_ays_remove_key" = "¿Está seguro de que desea eliminar la clave de acceso de esta entrada?";
+
+/* Your passkey was successfully created and saved to your database but Strongbox could not initiate a reload.\n\nYou should try to reload your database now. */
+"passkey_saved_but_could_not_reload" = "Su clave de acceso se ha creado y guardado correctamente en su base de datos, pero la Strongbox no ha podido iniciar una recarga.\n\nDebería intentar recargar su base de datos ahora.";
+
+/* Strongbox Not Running */
+"autofill_sb_not_running_title" = "Strongbox no está en ejecución";
+
+/* Strongbox must be running to register a new Passkey.\n\nMake sure Strongbox is running in the background. */
+"autofill_sb_not_running_message" = "Strongbox debe estar ejecutándose para registrar una nueva clave de acceso.\n\nAsegúrese de que Strongbox se está ejecutando en segundo plano.";
+
+/* Passkeys Unavailable */
+"passkeys_unavailable_alert_title" = "Claves de acceso no disponibles";
+
+/* For technical reasons, passkeys are unavailable in this database format. They are only supported by the KeePass 2 format. This is something you could migrate to. */
+"passkeys_unavailable_alert_message" = "Por razones técnicas, las claves de acceso no están disponibles en este formato de base de datos. Sólo están soportados por el formato KeePass 2. Esto es algo a lo que podría migrar.";
+
+/* Select Existing Entry */
+"passkeys_select_existing_entry_to_add_to_title" = "Seleccionar entrada existente";
+
+/* Please select an existing entry to add your new passkey */
+"passkeys_select_existing_entry_to_add_to_message" = "Por favor, seleccione una entrada existente para agregar su nueva clave de acceso";
+
+/* Are you sure you want to add this passkey to '%@'? - l10n note: the first parameter is the title of an existing entry in your database, like 'Amazon.com' or something. */
+"passkeys_are_you_sure_add_to_fmt" = "¿Está seguro que quiere agregar esta clave de acceso a '%@'?";
+
+/* Search */
+"generic_verb_search" = "Buscar";

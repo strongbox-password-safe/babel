@@ -2574,7 +2574,7 @@
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "您確定要移除自訂欄位「%@」嗎？";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "您確定要移除自訂欄位「%@」嗎？";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
 
 /* Add Custom Field */
 "mac_node_details_add_custom_field" = "新增自訂欄位";
@@ -3182,7 +3182,7 @@
 "audit_manual_pwn_check_result_not_pwned" = "您的密碼並沒有洩露，且很可能是安全的。";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "手動調整 HIBP 結果";
+"audit_manual_pwn_check_result_title" = "Manual HIBP Result";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "這個密碼已洩露，很容易受到攻擊";
@@ -3377,7 +3377,7 @@
 "sftp_path_are_you_sure" = "您確定路徑正確嗎？應該要是父資料夾的路徑，而不是資料庫檔案的。";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "您確定路徑正確嗎？應該要是父資料夾的路徑，而不是資料庫檔案的。";
+"sftp_path_are_you_sure" = "Are you sure the path is correct? It should be a path to a parent folder. Not the database file.";
 
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "路徑可能無效";
@@ -3653,7 +3653,7 @@
 "merge_view_are_you_sure" = "您確定要將第二個資料庫合併到第一個資料庫嗎？";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "您確定要將第二個資料庫合併到第一個資料庫嗎？";
+"merge_view_are_you_sure" = "Are you sure you want to merge the second database into the first?";
 
 /* Merge Successful */
 "merge_view_merge_title_success" = "合併成功";
@@ -5732,3 +5732,30 @@
 
 /* Are you sure you want to remove the passkey from this entry? */
 "passkey_ays_remove_key" = "Are you sure you want to remove the passkey from this entry?";
+
+/* Your passkey was successfully created and saved to your database but Strongbox could not initiate a reload.\n\nYou should try to reload your database now. */
+"passkey_saved_but_could_not_reload" = "Your passkey was successfully created and saved to your database but Strongbox could not initiate a reload.\n\nYou should try to reload your database now.";
+
+/* Strongbox Not Running */
+"autofill_sb_not_running_title" = "Strongbox Not Running";
+
+/* Strongbox must be running to register a new Passkey.\n\nMake sure Strongbox is running in the background. */
+"autofill_sb_not_running_message" = "Strongbox must be running to register a new Passkey.\n\nMake sure Strongbox is running in the background.";
+
+/* Passkeys Unavailable */
+"passkeys_unavailable_alert_title" = "Passkeys Unavailable";
+
+/* For technical reasons, passkeys are unavailable in this database format. They are only supported by the KeePass 2 format. This is something you could migrate to. */
+"passkeys_unavailable_alert_message" = "For technical reasons, passkeys are unavailable in this database format. They are only supported by the KeePass 2 format. This is something you could migrate to.";
+
+/* Select Existing Entry */
+"passkeys_select_existing_entry_to_add_to_title" = "Select Existing Entry";
+
+/* Please select an existing entry to add your new passkey */
+"passkeys_select_existing_entry_to_add_to_message" = "Please select an existing entry to add your new passkey";
+
+/* Are you sure you want to add this passkey to '%@'? - l10n note: the first parameter is the title of an existing entry in your database, like 'Amazon.com' or something. */
+"passkeys_are_you_sure_add_to_fmt" = "Are you sure you want to add this passkey to '%@'?";
+
+/* Search */
+"generic_verb_search" = "Search";

@@ -2330,7 +2330,7 @@
 "mac_is_this_a_stream_token_yes_no" = "Questo è un token di Steam? (Dire 'No' se non è sicuri)";
 
 /* Show Quick View Panel */
-"mac_show_quick_view_panel" = "Mostra Pannello Visualizzazione Rapida";
+"mac_show_quick_view_panel" = "Mostrare Pannello Visualizzazione Rapida";
 
 /* Hide Quick View Panel */
 "mac_hide_quick_view_panel" = "Nascondere Pannello Visualizzazione Rapida";
@@ -2574,7 +2574,7 @@
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "Si è sicuri di voler rimuovere il campo personalizzato '%@'?";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Si è sicuri di voler rimuovere il campo personalizzato '%@'?";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
 
 /* Add Custom Field */
 "mac_node_details_add_custom_field" = "Aggiungere Campo Personalizzato";
@@ -3182,7 +3182,7 @@
 "audit_manual_pwn_check_result_not_pwned" = "La tua password NON è stata rubata ed è probabilmente sicura.";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Risultato HIBP Manuale";
+"audit_manual_pwn_check_result_title" = "Manual HIBP Result";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "Questa password è compromessa ed è vulnerabile";
@@ -3377,7 +3377,7 @@
 "sftp_path_are_you_sure" = "Si è sicuri che il percorso sia corretto? Dovrebbe essere un percorso verso una cartella principale, non il file di database.";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Si è sicuri che il percorso sia corretto? Dovrebbe essere un percorso verso una cartella principale, non il file di database.";
+"sftp_path_are_you_sure" = "Are you sure the path is correct? It should be a path to a parent folder. Not the database file.";
 
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "Percorso Può Essere Non Valido";
@@ -3653,7 +3653,7 @@
 "merge_view_are_you_sure" = "Sicuri di voler unire il secondo database nel primo?";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Sicuri di voler unire il secondo database nel primo?";
+"merge_view_are_you_sure" = "Are you sure you want to merge the second database into the first?";
 
 /* Merge Successful */
 "merge_view_merge_title_success" = "Unione Riuscita";
@@ -4838,7 +4838,7 @@
 "generic_action_verb_launch_url" = "Avviare URL";
 
 /* Show QR Code */
-"generic_action_show_qr_code" = "Mostra Codice QR";
+"generic_action_show_qr_code" = "Mostrare Codice QR";
 
 /* Show Large Text View */
 "generic_action_show_large_text_view" = "Mostrare Vista Testo Grande";
@@ -4886,7 +4886,7 @@
 "generic_recycle_item" = "Cestinare Elemento";
 
 /* Show Details Panel */
-"main_menu_show_details_panel" = "Mostra Pannello Dettagli";
+"main_menu_show_details_panel" = "Mostrare Pannello Dettagli";
 
 /* Hide Details Panel */
 "main_menu_hide_details_panel" = "Nascondi Pannello Dettagli";
@@ -5722,13 +5722,40 @@
 "passkey_relying_party" = "Relying Party";
 
 /* Credential ID - L10n Note: This is related to Passkeys. It is a technical term from the spec. It is publicly visible/user facing. I am uncertain whether theser terms have a translation in your language, feel free to use your best judgement here about whether to localize or not.   */
-"passkey_credential_id" = "Credential ID";
+"passkey_credential_id" = "ID Credenziale";
 
 /* User Handle - L10n Note: This is related to Passkeys. It is a technical term from the spec. It is publicly visible/user facing. I am uncertain whether theser terms have a translation in your language, feel free to use your best judgement here about whether to localize or not.  */
-"passkey_user_handle" = "User Handle";
+"passkey_user_handle" = "Handle Utente";
 
 /* ECDSA / ES256 (Elliptic Curve) - L10n Note: This is related to Passkeys. It is a technical term. It is publicly visible/user facing. Feel free to use your best judgement here about whether to localize or not. */
 "passkey_ecdsa_es256_algo" = "ECDSA / ES256 (Curva Ellittica)";
 
 /* Are you sure you want to remove the passkey from this entry? */
 "passkey_ays_remove_key" = "Sei sicuro di voler rimuovere la passkey da questa voce?";
+
+/* Your passkey was successfully created and saved to your database but Strongbox could not initiate a reload.\n\nYou should try to reload your database now. */
+"passkey_saved_but_could_not_reload" = "Your passkey was successfully created and saved to your database but Strongbox could not initiate a reload.\n\nYou should try to reload your database now.";
+
+/* Strongbox Not Running */
+"autofill_sb_not_running_title" = "Strongbox Not Running";
+
+/* Strongbox must be running to register a new Passkey.\n\nMake sure Strongbox is running in the background. */
+"autofill_sb_not_running_message" = "Strongbox must be running to register a new Passkey.\n\nMake sure Strongbox is running in the background.";
+
+/* Passkeys Unavailable */
+"passkeys_unavailable_alert_title" = "Passkeys Unavailable";
+
+/* For technical reasons, passkeys are unavailable in this database format. They are only supported by the KeePass 2 format. This is something you could migrate to. */
+"passkeys_unavailable_alert_message" = "For technical reasons, passkeys are unavailable in this database format. They are only supported by the KeePass 2 format. This is something you could migrate to.";
+
+/* Select Existing Entry */
+"passkeys_select_existing_entry_to_add_to_title" = "Select Existing Entry";
+
+/* Please select an existing entry to add your new passkey */
+"passkeys_select_existing_entry_to_add_to_message" = "Please select an existing entry to add your new passkey";
+
+/* Are you sure you want to add this passkey to '%@'? - l10n note: the first parameter is the title of an existing entry in your database, like 'Amazon.com' or something. */
+"passkeys_are_you_sure_add_to_fmt" = "Are you sure you want to add this passkey to '%@'?";
+
+/* Search */
+"generic_verb_search" = "Search";
