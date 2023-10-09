@@ -2,7 +2,7 @@
 "safes_vc_upgrade_info_button_title" = "Upgrade Info";
 
 /* Upgrade Button Title with Days remaining of pro trial version */
-"safes_vc_upgrade_info_button_title_days_remaining" = "Upgrade Info - (%ld Pro days left)";
+"safes_vc_upgrade_info_button_title_days_remaining" = "Frissítési információ - (%ld Pro nap maradt még)";
 
 /* Upgrade Button Title asking to Please Upgrade */
 "safes_vc_upgrade_info_button_title_please_upgrade" = "Kérjük, frissítsen...";
@@ -32,34 +32,34 @@
 "safes_vc_action_set_as_quick_launch" = "Set Quick Launch";
 
 /* Button Title to Show in Files */
-"safes_vc_show_in_files" = "Show in Files";
+"safes_vc_show_in_files" = "Megjelenítés a fájlokban";
 
 /* Button Title to Hide from Files */
-"safes_vc_make_autofillable" = "Hide in Files";
+"safes_vc_make_autofillable" = "Elrejteni a fájlokban";
 
 /* Title of Prompt about setting Quick Launch */
-"safes_vc_about_quick_launch_title" = "About Quick Launch";
+"safes_vc_about_quick_launch_title" = "A gyors indításról";
 
 /* Message about quick launch feature and asking to confirm yes or no */
-"safes_vc_about_setting_quick_launch_and_confirm" = "Setting this database as your Quick Launch database means you will be automatically prompted to unlock this database as soon as you launch or re-activate Strongbox. This can save you one precious tap!\n\nSet as Quick Launch Database?";
+"safes_vc_about_setting_quick_launch_and_confirm" = "Ha ezt az adatbázist gyorsindítási adatbázisként állítja be, akkor a Strongbox indításakor vagy újraaktiválásakor automatikusan feloldásra kerül az adatbázis. Ezzel megspórolhat egy értékes koppintást!\n\nGyorsindítási adatbázisként beállítani?";
 
 /* Button title to Show Database in iOS Files App */
 "safes_vc_show_database_in_files_info" = "Ha ezt az adatbázist láthatóvá teszi a Fájlok alkalmazásban, az adatbázis elérhetővé válik a Finder segítségével is a Mac számítógépén.";
 
 /* Button title to Hide Database from the iOS Files App */
-"safes_vc_make_database_auto_fill_info" = "Hiding this database from the Files App also means it will no longer be visible via Finder on your Mac.";
+"safes_vc_make_database_auto_fill_info" = "Az adatbázis elrejtése a Fájlok alkalmazásból azt is jelenti, hogy a továbbiakban nem lesz látható a Mac számítógépén a Finder segítségével.";
 
 /* OK/Cancel prompt title for changing local storage mode */
-"safes_vc_change_local_device_storage_mode_title" = "Change Files Visibility";
+"safes_vc_change_local_device_storage_mode_title" = "Fájlok láthatóságának módosítása";
 
 /* error message could not change local storage */
-"safes_vc_could_not_change_storage_location_error" = "Could not change Files visibility";
+"safes_vc_could_not_change_storage_location_error" = "Nem lehetett megváltoztatni a fájlok láthatóságát";
 
 /* informational message - made the file visible in iOS Files */
-"safes_vc_database_made_visible_in_files" = "This database has been made visible in the Files App";
+"safes_vc_database_made_visible_in_files" = "Ez az adatbázis láthatóvá vált a Fájlok alkalmazásban";
 
 /* informational message - made the database fully autofillable */
-"safes_vc_database_made_fully_autofillable" = "This database has been hidden from the Files App";
+"safes_vc_database_made_fully_autofillable" = "Ez az adatbázis el lett rejtve a Fájlok alkalmazásból";
 
 /* information message = title changed storage mode */
 "safes_vc_local_storage_mode_changed" = "A fájlok láthatósága megváltozott";
@@ -135,7 +135,7 @@
 "safesvc_icloud_no_longer_available_title" = "iCloud no longer available";
 
 /* iCloud has become unavailable. Your iCloud databases remain stored in iCloud but they will no longer sync to or from this device though you may still access them here. */
-"safesvc_icloud_no_longer_available_message" = "iCloud has become unavailable. Your iCloud databases remain stored in iCloud but they will no longer sync to or from this device though you may still access them here.";
+"safesvc_icloud_no_longer_available_message" = "az iCloud elérhetetlenné vált. Az iCloud-adatbázisai továbbra is az iCloudban maradnak, de többé nem szinkronizálódnak erre az eszközre vagy erről az eszközről, bár továbbra is hozzáfér azokhoz.";
 
 /* You can now use iCloud with Strongbox. Should your current local databases be migrated to iCloud and available on all your devices? (NB: Your existing cloud databases will not be affected) */
 "safesvc_migrate_local_existing" = "Most már használhatja az iCloudot a Strongboxszal. A jelenlegi helyi adatbázisait át kell telepíteni az iCloudba, és minden eszközén elérhetővé kell tenni? (Megjegyzés: a meglévő felhőadatbázisait ez nem érinti)";
@@ -312,13 +312,13 @@
 "browse_prefs_view_as" = "Megtekintés mint";
 
 /* Flat List */
-"browse_prefs_view_as_flat_list" = "Entries";
+"browse_prefs_view_as_flat_list" = "Bejegyzések";
 
 /* Group Hierarchy */
 "browse_prefs_view_as_folders" = "Csoportok";
 
 /* TOTPs */
-"browse_prefs_view_as_totp_list" = "TOTPs";
+"browse_prefs_view_as_totp_list" = "TOTP";
 
 /* Set Icon */
 "browse_vc_action_set_icon" = "Ikon beállítása";
@@ -447,7 +447,7 @@
 "casg_database_format_information_pwsafe" = "PSAFE3 version 3.x, TwoFish, SHA256";
 
 /* One Off */
-"casg_detail_label_one_off_key_file_selected" = "One Off";
+"casg_detail_label_one_off_key_file_selected" = "Egyszeri";
 
 /* Auto-Detected */
 "casg_key_file_auto_detected" = "Auto-Detected";
@@ -720,7 +720,7 @@
 "prefs_vc_info_email_not_available_title" = "Email nem elérhető";
 
 /* It is very important that you know your master password for your databases, and that you are not relying entirely on %@.\nThe migration and importation process makes every effort to maintain %@ data but it is not guaranteed. In any case it is important that you always know your master passwords.\n\nDo you want to continue changing iCloud usage settings? - Translators Note - the parameters are the name of the biometric ID, so either "Face ID" or "Touch ID" depending on the device */
-"prefs_vc_master_password_icloud_migration_yesno_warning_message_fmt" = "It is very important that you know your master password for your databases, and that you are not relying entirely on %@.\nThe migration and importation process makes every effort to maintain %@ data but it is not guaranteed. In any case it is important that you always know your master passwords.\n\nDo you want to continue changing iCloud usage settings?";
+"prefs_vc_master_password_icloud_migration_yesno_warning_message_fmt" = "Nagyon fontos, hogy ismerje az adatbázisok fő jelszavát, és hogy ne hagyatkozzon teljes mértékben a %@ címre.\nA migrációs és importálási folyamat mindent megtesz a %@ adatok fenntartása érdekében, de ez nem garantált. Mindenesetre fontos, hogy mindig ismerje a mesterjelszavakat.\n\nSzeretné folytatni az iCloud-használati beállítások módosítását?";
 
 /* Master Password Warning */
 "prefs_vc_master_password_icloud_migration_yesno_warning_title" = "Mesterjelszó figyelmeztetés";
@@ -768,7 +768,7 @@
 "sspc_ios_files_storage_location" = "Fájlok";
 
 /* Since a local database is only stored on this device, any loss of this device will lead to the loss of all passwords stored within this database. You may want to consider using a cloud storage provider, such as the ones supported by Strongbox to avoid catastrophic data loss.\n\nWould you still like to proceed with creating a local device database? */
-"sspc_local_device_storage_warning_message" = "Since a local database is only stored on this device, any loss of this device will lead to the loss of all passwords stored within this database. You may want to consider using a cloud storage provider, such as the ones supported by Strongbox to avoid catastrophic data loss.\n\nWould you still like to proceed with creating a local device database?";
+"sspc_local_device_storage_warning_message" = "Mivel a helyi adatbázis csak ezen az eszközön tárolódik, az eszköz elvesztése az ebben az adatbázisban tárolt összes jelszó elvesztéséhez vezet. A katasztrofális adatvesztés elkerülése érdekében érdemes megfontolni egy felhőalapú tárhelyszolgáltató használatát, például a Strongbox által támogatottakat.\n\nTovábbra is szeretné folytatni a helyi adatbázis létrehozását?";
 
 /* Local Device Database Caveat */
 "sspc_local_device_storage_warning_title" = "Local Device Database Caveat";
@@ -891,7 +891,7 @@
 "upgrade_mgr_downgrade_title" = "Strongbox Downgrade";
 
 /* Strongbox is having trouble verifying its App Store entitlements. This could lead to a future App downgrade. Please contact support@strongboxsafe.com to get some help with this. */
-"upgrade_mgr_entitlements_error_message" = "Strongbox is having trouble verifying its App Store entitlements. This could lead to a future App downgrade. Please contact support@strongboxsafe.com to get some help with this.";
+"upgrade_mgr_entitlements_error_message" = "A Strongboxnak problémája merült fel az App Store jogosultságok ellenőrzésével. Ez az App leminősítéséhez vezethet a jövőben. Kérjük, lépjen kapcsolatba a support@strongboxsafe.com címen, hogy segítséget kapjon ebben az ügyben.";
 
 /* Strongbox Entitlements Error */
 "upgrade_mgr_entitlements_error_title" = "Strongbox Entitlements Error";
@@ -1061,7 +1061,7 @@
 "key_files_vc_remove_after_import_title" = "Eltávolítás importálás után";
 
 /* Do you want to remove the key file from the local Documents folder after import? This will mean it is not visible in iOS Files or accessible via iTunes File Sharing? */
-"key_files_vc_remove_after_import_message" = "Do you want to remove the key file from the local Documents folder after import? This will mean it is not visible in iOS Files or accessible via iTunes File Sharing.";
+"key_files_vc_remove_after_import_message" = "Szeretné eltávolítani a kulcsfájlt a helyi Dokumentumok mappából az importálás után? Ez azt jelenti, hogy nem lesz látható az iOS Fájlok között, és nem lesz elérhető az iTunes fájlmegosztáson keresztül.";
 
 /* Yes, Remove Local Copy */
 "key_files_vc_remove_after_import_option_yes" = "Igen, távolítsa el a helyi másolatot";
@@ -1142,7 +1142,7 @@
 "add_attachment_vc_error_reading_message" = "Nem sikerült beolvasni az elem adatait.";
 
 /* This is quite a large file (%@), and could significantly affect the performance of Strongbox and slow down syncs across networks. Is there a smaller version you could use?\n\nContinue adding this attachment anyway? */
-"add_attachment_vc_large_file_message_fmt" = "This is quite a large file (%@), and could significantly affect the performance of Strongbox and slow down syncs across networks. Is there a smaller version you could use?\n\nContinue adding this attachment anyway?";
+"add_attachment_vc_large_file_message_fmt" = "Ez egy elég nagy fájl (%@), és jelentősen befolyásolhatja a Strongbox teljesítményét, és lelassíthatja a hálózaton keresztüli szinkronizálást. Van egy kisebb verzió, amit használhatna?\n\nTovábbra is hozzá kívánja adni ezt a mellékletet?";
 
 /* Large Attachment */
 "add_attachment_vc_large_file_title" = "Large Attachment";
@@ -1151,10 +1151,10 @@
 "add_attachment_vc_large_file_analyzing_progress_title" = "Analyzing Image...";
 
 /* This is a rather large image which could negatively affect the performance of Strongbox, and significantly slow down network synchronisation times. Would you like to rescale this image to one of the streamlined options below? */
-"add_attachment_vc_large_image_message_rescale" = "This is a rather large image which could negatively affect the performance of Strongbox, and significantly slow down network synchronisation times. Would you like to rescale this image to one of the streamlined options below?";
+"add_attachment_vc_large_image_message_rescale" = "Ez egy meglehetősen nagyméretű kép, amely negatívan befolyásolhatja a Strongbox teljesítményét, és jelentősen lelassíthatja a hálózati szinkronizálási időt. Szeretné átméretezni ezt a képet az alábbi egyszerűsített lehetőségek egyikére?";
 
 /* This is a rather large image which could negatively affect the performance of Strongbox, and significantly slow down network synchronisation times. Is there a smaller version you could use? */
-"add_attachment_vc_large_image_message" = "This is a rather large image which could negatively affect the performance of Strongbox, and significantly slow down network synchronisation times. Is there a smaller version you could use?";
+"add_attachment_vc_large_image_message" = "Ez egy meglehetősen nagyméretű kép, amely negatívan befolyásolhatja a Strongbox teljesítményét, és jelentősen lelassíthatja a hálózati szinkronizálási időt. Van kisebb méretű verzió, amit használni lehetne?";
 
 /* Rescale Large Image? */
 "add_attachment_vc_large_image_prompt_rescale_title" = "Rescale Large Image?";
@@ -1373,13 +1373,13 @@
 "open_sequence_error_reading_key_file" = "Nem sikerült beolvasni a kulcsfájlt. Át lett helyezve, vagy le lett törölve? Jelölje be a Kulcsfájlok kezelését a beállításokban";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc, 2nd param is the date/time of the last cache) */
-"open_sequence_user_looks_offline_open_offline_instead_fmt" = "It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@";
+"open_sequence_user_looks_offline_open_offline_instead_fmt" = "Úgy tűnik, hogy Ön offline és a '%@' nem elérhető. Szeretné az adatbázis csak olvasható offline cache verzióját használni helyette?\n\nUtolsó gyorsítótárazott: %@";
 
 /* No, Try to connect anyway */
 "open_sequence_yesno_use_offline_cache_no_try_connect_option" = "Nem, mindenképp próbáljon meg csatlakozni";
 
 /* There was a problem reading the database on %@. would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ */
-"open_sequence_storage_unreachable_open_offline_instead_fmt" = "There was a problem reading the database on %@. If this happens repeatedly you should try removing and re-adding your database. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@";
+"open_sequence_storage_unreachable_open_offline_instead_fmt" = "Probléma adódott az adatbázis olvasásával a %@ oldalon. Ha ez ismételten előfordul, próbálja meg eltávolítani és újra hozzáadni az adatbázist. Szeretné helyette az adatbázis csak olvasható, offline gyorsítótáras változatát használni?\n\nUtolsó gyorsítótárazott: %@";
 
 /* Could not open database
    There was a problem opening the database. */
@@ -1395,7 +1395,7 @@
 "key_files_vc_no_key_file" = "Nincs kulcsfájl";
 
 /* The stored convenience password or other composite key factors (key file/hardware key) were incorrect for this database. Convenience Unlock has been Disabled. */
-"open_sequence_problem_opening_convenience_incorrect_message" = "The stored convenience password or other composite key factors (key file/hardware key) were incorrect for this database. Convenience Unlock has been Disabled.";
+"open_sequence_problem_opening_convenience_incorrect_message" = "A tárolt kényelmi jelszó vagy más összetett kulcstényezők (kulcsfájl/hardverkulcs) helytelenek voltak ehhez az adatbázishoz. A kényelmi feloldás letiltásra került.";
 
 /* Incorrect Credentials */
 "open_sequence_problem_opening_incorrect_credentials_title" = "Incorrect Credentials";
@@ -1458,7 +1458,7 @@
 "privacy_vc_prompt_biometrics_unavailable_title" = "Biometrics Unavailable";
 
 /* This application requires a biometric unlock but biometrics is unavailable on this device. You must re-enable biometrics to continue unlocking this application. */
-"privacy_vc_prompt_biometrics_unavailable_message" = "This application requires a biometric unlock but biometrics is unavailable on this device. You must re-enable biometrics to continue unlocking this application.";
+"privacy_vc_prompt_biometrics_unavailable_message" = "Ez az alkalmazás biometrikus feloldást igényel, de a biometrikus feloldás ezen a készüléken nem érhető el. Az alkalmazás feloldásának folytatásához újra engedélyeznie kell a biometriát.";
 
 /* Identify to Open Strongbox */
 "privacy_vc_prompt_identify_to_open" = "Identify to Open Strongbox";
@@ -1617,13 +1617,13 @@
 "pwgen_wordlist_beale" = "Beale";
 
 /* Catalan */
-"pwgen_wordlist_catalan" = "Catalan";
+"pwgen_wordlist_catalan" = "Katalán";
 
 /* Diceware (Arnold G. Reinhold's Original) */
 "pwgen_wordlist_diceware" = "Diceware (Arnold G. Reinhold eredetije)";
 
 /* Dutch */
-"pwgen_wordlist_dutch" = "Dutch";
+"pwgen_wordlist_dutch" = "Holland";
 
 /* EFF Short (v1.0) */
 "pwgen_wordlist_eff_short_1" = "EFF Short (v1.0)";
@@ -1632,10 +1632,10 @@
 "pwgen_wordlist_eff_short_2" = "EFF Short (v2.0 - More memorable, unique prefix)";
 
 /* French */
-"pwgen_wordlist_french" = "French";
+"pwgen_wordlist_french" = "Francia";
 
 /* German */
-"pwgen_wordlist_german" = "German";
+"pwgen_wordlist_german" = "Német";
 
 /* Google (U.S. English, No Swears) */
 "pwgen_wordlist_google" = "Google (U.S. English, No Swears)";
@@ -1644,10 +1644,10 @@
 "pwgen_wordlist_italian" = "Italian";
 
 /* Japanese */
-"pwgen_wordlist_japanese" = "Japanese";
+"pwgen_wordlist_japanese" = "Japán";
 
 /* Polish */
-"pwgen_wordlist_polish" = "Polish";
+"pwgen_wordlist_polish" = "Lengyel";
 
 /* Swedish */
 "pwgen_wordlist_swedish" = "Svéd";
@@ -1734,7 +1734,7 @@
 "browse_vc_section_title_recents" = "Legutóbbi elemek";
 
 /* Standard View Sections Header */
-"browse_vc_section_title_standard_view" = "Items";
+"browse_vc_section_title_standard_view" = "Elemek";
 
 /* Compressed */
 "database_metadata_field_compressed" = "Tömörített";
@@ -1839,7 +1839,7 @@
 "upgrade_family_sharing_info_title" = "Apple Family Sharing";
 
 /* A message about how you will need to download/purchase a separate App for Apple Family Sharing to work */
-"upgrade_family_sharing_info_message" = "To benefit from Apple Family Sharing you need to have 'Apple Family Sharing' setup for your family. Then you should purchase the separate Family Sharing Edition of Strongbox.\nTap OK to view this edition on the App Store";
+"upgrade_family_sharing_info_message" = "Az Apple Family Sharing előnyeinek kihasználásához be kell állítania az \"Apple Family Sharing\" szolgáltatást a családja számára. Ezután meg kell vásárolnia a Strongbox különálló Family Sharing Edition kiadását.\nTappoljon az OK gombra a verzió megtekintéséhez az App Store-ban";
 
 /* Need Apple Family Sharing? */
 "upgrade_family_sharing_button_title" = "Apple családi megosztásra van szüksége?";
@@ -1869,7 +1869,7 @@
 "prefs_vc_info_email_support_options_mail_support" = "Email támogatás (Angol)";
 
 /* No comment provided by engineer. */
-"transfer_over_local_network_website_prologue" = "<p>Drag &amp; drop files on this window or use the \"Upload Files&hellip;\" button to upload new files. If these files are valid KeePass or Password Safe databases they will be automatically be added to your Databases collection.</p>";
+"transfer_over_local_network_website_prologue" = "<p>Húzza a &amp; fájlokat erre az ablakra, vagy használja a \"Fájlok feltöltése&hellip;\" gombot új fájlok feltöltéséhez. Ha ezek a fájlok érvényes KeePass vagy Password Safe adatbázisok, akkor automatikusan hozzáadódnak az Adatbázisok gyűjteményéhez.</p>";
 
 /**********************************************************************************************************************/
 /* FUTURE: genericise... */
@@ -1956,7 +1956,7 @@
 "generic_cancel" = "Mégsem";
 
 /* Clear */
-"generic_clear" = "Clear";
+"generic_clear" = "Töröl";
 
 /* Database */
 "generic_database" = "Adatbázis";
@@ -2108,7 +2108,7 @@
 "edit_date_cell_date_field_placeholder" = "Dátum";
 
 /* Time */
-"edit_date_cell_time_field_placeholder" = "Time";
+"edit_date_cell_time_field_placeholder" = "Idő";
 
 /* Remove */
 "key_files_vc_option_remove" = "Eltávolítás";
@@ -2245,16 +2245,16 @@
 "mac_drag_drop_between_databases_keepass_email_field_not_supported" = "KeePass does not natively support the 'Email' field. Strongbox will add it instead as a custom field.\nDo you want to continue?";
 
 /* KeePass 1 does not support entries at the root level, these will be discarded. KeePass 1 also does not natively support the 'Email' field. Strongbox will append it instead to the end of the 'Notes' field.\nDo you want to continue? */
-"mac_keepass1_does_not_support_root_entries" = "KeePass 1 does not support entries at the root level, these will be discarded. KeePass 1 also does not natively support the 'Email' field. Strongbox will append it instead to the end of the 'Notes' field.\nDo you want to continue?";
+"mac_keepass1_does_not_support_root_entries" = "A KeePass 1 nem támogatja a gyökérszintű bejegyzéseket, ezeket a bejegyzéseket a rendszer elveti. A KeePass 1 szintén nem támogatja az 'Email' mezőt. A Strongbox ehelyett a 'Notes' mező végéhez fogja csatolni.\nSzeretné folytatni?";
 
 /* The Password Safe format does not support icons, attachments or custom fields. If you continue, these fields will not be copied to this database.\nDo you want to continue without these fields? */
-"mac_password_safe_fmt_does_not_support_icons_attachments_warning" = "The Password Safe format does not support icons, attachments or custom fields. If you continue, these fields will not be copied to this database.\nDo you want to continue without these fields?";
+"mac_password_safe_fmt_does_not_support_icons_attachments_warning" = "A Password Safe formátum nem támogatja az ikonokat, a mellékleteket és az egyéni mezőket. Ha folytatja, ezek a mezők nem kerülnek átmásolásra ebbe az adatbázisba.\nEzen mezők nélkül szeretné folytatni?";
 
 /* The KeePass 1 (KDB) does not support entries at the root level, these will be discarded.\n\nThe KeePass 1 (KDB) format also does not support multiple attachments, custom fields or custom icons. If you continue only the first attachment from each item will be copied to this database. Custom Fields and Icons will be discarded.\nDo you want to continue? */
-"mac_keepass1_does_not_support_root_entries_or_attachments" = "The KeePass 1 (KDB) does not support entries at the root level, these will be discarded.\n\nThe KeePass 1 (KDB) format also does not support multiple attachments, custom fields or custom icons. If you continue only the first attachment from each item will be copied to this database. Custom Fields and Icons will be discarded.\nDo you want to continue?";
+"mac_keepass1_does_not_support_root_entries_or_attachments" = "A KeePass 1 (KDB) nem támogatja a gyökérszintű bejegyzéseket, ezeket a bejegyzéseket a rendszer elveti.\n\nA KeePass 1 (KDB) formátum nem támogatja a többszörös mellékleteket, az egyéni mezőket és az egyéni ikonokat sem. Ha folytatja, akkor minden elemből csak az első mellékletet másolja át a rendszer ebbe az adatbázisba. Az egyéni mezők és ikonok el lesznek dobva.\nSzeretné folytatni?";
 
 /* The Password Safe format does not support attachments or icons. If you continue, these fields will not be copied to this database.\nDo you want to continue without these fields? */
-"mac_password_safe_does_not_support_attachments_icons_continue_yes_no" = "The Password Safe format does not support attachments or icons. If you continue, these fields will not be copied to this database.\nDo you want to continue without these fields?";
+"mac_password_safe_does_not_support_attachments_icons_continue_yes_no" = "A Password Safe formátum nem támogatja a mellékleteket és az ikonokat. Ha folytatja, ezek a mezők nem kerülnek átmásolásra ebbe az adatbázisba.\nEzen mezők nélkül kívánja folytatni?";
 
 /* You cannot create a new item here. It must be within an existing folder. */
 "mac_alert_cannot_create_item_here" = "Itt nem hozhat létre új elemet. Egy meglévő mappában kell lennie.";
@@ -2505,7 +2505,7 @@
 "mac_alerts_input_custom_field_protected_checkbox" = "Védett";
 
 /* Key */
-"mac_alerts_input_custom_field_label_key" = "Key";
+"mac_alerts_input_custom_field_label_key" = "Kulcs";
 
 /* Value */
 "mac_alerts_input_custom_field_label_value" = "Érték";
@@ -2685,7 +2685,7 @@
 "open_sequence_warn_biometrics_db_changed_title" = "A biometrikus adatbázis megváltozott";
 
 /* It looks like your biometrics database has changed, probably because you added a new face or fingerprint. Strongbox now requires you to re-enter your master credentials manually for security reasons. */
-"open_sequence_warn_biometrics_db_changed_message" = "It looks like your biometrics database has changed, probably because you added a new face or fingerprint. Strongbox now requires you to re-enter your master credentials manually for security reasons.";
+"open_sequence_warn_biometrics_db_changed_message" = "Úgy tűnik, hogy a biometrikus adatbázisa megváltozott, valószínűleg azért, mert új arc- vagy ujjlenyomatot adott hozzá. A Strongbox most biztonsági okokból megköveteli, hogy manuálisan adja meg újra a fő hitelesítő adatait.";
 
 /* None - (Tranlators Note: When the user is not using or has not selected a key file on the Unlock screen.) */
 "mac_key_file_none" = "Nincs";
@@ -2702,7 +2702,7 @@
 /* Touch ID/Apple Watch Unlock is not possible at the moment because Touch ID/Apple Watch is not available. */
 "mac_info_biometric_unlock_not_possible_right_now" = "A Touch ID/Apple Watch feloldása jelenleg nem lehetséges, mert a Touch ID/Apple Watch nem érhető el.";
 /* Touch ID/Apple Watch Unlock is not possible because the stored credentials are unavailable. This is probably because they have expired. Please enter the password manually. */
-"mac_could_not_find_stored_credentials" = "Touch ID/Apple Watch Unlock is not possible because the stored credentials are unavailable. This is probably because they have expired. Please enter the password manually.";
+"mac_could_not_find_stored_credentials" = "A Touch ID/Apple Watch feloldása nem lehetséges, mert a tárolt hitelesítő adatok nem állnak rendelkezésre. Ennek oka valószínűleg az, hogy lejártak. Kérjük, adja meg a jelszót kézzel.";
 
 
 /* Convenience Unlock */
@@ -2769,10 +2769,10 @@
 "casg_yubikey_configured_nfc" = "NFC";
 
 /* Slot 1 */
-"casg_yubikey_configured_slot1" = "Slot 1";
+"casg_yubikey_configured_slot1" = "Hely 1";
 
 /* Slot 2 */
-"casg_yubikey_configured_slot2" = "Slot 2";
+"casg_yubikey_configured_slot2" = "Hely 2";
 
 /* Hardware Key Unlock is not supported in AutoFill mode due to system constraints. You can configure a Virtual Hardware Key instead. */
 "open_sequence_cannot_use_yubikey_in_autofill_mode" = "Hardware Key Unlock is not supported in AutoFill mode due to system constraints. You can configure a Virtual Hardware Key instead.";
@@ -2813,7 +2813,7 @@
 "autofill_did_not_close_cleanly_title" = "AutoFill Crash Occurred";
 
 /* It looks like the last time you used AutoFill you had a crash. This is usually due to a memory limitation. Please check your database file size and your Argon2 memory settings (should be <= 64MB) */
-"autofill_did_not_close_cleanly_message" = "It looks like the last time you used AutoFill you had a crash. This is usually due to a iOS memory limitations. Please check database file size and Argon2 memory (should be <= 64MB) settings";
+"autofill_did_not_close_cleanly_message" = "Úgy tűnik, hogy az AutoFill legutóbbi használatakor összeomlott. Ez általában az iOS memória korlátozása miatt van. Kérjük, ellenőrizze az adatbázis-fájl méretét és az Argon2 memória (<= 64MB) beállításait";
 
 /* Regenerate... */
 "password_generation_regenerate_ellipsis" = "Regenerate...";
@@ -2852,13 +2852,13 @@
 "upgrade_question_answer_free_pro_differences" = "A fő különbség a Strongbox ingyenes és Pro verziója között a Touch/Face ID feloldás.\n\nEz egy rendkívül kényelmes módszer az adatbázisok feloldásához. Anélkül, hogy ezt használná, minden alkalommal manuálisan kell megadnia a biztonságos főjelszót, és ez általában egy hosszú és bonyolult jelszó, amely lassú könnyen elhibázható lépés.\n\nEzen kívül van néhány olyan nagyon hasznos funkció, mint a PIN kódok és a FavIcons támogatása.\n\nAz egyik legfontosabb előny az, hogy nem fogja újra látni ezt a frissítési képernyőt, és támogatni fogja a Strongbox folyamatos fejlesztését.\n\nA különbségek összefoglalását megtekintheti, ha megérinti a „Ingyenes vs Pro összehasonlító táblázat” gombot a fő frissítési képernyőn.";
 
 /* At the end of your trial you will be automatically transitioned to the Free version and you will no longer be able to use nifty features like Touch/Face ID Unlock.\n\nYou will still be able to access your databases, search them, edit them, and sync them to your cloud.\n\nYou might see an upgrade prompt every now and then too. This is just to encourage you to consider supporting ongoing development. */
-"upgrade_question_answer_end_trial" = "At the end of your trial you will be automatically transitioned to the Free version and you will no longer be able to use nifty features like Touch/Face ID Unlock.\n\nYou will still be able to access your databases, search them, edit them, and sync them to your cloud.\n\nYou might see an upgrade prompt every now and then too. This is just to encourage you to consider supporting ongoing development.";
+"upgrade_question_answer_end_trial" = "A próbaidőszak végén automatikusan átvált az ingyenes verzióra, és már nem használhat olyan hasznos funkciókat, mint a Touch/Face ID Unlock.\n\nTovábbra is hozzáférhet az adatbázisaihoz, kereshet bennük, szerkesztheti őket, és szinkronizálhatja őket a felhővel.\n\nElőfordulhat, hogy időnként frissítési felszólítást is fog látni. Ezzel csak arra szeretnénk ösztönözni, hogy fontolja meg a fejlesztés támogatását.";
 
 /* For sure, you can of course use the Free version forever. It's quite functional, but please if you find Strongbox useful or valuable, or if it makes your online life more secure then please consider upgrading. */
-"upgrade_question_answer_free_version_forever" = "For sure, you can of course use the Free version forever. It's quite functional, but please if you find Strongbox useful or valuable, or if it makes your online life more secure then please consider upgrading.";
+"upgrade_question_answer_free_version_forever" = "Természetesen az ingyenes verziót örökké használhatja. Eléggé működőképes, de kérjük, ha hasznosnak vagy értékesnek találja a Strongboxot, vagy ha biztonságosabbá teszi az online életét, akkor fontolja meg a fizetős verzióra váltást.";
 
 /* If you have other questions you might be able to find the answer online, e.g. by searching, or reddit (r/strongbox) or the web (https://strongboxsafe.com/support).\n\nNote that support queries eat up a lot of development time so please consider this and make your inquiry short and in English only. Please include debug information and screenshots. */
-"upgrade_question_answer_another_question" = "If you have other questions you might be able to find the answer online, e.g. by searching, or reddit (r/strongbox) or the web (https://strongboxsafe.com/support).\n\nNote that support queries eat up a lot of development time so please consider this and make your inquiry short and in English only. Please include debug information and screenshots.";
+"upgrade_question_answer_another_question" = "Ha egyéb kérdései vannak, a választ megtalálhatja az interneten, például a reddit (r/strongbox) vagy a web (https://strongboxsafe.com/support) segítségével.\n\nVegye figyelembe, hogy a támogatási kérdések sok fejlesztési időt emésztenek fel, ezért kérdezzen lényegretörően és kizárólag angolul. Kérjük, csatoljon hibakeresési információkat és képernyőképeket.";
 
 /* Yes, the upgrade is linked to your Apple ID. So if you are signed in to that Apple ID account on your other iOS devices Strongbox will be available in the full Pro version.\n\nThis should happen automatically but you may need to tap the 'Restore Previous Purchase' button if it doesn't. */
 "upgrade_question_answer_works_on_other_devices" = "Igen, a frissítés az Ön Apple ID azonosítójához kapcsolódik. Tehát ha bejelentkezett az Apple ID fiókba a többi iOS-eszközén, a Strongbox elérhető lesz a teljes Pro verzióban.\n\nEnnek automatikusan meg kell történnie, de ha mégsem, akkor koppintson az „Előző vásárlás visszaállítása” gombra.";
@@ -2990,7 +2990,7 @@
 "audit_quick_summary_very_brief_password_is_similar_to_another" = "Hasonló";
 
 /* Short - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
-"audit_quick_summary_very_brief_password_is_too_short" = "Short";
+"audit_quick_summary_very_brief_password_is_too_short" = "Rövid";
 
 /* Pwned */
 "audit_quick_summary_very_brief_password_is_pwned" = "Pwned";
@@ -3026,7 +3026,7 @@
 "audit_status_no_issues_found" = "No issues found";
 
 /* The credentials were incorrect for this database. Are you sure you are using this key file?\n\nNB: A key files are not the same as your database file. */
-"open_sequence_problem_opening_incorrect_credentials_message_verify_key_file" = "The credentials were incorrect for this database. Are you sure you are using this key file?\n\nNB: Please be aware that key files are not the same as your database file (KDBX/KDB)";
+"open_sequence_problem_opening_incorrect_credentials_message_verify_key_file" = "A hitelesítő adatok helytelenek voltak ehhez az adatbázishoz. Biztos, hogy ezt a kulcsfájlt használja?\n\nMegjegyzés: Kérjük, vegye figyelembe, hogy a kulcsfájlok nem azonosak az adatbázis-fájlokkal (KDBX/KDB)";
 
 /* Is your Key File correct? */
 "casg_key_file_correct_title" = "Is your Key File correct?";
@@ -3056,7 +3056,7 @@
 "audit_hibp_warning_title" = "HIBP Disclaimer";
 
 /* I understand that an anonymised portion of my password(s) will be sent over the web (HTTPS) to the 'Have I Been Pwned?' password checking service (using a secure k-anonymity technique) and that I fully consent to this functionality. I also absolve Strongbox, Mark McGuill and Phoebe Code Limited of all liability for using this feature. */
-"audit_hibp_warning_message" = "I understand that an anonymised portion of my password(s) will be sent over the web (HTTPS) to the 'Have I Been Pwned?' password checking service (using a secure k-anonymity technique) and that I fully consent to this functionality. I also absolve Strongbox, Mark McGuill and Phoebe Code Limited of all liability for using this feature.";
+"audit_hibp_warning_message" = "Tudomásul veszem, hogy a jelszavam(ak) anonimizált része az interneten keresztül (HTTPS) elküldésre kerül a \"Have I Been Pwned?\" jelszóellenőrző szolgáltatásnak (biztonságos k-anonimitási technikát használva), és hogy teljes mértékben hozzájárulok ehhez a funkcióhoz. Felmentem továbbá a Strongboxot, Mark McGuillt és a Phoebe Code Limitedet minden felelősség alól, ami e funkció használatával kapcsolatos.";
 
 /* No, I don't want to use this feature */
 "audit_hibp_warning_no" = "Nem, nem szeretném használni ezt a funkciót";
@@ -3161,7 +3161,7 @@
 "audit_drill_down_section_footer_duplicates" = "The items above use exactly the same password as this item. This is generally considered a weakness. You should strive not to have any duplicated passwords.";
 
 /* The items above have a similar password to this item. This might indicate a weakness or use of a common component and could therefore be vulnerable to attack. */
-"audit_drill_down_section_footer_similar" = "The items above have a similar password to this item. This might indicate a weakness or use of a common component and could therefore be vulnerable to attack.";
+"audit_drill_down_section_footer_similar" = "A fenti tételek jelszava hasonló ehhez a tételhez. Ez gyengeségre vagy közös komponens használatára utalhat, és ezért sérülékeny támadásokkal szemben.";
 
 /* Audit this Item */
 "audit_drill_down_audit_this_item_preference_title" = "Audit this Item";
@@ -3206,7 +3206,7 @@
 "crash_diagnostics_share_last_title" = "Share Crash Diagnostics?";
 
 /* It looks like Strongbox had a crash last time. Would you be so kind as to share the diagnostics with Strongbox Support?\n\nPlease mail to support@strongboxsafe.com */
-"crash_diagnostics_share_last_message" = "It looks like Strongbox had a crash last time. Would you be so kind as to share the diagnostics with Strongbox Support?\n\nPlease mail to support@strongboxsafe.com";
+"crash_diagnostics_share_last_message" = "Úgy tűnik, hogy Strongbox legutóbb összeomlott. Lenne olyan kedves, és megosztaná a diagnosztikát a Strongbox ügyfélszolgálattal?\n\nKérjük, küldjön e-mailt a support@strongboxsafe.com címre";
 
 /* Share */
 "crash_diagnostics_share_action" = "Megosztás";
@@ -3239,13 +3239,13 @@
 "autofill_error_unknown_db_title" = "Strongbox: Unknown Database";
 
 /* This appears to be a reference to an older Strongbox database which can no longer be found. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill. */
-"autofill_error_unknown_db_message" = "This appears to be a reference to an older Strongbox database which can no longer be found. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill.";
+"autofill_error_unknown_db_message" = "Úgy tűnik, hogy ez egy régebbi Strongbox adatbázisra való hivatkozás, amely már nem található meg. A Strongbox QuickType AutoFill adatbázisa mostanra törlődött, ezért a QuickType AutoFill frissítéséhez újra meg kell nyitnia az adatbázisokat.";
 
 /* Strongbox: Error Locating Entry */
 "autofill_error_unknown_item_title" = "Strongbox: Error Locating Entry";
 
 /* Strongbox could not find this entry, it is possibly stale. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill. */
-"autofill_error_unknown_item_message" = "Strongbox could not find this entry, it is possibly stale. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill.";
+"autofill_error_unknown_item_message" = "A Strongbox nem találta ezt a bejegyzést, valószínűleg elavult. A Strongbox QuickType AutoFill adatbázisa most törlődött, ezért a QuickType AutoFill frissítéséhez újra meg kell nyitnia az adatbázisokat.";
 
 /* Locating... */
 "generic_status_sp_locating_ellipsis" = "Locating...";
@@ -3254,7 +3254,7 @@
 "generic_biometric_unlock_fmt" = "%@ Unlock";
 
 /* By Default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok? */
-"backup_settings_prompt_message" = "By default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok?";
+"backup_settings_prompt_message" = "Alapértelmezés szerint a Strongbox az összes helyi fájlt (beleértve az adatbázis biztonsági mentéseket is) és a helyi eszközadatbázist is tartalmazza az eszköz Apple biztonsági mentéseiben. Az importált kulcsfájlok azonban biztonsági okokból nem kerülnek bele.\n\nEzeket a beállításokat bármikor megváltoztathatja a Beállítások > Speciális beállítások menüpontban.\n\nRendben van ez így?";
 
 /* Backup Settings */
 "backup_settings_prompt_title" = "Biztonsági mentés beállítások";
@@ -3278,7 +3278,7 @@
 "generic_in_progress" = "In Progress";
 
 /* Initial */
-"generic_initial_state" = "Initial";
+"generic_initial_state" = "Kezdeti";
 
 /* %@ - Sync No. %@ (Translators Note: 1st Parameter is the Date/Time of the Sync e.g. 'Today, 4:42PM', The second parameter is a sequence number like 1, 2, 42 etc. This is the number of times this database has been synced in this session */
 "sync_log_sync_header_fmt" = "%@ - Sync No. %@";
@@ -3299,7 +3299,7 @@
 "sync_conflict_title" = "Szinkronizálási hiba";
 
 /* It looks like the remote version of this database on '%@' has changed and so has the local version you've been working on. Which version would you like to use?  - Translators Note: The first parameter is the name of the remote storage provider e.g. "Dropbox" */
-"sync_conflict_message_fmt" = "It looks like the remote version of this database on '%@' has changed and so has the local version you've been working on. Which version would you like to use?";
+"sync_conflict_message_fmt" = "Úgy tűnik, hogy az adatbázis távoli verziója a '%@' címen megváltozott, és a helyi verzió is, amelyen Ön dolgozott. Melyik verziót szeretné használni?";
 
 /* Strongbox could not sync your changes. */
 "sync_could_not_sync_your_changes" = "Strongbox could not sync your changes.";
@@ -3335,7 +3335,7 @@
 "autofill_add_entry_sync_required_message_fmt" = "Új bejegyzést adott hozzá, és ezt a módosítást a rendszer elmentette helyileg.\n\nNe felejtsen el a fő Strongbox alkalmazásra váltani, hogy teljes mértékben szinkronizálja ezeket a változtatásokat a %@ alkalmazással.";
 
 /* Got it! */
-"autofill_add_entry_sync_required_option_got_it" = "Got it!";
+"autofill_add_entry_sync_required_option_got_it" = "Rendben!";
 
 /* Don't tell me again */
 "autofill_add_entry_sync_required_option_dont_tell_again" = "Don't tell me again";
@@ -3359,7 +3359,7 @@
 "open_sequence_storage_provider_try_relocate_files_db" = "Locate Database...";
 
 /* Strongbox is having trouble locating your database. This can happen sometimes especially after iOS updates or with some 3rd party providers (e.g.Nextcloud).\n\nYou now need to tell Strongbox where to locate it. Alternatively you can open Strongbox's local copy and fix this later.\n\nFor Nextcloud please use WebDAV instead... */
-"open_sequence_storage_provider_try_relocate_files_db_message" = "Strongbox is having trouble locating your database. This can happen sometimes especially after iOS updates or with some 3rd party providers (e.g.Nextcloud).\n\nYou now need to tell Strongbox where to locate it. Alternatively you can open Strongbox's local copy and fix this later.\n\nFor Nextcloud please use WebDAV instead...";
+"open_sequence_storage_provider_try_relocate_files_db_message" = "A Strongbox nem találja az adatbázisát. Ez néha előfordulhat, különösen az iOS frissítések után, vagy néhány 3rd party szolgáltatóval (pl. Nextcloud).\n\nMost meg kell mondania a Strongboxnak, hogy hol keresse meg. Alternatívaként megnyithatja a Strongbox helyi másolatát, és később javíthatja ezt.\n\nA Nextcloud esetében kérjük, használja a WebDAV-t...";
 
 /* View Error Details */
 "open_sequence_storage_provider_view_sync_error_details" = "View Error Details";
@@ -3440,7 +3440,7 @@
 "browse_context_menu_start_with_search" = "Start with Search";
 
 /* Sort - Translators Note: Verb - to sort items by title or other field */
-"generic_sort" = "Sort";
+"generic_sort" = "Rendez";
 
 /* Customize View */
 "browse_context_menu_customize_view" = "Customize View";
@@ -3545,7 +3545,7 @@
 "mac_no_autofill_enabled_databases_initial_message" = "No AutoFill Enabled Databases";
 
 /* It looks like this is your first time using AutoFill with this database.\n\nFor security reasons you must locate and select your database file for Strongbox so that the AutoFill can access it.\n\nAs a reminder your database file was last located here:\n\n%@\n\nPlease locate it now for Strongbox...  - Translator's note: The parameter is the path of the database like '/Users/mark/Desktop/my-database.kdbx' */
-"mac_autofill_first_time_locate-fmt" = "It looks like this is your first time using AutoFill with this database.\n\nFor security reasons you must locate and select your database file for Strongbox so that the AutoFill can access it.\n\nAs a reminder your database file was last located here:\n\n%@\n\nPlease locate it now for Strongbox...";
+"mac_autofill_first_time_locate-fmt" = "Úgy tűnik, hogy most használja először az AutoFill-t ezzel az adatbázissal.\n\nBiztonsági okokból meg kell keresnie és ki kell választania az adatbázisfájlt a Strongbox számára, hogy az AutoFill hozzáférhessen.\n\nEmlékeztetőül az adatbázisfájlja legutóbb itt volt:\n\n%@\n\nKérjük, keresse meg a Strongbox számára...";
 
 /* Welcome to Strongbox AutoFill */
 "mac_welcome_to_autofill" = "Welcome to Strongbox AutoFill";
@@ -3557,7 +3557,7 @@
 "mac_autofill_pro_feature_title" = "Pro funkció";
 
 /* AutoFill is only available on the Pro edition of Strongbox. You can upgrade like this:\n\n1. Launch Strongbox\n2. Click the 'Strongbox' menu\n3. Click 'Upgrade to Pro...'.\n\nThank you! */
-"mac_autofill_pro_feature_upgrade-message" = "AutoFill is only available on the Pro edition of Strongbox. You can upgrade like this:\n\n1. Launch Strongbox\n2. Click the 'Strongbox' menu\n3. Click 'Upgrade to Pro...'.\n\nThank you!";
+"mac_autofill_pro_feature_upgrade-message" = "Az AutoFill csak a Strongbox Pro kiadásában érhető el. A frissítés a következőképpen történhet:\n\n1. Indítsa el a Strongboxot\n2. Kattintson a 'Strongbox' menüre\n3. Kattintson a 'Váltás a Pro-ra...' gombra.\n\nKöszönjük!";
 
 /* Passcode Fallback for %@ - Translators Note: This is a preference that says that the device passcode can be used as a fallback if Face ID or Touch ID fails - the parameter is either 'Touch ID' or 'Face ID' */
 "app_lock_allow_device_passcode_fallback_for_biometric_fmt" = "Passcode Fallback for %@";
@@ -3572,7 +3572,7 @@
 "mac_autofill_enable_extension_title" = "Enable Strongbox Extension";
 
 /* To use AutoFill you must enable the Strongbox Extension in System Preferences. To do this click the 'Open System Preferences...' button below and navigate to:\n\n∙ Extensions > Password AutoFill > Check 'Strongbox' */
-"mac_autofill_enable_extension_message" = "To use AutoFill you must enable the Strongbox Extension in System Preferences. To do this click the 'Open System Preferences...' button below and navigate to:\n\n∙ Extensions > Password AutoFill > Check 'Strongbox'";
+"mac_autofill_enable_extension_message" = "Az automatikus kitöltés használatához engedélyeznie kell a Strongbox bővítményt a Rendszerbeállításokban. Ehhez kattintson az alábbi 'Rendszerbeállítások megnyitása...' gombra, és navigáljon a következő helyre:\n\n∙ Bővítmények > Jelszó automatikus kitöltése > Jelölje be a 'Strongbox' jelölőnégyzetet";
 
 /* Open System Preferences... */
 "mac_autofill_action_open_system_preferences" = "Nyissa meg a Rendszerbeállításokat...";
@@ -3587,7 +3587,7 @@
 "merge_no_other_databases_available_title" = "No Other Databases Available";
 
 /* There are no other databases in your databases collection to merge into this database. You must add another database so that you can select it for the merge operation. */
-"merge_no_other_databases_available_msg" = "There are no other databases in your databases collection to merge into this database. You must add another database so that you can select it for the merge operation.";
+"merge_no_other_databases_available_msg" = "Az adatbázis-gyűjteményében nincs más adatbázis, amelyet ebbe az adatbázisba lehetne beolvasztani. Hozzá kell adnia egy másik adatbázist, hogy ki tudja választani az egyesítési művelethez.";
 
 /* Create Local Copy */
 "generic_action_create_local_database" = "Lokális másolat létrehozása";
@@ -3863,7 +3863,7 @@
 "pin_entry_database_default_text" = "Adatbázis PIN";
 
 /* App PIN */
-"pin_entry_app_default_text" = "App PIN";
+"pin_entry_app_default_text" = "Alkalmazás PIN-kódja";
 
 /* Compare & Merge (Pro) */
 "conflict_resolution_compare_pro_only" = "Compare & Merge (Pro)";
@@ -3926,13 +3926,13 @@
 "compare_merge_sync_possibly_required_title" = "Sync Possibly Required";
 
 /* At least one of these databases haven't been synchronized very recently. It is recommended that you return to the Databases List screen and pull down to initiate the Sync process. This will ensure you are working with the latest versions. */
-"compare_merge_sync_possibly_required_message" = "At least one of these databases haven't been synchronized very recently. It is recommended that you return to the Databases List screen and pull down to initiate the Sync process. This will ensure you are working with the latest versions.";
+"compare_merge_sync_possibly_required_message" = "Legalább az egyik ilyen adatbázis szinkronizálása nem történt meg a közelmúltban. Javasoljuk, hogy térjen vissza az Adatbázisok listája képernyőre, és húzza lefelé a szinkronizálási folyamat elindításához. Ez biztosítja, hogy a legfrissebb verziókkal dolgozik.";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to open in offline mode instead? - Translators Note: 1st Parameter is the storage provider name like Google Drive or Dropbox */
 "open_sequence_user_looks_offline_open_local_fmt" = "It looks like you may be offline and '%@' may not be reachable. Would you like to open in offline mode instead?";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use Strongbox's local copy in read-only mode instead? - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc */
-"open_sequence_user_looks_offline_open_local_ro_fmt" = "It looks like you may be offline and '%@' may not be reachable. Would you like to open in offline mode instead?\n\nNB: This is read-only. You can also edit offline in the Pro version.";
+"open_sequence_user_looks_offline_open_local_ro_fmt" = "Úgy tűnik, hogy Ön offline és a '%@' nem elérhető. Szeretné inkább offline módban megnyitni?\n\nMegjegyzés: Ez csak olvasható. A Pro verzióban offline is szerkeszthető.";
 
 /* Open Offline? */
 "open_sequence_yesno_use_local_copy_title" = "Offline megnyitás?";
@@ -3974,7 +3974,7 @@
 "database_properties_title_offline_behaviour" = "Immediate Open Offline Offer";
 
 /* Immediately offer to open offline if Strongbox detects you are offline. Alternatively, if you turn this off, Strongbox will try to connect which may take some time. */
-"database_properties_subtitle_offline_behaviour" = "Immediately offer to open in offline mode if Strongbox detects you are offline. Alternatively, if you turn this off, Strongbox will try to connect which may take some time.";
+"database_properties_subtitle_offline_behaviour" = "Azonnal ajánlja fel, hogy offline módban nyissa meg, ha a Strongbox észleli, hogy Ön offline állapotban van. Máskülönben, ha ezt kikapcsolja, a Strongbox megpróbál csatlakozni, ami eltarthat egy ideig.";
 
 /* Configure & View local backups." */
 "database_properties_subtitle_backups" = "Configure & View local backups.";
@@ -4068,7 +4068,7 @@
 "storage_provider_name_mac_file_short" = "Fájl";
 
 /* Done. ✅ */
-"sync_log_status_done" = "Done. ✅";
+"sync_log_status_done" = "Kész. ✅";
 
 /* TOTP Copied */
 "autofill_info_totp_copied_title" = "TOTP elmásolva";
@@ -4086,7 +4086,7 @@
 "autofill_auto_unlock_title" = "Auto Unlock Feature";
 
 /* Auto Unlock lets you avoid having to repeatedly unlock your database for a configurable time period. Would you like to use this handy feature?\n\nNB: Your password is stored in the Secure Enclave for this feature. */
-"autofill_auto_unlock_message" = "Auto Unlock lets you avoid having to repeatedly unlock your database for a configurable time period. Would you like to use this handy feature?\n\nNB: Your password is stored in the Secure Enclave for this feature.";
+"autofill_auto_unlock_message" = "Az automatikus feloldás lehetővé teszi, hogy ne kelljen többször feloldania az adatbázisát egy beállítható időtartamra. Szeretné használni ezt a praktikus funkciót?\n\nMegjegyzés: A jelszavát a Secure Enclave tárolja ehhez a funkcióhoz.";
 
 /* Great, let try 3 mins */
 "autofill_auto_unlock_try_3_minutes" = "Great, lets try 3 mins";
@@ -4110,7 +4110,7 @@
 "autofill_search_title_service_id_section_header" = "Service ID";
 
 /* The Service ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Service ID. */
-"autofill_search_service_id_section_footer" = "The Service ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Service ID. Tap to Copy.";
+"autofill_search_service_id_section_footer" = "A Service ID egy azonosító, amelyet az AutoFill küld a Strongboxnak. Segíthet a keresésben, ha a bejegyzés URL-címét úgy állítja be, hogy megfeleljen a szolgáltatásazonosítónak. Érintse meg a Másolás gombot.";
 
 /* Results */
 "quick_view_title_no_matches_title" = "Eredmények";
@@ -4317,13 +4317,13 @@
 "composite_key_determiner_convenience_expired_message" = "It's time now to re-enter your Master Password manually. You can change this reminder interval in Database Settings.";
 
 /* Got it! */
-"generic_got_it" = "Got it!";
+"generic_got_it" = "Rendben!";
 
 /* Don't tell me again */
 "generic_dont_tell_again" = "Don't tell me again";
 
 /* Actions - L10n - a generic collection of actions (or items that will perform certain actions/tasks) - often used as a Section Header */
-"generic_actions" = "Actions";
+"generic_actions" = "Tevékenységek";
 
 /* Preferences - L10n - a generic header or item that leads to a set or settings / preferences - often used as a Section Header or button */
 "generic_preferences" = "Beállítások";
@@ -4332,7 +4332,7 @@
 "generic_rearrange" = "Átrendezés";
 
 /* Typing your master password is slow, cumbersome and error prone. Strongbox can help you to conveniently and securely unlock your database so that you don't need to enter your master password all the time.\n\nWould you like to use Convenience Unlock? */
-"onboarding_convenience_message_fmt" = "Typing your master password is slow, cumbersome and error prone. Strongbox can help you to securely & quickly unlock your database without needing to use your master password every time.\n\nWould you like to use Convenience Unlock?";
+"onboarding_convenience_message_fmt" = "A mester jelszó beírása lassú, nehézkes és hibalehetőségekkel jár. A Strongbox segítségével biztonságosan és gyorsan feloldhatja adatbázisát anélkül, hogy minden alkalommal a fő jelszavát kellene használnia.\n\nSzeretné használni a kényelmi feloldás funkciót?";
 
 /* Dismiss - L10n Note: Generic Action to dismiss a dialog or popup */
 "generic_dismiss" = "Elvetés";
@@ -4344,7 +4344,7 @@
 "onboarding_configuration_issue_title" = "Configuration Issue";
 
 /* Let's Go - L10n Note: Generic Action Button to get started, similar to OK, but more friendly and indicates progression */
-"generic_lets_go" = "Let's Go";
+"generic_lets_go" = "Gyerünk!";
 
 /* Ready to Launch */
 "onboarding_ready_to_launch_title" = "Ready to Launch";
@@ -4356,7 +4356,7 @@
 "onboarding_scheduled_export_title" = "Ütemezett exportálás";
 
 /* It's always a good idea to keep backups, especially external ones. Strongbox can remind you to export your database every so often.\n\nWould you like Strongbox to prompt you to export your database if it has been a while? */
-"onboarding_scheduled_export_message" = "It's always a good idea to keep backups, especially external ones. Strongbox can remind you to export your database every so often.\n\nWould you like Strongbox to prompt you to export your database if it has been a while?";
+"onboarding_scheduled_export_message" = "Mindig jó ötlet biztonsági mentéseket készíteni, különösen külső mentéseket. A Strongbox emlékeztetheti Önt, hogy az adatbázisát időnként exportálja.\n\nSzeretné, ha a Strongbox figyelmeztetné az adatbázis exportálására bizonyos időközönként?";
 
 /* Remind me after 2 weeks */
 "onboarding_scheduled_export_onboarding_remind_2_weeks" = "Figyelmeztessen 2 hét múlva";
@@ -4371,13 +4371,13 @@
 "scheduled_export_message" = "It's time to export a backup copy of your database somewhere safe.\n\nWould you like do that now?";
 
 /* Postpone */
-"generic_postpone" = "Postpone";
+"generic_postpone" = "Elhalaszt";
 
 /* iCloud Create Database Error */
 "icloud_create_issue_title" = "iCloud Create Database Error";
 
 /* Strongbox could not create a new iCloud Database for you, most likely because the Strongbox iCloud folder has been deleted.\n\nYou can find out how to fix this issue below. */
-"icloud_create_issue_message" = "Strongbox could not create a new iCloud Database for you, most likely because the Strongbox iCloud folder has been deleted.\n\nYou can find out how to fix this issue below.";
+"icloud_create_issue_message" = "A Strongbox nem tudott új iCloud-adatbázist létrehozni az Ön számára, valószínűleg azért, mert a Strongbox iCloud mappát törölték.\n\nAz alábbiakban megtudhatja, hogyan kezelhető ez a probléma.";
 
 /* How do I fix this? */
 "icloud_create_issue_fix" = "How do I fix this?";
@@ -4386,7 +4386,7 @@
 "icloud_create_issue_local_instead" = "Hozzon létre inkább lokális adatbázis";
 
 /* Copied - L10n Note: This means a string has just been copied to the clipboard. Used to notify user via a toast message or similar. */
-"generic_copied" = "Copied";
+"generic_copied" = "Másolva";
 
 /* Scheduled Export Interval */
 "prefs_vc_scheduled_export_interval" = "Scheduled Export Interval";
@@ -4436,7 +4436,7 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////
 /* Strongbox has been downgraded from Pro.\n\nDon't worry, all your databases are still available, but some convenient features (e.g. %@) may no longer work.\n\nThis is probably because your trial or subscription has just ended.\n\nWe'd love if you could support us by upgrading to Pro.\n\nWould you like to do that now? */
 
-"upgrade_mgr_downgrade_message" = "Strongbox has been downgraded from Pro.\n\nDon't worry, all your databases are still available, but some convenient features (e.g. %@) will no longer work.\n\nThis is probably because your trial or subscription has just ended.\n\nWe'd love if you could support us by upgrading to Pro.\n\nWould you like to do that now?";
+"upgrade_mgr_downgrade_message" = "Már nem a Strongbox Pro verzióját használja.\n\nNe aggódjon, az összes adatbázisa továbbra is elérhető, de néhány kényelmes funkció (pl. %@) már nem fog működni.\n\nEz valószínűleg azért van, mert a próbaidőszak vagy az előfizetése lejárt.\n\nÖrülnénk, ha támogatna minket azzal, hogy Pro-ra frissít.\n\nSzeretné ezt most megtenni?";
 
 /* Upgrade... (L10n: A verb, To Upgrade, followed by ellipsis) */
 "generic_upgrade_ellipsis" = "Frissítés...";
@@ -4618,7 +4618,7 @@
 "safesvc_inner_stream_error_title" = "Inner Stream Decryption Error";
 
 /* Strongbox has had a problem decrypting some protected fields in this database. \n\nThe database will now open in Read-Only mode to prevent further corruption.\n\nWe recommend restoring from an older backup or upgrading to KDBX4 which does not suffer from this issue. */
-"safesvc_inner_stream_error_message" = "Strongbox has had a problem decrypting some protected fields in this database. \n\nThe database will now open in Read-Only mode to prevent further corruption.\n\nWe recommend restoring from an older backup or upgrading to KDBX4 which does not suffer from this issue.";
+"safesvc_inner_stream_error_message" = "A Strongboxnak problémája akadt az adatbázis néhány védett mezőjének visszafejtésével. \n\nAz adatbázis mostantól csak olvasható módban fog megnyílni a további sérülések megelőzése érdekében.\n\nJavasoljuk a visszaállítást egy régebbi biztonsági mentésből vagy a KDBX4-re való frissítést, amely kiküszöböli ezt a problémát.";
 
 /* Choose file to Import */
 "mac_choose_file_import" = "Choose file to Import";
@@ -4799,13 +4799,13 @@
 "field_tidy_message_tidy_up_field" = "There are some blank characters (e.g. spaces, tabs) at the start or end of this field.\n\nShould Strongbox tidy up these extraneous characters?";
 
 /* Tidy Up */
-"field_tidy_choice_tidy_up_field" = "Tidy Up";
+"field_tidy_choice_tidy_up_field" = "Rendet rak";
 
 /* Don't Tidy */
 "field_tidy_choice_dont_tidy" = "Don't Tidy";
 
 /* Location - The location of an item, e.g. Location = /Group-1/Group-2/ */
-"generic_fieldname_location" = "Location";
+"generic_fieldname_location" = "Helyszín";
 
 /* Extimated Size - This is memory/file size in bytes/KB/MB consumed by a particular entry e.g. Estimated Size= 64KB*/
 "generic_fieldname_estimated_size" = "Estimated Size";
@@ -5051,7 +5051,7 @@
 "upgrade_vc_change_my_license" = "Licenc módosítása...";
 
 /* Hi there 😎\n\nWe're excited you've decided to try us out and we just wanted to say thanks! So, without further ado, let's get started...\n\n❤️ The Strongbox Team ❤️ */
-"onboarding_welcome_to_strongbox_first_run_message_macos" = "Hi there 😎\n\nWe're excited you've decided to try us out and we just wanted to say thanks! So, without further ado, let's get started...\n\n❤️ The Strongbox Team ❤️";
+"onboarding_welcome_to_strongbox_first_run_message_macos" = "Szia 😎\n\nNagyon örülünk, hogy úgy döntött, hogy kipróbál minket, és csak köszönetet akartunk mondani! Szóval, minden további nélkül kezdjük el...\n\n❤️ A Strongbox csapat ❤️";
 
 /* Then %@ every year - L10n Note: The 1srt parameter is a price like "£12.99" - It is placed below a button that says "Redeem Your 90 Free Days" - So when they click that button they get 90 day free trial, then they pay £12.99 per year when the trial is over  */
 "price_per_year_after_free_trial_fmt" = "Then %@ every year";
@@ -5120,7 +5120,7 @@
 "upgrade_vc_price_per_year_with_free_trial_fmt" = "then %@ every year";
 
 /* Strongbox is now available for both iOS and macOS as a unified App.\n\nIf you have already purchased Strongbox then click 'Restore' below.\n\nIf you are new and want to Upgrade, the best way to do that is via the unified Strongbox app. Click 'View Strongbox Unified App' below to view on the App Store. */
-"upgrade_vc_strongbox_unified_message" = "Strongbox is now available for both iOS and macOS as a unified App.\n\nIf you have already purchased Strongbox then click 'Restore' below.\n\nIf you are new and want to Upgrade, the best way to do that is via the unified Strongbox app. Click 'View Strongbox Unified App' below to view on the App Store.";
+"upgrade_vc_strongbox_unified_message" = "A Strongbox mostantól egységes alkalmazásként elérhető iOS és macOS operációs rendszerekre is.\n\nHa már megvásárolta a Strongboxot, akkor kattintson az alábbi 'Visszaállítás' gombra.\n\nHa Ön új, és frissíteni szeretne, akkor a legjobb módja ennek az egységesített Strongbox alkalmazáson keresztül. Kattintson az alábbi 'Strongbox egységesített alkalmazás megtekintése' gombra az App Store-ban történő megtekintéshez.";
 
 /* Strongbox Upgrade Options */
 "upgrade_vc_old_freemium_upgrade_options_title" = "Strongbox Upgrade Options";
@@ -5147,7 +5147,7 @@
 "1password_import_warning_title" = "1Password Import Warning";
 
 /* The import process isn't perfect and some features of 1Password such as named sections are not available in Strongbox.\n\nIt is important to check that your entries as acceptable after you have imported. */
-"1password_import_warning_msg" = "The import process isn't perfect and some features of 1Password such as named sections are not available in Strongbox.\n\nIt is important to check that your entries are acceptable after you have imported.";
+"1password_import_warning_msg" = "Az importálási folyamat nem tökéletes, és a 1Password egyes funkciói, például a névre szóló szakaszok nem állnak rendelkezésre a Strongboxban.\n\nFontos, hogy az importálás után ellenőrizze, hogy a bejegyzések megfelelőek-e.";
 
 /* Recycle Bin - The name of the recycle bin, the folder where items go instead of being fully deleted */
 "generic_recycle_bin_name" = "Lomtár";
@@ -5189,7 +5189,7 @@
 "generic_sort_order_descending" = "Csökkenő";
 
 /* Custom */
-"generic_sort_order_custom" = "Custom";
+"generic_sort_order_custom" = "Egyéni";
 
 /* Sort: %@ - Localization Note: The 1st parameter will be the actual sort order, so e.g. "Sort: Ascending" */
 "sort_status_fmt" = "Sort: %@";
@@ -5198,7 +5198,7 @@
 "alert_enter_password_basic_length" = "Enter Length";
 
 /* Not to worry, your database is safely saved locally but could not be synchronised with the source database.\n\nIf this happens repeatedly, investigate the Sync Log and try re-adding your database. */
-"sync_nextgen_sync_issue_message" = "Not to worry, your database is safely saved locally but could not be synchronised with the source database.\n\nIf this happens repeatedly, investigate the Sync Log and try re-adding your database.";
+"sync_nextgen_sync_issue_message" = "Ne aggódjon, az adatbázisa biztonságosan el van mentve helyben, de nem lehetett szinkronizálni a forrásadatbázissal.\n\nHa ez ismételten előfordul, vizsgálja meg a szinkronizálási naplót, és próbálja meg újra hozzáadni az adatbázisát.";
 
 /* Sync Issue */
 "nextgen_sync_issue_toast_title" = "Sync Issue";
@@ -5213,7 +5213,7 @@
 "mac_on_window_close_action_title" = "Lock Database?";
 
 /* Strongbox can keep your databases open in the background or it can lock them immediately when you close the window.\n\nWhat would you like Strongbox to do when you close a database window? */
-"mac_on_window_close_action_message" = "Strongbox can keep your databases open in the background or it can lock them immediately when you close the window.\n\nWhat would you like Strongbox to do when you close a database window?";
+"mac_on_window_close_action_message" = "A Strongbox képes az adatbázisokat a háttérben nyitva tartani, vagy azonnal lezárni őket, amikor bezárja az ablakot.\n\nMit szeretne, mit csináljon a Strongbox, amikor bezár egy adatbázis ablakot?";
 
 /* Keep Database Unlocked */
 "mac_on_window_close_action_option_keep_unlocked" = "Keep Database Unlocked";
@@ -5222,7 +5222,7 @@
 "mac_on_window_close_action_lock_immediately" = "Lock Database Immediately";
 
 /* Offline Mode - L10n - this is a status/state, the database is currently unlocked */
-"database_unlocked_status" = "Unlocked";
+"database_unlocked_status" = "Feloldott";
 
 /* Your changes could not be safely saved. You are now working on an in-memory version only of your database. We recommend you try to save again */
 "error_could_not_save_message" = "Your changes could not be safely saved. You are now working on an in-memory only version of your database. We recommend you try to save again.";
@@ -5258,7 +5258,7 @@
 "pwgen_wordlist_pt_br" = "Portuguese (Brazilian)";
 
 /* Hidden (An item of some kind will be hidden from the User Interface) */
-"generic_item_is_hidden" = "Hidden";
+"generic_item_is_hidden" = "Rejtett";
 
 /* These tabs will be visible in this order, providing there are eligible items to display. You must always have at least one visible tab. */
 "configure_tabs_footer_visible_tabs" = "These tabs will be visible in this order, providing there are eligible items to display. You must always have at least one visible tab.";
@@ -5279,7 +5279,7 @@
 "generic_number_of_items_plural_fmt" = "%@ Items";
 
 /* %@ Item */
-"generic_single_item_singular_fmt" = "%@ Item";
+"generic_single_item_singular_fmt" = "%@ tétel";
 
 /* Configure Tabs */
 "configure_tabs" = "Configure Tabs";
@@ -5333,7 +5333,7 @@
 "generic_verb_close" = "Bezárás";
 
 /* Discard - A verb - to discard any pending changes that might have been made */
-"generic_verb_discard" = "Discard";
+"generic_verb_discard" = "Elvet";
 
 /* Start Typing to Begin Search */
 "browse_vc_view_start_typing_to_search" = "Start Typing to Begin Search";
@@ -5354,7 +5354,7 @@
 "generic_no_thanks" = "Nem, köszönöm";
 
 /* Browser AutoFill is available but currently not turned on. Would you like to enable Browser AutoFill so that you can conveniently and securely login from within your browser? */
-"onboarding_autofill_msg_available_turn_on_question" = "Browser AutoFill is available but currently not turned on. Would you like to enable Browser AutoFill so that you can conveniently and securely login from within your browser?";
+"onboarding_autofill_msg_available_turn_on_question" = "A böngésző automatikus kitöltése elérhető, de jelenleg nincs bekapcsolva. Szeretné engedélyezni a Browser AutoFill funkciót, hogy kényelmesen és biztonságosan bejelentkezhessen a böngészőjéből?";
 
 /* On - L10n note - This is a state of affairs - A setting/configuration that is On */
 "generic_state_on" = "On";
@@ -5372,7 +5372,7 @@
 "item_properties_inherited_yes_no_fmt" = "Inherited (%@)";
 
 /* The Searchable setting affects whether this group and its contents are visible in search results, AutoFill suggestions and most views. This is useful if you'd like to archive/ignore some items, but not permanently delete them. */
-"group_properties_searchable_footer_info" = "The Searchable setting affects whether this group and its contents are visible in search results, AutoFill suggestions and most views. This is useful if you'd like to archive or ignore some items, but not permanently delete them.";
+"group_properties_searchable_footer_info" = "A Kereshető beállítás befolyásolja, hogy ez a csoport és tartalma látható-e a keresési eredményekben, az automatikus kitöltési javaslatokban és a legtöbb nézetben. Ez akkor hasznos, ha archiválni vagy figyelmen kívül kíván hagyni néhány elemet, de nem szeretné véglegesen törölni azokat.";
 
 /* Empty Recycle Bin */
 "browse_vc_action_empty_recycle_bin" = "Empty Recycle Bin";
@@ -5405,16 +5405,16 @@
 "side_bar_child_count_format_groups_and_entries_rec" = "Groups and Entries (Recursive)";
 
 /* Items */
-"side_bar_child_count_format_items" = "Items";
+"side_bar_child_count_format_items" = "Elemek";
 
 /* Items (Recursive) */
 "side_bar_child_count_format_items_rec" = "Items (Recursive)";
 
 /* The SFTP host returned the Fingerprint below.\n\nStrongbox will use this Fingerprint to verify it is communicating with only this host.\n\nPlease confirm you are happy with this Fingerprint. You will be notified if it ever changes.\n\n%@ */
-"sftp_hostkey_fingerprint_first_use_confirm_fmt" = "The SFTP host returned the Fingerprint below.\n\nStrongbox will use this Fingerprint to verify it is communicating with only this host.\n\nPlease confirm you are happy with this Fingerprint. You will be notified if it ever changes.\n\n%@";
+"sftp_hostkey_fingerprint_first_use_confirm_fmt" = "Az SFTP-állomás az alábbi ujjlenyomatot küldte vissza.\n\nA Strongbox ezt az ujjlenyomatot fogja használni annak ellenőrzésére, hogy csak ezzel az állomással kommunikáljon.\n\nKérjük, erősítse meg, hogy elfogadja ezt az ujjlenyomatot. Értesítjük Önt, ha ez valaha is megváltozik.\n\n%@";
 
 /* *** WARNING ***\n\nThe SFTP host returned a different Fingerprint than expected.\n\nThis could be a man-in-the-middle attack, or it could be something you expect if your host configuration recently changed.\n\nShould Strongbox use this new Fingerprint and continue connecting to this host?\n\n%@ */
-"sftp_hostkey_fingerprint_has_changed_confirm_fmt" = "*** WARNING ***\n\nThe SFTP host returned a different Fingerprint than expected.\n\nThis could be a man-in-the-middle attack, or it could be something you expect if your host configuration recently changed.\n\nShould Strongbox use this new Fingerprint and continue connecting to this host?\n\n%@";
+"sftp_hostkey_fingerprint_has_changed_confirm_fmt" = "*** FIGYELMEZTETÉS ***\n\nAz SFTP állomás a várttól eltérő ujjlenyomatot küldött vissza.\n\nEz lehet egy man-in-the-middle támadás, vagy lehet valami, amire számíthat, ha az állomás konfigurációja nemrég változott.\n\nHasználja a Strongbox ezt az új ujjlenyomatot, és folytassa a csatlakozást az állomáshoz?\n\n%@";
 
 /* SFTP Fingerprint */
 "sftp_hostkey_fingerprint_alert_title" = "SFTP Fingerprint";
@@ -5450,7 +5450,7 @@
 "ssh_agent_disabled_for_agent" = "Disabled for SSH Agent";
 
 /* SSH Key */
-"ssh_agent_ssh_key" = "SSH Key";
+"ssh_agent_ssh_key" = "SSH kulcs";
 
 /* Export... */
 "generic_export_ellipsis" = "Exportálás...";
@@ -5480,7 +5480,7 @@
 "ssh_agent_sshkey_please_enter_passphrase_msg" = "This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt. Strongbox will then set the password of this entry to match.";
 
 /* The passphrase does not match the existing password. Strongbox needs the password to match the passphrase to use this SSH Key properly.\n\nContinue to overwrite the current password? */
-"ssh_agent_passphrase_password_mismatch" = "The passphrase does not match the existing password. Strongbox needs the password to match the passphrase to use this SSH Key properly.\n\nContinue to overwrite the current password?";
+"ssh_agent_passphrase_password_mismatch" = "A jelszó nem egyezik a meglévő jelszóval. A Strongboxnak szüksége van arra, hogy a jelszó megegyezzen a jelszóval, hogy megfelelően tudja használni ezt az SSH-kulcsot.\n\nFolytassa a jelenlegi jelszó felülírását?";
 
 /* Are you sure you want to remove this SSH Key? */
 "ssh_agent_ays_remove_key" = "Are you sure you want to remove this SSH Key?";
@@ -5707,7 +5707,7 @@
 "passkey_new_entry_text" = "We'll create a new entry for this passkey. Choose a title and a group where you'd like to save it.";
 
 /* Group */
-"generic_field_name_group" = "Group";
+"generic_field_name_group" = "Csoport";
 
 /* Save Passkey */
 "passkey_save_passkey" = "Save Passkey";
@@ -5716,7 +5716,7 @@
 "generic_noun_plural_passkeys" = "Passkeys";
 
 /* Passkey */
-"generic_noun_passkey" = "Passkey";
+"generic_noun_passkey" = "Hozzáférési kulcs";
 
 /* Relying Party - L10n Note: This is related to Passkeys. It is a technical term from the spec. It is publicly visible/user facing. I am uncertain whether theser terms have a translation in your language, feel free to use your best judgement here about whether to localize or not. */
 "passkey_relying_party" = "Relying Party";
@@ -5746,7 +5746,7 @@
 "passkeys_unavailable_alert_title" = "Passkeys Unavailable";
 
 /* For technical reasons, passkeys are unavailable in this database format. They are only supported by the KeePass 2 format. This is something you could migrate to. */
-"passkeys_unavailable_alert_message" = "For technical reasons, passkeys are unavailable in this database format. They are only supported by the KeePass 2 format. This is something you could migrate to.";
+"passkeys_unavailable_alert_message" = "Technikai okokból a jelszókulcsok ebben az adatbázis-formátumban nem állnak rendelkezésre. Ezeket csak a KeePass 2 formátum támogatja. Erre át lehet állni.";
 
 /* Select Existing Entry */
 "passkeys_select_existing_entry_to_add_to_title" = "Select Existing Entry";
@@ -5758,7 +5758,7 @@
 "passkeys_are_you_sure_add_to_fmt" = "Are you sure you want to add this passkey to '%@'?";
 
 /* Search */
-"generic_verb_search" = "Search";
+"generic_verb_search" = "Keresés";
 
 /* New Entry Defaults */
 "new_entry_defaults" = "New Entry Defaults";
