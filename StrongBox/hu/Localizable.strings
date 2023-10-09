@@ -339,7 +339,7 @@
 "browse_vc_cannot_create_group" = "Nem lehet csoportot létrehozni";
 
 /* Could not create a group with this name here, possibly because one with this name already exists. */
-"browse_vc_cannot_create_group_message" = "Could not create a group with this name here, possibly because one with this name already exists.";
+"browse_vc_cannot_create_group_message" = "Nem sikerült létrehozni egy csoportot ezzel a névvel, valószínűleg azért, mert már létezik egy ilyen nevű csoport.";
 
 /* There was an error trying to delete this item. */
 "browse_vc_delete_error_message" = "There was an error trying to delete this item.";
@@ -840,7 +840,7 @@
 "upgrade_vc_progress_restoring" = "Helyreállítás...";
 
 /* Upgrade could not be restored from previous purchase. Are you sure you have purchased this item? */
-"upgrade_vc_restore_unsuccessful_message" = "Upgrade could not be restored from previous purchase. Are you sure you have purchased this item?";
+"upgrade_vc_restore_unsuccessful_message" = "A váltást nem lehetett visszaállítani az előző vásárlásból. Biztos, hogy Ön már megvásárolta ezt a terméket?";
 
 /* Restoration Unsuccessful */
 "upgrade_vc_restore_unsuccessful_title" = "Restoration Unsuccessful";
@@ -931,7 +931,7 @@
 "export_vc_email_unavailable_title" = "Email nem elérhető";
 
 /* It looks like email is not setup on this device and so the database cannot be exported by email. */
-"export_vc_email_unavailable_message" = "It looks like email is not setup on this device and so the database cannot be exported by email.";
+"export_vc_email_unavailable_message" = "Úgy tűnik, hogy az e-mail nincs beállítva ezen az eszközön, így az adatbázis nem exportálható e-mailben.";
 
 /* Strongbox Database: '%@' */
 "export_vc_email_subject" = "Strongbox Database: '%@'";
@@ -1009,7 +1009,7 @@
 "pins_config_vc_warn_remove_database_delete_message" = "This will permanently delete the database file.";
 
 /* This will remove the database from Strongbox but the underlying file will remain on cloud storage */
-"pins_config_vc_warn_remove_database_remove_message" = "This will remove the database from Strongbox but the underlying file will remain on cloud storage";
+"pins_config_vc_warn_remove_database_remove_message" = "Ez eltávolítja az adatbázist a Strongboxból, de az alapjául szolgáló fájl a felhőalapú tárolón marad";
 
 /* Manage Key Files */
 "key_files_vc_manage_title" = "Kulcsfájlok kezelése";
@@ -1024,7 +1024,7 @@
 "key_files_vc_one_time_key_file_source_title" = "One Time Key File Source";
 
 /* Select where you would like to choose your Key File from. This file will not be stored locally or remembered. */
-"key_files_vc_one_time_key_file_source_message" = "Select where you would like to choose your Key File from. This file will not be stored locally or remembered.";
+"key_files_vc_one_time_key_file_source_message" = "Válassza ki, hogy honnan szeretné kiválasztani a kulcsfájlt. Ez a fájl nem lesz helyben tárolva vagy megjegyezve.";
 
 /* Files... */
 "key_files_vc_one_time_key_file_source_option_files" = "Fájlok...";
@@ -1512,7 +1512,7 @@
 "autofill_safes_vc_empty_title" = "Önnek még nincs adatbázisa :(";
 
 /* To use Strongbox for Password Autofill you need to add a database. You can do this in the Strongbox App. */
-"autofill_safes_vc_empty_subtitle" = "To use Strongbox for Password Autofill you need to add a database. You can do this in the Strongbox App.";
+"autofill_safes_vc_empty_subtitle" = "A Strongbox for Password Autofill használatához hozzá kell adnia egy adatbázist. Ezt a Strongbox alkalmazásban teheti meg.";
 
 /* Local */
 "autofill_safes_vc_storage_local_name" = "Local";
@@ -2215,7 +2215,7 @@
 "mac_error_could_not_open_key_file" = "Nem sikerült megnyitni a kulcsfájlt.";
 
 /* This database has been changed by another user or application. Would you like to reload the latest version? */
-"mac_db_changed_externally_reload_yes_or_no" = "This database has been changed by another user or application. Would you like to reload the latest version?";
+"mac_db_changed_externally_reload_yes_or_no" = "Ezt az adatbázist egy másik felhasználó vagy alkalmazás módosította. Szeretné újratölteni a legfrissebb verziót?";
 
 /* Reloading after external changes... */
 "mac_db_reloading_after_external_changes_popup_notification" = "Reloading after external changes...";
@@ -2300,7 +2300,7 @@
 "mac_csv_file_successfully_imported" = "A CSV-fájl importálása sikeresen megtörtént.";
 
 /* No valid rows found. Ensure CSV file contains a header row and at least one of the required fields. */
-"mac_no_valid_csv_rows_found" = "No valid rows found. Ensure CSV file contains a header row and at least one of the required fields.";
+"mac_no_valid_csv_rows_found" = "Nem találtunk érvényes sorokat. Győződjön meg róla, hogy a CSV fájl tartalmaz egy fejléc sort és legalább egy kötelező mezőt.";
 
 /* Unique Usernames */
 "mac_database_summary_unique_usernames" = "Egyedi felhasználónevek";
@@ -2318,7 +2318,7 @@
 "mac_database_summary_number_of_folders" = "Number of Groups";
 
 /* This is a large image to use as an icon. Would you like to use a scaled down version to save %@? - Translators Note: 1st Parameter is how much space will be saved */
-"mac_large_image_as_icon_use_scaled_down_version_fmt" = "This is a large image to use as an icon. Would you like to use a scaled down version to save %@?";
+"mac_large_image_as_icon_use_scaled_down_version_fmt" = "Ez egy nagyméretű kép, amelyet ikonként lehet használni. Szeretne egy kicsinyített változatot használni, hogy megtakarítsa a %@ címet?";
 
 /* This is not a valid image file. */
 "mac_not_a_valid_image_file" = "This is not a valid image file.";
@@ -2661,7 +2661,7 @@
 "favicon_results_n_icons_found_none_selected_fmt" = "%lu Icons Found (None selected)";
 
 /* This will set the icons for %d items to your selected FavIcons. Are you sure you want to continue? - Translators Note: 1st Param is the number of items that will be changed */
-"set_favicons_are_you_sure_yes_no_fmt" = "This will set the icons for %d items to your selected FavIcons. Are you sure you want to continue?";
+"set_favicons_are_you_sure_yes_no_fmt" = "Ez a %d elemek ikonjait a kiválasztott FavIcons ikonokra állítja be. Biztos, hogy folytatni szeretné?";
 
 /* Set FavIcon(s) */
 "mac_undo_action_set_icons" = "Ikon(ok) beállítása";
@@ -2715,7 +2715,7 @@
 "mac_convenience_unlock_title_pro_only" = "Convenience Unlock (Pro Feature Only)";
 
 /* Convenience Password is securely stored, protected by your device's Secure Enclave and will expire: %@. - Translators Note: 1st Parameter is a date, like "Today at 14:52" or "16 September 2020 at 16:54" */
-"mac_convenience_summary_secure_enclave_and_will_expire_fmt" = "Convenience Password is securely stored, protected by your device's Secure Enclave and will expire: %@.";
+"mac_convenience_summary_secure_enclave_and_will_expire_fmt" = "A kényelmi jelszó biztonságosan tárolódik, a készülék biztonságos enklávéja védi, és lejár: %@.";
 
 /* Convenience Password is securely stored in your Keychain (Secure Enclave unavailable on this device) and will expire: %@. - Translators Note: 1st Parameter is a date, like "Today at 14:52" or "16 September 2020 at 16:54" */
 "mac_convenience_summary_keychain_and_will_expire_fmt" = "A kényelmi jelszó biztonságosan tárolódik a kulcstárban (a Secure Enclave ezen a készüléken nem elérhető), és lejár: %@.";
@@ -2730,7 +2730,7 @@
 "mac_convenience_summary_secure_enclave_and_will_expire_on_exit" = "A Kényelmi jelszó biztonságosan tárolódik (csak a memóriában), titkosítva az eszköz biztonságos enklávéja által, és a Strongbox kilépéskor lejár.";
 
 /* Convenience Password is securely stored (in memory only) only and will expire on Strongbox Exit. */
-"mac_convenience_summary_keychain_and_will_expire_on_exit" = "Convenience Password is securely stored (in memory only) only and will expire on Strongbox Exit.";
+"mac_convenience_summary_keychain_and_will_expire_on_exit" = "A kényelmi jelszó biztonságosan tárolódik (csak a memóriában), és a Strongboxból való kilépéskor lejár.";
 
 /* Convenience Unlock is Enabled but the securely stored master password has expired. */
 "mac_convenience_summary_enabled_but_expired" = "Convenience Unlock is enabled but the securely stored master password has expired.";
@@ -2882,7 +2882,7 @@
 "browse_vc_duplicate_prompt_message" = "Biztosan duplikálni szeretné ezt az elemet?";
 
 /* It looks like your database is encrypted by Microsoft InTune probably due to corporate policy. */
-"error_database_is_encrypted_ms_intune" = "It looks like your database is encrypted by Microsoft InTune probably due to corporate policy.";
+"error_database_is_encrypted_ms_intune" = "Úgy tűnik, hogy az adatbázisát a Microsoft InTune titkosítja, valószínűleg a vállalati irányelvek miatt.";
 
 /* Add Entry... */
 "browse_add_entry_button_title" = "Bejegyzés hozzáadása...";
@@ -3122,7 +3122,7 @@
 "browse_vc_partial_recycle_alert_title" = "Partial Recycle";
 
 /* Some of the items you have selected cannot be recycled and will be permanently deleted. Is that OK? */
-"browse_vc_partial_recycle_alert_message" = "Some of the items you have selected cannot be recycled and will be permanently deleted. Is that OK?";
+"browse_vc_partial_recycle_alert_message" = "A kiválasztott elemek közül néhányat nem lehet újrahasznosítani, és azok véglegesen törlődnek. Ez rendben van?";
 
 /* Audit */
 "browse_vc_action_audit" = "Audit";
@@ -3371,13 +3371,13 @@
 "generic_action_delete" = "Törlés";
 
 /* Are you sure the URL is correct? It should be a path to a parent folder. Not the database file. */
-"webdav_vc_validation_url_are_you_sure" = "Are you sure the URL is correct? It should be a URL to a parent folder. Not the database file.";
+"webdav_vc_validation_url_are_you_sure" = "Biztos, hogy az URL helyes? Egy szülői mappához tartozó URL-nek kell lennie. Nem az adatbázis fájlhoz.";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Are you sure the path is correct? It should be a path to a parent folder. Not the database file.";
+"sftp_path_are_you_sure" = "Biztos, hogy az útvonal helyes? Egy szülői mappához vezető útnak kell lennie. Nem az adatbázisfájlhoz.";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Are you sure the path is correct? It should be a path to a parent folder. Not the database file.";
+"sftp_path_are_you_sure" = "Biztos, hogy az útvonal helyes? Egy szülői mappához vezető útnak kell lennie. Nem az adatbázisfájlhoz.";
 
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "Path May Be Invalid";
@@ -4047,7 +4047,7 @@
 "mac_add_webdav_pro_only" = "WebDAV adatbázis hozzáadása... (Pro)";
 
 /* This database can only be unlocked by Strongbox Pro because it is stored via SFTP or WebDAV.\n\nPlease Upgrade. */
-"mac_non_file_database_pro_message" = "This database can only be unlocked by Strongbox Pro because it is stored via SFTP or WebDAV.\n\nPlease Upgrade.";
+"mac_non_file_database_pro_message" = "Ez az adatbázis csak a Strongbox Pro segítségével oldható fel, mivel SFTP-n vagy WebDAV-on keresztül tárolják.\n\nKérjük, váltson Pro-ra.";
 
 /* Item Copied to Clipboard */
 "mac_copied_item_to_clipboard" = "Item Copied to Clipboard";
@@ -4185,7 +4185,7 @@
 "safes_vc_slide_left_open_online_action" = "Offline megnyitás";
 
 /* At least one of these database is open and unlocked. You must lock this database before you can remove it. */
-"mac_at_least_one_db_unlocked_cannot_remove" = "At least one of these databases is unlocked. You must lock this database before you can remove it.";
+"mac_at_least_one_db_unlocked_cannot_remove" = "Legalább egy ilyen adatbázis nincs lezárva. Ezt az adatbázist zárolni kell, mielőtt eltávolíthatná.";
 
 /* About Strongbox %@ - L10n note: 1st parameter is the App Version, e.g. 'About Strongbox 1.52.17' */
 "prefs_vc_app_version_info_none_pro_fmt" = "About Strongbox %@";
@@ -4368,7 +4368,7 @@
 "generic_dont_remind_me" = "Ne emlékeztessen";
 
 /* It's time to export a backup copy of your database somewhere safe.\n\nWould you like do that now? */
-"scheduled_export_message" = "It's time to export a backup copy of your database somewhere safe.\n\nWould you like do that now?";
+"scheduled_export_message" = "Itt az ideje, hogy exportáljon egy biztonsági másolatot az adatbázisáról egy biztonságos helyre.\n\nSzeretné ezt most megtenni?";
 
 /* Postpone */
 "generic_postpone" = "Elhalaszt";
@@ -4457,7 +4457,7 @@
 "sync_before_export_question_yes_no" = "Szeretné szinkronizálni az adatbázist exportálás előtt, hogy biztosan a legújabb verziójával rendelkezzen?";
 
 /* This database is already open. Please close it first if you would like to open it in a different mode. */
-"database_already_open_please_close" = "This database is already open. Please close it first if you would like to open it in a different mode.";
+"database_already_open_please_close" = "Ez az adatbázis már nyitva van. Kérjük, először zárja be, ha más módban szeretné megnyitni.";
 
 /* Offline - L10n note: this is an adjective, meaning the current database has been opened in Offline mode */
 "database_offline_mode_window_suffix" = "Offline";
@@ -5267,7 +5267,7 @@
 "configure_tabs_footer_hidden_tabs" = "These tabs will remain hidden.";
 
 /* You can choose to completely hide the bottom tab bar since you have only a single visible tab. Tap to toggle. */
-"configure_tabs_footer_text_hide_tab_bar" = "You can choose to completely hide the bottom tab bar since you have only a single visible tab. Tap to toggle.";
+"configure_tabs_footer_text_hide_tab_bar" = "Kiválaszthatja, hogy teljesen elrejti-e az alsó fülsávot, mivel csak egyetlen látható lapja van. A váltáshoz koppintson a gombra.";
 
 /* Drag tabs here to hide them */
 "configure_tabs_drag_tabs_to_hide" = "Drag tabs here to hide them";
@@ -5327,7 +5327,7 @@
 "safes_vc_import_icloud" = "iCloud Keychain (CSV)";
 
 /* Disabling Auto-Commit could mean you lose this TOTP if you forget to commit later, are you sure? */
-"are_you_sure_auto_commit_totp_msg" = "Disabling Auto-Commit could mean you lose this TOTP if you forget to commit later. Are you sure?";
+"are_you_sure_auto_commit_totp_msg" = "Az automatikus commit kikapcsolása azt jelentheti, hogy elveszíti ezt a TOTP-ot, ha később elfelejti a commitot. Biztos vagy benne?";
 
 /* Close - A generic verb - to Close a popup or dialog */
 "generic_verb_close" = "Bezárás";
@@ -5533,7 +5533,7 @@
 "generic_unsaved_changes" = "Unsaved Changes";
 
 /* You have pending unsaved changes which should be saved before continuing.\n\nWould you like to save now? */
-"unsaved_changes_question_save_now" = "You have pending unsaved changes which should be saved before continuing.\n\nWould you like to save now?";
+"unsaved_changes_question_save_now" = "Vannak függőben lévő, el nem mentett módosításai, amelyeket a folytatás előtt el kell menteni.\n\nSzeretne most menteni?";
 
 /* Verifying... */
 "generic_verifying_ellipsis" = "Verifying...";
@@ -5542,7 +5542,7 @@
 "verify_creds_before_plaintext_export_bio_message_suffix" = "verify credentials before you can export in plaintext";
 
 /* For security reasons your master credentials must be verified before you can export in plaintext. */
-"verify_creds_before_plaintext_export_subhead" = "For security reasons your master credentials must be verified before you can export in plaintext.";
+"verify_creds_before_plaintext_export_subhead" = "Biztonsági okokból a fő hitelesítő adatokat ellenőrizni kell, mielőtt egyszerű szöveges formában exportálhatna.";
 
 /* verify existing credentials before you can print - L10n Note: This is a suffix that appears on the Touch ID request dialog on macOS, it is prefixed by system text: "Strongbox is trying to", so ultimately this string will look like: "Strongbox is trying to verify credentials before you can print" */
 "verify_creds_before_print_bio_message_suffix" = "verify credentials before you can print";
@@ -5629,10 +5629,10 @@
 "sale_view_regular_title" = "Kiárusítás most";
 
 /* Since you're a Pro subscriber, we'd like to say thank you and offer you a discount on your next renewal */
-"sale_view_subscriber_message" = "Since you're a Pro subscriber, we'd like to say thank you and offer you a discount on your next renewal";
+"sale_view_subscriber_message" = "Mivel Ön Pro előfizető, szeretnénk köszönetet mondani Önnek, és kedvezményt nyújtani a következő megújításakor";
 
 /* Want to grab a great deal? Now's the perfect time to go Pro. We've got a special offer on all Strongbox licenses for a short time only. */
-"sale_view_regular_message" = "Now's the perfect time to go Pro. We've got a special offer on all Strongbox licenses for a short time only";
+"sale_view_regular_message" = "Most van itt a tökéletes alkalom, hogy Pro-ra váltson. Különleges ajánlatunk van az összes Strongbox licencre, csak rövid ideig";
 
 /* Redeem Offer Now */
 "sale_view_subscriber_cta" = "Redeem Offer Now";
@@ -5704,7 +5704,7 @@
 "passkey_new_entry_title" = "New Entry for Passkey";
 
 /* We'll create a new entry for this passkey. Choose a title and a group where you'd like to save it. */
-"passkey_new_entry_text" = "We'll create a new entry for this passkey. Choose a title and a group where you'd like to save it.";
+"passkey_new_entry_text" = "Létrehozunk egy új bejegyzést ehhez a jelszóhoz. Válasszon egy címet és egy csoportot, ahová el szeretné menteni.";
 
 /* Group */
 "generic_field_name_group" = "Csoport";
@@ -5740,7 +5740,7 @@
 "autofill_sb_not_running_title" = "Strongbox Not Running";
 
 /* Strongbox must be running to register a new Passkey.\n\nMake sure Strongbox is running in the background. */
-"autofill_sb_not_running_message" = "Strongbox must be running to register a new Passkey.\n\nMake sure Strongbox is running in the background.";
+"autofill_sb_not_running_message" = "A Strongboxnak futnia kell egy új Passkey regisztrálásához.\n\nGyőződjön meg róla, hogy a Strongbox a háttérben fut.";
 
 /* Passkeys Unavailable */
 "passkeys_unavailable_alert_title" = "Passkeys Unavailable";
