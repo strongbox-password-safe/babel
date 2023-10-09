@@ -65,7 +65,7 @@
 "safes_vc_local_storage_mode_changed" = "A fájlok láthatósága megváltozott";
 
 /* warning message about removing database from icloud */
-"safes_vc_remove_icloud_databases_warning" = "This will remove the database from all your iCloud enabled devices.\n\nAre you sure you want to remove this database from Strongbox and iCloud?";
+"safes_vc_remove_icloud_databases_warning" = "Ez eltávolítja az adatbázist az összes iCloud-képes eszközéről.\n\nBiztos, hogy el akarja távolítani ezt az adatbázist a Strongboxból és az iCloudból?";
 
 /* are you sure you want to remove database prompt with format string on end */
 "safes_vc_are_you_sure_remove_database_fmt" = "Biztosan eltávolítja ezt az adatbázist a Strongboxból?%@";
@@ -80,7 +80,7 @@
 "safes_vc_found_icloud_database" = "Found iCloud Database";
 
 /* question message, use iCloud database or select a different one */
-"safes_vc_use_icloud_or_continue" = "It looks like you already have an iCloud database, would you like to use this one, or would you like to continue adding another?";
+"safes_vc_use_icloud_or_continue" = "Úgy tűnik, hogy már van iCloud-adatbázisa, ezt szeretné használni, vagy kíván még egyet hozzáadni?";
 
 /* One of the options in response to prompt - Use this iCloud database */
 "safes_vc_use_this_icloud_database" = "Use this iCloud database";
@@ -105,7 +105,7 @@
 "safes_vc_copy_icloud_or_local" = "Copy to iCloud or Local?";
 
 /* Question message: copy to iCloud or to Local */
-"safes_vc_copy_local_to_icloud" = "iCloud is currently enabled. Would you like to copy this database to iCloud now, or would you prefer to keep on your local device only?";
+"safes_vc_copy_local_to_icloud" = "az iCloud jelenleg engedélyezve van. Szeretné ezt az adatbázist most átmásolni az iCloudba, vagy inkább csak a helyi eszközén szeretné megtartani?";
 
 /* Default button: Copy to Local */
 "safes_vc_copy_to_local" = "Keep on Local Device Only";
@@ -243,7 +243,7 @@
 "safesvc_copy_database_to_location_title" = "Copy to iCloud or Local?";
 
 /* iCloud is currently enabled. Would you like to copy this database to iCloud now, or would you prefer to keep on your local device only? */
-"safesvc_copy_database_to_location_message" = "iCloud is currently enabled. Would you like to copy this database to iCloud now, or would you prefer to keep on your local device only?";
+"safesvc_copy_database_to_location_message" = "az iCloud jelenleg engedélyezve van. Szeretné ezt az adatbázist most átmásolni az iCloudba, vagy inkább csak a helyi eszközén szeretné megtartani?";
 
 /* Copy to Local Device Only */
 "safesvc_copy_database_option_to_local" = "Keep on Local Device Only";
@@ -396,7 +396,7 @@
 "browse_vc_sort_by_title" = "Cím szerint rendezi az elemeket?";
 
 /* Do you want to sort all the items in this group by Title? This will set the order in which they are stored in your database. */
-"browse_vc_sort_by_title_message" = "Do you want to sort all the items in this group by Title? This will set the order in which they are stored in your database.";
+"browse_vc_sort_by_title_message" = "A csoport összes elemét cím szerint szeretné rendezni? Ez beállítja a sorrendet, amelyben az adatbázisban tárolódnak.";
 
 /* You can long press, or double/triple tap to quickly copy fields... Give it a try! */
 "browse_vc_tip_fast_tap_message" = "A mezők gyors másolásához hosszan nyomja le vagy dupla/háromszor koppintson... Próbálja ki!";
@@ -534,7 +534,7 @@
 "db_management_disable_biometric_question_fmt" = "Disable %@?";
 
 /* Disabling %@ for this database will remove the securely stored password and you will have to enter it again. Are you sure you want to do this? */
-"db_management_disable_biometric_warning_fmt" = "Disabling %@ for this database will remove the securely stored password and you will have to enter it again. Are you sure you want to do this?";
+"db_management_disable_biometric_warning_fmt" = "A %@ letiltása az adatbázis számára eltávolítja a biztonságosan tárolt jelszót, és újra meg kell adnia azt. Biztos, hogy ezt akarja csinálni?";
 
 /* Are you sure you want to disable %@ for this database? */
 "db_management_disable_biomtric_simple_fmt" = "Are you sure you want to disable %@ for this database?";
@@ -672,7 +672,7 @@
 "prefs_vc_auto_lock_database_delay" = "Auto Lock Database Delay";
 
 /* This will clear all securely stored master passwords (for all databases) used by biometric unlock. Are you sure? */
-"prefs_vc_clear_biometrics_yesno_message" = "This will clear all securely stored master passwords (for all databases) used by biometric unlock. Are you sure?";
+"prefs_vc_clear_biometrics_yesno_message" = "Ez törli a biometrikus feloldás által használt összes biztonságosan tárolt főjelszót (az összes adatbázishoz). Biztosan ezt akarja?";
 
 /* Clear Biometrics */
 "prefs_vc_clear_biometrics_yesno_title" = "Clear Biometrics";
@@ -681,7 +681,7 @@
 "prefs_vc_clear_clipboard_delay" = "Clear Clipboard Delay";
 
 /* This will clear all securely stored master passwords (for all databases) used for PIN Code unlock. Are you sure? */
-"prefs_vc_clear_pin_codes_yesno_message" = "This will clear all securely stored master passwords (for all databases) used for PIN Code unlock. Are you sure?";
+"prefs_vc_clear_pin_codes_yesno_message" = "Ez törli a PIN-kód feloldásához használt összes biztonságosan tárolt főjelszót (az összes adatbázishoz). Biztos benne, hogy ezt akarja csinálni?";
 
 /* Clear PIN Codes */
 "prefs_vc_clear_pin_codes_yesno_title" = "Pin kód törlése";
@@ -985,7 +985,7 @@
 "pins_config_vc_title_pro_only" = "PIN kódok (csak Pro verzió)";
 
 /* Turning the PIN Off for this database will remove the securely stored password and you will have to enter it again. Are you sure you want to do this? */
-"pins_config_vc_turn_pin_off_warning" = "Turning the PIN Off for this database will remove the securely stored password and you will have to enter it again. Are you sure you want to do this?";
+"pins_config_vc_turn_pin_off_warning" = "Ha kikapcsolja a PIN-kódot ebben az adatbázisban, a biztonságosan tárolt jelszó törlődik, és újra meg kell adnia. Biztos, hogy ezt szeretné csinálni?";
 
 /* Are you sure you want to turn off the PIN for this database? */
 "pins_config_vc_turn_pin_off_confirm" = "Are you sure you want to turn off the PIN for this database?";
@@ -1226,7 +1226,7 @@
 "set_icon_vc_progress_analyzing_image" = "Analyzing Image...";
 
 /* This is a rather large image (%dx%d), would you like to rescale it to a maximum dimension of %d pixels for a file size saving of roughly %@ */
-"set_icon_vc_prompt_rescale_image_message_fmt" = "This is a rather large image (%dx%d), would you like to rescale it to a maximum dimension of %d pixels for a file size saving of roughly %@";
+"set_icon_vc_prompt_rescale_image_message_fmt" = "Ez egy meglehetősen nagy kép (%dx%d), szeretné, ha átméretezné a maximális méretre %d pixelre, ami nagyjából %@ fájlméretet takarít meg";
 
 /* Large Custom Icon Image, Rescale? */
 "set_icon_vc_prompt_rescale_image_title" = "Large Custom Icon Image, Rescale?";
@@ -1578,7 +1578,7 @@
 "pick_creds_vc_cannot_create_new_unsupported_storage_type_title" = "Unsupported Storage";
 
 /* This database is stored on a Storage Provider that does not support Live editing in App Extensions. Cannot Create New Entry. */
-"pick_creds_vc_cannot_create_new_unsupported_storage_type_message" = "This database is stored on a Storage Provider that does not support Live editing in App Extensions. Cannot Create New Entry.";
+"pick_creds_vc_cannot_create_new_unsupported_storage_type_message" = "Ezt az adatbázist egy olyan tárolási szolgáltató tárolja, amely nem támogatja az alkalmazásbővítmények élő szerkesztését. Nem lehet új bejegyzést létrehozni.";
 
 /* Create New Entry... */
 "pick_creds_vc_create_new_button_title" = "Új bejegyzés létrehozása...";
@@ -1788,7 +1788,7 @@
 "database_metadata_field_password_key_stretch_iterations" = "Keystretch Iterations";
 
 /* Error message indicating that these item(s) cannot be deserialized to this database because they contain two groups with the same title. */
-"node_serialization_error_duplicate_group_title_fmt" = "Could not copy these items because they contain two groups with the same title '%@' which is unsupported by this database format.";
+"node_serialization_error_duplicate_group_title_fmt" = "Ezeket az elemeket nem lehetett másolni, mert két azonos címet tartalmazó csoportot tartalmaznak '%@' ami nem támogatott ebben az adatbázis-formátumban.";
 
 /* Memory */
 "database_metadata_field_argon2_memory" = "Memória";
@@ -2242,7 +2242,7 @@
 "mac_master_credentials_changed_and_saved" = "A fő hitelesítő adatok megváltoztak, és az adatbázis elmentve";
 
 /* KeePass does not natively support the 'Email' field. Strongbox will add it instead as a custom field.\nDo you want to continue? */
-"mac_drag_drop_between_databases_keepass_email_field_not_supported" = "KeePass does not natively support the 'Email' field. Strongbox will add it instead as a custom field.\nDo you want to continue?";
+"mac_drag_drop_between_databases_keepass_email_field_not_supported" = "A KeePass nem támogatja az 'Email' mezőt. A Strongbox helyette egyéni mezőként adja hozzá.\nSzeretné folytatni?";
 
 /* KeePass 1 does not support entries at the root level, these will be discarded. KeePass 1 also does not natively support the 'Email' field. Strongbox will append it instead to the end of the 'Notes' field.\nDo you want to continue? */
 "mac_keepass1_does_not_support_root_entries" = "A KeePass 1 nem támogatja a gyökérszintű bejegyzéseket, ezeket a bejegyzéseket a rendszer elveti. A KeePass 1 szintén nem támogatja az 'Email' mezőt. A Strongbox ehelyett a 'Notes' mező végéhez fogja csatolni.\nSzeretné folytatni?";
@@ -2285,7 +2285,7 @@
 
 /* The CSV file must contain a header row with at least one of the following fields:\n\n[%@, %@, %@, %@, %@, %@]\n\nThe order of the fields doesn't matter. */
 
-"mac_csv_file_must_contain_header_and_fields" = "The CSV file must contain a header row with at least one of the following fields:\n\n[%@, %@, %@, %@, %@, %@, %@]\n\nThe order of the fields doesn't matter.";
+"mac_csv_file_must_contain_header_and_fields" = "A CSV-fájlnak tartalmaznia kell egy fejléc-sort, amely a következő mezők közül legalább egyet tartalmaz:\n\n[%@, %@, %@, %@, %@, %@, %@]\n\nA mezők sorrendje nem számít.";
 
 /* CSV Format */
 "mac_csv_format_info_title" = "CSV formátum";
@@ -2442,7 +2442,7 @@
 "mac_cannot_save_db_while_locked" = "Cannot save database while it is locked.";
 
 /* Strongbox cannot open File Wrappers, Directories or Compressed Packages like this. Please directly select a KeePass or Password Safe database file. */
-"mac_strongbox_cant_open_file_wrappers" = "Strongbox cannot open File Wrappers, Directories or Compressed Packages like this. Please directly select a KeePass or Password Safe database file.";
+"mac_strongbox_cant_open_file_wrappers" = "A Strongbox nem tudja megnyitni az ilyen fájlcsomagolásokat, könyvtárakat vagy tömörített csomagokat. Kérjük, válasszon közvetlenül egy KeePass vagy Password Safe adatbázisfájlt.";
 
 /* Please Enter the Master Credentials for this Database */
 "mac_please_enter_master_credentials_for_this_database" = "Please Enter the Master Credentials for this Database";
@@ -2541,13 +2541,13 @@
 "mac_upgrade_welcome_back_to_strongbox" = "Üdvözöljük újra a Strongbox Pro-ban";
 
 /* Upgrade Restored Successfully. Thank you for your support!\n\nPlease restart the Application to enjoy your Pro features. */
-"mac_upgrade_upgrade_restored_success" = "Upgrade Restored Successfully. Thank you for your support!\n\nPlease restart the Application to enjoy your Pro features.";
+"mac_upgrade_upgrade_restored_success" = "A váltás sikeresen helyreállt. Köszönjük a támogatást!\n\nKérjük, indítsa újra az alkalmazást, hogy élvezhesse a Pro funkciókat.";
 
 /* Welcome to Strongbox Pro */
 "mac_upgrade_welcome_to_strongbox" = "Üdvözöljük a Strongbox Pro-ban";
 
 /* Upgrade to Pro version successful! Thank you for your support!\n\nPlease restart the Application to enjoy your Pro features. */
-"mac_upgrade_upgrade_successful_thank_you" = "Upgrade to Pro version successful! Thank you for your support!\n\nPlease restart the Application to enjoy your Pro features.";
+"mac_upgrade_upgrade_successful_thank_you" = "A Pro verzióra való váltás sikeres! Köszönjük a támogatást!\n\nKérjük, indítsa újra az alkalmazást, hogy élvezhesse a Pro funkciókat.";
 
 /* Failed to Upgrade */
 "mac_upgrade_failed_to_upgrade" = "Failed to Upgrade";
@@ -2718,16 +2718,16 @@
 "mac_convenience_summary_secure_enclave_and_will_expire_fmt" = "Convenience Password is securely stored, protected by your device's Secure Enclave and will expire: %@.";
 
 /* Convenience Password is securely stored in your Keychain (Secure Enclave unavailable on this device) and will expire: %@. - Translators Note: 1st Parameter is a date, like "Today at 14:52" or "16 September 2020 at 16:54" */
-"mac_convenience_summary_keychain_and_will_expire_fmt" = "Convenience Password is securely stored in your Keychain (Secure Enclave unavailable on this device) and will expire: %@.";
+"mac_convenience_summary_keychain_and_will_expire_fmt" = "A kényelmi jelszó biztonságosan tárolódik a kulcstárban (a Secure Enclave ezen a készüléken nem elérhető), és lejár: %@.";
 
 /* Convenience Password is securely stored, protected by your device's Secure Enclave and is configured not to expire. */
-"mac_convenience_summary_secure_enclave_and_will_not_expire" = "Convenience Password is securely stored, protected by your device's Secure Enclave and is configured not to expire.";
+"mac_convenience_summary_secure_enclave_and_will_not_expire" = "A Kényelmi jelszó biztonságosan tárolódik, a készülék biztonságos enklávéja védi, és úgy van beállítva, hogy ne járjon le.";
 
 /* Convenience Password is securely stored in your Keychain (Secure Enclave unavailable on this device), and is configured not to expire. */
-"mac_convenience_summary_keychain_and_will_not_expire" = "Convenience Password is securely stored in your Keychain (Secure Enclave unavailable on this device), and is configured not to expire.";
+"mac_convenience_summary_keychain_and_will_not_expire" = "A Kényelmi jelszó biztonságosan tárolódik a kulcstárban (a Secure Enclave ezen az eszközön nem elérhető), és úgy van beállítva, hogy ne járjon le.";
 
 /* Convenience Password is securely stored (in memory only) encrypted by your device's Secure Enclave and will expire on Strongbox Exit. */
-"mac_convenience_summary_secure_enclave_and_will_expire_on_exit" = "Convenience Password is securely stored (in memory only) encrypted by your device's Secure Enclave and will expire on Strongbox Exit.";
+"mac_convenience_summary_secure_enclave_and_will_expire_on_exit" = "A Kényelmi jelszó biztonságosan tárolódik (csak a memóriában), titkosítva az eszköz biztonságos enklávéja által, és a Strongbox kilépéskor lejár.";
 
 /* Convenience Password is securely stored (in memory only) only and will expire on Strongbox Exit. */
 "mac_convenience_summary_keychain_and_will_expire_on_exit" = "Convenience Password is securely stored (in memory only) only and will expire on Strongbox Exit.";
@@ -2742,7 +2742,7 @@
 "mac_convenience_summary_biometrics_unavailable" = "Convenience Unlock (Touch ID/Watch Unavailable)";
 
 /* Convenience Unlock is only available in the Pro version of Strongbox. Please consider upgrading to support development. */
-"mac_convenience_summary_only_available_on_pro" = "Convenience Unlock is only available in the Pro version of Strongbox. Please consider upgrading to support development.";
+"mac_convenience_summary_only_available_on_pro" = "A kényelmi feloldás csak a Strongbox Pro verziójában érhető el. Kérjük, fontolja meg a frissítést a fejlesztés támogatása érdekében.";
 
 /* Never */
 "mac_convenience_expiry_period_never" = "Soha";
@@ -2775,7 +2775,7 @@
 "casg_yubikey_configured_slot2" = "Hely 2";
 
 /* Hardware Key Unlock is not supported in AutoFill mode due to system constraints. You can configure a Virtual Hardware Key instead. */
-"open_sequence_cannot_use_yubikey_in_autofill_mode" = "Hardware Key Unlock is not supported in AutoFill mode due to system constraints. You can configure a Virtual Hardware Key instead.";
+"open_sequence_cannot_use_yubikey_in_autofill_mode" = "A hardveres kulcsfeloldás a rendszer korlátai miatt nem támogatott AutoFill módban. Helyette virtuális hardverkulcsot konfigurálhat.";
 
 /* Hardware Key Unlock is only available in the Pro edition of Strongbox */
 "open_sequence_yubikey_only_available_in_pro" = "Hardware Key Unlock is only available in the Pro edition of Strongbox";
@@ -3086,13 +3086,13 @@
 "item_details_prompt_auto_fetch_favicon_title" = "Auto Fetch FavIcon?";
 
 /* Strongbox can automatically fetch FavIcons when an new entry is created or updated.\n\nWould you like to Strongbox to do this? */
-"item_details_prompt_auto_fetch_favicon_message" = "Strongbox can automatically fetch FavIcons when an new entry is created or updated.\n\nWould you like to Strongbox to do this?";
+"item_details_prompt_auto_fetch_favicon_message" = "A Strongbox automatikusan le tudja hívni a FavIcon-t, amikor új bejegyzés jön létre vagy módosítja azt.\n\nSzeretné, ha a Strongbox ezt megtenné?";
 
 /* Try Strongbox Pro? */
 "browse_pro_nudge_title" = "Try Strongbox Pro?";
 
 /* Strongbox Pro is full of handy features like %@ Unlock.\n\nGood news! You have a Free 90-Day Trial available. Would you like to try Strongbox Pro? (Translators Note: 1st parameter is biometric id like 'Touch ID' or 'Face ID') */
-"browse_pro_nudge_message_fmt" = "Strongbox Pro is full of handy features like %@ Unlock.\n\nGood news! You have a Free 90-Day Trial available. Would you like to try Strongbox Pro?";
+"browse_pro_nudge_message_fmt" = "A Strongbox Pro tele van olyan praktikus funkciókkal, mint a %@ feloldás.\n\nJó hír! Ingyenes 90 napos próbaverzió áll rendelkezésére. Szeretné kipróbálni a Strongbox Pro-t?";
 
 /* Finnish */
 "pwgen_wordlist_finnish" = "Finnish";
@@ -3158,7 +3158,7 @@
 "audit_summary_flag_password_is_too_short" = "Ez a jelszó túl rövid";
 
 /* The items above use exactly the same password as this item, this is generally considered a weakness. You should strive not to have any duplicated passwords. */
-"audit_drill_down_section_footer_duplicates" = "The items above use exactly the same password as this item. This is generally considered a weakness. You should strive not to have any duplicated passwords.";
+"audit_drill_down_section_footer_duplicates" = "A fenti elemek pontosan ugyanazt a jelszót használják, mint ez az elem. Ez általában gyengeségnek számít. Törekedjen arra, hogy ne legyenek duplikált jelszavai.";
 
 /* The items above have a similar password to this item. This might indicate a weakness or use of a common component and could therefore be vulnerable to attack. */
 "audit_drill_down_section_footer_similar" = "A fenti tételek jelszava hasonló ehhez a tételhez. Ez gyengeségre vagy közös komponens használatára utalhat, és ezért sérülékeny támadásokkal szemben.";
@@ -3320,7 +3320,7 @@
 "open_sequence_storage_provider_error_title" = "Szinkronizálási hiba";
 
 /* If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open in offline mode instead? */
-"open_sequence_storage_provider_error_open_local_ro_instead" = "If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open in offline mode instead?";
+"open_sequence_storage_provider_error_open_local_ro_instead" = "Ha ez ismételten előfordul, akkor próbálja meg újra hozzáadni az adatbázist. Nézze meg a hibakeresési szinkronizálási naplót a részletekért...\n\nSzeretné inkább offline módban megnyitni?";
 
 /* Local Copy Unavailable */
 "autofill_vc_item_subtitle_local_copy_unavailable" = "Local Copy Unavailable";
@@ -3353,7 +3353,7 @@
 "open_sequence_database_different_filename_title" = "Different Filename";
 
 /* This doesn't look like it's the right file because the filename looks different than the one you originally added. Do you want to continue?" */
-"open_sequence_database_different_filename_message" = "This doesn't look like it's the right file because the filename looks different than the one you originally added. Do you want to continue?";
+"open_sequence_database_different_filename_message" = "Úgy tűnik, hogy ez nem a megfelelő fájl, mert a fájlnév eltér az eredetileg hozzáadottól. Szeretné folytatni?";
 
 /* Relocate Database */
 "open_sequence_storage_provider_try_relocate_files_db" = "Locate Database...";
@@ -3890,7 +3890,7 @@
 "model_error_could_not_write_local_merge" = "Technical Error - Could not write local copies for comparison/merge.";
 
 /* Cannot merge in background or without key. */
-"model_error_cannot_merge_in_background" = "Cannot merge without credentials or in Background Sync mode. You must now do an Online Sync to resolve this conflict.";
+"model_error_cannot_merge_in_background" = "Nem lehet összevonni hitelesítő adatok nélkül vagy háttérszinkronizálási módban. A konfliktus feloldásához most online szinkronizálást kell végeznie.";
 
 /* Are you sure you want to always Auto-Merge when you have a Sync Conflict like this? */
 "sync_are_you_sure_always_auto_merge" = "Are you sure you want to always Auto-Merge when you have a Sync Conflict like this?";
@@ -3929,7 +3929,7 @@
 "compare_merge_sync_possibly_required_message" = "Legalább az egyik ilyen adatbázis szinkronizálása nem történt meg a közelmúltban. Javasoljuk, hogy térjen vissza az Adatbázisok listája képernyőre, és húzza lefelé a szinkronizálási folyamat elindításához. Ez biztosítja, hogy a legfrissebb verziókkal dolgozik.";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to open in offline mode instead? - Translators Note: 1st Parameter is the storage provider name like Google Drive or Dropbox */
-"open_sequence_user_looks_offline_open_local_fmt" = "It looks like you may be offline and '%@' may not be reachable. Would you like to open in offline mode instead?";
+"open_sequence_user_looks_offline_open_local_fmt" = "Úgy tűnik, hogy Ön offline és a '%@' nem elérhető. Szeretné inkább offline módban megnyitni?";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use Strongbox's local copy in read-only mode instead? - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc */
 "open_sequence_user_looks_offline_open_local_ro_fmt" = "Úgy tűnik, hogy Ön offline és a '%@' nem elérhető. Szeretné inkább offline módban megnyitni?\n\nMegjegyzés: Ez csak olvasható. A Pro verzióban offline is szerkeszthető.";
@@ -4155,7 +4155,7 @@
 "offline_detected_behaviour_open_offline" = "Offline megnyitás (Nincs igény)";
 
 /* There was a problem updating your database in the background and your assistance is required to resolve. Would you like to resolve this problem now? */
-"sync_status_user_interaction_required_prompt_yes_or_no" = "There was a problem updating your database and your assistance is required to resolve. Would you like to resolve this problem now?";
+"sync_status_user_interaction_required_prompt_yes_or_no" = "Probléma merült fel az adatbázis frissítésében, és a megoldáshoz az Ön segítségére van szükség. Szeretné most megoldani ezt a problémát?";
 
 /* Error Updating */
 "sync_status_error_updating_title" = "Error Updating";
@@ -4164,7 +4164,7 @@
 "generic_action_verb_recycle" = "Újrahasznosítás";
 
 /* There was an error updating your database. Would you like to try updating again, or would you prefer to revert to the latest successful update? */
-"sync_status_error_updating_try_again_prompt" = "There was an error updating your database. Would you like to try updating again, or would you prefer to revert to the latest successful update?";
+"sync_status_error_updating_try_again_prompt" = "Hiba történt az adatbázis frissítésében. Szeretné újra megpróbálni a frissítést, vagy inkább visszatérne a legutóbbi sikeres frissítéshez?";
 
 /* Try Again */
 "sync_status_error_updating_try_again_action" = "Próbálja újra";
@@ -4314,7 +4314,7 @@
 "convenience_unlock_require_after_prefix" = "Require After";
 
 /* It's time now to re-enter your Master Password manually. You can change this reminder interval in Database Settings. */
-"composite_key_determiner_convenience_expired_message" = "It's time now to re-enter your Master Password manually. You can change this reminder interval in Database Settings.";
+"composite_key_determiner_convenience_expired_message" = "Itt az ideje, hogy manuálisan újra megadja a fő jelszót. Ezt az emlékeztető intervallumot az Adatbázis-beállításokban módosíthatja.";
 
 /* Got it! */
 "generic_got_it" = "Rendben!";
@@ -4428,7 +4428,7 @@
 "add_attachment_vc_large_image_prompt_option_use_anyway_size_fmt2" = "Use Anyway (%@ x %@) %@";
 
 /* This is a rather large image (%@x%@), would you like to rescale it to a maximum dimension of %@ pixels for a file size saving of roughly %@  - (Tranlators Note: Message about reducing the file size of an image. e.g. 'This is a rather large image (4096x4096), would you like to rescale it to a maximum dimension of 512 pixels for a file size saving of roughly 15 MB')  */
-"set_icon_vc_prompt_rescale_image_message_fmt2" = "This is a rather large image (%@x%@), would you like to rescale it to a maximum dimension of %@ pixels for a file size saving of roughly %@";
+"set_icon_vc_prompt_rescale_image_message_fmt2" = "Ez egy meglehetősen nagy kép (%@x%@), szeretné, ha átméreteznénk a maximális méretre, %@ pixelre, ami nagyjából %@ fájlméret megtakarítást eredményezne";
 
 /* Backup %@ (%@) - Translators Note: 1st Param is a number/integer, second parameter is the modified date, so e.g. 'Backup 4 (11 Nov 2020)'*/
 "backups_backup_title_fmt2" = "Backup %@ (%@)";
@@ -4511,7 +4511,7 @@
 "yubikey_fast_unlock_title" = "Determining Fast Unlock";
 
 /* Strongbox is determining the fastest way to unlock this database. You will be asked to scan your YubiKey once again. */
-"yubikey_fast_unlock_message" = "Strongbox is determining the fastest way to unlock this database. You will be asked to scan your YubiKey once again.";
+"yubikey_fast_unlock_message" = "A Strongbox meghatározza a leghatékonyabb módszert az adatbázis feloldásához. A rendszer ismét megkéri, hogy szkennelje be a YubiKey-t.";
 
 /* Title displayed in tableview when there are no SFTP or WebDAV connections setup */
 "empty_connections_list_tableview_title" = "No Connections Yet";
@@ -4796,7 +4796,7 @@
 "field_tidy_title_tidy_up_field" = "Tidy Up Field?";
 
 /* There are some blank characters (e.g. spaces, tabs) at the start or end of this field.\n\nShould Strongbox tidy up these extraneous characters? */
-"field_tidy_message_tidy_up_field" = "There are some blank characters (e.g. spaces, tabs) at the start or end of this field.\n\nShould Strongbox tidy up these extraneous characters?";
+"field_tidy_message_tidy_up_field" = "A jelszó elején vagy végén üres karakterek (pl. szóközök, tabulátorok) vannak.\n\nA Strongbox kiszűrje ezeket a felesleges karaktereket?";
 
 /* Tidy Up */
 "field_tidy_choice_tidy_up_field" = "Rendet rak";
@@ -4925,7 +4925,7 @@
 "audit_side_bar_nav_all_issues" = "All Issues";
 
 /* There are some blank characters (e.g. spaces, tabs) at the start or end of your password.\n\nShould Strongbox tidy up these extraneous characters? */
-"field_tidy_message_tidy_up_password" = "There are some blank characters (e.g. spaces, tabs) at the start or end of your password.\n\nShould Strongbox tidy up these extraneous characters?";
+"field_tidy_message_tidy_up_password" = "A jelszó elején vagy végén üres karakterek (pl. szóközök, tabulátorok) vannak.\n\nA Strongbox kiszűrje ezeket a felesleges karaktereket?";
 
 /* Fun */
 "custom_app_icon_category_fun" = "Fun";
@@ -5009,7 +5009,7 @@
 "compare_merge_merge_or_synchronize_title" = "Merge In or Synchronize?";
 
 /* A 'Merge In' merges changes into the first database only. A 'Synchronize' also updates the second database to match. */
-"compare_merge_merge_or_synchronize_message" = "A 'Merge In' merges changes into the first database only. A 'Synchronize' also updates the second database to match.";
+"compare_merge_merge_or_synchronize_message" = "A \"Merge In\" csak az első adatbázisba olvasztja be a változásokat. A 'Szinkronizálás' a második adatbázist is frissíti, hogy egyezzen.";
 
 /* Merge In Only (Update First) */
 "compare_merge_merge_or_synchronize_option_merge" = "Merge In Only (Update First)";
@@ -5033,7 +5033,7 @@
 "browse_cannot_sort_by_title_message" = "You cannot sort by Title here because you have disabled sorting in Database Settings.";
 
 /* You need to re-add your OneDrive database due to a Microsoft SDK update. Tap OK, and select your OneDrive database to get started... */
-"onedrive_readd_required" = "You need to re-add your OneDrive database due to a Microsoft SDK update.\n\nTap OK, and select your OneDrive database to get started...";
+"onedrive_readd_required" = "A Microsoft SDK frissítése miatt újra hozzá kell adnia a OneDrive-adatbázisát.\n\nKoppintson az OK gombra, és válassza ki a OneDrive-adatbázisát a kezdéshez...";
 
 /* Apply Changes */
 "generic_apply_changes" = "Módosítások alkalmazása";
@@ -5141,7 +5141,7 @@
 "relocate_database_title" = "Relocate Database";
 
 /* Strongbox's reference to this database has become invalid or the database cannot be found.\n\nPlease reselect this database from your files for Strongbox. */
-"relocate_database_msg" = "Strongbox's reference to this database has become invalid or the database cannot be found.\n\nPlease reselect this database from your files for Strongbox.";
+"relocate_database_msg" = "A Strongbox hivatkozása erre az adatbázisra érvénytelenné vált, vagy az adatbázis nem található.\n\nKérjük, válassza ki újra ezt az adatbázist a Strongbox fájljaiból.";
 
 /* 1Password Import Warning */
 "1password_import_warning_title" = "1Password Import Warning";
@@ -5225,7 +5225,7 @@
 "database_unlocked_status" = "Feloldott";
 
 /* Your changes could not be safely saved. You are now working on an in-memory version only of your database. We recommend you try to save again */
-"error_could_not_save_message" = "Your changes could not be safely saved. You are now working on an in-memory only version of your database. We recommend you try to save again.";
+"error_could_not_save_message" = "A módosításokat nem lehetett biztonságosan elmenteni. Ön most az adatbázisának csak memórián belüli változatán dolgozik. Javasoljuk, hogy próbálja meg újra a mentést.";
 
 /* Error Saving\nWe recommend you try to save again */
 "error_could_not_save_title" = "Error Saving\nWe recommend you try to save again";
@@ -5234,7 +5234,7 @@
 "generic_action_sync" = "Szinkronizálás";
 
 /* Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Sync Log?\n\n%@\n */
-"sync_error_message_including_error_detail_fmt" = "Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Sync Log?\n\n%@\n";
+"sync_error_message_including_error_detail_fmt" = "Az adatbázisa biztonságosan elmentésre került, de hiba történt a szinkronizálás során. Szeretné újra megpróbálni vagy megnézni a szinkronizálási naplót?\n\n%@\n";
 
 /* This database is in Offline Mode and cannot be synced. */
 "database_is_in_offline_mode_cannot_be_synced" = "This database is in Offline Mode and cannot be synced.";
@@ -5261,7 +5261,7 @@
 "generic_item_is_hidden" = "Rejtett";
 
 /* These tabs will be visible in this order, providing there are eligible items to display. You must always have at least one visible tab. */
-"configure_tabs_footer_visible_tabs" = "These tabs will be visible in this order, providing there are eligible items to display. You must always have at least one visible tab.";
+"configure_tabs_footer_visible_tabs" = "Ezek a lapok ebben a sorrendben lesznek láthatóak, feltéve, hogy vannak megjeleníthető elemek. Mindig kell legalább egy látható lapnak lennie.";
 
 /* These tabs will remain hidden. */
 "configure_tabs_footer_hidden_tabs" = "These tabs will remain hidden.";
@@ -5420,7 +5420,7 @@
 "sftp_hostkey_fingerprint_alert_title" = "SFTP Fingerprint";
 
 /* Note: Enabling Easy-Read Font will have the effect of disabling the 'Markdown Notes' formatting feature. Is this OK? */
-"are_you_sure_message_easy_read_font_markdown_notes" = "Note: Enabling Easy-Read Font will have the effect of disabling the 'Markdown Notes' formatting feature. Is this OK?";
+"are_you_sure_message_easy_read_font_markdown_notes" = "Megjegyzés: A Könnyen olvasható betűtípus engedélyezése a \"Markdown jegyzetek\" formázási funkció letiltásával jár. Ez rendben van?";
 
 /* 1 Match Found */
 "search_results_summary_1_match_found" = "1 Match Found";
@@ -5477,7 +5477,7 @@
 "ssh_agent_overwrite_password" = "Overwrite Password?";
 
 /* This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt. Strongbox will then set the password of this entry to match. */
-"ssh_agent_sshkey_please_enter_passphrase_msg" = "This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt. Strongbox will then set the password of this entry to match.";
+"ssh_agent_sshkey_please_enter_passphrase_msg" = "Ez az SSH-kulcs jelszóval védett.\n\nKérjük, adja meg a jelszót a dekódoláshoz. A Strongbox ezt követően beállítja a bejegyzés jelszavát.";
 
 /* The passphrase does not match the existing password. Strongbox needs the password to match the passphrase to use this SSH Key properly.\n\nContinue to overwrite the current password? */
 "ssh_agent_passphrase_password_mismatch" = "A jelszó nem egyezik a meglévő jelszóval. A Strongboxnak szüksége van arra, hogy a jelszó megegyezzen a jelszóval, hogy megfelelően tudja használni ezt az SSH-kulcsot.\n\nFolytassa a jelenlegi jelszó felülírását?";
@@ -5489,7 +5489,7 @@
 "ssh_agent_incorrect_sshkey_passphrase" = "Incorrect SSH Key Passphrase";
 
 /* The SSH Key is passphrase protected but the password for this entry is not the correct passphrase.\n\nDo you want to continue saving? */
-"ssh_agent_validation_passphrase_password_mismatch" = "The SSH Key is passphrase protected but the password for this entry is not the correct passphrase.\n\nDo you want to continue saving?";
+"ssh_agent_validation_passphrase_password_mismatch" = "Az SSH-kulcs jelszóval védett, de a bejegyzés jelszava nem a megfelelő jelszó.\n\nSzeretné folytatni a mentést?";
 
 /* Unknown Process */
 "ssh_agent_unknown_process" = "Unknown Process";
@@ -5557,7 +5557,7 @@
 "import_next_step_set_password" = "Set New Master Password";
 
 /* Please consider sharing (support@strongboxsafe.com) the above messages with us to help us improve the import process.*/
-"import_please_share_import_messages" = "Please consider sharing (support@strongboxsafe.com) the above messages with us to help us improve the import process.";
+"import_please_share_import_messages" = "Kérjük, fontolja meg a fenti üzenetek megosztását (support@strongboxsafe.com) velünk, hogy segítsen nekünk javítani az importálási folyamatot.";
 
 /* TOTP Secret */
 "generic_totp_secret" = "TOTP Secret";
@@ -5734,7 +5734,7 @@
 "passkey_ays_remove_key" = "Are you sure you want to remove the passkey from this entry?";
 
 /* Your passkey was successfully created and saved to your database but Strongbox could not initiate a reload.\n\nYou should try to reload your database now. */
-"passkey_saved_but_could_not_reload" = "Your passkey was successfully created and saved to your database but Strongbox could not initiate a reload.\n\nYou should try to reload your database now.";
+"passkey_saved_but_could_not_reload" = "A jelszókulcsot sikeresen létrehozták és elmentették az adatbázisba, de a Strongbox nem tudta kezdeményezni az újratöltést.\n\nMost próbálja meg újratölteni az adatbázisát.";
 
 /* Strongbox Not Running */
 "autofill_sb_not_running_title" = "Strongbox Not Running";
