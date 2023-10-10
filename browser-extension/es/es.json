@@ -1,0 +1,106 @@
+{
+  "general": {
+    "app-name": "AutoRelleno de Strongbox",
+    "company-name": "Phoebe Code Limited",
+    "loading": "Cargando...",
+    "searching": "Buscando...",
+    "cancel": "Cancelar",
+    "create": "Crear"
+  },
+  "inline-mini-field-menu": {
+    "no-matching-entries-found": "No se han encontrado entradas coincidentes",
+    "lock": "Bloquear",
+    "unlock": "Desbloquear {{database}}",
+    "create-new": "Crear nuevo en Strongbox",
+    "no-autofill-enabled-databases": "No hay bases de datos habilitadas con AutoRelleno"
+  },
+  "hide-inline-menu": {
+    "hide-for-a-while": "Ocultar un rato",
+    "hide-on-page": "Ocultar en la página",
+    "hide-on-domain": "Ocultar en dominio"
+  },
+  "inline-menu-credential-item": {
+    "copy-username": "Copiar nombre de usuario",
+    "copy-password": "Copiar contraseña"
+  },
+  "create-new-entry-dialog": {
+    "title": "Crear nueva entrada",
+    "credential-title": "Título",
+    "username": "Nombre de usuario",
+    "password": "Contraseña",
+    "database": "Base de datos",
+    "group": "Grupo",
+    "save-in": "Guardar en",
+    "no-autoFill-databases-available": "No hay bases de datos con autorrelleno disponibles",
+    "please-unlock-your-database": "Por favor, desbloquee su base de datos...",
+    "could-not-load-databases": "¡No se han podido cargar las bases de datos!",
+    "could-not-load-defaults": "¡No se han podido cargar los valores predeterminados!",
+    "could-not-refresh-groups": "¡No se han podido actualizar los grupos!",
+    "could-not-generate-password": "No se ha podido generar la contraseña",
+    "could-not-unlock-database": "No se pudo desbloquear la base de datos",
+    "could-not-refresh-status": "No se ha podido actualizar el estado",
+    "could-not-connect-to-strongbox": "No se ha podido conectar con Strongbox",
+    "error-getting-defaults": "Error al obtener los valores por defecto",
+    "there-is-not-a-valid-new-entry": "No hay ninguna entrada nueva válida.",
+    "could-not-create-new-entry": "No se ha podido crear una nueva entrada. error=({{error}})"
+  },
+  "notification-toast": {
+    "successfully-created-new-entry": "Nueva entrada creada con éxito",
+    "username-copied": "Nombre de usuario copiado",
+    "password-copied": "Contraseña copiada",
+    "totp-copied": "TOTP copiado"
+  },
+  "current-tab-credentials": {
+    "title": "Coincidencias"
+  },
+  "database-list-item": {
+    "lock": "Bloquear",
+    "locked": "Bloqueado",
+    "unlock": "Desbloquear",
+    "unlocked": "Desbloqueado",
+    "autofill-not-enabled": "Autorrelleno no activado"
+  },
+  "databases-list-popup-component": {
+    "title": "Bases de datos",
+    "no-databases": "Sin bases de datos",
+    "no-databases-message": "Aún no tiene ninguna base de datos, ¿por qué no añade una a Strongbox?"
+  },
+  "no-results-found-popup-component": {
+    "title": "Sin coincidencias",
+    "message": "Strongbox no pudo encontrar ninguna entrada coincidente para este sitio web"
+  },
+  "not-running-popup-component": {
+    "title": "Strongbox no disponible",
+    "launch-strongbox": "Launch Strongbox",
+    "troubleshooting": {
+      "title": "Troubleshooting",
+      "message1": "1. Make sure Strongbox is installed and running.",
+      "message2": "2. Make sure you are a Pro user, AutoFill is a paid Pro feature.",
+      "message3": "3. Check the setting below is enabled:",
+      "settings-path": "Settings > Advanced > Chrome & Firefox AutoFill Extension"
+    },
+    "message": "Unfortunately Strongbox isn't yet available on this platform."
+  },
+  "search-bar": {
+    "title": "Search..."
+  },
+  "settings-popup-component": {
+    "title": "Settings",
+    "title-tab1": "App",
+    "title-tab2": "Style",
+    "show-inline-menus": "Show Inline Menus",
+    "show-match-count-badge-on-popup-icon": "Show Match Count Badge on Popup Icon",
+    "fill-on-load-if-only-single-match-found": "Fill on Load if Only Single Match Found",
+    "always-fill-on-load-with-first-match": "Always Fill on Load with First Match",
+    "do-not-fill-on-load-on-this-domain": "Do Not Fill on Load on this Domain",
+    "do-not-show-inline-menus-on-this-domain": "Do Not Show Inline Menus on this Domain",
+    "do-not-show-inline-menus-on-this-page": "Do Not Show Inline Menus on this Page",
+    "appearance-dark": "Dark",
+    "appearance-light": "Light",
+    "appearance-system": "System",
+    "style-small": "Small",
+    "style-medium": "Medium",
+    "style-large": "Large",
+    "style-xl": "XL"
+  }
+}
