@@ -1271,7 +1271,7 @@
 "custom_field_vc_accessibility_label_value" = "Egyedi mezőérték";
 
 /* Custom Field Protected */
-"custom_field_vc_accessibility_label_protected" = "Custom Field Protected";
+"custom_field_vc_accessibility_label_protected" = "Védett egyedi mező";
 
 /* Name cannot be empty */
 "custom_field_vc_validation_name_not_empty_error" = "A név nem lehet üres";
@@ -1289,7 +1289,7 @@
 "qr_code_vc_error_scanning_title" = "Hiba a kódolvasás közben";
 
 /* Could not access camera */
-"qr_code_vc_warn_problem_accessing_camera_title" = "Could not access camera";
+"qr_code_vc_warn_problem_accessing_camera_title" = "A kamerához nem lehetett hozzáférni";
 
 /* Strongbox could not access the camera on this device. Does it have permission? */
 "qr_code_vc_warn_problem_accessing_camera_message" = "A Strongbox nem tudott hozzáférni a készülék kamerájához. Engedélyezve van?";
@@ -1322,7 +1322,7 @@
 "defaults_model_custom_email_default" = "Custom Email Default Text";
 
 /* Custom URL Default Text */
-"defaults_model_custom_url_default" = "Custom URL Default Text";
+"defaults_model_custom_url_default" = "Egyéni URL alapértelmezett szöveg";
 
 /* Custom Notes Default Text */
 "defaults_model_custom_notes_default" = "Custom Notes Default Text";
@@ -1343,7 +1343,7 @@
 "open_sequence_pin_attempts_remaining_fmt" = "Még %d próbálkozás maradt";
 
 /* Too Many Incorrect PINs */
-"open_sequence_prompt_too_many_incorrect_pins_title" = "Too Many Incorrect PINs";
+"open_sequence_prompt_too_many_incorrect_pins_title" = "Túl sok hibás PIN-kód";
 
 /* You have entered the wrong PIN too many times. PIN Unlock is now disabled, and you must enter the master password to unlock this database. */
 "open_sequence_prompt_too_many_incorrect_pins_message" = "Túl sokszor adta meg a rossz PIN-kódot. A PIN-feloldás most le van tiltva, és az adatbázis feloldásához meg kell adnia a mesterjelszót.";
@@ -1455,7 +1455,7 @@
 "privacy_vc_label_unlock_attempts_exceeded" = "Unlock Attempts Exceeded";
 
 /* Biometrics Unavailable */
-"privacy_vc_prompt_biometrics_unavailable_title" = "Biometrics Unavailable";
+"privacy_vc_prompt_biometrics_unavailable_title" = "Biometrikus adatok nem elérhetők";
 
 /* This application requires a biometric unlock but biometrics is unavailable on this device. You must re-enable biometrics to continue unlocking this application. */
 "privacy_vc_prompt_biometrics_unavailable_message" = "Ez az alkalmazás biometrikus feloldást igényel, de a biometrikus feloldás ezen a készüléken nem érhető el. Az alkalmazás feloldásának folytatásához újra engedélyeznie kell a biometriát.";
@@ -1464,7 +1464,7 @@
 "privacy_vc_prompt_identify_to_open" = "Identify to Open Strongbox";
 
 /* %ld Attempts Remaining */
-"privacy_vc_prompt_pin_attempts_remaining_fmt" = "%ld Attempts Remaining";
+"privacy_vc_prompt_pin_attempts_remaining_fmt" = "%ld hátralévő kísérletek száma";
 
 /* Sample Password Copied */
 "password_gen_vc_sample_password_copied" = "Példa jelszó elmásolva";
@@ -1497,7 +1497,7 @@
 "password_gen_vc_select_wordlists" = "Szólisták kiválasztása";
 
 /* Select Character Groups */
-"password_gen_vc_select_character_groups" = "Select Character Groups";
+"password_gen_vc_select_character_groups" = "Karaktercsoportok kiválasztása";
 
 /* Word Separator */
 "password_gen_vc_prompt_word_separator" = "Szóelválasztó";
@@ -2748,7 +2748,7 @@
 "mac_convenience_expiry_period_never" = "Soha";
 
 /* App Exit (Memory Only) */
-"mac_convenience_expiry_period_on_app_exit" = "App Exit (Memory Only)";
+"mac_convenience_expiry_period_on_app_exit" = "Alkalmazás kilépése (csak memória)";
 
 /* Unlock with Touch ID or Watch */
 "mac_unlock_screen_button_title_convenience_unlock" = "Feloldás Touch ID vagy Watch segítségével";
@@ -3293,7 +3293,7 @@
 "sync_conflict_option_use_mine_fmt" = "Use Mine/Local (%@)";
 
 /* Use Theirs/Remote (%@) - Translators Note: The first parameter is the modified date of the remote copy e.g. "September 1st, 14:22" */
-"sync_conflict_option_use_theirs_fmt" = "Use Theirs/Remote (%@)";
+"sync_conflict_option_use_theirs_fmt" = "Használja az Őket/Távoli (%@)";
 
 /* Sync Conflict */
 "sync_conflict_title" = "Szinkronizálási hiba";
@@ -3311,7 +3311,7 @@
 "db_management_reopen_required_title" = "Újranyitás szükséges";
 
 /* Could Not Open Local Copy */
-"open_sequence_couldnt_open_local_title" = "Could Not Open Offline";
+"open_sequence_couldnt_open_local_title" = "Nem tudta megnyitni Offline";
 
 /* Could not open Strongbox's local copy of this database. A interactive sync is required. */
 "open_sequence_couldnt_open_local_message" = "Nem sikerült megnyitni az adatbázis Strongbox helyi példányát. Szinkronizálásra van szükség.";
@@ -3323,7 +3323,7 @@
 "open_sequence_storage_provider_error_open_local_ro_instead" = "Ha ez ismételten előfordul, akkor próbálja meg újra hozzáadni az adatbázist. Nézze meg a hibakeresési szinkronizálási naplót a részletekért...\n\nSzeretné inkább offline módban megnyitni?";
 
 /* Local Copy Unavailable */
-"autofill_vc_item_subtitle_local_copy_unavailable" = "Local Copy Unavailable";
+"autofill_vc_item_subtitle_local_copy_unavailable" = "Helyi másolat nem elérhető";
 
 /* AutoFill Disabled */
 "autofill_vc_item_subtitle_disabled" = "AutoFill letiltva";
@@ -3449,7 +3449,7 @@
 "browse_context_menu_database_settings" = "Adatbázis beállítások";
 
 /* Set Credentials */
-"browse_context_menu_set_master_credentials" = "Set Master Credentials";
+"browse_context_menu_set_master_credentials" = "Fő hitelesítő adatok beállítása";
 
 /* Show Password - Translators Note: On Browse screen - context menu item - This option will display the password in a large full screen font for easy reading with a QR Code */
 "browse_context_menu_show_password" = "Jelszó megjelenítése";
@@ -3497,7 +3497,7 @@
 "item_properties_default_autotype_sequence" = "Default Auto Type Sequence";
 
 /* Last Top Visible Entry */
-"item_properties_last_top_visible_entry" = "Last Top Visible Entry";
+"item_properties_last_top_visible_entry" = "Utolsó látható bejegyzés";
 
 /* Inherited from Parent */
 "generic_setting_is_inherited_from_parent" = "Szülő elemből örökölt";
@@ -3923,7 +3923,7 @@
 "backups_backup_taken_at_subtitle_fmt" = "%@ (Backup taken %@)";
 
 /* Sync Possibly Required */
-"compare_merge_sync_possibly_required_title" = "Sync Possibly Required";
+"compare_merge_sync_possibly_required_title" = "Szinkronizálásra szükség lehet";
 
 /* At least one of these databases haven't been synchronized very recently. It is recommended that you return to the Databases List screen and pull down to initiate the Sync process. This will ensure you are working with the latest versions. */
 "compare_merge_sync_possibly_required_message" = "Legalább az egyik ilyen adatbázis szinkronizálása nem történt meg a közelmúltban. Javasoljuk, hogy térjen vissza az Adatbázisok listája képernyőre, és húzza lefelé a szinkronizálási folyamat elindításához. Ez biztosítja, hogy a legfrissebb verziókkal dolgozik.";
@@ -3956,7 +3956,7 @@
 "browse_vc_pulldown_refresh_offline_title" = "Offline mód";
 
 /* Database Not Refreshed */
-"browse_vc_pulldown_refresh_offline_message" = "Database Not Refreshed";
+"browse_vc_pulldown_refresh_offline_message" = "Az adatbázis nincs frissítve";
 
 /* Do not allow changes to be made to this database when it is open. */
 "database_properties_subtitle_read_only" = "Ne engedje, hogy az adatbázisban módosításokat hajtsanak végre, amikor az nyitva van.";
@@ -4020,7 +4020,7 @@
 "preference_allow_watch_unlock_system_disabled" = "Watch Feloldás - (Engedélyezés a Rendszerbeállítások > Touch ID és jelszó menüpontban)";
 
 /* No Cloud Session Found */
-"cloud_sessions_prompt_no_session_found" = "No Cloud Session Found";
+"cloud_sessions_prompt_no_session_found" = "Felhő munkamenet nem található";
 
 /* Copy Debug Information? */
 "prompt_title_copy_debug_info" = "Hibakeresési információk másolása?";
@@ -4089,7 +4089,7 @@
 "autofill_auto_unlock_message" = "Az automatikus feloldás lehetővé teszi, hogy ne kelljen többször feloldania az adatbázisát egy beállítható időtartamra. Szeretné használni ezt a praktikus funkciót?\n\nMegjegyzés: A jelszavát a Secure Enclave tárolja ehhez a funkcióhoz.";
 
 /* Great, let try 3 mins */
-"autofill_auto_unlock_try_3_minutes" = "Great, lets try 3 mins";
+"autofill_auto_unlock_try_3_minutes" = "Nagyszerű, próbáljuk meg a 3 percet";
 
 /* I'd prefer 10 mins */
 "autofill_auto_unlock_try_10_minutes" = "Inkább 10 percet szeretnék";
@@ -4191,7 +4191,7 @@
 "prefs_vc_app_version_info_none_pro_fmt" = "A Strongboxról %@";
 
 /* About Strongbox Pro %@ - L10n note: 1st parameter is the App Version, e.g. 'About Strongbox Pro 1.52.17' */
-"prefs_vc_app_version_info_pro_fmt" = "About Strongbox Pro %@";
+"prefs_vc_app_version_info_pro_fmt" = "A Strongbox Pro-ról %@";
 
 /* Strongbox %@ - L10n note: 1st parameter is the App Version, e.g. 'Strongbox 1.52.17' */
 "subtitle_app_version_info_none_pro_fmt" = "Strongbox %@";
@@ -4215,7 +4215,7 @@
 "password_strength_algo_zxcvbn_title" = "Zxcvbn";
 
 /* Basic (Pooled Entropy) */
-"password_strength_algo_basic_title" = "Basic (Pooled Entropy)";
+"password_strength_algo_basic_title" = "Basic (Összevont entrópia)";
 
 /* Password Strength Algorithm */
 "prefs_vc_password_strength_algorithm" = "Jelszó erősségének algoritmusa";
@@ -4442,7 +4442,7 @@
 "generic_upgrade_ellipsis" = "Frissítés...";
 
 /* Free Trial Ending Soon */
-"upgrade_onboarding_free_trial_ending_soon_title" = "Free Trial Ending Soon";
+"upgrade_onboarding_free_trial_ending_soon_title" = "Ingyenes próbaidőszak hamarosan véget ér";
 
 /* Your free trial of Strongbox Pro will end next week, and we wouldn't want you to lose any of the cool Pro features.\n\nWould you like to support Strongbox and take a look at some of the Upgrade options? */
 "upgrade_onboarding_free_trial_ending_soon_message" = "A Strongbox Pro ingyenes próbaidőszaka a jövő héten lejár, és nem szeretnénk, ha elveszítené a Pro nagyszerű funkcióit.\n\nSzeretné támogatni a Strongboxot, és megnézni néhány frissítési lehetőséget?";
@@ -4639,7 +4639,7 @@
 "are_you_sure_clear_totp" = "Biztos, hogy törli a TOTP-t ehhez a bejegyzéshez?";
 
 /* Date Created (Precise) */
-"databases_preferences_subtitle_field_name_create_date_precise" = "Date Created (Precise)";
+"databases_preferences_subtitle_field_name_create_date_precise" = "Létrehozás dátuma (pontos)";
 
 /* Hardware Slot %@ (Touch Required) - (Translators Note: Some YubiKey devices/configurations require the user to touch or press a button to authenticate. This string also takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
 "mac_yubikey_slot_n_touch_required_fmt" = "Hardveres kulcshely %@ (érintés szükséges)";
@@ -4648,7 +4648,7 @@
 "mac_yubikey_slot_n_fmt" = "Hardware Key Slot %@";
 
 /* No Hardware Keys Found */
-"mac_no_yubikeys_found" = "No Hardware Keys Found";
+"mac_no_yubikeys_found" = "Hardverkulcs nem található";
 
 /* Hardware Key found but no compatible HMACSHA1 slots available */
 "mac_yubikey_available_but_no_compatible_slots" = "Hardverkulcsot találtak, de nincs kompatibilis HMACSHA1 bővítőhely elérhető";
@@ -5126,7 +5126,7 @@
 "upgrade_vc_old_freemium_upgrade_options_title" = "Strongbox Upgrade Options";
 
 /* View Strongbox Unified */
-"upgrade_vc_old_freemium_upgrade_view_unified" = "View Strongbox Unified";
+"upgrade_vc_old_freemium_upgrade_view_unified" = "Strongbox Unified megtekintése";
 
 /* Restore My Pro Purchase */
 "upgrade_vc_old_freemium_upgrade_restore_pro" = "Restore My Pro Purchase";
@@ -5216,7 +5216,7 @@
 "mac_on_window_close_action_message" = "A Strongbox képes az adatbázisokat a háttérben nyitva tartani, vagy azonnal lezárni őket, amikor bezárja az ablakot.\n\nMit szeretne, mit csináljon a Strongbox, amikor bezár egy adatbázis ablakot?";
 
 /* Keep Database Unlocked */
-"mac_on_window_close_action_option_keep_unlocked" = "Keep Database Unlocked";
+"mac_on_window_close_action_option_keep_unlocked" = "Tartsa az adatbázist feloldva";
 
 /* Lock Database Immediately */
 "mac_on_window_close_action_lock_immediately" = "Lock Database Immediately";
@@ -5255,7 +5255,7 @@
 "lazy_sync_persist_option_detail" = "Lazy Sync üzemmódban marad akkor is, ha szinkronizálási hiba lép fel.\n*Kizárólag haladó felhasználóknak";
 
 /* Portuguese (Brazilian) */
-"pwgen_wordlist_pt_br" = "Portuguese (Brazilian)";
+"pwgen_wordlist_pt_br" = "Portugál (Brazíliai)";
 
 /* Hidden (An item of some kind will be hidden from the User Interface) */
 "generic_item_is_hidden" = "Rejtett";
@@ -5447,7 +5447,7 @@
 "ssh_agent_key_enabled_for_agent" = "Enabled for SSH Agent";
 
 /* Disabled for SSH Agent - L10n Note: An SSH Key is not enabled for the Strongbox SSH Agent*/
-"ssh_agent_disabled_for_agent" = "Disabled for SSH Agent";
+"ssh_agent_disabled_for_agent" = "Letiltva az SSH ügynök számára";
 
 /* SSH Key */
 "ssh_agent_ssh_key" = "SSH kulcs";
@@ -5644,13 +5644,13 @@
 "sale_view_looking_for_lifetime" = "Élettartamra szóló licencet keres?";
 
 /* Offer ends Midnight %@ - L10n note: The 1st parameter is a day, like Monday or Friday, so: "Offer ends Midnight Friday" for example */
-"sale_view_offer_ends_date_fmt %@" = "Offer ends Midnight %@";
+"sale_view_offer_ends_date_fmt %@" = "Az ajánlat éjfélkor lejár %@";
 
 /* Item Properties... */
 "generic_item_properties_ellipsis" = "Item Properties...";
 
 /* Audit Issue Details... */
-"view_audit_issue_details_ellipsis" = "Audit Issue Details...";
+"view_audit_issue_details_ellipsis" = "Audit feladat részletek...";
 
 /* Suggest in AutoFill - L10n - Whether an entry should be suggested in the AutoFill dropdown in your browser - It's a Yes/No flag in the UI */
 "suggest_in_autofill_yesno_flag" = "Javasolja az AutoFill-ben";
