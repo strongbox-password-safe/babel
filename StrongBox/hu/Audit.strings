@@ -1,5 +1,5 @@
 /* Class = "UITableViewController"; title = "Audit Configuration"; ObjectID = "01A-OU-JQM"; */
-"01A-OU-JQM.title" = "Audit Configuration";
+"01A-OU-JQM.title" = "Audit konfiguráció";
 
 /* Class = "UILabel"; text = "4 May 2012"; ObjectID = "2BC-RY-Mcn"; */
 "2BC-RY-Mcn.text" = "2012. Május 4.";
@@ -8,7 +8,7 @@
 "5Wv-DH-TK3.text" = "16";
 
 /* Class = "UILabel"; text = "Common Passwords"; ObjectID = "5lx-Hb-JRj"; */
-"5lx-Hb-JRj.text" = "Common Passwords";
+"5lx-Hb-JRj.text" = "Közös jelszavak";
 
 /* Class = "UITableViewSection"; footerTitle = "This check detects exact duplicate passwords. This check is completely offline (no network access required)"; ObjectID = "7y7-Rh-Wx2"; */
 "7y7-Rh-Wx2.footerTitle" = "Ez az ellenőrzés pontosan ismétlődő jelszavakat észlel. Ez az ellenőrzés teljesen offline módban történik (nincs szükség hálózati hozzáférésre)";
@@ -23,7 +23,7 @@
 "BYJ-Xt-Ybf.headerTitle" = "Minimum Hossz";
 
 /* Class = "UINavigationItem"; prompt = "Slide Left for Actions"; ObjectID = "Boz-Dy-72k"; */
-"Boz-Dy-72k.prompt" = "Slide Left for Actions";
+"Boz-Dy-72k.prompt" = "Csúsztassa balra az akciókért";
 
 /* Class = "UINavigationItem"; title = "Excluded Items"; ObjectID = "Boz-Dy-72k"; */
 "Boz-Dy-72k.title" = "Kizárt elemek";
@@ -38,13 +38,13 @@
 "Gzg-vF-nnp.footerTitle" = "Ezek az ellenőrzések egyszerű tesztek. Ezek az ellenőrzések teljesen offline módban történnek (nincs szükség hálózati hozzáférésre)";
 
 /* Class = "UITableViewSection"; headerTitle = "Basic Audits"; ObjectID = "Gzg-vF-nnp"; */
-"Gzg-vF-nnp.headerTitle" = "Basic Audits";
+"Gzg-vF-nnp.headerTitle" = "Alapvető auditok";
 
 /* Class = "UILabel"; text = "Similar Passwords"; ObjectID = "Ivv-Og-lCA"; */
 "Ivv-Og-lCA.text" = "Hasonló jelszavak";
 
 /* Class = "UITableViewSection"; footerTitle = "The database auditor runs in the background at a low priority so that it doesn't interfere with your UI experience or battery life. However you can choose not to run any audits at all"; ObjectID = "JJN-5D-rPg"; */
-"JJN-5D-rPg.footerTitle" = "The database auditor runs in the background at a low priority so that it doesn't interfere with your UI experience or battery life. However you can choose not to run any audits at all";
+"JJN-5D-rPg.footerTitle" = "Az adatbázis-ellenőr a háttérben fut, alacsony prioritással, így nem zavarja a felhasználói felület használatát vagy az akkumulátor élettartamát. Azonban úgy is dönthet, hogy egyáltalán nem futtat semmilyen ellenőrzést";
 
 /* Class = "UITableViewSection"; headerTitle = "Preferences"; ObjectID = "JJN-5D-rPg"; */
 "JJN-5D-rPg.headerTitle" = "Beállítások";
@@ -62,10 +62,10 @@
 "RdE-eX-RFC.text" = "Üres jelszó";
 
 /* Class = "UILabel"; text = "Case Insensitive"; ObjectID = "SYj-Hd-U3m"; */
-"SYj-Hd-U3m.text" = "Case Insensitive";
+"SYj-Hd-U3m.text" = "Kis- és nagybetű érzékeny";
 
 /* Class = "UILabel"; text = "Check 'Have I Been Pwned?'"; ObjectID = "XtZ-t1-tEw"; */
-"XtZ-t1-tEw.text" = "Check 'Have I Been Pwned?'";
+"XtZ-t1-tEw.text" = "Ellenőrizze a 'Have I Been Pwned?'";
 
 /* Class = "UILabel"; text = "View All Excluded Items"; ObjectID = "Yqg-Rj-6iA"; */
 "Yqg-Rj-6iA.text" = "Minden kizárt elem megtekintése";
@@ -80,40 +80,40 @@
 "c4g-Lt-LFY.text" = "Valamennyi Audit esetmény megtekintése";
 
 /* Class = "UILabel"; text = "Low Entropy Passwords"; ObjectID = "cZE-NH-6Gv"; */
-"cZE-NH-6Gv.text" = "Low Entropy Passwords";
+"cZE-NH-6Gv.text" = "Alacsony entrópiájú jelszavak";
 
 /* Class = "UITableViewSection"; footerTitle = "This is an online service that can check your passwords against known compromised passwords from hacker forums and 'pastes'. Compromised password hashes are securely cached by Strongbox to display audit warnings and reduce network traffic.\n\nCaveat: Your passwords are hashed (SHA1) and then using a system called k-anonymization, a short 5-byte prefix is sent to HIBP servers to check if compromised. You may or may not be comfortable with this. Use at your own discretion. You can read more about this system at https://haveibeenpwned.com"; ObjectID = "dPk-gM-4bf"; */
-"dPk-gM-4bf.footerTitle" = "This is an online service that can check your passwords against known compromised passwords from hacker forums and 'pastes'. Compromised password hashes are securely cached by Strongbox to display audit warnings and reduce network traffic.\n\nCaveat: Your passwords are hashed (SHA1) and then using a system called k-anonymization, a short 5-byte prefix is sent to HIBP servers to check if compromised. You may or may not be comfortable with this. Use at your own discretion. You can read more about this system at https://haveibeenpwned.com";
+"dPk-gM-4bf.footerTitle" = "Ez egy online szolgáltatás, amely képes ellenőrizni a jelszavakat a hackerfórumokról és \"beillesztésekből\" származó ismert kompromittált jelszavakkal. A kompromittált jelszóhash-eket a Strongbox biztonságosan gyorsítótárba helyezi, hogy ellenőrzési figyelmeztetéseket jelenítsen meg és csökkentse a hálózati forgalmat.\n\nFigyelmeztetés: A jelszavakat hashed-eljárással (SHA1), majd a k-anonimizálás nevű rendszer segítségével egy rövid, 5 bájtos előtagot küldenek a HIBP-kiszolgálóknak, hogy ellenőrizzék, hogy veszélyeztetettek-e. Lehet, hogy ez Önnek megfelel, de az is lehet, hogy nem. Használja saját belátása szerint. Erről a rendszerről bővebben a https://haveibeenpwned.com oldalon olvashat";
 
 /* Class = "UITableViewSection"; headerTitle = "Have I Been Pwned?"; ObjectID = "dPk-gM-4bf"; */
-"dPk-gM-4bf.headerTitle" = "Have I Been Pwned?";
+"dPk-gM-4bf.headerTitle" = "Átvertek?";
 
 /* Class = "UILabel"; text = "16"; ObjectID = "dVa-38-BIq"; */
 "dVa-38-BIq.text" = "16";
 
 /* Class = "UILabel"; text = "Online Check Interval"; ObjectID = "eWF-ET-car"; */
-"eWF-ET-car.text" = "Online Check Interval";
+"eWF-ET-car.text" = "Online ellenőrzés időintervalluma";
 
 /* Class = "UILabel"; text = "Similarity Threshold"; ObjectID = "hJk-QQ-I4O"; */
-"hJk-QQ-I4O.text" = "Similarity Threshold";
+"hJk-QQ-I4O.text" = "Hasonlósági küszöbérték";
 
 /* Class = "UILabel"; text = "Entropy Threshold"; ObjectID = "jQT-Me-JuJ"; */
-"jQT-Me-JuJ.text" = "Entropy Threshold";
+"jQT-Me-JuJ.text" = "Entrópia küszöbérték";
 
 /* Class = "UITableViewSection"; footerTitle = "This will check if 2FA (Two Factor Authentication) is available for a domain, and if your entry does not have a TOTP code then indicate that you can set one up."; ObjectID = "pGh-1X-pzL"; */
 "pGh-1X-pzL.footerTitle" = "Ez ellenőrzi, hogy a 2FA (kétfaktoros azonosítás) elérhető-e egy adott domainhez, és ha a bejegyzéshez nem tartozik TOTP-kód, akkor jelezze, hogy beállíthat egyet.";
 
 /* Class = "UITableViewSection"; headerTitle = "Two Factor Availability"; ObjectID = "pGh-1X-pzL"; */
-"pGh-1X-pzL.headerTitle" = "Two Factor Availability";
+"pGh-1X-pzL.headerTitle" = "Kétfaktoros elérhetőség";
 
 /* Class = "UILabel"; text = "Audit Database"; ObjectID = "qBv-Cx-BWt"; */
-"qBv-Cx-BWt.text" = "Audit Database";
+"qBv-Cx-BWt.text" = "Adatbázis auditálása";
 
 /* Class = "UILabel"; text = "Last Checked:"; ObjectID = "qun-2B-JNr"; */
-"qun-2B-JNr.text" = "Last Checked:";
+"qun-2B-JNr.text" = "Utoljára ellenőrizve:";
 
 /* Class = "UILabel"; text = "Found 12 issues in 8 entries"; ObjectID = "r4c-ff-uct"; */
-"r4c-ff-uct.text" = "Found 12 issues in 8 entries";
+"r4c-ff-uct.text" = "Talált 12 dolgot 8 bejegyzésben";
 
 /* Class = "UITableViewSection"; footerTitle = "This check detects passwords that could be regarded as weak, because they do not contain enough complexity. This makes them vulnerable to brute force cracking techniques. This check is completely offline (no network access required)"; ObjectID = "s3w-oN-7UW"; */
 "s3w-oN-7UW.footerTitle" = "Ez az ellenőrzés olyan jelszavakat észlel, amelyek gyengének tekinthetők, nem megfelelő komplexitásuk miatt. Ezáltal sebezhetővé teszi őket a nyers erő technikákkal szemben. Ez az ellenőrzés teljesen offline módban történik (nincs szükség hálózati hozzáférésre)";
@@ -131,4 +131,4 @@
 "tLb-J8-0ij.headerTitle" = "Hasonló jelszavak";
 
 /* Class = "UINavigationItem"; title = "Audit Configuration"; ObjectID = "yiS-c8-dAY"; */
-"yiS-c8-dAY.title" = "Audit Configuration";
+"yiS-c8-dAY.title" = "Audit konfiguráció";
