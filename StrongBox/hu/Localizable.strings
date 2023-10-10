@@ -237,7 +237,7 @@
 "safesvc_error_updating_title" = "Hiba a fájl frissítésekor.";
 
 /* Could not update local file. */
-"safesvc_error_updating_message" = "Could not update local file.";
+"safesvc_error_updating_message" = "Nem sikerült frissíteni a helyi fájlt.";
 
 /* Copy to iCloud or Local? */
 "safesvc_copy_database_to_location_title" = "Copy to iCloud or Local?";
@@ -711,7 +711,7 @@
 "prefs_vc_info_data_deletion_care_required_message" = "Kérjük, legyen nagyon óvatos, mert ez véglegesen törli a helyi eszközök adatbázisait és az összes beállítást.";
 
 /* DATA DELETION: Care Required */
-"prefs_vc_info_data_deletion_care_required_title" = "DATA DELETION: Care Required";
+"prefs_vc_info_data_deletion_care_required_title" = "ADATTÖRLÉS: Figyelem szükséges";
 
 /* It looks like email is not setup on this device.\n\nContact support@strongboxsafe.com for help. */
 "prefs_vc_info_email_not_available_message" = "Úgy tűnik, hogy az e-mail nincs beállítva ezen az eszközön.\n\nForduljon segítségért a support@strongboxsafe.com címre.";
@@ -771,7 +771,7 @@
 "sspc_local_device_storage_warning_message" = "Mivel a helyi adatbázis csak ezen az eszközön tárolódik, az eszköz elvesztése az ebben az adatbázisban tárolt összes jelszó elvesztéséhez vezet. A katasztrofális adatvesztés elkerülése érdekében érdemes megfontolni egy felhőalapú tárhelyszolgáltató használatát, például a Strongbox által támogatottakat.\n\nTovábbra is szeretné folytatni a helyi adatbázis létrehozását?";
 
 /* Local Device Database Caveat */
-"sspc_local_device_storage_warning_title" = "Local Device Database Caveat";
+"sspc_local_device_storage_warning_title" = "Helyi adatbázis figyelmeztetés";
 
 /* Please Enter the URL of the Database File. */
 "sspc_manual_import_enter_url_message" = "Kérjük, adja meg az adatbázisfájl URL-jét.";
@@ -894,7 +894,7 @@
 "upgrade_mgr_entitlements_error_message" = "A Strongboxnak problémája merült fel az App Store jogosultságok ellenőrzésével. Ez az App leminősítéséhez vezethet a jövőben. Kérjük, lépjen kapcsolatba a support@strongboxsafe.com címen, hogy segítséget kapjon ebben az ügyben.";
 
 /* Strongbox Entitlements Error */
-"upgrade_mgr_entitlements_error_title" = "Strongbox Entitlements Error";
+"upgrade_mgr_entitlements_error_title" = "Strongbox jogosultságok hiba";
 
 /* Purchases are disabled on your device. */
 "upgrade_mgr_purchases_are_disabled" = "A vásárlások le vannak tiltva az Ön készülékén.";
@@ -1307,16 +1307,16 @@
 "attachment_pool_vc_filename_orphan_fmt" = "<Orphan Attachment> [%lu]";
 
 /* Could not connect to server. */
-"webdav_storage_could_not_connect" = "Could not connect to server.";
+"webdav_storage_could_not_connect" = "Nem tudott csatlakozni a szerverhez.";
 
 /* Custom Title Default Text */
 "defaults_model_custom_title_default" = "Custom Title Default Text";
 
 /* Custom Username Default Text */
-"defaults_model_custom_username_default" = "Custom Username Default Text";
+"defaults_model_custom_username_default" = "Egyéni felhasználónév alapértelmezett szöveg";
 
 /* Custom Password Default Text */
-"defaults_model_custom_password_default" = "Custom Password Default Text";
+"defaults_model_custom_password_default" = "Egyéni jelszó alapértelmezett szövege";
 
 /* Custom Email Default Text */
 "defaults_model_custom_email_default" = "Custom Email Default Text";
@@ -1575,7 +1575,7 @@
 "pick_creds_vc_group_path_display_string_fmt" = "(in /%@)";
 
 /* Unsupported Storage */
-"pick_creds_vc_cannot_create_new_unsupported_storage_type_title" = "Unsupported Storage";
+"pick_creds_vc_cannot_create_new_unsupported_storage_type_title" = "Nem támogatott tároló";
 
 /* This database is stored on a Storage Provider that does not support Live editing in App Extensions. Cannot Create New Entry. */
 "pick_creds_vc_cannot_create_new_unsupported_storage_type_message" = "Ezt az adatbázist egy olyan tárolási szolgáltató tárolja, amely nem támogatja az alkalmazásbővítmények élő szerkesztését. Nem lehet új bejegyzést létrehozni.";
@@ -1584,7 +1584,7 @@
 "pick_creds_vc_create_new_button_title" = "Új bejegyzés létrehozása...";
 
 /* No Matching Entries */
-"pick_creds_vc_empty_search_dataset_title" = "No Matching Entries";
+"pick_creds_vc_empty_search_dataset_title" = "Nincsenek megfelelő bejegyzések";
 
 /* Empty Database */
 "pick_creds_vc_empty_dataset_title" = "Adatbázis kiürítése";
@@ -1641,7 +1641,7 @@
 "pwgen_wordlist_google" = "Google (amerikai angol, káromkodás nélkül)";
 
 /* Italian */
-"pwgen_wordlist_italian" = "Italian";
+"pwgen_wordlist_italian" = "Olasz";
 
 /* Japanese */
 "pwgen_wordlist_japanese" = "Japán";
@@ -1824,7 +1824,7 @@
 "open_sequence_error_reading_key_file_autofill_context" = "Nem sikerült beolvasni a kulcsfájlt. Megfelelően lett importálva? Jelölje be a Kulcsfájlok kezelését a beállításokban";
 
 /* Transfer over Wi-Fi (or LAN) */
-"sspc_local_network_storage_location" = "Transfer over Wi-Fi (or LAN)";
+"sspc_local_network_storage_location" = "Átvitel Wi-Fi-n (vagy LAN-on) keresztül";
 
 /* A storage provider is in the process of reading. This is the status displayed on the progress dialog. In english:  Reading... */
 "storage_provider_status_reading" = "Olvasás...";
@@ -2757,7 +2757,7 @@
 "mac_unlock_screen_button_title_convenience_unlock_expired" = "Convenience Unlock Expired";
 
 /* Touch ID/Watch Unavailable */
-"mac_unlock_screen_button_title_convenience_unlock_bio_unavailable" = "Touch ID/Watch Unavailable";
+"mac_unlock_screen_button_title_convenience_unlock_bio_unavailable" = "Touch ID/Watch nem elérhető";
 
 /* Touch ID/Watch Unlock (Pro Only) */
 "mac_unlock_screen_button_title_convenience_unlock_pro_only" = "Touch ID/Watch feloldás (csak Pro)";
@@ -2781,7 +2781,7 @@
 "open_sequence_yubikey_only_available_in_pro" = "A hardveres kulcsfeloldás csak a Strongbox Pro kiadásában érhető el";
 
 /* Disabled (Pro Edition Only) */
-"casg_yubikey_configured_disabled_pro_only" = "Disabled (Pro Edition Only)";
+"casg_yubikey_configured_disabled_pro_only" = "Letiltva (csak Pro Edition)";
 
 /* Hardware Key (Pro Edition Only) */
 "casg_section_header_yubikey_pro_only" = "Hardverkulcs (csak Pro)";
@@ -3017,7 +3017,7 @@
 "audit_status_running_with_progress_fmt" = "Status: Auditing... (%d%%)";
 
 /* Auditing... */
-"audit_status_running_with_ellipsis" = "Status: Auditing...";
+"audit_status_running_with_ellipsis" = "Állapot: Auditálás...";
 
 /* Audit Stopped */
 "audit_status_stopped" = "Status: Stopped";
@@ -3077,13 +3077,13 @@
 "hibp_check_interval_once_every_30_days" = "Once Every 30 days";
 
 /* Select Online Check Interval */
-"audit_hibp_online_check_interval" = "Select Online Check Interval";
+"audit_hibp_online_check_interval" = "Online ellenőrzési intervallum kiválasztása";
 
 /* Have I Been Pwned? (Pro Edition Only) */
 "audit_hibp_pro_only_title" = "Have I Been Pwned? (Csak Pro Edition)";
 
 /* Auto Fetch FavIcon? */
-"item_details_prompt_auto_fetch_favicon_title" = "Auto Fetch FavIcon?";
+"item_details_prompt_auto_fetch_favicon_title" = "FavIcon automatikus lekérése?";
 
 /* Strongbox can automatically fetch FavIcons when an new entry is created or updated.\n\nWould you like to Strongbox to do this? */
 "item_details_prompt_auto_fetch_favicon_message" = "A Strongbox automatikusan le tudja hívni a FavIcon-t, amikor új bejegyzés jön létre vagy módosítja azt.\n\nSzeretné, ha a Strongbox ezt megtenné?";
@@ -3095,7 +3095,7 @@
 "browse_pro_nudge_message_fmt" = "A Strongbox Pro tele van olyan praktikus funkciókkal, mint a %@ feloldás.\n\nJó hír! Ingyenes 90 napos próbaverzió áll rendelkezésére. Szeretné kipróbálni a Strongbox Pro-t?";
 
 /* Finnish */
-"pwgen_wordlist_finnish" = "Finnish";
+"pwgen_wordlist_finnish" = "Finn";
 
 /* Icelandic */
 "pwgen_wordlist_icelandic" = "Icelandic";
@@ -3140,10 +3140,10 @@
 "audit_drill_down_section_header_duplicates" = "Items using same password";
 
 /* Similar Passwords */
-"audit_drill_down_section_header_similar" = "Items using similar password";
+"audit_drill_down_section_header_similar" = "Hasonló jelszót használó tételek";
 
 /* Actions */
-"audit_drill_down_section_header_actions" = "Actions";
+"audit_drill_down_section_header_actions" = "Tevékenységek";
 
 /* No password has been set */
 "audit_summary_flag_no_password_set" = "Jelszó nem lett beállítva";
@@ -3236,7 +3236,7 @@
 "password_gen_vc_mode_diceware_xkcd_title" = "Diceware (XKCD)";
 
 /* Strongbox: Unknown Database */
-"autofill_error_unknown_db_title" = "Strongbox: Unknown Database";
+"autofill_error_unknown_db_title" = "Strongbox: Ismeretlen adatbázis";
 
 /* This appears to be a reference to an older Strongbox database which can no longer be found. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill. */
 "autofill_error_unknown_db_message" = "Úgy tűnik, hogy ez egy régebbi Strongbox adatbázisra való hivatkozás, amely már nem található meg. A Strongbox QuickType AutoFill adatbázisa mostanra törlődött, ezért a QuickType AutoFill frissítéséhez újra meg kell nyitnia az adatbázisokat.";
@@ -3266,7 +3266,7 @@
 "backup_settings_prompt_yes_but_include_key_files" = "Igen, de készítsen biztonsági másolatot a kulcsfájlokról is";
 
 /* No, do NOT backup anything */
-"backup_settings_prompt_no_dont_backup_anything" = "No, do not include anything";
+"backup_settings_prompt_no_dont_backup_anything" = "Nem, nem tartalmaz semmit";
 
 /* View Sync Status */
 "safes_vc_action_view_sync_status" = "Szinkr. napló megtekintése";
@@ -3338,7 +3338,7 @@
 "autofill_add_entry_sync_required_option_got_it" = "Rendben!";
 
 /* Don't tell me again */
-"autofill_add_entry_sync_required_option_dont_tell_again" = "Don't tell me again";
+"autofill_add_entry_sync_required_option_dont_tell_again" = "Ne mondd még egyszer";
 
 /* No Subscription Required */
 "onboarding_vc_start_your_free_trial_subtitle_no_subscription" = "Feliratkozás nem szükséges";
@@ -3380,7 +3380,7 @@
 "sftp_path_are_you_sure" = "Biztos, hogy az útvonal helyes? Egy szülői mappához vezető útnak kell lennie. Nem az adatbázisfájlhoz.";
 
 /* Path may be Invalid */
-"sftp_path_may_be_invalid" = "Path May Be Invalid";
+"sftp_path_may_be_invalid" = "Az útvonal érvénytelen lehet";
 
 /* URL May Be Invalid */
 "webdav_vc_validation_url_maybe_invalid" = "URL érvénytelen lehet";
@@ -3521,7 +3521,7 @@
 "item_properties_autotype_obfuscation" = "AutoType Obfuscation";
 
 /* Target Window: [%@] - Translators Note: 1st param is a window title used by the AutoType feature in Windows KeePass to locate or match on a particular window before performing a specific AutoType sequence */
-"item_properties_target_window_fmt" = "Target Window: [%@]";
+"item_properties_target_window_fmt" = "Célablak: [%@]";
 
 /* Statistics */
 "properties_vc_header_statistics" = "Statistics";
@@ -3674,10 +3674,10 @@
 "diff_drill_down_color_will_change" = "Color will change.";
 
 /* Color is different. */
-"diff_drill_down_color_is_different" = "Color is different.";
+"diff_drill_down_color_is_different" = "A szín más.";
 
 /* Database Name is different. */
-"diff_drill_down_database_name_is_different" = "Database Name is different.";
+"diff_drill_down_database_name_is_different" = "Az adatbázis neve eltérő.";
 
 /* Database Description is different. */
 "diff_drill_down_database_desc_is_different" = "Az adatbázis leírása eltérő.";
@@ -3701,7 +3701,7 @@
 "diff_drill_down_recycle_bin_enabled_will_change" = "A kuka engedélyezve állapot megváltozik.";
 
 /* Custom Data %@ will change. Translators Note: 1st param is the key of the custom data e.g. KEEPASSXC_PLUGIN_DATA  */
-"diff_drill_down_custom_data_will_change_fmt" = "Custom Data %@ will change.";
+"diff_drill_down_custom_data_will_change_fmt" = "Az egyéni adatok %@ megváltoznak.";
 
 /* Custom Data %@ is different. */
 "diff_drill_down_custom_data_is_different_fmt" = "Az egyéni adatok %@ különböznek.";
@@ -3785,7 +3785,7 @@
 "diff_drill_down_expiry_date_will_change" = "Lejárati dátum meg fog változni.";
 
 /* Expiry Dates are different. */
-"diff_drill_down_expiry_are_different" = "Expiry Dates are different.";
+"diff_drill_down_expiry_are_different" = "A lejárati dátumok eltérőek.";
 
 /* Foreground Color will change. */
 "diff_drill_down_foreground_color_will_change" = "Az előtér színe megváltozik.";
@@ -3821,7 +3821,7 @@
 "diff_drill_down_tags_will_change" = "A címkék változni fognak.";
 
 /* Tags are different. */
-"diff_drill_down_tags_are_different" = "Tags are different.";
+"diff_drill_down_tags_are_different" = "A címkék különbözőek.";
 
 /* Custom Fields will change. */
 "diff_drill_down_custom_fields_will_change" = "Custom Fields will change.";
@@ -3830,7 +3830,7 @@
 "diff_drill_down_custom_fields_are_different" = "Az egyéni mezők eltérőek.";
 
 /* Item will be moved. */
-"diff_drill_down_location_will_change" = "Item will be moved.";
+"diff_drill_down_location_will_change" = "A tételt át lesz helyezve.";
 
 /* Item locations are different. */
 "diff_drill_down_locations_are_different" = "A tételek helyei eltérőek.";
@@ -3839,7 +3839,7 @@
 "diff_drill_down_diff_loc_different" = "In %@ and %@";
 
 /* Local Copy Created. */
-"safes_vc_created_local_copy_done" = "Local Copy Created.";
+"safes_vc_created_local_copy_done" = "Helyi másolat létrehozva.";
 
 /* Comparing... */
 "diff_progress_comparing" = "Összehasonlítás...";
@@ -4059,7 +4059,7 @@
 "mac_item_pasted_from_clipboard" = "Item Pasted from Clipboard";
 
 /* Items Pasted from Clipboard */
-"mac_items_pasted_from_clipboard" = "Items Pasted from Clipboard";
+"mac_items_pasted_from_clipboard" = "Vágólapról beillesztett elemek";
 
 /* Item Duplicated */
 "mac_item_duplicated" = "Item Duplicated";
@@ -4083,7 +4083,7 @@
 "generic_preference_not_configured" = "Nincs beállítva";
 
 /* Auto Unlock Feature */
-"autofill_auto_unlock_title" = "Auto Unlock Feature";
+"autofill_auto_unlock_title" = "Automatikus feloldás funkció";
 
 /* Auto Unlock lets you avoid having to repeatedly unlock your database for a configurable time period. Would you like to use this handy feature?\n\nNB: Your password is stored in the Secure Enclave for this feature. */
 "autofill_auto_unlock_message" = "Az automatikus feloldás lehetővé teszi, hogy ne kelljen többször feloldania az adatbázisát egy beállítható időtartamra. Szeretné használni ezt a praktikus funkciót?\n\nMegjegyzés: A jelszavát a Secure Enclave tárolja ehhez a funkcióhoz.";
@@ -4134,7 +4134,7 @@
 "app_privacy_shield_mode_blue_screen" = "Blue Screen";
 
 /* Privacy Shield View */
-"prefs_vc_privacy_shield_view" = "Privacy Shield View";
+"prefs_vc_privacy_shield_view" = "Adatvédelmi pajzs nézet";
 
 /* Always Open Offline */
 "database_properties_title_always_offline" = "Mindig Offline megnyitás";
@@ -4146,7 +4146,7 @@
 "database_properties_subtitle_offline_detected_behaviour" = "Mi a teendő, ha a Strongbox azt észleli, hogy offline állapotban van az adatbázis megnyitásakor.";
 
 /* Prompt */
-"offline_detected_behaviour_ask_immediately" = "Prompt";
+"offline_detected_behaviour_ask_immediately" = "Értesítés";
 
 /* Try to Connect */
 "offline_detected_behaviour_try_connect_anyway" = "Try to Connect";
@@ -4173,7 +4173,7 @@
 "sync_status_error_updating_revert_action" = "Revert to Latest";
 
 /* Assistance Required */
-"sync_status_user_interaction_required_prompt_title" = "Assistance Required";
+"sync_status_user_interaction_required_prompt_title" = "Segítséget kérek";
 
 /* Internet Unavailable Behaviour */
 "database_properties_title_offline_detected_behaviour" = "Internet nem elérhető viselkedés";
@@ -4218,7 +4218,7 @@
 "password_strength_algo_basic_title" = "Basic (Pooled Entropy)";
 
 /* Password Strength Algorithm */
-"prefs_vc_password_strength_algorithm" = "Password Strength Algorithm";
+"prefs_vc_password_strength_algorithm" = "Jelszó erősségének algoritmusa";
 
 /* Very Weak */
 "password_strength_category_very_weak" = "Nagyon gyenge";
@@ -4230,7 +4230,7 @@
 "password_strength_category_mediocre" = "Mediocre";
 
 /* Strong */
-"password_strength_category_strong" = "Strong";
+"password_strength_category_strong" = "Erős";
 
 /* Very Strong */
 "password_strength_category_very_strong" = "Nagyon erős";
@@ -4320,7 +4320,7 @@
 "generic_got_it" = "Rendben!";
 
 /* Don't tell me again */
-"generic_dont_tell_again" = "Don't tell me again";
+"generic_dont_tell_again" = "Ne mondd még egyszer";
 
 /* Actions - L10n - a generic collection of actions (or items that will perform certain actions/tasks) - often used as a Section Header */
 "generic_actions" = "Tevékenységek";
@@ -4341,7 +4341,7 @@
 "app_lock_coalescing_with_quick_launch_warning" = "Van egy konfigurációs probléma, amellyel tisztában kell lennie. A %@-t használja mind az Alkalmazászárhoz, mind a Gyorsindításhoz. Ezenkívül engedélyezi az eszköz biztonsági kódjának visszaállítását az App Lock számára.\n\nEz olyan helyzethez vezet, amikor csak az eszköz jelszavával tudja feloldani az adatbázis zárolását.\n\nHa ezt nem szeretné, tegye a következők valamelyikét: Az Alkalmazászár biztonsági kódjának visszaállításának vagy a Gyorsindítás vagy a %@ adatbázis feloldás letiltása vagy a feloldások egyesítése.";
 
 /* Configuration Issue */
-"onboarding_configuration_issue_title" = "Configuration Issue";
+"onboarding_configuration_issue_title" = "Konfigurációs probléma";
 
 /* Let's Go - L10n Note: Generic Action Button to get started, similar to OK, but more friendly and indicates progression */
 "generic_lets_go" = "Gyerünk!";
@@ -4661,7 +4661,7 @@
 
 
 /* None (%@ Available) - L10n Guide: The 1st parameter is the number of detected hardware key/slots, but None have been selected by the user */
-"mac_hardware_key_dropdown_n_available_fmt" = "None (%@ Available)";
+"mac_hardware_key_dropdown_n_available_fmt" = "Nincs (%@ elérhető)";
 
 /* None (No Keys Detected) - L10n Guide: This means no hardware key is selected and none have been detected */
 "mac_hardware_key_dropdown_none_no_keys_detected" = "None (No Keys Detected)";
@@ -4964,7 +4964,7 @@
 "pro_status_free_trial_days_left_fmt" = "Free Trial (%@ days left)";
 
 /* Unlicensed (Please Upgrade) */
-"pro_status_unlicensed_please_upgrade" = "Unlicensed (Please Upgrade)";
+"pro_status_unlicensed_please_upgrade" = "Licenc nélküli (kérjük, frissítsen)";
 
 /* Unlicensed */
 "pro_status_unlicensed" = "Unlicensed";
@@ -5108,7 +5108,7 @@
 "upgrade_vc_feature_favicon_downloader" = "Favicon Downloader";
 
 /* Make your entries stand out */
-"upgrade_vc_feature_subtitle_favicon_downloader" = "Make your entries stand out";
+"upgrade_vc_feature_subtitle_favicon_downloader" = "Tegye kiemelkedővé bejegyzéseit";
 
 /* Support Indie Development */
 "upgrade_vc_feature_support_indie" = "A fejlesztés támogatása";
@@ -5204,7 +5204,7 @@
 "nextgen_sync_issue_toast_title" = "Sync Issue";
 
 /* Strongbox could not sync... */
-"nextgen_sync_issue_toast_message" = "Strongbox could not sync...";
+"nextgen_sync_issue_toast_message" = "A Strongbox nem tudott szinkronizálni...";
 
 /* More... - Used in the UI to indicate a button which you can click on to learn or find out more */
 "generic_more_with_ellipsis" = "Tovább...";
@@ -5677,7 +5677,7 @@
 "export_group_dialog_title" = "Export Group";
 
 /* Overwrite Existing Passkey? */
-"passkey_overwrite_question_title" = "Overwrite Existing Passkey?";
+"passkey_overwrite_question_title" = "Felülírja a meglévő belépőkulcsot?";
 
 /* Overwrite */
 "passkey_option_overwrite" = "Overwrite";
