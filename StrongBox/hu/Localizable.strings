@@ -11,7 +11,7 @@
 "safes_vc_empty_databases_list_tableview_title" = "Nincsenek adatbázisok";
 
 /* Subtitle displayed in tableview when there are no databases setup */
-"safes_vc_empty_databases_list_tableview_subtitle" = "Tap below to get started";
+"safes_vc_empty_databases_list_tableview_subtitle" = "Koppintson lentebb a kezdéshez";
 
 /* Subtitle displayed in tableview when there are no databases setup */
 "safes_vc_empty_databases_list_get_started_button_title" = "Első lépések...";
@@ -480,7 +480,7 @@
 "casg_set_master_password" = "Mesterjelszó beállítása";
 
 /* Set Master Credentials */
-"casg_set_master_credentials" = "Set Master Credentials";
+"casg_set_master_credentials" = "Fő hitelesítő adatok beállítása";
 
 /* My Database */
 "casg_suggested_database_name_default" = "Adatbázis";
@@ -870,7 +870,7 @@
 "databases_preferences_select_subtitle2_field" = "Válassza ki a 2. felirat mezőt";
 
 /* Select Top Right Field */
-"databases_preferences_select_top_right_field" = "Select Top Right Field";
+"databases_preferences_select_top_right_field" = "Válassza ki a jobb felső mezőt";
 
 /* Database Storage */
 "databases_preferences_subtitle_field_name_database_storage" = "Adatbázis helye";
@@ -949,7 +949,7 @@
 "export_vc_export_successful_message" = "Az adatbázisa sikeresen exportálva.";
 
 /* Error Writing Database */
-"export_vc_error_writing" = "Error Writing Database";
+"export_vc_error_writing" = "Hiba az adatbázis írása során";
 
 /* Error Exporting */
 "export_vc_error_exporting" = "Exportálási hiba";
@@ -1461,7 +1461,7 @@
 "privacy_vc_prompt_biometrics_unavailable_message" = "Ez az alkalmazás biometrikus feloldást igényel, de a biometrikus feloldás ezen a készüléken nem érhető el. Az alkalmazás feloldásának folytatásához újra engedélyeznie kell a biometriát.";
 
 /* Identify to Open Strongbox */
-"privacy_vc_prompt_identify_to_open" = "Identify to Open Strongbox";
+"privacy_vc_prompt_identify_to_open" = "Azonosítás a Strongbox megnyitásához";
 
 /* %ld Attempts Remaining */
 "privacy_vc_prompt_pin_attempts_remaining_fmt" = "%ld hátralévő kísérletek száma";
@@ -2143,7 +2143,7 @@
 /**********************************************************************************************************************/
 /* Download FavIcon */
 
-"set_icon_vc_icon_source_download_favicons" = "Download Child FavIcons";
+"set_icon_vc_icon_source_download_favicons" = "Al-FavIkonok letöltése";
 
 /* Download FavIcon (Pro Only) */
 "set_icon_vc_icon_source_download_favicons_pro_only" = "Gyermek FavIcons letöltése (Csak Pro)";
@@ -2191,7 +2191,7 @@
 "favicon_results_title_pro_only" = "FavIcon eredmények (csak Pro)";
 
 /* %lu Icons Found (%dx%d selected) */
-"favicon_results_n_icons_found_with_xy_resolution_fmt" = "%lu Icons Found (%dx%d selected)";
+"favicon_results_n_icons_found_with_xy_resolution_fmt" = "%lu ikon találat (%dx%d kiválasztott)";
 
 /* %dx%d selected */
 "favicon_results_one_icon_found_with_xy_resolution_fmt" = "%dx%d kiválasztva";
@@ -2436,7 +2436,7 @@
 "mac_undo_action_add_item" = "Elem hozzáadása";
 
 /* Import Entries from CSV */
-"mac_undo_action_import_entries_from_csv" = "Import Entries from CSV";
+"mac_undo_action_import_entries_from_csv" = "Bejegyzések importálása CSV fájlból";
 
 /* Cannot save database while it is locked." */
 "mac_cannot_save_db_while_locked" = "Az adatbázis nem menthető, amíg az zárolva van.";
@@ -2805,12 +2805,12 @@
 "generic_none" = "Nincs";
 
 /* Hardware Key (Pro Only) */
-"mac_lock_screen_yubikey_popup_menu_yubico_pro_only" = "Hardware Key (Pro Only)";
+"mac_lock_screen_yubikey_popup_menu_yubico_pro_only" = "Hardverkulcs (csak Pro)";
 
 "casg_yubikey_configured_mfi" = "Lightning";
 
 /* AutoFill Crash Occurred */
-"autofill_did_not_close_cleanly_title" = "AutoFill Crash Occurred";
+"autofill_did_not_close_cleanly_title" = "AutoFill összeomlás történt";
 
 /* It looks like the last time you used AutoFill you had a crash. This is usually due to a memory limitation. Please check your database file size and your Argon2 memory settings (should be <= 64MB) */
 "autofill_did_not_close_cleanly_message" = "Úgy tűnik, hogy az AutoFill legutóbbi használatakor összeomlott. Ez általában az iOS memória korlátozása miatt van. Kérjük, ellenőrizze az adatbázis-fájl méretét és az Argon2 memória (<= 64MB) beállításait";
@@ -3008,7 +3008,7 @@
 "audit_status_complete" = "Státusz: Kész";
 
 /* Database Auditor Initialized */
-"audit_status_initialized" = "Status: Initializing...";
+"audit_status_initialized" = "Állapot: Inicializálás...";
 
 /* Database Auditor Initialized */
 "audit_status_initialized_but_disabled" = "Állapot: Kikapcsolva";
@@ -3041,7 +3041,7 @@
 "casg_key_file_correct_no_no_key_file" = "Nem, nem használok kulcsfájlt";
 
 /* Security Audit Complete */
-"browse_vc_audit_complete_title" = "Security Audit Complete";
+"browse_vc_audit_complete_title" = "Biztonsági audit befejeződött";
 
 /* No issues found */
 "browse_vc_audit_complete_message" = "No issues found";
@@ -3137,7 +3137,7 @@
 "audit_drill_down_section_header_summary" = "Összegzés";
 
 /* Duplicate Passwords */
-"audit_drill_down_section_header_duplicates" = "Items using same password";
+"audit_drill_down_section_header_duplicates" = "Ugyanazt a jelszót használó elemek";
 
 /* Similar Passwords */
 "audit_drill_down_section_header_similar" = "Hasonló jelszót használó tételek";
@@ -3584,7 +3584,7 @@
 "generic_action_merge" = "Egyesítés";
 
 /* No Other Databases Available */
-"merge_no_other_databases_available_title" = "No Other Databases Available";
+"merge_no_other_databases_available_title" = "Nincs más rendelkezésre álló adatbázis";
 
 /* There are no other databases in your databases collection to merge into this database. You must add another database so that you can select it for the merge operation. */
 "merge_no_other_databases_available_msg" = "Az adatbázis-gyűjteményében nincs más adatbázis, amelyet ebbe az adatbázisba lehetne beolvasztani. Hozzá kell adnia egy másik adatbázist, hogy ki tudja választani az egyesítési művelethez.";
@@ -3623,7 +3623,7 @@
 "diff_view_section_header_entry_will_be_changed_count_fmt" = "Meg lesz változtatva (%lu)";
 
 /* Items with Differences (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_differences_fmt" = "Items with Differences (%lu)";
+"diff_view_section_header_entry_differences_fmt" = "Eltérő tételek (%lu)";
 
 /* Will be Added (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
 "diff_view_section_header_entry_will_be_added_count_fmt" = "Hozzá lesz adva (%lu)";
@@ -3641,7 +3641,7 @@
 "diff_view_section_header_entry_will_be_deleted_count_fmt" = "Törölve lesz (%lu)";
 
 /* Only in First Database (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_only_in_first_fmt" = "Only in First Database (%lu)";
+"diff_view_section_header_only_in_first_fmt" = "Csak az első adatbázisban (%lu)";
 
 /* History will Change (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
 "diff_view_section_header_entry_history_will_change_count_fmt" = "History will Change (%lu)";
@@ -4095,7 +4095,7 @@
 "autofill_auto_unlock_try_10_minutes" = "Inkább 10 percet szeretnék";
 
 /* AutoFill Quick Launch */
-"databases_toggle_autofill_quick_launch_context_menu" = "AutoFill Quick Launch";
+"databases_toggle_autofill_quick_launch_context_menu" = "AutoFill gyorsindítása";
 
 /* Title Matches */
 "autofill_search_title_matches_section_header" = "Title Matches";
@@ -4547,7 +4547,7 @@
 "are_you_sure_change_connection" = "Biztos, hogy meg akarja változtatni a kapcsolatot ehhez az adatbázishoz?";
 
 /* Reselect SFTP File... */
-"reselect_sftp_file_ellipsis" = "Reselect SFTP File...";
+"reselect_sftp_file_ellipsis" = "SFTP fájl újraválasztása...";
 
 /* Reselect WebDAV File... */
 "reselect_webdav_file_ellipsis" = "WebDAV fájl újraválasztása...";
@@ -4621,7 +4621,7 @@
 "safesvc_inner_stream_error_message" = "A Strongboxnak problémája akadt az adatbázis néhány védett mezőjének visszafejtésével. \n\nAz adatbázis mostantól csak olvasható módban fog megnyílni a további sérülések megelőzése érdekében.\n\nJavasoljuk a visszaállítást egy régebbi biztonsági mentésből vagy a KDBX4-re való frissítést, amely kiküszöböli ezt a problémát.";
 
 /* Choose file to Import */
-"mac_choose_file_import" = "Choose file to Import";
+"mac_choose_file_import" = "Válassza ki az importálandó fájlt";
 
 /* 🔴 Import Failed */
 "import_failed_title" = "🔴 Importálás sikertelen";
@@ -5114,7 +5114,7 @@
 "upgrade_vc_feature_support_indie" = "A fejlesztés támogatása";
 
 /* Help us stay awesome! */
-"upgrade_vc_feature_subtitle_support_indie" = "Help us stay awesome!";
+"upgrade_vc_feature_subtitle_support_indie" = "Segítsen nekünk, hogy fantasztikusak maradjunk!";
 
 /* then %@ every year - L10n note, the 1st parameter is a price like "£12.99" */
 "upgrade_vc_price_per_year_with_free_trial_fmt" = "then %@ every year";
@@ -5129,7 +5129,7 @@
 "upgrade_vc_old_freemium_upgrade_view_unified" = "Strongbox Unified megtekintése";
 
 /* Restore My Pro Purchase */
-"upgrade_vc_old_freemium_upgrade_restore_pro" = "Restore My Pro Purchase";
+"upgrade_vc_old_freemium_upgrade_restore_pro" = "Pro vásárlásom visszaállítása";
 
 /* Restart Required */
 "generic_restart_required" = "Újraindítás szükséges";
@@ -5144,7 +5144,7 @@
 "relocate_database_msg" = "A Strongbox hivatkozása erre az adatbázisra érvénytelenné vált, vagy az adatbázis nem található.\n\nKérjük, válassza ki újra ezt az adatbázist a Strongbox fájljaiból.";
 
 /* 1Password Import Warning */
-"1password_import_warning_title" = "1Password Import Warning";
+"1password_import_warning_title" = "1Password importálási figyelmeztetés";
 
 /* The import process isn't perfect and some features of 1Password such as named sections are not available in Strongbox.\n\nIt is important to check that your entries as acceptable after you have imported. */
 "1password_import_warning_msg" = "Az importálási folyamat nem tökéletes, és a 1Password egyes funkciói, például a névre szóló szakaszok nem állnak rendelkezésre a Strongboxban.\n\nFontos, hogy az importálás után ellenőrizze, hogy a bejegyzések megfelelőek-e.";
@@ -5273,7 +5273,7 @@
 "configure_tabs_drag_tabs_to_hide" = "Drag tabs here to hide them";
 
 /* Hide Tab Bar Completely */
-"configure_tabs_option_hide_tab_bar_completely" = "Hide Tab Bar Completely";
+"configure_tabs_option_hide_tab_bar_completely" = "Tab Bar teljesen elrejtése";
 
 /* %@ Items */
 "generic_number_of_items_plural_fmt" = "%@ Items";
@@ -5297,7 +5297,7 @@
 "generic_sort_order_chronologically_newest_first" = "Newest First";
 
 /* Reverse Alphabetically */
-"generic_sort_order_reverse_alphabetically" = "Reverse Alphabetically";
+"generic_sort_order_reverse_alphabetically" = "Fordított abc sorrendben";
 
 /* %@ Items Sorted By - L10n note: This is the header of a menu, the menu contains the fields you can sort by. e.g. Title. So this will look like "120 Items Sorted By" for example. The first parameter is numeric, the number of items sorted below */
 "sort_menu_header_number_of_items_plural_sorted_by_fmt" = "%@ Items Sorted By";
@@ -5324,7 +5324,7 @@
 "safes_vc_import_lastpass" = "LastPass (CSV)";
 
 /* iCloud Keychain (CSV) */
-"safes_vc_import_icloud" = "iCloud Keychain (CSV)";
+"safes_vc_import_icloud" = "iCloud kulcskarika (CSV)";
 
 /* Disabling Auto-Commit could mean you lose this TOTP if you forget to commit later, are you sure? */
 "are_you_sure_auto_commit_totp_msg" = "Az automatikus commit kikapcsolása azt jelentheti, hogy elveszíti ezt a TOTP-ot, ha később elfelejti a commitot. Biztos vagy benne?";
@@ -5432,7 +5432,7 @@
 "search_results_summary_no_matches_found" = "Nincs találat";
 
 /* Orchard Street (Medium) */
-"pwgen_wordlist_orchard_st" = "Orchard Street (Medium)";
+"pwgen_wordlist_orchard_st" = "Orchard Street (közepes)";
 
 /* SSH Keys */
 "sidebar_quick_view_keeagent_ssh_keys_title" = "SSH kulcsok";
@@ -5521,7 +5521,7 @@
 "verify_creds_before_changing_bio_message_suffix" = "ellenőrizze a hitelesítő adatokat, mielőtt megváltoztatná őket";
 
 /* Verify Master Credentials */
-"verify_creds_headline" = "Verify Master Credentials";
+"verify_creds_headline" = "Mester hitelesítő adatok ellenőrzése";
 
 /* For security reasons your current master credentials must be verified before you can change them. */
 "verify_creds_subhead" = "Biztonsági okokból a fő hitelesítő adatokat ellenőrizni kell, mielőtt megváltoztathatná őket.";
@@ -5554,7 +5554,7 @@
 "import_messages_header" = "Import Messages";
 
 /* Set New Master Password */
-"import_next_step_set_password" = "Set New Master Password";
+"import_next_step_set_password" = "Új fő jelszó beállítása";
 
 /* Please consider sharing (support@strongboxsafe.com) the above messages with us to help us improve the import process.*/
 "import_please_share_import_messages" = "Kérjük, fontolja meg a fenti üzenetek megosztását (support@strongboxsafe.com) velünk, hogy segítsen nekünk javítani az importálási folyamatot.";
@@ -5665,7 +5665,7 @@
 "generic_for_n_hours_suffix_fmt" = "for %@ hours";
 
 /* until Strongbox quits - L10n note: used as a suffix, e.g. "Remember this until Strongbox quits" */
-"ssh_agent_remember_approval_until_strongbox_quits" = "until Strongbox quits";
+"ssh_agent_remember_approval_until_strongbox_quits" = "amíg a Strongbox ki nem lép";
 
 /* What format would you like to export to? */
 "export_what_format_question" = "Milyen formátumba szeretne exportálni?";
@@ -5686,7 +5686,7 @@
 "passkey_overwrite_existing_question_msg" = "Ez a bejegyzés már rendelkezik jelszóval, felül kívánja írni?";
 
 /* Select entry for passkey */
-"passkey_select_existing_entry" = "Select entry for passkey";
+"passkey_select_existing_entry" = "Válassza ki a belépési kulcs bejegyzést";
 
 /* New Passkey */
 "passkey_new_passkey_title" = "New Passkey";
@@ -5698,10 +5698,10 @@
 "passkey_add_by_creating_new" = "Create a New Entry";
 
 /* Add to an Existing Entry */
-"passkey_add_to_existing" = "Add to an Existing Entry";
+"passkey_add_to_existing" = "Hozzáadás egy meglévő bejegyzéshez";
 
 /* New Entry for Passkey */
-"passkey_new_entry_title" = "New Entry for Passkey";
+"passkey_new_entry_title" = "Új bejegyzés a Passkey számára";
 
 /* We'll create a new entry for this passkey. Choose a title and a group where you'd like to save it. */
 "passkey_new_entry_text" = "Létrehozunk egy új bejegyzést ehhez a jelszóhoz. Válasszon egy címet és egy csoportot, ahová el szeretné menteni.";
@@ -5737,7 +5737,7 @@
 "passkey_saved_but_could_not_reload" = "A jelszókulcsot sikeresen létrehozták és elmentették az adatbázisba, de a Strongbox nem tudta kezdeményezni az újratöltést.\n\nMost próbálja meg újratölteni az adatbázisát.";
 
 /* Strongbox Not Running */
-"autofill_sb_not_running_title" = "Strongbox Not Running";
+"autofill_sb_not_running_title" = "Strongbox nem fut";
 
 /* Strongbox must be running to register a new Passkey.\n\nMake sure Strongbox is running in the background. */
 "autofill_sb_not_running_message" = "A Strongboxnak futnia kell egy új Passkey regisztrálásához.\n\nGyőződjön meg róla, hogy a Strongbox a háttérben fut.";
@@ -5749,7 +5749,7 @@
 "passkeys_unavailable_alert_message" = "Technikai okokból a jelszókulcsok ebben az adatbázis-formátumban nem állnak rendelkezésre. Ezeket csak a KeePass 2 formátum támogatja. Erre át lehet állni.";
 
 /* Select Existing Entry */
-"passkeys_select_existing_entry_to_add_to_title" = "Select Existing Entry";
+"passkeys_select_existing_entry_to_add_to_title" = "Meglévő bejegyzés kiválasztása";
 
 /* Please select an existing entry to add your new passkey */
 "passkeys_select_existing_entry_to_add_to_message" = "Kérjük, válasszon ki egy meglévő bejegyzést az új jelszó hozzáadásához";
