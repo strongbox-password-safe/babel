@@ -420,7 +420,7 @@
 "browse_vc_view_as_database_empty" = "Nincs bejegyzés";
 
 /* No TOTPs Found */
-"browse_vc_view_as_totp_no_totps" = "No TOTPs Found";
+"browse_vc_view_as_totp_no_totps" = "Nem talált TOTP-t";
 
 /* No matching entries found */
 "browse_vc_view_search_no_matches" = "Nem találtunk megfelelő bejegyzést";
@@ -825,7 +825,7 @@
 "upgrade_vc_price_per_month_with_percentage_saving_fmt" = "%@ / hónap (Megtakarítás %d%%)";
 
 /* Issue Restoring Purchase */
-"upgrade_vc_problem_restoring" = "Issue Restoring Purchase";
+"upgrade_vc_problem_restoring" = "Probléma a vásárlás visszaállítása során";
 
 /* Could not access Upgrade Products on App Store. Please try again later. */
 "upgrade_vc_product_error_message" = "Nem tudta elérni a frissítési termékeket az App Store-ban. Kérjük, próbálja meg később újra.";
@@ -925,7 +925,7 @@
 
 /* Could not get database data
    Error Encrypting */
-"export_vc_error_encrypting" = "Error Encrypting";
+"export_vc_error_encrypting" = "Titkosítási hiba";
 
 /* Email Not Available */
 "export_vc_email_unavailable_title" = "Email nem elérhető";
@@ -1304,13 +1304,13 @@
 "attachment_pool_vc_filename_historical_fmt" = "%@ (Korábbi)";
 
 /* <Orphan Attachment> [%lu] */
-"attachment_pool_vc_filename_orphan_fmt" = "<Orphan Attachment> [%lu]";
+"attachment_pool_vc_filename_orphan_fmt" = "<Árva csatolmány> [%lu]";
 
 /* Could not connect to server. */
 "webdav_storage_could_not_connect" = "Nem tudott csatlakozni a szerverhez.";
 
 /* Custom Title Default Text */
-"defaults_model_custom_title_default" = "Custom Title Default Text";
+"defaults_model_custom_title_default" = "Egyéni cím alapértelmezett szöveg";
 
 /* Custom Username Default Text */
 "defaults_model_custom_username_default" = "Egyéni felhasználónév alapértelmezett szöveg";
@@ -1325,7 +1325,7 @@
 "defaults_model_custom_url_default" = "Egyéni URL alapértelmezett szöveg";
 
 /* Custom Notes Default Text */
-"defaults_model_custom_notes_default" = "Custom Notes Default Text";
+"defaults_model_custom_notes_default" = "Egyéni megjegyzések alapértelmezett szöveg";
 
 /* Select One */
 "select_item_vc_title_select_one" = "Válasszon egyet";
@@ -1334,7 +1334,7 @@
 "select_item_vc_message_select_one" = "Legalább egy elemet ki kell választania";
 
 /* Custom Default */
-"entry_defaults_vc_prompt_custom_title" = "Custom Default";
+"entry_defaults_vc_prompt_custom_title" = "Egyéni alapértelmezett";
 
 /* Please enter a new custom default for this field */
 "entry_defaults_vc_prompt_custom_message" = "Kérjük, adjon meg egy új alapértelmezett értéket ehhez a mezőhöz";
@@ -1470,16 +1470,16 @@
 "password_gen_vc_sample_password_copied" = "Példa jelszó elmásolva";
 
 /* <Generation Failed> */
-"password_gen_vc_generation_failed" = "<Generation Failed>";
+"password_gen_vc_generation_failed" = "<A generálás sikertelen>";
 
 /* Basic */
 "password_gen_vc_mode_basic_title" = "Egyszerű";
 
 /* Using: %@ */
-"password_gen_vc_using_character_groups_fmt" = "Using: %@";
+"password_gen_vc_using_character_groups_fmt" = "Használja: %@";
 
 /* Using: %@ */
-"password_gen_vc_using_wordlists_fmt" = "Using: %@";
+"password_gen_vc_using_wordlists_fmt" = "Használja: %@";
 
 /* Select Algorithm */
 "password_gen_vc_select_mode" = "Algoritmus kiválasztása";
@@ -1491,7 +1491,7 @@
 "password_gen_vc_select_hacker_level" = "Válassza ki az l33t szintet";
 
 /* Select Word Casing */
-"password_gen_vc_select_casing_type" = "Select Word Casing";
+"password_gen_vc_select_casing_type" = "Kis- nagybetű kiválasztása";
 
 /* Select Word Lists */
 "password_gen_vc_select_wordlists" = "Szólisták kiválasztása";
@@ -1569,10 +1569,10 @@
 "cloud_sessions_prompt_onedrive_signout_error" = "Hiba a OneDrive-ból való kijelentkezéskor";
 
 /* (in /) */
-"pick_creds_vc_group_path_display_string_root" = "(in /)";
+"pick_creds_vc_group_path_display_string_root" = "(/)";
 
 /* (in /%@) */
-"pick_creds_vc_group_path_display_string_fmt" = "(in /%@)";
+"pick_creds_vc_group_path_display_string_fmt" = "(/%@)";
 
 /* Unsupported Storage */
 "pick_creds_vc_cannot_create_new_unsupported_storage_type_title" = "Nem támogatott tároló";
@@ -1719,7 +1719,7 @@
 "browse_vc_action_pin" = "Kedvenc";
 
 /* Un-Favourite */
-"browse_vc_action_unpin" = "Un-Favourite";
+"browse_vc_action_unpin" = "Kivesz a kedvencekből";
 
 /* Section Header Title for Expired Items */
 "browse_vc_section_title_expired" = "Lejárt";
@@ -1764,13 +1764,13 @@
 "database_metadata_field_outer_encryption" = "Külső titkosítás";
 
 /* Password Safe File Version */
-"database_metadata_field_password_safe_version" = "Password Safe File Version";
+"database_metadata_field_password_safe_version" = "Jelszóval védett fájl verzió";
 
 /* Recycle Bin Enabled */
 "database_metadata_field_recycle_bin_enabled" = "Kuka bekapcsolva";
 
 /* Transform Rounds */
-"database_metadata_field_transform_rounds" = "Transform Rounds";
+"database_metadata_field_transform_rounds" = "Iterációk";
 
 /* Last Update App */
 "database_metadata_field_last_update_app" = "Utoljára módosító alkalmazás";
@@ -1800,7 +1800,7 @@
 "backup_vc_backup_added_to_databases" = "Ez a biztonsági mentés hozzá lett adva az adatbázisokhoz";
 
 /* Add as Local Database */
-"backups_add_local" = "Add to Databases";
+"backups_add_local" = "Hozzáadás az adatbázisokhoz";
 
 /* Are you sure you want to delete all backups? */
 "backups_vc_delete_all_backups_prompt_message" = "Biztosan törli az összes biztonsági másolatot?";
@@ -1863,7 +1863,7 @@
 "prefs_vc_info_email_support_options_check_faq" = "GYIK ellenőrzése";
 
 /* Check Twitter */
-"prefs_vc_info_email_support_options_check_twitter" = "Check Twitter";
+"prefs_vc_info_email_support_options_check_twitter" = "Nézd meg a X-en";
 
 /* Mail Support (English Only) */
 "prefs_vc_info_email_support_options_mail_support" = "Email támogatás (Angol)";
@@ -2170,7 +2170,7 @@
 "favicon_clear_all_and_retry_message" = "Biztos, hogy törölni szeretné az aktuális eredményeket, és újra meg akarja próbálni az összes elemet?";
 
 /* Retry All or Failed? */
-"favicon_retry_all_or_failed_title" = "Retry All or Failed?";
+"favicon_retry_all_or_failed_title" = "Megismételni az összeset, vagy csak a sikerteleneket?";
 
 /* Would you like to retry all items, or just the failed ones? */
 "favicon_retry_all_or_failed_message" = "Szeretné újra megpróbálni valamennyi elemet, vagy csak a sikerteleneket?";
@@ -2373,7 +2373,7 @@
 "mac_undo_action_change_master_credentials" = "Mesterjelszó megváltoztatása";
 
 /* Title Change */
-"mac_undo_action_title_change" = "Title Change";
+"mac_undo_action_title_change" = "Címváltoztatás";
 
 /* Email Change */
 "mac_undo_action_email_change" = "E-mail-cím megváltoztatása";
@@ -2394,13 +2394,13 @@
 "mac_undo_action_password_change" = "Jelszó módosítása";
 
 /* Notes Change */
-"mac_undo_action_notes_change" = "Notes Change";
+"mac_undo_action_notes_change" = "Megjegyzésváltoztatás";
 
 /* Expiry Date Change */
 "mac_undo_action_expiry_change" = "Lejárati dátum megváltoztatása";
 
 /* Icon Change */
-"mac_undo_action_icon_change" = "Icon Change";
+"mac_undo_action_icon_change" = "Ikon megváltozása";
 
 /* Delete History Item */
 "mac_undo_action_delete_history_item" = "Elem előzményeinek törlése";
@@ -3047,7 +3047,7 @@
 "browse_vc_audit_complete_message" = "Nem található hiba";
 
 /* %ld issues found */
-"browse_vc_audit_complete_message_issues_found_fmt" = "%ld issues found";
+"browse_vc_audit_complete_message_issues_found_fmt" = "%ld problémát talált";
 
 /* %ld New Issues Found! */
 "browse_vc_audit_complete_message_new_issues_found_fmt" = "%ld új probléma!";
@@ -3200,7 +3200,7 @@
 "audit_drill_down_no_excluded_items_subtitle" = "Ön nem zárt ki kifejezetten egyetlen tételt sem az ellenőrzésből. Kizárhat egy elemet, ha hosszan megérinti a > Audit > Audit this Item > Kapcsolja ki.";
 
 /* Unexclude */
-"audit_excluded_items_vc_action_unclude" = "Unexclude";
+"audit_excluded_items_vc_action_unclude" = "Ne zárja ki";
 
 /* Share Last Crash Diagnostics? */
 "crash_diagnostics_share_last_title" = "Megosztja aCrash diagnosztikát?";
@@ -3467,7 +3467,7 @@
 "browse_vc_action_keyboard_shortcut_find" = "Keresés";
 
 /* Custom Data */
-"properties_vc_header_custom_data" = "Custom Data";
+"properties_vc_header_custom_data" = "Egyéni adatok";
 
 /* Custom Data used by plugins and various other applications. */
 "properties_vc_footer_custom_data" = "Egyéni adatok, amelyeket a bővítmények és különböző más alkalmazások használnak.";
@@ -3479,7 +3479,7 @@
 "properties_vc_footer_basic" = "Az elem néhány egyszerű tulajdonsága és beállítása.";
 
 /* Group Notes */
-"properties_vc_header_group_notes" = "Group Notes";
+"properties_vc_header_group_notes" = "Csoport megjegyzései";
 
 /* Notes set on this group. */
 "properties_vc_footer_group_notes" = "A csoportra vonatkozó megjegyzések.";
@@ -3494,7 +3494,7 @@
 "item_properties_allow_autotype" = "AutoType engedélyezése";
 
 /* Default Auto Type Sequence */
-"item_properties_default_autotype_sequence" = "Default Auto Type Sequence";
+"item_properties_default_autotype_sequence" = "Alapértelmezett Auto Type sorozat";
 
 /* Last Top Visible Entry */
 "item_properties_last_top_visible_entry" = "Utolsó látható bejegyzés";
@@ -3551,7 +3551,7 @@
 "mac_welcome_to_autofill" = "Üdvözöljük a Strongbox AutoFill világában";
 
 /* Locate '%@' - Translator's note: The parameter is the filename of the database like 'my-database.kdbx' */
-"mac_autofill_locate_file_fmt" = "Locate '%@'";
+"mac_autofill_locate_file_fmt" = "Keresse meg a '%@'-t";
 
 /* Pro Feature */
 "mac_autofill_pro_feature_title" = "Pro funkció";
@@ -3560,13 +3560,13 @@
 "mac_autofill_pro_feature_upgrade-message" = "Az AutoFill csak a Strongbox Pro kiadásában érhető el. A frissítés a következőképpen történhet:\n\n1. Indítsa el a Strongboxot\n2. Kattintson a 'Strongbox' menüre\n3. Kattintson a 'Váltás a Pro-ra...' gombra.\n\nKöszönjük!";
 
 /* Passcode Fallback for %@ - Translators Note: This is a preference that says that the device passcode can be used as a fallback if Face ID or Touch ID fails - the parameter is either 'Touch ID' or 'Face ID' */
-"app_lock_allow_device_passcode_fallback_for_biometric_fmt" = "Passcode Fallback for %@";
+"app_lock_allow_device_passcode_fallback_for_biometric_fmt" = "Tartalék Passcode a következőhöz: %@";
 
 /* Backup %ld (%@) - Translators Note: 1st Param is a number/integer, second parameter is the modified date, so e.g. 'Backup 4 (11 Nov 2020)'*/
-"backups_backup_title_fmt" = "Backup %ld (%@)";
+"backups_backup_title_fmt" = "Biztonsági mentés %ld (%@)";
 
 /* %@ (Created %@) - Translators Note: 1st Param is the filesize, second parameter is the created date, so e.g. '11KB (10 Nov 2020)' */
-"backups_backup_subtitle_fmt" = "%@ (Created %@)";
+"backups_backup_subtitle_fmt" = "%@ (Létrehozva %@)";
 
 /* Enable Strongbox Extension */
 "mac_autofill_enable_extension_title" = "Strongbox kiterjesztés engedélyezése";
@@ -3665,7 +3665,7 @@
 "merge_view_merge_title_error" = "Probléma merült fel az adatbázis összevonása közben.";
 
 /* From %@ to %@ - Translators Note: 1st parameter is the old value that will change to the new value which is the second value e.g. 'From my-initial-username to my-changed-username' */
-"diff_drill_down_previous_new_fmt" = "From %@ to %@";
+"diff_drill_down_previous_new_fmt" = "%@-ról %@-ra";
 
 /* %@ <> %@ - Translators Note: 1st parameter is the first database value and the second parameter is the value of this item in the second database e.g. 'my-username-1 <> my-username-2' */
 "diff_drill_down_first_vs_second_fmt" = "%@ <> %@";
@@ -3800,7 +3800,7 @@
 "diff_drill_down_background_color_are_different" = "A háttérszínek eltérőek.";
 
 /* Override URL will change. */
-"diff_drill_down_override_url_will_change" = "Override URL will change.";
+"diff_drill_down_override_url_will_change" = "A felülbírálási URL megváltozik.";
 
 /* Override URLs are different. */
 "diff_drill_down_override_url_are_different" = "A felülbírálási URL-ek eltérőek.";
@@ -3836,7 +3836,7 @@
 "diff_drill_down_locations_are_different" = "A tételek helyei eltérőek.";
 
 /* In %@ and %@ */
-"diff_drill_down_diff_loc_different" = "In %@ and %@";
+"diff_drill_down_diff_loc_different" = "%@ és %@";
 
 /* Local Copy Created. */
 "safes_vc_created_local_copy_done" = "Helyi másolat létrehozva.";
@@ -3848,10 +3848,10 @@
 "generic_pro_feature_only_please_upgrade" = "Csak Pro funkció. Kérjük, frissítsen.";
 
 /* Merge Preview */
-"diff_nav_title_comparison_title" = "Merge Preview"; // "Comparison Results";
+"diff_nav_title_comparison_title" = "Összevonási előnézet"; // "Comparison Results";
 
 /* Compare Partially Supported */
-"diff_compare_partially_supported_title" = "Compare Partially Supported";
+"diff_compare_partially_supported_title" = "Hasonlítsa össze, csak részben támogatott";
 
 /* Because of the underlying database format(s) of these databases a full comparison is not possible. Pleaese use the KeePass 2 database format to allow detection of Moves, Deletions, and Group edits.\n\nYou can proceed with compare/merge but it may not be comprehensive. */
 "diff_compare_partially_supported_msg" = "Ezen adatbázisok mögöttes adatbázis-formátum(ok) miatt a teljes összehasonlítás nem lehetséges. Csak a KeePass 2 formátum teszi lehetővé az áthelyezések, törlések és csoportszerkesztések észlelését.";
@@ -3872,7 +3872,7 @@
 "conflict_resolution_sync_later_pro_only" = "Későbbi szinkronizálás (Pro)";
 
 /* Remote (%@) - Translators Note: First Param is the remote storage location e.g. Google Drive or Dropbox etc */
-"conflict_resolution_remote_fmt" = "Remote (%@)";
+"conflict_resolution_remote_fmt" = "Távoli (%@)";
 
 /* Force Overwrite? */
 "conflict_resolution_force_overwrite_title" = "Kényszerített felülírás?";
@@ -3920,7 +3920,7 @@
 "backups_backup_modified_title_fmt" = "Módosítva %@";
 
 /* %@ (Backup taken %@) - Translators Note: first parameter is the file size and the second parameter a friendly date string. e.g. "4KB (Backup taken Today at 3:29PM)" */
-"backups_backup_taken_at_subtitle_fmt" = "%@ (Backup taken %@)";
+"backups_backup_taken_at_subtitle_fmt" = "%@ (Mentés időpontja %@)";
 
 /* Sync Possibly Required */
 "compare_merge_sync_possibly_required_title" = "Szinkronizálásra szükség lehet";
@@ -3971,7 +3971,7 @@
 "database_properties_subtitle_conflict_resolution" = "Szinkronizálási ütközés esetén kérés nélkül egyesítse a rendszert.";
 
 /* Immediate Open Offline Offer */
-"database_properties_title_offline_behaviour" = "Immediate Open Offline Offer";
+"database_properties_title_offline_behaviour" = "Azonnali megnyitás felajánlása offline módban";
 
 /* Immediately offer to open offline if Strongbox detects you are offline. Alternatively, if you turn this off, Strongbox will try to connect which may take some time. */
 "database_properties_subtitle_offline_behaviour" = "Azonnal ajánlja fel, hogy offline módban nyissa meg, ha a Strongbox észleli, hogy Ön offline állapotban van. Máskülönben, ha ezt kikapcsolja, a Strongbox megpróbál csatlakozni, ami eltarthat egy ideig.";
@@ -4002,13 +4002,13 @@
 "storage_provider_status_authenticating" = "Hitelesítés...";
 
 /* Connecting... */
-"storage_provider_status_authenticating_connecting" = "Connecting...";
+"storage_provider_status_authenticating_connecting" = "Csatlakozás...";
 
 /* Listing... */
 "storage_provider_status_authenticating_listing" = "Listázás...";
 
 /* Creating... */
-"storage_provider_status_authenticating_creating" = "Creating...";
+"storage_provider_status_authenticating_creating" = "Létrehozás alatt...";
 
 /* Strongbox iCloud */
 "databases_vc_database_location_suffix_database_is_in_official_icloud_strongbox_folder" = "Strongbox iCloud";
@@ -4038,7 +4038,7 @@
 "third_party_storage_privacy_option_opt_in" = "Iratkozzon fel, csináljuk...";
 
 /* Sync Successful */
-"notification_sync_successful" = "Sync Successful";
+"notification_sync_successful" = "Sikeres szinkronizálás";
 
 /* Add SFTP Database... (Pro) */
 "mac_add_sftp_pro_only" = "SFTP adatbázis hozzáadása... (Pro)";
@@ -4098,7 +4098,7 @@
 "databases_toggle_autofill_quick_launch_context_menu" = "AutoFill gyorsindítása";
 
 /* Title Matches */
-"autofill_search_title_matches_section_header" = "Title Matches";
+"autofill_search_title_matches_section_header" = "Cím egyezés";
 
 /* URL Matches */
 "autofill_search_url_matches_section_header" = "URL egyezések";
@@ -4131,7 +4131,7 @@
 "app_privacy_shield_mode_pixellate" = "Pixelesítés";
 
 /* Blue Screen */
-"app_privacy_shield_mode_blue_screen" = "Blue Screen";
+"app_privacy_shield_mode_blue_screen" = "Kék képernyő";
 
 /* Privacy Shield View */
 "prefs_vc_privacy_shield_view" = "Adatvédelmi pajzs nézet";
@@ -4170,7 +4170,7 @@
 "sync_status_error_updating_try_again_action" = "Próbálja újra";
 
 /* Revert to Latest */
-"sync_status_error_updating_revert_action" = "Revert to Latest";
+"sync_status_error_updating_revert_action" = "Visszaállítás a legfrissebbre";
 
 /* Assistance Required */
 "sync_status_user_interaction_required_prompt_title" = "Segítséget kérek";
@@ -4179,7 +4179,7 @@
 "database_properties_title_offline_detected_behaviour" = "Internet nem elérhető viselkedés";
 
 /* Could Not Connect Behaviour */
-"database_properties_title_could_not_connect_behaviour" = "Could Not Connect Behaviour";
+"database_properties_title_could_not_connect_behaviour" = "Viselkedés, amikor a kapcsolat nem lehetséges";
 
 /* Open Online - NB: Action to open a database in Online mode, only applies to databases with 'Always Open Offline' set. */
 "safes_vc_slide_left_open_online_action" = "Offline megnyitás";
@@ -4239,7 +4239,7 @@
 "password_strength_category_overkill" = "Túlzás";
 
 /* >100m years - L10n note: this is a time span - Password will take this long to crack */
-"password_time_to_crack_more_than_100m_years" = ">100m years";
+"password_time_to_crack_more_than_100m_years" = ">100m év";
 
 /* %@m years - L10n note: this is a time span - Password will take X million years to crack, where X is the first parameter and is an integer (positive whole number). e.g. 45m years  - please try to abbreviate million for your locale */
 "password_time_to_crack_million_years_fmt" = "%@ millió év";
@@ -4260,7 +4260,7 @@
 "password_time_to_crack_hours_fmt" = "%@ óra";
 
 /* Adversary Guess Rate */
-"prefs_vc_password_strength_adversary_crack_rate" = "Adversary Guess Rate";
+"prefs_vc_password_strength_adversary_crack_rate" = "Megengedett próbálgatási sebesség";
 
 /* Thousand */
 "number_suffix_thousand" = "Ezer";
@@ -4272,13 +4272,13 @@
 "number_suffix_billion" = "Milliárd";
 
 /* Trillion */
-"number_suffix_trillion" = "Trillion";
+"number_suffix_trillion" = "Billió";
 
 /* Quadrillion */
-"number_suffix_quadrillion" = "Quadrillion";
+"number_suffix_quadrillion" = "Kvadrillió";
 
 /* Quintillion */
-"number_suffix_quintillion" = "Quintillion";
+"number_suffix_quintillion" = "Kvintillion";
 
 /* %@ / second - L10n:  First parameter is the number of guesses per second for an adversary. So e.g.  '1 billion / second' */
 "adversary_guess_rate_fmt" = "%@ / másodperc";
@@ -4296,7 +4296,7 @@
 "item_properties_search_visible_state" = "Látható a keresőben";
 
 /* Is Expanded - L10n Note: Indicates whether a folder is in an expanded or collapsed state in the MacOS/Windows/Desktop UI. Value will be Yes or No. */
-"item_properties_is_expanded" = "Is Expanded";
+"item_properties_is_expanded" = "Kibontva";
 
 /* Group Expanded state will change. */
 "diff_drill_down_is_expanded_will_change" = "A Csoport kibővített állapota megváltozik.";
@@ -4311,7 +4311,7 @@
 "convenience_unlock_preferences_title_fmt" = "%@ & PIN";
 
 /* Require After */
-"convenience_unlock_require_after_prefix" = "Require After";
+"convenience_unlock_require_after_prefix" = "Igény szerint";
 
 /* It's time now to re-enter your Master Password manually. You can change this reminder interval in Database Settings. */
 "composite_key_determiner_convenience_expired_message" = "Itt az ideje, hogy manuálisan újra megadja a fő jelszót. Ezt az emlékeztető intervallumot az Adatbázis-beállításokban módosíthatja.";
@@ -4535,7 +4535,7 @@
 "used_by_database_name_fmt" = "Használja a %@'";
 
 /* Used by '%@' and %@ more - L10n note: 1st param is a database name e.g. 'Mark's Database', 2nd param is a number/count of how many other databases are using this item */
-"used_by_database_name_and_n_more_fmt" = "Used by '%@' and %@ more";
+"used_by_database_name_and_n_more_fmt" = "'%@' és %@ másik felhasználó használja";
 
 /* SFTP Connection... */
 "generic_action_edit_sftp_connection_ellipsis" = "SFTP kapcsolat...";
@@ -4607,7 +4607,7 @@
 "safes_vc_wifi_transfer" = "Wi-Fi átvitel";
 
 /* Get Started Wizard */
-"safes_vc_quick_start" = "Get Started Wizard";
+"safes_vc_quick_start" = "Kezdjük el varázsló";
 
 /* New (Advanced) */
 "safes_vc_new_advanced" = "Új adatbázis";
@@ -4676,7 +4676,7 @@
 "mac_hardware_key_configured_and_connected_slot_n_fmt" = "Csatlakoztatott kulcshely %@ (konfigurálva)";
 
 /* Connected Key Slot %@ - L10n Guide: A hardware key is connected. The 1st parameter is slot number that is available for use. It will be '1' or '2'.  */
-"mac_hardware_key_connected_slot_n_fmt" = "Connected Key Slot %@";
+"mac_hardware_key_connected_slot_n_fmt" = "Csatlakoztatott kulcsnyílás %@";
 
 /* ⚠️ Selected Key (Disconnected) - L10n Guide: The user previously selected a hardware key from the dropdown, but it has now been disconnected. */
 "mac_hardware_key_selected_but_has_been_disconnected" = "⚠️ Kiválasztott kulcs (Leválasztva)";
@@ -4715,7 +4715,7 @@
 "safes_vc_import_1password_message" = "A Strongbox képes importálni az 1Pif fájlokat az 1Passwordből. Koppintson az OK gombra az exportált 1Pif fájl kiválasztásához.";
 
 /* Read Only Unavailable */
-"read_only_unavailable_title" = "Read Only Unavailable";
+"read_only_unavailable_title" = "Csak olvasható, nem elérhető";
 
 /* You currently have changes pending and so you cannot switch to Read Only mode. You must save or discard your current changes first. */
 "read_only_unavailable_pending_changes_message" = "Jelenleg függőben lévő módosítások vannak, ezért nem tud átváltani Csak olvasható módba. Először el kell mentenie vagy el kell vetnie az aktuális módosításokat.";
@@ -4841,7 +4841,7 @@
 "generic_action_show_qr_code" = "QR-kód megjelenítése";
 
 /* Show Large Text View */
-"generic_action_show_large_text_view" = "Show Large Text View";
+"generic_action_show_large_text_view" = "Nagyméretű szöveges nézet megjelenítése";
 
 /* Preview Attachment */
 "generic_action_preview_attachment" = "Melléklet előnézete";
@@ -4922,7 +4922,7 @@
 "remove_tag_from_items" = "Címke eltávolítása a tétel(ek)ről";
 
 /* All Issues */
-"audit_side_bar_nav_all_issues" = "All Issues";
+"audit_side_bar_nav_all_issues" = "Minden probléma";
 
 /* There are some blank characters (e.g. spaces, tabs) at the start or end of your password.\n\nShould Strongbox tidy up these extraneous characters? */
 "field_tidy_message_tidy_up_password" = "A jelszó elején vagy végén üres karakterek (pl. szóközök, tabulátorok) vannak.\n\nA Strongbox kiszűrje ezeket a felesleges karaktereket?";
@@ -5039,7 +5039,7 @@
 "generic_apply_changes" = "Módosítások alkalmazása";
 
 /* Pop Out Details - L10n Note: A user can "Pop Out" a Details window, which is usually embedded in a frame. Popping it out means it can be moved around independently of the main App window */
-"action_verb_popout_details_window" = "Pop Out Details";
+"action_verb_popout_details_window" = "Részletek";
 
 /* Float on Top - L10n Note: This is when a user can PIN a window, or make it float on top of other windows */
 "window_toggle_float_on_top" = "Legfelül maradjon";
@@ -5090,7 +5090,7 @@
 "upgrade_vc_feature_compare_and_merge" = "Összehasonlítás és összevonás";
 
 /* View & Combine Revisions */
-"upgrade_vc_feature_subtitle_compare_and_merge" = "View & Combine Revisions";
+"upgrade_vc_feature_subtitle_compare_and_merge" = "Változatok megtekintése és kombinálása";
 
 /* Offline Editing */
 "upgrade_vc_feature_offline_editing" = "Offline szerkesztés";
@@ -5285,7 +5285,7 @@
 "configure_tabs" = "Lapok konfigurálása";
 
 /* Sort Groups Separately */
-"sort_configuration_custom_sort_order_and_sort_groups_separately" = "Keep Groups on Top";
+"sort_configuration_custom_sort_order_and_sort_groups_separately" = "Legyenek a csoportokat felül";
 
 /* Oldest First */
 "generic_sort_order_chronologically_oldest_first" = "Legrégebbi elől";
@@ -5300,7 +5300,7 @@
 "generic_sort_order_reverse_alphabetically" = "Fordított abc sorrendben";
 
 /* %@ Items Sorted By - L10n note: This is the header of a menu, the menu contains the fields you can sort by. e.g. Title. So this will look like "120 Items Sorted By" for example. The first parameter is numeric, the number of items sorted below */
-"sort_menu_header_number_of_items_plural_sorted_by_fmt" = "%@ Items Sorted By";
+"sort_menu_header_number_of_items_plural_sorted_by_fmt" = "%@ tétel rendezve";
 
 /* 1 Item Sorted By - L10n note: This is the header of a menu, the menu contains the fields you can sort by. e.g. Title. So this will look like "1 Item Sorted By" for example */
 "sort_menu_header_singular_item_sorted_by" = "1 tétel rendezve";
@@ -5339,7 +5339,7 @@
 "browse_vc_view_start_typing_to_search" = "Kezdjen gépelni a keresés megkezdéséhez";
 
 /* Used until %@ - Header above a previously used password. The 1st parameter is a friend date string, e.g. 'Used until 2 February 2023 at 10:31' */
-"password_history_this_password_was_used_until_fmt" = "Used until %@";
+"password_history_this_password_was_used_until_fmt" = "Használva %@-ig";
 
 /* Previous Passwords - A heading above a list of previously used passwords */
 "password_history_previous_passwords" = "Előző jelszavak";
@@ -5656,10 +5656,10 @@
 "suggest_in_autofill_yesno_flag" = "Javasolja az AutoFill-ben";
 
 /* Toggle Suggest in AutoFill */
-"item_settings_action_verb_toggle_suggest_in_autofill" = "Toggle Suggest in AutoFill";
+"item_settings_action_verb_toggle_suggest_in_autofill" = "Javaslat bekapcsolása az AutoFill-ben";
 
 /* Toggle Audit this Item */
-"item_settings_action_verb_toggle_suggest_in_audit" = "Toggle Audit this Item";
+"item_settings_action_verb_toggle_suggest_in_audit" = "Audit bekapcsolása erre az elemre";
 
 /* for %@ hours - L10n note: the first parameter is numeric, e.g. "for 4 hours", which can appear in the UI as a suffix, so something like "Remember this for 12 hours" */
 "generic_for_n_hours_suffix_fmt" = "%@ órára";
