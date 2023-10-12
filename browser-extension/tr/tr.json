@@ -1,106 +1,106 @@
 {
   "general": {
-    "app-name": "Strongbox AutoFill",
+    "app-name": "Strongbox Otomatik Doldur",
     "company-name": "Phoebe Code Limited",
-    "loading": "Loading...",
-    "searching": "Searching...",
-    "cancel": "Cancel",
-    "create": "Create"
+    "loading": "Yükleniyor...",
+    "searching": "Aranıyor...",
+    "cancel": "İptal",
+    "create": "Oluştur"
   },
   "inline-mini-field-menu": {
-    "no-matching-entries-found": "No Matching Entries Found",
-    "lock": "Lock",
-    "unlock": "Unlock {{database}}",
-    "create-new": "Create New in Strongbox",
-    "no-autofill-enabled-databases": "No AutoFill Enabled Databases"
+    "no-matching-entries-found": "Eşleşen Girdi Bulunmadı",
+    "lock": "Kilitle",
+    "unlock": "{{database}} kilidini aç",
+    "create-new": "Strongbox'ta Yeni Oluştur",
+    "no-autofill-enabled-databases": "Otomatik Doldurma Etkin Veritabanı Yok"
   },
   "hide-inline-menu": {
-    "hide-for-a-while": "Hide for a while",
-    "hide-on-page": "Hide on page",
-    "hide-on-domain": "Hide on domain"
+    "hide-for-a-while": "Bir süreliğine sakla",
+    "hide-on-page": "Sayfada gizle",
+    "hide-on-domain": "Etki alanında gizle"
   },
   "inline-menu-credential-item": {
-    "copy-username": "Copy Username",
-    "copy-password": "Copy Password"
+    "copy-username": "Kullanıcı Adını Kopyala",
+    "copy-password": "Şifreyi Kopyala"
   },
   "create-new-entry-dialog": {
-    "title": "Create New Entry",
-    "credential-title": "Title",
-    "username": "Username",
-    "password": "Password",
-    "database": "Database",
-    "group": "Group",
-    "save-in": "Save in",
-    "no-autoFill-databases-available": "No AutoFill Databases Available",
-    "please-unlock-your-database": "Please Unlock Your Database...",
-    "could-not-load-databases": "Could not load databases!",
-    "could-not-load-defaults": "Could not load defaults!",
-    "could-not-refresh-groups": "Could not refresh groups!",
-    "could-not-generate-password": "Could Not Generate Password",
-    "could-not-unlock-database": "Could not Unlock Database",
-    "could-not-refresh-status": "Could not refresh status",
-    "could-not-connect-to-strongbox": "Could not Connect to Strongbox",
-    "error-getting-defaults": "Error getting defaults",
-    "there-is-not-a-valid-new-entry": "There is not a valid new entry.",
-    "could-not-create-new-entry": "Could not create new entry. error=({{error}})"
+    "title": "Yeni Girdi Oluştur",
+    "credential-title": "Başlık",
+    "username": "Kullanıcı Adı",
+    "password": "Şifre",
+    "database": "Veritabanı",
+    "group": "Grup",
+    "save-in": "Kaydet",
+    "no-autoFill-databases-available": "Otomatik Doldurma Veritabanları Mevcut Değil",
+    "please-unlock-your-database": "Lütfen Veritabanınızın Kilidini Açın...",
+    "could-not-load-databases": "Veritabanları yüklenemedi!",
+    "could-not-load-defaults": "Varsayılanlar yüklenemedi!",
+    "could-not-refresh-groups": "Gruplar yenilenemedi!",
+    "could-not-generate-password": "Parola Oluşturulamadı",
+    "could-not-unlock-database": "Veritabanı Kilidi Açılamadı",
+    "could-not-refresh-status": "Durum yenilenemedi",
+    "could-not-connect-to-strongbox": "Strongbox'a Bağlanılamadı",
+    "error-getting-defaults": "Varsayılanlar alınırken hata oluştu",
+    "there-is-not-a-valid-new-entry": "Geçerli yeni bir girdi yok.",
+    "could-not-create-new-entry": "Yeni girdi oluşturulamadı. Hata=({{error}})"
   },
   "notification-toast": {
-    "successfully-created-new-entry": "Successfully Created New Entry",
-    "username-copied": "Username Copied",
-    "password-copied": "Password Copied",
-    "totp-copied": "TOTP Copied"
+    "successfully-created-new-entry": "Yeni Girdi Başarıyla Oluşturuldu",
+    "username-copied": "Kullanıcı Adı Kopyalandı",
+    "password-copied": "Şifre Kopyalandı",
+    "totp-copied": "TOTP Kopyalandı"
   },
   "current-tab-credentials": {
-    "title": "Matches"
+    "title": "Eşleşmeler"
   },
   "database-list-item": {
-    "lock": "Lock",
-    "locked": "Locked",
-    "unlock": "Unlock",
-    "unlocked": "Unlocked",
-    "autofill-not-enabled": "AutoFill Not Enabled"
+    "lock": "Kilitle",
+    "locked": "Kilitli",
+    "unlock": "Kilidi aç",
+    "unlocked": "Kilit açıldı",
+    "autofill-not-enabled": "Otomatik Doldurma Etkin Değil"
   },
   "databases-list-popup-component": {
-    "title": "Databases",
-    "no-databases": "No Databases",
-    "no-databases-message": "You don't have any databases yet, why not add one to Strongbox?"
+    "title": "Veritabanları",
+    "no-databases": "Veritabanı Yok",
+    "no-databases-message": "Henüz herhangi bir veritabanınız yok, neden Strongbox'a bir tane eklemiyorsunuz?"
   },
   "no-results-found-popup-component": {
-    "title": "No Matches",
-    "message": "Strongbox could not find any matching entries for this website"
+    "title": "Eşleşme Yok",
+    "message": "Strongbox bu web sitesi için eşleşen herhangi bir girdi bulamadı"
   },
   "not-running-popup-component": {
-    "title": "Strongbox Unavailable",
-    "launch-strongbox": "Launch Strongbox",
+    "title": "Strongbox Kullanılamıyor",
+    "launch-strongbox": "Strongbox'ı Başlat",
     "troubleshooting": {
-      "title": "Troubleshooting",
-      "message1": "1. Make sure Strongbox is installed and running.",
-      "message2": "2. Make sure you are a Pro user, AutoFill is a paid Pro feature.",
-      "message3": "3. Check the setting below is enabled:",
-      "settings-path": "Settings > Advanced > Chrome & Firefox AutoFill Extension"
+      "title": "Sorun Giderme",
+      "message1": "1. Strongbox'ın kurulu ve çalışır durumda olduğundan emin olun.",
+      "message2": "2. Pro kullanıcı olduğunuzdan emin olun, Otomatik Doldurma ücretli bir Pro özelliğidir.",
+      "message3": "3. Aşağıdaki ayarın etkin olup olmadığını kontrol edin:",
+      "settings-path": "Ayarlar > Gelişmiş > Chrome ve Firefox Otomatik Doldurma Uzantısı"
     },
-    "message": "Unfortunately Strongbox isn't yet available on this platform."
+    "message": "Ne yazık ki Strongbox henüz bu platformda mevcut değil."
   },
   "search-bar": {
-    "title": "Search..."
+    "title": "Ara..."
   },
   "settings-popup-component": {
-    "title": "Settings",
-    "title-tab1": "App",
-    "title-tab2": "Style",
-    "show-inline-menus": "Show Inline Menus",
-    "show-match-count-badge-on-popup-icon": "Show Match Count Badge on Popup Icon",
-    "fill-on-load-if-only-single-match-found": "Fill on Load if Only Single Match Found",
-    "always-fill-on-load-with-first-match": "Always Fill on Load with First Match",
-    "do-not-fill-on-load-on-this-domain": "Do Not Fill on Load on this Domain",
-    "do-not-show-inline-menus-on-this-domain": "Do Not Show Inline Menus on this Domain",
-    "do-not-show-inline-menus-on-this-page": "Do Not Show Inline Menus on this Page",
-    "appearance-dark": "Dark",
-    "appearance-light": "Light",
-    "appearance-system": "System",
-    "style-small": "Small",
-    "style-medium": "Medium",
-    "style-large": "Large",
+    "title": "Ayarlar",
+    "title-tab1": "Uygulama",
+    "title-tab2": "Stil",
+    "show-inline-menus": "Satır İçi Menüleri Göster",
+    "show-match-count-badge-on-popup-icon": "Açılır Pencere Simgesinde Sayıyı Göster",
+    "fill-on-load-if-only-single-match-found": "Yalnızca Tek Eşleşme Bulunduğunda Alanı Doldur",
+    "always-fill-on-load-with-first-match": "Her Zaman İlk Eşleşme ile Doldur",
+    "do-not-fill-on-load-on-this-domain": "Bu Alan Adında Otomatik Doldurma",
+    "do-not-show-inline-menus-on-this-domain": "Bu Etki Alanında Satır İçi Menüleri Gösterme",
+    "do-not-show-inline-menus-on-this-page": "Bu Sayfada Satır İçi Menüleri Gösterme",
+    "appearance-dark": "Karanlık",
+    "appearance-light": "Aydınlık",
+    "appearance-system": "Sistem",
+    "style-small": "Küçük",
+    "style-medium": "Orta",
+    "style-large": "Büyük",
     "style-xl": "XL"
   }
 }

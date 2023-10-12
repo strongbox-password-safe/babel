@@ -1,106 +1,106 @@
 {
   "general": {
-    "app-name": "Strongbox AutoFill",
+    "app-name": "Strongbox 自动填充",
     "company-name": "Phoebe Code Limited",
-    "loading": "Loading...",
-    "searching": "Searching...",
-    "cancel": "Cancel",
-    "create": "Create"
+    "loading": "加载中...",
+    "searching": "搜索中...",
+    "cancel": "取消",
+    "create": "创建"
   },
   "inline-mini-field-menu": {
-    "no-matching-entries-found": "No Matching Entries Found",
-    "lock": "Lock",
-    "unlock": "Unlock {{database}}",
-    "create-new": "Create New in Strongbox",
-    "no-autofill-enabled-databases": "No AutoFill Enabled Databases"
+    "no-matching-entries-found": "未找到匹配条目",
+    "lock": "锁定",
+    "unlock": "解锁 {{database}}",
+    "create-new": "在 Strongbox 中新建",
+    "no-autofill-enabled-databases": "没有已启用自动填充的数据库"
   },
   "hide-inline-menu": {
-    "hide-for-a-while": "Hide for a while",
-    "hide-on-page": "Hide on page",
-    "hide-on-domain": "Hide on domain"
+    "hide-for-a-while": "暂时隐藏",
+    "hide-on-page": "在页面上隐藏",
+    "hide-on-domain": "在域名上隐藏"
   },
   "inline-menu-credential-item": {
-    "copy-username": "Copy Username",
-    "copy-password": "Copy Password"
+    "copy-username": "复制用户名",
+    "copy-password": "复制密码"
   },
   "create-new-entry-dialog": {
-    "title": "Create New Entry",
-    "credential-title": "Title",
-    "username": "Username",
-    "password": "Password",
-    "database": "Database",
-    "group": "Group",
-    "save-in": "Save in",
-    "no-autoFill-databases-available": "No AutoFill Databases Available",
-    "please-unlock-your-database": "Please Unlock Your Database...",
-    "could-not-load-databases": "Could not load databases!",
-    "could-not-load-defaults": "Could not load defaults!",
-    "could-not-refresh-groups": "Could not refresh groups!",
-    "could-not-generate-password": "Could Not Generate Password",
-    "could-not-unlock-database": "Could not Unlock Database",
-    "could-not-refresh-status": "Could not refresh status",
-    "could-not-connect-to-strongbox": "Could not Connect to Strongbox",
-    "error-getting-defaults": "Error getting defaults",
-    "there-is-not-a-valid-new-entry": "There is not a valid new entry.",
-    "could-not-create-new-entry": "Could not create new entry. error=({{error}})"
+    "title": "创建新条目",
+    "credential-title": "标题",
+    "username": "用户名",
+    "password": "密码",
+    "database": "数据库",
+    "group": "群组",
+    "save-in": "保存到",
+    "no-autoFill-databases-available": "没有可用的自动填充数据库",
+    "please-unlock-your-database": "请解锁您的数据库...",
+    "could-not-load-databases": "无法加载数据库！",
+    "could-not-load-defaults": "无法加载默认设置！",
+    "could-not-refresh-groups": "无法刷新群组！",
+    "could-not-generate-password": "无法生成密码",
+    "could-not-unlock-database": "无法解锁数据库",
+    "could-not-refresh-status": "无法刷新状态",
+    "could-not-connect-to-strongbox": "无法连接到 Strongbox",
+    "error-getting-defaults": "获取默认值出错",
+    "there-is-not-a-valid-new-entry": "没有有效的新条目。",
+    "could-not-create-new-entry": "无法创建新条目。error=({{error}})"
   },
   "notification-toast": {
-    "successfully-created-new-entry": "Successfully Created New Entry",
-    "username-copied": "Username Copied",
-    "password-copied": "Password Copied",
-    "totp-copied": "TOTP Copied"
+    "successfully-created-new-entry": "已成功创建新条目",
+    "username-copied": "用户名已复制",
+    "password-copied": "密码已复制",
+    "totp-copied": "TOTP 已复制"
   },
   "current-tab-credentials": {
-    "title": "Matches"
+    "title": "匹配"
   },
   "database-list-item": {
-    "lock": "Lock",
-    "locked": "Locked",
-    "unlock": "Unlock",
-    "unlocked": "Unlocked",
-    "autofill-not-enabled": "AutoFill Not Enabled"
+    "lock": "锁定",
+    "locked": "已锁定",
+    "unlock": "解锁",
+    "unlocked": "已解锁",
+    "autofill-not-enabled": "自动填充未启用"
   },
   "databases-list-popup-component": {
-    "title": "Databases",
-    "no-databases": "No Databases",
-    "no-databases-message": "You don't have any databases yet, why not add one to Strongbox?"
+    "title": "数据库",
+    "no-databases": "无数据库",
+    "no-databases-message": "您还没有任何数据库，现在添加一个到 Strongbox？"
   },
   "no-results-found-popup-component": {
-    "title": "No Matches",
-    "message": "Strongbox could not find any matching entries for this website"
+    "title": "无匹配",
+    "message": "Strongbox 无法找到与该网站匹配的条目"
   },
   "not-running-popup-component": {
-    "title": "Strongbox Unavailable",
-    "launch-strongbox": "Launch Strongbox",
+    "title": "Strongbox 无法使用",
+    "launch-strongbox": "启动 Strongbox",
     "troubleshooting": {
-      "title": "Troubleshooting",
-      "message1": "1. Make sure Strongbox is installed and running.",
-      "message2": "2. Make sure you are a Pro user, AutoFill is a paid Pro feature.",
-      "message3": "3. Check the setting below is enabled:",
-      "settings-path": "Settings > Advanced > Chrome & Firefox AutoFill Extension"
+      "title": "故障排除",
+      "message1": "1. 确保 Strongbox 已安装并运行。",
+      "message2": "2. 确保您是专业版用户，自动填充功能仅在专业版中可用。",
+      "message3": "3. 确保以下设置已启用：",
+      "settings-path": "设置 > 高级 > Chrome 浏览器和火狐浏览器自动填充扩展"
     },
-    "message": "Unfortunately Strongbox isn't yet available on this platform."
+    "message": "很抱歉，Strongbox 尚未支持此平台。"
   },
   "search-bar": {
-    "title": "Search..."
+    "title": "搜索中..."
   },
   "settings-popup-component": {
-    "title": "Settings",
-    "title-tab1": "App",
-    "title-tab2": "Style",
-    "show-inline-menus": "Show Inline Menus",
-    "show-match-count-badge-on-popup-icon": "Show Match Count Badge on Popup Icon",
-    "fill-on-load-if-only-single-match-found": "Fill on Load if Only Single Match Found",
-    "always-fill-on-load-with-first-match": "Always Fill on Load with First Match",
-    "do-not-fill-on-load-on-this-domain": "Do Not Fill on Load on this Domain",
-    "do-not-show-inline-menus-on-this-domain": "Do Not Show Inline Menus on this Domain",
-    "do-not-show-inline-menus-on-this-page": "Do Not Show Inline Menus on this Page",
-    "appearance-dark": "Dark",
-    "appearance-light": "Light",
-    "appearance-system": "System",
-    "style-small": "Small",
-    "style-medium": "Medium",
-    "style-large": "Large",
-    "style-xl": "XL"
+    "title": "设置",
+    "title-tab1": "应用程序",
+    "title-tab2": "样式",
+    "show-inline-menus": "显示内联菜单",
+    "show-match-count-badge-on-popup-icon": "在弹出图标上显示匹配项计数",
+    "fill-on-load-if-only-single-match-found": "如果只找到一个匹配项，则立即填充",
+    "always-fill-on-load-with-first-match": "始终使用首个匹配项进行填充",
+    "do-not-fill-on-load-on-this-domain": "此域名不使用立即填充",
+    "do-not-show-inline-menus-on-this-domain": "不在此域名上显示内联菜单",
+    "do-not-show-inline-menus-on-this-page": "不在此页面上显示内联菜单",
+    "appearance-dark": "深色",
+    "appearance-light": "浅色",
+    "appearance-system": "跟随系统",
+    "style-small": "较小",
+    "style-medium": "中等",
+    "style-large": "较大",
+    "style-xl": "特大"
   }
 }
