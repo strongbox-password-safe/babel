@@ -1,106 +1,106 @@
 {
   "general": {
-    "app-name": "Strongbox AutoFill",
+    "app-name": "Strongbox autom. Ausfüllen",
     "company-name": "Phoebe Code Limited",
-    "loading": "Loading...",
-    "searching": "Searching...",
-    "cancel": "Cancel",
-    "create": "Create"
+    "loading": "Wird geladen …",
+    "searching": "Suche wird ausgeführt …",
+    "cancel": "Abbrechen",
+    "create": "Erstellen"
   },
   "inline-mini-field-menu": {
-    "no-matching-entries-found": "No Matching Entries Found",
-    "lock": "Lock",
-    "unlock": "Unlock {{database}}",
-    "create-new": "Create New in Strongbox",
-    "no-autofill-enabled-databases": "No AutoFill Enabled Databases"
+    "no-matching-entries-found": "Keine passenden Einträge gefunden",
+    "lock": "Sperren",
+    "unlock": "{{database}} entsperren",
+    "create-new": "Neu in Strongbox erstellen",
+    "no-autofill-enabled-databases": "Keine Datenbanken für autom. Ausfüllen aktiviert"
   },
   "hide-inline-menu": {
-    "hide-for-a-while": "Hide for a while",
-    "hide-on-page": "Hide on page",
-    "hide-on-domain": "Hide on domain"
+    "hide-for-a-while": "Für eine Weile ausblenden",
+    "hide-on-page": "Auf Seite ausblenden",
+    "hide-on-domain": "Auf Domain ausblenden"
   },
   "inline-menu-credential-item": {
-    "copy-username": "Copy Username",
-    "copy-password": "Copy Password"
+    "copy-username": "Benutzername kopieren",
+    "copy-password": "Passwort kopieren"
   },
   "create-new-entry-dialog": {
-    "title": "Create New Entry",
-    "credential-title": "Title",
-    "username": "Username",
-    "password": "Password",
-    "database": "Database",
-    "group": "Group",
-    "save-in": "Save in",
-    "no-autoFill-databases-available": "No AutoFill Databases Available",
-    "please-unlock-your-database": "Please Unlock Your Database...",
-    "could-not-load-databases": "Could not load databases!",
-    "could-not-load-defaults": "Could not load defaults!",
-    "could-not-refresh-groups": "Could not refresh groups!",
-    "could-not-generate-password": "Could Not Generate Password",
-    "could-not-unlock-database": "Could not Unlock Database",
-    "could-not-refresh-status": "Could not refresh status",
-    "could-not-connect-to-strongbox": "Could not Connect to Strongbox",
-    "error-getting-defaults": "Error getting defaults",
-    "there-is-not-a-valid-new-entry": "There is not a valid new entry.",
-    "could-not-create-new-entry": "Could not create new entry. error=({{error}})"
+    "title": "Neuen Eintrag erstellen",
+    "credential-title": "Titel",
+    "username": "Benutzername",
+    "password": "Passwort",
+    "database": "Datenbank",
+    "group": "Gruppe",
+    "save-in": "Speichern in",
+    "no-autoFill-databases-available": "Keine Datenbanken zum autom Ausfüllen verfügbar",
+    "please-unlock-your-database": "Bitte entsperren Sie Ihre Datenbank …",
+    "could-not-load-databases": "Datenbank konnte nicht geladen werden!",
+    "could-not-load-defaults": "Standardwerte konnte nicht geladen werden!",
+    "could-not-refresh-groups": "Gruppen konnte nicht aktualisiert werden!",
+    "could-not-generate-password": "Passwort konnte nicht erzeugt werden",
+    "could-not-unlock-database": "Datenbank konnte nicht entsperrt werden",
+    "could-not-refresh-status": "Status konnte nicht aktualisiert werden",
+    "could-not-connect-to-strongbox": "Verbindung zur Strongbox nicht möglich",
+    "error-getting-defaults": "Fehler beim Abrufen der Standardwerte",
+    "there-is-not-a-valid-new-entry": "Es gibt keinen gültigen neuen Eintrag.",
+    "could-not-create-new-entry": "Neuer Eintrag konnte nicht erstellt werden. Fehler=({{error}})"
   },
   "notification-toast": {
-    "successfully-created-new-entry": "Successfully Created New Entry",
-    "username-copied": "Username Copied",
-    "password-copied": "Password Copied",
-    "totp-copied": "TOTP Copied"
+    "successfully-created-new-entry": "Neuen Eintrag erfolgreich erstellt",
+    "username-copied": "Benutzername kopiert",
+    "password-copied": "Passwort kopiert",
+    "totp-copied": "TOTP kopiert"
   },
   "current-tab-credentials": {
-    "title": "Matches"
+    "title": "Übereinstimmungen"
   },
   "database-list-item": {
-    "lock": "Lock",
-    "locked": "Locked",
-    "unlock": "Unlock",
-    "unlocked": "Unlocked",
-    "autofill-not-enabled": "AutoFill Not Enabled"
+    "lock": "Sperren",
+    "locked": "Gesperrt",
+    "unlock": "Entsperren",
+    "unlocked": "Entsperrt",
+    "autofill-not-enabled": "Automatisches Ausfüllen nicht aktiviert"
   },
   "databases-list-popup-component": {
-    "title": "Databases",
-    "no-databases": "No Databases",
-    "no-databases-message": "You don't have any databases yet, why not add one to Strongbox?"
+    "title": "Datenbanken",
+    "no-databases": "Keine Datenbanken",
+    "no-databases-message": "Es wurde noch keine Datenbank erstellt. Fügen Sie jetzt eine zu Strongbox hinzu."
   },
   "no-results-found-popup-component": {
-    "title": "No Matches",
-    "message": "Strongbox could not find any matching entries for this website"
+    "title": "Keine Übereinstimmungen",
+    "message": "Strongbox konnte keine passenden Einträge für diese Website finden"
   },
   "not-running-popup-component": {
-    "title": "Strongbox Unavailable",
-    "launch-strongbox": "Launch Strongbox",
+    "title": "Strongbox nicht verfügbar",
+    "launch-strongbox": "Strongbox starten",
     "troubleshooting": {
-      "title": "Troubleshooting",
-      "message1": "1. Make sure Strongbox is installed and running.",
-      "message2": "2. Make sure you are a Pro user, AutoFill is a paid Pro feature.",
-      "message3": "3. Check the setting below is enabled:",
-      "settings-path": "Settings > Advanced > Chrome & Firefox AutoFill Extension"
+      "title": "Problembehandlung",
+      "message1": "1. Stellen Sie sicher, dass Strongbox installiert ist und ausgeführt wird.",
+      "message2": "2. Stellen Sie sicher, dass Sie ein Pro-Benutzer sind, denn das automatische Ausfüllen ist eine kostenpflichtige Pro-Funktion.",
+      "message3": "3. Prüfen Sie, ob die folgende Einstellung aktiviert ist:",
+      "settings-path": "Einstellungen ➜ Erweitert ➜ Chrome und Firefox AutoFill-Erweiterung"
     },
-    "message": "Unfortunately Strongbox isn't yet available on this platform."
+    "message": "Leider ist Strongbox auf dieser Plattform noch nicht verfügbar."
   },
   "search-bar": {
-    "title": "Search..."
+    "title": "Suchen …"
   },
   "settings-popup-component": {
-    "title": "Settings",
+    "title": "Einstellungen",
     "title-tab1": "App",
-    "title-tab2": "Style",
-    "show-inline-menus": "Show Inline Menus",
-    "show-match-count-badge-on-popup-icon": "Show Match Count Badge on Popup Icon",
-    "fill-on-load-if-only-single-match-found": "Fill on Load if Only Single Match Found",
-    "always-fill-on-load-with-first-match": "Always Fill on Load with First Match",
-    "do-not-fill-on-load-on-this-domain": "Do Not Fill on Load on this Domain",
-    "do-not-show-inline-menus-on-this-domain": "Do Not Show Inline Menus on this Domain",
-    "do-not-show-inline-menus-on-this-page": "Do Not Show Inline Menus on this Page",
-    "appearance-dark": "Dark",
-    "appearance-light": "Light",
+    "title-tab2": "Stil",
+    "show-inline-menus": "Inline-Menüs anzeigen",
+    "show-match-count-badge-on-popup-icon": "Anzahl der Treffer auf dem Popup-Symbol anzeigen",
+    "fill-on-load-if-only-single-match-found": "Beim Laden ausfüllen, wenn nur eine Übereinstimmung gefunden wurde",
+    "always-fill-on-load-with-first-match": "Beim Laden immer mit der ersten Übereinstimmung ausfüllen",
+    "do-not-fill-on-load-on-this-domain": "Beim Laden dieser Domain nicht ausfüllen",
+    "do-not-show-inline-menus-on-this-domain": "Inline-Menüs für diese Domain nicht anzeigen",
+    "do-not-show-inline-menus-on-this-page": "Inline-Menüs auf dieser Seite nicht anzeigen",
+    "appearance-dark": "Dunkel",
+    "appearance-light": "Hell",
     "appearance-system": "System",
-    "style-small": "Small",
-    "style-medium": "Medium",
-    "style-large": "Large",
-    "style-xl": "XL"
+    "style-small": "Klein",
+    "style-medium": "Mittel",
+    "style-large": "Groß",
+    "style-xl": "Extra groß"
   }
 }
