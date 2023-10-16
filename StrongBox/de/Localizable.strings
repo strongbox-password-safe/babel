@@ -2574,7 +2574,7 @@
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "Möchten Sie das benutzerdefinierte Feld „%@” wirklich entfernen?";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Möchten Sie das benutzerdefinierte Feld „%@” wirklich entfernen?";
 
 /* Add Custom Field */
 "mac_node_details_add_custom_field" = "Benutzerdefiniertes Feld hinzufügen";
@@ -2993,7 +2993,7 @@
 "audit_quick_summary_very_brief_password_is_too_short" = "Kurz";
 
 /* Pwned */
-"audit_quick_summary_very_brief_password_is_pwned" = "Pwned";
+"audit_quick_summary_very_brief_password_is_pwned" = "Gehackt";
 
 /* Password is too short. */
 "audit_quick_summary_password_is_too_short" = "Das Passwort ist zu kurz";
@@ -3080,7 +3080,7 @@
 "audit_hibp_online_check_interval" = "Online-Check-Intervall auswählen";
 
 /* Have I Been Pwned? (Pro Edition Only) */
-"audit_hibp_pro_only_title" = "Have I Been Pwned? (nur Pro-Version)";
+"audit_hibp_pro_only_title" = "Have I Been Pwned? (Wurde ich gehackt?) (nur Pro-Version)";
 
 /* Auto Fetch FavIcon? */
 "item_details_prompt_auto_fetch_favicon_title" = "FavIcon automatisch abrufen?";
@@ -3152,7 +3152,7 @@
 "audit_summary_flag_very_common_password" = "Dieses Passwort ist weit verbreitet";
 
 /* This password is pwned (HIBP) */
-"audit_summary_flag_pwned" = "Dieses Passwort ist pwned (HIBP)";
+"audit_summary_flag_pwned" = "Dieses Passwort wurde gestohlen (HIBP) (Wurde ich gehackt?)";
 
 /* This password is too short */
 "audit_summary_flag_password_is_too_short" = "Dieses Passwort ist zu kurz";
@@ -3167,7 +3167,7 @@
 "audit_drill_down_audit_this_item_preference_title" = "Diesen Eintrag prüfen";
 
 /* Check if this password is Pwned (HIBP) */
-"audit_drill_down_action_check_hibp" = "Prüfen, ob dieses Passwort pwned (HIBP) ist";
+"audit_drill_down_action_check_hibp" = "Prüfen, ob dieses Passwort gestohlen (HIBP/Wurde ich gehackt?) wurde";
 
 /* This item is excluded from Audits */
 "audit_status_item_is_exluded" = "Dieser Eintrag ist von Sicherheitsprüfungen ausgeschlossen";
@@ -3179,13 +3179,13 @@
 "audit_manual_pwn_check_result_title" = "Manuelles HIBP-Ergebnis";
 
 /* Your password has NOT been pwned as is likely secure. */
-"audit_manual_pwn_check_result_not_pwned" = "Ihr Passwort wurde NICHT pwned und ist wahrscheinlich sicher.";
+"audit_manual_pwn_check_result_not_pwned" = "Ihr Passwort wurde NICHT gestohlen und ist wahrscheinlich sicher.";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Manual HIBP Result";
+"audit_manual_pwn_check_result_title" = "Manuelles HIBP-(Wurde ich gehackt?)-Ergebnis";
 
 /* This password is pwned and is vulnerable */
-"audit_manual_pwn_check_result_pwned" = "Dieses Passwort ist pwned und verwundbar";
+"audit_manual_pwn_check_result_pwned" = "Dieses Passwort ist gestohlen und angreifbar";
 
 /* Database Audit Preferences */
 "audit_drill_down_go_to_database_audit_preferences" = "Datenbank-Prüfeinstellungen";
@@ -3377,7 +3377,7 @@
 "sftp_path_are_you_sure" = "Sind Sie sicher, dass der Pfad korrekt ist? Es sollte sich um einen Pfad zu einem übergeordneten Ordner handeln. Nicht zur Datenbankdatei.";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Are you sure the path is correct? It should be a path to a parent folder. Not the database file.";
+"sftp_path_are_you_sure" = "Sind Sie sicher, dass der Pfad korrekt ist? Es sollte ein Pfad zu einem übergeordneten Ordner, nicht die Datenbankdatei selbst, sein.";
 
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "Pfad könnte ungültig sein";
@@ -3653,7 +3653,7 @@
 "merge_view_are_you_sure" = "Möchten Sie die zweite Datenbank wirklich mit der ersten zusammenführen?";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Are you sure you want to merge the second database into the first?";
+"merge_view_are_you_sure" = "Möchten Sie die zweite Datenbank wirklich mit der ersten zusammenführen?";
 
 /* Merge Successful */
 "merge_view_merge_title_success" = "Zusammenführen erfolgreich";
@@ -5764,10 +5764,10 @@
 "new_entry_defaults" = "Standardwerte für neue Einträge";
 
 /* Create New Entry */
-"autofill_create_new_entry_title" = "Create New Entry";
+"autofill_create_new_entry_title" = "Neuen Eintrag erstellen";
 
 /* We'll create a new entry for this website. Choose a title and a group where you'd like to save it. */
-"autofill_create_new_entry_message" = "We'll create a new entry for this website. Choose a title and a group where you'd like to save it.";
+"autofill_create_new_entry_message" = "Es wird ein neuer Eintrag für diesen Website erstellt. Wählen Sie einen Titel und eine Gruppe, in der Sie ihn speichern möchten.";
 
 /* Your new entry was successfully created and saved to your database but Strongbox could not initiate a reload.\n\nYou should try to reload your database now. */
-"entry_saved_but_could_not_reload" = "Your new entry was successfully created and saved to your database but Strongbox could not initiate a reload.\n\nYou should try to reload your database now.";
+"entry_saved_but_could_not_reload" = "Ihr neuer Eintrag wurde erfolgreich erstellt und in Ihrer Datenbank gespeichert, aber Strongbox konnte das Neuladen nicht anstoßen.\n\nSie sollten jetzt versuchen, Ihre Datenbank neu zu laden.";
