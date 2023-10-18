@@ -1,39 +1,39 @@
 {
-  "autodetected-language": "Auto-Detected ({{language}})",
+  "autodetected-language": "Automatikus felismerés ({{language}})",
   "general": {
-    "app-name": "Strongbox AutoFill",
+    "app-name": "Strongbox automatikus kitöltő",
     "company-name": "Phoebe Code Limited",
-    "loading": "Loading...",
-    "searching": "Searching...",
-    "cancel": "Cancel",
-    "create": "Create",
-    "add": "Add",
-    "search": "Search"
+    "loading": "Betöltés...",
+    "searching": "Keresés...",
+    "cancel": "Mégse",
+    "create": "Létrehozás",
+    "add": "Hozzáad",
+    "search": "Keresés"
   },
   "inline-mini-field-menu": {
-    "no-matching-entries-found": "No Matching Entries Found",
-    "lock": "Lock",
-    "unlock": "Unlock {{database}}",
-    "create-new": "Save in Strongbox",
-    "no-autofill-enabled-databases": "No AutoFill Enabled Databases"
+    "no-matching-entries-found": "Nincsenek megfelelő bejegyzések",
+    "lock": "Zárol",
+    "unlock": "{{database}} adatbázis feloldása",
+    "create-new": "Mentés a Strongbox-ba",
+    "no-autofill-enabled-databases": "Nincs automatikus kitöltést támogató adatbázis"
   },
   "hide-inline-menu": {
-    "hide-for-a-while": "Hide for a while",
-    "hide-on-page": "Hide on page",
+    "hide-for-a-while": "Ideiglenes elrejtés",
+    "hide-on-page": "Oldalon elrejtés",
     "hide-on-domain": "Hide on domain"
   },
   "inline-menu-credential-item": {
-    "copy-username": "Copy Username",
-    "copy-password": "Copy Password"
+    "copy-username": "Felhasználónév másolása",
+    "copy-password": "Jelszó másolása"
   },
   "create-new-entry-dialog": {
-    "title": "Create New Entry",
-    "credential-title": "Title",
-    "username": "Username",
-    "password": "Password",
-    "database": "Database",
-    "group": "Group",
-    "save-in": "Save in",
+    "title": "Új bejegyzés létrehozása",
+    "credential-title": "Megnevezés",
+    "username": "Felhasználónév",
+    "password": "Jelszó",
+    "database": "Adatbázis",
+    "group": "Csoport",
+    "save-in": "Mentés ide",
     "no-autoFill-databases-available": "No AutoFill Databases Available",
     "please-unlock-your-database": "Please Unlock Your Database...",
     "could-not-load-databases": "Could not load databases!",
@@ -48,66 +48,66 @@
     "could-not-create-new-entry": "Could not create new entry. error=({{error}})"
   },
   "notification-toast": {
-    "successfully-created-new-entry": "Successfully Created New Entry",
-    "username-copied": "Username Copied",
-    "password-copied": "Password Copied",
-    "totp-copied": "TOTP Copied"
+    "successfully-created-new-entry": "Új bejegyzés sikeresen létrehozva",
+    "username-copied": "Felhasználónév másolva",
+    "password-copied": "Jelszó másolva",
+    "totp-copied": "TOTP másolva"
   },
   "current-tab-credentials": {
-    "title": "Matches"
+    "title": "Találatok"
   },
   "database-list-item": {
-    "lock": "Lock",
-    "locked": "Locked",
-    "unlock": "Unlock",
-    "unlocked": "Unlocked",
-    "autofill-not-enabled": "AutoFill Not Enabled"
+    "lock": "Zárol",
+    "locked": "Zárolt",
+    "unlock": "Feloldás",
+    "unlocked": "Feloldott",
+    "autofill-not-enabled": "Automatikus kitöltés nincs engedélyezve"
   },
   "databases-list-popup-component": {
-    "title": "Databases",
-    "no-databases": "No Databases",
-    "no-databases-message": "You don't have any databases yet, why not add one to Strongbox?"
+    "title": "Adatbázisok",
+    "no-databases": "Nincsenek adatbázisok",
+    "no-databases-message": "Még nincs adatbázisa, miért nem ad hozzá egyet a Strongbox-hoz?"
   },
   "no-results-found-popup-component": {
-    "title": "No Matches",
-    "message": "Strongbox could not find any matching entries for this website"
+    "title": "Nincsenek találatok",
+    "message": "Strongbox nem talált megfelelő bejegyzést ehhez a weboldalhoz"
   },
   "not-running-popup-component": {
-    "title": "Strongbox Unavailable",
-    "launch-strongbox": "Launch Strongbox",
+    "title": "Strongbox nem elérhető",
+    "launch-strongbox": "Strongbox indítása",
     "troubleshooting": {
-      "title": "Troubleshooting",
-      "message1": "1. Make sure Strongbox is installed and running.",
-      "message2": "2. Make sure you are a Pro user, AutoFill is a paid Pro feature.",
-      "message3": "3. Check the setting below is enabled:",
-      "settings-path": "Settings > Advanced > Chrome & Firefox AutoFill Extension"
+      "title": "Hibaelhárítás",
+      "message1": "1. Győződjön meg róla, hogy a Strongbox telepítve van és fut.",
+      "message2": "2. Győződjön meg róla, hogy ön Pro felhasználó, az automatikus kiegészítés egy fizetős Pro funkció.",
+      "message3": "3. Ellenőrizze, hogy az alábbi beállítás engedélyezve van-e:",
+      "settings-path": "Beállítások > Speciális > Chrome és Firefox automatikus kitöltés kiterjesztés"
     },
-    "message": "Unfortunately Strongbox isn't yet available on this platform."
+    "message": "Sajnos a Strongbox még nem érhető el ezen a platformon."
   },
   "search-bar": {
-    "title": "Search..."
+    "title": "Keresés..."
   },
   "settings-popup-component": {
-    "title": "Settings",
-    "title-tab1": "App",
-    "title-tab2": "Style",
-    "show-inline-menus": "Show Inline Menus",
-    "show-match-count-badge-on-popup-icon": "Show Match Count Badge on Popup Icon",
-    "fill-on-load-if-only-single-match-found": "Fill on Load if Only Single Match Found",
-    "always-fill-on-load-with-first-match": "Always Fill on Load with First Match",
-    "do-not-fill-on-load-on-this-domain": "Do Not Fill on Load on this Domain",
-    "do-not-show-inline-menus-on-this-domain": "Do Not Show Inline Menus on this Domain",
-    "do-not-show-inline-menus-on-this-page": "Do Not Show Inline Menus on this Page",
-    "language": "Language",
-    "appearance": "Appearance",
-    "font-size": "Font Size",
-    "spacing": "Spacing",
-    "appearance-dark": "Dark",
-    "appearance-light": "Light",
-    "appearance-system": "System",
-    "style-small": "Small",
-    "style-medium": "Medium",
-    "style-large": "Large",
-    "style-xl": "XL"
+    "title": "Beállítások",
+    "title-tab1": "Alkalmazás",
+    "title-tab2": "Stílus",
+    "show-inline-menus": "Soron belüli menük megjelenítése",
+    "show-match-count-badge-on-popup-icon": "Találatok számanak megjelenítése a felugró ikonon",
+    "fill-on-load-if-only-single-match-found": "Kitöltés betöltéskor, ha csak egyetlen egyezés volt",
+    "always-fill-on-load-with-first-match": "Mindig az első találattal töltse ki",
+    "do-not-fill-on-load-on-this-domain": "Ne töltse ki ezen tartomány esetén",
+    "do-not-show-inline-menus-on-this-domain": "Ne jelenítsen meg soron belüli menüket ennél a tartománynál",
+    "do-not-show-inline-menus-on-this-page": "Ne jelenítsen meg soron belüli menüket ennél az oldalnál",
+    "language": "Nyelv",
+    "appearance": "Kinézet",
+    "font-size": "Betűméret",
+    "spacing": "Térköz",
+    "appearance-dark": "Sötét",
+    "appearance-light": "Világos",
+    "appearance-system": "Rendszer",
+    "style-small": "Kicsi",
+    "style-medium": "Közepes",
+    "style-large": "Nagy",
+    "style-xl": "Extra-nagy"
   }
 }
