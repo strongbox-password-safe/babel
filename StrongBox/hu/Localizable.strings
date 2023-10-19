@@ -522,7 +522,7 @@
 "db_management_disable_autofill_yesno_message" = "Biztosan ezt akarja csinálni?";
 
 /* Disable AutoFill? */
-"db_management_disable_autofill_yesno_title" = "Letiltja az AutoFill-t?";
+"db_management_disable_autofill_yesno_title" = "Letiltja az automatikus kitöltést?";
 
 /* %@ for this database has been disabled. */
 "db_management_disable_biometric_notify_message_fmt" = "%@ erre az adatbázisra vonatkozóan letiltásra került.";
@@ -540,7 +540,7 @@
 "db_management_disable_biomtric_simple_fmt" = "Biztos, hogy ki akarja kapcsolni a %@-t erre az adatbázisra?";
 
 /* AutoFill Disabled */
-"db_management_disable_done" = "AutoFill letiltva";
+"db_management_disable_done" = "Automatikus kitöltés letiltva";
 
 /* %@ has been enabled for this database. */
 "db_management_enable_biometric_notify_message_fmt" = "%@ engedélyezve van az adatbázis számára.";
@@ -549,7 +549,7 @@
 "db_management_enable_biometric_notify_title_fmt" = "%@ Engedélyezve";
 
 /* AutoFill Enabled */
-"db_management_enable_done" = "AutoFill engedélyezve";
+"db_management_enable_done" = "Automatikus kitöltés engedélyezve";
 
 /* Could not change credentials */
 "db_management_error_title_couldnt_change_credentials" = "Nem sikerült módosítani a hitelesítési adatokat";
@@ -1386,7 +1386,7 @@
 "open_sequence_problem_opening_title" = "Probléma adódott az adatbázis megnyitásával.";
 
 /* AutoFill Crash Likely */
-"open_sequence_autofill_creash_likely_title" = "AutoFill Crash valószínű";
+"open_sequence_autofill_creash_likely_title" = "Automatikus kitöltő összeomlás lehetséges";
 
 /* Your database has encryption settings that may cause iOS Password AutoFill extensions to be terminated due to excessive resource consumption. This will mean AutoFill appears not to work. Unfortunately this is an Apple imposed limit. You could consider reducing the amount of resources consumed by your encryption settings (Memory in particular with Argon2 to below 64MB). */
 "open_sequence_autofill_creash_likely_message" = "Az Ön adatbázisa meglehetősen nagy, vagy olyan titkosítási beállításokkal rendelkezik, amelyek miatt az iOS jelszó automatikus kitöltés bővítményei leállhatnak a túlzott erőforrás-felhasználás miatt.\nEz azt jelenti, hogy az automatikus kitöltés nem működik. Sajnos ez az Apple által kiszabott rendszerkorlátozás. Megfontolhatja a fájl méretének csökkentését vagy a felhasznált erőforrások mennyiségének módosítását (a memória különösen Argon2 esetén legfeljebb 64 Mb lehet).";
@@ -1512,7 +1512,7 @@
 "autofill_safes_vc_empty_title" = "Önnek még nincs adatbázisa :(";
 
 /* To use Strongbox for Password Autofill you need to add a database. You can do this in the Strongbox App. */
-"autofill_safes_vc_empty_subtitle" = "A Strongbox for Password Autofill használatához hozzá kell adnia egy adatbázist. Ezt a Strongbox alkalmazásban teheti meg.";
+"autofill_safes_vc_empty_subtitle" = "A Strongbox for Password automatikus kitöltő használatához hozzá kell adnia egy adatbázist. Ezt a Strongbox alkalmazásban teheti meg.";
 
 /* Local */
 "autofill_safes_vc_storage_local_name" = "Helyi";
@@ -2775,7 +2775,7 @@
 "casg_yubikey_configured_slot2" = "Hely 2";
 
 /* Hardware Key Unlock is not supported in AutoFill mode due to system constraints. You can configure a Virtual Hardware Key instead. */
-"open_sequence_cannot_use_yubikey_in_autofill_mode" = "A hardveres kulcsfeloldás a rendszer korlátai miatt nem támogatott AutoFill módban. Helyette virtuális hardverkulcsot konfigurálhat.";
+"open_sequence_cannot_use_yubikey_in_autofill_mode" = "A hardveres kulcsfeloldás a rendszer korlátai miatt nem támogatott automatikus kitöltési módban. Helyette virtuális hardverkulcsot konfigurálhat.";
 
 /* Hardware Key Unlock is only available in the Pro edition of Strongbox */
 "open_sequence_yubikey_only_available_in_pro" = "A hardveres kulcsfeloldás csak a Strongbox Pro kiadásában érhető el";
@@ -2810,10 +2810,10 @@
 "casg_yubikey_configured_mfi" = "Lightning";
 
 /* AutoFill Crash Occurred */
-"autofill_did_not_close_cleanly_title" = "AutoFill összeomlás történt";
+"autofill_did_not_close_cleanly_title" = "Automatikus kitöltő összeomlás történt";
 
 /* It looks like the last time you used AutoFill you had a crash. This is usually due to a memory limitation. Please check your database file size and your Argon2 memory settings (should be <= 64MB) */
-"autofill_did_not_close_cleanly_message" = "Úgy tűnik, hogy az AutoFill legutóbbi használatakor összeomlott. Ez általában az iOS memória korlátozása miatt van. Kérjük, ellenőrizze az adatbázis-fájl méretét és az Argon2 memória (<= 64MB) beállításait";
+"autofill_did_not_close_cleanly_message" = "Úgy tűnik, hogy az automatikus kitöltő legutóbbi használatakor összeomlott. Ez általában az iOS memória korlátozása miatt van. Kérjük, ellenőrizze az adatbázis-fájl méretét és az Argon2 memória (<= 64MB) beállításait";
 
 /* Regenerate... */
 "password_generation_regenerate_ellipsis" = "Újragenerálás...";
@@ -3239,13 +3239,13 @@
 "autofill_error_unknown_db_title" = "Strongbox: Ismeretlen adatbázis";
 
 /* This appears to be a reference to an older Strongbox database which can no longer be found. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill. */
-"autofill_error_unknown_db_message" = "Úgy tűnik, hogy ez egy régebbi Strongbox adatbázisra való hivatkozás, amely már nem található meg. A Strongbox QuickType AutoFill adatbázisa mostanra törlődött, ezért a QuickType AutoFill frissítéséhez újra meg kell nyitnia az adatbázisokat.";
+"autofill_error_unknown_db_message" = "Úgy tűnik, hogy ez egy régebbi Strongbox adatbázisra való hivatkozás, amely már nem található meg. A Strongbox QuickType automatikus kitöltő adatbázisa mostanra törlődött, ezért a QuickType automatikus kitöltő frissítéséhez újra meg kell nyitnia az adatbázisokat.";
 
 /* Strongbox: Error Locating Entry */
 "autofill_error_unknown_item_title" = "Strongbox: Hiba a bejegyzés keresésekor";
 
 /* Strongbox could not find this entry, it is possibly stale. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill. */
-"autofill_error_unknown_item_message" = "A Strongbox nem találta ezt a bejegyzést, valószínűleg elavult. A Strongbox QuickType AutoFill adatbázisa most törlődött, ezért a QuickType AutoFill frissítéséhez újra meg kell nyitnia az adatbázisokat.";
+"autofill_error_unknown_item_message" = "A Strongbox nem találta ezt a bejegyzést, valószínűleg elavult. A Strongbox QuickType automatikus kitöltő adatbázisa most törlődött, ezért a QuickType automatikus kitöltő frissítéséhez újra meg kell nyitnia az adatbázisokat.";
 
 /* Locating... */
 "generic_status_sp_locating_ellipsis" = "Helymeghatározás...";
@@ -3326,7 +3326,7 @@
 "autofill_vc_item_subtitle_local_copy_unavailable" = "Helyi másolat nem elérhető";
 
 /* AutoFill Disabled */
-"autofill_vc_item_subtitle_disabled" = "AutoFill letiltva";
+"autofill_vc_item_subtitle_disabled" = "Automatikus kitöltő letiltva";
 
 /* Sync Required */
 "autofill_add_entry_sync_required_title" = "Szinkronizálás szükséges";
@@ -3392,7 +3392,7 @@
 "yubikey_config_section_header_nfc_device_not_supported" = "NFC YubiKey (NFC nem támogatott az eszközön)";
 
 /* NFC YubiKey (AutoFill Mode - NFC Unavailable) */
-"yubikey_config_section_header_nfc_autofill_unavailable" = "NFC YubiKey (NFC nem érhető el az AutoFill-ben)";
+"yubikey_config_section_header_nfc_autofill_unavailable" = "NFC YubiKey (NFC nem érhető el az automatikus kitöltőben)";
 
 /* Lightning YubiKey (Pro Edition Only) */
 "yubikey_config_section_header_lightning_pro_only" = "Villám YubiKey (csak Pro Edition)";
@@ -3401,13 +3401,13 @@
 "yubikey_config_section_header_lightning_device_not_supported" = "Lightning YubiKey (Lightning nem támogatott az eszközön)";
 
 /* Lightning YubiKey (AutoFill Mode - Lightning Unavailable) */
-"yubikey_config_section_header_lightning_autofill_unavailable" = "Villám YubiKey (Villám nem elérhető az automatikus kitöltésben)";
+"yubikey_config_section_header_lightning_autofill_unavailable" = "Villám YubiKey (Villám nem elérhető az automatikus kitöltőben)";
 
 /* Are you sure you want to delete this Virtual Hardware Key? */
 "yubikey_config_are_you_sure_delete" = "Biztosan törli ezt a virtuális hardverkulcsot?";
 
 /* %@ (AutoFill Only) - Translator's note, the 1st parameter is the name of the virtual hardware key, e.g. Mark's Virtual Hardware Key - This string indicates that that key can only be used in AutoFill mode only, not regualr App mode */
-"yubikeys_virtual_autofill_only" = "%@ (Csak AutoFill)";
+"yubikeys_virtual_autofill_only" = "%@ (Csak automatikus kitöltés)";
 
 /* Virtual Hardware Key */
 "casg_yubikey_configured_virtual" = "Virtuális hardverkulcs";
@@ -3542,13 +3542,13 @@
 "mac_no_databases_initial_message" = "Adatbázisok itt még.\n\nA kezdéshez kattintson az alábbi \"Adatbázis hozzáadása...\" gombra...";
 
 /* No AutoFill Enabled Databases */
-"mac_no_autofill_enabled_databases_initial_message" = "Nincs AutoFill támogatott adatbázis";
+"mac_no_autofill_enabled_databases_initial_message" = "Nincs automatikus kitöltő támogatott adatbázis";
 
 /* It looks like this is your first time using AutoFill with this database.\n\nFor security reasons you must locate and select your database file for Strongbox so that the AutoFill can access it.\n\nAs a reminder your database file was last located here:\n\n%@\n\nPlease locate it now for Strongbox...  - Translator's note: The parameter is the path of the database like '/Users/mark/Desktop/my-database.kdbx' */
-"mac_autofill_first_time_locate-fmt" = "Úgy tűnik, hogy most használja először az AutoFill-t ezzel az adatbázissal.\n\nBiztonsági okokból meg kell keresnie és ki kell választania az adatbázisfájlt a Strongbox számára, hogy az AutoFill hozzáférhessen.\n\nEmlékeztetőül az adatbázisfájlja legutóbb itt volt:\n\n%@\n\nKérjük, keresse meg a Strongbox számára...";
+"mac_autofill_first_time_locate-fmt" = "Úgy tűnik, hogy most használja először az automatikus kitöltőt ezzel az adatbázissal.\n\nBiztonsági okokból meg kell keresnie és ki kell választania az adatbázisfájlt a Strongbox számára, hogy az automatikus kitöltő hozzáférhessen.\n\nEmlékeztetőül az adatbázisfájlja legutóbb itt volt:\n\n%@\n\nKérjük, keresse meg a Strongbox számára...";
 
 /* Welcome to Strongbox AutoFill */
-"mac_welcome_to_autofill" = "Üdvözöljük a Strongbox AutoFill világában";
+"mac_welcome_to_autofill" = "Üdvözöljük a Strongbox automatikus kitöltő világában";
 
 /* Locate '%@' - Translator's note: The parameter is the filename of the database like 'my-database.kdbx' */
 "mac_autofill_locate_file_fmt" = "Keresse meg a '%@'-t";
@@ -3557,7 +3557,7 @@
 "mac_autofill_pro_feature_title" = "Pro funkció";
 
 /* AutoFill is only available on the Pro edition of Strongbox. You can upgrade like this:\n\n1. Launch Strongbox\n2. Click the 'Strongbox' menu\n3. Click 'Upgrade to Pro...'.\n\nThank you! */
-"mac_autofill_pro_feature_upgrade-message" = "Az AutoFill csak a Strongbox Pro kiadásában érhető el. A frissítés a következőképpen történhet:\n\n1. Indítsa el a Strongboxot\n2. Kattintson a 'Strongbox' menüre\n3. Kattintson a 'Váltás a Pro-ra...' gombra.\n\nKöszönjük!";
+"mac_autofill_pro_feature_upgrade-message" = "Az automatikus kitöltő csak a Strongbox Pro kiadásában érhető el. A frissítés a következőképpen történhet:\n\n1. Indítsa el a Strongboxot\n2. Kattintson a 'Strongbox' menüre\n3. Kattintson a 'Váltás a Pro-ra...' gombra.\n\nKöszönjük!";
 
 /* Passcode Fallback for %@ - Translators Note: This is a preference that says that the device passcode can be used as a fallback if Face ID or Touch ID fails - the parameter is either 'Touch ID' or 'Face ID' */
 "app_lock_allow_device_passcode_fallback_for_biometric_fmt" = "Tartalék Passcode a következőhöz: %@";
@@ -4095,7 +4095,7 @@
 "autofill_auto_unlock_try_10_minutes" = "Inkább 10 percet szeretnék";
 
 /* AutoFill Quick Launch */
-"databases_toggle_autofill_quick_launch_context_menu" = "AutoFill gyorsindítása";
+"databases_toggle_autofill_quick_launch_context_menu" = "Automatikus kitöltő gyorsindítása";
 
 /* Title Matches */
 "autofill_search_title_matches_section_header" = "Cím egyezés";
@@ -4110,7 +4110,7 @@
 "autofill_search_title_service_id_section_header" = "Szolgáltatás azonosítója";
 
 /* The Service ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Service ID. */
-"autofill_search_service_id_section_footer" = "A Service ID egy azonosító, amelyet az AutoFill küld a Strongboxnak. Segíthet a keresésben, ha a bejegyzés URL-címét úgy állítja be, hogy megfeleljen a szolgáltatásazonosítónak. Érintse meg a Másolás gombot.";
+"autofill_search_service_id_section_footer" = "A Service ID egy azonosító, amelyet az automatikus kitöltő küld a Strongboxnak. Segíthet a keresésben, ha a bejegyzés URL-címét úgy állítja be, hogy megfeleljen a szolgáltatásazonosítónak. Érintse meg a Másolás gombot.";
 
 /* Results */
 "quick_view_title_no_matches_title" = "Eredmények";
@@ -4682,10 +4682,10 @@
 "mac_hardware_key_selected_but_has_been_disconnected" = "⚠️ Kiválasztott kulcs (Leválasztva)";
 
 /* AutoFill Issue */
-"autofill_argon2_onboarding_issue_title" = "AutoFill probléma";
+"autofill_argon2_onboarding_issue_title" = "Automatikus kitöltő probléma";
 
 /* Your database has a very high Argon2 memory setting that will cause it to crash when used in AutoFill mode.\n\nWould you like Strongbox to automatically adjust this so that you can safely use AutoFill? */
-"autofill_argon2_onboarding_issue_message" = "Az adatbázis nagyon magas Argon2 memóriabeállítással dolgozik, ami összeomláshoz vezethet, ha AutoFill módban használják.\n\nSzeretné, ha a Strongbox automatikusan beállítaná ezt, hogy biztonságosan használhassa az automatikus kitöltést?";
+"autofill_argon2_onboarding_issue_message" = "Az adatbázis nagyon magas Argon2 memóriabeállítással dolgozik, ami összeomláshoz vezethet, ha automatikus kitöltő módban használják.\n\nSzeretné, ha a Strongbox automatikusan beállítaná ezt, hogy biztonságosan használhassa az automatikus kitöltést?";
 
 /* Yes, Great Idea! */
 "generic_yes_great_idea_bang" = "Igen, jó ötlet!";
@@ -4736,7 +4736,7 @@
 "autofill_app_preferences_only_avail_big_sur" = "Az automatikus kitöltés csak a macOS Big Sur+ rendszeren érhető el";
 
 /* ✅ Strongbox is enabled for Password AutoFill */
-"strongbox_is_enabled_for_autofill" = "✅ A Strongbox engedélyezve van a jelszó AutoFill-re";
+"strongbox_is_enabled_for_autofill" = "✅ A Strongbox engedélyezve van a jelszó automatikus kitöltésre";
 
 /* ⭐️ Wow ⭐️ */
 "tip_purchased_title" = "⭐️ Wow ⭐️";
@@ -5345,10 +5345,10 @@
 "password_history_previous_passwords" = "Előző jelszavak";
 
 /* Turn On Browser AutoFill? */
-"onboarding_autofill_title_turn_on" = "Bekapcsolja a böngésző automatikus kitöltését?";
+"onboarding_autofill_title_turn_on" = "Bekapcsolja a böngésző automatikus kitöltést?";
 
 /* Turn On AutoFill */
-"onboarding_autofill_option_turn_on_autofill" = "Az AutoFill bekapcsolása";
+"onboarding_autofill_option_turn_on_autofill" = "Az automatikus kitöltő bekapcsolása";
 
 /* No Thanks */
 "generic_no_thanks" = "Nem, köszönöm";
@@ -5372,7 +5372,7 @@
 "item_properties_inherited_yes_no_fmt" = "Örökölt (%@)";
 
 /* The Searchable setting affects whether this group and its contents are visible in search results, AutoFill suggestions and most views. This is useful if you'd like to archive/ignore some items, but not permanently delete them. */
-"group_properties_searchable_footer_info" = "A Kereshető beállítás befolyásolja, hogy ez a csoport és tartalma látható-e a keresési eredményekben, az automatikus kitöltési javaslatokban és a legtöbb nézetben. Ez akkor hasznos, ha archiválni vagy figyelmen kívül kíván hagyni néhány elemet, de nem szeretné véglegesen törölni azokat.";
+"group_properties_searchable_footer_info" = "A kereshető beállítás befolyásolja, hogy ez a csoport és tartalma látható-e a keresési eredményekben, az automatikus kitöltési javaslatokban és a legtöbb nézetben. Ez akkor hasznos, ha archiválni vagy figyelmen kívül kíván hagyni néhány elemet, de nem szeretné véglegesen törölni azokat.";
 
 /* Empty Recycle Bin */
 "browse_vc_action_empty_recycle_bin" = "A kuka kiürítése";
@@ -5653,10 +5653,10 @@
 "view_audit_issue_details_ellipsis" = "Audit feladat részletek...";
 
 /* Suggest in AutoFill - L10n - Whether an entry should be suggested in the AutoFill dropdown in your browser - It's a Yes/No flag in the UI */
-"suggest_in_autofill_yesno_flag" = "Javasolja az AutoFill-ben";
+"suggest_in_autofill_yesno_flag" = "Javasolja az automatikus kitöltőben";
 
 /* Toggle Suggest in AutoFill */
-"item_settings_action_verb_toggle_suggest_in_autofill" = "Javaslat bekapcsolása az AutoFill-ben";
+"item_settings_action_verb_toggle_suggest_in_autofill" = "Javaslat bekapcsolása az automatikus kitöltőben";
 
 /* Toggle Audit this Item */
 "item_settings_action_verb_toggle_suggest_in_audit" = "Audit bekapcsolása erre az elemre";
