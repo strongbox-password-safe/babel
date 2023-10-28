@@ -1,5 +1,5 @@
 {
-  "autodetected-language": "Auto-Detected ({{language}})",
+  "autodetected-language": "Автоопределение ({{language}})",
   "general": {
     "app-name": "Автозаполнение Strongbox",
     "company-name": "Phoebe Code Limited",
@@ -7,107 +7,107 @@
     "searching": "Поиск ...",
     "cancel": "Отмена",
     "create": "Создать",
-    "add": "Add",
-    "search": "Search"
+    "add": "Добавить",
+    "search": "Поиск"
   },
   "inline-mini-field-menu": {
     "no-matching-entries-found": "Записей не найдено",
     "lock": "Заблокировать",
-    "unlock": "Unlock {{database}}",
-    "create-new": "Save in Strongbox",
-    "no-autofill-enabled-databases": "No AutoFill Enabled Databases"
+    "unlock": "Разблокировать {{database}}",
+    "create-new": "Сохранить в Strongbox",
+    "no-autofill-enabled-databases": "Нет БД с поддержкой автозаполнения"
   },
   "hide-inline-menu": {
-    "hide-for-a-while": "Hide for a while",
-    "hide-on-page": "Hide on page",
-    "hide-on-domain": "Hide on domain"
+    "hide-for-a-while": "Скрыть на некоторое время",
+    "hide-on-page": "Скрыть на странице",
+    "hide-on-domain": "Скрыть в домене"
   },
   "inline-menu-credential-item": {
     "copy-username": "Копировать логин",
     "copy-password": "Копировать пароль"
   },
   "create-new-entry-dialog": {
-    "title": "Create New Entry",
-    "credential-title": "Title",
+    "title": "Добавить запись",
+    "credential-title": "Название",
     "username": "Логин",
     "password": "Пароль",
-    "database": "Database",
-    "group": "Group",
-    "save-in": "Save in",
-    "no-autoFill-databases-available": "No AutoFill Databases Available",
-    "please-unlock-your-database": "Please Unlock Your Database...",
-    "could-not-load-databases": "Could not load databases!",
-    "could-not-load-defaults": "Could not load defaults!",
-    "could-not-refresh-groups": "Could not refresh groups!",
-    "could-not-generate-password": "Could Not Generate Password",
-    "could-not-unlock-database": "Could not Unlock Database",
-    "could-not-refresh-status": "Could not refresh status",
-    "could-not-connect-to-strongbox": "Could not Connect to Strongbox",
-    "error-getting-defaults": "Error getting defaults",
-    "there-is-not-a-valid-new-entry": "There is not a valid new entry.",
-    "could-not-create-new-entry": "Could not create new entry. error=({{error}})"
+    "database": "База данных",
+    "group": "Группа",
+    "save-in": "Сохранить в ...",
+    "no-autoFill-databases-available": "Отсутствуют БД для автозаполнения",
+    "please-unlock-your-database": "Пожалуйста, разблокируйте вашу БД ...",
+    "could-not-load-databases": "Не удалось загрузить базы данных!",
+    "could-not-load-defaults": "Не удалось загрузить значения по умолчанию!",
+    "could-not-refresh-groups": "Не удалось обновить группы!",
+    "could-not-generate-password": "Не удалось сгенерировать пароль",
+    "could-not-unlock-database": "Не удалось разблокировать БД",
+    "could-not-refresh-status": "Не удалось обновить статус",
+    "could-not-connect-to-strongbox": "Не удалось подключиться к Strongbox",
+    "error-getting-defaults": "Ошибка при загрузке значений по умолчанию",
+    "there-is-not-a-valid-new-entry": "Некорректная новая запись.",
+    "could-not-create-new-entry": "Не удалось создать новую запись. error=({{error}})"
   },
   "notification-toast": {
-    "successfully-created-new-entry": "Successfully Created New Entry",
-    "username-copied": "Username Copied",
-    "password-copied": "Password Copied",
-    "totp-copied": "TOTP Copied"
+    "successfully-created-new-entry": "Успешно создана новая запись",
+    "username-copied": "Логин скопирован",
+    "password-copied": "Пароль скопирован",
+    "totp-copied": "TOTP скопирован"
   },
   "current-tab-credentials": {
-    "title": "Matches"
+    "title": "Совпадения"
   },
   "database-list-item": {
-    "lock": "Lock",
-    "locked": "Locked",
-    "unlock": "Unlock",
-    "unlocked": "Unlocked",
-    "autofill-not-enabled": "AutoFill Not Enabled"
+    "lock": "Заблокировать",
+    "locked": "Заблокирован",
+    "unlock": "Разблокировать",
+    "unlocked": "Разблокировано",
+    "autofill-not-enabled": "Автозаполнение выключено"
   },
   "databases-list-popup-component": {
-    "title": "Databases",
-    "no-databases": "No Databases",
-    "no-databases-message": "You don't have any databases yet, why not add one to Strongbox?"
+    "title": "Базы данных",
+    "no-databases": "Нет баз данных",
+    "no-databases-message": "У вас еще нет баз данных, почему бы не добавить их в Strongbox?"
   },
   "no-results-found-popup-component": {
-    "title": "No Matches",
-    "message": "Strongbox could not find any matching entries for this website"
+    "title": "Нет совпадений",
+    "message": "Strongbox не смог найти ни одной подходящей записи для этого сайта"
   },
   "not-running-popup-component": {
-    "title": "Strongbox Unavailable",
-    "launch-strongbox": "Launch Strongbox",
+    "title": "Strongbox недоступен",
+    "launch-strongbox": "Запустить Strongbox",
     "troubleshooting": {
-      "title": "Troubleshooting",
-      "message1": "1. Make sure Strongbox is installed and running.",
-      "message2": "2. Make sure you are a Pro user, AutoFill is a paid Pro feature.",
-      "message3": "3. Check the setting below is enabled:",
-      "settings-path": "Settings > Advanced > Chrome & Firefox AutoFill Extension"
+      "title": "Устранение неисправностей",
+      "message1": "1. Убедитесь, что Strongbox установлен и работает.",
+      "message2": "",
+      "message3": "3. Убедитесь, что указанная ниже настройка включена:",
+      "settings-path": "Настройки > Дополнительно > Расширение автозаполнения для Chrome и Firefox"
     },
-    "message": "Unfortunately Strongbox isn't yet available on this platform."
+    "message": "К сожалению, Strongbox еще не доступен на этой платформе."
   },
   "search-bar": {
-    "title": "Search..."
+    "title": "Поиск ..."
   },
   "settings-popup-component": {
-    "title": "Settings",
-    "title-tab1": "App",
-    "title-tab2": "Style",
-    "show-inline-menus": "Show Inline Menus",
-    "show-match-count-badge-on-popup-icon": "Show Match Count Badge on Popup Icon",
-    "fill-on-load-if-only-single-match-found": "Fill on Load if Only Single Match Found",
-    "always-fill-on-load-with-first-match": "Always Fill on Load with First Match",
-    "do-not-fill-on-load-on-this-domain": "Do Not Fill on Load on this Domain",
-    "do-not-show-inline-menus-on-this-domain": "Do Not Show Inline Menus on this Domain",
-    "do-not-show-inline-menus-on-this-page": "Do Not Show Inline Menus on this Page",
-    "language": "Language",
-    "appearance": "Appearance",
-    "font-size": "Font Size",
-    "spacing": "Spacing",
-    "appearance-dark": "Dark",
-    "appearance-light": "Light",
-    "appearance-system": "System",
-    "style-small": "Small",
-    "style-medium": "Medium",
-    "style-large": "Large",
+    "title": "Параметры",
+    "title-tab1": "Приложение",
+    "title-tab2": "Внешний вид",
+    "show-inline-menus": "Показать встроенные меню",
+    "show-match-count-badge-on-popup-icon": "Показывать количество совпадений на всплывающем значке",
+    "fill-on-load-if-only-single-match-found": "Заполнение при загрузке, если найдено только одно совпадение",
+    "always-fill-on-load-with-first-match": "Всегда заполнять при первом совпадении",
+    "do-not-fill-on-load-on-this-domain": "Не заполнять при загрузке этого домена",
+    "do-not-show-inline-menus-on-this-domain": "Не показывать встроенные меню в этом домене",
+    "do-not-show-inline-menus-on-this-page": "Не показывать встроенные меню на этой странице",
+    "language": "Язык",
+    "appearance": "Оформление",
+    "font-size": "Размер шрифта",
+    "spacing": "Интервал",
+    "appearance-dark": "Темный",
+    "appearance-light": "Светлый",
+    "appearance-system": "Система",
+    "style-small": "Маленький",
+    "style-medium": "Средний",
+    "style-large": "Большой",
     "style-xl": "XL"
   }
 }
