@@ -2574,7 +2574,7 @@
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "您确定要移除自定义字段'%@'吗？";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "您确定要删除自定义字段“%@”吗？";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "您确定要移除自定义字段'%@'吗？";
 
 /* Add Custom Field */
 "mac_node_details_add_custom_field" = "增加自定义字段";
@@ -2817,15 +2817,6 @@
 
 /* Regenerate... */
 "password_generation_regenerate_ellipsis" = "重新生成...";
-
-/* Touch the key to read the OTP */
-"yubikey_touch_the_key_to_read_the_otp" = "触摸密钥读取 OTP";
-
-/* Insert the key to read the OTP */
-"yubikey_insert_the_key_to_read_the_otp" = "插入密钥读取 OTP";
-
-/* Communicating with hardware key... */
-"yubikey_communicating_with_key_ellipsis" = "正在与硬件密钥通信...";
 
 /* Icon Set */
 "browse_prefs_icon_set" = "图标集";
@@ -5771,3 +5762,15 @@
 
 /* Your new entry was successfully created and saved to your database but Strongbox could not initiate a reload.\n\nYou should try to reload your database now. */
 "entry_saved_but_could_not_reload" = "您的新条目已成功创建并保存到数据库中，但 Strongbox 无法启动重载。\n\n您现在应该尝试重新加载数据库。";
+
+/* Touch the key */
+"yubikey_touch_the_key_to_read_the_otp" = "Touch your YubiKey...";
+
+/* Insert the key */
+"yubikey_insert_the_key_to_read_the_otp" = "Insert your YubiKey...";
+
+/* Communicating with hardware key... */
+"yubikey_communicating_with_key_ellipsis" = "Communicating your YubiKey...";
+
+/* '%@' already has a passkey, do you want to overwrite it? */
+"passkey_overwrite_existing_question_msg_fmt" = "'%@' already has a passkey, are you sure you want to overwrite it?";
