@@ -2574,7 +2574,7 @@
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "'%@' özel alanını kaldırmak istediğinizden emin misiniz?";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "'%@' özel alanını kaldırmak istediğinizden emin misiniz?";
 
 /* Add Custom Field */
 "mac_node_details_add_custom_field" = "Özel Alan Ekle";
@@ -2817,15 +2817,6 @@
 
 /* Regenerate... */
 "password_generation_regenerate_ellipsis" = "Yeniden Oluştur...";
-
-/* Touch the key to read the OTP */
-"yubikey_touch_the_key_to_read_the_otp" = "OTP'yi okumak için tuşa dokunun";
-
-/* Insert the key to read the OTP */
-"yubikey_insert_the_key_to_read_the_otp" = "OTP'yi okumak için anahtarı takın";
-
-/* Communicating with hardware key... */
-"yubikey_communicating_with_key_ellipsis" = "Donanım anahtarıyla iletişim kuruyor...";
 
 /* Icon Set */
 "browse_prefs_icon_set" = "Simge Seti";
@@ -5771,3 +5762,15 @@
 
 /* Your new entry was successfully created and saved to your database but Strongbox could not initiate a reload.\n\nYou should try to reload your database now. */
 "entry_saved_but_could_not_reload" = "Your new entry was successfully created and saved to your database but Strongbox could not initiate a reload.\n\nYou should try to reload your database now.";
+
+/* Touch the key */
+"yubikey_touch_the_key_to_read_the_otp" = "Touch your YubiKey...";
+
+/* Insert the key */
+"yubikey_insert_the_key_to_read_the_otp" = "Insert your YubiKey...";
+
+/* Communicating with hardware key... */
+"yubikey_communicating_with_key_ellipsis" = "Communicating your YubiKey...";
+
+/* '%@' already has a passkey, do you want to overwrite it? */
+"passkey_overwrite_existing_question_msg_fmt" = "'%@' already has a passkey, are you sure you want to overwrite it?";
