@@ -2574,7 +2574,7 @@
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "您確定要移除自訂欄位「%@」嗎？";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "您確定要移除自訂欄位「%@」嗎？";
 
 /* Add Custom Field */
 "mac_node_details_add_custom_field" = "新增自訂欄位";
@@ -3173,7 +3173,7 @@
 "audit_manual_pwn_check_result_not_pwned" = "您的密碼並沒有洩露，且很可能是安全的。";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "手動調整 HIBP 結果";
+"audit_manual_pwn_check_result_title" = "Manual HIBP Result";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "這個密碼已洩露，很容易受到攻擊";
@@ -3368,7 +3368,7 @@
 "sftp_path_are_you_sure" = "您確定路徑正確嗎？應該要是父資料夾的路徑，而不是資料庫檔案的。";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "您確定路徑正確嗎？應該要是父資料夾的路徑，而不是資料庫檔案的。";
+"sftp_path_are_you_sure" = "Are you sure the path is correct? It should be a path to a parent folder. Not the database file.";
 
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "路徑可能無效";
@@ -3644,7 +3644,7 @@
 "merge_view_are_you_sure" = "您確定要將第二個資料庫合併到第一個資料庫嗎？";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "您確定要將第二個資料庫合併到第一個資料庫嗎？";
+"merge_view_are_you_sure" = "Are you sure you want to merge the second database into the first?";
 
 /* Merge Successful */
 "merge_view_merge_title_success" = "合併成功";
@@ -5777,3 +5777,6 @@
 
 /* Custom Icon Size - L10n note - file size of the custom icon of this entry */
 "generic_fieldname_custom_icon_size" = "Custom Icon Size";
+
+/* Could not auto select FavIcon because all available images are larger than the configured maximum. You must manually select it. */
+"favicon_downloader_images_too_large" = "Could not auto select FavIcon because all available images are larger than the configured maximum. You must manually select it.";
