@@ -2818,15 +2818,6 @@
 /* Regenerate... */
 "password_generation_regenerate_ellipsis" = "Újragenerálás...";
 
-/* Touch the key to read the OTP */
-"yubikey_touch_the_key_to_read_the_otp" = "Érintse meg a billentyűt az OTP olvasásához";
-
-/* Insert the key to read the OTP */
-"yubikey_insert_the_key_to_read_the_otp" = "Helyezze be a kulcsot az OTP olvasásához";
-
-/* Communicating with hardware key... */
-"yubikey_communicating_with_key_ellipsis" = "Kommunikálás a hardverkulccsal...";
-
 /* Icon Set */
 "browse_prefs_icon_set" = "Ikonkészlet";
 
@@ -3377,7 +3368,7 @@
 "sftp_path_are_you_sure" = "Biztos, hogy az útvonal helyes? Egy szülői mappához vezető útnak kell lennie. Nem az adatbázisfájlhoz.";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Biztos, hogy az útvonal helyes? Egy mappához vezető útnak kell lennie. Nem az adatbázisfájlhoz.";
+"sftp_path_are_you_sure" = "Biztos, hogy az útvonal helyes? Egy szülői mappához vezető útnak kell lennie. Nem az adatbázisfájlhoz.";
 
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "Az útvonal érvénytelen lehet";
@@ -5771,3 +5762,18 @@
 
 /* Your new entry was successfully created and saved to your database but Strongbox could not initiate a reload.\n\nYou should try to reload your database now. */
 "entry_saved_but_could_not_reload" = "Az új bejegyzést sikeresen létrejött és el lett mentve az adatbázisba, de a Strongbox nem tudta kezdeményezni az újratöltést.\n\nMost próbálja meg újratölteni az adatbázisát.";
+
+/* Touch the key */
+"yubikey_touch_the_key_to_read_the_otp" = "Érintse meg a YubiKey-t...";
+
+/* Insert the key */
+"yubikey_insert_the_key_to_read_the_otp" = "Helyezze be a YubiKey-t...";
+
+/* Communicating with hardware key... */
+"yubikey_communicating_with_key_ellipsis" = "Kommunikálás a YubiKey-vel...";
+
+/* '%@' already has a passkey, do you want to overwrite it? */
+"passkey_overwrite_existing_question_msg_fmt" = "'%@' már van jelszava, biztos, hogy felül kívánja írni?";
+
+/* Custom Icon Size - L10n note - file size of the custom icon of this entry */
+"generic_fieldname_custom_icon_size" = "Egyéni ikonméret";

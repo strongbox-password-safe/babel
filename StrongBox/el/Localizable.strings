@@ -2818,15 +2818,6 @@
 /* Regenerate... */
 "password_generation_regenerate_ellipsis" = "Αναδημιουργία...";
 
-/* Touch the key to read the OTP */
-"yubikey_touch_the_key_to_read_the_otp" = "Αγγίξτε το πλήκτρο για να διαβάσετε το OTP";
-
-/* Insert the key to read the OTP */
-"yubikey_insert_the_key_to_read_the_otp" = "Εισάγετε το κλειδί για ανάγνωση του OTP";
-
-/* Communicating with hardware key... */
-"yubikey_communicating_with_key_ellipsis" = "Επικοινωνία με το κλειδί υλικού...";
-
 /* Icon Set */
 "browse_prefs_icon_set" = "Σετ εικονιδίων";
 
@@ -3182,7 +3173,7 @@
 "audit_manual_pwn_check_result_not_pwned" = "Ο κωδικός πρόσβασής σας ΔΕΝ είναι εκτεθειμένος / Pwned και είναι πιθανόν ασφαλής.";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Manual HIBP Result";
+"audit_manual_pwn_check_result_title" = "Χειροκίνητο Αποτέλεσμα HIBP";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "Αυτός ο κωδικός πρόσβασης είναι εκτεθειμένος / Pwned και ευάλωτος";
@@ -3377,7 +3368,7 @@
 "sftp_path_are_you_sure" = "Είστε σίγουροι ότι η διαδρομή είναι σωστή; Θα πρέπει να είναι μια διαδρομή σε φάκελο. Όχι απ' ευθείας του αρχείου της βάσης δεδομένων.";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Are you sure the path is correct? It should be a path to a parent folder. Not the database file.";
+"sftp_path_are_you_sure" = "Είστε σίγουροι ότι η διαδρομή είναι σωστή; Θα πρέπει να είναι μια διαδρομή σε φάκελο. Όχι απ' ευθείας του αρχείου της βάσης δεδομένων.";
 
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "Η διαδρομή μπορεί να είναι μη έγκυρη";
@@ -3653,7 +3644,7 @@
 "merge_view_are_you_sure" = "Είστε σίγουροι ότι θέλετε να συγχωνεύσετε τη δεύτερη βάση δεδομένων στην πρώτη;";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Are you sure you want to merge the second database into the first?";
+"merge_view_are_you_sure" = "Είστε σίγουροι ότι θέλετε να συγχωνεύσετε τη δεύτερη βάση δεδομένων στην πρώτη;";
 
 /* Merge Successful */
 "merge_view_merge_title_success" = "Επιτυχής Συγχώνευση";
@@ -5771,3 +5762,18 @@
 
 /* Your new entry was successfully created and saved to your database but Strongbox could not initiate a reload.\n\nYou should try to reload your database now. */
 "entry_saved_but_could_not_reload" = "Your new entry was successfully created and saved to your database but Strongbox could not initiate a reload.\n\nYou should try to reload your database now.";
+
+/* Touch the key */
+"yubikey_touch_the_key_to_read_the_otp" = "Touch your YubiKey...";
+
+/* Insert the key */
+"yubikey_insert_the_key_to_read_the_otp" = "Insert your YubiKey...";
+
+/* Communicating with hardware key... */
+"yubikey_communicating_with_key_ellipsis" = "Communicating your YubiKey...";
+
+/* '%@' already has a passkey, do you want to overwrite it? */
+"passkey_overwrite_existing_question_msg_fmt" = "'%@' already has a passkey, are you sure you want to overwrite it?";
+
+/* Custom Icon Size - L10n note - file size of the custom icon of this entry */
+"generic_fieldname_custom_icon_size" = "Custom Icon Size";

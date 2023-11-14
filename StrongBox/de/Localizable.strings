@@ -2574,7 +2574,7 @@
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "Möchten Sie das benutzerdefinierte Feld „%@” wirklich entfernen?";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Möchten Sie das benutzerdefinierte Feld „%@” wirklich entfernen?";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
 
 /* Add Custom Field */
 "mac_node_details_add_custom_field" = "Benutzerdefiniertes Feld hinzufügen";
@@ -2817,15 +2817,6 @@
 
 /* Regenerate... */
 "password_generation_regenerate_ellipsis" = "Neu generieren ...";
-
-/* Touch the key to read the OTP */
-"yubikey_touch_the_key_to_read_the_otp" = "YubiKey berühren, um OTP zu lesen";
-
-/* Insert the key to read the OTP */
-"yubikey_insert_the_key_to_read_the_otp" = "YubiKey anschließen, um OTP zu lesen";
-
-/* Communicating with hardware key... */
-"yubikey_communicating_with_key_ellipsis" = "Kommuniziere mit Hardwareschlüssel ...";
 
 /* Icon Set */
 "browse_prefs_icon_set" = "Symbolsatz";
@@ -3182,7 +3173,7 @@
 "audit_manual_pwn_check_result_not_pwned" = "Ihr Passwort wurde NICHT gestohlen und ist wahrscheinlich sicher.";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Manuelles HIBP-(Wurde ich gehackt?)-Ergebnis";
+"audit_manual_pwn_check_result_title" = "Manuelles HIBP-Ergebnis";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "Dieses Passwort ist gestohlen und angreifbar";
@@ -3377,7 +3368,7 @@
 "sftp_path_are_you_sure" = "Sind Sie sicher, dass der Pfad korrekt ist? Es sollte sich um einen Pfad zu einem übergeordneten Ordner handeln. Nicht zur Datenbankdatei.";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Sind Sie sicher, dass der Pfad korrekt ist? Es sollte ein Pfad zu einem übergeordneten Ordner, nicht die Datenbankdatei selbst, sein.";
+"sftp_path_are_you_sure" = "Sind Sie sicher, dass der Pfad korrekt ist? Es sollte sich um einen Pfad zu einem übergeordneten Ordner handeln. Nicht zur Datenbankdatei.";
 
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "Pfad könnte ungültig sein";
@@ -5771,3 +5762,18 @@
 
 /* Your new entry was successfully created and saved to your database but Strongbox could not initiate a reload.\n\nYou should try to reload your database now. */
 "entry_saved_but_could_not_reload" = "Ihr neuer Eintrag wurde erfolgreich erstellt und in Ihrer Datenbank gespeichert, aber Strongbox konnte das Neuladen nicht anstoßen.\n\nSie sollten jetzt versuchen, Ihre Datenbank neu zu laden.";
+
+/* Touch the key */
+"yubikey_touch_the_key_to_read_the_otp" = "Berühren Sie Ihren YubiKey …";
+
+/* Insert the key */
+"yubikey_insert_the_key_to_read_the_otp" = "Stecken Sie Ihren YubiKey ein …";
+
+/* Communicating with hardware key... */
+"yubikey_communicating_with_key_ellipsis" = "Mit Ihrem YubiKey wird kommuniziert …";
+
+/* '%@' already has a passkey, do you want to overwrite it? */
+"passkey_overwrite_existing_question_msg_fmt" = "„%@” besitzt bereits einen Hauptschlüssel. Möchten Sie ihn wirklich überschreiben?";
+
+/* Custom Icon Size - L10n note - file size of the custom icon of this entry */
+"generic_fieldname_custom_icon_size" = "Custom Icon Size";

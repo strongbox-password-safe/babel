@@ -2818,15 +2818,6 @@
 /* Regenerate... */
 "password_generation_regenerate_ellipsis" = "Rigenerando...";
 
-/* Touch the key to read the OTP */
-"yubikey_touch_the_key_to_read_the_otp" = "Tocca il tasto per leggere l'OTP";
-
-/* Insert the key to read the OTP */
-"yubikey_insert_the_key_to_read_the_otp" = "Inserire la chiave per leggere l'OTP";
-
-/* Communicating with hardware key... */
-"yubikey_communicating_with_key_ellipsis" = "Comunicazione con la chiave hardware...";
-
 /* Icon Set */
 "browse_prefs_icon_set" = "Set di Icone";
 
@@ -3377,7 +3368,7 @@
 "sftp_path_are_you_sure" = "Si è sicuri che il percorso sia corretto? Dovrebbe essere un percorso verso una cartella principale, non il file di database.";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Si è sicuri che il percorso sia corretto? Dovrebbe essere un percorso verso la cartella superiore, non il file di database.";
+"sftp_path_are_you_sure" = "Si è sicuri che il percorso sia corretto? Dovrebbe essere un percorso verso una cartella principale, non il file di database.";
 
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "Percorso Può Essere Non Valido";
@@ -5771,3 +5762,18 @@
 
 /* Your new entry was successfully created and saved to your database but Strongbox could not initiate a reload.\n\nYou should try to reload your database now. */
 "entry_saved_but_could_not_reload" = "La chiave d'accesso è stata creata e salvata nel database, ma Strongbox non ha potuto avviare una ricarica.\n\nSi dovrebbe provare a ricaricare il database ora.";
+
+/* Touch the key */
+"yubikey_touch_the_key_to_read_the_otp" = "Toccare la YubiKey...";
+
+/* Insert the key */
+"yubikey_insert_the_key_to_read_the_otp" = "Inserire la YubiKey...";
+
+/* Communicating with hardware key... */
+"yubikey_communicating_with_key_ellipsis" = "Comunicazione con YubiKey...";
+
+/* '%@' already has a passkey, do you want to overwrite it? */
+"passkey_overwrite_existing_question_msg_fmt" = "'%@' ha già una passkey, si è sicuri di volerla sovrascrivere?";
+
+/* Custom Icon Size - L10n note - file size of the custom icon of this entry */
+"generic_fieldname_custom_icon_size" = "Dimensione Icona Personalizzata";

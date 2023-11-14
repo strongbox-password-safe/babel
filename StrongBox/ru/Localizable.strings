@@ -2574,7 +2574,7 @@
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "Вы действительно хотите удалить поле '%@'?";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Вы действительно хотите удалить поле «%@»?";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
 
 /* Add Custom Field */
 "mac_node_details_add_custom_field" = "Добавить поле";
@@ -2817,15 +2817,6 @@
 
 /* Regenerate... */
 "password_generation_regenerate_ellipsis" = "Сгенерировать заново";
-
-/* Touch the key to read the OTP */
-"yubikey_touch_the_key_to_read_the_otp" = "Коснитесь ключа для чтения OTP";
-
-/* Insert the key to read the OTP */
-"yubikey_insert_the_key_to_read_the_otp" = "Вставьте ключ для чтения OTP";
-
-/* Communicating with hardware key... */
-"yubikey_communicating_with_key_ellipsis" = "Соединение с ключом ...";
 
 /* Icon Set */
 "browse_prefs_icon_set" = "Набор значков";
@@ -3377,7 +3368,7 @@
 "sftp_path_are_you_sure" = "Проверьте правильность пути. Это должен быть путь к папке, а не файлу.";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Проверьте правильность пути. Это должен быть путь к папке, а не файлу";
+"sftp_path_are_you_sure" = "Проверьте правильность пути. Это должен быть путь к папке, а не файлу.";
 
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "Неверный путь к папке";
@@ -3653,7 +3644,7 @@
 "merge_view_are_you_sure" = "Вы действительно хотите объединить вторую БД в первую?";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Вы действительно хотите объединить вторую БД в первую";
+"merge_view_are_you_sure" = "Вы действительно хотите объединить вторую БД в первую?";
 
 /* Merge Successful */
 "merge_view_merge_title_success" = "Объединение выполнено";
@@ -5771,3 +5762,18 @@
 
 /* Your new entry was successfully created and saved to your database but Strongbox could not initiate a reload.\n\nYou should try to reload your database now. */
 "entry_saved_but_could_not_reload" = "Ваш ключ доступа был успешно создан и сохранен в БД, но Strongbox не смог инициировать перезагрузку.\n\nПопробуйте перезагрузить БД.";
+
+/* Touch the key */
+"yubikey_touch_the_key_to_read_the_otp" = "Touch your YubiKey...";
+
+/* Insert the key */
+"yubikey_insert_the_key_to_read_the_otp" = "Insert your YubiKey...";
+
+/* Communicating with hardware key... */
+"yubikey_communicating_with_key_ellipsis" = "Communicating your YubiKey...";
+
+/* '%@' already has a passkey, do you want to overwrite it? */
+"passkey_overwrite_existing_question_msg_fmt" = "'%@' already has a passkey, are you sure you want to overwrite it?";
+
+/* Custom Icon Size - L10n note - file size of the custom icon of this entry */
+"generic_fieldname_custom_icon_size" = "Custom Icon Size";

@@ -2818,15 +2818,6 @@
 /* Regenerate... */
 "password_generation_regenerate_ellipsis" = "重新生成...";
 
-/* Touch the key to read the OTP */
-"yubikey_touch_the_key_to_read_the_otp" = "触摸密钥读取 OTP";
-
-/* Insert the key to read the OTP */
-"yubikey_insert_the_key_to_read_the_otp" = "插入密钥读取 OTP";
-
-/* Communicating with hardware key... */
-"yubikey_communicating_with_key_ellipsis" = "正在与硬件密钥通信...";
-
 /* Icon Set */
 "browse_prefs_icon_set" = "图标集";
 
@@ -3182,7 +3173,7 @@
 "audit_manual_pwn_check_result_not_pwned" = "您的密码并没有泄露，较大概率是安全的。";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "手动 HIBP 结果";
+"audit_manual_pwn_check_result_title" = "手动调整 HIBP 结果";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "这个密码已泄露，很容易受到攻击";
@@ -3377,7 +3368,7 @@
 "sftp_path_are_you_sure" = "您确定路径正确吗？它应该是父文件夹的路径。而不是数据库文件。";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "您确定这个路径是正确的吗？它应该指向父文件夹，而非数据库文件本身。";
+"sftp_path_are_you_sure" = "您确定路径正确吗？它应该是父文件夹的路径。而不是数据库文件。";
 
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "路径可能无效";
@@ -3653,7 +3644,7 @@
 "merge_view_are_you_sure" = "您确定要将第二个数据库合并到第一个数据库吗？";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "您确定要将第二个数据库合并到第一个数据库中吗？";
+"merge_view_are_you_sure" = "您确定要将第二个数据库合并到第一个数据库吗？";
 
 /* Merge Successful */
 "merge_view_merge_title_success" = "合并成功";
@@ -5771,3 +5762,18 @@
 
 /* Your new entry was successfully created and saved to your database but Strongbox could not initiate a reload.\n\nYou should try to reload your database now. */
 "entry_saved_but_could_not_reload" = "您的新条目已成功创建并保存到数据库中，但 Strongbox 无法启动重载。\n\n您现在应该尝试重新加载数据库。";
+
+/* Touch the key */
+"yubikey_touch_the_key_to_read_the_otp" = "触碰您的 YubiKey...";
+
+/* Insert the key */
+"yubikey_insert_the_key_to_read_the_otp" = "插入您的 YubiKey...";
+
+/* Communicating with hardware key... */
+"yubikey_communicating_with_key_ellipsis" = "与您的 YubiKey 通讯中…";
+
+/* '%@' already has a passkey, do you want to overwrite it? */
+"passkey_overwrite_existing_question_msg_fmt" = "“%@”已经有了通行密钥，您确定要覆盖它吗？";
+
+/* Custom Icon Size - L10n note - file size of the custom icon of this entry */
+"generic_fieldname_custom_icon_size" = "自定义图标大小";
