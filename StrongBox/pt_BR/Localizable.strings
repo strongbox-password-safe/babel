@@ -5422,8 +5422,8 @@
 /* No Matches Found */
 "search_results_summary_no_matches_found" = "Nenhum Resultado Encontrado";
 
-/* Orchard Street (Medium) */
-"pwgen_wordlist_orchard_st" = "Rua Orchard (Médio)";
+/* Orchard Street Diceware List */
+"pwgen_wordlist_orchard_st" = "Orchard Street Diceware List";
 
 /* SSH Keys */
 "sidebar_quick_view_keeagent_ssh_keys_title" = "Chaves SSH";
@@ -5662,13 +5662,13 @@
 "export_what_format_question" = "Para qual formato você gostaria de exportar?";
 
 /* Export Items */
-"export_items_dialog_title" = "Export Items";
+"export_items_dialog_title" = "Exportar Itens";
 
 /* Export Group */
-"export_group_dialog_title" = "Export Group";
+"export_group_dialog_title" = "Exportar Grupo";
 
 /* Overwrite Existing Passkey? */
-"passkey_overwrite_question_title" = "Overwrite Existing Passkey?";
+"passkey_overwrite_question_title" = "Substituir a Passkey existente?";
 
 /* Overwrite */
 "passkey_option_overwrite" = "Substituir";
@@ -5713,7 +5713,7 @@
 "passkey_relying_party" = "Relying Party";
 
 /* Credential ID - L10n Note: This is related to Passkeys. It is a technical term from the spec. It is publicly visible/user facing. I am uncertain whether theser terms have a translation in your language, feel free to use your best judgement here about whether to localize or not.   */
-"passkey_credential_id" = "Credential ID";
+"passkey_credential_id" = "ID da Credencial";
 
 /* User Handle - L10n Note: This is related to Passkeys. It is a technical term from the spec. It is publicly visible/user facing. I am uncertain whether theser terms have a translation in your language, feel free to use your best judgement here about whether to localize or not.  */
 "passkey_user_handle" = "User Handle";
@@ -5770,7 +5770,7 @@
 "yubikey_insert_the_key_to_read_the_otp" = "Insira sua YubiKey...";
 
 /* Communicating with hardware key... */
-"yubikey_communicating_with_key_ellipsis" = "Comunicando com sua YubiKey...";
+"yubikey_communicating_with_key_ellipsis" = "Comunicando com a sua YubiKey...";
 
 /* '%@' already has a passkey, do you want to overwrite it? */
 "passkey_overwrite_existing_question_msg_fmt" = "'%@' já tem uma Passkey, tem certeza de que deseja substituí-la?";
@@ -5779,4 +5779,7 @@
 "generic_fieldname_custom_icon_size" = "Tamanho do ícone personalizado";
 
 /* Could not auto select FavIcon because all available images are larger than the configured maximum. You must manually select it. */
-"favicon_downloader_images_too_large" = "Could not auto select FavIcon because all available images are larger than the configured maximum. You must manually select it.";
+"favicon_downloader_images_too_large" = "Não foi possível selecionar o ícone automaticamente porque todas as imagens disponíveis são maiores que o máximo configurado. Você deve selecioná-lo manualmente.";
+
+/* Cannot rename file as a file with that name already exists. */
+"error_rename_file_already_exists" = "Cannot rename file as a file with that name already exists.";
