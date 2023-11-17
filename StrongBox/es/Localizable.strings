@@ -3173,7 +3173,7 @@
 "audit_manual_pwn_check_result_not_pwned" = "Su contraseña NO ha sido pwned y probablemente sea segura.";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Resultado de HIBP manual";
+"audit_manual_pwn_check_result_title" = "Manual HIBP Result";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "Esta contraseña es pwned y es vulnerable";
@@ -3368,7 +3368,7 @@
 "sftp_path_are_you_sure" = "¿Está seguro de que la ruta es correcta? Debe ser una ruta a una carpeta padre. No el archivo de base de datos.";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "¿Está seguro de que la ruta es correcta? Debe ser una ruta a una carpeta padre. No el archivo de base de datos.";
+"sftp_path_are_you_sure" = "Are you sure the path is correct? It should be a path to a parent folder. Not the database file.";
 
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "La ruta puede no ser válida";
@@ -3644,7 +3644,7 @@
 "merge_view_are_you_sure" = "¿Está seguro de que desea fusionar la segunda base de datos en la primera?";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "¿Está seguro de que desea fusionar la segunda base de datos en la primera?";
+"merge_view_are_you_sure" = "Are you sure you want to merge the second database into the first?";
 
 /* Merge Successful */
 "merge_view_merge_title_success" = "Fusión satisfactoria";
@@ -5422,8 +5422,8 @@
 /* No Matches Found */
 "search_results_summary_no_matches_found" = "No se encontraron coincidencias";
 
-/* Orchard Street (Medium) */
-"pwgen_wordlist_orchard_st" = "Calle Orchard (Medio)";
+/* Orchard Street Diceware List */
+"pwgen_wordlist_orchard_st" = "Orchard Street Diceware List";
 
 /* SSH Keys */
 "sidebar_quick_view_keeagent_ssh_keys_title" = "Claves SSH";
@@ -5780,3 +5780,6 @@
 
 /* Could not auto select FavIcon because all available images are larger than the configured maximum. You must manually select it. */
 "favicon_downloader_images_too_large" = "No se pudo seleccionar automáticamente FavIcon porque todas las imágenes disponibles son mayores que el máximo configurado. Debe seleccionarlo manualmente.";
+
+/* Cannot rename file as a file with that name already exists. */
+"error_rename_file_already_exists" = "Cannot rename file as a file with that name already exists.";
