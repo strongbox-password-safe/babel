@@ -2574,7 +2574,7 @@
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "Ви впевнені, що хочете вилучити власне поле '%@'?";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Ви впевнені, що хочете вилучити власне поле '%@'?";
 
 /* Add Custom Field */
 "mac_node_details_add_custom_field" = "Додати власне поле";
@@ -3173,7 +3173,7 @@
 "audit_manual_pwn_check_result_not_pwned" = "Ваш пароль не було викрито, тому він, ймовірно, надійний.";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Результат перевірки";
+"audit_manual_pwn_check_result_title" = "Manual HIBP Result";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "Пароль викрито";
@@ -3368,7 +3368,7 @@
 "sftp_path_are_you_sure" = "Ви впевнені, що шлях правильний? Це повинен бути шлях до теки верхнього рівня. Не файл бази даних.";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Ви впевнені, що шлях правильний? Це повинен бути шлях до теки верхнього рівня. Не файл бази даних.";
+"sftp_path_are_you_sure" = "Are you sure the path is correct? It should be a path to a parent folder. Not the database file.";
 
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "Шлях може бути недійсним";
@@ -3644,7 +3644,7 @@
 "merge_view_are_you_sure" = "Ви дійсно хочете об'єднати другу базу даних з першою?";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Ви дійсно хочете об'єднати другу базу даних з першою?";
+"merge_view_are_you_sure" = "Are you sure you want to merge the second database into the first?";
 
 /* Merge Successful */
 "merge_view_merge_title_success" = "Успішно об'єднано";
@@ -5422,8 +5422,8 @@
 /* No Matches Found */
 "search_results_summary_no_matches_found" = "Збігів не знайдено";
 
-/* Orchard Street (Medium) */
-"pwgen_wordlist_orchard_st" = "Orchard Street (Середній)";
+/* Orchard Street Diceware List */
+"pwgen_wordlist_orchard_st" = "Orchard Street Diceware List";
 
 /* SSH Keys */
 "sidebar_quick_view_keeagent_ssh_keys_title" = "SSH-ключі";
@@ -5780,3 +5780,6 @@
 
 /* Could not auto select FavIcon because all available images are larger than the configured maximum. You must manually select it. */
 "favicon_downloader_images_too_large" = "Could not auto select FavIcon because all available images are larger than the configured maximum. You must manually select it.";
+
+/* Cannot rename file as a file with that name already exists. */
+"error_rename_file_already_exists" = "Cannot rename file as a file with that name already exists.";
