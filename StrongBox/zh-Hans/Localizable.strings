@@ -3173,7 +3173,7 @@
 "audit_manual_pwn_check_result_not_pwned" = "您的密码并没有泄露，较大概率是安全的。";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Manual HIBP Result";
+"audit_manual_pwn_check_result_title" = "手动 HIBP 结果";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "这个密码已泄露，很容易受到攻击";
@@ -3368,7 +3368,7 @@
 "sftp_path_are_you_sure" = "您确定路径正确吗？它应该是父文件夹的路径。而不是数据库文件。";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Are you sure the path is correct? It should be a path to a parent folder. Not the database file.";
+"sftp_path_are_you_sure" = "您确定这个路径是正确的吗？它应该指向父文件夹，而非数据库文件本身。";
 
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "路径可能无效";
@@ -3644,7 +3644,7 @@
 "merge_view_are_you_sure" = "您确定要将第二个数据库合并到第一个数据库吗？";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Are you sure you want to merge the second database into the first?";
+"merge_view_are_you_sure" = "您确定要将第二个数据库合并到第一个数据库中吗？";
 
 /* Merge Successful */
 "merge_view_merge_title_success" = "合并成功";
@@ -5423,7 +5423,7 @@
 "search_results_summary_no_matches_found" = "没有找到匹配项";
 
 /* Orchard Street Diceware List */
-"pwgen_wordlist_orchard_st" = "Orchard Street Diceware List";
+"pwgen_wordlist_orchard_st" = "Orchard Street Diceware 列表";
 
 /* SSH Keys */
 "sidebar_quick_view_keeagent_ssh_keys_title" = "SSH 密钥";
@@ -5770,7 +5770,7 @@
 "yubikey_insert_the_key_to_read_the_otp" = "插入您的 YubiKey...";
 
 /* Communicating with hardware key... */
-"yubikey_communicating_with_key_ellipsis" = "Communicating with your YubiKey...";
+"yubikey_communicating_with_key_ellipsis" = "与您的 YubiKey 通讯中…";
 
 /* '%@' already has a passkey, do you want to overwrite it? */
 "passkey_overwrite_existing_question_msg_fmt" = "“%@”已经有了通行密钥，您确定要覆盖它吗？";
@@ -5782,4 +5782,4 @@
 "favicon_downloader_images_too_large" = "无法自动选择 FavIcon，因为所有可用图像都大于已配置的最大值。您必须手动选择。";
 
 /* Cannot rename file as a file with that name already exists. */
-"error_rename_file_already_exists" = "Cannot rename file as a file with that name already exists.";
+"error_rename_file_already_exists" = "无法重命名文件，因为该名称的文件已经存在。";
