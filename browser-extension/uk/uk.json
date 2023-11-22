@@ -8,7 +8,11 @@
     "cancel": "Скасувати",
     "create": "Створити",
     "add": "Додати",
-    "search": "Пошук"
+    "search": "Пошук",
+    "copy": "Copy",
+    "autofill": "AutoFill",
+    "launch-url": "Launch URL",
+    "show-hide": "Show/Hide"
   },
   "inline-mini-field-menu": {
     "no-matching-entries-found": "Не знайдено відповідних записів",
@@ -23,6 +27,7 @@
     "hide-on-domain": "Приховати на домені"
   },
   "inline-menu-credential-item": {
+    "view-details": "View Details",
     "copy-username": "Копіювати ім'я користувача",
     "copy-password": "Копіювати пароль"
   },
@@ -31,6 +36,9 @@
     "credential-title": "Назва",
     "username": "Ім'я користувача",
     "password": "Пароль",
+    "url": "URL",
+    "totp": "TOTP",
+    "modified-date": "Modified",
     "database": "База паролів",
     "group": "Група",
     "save-in": "Зберегти в",
@@ -51,10 +59,16 @@
     "successfully-created-new-entry": "Новий запис успішно створено",
     "username-copied": "Ім'я користувача скопійовано",
     "password-copied": "Пароль скопійовано",
-    "totp-copied": "TOTP скопійовано"
+    "totp-copied": "TOTP скопійовано",
+    "url-copied": "URL Copied",
+    "modified-date-copied": "Modified Date Copied",
+    "custom-field-copied": "Custom Field Copied"
   },
   "current-tab-credentials": {
-    "title": "Збіги"
+    "title": "Збіги",
+    "autofill": "AutoFill",
+    "tags": "Tags",
+    "notes": "Notes"
   },
   "database-list-item": {
     "lock": "Замкнути",
@@ -85,19 +99,22 @@
     "message": "На жаль, Strongbox ще не доступний на цій платформі."
   },
   "search-bar": {
-    "title": "Пошук..."
+    "title": "Пошук...",
+    "place-holder": "Search Strongbox"
   },
   "settings-popup-component": {
     "title": "Параметри",
     "title-tab1": "Програма",
     "title-tab2": "Стиль",
     "show-inline-menus": "Показати вбудовані меню",
-    "show-match-count-badge-on-popup-icon": "Показати кількість збігів на спливній піктограмі",
-    "fill-on-load-if-only-single-match-found": "Заповнити при завантаженні, якщо знайдено лише один збіг",
+    "show-match-count-badge-on-popup-icon": "Show Match Count Badge",
+    "fill-on-load-if-only-single-match-found": "Fill on Load if Only Single Match",
     "always-fill-on-load-with-first-match": "Завжди заповнювати при завантаженні першим збігом",
     "do-not-fill-on-load-on-this-domain": "Вимкнути автозаповнення для цього домену",
     "do-not-show-inline-menus-on-this-domain": "Не показувати вбудовані меню для цього домену",
     "do-not-show-inline-menus-on-this-page": "Не показувати вбудовані меню на цій сторінці",
+    "do-not-show-credential-details-on-popup": "Hide Details on Popup",
+    "do-not-show-credential-details-on-inline-menu": "Hide Details on Inline Menu",
     "language": "Мова",
     "appearance": "Зовнішній вигляд",
     "font-size": "Розмір шрифту",
