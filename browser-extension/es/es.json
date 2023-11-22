@@ -8,7 +8,11 @@
     "cancel": "Cancelar",
     "create": "Crear",
     "add": "Añadir",
-    "search": "Buscar"
+    "search": "Buscar",
+    "copy": "Copy",
+    "autofill": "AutoFill",
+    "launch-url": "Launch URL",
+    "show-hide": "Show/Hide"
   },
   "inline-mini-field-menu": {
     "no-matching-entries-found": "No se han encontrado entradas coincidentes",
@@ -23,6 +27,7 @@
     "hide-on-domain": "Ocultar en dominio"
   },
   "inline-menu-credential-item": {
+    "view-details": "View Details",
     "copy-username": "Copiar nombre de usuario",
     "copy-password": "Copiar contraseña"
   },
@@ -31,6 +36,9 @@
     "credential-title": "Título",
     "username": "Nombre de usuario",
     "password": "Contraseña",
+    "url": "URL",
+    "totp": "TOTP",
+    "modified-date": "Modified",
     "database": "Base de datos",
     "group": "Grupo",
     "save-in": "Guardar en",
@@ -51,10 +59,16 @@
     "successfully-created-new-entry": "Nueva entrada creada con éxito",
     "username-copied": "Nombre de usuario copiado",
     "password-copied": "Contraseña copiada",
-    "totp-copied": "TOTP copiado"
+    "totp-copied": "TOTP copiado",
+    "url-copied": "URL Copied",
+    "modified-date-copied": "Modified Date Copied",
+    "custom-field-copied": "Custom Field Copied"
   },
   "current-tab-credentials": {
-    "title": "Coincidencias"
+    "title": "Coincidencias",
+    "autofill": "AutoFill",
+    "tags": "Tags",
+    "notes": "Notes"
   },
   "database-list-item": {
     "lock": "Bloquear",
@@ -85,19 +99,22 @@
     "message": "Por desgracia, Strongbox aún no está disponible en esta plataforma."
   },
   "search-bar": {
-    "title": "Buscar..."
+    "title": "Buscar...",
+    "place-holder": "Search Strongbox"
   },
   "settings-popup-component": {
     "title": "Ajustes",
     "title-tab1": "App",
     "title-tab2": "Estilo",
     "show-inline-menus": "Mostrar menús en línea",
-    "show-match-count-badge-on-popup-icon": "Mostrar el recuento de coincidencias en el icono emergente",
-    "fill-on-load-if-only-single-match-found": "Rellenar al cargar si sólo se encuentra una coincidencia",
+    "show-match-count-badge-on-popup-icon": "Show Match Count Badge",
+    "fill-on-load-if-only-single-match-found": "Fill on Load if Only Single Match",
     "always-fill-on-load-with-first-match": "Rellenar siempre al cargar con la primera coincidencia",
     "do-not-fill-on-load-on-this-domain": "No rellenar al cargar en este dominio",
     "do-not-show-inline-menus-on-this-domain": "No mostrar menús en línea en este dominio",
     "do-not-show-inline-menus-on-this-page": "No mostrar menús en línea en esta página",
+    "do-not-show-credential-details-on-popup": "Hide Details on Popup",
+    "do-not-show-credential-details-on-inline-menu": "Hide Details on Inline Menu",
     "language": "Idioma",
     "appearance": "Apariencia",
     "font-size": "Tamaño de fuente",
