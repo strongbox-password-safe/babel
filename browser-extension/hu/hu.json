@@ -8,7 +8,11 @@
     "cancel": "Mégse",
     "create": "Létrehozás",
     "add": "Hozzáad",
-    "search": "Keresés"
+    "search": "Keresés",
+    "copy": "Copy",
+    "autofill": "AutoFill",
+    "launch-url": "Launch URL",
+    "show-hide": "Show/Hide"
   },
   "inline-mini-field-menu": {
     "no-matching-entries-found": "Nincsenek megfelelő bejegyzések",
@@ -23,6 +27,7 @@
     "hide-on-domain": "Tartományon elrejtés"
   },
   "inline-menu-credential-item": {
+    "view-details": "View Details",
     "copy-username": "Felhasználónév másolása",
     "copy-password": "Jelszó másolása"
   },
@@ -31,6 +36,9 @@
     "credential-title": "Megnevezés",
     "username": "Felhasználónév",
     "password": "Jelszó",
+    "url": "URL",
+    "totp": "TOTP",
+    "modified-date": "Modified",
     "database": "Adatbázis",
     "group": "Csoport",
     "save-in": "Mentés ide",
@@ -51,10 +59,16 @@
     "successfully-created-new-entry": "Új bejegyzés sikeresen létrehozva",
     "username-copied": "Felhasználónév másolva",
     "password-copied": "Jelszó másolva",
-    "totp-copied": "TOTP másolva"
+    "totp-copied": "TOTP másolva",
+    "url-copied": "URL Copied",
+    "modified-date-copied": "Modified Date Copied",
+    "custom-field-copied": "Custom Field Copied"
   },
   "current-tab-credentials": {
-    "title": "Találatok"
+    "title": "Találatok",
+    "autofill": "AutoFill",
+    "tags": "Tags",
+    "notes": "Notes"
   },
   "database-list-item": {
     "lock": "Zárol",
@@ -85,19 +99,22 @@
     "message": "Sajnos a Strongbox még nem érhető el ezen a platformon."
   },
   "search-bar": {
-    "title": "Keresés..."
+    "title": "Keresés...",
+    "place-holder": "Search Strongbox"
   },
   "settings-popup-component": {
     "title": "Beállítások",
     "title-tab1": "Alkalmazás",
     "title-tab2": "Stílus",
     "show-inline-menus": "Soron belüli menük megjelenítése",
-    "show-match-count-badge-on-popup-icon": "Találatok számanak megjelenítése a felugró ikonon",
-    "fill-on-load-if-only-single-match-found": "Kitöltés betöltéskor, ha csak egyetlen egyezés volt",
+    "show-match-count-badge-on-popup-icon": "Show Match Count Badge",
+    "fill-on-load-if-only-single-match-found": "Fill on Load if Only Single Match",
     "always-fill-on-load-with-first-match": "Mindig az első találattal töltse ki",
     "do-not-fill-on-load-on-this-domain": "Ne töltse ki ezen tartomány esetén",
     "do-not-show-inline-menus-on-this-domain": "Ne jelenítsen meg soron belüli menüket ennél a tartománynál",
     "do-not-show-inline-menus-on-this-page": "Ne jelenítsen meg soron belüli menüket ennél az oldalnál",
+    "do-not-show-credential-details-on-popup": "Hide Details on Popup",
+    "do-not-show-credential-details-on-inline-menu": "Hide Details on Inline Menu",
     "language": "Nyelv",
     "appearance": "Kinézet",
     "font-size": "Betűméret",
