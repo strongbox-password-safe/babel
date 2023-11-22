@@ -8,7 +8,11 @@
     "cancel": "İptal",
     "create": "Oluştur",
     "add": "Add",
-    "search": "Search"
+    "search": "Search",
+    "copy": "Copy",
+    "autofill": "AutoFill",
+    "launch-url": "Launch URL",
+    "show-hide": "Show/Hide"
   },
   "inline-mini-field-menu": {
     "no-matching-entries-found": "Eşleşen Girdi Bulunmadı",
@@ -23,6 +27,7 @@
     "hide-on-domain": "Etki alanında gizle"
   },
   "inline-menu-credential-item": {
+    "view-details": "View Details",
     "copy-username": "Kullanıcı Adını Kopyala",
     "copy-password": "Şifreyi Kopyala"
   },
@@ -31,6 +36,9 @@
     "credential-title": "Başlık",
     "username": "Kullanıcı Adı",
     "password": "Şifre",
+    "url": "URL",
+    "totp": "TOTP",
+    "modified-date": "Modified",
     "database": "Veritabanı",
     "group": "Grup",
     "save-in": "Kaydet",
@@ -51,10 +59,16 @@
     "successfully-created-new-entry": "Yeni Girdi Başarıyla Oluşturuldu",
     "username-copied": "Kullanıcı Adı Kopyalandı",
     "password-copied": "Şifre Kopyalandı",
-    "totp-copied": "TOTP Kopyalandı"
+    "totp-copied": "TOTP Kopyalandı",
+    "url-copied": "URL Copied",
+    "modified-date-copied": "Modified Date Copied",
+    "custom-field-copied": "Custom Field Copied"
   },
   "current-tab-credentials": {
-    "title": "Eşleşmeler"
+    "title": "Eşleşmeler",
+    "autofill": "AutoFill",
+    "tags": "Tags",
+    "notes": "Notes"
   },
   "database-list-item": {
     "lock": "Kilitle",
@@ -85,19 +99,22 @@
     "message": "Ne yazık ki Strongbox henüz bu platformda mevcut değil."
   },
   "search-bar": {
-    "title": "Ara..."
+    "title": "Ara...",
+    "place-holder": "Search Strongbox"
   },
   "settings-popup-component": {
     "title": "Ayarlar",
     "title-tab1": "Uygulama",
     "title-tab2": "Stil",
     "show-inline-menus": "Satır İçi Menüleri Göster",
-    "show-match-count-badge-on-popup-icon": "Açılır Pencere Simgesinde Sayıyı Göster",
-    "fill-on-load-if-only-single-match-found": "Yalnızca Tek Eşleşme Bulunduğunda Alanı Doldur",
+    "show-match-count-badge-on-popup-icon": "Show Match Count Badge",
+    "fill-on-load-if-only-single-match-found": "Fill on Load if Only Single Match",
     "always-fill-on-load-with-first-match": "Her Zaman İlk Eşleşme ile Doldur",
     "do-not-fill-on-load-on-this-domain": "Bu Alan Adında Otomatik Doldurma",
     "do-not-show-inline-menus-on-this-domain": "Bu Etki Alanında Satır İçi Menüleri Gösterme",
     "do-not-show-inline-menus-on-this-page": "Bu Sayfada Satır İçi Menüleri Gösterme",
+    "do-not-show-credential-details-on-popup": "Hide Details on Popup",
+    "do-not-show-credential-details-on-inline-menu": "Hide Details on Inline Menu",
     "language": "Language",
     "appearance": "Appearance",
     "font-size": "Font Size",
