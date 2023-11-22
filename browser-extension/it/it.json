@@ -8,7 +8,11 @@
     "cancel": "Annullare",
     "create": "Creare",
     "add": "Aggiungere",
-    "search": "Ricerca"
+    "search": "Ricerca",
+    "copy": "Copy",
+    "autofill": "AutoFill",
+    "launch-url": "Launch URL",
+    "show-hide": "Show/Hide"
   },
   "inline-mini-field-menu": {
     "no-matching-entries-found": "Nessuna Voce Corrispondente Trovata",
@@ -23,6 +27,7 @@
     "hide-on-domain": "Nascondere sul dominio"
   },
   "inline-menu-credential-item": {
+    "view-details": "View Details",
     "copy-username": "Copiare Nome Utente",
     "copy-password": "Copiare Password"
   },
@@ -31,6 +36,9 @@
     "credential-title": "Titolo",
     "username": "Nome Utente",
     "password": "Password",
+    "url": "URL",
+    "totp": "TOTP",
+    "modified-date": "Modified",
     "database": "Database",
     "group": "Gruppo",
     "save-in": "Salvare in",
@@ -51,10 +59,16 @@
     "successfully-created-new-entry": "Nuova Voce Creata Con Successo",
     "username-copied": "Nome Utente Copiato",
     "password-copied": "Password Copiata",
-    "totp-copied": "TOTP Copiato"
+    "totp-copied": "TOTP Copiato",
+    "url-copied": "URL Copied",
+    "modified-date-copied": "Modified Date Copied",
+    "custom-field-copied": "Custom Field Copied"
   },
   "current-tab-credentials": {
-    "title": "Corrispondenze"
+    "title": "Corrispondenze",
+    "autofill": "AutoFill",
+    "tags": "Tags",
+    "notes": "Notes"
   },
   "database-list-item": {
     "lock": "Bloccare",
@@ -85,19 +99,22 @@
     "message": "Purtroppo Strongbox non è ancora disponibile su questa piattaforma."
   },
   "search-bar": {
-    "title": "Ricerca..."
+    "title": "Ricerca...",
+    "place-holder": "Search Strongbox"
   },
   "settings-popup-component": {
     "title": "Impostazioni",
     "title-tab1": "App",
     "title-tab2": "Stile",
     "show-inline-menus": "Mostrare Menu in Linea",
-    "show-match-count-badge-on-popup-icon": "Mostrare Badge Conteggio delle Corrispondenze sull'Icona Popup",
-    "fill-on-load-if-only-single-match-found": "Riempimento all'Esecuzione Se Viene Trovata Una Sola Corrispondenza",
+    "show-match-count-badge-on-popup-icon": "Show Match Count Badge",
+    "fill-on-load-if-only-single-match-found": "Fill on Load if Only Single Match",
     "always-fill-on-load-with-first-match": "Riempire Sempre all'Esecuzione con la Prima Corrispondenza",
     "do-not-fill-on-load-on-this-domain": "Non Riempire all'Esecuzione per Questo Dominio",
     "do-not-show-inline-menus-on-this-domain": "Non Mostrare Menu In Linea per Questo Dominio",
     "do-not-show-inline-menus-on-this-page": "Non Mostrare Menu In Linea per Questa Pagina",
+    "do-not-show-credential-details-on-popup": "Hide Details on Popup",
+    "do-not-show-credential-details-on-inline-menu": "Hide Details on Inline Menu",
     "language": "Lingua",
     "appearance": "Aspetto",
     "font-size": "Dimensione Carattere",
