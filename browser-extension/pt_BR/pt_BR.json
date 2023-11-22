@@ -8,7 +8,11 @@
     "cancel": "Cancelar",
     "create": "Criar",
     "add": "Adicionar",
-    "search": "Pesquisar"
+    "search": "Pesquisar",
+    "copy": "Copy",
+    "autofill": "AutoFill",
+    "launch-url": "Launch URL",
+    "show-hide": "Show/Hide"
   },
   "inline-mini-field-menu": {
     "no-matching-entries-found": "Nenhum registro correspondente foi encontrado",
@@ -23,6 +27,7 @@
     "hide-on-domain": "Ocultar no domínio"
   },
   "inline-menu-credential-item": {
+    "view-details": "View Details",
     "copy-username": "Copiar nome de usuário",
     "copy-password": "Copiar senha"
   },
@@ -31,6 +36,9 @@
     "credential-title": "Título",
     "username": "Nome de usuário",
     "password": "Senha",
+    "url": "URL",
+    "totp": "TOTP",
+    "modified-date": "Modified",
     "database": "Banco de Dados",
     "group": "Grupo",
     "save-in": "Salvar em",
@@ -51,10 +59,16 @@
     "successfully-created-new-entry": "Novo registro criada com sucesso",
     "username-copied": "Nome de usuário copiado",
     "password-copied": "Senha copiada",
-    "totp-copied": "TOTP copiado"
+    "totp-copied": "TOTP copiado",
+    "url-copied": "URL Copied",
+    "modified-date-copied": "Modified Date Copied",
+    "custom-field-copied": "Custom Field Copied"
   },
   "current-tab-credentials": {
-    "title": "Correspondências"
+    "title": "Correspondências",
+    "autofill": "AutoFill",
+    "tags": "Tags",
+    "notes": "Notes"
   },
   "database-list-item": {
     "lock": "Bloquear",
@@ -85,19 +99,22 @@
     "message": "Infelizmente, o Strongbox ainda não está disponível nessa plataforma."
   },
   "search-bar": {
-    "title": "Pesquisar..."
+    "title": "Pesquisar...",
+    "place-holder": "Search Strongbox"
   },
   "settings-popup-component": {
     "title": "Configurações",
     "title-tab1": "Aplicativo",
     "title-tab2": "Estilo",
     "show-inline-menus": "Show Inline Menus",
-    "show-match-count-badge-on-popup-icon": "Show Match Count Badge on Popup Icon",
-    "fill-on-load-if-only-single-match-found": "Preencher no cargamento se apenas uma única correspondência for encontrada",
+    "show-match-count-badge-on-popup-icon": "Show Match Count Badge",
+    "fill-on-load-if-only-single-match-found": "Fill on Load if Only Single Match",
     "always-fill-on-load-with-first-match": "Always Fill on Load with First Match",
     "do-not-fill-on-load-on-this-domain": "Não preencher na leitura deste domínio",
     "do-not-show-inline-menus-on-this-domain": "Do Not Show Inline Menus on this Domain",
     "do-not-show-inline-menus-on-this-page": "Do Not Show Inline Menus on this Page",
+    "do-not-show-credential-details-on-popup": "Hide Details on Popup",
+    "do-not-show-credential-details-on-inline-menu": "Hide Details on Inline Menu",
     "language": "Idioma",
     "appearance": "Aparência",
     "font-size": "Tamanho da Fonte",
