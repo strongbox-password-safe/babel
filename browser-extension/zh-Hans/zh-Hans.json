@@ -8,7 +8,11 @@
     "cancel": "取消",
     "create": "创建",
     "add": "添加",
-    "search": "搜索"
+    "search": "搜索",
+    "copy": "Copy",
+    "autofill": "AutoFill",
+    "launch-url": "Launch URL",
+    "show-hide": "Show/Hide"
   },
   "inline-mini-field-menu": {
     "no-matching-entries-found": "未找到匹配条目",
@@ -23,6 +27,7 @@
     "hide-on-domain": "在域名上隐藏"
   },
   "inline-menu-credential-item": {
+    "view-details": "View Details",
     "copy-username": "复制用户名",
     "copy-password": "复制密码"
   },
@@ -31,6 +36,9 @@
     "credential-title": "标题",
     "username": "用户名",
     "password": "密码",
+    "url": "URL",
+    "totp": "TOTP",
+    "modified-date": "Modified",
     "database": "数据库",
     "group": "群组",
     "save-in": "保存到",
@@ -51,10 +59,16 @@
     "successfully-created-new-entry": "已成功创建新条目",
     "username-copied": "用户名已复制",
     "password-copied": "密码已复制",
-    "totp-copied": "TOTP 已复制"
+    "totp-copied": "TOTP 已复制",
+    "url-copied": "URL Copied",
+    "modified-date-copied": "Modified Date Copied",
+    "custom-field-copied": "Custom Field Copied"
   },
   "current-tab-credentials": {
-    "title": "匹配"
+    "title": "匹配",
+    "autofill": "AutoFill",
+    "tags": "Tags",
+    "notes": "Notes"
   },
   "database-list-item": {
     "lock": "锁定",
@@ -85,19 +99,22 @@
     "message": "很抱歉，Strongbox 尚未支持此平台。"
   },
   "search-bar": {
-    "title": "搜索中..."
+    "title": "搜索中...",
+    "place-holder": "Search Strongbox"
   },
   "settings-popup-component": {
     "title": "设置",
     "title-tab1": "应用程序",
     "title-tab2": "样式",
     "show-inline-menus": "显示内联菜单",
-    "show-match-count-badge-on-popup-icon": "在弹出图标上显示匹配项计数",
-    "fill-on-load-if-only-single-match-found": "如果只找到一个匹配项，则立即填充",
+    "show-match-count-badge-on-popup-icon": "Show Match Count Badge",
+    "fill-on-load-if-only-single-match-found": "Fill on Load if Only Single Match",
     "always-fill-on-load-with-first-match": "始终使用首个匹配项进行填充",
     "do-not-fill-on-load-on-this-domain": "此域名不使用立即填充",
     "do-not-show-inline-menus-on-this-domain": "不在此域名上显示内联菜单",
     "do-not-show-inline-menus-on-this-page": "不在此页面上显示内联菜单",
+    "do-not-show-credential-details-on-popup": "Hide Details on Popup",
+    "do-not-show-credential-details-on-inline-menu": "Hide Details on Inline Menu",
     "language": "语言",
     "appearance": "外观",
     "font-size": "字体大小",

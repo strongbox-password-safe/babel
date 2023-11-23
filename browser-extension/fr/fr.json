@@ -1,14 +1,18 @@
 {
-  "autodetected-language": "Auto-Detected ({{language}})",
+  "autodetected-language": "Détecté automatiquement ({{language}})",
   "general": {
-    "app-name": "Strongbox AutoFill",
+    "app-name": "Remplissage automatique Strongbox",
     "company-name": "Phoebe Code Limited",
-    "loading": "Loading...",
-    "searching": "Searching...",
-    "cancel": "Cancel",
-    "create": "Create",
-    "add": "Add",
-    "search": "Search"
+    "loading": "Chargement...",
+    "searching": "Recherche en cours...",
+    "cancel": "Annuler",
+    "create": "Créer",
+    "add": "Ajouter",
+    "search": "Search",
+    "copy": "Copy",
+    "autofill": "AutoFill",
+    "launch-url": "Launch URL",
+    "show-hide": "Show/Hide"
   },
   "inline-mini-field-menu": {
     "no-matching-entries-found": "No Matching Entries Found",
@@ -23,6 +27,7 @@
     "hide-on-domain": "Hide on domain"
   },
   "inline-menu-credential-item": {
+    "view-details": "View Details",
     "copy-username": "Copy Username",
     "copy-password": "Copy Password"
   },
@@ -31,6 +36,9 @@
     "credential-title": "Title",
     "username": "Username",
     "password": "Password",
+    "url": "URL",
+    "totp": "TOTP",
+    "modified-date": "Modified",
     "database": "Database",
     "group": "Group",
     "save-in": "Save in",
@@ -51,10 +59,16 @@
     "successfully-created-new-entry": "Successfully Created New Entry",
     "username-copied": "Username Copied",
     "password-copied": "Password Copied",
-    "totp-copied": "TOTP Copied"
+    "totp-copied": "TOTP Copied",
+    "url-copied": "URL Copied",
+    "modified-date-copied": "Modified Date Copied",
+    "custom-field-copied": "Custom Field Copied"
   },
   "current-tab-credentials": {
-    "title": "Matches"
+    "title": "Correspondances",
+    "autofill": "AutoFill",
+    "tags": "Tags",
+    "notes": "Notes"
   },
   "database-list-item": {
     "lock": "Lock",
@@ -77,37 +91,40 @@
     "launch-strongbox": "Launch Strongbox",
     "troubleshooting": {
       "title": "Troubleshooting",
-      "message1": "1. Make sure Strongbox is installed and running.",
-      "message2": "2. Make sure you are a Pro user, AutoFill is a paid Pro feature.",
-      "message3": "3. Check the setting below is enabled:",
-      "settings-path": "Settings > Advanced > Chrome & Firefox AutoFill Extension"
+      "message1": "1. Assurez-vous que Strongbox est installé et en cours d'exécution.",
+      "message2": "2. Assurez-vous que vous êtes un utilisateur Pro, le remplissage automatique est une fonctionnalité payante Pro.",
+      "message3": "3. Vérifiez que le paramètre ci-dessous est activé :",
+      "settings-path": "Réglages > Avancé > Extension de remplissage auto pour Chrome et Firefox"
     },
-    "message": "Unfortunately Strongbox isn't yet available on this platform."
+    "message": "Malheureusement, Strongbox n'est pas encore disponible sur cette plateforme."
   },
   "search-bar": {
-    "title": "Search..."
+    "title": "Recherche...",
+    "place-holder": "Search Strongbox"
   },
   "settings-popup-component": {
-    "title": "Settings",
-    "title-tab1": "App",
+    "title": "Réglages",
+    "title-tab1": "Appli",
     "title-tab2": "Style",
     "show-inline-menus": "Show Inline Menus",
-    "show-match-count-badge-on-popup-icon": "Show Match Count Badge on Popup Icon",
-    "fill-on-load-if-only-single-match-found": "Fill on Load if Only Single Match Found",
-    "always-fill-on-load-with-first-match": "Always Fill on Load with First Match",
-    "do-not-fill-on-load-on-this-domain": "Do Not Fill on Load on this Domain",
+    "show-match-count-badge-on-popup-icon": "Show Match Count Badge",
+    "fill-on-load-if-only-single-match-found": "Fill on Load if Only Single Match",
+    "always-fill-on-load-with-first-match": "Toujours remplir au chargement avec la première correspondance",
+    "do-not-fill-on-load-on-this-domain": "Ne pas remplir lors du chargement sur ce domaine",
     "do-not-show-inline-menus-on-this-domain": "Do Not Show Inline Menus on this Domain",
     "do-not-show-inline-menus-on-this-page": "Do Not Show Inline Menus on this Page",
-    "language": "Language",
-    "appearance": "Appearance",
-    "font-size": "Font Size",
-    "spacing": "Spacing",
-    "appearance-dark": "Dark",
-    "appearance-light": "Light",
-    "appearance-system": "System",
-    "style-small": "Small",
-    "style-medium": "Medium",
-    "style-large": "Large",
+    "do-not-show-credential-details-on-popup": "Hide Details on Popup",
+    "do-not-show-credential-details-on-inline-menu": "Hide Details on Inline Menu",
+    "language": "Langue",
+    "appearance": "Apparence",
+    "font-size": "Taille du texte",
+    "spacing": "Espacement",
+    "appearance-dark": "Sombre",
+    "appearance-light": "Claire",
+    "appearance-system": "Système",
+    "style-small": "Petit",
+    "style-medium": "Moyen",
+    "style-large": "Grand",
     "style-xl": "XL"
   }
 }

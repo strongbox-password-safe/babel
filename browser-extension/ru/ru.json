@@ -8,7 +8,11 @@
     "cancel": "Отмена",
     "create": "Создать",
     "add": "Добавить",
-    "search": "Поиск"
+    "search": "Поиск",
+    "copy": "Copy",
+    "autofill": "AutoFill",
+    "launch-url": "Launch URL",
+    "show-hide": "Show/Hide"
   },
   "inline-mini-field-menu": {
     "no-matching-entries-found": "Записей не найдено",
@@ -23,6 +27,7 @@
     "hide-on-domain": "Скрыть в домене"
   },
   "inline-menu-credential-item": {
+    "view-details": "View Details",
     "copy-username": "Копировать логин",
     "copy-password": "Копировать пароль"
   },
@@ -31,6 +36,9 @@
     "credential-title": "Название",
     "username": "Логин",
     "password": "Пароль",
+    "url": "URL",
+    "totp": "TOTP",
+    "modified-date": "Modified",
     "database": "База данных",
     "group": "Группа",
     "save-in": "Сохранить в ...",
@@ -51,10 +59,16 @@
     "successfully-created-new-entry": "Успешно создана новая запись",
     "username-copied": "Логин скопирован",
     "password-copied": "Пароль скопирован",
-    "totp-copied": "TOTP скопирован"
+    "totp-copied": "TOTP скопирован",
+    "url-copied": "URL Copied",
+    "modified-date-copied": "Modified Date Copied",
+    "custom-field-copied": "Custom Field Copied"
   },
   "current-tab-credentials": {
-    "title": "Совпадения"
+    "title": "Совпадения",
+    "autofill": "AutoFill",
+    "tags": "Tags",
+    "notes": "Notes"
   },
   "database-list-item": {
     "lock": "Заблокировать",
@@ -85,19 +99,22 @@
     "message": "К сожалению, Strongbox еще не доступен на этой платформе."
   },
   "search-bar": {
-    "title": "Поиск ..."
+    "title": "Поиск ...",
+    "place-holder": "Search Strongbox"
   },
   "settings-popup-component": {
     "title": "Параметры",
     "title-tab1": "Приложение",
     "title-tab2": "Внешний вид",
     "show-inline-menus": "Показать встроенные меню",
-    "show-match-count-badge-on-popup-icon": "Показывать количество совпадений на всплывающем значке",
-    "fill-on-load-if-only-single-match-found": "Заполнение при загрузке, если найдено только одно совпадение",
+    "show-match-count-badge-on-popup-icon": "Show Match Count Badge",
+    "fill-on-load-if-only-single-match-found": "Fill on Load if Only Single Match",
     "always-fill-on-load-with-first-match": "Всегда заполнять при первом совпадении",
     "do-not-fill-on-load-on-this-domain": "Не заполнять при загрузке этого домена",
     "do-not-show-inline-menus-on-this-domain": "Не показывать встроенные меню в этом домене",
     "do-not-show-inline-menus-on-this-page": "Не показывать встроенные меню на этой странице",
+    "do-not-show-credential-details-on-popup": "Hide Details on Popup",
+    "do-not-show-credential-details-on-inline-menu": "Hide Details on Inline Menu",
     "language": "Язык",
     "appearance": "Оформление",
     "font-size": "Размер шрифта",

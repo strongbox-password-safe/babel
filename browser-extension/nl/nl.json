@@ -8,7 +8,11 @@
     "cancel": "Cancel",
     "create": "Create",
     "add": "Add",
-    "search": "Search"
+    "search": "Search",
+    "copy": "Copy",
+    "autofill": "AutoFill",
+    "launch-url": "Launch URL",
+    "show-hide": "Show/Hide"
   },
   "inline-mini-field-menu": {
     "no-matching-entries-found": "No Matching Entries Found",
@@ -23,6 +27,7 @@
     "hide-on-domain": "Hide on domain"
   },
   "inline-menu-credential-item": {
+    "view-details": "View Details",
     "copy-username": "Copy Username",
     "copy-password": "Copy Password"
   },
@@ -31,6 +36,9 @@
     "credential-title": "Title",
     "username": "Username",
     "password": "Password",
+    "url": "URL",
+    "totp": "TOTP",
+    "modified-date": "Modified",
     "database": "Database",
     "group": "Group",
     "save-in": "Save in",
@@ -51,10 +59,16 @@
     "successfully-created-new-entry": "Successfully Created New Entry",
     "username-copied": "Username Copied",
     "password-copied": "Password Copied",
-    "totp-copied": "TOTP Copied"
+    "totp-copied": "TOTP Copied",
+    "url-copied": "URL Copied",
+    "modified-date-copied": "Modified Date Copied",
+    "custom-field-copied": "Custom Field Copied"
   },
   "current-tab-credentials": {
-    "title": "Matches"
+    "title": "Matches",
+    "autofill": "AutoFill",
+    "tags": "Tags",
+    "notes": "Notes"
   },
   "database-list-item": {
     "lock": "Lock",
@@ -85,19 +99,22 @@
     "message": "Unfortunately Strongbox isn't yet available on this platform."
   },
   "search-bar": {
-    "title": "Search..."
+    "title": "Search...",
+    "place-holder": "Search Strongbox"
   },
   "settings-popup-component": {
     "title": "Settings",
     "title-tab1": "App",
     "title-tab2": "Style",
     "show-inline-menus": "Show Inline Menus",
-    "show-match-count-badge-on-popup-icon": "Show Match Count Badge on Popup Icon",
-    "fill-on-load-if-only-single-match-found": "Fill on Load if Only Single Match Found",
+    "show-match-count-badge-on-popup-icon": "Show Match Count Badge",
+    "fill-on-load-if-only-single-match-found": "Fill on Load if Only Single Match",
     "always-fill-on-load-with-first-match": "Always Fill on Load with First Match",
     "do-not-fill-on-load-on-this-domain": "Do Not Fill on Load on this Domain",
     "do-not-show-inline-menus-on-this-domain": "Do Not Show Inline Menus on this Domain",
     "do-not-show-inline-menus-on-this-page": "Do Not Show Inline Menus on this Page",
+    "do-not-show-credential-details-on-popup": "Hide Details on Popup",
+    "do-not-show-credential-details-on-inline-menu": "Hide Details on Inline Menu",
     "language": "Language",
     "appearance": "Appearance",
     "font-size": "Font Size",
