@@ -3173,7 +3173,7 @@
 "audit_manual_pwn_check_result_not_pwned" = "Ihr Passwort wurde NICHT gestohlen und ist wahrscheinlich sicher.";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Manual HIBP Result";
+"audit_manual_pwn_check_result_title" = "Manuelles HIBP-(Wurde ich gehackt?)-Ergebnis";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "Dieses Passwort ist gestohlen und angreifbar";
@@ -3368,7 +3368,7 @@
 "sftp_path_are_you_sure" = "Sind Sie sicher, dass der Pfad korrekt ist? Es sollte sich um einen Pfad zu einem übergeordneten Ordner handeln. Nicht zur Datenbankdatei.";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Are you sure the path is correct? It should be a path to a parent folder. Not the database file.";
+"sftp_path_are_you_sure" = "Sind Sie sicher, dass der Pfad korrekt ist? Es sollte ein Pfad zu einem übergeordneten Ordner, nicht die Datenbankdatei selbst, sein.";
 
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "Pfad könnte ungültig sein";
@@ -3644,7 +3644,7 @@
 "merge_view_are_you_sure" = "Möchten Sie die zweite Datenbank wirklich mit der ersten zusammenführen?";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Are you sure you want to merge the second database into the first?";
+"merge_view_are_you_sure" = "Möchten Sie die zweite Datenbank wirklich mit der ersten zusammenführen?";
 
 /* Merge Successful */
 "merge_view_merge_title_success" = "Zusammenführen erfolgreich";
@@ -5423,7 +5423,7 @@
 "search_results_summary_no_matches_found" = "Keine Übereinstimmungen gefunden";
 
 /* Orchard Street Diceware List */
-"pwgen_wordlist_orchard_st" = "Orchard Street Diceware List";
+"pwgen_wordlist_orchard_st" = "Orchard Street Diceware-Liste";
 
 /* SSH Keys */
 "sidebar_quick_view_keeagent_ssh_keys_title" = "SSH-Schlüssel";
@@ -5770,7 +5770,7 @@
 "yubikey_insert_the_key_to_read_the_otp" = "Stecken Sie Ihren YubiKey ein …";
 
 /* Communicating with hardware key... */
-"yubikey_communicating_with_key_ellipsis" = "Communicating with your YubiKey...";
+"yubikey_communicating_with_key_ellipsis" = "Mit Ihrem YubiKey wird kommuniziert …";
 
 /* '%@' already has a passkey, do you want to overwrite it? */
 "passkey_overwrite_existing_question_msg_fmt" = "„%@” besitzt bereits einen Hauptschlüssel. Möchten Sie ihn wirklich überschreiben?";
@@ -5782,4 +5782,4 @@
 "favicon_downloader_images_too_large" = "Das Favicon konnte nicht automatisch ausgewählt werden, da alle verfügbaren Bilder größer als das konfigurierte Maximum sind. Sie müssen es manuell auswählen.";
 
 /* Cannot rename file as a file with that name already exists. */
-"error_rename_file_already_exists" = "Cannot rename file as a file with that name already exists.";
+"error_rename_file_already_exists" = "Datei konnte nicht umbenannt werden, da eine Datei mit diesem Namen bereits existiert.";
