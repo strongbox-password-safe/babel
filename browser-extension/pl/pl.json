@@ -9,10 +9,10 @@
     "create": "Utwórz",
     "add": "Dodaj",
     "search": "Szukaj",
-    "copy": "Copy",
-    "autofill": "AutoFill",
-    "launch-url": "Launch URL",
-    "show-hide": "Show/Hide"
+    "copy": "Kopiuj",
+    "autofill": "Automatyczne Wypełnianie",
+    "launch-url": "Przejdź do adresu URL",
+    "show-hide": "Pokaż/Ukryj"
   },
   "inline-mini-field-menu": {
     "no-matching-entries-found": "Nie znaleziono pasujących wpisów",
@@ -27,7 +27,7 @@
     "hide-on-domain": "Ukryj w domenie"
   },
   "inline-menu-credential-item": {
-    "view-details": "View Details",
+    "view-details": "Wyświetl szczegóły",
     "copy-username": "Kopiuj nazwę użytkownika",
     "copy-password": "Kopiuj hasło"
   },
@@ -36,9 +36,9 @@
     "credential-title": "Tytuł",
     "username": "Nazwa użytkownika",
     "password": "Hasło",
-    "url": "URL",
+    "url": "Adres URL",
     "totp": "TOTP",
-    "modified-date": "Modified",
+    "modified-date": "Zmodyfikowany",
     "database": "Baza danych",
     "group": "Grupa",
     "save-in": "Zapisz w",
@@ -60,15 +60,15 @@
     "username-copied": "Skopiowano nazwę użytkownika",
     "password-copied": "Skopiowano hasło",
     "totp-copied": "Skopiowano TOTP",
-    "url-copied": "URL Copied",
-    "modified-date-copied": "Modified Date Copied",
-    "custom-field-copied": "Custom Field Copied"
+    "url-copied": "Adres URL skopiowany",
+    "modified-date-copied": "Data modyfikacji skopiowana",
+    "custom-field-copied": "Pole niestandardowe skopiowane"
   },
   "current-tab-credentials": {
     "title": "Dopasowania",
-    "autofill": "AutoFill",
-    "tags": "Tags",
-    "notes": "Notes"
+    "autofill": "Automatyczne Wypełnianie",
+    "tags": "Tagi",
+    "notes": "Notatki"
   },
   "database-list-item": {
     "lock": "Blokada",
@@ -88,43 +88,43 @@
   },
   "not-running-popup-component": {
     "title": "Strongbox niedostępny",
-    "launch-strongbox": "Launch Strongbox",
+    "launch-strongbox": "Uruchom Strongbox",
     "troubleshooting": {
-      "title": "Troubleshooting",
-      "message1": "1. Make sure Strongbox is installed and running.",
-      "message2": "2. Make sure you are a Pro user, AutoFill is a paid Pro feature.",
-      "message3": "3. Check the setting below is enabled:",
-      "settings-path": "Settings > Advanced > Chrome & Firefox AutoFill Extension"
+      "title": "Rozwiązywanie problemów",
+      "message1": "1. Upewnij się, że Strongbox jest zainstalowany i uruchomiony.",
+      "message2": "2. Upewnij się, że jesteś użytkownikiem wersji Pro, Automatyczne Wypełnianie jest funkcją dostępną w płatnej wersji Pro.",
+      "message3": "3. Sprawdź, czy poniższe ustawienie jest włączone:",
+      "settings-path": "Ustawienia > Zaawansowane > Rozszerzenie Automatycznego Wypełniania Chrome i Firefox"
     },
-    "message": "Unfortunately Strongbox isn't yet available on this platform."
+    "message": "Niestety Strongbox nie jest jeszcze dostępny na tej platformie."
   },
   "search-bar": {
-    "title": "Search...",
-    "place-holder": "Search Strongbox"
+    "title": "Szukaj...",
+    "place-holder": "Przeszukaj Strongbox"
   },
   "settings-popup-component": {
     "title": "Ustawienia",
-    "title-tab1": "App",
-    "title-tab2": "Style",
-    "show-inline-menus": "Show Inline Menus",
-    "show-match-count-badge-on-popup-icon": "Show Match Count Badge",
-    "fill-on-load-if-only-single-match-found": "Fill on Load if Only Single Match",
-    "always-fill-on-load-with-first-match": "Always Fill on Load with First Match",
-    "do-not-fill-on-load-on-this-domain": "Do Not Fill on Load on this Domain",
-    "do-not-show-inline-menus-on-this-domain": "Do Not Show Inline Menus on this Domain",
-    "do-not-show-inline-menus-on-this-page": "Do Not Show Inline Menus on this Page",
-    "do-not-show-credential-details-on-popup": "Hide Details on Popup",
-    "do-not-show-credential-details-on-inline-menu": "Hide Details on Inline Menu",
+    "title-tab1": "Aplikacja",
+    "title-tab2": "Styl",
+    "show-inline-menus": "Pokaż menu podręczne",
+    "show-match-count-badge-on-popup-icon": "Pokaż liczbę dopasowań",
+    "fill-on-load-if-only-single-match-found": "Wypełnij przy wczytywaniu tylko, gdy znaleziono jedno dopasowanie",
+    "always-fill-on-load-with-first-match": "Zawsze wypełnij podczas wczytywania pierwszym pasującym wpisem",
+    "do-not-fill-on-load-on-this-domain": "Nie wypełniaj podczas wczytywania w tej domenie",
+    "do-not-show-inline-menus-on-this-domain": "Nie pokazuj menu podręcznego w tej domenie",
+    "do-not-show-inline-menus-on-this-page": "Nie pokazuj menu podręcznego na tej stronie",
+    "do-not-show-credential-details-on-popup": "Ukryj szczegóły na wyskakującym okienku",
+    "do-not-show-credential-details-on-inline-menu": "Ukryj szczegóły w menu podręcznym",
     "language": "Język",
     "appearance": "Wygląd",
     "font-size": "Rozmiar czcionki",
     "spacing": "Odstępy",
-    "appearance-dark": "Dark",
-    "appearance-light": "Light",
-    "appearance-system": "System",
-    "style-small": "Small",
-    "style-medium": "Medium",
-    "style-large": "Large",
-    "style-xl": "XL"
+    "appearance-dark": "Ciemny",
+    "appearance-light": "Jasny",
+    "appearance-system": "Systemowy",
+    "style-small": "Mały",
+    "style-medium": "Średni",
+    "style-large": "Duży",
+    "style-xl": "Bardzo Duży"
   }
 }
