@@ -3,10 +3,10 @@
   "general": {
     "app-name": "Strongbox AutoFill",
     "company-name": "Phoebe Code Limited",
-    "loading": "Loading...",
-    "searching": "Searching...",
-    "cancel": "Cancel",
-    "create": "Create",
+    "loading": "Laden...",
+    "searching": "Zoeken...",
+    "cancel": "Annuleer",
+    "create": "Maak aan",
     "add": "Voeg toe",
     "search": "Zoeken",
     "copy": "Kopieer",
@@ -16,10 +16,10 @@
   },
   "inline-mini-field-menu": {
     "no-matching-entries-found": "Geen overeenkomende entries gevonden",
-    "lock": "Lock",
+    "lock": "Vergrendel",
     "unlock": "Ontgrendel {{database}}",
     "create-new": "Opslaan in Strongbox",
-    "no-autofill-enabled-databases": "No AutoFill Enabled Databases"
+    "no-autofill-enabled-databases": "Geen AutoFill ingeschakeld voor Databases"
   },
   "hide-inline-menu": {
     "hide-for-a-while": "Een tijdje verbergen",
@@ -28,103 +28,103 @@
   },
   "inline-menu-credential-item": {
     "view-details": "Details bekijken",
-    "copy-username": "Copy Username",
-    "copy-password": "Copy Password"
+    "copy-username": "Kopieer gebruikersnaam",
+    "copy-password": "Kopiëer wachtwoord"
   },
   "create-new-entry-dialog": {
-    "title": "Create New Entry",
-    "credential-title": "Title",
-    "username": "Username",
-    "password": "Password",
+    "title": "Maak nieuw entry aan",
+    "credential-title": "Titel",
+    "username": "Gebruikersnaam",
+    "password": "Wachtwoord",
     "url": "URL",
     "totp": "TOTP",
     "modified-date": "Gewijzigd",
     "database": "Database",
-    "group": "Group",
-    "save-in": "Save in",
-    "no-autoFill-databases-available": "No AutoFill Databases Available",
-    "please-unlock-your-database": "Please Unlock Your Database...",
-    "could-not-load-databases": "Could not load databases!",
-    "could-not-load-defaults": "Could not load defaults!",
-    "could-not-refresh-groups": "Could not refresh groups!",
-    "could-not-generate-password": "Could Not Generate Password",
-    "could-not-unlock-database": "Could not Unlock Database",
-    "could-not-refresh-status": "Could not refresh status",
-    "could-not-connect-to-strongbox": "Could not Connect to Strongbox",
-    "error-getting-defaults": "Error getting defaults",
-    "there-is-not-a-valid-new-entry": "There is not a valid new entry.",
-    "could-not-create-new-entry": "Could not create new entry. error=({{error}})"
+    "group": "Groep",
+    "save-in": "Opslaan in",
+    "no-autoFill-databases-available": "Geen AutoFill-databases beschikbaar",
+    "please-unlock-your-database": "Ontgrendel uw database...",
+    "could-not-load-databases": "Kan databases niet laden!",
+    "could-not-load-defaults": "Kan standaardwaarden niet laden!",
+    "could-not-refresh-groups": "Kan groepen niet verversen!",
+    "could-not-generate-password": "Kan geen wachtwoord genereren",
+    "could-not-unlock-database": "Database kan niet worden ontgrendeld",
+    "could-not-refresh-status": "Kan status niet vernieuwen",
+    "could-not-connect-to-strongbox": "Kan geen verbinding maken met Strongbox",
+    "error-getting-defaults": "Fout bij het ophalen van standaardwaarden",
+    "there-is-not-a-valid-new-entry": "Er is geen geldige nieuwe entry.",
+    "could-not-create-new-entry": "Kon geen nieuwe entry aanmaken. error=({{error}})"
   },
   "notification-toast": {
-    "successfully-created-new-entry": "Successfully Created New Entry",
-    "username-copied": "Username Copied",
-    "password-copied": "Password Copied",
-    "totp-copied": "TOTP Copied",
-    "url-copied": "URL Copied",
-    "modified-date-copied": "Modified Date Copied",
-    "custom-field-copied": "Custom Field Copied"
+    "successfully-created-new-entry": "Nieuwe entry succesvol aangemaakt",
+    "username-copied": "Gebruikersnaam gekopieerd",
+    "password-copied": "Wachtwoord gekopieerd",
+    "totp-copied": "TOTP gekopieerd",
+    "url-copied": "URL Gekopieerd",
+    "modified-date-copied": "Gewijzigde datum Gekopieerd",
+    "custom-field-copied": "Aangepast veld Gekopieerd"
   },
   "current-tab-credentials": {
-    "title": "Matches",
+    "title": "Overeenkomsten",
     "autofill": "AutoFill",
     "tags": "Tags",
-    "notes": "Notes"
+    "notes": "Notities"
   },
   "database-list-item": {
-    "lock": "Lock",
-    "locked": "Locked",
-    "unlock": "Unlock",
-    "unlocked": "Unlocked",
-    "autofill-not-enabled": "AutoFill Not Enabled"
+    "lock": "Vergrendel",
+    "locked": "Vergrendeld",
+    "unlock": "Ontgrendel",
+    "unlocked": "Ontgrendeld",
+    "autofill-not-enabled": "AutoFill niet ingeschakeld"
   },
   "databases-list-popup-component": {
     "title": "Databases",
-    "no-databases": "No Databases",
-    "no-databases-message": "You don't have any databases yet, why not add one to Strongbox?"
+    "no-databases": "Geen databases",
+    "no-databases-message": "Je hebt nog geen databases, waarom voeg je er geen toe aan Strongbox?"
   },
   "no-results-found-popup-component": {
-    "title": "No Matches",
-    "message": "Strongbox could not find any matching entries for this website"
+    "title": "Geen overeenkomsten",
+    "message": "Strongbox kon geen overeenkomende entries vinden voor deze website"
   },
   "not-running-popup-component": {
-    "title": "Strongbox Unavailable",
-    "launch-strongbox": "Launch Strongbox",
+    "title": "Strongbox niet beschikbaar",
+    "launch-strongbox": "Strongbox starten",
     "troubleshooting": {
-      "title": "Troubleshooting",
-      "message1": "1. Make sure Strongbox is installed and running.",
-      "message2": "2. Make sure you are a Pro user, AutoFill is a paid Pro feature.",
-      "message3": "3. Check the setting below is enabled:",
-      "settings-path": "Settings > Advanced > Chrome & Firefox AutoFill Extension"
+      "title": "Problemen oplossen",
+      "message1": "1. Zorg ervoor dat Strongbox geïnstalleerd en actief is.",
+      "message2": "2. Zorg ervoor dat je een Pro-gebruiker bent, AutoFill is een betaalde Pro-functie.",
+      "message3": "3. Controleer of de onderstaande instelling is ingeschakeld:",
+      "settings-path": "Instellingen > Geavanceerd > Chrome & Firefox AutoFill Extensie"
     },
-    "message": "Unfortunately Strongbox isn't yet available on this platform."
+    "message": "Helaas is Strongbox nog niet beschikbaar op dit platform."
   },
   "search-bar": {
-    "title": "Search...",
-    "place-holder": "Search Strongbox"
+    "title": "Zoeken...",
+    "place-holder": "Zoeken in Strongbox"
   },
   "settings-popup-component": {
-    "title": "Settings",
+    "title": "Instellingen",
     "title-tab1": "App",
-    "title-tab2": "Style",
-    "show-inline-menus": "Show Inline Menus",
-    "show-match-count-badge-on-popup-icon": "Show Match Count Badge",
-    "fill-on-load-if-only-single-match-found": "Fill on Load if Only Single Match",
-    "always-fill-on-load-with-first-match": "Always Fill on Load with First Match",
-    "do-not-fill-on-load-on-this-domain": "Do Not Fill on Load on this Domain",
-    "do-not-show-inline-menus-on-this-domain": "Do Not Show Inline Menus on this Domain",
-    "do-not-show-inline-menus-on-this-page": "Do Not Show Inline Menus on this Page",
-    "do-not-show-credential-details-on-popup": "Hide Details on Popup",
-    "do-not-show-credential-details-on-inline-menu": "Hide Details on Inline Menu",
-    "language": "Language",
-    "appearance": "Appearance",
-    "font-size": "Font Size",
-    "spacing": "Spacing",
-    "appearance-dark": "Dark",
-    "appearance-light": "Light",
-    "appearance-system": "System",
-    "style-small": "Small",
+    "title-tab2": "Stijl",
+    "show-inline-menus": "Inline menu's tonen",
+    "show-match-count-badge-on-popup-icon": "Toon Aantal-Overeenkomsten Badge",
+    "fill-on-load-if-only-single-match-found": "Vullen bij laden als er maar één overeenkomst is",
+    "always-fill-on-load-with-first-match": "Altijd vullen bij laden met eerste overeenkomst",
+    "do-not-fill-on-load-on-this-domain": "Niet vullen bij laden op dit domein",
+    "do-not-show-inline-menus-on-this-domain": "Inline menu's niet weergeven op dit domein",
+    "do-not-show-inline-menus-on-this-page": "Inline menu's niet weergeven op deze pagina",
+    "do-not-show-credential-details-on-popup": "Details verbergen bij pop-up",
+    "do-not-show-credential-details-on-inline-menu": "Details verbergen op Inline Menu",
+    "language": "Taal",
+    "appearance": "Uiterlijk",
+    "font-size": "Lettergrootte",
+    "spacing": "Afstand",
+    "appearance-dark": "Donker",
+    "appearance-light": "Licht",
+    "appearance-system": "Systeem",
+    "style-small": "Klein",
     "style-medium": "Medium",
-    "style-large": "Large",
+    "style-large": "Groot",
     "style-xl": "XL"
   }
 }
