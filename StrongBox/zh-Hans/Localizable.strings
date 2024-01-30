@@ -2574,7 +2574,7 @@
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "您确定要移除自定义字段'%@'吗？";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "您确定要删除自定义字段“%@”吗？";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "您确定要移除自定义字段'%@'吗？";
 
 /* Add Custom Field */
 "mac_node_details_add_custom_field" = "增加自定义字段";
@@ -3173,7 +3173,7 @@
 "audit_manual_pwn_check_result_not_pwned" = "您的密码并没有泄露，较大概率是安全的。";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "手动调整 HIBP 结果";
+"audit_manual_pwn_check_result_title" = "Manual HIBP Result";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "这个密码已泄露，很容易受到攻击";
@@ -3368,7 +3368,7 @@
 "sftp_path_are_you_sure" = "您确定路径正确吗？它应该是父文件夹的路径。而不是数据库文件。";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "您确定路径正确吗？它应该是父文件夹的路径。而不是数据库文件。";
+"sftp_path_are_you_sure" = "Are you sure the path is correct? It should be a path to a parent folder. Not the database file.";
 
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "路径可能无效";
@@ -3644,7 +3644,7 @@
 "merge_view_are_you_sure" = "您确定要将第二个数据库合并到第一个数据库吗？";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "您确定要将第二个数据库合并到第一个数据库吗？";
+"merge_view_are_you_sure" = "Are you sure you want to merge the second database into the first?";
 
 /* Merge Successful */
 "merge_view_merge_title_success" = "合并成功";
@@ -4594,8 +4594,8 @@
 /* View all nearly expired entries */
 "quick_view_title_nearly_expired_entries_subtitle" = "查看所有即将过期的条目";
 
-/* Wi-Fi Transfer */
-"safes_vc_wifi_transfer" = "Wi-Fi 传输";
+/* Transfer Over Local Network */
+"safes_vc_wifi_transfer" = "Transfer Over Local Network";
 
 /* Get Started Wizard */
 "safes_vc_quick_start" = "开始使用向导";
@@ -5786,3 +5786,102 @@
 
 /* Suggestable in AutoFill */
 "generic_autofill_suggestable" = "自动填充时显示";
+
+
+
+
+
+
+
+/* Wi-Fi Sync */
+"storage_provider_name_wifi_sync" = "Wi-Fi Sync";
+
+/* Edits are in progress, so updating is not currently possible. Finish edits on destination Wi-Fi device and try again. */
+"wifi_sync_edits_in_progress_try_again" = "Edits are in progress, so updating is not currently possible. Finish edits on destination Wi-Fi device and try again.";
+
+/* A sync is in progress, so updating is not curreetly possible. Allow sync to finish on destination Wi-Fi device and try again. */
+"wifi_sync_sync_in_progress_try_again" = "A sync is in progress, so updating is not curreetly possible. Allow sync to finish on destination Wi-Fi device and try again.";
+
+/* Enter new Service Name or leave blank for default */
+"wifi_sync_enter_new_service_name" = "Enter new Service Name or leave blank for default";
+
+/* Changing the passcode or service name will break any existing connections on other devices. */
+"wifi_sync_change_passcode_warning" = "Changing the passcode or service name will break any existing connections on other devices.";
+
+/* Invalid Passcode */
+"wifi_sync_invalid_passcode" = "Invalid Passcode";
+
+/* Enter New Passcode\n(4 digits only) */
+"wifi_sync_enter_new_passcode" = "Enter New Passcode\n(4 digits only)";
+
+/* For advanced users, connect to your NAS or other personal server anywhere on your network or the Internet via these standard protocols. */
+"select_storage_footer_servers" = "For advanced users, connect to your NAS or other personal server anywhere on your network or the Internet via these standard protocols.";
+
+/* Use Strongbox's advanced 'Wi-Fi Sync' to stay up to date without the use of a server via Wi-Fi (or any LAN connection). This is a Pro feature. */
+"select_storage_footer_wifi" = "Use Strongbox's advanced 'Wi-Fi Sync' to stay up to date without the use of a server via Wi-Fi (or any LAN connection). This is a Pro feature.";
+
+/* Connect to your database via the Files app. */
+"select_storage_footer_files_only" = "Connect to your database via the Files app.";
+
+/* Connect to your database via the Files app or store your database on this device (don't forget to backup though). */
+"select_storage_footer_files_or_local_device" = "Connect to your database via the Files app or store your database on this device (don't forget to backup though).";
+
+/* Use these methods to transfer a database into Strongbox as a local copy. This does not maintain a connection with any server or sync anywhere after the initial transfer. */
+"select_storage_footer_one_time_copy" = "Use these methods to transfer a database into Strongbox as a local copy. This does not maintain a connection with any server or sync anywhere after the initial transfer.";
+
+/* We've integrated with these popular online drives. These integrations often provide superior sync than using the built-in Files app. */
+"select_storage_footer_third_party" = "We've integrated with these popular online drives. These integrations often provide superior sync than using the built-in Files app.";
+
+/* Servers */
+"select_storage_header_servers" = "Servers";
+
+/* Built-In */
+"select_storage_header_built_in" = "Built-In";
+
+/* One Time Copy Options */
+"select_storage_header_one_time_copy" = "One Time Copy Options";
+
+/* Third Party Integrations */
+"select_storage_header_third_party" = "Third Party Integrations";
+
+/* Wi-Fi Sync is a Pro feature.\n\nUpgrade now to enjoy. */
+"wifi_sync_pro_feature_notice" = "Wi-Fi Sync is a Pro feature.\n\nUpgrade now to enjoy.";
+
+/* Allow Local Network Access... */
+"wifi_sync_allow_network_access" = "Allow Local Network Access...";
+
+/* Local Network Access Denied */
+"wifi_sync_local_network_access_denied" = "Local Network Access Denied";
+
+/* No Devices Found */
+"wifi_sync_no_devices_found" = "No Devices Found";
+
+/* Sync in Offline Mode? */
+"manual_pulldown_sync_sync_in_offline_mode_question_title" = "Sync in Offline Mode?";
+
+/* Would you like to sync even though the database is in Offline mode? */
+"manual_pulldown_sync_sync_in_offline_mode_question_message" = "Would you like to sync even though the database is in Offline mode?";
+
+/* Sync this once */
+"manual_pulldown_sync_sync_in_offline_mode_option_sync_once" = "Sync this once";
+
+/* Always sync when I do this */
+"manual_pulldown_sync_sync_in_offline_mode_option_always" = "Always sync when I do this";
+
+/* Enter Passcode to Connect */
+"wifi_sync_enter_passcode_to_connect" = "Enter Passcode to Connect";
+
+/* Passcode */
+"wifi_sync_passcode_noun" = "Passcode";
+
+/* Connect */
+"generic_connect_verb" = "Connect";
+
+/* Tip */
+"generic_noun_tip_or_advice" = "Tip";
+
+/* You can find the Passcode to '%@' under Strongbox's Wi-Fi Sync Settings tab on your Mac. L10n Note: 1st parameter is the name of the device hosting the database e.g. 'Mark's MacBook Pro' */
+"wifi_sync_tip_find_passcode_in_settings_fmt" = "You can find the Passcode to '%@' under Strongbox's Wi-Fi Sync Settings tab on your Mac.";
+
+/* Incorrect Passcode */
+"wifi_sync_incorrect_passcode" = "Incorrect Passcode";
