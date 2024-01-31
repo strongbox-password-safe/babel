@@ -4594,8 +4594,8 @@
 /* View all nearly expired entries */
 "quick_view_title_nearly_expired_entries_subtitle" = "Visualizzare tutte le voci quasi scadute";
 
-/* Wi-Fi Transfer */
-"safes_vc_wifi_transfer" = "Trasferimento Wi-Fi";
+/* Transfer Over Local Network */
+"safes_vc_wifi_transfer" = "Trasferimento Tramite Rete Locale";
 
 /* Get Started Wizard */
 "safes_vc_quick_start" = "Percorso Guidato Iniziale";
@@ -5786,3 +5786,102 @@
 
 /* Suggestable in AutoFill */
 "generic_autofill_suggestable" = "Suggeribile in Compilazione Automatica";
+
+
+
+
+
+
+
+/* Wi-Fi Sync */
+"storage_provider_name_wifi_sync" = "Wi-Fi Sync";
+
+/* Edits are in progress, so updating is not currently possible. Finish edits on destination Wi-Fi device and try again. */
+"wifi_sync_edits_in_progress_try_again" = "Le modifiche sono in corso, quindi l'aggiornamento non è attualmente possibile. Terminare le modifiche sul dispositivo Wi-Fi di destinazione e riprovare.";
+
+/* A sync is in progress, so updating is not currently possible. Allow sync to finish on destination Wi-Fi device and try again. */
+"wifi_sync_sync_in_progress_try_again" = "È in corso una sincronizzazione, quindi l'aggiornamento non è attualmente possibile. Lasciare terminare la sincronizzazione sul dispositivo Wi-Fi di destinazione e riprovare.";
+
+/* Enter new Service Name or leave blank for default */
+"wifi_sync_enter_new_service_name" = "Inserire il nuovo Nome Servizio o lasciare in bianco per il valore predefinito";
+
+/* Changing the passcode or service name will break any existing connections on other devices. */
+"wifi_sync_change_passcode_warning" = "La modifica del codice di accesso o del Nome Servizio interromperà qualsiasi connessione esistente su altri dispositivi.";
+
+/* Invalid Passcode */
+"wifi_sync_invalid_passcode" = "Codice di accesso non valido";
+
+/* Enter New Passcode\n(4 digits only) */
+"wifi_sync_enter_new_passcode" = "Inserire Nuovo Codice di Accesso\n(solo 4 cifre)";
+
+/* For advanced users, connect to your NAS or other personal server anywhere on your network or the Internet via these standard protocols. */
+"select_storage_footer_servers" = "Per gli utenti avanzati, è possibile connettersi a NAS o ad altri server personali in qualsiasi punto della rete o di Internet tramite questi protocolli standard.";
+
+/* Use Strongbox's advanced 'Wi-Fi Sync' to stay up to date without the use of a server via Wi-Fi (or any LAN connection). This is a Pro feature. */
+"select_storage_footer_wifi" = "Usare la funzione avanzata \"Wi-Fi Sync\" di Strongbox per rimanere aggiornati senza l'uso di un server via Wi-Fi (o qualsiasi connessione LAN). Questa è una funzione Pro.";
+
+/* Connect to your database via the Files app. */
+"select_storage_footer_files_only" = "Collegarsi al database tramite l'App File.";
+
+/* Connect to your database via the Files app or store your database on this device (don't forget to backup though). */
+"select_storage_footer_files_or_local_device" = "Connettersi al database tramite l'app Files o memorizzare il database su questo dispositivo (non dimenticarsi il backup).";
+
+/* Use these methods to transfer a database into Strongbox as a local copy. This does not maintain a connection with any server or sync anywhere after the initial transfer. */
+"select_storage_footer_one_time_copy" = "Usare questi metodi per trasferire un database in Strongbox come copia locale. In questo modo non viene mantenuta una connessione con alcun server o sincronizzazione dopo il trasferimento iniziale.";
+
+/* We've integrated with these popular online drives. These integrations often provide superior sync than using the built-in Files app. */
+"select_storage_footer_third_party" = "Abbiamo integrato questi popolari drive online. Queste integrazioni spesso forniscono una sincronizzazione migliore rispetto all'utilizzo dell'App Files nativa.";
+
+/* Servers */
+"select_storage_header_servers" = "Server";
+
+/* Built-In */
+"select_storage_header_built_in" = "Integrati";
+
+/* One Time Copy Options */
+"select_storage_header_one_time_copy" = "Opzioni di Copia Una Tantum";
+
+/* Third Party Integrations */
+"select_storage_header_third_party" = "Integrazioni di Terze Parti";
+
+/* Wi-Fi Sync is a Pro feature.\n\nUpgrade now to enjoy. */
+"wifi_sync_pro_feature_notice" = "Wi-Fi Sync è una funzione Pro.\n\nEseguire subito l'aggiornamento per usarla.";
+
+/* Allow Local Network Access... */
+"wifi_sync_allow_network_access" = "Consentire l'accesso alla rete locale...";
+
+/* Local Network Access Denied */
+"wifi_sync_local_network_access_denied" = "Accesso Alla Rete Locale Negato";
+
+/* No Devices Found */
+"wifi_sync_no_devices_found" = "Nessun Dispositivo Trovato";
+
+/* Sync in Offline Mode? */
+"manual_pulldown_sync_sync_in_offline_mode_question_title" = "Sincronizzare in Modalità Offline?";
+
+/* Would you like to sync even though the database is in Offline mode? */
+"manual_pulldown_sync_sync_in_offline_mode_question_message" = "Si desidera sincronizzare anche se il database è in modalità Offline?";
+
+/* Sync this once */
+"manual_pulldown_sync_sync_in_offline_mode_option_sync_once" = "Sincronizzare questa volta";
+
+/* Always sync when I do this */
+"manual_pulldown_sync_sync_in_offline_mode_option_always" = "Si sincronizza sempre in questi casi";
+
+/* Enter Passcode to Connect */
+"wifi_sync_enter_passcode_to_connect" = "Inserire il Codice di Accesso per Connettersi";
+
+/* Passcode */
+"wifi_sync_passcode_noun" = "Codice di Accesso";
+
+/* Connect */
+"generic_connect_verb" = "Collegare";
+
+/* Tip */
+"generic_noun_tip_or_advice" = "Suggerimento";
+
+/* You can find the Passcode to '%@' under Strongbox's Wi-Fi Sync Settings tab on your Mac. L10n Note: 1st parameter is the name of the device hosting the database e.g. 'Mark's MacBook Pro' */
+"wifi_sync_tip_find_passcode_in_settings_fmt" = "Il Codice di Accesso a '%@' si trova nella scheda Impostazioni di Wi-Fi Sync di Strongbox sul Mac.";
+
+/* Incorrect Passcode */
+"wifi_sync_incorrect_passcode" = "Codice di Accesso Errato";
