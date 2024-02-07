@@ -2574,7 +2574,7 @@
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "Вы действительно хотите удалить поле '%@'?";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Вы действительно хотите удалить поле «%@»?";
 
 /* Add Custom Field */
 "mac_node_details_add_custom_field" = "Добавить поле";
@@ -4586,7 +4586,7 @@
 "quick_view_title_nearly_expired_entries_subtitle" = "Все близкие к истечению срока";
 
 /* Transfer Over Local Network */
-"safes_vc_wifi_transfer" = "Передача по локальной сети";
+"safes_vc_wifi_transfer" = "Локальная сеть";
 
 /* Get Started Wizard */
 "safes_vc_quick_start" = "Запуск мастера";
@@ -5156,7 +5156,7 @@
 "nextgen_toolbar_settings_database_settings_ellipsis" = "Настройки БД";
 
 /* Application Settings... */
-"nextgen_toolbar_settings_application_preferences_ellipsis" = "Application Settings...";
+"nextgen_toolbar_settings_application_preferences_ellipsis" = "Настройки приложения";
 
 /* Settings */
 "generic_settings" = "Параметры";
@@ -5306,7 +5306,7 @@
 "safes_vc_import_lastpass" = "LastPass (CSV)";
 
 /* iCloud Keychain (CSV) */
-"safes_vc_import_icloud" = "Связка ключей iCloud (CSV)";
+"safes_vc_import_icloud" = "Связка ключей iCloud";
 
 /* Disabling Auto-Commit could mean you lose this TOTP if you forget to commit later, are you sure? */
 "are_you_sure_auto_commit_totp_msg" = "Отключение автофиксации может привести к истечению этого TOTP. Хотите продолжить?";
@@ -5779,19 +5779,19 @@
 "generic_autofill_suggestable" = "Предлагать в автозаполнении";
 
 /* Wi-Fi Sync */
-"storage_provider_name_wifi_sync" = "Синхронизация по Wi-Fi";
+"storage_provider_name_wifi_sync" = "Wi-Fi Sync";
 
 /* Edits are in progress, so updating is not currently possible. Finish edits on destination Wi-Fi device and try again. */
-"wifi_sync_edits_in_progress_try_again" = "Edits are in progress, so updating is not currently possible. Finish edits on destination Wi-Fi device and try again.";
+"wifi_sync_edits_in_progress_try_again" = "Редактирование продолжается, поэтому обновление невозможно. Завершите редактирование на целевом устройстве Wi-Fi и повторите попытку.";
 
 /* A sync is in progress, so updating is not currently possible. Allow sync to finish on destination Wi-Fi device and try again. */
-"wifi_sync_sync_in_progress_try_again" = "A sync is in progress, so updating is not currently possible. Allow sync to finish on destination Wi-Fi device and try again.";
+"wifi_sync_sync_in_progress_try_again" = "Идет синхронизация, поэтому обновление невозможно. Завершите синхронизацию на целевом устройстве Wi-Fi и повторите попытку.";
 
 /* Enter new Service Name or leave blank for default */
-"wifi_sync_enter_new_service_name" = "Enter new Service Name or leave blank for default";
+"wifi_sync_enter_new_service_name" = "Введите новое название службы или оставьте пустым по умолчанию";
 
 /* Changing the passcode or service name will break any existing connections on other devices. */
-"wifi_sync_change_passcode_warning" = "Changing the passcode or service name will break any existing connections on other devices.";
+"wifi_sync_change_passcode_warning" = "Изменение пароля или названия службы приведет к разрыву всех существующих соединений на других устройствах.";
 
 /* Invalid Passcode */
 "wifi_sync_invalid_passcode" = "Неверный код";
@@ -5800,22 +5800,22 @@
 "wifi_sync_enter_new_passcode" = "Введите новый код";
 
 /* For advanced users, connect to your NAS or other personal server anywhere on your network or the Internet via these standard protocols. */
-"select_storage_footer_servers" = "For advanced users, connect to your NAS or other personal server anywhere on your network or the Internet via these standard protocols.";
+"select_storage_footer_servers" = "Опытные пользователи могут подключаться к NAS или другому персональному серверу в любой точке сети или Интернета с помощью стандартных протоколов.";
 
 /* Use Strongbox's advanced 'Wi-Fi Sync' to stay up to date without the use of a server via Wi-Fi (or any LAN connection). */
-"select_storage_footer_wifi" = "Use Strongbox's advanced 'Wi-Fi Sync' to stay up to date without the use of a server via Wi-Fi (or any LAN connection).";
+"select_storage_footer_wifi" = "Используйте функцию «Wi-Fi Sync», чтобы поддерживать актуальное состояние без подключения через Wi-Fi (или другое LAN соединение).";
 
 /* Connect to your database via the Files app. */
 "select_storage_footer_files_only" = "Подключение к БД через приложение «Файлы»‎.";
 
 /* Connect to your database via the Files app or store your database on this device (don't forget to backup though). */
-"select_storage_footer_files_or_local_device" = "Connect to your database via the Files app or store your database on this device (don't forget to backup though).";
+"select_storage_footer_files_or_local_device" = "Подключитесь к  БД через приложение «Файлы» или сохраните БД на этом устройстве (не забудьте сделать резервную копию).";
 
 /* Use these methods to transfer a database into Strongbox as a local copy. This does not maintain a connection with any server or sync anywhere after the initial transfer. */
-"select_storage_footer_one_time_copy" = "Use these methods to transfer a database into Strongbox as a local copy. This does not maintain a connection with any server or sync anywhere after the initial transfer.";
+"select_storage_footer_one_time_copy" = "Используйте методы для переноса БД в виде локальной копии. При этом не поддерживается соединение с каким-либо сервером и не выполняется синхронизация после первоначального переноса.";
 
 /* We've integrated with these popular online drives. These integrations often provide superior sync than using the built-in Files app. */
-"select_storage_footer_third_party" = "We've integrated with these popular online drives. These integrations often provide superior sync than using the built-in Files app.";
+"select_storage_footer_third_party" = "Интеграция с облачными провайдерами.";
 
 /* Servers */
 "select_storage_header_servers" = "Серверы";
@@ -5830,13 +5830,13 @@
 "select_storage_header_third_party" = "Сторонние сервисы";
 
 /* Wi-Fi Sync is a Pro feature.\n\nUpgrade now to enjoy. */
-"wifi_sync_pro_feature_notice" = "Wi-Fi Sync is a Pro feature.\n\nUpgrade now to enjoy.";
+"wifi_sync_pro_feature_notice" = "Wi-Fi Sync - это функция Pro.\n\nОбновитесь сейчас, чтобы использовать её.";
 
 /* Allow Local Network Access... */
-"wifi_sync_allow_network_access" = "Allow Local Network Access...";
+"wifi_sync_allow_network_access" = "Доступ к локальной сети";
 
 /* Local Network Access Denied */
-"wifi_sync_local_network_access_denied" = "Local Network Access Denied";
+"wifi_sync_local_network_access_denied" = "Доступ запрещён";
 
 /* No Devices Found */
 "wifi_sync_no_devices_found" = "Устройства не найдены";
@@ -5866,7 +5866,7 @@
 "generic_noun_tip_or_advice" = "Подсказка";
 
 /* You can find the Passcode to '%@' under Strongbox's Wi-Fi Sync Settings tab on your Mac. L10n Note: 1st parameter is the name of the device hosting the database e.g. 'Mark's MacBook Pro' */
-"wifi_sync_tip_find_passcode_in_settings_fmt" = "You can find the Passcode to '%@' under Strongbox's Wi-Fi Sync Settings tab on your Mac.";
+"wifi_sync_tip_find_passcode_in_settings_fmt" = "Код доступа для '%@' можно найти на вкладке настроек Wi-Fi Sync.";
 
 /* Incorrect Passcode */
 "wifi_sync_incorrect_passcode" = "Неверный код доступа";
@@ -5875,4 +5875,4 @@
 "wifi_sync_properties_service_name" = "Название сервиса";
 
 /* Wi-Fi Sync was stopped because there were too many incorrect passcode attempts. */
-"wifi_sync_too_many_bad_passcode_attempts" = "Wi-Fi Sync was stopped because there were too many incorrect passcode attempts.";
+"wifi_sync_too_many_bad_passcode_attempts" = "Wi-Fi Sync остановлен, т.к. было слишком много неудачных попыток ввода кода доступа.";
