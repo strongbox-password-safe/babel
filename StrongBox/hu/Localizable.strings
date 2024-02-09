@@ -2202,7 +2202,7 @@
 /* Are you sure you want to remove this FavIcon result? */
 "favicon_results_are_you_sure_remove_result_message" = "Biztosan eltávolítja ezt a Favicon találatot?";
 
-/* Invalid FavIcon Preferences */
+/* Invalid FavIcon Settings */
 "favicon_invalid_preferences_alert_title" = "Érvénytelen FavIcon beállítások";
 
 /* This set of preferences will not produce valid FavIcon results. */
@@ -2574,7 +2574,7 @@
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "Biztosan eltávolítja a következő egyéni mezőt: '%@'?";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Biztosan eltávolítja a következő egyéni mezőt: '%@'?";
 
 /* Add Custom Field */
 "mac_node_details_add_custom_field" = "Egyéni mező hozzáadása";
@@ -3121,7 +3121,7 @@
 /* KeePassXC */
 "keepass_icon_set_keepassxc" = "KeePassXC";
 
-/* Preferences */
+/* Settings */
 "audit_drill_down_section_header_preferences" = "Beállítások";
 
 /* Summary */
@@ -3178,8 +3178,8 @@
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "Ez a jelszó pwned és sebezhető";
 
-/* Database Audit Preferences */
-"audit_drill_down_go_to_database_audit_preferences" = "Adatbázis-audit beállítások";
+/* Database Audit Settings */
+"audit_drill_down_go_to_database_audit_preferences" = "Adatbázis audit beállítások";
 
 /* View All Audit Issues */
 "audit_drill_down_view_all_audit_issues" = "Valamennyi Audit esetmény megtekintése";
@@ -3558,15 +3558,6 @@
 
 /* %@ (Created %@) - Translators Note: 1st Param is the filesize, second parameter is the created date, so e.g. '11KB (10 Nov 2020)' */
 "backups_backup_subtitle_fmt" = "%@ (Létrehozva %@)";
-
-/* Enable Strongbox Extension */
-"mac_autofill_enable_extension_title" = "Strongbox kiterjesztés engedélyezése";
-
-/* To use AutoFill you must enable the Strongbox Extension in System Preferences. To do this click the 'Open System Preferences...' button below and navigate to:\n\n∙ Extensions > Password AutoFill > Check 'Strongbox' */
-"mac_autofill_enable_extension_message" = "Az automatikus kitöltés használatához engedélyeznie kell a Strongbox bővítményt a Rendszerbeállításokban. Ehhez kattintson az alábbi 'Rendszerbeállítások megnyitása...' gombra, és navigáljon a következő helyre:\n\n∙ Bővítmények > Jelszó automatikus kitöltése > Jelölje be a 'Strongbox' jelölőnégyzetet";
-
-/* Open System Preferences... */
-"mac_autofill_action_open_system_preferences" = "Nyissa meg a Rendszerbeállításokat...";
 
 /* Merge... - Translators Note: Merge is a verb, "To Merge", the idea being that the user will select 2 databases to merge together... */
 "generic_action_merge_ellipsis" = "Egyesítés...";
@@ -5164,7 +5155,7 @@
 /* Database Settings... */
 "nextgen_toolbar_settings_database_settings_ellipsis" = "Adatbázis beállítások...";
 
-/* Application Preferences... */
+/* Application Settings... */
 "nextgen_toolbar_settings_application_preferences_ellipsis" = "Alkalmazás beállítások...";
 
 /* Settings */
@@ -5806,13 +5797,13 @@
 "wifi_sync_invalid_passcode" = "Érvénytelen jelkód";
 
 /* Enter New Passcode */
-"wifi_sync_enter_new_passcode" = "Enter New Passcode";
+"wifi_sync_enter_new_passcode" = "Új jelkód megadása";
 
 /* For advanced users, connect to your NAS or other personal server anywhere on your network or the Internet via these standard protocols. */
 "select_storage_footer_servers" = "Ezeknek a szabványos protokolloknak a használatával a haladó felhasználók csatlakozhatnak a saját NAS-ukhoz vagy más szerverekhez - helyi hálózaton vagy akár az interneten keresztül.";
 
 /* Use Strongbox's advanced 'Wi-Fi Sync' to stay up to date without the use of a server via Wi-Fi (or any LAN connection). */
-"select_storage_footer_wifi" = "Használja a Strongbox fejlett \"Wi-Fi szinkronizálás\" funkciót, hogy Wi-Fi-n (vagy bármilyen LAN-kapcsolaton) keresztül szerver használata nélkül is naprakész maradjon. Ez egy Pro funkció.";
+"select_storage_footer_wifi" = "Használja a Strongbox fejlett \"Wi-Fi sync\"-et, hogy Wi-Fi-n (vagy bármilyen LAN-kapcsolaton) keresztül szerver használata nélkül is naprakész maradjon.";
 
 /* Connect to your database via the Files app. */
 "select_storage_footer_files_only" = "Csatlakozzon az adatbázisához a Fájlok alkalmazáson keresztül.";
@@ -5881,7 +5872,7 @@
 "wifi_sync_incorrect_passcode" = "Helytelen jelkód";
 
 /* Service Name */
-"wifi_sync_properties_service_name" = "Service Name";
+"wifi_sync_properties_service_name" = "Szolgáltatás neve";
 
 /* Wi-Fi Sync was stopped because there were too many incorrect passcode attempts. */
-"wifi_sync_too_many_bad_passcode_attempts" = "Wi-Fi Sync was stopped because there were too many incorrect passcode attempts.";
+"wifi_sync_too_many_bad_passcode_attempts" = "A Wi-Fi szinkronizálás leállt, mert túl sok hibás jelkódkísérlet történt.";
