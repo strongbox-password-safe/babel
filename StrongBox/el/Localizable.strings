@@ -2574,7 +2574,7 @@
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "Είστε βέβαιοι ότι θέλετε να καταργήσετε το προσαρμοσμένο πεδίο \"%@\";";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Είστε βέβαιοι ότι θέλετε να καταργήσετε το προσαρμοσμένο πεδίο \"%@\";";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
 
 /* Add Custom Field */
 "mac_node_details_add_custom_field" = "Προσθήκη προσαρμοσμένου πεδίου";
@@ -3173,7 +3173,7 @@
 "audit_manual_pwn_check_result_not_pwned" = "Ο κωδικός πρόσβασής σας ΔΕΝ είναι εκτεθειμένος / Pwned και είναι πιθανόν ασφαλής.";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Manual HIBP Result";
+"audit_manual_pwn_check_result_title" = "Χειροκίνητο Αποτέλεσμα HIBP";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "Αυτός ο κωδικός πρόσβασης είναι εκτεθειμένος / Pwned και ευάλωτος";
@@ -3368,7 +3368,7 @@
 "sftp_path_are_you_sure" = "Είστε σίγουροι ότι η διαδρομή είναι σωστή; Θα πρέπει να είναι μια διαδρομή σε φάκελο. Όχι απ' ευθείας του αρχείου της βάσης δεδομένων.";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Are you sure the path is correct? It should be a path to a parent folder. Not the database file.";
+"sftp_path_are_you_sure" = "Είστε σίγουροι ότι η διαδρομή είναι σωστή; Θα πρέπει να είναι μια διαδρομή σε φάκελο. Όχι απ' ευθείας του αρχείου της βάσης δεδομένων.";
 
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "Η διαδρομή μπορεί να είναι μη έγκυρη";
@@ -3635,7 +3635,7 @@
 "merge_view_are_you_sure" = "Είστε σίγουροι ότι θέλετε να συγχωνεύσετε τη δεύτερη βάση δεδομένων στην πρώτη;";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Are you sure you want to merge the second database into the first?";
+"merge_view_are_you_sure" = "Είστε σίγουροι ότι θέλετε να συγχωνεύσετε τη δεύτερη βάση δεδομένων στην πρώτη;";
 
 /* Merge Successful */
 "merge_view_merge_title_success" = "Επιτυχής Συγχώνευση";
@@ -5876,3 +5876,9 @@
 
 /* Wi-Fi Sync was stopped because there were too many incorrect passcode attempts. */
 "wifi_sync_too_many_bad_passcode_attempts" = "Wi-Fi Sync was stopped because there were too many incorrect passcode attempts.";
+
+/* Most Recent (Used until %@) - L10n Note: Header above a previously used password. The 1st parameter is a friend date string, e.g. 'Most Recent Used until 2 February 2023 at 10:31' */
+"password_history_this_password_was_used_until_most_recent_fmt" = "Most Recent (Used until %@)";
+
+/* Oldest (Used until %@) - L10n Note: Header above a previously used password. The 1st parameter is a friend date string, e.g. 'Oldest Used until 2 February 2023 at 10:31' */
+"password_history_this_password_was_used_until_oldest_fmt" = "Oldest (Used until %@)";
