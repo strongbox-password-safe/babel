@@ -1715,11 +1715,11 @@
 /* Tip: Slide Left for Options or Tap to View */
 "keepass_history_tip" = "Смахните влево для опций или коснитесь для просмотра";
 
-/* Favourite */
-"browse_vc_action_pin" = "В Избранные";
+/* Favorite */
+"browse_vc_action_pin" = "Favorite";
 
-/* Un-Favourite */
-"browse_vc_action_unpin" = "Из Избранных";
+/* Un-Favorite */
+"browse_vc_action_unpin" = "Un-Favorite";
 
 /* Section Header Title for Expired Items */
 "browse_vc_section_title_expired" = "Срок действия истёк";
@@ -1727,8 +1727,8 @@
 /* Section Header Title for Nearly Expired Items */
 "browse_vc_section_title_nearly_expired" = "Срок действия истекает";
 
-/* Section Header Title for Favourite Items */
-"browse_vc_section_title_pinned" = "Избранные";
+/* Section Header Title for Favorite Items */
+"browse_vc_section_title_pinned" = "Favorites";
 
 /* Section Header Title for Recent Items */
 "browse_vc_section_title_recents" = "Недавние элементы";
@@ -2574,7 +2574,7 @@
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "Вы действительно хотите удалить поле '%@'?";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Вы действительно хотите удалить поле «%@»?";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
 
 /* Add Custom Field */
 "mac_node_details_add_custom_field" = "Добавить поле";
@@ -5800,19 +5800,19 @@
 "wifi_sync_enter_new_passcode" = "Введите новый код";
 
 /* For advanced users, connect to your NAS or other personal server anywhere on your network or the Internet via these standard protocols. */
-"select_storage_footer_servers" = "Опытные пользователи могут подключаться к NAS или другому персональному серверу в любой точке сети или Интернета с помощью стандартных протоколов.";
+"select_storage_footer_servers" = "Подключение к NAS или другому приватному серверу в любой точке с помощью стандартных протоколов.";
 
 /* Use Strongbox's advanced 'Wi-Fi Sync' to stay up to date without the use of a server via Wi-Fi (or any LAN connection). */
-"select_storage_footer_wifi" = "Используйте функцию «Wi-Fi Sync», чтобы поддерживать актуальное состояние без подключения через Wi-Fi (или другое LAN соединение).";
+"select_storage_footer_wifi" = "Поддержка актуального состояния без подключения через Wi-Fi или другое LAN соединение.";
 
 /* Connect to your database via the Files app. */
 "select_storage_footer_files_only" = "Подключение к БД через приложение «Файлы»‎.";
 
 /* Connect to your database via the Files app or store your database on this device (don't forget to backup though). */
-"select_storage_footer_files_or_local_device" = "Подключитесь к  БД через приложение «Файлы» или сохраните БД на этом устройстве (не забудьте сделать резервную копию).";
+"select_storage_footer_files_or_local_device" = "Подключитесь к БД через приложение «Файлы» или сохраните её локально на устройстве.";
 
 /* Use these methods to transfer a database into Strongbox as a local copy. This does not maintain a connection with any server or sync anywhere after the initial transfer. */
-"select_storage_footer_one_time_copy" = "Используйте методы для переноса БД в виде локальной копии. При этом не поддерживается соединение с каким-либо сервером и не выполняется синхронизация после первоначального переноса.";
+"select_storage_footer_one_time_copy" = "Перенос БД в виде локальной копии без соединения с каким-либо сервером и синхронизации.";
 
 /* We've integrated with these popular online drives. These integrations often provide superior sync than using the built-in Files app. */
 "select_storage_footer_third_party" = "Интеграция с облачными провайдерами.";
@@ -5876,3 +5876,9 @@
 
 /* Wi-Fi Sync was stopped because there were too many incorrect passcode attempts. */
 "wifi_sync_too_many_bad_passcode_attempts" = "Wi-Fi Sync остановлен, т.к. было слишком много неудачных попыток ввода кода доступа.";
+
+/* Most Recent (Used until %@) - L10n Note: Header above a previously used password. The 1st parameter is a friend date string, e.g. 'Most Recent Used until 2 February 2023 at 10:31' */
+"password_history_this_password_was_used_until_most_recent_fmt" = "Most Recent (Used until %@)";
+
+/* Oldest (Used until %@) - L10n Note: Header above a previously used password. The 1st parameter is a friend date string, e.g. 'Oldest Used until 2 February 2023 at 10:31' */
+"password_history_this_password_was_used_until_oldest_fmt" = "Oldest (Used until %@)";

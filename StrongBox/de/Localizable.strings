@@ -1715,11 +1715,11 @@
 /* Tip: Slide Left for Options or Tap to View */
 "keepass_history_tip" = "Tipp: Für Optionen nach links wischen, zum Anzeigen tippen";
 
-/* Favourite */
-"browse_vc_action_pin" = "Zu Favoriten hinzufügen";
+/* Favorite */
+"browse_vc_action_pin" = "Favorite";
 
-/* Un-Favourite */
-"browse_vc_action_unpin" = "Als Favorit entfernen";
+/* Un-Favorite */
+"browse_vc_action_unpin" = "Un-Favorite";
 
 /* Section Header Title for Expired Items */
 "browse_vc_section_title_expired" = "Abgelaufen";
@@ -1727,8 +1727,8 @@
 /* Section Header Title for Nearly Expired Items */
 "browse_vc_section_title_nearly_expired" = "Demnächst ablaufend";
 
-/* Section Header Title for Favourite Items */
-"browse_vc_section_title_pinned" = "Favoriten";
+/* Section Header Title for Favorite Items */
+"browse_vc_section_title_pinned" = "Favorites";
 
 /* Section Header Title for Recent Items */
 "browse_vc_section_title_recents" = "Letzte Artikel";
@@ -2574,7 +2574,7 @@
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "Möchten Sie das benutzerdefinierte Feld „%@” wirklich entfernen?";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Möchten Sie das benutzerdefinierte Feld „%@” wirklich entfernen?";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
 
 /* Add Custom Field */
 "mac_node_details_add_custom_field" = "Benutzerdefiniertes Feld hinzufügen";
@@ -5779,7 +5779,7 @@
 "generic_autofill_suggestable" = "Vorschlagbar beim auto. Ausfüllen";
 
 /* Wi-Fi Sync */
-"storage_provider_name_wifi_sync" = "WLAN-Synchronisation";
+"storage_provider_name_wifi_sync" = "WLAN-Sync";
 
 /* Edits are in progress, so updating is not currently possible. Finish edits on destination Wi-Fi device and try again. */
 "wifi_sync_edits_in_progress_try_again" = "Es werden derzeit Bearbeitungen vorgenommen, daher ist eine Aktualisierung derzeit nicht möglich. Schließen Sie die Bearbeitungen auf dem WLAN-Gerät des Ziels ab und versuchen Sie es erneut.";
@@ -5866,7 +5866,7 @@
 "generic_noun_tip_or_advice" = "Tipp";
 
 /* You can find the Passcode to '%@' under Strongbox's Wi-Fi Sync Settings tab on your Mac. L10n Note: 1st parameter is the name of the device hosting the database e.g. 'Mark's MacBook Pro' */
-"wifi_sync_tip_find_passcode_in_settings_fmt" = "Sie finden den Passcode für „%@” auf Ihrem Mac in den Einstellungen im Tab „WLAN-Synchronisation” von Strongbox.";
+"wifi_sync_tip_find_passcode_in_settings_fmt" = "Sie finden den Passcode für „%@” auf Ihrem Mac in den Einstellungen im Tab „WLAN-Sync” von Strongbox.";
 
 /* Incorrect Passcode */
 "wifi_sync_incorrect_passcode" = "Ungültiger Passcode";
@@ -5875,4 +5875,10 @@
 "wifi_sync_properties_service_name" = "Dienstname";
 
 /* Wi-Fi Sync was stopped because there were too many incorrect passcode attempts. */
-"wifi_sync_too_many_bad_passcode_attempts" = "Die WLAN-Synchronisation wurde unterbrochen, da zu viele ungültige Passwörter verwendet wurden.";
+"wifi_sync_too_many_bad_passcode_attempts" = "Die WLAN-Sync wurde unterbrochen, da zu viele ungültige Passwörter verwendet wurden.";
+
+/* Most Recent (Used until %@) - L10n Note: Header above a previously used password. The 1st parameter is a friend date string, e.g. 'Most Recent Used until 2 February 2023 at 10:31' */
+"password_history_this_password_was_used_until_most_recent_fmt" = "Most Recent (Used until %@)";
+
+/* Oldest (Used until %@) - L10n Note: Header above a previously used password. The 1st parameter is a friend date string, e.g. 'Oldest Used until 2 February 2023 at 10:31' */
+"password_history_this_password_was_used_until_oldest_fmt" = "Oldest (Used until %@)";

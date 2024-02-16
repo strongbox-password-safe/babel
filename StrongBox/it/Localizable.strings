@@ -1715,11 +1715,11 @@
 /* Tip: Slide Left for Options or Tap to View */
 "keepass_history_tip" = "Suggerimento: Scorrere a Sinistra per le Opzioni o Toccare per Visualizzare";
 
-/* Favourite */
+/* Favorite */
 "browse_vc_action_pin" = "Preferito";
 
-/* Un-Favourite */
-"browse_vc_action_unpin" = "Non Preferire";
+/* Un-Favorite */
+"browse_vc_action_unpin" = "Eliminare da Preferiti";
 
 /* Section Header Title for Expired Items */
 "browse_vc_section_title_expired" = "Scaduto";
@@ -1727,7 +1727,7 @@
 /* Section Header Title for Nearly Expired Items */
 "browse_vc_section_title_nearly_expired" = "Quasi Scaduto";
 
-/* Section Header Title for Favourite Items */
+/* Section Header Title for Favorite Items */
 "browse_vc_section_title_pinned" = "Preferiti";
 
 /* Section Header Title for Recent Items */
@@ -5638,10 +5638,10 @@
 "suggest_in_autofill_yesno_flag" = "Suggerire in Riempimento Automatico";
 
 /* Toggle Suggest in AutoFill */
-"item_settings_action_verb_toggle_suggest_in_autofill" = "Attiva/Disattiva Suggerimento in Riempimento Automatico";
+"item_settings_action_verb_toggle_suggest_in_autofill" = "Attivare/Disattivare Suggerimento in Riempimento Automatico";
 
 /* Toggle Audit this Item */
-"item_settings_action_verb_toggle_suggest_in_audit" = "Attiva/Disattiva Revisione di questo Elemento";
+"item_settings_action_verb_toggle_suggest_in_audit" = "Attivare/Disattivare Revisione di questo Elemento";
 
 /* for %@ hours - L10n note: the first parameter is numeric, e.g. "for 4 hours", which can appear in the UI as a suffix, so something like "Remember this for 12 hours" */
 "generic_for_n_hours_suffix_fmt" = "per %@ ore";
@@ -5876,3 +5876,9 @@
 
 /* Wi-Fi Sync was stopped because there were too many incorrect passcode attempts. */
 "wifi_sync_too_many_bad_passcode_attempts" = "Wi-Fi Sync è stata interrotta a causa di un numero eccessivo di tentativi di codice di accesso errati.";
+
+/* Most Recent (Used until %@) - L10n Note: Header above a previously used password. The 1st parameter is a friend date string, e.g. 'Most Recent Used until 2 February 2023 at 10:31' */
+"password_history_this_password_was_used_until_most_recent_fmt" = "Più Recente (Usato fino ad %@)";
+
+/* Oldest (Used until %@) - L10n Note: Header above a previously used password. The 1st parameter is a friend date string, e.g. 'Oldest Used until 2 February 2023 at 10:31' */
+"password_history_this_password_was_used_until_oldest_fmt" = "Il più Vecchio (Usato fino a %@)";
