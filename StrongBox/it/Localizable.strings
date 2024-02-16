@@ -2574,7 +2574,7 @@
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "Si è sicuri di voler rimuovere il campo personalizzato '%@'?";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Si è sicuri di voler rimuovere il campo personalizzato '%@'?";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
 
 /* Add Custom Field */
 "mac_node_details_add_custom_field" = "Aggiungere Campo Personalizzato";
@@ -3173,7 +3173,7 @@
 "audit_manual_pwn_check_result_not_pwned" = "La tua password NON è stata rubata ed è probabilmente sicura.";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Risultato Manuale HIBP";
+"audit_manual_pwn_check_result_title" = "Risultato HIBP Manuale";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "Questa password è compromessa ed è vulnerabile";
@@ -3368,7 +3368,7 @@
 "sftp_path_are_you_sure" = "Si è sicuri che il percorso sia corretto? Dovrebbe essere un percorso verso una cartella principale, non il file di database.";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Si è sicuri che il percorso sia corretto? Dovrebbe essere un percorso verso la cartella superiore, non il file di database.";
+"sftp_path_are_you_sure" = "Si è sicuri che il percorso sia corretto? Dovrebbe essere un percorso verso una cartella principale, non il file di database.";
 
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "Percorso Può Essere Non Valido";
@@ -5876,3 +5876,9 @@
 
 /* Wi-Fi Sync was stopped because there were too many incorrect passcode attempts. */
 "wifi_sync_too_many_bad_passcode_attempts" = "Wi-Fi Sync è stata interrotta a causa di un numero eccessivo di tentativi di codice di accesso errati.";
+
+/* Most Recent (Used until %@) - L10n Note: Header above a previously used password. The 1st parameter is a friend date string, e.g. 'Most Recent Used until 2 February 2023 at 10:31' */
+"password_history_this_password_was_used_until_most_recent_fmt" = "Most Recent (Used until %@)";
+
+/* Oldest (Used until %@) - L10n Note: Header above a previously used password. The 1st parameter is a friend date string, e.g. 'Oldest Used until 2 February 2023 at 10:31' */
+"password_history_this_password_was_used_until_oldest_fmt" = "Oldest (Used until %@)";
