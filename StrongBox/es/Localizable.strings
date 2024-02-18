@@ -1369,8 +1369,8 @@
 /* %@ has failed: %@. You must now enter your password manually to open the database. */
 "open_sequence_biometric_unlock_warn_not_configured_fmt" = "%@ ha fallado: %@.\n\nPuedes cancelar para intentarlo de nuevo o elegir desbloquear manualmente.";
 
-/* Error Reading Key File */
-"open_sequence_error_reading_key_file" = "No se pudo leer el archivo clave. ¿Ha sido movido o eliminado? Compruebe la administración de archivos clave en Preferencias";
+/* Could not read Key File. Has it been moved or deleted? Check Key Files Management in Settings */
+"open_sequence_error_reading_key_file" = "Could not read Key File. Has it been moved or deleted? Check Key Files Management in Settings";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc, 2nd param is the date/time of the last cache) */
 "open_sequence_user_looks_offline_open_offline_instead_fmt" = "Parece que estás fuera de línea y '%@' es posible que no sea accesible. ¿Desea utilizar una versión de caché fuera de línea de sólo lectura de esta base de datos en su lugar?\n\nÚltima vez en caché: %@";
@@ -1820,8 +1820,8 @@
 /* Button Title to view backup settings of this database */
 "safes_vc_action_backups" = "Copias de seguridad";
 
-/* Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences */
-"open_sequence_error_reading_key_file_autofill_context" = "No se ha podido leer el archivo clave. ¿Se ha importado correctamente? Comprobar el gestor de archivos clave en Preferencias";
+/* Could not read Key File. Has it been imported properly? Check Key Files Management in Settings */
+"open_sequence_error_reading_key_file_autofill_context" = "Could not read Key File. Has it been imported properly? Check Key Files Management in Settings";
 
 /* Transfer over Wi-Fi (or LAN) */
 "sspc_local_network_storage_location" = "Transferir por Wi-Fi (o LAN)";
@@ -1829,8 +1829,8 @@
 /* A storage provider is in the process of reading. This is the status displayed on the progress dialog. In english:  Reading... */
 "storage_provider_status_reading" = "Leyendo...";
 
-/* Identify to Open Preferences */
-"open_sequence_biometric_unlock_preferences_message" = "Identificar para abrir preferencias";
+/* Identify to Open Settings */
+"open_sequence_biometric_unlock_preferences_message" = "Identify to Open Settings";
 
 /* Message to display when device is offline and has no IP address in Local HTTP Transfer - Select Storage -> Transfer over Local Network */
 "transfer_local_network_network_unavailable_message" = "¿Parece que está desconectado?";
@@ -2206,7 +2206,7 @@
 "favicon_invalid_preferences_alert_title" = "Configuración de FavIcon inválida";
 
 /* This set of preferences will not produce valid FavIcon results. */
-"favicon_invalid_preferences_alert_message" = "Este conjunto de preferencias no producirá resultados de FavIcon válidos.";
+"favicon_invalid_preferences_alert_message" = "These settings will not produce valid FavIcon results.";
 
 /* Unlock with %@ or Watch */
 "mac_unlock_database_with_biometric_fmt" = "Desbloquear con %@ o Reloj";
@@ -2574,7 +2574,7 @@
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "¿Está seguro de que quiere eliminar el campo personalizado '%@'?";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "¿Está seguro de que quiere eliminar el campo personalizado '%@'?";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
 
 /* Add Custom Field */
 "mac_node_details_add_custom_field" = "Añadir campo personalizado";
@@ -3173,7 +3173,7 @@
 "audit_manual_pwn_check_result_not_pwned" = "Su contraseña NO ha sido pwned y probablemente sea segura.";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Resultado HIBP manual";
+"audit_manual_pwn_check_result_title" = "Resultado de HIBP manual";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "Esta contraseña es pwned y es vulnerable";
@@ -3244,8 +3244,8 @@
 /* %@ Unlock (Translators Note: 1st param is 'Touch ID' or 'Face ID' - Used on the Upgrade, Freemium Onboarding/Welcome screen and the Free vs Pro Chart screen) */
 "generic_biometric_unlock_fmt" = "%@ Desbloquear";
 
-/* By Default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok? */
-"backup_settings_prompt_message" = "Por Defecto Strongbox incluye todos los archivos locales (incluyendo las copias de seguridad de bases de datos) y las bases de datos de dispositivos locales en las copias de seguridad de Apple de este dispositivo. Sin embargo, los archivos de claves importados no se incluyen explícitamente por razones de seguridad.\n\nPuede cambiar esta configuración en cualquier momento en Preferencias > Preferencias avanzadas.\n\n¿Suena bien?";
+/* By default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Settings > Advanced.\n\nDoes this sound ok? */
+"backup_settings_prompt_message" = "By default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Settings > Advanced.\n\nDoes this sound ok?";
 
 /* Backup Settings */
 "backup_settings_prompt_title" = "Ajustes de las Copias de seguridad";
@@ -3635,7 +3635,7 @@
 "merge_view_are_you_sure" = "¿Está seguro de que desea fusionar la segunda base de datos en la primera?";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "¿Está seguro que desea combinar la segunda base de datos con la primera?";
+"merge_view_are_you_sure" = "¿Está seguro de que desea fusionar la segunda base de datos en la primera?";
 
 /* Merge Successful */
 "merge_view_merge_title_success" = "Fusión satisfactoria";
@@ -5458,8 +5458,8 @@
 /* Overwrite Password?" */
 "ssh_agent_overwrite_password" = "¿Sobrescribir la contraseña?";
 
-/* This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt. Strongbox will then set the password of this entry to match. */
-"ssh_agent_sshkey_please_enter_passphrase_msg" = "Esta clave SSH está protegida con una frase de contraseña.\n\nIntroduzca la frase de contraseña para desencriptarla. Strongbox luego establecerá la frase de contraseña de esta entrada para que coincida.";
+/* This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt. */
+"ssh_agent_sshkey_please_enter_passphrase_msg" = "This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt.";
 
 /* The passphrase does not match the existing password. Strongbox needs the password to match the passphrase to use this SSH Key properly.\n\nContinue to overwrite the current password? */
 "ssh_agent_passphrase_password_mismatch" = "La frase de contraseña no coincide con la contraseña existente. Strongbox necesita que la contraseña coincida con la frase de contraseña para utilizar esta clave SSH correctamente.\n\n¿Seguir sobrescribiendo la contraseña actual?";
@@ -5885,3 +5885,15 @@
 
 /* Excluded - L10n Note: Header for a list of excluded items, or a navigation item or side bar item that will show a list of excluded items */
 "nav_excluded_items" = "Excluido";
+
+/* Passphrase Performance Issues */
+"ssh_key_agent_passphrase_perf_problem_prompt_title" = "Passphrase Performance Issues";
+
+/* To avoid performance problems, it is best to store this SSH key without the extra passphrase encryption layer.\nNB: Your SSH key is still securely protected by KeePass encryption.\n\nIs it OK if Strongbox stores this SSH key in an optimized fashion? */
+"ssh_key_agent_passphrase_perf_problem_prompt_message" = "To avoid performance problems, it is best to store this SSH key without the extra passphrase encryption layer.\n\nNB: Your SSH key will still be securely encrypted.\n\nIs it OK if Strongbox stores this SSH key in an optimized fashion?";
+
+/* Yes, that's a great idea */
+"ssh_key_agent_passphrase_perf_problem_prompt_option_yes" = "Yes, that's a great idea";
+
+/* Lock - L10n Note: This is a verb or action. To "Lock" a database */
+"generic_verb_lock_action" = "Lock";
