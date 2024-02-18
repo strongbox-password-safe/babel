@@ -1369,8 +1369,8 @@
 /* %@ has failed: %@. You must now enter your password manually to open the database. */
 "open_sequence_biometric_unlock_warn_not_configured_fmt" = "%@ 失败： %@。\n\n您可以取消后重试或选择手动解锁。";
 
-/* Error Reading Key File */
-"open_sequence_error_reading_key_file" = "无法读取密钥文件。它是否已被移动或删除？请在偏好设置中检查密钥文件管理。";
+/* Could not read Key File. Has it been moved or deleted? Check Key Files Management in Settings */
+"open_sequence_error_reading_key_file" = "Could not read Key File. Has it been moved or deleted? Check Key Files Management in Settings";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc, 2nd param is the date/time of the last cache) */
 "open_sequence_user_looks_offline_open_offline_instead_fmt" = "看起来您可能处于离线状态，无法访问 '%@'。是否要改为使用此数据库的只读脱机缓存版本？\n\n最近缓存: %@";
@@ -1820,8 +1820,8 @@
 /* Button Title to view backup settings of this database */
 "safes_vc_action_backups" = "备份";
 
-/* Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences */
-"open_sequence_error_reading_key_file_autofill_context" = "无法读取密钥文件。它是否已被导入？请在偏好设置中检查密钥文件管理。";
+/* Could not read Key File. Has it been imported properly? Check Key Files Management in Settings */
+"open_sequence_error_reading_key_file_autofill_context" = "Could not read Key File. Has it been imported properly? Check Key Files Management in Settings";
 
 /* Transfer over Wi-Fi (or LAN) */
 "sspc_local_network_storage_location" = "通过 WiFi （或局域网）传输";
@@ -1829,8 +1829,8 @@
 /* A storage provider is in the process of reading. This is the status displayed on the progress dialog. In english:  Reading... */
 "storage_provider_status_reading" = "正在读取...";
 
-/* Identify to Open Preferences */
-"open_sequence_biometric_unlock_preferences_message" = "识别以打开偏好设置";
+/* Identify to Open Settings */
+"open_sequence_biometric_unlock_preferences_message" = "Identify to Open Settings";
 
 /* Message to display when device is offline and has no IP address in Local HTTP Transfer - Select Storage -> Transfer over Local Network */
 "transfer_local_network_network_unavailable_message" = "您好像处于离线状态？";
@@ -2206,7 +2206,7 @@
 "favicon_invalid_preferences_alert_title" = "Invalid FavIcon Settings";
 
 /* This set of preferences will not produce valid FavIcon results. */
-"favicon_invalid_preferences_alert_message" = "这组选项将不会产生有效的网页图标结果。";
+"favicon_invalid_preferences_alert_message" = "These settings will not produce valid FavIcon results.";
 
 /* Unlock with %@ or Watch */
 "mac_unlock_database_with_biometric_fmt" = "使用 %@ 或 Apple Watch 解锁";
@@ -2574,7 +2574,7 @@
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "您确定要移除自定义字段'%@'吗？";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "您确定要移除自定义字段'%@'吗？";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
 
 /* Add Custom Field */
 "mac_node_details_add_custom_field" = "增加自定义字段";
@@ -3173,7 +3173,7 @@
 "audit_manual_pwn_check_result_not_pwned" = "您的密码并没有泄露，较大概率是安全的。";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Manual HIBP Result";
+"audit_manual_pwn_check_result_title" = "手动调整 HIBP 结果";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "这个密码已泄露，很容易受到攻击";
@@ -3244,8 +3244,8 @@
 /* %@ Unlock (Translators Note: 1st param is 'Touch ID' or 'Face ID' - Used on the Upgrade, Freemium Onboarding/Welcome screen and the Free vs Pro Chart screen) */
 "generic_biometric_unlock_fmt" = "%@ 解锁";
 
-/* By Default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok? */
-"backup_settings_prompt_message" = "默认情况下，Strongbox 会将您的所有本地文件（包括数据库备份）和本地设备数据库都保存在该设备的 Apple 备份中。但出于安全考虑，导入的密钥文件不包括在内。\n\n您随时可以在偏好设置 > 高级设置中更改这些设置。\n\n这样合您心意吗？";
+/* By default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Settings > Advanced.\n\nDoes this sound ok? */
+"backup_settings_prompt_message" = "By default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Settings > Advanced.\n\nDoes this sound ok?";
 
 /* Backup Settings */
 "backup_settings_prompt_title" = "备份设置";
@@ -3368,7 +3368,7 @@
 "sftp_path_are_you_sure" = "您确定路径正确吗？它应该是父文件夹的路径。而不是数据库文件。";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Are you sure the path is correct? It should be a path to a parent folder. Not the database file.";
+"sftp_path_are_you_sure" = "您确定路径正确吗？它应该是父文件夹的路径。而不是数据库文件。";
 
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "路径可能无效";
@@ -3635,7 +3635,7 @@
 "merge_view_are_you_sure" = "您确定要将第二个数据库合并到第一个数据库吗？";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Are you sure you want to merge the second database into the first?";
+"merge_view_are_you_sure" = "您确定要将第二个数据库合并到第一个数据库吗？";
 
 /* Merge Successful */
 "merge_view_merge_title_success" = "合并成功";
@@ -5458,8 +5458,8 @@
 /* Overwrite Password?" */
 "ssh_agent_overwrite_password" = "是否覆盖密码？";
 
-/* This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt. Strongbox will then set the password of this entry to match. */
-"ssh_agent_sshkey_please_enter_passphrase_msg" = "这个 SSH 密钥受密码保护。\n\n请输入短语密码以解密。然后，Strongbox 将会设置这个条目的密码与短语密码相匹配。";
+/* This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt. */
+"ssh_agent_sshkey_please_enter_passphrase_msg" = "This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt.";
 
 /* The passphrase does not match the existing password. Strongbox needs the password to match the passphrase to use this SSH Key properly.\n\nContinue to overwrite the current password? */
 "ssh_agent_passphrase_password_mismatch" = "短语密码同现有密码不匹配。Strongbox 需要匹配的密码来正确使用此 SSH 密钥。\n\n是否继续并覆盖当前密码？";
@@ -5885,3 +5885,15 @@
 
 /* Excluded - L10n Note: Header for a list of excluded items, or a navigation item or side bar item that will show a list of excluded items */
 "nav_excluded_items" = "Excluded";
+
+/* Passphrase Performance Issues */
+"ssh_key_agent_passphrase_perf_problem_prompt_title" = "Passphrase Performance Issues";
+
+/* To avoid performance problems, it is best to store this SSH key without the extra passphrase encryption layer.\nNB: Your SSH key is still securely protected by KeePass encryption.\n\nIs it OK if Strongbox stores this SSH key in an optimized fashion? */
+"ssh_key_agent_passphrase_perf_problem_prompt_message" = "To avoid performance problems, it is best to store this SSH key without the extra passphrase encryption layer.\n\nNB: Your SSH key will still be securely encrypted.\n\nIs it OK if Strongbox stores this SSH key in an optimized fashion?";
+
+/* Yes, that's a great idea */
+"ssh_key_agent_passphrase_perf_problem_prompt_option_yes" = "Yes, that's a great idea";
+
+/* Lock - L10n Note: This is a verb or action. To "Lock" a database */
+"generic_verb_lock_action" = "Lock";
