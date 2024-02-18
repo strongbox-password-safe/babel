@@ -1369,8 +1369,8 @@
 /* %@ has failed: %@. You must now enter your password manually to open the database. */
 "open_sequence_biometric_unlock_warn_not_configured_fmt" = "%@ misslyckades: %@.\n\nDu kan avbryta för att försöka igen eller välja att låsa upp manuellt.";
 
-/* Error Reading Key File */
-"open_sequence_error_reading_key_file" = "Kunde inte läsa nyckelfil. Har den flyttats eller tagits bort? Kolla nyckelfilshantering i Inställningar";
+/* Could not read Key File. Has it been moved or deleted? Check Key Files Management in Settings */
+"open_sequence_error_reading_key_file" = "Could not read Key File. Has it been moved or deleted? Check Key Files Management in Settings";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc, 2nd param is the date/time of the last cache) */
 "open_sequence_user_looks_offline_open_offline_instead_fmt" = "Det verkar som att du är offline och \"%@\" är kanske inte nåbar. Vill du använda en skrivskyddad cache-version av den här databasen i stället?\n\nSenaste cache: %@";
@@ -1820,8 +1820,8 @@
 /* Button Title to view backup settings of this database */
 "safes_vc_action_backups" = "Säkerhetskopior";
 
-/* Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences */
-"open_sequence_error_reading_key_file_autofill_context" = "Kunde inte läsa nyckelfil. Har den importerats ordentligt? Kolla nyckelfilshantering i Inställningar";
+/* Could not read Key File. Has it been imported properly? Check Key Files Management in Settings */
+"open_sequence_error_reading_key_file_autofill_context" = "Could not read Key File. Has it been imported properly? Check Key Files Management in Settings";
 
 /* Transfer over Wi-Fi (or LAN) */
 "sspc_local_network_storage_location" = "Överför via Wi-Fi (eller LAN)";
@@ -1829,8 +1829,8 @@
 /* A storage provider is in the process of reading. This is the status displayed on the progress dialog. In english:  Reading... */
 "storage_provider_status_reading" = "Läser ...";
 
-/* Identify to Open Preferences */
-"open_sequence_biometric_unlock_preferences_message" = "Identifiera dig för att öppna inställningar";
+/* Identify to Open Settings */
+"open_sequence_biometric_unlock_preferences_message" = "Identify to Open Settings";
 
 /* Message to display when device is offline and has no IP address in Local HTTP Transfer - Select Storage -> Transfer over Local Network */
 "transfer_local_network_network_unavailable_message" = "Det verkar som om du är offline?";
@@ -2206,7 +2206,7 @@
 "favicon_invalid_preferences_alert_title" = "Ogiltiga faviconinställningar";
 
 /* This set of preferences will not produce valid FavIcon results. */
-"favicon_invalid_preferences_alert_message" = "Den här uppsättningen av inställningar kommer inte ge giltiga faviconresultat.";
+"favicon_invalid_preferences_alert_message" = "These settings will not produce valid FavIcon results.";
 
 /* Unlock with %@ or Watch */
 "mac_unlock_database_with_biometric_fmt" = "Lås upp med %@ eller Watch";
@@ -2574,7 +2574,7 @@
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "Är du säker på att du vill ta bort det anpassade fältet \"%@\"?";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Är du säker på att du vill ta bort det anpassade fältet \"%@\"?";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
 
 /* Add Custom Field */
 "mac_node_details_add_custom_field" = "Lägg till anpassat fält";
@@ -3244,8 +3244,8 @@
 /* %@ Unlock (Translators Note: 1st param is 'Touch ID' or 'Face ID' - Used on the Upgrade, Freemium Onboarding/Welcome screen and the Free vs Pro Chart screen) */
 "generic_biometric_unlock_fmt" = "%@ Lås upp";
 
-/* By Default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok? */
-"backup_settings_prompt_message" = "Strongbox inkluderar standardmässigt alla lokala filer (inklusive databassäkerhetskopior) och lokala databaser i denna enhets Apple-säkerhetskopior. Av säkerhetsskäl är importerade nyckelfiler däremot inte inkluderade.\n\nDu kan ändra dessa inställningar när som helst i Inställningar > Avancerade inställningar.\n\nÄr detta ok?";
+/* By default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Settings > Advanced.\n\nDoes this sound ok? */
+"backup_settings_prompt_message" = "By default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Settings > Advanced.\n\nDoes this sound ok?";
 
 /* Backup Settings */
 "backup_settings_prompt_title" = "Inställningar för säkerhetskopiering";
@@ -5458,8 +5458,8 @@
 /* Overwrite Password?" */
 "ssh_agent_overwrite_password" = "Skriv över lösenord?";
 
-/* This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt. Strongbox will then set the password of this entry to match. */
-"ssh_agent_sshkey_please_enter_passphrase_msg" = "Denna SSH-nyckel är lösenfrasskyddad.\n\nAnge lösenfrasen för att dekryptera. Strongbox kommer sedan att ställa in lösenordet för denna post så att det matchar.";
+/* This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt. */
+"ssh_agent_sshkey_please_enter_passphrase_msg" = "This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt.";
 
 /* The passphrase does not match the existing password. Strongbox needs the password to match the passphrase to use this SSH Key properly.\n\nContinue to overwrite the current password? */
 "ssh_agent_passphrase_password_mismatch" = "Lösenfrasen matchar inte det befintliga lösenordet. Strongbox kräver att lösenordet matchar lösenfrasen för att använda denna SSH-nyckel korrekt.\n\nFortsätta med att skriva över det aktuella lösenordet?";
@@ -5885,3 +5885,15 @@
 
 /* Excluded - L10n Note: Header for a list of excluded items, or a navigation item or side bar item that will show a list of excluded items */
 "nav_excluded_items" = "Exkluderade";
+
+/* Passphrase Performance Issues */
+"ssh_key_agent_passphrase_perf_problem_prompt_title" = "Passphrase Performance Issues";
+
+/* To avoid performance problems, it is best to store this SSH key without the extra passphrase encryption layer.\nNB: Your SSH key is still securely protected by KeePass encryption.\n\nIs it OK if Strongbox stores this SSH key in an optimized fashion? */
+"ssh_key_agent_passphrase_perf_problem_prompt_message" = "To avoid performance problems, it is best to store this SSH key without the extra passphrase encryption layer.\n\nNB: Your SSH key will still be securely encrypted.\n\nIs it OK if Strongbox stores this SSH key in an optimized fashion?";
+
+/* Yes, that's a great idea */
+"ssh_key_agent_passphrase_perf_problem_prompt_option_yes" = "Yes, that's a great idea";
+
+/* Lock - L10n Note: This is a verb or action. To "Lock" a database */
+"generic_verb_lock_action" = "Lock";
