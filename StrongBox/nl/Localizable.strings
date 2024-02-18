@@ -1369,8 +1369,8 @@
 /* %@ has failed: %@. You must now enter your password manually to open the database. */
 "open_sequence_biometric_unlock_warn_not_configured_fmt" = "%@ is mislukt: %@.\n\nU kunt annuleren om het opnieuw te proberen of ervoor kiezen om handmatig te ontgrendelen.";
 
-/* Error Reading Key File */
-"open_sequence_error_reading_key_file" = "Sleutelbestand kan niet worden gelezen. Is het verplaatst of verwijderd? Controleer het beheer van sleutelbestanden in de voorkeuren";
+/* Could not read Key File. Has it been moved or deleted? Check Key Files Management in Settings */
+"open_sequence_error_reading_key_file" = "Could not read Key File. Has it been moved or deleted? Check Key Files Management in Settings";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc, 2nd param is the date/time of the last cache) */
 "open_sequence_user_looks_offline_open_offline_instead_fmt" = "Je lijkt offline, mogelijk is '%@' niet bereikbaar. Wil je in plaats daarvan een alleen-lezen offline cacheversie gebruiken van deze database?\n\nLaatst gecachet: %@";
@@ -1820,8 +1820,8 @@
 /* Button Title to view backup settings of this database */
 "safes_vc_action_backups" = "Reservekopieën";
 
-/* Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences */
-"open_sequence_error_reading_key_file_autofill_context" = "Sleutelbestand kan niet worden gelezen. Is het goed geïmporteerd? Controleer het beheer van sleutelbestanden in de voorkeuren";
+/* Could not read Key File. Has it been imported properly? Check Key Files Management in Settings */
+"open_sequence_error_reading_key_file_autofill_context" = "Could not read Key File. Has it been imported properly? Check Key Files Management in Settings";
 
 /* Transfer over Wi-Fi (or LAN) */
 "sspc_local_network_storage_location" = "Overdracht via Wi-Fi (of LAN)";
@@ -1829,8 +1829,8 @@
 /* A storage provider is in the process of reading. This is the status displayed on the progress dialog. In english:  Reading... */
 "storage_provider_status_reading" = "Lezen...";
 
-/* Identify to Open Preferences */
-"open_sequence_biometric_unlock_preferences_message" = "Verifieer om voorkeuren te openen";
+/* Identify to Open Settings */
+"open_sequence_biometric_unlock_preferences_message" = "Identify to Open Settings";
 
 /* Message to display when device is offline and has no IP address in Local HTTP Transfer - Select Storage -> Transfer over Local Network */
 "transfer_local_network_network_unavailable_message" = "Je lijkt offline?";
@@ -2206,7 +2206,7 @@
 "favicon_invalid_preferences_alert_title" = "Ongeldige FavIcon-instellingen";
 
 /* This set of preferences will not produce valid FavIcon results. */
-"favicon_invalid_preferences_alert_message" = "Deze combinatie van voorkeuren levert geen geldige FavIcon-resultaten op.";
+"favicon_invalid_preferences_alert_message" = "These settings will not produce valid FavIcon results.";
 
 /* Unlock with %@ or Watch */
 "mac_unlock_database_with_biometric_fmt" = "Ontgrendel met %@ of Apple Watch";
@@ -2574,7 +2574,7 @@
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "Weet je zeker dat je het eigen veld '%@' wilt verwijderen?";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Weet je zeker dat je het eigen veld '%@' wilt verwijderen?";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
 
 /* Add Custom Field */
 "mac_node_details_add_custom_field" = "Voeg eigen veld toe";
@@ -3173,7 +3173,7 @@
 "audit_manual_pwn_check_result_not_pwned" = "Je wachtwoord komt NIET voor in HIBP en is waarschijnlijk veilig.";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Manual HIBP Result";
+"audit_manual_pwn_check_result_title" = "Handmatig HIBP-resultaat";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "Dit wachtwoord komt voor in HIBP en is kwetsbaar";
@@ -3244,8 +3244,8 @@
 /* %@ Unlock (Translators Note: 1st param is 'Touch ID' or 'Face ID' - Used on the Upgrade, Freemium Onboarding/Welcome screen and the Free vs Pro Chart screen) */
 "generic_biometric_unlock_fmt" = "Ontgrendel met %@";
 
-/* By Default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok? */
-"backup_settings_prompt_message" = "Standaard neemt Strongbox alle lokale bestanden (inclusief reservekopieën van databases) en lokale databases mee in Apple-reservekopieën van dit apparaat. Geïmporteerde sleutelbestanden worden om veiligheidsredenen echter expliciet niet opgenomen.\n\nWijzig dit op elk gewenst moment in Voorkeuren > Geavanceerde voorkeuren.\n\nIs dit goed?";
+/* By default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Settings > Advanced.\n\nDoes this sound ok? */
+"backup_settings_prompt_message" = "By default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Settings > Advanced.\n\nDoes this sound ok?";
 
 /* Backup Settings */
 "backup_settings_prompt_title" = "Reservekopie-instellingen";
@@ -3368,7 +3368,7 @@
 "sftp_path_are_you_sure" = "Weet je zeker dat dit het juiste pad is? Het zou een pad moeten zijn naar een bovenliggende map en niet het databasebestand.";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Are you sure the path is correct? It should be a path to a parent folder. Not the database file.";
+"sftp_path_are_you_sure" = "Weet je zeker dat dit het juiste pad is? Het zou een pad moeten zijn naar een bovenliggende map en niet het databasebestand.";
 
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "Pad Kan Ongeldig Zijn";
@@ -3635,7 +3635,7 @@
 "merge_view_are_you_sure" = "Weet je zeker dat je de tweede database wilt samenvoegen in de eerste?";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Are you sure you want to merge the second database into the first?";
+"merge_view_are_you_sure" = "Weet je zeker dat je de tweede database wilt samenvoegen in de eerste?";
 
 /* Merge Successful */
 "merge_view_merge_title_success" = "Samenvoegen succesvol";
@@ -5458,8 +5458,8 @@
 /* Overwrite Password?" */
 "ssh_agent_overwrite_password" = "Wachtwoord overschrijven?";
 
-/* This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt. Strongbox will then set the password of this entry to match. */
-"ssh_agent_sshkey_please_enter_passphrase_msg" = "Deze SSH sleutel is beveiligd met een wachtwoordzin.\n\nVul de wachtwoordzin in om te decoderen. Strongbox zal vervolgens het wachtwoord van deze entry overeenkomstig instellen.";
+/* This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt. */
+"ssh_agent_sshkey_please_enter_passphrase_msg" = "This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt.";
 
 /* The passphrase does not match the existing password. Strongbox needs the password to match the passphrase to use this SSH Key properly.\n\nContinue to overwrite the current password? */
 "ssh_agent_passphrase_password_mismatch" = "De wachtwoordzin komt niet overeen met het bestaande wachtwoord. Strongbox heeft het wachtwoord nodig om deze SSH sleutel correct te gebruiken.\n\nDoorgaan met het overschrijven van het huidige wachtwoord?";
@@ -5885,3 +5885,15 @@
 
 /* Excluded - L10n Note: Header for a list of excluded items, or a navigation item or side bar item that will show a list of excluded items */
 "nav_excluded_items" = "Excluded";
+
+/* Passphrase Performance Issues */
+"ssh_key_agent_passphrase_perf_problem_prompt_title" = "Passphrase Performance Issues";
+
+/* To avoid performance problems, it is best to store this SSH key without the extra passphrase encryption layer.\nNB: Your SSH key is still securely protected by KeePass encryption.\n\nIs it OK if Strongbox stores this SSH key in an optimized fashion? */
+"ssh_key_agent_passphrase_perf_problem_prompt_message" = "To avoid performance problems, it is best to store this SSH key without the extra passphrase encryption layer.\n\nNB: Your SSH key will still be securely encrypted.\n\nIs it OK if Strongbox stores this SSH key in an optimized fashion?";
+
+/* Yes, that's a great idea */
+"ssh_key_agent_passphrase_perf_problem_prompt_option_yes" = "Yes, that's a great idea";
+
+/* Lock - L10n Note: This is a verb or action. To "Lock" a database */
+"generic_verb_lock_action" = "Lock";
