@@ -1369,8 +1369,8 @@
 /* %@ has failed: %@. You must now enter your password manually to open the database. */
 "open_sequence_biometric_unlock_warn_not_configured_fmt" = "%@ selhalo: %@.\n\nMůžete zkoušení znovu zrušit nebo zvolit odemčení ručně.";
 
-/* Error Reading Key File */
-"open_sequence_error_reading_key_file" = "Nepodařilo se přečíst soubor s klíčem. Byl přesunutý nebo odstraněný? Zkontrolujte v Předvolbách správu souborů s klíči";
+/* Could not read Key File. Has it been moved or deleted? Check Key Files Management in Settings */
+"open_sequence_error_reading_key_file" = "Could not read Key File. Has it been moved or deleted? Check Key Files Management in Settings";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc, 2nd param is the date/time of the last cache) */
 "open_sequence_user_looks_offline_open_offline_instead_fmt" = "Vypadá to, že můžete být offline a '%@' nemusí být dosažitelný. Chcete místo toho použít databázi z offline cache v režimu pouze pro čtení?\n\nPoslední v cache: %@";
@@ -1716,10 +1716,10 @@
 "keepass_history_tip" = "Tip: posunutím vlevo zobrazíte možnosti nebo klepnutím pro pohled";
 
 /* Favorite */
-"browse_vc_action_pin" = "Favorite";
+"browse_vc_action_pin" = "Oblíbené";
 
 /* Un-Favorite */
-"browse_vc_action_unpin" = "Un-Favorite";
+"browse_vc_action_unpin" = "Odebrat z oblíbených";
 
 /* Section Header Title for Expired Items */
 "browse_vc_section_title_expired" = "Prošlé";
@@ -1728,7 +1728,7 @@
 "browse_vc_section_title_nearly_expired" = "Blízko vypršení";
 
 /* Section Header Title for Favorite Items */
-"browse_vc_section_title_pinned" = "Favorites";
+"browse_vc_section_title_pinned" = "Oblíbené";
 
 /* Section Header Title for Recent Items */
 "browse_vc_section_title_recents" = "Poslední položky";
@@ -1820,8 +1820,8 @@
 /* Button Title to view backup settings of this database */
 "safes_vc_action_backups" = "Zálohy";
 
-/* Could not read Key File. Has it been imported properly? Check Key Files Management in Preferences */
-"open_sequence_error_reading_key_file_autofill_context" = "Nepodařilo se přečíst soubor s klíčem. Byl správně importovaný? Zkontrolujte v Předvolbách správu souborů s klíči";
+/* Could not read Key File. Has it been imported properly? Check Key Files Management in Settings */
+"open_sequence_error_reading_key_file_autofill_context" = "Could not read Key File. Has it been imported properly? Check Key Files Management in Settings";
 
 /* Transfer over Wi-Fi (or LAN) */
 "sspc_local_network_storage_location" = "Přenos přes Wi-Fi (nebo LAN)";
@@ -1829,8 +1829,8 @@
 /* A storage provider is in the process of reading. This is the status displayed on the progress dialog. In english:  Reading... */
 "storage_provider_status_reading" = "Čtení...";
 
-/* Identify to Open Preferences */
-"open_sequence_biometric_unlock_preferences_message" = "Identifikovat pro otevření předvoleb";
+/* Identify to Open Settings */
+"open_sequence_biometric_unlock_preferences_message" = "Identify to Open Settings";
 
 /* Message to display when device is offline and has no IP address in Local HTTP Transfer - Select Storage -> Transfer over Local Network */
 "transfer_local_network_network_unavailable_message" = "Zdá se, že jste offline?";
@@ -2206,7 +2206,7 @@
 "favicon_invalid_preferences_alert_title" = "Neplatné nastavení FavIcon";
 
 /* This set of preferences will not produce valid FavIcon results. */
-"favicon_invalid_preferences_alert_message" = "Tato sada předvoleb nepřinese platné výsledky hledání FavIkon.";
+"favicon_invalid_preferences_alert_message" = "These settings will not produce valid FavIcon results.";
 
 /* Unlock with %@ or Watch */
 "mac_unlock_database_with_biometric_fmt" = "Odemknout pomocí %@ nebo Watch";
@@ -2574,7 +2574,7 @@
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "Jste si jistí, že chcete odebrat vlastní pole '%@'?";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Jste si jistí, že chcete odebrat vlastní pole '%@'?";
 
 /* Add Custom Field */
 "mac_node_details_add_custom_field" = "Přidat vlastní pole";
@@ -3173,7 +3173,7 @@
 "audit_manual_pwn_check_result_not_pwned" = "Vaše heslo NEBYLO pwned a je pravděpodobně bezpečné.";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Výsledek manuálního HIBP";
+"audit_manual_pwn_check_result_title" = "Manual HIBP Result";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "Toto heslo je pwned a je tedy zranitelné";
@@ -3244,8 +3244,8 @@
 /* %@ Unlock (Translators Note: 1st param is 'Touch ID' or 'Face ID' - Used on the Upgrade, Freemium Onboarding/Welcome screen and the Free vs Pro Chart screen) */
 "generic_biometric_unlock_fmt" = "%@ odemknout";
 
-/* By Default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Preferences > Advanced Preferences.\n\nDoes this sound ok? */
-"backup_settings_prompt_message" = "Ve výchozím nastavení Strongbox zahrnuje všechny lokální soubory (včetně záloh databáze) a místní databáze v zálohách Apple tohoto zařízení. Importované soubory klíčů však nejsou z bezpečnostních důvodů výslovně zahrnuty.\n\nToto nastavení můžete kdykoli změnit v Nastavení > Pokročilé nastavení.\n\nZní to rozumně?";
+/* By default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Settings > Advanced.\n\nDoes this sound ok? */
+"backup_settings_prompt_message" = "By default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Settings > Advanced.\n\nDoes this sound ok?";
 
 /* Backup Settings */
 "backup_settings_prompt_title" = "Nastavení zálohování";
@@ -3368,7 +3368,7 @@
 "sftp_path_are_you_sure" = "Jste si jisti, že je cesta správná? Měla by to být cesta pro nadřazenou složku, ne na databázový soubor.";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Jste si jisti, že je cesta správná? Měla by to být cesta pro nadřazenou složku, ne na databázový soubor.";
+"sftp_path_are_you_sure" = "Are you sure the path is correct? It should be a path to a parent folder. Not the database file.";
 
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "Cesta může být neplatná";
@@ -3635,7 +3635,7 @@
 "merge_view_are_you_sure" = "Opravdu chcete sloučit druhou databázi do první?";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Opravdu chcete sloučit druhou databázi do první?";
+"merge_view_are_you_sure" = "Are you sure you want to merge the second database into the first?";
 
 /* Merge Successful */
 "merge_view_merge_title_success" = "Sloučení bylo úspěšné";
@@ -5458,8 +5458,8 @@
 /* Overwrite Password?" */
 "ssh_agent_overwrite_password" = "Přepsat heslo?";
 
-/* This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt. Strongbox will then set the password of this entry to match. */
-"ssh_agent_sshkey_please_enter_passphrase_msg" = "Tento klíč SSH je chráněn přístupovou frází.\n\nPro dešifrování zadejte prosím přístupovou frázi. Strongbox pak nastaví heslo pro tuto položku.";
+/* This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt. */
+"ssh_agent_sshkey_please_enter_passphrase_msg" = "This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt.";
 
 /* The passphrase does not match the existing password. Strongbox needs the password to match the passphrase to use this SSH Key properly.\n\nContinue to overwrite the current password? */
 "ssh_agent_passphrase_password_mismatch" = "Přístupová fráze neodpovídá existujícímu heslu. Strongbox potřebuje heslo, aby odpovídalo přístupové frázi, aby mohl správně použít tento SSH klíč.\n\nPokračovat v přepsání aktuálního hesla?";
@@ -5878,7 +5878,34 @@
 "wifi_sync_too_many_bad_passcode_attempts" = "Synchronizace Wi-Fi byla zastavena, protože bylo zaznamenáno příliš mnoho nesprávných pokusů o zadání přístupového kódu.";
 
 /* Most Recent (Used until %@) - L10n Note: Header above a previously used password. The 1st parameter is a friend date string, e.g. 'Most Recent Used until 2 February 2023 at 10:31' */
-"password_history_this_password_was_used_until_most_recent_fmt" = "Most Recent (Used until %@)";
+"password_history_this_password_was_used_until_most_recent_fmt" = "Nejnovější (používá se do %@)";
 
 /* Oldest (Used until %@) - L10n Note: Header above a previously used password. The 1st parameter is a friend date string, e.g. 'Oldest Used until 2 February 2023 at 10:31' */
-"password_history_this_password_was_used_until_oldest_fmt" = "Oldest (Used until %@)";
+"password_history_this_password_was_used_until_oldest_fmt" = "Nejstarší (používá se do %@)";
+
+/* Excluded - L10n Note: Header for a list of excluded items, or a navigation item or side bar item that will show a list of excluded items */
+"nav_excluded_items" = "Vyloučeno";
+
+/* Passphrase Performance Issues */
+"ssh_key_agent_passphrase_perf_problem_prompt_title" = "Passphrase Performance Issues";
+
+/* To avoid performance problems, it is best to store this SSH key without the extra passphrase encryption layer.\nNB: Your SSH key is still securely protected by KeePass encryption.\n\nIs it OK if Strongbox stores this SSH key in an optimized fashion? */
+"ssh_key_agent_passphrase_perf_problem_prompt_message" = "To avoid performance problems, it is best to store this SSH key without the extra passphrase encryption layer.\n\nNB: Your SSH key will still be securely encrypted.\n\nIs it OK if Strongbox stores this SSH key in an optimized fashion?";
+
+/* Yes, that's a great idea */
+"ssh_key_agent_passphrase_perf_problem_prompt_option_yes" = "Yes, that's a great idea";
+
+/* Lock - L10n Note: This is a verb or action. To "Lock" a database */
+"generic_verb_lock_action" = "Lock";
+
+/* Include in Audit */
+"action_include_items_in_audit_verb" = "Include in Audit";
+
+/* Exclude from Audit */
+"action_exclude_items_from_audit_verb" = "Exclude from Audit";
+
+/* Suggest in AutoFill */
+"action_suggest_items_in_autofill_verb" = "Suggest in AutoFill";
+
+/* Do not suggest in AutoFill */
+"action_do_not_suggest_items_in_autofill_verb" = "Do not suggest in AutoFill";
