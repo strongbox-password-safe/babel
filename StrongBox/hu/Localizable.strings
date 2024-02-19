@@ -1370,7 +1370,7 @@
 "open_sequence_biometric_unlock_warn_not_configured_fmt" = "%@ nem sikerült: %@.\n\nMegszakíthatja az újbóli próbálkozást, vagy választhatja a manuális feloldást.";
 
 /* Could not read Key File. Has it been moved or deleted? Check Key Files Management in Settings */
-"open_sequence_error_reading_key_file" = "Could not read Key File. Has it been moved or deleted? Check Key Files Management in Settings";
+"open_sequence_error_reading_key_file" = "Nem tudta beolvasni a kulcsfájlt. Elmozgatták vagy törölték? Ellenőrizze a kulcsfájlok kezelését a Beállítások menüpontban";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc, 2nd param is the date/time of the last cache) */
 "open_sequence_user_looks_offline_open_offline_instead_fmt" = "Úgy tűnik, hogy Ön offline és a '%@' nem elérhető. Szeretné az adatbázis csak olvasható offline cache verzióját használni helyette?\n\nUtolsó gyorsítótárazott: %@";
@@ -1821,7 +1821,7 @@
 "safes_vc_action_backups" = "Mentések";
 
 /* Could not read Key File. Has it been imported properly? Check Key Files Management in Settings */
-"open_sequence_error_reading_key_file_autofill_context" = "Could not read Key File. Has it been imported properly? Check Key Files Management in Settings";
+"open_sequence_error_reading_key_file_autofill_context" = "Nem tudta beolvasni a kulcsfájlt. Megfelelően lett beimportálva? Ellenőrizze a kulcsfájlok kezelését a Beállításokban";
 
 /* Transfer over Wi-Fi (or LAN) */
 "sspc_local_network_storage_location" = "Átvitel Wi-Fi-n (vagy LAN-on) keresztül";
@@ -1830,7 +1830,7 @@
 "storage_provider_status_reading" = "Olvasás...";
 
 /* Identify to Open Settings */
-"open_sequence_biometric_unlock_preferences_message" = "Identify to Open Settings";
+"open_sequence_biometric_unlock_preferences_message" = "Azonosítsa a Beállítások megnyitásához";
 
 /* Message to display when device is offline and has no IP address in Local HTTP Transfer - Select Storage -> Transfer over Local Network */
 "transfer_local_network_network_unavailable_message" = "Úgy tűnik, mintha offline lenne?";
@@ -2206,7 +2206,7 @@
 "favicon_invalid_preferences_alert_title" = "Érvénytelen FavIcon beállítások";
 
 /* This set of preferences will not produce valid FavIcon results. */
-"favicon_invalid_preferences_alert_message" = "These settings will not produce valid FavIcon results.";
+"favicon_invalid_preferences_alert_message" = "Ezek a beállítások nem adnak érvényes FavIcon eredményeket.";
 
 /* Unlock with %@ or Watch */
 "mac_unlock_database_with_biometric_fmt" = "Feloldás a %@-val vagy Watch-val";
@@ -2574,7 +2574,7 @@
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "Biztosan eltávolítja a következő egyéni mezőt: '%@'?";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Biztosan eltávolítja a következő egyéni mezőt: '%@'?";
 
 /* Add Custom Field */
 "mac_node_details_add_custom_field" = "Egyéni mező hozzáadása";
@@ -3173,7 +3173,7 @@
 "audit_manual_pwn_check_result_not_pwned" = "A jelszava NEM lett feltörve, és valószínűleg biztonságos.";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Manuális HIBP eredmény";
+"audit_manual_pwn_check_result_title" = "Manual HIBP Result";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "Ez a jelszó pwned és sebezhető";
@@ -3245,7 +3245,7 @@
 "generic_biometric_unlock_fmt" = "%@ feloldás";
 
 /* By default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Settings > Advanced.\n\nDoes this sound ok? */
-"backup_settings_prompt_message" = "By default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Settings > Advanced.\n\nDoes this sound ok?";
+"backup_settings_prompt_message" = "Alapértelmezés szerint a Strongbox az összes helyi fájlt (beleértve az adatbázis biztonsági mentéseket is) és a helyi eszközadatbázist is tartalmazza az eszköz Apple biztonsági mentéseiben. Az importált kulcsfájlok azonban biztonsági okokból kifejezetten nem szerepelnek.\n\nEzeket a beállításokat bármikor megváltoztathatja a Beállítások > Haladó menüpontban.\n\nEz így rendben van?";
 
 /* Backup Settings */
 "backup_settings_prompt_title" = "Biztonsági mentés beállítások";
@@ -3368,7 +3368,7 @@
 "sftp_path_are_you_sure" = "Biztos, hogy az útvonal helyes? Egy szülői mappához vezető útnak kell lennie. Nem az adatbázisfájlhoz.";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Biztos, hogy az útvonal helyes? Egy szülői mappához vezető útnak kell lennie. Nem az adatbázisfájlhoz.";
+"sftp_path_are_you_sure" = "Are you sure the path is correct? It should be a path to a parent folder. Not the database file.";
 
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "Az útvonal érvénytelen lehet";
@@ -3635,7 +3635,7 @@
 "merge_view_are_you_sure" = "Biztosan egyesíteni szeretné a második adatbázist az elsővel?";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Biztosan egyesíteni szeretné a második adatbázist az elsővel?";
+"merge_view_are_you_sure" = "Are you sure you want to merge the second database into the first?";
 
 /* Merge Successful */
 "merge_view_merge_title_success" = "Egyesítés sikeres";
@@ -5459,7 +5459,7 @@
 "ssh_agent_overwrite_password" = "Jelszó felülírása?";
 
 /* This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt. */
-"ssh_agent_sshkey_please_enter_passphrase_msg" = "This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt.";
+"ssh_agent_sshkey_please_enter_passphrase_msg" = "Ez az SSH-kulcs jelszóval védett.\n\nKérjük, adja meg a jelszót a dekódoláshoz.";
 
 /* The passphrase does not match the existing password. Strongbox needs the password to match the passphrase to use this SSH Key properly.\n\nContinue to overwrite the current password? */
 "ssh_agent_passphrase_password_mismatch" = "A jelszó nem egyezik a meglévő jelszóval. A Strongboxnak szüksége van arra, hogy a jelszó megegyezzen a jelszóval, hogy megfelelően tudja használni ezt az SSH-kulcsot.\n\nFolytassa a jelenlegi jelszó felülírását?";
@@ -5887,13 +5887,25 @@
 "nav_excluded_items" = "Kizárt";
 
 /* Passphrase Performance Issues */
-"ssh_key_agent_passphrase_perf_problem_prompt_title" = "Passphrase Performance Issues";
+"ssh_key_agent_passphrase_perf_problem_prompt_title" = "Jelszavas teljesítményproblémák";
 
 /* To avoid performance problems, it is best to store this SSH key without the extra passphrase encryption layer.\nNB: Your SSH key is still securely protected by KeePass encryption.\n\nIs it OK if Strongbox stores this SSH key in an optimized fashion? */
-"ssh_key_agent_passphrase_perf_problem_prompt_message" = "To avoid performance problems, it is best to store this SSH key without the extra passphrase encryption layer.\n\nNB: Your SSH key will still be securely encrypted.\n\nIs it OK if Strongbox stores this SSH key in an optimized fashion?";
+"ssh_key_agent_passphrase_perf_problem_prompt_message" = "A teljesítményproblémák elkerülése érdekében a legjobb, ha ezt az SSH-kulcsot az extra jelszótitkosítási réteg nélkül tárolja.\n\nMegjegyzés: Az SSH-kulcs továbbra is biztonságosan titkosítva lesz.\n\nNem baj, ha a Strongbox optimalizált módon tárolja ezt az SSH-kulcsot?";
 
 /* Yes, that's a great idea */
 "ssh_key_agent_passphrase_perf_problem_prompt_option_yes" = "Igen, ez egy nagyszerű ötlet";
 
 /* Lock - L10n Note: This is a verb or action. To "Lock" a database */
 "generic_verb_lock_action" = "Zárol";
+
+/* Include in Audit */
+"action_include_items_in_audit_verb" = "Include in Audit";
+
+/* Exclude from Audit */
+"action_exclude_items_from_audit_verb" = "Exclude from Audit";
+
+/* Suggest in AutoFill */
+"action_suggest_items_in_autofill_verb" = "Suggest in AutoFill";
+
+/* Do not suggest in AutoFill */
+"action_do_not_suggest_items_in_autofill_verb" = "Do not suggest in AutoFill";
