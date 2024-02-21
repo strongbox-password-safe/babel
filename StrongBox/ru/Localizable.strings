@@ -1370,7 +1370,7 @@
 "open_sequence_biometric_unlock_warn_not_configured_fmt" = "%@ не удалось: %@.\n\nНажмите «Отмена« для повторной попытки или выберите разблокировку вручную.";
 
 /* Could not read Key File. Has it been moved or deleted? Check Key Files Management in Settings */
-"open_sequence_error_reading_key_file" = "Could not read Key File. Has it been moved or deleted? Check Key Files Management in Settings";
+"open_sequence_error_reading_key_file" = "Не удалось открыть файл-ключ. Откройте настройки и проверьте данные.";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc, 2nd param is the date/time of the last cache) */
 "open_sequence_user_looks_offline_open_offline_instead_fmt" = "Отсутствует подключение к сети и хранилище %@ недоступно. Хотите использовать доступный только для чтения кэш БД?\n\nДата кэша: %@";
@@ -1716,10 +1716,10 @@
 "keepass_history_tip" = "Смахните влево для опций или коснитесь для просмотра";
 
 /* Favorite */
-"browse_vc_action_pin" = "Favorite";
+"browse_vc_action_pin" = "Избранное";
 
 /* Un-Favorite */
-"browse_vc_action_unpin" = "Un-Favorite";
+"browse_vc_action_unpin" = "Удалить из избранного";
 
 /* Section Header Title for Expired Items */
 "browse_vc_section_title_expired" = "Срок действия истёк";
@@ -1728,7 +1728,7 @@
 "browse_vc_section_title_nearly_expired" = "Срок действия истекает";
 
 /* Section Header Title for Favorite Items */
-"browse_vc_section_title_pinned" = "Favorites";
+"browse_vc_section_title_pinned" = "Избранные";
 
 /* Section Header Title for Recent Items */
 "browse_vc_section_title_recents" = "Недавние элементы";
@@ -1821,7 +1821,7 @@
 "safes_vc_action_backups" = "Резервные копии";
 
 /* Could not read Key File. Has it been imported properly? Check Key Files Management in Settings */
-"open_sequence_error_reading_key_file_autofill_context" = "Could not read Key File. Has it been imported properly? Check Key Files Management in Settings";
+"open_sequence_error_reading_key_file_autofill_context" = "Не удалось открыть файл-ключ. Откройте настройки и проверьте данные.";
 
 /* Transfer over Wi-Fi (or LAN) */
 "sspc_local_network_storage_location" = "Через Wi-Fi";
@@ -1830,7 +1830,7 @@
 "storage_provider_status_reading" = "Чтение ...";
 
 /* Identify to Open Settings */
-"open_sequence_biometric_unlock_preferences_message" = "Identify to Open Settings";
+"open_sequence_biometric_unlock_preferences_message" = "Идентифицируйтесь, чтобы открыть настройки";
 
 /* Message to display when device is offline and has no IP address in Local HTTP Transfer - Select Storage -> Transfer over Local Network */
 "transfer_local_network_network_unavailable_message" = "Отсутствует подключение к сети Wi-Fi";
@@ -3173,7 +3173,7 @@
 "audit_manual_pwn_check_result_not_pwned" = "Пароль не скомпрометирован и, вероятно, является безопасным.";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Manual HIBP Result";
+"audit_manual_pwn_check_result_title" = "Результат проверки HIBP";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "Пароль скомпрометирован";
@@ -5884,7 +5884,7 @@
 "password_history_this_password_was_used_until_oldest_fmt" = "Oldest (Used until %@)";
 
 /* Excluded - L10n Note: Header for a list of excluded items, or a navigation item or side bar item that will show a list of excluded items */
-"nav_excluded_items" = "Excluded";
+"nav_excluded_items" = "Исключенные";
 
 /* Passphrase Performance Issues */
 "ssh_key_agent_passphrase_perf_problem_prompt_title" = "Passphrase Performance Issues";
@@ -5896,16 +5896,16 @@
 "ssh_key_agent_passphrase_perf_problem_prompt_option_yes" = "Yes, that's a great idea";
 
 /* Lock - L10n Note: This is a verb or action. To "Lock" a database */
-"generic_verb_lock_action" = "Lock";
+"generic_verb_lock_action" = "Заблокировать";
 
 /* Include in Audit */
-"action_include_items_in_audit_verb" = "Include in Audit";
+"action_include_items_in_audit_verb" = "Включить в аудит";
 
 /* Exclude from Audit */
-"action_exclude_items_from_audit_verb" = "Exclude from Audit";
+"action_exclude_items_from_audit_verb" = "Исключить из аудита";
 
 /* Suggest in AutoFill */
-"action_suggest_items_in_autofill_verb" = "Suggest in AutoFill";
+"action_suggest_items_in_autofill_verb" = "Предлагать в автозаполнении";
 
 /* Do not suggest in AutoFill */
-"action_do_not_suggest_items_in_autofill_verb" = "Do not suggest in AutoFill";
+"action_do_not_suggest_items_in_autofill_verb" = "Не предлагать в автозаполнении";
