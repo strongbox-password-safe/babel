@@ -669,7 +669,7 @@
 "prefs_vc_app_version_info_pro_trial_fmt" = "Sobre o Strongbox %@ (Avaliação do Pro - %ld dias restantes)";
 
 /* Auto Lock Database Delay */
-"prefs_vc_auto_lock_database_delay" = "Tempo de Bloqueio Automático da Base de Dados";
+"prefs_vc_auto_lock_database_delay" = "Bloquear Banco de Dados automaticamente após";
 
 /* This will clear all securely stored master passwords (for all databases) used by biometric unlock. Are you sure? */
 "prefs_vc_clear_biometrics_yesno_message" = "Isso irá remover todas as senhas mestras armazenadas de forma segura (para todas as bases de dados) usadas pelo desbloqueio biométrico. Você tem certeza?";
@@ -681,7 +681,7 @@
 "prefs_vc_clear_clipboard_delay" = "Tempo de Limpeza da Área de Transferência";
 
 /* This will clear all securely stored master passwords (for all databases) used for PIN Code unlock. Are you sure? */
-"prefs_vc_clear_pin_codes_yesno_message" = "Isso irá remover todas as senhas mestras armazenadas de forma segura (para todas as bases de dados) usadas para desbloqueio com código PIN. Você tem certeza?";
+"prefs_vc_clear_pin_codes_yesno_message" = "Isto irá limpar todas as senhas mestras armazenadas com segurança (para todos os bancos de dados) usadas para desbloqueio do Código PIN. Você tem certeza?";
 
 /* Clear PIN Codes */
 "prefs_vc_clear_pin_codes_yesno_title" = "Remover Códigos PIN";
@@ -708,7 +708,7 @@
 "prefs_vc_info_cannot_open_app_store_title" = "Não foi possível abrir a App Store";
 
 /* Please be extremely careful as this will delete permanently any local device databases and all preferences */
-"prefs_vc_info_data_deletion_care_required_message" = "Por favor, tenha muito cuidado pois isso irá excluir permanentemente qualquer base de dados local e todas as preferências.";
+"prefs_vc_info_data_deletion_care_required_message" = "Por favor, tenha muito cuidado, pois isso irá apagar permanentemente qualquer banco de dados local e todas as preferências.";
 
 /* DATA DELETION: Care Required */
 "prefs_vc_info_data_deletion_care_required_title" = "REMOÇÃO DE DADOS: Cuidado Necessário";
@@ -747,7 +747,7 @@
 "sbtvc_invalid_database_file" = "Arquivo de Base de Dados Inválido";
 
 /* You can only have databases in the Root folder for this storage type. */
-"sbtvc_root_folder_only_message" = "Você só pode ter bases de dados no diretório Raiz deste tipo de armazenamento.";
+"sbtvc_root_folder_only_message" = "Você só pode ter bancos de dados na pasta Raiz para este tipo de armazenamento.";
 
 /* Root Folder Only */
 "sbtvc_root_folder_only_title" = "Apenas Diretório Raiz";
@@ -768,10 +768,10 @@
 "sspc_ios_files_storage_location" = "Arquivos";
 
 /* Since a local database is only stored on this device, any loss of this device will lead to the loss of all passwords stored within this database. You may want to consider using a cloud storage provider, such as the ones supported by Strongbox to avoid catastrophic data loss.\n\nWould you still like to proceed with creating a local device database? */
-"sspc_local_device_storage_warning_message" = "Como uma base de dados local é armazenada apenas neste dispositivo, ao perdê-lo você perderá todas as senhas armazenadas nesta base de dados. Você pode considerar usar um serviço de armazenamento na nuvem, como um dos suportados pelo Strongbox a fim de evitar uma perda de dados catastrófica.\n\nGostaria de continuar com a criação de uma base de dados local?";
+"sspc_local_device_storage_warning_message" = "Como um banco de dados local é armazenada apenas neste dispositivo, ao perdê-lo você perderá todas as senhas armazenadas neste banco de dados. Você pode considerar usar um serviço de armazenamento na nuvem, como um dos suportados pelo Strongbox a fim de evitar uma perda catastrófica de dados.\n\nGostaria de continuar com a criação de um banco de dados local?";
 
 /* Local Device Database Caveat */
-"sspc_local_device_storage_warning_title" = "Limitação de Base de Dados de Dispositivo Local";
+"sspc_local_device_storage_warning_title" = "Advertência sobre o banco de dados no dispositivo local";
 
 /* Please Enter the URL of the Database File. */
 "sspc_manual_import_enter_url_message" = "Por favor, digite a URL do Arquivo de Base de Dados.";
@@ -967,13 +967,13 @@
 "pins_config_vc_button_title_turn_duress_pin_on" = "Ativar PIN de Coerção";
 
 /* Delete Database */
-"pins_config_vc_label_delete_database" = "Remover Base de Dados";
+"pins_config_vc_label_delete_database" = "Apagar o Banco de Dados";
 
 /* Local Device database will be permanently deleted. */
-"pins_config_vc_label_delete_database_local_permanent" = "A Base de Dados do Dispositivo Local será permanentemente removida.";
+"pins_config_vc_label_delete_database_local_permanent" = "O Banco de Dados neste dispositivo será apagado permanentemente.";
 
 /* iCloud database will be permanently deleted from iCloud. */
-"pins_config_vc_label_delete_database_icloud_permanent" = "A base de dados será permanentemente removida do iCloud.";
+"pins_config_vc_label_delete_database_icloud_permanent" = "O Banco de Dados será apagado permanentemente do iCloud.";
 
 /* Remove Database from Strongbox */
 "pins_config_vc_label_remove_database" = "Remover Base de Dados do Strongbox";
@@ -1006,7 +1006,7 @@
 "pins_config_vc_warn_remove_database_title" = "Alerta";
 
 /* This will permanently delete the database file. */
-"pins_config_vc_warn_remove_database_delete_message" = "Isso irá remover permanentemente a base de dados.";
+"pins_config_vc_warn_remove_database_delete_message" = "Isso irá apagar permanentemente o banco de dados.";
 
 /* This will remove the database from Strongbox but the underlying file will remain on cloud storage */
 "pins_config_vc_warn_remove_database_remove_message" = "Isso irá remover a base de dados do Strongbox mas manterá o arquivo no armazenamento em nuvem";
@@ -1401,7 +1401,7 @@
 "open_sequence_problem_opening_incorrect_credentials_title" = "Credenciais Incorretas";
 
 /* The credentials were incorrect for this database. */
-"open_sequence_problem_opening_incorrect_credentials_message" = "As credenciais estão incorretas para esta base de dados.";
+"open_sequence_problem_opening_incorrect_credentials_message" = "As credenciais estão incorretas para este banco de dados.";
 
 /* Set Quick Launch? */
 "open_sequence_yesno_set_quick_launch_title" = "Definir Início Rápido?";
@@ -1707,7 +1707,7 @@
 "pwgen_salt_mode_suffix" = "Sufixo";
 
 /* Button Title to start reordering */
-"safes_vc_action_reorder_database" = "Reordenar Bases de Dados";
+"safes_vc_action_reorder_database" = "Reordenar os Bancos de Dados";
 
 /* Tip: Tap to Copy or Long Tap for Large View */
 "item_details_tip" = "Dica: Toque Curto para Copiar ou Toque Longo para Exibir em Tamanho Grande";
@@ -1797,7 +1797,7 @@
 "backup_vc_are_you_sure_remove" = "Tem certeza que deseja Remover este backup?";
 
 /* This backup has been added to your databases */
-"backup_vc_backup_added_to_databases" = "Este backup foi adicionado às suas bases de dados";
+"backup_vc_backup_added_to_databases" = "Esse backup foi adicionado aos seus bancos de dados";
 
 /* Add as Local Database */
 "backups_add_local" = "Adicionar às bases de dados";
@@ -2233,13 +2233,13 @@
 "generic_locking_ellipsis" = "Bloqueando...";
 
 /* Please Enter the Master Credentials for this Database */
-"mac_please_set_master_credentials" = "Insira suas Credencias Mestras para esta Base de Dados";
+"mac_please_set_master_credentials" = "Por favor, insira a credencial mestra para este banco de dados";
 
 /* Change Master Credentials */
 "mac_change_master_credentials" = "Alterar Credenciais Mestras";
 
 /* Master Credentials Changed and Database Saved */
-"mac_master_credentials_changed_and_saved" = "Credenciais Mestras Alteradas e Base de Dados Salva";
+"mac_master_credentials_changed_and_saved" = "Credenciais Mestras alteradas e Banco de Dados salvo";
 
 /* KeePass does not natively support the 'Email' field. Strongbox will add it instead as a custom field.\nDo you want to continue? */
 "mac_drag_drop_between_databases_keepass_email_field_not_supported" = "O KeePass não suporta nativamente o campo ‘E-mail’. O Strongbox irá adiciona-lo como um campo personalizado.\nGostaria de continuar?";
@@ -2445,7 +2445,7 @@
 "mac_strongbox_cant_open_file_wrappers" = "O Strongbox não pode abrir Arquivos Encapsulados, Diretórios ou Pacotes Compactados assim. Por favor, selecione um arquivo de base de dados do KeePass ou Password Safe diretamente.";
 
 /* Please Enter the Master Credentials for this Database */
-"mac_please_enter_master_credentials_for_this_database" = "Insira suas Credencias Mestras para esta Base de Dados";
+"mac_please_enter_master_credentials_for_this_database" = "Por favor, insira a credencial mestra para este banco de dados";
 
 /* Save New Password Database... */
 "mac_save_new_database" = "Salvar Nova Base de Dados de Senhas...";
@@ -2840,10 +2840,10 @@
 "upgrade_vc_enjoy_features_by_upgrading_fmt" = "Aproveite %@ e outras funcionalidades Pro ao fazer o Upgrade!";
 
 /* The main difference between the Free and Pro version of Strongbox is Touch/Face ID Unlock.\n\nThis is a super convenient method to unlock your databases. Without using this you need to enter your secure master password manually everytime, and usually this is a long and complicated password which can be slow and error prone to enter.\n\nOther than that there are a couple of features like PIN Codes and FavIcons which are nice to have.\n\nOne key benefit is that you won't see this upgrade screen again and you will be supporting continued development of Strongbox.\n\nYou can see a summary of the differences by tapping the 'Free vs Pro Comparison Chart' button on the main Upgrade screen. */
-"upgrade_question_answer_free_pro_differences" = "A principal diferença entre as versões Free e Pro do Strongbox é o Desbloqueio com Touch/Face ID.\n\nEste é um método super conveniente de desbloquear suas bases de dados. Sem eles você vai precisar digitar sua senha mestra manualmente todas as vezes, e normalmente ela é uma senha longa e complicada que pode ser lenta pra ser digitada e ainda fácil de errar.\n\nAlém disso existem outras funcionalidades como Códigos PIN e Favicons que são muito legais de se ter.\n\nUm benefício chave é que você não verá essa tela de upgrade novamente e estará apoiando a continuidade do desenvolvimento do Strongbox.\n\nVocê pode ver um resumo das diferenças tocando no botão ‘Gráfico Comparativo Free vs Pro’ na tela principal de Upgrade.";
+"upgrade_question_answer_free_pro_differences" = "A principal diferença entre a versão gratuita e a versão Pro do Strongbox é o desbloqueio por Touch ID/Face ID.\n\nEsse é um método muito conveniente para desbloquear seus bancos de dados. Sem esse recurso, você precisa digitar sua senha mestra segura manualmente todas as vezes e, normalmente, essa é uma senha longa e complicada que pode ser lenta e propensa a erros.\n\nAlém disso, há alguns recursos, como códigos PIN e ícones favoritos (FavIcons), que são muito úteis.\n\nUma das principais vantagens é que você não verá essa tela de atualização novamente e estará apoiando o desenvolvimento contínuo do Strongbox.\n\nVocê pode ver um resumo das diferenças tocando no botão 'Gráfico de Comparação Grátis vs Pro' na tela principal de atualização.";
 
 /* At the end of your trial you will be automatically transitioned to the Free version and you will no longer be able to use nifty features like Touch/Face ID Unlock.\n\nYou will still be able to access your databases, search them, edit them, and sync them to your cloud.\n\nYou might see an upgrade prompt every now and then too. This is just to encourage you to consider supporting ongoing development. */
-"upgrade_question_answer_end_trial" = "No fim do seu período de testes você será movido automaticamente para a versão Free e não poderá mais usar as funcionalidades bacanas como Desbloqueio com Touch/Face ID.\n\nVocê ainda será capaz de acessar suas bases de dados, buscar itens, editá-los e sincronizar suas bases com a nuvem.\n\nVocê pode ver uma solicitação de upgrade de vez em quando também. Isso é apenas para encorajar você a considerar apoiar a continuidade do desenvolvimento.";
+"upgrade_question_answer_end_trial" = "Ao final da avaliação, você será automaticamente transferido para a versão gratuita e não poderá mais usar recursos interessantes, como o Desbloqueio por Touch ID/Face ID.\n\nVocê ainda poderá acessar seus bancos de dados, pesquisá-los, editá-los e sincronizá-los com a nuvem.\n\nÉ possível que você também veja uma solicitação de atualização de vez em quando. Isso é apenas para incentivá-lo a considerar o apoio ao desenvolvimento contínuo.";
 
 /* For sure, you can of course use the Free version forever. It's quite functional, but please if you find Strongbox useful or valuable, or if it makes your online life more secure then please consider upgrading. */
 "upgrade_question_answer_free_version_forever" = "Claro, você pode usar a versão Free para sempre. Ela é muito funcional, mas se você acha o Strongbox útil ou importante, ou se ele torna sua vida online mais segura por favor considere fazer o upgrade.";
@@ -3017,7 +3017,7 @@
 "audit_status_no_issues_found" = "Nenhum problema encontrado";
 
 /* The credentials were incorrect for this database. Are you sure you are using this key file?\n\nNB: A key files are not the same as your database file. */
-"open_sequence_problem_opening_incorrect_credentials_message_verify_key_file" = "As credenciais estão incorretas para esta base de dados. Tem certeza de que está usando este arquivo chave?\n\nNota: Lembre-se que arquivos chave não são a mesma coisa que arquivos de base de dados (KDBX/KDB)";
+"open_sequence_problem_opening_incorrect_credentials_message_verify_key_file" = "As credenciais estavam incorretas para este banco de dados. Você tem certeza que está usando este arquivo de chave?\n\nNota: Por favor, lembre-se de que os arquivos chave não são os mesmos que o arquivo de banco de dados (KDBX/KDB)";
 
 /* Is your Key File correct? */
 "casg_key_file_correct_title" = "O Arquivo Chave está correto?";
@@ -3311,7 +3311,7 @@
 "open_sequence_storage_provider_error_title" = "Erro de Sincronização";
 
 /* If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open in offline mode instead? */
-"open_sequence_storage_provider_error_open_local_ro_instead" = "Se isso acontece com frequência você pode tentar adicionar a base de dados novamente. Veja o Log de Depuração de Sincronização para mais...\n\nGostaria de abrir a cópia local do Strongbox no modo offline?";
+"open_sequence_storage_provider_error_open_local_ro_instead" = "Se isso acontecer com frequência, você deve tentar adicionar novamente o banco de dados. Consulte o registro de sincronização de depuração (Log) para obter mais informações...\n\nVocê gostaria de abrir no modo Offline?";
 
 /* Local Copy Unavailable */
 "autofill_vc_item_subtitle_local_copy_unavailable" = "Cópia Local Indisponível";
@@ -3350,7 +3350,7 @@
 "open_sequence_storage_provider_try_relocate_files_db" = "Localizar Base de Dados...";
 
 /* Strongbox is having trouble locating your database. This can happen sometimes especially after iOS updates or with some 3rd party providers (e.g.Nextcloud).\n\nYou now need to tell Strongbox where to locate it. Alternatively you can open Strongbox's local copy and fix this later.\n\nFor Nextcloud please use WebDAV instead... */
-"open_sequence_storage_provider_try_relocate_files_db_message" = "O Strongbox não conseguiu encontrar sua base de dados. Isso as vezes pode acontecer depois de uma atualização do iOS ou de provedores de terceiros (como o Nextcloud).\n\nVocê precisa indicar para o Strongbox onde encontrá-la. Você também pode usar a cópia local feita pelo Strongbox e resolver isso mais tarde.\n\nSe estiver usando Nextcloud dê preferência à tecnologia WebDAV...";
+"open_sequence_storage_provider_try_relocate_files_db_message" = "O Strongbox não conseguiu encontrar seu banco de dados. Isso as vezes pode acontecer depois de uma atualização do iOS ou de provedores de terceiros (por exemplo o Nextcloud).\n\nVocê precisa informar para o Strongbox onde localizá-lo. Você também pode usar a cópia local feita pelo Strongbox e resolver isso mais tarde.\n\nSe estiver usando Nextcloud dê preferência à tecnologia WebDAV...";
 
 /* View Error Details */
 "open_sequence_storage_provider_view_sync_error_details" = "Exibir Detalhes de Erro";
@@ -3524,10 +3524,10 @@
 "pwgen_casing_latin1_supplement" = "Suplemento do Latin-1";
 
 /* Are you sure you want to remove this database from Strongbox?\n\nNB: The underlying database file will not be deleted. Just Strongbox's settings for this database. */
-"are_you_sure_delete_database_single" = "Tem certeza que deseja remover esta base de dados do Strongbox?\n\nNota: O arquivo de base de dados não será removido. Apenas as configurações do Strongbox referentes a ele.";
+"are_you_sure_delete_database_single" = "Tem certeza que deseja remover este banco de dados do Strongbox?\n\nNota: O arquivo de banco de dados não será apagado. Apenas as configurações do Strongbox referentes a ele.";
 
 /* Are you sure you want to remove these databases from Strongbox?\n\nNB: The underlying database files will not be deleted. Just Strongbox's settings for these databases. */
-"are_you_sure_delete_database_multiple" = "Tem certeza que deseja remover estas bases de dados do Strongbox?\n\nNota: Os arquivos de base de dados não serão removidos. Apenas as configurações do Strongbox referentes a eles.";
+"are_you_sure_delete_database_multiple" = "Tem certeza que deseja remover estes bancos de dados do Strongbox?\n\nNota: Os arquivos de bancos de dados não serão apagados. Apenas as configurações do Strongbox referentes a eles.";
 
 /* No Databases Here Yet.\n\nClick 'Add Database...' below to get started... */
 "mac_no_databases_initial_message" = "Nenhuma Base de Dados Por Aqui Ainda.\n\nClique em ‘Adiciona Base de Dados’ para começarmos...";
@@ -3575,7 +3575,7 @@
 "generic_action_create_local_database" = "Criar Cópia Local";
 
 /* Identical databases. */
-"merge_result_databases_identical" = "Nenhuma alteração a ser unificada na primeira.";
+"merge_result_databases_identical" = "Bancos de dados idênticos.";
 
 /* Compare & Merge... */
 "generic_action_compare_and_merge_ellipsis" = "Comparar e Unificar...";
@@ -3590,7 +3590,7 @@
 "diff_result_percentage_difference_fmt" = "Segunda base de dados é %0.1f%% diferente.";
 
 /* Identical databases. */
-"diff_result_databases_identical" = "Bases de dados idênticas.";
+"diff_result_databases_identical" = "Bancos de dados idênticos.";
 
 /* Some database properties will change. */
 "merge_result_databases_properties_will_change" = "Algumas propriedades da base de dados serão alteradas.";
@@ -3662,7 +3662,7 @@
 "diff_drill_down_database_name_is_different" = "Nome da Base de Dados é diferente.";
 
 /* Database Description is different. */
-"diff_drill_down_database_desc_is_different" = "Descrição da Base de Dados é diferente.";
+"diff_drill_down_database_desc_is_different" = "Descrição do Banco de Dados está diferente.";
 
 /* Default Username is different. */
 "diff_drill_down_default_username_is_different" = "Nome de Usuário Padrão é diferente.";
@@ -3674,7 +3674,7 @@
 "diff_drill_down_database_name_will_change" = "O Nome da Base de Dados será alterado.";
 
 /* Database Description will change. */
-"diff_drill_down_database_desc_will_change" = "A Descrição da Base de Dados será alterada.";
+"diff_drill_down_database_desc_will_change" = "A descrição do Banco de Dados será alterada.";
 
 /* Default Username will change. */
 "diff_drill_down_default_username_will_change" = "Nome de Usuário Padrão será alterado.";
@@ -4125,7 +4125,7 @@
 "database_properties_subtitle_always_offline" = "Você pode definir sempre abrir esta base de dados no modo Offline. Nenhuma sincronização será feita ao desbloqueá-la, mas você ainda poderá fazer a sincronização deslizando pra baixo na sua Lista de Bases de Dados.";
 
 /* What to do if Strongbox detects you are Offline when opening a database. */
-"database_properties_subtitle_offline_detected_behaviour" = "O que fazer quando o Strongbox detectar que você está offline ao abrir uma base de dados.";
+"database_properties_subtitle_offline_detected_behaviour" = "O que fazer se Strongbox detectar que você está Offline quando abrir um banco de dados.";
 
 /* Prompt */
 "offline_detected_behaviour_ask_immediately" = "Perguntar";
@@ -4445,7 +4445,7 @@
 "database_offline_mode_window_suffix" = "Desconectado";
 
 /* Destination Database */
-"export_items_select_destination_database_title" = "Base de Dados de Destino";
+"export_items_select_destination_database_title" = "Banco de Dados de destino";
 
 /* Export Here */
 "export_items_select_destination_group_title" = "Exportar Aqui";
@@ -5219,7 +5219,7 @@
 "sync_error_message_including_error_detail_fmt" = "Sua base de dados está salva com segurança, mas houve um erro ao sincronizar. Gostaria de tentar novamente ou dar uma olhada no Log de Sincronização?\n\n%@\n";
 
 /* This database is in Offline Mode and cannot be synced. */
-"database_is_in_offline_mode_cannot_be_synced" = "Esta base de dados está no Modo Offline e não pode ser sincronizada.";
+"database_is_in_offline_mode_cannot_be_synced" = "Este banco de dados está no Modo Offline e não pode ser sincronizado.";
 
 /* Save Successful */
 "generic_save_was_successful" = "Salvo com Sucesso";
