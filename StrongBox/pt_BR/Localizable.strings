@@ -243,7 +243,7 @@
 "safesvc_copy_database_to_location_title" = "Copiar para iCloud ou Local?";
 
 /* iCloud is currently enabled. Would you like to copy this database to iCloud now, or would you prefer to keep on your local device only? */
-"safesvc_copy_database_to_location_message" = "O iCloud está ativado. Você gostaria de copiar esta base de dados para o iCloud agora ou mantê-la apenas em seu dispositivo local?";
+"safesvc_copy_database_to_location_message" = "iCloud está habilitado. Você gostaria de copiar esse banco de dados para o iCloud agora, ou você prefere manter localmente no seu dispositivo?";
 
 /* Copy to Local Device Only */
 "safesvc_copy_database_option_to_local" = "Manter Apenas no Dispositivo Local";
@@ -756,7 +756,7 @@
 "sbtvc_select_database_file" = "Por Favor, Selecione um Arquivo de Base de Dados";
 
 /* Select Folder For New Database */
-"sbtvc_select_new_database_location" = "Selecionar Diretório Para Nova Base De Dados";
+"sbtvc_select_new_database_location" = "Selecionar pasta para o novo banco de dados";
 
 /* Copy from URL... */
 "sspc_copy_from_url_action" = "Copiar da URL...";
@@ -1009,7 +1009,7 @@
 "pins_config_vc_warn_remove_database_delete_message" = "Isso irá apagar permanentemente o banco de dados.";
 
 /* This will remove the database from Strongbox but the underlying file will remain on cloud storage */
-"pins_config_vc_warn_remove_database_remove_message" = "Isso irá remover a base de dados do Strongbox mas manterá o arquivo no armazenamento em nuvem";
+"pins_config_vc_warn_remove_database_remove_message" = "Isso removerá o banco de dados do Strongbox, mas, manterá o arquivo no armazenamento na nuvem";
 
 /* Manage Key Files */
 "key_files_vc_manage_title" = "Gerenciar Arquivos Chave";
@@ -3881,7 +3881,7 @@
 "model_error_could_not_merge_local_remote" = "Erro Técnico - Não foi possível unificar as bases de dados local e remota.";
 
 /* Your database format does not support advanced synchronization features (available in KeePass 2). This means the merge may be less than ideal.\n\nAre you sure you want to continue with the merge? */
-"merge_are_you_sure_less_than_ideal_format" = "O formato da sua base de dados não suporta funcionalidades avançadas de sincronização (disponível no formato KeePass 2). Isso significa que a unificação não será a ideal.\n\nTem certeza que quer continuar com a unificação?";
+"merge_are_you_sure_less_than_ideal_format" = "O formato do seu banco de dados não é compatível com os recursos avançados de sincronização (disponível no formato KeePass 2). Isso significa que a unificação não será a ideal.\n\nTem certeza de que deseja continuar com a unificação?";
 
 /* Database Refreshed */
 "browse_vc_pulldown_refresh_updated_title" = "Base de Dados Atualizada";
@@ -4029,7 +4029,7 @@
 "mac_add_webdav_pro_only" = "Adicionar Base de Dados via WebDAV... (Pro)";
 
 /* This database can only be unlocked by Strongbox Pro because it is stored via SFTP or WebDAV.\n\nPlease Upgrade. */
-"mac_non_file_database_pro_message" = "Esta base de dados pode ser desbloqueada apenas pelo Strongbox versão Pro porque ela está armazenada via SFTP ou WebDAV.\n\nPor favor faça o Upgrade.";
+"mac_non_file_database_pro_message" = "Esse banco de dados só pode ser desbloqueado pelo Strongbox Pro porquê está armazenado por SFTP ou WebDAV.\n\nPor favor, atualize-o.";
 
 /* Item Copied to Clipboard */
 "mac_copied_item_to_clipboard" = "Item Copiado Para Área de Transferência";
@@ -4296,7 +4296,7 @@
 "convenience_unlock_require_after_prefix" = "Solicitar Após";
 
 /* It's time now to re-enter your Master Password manually. You can change this reminder interval in Database Settings. */
-"composite_key_determiner_convenience_expired_message" = "Chegou a hora de reinserir sua Senha Mestra manualmente. Você pode alterar a periodicidade deste lembrete nas Configurações da Base de Dados.";
+"composite_key_determiner_convenience_expired_message" = "Chegou a  hora de reinserir sua senha mestra manualmente. Você pode alterar este intervalo de lembrete nas configurações do banco de dados.";
 
 /* Got it! */
 "generic_got_it" = "Entendi!";
@@ -4418,7 +4418,7 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////
 /* Strongbox has been downgraded from Pro.\n\nDon't worry, all your databases are still available, but some convenient features (e.g. %@) may no longer work.\n\nThis is probably because your trial or subscription has just ended.\n\nWe'd love if you could support us by upgrading to Pro.\n\nWould you like to do that now? */
 
-"upgrade_mgr_downgrade_message" = "Strongbox foi rebaixado do Pro.\n\nNão se preocupe, todas as suas Bases de Dados ainda estão disponíveis, mas alguns recursos convenientes (por exemplo, %@) já não funcionarão.\n\nIsso provavelmente aconteceu porque seu período de teste ou assinatura acabou há pouco.\n\nNós adoraríamos se você pudesse nos apoiar atualizando para o Pro.\n\nGostaria de fazer isso agora?";
+"upgrade_mgr_downgrade_message" = "Strongbox deixou de ser Pro.\n\nNão se preocupe, todos os seus bancos de dados ainda estão disponíveis, mas alguns recursos convenientes (por exemplo, %@) já não funcionarão.\n\nIsso aconteceu porque provavelmente seu período de teste ou assinatura acabou de terminar.\n\nAdoraríamos se você pudesse nos apoiar atualizando para o Pro.\n\nGostaria de fazer isso agora?";
 
 /* Upgrade... (L10n: A verb, To Upgrade, followed by ellipsis) */
 "generic_upgrade_ellipsis" = "Upgrade...";
@@ -4439,7 +4439,7 @@
 "sync_before_export_question_yes_no" = "Gostaria de sincronizar antes de exportar para garantir que tem a versão mais recente da sua base de dados?";
 
 /* This database is already open. Please close it first if you would like to open it in a different mode. */
-"database_already_open_please_close" = "Esta Base de Dados já está aberta. Por favor, feche-a primeiro se quiser abri-la em um modo diferente.";
+"database_already_open_please_close" = "Este banco de dados já está aberto. Por favor, feche-o primeiro se quiser abri-lo em um modo diferente.";
 
 /* Offline - L10n note: this is an adjective, meaning the current database has been opened in Offline mode */
 "database_offline_mode_window_suffix" = "Desconectado";
@@ -4466,10 +4466,10 @@
 "export_options_n_items_n_replaced_fmt" = "%@ itens serão exportados com %@ itens a serem substituídos na base de dados de destino '%@'.";
 
 /* 1 item will be added to destination database '%@'. (L10n Note: 1st Param is the destination database name */
-"export_options_1_added_fmt" = "1 item será adicionado na base de dados de destino '%@'.";
+"export_options_1_added_fmt" = "1 item será adicionado no banco de dados de destino '%@'.";
 
 /* %@ items will be added to destination database '%@'. (L10n Note: 1st Param is the number of items that will be exported and 2nd param is the destination database name */
-"export_options_n_added_fmt" = "%@ itens serão substituídos na base de dados de destino '%@'.";
+"export_options_n_added_fmt" = "%@ itens serão substituídos no banco de dados de destino '%@'.";
 
 /* Are you sure you want to replace the existing matching item(s) in the destination database? */
 "export_are_you_sure_replace" = "Tem certeza que deseja substituir o(s) item(s) existente(s) correspondente(s) na base de dados de destino?";
@@ -4682,10 +4682,10 @@
 "generic_not_right_now" = "Por enquanto, não";
 
 /* Database Upgrade */
-"kdbx4_upgrade_onboarding_issue_title" = "Atualização da Base de Dados";
+"kdbx4_upgrade_onboarding_issue_title" = "Banco de Dados Atualizado";
 
 /* Your database is using an old format (KDBX 3.1). The new format (KDBX 4.x) offers security improvements, performance enhancements and should also reduce the size of your database.\n\nWould you like Strongbox to automatically upgrade your database now? */
-"kdbx4_upgrade_onboarding_issue_message" = "Sua base de dados está utilizando um formato antigo (KDBX 3.1). O novo formato (KDBX 4.x) oferece melhorias de segurança, de desempenho e também deve reduzir o tamanho da sua base de dados.\n\nGostaria que o Strongbox automaticamente atualizasse sua base de dados agora?";
+"kdbx4_upgrade_onboarding_issue_message" = "O seu banco de dados está utilizando um formato antigo (KDBX 3.1). O novo formato (KDBX 4.x) oferece melhorias de segurança, desempenho e também deve reduzir o tamanho do seu banco de dados.\n\nGostaria que o Strongbox atualizasse automaticamente o banco de dados agora?";
 
 /* Import 1Password */
 "safes_vc_import_1password" = "Importar 1Password";
@@ -5845,7 +5845,7 @@
 "manual_pulldown_sync_sync_in_offline_mode_question_title" = "Sincronizar no Modo off-line?";
 
 /* Would you like to sync even though the database is in Offline mode? */
-"manual_pulldown_sync_sync_in_offline_mode_question_message" = "Você gostaria de sincronizar mesmo que o banco de dados esteja no modo off-line?";
+"manual_pulldown_sync_sync_in_offline_mode_question_message" = "Você gostaria de sincronizar mesmo que o banco de dados esteja no modo Offline?";
 
 /* Sync this once */
 "manual_pulldown_sync_sync_in_offline_mode_option_sync_once" = "Sincronize isso uma vez";
