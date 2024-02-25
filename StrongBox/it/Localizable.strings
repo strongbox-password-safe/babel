@@ -1370,7 +1370,7 @@
 "open_sequence_biometric_unlock_warn_not_configured_fmt" = "%@ non è riuscito: %@.\n\nÈ possibile annullare per riprovare o scegliere di sbloccare manualmente.";
 
 /* Could not read Key File. Has it been moved or deleted? Check Key Files Management in Settings */
-"open_sequence_error_reading_key_file" = "Could not read Key File. Has it been moved or deleted? Check Key Files Management in Settings";
+"open_sequence_error_reading_key_file" = "Impossibile leggere il File Chiave. È stato spostato o cancellato? Verificare Gestione File Chiave nelle Impostazioni";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc, 2nd param is the date/time of the last cache) */
 "open_sequence_user_looks_offline_open_offline_instead_fmt" = "Sembra che si sia offline e \"%@\" non sia raggiungibile. Si preferisce utilizzare una versione di cache offline di sola lettura di questo database?\n\nUltima Cache: %@";
@@ -1821,7 +1821,7 @@
 "safes_vc_action_backups" = "Backup";
 
 /* Could not read Key File. Has it been imported properly? Check Key Files Management in Settings */
-"open_sequence_error_reading_key_file_autofill_context" = "Could not read Key File. Has it been imported properly? Check Key Files Management in Settings";
+"open_sequence_error_reading_key_file_autofill_context" = "Impossibile leggere il File Chiave. È stato importato correttamente? Controllare la gestione dei File Chiave in Impostazioni";
 
 /* Transfer over Wi-Fi (or LAN) */
 "sspc_local_network_storage_location" = "Trasferimento tramite Wi-Fi (o LAN)";
@@ -1830,7 +1830,7 @@
 "storage_provider_status_reading" = "Lettura...";
 
 /* Identify to Open Settings */
-"open_sequence_biometric_unlock_preferences_message" = "Identify to Open Settings";
+"open_sequence_biometric_unlock_preferences_message" = "Identificarsi per Aprire Strongbox";
 
 /* Message to display when device is offline and has no IP address in Local HTTP Transfer - Select Storage -> Transfer over Local Network */
 "transfer_local_network_network_unavailable_message" = "Sembra che tu sia offline?";
@@ -2206,7 +2206,7 @@
 "favicon_invalid_preferences_alert_title" = "Impostazioni FavIcone Non Valide";
 
 /* This set of preferences will not produce valid FavIcon results. */
-"favicon_invalid_preferences_alert_message" = "These settings will not produce valid FavIcon results.";
+"favicon_invalid_preferences_alert_message" = "Queste impostazioni non produrranno risultati validi per le FavIcone.";
 
 /* Unlock with %@ or Watch */
 "mac_unlock_database_with_biometric_fmt" = "Sblocco con %@ o Watch";
@@ -5909,3 +5909,24 @@
 
 /* Do not suggest in AutoFill */
 "action_do_not_suggest_items_in_autofill_verb" = "Do not suggest in AutoFill";
+
+/* Import Warning */
+"generic_import_warning_title" = "Import Warning";
+
+/* The import process may not be perfect and some features may not be available in Strongbox.\n\nIt is important to examine your database after the import. */
+"generic_import_warning_msg" = "The import process may not be perfect and some features may not be available in Strongbox.\n\nIt is important to examine your database after the import.";
+
+/* Import Enpass */
+"safes_vc_import_enpass" = "Import from Enpass";
+
+/* Strongbox can import JSON files. Tap OK to select your exported JSON file. */
+"safes_vc_import_json_message" = "Strongbox can import JSON files. Tap OK to select your exported JSON file.";
+
+/* Import Bitwarden */
+"safes_vc_import_bitwarden" = "Import from Bitwarden";
+
+/* Enpass (JSON) */
+"safes_vc_import_enpass_json" = "Enpass (JSON)";
+
+/* Bitwarden (JSON) */
+"safes_vc_import_bitwarden_json" = "Bitwarden (JSON)";

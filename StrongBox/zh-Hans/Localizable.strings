@@ -1370,7 +1370,7 @@
 "open_sequence_biometric_unlock_warn_not_configured_fmt" = "%@ 失败： %@。\n\n您可以取消后重试或选择手动解锁。";
 
 /* Could not read Key File. Has it been moved or deleted? Check Key Files Management in Settings */
-"open_sequence_error_reading_key_file" = "Could not read Key File. Has it been moved or deleted? Check Key Files Management in Settings";
+"open_sequence_error_reading_key_file" = "无法读取密钥文件。它是否已被移动或删除？请在设置中检查密钥文件管理。";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc, 2nd param is the date/time of the last cache) */
 "open_sequence_user_looks_offline_open_offline_instead_fmt" = "看起来您可能处于离线状态，无法访问 '%@'。是否要改为使用此数据库的只读脱机缓存版本？\n\n最近缓存: %@";
@@ -1716,10 +1716,10 @@
 "keepass_history_tip" = "提示：向左滑动以获取选项或点击查看";
 
 /* Favorite */
-"browse_vc_action_pin" = "Favorite";
+"browse_vc_action_pin" = "收藏";
 
 /* Un-Favorite */
-"browse_vc_action_unpin" = "Un-Favorite";
+"browse_vc_action_unpin" = "取消收藏";
 
 /* Section Header Title for Expired Items */
 "browse_vc_section_title_expired" = "已过期";
@@ -1728,7 +1728,7 @@
 "browse_vc_section_title_nearly_expired" = "即将过期";
 
 /* Section Header Title for Favorite Items */
-"browse_vc_section_title_pinned" = "Favorites";
+"browse_vc_section_title_pinned" = "收藏夹";
 
 /* Section Header Title for Recent Items */
 "browse_vc_section_title_recents" = "最近项目";
@@ -5909,3 +5909,24 @@
 
 /* Do not suggest in AutoFill */
 "action_do_not_suggest_items_in_autofill_verb" = "Do not suggest in AutoFill";
+
+/* Import Warning */
+"generic_import_warning_title" = "Import Warning";
+
+/* The import process may not be perfect and some features may not be available in Strongbox.\n\nIt is important to examine your database after the import. */
+"generic_import_warning_msg" = "The import process may not be perfect and some features may not be available in Strongbox.\n\nIt is important to examine your database after the import.";
+
+/* Import Enpass */
+"safes_vc_import_enpass" = "Import from Enpass";
+
+/* Strongbox can import JSON files. Tap OK to select your exported JSON file. */
+"safes_vc_import_json_message" = "Strongbox can import JSON files. Tap OK to select your exported JSON file.";
+
+/* Import Bitwarden */
+"safes_vc_import_bitwarden" = "Import from Bitwarden";
+
+/* Enpass (JSON) */
+"safes_vc_import_enpass_json" = "Enpass (JSON)";
+
+/* Bitwarden (JSON) */
+"safes_vc_import_bitwarden_json" = "Bitwarden (JSON)";
