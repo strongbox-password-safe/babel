@@ -3245,7 +3245,7 @@
 "generic_biometric_unlock_fmt" = "Sblocco %@";
 
 /* By default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Settings > Advanced.\n\nDoes this sound ok? */
-"backup_settings_prompt_message" = "By default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Settings > Advanced.\n\nDoes this sound ok?";
+"backup_settings_prompt_message" = "Per impostazione predefinita, Strongbox include tutti i file locali (inclusi i backup del database) e i database dei dispositivi locali nei backup Apple di questo dispositivo. Tuttavia i file di chiavi importati non sono esplicitamente inclusi per motivi di sicurezza.\n\nÈ possibile modificare queste impostazioni in qualsiasi momento nelle Preferenze > Preferenze avanzate.\n\nVa bene in questo modo?";
 
 /* Backup Settings */
 "backup_settings_prompt_title" = "Impostazioni del Backup";
@@ -5447,7 +5447,7 @@
 "ssh_agent_key_fingerprint" = "Impronta Digitale";
 
 /* Enter a passphrase to protect the exported SSH Key file */
-"ssh_agent_enter_passphrase_for_export" = "Inserire una frase segreta per proteggere il file Chiave SSH esportato";
+"ssh_agent_enter_passphrase_for_export" = "Inserire una Frase Segreta per proteggere il file Chiave SSH esportato";
 
 /* Could not read this file. Are you sure it is a valid OpenSSH Private Key file? */
 "ssh_agent_could_not_read_sshkey_file" = "Impossibile leggere questo file. Si è sicuro che sia un file di Chiave Privata OpenSSH valido?";
@@ -5459,7 +5459,7 @@
 "ssh_agent_overwrite_password" = "Sovrascrivere la Password?";
 
 /* This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt. */
-"ssh_agent_sshkey_please_enter_passphrase_msg" = "This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt.";
+"ssh_agent_sshkey_please_enter_passphrase_msg" = "Questa chiave SSH è protetta da una Frase Segreta.\n\nImmettere la Frase Segreta per decifrarla.";
 
 /* The passphrase does not match the existing password. Strongbox needs the password to match the passphrase to use this SSH Key properly.\n\nContinue to overwrite the current password? */
 "ssh_agent_passphrase_password_mismatch" = "La frase segreta non corrisponde alla password esistente. Strongbox ha bisogno che la password corrisponda alla frase segreta per usare questa Chiave SSH in modo appropriato.\n\nContinuare a sovrascrivere la password corrente?";
@@ -5884,46 +5884,46 @@
 "password_history_this_password_was_used_until_oldest_fmt" = "Il più Vecchio (Usato fino a %@)";
 
 /* Excluded - L10n Note: Header for a list of excluded items, or a navigation item or side bar item that will show a list of excluded items */
-"nav_excluded_items" = "Excluded";
+"nav_excluded_items" = "Escluso";
 
 /* Passphrase Performance Issues */
-"ssh_key_agent_passphrase_perf_problem_prompt_title" = "Passphrase Performance Issues";
+"ssh_key_agent_passphrase_perf_problem_prompt_title" = "Problemi di Prestazioni Frase Segreta";
 
 /* To avoid performance problems, it is best to store this SSH key without the extra passphrase encryption layer.\nNB: Your SSH key is still securely protected by KeePass encryption.\n\nIs it OK if Strongbox stores this SSH key in an optimized fashion? */
-"ssh_key_agent_passphrase_perf_problem_prompt_message" = "To avoid performance problems, it is best to store this SSH key without the extra passphrase encryption layer.\n\nNB: Your SSH key will still be securely encrypted.\n\nIs it OK if Strongbox stores this SSH key in an optimized fashion?";
+"ssh_key_agent_passphrase_perf_problem_prompt_message" = "Per evitare problemi di prestazioni, è meglio memorizzare questa chiave SSH senza il livello di crittografia aggiuntivo della Frase Segreta.\n\nNB: La chiave SSH sarà comunque crittografata in modo sicuro.\n\nVa bene se Strongbox memorizza questa chiave SSH in modo ottimizzato?";
 
 /* Yes, that's a great idea */
-"ssh_key_agent_passphrase_perf_problem_prompt_option_yes" = "Yes, that's a great idea";
+"ssh_key_agent_passphrase_perf_problem_prompt_option_yes" = "Sì, è un'ottima idea";
 
 /* Lock - L10n Note: This is a verb or action. To "Lock" a database */
-"generic_verb_lock_action" = "Lock";
+"generic_verb_lock_action" = "Bloccare";
 
 /* Include in Audit */
-"action_include_items_in_audit_verb" = "Include in Audit";
+"action_include_items_in_audit_verb" = "Includere nella Revisione";
 
 /* Exclude from Audit */
-"action_exclude_items_from_audit_verb" = "Exclude from Audit";
+"action_exclude_items_from_audit_verb" = "Escludere dalla Revisione";
 
 /* Suggest in AutoFill */
-"action_suggest_items_in_autofill_verb" = "Suggest in AutoFill";
+"action_suggest_items_in_autofill_verb" = "Suggerire in Riempimento Automatico";
 
 /* Do not suggest in AutoFill */
-"action_do_not_suggest_items_in_autofill_verb" = "Do not suggest in AutoFill";
+"action_do_not_suggest_items_in_autofill_verb" = "Non suggerire in Riempimento Automatico";
 
 /* Import Warning */
-"generic_import_warning_title" = "Import Warning";
+"generic_import_warning_title" = "Avvertenze nell'Importazione";
 
 /* The import process may not be perfect and some features may not be available in Strongbox.\n\nIt is important to examine your database after the import. */
 "generic_import_warning_msg" = "Il processo di importazione potrebbe non essere perfetto e alcune caratteristiche potrebbero non essere disponibili in Strongbox.\n\nÈ importante esaminare il database dopo l'importazione.";
 
 /* Import Enpass */
-"safes_vc_import_enpass" = "Import from Enpass";
+"safes_vc_import_enpass" = "Importazione da Enpass";
 
 /* Strongbox can import JSON files. Tap OK to select your exported JSON file. */
-"safes_vc_import_json_message" = "Strongbox can import JSON files. Tap OK to select your exported JSON file.";
+"safes_vc_import_json_message" = "Strongbox può importare file JSON. Toccare OK per selezionare il file JSON da importare.";
 
 /* Import Bitwarden */
-"safes_vc_import_bitwarden" = "Import from Bitwarden";
+"safes_vc_import_bitwarden" = "Importazione da Bitwarden";
 
 /* Enpass (JSON) */
 "safes_vc_import_enpass_json" = "Enpass (JSON)";
