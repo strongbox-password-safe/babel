@@ -2206,7 +2206,7 @@
 "favicon_invalid_preferences_alert_title" = "Неверные настройки значков";
 
 /* This set of preferences will not produce valid FavIcon results. */
-"favicon_invalid_preferences_alert_message" = "These settings will not produce valid FavIcon results.";
+"favicon_invalid_preferences_alert_message" = "Набор параметров не приведёт к корректному поиску значков.";
 
 /* Unlock with %@ or Watch */
 "mac_unlock_database_with_biometric_fmt" = "Разблокировать с помощью %@ или Watch";
@@ -3245,7 +3245,7 @@
 "generic_biometric_unlock_fmt" = "%@";
 
 /* By default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Settings > Advanced.\n\nDoes this sound ok? */
-"backup_settings_prompt_message" = "By default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Settings > Advanced.\n\nDoes this sound ok?";
+"backup_settings_prompt_message" = "По умолчанию в резервную копию устройства включаются все локальные файлы приложения, однако файл-ключи не входят в неё по соображениям безопасности. Изменить эти параметры можно в настройках.";
 
 /* Backup Settings */
 "backup_settings_prompt_title" = "Резервная копия устройства";
@@ -4894,6 +4894,9 @@
 /* Pro - A short tag / text that will appear beside Pro features in a badge like fashion - keep v short if possible */
 "pro_badge_text" = "Pro";
 
+/* Pro - A short tag / text that will appear beside Pro features in a badge like fashion, in ALL CAPS - keep v short and capitalized if possible */
+"pro_badge_text_all_caps" = "PRO";
+
 /* New Tag... */
 "new_tag_ellipsis" = "Новый тег";
 
@@ -5459,7 +5462,7 @@
 "ssh_agent_overwrite_password" = "Смена пароля";
 
 /* This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt. */
-"ssh_agent_sshkey_please_enter_passphrase_msg" = "This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt.";
+"ssh_agent_sshkey_please_enter_passphrase_msg" = "Этот SSH-ключ защищен парольной фразой.\n\nВведите парольную фразу для расшифровки.";
 
 /* The passphrase does not match the existing password. Strongbox needs the password to match the passphrase to use this SSH Key properly.\n\nContinue to overwrite the current password? */
 "ssh_agent_passphrase_password_mismatch" = "Парольная фраза не совпадает с существующим паролем.\n\nПерезаписать текущий пароль?";
@@ -5800,10 +5803,10 @@
 "wifi_sync_enter_new_passcode" = "Введите новый код";
 
 /* For advanced users, connect to your NAS or other personal server anywhere on your network or the Internet via these standard protocols. */
-"select_storage_footer_servers" = "Подключение к NAS или другому приватному серверу в любой точке с помощью стандартных протоколов.";
+"select_storage_footer_servers" = "Подключение к NAS или другому серверу в любой точке с помощью стандартных протоколов.";
 
 /* Use Strongbox's advanced 'Wi-Fi Sync' to stay up to date without the use of a server via Wi-Fi (or any LAN connection). */
-"select_storage_footer_wifi" = "Поддержка актуального состояния без подключения через Wi-Fi или другое LAN соединение.";
+"select_storage_footer_wifi" = "Поддержка актуального состояния без подключения через Wi-Fi или LAN соединение.";
 
 /* Connect to your database via the Files app. */
 "select_storage_footer_files_only" = "Подключение к БД через приложение «Файлы»‎.";
@@ -5812,7 +5815,7 @@
 "select_storage_footer_files_or_local_device" = "Подключитесь к БД через приложение «Файлы» или сохраните её локально на устройстве.";
 
 /* Use these methods to transfer a database into Strongbox as a local copy. This does not maintain a connection with any server or sync anywhere after the initial transfer. */
-"select_storage_footer_one_time_copy" = "Перенос БД в виде локальной копии без соединения с каким-либо сервером и синхронизации.";
+"select_storage_footer_one_time_copy" = "Локальная копия БД без соединения с каким-либо сервером и синхронизации.";
 
 /* We've integrated with these popular online drives. These integrations often provide superior sync than using the built-in Files app. */
 "select_storage_footer_third_party" = "Интеграция с облачными провайдерами.";
@@ -5878,22 +5881,22 @@
 "wifi_sync_too_many_bad_passcode_attempts" = "Wi-Fi Sync остановлен, т.к. было слишком много неудачных попыток ввода кода доступа.";
 
 /* Most Recent (Used until %@) - L10n Note: Header above a previously used password. The 1st parameter is a friend date string, e.g. 'Most Recent Used until 2 February 2023 at 10:31' */
-"password_history_this_password_was_used_until_most_recent_fmt" = "Most Recent (Used until %@)";
+"password_history_this_password_was_used_until_most_recent_fmt" = "Недавние (Использовались %@)";
 
 /* Oldest (Used until %@) - L10n Note: Header above a previously used password. The 1st parameter is a friend date string, e.g. 'Oldest Used until 2 February 2023 at 10:31' */
-"password_history_this_password_was_used_until_oldest_fmt" = "Oldest (Used until %@)";
+"password_history_this_password_was_used_until_oldest_fmt" = "Устаревшие (Использовались %@)";
 
 /* Excluded - L10n Note: Header for a list of excluded items, or a navigation item or side bar item that will show a list of excluded items */
 "nav_excluded_items" = "Исключенные";
 
 /* Passphrase Performance Issues */
-"ssh_key_agent_passphrase_perf_problem_prompt_title" = "Passphrase Performance Issues";
+"ssh_key_agent_passphrase_perf_problem_prompt_title" = "Проблемы с производительностью";
 
 /* To avoid performance problems, it is best to store this SSH key without the extra passphrase encryption layer.\nNB: Your SSH key is still securely protected by KeePass encryption.\n\nIs it OK if Strongbox stores this SSH key in an optimized fashion? */
-"ssh_key_agent_passphrase_perf_problem_prompt_message" = "To avoid performance problems, it is best to store this SSH key without the extra passphrase encryption layer.\n\nNB: Your SSH key will still be securely encrypted.\n\nIs it OK if Strongbox stores this SSH key in an optimized fashion?";
+"ssh_key_agent_passphrase_perf_problem_prompt_message" = "Чтобы избежать проблем с производительностью, лучше всего хранить SSH-ключ без дополнительного уровня шифрования.\n\nSSH-ключ всё равно будет надежно зашифрован.\n\nХотите Strongbox будет хранить его в оптимизированном виде?";
 
 /* Yes, that's a great idea */
-"ssh_key_agent_passphrase_perf_problem_prompt_option_yes" = "Yes, that's a great idea";
+"ssh_key_agent_passphrase_perf_problem_prompt_option_yes" = "Да";
 
 /* Lock - L10n Note: This is a verb or action. To "Lock" a database */
 "generic_verb_lock_action" = "Заблокировать";
@@ -5911,22 +5914,28 @@
 "action_do_not_suggest_items_in_autofill_verb" = "Не предлагать в автозаполнении";
 
 /* Import Warning */
-"generic_import_warning_title" = "Import Warning";
+"generic_import_warning_title" = "Важное предупреждение";
 
 /* The import process may not be perfect and some features may not be available in Strongbox.\n\nIt is important to examine your database after the import. */
-"generic_import_warning_msg" = "The import process may not be perfect and some features may not be available in Strongbox.\n\nIt is important to examine your database after the import.";
+"generic_import_warning_msg" = "При импорте некоторые функции могут быть недоступны в Strongbox.\n\nПроверьте Вашу БД после импорта.";
 
 /* Import Enpass */
-"safes_vc_import_enpass" = "Import from Enpass";
+"safes_vc_import_enpass" = "Импорт из Enpass";
 
 /* Strongbox can import JSON files. Tap OK to select your exported JSON file. */
-"safes_vc_import_json_message" = "Strongbox can import JSON files. Tap OK to select your exported JSON file.";
+"safes_vc_import_json_message" = "Приложение может импортировать JSON файлы. Нажмите «OK» для выбора файла.";
 
 /* Import Bitwarden */
-"safes_vc_import_bitwarden" = "Import from Bitwarden";
+"safes_vc_import_bitwarden" = "Импорт из Bitwarden";
 
 /* Enpass (JSON) */
 "safes_vc_import_enpass_json" = "Enpass (JSON)";
 
 /* Bitwarden (JSON) */
 "safes_vc_import_bitwarden_json" = "Bitwarden (JSON)";
+
+/* Advanced Passcode (Alphanumeric) */
+"advanced_passcode_alphanumeric" = "Advanced Passcode (Alphanumeric)";
+
+/* On My Mac */
+"add_database_on_my_mac" = "On My Mac";
