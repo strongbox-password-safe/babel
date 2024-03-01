@@ -2574,7 +2574,7 @@
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "¿Está seguro de que quiere eliminar el campo personalizado '%@'?";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "¿Está seguro de que quiere eliminar el campo personalizado '%@'?";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
 
 /* Add Custom Field */
 "mac_node_details_add_custom_field" = "Añadir campo personalizado";
@@ -3173,7 +3173,7 @@
 "audit_manual_pwn_check_result_not_pwned" = "Su contraseña NO ha sido pwned y probablemente sea segura.";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Resultado manual HIBP";
+"audit_manual_pwn_check_result_title" = "Resultado de HIBP manual";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "Esta contraseña es pwned y es vulnerable";
@@ -3635,7 +3635,7 @@
 "merge_view_are_you_sure" = "¿Está seguro de que desea fusionar la segunda base de datos en la primera?";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "¿Está seguro que desea combinar la segunda base de datos con la primera?";
+"merge_view_are_you_sure" = "¿Está seguro de que desea fusionar la segunda base de datos en la primera?";
 
 /* Merge Successful */
 "merge_view_merge_title_success" = "Fusión satisfactoria";
@@ -5868,8 +5868,8 @@
 /* Tip */
 "generic_noun_tip_or_advice" = "Sugerencia";
 
-/* You can find the Passcode to '%@' under Strongbox's Wi-Fi Sync Settings tab on your Mac. L10n Note: 1st parameter is the name of the device hosting the database e.g. 'Mark's MacBook Pro' */
-"wifi_sync_tip_find_passcode_in_settings_fmt" = "Puede encontrar el código de acceso a '%@' en la pestaña Configuración de Wi-Fi Sync de Strongbox en su Mac.";
+/* You can find the Passcode to '%@' under Strongbox's Wi-Fi Sync Settings on the Source Device. */
+"wifi_sync_tip_find_passcode_in_settings_fmt" = "You can find the Passcode to '%@' under Strongbox's Wi-Fi Sync Settings on the Source Device.";
 
 /* Incorrect Passcode */
 "wifi_sync_incorrect_passcode" = "Codigo incorrecto";
@@ -5939,3 +5939,9 @@
 
 /* On My Mac */
 "add_database_on_my_mac" = "En mi Mac";
+
+/* A passcode is required on other devices to connect to this device. */
+"wifi_sync_change_passcode_message" = "A passcode is required on other devices to connect to this device.";
+
+/* This is the name of this device as appears to others on the network. */
+"wifi_sync_change_service_name_message" = "This is the name of this device as appears to others on the network.";
