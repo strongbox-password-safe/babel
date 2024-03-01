@@ -2574,7 +2574,7 @@
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "Möchten Sie das benutzerdefinierte Feld „%@” wirklich entfernen?";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Möchten Sie das benutzerdefinierte Feld „%@” wirklich entfernen?";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
 
 /* Add Custom Field */
 "mac_node_details_add_custom_field" = "Benutzerdefiniertes Feld hinzufügen";
@@ -3173,7 +3173,7 @@
 "audit_manual_pwn_check_result_not_pwned" = "Ihr Passwort wurde NICHT gestohlen und ist wahrscheinlich sicher.";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Manuelles HIBP-(Wurde ich gehackt?)-Ergebnis";
+"audit_manual_pwn_check_result_title" = "Manuelles HIBP-Ergebnis";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "Dieses Passwort ist gestohlen und angreifbar";
@@ -3368,7 +3368,7 @@
 "sftp_path_are_you_sure" = "Sind Sie sicher, dass der Pfad korrekt ist? Es sollte sich um einen Pfad zu einem übergeordneten Ordner handeln. Nicht zur Datenbankdatei.";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Sind Sie sicher, dass der Pfad korrekt ist? Es sollte ein Pfad zu einem übergeordneten Ordner, nicht die Datenbankdatei selbst, sein.";
+"sftp_path_are_you_sure" = "Sind Sie sicher, dass der Pfad korrekt ist? Es sollte sich um einen Pfad zu einem übergeordneten Ordner handeln. Nicht zur Datenbankdatei.";
 
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "Pfad könnte ungültig sein";
@@ -5868,8 +5868,8 @@
 /* Tip */
 "generic_noun_tip_or_advice" = "Tipp";
 
-/* You can find the Passcode to '%@' under Strongbox's Wi-Fi Sync Settings tab on your Mac. L10n Note: 1st parameter is the name of the device hosting the database e.g. 'Mark's MacBook Pro' */
-"wifi_sync_tip_find_passcode_in_settings_fmt" = "Sie finden den Passcode für „%@” auf Ihrem Mac in den Einstellungen im Tab „WLAN-Sync” von Strongbox.";
+/* You can find the Passcode to '%@' under Strongbox's Wi-Fi Sync Settings on the Source Device. */
+"wifi_sync_tip_find_passcode_in_settings_fmt" = "You can find the Passcode to '%@' under Strongbox's Wi-Fi Sync Settings on the Source Device.";
 
 /* Incorrect Passcode */
 "wifi_sync_incorrect_passcode" = "Ungültiger Passcode";
@@ -5939,3 +5939,9 @@
 
 /* On My Mac */
 "add_database_on_my_mac" = "Auf meinem Mac";
+
+/* A passcode is required on other devices to connect to this device. */
+"wifi_sync_change_passcode_message" = "A passcode is required on other devices to connect to this device.";
+
+/* This is the name of this device as appears to others on the network. */
+"wifi_sync_change_service_name_message" = "This is the name of this device as appears to others on the network.";
