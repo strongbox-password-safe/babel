@@ -5868,8 +5868,8 @@
 /* Tip */
 "generic_noun_tip_or_advice" = "Tipp";
 
-/* You can find the Passcode to '%@' under Strongbox's Wi-Fi Sync Settings tab on your Mac. L10n Note: 1st parameter is the name of the device hosting the database e.g. 'Mark's MacBook Pro' */
-"wifi_sync_tip_find_passcode_in_settings_fmt" = "Sie finden den Passcode für „%@” auf Ihrem Mac in den Einstellungen im Tab „WLAN-Sync” von Strongbox.";
+/* You can find the Passcode to '%@' under Strongbox's Wi-Fi Sync Settings on the Source Device. */
+"wifi_sync_tip_find_passcode_in_settings_fmt" = "You can find the Passcode to '%@' under Strongbox's Wi-Fi Sync Settings on the Source Device.";
 
 /* Incorrect Passcode */
 "wifi_sync_incorrect_passcode" = "Ungültiger Passcode";
@@ -5914,10 +5914,10 @@
 "action_do_not_suggest_items_in_autofill_verb" = "Beim autom. Ausfüllen nicht vorschlagen";
 
 /* Import Warning */
-"generic_import_warning_title" = "Import Warning";
+"generic_import_warning_title" = "Importwarnungen";
 
 /* The import process may not be perfect and some features may not be available in Strongbox.\n\nIt is important to examine your database after the import. */
-"generic_import_warning_msg" = "The import process may not be perfect and some features may not be available in Strongbox.\n\nIt is important to examine your database after the import.";
+"generic_import_warning_msg" = "Der Importvorgang ist möglicherweise nicht perfekt und einige Funktionen sind in Strongbox nicht verfügbar.\n\nEs ist wichtig, dass Sie Ihre Datenbank nach dem Import überprüfen.";
 
 /* Import Enpass */
 "safes_vc_import_enpass" = "Aus Enpass importieren";
@@ -5935,7 +5935,16 @@
 "safes_vc_import_bitwarden_json" = "Bitwarden (JSON)";
 
 /* Advanced Passcode (Alphanumeric) */
-"advanced_passcode_alphanumeric" = "Advanced Passcode (Alphanumeric)";
+"advanced_passcode_alphanumeric" = "Erweiterter Passcode (Alphanumerisch)";
 
 /* On My Mac */
-"add_database_on_my_mac" = "On My Mac";
+"add_database_on_my_mac" = "Auf meinem Mac";
+
+/* A passcode is required on other devices to connect to this device. */
+"wifi_sync_change_passcode_message" = "A passcode is required on other devices to connect to this device.";
+
+/* This is the name of this device as appears to others on the network. */
+"wifi_sync_change_service_name_message" = "This is the name of this device as appears to others on the network.";
+
+/* Item is not Searchable - L10n Note: Indicates that a particular item is not searchable because it is contained in a group which is marked as not searchable */
+"item_is_not_searchable" = "Item is not searchable";
