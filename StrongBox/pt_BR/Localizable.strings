@@ -144,10 +144,10 @@
 "safesvc_migrate_local_no_existing" = "Agora é possível usar o iCloud com o Strongbox. Deseja migrar seus bancos de dados locais atuais para o iCloud e torná-los disponíveis em todos os seus dispositivos?";
 
 /* Would you like the option to use iCloud with Strongbox? (NB: Your existing cloud databases will not be affected) */
-"safesvc_use_icloud_question_existing" = "Você gostaria da opção de usar o iCloud com o Strongbox? (Nota: Suas bases de dados em nuvem existentes não serão afetadas)";
+"safesvc_use_icloud_question_existing" = "Você gostaria da opção de usar o iCloud com o Strongbox? (Nota: Seus bancos de dados em nuvem existentes não serão afetadas)";
 
 /* You can now use iCloud with Strongbox. Would you like to have your databases available on all your devices? */
-"safesvc_use_icloud_question_no_existing" = "Agora é possível usar o iCloud com o Strongbox. Você gostaria de ter suas bases de dados disponíveis em todos os seus dispositivos?";
+"safesvc_use_icloud_question_no_existing" = "Agora é possível usar o iCloud com o Strongbox. Você gostaria de ter seus bancos de dados disponíveis em todos os seus dispositivos?";
 
 /* iCloud is Now Available */
 "safesvc_icloud_now_available_title" = "iCloud está Agora Disponível";
@@ -162,7 +162,7 @@
 "safesvc_icloud_available_title" = "iCloud Disponível";
 
 /* Would you like to migrate your current local device databases to iCloud? */
-"safesvc_question_migrate_local_to_icloud" = "Gostaria de migrar a base de dados atual do dispositivo local para o iCloud?";
+"safesvc_question_migrate_local_to_icloud" = "Gostaria de migrar o banco de dados atual do dispositivo local para o iCloud?";
 
 /* Migrate to iCloud */
 "safesvc_option_migrate_to_icloud" = "Migrar para o iCloud";
@@ -174,7 +174,7 @@
 "safesvc_icloud_unavailable_title" = "iCloud Desativado";
 
 /* What would you like to do with the databases currently on this device? */
-"safesvc_icloud_unavailable_question" = "O que você gostaria de fazer com as bases de dados atualmente armazenadas neste dispositivo?";
+"safesvc_icloud_unavailable_question" = "O que você gostaria de fazer com os bancos de dados atualmente armazenadas neste dispositivo?";
 
 /* Remove them, Keep on iCloud Only */
 "safesvc_icloud_unavailable_option_remove" = "Removê-los. Manter apenas no iCloud";
@@ -189,7 +189,7 @@
 "safesvc_icloud_migration_progress_title_migrating" = "Migrando...";
 
 /* Invalid Database */
-"safesvc_import_manual_url_invalid" = "Base de Dados Inválida";
+"safesvc_import_manual_url_invalid" = "Banco de Dados inválido";
 
 /* Error Opening */
 "safesvc_error_title_import_file_error_opening" = "Erro ao Abrir";
@@ -225,13 +225,13 @@
 "safesvc_update_existing_database_title" = "Atualizar Banco de Dados existente?";
 
 /* A database using this file name was found in Strongbox. Should Strongbox overwrite that database with this file, or would you like to create a new database using this file? */
-"safesvc_update_existing_question" = "Uma base de dados usando este nome de arquivo foi encontrada no Strongbox. O Strongbox deve sobrescrever essa base de dados com este arquivo, ou você gostaria de criar uma nova base de dados usando este arquivo?";
+"safesvc_update_existing_question" = "Um banco de dados usando este nome de arquivo foi encontrada no Strongbox. O Strongbox deve sobrescrever esse banco de dados com este arquivo, ou você gostaria de criar um novo banco de dados usando este arquivo?";
 
 /* Update Existing Database */
-"safesvc_update_existing_option_update" = "Atualizar Base De Dados Existente";
+"safesvc_update_existing_option_update" = "Atualizar Banco de Dados existente";
 
 /* Create a New Database */
-"safesvc_update_existing_option_create" = "Criar Nova Base de Dados";
+"safesvc_update_existing_option_create" = "Criar novo Banco de Dados";
 
 /* Error updating file. */
 "safesvc_error_updating_title" = "Erro ao atualizar arquivo.";
@@ -252,7 +252,7 @@
 "safesvc_copy_database_option_to_icloud" = "Copiar para o iCloud";
 
 /* Error Importing Database */
-"safesvc_error_importing_title" = "Erro ao Importar a Base de Dados";
+"safesvc_error_importing_title" = "Erro ao importar o Banco de Dados";
 
 /* Could not bookmark this file */
 "safesvc_error_title_could_not_bookmark" = "Não foi possível marcar arquivo como favorito";
@@ -396,7 +396,7 @@
 "browse_vc_sort_by_title" = "Ordenar Itens Por Título?";
 
 /* Do you want to sort all the items in this group by Title? This will set the order in which they are stored in your database. */
-"browse_vc_sort_by_title_message" = "Você quer ordenar todos os itens desse grupo por Título? Isto irá definir a ordem em que eles são armazenados na sua base de dados.";
+"browse_vc_sort_by_title_message" = "Você quer ordenar todos os itens desse grupo por Título? Isto irá definir a ordem em que eles são armazenados no seu banco de dados.";
 
 /* You can long press, or double/triple tap to quickly copy fields... Give it a try! */
 "browse_vc_tip_fast_tap_message" = "Você pode fazer um toque longo ou um toque duplo/triplo para copiar rapidamente os campos... Experimente!";
@@ -525,7 +525,7 @@
 "db_management_disable_autofill_yesno_title" = "Desativar AutoPreenchimento?";
 
 /* %@ for this database has been disabled. */
-"db_management_disable_biometric_notify_message_fmt" = "O %@ foi desativado para esta base de dados.";
+"db_management_disable_biometric_notify_message_fmt" = "O %@ foi desativado para este banco de dados.";
 
 /* %@ Disabled */
 "db_management_disable_biometric_notify_title_fmt" = "%@ Desativado";
@@ -534,16 +534,16 @@
 "db_management_disable_biometric_question_fmt" = "Desativar %@?";
 
 /* Disabling %@ for this database will remove the securely stored password and you will have to enter it again. Are you sure you want to do this? */
-"db_management_disable_biometric_warning_fmt" = "Desativar o %@ para esta base de dados removerá a senha armazenada com segurança e você terá que inseri-la novamente. Tem certeza de que deseja fazer isso?";
+"db_management_disable_biometric_warning_fmt" = "Desativar o %@ para este banco de dados removerá a senha armazenada com segurança e você terá que inseri-la novamente. Tem certeza de que deseja fazer isso?";
 
 /* Are you sure you want to disable %@ for this database? */
-"db_management_disable_biomtric_simple_fmt" = "Você tem certeza de que pretende desativar o %@ desta base de dados?";
+"db_management_disable_biomtric_simple_fmt" = "Você tem certeza de que pretende desativar o %@ deste banco de dados?";
 
 /* AutoFill Disabled */
 "db_management_disable_done" = "AutoPreenchimento Desativado";
 
 /* %@ has been enabled for this database. */
-"db_management_enable_biometric_notify_message_fmt" = "%@ foi ativado para esta base de dados.";
+"db_management_enable_biometric_notify_message_fmt" = "%@ foi ativado para este banco de dados.";
 
 /* %@ Enabled */
 "db_management_enable_biometric_notify_title_fmt" = "%@ Ativado";
@@ -672,7 +672,7 @@
 "prefs_vc_auto_lock_database_delay" = "Bloquear Banco de Dados automaticamente após";
 
 /* This will clear all securely stored master passwords (for all databases) used by biometric unlock. Are you sure? */
-"prefs_vc_clear_biometrics_yesno_message" = "Isso irá remover todas as senhas mestras armazenadas de forma segura (para todas as bases de dados) usadas pelo desbloqueio biométrico. Você tem certeza?";
+"prefs_vc_clear_biometrics_yesno_message" = "Isso irá remover todas as senhas mestras armazenadas de forma segura (para todos os bancos de dados) usadas pelo desbloqueio biométrico. Você tem certeza?";
 
 /* Clear Biometrics */
 "prefs_vc_clear_biometrics_yesno_title" = "Remover Biometria";
@@ -720,7 +720,7 @@
 "prefs_vc_info_email_not_available_title" = "O E-mail Não Está Disponível";
 
 /* It is very important that you know your master password for your databases, and that you are not relying entirely on %@.\nThe migration and importation process makes every effort to maintain %@ data but it is not guaranteed. In any case it is important that you always know your master passwords.\n\nDo you want to continue changing iCloud usage settings? - Translators Note - the parameters are the name of the biometric ID, so either "Face ID" or "Touch ID" depending on the device */
-"prefs_vc_master_password_icloud_migration_yesno_warning_message_fmt" = "É muito importante que você saiba as senhas mestras das suas bases de dados e que você não dependa completamente de %@.\nO processo de migração e importação tenta manter os dados de %@ mas isso não é garantido. De qualquer forma é importante que você sempre saiba suas senhas mestras.\n\nQuer continuar alterando as configurações de uso do iCloud?";
+"prefs_vc_master_password_icloud_migration_yesno_warning_message_fmt" = "É muito importante que você saiba as senhas mestras dos seus bancos de dados e que você não dependa completamente de %@.\nO processo de migração e importação tenta manter os dados de %@ mas isso não é garantido. De qualquer forma é importante que você sempre saiba suas senhas mestras.\n\nQuer continuar alterando as configurações de uso do iCloud?";
 
 /* Master Password Warning */
 "prefs_vc_master_password_icloud_migration_yesno_warning_title" = "Alerta de Senha Mestra";
@@ -774,7 +774,7 @@
 "sspc_local_device_storage_warning_title" = "Advertência sobre o banco de dados no dispositivo local";
 
 /* Please Enter the URL of the Database File. */
-"sspc_manual_import_enter_url_message" = "Por favor, digite a URL do Arquivo de Base de Dados.";
+"sspc_manual_import_enter_url_message" = "Por favor, digite a URL do arquivo do Banco de Dados.";
 
 /* Enter URL */
 "sspc_manual_import_enter_url_title" = "Digite a URL";
@@ -786,10 +786,10 @@
 "sspc_manual_import_placeholder_url" = "URL";
 
 /* Select where your existing database is stored */
-"sspc_select_where_existing_stored" = "Selecione onde sua base de dados é armazenada";
+"sspc_select_where_existing_stored" = "Selecione onde seu banco de dados será armazenada";
 
 /* Select where you would like to store your new database */
-"sspc_select_where_store_new" = "Selecione onde gostaria de armazenar sua nova base de dados";
+"sspc_select_where_store_new" = "Selecione onde gostaria de armazenar seu novo banco de dados";
 
 /* 3 Months */
 "upgrade_vc_2monthly_subscription_title" = "3 Meses";
@@ -855,7 +855,7 @@
 "welcome_vc_add_existing_database" = "Adicionar Banco de Dados existente";
 
 /* Error Creating Database */
-"welcome_vc_error_creating" = "Erro ao Criar Base de Dados";
+"welcome_vc_error_creating" = "Erro ao criar o Banco de Dados";
 
 /* View Your Database */
 "welcome_vc_view_database" = "Exibir seu Banco de Dados";
@@ -921,7 +921,7 @@
 "edit_password_cell_value_textfield_accessibility_label" = "Campo de Texto de Senha";
 
 /* Database CSV Copied to Clipboard */
-"export_vc_message_csv_copied" = "O CSV da Base de Dados foi copiado para a Área de Transferência";
+"export_vc_message_csv_copied" = "O CSV do Banco de Dados foi copiado para a Área de Transferência";
 
 /* Could not get database data
    Error Encrypting */
@@ -931,13 +931,13 @@
 "export_vc_email_unavailable_title" = "O E-mail Não Está Disponível";
 
 /* It looks like email is not setup on this device and so the database cannot be exported by email. */
-"export_vc_email_unavailable_message" = "Parece que o e-mail não está configurado neste dispositivo e por isso a base de dados não pode ser exportado por e-mail.";
+"export_vc_email_unavailable_message" = "Parece que o e-mail não está configurado neste dispositivo e por isso o banco de dados não pode ser exportado por e-mail.";
 
 /* Strongbox Database: '%@' */
-"export_vc_email_subject" = "Base de Dados do Strongbox: '%@'";
+"export_vc_email_subject" = "Banco de Dados do Strongbox: '%@'";
 
 /* Here's a copy of my '%@' Strongbox Database. */
-"export_vc_email_message_body_fmt" = "Aqui está uma cópia da minha Base de Dados '%@' do Strongbox.";
+"export_vc_email_message_body_fmt" = "Aqui está uma cópia do meu Banco de Dados '%@' do Strongbox.";
 
 /* Error Sending */
 "export_vc_email_error_sending" = "Erro ao Enviar";
@@ -946,10 +946,10 @@
 "export_vc_export_successful_title" = "Exportação Bem Sucedida";
 
 /* Your database was successfully exported. */
-"export_vc_export_successful_message" = "Sua base de dados foi exportada com sucesso.";
+"export_vc_export_successful_message" = "Seu banco de dados foi exportada com sucesso.";
 
 /* Error Writing Database */
-"export_vc_error_writing" = "Erro ao Gravar Base de Dados";
+"export_vc_error_writing" = "Erro ao gravar o Banco de Dados";
 
 /* Error Exporting */
 "export_vc_error_exporting" = "Erro ao Exportar";
@@ -985,10 +985,10 @@
 "pins_config_vc_title_pro_only" = "Códigos PIN (Funcionalidade Pro)";
 
 /* Turning the PIN Off for this database will remove the securely stored password and you will have to enter it again. Are you sure you want to do this? */
-"pins_config_vc_turn_pin_off_warning" = "Desativar o PIN desta base de dados removerá a senha que está armazenada de maneira segura e você precisará digitá-la novamente. Tem certeza que deseja fazer isso?";
+"pins_config_vc_turn_pin_off_warning" = "Desativar o PIN deste banco de dados removerá a senha que está armazenada de maneira segura e você precisará digitá-la novamente. Tem certeza que deseja fazer isso?";
 
 /* Are you sure you want to turn off the PIN for this database? */
-"pins_config_vc_turn_pin_off_confirm" = "Tem certeza de que deseja desativar o PIN para esta base de dados?";
+"pins_config_vc_turn_pin_off_confirm" = "Tem certeza de que deseja desativar o PIN para este banco de dados?";
 
 /* Turn off PIN? */
 "pins_config_vc_turn_pin_off_prompt_title" = "Desativar o PIN?";
@@ -1079,10 +1079,10 @@
 "key_files_vc_key_file_used_by_fmt" = "Usado por %@";
 
 /* multiple databases */
-"key_files_vc_key_file_used_by_multiple" = "múltiplas bases de dados";
+"key_files_vc_key_file_used_by_multiple" = "múltiplos bancos de dados";
 
 /* No Known Database Associations */
-"key_files_vc_key_file_used_by_none" = "Nenhuma Associação de Base de Dados Conhecida";
+"key_files_vc_key_file_used_by_none" = "Nenhuma associação de Banco de Dados conhecida";
 
 /* Disable History? */
 "pw_history_vc_prompt_disable_history_title" = "Desativar Histórico?";
@@ -1091,7 +1091,7 @@
 "pw_history_vc_prompt_disable_history_message" = "Tem certeza que deseja desativar o histórico? Isto irá limpar as senhas anteriores.";
 
 /* Problem Saving Database */
-"pw_history_vc_error_problem_saving" = "Problema ao Salvar Base de Dados";
+"pw_history_vc_error_problem_saving" = "Problema ao salvar o Banco de Dados";
 
 /* Old Passwords (%lu) */
 "pw_history_vc_previous_passwords_count_fmt" = "Senhas Antigas (%lu)";
@@ -1190,7 +1190,7 @@
 "set_icon_vc_select_icon_source_message" = "Selecione a fonte do ícone que você gostaria de usar para este registro";
 
 /* KeePass & Database Icon Set */
-"set_icon_vc_icon_source_keepass_set" = "Conjunto de ícones do KeePass e Base de Dados";
+"set_icon_vc_icon_source_keepass_set" = "Conjunto de ícones do KeePass e Banco de Dados";
 
 /* Media Library */
 "set_icon_vc_icon_source_media_libary" = "Biblioteca de Mídia";
@@ -1346,16 +1346,16 @@
 "open_sequence_prompt_too_many_incorrect_pins_title" = "Muitos PINS incorretos";
 
 /* You have entered the wrong PIN too many times. PIN Unlock is now disabled, and you must enter the master password to unlock this database. */
-"open_sequence_prompt_too_many_incorrect_pins_message" = "Você digitou o PIN errado muitas vezes. O Desbloqueio PIN foi desativado e você precisará digitar sua senha mestra para desbloquear esta base de dados.";
+"open_sequence_prompt_too_many_incorrect_pins_message" = "Você digitou o PIN errado muitas vezes. O Desbloqueio PIN foi desativado e você precisará digitar sua senha mestra para desbloquear este banco de dados.";
 
 /* There was a technical error opening the database. */
-"open_sequence_duress_technical_error_message" = "Houve um erro técnico ao abrir a base de dados.";
+"open_sequence_duress_technical_error_message" = "Houve um erro técnico ao abrir o banco de dados.";
 
 /* Technical Issue */
 "open_sequence_duress_technical_error_title" = "Problemas Técnicos";
 
 /* Identify to Unlock Database */
-"open_sequence_biometric_unlock_prompt_title" = "Identifique-se para Desbloquear Base de Dados";
+"open_sequence_biometric_unlock_prompt_title" = "Identifique-se para Desbloquear o Banco de Dados";
 
 /* Unlock Manually... */
 "open_sequence_biometric_unlock_fallback" = "Desbloquear Manualmente...";
@@ -1379,23 +1379,23 @@
 "open_sequence_yesno_use_offline_cache_no_try_connect_option" = "Não, tentar se conectar mesmo assim";
 
 /* There was a problem reading the database on %@. would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ */
-"open_sequence_storage_unreachable_open_offline_instead_fmt" = "Houve um problema ao ler a base de dados em %@. Se isso acontece com frequência considere remover e adicionar novamente sua base de dados. Gostaria de usar uma versão offline e somente leitura desta base de dados?\n\nÚltimo cache armazenado: %@";
+"open_sequence_storage_unreachable_open_offline_instead_fmt" = "Houve um problema ao ler o banco de dados em %@. Se isso acontece com frequência considere remover e adicionar novamente seu banco de dados. Gostaria de usar uma versão offline e somente leitura deste banco de dados?\n\nÚltimo cache armazenado: %@";
 
 /* Could not open database
    There was a problem opening the database. */
-"open_sequence_problem_opening_title" = "Houve um problema ao abrir a base de dados.";
+"open_sequence_problem_opening_title" = "Houve um problema ao abrir o banco de dados.";
 
 /* AutoFill Crash Likely */
 "open_sequence_autofill_creash_likely_title" = "Provavelmente Ocorreu Uma Falha do AutoPreenchimento";
 
 /* Your database has encryption settings that may cause iOS Password AutoFill extensions to be terminated due to excessive resource consumption. This will mean AutoFill appears not to work. Unfortunately this is an Apple imposed limit. You could consider reducing the amount of resources consumed by your encryption settings (Memory in particular with Argon2 to below 64MB). */
-"open_sequence_autofill_creash_likely_message" = "Sua base de dados é bem grande ou possui configuração de criptografia que fará com que as extensões de Preenchimento Automático de Senhas do iOS sejam encerradas devido ao consumo exagerado de recursos.\nIsso significa que o AutoPreenchimento pode parecer não funcionar. Infelizmente essa é uma limitação imposta pela Apple.\nVocê pode considerar diminuir o tamanho do seu arquivo ou alterar a quantidade de recursos consumidos (Memória em particular com o Argon2 para menos de 64MB).";
+"open_sequence_autofill_creash_likely_message" = "Seu banco de dados é bem grande ou possui configuração de criptografia que fará com que as extensões de Preenchimento Automático de senhas do iOS sejam encerradas devido ao consumo exagerado de recursos.\nIsso significa que o preenchimento automático pode parecer não funcionar. Infelizmente essa é uma limitação imposta pela Apple.\nVocê pode considerar diminuir o tamanho do seu arquivo ou alterar a quantidade de recursos consumidos (Memória em particular com o Argon2 para menos de 64MB).";
 
 /* No Key File */
 "key_files_vc_no_key_file" = "Nenhum Arquivo Chave";
 
 /* The stored convenience password or other composite key factors (key file/hardware key) were incorrect for this database. Convenience Unlock has been Disabled. */
-"open_sequence_problem_opening_convenience_incorrect_message" = "A senha de conveniência armazenada ou outros fatores de chave compostos (arquivo chave/chave de hardware) estão incorretos para esta base de dados. O Desbloqueio Conveniente foi Desativado.";
+"open_sequence_problem_opening_convenience_incorrect_message" = "A senha de conveniência armazenada ou outros fatores de chave compostos (arquivo chave/chave de hardware) estão incorretos para este banco de dados. O Desbloqueio conveniente foi desativado.";
 
 /* Incorrect Credentials */
 "open_sequence_problem_opening_incorrect_credentials_title" = "Credenciais Incorretas";
