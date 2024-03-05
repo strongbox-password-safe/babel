@@ -1446,7 +1446,7 @@
 "files_provider_problem_saving" = "Problema ao Salvar Arquivo Externo";
 
 /* Strongbox's reference to this external file is stale. Please remove and re-add this database. */
-"files_provider_stale_reference" = "A referência do Strongbox a este arquivo externo é inválida. Por favor remova-a e a re-adicione esta base.";
+"files_provider_stale_reference" = "A referência do Strongbox para este arquivo externo é inválida. Por favor, remova e adicione novamente a este banco de dados.";
 
 /* Unlock Attempts Remaining: %ld */
 "privacy_vc_label_unlock_attempts_fmt" = "Tentativas de Desbloqueio Restantes: %ld";
@@ -1506,13 +1506,13 @@
 "password_gen_vc_word_separator_placeholder" = "Separador";
 
 /* Strongbox: Error Opening Database */
-"cred_vc_error_opening_title" = "Strongbox: Erro ao Abrir Base de Dados";
+"cred_vc_error_opening_title" = "Strongbox: Erro ao abrir o Banco de Dados";
 
 /* You Have No Databases Yet :( */
-"autofill_safes_vc_empty_title" = "Você Ainda Não Tem Bases De Dados :(";
+"autofill_safes_vc_empty_title" = "Você ainda não tem Bancos de Dados :(";
 
 /* To use Strongbox for Password Autofill you need to add a database. You can do this in the Strongbox App. */
-"autofill_safes_vc_empty_subtitle" = "Para usar o Strongbox com AutoPreenchimento você precisa adicionar uma base de dados. Você pode fazer isso no App Strongbox.";
+"autofill_safes_vc_empty_subtitle" = "Para usar o Strongbox com preenchimento automático você precisa adicionar um banco de dados. Você pode fazer isso no App Strongbox.";
 
 /* Local */
 "autofill_safes_vc_storage_local_name" = "Local";
@@ -1578,7 +1578,7 @@
 "pick_creds_vc_cannot_create_new_unsupported_storage_type_title" = "Armazenamento Não Suportado";
 
 /* This database is stored on a Storage Provider that does not support Live editing in App Extensions. Cannot Create New Entry. */
-"pick_creds_vc_cannot_create_new_unsupported_storage_type_message" = "Esta base de dados está armazenada em um Provedor de Armazenamento que não suporta edição desta forma. Não é Possível Criar Um Novo Registro.";
+"pick_creds_vc_cannot_create_new_unsupported_storage_type_message" = "Este banco de dados está armazenada em um Provedor de armazenamento que não suporta edição desta forma. Não é possível criar um novo registro.";
 
 /* Create New Entry... */
 "pick_creds_vc_create_new_button_title" = "Criar Novo Registro...";
@@ -1788,7 +1788,7 @@
 "database_metadata_field_password_key_stretch_iterations" = "Iterações Keystretch";
 
 /* Error message indicating that these item(s) cannot be deserialized to this database because they contain two groups with the same title. */
-"node_serialization_error_duplicate_group_title_fmt" = "Não foi possível copiar estes itens porque eles contêm dois grupos com o mesmo nome '%@', o que não é suportado neste formato de base de dados.";
+"node_serialization_error_duplicate_group_title_fmt" = "Não foi possível copiar estes itens porque eles contêm dois grupos com o mesmo nome '%@', o que não é suportado neste formato de banco de dados.";
 
 /* Memory */
 "database_metadata_field_argon2_memory" = "Memória";
@@ -1800,7 +1800,7 @@
 "backup_vc_backup_added_to_databases" = "Esse backup foi adicionado aos seus bancos de dados";
 
 /* Add as Local Database */
-"backups_add_local" = "Adicionar às bases de dados";
+"backups_add_local" = "Adicionar ao Banco de Dados";
 
 /* Are you sure you want to delete all backups? */
 "backups_vc_delete_all_backups_prompt_message" = "Tem certeza que deseja remover todos os backups?";
@@ -1815,7 +1815,7 @@
 "config_error_one_time_key_file_convenience_title" = "Problema com o Arquivo Chave de Uso Único";
 
 /* Could not write backup, will not proceed with write of database! */
-"model_error_cannot_write_backup" = "Não foi possível escrever o backup, não será gravada a alteração na base de dados!";
+"model_error_cannot_write_backup" = "Não foi possível gravar o backup, não será gravada a alteração no banco de dados!";
 
 /* Button Title to view backup settings of this database */
 "safes_vc_action_backups" = "Backups";
@@ -2215,7 +2215,7 @@
 "mac_error_could_not_open_key_file" = "Não foi possível abrir o arquivo chave.";
 
 /* This database has been changed by another user or application. Would you like to reload the latest version? */
-"mac_db_changed_externally_reload_yes_or_no" = "Esta base de dados foi atualizada por outro usuário ou aplicação. Gostaria de carregar a versão mais recente?";
+"mac_db_changed_externally_reload_yes_or_no" = "Este banco de dados foi atualizada por outro usuário ou aplicação. Gostaria de carregar a versão mais recente?";
 
 /* Reloading after external changes... */
 "mac_db_reloading_after_external_changes_popup_notification" = "Recarregando após alterações externas...";
@@ -2227,7 +2227,7 @@
 "mac_touch_id_one_time_warning" = "Considerações sobre o Touch ID/Apple Watch\n\nEmbora seja conveniente, não é um sistema perfeito para proteger suas senhas. O suporte é dado apenas para oferecer conveniência. Dentro de todo o escopo de possibilidades, é possível que alguém consiga acesso ao seu dispositivo ou impressão digital e consiga criar uma cópia boa o suficiente para enganar o Touch ID da Apple. Além disso, no seu Mac, sua senha mestra será armazenada de maneira segura do Keychain. Isso significa que alguém com privilégios administrativos pode vasculhar seu Keychain em busca da sua senha mestra. Você precisa ter consciência de que uma senha forte armazenada apenas na sua mente é o que oferece a experiência mais segura com o Strongbox.\n\nPor favor leve tudo isso em consideração e decida se vai usar ou não o Touch ID de acordo com suas preferências de balanceamento entre segurança e conveniência.";
 
 /* You cannot lock a database while changes are pending. Save changes and lock now? */
-"mac_cant_lock_db_while_changes_pending" = "Você não pode bloquear uma base de dados enquanto existir alterações pendentes. Salvar alterações agora e bloquear?";
+"mac_cant_lock_db_while_changes_pending" = "Você não pode bloquear um banco de dados enquanto houver alterações pendentes. Salvar alterações e bloquear agora?";
 
 /* Locking... */
 "generic_locking_ellipsis" = "Bloqueando...";
@@ -2248,13 +2248,13 @@
 "mac_keepass1_does_not_support_root_entries" = "O KeePass 1 não suporta registros no nível raiz, eles serão descartados. O KeePass 1 também não suporta nativamente o campo ‘E-mail’. O Strongbox irá acrescentá-lo no fim do campo de Notas.\nGostaria de continuar?";
 
 /* The Password Safe format does not support icons, attachments or custom fields. If you continue, these fields will not be copied to this database.\nDo you want to continue without these fields? */
-"mac_password_safe_fmt_does_not_support_icons_attachments_warning" = "O formato Password Safe não suporta ícones, anexos ou campos personalizados. Se você continuar, estes campos não serão copiados para a base de dados.\nGostaria de continuar sem estes campos?";
+"mac_password_safe_fmt_does_not_support_icons_attachments_warning" = "O formato Password Safe não suporta ícones, anexos ou campos personalizados. Se você continuar, estes campos não serão copiados para o banco de dados.\nGostaria de continuar sem estes campos?";
 
 /* The KeePass 1 (KDB) does not support entries at the root level, these will be discarded.\n\nThe KeePass 1 (KDB) format also does not support multiple attachments, custom fields or custom icons. If you continue only the first attachment from each item will be copied to this database. Custom Fields and Icons will be discarded.\nDo you want to continue? */
-"mac_keepass1_does_not_support_root_entries_or_attachments" = "O KeePass 1 (KDB) não suporta registros no nível raiz, eles serão descartados.\n\nO formato KeePass 1 (KDB) também não suporta anexos múltiplos, campos personalizados ou ícones personalizados. Se você continuar, apenas o primeiro anexo de cada item será copiado para esta base de dados. Campos personalizados e ícones serão descartados.\nGostaria de continuar?";
+"mac_keepass1_does_not_support_root_entries_or_attachments" = "O KeePass 1 (KDB) não suporta registros no nível raiz, eles serão descartados.\n\nO formato KeePass 1 (KDB) também não suporta anexos múltiplos, campos personalizados ou ícones personalizados. Se você continuar, apenas o primeiro anexo de cada item será copiado para este banco de dados. Campos personalizados e ícones serão descartados.\nGostaria de continuar?";
 
 /* The Password Safe format does not support attachments or icons. If you continue, these fields will not be copied to this database.\nDo you want to continue without these fields? */
-"mac_password_safe_does_not_support_attachments_icons_continue_yes_no" = "O formato Password Safe não suporta anexos ou ícones. Se continuar, estes campos não serão copiados para esta base de dados.\nQuer continuar sem estes campos?";
+"mac_password_safe_does_not_support_attachments_icons_continue_yes_no" = "O formato Password Safe não suporta anexos ou ícones. Se continuar, estes campos não serão copiados para este banco de dados.\nQuer continuar sem estes campos?";
 
 /* You cannot create a new item here. It must be within an existing folder. */
 "mac_alert_cannot_create_item_here" = "Você não pode criar um novo item aqui. Isso precisa ser feito dentro de um diretório existente.";
@@ -2439,10 +2439,10 @@
 "mac_undo_action_import_entries_from_csv" = "Importar Entradas do CSV";
 
 /* Cannot save database while it is locked." */
-"mac_cannot_save_db_while_locked" = "Não é possível salvar a base de dados enquanto ela estiver bloqueada.";
+"mac_cannot_save_db_while_locked" = "Não é possível salvar o banco de dados enquanto ela estiver bloqueado.";
 
 /* Strongbox cannot open File Wrappers, Directories or Compressed Packages like this. Please directly select a KeePass or Password Safe database file. */
-"mac_strongbox_cant_open_file_wrappers" = "O Strongbox não pode abrir Arquivos Encapsulados, Diretórios ou Pacotes Compactados assim. Por favor, selecione um arquivo de base de dados do KeePass ou Password Safe diretamente.";
+"mac_strongbox_cant_open_file_wrappers" = "O Strongbox não pode abrir arquivos encapsulados, diretórios ou pacotes compactados assim. Por favor, selecione um arquivo de banco de dados do KeePass ou Password Safe diretamente.";
 
 /* Please Enter the Master Credentials for this Database */
 "mac_please_enter_master_credentials_for_this_database" = "Por favor, insira a credencial mestra para este banco de dados";
@@ -2454,7 +2454,7 @@
 "mac_save_action" = "Salvar";
 
 /* You must save this new database before you can use it */
-"mac_save_new_db_message" = "Você deve salvar esta nova base de dados antes de utilizá-la";
+"mac_save_new_db_message" = "Você deve salvar este novo banco de dados antes de utilizá-lo";
 
 /* Untitled.%@ - Translators Note: 1st Parameter is the File Extension e.g. KDBX or psafe3*/
 "mac_untitled_database_filename_fmt" = "SemTítulo.%@";
@@ -2466,7 +2466,7 @@
 "mac_pro_days_left_window_title_suffix_fmt" = " - [%ld Dias Restantes de 'Pro']";
 
 /* Enter a new name for this database */
-"mac_enter_new_name_for_db" = "Digite um novo nome para esta base de dados";
+"mac_enter_new_name_for_db" = "Digite um novo nome para este banco de dados";
 
 /* File Based */
 "mac_storage_provider_name_file" = "Baseado em Arquivos";
@@ -2682,10 +2682,10 @@
 "mac_button_conceal_master_password_title" = "⌘R para Ocultar";
 
 /* Biometrics Database Changed */
-"open_sequence_warn_biometrics_db_changed_title" = "A Base de Dados Biométrica foi Alterada";
+"open_sequence_warn_biometrics_db_changed_title" = "A Biometria do Banco de Dados foi alterada";
 
 /* It looks like your biometrics database has changed, probably because you added a new face or fingerprint. Strongbox now requires you to re-enter your master credentials manually for security reasons. */
-"open_sequence_warn_biometrics_db_changed_message" = "Parece que sua base de dados biométrica foi alterada, provavelmente porque você adicionou um novo rosto ou impressão digital. O Strongbox agora requer que você insira novamente sua senha mestra manualmente por motivos de segurança.";
+"open_sequence_warn_biometrics_db_changed_message" = "Parece que a biometria do seu banco de dados foi alterada, provavelmente porque você adicionou um novo rosto ou impressão digital. O Strongbox agora requer que você insira novamente sua senha mestra manualmente por motivos de segurança.";
 
 /* None - (Tranlators Note: When the user is not using or has not selected a key file on the Unlock screen.) */
 "mac_key_file_none" = "Nenhum(a)";
@@ -2813,7 +2813,7 @@
 "autofill_did_not_close_cleanly_title" = "Houve Uma Falha no AutoPreenchimento";
 
 /* It looks like the last time you used AutoFill you had a crash. This is usually due to a memory limitation. Please check your database file size and your Argon2 memory settings (should be <= 64MB) */
-"autofill_did_not_close_cleanly_message" = "Parece que houve uma falha da última vez que você usou o AutoPreenchimento. Isso normalmente é causado por limitações de memória do iOS. Verifique o tamanho da base de dados e as configurações de memória Argon2 (deve ser >= 64MB)";
+"autofill_did_not_close_cleanly_message" = "Parece que houve uma falha da última vez que você usou o preenchimento automático. Isso é normalmente causado por limitações de memória do iOS. Verifique o tamanho do banco de dados e as configurações de memória Argon2 (deve ser <= 64MB)";
 
 /* Regenerate... */
 "password_generation_regenerate_ellipsis" = "Gerar novamente...";
@@ -2906,13 +2906,13 @@
 "browse_add_group_or_entry_question" = "Gostaria de adicionar um registro ou um grupo?";
 
 /* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be securely stored for %@ before you need to re-enter it. Note for translators (1st Param = "Touch ID", 2nd Param is a time span something like "2 weeks") */
-"mac_use_biometric_to_open_in_future_fmt" = "Gostaria de usar %@ ou seu Apple Watch para desbloquear esta base de dados no futuro? Sua senha mestra será armazenada de maneira segura para %@ antes de você precisar digitá-la.";
+"mac_use_biometric_to_open_in_future_fmt" = "Gostaria de usar %@ ou seu Apple Watch para desbloquear este banco de dados no futuro? Sua senha mestra será armazenada de maneira segura para %@ antes de você precisar digitá-la.";
 
 /* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be stored securely. Note for translators (1st Param = "Touch ID") */
-"mac_use_biometric_to_open_in_future_simple_fmt" = "Gostaria de usar %@ ou seu Apple Watch para desbloquear esta base de dados no futuro? Sua senha mestra será armazenada de maneira segura.";
+"mac_use_biometric_to_open_in_future_simple_fmt" = "Gostaria de usar %@ ou seu Apple Watch para desbloquear este banco de dados no futuro? Sua senha mestra será armazenada de maneira segura.";
 
 /* Would you like to use %@ or your Apple Watch to unlock this database in the future? Your master password will be stored securely until you exit Strongbox Note for translators (1st Param = "Touch ID") */
-"mac_use_biometric_to_open_in_future_simple_app_exit_fmt" = "Gostaria de usar %@ ou seu Apple Watch para desbloquear esta base de dados no futuro? Sua senha mestra será armazenada de maneira segura até que você encerre o Strongbox";
+"mac_use_biometric_to_open_in_future_simple_app_exit_fmt" = "Gostaria de usar %@ ou seu Apple Watch para desbloquear este banco de dados no futuro? Sua senha mestra será armazenada de maneira segura até que você saia do Strongbox";
 
 /* Audit: No password set */
 "audit_quick_summary_no_password_set" = "Nenhuma senha definida";
@@ -3023,7 +3023,7 @@
 "casg_key_file_correct_title" = "O Arquivo Chave está correto?";
 
 /* You have configured this database to open with a key file but the key file you have chosen doesn't look valid.\n\nAre you sure you are using this key file?\n\nNB: A key file is not the same as your database file" */
-"casg_key_file_correct_message" = "Você configurou esta base de dados para abrir com um arquivo chave mas o arquivo chave que você selecionou não parece ser válido.\n\nTem certeza que está usando este arquivo chave?\n\nNota: Um arquivo chave não é o mesmo arquivo da sua base de dados";
+"casg_key_file_correct_message" = "Você configurou este banco de dados para abrir com um arquivo chave, mas, o arquivo chave que você selecionou não parece ser válido.\n\nTem certeza que está usando este arquivo chave?\n\nNota: Um arquivo chave não é o mesmo arquivo do seu banco de dados";
 
 /* Yes, the key file is correct */
 "casg_key_file_correct_yes_key_file_correct" = "Sim, o arquivo chave está correto";
@@ -3227,16 +3227,16 @@
 "password_gen_vc_mode_diceware_xkcd_title" = "Diceware (XKCD)";
 
 /* Strongbox: Unknown Database */
-"autofill_error_unknown_db_title" = "Strongox: Base de Dados Desconhecida";
+"autofill_error_unknown_db_title" = "Strongox: Banco de Dados desconhecido";
 
 /* This appears to be a reference to an older Strongbox database which can no longer be found. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill. */
-"autofill_error_unknown_db_message" = "Essa parece ser uma referência a uma base de dados do Strongbox antiga e que não pode mais ser encontrada. A base de dados do QuickType e AutoPreenchimento do Strongbox foi limpa e você precisa reabrir sua base de dados para atualizar o QuickType e Preenchimento Automático.";
+"autofill_error_unknown_db_message" = "Essa parece ser uma referência a um banco de dados do Strongbox antiga e, que não pode mais ser encontrada. O Início Rápido do banco de dados do e o Preenchimento Automático do Strongbox foi limpo e você precisa reabrir seu banco de dados para atualizar o Início Rápido e o Preenchimento Automático.";
 
 /* Strongbox: Error Locating Entry */
 "autofill_error_unknown_item_title" = "Strongbox: Erro Ao Localizar Registro";
 
 /* Strongbox could not find this entry, it is possibly stale. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill. */
-"autofill_error_unknown_item_message" = "O Strongbox não encontrou este registro, é possível que esteja defasado. A base de dados do QuickType e AutoPreenchimento do Strongbox foi limpa e você vai precisar reabrir suas bases de dados para atualizar o Auto Preenchimento e QuickType.";
+"autofill_error_unknown_item_message" = "O Strongbox não encontrou este registro, é possível que esteja desatualizado. O Início Rápido do banco de dados do e o Preenchimento Automático do Strongbox foram limpo e, você precisará reabrir seus bancos de dados para atualizar o Preenchimento Automático e o Início Rápido.";
 
 /* Locating... */
 "generic_status_sp_locating_ellipsis" = "Localizando...";
@@ -3290,13 +3290,13 @@
 "sync_conflict_title" = "Conflito de Sincronização";
 
 /* It looks like the remote version of this database on '%@' has changed and so has the local version you've been working on. Which version would you like to use?  - Translators Note: The first parameter is the name of the remote storage provider e.g. "Dropbox" */
-"sync_conflict_message_fmt" = "Parece que a versão remota desta base de dados em ‘%@‘ foi alterada e a sua versão local também. Qual versão você gostaria de usar?";
+"sync_conflict_message_fmt" = "Parece que a versão remota deste banco de dados em ‘%@‘ foi alterada e a sua versão local também. Qual versão você gostaria de usar?";
 
 /* Strongbox could not sync your changes. */
 "sync_could_not_sync_your_changes" = "Strongbox não pôde sincronizar suas alterações.";
 
 /* You must close and reopen this database for Read-Only changes to take effect. */
-"db_management_reopen_required_message" = "Você precisa fechar e abrir novamente esta base de dados para que as mudanças façam efeito.";
+"db_management_reopen_required_message" = "Você precisa fechar e reabrir este banco de dados para que as mudanças tenham efeito.";
 
 /* Re-Open Required */
 "db_management_reopen_required_title" = "Reabertura Necessária";
@@ -3347,7 +3347,7 @@
 "open_sequence_database_different_filename_message" = "Este não parece o arquivo certo porque o nome do arquivo é diferente do que você adicionou originalmente. Gostaria de continuar?";
 
 /* Relocate Database */
-"open_sequence_storage_provider_try_relocate_files_db" = "Localizar Base de Dados...";
+"open_sequence_storage_provider_try_relocate_files_db" = "Localizar Banco de Dados...";
 
 /* Strongbox is having trouble locating your database. This can happen sometimes especially after iOS updates or with some 3rd party providers (e.g.Nextcloud).\n\nYou now need to tell Strongbox where to locate it. Alternatively you can open Strongbox's local copy and fix this later.\n\nFor Nextcloud please use WebDAV instead... */
 "open_sequence_storage_provider_try_relocate_files_db_message" = "O Strongbox não conseguiu encontrar seu banco de dados. Isso as vezes pode acontecer depois de uma atualização do iOS ou de provedores de terceiros (por exemplo o Nextcloud).\n\nVocê precisa informar para o Strongbox onde localizá-lo. Você também pode usar a cópia local feita pelo Strongbox e resolver isso mais tarde.\n\nSe estiver usando Nextcloud dê preferência à tecnologia WebDAV...";
@@ -3362,10 +3362,10 @@
 "generic_action_delete" = "Remover";
 
 /* Are you sure the URL is correct? It should be a path to a parent folder. Not the database file. */
-"webdav_vc_validation_url_are_you_sure" = "Tem certeza que a URL está correta? Ela deveria ser uma URL para um diretório pai e não para um arquivo de base de dados.";
+"webdav_vc_validation_url_are_you_sure" = "Tem certeza que a URL está correta? Ela deve ser uma URL para uma pasta principal e não para um arquivo de banco de dados.";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Tem certeza que o caminho está correto? Ele deveria ser um caminho para um diretório pai e não para um arquivo de base de dados.";
+"sftp_path_are_you_sure" = "Tem certeza que o caminho está correto? Ele deve ser um caminho para uma pasta principal e não para um arquivo de banco de dados.";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
 "sftp_path_are_you_sure" = "Você tem certeza que o caminho está correto? Ele deve ser um caminho para a pasta principal. Não é o arquivo de banco de dados.";
@@ -3518,7 +3518,7 @@
 "properties_vc_header_statistics" = "Estatísticas";
 
 /* Database KeePass XML Copied to Clipboard */
-"export_vc_message_xml_copied" = "XML da Base de Dados KeePass Copiado para a Área de Transferência";
+"export_vc_message_xml_copied" = "XML do Banco de Dados KeePass Copiado para a Área de Transferência";
 
 /* Latin-1 Supplement */
 "pwgen_casing_latin1_supplement" = "Suplemento do Latin-1";
@@ -3536,7 +3536,7 @@
 "mac_no_autofill_enabled_databases_initial_message" = "Nenhum preenchimento automático ativo no Banco de Dados";
 
 /* It looks like this is your first time using AutoFill with this database.\n\nFor security reasons you must locate and select your database file for Strongbox so that the AutoFill can access it.\n\nAs a reminder your database file was last located here:\n\n%@\n\nPlease locate it now for Strongbox...  - Translator's note: The parameter is the path of the database like '/Users/mark/Desktop/my-database.kdbx' */
-"mac_autofill_first_time_locate-fmt" = "Parece que esta é a primeira vez que você usa o AutoPreenchimento com esta base de dados.\n\nPor motivos de segurança você precisa localizar e selecionar seu arquivo de base de dados para que o AutoPreenchimento possa acessá-lo.\n\nLembrete: Seu arquivo de base de dados foi visto por último aqui:\n\n%@\n\nAgora localize-o...";
+"mac_autofill_first_time_locate-fmt" = "Parece que esta é a primeira vez que você usa o Preenchimento Automático com este banco de dados.\n\nPor motivos de segurança você precisa localizar e selecionar seu arquivo de banco de dados para que o Preenchimento Automático possa acessá-lo.\n\nLembrete: Seu arquivo de banco de dados foi visto por último aqui:\n\n%@\n\nPor favor, localize-o agora para o Strongbox...";
 
 /* Welcome to Strongbox AutoFill */
 "mac_welcome_to_autofill" = "Boas vindas ao AutoPreenchimento do Strongbox";
@@ -3587,7 +3587,7 @@
 "merge_result_databases_identical" = "Nenhuma alteração a ser unificada na primeira.";
 
 /* Second database is %0.1f%% different. (Translators Note: 1st param is a percentage like '12.2%' (please don't edit/touch the percentage signs as it will likely cause a crash)) */
-"diff_result_percentage_difference_fmt" = "Segunda base de dados é %0.1f%% diferente.";
+"diff_result_percentage_difference_fmt" = "Segundo banco de dados está %0.1f%% diferente.";
 
 /* Identical databases. */
 "diff_result_databases_identical" = "Bancos de dados idênticos.";
@@ -3611,7 +3611,7 @@
 "diff_view_section_header_entry_will_be_added_count_fmt" = "Será Adicionado (%lu)";
 
 /* Only in Second Database (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_only_in_second_fmt" = "Apenas na Segunda Base de Dados (%lu)";
+"diff_view_section_header_only_in_second_fmt" = "Somente no Segundo Banco de Dados (%lu)";
 
 /* Will be Moved (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
 "diff_view_section_header_entry_will_be_moved_count_fmt" = "Será Movido (%lu)";
