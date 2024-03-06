@@ -4137,7 +4137,7 @@
 "offline_detected_behaviour_open_offline" = "Abrir Offline (Sem Perguntar)";
 
 /* There was a problem updating your database in the background and your assistance is required to resolve. Would you like to resolve this problem now? */
-"sync_status_user_interaction_required_prompt_yes_or_no" = "Houve um problema ao atualizar sua base de dados e sua assistência é necessária para resolvê-lo. Gostaria de fazer isso agora?";
+"sync_status_user_interaction_required_prompt_yes_or_no" = "Houve um problema ao atualizar seu banco de dados e sua assistência é necessária para resolvê-lo. Gostaria de fazer isso agora?";
 
 /* Error Updating */
 "sync_status_error_updating_title" = "Erro ao Atualizar";
@@ -4146,7 +4146,7 @@
 "generic_action_verb_recycle" = "Enviar p/ Lixeira";
 
 /* There was an error updating your database. Would you like to try updating again, or would you prefer to revert to the latest successful update? */
-"sync_status_error_updating_try_again_prompt" = "Houve um erro ao atualizar sua base de dados. Gostaria de tentar atualizar novamente, ou prefere usar a versão atualizada com êxito mais recente?";
+"sync_status_error_updating_try_again_prompt" = "Houve um erro ao atualizar seu banco de dados. Gostaria de tentar atualizar novamente, ou prefere usar a versão atualizada com êxito mais recente?";
 
 /* Try Again */
 "sync_status_error_updating_try_again_action" = "Tentar Novamente";
@@ -4167,7 +4167,7 @@
 "safes_vc_slide_left_open_online_action" = "Abrir Online";
 
 /* At least one of these database is open and unlocked. You must lock this database before you can remove it. */
-"mac_at_least_one_db_unlocked_cannot_remove" = "Ao menos uma dessas bases de dados está desbloqueada. Você precisa bloqueá-la antes de removê-la.";
+"mac_at_least_one_db_unlocked_cannot_remove" = "Ao menos um desses bancos de dados está desbloqueada. Você precisa bloqueá-la antes de removê-la.";
 
 /* About Strongbox %@ - L10n note: 1st parameter is the App Version, e.g. 'About Strongbox 1.52.17' */
 "prefs_vc_app_version_info_none_pro_fmt" = "Sobre o Strongbox %@";
@@ -4314,13 +4314,13 @@
 "generic_rearrange" = "Reorganizar";
 
 /* Typing your master password is slow, cumbersome and error prone. Strongbox can help you to conveniently and securely unlock your database so that you don't need to enter your master password all the time.\n\nWould you like to use Convenience Unlock? */
-"onboarding_convenience_message_fmt" = "Digitar sua senha mestra é um processo lento, trabalhoso e com margem para erros. O Strongbox pode ajudar a desbloquear sua base de dados de maneira rápida e segura sem precisar digitar sua senha toda hora.\n\nGostaria de usar o Desbloqueio Conveniente?";
+"onboarding_convenience_message_fmt" = "Digitar sua senha mestra é um processo lento, trabalhoso e com margem para erros. O Strongbox pode ajudar a desbloquear seu banco de dados de maneira rápida e segura sem precisar digitar sua senha toda hora.\n\nGostaria de usar o Desbloqueio Conveniente?";
 
 /* Dismiss - L10n Note: Generic Action to dismiss a dialog or popup */
 "generic_dismiss" = "Fechar";
 
 /* There is a configuration issue you should be aware of. You are using %@ for both App Lock and Quick Launch. In addition you allow device passcode fallback for App Lock.\n\nThis leads to a situation where you can unlock your database using only your device passcode.\n\nIf you do not want this you can do any of the following: Disable App Lock passcode fallback, or Quick Launch, or %@ Database Unlock, or coalescing of unlocks - L10n Note: 3 format parameters here are identical and will be either 'Face ID' or 'Touch ID' */
-"app_lock_coalescing_with_quick_launch_warning" = "Existe um problema de configuração que você deve ficar atento. Você está usando %@ tanto para o Bloqueio de Aplicativo quanto para o Início Rápido. Você também ativou a senha do dispositivo como reserva para o Bloqueio de Aplicativo.\n\nIsso pode gerar uma situação em que é possível desbloquear sua base de dados usando apenas a senha do seu dispositivo.\n\nSe não quiser que isso aconteça você pode fazer uma das seguintes ações: Desativar a senha do dispositivo como reserva para o Bloqueio do Aplicativo, desativar o Desbloqueio da Base de Dados com %@ ou desunir os desbloqueios.";
+"app_lock_coalescing_with_quick_launch_warning" = "Existe um problema de configuração que você deve ficar atento. Você está usando %@ tanto para o Bloqueio de Aplicativo quanto para o Início Rápido. Você também ativou a senha do dispositivo como reserva para o Bloqueio de Aplicativo.\n\nIsso pode gerar uma situação em que é possível desbloquear seu banco de dados usando apenas a senha do seu dispositivo.\n\nSe não quiser que isso aconteça você pode fazer uma das seguintes ações: Desativar a senha do dispositivo como reserva para o Bloqueio do Aplicativo, desativar o Desbloqueio do Banco de Dados com %@ ou desunir os desbloqueios.";
 
 /* Configuration Issue */
 "onboarding_configuration_issue_title" = "Problema de Configuração";
@@ -4338,7 +4338,7 @@
 "onboarding_scheduled_export_title" = "Exportação Agendada";
 
 /* It's always a good idea to keep backups, especially external ones. Strongbox can remind you to export your database every so often.\n\nWould you like Strongbox to prompt you to export your database if it has been a while? */
-"onboarding_scheduled_export_message" = "É sempre uma boa ideia guardar backups, especialmente os externos. O Strongbox pode lhe lembrar de exportar sua base de dados periodicamente.\n\nGostaria que o Strongbox lhe lembrasse de exportar sua base de dados se o último backup foi há muito tempo?";
+"onboarding_scheduled_export_message" = "É sempre uma boa ideia manter backups, especialmente os externos. O Strongbox pode lembrá-lo de exportar seu banco de dados de vez em quando.\n\nGostaria que o Strongbox solicitasse que você exporte seu banco de dados se já tiver passado algum tempo?";
 
 /* Remind me after 2 weeks */
 "onboarding_scheduled_export_onboarding_remind_2_weeks" = "Lembre-me depois de 2 semanas";
@@ -4350,7 +4350,7 @@
 "generic_dont_remind_me" = "Não Lembrar";
 
 /* It's time to export a backup copy of your database somewhere safe.\n\nWould you like do that now? */
-"scheduled_export_message" = "Chegou a hora de exportar uma cópia de backup da sua base de dados para algum lugar seguro.\n\nGostaria de fazer isso agora?";
+"scheduled_export_message" = "Chegou a hora de exportar uma cópia de backup do seu banco de dados para algum lugar seguro.\n\nGostaria de fazer isso agora?";
 
 /* Postpone */
 "generic_postpone" = "Deixar para depois";
