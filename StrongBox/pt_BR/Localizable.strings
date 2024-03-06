@@ -92,7 +92,7 @@
 "safes_vc_error_selecting_storage_location" = "Erro ao selecionar local de armazenamento";
 
 /* Error title: error adding database */
-"safes_vc_error_adding_database" = "Erro ao adicionar o Banco de Dados";
+"safes_vc_error_adding_database" = "Erro ao adicionar";
 
 /* Error Message- unknown error while adding */
 "safes_vc_unknown_error_while_adding_database" = "Ocorreu um erro desconhecido ao adicionar este banco de dados";
@@ -879,13 +879,13 @@
 "databases_preferences_subtitle_field_name_filename" = "Nome do Arquivo";
 
 /* Last Modified */
-"databases_preferences_subtitle_field_name_last_cached_data" = "Última Modificação";
+"databases_preferences_subtitle_field_name_last_cached_data" = "Última modificação";
 
 /* Last Modified (Precise) */
-"databases_preferences_subtitle_field_name_last_modified_date_precise" = "Última Modificação (Precisa)";
+"databases_preferences_subtitle_field_name_last_modified_date_precise" = "Última modificação (Precisa)";
 
 /* File Size */
-"databases_preferences_subtitle_field_name_file_size" = "Tamanho do Arquivo";
+"databases_preferences_subtitle_field_name_file_size" = "Tamanho do arquivo";
 
 /* Strongbox Downgrade */
 "upgrade_mgr_downgrade_title" = "Downgrade do Strongbox";
@@ -1373,7 +1373,7 @@
 "open_sequence_error_reading_key_file" = "Não foi possível ler o Arquivo Chave. Ele foi movido ou excluído? Verifique o Gerenciamento de Arquivos Chave nas Configurações";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc, 2nd param is the date/time of the last cache) */
-"open_sequence_user_looks_offline_open_offline_instead_fmt" = "Parece que você está offline e não é possível se conectar a ‘%@’. Gostaria de usar uma versão somente leitura armazenada em cache disponível offline?\n\nÚltimo Cache: %@";
+"open_sequence_user_looks_offline_open_offline_instead_fmt" = "Parece que você está offline e '%@' pode não estar acessível. Gostaria de usar uma versão de cache offline somente leitura deste banco de dados?\n\nÚltimo Caching: %@";
 
 /* No, Try to connect anyway */
 "open_sequence_yesno_use_offline_cache_no_try_connect_option" = "Não, tentar se conectar mesmo assim";
@@ -1746,43 +1746,43 @@
 "database_metadata_field_generator" = "Gerador do Banco de Dados";
 
 /* Inner Encryption */
-"database_metadata_field_inner_encryption" = "Criptografia Interna";
+"database_metadata_field_inner_encryption" = "Criptografia interna";
 
 /* KeePass File Version */
-"database_metadata_field_keepass_version" = "Versão do Arquivo KeePass";
+"database_metadata_field_keepass_version" = "Versão do arquivo KeePass";
 
 /* Key Derivation */
-"database_metadata_field_key_derivation" = "Derivação De Chave";
+"database_metadata_field_key_derivation" = "Derivação da chave";
 
 /* Max History Items */
-"database_metadata_field_max_history_items" = "Máximo de Itens no Histórico";
+"database_metadata_field_max_history_items" = "Máximo de itens no histórico";
 
 /* Max History Size */
-"database_metadata_field_max_history_size" = "Tamanho Máximo do Histórico";
+"database_metadata_field_max_history_size" = "Tamanho máximo do histórico";
 
 /* Outer Encryption */
-"database_metadata_field_outer_encryption" = "Criptografia Externa";
+"database_metadata_field_outer_encryption" = "Criptografia externa";
 
 /* Password Safe File Version */
-"database_metadata_field_password_safe_version" = "Versão do Arquivo Password Safe";
+"database_metadata_field_password_safe_version" = "Versão do arquivo Password Safe";
 
 /* Recycle Bin Enabled */
-"database_metadata_field_recycle_bin_enabled" = "Lixeira Ativada";
+"database_metadata_field_recycle_bin_enabled" = "Lixeira ativada";
 
 /* Transform Rounds */
-"database_metadata_field_transform_rounds" = "Rodadas de Transformação";
+"database_metadata_field_transform_rounds" = "Rodadas de transformação";
 
 /* Last Update App */
-"database_metadata_field_last_update_app" = "Última Atualização pelo Aplicativo";
+"database_metadata_field_last_update_app" = "Última atualização pelo aplicativo";
 
 /* Last Update Host */
-"database_metadata_field_last_update_host" = "Última Atualização pelo Host";
+"database_metadata_field_last_update_host" = "Última atualização pelo Host";
 
 /* Last Update Time */
-"database_metadata_field_last_update_time" = "Data da Última Atualização";
+"database_metadata_field_last_update_time" = "Data da última atualização";
 
 /* Last Update User */
-"database_metadata_field_last_update_user" = "Última Atualização pelo Usuário";
+"database_metadata_field_last_update_user" = "Última atualização pelo usuário";
 
 /* Key Stretch Iterations */
 "database_metadata_field_password_key_stretch_iterations" = "Iterações Keystretch";
@@ -3341,7 +3341,7 @@
 "open_sequence_invalid_database_filename_fmt" = "Banco de Dados inválido - [%@]";
 
 /* Different Filename */
-"open_sequence_database_different_filename_title" = "Nome de Arquivo Diferente";
+"open_sequence_database_different_filename_title" = "Nome de arquivo diferente";
 
 /* This doesn't look like it's the right file because the filename looks different than the one you originally added. Do you want to continue?" */
 "open_sequence_database_different_filename_message" = "Este não parece o arquivo certo porque o nome do arquivo é diferente do que você adicionou originalmente. Gostaria de continuar?";
@@ -3947,13 +3947,13 @@
 "database_properties_subtitle_quick_launch" = "Solicitar a abertura deste banco de dados ao abrir o App.";
 
 /* Always Auto-Merge */
-"database_properties_title_always_auto_merge" = "Sempre Auto-Unificar";
+"database_properties_title_always_auto_merge" = "Sempre unificar automaticamente";
 
 /* When a sync conflict occurs automatically merge without asking. */
-"database_properties_subtitle_conflict_resolution" = "Quando um conflito de sincronização ocorrer, unificar as bases sem perguntar.";
+"database_properties_subtitle_conflict_resolution" = "Quando um conflito de sincronização ocorrer, unificar os bancos sem perguntar.";
 
 /* Immediate Open Offline Offer */
-"database_properties_title_offline_behaviour" = "Oferecer Imediatamente Para Abrir Offline";
+"database_properties_title_offline_behaviour" = "Oferecer imediatamente para abrir Offline";
 
 /* Immediately offer to open offline if Strongbox detects you are offline. Alternatively, if you turn this off, Strongbox will try to connect which may take some time. */
 "database_properties_subtitle_offline_behaviour" = "Oferecer imediatamente a opção de abrir no modo offline se o Strongbox detectar que você está offline. Se você desativar isso, o Strongbox tentará realizar uma conexão, o que pode levar um tempo.";
@@ -4077,7 +4077,7 @@
 "autofill_auto_unlock_try_10_minutes" = "Prefiro 10 minutos";
 
 /* AutoFill Quick Launch */
-"databases_toggle_autofill_quick_launch_context_menu" = "Início Rápido Para AutoPreenchimento";
+"databases_toggle_autofill_quick_launch_context_menu" = "Início Rápido para Preenchimento Automático";
 
 /* Title Matches */
 "autofill_search_title_matches_section_header" = "Título Corresponde";
@@ -4592,7 +4592,7 @@
 "safes_vc_quick_start" = "Iniciar o Assistente";
 
 /* New (Advanced) */
-"safes_vc_new_advanced" = "Nova Base de Dados";
+"safes_vc_new_advanced" = "Novo Banco de Dados";
 
 /* Add Existing */
 "safes_vc_add_existing" = "Adicionar Existente";
@@ -4621,7 +4621,7 @@
 "are_you_sure_clear_totp" = "Tem certeza que deseja limpar o TOTP para este registro?";
 
 /* Date Created (Precise) */
-"databases_preferences_subtitle_field_name_create_date_precise" = "Data de Criação (Precisa)";
+"databases_preferences_subtitle_field_name_create_date_precise" = "Data de criação (Precisa)";
 
 /* Hardware Slot %@ (Touch Required) - (Translators Note: Some YubiKey devices/configurations require the user to touch or press a button to authenticate. This string also takes a numeric parameter indicating which slot on the device is to be used, usually slot 1 or slot 2) */
 "mac_yubikey_slot_n_touch_required_fmt" = "Slot da Chave de Hardware %@ (Toque Necessário)";
