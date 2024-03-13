@@ -1370,7 +1370,7 @@
 "open_sequence_biometric_unlock_warn_not_configured_fmt" = "%@ a échoué : %@.\n\nVous pouvez annuler pour réessayer ou choisir de déverrouiller manuellement.";
 
 /* Could not read Key File. Has it been moved or deleted? Check Key Files Management in Settings */
-"open_sequence_error_reading_key_file" = "Could not read Key File. Has it been moved or deleted? Check Key Files Management in Settings";
+"open_sequence_error_reading_key_file" = "Impossible de lire le fichier-clé. A-t-il été déplacé ou supprimé ? Vérifiez la gestion des fichiers-clés dans Réglages";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc, 2nd param is the date/time of the last cache) */
 "open_sequence_user_looks_offline_open_offline_instead_fmt" = "Il semble que vous soyez déconnecté(e) et '%@' peut être inaccessible. Voulez-vous utiliser une version de cache en lecture seule de cette base de données à la place ?\n\nDernière mise en cache : %@";
@@ -1716,10 +1716,10 @@
 "keepass_history_tip" = "Astuce : Glissez à gauche pour les options ou appuyez pour afficher";
 
 /* Favorite */
-"browse_vc_action_pin" = "Favorite";
+"browse_vc_action_pin" = "Mettre en favori";
 
 /* Un-Favorite */
-"browse_vc_action_unpin" = "Un-Favorite";
+"browse_vc_action_unpin" = "Retirer favori";
 
 /* Section Header Title for Expired Items */
 "browse_vc_section_title_expired" = "Expiré";
@@ -1728,7 +1728,7 @@
 "browse_vc_section_title_nearly_expired" = "Bientôt expiré";
 
 /* Section Header Title for Favorite Items */
-"browse_vc_section_title_pinned" = "Favorites";
+"browse_vc_section_title_pinned" = "Favoris";
 
 /* Section Header Title for Recent Items */
 "browse_vc_section_title_recents" = "Éléments récents";
@@ -1821,7 +1821,7 @@
 "safes_vc_action_backups" = "Sauvegardes";
 
 /* Could not read Key File. Has it been imported properly? Check Key Files Management in Settings */
-"open_sequence_error_reading_key_file_autofill_context" = "Could not read Key File. Has it been imported properly? Check Key Files Management in Settings";
+"open_sequence_error_reading_key_file_autofill_context" = "Impossible de lire le fichier-clé. A-t-il été importé correctement ? Vérifiez la gestion des fichiers-clés dans Réglages";
 
 /* Transfer over Wi-Fi (or LAN) */
 "sspc_local_network_storage_location" = "Transfert par WiFi (ou LAN)";
@@ -1830,7 +1830,7 @@
 "storage_provider_status_reading" = "Lecture en cours...";
 
 /* Identify to Open Settings */
-"open_sequence_biometric_unlock_preferences_message" = "Identify to Open Settings";
+"open_sequence_biometric_unlock_preferences_message" = "S'identifier pour ouvrir les réglages";
 
 /* Message to display when device is offline and has no IP address in Local HTTP Transfer - Select Storage -> Transfer over Local Network */
 "transfer_local_network_network_unavailable_message" = "Il semble que vous êtes hors ligne ?";
@@ -2203,10 +2203,10 @@
 "favicon_results_are_you_sure_remove_result_message" = "Etes-vous sûr(e) de vouloir supprimer ce résultat de FavIcon ?";
 
 /* Invalid FavIcon Settings */
-"favicon_invalid_preferences_alert_title" = "Invalid FavIcon Settings";
+"favicon_invalid_preferences_alert_title" = "Réglages de FavIcon non valides";
 
 /* This set of preferences will not produce valid FavIcon results. */
-"favicon_invalid_preferences_alert_message" = "These settings will not produce valid FavIcon results.";
+"favicon_invalid_preferences_alert_message" = "Ces réglages ne produiront pas de résultats de FavIcon valides.";
 
 /* Unlock with %@ or Watch */
 "mac_unlock_database_with_biometric_fmt" = "Déverrouiller avec %@ ou Watch";
@@ -3122,7 +3122,7 @@
 "keepass_icon_set_keepassxc" = "KeePassXC";
 
 /* Settings */
-"audit_drill_down_section_header_preferences" = "Settings";
+"audit_drill_down_section_header_preferences" = "Réglages";
 
 /* Summary */
 "audit_drill_down_section_header_summary" = "Résumé";
@@ -3173,13 +3173,13 @@
 "audit_manual_pwn_check_result_not_pwned" = "Votre mot de passe n'a PAS été pwned et est probablement sûr.";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Manual HIBP Result";
+"audit_manual_pwn_check_result_title" = "Résultat HIBP manuel";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "Ce mot de passe est pwned et est vulnérable";
 
 /* Database Audit Settings */
-"audit_drill_down_go_to_database_audit_preferences" = "Database Audit Settings";
+"audit_drill_down_go_to_database_audit_preferences" = "Réglages de l'audit de base de données";
 
 /* View All Audit Issues */
 "audit_drill_down_view_all_audit_issues" = "Voir tous les problèmes d'audit";
@@ -3245,7 +3245,7 @@
 "generic_biometric_unlock_fmt" = "Déverrouillage %@";
 
 /* By default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Settings > Advanced.\n\nDoes this sound ok? */
-"backup_settings_prompt_message" = "By default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Settings > Advanced.\n\nDoes this sound ok?";
+"backup_settings_prompt_message" = "Par défaut Strongbox inclut tous les fichiers locaux (y compris les sauvegardes des bases de données) et toutes les bases de données locales dans les sauvegardes Apple de cet appareil. Toutefois les fichiers-clé importés sont explicitement exclus pour des raisons de sécurité.\n\nVous pouvez changer ces paramètres à tout moment dans Réglages > Avancé.\n\nOK pour vous ?";
 
 /* Backup Settings */
 "backup_settings_prompt_title" = "Paramètres de sauvegarde";
@@ -3368,7 +3368,7 @@
 "sftp_path_are_you_sure" = "Êtes-vous sûr(e) que le chemin est correct ? Ce devrait être un chemin vers un dossier parent. Pas vers le fichier de base de données.";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Are you sure the path is correct? It should be a path to a parent folder. Not the database file.";
+"sftp_path_are_you_sure" = "Êtes-vous sûr(e) que ce chemin est correct ? Il doit pointer vers un répertoire parent. Pas le fichier de base de données.";
 
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "Chemin peut-être invalide";
@@ -3635,7 +3635,7 @@
 "merge_view_are_you_sure" = "Êtes-vous sûr(e) de vouloir fusionner la seconde base de données dans la première ?";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Are you sure you want to merge the second database into the first?";
+"merge_view_are_you_sure" = "Êtes-vous sûr(e) de vouloir fusionner la seconde base de données dans la première ?";
 
 /* Merge Successful */
 "merge_view_merge_title_success" = "Fusion réussie";
@@ -4586,7 +4586,7 @@
 "quick_view_title_nearly_expired_entries_subtitle" = "Voir toutes les entrées bientôt expirées";
 
 /* Transfer Over Local Network */
-"safes_vc_wifi_transfer" = "Transfer Over Local Network";
+"safes_vc_wifi_transfer" = "Transférer par le réseau local";
 
 /* Get Started Wizard */
 "safes_vc_quick_start" = "Assistant de démarrage";
@@ -5159,7 +5159,7 @@
 "nextgen_toolbar_settings_database_settings_ellipsis" = "Paramètres de base de données ...";
 
 /* Application Settings... */
-"nextgen_toolbar_settings_application_preferences_ellipsis" = "Application Settings...";
+"nextgen_toolbar_settings_application_preferences_ellipsis" = "Réglages de l'application...";
 
 /* Settings */
 "generic_settings" = "Réglages";
@@ -5462,7 +5462,7 @@
 "ssh_agent_overwrite_password" = "Remplacer le mot de passe ?";
 
 /* This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt. */
-"ssh_agent_sshkey_please_enter_passphrase_msg" = "This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt.";
+"ssh_agent_sshkey_please_enter_passphrase_msg" = "Cette clé SSH est protégée par une phrase de passe.\n\nVeuillez saisir la phrase de passe pour la déchiffrer.";
 
 /* The passphrase does not match the existing password. Strongbox needs the password to match the passphrase to use this SSH Key properly.\n\nContinue to overwrite the current password? */
 "ssh_agent_passphrase_password_mismatch" = "La phrase de passe ne correspond pas au mot de passe existant. Strongbox a besoin que le mot de passe corresponde à la phrase de passe pour utiliser correctement cette clef SSH.\n\nContinuer à écraser le mot de passe actuel ?";
@@ -5785,94 +5785,94 @@
 "storage_provider_name_wifi_sync" = "Wi-Fi Sync";
 
 /* Edits are in progress, so updating is not currently possible. Finish edits on destination Wi-Fi device and try again. */
-"wifi_sync_edits_in_progress_try_again" = "Edits are in progress, so updating is not currently possible. Finish edits on destination Wi-Fi device and try again.";
+"wifi_sync_edits_in_progress_try_again" = "Des modifications sont en cours, donc la mise à jour n'est pas possible actuellement. Terminez les modifications sur l'appareil Wi-Fi de destination puis réessayez.";
 
 /* A sync is in progress, so updating is not currently possible. Allow sync to finish on destination Wi-Fi device and try again. */
-"wifi_sync_sync_in_progress_try_again" = "A sync is in progress, so updating is not currently possible. Allow sync to finish on destination Wi-Fi device and try again.";
+"wifi_sync_sync_in_progress_try_again" = "Une synchronisation est en cours, donc la mise à jour n'est pas possible actuellement. Autorisez la synchronisation à se terminer sur l'appareil Wi-Fi de destination puis réessayez.";
 
 /* Enter new Service Name or leave blank for default */
-"wifi_sync_enter_new_service_name" = "Enter new Service Name or leave blank for default";
+"wifi_sync_enter_new_service_name" = "Entrez le nouveau nom de service ou laissez vide pour la valeur par défaut";
 
 /* Changing the passcode or service name will break any existing connections on other devices. */
-"wifi_sync_change_passcode_warning" = "Changing the passcode or service name will break any existing connections on other devices.";
+"wifi_sync_change_passcode_warning" = "Changer le code d'accès ou le nom du service brisera toutes les connexions existantes à d'autres appareils.";
 
 /* Invalid Passcode */
-"wifi_sync_invalid_passcode" = "Invalid Passcode";
+"wifi_sync_invalid_passcode" = "Code d'accès invalide";
 
 /* Enter New Passcode */
-"wifi_sync_enter_new_passcode" = "Enter New Passcode";
+"wifi_sync_enter_new_passcode" = "Saisir un nouveau code d'accès";
 
 /* For advanced users, connect to your NAS or other personal server anywhere on your network or the Internet via these standard protocols. */
-"select_storage_footer_servers" = "For advanced users, connect to your NAS or other personal server anywhere on your network or the Internet via these standard protocols.";
+"select_storage_footer_servers" = "Pour les utilisateurs avancés, connectez-vous à votre NAS ou autre serveur personnel n'importe où sur votre réseau ou sur Internet via ces protocoles standard.";
 
 /* Use Strongbox's advanced 'Wi-Fi Sync' to stay up to date without the use of a server via Wi-Fi (or any LAN connection). */
-"select_storage_footer_wifi" = "Use Strongbox's advanced 'Wi-Fi Sync' to stay up to date without the use of a server via Wi-Fi (or any LAN connection).";
+"select_storage_footer_wifi" = "Utilisez la fonction avancée \"Wi-Fi Sync\" de Strongbox pour rester à jour sans utiliser de serveur via le Wi-Fi (ou toute connexion LAN).";
 
 /* Connect to your database via the Files app. */
-"select_storage_footer_files_only" = "Connect to your database via the Files app.";
+"select_storage_footer_files_only" = "Connectez-vous à votre base de données via l'application Fichiers.";
 
 /* Connect to your database via the Files app or store your database on this device (don't forget to backup though). */
-"select_storage_footer_files_or_local_device" = "Connect to your database via the Files app or store your database on this device (don't forget to backup though).";
+"select_storage_footer_files_or_local_device" = "Connectez-vous à votre base de données via l'application Fichiers ou stockez votre base de données sur cet appareil (n'oubliez pas de sauvegarder par contre).";
 
 /* Use these methods to transfer a database into Strongbox as a local copy. This does not maintain a connection with any server or sync anywhere after the initial transfer. */
-"select_storage_footer_one_time_copy" = "Use these methods to transfer a database into Strongbox as a local copy. This does not maintain a connection with any server or sync anywhere after the initial transfer.";
+"select_storage_footer_one_time_copy" = "Utilisez ces méthodes pour transférer une base de données dans Strongbox en tant que copie locale. Cela ne maintient pas de connexion avec un serveur ni de synchronisation où que ce soit après le transfert initial.";
 
 /* We've integrated with these popular online drives. These integrations often provide superior sync than using the built-in Files app. */
-"select_storage_footer_third_party" = "We've integrated with these popular online drives. These integrations often provide superior sync than using the built-in Files app.";
+"select_storage_footer_third_party" = "Nous proposons des intégrations avec ces stockages en ligne connus. Ces intégrations fournissent souvent une meilleure synchronisation que celle de l'application Fichiers native.";
 
 /* Servers */
-"select_storage_header_servers" = "Servers";
+"select_storage_header_servers" = "Serveurs";
 
 /* Built-In */
-"select_storage_header_built_in" = "Built-In";
+"select_storage_header_built_in" = "Intégré";
 
 /* One Time Copy Options */
-"select_storage_header_one_time_copy" = "One Time Copy Options";
+"select_storage_header_one_time_copy" = "Options de copie simple";
 
 /* Third Party Integrations */
-"select_storage_header_third_party" = "Third Party Integrations";
+"select_storage_header_third_party" = "Intégrations tierces";
 
 /* Wi-Fi Sync is a Pro feature.\n\nUpgrade now to enjoy. */
-"wifi_sync_pro_feature_notice" = "Wi-Fi Sync is a Pro feature.\n\nUpgrade now to enjoy.";
+"wifi_sync_pro_feature_notice" = "Wi-Fi Sync est une fonctionnalité Pro.\n\nMettez à niveau maintenant pour en profiter.";
 
 /* Allow Local Network Access... */
-"wifi_sync_allow_network_access" = "Allow Local Network Access...";
+"wifi_sync_allow_network_access" = "Autoriser l'accès au réseau local...";
 
 /* Local Network Access Denied */
-"wifi_sync_local_network_access_denied" = "Local Network Access Denied";
+"wifi_sync_local_network_access_denied" = "Accès au réseau local refusé";
 
 /* No Devices Found */
-"wifi_sync_no_devices_found" = "No Devices Found";
+"wifi_sync_no_devices_found" = "Aucun appareil trouvé";
 
 /* Sync in Offline Mode? */
-"manual_pulldown_sync_sync_in_offline_mode_question_title" = "Sync in Offline Mode?";
+"manual_pulldown_sync_sync_in_offline_mode_question_title" = "Synchroniser en mode hors-ligne ?";
 
 /* Would you like to sync even though the database is in Offline mode? */
-"manual_pulldown_sync_sync_in_offline_mode_question_message" = "Would you like to sync even though the database is in Offline mode?";
+"manual_pulldown_sync_sync_in_offline_mode_question_message" = "Voulez-vous synchroniser bien que la base de données soit en mode hors ligne ?";
 
 /* Sync this once */
-"manual_pulldown_sync_sync_in_offline_mode_option_sync_once" = "Sync this once";
+"manual_pulldown_sync_sync_in_offline_mode_option_sync_once" = "Synchroniser cette fois";
 
 /* Always sync when I do this */
-"manual_pulldown_sync_sync_in_offline_mode_option_always" = "Always sync when I do this";
+"manual_pulldown_sync_sync_in_offline_mode_option_always" = "Toujours synchroniser quand je fais ceci";
 
 /* Enter Passcode to Connect */
-"wifi_sync_enter_passcode_to_connect" = "Enter Passcode to Connect";
+"wifi_sync_enter_passcode_to_connect" = "Saisir le code d'accès pour se connecter";
 
 /* Passcode */
-"wifi_sync_passcode_noun" = "Passcode";
+"wifi_sync_passcode_noun" = "Code d'accès";
 
 /* Connect */
-"generic_connect_verb" = "Connect";
+"generic_connect_verb" = "Connecter";
 
 /* Tip */
-"generic_noun_tip_or_advice" = "Tip";
+"generic_noun_tip_or_advice" = "Astuce";
 
 /* You can find the Passcode to '%@' under Strongbox's Wi-Fi Sync Settings on the Source Device. */
-"wifi_sync_tip_find_passcode_in_settings_fmt" = "You can find the Passcode to '%@' under Strongbox's Wi-Fi Sync Settings on the Source Device.";
+"wifi_sync_tip_find_passcode_in_settings_fmt" = "Vous pouvez trouver le code d'accès à '%@' sous l'onglet Réglages de Wi-Fi Sync de Strongbox sur votre Appareil.";
 
 /* Incorrect Passcode */
-"wifi_sync_incorrect_passcode" = "Incorrect Passcode";
+"wifi_sync_incorrect_passcode" = "Code d'accès incorrect";
 
 /* Service Name */
 "wifi_sync_properties_service_name" = "Service Name";
