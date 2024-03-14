@@ -5875,58 +5875,58 @@
 "wifi_sync_incorrect_passcode" = "Code d'accès incorrect";
 
 /* Service Name */
-"wifi_sync_properties_service_name" = "Service Name";
+"wifi_sync_properties_service_name" = "Nom du service";
 
 /* Wi-Fi Sync was stopped because there were too many incorrect passcode attempts. */
-"wifi_sync_too_many_bad_passcode_attempts" = "Wi-Fi Sync was stopped because there were too many incorrect passcode attempts.";
+"wifi_sync_too_many_bad_passcode_attempts" = "Wi-Fi Sync a été arrêté car il y a eu trop de tentatives de saisies incorrectes de code d'accès.";
 
 /* Most Recent (Used until %@) - L10n Note: Header above a previously used password. The 1st parameter is a friend date string, e.g. 'Most Recent Used until 2 February 2023 at 10:31' */
-"password_history_this_password_was_used_until_most_recent_fmt" = "Most Recent (Used until %@)";
+"password_history_this_password_was_used_until_most_recent_fmt" = "Le plus récent (utilisé jusqu'au %@)";
 
 /* Oldest (Used until %@) - L10n Note: Header above a previously used password. The 1st parameter is a friend date string, e.g. 'Oldest Used until 2 February 2023 at 10:31' */
-"password_history_this_password_was_used_until_oldest_fmt" = "Oldest (Used until %@)";
+"password_history_this_password_was_used_until_oldest_fmt" = "Le plus ancien (utilisé jusqu'au %@)";
 
 /* Excluded - L10n Note: Header for a list of excluded items, or a navigation item or side bar item that will show a list of excluded items */
-"nav_excluded_items" = "Excluded";
+"nav_excluded_items" = "Exclu(s)";
 
 /* Passphrase Performance Issues */
-"ssh_key_agent_passphrase_perf_problem_prompt_title" = "Passphrase Performance Issues";
+"ssh_key_agent_passphrase_perf_problem_prompt_title" = "Problèmes de performance de la phrase de passe";
 
 /* To avoid performance problems, it is best to store this SSH key without the extra passphrase encryption layer.\nNB: Your SSH key is still securely protected by KeePass encryption.\n\nIs it OK if Strongbox stores this SSH key in an optimized fashion? */
-"ssh_key_agent_passphrase_perf_problem_prompt_message" = "To avoid performance problems, it is best to store this SSH key without the extra passphrase encryption layer.\n\nNB: Your SSH key will still be securely encrypted.\n\nIs it OK if Strongbox stores this SSH key in an optimized fashion?";
+"ssh_key_agent_passphrase_perf_problem_prompt_message" = "Pour éviter les problèmes de performance, il est préférable de stocker cette clé SSH sans la couche supplémentaire de chiffrement via la phrase de passe.\n\nNB : Votre clé SSH sera toujours chiffrée de manière sécurisée.\n\nÊtes-vous d'accord pour que Strongbox stocke cette clé SSH de manière optimisée ?";
 
 /* Yes, that's a great idea */
-"ssh_key_agent_passphrase_perf_problem_prompt_option_yes" = "Yes, that's a great idea";
+"ssh_key_agent_passphrase_perf_problem_prompt_option_yes" = "Oui, excellente idée";
 
 /* Lock - L10n Note: This is a verb or action. To "Lock" a database */
-"generic_verb_lock_action" = "Lock";
+"generic_verb_lock_action" = "Verrouiller";
 
 /* Include in Audit */
-"action_include_items_in_audit_verb" = "Include in Audit";
+"action_include_items_in_audit_verb" = "Inclure dans l'audit";
 
 /* Exclude from Audit */
-"action_exclude_items_from_audit_verb" = "Exclude from Audit";
+"action_exclude_items_from_audit_verb" = "Exclure de l'audit";
 
 /* Suggest in AutoFill */
-"action_suggest_items_in_autofill_verb" = "Suggest in AutoFill";
+"action_suggest_items_in_autofill_verb" = "Suggérer dans le remplissage automatique";
 
 /* Do not suggest in AutoFill */
-"action_do_not_suggest_items_in_autofill_verb" = "Do not suggest in AutoFill";
+"action_do_not_suggest_items_in_autofill_verb" = "Ne pas suggérer dans le remplissage automatique";
 
 /* Import Warning */
-"generic_import_warning_title" = "Import Warning";
+"generic_import_warning_title" = "Avertissement sur l'importation";
 
 /* The import process may not be perfect and some features may not be available in Strongbox.\n\nIt is important to examine your database after the import. */
-"generic_import_warning_msg" = "The import process may not be perfect and some features may not be available in Strongbox.\n\nIt is important to examine your database after the import.";
+"generic_import_warning_msg" = "Il se peut que le processus d'importation ne soit pas parfait, et que certaines fonctionnalités ne soient pas disponibles dans Strongbox.\n\nIl est important d'examiner votre base de données après l'importation.";
 
 /* Import Enpass */
-"safes_vc_import_enpass" = "Import from Enpass";
+"safes_vc_import_enpass" = "Importer depuis Enpass";
 
 /* Strongbox can import JSON files. Tap OK to select your exported JSON file. */
-"safes_vc_import_json_message" = "Strongbox can import JSON files. Tap OK to select your exported JSON file.";
+"safes_vc_import_json_message" = "Strongbox peut importer des fichiers JSON. Appuyez sur OK pour sélectionner votre fichier JSON exporté.";
 
 /* Import Bitwarden */
-"safes_vc_import_bitwarden" = "Import from Bitwarden";
+"safes_vc_import_bitwarden" = "Importer depuis Bitwarden";
 
 /* Enpass (JSON) */
 "safes_vc_import_enpass_json" = "Enpass (JSON)";
@@ -5935,16 +5935,16 @@
 "safes_vc_import_bitwarden_json" = "Bitwarden (JSON)";
 
 /* Advanced Passcode (Alphanumeric) */
-"advanced_passcode_alphanumeric" = "Advanced Passcode (Alphanumeric)";
+"advanced_passcode_alphanumeric" = "Code d'accès avancé (alphanumérique)";
 
 /* On My Mac */
-"add_database_on_my_mac" = "On My Mac";
+"add_database_on_my_mac" = "Sur mon Mac";
 
 /* A passcode is required on other devices to connect to this device. */
-"wifi_sync_change_passcode_message" = "A passcode is required on other devices to connect to this device.";
+"wifi_sync_change_passcode_message" = "Un code d'accès est requis sur d'autres appareils pour se connecter à cet appareil.";
 
 /* This is the name of this device as appears to others on the network. */
-"wifi_sync_change_service_name_message" = "This is the name of this device as appears to others on the network.";
+"wifi_sync_change_service_name_message" = "Il s'agit du nom de l'appareil tel qu'il apparaît aux autres sur le réseau.";
 
 /* Item is not Searchable - L10n Note: Indicates that a particular item is not searchable because it is contained in a group which is marked as not searchable */
-"item_is_not_searchable" = "Item is not searchable";
+"item_is_not_searchable" = "L'élément n'est pas cherchable";
