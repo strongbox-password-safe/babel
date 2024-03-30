@@ -1370,7 +1370,7 @@
 "open_sequence_biometric_unlock_warn_not_configured_fmt" = "%@ selhalo: %@.\n\nMůžete zkoušení znovu zrušit nebo zvolit odemčení ručně.";
 
 /* Could not read Key File. Has it been moved or deleted? Check Key Files Management in Settings */
-"open_sequence_error_reading_key_file" = "Could not read Key File. Has it been moved or deleted? Check Key Files Management in Settings";
+"open_sequence_error_reading_key_file" = "Soubor s klíčem se nepodařilo přečíst. Byl přesunut nebo smazán? Zkontrolujte správu klíčových souborů v nastavení";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc, 2nd param is the date/time of the last cache) */
 "open_sequence_user_looks_offline_open_offline_instead_fmt" = "Vypadá to, že můžete být offline a '%@' nemusí být dosažitelný. Chcete místo toho použít databázi z offline cache v režimu pouze pro čtení?\n\nPoslední v cache: %@";
@@ -1821,7 +1821,7 @@
 "safes_vc_action_backups" = "Zálohy";
 
 /* Could not read Key File. Has it been imported properly? Check Key Files Management in Settings */
-"open_sequence_error_reading_key_file_autofill_context" = "Could not read Key File. Has it been imported properly? Check Key Files Management in Settings";
+"open_sequence_error_reading_key_file_autofill_context" = "Soubor s klíčem se nepodařilo přečíst. Byl importován správně? Zkontrolujte správu klíčových souborů v nastavení";
 
 /* Transfer over Wi-Fi (or LAN) */
 "sspc_local_network_storage_location" = "Přenos přes Wi-Fi (nebo LAN)";
@@ -2206,7 +2206,7 @@
 "favicon_invalid_preferences_alert_title" = "Neplatné nastavení FavIcon";
 
 /* This set of preferences will not produce valid FavIcon results. */
-"favicon_invalid_preferences_alert_message" = "These settings will not produce valid FavIcon results.";
+"favicon_invalid_preferences_alert_message" = "Tato nastavení nepovedou k platným výsledkům FavIcon.";
 
 /* Unlock with %@ or Watch */
 "mac_unlock_database_with_biometric_fmt" = "Odemknout pomocí %@ nebo Watch";
@@ -2574,7 +2574,7 @@
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "Jste si jistí, že chcete odebrat vlastní pole '%@'?";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Jste si jistí, že chcete odebrat vlastní pole '%@'?";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
 
 /* Add Custom Field */
 "mac_node_details_add_custom_field" = "Přidat vlastní pole";
@@ -3173,7 +3173,7 @@
 "audit_manual_pwn_check_result_not_pwned" = "Vaše heslo NEBYLO pwned a je pravděpodobně bezpečné.";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Manual HIBP Result";
+"audit_manual_pwn_check_result_title" = "Výsledek manuálního HIBP";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "Toto heslo je pwned a je tedy zranitelné";
@@ -3245,7 +3245,7 @@
 "generic_biometric_unlock_fmt" = "%@ odemknout";
 
 /* By default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Settings > Advanced.\n\nDoes this sound ok? */
-"backup_settings_prompt_message" = "By default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Settings > Advanced.\n\nDoes this sound ok?";
+"backup_settings_prompt_message" = "Ve výchozím nastavení Strongbox zahrnuje všechny místní soubory (včetně záloh databází) a místní databáze zařízení do záloh Apple tohoto zařízení. Importované soubory klíčů však z bezpečnostních důvodů výslovně zahrnuty nejsou.\n\nToto nastavení můžete kdykoli změnit v nabídce Nastavení > Rozšířené.\n\nZní to v pořádku?";
 
 /* Backup Settings */
 "backup_settings_prompt_title" = "Nastavení zálohování";
@@ -3368,7 +3368,7 @@
 "sftp_path_are_you_sure" = "Jste si jisti, že je cesta správná? Měla by to být cesta pro nadřazenou složku, ne na databázový soubor.";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Are you sure the path is correct? It should be a path to a parent folder. Not the database file.";
+"sftp_path_are_you_sure" = "Jste si jisti, že je cesta správná? Měla by to být cesta pro nadřazenou složku, ne na databázový soubor.";
 
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "Cesta může být neplatná";
@@ -3635,7 +3635,7 @@
 "merge_view_are_you_sure" = "Opravdu chcete sloučit druhou databázi do první?";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Are you sure you want to merge the second database into the first?";
+"merge_view_are_you_sure" = "Opravdu chcete sloučit druhou databázi do první?";
 
 /* Merge Successful */
 "merge_view_merge_title_success" = "Sloučení bylo úspěšné";
@@ -5462,7 +5462,7 @@
 "ssh_agent_overwrite_password" = "Přepsat heslo?";
 
 /* This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt. */
-"ssh_agent_sshkey_please_enter_passphrase_msg" = "This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt.";
+"ssh_agent_sshkey_please_enter_passphrase_msg" = "Tento klíč SSH je chráněn heslem.\n\nPro dešifrování zadejte prosím přístupovou frázi.";
 
 /* The passphrase does not match the existing password. Strongbox needs the password to match the passphrase to use this SSH Key properly.\n\nContinue to overwrite the current password? */
 "ssh_agent_passphrase_password_mismatch" = "Přístupová fráze neodpovídá existujícímu heslu. Strongbox potřebuje heslo, aby odpovídalo přístupové frázi, aby mohl správně použít tento SSH klíč.\n\nPokračovat v přepsání aktuálního hesla?";
@@ -5869,7 +5869,7 @@
 "generic_noun_tip_or_advice" = "Tip";
 
 /* You can find the Passcode to '%@' under Strongbox's Wi-Fi Sync Settings on the Source Device. */
-"wifi_sync_tip_find_passcode_in_settings_fmt" = "You can find the Passcode to '%@' under Strongbox's Wi-Fi Sync Settings on the Source Device.";
+"wifi_sync_tip_find_passcode_in_settings_fmt" = "Přístupový kód k '%@' najdete na kartě Nastavení synchronizace Wi-Fi služby Strongbox v počítači Mac.";
 
 /* Incorrect Passcode */
 "wifi_sync_incorrect_passcode" = "Nesprávný přístupový kód";
@@ -5890,40 +5890,40 @@
 "nav_excluded_items" = "Vyloučeno";
 
 /* Passphrase Performance Issues */
-"ssh_key_agent_passphrase_perf_problem_prompt_title" = "Passphrase Performance Issues";
+"ssh_key_agent_passphrase_perf_problem_prompt_title" = "Problémy s výkonem přístupové fráze";
 
 /* To avoid performance problems, it is best to store this SSH key without the extra passphrase encryption layer.\nNB: Your SSH key is still securely protected by KeePass encryption.\n\nIs it OK if Strongbox stores this SSH key in an optimized fashion? */
-"ssh_key_agent_passphrase_perf_problem_prompt_message" = "To avoid performance problems, it is best to store this SSH key without the extra passphrase encryption layer.\n\nNB: Your SSH key will still be securely encrypted.\n\nIs it OK if Strongbox stores this SSH key in an optimized fashion?";
+"ssh_key_agent_passphrase_perf_problem_prompt_message" = "Abychom se vyhnuli problémům s výkonem, je nejlepší uložit tento SSH klíč bez dodatečné přístupové fráze.\n\nPozn.: Váš SSH klíč bude stále bezpečně šifrován.\n\nJe OK pokud Strongbox uloží tento klíč SSH optimalizovaným způsobem?";
 
 /* Yes, that's a great idea */
-"ssh_key_agent_passphrase_perf_problem_prompt_option_yes" = "Yes, that's a great idea";
+"ssh_key_agent_passphrase_perf_problem_prompt_option_yes" = "Ano, je to skvělý nápad";
 
 /* Lock - L10n Note: This is a verb or action. To "Lock" a database */
 "generic_verb_lock_action" = "Zamknout";
 
 /* Include in Audit */
-"action_include_items_in_audit_verb" = "Include in Audit";
+"action_include_items_in_audit_verb" = "Zahrnout do auditu";
 
 /* Exclude from Audit */
-"action_exclude_items_from_audit_verb" = "Exclude from Audit";
+"action_exclude_items_from_audit_verb" = "Vyloučit z auditu";
 
 /* Suggest in AutoFill */
-"action_suggest_items_in_autofill_verb" = "Suggest in AutoFill";
+"action_suggest_items_in_autofill_verb" = "Navrhnout při automatickém vyplňování";
 
 /* Do not suggest in AutoFill */
-"action_do_not_suggest_items_in_autofill_verb" = "Do not suggest in AutoFill";
+"action_do_not_suggest_items_in_autofill_verb" = "Nenavrhovat v automatickém vyplňování";
 
 /* Import Warning */
-"generic_import_warning_title" = "Import Warning";
+"generic_import_warning_title" = "Upozornění na import";
 
 /* The import process may not be perfect and some features may not be available in Strongbox.\n\nIt is important to examine your database after the import. */
-"generic_import_warning_msg" = "The import process may not be perfect and some features may not be available in Strongbox.\n\nIt is important to examine your database after the import.";
+"generic_import_warning_msg" = "Proces importu nemusí být dokonalý a některé funkce nemusí být v aplikaci Strongbox k dispozici.\n\nJe důležité, abyste po importu zkontrolovali svou databázi.";
 
 /* Import Enpass */
 "safes_vc_import_enpass" = "Importovat z Enpass";
 
 /* Strongbox can import JSON files. Tap OK to select your exported JSON file. */
-"safes_vc_import_json_message" = "Strongbox can import JSON files. Tap OK to select your exported JSON file.";
+"safes_vc_import_json_message" = "Strongbox umí importovat soubory JSON. Klepnutím na OK vyberte exportovaný soubor JSON.";
 
 /* Import Bitwarden */
 "safes_vc_import_bitwarden" = "Importovat z Bitwarden";
@@ -5935,16 +5935,97 @@
 "safes_vc_import_bitwarden_json" = "Bitwarden (JSON)";
 
 /* Advanced Passcode (Alphanumeric) */
-"advanced_passcode_alphanumeric" = "Advanced Passcode (Alphanumeric)";
+"advanced_passcode_alphanumeric" = "Rozšířený přístupový kód (alfanumerický)";
 
 /* On My Mac */
-"add_database_on_my_mac" = "On My Mac";
+"add_database_on_my_mac" = "Na mém Macu";
 
 /* A passcode is required on other devices to connect to this device. */
-"wifi_sync_change_passcode_message" = "A passcode is required on other devices to connect to this device.";
+"wifi_sync_change_passcode_message" = "Pro připojení k tomuto zařízení je na jiných zařízeních vyžadován přístupový kód.";
 
 /* This is the name of this device as appears to others on the network. */
-"wifi_sync_change_service_name_message" = "This is the name of this device as appears to others on the network.";
+"wifi_sync_change_service_name_message" = "Toto je název tohoto zařízení, který se zobrazuje ostatním v síti.";
 
 /* Item is not Searchable - L10n Note: Indicates that a particular item is not searchable because it is contained in a group which is marked as not searchable */
-"item_is_not_searchable" = "Item is not searchable";
+"item_is_not_searchable" = "Položka není hledatelná";
+
+/* Recover Key File */
+"recover_key_file_title" = "Recover Key File";
+
+/* Enter your recovery codes below to recover your key file. If you also have the Hash then Strongbox can verify you've entered the codes correctly. */
+"recover_key_file_enter_codes" = "Enter your recovery codes below to recover your key file. If you also have the Hash then Strongbox can verify you've entered the codes correctly.";
+
+/* Data (Hex Codes) */
+"recover_key_file_data_hex_codes" = "Data (Hex Codes)";
+
+/* Hash (Optional) */
+"recover_key_file_hash_optional_title" = "Hash (Optional)";
+
+/* Valid Hash */
+"recover_key_file_valid_hash" = "Valid Hash";
+
+/* Invalid Hash */
+"recover_key_file_invalid_hash" = "Invalid Hash";
+
+/* Key File Ready */
+"new_key_file_ready" = "Key File Ready";
+
+/* Your new key file has been generated and is ready to use. */
+"new_key_file_is_ready_desc" = "Your new key file has been generated and is ready to use.";
+
+/* Next Steps */
+"new_key_file_next_steps" = "Next Steps";
+
+/* 1. Print Recovery Sheet */
+"new_key_file_step1_title" = "1. Print Recovery Sheet";
+
+/* We recommend you print a recovery sheet now. Alternatively, you can view the hex codes and take note of them somewhere safe. */
+"new_key_file_step1_message" = "We recommend you print a recovery sheet now. Alternatively, you can view the hex codes and take note of them somewhere safe.";
+
+/* Hash */
+"key_file_hash_title" = "Hash";
+
+/* Hex Codes */
+"key_file_hex_codes" = "Hex Codes";
+
+/* Print Recovery Sheet */
+"new_key_file_print_recovery" = "Print Recovery Sheet";
+
+/* Hide Hex Codes */
+"new_key_file_hide_hex_codes" = "Hide Hex Codes";
+
+/* Show Hex Codes */
+"new_key_file_show_hex_codes" = "Show Hex Codes";
+
+/* 2. Save Key File */
+"new_key_file_step2_save_key_file_title" = "2. Save Key File";
+
+/* Save your new key file somewhere safe and secure. */
+"new_key_file_step2_save_key_file_message" = "Save your new key file somewhere safe and secure.";
+
+/* Save Key File */
+"new_key_file_save_key_file" = "Save Key File";
+
+/* Import Key File... */
+"kfm_import_key_file_ellipsis" = "Import Key File...";
+
+/* Create New Key File... */
+"kfm_create_new_key_file_ellipsis" = "Create New Key File...";
+
+/* Recover Key File... */
+"kfm_recover_key_file_ellipsis" = "Recover Key File...";
+
+/* Single Use (No Import) */
+"kfm_single_use_key_file_ellipsis" = "Single Use (No Import)";
+
+/* Key File Saved */
+"kfm_key_file_saved_title" = "Key File Saved";
+
+/* Your new key file was successfully saved.\n\nWould you like to import it into Strongbox now? */
+"kfm_key_file_saved_import_now_question" = "Your new key file was successfully saved.\n\nWould you like to import it into Strongbox now?";
+
+/* %@ on '%@' - %@ */
+"wifi_sync_storage_location_title_fmt" = "%@ on '%@' - %@";
+
+/* New Key File */
+"new_key_file" = "New Key File";
