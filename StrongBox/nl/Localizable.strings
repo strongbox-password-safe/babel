@@ -1370,7 +1370,7 @@
 "open_sequence_biometric_unlock_warn_not_configured_fmt" = "%@ is mislukt: %@.\n\nU kunt annuleren om het opnieuw te proberen of ervoor kiezen om handmatig te ontgrendelen.";
 
 /* Could not read Key File. Has it been moved or deleted? Check Key Files Management in Settings */
-"open_sequence_error_reading_key_file" = "Could not read Key File. Has it been moved or deleted? Check Key Files Management in Settings";
+"open_sequence_error_reading_key_file" = "Sleutelbestand kan niet worden gelezen. Is deze verplaatst of verwijderd? Controleer Beheer van sleutelbestanden in Instelling";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc, 2nd param is the date/time of the last cache) */
 "open_sequence_user_looks_offline_open_offline_instead_fmt" = "Je lijkt offline, mogelijk is '%@' niet bereikbaar. Wil je in plaats daarvan een alleen-lezen offline cacheversie gebruiken van deze database?\n\nLaatst gecachet: %@";
@@ -1716,10 +1716,10 @@
 "keepass_history_tip" = "Tip: Veeg naar links voor opties of tik om te bekijken";
 
 /* Favorite */
-"browse_vc_action_pin" = "Favorite";
+"browse_vc_action_pin" = "Voeg toe als favoriet";
 
 /* Un-Favorite */
-"browse_vc_action_unpin" = "Un-Favorite";
+"browse_vc_action_unpin" = "Haal weg als favoriet";
 
 /* Section Header Title for Expired Items */
 "browse_vc_section_title_expired" = "Verlopen";
@@ -1728,7 +1728,7 @@
 "browse_vc_section_title_nearly_expired" = "Bijna verlopen";
 
 /* Section Header Title for Favorite Items */
-"browse_vc_section_title_pinned" = "Favorites";
+"browse_vc_section_title_pinned" = "Favorieten";
 
 /* Section Header Title for Recent Items */
 "browse_vc_section_title_recents" = "Recente onderdelen";
@@ -1821,7 +1821,7 @@
 "safes_vc_action_backups" = "Reservekopieën";
 
 /* Could not read Key File. Has it been imported properly? Check Key Files Management in Settings */
-"open_sequence_error_reading_key_file_autofill_context" = "Could not read Key File. Has it been imported properly? Check Key Files Management in Settings";
+"open_sequence_error_reading_key_file_autofill_context" = "Sleutelbestand kan niet worden gelezen. Is deze goed geïmporteerd? Controleer Beheer van sleutelbestanden in Instellingen";
 
 /* Transfer over Wi-Fi (or LAN) */
 "sspc_local_network_storage_location" = "Overdracht via Wi-Fi (of LAN)";
@@ -1830,7 +1830,7 @@
 "storage_provider_status_reading" = "Lezen...";
 
 /* Identify to Open Settings */
-"open_sequence_biometric_unlock_preferences_message" = "Identify to Open Settings";
+"open_sequence_biometric_unlock_preferences_message" = "Verifieer om Instellingen te openen";
 
 /* Message to display when device is offline and has no IP address in Local HTTP Transfer - Select Storage -> Transfer over Local Network */
 "transfer_local_network_network_unavailable_message" = "Je lijkt offline?";
@@ -2206,7 +2206,7 @@
 "favicon_invalid_preferences_alert_title" = "Ongeldige FavIcon-instellingen";
 
 /* This set of preferences will not produce valid FavIcon results. */
-"favicon_invalid_preferences_alert_message" = "These settings will not produce valid FavIcon results.";
+"favicon_invalid_preferences_alert_message" = "Deze combinatie van instellingen levert geen geldige FavIcon-resultaten op.";
 
 /* Unlock with %@ or Watch */
 "mac_unlock_database_with_biometric_fmt" = "Ontgrendel met %@ of Apple Watch";
@@ -2574,7 +2574,7 @@
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "Weet je zeker dat je het eigen veld '%@' wilt verwijderen?";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Weet je zeker dat je het eigen veld '%@' wilt verwijderen?";
 
 /* Add Custom Field */
 "mac_node_details_add_custom_field" = "Voeg eigen veld toe";
@@ -3245,7 +3245,7 @@
 "generic_biometric_unlock_fmt" = "Ontgrendel met %@";
 
 /* By default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Settings > Advanced.\n\nDoes this sound ok? */
-"backup_settings_prompt_message" = "By default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Settings > Advanced.\n\nDoes this sound ok?";
+"backup_settings_prompt_message" = "Standaard neemt Strongbox alle lokale bestanden (inclusief reservekopieën van databases) en lokale databases mee in Apple-reservekopieën van dit apparaat. Geïmporteerde sleutelbestanden worden om veiligheidsredenen echter expliciet niet opgenomen.\n\nWijzig dit op elk gewenst moment in Instellingen > Geavanceerd.\n\nIs dit goed?";
 
 /* Backup Settings */
 "backup_settings_prompt_title" = "Reservekopie-instellingen";
@@ -5462,7 +5462,7 @@
 "ssh_agent_overwrite_password" = "Wachtwoord overschrijven?";
 
 /* This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt. */
-"ssh_agent_sshkey_please_enter_passphrase_msg" = "This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt.";
+"ssh_agent_sshkey_please_enter_passphrase_msg" = "Deze SSH-sleutel is beveiligd met een wachtwoordzin.\n\nVoer de wachtwoordzin in om te ontsleutelen.";
 
 /* The passphrase does not match the existing password. Strongbox needs the password to match the passphrase to use this SSH Key properly.\n\nContinue to overwrite the current password? */
 "ssh_agent_passphrase_password_mismatch" = "De wachtwoordzin komt niet overeen met het bestaande wachtwoord. Strongbox heeft het wachtwoord nodig om deze SSH sleutel correct te gebruiken.\n\nDoorgaan met het overschrijven van het huidige wachtwoord?";
@@ -5806,7 +5806,7 @@
 "select_storage_footer_servers" = "Voor gevorderde gebruikers: maak via deze standaardprotocollen verbinding met uw NAS of andere persoonlijke server overal in uw netwerk of op het internet.";
 
 /* Use Strongbox's advanced 'Wi-Fi Sync' to stay up to date without the use of a server via Wi-Fi (or any LAN connection). */
-"select_storage_footer_wifi" = "Gebruik de geavanceerde 'Wi-Fi Sync' van Strongbox om up-to-date te blijven zonder het gebruik van een server via Wi-Fi (of een LAN-verbinding).";
+"select_storage_footer_wifi" = "Gebruik de geavanceerde Strongbox-functie 'Wi-Fi-synchronisatie' om up-to-date te blijven zonder gebruik te maken van een server via Wi-Fi (of een LAN-verbinding).";
 
 /* Connect to your database via the Files app. */
 "select_storage_footer_files_only" = "Maak verbinding met je database via de Bestanden-app.";
@@ -5869,7 +5869,7 @@
 "generic_noun_tip_or_advice" = "Tip";
 
 /* You can find the Passcode to '%@' under Strongbox's Wi-Fi Sync Settings on the Source Device. */
-"wifi_sync_tip_find_passcode_in_settings_fmt" = "You can find the Passcode to '%@' under Strongbox's Wi-Fi Sync Settings on the Source Device.";
+"wifi_sync_tip_find_passcode_in_settings_fmt" = "Je vindt de toegangscode voor '%@' op het Instellingen-tabblad Wi-Fi-synchronisatie van Strongbox op het bronapparaat.";
 
 /* Incorrect Passcode */
 "wifi_sync_incorrect_passcode" = "Onjuiste toegangscode";
@@ -5881,31 +5881,31 @@
 "wifi_sync_too_many_bad_passcode_attempts" = "Wi-Fi Sync is gestopt omdat er te veel onjuiste toegangscode-pogingen waren.";
 
 /* Most Recent (Used until %@) - L10n Note: Header above a previously used password. The 1st parameter is a friend date string, e.g. 'Most Recent Used until 2 February 2023 at 10:31' */
-"password_history_this_password_was_used_until_most_recent_fmt" = "Most Recent (Used until %@)";
+"password_history_this_password_was_used_until_most_recent_fmt" = "Meest recent (gebruikt tot %@)";
 
 /* Oldest (Used until %@) - L10n Note: Header above a previously used password. The 1st parameter is a friend date string, e.g. 'Oldest Used until 2 February 2023 at 10:31' */
-"password_history_this_password_was_used_until_oldest_fmt" = "Oldest (Used until %@)";
+"password_history_this_password_was_used_until_oldest_fmt" = "Oudste (gebruikt tot %@)";
 
 /* Excluded - L10n Note: Header for a list of excluded items, or a navigation item or side bar item that will show a list of excluded items */
-"nav_excluded_items" = "Excluded";
+"nav_excluded_items" = "Uitgesloten";
 
 /* Passphrase Performance Issues */
-"ssh_key_agent_passphrase_perf_problem_prompt_title" = "Passphrase Performance Issues";
+"ssh_key_agent_passphrase_perf_problem_prompt_title" = "Prestatieproblemen met wachtwoordzin";
 
 /* To avoid performance problems, it is best to store this SSH key without the extra passphrase encryption layer.\nNB: Your SSH key is still securely protected by KeePass encryption.\n\nIs it OK if Strongbox stores this SSH key in an optimized fashion? */
-"ssh_key_agent_passphrase_perf_problem_prompt_message" = "To avoid performance problems, it is best to store this SSH key without the extra passphrase encryption layer.\n\nNB: Your SSH key will still be securely encrypted.\n\nIs it OK if Strongbox stores this SSH key in an optimized fashion?";
+"ssh_key_agent_passphrase_perf_problem_prompt_message" = "Om prestatieproblemen te voorkomen, kun je het beste deze SSH-sleutel bewaren zonder de extra versleutelingslaag die een wachtwoordzin biedt.\n\nOpmerking: je SSH-sleutel zal nog steeds veilig versleuteld zijn.\n\nIs het goed als Strongbox deze SSH-sleutel op een geoptimaliseerde manier bewaart?";
 
 /* Yes, that's a great idea */
-"ssh_key_agent_passphrase_perf_problem_prompt_option_yes" = "Yes, that's a great idea";
+"ssh_key_agent_passphrase_perf_problem_prompt_option_yes" = "Ja, dat is een geweldig idee";
 
 /* Lock - L10n Note: This is a verb or action. To "Lock" a database */
-"generic_verb_lock_action" = "Lock";
+"generic_verb_lock_action" = "Vergrendel";
 
 /* Include in Audit */
-"action_include_items_in_audit_verb" = "Include in Audit";
+"action_include_items_in_audit_verb" = "Neem op in controle";
 
 /* Exclude from Audit */
-"action_exclude_items_from_audit_verb" = "Exclude from Audit";
+"action_exclude_items_from_audit_verb" = "Sluit uit van controle";
 
 /* Suggest in AutoFill */
 "action_suggest_items_in_autofill_verb" = "Suggest in AutoFill";
