@@ -71,7 +71,7 @@
 "safes_vc_are_you_sure_remove_database_fmt" = "Ви справді хочете вилучити базу паролів зі Strongbox?%@";
 
 /* extra info appended to string about the underlying storage type */
-"safes_vc_extra_info_underlying_database" = " (Примітка: Основний файл бази паролів не буде видалений)";
+"safes_vc_extra_info_underlying_database" = " (Примітка: основний файл бази паролів не буде видалений)";
 
 /* Error message - could not delete iCloud database */
 "safes_vc_error_delete_icloud_database" = "Помилка видалення бази паролів iCloud";
@@ -138,13 +138,13 @@
 "safesvc_icloud_no_longer_available_message" = "iCloud став недоступним. Ваша база паролів з iCloud залишається збереженою в iCloud, але вона більше не синхронізується з цим пристроєм, однак все ще доступна на пристрої.";
 
 /* You can now use iCloud with Strongbox. Should your current local databases be migrated to iCloud and available on all your devices? (NB: Your existing cloud databases will not be affected) */
-"safesvc_migrate_local_existing" = "Тепер ви можете використовувати iCloud із Strongbox. Мігрувати поточну локальну базу даних в iCloud для доступу на інших пристроях? (Примітка: Ваші наявні бази даних в хмарному сховищі не будуть змінені)";
+"safesvc_migrate_local_existing" = "Тепер ви можете використовувати iCloud із Strongbox. Перенести поточну локальну базу даних в iCloud для доступу на інших пристроях? (Примітка: ваші наявні бази даних у хмарному сховищі не будуть змінені)";
 
 /* You can now use iCloud with Strongbox. Should your current local databases be migrated to iCloud and available on all your devices? */
 "safesvc_migrate_local_no_existing" = "Тепер ви можете використовувати iCloud із Strongbox. Мігрувати поточну локальну базу даних в iCloud для доступу на інших пристроях?";
 
 /* Would you like the option to use iCloud with Strongbox? (NB: Your existing cloud databases will not be affected) */
-"safesvc_use_icloud_question_existing" = "Ви б хотіли мати можливість використовувати iCloud із Strongbox? (Примітка: Ваші наявні бази даних в хмарному сховищі не будуть змінені)";
+"safesvc_use_icloud_question_existing" = "Бажаєте використовувати iCloud зі Strongbox? (Примітка: ваші наявні бази даних у хмарному сховищі не будуть змінені)";
 
 /* You can now use iCloud with Strongbox. Would you like to have your databases available on all your devices? */
 "safesvc_use_icloud_question_no_existing" = "Тепер ви можете використовувати iCloud із Strongbox. Бажаєте мати доступ до своїх баз паролів на інших пристроях?";
@@ -375,7 +375,7 @@
 "browse_vc_group_path_string_fmt" = "(%@)";
 
 /* '%@': No TOTP setup to Copy! */
-"browse_vc_no_totp_to_copy_fmt" = "'%@': TOTP не налаштовано для копії!";
+"browse_vc_no_totp_to_copy_fmt" = "'%@': TOTP не налаштовано для копіювання!";
 
 /* '%@' Notes Copied  - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
 "browse_vc_notes_copied_fmt" = "'%@' Нотатки скопійовано";
@@ -711,7 +711,7 @@
 "prefs_vc_info_data_deletion_care_required_message" = "Будьте надмірно обережними, тому що ця дія призведе до остаточного видалення будь-яких локальних баз даних з їхніми налаштуваннями.";
 
 /* DATA DELETION: Care Required */
-"prefs_vc_info_data_deletion_care_required_title" = "ОБЕРЕЖНО: Видалення даних";
+"prefs_vc_info_data_deletion_care_required_title" = "ОБЕРЕЖНО: видалення даних";
 
 /* It looks like email is not setup on this device.\n\nContact support@strongboxsafe.com for help. */
 "prefs_vc_info_email_not_available_message" = "Схоже, на цьому пристрої не налаштовано електронну пошту.\n\nЗв'яжіться з support@strongboxsafe.com для отримання допомоги.";
@@ -1413,22 +1413,22 @@
 "open_sequence_prompt_use_convenience_both_title_fmt" = "Зручне відмикання: %@ чи ПІН?";
 
 /* You can use either %@ or a convenience PIN Code to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use one of these methods, please select from below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
-"open_sequence_prompt_use_convenience_both_message_fmt" = "Ви можете використовувати %@ або ПІН для відімкнення бази паролів. Попри зручність, це може знизити рівень захисту бази паролів на цьому пристрої. Якщо ви бажаєте використовувати один з цих способів, оберіть внизу, або оберіть НІ, щоб продовжити використовувати головний пароль.\n\n*Важливо: Ви повинні ЗАВЖДИ пам'ятати свій головний пароль";
+"open_sequence_prompt_use_convenience_both_message_fmt" = "Ви можете використовувати %@ або ПІН для відімкнення бази паролів. Попри зручність, це може знизити рівень захисту бази паролів на цьому пристрої. Якщо ви бажаєте використовувати один з цих способів, оберіть внизу, або оберіть НІ, щоб продовжити використовувати головний пароль.\n\n*Важливо: ви повинні ЗАВЖДИ пам'ятати свій головний пароль";
 
 /* Convenience Unlock: Use %@ to Unlock in Future? */
-"open_sequence_prompt_use_convenience_bio_title_fmt" = "Зручне відмикання: Використовувати %@ в майбутньому?";
+"open_sequence_prompt_use_convenience_bio_title_fmt" = "Зручне відмикання: використовувати %@ в майбутньому?";
 
 /* You can use %@ to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use this then please select it below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
-"open_sequence_prompt_use_convenience_bio_message_fmt" = "Ви можете використовувати %@ для відімкнення бази паролів. Попри зручність, це може знизити рівень безпеки бази паролів на цьому пристрої. Якщо ви бажаєте використовувати цей спосіб, оберіть його внизу, або оберіть НІ, щоб продовжити використовувати головний пароль.\n\n*Важливо: Ви повинні ЗАВЖДИ пам'ятати свій головний пароль";
+"open_sequence_prompt_use_convenience_bio_message_fmt" = "Ви можете використовувати %@ для відімкнення бази паролів. Попри зручність, це може знизити рівень безпеки бази паролів на цьому пристрої. Якщо ви бажаєте використовувати цей спосіб, оберіть його внизу, або оберіть НІ, щоб продовжити використовувати головний пароль.\n\n*Важливо: ви повинні ЗАВЖДИ пам'ятати свій головний пароль";
 
 /* Convenience Unlock: Use a PIN Code to Unlock in Future? */
-"open_sequence_prompt_use_convenience_pin_title" = "Зручне відмикання: Використовувати ПІН в майбутньому?";
+"open_sequence_prompt_use_convenience_pin_title" = "Зручне відмикання: використовувати ПІН у майбутньому?";
 
 /* You can use a convenience PIN Code to unlock this database. While this is convenient, it may reduce the security of the database on this device. If you would like to use this then please select it below or select No to continue using your master password.\n\n*Important: You must ALWAYS remember your master password */
-"open_sequence_prompt_use_convenience_pin_message" = "Ви можете використовувати ПІН для відімкнення бази паролів. Попри зручність, це може знизити рівень безпеки бази паролів на цьому пристрої. Якщо ви бажаєте використовувати цей спосіб, оберіть його внизу, або оберіть НІ, щоб продовжити використовувати головний пароль.\n\n*Важливо: Ви повинні ЗАВЖДИ пам'ятати свій головний пароль";
+"open_sequence_prompt_use_convenience_pin_message" = "Ви можете використовувати ПІН для відімкнення бази паролів. Попри зручність, це може знизити рівень безпеки бази паролів на цьому пристрої. Якщо ви бажаєте використовувати цей спосіб, оберіть його внизу, або оберіть НІ, щоб продовжити використовувати головний пароль.\n\n*Важливо: ви повинні ЗАВЖДИ пам'ятати свій головний пароль";
 
 /* \n\nNB: Convenience Unlock is a Pro feature */
-"open_sequence_append_convenience_pro_warning" = "\n\nПримітка: Зручне відмикання - це функція Pro";
+"open_sequence_append_convenience_pro_warning" = "\n\nПримітка: зручне відмикання – це функція Pro";
 
 /* Use %@ */
 "open_sequence_prompt_use_convenience_use_bio_fmt" = "Використовувати %@";
@@ -1506,7 +1506,7 @@
 "password_gen_vc_word_separator_placeholder" = "Розділювач";
 
 /* Strongbox: Error Opening Database */
-"cred_vc_error_opening_title" = "Strongbox: Помилка відкриття бази паролів";
+"cred_vc_error_opening_title" = "Strongbox: помилка відкриття бази паролів";
 
 /* You Have No Databases Yet :( */
 "autofill_safes_vc_empty_title" = "У вас ще немає баз паролів :(";
@@ -1710,10 +1710,10 @@
 "safes_vc_action_reorder_database" = "Змінити порядок баз паролів";
 
 /* Tip: Tap to Copy or Long Tap for Large View */
-"item_details_tip" = "Порада: Торкніться, щоб скопіювати, або утримуйте для перегляду";
+"item_details_tip" = "Порада: торкніться, щоб скопіювати, або утримуйте для перегляду";
 
 /* Tip: Slide Left for Options or Tap to View */
-"keepass_history_tip" = "Порада: Посуньте вліво для параметрів або торкніться для перегляду";
+"keepass_history_tip" = "Порада: посуньте вліво для параметрів або торкніться для перегляду";
 
 /* Favorite */
 "browse_vc_action_pin" = "Обране";
@@ -2586,7 +2586,7 @@
 "mac_node_details_you_cannot_use_key_reserved" = "Не можна використовувати цей ключ тет, оскільки він зарезервований для стандартних полів KeePass.";
 
 /* Are you sure you want to remove the attachment: %@? */
-"mac_node_details_are_you_sure_remove_attachment_fmt" = "Ви дійсно хочете видалити вкладення: %@?";
+"mac_node_details_are_you_sure_remove_attachment_fmt" = "Ви дійсно хочете вилучити вкладення: %@?";
 
 /* Password Copied and URL Launched */
 "mac_node_details_password_copied_url_launched" = "Пароль скопійовано і посилання запущено";
@@ -2849,7 +2849,7 @@
 "upgrade_question_answer_free_version_forever" = "Безумовно, ви завжди можете користуватися безплатною версією. Вона цілком функціональна, але все ж, якщо вам подобається Strongbox і приносить користь та робить ваше життя більш безпечним, тоді подумайте про покупку.";
 
 /* If you have other questions you might be able to find the answer online, e.g. by searching, or reddit (r/strongbox) or the web (https://strongboxsafe.com/support).\n\nNote that support queries eat up a lot of development time so please consider this and make your inquiry short and in English only. Please include debug information and screenshots. */
-"upgrade_question_answer_another_question" = "Якщо у вас є інші питання, ви можете знайти відповідь онлайн, наприклад, скориставшись пошуком в Інтернеті, на нашому reddit (r/strongbox), або на вебсайті (https://strongboxsafe.com/support).\n\nЗауважте, що запити підтримки забирають чимало часу, тому враховуйте це під час звернення та постарайтеся викласти його коротко і лише англійською мовою. Не забудьте також додати інформацію зневадження та знімки екрану.";
+"upgrade_question_answer_another_question" = "Якщо у вас є інші питання, ви можете знайти відповідь онлайн, наприклад, скориставшись пошуком в Інтернеті, на нашому reddit (r/strongbox), або на вебсайті (https://strongboxsafe.com/support).\n\nЗауважте, що запити підтримки забирають чимало часу, тому враховуйте це під час звернення та постарайтеся викласти його коротко і лише англійською мовою. Не забудьте також додати інформацію зневадження та знімки екрана.";
 
 /* Yes, the upgrade is linked to your Apple ID. So if you are signed in to that Apple ID account on your other iOS devices Strongbox will be available in the full Pro version.\n\nThis should happen automatically but you may need to tap the 'Restore Previous Purchase' button if it doesn't. */
 "upgrade_question_answer_works_on_other_devices" = "Так, оновлення пов'язане з вашим Apple ID. Отже, якщо ви увійшли до цього облікового запису Apple ID на своїх інших пристроях, Strongbox буде також доступний в повній версії Pro.\n\nЦе має відбуватися автоматично, але може знадобитися натиснути кнопку 'Відновити покупки', якщо це не так.";
@@ -2996,34 +2996,34 @@
 "audit_status_done_with_hibp_errors_fmt" = "Знайдено %@ проблем в %@ записах (з %@ помилок HIBP)";
 
 /* Audit Complete */
-"audit_status_complete" = "Стан: Завершено";
+"audit_status_complete" = "Стан: завершено";
 
 /* Database Auditor Initialized */
-"audit_status_initialized" = "Стан: Ініціалізація...";
+"audit_status_initialized" = "Стан: ініціалізація...";
 
 /* Database Auditor Initialized */
-"audit_status_initialized_but_disabled" = "Стан: Вимкнено";
+"audit_status_initialized_but_disabled" = "Стан: вимкнено";
 
 /* Auditing... (%d%%) - Translator's Note - 1st Parameter is a percentage e.g. 25% - NB: Only 1 param (double percentages are an escape string for the single percentage symbol) */
-"audit_status_running_with_progress_fmt" = "Стан: Триває аудит... (%d%%)";
+"audit_status_running_with_progress_fmt" = "Стан: триває аудит... (%d%%)";
 
 /* Auditing... */
-"audit_status_running_with_ellipsis" = "Стан: Триває аудит...";
+"audit_status_running_with_ellipsis" = "Стан: триває аудит...";
 
 /* Audit Stopped */
-"audit_status_stopped" = "Стан: Зупинено";
+"audit_status_stopped" = "Стан: зупинено";
 
 /* No issues found */
 "audit_status_no_issues_found" = "Проблем не знайдено";
 
 /* The credentials were incorrect for this database. Are you sure you are using this key file?\n\nNB: A key files are not the same as your database file. */
-"open_sequence_problem_opening_incorrect_credentials_message_verify_key_file" = "Неправильні облікові дані для цієї бази паролів. Ви впевнені, що використовуєте саме цей ключовий файл?\n\nПримітка: Зверніть увагу, ключові файли це не файли бази паролів (KDBX/KDB)";
+"open_sequence_problem_opening_incorrect_credentials_message_verify_key_file" = "Неправильні облікові дані для цієї бази паролів. Ви впевнені, що використовуєте саме цей ключовий файл?\n\nПримітка: зверніть увагу, що ключові файли – це не файли бази паролів (KDBX/KDB)";
 
 /* Is your Key File correct? */
 "casg_key_file_correct_title" = "Це правильний ключовий файл?";
 
 /* You have configured this database to open with a key file but the key file you have chosen doesn't look valid.\n\nAre you sure you are using this key file?\n\nNB: A key file is not the same as your database file" */
-"casg_key_file_correct_message" = "Ви налаштували розблокування цієї бази паролів з ключовим файлом, але вказаний вами файл недійсний.\n\nВи впевнені, що це правильний ключовий файл?\n\nПримітка: Ключовий файл це не файл бази паролів";
+"casg_key_file_correct_message" = "Ви налаштували розблокування цієї бази паролів з ключовим файлом, але вказаний вами файл недійсний.\n\nВи впевнені, що це правильний ключовий файл?\n\nПримітка: ключовий файл – це не файл бази паролів";
 
 /* Yes, the key file is correct */
 "casg_key_file_correct_yes_key_file_correct" = "Так, це правильний ключовий файл";
@@ -3227,13 +3227,13 @@
 "password_gen_vc_mode_diceware_xkcd_title" = "Diceware (XKCD)";
 
 /* Strongbox: Unknown Database */
-"autofill_error_unknown_db_title" = "Strongbox: Невідома база паролів";
+"autofill_error_unknown_db_title" = "Strongbox: невідома база паролів";
 
 /* This appears to be a reference to an older Strongbox database which can no longer be found. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill. */
 "autofill_error_unknown_db_message" = "Схоже, це застаріле посилання на базу паролів Strongbox, яка більше недоступна. Список автозаповнення Strongbox очищено, тому вам необхідно повторно відкрити свої бази паролів для оновлення списку.";
 
 /* Strongbox: Error Locating Entry */
-"autofill_error_unknown_item_title" = "Strongbox: Помилка пошуку запису";
+"autofill_error_unknown_item_title" = "Strongbox: помилка пошуку запису";
 
 /* Strongbox could not find this entry, it is possibly stale. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill. */
 "autofill_error_unknown_item_message" = "Strongbox не зміг знайти цей запис. Можливо, він застарілий. Список автозаповнення Strongbox очищено, тому вам необхідно повторно відкрити свої бази паролів для оновлення списку.";
@@ -3407,7 +3407,7 @@
 "safes_vc_unlock_manual_action" = "Відімкнути вручну";
 
 /* TIP: Tap and hold item to see options - Translators Note: Hint or Tip text usually displayed at the top of the screen, to indicate the user can or should tap and hold down to see a useful context menu with options they can perform on the items they are currently working with. */
-"hint_tap_and_hold_to_see_options" = "Порада: Торкніться й утримуйте для перегляду параметрів";
+"hint_tap_and_hold_to_see_options" = "Порада: торкніться й утримуйте для перегляду параметрів";
 
 /* Launch URL & Copy */
 "browse_action_launch_url_copy_password" = "Відкрити посилання та скопіювати пароль";
@@ -3434,7 +3434,7 @@
 "generic_sort" = "Впорядкувати";
 
 /* Customize View */
-"browse_context_menu_customize_view" = "Вигляд";
+"browse_context_menu_customize_view" = "Подання";
 
 /* Database Settings */
 "browse_context_menu_database_settings" = "Параметри";
@@ -3524,10 +3524,10 @@
 "pwgen_casing_latin1_supplement" = "Доповнення Latin-1";
 
 /* Are you sure you want to remove this database from Strongbox?\n\nNB: The underlying database file will not be deleted. Just Strongbox's settings for this database. */
-"are_you_sure_delete_database_single" = "Ви дійсно хочете вилучити цю базу паролів зі Strongbox?\n\nПримітка: Основний файл бази паролів не буде видалений. Лише параметри Strongbox для цієї бази паролів.";
+"are_you_sure_delete_database_single" = "Ви дійсно хочете вилучити цю базу паролів зі Strongbox?\n\nПримітка: основний файл бази паролів не буде видалений. Лише параметри Strongbox для цієї бази паролів.";
 
 /* Are you sure you want to remove these databases from Strongbox?\n\nNB: The underlying database files will not be deleted. Just Strongbox's settings for these databases. */
-"are_you_sure_delete_database_multiple" = "Ви дійсно хочете вилучити ці бази паролів зі Strongbox?\n\nПримітка: Основні файли баз паролів не будуть видалені. Лише параметри Strongbox для цих баз паролів.";
+"are_you_sure_delete_database_multiple" = "Ви дійсно хочете вилучити ці бази паролів зі Strongbox?\n\nПримітка: основні файли баз паролів не будуть видалені. Лише параметри Strongbox для цих баз паролів.";
 
 /* No Databases Here Yet.\n\nClick 'Add Database...' below to get started... */
 "mac_no_databases_initial_message" = "Ще немає баз даних.\n\nТоркніться \"Додати базу даних...\" внизу, щоб почати...";
@@ -3914,7 +3914,7 @@
 "open_sequence_user_looks_offline_open_local_fmt" = "Схоже, що у вас відсутнє інтернет-з'єднання, тому %@ може бути недоступним. Бажаєте натомість відкрити локальну копію?";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use Strongbox's local copy in read-only mode instead? - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc */
-"open_sequence_user_looks_offline_open_local_ro_fmt" = "Схоже, що у вас відсутнє інтернет-з'єднання, тому %@ може бути недоступним. Бажаєте натомість відкрити локальну копію?\n\nПримітка: Локальна копія призначена лише для читання. Ви можете редагувати локальну копію у версії Pro.";
+"open_sequence_user_looks_offline_open_local_ro_fmt" = "Схоже, що у вас відсутнє інтернет-з'єднання, тому %@ може бути недоступним. Бажаєте натомість відкрити локальну копію?\n\nПримітка: локальна копія призначена лише для читання. Ви можете редагувати локальну копію у версії Pro.";
 
 /* Open Offline? */
 "open_sequence_yesno_use_local_copy_title" = "Відкрити локально?";
@@ -4068,7 +4068,7 @@
 "autofill_auto_unlock_title" = "Автоматичне відмикання";
 
 /* Auto Unlock lets you avoid having to repeatedly unlock your database for a configurable time period. Would you like to use this handy feature?\n\nNB: Your password is stored in the Secure Enclave for this feature. */
-"autofill_auto_unlock_message" = "Автоматичне відмикання дозволяє вам уникати постійного відмикання вашої бази паролів протягом вказаного періоду. Бажаєте використовувати цю зручну функцію?\n\nПримітка: Для роботи цієї функції ваш пароль зберігається в захищеному середовищі.";
+"autofill_auto_unlock_message" = "Автоматичне відмикання дозволяє вам уникати постійного відмикання вашої бази паролів протягом вказаного періоду. Бажаєте використовувати цю зручну функцію?\n\nПримітка: для роботи цієї функції ваш пароль зберігається в захищеному середовищі.";
 
 /* Great, let try 3 mins */
 "autofill_auto_unlock_try_3_minutes" = "Чудово! Спробуймо 3 хвилини";
@@ -4320,7 +4320,7 @@
 "generic_dismiss" = "Пропустити";
 
 /* There is a configuration issue you should be aware of. You are using %@ for both App Lock and Quick Launch. In addition you allow device passcode fallback for App Lock.\n\nThis leads to a situation where you can unlock your database using only your device passcode.\n\nIf you do not want this you can do any of the following: Disable App Lock passcode fallback, or Quick Launch, or %@ Database Unlock, or coalescing of unlocks - L10n Note: 3 format parameters here are identical and will be either 'Face ID' or 'Touch ID' */
-"app_lock_coalescing_with_quick_launch_warning" = "Виникла проблема конфігурації, про яку вам слід знати. Ви використовуєте %@ для замкнення програми та швидкого запуску. Крім того, ви дозволили резервне використання коду допуску пристрою для замкнення програми.\n\nЦе призводить до ситуації, коли ви зможете відімкнути базу паролів лише за допомогою коду допуску пристрою.\n\nЯкщо ви цього не хочете, ви можете зробити будь-що з наведеного: Вимкнути резервне відмикання кодом допуску пристрою, або вимкнути швидкий запуск, або %@ відмикання бази паролів, або об'єднанням способів відмикання.";
+"app_lock_coalescing_with_quick_launch_warning" = "Виникла проблема конфігурації, про яку вам слід знати. Ви використовуєте %@ для замкнення програми та швидкого запуску. Крім того, ви дозволили резервне використання коду допуску пристрою для замкнення програми.\n\nЦе призводить до ситуації, коли ви зможете відімкнути базу паролів лише за допомогою коду допуску пристрою.\n\nЯкщо ви цього не хочете, ви можете зробити будь-що з наведеного: вимкнути резервне відмикання кодом допуску пристрою, вимкнути швидкий запуск, %@ відмикання бази паролів, або об'єднати способи відмикання.";
 
 /* Configuration Issue */
 "onboarding_configuration_issue_title" = "Проблема конфігурації";
@@ -5405,7 +5405,7 @@
 "sftp_hostkey_fingerprint_alert_title" = "Відбиток SFTP";
 
 /* Note: Enabling Easy-Read Font will have the effect of disabling the 'Markdown Notes' formatting feature. Is this OK? */
-"are_you_sure_message_easy_read_font_markdown_notes" = "Примітка: Увімкнення легкого для читання шрифту вплине на функцію форматованих нотаток. Ви згодні?";
+"are_you_sure_message_easy_read_font_markdown_notes" = "Примітка: увімкнення легкого для читання шрифту вплине на функцію форматованих нотаток. Ви згодні?";
 
 /* 1 Match Found */
 "search_results_summary_1_match_found" = "Знайдено 1 збіг";
