@@ -348,7 +348,7 @@
 "browse_vc_delete_failed" = "Verwijderen mislukt";
 
 /*  Copy */
-"browse_vc_duplicate_title_suffix" = "Kopieer";
+"browse_vc_duplicate_title_suffix" = " Kopie";
 
 /* '%@' Email Copied - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
 "browse_vc_email_copied_fmt" = "E-mailadres van '%@' gekopieerd";
@@ -3368,7 +3368,7 @@
 "sftp_path_are_you_sure" = "Weet je zeker dat dit het juiste pad is? Het zou een pad moeten zijn naar een bovenliggende map en niet het databasebestand.";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Weet je zeker dat dit het juiste pad is? Het zou een pad moeten zijn naar een bovenliggende map en niet het databasebestand.";
+"sftp_path_are_you_sure" = "Weet je zeker dat het pad juist is? Het zou een pad moeten zijn naar een bovenliggende map. Niet het databasebestand zelf.";
 
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "Pad Kan Ongeldig Zijn";
@@ -3635,7 +3635,7 @@
 "merge_view_are_you_sure" = "Weet je zeker dat je de tweede database wilt samenvoegen in de eerste?";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Weet je zeker dat je de tweede database wilt samenvoegen in de eerste?";
+"merge_view_are_you_sure" = "Weet je zeker dat je de tweede database wilt samenvoegen met de eerste?";
 
 /* Merge Successful */
 "merge_view_merge_title_success" = "Samenvoegen succesvol";
@@ -4329,7 +4329,7 @@
 "generic_lets_go" = "Laten we beginnen";
 
 /* Ready to Launch */
-"onboarding_ready_to_launch_title" = "Klaar om te starten";
+"onboarding_ready_to_launch_title" = "Klaar voor de start?";
 
 /* You're all set to get the best out of Strongbox.\n\nDon't forget you can always tweak these settings at any time. */
 "onboarding_ready_to_launch_message" = "Je bent er helemaal klaar voor om het beste uit Strongbox te halen.\n\nVergeet niet dat je deze instellingen altijd nog kunt aanpassen.";
@@ -5435,7 +5435,7 @@
 "ssh_agent_disabled_for_agent" = "Uitgeschakeld voor SSH Agent";
 
 /* SSH Key */
-"ssh_agent_ssh_key" = "SSH sleutel";
+"ssh_agent_ssh_key" = "SSH-sleutel";
 
 /* Export... */
 "generic_export_ellipsis" = "Exporteer...";
@@ -5456,7 +5456,7 @@
 "ssh_agent_could_not_read_sshkey_file" = "Kan dit bestand niet lezen. Weet je zeker dat dit een geldig OpenSSH-priévsleutelbestand is?";
 
 /* That SSH Key passphrase was incorrect. Please try again. */
-"ssh_agent_ssh_key_passphrase_incorrect_try_again" = "De SSH sleutel wachtwoordzin was onjuist. Probeer het opnieuw.";
+"ssh_agent_ssh_key_passphrase_incorrect_try_again" = "De wachtwoordzin voor de SSH-sleutel is onjuist. Probeer het opnieuw.";
 
 /* Overwrite Password?" */
 "ssh_agent_overwrite_password" = "Wachtwoord overschrijven?";
@@ -5465,13 +5465,13 @@
 "ssh_agent_sshkey_please_enter_passphrase_msg" = "Deze SSH-sleutel is beveiligd met een wachtwoordzin.\n\nVoer de wachtwoordzin in om te ontsleutelen.";
 
 /* The passphrase does not match the existing password. Strongbox needs the password to match the passphrase to use this SSH Key properly.\n\nContinue to overwrite the current password? */
-"ssh_agent_passphrase_password_mismatch" = "De wachtwoordzin komt niet overeen met het bestaande wachtwoord. Strongbox heeft het wachtwoord nodig om deze SSH sleutel correct te gebruiken.\n\nDoorgaan met het overschrijven van het huidige wachtwoord?";
+"ssh_agent_passphrase_password_mismatch" = "De wachtwoordzin komt niet overeen met het bestaande wachtwoord. Strongbox heeft het wachtwoord nodig om deze SSH-sleutel correct te gebruiken.\n\nWil je doorgaan met het overschrijven van het huidige wachtwoord?";
 
 /* Are you sure you want to remove this SSH Key? */
 "ssh_agent_ays_remove_key" = "Weet je zeker dat je deze SSH key wilt verwijderen?";
 
 /* Inccorect SSH Key Passphrase */
-"ssh_agent_incorrect_sshkey_passphrase" = "Onjuiste SSH Sleutel wachtwoordzin";
+"ssh_agent_incorrect_sshkey_passphrase" = "Onjuiste wachtwoordzin voor SSH-sleutel";
 
 /* The SSH Key is passphrase protected but the password for this entry is not the correct passphrase.\n\nDo you want to continue saving? */
 "ssh_agent_validation_passphrase_password_mismatch" = "De SSH-sleutel is beveiligd met een wachtwoordzin, maar het wachtwoord voor dit onderdeel is niet de juiste wachtwoordzin.\n\nWil je doorgaan met opslaan?";
@@ -5480,7 +5480,7 @@
 "ssh_agent_unknown_process" = "Onbekend proces";
 
 /* unlock \"%@\" to allow \"%@\" to use an SSH Key - L10n Note: Request the user to approve an SSH Key. The first param is the Name of the Database containing the key. The second parameter is the name of the process requesting to use the Key. The string is prefixed by the system with "Strongbox is trying to"... Ultimately the string looks like: '"Strongbox" is trying to unlock "Mark's Database" to allow "ssh" to use an SSH Key' */
-"ssh_agent_approve_unlock_key_use_fmt" = "ontgrendel \"%@\" om \"%@\" toe te staan een SSH sleutel te gebruiken";
+"ssh_agent_approve_unlock_key_use_fmt" = "ontgrendel \"%@\" om \"%@\" toe te staan een SSH-sleutel te gebruiken";
 /* allow \"%@\" to use the key \"%@\" for SSH - L10n Note: Request the user to approve an SSH Key. The first param is the name of the process requesting to use the Key. The second parameter this the title of the SSH Key entry. The string is prefixed by the system with "Strongbox is trying"... Ultimately the string looks like: '"Strongbox" is trying to aalow "ssh" to use the key "Mark's SSH Key" for SSH' */
 "ssh_agent_approve_key_use_fmt" = "sta \"%@\" toe om de sleutel \"%@\" voor SSH te gebruiken";
 
@@ -5584,10 +5584,10 @@
 "item_details_view_settings_sort_custom_fields" = "Sorteer eigen velden";
 
 /* New SSH Key */
-"details_add_new_ssh_key" = "Nieuwe SSH sleutel";
+"details_add_new_ssh_key" = "Nieuwe SSH-sleutel";
 
 /* What kind of SSH key would you like to add?\n\nWe recommend using the modern ED25519 key type. */
-"details_add_new_ssh_key_what_kind_prompt" = "Wat voor soort SSH sleutel wil je toevoegen?\n\nWe raden aan om het moderne ED25519 sleuteltype te gebruiken.";
+"details_add_new_ssh_key_what_kind_prompt" = "Wat voor soort SS- sleutel wil je toevoegen?\n\nWe raden aan om het moderne ED25519-sleuteltype te gebruiken.";
 
 /* New ED25519 Key */
 "details_add_new_ssh_key_ed25519" = "Nieuwe ED25519 sleutel";
@@ -5596,7 +5596,7 @@
 "details_add_new_ssh_key_rsa" = "Nieuwe RSA Sleutel";
 
 /* New SSH Key... */
-"details_add_new_ssh_key_ellipsis" = "Nieuwe SSH Sleutel...";
+"details_add_new_ssh_key_ellipsis" = "Nieuwe SSH-sleutel...";
 
 /* Actions - L10n Note: A noun, e.g a list of actions that can be performed */
 "generic_noun_actions" = "Acties";
@@ -6029,3 +6029,6 @@
 
 /* New Key File */
 "new_key_file" = "Nieuw sleutelbestand";
+
+/* Saving... */
+"generic_saving_ellipsis" = "Bezig met bewaren...";

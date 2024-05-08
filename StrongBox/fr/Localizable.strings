@@ -2574,7 +2574,7 @@
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "Êtes-vous sûr(e) de vouloir supprimer le champ personnalisé '%@' ?";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Êtes-vous sûr(e) de vouloir supprimer le champ personnalisé '%@' ?";
 
 /* Add Custom Field */
 "mac_node_details_add_custom_field" = "Ajouter un champ personnalisé";
@@ -3173,7 +3173,7 @@
 "audit_manual_pwn_check_result_not_pwned" = "Votre mot de passe n'a PAS été pwned et est probablement sûr.";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Résultat manuel de HIBP";
+"audit_manual_pwn_check_result_title" = "Résultat HIBP manuel";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "Ce mot de passe est pwned et est vulnérable";
@@ -5950,82 +5950,85 @@
 "item_is_not_searchable" = "L'élément n'est pas cherchable";
 
 /* Recover Key File */
-"recover_key_file_title" = "Recover Key File";
+"recover_key_file_title" = "Récupérer le fichier-clé";
 
 /* Enter your recovery codes below to recover your key file. If you also have the Hash then Strongbox can verify you've entered the codes correctly. */
-"recover_key_file_enter_codes" = "Enter your recovery codes below to recover your key file. If you also have the Hash then Strongbox can verify you've entered the codes correctly.";
+"recover_key_file_enter_codes" = "Saisissez vos codes de récupération ci-dessous pour récupérer votre fichier-clé. Si vous avez également le hachage, Strongbox peut vérifier que vous avez saisi les codes correctement.";
 
 /* Data (Hex Codes) */
-"recover_key_file_data_hex_codes" = "Data (Hex Codes)";
+"recover_key_file_data_hex_codes" = "Données (codes hexa)";
 
 /* Hash (Optional) */
-"recover_key_file_hash_optional_title" = "Hash (Optional)";
+"recover_key_file_hash_optional_title" = "Hachage (facultatif)";
 
 /* Valid Hash */
-"recover_key_file_valid_hash" = "Valid Hash";
+"recover_key_file_valid_hash" = "Hachage valide";
 
 /* Invalid Hash */
-"recover_key_file_invalid_hash" = "Invalid Hash";
+"recover_key_file_invalid_hash" = "Hachage invalide";
 
 /* Key File Ready */
-"new_key_file_ready" = "Key File Ready";
+"new_key_file_ready" = "Fichier-clé prêt";
 
 /* Your new key file has been generated and is ready to use. */
-"new_key_file_is_ready_desc" = "Your new key file has been generated and is ready to use.";
+"new_key_file_is_ready_desc" = "Votre nouveau fichier-clé a été généré et est prêt à être utilisé.";
 
 /* Next Steps */
-"new_key_file_next_steps" = "Next Steps";
+"new_key_file_next_steps" = "Étapes suivantes";
 
 /* 1. Print Recovery Sheet */
-"new_key_file_step1_title" = "1. Print Recovery Sheet";
+"new_key_file_step1_title" = "1. Imprimer la feuille de récupération";
 
 /* We recommend you print a recovery sheet now. Alternatively, you can view the hex codes and take note of them somewhere safe. */
-"new_key_file_step1_message" = "We recommend you print a recovery sheet now. Alternatively, you can view the hex codes and take note of them somewhere safe.";
+"new_key_file_step1_message" = "Nous vous recommandons d'imprimer maintenant une feuille de récupération. Sinon, vous pouvez visualiser les codes hexadécimaux et en prendre note dans un endroit sûr.";
 
 /* Hash */
-"key_file_hash_title" = "Hash";
+"key_file_hash_title" = "Hachage";
 
 /* Hex Codes */
-"key_file_hex_codes" = "Hex Codes";
+"key_file_hex_codes" = "Codes hexa";
 
 /* Print Recovery Sheet */
-"new_key_file_print_recovery" = "Print Recovery Sheet";
+"new_key_file_print_recovery" = "Imprimer la feuille de récupération";
 
 /* Hide Hex Codes */
-"new_key_file_hide_hex_codes" = "Hide Hex Codes";
+"new_key_file_hide_hex_codes" = "Masquer les codes hexa";
 
 /* Show Hex Codes */
-"new_key_file_show_hex_codes" = "Show Hex Codes";
+"new_key_file_show_hex_codes" = "Afficher les codes hexa";
 
 /* 2. Save Key File */
-"new_key_file_step2_save_key_file_title" = "2. Save Key File";
+"new_key_file_step2_save_key_file_title" = "2. Enregistrer le fichier-clé";
 
 /* Save your new key file somewhere safe and secure. */
-"new_key_file_step2_save_key_file_message" = "Save your new key file somewhere safe and secure.";
+"new_key_file_step2_save_key_file_message" = "Enregistrer votre nouveau fichier-clé dans un endroit sûr et sécurisé.";
 
 /* Save Key File */
-"new_key_file_save_key_file" = "Save Key File";
+"new_key_file_save_key_file" = "Enregistrer le fichier-clé";
 
 /* Import Key File... */
-"kfm_import_key_file_ellipsis" = "Import Key File...";
+"kfm_import_key_file_ellipsis" = "Importer un fichier-clé...";
 
 /* Create New Key File... */
-"kfm_create_new_key_file_ellipsis" = "Create New Key File...";
+"kfm_create_new_key_file_ellipsis" = "Créer un nouveau fichier-clé...";
 
 /* Recover Key File... */
-"kfm_recover_key_file_ellipsis" = "Recover Key File...";
+"kfm_recover_key_file_ellipsis" = "Récupérer le fichier-clé...";
 
 /* Single Use (No Import) */
-"kfm_single_use_key_file_ellipsis" = "Single Use (No Import)";
+"kfm_single_use_key_file_ellipsis" = "Usage unique (pas d'importation)";
 
 /* Key File Saved */
-"kfm_key_file_saved_title" = "Key File Saved";
+"kfm_key_file_saved_title" = "Fichier-clé enregistré";
 
 /* Your new key file was successfully saved.\n\nWould you like to import it into Strongbox now? */
-"kfm_key_file_saved_import_now_question" = "Your new key file was successfully saved.\n\nWould you like to import it into Strongbox now?";
+"kfm_key_file_saved_import_now_question" = "Votre nouveau fichier-clé a été enregistré avec succès.\n\nSouhaitez-vous l'importer dans Strongbox maintenant ?";
 
 /* %@ on '%@' - %@ */
-"wifi_sync_storage_location_title_fmt" = "%@ on '%@' - %@";
+"wifi_sync_storage_location_title_fmt" = "%@ sur '%@' - %@";
 
 /* New Key File */
-"new_key_file" = "New Key File";
+"new_key_file" = "Nouveau fichier-clé";
+
+/* Saving... */
+"generic_saving_ellipsis" = "Enregistrement...";
