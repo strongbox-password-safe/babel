@@ -1485,13 +1485,13 @@
 "password_gen_vc_select_mode" = "Selecionar Algoritmo";
 
 /* Select Salt Type */
-"password_gen_vc_select_salt_type" = "Selecionar Tipo de Salt";
+"password_gen_vc_select_salt_type" = "Selecionar Tipo de Sugestão";
 
 /* Select l33t Level */
 "password_gen_vc_select_hacker_level" = "Selecionar Nível l33t";
 
 /* Select Word Casing */
-"password_gen_vc_select_casing_type" = "Selecionar Caixa das Palavras";
+"password_gen_vc_select_casing_type" = "Selecionar Formato das Palavras";
 
 /* Select Word Lists */
 "password_gen_vc_select_wordlists" = "Selecionar Listas de Palavras";
@@ -1668,10 +1668,10 @@
 "pwgen_casing_do_not_change" = "Não Alterar";
 
 /* Lowercase */
-"pwgen_casing_lowercase" = "Letras Minúsculas";
+"pwgen_casing_lowercase" = "Todas Minúsculas";
 
 /* Uppercase */
-"pwgen_casing_uppercase" = "Letras Maiúsculas";
+"pwgen_casing_uppercase" = "Todas Maiúsculas";
 
 /* Title Case */
 "pwgen_casing_title_case" = "Título";
@@ -1713,7 +1713,7 @@
 "item_details_tip" = "Dica: Toque Curto para Copiar ou Toque Longo para Exibir em Tamanho Grande";
 
 /* Tip: Slide Left for Options or Tap to View */
-"keepass_history_tip" = "Dica: Deslize para a Esquerda ou Toque para Exibir";
+"keepass_history_tip" = "Dica: Deslize para a esquerda para ver as opções ou toque em para ver";
 
 /* Favorite */
 "browse_vc_action_pin" = "Favoritar";
@@ -1806,7 +1806,7 @@
 "backups_vc_delete_all_backups_prompt_message" = "Tem certeza que deseja remover todos os backups?";
 
 /* Set Maximum Backup Keep Count */
-"backups_vc_set_max_keep_count_title" = "Definir Quantidade Máxima de Backups a Manter";
+"backups_vc_set_max_keep_count_title" = "Quantidade Máxima de Backups";
 
 /* You cannot use convenience unlock with a one time key file. */
 "config_error_one_time_key_file_convenience_message" = "Você não pode usar o desbloqueio conveniente com um arquivo chave de uso único.";
@@ -3353,7 +3353,7 @@
 "open_sequence_storage_provider_try_relocate_files_db_message" = "O Strongbox não conseguiu encontrar seu banco de dados. Isso as vezes pode acontecer depois de uma atualização do iOS ou de provedores de terceiros (por exemplo o Nextcloud).\n\nVocê precisa informar para o Strongbox onde localizá-lo. Você também pode usar a cópia local feita pelo Strongbox e resolver isso mais tarde.\n\nSe estiver usando Nextcloud dê preferência à tecnologia WebDAV...";
 
 /* View Error Details */
-"open_sequence_storage_provider_view_sync_error_details" = "Exibir Detalhes de Erro";
+"open_sequence_storage_provider_view_sync_error_details" = "Ver Detalhes do Erro";
 
 /* Use Local (Read-Only) */
 "open_sequence_use_local_copy_option" = "Abrir Offline";
@@ -3902,7 +3902,7 @@
 "backups_backup_modified_title_fmt" = "Modificado %@";
 
 /* %@ (Backup taken %@) - Translators Note: first parameter is the file size and the second parameter a friendly date string. e.g. "4KB (Backup taken Today at 3:29PM)" */
-"backups_backup_taken_at_subtitle_fmt" = "%@ (Backup feito %@)";
+"backups_backup_taken_at_subtitle_fmt" = "%@ (Backup feito em: %@)";
 
 /* Sync Possibly Required */
 "compare_merge_sync_possibly_required_title" = "Sincronização Possivelmente Necessária";
@@ -3941,10 +3941,10 @@
 "browse_vc_pulldown_refresh_offline_message" = "Banco de Dados não foi atualizado";
 
 /* Do not allow changes to be made to this database when it is open. */
-"database_properties_subtitle_read_only" = "Não permitir que alterações sejam feitas neste banco quando ele estiver aberto.";
+"database_properties_subtitle_read_only" = "Não permitir que alterações sejam feitas neste banco de dados quando ele estiver aberto.";
 
 /* Automatically prompt to open this database on App launch. */
-"database_properties_subtitle_quick_launch" = "Solicitar a abertura deste banco de dados ao abrir o App.";
+"database_properties_subtitle_quick_launch" = "Solicitar automaticamente a abertura desse banco de dados ao abrir o Aplicativo.";
 
 /* Always Auto-Merge */
 "database_properties_title_always_auto_merge" = "Sempre unificar automaticamente";
@@ -3962,7 +3962,7 @@
 "database_properties_subtitle_backups" = "Configurar e Exibir backups locais.";
 
 /* View recent sync details including errors. */
-"database_properties_subtitle_view_sync_log" = "Exibir detalhes de sincronização recente incluindo erros.";
+"database_properties_subtitle_view_sync_log" = "Ver detalhes de sincronização recentes, incluindo erros.";
 
 /* Your Database is configured to use a hardware key, however no key or an incorrect key was found connected. */
 "mac_autofill_no_or_incorrect_yubikey_found" = "Seu Banco de Dados está configurada para usar uma chave de hardware, porém nenhuma chave ou uma chave incorreta foi conectada.";
@@ -4122,7 +4122,7 @@
 "database_properties_title_always_offline" = "Sempre Abrir Offline";
 
 /* You can choose to always open offline whenever you tap on this database. No sync will be performed on unlock, though a background sync can be performed by pulling down on your Databases List. */
-"database_properties_subtitle_always_offline" = "Você pode definir sempre abrir este banco de dados no modo Offline. Nenhuma sincronização será feita ao desbloqueá-la, mas você ainda poderá fazer a sincronização deslizando pra baixo na sua Lista de Bancos de Dados.";
+"database_properties_subtitle_always_offline" = "Você pode optar por abrir sempre em modo Offline quando tocar nesse banco de dados. Nenhuma sincronização será executada no desbloqueio, embora uma sincronização em segundo plano possa ser executada puxando para baixo a Lista de Bancos de Dados.";
 
 /* What to do if Strongbox detects you are Offline when opening a database. */
 "database_properties_subtitle_offline_detected_behaviour" = "O que fazer se Strongbox detectar que você está Offline quando abrir um banco de dados.";
