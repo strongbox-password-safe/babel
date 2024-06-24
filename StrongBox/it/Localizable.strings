@@ -31,11 +31,11 @@
 /* Button Title to Set Quick Launch */
 "safes_vc_action_set_as_quick_launch" = "Impostare Avvio Rapido";
 
-/* Button Title to Show in Files */
-"safes_vc_show_in_files" = "Mostrare nell'App File";
+/* Visible in Files app */
+"safes_vc_show_in_files" = "Visibilità dei File: Mostrato";
 
-/* Button Title to Hide from Files */
-"safes_vc_make_autofillable" = "Nascondere nell'App File";
+/* Hidden from Files app */
+"safes_vc_make_autofillable" = "Visibilità dei File: Nascosta";
 
 /* Title of Prompt about setting Quick Launch */
 "safes_vc_about_quick_launch_title" = "Informazioni sull'Avvio Rapido";
@@ -6172,10 +6172,22 @@
 "enable_notifications_onboarding_title" = "Rimanere Sincronizzati";
 
 /* To stay current and keep your databases up to date, please allow Strongbox to use notifications. */
-"enable_notifications_onboarding_message" = "To stay current and keep your databases up to date, please allow Strongbox to use notifications.";
+"enable_notifications_onboarding_message" = "Per rimanere aggiornati e mantenere i database correnti, si prega di permettere a Strongbox di utilizzare le notifiche.";
 
 /* Sounds Good, Allow */
 "enable_notifications_onboarding_sounds_good_allow" = "Suona Bene, Consentire";
 
 /* Database will be permanently deleted from Strongbox Sync and all devices */
-"pins_config_vc_label_delete_database_strongbox_sync_permanent" = "Database will be permanently deleted from Strongbox Sync and all devices";
+"pins_config_vc_label_delete_database_strongbox_sync_permanent" = "Il database verrà eliminato definitivamente da Strongbox Sync e da tutti i dispositivi";
+
+/* Native storage either on this Mac or using Strongbox Sync. */
+"select_storage_create_mode_title" = "Archiviazione nativa su questo Mac o utilizzando Strongbox Sync.";
+
+/* Select a database from anywhere on this Mac. */
+"select_storage_add_mode_title" = "Selezionare un database da qualsiasi punto su questo Mac.";
+
+/* Native storage anywhere on this Mac. */
+"select_storage_no_networking_create_mode_title" = "Archiviazione nativa ovunque su questo Mac.";
+
+/* We've integrated with these popular online drives. These integrations provide superior sync than using the file system */
+"select_storage_third_party_description_macos" = "Abbiamo integrato questi popolari drive online. Queste integrazioni spesso forniscono una sincronizzazione migliore rispetto all'utilizzo dell'App Files nativa";

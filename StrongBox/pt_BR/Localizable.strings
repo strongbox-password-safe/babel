@@ -31,11 +31,11 @@
 /* Button Title to Set Quick Launch */
 "safes_vc_action_set_as_quick_launch" = "Configurar Início Rápido";
 
-/* Button Title to Show in Files */
-"safes_vc_show_in_files" = "Mostrar em Arquivos";
+/* Visible in Files app */
+"safes_vc_show_in_files" = "Visibilidade dos Arquivos: Mostrado";
 
-/* Button Title to Hide from Files */
-"safes_vc_make_autofillable" = "Ocultar em Arquivos";
+/* Hidden from Files app */
+"safes_vc_make_autofillable" = "Visibilidade dos Arquivos: Oculto";
 
 /* Title of Prompt about setting Quick Launch */
 "safes_vc_about_quick_launch_title" = "Sobre o Início Rápido";
@@ -6169,13 +6169,25 @@
 "storage_mac_file_description" = "Armazene seu banco de dados em qualquer lugar do sistema de arquivos do Mac.";
 
 /* Stay In Sync */
-"enable_notifications_onboarding_title" = "Stay In Sync";
+"enable_notifications_onboarding_title" = "Manter-se Sincronizado";
 
 /* To stay current and keep your databases up to date, please allow Strongbox to use notifications. */
-"enable_notifications_onboarding_message" = "To stay current and keep your databases up to date, please allow Strongbox to use notifications.";
+"enable_notifications_onboarding_message" = "Para se manter atualizado e manter seus bancos de dados atualizados, permita que o Strongbox use notificações.";
 
 /* Sounds Good, Allow */
-"enable_notifications_onboarding_sounds_good_allow" = "Sounds Good, Allow";
+"enable_notifications_onboarding_sounds_good_allow" = "Parece bom, Permitir";
 
 /* Database will be permanently deleted from Strongbox Sync and all devices */
-"pins_config_vc_label_delete_database_strongbox_sync_permanent" = "Database will be permanently deleted from Strongbox Sync and all devices";
+"pins_config_vc_label_delete_database_strongbox_sync_permanent" = "O Banco de Dados será excluído permanentemente do Strongbox Sync e de todos os dispositivos";
+
+/* Native storage either on this Mac or using Strongbox Sync. */
+"select_storage_create_mode_title" = "Armazenamento nativo neste Mac ou usando o Strongbox Sync.";
+
+/* Select a database from anywhere on this Mac. */
+"select_storage_add_mode_title" = "Selecione um banco de dados de qualquer lugar neste Mac.";
+
+/* Native storage anywhere on this Mac. */
+"select_storage_no_networking_create_mode_title" = "Armazenamento nativo em qualquer lugar neste Mac.";
+
+/* We've integrated with these popular online drives. These integrations provide superior sync than using the file system */
+"select_storage_third_party_description_macos" = "Fizemos a integração com essas unidades online populares. Essas integrações oferecem uma sincronização superior à do sistema de arquivos";
