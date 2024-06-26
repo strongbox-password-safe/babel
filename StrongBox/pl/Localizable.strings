@@ -32,10 +32,10 @@
 "safes_vc_action_set_as_quick_launch" = "Włącz szybkie uruchamianie";
 
 /* Visible in Files app */
-"safes_vc_show_in_files" = "Files Visibility: Shown";
+"safes_vc_show_in_files" = "Widoczność plików: Wyświetlane";
 
 /* Hidden from Files app */
-"safes_vc_make_autofillable" = "Files Visibility: Hidden";
+"safes_vc_make_autofillable" = "Widoczność plików: Ukryte";
 
 /* Title of Prompt about setting Quick Launch */
 "safes_vc_about_quick_launch_title" = "O szybkim uruchamianiu";
@@ -3173,7 +3173,7 @@
 "audit_manual_pwn_check_result_not_pwned" = "Twoje hasło NIE zostało wykradzione i prawdopodobnie jest bezpieczne.";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Manual HIBP Result";
+"audit_manual_pwn_check_result_title" = "Ręczny wynik HIBP";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "To hasło wyciekło i jest podatne na atak";
@@ -3368,7 +3368,7 @@
 "sftp_path_are_you_sure" = "Czy na pewno ścieżka jest poprawna? Powinna to być ścieżka do folderu nadrzędnego. Nie plik bazy danych.";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Are you sure the path is correct? It should be a path to a parent folder. Not the database file.";
+"sftp_path_are_you_sure" = "Czy ścieżka jest na pewno poprawna? Powinna to być ścieżka do folderu nadrzędnego. Nie do pliku bazy danych.";
 
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "Ścieżka może być nieprawidłowa";
@@ -3635,7 +3635,7 @@
 "merge_view_are_you_sure" = "Czy na pewno chcesz scalić drugą bazę danych z pierwszą?";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Are you sure you want to merge the second database into the first?";
+"merge_view_are_you_sure" = "Czy na pewno chcesz połączyć drugą bazę danych z pierwszą?";
 
 /* Merge Successful */
 "merge_view_merge_title_success" = "Scalanie zakończone";
@@ -6046,148 +6046,148 @@
 "storage_provider_cloudkit_display_name" = "Strongbox Sync";
 
 /* Available - L10n note: This is a state. A service is available. e.g. iCloud is Available */
-"generic_noun_state_available" = "Available";
+"generic_noun_state_available" = "Dostępna";
 
 /* Could Not Determine */
-"cloudkit_status_could_not_determine" = "Could Not Determine";
+"cloudkit_status_could_not_determine" = "Nie można określić";
 
 /* Restricted due to Parental Controls / Device Management. */
-"cloudkit_status_restricted" = "Restricted due to Parental Controls / Device Management.";
+"cloudkit_status_restricted" = "Ograniczone z powodu kontroli rodzicielskiej / zarządzania urządzeniami.";
 
 /* Unavailable. Check Apple account in System Settings. */
-"cloudkit_status_unavailable" = "Unavailable. Check Apple account in System Settings.";
+"cloudkit_status_unavailable" = "Niedostępne. Sprawdź konto Apple w Ustawieniach systemu.";
 
 /* Temporarily Unavailable. Check Apple account in System Settings. */
-"cloudkit_status_temporarily_unavailable" = "Temporarily Unavailable. Check Apple account in System Settings.";
+"cloudkit_status_temporarily_unavailable" = "Tymczasowo niedostępne. Sprawdź konto Apple w Ustawieniach systemu.";
 
 /* Accepting Share... - L10n Note: User has chosen to accept an invitation to a Shared Database. This is displayed as a spinner/wait text while the operation completes */
-"accepting_share_status_spinner" = "Accepting Share...";
+"accepting_share_status_spinner" = "Akceptowanie udostępnienia...";
 
 /* Strongbox Sync Unavailable */
-"strongbox_sync_unavailable_title" = "Strongbox Sync Unavailable";
+"strongbox_sync_unavailable_title" = "Synchronizacja Strongbox Sync niedostępna";
 
 /* Strongbox Sync has become unavailable. Please check you are signed in to your Apple account in System Settings. */
-"strongbox_sync_unavailable_msg" = "Strongbox Sync has become unavailable. Please check you are signed in to your Apple account in System Settings.";
+"strongbox_sync_unavailable_msg" = "Synchronizacja Strongbox Sync stała się niedostępna. Sprawdź, czy jesteś zalogowany na swoje konto Apple w Ustawieniach systemowych.";
 
 /* Copy To... */
-"database_option_copy_to_ellipsis" = "Copy To...";
+"database_option_copy_to_ellipsis" = "Skopiuj do...";
 
 /* Manage Sharing... */
-"generic_manage_sharing_action_ellipsis" = "Manage Sharing...";
+"generic_manage_sharing_action_ellipsis" = "Zarządzaj udostępnianiem...";
 
 /* Are you sure you want to remove this database? It will be permanently deleted across all devices.\n\nPlease consider taking a backup local copy first. */
-"ays_remove_database_permanent_all_devices_delete_please_take_backup" = "Are you sure you want to remove this database? It will be permanently deleted across all devices.\n\nPlease consider taking a backup local copy first.";
+"ays_remove_database_permanent_all_devices_delete_please_take_backup" = "Czy na pewno chcesz usunąć tę bazę danych? Zostanie ona trwale usunięta z wszystkich urządzeń.\n\nProszę rozważ najpierw wykonanie kopii zapasowej lokalnej.";
 
 /* Are you sure you want to remove these database(s) from Strongbox?\n\nNB: Strongbox Sync databases will be permanently deleted across all devices. */
-"ays_remove_databases_strongbox_sync_delete" = "Are you sure you want to remove these database(s) from Strongbox?\n\nNB: Strongbox Sync databases will be permanently deleted across all devices.";
+"ays_remove_databases_strongbox_sync_delete" = "Czy na pewno chcesz usunąć te bazy danych ze Strongbox?\n\nUwaga: Bazy danych Strongbox Sync zostaną trwale usunięte ze wszystkich urządzeń.";
 
 /* Are you sure you want to remove this database from Strongbox? (NB: The underlying database file will be permanently deleted) */
-"ays_remove_database_permanent_delete" = "Are you sure you want to remove this database from Strongbox? (NB: The underlying database file will be permanently deleted)";
+"ays_remove_database_permanent_delete" = "Czy na pewno chcesz usunąć tę bazę danych ze Strongbox? (Uwaga: bazowy plik bazy danych zostanie trwale usunięty)";
 
 /* Are you sure you want to remove this database from Strongbox? (NB: The underlying database file will not be deleted) */
-"ays_remove_database_underlying_not_deleted" = "Are you sure you want to remove this database from Strongbox? (NB: The underlying database file will not be deleted)";
+"ays_remove_database_underlying_not_deleted" = "Czy na pewno chcesz usunąć tę bazę danych ze Strongbox? (Uwaga: bazowy plik bazy danych nie zostanie usunięty)";
 
 /* Shared Database */
-"strongbox_sync_shared_database_title" = "Shared Database";
+"strongbox_sync_shared_database_title" = "Udostęniona baza danych";
 
 /* This database is shared with you by someone else. To remove this database from your list, tap OK to manage sharing and remove yourself. */
-"strongbox_sync_shared_database_msg" = "This database is shared with you by someone else. To remove this database from your list, tap OK to manage sharing and remove yourself.";
+"strongbox_sync_shared_database_msg" = "Ta baza danych jest udostępniana Tobie przez kogoś innego. Aby usunąć tę bazę danych z Twojej listy, kliknij OK, aby zarządzać udostępnianiem i usuń ją.";
 
 /* Database Created */
-"database_created_title" = "Database Created";
+"database_created_title" = "Baza danych utworzona";
 
 /* Your new database is now added and ready to be unlocked. */
-"database_created_msg" = "Your new database is now added and ready to be unlocked.";
+"database_created_msg" = "Twoja nowa baza danych została dodana i jest gotowa do odblokowania.";
 
 /* The above options are always present. They are not indicative of any existing session. Detecting whether you have an session would require Strongbox to call into 3rd party code which we always try to minimize for security reasons. */
-"cloud_sessions_footer_text_info" = "The above options are always present. They are not indicative of any existing session. Detecting whether you have an session would require Strongbox to call into 3rd party code which we always try to minimize for security reasons.";
+"cloud_sessions_footer_text_info" = "Powyższe opcje są zawsze obecne, nie wskazują na żadną istniejącą sesję. Wykrywanie czy masz sesję wymaga, aby Strongbox wywołał kod osoby trzeciej, który zawsze próbujemy zminimalizować ze względów bezpieczeństwa.";
 
 /* 3rd Party Options */
-"cloud_sessions_header" = "3rd Party Options";
+"cloud_sessions_header" = "Opcje zewnętrzne/stron trzecich";
 
 /* Copy of %@ - L10n note - Used when copying an item or database, e.g. Copy of Mark's Database */
-"copy_of_fmt" = "Copy of %@";
+"copy_of_fmt" = "Kopia %@";
 
 /* Deprecated Storage Method */
-"deprecated_storage_method" = "Deprecated Storage Method";
+"deprecated_storage_method" = "Niezalecana metoda przechowywania";
 
 /* We cannot recommend storing your database using this method. Strongbox does not have end to end control over the sync process, and so we cannot guarantee data integrity.\n\nDo you want to continue anyway? */
-"cannot_recommend_storage_msg" = "We cannot recommend storing your database using this method. Strongbox does not have end to end control over the sync process, and so we cannot guarantee data integrity.\n\nDo you want to continue anyway?";
+"cannot_recommend_storage_msg" = "Nie zalecamy przechowywania bazy danych przy użyciu tej metody. Strongbox nie ma pełnej kontroli nad procesem synchronizacji, więc nie możemy zagwarantować integralności danych.\n\nCzy mimo to chcesz kontynuować?";
 
 /* Our native cloud sync makes your databases available across all of your devices. Sharing with others is also supported. Alternatively, store your database locally on this device only. */
-"blurb_about_strongbox_sync_native_cloud" = "Our native cloud sync makes your databases available across all of your devices. Sharing with others is also supported. Alternatively, store your database locally on this device only.";
+"blurb_about_strongbox_sync_native_cloud" = "Nasza natywna synchronizacja w chmurze sprawia, że bazy danych są dostępne na wszystkich urządzeniach. Obsługiwane jest również udostępnianie innym osobom. Alternatywnie można przechowywać bazę danych lokalnie tylko na tym urządzeniu.";
 
 /* These method(s) are no longer advised. Your mileage may vary depending on the quality of the third party 'Files' provider, how reliable your connection is and other factors. Ultimately, Strongbox does not have full control over the sync process, and so we cannot guarantee data integrity or offer sync support. */
-"deprecated_storage_footer_text" = "These method(s) are no longer advised. Your mileage may vary depending on the quality of the third party 'Files' provider, how reliable your connection is and other factors. Ultimately, Strongbox does not have full control over the sync process, and so we cannot guarantee data integrity or offer sync support.";
+"deprecated_storage_footer_text" = "Te metody nie są już zalecane. Możliwe są różnice w zależności od jakości dostawcy 'Plików' trzeciej strony, niezawodności połączenia i innych czynników. Ostatecznie Strongbox nie ma pełnej kontroli nad procesem synchronizacji, dlatego nie możemy zagwarantować integralności danych ani zapewnić wsparcia dla synchronizacji.";
 
 /* Built-In (Not Recommended) */
-"storage_provider_built_in_not_recommended_header" = "Built-In (Not Recommended)";
+"storage_provider_built_in_not_recommended_header" = "Wbudowane (nie zalecane)";
 
 /* Shared by you - L10n note: This text indicates that a Strongbox Sync database has been shared with someone else by the user */
-"shared_by_you" = "Shared by you";
+"shared_by_you" = "Udostępnione przez Ciebie";
 
 /* Shared with you - L10n note: This text indicates that a Strongbox Sync database has been shared with the user by someone else  */
-"shared_with_you" = "Shared with you";
+"shared_with_you" = "Udostępnione Tobie";
 
 /* Our native cloud sync makes your databases available on all of your devices. */
-"strongbox_sync_storage_description" = "Our native cloud sync makes your databases available on all of your devices.";
+"strongbox_sync_storage_description" = "Nasza natywna synchronizacja w chmurze sprawia, że twoje bazy danych są dostępne na wszystkich twoich urządzeniach.";
 
 /* Store your database anywhere within your Mac file system. */
-"storage_new_mac_file_description" = "Store your database anywhere within your Mac file system.";
+"storage_new_mac_file_description" = "Przechowuj swoją bazę danych w dowolnym miejscu w systemie plików Mac.";
 
 /* Add a database from anywhere on your Mac file system. */
-"storage_add_existing_mac_file_description" = "Add a database from anywhere on your Mac file system.";
+"storage_add_existing_mac_file_description" = "Dodaj bazę danych z dowolnego miejsca w systemie plików komputera Mac.";
 
 /* Add Database */
-"select_storage_title_add_existing" = "Add Database";
+"select_storage_title_add_existing" = "Dodaj bazę danych";
 
 /* Import Database */
-"select_storage_title_import" = "Import Database";
+"select_storage_title_import" = "Importuj bazę danych";
 
 /* Select '%@' - L10n Note: the first parameter is the name of an item the user can select. e.g. Select 'OneDrive'. */
-"generic_select_param_in_single_quotes_fmt" = "Select '%@'";
+"generic_select_param_in_single_quotes_fmt" = "Wybierz '%@'";
 
 /* New Database Setup */
-"new_database_setup" = "New Database Setup";
+"new_database_setup" = "Konfiguracja nowej bazy danych";
 
 /* Enter a nickname for your new database and the master credentials to protect it. */
-"enter_creds_and_nickname" = "Enter a nickname for your new database and the master credentials to protect it.";
+"enter_creds_and_nickname" = "Wprowadź nazwę dla nowej bazy danych i hasło główne, aby ją chronić.";
 
 /* Nickname already in use */
-"nickname_already_in_use" = "Nickname already in use";
+"nickname_already_in_use" = "Ta nazwa jest już w użyciu";
 
 /* Choose Storage Location */
-"choose_storage_loc" = "Choose Storage Location";
+"choose_storage_loc" = "Wybierz miejsce zapisu bazy danych";
 
 /* Please navigate to where you would like to store your database and click 'Select'. */
-"nav_to_storage_and_select" = "Please navigate to where you would like to store your database and click 'Select'.";
+"nav_to_storage_and_select" = "Wskaż miejsce, w którym chcesz przechowywać swoją bazę danych i kliknij 'Wybierz'.";
 
 /* Store your database locally only. */
-"blurb_about_native_local_only" = "Store your database locally only.";
+"blurb_about_native_local_only" = "Przechowuj bazę danych tylko lokalnie.";
 
 /* Store your database anywhere within your Mac file system. */
-"storage_mac_file_description" = "Store your database anywhere within your Mac file system.";
+"storage_mac_file_description" = "Przechowuj swoją bazę danych w dowolnym miejscu w systemie plików Mac.";
 
 /* Stay In Sync */
-"enable_notifications_onboarding_title" = "Stay In Sync";
+"enable_notifications_onboarding_title" = "Pozostań zsynchronizowany";
 
 /* To stay current and keep your databases up to date, please allow Strongbox to use notifications. */
-"enable_notifications_onboarding_message" = "To stay current and keep your databases up to date, please allow Strongbox to use notifications.";
+"enable_notifications_onboarding_message" = "Aby być na bieżąco i utrzymać swoje bazy danych aktualne, proszę zezwól Strongboxowi na korzystanie z powiadomień.";
 
 /* Sounds Good, Allow */
-"enable_notifications_onboarding_sounds_good_allow" = "Sounds Good, Allow";
+"enable_notifications_onboarding_sounds_good_allow" = "Brzmi dobrze, zezwól";
 
 /* Database will be permanently deleted from Strongbox Sync and all devices */
-"pins_config_vc_label_delete_database_strongbox_sync_permanent" = "Database will be permanently deleted from Strongbox Sync and all devices";
+"pins_config_vc_label_delete_database_strongbox_sync_permanent" = "Baza danych zostanie trwale usunięta ze Strongbox Sync i wszystkich urządzeń";
 
 /* Native storage either on this Mac or using Strongbox Sync. */
-"select_storage_create_mode_title" = "Native storage either on this Mac or using Strongbox Sync.";
+"select_storage_create_mode_title" = "Lokalny magazyn na tym komputerze, albo w usłudze Strongbox Sync.";
 
 /* Select a database from anywhere on this Mac. */
-"select_storage_add_mode_title" = "Select a database from anywhere on this Mac.";
+"select_storage_add_mode_title" = "Wybierz bazę danych z tego komputera Mac.";
 
 /* Native storage anywhere on this Mac. */
-"select_storage_no_networking_create_mode_title" = "Native storage anywhere on this Mac.";
+"select_storage_no_networking_create_mode_title" = "Lokalny magazyn gdziekolwiek na tym komputerze Mac.";
 
 /* We've integrated with these popular online drives. These integrations provide superior sync than using the file system */
-"select_storage_third_party_description_macos" = "We've integrated with these popular online drives. These integrations provide superior sync than using the file system";
+"select_storage_third_party_description_macos" = "Zintegrowaliśmy się z tymi popularnymi usługami. Integracje te zapewniają lepszą synchronizację niż korzystanie z systemu plików";
