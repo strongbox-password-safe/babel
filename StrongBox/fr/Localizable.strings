@@ -3368,7 +3368,7 @@
 "sftp_path_are_you_sure" = "Êtes-vous sûr(e) que le chemin est correct ? Ce devrait être un chemin vers un dossier parent. Pas vers le fichier de base de données.";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Are you sure the path is correct? It should be a path to a parent folder. Not the database file.";
+"sftp_path_are_you_sure" = "Êtes-vous sûr que le chemin est correct ? Il devrait mener vers le dossier parent, pas vers le fichier de base de données.";
 
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "Chemin peut-être invalide";
@@ -3635,7 +3635,7 @@
 "merge_view_are_you_sure" = "Êtes-vous sûr(e) de vouloir fusionner la seconde base de données dans la première ?";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Are you sure you want to merge the second database into the first?";
+"merge_view_are_you_sure" = "Êtes-vous sûr de vouloir fusionner la deuxième base de données avec la première ?";
 
 /* Merge Successful */
 "merge_view_merge_title_success" = "Fusion réussie";
@@ -6108,8 +6108,8 @@
 /* Copy of %@ - L10n note - Used when copying an item or database, e.g. Copy of Mark's Database */
 "copy_of_fmt" = "Copie de %@";
 
-/* Deprecated Storage Method */
-"deprecated_storage_method" = "Méthode de stockage dépréciée";
+/* Storage Method Not Recommended */
+"deprecated_storage_method" = "Storage Method Not Recommended";
 
 /* We cannot recommend storing your database using this method. Strongbox does not have end to end control over the sync process, and so we cannot guarantee data integrity.\n\nDo you want to continue anyway? */
 "cannot_recommend_storage_msg" = "Nous ne pouvons pas recommander de stocker votre base de données en utilisant cette méthode. Strongbox n'a pas de contrôle de bout en bout sur le processus de synchronisation et nous ne pouvons donc pas garantir l'intégrité des données.\n\nVoulez-vous quand même continuer ?";
@@ -6191,3 +6191,24 @@
 
 /* We've integrated with these popular online drives. These integrations provide superior sync than using the file system */
 "select_storage_third_party_description_macos" = "Nous avons intégré ces stockages en ligne populaires. Ces intégrations offrent une synchronisation supérieure sur l'utilisation du système de fichiers";
+
+/* Are you sure you want to choose this version as the correct version going forward?\n\nRemember you can export any other version now for later merge by choosing No, and then sliding left on the other version. */
+"ays_select_icloud_conflict_version" = "Are you sure you want to choose this version as the correct version going forward?\n\nRemember you can export any other version now for later merge by choosing No, and then sliding left on the other version.";
+
+/* System */
+"app_appearance_mode_system" = "System";
+
+/* Light */
+"app_appearance_mode_light" = "Light";
+
+/* Dark */
+"app_appearance_mode_dark" = "Dark";
+
+/* App Appearance */
+"prefs_vc_app_appearance" = "App Appearance";
+
+/* Change Filename... */
+"generic_change_filename_ellipsis_action" = "Change Filename...";
+
+/* Please enter a new filename for this database */
+"databases_manager_pls_enter_new_filename" = "Please enter a new filename for this database";
