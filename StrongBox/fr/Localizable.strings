@@ -6109,7 +6109,7 @@
 "copy_of_fmt" = "Copie de %@";
 
 /* Storage Method Not Recommended */
-"deprecated_storage_method" = "Storage Method Not Recommended";
+"deprecated_storage_method" = "Méthode de stockage non recommandée";
 
 /* We cannot recommend storing your database using this method. Strongbox does not have end to end control over the sync process, and so we cannot guarantee data integrity.\n\nDo you want to continue anyway? */
 "cannot_recommend_storage_msg" = "Nous ne pouvons pas recommander de stocker votre base de données en utilisant cette méthode. Strongbox n'a pas de contrôle de bout en bout sur le processus de synchronisation et nous ne pouvons donc pas garantir l'intégrité des données.\n\nVoulez-vous quand même continuer ?";
@@ -6193,22 +6193,25 @@
 "select_storage_third_party_description_macos" = "Nous avons intégré ces stockages en ligne populaires. Ces intégrations offrent une synchronisation supérieure sur l'utilisation du système de fichiers";
 
 /* Are you sure you want to choose this version as the correct version going forward?\n\nRemember you can export any other version now for later merge by choosing No, and then sliding left on the other version. */
-"ays_select_icloud_conflict_version" = "Are you sure you want to choose this version as the correct version going forward?\n\nRemember you can export any other version now for later merge by choosing No, and then sliding left on the other version.";
+"ays_select_icloud_conflict_version" = "Êtes-vous sûr de vouloir choisir cette version comme la version correcte à l'avenir ?\n\nSouvenez-vous que vous pouvez exporter toute autre version maintenant pour la fusionner ultérieurement en choisissant Non, puis en glissant vers la gauche sur l'autre version.";
 
 /* System */
-"app_appearance_mode_system" = "System";
+"app_appearance_mode_system" = "Système";
 
 /* Light */
-"app_appearance_mode_light" = "Light";
+"app_appearance_mode_light" = "Clair";
 
 /* Dark */
-"app_appearance_mode_dark" = "Dark";
+"app_appearance_mode_dark" = "Sombre";
 
 /* App Appearance */
-"prefs_vc_app_appearance" = "App Appearance";
+"prefs_vc_app_appearance" = "Apparance de l'application";
 
 /* Change Filename... */
-"generic_change_filename_ellipsis_action" = "Change Filename...";
+"generic_change_filename_ellipsis_action" = "Modifier le nom de fichier...";
 
 /* Please enter a new filename for this database */
-"databases_manager_pls_enter_new_filename" = "Please enter a new filename for this database";
+"databases_manager_pls_enter_new_filename" = "Veuillez saisir un nouveau nom pour cette base de données";
+
+/* Character %@ Copied - Used in large text view, it will look something like: 'Character 5 Copied', meaning the 5th character has been copied. Note, do not under any circumstances change the %@ to any other format character, it will cause a crash. */
+"character_number_n_copied_fmt" = "Character %@ Copied";
