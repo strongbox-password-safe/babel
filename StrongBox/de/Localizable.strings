@@ -4678,6 +4678,12 @@
 /* Dont't Ask Again */
 "generic_dont_ask_again" = "Nicht mehr fragen";
 
+/* Yes, don't ask again */
+"generic_yes_dont_ask_again" = "Ja, nicht erneut nachfragen";
+
+/* No, don't ask again */
+"generic_no_dont_ask_again" = "Nein, nicht erneut nachfragen";
+
 /* Not Right Now */
 "generic_not_right_now" = "Nicht jetzt";
 
@@ -6109,7 +6115,7 @@
 "copy_of_fmt" = "Kopie von %@";
 
 /* Storage Method Not Recommended */
-"deprecated_storage_method" = "Storage Method Not Recommended";
+"deprecated_storage_method" = "Aufbewahrungsmethode nicht empfohlen";
 
 /* We cannot recommend storing your database using this method. Strongbox does not have end to end control over the sync process, and so we cannot guarantee data integrity.\n\nDo you want to continue anyway? */
 "cannot_recommend_storage_msg" = "Wir können nicht empfehlen, Ihre Datenbank mit dieser Methode zu speichern. Strongbox hat keine Ende-zu-Ende-Kontrolle über den Synchronisationsprozess, so dass wir die Datenintegrität nicht garantieren können.\n\nMöchten Sie trotzdem fortfahren?";
@@ -6193,25 +6199,58 @@
 "select_storage_third_party_description_macos" = "Es wurde eine Integration mit diesen beliebten Online-Laufwerken vorgenommen. Diese Integrationen bieten eine bessere Synchronisation als die Verwendung des Dateisystems";
 
 /* Are you sure you want to choose this version as the correct version going forward?\n\nRemember you can export any other version now for later merge by choosing No, and then sliding left on the other version. */
-"ays_select_icloud_conflict_version" = "Are you sure you want to choose this version as the correct version going forward?\n\nRemember you can export any other version now for later merge by choosing No, and then sliding left on the other version.";
+"ays_select_icloud_conflict_version" = "Möchten Sie diese Version wirklich als die zukünftig gültige Version auswählen?\n\nBedenken Sie, dass Sie jetzt jede andere Version für eine spätere Zusammenführung exportieren können, indem Sie „Nein” wählen und dann nach links auf die andere Version rutschen.";
 
 /* System */
 "app_appearance_mode_system" = "System";
 
 /* Light */
-"app_appearance_mode_light" = "Light";
+"app_appearance_mode_light" = "Hell";
 
 /* Dark */
-"app_appearance_mode_dark" = "Dark";
+"app_appearance_mode_dark" = "Dunkel";
 
 /* App Appearance */
-"prefs_vc_app_appearance" = "App Appearance";
+"prefs_vc_app_appearance" = "App-Farbschema";
 
 /* Change Filename... */
-"generic_change_filename_ellipsis_action" = "Change Filename...";
+"generic_change_filename_ellipsis_action" = "Dateinamen ändern …";
 
 /* Please enter a new filename for this database */
-"databases_manager_pls_enter_new_filename" = "Please enter a new filename for this database";
+"databases_manager_pls_enter_new_filename" = "Bitte geben Sie einen neuen Dateinamen für diese Datenbank ein";
 
 /* Character %@ Copied - Used in large text view, it will look something like: 'Character 5 Copied', meaning the 5th character has been copied. Note, do not under any circumstances change the %@ to any other format character, it will cause a crash. */
-"character_number_n_copied_fmt" = "Character %@ Copied";
+"character_number_n_copied_fmt" = "%@. Zeichen kopiert";
+
+/* Tap to add tags... */
+"item_details_tap_to_add_tags" = "Antippen, um Schlagwörter hinzuzufügen …";
+
+/* Edit Tags */
+"tags_editor_header_edit_tags" = "Schlagwörter bearbeiten";
+
+/* Create New Tag... */
+"tags_editor_create_new_tag_ellipsis" = "Neues Schlagwort erstellen …";
+
+/* Search or Create... */
+"tags_editor_search_or_create_ellipsis" = "Suchen oder erstellen …";
+
+/* Current Tags */
+"tags_editor_header_current_tags" = "Aktuelle Schlagwörter";
+
+/* Available Tags */
+"tags_editor_create_available_tags" = "Verfügbare Schlagwörter";
+
+/* No Tags Yet */
+"tags_editor_create_no_tags_yet" = "Noch keine Schlagwörter";
+
+/* Start typing in the search bar to create a new one */
+"tags_editor_create_start_typing_to_create" = "Beginnen Sie mit der Eingabe in die Suchleiste, um einen neuen Eintrag zu erstellen";
+
+/* Check the spelling or create a new tag */
+"tags_editor_check_spelling" = "Überprüfen Sie die Schreibweise oder erstellen Sie ein neues Schlagwort";
+
+/* Create \"%@\" tag */
+"tags_editor_create_tag_fmt" = "Schlagwort „%@” erstellen";
+
+/* No Results for \"%@\" */
+"tags_editor_no_results_for_fmt" = "Keine Ergebnisse für „%@”";
