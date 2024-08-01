@@ -2953,11 +2953,11 @@
 /* View all entries with audit issues */
 "quick_view_title_audit_issues_subtitle" = "Δείτε όλες τις καταχωρήσεις με θέματα ελέγχου";
 
-/* TOTP Entries */
-"quick_view_title_totp_entries_title" = "Καταχωρήσεις με TOTP";
+/* 2FA Entries */
+"quick_view_title_totp_entries_title" = "2FA Entries";
 
-/* View all entries with a TOTP token */
-"quick_view_title_totp_entries_subtitle" = "Δείτε όλες τις καταχωρήσεις με TOTP";
+/* View all entries with a 2FA code */
+"quick_view_title_totp_entries_subtitle" = "View all entries with a 2FA code";
 
 /* Quick Views */
 "quick_view_section_title_quick_views" = "Γρήγορες Προβολές";
@@ -4768,8 +4768,8 @@
 /* paste-at-%@.png - L10n Note: The first parameter is a timestamp, so the string will look like: "paste-at-20220113_165952_523.png" */
 "pasted_image_attachment_at_time_filename_png_fmt" = "paste-at-%@.png";
 
-/* Hierarchy */
-"side_bar_hierarchy_folder_structure" = "Ιεραρχία";
+/* Groups */
+"side_bar_hierarchy_folder_structure" = "Groups";
 
 /* Discard Changes */
 "discard_changes" = "Απόρριψη Αλλαγών";
@@ -5384,7 +5384,7 @@
 "mac_create_or_edit_commit_changes" = "Αποθήκευση (⌘S)";
 
 /* Hierarchy (%@ Groups, %@ Entries) - L10n Note - The two parameters are numeric, so for example: "23 Groups, 3456 Entries"*/
-"side_bar_hierarchy_folder_structure_summary_count_fmt" = "Ιεραρχία (%@ Ομάδες, %@ Καταχωρήσεις)";
+"side_bar_hierarchy_folder_structure_summary_count_fmt" = "Groups (%@ Groups, %@ Entries)";
 
 /* Entries */
 "side_bar_child_count_format_entries" = "Καταχωρήσεις";
@@ -6389,3 +6389,45 @@
 
 /* No results found. Some databases are locked. */
 "no_results_found_some_locked" = "No results found. Some databases are locked.";
+
+/* Navigation */
+"generic_noun_navigation" = "Navigation";
+
+/* Quick Tags */
+"home_quick_tags_section_header" = "Quick Tags";
+
+"audit_view_section_footer_no_password" = "These are entries with no password set at all.";
+
+"audit_view_section_footer_duplicate" = "These are entries that have identical passwords indicating password reuse.";
+
+"audit_view_section_footer_common" = "These are entries with very common or well-known passwords that are easily guessed.";
+
+"audit_view_section_footer_similar" = "These are entries with similar but not identical passwords.";
+
+"audit_view_section_footer_short" = "These are entries with passwords of a very short length.";
+
+"audit_view_section_footer_hibp" = "These are entries whose passwords have appeared in online hacks or breaches detected using the 'Have I Been Pwned?' service.";
+
+"audit_view_section_footer_entropy" = "These are entries whose complexity falls below a certain threshold which could be considered weak.";
+
+"audit_view_section_footer_2fa" = "These are entries that are marked as having known two factor authentication available but without an existing 2FA code set.";
+
+"anonymous_group_number_fmt" = "Group #%@";
+
+/* All Tags */
+"quick_view_title_all_tags_title" = "All Tags";
+
+/* Expired & Expiring */
+"quick_view_title_expired_and_expiring" = "Expired & Expiring";
+
+/* Expired %@ */
+"entry_expired_on_date_subtitle_fmt" = "Expired %@";
+
+/* Expires %@ */
+"entry_expires_on_date_subtitle_fmt" = "Expires %@";
+
+/* Other Items with Expiry Dates */
+"section_header_other_items_with_expiry_dates" = "Other Items with Expiry Dates";
+
+/* Home */
+"navigation_tab_home" = "Home";
