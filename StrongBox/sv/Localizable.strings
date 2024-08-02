@@ -285,7 +285,7 @@
 "browse_prefs_tap_action_copy_copy_password" = "Kopiera lösenord";
 
 /* Copy 2FA */
-"browse_prefs_tap_action_copy_copy_totp" = "Copy 2FA Code";
+"browse_prefs_tap_action_copy_copy_totp" = "Kopiera 2FA-kod";
 
 /* Copy URL */
 "browse_prefs_tap_action_copy_copy_url" = "Kopiera URL";
@@ -375,7 +375,7 @@
 "browse_vc_group_path_string_fmt" = "(i %@)";
 
 /* '%@': No 2FA setup to Copy! */
-"browse_vc_no_totp_to_copy_fmt" = "'%@': No 2FA setup to Copy!";
+"browse_vc_no_totp_to_copy_fmt" = "'%@': Ingen 2FA-konfiguration att kopiera!";
 
 /* '%@' Notes Copied  - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
 "browse_vc_notes_copied_fmt" = "\"%@\" Anteckningar kopierades";
@@ -420,7 +420,7 @@
 "browse_vc_view_as_database_empty" = "Inga poster";
 
 /* No 2FA Codes Found */
-"browse_vc_view_as_totp_no_totps" = "No 2FA Codes Found";
+"browse_vc_view_as_totp_no_totps" = "Hittade inga 2FA-koder";
 
 /* No matching entries found */
 "browse_vc_view_search_no_matches" = "Hittade inga matchande poster";
@@ -606,19 +606,19 @@
 "item_details_section_header_metadata" = "Metadata";
 
 /* Setup 2FA Code... */
-"item_details_setup_totp" = "Setup 2FA Code...";
+"item_details_setup_totp" = "Konfigurera 2FA-kod...";
 
 /* Could not set 2FA because the format is unsupported. */
-"item_details_setup_totp_failed_message" = "Could not set 2FA Code because the format is unsupported.";
+"item_details_setup_totp_failed_message" = "Kunde inte ställa in 2FA-kod eftersom formatet inte stöds.";
 
 /* Failed to Set 2FA */
-"item_details_setup_totp_failed_title" = "Failed to Set 2FA Code";
+"item_details_setup_totp_failed_title" = "Inställning av 2FA-kod misslyckades";
 
 /* You can setup 2FA Code by using a QR Code, or manually by entering the secret or an OTPAuth URL */
-"item_details_setup_totp_how_message" = "You can setup a 2FA Code by using a QR Code, or manually by entering the secret or an OTPAuth URL";
+"item_details_setup_totp_how_message" = "Du kan ställa in en 2FA-kod med hjälp av en QR-kod eller manuellt genom att ange hemligheten eller en OTPAuth-URL";
 
 /* How would you like to setup 2FA? */
-"item_details_setup_totp_how_title" = "How would you like to setup 2FA?";
+"item_details_setup_totp_how_title" = "Hur vill du konfigurera 2FA?";
 
 /* Manual (Standard/RFC 6238)... */
 "item_details_setup_totp_manual_rfc" = "Manuell (Standard/RFC-6238) ...";
@@ -903,7 +903,7 @@
 "notes_cell_textview_accessibility_label" = "Textvy anteckningar";
 
 /* No 2FA Setup */
-"totp_cell_no_totp_has_been_setup" = "No 2FA Setup";
+"totp_cell_no_totp_has_been_setup" = "Ingen 2FA-inställning";
 
 /*  Text Field */
 "generic_kv_cell_value_text_accessibility label_fmt" = " Textfält";
@@ -1914,7 +1914,7 @@
 "generic_fieldname_custom_field" = "Anpassat fält";
 
 /* 2FA */
-"generic_fieldname_totp" = "2FA Code";
+"generic_fieldname_totp" = "2FA-kod";
 
 /* Attachments */
 "generic_fieldname_attachments" = "Bilagor";
@@ -2424,10 +2424,10 @@
 "mac_undo_action_remove_custom_field" = "Ta bort anpassat fält";
 
 /* Set 2FA */
-"mac_undo_action_set_totp" = "Set 2FA";
+"mac_undo_action_set_totp" = "Ange 2FA";
 
 /* Clear 2FA */
-"mac_undo_action_clear_totp" = "Clear 2FA";
+"mac_undo_action_clear_totp" = "Rensa 2FA";
 
 /* Add Items */
 "mac_undo_action_add_items" = "Lägg till objekt";
@@ -2954,10 +2954,10 @@
 "quick_view_title_audit_issues_subtitle" = "Visa alla poster med granskningsproblem";
 
 /* 2FA Codes */
-"quick_view_title_totp_entries_title" = "2FA Codes";
+"quick_view_title_totp_entries_title" = "2FA-koder";
 
 /* View all entries with a 2FA Code */
-"quick_view_title_totp_entries_subtitle" = "View all entries with a 2FA Code";
+"quick_view_title_totp_entries_subtitle" = "Visa alla poster med en 2FA-kod";
 
 /* Quick Views */
 "quick_view_section_title_quick_views" = "Snabbvyer";
@@ -4056,10 +4056,10 @@
 "sync_log_status_done" = "Klar. ✅";
 
 /* 2FA Copied */
-"autofill_info_totp_copied_title" = "2FA Copied";
+"autofill_info_totp_copied_title" = "2FA kopierades";
 
 /* Your 2FA Code has been copied to the clipboard. */
-"autofill_info_totp_copied_message" = "Your 2FA Code has been copied to the clipboard.";
+"autofill_info_totp_copied_message" = "Din 2FA-kod har kopierats till urklipp.";
 
 /* Convenience Auto Unlock */
 "prefs_vc_autofill_convenience_auto_unlock" = "Automatisk bekvämlighetsupplåsning";
@@ -4621,7 +4621,7 @@
 "import_successful_message" = "Din import lyckades! Nu sätter vi ett starkt huvudlösenord och sparar din nya Strongboxdatabas.";
 
 /* Are you sure you want to clear the 2FA Code for this entry? */
-"are_you_sure_clear_totp" = "Are you sure you want to clear the 2FA Code for this entry?";
+"are_you_sure_clear_totp" = "Är du säker att du vill rensa 2FA-koden för denna post?";
 
 /* Date Created (Precise) */
 "databases_preferences_subtitle_field_name_create_date_precise" = "Skapad datum (precist)";
@@ -4754,7 +4754,7 @@
 "are_you_sure_delete_custom_field_s" = "Är du säker på att du vill ta bort valda fält?";
 
 /* Found 2FA Code in '%@' Window - Localization Note: The parameter here is an App name like "Firefox" or "Safari" */
-"found_totp_code_in_x_window_fmt" = "Found 2FA Code in '%@' Window";
+"found_totp_code_in_x_window_fmt" = "Hittade 2FA-kod i fönster '%@'";
 
 /* Randomly Generated */
 "menu_item_header_randomly_generated_suggestions" = "Slumpmässigt genererad";
@@ -4769,7 +4769,7 @@
 "pasted_image_attachment_at_time_filename_png_fmt" = "paste-at-%@.png";
 
 /* Groups */
-"side_bar_hierarchy_folder_structure" = "Groups";
+"side_bar_hierarchy_folder_structure" = "Grupper";
 
 /* Discard Changes */
 "discard_changes" = "Kasta ändringar";
@@ -5321,7 +5321,7 @@
 "safes_vc_import_icloud" = "iCloud Keychain (CSV)";
 
 /* Disabling Auto-Commit could mean you lose this 2FA Code if you forget to commit later, are you sure? */
-"are_you_sure_auto_commit_totp_msg" = "Disabling Auto-Commit could mean you lose this 2FA Code if you forget to commit later. Are you sure?";
+"are_you_sure_auto_commit_totp_msg" = "Om du inaktiverar Auto-Commit kan det innebära att du förlorar denna 2FA-kod om du glömmer att commita senare. Är du säker?";
 
 /* Close - A generic verb - to Close a popup or dialog */
 "generic_verb_close" = "Stäng";
@@ -5384,7 +5384,7 @@
 "mac_create_or_edit_commit_changes" = "Genomför (⌘S)";
 
 /* Hierarchy (%@ Groups, %@ Entries) - L10n Note - The two parameters are numeric, so for example: "23 Groups, 3456 Entries"*/
-"side_bar_hierarchy_folder_structure_summary_count_fmt" = "Groups (%@ Groups, %@ Entries)";
+"side_bar_hierarchy_folder_structure_summary_count_fmt" = "Grupper (%@ grupper, %@ poster)";
 
 /* Entries */
 "side_bar_child_count_format_entries" = "Poster";
@@ -5554,7 +5554,7 @@
 "import_please_share_import_messages" = "Överväg att dela ovanstående meddelanden med oss (support@strongboxsafe.com) för att hjälpa oss att förbättra importprocessen.";
 
 /* 2FA Secret */
-"generic_totp_secret" = "2FA Secret";
+"generic_totp_secret" = "2FA-hemlighet";
 
 /* Select Items */
 "generic_select_items" = "Välj objekt";
@@ -6391,43 +6391,43 @@
 "no_results_found_some_locked" = "Inga resultat hittades. Vissa databaser är låsta.";
 
 /* Navigation */
-"generic_noun_navigation" = "Navigation";
+"generic_noun_navigation" = "Navigering";
 
 /* Quick Tags */
-"home_quick_tags_section_header" = "Quick Tags";
+"home_quick_tags_section_header" = "Snabbtaggar";
 
-"audit_view_section_footer_no_password" = "These are entries with no password set at all.";
+"audit_view_section_footer_no_password" = "Poster komplett utan lösenord.";
 
-"audit_view_section_footer_duplicate" = "These are entries that have identical passwords indicating password reuse.";
+"audit_view_section_footer_duplicate" = "Poster med identiska lösenord, vilket tyder på att lösenorden återanvänds.";
 
-"audit_view_section_footer_common" = "These are entries with very common or well-known passwords that are easily guessed.";
+"audit_view_section_footer_common" = "Poster med mycket vanliga eller välkända lösenord som är lätta att gissa sig till.";
 
-"audit_view_section_footer_similar" = "These are entries with similar but not identical passwords.";
+"audit_view_section_footer_similar" = "Poster med liknande men inte identiska lösenord.";
 
-"audit_view_section_footer_short" = "These are entries with passwords of a very short length.";
+"audit_view_section_footer_short" = "Poster med mycket korta lösenord.";
 
-"audit_view_section_footer_hibp" = "These are entries whose passwords have appeared in online hacks or breaches detected using the 'Have I Been Pwned?' service.";
+"audit_view_section_footer_hibp" = "Poster vars lösenord har förekommit i hackningar eller intrång på nätet och som upptäckts med hjälp av tjänsten \"Have I Been Pwned?\".";
 
-"audit_view_section_footer_entropy" = "These are entries whose complexity falls below a certain threshold which could be considered weak.";
+"audit_view_section_footer_entropy" = "Detta är poster vars komplexitet understiger ett visst värde och kan betraktas som svaga.";
 
-"audit_view_section_footer_2fa" = "These are entries that are marked as having known two factor authentication available but without an existing 2FA Code set.";
+"audit_view_section_footer_2fa" = "Det här är poster som är markerade med att de har känd tvåfaktorsautentisering tillgänglig, men utan en befintlig 2FA-kod angiven.";
 
-"anonymous_group_number_fmt" = "Group #%@";
+"anonymous_group_number_fmt" = "Grupp #%@";
 
 /* All Tags */
-"quick_view_title_all_tags_title" = "All Tags";
+"quick_view_title_all_tags_title" = "Alla taggar";
 
 /* Expired & Expiring */
-"quick_view_title_expired_and_expiring" = "Expired & Expiring";
+"quick_view_title_expired_and_expiring" = "Förfallna & förfallande";
 
 /* Expired %@ */
-"entry_expired_on_date_subtitle_fmt" = "Expired %@";
+"entry_expired_on_date_subtitle_fmt" = "Förfallen %@";
 
 /* Expires %@ */
-"entry_expires_on_date_subtitle_fmt" = "Expires %@";
+"entry_expires_on_date_subtitle_fmt" = "Förfaller %@";
 
 /* Other Items with Expiry Dates */
-"section_header_other_items_with_expiry_dates" = "Other Items with Expiry Dates";
+"section_header_other_items_with_expiry_dates" = "Andra poster med förfallodatum";
 
 /* Home */
-"navigation_tab_home" = "Home";
+"navigation_tab_home" = "Hem";
