@@ -284,8 +284,8 @@
 /* Copy Password */
 "browse_prefs_tap_action_copy_copy_password" = "Jelszó másolása";
 
-/* Copy TOTP */
-"browse_prefs_tap_action_copy_copy_totp" = "TOTP másolása";
+/* Copy 2FA */
+"browse_prefs_tap_action_copy_copy_totp" = "Copy 2FA Code";
 
 /* Copy URL */
 "browse_prefs_tap_action_copy_copy_url" = "URL másolása";
@@ -317,8 +317,8 @@
 /* Group Hierarchy */
 "browse_prefs_view_as_folders" = "Csoportok";
 
-/* TOTPs */
-"browse_prefs_view_as_totp_list" = "TOTP";
+/* 2FA */
+"browse_prefs_view_as_totp_list" = "2FA";
 
 /* Set Icon */
 "browse_vc_action_set_icon" = "Ikon beállítása";
@@ -374,8 +374,8 @@
 /* (in %@) - Translator's note, the 1st param is the name of the group that this search result is found in, e.g. 'Finance' or 'Work' */
 "browse_vc_group_path_string_fmt" = "(%@)";
 
-/* '%@': No TOTP setup to Copy! */
-"browse_vc_no_totp_to_copy_fmt" = "'%@': Nincs másolható TOTP beállítás!";
+/* '%@': No 2FA setup to Copy! */
+"browse_vc_no_totp_to_copy_fmt" = "'%@': No 2FA setup to Copy!";
 
 /* '%@' Notes Copied  - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
 "browse_vc_notes_copied_fmt" = "'%@' Bejegyzés átmásolva";
@@ -419,8 +419,8 @@
 /* No Entries */
 "browse_vc_view_as_database_empty" = "Nincs bejegyzés";
 
-/* No TOTPs Found */
-"browse_vc_view_as_totp_no_totps" = "Nem talált TOTP-t";
+/* No 2FA Codes Found */
+"browse_vc_view_as_totp_no_totps" = "No 2FA Codes Found";
 
 /* No matching entries found */
 "browse_vc_view_search_no_matches" = "Nem találtunk megfelelő bejegyzést";
@@ -605,20 +605,20 @@
 /* Metadata */
 "item_details_section_header_metadata" = "Metaadatok";
 
-/* Setup TOTP... */
-"item_details_setup_totp" = "TOTP beállítása...";
+/* Setup 2FA Code... */
+"item_details_setup_totp" = "Setup 2FA Code...";
 
-/* Could not set TOTP because the format is unsupported. */
-"item_details_setup_totp_failed_message" = "Nem sikerült beállítani a TOTP-t, mert a formátum nem támogatott.";
+/* Could not set 2FA because the format is unsupported. */
+"item_details_setup_totp_failed_message" = "Could not set 2FA Code because the format is unsupported.";
 
-/* Failed to Set TOTP */
-"item_details_setup_totp_failed_title" = "Nem sikerült beállítani a TOTP-t";
+/* Failed to Set 2FA */
+"item_details_setup_totp_failed_title" = "Failed to Set 2FA Code";
 
-/* You can setup TOTP by using a QR Code, or manually by entering the secret or an OTPAuth URL */
-"item_details_setup_totp_how_message" = "A TOTP-t beállíthatja QR-kód használatával, vagy manuálisan a titkos vagy egy OTPAuth URL megadásával";
+/* You can setup 2FA Code by using a QR Code, or manually by entering the secret or an OTPAuth URL */
+"item_details_setup_totp_how_message" = "You can setup a 2FA Code by using a QR Code, or manually by entering the secret or an OTPAuth URL";
 
-/* How would you like to setup TOTP? */
-"item_details_setup_totp_how_title" = "Hogyan szeretné beállítani a TOTP-t?";
+/* How would you like to setup 2FA? */
+"item_details_setup_totp_how_title" = "How would you like to setup 2FA?";
 
 /* Manual (Standard/RFC 6238)... */
 "item_details_setup_totp_manual_rfc" = "Manuális (Standard/RFC 6238)...";
@@ -902,8 +902,8 @@
 /* Notes Text View */
 "notes_cell_textview_accessibility_label" = "Jegyzetek nézete";
 
-/* No TOTP Setup */
-"totp_cell_no_totp_has_been_setup" = "Nincs TOTP beállítás";
+/* No 2FA Setup */
+"totp_cell_no_totp_has_been_setup" = "No 2FA Setup";
 
 /*  Text Field */
 "generic_kv_cell_value_text_accessibility label_fmt" = " Szövegmező";
@@ -1913,8 +1913,8 @@
 /* Custom Fields */
 "generic_fieldname_custom_field" = "Egyedi mező";
 
-/* TOTP */
-"generic_fieldname_totp" = "TOTP";
+/* 2FA */
+"generic_fieldname_totp" = "2FA Code";
 
 /* Attachments */
 "generic_fieldname_attachments" = "Mellékletek";
@@ -2423,11 +2423,11 @@
 /* Remove Custom Field */
 "mac_undo_action_remove_custom_field" = "Egyéni mező eltávolítása";
 
-/* Set TOTP */
-"mac_undo_action_set_totp" = "TOTP beállítása";
+/* Set 2FA */
+"mac_undo_action_set_totp" = "Set 2FA";
 
-/* Clear TOTP */
-"mac_undo_action_clear_totp" = "TOTP törlése";
+/* Clear 2FA */
+"mac_undo_action_clear_totp" = "Clear 2FA";
 
 /* Add Items */
 "mac_undo_action_add_items" = "Elemek hozzáadása";
@@ -2932,10 +2932,10 @@
 /* Weak/Entropy */
 "audit_quick_summary_very_brief_low_entropy" = "Gyenge/Entrópia";
 
-/* 2FA Available - L10n - please keep this as short as possible, "2FA" will probably suffice. The meaning of this string is that Strongbox has discovered the 2 Factor Authentication is available for this entry given it's URL/Domain, but that the user does not have a 2 Factor Code (TOTP) setup within Strongbox */
+/* 2FA Available - L10n - please keep this as short as possible, "2FA" will probably suffice. The meaning of this string is that Strongbox has discovered the 2 Factor Authentication is available for this entry given it's URL/Domain, but that the user does not have a 2 Factor Code (2FA) setup within Strongbox */
 "audit_quick_summary_very_brief_two_factor_available" = "2FA elérhető";
 
-/* 2 Factor Authentication is available for this domain. - L10n - The meaning of this string is that Strongbox has discovered the 2 Factor Authentication is available for this entry given it's URL/Domain, but that the user does not have a 2 Factor Code (TOTP) setup within Strongbox */
+/* 2 Factor Authentication is available for this domain. - L10n - The meaning of this string is that Strongbox has discovered the 2 Factor Authentication is available for this entry given it's URL/Domain, but that the user does not have a 2 Factor Code (2FA) setup within Strongbox */
 "audit_quick_summary_two_factor_available" = "A 2 faktoros hitelesítés elérhető ebben a tartományban.";
 
 /* Password is weak (low entropy) */
@@ -2953,11 +2953,11 @@
 /* View all entries with audit issues */
 "quick_view_title_audit_issues_subtitle" = "Az összes auditálási problémával rendelkező bejegyzés megtekintése";
 
-/* 2FA Entries */
-"quick_view_title_totp_entries_title" = "2FA Entries";
+/* 2FA Codes */
+"quick_view_title_totp_entries_title" = "2FA Codes";
 
-/* View all entries with a 2FA code */
-"quick_view_title_totp_entries_subtitle" = "View all entries with a 2FA code";
+/* View all entries with a 2FA Code */
+"quick_view_title_totp_entries_subtitle" = "View all entries with a 2FA Code";
 
 /* Quick Views */
 "quick_view_section_title_quick_views" = "Gyorsnézet";
@@ -4055,11 +4055,11 @@
 /* Done. ✅ */
 "sync_log_status_done" = "Kész. ✅";
 
-/* TOTP Copied */
-"autofill_info_totp_copied_title" = "TOTP elmásolva";
+/* 2FA Copied */
+"autofill_info_totp_copied_title" = "2FA Copied";
 
-/* Your TOTP Code has been copied to the clipboard. */
-"autofill_info_totp_copied_message" = "A TOTP kódja a vágólapra lett másolva.";
+/* Your 2FA Code has been copied to the clipboard. */
+"autofill_info_totp_copied_message" = "Your 2FA Code has been copied to the clipboard.";
 
 /* Convenience Auto Unlock */
 "prefs_vc_autofill_convenience_auto_unlock" = "Kényelmi feloldás";
@@ -4620,8 +4620,8 @@
 /* Your import was successful! Now, let's set a strong master password and save your new Strongbox database. */
 "import_successful_message" = "Az importálás sikeres volt! Most állítsunk be egy erős mesterjelszót, és mentsük el az új Strongbox adatbázist.";
 
-/* Are you sure you want to clear the TOTP for this entry? */
-"are_you_sure_clear_totp" = "Biztos, hogy törli a TOTP-t ehhez a bejegyzéshez?";
+/* Are you sure you want to clear the 2FA Code for this entry? */
+"are_you_sure_clear_totp" = "Are you sure you want to clear the 2FA Code for this entry?";
 
 /* Date Created (Precise) */
 "databases_preferences_subtitle_field_name_create_date_precise" = "Létrehozás dátuma (pontos)";
@@ -4753,8 +4753,8 @@
 /* Are you sure you want to delete the selected field(s)? */
 "are_you_sure_delete_custom_field_s" = "Biztosan törli a kiválasztott mező(ke)t?";
 
-/* Found TOTP Code in '%@' Window - Localization Note: The parameter here is an App name like "Firefox" or "Safari" */
-"found_totp_code_in_x_window_fmt" = "Van egy TOTP kód a '%@' ablakban";
+/* Found 2FA Code in '%@' Window - Localization Note: The parameter here is an App name like "Firefox" or "Safari" */
+"found_totp_code_in_x_window_fmt" = "Found 2FA Code in '%@' Window";
 
 /* Randomly Generated */
 "menu_item_header_randomly_generated_suggestions" = "Véletlenszerűen generált";
@@ -5320,8 +5320,8 @@
 /* iCloud Keychain (CSV) */
 "safes_vc_import_icloud" = "iCloud kulcskarika (CSV)";
 
-/* Disabling Auto-Commit could mean you lose this TOTP if you forget to commit later, are you sure? */
-"are_you_sure_auto_commit_totp_msg" = "Az automatikus commit kikapcsolása azt jelentheti, hogy elveszíti ezt a TOTP-ot, ha később elfelejti a commitot. Biztos vagy benne?";
+/* Disabling Auto-Commit could mean you lose this 2FA Code if you forget to commit later, are you sure? */
+"are_you_sure_auto_commit_totp_msg" = "Disabling Auto-Commit could mean you lose this 2FA Code if you forget to commit later. Are you sure?";
 
 /* Close - A generic verb - to Close a popup or dialog */
 "generic_verb_close" = "Bezárás";
@@ -5553,8 +5553,8 @@
 /* Please consider sharing (support@strongboxsafe.com) the above messages with us to help us improve the import process.*/
 "import_please_share_import_messages" = "Kérjük, fontolja meg a fenti üzenetek megosztását (support@strongboxsafe.com) velünk, hogy segítsen nekünk javítani az importálási folyamatot.";
 
-/* TOTP Secret */
-"generic_totp_secret" = "TOTP Titok";
+/* 2FA Secret */
+"generic_totp_secret" = "2FA Secret";
 
 /* Select Items */
 "generic_select_items" = "Elemek kiválasztása";
@@ -6410,7 +6410,7 @@
 
 "audit_view_section_footer_entropy" = "These are entries whose complexity falls below a certain threshold which could be considered weak.";
 
-"audit_view_section_footer_2fa" = "These are entries that are marked as having known two factor authentication available but without an existing 2FA code set.";
+"audit_view_section_footer_2fa" = "These are entries that are marked as having known two factor authentication available but without an existing 2FA Code set.";
 
 "anonymous_group_number_fmt" = "Group #%@";
 
