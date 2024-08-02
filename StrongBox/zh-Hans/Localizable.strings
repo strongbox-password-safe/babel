@@ -284,8 +284,8 @@
 /* Copy Password */
 "browse_prefs_tap_action_copy_copy_password" = "复制密码";
 
-/* Copy TOTP */
-"browse_prefs_tap_action_copy_copy_totp" = "复制 TOTP";
+/* Copy 2FA */
+"browse_prefs_tap_action_copy_copy_totp" = "Copy 2FA Code";
 
 /* Copy URL */
 "browse_prefs_tap_action_copy_copy_url" = "复制 URL";
@@ -317,8 +317,8 @@
 /* Group Hierarchy */
 "browse_prefs_view_as_folders" = "群组";
 
-/* TOTPs */
-"browse_prefs_view_as_totp_list" = "TOTP";
+/* 2FA */
+"browse_prefs_view_as_totp_list" = "2FA";
 
 /* Set Icon */
 "browse_vc_action_set_icon" = "设置图标";
@@ -374,8 +374,8 @@
 /* (in %@) - Translator's note, the 1st param is the name of the group that this search result is found in, e.g. 'Finance' or 'Work' */
 "browse_vc_group_path_string_fmt" = "（在 %@ 中）";
 
-/* '%@': No TOTP setup to Copy! */
-"browse_vc_no_totp_to_copy_fmt" = "'%@': 没有可复制的 TOTP 设置！";
+/* '%@': No 2FA setup to Copy! */
+"browse_vc_no_totp_to_copy_fmt" = "'%@': No 2FA setup to Copy!";
 
 /* '%@' Notes Copied  - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
 "browse_vc_notes_copied_fmt" = "'%@' 备注已复制";
@@ -419,8 +419,8 @@
 /* No Entries */
 "browse_vc_view_as_database_empty" = "无条目";
 
-/* No TOTPs Found */
-"browse_vc_view_as_totp_no_totps" = "未找到 TOTP";
+/* No 2FA Codes Found */
+"browse_vc_view_as_totp_no_totps" = "No 2FA Codes Found";
 
 /* No matching entries found */
 "browse_vc_view_search_no_matches" = "未找到匹配条目";
@@ -605,20 +605,20 @@
 /* Metadata */
 "item_details_section_header_metadata" = "元数据";
 
-/* Setup TOTP... */
-"item_details_setup_totp" = "设置 TOTP...";
+/* Setup 2FA Code... */
+"item_details_setup_totp" = "Setup 2FA Code...";
 
-/* Could not set TOTP because the format is unsupported. */
-"item_details_setup_totp_failed_message" = "不支持该 TOTP 格式，无法设置。";
+/* Could not set 2FA because the format is unsupported. */
+"item_details_setup_totp_failed_message" = "Could not set 2FA Code because the format is unsupported.";
 
-/* Failed to Set TOTP */
-"item_details_setup_totp_failed_title" = "未能设置 TOTP";
+/* Failed to Set 2FA */
+"item_details_setup_totp_failed_title" = "Failed to Set 2FA Code";
 
-/* You can setup TOTP by using a QR Code, or manually by entering the secret or an OTPAuth URL */
-"item_details_setup_totp_how_message" = "您可以使用二维码来设置 TOTP，或者通过输入私钥或 OTPAuth URL 来手动设置 TOTP。";
+/* You can setup 2FA Code by using a QR Code, or manually by entering the secret or an OTPAuth URL */
+"item_details_setup_totp_how_message" = "You can setup a 2FA Code by using a QR Code, or manually by entering the secret or an OTPAuth URL";
 
-/* How would you like to setup TOTP? */
-"item_details_setup_totp_how_title" = "您想如何设置 TOTP？";
+/* How would you like to setup 2FA? */
+"item_details_setup_totp_how_title" = "How would you like to setup 2FA?";
 
 /* Manual (Standard/RFC 6238)... */
 "item_details_setup_totp_manual_rfc" = "手动(标准/RFC 6238)...";
@@ -902,8 +902,8 @@
 /* Notes Text View */
 "notes_cell_textview_accessibility_label" = "备注文本视图";
 
-/* No TOTP Setup */
-"totp_cell_no_totp_has_been_setup" = "无 TOTP 设置";
+/* No 2FA Setup */
+"totp_cell_no_totp_has_been_setup" = "No 2FA Setup";
 
 /*  Text Field */
 "generic_kv_cell_value_text_accessibility label_fmt" = " 文本字段";
@@ -1913,8 +1913,8 @@
 /* Custom Fields */
 "generic_fieldname_custom_field" = "自定义字段";
 
-/* TOTP */
-"generic_fieldname_totp" = "TOTP";
+/* 2FA */
+"generic_fieldname_totp" = "2FA Code";
 
 /* Attachments */
 "generic_fieldname_attachments" = "附件";
@@ -2423,11 +2423,11 @@
 /* Remove Custom Field */
 "mac_undo_action_remove_custom_field" = "移除自定义字段";
 
-/* Set TOTP */
-"mac_undo_action_set_totp" = "设置 TOTP";
+/* Set 2FA */
+"mac_undo_action_set_totp" = "Set 2FA";
 
-/* Clear TOTP */
-"mac_undo_action_clear_totp" = "清除 TOTP";
+/* Clear 2FA */
+"mac_undo_action_clear_totp" = "Clear 2FA";
 
 /* Add Items */
 "mac_undo_action_add_items" = "添加项目";
@@ -2932,10 +2932,10 @@
 /* Weak/Entropy */
 "audit_quick_summary_very_brief_low_entropy" = "弱/熵";
 
-/* 2FA Available - L10n - please keep this as short as possible, "2FA" will probably suffice. The meaning of this string is that Strongbox has discovered the 2 Factor Authentication is available for this entry given it's URL/Domain, but that the user does not have a 2 Factor Code (TOTP) setup within Strongbox */
+/* 2FA Available - L10n - please keep this as short as possible, "2FA" will probably suffice. The meaning of this string is that Strongbox has discovered the 2 Factor Authentication is available for this entry given it's URL/Domain, but that the user does not have a 2 Factor Code (2FA) setup within Strongbox */
 "audit_quick_summary_very_brief_two_factor_available" = "可设置两步验证";
 
-/* 2 Factor Authentication is available for this domain. - L10n - The meaning of this string is that Strongbox has discovered the 2 Factor Authentication is available for this entry given it's URL/Domain, but that the user does not have a 2 Factor Code (TOTP) setup within Strongbox */
+/* 2 Factor Authentication is available for this domain. - L10n - The meaning of this string is that Strongbox has discovered the 2 Factor Authentication is available for this entry given it's URL/Domain, but that the user does not have a 2 Factor Code (2FA) setup within Strongbox */
 "audit_quick_summary_two_factor_available" = "该域名支持两步验证。";
 
 /* Password is weak (low entropy) */
@@ -2953,11 +2953,11 @@
 /* View all entries with audit issues */
 "quick_view_title_audit_issues_subtitle" = "查看所有存在审计问题的条目";
 
-/* 2FA Entries */
-"quick_view_title_totp_entries_title" = "2FA Entries";
+/* 2FA Codes */
+"quick_view_title_totp_entries_title" = "2FA Codes";
 
-/* View all entries with a 2FA code */
-"quick_view_title_totp_entries_subtitle" = "View all entries with a 2FA code";
+/* View all entries with a 2FA Code */
+"quick_view_title_totp_entries_subtitle" = "View all entries with a 2FA Code";
 
 /* Quick Views */
 "quick_view_section_title_quick_views" = "快速视图";
@@ -4055,11 +4055,11 @@
 /* Done. ✅ */
 "sync_log_status_done" = "完成。✅";
 
-/* TOTP Copied */
-"autofill_info_totp_copied_title" = "已复制 TOTP";
+/* 2FA Copied */
+"autofill_info_totp_copied_title" = "2FA Copied";
 
-/* Your TOTP Code has been copied to the clipboard. */
-"autofill_info_totp_copied_message" = "您的 TOTP 代码已复制到剪贴板。";
+/* Your 2FA Code has been copied to the clipboard. */
+"autofill_info_totp_copied_message" = "Your 2FA Code has been copied to the clipboard.";
 
 /* Convenience Auto Unlock */
 "prefs_vc_autofill_convenience_auto_unlock" = "便捷自动解锁";
@@ -4620,8 +4620,8 @@
 /* Your import was successful! Now, let's set a strong master password and save your new Strongbox database. */
 "import_successful_message" = "导入成功！现在，让我们设置一个强大的主密码并保存这个全新的 Strongbox 数据库。";
 
-/* Are you sure you want to clear the TOTP for this entry? */
-"are_you_sure_clear_totp" = "您确定要清除此条目的TOTP吗？";
+/* Are you sure you want to clear the 2FA Code for this entry? */
+"are_you_sure_clear_totp" = "Are you sure you want to clear the 2FA Code for this entry?";
 
 /* Date Created (Precise) */
 "databases_preferences_subtitle_field_name_create_date_precise" = "创建日期 （精确）";
@@ -4753,8 +4753,8 @@
 /* Are you sure you want to delete the selected field(s)? */
 "are_you_sure_delete_custom_field_s" = "您确定要删除选中的字段吗？";
 
-/* Found TOTP Code in '%@' Window - Localization Note: The parameter here is an App name like "Firefox" or "Safari" */
-"found_totp_code_in_x_window_fmt" = "在 '%@' 窗口中找到 TOTP 代码";
+/* Found 2FA Code in '%@' Window - Localization Note: The parameter here is an App name like "Firefox" or "Safari" */
+"found_totp_code_in_x_window_fmt" = "Found 2FA Code in '%@' Window";
 
 /* Randomly Generated */
 "menu_item_header_randomly_generated_suggestions" = "随机生成";
@@ -5320,8 +5320,8 @@
 /* iCloud Keychain (CSV) */
 "safes_vc_import_icloud" = "iCloud Keychain (CSV)";
 
-/* Disabling Auto-Commit could mean you lose this TOTP if you forget to commit later, are you sure? */
-"are_you_sure_auto_commit_totp_msg" = "禁用自动提交可能意味着如果您稍后忘记提交，您将会丢失这个 TOTP，您确定吗？";
+/* Disabling Auto-Commit could mean you lose this 2FA Code if you forget to commit later, are you sure? */
+"are_you_sure_auto_commit_totp_msg" = "Disabling Auto-Commit could mean you lose this 2FA Code if you forget to commit later. Are you sure?";
 
 /* Close - A generic verb - to Close a popup or dialog */
 "generic_verb_close" = "关闭";
@@ -5553,8 +5553,8 @@
 /* Please consider sharing (support@strongboxsafe.com) the above messages with us to help us improve the import process.*/
 "import_please_share_import_messages" = "请考虑同我们 (support@strongboxsafe.com) 分享上述消息以帮助我们改进导入体验。";
 
-/* TOTP Secret */
-"generic_totp_secret" = "TOTP 密钥";
+/* 2FA Secret */
+"generic_totp_secret" = "2FA Secret";
 
 /* Select Items */
 "generic_select_items" = "选择项目";
@@ -6410,7 +6410,7 @@
 
 "audit_view_section_footer_entropy" = "These are entries whose complexity falls below a certain threshold which could be considered weak.";
 
-"audit_view_section_footer_2fa" = "These are entries that are marked as having known two factor authentication available but without an existing 2FA code set.";
+"audit_view_section_footer_2fa" = "These are entries that are marked as having known two factor authentication available but without an existing 2FA Code set.";
 
 "anonymous_group_number_fmt" = "Group #%@";
 
