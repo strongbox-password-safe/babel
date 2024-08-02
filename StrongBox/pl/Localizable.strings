@@ -285,7 +285,7 @@
 "browse_prefs_tap_action_copy_copy_password" = "Skopiuj hasło";
 
 /* Copy 2FA */
-"browse_prefs_tap_action_copy_copy_totp" = "Copy 2FA Code";
+"browse_prefs_tap_action_copy_copy_totp" = "Kopiuj kod 2FA";
 
 /* Copy URL */
 "browse_prefs_tap_action_copy_copy_url" = "Skopiuj URL";
@@ -375,7 +375,7 @@
 "browse_vc_group_path_string_fmt" = "(w %@)";
 
 /* '%@': No 2FA setup to Copy! */
-"browse_vc_no_totp_to_copy_fmt" = "'%@': No 2FA setup to Copy!";
+"browse_vc_no_totp_to_copy_fmt" = "\"%@': Brak konfiguracji 2FA do skopiowania!";
 
 /* '%@' Notes Copied  - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
 "browse_vc_notes_copied_fmt" = "'Skopiowano notatki '%@'";
@@ -420,7 +420,7 @@
 "browse_vc_view_as_database_empty" = "Brak wpisów";
 
 /* No 2FA Codes Found */
-"browse_vc_view_as_totp_no_totps" = "No 2FA Codes Found";
+"browse_vc_view_as_totp_no_totps" = "Nie znaleziono kodów 2FA";
 
 /* No matching entries found */
 "browse_vc_view_search_no_matches" = "Nie znaleziono pasujących wpisów";
@@ -606,19 +606,19 @@
 "item_details_section_header_metadata" = "Metadane";
 
 /* Setup 2FA Code... */
-"item_details_setup_totp" = "Setup 2FA Code...";
+"item_details_setup_totp" = "Konfiguracja kodu 2FA...";
 
 /* Could not set 2FA because the format is unsupported. */
-"item_details_setup_totp_failed_message" = "Could not set 2FA Code because the format is unsupported.";
+"item_details_setup_totp_failed_message" = "Nie można ustawić kodu 2FA, ponieważ format nie jest obsługiwany.";
 
 /* Failed to Set 2FA */
-"item_details_setup_totp_failed_title" = "Failed to Set 2FA Code";
+"item_details_setup_totp_failed_title" = "Nie powiodło się ustawienie kodu 2FA";
 
 /* You can setup 2FA Code by using a QR Code, or manually by entering the secret or an OTPAuth URL */
-"item_details_setup_totp_how_message" = "You can setup a 2FA Code by using a QR Code, or manually by entering the secret or an OTPAuth URL";
+"item_details_setup_totp_how_message" = "Możesz skonfigurować kod 2FA używając kodu QR lub ręcznie wpisując tajny klucz lub OTPAuth URL";
 
 /* How would you like to setup 2FA? */
-"item_details_setup_totp_how_title" = "How would you like to setup 2FA?";
+"item_details_setup_totp_how_title" = "W jaki sposób chcesz skonfigurować 2FA?";
 
 /* Manual (Standard/RFC 6238)... */
 "item_details_setup_totp_manual_rfc" = "Ręcznie (Standard/RFC 6238)...";
@@ -903,7 +903,7 @@
 "notes_cell_textview_accessibility_label" = "Widok tekstu notatek";
 
 /* No 2FA Setup */
-"totp_cell_no_totp_has_been_setup" = "No 2FA Setup";
+"totp_cell_no_totp_has_been_setup" = "Brak konfiguracji 2FA";
 
 /*  Text Field */
 "generic_kv_cell_value_text_accessibility label_fmt" = " Pole tekstowe";
@@ -1914,7 +1914,7 @@
 "generic_fieldname_custom_field" = "Pole niestandardowe";
 
 /* 2FA */
-"generic_fieldname_totp" = "2FA Code";
+"generic_fieldname_totp" = "Kod 2FA";
 
 /* Attachments */
 "generic_fieldname_attachments" = "Załączniki";
@@ -2424,10 +2424,10 @@
 "mac_undo_action_remove_custom_field" = "Usuń pole niestandardowe";
 
 /* Set 2FA */
-"mac_undo_action_set_totp" = "Set 2FA";
+"mac_undo_action_set_totp" = "Ustaw 2FA";
 
 /* Clear 2FA */
-"mac_undo_action_clear_totp" = "Clear 2FA";
+"mac_undo_action_clear_totp" = "Wyczyść 2FA";
 
 /* Add Items */
 "mac_undo_action_add_items" = "Dodaj elementy";
@@ -2954,10 +2954,10 @@
 "quick_view_title_audit_issues_subtitle" = "Zobacz wszystkie wpisy z wykrytymi problemami";
 
 /* 2FA Codes */
-"quick_view_title_totp_entries_title" = "2FA Codes";
+"quick_view_title_totp_entries_title" = "Kody 2FA";
 
 /* View all entries with a 2FA Code */
-"quick_view_title_totp_entries_subtitle" = "View all entries with a 2FA Code";
+"quick_view_title_totp_entries_subtitle" = "Zobacz wszystkie wpisy z kodem 2FA";
 
 /* Quick Views */
 "quick_view_section_title_quick_views" = "Szybki podgląd";
@@ -4056,10 +4056,10 @@
 "sync_log_status_done" = "Gotowe. ✅";
 
 /* 2FA Copied */
-"autofill_info_totp_copied_title" = "2FA Copied";
+"autofill_info_totp_copied_title" = "Skopiowano 2FA";
 
 /* Your 2FA Code has been copied to the clipboard. */
-"autofill_info_totp_copied_message" = "Your 2FA Code has been copied to the clipboard.";
+"autofill_info_totp_copied_message" = "Twój kod 2FA został skopiowany do schowka.";
 
 /* Convenience Auto Unlock */
 "prefs_vc_autofill_convenience_auto_unlock" = "Wygodne Automatyczne Odblokowanie";
@@ -4621,7 +4621,7 @@
 "import_successful_message" = "Twój import zakończył się pomyślnie! Teraz ustaw silne hasło główne i zapisz swoją nową bazę danych Strongbox.";
 
 /* Are you sure you want to clear the 2FA Code for this entry? */
-"are_you_sure_clear_totp" = "Are you sure you want to clear the 2FA Code for this entry?";
+"are_you_sure_clear_totp" = "Czy na pewno chcesz wyczyścić kod 2FA dla tego wpisu?";
 
 /* Date Created (Precise) */
 "databases_preferences_subtitle_field_name_create_date_precise" = "Data utworzenia (Dokładna)";
@@ -4754,7 +4754,7 @@
 "are_you_sure_delete_custom_field_s" = "Czy na pewno chcesz usunąć zaznaczone pola?";
 
 /* Found 2FA Code in '%@' Window - Localization Note: The parameter here is an App name like "Firefox" or "Safari" */
-"found_totp_code_in_x_window_fmt" = "Found 2FA Code in '%@' Window";
+"found_totp_code_in_x_window_fmt" = "Znaleziono kod 2FA w oknie '%@'";
 
 /* Randomly Generated */
 "menu_item_header_randomly_generated_suggestions" = "Wygenerowane losowo";
@@ -5321,7 +5321,7 @@
 "safes_vc_import_icloud" = "iCloud Keychain (CSV)";
 
 /* Disabling Auto-Commit could mean you lose this 2FA Code if you forget to commit later, are you sure? */
-"are_you_sure_auto_commit_totp_msg" = "Disabling Auto-Commit could mean you lose this 2FA Code if you forget to commit later. Are you sure?";
+"are_you_sure_auto_commit_totp_msg" = "Wyłączenie automatycznego zatwierdzania może oznaczać, że stracisz ten kod 2FA, jeśli zapomnisz później zatwierdzić. Czy jesteś pewien?";
 
 /* Close - A generic verb - to Close a popup or dialog */
 "generic_verb_close" = "Zamknij";
@@ -5554,7 +5554,7 @@
 "import_please_share_import_messages" = "Proszę, udostępnij nam (support@strongboxsafe.com) powyższe wiadomości w celu udoskonalenia procesu importu.";
 
 /* 2FA Secret */
-"generic_totp_secret" = "2FA Secret";
+"generic_totp_secret" = "Sekret 2FA";
 
 /* Select Items */
 "generic_select_items" = "Wybierz elementy";
@@ -6410,7 +6410,7 @@
 
 "audit_view_section_footer_entropy" = "To są wpisy, których złożoność jest tak niska, że należy je uznać za słabe.";
 
-"audit_view_section_footer_2fa" = "These are entries that are marked as having known two factor authentication available but without an existing 2FA Code set.";
+"audit_view_section_footer_2fa" = "To są wpisy oznaczone jako posiadające znane uwierzytelnianie dwuskładnikowe, ale bez istniejącego zestawu kodów 2FA.";
 
 "anonymous_group_number_fmt" = "Grupa #%@";
 
