@@ -4621,7 +4621,7 @@
 "import_successful_message" = "Ваш імпорт пройшов успішно! Тепер встановимо складний головний пароль та збережемо нову базу паролів Strongbox.";
 
 /* Are you sure you want to clear the 2FA Code for this entry? */
-"are_you_sure_clear_totp" = "Are you sure you want to clear the 2FA Code for this entry?";
+"are_you_sure_clear_totp" = "Ви дійсно хочете очистити 2FA-код для цього запису?";
 
 /* Date Created (Precise) */
 "databases_preferences_subtitle_field_name_create_date_precise" = "Дата створення (точно)";
@@ -4682,10 +4682,10 @@
 "generic_dont_ask_again" = "Не питати знову";
 
 /* Yes, don't ask again */
-"generic_yes_dont_ask_again" = "Yes, don't ask again";
+"generic_yes_dont_ask_again" = "Так, не запитувати знову";
 
 /* No, don't ask again */
-"generic_no_dont_ask_again" = "No, don't ask again";
+"generic_no_dont_ask_again" = "Ні, не запитувати знову";
 
 /* Not Right Now */
 "generic_not_right_now" = "Не зараз";
@@ -4754,7 +4754,7 @@
 "are_you_sure_delete_custom_field_s" = "Ви впевнені, що хочете видалити вибрані поля?";
 
 /* Found 2FA Code in '%@' Window - Localization Note: The parameter here is an App name like "Firefox" or "Safari" */
-"found_totp_code_in_x_window_fmt" = "Found 2FA Code in '%@' Window";
+"found_totp_code_in_x_window_fmt" = "Знайдено 2FA-код у вікні '%@'";
 
 /* Randomly Generated */
 "menu_item_header_randomly_generated_suggestions" = "Випадково згенеровано";
@@ -4769,7 +4769,7 @@
 "pasted_image_attachment_at_time_filename_png_fmt" = "paste-at-%@.png";
 
 /* Groups */
-"side_bar_hierarchy_folder_structure" = "Groups";
+"side_bar_hierarchy_folder_structure" = "Групи";
 
 /* Discard Changes */
 "discard_changes" = "Відхилити зміни";
@@ -5321,7 +5321,7 @@
 "safes_vc_import_icloud" = "iCloud Keychain (CSV)";
 
 /* Disabling Auto-Commit could mean you lose this 2FA Code if you forget to commit later, are you sure? */
-"are_you_sure_auto_commit_totp_msg" = "Disabling Auto-Commit could mean you lose this 2FA Code if you forget to commit later. Are you sure?";
+"are_you_sure_auto_commit_totp_msg" = "Вимкнення автовведення означає, що ви можете втратити цей 2FA-код, якщо забудете його ввести. Ви впевнені?";
 
 /* Close - A generic verb - to Close a popup or dialog */
 "generic_verb_close" = "Закрити";
@@ -5384,7 +5384,7 @@
 "mac_create_or_edit_commit_changes" = "Зберегти (⌘S)";
 
 /* Hierarchy (%@ Groups, %@ Entries) - L10n Note - The two parameters are numeric, so for example: "23 Groups, 3456 Entries"*/
-"side_bar_hierarchy_folder_structure_summary_count_fmt" = "Groups (%@ Groups, %@ Entries)";
+"side_bar_hierarchy_folder_structure_summary_count_fmt" = "Групи (%@ груп, %@ записів)";
 
 /* Entries */
 "side_bar_child_count_format_entries" = "Записи";
@@ -5554,7 +5554,7 @@
 "import_please_share_import_messages" = "Будь ласка, надішліть нам (support@strongboxsafe.com) зазначені вище повідомлення, щоб ми могли вдосконалити процес імпортування.";
 
 /* 2FA Secret */
-"generic_totp_secret" = "2FA Secret";
+"generic_totp_secret" = "Ключ 2FA";
 
 /* Select Items */
 "generic_select_items" = "Виберіть записи";
@@ -6055,25 +6055,25 @@
 "storage_provider_cloudkit_display_name" = "Strongbox Sync";
 
 /* Available - L10n note: This is a state. A service is available. e.g. iCloud is Available */
-"generic_noun_state_available" = "Available";
+"generic_noun_state_available" = "Доступно";
 
 /* Could Not Determine */
-"cloudkit_status_could_not_determine" = "Could Not Determine";
+"cloudkit_status_could_not_determine" = "Не вдалося визначити";
 
 /* Restricted due to Parental Controls / Device Management. */
-"cloudkit_status_restricted" = "Restricted due to Parental Controls / Device Management.";
+"cloudkit_status_restricted" = "Обмежено батьківським контролем / керуванням пристроями.";
 
 /* Unavailable. Check Apple account in System Settings. */
-"cloudkit_status_unavailable" = "Unavailable. Check Apple account in System Settings.";
+"cloudkit_status_unavailable" = "Недоступно. Перевірте обліковий запис Apple у параметрах системи.";
 
 /* Temporarily Unavailable. Check Apple account in System Settings. */
-"cloudkit_status_temporarily_unavailable" = "Temporarily Unavailable. Check Apple account in System Settings.";
+"cloudkit_status_temporarily_unavailable" = "Тимчасово недоступно. Перевірте обліковий запис Apple у параметрах системи.";
 
 /* Accepting Share... - L10n Note: User has chosen to accept an invitation to a Shared Database. This is displayed as a spinner/wait text while the operation completes */
-"accepting_share_status_spinner" = "Accepting Share...";
+"accepting_share_status_spinner" = "Приймаю спільний доступ...";
 
 /* Strongbox Sync Unavailable */
-"strongbox_sync_unavailable_title" = "Strongbox Sync Unavailable";
+"strongbox_sync_unavailable_title" = "Strongbox Sync недоступний";
 
 /* Strongbox Sync has become unavailable. Please check you are signed in to your Apple account in System Settings. */
 "strongbox_sync_unavailable_msg" = "Strongbox Sync has become unavailable. Please check you are signed in to your Apple account in System Settings.";
