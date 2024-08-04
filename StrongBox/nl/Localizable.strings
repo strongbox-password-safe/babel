@@ -32,10 +32,10 @@
 "safes_vc_action_set_as_quick_launch" = "Zet Snel starten Aan";
 
 /* Visible in Files app */
-"safes_vc_show_in_files" = "Files Visibility: Shown";
+"safes_vc_show_in_files" = "Zichtbaarheid bestanden: Getoond";
 
 /* Hidden from Files app */
-"safes_vc_make_autofillable" = "Files Visibility: Hidden";
+"safes_vc_make_autofillable" = "Zichtbaarheid bestanden: Verborgen";
 
 /* Title of Prompt about setting Quick Launch */
 "safes_vc_about_quick_launch_title" = "Over Snel starten";
@@ -285,7 +285,7 @@
 "browse_prefs_tap_action_copy_copy_password" = "Kopieer wachtwoord";
 
 /* Copy 2FA */
-"browse_prefs_tap_action_copy_copy_totp" = "Copy 2FA Code";
+"browse_prefs_tap_action_copy_copy_totp" = "Kopieer 2FA-code";
 
 /* Copy URL */
 "browse_prefs_tap_action_copy_copy_url" = "Kopieer url";
@@ -375,7 +375,7 @@
 "browse_vc_group_path_string_fmt" = "(in %@)";
 
 /* '%@': No 2FA setup to Copy! */
-"browse_vc_no_totp_to_copy_fmt" = "'%@': No 2FA setup to Copy!";
+"browse_vc_no_totp_to_copy_fmt" = "'%@': geen 2FA-configuratie om te kopiëren!";
 
 /* '%@' Notes Copied  - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
 "browse_vc_notes_copied_fmt" = "Opmerkingen van '%@' gekopieerd";
@@ -420,7 +420,7 @@
 "browse_vc_view_as_database_empty" = "Geen onderdelen";
 
 /* No 2FA Codes Found */
-"browse_vc_view_as_totp_no_totps" = "No 2FA Codes Found";
+"browse_vc_view_as_totp_no_totps" = "Geen 2FA-codes gevonden";
 
 /* No matching entries found */
 "browse_vc_view_search_no_matches" = "Geen overeenkomende onderdelen gevonden";
@@ -606,25 +606,25 @@
 "item_details_section_header_metadata" = "Metagegevens";
 
 /* Setup 2FA Code... */
-"item_details_setup_totp" = "Setup 2FA Code...";
+"item_details_setup_totp" = "Configureer 2FA-code...";
 
 /* Could not set 2FA because the format is unsupported. */
-"item_details_setup_totp_failed_message" = "Could not set 2FA Code because the format is unsupported.";
+"item_details_setup_totp_failed_message" = "Kan 2FA-code niet configureren omdat de structuur ervan niet ondersteund wordt.";
 
 /* Failed to Set 2FA */
-"item_details_setup_totp_failed_title" = "Failed to Set 2FA Code";
+"item_details_setup_totp_failed_title" = "Fout bij configureren 2FA-code";
 
 /* You can setup 2FA Code by using a QR Code, or manually by entering the secret or an OTPAuth URL */
-"item_details_setup_totp_how_message" = "You can setup a 2FA Code by using a QR Code, or manually by entering the secret or an OTPAuth URL";
+"item_details_setup_totp_how_message" = "Je kunt een 2FA-code configureren door middel van een QR-code of handmatig door het geheim of een OTPAuth-url in te voeren";
 
 /* How would you like to setup 2FA? */
-"item_details_setup_totp_how_title" = "How would you like to setup 2FA?";
+"item_details_setup_totp_how_title" = "Hoe wil je 2FA configureren?";
 
 /* Manual (Standard/RFC 6238)... */
 "item_details_setup_totp_manual_rfc" = "Handmatig (Standaard/RFC 6238)...";
 
 /* Manual (Steam Token)... */
-"item_details_setup_totp_manual_steam" = "Handmatig (Steamtoken)...";
+"item_details_setup_totp_manual_steam" = "Handmatig (Steam-token)...";
 
 /* QR Code... */
 "item_details_setup_totp_qr_code" = "QR-code...";
@@ -903,7 +903,7 @@
 "notes_cell_textview_accessibility_label" = "Weergave opmerkingentekst";
 
 /* No 2FA Setup */
-"totp_cell_no_totp_has_been_setup" = "No 2FA Setup";
+"totp_cell_no_totp_has_been_setup" = "Geen 2FA-configuratie";
 
 /*  Text Field */
 "generic_kv_cell_value_text_accessibility label_fmt" = "Tekstveld";
@@ -1914,7 +1914,7 @@
 "generic_fieldname_custom_field" = "Eigen veld";
 
 /* 2FA */
-"generic_fieldname_totp" = "2FA Code";
+"generic_fieldname_totp" = "2FA-code";
 
 /* Attachments */
 "generic_fieldname_attachments" = "Bijlagen";
@@ -2424,10 +2424,10 @@
 "mac_undo_action_remove_custom_field" = "Verwijdering eigen veld";
 
 /* Set 2FA */
-"mac_undo_action_set_totp" = "Set 2FA";
+"mac_undo_action_set_totp" = "Configureer 2FA";
 
 /* Clear 2FA */
-"mac_undo_action_clear_totp" = "Clear 2FA";
+"mac_undo_action_clear_totp" = "Wis 2FA-configuratie";
 
 /* Add Items */
 "mac_undo_action_add_items" = "Toevoeging onderdelen";
@@ -2954,10 +2954,10 @@
 "quick_view_title_audit_issues_subtitle" = "Toon alle onderdelen met controleproblemen";
 
 /* 2FA Codes */
-"quick_view_title_totp_entries_title" = "2FA Codes";
+"quick_view_title_totp_entries_title" = "2FA-codes";
 
 /* View all entries with a 2FA Code */
-"quick_view_title_totp_entries_subtitle" = "View all entries with a 2FA Code";
+"quick_view_title_totp_entries_subtitle" = "Toon alle onderdelen met een 2FA-code";
 
 /* Quick Views */
 "quick_view_section_title_quick_views" = "Snelle weergaven";
@@ -3173,7 +3173,7 @@
 "audit_manual_pwn_check_result_not_pwned" = "Je wachtwoord komt NIET voor in HIBP en is waarschijnlijk veilig.";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Manual HIBP Result";
+"audit_manual_pwn_check_result_title" = "Handmatig HIBP-resultaat";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "Dit wachtwoord komt voor in HIBP en is kwetsbaar";
@@ -3368,7 +3368,7 @@
 "sftp_path_are_you_sure" = "Weet je zeker dat dit het juiste pad is? Het zou een pad moeten zijn naar een bovenliggende map en niet het databasebestand.";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Are you sure the path is correct? It should be a path to a parent folder. Not the database file.";
+"sftp_path_are_you_sure" = "Weet je zeker dat het pad juist is? Het zou een pad moeten zijn naar een bovenliggende map en niet het databasebestand zelf.";
 
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "Pad Kan Ongeldig Zijn";
@@ -3419,7 +3419,7 @@
 "generic_move" = "Verplaats";
 
 /* Move - Translators Note: Verb - To move something e.g. an entry or group somewhere else in the hierarchy */
-"generic_move_ellipsis" = "Move...";
+"generic_move_ellipsis" = "Verplaats...";
 
 /* New Entry - Translators Note: Menu option to add a new entry */
 "browse_context_menu_new_entry" = "Nieuw onderdeel";
@@ -3638,7 +3638,7 @@
 "merge_view_are_you_sure" = "Weet je zeker dat je de tweede database wilt samenvoegen in de eerste?";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Are you sure you want to merge the second database into the first?";
+"merge_view_are_you_sure" = "Weet je zeker dat je de tweede database wilt samenvoegen met de eerste?";
 
 /* Merge Successful */
 "merge_view_merge_title_success" = "Samenvoegen succesvol";
@@ -4056,10 +4056,10 @@
 "sync_log_status_done" = "Gereed. ✅";
 
 /* 2FA Copied */
-"autofill_info_totp_copied_title" = "2FA Copied";
+"autofill_info_totp_copied_title" = "2FA gekopieerd";
 
 /* Your 2FA Code has been copied to the clipboard. */
-"autofill_info_totp_copied_message" = "Your 2FA Code has been copied to the clipboard.";
+"autofill_info_totp_copied_message" = "Je 2FA-code is gekopieerd naar het klembord.";
 
 /* Convenience Auto Unlock */
 "prefs_vc_autofill_convenience_auto_unlock" = "Ontgrendel automatisch voor gemak";
@@ -4621,7 +4621,7 @@
 "import_successful_message" = "Het importeren is succesvol verlopen! Laten we nu een sterk hoofdwachtwoord instellen en je nieuwe Strongbox-database bewaren.";
 
 /* Are you sure you want to clear the 2FA Code for this entry? */
-"are_you_sure_clear_totp" = "Are you sure you want to clear the 2FA Code for this entry?";
+"are_you_sure_clear_totp" = "Weet je zeker dat je de 2FA-code wilt verwijderen voor dit onderdeel?";
 
 /* Date Created (Precise) */
 "databases_preferences_subtitle_field_name_create_date_precise" = "Aangemaakt op (nauwkeurig)";
@@ -4682,10 +4682,10 @@
 "generic_dont_ask_again" = "Vraag niet opnieuw";
 
 /* Yes, don't ask again */
-"generic_yes_dont_ask_again" = "Yes, don't ask again";
+"generic_yes_dont_ask_again" = "Ja, vraag niet opnieuw";
 
 /* No, don't ask again */
-"generic_no_dont_ask_again" = "No, don't ask again";
+"generic_no_dont_ask_again" = "Nee, vraag niet opnieuw";
 
 /* Not Right Now */
 "generic_not_right_now" = "Niet op dit moment";
@@ -4754,7 +4754,7 @@
 "are_you_sure_delete_custom_field_s" = "Weet je zeker dat je het(/de) gekozen veld(en) wilt verwijderen?";
 
 /* Found 2FA Code in '%@' Window - Localization Note: The parameter here is an App name like "Firefox" or "Safari" */
-"found_totp_code_in_x_window_fmt" = "Found 2FA Code in '%@' Window";
+"found_totp_code_in_x_window_fmt" = "2FA-code gevonden in venster '%@'";
 
 /* Randomly Generated */
 "menu_item_header_randomly_generated_suggestions" = "Willekeurig aangemaakt";
@@ -4769,7 +4769,7 @@
 "pasted_image_attachment_at_time_filename_png_fmt" = "geplakt-op-%@.png";
 
 /* Groups */
-"side_bar_hierarchy_folder_structure" = "Groups";
+"side_bar_hierarchy_folder_structure" = "Groepen";
 
 /* Discard Changes */
 "discard_changes" = "Negeer wijzigingen";
@@ -5321,7 +5321,7 @@
 "safes_vc_import_icloud" = "iCloud Keychain (CSV)";
 
 /* Disabling Auto-Commit could mean you lose this 2FA Code if you forget to commit later, are you sure? */
-"are_you_sure_auto_commit_totp_msg" = "Disabling Auto-Commit could mean you lose this 2FA Code if you forget to commit later. Are you sure?";
+"are_you_sure_auto_commit_totp_msg" = "Het uitschakelen van Automatisch vastleggen kan tot gevolg hebben dat je deze 2FA-code kwijtraakt als je vergeet deze op een later moment vast te leggen. Weet je zeker dat je dit wilt doen?";
 
 /* Close - A generic verb - to Close a popup or dialog */
 "generic_verb_close" = "Sluit";
@@ -5384,7 +5384,7 @@
 "mac_create_or_edit_commit_changes" = "Bewaar (⌘S)";
 
 /* Hierarchy (%@ Groups, %@ Entries) - L10n Note - The two parameters are numeric, so for example: "23 Groups, 3456 Entries"*/
-"side_bar_hierarchy_folder_structure_summary_count_fmt" = "Groups (%@ Groups, %@ Entries)";
+"side_bar_hierarchy_folder_structure_summary_count_fmt" = "Groepen (%@ groepen, %@ onderdelen)";
 
 /* Entries */
 "side_bar_child_count_format_entries" = "Onderdelen";
@@ -5554,7 +5554,7 @@
 "import_please_share_import_messages" = "Overweeg aub om bovenstaande berichten te delen (support@strongboxsafe.com) om ons te helpen het importproces te verbeteren.";
 
 /* 2FA Secret */
-"generic_totp_secret" = "2FA Secret";
+"generic_totp_secret" = "2FA-geheim";
 
 /* Select Items */
 "generic_select_items" = "Kies onderdelen";
@@ -6055,151 +6055,151 @@
 "storage_provider_cloudkit_display_name" = "Strongbox Sync";
 
 /* Available - L10n note: This is a state. A service is available. e.g. iCloud is Available */
-"generic_noun_state_available" = "Available";
+"generic_noun_state_available" = "Beschikbaar";
 
 /* Could Not Determine */
-"cloudkit_status_could_not_determine" = "Could Not Determine";
+"cloudkit_status_could_not_determine" = "Kan niet bepalen";
 
 /* Restricted due to Parental Controls / Device Management. */
-"cloudkit_status_restricted" = "Restricted due to Parental Controls / Device Management.";
+"cloudkit_status_restricted" = "Beperkt vanwege ouderlijk toezicht / apparaatbeheer.";
 
 /* Unavailable. Check Apple account in System Settings. */
-"cloudkit_status_unavailable" = "Unavailable. Check Apple account in System Settings.";
+"cloudkit_status_unavailable" = "Niet beschikbaar. Controleer het Apple-account in Systeeminstellingen.";
 
 /* Temporarily Unavailable. Check Apple account in System Settings. */
-"cloudkit_status_temporarily_unavailable" = "Temporarily Unavailable. Check Apple account in System Settings.";
+"cloudkit_status_temporarily_unavailable" = "Tijdelijk niet beschikbaar. Controleer het Apple-account in Systeeminstellingen.";
 
 /* Accepting Share... - L10n Note: User has chosen to accept an invitation to a Shared Database. This is displayed as a spinner/wait text while the operation completes */
-"accepting_share_status_spinner" = "Accepting Share...";
+"accepting_share_status_spinner" = "Accepteren van gedeelde database...";
 
 /* Strongbox Sync Unavailable */
-"strongbox_sync_unavailable_title" = "Strongbox Sync Unavailable";
+"strongbox_sync_unavailable_title" = "Strongbox Sync niet beschikbaar";
 
 /* Strongbox Sync has become unavailable. Please check you are signed in to your Apple account in System Settings. */
-"strongbox_sync_unavailable_msg" = "Strongbox Sync has become unavailable. Please check you are signed in to your Apple account in System Settings.";
+"strongbox_sync_unavailable_msg" = "Strongbox Sync is niet meer beschikbaar. Controleer of u bent aangemeld bij uw Apple account in Systeeminstellingen.";
 
 /* Copy To... */
-"database_option_copy_to_ellipsis" = "Copy To...";
+"database_option_copy_to_ellipsis" = "Kopieer naar...";
 
 /* Manage Sharing... */
-"generic_manage_sharing_action_ellipsis" = "Manage Sharing...";
+"generic_manage_sharing_action_ellipsis" = "Beheer delen...";
 
 /* Are you sure you want to remove this database? It will be permanently deleted across all devices.\n\nPlease consider taking a backup local copy first. */
-"ays_remove_database_permanent_all_devices_delete_please_take_backup" = "Are you sure you want to remove this database? It will be permanently deleted across all devices.\n\nPlease consider taking a backup local copy first.";
+"ays_remove_database_permanent_all_devices_delete_please_take_backup" = "Weet je zeker dat je deze database wilt verwijderen? De database wordt permanent verwijderd op alle apparaten.\n\nOverweeg om eerst een lokale reservekopie te maken.";
 
 /* Are you sure you want to remove these database(s) from Strongbox?\n\nNB: Strongbox Sync databases will be permanently deleted across all devices. */
-"ays_remove_databases_strongbox_sync_delete" = "Are you sure you want to remove these database(s) from Strongbox?\n\nNB: Strongbox Sync databases will be permanently deleted across all devices.";
+"ays_remove_databases_strongbox_sync_delete" = "Weet je zeker dat je deze database(s) uit Strongbox wilt verwijderen?\n\nN.B.: Strongbox Sync-databases worden permanent verwijderd op alle apparaten.";
 
 /* Are you sure you want to remove this database from Strongbox? (NB: The underlying database file will be permanently deleted) */
-"ays_remove_database_permanent_delete" = "Are you sure you want to remove this database from Strongbox? (NB: The underlying database file will be permanently deleted)";
+"ays_remove_database_permanent_delete" = "Weet je zeker dat je deze database uit Strongbox wilt verwijderen? (N.B.: Het onderliggende databasebestand wordt permanent verwijderd)";
 
 /* Are you sure you want to remove this database from Strongbox? (NB: The underlying database file will not be deleted) */
-"ays_remove_database_underlying_not_deleted" = "Are you sure you want to remove this database from Strongbox? (NB: The underlying database file will not be deleted)";
+"ays_remove_database_underlying_not_deleted" = "Weet je zeker dat je deze database uit Strongbox wilt verwijderen? (N.B.: Het onderliggende databasebestand wordt niet verwijderd)";
 
 /* Shared Database */
-"strongbox_sync_shared_database_title" = "Shared Database";
+"strongbox_sync_shared_database_title" = "Gedeelde database";
 
 /* This database is shared with you by someone else. To remove this database from your list, tap OK to manage sharing and remove yourself. */
-"strongbox_sync_shared_database_msg" = "This database is shared with you by someone else. To remove this database from your list, tap OK to manage sharing and remove yourself.";
+"strongbox_sync_shared_database_msg" = "Deze database is door iemand anders met je gedeeld. Om deze database uit je lijst te verwijderen, tik je op OK om delen te beheren en jezelf te verwijderen.";
 
 /* Database Created */
-"database_created_title" = "Database Created";
+"database_created_title" = "Database aangemaakt";
 
 /* Your new database is now added and ready to be unlocked. */
-"database_created_msg" = "Your new database is now added and ready to be unlocked.";
+"database_created_msg" = "Je nieuwe database is nu toegevoegd en klaar om ontgrendeld te worden.";
 
 /* The above options are always present. They are not indicative of any existing session. Detecting whether you have an session would require Strongbox to call into 3rd party code which we always try to minimize for security reasons. */
-"cloud_sessions_footer_text_info" = "The above options are always present. They are not indicative of any existing session. Detecting whether you have an session would require Strongbox to call into 3rd party code which we always try to minimize for security reasons.";
+"cloud_sessions_footer_text_info" = "Deze opties zijn altijd aanwezig. Ze geven geen indicatie van een bestaande sessie. Om te detecteren of je een sessie hebt, zou Strongbox code van derden moeten gebruiken, wat we om veiligheidsredenen altijd proberen te minimaliseren.";
 
 /* 3rd Party Options */
-"cloud_sessions_header" = "3rd Party Options";
+"cloud_sessions_header" = "Opties van derden";
 
 /* Copy of %@ - L10n note - Used when copying an item or database, e.g. Copy of Mark's Database */
-"copy_of_fmt" = "Copy of %@";
+"copy_of_fmt" = "Kopie van %@";
 
 /* Storage Method Not Recommended */
-"deprecated_storage_method" = "Storage Method Not Recommended";
+"deprecated_storage_method" = "Opslagmethode niet aanbevolen";
 
 /* We cannot recommend storing your database using this method. Strongbox does not have end to end control over the sync process, and so we cannot guarantee data integrity.\n\nDo you want to continue anyway? */
-"cannot_recommend_storage_msg" = "We cannot recommend storing your database using this method. Strongbox does not have end to end control over the sync process, and so we cannot guarantee data integrity.\n\nDo you want to continue anyway?";
+"cannot_recommend_storage_msg" = "Het is niet raadzaam om je database op te slaan met deze methode. Strongbox heeft geen volledige controle over het synchronisatieproces en daarom kunnen we de integriteit van gegevens niet garanderen.\n\nWil je toch doorgaan?";
 
 /* Our native cloud sync makes your databases available across all of your devices. Sharing with others is also supported. Alternatively, store your database locally on this device only. */
-"blurb_about_strongbox_sync_native_cloud" = "Our native cloud sync makes your databases available across all of your devices. Sharing with others is also supported. Alternatively, store your database locally on this device only.";
+"blurb_about_strongbox_sync_native_cloud" = "Onze ingebouwde cloudsynchronisatie maakt je databases beschikbaar op al je apparaten. Delen met anderen wordt ook ondersteund. Je kunt je database ook alleen lokaal op dit apparaat opslaan.";
 
 /* These method(s) are no longer advised. Your mileage may vary depending on the quality of the third party 'Files' provider, how reliable your connection is and other factors. Ultimately, Strongbox does not have full control over the sync process, and so we cannot guarantee data integrity or offer sync support. */
-"deprecated_storage_footer_text" = "These method(s) are no longer advised. Your mileage may vary depending on the quality of the third party 'Files' provider, how reliable your connection is and other factors. Ultimately, Strongbox does not have full control over the sync process, and so we cannot guarantee data integrity or offer sync support.";
+"deprecated_storage_footer_text" = "Deze methode(n) worden niet langer aangeraden. Je ervaringen kunnen variëren, afhankelijk van de kwaliteit van de externe 'Bestanden'-aanbieder, hoe betrouwbaar je verbinding is en andere factoren. Uiteindelijk heeft Strongbox geen volledige controle over het synchronisatieproces en kunnen we dus geen gegevensintegriteit garanderen of synchronisatieondersteuning bieden.";
 
 /* Built-In (Not Recommended) */
-"storage_provider_built_in_not_recommended_header" = "Built-In (Not Recommended)";
+"storage_provider_built_in_not_recommended_header" = "Ingebouwd (niet aanbevolen)";
 
 /* Shared by you - L10n note: This text indicates that a Strongbox Sync database has been shared with someone else by the user */
-"shared_by_you" = "Shared by you";
+"shared_by_you" = "Gedeeld door jou";
 
 /* Shared with you - L10n note: This text indicates that a Strongbox Sync database has been shared with the user by someone else  */
-"shared_with_you" = "Shared with you";
+"shared_with_you" = "Gedeeld door jou";
 
 /* Our native cloud sync makes your databases available on all of your devices. */
-"strongbox_sync_storage_description" = "Our native cloud sync makes your databases available on all of your devices.";
+"strongbox_sync_storage_description" = "Onze native cloudsynchronisatie maakt je databases beschikbaar op al je apparaten.";
 
 /* Store your database anywhere within your Mac file system. */
-"storage_new_mac_file_description" = "Store your database anywhere within your Mac file system.";
+"storage_new_mac_file_description" = "Sla je database overal op in het bestandssysteem van je Mac.";
 
 /* Add a database from anywhere on your Mac file system. */
-"storage_add_existing_mac_file_description" = "Add a database from anywhere on your Mac file system.";
+"storage_add_existing_mac_file_description" = "Voeg een database toe vanaf elke plek op je Mac-bestandssysteem.";
 
 /* Add Database */
-"select_storage_title_add_existing" = "Add Database";
+"select_storage_title_add_existing" = "Voeg database toe";
 
 /* Import Database */
-"select_storage_title_import" = "Import Database";
+"select_storage_title_import" = "Importeer database";
 
 /* Select '%@' - L10n Note: the first parameter is the name of an item the user can select. e.g. Select 'OneDrive'. */
-"generic_select_param_in_single_quotes_fmt" = "Select '%@'";
+"generic_select_param_in_single_quotes_fmt" = "Kies '%@'";
 
 /* New Database Setup */
-"new_database_setup" = "New Database Setup";
+"new_database_setup" = "Stel nieuwe database in";
 
 /* Enter a nickname for your new database and the master credentials to protect it. */
-"enter_creds_and_nickname" = "Enter a nickname for your new database and the master credentials to protect it.";
+"enter_creds_and_nickname" = "Voer een bijnaam in voor de nieuwe database en de hoofdreferenties om deze te beschermen.";
 
 /* Nickname already in use */
-"nickname_already_in_use" = "Nickname already in use";
+"nickname_already_in_use" = "Bijnaam is al in gebruik";
 
 /* Choose Storage Location */
-"choose_storage_loc" = "Choose Storage Location";
+"choose_storage_loc" = "Kies opslaglocatie";
 
 /* Please navigate to where you would like to store your database and click 'Select'. */
-"nav_to_storage_and_select" = "Please navigate to where you would like to store your database and click 'Select'.";
+"nav_to_storage_and_select" = "Ga naar de locatie waar je je database wilt bewaren en klik op 'Kies'.";
 
 /* Store your database locally only. */
-"blurb_about_native_local_only" = "Store your database locally only.";
+"blurb_about_native_local_only" = "Sla je database alleen lokaal op.";
 
 /* Store your database anywhere within your Mac file system. */
-"storage_mac_file_description" = "Store your database anywhere within your Mac file system.";
+"storage_mac_file_description" = "Sla je database overal op in het bestandssysteem van je Mac.";
 
 /* Stay In Sync */
-"enable_notifications_onboarding_title" = "Stay In Sync";
+"enable_notifications_onboarding_title" = "Blijf gesynchroniseerd";
 
 /* To stay current and keep your databases up to date, please allow Strongbox to use notifications. */
-"enable_notifications_onboarding_message" = "To stay current and keep your databases up to date, please allow Strongbox to use notifications.";
+"enable_notifications_onboarding_message" = "Om op de hoogte te blijven en je databases up-to-date te houden, moet je Strongbox toestaan om meldingen te gebruiken.";
 
 /* Sounds Good, Allow */
-"enable_notifications_onboarding_sounds_good_allow" = "Sounds Good, Allow";
+"enable_notifications_onboarding_sounds_good_allow" = "Klinkt goed, sta toe";
 
 /* Database will be permanently deleted from Strongbox Sync and all devices */
-"pins_config_vc_label_delete_database_strongbox_sync_permanent" = "Database will be permanently deleted from Strongbox Sync and all devices";
+"pins_config_vc_label_delete_database_strongbox_sync_permanent" = "Database zal permanent worden verwijderd uit Strongbox Sync en alle apparaten";
 
 /* Native storage either on this Mac or using Strongbox Sync. */
-"select_storage_create_mode_title" = "Native storage either on this Mac or using Strongbox Sync.";
+"select_storage_create_mode_title" = "Native opslag op deze Mac of met Strongbox Sync.";
 
 /* Select a database from anywhere on this Mac. */
-"select_storage_add_mode_title" = "Select a database from anywhere on this Mac.";
+"select_storage_add_mode_title" = "Kies een database van elke plek op deze Mac.";
 
 /* Native storage anywhere on this Mac. */
-"select_storage_no_networking_create_mode_title" = "Native storage anywhere on this Mac.";
+"select_storage_no_networking_create_mode_title" = "Native opslag van elke plek op je Mac.";
 
 /* We've integrated with these popular online drives. These integrations provide superior sync than using the file system */
-"select_storage_third_party_description_macos" = "We've integrated with these popular online drives. These integrations provide superior sync than using the file system";
+"select_storage_third_party_description_macos" = "We hebben integraties met deze populaire online schijven. Deze integraties bieden vaak een betere synchronisatie dan het gebruik van het bestandssysteem";
 
 /* Are you sure you want to choose this version as the correct version going forward?\n\nRemember you can export any other version now for later merge by choosing No, and then sliding left on the other version. */
 "ays_select_icloud_conflict_version" = "Are you sure you want to choose this version as the correct version going forward?\n\nRemember you can export any other version now for later merge by choosing No, and then sliding left on the other version.";
@@ -6352,85 +6352,100 @@
 "action_show_in_strongbox" = "Show in Strongbox";
 
 /* Launch '%@' - L10n note: 1st parameter is the fieldname/key for a secondary/alternative URL, e.g. Launch 'Alternative URL for Dashboard' */
-"action_launch_field_fmt" = "Launch '%@'";
+"action_launch_field_fmt" = "Start '%@'";
 
 /* Copy '%@' - L10n note: 1st parameter is the fieldname/key, e.g. Copy 'Debit Card Long Number' */
-"action_copy_field_fmt" = "Copy '%@'";
+"action_copy_field_fmt" = "Kopieer '%@'";
 
 /* %@ (Primary) - L10n Note: The 1st parameter could be any kind of noun (most likely), this is to indicate that this object or action is the primary or most important item/action. e.g. OneDrive (Primary) */
-"adjective_primary_in_parenthesis_fmt" = "%@ (Primary)";
+"adjective_primary_in_parenthesis_fmt" = "%@ (primair)";
 
 /* Locked Databases - Heading appears above list of locked databases in quick search */
-"locked_databases_heading" = "Locked Databases";
+"locked_databases_heading" = "Vergrendelde databases";
 
 /* All Databases Locked */
-"quick_search_all_databases_locked" = "All Databases Locked";
+"quick_search_all_databases_locked" = "Alle databases vergrendeld";
 
 /* No Results Found */
-"quick_search_no_results_found" = "No Results Found";
+"quick_search_no_results_found" = "Geen resultaten gevonden";
 
 /* Show Password Generator */
-"system_tray_menu_item_show_password_generator" = "Show Password Generator";
+"system_tray_menu_item_show_password_generator" = "Toon wachtwoordgenerator";
 
 /* Using Sharepoint is a Pro feature. Please upgrade to enjoy full access. */
-"sharepoint_pro_feature_message" = "Using Sharepoint is a Pro feature. Please upgrade to enjoy full access.";
+"sharepoint_pro_feature_message" = "Het gebruik van Sharepoint is een Pro-functie. Upgrade om volledige toegang te krijgen.";
 
 /* delete */
-"delete_triple_confirm_code_word" = "delete";
+"delete_triple_confirm_code_word" = "verwijder";
 
 /* Please enter the word '%@' below to confirm. */
-"delete_triple_confirm_message_fmt" = "Please enter the word '%@' below to confirm.";
+"delete_triple_confirm_message_fmt" = "Voer hieronder het woord '%@' in om te bevestigen.";
 
 /* Configure Click Action */
-"configure_click_action" = "Configure Click Action";
+"configure_click_action" = "Configureer actie bij klikken";
 
 /* Show this Menu */
-"show_this_menu" = "Show this Menu";
+"show_this_menu" = "Toon dit menu";
 
 /* No results found. Some databases are locked. */
-"no_results_found_some_locked" = "No results found. Some databases are locked.";
+"no_results_found_some_locked" = "Geen resultaten gevonden. Sommige databases zijn vergrendeld.";
 
 /* Navigation */
-"generic_noun_navigation" = "Navigation";
+"generic_noun_navigation" = "Navigatie";
 
 /* Quick Tags */
-"home_quick_tags_section_header" = "Quick Tags";
+"home_quick_tags_section_header" = "Snelle labels";
 
-"audit_view_section_footer_no_password" = "These are entries with no password set at all.";
+"audit_view_section_footer_no_password" = "Dit zijn onderdelen zonder wachtwoord ingesteld.";
 
-"audit_view_section_footer_duplicate" = "These are entries that have identical passwords indicating password reuse.";
+"audit_view_section_footer_duplicate" = "Dit zijn onderdelen die identieke wachtwoorden hebben, wat duidt op hergebruik van wachtwoorden.";
 
-"audit_view_section_footer_common" = "These are entries with very common or well-known passwords that are easily guessed.";
+"audit_view_section_footer_common" = "Dit zijn onderdelen met zeer gangbare of bekende wachtwoorden die gemakkelijk te raden zijn.";
 
-"audit_view_section_footer_similar" = "These are entries with similar but not identical passwords.";
+"audit_view_section_footer_similar" = "Dit zijn onderdelen met vergelijkbare, maar niet identieke wachtwoorden.";
 
-"audit_view_section_footer_short" = "These are entries with passwords of a very short length.";
+"audit_view_section_footer_short" = "Dit zijn onderdelen met wachtwoorden van zeer korte lengte.";
 
-"audit_view_section_footer_hibp" = "These are entries whose passwords have appeared in online hacks or breaches detected using the 'Have I Been Pwned?' service.";
+"audit_view_section_footer_hibp" = "Dit zijn onderdelen waarvan de wachtwoorden zijn verschenen in online hacks of inbreuken die zijn herkend met behulp van de dienst 'Have I Been Pwned?'.";
 
-"audit_view_section_footer_entropy" = "These are entries whose complexity falls below a certain threshold which could be considered weak.";
+"audit_view_section_footer_entropy" = "Dit zijn onderdelen waarvan de complexiteit onder een bepaalde drempelwaarde valt, die als zwak beschouwd kan worden.";
 
-"audit_view_section_footer_2fa" = "These are entries that are marked as having known two factor authentication available but without an existing 2FA Code set.";
+"audit_view_section_footer_2fa" = "Dit zijn onderdelen waarvan bekend is dat twee-factorauthenticatie beschikbaar is, maar waarvoor geen 2FA-code is ingesteld.";
 
-"anonymous_group_number_fmt" = "Group #%@";
+"anonymous_group_number_fmt" = "Groep #%@";
 
 /* All Tags */
-"quick_view_title_all_tags_title" = "All Tags";
+"quick_view_title_all_tags_title" = "Alle labels";
 
 /* Expired & Expiring */
-"quick_view_title_expired_and_expiring" = "Expired & Expiring";
+"quick_view_title_expired_and_expiring" = "Verlopen en verlopend";
 
 /* Expired %@ */
-"entry_expired_on_date_subtitle_fmt" = "Expired %@";
+"entry_expired_on_date_subtitle_fmt" = "%@ verlopen";
 
 /* Expires %@ */
-"entry_expires_on_date_subtitle_fmt" = "Expires %@";
+"entry_expires_on_date_subtitle_fmt" = "Verloopt op %@";
 
 /* Other Items with Expiry Dates */
-"section_header_other_items_with_expiry_dates" = "Other Items with Expiry Dates";
+"section_header_other_items_with_expiry_dates" = "Andere onderdelen met vervaldatums";
 
 /* Home */
-"navigation_tab_home" = "Home";
+"navigation_tab_home" = "Startscherm";
 
 /* Database Saved */
-"generic_database_saved" = "Database Saved";
+"generic_database_saved" = "Database bewaard";
+
+/* All Sections Hidden */
+"home_view_all_sections_hidden" = "Alle secties verborgen";
+
+/* Tap Settings > Show Sections to configure. */
+"home_view_all_sections_hidden_instructions" = "Tik op Instellingen > Toon secties om te configureren.";
+
+/* Find your way around your database. */
+"home_view_navigation_section_subtitle" = "Vind je weg in je database.";
+
+/* Your most popular tags. */
+"home_view_quick_tags_section_subtitle" = "Je populairste labels.";
+
+/* Various convenient aspects of your database. */
+"home_view_other_views_navigation_section_subtitle" = "Verschillende handige aspecten van je database.";
