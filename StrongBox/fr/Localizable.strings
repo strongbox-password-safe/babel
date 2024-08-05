@@ -285,7 +285,7 @@
 "browse_prefs_tap_action_copy_copy_password" = "Copier le mot de passe";
 
 /* Copy 2FA */
-"browse_prefs_tap_action_copy_copy_totp" = "Copy 2FA Code";
+"browse_prefs_tap_action_copy_copy_totp" = "Copier le code 2FA";
 
 /* Copy URL */
 "browse_prefs_tap_action_copy_copy_url" = "Copier l'URL";
@@ -375,7 +375,7 @@
 "browse_vc_group_path_string_fmt" = "(dans %@)";
 
 /* '%@': No 2FA setup to Copy! */
-"browse_vc_no_totp_to_copy_fmt" = "'%@': No 2FA setup to Copy!";
+"browse_vc_no_totp_to_copy_fmt" = "'%@': pas de configuration 2FA à copier !";
 
 /* '%@' Notes Copied  - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
 "browse_vc_notes_copied_fmt" = "Notes de '%@' copiées";
@@ -420,7 +420,7 @@
 "browse_vc_view_as_database_empty" = "Aucune entrée";
 
 /* No 2FA Codes Found */
-"browse_vc_view_as_totp_no_totps" = "No 2FA Codes Found";
+"browse_vc_view_as_totp_no_totps" = "Aucun code 2FA trouvé";
 
 /* No matching entries found */
 "browse_vc_view_search_no_matches" = "Aucune entrée correspondante trouvée";
@@ -606,19 +606,19 @@
 "item_details_section_header_metadata" = "Métadonnées";
 
 /* Setup 2FA Code... */
-"item_details_setup_totp" = "Setup 2FA Code...";
+"item_details_setup_totp" = "Configurer le code 2FA...";
 
 /* Could not set 2FA because the format is unsupported. */
-"item_details_setup_totp_failed_message" = "Could not set 2FA Code because the format is unsupported.";
+"item_details_setup_totp_failed_message" = "Échec de définition du code 2FA car le format n'est pas reconnu.";
 
 /* Failed to Set 2FA */
-"item_details_setup_totp_failed_title" = "Failed to Set 2FA Code";
+"item_details_setup_totp_failed_title" = "Impossible de définir le code 2FA";
 
 /* You can setup 2FA Code by using a QR Code, or manually by entering the secret or an OTPAuth URL */
-"item_details_setup_totp_how_message" = "You can setup a 2FA Code by using a QR Code, or manually by entering the secret or an OTPAuth URL";
+"item_details_setup_totp_how_message" = "Vous pouvez configurer un code 2FA en utilisant un QR code, ou manuellement en saisissant le secret ou une URL OTPAuth";
 
 /* How would you like to setup 2FA? */
-"item_details_setup_totp_how_title" = "How would you like to setup 2FA?";
+"item_details_setup_totp_how_title" = "Comment souhaitez-vous configurer 2FA ?";
 
 /* Manual (Standard/RFC 6238)... */
 "item_details_setup_totp_manual_rfc" = "Manuel (Standard/RFC 6238)...";
@@ -903,7 +903,7 @@
 "notes_cell_textview_accessibility_label" = "Vue du texte des notes";
 
 /* No 2FA Setup */
-"totp_cell_no_totp_has_been_setup" = "No 2FA Setup";
+"totp_cell_no_totp_has_been_setup" = "Pas de configuration 2FA";
 
 /*  Text Field */
 "generic_kv_cell_value_text_accessibility label_fmt" = " Champ de texte";
@@ -1914,7 +1914,7 @@
 "generic_fieldname_custom_field" = "Champ personnalisé";
 
 /* 2FA */
-"generic_fieldname_totp" = "2FA Code";
+"generic_fieldname_totp" = "Code 2FA";
 
 /* Attachments */
 "generic_fieldname_attachments" = "Fichiers joints";
@@ -2424,10 +2424,10 @@
 "mac_undo_action_remove_custom_field" = "Supprimer le champ personnalisé";
 
 /* Set 2FA */
-"mac_undo_action_set_totp" = "Set 2FA";
+"mac_undo_action_set_totp" = "Définir 2FA";
 
 /* Clear 2FA */
-"mac_undo_action_clear_totp" = "Clear 2FA";
+"mac_undo_action_clear_totp" = "Effacer 2FA";
 
 /* Add Items */
 "mac_undo_action_add_items" = "Ajouter des éléments";
@@ -2954,10 +2954,10 @@
 "quick_view_title_audit_issues_subtitle" = "Voir toutes les entrées avec des problèmes d'audit";
 
 /* 2FA Codes */
-"quick_view_title_totp_entries_title" = "2FA Codes";
+"quick_view_title_totp_entries_title" = "Codes 2FA";
 
 /* View all entries with a 2FA Code */
-"quick_view_title_totp_entries_subtitle" = "View all entries with a 2FA Code";
+"quick_view_title_totp_entries_subtitle" = "Voir toutes les entrées avec un code 2FA";
 
 /* Quick Views */
 "quick_view_section_title_quick_views" = "Vues rapides";
@@ -3419,7 +3419,7 @@
 "generic_move" = "Déplacer";
 
 /* Move - Translators Note: Verb - To move something e.g. an entry or group somewhere else in the hierarchy */
-"generic_move_ellipsis" = "Move...";
+"generic_move_ellipsis" = "Déplacer...";
 
 /* New Entry - Translators Note: Menu option to add a new entry */
 "browse_context_menu_new_entry" = "Nouvelle entrée";
@@ -4056,10 +4056,10 @@
 "sync_log_status_done" = "Terminé. ✅";
 
 /* 2FA Copied */
-"autofill_info_totp_copied_title" = "2FA Copied";
+"autofill_info_totp_copied_title" = "2FA Copié";
 
 /* Your 2FA Code has been copied to the clipboard. */
-"autofill_info_totp_copied_message" = "Your 2FA Code has been copied to the clipboard.";
+"autofill_info_totp_copied_message" = "Votre code 2FA a été copié dans le presse-papiers.";
 
 /* Convenience Auto Unlock */
 "prefs_vc_autofill_convenience_auto_unlock" = "Déverrouillage automatique de confort";
@@ -4621,7 +4621,7 @@
 "import_successful_message" = "Votre importation a réussi! Maintenant, définissons un mot de passe maître fort et enregistrons votre nouvelle base de données Strongbox.";
 
 /* Are you sure you want to clear the 2FA Code for this entry? */
-"are_you_sure_clear_totp" = "Are you sure you want to clear the 2FA Code for this entry?";
+"are_you_sure_clear_totp" = "Êtes-vous sûr(e) de vouloir effacer le code 2FA pour cette entrée?";
 
 /* Date Created (Precise) */
 "databases_preferences_subtitle_field_name_create_date_precise" = "Date de création (Précise)";
@@ -4754,7 +4754,7 @@
 "are_you_sure_delete_custom_field_s" = "Êtes-vous sûr(e) de vouloir supprimer le(s) champ(s) sélectionné(s) ?";
 
 /* Found 2FA Code in '%@' Window - Localization Note: The parameter here is an App name like "Firefox" or "Safari" */
-"found_totp_code_in_x_window_fmt" = "Found 2FA Code in '%@' Window";
+"found_totp_code_in_x_window_fmt" = "Code 2FA trouvé dans la fenêtre '%@'";
 
 /* Randomly Generated */
 "menu_item_header_randomly_generated_suggestions" = "Généré aléatoirement";
@@ -4769,7 +4769,7 @@
 "pasted_image_attachment_at_time_filename_png_fmt" = "collé-le-%@.png";
 
 /* Groups */
-"side_bar_hierarchy_folder_structure" = "Groups";
+"side_bar_hierarchy_folder_structure" = "Groupes";
 
 /* Discard Changes */
 "discard_changes" = "Abandonner les modifications";
@@ -5321,7 +5321,7 @@
 "safes_vc_import_icloud" = "Trousseau iCloud (CSV)";
 
 /* Disabling Auto-Commit could mean you lose this 2FA Code if you forget to commit later, are you sure? */
-"are_you_sure_auto_commit_totp_msg" = "Disabling Auto-Commit could mean you lose this 2FA Code if you forget to commit later. Are you sure?";
+"are_you_sure_auto_commit_totp_msg" = "Si vous désactivez l'enregistrement automatique, vous pourriez perdre ce code 2FA si vous oubliez de l'enregistrer plus tard. Êtes-vous sûr(e) ?";
 
 /* Close - A generic verb - to Close a popup or dialog */
 "generic_verb_close" = "Fermer";
@@ -5384,7 +5384,7 @@
 "mac_create_or_edit_commit_changes" = "Valider (⌘S)";
 
 /* Hierarchy (%@ Groups, %@ Entries) - L10n Note - The two parameters are numeric, so for example: "23 Groups, 3456 Entries"*/
-"side_bar_hierarchy_folder_structure_summary_count_fmt" = "Groups (%@ Groups, %@ Entries)";
+"side_bar_hierarchy_folder_structure_summary_count_fmt" = "Groupes (%@ Groupes, %@ Entrées)";
 
 /* Entries */
 "side_bar_child_count_format_entries" = "Entrées";
@@ -5554,7 +5554,7 @@
 "import_please_share_import_messages" = "Veuillez envisager de partager avec nous (support@strongboxsafe.com) les messages ci-dessus pour nous aider à améliorer le processus d'importation.";
 
 /* 2FA Secret */
-"generic_totp_secret" = "2FA Secret";
+"generic_totp_secret" = "Clef secrète 2FA";
 
 /* Select Items */
 "generic_select_items" = "Sélectionner les éléments";
@@ -6265,40 +6265,40 @@
 "storage_selector_where_store_new" = "Où souhaitez-vous stocker votre nouvelle base de données ?";
 
 /* Where is your existing database located? */
-"storage_selector_where_existing_located" = "Where is your existing database located?";
+"storage_selector_where_existing_located" = "Où se trouve votre base de données existante ?";
 
 /* Storage Browser */
-"storage_browser" = "Storage Browser";
+"storage_browser" = "Explorateur de stockage";
 
 /* Databases */
-"generic_databases_plural" = "Databases";
+"generic_databases_plural" = "Bases de données";
 
 /* All Items */
-"generic_all_items" = "All Items";
+"generic_all_items" = "Tous les éléments";
 
 /* Strongbox has found these items in this folder that are likely to be databases. */
-"storage_browser_strongbox_found_likely_databases" = "Strongbox has found these items in this folder that are likely to be databases.";
+"storage_browser_strongbox_found_likely_databases" = "Strongbox a trouvé dans ce répertoire ces éléments susceptibles d'être des bases de données.";
 
 /* My Drives */
-"onedrive_browser_my_drives" = "My Drives";
+"onedrive_browser_my_drives" = "Mes lecteurs";
 
 /* All Drives" */
-"onedrive_browser_all_drives" = "All Drives";
+"onedrive_browser_all_drives" = "Tous les lecteurs";
 
 /* Your OneDrive databases and files. */
-"onedrive_browser_your_onedrive_desc" = "Your OneDrive databases and files.";
+"onedrive_browser_your_onedrive_desc" = "Vos bases de données et fichiers OneDrive.";
 
 /* Shared With Me */
-"onedrive_browser_shared_with_me" = "Shared With Me";
+"onedrive_browser_shared_with_me" = "Partagé avec moi";
 
 /* Shared */
-"onedrive_browser_shared" = "Shared";
+"onedrive_browser_shared" = "Partagé";
 
 /* Access databases that have been shared with you by other users. */
 "onedrive_browser_shared_desc" = "Accéder aux bases de données que d'autres utilisateurs vous partagent.";
 
 /* Shared Libraries */
-"onedrive_browser_shared_libraries" = "Shared Libraries (Sharepoint)";
+"onedrive_browser_shared_libraries" = "Bibliothèques partagées (Sharepoint)";
 
 /* Sharepoint Sites */
 "onedrive_browser_sharepoint_sites" = "Sites SharePoint";
@@ -6316,49 +6316,49 @@
 "onedrive_explorer_title" = "Explorateur OneDrive";
 
 /* Quit Strongbox */
-"system_tray_menu_item_quit" = "Quit Strongbox";
+"system_tray_menu_item_quit" = "Quitter Strongbox";
 
 /* Show Strongbox */
-"system_tray_menu_item_show" = "Show Strongbox";
+"system_tray_menu_item_show" = "Afficher Strongbox";
 
 /* Show Quick Search */
-"system_tray_menu_item_show_quick_search" = "Show Quick Search";
+"system_tray_menu_item_show_quick_search" = "Afficher la recherche rapide";
 
 /* Lock All */
-"system_tray_menu_item_lock_all" = "Lock All";
+"system_tray_menu_item_lock_all" = "Verrouiller tout";
 
 /* Show Databases Manager */
-"system_tray_menu_item_show_databases_manager" = "Show Databases Manager";
+"system_tray_menu_item_show_databases_manager" = "Afficher le gestionnaire des bases de données";
 
 /* URL Launched */
-"item_details_url_launched" = "URL Launched";
+"item_details_url_launched" = "URL lancée";
 
 /* Quick Search - L10n note: This is a feature on macOS where a small window can be launched by hot key or from the system tray which allows user to quickly search across all open databases, and perform quick actions like copying fields or launching urls */
-"quick_search" = "Quick Search";
+"quick_search" = "Recherche rapide";
 
 /* Keyboard Shortcuts */
-"keyboard_shortcuts" = "Keyboard Shortcuts";
+"keyboard_shortcuts" = "Raccourcis clavier";
 
 /* View Actions */
-"view_actions" = "View Actions";
+"view_actions" = "Voir les actions";
 
 /* View Results */
-"view_results" = "View Results";
+"view_results" = "Voir les résultats";
 
 /* Quick Search is a Pro feature. Please upgrade to enjoy lightning fast access to your databases. */
-"quick_search_pro_feature_message" = "Quick Search is a Pro feature. Please upgrade to enjoy lightning fast access to your databases.";
+"quick_search_pro_feature_message" = "La recherche rapide est une fonctionnalité Pro. Veuillez mettre à niveau pour profiter d'un accès rapide comme l'éclair à vos bases de données.";
 
 /* Show in Strongbox */
-"action_show_in_strongbox" = "Show in Strongbox";
+"action_show_in_strongbox" = "Afficher dans Strongbox";
 
 /* Launch '%@' - L10n note: 1st parameter is the fieldname/key for a secondary/alternative URL, e.g. Launch 'Alternative URL for Dashboard' */
-"action_launch_field_fmt" = "Launch '%@'";
+"action_launch_field_fmt" = "Lancer '%@'";
 
 /* Copy '%@' - L10n note: 1st parameter is the fieldname/key, e.g. Copy 'Debit Card Long Number' */
-"action_copy_field_fmt" = "Copy '%@'";
+"action_copy_field_fmt" = "Copier '%@'";
 
 /* %@ (Primary) - L10n Note: The 1st parameter could be any kind of noun (most likely), this is to indicate that this object or action is the primary or most important item/action. e.g. OneDrive (Primary) */
-"adjective_primary_in_parenthesis_fmt" = "%@ (Primary)";
+"adjective_primary_in_parenthesis_fmt" = "%@ (Primaire)";
 
 /* Locked Databases - Heading appears above list of locked databases in quick search */
 "locked_databases_heading" = "Locked Databases";
