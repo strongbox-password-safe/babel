@@ -32,10 +32,10 @@
 "safes_vc_action_set_as_quick_launch" = "Налаштувати швидкий запуск";
 
 /* Visible in Files app */
-"safes_vc_show_in_files" = "Files Visibility: Shown";
+"safes_vc_show_in_files" = "Видимість файлів: показано";
 
 /* Hidden from Files app */
-"safes_vc_make_autofillable" = "Files Visibility: Hidden";
+"safes_vc_make_autofillable" = "Видимість файлів: приховано";
 
 /* Title of Prompt about setting Quick Launch */
 "safes_vc_about_quick_launch_title" = "Про швидкий запуск";
@@ -267,7 +267,7 @@
 "browse_prefs_double_tap_action" = "Дія подвійного дотику";
 
 /* Item Subtitle */
-"browse_prefs_item_subtitle" = "Підзаголовок елемента";
+"browse_prefs_item_subtitle" = "Підзаголовок запису";
 
 /* Long Press Action */
 "browse_prefs_long_press_action" = "Дія тривалого дотику";
@@ -285,7 +285,7 @@
 "browse_prefs_tap_action_copy_copy_password" = "Копіювати пароль";
 
 /* Copy 2FA */
-"browse_prefs_tap_action_copy_copy_totp" = "Copy 2FA Code";
+"browse_prefs_tap_action_copy_copy_totp" = "Копіювати код 2FA";
 
 /* Copy URL */
 "browse_prefs_tap_action_copy_copy_url" = "Копіювати URL";
@@ -303,7 +303,7 @@
 "browse_prefs_tap_action_none" = "Без дій";
 
 /* View Item */
-"browse_prefs_tap_action_view_item" = "Переглянути елемент";
+"browse_prefs_tap_action_view_item" = "Переглянути запис";
 
 /* Triple Tap Action */
 "browse_prefs_triple_tap_action" = "Дія потрійного дотику";
@@ -330,7 +330,7 @@
 "browse_vc_are_you_sure_delete_fmt" = "Ви дійсно хочете остаточно видалити '%@'?";
 
 /* Are you sure you want to send these item(s) to the Recycle Bin? */
-"browse_vc_are_you_sure_recycle" = "Ви дійсно хочете перемістити цей елемент до смітника?";
+"browse_vc_are_you_sure_recycle" = "Ви дійсно хочете перемістити цей запис до смітника?";
 
 /* Are you sure you want to send '%@' to the Recycle Bin? */
 "browse_vc_are_you_sure_recycle_fmt" = "Ви дійсно хочете перемістити '%@' до смітника?";
@@ -375,7 +375,7 @@
 "browse_vc_group_path_string_fmt" = "(%@)";
 
 /* '%@': No 2FA setup to Copy! */
-"browse_vc_no_totp_to_copy_fmt" = "'%@': No 2FA setup to Copy!";
+"browse_vc_no_totp_to_copy_fmt" = "'%@': 2FA не налаштовано для копіювання!";
 
 /* '%@' Notes Copied  - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
 "browse_vc_notes_copied_fmt" = "'%@' Нотатки скопійовано";
@@ -384,10 +384,10 @@
 "browse_vc_password_copied_fmt" = "'%@' Пароль скопійовано";
 
 /* Rename Item */
-"browse_vc_rename_item" = "Перейменувати елемент";
+"browse_vc_rename_item" = "Перейменувати запис";
 
 /* Please enter a new title for this item */
-"browse_vc_rename_item_enter_title" = "Введіть нову назву для цього елемента";
+"browse_vc_rename_item_enter_title" = "Введіть нову назву для цього запису";
 
 /* All Fields */
 "browse_vc_search_scope_all" = "Усе";
@@ -420,7 +420,7 @@
 "browse_vc_view_as_database_empty" = "Немає записів";
 
 /* No 2FA Codes Found */
-"browse_vc_view_as_totp_no_totps" = "No 2FA Codes Found";
+"browse_vc_view_as_totp_no_totps" = "Не знайдено 2FA-кодів";
 
 /* No matching entries found */
 "browse_vc_view_search_no_matches" = "Не знайдено відповідних записів";
@@ -606,19 +606,19 @@
 "item_details_section_header_metadata" = "Метадані";
 
 /* Setup 2FA Code... */
-"item_details_setup_totp" = "Setup 2FA Code...";
+"item_details_setup_totp" = "Налаштувати 2FA-код...";
 
 /* Could not set 2FA because the format is unsupported. */
-"item_details_setup_totp_failed_message" = "Could not set 2FA Code because the format is unsupported.";
+"item_details_setup_totp_failed_message" = "Не вдається налаштувати 2FA-код, оскільки формат не підтримується.";
 
 /* Failed to Set 2FA */
-"item_details_setup_totp_failed_title" = "Failed to Set 2FA Code";
+"item_details_setup_totp_failed_title" = "Не вдалося налаштувати 2FA-код";
 
 /* You can setup 2FA Code by using a QR Code, or manually by entering the secret or an OTPAuth URL */
-"item_details_setup_totp_how_message" = "You can setup a 2FA Code by using a QR Code, or manually by entering the secret or an OTPAuth URL";
+"item_details_setup_totp_how_message" = "Ви можете налаштувати 2FA-код за допомогою QR-коду, або ввівши вручну ключ чи OTPAuth URL";
 
 /* How would you like to setup 2FA? */
-"item_details_setup_totp_how_title" = "How would you like to setup 2FA?";
+"item_details_setup_totp_how_title" = "Як ви бажаєте налаштувати 2FA?";
 
 /* Manual (Standard/RFC 6238)... */
 "item_details_setup_totp_manual_rfc" = "Вручну (Standard/RFC 6238)...";
@@ -903,7 +903,7 @@
 "notes_cell_textview_accessibility_label" = "Текстове поле нотаток";
 
 /* No 2FA Setup */
-"totp_cell_no_totp_has_been_setup" = "No 2FA Setup";
+"totp_cell_no_totp_has_been_setup" = "2FA не налаштовано";
 
 /*  Text Field */
 "generic_kv_cell_value_text_accessibility label_fmt" = " Текстове поле";
@@ -979,7 +979,7 @@
 "pins_config_vc_label_remove_database" = "Вилучити базу паролів зі Strongbox";
 
 /* NB: Database file will remain on remote storage. */
-"pins_config_vc_label_remove_database_warning" = "Примітка: Файл бази паролів залишиться у віддаленому сховищі.";
+"pins_config_vc_label_remove_database_warning" = "Примітка: файл бази паролів залишиться у віддаленому сховищі.";
 
 /* PIN Codes (Pro Feature Only) */
 "pins_config_vc_title_pro_only" = "PIN-коди (функція Pro)";
@@ -1139,7 +1139,7 @@
 "add_attachment_vc_error_reading_title" = "Помилка читання";
 
 /* Could not read the data for this item. */
-"add_attachment_vc_error_reading_message" = "Не вдається прочитати дані цього елемента.";
+"add_attachment_vc_error_reading_message" = "Не вдається прочитати дані цього запису.";
 
 /* This is quite a large file (%@), and could significantly affect the performance of Strongbox and slow down syncs across networks. Is there a smaller version you could use?\n\nContinue adding this attachment anyway? */
 "add_attachment_vc_large_file_message_fmt" = "Це досить великий файл (%@), який може значно вплинути на швидкодію Strongbox і сповільнити синхронізацію через Інтернет. Можливо, у вас є менша версія цього файлу?\n\nВсе одно продовжити додавання цього вкладення?";
@@ -1172,7 +1172,7 @@
 "add_attachment_vc_prompt_filename_title" = "Назва файлу";
 
 /* Enter a filename for this item */
-"add_attachment_vc_prompt_filename_message" = "Введіть назву для цього елемента";
+"add_attachment_vc_prompt_filename_message" = "Введіть назву для цього запису";
 
 /* Filename in Use */
 "add_attachment_vc_warn_filename_used_title" = "Назва вже використовується";
@@ -1208,7 +1208,7 @@
 "set_icon_vc_error_downloading_favicon_title" = "Проблема при завантаженні";
 
 /* Could not download favicon for this item */
-"set_icon_vc_error_downloading_favicon_message" = "Не вдалося завантажити піктограму для цього елемента";
+"set_icon_vc_error_downloading_favicon_message" = "Не вдалося завантажити піктограму для цього запису";
 
 /* Image Source Unavailable */
 "set_icon_vc_image_src_unavailable_title" = "Джерело зображення недоступний";
@@ -1331,7 +1331,7 @@
 "select_item_vc_title_select_one" = "Оберіть";
 
 /* You must select at least one item */
-"select_item_vc_message_select_one" = "Потрібно вибрати принаймні один елемент";
+"select_item_vc_message_select_one" = "Потрібно вибрати принаймні один запис";
 
 /* Custom Default */
 "entry_defaults_vc_prompt_custom_title" = "Використовувати типово";
@@ -1731,10 +1731,10 @@
 "browse_vc_section_title_pinned" = "Обране";
 
 /* Section Header Title for Recent Items */
-"browse_vc_section_title_recents" = "Недавні елементи";
+"browse_vc_section_title_recents" = "Недавні записи";
 
 /* Standard View Sections Header */
-"browse_vc_section_title_standard_view" = "Елементи";
+"browse_vc_section_title_standard_view" = "Записи";
 
 /* Compressed */
 "database_metadata_field_compressed" = "Стиснуто";
@@ -1755,7 +1755,7 @@
 "database_metadata_field_key_derivation" = "Формування ключа";
 
 /* Max History Items */
-"database_metadata_field_max_history_items" = "Макс. к-сть елементів історії";
+"database_metadata_field_max_history_items" = "Макс. к-сть записів історії";
 
 /* Max History Size */
 "database_metadata_field_max_history_size" = "Максимальний розмір історії";
@@ -1788,7 +1788,7 @@
 "database_metadata_field_password_key_stretch_iterations" = "Цикли ключа розтягування";
 
 /* Error message indicating that these item(s) cannot be deserialized to this database because they contain two groups with the same title. */
-"node_serialization_error_duplicate_group_title_fmt" = "Не вдається копіювати ці елементи, тому що вони містять дві групи з однаковою назвою '%@' , що не підтримується цим форматом бази паролів.";
+"node_serialization_error_duplicate_group_title_fmt" = "Не вдається копіювати ці записи, тому що вони містять дві групи з однаковою назвою '%@' , що не підтримується цим форматом бази паролів.";
 
 /* Memory */
 "database_metadata_field_argon2_memory" = "Пам'ять";
@@ -1914,7 +1914,7 @@
 "generic_fieldname_custom_field" = "Власне поле";
 
 /* 2FA */
-"generic_fieldname_totp" = "2FA Code";
+"generic_fieldname_totp" = "Код 2FA";
 
 /* Attachments */
 "generic_fieldname_attachments" = "Вкладення";
@@ -2173,7 +2173,7 @@
 "favicon_retry_all_or_failed_title" = "Повторити все чи лише невдалі?";
 
 /* Would you like to retry all items, or just the failed ones? */
-"favicon_retry_all_or_failed_message" = "Бажаєте повторити для всіх елементів, чи лише для невдалих?";
+"favicon_retry_all_or_failed_message" = "Бажаєте повторити для всіх записів, чи лише для невдалих?";
 
 /* Retry All */
 "favicon_retry_all_action" = "Повторити для всіх";
@@ -2182,7 +2182,7 @@
 "favicon_retry_failed_action" = "Повторити для невдалих";
 
 /* No eligible items with valid URLs found... */
-"favicon_status_no_eligible_items" = "Не знайдено прийнятних елементів/URL-адрес...";
+"favicon_status_no_eligible_items" = "Не знайдено прийнятних записів/URL-адрес...";
 
 /* FavIcon Results */
 "favicon_results_title" = "Результати піктограм";
@@ -2269,16 +2269,16 @@
 "mac_are_you_sure_delete_yes_no_fmt" = "Ви справді хочете видалити '%@'?";
 
 /* Are you sure you want to send %lu items to the Recycle Bin? - Translation Note: 1st Param is the number of items being deleted  */
-"mac_are_you_sure_recycle_bin_multiple_yes_no_fmt" = "Ви впевнені, що хочете перемістити %lu елементів до смітника?";
+"mac_are_you_sure_recycle_bin_multiple_yes_no_fmt" = "Ви впевнені, що хочете перемістити %lu записів до смітника?";
 
 /* Are you sure you want to delete %lu items? - Translation Note: 1st Param is the number of items being deleted */
-"mac_are_you_sure_delete_multiple_yes_no_fmt" = "Ви впевнені, що хочете видалити %lu елементів?";
+"mac_are_you_sure_delete_multiple_yes_no_fmt" = "Ви впевнені, що хочете видалити %lu записів?";
 
 /* Delete Items */
-"mac_menu_item_delete_items" = "Видалити елементи";
+"mac_menu_item_delete_items" = "Видалити записи";
 
 /* Delete Item */
-"mac_menu_item_delete_item" = "Видалити елемент";
+"mac_menu_item_delete_item" = "Видалити запис";
 
 /* Choose CSV file to Import */
 "mac_choose_csv_file_import" = "Оберіть CSV файл для імпорту";
@@ -2385,10 +2385,10 @@
 "mac_undo_action_url_change" = "Зміна URL";
 
 /* Move Item */
-"mac_undo_action_move_item" = "Перемістити елемент";
+"mac_undo_action_move_item" = "Перемістити запис";
 
 /* Move Items */
-"mac_undo_action_move_items" = "Перемістити елементи";
+"mac_undo_action_move_items" = "Перемістити записи";
 
 /* Password Change */
 "mac_undo_action_password_change" = "Зміна пароля";
@@ -2403,10 +2403,10 @@
 "mac_undo_action_icon_change" = "Зміна піктограми";
 
 /* Delete History Item */
-"mac_undo_action_delete_history_item" = "Видалити елемент історії";
+"mac_undo_action_delete_history_item" = "Видалити запис історії";
 
 /* Restore History Item */
-"mac_undo_action_restore_history_item" = "Відновити елемент історії";
+"mac_undo_action_restore_history_item" = "Відновити запис історії";
 
 /* Remove Attachment */
 "mac_undo_action_remove_attachment" = "Вилучити вкладення";
@@ -2424,10 +2424,10 @@
 "mac_undo_action_remove_custom_field" = "Вилучити власне поле";
 
 /* Set 2FA */
-"mac_undo_action_set_totp" = "Set 2FA";
+"mac_undo_action_set_totp" = "Налаштувати 2FA";
 
 /* Clear 2FA */
-"mac_undo_action_clear_totp" = "Clear 2FA";
+"mac_undo_action_clear_totp" = "Очистити 2FA";
 
 /* Add Items */
 "mac_undo_action_add_items" = "Додати записи";
@@ -2565,7 +2565,7 @@
 "mac_node_details_unsaved_changes_save" = "Є незбережені зміни. Бажаєте зберегти їх перед виходом?";
 
 /* %@ (Historical Item) */
-"mac_node_details_historical_item_suffix_fmt" = "%@ (елемент з історії)";
+"mac_node_details_historical_item_suffix_fmt" = "%@ (запис з історії)";
 
 /* Edit Custom Field */
 "mac_node_details_edit_custom_field" = "Редагувати власне поле";
@@ -2613,10 +2613,10 @@
 "mac_field_changed_popup_notification_fmt" = "'%@' %@ Змінено...";
 
 /* Are you sure you want to delete this history item? */
-"mac_keepass_history_are_sure_delete" = "Ви дійсно бажаєте видалити цей елемент історії?";
+"mac_keepass_history_are_sure_delete" = "Ви дійсно бажаєте видалити цей запис історії?";
 
 /* Are you sure you want to restore this history item? */
-"mac_keepass_history_are_sure_restore" = "Ви впевнені, що хочете відновити цей елемент історії?";
+"mac_keepass_history_are_sure_restore" = "Ви впевнені, що хочете відновити цей запис історії?";
 
 /* Could not open this file. */
 "mac_could_not_open_this_file" = "Не вдалося відкрити цей файл.";
@@ -2661,7 +2661,7 @@
 "favicon_results_n_icons_found_none_selected_fmt" = "%lu піктограм знайдено (жодної не вибрано)";
 
 /* This will set the icons for %d items to your selected FavIcons. Are you sure you want to continue? - Translators Note: 1st Param is the number of items that will be changed */
-"set_favicons_are_you_sure_yes_no_fmt" = "Це дозволить встановити піктограми для %d елементів у вибрані піктограми сайтів. Ви дійсно бажаєте продовжити?";
+"set_favicons_are_you_sure_yes_no_fmt" = "Це дозволить встановити піктограми для %d записів у вибрані піктограми сайтів. Ви дійсно бажаєте продовжити?";
 
 /* Set FavIcon(s) */
 "mac_undo_action_set_icons" = "Встановити піктограму";
@@ -2954,10 +2954,10 @@
 "quick_view_title_audit_issues_subtitle" = "Переглянути всі записи з проблемами аудиту";
 
 /* 2FA Codes */
-"quick_view_title_totp_entries_title" = "2FA Codes";
+"quick_view_title_totp_entries_title" = "2FA-коди";
 
 /* View all entries with a 2FA Code */
-"quick_view_title_totp_entries_subtitle" = "View all entries with a 2FA Code";
+"quick_view_title_totp_entries_subtitle" = "Переглянути всі записи з 2FA-кодом";
 
 /* Quick Views */
 "quick_view_section_title_quick_views" = "Швидкий огляд";
@@ -3113,7 +3113,7 @@
 "browse_vc_partial_recycle_alert_title" = "Часткове видалення";
 
 /* Some of the items you have selected cannot be recycled and will be permanently deleted. Is that OK? */
-"browse_vc_partial_recycle_alert_message" = "Деякі з вибраних вами елементів неможливо перемістити до смітника, тому їх буде остаточно видалено. Ви згодні?";
+"browse_vc_partial_recycle_alert_message" = "Деякі з вибраних вами записів неможливо перемістити до смітника, тому їх буде остаточно видалено. Ви згодні?";
 
 /* Audit */
 "browse_vc_action_audit" = "Аудит";
@@ -3173,7 +3173,7 @@
 "audit_manual_pwn_check_result_not_pwned" = "Ваш пароль не було викрито, тому він, ймовірно, надійний.";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Manual HIBP Result";
+"audit_manual_pwn_check_result_title" = "Результат перевірки";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "Пароль викрито";
@@ -3368,7 +3368,7 @@
 "sftp_path_are_you_sure" = "Ви впевнені, що шлях правильний? Це повинен бути шлях до теки верхнього рівня. Не файл бази даних.";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Are you sure the path is correct? It should be a path to a parent folder. Not the database file.";
+"sftp_path_are_you_sure" = "Ви впевнені, що шлях правильний? Це повинен бути шлях до теки верхнього рівня. Не файл бази даних.";
 
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "Шлях може бути недійсним";
@@ -3419,7 +3419,7 @@
 "generic_move" = "Перемістити";
 
 /* Move - Translators Note: Verb - To move something e.g. an entry or group somewhere else in the hierarchy */
-"generic_move_ellipsis" = "Move...";
+"generic_move_ellipsis" = "Перемістити...";
 
 /* New Entry - Translators Note: Menu option to add a new entry */
 "browse_context_menu_new_entry" = "Новий запис";
@@ -3608,7 +3608,7 @@
 "diff_view_section_header_entry_will_be_changed_count_fmt" = "Буде змінено (%lu)";
 
 /* Items with Differences (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_entry_differences_fmt" = "Елементи з відмінностями (%lu)";
+"diff_view_section_header_entry_differences_fmt" = "Записи з відмінностями (%lu)";
 
 /* Will be Added (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
 "diff_view_section_header_entry_will_be_added_count_fmt" = "Буде додано (%lu)";
@@ -3620,7 +3620,7 @@
 "diff_view_section_header_entry_will_be_moved_count_fmt" = "Буде переміщено (%lu)";
 
 /* Items in Different Locations (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_items_in_different_loc_fmt" = "Елементи в різних розташуваннях (%lu)";
+"diff_view_section_header_items_in_different_loc_fmt" = "Записи в різних розташуваннях (%lu)";
 
 /* Will be Deleted (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
 "diff_view_section_header_entry_will_be_deleted_count_fmt" = "Буде видалено (%lu)";
@@ -3632,13 +3632,13 @@
 "diff_view_section_header_entry_history_will_change_count_fmt" = "Історія зміниться (%lu)";
 
 /* Items with Historical Differences (%lu) - Translators Note: First parameter is an integer number of items in the section below this header */
-"diff_view_section_header_historical_diffs_fmt" = "Елементи з відмінностями історії (%lu)";
+"diff_view_section_header_historical_diffs_fmt" = "Записи з відмінностями історії (%lu)";
 
 /* Are you sure you want to merge the second database into the first? */
 "merge_view_are_you_sure" = "Ви дійсно хочете об'єднати другу базу даних з першою?";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Are you sure you want to merge the second database into the first?";
+"merge_view_are_you_sure" = "Ви дійсно хочете об'єднати другу базу даних з першою?";
 
 /* Merge Successful */
 "merge_view_merge_title_success" = "Успішно об'єднано";
@@ -3692,7 +3692,7 @@
 "diff_drill_down_custom_data_is_different_fmt" = "Власні дані %@ відрізняються.";
 
 /* Custom Data item will be removed. */
-"diff_drill_down_custom_data_will_be_removed_fmt" = "Власний елемент запису буде вилучено.";
+"diff_drill_down_custom_data_will_be_removed_fmt" = "Власний запис даних буде вилучено.";
 
 /* Custom Data is only in first. */
 "diff_drill_down_custom_data_is_only_in_first" = "Власні дані лише у першій.";
@@ -3815,10 +3815,10 @@
 "diff_drill_down_custom_fields_are_different" = "Власні поля відрізняються.";
 
 /* Item will be moved. */
-"diff_drill_down_location_will_change" = "Елемент буде переміщено.";
+"diff_drill_down_location_will_change" = "Запис буде переміщено.";
 
 /* Item locations are different. */
-"diff_drill_down_locations_are_different" = "Розташування елементів відрізняються.";
+"diff_drill_down_locations_are_different" = "Розташування записів відрізняються.";
 
 /* In %@ and %@ */
 "diff_drill_down_diff_loc_different" = "В %@ та %@";
@@ -4056,10 +4056,10 @@
 "sync_log_status_done" = "Виконано. ✅";
 
 /* 2FA Copied */
-"autofill_info_totp_copied_title" = "2FA Copied";
+"autofill_info_totp_copied_title" = "2FA скопійовано";
 
 /* Your 2FA Code has been copied to the clipboard. */
-"autofill_info_totp_copied_message" = "Your 2FA Code has been copied to the clipboard.";
+"autofill_info_totp_copied_message" = "Код 2FA скопійовано до буфера обміну.";
 
 /* Convenience Auto Unlock */
 "prefs_vc_autofill_convenience_auto_unlock" = "Зручне автовідмикання";
@@ -4457,7 +4457,7 @@
 "generic_export_database" = "Експорт бази паролів";
 
 /* Export Item */
-"generic_export_item" = "Експорт елемента";
+"generic_export_item" = "Експорт запису";
 
 /* 1 item will be replaced in destination database '%@'. (L10n Note: 1st Param is the destination database name e.g. '1 item will be replaced in destination database 'Mark's Database'.') */
 "export_options_1_replaced_fmt" = "1 запис буде замінено в цільовій базі даних '%@'.";
@@ -4621,7 +4621,7 @@
 "import_successful_message" = "Ваш імпорт пройшов успішно! Тепер встановимо складний головний пароль та збережемо нову базу паролів Strongbox.";
 
 /* Are you sure you want to clear the 2FA Code for this entry? */
-"are_you_sure_clear_totp" = "Are you sure you want to clear the 2FA Code for this entry?";
+"are_you_sure_clear_totp" = "Ви дійсно хочете очистити 2FA-код для цього запису?";
 
 /* Date Created (Precise) */
 "databases_preferences_subtitle_field_name_create_date_precise" = "Дата створення (точно)";
@@ -4682,10 +4682,10 @@
 "generic_dont_ask_again" = "Не питати знову";
 
 /* Yes, don't ask again */
-"generic_yes_dont_ask_again" = "Yes, don't ask again";
+"generic_yes_dont_ask_again" = "Так, не запитувати знову";
 
 /* No, don't ask again */
-"generic_no_dont_ask_again" = "No, don't ask again";
+"generic_no_dont_ask_again" = "Ні, не запитувати знову";
 
 /* Not Right Now */
 "generic_not_right_now" = "Не зараз";
@@ -4754,7 +4754,7 @@
 "are_you_sure_delete_custom_field_s" = "Ви впевнені, що хочете видалити вибрані поля?";
 
 /* Found 2FA Code in '%@' Window - Localization Note: The parameter here is an App name like "Firefox" or "Safari" */
-"found_totp_code_in_x_window_fmt" = "Found 2FA Code in '%@' Window";
+"found_totp_code_in_x_window_fmt" = "Знайдено 2FA-код у вікні '%@'";
 
 /* Randomly Generated */
 "menu_item_header_randomly_generated_suggestions" = "Випадково згенеровано";
@@ -4769,7 +4769,7 @@
 "pasted_image_attachment_at_time_filename_png_fmt" = "paste-at-%@.png";
 
 /* Groups */
-"side_bar_hierarchy_folder_structure" = "Groups";
+"side_bar_hierarchy_folder_structure" = "Групи";
 
 /* Discard Changes */
 "discard_changes" = "Відхилити зміни";
@@ -4856,13 +4856,13 @@
 "detail_view_no_selection_header" = "Не вибрано";
 
 /* Multiple Items */
-"detail_view_multiple_items_selected_header" = "Кілька елементів";
+"detail_view_multiple_items_selected_header" = "Кілька записів";
 
 /* Select an Item */
-"detail_view_no_selection_message" = "Вибрати елемент";
+"detail_view_no_selection_message" = "Вибрати запис";
 
 /* %@ Items Selected */
-"detail_view_no_multiple_items_selected_message_fmt" = "Вибрано %@ елементів";
+"detail_view_no_multiple_items_selected_message_fmt" = "Вибрано %@ записів";
 
 /* Toggle Details Panel - L10n shows or hides the right hand side details view panel */
 "nextgen_toolbar_item_toggle_details_panel" = "Перемкнути панель подробиць";
@@ -4895,7 +4895,7 @@
 "num_of_bits_fmt" = "%@ біт";
 
 /* Exclude Item from Audit */
-"exclude_item_from_audit" = "Виключити елемент з аудиту";
+"exclude_item_from_audit" = "Виключити запис з аудиту";
 
 /* Check with 'Have I Been Pwned?' */
 "check_field_with_hibp" = "Перевірити Have I Been Pwned?";
@@ -5255,7 +5255,7 @@
 "generic_item_is_hidden" = "Приховано";
 
 /* These tabs will be visible in this order, providing there are eligible items to display. You must always have at least one visible tab. */
-"configure_tabs_footer_visible_tabs" = "Вкладки показуватимуться в такому порядку, за умови доступних елементів. Має бути завжди принаймні одна видима вкладка.";
+"configure_tabs_footer_visible_tabs" = "Вкладки показуватимуться в такому порядку, за умови доступних записів. Має бути завжди принаймні одна видима вкладка.";
 
 /* These tabs will remain hidden. */
 "configure_tabs_footer_hidden_tabs" = "Ці вкладки залишатимуться прихованими.";
@@ -5270,10 +5270,10 @@
 "configure_tabs_option_hide_tab_bar_completely" = "Цілком приховати панель вкладок";
 
 /* %@ Items */
-"generic_number_of_items_plural_fmt" = "%@ елементів";
+"generic_number_of_items_plural_fmt" = "%@ записів";
 
 /* %@ Item */
-"generic_single_item_singular_fmt" = "%@ елемент";
+"generic_single_item_singular_fmt" = "%@ запис";
 
 /* Configure Tabs */
 "configure_tabs" = "Налаштувати вкладки";
@@ -5294,10 +5294,10 @@
 "generic_sort_order_reverse_alphabetically" = "Зворотний алфавітний порядок";
 
 /* %@ Items Sorted By - L10n note: This is the header of a menu, the menu contains the fields you can sort by. e.g. Title. So this will look like "120 Items Sorted By" for example. The first parameter is numeric, the number of items sorted below */
-"sort_menu_header_number_of_items_plural_sorted_by_fmt" = "%@ елементів відсортовано";
+"sort_menu_header_number_of_items_plural_sorted_by_fmt" = "%@ записів відсортовано";
 
 /* 1 Item Sorted By - L10n note: This is the header of a menu, the menu contains the fields you can sort by. e.g. Title. So this will look like "1 Item Sorted By" for example */
-"sort_menu_header_singular_item_sorted_by" = "1 елемент відсортовано";
+"sort_menu_header_singular_item_sorted_by" = "1 запис відсортовано";
 
 /* Alphabetic Index */
 "alphabetic_index_menu_item_title" = "Абетковий індекс";
@@ -5321,7 +5321,7 @@
 "safes_vc_import_icloud" = "iCloud Keychain (CSV)";
 
 /* Disabling Auto-Commit could mean you lose this 2FA Code if you forget to commit later, are you sure? */
-"are_you_sure_auto_commit_totp_msg" = "Disabling Auto-Commit could mean you lose this 2FA Code if you forget to commit later. Are you sure?";
+"are_you_sure_auto_commit_totp_msg" = "Вимкнення автовведення означає, що ви можете втратити цей 2FA-код, якщо забудете його ввести. Ви впевнені?";
 
 /* Close - A generic verb - to Close a popup or dialog */
 "generic_verb_close" = "Закрити";
@@ -5384,7 +5384,7 @@
 "mac_create_or_edit_commit_changes" = "Зберегти (⌘S)";
 
 /* Hierarchy (%@ Groups, %@ Entries) - L10n Note - The two parameters are numeric, so for example: "23 Groups, 3456 Entries"*/
-"side_bar_hierarchy_folder_structure_summary_count_fmt" = "Groups (%@ Groups, %@ Entries)";
+"side_bar_hierarchy_folder_structure_summary_count_fmt" = "Групи (%@ груп, %@ записів)";
 
 /* Entries */
 "side_bar_child_count_format_entries" = "Записи";
@@ -5399,10 +5399,10 @@
 "side_bar_child_count_format_groups_and_entries_rec" = "Групи й записи (рекурсивно)";
 
 /* Items */
-"side_bar_child_count_format_items" = "Елементи";
+"side_bar_child_count_format_items" = "Записи";
 
 /* Items (Recursive) */
-"side_bar_child_count_format_items_rec" = "Елементи (рекурсивно)";
+"side_bar_child_count_format_items_rec" = "Записи (рекурсивно)";
 
 /* The SFTP host returned the Fingerprint below.\n\nStrongbox will use this Fingerprint to verify it is communicating with only this host.\n\nPlease confirm you are happy with this Fingerprint. You will be notified if it ever changes.\n\n%@ */
 "sftp_hostkey_fingerprint_first_use_confirm_fmt" = "Хост SFTP повернув наведений нижче цифровий відбиток.\n\nStrongbox використовуватиме цей відбиток, щоб пересвідчитися, що зв'язок відбувається саме з цим хостом.\n\nПідтвердьте цей цифровий відбиток. Якщо він зміниться, ви одразу отримаєте сповіщення.\n\n%@";
@@ -5554,7 +5554,7 @@
 "import_please_share_import_messages" = "Будь ласка, надішліть нам (support@strongboxsafe.com) зазначені вище повідомлення, щоб ми могли вдосконалити процес імпортування.";
 
 /* 2FA Secret */
-"generic_totp_secret" = "2FA Secret";
+"generic_totp_secret" = "Ключ 2FA";
 
 /* Select Items */
 "generic_select_items" = "Виберіть записи";
@@ -5956,7 +5956,7 @@
 "wifi_sync_change_service_name_message" = "Це назва цього пристрою в мережі.";
 
 /* Item is not Searchable - L10n Note: Indicates that a particular item is not searchable because it is contained in a group which is marked as not searchable */
-"item_is_not_searchable" = "Елемент недоступний для пошуку";
+"item_is_not_searchable" = "Запис недоступний для пошуку";
 
 /* Recover Key File */
 "recover_key_file_title" = "Відновити ключовий файл";
@@ -6055,25 +6055,25 @@
 "storage_provider_cloudkit_display_name" = "Strongbox Sync";
 
 /* Available - L10n note: This is a state. A service is available. e.g. iCloud is Available */
-"generic_noun_state_available" = "Available";
+"generic_noun_state_available" = "Доступно";
 
 /* Could Not Determine */
-"cloudkit_status_could_not_determine" = "Could Not Determine";
+"cloudkit_status_could_not_determine" = "Не вдалося визначити";
 
 /* Restricted due to Parental Controls / Device Management. */
-"cloudkit_status_restricted" = "Restricted due to Parental Controls / Device Management.";
+"cloudkit_status_restricted" = "Обмежено батьківським контролем / керуванням пристроями.";
 
 /* Unavailable. Check Apple account in System Settings. */
-"cloudkit_status_unavailable" = "Unavailable. Check Apple account in System Settings.";
+"cloudkit_status_unavailable" = "Недоступно. Перевірте обліковий запис Apple у параметрах системи.";
 
 /* Temporarily Unavailable. Check Apple account in System Settings. */
-"cloudkit_status_temporarily_unavailable" = "Temporarily Unavailable. Check Apple account in System Settings.";
+"cloudkit_status_temporarily_unavailable" = "Тимчасово недоступно. Перевірте обліковий запис Apple у параметрах системи.";
 
 /* Accepting Share... - L10n Note: User has chosen to accept an invitation to a Shared Database. This is displayed as a spinner/wait text while the operation completes */
-"accepting_share_status_spinner" = "Accepting Share...";
+"accepting_share_status_spinner" = "Приймаю спільний доступ...";
 
 /* Strongbox Sync Unavailable */
-"strongbox_sync_unavailable_title" = "Strongbox Sync Unavailable";
+"strongbox_sync_unavailable_title" = "Strongbox Sync недоступний";
 
 /* Strongbox Sync has become unavailable. Please check you are signed in to your Apple account in System Settings. */
 "strongbox_sync_unavailable_msg" = "Strongbox Sync has become unavailable. Please check you are signed in to your Apple account in System Settings.";
