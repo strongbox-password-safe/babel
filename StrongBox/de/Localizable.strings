@@ -285,7 +285,7 @@
 "browse_prefs_tap_action_copy_copy_password" = "Passwort kopieren";
 
 /* Copy 2FA */
-"browse_prefs_tap_action_copy_copy_totp" = "Copy 2FA Code";
+"browse_prefs_tap_action_copy_copy_totp" = "2FA-Code kopieren";
 
 /* Copy URL */
 "browse_prefs_tap_action_copy_copy_url" = "URL kopieren";
@@ -375,7 +375,7 @@
 "browse_vc_group_path_string_fmt" = "(in %@)";
 
 /* '%@': No 2FA setup to Copy! */
-"browse_vc_no_totp_to_copy_fmt" = "'%@': No 2FA setup to Copy!";
+"browse_vc_no_totp_to_copy_fmt" = "„%@”: Keine 2FA-Einrichtung zu kopieren!";
 
 /* '%@' Notes Copied  - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
 "browse_vc_notes_copied_fmt" = "„%@” - Anmerkungen kopiert";
@@ -420,7 +420,7 @@
 "browse_vc_view_as_database_empty" = "Keine Einträge";
 
 /* No 2FA Codes Found */
-"browse_vc_view_as_totp_no_totps" = "No 2FA Codes Found";
+"browse_vc_view_as_totp_no_totps" = "Keine 2FA-Codes gefunden";
 
 /* No matching entries found */
 "browse_vc_view_search_no_matches" = "Keine passenden Einträge gefunden";
@@ -606,19 +606,19 @@
 "item_details_section_header_metadata" = "Metadaten";
 
 /* Setup 2FA Code... */
-"item_details_setup_totp" = "Setup 2FA Code...";
+"item_details_setup_totp" = "2FA-Code einrichten …";
 
 /* Could not set 2FA because the format is unsupported. */
-"item_details_setup_totp_failed_message" = "Could not set 2FA Code because the format is unsupported.";
+"item_details_setup_totp_failed_message" = "Der 2FA-Code konnte nicht festgelegt werden, da das Format nicht unterstützt wird.";
 
 /* Failed to Set 2FA */
-"item_details_setup_totp_failed_title" = "Failed to Set 2FA Code";
+"item_details_setup_totp_failed_title" = "2FA-Code konnte nicht festgelegt werden";
 
 /* You can setup 2FA Code by using a QR Code, or manually by entering the secret or an OTPAuth URL */
-"item_details_setup_totp_how_message" = "You can setup a 2FA Code by using a QR Code, or manually by entering the secret or an OTPAuth URL";
+"item_details_setup_totp_how_message" = "Sie können einen 2FA-Code mit Hilfe eines QR-Codes oder manuell durch Eingabe des Geheimnisses oder einer OTPAuth-URL einrichten";
 
 /* How would you like to setup 2FA? */
-"item_details_setup_totp_how_title" = "How would you like to setup 2FA?";
+"item_details_setup_totp_how_title" = "Wie möchten Sie 2FA einrichten?";
 
 /* Manual (Standard/RFC 6238)... */
 "item_details_setup_totp_manual_rfc" = "Manuell (Standard/RFC 6238) ...";
@@ -903,7 +903,7 @@
 "notes_cell_textview_accessibility_label" = "Anmerkungstext-Ansicht";
 
 /* No 2FA Setup */
-"totp_cell_no_totp_has_been_setup" = "No 2FA Setup";
+"totp_cell_no_totp_has_been_setup" = "Keine 2FA-Einrichtung";
 
 /*  Text Field */
 "generic_kv_cell_value_text_accessibility label_fmt" = " Textfeld";
@@ -1914,7 +1914,7 @@
 "generic_fieldname_custom_field" = "Benutzerdefiniertes Feld";
 
 /* 2FA */
-"generic_fieldname_totp" = "2FA Code";
+"generic_fieldname_totp" = "2FA-Code";
 
 /* Attachments */
 "generic_fieldname_attachments" = "Anhänge";
@@ -2424,10 +2424,10 @@
 "mac_undo_action_remove_custom_field" = "Benutzerdefiniertes Feld löschen";
 
 /* Set 2FA */
-"mac_undo_action_set_totp" = "Set 2FA";
+"mac_undo_action_set_totp" = "2FA festlegen";
 
 /* Clear 2FA */
-"mac_undo_action_clear_totp" = "Clear 2FA";
+"mac_undo_action_clear_totp" = "2FA leeren";
 
 /* Add Items */
 "mac_undo_action_add_items" = "Einträge hinzufügen";
@@ -2954,10 +2954,10 @@
 "quick_view_title_audit_issues_subtitle" = "Alle Einträge mit Sicherheitsproblemen anzeigen";
 
 /* 2FA Codes */
-"quick_view_title_totp_entries_title" = "2FA Codes";
+"quick_view_title_totp_entries_title" = "2FA-Codes";
 
 /* View all entries with a 2FA Code */
-"quick_view_title_totp_entries_subtitle" = "View all entries with a 2FA Code";
+"quick_view_title_totp_entries_subtitle" = "Alle Einträge mit einem 2FA-Code anzeigen";
 
 /* Quick Views */
 "quick_view_section_title_quick_views" = "Schnellansichten";
@@ -4056,10 +4056,10 @@
 "sync_log_status_done" = "Fertig. ✅";
 
 /* 2FA Copied */
-"autofill_info_totp_copied_title" = "2FA Copied";
+"autofill_info_totp_copied_title" = "2FA kopiert";
 
 /* Your 2FA Code has been copied to the clipboard. */
-"autofill_info_totp_copied_message" = "Your 2FA Code has been copied to the clipboard.";
+"autofill_info_totp_copied_message" = "Ihr 2FA-Code wurde in die Zwischenablage kopiert.";
 
 /* Convenience Auto Unlock */
 "prefs_vc_autofill_convenience_auto_unlock" = "Autom. Komfortentsperrung";
@@ -4621,7 +4621,7 @@
 "import_successful_message" = "Ihr Import war erfolgreich! Lassen Sie uns jetzt ein starkes Master-Passwort setzen und Ihre neue Strongbox-Datenbank speichern.";
 
 /* Are you sure you want to clear the 2FA Code for this entry? */
-"are_you_sure_clear_totp" = "Are you sure you want to clear the 2FA Code for this entry?";
+"are_you_sure_clear_totp" = "Möchten Sie den 2FA-Code für diesen Eintrag wirklich löschen?";
 
 /* Date Created (Precise) */
 "databases_preferences_subtitle_field_name_create_date_precise" = "Erstellungsdatum (genau)";
@@ -4754,7 +4754,7 @@
 "are_you_sure_delete_custom_field_s" = "Möchten Sie das/die ausgewählte(n) Feld(er) wirklich leeren?";
 
 /* Found 2FA Code in '%@' Window - Localization Note: The parameter here is an App name like "Firefox" or "Safari" */
-"found_totp_code_in_x_window_fmt" = "Found 2FA Code in '%@' Window";
+"found_totp_code_in_x_window_fmt" = "2FA-Code im Fenster „%@” gefunden";
 
 /* Randomly Generated */
 "menu_item_header_randomly_generated_suggestions" = "Nach Zufallsprinzip erzeugt";
@@ -5321,7 +5321,7 @@
 "safes_vc_import_icloud" = "iCloud-Schlüsselbund (CSV) ...";
 
 /* Disabling Auto-Commit could mean you lose this 2FA Code if you forget to commit later, are you sure? */
-"are_you_sure_auto_commit_totp_msg" = "Disabling Auto-Commit could mean you lose this 2FA Code if you forget to commit later. Are you sure?";
+"are_you_sure_auto_commit_totp_msg" = "Das Deaktivieren von „Automatisch speichern” könnte bedeuten, dass Sie diesen 2FA-Code verlieren, wenn Sie vergessen, ihn später zu bestätigen. Dennoch fortfahren?";
 
 /* Close - A generic verb - to Close a popup or dialog */
 "generic_verb_close" = "Schließen";
@@ -5554,7 +5554,7 @@
 "import_please_share_import_messages" = "Bitte ziehen Sie in Erwägung, die oben genannten Meldungen mit uns zu teilen (support@strongboxsafe.com), um uns bei der Verbesserung des Importprozesses zu helfen.";
 
 /* 2FA Secret */
-"generic_totp_secret" = "2FA Secret";
+"generic_totp_secret" = "2FA-Geheimnis";
 
 /* Select Items */
 "generic_select_items" = "Einträge auswählen";
@@ -6410,7 +6410,7 @@
 
 "audit_view_section_footer_entropy" = "Dies sind Einträge, deren Komplexität unter einem bestimmten Schwellenwert liegt, der als schwach angesehen werden könnte.";
 
-"audit_view_section_footer_2fa" = "These are entries that are marked as having known two factor authentication available but without an existing 2FA Code set.";
+"audit_view_section_footer_2fa" = "Dies sind Einträge, die als mit bekannter Zwei-Faktor-Authentifizierung verfügbar gekennzeichnet sind, aber keinen vorhandenen 2FA-Codesatz haben.";
 
 "anonymous_group_number_fmt" = "Gruppe #%@";
 
@@ -6433,19 +6433,19 @@
 "navigation_tab_home" = "Startseite";
 
 /* Database Saved */
-"generic_database_saved" = "Database Saved";
+"generic_database_saved" = "Datenbank gespeichert";
 
 /* All Sections Hidden */
-"home_view_all_sections_hidden" = "All Sections Hidden";
+"home_view_all_sections_hidden" = "Alle Abschnitte ausgeblendet";
 
 /* Tap Settings > Show Sections to configure. */
-"home_view_all_sections_hidden_instructions" = "Tap Settings > Show Sections to configure.";
+"home_view_all_sections_hidden_instructions" = "Tippen Sie zum Konfigurieren auf „Einstellungen” ➜ „Abschnitte anzeigen”.";
 
 /* Find your way around your database. */
-"home_view_navigation_section_subtitle" = "Find your way around your database.";
+"home_view_navigation_section_subtitle" = "Finden Sie sich in Ihrer Datenbank zurecht.";
 
 /* Your most popular tags. */
-"home_view_quick_tags_section_subtitle" = "Your most popular tags.";
+"home_view_quick_tags_section_subtitle" = "Ihre beliebtesten Schlagwörter.";
 
 /* Various convenient aspects of your database. */
-"home_view_other_views_navigation_section_subtitle" = "Various convenient aspects of your database.";
+"home_view_other_views_navigation_section_subtitle" = "Verschiedene praktische Aspekte Ihrer Datenbank.";
