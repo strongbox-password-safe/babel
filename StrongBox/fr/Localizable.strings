@@ -285,7 +285,7 @@
 "browse_prefs_tap_action_copy_copy_password" = "Copier le mot de passe";
 
 /* Copy 2FA */
-"browse_prefs_tap_action_copy_copy_totp" = "Copy 2FA Code";
+"browse_prefs_tap_action_copy_copy_totp" = "Copier le code 2FA";
 
 /* Copy URL */
 "browse_prefs_tap_action_copy_copy_url" = "Copier l'URL";
@@ -375,7 +375,7 @@
 "browse_vc_group_path_string_fmt" = "(dans %@)";
 
 /* '%@': No 2FA setup to Copy! */
-"browse_vc_no_totp_to_copy_fmt" = "'%@': No 2FA setup to Copy!";
+"browse_vc_no_totp_to_copy_fmt" = "'%@': pas de configuration 2FA à copier !";
 
 /* '%@' Notes Copied  - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
 "browse_vc_notes_copied_fmt" = "Notes de '%@' copiées";
@@ -420,7 +420,7 @@
 "browse_vc_view_as_database_empty" = "Aucune entrée";
 
 /* No 2FA Codes Found */
-"browse_vc_view_as_totp_no_totps" = "No 2FA Codes Found";
+"browse_vc_view_as_totp_no_totps" = "Aucun code 2FA trouvé";
 
 /* No matching entries found */
 "browse_vc_view_search_no_matches" = "Aucune entrée correspondante trouvée";
@@ -606,19 +606,19 @@
 "item_details_section_header_metadata" = "Métadonnées";
 
 /* Setup 2FA Code... */
-"item_details_setup_totp" = "Setup 2FA Code...";
+"item_details_setup_totp" = "Configurer le code 2FA...";
 
 /* Could not set 2FA because the format is unsupported. */
-"item_details_setup_totp_failed_message" = "Could not set 2FA Code because the format is unsupported.";
+"item_details_setup_totp_failed_message" = "Échec de définition du code 2FA car le format n'est pas reconnu.";
 
 /* Failed to Set 2FA */
-"item_details_setup_totp_failed_title" = "Failed to Set 2FA Code";
+"item_details_setup_totp_failed_title" = "Impossible de définir le code 2FA";
 
 /* You can setup 2FA Code by using a QR Code, or manually by entering the secret or an OTPAuth URL */
-"item_details_setup_totp_how_message" = "You can setup a 2FA Code by using a QR Code, or manually by entering the secret or an OTPAuth URL";
+"item_details_setup_totp_how_message" = "Vous pouvez configurer un code 2FA en utilisant un QR code, ou manuellement en saisissant le secret ou une URL OTPAuth";
 
 /* How would you like to setup 2FA? */
-"item_details_setup_totp_how_title" = "How would you like to setup 2FA?";
+"item_details_setup_totp_how_title" = "Comment souhaitez-vous configurer 2FA ?";
 
 /* Manual (Standard/RFC 6238)... */
 "item_details_setup_totp_manual_rfc" = "Manuel (Standard/RFC 6238)...";
@@ -903,7 +903,7 @@
 "notes_cell_textview_accessibility_label" = "Vue du texte des notes";
 
 /* No 2FA Setup */
-"totp_cell_no_totp_has_been_setup" = "No 2FA Setup";
+"totp_cell_no_totp_has_been_setup" = "Pas de configuration 2FA";
 
 /*  Text Field */
 "generic_kv_cell_value_text_accessibility label_fmt" = " Champ de texte";
@@ -1914,7 +1914,7 @@
 "generic_fieldname_custom_field" = "Champ personnalisé";
 
 /* 2FA */
-"generic_fieldname_totp" = "2FA Code";
+"generic_fieldname_totp" = "Code 2FA";
 
 /* Attachments */
 "generic_fieldname_attachments" = "Fichiers joints";
@@ -2424,10 +2424,10 @@
 "mac_undo_action_remove_custom_field" = "Supprimer le champ personnalisé";
 
 /* Set 2FA */
-"mac_undo_action_set_totp" = "Set 2FA";
+"mac_undo_action_set_totp" = "Définir 2FA";
 
 /* Clear 2FA */
-"mac_undo_action_clear_totp" = "Clear 2FA";
+"mac_undo_action_clear_totp" = "Effacer 2FA";
 
 /* Add Items */
 "mac_undo_action_add_items" = "Ajouter des éléments";
@@ -2954,10 +2954,10 @@
 "quick_view_title_audit_issues_subtitle" = "Voir toutes les entrées avec des problèmes d'audit";
 
 /* 2FA Codes */
-"quick_view_title_totp_entries_title" = "2FA Codes";
+"quick_view_title_totp_entries_title" = "Codes 2FA";
 
 /* View all entries with a 2FA Code */
-"quick_view_title_totp_entries_subtitle" = "View all entries with a 2FA Code";
+"quick_view_title_totp_entries_subtitle" = "Voir toutes les entrées avec un code 2FA";
 
 /* Quick Views */
 "quick_view_section_title_quick_views" = "Vues rapides";
@@ -3419,7 +3419,7 @@
 "generic_move" = "Déplacer";
 
 /* Move - Translators Note: Verb - To move something e.g. an entry or group somewhere else in the hierarchy */
-"generic_move_ellipsis" = "Move...";
+"generic_move_ellipsis" = "Déplacer...";
 
 /* New Entry - Translators Note: Menu option to add a new entry */
 "browse_context_menu_new_entry" = "Nouvelle entrée";
@@ -4056,10 +4056,10 @@
 "sync_log_status_done" = "Terminé. ✅";
 
 /* 2FA Copied */
-"autofill_info_totp_copied_title" = "2FA Copied";
+"autofill_info_totp_copied_title" = "2FA Copié";
 
 /* Your 2FA Code has been copied to the clipboard. */
-"autofill_info_totp_copied_message" = "Your 2FA Code has been copied to the clipboard.";
+"autofill_info_totp_copied_message" = "Votre code 2FA a été copié dans le presse-papiers.";
 
 /* Convenience Auto Unlock */
 "prefs_vc_autofill_convenience_auto_unlock" = "Déverrouillage automatique de confort";
@@ -4621,7 +4621,7 @@
 "import_successful_message" = "Votre importation a réussi! Maintenant, définissons un mot de passe maître fort et enregistrons votre nouvelle base de données Strongbox.";
 
 /* Are you sure you want to clear the 2FA Code for this entry? */
-"are_you_sure_clear_totp" = "Are you sure you want to clear the 2FA Code for this entry?";
+"are_you_sure_clear_totp" = "Êtes-vous sûr(e) de vouloir effacer le code 2FA pour cette entrée?";
 
 /* Date Created (Precise) */
 "databases_preferences_subtitle_field_name_create_date_precise" = "Date de création (Précise)";
@@ -4754,7 +4754,7 @@
 "are_you_sure_delete_custom_field_s" = "Êtes-vous sûr(e) de vouloir supprimer le(s) champ(s) sélectionné(s) ?";
 
 /* Found 2FA Code in '%@' Window - Localization Note: The parameter here is an App name like "Firefox" or "Safari" */
-"found_totp_code_in_x_window_fmt" = "Found 2FA Code in '%@' Window";
+"found_totp_code_in_x_window_fmt" = "Code 2FA trouvé dans la fenêtre '%@'";
 
 /* Randomly Generated */
 "menu_item_header_randomly_generated_suggestions" = "Généré aléatoirement";
@@ -4769,7 +4769,7 @@
 "pasted_image_attachment_at_time_filename_png_fmt" = "collé-le-%@.png";
 
 /* Groups */
-"side_bar_hierarchy_folder_structure" = "Groups";
+"side_bar_hierarchy_folder_structure" = "Groupes";
 
 /* Discard Changes */
 "discard_changes" = "Abandonner les modifications";
@@ -4832,7 +4832,7 @@
 "generic_action_show_qr_code" = "Montrer le QR Code";
 
 /* Show Large Text View */
-"generic_action_show_large_text_view" = "Afficher la vue texte large";
+"generic_action_show_large_text_view" = "Afficher la vue texte grand format";
 
 /* Preview Attachment */
 "generic_action_preview_attachment" = "Prévisualiser le fichier joint";
@@ -5321,7 +5321,7 @@
 "safes_vc_import_icloud" = "Trousseau iCloud (CSV)";
 
 /* Disabling Auto-Commit could mean you lose this 2FA Code if you forget to commit later, are you sure? */
-"are_you_sure_auto_commit_totp_msg" = "Disabling Auto-Commit could mean you lose this 2FA Code if you forget to commit later. Are you sure?";
+"are_you_sure_auto_commit_totp_msg" = "Si vous désactivez l'enregistrement automatique, vous pourriez perdre ce code 2FA si vous oubliez de l'enregistrer plus tard. Êtes-vous sûr(e) ?";
 
 /* Close - A generic verb - to Close a popup or dialog */
 "generic_verb_close" = "Fermer";
@@ -5384,7 +5384,7 @@
 "mac_create_or_edit_commit_changes" = "Valider (⌘S)";
 
 /* Hierarchy (%@ Groups, %@ Entries) - L10n Note - The two parameters are numeric, so for example: "23 Groups, 3456 Entries"*/
-"side_bar_hierarchy_folder_structure_summary_count_fmt" = "Groups (%@ Groups, %@ Entries)";
+"side_bar_hierarchy_folder_structure_summary_count_fmt" = "Groupes (%@ Groupes, %@ Entrées)";
 
 /* Entries */
 "side_bar_child_count_format_entries" = "Entrées";
@@ -5554,7 +5554,7 @@
 "import_please_share_import_messages" = "Veuillez envisager de partager avec nous (support@strongboxsafe.com) les messages ci-dessus pour nous aider à améliorer le processus d'importation.";
 
 /* 2FA Secret */
-"generic_totp_secret" = "2FA Secret";
+"generic_totp_secret" = "Clef secrète 2FA";
 
 /* Select Items */
 "generic_select_items" = "Sélectionner les éléments";
@@ -6127,7 +6127,7 @@
 "blurb_about_strongbox_sync_native_cloud" = "Notre synchronisation cloud native rend vos bases de données disponibles sur tous vos appareils. Le partage avec d'autres est également pris en charge. Vous pouvez également stocker votre base de données localement sur cet appareil uniquement.";
 
 /* These method(s) are no longer advised. Your mileage may vary depending on the quality of the third party 'Files' provider, how reliable your connection is and other factors. Ultimately, Strongbox does not have full control over the sync process, and so we cannot guarantee data integrity or offer sync support. */
-"deprecated_storage_footer_text" = "Ces méthodes ne sont plus conseillées. Votre kilométrage peut varier en fonction de la qualité du fournisseur de « Fichiers » tiers, de la fiabilité de votre connexion et d'autres facteurs. En fin de compte, Strongbox n'a pas un contrôle total sur le processus de synchronisation et nous ne pouvons donc pas garantir l'intégrité des données ni offrir de support de synchronisation.";
+"deprecated_storage_footer_text" = "Ces méthodes ne sont plus conseillées. Votre expérience peut varier en fonction de la qualité du fournisseur de « Fichiers » tiers, de la fiabilité de votre connexion et d'autres facteurs. En fin de compte, Strongbox n'a pas un contrôle total sur le processus de synchronisation et nous ne pouvons donc pas garantir l'intégrité des données ni offrir de support sur la synchronisation.";
 
 /* Built-In (Not Recommended) */
 "storage_provider_built_in_not_recommended_header" = "Intégré (non recommandé)";
@@ -6229,31 +6229,31 @@
 "item_details_tap_to_add_tags" = "Appuyer pour ajouter des tags...";
 
 /* Edit Tags */
-"tags_editor_header_edit_tags" = "Edit Tags";
+"tags_editor_header_edit_tags" = "Éditer les étiquettes";
 
 /* Create New Tag... */
-"tags_editor_create_new_tag_ellipsis" = "Create New Tag...";
+"tags_editor_create_new_tag_ellipsis" = "Créer une nouvelle étiquette...";
 
 /* Search or Create... */
 "tags_editor_search_or_create_ellipsis" = "Rechercher ou créer...";
 
 /* Current Tags */
-"tags_editor_header_current_tags" = "Current Tags";
+"tags_editor_header_current_tags" = "Étiquettes actuelles";
 
 /* Available Tags */
-"tags_editor_create_available_tags" = "Available Tags";
+"tags_editor_create_available_tags" = "Étiquettes disponibles";
 
 /* No Tags Yet */
-"tags_editor_create_no_tags_yet" = "No Tags Yet";
+"tags_editor_create_no_tags_yet" = "Aucune étiquette";
 
 /* Start typing in the search bar to create a new one */
 "tags_editor_create_start_typing_to_create" = "Taper dans la barre de recherche pour en créer une nouvelle";
 
 /* Check the spelling or create a new tag */
-"tags_editor_check_spelling" = "Check the spelling or create a new tag";
+"tags_editor_check_spelling" = "Vérifier l'orthographe ou créer une nouvelle étiquette";
 
 /* Create \"%@\" tag */
-"tags_editor_create_tag_fmt" = "Create \"%@\" tag";
+"tags_editor_create_tag_fmt" = "Créer l'étiquette \"%@\"";
 
 /* No Results for \"%@\" */
 "tags_editor_no_results_for_fmt" = "Aucun résultat pour \"%@\"";
@@ -6265,187 +6265,202 @@
 "storage_selector_where_store_new" = "Où souhaitez-vous stocker votre nouvelle base de données ?";
 
 /* Where is your existing database located? */
-"storage_selector_where_existing_located" = "Where is your existing database located?";
+"storage_selector_where_existing_located" = "Où se trouve votre base de données existante ?";
 
 /* Storage Browser */
-"storage_browser" = "Storage Browser";
+"storage_browser" = "Explorateur de stockage";
 
 /* Databases */
-"generic_databases_plural" = "Databases";
+"generic_databases_plural" = "Bases de données";
 
 /* All Items */
-"generic_all_items" = "All Items";
+"generic_all_items" = "Tous les éléments";
 
 /* Strongbox has found these items in this folder that are likely to be databases. */
-"storage_browser_strongbox_found_likely_databases" = "Strongbox has found these items in this folder that are likely to be databases.";
+"storage_browser_strongbox_found_likely_databases" = "Strongbox a trouvé dans ce répertoire ces éléments susceptibles d'être des bases de données.";
 
 /* My Drives */
-"onedrive_browser_my_drives" = "My Drives";
+"onedrive_browser_my_drives" = "Mes lecteurs";
 
 /* All Drives" */
-"onedrive_browser_all_drives" = "All Drives";
+"onedrive_browser_all_drives" = "Tous les lecteurs";
 
 /* Your OneDrive databases and files. */
-"onedrive_browser_your_onedrive_desc" = "Your OneDrive databases and files.";
+"onedrive_browser_your_onedrive_desc" = "Vos bases de données et fichiers OneDrive.";
 
 /* Shared With Me */
-"onedrive_browser_shared_with_me" = "Shared With Me";
+"onedrive_browser_shared_with_me" = "Partagé avec moi";
 
 /* Shared */
-"onedrive_browser_shared" = "Shared";
+"onedrive_browser_shared" = "Partagé";
 
 /* Access databases that have been shared with you by other users. */
-"onedrive_browser_shared_desc" = "Access databases that have been shared with you by other users.";
+"onedrive_browser_shared_desc" = "Accéder aux bases de données que d'autres utilisateurs vous partagent.";
 
 /* Shared Libraries */
-"onedrive_browser_shared_libraries" = "Shared Libraries (Sharepoint)";
+"onedrive_browser_shared_libraries" = "Bibliothèques partagées (Sharepoint)";
 
 /* Sharepoint Sites */
-"onedrive_browser_sharepoint_sites" = "Sharepoint Sites";
+"onedrive_browser_sharepoint_sites" = "Sites SharePoint";
 
 /* For business users, access your firm's shared libraries and Sharepoint sites. */
-"onedrive_browser_sharepoint_desc" = "For business users, access your firm's shared libraries and Sharepoint sites.";
+"onedrive_browser_sharepoint_desc" = "Pour les utilisateurs professionnels, accédez aux bibliothèques partagées et aux sites SharePoint de votre entreprise.";
 
 /* Unlicensed Commercial Use */
-"unlicensed_commercial_use_title" = "Unlicensed Commercial Use";
+"unlicensed_commercial_use_title" = "Utilisation commerciale sans licence";
 
 /* Well, this is awkward. It looks like you're using Strongbox for commercial purposes without a license.\n\nWe're a small business and we need to ask you to license Strongbox. This is so that we can keep making it great and get out of your way.\n\nContinued unlicensed use may lead to loss of functionality.\n\nGet in touch\nsupport@strongboxsafe.com */
-"unlicensed_commercial_use_message" = "Well, this is awkward. It looks like you're using Strongbox for commercial purposes without a license.\n\nWe're a small business and we need to ask you to license Strongbox. This is so that we can keep making it great and get out of your way.\n\nContinued unlicensed use may lead to loss of functionality.\n\nGet in touch\nsupport@strongboxsafe.com";
+"unlicensed_commercial_use_message" = "Eh bien, c'est embarrassant. Il semble que vous utilisiez Strongbox à des fins commerciales sans licence.\n\nNous sommes une petite entreprise, et nous devons vous demander une licence pour Strongbox. Ce afin que nous puissions continuer à l'améliorer et vous laisser tranquille.\n\nL'utilisation continue sans licence peut conduire à une perte de fonctionnalité.\n\nContactez-nous\nsupport@strongboxsafe.com";
 
 /* OneDrive Explorer */
-"onedrive_explorer_title" = "OneDrive Explorer";
+"onedrive_explorer_title" = "Explorateur OneDrive";
 
 /* Quit Strongbox */
-"system_tray_menu_item_quit" = "Quit Strongbox";
+"system_tray_menu_item_quit" = "Quitter Strongbox";
 
 /* Show Strongbox */
-"system_tray_menu_item_show" = "Show Strongbox";
+"system_tray_menu_item_show" = "Afficher Strongbox";
 
 /* Show Quick Search */
-"system_tray_menu_item_show_quick_search" = "Show Quick Search";
+"system_tray_menu_item_show_quick_search" = "Afficher la recherche rapide";
 
 /* Lock All */
-"system_tray_menu_item_lock_all" = "Lock All";
+"system_tray_menu_item_lock_all" = "Verrouiller tout";
 
 /* Show Databases Manager */
-"system_tray_menu_item_show_databases_manager" = "Show Databases Manager";
+"system_tray_menu_item_show_databases_manager" = "Afficher le gestionnaire des bases de données";
 
 /* URL Launched */
-"item_details_url_launched" = "URL Launched";
+"item_details_url_launched" = "URL lancée";
 
 /* Quick Search - L10n note: This is a feature on macOS where a small window can be launched by hot key or from the system tray which allows user to quickly search across all open databases, and perform quick actions like copying fields or launching urls */
-"quick_search" = "Quick Search";
+"quick_search" = "Recherche rapide";
 
 /* Keyboard Shortcuts */
-"keyboard_shortcuts" = "Keyboard Shortcuts";
+"keyboard_shortcuts" = "Raccourcis clavier";
 
 /* View Actions */
-"view_actions" = "View Actions";
+"view_actions" = "Voir les actions";
 
 /* View Results */
-"view_results" = "View Results";
+"view_results" = "Voir les résultats";
 
 /* Quick Search is a Pro feature. Please upgrade to enjoy lightning fast access to your databases. */
-"quick_search_pro_feature_message" = "Quick Search is a Pro feature. Please upgrade to enjoy lightning fast access to your databases.";
+"quick_search_pro_feature_message" = "La recherche rapide est une fonctionnalité Pro. Veuillez mettre à niveau pour profiter d'un accès rapide comme l'éclair à vos bases de données.";
 
 /* Show in Strongbox */
-"action_show_in_strongbox" = "Show in Strongbox";
+"action_show_in_strongbox" = "Afficher dans Strongbox";
 
 /* Launch '%@' - L10n note: 1st parameter is the fieldname/key for a secondary/alternative URL, e.g. Launch 'Alternative URL for Dashboard' */
-"action_launch_field_fmt" = "Launch '%@'";
+"action_launch_field_fmt" = "Lancer '%@'";
 
 /* Copy '%@' - L10n note: 1st parameter is the fieldname/key, e.g. Copy 'Debit Card Long Number' */
-"action_copy_field_fmt" = "Copy '%@'";
+"action_copy_field_fmt" = "Copier '%@'";
 
 /* %@ (Primary) - L10n Note: The 1st parameter could be any kind of noun (most likely), this is to indicate that this object or action is the primary or most important item/action. e.g. OneDrive (Primary) */
-"adjective_primary_in_parenthesis_fmt" = "%@ (Primary)";
+"adjective_primary_in_parenthesis_fmt" = "%@ (Primaire)";
 
 /* Locked Databases - Heading appears above list of locked databases in quick search */
-"locked_databases_heading" = "Locked Databases";
+"locked_databases_heading" = "Bases de données verrouillées";
 
 /* All Databases Locked */
-"quick_search_all_databases_locked" = "All Databases Locked";
+"quick_search_all_databases_locked" = "Toutes les bases de données sont verrouillées";
 
 /* No Results Found */
-"quick_search_no_results_found" = "No Results Found";
+"quick_search_no_results_found" = "Aucun résultat trouvé";
 
 /* Show Password Generator */
-"system_tray_menu_item_show_password_generator" = "Show Password Generator";
+"system_tray_menu_item_show_password_generator" = "Afficher le générateur de mot de passe";
 
 /* Using Sharepoint is a Pro feature. Please upgrade to enjoy full access. */
-"sharepoint_pro_feature_message" = "Using Sharepoint is a Pro feature. Please upgrade to enjoy full access.";
+"sharepoint_pro_feature_message" = "L'utilisation de Sharepoint est une fonctionnalité Pro. Veuillez effectuer une mise à niveau pour bénéficier d'un accès complet.";
 
 /* delete */
-"delete_triple_confirm_code_word" = "delete";
+"delete_triple_confirm_code_word" = "supprimer";
 
 /* Please enter the word '%@' below to confirm. */
-"delete_triple_confirm_message_fmt" = "Please enter the word '%@' below to confirm.";
+"delete_triple_confirm_message_fmt" = "Veuillez saisir le mot '%@' ci-dessous pour confirmer.";
 
 /* Configure Click Action */
-"configure_click_action" = "Configure Click Action";
+"configure_click_action" = "Configurer l'action de clic";
 
 /* Show this Menu */
-"show_this_menu" = "Show this Menu";
+"show_this_menu" = "Afficher ce menu";
 
 /* No results found. Some databases are locked. */
-"no_results_found_some_locked" = "No results found. Some databases are locked.";
+"no_results_found_some_locked" = "Aucun résultat trouvé. Certaines bases de données sont verrouillées.";
 
 /* Navigation */
 "generic_noun_navigation" = "Navigation";
 
 /* Quick Tags */
-"home_quick_tags_section_header" = "Quick Tags";
+"home_quick_tags_section_header" = "Étiquettes rapides";
 
-"audit_view_section_footer_no_password" = "These are entries with no password set at all.";
+"audit_view_section_footer_no_password" = "Il s'agit d'entrées sans aucun mot de passe défini.";
 
-"audit_view_section_footer_duplicate" = "These are entries that have identical passwords indicating password reuse.";
+"audit_view_section_footer_duplicate" = "Il s'agit d'entrées qui ont des mots de passe identiques, indiquant la réutilisation de leur mot de passe.";
 
-"audit_view_section_footer_common" = "These are entries with very common or well-known passwords that are easily guessed.";
+"audit_view_section_footer_common" = "Il s'agit d'entrées dont les mots de passe sont très communs, voire très connus et faciles à deviner.";
 
-"audit_view_section_footer_similar" = "These are entries with similar but not identical passwords.";
+"audit_view_section_footer_similar" = "Il s'agit d'entrées dont les mots de passe sont similaires, mais pas identiques.";
 
-"audit_view_section_footer_short" = "These are entries with passwords of a very short length.";
+"audit_view_section_footer_short" = "Il s'agit d'entrées dont les mots de passe sont très courts.";
 
-"audit_view_section_footer_hibp" = "These are entries whose passwords have appeared in online hacks or breaches detected using the 'Have I Been Pwned?' service.";
+"audit_view_section_footer_hibp" = "Il s'agit d'entrées dont les mots de passe sont apparus dans des piratages ou des fuites de données en ligne détectés par le service \"Have I Been Pwned ?\".";
 
-"audit_view_section_footer_entropy" = "These are entries whose complexity falls below a certain threshold which could be considered weak.";
+"audit_view_section_footer_entropy" = "Il s'agit d'entrées dont la complexité est inférieure à un certain seuil qui pourrait être considéré comme faible.";
 
-"audit_view_section_footer_2fa" = "These are entries that are marked as having known two factor authentication available but without an existing 2FA Code set.";
+"audit_view_section_footer_2fa" = "Ce sont les entrées qui sont marquées comme disposant d'une authentification à deux facteurs connue, mais sans code 2FA défini.";
 
-"anonymous_group_number_fmt" = "Group #%@";
+"anonymous_group_number_fmt" = "Groupe #%@";
 
 /* All Tags */
-"quick_view_title_all_tags_title" = "All Tags";
+"quick_view_title_all_tags_title" = "Toutes les étiquettes";
 
 /* Expired & Expiring */
-"quick_view_title_expired_and_expiring" = "Expired & Expiring";
+"quick_view_title_expired_and_expiring" = "Expiré et presque";
 
 /* Expired %@ */
-"entry_expired_on_date_subtitle_fmt" = "Expired %@";
+"entry_expired_on_date_subtitle_fmt" = "Expiré le %@";
 
 /* Expires %@ */
-"entry_expires_on_date_subtitle_fmt" = "Expires %@";
+"entry_expires_on_date_subtitle_fmt" = "Expire le %@";
 
 /* Other Items with Expiry Dates */
-"section_header_other_items_with_expiry_dates" = "Other Items with Expiry Dates";
+"section_header_other_items_with_expiry_dates" = "Autres éléments avec des dates d'expiration";
 
 /* Home */
-"navigation_tab_home" = "Home";
+"navigation_tab_home" = "Accueil";
 
 /* Database Saved */
-"generic_database_saved" = "Database Saved";
+"generic_database_saved" = "Base de données sauvegardée";
 
 /* All Sections Hidden */
-"home_view_all_sections_hidden" = "All Sections Hidden";
+"home_view_all_sections_hidden" = "Toutes les sections cachées";
 
 /* Tap Settings > Show Sections to configure. */
-"home_view_all_sections_hidden_instructions" = "Tap Settings > Show Sections to configure.";
+"home_view_all_sections_hidden_instructions" = "Appuyez sur Réglages > Afficher les sections pour configurer.";
 
 /* Find your way around your database. */
-"home_view_navigation_section_subtitle" = "Find your way around your database.";
+"home_view_navigation_section_subtitle" = "Repérez-vous dans votre base de données.";
 
 /* Your most popular tags. */
-"home_view_quick_tags_section_subtitle" = "Your most popular tags.";
+"home_view_quick_tags_section_subtitle" = "Vos étiquettes les plus utilisées.";
 
 /* Various convenient aspects of your database. */
-"home_view_other_views_navigation_section_subtitle" = "Various convenient aspects of your database.";
+"home_view_other_views_navigation_section_subtitle" = "Divers aspects pratiques de votre base de données.";
+
+/* Visible */
+"generic_visible" = "Visible";
+
+/* Enter password or unlock with Touch ID/Watch. */
+"mac_lock_screen_enter_pw_or_touchid_or_watch" = "Enter password or unlock with Touch ID/Watch.";
+
+/* Enter password or unlock with Touch ID. */
+"mac_lock_screen_enter_pw_or_touchid" = "Enter password or unlock with Touch ID.";
+
+/* Enter password or unlock with Watch. */
+"mac_lock_screen_enter_pw_or_watch" = "Enter password or unlock with Watch.";
+
+/* Enter password to unlock. */
+"mac_lock_screen_enter_pw" = "Enter password to unlock.";
