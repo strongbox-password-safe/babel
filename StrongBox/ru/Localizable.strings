@@ -285,7 +285,7 @@
 "browse_prefs_tap_action_copy_copy_password" = "Копировать пароль";
 
 /* Copy 2FA */
-"browse_prefs_tap_action_copy_copy_totp" = "Copy 2FA Code";
+"browse_prefs_tap_action_copy_copy_totp" = "Копировать код 2FA";
 
 /* Copy URL */
 "browse_prefs_tap_action_copy_copy_url" = "Копировать URL";
@@ -375,7 +375,7 @@
 "browse_vc_group_path_string_fmt" = "(в %@)";
 
 /* '%@': No 2FA setup to Copy! */
-"browse_vc_no_totp_to_copy_fmt" = "'%@': No 2FA setup to Copy!";
+"browse_vc_no_totp_to_copy_fmt" = "'%@: Нет установки 2FA для копирования!";
 
 /* '%@' Notes Copied  - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
 "browse_vc_notes_copied_fmt" = "Заметки «%@» скопированы";
@@ -420,7 +420,7 @@
 "browse_vc_view_as_database_empty" = "Нет записей";
 
 /* No 2FA Codes Found */
-"browse_vc_view_as_totp_no_totps" = "No 2FA Codes Found";
+"browse_vc_view_as_totp_no_totps" = "Коды 2FA не найдены";
 
 /* No matching entries found */
 "browse_vc_view_search_no_matches" = "Записей не найдено";
@@ -606,19 +606,19 @@
 "item_details_section_header_metadata" = "Метаданные";
 
 /* Setup 2FA Code... */
-"item_details_setup_totp" = "Setup 2FA Code...";
+"item_details_setup_totp" = "Установка кода 2FA ...";
 
 /* Could not set 2FA because the format is unsupported. */
-"item_details_setup_totp_failed_message" = "Could not set 2FA Code because the format is unsupported.";
+"item_details_setup_totp_failed_message" = "Не удалось установить код 2FA, поскольку формат не поддерживается.";
 
 /* Failed to Set 2FA */
-"item_details_setup_totp_failed_title" = "Failed to Set 2FA Code";
+"item_details_setup_totp_failed_title" = "Не удалось установить код 2FA";
 
 /* You can setup 2FA Code by using a QR Code, or manually by entering the secret or an OTPAuth URL */
-"item_details_setup_totp_how_message" = "You can setup a 2FA Code by using a QR Code, or manually by entering the secret or an OTPAuth URL";
+"item_details_setup_totp_how_message" = "Вы можете установить код 2FA с помощью QR-кода или вручную, введя секрет или URL адрес OTPAuth.";
 
 /* How would you like to setup 2FA? */
-"item_details_setup_totp_how_title" = "How would you like to setup 2FA?";
+"item_details_setup_totp_how_title" = "Как вы хотите настроить 2FA?";
 
 /* Manual (Standard/RFC 6238)... */
 "item_details_setup_totp_manual_rfc" = "Вручную (RFC 6238)";
@@ -903,7 +903,7 @@
 "notes_cell_textview_accessibility_label" = "Текстовое поле примечаний";
 
 /* No 2FA Setup */
-"totp_cell_no_totp_has_been_setup" = "No 2FA Setup";
+"totp_cell_no_totp_has_been_setup" = "Нет настройки 2FA";
 
 /*  Text Field */
 "generic_kv_cell_value_text_accessibility label_fmt" = "Текстовое поле";
@@ -1914,7 +1914,7 @@
 "generic_fieldname_custom_field" = "Строкове поле";
 
 /* 2FA */
-"generic_fieldname_totp" = "2FA Code";
+"generic_fieldname_totp" = "Код 2FA";
 
 /* Attachments */
 "generic_fieldname_attachments" = "Вложения";
@@ -2424,10 +2424,10 @@
 "mac_undo_action_remove_custom_field" = "Удалить поле";
 
 /* Set 2FA */
-"mac_undo_action_set_totp" = "Set 2FA";
+"mac_undo_action_set_totp" = "Установка 2FA";
 
 /* Clear 2FA */
-"mac_undo_action_clear_totp" = "Clear 2FA";
+"mac_undo_action_clear_totp" = "Очистить 2FA";
 
 /* Add Items */
 "mac_undo_action_add_items" = "Добавить элементы";
@@ -2954,10 +2954,10 @@
 "quick_view_title_audit_issues_subtitle" = "Просмотр записей с проблемами аудита";
 
 /* 2FA Codes */
-"quick_view_title_totp_entries_title" = "2FA Codes";
+"quick_view_title_totp_entries_title" = "Коды 2FA";
 
 /* View all entries with a 2FA Code */
-"quick_view_title_totp_entries_subtitle" = "View all entries with a 2FA Code";
+"quick_view_title_totp_entries_subtitle" = "Все записи с кодом 2FA";
 
 /* Quick Views */
 "quick_view_section_title_quick_views" = "Быстрый доступ";
@@ -4056,10 +4056,10 @@
 "sync_log_status_done" = "Готово ✅";
 
 /* 2FA Copied */
-"autofill_info_totp_copied_title" = "2FA Copied";
+"autofill_info_totp_copied_title" = "2FA скопирован";
 
 /* Your 2FA Code has been copied to the clipboard. */
-"autofill_info_totp_copied_message" = "Your 2FA Code has been copied to the clipboard.";
+"autofill_info_totp_copied_message" = "Ваш код 2FA был скопирован в буфер обмена.";
 
 /* Convenience Auto Unlock */
 "prefs_vc_autofill_convenience_auto_unlock" = "Авторазблокировка";
@@ -4621,7 +4621,7 @@
 "import_successful_message" = "Импорт выполнен успешно. Теперь необходимо установить мастер-пароль и сохранить Вашу новую БД.";
 
 /* Are you sure you want to clear the 2FA Code for this entry? */
-"are_you_sure_clear_totp" = "Are you sure you want to clear the 2FA Code for this entry?";
+"are_you_sure_clear_totp" = "Вы хотите удалить 2FA код для этой записи?";
 
 /* Date Created (Precise) */
 "databases_preferences_subtitle_field_name_create_date_precise" = "Дата создания";
@@ -4754,7 +4754,7 @@
 "are_you_sure_delete_custom_field_s" = "Вы хотите удалить выбранные поля?";
 
 /* Found 2FA Code in '%@' Window - Localization Note: The parameter here is an App name like "Firefox" or "Safari" */
-"found_totp_code_in_x_window_fmt" = "Found 2FA Code in '%@' Window";
+"found_totp_code_in_x_window_fmt" = "Найден код 2FA в окне %@";
 
 /* Randomly Generated */
 "menu_item_header_randomly_generated_suggestions" = "Случайные пароли";
@@ -4769,7 +4769,7 @@
 "pasted_image_attachment_at_time_filename_png_fmt" = "Вставить как %@.png";
 
 /* Groups */
-"side_bar_hierarchy_folder_structure" = "Groups";
+"side_bar_hierarchy_folder_structure" = "Группы";
 
 /* Discard Changes */
 "discard_changes" = "Отменить изменения";
@@ -5321,7 +5321,7 @@
 "safes_vc_import_icloud" = "Связка ключей iCloud";
 
 /* Disabling Auto-Commit could mean you lose this 2FA Code if you forget to commit later, are you sure? */
-"are_you_sure_auto_commit_totp_msg" = "Disabling Auto-Commit could mean you lose this 2FA Code if you forget to commit later. Are you sure?";
+"are_you_sure_auto_commit_totp_msg" = "Отключение автоподтверждения может привести к потере этого кода 2FA, если вы забудете зафиксировать его позже. Вы уверены?";
 
 /* Close - A generic verb - to Close a popup or dialog */
 "generic_verb_close" = "Закрыть";
@@ -5384,7 +5384,7 @@
 "mac_create_or_edit_commit_changes" = "Подтвердить (⌘S)";
 
 /* Hierarchy (%@ Groups, %@ Entries) - L10n Note - The two parameters are numeric, so for example: "23 Groups, 3456 Entries"*/
-"side_bar_hierarchy_folder_structure_summary_count_fmt" = "Groups (%@ Groups, %@ Entries)";
+"side_bar_hierarchy_folder_structure_summary_count_fmt" = "Группы (%@ Groups, %@ Entries)";
 
 /* Entries */
 "side_bar_child_count_format_entries" = "Записи";
@@ -5554,7 +5554,7 @@
 "import_please_share_import_messages" = "Пожалуйста, напишите нам (support@strongboxsafe.com), чтобы помочь улучшить процесс импорта.";
 
 /* 2FA Secret */
-"generic_totp_secret" = "2FA Secret";
+"generic_totp_secret" = "Секрет 2FA";
 
 /* Select Items */
 "generic_select_items" = "Выбор ...";
@@ -6376,13 +6376,13 @@
 "sharepoint_pro_feature_message" = "Использование Sharepoint - это функция Pro. Обновите версию, чтобы получить полный доступ.";
 
 /* delete */
-"delete_triple_confirm_code_word" = "delete";
+"delete_triple_confirm_code_word" = "удалить";
 
 /* Please enter the word '%@' below to confirm. */
-"delete_triple_confirm_message_fmt" = "Please enter the word '%@' below to confirm.";
+"delete_triple_confirm_message_fmt" = "Пожалуйста, введите слово %@ ниже для подтверждения.";
 
 /* Configure Click Action */
-"configure_click_action" = "Configure Click Action";
+"configure_click_action" = "Настройка действия при нажатии";
 
 /* Show this Menu */
 "show_this_menu" = "Show this Menu";
