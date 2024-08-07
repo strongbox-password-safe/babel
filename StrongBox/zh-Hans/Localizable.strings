@@ -285,7 +285,7 @@
 "browse_prefs_tap_action_copy_copy_password" = "复制密码";
 
 /* Copy 2FA */
-"browse_prefs_tap_action_copy_copy_totp" = "Copy 2FA Code";
+"browse_prefs_tap_action_copy_copy_totp" = "复制 2FA 代码";
 
 /* Copy URL */
 "browse_prefs_tap_action_copy_copy_url" = "复制 URL";
@@ -375,7 +375,7 @@
 "browse_vc_group_path_string_fmt" = "（在 %@ 中）";
 
 /* '%@': No 2FA setup to Copy! */
-"browse_vc_no_totp_to_copy_fmt" = "'%@': No 2FA setup to Copy!";
+"browse_vc_no_totp_to_copy_fmt" = "'%@': 没有设置 2FA，无法复制！";
 
 /* '%@' Notes Copied  - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
 "browse_vc_notes_copied_fmt" = "'%@' 备注已复制";
@@ -420,7 +420,7 @@
 "browse_vc_view_as_database_empty" = "无条目";
 
 /* No 2FA Codes Found */
-"browse_vc_view_as_totp_no_totps" = "No 2FA Codes Found";
+"browse_vc_view_as_totp_no_totps" = "未能找到 2FA 代码";
 
 /* No matching entries found */
 "browse_vc_view_search_no_matches" = "未找到匹配条目";
@@ -606,19 +606,19 @@
 "item_details_section_header_metadata" = "元数据";
 
 /* Setup 2FA Code... */
-"item_details_setup_totp" = "Setup 2FA Code...";
+"item_details_setup_totp" = "设置 2FA 代码...";
 
 /* Could not set 2FA because the format is unsupported. */
-"item_details_setup_totp_failed_message" = "Could not set 2FA Code because the format is unsupported.";
+"item_details_setup_totp_failed_message" = "不支持该 2FA 代码格式，无法完成设置。";
 
 /* Failed to Set 2FA */
-"item_details_setup_totp_failed_title" = "Failed to Set 2FA Code";
+"item_details_setup_totp_failed_title" = "设置 2FA 代码失败";
 
 /* You can setup 2FA Code by using a QR Code, or manually by entering the secret or an OTPAuth URL */
-"item_details_setup_totp_how_message" = "You can setup a 2FA Code by using a QR Code, or manually by entering the secret or an OTPAuth URL";
+"item_details_setup_totp_how_message" = "您可以使用二维码设置 2FA 代码，也可以通过输入密码或 OTPAuth URL 以手动设置 2FA 代码";
 
 /* How would you like to setup 2FA? */
-"item_details_setup_totp_how_title" = "How would you like to setup 2FA?";
+"item_details_setup_totp_how_title" = "您想如何设置 2FA？";
 
 /* Manual (Standard/RFC 6238)... */
 "item_details_setup_totp_manual_rfc" = "手动(标准/RFC 6238)...";
@@ -903,7 +903,7 @@
 "notes_cell_textview_accessibility_label" = "备注文本视图";
 
 /* No 2FA Setup */
-"totp_cell_no_totp_has_been_setup" = "No 2FA Setup";
+"totp_cell_no_totp_has_been_setup" = "没有 2FA 设置";
 
 /*  Text Field */
 "generic_kv_cell_value_text_accessibility label_fmt" = " 文本字段";
@@ -1914,7 +1914,7 @@
 "generic_fieldname_custom_field" = "自定义字段";
 
 /* 2FA */
-"generic_fieldname_totp" = "2FA Code";
+"generic_fieldname_totp" = "2FA 代码";
 
 /* Attachments */
 "generic_fieldname_attachments" = "附件";
@@ -2424,10 +2424,10 @@
 "mac_undo_action_remove_custom_field" = "移除自定义字段";
 
 /* Set 2FA */
-"mac_undo_action_set_totp" = "Set 2FA";
+"mac_undo_action_set_totp" = "设置 2FA";
 
 /* Clear 2FA */
-"mac_undo_action_clear_totp" = "Clear 2FA";
+"mac_undo_action_clear_totp" = "清除 2FA";
 
 /* Add Items */
 "mac_undo_action_add_items" = "添加项目";
@@ -2954,10 +2954,10 @@
 "quick_view_title_audit_issues_subtitle" = "查看所有存在审计问题的条目";
 
 /* 2FA Codes */
-"quick_view_title_totp_entries_title" = "2FA Codes";
+"quick_view_title_totp_entries_title" = "2FA 代码";
 
 /* View all entries with a 2FA Code */
-"quick_view_title_totp_entries_subtitle" = "View all entries with a 2FA Code";
+"quick_view_title_totp_entries_subtitle" = "查看所有带有 2FA 代码的条目";
 
 /* Quick Views */
 "quick_view_section_title_quick_views" = "快速视图";
@@ -4056,10 +4056,10 @@
 "sync_log_status_done" = "完成。✅";
 
 /* 2FA Copied */
-"autofill_info_totp_copied_title" = "2FA Copied";
+"autofill_info_totp_copied_title" = "2FA 已复制";
 
 /* Your 2FA Code has been copied to the clipboard. */
-"autofill_info_totp_copied_message" = "Your 2FA Code has been copied to the clipboard.";
+"autofill_info_totp_copied_message" = "您的 2FA 代码已复制到剪贴板。";
 
 /* Convenience Auto Unlock */
 "prefs_vc_autofill_convenience_auto_unlock" = "便捷自动解锁";
@@ -4621,7 +4621,7 @@
 "import_successful_message" = "导入成功！现在，让我们设置一个强大的主密码并保存这个全新的 Strongbox 数据库。";
 
 /* Are you sure you want to clear the 2FA Code for this entry? */
-"are_you_sure_clear_totp" = "Are you sure you want to clear the 2FA Code for this entry?";
+"are_you_sure_clear_totp" = "您确定要清除此条目的 2FA 代码吗？";
 
 /* Date Created (Precise) */
 "databases_preferences_subtitle_field_name_create_date_precise" = "创建日期 （精确）";
@@ -4754,7 +4754,7 @@
 "are_you_sure_delete_custom_field_s" = "您确定要删除选中的字段吗？";
 
 /* Found 2FA Code in '%@' Window - Localization Note: The parameter here is an App name like "Firefox" or "Safari" */
-"found_totp_code_in_x_window_fmt" = "Found 2FA Code in '%@' Window";
+"found_totp_code_in_x_window_fmt" = "在“%@”窗口中找到 2FA 代码";
 
 /* Randomly Generated */
 "menu_item_header_randomly_generated_suggestions" = "随机生成";
@@ -4769,7 +4769,7 @@
 "pasted_image_attachment_at_time_filename_png_fmt" = "粘贴-为-%@.png";
 
 /* Groups */
-"side_bar_hierarchy_folder_structure" = "Groups";
+"side_bar_hierarchy_folder_structure" = "群组";
 
 /* Discard Changes */
 "discard_changes" = "放弃更改";
@@ -5321,7 +5321,7 @@
 "safes_vc_import_icloud" = "iCloud Keychain (CSV)";
 
 /* Disabling Auto-Commit could mean you lose this 2FA Code if you forget to commit later, are you sure? */
-"are_you_sure_auto_commit_totp_msg" = "Disabling Auto-Commit could mean you lose this 2FA Code if you forget to commit later. Are you sure?";
+"are_you_sure_auto_commit_totp_msg" = "禁用自动提交可能意味着如果您稍后忘记提交，您将会丢失这个 2FA 代码，您确定吗？";
 
 /* Close - A generic verb - to Close a popup or dialog */
 "generic_verb_close" = "关闭";
@@ -5384,7 +5384,7 @@
 "mac_create_or_edit_commit_changes" = "提交 (⌘S)";
 
 /* Hierarchy (%@ Groups, %@ Entries) - L10n Note - The two parameters are numeric, so for example: "23 Groups, 3456 Entries"*/
-"side_bar_hierarchy_folder_structure_summary_count_fmt" = "Groups (%@ Groups, %@ Entries)";
+"side_bar_hierarchy_folder_structure_summary_count_fmt" = "群组（%@ 个群组，%@ 个条目）";
 
 /* Entries */
 "side_bar_child_count_format_entries" = "条目";
@@ -5554,7 +5554,7 @@
 "import_please_share_import_messages" = "请考虑同我们 (support@strongboxsafe.com) 分享上述消息以帮助我们改进导入体验。";
 
 /* 2FA Secret */
-"generic_totp_secret" = "2FA Secret";
+"generic_totp_secret" = "2FA 密码";
 
 /* Select Items */
 "generic_select_items" = "选择项目";
@@ -6265,7 +6265,7 @@
 "storage_selector_where_store_new" = "您想将新数据库存储在哪里？";
 
 /* Where is your existing database located? */
-"storage_selector_where_existing_located" = "Where is your existing database located?";
+"storage_selector_where_existing_located" = "您现有的数据库位于何处？";
 
 /* Storage Browser */
 "storage_browser" = "存储浏览器";
@@ -6298,7 +6298,7 @@
 "onedrive_browser_shared_desc" = "访问其他用户共享的数据库。";
 
 /* Shared Libraries */
-"onedrive_browser_shared_libraries" = "Shared Libraries (Sharepoint)";
+"onedrive_browser_shared_libraries" = "共享库 (Sharepoint)";
 
 /* Sharepoint Sites */
 "onedrive_browser_sharepoint_sites" = "Sharepoint 站点";
@@ -6316,163 +6316,163 @@
 "onedrive_explorer_title" = "OneDrive 资源管理器";
 
 /* Quit Strongbox */
-"system_tray_menu_item_quit" = "Quit Strongbox";
+"system_tray_menu_item_quit" = "退出 Strongbox";
 
 /* Show Strongbox */
-"system_tray_menu_item_show" = "Show Strongbox";
+"system_tray_menu_item_show" = "显示 Strongbox";
 
 /* Show Quick Search */
-"system_tray_menu_item_show_quick_search" = "Show Quick Search";
+"system_tray_menu_item_show_quick_search" = "显示快速搜索栏";
 
 /* Lock All */
-"system_tray_menu_item_lock_all" = "Lock All";
+"system_tray_menu_item_lock_all" = "锁定全部";
 
 /* Show Databases Manager */
-"system_tray_menu_item_show_databases_manager" = "Show Databases Manager";
+"system_tray_menu_item_show_databases_manager" = "显示数据库管理器";
 
 /* URL Launched */
-"item_details_url_launched" = "URL Launched";
+"item_details_url_launched" = "URL 已启动";
 
 /* Quick Search - L10n note: This is a feature on macOS where a small window can be launched by hot key or from the system tray which allows user to quickly search across all open databases, and perform quick actions like copying fields or launching urls */
-"quick_search" = "Quick Search";
+"quick_search" = "快速搜索栏";
 
 /* Keyboard Shortcuts */
-"keyboard_shortcuts" = "Keyboard Shortcuts";
+"keyboard_shortcuts" = "键盘快捷键";
 
 /* View Actions */
-"view_actions" = "View Actions";
+"view_actions" = "查看操作";
 
 /* View Results */
-"view_results" = "View Results";
+"view_results" = "查看结果";
 
 /* Quick Search is a Pro feature. Please upgrade to enjoy lightning fast access to your databases. */
-"quick_search_pro_feature_message" = "Quick Search is a Pro feature. Please upgrade to enjoy lightning fast access to your databases.";
+"quick_search_pro_feature_message" = "快速搜索是 Pro 版功能。请升级以享受对数据库如闪电般的快速访问。";
 
 /* Show in Strongbox */
-"action_show_in_strongbox" = "Show in Strongbox";
+"action_show_in_strongbox" = "在 Strongbox 中显示";
 
 /* Launch '%@' - L10n note: 1st parameter is the fieldname/key for a secondary/alternative URL, e.g. Launch 'Alternative URL for Dashboard' */
-"action_launch_field_fmt" = "Launch '%@'";
+"action_launch_field_fmt" = "启动“%@”";
 
 /* Copy '%@' - L10n note: 1st parameter is the fieldname/key, e.g. Copy 'Debit Card Long Number' */
-"action_copy_field_fmt" = "Copy '%@'";
+"action_copy_field_fmt" = "复制“%@”";
 
 /* %@ (Primary) - L10n Note: The 1st parameter could be any kind of noun (most likely), this is to indicate that this object or action is the primary or most important item/action. e.g. OneDrive (Primary) */
-"adjective_primary_in_parenthesis_fmt" = "%@ (Primary)";
+"adjective_primary_in_parenthesis_fmt" = "%@（首要）";
 
 /* Locked Databases - Heading appears above list of locked databases in quick search */
-"locked_databases_heading" = "Locked Databases";
+"locked_databases_heading" = "锁定的数据库";
 
 /* All Databases Locked */
-"quick_search_all_databases_locked" = "All Databases Locked";
+"quick_search_all_databases_locked" = "所有数据库已锁定";
 
 /* No Results Found */
-"quick_search_no_results_found" = "No Results Found";
+"quick_search_no_results_found" = "未找到结果";
 
 /* Show Password Generator */
-"system_tray_menu_item_show_password_generator" = "Show Password Generator";
+"system_tray_menu_item_show_password_generator" = "显示密码生成器";
 
 /* Using Sharepoint is a Pro feature. Please upgrade to enjoy full access. */
-"sharepoint_pro_feature_message" = "Using Sharepoint is a Pro feature. Please upgrade to enjoy full access.";
+"sharepoint_pro_feature_message" = "使用 Sharepoint 是一项 Pro 功能。请升级以享受完整访问权限。";
 
 /* delete */
-"delete_triple_confirm_code_word" = "delete";
+"delete_triple_confirm_code_word" = "删除";
 
 /* Please enter the word '%@' below to confirm. */
-"delete_triple_confirm_message_fmt" = "Please enter the word '%@' below to confirm.";
+"delete_triple_confirm_message_fmt" = "请在下方输入“%@”以进行确认。";
 
 /* Configure Click Action */
-"configure_click_action" = "Configure Click Action";
+"configure_click_action" = "配置点击操作";
 
 /* Show this Menu */
-"show_this_menu" = "Show this Menu";
+"show_this_menu" = "显示此菜单";
 
 /* No results found. Some databases are locked. */
-"no_results_found_some_locked" = "No results found. Some databases are locked.";
+"no_results_found_some_locked" = "未找到结果。一些数据库已被锁定。";
 
 /* Navigation */
-"generic_noun_navigation" = "Navigation";
+"generic_noun_navigation" = "导航";
 
 /* Quick Tags */
-"home_quick_tags_section_header" = "Quick Tags";
+"home_quick_tags_section_header" = "快捷标签";
 
-"audit_view_section_footer_no_password" = "These are entries with no password set at all.";
+"audit_view_section_footer_no_password" = "这些条目完全没有设置密码。";
 
-"audit_view_section_footer_duplicate" = "These are entries that have identical passwords indicating password reuse.";
+"audit_view_section_footer_duplicate" = "这些条目具有相同密码，表明密码被重复使用。";
 
-"audit_view_section_footer_common" = "These are entries with very common or well-known passwords that are easily guessed.";
+"audit_view_section_footer_common" = "这些条目包含简单或常见的密码，它们很容易被猜到。";
 
-"audit_view_section_footer_similar" = "These are entries with similar but not identical passwords.";
+"audit_view_section_footer_similar" = "这些条目的密码虽不完全相同但非常相似。";
 
-"audit_view_section_footer_short" = "These are entries with passwords of a very short length.";
+"audit_view_section_footer_short" = "这些条目的密码长度很短。";
 
-"audit_view_section_footer_hibp" = "These are entries whose passwords have appeared in online hacks or breaches detected using the 'Have I Been Pwned?' service.";
+"audit_view_section_footer_hibp" = "这些条目的密码出现在使用 \"Have I Been Pwned? \" 服务检测到的在线黑客攻击或漏洞中。";
 
-"audit_view_section_footer_entropy" = "These are entries whose complexity falls below a certain threshold which could be considered weak.";
+"audit_view_section_footer_entropy" = "这些条目密码的复杂度低于某一阈值，因此它们被视为弱密码。";
 
-"audit_view_section_footer_2fa" = "These are entries that are marked as having known two factor authentication available but without an existing 2FA Code set.";
+"audit_view_section_footer_2fa" = "这些条目据了解已支持双因素验证，但并未设置 2FA 代码。";
 
-"anonymous_group_number_fmt" = "Group #%@";
+"anonymous_group_number_fmt" = "群组 #%@";
 
 /* All Tags */
-"quick_view_title_all_tags_title" = "All Tags";
+"quick_view_title_all_tags_title" = "所有标签";
 
 /* Expired & Expiring */
-"quick_view_title_expired_and_expiring" = "Expired & Expiring";
+"quick_view_title_expired_and_expiring" = "已过期和即将过期";
 
 /* Expired %@ */
-"entry_expired_on_date_subtitle_fmt" = "Expired %@";
+"entry_expired_on_date_subtitle_fmt" = "已过期 %@";
 
 /* Expires %@ */
-"entry_expires_on_date_subtitle_fmt" = "Expires %@";
+"entry_expires_on_date_subtitle_fmt" = "将于 %@ 过期";
 
 /* Other Items with Expiry Dates */
-"section_header_other_items_with_expiry_dates" = "Other Items with Expiry Dates";
+"section_header_other_items_with_expiry_dates" = "其他设置了有效期的项目";
 
 /* Home */
-"navigation_tab_home" = "Home";
+"navigation_tab_home" = "主页";
 
 /* Database Saved */
-"generic_database_saved" = "Database Saved";
+"generic_database_saved" = "数据库已保存。";
 
 /* All Sections Hidden */
-"home_view_all_sections_hidden" = "All Sections Hidden";
+"home_view_all_sections_hidden" = "隐藏所有分区";
 
 /* Tap Settings > Show Sections to configure. */
-"home_view_all_sections_hidden_instructions" = "Tap Settings > Show Sections to configure.";
+"home_view_all_sections_hidden_instructions" = "点按“设置 > 显示分区”进行配置。";
 
 /* Find your way around your database. */
-"home_view_navigation_section_subtitle" = "Find your way around your database.";
+"home_view_navigation_section_subtitle" = "在您的数据库中搜索。";
 
 /* Your most popular tags. */
-"home_view_quick_tags_section_subtitle" = "Your most popular tags.";
+"home_view_quick_tags_section_subtitle" = "您最常用的标签。";
 
 /* Various convenient aspects of your database. */
-"home_view_other_views_navigation_section_subtitle" = "Various convenient aspects of your database.";
+"home_view_other_views_navigation_section_subtitle" = "一些方便使用的数据库功能。";
 
 /* Visible */
-"generic_visible" = "Visible";
+"generic_visible" = "可见";
 
 /* Enter password or unlock with Touch ID/Watch. */
-"mac_lock_screen_enter_pw_or_touchid_or_watch" = "Enter password or unlock with Touch ID/Watch.";
+"mac_lock_screen_enter_pw_or_touchid_or_watch" = "输入密码或使用触控 ID / Watch 解锁。";
 
 /* Enter password or unlock with Touch ID. */
-"mac_lock_screen_enter_pw_or_touchid" = "Enter password or unlock with Touch ID.";
+"mac_lock_screen_enter_pw_or_touchid" = "输入密码或使用触控 ID 解锁。";
 
 /* Enter password or unlock with Watch. */
-"mac_lock_screen_enter_pw_or_watch" = "Enter password or unlock with Watch.";
+"mac_lock_screen_enter_pw_or_watch" = "输入密码或使用 Watch 解锁。";
 
 /* Enter password to unlock. */
-"mac_lock_screen_enter_pw" = "Enter password to unlock.";
+"mac_lock_screen_enter_pw" = "输入密码以解锁。";
 
 /* Reveal or Conceal (⌘R to Toggle) */
-"secure_text_field_conceal_reveal_tooltip" = "Reveal or Conceal (⌘R to Toggle)";
+"secure_text_field_conceal_reveal_tooltip" = "显示或隐藏（按下 ⌘R 以切换）";
 
 /* Audit Disabled */
-"audit_disabled" = "Audit Disabled";
+"audit_disabled" = "审计已禁用";
 
 /* Tap the Settings button to enable. */
-"generic_tap_the_settings_button_to_configure" = "Tap the Settings button to configure.";
+"generic_tap_the_settings_button_to_configure" = "点击“设置”按钮进行配置。";
 
 /* Auditing... */
-"generic_verb_auditing_in_progress_ellipsis" = "Auditing...";
+"generic_verb_auditing_in_progress_ellipsis" = "审计...";
