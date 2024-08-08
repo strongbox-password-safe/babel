@@ -4614,8 +4614,8 @@
 /* Strongbox could not import this file. Please check it is in the correct format. */
 "import_failed_message" = "Strongbox не може імпортувати цей файл. Будь ласка, перевірте правильність його формату.";
 
-/* ✅ Import Successful */
-"import_successful_title" = "✅ Імпорт успішний";
+/* Import Successful */
+"import_successful_title" = "Import Successful";
 
 /* Your import was successful! Now, let's set a strong master password and save your new Strongbox database. */
 "import_successful_message" = "Ваш імпорт пройшов успішно! Тепер встановимо складний головний пароль та збережемо нову базу паролів Strongbox.";
@@ -6476,3 +6476,11 @@
 
 /* Auditing... */
 "generic_verb_auditing_in_progress_ellipsis" = "Auditing...";
+
+/* */
+"deprecated_storage_footer_text_no_network_db" = "These method(s) are no longer advised. Strongbox does not have full control over the read, write and locate functions and so we cannot guarantee data integrity. However, typically, locally stored on-device files accessed in this way are not problematic.\n\nNB: Strongbox does not have any knowledge of where files selected in this way are located.";
+/* */
+"select_storage_locate_db_for_local_copy" = "Tap to locate your database and make a local copy.\n\nNB: There are a many ways to import your database, including File Sharing via USB, AirDrop, or copying your database into the Strongbox folder.";
+
+/* */
+"database_local_copy_done_info_msg" = "Your database was successfully imported. Note that you can now remove the original source file from the device should you wish.";
