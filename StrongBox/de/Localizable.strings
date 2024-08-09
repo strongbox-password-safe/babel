@@ -5215,7 +5215,7 @@
 /* Lock Database Immediately */
 "mac_on_window_close_action_lock_immediately" = "Datenbank sofort sperren";
 
-/* Offline Mode - L10n - this is a status/state, the database is currently unlocked */
+/* Unlocked - L10n - this is a status/state, the database is currently unlocked */
 "database_unlocked_status" = "Entsperrt";
 
 /* Your changes could not be safely saved. You are now working on an in-memory version only of your database. We recommend you try to save again */
@@ -6477,10 +6477,10 @@
 /* Auditing... */
 "generic_verb_auditing_in_progress_ellipsis" = "Sicherheitsprüfung …";
 
-/* */
+/* These method(s) are no longer advised. Strongbox does not have full control over the read, write and locate functions and so we cannot guarantee data integrity. However, typically, locally stored on-device files accessed in this way are not problematic.\n\nNB: Strongbox does not have any knowledge of where files selected in this way are located. */
 "deprecated_storage_footer_text_no_network_db" = "Diese Methode(n) werden nicht mehr empfohlen. Strongbox hat keine vollständige Kontrolle über die Lese-, Schreib- und Ortungsfunktionen und kann daher die Datenintegrität nicht garantieren. In der Regel sind lokal auf dem Gerät gespeicherte Dateien, auf die auf diese Weise zugegriffen wird, jedoch unproblematisch.\n\nHinweis: Strongbox hat keine Kenntnis davon, wo sich die auf diese Weise ausgewählten Dateien befinden.";
-/* */
+/* Tap to locate your database and make a local copy.\n\nNB: There are a many ways to import your database, including File Sharing via USB, AirDrop, or copying your database into the Strongbox folder. */
 "select_storage_locate_db_for_local_copy" = "Antippen, um Ihre Datenbank zu suchen und eine lokale Kopie zu erstellen.\n\nHinweis: Es gibt viele Möglichkeiten, Ihre Datenbank zu importieren, darunter die gemeinsame Nutzung von Dateien über USB, AirDrop oder das Kopieren Ihrer Datenbank in den Strongbox-Ordner.";
 
-/* */
+/* Your database was successfully imported. Note that you can now remove the original source file from the device should you wish. */
 "database_local_copy_done_info_msg" = "Ihre Datenbank wurde erfolgreich importiert. Beachten Sie, dass Sie nun die ursprüngliche Quelldatei vom Gerät entfernen können, wenn Sie dies wünschen.";
