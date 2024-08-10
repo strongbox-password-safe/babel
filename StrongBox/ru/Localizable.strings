@@ -606,7 +606,7 @@
 "item_details_section_header_metadata" = "Метаданные";
 
 /* Setup 2FA Code... */
-"item_details_setup_totp" = "Установка кода 2FA ...";
+"item_details_setup_totp" = "Добавить код 2FA";
 
 /* Could not set 2FA because the format is unsupported. */
 "item_details_setup_totp_failed_message" = "Не удалось установить код 2FA, поскольку формат не поддерживается.";
@@ -618,7 +618,7 @@
 "item_details_setup_totp_how_message" = "Вы можете установить код 2FA с помощью QR-кода или вручную, введя секрет или URL адрес OTPAuth.";
 
 /* How would you like to setup 2FA? */
-"item_details_setup_totp_how_title" = "Как вы хотите настроить 2FA?";
+"item_details_setup_totp_how_title" = "Настройка 2FA";
 
 /* Manual (Standard/RFC 6238)... */
 "item_details_setup_totp_manual_rfc" = "Вручную (RFC 6238)";
@@ -4615,7 +4615,7 @@
 "import_failed_message" = "Не удалось импортировать файл";
 
 /* Import Successful */
-"import_successful_title" = "Import Successful";
+"import_successful_title" = "Импорт БД";
 
 /* Your import was successful! Now, let's set a strong master password and save your new Strongbox database. */
 "import_successful_message" = "Импорт выполнен успешно. Теперь необходимо установить мастер-пароль и сохранить Вашу новую БД.";
@@ -6391,10 +6391,10 @@
 "no_results_found_some_locked" = "Результаты не найдены. Некоторые базы данных заблокированы.";
 
 /* Navigation */
-"generic_noun_navigation" = "Навигация";
+"generic_noun_navigation" = "Обзор";
 
 /* Quick Tags */
-"home_quick_tags_section_header" = "Быстрые теги";
+"home_quick_tags_section_header" = "Часто используемые";
 
 "audit_view_section_footer_no_password" = "Записи без паролей";
 
@@ -6430,7 +6430,7 @@
 "section_header_other_items_with_expiry_dates" = "Элементы с датами истечения";
 
 /* Home */
-"navigation_tab_home" = "Home";
+"navigation_tab_home" = "Главная";
 
 /* Database Saved */
 "generic_database_saved" = "БД сохранена";
@@ -6442,13 +6442,13 @@
 "home_view_all_sections_hidden_instructions" = "Нажмите Настройки > Показать разделы, чтобы выполнить настройку.";
 
 /* Find your way around your database. */
-"home_view_navigation_section_subtitle" = "Find your way around your database.";
+"home_view_navigation_section_subtitle" = "Различные представления БД.";
 
 /* Your most popular tags. */
-"home_view_quick_tags_section_subtitle" = "Ваши самые популярные теги.";
+"home_view_quick_tags_section_subtitle" = "Часто используемые теги.";
 
 /* Various convenient aspects of your database. */
-"home_view_other_views_navigation_section_subtitle" = "Various convenient aspects of your database.";
+"home_view_other_views_navigation_section_subtitle" = "Быстрый доступ по видам.";
 
 /* Visible */
 "generic_visible" = "Отображаемые";
@@ -6469,18 +6469,18 @@
 "secure_text_field_conceal_reveal_tooltip" = "Раскрыть или скрыть (⌘R для переключения)";
 
 /* Audit Disabled */
-"audit_disabled" = "Audit Disabled";
+"audit_disabled" = "Аудит выключен";
 
 /* Tap the Settings button to enable. */
-"generic_tap_the_settings_button_to_configure" = "Tap the Settings button to configure.";
+"generic_tap_the_settings_button_to_configure" = "Перейдите в «Настройки» для активации функции.";
 
 /* Auditing... */
-"generic_verb_auditing_in_progress_ellipsis" = "Auditing...";
+"generic_verb_auditing_in_progress_ellipsis" = "Аудит ...";
 
 /* These method(s) are no longer advised. Strongbox does not have full control over the read, write and locate functions and so we cannot guarantee data integrity. However, typically, locally stored on-device files accessed in this way are not problematic.\n\nNB: Strongbox does not have any knowledge of where files selected in this way are located. */
-"deprecated_storage_footer_text_no_network_db" = "These method(s) are no longer advised. Strongbox does not have full control over the read, write and locate functions and so we cannot guarantee data integrity. However, typically, locally stored on-device files accessed in this way are not problematic.\n\nNB: Strongbox does not have any knowledge of where files selected in this way are located.";
+"deprecated_storage_footer_text_no_network_db" = "Эти методы больше не рекомендуются. Strongbox не имеет полного контроля над функциями чтения, записи и определения местоположения, поэтому мы не можем гарантировать целостность данных. Как правило, доступ к локально хранящимся на устройстве файлам не вызывает проблем.";
 /* Tap to locate your database and make a local copy.\n\nNB: There are a many ways to import your database, including File Sharing via USB, AirDrop, or copying your database into the Strongbox folder. */
-"select_storage_locate_db_for_local_copy" = "Tap to locate your database and make a local copy.\n\nNB: There are a many ways to import your database, including File Sharing via USB, AirDrop, or copying your database into the Strongbox folder.";
+"select_storage_locate_db_for_local_copy" = "Нажмите, чтобы найти БД и сделать локальную копию.";
 
 /* Your database was successfully imported. Note that you can now remove the original source file from the device should you wish. */
-"database_local_copy_done_info_msg" = "Your database was successfully imported. Note that you can now remove the original source file from the device should you wish.";
+"database_local_copy_done_info_msg" = "Ваша БД успешно импортирована. Обратите внимание, что теперь вы можете удалить исходный файл с устройства.";
