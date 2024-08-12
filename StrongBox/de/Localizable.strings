@@ -6487,34 +6487,34 @@
 
 
 /* %@ [Slot %@ CR Unavailable] - L10n Guide: A hardware key is present/inserted in the device, but but the Challenge Response functionality is not available, probably by error or user mistake. The first parameter is device serial number and the second is the number "1" or "2". */
-"mac_hardware_key_key_connected_but_cr_unavailable" = "%@ [Slot %@ CR Unavailable]";
+"mac_hardware_key_key_connected_but_cr_unavailable" = "%@ [Steckplatz %@ CR nicht verfügbar]";
 
 /* New Virtual Hardware Key... */
-"new_virtual_hardware_key_ellipsis" = "New Virtual Hardware Key...";
+"new_virtual_hardware_key_ellipsis" = "Neuer virtueller Hardwareschlüssel …";
 
 /* New Virtual Hardware Key */
-"new_virtual_hardware_key" = "New Virtual Hardware Key";
+"new_virtual_hardware_key" = "Neuer virtueller Hardwareschlüssel";
 
 /* No Connected Keys Detected */
-"no_connected_keys_detected" = "No Connected Keys Detected";
+"no_connected_keys_detected" = "Keine angeschlossenen Schlüssel erkannt";
 
 /* Virtual Hardware Keys */
-"virtual_hardware_keys" = "Virtual Hardware Keys";
+"virtual_hardware_keys" = "Virtuelle Hardwareschlüssel";
 
 /* Are you sure you would like to delete the virtual hardware key '%@'? - L10n note: 1st param is the name of the key, something like "My YubiKey Backup Key" */
-"ays_delete_virtual_hardware_key_fmt" = "Are you sure you would like to delete the virtual hardware key '%@'?";
+"ays_delete_virtual_hardware_key_fmt" = "Möchten Sie den virtuellen Hardwareschlüssel „%@” wirklich löschen?";
 
 /* Enter a friendly name and the HMAC-SHA1 challenge response secret to create a new virtual hardware key. */
-"virtual_hardware_key_welcome_msg" = "Enter a friendly name and the HMAC-SHA1 challenge response secret to create a new virtual hardware key.";
+"virtual_hardware_key_welcome_msg" = "Geben Sie einen anwenderfreundliche Namen und das HMAC-SHA1-Challenge-Response-Geheimnis ein, um einen neuen virtuellen Hardwareschlüssel zu erstellen.";
 
 /* Name - L10n Note: A noun, the name of something, e.g. the database name "Mark's Database" */
 "generic_name" = "Name";
 
 /* My Backup Key - L10n note: A sample placeholder name for a virtual hardware key. */
-"sample_vkey_name_my_backup_key" = "My Backup Key";
+"sample_vkey_name_my_backup_key" = "Mein Sicherungsschlüssel";
 
 /* Secret - L10n Note: This relates to virtual hardware keys which have associated secrets, a long string of hex digits used to encrypt the database. The secret is something the user knows and programs their hardware key with. */
-"vkey_secret" = "Secret";
+"vkey_secret" = "Geheimnis";
 
 /* This is the secret you programmed your hardware key with. You should store it safely offline in case of device loss. Strongbox will store it safely in the secure enclave. */
-"vkey_secret_description" = "This is the secret you programmed your hardware key with. You should store it safely offline in case of device loss. Strongbox will store it safely in the secure enclave.";
+"vkey_secret_description" = "Dies ist das Geheimnis, mit dem Sie Ihren Hardwareschlüssel programmiert haben. Sie sollten ihn für den Fall eines Geräteverlusts sicher offline speichern. Strongbox speichert ihn sicher in der Secure Enclave.";
