@@ -4615,7 +4615,7 @@
 "import_failed_message" = "A Strongbox nem tudta importálni ezt a fájlt. Kérjük, ellenőrizze, hogy a megfelelő formátumban van-e.";
 
 /* Import Successful */
-"import_successful_title" = "Import Successful";
+"import_successful_title" = "Sikeres importálás";
 
 /* Your import was successful! Now, let's set a strong master password and save your new Strongbox database. */
 "import_successful_message" = "Az importálás sikeres volt! Most állítsunk be egy erős mesterjelszót, és mentsük el az új Strongbox adatbázist.";
@@ -6484,3 +6484,37 @@
 
 /* Your database was successfully imported. Note that you can now remove the original source file from the device should you wish. */
 "database_local_copy_done_info_msg" = "Your database was successfully imported. Note that you can now remove the original source file from the device should you wish.";
+
+
+/* %@ [Slot %@ CR Unavailable] - L10n Guide: A hardware key is present/inserted in the device, but but the Challenge Response functionality is not available, probably by error or user mistake. The first parameter is device serial number and the second is the number "1" or "2". */
+"mac_hardware_key_key_connected_but_cr_unavailable" = "%@ [Slot %@ CR Unavailable]";
+
+/* New Virtual Hardware Key... */
+"new_virtual_hardware_key_ellipsis" = "Új virtuális hardverkulcs...";
+
+/* New Virtual Hardware Key */
+"new_virtual_hardware_key" = "Új virtuális hardverkulcs";
+
+/* No Connected Keys Detected */
+"no_connected_keys_detected" = "Nincs csatlakoztatott kulcs észlelve";
+
+/* Virtual Hardware Keys */
+"virtual_hardware_keys" = "Virtuális hardverkulcsok";
+
+/* Are you sure you would like to delete the virtual hardware key '%@'? - L10n note: 1st param is the name of the key, something like "My YubiKey Backup Key" */
+"ays_delete_virtual_hardware_key_fmt" = "Are you sure you would like to delete the virtual hardware key '%@'?";
+
+/* Enter a friendly name and the HMAC-SHA1 challenge response secret to create a new virtual hardware key. */
+"virtual_hardware_key_welcome_msg" = "Enter a friendly name and the HMAC-SHA1 challenge response secret to create a new virtual hardware key.";
+
+/* Name - L10n Note: A noun, the name of something, e.g. the database name "Mark's Database" */
+"generic_name" = "Név";
+
+/* My Backup Key - L10n note: A sample placeholder name for a virtual hardware key. */
+"sample_vkey_name_my_backup_key" = "My Backup Key";
+
+/* Secret - L10n Note: This relates to virtual hardware keys which have associated secrets, a long string of hex digits used to encrypt the database. The secret is something the user knows and programs their hardware key with. */
+"vkey_secret" = "Titok";
+
+/* This is the secret you programmed your hardware key with. You should store it safely offline in case of device loss. Strongbox will store it safely in the secure enclave. */
+"vkey_secret_description" = "This is the secret you programmed your hardware key with. You should store it safely offline in case of device loss. Strongbox will store it safely in the secure enclave.";
