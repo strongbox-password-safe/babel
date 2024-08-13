@@ -6518,3 +6518,57 @@
 
 /* This is the secret you programmed your hardware key with. You should store it safely offline in case of device loss. Strongbox will store it safely in the secure enclave. */
 "vkey_secret_description" = "Dies ist das Geheimnis, mit dem Sie Ihren Hardwareschlüssel programmiert haben. Sie sollten ihn für den Fall eines Geräteverlusts sicher offline speichern. Strongbox speichert ihn sicher in der Secure Enclave.";
+
+/* Experimental Feature */
+"experimental_feature_warning_title" = "Experimental Feature";
+
+/* Caution is required using this feature. While we have performed extensive testing this is still an early release feature which could corrupt your database. You should only use this if you are an advanced and technical user with a regular backup system in place.\n\nThank you for helping to test Strongbox. Feedback welcome.\n\nDo you want to continue? */
+"experimental_feature_warning_message_yes_no" = "Caution is required using this feature. While we have performed extensive testing this is still an early release feature which could corrupt your database. You should only use this if you are an advanced and technical user with a regular backup system in place.\n\nThank you for helping to test Strongbox. Feedback welcome.\n\nDo you want to continue?";
+
+
+
+
+/* Hardware Key Caching - L10n - A convenience feature to make using YubiKeys easier */
+"feature_hardware_key_caching" = "Hardware Key Caching";
+
+/* Using a hardware key is a great security choice but it can be a little inconvenient.\n\nWould you like to enable our caching feature?\n\nWith this enabled Strongbox will do things like remember the last challenge response for a period of time. This means you don't need to use your key so often.\n\nFull configuration is available in settings. For more details see online. */
+"hardware_key_caching_onboarding_msg" = "Using a hardware key is a great security choice but it can be a little inconvenient.\n\nWould you like to enable our caching feature?\n\nWith this enabled Strongbox will do things like remember the last challenge response for a period of time. This means you don't need to use your key so often.\n\nFull configuration is available in settings. For more details see online.";
+
+/* Hardware Key - L10n Note: A physical hardware key such as a YubiKey or one of Strongboxs "Virtual Hardware Keys" which is a software emulation of the YubiKey */
+"generic_hardware_key" = "Hardware Key";
+
+/* On Every Save - L10n Note: This is a parameter for how often the YubiKey challenge should be refreshed. This means it is refreshed every time the user saves */
+"interval_on_every_save" = "On Every Save";
+
+/* Forever */
+"generic_duration_forever" = "Forever";
+
+/* until App Termination - L10n Note: This is how long Strongbox will store/cache something, it will remember this until the App terminates completely, not just an app switch but a full quit. */
+"until_app_termination" = "until App Termination";
+
+/* Response Caching */
+"setting_response_caching_title" = "Response Caching";
+
+/* Cache Response For - L10n note: Usually followed by a period of time or duration, e.g. "Cache Response For 2 Hours" */
+"setting_cache_response_for_period_of_time" = "Cache Response For";
+
+/* Refresh Challenge Interval - L10n Note: usual followed by a period of time, e.g. Refresh Challenge Interval: 2 Hours */
+"refresh_challenge_interval" = "Refresh Challenge Interval";
+
+/* AutoFill Refresh Suppressed */
+"autofill_refresh_challenge_suppressed" = "AutoFill Refresh Suppressed";
+
+/* Hardware Key Settings */
+"nav_title_hardware_key_settings" = "Hardware Key Settings";
+
+/* Challenge Response Caching */
+"challenge_response_caching_header" = "Challenge Response Caching";
+
+/* Strongbox can remember the correct response for a particular challenge for a period of time. This means it can respond to a challenge instead of requiring you to use your hardware key all of the time. */
+"challenge_response_caching_footer" = "Strongbox can remember the correct response for a particular challenge for a period of time. This means it can respond to a challenge instead of requiring you to use your hardware key all of the time.";
+
+/* Challenge Refreshing */
+"challenge_refreshing_header" = "Challenge Refreshing";
+
+/* Typically Strongbox refreshes the challenge on each save. Any time the challenge is refreshed your hardware key is required to generate a response to the fresh challenge. You can reduce the frequency of this refreshing meaning you can also save without requiring your hardware key (so long as caching is also enabled). */
+"challenge_refreshing_footer" = "Typically Strongbox refreshes the challenge on each save. Any time the challenge is refreshed your hardware key is required to generate a response to the fresh challenge. You can change the frequency of this refresh process. This means you can save without requiring your hardware key (as long as caching is also enabled).";
