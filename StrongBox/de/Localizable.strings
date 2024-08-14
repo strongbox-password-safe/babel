@@ -4200,7 +4200,7 @@
 "password_strength_algo_zxcvbn_title" = "Zxcvbn (Smart)";
 
 /* Basic (Pooled Entropy) */
-"password_strength_algo_basic_title" = "Einfach (gepoolte Entropie)";
+"password_strength_algo_basic_title" = "Einfach (gepoolte Zufälligkeit)";
 
 /* Password Strength Algorithm */
 "prefs_vc_password_strength_algorithm" = "Passwortstärke-Algorithmus";
@@ -4505,7 +4505,7 @@
 "connection_vc_name_invalid" = "Bitte geben Sie einen gültigen Namen ein.";
 
 /* Tap '+' to add a connection. */
-"tap_plus_to_add_a_connection_hint" = "Tippen Sie auf '+', um eine Verbindung hinzuzufügen.";
+"tap_plus_to_add_a_connection_hint" = "Tippen Sie auf „+”, um eine Verbindung hinzuzufügen.";
 
 /* Select Connection */
 "select_webdav_or_sftp_connection" = "Verbindung auswählen";
@@ -6520,64 +6520,64 @@
 "vkey_secret_description" = "Dies ist das Geheimnis, mit dem Sie Ihren Hardwareschlüssel programmiert haben. Sie sollten ihn für den Fall eines Geräteverlusts sicher offline speichern. Strongbox speichert ihn sicher in der Secure Enclave.";
 
 /* Experimental Feature */
-"experimental_feature_warning_title" = "Experimental Feature";
+"experimental_feature_warning_title" = "Experimentelle Funktion";
 
 /* Caution is required using this feature. While we have performed extensive testing this is still an early release feature which could corrupt your database. You should only use this if you are an advanced and technical user with a regular backup system in place.\n\nThank you for helping to test Strongbox. Feedback welcome.\n\nDo you want to continue? */
-"experimental_feature_warning_message_yes_no" = "Caution is required using this feature. While we have performed extensive testing this is still an early release feature which could corrupt your database. You should only use this if you are an advanced and technical user with a regular backup system in place.\n\nThank you for helping to test Strongbox. Feedback welcome.\n\nDo you want to continue?";
+"experimental_feature_warning_message_yes_no" = "Bei der Verwendung dieser Funktion ist Vorsicht geboten. Obwohl wir diese Funktion ausgiebig getestet haben, handelt es sich noch um eine frühe Version, die Ihre Datenbank beschädigen könnte. Sie sollten diese Funktion nur nutzen, wenn Sie ein fortgeschrittener und technisch versierter Benutzer sind und ein regelmäßiges Backup-System eingerichtet haben.\n\nVielen Dank für Ihre Hilfe beim Testen von Strongbox. Rückmeldungen sind willkommen.\n\nMöchten Sie fortfahren?";
 
 
 
 
 /* Hardware Key Caching - L10n - A convenience feature to make using YubiKeys easier */
-"feature_hardware_key_caching" = "Hardware Key Caching";
+"feature_hardware_key_caching" = "Zwischenspeicherung von Hardware-Schlüsseln";
 
 /* Using a hardware key is a great security choice but it can be a little inconvenient.\n\nWould you like to enable our caching feature?\n\nWith this enabled Strongbox will do things like remember the last challenge response for a period of time. This means you don't need to use your key so often.\n\nFull configuration is available in settings. For more details see online. */
-"hardware_key_caching_onboarding_msg" = "Using a hardware key is a great security choice but it can be a little inconvenient.\n\nWould you like to enable our caching feature?\n\nWith this enabled Strongbox will do things like remember the last challenge response for a period of time. This means you don't need to use your key so often.\n\nFull configuration is available in settings. For more details see online.";
+"hardware_key_caching_onboarding_msg" = "Die Verwendung eines Hardwareschlüssels ist eine gute Wahl für die Sicherheit, kann aber auch ein wenig unbequem sein.\n\nMöchten Sie unsere Zwischenspeicherfunktion aktivieren?\n\nWenn diese Funktion aktiviert ist, speichert Strongbox beispielsweise die letzte Antwort auf die Anforderung für einen bestimmten Zeitraum. Das bedeutet, dass Sie Ihren Schlüssel nicht so oft benutzen müssen.\n\nDie vollständige Konfiguration ist in den Einstellungen verfügbar. Weitere Details finden Sie online.";
 
 /* Hardware Key - L10n Note: A physical hardware key such as a YubiKey or one of Strongboxs "Virtual Hardware Keys" which is a software emulation of the YubiKey */
-"generic_hardware_key" = "Hardware Key";
+"generic_hardware_key" = "Hardwareschlüssel";
 
 /* On Every Save - L10n Note: This is a parameter for how often the YubiKey challenge should be refreshed. This means it is refreshed every time the user saves */
-"interval_on_every_save" = "On Every Save";
+"interval_on_every_save" = "Bei jedem Speichern";
 
 /* Forever */
-"generic_duration_forever" = "Forever";
+"generic_duration_forever" = "Immer";
 
 /* until App Termination - L10n Note: This is how long Strongbox will store/cache something, it will remember this until the App terminates completely, not just an app switch but a full quit. */
-"until_app_termination" = "until App Termination";
+"until_app_termination" = "bis zur Beendigung der App";
 
 /* Response Caching */
-"setting_response_caching_title" = "Response Caching";
+"setting_response_caching_title" = "Antwort zwischenspeichern";
 
 /* Cache Response For - L10n note: Usually followed by a period of time or duration, e.g. "Cache Response For 2 Hours" */
-"setting_cache_response_for_period_of_time" = "Cache Response For";
+"setting_cache_response_for_period_of_time" = "Antwort zwischenspeichern für";
 
 /* Refresh Challenge Interval - L10n Note: usual followed by a period of time, e.g. Refresh Challenge Interval: 2 Hours */
-"refresh_challenge_interval" = "Refresh Challenge Interval";
+"refresh_challenge_interval" = "Intervall für die Aktualisierung der Anforderung";
 
 /* AutoFill Refresh Suppressed */
-"autofill_refresh_challenge_suppressed" = "AutoFill Refresh Suppressed";
+"autofill_refresh_challenge_suppressed" = "AutoFill-Aktualisierung unterdrückt";
 
 /* Hardware Key Settings */
-"nav_title_hardware_key_settings" = "Hardware Key Settings";
+"nav_title_hardware_key_settings" = "Einstellungen der Hardware-Schlüssel";
 
 /* Challenge Response Caching */
-"challenge_response_caching_header" = "Challenge Response Caching";
+"challenge_response_caching_header" = "Antwort auf Anforderungen zwischenspeichern";
 
 /* Strongbox can remember the correct response for a particular challenge for a period of time. This means it can respond to a challenge instead of requiring you to use your hardware key all of the time. */
-"challenge_response_caching_footer" = "Strongbox can remember the correct response for a particular challenge for a period of time. This means it can respond to a challenge instead of requiring you to use your hardware key all of the time.";
+"challenge_response_caching_footer" = "Strongbox kann sich die korrekte Antwort für eine bestimmte Anforderung über einen bestimmten Zeitraum hinweg merken. Das bedeutet, dass sie auf eine Anforderung reagieren kann, anstatt dass Sie ständig Ihren Hardwareschlüssel verwenden müssen.";
 
 /* Challenge Refreshing */
-"challenge_refreshing_header" = "Challenge Refreshing";
+"challenge_refreshing_header" = "Anforderung erneuern";
 
 /* Typically Strongbox refreshes the challenge on each save. Any time the challenge is refreshed your hardware key is required to generate a response to the fresh challenge. You can reduce the frequency of this refreshing meaning you can also save without requiring your hardware key (so long as caching is also enabled). */
-"challenge_refreshing_footer" = "Typically Strongbox refreshes the challenge on each save. Any time the challenge is refreshed your hardware key is required to generate a response to the fresh challenge. You can change the frequency of this refresh process. This means you can save without requiring your hardware key (as long as caching is also enabled).";
+"challenge_refreshing_footer" = "Normalerweise aktualisiert Strongbox die Anforderung bei jedem Speichern. Jedes Mal, wenn die Anforderung aktualisiert wird, ist Ihr Hardwareschlüssel erforderlich, um eine Antwort auf die neue Anforderung zu erzeugen. Sie können die Häufigkeit dieses Aktualisierungsprozesses ändern. Das bedeutet, dass Sie speichern können, ohne dass Ihr Hardwareschlüssel erforderlich ist (sofern das Zwischenspeichern ebenfalls aktiviert ist).";
 
 /* Empty */
-"generic_empty" = "Empty";
+"generic_empty" = "Leer";
 
 /* Without */
-"generic_without" = "Without";
+"generic_without" = "Ohne";
 
 /* None */
-"privacy_shield_none" = "None";
+"privacy_shield_none" = "Ohne";
