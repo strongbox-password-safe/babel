@@ -5491,7 +5491,7 @@
 /* unlock \"%@\" to allow \"%@\" to use an SSH Key - L10n Note: Request the user to approve an SSH Key. The first param is the Name of the Database containing the key. The second parameter is the name of the process requesting to use the Key. The string is prefixed by the system with "Strongbox is trying to"... Ultimately the string looks like: '"Strongbox" is trying to unlock "Mark's Database" to allow "ssh" to use an SSH Key' */
 "ssh_agent_approve_unlock_key_use_fmt" = "„%@” entsperren, damit „%@” einen SSH-Schlüssel verwenden kann";
 /* allow \"%@\" to use the key \"%@\" for SSH - L10n Note: Request the user to approve an SSH Key. The first param is the name of the process requesting to use the Key. The second parameter this the title of the SSH Key entry. The string is prefixed by the system with "Strongbox is trying"... Ultimately the string looks like: '"Strongbox" is trying to aalow "ssh" to use the key "Mark's SSH Key" for SSH' */
-"ssh_agent_approve_key_use_fmt" = "erlauben, dass „%@” den Schlüssel „%@” für SSH verwendet";
+"ssh_agent_approve_key_use_fmt" = "„%@” erlauben, den Schlüssel „%@” für SSH zu verwenden";
 
 /* %@ (%@ bits) - L10n Note: 1st Param is something the SSH key type like 'RSA' or 'ED25519', 2nd param is the number of bits used by the key, usually 3072 or 256 */
 "ssh_agent_algo_bits_fmt" = "%@ (%@ Bits)";
@@ -5512,7 +5512,7 @@
 "popout_password_generator" = "Passwort-Generator";
 
 /* verify existing credentials before you can change them - L10n Note: This is a suffix that appears on the Touch ID request dialog on macOS, it is prefixed by system text: "Strongbox is trying to", so ultimately this string will look like: "Strongbox is trying to verify existing credentials before you can change them" */
-"verify_creds_before_changing_bio_message_suffix" = ", die Anmeldedaten zu überprüfen, bevor diese geändert werden können";
+"verify_creds_before_changing_bio_message_suffix" = "die Anmeldedaten überprüfen, bevor diese geändert werden können";
 
 /* Verify Master Credentials */
 "verify_creds_headline" = "Master-Zugangsdaten überprüfen";
@@ -5533,13 +5533,13 @@
 "generic_verifying_ellipsis" = "Wird überprüft …";
 
 /* verify existing credentials before you can export in plaintext - L10n Note: This is a suffix that appears on the Touch ID request dialog on macOS, it is prefixed by system text: "Strongbox is trying to", so ultimately this string will look like: "Strongbox is trying to verify existing credentials before you can export in plaintext" */
-"verify_creds_before_plaintext_export_bio_message_suffix" = ", die Anmeldeinformationen zu überprüfen, bevor diese im Klartext exportiert werden können";
+"verify_creds_before_plaintext_export_bio_message_suffix" = "die Anmeldedaten überprüfen, bevor diese im Klartext exportiert werden können";
 
 /* For security reasons your master credentials must be verified before you can export in plaintext. */
 "verify_creds_before_plaintext_export_subhead" = "Aus Sicherheitsgründen müssen Ihre Master-Anmeldedaten überprüft werden, bevor diese im Klartext exportiert werden können.";
 
 /* verify existing credentials before you can print - L10n Note: This is a suffix that appears on the Touch ID request dialog on macOS, it is prefixed by system text: "Strongbox is trying to", so ultimately this string will look like: "Strongbox is trying to verify credentials before you can print" */
-"verify_creds_before_print_bio_message_suffix" = ", die Anmeldeinformationen zu überprüfen, bevor diese gedruckt werden können";
+"verify_creds_before_print_bio_message_suffix" = "die Anmeldedaten überprüfen, bevor diese gedruckt werden können";
 
 /* For security reasons your master credentials must be verified before you can print. */
 "verify_creds_before_print_subhead" = "Aus Sicherheitsgründen müssen Ihre Master-Zugangsdaten überprüft werden, bevor diese gedruckt werden können.";
