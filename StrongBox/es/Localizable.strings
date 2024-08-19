@@ -6574,10 +6574,67 @@
 "challenge_refreshing_footer" = "Normalmente, la Strongbox actualiza el desafío cada vez que se guarda. Cada vez que se actualiza el desafío, se requiere su llave hardware para generar una respuesta al nuevo desafío. Puede cambiar la frecuencia de este proceso de actualización. Esto significa que usted puede guardar sin requerir su llave hardware (siempre y cuando el almacenamiento en caché también esté habilitado).";
 
 /* Empty */
-"generic_empty" = "Empty";
+"generic_empty" = "Vacío";
 
 /* Without */
-"generic_without" = "Without";
+"generic_without" = "Sin";
 
 /* None */
-"privacy_shield_none" = "None";
+"privacy_shield_none" = "Ninguno";
+
+/* Select Database to save 2FA Code */
+"select_database_to_save_2fa_code_title" = "Seleccionar base de datos para código 2FA";
+
+/* Let's get your new passkey saved. How would you like to add this passkey to your database? */
+"totp_how_to_add_to_database" = "Vamos a guardar su nuevo código 2FA. ¿Cómo le gustaría añadir este código a su base de datos?";
+
+/* Overwrite Existing 2FA Code? */
+"totp_overwrite_question_title" = "¿Sobrescribir el código 2FA existente?";
+
+/* '%@' already has a 2FA Code, do you want to overwrite it? */
+"totp_overwrite_existing_question_msg_fmt" = "'%@' ya tiene un código de 2FA, ¿está seguro de que desea sobrescribirlo?";
+
+/* Are you sure you want to add this 2FA Code to '%@'? - l10n note: the first parameter is the title of an existing entry in your database, like 'Amazon.com' or something. */
+"totps_are_you_sure_add_to_fmt" = "¿Está seguro de que quiere añadir este código 2FA a '%@'?";
+
+/* Select entry for 2FA Code */
+"totp_select_existing_entry" = "Seleccionar la entrada para el código 2FA";
+
+/* New 2FA Code */
+"totp_new_passkey_title" = "Nuevo código 2FA";
+
+/* We'll create a new entry for this 2FA Code. Choose a title and a group where you'd like to save it. */
+"totp_new_entry_text" = "Crearemos una nueva entrada para este código 2FA. Elija un título y un grupo donde quiera guardarlo.";
+
+/* Edit In Progress */
+"generic_edit_in_progress" = "Edición en curso";
+
+/* There is an edit in progress, please complete this before adding a 2FA Code. */
+"generic_edit_in_progress_2fa_code" = "Hay una edición en curso, por favor complétela antes de añadir un código 2FA.";
+
+/* Close Current Database? */
+"close_current_db_question" = "¿Cerrar la base de datos actual?";
+
+/* You currently have a different database unlocked. Can Strongbox close that database to continue adding your 2FA Code? */
+"close_current_db_question_for_2fa" = "Actualmente tiene desbloqueada una base de datos diferente. ¿Puede Strongbox cerrar esa base de datos para continuar añadiendo su código 2FA?";
+
+/* Invalid OTPAuth URL */
+"invalid_otpauth_url" = "URL OTPAuth no válida";
+
+/* Error Adding 2FA Code */
+"error_adding_2fa_code" = "Error al añadir el código 2FA";
+
+/* 2FA Code Saved */
+"2fa_code_saved" = "Código 2FA guardado";
+
+/* Please select an existing entry to add your new 2FA Code */
+"totps_select_existing_entry_to_add_to_message" = "Por favor, seleccione una entrada existente para añadir su nuevo código 2FA";
+
+/* 2FA Code Imported */
+"2fa_code_imported" = "Código 2FA importado";
+
+/* Unlock Unsuccessful - L10n Note: A recent unlock attempt was unsuccessful */
+"unlock_was_unsuccessful" = "Desbloqueo fallido";
+
+/* Would you like to try again? */
+"generic_would_you_like_to_try_again" = "¿Le gustaría intentarlo de nuevo?";

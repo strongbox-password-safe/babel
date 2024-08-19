@@ -6574,10 +6574,67 @@
 "challenge_refreshing_footer" = "Strongbox uppdaterar vanligtvis nyckelns svar vid varje sparning. Varje gång detta uppdateras krävs din maskinvarunyckel för att generera ett svar på den nya begäran. Här kan du ändra frekvensen för denna uppdateringsprocess. Detta innebär att du kan spara utan att behöva din maskinvarunyckel (om cachelagring också är aktiverat).";
 
 /* Empty */
-"generic_empty" = "Empty";
+"generic_empty" = "Tom";
 
 /* Without */
-"generic_without" = "Without";
+"generic_without" = "Utan";
 
 /* None */
-"privacy_shield_none" = "None";
+"privacy_shield_none" = "Inget";
+
+/* Select Database to save 2FA Code */
+"select_database_to_save_2fa_code_title" = "Välj databas för 2FA-kod";
+
+/* Let's get your new passkey saved. How would you like to add this passkey to your database? */
+"totp_how_to_add_to_database" = "Låt oss spara din nya 2FA-kod. Hur vill du lägga in denna kod i din databas?";
+
+/* Overwrite Existing 2FA Code? */
+"totp_overwrite_question_title" = "Skriv över befintlig 2FA-kod?";
+
+/* '%@' already has a 2FA Code, do you want to overwrite it? */
+"totp_overwrite_existing_question_msg_fmt" = "'%@' redan har en 2FA-kod, är du säker på att du vill skriva över den?";
+
+/* Are you sure you want to add this 2FA Code to '%@'? - l10n note: the first parameter is the title of an existing entry in your database, like 'Amazon.com' or something. */
+"totps_are_you_sure_add_to_fmt" = "Är du säker på att du vill lägga till denna 2FA-kod till '%@'?";
+
+/* Select entry for 2FA Code */
+"totp_select_existing_entry" = "Välj post för 2FA-kod";
+
+/* New 2FA Code */
+"totp_new_passkey_title" = "Ny 2FA-kod";
+
+/* We'll create a new entry for this 2FA Code. Choose a title and a group where you'd like to save it. */
+"totp_new_entry_text" = "Vi kommer att skapa en ny post för denna 2FA-kod. Välj en titel och en grupp där du vill spara den.";
+
+/* Edit In Progress */
+"generic_edit_in_progress" = "Redigering pågår";
+
+/* There is an edit in progress, please complete this before adding a 2FA Code. */
+"generic_edit_in_progress_2fa_code" = "Det pågår en redigering, slutför den innan du lägger till en 2FA-kod.";
+
+/* Close Current Database? */
+"close_current_db_question" = "Stäng nuvarande databas?";
+
+/* You currently have a different database unlocked. Can Strongbox close that database to continue adding your 2FA Code? */
+"close_current_db_question_for_2fa" = "Du har för närvarande en annan databas upplåst. Kan Strongbox stänga den databasen för att fortsätta lägga till din 2FA-kod?";
+
+/* Invalid OTPAuth URL */
+"invalid_otpauth_url" = "Ogiltig OTPAuth-URL";
+
+/* Error Adding 2FA Code */
+"error_adding_2fa_code" = "Fel vid tillägg av 2FA-kod";
+
+/* 2FA Code Saved */
+"2fa_code_saved" = "2FA-kod sparad";
+
+/* Please select an existing entry to add your new 2FA Code */
+"totps_select_existing_entry_to_add_to_message" = "Välj en befintlig post för att lägga till din nya 2FA-kod";
+
+/* 2FA Code Imported */
+"2fa_code_imported" = "2FA-kod importerad";
+
+/* Unlock Unsuccessful - L10n Note: A recent unlock attempt was unsuccessful */
+"unlock_was_unsuccessful" = "Upplåsning misslyckades";
+
+/* Would you like to try again? */
+"generic_would_you_like_to_try_again" = "Vill du försöka igen?";

@@ -207,10 +207,10 @@
 "safesvc_error_title_error_importing_key_file" = "导入密钥文件错误";
 
 /* Invalid Database - [%@] */
-"safesvc_error_title_import_database_fmt" = "无效的数据库-[%@]";
+"safesvc_error_title_import_database_fmt" = "无效的数据库 - [%@]";
 
 /* Edit or Copy? */
-"safesvc_import_database_prompt_title_edit_copy" = "编辑或复制?";
+"safesvc_import_database_prompt_title_edit_copy" = "编辑还是复制？";
 
 /* Strongbox can attempt to edit this document in its current location and keep a reference or, if you'd prefer, Strongbox can just make a copy of this file for itself.\n\nWhich option would you like? */
 "safesvc_import_database_prompt_message" = "Strongbox 可以尝试在其当前位置编辑此文档并保留引用，或者如果您愿意，Strongbox 可以创建此文件的副本。\n\n您希望使用哪个选项?";
@@ -6574,10 +6574,67 @@
 "challenge_refreshing_footer" = "通常情况下，Strongbox 会在每次保存时刷新挑战。每次刷新挑战时，您的硬件密钥都需要重新生成对新挑战的响应。您可以更改刷新频率。这意味着您可以在不需要硬件密钥的情况下进行保存（只要同时启用缓存功能）。";
 
 /* Empty */
-"generic_empty" = "Empty";
+"generic_empty" = "空";
 
 /* Without */
 "generic_without" = "Without";
 
 /* None */
-"privacy_shield_none" = "None";
+"privacy_shield_none" = "无";
+
+/* Select Database to save 2FA Code */
+"select_database_to_save_2fa_code_title" = "Select Database for 2FA Code";
+
+/* Let's get your new passkey saved. How would you like to add this passkey to your database? */
+"totp_how_to_add_to_database" = "新的 2FA 代码已经保存。您想以何种方式将其添加到您的数据库？";
+
+/* Overwrite Existing 2FA Code? */
+"totp_overwrite_question_title" = "覆盖现有 2FA 代码？";
+
+/* '%@' already has a 2FA Code, do you want to overwrite it? */
+"totp_overwrite_existing_question_msg_fmt" = "“%@”已经有了 2FA 代码，您确定要覆盖它吗？";
+
+/* Are you sure you want to add this 2FA Code to '%@'? - l10n note: the first parameter is the title of an existing entry in your database, like 'Amazon.com' or something. */
+"totps_are_you_sure_add_to_fmt" = "您确定要将此 2FA 代码添加到“%@”吗？";
+
+/* Select entry for 2FA Code */
+"totp_select_existing_entry" = "选择 2FA 密码所属条目";
+
+/* New 2FA Code */
+"totp_new_passkey_title" = "新 2FA 代码";
+
+/* We'll create a new entry for this 2FA Code. Choose a title and a group where you'd like to save it. */
+"totp_new_entry_text" = "我们将为 2FA 代码创建一个新条目。请选择它的标题和要保存到的群组。";
+
+/* Edit In Progress */
+"generic_edit_in_progress" = "编辑中";
+
+/* There is an edit in progress, please complete this before adding a 2FA Code. */
+"generic_edit_in_progress_2fa_code" = "正在编辑，请在添加 2FA 密码前完成编辑。";
+
+/* Close Current Database? */
+"close_current_db_question" = "关闭当前数据库？";
+
+/* You currently have a different database unlocked. Can Strongbox close that database to continue adding your 2FA Code? */
+"close_current_db_question_for_2fa" = "您目前已经解锁了另一个数据库。Strongbox 能否关闭该数据库以继续添加您的 2FA 密码？";
+
+/* Invalid OTPAuth URL */
+"invalid_otpauth_url" = "无效的 OTPAuth URL";
+
+/* Error Adding 2FA Code */
+"error_adding_2fa_code" = "添加 2FA 代码时出错";
+
+/* 2FA Code Saved */
+"2fa_code_saved" = "2FA 代码已保存";
+
+/* Please select an existing entry to add your new 2FA Code */
+"totps_select_existing_entry_to_add_to_message" = "请选择一个现有条目来添加新的 2FA 代码";
+
+/* 2FA Code Imported */
+"2fa_code_imported" = "2FA 代码已导入";
+
+/* Unlock Unsuccessful - L10n Note: A recent unlock attempt was unsuccessful */
+"unlock_was_unsuccessful" = "解锁失败";
+
+/* Would you like to try again? */
+"generic_would_you_like_to_try_again" = "您要重试吗？";

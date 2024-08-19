@@ -4615,7 +4615,7 @@
 "import_failed_message" = "Strongbox не може імпортувати цей файл. Будь ласка, перевірте правильність його формату.";
 
 /* Import Successful */
-"import_successful_title" = "Import Successful";
+"import_successful_title" = "Імпорт успішний";
 
 /* Your import was successful! Now, let's set a strong master password and save your new Strongbox database. */
 "import_successful_message" = "Ваш імпорт пройшов успішно! Тепер встановимо складний головний пароль та збережемо нову базу паролів Strongbox.";
@@ -6076,190 +6076,190 @@
 "strongbox_sync_unavailable_title" = "Strongbox Sync недоступний";
 
 /* Strongbox Sync has become unavailable. Please check you are signed in to your Apple account in System Settings. */
-"strongbox_sync_unavailable_msg" = "Strongbox Sync has become unavailable. Please check you are signed in to your Apple account in System Settings.";
+"strongbox_sync_unavailable_msg" = "Синхронізація Strongbox стала недоступною. Перевірте, чи ви ввійшли до свого облікового запису Apple у параметрах системи.";
 
 /* Copy To... */
-"database_option_copy_to_ellipsis" = "Copy To...";
+"database_option_copy_to_ellipsis" = "Копіювати до...";
 
 /* Manage Sharing... */
-"generic_manage_sharing_action_ellipsis" = "Manage Sharing...";
+"generic_manage_sharing_action_ellipsis" = "Керувати спільним доступом...";
 
 /* Are you sure you want to remove this database? It will be permanently deleted across all devices.\n\nPlease consider taking a backup local copy first. */
-"ays_remove_database_permanent_all_devices_delete_please_take_backup" = "Are you sure you want to remove this database? It will be permanently deleted across all devices.\n\nPlease consider taking a backup local copy first.";
+"ays_remove_database_permanent_all_devices_delete_please_take_backup" = "Ви дійсно хочете вилучити цю базу даних? Вона буде остаточно видалена з усіх пристроїв.\n\nОбов'язково створіть локальну резервну копію.";
 
 /* Are you sure you want to remove these database(s) from Strongbox?\n\nNB: Strongbox Sync databases will be permanently deleted across all devices. */
-"ays_remove_databases_strongbox_sync_delete" = "Are you sure you want to remove these database(s) from Strongbox?\n\nNB: Strongbox Sync databases will be permanently deleted across all devices.";
+"ays_remove_databases_strongbox_sync_delete" = "Ви дійсно хочете вилучити ці бази даних зі Strongbox?\n\nПримітка: бази даних Strongbox Sync буде остаточно видалено з усіх пристроїв.";
 
 /* Are you sure you want to remove this database from Strongbox? (NB: The underlying database file will be permanently deleted) */
-"ays_remove_database_permanent_delete" = "Are you sure you want to remove this database from Strongbox? (NB: The underlying database file will be permanently deleted)";
+"ays_remove_database_permanent_delete" = "Ви дійсно хочете вилучити цю базу даних зі Strongbox? (Примітка: пов'язаний файл бази даних буде остаточно видалено)";
 
 /* Are you sure you want to remove this database from Strongbox? (NB: The underlying database file will not be deleted) */
-"ays_remove_database_underlying_not_deleted" = "Are you sure you want to remove this database from Strongbox? (NB: The underlying database file will not be deleted)";
+"ays_remove_database_underlying_not_deleted" = "Ви дійсно хочете вилучити цю базу даних зі Strongbox? (Примітка: пов'язаний файл бази даних не буде видалено)";
 
 /* Shared Database */
-"strongbox_sync_shared_database_title" = "Shared Database";
+"strongbox_sync_shared_database_title" = "Спільна база даних";
 
 /* This database is shared with you by someone else. To remove this database from your list, tap OK to manage sharing and remove yourself. */
-"strongbox_sync_shared_database_msg" = "This database is shared with you by someone else. To remove this database from your list, tap OK to manage sharing and remove yourself.";
+"strongbox_sync_shared_database_msg" = "Цією базою даних ділиться з вами хтось інший. Щоб вилучити цю базу даних зі свого списку, натисніть OK, щоб керувати спільним доступом, і вилучіть себе.";
 
 /* Database Created */
-"database_created_title" = "Database Created";
+"database_created_title" = "Базу даних створено";
 
 /* Your new database is now added and ready to be unlocked. */
-"database_created_msg" = "Your new database is now added and ready to be unlocked.";
+"database_created_msg" = "Вашу нову базу даних додано, і тепер її можна відімкнути.";
 
 /* The above options are always present. They are not indicative of any existing session. Detecting whether you have an session would require Strongbox to call into 3rd party code which we always try to minimize for security reasons. */
-"cloud_sessions_footer_text_info" = "The above options are always present. They are not indicative of any existing session. Detecting whether you have an session would require Strongbox to call into 3rd party code which we always try to minimize for security reasons.";
+"cloud_sessions_footer_text_info" = "Зазначені вище параметри доступні завжди. Вони не вказують на наявність сеансу. Щоб визначити, чи є у вас сеанс, Strongbox повинен звернутися до коду третьої сторони, що ми завжди намагаємося мінімізувати з міркувань безпеки.";
 
 /* 3rd Party Options */
-"cloud_sessions_header" = "3rd Party Options";
+"cloud_sessions_header" = "Параметри третіх сторін";
 
 /* Copy of %@ - L10n note - Used when copying an item or database, e.g. Copy of Mark's Database */
-"copy_of_fmt" = "Copy of %@";
+"copy_of_fmt" = "Копія %@";
 
 /* Storage Method Not Recommended */
-"deprecated_storage_method" = "Storage Method Not Recommended";
+"deprecated_storage_method" = "Спосіб зберігання не рекомендується";
 
 /* We cannot recommend storing your database using this method. Strongbox does not have end to end control over the sync process, and so we cannot guarantee data integrity.\n\nDo you want to continue anyway? */
-"cannot_recommend_storage_msg" = "We cannot recommend storing your database using this method. Strongbox does not have end to end control over the sync process, and so we cannot guarantee data integrity.\n\nDo you want to continue anyway?";
+"cannot_recommend_storage_msg" = "Ми не можемо рекомендувати збереження вашої бази даних з використанням цього способу. Strongbox не має наскрізного контролю над процесом синхронізації, тому ми не можемо гарантувати цілісність даних.\n\nВи все одно хочете продовжити?";
 
 /* Our native cloud sync makes your databases available across all of your devices. Sharing with others is also supported. Alternatively, store your database locally on this device only. */
-"blurb_about_strongbox_sync_native_cloud" = "Our native cloud sync makes your databases available across all of your devices. Sharing with others is also supported. Alternatively, store your database locally on this device only.";
+"blurb_about_strongbox_sync_native_cloud" = "Наша вбудована хмарна синхронізація робить ваші бази даних доступними на всіх ваших пристроях. Також підтримується спільний доступ для інших користувачів. Крім того, ви можете зберігати базу даних локально лише на цьому пристрої.";
 
 /* These method(s) are no longer advised. Your mileage may vary depending on the quality of the third party 'Files' provider, how reliable your connection is and other factors. Ultimately, Strongbox does not have full control over the sync process, and so we cannot guarantee data integrity or offer sync support. */
-"deprecated_storage_footer_text" = "These method(s) are no longer advised. Your mileage may vary depending on the quality of the third party 'Files' provider, how reliable your connection is and other factors. Ultimately, Strongbox does not have full control over the sync process, and so we cannot guarantee data integrity or offer sync support.";
+"deprecated_storage_footer_text" = "Ці способи більше не рекомендуються. Ваш пробіг може змінюватися залежно від якості послуг стороннього постачальника \"Файлів\", надійності вашого з'єднання та інших факторів. Зрештою, Strongbox не має повного контролю над процесом синхронізації, тому ми не можемо гарантувати цілісність даних або запропонувати підтримку синхронізації.";
 
 /* Built-In (Not Recommended) */
-"storage_provider_built_in_not_recommended_header" = "Built-In (Not Recommended)";
+"storage_provider_built_in_not_recommended_header" = "Вбудований (не рекомендується)";
 
 /* Shared by you - L10n note: This text indicates that a Strongbox Sync database has been shared with someone else by the user */
-"shared_by_you" = "Shared by you";
+"shared_by_you" = "Ви надали доступ";
 
 /* Shared with you - L10n note: This text indicates that a Strongbox Sync database has been shared with the user by someone else  */
-"shared_with_you" = "Shared with you";
+"shared_with_you" = "Вам надано доступ";
 
 /* Our native cloud sync makes your databases available on all of your devices. */
-"strongbox_sync_storage_description" = "Our native cloud sync makes your databases available on all of your devices.";
+"strongbox_sync_storage_description" = "Наша хмарна синхронізація робить ваші бази даних доступними на всіх ваших пристроях.";
 
 /* Store your database anywhere within your Mac file system. */
-"storage_new_mac_file_description" = "Store your database anywhere within your Mac file system.";
+"storage_new_mac_file_description" = "Зберігайте базу даних у будь-якому місці файлової системи Mac.";
 
 /* Add a database from anywhere on your Mac file system. */
-"storage_add_existing_mac_file_description" = "Add a database from anywhere on your Mac file system.";
+"storage_add_existing_mac_file_description" = "Додайте базу даних з будь-якого місця файлової системи Mac.";
 
 /* Add Database */
-"select_storage_title_add_existing" = "Add Database";
+"select_storage_title_add_existing" = "Додати базу даних";
 
 /* Import Database */
-"select_storage_title_import" = "Import Database";
+"select_storage_title_import" = "Імпортувати базу даних";
 
 /* Select '%@' - L10n Note: the first parameter is the name of an item the user can select. e.g. Select 'OneDrive'. */
-"generic_select_param_in_single_quotes_fmt" = "Select '%@'";
+"generic_select_param_in_single_quotes_fmt" = "Вибрати \"%@\"";
 
 /* New Database Setup */
-"new_database_setup" = "New Database Setup";
+"new_database_setup" = "Налаштування нової бази даних";
 
 /* Enter a nickname for your new database and the master credentials to protect it. */
-"enter_creds_and_nickname" = "Enter a nickname for your new database and the master credentials to protect it.";
+"enter_creds_and_nickname" = "Введіть псевдонім для вашої нової бази даних та основні облікові дані для її захисту.";
 
 /* Nickname already in use */
-"nickname_already_in_use" = "Nickname already in use";
+"nickname_already_in_use" = "Псевдонім вже використовується";
 
 /* Choose Storage Location */
-"choose_storage_loc" = "Choose Storage Location";
+"choose_storage_loc" = "Виберіть місце зберігання";
 
 /* Please navigate to where you would like to store your database and click 'Select'. */
-"nav_to_storage_and_select" = "Please navigate to where you would like to store your database and click 'Select'.";
+"nav_to_storage_and_select" = "Перейдіть до місця, де ви хочете зберігати базу даних, і натисніть \"Вибрати\".";
 
 /* Store your database locally only. */
-"blurb_about_native_local_only" = "Store your database locally only.";
+"blurb_about_native_local_only" = "Зберігайте базу даних лише локально.";
 
 /* Store your database anywhere within your Mac file system. */
-"storage_mac_file_description" = "Store your database anywhere within your Mac file system.";
+"storage_mac_file_description" = "Зберігайте базу даних у будь-якому місці файлової системи Mac.";
 
 /* Stay In Sync */
-"enable_notifications_onboarding_title" = "Stay In Sync";
+"enable_notifications_onboarding_title" = "Синхронізуйте дані";
 
 /* To stay current and keep your databases up to date, please allow Strongbox to use notifications. */
-"enable_notifications_onboarding_message" = "To stay current and keep your databases up to date, please allow Strongbox to use notifications.";
+"enable_notifications_onboarding_message" = "Щоб завжди мати актуальну базу даних, дозвольте Strongbox використовувати сповіщення.";
 
 /* Sounds Good, Allow */
-"enable_notifications_onboarding_sounds_good_allow" = "Sounds Good, Allow";
+"enable_notifications_onboarding_sounds_good_allow" = "Дозволити";
 
 /* Database will be permanently deleted from Strongbox Sync and all devices */
-"pins_config_vc_label_delete_database_strongbox_sync_permanent" = "Database will be permanently deleted from Strongbox Sync and all devices";
+"pins_config_vc_label_delete_database_strongbox_sync_permanent" = "Базу даних буде назавжди видалено зі Strongbox Sync і всіх пристроїв";
 
 /* Native storage either on this Mac or using Strongbox Sync. */
-"select_storage_create_mode_title" = "Native storage either on this Mac or using Strongbox Sync.";
+"select_storage_create_mode_title" = "Вбудоване сховище на цьому Mac, або за допомогою Strongbox Sync.";
 
 /* Select a database from anywhere on this Mac. */
-"select_storage_add_mode_title" = "Select a database from anywhere on this Mac.";
+"select_storage_add_mode_title" = "Виберіть базу даних будь-де на цьому Mac.";
 
 /* Native storage anywhere on this Mac. */
-"select_storage_no_networking_create_mode_title" = "Native storage anywhere on this Mac.";
+"select_storage_no_networking_create_mode_title" = "Вбудоване сховище будь-де на цьому Mac.";
 
 /* We've integrated with these popular online drives. These integrations provide superior sync than using the file system */
-"select_storage_third_party_description_macos" = "We've integrated with these popular online drives. These integrations provide superior sync than using the file system";
+"select_storage_third_party_description_macos" = "Ми інтегрували ці популярні хмарні сховища. Зазвичай вони забезпечують кращу синхронізацію, ніж використання файлової системи.";
 
 /* Are you sure you want to choose this version as the correct version going forward?\n\nRemember you can export any other version now for later merge by choosing No, and then sliding left on the other version. */
-"ays_select_icloud_conflict_version" = "Are you sure you want to choose this version as the correct version going forward?\n\nRemember you can export any other version now for later merge by choosing No, and then sliding left on the other version.";
+"ays_select_icloud_conflict_version" = "Ви дійсно хочете вибрати цю версію як правильну для подальшого використання?\n\nПам'ятайте, що ви можете експортувати будь-яку іншу версію зараз для подальшого об'єднання, вибравши \"Ні\", а потім посунувши на іншій версії.";
 
 /* System */
-"app_appearance_mode_system" = "System";
+"app_appearance_mode_system" = "Системна";
 
 /* Light */
-"app_appearance_mode_light" = "Light";
+"app_appearance_mode_light" = "Світла";
 
 /* Dark */
-"app_appearance_mode_dark" = "Dark";
+"app_appearance_mode_dark" = "Темна";
 
 /* App Appearance */
-"prefs_vc_app_appearance" = "App Appearance";
+"prefs_vc_app_appearance" = "Зовнішній вигляд програми";
 
 /* Change Filename... */
-"generic_change_filename_ellipsis_action" = "Change Filename...";
+"generic_change_filename_ellipsis_action" = "Змінити назву файлу...";
 
 /* Please enter a new filename for this database */
-"databases_manager_pls_enter_new_filename" = "Please enter a new filename for this database";
+"databases_manager_pls_enter_new_filename" = "Введіть нову назву файлу для цієї бази даних";
 
 /* Character %@ Copied - Used in large text view, it will look something like: 'Character 5 Copied', meaning the 5th character has been copied. Note, do not under any circumstances change the %@ to any other format character, it will cause a crash. */
-"character_number_n_copied_fmt" = "Character %@ Copied";
+"character_number_n_copied_fmt" = "Символ %@ скопійовано";
 
 /* Tap to add tags... */
-"item_details_tap_to_add_tags" = "Tap to add tags...";
+"item_details_tap_to_add_tags" = "Торкніться, щоб додати мітки...";
 
 /* Edit Tags */
-"tags_editor_header_edit_tags" = "Edit Tags";
+"tags_editor_header_edit_tags" = "Редагувати мітки";
 
 /* Create New Tag... */
-"tags_editor_create_new_tag_ellipsis" = "Create New Tag...";
+"tags_editor_create_new_tag_ellipsis" = "Створити нову мітку...";
 
 /* Search or Create... */
-"tags_editor_search_or_create_ellipsis" = "Search or Create...";
+"tags_editor_search_or_create_ellipsis" = "Шукати або створити...";
 
 /* Current Tags */
-"tags_editor_header_current_tags" = "Current Tags";
+"tags_editor_header_current_tags" = "Поточні мітки";
 
 /* Available Tags */
-"tags_editor_create_available_tags" = "Available Tags";
+"tags_editor_create_available_tags" = "Доступні мітки";
 
 /* No Tags Yet */
-"tags_editor_create_no_tags_yet" = "No Tags Yet";
+"tags_editor_create_no_tags_yet" = "Ще немає міток";
 
 /* Start typing in the search bar to create a new one */
-"tags_editor_create_start_typing_to_create" = "Start typing in the search bar to create a new one";
+"tags_editor_create_start_typing_to_create" = "Почніть вводити в рядку пошуку, щоб створити нову";
 
 /* Check the spelling or create a new tag */
-"tags_editor_check_spelling" = "Check the spelling or create a new tag";
+"tags_editor_check_spelling" = "Перевірте написання або створіть нову мітку";
 
 /* Create \"%@\" tag */
-"tags_editor_create_tag_fmt" = "Create \"%@\" tag";
+"tags_editor_create_tag_fmt" = "Створити мітку \"%@\"";
 
 /* No Results for \"%@\" */
-"tags_editor_no_results_for_fmt" = "No Results for \"%@\"";
+"tags_editor_no_results_for_fmt" = "Немає результатів для \"%@\"";
 
 /* Where you would like to store your newly imported database? */
-"storage_selector_where_store_new_import" = "Where you would like to store your newly imported database?";
+"storage_selector_where_store_new_import" = "Де ви хочете зберігати щойно імпортовану базу даних?";
 
 /* Where would you like to store your new database? */
 "storage_selector_where_store_new" = "Where would you like to store your new database?";
@@ -6581,3 +6581,60 @@
 
 /* None */
 "privacy_shield_none" = "None";
+
+/* Select Database to save 2FA Code */
+"select_database_to_save_2fa_code_title" = "Select Database for 2FA Code";
+
+/* Let's get your new passkey saved. How would you like to add this passkey to your database? */
+"totp_how_to_add_to_database" = "Let's get your new 2FA Code saved. How would you like to add this code to your database?";
+
+/* Overwrite Existing 2FA Code? */
+"totp_overwrite_question_title" = "Overwrite Existing 2FA Code?";
+
+/* '%@' already has a 2FA Code, do you want to overwrite it? */
+"totp_overwrite_existing_question_msg_fmt" = "'%@' already has a 2FA Code, are you sure you want to overwrite it?";
+
+/* Are you sure you want to add this 2FA Code to '%@'? - l10n note: the first parameter is the title of an existing entry in your database, like 'Amazon.com' or something. */
+"totps_are_you_sure_add_to_fmt" = "Are you sure you want to add this 2FA Code to '%@'?";
+
+/* Select entry for 2FA Code */
+"totp_select_existing_entry" = "Select entry for 2FA Code";
+
+/* New 2FA Code */
+"totp_new_passkey_title" = "New 2FA Code";
+
+/* We'll create a new entry for this 2FA Code. Choose a title and a group where you'd like to save it. */
+"totp_new_entry_text" = "We'll create a new entry for this 2FA Code. Choose a title and a group where you'd like to save it.";
+
+/* Edit In Progress */
+"generic_edit_in_progress" = "Edit In Progress";
+
+/* There is an edit in progress, please complete this before adding a 2FA Code. */
+"generic_edit_in_progress_2fa_code" = "There is an edit in progress, please complete this before adding a 2FA Code.";
+
+/* Close Current Database? */
+"close_current_db_question" = "Close Current Database?";
+
+/* You currently have a different database unlocked. Can Strongbox close that database to continue adding your 2FA Code? */
+"close_current_db_question_for_2fa" = "You currently have a different database unlocked. Can Strongbox close that database to continue adding your 2FA Code?";
+
+/* Invalid OTPAuth URL */
+"invalid_otpauth_url" = "Invalid OTPAuth URL";
+
+/* Error Adding 2FA Code */
+"error_adding_2fa_code" = "Error Adding 2FA Code";
+
+/* 2FA Code Saved */
+"2fa_code_saved" = "2FA Code Saved";
+
+/* Please select an existing entry to add your new 2FA Code */
+"totps_select_existing_entry_to_add_to_message" = "Please select an existing entry to add your new 2FA Code";
+
+/* 2FA Code Imported */
+"2fa_code_imported" = "2FA Code Imported";
+
+/* Unlock Unsuccessful - L10n Note: A recent unlock attempt was unsuccessful */
+"unlock_was_unsuccessful" = "Unlock Unsuccessful";
+
+/* Would you like to try again? */
+"generic_would_you_like_to_try_again" = "Would you like to try again?";

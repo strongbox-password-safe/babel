@@ -375,7 +375,7 @@
 "browse_vc_group_path_string_fmt" = "(в %@)";
 
 /* '%@': No 2FA setup to Copy! */
-"browse_vc_no_totp_to_copy_fmt" = "'%@: Нет установки 2FA для копирования!";
+"browse_vc_no_totp_to_copy_fmt" = "«%@»‎: Нет установлен 2FA!";
 
 /* '%@' Notes Copied  - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
 "browse_vc_notes_copied_fmt" = "Заметки «%@» скопированы";
@@ -609,10 +609,10 @@
 "item_details_setup_totp" = "Добавить код 2FA";
 
 /* Could not set 2FA because the format is unsupported. */
-"item_details_setup_totp_failed_message" = "Не удалось установить код 2FA, поскольку формат не поддерживается.";
+"item_details_setup_totp_failed_message" = "Не удалось установить код 2FA, т.к. формат не поддерживается.";
 
 /* Failed to Set 2FA */
-"item_details_setup_totp_failed_title" = "Не удалось установить код 2FA";
+"item_details_setup_totp_failed_title" = "Ошибка при добавлении кода 2FA";
 
 /* You can setup 2FA Code by using a QR Code, or manually by entering the secret or an OTPAuth URL */
 "item_details_setup_totp_how_message" = "Вы можете установить код 2FA с помощью QR-кода или вручную, введя секрет или URL адрес OTPAuth.";
@@ -903,7 +903,7 @@
 "notes_cell_textview_accessibility_label" = "Текстовое поле примечаний";
 
 /* No 2FA Setup */
-"totp_cell_no_totp_has_been_setup" = "Нет настройки 2FA";
+"totp_cell_no_totp_has_been_setup" = "Не установлен 2FA";
 
 /*  Text Field */
 "generic_kv_cell_value_text_accessibility label_fmt" = "Текстовое поле";
@@ -2930,7 +2930,7 @@
 "audit_quick_summary_pwned" = "Пароль скомпрометирован";
 
 /* Weak/Entropy */
-"audit_quick_summary_very_brief_low_entropy" = "Слабый/Низкая энтропия";
+"audit_quick_summary_very_brief_low_entropy" = "Слабые / Низкая энтропия";
 
 /* 2FA Available - L10n - please keep this as short as possible, "2FA" will probably suffice. The meaning of this string is that Strongbox has discovered the 2 Factor Authentication is available for this entry given it's URL/Domain, but that the user does not have a 2 Factor Code (2FA) setup within Strongbox */
 "audit_quick_summary_very_brief_two_factor_available" = "2FA доступна";
@@ -2948,7 +2948,7 @@
 "quick_view_title_all_entries_subtitle" = "Список всех записей";
 
 /* Audit Issues */
-"quick_view_title_audit_issues_title" = "Проблемы аудита";
+"quick_view_title_audit_issues_title" = "Результаты аудита";
 
 /* View all entries with audit issues */
 "quick_view_title_audit_issues_subtitle" = "Просмотр записей с проблемами аудита";
@@ -2963,28 +2963,28 @@
 "quick_view_section_title_quick_views" = "Быстрый доступ";
 
 /* Enhanced Audits (Pro Edition Only) */
-"audit_similar_passwords_pro_only_title" = "Похожие пароли (Pro версия)";
+"audit_similar_passwords_pro_only_title" = "Схожие пароли (Pro версия)";
 
 /* Audit Issues (%ld) - Translators note: format param is number of items with audit issues e.g. 5 */
-"quick_view_title_audit_issues_title_fmt" = "Проблемы аудита (%ld)";
+"quick_view_title_audit_issues_title_fmt" = "Результаты аудита (%ld)";
 
 /* No Password - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
 "audit_quick_summary_very_brief_no_password_set" = "Без пароля";
 
 /* Weak/Common - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
-"audit_quick_summary_very_brief_very_common_password" = "Распространённый";
+"audit_quick_summary_very_brief_very_common_password" = "Распространённые";
 
 /* Duplicated - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
-"audit_quick_summary_very_brief_duplicated_password" = "Повторяющийся";
+"audit_quick_summary_very_brief_duplicated_password" = "Повторяющиеся";
 
 /* Similar - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
-"audit_quick_summary_very_brief_password_is_similar_to_another" = "Схожий";
+"audit_quick_summary_very_brief_password_is_similar_to_another" = "Схожие";
 
 /* Short - Translators note: This should be very very short or abbreviated - It appears in the Browse screen with limited room beside the Audit badge */
-"audit_quick_summary_very_brief_password_is_too_short" = "Короткий";
+"audit_quick_summary_very_brief_password_is_too_short" = "Очень короткие";
 
 /* Pwned */
-"audit_quick_summary_very_brief_password_is_pwned" = "Взломан";
+"audit_quick_summary_very_brief_password_is_pwned" = "Уязвимые";
 
 /* Password is too short. */
 "audit_quick_summary_password_is_too_short" = "Пароль слишком короткий";
@@ -3131,7 +3131,7 @@
 "audit_drill_down_section_header_duplicates" = "Записи с одинаковым паролем";
 
 /* Similar Passwords */
-"audit_drill_down_section_header_similar" = "Записи со схожим паролем";
+"audit_drill_down_section_header_similar" = "Записи со схожими паролями";
 
 /* Actions */
 "audit_drill_down_section_header_actions" = "Действия";
@@ -3155,7 +3155,7 @@
 "audit_drill_down_section_footer_similar" = "Указанные выше элементы используют схожий пароль с этой записью. Они могут стать уязвимыми для атаки.";
 
 /* Audit this Item */
-"audit_drill_down_audit_this_item_preference_title" = "Проверка элемента";
+"audit_drill_down_audit_this_item_preference_title" = "Проверка записи";
 
 /* Check if this password is Pwned (HIBP) */
 "audit_drill_down_action_check_hibp" = "Have I Been Pwned?";
@@ -3182,7 +3182,7 @@
 "audit_drill_down_go_to_database_audit_preferences" = "Аудит БД";
 
 /* View All Audit Issues */
-"audit_drill_down_view_all_audit_issues" = "Проблемы аудита";
+"audit_drill_down_view_all_audit_issues" = "Результаты аудита";
 
 /* No Excluded Items */
 "audit_drill_down_no_excluded_items_title" = "Записей не найдено";
@@ -4059,7 +4059,7 @@
 "autofill_info_totp_copied_title" = "2FA скопирован";
 
 /* Your 2FA Code has been copied to the clipboard. */
-"autofill_info_totp_copied_message" = "Ваш код 2FA был скопирован в буфер обмена.";
+"autofill_info_totp_copied_message" = "Код 2FA был скопирован в буфер обмена.";
 
 /* Convenience Auto Unlock */
 "prefs_vc_autofill_convenience_auto_unlock" = "Авторазблокировка";
@@ -4621,7 +4621,7 @@
 "import_successful_message" = "Импорт выполнен успешно. Теперь необходимо установить мастер-пароль и сохранить Вашу новую БД.";
 
 /* Are you sure you want to clear the 2FA Code for this entry? */
-"are_you_sure_clear_totp" = "Вы хотите удалить 2FA код для этой записи?";
+"are_you_sure_clear_totp" = "Вы хотите удалить код 2FA для этой записи?";
 
 /* Date Created (Precise) */
 "databases_preferences_subtitle_field_name_create_date_precise" = "Дата создания";
@@ -4754,7 +4754,7 @@
 "are_you_sure_delete_custom_field_s" = "Вы хотите удалить выбранные поля?";
 
 /* Found 2FA Code in '%@' Window - Localization Note: The parameter here is an App name like "Firefox" or "Safari" */
-"found_totp_code_in_x_window_fmt" = "Найден код 2FA в окне %@";
+"found_totp_code_in_x_window_fmt" = "Найден код 2FA в %@";
 
 /* Randomly Generated */
 "menu_item_header_randomly_generated_suggestions" = "Случайные пароли";
@@ -4916,7 +4916,7 @@
 "remove_tag_from_items" = "Удалить тег";
 
 /* All Issues */
-"audit_side_bar_nav_all_issues" = "Проблемы аудита";
+"audit_side_bar_nav_all_issues" = "Результаты аудита";
 
 /* There are some blank characters (e.g. spaces, tabs) at the start or end of your password.\n\nShould Strongbox tidy up these extraneous characters? */
 "field_tidy_message_tidy_up_password" = "Обнаружены пустые символы (пробел, табуляция) в начале или конце пароля.\n\nХотите удалить их?";
@@ -5321,7 +5321,7 @@
 "safes_vc_import_icloud" = "Связка ключей iCloud";
 
 /* Disabling Auto-Commit could mean you lose this 2FA Code if you forget to commit later, are you sure? */
-"are_you_sure_auto_commit_totp_msg" = "Отключение автоподтверждения может привести к потере этого кода 2FA, если вы забудете зафиксировать его позже. Вы уверены?";
+"are_you_sure_auto_commit_totp_msg" = "Отключение автоподтверждения может привести к потере этого кода 2FA, если Вы забудете зафиксировать его позже. Продолжить?";
 
 /* Close - A generic verb - to Close a popup or dialog */
 "generic_verb_close" = "Закрыть";
@@ -5384,7 +5384,7 @@
 "mac_create_or_edit_commit_changes" = "Подтвердить (⌘S)";
 
 /* Hierarchy (%@ Groups, %@ Entries) - L10n Note - The two parameters are numeric, so for example: "23 Groups, 3456 Entries"*/
-"side_bar_hierarchy_folder_structure_summary_count_fmt" = "Группы (%@ Groups, %@ Entries)";
+"side_bar_hierarchy_folder_structure_summary_count_fmt" = "Группы (%@ групп, %@ записей)";
 
 /* Entries */
 "side_bar_child_count_format_entries" = "Записи";
@@ -6379,7 +6379,7 @@
 "delete_triple_confirm_code_word" = "удалить";
 
 /* Please enter the word '%@' below to confirm. */
-"delete_triple_confirm_message_fmt" = "Пожалуйста, введите слово %@ ниже для подтверждения.";
+"delete_triple_confirm_message_fmt" = "Введите слово «%@» ниже для подтверждения.";
 
 /* Configure Click Action */
 "configure_click_action" = "Настройка действия при нажатии";
@@ -6388,7 +6388,7 @@
 "show_this_menu" = "Показать это меню";
 
 /* No results found. Some databases are locked. */
-"no_results_found_some_locked" = "Результаты не найдены. Некоторые базы данных заблокированы.";
+"no_results_found_some_locked" = "Результаты не найдены. Некоторые БД заблокированы.";
 
 /* Navigation */
 "generic_noun_navigation" = "Обзор";
@@ -6396,19 +6396,19 @@
 /* Quick Tags */
 "home_quick_tags_section_header" = "Часто используемые";
 
-"audit_view_section_footer_no_password" = "Записи без паролей";
+"audit_view_section_footer_no_password" = "Записи без паролей.";
 
-"audit_view_section_footer_duplicate" = "Это записи с одинаковыми паролями.";
+"audit_view_section_footer_duplicate" = "Записи с одинаковыми паролями.";
 
-"audit_view_section_footer_common" = "Записи с распространенными паролями.";
+"audit_view_section_footer_common" = "Записи с распространёнными паролями.";
 
-"audit_view_section_footer_similar" = "Записи с похожими паролями.";
+"audit_view_section_footer_similar" = "Записи со схожими, но не идентичными паролями.";
 
 "audit_view_section_footer_short" = "Записи с паролями очень короткой длины.";
 
-"audit_view_section_footer_hibp" = "Записи, пароли которых появлялись в  утечках, обнаруженных с использованием сервиса HIBP.";
+"audit_view_section_footer_hibp" = "Записи, пароли которых появлялись в утечках, обнаруженных с использованием сервиса HIBP.";
 
-"audit_view_section_footer_entropy" = "Записи, где сложность пароля ниже определенного порога.";
+"audit_view_section_footer_entropy" = "Записи, где сложность пароля ниже определённого порога.";
 
 "audit_view_section_footer_2fa" = "Записи, которые отмечены как доступные с 2FA, но без существующего набора кодов 2FA.";
 
@@ -6424,10 +6424,10 @@
 "entry_expired_on_date_subtitle_fmt" = "Срок действия истёк: %@";
 
 /* Expires %@ */
-"entry_expires_on_date_subtitle_fmt" = "Срок действия: %@";
+"entry_expires_on_date_subtitle_fmt" = "Срок действия истекает: %@";
 
 /* Other Items with Expiry Dates */
-"section_header_other_items_with_expiry_dates" = "Элементы с датами истечения";
+"section_header_other_items_with_expiry_dates" = "Другие записи с датами истечения";
 
 /* Home */
 "navigation_tab_home" = "Главная";
@@ -6483,7 +6483,7 @@
 "select_storage_locate_db_for_local_copy" = "Нажмите, чтобы найти БД и сделать локальную копию.";
 
 /* Your database was successfully imported. Note that you can now remove the original source file from the device should you wish. */
-"database_local_copy_done_info_msg" = "Ваша БД успешно импортирована. Обратите внимание, что теперь вы можете удалить исходный файл с устройства.";
+"database_local_copy_done_info_msg" = "БД успешно импортирована. (*) Теперь Вы можете удалить исходный файл с устройства.";
 
 
 /* %@ [Slot %@ CR Unavailable] - L10n Guide: A hardware key is present/inserted in the device, but but the Challenge Response functionality is not available, probably by error or user mistake. The first parameter is device serial number and the second is the number "1" or "2". */
@@ -6505,13 +6505,13 @@
 "ays_delete_virtual_hardware_key_fmt" = "Вы хотите удалить виртуальный аппаратный ключ «%@»?";
 
 /* Enter a friendly name and the HMAC-SHA1 challenge response secret to create a new virtual hardware key. */
-"virtual_hardware_key_welcome_msg" = "Введите имя и секрет ответа на вызов HMAC-SHA1, чтобы создать новый виртуальный аппаратный ключ.";
+"virtual_hardware_key_welcome_msg" = "Введите имя и секрет ответа на вызов HMAC-SHA1, чтобы создать виртуальный аппаратный ключ.";
 
 /* Name - L10n Note: A noun, the name of something, e.g. the database name "Mark's Database" */
 "generic_name" = "Название";
 
 /* My Backup Key - L10n note: A sample placeholder name for a virtual hardware key. */
-"sample_vkey_name_my_backup_key" = "Резервный Ключ";
+"sample_vkey_name_my_backup_key" = "Резервный ключ";
 
 /* Secret - L10n Note: This relates to virtual hardware keys which have associated secrets, a long string of hex digits used to encrypt the database. The secret is something the user knows and programs their hardware key with. */
 "vkey_secret" = "Секрет";
@@ -6523,22 +6523,22 @@
 "experimental_feature_warning_title" = "Экспериментальная функция";
 
 /* Caution is required using this feature. While we have performed extensive testing this is still an early release feature which could corrupt your database. You should only use this if you are an advanced and technical user with a regular backup system in place.\n\nThank you for helping to test Strongbox. Feedback welcome.\n\nDo you want to continue? */
-"experimental_feature_warning_message_yes_no" = "При использовании этой функции следует соблюдать осторожность. Хотя мы провели обширное тестирование, функция  находится в ранней версии и может повредить вашу БД. Вы должны использовать её только в том случае, если вы опытный технический пользователь с регулярной системой резервного копирования.\n\nБлагодарим вас за помощь в тестировании Strongbox. Отзывы приветствуются.\n\nХотите продолжить?";
+"experimental_feature_warning_message_yes_no" = "Внимание! Функция находится в стадии теста и может повредить БД. Используйте её только в том случае, если Вы регулярно создаёте резервные копии.\n\nБлагодарим вас за помощь в тестировании Strongbox. Отзывы приветствуются.\n\nХотите продолжить?";
 
 
 
 
 /* Hardware Key Caching - L10n - A convenience feature to make using YubiKeys easier */
-"feature_hardware_key_caching" = "Аппаратное кэширование ключей";
+"feature_hardware_key_caching" = "Кэш аппаратных ключей";
 
 /* Using a hardware key is a great security choice but it can be a little inconvenient.\n\nWould you like to enable our caching feature?\n\nWith this enabled Strongbox will do things like remember the last challenge response for a period of time. This means you don't need to use your key so often.\n\nFull configuration is available in settings. For more details see online. */
-"hardware_key_caching_onboarding_msg" = "Использование аппаратного ключа - отличный выбор для обеспечения безопасности, но это может быть немного неудобно.\n\nПри включении этой функции Strongbox будет запоминать последний ответ на вызов в течение определённого времени. Полная конфигурация доступна в настройках. Более подробную информацию можно найти в Интернете.\n\nХотите включить функцию кэширования?\n";
+"hardware_key_caching_onboarding_msg" = "Использование аппаратного ключа - отличный выбор для обеспечения безопасности.\n\nПри включении этой функции Strongbox будет запоминать последний ответ на вызов в течение определённого времени. Полная конфигурация доступна в настройках. Более подробную информацию можно найти в Интернете.\n\nХотите включить функцию кэширования?";
 
 /* Hardware Key - L10n Note: A physical hardware key such as a YubiKey or one of Strongboxs "Virtual Hardware Keys" which is a software emulation of the YubiKey */
 "generic_hardware_key" = "Аппаратный ключ";
 
 /* On Every Save - L10n Note: This is a parameter for how often the YubiKey challenge should be refreshed. This means it is refreshed every time the user saves */
-"interval_on_every_save" = "При сохранении";
+"interval_on_every_save" = "При каждом сохранении";
 
 /* Forever */
 "generic_duration_forever" = "Всегда";
@@ -6547,7 +6547,7 @@
 "until_app_termination" = "До завершения приложения";
 
 /* Response Caching */
-"setting_response_caching_title" = "Кэширование ответов";
+"setting_response_caching_title" = "Кэширование ответа";
 
 /* Cache Response For - L10n note: Usually followed by a period of time or duration, e.g. "Cache Response For 2 Hours" */
 "setting_cache_response_for_period_of_time" = "Кэшировать ответ";
@@ -6556,7 +6556,7 @@
 "refresh_challenge_interval" = "Интервал обновления";
 
 /* AutoFill Refresh Suppressed */
-"autofill_refresh_challenge_suppressed" = "Отключить обновление автозаполнения";
+"autofill_refresh_challenge_suppressed" = "Не обновлять автозаполнение";
 
 /* Hardware Key Settings */
 "nav_title_hardware_key_settings" = "Настройки аппаратного ключа";
@@ -6571,13 +6571,70 @@
 "challenge_refreshing_header" = "Обновление вызова";
 
 /* Typically Strongbox refreshes the challenge on each save. Any time the challenge is refreshed your hardware key is required to generate a response to the fresh challenge. You can reduce the frequency of this refreshing meaning you can also save without requiring your hardware key (so long as caching is also enabled). */
-"challenge_refreshing_footer" = "Обычно Strongbox обновляет вызов при каждом сохранении. Каждый раз, когда вызов обновляется, аппаратный ключ должен сгенерировать ответ на новый вызов. Вы можете изменить частоту этого процесса обновления.";
+"challenge_refreshing_footer" = "Обычно вызов обновляется при каждом сохранении. При этом аппаратный ключ должен сгенерировать ответ на новый вызов. Вы можете изменить частоту процесса обновления.";
 
 /* Empty */
-"generic_empty" = "Empty";
+"generic_empty" = "Пусто";
 
 /* Without */
-"generic_without" = "Without";
+"generic_without" = "Без";
 
 /* None */
-"privacy_shield_none" = "None";
+"privacy_shield_none" = "Отсутствует";
+
+/* Select Database to save 2FA Code */
+"select_database_to_save_2fa_code_title" = "Выбор БД для сохранения кода";
+
+/* Let's get your new passkey saved. How would you like to add this passkey to your database? */
+"totp_how_to_add_to_database" = "Давайте сохраним новый код. Как Вы хотите добавить его в свою БД?";
+
+/* Overwrite Existing 2FA Code? */
+"totp_overwrite_question_title" = "Перезапись кода";
+
+/* '%@' already has a 2FA Code, do you want to overwrite it? */
+"totp_overwrite_existing_question_msg_fmt" = "«‎%@» уже имеет код 2FA. Хотите его перезаписать?";
+
+/* Are you sure you want to add this 2FA Code to '%@'? - l10n note: the first parameter is the title of an existing entry in your database, like 'Amazon.com' or something. */
+"totps_are_you_sure_add_to_fmt" = "Вы хотите добавить код 2FA в «%@»?";
+
+/* Select entry for 2FA Code */
+"totp_select_existing_entry" = "Выберите запись для кода 2FA";
+
+/* New 2FA Code */
+"totp_new_passkey_title" = "Новый код 2FA";
+
+/* We'll create a new entry for this 2FA Code. Choose a title and a group where you'd like to save it. */
+"totp_new_entry_text" = "Мы создадим новую запись для этого кода. Выберите название и группу, в которой хотите его сохранить.";
+
+/* Edit In Progress */
+"generic_edit_in_progress" = "Выполняется редактирование ...";
+
+/* There is an edit in progress, please complete this before adding a 2FA Code. */
+"generic_edit_in_progress_2fa_code" = "Идёт редактирование. Пожалуйста, завершите его перед добавлением кода.";
+
+/* Close Current Database? */
+"close_current_db_question" = "Закрыть текущую БД?";
+
+/* You currently have a different database unlocked. Can Strongbox close that database to continue adding your 2FA Code? */
+"close_current_db_question_for_2fa" = "Сейчас разблокирована другая БД. Хотите её закрыть, чтобы продолжить добавление кода 2FA?";
+
+/* Invalid OTPAuth URL */
+"invalid_otpauth_url" = "Неверный URL адрес OTPAuth";
+
+/* Error Adding 2FA Code */
+"error_adding_2fa_code" = "Ошибка при добавлении кода";
+
+/* 2FA Code Saved */
+"2fa_code_saved" = "Код 2FA сохранён";
+
+/* Please select an existing entry to add your new 2FA Code */
+"totps_select_existing_entry_to_add_to_message" = "Выберите существующую запись для добавления нового кода";
+
+/* 2FA Code Imported */
+"2fa_code_imported" = "Код 2FA успешно импортирован";
+
+/* Unlock Unsuccessful - L10n Note: A recent unlock attempt was unsuccessful */
+"unlock_was_unsuccessful" = "Неудачная разблокировка";
+
+/* Would you like to try again? */
+"generic_would_you_like_to_try_again" = "Хотите попробовать ещё раз?";
