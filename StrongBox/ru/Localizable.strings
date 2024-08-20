@@ -375,7 +375,7 @@
 "browse_vc_group_path_string_fmt" = "(в %@)";
 
 /* '%@': No 2FA setup to Copy! */
-"browse_vc_no_totp_to_copy_fmt" = "«%@»‎: Нет установлен 2FA!";
+"browse_vc_no_totp_to_copy_fmt" = "«%@»‎: Нет установлена 2FA";
 
 /* '%@' Notes Copied  - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
 "browse_vc_notes_copied_fmt" = "Заметки «%@» скопированы";
@@ -606,19 +606,19 @@
 "item_details_section_header_metadata" = "Метаданные";
 
 /* Setup 2FA Code... */
-"item_details_setup_totp" = "Добавить код 2FA";
+"item_details_setup_totp" = "Добавить 2FA";
 
 /* Could not set 2FA because the format is unsupported. */
-"item_details_setup_totp_failed_message" = "Не удалось установить код 2FA, т.к. формат не поддерживается.";
+"item_details_setup_totp_failed_message" = "Не удалось установить 2FA, т.к. формат не поддерживается.";
 
 /* Failed to Set 2FA */
-"item_details_setup_totp_failed_title" = "Ошибка при добавлении кода 2FA";
+"item_details_setup_totp_failed_title" = "Ошибка при добавлении 2FA";
 
 /* You can setup 2FA Code by using a QR Code, or manually by entering the secret or an OTPAuth URL */
-"item_details_setup_totp_how_message" = "Вы можете установить код 2FA с помощью QR-кода или вручную, введя секрет или URL адрес OTPAuth.";
+"item_details_setup_totp_how_message" = "Вы можете установить 2FA с помощью QR-кода или вручную, введя секрет или URL адрес OTPAuth.";
 
 /* How would you like to setup 2FA? */
-"item_details_setup_totp_how_title" = "Код 2FA";
+"item_details_setup_totp_how_title" = "Настройка 2FA";
 
 /* Manual (Standard/RFC 6238)... */
 "item_details_setup_totp_manual_rfc" = "Вручную (RFC 6238)";
@@ -903,7 +903,7 @@
 "notes_cell_textview_accessibility_label" = "Текстовое поле примечаний";
 
 /* No 2FA Setup */
-"totp_cell_no_totp_has_been_setup" = "Не установлен 2FA";
+"totp_cell_no_totp_has_been_setup" = "Не установлена 2FA";
 
 /*  Text Field */
 "generic_kv_cell_value_text_accessibility label_fmt" = "Текстовое поле";
@@ -2957,7 +2957,7 @@
 "quick_view_title_totp_entries_title" = "Коды 2FA";
 
 /* View all entries with a 2FA Code */
-"quick_view_title_totp_entries_subtitle" = "Все записи с кодом 2FA";
+"quick_view_title_totp_entries_subtitle" = "Все записи с 2FA";
 
 /* Quick Views */
 "quick_view_section_title_quick_views" = "Быстрый доступ";
@@ -4056,10 +4056,10 @@
 "sync_log_status_done" = "Готово ✅";
 
 /* 2FA Copied */
-"autofill_info_totp_copied_title" = "2FA скопирован";
+"autofill_info_totp_copied_title" = "Код 2FA скопирован";
 
 /* Your 2FA Code has been copied to the clipboard. */
-"autofill_info_totp_copied_message" = "Код 2FA был скопирован в буфер обмена.";
+"autofill_info_totp_copied_message" = "Код 2FA скопирован в буфер обмена.";
 
 /* Convenience Auto Unlock */
 "prefs_vc_autofill_convenience_auto_unlock" = "Авторазблокировка";
@@ -4621,7 +4621,7 @@
 "import_successful_message" = "Импорт выполнен успешно. Теперь необходимо установить мастер-пароль и сохранить Вашу новую БД.";
 
 /* Are you sure you want to clear the 2FA Code for this entry? */
-"are_you_sure_clear_totp" = "Вы хотите удалить код 2FA для этой записи?";
+"are_you_sure_clear_totp" = "Вы хотите удалить 2FA для этой записи?";
 
 /* Date Created (Precise) */
 "databases_preferences_subtitle_field_name_create_date_precise" = "Дата создания";
@@ -5321,7 +5321,7 @@
 "safes_vc_import_icloud" = "Связка ключей iCloud";
 
 /* Disabling Auto-Commit could mean you lose this 2FA Code if you forget to commit later, are you sure? */
-"are_you_sure_auto_commit_totp_msg" = "Отключение автоподтверждения может привести к потере этого кода 2FA, если Вы забудете зафиксировать его позже. Продолжить?";
+"are_you_sure_auto_commit_totp_msg" = "Отключение автоподтверждения может привести к потере кода 2FA, если Вы забудете подтвердить его позже. Продолжить?";
 
 /* Close - A generic verb - to Close a popup or dialog */
 "generic_verb_close" = "Закрыть";
@@ -6127,7 +6127,7 @@
 "blurb_about_strongbox_sync_native_cloud" = "Нативная облачная синхронизация делает БД доступными на всех устройствах.";
 
 /* These method(s) are no longer advised. Your mileage may vary depending on the quality of the third party 'Files' provider, how reliable your connection is and other factors. Ultimately, Strongbox does not have full control over the sync process, and so we cannot guarantee data integrity or offer sync support. */
-"deprecated_storage_footer_text" = "Не рекомендуется, т.к. Strongbox не может полностью контролировать процесс синхронизации и гарантировать целостность данных.";
+"deprecated_storage_footer_text" = "Не рекомендуется, т.к. нет полного контроля процесса синхронизации и гарантии целостности данных.";
 
 /* Built-In (Not Recommended) */
 "storage_provider_built_in_not_recommended_header" = "Встроенные";
@@ -6410,7 +6410,7 @@
 
 "audit_view_section_footer_entropy" = "Записи, где сложность пароля ниже определённого порога.";
 
-"audit_view_section_footer_2fa" = "Записи, которые отмечены как доступные с 2FA, но без существующего набора кодов 2FA.";
+"audit_view_section_footer_2fa" = "Записи, которые отмечены как доступные с 2FA, но без существующего набора кодов.";
 
 "anonymous_group_number_fmt" = "Группа #%@";
 
@@ -6583,7 +6583,7 @@
 "privacy_shield_none" = "Отсутствует";
 
 /* Select Database to save 2FA Code */
-"select_database_to_save_2fa_code_title" = "Выбор БД для сохранения кода";
+"select_database_to_save_2fa_code_title" = "Выбор БД для сохранения";
 
 /* Let's get your new passkey saved. How would you like to add this passkey to your database? */
 "totp_how_to_add_to_database" = "Давайте сохраним новый код. Как Вы хотите добавить его в свою БД?";
@@ -6598,7 +6598,7 @@
 "totps_are_you_sure_add_to_fmt" = "Вы хотите добавить код 2FA в «%@»?";
 
 /* Select entry for 2FA Code */
-"totp_select_existing_entry" = "Выберите запись для кода 2FA";
+"totp_select_existing_entry" = "Выберите существующую запись";
 
 /* New 2FA Code */
 "totp_new_passkey_title" = "Новый код 2FA";
@@ -6610,7 +6610,7 @@
 "generic_edit_in_progress" = "Выполняется редактирование ...";
 
 /* There is an edit in progress, please complete this before adding a 2FA Code. */
-"generic_edit_in_progress_2fa_code" = "Идёт редактирование. Пожалуйста, завершите его перед добавлением кода.";
+"generic_edit_in_progress_2fa_code" = "Идёт редактирование. Пожалуйста, завершите его перед добавлением кода 2FA.";
 
 /* Close Current Database? */
 "close_current_db_question" = "Закрыть текущую БД?";
@@ -6622,13 +6622,13 @@
 "invalid_otpauth_url" = "Неверный URL адрес OTPAuth";
 
 /* Error Adding 2FA Code */
-"error_adding_2fa_code" = "Ошибка при добавлении кода";
+"error_adding_2fa_code" = "Ошибка при добавлении 2FA";
 
 /* 2FA Code Saved */
 "2fa_code_saved" = "Код 2FA сохранён";
 
 /* Please select an existing entry to add your new 2FA Code */
-"totps_select_existing_entry_to_add_to_message" = "Выберите существующую запись для добавления нового кода";
+"totps_select_existing_entry_to_add_to_message" = "Пожалуйста, выберите запись для добавления кода 2FA";
 
 /* 2FA Code Imported */
 "2fa_code_imported" = "Код 2FA успешно импортирован";
