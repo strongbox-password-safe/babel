@@ -6505,7 +6505,7 @@
 "ays_delete_virtual_hardware_key_fmt" = "Are you sure you would like to delete the virtual hardware key '%@'?";
 
 /* Enter a friendly name and the HMAC-SHA1 challenge response secret to create a new virtual hardware key. */
-"virtual_hardware_key_welcome_msg" = "Enter a friendly name and the HMAC-SHA1 challenge response secret to create a new virtual hardware key.";
+"virtual_hardware_key_welcome_msg" = "Entrez un nom convivial et le secret de réponse à la demande d'authentification HMAC-SHA1 pour créer une nouvelle clé matérielle virtuelle.";
 
 /* Name - L10n Note: A noun, the name of something, e.g. the database name "Mark's Database" */
 "generic_name" = "Name";
@@ -6520,7 +6520,7 @@
 "vkey_secret_description" = "This is the secret you programmed your hardware key with. You should store it safely offline in case of device loss. Strongbox will store it safely in the secure enclave.";
 
 /* Experimental Feature */
-"experimental_feature_warning_title" = "Experimental Feature";
+"experimental_feature_warning_title" = "Fonctionalité expérimentale";
 
 /* Caution is required using this feature. While we have performed extensive testing this is still an early release feature which could corrupt your database. You should only use this if you are an advanced and technical user with a regular backup system in place.\n\nThank you for helping to test Strongbox. Feedback welcome.\n\nDo you want to continue? */
 "experimental_feature_warning_message_yes_no" = "Caution is required using this feature. While we have performed extensive testing this is still an early release feature which could corrupt your database. You should only use this if you are an advanced and technical user with a regular backup system in place.\n\nThank you for helping to test Strongbox. Feedback welcome.\n\nDo you want to continue?";
@@ -6529,10 +6529,10 @@
 
 
 /* Hardware Key Caching - L10n - A convenience feature to make using YubiKeys easier */
-"feature_hardware_key_caching" = "Hardware Key Caching";
+"feature_hardware_key_caching" = "Mise en cache des clés matérielles";
 
 /* Using a hardware key is a great security choice but it can be a little inconvenient.\n\nWould you like to enable our caching feature?\n\nWith this enabled Strongbox will do things like remember the last challenge response for a period of time. This means you don't need to use your key so often.\n\nFull configuration is available in settings. For more details see online. */
-"hardware_key_caching_onboarding_msg" = "Using a hardware key is a great security choice but it can be a little inconvenient.\n\nWould you like to enable our caching feature?\n\nWith this enabled Strongbox will do things like remember the last challenge response for a period of time. This means you don't need to use your key so often.\n\nFull configuration is available in settings. For more details see online.";
+"hardware_key_caching_onboarding_msg" = "Utiliser une clé matérielle est un excellent choix de sécurité, mais cela peut être un peu contraignant.\n\nSouhaitez-vous activer notre fonctionnalité de mise en cache ?\n\nAvec cette option activée, Strongbox se souviendra de la dernière réponse à la demande d'authentification pendant un certain temps. Cela signifie que vous n'aurez pas besoin d'utiliser votre clé aussi souvent.\n\nLa configuration complète est disponible dans les paramètres. Pour plus de détails, consultez notre site en ligne.";
 
 /* Hardware Key - L10n Note: A physical hardware key such as a YubiKey or one of Strongboxs "Virtual Hardware Keys" which is a software emulation of the YubiKey */
 "generic_hardware_key" = "Hardware Key";
@@ -6574,13 +6574,13 @@
 "challenge_refreshing_footer" = "Typically Strongbox refreshes the challenge on each save. Any time the challenge is refreshed your hardware key is required to generate a response to the fresh challenge. You can change the frequency of this refresh process. This means you can save without requiring your hardware key (as long as caching is also enabled).";
 
 /* Empty */
-"generic_empty" = "Empty";
+"generic_empty" = "Vide";
 
 /* Without */
-"generic_without" = "Without";
+"generic_without" = "Sans";
 
 /* None */
-"privacy_shield_none" = "None";
+"privacy_shield_none" = "Aucun";
 
 /* Select Database to save 2FA Code */
 "select_database_to_save_2fa_code_title" = "Select Database for 2FA Code";
@@ -6652,16 +6652,16 @@
 "generic_none_available" = "None Available";
 
 /* Duplicate Item */
-"duplicate_item_title" = "Duplicate Item";
+"duplicate_item_title" = "Dupliquer l'élément";
 
 /* Reference Password */
-"duplicate_item_option_reference_password" = "Reference Password";
+"duplicate_item_option_reference_password" = "Mot de passe de référence";
 
 /* Reference Username */
-"duplicate_item_option_reference_username" = "Reference Username";
+"duplicate_item_option_reference_username" = "Nom d'utilisateur de référence";
 
 /* Preserve Timestamps */
-"duplicate_item_option_reference_timestamp" = "Preserve Timestamps";
+"duplicate_item_option_reference_timestamp" = "Préserver les horodatages";
 
 /* Edit after Duplication */
-"duplicate_item_option_reference_edit_afterwards" = "Edit after Duplication";
+"duplicate_item_option_reference_edit_afterwards" = "Modifier après duplication";
