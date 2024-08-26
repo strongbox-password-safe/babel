@@ -4615,7 +4615,7 @@
 "import_failed_message" = "Strongbox n'a pas pu importer ce fichier. Veuillez vérifier qu'il est dans le format correct.";
 
 /* Import Successful */
-"import_successful_title" = "Import Successful";
+"import_successful_title" = "Importation réussie";
 
 /* Your import was successful! Now, let's set a strong master password and save your new Strongbox database. */
 "import_successful_message" = "Votre importation a réussi! Maintenant, définissons un mot de passe maître fort et enregistrons votre nouvelle base de données Strongbox.";
@@ -6454,76 +6454,76 @@
 "generic_visible" = "Visible";
 
 /* Enter password or unlock with Touch ID/Watch. */
-"mac_lock_screen_enter_pw_or_touchid_or_watch" = "Enter password or unlock with Touch ID/Watch.";
+"mac_lock_screen_enter_pw_or_touchid_or_watch" = "Saisir le mot de passe ou déverrouiller avec Touch ID/Watch.";
 
 /* Enter password or unlock with Touch ID. */
-"mac_lock_screen_enter_pw_or_touchid" = "Enter password or unlock with Touch ID.";
+"mac_lock_screen_enter_pw_or_touchid" = "Saisir le mot de passe ou déverrouiller avec Touch ID.";
 
 /* Enter password or unlock with Watch. */
-"mac_lock_screen_enter_pw_or_watch" = "Enter password or unlock with Watch.";
+"mac_lock_screen_enter_pw_or_watch" = "Saisir le mot de passe ou déverrouiller avec Watch.";
 
 /* Enter password to unlock. */
-"mac_lock_screen_enter_pw" = "Enter password to unlock.";
+"mac_lock_screen_enter_pw" = "Saisir le mot de passe pour déverrouiller.";
 
 /* Reveal or Conceal (⌘R to Toggle) */
-"secure_text_field_conceal_reveal_tooltip" = "Reveal or Conceal (⌘R to Toggle)";
+"secure_text_field_conceal_reveal_tooltip" = "Afficher ou masquer (⌘R pour basculer)";
 
 /* Audit Disabled */
-"audit_disabled" = "Audit Disabled";
+"audit_disabled" = "Audit désactivé";
 
 /* Tap the Settings button to enable. */
-"generic_tap_the_settings_button_to_configure" = "Tap the Settings button to configure.";
+"generic_tap_the_settings_button_to_configure" = "Appuyez sur le bouton Réglages pour configurer.";
 
 /* Auditing... */
-"generic_verb_auditing_in_progress_ellipsis" = "Auditing...";
+"generic_verb_auditing_in_progress_ellipsis" = "Audit en cours...";
 
 /* These method(s) are no longer advised. Strongbox does not have full control over the read, write and locate functions and so we cannot guarantee data integrity. However, typically, locally stored on-device files accessed in this way are not problematic.\n\nNB: Strongbox does not have any knowledge of where files selected in this way are located. */
-"deprecated_storage_footer_text_no_network_db" = "These method(s) are no longer advised. Strongbox does not have full control over the read, write and locate functions and so we cannot guarantee data integrity. However, typically, locally stored on-device files accessed in this way are not problematic.\n\nNB: Strongbox does not have any knowledge of where files selected in this way are located.";
+"deprecated_storage_footer_text_no_network_db" = "Ces méthodes ne sont plus conseillées. Strongbox n'a pas un contrôle total sur les fonctions de lecture, d'écriture et de localisation, nous ne pouvons donc pas garantir l'intégrité des données. Cependant, généralement, les fichiers stockés localement sur l'appareil et consultés de cette manière ne posent pas de problème.\n\nNB : Strongbox n'a aucune connaissance de l'emplacement réel des fichiers sélectionnés de cette manière.";
 /* Tap to locate your database and make a local copy.\n\nNB: There are a many ways to import your database, including File Sharing via USB, AirDrop, or copying your database into the Strongbox folder. */
-"select_storage_locate_db_for_local_copy" = "Tap to locate your database and make a local copy.\n\nNB: There are a many ways to import your database, including File Sharing via USB, AirDrop, or copying your database into the Strongbox folder.";
+"select_storage_locate_db_for_local_copy" = "Appuyez pour localiser votre base de données et en faire une copie locale.\n\nNB : Il existe de nombreuses façons d'importer votre base de données, y compris le partage de fichiers via USB, AirDrop, ou en copiant votre base de données dans le répertoire Strongbox.";
 
 /* Your database was successfully imported. Note that you can now remove the original source file from the device should you wish. */
-"database_local_copy_done_info_msg" = "Your database was successfully imported. Note that you can now remove the original source file from the device should you wish.";
+"database_local_copy_done_info_msg" = "Votre base de données a été importée avec succès. Notez que vous pouvez maintenant supprimer de l'appareil le fichier source d'origine si vous le souhaitez.";
 
 
 /* %@ [Slot %@ CR Unavailable] - L10n Guide: A hardware key is present/inserted in the device, but but the Challenge Response functionality is not available, probably by error or user mistake. The first parameter is device serial number and the second is the number "1" or "2". */
-"mac_hardware_key_key_connected_but_cr_unavailable" = "%@ [Slot %@ CR Unavailable]";
+"mac_hardware_key_key_connected_but_cr_unavailable" = "%@ [Emplacement %@ CR non disponible]";
 
 /* New Virtual Hardware Key... */
-"new_virtual_hardware_key_ellipsis" = "New Virtual Hardware Key...";
+"new_virtual_hardware_key_ellipsis" = "Nouvelle clé matérielle virtuelle...";
 
 /* New Virtual Hardware Key */
-"new_virtual_hardware_key" = "New Virtual Hardware Key";
+"new_virtual_hardware_key" = "Nouvelle clé matérielle virtuelle";
 
 /* No Connected Keys Detected */
-"no_connected_keys_detected" = "No Connected Keys Detected";
+"no_connected_keys_detected" = "Aucune clé connectée détectée";
 
 /* Virtual Hardware Keys */
-"virtual_hardware_keys" = "Virtual Hardware Keys";
+"virtual_hardware_keys" = "Clés matérielles virtuelles";
 
 /* Are you sure you would like to delete the virtual hardware key '%@'? - L10n note: 1st param is the name of the key, something like "My YubiKey Backup Key" */
-"ays_delete_virtual_hardware_key_fmt" = "Are you sure you would like to delete the virtual hardware key '%@'?";
+"ays_delete_virtual_hardware_key_fmt" = "Êtes-vous sûr(e) de vouloir supprimer la clé matérielle virtuelle '%@' ?";
 
 /* Enter a friendly name and the HMAC-SHA1 challenge response secret to create a new virtual hardware key. */
 "virtual_hardware_key_welcome_msg" = "Entrez un nom convivial et le secret de réponse à la demande d'authentification HMAC-SHA1 pour créer une nouvelle clé matérielle virtuelle.";
 
 /* Name - L10n Note: A noun, the name of something, e.g. the database name "Mark's Database" */
-"generic_name" = "Name";
+"generic_name" = "Nom";
 
 /* My Backup Key - L10n note: A sample placeholder name for a virtual hardware key. */
-"sample_vkey_name_my_backup_key" = "My Backup Key";
+"sample_vkey_name_my_backup_key" = "Ma clé de secours";
 
 /* Secret - L10n Note: This relates to virtual hardware keys which have associated secrets, a long string of hex digits used to encrypt the database. The secret is something the user knows and programs their hardware key with. */
 "vkey_secret" = "Secret";
 
 /* This is the secret you programmed your hardware key with. You should store it safely offline in case of device loss. Strongbox will store it safely in the secure enclave. */
-"vkey_secret_description" = "This is the secret you programmed your hardware key with. You should store it safely offline in case of device loss. Strongbox will store it safely in the secure enclave.";
+"vkey_secret_description" = "C'est le secret avec lequel vous avez programmé votre clé matérielle. Vous devriez le stocker hors ligne en sécurité en cas de perte de l'appareil. Strongbox le conservera de manière sécurisée dans le Secure Enclave.";
 
 /* Experimental Feature */
 "experimental_feature_warning_title" = "Fonctionalité expérimentale";
 
 /* Caution is required using this feature. While we have performed extensive testing this is still an early release feature which could corrupt your database. You should only use this if you are an advanced and technical user with a regular backup system in place.\n\nThank you for helping to test Strongbox. Feedback welcome.\n\nDo you want to continue? */
-"experimental_feature_warning_message_yes_no" = "Caution is required using this feature. While we have performed extensive testing this is still an early release feature which could corrupt your database. You should only use this if you are an advanced and technical user with a regular backup system in place.\n\nThank you for helping to test Strongbox. Feedback welcome.\n\nDo you want to continue?";
+"experimental_feature_warning_message_yes_no" = "Prudence lors de l'utilisation de cette fonction. Bien que nous ayons effectués des tests approfondis, il s'agit encore d'une version préliminaire qui pourrait corrompre votre base de données. Vous ne devez l'utiliser que si vous êtes un utilisateur avancé et technique disposant d'un système de sauvegarde régulier.\n\nMerci de nous avoir aidés à tester Strongbox. Vos commentaires sont les bienvenus.\n\nVoulez-vous continuer ?";
 
 
 
@@ -6535,43 +6535,43 @@
 "hardware_key_caching_onboarding_msg" = "Utiliser une clé matérielle est un excellent choix de sécurité, mais cela peut être un peu contraignant.\n\nSouhaitez-vous activer notre fonctionnalité de mise en cache ?\n\nAvec cette option activée, Strongbox se souviendra de la dernière réponse à la demande d'authentification pendant un certain temps. Cela signifie que vous n'aurez pas besoin d'utiliser votre clé aussi souvent.\n\nLa configuration complète est disponible dans les paramètres. Pour plus de détails, consultez notre site en ligne.";
 
 /* Hardware Key - L10n Note: A physical hardware key such as a YubiKey or one of Strongboxs "Virtual Hardware Keys" which is a software emulation of the YubiKey */
-"generic_hardware_key" = "Hardware Key";
+"generic_hardware_key" = "Clé matérielle";
 
 /* On Every Save - L10n Note: This is a parameter for how often the YubiKey challenge should be refreshed. This means it is refreshed every time the user saves */
-"interval_on_every_save" = "On Every Save";
+"interval_on_every_save" = "À chaque sauvegarde";
 
 /* Forever */
-"generic_duration_forever" = "Forever";
+"generic_duration_forever" = "Définitivement";
 
 /* until App Termination - L10n Note: This is how long Strongbox will store/cache something, it will remember this until the App terminates completely, not just an app switch but a full quit. */
-"until_app_termination" = "until App Termination";
+"until_app_termination" = "jusqu'à la fermeture de l'application";
 
 /* Response Caching */
-"setting_response_caching_title" = "Response Caching";
+"setting_response_caching_title" = "Mise en cache des réponses";
 
 /* Cache Response For - L10n note: Usually followed by a period of time or duration, e.g. "Cache Response For 2 Hours" */
-"setting_cache_response_for_period_of_time" = "Cache Response For";
+"setting_cache_response_for_period_of_time" = "Mettre en cache la réponse pour";
 
 /* Refresh Challenge Interval - L10n Note: usual followed by a period of time, e.g. Refresh Challenge Interval: 2 Hours */
-"refresh_challenge_interval" = "Refresh Challenge Interval";
+"refresh_challenge_interval" = "Intervalle de renouvellement de la demande d'authentification";
 
 /* AutoFill Refresh Suppressed */
-"autofill_refresh_challenge_suppressed" = "AutoFill Refresh Suppressed";
+"autofill_refresh_challenge_suppressed" = "Rafraîchissement automatique supprimé";
 
 /* Hardware Key Settings */
-"nav_title_hardware_key_settings" = "Hardware Key Settings";
+"nav_title_hardware_key_settings" = "Paramètres le la clé matérielle";
 
 /* Challenge Response Caching */
-"challenge_response_caching_header" = "Challenge Response Caching";
+"challenge_response_caching_header" = "Mise en cache de l'authentification";
 
 /* Strongbox can remember the correct response for a particular challenge for a period of time. This means it can respond to a challenge instead of requiring you to use your hardware key all of the time. */
-"challenge_response_caching_footer" = "Strongbox can remember the correct response for a particular challenge for a period of time. This means it can respond to a challenge instead of requiring you to use your hardware key all of the time.";
+"challenge_response_caching_footer" = "Strongbox peut se souvenir de la réponse à l'authentification pendant un certain temps. Cela signifie qu'il peut s'authentifier au lieu de vous demander d'utiliser votre clé matérielle en permanence.";
 
 /* Challenge Refreshing */
-"challenge_refreshing_header" = "Challenge Refreshing";
+"challenge_refreshing_header" = "Rafraîchissement de l'authentification";
 
 /* Typically Strongbox refreshes the challenge on each save. Any time the challenge is refreshed your hardware key is required to generate a response to the fresh challenge. You can reduce the frequency of this refreshing meaning you can also save without requiring your hardware key (so long as caching is also enabled). */
-"challenge_refreshing_footer" = "Typically Strongbox refreshes the challenge on each save. Any time the challenge is refreshed your hardware key is required to generate a response to the fresh challenge. You can change the frequency of this refresh process. This means you can save without requiring your hardware key (as long as caching is also enabled).";
+"challenge_refreshing_footer" = "En général, Strongbox rafraîchit l'authentification à chaque sauvegarde. Chaque fois que l'authentification est actualisée, votre clé matérielle est nécessaire pour générer une nouvelle authentification. Vous pouvez modifier la fréquence de ce processus de rafraîchissement. Cela signifie que vous pouvez sauvegarder sans avoir besoin de votre clé matérielle (à condition que la mise en cache soit également activée).";
 
 /* Empty */
 "generic_empty" = "Vide";
@@ -6583,73 +6583,73 @@
 "privacy_shield_none" = "Aucun";
 
 /* Select Database to save 2FA Code */
-"select_database_to_save_2fa_code_title" = "Select Database for 2FA Code";
+"select_database_to_save_2fa_code_title" = "Sélectionnez la base de données pour le code 2FA";
 
 /* Let's get your new passkey saved. How would you like to add this passkey to your database? */
-"totp_how_to_add_to_database" = "Let's get your new 2FA Code saved. How would you like to add this code to your database?";
+"totp_how_to_add_to_database" = "Enregistrez votre nouveau code 2FA. Comment souhaitez-vous ajouter ce code à votre base de données ?";
 
 /* Overwrite Existing 2FA Code? */
-"totp_overwrite_question_title" = "Overwrite Existing 2FA Code?";
+"totp_overwrite_question_title" = "Remplacer le code 2FA existant ?";
 
 /* '%@' already has a 2FA Code, do you want to overwrite it? */
-"totp_overwrite_existing_question_msg_fmt" = "'%@' already has a 2FA Code, are you sure you want to overwrite it?";
+"totp_overwrite_existing_question_msg_fmt" = "'%@' a déjà un code 2FA, êtes-vous sûr de vouloir l'écraser ?";
 
 /* Are you sure you want to add this 2FA Code to '%@'? - l10n note: the first parameter is the title of an existing entry in your database, like 'Amazon.com' or something. */
-"totps_are_you_sure_add_to_fmt" = "Are you sure you want to add this 2FA Code to '%@'?";
+"totps_are_you_sure_add_to_fmt" = "Êtes-vous sûr de vouloir ajouter ce code 2FA à '%@' ?";
 
 /* Select entry for 2FA Code */
-"totp_select_existing_entry" = "Select entry for 2FA Code";
+"totp_select_existing_entry" = "Sélectionner l'entrée pour le code 2FA";
 
 /* New 2FA Code */
-"totp_new_passkey_title" = "New 2FA Code";
+"totp_new_passkey_title" = "Nouveau code 2FA";
 
 /* We'll create a new entry for this 2FA Code. Choose a title and a group where you'd like to save it. */
-"totp_new_entry_text" = "We'll create a new entry for this 2FA Code. Choose a title and a group where you'd like to save it.";
+"totp_new_entry_text" = "Nous allons créer une nouvelle entrée pour ce code 2FA. Choisissez un titre et un groupe dans lequel vous souhaitez l'enregistrer.";
 
 /* Edit In Progress */
-"generic_edit_in_progress" = "Edit In Progress";
+"generic_edit_in_progress" = "Édition en cours";
 
 /* There is an edit in progress, please complete this before adding a 2FA Code. */
-"generic_edit_in_progress_2fa_code" = "There is an edit in progress, please complete this before adding a 2FA Code.";
+"generic_edit_in_progress_2fa_code" = "Une modification est en cours, veuillez la compléter avant d'ajouter un code 2FA.";
 
 /* Close Current Database? */
-"close_current_db_question" = "Close Current Database?";
+"close_current_db_question" = "Fermer la base de données actuelle ?";
 
 /* You currently have a different database unlocked. Can Strongbox close that database to continue adding your 2FA Code? */
-"close_current_db_question_for_2fa" = "You currently have a different database unlocked. Can Strongbox close that database to continue adding your 2FA Code?";
+"close_current_db_question_for_2fa" = "Vous avez actuellement une autre base de données déverrouillée. Strongbox peut-il fermer cette base de données pour continuer à ajouter votre code 2FA ?";
 
 /* Invalid OTPAuth URL */
-"invalid_otpauth_url" = "Invalid OTPAuth URL";
+"invalid_otpauth_url" = "URL OTPAuth invalide";
 
 /* Error Adding 2FA Code */
-"error_adding_2fa_code" = "Error Adding 2FA Code";
+"error_adding_2fa_code" = "Erreur lors de l'ajout du code 2FA";
 
 /* 2FA Code Saved */
-"2fa_code_saved" = "2FA Code Saved";
+"2fa_code_saved" = "Code 2FA enregistré";
 
 /* Please select an existing entry to add your new 2FA Code */
-"totps_select_existing_entry_to_add_to_message" = "Please select an existing entry to add your new 2FA Code";
+"totps_select_existing_entry_to_add_to_message" = "Veuillez sélectionner une entrée existante pour ajouter votre nouveau code 2FA";
 
 /* 2FA Code Imported */
-"2fa_code_imported" = "2FA Code Imported";
+"2fa_code_imported" = "Code 2FA importé";
 
 /* Unlock Unsuccessful - L10n Note: A recent unlock attempt was unsuccessful */
-"unlock_was_unsuccessful" = "Unlock Unsuccessful";
+"unlock_was_unsuccessful" = "Échec du Déverrouillage";
 
 /* Would you like to try again? */
-"generic_would_you_like_to_try_again" = "Would you like to try again?";
+"generic_would_you_like_to_try_again" = "Voulez-vous réessayer ?";
 
 /* Add to Existing or Create New */
-"add_to_entry_or_create_new" = "Add to Existing or Create New";
+"add_to_entry_or_create_new" = "Ajouter à l'existant ou créer un nouveau";
 
 /* Create New... */
-"generic_create_new_ellipsis" = "Create New...";
+"generic_create_new_ellipsis" = "Créer une nouvelle...";
 
 /* Add to '%@' - L10n note: the 1st parameter is the title of an item. So for example, when adding a 2FA Code to an entry we would have "Add to 'Amazon (UK)'" */
-"add_something_to_item_title_fmt" = "Add to '%@'";
+"add_something_to_item_title_fmt" = "Ajouter à '%@'";
 
 /* None Available - L10n Note: Meaning no items were found or are available for use. e.g. If there are no virtual hardware keys created or setup by the user, we display "None Available" in the dropdown menu. */
-"generic_none_available" = "None Available";
+"generic_none_available" = "Aucun disponible";
 
 /* Duplicate Item */
 "duplicate_item_title" = "Dupliquer l'élément";
