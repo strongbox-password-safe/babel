@@ -642,7 +642,7 @@
 "item_details_title_copied" = "Название скопировано";
 
 /* One Time Password Copied */
-"item_details_totp_copied" = "Одноразовый пароль скопирован";
+"item_details_totp_copied" = "Разовый пароль скопирован";
 
 /* Are you sure you want to discard all your changes? */
 "item_details_vc_are_you_sure_discard_changes" = "Вы хотите отменить внесённые изменения?";
@@ -786,10 +786,10 @@
 "sspc_manual_import_placeholder_url" = "URL";
 
 /* Select where your existing database is stored */
-"sspc_select_where_existing_stored" = "Укажите хранилище имеющейся БД";
+"sspc_select_where_existing_stored" = "Укажите расположение имеющейся БД";
 
 /* Select where you would like to store your new database */
-"sspc_select_where_store_new" = "Укажите хранилище новой БД";
+"sspc_select_where_store_new" = "Укажите расположение новой БД";
 
 /* 3 Months */
 "upgrade_vc_2monthly_subscription_title" = "3 месяца";
@@ -873,7 +873,7 @@
 "databases_preferences_select_top_right_field" = "Поле справа";
 
 /* Database Storage */
-"databases_preferences_subtitle_field_name_database_storage" = "Хранилище БД";
+"databases_preferences_subtitle_field_name_database_storage" = "Расположение";
 
 /* Filename */
 "databases_preferences_subtitle_field_name_filename" = "Имя файла";
@@ -1024,7 +1024,7 @@
 "key_files_vc_one_time_key_file_source_title" = "Выбор расположения";
 
 /* Select where you would like to choose your Key File from. This file will not be stored locally or remembered. */
-"key_files_vc_one_time_key_file_source_message" = "Выберите расположение одноразового файл-ключа. Файл не будет сохранён локально.";
+"key_files_vc_one_time_key_file_source_message" = "Выберите расположение разового файл-ключа. Он не будет сохранён локально.";
 
 /* Files... */
 "key_files_vc_one_time_key_file_source_option_files" = "Файлы";
@@ -1809,10 +1809,10 @@
 "backups_vc_set_max_keep_count_title" = "Число копий";
 
 /* You cannot use convenience unlock with a one time key file. */
-"config_error_one_time_key_file_convenience_message" = "Невозможно использовать быструю разблокировку с одноразовым файл-ключом.";
+"config_error_one_time_key_file_convenience_message" = "Невозможно использовать быструю разблокировку с разовым файл-ключом.";
 
 /* One Time Key File Problem */
-"config_error_one_time_key_file_convenience_title" = "Проблема с одноразовым файл-ключом";
+"config_error_one_time_key_file_convenience_title" = "Проблема с файл-ключом";
 
 /* Could not write backup, will not proceed with write of database! */
 "model_error_cannot_write_backup" = "Не удалось создать резервную копию. Изменения не будут сохранены в БД.";
@@ -5836,7 +5836,7 @@
 "select_storage_header_built_in" = "Встроенные";
 
 /* One Time Copy Options */
-"select_storage_header_one_time_copy" = "Одноразовое копирование";
+"select_storage_header_one_time_copy" = "Разовое копирование";
 
 /* Third Party Integrations */
 "select_storage_header_third_party" = "Сторонние сервисы";
@@ -5989,7 +5989,7 @@
 "new_key_file_step1_title" = "1. Печать листа восстановления";
 
 /* We recommend you print a recovery sheet now. Alternatively, you can view the hex codes and take note of them somewhere safe. */
-"new_key_file_step1_message" = "Мы рекомендуем распечатать лист восстановления. Также, Вы можете просмотреть Hex коды.";
+"new_key_file_step1_message" = "Распечатайте лист восстановления. Также, Вы можете просмотреть Hex коды.";
 
 /* Hash */
 "key_file_hash_title" = "Хеш";
@@ -6025,7 +6025,7 @@
 "kfm_recover_key_file_ellipsis" = "Восстановить";
 
 /* Single Use (No Import) */
-"kfm_single_use_key_file_ellipsis" = "Одноразовое использование";
+"kfm_single_use_key_file_ellipsis" = "Разовый файл-ключ";
 
 /* Key File Saved */
 "kfm_key_file_saved_title" = "Файл-ключ";
@@ -6121,7 +6121,7 @@
 "deprecated_storage_method" = "Способ хранения не рекомендуется";
 
 /* We cannot recommend storing your database using this method. Strongbox does not have end to end control over the sync process, and so we cannot guarantee data integrity.\n\nDo you want to continue anyway? */
-"cannot_recommend_storage_msg" = "Мы не рекомендуем хранить БД таким способом. Strongbox не имеет сквозного контроля над процессом синхронизации, поэтому мы не можем гарантировать целостность данных.\n\nХотите продолжить?";
+"cannot_recommend_storage_msg" = "Не рекомендуется хранить БД таким способом. Приложение не имеет сквозного контроля над процессом синхронизации, поэтому целостность данных не гарантируется.\n\nХотите продолжить?";
 
 /* Our native cloud sync makes your databases available across all of your devices. Sharing with others is also supported. Alternatively, store your database locally on this device only. */
 "blurb_about_strongbox_sync_native_cloud" = "Нативная облачная синхронизация делает БД доступными на всех устройствах.";
@@ -6172,10 +6172,10 @@
 "nav_to_storage_and_select" = "Выберите расположение, где вы хотите сохранить свою БД, и нажмите \"Выбрать\".";
 
 /* Store your database locally only. */
-"blurb_about_native_local_only" = "Локальное хранилище.";
+"blurb_about_native_local_only" = "Локально";
 
 /* Store your database anywhere within your Mac file system. */
-"storage_mac_file_description" = "Локальное хранилище.";
+"storage_mac_file_description" = "Локально в любом месте";
 
 /* Stay In Sync */
 "enable_notifications_onboarding_title" = "Уведомления";
@@ -6478,7 +6478,7 @@
 "generic_verb_auditing_in_progress_ellipsis" = "Аудит ...";
 
 /* These method(s) are no longer advised. Strongbox does not have full control over the read, write and locate functions and so we cannot guarantee data integrity. However, typically, locally stored on-device files accessed in this way are not problematic.\n\nNB: Strongbox does not have any knowledge of where files selected in this way are located. */
-"deprecated_storage_footer_text_no_network_db" = "Эти методы больше не рекомендуются. Strongbox не имеет полного контроля над функциями чтения, записи и определения местоположения, поэтому мы не можем гарантировать целостность данных. Как правило, доступ к локально хранящимся на устройстве файлам не вызывает проблем.";
+"deprecated_storage_footer_text_no_network_db" = "Эти методы больше не рекомендуются. Приложение не имеет полного контроля над функциями чтения, записи и определения местоположения, поэтому целостность данных не гарантируется. Обычно доступ к локальным файлам не вызывает проблем.";
 /* Tap to locate your database and make a local copy.\n\nNB: There are a many ways to import your database, including File Sharing via USB, AirDrop, or copying your database into the Strongbox folder. */
 "select_storage_locate_db_for_local_copy" = "Нажмите, чтобы найти БД и сделать локальную копию.";
 
@@ -6673,7 +6673,7 @@
 "app_privacy_shield_mode_black_screen" = "Чёрный экран";
 
 /* Dark Logo */
-"app_privacy_shield_mode_dark_logo" = "Тёмный логотип";
+"app_privacy_shield_mode_dark_logo" = "Лого на тёмном";
 
 /* Red Screen */
 "app_privacy_shield_mode_red_screen" = "Красный экран";
@@ -6682,7 +6682,7 @@
 "app_privacy_shield_mode_green_screen" = "Зелёный экран";
 
 /* Light Logo */
-"app_privacy_shield_mode_blue_light_logo" = "Светлый логотип";
+"app_privacy_shield_mode_blue_light_logo" = "Лого на светлом";
 
 /* White Screen */
 "app_privacy_shield_mode_white_screen" = "Белый экран";
