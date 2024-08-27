@@ -11,13 +11,13 @@
 "5lx-Hb-JRj.text" = "Senhas Comuns";
 
 /* Class = "UITableViewSection"; footerTitle = "This check detects exact duplicate passwords. This check is completely offline (no network access required)"; ObjectID = "7y7-Rh-Wx2"; */
-"7y7-Rh-Wx2.footerTitle" = "Esta verificação detecta senhas idênticas. Esta verificação é completamente offline (nenhum acesso à internet é necessário)";
+"7y7-Rh-Wx2.footerTitle" = "Esta verificação detecta senhas idênticas. Esta verificação é completamente offline (não é necessário nenhum acesso à rede)";
 
 /* Class = "UITableViewSection"; headerTitle = "Duplicates"; ObjectID = "7y7-Rh-Wx2"; */
-"7y7-Rh-Wx2.headerTitle" = "Duplicatas";
+"7y7-Rh-Wx2.headerTitle" = "Duplicadas";
 
 /* Class = "UITableViewSection"; footerTitle = "This check finds any password below a certain length. This check is completely offline (no network access required)"; ObjectID = "BYJ-Xt-Ybf"; */
-"BYJ-Xt-Ybf.footerTitle" = "Esta verificação encontra qualquer senha menor do que determinado tamanho. Esta verificação é completamente offline (nenhum acesso à internet é necessário)";
+"BYJ-Xt-Ybf.footerTitle" = "Essa verificação encontra qualquer senha abaixo de um determinado tamanho. Essa verificação é totalmente offline (não é necessário nenhum acesso à rede)";
 
 /* Class = "UITableViewSection"; headerTitle = "Minimum Length"; ObjectID = "BYJ-Xt-Ybf"; */
 "BYJ-Xt-Ybf.headerTitle" = "Tamanho Mínimo";
@@ -65,7 +65,7 @@
 "RdE-eX-RFC.text" = "Senhas Vazias";
 
 /* Class = "UILabel"; text = "Case Insensitive"; ObjectID = "SYj-Hd-U3m"; */
-"SYj-Hd-U3m.text" = "Não Diferenciar Letras Maiúsculas e Minúsculas";
+"SYj-Hd-U3m.text" = "Ignorar Maiúsculas e Minúsculas";
 
 /* Class = "UILabel"; text = "Check 'Have I Been Pwned?'"; ObjectID = "XtZ-t1-tEw"; */
 "XtZ-t1-tEw.text" = "Consultar 'Have I Been Pwned?'";
@@ -86,7 +86,7 @@
 "cZE-NH-6Gv.text" = "Senhas De Baixa Entropia";
 
 /* Class = "UITableViewSection"; footerTitle = "This is an online service that can check your passwords against known compromised passwords from hacker forums and 'pastes'. Compromised password hashes are securely cached by Strongbox to display audit warnings and reduce network traffic.\n\nCaveat: Your passwords are hashed (SHA1) and then using a system called k-anonymization, a short 5-byte prefix is sent to HIBP servers to check if compromised. You may or may not be comfortable with this. Use at your own discretion. You can read more about this system at https://haveibeenpwned.com"; ObjectID = "dPk-gM-4bf"; */
-"dPk-gM-4bf.footerTitle" = "Este é um serviço online que pode verificar se suas senhas estão entre senhas comprometidas disponíveis em fóruns hackers e outras fontes. Identificadores de senhas comprometidas são armazenados de maneira segura pelo Strongbox a fim de exibir alertas e reduzir o tráfego de rede.\n\nNota: Suas senhas são resumidas (algoritmo SHA1) e então, usando um sistema conhecido como K-Anonymization, um prefixo de 5 bytes é enviado para o HIBP para verificar se a senha foi comprometida. Você pode não se sentir confortável com isso. Use de acordo com seus próprios critérios. Você pode ler mais a respeito deste sistema em https://haveibeenpwned.com";
+"dPk-gM-4bf.footerTitle" = "Este é um serviço online que pode verificar se suas senhas estão entre senhas comprometidas disponíveis em fóruns hackers e outras fontes. Identificadores de senhas comprometidas são armazenados de maneira segura pelo Strongbox a fim de exibir alertas e reduzir o tráfego de rede.\n\nNota: Suas senhas são transformadas em algoritmo (SHA1) e então, usando um sistema conhecido como K-Anonymization, um prefixo de 5 bytes é enviado para o HIBP para verificar se a senha foi comprometida. Você pode não se sentir confortável com isso. Use de acordo com seus próprios critérios. Você pode ler mais a respeito deste sistema em https://haveibeenpwned.com";
 
 /* Class = "UITableViewSection"; headerTitle = "Have I Been Pwned?"; ObjectID = "dPk-gM-4bf"; */
 "dPk-gM-4bf.headerTitle" = "Have I Been Pwned?";
@@ -119,7 +119,7 @@
 "r4c-ff-uct.text" = "Foram encontrados 12 problemas em 8 registros";
 
 /* Class = "UITableViewSection"; footerTitle = "This check detects passwords that could be regarded as weak, because they do not contain enough complexity. This makes them vulnerable to brute force cracking techniques. This check is completely offline (no network access required)"; ObjectID = "s3w-oN-7UW"; */
-"s3w-oN-7UW.footerTitle" = "Detecta senhas que podem ser consideradas fracas porque não são complexas o suficiente. Isso as torna vulneráveis a ataques de força bruta. Essa verificação é completamente offline (nenhum acesso à internet é necessário)";
+"s3w-oN-7UW.footerTitle" = "Detecta senhas que podem ser consideradas fracas porque não são complexas o suficiente. Isso as tornam vulneráveis a ataques de força bruta. Essa verificação é completamente offline (não é necessário nenhum acesso à rede)";
 
 /* Class = "UITableViewSection"; headerTitle = "Weak (Low Entropy)"; ObjectID = "s3w-oN-7UW"; */
 "s3w-oN-7UW.headerTitle" = "Fraca (Baixa Entropia)";
@@ -128,7 +128,7 @@
 "skO-2d-vMa.text" = "Tamanho Mínimo";
 
 /* Class = "UITableViewSection"; footerTitle = "This check detects minor differences between passwords e.g. 'password5' and 'password2'. You can change the similarity threshold too, lower values will find less similar passwords. This check is completely offline (no network access required)"; ObjectID = "tLb-J8-0ij"; */
-"tLb-J8-0ij.footerTitle" = "Esta verificação detecta pequenas diferenças entre senhas, por exemplo entre 'senha5' e 'senha2'. Você pode alterar a margem de semelhança também, valores mais baixos vão detectar senhas pouco parecidas. Esta verificação é feita completamente offline (nenhuma conexão com a internet é necessária)";
+"tLb-J8-0ij.footerTitle" = "Esta verificação detecta pequenas diferenças entre senhas, por exemplo entre 'senha5' e 'senha2'. Você pode alterar a margem de semelhança também, valores mais baixos vão detectar senhas pouco parecidas. Esta verificação é feita completamente offline (não é necessário nenhum acesso à rede)";
 
 /* Class = "UITableViewSection"; headerTitle = "Similar Passwords"; ObjectID = "tLb-J8-0ij"; */
 "tLb-J8-0ij.headerTitle" = "Senhas Semelhantes";
