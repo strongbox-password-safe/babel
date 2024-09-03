@@ -89,7 +89,7 @@
 "safes_vc_add_another" = "Добавить другую";
 
 /* Error title - error selecting storage location */
-"safes_vc_error_selecting_storage_location" = "Ошибка при выборе расположения";
+"safes_vc_error_selecting_storage_location" = "Ошибка при выборе места";
 
 /* Error title: error adding database */
 "safes_vc_error_adding_database" = "Ошибка при добавлении";
@@ -213,7 +213,7 @@
 "safesvc_import_database_prompt_title_edit_copy" = "Импорт файла";
 
 /* Strongbox can attempt to edit this document in its current location and keep a reference or, if you'd prefer, Strongbox can just make a copy of this file for itself.\n\nWhich option would you like? */
-"safesvc_import_database_prompt_message" = "Хотите открыть файл в текущем расположении и сохранить ссылку или, если Вам будет удобнее, создать его копию в приложении?\n\nВыберите действие ниже.";
+"safesvc_import_database_prompt_message" = "Хотите открыть файл в текущем месте и сохранить ссылку или, если Вам будет удобнее, создать его копию в приложении?\n\nВыберите действие ниже.";
 
 /* Edit in Place */
 "safesvc_option_edit_in_place" = "Открыть";
@@ -756,7 +756,7 @@
 "sbtvc_select_database_file" = "Выберите файл БД";
 
 /* Select Folder For New Database */
-"sbtvc_select_new_database_location" = "Выбор расположения для новой БД";
+"sbtvc_select_new_database_location" = "Выбор места для новой БД";
 
 /* Copy from URL... */
 "sspc_copy_from_url_action" = "URL ссылка";
@@ -786,10 +786,10 @@
 "sspc_manual_import_placeholder_url" = "URL";
 
 /* Select where your existing database is stored */
-"sspc_select_where_existing_stored" = "Укажите расположение имеющейся БД";
+"sspc_select_where_existing_stored" = "Укажите место имеющейся БД";
 
 /* Select where you would like to store your new database */
-"sspc_select_where_store_new" = "Укажите расположение новой БД";
+"sspc_select_where_store_new" = "Укажите место новой БД";
 
 /* 3 Months */
 "upgrade_vc_2monthly_subscription_title" = "3 месяца";
@@ -873,7 +873,7 @@
 "databases_preferences_select_top_right_field" = "Поле справа";
 
 /* Database Storage */
-"databases_preferences_subtitle_field_name_database_storage" = "Расположение";
+"databases_preferences_subtitle_field_name_database_storage" = "Место";
 
 /* Filename */
 "databases_preferences_subtitle_field_name_filename" = "Имя файла";
@@ -1021,10 +1021,10 @@
 "key_files_vc_empty_key_files_title" = "Файл-ключи не найдены.";
 
 /* One Time Key File Source */
-"key_files_vc_one_time_key_file_source_title" = "Выбор расположения";
+"key_files_vc_one_time_key_file_source_title" = "Выбор места";
 
 /* Select where you would like to choose your Key File from. This file will not be stored locally or remembered. */
-"key_files_vc_one_time_key_file_source_message" = "Выберите расположение разового файл-ключа. Он не будет сохранён локально.";
+"key_files_vc_one_time_key_file_source_message" = "Выберите место разового файл-ключа. Он не будет сохранён локально.";
 
 /* Files... */
 "key_files_vc_one_time_key_file_source_option_files" = "Файлы";
@@ -3104,7 +3104,7 @@
 "item_details_metadata_accessed_field_title" = "Последнее обращение";
 
 /* Location Changed */
-"item_details_metadata_location_changed_field_title" = "Расположение изменено";
+"item_details_metadata_location_changed_field_title" = "Место изменено";
 
 /* Usage Count */
 "item_details_metadata_usage_count_field_title" = "Счётчик обращений";
@@ -3347,10 +3347,10 @@
 "open_sequence_database_different_filename_message" = "Имя файла отличается от того, который Вы изначально добавили. Хотите продолжить?";
 
 /* Relocate Database */
-"open_sequence_storage_provider_try_relocate_files_db" = "Выбор расположения";
+"open_sequence_storage_provider_try_relocate_files_db" = "Выбор места";
 
 /* Strongbox is having trouble locating your database. This can happen sometimes especially after iOS updates or with some 3rd party providers (e.g.Nextcloud).\n\nYou now need to tell Strongbox where to locate it. Alternatively you can open Strongbox's local copy and fix this later.\n\nFor Nextcloud please use WebDAV instead... */
-"open_sequence_storage_provider_try_relocate_files_db_message" = "Ошибка при открытии БД. Такое возможно после обновления iOS или при работе с некоторыми провайдерами (напр., Nextcloud).\n\nВам необходимо указать расположение, где хранится база данных. Можно также открыть локальную копию и устранить ошибку позже.\n\n(*) Для Nextcloud используйте WebDAV";
+"open_sequence_storage_provider_try_relocate_files_db_message" = "Ошибка при открытии БД. Такое возможно после обновления iOS или при работе с некоторыми провайдерами (напр., Nextcloud).\n\nВам необходимо указать место, где хранится БД. Также можно открыть локальную копию и устранить ошибку позже.\n\n(*) Для Nextcloud используйте WebDAV";
 
 /* View Error Details */
 "open_sequence_storage_provider_view_sync_error_details" = "Сведения об ошибке";
@@ -3539,7 +3539,7 @@
 "mac_no_autofill_enabled_databases_initial_message" = "Нет баз данных с включенной поддержкой автозаполнения";
 
 /* It looks like this is your first time using AutoFill with this database.\n\nFor security reasons you must locate and select your database file for Strongbox so that the AutoFill can access it.\n\nAs a reminder your database file was last located here:\n\n%@\n\nPlease locate it now for Strongbox...  - Translator's note: The parameter is the path of the database like '/Users/mark/Desktop/my-database.kdbx' */
-"mac_autofill_first_time_locate-fmt" = "Первое использование автозаполнения с этой базой данных.\n\nПо соображениям безопасности необходимо выбрать файл БД для корректной работы функции.\n\nПоследнее расположение:\n\n%@\n\nПожалуйста, выберите файл.";
+"mac_autofill_first_time_locate-fmt" = "Первое использование автозаполнения с этой базой данных.\n\nПо соображениям безопасности необходимо выбрать файл БД для корректной работы функции.\n\nПоследнее место:\n\n%@\n\nПожалуйста, выберите файл.";
 
 /* Welcome to Strongbox AutoFill */
 "mac_welcome_to_autofill" = "Функция автозаполнения Strongbox";
@@ -3818,7 +3818,7 @@
 "diff_drill_down_location_will_change" = "Элемент будет перемещён.";
 
 /* Item locations are different. */
-"diff_drill_down_locations_are_different" = "Отличия: Расположения элементов";
+"diff_drill_down_locations_are_different" = "Отличия: Места элементов";
 
 /* In %@ and %@ */
 "diff_drill_down_diff_loc_different" = "В %@ и %@";
@@ -4796,7 +4796,7 @@
 "field_tidy_choice_dont_tidy" = "Нет";
 
 /* Location - The location of an item, e.g. Location = /Group-1/Group-2/ */
-"generic_fieldname_location" = "Расположение";
+"generic_fieldname_location" = "Место";
 
 /* Extimated Size - This is memory/file size in bytes/KB/MB consumed by a particular entry e.g. Estimated Size= 64KB*/
 "generic_fieldname_estimated_size" = "Размер";
@@ -6166,7 +6166,7 @@
 "nickname_already_in_use" = "Псевдоним уже используется";
 
 /* Choose Storage Location */
-"choose_storage_loc" = "Выбор расположения";
+"choose_storage_loc" = "Выбор места";
 
 /* Please navigate to where you would like to store your database and click 'Select'. */
 "nav_to_storage_and_select" = "Выберите расположение, где вы хотите сохранить свою БД, и нажмите \"Выбрать\".";
