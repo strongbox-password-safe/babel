@@ -2957,7 +2957,7 @@
 "quick_view_title_totp_entries_title" = "Kétfaktoros kódok";
 
 /* View all entries with a 2FA Code */
-"quick_view_title_totp_entries_subtitle" = "View all entries with a 2FA Code";
+"quick_view_title_totp_entries_subtitle" = "Az összes 2FA tokennel rendelkező bejegyzés megtekintése";
 
 /* Quick Views */
 "quick_view_section_title_quick_views" = "Gyorsnézet";
@@ -6511,25 +6511,25 @@
 "generic_name" = "Név";
 
 /* My Backup Key - L10n note: A sample placeholder name for a virtual hardware key. */
-"sample_vkey_name_my_backup_key" = "My Backup Key";
+"sample_vkey_name_my_backup_key" = "A biztonsági másolatkulcsom";
 
 /* Secret - L10n Note: This relates to virtual hardware keys which have associated secrets, a long string of hex digits used to encrypt the database. The secret is something the user knows and programs their hardware key with. */
 "vkey_secret" = "Titok";
 
 /* This is the secret you programmed your hardware key with. You should store it safely offline in case of device loss. Strongbox will store it safely in the secure enclave. */
-"vkey_secret_description" = "This is the secret you programmed your hardware key with. You should store it safely offline in case of device loss. Strongbox will store it safely in the secure enclave.";
+"vkey_secret_description" = "Ez az a titok, amellyel a hardverkulcsot programozta. A készülék elvesztése esetén biztonságosan, offline tárolja. A Strongbox biztonságosan tárolja a Secure Enclave-ban.";
 
 /* Experimental Feature */
-"experimental_feature_warning_title" = "Experimental Feature";
+"experimental_feature_warning_title" = "Kísérleti funkció";
 
 /* Caution is required using this feature. While we have performed extensive testing this is still an early release feature which could corrupt your database. You should only use this if you are an advanced and technical user with a regular backup system in place.\n\nThank you for helping to test Strongbox. Feedback welcome.\n\nDo you want to continue? */
-"experimental_feature_warning_message_yes_no" = "Caution is required using this feature. While we have performed extensive testing this is still an early release feature which could corrupt your database. You should only use this if you are an advanced and technical user with a regular backup system in place.\n\nThank you for helping to test Strongbox. Feedback welcome.\n\nDo you want to continue?";
+"experimental_feature_warning_message_yes_no" = "Ennek a funkciónak a használata óvatosságot igényel. Bár alapos tesztelést végeztünk, ez még mindig egy korai kiadású funkció, amely megrongálhatja az adatbázisát. Csak akkor használja ezt a funkciót, ha haladó és technikai felhasználó, és rendszeres biztonsági mentési rendszerrel rendelkezik.\n\nKöszönjük, hogy segített a Strongbox tesztelésében. Visszajelzéseket szívesen fogadunk.\n\nSzeretné folytatni?";
 
 
 
 
 /* Hardware Key Caching - L10n - A convenience feature to make using YubiKeys easier */
-"feature_hardware_key_caching" = "Hardware Key Caching";
+"feature_hardware_key_caching" = "Hardvereskulcs gyorstárazása";
 
 /* Using a hardware key is a great security choice but it can be a little inconvenient.\n\nWould you like to enable our caching feature?\n\nWith this enabled Strongbox will do things like remember the last challenge response for a period of time. This means you don't need to use your key so often.\n\nFull configuration is available in settings. For more details see online. */
 "hardware_key_caching_onboarding_msg" = "Using a hardware key is a great security choice but it can be a little inconvenient.\n\nWould you like to enable our caching feature?\n\nWith this enabled Strongbox will do things like remember the last challenge response for a period of time. This means you don't need to use your key so often.\n\nFull configuration is available in settings. For more details see online.";
@@ -6538,10 +6538,10 @@
 "generic_hardware_key" = "Hardverkulcs";
 
 /* On Every Save - L10n Note: This is a parameter for how often the YubiKey challenge should be refreshed. This means it is refreshed every time the user saves */
-"interval_on_every_save" = "On Every Save";
+"interval_on_every_save" = "Minden mentésnél";
 
 /* Forever */
-"generic_duration_forever" = "Forever";
+"generic_duration_forever" = "Örökre";
 
 /* until App Termination - L10n Note: This is how long Strongbox will store/cache something, it will remember this until the App terminates completely, not just an app switch but a full quit. */
 "until_app_termination" = "az alkalmazás befejezéséig";
@@ -6550,7 +6550,7 @@
 "setting_response_caching_title" = "Válasz gyorsítótárazása";
 
 /* Cache Response For - L10n note: Usually followed by a period of time or duration, e.g. "Cache Response For 2 Hours" */
-"setting_cache_response_for_period_of_time" = "Cache Response For";
+"setting_cache_response_for_period_of_time" = "Gyorsítótárazás időtartama";
 
 /* Refresh Challenge Interval - L10n Note: usual followed by a period of time, e.g. Refresh Challenge Interval: 2 Hours */
 "refresh_challenge_interval" = "Refresh Challenge Interval";
@@ -6574,61 +6574,61 @@
 "challenge_refreshing_footer" = "Typically Strongbox refreshes the challenge on each save. Any time the challenge is refreshed your hardware key is required to generate a response to the fresh challenge. You can change the frequency of this refresh process. This means you can save without requiring your hardware key (as long as caching is also enabled).";
 
 /* Empty */
-"generic_empty" = "Empty";
+"generic_empty" = "Üres";
 
 /* Without */
-"generic_without" = "Without";
+"generic_without" = "Nélkül";
 
 /* None */
-"privacy_shield_none" = "None";
+"privacy_shield_none" = "Nincs";
 
 /* Select Database to save 2FA Code */
-"select_database_to_save_2fa_code_title" = "Select Database for 2FA Code";
+"select_database_to_save_2fa_code_title" = "Adatbázis kiválasztása a 2FA kódhoz";
 
 /* Let's get your new passkey saved. How would you like to add this passkey to your database? */
-"totp_how_to_add_to_database" = "Let's get your new 2FA Code saved. How would you like to add this code to your database?";
+"totp_how_to_add_to_database" = "Mentse el az új 2FA kódját. Hogyan szeretné hozzáadni ezt a kódot az adatbázisához?";
 
 /* Overwrite Existing 2FA Code? */
-"totp_overwrite_question_title" = "Overwrite Existing 2FA Code?";
+"totp_overwrite_question_title" = "Felülírja a meglévő 2FA kódot?";
 
 /* '%@' already has a 2FA Code, do you want to overwrite it? */
 "totp_overwrite_existing_question_msg_fmt" = "'%@' already has a 2FA Code, are you sure you want to overwrite it?";
 
 /* Are you sure you want to add this 2FA Code to '%@'? - l10n note: the first parameter is the title of an existing entry in your database, like 'Amazon.com' or something. */
-"totps_are_you_sure_add_to_fmt" = "Are you sure you want to add this 2FA Code to '%@'?";
+"totps_are_you_sure_add_to_fmt" = "Biztos, hogy ezt a 2FA kódot hozzá akarja adni a '%@' bejegyzéshez?";
 
 /* Select entry for 2FA Code */
-"totp_select_existing_entry" = "Select entry for 2FA Code";
+"totp_select_existing_entry" = "Válasszon ki egy bejegyzést a 2FA kódhoz";
 
 /* New 2FA Code */
-"totp_new_passkey_title" = "New 2FA Code";
+"totp_new_passkey_title" = "Új 2FA kód";
 
 /* We'll create a new entry for this 2FA Code. Choose a title and a group where you'd like to save it. */
-"totp_new_entry_text" = "We'll create a new entry for this 2FA Code. Choose a title and a group where you'd like to save it.";
+"totp_new_entry_text" = "Létrehozunk egy új bejegyzést ehhez a 2FA kódhoz. Válasszon egy címet és egy csoportot, ahová el kívánja menteni.";
 
 /* Edit In Progress */
-"generic_edit_in_progress" = "Edit In Progress";
+"generic_edit_in_progress" = "Szerkesztés folyamatban";
 
 /* There is an edit in progress, please complete this before adding a 2FA Code. */
-"generic_edit_in_progress_2fa_code" = "There is an edit in progress, please complete this before adding a 2FA Code.";
+"generic_edit_in_progress_2fa_code" = "Egy szerkesztés folyamatban van, kérjük, fejezze be, mielőtt hozzáadna egy 2FA-kódot.";
 
 /* Close Current Database? */
-"close_current_db_question" = "Close Current Database?";
+"close_current_db_question" = "Bezárja a jelenlegi adatbázist?";
 
 /* You currently have a different database unlocked. Can Strongbox close that database to continue adding your 2FA Code? */
-"close_current_db_question_for_2fa" = "You currently have a different database unlocked. Can Strongbox close that database to continue adding your 2FA Code?";
+"close_current_db_question_for_2fa" = "Jelenleg egy másik adatbázis van feloldva. Bezárja a Strongbox az adatbázist, hogy folytatni tudja a 2FA-kód hozzáadását?";
 
 /* Invalid OTPAuth URL */
 "invalid_otpauth_url" = "Érvénytelen OTPAuth URL";
 
 /* Error Adding 2FA Code */
-"error_adding_2fa_code" = "Error Adding 2FA Code";
+"error_adding_2fa_code" = "Hiba a 2FA kód hozzáadása során";
 
 /* 2FA Code Saved */
 "2fa_code_saved" = "2FA kód elmentve";
 
 /* Please select an existing entry to add your new 2FA Code */
-"totps_select_existing_entry_to_add_to_message" = "Please select an existing entry to add your new 2FA Code";
+"totps_select_existing_entry_to_add_to_message" = "Kérjük, válasszon ki egy meglévő bejegyzést az új 2FA kód hozzáadásához";
 
 /* 2FA Code Imported */
 "2fa_code_imported" = "2FA kód importálva";
