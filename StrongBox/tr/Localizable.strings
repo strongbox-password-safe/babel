@@ -3259,8 +3259,8 @@
 /* No, do NOT backup anything */
 "backup_settings_prompt_no_dont_backup_anything" = "Hayır, hiçbir şey dahil etme";
 
-/* View Sync Status */
-"safes_vc_action_view_sync_status" = "Senkronizasyon Günlüğünü Görüntüle";
+/* View Debug Log */
+"safes_vc_action_view_sync_status" = "View Debug Log";
 
 /* Please send this crash report to support@strongboxsafe.com */
 "safes_vc_please_send_crash_report" = "Lütfen bu kilitlenme raporunu şu adrese gönderin: support@strongboxsafe.com";
@@ -3310,8 +3310,8 @@
 /* Sync Error */
 "open_sequence_storage_provider_error_title" = "Senkronizasyon Hatası";
 
-/* If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open in offline mode instead? */
-"open_sequence_storage_provider_error_open_local_ro_instead" = "Bu tekrar tekrar olursa, veritabanınızı yeniden eklemeyi denemelisiniz. Daha fazlası için Hata Ayıklama Eşitleme Günlüğüne bakın...\n\nBunun yerine çevrimdışı modda açmak ister misiniz?";
+/* If this happens repeatedly you should try re-adding your database. See the Debug Log for more...\n\nWould you like to open in offline mode instead? */
+"open_sequence_storage_provider_error_open_local_ro_instead" = "If this happens repeatedly you should try re-adding your database. See the Debug Log for more...\n\nWould you like to open in offline mode instead?";
 
 /* Local Copy Unavailable */
 "autofill_vc_item_subtitle_local_copy_unavailable" = "Yerel Kopya Kullanılamıyor";
@@ -3892,8 +3892,8 @@
 /* Error Refreshing */
 "browse_vc_pulldown_refresh_error_title" = "Yenileme Hatası";
 
-/* See Sync Log */
-"browse_vc_pulldown_refresh_error_message" = "Senkronizasyon Günlüğüne Bakın";
+/* See Debug Log */
+"browse_vc_pulldown_refresh_error_message" = "See Debug Log";
 
 /* Database Refreshed - No Changes */
 "browse_vc_pulldown_refresh_no_changes_title" = "Veritabanı Yenilendi - Değişiklik Yok";
@@ -5191,8 +5191,8 @@
 /* Enter Length */
 "alert_enter_password_basic_length" = "Uzunluğu girin";
 
-/* Not to worry, your database is safely saved locally but could not be synchronised with the source database.\n\nIf this happens repeatedly, investigate the Sync Log and try re-adding your database. */
-"sync_nextgen_sync_issue_message" = "Endişelenmeyin, veritabanınız yerel olarak güvenli bir şekilde kaydedildi ancak kaynak veritabanıyla eşitlenemedi.\n\nBu tekrar tekrar olursa Eşitleme Günlüğünü araştırın ve veritabanınızı yeniden eklemeyi deneyin.";
+/* Not to worry, your database is safely saved locally but could not be synchronised with the source database.\n\nIf this happens repeatedly, investigate the Debug Log and try re-adding your database. */
+"sync_nextgen_sync_issue_message" = "Not to worry, your database is safely saved locally but could not be synchronised with the source database.\n\nIf this happens repeatedly, investigate the Debug Log and try re-adding your database.";
 
 /* Sync Issue */
 "nextgen_sync_issue_toast_title" = "Senkronizasyon Sorunu";
@@ -5227,8 +5227,8 @@
 /* Sync - L10n - This is a verb - To Synchronize */
 "generic_action_sync" = "Eşitle";
 
-/* Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Sync Log?\n\n%@\n */
-"sync_error_message_including_error_detail_fmt" = "Veritabanınız güvenli bir şekilde kaydedildi ancak senkronizasyonda bir hata oluştu. Tekrar denemek veya Senkronizasyon Günlüğüne bir göz atmak ister misiniz?\n\n%@\n";
+/* Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Debug Log?\n\n%@\n */
+"sync_error_message_including_error_detail_fmt" = "Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Debug Log?\n\n%@\n";
 
 /* This database is in Offline Mode and cannot be synced. */
 "database_is_in_offline_mode_cannot_be_synced" = "Bu veritabanı Çevrimdışı Modda ve senkronize edilemez.";
@@ -6692,3 +6692,6 @@
 
 /* Audit Complete */
 "audit_complete" = "Audit Complete";
+
+/* Do Not Remember */
+"generic_do_not_remember" = "Do Not Remember";
