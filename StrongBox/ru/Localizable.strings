@@ -618,7 +618,7 @@
 "item_details_setup_totp_how_message" = "Вы можете установить 2FA с помощью QR-кода или вручную, введя секрет или URL адрес OTPAuth.";
 
 /* How would you like to setup 2FA? */
-"item_details_setup_totp_how_title" = "Настройка 2FA";
+"item_details_setup_totp_how_title" = "Код 2FA";
 
 /* Manual (Standard/RFC 6238)... */
 "item_details_setup_totp_manual_rfc" = "Вручную (RFC 6238)";
@@ -3259,8 +3259,8 @@
 /* No, do NOT backup anything */
 "backup_settings_prompt_no_dont_backup_anything" = "Не включать ничего";
 
-/* View Sync Status */
-"safes_vc_action_view_sync_status" = "Журнал";
+/* View Debug Log */
+"safes_vc_action_view_sync_status" = "View Debug Log";
 
 /* Please send this crash report to support@strongboxsafe.com */
 "safes_vc_please_send_crash_report" = "Пожалуйста, отправьте отчёт о сбое на support@strongboxsafe.com";
@@ -3310,8 +3310,8 @@
 /* Sync Error */
 "open_sequence_storage_provider_error_title" = "Ошибка при синхронизации";
 
-/* If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open in offline mode instead? */
-"open_sequence_storage_provider_error_open_local_ro_instead" = "Если ошибка повторяется, попробуйте удалить и заново добавить БД. См. сведения и ошибки синхронизации в журнале для получения дополнительной информации.\n\nХотите открыть офлайн?";
+/* If this happens repeatedly you should try re-adding your database. See the Debug Log for more...\n\nWould you like to open in offline mode instead? */
+"open_sequence_storage_provider_error_open_local_ro_instead" = "If this happens repeatedly you should try re-adding your database. See the Debug Log for more...\n\nWould you like to open in offline mode instead?";
 
 /* Local Copy Unavailable */
 "autofill_vc_item_subtitle_local_copy_unavailable" = "Локальная копия недоступна";
@@ -3892,8 +3892,8 @@
 /* Error Refreshing */
 "browse_vc_pulldown_refresh_error_title" = "Ошибка при обновлении";
 
-/* See Sync Log */
-"browse_vc_pulldown_refresh_error_message" = "См. журнал сведений и ошибок синхронизации";
+/* See Debug Log */
+"browse_vc_pulldown_refresh_error_message" = "See Debug Log";
 
 /* Database Refreshed - No Changes */
 "browse_vc_pulldown_refresh_no_changes_title" = "Изменений не найдено";
@@ -4946,7 +4946,7 @@
 "pro_status_lifetime_pro" = "Pro (Бессрочная)";
 
 /* Lifetime Pro (In-App Purchase) */
-"pro_status_lifetime_pro_iap" = "Бессрочная (Pro)";
+"pro_status_lifetime_pro_iap" = "Pro (Встроенная покупка)";
 
 /* Pro (Yearly subscription) */
 "pro_status_yearly_pro" = "Pro (Годовая подписка)";
@@ -5191,8 +5191,8 @@
 /* Enter Length */
 "alert_enter_password_basic_length" = "Длина пароля";
 
-/* Not to worry, your database is safely saved locally but could not be synchronised with the source database.\n\nIf this happens repeatedly, investigate the Sync Log and try re-adding your database. */
-"sync_nextgen_sync_issue_message" = "Ваша БД сохранена локально, но не может быть синхронизирована.\n\nЕсли это происходит неоднократно, проверьте журнал синхронизации и попробуйте заново добавить БД.";
+/* Not to worry, your database is safely saved locally but could not be synchronised with the source database.\n\nIf this happens repeatedly, investigate the Debug Log and try re-adding your database. */
+"sync_nextgen_sync_issue_message" = "Not to worry, your database is safely saved locally but could not be synchronised with the source database.\n\nIf this happens repeatedly, investigate the Debug Log and try re-adding your database.";
 
 /* Sync Issue */
 "nextgen_sync_issue_toast_title" = "Ошибка при синхронизации";
@@ -5227,8 +5227,8 @@
 /* Sync - L10n - This is a verb - To Synchronize */
 "generic_action_sync" = "Синхронизация";
 
-/* Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Sync Log?\n\n%@\n */
-"sync_error_message_including_error_detail_fmt" = "БД сохранена, но при синхронизации произошла ошибка. Хотите попробовать ещё раз или посмотреть журнал синхронизации?\n\n%@\n";
+/* Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Debug Log?\n\n%@\n */
+"sync_error_message_including_error_detail_fmt" = "Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Debug Log?\n\n%@\n";
 
 /* This database is in Offline Mode and cannot be synced. */
 "database_is_in_offline_mode_cannot_be_synced" = "БД в офлайне и не может быть синхронизирована.";
@@ -5575,7 +5575,7 @@
 "generic_auto_lock_settings" = "Автоблокировка";
 
 /* Encryption - L10n: Noun referring to Encryption Settings  */
-"generic_encryption_settings" = "Шифрование";
+"generic_encryption_settings" = "Безопасность";
 
 /* Easy Read Font on All Fields */
 "item_details_view_settings_easy_read_all" = "Моноширинный шрифт";
@@ -5812,10 +5812,10 @@
 "wifi_sync_enter_new_passcode" = "Введите новый код";
 
 /* For advanced users, connect to your NAS or other personal server anywhere on your network or the Internet via these standard protocols. */
-"select_storage_footer_servers" = "Подключение к NAS или другому серверу в любой точке с помощью стандартных протоколов.";
+"select_storage_footer_servers" = "Подключение к NAS или другому серверу с помощью стандартных протоколов.";
 
 /* Use Strongbox's advanced 'Wi-Fi Sync' to stay up to date without the use of a server via Wi-Fi (or any LAN connection). */
-"select_storage_footer_wifi" = "Поддержка актуального состояния без подключения через Wi-Fi или LAN соединение.";
+"select_storage_footer_wifi" = "Доступ к БД устройства через Wi-Fi.";
 
 /* Connect to your database via the Files app. */
 "select_storage_footer_files_only" = "Подключение к БД через приложение «Файлы»‎.";
@@ -5848,7 +5848,7 @@
 "wifi_sync_allow_network_access" = "Доступ к локальной сети";
 
 /* Local Network Access Denied */
-"wifi_sync_local_network_access_denied" = "Доступ запрещён";
+"wifi_sync_local_network_access_denied" = "Нет доступа к локальной сети";
 
 /* No Devices Found */
 "wifi_sync_no_devices_found" = "Устройства не найдены";
@@ -6480,7 +6480,7 @@
 /* These method(s) are no longer advised. Strongbox does not have full control over the read, write and locate functions and so we cannot guarantee data integrity. However, typically, locally stored on-device files accessed in this way are not problematic.\n\nNB: Strongbox does not have any knowledge of where files selected in this way are located. */
 "deprecated_storage_footer_text_no_network_db" = "Эти методы больше не рекомендуются. Приложение не имеет полного контроля над функциями чтения, записи и определения местоположения, поэтому целостность данных не гарантируется. Обычно доступ к локальным файлам не вызывает проблем.";
 /* Tap to locate your database and make a local copy.\n\nNB: There are a many ways to import your database, including File Sharing via USB, AirDrop, or copying your database into the Strongbox folder. */
-"select_storage_locate_db_for_local_copy" = "Нажмите, чтобы найти БД и сделать локальную копию.";
+"select_storage_locate_db_for_local_copy" = "Нажмите, чтобы выбрать БД и сделать локальную копию.";
 
 /* Your database was successfully imported. Note that you can now remove the original source file from the device should you wish. */
 "database_local_copy_done_info_msg" = "БД успешно импортирована. (*) Теперь Вы можете удалить исходный файл с устройства.";
@@ -6692,3 +6692,6 @@
 
 /* Audit Complete */
 "audit_complete" = "Проверка выполнена";
+
+/* Do Not Remember */
+"generic_do_not_remember" = "Do Not Remember";

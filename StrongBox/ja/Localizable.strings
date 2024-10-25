@@ -3259,8 +3259,8 @@
 /* No, do NOT backup anything */
 "backup_settings_prompt_no_dont_backup_anything" = "いいえ、何も含まない";
 
-/* View Sync Status */
-"safes_vc_action_view_sync_status" = "同期ログを表示";
+/* View Debug Log */
+"safes_vc_action_view_sync_status" = "View Debug Log";
 
 /* Please send this crash report to support@strongboxsafe.com */
 "safes_vc_please_send_crash_report" = "このクラッシュレポートを support@strongboxsafe.com までお送りください";
@@ -3310,8 +3310,8 @@
 /* Sync Error */
 "open_sequence_storage_provider_error_title" = "同期エラー";
 
-/* If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open in offline mode instead? */
-"open_sequence_storage_provider_error_open_local_ro_instead" = "これが繰り返し発生する場合は、データベースを追加しなおすことをお奨めします。詳細は、デバッグ同期ログをご覧ください...\n\n代わりに、Strongbox のオフラインモードで使用しますか？";
+/* If this happens repeatedly you should try re-adding your database. See the Debug Log for more...\n\nWould you like to open in offline mode instead? */
+"open_sequence_storage_provider_error_open_local_ro_instead" = "If this happens repeatedly you should try re-adding your database. See the Debug Log for more...\n\nWould you like to open in offline mode instead?";
 
 /* Local Copy Unavailable */
 "autofill_vc_item_subtitle_local_copy_unavailable" = "ローカルコピーは利用できません";
@@ -3892,8 +3892,8 @@
 /* Error Refreshing */
 "browse_vc_pulldown_refresh_error_title" = "更新エラー";
 
-/* See Sync Log */
-"browse_vc_pulldown_refresh_error_message" = "同期ログを表示";
+/* See Debug Log */
+"browse_vc_pulldown_refresh_error_message" = "See Debug Log";
 
 /* Database Refreshed - No Changes */
 "browse_vc_pulldown_refresh_no_changes_title" = "データベースを更新しました - 変更はありません";
@@ -5191,8 +5191,8 @@
 /* Enter Length */
 "alert_enter_password_basic_length" = "長さを入力";
 
-/* Not to worry, your database is safely saved locally but could not be synchronised with the source database.\n\nIf this happens repeatedly, investigate the Sync Log and try re-adding your database. */
-"sync_nextgen_sync_issue_message" = "ご心配なく、データベースはローカルに安全に保存されますが、ソースデータベースと同期できませんでした。\n\nこれが繰り返し発生した場合は、同期ログを調査し、データベースを再度追加してみてください。";
+/* Not to worry, your database is safely saved locally but could not be synchronised with the source database.\n\nIf this happens repeatedly, investigate the Debug Log and try re-adding your database. */
+"sync_nextgen_sync_issue_message" = "Not to worry, your database is safely saved locally but could not be synchronised with the source database.\n\nIf this happens repeatedly, investigate the Debug Log and try re-adding your database.";
 
 /* Sync Issue */
 "nextgen_sync_issue_toast_title" = "同期の問題";
@@ -5227,8 +5227,8 @@
 /* Sync - L10n - This is a verb - To Synchronize */
 "generic_action_sync" = "同期";
 
-/* Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Sync Log?\n\n%@\n */
-"sync_error_message_including_error_detail_fmt" = "データベースは安全に保存されましたが、同期中にエラーが発生しました。 再試行するか、同期ログを確認しますか？\n\n%@\n";
+/* Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Debug Log?\n\n%@\n */
+"sync_error_message_including_error_detail_fmt" = "Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Debug Log?\n\n%@\n";
 
 /* This database is in Offline Mode and cannot be synced. */
 "database_is_in_offline_mode_cannot_be_synced" = "このデータベースはオフラインモードのため同期できません。";
@@ -6692,3 +6692,6 @@
 
 /* Audit Complete */
 "audit_complete" = "Audit Complete";
+
+/* Do Not Remember */
+"generic_do_not_remember" = "Do Not Remember";

@@ -3259,8 +3259,8 @@
 /* No, do NOT backup anything */
 "backup_settings_prompt_no_dont_backup_anything" = "Ні, не включати нічого";
 
-/* View Sync Status */
-"safes_vc_action_view_sync_status" = "Журнал синхронізації";
+/* View Debug Log */
+"safes_vc_action_view_sync_status" = "View Debug Log";
 
 /* Please send this crash report to support@strongboxsafe.com */
 "safes_vc_please_send_crash_report" = "Будь ласка, надішліть цей звіт про збій на support@strongboxsafe.com";
@@ -3310,8 +3310,8 @@
 /* Sync Error */
 "open_sequence_storage_provider_error_title" = "Помилка синхронізації";
 
-/* If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open in offline mode instead? */
-"open_sequence_storage_provider_error_open_local_ro_instead" = "Якщо це повторюватиметься, вам слід спробувати ще раз додати свою базу паролів. Перегляньте журнал синхронізації для докладних відомостей...\n\nБажаєте натомість відкрити в автономному режимі?";
+/* If this happens repeatedly you should try re-adding your database. See the Debug Log for more...\n\nWould you like to open in offline mode instead? */
+"open_sequence_storage_provider_error_open_local_ro_instead" = "If this happens repeatedly you should try re-adding your database. See the Debug Log for more...\n\nWould you like to open in offline mode instead?";
 
 /* Local Copy Unavailable */
 "autofill_vc_item_subtitle_local_copy_unavailable" = "Локальна копія недоступна";
@@ -3892,8 +3892,8 @@
 /* Error Refreshing */
 "browse_vc_pulldown_refresh_error_title" = "Помилка оновлення";
 
-/* See Sync Log */
-"browse_vc_pulldown_refresh_error_message" = "Журнал синхронізації";
+/* See Debug Log */
+"browse_vc_pulldown_refresh_error_message" = "See Debug Log";
 
 /* Database Refreshed - No Changes */
 "browse_vc_pulldown_refresh_no_changes_title" = "База даних оновлена – немає змін";
@@ -5191,8 +5191,8 @@
 /* Enter Length */
 "alert_enter_password_basic_length" = "Введіть довжину";
 
-/* Not to worry, your database is safely saved locally but could not be synchronised with the source database.\n\nIf this happens repeatedly, investigate the Sync Log and try re-adding your database. */
-"sync_nextgen_sync_issue_message" = "Не хвилюйтеся, ваша база даних надійно зберігається локально, але зміни неможливо синхронізувати з вихідною базою даних.\n\nЯкщо це повторюватиметься, перегляньте журнал синхронізації та спробуйте повторно додати свою базу даних.";
+/* Not to worry, your database is safely saved locally but could not be synchronised with the source database.\n\nIf this happens repeatedly, investigate the Debug Log and try re-adding your database. */
+"sync_nextgen_sync_issue_message" = "Not to worry, your database is safely saved locally but could not be synchronised with the source database.\n\nIf this happens repeatedly, investigate the Debug Log and try re-adding your database.";
 
 /* Sync Issue */
 "nextgen_sync_issue_toast_title" = "Проблема синхронізації";
@@ -5227,8 +5227,8 @@
 /* Sync - L10n - This is a verb - To Synchronize */
 "generic_action_sync" = "Синхронізація";
 
-/* Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Sync Log?\n\n%@\n */
-"sync_error_message_including_error_detail_fmt" = "Вашу базу даних надійно збережено, але виникла помилка під час синхронізації. Бажаєте спробувати синхронізувати знову чи переглянути журнал синхронізації?\n\n%@\n";
+/* Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Debug Log?\n\n%@\n */
+"sync_error_message_including_error_detail_fmt" = "Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Debug Log?\n\n%@\n";
 
 /* This database is in Offline Mode and cannot be synced. */
 "database_is_in_offline_mode_cannot_be_synced" = "Ця база даних зараз в автономному режимі, тому її неможливо синхронізувати.";
@@ -6559,10 +6559,10 @@
 "autofill_refresh_challenge_suppressed" = "Оновлення автозаповнення призупинено";
 
 /* Hardware Key Settings */
-"nav_title_hardware_key_settings" = "Hardware Key Settings";
+"nav_title_hardware_key_settings" = "Налаштування апаратного ключа";
 
 /* Challenge Response Caching */
-"challenge_response_caching_header" = "Challenge Response Caching";
+"challenge_response_caching_header" = "Кешування відповідей на виклики";
 
 /* Strongbox can remember the correct response for a particular challenge for a period of time. This means it can respond to a challenge instead of requiring you to use your hardware key all of the time. */
 "challenge_response_caching_footer" = "Strongbox can remember the correct response for a particular challenge for a period of time. This means it can respond to a challenge instead of requiring you to use your hardware key all of the time.";
@@ -6692,3 +6692,6 @@
 
 /* Audit Complete */
 "audit_complete" = "Audit Complete";
+
+/* Do Not Remember */
+"generic_do_not_remember" = "Do Not Remember";

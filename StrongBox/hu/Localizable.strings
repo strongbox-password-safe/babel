@@ -2957,7 +2957,7 @@
 "quick_view_title_totp_entries_title" = "Kétfaktoros kódok";
 
 /* View all entries with a 2FA Code */
-"quick_view_title_totp_entries_subtitle" = "View all entries with a 2FA Code";
+"quick_view_title_totp_entries_subtitle" = "Az összes 2FA tokennel rendelkező bejegyzés megtekintése";
 
 /* Quick Views */
 "quick_view_section_title_quick_views" = "Gyorsnézet";
@@ -3259,8 +3259,8 @@
 /* No, do NOT backup anything */
 "backup_settings_prompt_no_dont_backup_anything" = "Nem, nem tartalmaz semmit";
 
-/* View Sync Status */
-"safes_vc_action_view_sync_status" = "Szinkr. napló megtekintése";
+/* View Debug Log */
+"safes_vc_action_view_sync_status" = "View Debug Log";
 
 /* Please send this crash report to support@strongboxsafe.com */
 "safes_vc_please_send_crash_report" = "Kérjük, küldje el ezt a hibajelentést a support@strongboxsafe.com címre";
@@ -3310,8 +3310,8 @@
 /* Sync Error */
 "open_sequence_storage_provider_error_title" = "Szinkronizálási hiba";
 
-/* If this happens repeatedly you should try re-adding your database. See the Debug Sync Log for more...\n\nWould you like to open in offline mode instead? */
-"open_sequence_storage_provider_error_open_local_ro_instead" = "Ha ez ismételten előfordul, akkor próbálja meg újra hozzáadni az adatbázist. Nézze meg a hibakeresési szinkronizálási naplót a részletekért...\n\nSzeretné inkább offline módban megnyitni?";
+/* If this happens repeatedly you should try re-adding your database. See the Debug Log for more...\n\nWould you like to open in offline mode instead? */
+"open_sequence_storage_provider_error_open_local_ro_instead" = "If this happens repeatedly you should try re-adding your database. See the Debug Log for more...\n\nWould you like to open in offline mode instead?";
 
 /* Local Copy Unavailable */
 "autofill_vc_item_subtitle_local_copy_unavailable" = "Helyi másolat nem elérhető";
@@ -3892,8 +3892,8 @@
 /* Error Refreshing */
 "browse_vc_pulldown_refresh_error_title" = "Hiba frissítés";
 
-/* See Sync Log */
-"browse_vc_pulldown_refresh_error_message" = "Szinkr. napló megtekintése";
+/* See Debug Log */
+"browse_vc_pulldown_refresh_error_message" = "See Debug Log";
 
 /* Database Refreshed - No Changes */
 "browse_vc_pulldown_refresh_no_changes_title" = "Adatbázis frissítve - Nincs változás";
@@ -5191,8 +5191,8 @@
 /* Enter Length */
 "alert_enter_password_basic_length" = "Adja meg a hosszt";
 
-/* Not to worry, your database is safely saved locally but could not be synchronised with the source database.\n\nIf this happens repeatedly, investigate the Sync Log and try re-adding your database. */
-"sync_nextgen_sync_issue_message" = "Ne aggódjon, az adatbázisa biztonságosan el van mentve helyben, de nem lehetett szinkronizálni a forrásadatbázissal.\n\nHa ez ismételten előfordul, vizsgálja meg a szinkronizálási naplót, és próbálja meg újra hozzáadni az adatbázisát.";
+/* Not to worry, your database is safely saved locally but could not be synchronised with the source database.\n\nIf this happens repeatedly, investigate the Debug Log and try re-adding your database. */
+"sync_nextgen_sync_issue_message" = "Not to worry, your database is safely saved locally but could not be synchronised with the source database.\n\nIf this happens repeatedly, investigate the Debug Log and try re-adding your database.";
 
 /* Sync Issue */
 "nextgen_sync_issue_toast_title" = "Szinkronizálási gond";
@@ -5227,8 +5227,8 @@
 /* Sync - L10n - This is a verb - To Synchronize */
 "generic_action_sync" = "Szinkronizálás";
 
-/* Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Sync Log?\n\n%@\n */
-"sync_error_message_including_error_detail_fmt" = "Az adatbázisa biztonságosan elmentésre került, de hiba történt a szinkronizálás során. Szeretné újra megpróbálni vagy megnézni a szinkronizálási naplót?\n\n%@\n";
+/* Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Debug Log?\n\n%@\n */
+"sync_error_message_including_error_detail_fmt" = "Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Debug Log?\n\n%@\n";
 
 /* This database is in Offline Mode and cannot be synced. */
 "database_is_in_offline_mode_cannot_be_synced" = "Ez az adatbázis offline módban van, és nem szinkronizálható.";
@@ -6511,25 +6511,25 @@
 "generic_name" = "Név";
 
 /* My Backup Key - L10n note: A sample placeholder name for a virtual hardware key. */
-"sample_vkey_name_my_backup_key" = "My Backup Key";
+"sample_vkey_name_my_backup_key" = "A biztonsági másolatkulcsom";
 
 /* Secret - L10n Note: This relates to virtual hardware keys which have associated secrets, a long string of hex digits used to encrypt the database. The secret is something the user knows and programs their hardware key with. */
 "vkey_secret" = "Titok";
 
 /* This is the secret you programmed your hardware key with. You should store it safely offline in case of device loss. Strongbox will store it safely in the secure enclave. */
-"vkey_secret_description" = "This is the secret you programmed your hardware key with. You should store it safely offline in case of device loss. Strongbox will store it safely in the secure enclave.";
+"vkey_secret_description" = "Ez az a titok, amellyel a hardverkulcsot programozta. A készülék elvesztése esetén biztonságosan, offline tárolja. A Strongbox biztonságosan tárolja a Secure Enclave-ban.";
 
 /* Experimental Feature */
-"experimental_feature_warning_title" = "Experimental Feature";
+"experimental_feature_warning_title" = "Kísérleti funkció";
 
 /* Caution is required using this feature. While we have performed extensive testing this is still an early release feature which could corrupt your database. You should only use this if you are an advanced and technical user with a regular backup system in place.\n\nThank you for helping to test Strongbox. Feedback welcome.\n\nDo you want to continue? */
-"experimental_feature_warning_message_yes_no" = "Caution is required using this feature. While we have performed extensive testing this is still an early release feature which could corrupt your database. You should only use this if you are an advanced and technical user with a regular backup system in place.\n\nThank you for helping to test Strongbox. Feedback welcome.\n\nDo you want to continue?";
+"experimental_feature_warning_message_yes_no" = "Ennek a funkciónak a használata óvatosságot igényel. Bár alapos tesztelést végeztünk, ez még mindig egy korai kiadású funkció, amely megrongálhatja az adatbázisát. Csak akkor használja ezt a funkciót, ha haladó és technikai felhasználó, és rendszeres biztonsági mentési rendszerrel rendelkezik.\n\nKöszönjük, hogy segített a Strongbox tesztelésében. Visszajelzéseket szívesen fogadunk.\n\nSzeretné folytatni?";
 
 
 
 
 /* Hardware Key Caching - L10n - A convenience feature to make using YubiKeys easier */
-"feature_hardware_key_caching" = "Hardware Key Caching";
+"feature_hardware_key_caching" = "Hardvereskulcs gyorstárazása";
 
 /* Using a hardware key is a great security choice but it can be a little inconvenient.\n\nWould you like to enable our caching feature?\n\nWith this enabled Strongbox will do things like remember the last challenge response for a period of time. This means you don't need to use your key so often.\n\nFull configuration is available in settings. For more details see online. */
 "hardware_key_caching_onboarding_msg" = "Using a hardware key is a great security choice but it can be a little inconvenient.\n\nWould you like to enable our caching feature?\n\nWith this enabled Strongbox will do things like remember the last challenge response for a period of time. This means you don't need to use your key so often.\n\nFull configuration is available in settings. For more details see online.";
@@ -6538,19 +6538,19 @@
 "generic_hardware_key" = "Hardverkulcs";
 
 /* On Every Save - L10n Note: This is a parameter for how often the YubiKey challenge should be refreshed. This means it is refreshed every time the user saves */
-"interval_on_every_save" = "On Every Save";
+"interval_on_every_save" = "Minden mentésnél";
 
 /* Forever */
-"generic_duration_forever" = "Forever";
+"generic_duration_forever" = "Örökre";
 
 /* until App Termination - L10n Note: This is how long Strongbox will store/cache something, it will remember this until the App terminates completely, not just an app switch but a full quit. */
-"until_app_termination" = "until App Termination";
+"until_app_termination" = "az alkalmazás befejezéséig";
 
 /* Response Caching */
-"setting_response_caching_title" = "Response Caching";
+"setting_response_caching_title" = "Válasz gyorsítótárazása";
 
 /* Cache Response For - L10n note: Usually followed by a period of time or duration, e.g. "Cache Response For 2 Hours" */
-"setting_cache_response_for_period_of_time" = "Cache Response For";
+"setting_cache_response_for_period_of_time" = "Gyorsítótárazás időtartama";
 
 /* Refresh Challenge Interval - L10n Note: usual followed by a period of time, e.g. Refresh Challenge Interval: 2 Hours */
 "refresh_challenge_interval" = "Refresh Challenge Interval";
@@ -6559,7 +6559,7 @@
 "autofill_refresh_challenge_suppressed" = "AutoFill Refresh Suppressed";
 
 /* Hardware Key Settings */
-"nav_title_hardware_key_settings" = "Hardware Key Settings";
+"nav_title_hardware_key_settings" = "Hardverkulcs beállítások";
 
 /* Challenge Response Caching */
 "challenge_response_caching_header" = "Challenge Response Caching";
@@ -6574,82 +6574,82 @@
 "challenge_refreshing_footer" = "Typically Strongbox refreshes the challenge on each save. Any time the challenge is refreshed your hardware key is required to generate a response to the fresh challenge. You can change the frequency of this refresh process. This means you can save without requiring your hardware key (as long as caching is also enabled).";
 
 /* Empty */
-"generic_empty" = "Empty";
+"generic_empty" = "Üres";
 
 /* Without */
-"generic_without" = "Without";
+"generic_without" = "Nélkül";
 
 /* None */
-"privacy_shield_none" = "None";
+"privacy_shield_none" = "Nincs";
 
 /* Select Database to save 2FA Code */
-"select_database_to_save_2fa_code_title" = "Select Database for 2FA Code";
+"select_database_to_save_2fa_code_title" = "Adatbázis kiválasztása a 2FA kódhoz";
 
 /* Let's get your new passkey saved. How would you like to add this passkey to your database? */
-"totp_how_to_add_to_database" = "Let's get your new 2FA Code saved. How would you like to add this code to your database?";
+"totp_how_to_add_to_database" = "Mentse el az új 2FA kódját. Hogyan szeretné hozzáadni ezt a kódot az adatbázisához?";
 
 /* Overwrite Existing 2FA Code? */
-"totp_overwrite_question_title" = "Overwrite Existing 2FA Code?";
+"totp_overwrite_question_title" = "Felülírja a meglévő 2FA kódot?";
 
 /* '%@' already has a 2FA Code, do you want to overwrite it? */
 "totp_overwrite_existing_question_msg_fmt" = "'%@' already has a 2FA Code, are you sure you want to overwrite it?";
 
 /* Are you sure you want to add this 2FA Code to '%@'? - l10n note: the first parameter is the title of an existing entry in your database, like 'Amazon.com' or something. */
-"totps_are_you_sure_add_to_fmt" = "Are you sure you want to add this 2FA Code to '%@'?";
+"totps_are_you_sure_add_to_fmt" = "Biztos, hogy ezt a 2FA kódot hozzá akarja adni a '%@' bejegyzéshez?";
 
 /* Select entry for 2FA Code */
-"totp_select_existing_entry" = "Select entry for 2FA Code";
+"totp_select_existing_entry" = "Válasszon ki egy bejegyzést a 2FA kódhoz";
 
 /* New 2FA Code */
-"totp_new_passkey_title" = "New 2FA Code";
+"totp_new_passkey_title" = "Új 2FA kód";
 
 /* We'll create a new entry for this 2FA Code. Choose a title and a group where you'd like to save it. */
-"totp_new_entry_text" = "We'll create a new entry for this 2FA Code. Choose a title and a group where you'd like to save it.";
+"totp_new_entry_text" = "Létrehozunk egy új bejegyzést ehhez a 2FA kódhoz. Válasszon egy címet és egy csoportot, ahová el kívánja menteni.";
 
 /* Edit In Progress */
-"generic_edit_in_progress" = "Edit In Progress";
+"generic_edit_in_progress" = "Szerkesztés folyamatban";
 
 /* There is an edit in progress, please complete this before adding a 2FA Code. */
-"generic_edit_in_progress_2fa_code" = "There is an edit in progress, please complete this before adding a 2FA Code.";
+"generic_edit_in_progress_2fa_code" = "Egy szerkesztés folyamatban van, kérjük, fejezze be, mielőtt hozzáadna egy 2FA-kódot.";
 
 /* Close Current Database? */
-"close_current_db_question" = "Close Current Database?";
+"close_current_db_question" = "Bezárja a jelenlegi adatbázist?";
 
 /* You currently have a different database unlocked. Can Strongbox close that database to continue adding your 2FA Code? */
-"close_current_db_question_for_2fa" = "You currently have a different database unlocked. Can Strongbox close that database to continue adding your 2FA Code?";
+"close_current_db_question_for_2fa" = "Jelenleg egy másik adatbázis van feloldva. Bezárja a Strongbox az adatbázist, hogy folytatni tudja a 2FA-kód hozzáadását?";
 
 /* Invalid OTPAuth URL */
-"invalid_otpauth_url" = "Invalid OTPAuth URL";
+"invalid_otpauth_url" = "Érvénytelen OTPAuth URL";
 
 /* Error Adding 2FA Code */
-"error_adding_2fa_code" = "Error Adding 2FA Code";
+"error_adding_2fa_code" = "Hiba a 2FA kód hozzáadása során";
 
 /* 2FA Code Saved */
-"2fa_code_saved" = "2FA Code Saved";
+"2fa_code_saved" = "2FA kód elmentve";
 
 /* Please select an existing entry to add your new 2FA Code */
-"totps_select_existing_entry_to_add_to_message" = "Please select an existing entry to add your new 2FA Code";
+"totps_select_existing_entry_to_add_to_message" = "Kérjük, válasszon ki egy meglévő bejegyzést az új 2FA kód hozzáadásához";
 
 /* 2FA Code Imported */
-"2fa_code_imported" = "2FA Code Imported";
+"2fa_code_imported" = "2FA kód importálva";
 
 /* Unlock Unsuccessful - L10n Note: A recent unlock attempt was unsuccessful */
-"unlock_was_unsuccessful" = "Unlock Unsuccessful";
+"unlock_was_unsuccessful" = "Sikertelen feloldás";
 
 /* Would you like to try again? */
-"generic_would_you_like_to_try_again" = "Would you like to try again?";
+"generic_would_you_like_to_try_again" = "Szeretné újra megpróbálni?";
 
 /* Add to Existing or Create New */
-"add_to_entry_or_create_new" = "Add to Existing or Create New";
+"add_to_entry_or_create_new" = "Hozzáadás a meglévőhöz vagy új létrehozása";
 
 /* Create New... */
-"generic_create_new_ellipsis" = "Create New...";
+"generic_create_new_ellipsis" = "Új létrehozása...";
 
 /* Add to '%@' - L10n note: the 1st parameter is the title of an item. So for example, when adding a 2FA Code to an entry we would have "Add to 'Amazon (UK)'" */
-"add_something_to_item_title_fmt" = "Add to '%@'";
+"add_something_to_item_title_fmt" = "Hozzáadás a '%@'";
 
 /* None Available - L10n Note: Meaning no items were found or are available for use. e.g. If there are no virtual hardware keys created or setup by the user, we display "None Available" in the dropdown menu. */
-"generic_none_available" = "None Available";
+"generic_none_available" = "Egyik sem elérhető";
 
 /* Duplicate Item */
 "duplicate_item_title" = "Elem duplikálása";
@@ -6667,28 +6667,31 @@
 "duplicate_item_option_reference_edit_afterwards" = "Szerkesztés duplikálás után";
 
 /* Select Field to Insert Text */
-"select_field_to_insert_text" = "Select Field to Insert Text";
+"select_field_to_insert_text" = "Mező kiválasztása a szöveg beillesztéséhez";
 
 /* Black Screen */
-"app_privacy_shield_mode_black_screen" = "Black Screen";
+"app_privacy_shield_mode_black_screen" = "Fekete képernyő";
 
 /* Dark Logo */
-"app_privacy_shield_mode_dark_logo" = "Dark Logo";
+"app_privacy_shield_mode_dark_logo" = "Sötét logó";
 
 /* Red Screen */
-"app_privacy_shield_mode_red_screen" = "Red Screen";
+"app_privacy_shield_mode_red_screen" = "Piros képernyő";
 
 /* Green Screen */
-"app_privacy_shield_mode_green_screen" = "Green Screen";
+"app_privacy_shield_mode_green_screen" = "Zöld képernyő";
 
 /* Light Logo */
-"app_privacy_shield_mode_blue_light_logo" = "Light Logo";
+"app_privacy_shield_mode_blue_light_logo" = "Világos logo";
 
 /* White Screen */
-"app_privacy_shield_mode_white_screen" = "White Screen";
+"app_privacy_shield_mode_white_screen" = "Fehér képernyő";
 
 /* Show Sections */
-"configure_home_show_sections" = "Show Sections";
+"configure_home_show_sections" = "Szakaszok megjelenítése";
 
 /* Audit Complete */
-"audit_complete" = "Audit Complete";
+"audit_complete" = "Audit befejezve";
+
+/* Do Not Remember */
+"generic_do_not_remember" = "Do Not Remember";
