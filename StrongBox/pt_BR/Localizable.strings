@@ -522,7 +522,7 @@
 "db_management_disable_autofill_yesno_message" = "Tem certeza de que deseja fazer isso?";
 
 /* Disable AutoFill? */
-"db_management_disable_autofill_yesno_title" = "Desativar AutoPreenchimento?";
+"db_management_disable_autofill_yesno_title" = "Desativar Preencher Automático?";
 
 /* %@ for this database has been disabled. */
 "db_management_disable_biometric_notify_message_fmt" = "O %@ foi desativado para este banco de dados.";
@@ -540,7 +540,7 @@
 "db_management_disable_biomtric_simple_fmt" = "Você tem certeza de que pretende desativar o %@ deste banco de dados?";
 
 /* AutoFill Disabled */
-"db_management_disable_done" = "AutoPreenchimento Desativado";
+"db_management_disable_done" = "Preencher Automático Desativado";
 
 /* %@ has been enabled for this database. */
 "db_management_enable_biometric_notify_message_fmt" = "%@ foi ativado para este banco de dados.";
@@ -549,7 +549,7 @@
 "db_management_enable_biometric_notify_title_fmt" = "%@ Ativado";
 
 /* AutoFill Enabled */
-"db_management_enable_done" = "AutoPreenchimento Ativado";
+"db_management_enable_done" = "Preencher Automático Ativado";
 
 /* Could not change credentials */
 "db_management_error_title_couldnt_change_credentials" = "Não foi possível alterar as credenciais";
@@ -1386,10 +1386,10 @@
 "open_sequence_problem_opening_title" = "Houve um problema ao abrir o banco de dados.";
 
 /* AutoFill Crash Likely */
-"open_sequence_autofill_creash_likely_title" = "Provavelmente Ocorreu Uma Falha do AutoPreenchimento";
+"open_sequence_autofill_creash_likely_title" = "Provavelmente ocorreu uma Falha do Preencher Automático";
 
 /* Your database has encryption settings that may cause iOS Password AutoFill extensions to be terminated due to excessive resource consumption. This will mean AutoFill appears not to work. Unfortunately this is an Apple imposed limit. You could consider reducing the amount of resources consumed by your encryption settings (Memory in particular with Argon2 to below 64MB). */
-"open_sequence_autofill_creash_likely_message" = "Seu banco de dados é bem grande ou possui configuração de criptografia que fará com que as extensões de Preenchimento Automático de senhas do iOS sejam encerradas devido ao consumo exagerado de recursos.\nIsso significa que o preenchimento automático pode parecer não funcionar. Infelizmente essa é uma limitação imposta pela Apple.\nVocê pode considerar diminuir o tamanho do seu arquivo ou alterar a quantidade de recursos consumidos (Memória em particular com o Argon2 para menos de 64MB).";
+"open_sequence_autofill_creash_likely_message" = "Seu banco de dados é bem grande ou possui configuração de criptografia que fará com que as extensões de Preencher Automático de senhas do iOS sejam encerradas devido ao consumo exagerado de recursos.\nIsso significa que o Preencher Automático pode parecer não funcionar. Infelizmente essa é uma limitação imposta pela Apple.\nVocê pode considerar diminuir o tamanho do seu arquivo ou alterar a quantidade de recursos consumidos (Memória em particular com o Argon2 para menos de 64MB).";
 
 /* No Key File */
 "key_files_vc_no_key_file" = "Nenhum Arquivo Chave";
@@ -2775,7 +2775,7 @@
 "casg_yubikey_configured_slot2" = "Slot 2";
 
 /* Hardware Key Unlock is not supported in AutoFill mode due to system constraints. You can configure a Virtual Hardware Key instead. */
-"open_sequence_cannot_use_yubikey_in_autofill_mode" = "Desbloqueio com Chave de Hardware não é suportado no AutoPreenchimento devido a limitações do sistema. Você pode configurar uma Chave de Hardware Virtual no lugar.";
+"open_sequence_cannot_use_yubikey_in_autofill_mode" = "Desbloqueio com Chave de Hardware não é suportado no Preencher Automático devido a limitações do sistema. Você pode configurar uma Chave de Hardware Virtual no lugar.";
 
 /* Hardware Key Unlock is only available in the Pro edition of Strongbox */
 "open_sequence_yubikey_only_available_in_pro" = "O Desbloqueio com Chave de Hardware está disponível apenas na versão Pro do Strongbox";
@@ -2810,10 +2810,10 @@
 "casg_yubikey_configured_mfi" = "Lightning";
 
 /* AutoFill Crash Occurred */
-"autofill_did_not_close_cleanly_title" = "Houve Uma Falha no AutoPreenchimento";
+"autofill_did_not_close_cleanly_title" = "Houve uma Falha no Preencher Automático";
 
 /* It looks like the last time you used AutoFill you had a crash. This is usually due to a memory limitation. Please check your database file size and your Argon2 memory settings (should be <= 64MB) */
-"autofill_did_not_close_cleanly_message" = "Parece que houve uma falha da última vez que você usou o preenchimento automático. Isso é normalmente causado por limitações de memória do iOS. Verifique o tamanho do banco de dados e as configurações de memória Argon2 (deve ser <= 64MB)";
+"autofill_did_not_close_cleanly_message" = "Parece que houve uma falha da última vez que você usou o Preencher Automático. Isso é normalmente causado por limitações de memória do iOS. Verifique o tamanho do banco de dados e as configurações de memória Argon2 (deve ser <= 64MB)";
 
 /* Regenerate... */
 "password_generation_regenerate_ellipsis" = "Gerar novamente...";
@@ -3230,13 +3230,13 @@
 "autofill_error_unknown_db_title" = "Strongox: Banco de Dados desconhecido";
 
 /* This appears to be a reference to an older Strongbox database which can no longer be found. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill. */
-"autofill_error_unknown_db_message" = "Essa parece ser uma referência a um banco de dados do Strongbox antiga e, que não pode mais ser encontrada. O Início Rápido do banco de dados do e o Preenchimento Automático do Strongbox foi limpo e você precisa reabrir seu banco de dados para atualizar o Início Rápido e o Preenchimento Automático.";
+"autofill_error_unknown_db_message" = "Essa parece ser uma referência a um banco de dados do Strongbox antiga e, que não pode mais ser encontrada. O Início Rápido do banco de dados do e o Preencher Automático do Strongbox foi limpo e você precisa reabrir seu banco de dados para atualizar o Início Rápido e o Preencher Automático.";
 
 /* Strongbox: Error Locating Entry */
 "autofill_error_unknown_item_title" = "Strongbox: Erro Ao Localizar Registro";
 
 /* Strongbox could not find this entry, it is possibly stale. Strongbox's QuickType AutoFill database has now been cleared, and so you will need to reopen your databases to refresh QuickType AutoFill. */
-"autofill_error_unknown_item_message" = "O Strongbox não encontrou este registro, é possível que esteja desatualizado. O Início Rápido do banco de dados do e o Preenchimento Automático do Strongbox foram limpo e, você precisará reabrir seus bancos de dados para atualizar o Preenchimento Automático e o Início Rápido.";
+"autofill_error_unknown_item_message" = "O Strongbox não encontrou este registro, é possível que esteja desatualizado. O Início Rápido do banco de dados do e o Preencher Automático do Strongbox foram limpo e, você precisará reabrir seus bancos de dados para atualizar o Preencher Automático e o Início Rápido.";
 
 /* Locating... */
 "generic_status_sp_locating_ellipsis" = "Localizando...";
@@ -3260,7 +3260,7 @@
 "backup_settings_prompt_no_dont_backup_anything" = "Não, não incluir nada";
 
 /* View Debug Log */
-"safes_vc_action_view_sync_status" = "View Debug Log";
+"safes_vc_action_view_sync_status" = "Exibir Log de Depuração";
 
 /* Please send this crash report to support@strongboxsafe.com */
 "safes_vc_please_send_crash_report" = "Por favor envie o relatório deste erro para support@strongboxsafe.com";
@@ -3311,13 +3311,13 @@
 "open_sequence_storage_provider_error_title" = "Erro de Sincronização";
 
 /* If this happens repeatedly you should try re-adding your database. See the Debug Log for more...\n\nWould you like to open in offline mode instead? */
-"open_sequence_storage_provider_error_open_local_ro_instead" = "If this happens repeatedly you should try re-adding your database. See the Debug Log for more...\n\nWould you like to open in offline mode instead?";
+"open_sequence_storage_provider_error_open_local_ro_instead" = "Se isso acontecer com frequência, você deve tentar adicionar novamente o banco de dados. Consulte o Log de Depuração para obter mais informações...\n\nVocê gostaria de abrir no modo Offline?";
 
 /* Local Copy Unavailable */
 "autofill_vc_item_subtitle_local_copy_unavailable" = "Cópia Local Indisponível";
 
 /* AutoFill Disabled */
-"autofill_vc_item_subtitle_disabled" = "AutoPreenchimento Desativado";
+"autofill_vc_item_subtitle_disabled" = "Preencher Automático Desativado";
 
 /* Sync Required */
 "autofill_add_entry_sync_required_title" = "Sincronização Necessária";
@@ -3383,7 +3383,7 @@
 "yubikey_config_section_header_nfc_device_not_supported" = "YubiKey NFC (NFC Não É Suportado Neste Dispositivo)";
 
 /* NFC YubiKey (AutoFill Mode - NFC Unavailable) */
-"yubikey_config_section_header_nfc_autofill_unavailable" = "YubiKey NFC (NFC Indisponível No AutoPreenchimento)";
+"yubikey_config_section_header_nfc_autofill_unavailable" = "YubiKey NFC (NFC Indisponível no Preencher Automático)";
 
 /* Lightning YubiKey (Pro Edition Only) */
 "yubikey_config_section_header_lightning_pro_only" = "YubiKey Lightning (Apenas Versão Pro)";
@@ -3392,13 +3392,13 @@
 "yubikey_config_section_header_lightning_device_not_supported" = "YubiKey Lightning (Lightning Não Suportado Neste Dispositivo)";
 
 /* Lightning YubiKey (AutoFill Mode - Lightning Unavailable) */
-"yubikey_config_section_header_lightning_autofill_unavailable" = "YubiKey Lightning (Lightning Indisponível no AutoPreenchimento)";
+"yubikey_config_section_header_lightning_autofill_unavailable" = "YubiKey Lightning (Lightning Indisponível no Preencher Automático)";
 
 /* Are you sure you want to delete this Virtual Hardware Key? */
 "yubikey_config_are_you_sure_delete" = "Tem certeza que deseja remover está Chave de Hardware Virtual?";
 
 /* %@ (AutoFill Only) - Translator's note, the 1st parameter is the name of the virtual hardware key, e.g. Mark's Virtual Hardware Key - This string indicates that that key can only be used in AutoFill mode only, not regualr App mode */
-"yubikeys_virtual_autofill_only" = "%@ (Apenas AutoPreenchimento)";
+"yubikeys_virtual_autofill_only" = "%@ (Apenas Preencher Automático)";
 
 /* Virtual Hardware Key */
 "casg_yubikey_configured_virtual" = "Chave de Hardware Virtual";
@@ -3536,13 +3536,13 @@
 "mac_no_databases_initial_message" = "Nenhum Banco de Dados por aqui ainda.\n\nClique em ‘Adiciona Banco de Dados’ para começarmos...";
 
 /* No AutoFill Enabled Databases */
-"mac_no_autofill_enabled_databases_initial_message" = "Nenhum preenchimento automático ativo no Banco de Dados";
+"mac_no_autofill_enabled_databases_initial_message" = "Nenhum Preencher Automático ativo no Banco de Dados";
 
 /* It looks like this is your first time using AutoFill with this database.\n\nFor security reasons you must locate and select your database file for Strongbox so that the AutoFill can access it.\n\nAs a reminder your database file was last located here:\n\n%@\n\nPlease locate it now for Strongbox...  - Translator's note: The parameter is the path of the database like '/Users/mark/Desktop/my-database.kdbx' */
-"mac_autofill_first_time_locate-fmt" = "Parece que esta é a primeira vez que você usa o Preenchimento Automático com este banco de dados.\n\nPor motivos de segurança você precisa localizar e selecionar seu arquivo de banco de dados para que o Preenchimento Automático possa acessá-lo.\n\nLembrete: Seu arquivo de banco de dados foi visto por último aqui:\n\n%@\n\nPor favor, localize-o agora para o Strongbox...";
+"mac_autofill_first_time_locate-fmt" = "Parece que esta é a primeira vez que você usa o Preencher Automático com este banco de dados.\n\nPor motivos de segurança você precisa localizar e selecionar seu arquivo de banco de dados para que o Preencher Automático possa acessá-lo.\n\nLembrete: Seu arquivo de banco de dados foi visto por último aqui:\n\n%@\n\nPor favor, localize-o agora para o Strongbox...";
 
 /* Welcome to Strongbox AutoFill */
-"mac_welcome_to_autofill" = "Boas vindas ao AutoPreenchimento do Strongbox";
+"mac_welcome_to_autofill" = "Bem-vindo ao Preencher Automático do Strongbox";
 
 /* Locate '%@' - Translator's note: The parameter is the filename of the database like 'my-database.kdbx' */
 "mac_autofill_locate_file_fmt" = "Localizar '%@'";
@@ -3551,7 +3551,7 @@
 "mac_autofill_pro_feature_title" = "Funcionalidade Pro";
 
 /* AutoFill is only available on the Pro edition of Strongbox. You can upgrade like this:\n\n1. Launch Strongbox\n2. Click the 'Strongbox' menu\n3. Click 'Upgrade to Pro...'.\n\nThank you! */
-"mac_autofill_pro_feature_upgrade-message" = "AutoPreenchimento está disponível apenas na versão Pro do Strongbox. Você pode fazer o upgrade assim:\n\n1. Abra o Strongbox\n2. Clique no menu ‘Strongbox’\n3. Clique em ‘Fazer Upgrade pro Pro’!";
+"mac_autofill_pro_feature_upgrade-message" = "Preencher Automático está disponível apenas na versão Pro do Strongbox. Você pode fazer o upgrade assim:\n\n1. Abra o Strongbox\n2. Clique no menu ‘Strongbox’\n3. Clique em ‘Fazer Upgrade pro Pro’!";
 
 /* Passcode Fallback for %@ - Translators Note: This is a preference that says that the device passcode can be used as a fallback if Face ID or Touch ID fails - the parameter is either 'Touch ID' or 'Face ID' */
 "app_lock_allow_device_passcode_fallback_for_biometric_fmt" = "Senha Reserva do %@";
@@ -3893,7 +3893,7 @@
 "browse_vc_pulldown_refresh_error_title" = "Erro ao Atualizar";
 
 /* See Debug Log */
-"browse_vc_pulldown_refresh_error_message" = "See Debug Log";
+"browse_vc_pulldown_refresh_error_message" = "Ver Log de Depuração";
 
 /* Database Refreshed - No Changes */
 "browse_vc_pulldown_refresh_no_changes_title" = "Banco de Dados Atualizado - Nenhuma Mudança";
@@ -4080,7 +4080,7 @@
 "autofill_auto_unlock_try_10_minutes" = "Prefiro 10 minutos";
 
 /* AutoFill Quick Launch */
-"databases_toggle_autofill_quick_launch_context_menu" = "Início Rápido para Preenchimento Automático";
+"databases_toggle_autofill_quick_launch_context_menu" = "Início Rápido para o Preencher Automático";
 
 /* Title Matches */
 "autofill_search_title_matches_section_header" = "Título Corresponde";
@@ -4095,7 +4095,7 @@
 "autofill_search_title_service_id_section_header" = "ID do Serviço";
 
 /* The Service ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Service ID. */
-"autofill_search_service_id_section_footer" = "O ID do Serviço é um identificador enviado ao Strongbox pelo Preenchimento Automático. Isso pode ajudar na pesquisa se você definir a URL do seu registro para corresponder ao ID do Serviço. Toque para Copiar.";
+"autofill_search_service_id_section_footer" = "O ID do Serviço é um identificador enviado ao Strongbox pelo Preencher Automático. Isso pode ajudar na pesquisa se você definir a URL do seu registro para corresponder ao ID do Serviço. Toque para Copiar.";
 
 /* Results */
 "quick_view_title_no_matches_title" = "Resultados";
@@ -4667,16 +4667,16 @@
 "mac_hardware_key_selected_but_has_been_disconnected" = "⚠️ Chave Selecionada (Desconectada)";
 
 /* AutoFill Issue */
-"autofill_argon2_onboarding_issue_title" = "Problema no AutoPreenchimento";
+"autofill_argon2_onboarding_issue_title" = "Problema no Preencher Automático";
 
 /* Your database has a very high Argon2 memory setting that will cause it to crash when used in AutoFill mode.\n\nWould you like Strongbox to automatically adjust this so that you can safely use AutoFill? */
-"autofill_argon2_onboarding_issue_message" = "Seu banco de dados usa uma configuração de memória muito alta do Argon2 que fará com que ela trave quando usada no modo de Preenchimento Automático.\n\nGostaria que o Strongbox ajustasse isso automaticamente para que você possa usar o Preenchimento Automático com segurança?";
+"autofill_argon2_onboarding_issue_message" = "Seu banco de dados usa uma configuração de memória muito alta do Argon2 que fará com que ela trave quando usada no modo de Preencher Automático.\n\nGostaria que o Strongbox ajustasse isso automaticamente para que você possa usar o Preencher Automático com segurança?";
 
 /* Yes, Great Idea! */
 "generic_yes_great_idea_bang" = "Sim, ótima ideia!";
 
 /* No, I don't use AutoFill */
-"autofill_argon2_onboarding_no_use_autofill" = "Não, eu não uso o AutoPreenchimento";
+"autofill_argon2_onboarding_no_use_autofill" = "Não, eu não uso o Preencher Automático";
 
 /* Dont't Ask Again */
 "generic_dont_ask_again" = "Não Pergunte Novamente";
@@ -4724,10 +4724,10 @@
 "mac_password_gen_enter_new_separator" = "Por favor insira um novo Separador de Palavras";
 
 /* AutoFill is only available on macOS Big Sur+ */
-"autofill_app_preferences_only_avail_big_sur" = "AutoPreenchimento disponível apenas no macOS Big Sur ou superior";
+"autofill_app_preferences_only_avail_big_sur" = "Preencher Automático está disponível apenas no macOS Big Sur ou superior";
 
 /* ✅ Strongbox is enabled for Password AutoFill */
-"strongbox_is_enabled_for_autofill" = "✅ Strongbox está ativo para AutoPreenchimento de Senhas";
+"strongbox_is_enabled_for_autofill" = "✅ Strongbox está ativo para Preencher Automático de Senhas";
 
 /* ⭐️ Wow ⭐️ */
 "tip_purchased_title" = "⭐️ Uau! ⭐️";
@@ -5156,7 +5156,7 @@
 "nextgen_toolbar_settings_convenience_unlock_ellipsis" = "Configurações do Desbloqueio com Touch ID e Watch...";
 
 /* AutoFill Settings... */
-"nextgen_toolbar_settings_autofill_settings_ellipsis" = "Configurações de Autopreenchimento...";
+"nextgen_toolbar_settings_autofill_settings_ellipsis" = "Configurações do Preencher Automático...";
 
 /* Encryption Settings... */
 "nextgen_toolbar_settings_encryption_settings_ellipsis" = "Configurações de Criptografia...";
@@ -5192,7 +5192,7 @@
 "alert_enter_password_basic_length" = "Digite o Comprimento";
 
 /* Not to worry, your database is safely saved locally but could not be synchronised with the source database.\n\nIf this happens repeatedly, investigate the Debug Log and try re-adding your database. */
-"sync_nextgen_sync_issue_message" = "Not to worry, your database is safely saved locally but could not be synchronised with the source database.\n\nIf this happens repeatedly, investigate the Debug Log and try re-adding your database.";
+"sync_nextgen_sync_issue_message" = "Não se preocupe, seu banco de dados está salvo com segurança localmente, mas não pôde ser sincronizado com o banco de dados de origem.\n\nSe isso acontecer repetidamente, investigue o Log de Depuração e tente adicionar novamente o banco de dados.";
 
 /* Sync Issue */
 "nextgen_sync_issue_toast_title" = "Problema de Sincronização";
@@ -5228,7 +5228,7 @@
 "generic_action_sync" = "Sincronizar";
 
 /* Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Debug Log?\n\n%@\n */
-"sync_error_message_including_error_detail_fmt" = "Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Debug Log?\n\n%@\n";
+"sync_error_message_including_error_detail_fmt" = "Seu banco de dados está salvo com segurança, mas houve um erro na sincronização. Gostaria de tentar novamente ou dar uma olhada no Log de Depuração?\n\n%@\n";
 
 /* This database is in Offline Mode and cannot be synced. */
 "database_is_in_offline_mode_cannot_be_synced" = "Este banco de dados está no Modo Offline e não pode ser sincronizado.";
@@ -5339,16 +5339,16 @@
 "password_history_previous_passwords" = "Senhas Anteriores";
 
 /* Turn On Browser AutoFill? */
-"onboarding_autofill_title_turn_on" = "Ativar o preenchimento automático no navegador?";
+"onboarding_autofill_title_turn_on" = "Ativar o Preencher Automático no Navegador?";
 
 /* Turn On AutoFill */
-"onboarding_autofill_option_turn_on_autofill" = "Ativar AutoPreenchimento";
+"onboarding_autofill_option_turn_on_autofill" = "Ativar o Preencher Automático";
 
 /* No Thanks */
 "generic_no_thanks" = "Não, Obrigado";
 
 /* Browser AutoFill is available but currently not turned on. Would you like to enable Browser AutoFill so that you can conveniently and securely login from within your browser? */
-"onboarding_autofill_msg_available_turn_on_question" = "O preenchimento automático do navegador está disponível, mas atualmente não foi ativado. Gostaria de habilitar o preenchimento automático no Navegador para que você possa logar de forma conveniente e segura a partir do seu navegador?";
+"onboarding_autofill_msg_available_turn_on_question" = "O Preencher Automático do Navegador está disponível, mas atualmente não foi ativado. Gostaria de habilitar o Preencher Automático no Navegador para que você possa logar de forma conveniente e segura a partir do seu Navegador?";
 
 /* On - L10n note - This is a state of affairs - A setting/configuration that is On */
 "generic_state_on" = "Ativado";
@@ -5366,7 +5366,7 @@
 "item_properties_inherited_yes_no_fmt" = "Herdado (%@)";
 
 /* The Searchable setting affects whether this group and its contents are visible in search results, AutoFill suggestions and most views. This is useful if you'd like to archive/ignore some items, but not permanently delete them. */
-"group_properties_searchable_footer_info" = "A configuração Pesquisável afeta o fato de esse grupo e seu conteúdo estarem visíveis nos resultados de pesquisa, nas sugestões de auto preenchimento e na maioria das exibições. Isso é útil se você quiser arquivar ou ignorar alguns itens, mas não excluí-los permanentemente.";
+"group_properties_searchable_footer_info" = "A configuração Pesquisável afeta o fato de esse grupo e seu conteúdo estarem visíveis nos resultados de pesquisa, nas sugestões do Preencher Automático e na maioria das exibições. Isso é útil se você quiser arquivar ou ignorar alguns itens, mas não excluí-los permanentemente.";
 
 /* Empty Recycle Bin */
 "browse_vc_action_empty_recycle_bin" = "Esvaziar Lixeira";
@@ -5569,7 +5569,7 @@
 "generic_advanced_noun" = "Avançado";
 
 /* AutoFill - L10n: Noun referring to AutoFill Settings */
-"generic_autofill_settings" = "Preenchimento Automático";
+"generic_autofill_settings" = "Preencher Automático";
 
 /* Automatic Locking - L10n: Noun referring to Automatic Locking Settings */
 "generic_auto_lock_settings" = "Bloqueio Automático";
@@ -5647,10 +5647,10 @@
 "view_audit_issue_details_ellipsis" = "Detalhes dos problemas de auditoria...";
 
 /* Suggest in AutoFill - L10n - Whether an entry should be suggested in the AutoFill dropdown in your browser - It's a Yes/No flag in the UI */
-"suggest_in_autofill_yesno_flag" = "Sugerir no preenchimento automático";
+"suggest_in_autofill_yesno_flag" = "Sugerir no Preencher Automático";
 
 /* Toggle Suggest in AutoFill */
-"item_settings_action_verb_toggle_suggest_in_autofill" = "Alternar sugestão para preenchimento automático";
+"item_settings_action_verb_toggle_suggest_in_autofill" = "Alternar sugestão para Preencher Automático";
 
 /* Toggle Audit this Item */
 "item_settings_action_verb_toggle_suggest_in_audit" = "Alternar Auditoria deste item";
@@ -5788,7 +5788,7 @@
 "error_rename_file_already_exists" = "Não é possível renomear o arquivo porque já existe um arquivo com esse nome.";
 
 /* Suggestable in AutoFill */
-"generic_autofill_suggestable" = "Sugerir no preenchimento automático";
+"generic_autofill_suggestable" = "Sugerir no Preencher Automático";
 
 /* Wi-Fi Sync */
 "storage_provider_name_wifi_sync" = "Wi-Fi Sync";
@@ -5917,10 +5917,10 @@
 "action_exclude_items_from_audit_verb" = "Excluir da Auditoria";
 
 /* Suggest in AutoFill */
-"action_suggest_items_in_autofill_verb" = "Sugerir no preenchimento automático";
+"action_suggest_items_in_autofill_verb" = "Sugerir no Preencher Automático";
 
 /* Do not suggest in AutoFill */
-"action_do_not_suggest_items_in_autofill_verb" = "Não sugerir no preenchimento automático";
+"action_do_not_suggest_items_in_autofill_verb" = "Não sugerir no Preencher Automático";
 
 /* Import Warning */
 "generic_import_warning_title" = "Aviso de importação";
@@ -6556,7 +6556,7 @@
 "refresh_challenge_interval" = "Intervalo de Atualização do Desafio";
 
 /* AutoFill Refresh Suppressed */
-"autofill_refresh_challenge_suppressed" = "Eliminar Atualização de Preenchimento Automático";
+"autofill_refresh_challenge_suppressed" = "Eliminar Atualização do Preencher Automático";
 
 /* Hardware Key Settings */
 "nav_title_hardware_key_settings" = "Configurações da Chave de Hardware";
@@ -6694,4 +6694,13 @@
 "audit_complete" = "Auditoria Concluída";
 
 /* Do Not Remember */
-"generic_do_not_remember" = "Do Not Remember";
+"generic_do_not_remember" = "Não Lembrar";
+
+/* Strongbox Zero %@ - L10n note: 1st parameter is the App Version, e.g. 'Strongbox Zero 1.60.23' */
+"subtitle_app_version_info_zero_fmt" = "Strongbox Zero %@";
+
+/* About Strongbox Zero %@ - L10n note: 1st parameter is the App Version, e.g. 'About Strongbox Zero 1.60.23' */
+"prefs_vc_app_version_info_zero_fmt" = "About Strongbox Zero %@";
+
+/* Zero Version %@ */
+"about_strongbox_zero_version_fmt" = "Zero Version %@";
