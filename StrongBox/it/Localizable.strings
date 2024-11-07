@@ -606,7 +606,7 @@
 "item_details_section_header_metadata" = "Metadati";
 
 /* Setup 2FA Code... */
-"item_details_setup_totp" = "Setup 2FA Code...";
+"item_details_setup_totp" = "Impostazione Codice 2FA...";
 
 /* Could not set 2FA because the format is unsupported. */
 "item_details_setup_totp_failed_message" = "Could not set 2FA Code because the format is unsupported.";
@@ -6457,25 +6457,25 @@
 "mac_lock_screen_enter_pw_or_touchid_or_watch" = "Enter password or unlock with Touch ID/Watch.";
 
 /* Enter password or unlock with Touch ID. */
-"mac_lock_screen_enter_pw_or_touchid" = "Enter password or unlock with Touch ID.";
+"mac_lock_screen_enter_pw_or_touchid" = "Inserire la password o sbloccare con Touch ID.";
 
 /* Enter password or unlock with Watch. */
 "mac_lock_screen_enter_pw_or_watch" = "Enter password or unlock with Watch.";
 
 /* Enter password to unlock. */
-"mac_lock_screen_enter_pw" = "Enter password to unlock.";
+"mac_lock_screen_enter_pw" = "Inserire la password per sbloccare.";
 
 /* Reveal or Conceal (⌘R to Toggle) */
-"secure_text_field_conceal_reveal_tooltip" = "Reveal or Conceal (⌘R to Toggle)";
+"secure_text_field_conceal_reveal_tooltip" = "Rivelare o Nascondere (⌘R per Alternare)";
 
 /* Audit Disabled */
-"audit_disabled" = "Audit Disabled";
+"audit_disabled" = "Revisione Disattivata";
 
 /* Tap the Settings button to enable. */
-"generic_tap_the_settings_button_to_configure" = "Tap the Settings button to configure.";
+"generic_tap_the_settings_button_to_configure" = "Toccare le Impostazioni per configurare.";
 
 /* Auditing... */
-"generic_verb_auditing_in_progress_ellipsis" = "Auditing...";
+"generic_verb_auditing_in_progress_ellipsis" = "Revisione...";
 
 /* These method(s) are no longer advised. Strongbox does not have full control over the read, write and locate functions and so we cannot guarantee data integrity. However, typically, locally stored on-device files accessed in this way are not problematic.\n\nNB: Strongbox does not have any knowledge of where files selected in this way are located. */
 "deprecated_storage_footer_text_no_network_db" = "These method(s) are no longer advised. Strongbox does not have full control over the read, write and locate functions and so we cannot guarantee data integrity. However, typically, locally stored on-device files accessed in this way are not problematic.\n\nNB: Strongbox does not have any knowledge of where files selected in this way are located.";
@@ -6487,40 +6487,40 @@
 
 
 /* %@ [Slot %@ CR Unavailable] - L10n Guide: A hardware key is present/inserted in the device, but but the Challenge Response functionality is not available, probably by error or user mistake. The first parameter is device serial number and the second is the number "1" or "2". */
-"mac_hardware_key_key_connected_but_cr_unavailable" = "%@ [Slot %@ CR Unavailable]";
+"mac_hardware_key_key_connected_but_cr_unavailable" = "%@ [Slot %@ CR Non Disponibile]";
 
 /* New Virtual Hardware Key... */
-"new_virtual_hardware_key_ellipsis" = "New Virtual Hardware Key...";
+"new_virtual_hardware_key_ellipsis" = "Nuova Chiave Hardware Virtuale...";
 
 /* New Virtual Hardware Key */
-"new_virtual_hardware_key" = "New Virtual Hardware Key";
+"new_virtual_hardware_key" = "Nuova Chiave Hardware Virtuale";
 
 /* No Connected Keys Detected */
-"no_connected_keys_detected" = "No Connected Keys Detected";
+"no_connected_keys_detected" = "Nessuna Chiave Connessa Rilevata";
 
 /* Virtual Hardware Keys */
-"virtual_hardware_keys" = "Virtual Hardware Keys";
+"virtual_hardware_keys" = "Chiavi Hardware Virtuali";
 
 /* Are you sure you would like to delete the virtual hardware key '%@'? - L10n note: 1st param is the name of the key, something like "My YubiKey Backup Key" */
-"ays_delete_virtual_hardware_key_fmt" = "Are you sure you would like to delete the virtual hardware key '%@'?";
+"ays_delete_virtual_hardware_key_fmt" = "Si è sicuri di voler eliminare la chiave hardware virtuale '%@'?";
 
 /* Enter a friendly name and the HMAC-SHA1 challenge response secret to create a new virtual hardware key. */
-"virtual_hardware_key_welcome_msg" = "Enter a friendly name and the HMAC-SHA1 challenge response secret to create a new virtual hardware key.";
+"virtual_hardware_key_welcome_msg" = "Immettere un nome semplice e il challenge response segreto HMAC-SHA1 per creare una nuova chiave hardware virtuale.";
 
 /* Name - L10n Note: A noun, the name of something, e.g. the database name "Mark's Database" */
-"generic_name" = "Name";
+"generic_name" = "Nome";
 
 /* My Backup Key - L10n note: A sample placeholder name for a virtual hardware key. */
-"sample_vkey_name_my_backup_key" = "My Backup Key";
+"sample_vkey_name_my_backup_key" = "La Mia Chiave Di Backup";
 
 /* Secret - L10n Note: This relates to virtual hardware keys which have associated secrets, a long string of hex digits used to encrypt the database. The secret is something the user knows and programs their hardware key with. */
-"vkey_secret" = "Secret";
+"vkey_secret" = "Segreto";
 
 /* This is the secret you programmed your hardware key with. You should store it safely offline in case of device loss. Strongbox will store it safely in the secure enclave. */
-"vkey_secret_description" = "This is the secret you programmed your hardware key with. You should store it safely offline in case of device loss. Strongbox will store it safely in the secure enclave.";
+"vkey_secret_description" = "Questo è il segreto con cui è stata programmata la chiave hardware. È bene memorizzarla in modo sicuro offline in caso di perdita del dispositivo. Strongbox la memorizzerà in modo sicuro nel Secure Enclave.";
 
 /* Experimental Feature */
-"experimental_feature_warning_title" = "Experimental Feature";
+"experimental_feature_warning_title" = "Funzionalità Sperimentale";
 
 /* Caution is required using this feature. While we have performed extensive testing this is still an early release feature which could corrupt your database. You should only use this if you are an advanced and technical user with a regular backup system in place.\n\nThank you for helping to test Strongbox. Feedback welcome.\n\nDo you want to continue? */
 "experimental_feature_warning_message_yes_no" = "Caution is required using this feature. While we have performed extensive testing this is still an early release feature which could corrupt your database. You should only use this if you are an advanced and technical user with a regular backup system in place.\n\nThank you for helping to test Strongbox. Feedback welcome.\n\nDo you want to continue?";
@@ -6535,10 +6535,10 @@
 "hardware_key_caching_onboarding_msg" = "Using a hardware key is a great security choice but it can be a little inconvenient.\n\nWould you like to enable our caching feature?\n\nWith this enabled Strongbox will do things like remember the last challenge response for a period of time. This means you don't need to use your key so often.\n\nFull configuration is available in settings. For more details see online.";
 
 /* Hardware Key - L10n Note: A physical hardware key such as a YubiKey or one of Strongboxs "Virtual Hardware Keys" which is a software emulation of the YubiKey */
-"generic_hardware_key" = "Hardware Key";
+"generic_hardware_key" = "Chiave Hardware";
 
 /* On Every Save - L10n Note: This is a parameter for how often the YubiKey challenge should be refreshed. This means it is refreshed every time the user saves */
-"interval_on_every_save" = "On Every Save";
+"interval_on_every_save" = "Ad Ogni Salvataggio";
 
 /* Forever */
 "generic_duration_forever" = "Forever";
@@ -6691,7 +6691,7 @@
 "configure_home_show_sections" = "Show Sections";
 
 /* Audit Complete */
-"audit_complete" = "Audit Complete";
+"audit_complete" = "Revisione Completata";
 
 /* Do Not Remember */
 "generic_do_not_remember" = "Do Not Remember";
