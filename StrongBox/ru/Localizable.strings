@@ -561,7 +561,7 @@
 "db_management_statistics_none" = "<Отсутствует>";
 
 /* Add Attachment... */
-"item_details_add_attachment_button" = "Добавить вложение";
+"item_details_add_attachment_button" = "Вложение";
 
 /* Email Copied */
 "item_details_email_copied" = "Email скопирован";
@@ -573,7 +573,7 @@
 "item_details_item_history" = "История записи";
 
 /* New Custom Field... */
-"item_details_new_custom_field_button" = "Добавить поле";
+"item_details_new_custom_field_button" = "Строковое поле";
 
 /* Notes Copied */
 "item_details_notes_copied" = "Заметки скопированы";
@@ -606,7 +606,7 @@
 "item_details_section_header_metadata" = "Метаданные";
 
 /* Setup 2FA Code... */
-"item_details_setup_totp" = "Добавить 2FA";
+"item_details_setup_totp" = "Код 2FA";
 
 /* Could not set 2FA because the format is unsupported. */
 "item_details_setup_totp_failed_message" = "Не удалось установить 2FA, т.к. формат не поддерживается.";
@@ -3260,7 +3260,7 @@
 "backup_settings_prompt_no_dont_backup_anything" = "Не включать ничего";
 
 /* View Debug Log */
-"safes_vc_action_view_sync_status" = "View Debug Log";
+"safes_vc_action_view_sync_status" = "Журнал отладки";
 
 /* Please send this crash report to support@strongboxsafe.com */
 "safes_vc_please_send_crash_report" = "Пожалуйста, отправьте отчёт о сбое на support@strongboxsafe.com";
@@ -3311,7 +3311,7 @@
 "open_sequence_storage_provider_error_title" = "Ошибка при синхронизации";
 
 /* If this happens repeatedly you should try re-adding your database. See the Debug Log for more...\n\nWould you like to open in offline mode instead? */
-"open_sequence_storage_provider_error_open_local_ro_instead" = "If this happens repeatedly you should try re-adding your database. See the Debug Log for more...\n\nWould you like to open in offline mode instead?";
+"open_sequence_storage_provider_error_open_local_ro_instead" = "Если ошибка повторяется, попробуйте удалить и заново добавить БД. См. сведения и ошибки синхронизации в журнале отладки\n\nХотите открыть офлайн?";
 
 /* Local Copy Unavailable */
 "autofill_vc_item_subtitle_local_copy_unavailable" = "Локальная копия недоступна";
@@ -3893,7 +3893,7 @@
 "browse_vc_pulldown_refresh_error_title" = "Ошибка при обновлении";
 
 /* See Debug Log */
-"browse_vc_pulldown_refresh_error_message" = "See Debug Log";
+"browse_vc_pulldown_refresh_error_message" = "Журнал отладки";
 
 /* Database Refreshed - No Changes */
 "browse_vc_pulldown_refresh_no_changes_title" = "Изменений не найдено";
@@ -5192,7 +5192,7 @@
 "alert_enter_password_basic_length" = "Длина пароля";
 
 /* Not to worry, your database is safely saved locally but could not be synchronised with the source database.\n\nIf this happens repeatedly, investigate the Debug Log and try re-adding your database. */
-"sync_nextgen_sync_issue_message" = "Not to worry, your database is safely saved locally but could not be synchronised with the source database.\n\nIf this happens repeatedly, investigate the Debug Log and try re-adding your database.";
+"sync_nextgen_sync_issue_message" = "Ваша БД сохранена локально, но не может быть синхронизирована.\n\nЕсли это происходит неоднократно, проверьте журнал отладки и попробуйте заново добавить БД.";
 
 /* Sync Issue */
 "nextgen_sync_issue_toast_title" = "Ошибка при синхронизации";
@@ -5228,7 +5228,7 @@
 "generic_action_sync" = "Синхронизация";
 
 /* Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Debug Log?\n\n%@\n */
-"sync_error_message_including_error_detail_fmt" = "Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Debug Log?\n\n%@\n";
+"sync_error_message_including_error_detail_fmt" = "БД сохранена, но при синхронизации произошла ошибка. Хотите попробовать ещё раз или посмотреть журнал отладки?\n\n%@\n";
 
 /* This database is in Offline Mode and cannot be synced. */
 "database_is_in_offline_mode_cannot_be_synced" = "БД в офлайне и не может быть синхронизирована.";
@@ -5605,7 +5605,7 @@
 "details_add_new_ssh_key_rsa" = "RSA";
 
 /* New SSH Key... */
-"details_add_new_ssh_key_ellipsis" = "Добавить ключ SSH";
+"details_add_new_ssh_key_ellipsis" = "Ключ SSH";
 
 /* Actions - L10n Note: A noun, e.g a list of actions that can be performed */
 "generic_noun_actions" = "Действия";
@@ -6226,7 +6226,7 @@
 "character_number_n_copied_fmt" = "Символ %@ скопирован";
 
 /* Tap to add tags... */
-"item_details_tap_to_add_tags" = "Добавить  тег";
+"item_details_tap_to_add_tags" = "Теги";
 
 /* Edit Tags */
 "tags_editor_header_edit_tags" = "Теги";
@@ -6694,13 +6694,13 @@
 "audit_complete" = "Проверка выполнена";
 
 /* Do Not Remember */
-"generic_do_not_remember" = "Do Not Remember";
+"generic_do_not_remember" = "Не запоминать";
 
 /* Strongbox Zero %@ - L10n note: 1st parameter is the App Version, e.g. 'Strongbox Zero 1.60.23' */
 "subtitle_app_version_info_zero_fmt" = "Strongbox Zero %@";
 
 /* About Strongbox Zero %@ - L10n note: 1st parameter is the App Version, e.g. 'About Strongbox Zero 1.60.23' */
-"prefs_vc_app_version_info_zero_fmt" = "About Strongbox Zero %@";
+"prefs_vc_app_version_info_zero_fmt" = "Strongbox Zero %@";
 
 /* Zero Version %@ */
-"about_strongbox_zero_version_fmt" = "Zero Version %@";
+"about_strongbox_zero_version_fmt" = "Zero версия %@";
