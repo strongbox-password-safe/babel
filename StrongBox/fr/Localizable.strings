@@ -3260,7 +3260,7 @@
 "backup_settings_prompt_no_dont_backup_anything" = "Non, ne rien inclure";
 
 /* View Debug Log */
-"safes_vc_action_view_sync_status" = "View Debug Log";
+"safes_vc_action_view_sync_status" = "Afficher journal de débogage";
 
 /* Please send this crash report to support@strongboxsafe.com */
 "safes_vc_please_send_crash_report" = "Veuillez envoyer ce rapport de plantage à support@strongboxsafe.com";
@@ -3311,7 +3311,7 @@
 "open_sequence_storage_provider_error_title" = "Erreur de synchro";
 
 /* If this happens repeatedly you should try re-adding your database. See the Debug Log for more...\n\nWould you like to open in offline mode instead? */
-"open_sequence_storage_provider_error_open_local_ro_instead" = "If this happens repeatedly you should try re-adding your database. See the Debug Log for more...\n\nWould you like to open in offline mode instead?";
+"open_sequence_storage_provider_error_open_local_ro_instead" = "Si cela se reproduit, vous devriez essayer de ré-ajouter votre base de données. Voir le journal de débogage pour plus d'informations...\n\nVoulez-vous ouvrir en mode hors ligne à la place ?";
 
 /* Local Copy Unavailable */
 "autofill_vc_item_subtitle_local_copy_unavailable" = "Copie locale indisponible";
@@ -3893,7 +3893,7 @@
 "browse_vc_pulldown_refresh_error_title" = "Erreur d'actualisation";
 
 /* See Debug Log */
-"browse_vc_pulldown_refresh_error_message" = "See Debug Log";
+"browse_vc_pulldown_refresh_error_message" = "Voir journal de débogage";
 
 /* Database Refreshed - No Changes */
 "browse_vc_pulldown_refresh_no_changes_title" = "Base de données mise à jour - Aucun changement";
@@ -4091,11 +4091,11 @@
 /* Other Matches */
 "autofill_search_other_matches_section_header" = "Autres correspondances";
 
-/* Service ID */
-"autofill_search_title_service_id_section_header" = "ID de service";
+/* Caller ID */
+"autofill_search_title_service_id_section_header" = "Caller ID";
 
-/* The Service ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Service ID. */
-"autofill_search_service_id_section_footer" = "L'ID de service est un identifiant envoyé à Strongbox par le remplissage automatique. Cela peut aider à la recherche si vous définissez l'URL de votre entrée pour correspondre à l'ID de service. Appuyez pour copier.";
+/* The Caller ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Caller ID. */
+"autofill_search_service_id_section_footer" = "The Caller ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Caller ID. Tap to Copy.";
 
 /* Results */
 "quick_view_title_no_matches_title" = "Résultats";
@@ -5192,7 +5192,7 @@
 "alert_enter_password_basic_length" = "Saisir la longueur";
 
 /* Not to worry, your database is safely saved locally but could not be synchronised with the source database.\n\nIf this happens repeatedly, investigate the Debug Log and try re-adding your database. */
-"sync_nextgen_sync_issue_message" = "Not to worry, your database is safely saved locally but could not be synchronised with the source database.\n\nIf this happens repeatedly, investigate the Debug Log and try re-adding your database.";
+"sync_nextgen_sync_issue_message" = "Ne vous inquiétez pas, votre base de données est bien sauvegardée localement, mais n'a pas pu être synchronisée avec la base de données source.\n\nSi cela se reproduit, vérifiez le journal de débogage et essayez de ré-ajouter votre base de données.";
 
 /* Sync Issue */
 "nextgen_sync_issue_toast_title" = "Problème de synchronisation";
@@ -5228,7 +5228,7 @@
 "generic_action_sync" = "Synchroniser";
 
 /* Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Debug Log?\n\n%@\n */
-"sync_error_message_including_error_detail_fmt" = "Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Debug Log?\n\n%@\n";
+"sync_error_message_including_error_detail_fmt" = "Votre base de données est bien sauvegardée, mais il y a eu une erreur de synchronisation. Voulez-vous réessayer ou jeter un œil au journal de débogage ?\n\n%@\n";
 
 /* This database is in Offline Mode and cannot be synced. */
 "database_is_in_offline_mode_cannot_be_synced" = "Cette base de données est en mode hors-ligne et ne peut pas être synchronisée.";
@@ -6694,13 +6694,22 @@
 "audit_complete" = "Audit terminé";
 
 /* Do Not Remember */
-"generic_do_not_remember" = "Do Not Remember";
+"generic_do_not_remember" = "Ne pas se souvenir";
 
 /* Strongbox Zero %@ - L10n note: 1st parameter is the App Version, e.g. 'Strongbox Zero 1.60.23' */
 "subtitle_app_version_info_zero_fmt" = "Strongbox Zero %@";
 
 /* About Strongbox Zero %@ - L10n note: 1st parameter is the App Version, e.g. 'About Strongbox Zero 1.60.23' */
-"prefs_vc_app_version_info_zero_fmt" = "About Strongbox Zero %@";
+"prefs_vc_app_version_info_zero_fmt" = "À propos de Strongbox Zero %@";
 
 /* Zero Version %@ */
-"about_strongbox_zero_version_fmt" = "Zero Version %@";
+"about_strongbox_zero_version_fmt" = "Version Zero %@";
+
+/* Unzip First? */
+"import_file_zip_detected_ask_unzip_title" = "Décompresser d'abord ?";
+
+/* This appears to be a Zip file rather than a database.\n\nShould Strongbox try to unzip first and then import a database if it can find one? */
+"import_file_zip_detected_ask_unzip_msg" = "Il semble s'agir d'un fichier Zip plutôt que d'une base de données.\n\nStrongbox doit-il essayer de le décompresser et importer une base de données s'il en trouve une ?";
+
+/* No databases were found inside this Zip file. */
+"import_file_zip_detected_ask_unzip_msg" = "Aucune base de données n'a été trouvée dans ce fichier Zip.";

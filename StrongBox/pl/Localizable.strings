@@ -4091,11 +4091,11 @@
 /* Other Matches */
 "autofill_search_other_matches_section_header" = "Inne dopasowania";
 
-/* Service ID */
-"autofill_search_title_service_id_section_header" = "ID usługi";
+/* Caller ID */
+"autofill_search_title_service_id_section_header" = "Identyfikator rozmówcy";
 
-/* The Service ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Service ID. */
-"autofill_search_service_id_section_footer" = "Identyfikator usługi jest przekazywany przez funkcję Automatycznego Uzupełniania. Pomaga znaleźć wpis, jeśli ustawisz taki sam adres URL, jak identyfikator usługi.";
+/* The Caller ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Caller ID. */
+"autofill_search_service_id_section_footer" = "Identyfikator rozmówcy jest identyfikatorem wysłanym do Strongbox przez AutoFill. Może to pomóc w wyszukiwaniu, jeśli ustawisz adres URL Twojego wpisu, który pasuje do tego identyfikatora. Dotknij, aby skopiować.";
 
 /* Results */
 "quick_view_title_no_matches_title" = "Wyniki";
@@ -6433,7 +6433,7 @@
 "navigation_tab_home" = "Strona główna";
 
 /* Database Saved */
-"generic_database_saved" = "Database Saved";
+"generic_database_saved" = "Baza danych zapisana";
 
 /* All Sections Hidden */
 "home_view_all_sections_hidden" = "Wszystkie sekcje ukryte";
@@ -6704,3 +6704,12 @@
 
 /* Zero Version %@ */
 "about_strongbox_zero_version_fmt" = "Wersja Zero %@";
+
+/* Unzip First? */
+"import_file_zip_detected_ask_unzip_title" = "Rozpakować najpierw?";
+
+/* This appears to be a Zip file rather than a database.\n\nShould Strongbox try to unzip first and then import a database if it can find one? */
+"import_file_zip_detected_ask_unzip_msg" = "Wygląda na to, że jest to plik Zip, a nie baza danych.\n\nCzy Strongbox powinien najpierw spróbować rozpakować, a następnie zaimportować bazę danych, jeśli taką znajdzie?";
+
+/* No databases were found inside this Zip file. */
+"import_file_zip_detected_ask_unzip_msg" = "W tym pliku Zip nie znaleziono żadnych baz danych.";

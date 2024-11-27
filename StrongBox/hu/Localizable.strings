@@ -375,7 +375,7 @@
 "browse_vc_group_path_string_fmt" = "(%@)";
 
 /* '%@': No 2FA setup to Copy! */
-"browse_vc_no_totp_to_copy_fmt" = "'%@': No 2FA setup to Copy!";
+"browse_vc_no_totp_to_copy_fmt" = "'%@': Nincs másolható 2FA beállítás!";
 
 /* '%@' Notes Copied  - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
 "browse_vc_notes_copied_fmt" = "'%@' Bejegyzés átmásolva";
@@ -609,16 +609,16 @@
 "item_details_setup_totp" = "Kétfaktoros kód beállítása...";
 
 /* Could not set 2FA because the format is unsupported. */
-"item_details_setup_totp_failed_message" = "Could not set 2FA Code because the format is unsupported.";
+"item_details_setup_totp_failed_message" = "Nem sikerült beállítani a 2FA kódot, mert a formátum nem támogatott.";
 
 /* Failed to Set 2FA */
-"item_details_setup_totp_failed_title" = "Failed to Set 2FA Code";
+"item_details_setup_totp_failed_title" = "Nem sikerült beállítani a 2FA kódot";
 
 /* You can setup 2FA Code by using a QR Code, or manually by entering the secret or an OTPAuth URL */
-"item_details_setup_totp_how_message" = "You can setup a 2FA Code by using a QR Code, or manually by entering the secret or an OTPAuth URL";
+"item_details_setup_totp_how_message" = "A 2FA-t beállíthatja QR-kód használatával, vagy manuálisan a titkos vagy egy OTPAuth URL megadásával";
 
 /* How would you like to setup 2FA? */
-"item_details_setup_totp_how_title" = "How would you like to setup 2FA?";
+"item_details_setup_totp_how_title" = "Hogyan szeretné beállítani a 2FA kódot?";
 
 /* Manual (Standard/RFC 6238)... */
 "item_details_setup_totp_manual_rfc" = "Manuális (Standard/RFC 6238)...";
@@ -2427,7 +2427,7 @@
 "mac_undo_action_set_totp" = "2FA beállítása";
 
 /* Clear 2FA */
-"mac_undo_action_clear_totp" = "Clear 2FA";
+"mac_undo_action_clear_totp" = "2FA kód törlése";
 
 /* Add Items */
 "mac_undo_action_add_items" = "Elemek hozzáadása";
@@ -3260,7 +3260,7 @@
 "backup_settings_prompt_no_dont_backup_anything" = "Nem, nem tartalmaz semmit";
 
 /* View Debug Log */
-"safes_vc_action_view_sync_status" = "View Debug Log";
+"safes_vc_action_view_sync_status" = "Hibajavítási napló megtekintése";
 
 /* Please send this crash report to support@strongboxsafe.com */
 "safes_vc_please_send_crash_report" = "Kérjük, küldje el ezt a hibajelentést a support@strongboxsafe.com címre";
@@ -3311,7 +3311,7 @@
 "open_sequence_storage_provider_error_title" = "Szinkronizálási hiba";
 
 /* If this happens repeatedly you should try re-adding your database. See the Debug Log for more...\n\nWould you like to open in offline mode instead? */
-"open_sequence_storage_provider_error_open_local_ro_instead" = "If this happens repeatedly you should try re-adding your database. See the Debug Log for more...\n\nWould you like to open in offline mode instead?";
+"open_sequence_storage_provider_error_open_local_ro_instead" = "Ha ez ismételten előfordul, akkor próbálja meg újra hozzáadni az adatbázist. Nézze meg a hibakeresési szinkronizálási naplót a részletekért...\n\nSzeretné inkább offline módban megnyitni?";
 
 /* Local Copy Unavailable */
 "autofill_vc_item_subtitle_local_copy_unavailable" = "Helyi másolat nem elérhető";
@@ -3893,7 +3893,7 @@
 "browse_vc_pulldown_refresh_error_title" = "Hiba frissítés";
 
 /* See Debug Log */
-"browse_vc_pulldown_refresh_error_message" = "See Debug Log";
+"browse_vc_pulldown_refresh_error_message" = "Hibajavítási napló megtekintése";
 
 /* Database Refreshed - No Changes */
 "browse_vc_pulldown_refresh_no_changes_title" = "Adatbázis frissítve - Nincs változás";
@@ -4059,7 +4059,7 @@
 "autofill_info_totp_copied_title" = "2FA Másolva";
 
 /* Your 2FA Code has been copied to the clipboard. */
-"autofill_info_totp_copied_message" = "Your 2FA Code has been copied to the clipboard.";
+"autofill_info_totp_copied_message" = "A 2FA kódot a vágólapra másoltuk.";
 
 /* Convenience Auto Unlock */
 "prefs_vc_autofill_convenience_auto_unlock" = "Kényelmi feloldás";
@@ -4091,11 +4091,11 @@
 /* Other Matches */
 "autofill_search_other_matches_section_header" = "Egyéb találatok";
 
-/* Service ID */
-"autofill_search_title_service_id_section_header" = "Szolgáltatás azonosítója";
+/* Caller ID */
+"autofill_search_title_service_id_section_header" = "Hívóazonosító";
 
-/* The Service ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Service ID. */
-"autofill_search_service_id_section_footer" = "A Service ID egy azonosító, amelyet az automatikus kitöltő küld a Strongboxnak. Segíthet a keresésben, ha a bejegyzés URL-címét úgy állítja be, hogy megfeleljen a szolgáltatásazonosítónak. Érintse meg a Másolás gombot.";
+/* The Caller ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Caller ID. */
+"autofill_search_service_id_section_footer" = "A hívóazonosító egy olyan azonosító, amelyet az AutoFill küld a Strongboxnak. Segíthet a keresésben, ha a bejegyzés URL-címét úgy állítja be, hogy az megegyezzen a hívószám azonosítójával. Érintse meg a Másolás gombot.";
 
 /* Results */
 "quick_view_title_no_matches_title" = "Eredmények";
@@ -4621,7 +4621,7 @@
 "import_successful_message" = "Az importálás sikeres volt! Most állítsunk be egy erős mesterjelszót, és mentsük el az új Strongbox adatbázist.";
 
 /* Are you sure you want to clear the 2FA Code for this entry? */
-"are_you_sure_clear_totp" = "Are you sure you want to clear the 2FA Code for this entry?";
+"are_you_sure_clear_totp" = "Biztos, hogy törli a 2FA kódot ehhez a bejegyzéshez?";
 
 /* Date Created (Precise) */
 "databases_preferences_subtitle_field_name_create_date_precise" = "Létrehozás dátuma (pontos)";
@@ -5192,7 +5192,7 @@
 "alert_enter_password_basic_length" = "Adja meg a hosszt";
 
 /* Not to worry, your database is safely saved locally but could not be synchronised with the source database.\n\nIf this happens repeatedly, investigate the Debug Log and try re-adding your database. */
-"sync_nextgen_sync_issue_message" = "Not to worry, your database is safely saved locally but could not be synchronised with the source database.\n\nIf this happens repeatedly, investigate the Debug Log and try re-adding your database.";
+"sync_nextgen_sync_issue_message" = "Ne aggódjon, az adatbázisa biztonságosan el van mentve helyben, de nem lehetett szinkronizálni a forrásadatbázissal.\n\nHa ez ismételten előfordul, vizsgálja meg a hibajavítási naplót, és próbálja meg újra hozzáadni az adatbázisát.";
 
 /* Sync Issue */
 "nextgen_sync_issue_toast_title" = "Szinkronizálási gond";
@@ -5228,7 +5228,7 @@
 "generic_action_sync" = "Szinkronizálás";
 
 /* Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Debug Log?\n\n%@\n */
-"sync_error_message_including_error_detail_fmt" = "Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Debug Log?\n\n%@\n";
+"sync_error_message_including_error_detail_fmt" = "Az adatbázisa biztonságosan elmentésre került, de hiba történt a szinkronizálás során. Szeretné újra megpróbálni vagy megnézni a hibanaplót?\n\n%@\n";
 
 /* This database is in Offline Mode and cannot be synced. */
 "database_is_in_offline_mode_cannot_be_synced" = "Ez az adatbázis offline módban van, és nem szinkronizálható.";
@@ -5321,7 +5321,7 @@
 "safes_vc_import_icloud" = "iCloud kulcskarika (CSV)";
 
 /* Disabling Auto-Commit could mean you lose this 2FA Code if you forget to commit later, are you sure? */
-"are_you_sure_auto_commit_totp_msg" = "Disabling Auto-Commit could mean you lose this 2FA Code if you forget to commit later. Are you sure?";
+"are_you_sure_auto_commit_totp_msg" = "Az automatikus commit kikapcsolása azt jelentheti, hogy elveszíti ezt a 2FA kódot, ha később elfelejti a commitot. Biztos benne?";
 
 /* Close - A generic verb - to Close a popup or dialog */
 "generic_verb_close" = "Bezárás";
@@ -6466,7 +6466,7 @@
 "mac_lock_screen_enter_pw" = "Adja meg a jelszót a feloldáshoz.";
 
 /* Reveal or Conceal (⌘R to Toggle) */
-"secure_text_field_conceal_reveal_tooltip" = "Reveal or Conceal (⌘R to Toggle)";
+"secure_text_field_conceal_reveal_tooltip" = "Felfedés vagy Elrejtés (⌘R a váltáshoz)";
 
 /* Audit Disabled */
 "audit_disabled" = "Audit letiltva";
@@ -6478,16 +6478,16 @@
 "generic_verb_auditing_in_progress_ellipsis" = "Auditálás...";
 
 /* These method(s) are no longer advised. Strongbox does not have full control over the read, write and locate functions and so we cannot guarantee data integrity. However, typically, locally stored on-device files accessed in this way are not problematic.\n\nNB: Strongbox does not have any knowledge of where files selected in this way are located. */
-"deprecated_storage_footer_text_no_network_db" = "These method(s) are no longer advised. Strongbox does not have full control over the read, write and locate functions and so we cannot guarantee data integrity. However, typically, locally stored on-device files accessed in this way are not problematic.\n\nNB: Strongbox does not have any knowledge of where files selected in this way are located.";
+"deprecated_storage_footer_text_no_network_db" = "Ez(ek) a módszer(ek) már nem javasolt(ak). A Strongbox nem rendelkezik teljes ellenőrzéssel az olvasási, írási és helymeghatározási funkciók felett, ezért nem tudjuk garantálni az adatok sértetlenségét. Általában azonban az eszközön helyileg tárolt, ily módon elérhető fájlok nem jelentenek problémát.\n\nMegjegyzés: A Strongbox nem rendelkezik ismeretekkel arról, hogy az így kiválasztott fájlok hol találhatók.";
 /* Tap to locate your database and make a local copy.\n\nNB: There are a many ways to import your database, including File Sharing via USB, AirDrop, or copying your database into the Strongbox folder. */
-"select_storage_locate_db_for_local_copy" = "Tap to locate your database and make a local copy.\n\nNB: There are a many ways to import your database, including File Sharing via USB, AirDrop, or copying your database into the Strongbox folder.";
+"select_storage_locate_db_for_local_copy" = "Koppintson meg az adatbázis megkereséséhez és egy helyi másolat készítéséhez.\n\nMegjegyzés: Az adatbázis importálásának számos módja van, például a fájlmegosztás USB-n keresztül, AirDrop vagy az adatbázis Strongbox mappába történő másolása.";
 
 /* Your database was successfully imported. Note that you can now remove the original source file from the device should you wish. */
-"database_local_copy_done_info_msg" = "Your database was successfully imported. Note that you can now remove the original source file from the device should you wish.";
+"database_local_copy_done_info_msg" = "Az adatbázis importálása sikeresen megtörtént. Ha gondolja, most már eltávolíthatja az eredeti forrásfájlt az eszközről.";
 
 
 /* %@ [Slot %@ CR Unavailable] - L10n Guide: A hardware key is present/inserted in the device, but but the Challenge Response functionality is not available, probably by error or user mistake. The first parameter is device serial number and the second is the number "1" or "2". */
-"mac_hardware_key_key_connected_but_cr_unavailable" = "%@ [Slot %@ CR Unavailable]";
+"mac_hardware_key_key_connected_but_cr_unavailable" = "%@ [Slot %@ Válasz kihívás nem elérhető]";
 
 /* New Virtual Hardware Key... */
 "new_virtual_hardware_key_ellipsis" = "Új virtuális hardverkulcs...";
@@ -6502,10 +6502,10 @@
 "virtual_hardware_keys" = "Virtuális hardverkulcsok";
 
 /* Are you sure you would like to delete the virtual hardware key '%@'? - L10n note: 1st param is the name of the key, something like "My YubiKey Backup Key" */
-"ays_delete_virtual_hardware_key_fmt" = "Are you sure you would like to delete the virtual hardware key '%@'?";
+"ays_delete_virtual_hardware_key_fmt" = "Biztosan törli ezt a virtuális hardverkulcsot '%@'?";
 
 /* Enter a friendly name and the HMAC-SHA1 challenge response secret to create a new virtual hardware key. */
-"virtual_hardware_key_welcome_msg" = "Enter a friendly name and the HMAC-SHA1 challenge response secret to create a new virtual hardware key.";
+"virtual_hardware_key_welcome_msg" = "Adjon meg egy barátságos nevet és a HMAC-SHA1 kihívás-válasz titkát egy új virtuális hardverkulcs létrehozásához.";
 
 /* Name - L10n Note: A noun, the name of something, e.g. the database name "Mark's Database" */
 "generic_name" = "Név";
@@ -6532,7 +6532,7 @@
 "feature_hardware_key_caching" = "Hardvereskulcs gyorstárazása";
 
 /* Using a hardware key is a great security choice but it can be a little inconvenient.\n\nWould you like to enable our caching feature?\n\nWith this enabled Strongbox will do things like remember the last challenge response for a period of time. This means you don't need to use your key so often.\n\nFull configuration is available in settings. For more details see online. */
-"hardware_key_caching_onboarding_msg" = "Using a hardware key is a great security choice but it can be a little inconvenient.\n\nWould you like to enable our caching feature?\n\nWith this enabled Strongbox will do things like remember the last challenge response for a period of time. This means you don't need to use your key so often.\n\nFull configuration is available in settings. For more details see online.";
+"hardware_key_caching_onboarding_msg" = "A hardverkulcs használata nagyszerű biztonsági megoldás, bárkényelmetlen lehet.\n\nSzeretné engedélyezni a gyorsítótárazási funkciót?\n\nHa ez engedélyezve van, a Strongbox olyan dolgokat fog tenni, mint például megjegyezni az utolsó kihívási választ egy bizonyos ideig. Ez azt jelenti, hogy nem kell olyan gyakran használnia a kulcsát.\n\nA teljes konfiguráció a beállítások között érhető el. További részletekért lásd online.";
 
 /* Hardware Key - L10n Note: A physical hardware key such as a YubiKey or one of Strongboxs "Virtual Hardware Keys" which is a software emulation of the YubiKey */
 "generic_hardware_key" = "Hardverkulcs";
@@ -6553,25 +6553,25 @@
 "setting_cache_response_for_period_of_time" = "Gyorsítótárazás időtartama";
 
 /* Refresh Challenge Interval - L10n Note: usual followed by a period of time, e.g. Refresh Challenge Interval: 2 Hours */
-"refresh_challenge_interval" = "Refresh Challenge Interval";
+"refresh_challenge_interval" = "Kihívás intervallum frissítése";
 
 /* AutoFill Refresh Suppressed */
-"autofill_refresh_challenge_suppressed" = "AutoFill Refresh Suppressed";
+"autofill_refresh_challenge_suppressed" = "AutoFill frissítés korlátozása";
 
 /* Hardware Key Settings */
 "nav_title_hardware_key_settings" = "Hardverkulcs beállítások";
 
 /* Challenge Response Caching */
-"challenge_response_caching_header" = "Challenge Response Caching";
+"challenge_response_caching_header" = "Kihívás-válasz gyorsítótárazása";
 
 /* Strongbox can remember the correct response for a particular challenge for a period of time. This means it can respond to a challenge instead of requiring you to use your hardware key all of the time. */
-"challenge_response_caching_footer" = "Strongbox can remember the correct response for a particular challenge for a period of time. This means it can respond to a challenge instead of requiring you to use your hardware key all of the time.";
+"challenge_response_caching_footer" = "A Strongbox egy bizonyos ideig képes megjegyezni a helyes választ egy adott kihívásra. Ez azt jelenti, hogy ahelyett, hogy mindig a hardverkulcsot kellene használnia, képes válaszolni egy kihívásra.";
 
 /* Challenge Refreshing */
-"challenge_refreshing_header" = "Challenge Refreshing";
+"challenge_refreshing_header" = "Kihívás frissítése";
 
 /* Typically Strongbox refreshes the challenge on each save. Any time the challenge is refreshed your hardware key is required to generate a response to the fresh challenge. You can reduce the frequency of this refreshing meaning you can also save without requiring your hardware key (so long as caching is also enabled). */
-"challenge_refreshing_footer" = "Typically Strongbox refreshes the challenge on each save. Any time the challenge is refreshed your hardware key is required to generate a response to the fresh challenge. You can change the frequency of this refresh process. This means you can save without requiring your hardware key (as long as caching is also enabled).";
+"challenge_refreshing_footer" = "Általában a Strongbox minden mentéskor frissíti a kihívást. Minden alkalommal, amikor a kihívás frissül, a hardverkulcsnak válaszolnia kell a friss kihívásra. A frissítési folyamat gyakoriságát megváltoztathatja. Ez azt jelenti, hogy a hardverkulcs igénybevétele nélkül is menthet (feltéve, hogy a gyorsítótárazást is engedélyezte).";
 
 /* Empty */
 "generic_empty" = "Üres";
@@ -6592,7 +6592,7 @@
 "totp_overwrite_question_title" = "Felülírja a meglévő 2FA kódot?";
 
 /* '%@' already has a 2FA Code, do you want to overwrite it? */
-"totp_overwrite_existing_question_msg_fmt" = "'%@' already has a 2FA Code, are you sure you want to overwrite it?";
+"totp_overwrite_existing_question_msg_fmt" = "'%@' már van 2FA kódja, biztos, hogy felül kívánja írni?";
 
 /* Are you sure you want to add this 2FA Code to '%@'? - l10n note: the first parameter is the title of an existing entry in your database, like 'Amazon.com' or something. */
 "totps_are_you_sure_add_to_fmt" = "Biztos, hogy ezt a 2FA kódot hozzá akarja adni a '%@' bejegyzéshez?";
@@ -6694,13 +6694,22 @@
 "audit_complete" = "Audit befejezve";
 
 /* Do Not Remember */
-"generic_do_not_remember" = "Do Not Remember";
+"generic_do_not_remember" = "Ne emlékezz";
 
 /* Strongbox Zero %@ - L10n note: 1st parameter is the App Version, e.g. 'Strongbox Zero 1.60.23' */
-"subtitle_app_version_info_zero_fmt" = "Strongbox Zero %@";
+"subtitle_app_version_info_zero_fmt" = "Strongbox Pro %@";
 
 /* About Strongbox Zero %@ - L10n note: 1st parameter is the App Version, e.g. 'About Strongbox Zero 1.60.23' */
-"prefs_vc_app_version_info_zero_fmt" = "About Strongbox Zero %@";
+"prefs_vc_app_version_info_zero_fmt" = "A Strongbox Zero-ról %@";
 
 /* Zero Version %@ */
-"about_strongbox_zero_version_fmt" = "Zero Version %@";
+"about_strongbox_zero_version_fmt" = "Zéró verzió %@";
+
+/* Unzip First? */
+"import_file_zip_detected_ask_unzip_title" = "Először unzip?";
+
+/* This appears to be a Zip file rather than a database.\n\nShould Strongbox try to unzip first and then import a database if it can find one? */
+"import_file_zip_detected_ask_unzip_msg" = "Úgy tűnik, hogy ez inkább egy Zip-fájl, mint egy adatbázis.\n\nA Strongbox-nak először unzip-elnie kéne, majd importálnia egy adatbázist, ha talál?";
+
+/* No databases were found inside this Zip file. */
+"import_file_zip_detected_ask_unzip_msg" = "Ebben a Zip-fájlban nem találtunk adatbázist.";

@@ -3260,7 +3260,7 @@
 "backup_settings_prompt_no_dont_backup_anything" = "不，请不要备份任何内容";
 
 /* View Debug Log */
-"safes_vc_action_view_sync_status" = "View Debug Log";
+"safes_vc_action_view_sync_status" = "查看调试日志";
 
 /* Please send this crash report to support@strongboxsafe.com */
 "safes_vc_please_send_crash_report" = "请将崩溃报告发送至 support@surboxsafe.com";
@@ -3311,7 +3311,7 @@
 "open_sequence_storage_provider_error_title" = "同步错误";
 
 /* If this happens repeatedly you should try re-adding your database. See the Debug Log for more...\n\nWould you like to open in offline mode instead? */
-"open_sequence_storage_provider_error_open_local_ro_instead" = "If this happens repeatedly you should try re-adding your database. See the Debug Log for more...\n\nWould you like to open in offline mode instead?";
+"open_sequence_storage_provider_error_open_local_ro_instead" = "如果这种情况反复出现，您应该尝试重新添加您的数据库。请参阅“调试日志”以了解更多...\n\n您想要尝试离线打开吗？";
 
 /* Local Copy Unavailable */
 "autofill_vc_item_subtitle_local_copy_unavailable" = "本地副本不可用";
@@ -3893,7 +3893,7 @@
 "browse_vc_pulldown_refresh_error_title" = "刷新错误";
 
 /* See Debug Log */
-"browse_vc_pulldown_refresh_error_message" = "See Debug Log";
+"browse_vc_pulldown_refresh_error_message" = "查看调试日志";
 
 /* Database Refreshed - No Changes */
 "browse_vc_pulldown_refresh_no_changes_title" = "数据库已刷新 - 无更改";
@@ -4091,11 +4091,11 @@
 /* Other Matches */
 "autofill_search_other_matches_section_header" = "其他匹配项";
 
-/* Service ID */
-"autofill_search_title_service_id_section_header" = "服务 ID";
+/* Caller ID */
+"autofill_search_title_service_id_section_header" = "调用 ID";
 
-/* The Service ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Service ID. */
-"autofill_search_service_id_section_footer" = "服务 ID 是自动填充功能发送给 Strongbox 的识别符。它可以在您设置的条目 URL 与服务 ID 相匹配时帮助搜索。点击 以复制。";
+/* The Caller ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Caller ID. */
+"autofill_search_service_id_section_footer" = "调用 ID 是自动填充功能发送给 Strongbox 的识别符。它可以在您设置的条目 URL 与调用 ID 相匹配时帮助搜索。点击以复制。";
 
 /* Results */
 "quick_view_title_no_matches_title" = "结果";
@@ -4793,7 +4793,7 @@
 "field_tidy_choice_tidy_up_field" = "清理";
 
 /* Don't Tidy */
-"field_tidy_choice_dont_tidy" = "毋需清理";
+"field_tidy_choice_dont_tidy" = "无需清理";
 
 /* Location - The location of an item, e.g. Location = /Group-1/Group-2/ */
 "generic_fieldname_location" = "位置";
@@ -5192,7 +5192,7 @@
 "alert_enter_password_basic_length" = "输入长度";
 
 /* Not to worry, your database is safely saved locally but could not be synchronised with the source database.\n\nIf this happens repeatedly, investigate the Debug Log and try re-adding your database. */
-"sync_nextgen_sync_issue_message" = "Not to worry, your database is safely saved locally but could not be synchronised with the source database.\n\nIf this happens repeatedly, investigate the Debug Log and try re-adding your database.";
+"sync_nextgen_sync_issue_message" = "无需担心，您的数据库已被安全存储在本地，但无法与源数据库同步。\n\n如果这种情况反复出现，请查看调试日志并尝试重新添加您的数据库。";
 
 /* Sync Issue */
 "nextgen_sync_issue_toast_title" = "同步出现问题";
@@ -5228,7 +5228,7 @@
 "generic_action_sync" = "同步";
 
 /* Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Debug Log?\n\n%@\n */
-"sync_error_message_including_error_detail_fmt" = "Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Debug Log?\n\n%@\n";
+"sync_error_message_including_error_detail_fmt" = "您的数据库已被安全保存，但在同步时出现错误。 您想重试或者查看调试日志吗？\n\n%@\n";
 
 /* This database is in Offline Mode and cannot be synced. */
 "database_is_in_offline_mode_cannot_be_synced" = "此数据库处于离线模式，无法同步。";
@@ -6694,13 +6694,22 @@
 "audit_complete" = "安全审计完成";
 
 /* Do Not Remember */
-"generic_do_not_remember" = "Do Not Remember";
+"generic_do_not_remember" = "不要记住";
 
 /* Strongbox Zero %@ - L10n note: 1st parameter is the App Version, e.g. 'Strongbox Zero 1.60.23' */
 "subtitle_app_version_info_zero_fmt" = "Strongbox Zero %@";
 
 /* About Strongbox Zero %@ - L10n note: 1st parameter is the App Version, e.g. 'About Strongbox Zero 1.60.23' */
-"prefs_vc_app_version_info_zero_fmt" = "About Strongbox Zero %@";
+"prefs_vc_app_version_info_zero_fmt" = "关于 Strongbox Zero %@";
 
 /* Zero Version %@ */
-"about_strongbox_zero_version_fmt" = "Zero Version %@";
+"about_strongbox_zero_version_fmt" = "Zero 版 %@";
+
+/* Unzip First? */
+"import_file_zip_detected_ask_unzip_title" = "是否先解压？";
+
+/* This appears to be a Zip file rather than a database.\n\nShould Strongbox try to unzip first and then import a database if it can find one? */
+"import_file_zip_detected_ask_unzip_msg" = "这似乎是一个 Zip 文件，而不是一个数据库。\n\nStrongbox 是否应该先尝试解压缩，然后在找到数据库的情况下再导入数据库？";
+
+/* No databases were found inside this Zip file. */
+"import_file_zip_detected_ask_unzip_msg" = "该 Zip 文件中没有数据库。";

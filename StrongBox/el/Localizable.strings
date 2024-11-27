@@ -32,10 +32,10 @@
 "safes_vc_action_set_as_quick_launch" = "Θέσε ως Γρήγορης Εκκίνησης";
 
 /* Visible in Files app */
-"safes_vc_show_in_files" = "Files Visibility: Shown";
+"safes_vc_show_in_files" = "Ορατότητα αρχείων: Εμφανίζονται";
 
 /* Hidden from Files app */
-"safes_vc_make_autofillable" = "Files Visibility: Hidden";
+"safes_vc_make_autofillable" = "Ορατότητα αρχείων: Κρυφά";
 
 /* Title of Prompt about setting Quick Launch */
 "safes_vc_about_quick_launch_title" = "Σχετικά με τη Γρήγορη Εκκίνηση";
@@ -285,7 +285,7 @@
 "browse_prefs_tap_action_copy_copy_password" = "Αντιγραφή Κωδικού Πρόσβασης";
 
 /* Copy 2FA */
-"browse_prefs_tap_action_copy_copy_totp" = "Copy 2FA Code";
+"browse_prefs_tap_action_copy_copy_totp" = "Αντιγράψτε τον κωδικό 2FA";
 
 /* Copy URL */
 "browse_prefs_tap_action_copy_copy_url" = "Αντιγραφή URL";
@@ -375,7 +375,7 @@
 "browse_vc_group_path_string_fmt" = "(στην %@)";
 
 /* '%@': No 2FA setup to Copy! */
-"browse_vc_no_totp_to_copy_fmt" = "'%@': No 2FA setup to Copy!";
+"browse_vc_no_totp_to_copy_fmt" = "'%@': Δεν υπάρχει ρύθμιση 2FA για Αντιγραφή!";
 
 /* '%@' Notes Copied  - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
 "browse_vc_notes_copied_fmt" = "Σημειώσεις «%@» Αντιγράφηκαν";
@@ -420,7 +420,7 @@
 "browse_vc_view_as_database_empty" = "Καμία Καταχώρηση";
 
 /* No 2FA Codes Found */
-"browse_vc_view_as_totp_no_totps" = "No 2FA Codes Found";
+"browse_vc_view_as_totp_no_totps" = "Δεν βρέθηκαν Κωδικοί 2FA";
 
 /* No matching entries found */
 "browse_vc_view_search_no_matches" = "Δεν βρέθηκαν οι αναζητημένες καταχωρήσεις";
@@ -606,19 +606,19 @@
 "item_details_section_header_metadata" = "Μεταδεδομένα";
 
 /* Setup 2FA Code... */
-"item_details_setup_totp" = "Setup 2FA Code...";
+"item_details_setup_totp" = "Ρύθμιση Κωδικού 2FA...";
 
 /* Could not set 2FA because the format is unsupported. */
-"item_details_setup_totp_failed_message" = "Could not set 2FA Code because the format is unsupported.";
+"item_details_setup_totp_failed_message" = "Δεν ήταν δυνατός ο ορισμός του κωδικού 2FA επειδή η μορφή δεν υποστηρίζεται.";
 
 /* Failed to Set 2FA */
-"item_details_setup_totp_failed_title" = "Failed to Set 2FA Code";
+"item_details_setup_totp_failed_title" = "Αποτυχία ορισμού κωδικού 2FA";
 
 /* You can setup 2FA Code by using a QR Code, or manually by entering the secret or an OTPAuth URL */
-"item_details_setup_totp_how_message" = "You can setup a 2FA Code by using a QR Code, or manually by entering the secret or an OTPAuth URL";
+"item_details_setup_totp_how_message" = "Μπορείτε να ρυθμίσετε έναν κωδικό 2FA χρησιμοποιώντας έναν κωδικό QR ή με μη αυτόματο τρόπο εισάγοντας το μυστικό ή μια διεύθυνση URL OTPAuth";
 
 /* How would you like to setup 2FA? */
-"item_details_setup_totp_how_title" = "How would you like to setup 2FA?";
+"item_details_setup_totp_how_title" = "Πώς θα θέλατε να ρυθμίσετε το 2FA;";
 
 /* Manual (Standard/RFC 6238)... */
 "item_details_setup_totp_manual_rfc" = "Χειροκίνητα (Standard/RFC 6238)...";
@@ -903,7 +903,7 @@
 "notes_cell_textview_accessibility_label" = "Πεδίο κειμένου για τις σημειώσεις";
 
 /* No 2FA Setup */
-"totp_cell_no_totp_has_been_setup" = "No 2FA Setup";
+"totp_cell_no_totp_has_been_setup" = "Όχι ρύθμιση 2FA";
 
 /*  Text Field */
 "generic_kv_cell_value_text_accessibility label_fmt" = " Πεδίο κειμένου";
@@ -1364,13 +1364,13 @@
 "open_sequence_biometric_unlock_warn_failed_title_fmt" = "%@ Απέτυχε";
 
 /* You must now enter your password manually to open the database. */
-"open_sequence_biometric_unlock_warn_failed_message_fmt" = "You can cancel to try again or choose to unlock manually.";
+"open_sequence_biometric_unlock_warn_failed_message_fmt" = "Μπορείτε να ακυρώσετε για να προσπαθήσετε ξανά ή να επιλέξετε να ξεκλειδώσετε χειροκίνητα.";
 
 /* %@ has failed: %@. You must now enter your password manually to open the database. */
-"open_sequence_biometric_unlock_warn_not_configured_fmt" = "%@ has failed: %@.\n\nYou can cancel to try again or choose to unlock manually.";
+"open_sequence_biometric_unlock_warn_not_configured_fmt" = "%@ απέτυχε: %@.";
 
 /* Could not read Key File. Has it been moved or deleted? Check Key Files Management in Settings */
-"open_sequence_error_reading_key_file" = "Could not read Key File. Has it been moved or deleted? Check Key Files Management in Settings";
+"open_sequence_error_reading_key_file" = "Δεν ήταν δυνατή η ανάγνωση του Αρχείου Κλειδιού. Έχει μετακινηθεί ή διαγραφεί; Ελέγξτε τη Διαχείριση Αρχείων Κλειδιών στις Ρυθμίσεις";
 
 /* It looks like you may be offline and '%@' may not be reachable. Would you like to use a read-only offline cache version of this database instead?\n\nLast Cached: %@ - (Translators Note: 1st parameter is the name of the storage location, e.g. Dropbox, Google Drive etc, 2nd param is the date/time of the last cache) */
 "open_sequence_user_looks_offline_open_offline_instead_fmt" = "Φαίνεται ότι μπορεί να είστε εκτός σύνδεσης και το \"%@\" μπορεί να μην είναι προσβάσιμο. Θα θέλατε να χρησιμοποιήσετε μια έκδοση προσωρινής μνήμης εκτός σύνδεσης, μόνο για ανάγνωση αυτής της βάσης δεδομένων;\n\nΤελευταία προσωρινή αποθήκευση: %@";
@@ -1716,10 +1716,10 @@
 "keepass_history_tip" = "Συμβουλή: Σύρετε αριστερά για επιλογές ή πατήστε για προβολή";
 
 /* Favorite */
-"browse_vc_action_pin" = "Favorite";
+"browse_vc_action_pin" = "Αγαπημένο";
 
 /* Un-Favorite */
-"browse_vc_action_unpin" = "Un-Favorite";
+"browse_vc_action_unpin" = "Μη-αγαπημένο";
 
 /* Section Header Title for Expired Items */
 "browse_vc_section_title_expired" = "Ληγμένα";
@@ -1728,7 +1728,7 @@
 "browse_vc_section_title_nearly_expired" = "Σχεδόν ληγμένα";
 
 /* Section Header Title for Favorite Items */
-"browse_vc_section_title_pinned" = "Favorites";
+"browse_vc_section_title_pinned" = "Αγαπημένα";
 
 /* Section Header Title for Recent Items */
 "browse_vc_section_title_recents" = "Πρόσφατα Στοιχεία";
@@ -1821,7 +1821,7 @@
 "safes_vc_action_backups" = "Αντίγραφα ασφαλείας";
 
 /* Could not read Key File. Has it been imported properly? Check Key Files Management in Settings */
-"open_sequence_error_reading_key_file_autofill_context" = "Could not read Key File. Has it been imported properly? Check Key Files Management in Settings";
+"open_sequence_error_reading_key_file_autofill_context" = "Δεν ήταν δυνατή η ανάγνωση του Αρχείου Κλειδιού. Έχει εισαχθεί σωστά; Ελέγξτε τη Διαχείριση Αρχείων Κλειδιών στις Ρυθμίσεις";
 
 /* Transfer over Wi-Fi (or LAN) */
 "sspc_local_network_storage_location" = "Μεταφορά μέσω Wi-Fi (ή LAN)";
@@ -1830,7 +1830,7 @@
 "storage_provider_status_reading" = "Γίνεται ανάγνωση...";
 
 /* Identify to Open Settings */
-"open_sequence_biometric_unlock_preferences_message" = "Identify to Open Settings";
+"open_sequence_biometric_unlock_preferences_message" = "Προσδιορισμός στο Άνοιγμα Ρυθμίσεων";
 
 /* Message to display when device is offline and has no IP address in Local HTTP Transfer - Select Storage -> Transfer over Local Network */
 "transfer_local_network_network_unavailable_message" = "Φαίνεται σαν να είστε εκτός σύνδεσης;";
@@ -1914,7 +1914,7 @@
 "generic_fieldname_custom_field" = "Προσαρμοσμένο Πεδίο";
 
 /* 2FA */
-"generic_fieldname_totp" = "2FA Code";
+"generic_fieldname_totp" = "Κωδικός 2FA";
 
 /* Attachments */
 "generic_fieldname_attachments" = "Συνημμένα";
@@ -2203,10 +2203,10 @@
 "favicon_results_are_you_sure_remove_result_message" = "Είστε βέβαιοι ότι θέλετε να καταργήσετε αυτό το αποτέλεσμα FavIcon;";
 
 /* Invalid FavIcon Settings */
-"favicon_invalid_preferences_alert_title" = "Invalid FavIcon Settings";
+"favicon_invalid_preferences_alert_title" = "Μη έγκυρες Ρυθμίσεις FavIcon";
 
 /* This set of preferences will not produce valid FavIcon results. */
-"favicon_invalid_preferences_alert_message" = "These settings will not produce valid FavIcon results.";
+"favicon_invalid_preferences_alert_message" = "Αυτές οι ρυθμίσεις δεν θα παράγουν έγκυρα αποτελέσματα FavIcon.";
 
 /* Unlock with %@ or Watch */
 "mac_unlock_database_with_biometric_fmt" = "Ξεκλείδωμα με %@ ή Watch";
@@ -2424,10 +2424,10 @@
 "mac_undo_action_remove_custom_field" = "Αφαίρεση Προσαρμοσμένου Πεδίου";
 
 /* Set 2FA */
-"mac_undo_action_set_totp" = "Set 2FA";
+"mac_undo_action_set_totp" = "Όρισε 2FA";
 
 /* Clear 2FA */
-"mac_undo_action_clear_totp" = "Clear 2FA";
+"mac_undo_action_clear_totp" = "Διαγραφή 2FA";
 
 /* Add Items */
 "mac_undo_action_add_items" = "Προσθήκη Αντικειμένων";
@@ -2574,7 +2574,7 @@
 "mac_node_details_are_you_sure_remove_custom_field_fmt" = "Είστε βέβαιοι ότι θέλετε να καταργήσετε το προσαρμοσμένο πεδίο \"%@\";";
 
 /* Are you sure you want to remove the custom field '%@'? */
-"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Are you sure you want to remove the custom field '%@'?";
+"mac_node_details_are_you_sure_remove_custom_field_fmt" = "Είστε βέβαιοι ότι θέλετε να καταργήσετε το προσαρμοσμένο πεδίο '%@';";
 
 /* Add Custom Field */
 "mac_node_details_add_custom_field" = "Προσθήκη προσαρμοσμένου πεδίου";
@@ -2900,7 +2900,7 @@
 "upgrade_vc_start_your_free_trial_price_free" = "Δωρεάν";
 
 /* Upgrade (Free Trial Available) */
-"safes_vc_upgrade_info_trial_available_button_title" = "Try Pro free for 3 months";
+"safes_vc_upgrade_info_trial_available_button_title" = "Δοκιμάστε δωρεάν το Pro για 3 μήνες";
 
 /* Would you like to add an entry or a group? */
 "browse_add_group_or_entry_question" = "Θα θέλατε να προσθέσετε μια καταχώρηση ή μια ομάδα;";
@@ -2954,10 +2954,10 @@
 "quick_view_title_audit_issues_subtitle" = "Δείτε όλες τις καταχωρήσεις με θέματα ελέγχου";
 
 /* 2FA Codes */
-"quick_view_title_totp_entries_title" = "2FA Codes";
+"quick_view_title_totp_entries_title" = "Κωδικοί 2FA";
 
 /* View all entries with a 2FA Code */
-"quick_view_title_totp_entries_subtitle" = "View all entries with a 2FA Code";
+"quick_view_title_totp_entries_subtitle" = "Προβολή όλων των καταχωρήσεων με κωδικό 2FA";
 
 /* Quick Views */
 "quick_view_section_title_quick_views" = "Γρήγορες Προβολές";
@@ -3122,7 +3122,7 @@
 "keepass_icon_set_keepassxc" = "KeePassXC";
 
 /* Settings */
-"audit_drill_down_section_header_preferences" = "Settings";
+"audit_drill_down_section_header_preferences" = "Ρυθμίσεις";
 
 /* Summary */
 "audit_drill_down_section_header_summary" = "Σύνοψη";
@@ -3173,13 +3173,13 @@
 "audit_manual_pwn_check_result_not_pwned" = "Ο κωδικός πρόσβασής σας ΔΕΝ είναι εκτεθειμένος / Pwned και είναι πιθανόν ασφαλής.";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Manual HIBP Result";
+"audit_manual_pwn_check_result_title" = "Εγχειρίδιο HIBP Αποτέλεσμα";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "Αυτός ο κωδικός πρόσβασης είναι εκτεθειμένος / Pwned και ευάλωτος";
 
 /* Database Audit Settings */
-"audit_drill_down_go_to_database_audit_preferences" = "Database Audit Settings";
+"audit_drill_down_go_to_database_audit_preferences" = "Ρυθμίσεις Ελέγχου Βάσεων Δεδομένων";
 
 /* View All Audit Issues */
 "audit_drill_down_view_all_audit_issues" = "Προβολή Όλων Των Ζητημάτων Ελέγχου";
@@ -3245,7 +3245,7 @@
 "generic_biometric_unlock_fmt" = "Ξεκλείδωμα %@";
 
 /* By default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Settings > Advanced.\n\nDoes this sound ok? */
-"backup_settings_prompt_message" = "By default Strongbox includes all local files (including database backups) and local device databases in Apple backups of this device. However imported Key Files are explicitly not included for security reasons.\n\nYou can change these settings at any time in Settings > Advanced.\n\nDoes this sound ok?";
+"backup_settings_prompt_message" = "Από προεπιλογή, το Strongbox περιλαμβάνει όλα τα τοπικά αρχεία (συμπεριλαμβανομένων των αντιγράφων ασφαλείας βάσης δεδομένων) και τις τοπικές βάσεις δεδομένων συσκευών στα αντίγραφα ασφαλείας της Apple αυτής της συσκευής. Ωστόσο, τα εισαγόμενα αρχεία κλειδιού δεν περιλαμβάνονται ρητά για λόγους ασφαλείας.\n\nΜπορείτε να αλλάξετε αυτές τις ρυθμίσεις ανά πάσα στιγμή από τις Ρυθμίσεις > Προηγμένες.\n\nΑυτό ακούγεται εντάξει;";
 
 /* Backup Settings */
 "backup_settings_prompt_title" = "Ρυθμίσεις αντιγράφων ασφαλείας";
@@ -3260,7 +3260,7 @@
 "backup_settings_prompt_no_dont_backup_anything" = "Όχι, να μην συμπεριλαμβάνετε τίποτα";
 
 /* View Debug Log */
-"safes_vc_action_view_sync_status" = "View Debug Log";
+"safes_vc_action_view_sync_status" = "Προβολή Aρχείου καταγραφής Σφαλμάτων";
 
 /* Please send this crash report to support@strongboxsafe.com */
 "safes_vc_please_send_crash_report" = "Παρακαλώ στείλτε αυτή την αναφορά σφάλματος στο support@strongboxsafe.com";
@@ -3305,13 +3305,13 @@
 "open_sequence_couldnt_open_local_title" = "Αδύνατο Το Άνοιγμα Χωρίς Σύνδεση";
 
 /* Could not open Strongbox's local copy of this database. A interactive sync is required. */
-"open_sequence_couldnt_open_local_message" = "Could not open Strongbox's local copy of this database. A Sync is required.";
+"open_sequence_couldnt_open_local_message" = "Δεν ήταν δυνατό το άνοιγμα του τοπικού αντιγράφου αυτής της βάσης δεδομένων του Strongbox. Απαιτείται ένας Συγχρονισμός.";
 
 /* Sync Error */
 "open_sequence_storage_provider_error_title" = "Σφάλμα Συγχρονισμού";
 
 /* If this happens repeatedly you should try re-adding your database. See the Debug Log for more...\n\nWould you like to open in offline mode instead? */
-"open_sequence_storage_provider_error_open_local_ro_instead" = "If this happens repeatedly you should try re-adding your database. See the Debug Log for more...\n\nWould you like to open in offline mode instead?";
+"open_sequence_storage_provider_error_open_local_ro_instead" = "Αν αυτό συμβαίνει επανειλημμένα, θα πρέπει να δοκιμάσετε να προσθέσετε ξανά τη βάση δεδομένων σας. Δείτε το αρχείο καταγραφής εντοπισμού σφαλμάτων για περισσότερα...\n\nΘέλετε να ανοίξετε σε λειτουργία εκτός σύνδεσης;";
 
 /* Local Copy Unavailable */
 "autofill_vc_item_subtitle_local_copy_unavailable" = "Μη Διαθέσιμο Τοπικό Αντίγραφο";
@@ -3368,7 +3368,7 @@
 "sftp_path_are_you_sure" = "Είστε σίγουροι ότι η διαδρομή είναι σωστή; Θα πρέπει να είναι μια διαδρομή σε φάκελο. Όχι απ' ευθείας του αρχείου της βάσης δεδομένων.";
 
 /* Are you sure the path is correct? It should be a path to a parent folder. Not the database file. */
-"sftp_path_are_you_sure" = "Are you sure the path is correct? It should be a path to a parent folder. Not the database file.";
+"sftp_path_are_you_sure" = "Είστε σίγουροι ότι η διαδρομή είναι σωστή; Θα πρέπει να είναι μια διαδρομή προς έναν γονικό φάκελο. Όχι το αρχείο της βάσης δεδομένων.";
 
 /* Path may be Invalid */
 "sftp_path_may_be_invalid" = "Η διαδρομή μπορεί να είναι μη έγκυρη";
@@ -3419,7 +3419,7 @@
 "generic_move" = "Μετακίνηση";
 
 /* Move - Translators Note: Verb - To move something e.g. an entry or group somewhere else in the hierarchy */
-"generic_move_ellipsis" = "Move...";
+"generic_move_ellipsis" = "Μετακινώ...";
 
 /* New Entry - Translators Note: Menu option to add a new entry */
 "browse_context_menu_new_entry" = "Νέα Καταχώρηση";
@@ -3638,7 +3638,7 @@
 "merge_view_are_you_sure" = "Είστε σίγουροι ότι θέλετε να συγχωνεύσετε τη δεύτερη βάση δεδομένων στην πρώτη;";
 
 /* Are you sure you want to merge the second database into the first? */
-"merge_view_are_you_sure" = "Are you sure you want to merge the second database into the first?";
+"merge_view_are_you_sure" = "Είστε βέβαιοι ότι θέλετε να συγχωνεύσετε τη δεύτερη βάση δεδομένων στην πρώτη;";
 
 /* Merge Successful */
 "merge_view_merge_title_success" = "Επιτυχής Συγχώνευση";
@@ -3893,7 +3893,7 @@
 "browse_vc_pulldown_refresh_error_title" = "Σφάλμα Ανανέωσης";
 
 /* See Debug Log */
-"browse_vc_pulldown_refresh_error_message" = "See Debug Log";
+"browse_vc_pulldown_refresh_error_message" = "Δείτε το Aρχείου καταγραφής Σφαλμάτων";
 
 /* Database Refreshed - No Changes */
 "browse_vc_pulldown_refresh_no_changes_title" = "Η Βάση Δεδομένων Ανανεώθηκε - Χωρίς Αλλαγές";
@@ -3926,7 +3926,7 @@
 "open_sequence_yes_use_local_copy_option" = "Ναι, Ανοίξτε Χωρίς Σύνδεση";
 
 /* Open Offline */
-"open_sequence_use_local_copy_option" = "Open Offline";
+"open_sequence_use_local_copy_option" = "Άνοιγμα Χωρίς Σύνδεση";
 
 /* Open Offline (Read-Only) */
 "open_sequence_use_local_copy_option_ro" = "Άνοιγμα Χωρίς Σύνδεση (Μόνο Για Ανάγνωση)";
@@ -4056,10 +4056,10 @@
 "sync_log_status_done" = "Έγινε. ✅";
 
 /* 2FA Copied */
-"autofill_info_totp_copied_title" = "2FA Copied";
+"autofill_info_totp_copied_title" = "2FA Αντιγράφηκε";
 
 /* Your 2FA Code has been copied to the clipboard. */
-"autofill_info_totp_copied_message" = "Your 2FA Code has been copied to the clipboard.";
+"autofill_info_totp_copied_message" = "Ο Κωδικός 2FA αντιγράφηκε στο πρόχειρο.";
 
 /* Convenience Auto Unlock */
 "prefs_vc_autofill_convenience_auto_unlock" = "Εύκολο Αυτόματο Ξεκλείδωμα";
@@ -4091,11 +4091,11 @@
 /* Other Matches */
 "autofill_search_other_matches_section_header" = "Άλλα Ταιριάσματα";
 
-/* Service ID */
-"autofill_search_title_service_id_section_header" = "Αναγνωριστικό Υπηρεσίας";
+/* Caller ID */
+"autofill_search_title_service_id_section_header" = "Αναγνωριστικό καλούντος";
 
-/* The Service ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Service ID. */
-"autofill_search_service_id_section_footer" = "Το Αναγνωριστικό Υπηρεσίας είναι ένα αναγνωριστικό που αποστέλλεται στο Strongbox από την Αυτόματη Συμπλήρωση. Μπορεί να βοηθήσει στην αναζήτηση αν ορίσετε τη διεύθυνση URL της καταχώρησής σας ώστε να ταιριάζει με το αναγνωριστικό υπηρεσίας. Πατήστε για αντιγραφή.";
+/* The Caller ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Caller ID. */
+"autofill_search_service_id_section_footer" = "Το Αναγνωριστικό καλούντος είναι ένα αναγνωριστικό που αποστέλλεται στο Strongbox από την Αυτόματη Συμπλήρωση. Μπορεί να βοηθήσει στην αναζήτηση, εάν ορίσετε τη διεύθυνση URL της καταχώρισής σας ώστε να ταιριάζει με το αναγνωριστικό καλούντος. Πατήστε για Αντιγραφή.";
 
 /* Results */
 "quick_view_title_no_matches_title" = "Αποτελέσματα";
@@ -4589,7 +4589,7 @@
 "quick_view_title_nearly_expired_entries_subtitle" = "Προβολή όλων των σχεδόν ληγμένων καταχωρήσεων";
 
 /* Transfer Over Local Network */
-"safes_vc_wifi_transfer" = "Transfer Over Local Network";
+"safes_vc_wifi_transfer" = "Μεταφορά μέσω του Tοπικού Δικτύου";
 
 /* Get Started Wizard */
 "safes_vc_quick_start" = "Οδηγός Έναρξης";
@@ -4615,13 +4615,13 @@
 "import_failed_message" = "Το Strongbox δεν μπόρεσε να εισάγει αυτό το αρχείο. Παρακαλώ ελέγξτε ότι είναι στη σωστή μορφή.";
 
 /* Import Successful */
-"import_successful_title" = "Import Successful";
+"import_successful_title" = "Επιτυχής εισαγωγή";
 
 /* Your import was successful! Now, let's set a strong master password and save your new Strongbox database. */
 "import_successful_message" = "Η εισαγωγή σας ήταν επιτυχής! Τώρα, ας ορίσουμε έναν ισχυρό κύριο κωδικό πρόσβασης και να αποθηκεύσουμε τη νέα σας βάση δεδομένων Strongbox.";
 
 /* Are you sure you want to clear the 2FA Code for this entry? */
-"are_you_sure_clear_totp" = "Are you sure you want to clear the 2FA Code for this entry?";
+"are_you_sure_clear_totp" = "Είστε βέβαιοι ότι θέλετε να διαγράψετε τον Κωδικό 2FA για αυτήν την καταχώριση;";
 
 /* Date Created (Precise) */
 "databases_preferences_subtitle_field_name_create_date_precise" = "Ημερομηνία Δημιουργίας (Ακριβής)";
@@ -4682,10 +4682,10 @@
 "generic_dont_ask_again" = "Να μην ερωτηθώ ξανά";
 
 /* Yes, don't ask again */
-"generic_yes_dont_ask_again" = "Yes, don't ask again";
+"generic_yes_dont_ask_again" = "Ναι, μην ρωτήσετε ξανά";
 
 /* No, don't ask again */
-"generic_no_dont_ask_again" = "No, don't ask again";
+"generic_no_dont_ask_again" = "Όχι, μην ξαναρωτήσεις";
 
 /* Not Right Now */
 "generic_not_right_now" = "Όχι τώρα";
@@ -4754,7 +4754,7 @@
 "are_you_sure_delete_custom_field_s" = "Είστε βέβαιοι ότι θέλετε να διαγράψετε τα επιλεγμένα πεδία;";
 
 /* Found 2FA Code in '%@' Window - Localization Note: The parameter here is an App name like "Firefox" or "Safari" */
-"found_totp_code_in_x_window_fmt" = "Found 2FA Code in '%@' Window";
+"found_totp_code_in_x_window_fmt" = "Βρέθηκε ο Κωδικός 2FA στο παράθυρο \"%@\".";
 
 /* Randomly Generated */
 "menu_item_header_randomly_generated_suggestions" = "Τυχαία Δημιουργία";
@@ -4769,7 +4769,7 @@
 "pasted_image_attachment_at_time_filename_png_fmt" = "paste-at-%@.png";
 
 /* Groups */
-"side_bar_hierarchy_folder_structure" = "Groups";
+"side_bar_hierarchy_folder_structure" = "Ομάδες";
 
 /* Discard Changes */
 "discard_changes" = "Απόρριψη Αλλαγών";
@@ -5168,7 +5168,7 @@
 "nextgen_toolbar_settings_database_settings_ellipsis" = "Ρυθμίσεις Βάσης Δεδομένων...";
 
 /* Application Settings... */
-"nextgen_toolbar_settings_application_preferences_ellipsis" = "Application Settings...";
+"nextgen_toolbar_settings_application_preferences_ellipsis" = "Ρυθμίσεις εφαρμογής...";
 
 /* Settings */
 "generic_settings" = "Ρυθμίσεις";
@@ -5192,7 +5192,7 @@
 "alert_enter_password_basic_length" = "Εισάγετε Μήκος";
 
 /* Not to worry, your database is safely saved locally but could not be synchronised with the source database.\n\nIf this happens repeatedly, investigate the Debug Log and try re-adding your database. */
-"sync_nextgen_sync_issue_message" = "Not to worry, your database is safely saved locally but could not be synchronised with the source database.\n\nIf this happens repeatedly, investigate the Debug Log and try re-adding your database.";
+"sync_nextgen_sync_issue_message" = "Μην ανησυχείτε, η βάση δεδομένων σας αποθηκεύεται με ασφάλεια τοπικά, αλλά δεν ήταν δυνατός ο συγχρονισμός με τη βάση δεδομένων προέλευσης.\n\nΕάν αυτό συμβαίνει επανειλημμένα, διερευνήστε το Aρχείο καταγραφής Σφαλμάτων και δοκιμάστε να προσθέσετε ξανά τη βάση δεδομένων σας.";
 
 /* Sync Issue */
 "nextgen_sync_issue_toast_title" = "Πρόβλημα Συγχρονισμού";
@@ -5228,7 +5228,7 @@
 "generic_action_sync" = "Συγχρονισμός";
 
 /* Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Debug Log?\n\n%@\n */
-"sync_error_message_including_error_detail_fmt" = "Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Debug Log?\n\n%@\n";
+"sync_error_message_including_error_detail_fmt" = "Η βάση δεδομένων σας έχει αποθηκευτεί με ασφάλεια, αλλά παρουσιάστηκε σφάλμα συγχρονισμού. Θέλετε να δοκιμάσετε ξανά ή να ρίξετε μια ματιά στο Αρχείο καταγραφής Σφαλμάτων;\n\n%@\n";
 
 /* This database is in Offline Mode and cannot be synced. */
 "database_is_in_offline_mode_cannot_be_synced" = "Αυτή η βάση δεδομένων είναι σε λειτουργία χωρίς σύνδεση και δεν μπορεί να συγχρονιστεί.";
@@ -5321,7 +5321,7 @@
 "safes_vc_import_icloud" = "iCloud Keychain (CSV)";
 
 /* Disabling Auto-Commit could mean you lose this 2FA Code if you forget to commit later, are you sure? */
-"are_you_sure_auto_commit_totp_msg" = "Disabling Auto-Commit could mean you lose this 2FA Code if you forget to commit later. Are you sure?";
+"are_you_sure_auto_commit_totp_msg" = "Η απενεργοποίηση της αυτόματης δέσμευσης μπορεί να σημαίνει ότι θα χάσετε αυτόν τον Κωδικό 2FA εάν ξεχάσετε να δεσμευτείτε αργότερα. Είσαι σίγουρος;";
 
 /* Close - A generic verb - to Close a popup or dialog */
 "generic_verb_close" = "Κλείσιμο";
@@ -5384,180 +5384,180 @@
 "mac_create_or_edit_commit_changes" = "Αποθήκευση (⌘S)";
 
 /* Hierarchy (%@ Groups, %@ Entries) - L10n Note - The two parameters are numeric, so for example: "23 Groups, 3456 Entries"*/
-"side_bar_hierarchy_folder_structure_summary_count_fmt" = "Groups (%@ Groups, %@ Entries)";
+"side_bar_hierarchy_folder_structure_summary_count_fmt" = "Ομάδες (%@ Ομάδες, %@ Καταχωρήσεις)";
 
 /* Entries */
 "side_bar_child_count_format_entries" = "Καταχωρήσεις";
 
 /* Entries (Recursive) */
-"side_bar_child_count_format_entries_rec" = "Entries (Recursive)";
+"side_bar_child_count_format_entries_rec" = "Καταχωρήσεις (Αναδρομικές)";
 
 /* Groups and Entries */
-"side_bar_child_count_format_groups_and_entries" = "Groups and Entries";
+"side_bar_child_count_format_groups_and_entries" = "Ομάδες και Καταχωρήσεις";
 
 /* Groups and Entries (Recursive) */
-"side_bar_child_count_format_groups_and_entries_rec" = "Groups and Entries (Recursive)";
+"side_bar_child_count_format_groups_and_entries_rec" = "Ομάδες και Καταχωρήσεις (Αναδρομικές)";
 
 /* Items */
 "side_bar_child_count_format_items" = "Στοιχεία";
 
 /* Items (Recursive) */
-"side_bar_child_count_format_items_rec" = "Items (Recursive)";
+"side_bar_child_count_format_items_rec" = "Στοιχεία (Αναδρομικά)";
 
 /* The SFTP host returned the Fingerprint below.\n\nStrongbox will use this Fingerprint to verify it is communicating with only this host.\n\nPlease confirm you are happy with this Fingerprint. You will be notified if it ever changes.\n\n%@ */
-"sftp_hostkey_fingerprint_first_use_confirm_fmt" = "The SFTP host returned the Fingerprint below.\n\nStrongbox will use this Fingerprint to verify it is communicating with only this host.\n\nPlease confirm you are happy with this Fingerprint. You will be notified if it ever changes.\n\n%@";
+"sftp_hostkey_fingerprint_first_use_confirm_fmt" = "Ο κεντρικός υπολογιστής SFTP επέστρεψε το Δακτυλικό Αποτύπωμα παρακάτω.\n\nΤο Strongbox θα χρησιμοποιήσει αυτό το Δακτυλικό Αποτύπωμα για να επαληθεύσει ότι επικοινωνεί μόνο με αυτόν τον κεντρικό υπολογιστή.\n\nΕπιβεβαιώστε ότι είστε ικανοποιημένοι με αυτό το Δακτυλικό Αποτύπωμα. Θα ειδοποιηθείτε εάν αλλάξει ποτέ.\n\n%@";
 
 /* *** WARNING ***\n\nThe SFTP host returned a different Fingerprint than expected.\n\nThis could be a man-in-the-middle attack, or it could be something you expect if your host configuration recently changed.\n\nShould Strongbox use this new Fingerprint and continue connecting to this host?\n\n%@ */
-"sftp_hostkey_fingerprint_has_changed_confirm_fmt" = "*** WARNING ***\n\nThe SFTP host returned a different Fingerprint than expected.\n\nThis could be a man-in-the-middle attack, or it could be something you expect if your host configuration recently changed.\n\nShould Strongbox use this new Fingerprint and continue connecting to this host?\n\n%@";
+"sftp_hostkey_fingerprint_has_changed_confirm_fmt" = "*** ΠΡΟΕΙΔΟΠΟΙΗΣΗ ***\n\nΟ κεντρικός υπολογιστής SFTP επέστρεψε ένα διαφορετικό Δακτυλικό Αποτύπωμα από το αναμενόμενο.\n\nΑυτό θα μπορούσε να είναι μια επίθεση man-in-the-middle ή θα μπορούσε να είναι κάτι που περιμένατε εάν η διαμόρφωση του κεντρικού υπολογιστή σας άλλαξε πρόσφατα.\n\nΠρέπει το Strongbox να χρησιμοποιήσει αυτό το νέο Δακτυλικό Αποτύπωμα και να συνεχίσει να συνδέεται με αυτόν τον κεντρικό υπολογιστή;\n\n%@";
 
 /* SFTP Fingerprint */
-"sftp_hostkey_fingerprint_alert_title" = "SFTP Fingerprint";
+"sftp_hostkey_fingerprint_alert_title" = "SFTP Δακτυλικό Αποτύπωμα";
 
 /* Note: Enabling Easy-Read Font will have the effect of disabling the 'Markdown Notes' formatting feature. Is this OK? */
-"are_you_sure_message_easy_read_font_markdown_notes" = "Note: Enabling Easy-Read Font will have the effect of disabling the 'Markdown Notes' formatting feature. Is this OK?";
+"are_you_sure_message_easy_read_font_markdown_notes" = "Σημείωση: Η ενεργοποίηση της γραμματοσειράς Easy-Read θα έχει ως αποτέλεσμα την απενεργοποίηση της δυνατότητας μορφοποίησης «Markdown Notes». Είναι εντάξει αυτό;";
 
 /* 1 Match Found */
-"search_results_summary_1_match_found" = "1 Match Found";
+"search_results_summary_1_match_found" = "1 Αντιστοιχία βρέθηκε";
 
 /* %@ Matches Found */
-"search_results_summary_n_match_found_fmt" = "%@ Matches Found";
+"search_results_summary_n_match_found_fmt" = "%@ Βρέθηκαν αντιστοιχίες";
 
 /* No Matches Found */
-"search_results_summary_no_matches_found" = "No Matches Found";
+"search_results_summary_no_matches_found" = "Δεν βρέθηκαν αντιστοιχίες";
 
 /* Orchard Street Diceware List */
-"pwgen_wordlist_orchard_st" = "Orchard Street Diceware List";
+"pwgen_wordlist_orchard_st" = "Λίστα Diceware Street Orchard";
 
 /* SSH Keys */
-"sidebar_quick_view_keeagent_ssh_keys_title" = "SSH Keys";
+"sidebar_quick_view_keeagent_ssh_keys_title" = "Κλειδιά SSH";
 
 /* Passphrase Protected */
-"ssh_agent_passphrase_protected" = "Passphrase Protected";
+"ssh_agent_passphrase_protected" = "Προστατευόμενη φράση πρόσβασης";
 
 /* Passphrase Protected (Entry Password Incorrect) */
-"ssh_agent_passphrase_protected_incorrect" = "Passphrase Protected (Entry Password Incorrect)";
+"ssh_agent_passphrase_protected_incorrect" = "Προστατευμένη Φράση Πρόσβασης (Εισαγωγή Κωδικού Πρόσβασης)";
 
 /* Enabled for SSH Agent - L10n Note: An SSH Key is enabled for the Strongbox SSH Agent */
-"ssh_agent_key_enabled_for_agent" = "Enabled for SSH Agent";
+"ssh_agent_key_enabled_for_agent" = "Ενεργοποιημένη για SSH Agent";
 
 /* Disabled for SSH Agent - L10n Note: An SSH Key is not enabled for the Strongbox SSH Agent*/
-"ssh_agent_disabled_for_agent" = "Disabled for SSH Agent";
+"ssh_agent_disabled_for_agent" = "Απενεργοποιημένο για SSH Agent";
 
 /* SSH Key */
-"ssh_agent_ssh_key" = "SSH Key";
+"ssh_agent_ssh_key" = "Κλειδί SSH";
 
 /* Export... */
 "generic_export_ellipsis" = "Εξαγωγή...";
 
 /* Public Key */
-"generic_public_key" = "Public Key";
+"generic_public_key" = "Δημόσιο Κλειδί";
 
 /* Private Key */
 "generic_private_key" = "Ιδιωτικό Κλειδί";
 
 /* Fingerprint - L10n Note: An SSH Key Fingerprint */
-"ssh_agent_key_fingerprint" = "Fingerprint";
+"ssh_agent_key_fingerprint" = "Δακτυλικό αποτύπωμα";
 
 /* Enter a passphrase to protect the exported SSH Key file */
-"ssh_agent_enter_passphrase_for_export" = "Enter a passphrase to protect the exported SSH Key file";
+"ssh_agent_enter_passphrase_for_export" = "Εισάγετε μια φράση πρόσβασης για την προστασία του εξαγόμενου αρχείου SSH Key";
 
 /* Could not read this file. Are you sure it is a valid OpenSSH Private Key file? */
-"ssh_agent_could_not_read_sshkey_file" = "Could not read this file. Are you sure it is a valid OpenSSH Private Key file?";
+"ssh_agent_could_not_read_sshkey_file" = "Αδυναμία ανάγνωσης αυτού του αρχείου. Είστε βέβαιοι ότι είναι ένα έγκυρο αρχείο Ιδιωτικού Κλειδιού OpenSSH;";
 
 /* That SSH Key passphrase was incorrect. Please try again. */
-"ssh_agent_ssh_key_passphrase_incorrect_try_again" = "That SSH Key passphrase was incorrect. Please try again.";
+"ssh_agent_ssh_key_passphrase_incorrect_try_again" = "Αυτή η φράση πρόσβασης κλειδιού SSH ήταν εσφαλμένη. Δοκιμάστε ξανά.";
 
 /* Overwrite Password?" */
-"ssh_agent_overwrite_password" = "Overwrite Password?";
+"ssh_agent_overwrite_password" = "Αντικατάσταση Κωδικού Πρόσβασης;";
 
 /* This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt. */
-"ssh_agent_sshkey_please_enter_passphrase_msg" = "This SSH key is passphrase protected.\n\nPlease enter the passphrase to decrypt.";
+"ssh_agent_sshkey_please_enter_passphrase_msg" = "Αυτό το κλειδί SSH είναι προστατευμένο με φράση πρόσβασης.\n\nΕισαγάγετε τη φράση πρόσβασης για αποκρυπτογράφηση.";
 
 /* The passphrase does not match the existing password. Strongbox needs the password to match the passphrase to use this SSH Key properly.\n\nContinue to overwrite the current password? */
-"ssh_agent_passphrase_password_mismatch" = "The passphrase does not match the existing password. Strongbox needs the password to match the passphrase to use this SSH Key properly.\n\nContinue to overwrite the current password?";
+"ssh_agent_passphrase_password_mismatch" = "η φράση πρόσβασης δεν ταιριάζει με τον υπάρχοντα κωδικό πρόσβασης. Το Strongbox χρειάζεται τον κωδικό πρόσβασης για να ταιριάζει με τη φράση πρόσβασης για να χρησιμοποιήσει σωστά αυτό το κλειδί SSH.\n\nΘέλετε να συνεχίσετε να αντικαθιστάτε τον τρέχοντα κωδικό πρόσβασης;";
 
 /* Are you sure you want to remove this SSH Key? */
-"ssh_agent_ays_remove_key" = "Are you sure you want to remove this SSH Key?";
+"ssh_agent_ays_remove_key" = "Είστε βέβαιοι ότι θέλετε να αφαιρέσετε αυτό το κλειδί SSH;";
 
 /* Inccorect SSH Key Passphrase */
-"ssh_agent_incorrect_sshkey_passphrase" = "Incorrect SSH Key Passphrase";
+"ssh_agent_incorrect_sshkey_passphrase" = "Λανθασμένη φράση πρόσβασης κλειδιού SSH";
 
 /* The SSH Key is passphrase protected but the password for this entry is not the correct passphrase.\n\nDo you want to continue saving? */
-"ssh_agent_validation_passphrase_password_mismatch" = "The SSH Key is passphrase protected but the password for this entry is not the correct passphrase.\n\nDo you want to continue saving?";
+"ssh_agent_validation_passphrase_password_mismatch" = "Το κλειδί SSH προστατεύεται με φράση πρόσβασης, αλλά ο κωδικός πρόσβασης για αυτήν την καταχώρηση δεν είναι η σωστή φράση πρόσβασης.\n\nΘέλετε να συνεχίσετε την αποθήκευση;";
 
 /* Unknown Process */
-"ssh_agent_unknown_process" = "Unknown Process";
+"ssh_agent_unknown_process" = "Άγνωστη διαδικασία";
 
 /* unlock \"%@\" to allow \"%@\" to use an SSH Key - L10n Note: Request the user to approve an SSH Key. The first param is the Name of the Database containing the key. The second parameter is the name of the process requesting to use the Key. The string is prefixed by the system with "Strongbox is trying to"... Ultimately the string looks like: '"Strongbox" is trying to unlock "Mark's Database" to allow "ssh" to use an SSH Key' */
-"ssh_agent_approve_unlock_key_use_fmt" = "unlock \"%@\" to allow \"%@\" to use an SSH Key";
+"ssh_agent_approve_unlock_key_use_fmt" = "ξεκλειδώστε το \"%@\" για να επιτρέψετε στο \"%@\" να χρησιμοποιήσει ένα κλειδί SSH";
 /* allow \"%@\" to use the key \"%@\" for SSH - L10n Note: Request the user to approve an SSH Key. The first param is the name of the process requesting to use the Key. The second parameter this the title of the SSH Key entry. The string is prefixed by the system with "Strongbox is trying"... Ultimately the string looks like: '"Strongbox" is trying to aalow "ssh" to use the key "Mark's SSH Key" for SSH' */
-"ssh_agent_approve_key_use_fmt" = "allow \"%@\" to use the key \"%@\" for SSH";
+"ssh_agent_approve_key_use_fmt" = "επιτρέψτε στο \"%@\" να χρησιμοποιήσει το κλειδί \"%@\" για SSH";
 
 /* %@ (%@ bits) - L10n Note: 1st Param is something the SSH key type like 'RSA' or 'ED25519', 2nd param is the number of bits used by the key, usually 3072 or 256 */
 "ssh_agent_algo_bits_fmt" = "%@ (%@ bits)";
 
 /* Unknown Organisation */
-"business_activation_unknown_org_title" = "Unknown Organisation";
+"business_activation_unknown_org_title" = "Άγνωστος Οργανισμός";
 
 /* Strongbox could not recognize this Organisation. Are you sure you have entered it correctly? */
-"business_activation_unknown_org_message" = "Strongbox could not recognize this Organisation. Are you sure you have entered it correctly?";
+"business_activation_unknown_org_message" = "Το Strongbox δεν μπορούσε να αναγνωρίσει αυτόν τον οργανισμό. Είστε σίγουροι ότι το έχετε εισάγει σωστά;";
 
 /* Customizing... */
-"generic_customizing_ellipsis" = "Customizing...";
+"generic_customizing_ellipsis" = "Προσαρμογή...";
 
 /* You're all set! We recommend restarting Strongbox to enable the new UI. */
-"nextgen_ui_deprecation_switch_notice" = "You're all set! We recommend restarting Strongbox to enable the new UI.";
+"nextgen_ui_deprecation_switch_notice" = "Είστε έτοιμοι! Συνιστούμε να επανεκκινήσετε το Strongbox για να ενεργοποιήσετε το νέο περιβάλλον χρήστη.";
 
 /* Password Generator */
 "popout_password_generator" = "Γεννήτρια Κωδικών";
 
 /* verify existing credentials before you can change them - L10n Note: This is a suffix that appears on the Touch ID request dialog on macOS, it is prefixed by system text: "Strongbox is trying to", so ultimately this string will look like: "Strongbox is trying to verify existing credentials before you can change them" */
-"verify_creds_before_changing_bio_message_suffix" = "verify credentials before you can change them";
+"verify_creds_before_changing_bio_message_suffix" = "επαληθεύστε τα διαπιστευτήρια προτού μπορέσετε να τα αλλάξετε";
 
 /* Verify Master Credentials */
-"verify_creds_headline" = "Verify Master Credentials";
+"verify_creds_headline" = "Καθορισμός Κύριων Διαπιστευτηρίων";
 
 /* For security reasons your current master credentials must be verified before you can change them. */
-"verify_creds_subhead" = "For security reasons your master credentials must be verified before you can change them.";
+"verify_creds_subhead" = "Για λόγους ασφαλείας, τα κύρια διαπιστευτήριά σας πρέπει να επαληθευτούν για να μπορέσετε να τα αλλάξετε.";
 
 /* Those credentials are incorrect and your database has now been locked for security reasons. */
-"credentials_incorrect_database_locked" = "Those credentials are incorrect and your database has now been locked for security reasons.";
+"credentials_incorrect_database_locked" = "Αυτά τα διαπιστευτήρια είναι λανθασμένα και η βάση δεδομένων σας έχει πλέον κλειδωθεί για λόγους ασφαλείας.";
 
 /* Unsaved Changes */
-"generic_unsaved_changes" = "Unsaved Changes";
+"generic_unsaved_changes" = "Μη αποθηκευμένες αλλαγές";
 
 /* You have pending unsaved changes which should be saved before continuing.\n\nWould you like to save now? */
-"unsaved_changes_question_save_now" = "You have pending unsaved changes which should be saved before continuing.\n\nWould you like to save now?";
+"unsaved_changes_question_save_now" = "Έχετε σε εκκρεμότητα μη αποθηκευμένες αλλαγές που θα πρέπει να αποθηκευτούν πριν συνεχίσετε.\n\nΘέλετε να αποθηκεύσετε τώρα;";
 
 /* Verifying... */
-"generic_verifying_ellipsis" = "Verifying...";
+"generic_verifying_ellipsis" = "Επαλήθευση...";
 
 /* verify existing credentials before you can export in plaintext - L10n Note: This is a suffix that appears on the Touch ID request dialog on macOS, it is prefixed by system text: "Strongbox is trying to", so ultimately this string will look like: "Strongbox is trying to verify existing credentials before you can export in plaintext" */
-"verify_creds_before_plaintext_export_bio_message_suffix" = "verify credentials before you can export in plaintext";
+"verify_creds_before_plaintext_export_bio_message_suffix" = "επαληθεύστε τα διαπιστευτήρια προτού μπορέσετε να εξαγάγετε σε απλό κείμενο";
 
 /* For security reasons your master credentials must be verified before you can export in plaintext. */
-"verify_creds_before_plaintext_export_subhead" = "For security reasons your master credentials must be verified before you can export in plaintext.";
+"verify_creds_before_plaintext_export_subhead" = "Για λόγους ασφαλείας, τα κύρια διαπιστευτήριά σας πρέπει να επαληθευτούν για να μπορέσετε να εξαγάγετε σε απλό κείμενο.";
 
 /* verify existing credentials before you can print - L10n Note: This is a suffix that appears on the Touch ID request dialog on macOS, it is prefixed by system text: "Strongbox is trying to", so ultimately this string will look like: "Strongbox is trying to verify credentials before you can print" */
-"verify_creds_before_print_bio_message_suffix" = "verify credentials before you can print";
+"verify_creds_before_print_bio_message_suffix" = "επαληθεύστε τα διαπιστευτήρια πριν μπορέσετε να εκτυπώσετε";
 
 /* For security reasons your master credentials must be verified before you can print. */
-"verify_creds_before_print_subhead" = "For security reasons your master credentials must be verified before you can print.";
+"verify_creds_before_print_subhead" = "Για λόγους ασφαλείας, τα κύρια διαπιστευτήριά σας πρέπει να επαληθευτούν για να μπορέσετε να εκτυπώσετε.";
 
 /* Import Messages */
-"import_messages_header" = "Import Messages";
+"import_messages_header" = "Εισαγωγή μηνυμάτων";
 
 /* Set New Master Password */
-"import_next_step_set_password" = "Set New Master Password";
+"import_next_step_set_password" = "Καθορισμός Κύριου Κωδικού";
 
 /* Please consider sharing (support@strongboxsafe.com) the above messages with us to help us improve the import process.*/
-"import_please_share_import_messages" = "Please consider sharing (support@strongboxsafe.com) the above messages with us to help us improve the import process.";
+"import_please_share_import_messages" = "Σκεφθείτε να μοιραστείτε (support@strongboxsafe.com) τα παραπάνω μηνύματα μαζί μας για να μας βοηθήσετε να βελτιώσουμε τη διαδικασία εισαγωγής.";
 
 /* 2FA Secret */
-"generic_totp_secret" = "2FA Secret";
+"generic_totp_secret" = "Μυστικό 2FA";
 
 /* Select Items */
-"generic_select_items" = "Select Items";
+"generic_select_items" = "Επιλέξτε Στοιχεία";
 
 /* Select All */
 "generic_select_all" = "Επιλογή Όλων";
@@ -5578,7 +5578,7 @@
 "generic_encryption_settings" = "Kρυπτογράφηση";
 
 /* Easy Read Font on All Fields */
-"item_details_view_settings_easy_read_all" = "Easy Read Font on All Fields";
+"item_details_view_settings_easy_read_all" = "Εύκολη ανάγνωση γραμματοσειράς σε όλα τα πεδία";
 
 /* Auto Fetch FavIcon */
 "item_details_view_settings_auto_fetch_favicon" = "Αυτόματη λήψη FavIcon";
@@ -5593,349 +5593,349 @@
 "item_details_view_settings_sort_custom_fields" = "Ταξινόμηση Προσαρμοσμένων Πεδίων";
 
 /* New SSH Key */
-"details_add_new_ssh_key" = "New SSH Key";
+"details_add_new_ssh_key" = "Νέο κλειδί SSH";
 
 /* What kind of SSH key would you like to add?\n\nWe recommend using the modern ED25519 key type. */
-"details_add_new_ssh_key_what_kind_prompt" = "What kind of SSH key would you like to add?\n\nWe recommend using the modern ED25519 key type.";
+"details_add_new_ssh_key_what_kind_prompt" = "Τι είδους κλειδί SSH θα θέλατε να προσθέσετε;\n\nΣυνιστούμε τη χρήση του σύγχρονου τύπου κλειδιού ED25519.";
 
 /* New ED25519 Key */
-"details_add_new_ssh_key_ed25519" = "New ED25519 Key";
+"details_add_new_ssh_key_ed25519" = "Τι είδους κλειδί SSH θα θέλατε να προσθέσετε;";
 
 /* New RSA Key */
-"details_add_new_ssh_key_rsa" = "New RSA Key";
+"details_add_new_ssh_key_rsa" = "Νέο κλειδί RSA";
 
 /* New SSH Key... */
-"details_add_new_ssh_key_ellipsis" = "New SSH Key...";
+"details_add_new_ssh_key_ellipsis" = "Νέο κλειδί SSH...";
 
 /* Actions - L10n Note: A noun, e.g a list of actions that can be performed */
 "generic_noun_actions" = "Ενέργειες";
 
 /* OK, Don't Remind Me Again */
-"generic_ok_dont_remind_me_again" = "OK, Don't Remind Me Again";
+"generic_ok_dont_remind_me_again" = "Εντάξει, μην μου το ξαναθυμίσεις";
 
 /* Strongbox Sale Now On */
-"safesvc_sale_now_on" = "Strongbox Sale Now On";
+"safesvc_sale_now_on" = "Εκπτώσεις Strongbox τώρα";
 
 /* Subscriber Sale Offer */
-"sale_view_subscriber_title" = "Subscriber Sale Offer";
+"sale_view_subscriber_title" = "Προσφορά Πώλησης Συνδρομητή";
 
 /* Sale Now On */
 "sale_view_regular_title" = "Έκπτωση Τώρα Διαθέσιμη";
 
 /* Since you're a Pro subscriber, we'd like to say thank you and offer you a discount on your next renewal */
-"sale_view_subscriber_message" = "Since you're a Pro subscriber, we'd like to say thank you and offer you a discount on your next renewal";
+"sale_view_subscriber_message" = "Εφόσον είστε Pro συνδρομητής, θα θέλαμε να σας ευχαριστήσουμε και να σας προσφέρουμε έκπτωση στην επόμενη ανανέωσή σας";
 
 /* Want to grab a great deal? Now's the perfect time to go Pro. We've got a special offer on all Strongbox licenses for a short time only. */
-"sale_view_regular_message" = "Now's the perfect time to go Pro. We've got a special offer on all Strongbox licenses for a short time only";
+"sale_view_regular_message" = "Τώρα είναι η τέλεια στιγμή για να πάτε Pro. Έχουμε μια ειδική προσφορά για όλες τις άδειες χρήσης Strongbox μόνο για σύντομο χρονικό διάστημα";
 
 /* Redeem Offer Now */
-"sale_view_subscriber_cta" = "Redeem Offer Now";
+"sale_view_subscriber_cta" = "Εξαργύρωση Κωδικού Προσφοράς";
 
 /* Go Pro Now */
-"sale_view_regular_cta" = "Go Pro Now";
+"sale_view_regular_cta" = "Πηγαίνετε Pro τώρα";
 
 /* Looking for a Lifetime License? */
 "sale_view_looking_for_lifetime" = "Ψάχνετε για μια Άδεια εφόρου ζωής;";
 
 /* Offer ends Midnight %@ - L10n note: The 1st parameter is a day, like Monday or Friday, so: "Offer ends Midnight Friday" for example */
-"sale_view_offer_ends_date_fmt %@" = "Offer ends Midnight %@";
+"sale_view_offer_ends_date_fmt %@" = "Η προσφορά λήγει τα μεσάνυχτα %@";
 
 /* Item Properties... */
-"generic_item_properties_ellipsis" = "Item Properties...";
+"generic_item_properties_ellipsis" = "Ιδιότητες στοιχείου...";
 
 /* Audit Issue Details... */
-"view_audit_issue_details_ellipsis" = "Audit Issue Details...";
+"view_audit_issue_details_ellipsis" = "Λεπτομέρειες για το θέμα του ελέγχου...";
 
 /* Suggest in AutoFill - L10n - Whether an entry should be suggested in the AutoFill dropdown in your browser - It's a Yes/No flag in the UI */
-"suggest_in_autofill_yesno_flag" = "Suggest in AutoFill";
+"suggest_in_autofill_yesno_flag" = "Πρόταση στην Αυτόματη Συμπλήρωση";
 
 /* Toggle Suggest in AutoFill */
-"item_settings_action_verb_toggle_suggest_in_autofill" = "Toggle Suggest in AutoFill";
+"item_settings_action_verb_toggle_suggest_in_autofill" = "Εναλλαγή Πρότασης στην Αυτόματη Συμπλήρωση";
 
 /* Toggle Audit this Item */
-"item_settings_action_verb_toggle_suggest_in_audit" = "Toggle Audit this Item";
+"item_settings_action_verb_toggle_suggest_in_audit" = "Εναλλαγή ελέγχου αυτού του στοιχείου";
 
 /* for %@ hours - L10n note: the first parameter is numeric, e.g. "for 4 hours", which can appear in the UI as a suffix, so something like "Remember this for 12 hours" */
-"generic_for_n_hours_suffix_fmt" = "for %@ hours";
+"generic_for_n_hours_suffix_fmt" = "για %@ ώρες";
 
 /* until Strongbox quits - L10n note: used as a suffix, e.g. "Remember this until Strongbox quits" */
-"ssh_agent_remember_approval_until_strongbox_quits" = "until Strongbox quits";
+"ssh_agent_remember_approval_until_strongbox_quits" = "μέχρι να σταματήσει το Strongbox";
 
 /* What format would you like to export to? */
-"export_what_format_question" = "What format would you like to export to?";
+"export_what_format_question" = "Σε ποια μορφή θα θέλατε να κάνετε εξαγωγή;";
 
 /* Export Items */
-"export_items_dialog_title" = "Export Items";
+"export_items_dialog_title" = "Εξαγωγή στοιχείων";
 
 /* Export Group */
-"export_group_dialog_title" = "Export Group";
+"export_group_dialog_title" = "Εξαγωγή Ομάδας";
 
 /* Overwrite Existing Passkey? */
-"passkey_overwrite_question_title" = "Overwrite Existing Passkey?";
+"passkey_overwrite_question_title" = "Αντικατάσταση υπάρχοντος κωδικού πρόσβασης;";
 
 /* Overwrite */
-"passkey_option_overwrite" = "Overwrite";
+"passkey_option_overwrite" = "Αντικατάσταση";
 
 /* This entry already has a passkey, do you want to overwrite it? */
-"passkey_overwrite_existing_question_msg" = "This entry already has a passkey, do you want to overwrite it?";
+"passkey_overwrite_existing_question_msg" = "Αυτή η καταχώρηση έχει ήδη κλειδί πρόσβασης, θέλετε να την αντικαταστήσετε;";
 
 /* Select entry for passkey */
-"passkey_select_existing_entry" = "Select entry for passkey";
+"passkey_select_existing_entry" = "Επιλέξτε την καταχώρηση για το κλειδί πρόσβασης";
 
 /* New Passkey */
-"passkey_new_passkey_title" = "New Passkey";
+"passkey_new_passkey_title" = "Νέο κλειδί πρόσβασης";
 
 /* Let's get your new passkey saved. How would you like to add this passkey to your database? */
-"passkey_how_to_add_to_database" = "Let's get your new passkey saved. How would you like to add this passkey to your database?";
+"passkey_how_to_add_to_database" = "Ας αποθηκεύσουμε το νέο κλειδί πρόσβασης. Πώς θα θέλατε να προσθέσετε αυτό το κλειδί πρόσβασης στη βάση δεδομένων σας;";
 
 /* Create a New Entry */
-"passkey_add_by_creating_new" = "Create a New Entry";
+"passkey_add_by_creating_new" = "Δημιουργία νέας καταχώρισης";
 
 /* Add to an Existing Entry */
-"passkey_add_to_existing" = "Add to an Existing Entry";
+"passkey_add_to_existing" = "Προσθήκη σε μια υπάρχουσα καταχώριση";
 
 /* New Entry for Passkey */
-"passkey_new_entry_title" = "New Entry for Passkey";
+"passkey_new_entry_title" = "Νέα καταχώρηση για το κλειδί πρόσβασης";
 
 /* We'll create a new entry for this passkey. Choose a title and a group where you'd like to save it. */
-"passkey_new_entry_text" = "We'll create a new entry for this passkey. Choose a title and a group where you'd like to save it.";
+"passkey_new_entry_text" = "Θα δημιουργήσουμε μια νέα καταχώριση για αυτό το κλειδί πρόσβασης. Επιλέξτε έναν τίτλο και μια ομάδα όπου θέλετε να τον αποθηκεύσετε.";
 
 /* Group */
-"generic_field_name_group" = "Group";
+"generic_field_name_group" = "Ομάδα";
 
 /* Save Passkey */
-"passkey_save_passkey" = "Save Passkey";
+"passkey_save_passkey" = "Αποθήκευση κλειδιού πρόσβασης";
 
 /* Passkeys */
-"generic_noun_plural_passkeys" = "Passkeys";
+"generic_noun_plural_passkeys" = "Κλειδιά πρόσβασης";
 
 /* Passkey */
-"generic_noun_passkey" = "Passkey";
+"generic_noun_passkey" = "Κλειδί πρόσβασης";
 
 /* Relying Party - L10n Note: This is related to Passkeys. It is a technical term from the spec. It is publicly visible/user facing. I am uncertain whether theser terms have a translation in your language, feel free to use your best judgement here about whether to localize or not. */
-"passkey_relying_party" = "Relying Party";
+"passkey_relying_party" = "Στήριγμα";
 
 /* Credential ID - L10n Note: This is related to Passkeys. It is a technical term from the spec. It is publicly visible/user facing. I am uncertain whether theser terms have a translation in your language, feel free to use your best judgement here about whether to localize or not.   */
-"passkey_credential_id" = "Credential ID";
+"passkey_credential_id" = "Ταυτότητα διαπιστευτηρίων";
 
 /* User Handle - L10n Note: This is related to Passkeys. It is a technical term from the spec. It is publicly visible/user facing. I am uncertain whether theser terms have a translation in your language, feel free to use your best judgement here about whether to localize or not.  */
-"passkey_user_handle" = "User Handle";
+"passkey_user_handle" = "Λαβή χρήστη";
 
 /* ECDSA / ES256 (Elliptic Curve) - L10n Note: This is related to Passkeys. It is a technical term. It is publicly visible/user facing. Feel free to use your best judgement here about whether to localize or not. */
-"passkey_ecdsa_es256_algo" = "ECDSA / ES256 (Elliptic Curve)";
+"passkey_ecdsa_es256_algo" = "ECDSA / ES256 (ελλειπτική καμπύλη)";
 
 /* Are you sure you want to remove the passkey from this entry? */
-"passkey_ays_remove_key" = "Are you sure you want to remove the passkey from this entry?";
+"passkey_ays_remove_key" = "Είστε βέβαιοι ότι θέλετε να αφαιρέσετε το κλειδί πρόσβασης από αυτήν την καταχώριση;";
 
 /* Your passkey was successfully created and saved to your database but Strongbox could not initiate a reload.\n\nYou should try to reload your database now. */
-"passkey_saved_but_could_not_reload" = "Your passkey was successfully created and saved to your database but Strongbox could not initiate a reload.\n\nYou should try to reload your database now.";
+"passkey_saved_but_could_not_reload" = "Ο κωδικός πρόσβασής σας δημιουργήθηκε με επιτυχία και αποθηκεύτηκε στη βάση δεδομένων σας, αλλά το Strongbox δεν μπόρεσε να ξεκινήσει μια επαναφόρτωση.\n\nΘα πρέπει να προσπαθήσετε να φορτώσετε ξανά τη βάση δεδομένων σας τώρα.";
 
 /* Strongbox Not Running */
-"autofill_sb_not_running_title" = "Strongbox Not Running";
+"autofill_sb_not_running_title" = "Το Strongbox δεν τρέχει";
 
 /* Strongbox must be running to register a new Passkey.\n\nMake sure Strongbox is running in the background. */
-"autofill_sb_not_running_message" = "Strongbox must be running to register a new Passkey.\n\nMake sure Strongbox is running in the background.";
+"autofill_sb_not_running_message" = "Το Strongbox πρέπει να εκτελείται για να καταχωρίσετε νέο κωδικό πρόσβασης.\n\nΒεβαιωθείτε ότι το Strongbox εκτελείται στο παρασκήνιο.";
 
 /* Passkeys Unavailable */
-"passkeys_unavailable_alert_title" = "Passkeys Unavailable";
+"passkeys_unavailable_alert_title" = "Μη διαθέσιμοι κωδικοί πρόσβασης";
 
 /* For technical reasons, passkeys are unavailable in this database format. They are only supported by the KeePass 2 format. This is something you could migrate to. */
-"passkeys_unavailable_alert_message" = "For technical reasons, passkeys are unavailable in this database format. They are only supported by the KeePass 2 format. This is something you could migrate to.";
+"passkeys_unavailable_alert_message" = "Για τεχνικούς λόγους, τα κλειδιά πρόσβασης δεν είναι διαθέσιμα σε αυτήν τη μορφή βάσης δεδομένων. Υποστηρίζονται μόνο από τη μορφή KeePass 2. Αυτό είναι κάτι στο οποίο θα μπορούσατε να μεταβείτε.";
 
 /* Select Existing Entry */
-"passkeys_select_existing_entry_to_add_to_title" = "Select Existing Entry";
+"passkeys_select_existing_entry_to_add_to_title" = "Επιλέξτε Υπάρχουσα Καταχώρηση";
 
 /* Please select an existing entry to add your new passkey */
-"passkeys_select_existing_entry_to_add_to_message" = "Please select an existing entry to add your new passkey";
+"passkeys_select_existing_entry_to_add_to_message" = "Επιλέξτε μια υπάρχουσα καταχώρηση για να προσθέσετε το νέο κλειδί πρόσβασης";
 
 /* Are you sure you want to add this passkey to '%@'? - l10n note: the first parameter is the title of an existing entry in your database, like 'Amazon.com' or something. */
-"passkeys_are_you_sure_add_to_fmt" = "Are you sure you want to add this passkey to '%@'?";
+"passkeys_are_you_sure_add_to_fmt" = "Είστε βέβαιοι ότι θέλετε να προσθέσετε αυτό το κλειδί πρόσβασης στο '%@';";
 
 /* Search */
-"generic_verb_search" = "Search";
+"generic_verb_search" = "Αναζήτηση";
 
 /* New Entry Defaults */
-"new_entry_defaults" = "New Entry Defaults";
+"new_entry_defaults" = "Προεπιλογές Νέας Καταχώρησης";
 
 /* Create New Entry */
-"autofill_create_new_entry_title" = "Create New Entry";
+"autofill_create_new_entry_title" = "Δημιουργία Νέας Καταχώρησης";
 
 /* We'll create a new entry for this website. Choose a title and a group where you'd like to save it. */
-"autofill_create_new_entry_message" = "We'll create a new entry for this website. Choose a title and a group where you'd like to save it.";
+"autofill_create_new_entry_message" = "Θα δημιουργήσουμε μια νέα καταχώριση για αυτόν τον ιστότοπο. Επιλέξτε έναν τίτλο και μια ομάδα όπου θέλετε να τον αποθηκεύσετε.";
 
 /* Your new entry was successfully created and saved to your database but Strongbox could not initiate a reload.\n\nYou should try to reload your database now. */
-"entry_saved_but_could_not_reload" = "Your new entry was successfully created and saved to your database but Strongbox could not initiate a reload.\n\nYou should try to reload your database now.";
+"entry_saved_but_could_not_reload" = "Η νέα καταχώρισή σας δημιουργήθηκε με επιτυχία και αποθηκεύτηκε στη βάση δεδομένων σας, αλλά το Strongbox δεν μπόρεσε να ξεκινήσει μια επαναφόρτωση.\n\nΘα πρέπει να προσπαθήσετε να φορτώσετε ξανά τη βάση δεδομένων σας τώρα.";
 
 /* Touch the key */
-"yubikey_touch_the_key_to_read_the_otp" = "Touch your YubiKey...";
+"yubikey_touch_the_key_to_read_the_otp" = "Αγγίξτε το YubiKey σας...";
 
 /* Insert the key */
-"yubikey_insert_the_key_to_read_the_otp" = "Insert your YubiKey...";
+"yubikey_insert_the_key_to_read_the_otp" = "Εισαγάγετε το YubiKey σας...";
 
 /* Communicating with hardware key... */
-"yubikey_communicating_with_key_ellipsis" = "Communicating with your YubiKey...";
+"yubikey_communicating_with_key_ellipsis" = "Επικοινωνία με το YubiKey...";
 
 /* '%@' already has a passkey, do you want to overwrite it? */
-"passkey_overwrite_existing_question_msg_fmt" = "'%@' already has a passkey, are you sure you want to overwrite it?";
+"passkey_overwrite_existing_question_msg_fmt" = "Το '%@' έχει ήδη κωδικό πρόσβασης, είστε βέβαιοι ότι θέλετε να το αντικαταστήσετε;";
 
 /* Custom Icon Size - L10n note - file size of the custom icon of this entry */
-"generic_fieldname_custom_icon_size" = "Custom Icon Size";
+"generic_fieldname_custom_icon_size" = "Προσαρμοσμένο μέγεθος εικονιδίου";
 
 /* Could not auto select FavIcon because all available images are larger than the configured maximum. You must manually select it. */
-"favicon_downloader_images_too_large" = "Could not auto select FavIcon because all available images are larger than the configured maximum. You must manually select it.";
+"favicon_downloader_images_too_large" = "Δεν ήταν δυνατή η αυτόματη επιλογή FavIcon επειδή όλες οι διαθέσιμες εικόνες είναι μεγαλύτερες από το ρυθμισμένο μέγιστο. Πρέπει να το επιλέξετε χειροκίνητα.";
 
 /* Cannot rename file as a file with that name already exists. */
-"error_rename_file_already_exists" = "Cannot rename file as a file with that name already exists.";
+"error_rename_file_already_exists" = "Δεν είναι δυνατή η μετονομασία του αρχείου καθώς υπάρχει ήδη αρχείο με αυτό το όνομα.";
 
 /* Suggestable in AutoFill */
-"generic_autofill_suggestable" = "Suggestable in AutoFill";
+"generic_autofill_suggestable" = "Προτείνεται στην Αυτόματη Συμπλήρωση";
 
 /* Wi-Fi Sync */
-"storage_provider_name_wifi_sync" = "Wi-Fi Sync";
+"storage_provider_name_wifi_sync" = "Συγχρονισμός Wi-Fi";
 
 /* Edits are in progress, so updating is not currently possible. Finish edits on destination Wi-Fi device and try again. */
-"wifi_sync_edits_in_progress_try_again" = "Edits are in progress, so updating is not currently possible. Finish edits on destination Wi-Fi device and try again.";
+"wifi_sync_edits_in_progress_try_again" = "Οι αλλαγές βρίσκονται σε εξέλιξη, επομένως η ενημέρωση δεν είναι δυνατή αυτήν τη στιγμή. Ολοκληρώστε τις αλλαγές στη συσκευή Wi-Fi προορισμού και δοκιμάστε ξανά.";
 
 /* A sync is in progress, so updating is not currently possible. Allow sync to finish on destination Wi-Fi device and try again. */
-"wifi_sync_sync_in_progress_try_again" = "A sync is in progress, so updating is not currently possible. Allow sync to finish on destination Wi-Fi device and try again.";
+"wifi_sync_sync_in_progress_try_again" = "Ένας συγχρονισμός βρίσκεται σε εξέλιξη, επομένως η ενημέρωση δεν είναι δυνατή αυτήν τη στιγμή. Αφήστε τον συγχρονισμό να ολοκληρωθεί στη συσκευή Wi-Fi προορισμού και δοκιμάστε ξανά.";
 
 /* Enter new Service Name or leave blank for default */
-"wifi_sync_enter_new_service_name" = "Enter new Service Name or leave blank for default";
+"wifi_sync_enter_new_service_name" = "Εισαγάγετε νέο όνομα υπηρεσίας ή αφήστε το κενό για προεπιλογή";
 
 /* Changing the passcode or service name will break any existing connections on other devices. */
-"wifi_sync_change_passcode_warning" = "Changing the passcode or service name will break any existing connections on other devices.";
+"wifi_sync_change_passcode_warning" = "Η αλλαγή του κωδικού πρόσβασης ή του ονόματος υπηρεσίας θα διακόψει τυχόν υπάρχουσες συνδέσεις σε άλλες συσκευές.";
 
 /* Invalid Passcode */
-"wifi_sync_invalid_passcode" = "Invalid Passcode";
+"wifi_sync_invalid_passcode" = "Μη έγκυρος κωδικός πρόσβασης";
 
 /* Enter New Passcode */
-"wifi_sync_enter_new_passcode" = "Enter New Passcode";
+"wifi_sync_enter_new_passcode" = "Εισαγάγετε νέο κωδικό πρόσβασης";
 
 /* For advanced users, connect to your NAS or other personal server anywhere on your network or the Internet via these standard protocols. */
-"select_storage_footer_servers" = "For advanced users, connect to your NAS or other personal server anywhere on your network or the Internet via these standard protocols.";
+"select_storage_footer_servers" = "Για προχωρημένους χρήστες, συνδεθείτε στο NAS σας ή σε άλλο προσωπικό διακομιστή οπουδήποτε στο δίκτυό σας ή στο Διαδίκτυο μέσω αυτών των τυπικών πρωτοκόλλων.";
 
 /* Use Strongbox's advanced 'Wi-Fi Sync' to stay up to date without the use of a server via Wi-Fi (or any LAN connection). */
-"select_storage_footer_wifi" = "Use Strongbox's advanced 'Wi-Fi Sync' to stay up to date without the use of a server via Wi-Fi (or any LAN connection).";
+"select_storage_footer_wifi" = "Χρησιμοποιήστε το προηγμένο «Wi-Fi Sync» του Strongbox για να παραμείνετε ενημερωμένοι χωρίς τη χρήση διακομιστή μέσω Wi-Fi (ή οποιασδήποτε σύνδεσης LAN).";
 
 /* Connect to your database via the Files app. */
-"select_storage_footer_files_only" = "Connect to your database via the Files app.";
+"select_storage_footer_files_only" = "Συνδεθείτε στη βάση δεδομένων σας μέσω της εφαρμογής Αρχεία.";
 
 /* Connect to your database via the Files app or store your database on this device (don't forget to backup though). */
-"select_storage_footer_files_or_local_device" = "Connect to your database via the Files app or store your database on this device (don't forget to backup though).";
+"select_storage_footer_files_or_local_device" = "Συνδεθείτε στη βάση δεδομένων σας μέσω της εφαρμογής Αρχεία ή αποθηκεύστε τη βάση δεδομένων σας σε αυτήν τη συσκευή (μην ξεχάσετε ωστόσο να δημιουργήσετε αντίγραφα ασφαλείας).";
 
 /* Use these methods to transfer a database into Strongbox as a local copy. This does not maintain a connection with any server or sync anywhere after the initial transfer. */
-"select_storage_footer_one_time_copy" = "Use these methods to transfer a database into Strongbox as a local copy. This does not maintain a connection with any server or sync anywhere after the initial transfer.";
+"select_storage_footer_one_time_copy" = "Χρησιμοποιήστε αυτές τις μεθόδους για να μεταφέρετε μια βάση δεδομένων στο Strongbox ως τοπικό αντίγραφο. Αυτό δεν διατηρεί σύνδεση με κανένα διακομιστή ούτε συγχρονίζει οπουδήποτε μετά την αρχική μεταφορά.";
 
 /* We've integrated with these popular online drives. These integrations often provide superior sync than using the built-in Files app. */
-"select_storage_footer_third_party" = "We've integrated with these popular online drives. These integrations often provide superior sync than using the built-in Files app.";
+"select_storage_footer_third_party" = "Έχουμε ενσωματωθεί με αυτές τις δημοφιλείς ηλεκτρονικές μονάδες δίσκου. Αυτές οι ενσωματώσεις συχνά παρέχουν ανώτερο συγχρονισμό από τη χρήση της ενσωματωμένης εφαρμογής Αρχεία.";
 
 /* Servers */
-"select_storage_header_servers" = "Servers";
+"select_storage_header_servers" = "Διακομιστές";
 
 /* Built-In */
-"select_storage_header_built_in" = "Built-In";
+"select_storage_header_built_in" = "Ενσωματωμένο";
 
 /* One Time Copy Options */
-"select_storage_header_one_time_copy" = "One Time Copy Options";
+"select_storage_header_one_time_copy" = "Επιλογές εφάπαξ αντιγραφής";
 
 /* Third Party Integrations */
-"select_storage_header_third_party" = "Third Party Integrations";
+"select_storage_header_third_party" = "Ενσωματώσεις τρίτων";
 
 /* Wi-Fi Sync is a Pro feature.\n\nUpgrade now to enjoy. */
-"wifi_sync_pro_feature_notice" = "Wi-Fi Sync is a Pro feature.\n\nUpgrade now to enjoy.";
+"wifi_sync_pro_feature_notice" = "Το Wi-Fi Sync είναι μια λειτουργία Pro.\n\nΚάντε αναβάθμιση τώρα για να απολαύσετε.";
 
 /* Allow Local Network Access... */
-"wifi_sync_allow_network_access" = "Allow Local Network Access...";
+"wifi_sync_allow_network_access" = "Να επιτρέπεται η πρόσβαση σε τοπικό δίκτυο...";
 
 /* Local Network Access Denied */
-"wifi_sync_local_network_access_denied" = "Local Network Access Denied";
+"wifi_sync_local_network_access_denied" = "Δεν επιτρέπεται η πρόσβαση σε τοπικό δίκτυο";
 
 /* No Devices Found */
-"wifi_sync_no_devices_found" = "No Devices Found";
+"wifi_sync_no_devices_found" = "Δεν βρέθηκαν συσκευές";
 
 /* Sync in Offline Mode? */
-"manual_pulldown_sync_sync_in_offline_mode_question_title" = "Sync in Offline Mode?";
+"manual_pulldown_sync_sync_in_offline_mode_question_title" = "Συγχρονισμός σε λειτουργία εκτός σύνδεσης;";
 
 /* Would you like to sync even though the database is in Offline mode? */
-"manual_pulldown_sync_sync_in_offline_mode_question_message" = "Would you like to sync even though the database is in Offline mode?";
+"manual_pulldown_sync_sync_in_offline_mode_question_message" = "Θέλετε να γίνει συγχρονισμός παρόλο που η βάση δεδομένων βρίσκεται σε λειτουργία εκτός σύνδεσης;";
 
 /* Sync this once */
-"manual_pulldown_sync_sync_in_offline_mode_option_sync_once" = "Sync this once";
+"manual_pulldown_sync_sync_in_offline_mode_option_sync_once" = "Συγχρονίστε αυτό μία φορά";
 
 /* Always sync when I do this */
-"manual_pulldown_sync_sync_in_offline_mode_option_always" = "Always sync when I do this";
+"manual_pulldown_sync_sync_in_offline_mode_option_always" = "Να γίνεται πάντα συγχρονισμός όταν το κάνω αυτό";
 
 /* Enter Passcode to Connect */
-"wifi_sync_enter_passcode_to_connect" = "Enter Passcode to Connect";
+"wifi_sync_enter_passcode_to_connect" = "Εισαγάγετε τον κωδικό πρόσβασης για σύνδεση";
 
 /* Passcode */
-"wifi_sync_passcode_noun" = "Passcode";
+"wifi_sync_passcode_noun" = "Κωδικός πρόσβασης";
 
 /* Connect */
-"generic_connect_verb" = "Connect";
+"generic_connect_verb" = "Συνδέω";
 
 /* Tip */
-"generic_noun_tip_or_advice" = "Tip";
+"generic_noun_tip_or_advice" = "Συμβουλή";
 
 /* You can find the Passcode to '%@' under Strongbox's Wi-Fi Sync Settings on the Source Device. */
-"wifi_sync_tip_find_passcode_in_settings_fmt" = "You can find the Passcode to '%@' under Strongbox's Wi-Fi Sync Settings on the Source Device.";
+"wifi_sync_tip_find_passcode_in_settings_fmt" = "Μπορείτε να βρείτε τον κωδικό πρόσβασης για το '%@' κάτω από τις Ρυθμίσεις συγχρονισμού Wi-Fi του Strongbox στη συσκευή πηγής.";
 
 /* Incorrect Passcode */
-"wifi_sync_incorrect_passcode" = "Incorrect Passcode";
+"wifi_sync_incorrect_passcode" = "Λανθασμένος κωδικός πρόσβασης";
 
 /* Service Name */
-"wifi_sync_properties_service_name" = "Service Name";
+"wifi_sync_properties_service_name" = "Όνομα Υπηρεσίας";
 
 /* Wi-Fi Sync was stopped because there were too many incorrect passcode attempts. */
-"wifi_sync_too_many_bad_passcode_attempts" = "Wi-Fi Sync was stopped because there were too many incorrect passcode attempts.";
+"wifi_sync_too_many_bad_passcode_attempts" = "Ο συγχρονισμός Wi-Fi διακόπηκε επειδή έγιναν πάρα πολλές προσπάθειες εσφαλμένου κωδικού πρόσβασης.";
 
 /* Most Recent (Used until %@) - L10n Note: Header above a previously used password. The 1st parameter is a friend date string, e.g. 'Most Recent Used until 2 February 2023 at 10:31' */
-"password_history_this_password_was_used_until_most_recent_fmt" = "Most Recent (Used until %@)";
+"password_history_this_password_was_used_until_most_recent_fmt" = "Πιο πρόσφατα (Χρησιμοποιήθηκε έως %@)";
 
 /* Oldest (Used until %@) - L10n Note: Header above a previously used password. The 1st parameter is a friend date string, e.g. 'Oldest Used until 2 February 2023 at 10:31' */
-"password_history_this_password_was_used_until_oldest_fmt" = "Oldest (Used until %@)";
+"password_history_this_password_was_used_until_oldest_fmt" = "Παλαιότερο (Χρησιμοποιήθηκε έως %@)";
 
 /* Excluded - L10n Note: Header for a list of excluded items, or a navigation item or side bar item that will show a list of excluded items */
-"nav_excluded_items" = "Excluded";
+"nav_excluded_items" = "Εξαιρούνται";
 
 /* Passphrase Performance Issues */
-"ssh_key_agent_passphrase_perf_problem_prompt_title" = "Passphrase Performance Issues";
+"ssh_key_agent_passphrase_perf_problem_prompt_title" = "Ζητήματα απόδοσης φράσης πρόσβασης";
 
 /* To avoid performance problems, it is best to store this SSH key without the extra passphrase encryption layer.\nNB: Your SSH key is still securely protected by KeePass encryption.\n\nIs it OK if Strongbox stores this SSH key in an optimized fashion? */
-"ssh_key_agent_passphrase_perf_problem_prompt_message" = "To avoid performance problems, it is best to store this SSH key without the extra passphrase encryption layer.\n\nNB: Your SSH key will still be securely encrypted.\n\nIs it OK if Strongbox stores this SSH key in an optimized fashion?";
+"ssh_key_agent_passphrase_perf_problem_prompt_message" = "Για να αποφύγετε προβλήματα απόδοσης, είναι καλύτερο να αποθηκεύσετε αυτό το κλειδί SSH χωρίς το επιπλέον επίπεδο κρυπτογράφησης φράσης πρόσβασης.\n\nΣημείωση: Το κλειδί SSH θα εξακολουθεί να είναι κρυπτογραφημένο με ασφάλεια.\n\nΕίναι εντάξει εάν το Strongbox αποθηκεύει αυτό το κλειδί SSH με βελτιστοποιημένο τρόπο;";
 
 /* Yes, that's a great idea */
-"ssh_key_agent_passphrase_perf_problem_prompt_option_yes" = "Yes, that's a great idea";
+"ssh_key_agent_passphrase_perf_problem_prompt_option_yes" = "Ναι, είναι πολύ καλή ιδέα";
 
 /* Lock - L10n Note: This is a verb or action. To "Lock" a database */
-"generic_verb_lock_action" = "Lock";
+"generic_verb_lock_action" = "Κλείδωμα";
 
 /* Include in Audit */
-"action_include_items_in_audit_verb" = "Include in Audit";
+"action_include_items_in_audit_verb" = "Συμπεριλάβετε στον Έλεγχο";
 
 /* Exclude from Audit */
-"action_exclude_items_from_audit_verb" = "Exclude from Audit";
+"action_exclude_items_from_audit_verb" = "Εξαίρεση από τον έλεγχο";
 
 /* Suggest in AutoFill */
-"action_suggest_items_in_autofill_verb" = "Suggest in AutoFill";
+"action_suggest_items_in_autofill_verb" = "Πρόταση στην Αυτόματη Συμπλήρωση";
 
 /* Do not suggest in AutoFill */
-"action_do_not_suggest_items_in_autofill_verb" = "Do not suggest in AutoFill";
+"action_do_not_suggest_items_in_autofill_verb" = "Μην προτείνετε στην Αυτόματη Συμπλήρωση";
 
 /* Import Warning */
-"generic_import_warning_title" = "Import Warning";
+"generic_import_warning_title" = "Προειδοποίηση εισαγωγής";
 
 /* The import process may not be perfect and some features may not be available in Strongbox.\n\nIt is important to examine your database after the import. */
-"generic_import_warning_msg" = "The import process may not be perfect and some features may not be available in Strongbox.\n\nIt is important to examine your database after the import.";
+"generic_import_warning_msg" = "Η διαδικασία εισαγωγής μπορεί να μην είναι τέλεια και ορισμένες λειτουργίες μπορεί να μην είναι διαθέσιμες στο Strongbox.\n\nΕίναι σημαντικό να εξετάσετε τη βάση δεδομένων σας μετά την εισαγωγή.";
 
 /* Import Enpass */
-"safes_vc_import_enpass" = "Import from Enpass";
+"safes_vc_import_enpass" = "Εισαγωγή από το Enpass";
 
 /* Strongbox can import JSON files. Tap OK to select your exported JSON file. */
-"safes_vc_import_json_message" = "Strongbox can import JSON files. Tap OK to select your exported JSON file.";
+"safes_vc_import_json_message" = "Το Strongbox μπορεί να εισάγει αρχεία JSON. Πατήστε OK για να επιλέξετε το εξαγόμενο αρχείο JSON.";
 
 /* Import Bitwarden */
-"safes_vc_import_bitwarden" = "Import from Bitwarden";
+"safes_vc_import_bitwarden" = "Εισαγωγή από την Bitwarden";
 
 /* Enpass (JSON) */
 "safes_vc_import_enpass_json" = "Enpass (JSON)";
@@ -5944,52 +5944,52 @@
 "safes_vc_import_bitwarden_json" = "Bitwarden (JSON)";
 
 /* Advanced Passcode (Alphanumeric) */
-"advanced_passcode_alphanumeric" = "Advanced Passcode (Alphanumeric)";
+"advanced_passcode_alphanumeric" = "Σύνθετος κωδικός πρόσβασης (αλφαριθμητικός)";
 
 /* On My Mac */
-"add_database_on_my_mac" = "On My Mac";
+"add_database_on_my_mac" = "Στο Mac Μου";
 
 /* A passcode is required on other devices to connect to this device. */
-"wifi_sync_change_passcode_message" = "A passcode is required on other devices to connect to this device.";
+"wifi_sync_change_passcode_message" = "Απαιτείται κωδικός πρόσβασης σε άλλες συσκευές για να συνδεθείτε σε αυτήν τη συσκευή.";
 
 /* This is the name of this device as appears to others on the network. */
-"wifi_sync_change_service_name_message" = "This is the name of this device as appears to others on the network.";
+"wifi_sync_change_service_name_message" = "Αυτό είναι το όνομα αυτής της συσκευής όπως εμφανίζεται σε άλλους στο δίκτυο.";
 
 /* Item is not Searchable - L10n Note: Indicates that a particular item is not searchable because it is contained in a group which is marked as not searchable */
-"item_is_not_searchable" = "Item is not searchable";
+"item_is_not_searchable" = "Δεν υπάρχει δυνατότητα αναζήτησης του στοιχείου";
 
 /* Recover Key File */
-"recover_key_file_title" = "Recover Key File";
+"recover_key_file_title" = "Ανάκτηση αρχείου κλειδιού";
 
 /* Enter your recovery codes below to recover your key file. If you also have the Hash then Strongbox can verify you've entered the codes correctly. */
-"recover_key_file_enter_codes" = "Enter your recovery codes below to recover your key file. If you also have the Hash then Strongbox can verify you've entered the codes correctly.";
+"recover_key_file_enter_codes" = "Εισαγάγετε τους κωδικούς ανάκτησης παρακάτω για να ανακτήσετε το αρχείο κλειδιού σας. Εάν έχετε επίσης το Hash, τότε το Strongbox μπορεί να επαληθεύσει ότι έχετε εισαγάγει σωστά τους κωδικούς.";
 
 /* Data (Hex Codes) */
-"recover_key_file_data_hex_codes" = "Data (Hex Codes)";
+"recover_key_file_data_hex_codes" = "Δεδομένα (Hex Codes)";
 
 /* Hash (Optional) */
-"recover_key_file_hash_optional_title" = "Hash (Optional)";
+"recover_key_file_hash_optional_title" = "Hash (προαιρετικό)";
 
 /* Valid Hash */
-"recover_key_file_valid_hash" = "Valid Hash";
+"recover_key_file_valid_hash" = "Έγκυρο Hash";
 
 /* Invalid Hash */
-"recover_key_file_invalid_hash" = "Invalid Hash";
+"recover_key_file_invalid_hash" = "Μη έγκυρο Hash";
 
 /* Key File Ready */
-"new_key_file_ready" = "Key File Ready";
+"new_key_file_ready" = "Έτοιμο αρχείο κλειδιού";
 
 /* Your new key file has been generated and is ready to use. */
-"new_key_file_is_ready_desc" = "Your new key file has been generated and is ready to use.";
+"new_key_file_is_ready_desc" = "Το νέο αρχείο κλειδιού σας δημιουργήθηκε και είναι έτοιμο για χρήση.";
 
 /* Next Steps */
-"new_key_file_next_steps" = "Next Steps";
+"new_key_file_next_steps" = "Επόμενα Βήματα";
 
 /* 1. Print Recovery Sheet */
-"new_key_file_step1_title" = "1. Print Recovery Sheet";
+"new_key_file_step1_title" = "1. Εκτύπωση φύλλου ανάκτησης";
 
 /* We recommend you print a recovery sheet now. Alternatively, you can view the hex codes and take note of them somewhere safe. */
-"new_key_file_step1_message" = "We recommend you print a recovery sheet now. Alternatively, you can view the hex codes and take note of them somewhere safe.";
+"new_key_file_step1_message" = "Σας συνιστούμε να εκτυπώσετε τώρα ένα φύλλο ανάκτησης. Εναλλακτικά, μπορείτε να δείτε τους δεκαεξαδικούς κωδικούς και να τους σημειώσετε κάπου ασφαλές.";
 
 /* Hash */
 "key_file_hash_title" = "Hash";
@@ -5998,709 +5998,718 @@
 "key_file_hex_codes" = "Hex Codes";
 
 /* Print Recovery Sheet */
-"new_key_file_print_recovery" = "Print Recovery Sheet";
+"new_key_file_print_recovery" = "Εκτύπωση φύλλου ανάκτησης";
 
 /* Hide Hex Codes */
-"new_key_file_hide_hex_codes" = "Hide Hex Codes";
+"new_key_file_hide_hex_codes" = "Απόκρυψη Hex Codes";
 
 /* Show Hex Codes */
-"new_key_file_show_hex_codes" = "Show Hex Codes";
+"new_key_file_show_hex_codes" = "Εμφάνιση Hex Codes";
 
 /* 2. Save Key File */
-"new_key_file_step2_save_key_file_title" = "2. Save Key File";
+"new_key_file_step2_save_key_file_title" = "2. Αποθήκευση αρχείου κλειδιού";
 
 /* Save your new key file somewhere safe and secure. */
-"new_key_file_step2_save_key_file_message" = "Save your new key file somewhere safe and secure.";
+"new_key_file_step2_save_key_file_message" = "Αποθηκεύστε το νέο σας αρχείο κλειδιού κάπου ασφαλές και ασφαλές.";
 
 /* Save Key File */
-"new_key_file_save_key_file" = "Save Key File";
+"new_key_file_save_key_file" = "Αποθήκευση αρχείου κλειδιού";
 
 /* Import Key File... */
-"kfm_import_key_file_ellipsis" = "Import Key File...";
+"kfm_import_key_file_ellipsis" = "Εισαγωγή αρχείου κλειδιού...";
 
 /* Create New Key File... */
-"kfm_create_new_key_file_ellipsis" = "Create New Key File...";
+"kfm_create_new_key_file_ellipsis" = "Δημιουργία νέου αρχείου κλειδιού...";
 
 /* Recover Key File... */
-"kfm_recover_key_file_ellipsis" = "Recover Key File...";
+"kfm_recover_key_file_ellipsis" = "Ανάκτηση αρχείου κλειδιού...";
 
 /* Single Use (No Import) */
-"kfm_single_use_key_file_ellipsis" = "Single Use (No Import)";
+"kfm_single_use_key_file_ellipsis" = "Μίας χρήσης (Χωρίς εισαγωγή)";
 
 /* Key File Saved */
-"kfm_key_file_saved_title" = "Key File Saved";
+"kfm_key_file_saved_title" = "Το αρχείο κλειδιού αποθηκεύτηκε";
 
 /* Your new key file was successfully saved.\n\nWould you like to import it into Strongbox now? */
-"kfm_key_file_saved_import_now_question" = "Your new key file was successfully saved.\n\nWould you like to import it into Strongbox now?";
+"kfm_key_file_saved_import_now_question" = "Το νέο αρχείο κλειδιού αποθηκεύτηκε με επιτυχία.\n\nΘέλετε να το εισαγάγετε στο Strongbox τώρα;";
 
 /* %@ on '%@' - %@ */
-"wifi_sync_storage_location_title_fmt" = "%@ on '%@' - %@";
+"wifi_sync_storage_location_title_fmt" = "%@ στο '%@' - %@";
 
 /* New Key File */
-"new_key_file" = "New Key File";
+"new_key_file" = "Νέο αρχείο κλειδιού";
 
 /* Saving... */
-"generic_saving_ellipsis" = "Saving...";
+"generic_saving_ellipsis" = "Αποθήκευση...";
 
 /* Share... */
-"generic_share_action_ellipsis" = "Share...";
+"generic_share_action_ellipsis" = "Κοινοποίηση...";
 
 /* Renaming... */
-"generic_renaming_ellipsis" = "Renaming...";
+"generic_renaming_ellipsis" = "Μετονομασία...";
 
 /* Deleting... */
-"generic_deleting_ellipsis" = "Deleting...";
+"generic_deleting_ellipsis" = "Διαγραφή...";
 
 /* Strongbox Sync */
-"storage_provider_cloudkit_display_name" = "Strongbox Sync";
+"storage_provider_cloudkit_display_name" = "Συγχρονισμός Strongbox";
 
 /* Available - L10n note: This is a state. A service is available. e.g. iCloud is Available */
-"generic_noun_state_available" = "Available";
+"generic_noun_state_available" = "Διαθέσιμο";
 
 /* Could Not Determine */
-"cloudkit_status_could_not_determine" = "Could Not Determine";
+"cloudkit_status_could_not_determine" = "Δεν ήταν δυνατός ο προσδιορισμός";
 
 /* Restricted due to Parental Controls / Device Management. */
-"cloudkit_status_restricted" = "Restricted due to Parental Controls / Device Management.";
+"cloudkit_status_restricted" = "Περιορίζεται λόγω Γονικού Ελέγχου / Διαχείρισης Συσκευών.";
 
 /* Unavailable. Check Apple account in System Settings. */
-"cloudkit_status_unavailable" = "Unavailable. Check Apple account in System Settings.";
+"cloudkit_status_unavailable" = "Δυσεύρετος. Ελέγξτε τον λογαριασμό Apple στις Ρυθμίσεις συστήματος.";
 
 /* Temporarily Unavailable. Check Apple account in System Settings. */
-"cloudkit_status_temporarily_unavailable" = "Temporarily Unavailable. Check Apple account in System Settings.";
+"cloudkit_status_temporarily_unavailable" = "Προσωρινά Μη Διαθέσιμο. Ελέγξτε τον λογαριασμό Apple στις Ρυθμίσεις συστήματος.";
 
 /* Accepting Share... - L10n Note: User has chosen to accept an invitation to a Shared Database. This is displayed as a spinner/wait text while the operation completes */
-"accepting_share_status_spinner" = "Accepting Share...";
+"accepting_share_status_spinner" = "Αποδοχή κοινής χρήσης…";
 
 /* Strongbox Sync Unavailable */
-"strongbox_sync_unavailable_title" = "Strongbox Sync Unavailable";
+"strongbox_sync_unavailable_title" = "Δεν είναι διαθέσιμος ο συγχρονισμός Strongbox";
 
 /* Strongbox Sync has become unavailable. Please check you are signed in to your Apple account in System Settings. */
-"strongbox_sync_unavailable_msg" = "Strongbox Sync has become unavailable. Please check you are signed in to your Apple account in System Settings.";
+"strongbox_sync_unavailable_msg" = "Το Strongbox Sync δεν είναι διαθέσιμο. Ελέγξτε ότι είστε συνδεδεμένοι στον λογαριασμό σας Apple στις Ρυθμίσεις συστήματος.";
 
 /* Copy To... */
-"database_option_copy_to_ellipsis" = "Copy To...";
+"database_option_copy_to_ellipsis" = "Αντιγραφή σε...";
 
 /* Manage Sharing... */
-"generic_manage_sharing_action_ellipsis" = "Manage Sharing...";
+"generic_manage_sharing_action_ellipsis" = "Διαχείριση Κοινοποίησης...";
 
 /* Are you sure you want to remove this database? It will be permanently deleted across all devices.\n\nPlease consider taking a backup local copy first. */
-"ays_remove_database_permanent_all_devices_delete_please_take_backup" = "Are you sure you want to remove this database? It will be permanently deleted across all devices.\n\nPlease consider taking a backup local copy first.";
+"ays_remove_database_permanent_all_devices_delete_please_take_backup" = "Είστε βέβαιοι ότι θέλετε να καταργήσετε αυτήν τη βάση δεδομένων; Θα διαγραφεί οριστικά από όλες τις συσκευές.\n\nΣκεφτείτε πρώτα να λάβετε ένα αντίγραφο ασφαλείας τοπικό.";
 
 /* Are you sure you want to remove these database(s) from Strongbox?\n\nNB: Strongbox Sync databases will be permanently deleted across all devices. */
-"ays_remove_databases_strongbox_sync_delete" = "Are you sure you want to remove these database(s) from Strongbox?\n\nNB: Strongbox Sync databases will be permanently deleted across all devices.";
+"ays_remove_databases_strongbox_sync_delete" = "Είστε βέβαιοι ότι θέλετε να αφαιρέσετε αυτές τις βάσεις δεδομένων από το Strongbox;\n\nΣημείωση: Οι βάσεις δεδομένων Strongbox Sync θα διαγραφούν οριστικά σε όλες τις συσκευές.";
 
 /* Are you sure you want to remove this database from Strongbox? (NB: The underlying database file will be permanently deleted) */
-"ays_remove_database_permanent_delete" = "Are you sure you want to remove this database from Strongbox? (NB: The underlying database file will be permanently deleted)";
+"ays_remove_database_permanent_delete" = "Είστε βέβαιοι ότι θέλετε να καταργήσετε αυτήν τη βάση δεδομένων από το Strongbox; (Σημείωση: Το υποκείμενο αρχείο βάσης δεδομένων θα διαγραφεί οριστικά)";
 
 /* Are you sure you want to remove this database from Strongbox? (NB: The underlying database file will not be deleted) */
-"ays_remove_database_underlying_not_deleted" = "Are you sure you want to remove this database from Strongbox? (NB: The underlying database file will not be deleted)";
+"ays_remove_database_underlying_not_deleted" = "Είστε βέβαιοι ότι θέλετε να καταργήσετε αυτήν τη βάση δεδομένων από το Strongbox; (Σημείωση: Το υποκείμενο αρχείο βάσης δεδομένων δεν θα διαγραφεί)";
 
 /* Shared Database */
-"strongbox_sync_shared_database_title" = "Shared Database";
+"strongbox_sync_shared_database_title" = "Κοινόχρηστη βάση δεδομένων";
 
 /* This database is shared with you by someone else. To remove this database from your list, tap OK to manage sharing and remove yourself. */
-"strongbox_sync_shared_database_msg" = "This database is shared with you by someone else. To remove this database from your list, tap OK to manage sharing and remove yourself.";
+"strongbox_sync_shared_database_msg" = "Αυτή η βάση δεδομένων μοιράζεται μαζί σας κάποιος άλλος. Για να αφαιρέσετε αυτήν τη βάση δεδομένων από τη λίστα σας, πατήστε OK για να διαχειριστείτε την κοινή χρήση και να καταργήσετε τον εαυτό σας.";
 
 /* Database Created */
-"database_created_title" = "Database Created";
+"database_created_title" = "Δημιουργήθηκε βάση δεδομένων";
 
 /* Your new database is now added and ready to be unlocked. */
-"database_created_msg" = "Your new database is now added and ready to be unlocked.";
+"database_created_msg" = "Η νέα σας βάση δεδομένων έχει πλέον προστεθεί και είναι έτοιμη για ξεκλείδωμα.";
 
 /* The above options are always present. They are not indicative of any existing session. Detecting whether you have an session would require Strongbox to call into 3rd party code which we always try to minimize for security reasons. */
-"cloud_sessions_footer_text_info" = "The above options are always present. They are not indicative of any existing session. Detecting whether you have an session would require Strongbox to call into 3rd party code which we always try to minimize for security reasons.";
+"cloud_sessions_footer_text_info" = "Οι παραπάνω επιλογές είναι πάντα παρούσες. Δεν είναι ενδεικτικά κάποιας υπάρχουσας συνεδρίας. Ο εντοπισμός του εάν έχετε μια περίοδο λειτουργίας θα απαιτούσε από το Strongbox να καλέσει τον κωδικό τρίτου μέρους τον οποίο προσπαθούμε πάντα να ελαχιστοποιούμε για λόγους ασφαλείας.";
 
 /* 3rd Party Options */
-"cloud_sessions_header" = "3rd Party Options";
+"cloud_sessions_header" = "Επιλογές τρίτου μέρους";
 
 /* Copy of %@ - L10n note - Used when copying an item or database, e.g. Copy of Mark's Database */
-"copy_of_fmt" = "Copy of %@";
+"copy_of_fmt" = "Αντίγραφο του %@";
 
 /* Storage Method Not Recommended */
-"deprecated_storage_method" = "Storage Method Not Recommended";
+"deprecated_storage_method" = "Μέθοδος αποθήκευσης Δεν συνιστάται";
 
 /* We cannot recommend storing your database using this method. Strongbox does not have end to end control over the sync process, and so we cannot guarantee data integrity.\n\nDo you want to continue anyway? */
-"cannot_recommend_storage_msg" = "We cannot recommend storing your database using this method. Strongbox does not have end to end control over the sync process, and so we cannot guarantee data integrity.\n\nDo you want to continue anyway?";
+"cannot_recommend_storage_msg" = "Δεν μπορούμε να προτείνουμε την αποθήκευση της βάσης δεδομένων σας χρησιμοποιώντας αυτήν τη μέθοδο. Το Strongbox δεν έχει πλήρη έλεγχο της διαδικασίας συγχρονισμού και επομένως δεν μπορούμε να εγγυηθούμε την ακεραιότητα των δεδομένων.\n\nΘέλετε να συνεχίσετε πάντως;";
 
 /* Our native cloud sync makes your databases available across all of your devices. Sharing with others is also supported. Alternatively, store your database locally on this device only. */
-"blurb_about_strongbox_sync_native_cloud" = "Our native cloud sync makes your databases available across all of your devices. Sharing with others is also supported. Alternatively, store your database locally on this device only.";
+"blurb_about_strongbox_sync_native_cloud" = "Ο εγγενής συγχρονισμός cloud μας κάνει τις βάσεις δεδομένων σας διαθέσιμες σε όλες τις συσκευές σας. Υποστηρίζεται επίσης η κοινή χρήση με άλλους. Εναλλακτικά, αποθηκεύστε τη βάση δεδομένων σας τοπικά μόνο σε αυτήν τη συσκευή.";
 
 /* These method(s) are no longer advised. Your mileage may vary depending on the quality of the third party 'Files' provider, how reliable your connection is and other factors. Ultimately, Strongbox does not have full control over the sync process, and so we cannot guarantee data integrity or offer sync support. */
-"deprecated_storage_footer_text" = "These method(s) are no longer advised. Your mileage may vary depending on the quality of the third party 'Files' provider, how reliable your connection is and other factors. Ultimately, Strongbox does not have full control over the sync process, and so we cannot guarantee data integrity or offer sync support.";
+"deprecated_storage_footer_text" = "Αυτές οι μέθοδοι δεν συνιστώνται πλέον. Τα χιλιόμετρα σας ενδέχεται να διαφέρουν ανάλογα με την ποιότητα του τρίτου παρόχου 'Files', το πόσο αξιόπιστη είναι η σύνδεσή σας και άλλους παράγοντες. Τελικά, το Strongbox δεν έχει τον πλήρη έλεγχο της διαδικασίας συγχρονισμού και επομένως δεν μπορούμε να εγγυηθούμε την ακεραιότητα των δεδομένων ή να προσφέρουμε υποστήριξη συγχρονισμού.";
 
 /* Built-In (Not Recommended) */
-"storage_provider_built_in_not_recommended_header" = "Built-In (Not Recommended)";
+"storage_provider_built_in_not_recommended_header" = "Ενσωματωμένο (Δεν συνιστάται)";
 
 /* Shared by you - L10n note: This text indicates that a Strongbox Sync database has been shared with someone else by the user */
-"shared_by_you" = "Shared by you";
+"shared_by_you" = "Κοινή χρήση από εσάς";
 
 /* Shared with you - L10n note: This text indicates that a Strongbox Sync database has been shared with the user by someone else  */
-"shared_with_you" = "Shared with you";
+"shared_with_you" = "Κοινή χρήση μαζί σας";
 
 /* Our native cloud sync makes your databases available on all of your devices. */
-"strongbox_sync_storage_description" = "Our native cloud sync makes your databases available on all of your devices.";
+"strongbox_sync_storage_description" = "Ο εγγενής συγχρονισμός cloud μας κάνει τις βάσεις δεδομένων σας διαθέσιμες σε όλες τις συσκευές σας.";
 
 /* Store your database anywhere within your Mac file system. */
-"storage_new_mac_file_description" = "Store your database anywhere within your Mac file system.";
+"storage_new_mac_file_description" = "Αποθηκεύστε τη βάση δεδομένων σας οπουδήποτε στο σύστημα αρχείων Mac σας.";
 
 /* Add a database from anywhere on your Mac file system. */
-"storage_add_existing_mac_file_description" = "Add a database from anywhere on your Mac file system.";
+"storage_add_existing_mac_file_description" = "Προσθέστε μια βάση δεδομένων από οπουδήποτε στο σύστημα αρχείων Mac σας.";
 
 /* Add Database */
 "select_storage_title_add_existing" = "Add Database";
 
 /* Import Database */
-"select_storage_title_import" = "Import Database";
+"select_storage_title_import" = "Εισαγωγή βάσης δεδομένων";
 
 /* Select '%@' - L10n Note: the first parameter is the name of an item the user can select. e.g. Select 'OneDrive'. */
-"generic_select_param_in_single_quotes_fmt" = "Select '%@'";
+"generic_select_param_in_single_quotes_fmt" = "Επιλέξτε \"%@\"";
 
 /* New Database Setup */
-"new_database_setup" = "New Database Setup";
+"new_database_setup" = "Ρύθμιση νέας βάσης δεδομένων";
 
 /* Enter a nickname for your new database and the master credentials to protect it. */
-"enter_creds_and_nickname" = "Enter a nickname for your new database and the master credentials to protect it.";
+"enter_creds_and_nickname" = "Εισαγάγετε ένα ψευδώνυμο για τη νέα σας βάση δεδομένων και τα κύρια διαπιστευτήρια για την προστασία της.";
 
 /* Nickname already in use */
-"nickname_already_in_use" = "Nickname already in use";
+"nickname_already_in_use" = "Το ψευδώνυμο χρησιμοποιείται ήδη";
 
 /* Choose Storage Location */
-"choose_storage_loc" = "Choose Storage Location";
+"choose_storage_loc" = "Επιλέξτε Θέση αποθήκευσης";
 
 /* Please navigate to where you would like to store your database and click 'Select'. */
-"nav_to_storage_and_select" = "Please navigate to where you would like to store your database and click 'Select'.";
+"nav_to_storage_and_select" = "Μεταβείτε στο σημείο όπου θέλετε να αποθηκεύσετε τη βάση δεδομένων σας και κάντε κλικ στην επιλογή \"Επιλογή\".";
 
 /* Store your database locally only. */
-"blurb_about_native_local_only" = "Store your database locally only.";
+"blurb_about_native_local_only" = "Αποθηκεύστε τη βάση δεδομένων σας μόνο τοπικά.";
 
 /* Store your database anywhere within your Mac file system. */
-"storage_mac_file_description" = "Store your database anywhere within your Mac file system.";
+"storage_mac_file_description" = "Αποθηκεύστε τη βάση δεδομένων σας οπουδήποτε στο σύστημα αρχείων Mac σας.";
 
 /* Stay In Sync */
-"enable_notifications_onboarding_title" = "Stay In Sync";
+"enable_notifications_onboarding_title" = "Μείνετε συγχρονισμένοι";
 
 /* To stay current and keep your databases up to date, please allow Strongbox to use notifications. */
-"enable_notifications_onboarding_message" = "To stay current and keep your databases up to date, please allow Strongbox to use notifications.";
+"enable_notifications_onboarding_message" = "Για να παραμείνετε ενημερωμένοι και να διατηρείτε ενημερωμένες τις βάσεις δεδομένων σας, επιτρέψτε στο Strongbox να χρησιμοποιεί ειδοποιήσεις.";
 
 /* Sounds Good, Allow */
-"enable_notifications_onboarding_sounds_good_allow" = "Sounds Good, Allow";
+"enable_notifications_onboarding_sounds_good_allow" = "Ακούγεται καλό, Επιτρέψτε";
 
 /* Database will be permanently deleted from Strongbox Sync and all devices */
-"pins_config_vc_label_delete_database_strongbox_sync_permanent" = "Database will be permanently deleted from Strongbox Sync and all devices";
+"pins_config_vc_label_delete_database_strongbox_sync_permanent" = "Η βάση δεδομένων θα διαγραφεί οριστικά από το Strongbox Sync και όλες τις συσκευές";
 
 /* Native storage either on this Mac or using Strongbox Sync. */
-"select_storage_create_mode_title" = "Native storage either on this Mac or using Strongbox Sync.";
+"select_storage_create_mode_title" = "Εγγενής αποθήκευση είτε σε αυτό το Mac είτε χρησιμοποιώντας το Strongbox Sync.";
 
 /* Select a database from anywhere on this Mac. */
-"select_storage_add_mode_title" = "Select a database from anywhere on this Mac.";
+"select_storage_add_mode_title" = "Επιλέξτε μια βάση δεδομένων από οπουδήποτε σε αυτό το Mac.";
 
 /* Native storage anywhere on this Mac. */
-"select_storage_no_networking_create_mode_title" = "Native storage anywhere on this Mac.";
+"select_storage_no_networking_create_mode_title" = "Εγγενής αποθήκευση οπουδήποτε σε αυτό το Mac.";
 
 /* We've integrated with these popular online drives. These integrations provide superior sync than using the file system */
-"select_storage_third_party_description_macos" = "We've integrated with these popular online drives. These integrations provide superior sync than using the file system";
+"select_storage_third_party_description_macos" = "Έχουμε ενσωματωθεί με αυτές τις δημοφιλείς ηλεκτρονικές μονάδες δίσκου. Αυτές οι ενσωματώσεις παρέχουν ανώτερο συγχρονισμό από τη χρήση του συστήματος αρχείων";
 
 /* Are you sure you want to choose this version as the correct version going forward?\n\nRemember you can export any other version now for later merge by choosing No, and then sliding left on the other version. */
-"ays_select_icloud_conflict_version" = "Are you sure you want to choose this version as the correct version going forward?\n\nRemember you can export any other version now for later merge by choosing No, and then sliding left on the other version.";
+"ays_select_icloud_conflict_version" = "Είστε βέβαιοι ότι θέλετε να επιλέξετε αυτήν την έκδοση ως τη σωστή έκδοση στο μέλλον;\n\nΘυμηθείτε ότι μπορείτε να εξαγάγετε οποιαδήποτε άλλη έκδοση τώρα για μεταγενέστερη συγχώνευση επιλέγοντας Όχι και, στη συνέχεια, σύροντας προς τα αριστερά στην άλλη έκδοση.";
 
 /* System */
-"app_appearance_mode_system" = "System";
+"app_appearance_mode_system" = "Σύστημα";
 
 /* Light */
-"app_appearance_mode_light" = "Light";
+"app_appearance_mode_light" = "Φωτεινό";
 
 /* Dark */
-"app_appearance_mode_dark" = "Dark";
+"app_appearance_mode_dark" = "Σκούρο";
 
 /* App Appearance */
-"prefs_vc_app_appearance" = "App Appearance";
+"prefs_vc_app_appearance" = "Εμφάνιση εφαρμογής";
 
 /* Change Filename... */
-"generic_change_filename_ellipsis_action" = "Change Filename...";
+"generic_change_filename_ellipsis_action" = "Αλλαγή ονόματος αρχείου...";
 
 /* Please enter a new filename for this database */
-"databases_manager_pls_enter_new_filename" = "Please enter a new filename for this database";
+"databases_manager_pls_enter_new_filename" = "Εισαγάγετε ένα νέο όνομα αρχείου για αυτήν τη βάση δεδομένων";
 
 /* Character %@ Copied - Used in large text view, it will look something like: 'Character 5 Copied', meaning the 5th character has been copied. Note, do not under any circumstances change the %@ to any other format character, it will cause a crash. */
-"character_number_n_copied_fmt" = "Character %@ Copied";
+"character_number_n_copied_fmt" = "Ο χαρακτήρας %@ αντιγράφηκε";
 
 /* Tap to add tags... */
-"item_details_tap_to_add_tags" = "Tap to add tags...";
+"item_details_tap_to_add_tags" = "Πατήστε για προσθήκη ετικετών...";
 
 /* Edit Tags */
-"tags_editor_header_edit_tags" = "Edit Tags";
+"tags_editor_header_edit_tags" = "Επεξεργασία Ετικετών";
 
 /* Create New Tag... */
-"tags_editor_create_new_tag_ellipsis" = "Create New Tag...";
+"tags_editor_create_new_tag_ellipsis" = "Δημιουργία νέας ετικέτας...";
 
 /* Search or Create... */
-"tags_editor_search_or_create_ellipsis" = "Search or Create...";
+"tags_editor_search_or_create_ellipsis" = "Αναζήτηση ή δημιουργία...";
 
 /* Current Tags */
-"tags_editor_header_current_tags" = "Current Tags";
+"tags_editor_header_current_tags" = "Τρέχουσες ετικέτες";
 
 /* Available Tags */
-"tags_editor_create_available_tags" = "Available Tags";
+"tags_editor_create_available_tags" = "Διαθέσιμες Ετικέτες";
 
 /* No Tags Yet */
-"tags_editor_create_no_tags_yet" = "No Tags Yet";
+"tags_editor_create_no_tags_yet" = "Δεν υπάρχουν ακόμα ετικέτες";
 
 /* Start typing in the search bar to create a new one */
-"tags_editor_create_start_typing_to_create" = "Start typing in the search bar to create a new one";
+"tags_editor_create_start_typing_to_create" = "Ξεκινήστε να πληκτρολογείτε στη γραμμή αναζήτησης για να δημιουργήσετε μια νέα";
 
 /* Check the spelling or create a new tag */
-"tags_editor_check_spelling" = "Check the spelling or create a new tag";
+"tags_editor_check_spelling" = "Ελέγξτε την ορθογραφία ή δημιουργήστε μια νέα ετικέτα";
 
 /* Create \"%@\" tag */
-"tags_editor_create_tag_fmt" = "Create \"%@\" tag";
+"tags_editor_create_tag_fmt" = "Δημιουργήστε την ετικέτα \"%@\".";
 
 /* No Results for \"%@\" */
-"tags_editor_no_results_for_fmt" = "No Results for \"%@\"";
+"tags_editor_no_results_for_fmt" = "Δεν υπάρχουν αποτελέσματα για \"%@\"";
 
 /* Where you would like to store your newly imported database? */
-"storage_selector_where_store_new_import" = "Where you would like to store your newly imported database?";
+"storage_selector_where_store_new_import" = "Πού θέλετε να αποθηκεύσετε τη βάση δεδομένων που εισαγάγατε πρόσφατα;";
 
 /* Where would you like to store your new database? */
-"storage_selector_where_store_new" = "Where would you like to store your new database?";
+"storage_selector_where_store_new" = "Πού θα θέλατε να αποθηκεύσετε τη νέα σας βάση δεδομένων;";
 
 /* Where is your existing database located? */
-"storage_selector_where_existing_located" = "Where is your existing database located?";
+"storage_selector_where_existing_located" = "Πού βρίσκεται η υπάρχουσα βάση δεδομένων σας;";
 
 /* Storage Browser */
-"storage_browser" = "Storage Browser";
+"storage_browser" = "Περιηγητής Αποθήκευσης";
 
 /* Databases */
-"generic_databases_plural" = "Databases";
+"generic_databases_plural" = "Βάσεις Δεδομένων";
 
 /* All Items */
-"generic_all_items" = "All Items";
+"generic_all_items" = "Όλα τα στοιχεία";
 
 /* Strongbox has found these items in this folder that are likely to be databases. */
-"storage_browser_strongbox_found_likely_databases" = "Strongbox has found these items in this folder that are likely to be databases.";
+"storage_browser_strongbox_found_likely_databases" = "Το Strongbox βρήκε αυτά τα στοιχεία σε αυτόν τον φάκελο που είναι πιθανό να είναι βάσεις δεδομένων.";
 
 /* My Drives */
-"onedrive_browser_my_drives" = "My Drives";
+"onedrive_browser_my_drives" = "Οι δίσκοι μου";
 
 /* All Drives" */
-"onedrive_browser_all_drives" = "All Drives";
+"onedrive_browser_all_drives" = "Όλες οι μονάδες δίσκου";
 
 /* Your OneDrive databases and files. */
-"onedrive_browser_your_onedrive_desc" = "Your OneDrive databases and files.";
+"onedrive_browser_your_onedrive_desc" = "Οι βάσεις δεδομένων και τα αρχεία σας στο OneDrive.";
 
 /* Shared With Me */
-"onedrive_browser_shared_with_me" = "Shared With Me";
+"onedrive_browser_shared_with_me" = "Κοινή χρήση με εμένα";
 
 /* Shared */
-"onedrive_browser_shared" = "Shared";
+"onedrive_browser_shared" = "Κοινή χρήση";
 
 /* Access databases that have been shared with you by other users. */
-"onedrive_browser_shared_desc" = "Access databases that have been shared with you by other users.";
+"onedrive_browser_shared_desc" = "Αποκτήστε πρόσβαση σε βάσεις δεδομένων που έχουν κοινοποιηθεί σε εσάς από άλλους χρήστες.";
 
 /* Shared Libraries */
-"onedrive_browser_shared_libraries" = "Shared Libraries (Sharepoint)";
+"onedrive_browser_shared_libraries" = "Κοινόχρηστες βιβλιοθήκες (Sharepoint)";
 
 /* Sharepoint Sites */
-"onedrive_browser_sharepoint_sites" = "Sharepoint Sites";
+"onedrive_browser_sharepoint_sites" = "Τοποθεσίες Sharepoint";
 
 /* For business users, access your firm's shared libraries and Sharepoint sites. */
-"onedrive_browser_sharepoint_desc" = "For business users, access your firm's shared libraries and Sharepoint sites.";
+"onedrive_browser_sharepoint_desc" = "Για επαγγελματίες χρήστες, αποκτήστε πρόσβαση στις κοινόχρηστες βιβλιοθήκες και τους ιστότοπους Sharepoint της εταιρείας σας.";
 
 /* Unlicensed Commercial Use */
-"unlicensed_commercial_use_title" = "Unlicensed Commercial Use";
+"unlicensed_commercial_use_title" = "Εμπορική χρήση χωρίς άδεια";
 
 /* Well, this is awkward. It looks like you're using Strongbox for commercial purposes without a license.\n\nWe're a small business and we need to ask you to license Strongbox. This is so that we can keep making it great and get out of your way.\n\nContinued unlicensed use may lead to loss of functionality.\n\nGet in touch\nsupport@strongboxsafe.com */
-"unlicensed_commercial_use_message" = "Well, this is awkward. It looks like you're using Strongbox for commercial purposes without a license.\n\nWe're a small business and we need to ask you to license Strongbox. This is so that we can keep making it great and get out of your way.\n\nContinued unlicensed use may lead to loss of functionality.\n\nGet in touch\nsupport@strongboxsafe.com";
+"unlicensed_commercial_use_message" = "Λοιπόν, αυτό είναι άβολο. Φαίνεται ότι χρησιμοποιείτε το Strongbox για εμπορικούς σκοπούς χωρίς άδεια.\n\nΕίμαστε μια μικρή επιχείρηση και πρέπει να σας ζητήσουμε να χορηγήσετε άδεια χρήσης στο Strongbox. Αυτό γίνεται για να συνεχίσουμε να το κάνουμε υπέροχο και να ξεφύγουμε από το δρόμο σας.\n\nΗ συνεχής χρήση χωρίς άδεια μπορεί να οδηγήσει σε απώλεια λειτουργικότητας.\n\nΕλάτε σε επαφή\nsupport@strongboxsafe.com";
 
 /* OneDrive Explorer */
-"onedrive_explorer_title" = "OneDrive Explorer";
+"onedrive_explorer_title" = "Εξερευνητής OneDrive";
 
 /* Quit Strongbox */
-"system_tray_menu_item_quit" = "Quit Strongbox";
+"system_tray_menu_item_quit" = "Έξοδος Από Strongbox";
 
 /* Show Strongbox */
-"system_tray_menu_item_show" = "Show Strongbox";
+"system_tray_menu_item_show" = "Εμφάνιση Strongbox";
 
 /* Show Quick Search */
-"system_tray_menu_item_show_quick_search" = "Show Quick Search";
+"system_tray_menu_item_show_quick_search" = "Εμφάνιση γρήγορης αναζήτησης";
 
 /* Lock All */
-"system_tray_menu_item_lock_all" = "Lock All";
+"system_tray_menu_item_lock_all" = "Κλείδωμα Όλων";
 
 /* Show Databases Manager */
-"system_tray_menu_item_show_databases_manager" = "Show Databases Manager";
+"system_tray_menu_item_show_databases_manager" = "Εμφάνιση του Διαχειριστή βάσεων δεδομένων";
 
 /* URL Launched */
-"item_details_url_launched" = "URL Launched";
+"item_details_url_launched" = "Η διεύθυνση URL ξεκίνησε";
 
 /* Quick Search - L10n note: This is a feature on macOS where a small window can be launched by hot key or from the system tray which allows user to quickly search across all open databases, and perform quick actions like copying fields or launching urls */
-"quick_search" = "Quick Search";
+"quick_search" = "Γρήγορη αναζήτηση";
 
 /* Keyboard Shortcuts */
-"keyboard_shortcuts" = "Keyboard Shortcuts";
+"keyboard_shortcuts" = "Συντομεύσεις πληκτρολογίου";
 
 /* View Actions */
-"view_actions" = "View Actions";
+"view_actions" = "Προβολή ενεργειών";
 
 /* View Results */
-"view_results" = "View Results";
+"view_results" = "Προβολή Αποτελεσμάτων";
 
 /* Quick Search is a Pro feature. Please upgrade to enjoy lightning fast access to your databases. */
-"quick_search_pro_feature_message" = "Quick Search is a Pro feature. Please upgrade to enjoy lightning fast access to your databases.";
+"quick_search_pro_feature_message" = "Η γρήγορη αναζήτηση είναι μια λειτουργία Pro. Κάντε αναβάθμιση για να απολαύσετε αστραπιαία πρόσβαση στις βάσεις δεδομένων σας.";
 
 /* Show in Strongbox */
-"action_show_in_strongbox" = "Show in Strongbox";
+"action_show_in_strongbox" = "Εμφάνιση στο Strongbox";
 
 /* Launch '%@' - L10n note: 1st parameter is the fieldname/key for a secondary/alternative URL, e.g. Launch 'Alternative URL for Dashboard' */
-"action_launch_field_fmt" = "Launch '%@'";
+"action_launch_field_fmt" = "Εκκίνηση του '%@'";
 
 /* Copy '%@' - L10n note: 1st parameter is the fieldname/key, e.g. Copy 'Debit Card Long Number' */
-"action_copy_field_fmt" = "Copy '%@'";
+"action_copy_field_fmt" = "Αντιγραφή '%@'";
 
 /* %@ (Primary) - L10n Note: The 1st parameter could be any kind of noun (most likely), this is to indicate that this object or action is the primary or most important item/action. e.g. OneDrive (Primary) */
-"adjective_primary_in_parenthesis_fmt" = "%@ (Primary)";
+"adjective_primary_in_parenthesis_fmt" = "%@ (Κύριο)";
 
 /* Locked Databases - Heading appears above list of locked databases in quick search */
-"locked_databases_heading" = "Locked Databases";
+"locked_databases_heading" = "Κλειδωμένες βάσεις δεδομένων";
 
 /* All Databases Locked */
-"quick_search_all_databases_locked" = "All Databases Locked";
+"quick_search_all_databases_locked" = "Όλες οι βάσεις δεδομένων είναι κλειδωμένες";
 
 /* No Results Found */
-"quick_search_no_results_found" = "No Results Found";
+"quick_search_no_results_found" = "Δεν βρέθηκαν αποτελέσματα";
 
 /* Show Password Generator */
-"system_tray_menu_item_show_password_generator" = "Show Password Generator";
+"system_tray_menu_item_show_password_generator" = "Εμφάνιση Δημιουργίας κωδικών πρόσβασης";
 
 /* Using Sharepoint is a Pro feature. Please upgrade to enjoy full access. */
-"sharepoint_pro_feature_message" = "Using Sharepoint is a Pro feature. Please upgrade to enjoy full access.";
+"sharepoint_pro_feature_message" = "Η χρήση του Sharepoint είναι μια δυνατότητα Pro. Κάντε αναβάθμιση για να απολαύσετε πλήρη πρόσβαση.";
 
 /* delete */
-"delete_triple_confirm_code_word" = "delete";
+"delete_triple_confirm_code_word" = "διαγράφω";
 
 /* Please enter the word '%@' below to confirm. */
-"delete_triple_confirm_message_fmt" = "Please enter the word '%@' below to confirm.";
+"delete_triple_confirm_message_fmt" = "Εισαγάγετε τη λέξη '%@' παρακάτω για επιβεβαίωση.";
 
 /* Configure Click Action */
-"configure_click_action" = "Configure Click Action";
+"configure_click_action" = "Ρύθμιση παραμέτρων της ενέργειας κλικ";
 
 /* Show this Menu */
-"show_this_menu" = "Show this Menu";
+"show_this_menu" = "Εμφάνιση αυτού του Μενού";
 
 /* No results found. Some databases are locked. */
-"no_results_found_some_locked" = "No results found. Some databases are locked.";
+"no_results_found_some_locked" = "Δεν βρέθηκαν αποτελέσματα. Ορισμένες βάσεις δεδομένων είναι κλειδωμένες.";
 
 /* Navigation */
-"generic_noun_navigation" = "Navigation";
+"generic_noun_navigation" = "Πλοήγηση";
 
 /* Quick Tags */
-"home_quick_tags_section_header" = "Quick Tags";
+"home_quick_tags_section_header" = "Γρήγορες ετικέτες";
 
-"audit_view_section_footer_no_password" = "These are entries with no password set at all.";
+"audit_view_section_footer_no_password" = "Αυτές είναι καταχωρήσεις χωρίς καθορισμένο κωδικό πρόσβασης.";
 
-"audit_view_section_footer_duplicate" = "These are entries that have identical passwords indicating password reuse.";
+"audit_view_section_footer_duplicate" = "Πρόκειται για καταχωρήσεις που έχουν πανομοιότυπους κωδικούς πρόσβασης που υποδεικνύουν την επαναχρησιμοποίηση κωδικού πρόσβασης.";
 
-"audit_view_section_footer_common" = "These are entries with very common or well-known passwords that are easily guessed.";
+"audit_view_section_footer_common" = "Πρόκειται για καταχωρήσεις με πολύ συνηθισμένους ή γνωστούς κωδικούς πρόσβασης που μπορούν εύκολα να μαντευτούν.";
 
-"audit_view_section_footer_similar" = "These are entries with similar but not identical passwords.";
+"audit_view_section_footer_similar" = "Πρόκειται για καταχωρήσεις με παρόμοιους αλλά όχι ίδιους κωδικούς πρόσβασης.";
 
-"audit_view_section_footer_short" = "These are entries with passwords of a very short length.";
+"audit_view_section_footer_short" = "Πρόκειται για καταχωρήσεις με κωδικούς πρόσβασης πολύ μικρού μήκους.";
 
-"audit_view_section_footer_hibp" = "These are entries whose passwords have appeared in online hacks or breaches detected using the 'Have I Been Pwned?' service.";
+"audit_view_section_footer_hibp" = "Πρόκειται για εγγραφές των οποίων οι κωδικοί πρόσβασης έχουν εμφανιστεί σε διαδικτυακές εισβολές ή παραβιάσεις που εντοπίστηκαν χρησιμοποιώντας το 'Have I Been Pwned?' υπηρεσία.";
 
-"audit_view_section_footer_entropy" = "These are entries whose complexity falls below a certain threshold which could be considered weak.";
+"audit_view_section_footer_entropy" = "Πρόκειται για εγγραφές των οποίων η πολυπλοκότητα πέφτει κάτω από ένα ορισμένο όριο που θα μπορούσε να θεωρηθεί αδύναμο.";
 
-"audit_view_section_footer_2fa" = "These are entries that are marked as having known two factor authentication available but without an existing 2FA Code set.";
+"audit_view_section_footer_2fa" = "Πρόκειται για εγγραφές που επισημαίνονται ότι διαθέτουν γνωστό έλεγχο ταυτότητας δύο παραγόντων, αλλά χωρίς υπάρχον σύνολο κωδικών 2FA.";
 
-"anonymous_group_number_fmt" = "Group #%@";
+"anonymous_group_number_fmt" = "Ομάδα #%@";
 
 /* All Tags */
-"quick_view_title_all_tags_title" = "All Tags";
+"quick_view_title_all_tags_title" = "Όλες οι ετικέτες";
 
 /* Expired & Expiring */
-"quick_view_title_expired_and_expiring" = "Expired & Expiring";
+"quick_view_title_expired_and_expiring" = "Έληξε και Λήγει";
 
 /* Expired %@ */
-"entry_expired_on_date_subtitle_fmt" = "Expired %@";
+"entry_expired_on_date_subtitle_fmt" = "Έληξε %@";
 
 /* Expires %@ */
-"entry_expires_on_date_subtitle_fmt" = "Expires %@";
+"entry_expires_on_date_subtitle_fmt" = "Λήγει %@";
 
 /* Other Items with Expiry Dates */
-"section_header_other_items_with_expiry_dates" = "Other Items with Expiry Dates";
+"section_header_other_items_with_expiry_dates" = "Άλλα είδη με Ημερομηνίες Λήξης";
 
 /* Home */
-"navigation_tab_home" = "Home";
+"navigation_tab_home" = "Αρχική";
 
 /* Database Saved */
-"generic_database_saved" = "Database Saved";
+"generic_database_saved" = "Η βάση δεδομένων αποθηκεύτηκε";
 
 /* All Sections Hidden */
-"home_view_all_sections_hidden" = "All Sections Hidden";
+"home_view_all_sections_hidden" = "Όλες οι ενότητες είναι κρυμμένες";
 
 /* Tap Settings > Show Sections to configure. */
-"home_view_all_sections_hidden_instructions" = "Tap Settings > Show Sections to configure.";
+"home_view_all_sections_hidden_instructions" = "Πατήστε Ρυθμίσεις > Εμφάνιση ενοτήτων για διαμόρφωση.";
 
 /* Find your way around your database. */
-"home_view_navigation_section_subtitle" = "Find your way around your database.";
+"home_view_navigation_section_subtitle" = "Βρείτε το δρόμο σας γύρω από τη βάση δεδομένων σας.";
 
 /* Your most popular tags. */
-"home_view_quick_tags_section_subtitle" = "Your most popular tags.";
+"home_view_quick_tags_section_subtitle" = "Οι πιο δημοφιλείς ετικέτες σας.";
 
 /* Various convenient aspects of your database. */
-"home_view_other_views_navigation_section_subtitle" = "Various convenient aspects of your database.";
+"home_view_other_views_navigation_section_subtitle" = "Διάφορες βολικές πτυχές της βάσης δεδομένων σας.";
 
 /* Visible */
-"generic_visible" = "Visible";
+"generic_visible" = "Ορατό";
 
 /* Enter password or unlock with Touch ID/Watch. */
-"mac_lock_screen_enter_pw_or_touchid_or_watch" = "Enter password or unlock with Touch ID/Watch.";
+"mac_lock_screen_enter_pw_or_touchid_or_watch" = "Εισαγάγετε κωδικό πρόσβασης ή ξεκλειδώστε με Touch ID/Ρολόι.";
 
 /* Enter password or unlock with Touch ID. */
-"mac_lock_screen_enter_pw_or_touchid" = "Enter password or unlock with Touch ID.";
+"mac_lock_screen_enter_pw_or_touchid" = "Εισαγάγετε κωδικό πρόσβασης ή ξεκλειδώστε με το Touch ID.";
 
 /* Enter password or unlock with Watch. */
-"mac_lock_screen_enter_pw_or_watch" = "Enter password or unlock with Watch.";
+"mac_lock_screen_enter_pw_or_watch" = "Εισαγάγετε κωδικό πρόσβασης ή ξεκλειδώστε με το Ρολόι.";
 
 /* Enter password to unlock. */
-"mac_lock_screen_enter_pw" = "Enter password to unlock.";
+"mac_lock_screen_enter_pw" = "Εισαγάγετε κωδικό πρόσβασης για ξεκλείδωμα.";
 
 /* Reveal or Conceal (⌘R to Toggle) */
-"secure_text_field_conceal_reveal_tooltip" = "Reveal or Conceal (⌘R to Toggle)";
+"secure_text_field_conceal_reveal_tooltip" = "Αποκάλυψη ή Απόκρυψη (⌘R για εναλλαγή)";
 
 /* Audit Disabled */
-"audit_disabled" = "Audit Disabled";
+"audit_disabled" = "Ο έλεγχος απενεργοποιήθηκε";
 
 /* Tap the Settings button to enable. */
-"generic_tap_the_settings_button_to_configure" = "Tap the Settings button to configure.";
+"generic_tap_the_settings_button_to_configure" = "Πατήστε το κουμπί Ρυθμίσεις για να ρυθμίσετε τις παραμέτρους.";
 
 /* Auditing... */
-"generic_verb_auditing_in_progress_ellipsis" = "Auditing...";
+"generic_verb_auditing_in_progress_ellipsis" = "Έλεγχος...";
 
 /* These method(s) are no longer advised. Strongbox does not have full control over the read, write and locate functions and so we cannot guarantee data integrity. However, typically, locally stored on-device files accessed in this way are not problematic.\n\nNB: Strongbox does not have any knowledge of where files selected in this way are located. */
-"deprecated_storage_footer_text_no_network_db" = "These method(s) are no longer advised. Strongbox does not have full control over the read, write and locate functions and so we cannot guarantee data integrity. However, typically, locally stored on-device files accessed in this way are not problematic.\n\nNB: Strongbox does not have any knowledge of where files selected in this way are located.";
+"deprecated_storage_footer_text_no_network_db" = "Αυτές οι μέθοδοι δεν συνιστώνται πλέον. Το Strongbox δεν έχει πλήρη έλεγχο των συναρτήσεων ανάγνωσης, εγγραφής και εντοπισμού και επομένως δεν μπορούμε να εγγυηθούμε την ακεραιότητα των δεδομένων. Ωστόσο, συνήθως, τα τοπικά αποθηκευμένα αρχεία στη συσκευή στα οποία προσπελάζονται με αυτόν τον τρόπο δεν είναι προβληματικά.\n\nΣημείωση: Το Strongbox δεν γνωρίζει πού βρίσκονται τα αρχεία που έχουν επιλεγεί με αυτόν τον τρόπο.";
 /* Tap to locate your database and make a local copy.\n\nNB: There are a many ways to import your database, including File Sharing via USB, AirDrop, or copying your database into the Strongbox folder. */
-"select_storage_locate_db_for_local_copy" = "Tap to locate your database and make a local copy.\n\nNB: There are a many ways to import your database, including File Sharing via USB, AirDrop, or copying your database into the Strongbox folder.";
+"select_storage_locate_db_for_local_copy" = "Πατήστε για να εντοπίσετε τη βάση δεδομένων σας και να δημιουργήσετε ένα τοπικό αντίγραφο.\n\nΣημείωση: Υπάρχουν πολλοί τρόποι εισαγωγής της βάσης δεδομένων σας, συμπεριλαμβανομένης της κοινής χρήσης αρχείων μέσω USB, του AirDrop ή της αντιγραφής της βάσης δεδομένων σας στο φάκελο Strongbox.";
 
 /* Your database was successfully imported. Note that you can now remove the original source file from the device should you wish. */
-"database_local_copy_done_info_msg" = "Your database was successfully imported. Note that you can now remove the original source file from the device should you wish.";
+"database_local_copy_done_info_msg" = "Η βάση δεδομένων σας εισήχθη με επιτυχία. Σημειώστε ότι μπορείτε τώρα να αφαιρέσετε το αρχικό αρχείο προέλευσης από τη συσκευή εάν το επιθυμείτε.";
 
 
 /* %@ [Slot %@ CR Unavailable] - L10n Guide: A hardware key is present/inserted in the device, but but the Challenge Response functionality is not available, probably by error or user mistake. The first parameter is device serial number and the second is the number "1" or "2". */
-"mac_hardware_key_key_connected_but_cr_unavailable" = "%@ [Slot %@ CR Unavailable]";
+"mac_hardware_key_key_connected_but_cr_unavailable" = "%@ [Η υποδοχή %@ CR δεν είναι διαθέσιμη]";
 
 /* New Virtual Hardware Key... */
-"new_virtual_hardware_key_ellipsis" = "New Virtual Hardware Key...";
+"new_virtual_hardware_key_ellipsis" = "Νέο εικονικό κλειδί υλικού...";
 
 /* New Virtual Hardware Key */
-"new_virtual_hardware_key" = "New Virtual Hardware Key";
+"new_virtual_hardware_key" = "Νέο εικονικό κλειδί υλικού";
 
 /* No Connected Keys Detected */
-"no_connected_keys_detected" = "No Connected Keys Detected";
+"no_connected_keys_detected" = "Δεν εντοπίστηκαν συνδεδεμένα κλειδιά";
 
 /* Virtual Hardware Keys */
-"virtual_hardware_keys" = "Virtual Hardware Keys";
+"virtual_hardware_keys" = "Εικονικά κλειδιά υλικού";
 
 /* Are you sure you would like to delete the virtual hardware key '%@'? - L10n note: 1st param is the name of the key, something like "My YubiKey Backup Key" */
-"ays_delete_virtual_hardware_key_fmt" = "Are you sure you would like to delete the virtual hardware key '%@'?";
+"ays_delete_virtual_hardware_key_fmt" = "Είστε βέβαιοι ότι θέλετε να διαγράψετε το εικονικό κλειδί υλικού '%@';";
 
 /* Enter a friendly name and the HMAC-SHA1 challenge response secret to create a new virtual hardware key. */
-"virtual_hardware_key_welcome_msg" = "Enter a friendly name and the HMAC-SHA1 challenge response secret to create a new virtual hardware key.";
+"virtual_hardware_key_welcome_msg" = "Εισαγάγετε ένα φιλικό όνομα και το μυστικό απόκρισης πρόκλησης HMAC-SHA1 για να δημιουργήσετε ένα νέο εικονικό κλειδί υλικού.";
 
 /* Name - L10n Note: A noun, the name of something, e.g. the database name "Mark's Database" */
-"generic_name" = "Name";
+"generic_name" = "Ονομα";
 
 /* My Backup Key - L10n note: A sample placeholder name for a virtual hardware key. */
-"sample_vkey_name_my_backup_key" = "My Backup Key";
+"sample_vkey_name_my_backup_key" = "Το εφεδρικό κλειδί μου";
 
 /* Secret - L10n Note: This relates to virtual hardware keys which have associated secrets, a long string of hex digits used to encrypt the database. The secret is something the user knows and programs their hardware key with. */
-"vkey_secret" = "Secret";
+"vkey_secret" = "Μυστικό";
 
 /* This is the secret you programmed your hardware key with. You should store it safely offline in case of device loss. Strongbox will store it safely in the secure enclave. */
-"vkey_secret_description" = "This is the secret you programmed your hardware key with. You should store it safely offline in case of device loss. Strongbox will store it safely in the secure enclave.";
+"vkey_secret_description" = "Αυτό είναι το μυστικό με το οποίο προγραμματίσατε το κλειδί υλικού σας. Θα πρέπει να το αποθηκεύσετε με ασφάλεια εκτός σύνδεσης σε περίπτωση απώλειας της συσκευής. Το Strongbox θα το αποθηκεύσει με ασφάλεια στον ασφαλή θύλακα.";
 
 /* Experimental Feature */
-"experimental_feature_warning_title" = "Experimental Feature";
+"experimental_feature_warning_title" = "Πειραματική λειτουργία";
 
 /* Caution is required using this feature. While we have performed extensive testing this is still an early release feature which could corrupt your database. You should only use this if you are an advanced and technical user with a regular backup system in place.\n\nThank you for helping to test Strongbox. Feedback welcome.\n\nDo you want to continue? */
-"experimental_feature_warning_message_yes_no" = "Caution is required using this feature. While we have performed extensive testing this is still an early release feature which could corrupt your database. You should only use this if you are an advanced and technical user with a regular backup system in place.\n\nThank you for helping to test Strongbox. Feedback welcome.\n\nDo you want to continue?";
+"experimental_feature_warning_message_yes_no" = "Απαιτείται προσοχή κατά τη χρήση αυτής της λειτουργίας. Παρόλο που πραγματοποιήσαμε εκτεταμένες δοκιμές, αυτό εξακολουθεί να είναι μια δυνατότητα πρώιμης κυκλοφορίας που θα μπορούσε να καταστρέψει τη βάση δεδομένων σας. Θα πρέπει να το χρησιμοποιήσετε μόνο εάν είστε προχωρημένος και τεχνικός χρήστης με κανονικό σύστημα δημιουργίας αντιγράφων ασφαλείας.\n\nΣας ευχαριστούμε που βοηθήσατε στη δοκιμή του Strongbox. Σχόλια ευπρόσδεκτα.\n\nΘέλετε να συνεχίσετε;";
 
 
 
 
 /* Hardware Key Caching - L10n - A convenience feature to make using YubiKeys easier */
-"feature_hardware_key_caching" = "Hardware Key Caching";
+"feature_hardware_key_caching" = "Προσωρινή αποθήκευση κλειδιών υλικού";
 
 /* Using a hardware key is a great security choice but it can be a little inconvenient.\n\nWould you like to enable our caching feature?\n\nWith this enabled Strongbox will do things like remember the last challenge response for a period of time. This means you don't need to use your key so often.\n\nFull configuration is available in settings. For more details see online. */
-"hardware_key_caching_onboarding_msg" = "Using a hardware key is a great security choice but it can be a little inconvenient.\n\nWould you like to enable our caching feature?\n\nWith this enabled Strongbox will do things like remember the last challenge response for a period of time. This means you don't need to use your key so often.\n\nFull configuration is available in settings. For more details see online.";
+"hardware_key_caching_onboarding_msg" = "Η χρήση κλειδιού υλικού είναι μια εξαιρετική επιλογή ασφαλείας, αλλά μπορεί να είναι λίγο άβολη.\n\nΘέλετε να ενεργοποιήσετε τη λειτουργία προσωρινής αποθήκευσης;\n\nΜε αυτό το ενεργοποιημένο το Strongbox θα κάνει πράγματα όπως να θυμάται την τελευταία απάντηση πρόκλησης για ένα χρονικό διάστημα. Αυτό σημαίνει ότι δεν χρειάζεται να χρησιμοποιείτε το κλειδί σας τόσο συχνά.\n\nΗ πλήρης διαμόρφωση είναι διαθέσιμη στις ρυθμίσεις. Για περισσότερες λεπτομέρειες δείτε στο διαδίκτυο.";
 
 /* Hardware Key - L10n Note: A physical hardware key such as a YubiKey or one of Strongboxs "Virtual Hardware Keys" which is a software emulation of the YubiKey */
-"generic_hardware_key" = "Hardware Key";
+"generic_hardware_key" = "Κλειδί υλικού";
 
 /* On Every Save - L10n Note: This is a parameter for how often the YubiKey challenge should be refreshed. This means it is refreshed every time the user saves */
-"interval_on_every_save" = "On Every Save";
+"interval_on_every_save" = "Σε κάθε αποθήκευση";
 
 /* Forever */
-"generic_duration_forever" = "Forever";
+"generic_duration_forever" = "Πάντα";
 
 /* until App Termination - L10n Note: This is how long Strongbox will store/cache something, it will remember this until the App terminates completely, not just an app switch but a full quit. */
-"until_app_termination" = "until App Termination";
+"until_app_termination" = "μέχρι τον τερματισμό της εφαρμογής";
 
 /* Response Caching */
-"setting_response_caching_title" = "Response Caching";
+"setting_response_caching_title" = "Προσωρινή αποθήκευση απόκρισης";
 
 /* Cache Response For - L10n note: Usually followed by a period of time or duration, e.g. "Cache Response For 2 Hours" */
-"setting_cache_response_for_period_of_time" = "Cache Response For";
+"setting_cache_response_for_period_of_time" = "Απόκριση προσωρινής μνήμης για";
 
 /* Refresh Challenge Interval - L10n Note: usual followed by a period of time, e.g. Refresh Challenge Interval: 2 Hours */
-"refresh_challenge_interval" = "Refresh Challenge Interval";
+"refresh_challenge_interval" = "Διαστήματα πρόκλησης ανανέωσης";
 
 /* AutoFill Refresh Suppressed */
-"autofill_refresh_challenge_suppressed" = "AutoFill Refresh Suppressed";
+"autofill_refresh_challenge_suppressed" = "Καταργήθηκε η ανανέωση αυτόματης συμπλήρωσης";
 
 /* Hardware Key Settings */
-"nav_title_hardware_key_settings" = "Hardware Key Settings";
+"nav_title_hardware_key_settings" = "Ρυθμίσεις κλειδιού υλικού";
 
 /* Challenge Response Caching */
-"challenge_response_caching_header" = "Challenge Response Caching";
+"challenge_response_caching_header" = "Προσωρινή αποθήκευση απόκρισης πρόκλησης";
 
 /* Strongbox can remember the correct response for a particular challenge for a period of time. This means it can respond to a challenge instead of requiring you to use your hardware key all of the time. */
-"challenge_response_caching_footer" = "Strongbox can remember the correct response for a particular challenge for a period of time. This means it can respond to a challenge instead of requiring you to use your hardware key all of the time.";
+"challenge_response_caching_footer" = "Το Strongbox μπορεί να θυμάται τη σωστή απάντηση για μια συγκεκριμένη πρόκληση για ένα χρονικό διάστημα. Αυτό σημαίνει ότι μπορεί να ανταποκριθεί σε μια πρόκληση αντί να απαιτεί από εσάς να χρησιμοποιείτε συνεχώς το κλειδί υλικού σας.";
 
 /* Challenge Refreshing */
-"challenge_refreshing_header" = "Challenge Refreshing";
+"challenge_refreshing_header" = "Πρόκληση Αναζωογονητικό";
 
 /* Typically Strongbox refreshes the challenge on each save. Any time the challenge is refreshed your hardware key is required to generate a response to the fresh challenge. You can reduce the frequency of this refreshing meaning you can also save without requiring your hardware key (so long as caching is also enabled). */
-"challenge_refreshing_footer" = "Typically Strongbox refreshes the challenge on each save. Any time the challenge is refreshed your hardware key is required to generate a response to the fresh challenge. You can change the frequency of this refresh process. This means you can save without requiring your hardware key (as long as caching is also enabled).";
+"challenge_refreshing_footer" = "Συνήθως το Strongbox ανανεώνει την πρόκληση σε κάθε αποθήκευση. Κάθε φορά που η πρόκληση ανανεώνεται το κλειδί υλικού σας απαιτείται για να δημιουργηθεί μια απάντηση στη νέα πρόκληση. Μπορείτε να αλλάξετε τη συχνότητα αυτής της διαδικασίας ανανέωσης. Αυτό σημαίνει ότι μπορείτε να αποθηκεύσετε χωρίς να απαιτείται το κλειδί υλικού σας (εφόσον είναι επίσης ενεργοποιημένη η προσωρινή αποθήκευση).";
 
 /* Empty */
-"generic_empty" = "Empty";
+"generic_empty" = "Άδειο";
 
 /* Without */
-"generic_without" = "Without";
+"generic_without" = "Χωρίς";
 
 /* None */
-"privacy_shield_none" = "None";
+"privacy_shield_none" = "Κανένα";
 
 /* Select Database to save 2FA Code */
-"select_database_to_save_2fa_code_title" = "Select Database for 2FA Code";
+"select_database_to_save_2fa_code_title" = "Επιλέξτε Βάση δεδομένων για τον κωδικό 2FA";
 
 /* Let's get your new passkey saved. How would you like to add this passkey to your database? */
-"totp_how_to_add_to_database" = "Let's get your new 2FA Code saved. How would you like to add this code to your database?";
+"totp_how_to_add_to_database" = "Ας αποθηκεύσουμε τον νέο σας κωδικό 2FA. Πώς θα θέλατε να προσθέσετε αυτόν τον κώδικα στη βάση δεδομένων σας;";
 
 /* Overwrite Existing 2FA Code? */
-"totp_overwrite_question_title" = "Overwrite Existing 2FA Code?";
+"totp_overwrite_question_title" = "Αντικατάσταση υπάρχοντος κώδικα 2FA;";
 
 /* '%@' already has a 2FA Code, do you want to overwrite it? */
-"totp_overwrite_existing_question_msg_fmt" = "'%@' already has a 2FA Code, are you sure you want to overwrite it?";
+"totp_overwrite_existing_question_msg_fmt" = "Το '%@' έχει ήδη έναν κωδικό 2FA, είστε βέβαιοι ότι θέλετε να τον αντικαταστήσετε;";
 
 /* Are you sure you want to add this 2FA Code to '%@'? - l10n note: the first parameter is the title of an existing entry in your database, like 'Amazon.com' or something. */
-"totps_are_you_sure_add_to_fmt" = "Are you sure you want to add this 2FA Code to '%@'?";
+"totps_are_you_sure_add_to_fmt" = "Είστε βέβαιοι ότι θέλετε να προσθέσετε αυτόν τον κωδικό 2FA στο '%@';";
 
 /* Select entry for 2FA Code */
-"totp_select_existing_entry" = "Select entry for 2FA Code";
+"totp_select_existing_entry" = "Επιλέξτε την καταχώριση για τον κωδικό 2FA";
 
 /* New 2FA Code */
-"totp_new_passkey_title" = "New 2FA Code";
+"totp_new_passkey_title" = "Νέος κωδικός 2FA";
 
 /* We'll create a new entry for this 2FA Code. Choose a title and a group where you'd like to save it. */
-"totp_new_entry_text" = "We'll create a new entry for this 2FA Code. Choose a title and a group where you'd like to save it.";
+"totp_new_entry_text" = "Θα δημιουργήσουμε μια νέα καταχώρηση για αυτόν τον Κωδικό 2FA. Επιλέξτε έναν τίτλο και μια ομάδα όπου θέλετε να τον αποθηκεύσετε.";
 
 /* Edit In Progress */
-"generic_edit_in_progress" = "Edit In Progress";
+"generic_edit_in_progress" = "Επεξεργασία σε εξέλιξη";
 
 /* There is an edit in progress, please complete this before adding a 2FA Code. */
-"generic_edit_in_progress_2fa_code" = "There is an edit in progress, please complete this before adding a 2FA Code.";
+"generic_edit_in_progress_2fa_code" = "Υπάρχει μια τροποποίηση σε εξέλιξη, ολοκληρώστε την πριν προσθέσετε έναν Κωδικό 2FA.";
 
 /* Close Current Database? */
-"close_current_db_question" = "Close Current Database?";
+"close_current_db_question" = "Κλείσιμο της τρέχουσας βάσης δεδομένων;";
 
 /* You currently have a different database unlocked. Can Strongbox close that database to continue adding your 2FA Code? */
-"close_current_db_question_for_2fa" = "You currently have a different database unlocked. Can Strongbox close that database to continue adding your 2FA Code?";
+"close_current_db_question_for_2fa" = "Αυτήν τη στιγμή, έχετε ξεκλειδώσει μια διαφορετική βάση δεδομένων. Μπορεί το Strongbox να κλείσει αυτήν τη βάση δεδομένων για να συνεχίσει να προσθέτει τον κωδικό 2FA;";
 
 /* Invalid OTPAuth URL */
-"invalid_otpauth_url" = "Invalid OTPAuth URL";
+"invalid_otpauth_url" = "Μη έγκυρη διεύθυνση URL OTPAuth";
 
 /* Error Adding 2FA Code */
-"error_adding_2fa_code" = "Error Adding 2FA Code";
+"error_adding_2fa_code" = "Σφάλμα κατά την προσθήκη κωδικού 2FA";
 
 /* 2FA Code Saved */
-"2fa_code_saved" = "2FA Code Saved";
+"2fa_code_saved" = "2FA Code Αποθηκεύτηκε";
 
 /* Please select an existing entry to add your new 2FA Code */
-"totps_select_existing_entry_to_add_to_message" = "Please select an existing entry to add your new 2FA Code";
+"totps_select_existing_entry_to_add_to_message" = "Επιλέξτε μια υπάρχουσα καταχώρηση για να προσθέσετε τον νέο σας κωδικό 2FA";
 
 /* 2FA Code Imported */
-"2fa_code_imported" = "2FA Code Imported";
+"2fa_code_imported" = "2FA Code Εισήχθη";
 
 /* Unlock Unsuccessful - L10n Note: A recent unlock attempt was unsuccessful */
-"unlock_was_unsuccessful" = "Unlock Unsuccessful";
+"unlock_was_unsuccessful" = "Ανεπιτυχές ξεκλείδωμα";
 
 /* Would you like to try again? */
-"generic_would_you_like_to_try_again" = "Would you like to try again?";
+"generic_would_you_like_to_try_again" = "Θα θέλατε να δοκιμάσετε ξανά;";
 
 /* Add to Existing or Create New */
-"add_to_entry_or_create_new" = "Add to Existing or Create New";
+"add_to_entry_or_create_new" = "Προσθήκη στο Υπάρχον ή Δημιουργία νέου";
 
 /* Create New... */
-"generic_create_new_ellipsis" = "Create New...";
+"generic_create_new_ellipsis" = "Δημιουργία Νέου...";
 
 /* Add to '%@' - L10n note: the 1st parameter is the title of an item. So for example, when adding a 2FA Code to an entry we would have "Add to 'Amazon (UK)'" */
-"add_something_to_item_title_fmt" = "Add to '%@'";
+"add_something_to_item_title_fmt" = "Προσθήκη στο '%@'";
 
 /* None Available - L10n Note: Meaning no items were found or are available for use. e.g. If there are no virtual hardware keys created or setup by the user, we display "None Available" in the dropdown menu. */
-"generic_none_available" = "None Available";
+"generic_none_available" = "Κανένα διαθέσιμο";
 
 /* Duplicate Item */
-"duplicate_item_title" = "Duplicate Item";
+"duplicate_item_title" = "Διπλότυπο στοιχείο";
 
 /* Reference Password */
-"duplicate_item_option_reference_password" = "Reference Password";
+"duplicate_item_option_reference_password" = "Κωδικός αναφοράς";
 
 /* Reference Username */
-"duplicate_item_option_reference_username" = "Reference Username";
+"duplicate_item_option_reference_username" = "Αναφορά Όνομα χρήστη";
 
 /* Preserve Timestamps */
-"duplicate_item_option_reference_timestamp" = "Preserve Timestamps";
+"duplicate_item_option_reference_timestamp" = "Διατήρηση χρονικών σφραγίδων";
 
 /* Edit after Duplication */
-"duplicate_item_option_reference_edit_afterwards" = "Edit after Duplication";
+"duplicate_item_option_reference_edit_afterwards" = "Επεξεργασία μετά την αντιγραφή";
 
 /* Select Field to Insert Text */
-"select_field_to_insert_text" = "Select Field to Insert Text";
+"select_field_to_insert_text" = "Επιλέξτε Πεδίο για εισαγωγή κειμένου";
 
 /* Black Screen */
-"app_privacy_shield_mode_black_screen" = "Black Screen";
+"app_privacy_shield_mode_black_screen" = "Μαύρη οθόνη";
 
 /* Dark Logo */
-"app_privacy_shield_mode_dark_logo" = "Dark Logo";
+"app_privacy_shield_mode_dark_logo" = "Σκούρο Λογότυπο";
 
 /* Red Screen */
-"app_privacy_shield_mode_red_screen" = "Red Screen";
+"app_privacy_shield_mode_red_screen" = "Κόκκινη Οθόνη";
 
 /* Green Screen */
-"app_privacy_shield_mode_green_screen" = "Green Screen";
+"app_privacy_shield_mode_green_screen" = "Πράσινη Οθόνη";
 
 /* Light Logo */
-"app_privacy_shield_mode_blue_light_logo" = "Light Logo";
+"app_privacy_shield_mode_blue_light_logo" = "Φωτεινό λογότυπο";
 
 /* White Screen */
-"app_privacy_shield_mode_white_screen" = "White Screen";
+"app_privacy_shield_mode_white_screen" = "Λευκή Οθόνη";
 
 /* Show Sections */
-"configure_home_show_sections" = "Show Sections";
+"configure_home_show_sections" = "Εμφάνιση Ενοτήτων";
 
 /* Audit Complete */
-"audit_complete" = "Audit Complete";
+"audit_complete" = "Έλεγχος Ολοκληρώθηκε";
 
 /* Do Not Remember */
-"generic_do_not_remember" = "Do Not Remember";
+"generic_do_not_remember" = "Μην Θυμάσαι";
 
 /* Strongbox Zero %@ - L10n note: 1st parameter is the App Version, e.g. 'Strongbox Zero 1.60.23' */
 "subtitle_app_version_info_zero_fmt" = "Strongbox Zero %@";
 
 /* About Strongbox Zero %@ - L10n note: 1st parameter is the App Version, e.g. 'About Strongbox Zero 1.60.23' */
-"prefs_vc_app_version_info_zero_fmt" = "About Strongbox Zero %@";
+"prefs_vc_app_version_info_zero_fmt" = "Σχετικά με το Strongbox Zero %@";
 
 /* Zero Version %@ */
-"about_strongbox_zero_version_fmt" = "Zero Version %@";
+"about_strongbox_zero_version_fmt" = "Zero Έκδοση %@";
+
+/* Unzip First? */
+"import_file_zip_detected_ask_unzip_title" = "Αποσυμπιέστε Πρώτα?";
+
+/* This appears to be a Zip file rather than a database.\n\nShould Strongbox try to unzip first and then import a database if it can find one? */
+"import_file_zip_detected_ask_unzip_msg" = "Αυτό φαίνεται να είναι ένα αρχείο Zip και όχι μια βάση δεδομένων.\n\nΠρέπει το Strongbox να προσπαθήσει πρώτα να αποσυμπιέσει και μετά να εισαγάγει μια βάση δεδομένων εάν μπορεί να βρει;";
+
+/* No databases were found inside this Zip file. */
+"import_file_zip_detected_ask_unzip_msg" = "Δεν βρέθηκαν βάσεις δεδομένων μέσα σε αυτό το αρχείο Zip.";
