@@ -407,8 +407,8 @@
 /* '%@' Title Copied  - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup  */
 "browse_vc_title_copied_fmt" = "„%@” - Titel kopiert";
 
-/* '%@' OTP Code Copied - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
-"browse_vc_totp_copied_fmt" = "„%@” - OTP-Code kopiert";
+/* '%@' 2FA Code Copied - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
+"browse_vc_totp_copied_fmt" = "„%@” 2FA-Code kopiert";
 
 /* '%@' URL Copied - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
 "browse_vc_url_copied_fmt" = "'%@'-URL kopiert";
@@ -6712,4 +6712,103 @@
 "import_file_zip_detected_ask_unzip_msg" = "Es scheint sich eher um ein Zip-Archiv als um eine Datenbank zu handeln.\n\nSollte Strongbox versuchen, die Datei zuerst zu entpacken und anschließend eine Datenbank zu importieren, wenn eine gefunden wird?";
 
 /* No databases were found inside this Zip file. */
-"import_file_zip_detected_ask_unzip_msg" = "Es wurden keine Datenbanken in dieser Zip-Datei gefunden.";
+"import_file_zip_no_database_found_msg" = "Es wurden keine Datenbanken in dieser Zip-Datei gefunden.";
+
+/* This appears to be a Zip file which may contain your database.\n\nYou will need to unzip it first before you can add it to Strongbox. */
+"import_file_zip_file_you_must_unzip_first" = "Dies dürfte eine Zip-Datei sein, die möglicherweise Ihre Datenbank enthält.\n\nDiese muss zunächst entpackt werden, bevor Sie sie zu Strongbox hinzufügen können.";
+
+/* Add to Apple Watch */
+"action_add_entry_to_apple_watch" = "Zur Apple Watch hinzufügen";
+
+/* Remove from Apple Watch */
+"action_remove_entry_from_apple_watch" = "Aus Apple Watch entfernen";
+
+/* Nothing Here Yet */
+"watch_empty_nothing_here_yet" = "Noch keine Einträge";
+
+/* Unlock your database & long tap on an entry to add... */
+"watch_empty_instructions" = "Entsperren Sie Ihre Datenbank und tippen Sie lange auf einen Eintrag, um ihn hinzuzufügen …";
+
+/* Watch Entries */
+"sidebar_watch_entries" = "Einträge auf der Uhr";
+
+/* Watch */
+"browse_tab_watch" = "Uhr";
+
+/* Apple Watch */
+"apple_watch_title" = "Apple Watch";
+
+/* Apple Watch */
+"apple_watch_settings_title" = "Apple Watch - Einstellungen";
+
+/* Apple Watch Debug */
+"apple_watch_debug_title" = "Apple Watch - Fehlersuche";
+
+/* Apple Watch Integration */
+"allow_apple_watch_integration" = "Apple Watch Integration";
+
+/* The Garage */
+"settings_advanced_the_garage_title" = "Experteneinstellungen";
+
+/* Detect if Offline (to Offer Local Copy) */
+"setting_detect_if_offline" = "Erkennung, ob Offline (um eine lokale Kopie anzubieten)";
+
+/* Split 2FA Codes to Improve Readability */
+"setting_split_2fa_codes" = "Aufteilung von 2FA-Codes für bessere Lesbarkeit";
+
+/* Associated Websites */
+"setting_associated_websites" = "Verbundene Websites";
+
+/* Atomic SFTP Writes */
+"setting_atomic_sftp_writes" = "Sichere SFTP-Schreibvorgänge";
+
+/* Miscellaneous Settings */
+"misc_settings_title" = "Verschiedenes";
+
+/* Add 2FA Code OTPAuth URL */
+"setting_2fa_code_add_otpauth" = "2FA-Code OTPAuth-URL hinzufügen";
+
+/* Add Legacy 2FA Code Custom Fields */
+"setting_2fa_code_add_legacy_fields" = "Alte benutzerdefinierte Felder für den 2FA-Code hinzufügen";
+
+/* Use Color Blind Palette for Passwords */
+"setting_color_blind_palette" = "Für Passwörter, Farbpalette für Farbenblinde verwenden";
+
+/* Allow Third Party Keyboards */
+"setting_allow_third_party_keyboards" = "Drittanbieter-Tastaturen erlauben";
+
+/* Show Metadata on Details Screen */
+"setting_show_metadata_on_details" = "Metadaten in Detailansicht anzeigen";
+
+/* Show Databases on App Shortcuts Menu */
+"setting_show_databases_on_app_shortcut_menu" = "Datenbanken im App-Verknüpfungsmenü anzeigen";
+
+/* Markdown Notes */
+"setting_markdown_notes" = "Markdown-Anmerkungen";
+
+/* Use Dropbox App Folder Only */
+"setting_user_dropbox_app_folder_only" = "Nur Dropbox-App-Ordner verwenden";
+
+/* Instant PIN Unlock (No need for OK) */
+"setting_instant_pin_unlock" = "Sofortiges Entsperren mit PIN („OK” nicht erforderlich)";
+
+/* PIN Code Haptic Feedback */
+"setting_pin_code_haptics" = "PIN-Code Haptisches Feedback";
+
+/* New Entry uses Parent Group Icon */
+"setting_new_entry_uses_parent_icon" = "Neuer Eintrag verwendet übergeordnetes Gruppensymbol";
+
+/* Strip Unused Icons on Save */
+"setting_strip_unused_icons" = "Ungenutzte Symbole beim Speichern entfernen";
+
+/* Strip Historical Custom Icons on Save */
+"setting_strip_historical_icons" = "Alte benutzerdefinierte Symbole beim Speichern entfernen";
+
+/* PIN Code */
+"setting_pin_code_title" = "PIN-Code";
+
+/* Primary URL */
+"generic_fieldname_primary_url" = "Vorrangige URL";
+
+/* Other URLs */
+"generic_fieldname_other_urls" = "Weitere URLs";
