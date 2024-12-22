@@ -408,7 +408,7 @@
 "browse_vc_title_copied_fmt" = "'%@' Título copiado";
 
 /* '%@' 2FA Code Copied - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
-"browse_vc_totp_copied_fmt" = "'%@' 2FA Code Copied";
+"browse_vc_totp_copied_fmt" = "'%@' Código 2FA copiado";
 
 /* '%@' URL Copied - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
 "browse_vc_url_copied_fmt" = "'%@' URL Copiada";
@@ -6712,103 +6712,133 @@
 "import_file_zip_detected_ask_unzip_msg" = "Parece que se trata de un archivo Zip en lugar de una base de datos.\n\n¿Debería Strongbox intentar descomprimir primero y luego importar una base de datos si la encuentra?";
 
 /* No databases were found inside this Zip file. */
-"import_file_zip_no_database_found_msg" = "No databases were found inside this Zip file.";
+"import_file_zip_no_database_found_msg" = "No se encontraron bases de datos dentro de este archivo Zip.";
 
 /* This appears to be a Zip file which may contain your database.\n\nYou will need to unzip it first before you can add it to Strongbox. */
-"import_file_zip_file_you_must_unzip_first" = "This appears to be a Zip file which may contain your database.\n\nYou will need to unzip it first before you can add it to Strongbox.";
+"import_file_zip_file_you_must_unzip_first" = "Parece ser un archivo Zip que puede contener su base de datos.\n\nTendrá que descomprimirlo primero antes de poder añadirlo a Strongbox.";
 
 /* Add to Apple Watch */
-"action_add_entry_to_apple_watch" = "Add to Apple Watch";
+"action_add_entry_to_apple_watch" = "Añadir a Apple Watch";
 
 /* Remove from Apple Watch */
-"action_remove_entry_from_apple_watch" = "Remove from Apple Watch";
+"action_remove_entry_from_apple_watch" = "Eliminar de Apple Watch";
 
 /* Nothing Here Yet */
-"watch_empty_nothing_here_yet" = "Nothing Here Yet";
+"watch_empty_nothing_here_yet" = "Todavía no hay nada";
 
 /* Unlock your database & long tap on an entry to add... */
-"watch_empty_instructions" = "Unlock your database & long tap on an entry to add...";
+"watch_empty_instructions" = "Desbloquee su base de datos y pulsa largo en una entrada para añadir...";
 
 /* Watch Entries */
-"sidebar_watch_entries" = "Watch Entries";
+"sidebar_watch_entries" = "Ver entradas";
 
 /* Watch */
-"browse_tab_watch" = "Watch";
+"browse_tab_watch" = "Ver";
 
 /* Apple Watch */
 "apple_watch_title" = "Apple Watch";
 
 /* Apple Watch */
-"apple_watch_settings_title" = "Apple Watch Settings";
+"apple_watch_settings_title" = "Ajustes de Apple Watch";
 
 /* Apple Watch Debug */
-"apple_watch_debug_title" = "Apple Watch Debug";
+"apple_watch_debug_title" = "Depuración de Apple Watch";
 
 /* Apple Watch Integration */
-"allow_apple_watch_integration" = "Apple Watch Integration";
+"allow_apple_watch_integration" = "Integración de Apple Watch";
 
 /* The Garage */
-"settings_advanced_the_garage_title" = "The Garage";
+"settings_advanced_the_garage_title" = "El garaje";
 
 /* Detect if Offline (to Offer Local Copy) */
-"setting_detect_if_offline" = "Detect if Offline (to Offer Local Copy)";
+"setting_detect_if_offline" = "Detectar si está fuera de línea (para ofrecer copia local)";
 
 /* Split 2FA Codes to Improve Readability */
-"setting_split_2fa_codes" = "Split 2FA Codes to Improve Readability";
+"setting_split_2fa_codes" = "Dividir los códigos 2FA para mejorar la legibilidad";
 
 /* Associated Websites */
-"setting_associated_websites" = "Associated Websites";
+"setting_associated_websites" = "Sitios web asociados";
 
 /* Atomic SFTP Writes */
-"setting_atomic_sftp_writes" = "Atomic SFTP Writes";
+"setting_atomic_sftp_writes" = "Escrituras atómicas SFTP";
 
 /* Miscellaneous Settings */
-"misc_settings_title" = "Miscellaneous";
+"misc_settings_title" = "Varios";
 
 /* Add 2FA Code OTPAuth URL */
-"setting_2fa_code_add_otpauth" = "Add 2FA Code OTPAuth URL";
+"setting_2fa_code_add_otpauth" = "Añadir URL de OTPAuth del código 2FA";
 
 /* Add Legacy 2FA Code Custom Fields */
-"setting_2fa_code_add_legacy_fields" = "Add Legacy 2FA Code Custom Fields";
+"setting_2fa_code_add_legacy_fields" = "Añadir campos personalizados de código 2FA heredados";
 
 /* Use Color Blind Palette for Passwords */
-"setting_color_blind_palette" = "Use Color Blind Palette for Passwords";
+"setting_color_blind_palette" = "Utilizar paleta de colores para las contraseñas";
 
 /* Allow Third Party Keyboards */
-"setting_allow_third_party_keyboards" = "Allow Third Party Keyboards";
+"setting_allow_third_party_keyboards" = "Permitir teclados de terceros";
 
 /* Show Metadata on Details Screen */
-"setting_show_metadata_on_details" = "Show Metadata on Details Screen";
+"setting_show_metadata_on_details" = "Mostrar metadatos en la pantalla de detalles";
 
 /* Show Databases on App Shortcuts Menu */
-"setting_show_databases_on_app_shortcut_menu" = "Show Databases on App Shortcuts Menu";
+"setting_show_databases_on_app_shortcut_menu" = "Mostrar bases de datos en el menú de accesos directos";
 
 /* Markdown Notes */
-"setting_markdown_notes" = "Markdown Notes";
+"setting_markdown_notes" = "Notas Markdown";
 
 /* Use Dropbox App Folder Only */
-"setting_user_dropbox_app_folder_only" = "Use Dropbox App Folder Only";
+"setting_user_dropbox_app_folder_only" = "Usar sólo la carpeta de aplicaciones de Dropbox";
 
 /* Instant PIN Unlock (No need for OK) */
-"setting_instant_pin_unlock" = "Instant PIN Unlock (No need for OK)";
+"setting_instant_pin_unlock" = "Desbloqueo con PIN instantáneo (Sin OK)";
 
 /* PIN Code Haptic Feedback */
-"setting_pin_code_haptics" = "PIN Code Haptic Feedback";
+"setting_pin_code_haptics" = "Comentarios hápticos del código PIN";
 
 /* New Entry uses Parent Group Icon */
-"setting_new_entry_uses_parent_icon" = "New Entry uses Parent Group Icon";
+"setting_new_entry_uses_parent_icon" = "La nueva entrada usa el icono de grupo principal";
 
 /* Strip Unused Icons on Save */
-"setting_strip_unused_icons" = "Strip Unused Icons on Save";
+"setting_strip_unused_icons" = "Eliminar iconos no utilizados al guardar";
 
 /* Strip Historical Custom Icons on Save */
-"setting_strip_historical_icons" = "Strip Historical Custom Icons on Save";
+"setting_strip_historical_icons" = "Eliminar iconos personalizados históricos al guardar";
 
 /* PIN Code */
-"setting_pin_code_title" = "PIN Code";
+"setting_pin_code_title" = "Código PIN";
 
 /* Primary URL */
-"generic_fieldname_primary_url" = "Primary URL";
+"generic_fieldname_primary_url" = "URL principal";
 
 /* Other URLs */
-"generic_fieldname_other_urls" = "Other URLs";
+"generic_fieldname_other_urls" = "Otras URL";
+
+/* Sync Apple Watch Now */
+"generic_action_sync_apple_watch_now" = "Sync Apple Watch Now";
+
+/* Sync Apple Watch */
+"apple_watch_sync_title" = "Sync Apple Watch";
+
+/* Make sure your watch is paired and the Strongbox app is open on screen, then tap OK. */
+"apple_watch_sync_guidance" = "Make sure your watch is paired and the Strongbox app is open on screen, then tap OK.";
+
+/* Syncing with Apple Watch... */
+"apple_watch_sync_progress" = "Syncing with Apple Watch...";
+
+/* Apple Watch Synced OK */
+"apple_watch_sync_success" = "Apple Watch Synced OK";
+
+/* Could Not Sync Apple Watch */
+"apple_watch_sync_could_not" = "Could Not Sync Apple Watch";
+
+/* Watch App is not reachable */
+"apple_watch_sync_not_reachable" = "Watch App is not reachable";
+
+/* Apple Watch Sync Error */
+"apple_watch_sync_error" = "Apple Watch Sync Error";
+
+/* What's New */
+"whats_new_title" = "What's New";
+
+/* We've been busy in the lab working on some exciting new features. Here's a few things we've done since you last updated. */
+"whats_new_subtitle" = "We've been busy in the lab working on some exciting new features. Here's a few things we've done since you last updated.";
