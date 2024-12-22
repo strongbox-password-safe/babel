@@ -408,7 +408,7 @@
 "browse_vc_title_copied_fmt" = "'%@' Заголовок скопійовано";
 
 /* '%@' 2FA Code Copied - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
-"browse_vc_totp_copied_fmt" = "'%@' 2FA Code Copied";
+"browse_vc_totp_copied_fmt" = "'%@' Код 2FA скопійовано";
 
 /* '%@' URL Copied - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
 "browse_vc_url_copied_fmt" = "'%@' URL скопійовано";
@@ -3260,7 +3260,7 @@
 "backup_settings_prompt_no_dont_backup_anything" = "Ні, не включати нічого";
 
 /* View Debug Log */
-"safes_vc_action_view_sync_status" = "View Debug Log";
+"safes_vc_action_view_sync_status" = "Перегляд журналу налагодження";
 
 /* Please send this crash report to support@strongboxsafe.com */
 "safes_vc_please_send_crash_report" = "Будь ласка, надішліть цей звіт про збій на support@strongboxsafe.com";
@@ -3311,7 +3311,7 @@
 "open_sequence_storage_provider_error_title" = "Помилка синхронізації";
 
 /* If this happens repeatedly you should try re-adding your database. See the Debug Log for more...\n\nWould you like to open in offline mode instead? */
-"open_sequence_storage_provider_error_open_local_ro_instead" = "If this happens repeatedly you should try re-adding your database. See the Debug Log for more...\n\nWould you like to open in offline mode instead?";
+"open_sequence_storage_provider_error_open_local_ro_instead" = "Якщо це повторюватиметься, вам слід спробувати ще раз додати свою базу паролів. Перегляньте журнал налагодження для докладних відомостей...\n\nБажаєте натомість відкрити в автономному режимі?";
 
 /* Local Copy Unavailable */
 "autofill_vc_item_subtitle_local_copy_unavailable" = "Локальна копія недоступна";
@@ -3893,7 +3893,7 @@
 "browse_vc_pulldown_refresh_error_title" = "Помилка оновлення";
 
 /* See Debug Log */
-"browse_vc_pulldown_refresh_error_message" = "See Debug Log";
+"browse_vc_pulldown_refresh_error_message" = "Переглянути журнал налагодження";
 
 /* Database Refreshed - No Changes */
 "browse_vc_pulldown_refresh_no_changes_title" = "База даних оновлена – немає змін";
@@ -4092,10 +4092,10 @@
 "autofill_search_other_matches_section_header" = "Інші збіги";
 
 /* Caller ID */
-"autofill_search_title_service_id_section_header" = "Caller ID";
+"autofill_search_title_service_id_section_header" = "ID абонента";
 
 /* The Caller ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Caller ID. */
-"autofill_search_service_id_section_footer" = "The Caller ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Caller ID. Tap to Copy.";
+"autofill_search_service_id_section_footer" = "ID абонента – це ідентифікатор, що надсилається в Strongbox автозаповненням. Він може допомогти виявити, чи ви встановили для URL запису відповідність ID абонента. Торкніться, щоб копіювати.";
 
 /* Results */
 "quick_view_title_no_matches_title" = "Результати";
@@ -5192,7 +5192,7 @@
 "alert_enter_password_basic_length" = "Введіть довжину";
 
 /* Not to worry, your database is safely saved locally but could not be synchronised with the source database.\n\nIf this happens repeatedly, investigate the Debug Log and try re-adding your database. */
-"sync_nextgen_sync_issue_message" = "Not to worry, your database is safely saved locally but could not be synchronised with the source database.\n\nIf this happens repeatedly, investigate the Debug Log and try re-adding your database.";
+"sync_nextgen_sync_issue_message" = "Не хвилюйтеся, ваша база даних надійно зберігається локально, але зміни неможливо синхронізувати з вихідною базою даних.\n\nЯкщо це повторюватиметься, перегляньте журнал налагодження і спробуйте повторно додати свою базу даних.";
 
 /* Sync Issue */
 "nextgen_sync_issue_toast_title" = "Проблема синхронізації";
@@ -5228,7 +5228,7 @@
 "generic_action_sync" = "Синхронізація";
 
 /* Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Debug Log?\n\n%@\n */
-"sync_error_message_including_error_detail_fmt" = "Your database is safely saved but there was an error syncing. Would you like to try again or take a look at the Debug Log?\n\n%@\n";
+"sync_error_message_including_error_detail_fmt" = "Вашу базу даних надійно збережено, але виникла помилка під час синхронізації. Бажаєте спробувати синхронізувати знову чи переглянути журнал налагодження?\n\n%@\n";
 
 /* This database is in Offline Mode and cannot be synced. */
 "database_is_in_offline_mode_cannot_be_synced" = "Ця база даних зараз в автономному режимі, тому її неможливо синхронізувати.";
@@ -6580,7 +6580,7 @@
 "generic_without" = "Without";
 
 /* None */
-"privacy_shield_none" = "None";
+"privacy_shield_none" = "Немає";
 
 /* Select Database to save 2FA Code */
 "select_database_to_save_2fa_code_title" = "Select Database for 2FA Code";
@@ -6643,7 +6643,7 @@
 "add_to_entry_or_create_new" = "Add to Existing or Create New";
 
 /* Create New... */
-"generic_create_new_ellipsis" = "Create New...";
+"generic_create_new_ellipsis" = "Створити новий...";
 
 /* Add to '%@' - L10n note: the 1st parameter is the title of an item. So for example, when adding a 2FA Code to an entry we would have "Add to 'Amazon (UK)'" */
 "add_something_to_item_title_fmt" = "Add to '%@'";
@@ -6652,7 +6652,7 @@
 "generic_none_available" = "None Available";
 
 /* Duplicate Item */
-"duplicate_item_title" = "Duplicate Item";
+"duplicate_item_title" = "Дублювати запис";
 
 /* Reference Password */
 "duplicate_item_option_reference_password" = "Reference Password";
@@ -6661,7 +6661,7 @@
 "duplicate_item_option_reference_username" = "Reference Username";
 
 /* Preserve Timestamps */
-"duplicate_item_option_reference_timestamp" = "Preserve Timestamps";
+"duplicate_item_option_reference_timestamp" = "Зберегти часові мітки";
 
 /* Edit after Duplication */
 "duplicate_item_option_reference_edit_afterwards" = "Edit after Duplication";
@@ -6688,10 +6688,10 @@
 "app_privacy_shield_mode_white_screen" = "White Screen";
 
 /* Show Sections */
-"configure_home_show_sections" = "Show Sections";
+"configure_home_show_sections" = "Показувати розділи";
 
 /* Audit Complete */
-"audit_complete" = "Audit Complete";
+"audit_complete" = "Аудит завершено";
 
 /* Do Not Remember */
 "generic_do_not_remember" = "Do Not Remember";
@@ -6757,55 +6757,55 @@
 "setting_split_2fa_codes" = "Split 2FA Codes to Improve Readability";
 
 /* Associated Websites */
-"setting_associated_websites" = "Associated Websites";
+"setting_associated_websites" = "Пов'язані вебсайти";
 
 /* Atomic SFTP Writes */
-"setting_atomic_sftp_writes" = "Atomic SFTP Writes";
+"setting_atomic_sftp_writes" = "Гарантована надійність запису SFTP";
 
 /* Miscellaneous Settings */
-"misc_settings_title" = "Miscellaneous";
+"misc_settings_title" = "Різне";
 
 /* Add 2FA Code OTPAuth URL */
-"setting_2fa_code_add_otpauth" = "Add 2FA Code OTPAuth URL";
+"setting_2fa_code_add_otpauth" = "Додати URL-адресу 2FA-коду OTPAuth";
 
 /* Add Legacy 2FA Code Custom Fields */
-"setting_2fa_code_add_legacy_fields" = "Add Legacy 2FA Code Custom Fields";
+"setting_2fa_code_add_legacy_fields" = "Додати власні поля застарілого методу 2FA";
 
 /* Use Color Blind Palette for Passwords */
-"setting_color_blind_palette" = "Use Color Blind Palette for Passwords";
+"setting_color_blind_palette" = "Використовувати палітру кольорів підтримки дальтонізму для паролів";
 
 /* Allow Third Party Keyboards */
-"setting_allow_third_party_keyboards" = "Allow Third Party Keyboards";
+"setting_allow_third_party_keyboards" = "Дозволити сторонні клавіатури";
 
 /* Show Metadata on Details Screen */
-"setting_show_metadata_on_details" = "Show Metadata on Details Screen";
+"setting_show_metadata_on_details" = "Показувати метадані на екрані подробиць";
 
 /* Show Databases on App Shortcuts Menu */
-"setting_show_databases_on_app_shortcut_menu" = "Show Databases on App Shortcuts Menu";
+"setting_show_databases_on_app_shortcut_menu" = "Показати бази даних у меню швидкого доступу до програм";
 
 /* Markdown Notes */
-"setting_markdown_notes" = "Markdown Notes";
+"setting_markdown_notes" = "Нотатки Markdown";
 
 /* Use Dropbox App Folder Only */
-"setting_user_dropbox_app_folder_only" = "Use Dropbox App Folder Only";
+"setting_user_dropbox_app_folder_only" = "Використовувати лише теку програми Dropbox";
 
 /* Instant PIN Unlock (No need for OK) */
-"setting_instant_pin_unlock" = "Instant PIN Unlock (No need for OK)";
+"setting_instant_pin_unlock" = "Миттєве відмикання PIN-кодом (без ОК)";
 
 /* PIN Code Haptic Feedback */
-"setting_pin_code_haptics" = "PIN Code Haptic Feedback";
+"setting_pin_code_haptics" = "Тактильний відгук для PIN-коду";
 
 /* New Entry uses Parent Group Icon */
-"setting_new_entry_uses_parent_icon" = "New Entry uses Parent Group Icon";
+"setting_new_entry_uses_parent_icon" = "Новий запис використовує піктограму групи вищого рівня";
 
 /* Strip Unused Icons on Save */
-"setting_strip_unused_icons" = "Strip Unused Icons on Save";
+"setting_strip_unused_icons" = "Видаляти невикористані піктограми під час збереження";
 
 /* Strip Historical Custom Icons on Save */
-"setting_strip_historical_icons" = "Strip Historical Custom Icons on Save";
+"setting_strip_historical_icons" = "Видаляти історичні користувацькі піктограми при збереженні";
 
 /* PIN Code */
-"setting_pin_code_title" = "PIN Code";
+"setting_pin_code_title" = "PIN-код";
 
 /* Primary URL */
 "generic_fieldname_primary_url" = "Primary URL";
