@@ -408,7 +408,7 @@
 "browse_vc_title_copied_fmt" = "Titel van '%@' gekopieerd";
 
 /* '%@' 2FA Code Copied - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
-"browse_vc_totp_copied_fmt" = "'%@' 2FA Code Copied";
+"browse_vc_totp_copied_fmt" = "%@' 2FA-code gekopieerd";
 
 /* '%@' URL Copied - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
 "browse_vc_url_copied_fmt" = "Url van '%@' gekopieerd";
@@ -3260,7 +3260,7 @@
 "backup_settings_prompt_no_dont_backup_anything" = "Nee, neem niets op";
 
 /* View Debug Log */
-"safes_vc_action_view_sync_status" = "View Debug Log";
+"safes_vc_action_view_sync_status" = "Bekijk foutopsporingslogboek";
 
 /* Please send this crash report to support@strongboxsafe.com */
 "safes_vc_please_send_crash_report" = "Stuur dit crashrapport naar support@strongboxsafe.com";
@@ -4095,7 +4095,7 @@
 "autofill_search_title_service_id_section_header" = "Caller ID";
 
 /* The Caller ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Caller ID. */
-"autofill_search_service_id_section_footer" = "The Caller ID is an identifier sent to Strongbox by AutoFill. It can help with searching if you set the URL of your entry to match the Caller ID. Tap to Copy.";
+"autofill_search_service_id_section_footer" = "Het Caller ID is een identificatiemiddel dat door Automatisch invullen naar Strongbox gestuurd wordt. Het kan helpen bij het zoeken als de url van je ingave hetzelfde is als het Caller ID. Tik om te kopiëren.";
 
 /* Results */
 "quick_view_title_no_matches_title" = "Resultaten";
@@ -6706,28 +6706,28 @@
 "about_strongbox_zero_version_fmt" = "Zero-versie %@";
 
 /* Unzip First? */
-"import_file_zip_detected_ask_unzip_title" = "Unzip First?";
+"import_file_zip_detected_ask_unzip_title" = "Eerst uitpakken?";
 
 /* This appears to be a Zip file rather than a database.\n\nShould Strongbox try to unzip first and then import a database if it can find one? */
-"import_file_zip_detected_ask_unzip_msg" = "This appears to be a Zip file rather than a database.\n\nShould Strongbox try to unzip first and then import a database if it can find one?";
+"import_file_zip_detected_ask_unzip_msg" = "Het lijkt erop dat dit een zip-bestand is in plaats van een database.\n\nMoet Strongbox eerst proberen om het uit te pakken, en daarna een database importeren als die gevonden wordt?";
 
 /* No databases were found inside this Zip file. */
-"import_file_zip_no_database_found_msg" = "No databases were found inside this Zip file.";
+"import_file_zip_no_database_found_msg" = "Er zijn geen databases gevonden in dit Zip-bestand.";
 
 /* This appears to be a Zip file which may contain your database.\n\nYou will need to unzip it first before you can add it to Strongbox. */
-"import_file_zip_file_you_must_unzip_first" = "This appears to be a Zip file which may contain your database.\n\nYou will need to unzip it first before you can add it to Strongbox.";
+"import_file_zip_file_you_must_unzip_first" = "Dit lijkt een zip-bestand te zijn dat je database kan bevatten.\n\nJe moet het eerst uitpakken voordat je het aan Strongbox kunt toevoegen.";
 
 /* Add to Apple Watch */
-"action_add_entry_to_apple_watch" = "Add to Apple Watch";
+"action_add_entry_to_apple_watch" = "Toevoegen aan Apple Watch";
 
 /* Remove from Apple Watch */
-"action_remove_entry_from_apple_watch" = "Remove from Apple Watch";
+"action_remove_entry_from_apple_watch" = "Verwijderen van Apple Watch";
 
 /* Nothing Here Yet */
-"watch_empty_nothing_here_yet" = "Nothing Here Yet";
+"watch_empty_nothing_here_yet" = "Nog niets hier";
 
 /* Unlock your database & long tap on an entry to add... */
-"watch_empty_instructions" = "Unlock your database & long tap on an entry to add...";
+"watch_empty_instructions" = "Ontgrendel je database en tik lang op een item om het toe te voegen...";
 
 /* Watch Entries */
 "sidebar_watch_entries" = "Watch Entries";
@@ -6739,79 +6739,79 @@
 "apple_watch_title" = "Apple Watch";
 
 /* Apple Watch */
-"apple_watch_settings_title" = "Apple Watch Settings";
+"apple_watch_settings_title" = "Apple Watch instellingen";
 
 /* Apple Watch Debug */
-"apple_watch_debug_title" = "Apple Watch Debug";
+"apple_watch_debug_title" = "Apple Watch foutopsporing";
 
 /* Apple Watch Integration */
-"allow_apple_watch_integration" = "Apple Watch Integration";
+"allow_apple_watch_integration" = "Apple Watch integratie";
 
 /* The Garage */
-"settings_advanced_the_garage_title" = "The Garage";
+"settings_advanced_the_garage_title" = "De garage";
 
 /* Detect if Offline (to Offer Local Copy) */
-"setting_detect_if_offline" = "Detect if Offline (to Offer Local Copy)";
+"setting_detect_if_offline" = "Offline detecteren (om lokale kopie aan te bieden)";
 
 /* Split 2FA Codes to Improve Readability */
-"setting_split_2fa_codes" = "Split 2FA Codes to Improve Readability";
+"setting_split_2fa_codes" = "Splits 2FA-codes om de leesbaarheid te verbeteren";
 
 /* Associated Websites */
-"setting_associated_websites" = "Associated Websites";
+"setting_associated_websites" = "Bijbehorende websites";
 
 /* Atomic SFTP Writes */
-"setting_atomic_sftp_writes" = "Atomic SFTP Writes";
+"setting_atomic_sftp_writes" = "Atomaire SFTP-schrijfacties";
 
 /* Miscellaneous Settings */
-"misc_settings_title" = "Miscellaneous";
+"misc_settings_title" = "Diverse";
 
 /* Add 2FA Code OTPAuth URL */
-"setting_2fa_code_add_otpauth" = "Add 2FA Code OTPAuth URL";
+"setting_2fa_code_add_otpauth" = "Voeg 2FA-code toe via OTPAuth-url";
 
 /* Add Legacy 2FA Code Custom Fields */
-"setting_2fa_code_add_legacy_fields" = "Add Legacy 2FA Code Custom Fields";
+"setting_2fa_code_add_legacy_fields" = "Voeg verouderde eigen 2FA-velden toe";
 
 /* Use Color Blind Palette for Passwords */
-"setting_color_blind_palette" = "Use Color Blind Palette for Passwords";
+"setting_color_blind_palette" = "Gebruik blindenkleurenpalet voor wachtwoorden";
 
 /* Allow Third Party Keyboards */
-"setting_allow_third_party_keyboards" = "Allow Third Party Keyboards";
+"setting_allow_third_party_keyboards" = "Sta toetsenborden van derden toe";
 
 /* Show Metadata on Details Screen */
-"setting_show_metadata_on_details" = "Show Metadata on Details Screen";
+"setting_show_metadata_on_details" = "Toon metagegevens op het deelscherm Details";
 
 /* Show Databases on App Shortcuts Menu */
-"setting_show_databases_on_app_shortcut_menu" = "Show Databases on App Shortcuts Menu";
+"setting_show_databases_on_app_shortcut_menu" = "Toon databases in het snelmenu van apps";
 
 /* Markdown Notes */
-"setting_markdown_notes" = "Markdown Notes";
+"setting_markdown_notes" = "Markdown-opmerkingen";
 
 /* Use Dropbox App Folder Only */
-"setting_user_dropbox_app_folder_only" = "Use Dropbox App Folder Only";
+"setting_user_dropbox_app_folder_only" = "Gebruik alleen de Dropbox-appmap";
 
 /* Instant PIN Unlock (No need for OK) */
-"setting_instant_pin_unlock" = "Instant PIN Unlock (No need for OK)";
+"setting_instant_pin_unlock" = "Ontgrendel direct via pincode (een OK is dan niet nodig)";
 
 /* PIN Code Haptic Feedback */
-"setting_pin_code_haptics" = "PIN Code Haptic Feedback";
+"setting_pin_code_haptics" = "Haptische terugkoppeling bij pincode";
 
 /* New Entry uses Parent Group Icon */
-"setting_new_entry_uses_parent_icon" = "New Entry uses Parent Group Icon";
+"setting_new_entry_uses_parent_icon" = "Nieuw onderdeel gebruikt bovenliggend groepssymbool";
 
 /* Strip Unused Icons on Save */
-"setting_strip_unused_icons" = "Strip Unused Icons on Save";
+"setting_strip_unused_icons" = "Verwijder ongebruikte pictogrammen bij bewaren";
 
 /* Strip Historical Custom Icons on Save */
-"setting_strip_historical_icons" = "Strip Historical Custom Icons on Save";
+"setting_strip_historical_icons" = "Oude eigen symbolen verwijderen bij bewaren";
 
 /* PIN Code */
-"setting_pin_code_title" = "PIN Code";
+"setting_pin_code_title" = "Pincode";
 
 /* Primary URL */
-"generic_fieldname_primary_url" = "Primary URL";
+"generic_fieldname_primary_url" = "Primaire URL";
 
 /* Other URLs */
-"generic_fieldname_other_urls" = "Other URLs";
+"generic_fieldname_other_urls" = "Andere URL's";
 
 /* Sync Apple Watch Now */
 "generic_action_sync_apple_watch_now" = "Apple Watch nu synchroniseren";
