@@ -3173,7 +3173,7 @@
 "audit_manual_pwn_check_result_not_pwned" = "Vaše heslo NEBYLO pwned a je pravděpodobně bezpečné.";
 
 /* Manual HIBP Result */
-"audit_manual_pwn_check_result_title" = "Manual HIBP Result";
+"audit_manual_pwn_check_result_title" = "Ruční HIBP Výsledek";
 
 /* This password is pwned and is vulnerable */
 "audit_manual_pwn_check_result_pwned" = "Toto heslo je pwned a je tedy zranitelné";
@@ -4615,7 +4615,7 @@
 "import_failed_message" = "Strongbox nemohl importovat tento soubor. Zkontrolujte prosím, zda je ve správném formátu.";
 
 /* Import Successful */
-"import_successful_title" = "Import Successful";
+"import_successful_title" = "Import byl úspěšný";
 
 /* Your import was successful! Now, let's set a strong master password and save your new Strongbox database. */
 "import_successful_message" = "Import proběhl úspěšně! Pojďme nastavit silné hlavní heslo a uložit novou Strongbox databázi.";
@@ -4769,7 +4769,7 @@
 "pasted_image_attachment_at_time_filename_png_fmt" = "vložit-jako-%@.png";
 
 /* Groups */
-"side_bar_hierarchy_folder_structure" = "Groups";
+"side_bar_hierarchy_folder_structure" = "Skupiny";
 
 /* Discard Changes */
 "discard_changes" = "Zrušit změny";
@@ -6148,7 +6148,7 @@
 "storage_add_existing_mac_file_description" = "Add a database from anywhere on your Mac file system.";
 
 /* Add Database */
-"select_storage_title_add_existing" = "Add Database";
+"select_storage_title_add_existing" = "Přidat databázi";
 
 /* Import Database */
 "select_storage_title_import" = "Import Database";
@@ -6229,7 +6229,7 @@
 "item_details_tap_to_add_tags" = "Tap to add tags...";
 
 /* Edit Tags */
-"tags_editor_header_edit_tags" = "Edit Tags";
+"tags_editor_header_edit_tags" = "Upravit štítky";
 
 /* Create New Tag... */
 "tags_editor_create_new_tag_ellipsis" = "Create New Tag...";
@@ -6268,10 +6268,10 @@
 "storage_selector_where_existing_located" = "Where is your existing database located?";
 
 /* Storage Browser */
-"storage_browser" = "Storage Browser";
+"storage_browser" = "Prohlížeč úložiště";
 
 /* Databases */
-"generic_databases_plural" = "Databases";
+"generic_databases_plural" = "Databáze";
 
 /* All Items */
 "generic_all_items" = "All Items";
@@ -6316,10 +6316,10 @@
 "onedrive_explorer_title" = "OneDrive Explorer";
 
 /* Quit Strongbox */
-"system_tray_menu_item_quit" = "Quit Strongbox";
+"system_tray_menu_item_quit" = "Ukončit Strongbox";
 
 /* Show Strongbox */
-"system_tray_menu_item_show" = "Show Strongbox";
+"system_tray_menu_item_show" = "Zobrazit Strongbox";
 
 /* Show Quick Search */
 "system_tray_menu_item_show_quick_search" = "Show Quick Search";
@@ -6343,7 +6343,7 @@
 "view_actions" = "View Actions";
 
 /* View Results */
-"view_results" = "View Results";
+"view_results" = "Zobrazit výsledky";
 
 /* Quick Search is a Pro feature. Please upgrade to enjoy lightning fast access to your databases. */
 "quick_search_pro_feature_message" = "Quick Search is a Pro feature. Please upgrade to enjoy lightning fast access to your databases.";
@@ -6376,7 +6376,7 @@
 "sharepoint_pro_feature_message" = "Using Sharepoint is a Pro feature. Please upgrade to enjoy full access.";
 
 /* delete */
-"delete_triple_confirm_code_word" = "delete";
+"delete_triple_confirm_code_word" = "vymazat";
 
 /* Please enter the word '%@' below to confirm. */
 "delete_triple_confirm_message_fmt" = "Please enter the word '%@' below to confirm.";
@@ -6475,7 +6475,7 @@
 "generic_tap_the_settings_button_to_configure" = "Tap the Settings button to configure.";
 
 /* Auditing... */
-"generic_verb_auditing_in_progress_ellipsis" = "Auditing...";
+"generic_verb_auditing_in_progress_ellipsis" = "Audit...";
 
 /* These method(s) are no longer advised. Strongbox does not have full control over the read, write and locate functions and so we cannot guarantee data integrity. However, typically, locally stored on-device files accessed in this way are not problematic.\n\nNB: Strongbox does not have any knowledge of where files selected in this way are located. */
 "deprecated_storage_footer_text_no_network_db" = "These method(s) are no longer advised. Strongbox does not have full control over the read, write and locate functions and so we cannot guarantee data integrity. However, typically, locally stored on-device files accessed in this way are not problematic.\n\nNB: Strongbox does not have any knowledge of where files selected in this way are located.";
@@ -6499,7 +6499,7 @@
 "no_connected_keys_detected" = "No Connected Keys Detected";
 
 /* Virtual Hardware Keys */
-"virtual_hardware_keys" = "Virtual Hardware Keys";
+"virtual_hardware_keys" = "Virtuální hardwarové klíče";
 
 /* Are you sure you would like to delete the virtual hardware key '%@'? - L10n note: 1st param is the name of the key, something like "My YubiKey Backup Key" */
 "ays_delete_virtual_hardware_key_fmt" = "Are you sure you would like to delete the virtual hardware key '%@'?";
@@ -6508,7 +6508,7 @@
 "virtual_hardware_key_welcome_msg" = "Enter a friendly name and the HMAC-SHA1 challenge response secret to create a new virtual hardware key.";
 
 /* Name - L10n Note: A noun, the name of something, e.g. the database name "Mark's Database" */
-"generic_name" = "Name";
+"generic_name" = "Název";
 
 /* My Backup Key - L10n note: A sample placeholder name for a virtual hardware key. */
 "sample_vkey_name_my_backup_key" = "My Backup Key";
@@ -6535,7 +6535,7 @@
 "hardware_key_caching_onboarding_msg" = "Using a hardware key is a great security choice but it can be a little inconvenient.\n\nWould you like to enable our caching feature?\n\nWith this enabled Strongbox will do things like remember the last challenge response for a period of time. This means you don't need to use your key so often.\n\nFull configuration is available in settings. For more details see online.";
 
 /* Hardware Key - L10n Note: A physical hardware key such as a YubiKey or one of Strongboxs "Virtual Hardware Keys" which is a software emulation of the YubiKey */
-"generic_hardware_key" = "Hardware Key";
+"generic_hardware_key" = "Hardwarový klíč";
 
 /* On Every Save - L10n Note: This is a parameter for how often the YubiKey challenge should be refreshed. This means it is refreshed every time the user saves */
 "interval_on_every_save" = "On Every Save";
@@ -6580,7 +6580,7 @@
 "generic_without" = "Without";
 
 /* None */
-"privacy_shield_none" = "None";
+"privacy_shield_none" = "Žádné";
 
 /* Select Database to save 2FA Code */
 "select_database_to_save_2fa_code_title" = "Select Database for 2FA Code";
@@ -6643,7 +6643,7 @@
 "add_to_entry_or_create_new" = "Add to Existing or Create New";
 
 /* Create New... */
-"generic_create_new_ellipsis" = "Create New...";
+"generic_create_new_ellipsis" = "Vytvořit nový...";
 
 /* Add to '%@' - L10n note: the 1st parameter is the title of an item. So for example, when adding a 2FA Code to an entry we would have "Add to 'Amazon (UK)'" */
 "add_something_to_item_title_fmt" = "Add to '%@'";
@@ -6652,7 +6652,7 @@
 "generic_none_available" = "None Available";
 
 /* Duplicate Item */
-"duplicate_item_title" = "Duplicate Item";
+"duplicate_item_title" = "Duplikovat položku";
 
 /* Reference Password */
 "duplicate_item_option_reference_password" = "Reference Password";
@@ -6661,7 +6661,7 @@
 "duplicate_item_option_reference_username" = "Reference Username";
 
 /* Preserve Timestamps */
-"duplicate_item_option_reference_timestamp" = "Preserve Timestamps";
+"duplicate_item_option_reference_timestamp" = "Zachovat časová razítka";
 
 /* Edit after Duplication */
 "duplicate_item_option_reference_edit_afterwards" = "Edit after Duplication";
@@ -6688,7 +6688,7 @@
 "app_privacy_shield_mode_white_screen" = "White Screen";
 
 /* Show Sections */
-"configure_home_show_sections" = "Show Sections";
+"configure_home_show_sections" = "Zobrazit sekce";
 
 /* Audit Complete */
 "audit_complete" = "Audit Complete";
@@ -6757,13 +6757,13 @@
 "setting_split_2fa_codes" = "Split 2FA Codes to Improve Readability";
 
 /* Associated Websites */
-"setting_associated_websites" = "Associated Websites";
+"setting_associated_websites" = "Související webové stránky";
 
 /* Atomic SFTP Writes */
-"setting_atomic_sftp_writes" = "Atomic SFTP Writes";
+"setting_atomic_sftp_writes" = "Zápisy Atomic SFTP";
 
 /* Miscellaneous Settings */
-"misc_settings_title" = "Miscellaneous";
+"misc_settings_title" = "Různé";
 
 /* Add 2FA Code OTPAuth URL */
 "setting_2fa_code_add_otpauth" = "Add 2FA Code OTPAuth URL";
@@ -6772,40 +6772,40 @@
 "setting_2fa_code_add_legacy_fields" = "Add Legacy 2FA Code Custom Fields";
 
 /* Use Color Blind Palette for Passwords */
-"setting_color_blind_palette" = "Use Color Blind Palette for Passwords";
+"setting_color_blind_palette" = "Použít barevnou paletu pro vybarvení hesel";
 
 /* Allow Third Party Keyboards */
-"setting_allow_third_party_keyboards" = "Allow Third Party Keyboards";
+"setting_allow_third_party_keyboards" = "Povolit klávesnice třetích stran";
 
 /* Show Metadata on Details Screen */
-"setting_show_metadata_on_details" = "Show Metadata on Details Screen";
+"setting_show_metadata_on_details" = "Zobrazit metadata na obrazovce detailů";
 
 /* Show Databases on App Shortcuts Menu */
-"setting_show_databases_on_app_shortcut_menu" = "Show Databases on App Shortcuts Menu";
+"setting_show_databases_on_app_shortcut_menu" = "Zobrazení databází v nabídce zástupců aplikací";
 
 /* Markdown Notes */
-"setting_markdown_notes" = "Markdown Notes";
+"setting_markdown_notes" = "Poznámky v syntaxi Markdown";
 
 /* Use Dropbox App Folder Only */
-"setting_user_dropbox_app_folder_only" = "Use Dropbox App Folder Only";
+"setting_user_dropbox_app_folder_only" = "Použít pouze složku aplikace Dropbox";
 
 /* Instant PIN Unlock (No need for OK) */
-"setting_instant_pin_unlock" = "Instant PIN Unlock (No need for OK)";
+"setting_instant_pin_unlock" = "Automatické odemčení PIN (není třeba pro OK)";
 
 /* PIN Code Haptic Feedback */
-"setting_pin_code_haptics" = "PIN Code Haptic Feedback";
+"setting_pin_code_haptics" = "Hmatová odezva PIN kódu";
 
 /* New Entry uses Parent Group Icon */
-"setting_new_entry_uses_parent_icon" = "New Entry uses Parent Group Icon";
+"setting_new_entry_uses_parent_icon" = "Nová položka používá ikonu nadřazené skupiny";
 
 /* Strip Unused Icons on Save */
-"setting_strip_unused_icons" = "Strip Unused Icons on Save";
+"setting_strip_unused_icons" = "Při ukládání odstranit nepoužité ikony";
 
 /* Strip Historical Custom Icons on Save */
-"setting_strip_historical_icons" = "Strip Historical Custom Icons on Save";
+"setting_strip_historical_icons" = "Vyjmout z historických vlastních ikon při uložení";
 
 /* PIN Code */
-"setting_pin_code_title" = "PIN Code";
+"setting_pin_code_title" = "PIN kód";
 
 /* Primary URL */
 "generic_fieldname_primary_url" = "Primary URL";
