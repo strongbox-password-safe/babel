@@ -408,7 +408,7 @@
 "browse_vc_title_copied_fmt" = "\"%@\" Rubrik kopierades";
 
 /* '%@' 2FA Code Copied - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
-"browse_vc_totp_copied_fmt" = "'%@' 2FA Code Copied";
+"browse_vc_totp_copied_fmt" = "'%@' 2FA-kod kopierad";
 
 /* '%@' URL Copied - Translators Note: 1st param is the title of the item for which the email was just copied. This string appears in a quick tooltip style popup */
 "browse_vc_url_copied_fmt" = "\"%@\" URL kopierades";
@@ -6715,22 +6715,22 @@
 "import_file_zip_no_database_found_msg" = "Inga databaser hittades i den här zip-filen.";
 
 /* This appears to be a Zip file which may contain your database.\n\nYou will need to unzip it first before you can add it to Strongbox. */
-"import_file_zip_file_you_must_unzip_first" = "This appears to be a Zip file which may contain your database.\n\nYou will need to unzip it first before you can add it to Strongbox.";
+"import_file_zip_file_you_must_unzip_first" = "Detta ser ut att vara en zip-fil som kan innehålla din databas.\n\nDu måste först packa upp den innan du kan lägga till den i Strongbox.";
 
 /* Add to Apple Watch */
-"action_add_entry_to_apple_watch" = "Add to Apple Watch";
+"action_add_entry_to_apple_watch" = "Lägg till i Apple Watch";
 
 /* Remove from Apple Watch */
-"action_remove_entry_from_apple_watch" = "Remove from Apple Watch";
+"action_remove_entry_from_apple_watch" = "Ta bort från Apple Watch";
 
 /* Nothing Here Yet */
-"watch_empty_nothing_here_yet" = "Nothing Here Yet";
+"watch_empty_nothing_here_yet" = "Inget här ännu";
 
 /* Unlock your database & long tap on an entry to add... */
-"watch_empty_instructions" = "Unlock your database & long tap on an entry to add...";
+"watch_empty_instructions" = "Lås upp din databas och tryck länge på en post för att lägga till...";
 
 /* Watch Entries */
-"sidebar_watch_entries" = "Watch Entries";
+"sidebar_watch_entries" = "Apple Watch-poster";
 
 /* Watch */
 "browse_tab_watch" = "Watch";
@@ -6739,22 +6739,22 @@
 "apple_watch_title" = "Apple Watch";
 
 /* Apple Watch */
-"apple_watch_settings_title" = "Apple Watch Settings";
+"apple_watch_settings_title" = "Apple Watch-inställningar";
 
 /* Apple Watch Debug */
-"apple_watch_debug_title" = "Apple Watch Debug";
+"apple_watch_debug_title" = "Apple Watch felsökning";
 
 /* Apple Watch Integration */
-"allow_apple_watch_integration" = "Apple Watch Integration";
+"allow_apple_watch_integration" = "Apple Watch-integration";
 
 /* The Garage */
-"settings_advanced_the_garage_title" = "The Garage";
+"settings_advanced_the_garage_title" = "Garaget";
 
 /* Detect if Offline (to Offer Local Copy) */
-"setting_detect_if_offline" = "Detect if Offline (to Offer Local Copy)";
+"setting_detect_if_offline" = "Upptäck om offline (för att erbjuda lokal kopia)";
 
 /* Split 2FA Codes to Improve Readability */
-"setting_split_2fa_codes" = "Split 2FA Codes to Improve Readability";
+"setting_split_2fa_codes" = "Dela upp 2FA-koder för att förbättra läsbarheten";
 
 /* Associated Websites */
 "setting_associated_websites" = "Associerade webbplatser";
@@ -6808,34 +6808,34 @@
 "setting_pin_code_title" = "PIN-kod";
 
 /* Primary URL */
-"generic_fieldname_primary_url" = "Primary URL";
+"generic_fieldname_primary_url" = "Primär URL";
 
 /* Other URLs */
-"generic_fieldname_other_urls" = "Other URLs";
+"generic_fieldname_other_urls" = "Andra URL:er";
 
 /* Sync Apple Watch Now */
-"generic_action_sync_apple_watch_now" = "Sync Apple Watch Now";
+"generic_action_sync_apple_watch_now" = "Synkronisera Apple Watch nu";
 
 /* Sync Apple Watch */
-"apple_watch_sync_title" = "Sync Apple Watch";
+"apple_watch_sync_title" = "Synkronisera Apple Watch";
 
 /* Make sure your watch is paired and the Strongbox app is open on screen, then tap OK. */
-"apple_watch_sync_guidance" = "Make sure your watch is paired and the Strongbox app is open on screen, then tap OK.";
+"apple_watch_sync_guidance" = "Kontrollera att din Apple Watch är parkopplad och att Strongbox-appen är öppen på skärmen, tryck sedan på OK.";
 
 /* Syncing with Apple Watch... */
-"apple_watch_sync_progress" = "Syncing with Apple Watch...";
+"apple_watch_sync_progress" = "Synkroniserar med Apple Watch...";
 
 /* Apple Watch Synced OK */
-"apple_watch_sync_success" = "Apple Watch Synced OK";
+"apple_watch_sync_success" = "Apple Watch synkronisering OK";
 
 /* Could Not Sync Apple Watch */
-"apple_watch_sync_could_not" = "Could Not Sync Apple Watch";
+"apple_watch_sync_could_not" = "Kunde inte synkronisera Apple Watch";
 
 /* Watch App is not reachable */
-"apple_watch_sync_not_reachable" = "Watch App is not reachable";
+"apple_watch_sync_not_reachable" = "Watch-appen inte tillgänglig";
 
 /* Apple Watch Sync Error */
-"apple_watch_sync_error" = "Apple Watch Sync Error";
+"apple_watch_sync_error" = "Apple Watch synkroniseringsfel";
 
 /* What's New */
 "whats_new_title" = "Vad är nytt";
@@ -6847,10 +6847,10 @@
 "generic_dont_show_this_again" = "Visa inte det här igen";
 
 /* Zip Exports */
-"zip_exports_setting_title" = "Zip Exports";
+"zip_exports_setting_title" = "Zip-exporter";
 
 /* Zip Export? */
-"zip_export_question" = "Zip Export?";
+"zip_export_question" = "Zip-export?";
 
 /* Hide Export on Database Menu */
 "hide_export_on_database_menu" = "Dölj export i databasmenyn";
@@ -6871,7 +6871,7 @@
 "zip_export_file_prompt_message" = "Strongbox kan zippa denna exportfil om du föredrar det.\n\nVill du zippa exportfilen?";
 
 /* Hide Countdown Digits */
-"setting_2fa_hide_countdown_digits" = "Hide Countdown Digits";
+"setting_2fa_hide_countdown_digits" = "Dölj nedräkningssiffror";
 
 /* Your Apple account storage is full. Cannot save database. */
-"error_apple_account_storage_full" = "Your Apple account storage is full. Cannot save database.";
+"error_apple_account_storage_full" = "Lagringsutrymmet för ditt Apple-konto är fullt. Det går inte att spara databasen.";
