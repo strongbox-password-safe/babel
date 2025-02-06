@@ -2812,8 +2812,8 @@
 /* AutoFill Crash Occurred */
 "autofill_did_not_close_cleanly_title" = "Сбой автозаполнения";
 
-/* It looks like the last time you used AutoFill you had a crash. This is usually due to a memory limitation. Please check your database file size and your Argon2 memory settings (should be <= 64MB) */
-"autofill_did_not_close_cleanly_message" = "При использовании функции автозаполнения произошёл сбой. Обычно это связано с ограничениями памяти iOS. Проверьте размер файла БД и настройки памяти Argon2 (должно быть <= 64МБ)";
+/* It looks like the last time you used AutoFill you had a crash. This is usually due to a iOS memory limitations. Please check database file size and reduce Argon2 memory settings. */
+"autofill_did_not_close_cleanly_message" = "При использовании функции автозаполнения произошёл сбой. Обычно это связано с ограничениями памяти iOS. Проверьте размер файла БД и настройки памяти Argon2 (должно быть <= 64МБ).";
 
 /* Regenerate... */
 "password_generation_regenerate_ellipsis" = "Сгенерировать заново";
@@ -6748,13 +6748,13 @@
 "allow_apple_watch_integration" = "Интеграция с Apple Watch";
 
 /* The Garage */
-"settings_advanced_the_garage_title" = "Для экспертов";
+"settings_advanced_the_garage_title" = "Дополнения";
 
 /* Detect if Offline (to Offer Local Copy) */
 "setting_detect_if_offline" = "Определять отсутствие сети";
 
 /* Split 2FA Codes to Improve Readability */
-"setting_split_2fa_codes" = "Разделить 2FA для улучшения читаемости";
+"setting_split_2fa_codes" = "Разделить 2FA";
 
 /* Associated Websites */
 "setting_associated_websites" = "Связанные веб-сайты";
@@ -6766,10 +6766,10 @@
 "misc_settings_title" = "Прочие";
 
 /* Add 2FA Code OTPAuth URL */
-"setting_2fa_code_add_otpauth" = "Добавлять OTPAuth URL кода 2FA";
+"setting_2fa_code_add_otpauth" = "Добавлять OTPAuth URL";
 
 /* Add Legacy 2FA Code Custom Fields */
-"setting_2fa_code_add_legacy_fields" = "Добавлять пользоват. поля кода 2FA";
+"setting_2fa_code_add_legacy_fields" = "Добавлять пользоват. поля";
 
 /* Use Color Blind Palette for Passwords */
 "setting_color_blind_palette" = "Палитра Color Blind в паролях";
@@ -6844,34 +6844,34 @@
 "whats_new_subtitle" = "Мы работали над некоторыми новыми функциями. Вот несколько вещей, которые мы сделали с момента последнего обновления.";
 
 /* Don't Show This Again */
-"generic_dont_show_this_again" = "Don't Show This Again";
+"generic_dont_show_this_again" = "Не показывать снова";
 
 /* Zip Exports */
-"zip_exports_setting_title" = "Zip Exports";
+"zip_exports_setting_title" = "Экспорт в Zip";
 
 /* Zip Export? */
-"zip_export_question" = "Zip Export?";
+"zip_export_question" = "Экспорт в Zip?";
 
 /* Hide Export on Database Menu */
-"hide_export_on_database_menu" = "Скрыть опцию экспорта в меню БД";
+"hide_export_on_database_menu" = "Скрыть опцию в меню БД";
 
 /* Append Date to Export Filenames */
 "append_date_to_export_filenames" = "Добавлять дату в имя файла";
 
 /* Ask */
-"generic_setting_ask_or_prompt_user" = "Ask";
+"generic_setting_ask_or_prompt_user" = "Спросить";
 
 /* Always */
-"generic_setting_always" = "Always";
+"generic_setting_always" = "Всегда";
 
 /* Never */
 "generic_setting_never" = "Никогда";
 
 /* Strongbox can zip this export file if you prefer.\n\nWould you like to zip the export file? */
-"zip_export_file_prompt_message" = "Strongbox can zip this export file if you prefer.\n\nWould you like to zip the export file?";
+"zip_export_file_prompt_message" = "Strongbox может архивировать файл экспорта.\n\nХотите продолжить?";
 
 /* Hide Countdown Digits */
-"setting_2fa_hide_countdown_digits" = "Hide Countdown Digits";
+"setting_2fa_hide_countdown_digits" = "Скрыть таймер";
 
 /* Your Apple account storage is full. Cannot save database. */
-"error_apple_account_storage_full" = "Your Apple account storage is full. Cannot save database.";
+"error_apple_account_storage_full" = "Хранилище учётной записи Apple заполнено. Невозможно сохранить БД.";

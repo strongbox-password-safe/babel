@@ -2812,8 +2812,8 @@
 /* AutoFill Crash Occurred */
 "autofill_did_not_close_cleanly_title" = "Houve uma Falha no Preencher Automático";
 
-/* It looks like the last time you used AutoFill you had a crash. This is usually due to a memory limitation. Please check your database file size and your Argon2 memory settings (should be <= 64MB) */
-"autofill_did_not_close_cleanly_message" = "Parece que houve uma falha da última vez que você usou o Preencher Automático. Isso é normalmente causado por limitações de memória do iOS. Verifique o tamanho do banco de dados e as configurações de memória Argon2 (deve ser <= 64MB)";
+/* It looks like the last time you used AutoFill you had a crash. This is usually due to a iOS memory limitations. Please check database file size and reduce Argon2 memory settings. */
+"autofill_did_not_close_cleanly_message" = "Parece que a última vez que você usou o Preencher Automático teve um travamento. Isso geralmente ocorre devido a limitações de memória do iOS. Por favor, verifique o tamanho do arquivo de banco de dados e reduza as configurações de memória do Argon2.";
 
 /* Regenerate... */
 "password_generation_regenerate_ellipsis" = "Gerar novamente...";
