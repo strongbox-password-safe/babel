@@ -2813,7 +2813,7 @@
 "autofill_did_not_close_cleanly_title" = "Стався збій автозаповнення";
 
 /* It looks like the last time you used AutoFill you had a crash. This is usually due to a iOS memory limitations. Please check database file size and reduce Argon2 memory settings. */
-"autofill_did_not_close_cleanly_message" = "It looks like the last time you used AutoFill you had a crash. This is usually due to a iOS memory limitations. Please check database file size and reduce Argon2 memory settings.";
+"autofill_did_not_close_cleanly_message" = "Схоже, що під час останнього використання автозаповнення стався збій. Зазвичай це пов'язано з обмеженнями пам'яті iOS. Перевірте розмір файлу бази даних і зменште значення налаштування пам'яті Argon2.";
 
 /* Regenerate... */
 "password_generation_regenerate_ellipsis" = "Генерувати знову...";
@@ -3311,7 +3311,7 @@
 "open_sequence_storage_provider_error_title" = "Помилка синхронізації";
 
 /* If this happens repeatedly you should try re-adding your database. See the Debug Log for more...\n\nWould you like to open in offline mode instead? */
-"open_sequence_storage_provider_error_open_local_ro_instead" = "Якщо це повторюватиметься, вам слід спробувати ще раз додати свою базу паролів. Перегляньте журнал налагодження для докладних відомостей...\n\nБажаєте натомість відкрити в автономному режимі?";
+"open_sequence_storage_provider_error_open_local_ro_instead" = "Якщо це повторюватиметься, вам слід спробувати ще раз додати свою базу паролів. Перегляньте журнал налагодження для докладних відомостей...\n\nБажаєте натомість відкрити локальну копію?";
 
 /* Local Copy Unavailable */
 "autofill_vc_item_subtitle_local_copy_unavailable" = "Локальна копія недоступна";
@@ -4125,7 +4125,7 @@
 "database_properties_title_always_offline" = "Відкривати локально";
 
 /* You can choose to always open offline whenever you tap on this database. No sync will be performed on unlock, though a background sync can be performed by pulling down on your Databases List. */
-"database_properties_subtitle_always_offline" = "Ви можете завжди відкривати в автономному режимі при виборі цієї бази паролів. При відмиканні синхронізація не відбуватиметься, однак фонову синхронізацію можна виконати, потягнувши донизу список бази паролів.";
+"database_properties_subtitle_always_offline" = "Ви можете завжди відкривати в локальному режимі при виборі цієї бази паролів. При відмиканні синхронізація не відбуватиметься, однак фонову синхронізацію можна виконати, потягнувши донизу список бази паролів.";
 
 /* What to do if Strongbox detects you are Offline when opening a database. */
 "database_properties_subtitle_offline_detected_behaviour" = "Що робити, якщо Strongbox виявляє відсутність мережі при відкриванні бази паролів.";
@@ -5231,7 +5231,7 @@
 "sync_error_message_including_error_detail_fmt" = "Вашу базу даних надійно збережено, але виникла помилка під час синхронізації. Бажаєте спробувати синхронізувати знову чи переглянути журнал налагодження?\n\n%@\n";
 
 /* This database is in Offline Mode and cannot be synced. */
-"database_is_in_offline_mode_cannot_be_synced" = "Ця база даних зараз в автономному режимі, тому її неможливо синхронізувати.";
+"database_is_in_offline_mode_cannot_be_synced" = "Ця база даних зараз в локальному режимі, тому її неможливо синхронізувати.";
 
 /* Save Successful */
 "generic_save_was_successful" = "Успішно збережено";
@@ -5854,7 +5854,7 @@
 "wifi_sync_no_devices_found" = "Пристроїв не знайдено";
 
 /* Sync in Offline Mode? */
-"manual_pulldown_sync_sync_in_offline_mode_question_title" = "Синхронізація в автономному режимі?";
+"manual_pulldown_sync_sync_in_offline_mode_question_title" = "Синхронізувати в локальному режимі?";
 
 /* Would you like to sync even though the database is in Offline mode? */
 "manual_pulldown_sync_sync_in_offline_mode_question_message" = "Бажаєте синхронізувати навіть за відсутності інтернет-з'єднання?";
@@ -6709,22 +6709,22 @@
 "import_file_zip_detected_ask_unzip_title" = "Спершу розархівувати?";
 
 /* This appears to be a Zip file rather than a database.\n\nShould Strongbox try to unzip first and then import a database if it can find one? */
-"import_file_zip_detected_ask_unzip_msg" = "This appears to be a Zip file rather than a database.\n\nShould Strongbox try to unzip first and then import a database if it can find one?";
+"import_file_zip_detected_ask_unzip_msg" = "Схоже, що це Zip-файл, а не база даних.\n\nЧи повинен Strongbox спробувати спочатку розпакувати архів, а потім імпортувати базу даних, якщо він зможе її знайти?";
 
 /* No databases were found inside this Zip file. */
-"import_file_zip_no_database_found_msg" = "No databases were found inside this Zip file.";
+"import_file_zip_no_database_found_msg" = "У цьому Zip-архіві не знайдено жодної бази даних.";
 
 /* This appears to be a Zip file which may contain your database.\n\nYou will need to unzip it first before you can add it to Strongbox. */
-"import_file_zip_file_you_must_unzip_first" = "This appears to be a Zip file which may contain your database.\n\nYou will need to unzip it first before you can add it to Strongbox.";
+"import_file_zip_file_you_must_unzip_first" = "Це Zip-файл, який може містити вашу базу даних.\n\nВам потрібно буде спочатку розпакувати його, перш ніж ви зможете додати його до Strongbox.";
 
 /* Add to Apple Watch */
-"action_add_entry_to_apple_watch" = "Add to Apple Watch";
+"action_add_entry_to_apple_watch" = "Додати в Apple Watch";
 
 /* Remove from Apple Watch */
-"action_remove_entry_from_apple_watch" = "Remove from Apple Watch";
+"action_remove_entry_from_apple_watch" = "Видалити з Apple Watch";
 
 /* Nothing Here Yet */
-"watch_empty_nothing_here_yet" = "Nothing Here Yet";
+"watch_empty_nothing_here_yet" = "Тут ще нічого немає";
 
 /* Unlock your database & long tap on an entry to add... */
 "watch_empty_instructions" = "Unlock your database & long tap on an entry to add...";
@@ -6751,7 +6751,7 @@
 "settings_advanced_the_garage_title" = "Для експертів";
 
 /* Detect if Offline (to Offer Local Copy) */
-"setting_detect_if_offline" = "Detect if Offline (to Offer Local Copy)";
+"setting_detect_if_offline" = "Виявляти відсутність мережі (для відкриття локальної копії)";
 
 /* Split 2FA Codes to Improve Readability */
 "setting_split_2fa_codes" = "Розділення кодів 2FA для покращення читабельності";
